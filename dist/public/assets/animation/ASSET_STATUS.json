@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T22:29:29.413Z",
+  "generatedAt": "2026-10-23T00:31:22.476Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 530,
+  "inspectedClips": 540,
   "errors": [
     {
       "code": "missing-clip",
@@ -13182,12 +13182,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "draya-staffwind"
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "kael-rune"
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -60721,6 +61001,922 @@
           "h": 96,
           "hash": "58b6ed5f3179597ca1d76279797e254d70fa5f22f3e53cf01d2d17182e550139",
           "visiblePixels": 2943
+        }
+      ]
+    },
+    {
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/draya-staffwind-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "edef55720afd6228c12a4c67d3eeabc5646e515513561272df67d0131952d575",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b55dcde4369be0be5caac197f4e12659a3f870100b4790f0b8f8a8306540d327",
+          "visiblePixels": 2579
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4cc75980976fa6e3530882d2f51a142f50dd83b91ae5870e9485c2f3488fea5c",
+          "visiblePixels": 2446
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6243b2cdf7f1ff7abb4a0f4b8120395a092b91c2241b9b06dc634a28f9020b38",
+          "visiblePixels": 2526
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9678074f3b4e001b757ac14380d398f68a54fc389130dfdc7482df32f74f6921",
+          "visiblePixels": 2509
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "54ec6a1788fcde4951c171af5ac679e17f994ae4f32b9716bb30998cf24a2d31",
+          "visiblePixels": 2572
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "93f361adb862c5b4ff38c4a673346a4f364f434d24041e7647ba9b68e54fd92b",
+          "visiblePixels": 2545
+        }
+      ]
+    },
+    {
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/draya-staffwind-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "d36332c066a360fe125d8d668cdd801c5182c8bfdbfdabbd3f0440d78f024fda",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1497b359443637512975dd48c84cb50d2f2d2ea2756d80ba19bc92c33d039667",
+          "visiblePixels": 2477
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "39ef3868ec41bb60681588db41ab3c5706648f22d612586513642d8f4f2c86be",
+          "visiblePixels": 2965
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4c2e8e7f1722a1f9011f0d895e5be7f97fb4a2c5adeaa2244883d7be80797603",
+          "visiblePixels": 2834
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9c9422ca7c06b430961649587fb29a0dadea737609fd32d32509f5f726a78dce",
+          "visiblePixels": 2915
+        }
+      ]
+    },
+    {
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/draya-staffwind-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "7a4f6947563e570dd9d6b720b3b2942716ce40267e530f6a79b6dc5267c0135b",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "62871439d0238dca2d907c9c4750e008f0d7505ddeb86211eb869258c2325cb3",
+          "visiblePixels": 2289
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "30895feb834f823a87df2de2ff8bf1576a388689fecb321509957897d524c45e",
+          "visiblePixels": 2469
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "137ff23fd42247dbea62cd36bfcef768d89a898af6641610442f67c5214703ea",
+          "visiblePixels": 2283
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7b1ea0feda18c2bc6f8ec35c824f72570830f478d2169b232033b7f46d9e2be6",
+          "visiblePixels": 2169
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9bd1decc7b1010713db9ea8c6b5ffae6e3cf33b207235b29420db0571ee325f7",
+          "visiblePixels": 2346
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "db2270ebed143adf7d69b8c79f9808633efdccc2e95cab774f02f027d0c11d32",
+          "visiblePixels": 2151
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4524ee74eb3b6c6b945e560d74d677cb6664f58c85e324bb1015da312eec215c",
+          "visiblePixels": 2130
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b6297ac5a56cc8fe1c0246f0279a67412676a4993f1aa31f470bb427ea423547",
+          "visiblePixels": 2596
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "337f415ffdde01795226d28ff2ae968457ad9ec986d3868621cc3e46fe51a34f",
+          "visiblePixels": 2728
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "6a76d42774020afd0d94061d8398db14ac1de77194ed35f6fc5b74d2f862fe9e",
+          "visiblePixels": 2744
+        }
+      ]
+    },
+    {
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/draya-staffwind-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "b0c333351fdf63881c5333b10d66bb62c9f39a2d2f393b213d81a99f7e386d55",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2d20e5efc18541912159d28bdfdda6ca19f5581397d391ca5cac3b2b4a471a7b",
+          "visiblePixels": 2569
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0b5c303db1685c0132dbf3c24dc92049366c0c4b1cc8da3ec0c6841f9c66a47c",
+          "visiblePixels": 2462
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e19897769f06f79f622d4c0223a0cd89c88e2360f62ea3571a99ed469db475c4",
+          "visiblePixels": 2357
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1e61740f817682225024257e23184f1fd9774e474ae0a99afc890c8be038b9d6",
+          "visiblePixels": 2588
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "63832526f295762e00d337e50f34f520a7989423c9812ac0bc13262da8da3486",
+          "visiblePixels": 2394
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3e678d418abd929a835b341fe7e48fedb08b26589a517ad53f07fcac060ce560",
+          "visiblePixels": 2279
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "08f1a32874f4da92843a3b9928f5579f222fb162dae68bc42e93fe2172e31679",
+          "visiblePixels": 2371
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "00b1a1acf7c11642a84b3a30c8cf569c7e2379ea49bbd09c80308333e1571ed9",
+          "visiblePixels": 2731
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "fe4b94911b6a6138e8a76ead605ac6b1aeb8d7bde0a9aa3be4681f3253dc75fa",
+          "visiblePixels": 2802
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "863ce29fa9ae11d5adf8686157cd3e1196bfb65b50de5ad4b8c959ece906d6a0",
+          "visiblePixels": 2801
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "ba6cd2f1da468f71dfc2f5ab5d9fd0281888467d1f84e99aacfc7f5ea94c4e6d",
+          "visiblePixels": 2819
+        }
+      ]
+    },
+    {
+      "athlete": "draya-staffwind",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/draya-staffwind-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "0ce0a27f945cb288f17730f6607663ebbfaefc836c021c5469efe7c6277c4fdb",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8ce987609b3f19bdc2a47b3479a1e2c59a1c6179247ecdf0d333f368072d9df8",
+          "visiblePixels": 2389
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7c94a1872154b9c9c620b7a4add1d70f475ef3fa51220467e290445e13339f0e",
+          "visiblePixels": 2125
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fbdfa737435bec1a575ce70cd170c6aeee9d7d40690fab1af9fed4564fc3e2e6",
+          "visiblePixels": 2403
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "50ef3a1bcd5af0db1acf46a3ef7a7bb5ce2f8302448aae0311354b1d246b776f",
+          "visiblePixels": 2247
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3335c04e69a00161718f2ddb8168846d5a2233503743b540f440f1f03e2e1601",
+          "visiblePixels": 2236
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f7ddca7f00f2e50d30933edec2ef559ecfed2aa05ed00f29098bc617ab4eb47b",
+          "visiblePixels": 2297
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "bccd6974913bde1c3085001a7231b56e9685904e7cacffa620ee78c1b56cbbf1",
+          "visiblePixels": 2317
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "508fe8330807008d628b7c9248b3bc17fb00d85b0573f0ca53c5b7ced5dbaa7c",
+          "visiblePixels": 2523
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1e89e85090f2922153450e2ff7d3d53ffea9d89a4113b32416edcbc72f18257a",
+          "visiblePixels": 2661
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d860ac13cd5071c685740246d71294aaf56571e73f96516c51791c7d01610ce1",
+          "visiblePixels": 2397
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "5431b4f00ddf9edb6707d36cb1ee4865688e1fce2a890c71a2b58847deb0c2c4",
+          "visiblePixels": 2683
+        }
+      ]
+    },
+    {
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/kael-rune-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "9a44a41838dbe7e1d65ea1ea05808b1033d3a8fd861b27fb9c92420917ca9d86",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "481a8e6ceac6ec769519071e91702785d11d6721d220d8dbad23252a081df7ac",
+          "visiblePixels": 2677
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "82b46809a262a6b5af97c4de9de58c7666bab8ab84287e43b8e6daf4f3ccd048",
+          "visiblePixels": 2603
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7c0bf04bad2dd524faa9d7f9cee1e9032fa67b5fe0c28e18f8d8616c3a387aca",
+          "visiblePixels": 2320
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8e98680fa3ddcb825a39c260317e5a1e5bd23dc233e3868d7bffba22780a53f1",
+          "visiblePixels": 2742
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ff22866441a535e6ec5c33b41bf2f538efbeac43894d95ee0c88d8601af6a44c",
+          "visiblePixels": 2626
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6bc1b1e8aa7bc2a1168da17dc16457b0c1cb24df30d9496aa1c27975dbce3dd6",
+          "visiblePixels": 2561
+        }
+      ]
+    },
+    {
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/kael-rune-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "911911109ce80d36249f676d3ec0fff1501325ed36ce9ad288ec6ffc3f9dfb8a",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f75429a0206442bfcbe026f4d5a34701929ed7883024e5e40fdadaf18c392259",
+          "visiblePixels": 2731
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8faef2ee75f6cc5d5b9f25edeb10f1a7395f0bbfa567919cd22068df265d436b",
+          "visiblePixels": 2925
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2c56783b52638788a307376f55cf36b8341526de630ca592349b03781fb53c24",
+          "visiblePixels": 2871
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4abc8381d98e5c9dc786e8ca58ec4499287ffbd72014c453af92b9358e3d12fa",
+          "visiblePixels": 2791
+        }
+      ]
+    },
+    {
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/kael-rune-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "c3597bfaedbd9a6538bd424f329317d540bc054536b10f7224cb145a770d11b0",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fc4384e6e4df937ec9d85b0d5c9808775ebe480e824e05b7b7b2dde20f37c491",
+          "visiblePixels": 2199
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7104c4044a4aea5b02203e71baf7160de41a169ff938654b258909f509d9072c",
+          "visiblePixels": 2180
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0a6c635473bb4ebe4f1fd6bfa0455a93ff9ee0dc48850608c27badb61d4a041d",
+          "visiblePixels": 2043
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "edc20648f73b9f37e4a350088166b0c0b3e6de3931871c0b0d94ba8373a4bdc1",
+          "visiblePixels": 2086
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b16b61ec5bbbc1edeec22513df0f6843be72d215313228dae3735fc4a77ace58",
+          "visiblePixels": 2129
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c7826fb78ecefa2a48057774ff059609e8c53619d2a8d7a30b5edf3a494746c0",
+          "visiblePixels": 2133
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5ae35241401a1fa1a21c237314c8303e2045e38346f343f3585c8d07c6b1f1b5",
+          "visiblePixels": 2126
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b4bea80061b6b2ada2ad270e0f53e14f17a6f752ba303c91c7b13eb2f288b97e",
+          "visiblePixels": 2463
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "86fbada8d06830766d4a0cad44f3affbecea44ed2ad11cad69e4185f0e349197",
+          "visiblePixels": 2315
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "9fa2c86d82fd89c800f903b12d1c3f264506ea7ec09e81966b4ffa7829d8d30a",
+          "visiblePixels": 2520
+        }
+      ]
+    },
+    {
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/kael-rune-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "02aa64c91fb9feef3058cdd8cf40696b42130ae43f856446a641d5a20ce287c8",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fc7c02ddde4fecd01b0b929b5eddfec2c084135b00fa43e2dbc6b92b939cb3c8",
+          "visiblePixels": 2278
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e2923538ca2e3938508a8fafdc59c1e8551c8b0603498e1a31dd6b708614359e",
+          "visiblePixels": 2049
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "14c90b5f30e246d40a8abd3b6b9c247196275c0e33c291b9a995385bf2eceab1",
+          "visiblePixels": 2112
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d0a9a7cee08a294beac3cc0a080928dab0903bdaac0d73d5fda0c968a65534c5",
+          "visiblePixels": 2091
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7bbbf6cc10e78c06106e561d0b7934c051beb09c1c4cf7e03e35e84d623958e6",
+          "visiblePixels": 2001
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1ab1d57e6c27c12676ca9a345859b0a2ca5a73120c98e784981606b6424ada67",
+          "visiblePixels": 2256
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "dce661a41900e0514a447939939c30997acd18970659ee3af7d819e1c46dbad1",
+          "visiblePixels": 2242
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "41f9969a961f778412ea213be10c8105e21b16dccbb531178429729adcca9e40",
+          "visiblePixels": 2841
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "ac263fcc4395538b0bce6a132d94ef9506f88b5f5d7664fc225bd9816b1690c7",
+          "visiblePixels": 2883
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "f62f326bd27e57bc10216af17701b8a0283c72f2e3a62c2575ccadeb640bffd2",
+          "visiblePixels": 2859
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "7b69cb2c2800b45044253e1d660bd99644a5a547cdee37e14f8c5649b000483e",
+          "visiblePixels": 3075
+        }
+      ]
+    },
+    {
+      "athlete": "kael-rune",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/kael-rune-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "eacbe3bafb74e514383d3d0a29bd2f68987bb1246b8006825e92a22f7d67fa2d",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f64f88253d92fd26e4b42210886b8c8148924e1ea7708d5555af4dff9edfe6e1",
+          "visiblePixels": 2302
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d39044d65611a0cacf1968d6fbe886201923fe30c60ff040e98749ffc9ead4a7",
+          "visiblePixels": 2252
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b568adc00426ff64c1f2d9ae587d32c4e70ed4aa46f78e6e8ec471f7a6c57948",
+          "visiblePixels": 2176
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "35ae51b791fc1520e50e22a40c3cafc8903c4748173a7fd24dc500ec338fe859",
+          "visiblePixels": 2156
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7bacae1cf5281f3d8467f3dbdb291e2a5cdb70ebe1ea9aa9094371c8da6b1d35",
+          "visiblePixels": 2138
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "480233d2711c16066a2852eb8b4253f5e2c063a8ee62a9287d1d95a834247196",
+          "visiblePixels": 2109
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c4d9f570dcf1bf0095237f8bbe5a875b26c8746ee832bc1661c2de0967ff42dd",
+          "visiblePixels": 2155
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7445e6e5aae3bddc7f235bd77a36e2aafed2ab6b400b25b899e717a52d32d9ad",
+          "visiblePixels": 2491
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "22c0148acbd2d5a4435dc071402b3748e22db6cb02531c439424e2979c526fbf",
+          "visiblePixels": 2614
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "6ed037dfa8d57c546655c0c4309e63d1c709b4bbf2f8ef0e1aeadf710a29a10f",
+          "visiblePixels": 2748
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "c0f1e2e70f9f8a0d8af6593ed35544f00cab6722f4c723042c7c062ae7379fb3",
+          "visiblePixels": 2793
         }
       ]
     },

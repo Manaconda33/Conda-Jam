@@ -33,7 +33,7 @@ for(const token of html.matchAll(/<!--[\s\S]*?-->|<![^>]*>|<\/?[^>]+>|[^<]+/g)){
 document.createTextNode=text=>{const node=new Element('#text');node.textContent=text;return node};
 document.getElementById=id=>document.querySelector('#'+id);document.createElement=tag=>new Element(tag);document.documentElement=document.querySelector('html');document.body=document.querySelector('body');
 delete globalThis.navigator;
-const window=new Element('window');Object.assign(globalThis,{document,window,Image:BrowserImage,ResizeObserver:class{observe(){}},requestAnimationFrame:()=>1,cancelAnimationFrame(){},localStorage:{getItem(){return null},setItem(){}},navigator:{getGamepads:()=>[]}});
+const window=new Element('window');Object.assign(globalThis,{document,window,location:{search:''},Image:BrowserImage,ResizeObserver:class{observe(){}},requestAnimationFrame:()=>1,cancelAnimationFrame(){},localStorage:{getItem(){return null},setItem(){}},navigator:{getGamepads:()=>[]}});
 await import(pathToFileURL(root+'/src/main.js'));
 for(const im of images)if(!im.complete)await Promise.race([new Promise((resolve,reject)=>{im.addEventListener('load',resolve);im.onerror=reject}),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Image did not load: '+im.file+' '+im.width+'x'+im.height)),5000))]);
 const game=window.jamverse;
@@ -64,7 +64,7 @@ const previews=[],previewFrames=[],clips=Object.keys(animationClips);
 for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip of clips){
  for(const player of state.players){player.x=x+(player.team?40:-40);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  const aerial=clip.startsWith('dunk-')||clip.startsWith('alley-oop-');
- const tick=aerial?anchorTick(clip,'peak'):anchorTick(clip,'release')??anchorTick(clip,'apex')??anchorTick(clip,'grab')??anchorTick(clip,'contact')??12;
+ const tick=aerial?anchorTick(clip,'peak'):anchorTick(clip,'release')??anchorTick(clip,'apex')??anchorTick(clip,'grab')??anchorTick(clip,'contact')??anchorTick(clip,'bounce')??12;
  p.x=x;p.y=50;p.animation={clip,tick};p.z=aerial?5:clip==='shoot'||clip.startsWith('layup')||clip==='block'||clip==='rebound'?2:0;
  p.hasBall=['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','layup','layup-reverse'].includes(clip)||aerial;p.facing=position==='right'?-1:1;
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick,p.id),y:p.y,z:p.z+(p.hasBall?sampleBallHeight(clip,p.animation.tick,p.id):0),mode:p.hasBall?'carried':'loose',ownerId:p.hasBall?p.id:null});

@@ -258,6 +258,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.78,.66,.9],forward:[8,9,10,9]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'draya-staffwind':{
+  // Draya's open right hand stays forward of her torso; her long loc ponytail
+  // trails behind the ball through both low dribble cycles.
+  'idle-ball':{height:[1.05,.78,.66,.9],forward:[8,9,10,9]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[9,9,10,11,12,12,11,10,9,8,8]}
+},'kael-rune':{
+  // Kael's broader shoulders need a slightly wider forward ball lane. Keep
+  // the ball on his right hand and on the court at each authored bounce.
+  'idle-ball':{height:[1.1,.82,.68,.94],forward:[9,10,11,10]},
+  dribble:{forward:[7,8,9,10,11,11,10,9,8,7]},
+  'dribble-run':{forward:[10,10,11,12,13,13,12,11,10,9,9]}
 },'auric-scale':{
   // Auric's ball stays in front of the reaching hand, clear of his gold trim.
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},

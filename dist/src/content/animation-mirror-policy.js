@@ -1443,13 +1443,18 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long brown hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.31 runtime portrait/gameplay cell60 and all42 original locomotion drawings preserve Draya as an adult human woman with warm medium-brown skin, dark eyes, focused face, abundant chestnut-brown locs in a high ponytail with small gold ties, natural athletic-curvy proportions and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. Her right-hand ball track is applied separately from the body flip."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-23",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/sources/draya-staffwind-locomotion42.png",
+      "public/assets/animation/draya-staffwind-idle-ball-right.webp",
+      "public/assets/animation/draya-staffwind-dribble-right.webp",
+      "public/assets/animation/draya-staffwind-run-right.webp",
+      "public/assets/animation/draya-staffwind-dribble-run-right.webp"
     ],
     "canonicalSection": "J.31",
     "sourceCell": 60
@@ -1458,13 +1463,18 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: dark curls and beard in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.31 runtime portrait/gameplay cell61 and all42 original locomotion drawings preserve Kael as an adult human man with warm medium-brown skin, dark eyes, angular face, short dense navy-black curls, close connected beard/mustache, compact muscular build and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. His right-hand ball track is applied separately from the body flip."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-23",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/sources/kael-rune-locomotion42.png",
+      "public/assets/animation/kael-rune-idle-ball-right.webp",
+      "public/assets/animation/kael-rune-dribble-right.webp",
+      "public/assets/animation/kael-rune-run-right.webp",
+      "public/assets/animation/kael-rune-dribble-run-right.webp"
     ],
     "canonicalSection": "J.31",
     "sourceCell": 61

@@ -1,6 +1,6 @@
 # JAMVERSE ’96 — Active Handoff
 
-Updated 2026-10-22. This file is the concise resume point; `docs/SESSION_HANDOFF.md` preserves the longer production history.
+Updated 2026-10-23. This file is the concise resume point; `docs/SESSION_HANDOFF.md` preserves the longer production history.
 
 ## Mission and status
 
@@ -14,7 +14,7 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
 - Latest deployed source checkpoint: `bbb1cbdca85d14dafb77387d29179841b59756c9`; Pages run #70 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39871158208>.
 - Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bbb1cbd>.
-- J.29 and J.30 art batches are pushed and deployed. J.31 identity references and prompts are checkpointed; the generation service continues to return HTTP 400 `Unknown parameter: reasoning`, so J.31 character art is still pending.
+- J.29 and J.30 art batches are pushed and deployed. J.31 Draya Staffwind and Kael Rune now have complete reviewed locomotion art locally; this checkpoint is pending push and Pages verification.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -27,7 +27,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Exact prompts, generation IDs, rejected attempts, raw sources, source maps and provenance: `tools/generate-art/j29-locomotion-prompts.md`, `tools/generate-art/assemble-supporting-locomotion42.py`, `tools/generate-art/*granite*`, and `tools/generate-art/*alder*`.
 - Reviewed native preview captures: `artifacts/native-render-preview/moss-granite`, `thump-alder`, `moss-granite-zoom120`, and `thump-alder-zoom120`. Both athletes load104 images /87 snapshots; all five clips select production sprites in each facing.
 - Canon mirror review: `docs/animation-production/CANON_MIRROR_REVIEW.md`; source and runtime policy in `src/content/animation-mirror-policy.js`.
-- Current decoded audit: 530 reviewed clips /4,525 drawings /95 represented athletes. It reports2,283 missing clips,10 unrepresented athletes and three clips below target. Moss Granite, Thump Alder, Camden Union and Poppy Stitch each still need24 action clips. The strict audit correctly remains incomplete.
+- Current decoded audit:540 reviewed clips /4,609 drawings /97 represented athletes. It reports2,331 missing clips,8 athletes without registered clips and three clips below target. J.29–J.31 athletes still need24 action clips each. The strict audit correctly remains incomplete.
 
 ## J.30 — Camden Union and Poppy Stitch
 
@@ -36,12 +36,12 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Five atlases per athlete are registered; canon mirror policy and separate right-hand ball tracks are reviewed. Focused tests pass. Native Canvas previews at standard and zoom120 load109 images and capture87 snapshots each; all five clips select production art in both facings. Captures are under `artifacts/native-render-preview/{camden-union,poppy-stitch}{,-zoom120}`.
 - Exact prompts, generation IDs, rejected candidates, source hashes, references, source maps and atlas provenance are recorded in `tools/generate-art/j30-locomotion-prompts.md`, `tools/generate-art/assemble-supporting-locomotion42.py` and `tools/generate-art/*-locomotion42-provenance.json`.
 
-## J.31 source work — Draya Staffwind and Kael Rune
+## J.31 — Draya Staffwind and Kael Rune
 
-- Runtime roster mapping places Draya at zero-based cell60 and Kael at cell61. Exact portrait cells and gameplay crops with the primary in-cell athlete component isolated are saved under `tools/generate-art/references/`.
-- Draya remains a warm medium-brown human woman with long chestnut locs in a high ponytail and gold ties; Kael remains a warm medium-brown human man with short dark curls and a close beard/mustache. Both retain Coppermoon Skyblades plum/copper/pale-gold kit and natural human anatomy.
-- Base and detailed safe-supplement prompts are recorded in `tools/generate-art/j31-locomotion-prompts.md`. The latest Draya generation attempt still fails immediately with HTTP400 `Unknown parameter: reasoning`; no J.31 sprites or atlases are registered.
-- Exact portrait/gameplay references for the next four pairs (J.32–J.35, cells62–69) are extracted and visually checked under `tools/generate-art/references/`; roster identities, cell map, connected-component review and file hashes are in `tools/generate-art/j32-j35-reference-checkpoint.md`. Pair prompts are in `tools/generate-art/j32-locomotion-prompts.md` and `tools/generate-art/j33-j35-locomotion-prompts.md`. Keep J.31 first in integration order. The ten athletes in J.31–J.35 still have no generated sprites or registered clips.
+- Correct runtime cells60 and61 supply the exact portrait/gameplay references. Draya retains warm medium-brown skin, focused adult face, chestnut locs in a high ponytail with gold ties, athletic-curvy proportions and Coppermoon plum/copper/pale-gold kit. Kael retains warm medium-brown skin, angular adult face, short navy-black curls, connected beard/mustache, compact muscular build and matching kit.
+- Both athletes have accepted28-pose bases and safe14-pose supplements, assembled as42 distinct in-bounds original figures. Draya’s first base attempt embedded basketballs and is preserved as rejected source history; it is not packed. Raw source hashes, exact prompts, generation IDs, maps and provenance are recorded in `tools/generate-art/j31-locomotion-prompts.md` and `tools/generate-art/*-locomotion42-provenance.json`.
+- Five reviewed atlases per athlete are registered. Canon mirror review permits safe body mirroring, and separate athlete-specific right-hand ball tracks follow each hand and reach court at the low dribble bounce. Focused tests pass; native Canvas standard and zoom120 previews load105 images and capture87 snapshots per athlete, with all five clips selected in both facings. Captures are under `artifacts/native-render-preview/{draya-staffwind,kael-rune}{,-zoom120}`.
+- The next prepared source batch is J.32 Lilt Smile and Violet Wink (cells62/63), followed by pairs through J.35. Exact references and prompts are checkpointed in `tools/generate-art/j32-j35-reference-checkpoint.md` and the J.32–J.35 locomotion prompt files. Each athlete still needs24 action clips beyond locomotion.
 
 ## J.31 interim gameplay polish
 
@@ -51,11 +51,11 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Added saved gamepad mappings for shoot, pass, turbo and pause, plus D-pad movement fallback when the left stick is centered. Chromium E2E checks custom action buttons, D-pad movement, analog movement and four-pad assignment.
 - Added opt-in diagnostics with `?debug=1` and F3, showing measured FPS, mean simulation tick time, seed and current match/ball state; the overlay stays outside the score HUD. Unit and Chromium tests cover the readings, default-off state, toggle and standalone build.
 - Deployed as `bbb1cbd` (Pages run #70). Build, all28 automated test files, lint and Chromium full-match/season E2E pass. Content validation confirms35 franchises /105 unique athletes; the100-match simulation completed853,867 ticks with7 overtime periods.
-- Strict animation audit remains incomplete:530 clips /4,525 drawings /95 represented athletes;2,283 missing clips,10 missing characters and3 below-target clips.
+- Strict animation audit remains incomplete:540 clips /4,609 drawings /97 represented athletes;2,331 missing clips,8 missing characters and3 below-target clips.
 
 ## Required continuation
 
-1. Finish J.31 in runtime roster order: Draya Staffwind and Kael Rune of Coppermoon Skyblades are the next unrepresented pair (reference cells60 and61).
+1. Continue in roster order with J.32 Lilt Smile and Violet Wink (cells62 and63); J.31 Draya and Kael have only their five locomotion actions complete.
 2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/ANIMATION_ASSET_AUDIT.md` and `public/assets/animation/ASSET_STATUS.json`.
 3. Continue gameplay and presentation polish and address the outstanding spec/known issues.
 4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.
@@ -72,8 +72,8 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 ## J.31 gameplay polish checks performed
 
 - `node --test tests/camera-tracking.test.js tests/box-score.test.js tests/gamepad-controls.test.js`:11 test cases pass. The final-box-score browser capture visibly includes the new `KDN` column; generated E2E screenshots were restored after review.
-- `npm run build`, `npm test` (all27 files), `npm run lint` (17 JavaScript modules) and the full offline Chromium E2E journey pass. The restricted Chromium launch still needs the authorized elevated retry because of its Crashpad socket restriction.
+- `npm run build`, `npm test` (all28 files), `npm run lint` (18 JavaScript modules), `npm run validate:content` and the full offline Chromium E2E journey pass. E2E covers settings, controls, co-op, a complete default-length match and season progression; the first restricted Chromium launch failed at Crashpad, and the authorized elevated retry passed.
 - E2E verified that gamepad mapping changes persist, mapped shoot/pass/turbo actions register, D-pad and analog movement both work, Start pauses/resumes by default, and hot-plug/four-pad play still works.
 - `npm run validate:content`:35 franchises /105 unique athletes. `npm run simulate:league`:100 completed matches /853,867 ticks /7 overtime periods.
-- Strict audit was rerun report-only and remains incomplete at530 clips,4,525 drawings,95 athletes,2,283 missing clips,10 missing characters and3 target shortfalls.
+- Strict audit was rerun report-only and remains incomplete at540 clips,4,609 drawings,97 athletes,2,331 missing clips,8 missing characters and3 target shortfalls. The decoded status JSON and audit summaries are updated; incomplete output is expected until every required clip is authored.
 - Pages run #69 deployed the gamepad settings and controls build successfully; the preview URL at the top is current.

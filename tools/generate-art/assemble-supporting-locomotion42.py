@@ -671,3 +671,38 @@ if __name__ == '__main__' and {'camden-union', 'poppy-stitch'} & set(sys.argv[1:
              'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
                     7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
         ], target_height=142)
+
+
+if __name__ == '__main__' and {'draya-staffwind', 'kael-rune'} & set(sys.argv[1:]):
+    # J.31 uses the cell60/61 identities. Each four-row base contributes
+    # idle, stationary dribble, run and dribble-run poses; the safe fourteen-
+    # pose strip fills ball-ready gaps and the remaining action phases.
+    ids = {
+        'draya-staffwind': ('exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815',
+                            'exec-a58be28b-1597-4119-b4be-8c6b3195859f'),
+        'kael-rune': ('exec-796741ae-88ca-42b3-9bed-e0abfaa1be81',
+                      'exec-2d8a16f5-0097-4a40-98ae-f15755ce5331'),
+    }
+    for athlete in ('draya-staffwind', 'kael-rune'):
+        if athlete not in sys.argv[1:]:
+            continue
+        base_id, supplement_id = ids[athlete]
+        build(athlete, 'J.31', [
+            {'name':'base','path':f'{athlete}-locomotion-base.png',
+             'generatedImage':f'/workspace/generated_images/{base_id}.png',
+             'rows':[7,7,7,7],
+             'map':{**{i:i for i in range(6)}, 6:6,
+                    **{i:i+3 for i in range(7,14)},
+                    **{i:i+6 for i in range(14,21)},
+                    **{i:i+10 for i in range(21,28)}}},
+            *([{'name':'base-rejected-with-balls','path':'draya-staffwind-locomotion-base-rejected-with-balls.png',
+                'generatedImage':'/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png',
+                'unselectedOnly':True,'expectedPoses':28,'map':{},
+                'unselectedReason':'This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed.'}]
+              if athlete=='draya-staffwind' else []),
+            {'name':'supplement-14','path':f'{athlete}-locomotion-supplement-14.png',
+             'generatedImage':f'/workspace/generated_images/{supplement_id}.png',
+             'rows':[7,7],
+             'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
+                    7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
+        ], target_height=142)

@@ -6950,7 +6950,7 @@ export const animationAssetManifest = {
             "sha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -7046,7 +7046,7 @@ export const animationAssetManifest = {
             "sha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -7170,7 +7170,7 @@ export const animationAssetManifest = {
             "sha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -7343,7 +7343,7 @@ export const animationAssetManifest = {
             "sha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -7523,7 +7523,7 @@ export const animationAssetManifest = {
             "sha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -18544,7 +18544,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "The orange high ponytail and uniform have no fixed side. Body mirroring preserves Piper’s identity; keep the orange hair and russet/cream team colors."
+        "notes": "The orange high ponytail and uniform have no fixed side. Body mirroring preserves Piper\u2019s identity; keep the orange hair and russet/cream team colors."
       }
     },
     "briar-foxglove": {
@@ -19300,7 +19300,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Brown shoulder-length locs and a red headband have no fixed side. Mirroring preserves Briar’s identity; keep the russet and cream team colors."
+        "notes": "Brown shoulder-length locs and a red headband have no fixed side. Mirroring preserves Briar\u2019s identity; keep the russet and cream team colors."
       }
     },
     "keeg": {
@@ -24079,7 +24079,7 @@ export const animationAssetManifest = {
                 "pass-behind"
               ],
               "direction": "right",
-              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1–6 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7–12 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
+              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1\u20136 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7\u201312 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
               "generatedAt": "2026-10-21T23:11:58Z",
               "generationHistory": [
@@ -24215,7 +24215,7 @@ export const animationAssetManifest = {
                 "pass-behind"
               ],
               "direction": "right",
-              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1–6 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7–12 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
+              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1\u20136 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7\u201312 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
               "generatedAt": "2026-10-21T23:11:58Z",
               "generationHistory": [
@@ -29537,7 +29537,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canon review K.25: Jennifer’s purple wire-rim glasses, teal eyes, half-up dark-brown curls, feathers, turquoise jewelry and floral costume have no fixed left/right assignment. The accepted right-facing sprites can be mirrored without reversing a prescribed identity mark."
+        "notes": "Canon review K.25: Jennifer\u2019s purple wire-rim glasses, teal eyes, half-up dark-brown curls, feathers, turquoise jewelry and floral costume have no fixed left/right assignment. The accepted right-facing sprites can be mirrored without reversing a prescribed identity mark."
       }
     },
     "cilia": {
@@ -37056,7 +37056,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -37166,7 +37166,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -37302,7 +37302,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -37493,7 +37493,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -37692,7 +37692,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -37893,7 +37893,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "All ten poses preserve Dea’s pale human anatomy, feline ears, red eyes, wide Cheshire grin, magenta jacket, pale ruffled blouse and patterned trousers. The packed atlas and clear RGBA transparency were visually checked frame by frame."
+                "source": "All ten poses preserve Dea\u2019s pale human anatomy, feline ears, red eyes, wide Cheshire grin, magenta jacket, pale ruffled blouse and patterned trousers. The packed atlas and clear RGBA transparency were visually checked frame by frame."
               },
               "sourceImage": "/workspace/generated_images/exec-b093c96d-ecc8-4823-8491-66840fd63715.png",
               "sourceSha256": "ac6cfd47212582e9df1ee81ee5f2b870a5fa79a2f6e94eff0c56c61da83b5b63",
@@ -38074,7 +38074,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -38360,7 +38360,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -39386,7 +39386,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -39672,7 +39672,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -40724,7 +40724,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -41010,7 +41010,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -42117,7 +42117,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -42403,7 +42403,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -43518,7 +43518,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -43804,7 +43804,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -48525,7 +48525,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Suga’s hood, orange markings and silver face mask have no fixed side; the fully serpentine rig is reviewed safe to mirror."
+        "notes": "Suga\u2019s hood, orange markings and silver face mask have no fixed side; the fully serpentine rig is reviewed safe to mirror."
       }
     },
     "gb-design": {
@@ -56948,7 +56948,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "All ten frames preserve Avek’s opaque metal face mask, armored humanoid anatomy, copper lightning marks and gloves, with his guitar safely stowed. The packed atlas was checked for distinct complete frames and approved mirroring."
+                "source": "All ten frames preserve Avek\u2019s opaque metal face mask, armored humanoid anatomy, copper lightning marks and gloves, with his guitar safely stowed. The packed atlas was checked for distinct complete frames and approved mirroring."
               },
               "sourceImage": "/workspace/generated_images/exec-a70165bb-463a-4364-a8d4-ca16edb860af.png",
               "sourceSha256": "4a7b938a96d26b8873adb99e4915533a9f9b094e83a9ace50e7c4b568ee7f841",
@@ -57045,7 +57045,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Avek’s opaque mask and symmetric copper armor have no fixed side. Preserve the opaque faceplate and lightning armor when mirrored."
+        "notes": "Avek\u2019s opaque mask and symmetric copper armor have no fixed side. Preserve the opaque faceplate and lightning armor when mirrored."
       }
     },
     "jragena": {
@@ -57956,7 +57956,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "All ten poses retain Jragena’s dark purple skin, freckles, purple glasses, copper hair, horns and attached dragonlike wings. The packed sheet is transparent, cleanly framed and visually reviewed pose by pose."
+                "source": "All ten poses retain Jragena\u2019s dark purple skin, freckles, purple glasses, copper hair, horns and attached dragonlike wings. The packed sheet is transparent, cleanly framed and visually reviewed pose by pose."
               },
               "sourceImage": "/workspace/generated_images/exec-05dd3081-b6c6-4460-b471-f3c4e54c9742.png",
               "sourceSha256": "46894220c5f5c9cd983685a8e1cef40afc3a6a8c6acb67e7938f7e8b274d20da",
@@ -60016,7 +60016,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "Packed 10-frame atlas visually checked: all ten complete right-facing poses preserve Quirky’s orange-furred zebra-striped orangutan anatomy, very long articulated arms and muzzle; transparent margins and frame order checked; native gameplay release attachment reviewed."
+                "source": "Packed 10-frame atlas visually checked: all ten complete right-facing poses preserve Quirky\u2019s orange-furred zebra-striped orangutan anatomy, very long articulated arms and muzzle; transparent margins and frame order checked; native gameplay release attachment reviewed."
               },
               "sourceImage": "/workspace/generated_images/exec-4e06d522-9a65-47c0-8135-c95005bc4caf.png",
               "sourceSha256": "f5d836ebb14d3c6f78e20bcb45f13971e85aa91dc57d19d7b42d5f1afe697119",
@@ -60113,7 +60113,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Quirky’s hybrid stripes and long arms have no fixed handed markings. The right-facing custom shoot atlas is approved for mirroring to left-facing gameplay."
+        "notes": "Quirky\u2019s hybrid stripes and long arms have no fixed handed markings. The right-facing custom shoot atlas is approved for mirroring to left-facing gameplay."
       },
       "reviewedAt": "2026-10-21"
     },
@@ -60192,7 +60192,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60338,7 +60338,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60500,7 +60500,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60697,7 +60697,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60895,7 +60895,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -61089,7 +61089,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -61305,7 +61305,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -61515,7 +61515,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -61724,12 +61724,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -61848,12 +61848,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -61998,12 +61998,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -62203,12 +62203,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -62416,12 +62416,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -62532,7 +62532,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Sera’s high magenta ponytail and jade/magenta kit have no fixed left/right markings or hand-specific props; mirroring preserves identity."
+        "notes": "Sera\u2019s high magenta ponytail and jade/magenta kit have no fixed left/right markings or hand-specific props; mirroring preserves identity."
       }
     },
     "moxie-capwell": {
@@ -62605,7 +62605,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -62729,7 +62729,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -62879,7 +62879,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -63084,7 +63084,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -63297,7 +63297,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -63413,7 +63413,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia."
+        "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia."
       }
     },
     "sable-regent": {
@@ -63486,12 +63486,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -63610,12 +63610,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -63760,12 +63760,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -63965,12 +63965,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -64178,12 +64178,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -64294,7 +64294,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+        "notes": "Black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
       }
     },
     "marco-vellum": {
@@ -64367,12 +64367,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -64491,12 +64491,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -64641,12 +64641,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -64846,12 +64846,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -65059,12 +65059,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -65175,7 +65175,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+        "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
       }
     },
     "ash-harth": {
@@ -65250,12 +65250,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -66571,12 +66571,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -67918,12 +67918,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -69320,12 +69320,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -70730,12 +70730,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -72041,7 +72041,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+        "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
       }
     },
     "flint-rooker": {
@@ -72922,7 +72922,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Flint’s spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+        "notes": "Flint\u2019s spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
       }
     },
     "marin-dusk": {
@@ -80258,7 +80258,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -81697,7 +81697,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -83162,7 +83162,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -84682,7 +84682,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -86210,7 +86210,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -87714,7 +87714,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -89161,7 +89161,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -90634,7 +90634,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -92162,7 +92162,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -93698,7 +93698,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -102706,7 +102706,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -104153,7 +104153,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -105626,7 +105626,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -107154,7 +107154,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -108690,7 +108690,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -110202,7 +110202,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -111655,7 +111655,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -113134,7 +113134,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -114668,7 +114668,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -116210,7 +116210,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -117728,7 +117728,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -119175,7 +119175,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -120648,7 +120648,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -122176,7 +122176,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -123712,7 +123712,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -125224,7 +125224,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -126674,7 +126674,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -128150,7 +128150,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -129681,7 +129681,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -131220,7 +131220,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -132735,7 +132735,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -133647,7 +133647,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -134585,7 +134585,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -135578,7 +135578,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -136579,7 +136579,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -137557,7 +137557,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -138456,7 +138456,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -139381,7 +139381,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -140361,7 +140361,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -141349,7 +141349,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -142309,13 +142309,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -143197,13 +143197,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -144111,13 +144111,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -145080,13 +145080,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -146057,13 +146057,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -147009,13 +147009,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -147874,13 +147874,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -148765,13 +148765,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -149711,13 +149711,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -150665,13 +150665,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -245165,7 +245165,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -246380,7 +246380,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -247621,7 +247621,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -248917,7 +248917,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -250221,7 +250221,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -273174,7 +273174,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the ball stays clear of Willow’s abundant high ponytail and follows her right hand; no fixed-side mark or handed prop prevents mirroring."
+        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the ball stays clear of Willow\u2019s abundant high ponytail and follows her right hand; no fixed-side mark or handed prop prevents mirroring."
       }
     },
     "rowan-bark": {
@@ -278085,7 +278085,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the separate ball follows Rowan’s right hand; his headband and bilateral arm tattoos have no canon-fixed side."
+        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the separate ball follows Rowan\u2019s right hand; his headband and bilateral arm tattoos have no canon-fixed side."
       }
     },
     "moth-vale": {
@@ -326931,6 +326931,10553 @@ export const animationAssetManifest = {
       "mirrorReview": {
         "status": "reviewed",
         "notes": "Correct runtime portrait/gameplay cell59 and all42 original locomotion drawings show fair-warm adult human woman with dark eyes, long vivid red curls in a high ponytail beneath a navy headband, natural athletic-curvy build, and London Royal Spots cobalt/red/white kit. No canon-fixed side mark or prop prevents mirroring. The right-hand ball track is applied separately from the body flip."
+      }
+    },
+    "draya-staffwind": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/draya-staffwind-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b55dcde4369be0be5caac197f4e12659a3f870100b4790f0b8f8a8306540d327"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4cc75980976fa6e3530882d2f51a142f50dd83b91ae5870e9485c2f3488fea5c"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6243b2cdf7f1ff7abb4a0f4b8120395a092b91c2241b9b06dc634a28f9020b38"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9678074f3b4e001b757ac14380d398f68a54fc389130dfdc7482df32f74f6921"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "54ec6a1788fcde4951c171af5ac679e17f994ae4f32b9716bb30998cf24a2d31"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "93f361adb862c5b4ff38c4a673346a4f364f434d24041e7647ba9b68e54fd92b"
+              }
+            ],
+            "sha256": "edef55720afd6228c12a4c67d3eeabc5646e515513561272df67d0131952d575",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "draya-staffwind",
+              "canonicalSection": "J.31",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:28:25Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/draya-staffwind-portrait-reference.png",
+                "tools/generate-art/references/draya-staffwind-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.31 runtime portrait/gameplay cell60 and all42 original locomotion drawings preserve Draya as an adult human woman with warm medium-brown skin, dark eyes, focused face, abundant chestnut-brown locs in a high ponytail with small gold ties, natural athletic-curvy proportions and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. Her right-hand ball track is applied separately from the body flip."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "source": "Reviewed all42 source poses and five packed atlases on dark and light grounds. Native Canvas standard and zoom120 previews load105 images and capture87 snapshots; all five authored locomotion atlases select in both facings, and the separate right-hand ball remains at the lead hand and reaches court at each dribble bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "generatedImage": "/workspace/generated_images/exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#base",
+                  "sha256": "d7ad1b00ae0be501a04799b9438f3f8d433ac831376f426789f5854f27e04aef"
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1"
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:15:42Z",
+                  "generatedImage": "/workspace/generated_images/exec-a58be28b-1597-4119-b4be-8c6b3195859f.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#supplement-14",
+                  "sha256": "e2eff8d8c9e52dde7833d08d6b510069e03c3fbffbd6cac39e935806e78f2ce3"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                    "sha256": "d7ad1b00ae0be501a04799b9438f3f8d433ac831376f426789f5854f27e04aef",
+                    "generatedAt": "2026-10-23T00:14:45Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-with-balls",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                    "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                    "generatedAt": "2026-10-23T00:14:45Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png",
+                    "sha256": "e2eff8d8c9e52dde7833d08d6b510069e03c3fbffbd6cac39e935806e78f2ce3",
+                    "generatedAt": "2026-10-23T00:15:42Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-a58be28b-1597-4119-b4be-8c6b3195859f.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5144927536231884,
+                  "supplement-14": 0.40226628895184136
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 61,
+                    "y": 43,
+                    "w": 69,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 256,
+                    "y": 43,
+                    "w": 63,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 638,
+                    "y": 42,
+                    "w": 67,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 830,
+                    "y": 42,
+                    "w": 68,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1016,
+                    "y": 42,
+                    "w": 79,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1215,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 91,
+                    "h": 142,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 243,
+                    "y": 236,
+                    "w": 90,
+                    "h": 140,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 437,
+                    "y": 234,
+                    "w": 86,
+                    "h": 142,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 272,
+                    "w": 104,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 809,
+                    "y": 272,
+                    "w": 110,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 277,
+                    "w": 101,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1196,
+                    "y": 278,
+                    "w": 103,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 44,
+                    "y": 470,
+                    "w": 103,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 241,
+                    "y": 466,
+                    "w": 93,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 427,
+                    "y": 469,
+                    "w": 106,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 621,
+                    "y": 456,
+                    "w": 101,
+                    "h": 112,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 810,
+                    "y": 458,
+                    "w": 107,
+                    "h": 110,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 455,
+                    "w": 111,
+                    "h": 113,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1199,
+                    "y": 444,
+                    "w": 97,
+                    "h": 124,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 52,
+                    "y": 632,
+                    "w": 87,
+                    "h": 128,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 633,
+                    "w": 91,
+                    "h": 127,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 431,
+                    "y": 629,
+                    "w": 98,
+                    "h": 131,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 630,
+                    "y": 631,
+                    "w": 83,
+                    "h": 129,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 824,
+                    "y": 635,
+                    "w": 80,
+                    "h": 125,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1010,
+                    "y": 633,
+                    "w": 92,
+                    "h": 127,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1201,
+                    "y": 624,
+                    "w": 94,
+                    "h": 136,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 48,
+                    "y": 811,
+                    "w": 96,
+                    "h": 141,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 240,
+                    "y": 814,
+                    "w": 95,
+                    "h": 138,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 433,
+                    "y": 816,
+                    "w": 94,
+                    "h": 136,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 616,
+                    "y": 852,
+                    "w": 112,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 811,
+                    "y": 854,
+                    "w": 106,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 998,
+                    "y": 851,
+                    "w": 115,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1188,
+                    "y": 852,
+                    "w": 120,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 38,
+                    "y": 1045,
+                    "w": 115,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 235,
+                    "y": 1043,
+                    "w": 106,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 418,
+                    "y": 1053,
+                    "w": 123,
+                    "h": 91,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 623,
+                    "y": 1032,
+                    "w": 97,
+                    "h": 112,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 813,
+                    "y": 1030,
+                    "w": 101,
+                    "h": 114,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1004,
+                    "y": 1029,
+                    "w": 103,
+                    "h": 115,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1027,
+                    "w": 108,
+                    "h": 117,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "bc69a26dac373c57c22d0de53e9157ff16a22a0ad4b72ee82afd695a3a281183",
+                  "56337e86770dffa7496250de83855d06261b1137d29ccb681565d75e3369603b",
+                  "a23a2e1c2b732f2cad0837d5ac96719b55687595c88c080d606dfc605d296095",
+                  "1e9985b41bfb82f0168ccfa9f70d4ceef4851431dd954b58c25cc53a1e11824a",
+                  "531aca15fcfc11c118f53f0c0b85c4eac1594c6b3ac0040fa60eff0aab81e582",
+                  "388f0e9d7a942b4e74a9ec509710c9e5b42e049edeab943f879e43b2c7ac2f1e",
+                  "309ab13028ac8f95d18f2415bc51189f5eba4446c98b8b6d4edd24e7fa22c360",
+                  "4cce1a3998f88840b28aa83473f30624c8c8ec94499a0d58bc85be8332ca7d0b",
+                  "46602709db7ec79346cd0b97e22942cd54366d9f4c130ef94569e044a55ad85f",
+                  "f4525598db34f72717a8abaf75a406e30662d4e6f1bb369cd5a9675999b7b117",
+                  "25c413559ed3bbdee46afa995807e552f31ac71d4aa1b8b3081a05eeb4caa289",
+                  "aed47587d2b0415068cfafe50ed7261f12199f75e153b9612387ec2bc0915e2a",
+                  "55b2fe638e139c773be79d6a94058dea23ecc2491b7cbe7d85a2b29f53af93b3",
+                  "407491d1c45b6192bef64461a7dcf17e2349a2e53d58718d672a657805912d14",
+                  "97418921f3b135f8b67193587d13d432846e4a576a65a5c3cf320ff6c2c1296b",
+                  "76835771b0baa5275c86094f0cc3a9a2111bcc2d6725272d6b5f28e00bfda217",
+                  "20317eb0dd7ead11f4d4400772c439ea4d09a355af2827665c117092aa9efcff",
+                  "45c0290018f8bd21ec6ae115124aa603611dfcad970fc583d673bb5887546fe8",
+                  "e52d5615f38eeef95783a7cd6c3252d24533be6469779e7bcd0825f991316e8a",
+                  "e26adebc035112e92ff40b6c07ad927d400f7fa997994c80388fd5728fa39656",
+                  "f3d89bd9296eadea2ef3eb9950b80dfacf45181d2b0d595fcba40c3dddd4f0ff",
+                  "a1723c6524baa5083f0ca2019c9426eefd71aa74eeebfa7114f8843fffd93a1f",
+                  "28ef57e25c286e233f8dd7a37385735250bb05a5dabb11e074f605f68fa14d99",
+                  "4b2d2f83ef2bb864afad6be969495e47ebeda51eb7cd618f5a8c87e82523e352",
+                  "1e63ba0b4b0eda6d04fb13b53cbbda0ee5e3982a930f17536d3e113124c33a63",
+                  "89896f8c94d2840c8ac0447de6d0bfb62c4846b0e306f4cbab6f0f4f18aa1982",
+                  "16ea17583a8e2af1e858be2d7551f2e5a426c1e85299484988a0680a147f9778",
+                  "1ea245f97fefb857f8dd0253395e1c858dd31e5cac4a9cea2378965847e62ba5",
+                  "1f0cd668706bf1450a2b53c539f5b21381c3c304530031bdc2a7a33b7dd70c62",
+                  "be77f8d3698efddea52cdd87f89f56bcefd42481de1408cb1b37c1980a069114",
+                  "435dc835e6bbcecebd048e344aa0434d9d21d336ffb66f144aaadce829bd44fb",
+                  "add624f66f3b621254b0017038627a1f4968d10cc8cccd8378171e99342abfb8",
+                  "3e0b23c073a700766004c868da36acac80f79793a9679686e9534c0dc9ee764c",
+                  "9adf09d6c78ebae0544d4c1eecc6a8546a961ccdbd541a7cd891d832dcf3b172",
+                  "442815d0e44ba6d88389353d975f3eefc9d51122ac9e9aa1c4fc7bbea0507688",
+                  "a77d6ca0698dc31be99f73164fa00b6a630ee7b86fe5081ea0cf648142f44c2c",
+                  "54ad51610601a1ec0774b7bbbed47efb0fbf645f21d226fc3171a3732bff03d9",
+                  "6b9691a236a901bfca377731046c8f3dc730f10779b30c02792d506b041e4d39",
+                  "77f06da985b2d2f9c981ccd56da2b71a88195808385f37d22266f8f0db53a5d5",
+                  "bb2703a2e60443e60628192853659d7e2521054b501bfe78db70fa3c949b2b23",
+                  "72b3ed2625fed96ab4d74b13acdc328d30d72451bb00dffd478c53bedbdd77d3",
+                  "948cb1fef8052235f1ef9302d0f382dd6f6f8849fb13fcb8e45cad18f9a2c24d"
+                ],
+                "sourceSha256": "4af582b17c13ecc2859881a7b256007c05f3ffa9abf5dc4dc7e4dc36c7dc871e",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/draya-staffwind-locomotion42.png",
+              "sourceSha256": "4af582b17c13ecc2859881a7b256007c05f3ffa9abf5dc4dc7e4dc36c7dc871e",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 59,
+                  "y": 41,
+                  "w": 73,
+                  "h": 145,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 254,
+                  "y": 41,
+                  "w": 67,
+                  "h": 145,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 441,
+                  "y": 41,
+                  "w": 77,
+                  "h": 145,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 636,
+                  "y": 40,
+                  "w": 71,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 828,
+                  "y": 40,
+                  "w": 72,
+                  "h": 146,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1014,
+                  "y": 40,
+                  "w": 83,
+                  "h": 146,
+                  "component": 3
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/draya-staffwind-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1497b359443637512975dd48c84cb50d2f2d2ea2756d80ba19bc92c33d039667"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "39ef3868ec41bb60681588db41ab3c5706648f22d612586513642d8f4f2c86be"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4c2e8e7f1722a1f9011f0d895e5be7f97fb4a2c5adeaa2244883d7be80797603"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9c9422ca7c06b430961649587fb29a0dadea737609fd32d32509f5f726a78dce"
+              }
+            ],
+            "sha256": "d36332c066a360fe125d8d668cdd801c5182c8bfdbfdabbd3f0440d78f024fda",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "draya-staffwind",
+              "canonicalSection": "J.31",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:28:25Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/draya-staffwind-portrait-reference.png",
+                "tools/generate-art/references/draya-staffwind-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.31 runtime portrait/gameplay cell60 and all42 original locomotion drawings preserve Draya as an adult human woman with warm medium-brown skin, dark eyes, focused face, abundant chestnut-brown locs in a high ponytail with small gold ties, natural athletic-curvy proportions and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. Her right-hand ball track is applied separately from the body flip."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "source": "Reviewed all42 source poses and five packed atlases on dark and light grounds. Native Canvas standard and zoom120 previews load105 images and capture87 snapshots; all five authored locomotion atlases select in both facings, and the separate right-hand ball remains at the lead hand and reaches court at each dribble bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "generatedImage": "/workspace/generated_images/exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#base",
+                  "sha256": "d7ad1b00ae0be501a04799b9438f3f8d433ac831376f426789f5854f27e04aef"
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1"
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:15:42Z",
+                  "generatedImage": "/workspace/generated_images/exec-a58be28b-1597-4119-b4be-8c6b3195859f.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#supplement-14",
+                  "sha256": "e2eff8d8c9e52dde7833d08d6b510069e03c3fbffbd6cac39e935806e78f2ce3"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                    "sha256": "d7ad1b00ae0be501a04799b9438f3f8d433ac831376f426789f5854f27e04aef",
+                    "generatedAt": "2026-10-23T00:14:45Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-with-balls",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                    "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                    "generatedAt": "2026-10-23T00:14:45Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png",
+                    "sha256": "e2eff8d8c9e52dde7833d08d6b510069e03c3fbffbd6cac39e935806e78f2ce3",
+                    "generatedAt": "2026-10-23T00:15:42Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-a58be28b-1597-4119-b4be-8c6b3195859f.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5144927536231884,
+                  "supplement-14": 0.40226628895184136
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 61,
+                    "y": 43,
+                    "w": 69,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 256,
+                    "y": 43,
+                    "w": 63,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 638,
+                    "y": 42,
+                    "w": 67,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 830,
+                    "y": 42,
+                    "w": 68,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1016,
+                    "y": 42,
+                    "w": 79,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1215,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 91,
+                    "h": 142,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 243,
+                    "y": 236,
+                    "w": 90,
+                    "h": 140,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 437,
+                    "y": 234,
+                    "w": 86,
+                    "h": 142,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 272,
+                    "w": 104,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 809,
+                    "y": 272,
+                    "w": 110,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 277,
+                    "w": 101,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1196,
+                    "y": 278,
+                    "w": 103,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 44,
+                    "y": 470,
+                    "w": 103,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 241,
+                    "y": 466,
+                    "w": 93,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 427,
+                    "y": 469,
+                    "w": 106,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 621,
+                    "y": 456,
+                    "w": 101,
+                    "h": 112,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 810,
+                    "y": 458,
+                    "w": 107,
+                    "h": 110,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 455,
+                    "w": 111,
+                    "h": 113,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1199,
+                    "y": 444,
+                    "w": 97,
+                    "h": 124,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 52,
+                    "y": 632,
+                    "w": 87,
+                    "h": 128,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 633,
+                    "w": 91,
+                    "h": 127,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 431,
+                    "y": 629,
+                    "w": 98,
+                    "h": 131,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 630,
+                    "y": 631,
+                    "w": 83,
+                    "h": 129,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 824,
+                    "y": 635,
+                    "w": 80,
+                    "h": 125,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1010,
+                    "y": 633,
+                    "w": 92,
+                    "h": 127,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1201,
+                    "y": 624,
+                    "w": 94,
+                    "h": 136,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 48,
+                    "y": 811,
+                    "w": 96,
+                    "h": 141,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 240,
+                    "y": 814,
+                    "w": 95,
+                    "h": 138,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 433,
+                    "y": 816,
+                    "w": 94,
+                    "h": 136,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 616,
+                    "y": 852,
+                    "w": 112,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 811,
+                    "y": 854,
+                    "w": 106,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 998,
+                    "y": 851,
+                    "w": 115,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1188,
+                    "y": 852,
+                    "w": 120,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 38,
+                    "y": 1045,
+                    "w": 115,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 235,
+                    "y": 1043,
+                    "w": 106,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 418,
+                    "y": 1053,
+                    "w": 123,
+                    "h": 91,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 623,
+                    "y": 1032,
+                    "w": 97,
+                    "h": 112,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 813,
+                    "y": 1030,
+                    "w": 101,
+                    "h": 114,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1004,
+                    "y": 1029,
+                    "w": 103,
+                    "h": 115,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1027,
+                    "w": 108,
+                    "h": 117,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "bc69a26dac373c57c22d0de53e9157ff16a22a0ad4b72ee82afd695a3a281183",
+                  "56337e86770dffa7496250de83855d06261b1137d29ccb681565d75e3369603b",
+                  "a23a2e1c2b732f2cad0837d5ac96719b55687595c88c080d606dfc605d296095",
+                  "1e9985b41bfb82f0168ccfa9f70d4ceef4851431dd954b58c25cc53a1e11824a",
+                  "531aca15fcfc11c118f53f0c0b85c4eac1594c6b3ac0040fa60eff0aab81e582",
+                  "388f0e9d7a942b4e74a9ec509710c9e5b42e049edeab943f879e43b2c7ac2f1e",
+                  "309ab13028ac8f95d18f2415bc51189f5eba4446c98b8b6d4edd24e7fa22c360",
+                  "4cce1a3998f88840b28aa83473f30624c8c8ec94499a0d58bc85be8332ca7d0b",
+                  "46602709db7ec79346cd0b97e22942cd54366d9f4c130ef94569e044a55ad85f",
+                  "f4525598db34f72717a8abaf75a406e30662d4e6f1bb369cd5a9675999b7b117",
+                  "25c413559ed3bbdee46afa995807e552f31ac71d4aa1b8b3081a05eeb4caa289",
+                  "aed47587d2b0415068cfafe50ed7261f12199f75e153b9612387ec2bc0915e2a",
+                  "55b2fe638e139c773be79d6a94058dea23ecc2491b7cbe7d85a2b29f53af93b3",
+                  "407491d1c45b6192bef64461a7dcf17e2349a2e53d58718d672a657805912d14",
+                  "97418921f3b135f8b67193587d13d432846e4a576a65a5c3cf320ff6c2c1296b",
+                  "76835771b0baa5275c86094f0cc3a9a2111bcc2d6725272d6b5f28e00bfda217",
+                  "20317eb0dd7ead11f4d4400772c439ea4d09a355af2827665c117092aa9efcff",
+                  "45c0290018f8bd21ec6ae115124aa603611dfcad970fc583d673bb5887546fe8",
+                  "e52d5615f38eeef95783a7cd6c3252d24533be6469779e7bcd0825f991316e8a",
+                  "e26adebc035112e92ff40b6c07ad927d400f7fa997994c80388fd5728fa39656",
+                  "f3d89bd9296eadea2ef3eb9950b80dfacf45181d2b0d595fcba40c3dddd4f0ff",
+                  "a1723c6524baa5083f0ca2019c9426eefd71aa74eeebfa7114f8843fffd93a1f",
+                  "28ef57e25c286e233f8dd7a37385735250bb05a5dabb11e074f605f68fa14d99",
+                  "4b2d2f83ef2bb864afad6be969495e47ebeda51eb7cd618f5a8c87e82523e352",
+                  "1e63ba0b4b0eda6d04fb13b53cbbda0ee5e3982a930f17536d3e113124c33a63",
+                  "89896f8c94d2840c8ac0447de6d0bfb62c4846b0e306f4cbab6f0f4f18aa1982",
+                  "16ea17583a8e2af1e858be2d7551f2e5a426c1e85299484988a0680a147f9778",
+                  "1ea245f97fefb857f8dd0253395e1c858dd31e5cac4a9cea2378965847e62ba5",
+                  "1f0cd668706bf1450a2b53c539f5b21381c3c304530031bdc2a7a33b7dd70c62",
+                  "be77f8d3698efddea52cdd87f89f56bcefd42481de1408cb1b37c1980a069114",
+                  "435dc835e6bbcecebd048e344aa0434d9d21d336ffb66f144aaadce829bd44fb",
+                  "add624f66f3b621254b0017038627a1f4968d10cc8cccd8378171e99342abfb8",
+                  "3e0b23c073a700766004c868da36acac80f79793a9679686e9534c0dc9ee764c",
+                  "9adf09d6c78ebae0544d4c1eecc6a8546a961ccdbd541a7cd891d832dcf3b172",
+                  "442815d0e44ba6d88389353d975f3eefc9d51122ac9e9aa1c4fc7bbea0507688",
+                  "a77d6ca0698dc31be99f73164fa00b6a630ee7b86fe5081ea0cf648142f44c2c",
+                  "54ad51610601a1ec0774b7bbbed47efb0fbf645f21d226fc3171a3732bff03d9",
+                  "6b9691a236a901bfca377731046c8f3dc730f10779b30c02792d506b041e4d39",
+                  "77f06da985b2d2f9c981ccd56da2b71a88195808385f37d22266f8f0db53a5d5",
+                  "bb2703a2e60443e60628192853659d7e2521054b501bfe78db70fa3c949b2b23",
+                  "72b3ed2625fed96ab4d74b13acdc328d30d72451bb00dffd478c53bedbdd77d3",
+                  "948cb1fef8052235f1ef9302d0f382dd6f6f8849fb13fcb8e45cad18f9a2c24d"
+                ],
+                "sourceSha256": "4af582b17c13ecc2859881a7b256007c05f3ffa9abf5dc4dc7e4dc36c7dc871e",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/draya-staffwind-locomotion42.png",
+              "sourceSha256": "4af582b17c13ecc2859881a7b256007c05f3ffa9abf5dc4dc7e4dc36c7dc871e",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1213,
+                  "y": 40,
+                  "w": 70,
+                  "h": 146,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 48,
+                  "y": 232,
+                  "w": 95,
+                  "h": 146,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 241,
+                  "y": 234,
+                  "w": 94,
+                  "h": 144,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 435,
+                  "y": 232,
+                  "w": 90,
+                  "h": 146,
+                  "component": 11
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/draya-staffwind-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "62871439d0238dca2d907c9c4750e008f0d7505ddeb86211eb869258c2325cb3"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "30895feb834f823a87df2de2ff8bf1576a388689fecb321509957897d524c45e"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "137ff23fd42247dbea62cd36bfcef768d89a898af6641610442f67c5214703ea"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7b1ea0feda18c2bc6f8ec35c824f72570830f478d2169b232033b7f46d9e2be6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9bd1decc7b1010713db9ea8c6b5ffae6e3cf33b207235b29420db0571ee325f7"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "db2270ebed143adf7d69b8c79f9808633efdccc2e95cab774f02f027d0c11d32"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4524ee74eb3b6c6b945e560d74d677cb6664f58c85e324bb1015da312eec215c"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b6297ac5a56cc8fe1c0246f0279a67412676a4993f1aa31f470bb427ea423547"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "337f415ffdde01795226d28ff2ae968457ad9ec986d3868621cc3e46fe51a34f"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "6a76d42774020afd0d94061d8398db14ac1de77194ed35f6fc5b74d2f862fe9e"
+              }
+            ],
+            "sha256": "7a4f6947563e570dd9d6b720b3b2942716ce40267e530f6a79b6dc5267c0135b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "draya-staffwind",
+              "canonicalSection": "J.31",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:28:25Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/draya-staffwind-portrait-reference.png",
+                "tools/generate-art/references/draya-staffwind-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.31 runtime portrait/gameplay cell60 and all42 original locomotion drawings preserve Draya as an adult human woman with warm medium-brown skin, dark eyes, focused face, abundant chestnut-brown locs in a high ponytail with small gold ties, natural athletic-curvy proportions and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. Her right-hand ball track is applied separately from the body flip."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "source": "Reviewed all42 source poses and five packed atlases on dark and light grounds. Native Canvas standard and zoom120 previews load105 images and capture87 snapshots; all five authored locomotion atlases select in both facings, and the separate right-hand ball remains at the lead hand and reaches court at each dribble bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "generatedImage": "/workspace/generated_images/exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#base",
+                  "sha256": "d7ad1b00ae0be501a04799b9438f3f8d433ac831376f426789f5854f27e04aef"
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1"
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:15:42Z",
+                  "generatedImage": "/workspace/generated_images/exec-a58be28b-1597-4119-b4be-8c6b3195859f.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#supplement-14",
+                  "sha256": "e2eff8d8c9e52dde7833d08d6b510069e03c3fbffbd6cac39e935806e78f2ce3"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                    "sha256": "d7ad1b00ae0be501a04799b9438f3f8d433ac831376f426789f5854f27e04aef",
+                    "generatedAt": "2026-10-23T00:14:45Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-with-balls",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                    "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                    "generatedAt": "2026-10-23T00:14:45Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png",
+                    "sha256": "e2eff8d8c9e52dde7833d08d6b510069e03c3fbffbd6cac39e935806e78f2ce3",
+                    "generatedAt": "2026-10-23T00:15:42Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-a58be28b-1597-4119-b4be-8c6b3195859f.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5144927536231884,
+                  "supplement-14": 0.40226628895184136
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 61,
+                    "y": 43,
+                    "w": 69,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 256,
+                    "y": 43,
+                    "w": 63,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 638,
+                    "y": 42,
+                    "w": 67,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 830,
+                    "y": 42,
+                    "w": 68,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1016,
+                    "y": 42,
+                    "w": 79,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1215,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 91,
+                    "h": 142,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 243,
+                    "y": 236,
+                    "w": 90,
+                    "h": 140,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 437,
+                    "y": 234,
+                    "w": 86,
+                    "h": 142,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 272,
+                    "w": 104,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 809,
+                    "y": 272,
+                    "w": 110,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 277,
+                    "w": 101,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1196,
+                    "y": 278,
+                    "w": 103,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 44,
+                    "y": 470,
+                    "w": 103,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 241,
+                    "y": 466,
+                    "w": 93,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 427,
+                    "y": 469,
+                    "w": 106,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 621,
+                    "y": 456,
+                    "w": 101,
+                    "h": 112,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 810,
+                    "y": 458,
+                    "w": 107,
+                    "h": 110,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 455,
+                    "w": 111,
+                    "h": 113,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1199,
+                    "y": 444,
+                    "w": 97,
+                    "h": 124,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 52,
+                    "y": 632,
+                    "w": 87,
+                    "h": 128,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 633,
+                    "w": 91,
+                    "h": 127,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 431,
+                    "y": 629,
+                    "w": 98,
+                    "h": 131,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 630,
+                    "y": 631,
+                    "w": 83,
+                    "h": 129,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 824,
+                    "y": 635,
+                    "w": 80,
+                    "h": 125,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1010,
+                    "y": 633,
+                    "w": 92,
+                    "h": 127,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1201,
+                    "y": 624,
+                    "w": 94,
+                    "h": 136,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 48,
+                    "y": 811,
+                    "w": 96,
+                    "h": 141,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 240,
+                    "y": 814,
+                    "w": 95,
+                    "h": 138,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 433,
+                    "y": 816,
+                    "w": 94,
+                    "h": 136,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 616,
+                    "y": 852,
+                    "w": 112,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 811,
+                    "y": 854,
+                    "w": 106,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 998,
+                    "y": 851,
+                    "w": 115,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1188,
+                    "y": 852,
+                    "w": 120,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 38,
+                    "y": 1045,
+                    "w": 115,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 235,
+                    "y": 1043,
+                    "w": 106,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 418,
+                    "y": 1053,
+                    "w": 123,
+                    "h": 91,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 623,
+                    "y": 1032,
+                    "w": 97,
+                    "h": 112,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 813,
+                    "y": 1030,
+                    "w": 101,
+                    "h": 114,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1004,
+                    "y": 1029,
+                    "w": 103,
+                    "h": 115,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1027,
+                    "w": 108,
+                    "h": 117,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "bc69a26dac373c57c22d0de53e9157ff16a22a0ad4b72ee82afd695a3a281183",
+                  "56337e86770dffa7496250de83855d06261b1137d29ccb681565d75e3369603b",
+                  "a23a2e1c2b732f2cad0837d5ac96719b55687595c88c080d606dfc605d296095",
+                  "1e9985b41bfb82f0168ccfa9f70d4ceef4851431dd954b58c25cc53a1e11824a",
+                  "531aca15fcfc11c118f53f0c0b85c4eac1594c6b3ac0040fa60eff0aab81e582",
+                  "388f0e9d7a942b4e74a9ec509710c9e5b42e049edeab943f879e43b2c7ac2f1e",
+                  "309ab13028ac8f95d18f2415bc51189f5eba4446c98b8b6d4edd24e7fa22c360",
+                  "4cce1a3998f88840b28aa83473f30624c8c8ec94499a0d58bc85be8332ca7d0b",
+                  "46602709db7ec79346cd0b97e22942cd54366d9f4c130ef94569e044a55ad85f",
+                  "f4525598db34f72717a8abaf75a406e30662d4e6f1bb369cd5a9675999b7b117",
+                  "25c413559ed3bbdee46afa995807e552f31ac71d4aa1b8b3081a05eeb4caa289",
+                  "aed47587d2b0415068cfafe50ed7261f12199f75e153b9612387ec2bc0915e2a",
+                  "55b2fe638e139c773be79d6a94058dea23ecc2491b7cbe7d85a2b29f53af93b3",
+                  "407491d1c45b6192bef64461a7dcf17e2349a2e53d58718d672a657805912d14",
+                  "97418921f3b135f8b67193587d13d432846e4a576a65a5c3cf320ff6c2c1296b",
+                  "76835771b0baa5275c86094f0cc3a9a2111bcc2d6725272d6b5f28e00bfda217",
+                  "20317eb0dd7ead11f4d4400772c439ea4d09a355af2827665c117092aa9efcff",
+                  "45c0290018f8bd21ec6ae115124aa603611dfcad970fc583d673bb5887546fe8",
+                  "e52d5615f38eeef95783a7cd6c3252d24533be6469779e7bcd0825f991316e8a",
+                  "e26adebc035112e92ff40b6c07ad927d400f7fa997994c80388fd5728fa39656",
+                  "f3d89bd9296eadea2ef3eb9950b80dfacf45181d2b0d595fcba40c3dddd4f0ff",
+                  "a1723c6524baa5083f0ca2019c9426eefd71aa74eeebfa7114f8843fffd93a1f",
+                  "28ef57e25c286e233f8dd7a37385735250bb05a5dabb11e074f605f68fa14d99",
+                  "4b2d2f83ef2bb864afad6be969495e47ebeda51eb7cd618f5a8c87e82523e352",
+                  "1e63ba0b4b0eda6d04fb13b53cbbda0ee5e3982a930f17536d3e113124c33a63",
+                  "89896f8c94d2840c8ac0447de6d0bfb62c4846b0e306f4cbab6f0f4f18aa1982",
+                  "16ea17583a8e2af1e858be2d7551f2e5a426c1e85299484988a0680a147f9778",
+                  "1ea245f97fefb857f8dd0253395e1c858dd31e5cac4a9cea2378965847e62ba5",
+                  "1f0cd668706bf1450a2b53c539f5b21381c3c304530031bdc2a7a33b7dd70c62",
+                  "be77f8d3698efddea52cdd87f89f56bcefd42481de1408cb1b37c1980a069114",
+                  "435dc835e6bbcecebd048e344aa0434d9d21d336ffb66f144aaadce829bd44fb",
+                  "add624f66f3b621254b0017038627a1f4968d10cc8cccd8378171e99342abfb8",
+                  "3e0b23c073a700766004c868da36acac80f79793a9679686e9534c0dc9ee764c",
+                  "9adf09d6c78ebae0544d4c1eecc6a8546a961ccdbd541a7cd891d832dcf3b172",
+                  "442815d0e44ba6d88389353d975f3eefc9d51122ac9e9aa1c4fc7bbea0507688",
+                  "a77d6ca0698dc31be99f73164fa00b6a630ee7b86fe5081ea0cf648142f44c2c",
+                  "54ad51610601a1ec0774b7bbbed47efb0fbf645f21d226fc3171a3732bff03d9",
+                  "6b9691a236a901bfca377731046c8f3dc730f10779b30c02792d506b041e4d39",
+                  "77f06da985b2d2f9c981ccd56da2b71a88195808385f37d22266f8f0db53a5d5",
+                  "bb2703a2e60443e60628192853659d7e2521054b501bfe78db70fa3c949b2b23",
+                  "72b3ed2625fed96ab4d74b13acdc328d30d72451bb00dffd478c53bedbdd77d3",
+                  "948cb1fef8052235f1ef9302d0f382dd6f6f8849fb13fcb8e45cad18f9a2c24d"
+                ],
+                "sourceSha256": "4af582b17c13ecc2859881a7b256007c05f3ffa9abf5dc4dc7e4dc36c7dc871e",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/draya-staffwind-locomotion42.png",
+              "sourceSha256": "4af582b17c13ecc2859881a7b256007c05f3ffa9abf5dc4dc7e4dc36c7dc871e",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 618,
+                  "y": 270,
+                  "w": 108,
+                  "h": 108,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 807,
+                  "y": 270,
+                  "w": 114,
+                  "h": 108,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1003,
+                  "y": 275,
+                  "w": 105,
+                  "h": 103,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1194,
+                  "y": 276,
+                  "w": 107,
+                  "h": 102,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 42,
+                  "y": 468,
+                  "w": 107,
+                  "h": 102,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 239,
+                  "y": 464,
+                  "w": 97,
+                  "h": 106,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 425,
+                  "y": 467,
+                  "w": 110,
+                  "h": 103,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 619,
+                  "y": 454,
+                  "w": 105,
+                  "h": 116,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 808,
+                  "y": 456,
+                  "w": 111,
+                  "h": 114,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 998,
+                  "y": 453,
+                  "w": 115,
+                  "h": 117,
+                  "component": 18
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/draya-staffwind-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2d20e5efc18541912159d28bdfdda6ca19f5581397d391ca5cac3b2b4a471a7b"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0b5c303db1685c0132dbf3c24dc92049366c0c4b1cc8da3ec0c6841f9c66a47c"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e19897769f06f79f622d4c0223a0cd89c88e2360f62ea3571a99ed469db475c4"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1e61740f817682225024257e23184f1fd9774e474ae0a99afc890c8be038b9d6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "63832526f295762e00d337e50f34f520a7989423c9812ac0bc13262da8da3486"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3e678d418abd929a835b341fe7e48fedb08b26589a517ad53f07fcac060ce560"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "08f1a32874f4da92843a3b9928f5579f222fb162dae68bc42e93fe2172e31679"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "00b1a1acf7c11642a84b3a30c8cf569c7e2379ea49bbd09c80308333e1571ed9"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "fe4b94911b6a6138e8a76ead605ac6b1aeb8d7bde0a9aa3be4681f3253dc75fa"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "863ce29fa9ae11d5adf8686157cd3e1196bfb65b50de5ad4b8c959ece906d6a0"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "ba6cd2f1da468f71dfc2f5ab5d9fd0281888467d1f84e99aacfc7f5ea94c4e6d"
+              }
+            ],
+            "sha256": "b0c333351fdf63881c5333b10d66bb62c9f39a2d2f393b213d81a99f7e386d55",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "draya-staffwind",
+              "canonicalSection": "J.31",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:28:25Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/draya-staffwind-portrait-reference.png",
+                "tools/generate-art/references/draya-staffwind-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.31 runtime portrait/gameplay cell60 and all42 original locomotion drawings preserve Draya as an adult human woman with warm medium-brown skin, dark eyes, focused face, abundant chestnut-brown locs in a high ponytail with small gold ties, natural athletic-curvy proportions and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. Her right-hand ball track is applied separately from the body flip."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "source": "Reviewed all42 source poses and five packed atlases on dark and light grounds. Native Canvas standard and zoom120 previews load105 images and capture87 snapshots; all five authored locomotion atlases select in both facings, and the separate right-hand ball remains at the lead hand and reaches court at each dribble bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "generatedImage": "/workspace/generated_images/exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#base",
+                  "sha256": "d7ad1b00ae0be501a04799b9438f3f8d433ac831376f426789f5854f27e04aef"
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1"
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:15:42Z",
+                  "generatedImage": "/workspace/generated_images/exec-a58be28b-1597-4119-b4be-8c6b3195859f.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#supplement-14",
+                  "sha256": "e2eff8d8c9e52dde7833d08d6b510069e03c3fbffbd6cac39e935806e78f2ce3"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                    "sha256": "d7ad1b00ae0be501a04799b9438f3f8d433ac831376f426789f5854f27e04aef",
+                    "generatedAt": "2026-10-23T00:14:45Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-with-balls",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                    "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                    "generatedAt": "2026-10-23T00:14:45Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png",
+                    "sha256": "e2eff8d8c9e52dde7833d08d6b510069e03c3fbffbd6cac39e935806e78f2ce3",
+                    "generatedAt": "2026-10-23T00:15:42Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-a58be28b-1597-4119-b4be-8c6b3195859f.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5144927536231884,
+                  "supplement-14": 0.40226628895184136
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 61,
+                    "y": 43,
+                    "w": 69,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 256,
+                    "y": 43,
+                    "w": 63,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 638,
+                    "y": 42,
+                    "w": 67,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 830,
+                    "y": 42,
+                    "w": 68,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1016,
+                    "y": 42,
+                    "w": 79,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1215,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 91,
+                    "h": 142,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 243,
+                    "y": 236,
+                    "w": 90,
+                    "h": 140,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 437,
+                    "y": 234,
+                    "w": 86,
+                    "h": 142,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 272,
+                    "w": 104,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 809,
+                    "y": 272,
+                    "w": 110,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 277,
+                    "w": 101,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1196,
+                    "y": 278,
+                    "w": 103,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 44,
+                    "y": 470,
+                    "w": 103,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 241,
+                    "y": 466,
+                    "w": 93,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 427,
+                    "y": 469,
+                    "w": 106,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 621,
+                    "y": 456,
+                    "w": 101,
+                    "h": 112,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 810,
+                    "y": 458,
+                    "w": 107,
+                    "h": 110,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 455,
+                    "w": 111,
+                    "h": 113,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1199,
+                    "y": 444,
+                    "w": 97,
+                    "h": 124,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 52,
+                    "y": 632,
+                    "w": 87,
+                    "h": 128,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 633,
+                    "w": 91,
+                    "h": 127,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 431,
+                    "y": 629,
+                    "w": 98,
+                    "h": 131,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 630,
+                    "y": 631,
+                    "w": 83,
+                    "h": 129,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 824,
+                    "y": 635,
+                    "w": 80,
+                    "h": 125,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1010,
+                    "y": 633,
+                    "w": 92,
+                    "h": 127,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1201,
+                    "y": 624,
+                    "w": 94,
+                    "h": 136,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 48,
+                    "y": 811,
+                    "w": 96,
+                    "h": 141,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 240,
+                    "y": 814,
+                    "w": 95,
+                    "h": 138,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 433,
+                    "y": 816,
+                    "w": 94,
+                    "h": 136,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 616,
+                    "y": 852,
+                    "w": 112,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 811,
+                    "y": 854,
+                    "w": 106,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 998,
+                    "y": 851,
+                    "w": 115,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1188,
+                    "y": 852,
+                    "w": 120,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 38,
+                    "y": 1045,
+                    "w": 115,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 235,
+                    "y": 1043,
+                    "w": 106,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 418,
+                    "y": 1053,
+                    "w": 123,
+                    "h": 91,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 623,
+                    "y": 1032,
+                    "w": 97,
+                    "h": 112,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 813,
+                    "y": 1030,
+                    "w": 101,
+                    "h": 114,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1004,
+                    "y": 1029,
+                    "w": 103,
+                    "h": 115,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1027,
+                    "w": 108,
+                    "h": 117,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "bc69a26dac373c57c22d0de53e9157ff16a22a0ad4b72ee82afd695a3a281183",
+                  "56337e86770dffa7496250de83855d06261b1137d29ccb681565d75e3369603b",
+                  "a23a2e1c2b732f2cad0837d5ac96719b55687595c88c080d606dfc605d296095",
+                  "1e9985b41bfb82f0168ccfa9f70d4ceef4851431dd954b58c25cc53a1e11824a",
+                  "531aca15fcfc11c118f53f0c0b85c4eac1594c6b3ac0040fa60eff0aab81e582",
+                  "388f0e9d7a942b4e74a9ec509710c9e5b42e049edeab943f879e43b2c7ac2f1e",
+                  "309ab13028ac8f95d18f2415bc51189f5eba4446c98b8b6d4edd24e7fa22c360",
+                  "4cce1a3998f88840b28aa83473f30624c8c8ec94499a0d58bc85be8332ca7d0b",
+                  "46602709db7ec79346cd0b97e22942cd54366d9f4c130ef94569e044a55ad85f",
+                  "f4525598db34f72717a8abaf75a406e30662d4e6f1bb369cd5a9675999b7b117",
+                  "25c413559ed3bbdee46afa995807e552f31ac71d4aa1b8b3081a05eeb4caa289",
+                  "aed47587d2b0415068cfafe50ed7261f12199f75e153b9612387ec2bc0915e2a",
+                  "55b2fe638e139c773be79d6a94058dea23ecc2491b7cbe7d85a2b29f53af93b3",
+                  "407491d1c45b6192bef64461a7dcf17e2349a2e53d58718d672a657805912d14",
+                  "97418921f3b135f8b67193587d13d432846e4a576a65a5c3cf320ff6c2c1296b",
+                  "76835771b0baa5275c86094f0cc3a9a2111bcc2d6725272d6b5f28e00bfda217",
+                  "20317eb0dd7ead11f4d4400772c439ea4d09a355af2827665c117092aa9efcff",
+                  "45c0290018f8bd21ec6ae115124aa603611dfcad970fc583d673bb5887546fe8",
+                  "e52d5615f38eeef95783a7cd6c3252d24533be6469779e7bcd0825f991316e8a",
+                  "e26adebc035112e92ff40b6c07ad927d400f7fa997994c80388fd5728fa39656",
+                  "f3d89bd9296eadea2ef3eb9950b80dfacf45181d2b0d595fcba40c3dddd4f0ff",
+                  "a1723c6524baa5083f0ca2019c9426eefd71aa74eeebfa7114f8843fffd93a1f",
+                  "28ef57e25c286e233f8dd7a37385735250bb05a5dabb11e074f605f68fa14d99",
+                  "4b2d2f83ef2bb864afad6be969495e47ebeda51eb7cd618f5a8c87e82523e352",
+                  "1e63ba0b4b0eda6d04fb13b53cbbda0ee5e3982a930f17536d3e113124c33a63",
+                  "89896f8c94d2840c8ac0447de6d0bfb62c4846b0e306f4cbab6f0f4f18aa1982",
+                  "16ea17583a8e2af1e858be2d7551f2e5a426c1e85299484988a0680a147f9778",
+                  "1ea245f97fefb857f8dd0253395e1c858dd31e5cac4a9cea2378965847e62ba5",
+                  "1f0cd668706bf1450a2b53c539f5b21381c3c304530031bdc2a7a33b7dd70c62",
+                  "be77f8d3698efddea52cdd87f89f56bcefd42481de1408cb1b37c1980a069114",
+                  "435dc835e6bbcecebd048e344aa0434d9d21d336ffb66f144aaadce829bd44fb",
+                  "add624f66f3b621254b0017038627a1f4968d10cc8cccd8378171e99342abfb8",
+                  "3e0b23c073a700766004c868da36acac80f79793a9679686e9534c0dc9ee764c",
+                  "9adf09d6c78ebae0544d4c1eecc6a8546a961ccdbd541a7cd891d832dcf3b172",
+                  "442815d0e44ba6d88389353d975f3eefc9d51122ac9e9aa1c4fc7bbea0507688",
+                  "a77d6ca0698dc31be99f73164fa00b6a630ee7b86fe5081ea0cf648142f44c2c",
+                  "54ad51610601a1ec0774b7bbbed47efb0fbf645f21d226fc3171a3732bff03d9",
+                  "6b9691a236a901bfca377731046c8f3dc730f10779b30c02792d506b041e4d39",
+                  "77f06da985b2d2f9c981ccd56da2b71a88195808385f37d22266f8f0db53a5d5",
+                  "bb2703a2e60443e60628192853659d7e2521054b501bfe78db70fa3c949b2b23",
+                  "72b3ed2625fed96ab4d74b13acdc328d30d72451bb00dffd478c53bedbdd77d3",
+                  "948cb1fef8052235f1ef9302d0f382dd6f6f8849fb13fcb8e45cad18f9a2c24d"
+                ],
+                "sourceSha256": "4af582b17c13ecc2859881a7b256007c05f3ffa9abf5dc4dc7e4dc36c7dc871e",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/draya-staffwind-locomotion42.png",
+              "sourceSha256": "4af582b17c13ecc2859881a7b256007c05f3ffa9abf5dc4dc7e4dc36c7dc871e",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1197,
+                  "y": 442,
+                  "w": 101,
+                  "h": 128,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 50,
+                  "y": 630,
+                  "w": 91,
+                  "h": 132,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 240,
+                  "y": 631,
+                  "w": 95,
+                  "h": 131,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 429,
+                  "y": 627,
+                  "w": 102,
+                  "h": 135,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 628,
+                  "y": 629,
+                  "w": 87,
+                  "h": 133,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 822,
+                  "y": 633,
+                  "w": 84,
+                  "h": 129,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1008,
+                  "y": 631,
+                  "w": 96,
+                  "h": 131,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1199,
+                  "y": 622,
+                  "w": 98,
+                  "h": 140,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 46,
+                  "y": 809,
+                  "w": 100,
+                  "h": 145,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 238,
+                  "y": 812,
+                  "w": 99,
+                  "h": 142,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 431,
+                  "y": 814,
+                  "w": 98,
+                  "h": 140,
+                  "component": 33
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/draya-staffwind-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8ce987609b3f19bdc2a47b3479a1e2c59a1c6179247ecdf0d333f368072d9df8"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7c94a1872154b9c9c620b7a4add1d70f475ef3fa51220467e290445e13339f0e"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "fbdfa737435bec1a575ce70cd170c6aeee9d7d40690fab1af9fed4564fc3e2e6"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "50ef3a1bcd5af0db1acf46a3ef7a7bb5ce2f8302448aae0311354b1d246b776f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3335c04e69a00161718f2ddb8168846d5a2233503743b540f440f1f03e2e1601"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f7ddca7f00f2e50d30933edec2ef559ecfed2aa05ed00f29098bc617ab4eb47b"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "bccd6974913bde1c3085001a7231b56e9685904e7cacffa620ee78c1b56cbbf1"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "508fe8330807008d628b7c9248b3bc17fb00d85b0573f0ca53c5b7ced5dbaa7c"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1e89e85090f2922153450e2ff7d3d53ffea9d89a4113b32416edcbc72f18257a"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d860ac13cd5071c685740246d71294aaf56571e73f96516c51791c7d01610ce1"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "5431b4f00ddf9edb6707d36cb1ee4865688e1fce2a890c71a2b58847deb0c2c4"
+              }
+            ],
+            "sha256": "0ce0a27f945cb288f17730f6607663ebbfaefc836c021c5469efe7c6277c4fdb",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "draya-staffwind",
+              "canonicalSection": "J.31",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:28:25Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/draya-staffwind-portrait-reference.png",
+                "tools/generate-art/references/draya-staffwind-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.31 runtime portrait/gameplay cell60 and all42 original locomotion drawings preserve Draya as an adult human woman with warm medium-brown skin, dark eyes, focused face, abundant chestnut-brown locs in a high ponytail with small gold ties, natural athletic-curvy proportions and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. Her right-hand ball track is applied separately from the body flip."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "source": "Reviewed all42 source poses and five packed atlases on dark and light grounds. Native Canvas standard and zoom120 previews load105 images and capture87 snapshots; all five authored locomotion atlases select in both facings, and the separate right-hand ball remains at the lead hand and reaches court at each dribble bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "generatedImage": "/workspace/generated_images/exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#base",
+                  "sha256": "d7ad1b00ae0be501a04799b9438f3f8d433ac831376f426789f5854f27e04aef"
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1"
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:15:42Z",
+                  "generatedImage": "/workspace/generated_images/exec-a58be28b-1597-4119-b4be-8c6b3195859f.png",
+                  "prompt": "tools/generate-art/draya-staffwind-locomotion-prompts.md#supplement-14",
+                  "sha256": "e2eff8d8c9e52dde7833d08d6b510069e03c3fbffbd6cac39e935806e78f2ce3"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                },
+                {
+                  "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                  "generatedAt": "2026-10-23T00:14:45Z",
+                  "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/draya-staffwind-locomotion-prompts.md#base-rejected-with-balls",
+                  "reason": "This initial base generation embedded basketballs in ball-ready and dribble figures despite the empty-hands requirement; preserved for source history but never packed."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-base.png",
+                    "sha256": "d7ad1b00ae0be501a04799b9438f3f8d433ac831376f426789f5854f27e04aef",
+                    "generatedAt": "2026-10-23T00:14:45Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-ec41ee7e-271a-4ed2-a26e-dac1c8464815.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-with-balls",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-base-rejected-with-balls.png",
+                    "sha256": "85b3baa104f0ce9edf51fac30a428b3df0022f9b43b02ae9059feefdc53f2bb1",
+                    "generatedAt": "2026-10-23T00:14:45Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-47231036-5f56-4050-b2ca-53dad11cda24.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/draya-staffwind-locomotion-supplement-14.png",
+                    "sha256": "e2eff8d8c9e52dde7833d08d6b510069e03c3fbffbd6cac39e935806e78f2ce3",
+                    "generatedAt": "2026-10-23T00:15:42Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-a58be28b-1597-4119-b4be-8c6b3195859f.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5144927536231884,
+                  "supplement-14": 0.40226628895184136
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 61,
+                    "y": 43,
+                    "w": 69,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 256,
+                    "y": 43,
+                    "w": 63,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 638,
+                    "y": 42,
+                    "w": 67,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 830,
+                    "y": 42,
+                    "w": 68,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1016,
+                    "y": 42,
+                    "w": 79,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1215,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 91,
+                    "h": 142,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 243,
+                    "y": 236,
+                    "w": 90,
+                    "h": 140,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 437,
+                    "y": 234,
+                    "w": 86,
+                    "h": 142,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 272,
+                    "w": 104,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 809,
+                    "y": 272,
+                    "w": 110,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 277,
+                    "w": 101,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1196,
+                    "y": 278,
+                    "w": 103,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 44,
+                    "y": 470,
+                    "w": 103,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 241,
+                    "y": 466,
+                    "w": 93,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 427,
+                    "y": 469,
+                    "w": 106,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 621,
+                    "y": 456,
+                    "w": 101,
+                    "h": 112,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 810,
+                    "y": 458,
+                    "w": 107,
+                    "h": 110,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 455,
+                    "w": 111,
+                    "h": 113,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1199,
+                    "y": 444,
+                    "w": 97,
+                    "h": 124,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 52,
+                    "y": 632,
+                    "w": 87,
+                    "h": 128,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 633,
+                    "w": 91,
+                    "h": 127,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 431,
+                    "y": 629,
+                    "w": 98,
+                    "h": 131,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 630,
+                    "y": 631,
+                    "w": 83,
+                    "h": 129,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 824,
+                    "y": 635,
+                    "w": 80,
+                    "h": 125,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1010,
+                    "y": 633,
+                    "w": 92,
+                    "h": 127,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1201,
+                    "y": 624,
+                    "w": 94,
+                    "h": 136,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 48,
+                    "y": 811,
+                    "w": 96,
+                    "h": 141,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 240,
+                    "y": 814,
+                    "w": 95,
+                    "h": 138,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 433,
+                    "y": 816,
+                    "w": 94,
+                    "h": 136,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 616,
+                    "y": 852,
+                    "w": 112,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 811,
+                    "y": 854,
+                    "w": 106,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 998,
+                    "y": 851,
+                    "w": 115,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1188,
+                    "y": 852,
+                    "w": 120,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 38,
+                    "y": 1045,
+                    "w": 115,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 235,
+                    "y": 1043,
+                    "w": 106,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 418,
+                    "y": 1053,
+                    "w": 123,
+                    "h": 91,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 623,
+                    "y": 1032,
+                    "w": 97,
+                    "h": 112,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 813,
+                    "y": 1030,
+                    "w": 101,
+                    "h": 114,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1004,
+                    "y": 1029,
+                    "w": 103,
+                    "h": 115,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1027,
+                    "w": 108,
+                    "h": 117,
+                    "sourceScale": 0.40226628895184136,
+                    "sourceMaxHeight": 353
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "bc69a26dac373c57c22d0de53e9157ff16a22a0ad4b72ee82afd695a3a281183",
+                  "56337e86770dffa7496250de83855d06261b1137d29ccb681565d75e3369603b",
+                  "a23a2e1c2b732f2cad0837d5ac96719b55687595c88c080d606dfc605d296095",
+                  "1e9985b41bfb82f0168ccfa9f70d4ceef4851431dd954b58c25cc53a1e11824a",
+                  "531aca15fcfc11c118f53f0c0b85c4eac1594c6b3ac0040fa60eff0aab81e582",
+                  "388f0e9d7a942b4e74a9ec509710c9e5b42e049edeab943f879e43b2c7ac2f1e",
+                  "309ab13028ac8f95d18f2415bc51189f5eba4446c98b8b6d4edd24e7fa22c360",
+                  "4cce1a3998f88840b28aa83473f30624c8c8ec94499a0d58bc85be8332ca7d0b",
+                  "46602709db7ec79346cd0b97e22942cd54366d9f4c130ef94569e044a55ad85f",
+                  "f4525598db34f72717a8abaf75a406e30662d4e6f1bb369cd5a9675999b7b117",
+                  "25c413559ed3bbdee46afa995807e552f31ac71d4aa1b8b3081a05eeb4caa289",
+                  "aed47587d2b0415068cfafe50ed7261f12199f75e153b9612387ec2bc0915e2a",
+                  "55b2fe638e139c773be79d6a94058dea23ecc2491b7cbe7d85a2b29f53af93b3",
+                  "407491d1c45b6192bef64461a7dcf17e2349a2e53d58718d672a657805912d14",
+                  "97418921f3b135f8b67193587d13d432846e4a576a65a5c3cf320ff6c2c1296b",
+                  "76835771b0baa5275c86094f0cc3a9a2111bcc2d6725272d6b5f28e00bfda217",
+                  "20317eb0dd7ead11f4d4400772c439ea4d09a355af2827665c117092aa9efcff",
+                  "45c0290018f8bd21ec6ae115124aa603611dfcad970fc583d673bb5887546fe8",
+                  "e52d5615f38eeef95783a7cd6c3252d24533be6469779e7bcd0825f991316e8a",
+                  "e26adebc035112e92ff40b6c07ad927d400f7fa997994c80388fd5728fa39656",
+                  "f3d89bd9296eadea2ef3eb9950b80dfacf45181d2b0d595fcba40c3dddd4f0ff",
+                  "a1723c6524baa5083f0ca2019c9426eefd71aa74eeebfa7114f8843fffd93a1f",
+                  "28ef57e25c286e233f8dd7a37385735250bb05a5dabb11e074f605f68fa14d99",
+                  "4b2d2f83ef2bb864afad6be969495e47ebeda51eb7cd618f5a8c87e82523e352",
+                  "1e63ba0b4b0eda6d04fb13b53cbbda0ee5e3982a930f17536d3e113124c33a63",
+                  "89896f8c94d2840c8ac0447de6d0bfb62c4846b0e306f4cbab6f0f4f18aa1982",
+                  "16ea17583a8e2af1e858be2d7551f2e5a426c1e85299484988a0680a147f9778",
+                  "1ea245f97fefb857f8dd0253395e1c858dd31e5cac4a9cea2378965847e62ba5",
+                  "1f0cd668706bf1450a2b53c539f5b21381c3c304530031bdc2a7a33b7dd70c62",
+                  "be77f8d3698efddea52cdd87f89f56bcefd42481de1408cb1b37c1980a069114",
+                  "435dc835e6bbcecebd048e344aa0434d9d21d336ffb66f144aaadce829bd44fb",
+                  "add624f66f3b621254b0017038627a1f4968d10cc8cccd8378171e99342abfb8",
+                  "3e0b23c073a700766004c868da36acac80f79793a9679686e9534c0dc9ee764c",
+                  "9adf09d6c78ebae0544d4c1eecc6a8546a961ccdbd541a7cd891d832dcf3b172",
+                  "442815d0e44ba6d88389353d975f3eefc9d51122ac9e9aa1c4fc7bbea0507688",
+                  "a77d6ca0698dc31be99f73164fa00b6a630ee7b86fe5081ea0cf648142f44c2c",
+                  "54ad51610601a1ec0774b7bbbed47efb0fbf645f21d226fc3171a3732bff03d9",
+                  "6b9691a236a901bfca377731046c8f3dc730f10779b30c02792d506b041e4d39",
+                  "77f06da985b2d2f9c981ccd56da2b71a88195808385f37d22266f8f0db53a5d5",
+                  "bb2703a2e60443e60628192853659d7e2521054b501bfe78db70fa3c949b2b23",
+                  "72b3ed2625fed96ab4d74b13acdc328d30d72451bb00dffd478c53bedbdd77d3",
+                  "948cb1fef8052235f1ef9302d0f382dd6f6f8849fb13fcb8e45cad18f9a2c24d"
+                ],
+                "sourceSha256": "4af582b17c13ecc2859881a7b256007c05f3ffa9abf5dc4dc7e4dc36c7dc871e",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/draya-staffwind-locomotion42.png",
+              "sourceSha256": "4af582b17c13ecc2859881a7b256007c05f3ffa9abf5dc4dc7e4dc36c7dc871e",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 614,
+                  "y": 850,
+                  "w": 116,
+                  "h": 104,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 809,
+                  "y": 852,
+                  "w": 110,
+                  "h": 102,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 996,
+                  "y": 849,
+                  "w": 119,
+                  "h": 105,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1186,
+                  "y": 850,
+                  "w": 124,
+                  "h": 104,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 36,
+                  "y": 1043,
+                  "w": 119,
+                  "h": 103,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 233,
+                  "y": 1041,
+                  "w": 110,
+                  "h": 105,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 416,
+                  "y": 1051,
+                  "w": 127,
+                  "h": 95,
+                  "component": 44
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 621,
+                  "y": 1030,
+                  "w": 101,
+                  "h": 116,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 811,
+                  "y": 1028,
+                  "w": 105,
+                  "h": 118,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1002,
+                  "y": 1027,
+                  "w": 107,
+                  "h": 119,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1192,
+                  "y": 1025,
+                  "w": 112,
+                  "h": 121,
+                  "component": 38
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.31 runtime portrait/gameplay cell60 and all42 original locomotion drawings preserve Draya as an adult human woman with warm medium-brown skin, dark eyes, focused face, abundant chestnut-brown locs in a high ponytail with small gold ties, natural athletic-curvy proportions and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. Her right-hand ball track is applied separately from the body flip."
+      }
+    },
+    "kael-rune": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/kael-rune-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "481a8e6ceac6ec769519071e91702785d11d6721d220d8dbad23252a081df7ac"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "82b46809a262a6b5af97c4de9de58c7666bab8ab84287e43b8e6daf4f3ccd048"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7c0bf04bad2dd524faa9d7f9cee1e9032fa67b5fe0c28e18f8d8616c3a387aca"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8e98680fa3ddcb825a39c260317e5a1e5bd23dc233e3868d7bffba22780a53f1"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ff22866441a535e6ec5c33b41bf2f538efbeac43894d95ee0c88d8601af6a44c"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "6bc1b1e8aa7bc2a1168da17dc16457b0c1cb24df30d9496aa1c27975dbce3dd6"
+              }
+            ],
+            "sha256": "9a44a41838dbe7e1d65ea1ea05808b1033d3a8fd861b27fb9c92420917ca9d86",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "kael-rune",
+              "canonicalSection": "J.31",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:19:22Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/kael-rune-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/kael-rune-portrait-reference.png",
+                "tools/generate-art/references/kael-rune-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.31 runtime portrait/gameplay cell61 and all42 original locomotion drawings preserve Kael as an adult human man with warm medium-brown skin, dark eyes, angular face, short dense navy-black curls, close connected beard/mustache, compact muscular build and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. His right-hand ball track is applied separately from the body flip."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "source": "Reviewed all42 source poses and five packed atlases on dark and light grounds. Native Canvas standard and zoom120 previews load105 images and capture87 snapshots; all five authored locomotion atlases select in both facings, and the separate right-hand ball remains at the lead hand and reaches court at each dribble bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:17:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-796741ae-88ca-42b3-9bed-e0abfaa1be81.png",
+                  "prompt": "tools/generate-art/kael-rune-locomotion-prompts.md#base",
+                  "sha256": "2d0b114d82986cb31a1231ae1bc049ddc54cda82f88a549eed1301c3bd2a5cd9"
+                },
+                {
+                  "path": "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:18:40Z",
+                  "generatedImage": "/workspace/generated_images/exec-2d8a16f5-0097-4a40-98ae-f15755ce5331.png",
+                  "prompt": "tools/generate-art/kael-rune-locomotion-prompts.md#supplement-14",
+                  "sha256": "bb0755bb6ec3233567e0c529f8d0b40e18e40d3a6657dcdfb6151d7cc0d8ad40"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                    "sha256": "2d0b114d82986cb31a1231ae1bc049ddc54cda82f88a549eed1301c3bd2a5cd9",
+                    "generatedAt": "2026-10-23T00:17:35Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-796741ae-88ca-42b3-9bed-e0abfaa1be81.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png",
+                    "sha256": "bb0755bb6ec3233567e0c529f8d0b40e18e40d3a6657dcdfb6151d7cc0d8ad40",
+                    "generatedAt": "2026-10-23T00:18:40Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2d8a16f5-0097-4a40-98ae-f15755ce5331.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5017667844522968,
+                  "supplement-14": 0.4409937888198758
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 251,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 631,
+                    "y": 42,
+                    "w": 81,
+                    "h": 142,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 56,
+                    "w": 93,
+                    "h": 128,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 45,
+                    "w": 81,
+                    "h": 139,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 43,
+                    "y": 236,
+                    "w": 106,
+                    "h": 140,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 239,
+                    "y": 234,
+                    "w": 98,
+                    "h": 142,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 436,
+                    "y": 234,
+                    "w": 88,
+                    "h": 142,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 281,
+                    "w": 101,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 807,
+                    "y": 282,
+                    "w": 113,
+                    "h": 94,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 283,
+                    "w": 102,
+                    "h": 93,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1196,
+                    "y": 283,
+                    "w": 103,
+                    "h": 93,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 39,
+                    "y": 472,
+                    "w": 114,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 237,
+                    "y": 472,
+                    "w": 101,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 427,
+                    "y": 472,
+                    "w": 105,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 619,
+                    "y": 467,
+                    "w": 105,
+                    "h": 101,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 810,
+                    "y": 466,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 471,
+                    "w": 111,
+                    "h": 97,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1203,
+                    "y": 452,
+                    "w": 90,
+                    "h": 116,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 51,
+                    "y": 647,
+                    "w": 89,
+                    "h": 113,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 642,
+                    "w": 92,
+                    "h": 118,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 430,
+                    "y": 642,
+                    "w": 99,
+                    "h": 118,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 630,
+                    "y": 646,
+                    "w": 83,
+                    "h": 114,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 815,
+                    "y": 644,
+                    "w": 98,
+                    "h": 116,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1004,
+                    "y": 643,
+                    "w": 103,
+                    "h": 117,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1203,
+                    "y": 619,
+                    "w": 90,
+                    "h": 141,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 44,
+                    "y": 813,
+                    "w": 103,
+                    "h": 139,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 237,
+                    "y": 815,
+                    "w": 101,
+                    "h": 137,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 420,
+                    "y": 811,
+                    "w": 119,
+                    "h": 141,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 616,
+                    "y": 857,
+                    "w": 112,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 809,
+                    "y": 855,
+                    "w": 110,
+                    "h": 97,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 857,
+                    "w": 113,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1195,
+                    "y": 857,
+                    "w": 105,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 43,
+                    "y": 1048,
+                    "w": 105,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 237,
+                    "y": 1049,
+                    "w": 102,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 423,
+                    "y": 1049,
+                    "w": 114,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 618,
+                    "y": 1027,
+                    "w": 108,
+                    "h": 117,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 808,
+                    "y": 1032,
+                    "w": 112,
+                    "h": 112,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1000,
+                    "y": 1024,
+                    "w": 111,
+                    "h": 120,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1190,
+                    "y": 1024,
+                    "w": 116,
+                    "h": 120,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "98bc5bfff51f5a2d49c78710af19c2da07adf74f592a63c4832bc6c7f0c3499f",
+                  "b0360a3b5a6f3763a87ea7c7fa0048945c5aed78ffc594fa5ffba570af48756c",
+                  "3f85629a35f125b4deb742003407b008badd1c9bc97e1db48e04ba1354419335",
+                  "e4b1cc148e7dafba99cc61f0b8433658f19b54a15cc83eaa5cb1dc61503b549f",
+                  "b9f2228da8ace164261096397f472eaea748d226b4cc488ebe2927510e3d3ef6",
+                  "4bf907375ef47d6da2eb67df9ef4d501ee19c5c9ea13efadb51e957b1a553ae8",
+                  "cea6680bbb8cad108051015af72fdda3708f30886db0ae4d127a975fa92c50bc",
+                  "7c0be43f6e710f052038de9c5761a75fd174acaf331e9e252cafb4132d58d0cc",
+                  "c6eb642d6633dcedb79377e775f6eef09ec0e1c75c8c2a72a49a6fa101fc75c2",
+                  "eebf557aa1413b5ff29b39a2dc20d456654a2310b92787177c7bcd42257acd6f",
+                  "5da62861adaa273f1fff3977dc459ff14bd32bf7a4de5d9fcb64a0069c59c5ad",
+                  "36f93bf6de9b2a16aa10bea8d7e335a5abc97c46bd3b355347c53cb63553af5c",
+                  "d0e718f24f6ce3c24c535ed0fb0d960adbc5730c4c49c6e180cd22b8a7416adc",
+                  "df66c554f9fe7b3d32c91dd3e1349697efa165e78c8f32b95bab529f0079b006",
+                  "85683a3135f5cd01e81ad7582bf619b2a0de8e68f28b1e3f572c05c4bbd6d5e8",
+                  "beff4b7a6e6d5f0badc23388d957933c0efca1f3301074e21820348ab5ff987f",
+                  "9757e7ec683964f14e0252e58d58be5b2d549eaa8c8c5f28fd9f84d7cb3af676",
+                  "53aaf6683526adacdfbbc74be39d5e1f29de96a54eb1c4cee6c7bb98ed88bd6a",
+                  "17704899bd0c15ced22367b0580e40ac78720992b60b03c8c0d5c9be052308a1",
+                  "14ceb8ee1714aa7ff4e9ddfdf73a5a8a24e3be017f78ed82cf48a8ddd81a3ef3",
+                  "dd03967980246a68acf08ccdc87e698925aea4c96e686905fd6c866294f61950",
+                  "ab6c22114099c4985b6b70234fdbdd489ff4a83343380bcca8575c254b472b67",
+                  "eed8c65eb1beb5df522830e928ecece8fe6751e51e3dbb3498253ebe2b3b64c4",
+                  "1c52ec93f23dc117b5e69f333c230f9d930303c80cdebce24f7db39aa8174011",
+                  "bde92ad353b36066e6c92c0727ef411cfd3e36f9cf16cf889fbac8ce653634d9",
+                  "d9199fbe40f7938bacd4991bc23b5373aa62a2169dc5441b016961232e1df3e1",
+                  "95e15b79011442155bac6d1d64eb6504b2caa0b50190d7f737f376572827b907",
+                  "13ab6a8184fa350fea8b1da0139c34254f1fc320c723f1d0a33cd0c211d475b2",
+                  "aafa590f02bd97aa9c25760c7cd61aa6dc915c274b312e687fe32ed73df93edc",
+                  "9befd3521d5765e405108fb68965a88613654780d2f7d3a18c1e2a5dde7ea221",
+                  "0d376aea1965e854ca2b8aa499492b7321c67dda0d7590964f72004a54975733",
+                  "3919a2936357c84b0c59af7ef15c85aa1321ef45d9dadae3fb66a34a13365085",
+                  "1c12778eaaa16fa0a174937bfca64e8ace1cc890442f24051e6c3786ffcad4fc",
+                  "23b0ccc357257993215a6ffd4c7ff933b01166b19a351b988eee7c4e7a54c8f8",
+                  "ce474514bd3375a3bf8d9471759d02baa7ad698e95bb0b1fb152e79e3ed7b100",
+                  "c7cb7450c1406ac1ebd313dcd604d375cc711b0b06b1904ba0f147a1855ced8b",
+                  "6125c1903b3c59a125d9db5d8261a45242984cc04b787d9fc2d071bff82cd570",
+                  "4f84d9b7fc4748082d591eba5104491b624938ba8ffa4f60a5a571a5c43755e1",
+                  "5aba45b821294b83674976d628f85aca7dc57a3f0d81d02ab3f3b42d120f4e58",
+                  "1e09ffae2e3227d15b34944839634812d3e2d46b27ef35f91ab16cc1a0c94e95",
+                  "eca44b54ac357aede9ce81f564f3a45af86c2778b7943b57d2bca90574f8da9c",
+                  "81a075d0bdb6873bb4d3f29e4535fbfe0febe9f60b496450ec9891355a6659d3"
+                ],
+                "sourceSha256": "a5b3884b6ee005c2855da54e6f7624413ad6ecc67b43ee1c3fb03b77ecf1f2ae",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/kael-rune-locomotion42.png",
+              "sourceSha256": "a5b3884b6ee005c2855da54e6f7624413ad6ecc67b43ee1c3fb03b77ecf1f2ae",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 56,
+                  "y": 40,
+                  "w": 79,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 249,
+                  "y": 41,
+                  "w": 77,
+                  "h": 145,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 445,
+                  "y": 41,
+                  "w": 70,
+                  "h": 145,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 629,
+                  "y": 40,
+                  "w": 85,
+                  "h": 146,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 824,
+                  "y": 41,
+                  "w": 80,
+                  "h": 145,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1007,
+                  "y": 54,
+                  "w": 97,
+                  "h": 132,
+                  "component": 7
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/kael-rune-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f75429a0206442bfcbe026f4d5a34701929ed7883024e5e40fdadaf18c392259"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8faef2ee75f6cc5d5b9f25edeb10f1a7395f0bbfa567919cd22068df265d436b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2c56783b52638788a307376f55cf36b8341526de630ca592349b03781fb53c24"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4abc8381d98e5c9dc786e8ca58ec4499287ffbd72014c453af92b9358e3d12fa"
+              }
+            ],
+            "sha256": "911911109ce80d36249f676d3ec0fff1501325ed36ce9ad288ec6ffc3f9dfb8a",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "kael-rune",
+              "canonicalSection": "J.31",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:19:22Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/kael-rune-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/kael-rune-portrait-reference.png",
+                "tools/generate-art/references/kael-rune-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.31 runtime portrait/gameplay cell61 and all42 original locomotion drawings preserve Kael as an adult human man with warm medium-brown skin, dark eyes, angular face, short dense navy-black curls, close connected beard/mustache, compact muscular build and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. His right-hand ball track is applied separately from the body flip."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "source": "Reviewed all42 source poses and five packed atlases on dark and light grounds. Native Canvas standard and zoom120 previews load105 images and capture87 snapshots; all five authored locomotion atlases select in both facings, and the separate right-hand ball remains at the lead hand and reaches court at each dribble bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:17:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-796741ae-88ca-42b3-9bed-e0abfaa1be81.png",
+                  "prompt": "tools/generate-art/kael-rune-locomotion-prompts.md#base",
+                  "sha256": "2d0b114d82986cb31a1231ae1bc049ddc54cda82f88a549eed1301c3bd2a5cd9"
+                },
+                {
+                  "path": "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:18:40Z",
+                  "generatedImage": "/workspace/generated_images/exec-2d8a16f5-0097-4a40-98ae-f15755ce5331.png",
+                  "prompt": "tools/generate-art/kael-rune-locomotion-prompts.md#supplement-14",
+                  "sha256": "bb0755bb6ec3233567e0c529f8d0b40e18e40d3a6657dcdfb6151d7cc0d8ad40"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                    "sha256": "2d0b114d82986cb31a1231ae1bc049ddc54cda82f88a549eed1301c3bd2a5cd9",
+                    "generatedAt": "2026-10-23T00:17:35Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-796741ae-88ca-42b3-9bed-e0abfaa1be81.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png",
+                    "sha256": "bb0755bb6ec3233567e0c529f8d0b40e18e40d3a6657dcdfb6151d7cc0d8ad40",
+                    "generatedAt": "2026-10-23T00:18:40Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2d8a16f5-0097-4a40-98ae-f15755ce5331.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5017667844522968,
+                  "supplement-14": 0.4409937888198758
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 251,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 631,
+                    "y": 42,
+                    "w": 81,
+                    "h": 142,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 56,
+                    "w": 93,
+                    "h": 128,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 45,
+                    "w": 81,
+                    "h": 139,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 43,
+                    "y": 236,
+                    "w": 106,
+                    "h": 140,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 239,
+                    "y": 234,
+                    "w": 98,
+                    "h": 142,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 436,
+                    "y": 234,
+                    "w": 88,
+                    "h": 142,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 281,
+                    "w": 101,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 807,
+                    "y": 282,
+                    "w": 113,
+                    "h": 94,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 283,
+                    "w": 102,
+                    "h": 93,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1196,
+                    "y": 283,
+                    "w": 103,
+                    "h": 93,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 39,
+                    "y": 472,
+                    "w": 114,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 237,
+                    "y": 472,
+                    "w": 101,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 427,
+                    "y": 472,
+                    "w": 105,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 619,
+                    "y": 467,
+                    "w": 105,
+                    "h": 101,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 810,
+                    "y": 466,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 471,
+                    "w": 111,
+                    "h": 97,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1203,
+                    "y": 452,
+                    "w": 90,
+                    "h": 116,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 51,
+                    "y": 647,
+                    "w": 89,
+                    "h": 113,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 642,
+                    "w": 92,
+                    "h": 118,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 430,
+                    "y": 642,
+                    "w": 99,
+                    "h": 118,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 630,
+                    "y": 646,
+                    "w": 83,
+                    "h": 114,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 815,
+                    "y": 644,
+                    "w": 98,
+                    "h": 116,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1004,
+                    "y": 643,
+                    "w": 103,
+                    "h": 117,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1203,
+                    "y": 619,
+                    "w": 90,
+                    "h": 141,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 44,
+                    "y": 813,
+                    "w": 103,
+                    "h": 139,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 237,
+                    "y": 815,
+                    "w": 101,
+                    "h": 137,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 420,
+                    "y": 811,
+                    "w": 119,
+                    "h": 141,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 616,
+                    "y": 857,
+                    "w": 112,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 809,
+                    "y": 855,
+                    "w": 110,
+                    "h": 97,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 857,
+                    "w": 113,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1195,
+                    "y": 857,
+                    "w": 105,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 43,
+                    "y": 1048,
+                    "w": 105,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 237,
+                    "y": 1049,
+                    "w": 102,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 423,
+                    "y": 1049,
+                    "w": 114,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 618,
+                    "y": 1027,
+                    "w": 108,
+                    "h": 117,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 808,
+                    "y": 1032,
+                    "w": 112,
+                    "h": 112,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1000,
+                    "y": 1024,
+                    "w": 111,
+                    "h": 120,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1190,
+                    "y": 1024,
+                    "w": 116,
+                    "h": 120,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "98bc5bfff51f5a2d49c78710af19c2da07adf74f592a63c4832bc6c7f0c3499f",
+                  "b0360a3b5a6f3763a87ea7c7fa0048945c5aed78ffc594fa5ffba570af48756c",
+                  "3f85629a35f125b4deb742003407b008badd1c9bc97e1db48e04ba1354419335",
+                  "e4b1cc148e7dafba99cc61f0b8433658f19b54a15cc83eaa5cb1dc61503b549f",
+                  "b9f2228da8ace164261096397f472eaea748d226b4cc488ebe2927510e3d3ef6",
+                  "4bf907375ef47d6da2eb67df9ef4d501ee19c5c9ea13efadb51e957b1a553ae8",
+                  "cea6680bbb8cad108051015af72fdda3708f30886db0ae4d127a975fa92c50bc",
+                  "7c0be43f6e710f052038de9c5761a75fd174acaf331e9e252cafb4132d58d0cc",
+                  "c6eb642d6633dcedb79377e775f6eef09ec0e1c75c8c2a72a49a6fa101fc75c2",
+                  "eebf557aa1413b5ff29b39a2dc20d456654a2310b92787177c7bcd42257acd6f",
+                  "5da62861adaa273f1fff3977dc459ff14bd32bf7a4de5d9fcb64a0069c59c5ad",
+                  "36f93bf6de9b2a16aa10bea8d7e335a5abc97c46bd3b355347c53cb63553af5c",
+                  "d0e718f24f6ce3c24c535ed0fb0d960adbc5730c4c49c6e180cd22b8a7416adc",
+                  "df66c554f9fe7b3d32c91dd3e1349697efa165e78c8f32b95bab529f0079b006",
+                  "85683a3135f5cd01e81ad7582bf619b2a0de8e68f28b1e3f572c05c4bbd6d5e8",
+                  "beff4b7a6e6d5f0badc23388d957933c0efca1f3301074e21820348ab5ff987f",
+                  "9757e7ec683964f14e0252e58d58be5b2d549eaa8c8c5f28fd9f84d7cb3af676",
+                  "53aaf6683526adacdfbbc74be39d5e1f29de96a54eb1c4cee6c7bb98ed88bd6a",
+                  "17704899bd0c15ced22367b0580e40ac78720992b60b03c8c0d5c9be052308a1",
+                  "14ceb8ee1714aa7ff4e9ddfdf73a5a8a24e3be017f78ed82cf48a8ddd81a3ef3",
+                  "dd03967980246a68acf08ccdc87e698925aea4c96e686905fd6c866294f61950",
+                  "ab6c22114099c4985b6b70234fdbdd489ff4a83343380bcca8575c254b472b67",
+                  "eed8c65eb1beb5df522830e928ecece8fe6751e51e3dbb3498253ebe2b3b64c4",
+                  "1c52ec93f23dc117b5e69f333c230f9d930303c80cdebce24f7db39aa8174011",
+                  "bde92ad353b36066e6c92c0727ef411cfd3e36f9cf16cf889fbac8ce653634d9",
+                  "d9199fbe40f7938bacd4991bc23b5373aa62a2169dc5441b016961232e1df3e1",
+                  "95e15b79011442155bac6d1d64eb6504b2caa0b50190d7f737f376572827b907",
+                  "13ab6a8184fa350fea8b1da0139c34254f1fc320c723f1d0a33cd0c211d475b2",
+                  "aafa590f02bd97aa9c25760c7cd61aa6dc915c274b312e687fe32ed73df93edc",
+                  "9befd3521d5765e405108fb68965a88613654780d2f7d3a18c1e2a5dde7ea221",
+                  "0d376aea1965e854ca2b8aa499492b7321c67dda0d7590964f72004a54975733",
+                  "3919a2936357c84b0c59af7ef15c85aa1321ef45d9dadae3fb66a34a13365085",
+                  "1c12778eaaa16fa0a174937bfca64e8ace1cc890442f24051e6c3786ffcad4fc",
+                  "23b0ccc357257993215a6ffd4c7ff933b01166b19a351b988eee7c4e7a54c8f8",
+                  "ce474514bd3375a3bf8d9471759d02baa7ad698e95bb0b1fb152e79e3ed7b100",
+                  "c7cb7450c1406ac1ebd313dcd604d375cc711b0b06b1904ba0f147a1855ced8b",
+                  "6125c1903b3c59a125d9db5d8261a45242984cc04b787d9fc2d071bff82cd570",
+                  "4f84d9b7fc4748082d591eba5104491b624938ba8ffa4f60a5a571a5c43755e1",
+                  "5aba45b821294b83674976d628f85aca7dc57a3f0d81d02ab3f3b42d120f4e58",
+                  "1e09ffae2e3227d15b34944839634812d3e2d46b27ef35f91ab16cc1a0c94e95",
+                  "eca44b54ac357aede9ce81f564f3a45af86c2778b7943b57d2bca90574f8da9c",
+                  "81a075d0bdb6873bb4d3f29e4535fbfe0febe9f60b496450ec9891355a6659d3"
+                ],
+                "sourceSha256": "a5b3884b6ee005c2855da54e6f7624413ad6ecc67b43ee1c3fb03b77ecf1f2ae",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/kael-rune-locomotion42.png",
+              "sourceSha256": "a5b3884b6ee005c2855da54e6f7624413ad6ecc67b43ee1c3fb03b77ecf1f2ae",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1205,
+                  "y": 43,
+                  "w": 85,
+                  "h": 143,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 41,
+                  "y": 234,
+                  "w": 110,
+                  "h": 144,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 237,
+                  "y": 232,
+                  "w": 102,
+                  "h": 146,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 434,
+                  "y": 232,
+                  "w": 92,
+                  "h": 146,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/kael-rune-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "fc4384e6e4df937ec9d85b0d5c9808775ebe480e824e05b7b7b2dde20f37c491"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7104c4044a4aea5b02203e71baf7160de41a169ff938654b258909f509d9072c"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0a6c635473bb4ebe4f1fd6bfa0455a93ff9ee0dc48850608c27badb61d4a041d"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "edc20648f73b9f37e4a350088166b0c0b3e6de3931871c0b0d94ba8373a4bdc1"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b16b61ec5bbbc1edeec22513df0f6843be72d215313228dae3735fc4a77ace58"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c7826fb78ecefa2a48057774ff059609e8c53619d2a8d7a30b5edf3a494746c0"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5ae35241401a1fa1a21c237314c8303e2045e38346f343f3585c8d07c6b1f1b5"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b4bea80061b6b2ada2ad270e0f53e14f17a6f752ba303c91c7b13eb2f288b97e"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "86fbada8d06830766d4a0cad44f3affbecea44ed2ad11cad69e4185f0e349197"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9fa2c86d82fd89c800f903b12d1c3f264506ea7ec09e81966b4ffa7829d8d30a"
+              }
+            ],
+            "sha256": "c3597bfaedbd9a6538bd424f329317d540bc054536b10f7224cb145a770d11b0",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "kael-rune",
+              "canonicalSection": "J.31",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:19:22Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/kael-rune-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/kael-rune-portrait-reference.png",
+                "tools/generate-art/references/kael-rune-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.31 runtime portrait/gameplay cell61 and all42 original locomotion drawings preserve Kael as an adult human man with warm medium-brown skin, dark eyes, angular face, short dense navy-black curls, close connected beard/mustache, compact muscular build and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. His right-hand ball track is applied separately from the body flip."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "source": "Reviewed all42 source poses and five packed atlases on dark and light grounds. Native Canvas standard and zoom120 previews load105 images and capture87 snapshots; all five authored locomotion atlases select in both facings, and the separate right-hand ball remains at the lead hand and reaches court at each dribble bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:17:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-796741ae-88ca-42b3-9bed-e0abfaa1be81.png",
+                  "prompt": "tools/generate-art/kael-rune-locomotion-prompts.md#base",
+                  "sha256": "2d0b114d82986cb31a1231ae1bc049ddc54cda82f88a549eed1301c3bd2a5cd9"
+                },
+                {
+                  "path": "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:18:40Z",
+                  "generatedImage": "/workspace/generated_images/exec-2d8a16f5-0097-4a40-98ae-f15755ce5331.png",
+                  "prompt": "tools/generate-art/kael-rune-locomotion-prompts.md#supplement-14",
+                  "sha256": "bb0755bb6ec3233567e0c529f8d0b40e18e40d3a6657dcdfb6151d7cc0d8ad40"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                    "sha256": "2d0b114d82986cb31a1231ae1bc049ddc54cda82f88a549eed1301c3bd2a5cd9",
+                    "generatedAt": "2026-10-23T00:17:35Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-796741ae-88ca-42b3-9bed-e0abfaa1be81.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png",
+                    "sha256": "bb0755bb6ec3233567e0c529f8d0b40e18e40d3a6657dcdfb6151d7cc0d8ad40",
+                    "generatedAt": "2026-10-23T00:18:40Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2d8a16f5-0097-4a40-98ae-f15755ce5331.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5017667844522968,
+                  "supplement-14": 0.4409937888198758
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 251,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 631,
+                    "y": 42,
+                    "w": 81,
+                    "h": 142,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 56,
+                    "w": 93,
+                    "h": 128,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 45,
+                    "w": 81,
+                    "h": 139,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 43,
+                    "y": 236,
+                    "w": 106,
+                    "h": 140,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 239,
+                    "y": 234,
+                    "w": 98,
+                    "h": 142,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 436,
+                    "y": 234,
+                    "w": 88,
+                    "h": 142,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 281,
+                    "w": 101,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 807,
+                    "y": 282,
+                    "w": 113,
+                    "h": 94,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 283,
+                    "w": 102,
+                    "h": 93,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1196,
+                    "y": 283,
+                    "w": 103,
+                    "h": 93,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 39,
+                    "y": 472,
+                    "w": 114,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 237,
+                    "y": 472,
+                    "w": 101,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 427,
+                    "y": 472,
+                    "w": 105,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 619,
+                    "y": 467,
+                    "w": 105,
+                    "h": 101,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 810,
+                    "y": 466,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 471,
+                    "w": 111,
+                    "h": 97,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1203,
+                    "y": 452,
+                    "w": 90,
+                    "h": 116,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 51,
+                    "y": 647,
+                    "w": 89,
+                    "h": 113,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 642,
+                    "w": 92,
+                    "h": 118,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 430,
+                    "y": 642,
+                    "w": 99,
+                    "h": 118,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 630,
+                    "y": 646,
+                    "w": 83,
+                    "h": 114,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 815,
+                    "y": 644,
+                    "w": 98,
+                    "h": 116,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1004,
+                    "y": 643,
+                    "w": 103,
+                    "h": 117,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1203,
+                    "y": 619,
+                    "w": 90,
+                    "h": 141,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 44,
+                    "y": 813,
+                    "w": 103,
+                    "h": 139,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 237,
+                    "y": 815,
+                    "w": 101,
+                    "h": 137,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 420,
+                    "y": 811,
+                    "w": 119,
+                    "h": 141,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 616,
+                    "y": 857,
+                    "w": 112,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 809,
+                    "y": 855,
+                    "w": 110,
+                    "h": 97,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 857,
+                    "w": 113,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1195,
+                    "y": 857,
+                    "w": 105,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 43,
+                    "y": 1048,
+                    "w": 105,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 237,
+                    "y": 1049,
+                    "w": 102,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 423,
+                    "y": 1049,
+                    "w": 114,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 618,
+                    "y": 1027,
+                    "w": 108,
+                    "h": 117,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 808,
+                    "y": 1032,
+                    "w": 112,
+                    "h": 112,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1000,
+                    "y": 1024,
+                    "w": 111,
+                    "h": 120,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1190,
+                    "y": 1024,
+                    "w": 116,
+                    "h": 120,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "98bc5bfff51f5a2d49c78710af19c2da07adf74f592a63c4832bc6c7f0c3499f",
+                  "b0360a3b5a6f3763a87ea7c7fa0048945c5aed78ffc594fa5ffba570af48756c",
+                  "3f85629a35f125b4deb742003407b008badd1c9bc97e1db48e04ba1354419335",
+                  "e4b1cc148e7dafba99cc61f0b8433658f19b54a15cc83eaa5cb1dc61503b549f",
+                  "b9f2228da8ace164261096397f472eaea748d226b4cc488ebe2927510e3d3ef6",
+                  "4bf907375ef47d6da2eb67df9ef4d501ee19c5c9ea13efadb51e957b1a553ae8",
+                  "cea6680bbb8cad108051015af72fdda3708f30886db0ae4d127a975fa92c50bc",
+                  "7c0be43f6e710f052038de9c5761a75fd174acaf331e9e252cafb4132d58d0cc",
+                  "c6eb642d6633dcedb79377e775f6eef09ec0e1c75c8c2a72a49a6fa101fc75c2",
+                  "eebf557aa1413b5ff29b39a2dc20d456654a2310b92787177c7bcd42257acd6f",
+                  "5da62861adaa273f1fff3977dc459ff14bd32bf7a4de5d9fcb64a0069c59c5ad",
+                  "36f93bf6de9b2a16aa10bea8d7e335a5abc97c46bd3b355347c53cb63553af5c",
+                  "d0e718f24f6ce3c24c535ed0fb0d960adbc5730c4c49c6e180cd22b8a7416adc",
+                  "df66c554f9fe7b3d32c91dd3e1349697efa165e78c8f32b95bab529f0079b006",
+                  "85683a3135f5cd01e81ad7582bf619b2a0de8e68f28b1e3f572c05c4bbd6d5e8",
+                  "beff4b7a6e6d5f0badc23388d957933c0efca1f3301074e21820348ab5ff987f",
+                  "9757e7ec683964f14e0252e58d58be5b2d549eaa8c8c5f28fd9f84d7cb3af676",
+                  "53aaf6683526adacdfbbc74be39d5e1f29de96a54eb1c4cee6c7bb98ed88bd6a",
+                  "17704899bd0c15ced22367b0580e40ac78720992b60b03c8c0d5c9be052308a1",
+                  "14ceb8ee1714aa7ff4e9ddfdf73a5a8a24e3be017f78ed82cf48a8ddd81a3ef3",
+                  "dd03967980246a68acf08ccdc87e698925aea4c96e686905fd6c866294f61950",
+                  "ab6c22114099c4985b6b70234fdbdd489ff4a83343380bcca8575c254b472b67",
+                  "eed8c65eb1beb5df522830e928ecece8fe6751e51e3dbb3498253ebe2b3b64c4",
+                  "1c52ec93f23dc117b5e69f333c230f9d930303c80cdebce24f7db39aa8174011",
+                  "bde92ad353b36066e6c92c0727ef411cfd3e36f9cf16cf889fbac8ce653634d9",
+                  "d9199fbe40f7938bacd4991bc23b5373aa62a2169dc5441b016961232e1df3e1",
+                  "95e15b79011442155bac6d1d64eb6504b2caa0b50190d7f737f376572827b907",
+                  "13ab6a8184fa350fea8b1da0139c34254f1fc320c723f1d0a33cd0c211d475b2",
+                  "aafa590f02bd97aa9c25760c7cd61aa6dc915c274b312e687fe32ed73df93edc",
+                  "9befd3521d5765e405108fb68965a88613654780d2f7d3a18c1e2a5dde7ea221",
+                  "0d376aea1965e854ca2b8aa499492b7321c67dda0d7590964f72004a54975733",
+                  "3919a2936357c84b0c59af7ef15c85aa1321ef45d9dadae3fb66a34a13365085",
+                  "1c12778eaaa16fa0a174937bfca64e8ace1cc890442f24051e6c3786ffcad4fc",
+                  "23b0ccc357257993215a6ffd4c7ff933b01166b19a351b988eee7c4e7a54c8f8",
+                  "ce474514bd3375a3bf8d9471759d02baa7ad698e95bb0b1fb152e79e3ed7b100",
+                  "c7cb7450c1406ac1ebd313dcd604d375cc711b0b06b1904ba0f147a1855ced8b",
+                  "6125c1903b3c59a125d9db5d8261a45242984cc04b787d9fc2d071bff82cd570",
+                  "4f84d9b7fc4748082d591eba5104491b624938ba8ffa4f60a5a571a5c43755e1",
+                  "5aba45b821294b83674976d628f85aca7dc57a3f0d81d02ab3f3b42d120f4e58",
+                  "1e09ffae2e3227d15b34944839634812d3e2d46b27ef35f91ab16cc1a0c94e95",
+                  "eca44b54ac357aede9ce81f564f3a45af86c2778b7943b57d2bca90574f8da9c",
+                  "81a075d0bdb6873bb4d3f29e4535fbfe0febe9f60b496450ec9891355a6659d3"
+                ],
+                "sourceSha256": "a5b3884b6ee005c2855da54e6f7624413ad6ecc67b43ee1c3fb03b77ecf1f2ae",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/kael-rune-locomotion42.png",
+              "sourceSha256": "a5b3884b6ee005c2855da54e6f7624413ad6ecc67b43ee1c3fb03b77ecf1f2ae",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 619,
+                  "y": 279,
+                  "w": 105,
+                  "h": 99,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 805,
+                  "y": 280,
+                  "w": 117,
+                  "h": 98,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1003,
+                  "y": 281,
+                  "w": 106,
+                  "h": 97,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1194,
+                  "y": 281,
+                  "w": 107,
+                  "h": 97,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 37,
+                  "y": 470,
+                  "w": 118,
+                  "h": 100,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 235,
+                  "y": 470,
+                  "w": 105,
+                  "h": 100,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 425,
+                  "y": 470,
+                  "w": 109,
+                  "h": 100,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 617,
+                  "y": 465,
+                  "w": 109,
+                  "h": 105,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 808,
+                  "y": 464,
+                  "w": 112,
+                  "h": 106,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 998,
+                  "y": 469,
+                  "w": 115,
+                  "h": 101,
+                  "component": 18
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/kael-rune-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "fc7c02ddde4fecd01b0b929b5eddfec2c084135b00fa43e2dbc6b92b939cb3c8"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e2923538ca2e3938508a8fafdc59c1e8551c8b0603498e1a31dd6b708614359e"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "14c90b5f30e246d40a8abd3b6b9c247196275c0e33c291b9a995385bf2eceab1"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d0a9a7cee08a294beac3cc0a080928dab0903bdaac0d73d5fda0c968a65534c5"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7bbbf6cc10e78c06106e561d0b7934c051beb09c1c4cf7e03e35e84d623958e6"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1ab1d57e6c27c12676ca9a345859b0a2ca5a73120c98e784981606b6424ada67"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "dce661a41900e0514a447939939c30997acd18970659ee3af7d819e1c46dbad1"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "41f9969a961f778412ea213be10c8105e21b16dccbb531178429729adcca9e40"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "ac263fcc4395538b0bce6a132d94ef9506f88b5f5d7664fc225bd9816b1690c7"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f62f326bd27e57bc10216af17701b8a0283c72f2e3a62c2575ccadeb640bffd2"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "7b69cb2c2800b45044253e1d660bd99644a5a547cdee37e14f8c5649b000483e"
+              }
+            ],
+            "sha256": "02aa64c91fb9feef3058cdd8cf40696b42130ae43f856446a641d5a20ce287c8",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "kael-rune",
+              "canonicalSection": "J.31",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:19:22Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/kael-rune-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/kael-rune-portrait-reference.png",
+                "tools/generate-art/references/kael-rune-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.31 runtime portrait/gameplay cell61 and all42 original locomotion drawings preserve Kael as an adult human man with warm medium-brown skin, dark eyes, angular face, short dense navy-black curls, close connected beard/mustache, compact muscular build and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. His right-hand ball track is applied separately from the body flip."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "source": "Reviewed all42 source poses and five packed atlases on dark and light grounds. Native Canvas standard and zoom120 previews load105 images and capture87 snapshots; all five authored locomotion atlases select in both facings, and the separate right-hand ball remains at the lead hand and reaches court at each dribble bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:17:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-796741ae-88ca-42b3-9bed-e0abfaa1be81.png",
+                  "prompt": "tools/generate-art/kael-rune-locomotion-prompts.md#base",
+                  "sha256": "2d0b114d82986cb31a1231ae1bc049ddc54cda82f88a549eed1301c3bd2a5cd9"
+                },
+                {
+                  "path": "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:18:40Z",
+                  "generatedImage": "/workspace/generated_images/exec-2d8a16f5-0097-4a40-98ae-f15755ce5331.png",
+                  "prompt": "tools/generate-art/kael-rune-locomotion-prompts.md#supplement-14",
+                  "sha256": "bb0755bb6ec3233567e0c529f8d0b40e18e40d3a6657dcdfb6151d7cc0d8ad40"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                    "sha256": "2d0b114d82986cb31a1231ae1bc049ddc54cda82f88a549eed1301c3bd2a5cd9",
+                    "generatedAt": "2026-10-23T00:17:35Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-796741ae-88ca-42b3-9bed-e0abfaa1be81.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png",
+                    "sha256": "bb0755bb6ec3233567e0c529f8d0b40e18e40d3a6657dcdfb6151d7cc0d8ad40",
+                    "generatedAt": "2026-10-23T00:18:40Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2d8a16f5-0097-4a40-98ae-f15755ce5331.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5017667844522968,
+                  "supplement-14": 0.4409937888198758
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 251,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 631,
+                    "y": 42,
+                    "w": 81,
+                    "h": 142,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 56,
+                    "w": 93,
+                    "h": 128,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 45,
+                    "w": 81,
+                    "h": 139,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 43,
+                    "y": 236,
+                    "w": 106,
+                    "h": 140,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 239,
+                    "y": 234,
+                    "w": 98,
+                    "h": 142,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 436,
+                    "y": 234,
+                    "w": 88,
+                    "h": 142,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 281,
+                    "w": 101,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 807,
+                    "y": 282,
+                    "w": 113,
+                    "h": 94,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 283,
+                    "w": 102,
+                    "h": 93,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1196,
+                    "y": 283,
+                    "w": 103,
+                    "h": 93,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 39,
+                    "y": 472,
+                    "w": 114,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 237,
+                    "y": 472,
+                    "w": 101,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 427,
+                    "y": 472,
+                    "w": 105,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 619,
+                    "y": 467,
+                    "w": 105,
+                    "h": 101,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 810,
+                    "y": 466,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 471,
+                    "w": 111,
+                    "h": 97,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1203,
+                    "y": 452,
+                    "w": 90,
+                    "h": 116,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 51,
+                    "y": 647,
+                    "w": 89,
+                    "h": 113,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 642,
+                    "w": 92,
+                    "h": 118,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 430,
+                    "y": 642,
+                    "w": 99,
+                    "h": 118,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 630,
+                    "y": 646,
+                    "w": 83,
+                    "h": 114,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 815,
+                    "y": 644,
+                    "w": 98,
+                    "h": 116,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1004,
+                    "y": 643,
+                    "w": 103,
+                    "h": 117,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1203,
+                    "y": 619,
+                    "w": 90,
+                    "h": 141,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 44,
+                    "y": 813,
+                    "w": 103,
+                    "h": 139,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 237,
+                    "y": 815,
+                    "w": 101,
+                    "h": 137,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 420,
+                    "y": 811,
+                    "w": 119,
+                    "h": 141,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 616,
+                    "y": 857,
+                    "w": 112,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 809,
+                    "y": 855,
+                    "w": 110,
+                    "h": 97,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 857,
+                    "w": 113,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1195,
+                    "y": 857,
+                    "w": 105,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 43,
+                    "y": 1048,
+                    "w": 105,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 237,
+                    "y": 1049,
+                    "w": 102,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 423,
+                    "y": 1049,
+                    "w": 114,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 618,
+                    "y": 1027,
+                    "w": 108,
+                    "h": 117,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 808,
+                    "y": 1032,
+                    "w": 112,
+                    "h": 112,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1000,
+                    "y": 1024,
+                    "w": 111,
+                    "h": 120,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1190,
+                    "y": 1024,
+                    "w": 116,
+                    "h": 120,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "98bc5bfff51f5a2d49c78710af19c2da07adf74f592a63c4832bc6c7f0c3499f",
+                  "b0360a3b5a6f3763a87ea7c7fa0048945c5aed78ffc594fa5ffba570af48756c",
+                  "3f85629a35f125b4deb742003407b008badd1c9bc97e1db48e04ba1354419335",
+                  "e4b1cc148e7dafba99cc61f0b8433658f19b54a15cc83eaa5cb1dc61503b549f",
+                  "b9f2228da8ace164261096397f472eaea748d226b4cc488ebe2927510e3d3ef6",
+                  "4bf907375ef47d6da2eb67df9ef4d501ee19c5c9ea13efadb51e957b1a553ae8",
+                  "cea6680bbb8cad108051015af72fdda3708f30886db0ae4d127a975fa92c50bc",
+                  "7c0be43f6e710f052038de9c5761a75fd174acaf331e9e252cafb4132d58d0cc",
+                  "c6eb642d6633dcedb79377e775f6eef09ec0e1c75c8c2a72a49a6fa101fc75c2",
+                  "eebf557aa1413b5ff29b39a2dc20d456654a2310b92787177c7bcd42257acd6f",
+                  "5da62861adaa273f1fff3977dc459ff14bd32bf7a4de5d9fcb64a0069c59c5ad",
+                  "36f93bf6de9b2a16aa10bea8d7e335a5abc97c46bd3b355347c53cb63553af5c",
+                  "d0e718f24f6ce3c24c535ed0fb0d960adbc5730c4c49c6e180cd22b8a7416adc",
+                  "df66c554f9fe7b3d32c91dd3e1349697efa165e78c8f32b95bab529f0079b006",
+                  "85683a3135f5cd01e81ad7582bf619b2a0de8e68f28b1e3f572c05c4bbd6d5e8",
+                  "beff4b7a6e6d5f0badc23388d957933c0efca1f3301074e21820348ab5ff987f",
+                  "9757e7ec683964f14e0252e58d58be5b2d549eaa8c8c5f28fd9f84d7cb3af676",
+                  "53aaf6683526adacdfbbc74be39d5e1f29de96a54eb1c4cee6c7bb98ed88bd6a",
+                  "17704899bd0c15ced22367b0580e40ac78720992b60b03c8c0d5c9be052308a1",
+                  "14ceb8ee1714aa7ff4e9ddfdf73a5a8a24e3be017f78ed82cf48a8ddd81a3ef3",
+                  "dd03967980246a68acf08ccdc87e698925aea4c96e686905fd6c866294f61950",
+                  "ab6c22114099c4985b6b70234fdbdd489ff4a83343380bcca8575c254b472b67",
+                  "eed8c65eb1beb5df522830e928ecece8fe6751e51e3dbb3498253ebe2b3b64c4",
+                  "1c52ec93f23dc117b5e69f333c230f9d930303c80cdebce24f7db39aa8174011",
+                  "bde92ad353b36066e6c92c0727ef411cfd3e36f9cf16cf889fbac8ce653634d9",
+                  "d9199fbe40f7938bacd4991bc23b5373aa62a2169dc5441b016961232e1df3e1",
+                  "95e15b79011442155bac6d1d64eb6504b2caa0b50190d7f737f376572827b907",
+                  "13ab6a8184fa350fea8b1da0139c34254f1fc320c723f1d0a33cd0c211d475b2",
+                  "aafa590f02bd97aa9c25760c7cd61aa6dc915c274b312e687fe32ed73df93edc",
+                  "9befd3521d5765e405108fb68965a88613654780d2f7d3a18c1e2a5dde7ea221",
+                  "0d376aea1965e854ca2b8aa499492b7321c67dda0d7590964f72004a54975733",
+                  "3919a2936357c84b0c59af7ef15c85aa1321ef45d9dadae3fb66a34a13365085",
+                  "1c12778eaaa16fa0a174937bfca64e8ace1cc890442f24051e6c3786ffcad4fc",
+                  "23b0ccc357257993215a6ffd4c7ff933b01166b19a351b988eee7c4e7a54c8f8",
+                  "ce474514bd3375a3bf8d9471759d02baa7ad698e95bb0b1fb152e79e3ed7b100",
+                  "c7cb7450c1406ac1ebd313dcd604d375cc711b0b06b1904ba0f147a1855ced8b",
+                  "6125c1903b3c59a125d9db5d8261a45242984cc04b787d9fc2d071bff82cd570",
+                  "4f84d9b7fc4748082d591eba5104491b624938ba8ffa4f60a5a571a5c43755e1",
+                  "5aba45b821294b83674976d628f85aca7dc57a3f0d81d02ab3f3b42d120f4e58",
+                  "1e09ffae2e3227d15b34944839634812d3e2d46b27ef35f91ab16cc1a0c94e95",
+                  "eca44b54ac357aede9ce81f564f3a45af86c2778b7943b57d2bca90574f8da9c",
+                  "81a075d0bdb6873bb4d3f29e4535fbfe0febe9f60b496450ec9891355a6659d3"
+                ],
+                "sourceSha256": "a5b3884b6ee005c2855da54e6f7624413ad6ecc67b43ee1c3fb03b77ecf1f2ae",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/kael-rune-locomotion42.png",
+              "sourceSha256": "a5b3884b6ee005c2855da54e6f7624413ad6ecc67b43ee1c3fb03b77ecf1f2ae",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1201,
+                  "y": 450,
+                  "w": 94,
+                  "h": 120,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 49,
+                  "y": 645,
+                  "w": 93,
+                  "h": 117,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 240,
+                  "y": 640,
+                  "w": 96,
+                  "h": 122,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 428,
+                  "y": 640,
+                  "w": 103,
+                  "h": 122,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 628,
+                  "y": 644,
+                  "w": 87,
+                  "h": 118,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 813,
+                  "y": 642,
+                  "w": 102,
+                  "h": 120,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1002,
+                  "y": 641,
+                  "w": 107,
+                  "h": 121,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1201,
+                  "y": 617,
+                  "w": 94,
+                  "h": 145,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 42,
+                  "y": 811,
+                  "w": 107,
+                  "h": 143,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 235,
+                  "y": 813,
+                  "w": 105,
+                  "h": 141,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 418,
+                  "y": 809,
+                  "w": 123,
+                  "h": 145,
+                  "component": 29
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/kael-rune-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f64f88253d92fd26e4b42210886b8c8148924e1ea7708d5555af4dff9edfe6e1"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d39044d65611a0cacf1968d6fbe886201923fe30c60ff040e98749ffc9ead4a7"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b568adc00426ff64c1f2d9ae587d32c4e70ed4aa46f78e6e8ec471f7a6c57948"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "35ae51b791fc1520e50e22a40c3cafc8903c4748173a7fd24dc500ec338fe859"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7bacae1cf5281f3d8467f3dbdb291e2a5cdb70ebe1ea9aa9094371c8da6b1d35"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "480233d2711c16066a2852eb8b4253f5e2c063a8ee62a9287d1d95a834247196"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c4d9f570dcf1bf0095237f8bbe5a875b26c8746ee832bc1661c2de0967ff42dd"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7445e6e5aae3bddc7f235bd77a36e2aafed2ab6b400b25b899e717a52d32d9ad"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "22c0148acbd2d5a4435dc071402b3748e22db6cb02531c439424e2979c526fbf"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "6ed037dfa8d57c546655c0c4309e63d1c709b4bbf2f8ef0e1aeadf710a29a10f"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "c0f1e2e70f9f8a0d8af6593ed35544f00cab6722f4c723042c7c062ae7379fb3"
+              }
+            ],
+            "sha256": "eacbe3bafb74e514383d3d0a29bd2f68987bb1246b8006825e92a22f7d67fa2d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "kael-rune",
+              "canonicalSection": "J.31",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:19:22Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/kael-rune-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/kael-rune-portrait-reference.png",
+                "tools/generate-art/references/kael-rune-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.31 runtime portrait/gameplay cell61 and all42 original locomotion drawings preserve Kael as an adult human man with warm medium-brown skin, dark eyes, angular face, short dense navy-black curls, close connected beard/mustache, compact muscular build and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. His right-hand ball track is applied separately from the body flip."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "source": "Reviewed all42 source poses and five packed atlases on dark and light grounds. Native Canvas standard and zoom120 previews load105 images and capture87 snapshots; all five authored locomotion atlases select in both facings, and the separate right-hand ball remains at the lead hand and reaches court at each dribble bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:17:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-796741ae-88ca-42b3-9bed-e0abfaa1be81.png",
+                  "prompt": "tools/generate-art/kael-rune-locomotion-prompts.md#base",
+                  "sha256": "2d0b114d82986cb31a1231ae1bc049ddc54cda82f88a549eed1301c3bd2a5cd9"
+                },
+                {
+                  "path": "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:18:40Z",
+                  "generatedImage": "/workspace/generated_images/exec-2d8a16f5-0097-4a40-98ae-f15755ce5331.png",
+                  "prompt": "tools/generate-art/kael-rune-locomotion-prompts.md#supplement-14",
+                  "sha256": "bb0755bb6ec3233567e0c529f8d0b40e18e40d3a6657dcdfb6151d7cc0d8ad40"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/kael-rune-locomotion-base.png",
+                    "sha256": "2d0b114d82986cb31a1231ae1bc049ddc54cda82f88a549eed1301c3bd2a5cd9",
+                    "generatedAt": "2026-10-23T00:17:35Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-796741ae-88ca-42b3-9bed-e0abfaa1be81.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/kael-rune-locomotion-supplement-14.png",
+                    "sha256": "bb0755bb6ec3233567e0c529f8d0b40e18e40d3a6657dcdfb6151d7cc0d8ad40",
+                    "generatedAt": "2026-10-23T00:18:40Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2d8a16f5-0097-4a40-98ae-f15755ce5331.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5017667844522968,
+                  "supplement-14": 0.4409937888198758
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 251,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 631,
+                    "y": 42,
+                    "w": 81,
+                    "h": 142,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 56,
+                    "w": 93,
+                    "h": 128,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 45,
+                    "w": 81,
+                    "h": 139,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 43,
+                    "y": 236,
+                    "w": 106,
+                    "h": 140,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 239,
+                    "y": 234,
+                    "w": 98,
+                    "h": 142,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 436,
+                    "y": 234,
+                    "w": 88,
+                    "h": 142,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 281,
+                    "w": 101,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 807,
+                    "y": 282,
+                    "w": 113,
+                    "h": 94,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 283,
+                    "w": 102,
+                    "h": 93,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1196,
+                    "y": 283,
+                    "w": 103,
+                    "h": 93,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 39,
+                    "y": 472,
+                    "w": 114,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 237,
+                    "y": 472,
+                    "w": 101,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 427,
+                    "y": 472,
+                    "w": 105,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 619,
+                    "y": 467,
+                    "w": 105,
+                    "h": 101,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 810,
+                    "y": 466,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 471,
+                    "w": 111,
+                    "h": 97,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1203,
+                    "y": 452,
+                    "w": 90,
+                    "h": 116,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 51,
+                    "y": 647,
+                    "w": 89,
+                    "h": 113,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 642,
+                    "w": 92,
+                    "h": 118,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 430,
+                    "y": 642,
+                    "w": 99,
+                    "h": 118,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 630,
+                    "y": 646,
+                    "w": 83,
+                    "h": 114,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 815,
+                    "y": 644,
+                    "w": 98,
+                    "h": 116,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1004,
+                    "y": 643,
+                    "w": 103,
+                    "h": 117,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1203,
+                    "y": 619,
+                    "w": 90,
+                    "h": 141,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 44,
+                    "y": 813,
+                    "w": 103,
+                    "h": 139,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 237,
+                    "y": 815,
+                    "w": 101,
+                    "h": 137,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 420,
+                    "y": 811,
+                    "w": 119,
+                    "h": 141,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 616,
+                    "y": 857,
+                    "w": 112,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 809,
+                    "y": 855,
+                    "w": 110,
+                    "h": 97,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 857,
+                    "w": 113,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1195,
+                    "y": 857,
+                    "w": 105,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 43,
+                    "y": 1048,
+                    "w": 105,
+                    "h": 96,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 237,
+                    "y": 1049,
+                    "w": 102,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 423,
+                    "y": 1049,
+                    "w": 114,
+                    "h": 95,
+                    "sourceScale": 0.5017667844522968,
+                    "sourceMaxHeight": 283
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 618,
+                    "y": 1027,
+                    "w": 108,
+                    "h": 117,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 808,
+                    "y": 1032,
+                    "w": 112,
+                    "h": 112,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1000,
+                    "y": 1024,
+                    "w": 111,
+                    "h": 120,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1190,
+                    "y": 1024,
+                    "w": 116,
+                    "h": 120,
+                    "sourceScale": 0.4409937888198758,
+                    "sourceMaxHeight": 322
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "98bc5bfff51f5a2d49c78710af19c2da07adf74f592a63c4832bc6c7f0c3499f",
+                  "b0360a3b5a6f3763a87ea7c7fa0048945c5aed78ffc594fa5ffba570af48756c",
+                  "3f85629a35f125b4deb742003407b008badd1c9bc97e1db48e04ba1354419335",
+                  "e4b1cc148e7dafba99cc61f0b8433658f19b54a15cc83eaa5cb1dc61503b549f",
+                  "b9f2228da8ace164261096397f472eaea748d226b4cc488ebe2927510e3d3ef6",
+                  "4bf907375ef47d6da2eb67df9ef4d501ee19c5c9ea13efadb51e957b1a553ae8",
+                  "cea6680bbb8cad108051015af72fdda3708f30886db0ae4d127a975fa92c50bc",
+                  "7c0be43f6e710f052038de9c5761a75fd174acaf331e9e252cafb4132d58d0cc",
+                  "c6eb642d6633dcedb79377e775f6eef09ec0e1c75c8c2a72a49a6fa101fc75c2",
+                  "eebf557aa1413b5ff29b39a2dc20d456654a2310b92787177c7bcd42257acd6f",
+                  "5da62861adaa273f1fff3977dc459ff14bd32bf7a4de5d9fcb64a0069c59c5ad",
+                  "36f93bf6de9b2a16aa10bea8d7e335a5abc97c46bd3b355347c53cb63553af5c",
+                  "d0e718f24f6ce3c24c535ed0fb0d960adbc5730c4c49c6e180cd22b8a7416adc",
+                  "df66c554f9fe7b3d32c91dd3e1349697efa165e78c8f32b95bab529f0079b006",
+                  "85683a3135f5cd01e81ad7582bf619b2a0de8e68f28b1e3f572c05c4bbd6d5e8",
+                  "beff4b7a6e6d5f0badc23388d957933c0efca1f3301074e21820348ab5ff987f",
+                  "9757e7ec683964f14e0252e58d58be5b2d549eaa8c8c5f28fd9f84d7cb3af676",
+                  "53aaf6683526adacdfbbc74be39d5e1f29de96a54eb1c4cee6c7bb98ed88bd6a",
+                  "17704899bd0c15ced22367b0580e40ac78720992b60b03c8c0d5c9be052308a1",
+                  "14ceb8ee1714aa7ff4e9ddfdf73a5a8a24e3be017f78ed82cf48a8ddd81a3ef3",
+                  "dd03967980246a68acf08ccdc87e698925aea4c96e686905fd6c866294f61950",
+                  "ab6c22114099c4985b6b70234fdbdd489ff4a83343380bcca8575c254b472b67",
+                  "eed8c65eb1beb5df522830e928ecece8fe6751e51e3dbb3498253ebe2b3b64c4",
+                  "1c52ec93f23dc117b5e69f333c230f9d930303c80cdebce24f7db39aa8174011",
+                  "bde92ad353b36066e6c92c0727ef411cfd3e36f9cf16cf889fbac8ce653634d9",
+                  "d9199fbe40f7938bacd4991bc23b5373aa62a2169dc5441b016961232e1df3e1",
+                  "95e15b79011442155bac6d1d64eb6504b2caa0b50190d7f737f376572827b907",
+                  "13ab6a8184fa350fea8b1da0139c34254f1fc320c723f1d0a33cd0c211d475b2",
+                  "aafa590f02bd97aa9c25760c7cd61aa6dc915c274b312e687fe32ed73df93edc",
+                  "9befd3521d5765e405108fb68965a88613654780d2f7d3a18c1e2a5dde7ea221",
+                  "0d376aea1965e854ca2b8aa499492b7321c67dda0d7590964f72004a54975733",
+                  "3919a2936357c84b0c59af7ef15c85aa1321ef45d9dadae3fb66a34a13365085",
+                  "1c12778eaaa16fa0a174937bfca64e8ace1cc890442f24051e6c3786ffcad4fc",
+                  "23b0ccc357257993215a6ffd4c7ff933b01166b19a351b988eee7c4e7a54c8f8",
+                  "ce474514bd3375a3bf8d9471759d02baa7ad698e95bb0b1fb152e79e3ed7b100",
+                  "c7cb7450c1406ac1ebd313dcd604d375cc711b0b06b1904ba0f147a1855ced8b",
+                  "6125c1903b3c59a125d9db5d8261a45242984cc04b787d9fc2d071bff82cd570",
+                  "4f84d9b7fc4748082d591eba5104491b624938ba8ffa4f60a5a571a5c43755e1",
+                  "5aba45b821294b83674976d628f85aca7dc57a3f0d81d02ab3f3b42d120f4e58",
+                  "1e09ffae2e3227d15b34944839634812d3e2d46b27ef35f91ab16cc1a0c94e95",
+                  "eca44b54ac357aede9ce81f564f3a45af86c2778b7943b57d2bca90574f8da9c",
+                  "81a075d0bdb6873bb4d3f29e4535fbfe0febe9f60b496450ec9891355a6659d3"
+                ],
+                "sourceSha256": "a5b3884b6ee005c2855da54e6f7624413ad6ecc67b43ee1c3fb03b77ecf1f2ae",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/kael-rune-locomotion42.png",
+              "sourceSha256": "a5b3884b6ee005c2855da54e6f7624413ad6ecc67b43ee1c3fb03b77ecf1f2ae",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 614,
+                  "y": 855,
+                  "w": 116,
+                  "h": 99,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 807,
+                  "y": 853,
+                  "w": 114,
+                  "h": 101,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 997,
+                  "y": 855,
+                  "w": 117,
+                  "h": 99,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1193,
+                  "y": 855,
+                  "w": 109,
+                  "h": 99,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 41,
+                  "y": 1046,
+                  "w": 109,
+                  "h": 100,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 235,
+                  "y": 1047,
+                  "w": 106,
+                  "h": 99,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 421,
+                  "y": 1047,
+                  "w": 118,
+                  "h": 99,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 616,
+                  "y": 1025,
+                  "w": 112,
+                  "h": 121,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 806,
+                  "y": 1030,
+                  "w": 116,
+                  "h": 116,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 998,
+                  "y": 1022,
+                  "w": 115,
+                  "h": 124,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1188,
+                  "y": 1022,
+                  "w": 120,
+                  "h": 124,
+                  "component": 37
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.31 runtime portrait/gameplay cell61 and all42 original locomotion drawings preserve Kael as an adult human man with warm medium-brown skin, dark eyes, angular face, short dense navy-black curls, close connected beard/mustache, compact muscular build and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. His right-hand ball track is applied separately from the body flip."
       }
     }
   }
