@@ -1,6 +1,6 @@
 # Session handoff
 
-> **Current checkpoint (2026-10-23):** J.79 Juniper Vale `dunk-double` is fully validated locally; commit/push and deployment are pending. J.78 `3fd4be4` is deployed in Pages run #116 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40016666535); preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3fd4be4. Juniper now has25/29 clips /233 authored drawings. All372 JavaScript tests, lint, content validation (35 franchises /105 athletes),100-match simulation /853,867 ticks,36 motion packer checks, build and Chromium offline/full-match/season E2E pass. Standard/zoom120 previews each load170 images, capture87 clip snapshots /452 action frames and select all30 J.79 pose/facing combinations from production art; the separate ball is carried20 samples and released10. The report-only audit is642 clips /5,593 drawings /105 athletes, with2,461 missing clips,3 target shortfalls and4 earlier prompt findings. E2E screenshots were restored. The next roster-order action is Juniper `dunk-clutch`.
+> **Current checkpoint (2026-10-23):** J.79 Juniper Vale `dunk-double` is pushed as `71acfd1` and deployed in Pages run #117 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40021463164); preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=71acfd1. Juniper now has25/29 clips /233 authored drawings. All372 JavaScript tests, lint, content validation (35 franchises /105 athletes),100-match simulation /853,867 ticks,36 motion packer checks, build and Chromium offline/full-match/season E2E pass. Standard/zoom120 previews each load170 images, capture87 clip snapshots /452 action frames and select all30 J.79 pose/facing combinations from production art; the separate ball is carried20 samples and released10. The report-only audit is642 clips /5,593 drawings /105 athletes, with2,461 missing clips,3 target shortfalls and4 earlier prompt findings. E2E screenshots were restored. The next roster-order action is Juniper `dunk-clutch`.
 
 ## Active assignment and authorization
 
@@ -10,12 +10,12 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`, currently at `3fd4be4` before the J.79 checkpoint. J.78 is pushed and deployed; Pages run #116 succeeded for `3fd4be409a9028acf958022b5bec9227e9359877`.
+Repo `/workspace/Conda-Jam`, branch `main`; J.79 source commit `71acfd1` is pushed and deployed. Pages run #117 succeeded for `71acfd105a6cf8365b68c899377fdcf97848ae09`.
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
-- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3fd4be4
-- J.79 is validated locally; commit/push and Pages verification are pending. Exact resume state is in root `HANDOFF.md`.
+- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=71acfd1
+- J.79 Pages build, upload and deploy steps succeeded. Juniper’s next action is `dunk-clutch`; exact resume state is in root `HANDOFF.md`.
 
 GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion.
 
