@@ -15561,13 +15561,182 @@
             },
             "reviewed": true,
             "reviewNotes": "Four original poses were inspected over light and dark backgrounds. Paprika stays quadruped in the alert stance, takeoff, forepaw-deflection apex and landing; paws remain animal paws and her ears and pale-tipped tail stay in bounds. The separate game ball remains loose and is not attached to the defender. All four frames select production art in both facings under K.02."
+          },
+          "steal": {
+            "src": "./public/assets/animation/paprika-steal-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "9cdd2a99f897512be862a9afa36c2edf00e4eaddfb940acd7fe5cc0a4c49d27e"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "abb86440d2a6b4818128229a1151e0cc3edf646486f456c92d1514003a0dbe52"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "e4ef31ea6bd855695bb0a0ee0e657edff122bd537246422b74ca3ebc4707bcb5"
+              },
+              {
+                "x": 432,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "8595ff413f7d9281f21fcd719dfa4633c22de50b86f1297732a1f0b57003fc99"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "fb5384ccbd9cd40297b713bebde369a3ea180a2913a1663e8ba80fc88a8494a1"
+              },
+              {
+                "x": 144,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "c78b69245883cb7515517274983564acf778b47c3949d645473ba826088db47d"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "e2640fdc3ccf8f20ba0bd45f94ec151a1ee3bc449f57387a9acce7c3d68e44db"
+              },
+              {
+                "x": 432,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "805dc785c23cd758d5a88a3a74298bc745f60c758a3f234a9f1a1c21e14480e4"
+              }
+            ],
+            "sha256": "d97a5ef22f84d5b348ccebf775a7872f4c08737b0fe575210c6e3e0fd9c1b67a",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "paprika",
+              "clip": "steal",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T06:18:00Z",
+              "generationId": "exec-eac2d03d-7286-41dd-8a51-e7c00ce216fc",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j49-paprika-steal8.png",
+              "sourceSha256": "82d2ba1da0602179904a16dd2529d2f23a140c258675b0a966ea0f4b0d1fa781",
+              "promptFile": "tools/generate-art/j49-paprika-steal-prompt.md",
+              "prompt": "Create an original transparent RGBA sprite sheet, exactly 2048 pixels wide by 1024 pixels high, divided into four equal 512-by-512 columns and two equal 512-by-512 rows. Put exactly one distinct, complete full-body pose of Paprika at the center of each cell, in strict row-major order. Keep the entire silhouette in the central 84 percent of its own cell: at least 41 fully transparent pixels between every silhouette and all four edges of its 512-by-512 cell. All eight figures must be small enough to fit comfortably with these wide margins, with no paw, tail, ear, muzzle, fur spike or antialiasing pixel crossing any cell boundary. No clipping, cropping, touching, overlap, fusion, extra marks, duplicate figures, panel, cell outline, grid line, or background. Use the attached Paprika pass and pass-behind sprite atlases strictly as character identity, palette, proportions, and style references; do not copy their poses. Paprika is canonically a REAL TINY FOUR-FOOTED KIT FOX: a horizontal fox body with russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright fox eyes, pointed muzzle, a large bushy tail with a pale tip, and a fitted purple-and-gold sports vest. Preserve this small fox identity in all eight poses. She stays on four natural animal legs in every frame; never anthropomorphic, human-shaped, upright, or equipped with human arms or hands, shoes, shorts, or cloak. Draw a clean right-facing three-quarter side view with the same scale and crisp richly shaded 1990s arcade sprite style as the references. Every figure must have four fox paws and full uninterrupted anatomy, with a stable low quadruped body. Pose sequence: frame0 compact alert defensive stance on all four paws, eyes fixed on the approaching offense; frame1 lower the shoulders and shift weight forward, forepaws braced, tail balancing; frame2 reach the near forepaw toward an unseen loose basketball, body low, three other paws supporting her; frame3 is the marked steal contact at waist height: make the near forepaw reach its farthest forward toward the unseen ball while the other forepaw is planted, hind legs driving and bushy tail counterbalancing; frame4 sweep the extended forepaw inward across the chest to deflect the unseen ball, still on four legs; frame5 gather the reaching forepaw back under the shoulder, briefly balanced on three paws; frame6 recover to a nimble low defensive crouch and track the loose ball; frame7 settle into a compact alert ready stance on four paws. Make every frame visibly different and anatomically plausible for this same small fox. The basketball is a separate gameplay object; do not draw any ball, prop, object, or extra character. Transparent background only. No court, floor, shadows, glow, text, numerals, lettering, logos, clothes other than the fitted purple-and-gold vest, border, or backdrop.",
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "decoded alpha components, row-major layout, canonical K.02 silhouette and eight-pose visual review",
+                "notes": "Eight complete isolated quadruped foxes; source gaps are tightest at 22 px to a logical cell boundary but silhouettes remain inside their cells and do not touch. Frame 3 is the forward contact reach. Component isolation and normalized atlas packing retain all original pose pixels and provide transparent cell gutters. No ball, props, text, numbers, or logos appear."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 33,
+                  "y": 130,
+                  "w": 364,
+                  "h": 244,
+                  "component": 2,
+                  "area": 52033
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 471,
+                  "y": 148,
+                  "w": 383,
+                  "h": 229,
+                  "component": 4,
+                  "area": 48546
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 914,
+                  "y": 140,
+                  "w": 383,
+                  "h": 233,
+                  "component": 3,
+                  "area": 48569
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1354,
+                  "y": 106,
+                  "w": 400,
+                  "h": 267,
+                  "component": 1,
+                  "area": 52808
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 62,
+                  "y": 523,
+                  "w": 351,
+                  "h": 279,
+                  "component": 6,
+                  "area": 52147
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 493,
+                  "y": 527,
+                  "w": 359,
+                  "h": 263,
+                  "component": 7,
+                  "area": 50454
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 925,
+                  "y": 550,
+                  "w": 372,
+                  "h": 235,
+                  "component": 9,
+                  "area": 48747
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1369,
+                  "y": 527,
+                  "w": 353,
+                  "h": 262,
+                  "component": 8,
+                  "area": 52158
+                }
+              ],
+              "uniformScale": 0.32974910394265233,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 144x96 cells; baseline94; lossless WebP; 8 original steal poses"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "decoded atlas frames, source component map, K.02 anatomy, frame ordering and both-facing mirror review",
+              "notes": "Eight distinct complete fox poses remain visible in all 4x2 normalized cells. Russet coat, cream muzzle/chest, tall ears, pale-tipped bushy tail and purple/gold vest stay consistent. Paprika stays quadrupedal throughout; paws are empty and no ball, text, numerals or logos are baked in. Frame 3 is the tick-5 contact reach. All eight frames are eligible for safe body mirroring.",
+              "at": "2026-10-23T06:20:56.016Z"
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Quadruped kit-fox muzzle, ears and pale tail tip have no fixed side. Existing sprite remains a fox; no directional identity restriction."
+        "notes": "K.02 review: Paprika remains a tiny four-footed fox in every frame; no fixed-side marks or asymmetrical props. Safe to mirror the body atlas."
       },
       "reviewedAt": "2026-10-21"
     },

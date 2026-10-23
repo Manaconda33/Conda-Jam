@@ -508,6 +508,9 @@ const athleteBallTracks={'reed-ashcroft':{
   layup:{height:[.3,.35,.35,.9,1.0,.95,.65,.3],forward:[4,7,5,7,10,8,9,5]},
   // Reverse release holds at frame 5 / tick 12 after the fox twists over her shoulder.
   'layup-reverse':{height:[.3,.35,.45,.9,1.0,1.0,.6,.3],forward:[4,6,5,8,9,10,6,5]},
+  // The low steal reach follows Paprika's near forepaw; the separate ball
+  // stays at paw height through the frame-3 contact marker at tick 5.
+  steal:{height:[.55,.5,.4,.25,.3,.4,.5,.55],forward:[7,8,10,13,11,9,8,7]},
   'idle-ball':{height:[.55,.5,.45,.5],forward:[7,7.5,7,6.5]},
   dribble:{height:[.55,.5,.4,.25,.1,0,.1,.25,.4,.55],forward:[7,7.5,8,8.5,9,9,8.5,8,7.5,7]},
   'dribble-run':{height:[.5,.45,.35,.2,.1,0,.1,.2,.35,.45,.5],forward:[7.5,8,8.5,9,9,9,8.5,8,7.5,7,7.5]}

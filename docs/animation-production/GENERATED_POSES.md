@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,127 authored drawings across 606 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,167 authored drawings across 612 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -10,7 +10,7 @@
 | nova-stitch | 6 | 52 | 229,296 |
 | juniper-vale | 19 | 143 | 1,005,036 |
 | echo-catwalk | 6 | 52 | 177,280 |
-| paprika | 9 | 67 | 482,196 |
+| paprika | 15 | 107 | 1,008,974 |
 | lavi | 5 | 42 | 193,484 |
 | leo | 5 | 42 | 164,840 |
 | kraken | 5 | 42 | 166,106 |
@@ -271,3 +271,13 @@ Paprika now has14 reviewed action clips /99 authored drawings. Her four-pose `bl
 The focused sprite-selection test confirms all four frames in both facings; the apex maps to runtime frame2/tick5. The 29 Python packer checks pass. Standard and zoom120 native Canvas previews load139 images and capture87 clip snapshots plus152 action-frame snapshots; all eight block frames select production art in both facings, with no owner and the ball marked `dead`. Captures are under `artifacts/native-render-preview/{paprika,paprika-zoom120}/`.
 
 The strict inventory is611 clips /5,159 drawings /105 athletes, with2,492 clips still missing,3 target shortfalls and four reconstructed-prompt findings. Paprika's next missing clip is `steal`; she has15 required clips remaining.
+
+### J.49 — Paprika steal
+
+Paprika now has15 reviewed clips /107 authored drawings. The eight-pose right-facing `steal` atlas preserves her tiny four-footed kit-fox anatomy, russet coat, cream muzzle/chest, huge triangular ears, pale-tipped bushy tail and purple/gold vest. The basketball stays separate; an athlete-specific track follows her low reaching paw, with the contact pose at frame3/tick5. Canon K.02 approves mirroring in both facings.
+
+The accepted transparent RGBA source is 1774×887 with eight distinct, isolated, row-major figures (SHA-256 `82d2ba1da0602179904a16dd2529d2f23a140c258675b0a966ea0f4b0d1fa781`, generation `exec-eac2d03d-7286-41dd-8a51-e7c00ce216fc`). Its lossless atlas is 576×192 / 118,424 bytes (SHA-256 `d97a5ef22f84d5b348ccebf775a7872f4c08737b0fe575210c6e3e0fd9c1b67a`). The first source is retained as rejected for tight cell margins. Exact prompts, source hashes, component layout and provenance are in `tools/generate-art/j49-paprika-steal-prompt.md`, `paprika-steal8-provenance.json` and `paprika-steal8-layouts.json`.
+
+The focused sprite/runtime test covers all eight poses in both facings and confirms the tick5 contact track. All28 JavaScript test files, lint, content validation,100-match simulation,29 Python atlas-packer tests, build and full Chromium match/season journeys pass. Standard and zoom120 native Canvas previews load140 images and capture87 clip snapshots plus152 action-frame snapshots; all16 steal frames select production art. At the contact marker the ball is carried by Paprika with no baked sprite ball. Captures are under `artifacts/native-render-preview/{paprika,paprika-zoom120}/`.
+
+The strict inventory is612 clips /5,167 drawings /105 athletes, with2,491 clips missing,3 target shortfalls and four reconstructed prompt findings. Paprika's next missing clip is `push`; she has14 required clips remaining. Push and Pages deployment remain pending.

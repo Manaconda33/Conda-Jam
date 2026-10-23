@@ -1,6 +1,6 @@
 # Session handoff
 
-> **Current checkpoint (2026-10-23):** J.46–J.47 source `0b16229` is pushed and deployed (Pages run #87 succeeded). The local J.48 checkpoint adds a four-pose quadruped `block` atlas for Paprika. The forepaw-deflection apex is frame2/tick5; the game ball remains loose and unowned. All eight frames select production art in both facings in standard/zoom120 native previews. Strict audit: 5,159 drawings across611 clips / 105 athletes, with2,492 missing clips,3 below-target clips, no unrepresented athletes and four reconstructed prompt records (two J.38, two J.43). J.48 passes build, all28 test files, lint, content validation,100-match simulation,29 packer checks, full Chromium journeys and standard/zoom120 previews. Commit and push are pending.
+> **Current checkpoint (2026-10-23):** J.46–J.47 source `0b16229` is pushed and deployed (Pages run #87 succeeded). Local J.48 commit `454c928` adds Paprika's four-pose quadruped `block`; current J.49 work adds her eight-pose `steal` clip. The accepted source preserves K.02 fox anatomy, with frame3 contacting at tick5 and a Paprika-specific paw-height ball track. Standard/zoom120 native previews load140 images and capture87 clip snapshots plus152 action-frame snapshots; all16 steal poses select production art in both facings. All28 JavaScript test files, lint, content validation,100-match simulation,29 packer checks, build and full Chromium match/season journeys pass. Strict audit: 5,167 drawings across612 clips /105 athletes, with2,491 missing clips,3 below-target clips, no unrepresented athletes and four reconstructed prompt records (two J.38, two J.43). Paprika is at15 clips /107 drawings; next action is `push`. J.48–J.49 push and Pages deployment are pending.
 
 ## Active assignment and authorization
 
@@ -10,7 +10,7 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed source is `0b16229`; Pages run #87 succeeded. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=0b16229. J.29–J.47 are pushed and deployed. J.48 Paprika block atlas is integrated locally; strict inventory is611 clips / 5,159 drawings / 105 athletes, with2,492 missing clips, no unrepresented athletes,3 target shortfalls and four reconstructed prompts (two J.38 and two J.43). Exact resume state is in root `HANDOFF.md`.
+Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed source is `0b16229`; Pages run #87 succeeded. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=0b16229. J.29–J.47 are pushed and deployed. Local J.48–J.49 add Paprika's reviewed `block` and `steal` clips; strict inventory is612 clips / 5,167 drawings / 105 athletes, with2,491 missing clips, no unrepresented athletes,3 target shortfalls and four reconstructed prompts (two J.38 and two J.43). Exact resume state is in root `HANDOFF.md`.
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
@@ -329,3 +329,10 @@ Commands: npm run dev (http://localhost:4173), npm run build, npm test, npm run 
 - Verbatim prompt, source hash, generation ID/time, accepted provenance and component layout are in `tools/generate-art/j48-paprika-block-prompt.md`, `paprika-block4-provenance.json` and `paprika-block4-layouts.json`. Source is 1536×1024 RGBA with four separated bodies; the lossless atlas is 352×192 /61,860 bytes.
 - Focused selection/runtime tests and all29 packer checks pass. Standard/zoom120 native previews load139 images and capture87 clip snapshots plus152 action snapshots; all eight block frames select production art and keep the ball unowned/dead. Captures are under `artifacts/native-render-preview/{paprika,paprika-zoom120}/`.
 - Strict inventory is611 clips /5,159 drawings /105 athletes, with2,492 missing clips,3 target shortfalls and four reconstructed prompt findings. Paprika is at14 clips /99 drawings; continue with `steal`. Full J.48 validation passes. Its commit and Pages verification are pending. Latest deployed source is `0b16229` (Pages run #87 succeeded).
+
+### J.49 action integration: Paprika Rill steal
+
+- The accepted eight-pose `steal` source keeps Paprika a small four-footed russet/cream fox with large ears, pale-tipped tail and purple/gold vest. Frame3 is the low paw reach at tick5; a Paprika-specific ball track follows the paw and no ball is baked into the art. K.02 mirror review approves both facings.
+- The original transparent 1774×887 source is `tools/generate-art/sources/j49-paprika-steal8.png` (SHA-256 `82d2ba1da0602179904a16dd2529d2f23a140c258675b0a966ea0f4b0d1fa781`; generation `exec-eac2d03d-7286-41dd-8a51-e7c00ce216fc`). A first source with too-tight margins is retained as rejected. Verbatim prompts, source/component provenance and atlas layout are in the J.49 generation files.
+- The reviewed 576×192 lossless atlas is registered. Focused selection/runtime tests,29 packer tests and build pass. Standard/zoom120 native previews load140 images, capture87 clip snapshots plus152 action frames, and select all16 steal frames in both facings.
+- Strict audit is612 clips /5,167 drawings /105 athletes, with2,491 missing clips,3 target shortfalls and four reconstructed prompt findings. Paprika has15 clips /107 drawings; next action is `push`. Full validation passes; push and Pages deployment are pending.
