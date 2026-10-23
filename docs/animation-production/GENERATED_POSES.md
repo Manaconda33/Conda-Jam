@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,578 authored drawings across 641 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,593 authored drawings across 642 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -8,7 +8,7 @@
 | reed-ashcroft | 29 | 293 | 1,447,384 |
 | accu | 6 | 52 | 200,024 |
 | nova-stitch | 6 | 52 | 229,296 |
-| juniper-vale | 24 | 218 | 1,276,514 |
+| juniper-vale | 25 | 233 | 1,331,800 |
 | echo-catwalk | 6 | 52 | 177,280 |
 | paprika | 29 | 293 | 2,198,720 |
 | lavi | 5 | 42 | 193,484 |
@@ -482,3 +482,8 @@ Juniper now has24 reviewed action clips /218 authored drawings. Fifteen original
 Rejected generation `exec-d63f8ed3-d79d-4a9f-9c96-9732e5d6e303` raw source SHA-256 `e334aaefa79fe7aeb1f4297c92fb380bf3e0390dda1733c29cc99275a174ee69` was rejected because pose2 had six pixels of top margin. Accepted revision `exec-d86faf38-b481-4fa0-8c1a-386f9f765844` raw SHA-256: `59b607547aa9be1dcc01130f51c64d04ec8c38189c19b2f5824c6513836d0c82`; accepted cleaned 1536×1024 source `tools/generate-art/sources/j78-juniper-dunk-tomahawk15.png` SHA-256: `ebf8f320d59426affa9bbb064a3a61f7a67a77dd6d28b4065df1e68ed071dbab`. Cleanup removed51,061 exterior pixels. The 512×384 isolated atlas `public/assets/animation/juniper-vale-dunk-tomahawk-right.webp` is59,242 bytes (SHA-256 `812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374`). Exact initial/edit prompts, layout and runtime hand samples are in J.78 source/provenance files.
 
 The Juniper-specific ball track stays carried through tick20, releases once at21, scores at23 and lands at30. All370 JavaScript tests, lint, content validation,100-match simulation,36 motion-packer checks, build and Chromium full journey pass. Standard/zoom120 previews each select all30 pose/facing combinations from production art. The report-only audit is641 clips /5,578 drawings,2,462 missing clips,3 target shortfalls and4 older `prompt-not-verbatim` findings.
+
+
+## J.79 — Juniper Vale `dunk-double`
+
+Juniper’s fifteenth new action clip adds15 authored poses. Two overhead pumps return to a chest/sternum gather between cycles, then one synchronized release at tick21, score at tick23 and balanced landing at tick30. Her compact natural human anatomy, dark-purple high curly ponytail and gold tie, blank Condas purple/gold kit, knee pads, socks and shoes remain consistent. The ball is a separate athlete-specific runtime track. Accepted source generation `exec-1e94dbb7-9b45-48ad-b88c-3d1fac38061d`; Juniper reaches25/29 clips /233 drawings. Current decoded audit:642 clips /5,593 drawings /105 athletes;2,461 missing clips,3 target shortfalls and4 old prompt findings. Next: `dunk-clutch`.

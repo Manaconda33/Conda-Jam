@@ -1,7 +1,8 @@
 from pathlib import Path
 from os import environ
 from subprocess import Popen, DEVNULL
-from time import sleep
+from time import monotonic, sleep
+from urllib.request import urlopen
 from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -14,8 +15,21 @@ def leave_match(page,confirm=True):
 
 server=Popen(['node','tools/server.mjs'],cwd=ROOT,env={**environ,'PORT':'4175'},stdout=DEVNULL,stderr=DEVNULL)
 standalone_server=Popen(['node','tools/server.mjs','dist'],cwd=ROOT,env={**environ,'PORT':'4176'},stdout=DEVNULL,stderr=DEVNULL)
+def wait_for_server(url,process):
+    deadline=monotonic()+15
+    while monotonic()<deadline:
+        if process.poll() is not None:
+            raise RuntimeError(f'server exited before becoming ready: {url}')
+        try:
+            with urlopen(url,timeout=1) as response:
+                if response.status==200:
+                    return
+        except Exception:
+            sleep(.1)
+    raise TimeoutError(f'server did not become ready: {url}')
 try:
-    sleep(.25)
+    wait_for_server('http://127.0.0.1:4175/',server)
+    wait_for_server('http://127.0.0.1:4176/JAMVERSE_96.html',standalone_server)
     with sync_playwright() as p:
         browser=p.chromium.launch(headless=True,executable_path='/usr/bin/chromium',args=['--no-sandbox','--disable-dev-shm-usage'])
         page=browser.new_page(viewport={'width':1200,'height':900},device_scale_factor=1)

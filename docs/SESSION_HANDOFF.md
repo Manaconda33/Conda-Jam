@@ -1,6 +1,6 @@
 # Session handoff
 
-> **Current checkpoint (2026-10-23):** J.78 Juniper Vale `dunk-tomahawk` is fully validated locally; push and deployment are pending. The currently deployed J.77 commit `f26a234` succeeded in Pages run #115 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40014967475); preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=f26a234. Juniper now has24/29 clips /218 authored drawings. The full suite passes370/370 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation,36 packer checks, build, Chromium offline/full-match/season E2E, and standard/zoom120 native previews. Each preview loads169 images and selects all30 J.78 pose/facing combinations from production art; possession lasts through tick20 and releases at21. The report-only audit is641 clips /5,578 drawings /105 athletes with2,462 missing clips,3 below-target clips and4 earlier prompt findings. E2E screenshots were restored; J.78 source art, code, provenance and build pass locally.
+> **Current checkpoint (2026-10-23):** J.79 Juniper Vale `dunk-double` is fully validated locally; commit/push and deployment are pending. J.78 `3fd4be4` is deployed in Pages run #116 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40016666535); preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3fd4be4. Juniper now has25/29 clips /233 authored drawings. All372 JavaScript tests, lint, content validation (35 franchises /105 athletes),100-match simulation /853,867 ticks,36 motion packer checks, build and Chromium offline/full-match/season E2E pass. Standard/zoom120 previews each load170 images, capture87 clip snapshots /452 action frames and select all30 J.79 pose/facing combinations from production art; the separate ball is carried20 samples and released10. The report-only audit is642 clips /5,593 drawings /105 athletes, with2,461 missing clips,3 target shortfalls and4 earlier prompt findings. E2E screenshots were restored. The next roster-order action is Juniper `dunk-clutch`.
 
 ## Active assignment and authorization
 
@@ -10,14 +10,14 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. J.73 and J.74 are pushed to `origin/main` at validated source commit `858fd41`; Pages run #112 succeeded. Exact resume state is in root `HANDOFF.md`.
+Repo `/workspace/Conda-Jam`, branch `main`, currently at `3fd4be4` before the J.79 checkpoint. J.78 is pushed and deployed; Pages run #116 succeeded for `3fd4be409a9028acf958022b5bec9227e9359877`.
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
-- Use `?v=<deployed-sha>` for a fresh single-file preview.
+- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3fd4be4
+- J.79 is validated locally; commit/push and Pages verification are pending. Exact resume state is in root `HANDOFF.md`.
 
-GitHub Pages is enabled and public. Workflow run64 for `bba44c4` succeeded and published the embedded J.29 game. The connector can read GitHub issue and workflow state. Open issues1,2,3 remain in scope; do not close any issue from partial asset completion.
-
+GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion.
 
 ### Previous completed batch: Mira Wavelength and Azul Voss
 
@@ -499,3 +499,12 @@ Juniper now has24 reviewed action clips /218 authored drawings. Fifteen right-fa
 The first candidate `exec-d63f8ed3-d79d-4a9f-9c96-9732e5d6e303` was rejected because pose2 left only six pixels of top margin. Accepted revision `exec-d86faf38-b481-4fa0-8c1a-386f9f765844` raw source SHA-256 is `59b607547aa9be1dcc01130f51c64d04ec8c38189c19b2f5824c6513836d0c82`; accepted cleaned 1536×1024 source `tools/generate-art/sources/j78-juniper-dunk-tomahawk15.png` SHA-256 is `ebf8f320d59426affa9bbb064a3a61f7a67a77dd6d28b4065df1e68ed071dbab`. Cleanup removed51,061 exterior pixels. The 512×384 component-isolated atlas is59,242 bytes, SHA-256 `812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374`. Exact prompts, source maps, cleanup and hand-track provenance are under `tools/generate-art/j78-juniper-dunk-tomahawk*` and `juniper-vale-dunk-tomahawk15-{layouts,provenance}.json`.
 
 Validation passes370 JavaScript tests, lint18 modules, 35-franchise/105-athlete content checks,100-match simulation,36 motion-packer tests, build and Chromium offline/full-match/season progression. Standard/zoom120 previews each load169 images, capture87 clip snapshots /452 action frames and select all30 poses/facings from production art, with20 carried and10 released. The report-only audit reads641 clips /5,578 authored drawings,2,462 missing clips,3 target shortfalls and4 earlier prompt findings. J.78 is validated locally; push and Pages deployment are pending. Juniper’s next clip is `dunk-double`.
+
+
+## J.79 — Juniper Vale double dunk
+
+Juniper now has25/29 reviewed action clips /233 authored drawings. The 15-pose two-pump sequence preserves her compact human anatomy, light warm skin, dark eyes, dark-purple curly high ponytail with gold tie, blank Condas purple/gold uniform, dark knee pads, white socks and purple/gold shoes. Both pumps show empty hands around the separate runtime ball; she gathers between pumps, releases once at tick21, scores at tick23 and lands at tick30. J.01 approves safe mirroring.
+
+The first two generations (`exec-b57a4b63-042f-48e0-b4f5-527d43753d0b`, `exec-47105c0b-bdff-46e0-95b5-c986ae392584`) were rejected for baked-in basketballs in poses0–1. Third generation `exec-62569937-0368-49a9-b9da-3a931860b7e2` had only six pixels above pose3 and is retained as rejected. Accepted edit `exec-1e94dbb7-9b45-48ad-b88c-3d1fac38061d` raw SHA-256 `0de01b93e69aa077c4f031efca6e4cf705ba58df00faad2b0d01b3354ef58898`; accepted cleaned source `tools/generate-art/sources/j79-juniper-dunk-double15.png` SHA-256 `469844778b1bca183ebd90b8b0bdc80340fb60370997d8cb170e96c24b98d68c`. Cleanup removed51,969 exterior pixels. Pose3’s accepted source bounding box starts33 pixels below the top. The component-isolated atlas `public/assets/animation/juniper-vale-dunk-double-right.webp` is55,286 bytes / SHA-256 `8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02`. Verbatim prompts, rejected candidate hashes/reasons, layouts and provenance are in `tools/generate-art/j79-juniper-dunk-double-prompt.md` and `juniper-vale-dunk-double15-{layouts,provenance}.json`.
+
+Focused tests pass243/243. Full validation passes372 JavaScript tests, lint18 modules, content validation,100-match simulation /853,867 ticks /7 overtime periods,36 Python packer tests, build and Chromium offline/full-match/season E2E. Standard/zoom120 previews each load170 images /87 snapshots /452 action frames and select all30 poses/facings from production art, sampling20 carried and10 released states. The report-only audit is642 clips /5,593 drawings /105 athletes, with2,461 missing clips,3 target shortfalls and4 previous nonverbatim prompts. Juniper’s next clip is `dunk-clutch`.

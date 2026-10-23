@@ -17755,6 +17755,389 @@ export const animationAssetManifest = {
               "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "dunk-double": {
+            "src": "./public/assets/animation/juniper-vale-dunk-double-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "b4533bb785241bdf66a54404037710c5566e76c04dcede1e80c308a47f7bc987"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "ea2a6b2f503a09b7ccb2ff8493e8b957003cd3c7f53a812e22c8742ee8962bbc"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "606ff0a8340e85a6e1632c65ab57fd43cb000d46f8bc04b80614a5800c2662fa"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a360e1afdc67b7023d5775ee8306fae503becce187fca5ec7c3d13c18a29312e"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "9bf4bcd20cc235f42bfba876ccaa00b8d2707472ca77ecede3354a12dd000605"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "7dcec1fc81a98d415847f95baec89807045c2d012c54a2036fd4e8f7d7a3de28"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6834bae597d2ee2ac604b56e19ec258fe4c430b0f36a192ed88093177c3368d9"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "68e93810fe342de5c50e7fb001aba16006af6f08349741dce934de8c66993dac"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "7e1e90d4d5aee7c782e38938295ee06941519d809c2f9999b85919409352d5d9"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8eedf9bbf5023f8d1e82d35265ad934a1b2f441b57a918cb72c191ceae795229"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "cf2fcc77e4605d503d7c2a375d33368bb353a5d3e9248bddc760ad10fa812192"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "530c2fba3e290649ae1dc70ad6151df2955d645aa905eea53fc81c96b62957dd"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "6c4cee1ea6be894a6ae4c6ccfc90b7914fb06a3d400fcc0aef96e10a770538d9"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "a34d068219caa01fb318120313cb332a604b7794daef4cd803db4787a3fd6b93"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "f02fb89baada203d5e02085a1769f52b853f05283983486149499ddd72a36b3a"
+              }
+            ],
+            "sha256": "8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "dunk-double",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-1e94dbb7-9b45-48ad-b88c-3d1fac38061d",
+              "imageGenerationId": "exec-1e94dbb7-9b45-48ad-b88c-3d1fac38061d",
+              "parentGenerationId": "exec-62569937-0368-49a9-b9da-3a931860b7e2",
+              "sourceImage": "tools/generate-art/sources/j79-juniper-dunk-double15.png",
+              "sourcePromptStatus": "verbatim",
+              "promptVerbatim": true,
+              "promptFile": "tools/generate-art/j79-juniper-dunk-double-prompt.md",
+              "prompt": "REDRAW the reference as a more spacious transparent sprite sheet for Juniper Vale's double dunk. Keep the same 15-pose two-pump sequence, canon identity and art style, but scale each figure uniformly to about 85% of the current figure size, centered in its grid cell. Make a clear 5-column by 3-row grid and leave at least 24px transparent space above/below every silhouette and at least 24px on both sides. No hair, fingertip, shoe or limb may approach the canvas boundary. In particular move/scale pose3 lower enough that its highest fingertip is at least32px below the canvas top. Keep clear gutters so no adjacent poses touch.\n\nCritical: all hands must be empty. Do not draw a basketball, ball, circle, sphere, seam, glow, prop or object in ANY pose. For carries poses0–9, show Juniper's two hands curved around visibly empty transparent air, with an open gap between them and no filled area or object. Poses10–14 are also empty-handed after the only release.\n\nJuniper identity: compact human woman, warm light skin, focused dark eyes, high dark-purple curly ponytail with gold tie, blank Chicago Condas purple-and-gold jersey/shorts with no writing, dark knee pads, white socks, purple-and-gold shoes. Exactly15 unique complete in-bounds poses, row-major:\n0 approach with two hands cupped around empty air at abdomen;\n1 plant and sink, empty hands gather at chest;\n2 takeoff with empty cradle rising to forehead;\n3 first overhead pump, arms extend while curved fingers remain empty;\n4 elbows fold and hands return toward face;\n5 empty hands re-secure at upper chest;\n6 second gather dips to sternum;\n7 highest point with empty cradle low at chest;\n8 second pump drives hands past forehead;\n9 arms extend overhead, open space between palms;\n10 one simultaneous finger release, both wrists snap down; no object;\n11 long twin-arm follow-through;\n12 empty elbows flex outward as hands drop;\n13 landing approach with arms open sideways;\n14 balanced two-foot landing with arms down.\nNo grid lines, captions, background, court, hoop, shadow or accessories. Match the reference face, natural anatomy, hairstyle, kit and crisp arcade pixel-art shading.",
+              "sourcePrompt": "REDRAW the reference as a more spacious transparent sprite sheet for Juniper Vale's double dunk. Keep the same 15-pose two-pump sequence, canon identity and art style, but scale each figure uniformly to about 85% of the current figure size, centered in its grid cell. Make a clear 5-column by 3-row grid and leave at least 24px transparent space above/below every silhouette and at least 24px on both sides. No hair, fingertip, shoe or limb may approach the canvas boundary. In particular move/scale pose3 lower enough that its highest fingertip is at least32px below the canvas top. Keep clear gutters so no adjacent poses touch.\n\nCritical: all hands must be empty. Do not draw a basketball, ball, circle, sphere, seam, glow, prop or object in ANY pose. For carries poses0–9, show Juniper's two hands curved around visibly empty transparent air, with an open gap between them and no filled area or object. Poses10–14 are also empty-handed after the only release.\n\nJuniper identity: compact human woman, warm light skin, focused dark eyes, high dark-purple curly ponytail with gold tie, blank Chicago Condas purple-and-gold jersey/shorts with no writing, dark knee pads, white socks, purple-and-gold shoes. Exactly15 unique complete in-bounds poses, row-major:\n0 approach with two hands cupped around empty air at abdomen;\n1 plant and sink, empty hands gather at chest;\n2 takeoff with empty cradle rising to forehead;\n3 first overhead pump, arms extend while curved fingers remain empty;\n4 elbows fold and hands return toward face;\n5 empty hands re-secure at upper chest;\n6 second gather dips to sternum;\n7 highest point with empty cradle low at chest;\n8 second pump drives hands past forehead;\n9 arms extend overhead, open space between palms;\n10 one simultaneous finger release, both wrists snap down; no object;\n11 long twin-arm follow-through;\n12 empty elbows flex outward as hands drop;\n13 landing approach with arms open sideways;\n14 balanced two-foot landing with arms down.\nNo grid lines, captions, background, court, hoop, shadow or accessories. Match the reference face, natural anatomy, hairstyle, kit and crisp arcade pixel-art shading.",
+              "rawSourceImage": "tools/generate-art/sources/j79-juniper-dunk-double-generated-raw.png",
+              "rawSourceSha256": "0de01b93e69aa077c4f031efca6e4cf705ba58df00faad2b0d01b3354ef58898",
+              "referencePaths": [
+                "tools/generate-art/sources/j79-juniper-dunk-double-attempt3-rejected-tight-margin.png",
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png"
+              ],
+              "visualReviewReferences": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+                "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+                "tools/generate-art/sources/j74-juniper-vale-dunk-power15.png",
+                "tools/generate-art/sources/j75-juniper-vale-dunk-windmill15.png",
+                "tools/generate-art/sources/j76-juniper-vale-dunk-reverse15.png",
+                "tools/generate-art/sources/j77-juniper-dunk-36015.png"
+              ],
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [
+                {
+                  "sourceImage": "tools/generate-art/sources/j79-juniper-dunk-double-attempt1-rejected-baked-ball.png",
+                  "sha256": "d7c203b8fd864f53dbe755d220b1db33fbbc082eeab297eeb70d37a585247046",
+                  "generationId": "exec-b57a4b63-042f-48e0-b4f5-527d43753d0b",
+                  "reason": "Rejected because poses0–1 painted a basketball into Juniper’s hands despite the explicit no-ball requirement."
+                },
+                {
+                  "sourceImage": "tools/generate-art/sources/j79-juniper-dunk-double-attempt2-rejected-baked-ball.png",
+                  "sha256": "14d86bab091f4602d12d268af7dd18431e5dccccf1c71346e52aea1512b31afe",
+                  "generationId": "exec-47105c0b-bdff-46e0-95b5-c986ae392584",
+                  "reason": "Rejected because poses0–1 still painted a basketball into Juniper’s hands."
+                },
+                {
+                  "sourceImage": "tools/generate-art/sources/j79-juniper-dunk-double-attempt3-rejected-tight-margin.png",
+                  "sha256": "cb6d873b374d1cadf495356e1550a342051fc0950cc3907eaa26adaf7a99dcd8",
+                  "generationId": "exec-62569937-0368-49a9-b9da-3a931860b7e2",
+                  "reason": "Rejected because pose3’s highest fingertip was only six pixels from the sheet’s top edge."
+                }
+              ],
+              "cleanupPrompts": [],
+              "cleanup": {
+                "script": "tools/generate-art/clean-alpha-fringe.py and tools/generate-art/clean-dunk-halo.py",
+                "method": "Cleared generated exterior halo with the four-pixel outline margin, preserving source RGBA around each complete silhouette; reviewed on light and dark grounds.",
+                "input": "tools/generate-art/sources/j79-juniper-dunk-double-generated-raw.png",
+                "intermediate": "tools/generate-art/sources/j79-juniper-dunk-double-alpha-fringe-clean.png",
+                "output": "tools/generate-art/sources/j79-juniper-dunk-double15.png",
+                "firstPassClearedExteriorRedPixels": 0,
+                "finalClearedExteriorPixels": 51969,
+                "finalClearedVividRedPixels": 15,
+                "outlineMargin": 4,
+                "reviewedOn": [
+                  "solid black",
+                  "solid white"
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "15 original Juniper Vale double-dunk poses, canon identity and anatomy, two distinct overhead pumps, one synchronized release, empty follow-through and complete landing.",
+                "notes": "The first two generations baked in a ball and are retained as rejected; the third corrected the hands but left only six pixels above pose3. Accepted generation exec-1e94dbb7-9b45-48ad-b88c-3d1fac38061d has fifteen unique complete poses in row-major 5x3 order with pose3’s source bounding box 33px below the top and no ball/object drawn. Juniper retains her compact natural human build, warm light skin, focused dark eyes, dark-purple curly high ponytail with gold tie, blank Condas purple/gold kit, dark knee pads, white socks and purple/gold shoes."
+              },
+              "actionAnchors": {
+                "takeoff": 2,
+                "grab": 5,
+                "peak": 7,
+                "release": 10,
+                "finish": 11,
+                "land": 14
+              },
+              "runtimeBallTrack": {
+                "ballInArt": false,
+                "athleteSpecific": true,
+                "heightByPose": [
+                  0.95,
+                  1.1,
+                  1.7,
+                  2.5,
+                  1.9,
+                  1.2,
+                  0.95,
+                  0.95,
+                  1.8,
+                  2.5,
+                  2.5,
+                  2,
+                  1.1,
+                  0.9,
+                  0.8
+                ],
+                "forwardByPose": [
+                  4,
+                  5,
+                  5,
+                  7,
+                  2,
+                  0,
+                  -1,
+                  0,
+                  3,
+                  7,
+                  8,
+                  4,
+                  1,
+                  4,
+                  4
+                ],
+                "poseDurations": [
+                  2,
+                  2,
+                  3,
+                  2,
+                  1,
+                  2,
+                  2,
+                  3,
+                  2,
+                  2,
+                  2,
+                  3,
+                  2,
+                  2,
+                  3
+                ],
+                "possessionThroughTick": 20,
+                "releaseTick": 21,
+                "scoreTick": 23
+              },
+              "sourceSha256": "469844778b1bca183ebd90b8b0bdc80340fb60370997d8cb170e96c24b98d68c",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 55,
+                  "y": 75,
+                  "w": 236,
+                  "h": 282,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 411,
+                  "y": 93,
+                  "w": 186,
+                  "h": 263,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 697,
+                  "y": 69,
+                  "w": 196,
+                  "h": 290,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 982,
+                  "y": 33,
+                  "w": 191,
+                  "h": 326,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1289,
+                  "y": 78,
+                  "w": 187,
+                  "h": 262,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 90,
+                  "y": 399,
+                  "w": 184,
+                  "h": 269,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 405,
+                  "y": 409,
+                  "w": 184,
+                  "h": 265,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 687,
+                  "y": 403,
+                  "w": 187,
+                  "h": 265,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 982,
+                  "y": 384,
+                  "w": 199,
+                  "h": 307,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1277,
+                  "y": 356,
+                  "w": 170,
+                  "h": 333,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 60,
+                  "y": 691,
+                  "w": 212,
+                  "h": 302,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 342,
+                  "y": 690,
+                  "w": 242,
+                  "h": 304,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 661,
+                  "y": 712,
+                  "w": 217,
+                  "h": 282,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 944,
+                  "y": 717,
+                  "w": 278,
+                  "h": 278,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1272,
+                  "y": 726,
+                  "w": 213,
+                  "h": 272,
+                  "component": 18
+                }
+              ],
+              "uniformScale": 0.27627627627627627,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },

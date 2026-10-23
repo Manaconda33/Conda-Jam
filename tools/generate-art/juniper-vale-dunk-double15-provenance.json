@@ -1,0 +1,143 @@
+{
+  "athlete": "juniper-vale",
+  "clip": "dunk-double",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-1e94dbb7-9b45-48ad-b88c-3d1fac38061d",
+  "imageGenerationId": "exec-1e94dbb7-9b45-48ad-b88c-3d1fac38061d",
+  "parentGenerationId": "exec-62569937-0368-49a9-b9da-3a931860b7e2",
+  "sourceImage": "tools/generate-art/sources/j79-juniper-dunk-double15.png",
+  "sourcePromptStatus": "verbatim",
+  "promptVerbatim": true,
+  "promptFile": "tools/generate-art/j79-juniper-dunk-double-prompt.md",
+  "prompt": "REDRAW the reference as a more spacious transparent sprite sheet for Juniper Vale's double dunk. Keep the same 15-pose two-pump sequence, canon identity and art style, but scale each figure uniformly to about 85% of the current figure size, centered in its grid cell. Make a clear 5-column by 3-row grid and leave at least 24px transparent space above/below every silhouette and at least 24px on both sides. No hair, fingertip, shoe or limb may approach the canvas boundary. In particular move/scale pose3 lower enough that its highest fingertip is at least32px below the canvas top. Keep clear gutters so no adjacent poses touch.\n\nCritical: all hands must be empty. Do not draw a basketball, ball, circle, sphere, seam, glow, prop or object in ANY pose. For carries poses0\u20139, show Juniper's two hands curved around visibly empty transparent air, with an open gap between them and no filled area or object. Poses10\u201314 are also empty-handed after the only release.\n\nJuniper identity: compact human woman, warm light skin, focused dark eyes, high dark-purple curly ponytail with gold tie, blank Chicago Condas purple-and-gold jersey/shorts with no writing, dark knee pads, white socks, purple-and-gold shoes. Exactly15 unique complete in-bounds poses, row-major:\n0 approach with two hands cupped around empty air at abdomen;\n1 plant and sink, empty hands gather at chest;\n2 takeoff with empty cradle rising to forehead;\n3 first overhead pump, arms extend while curved fingers remain empty;\n4 elbows fold and hands return toward face;\n5 empty hands re-secure at upper chest;\n6 second gather dips to sternum;\n7 highest point with empty cradle low at chest;\n8 second pump drives hands past forehead;\n9 arms extend overhead, open space between palms;\n10 one simultaneous finger release, both wrists snap down; no object;\n11 long twin-arm follow-through;\n12 empty elbows flex outward as hands drop;\n13 landing approach with arms open sideways;\n14 balanced two-foot landing with arms down.\nNo grid lines, captions, background, court, hoop, shadow or accessories. Match the reference face, natural anatomy, hairstyle, kit and crisp arcade pixel-art shading.",
+  "sourcePrompt": "REDRAW the reference as a more spacious transparent sprite sheet for Juniper Vale's double dunk. Keep the same 15-pose two-pump sequence, canon identity and art style, but scale each figure uniformly to about 85% of the current figure size, centered in its grid cell. Make a clear 5-column by 3-row grid and leave at least 24px transparent space above/below every silhouette and at least 24px on both sides. No hair, fingertip, shoe or limb may approach the canvas boundary. In particular move/scale pose3 lower enough that its highest fingertip is at least32px below the canvas top. Keep clear gutters so no adjacent poses touch.\n\nCritical: all hands must be empty. Do not draw a basketball, ball, circle, sphere, seam, glow, prop or object in ANY pose. For carries poses0\u20139, show Juniper's two hands curved around visibly empty transparent air, with an open gap between them and no filled area or object. Poses10\u201314 are also empty-handed after the only release.\n\nJuniper identity: compact human woman, warm light skin, focused dark eyes, high dark-purple curly ponytail with gold tie, blank Chicago Condas purple-and-gold jersey/shorts with no writing, dark knee pads, white socks, purple-and-gold shoes. Exactly15 unique complete in-bounds poses, row-major:\n0 approach with two hands cupped around empty air at abdomen;\n1 plant and sink, empty hands gather at chest;\n2 takeoff with empty cradle rising to forehead;\n3 first overhead pump, arms extend while curved fingers remain empty;\n4 elbows fold and hands return toward face;\n5 empty hands re-secure at upper chest;\n6 second gather dips to sternum;\n7 highest point with empty cradle low at chest;\n8 second pump drives hands past forehead;\n9 arms extend overhead, open space between palms;\n10 one simultaneous finger release, both wrists snap down; no object;\n11 long twin-arm follow-through;\n12 empty elbows flex outward as hands drop;\n13 landing approach with arms open sideways;\n14 balanced two-foot landing with arms down.\nNo grid lines, captions, background, court, hoop, shadow or accessories. Match the reference face, natural anatomy, hairstyle, kit and crisp arcade pixel-art shading.",
+  "rawSourceImage": "tools/generate-art/sources/j79-juniper-dunk-double-generated-raw.png",
+  "rawSourceSha256": "0de01b93e69aa077c4f031efca6e4cf705ba58df00faad2b0d01b3354ef58898",
+  "referencePaths": [
+    "tools/generate-art/sources/j79-juniper-dunk-double-attempt3-rejected-tight-margin.png",
+    "tools/generate-art/references/juniper-vale-portrait-reference.png",
+    "tools/generate-art/references/juniper-vale-gameplay-reference.png"
+  ],
+  "visualReviewReferences": [
+    "tools/generate-art/references/juniper-vale-portrait-reference.png",
+    "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+    "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+    "tools/generate-art/sources/j74-juniper-vale-dunk-power15.png",
+    "tools/generate-art/sources/j75-juniper-vale-dunk-windmill15.png",
+    "tools/generate-art/sources/j76-juniper-vale-dunk-reverse15.png",
+    "tools/generate-art/sources/j77-juniper-dunk-36015.png"
+  ],
+  "c2paClaim": null,
+  "xmpInstance": null,
+  "rejectedAttempts": [
+    {
+      "sourceImage": "tools/generate-art/sources/j79-juniper-dunk-double-attempt1-rejected-baked-ball.png",
+      "sha256": "d7c203b8fd864f53dbe755d220b1db33fbbc082eeab297eeb70d37a585247046",
+      "generationId": "exec-b57a4b63-042f-48e0-b4f5-527d43753d0b",
+      "reason": "Rejected because poses0\u20131 painted a basketball into Juniper\u2019s hands despite the explicit no-ball requirement."
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/j79-juniper-dunk-double-attempt2-rejected-baked-ball.png",
+      "sha256": "14d86bab091f4602d12d268af7dd18431e5dccccf1c71346e52aea1512b31afe",
+      "generationId": "exec-47105c0b-bdff-46e0-95b5-c986ae392584",
+      "reason": "Rejected because poses0\u20131 still painted a basketball into Juniper\u2019s hands."
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/j79-juniper-dunk-double-attempt3-rejected-tight-margin.png",
+      "sha256": "cb6d873b374d1cadf495356e1550a342051fc0950cc3907eaa26adaf7a99dcd8",
+      "generationId": "exec-62569937-0368-49a9-b9da-3a931860b7e2",
+      "reason": "Rejected because pose3\u2019s highest fingertip was only six pixels from the sheet\u2019s top edge."
+    }
+  ],
+  "cleanupPrompts": [],
+  "cleanup": {
+    "script": "tools/generate-art/clean-alpha-fringe.py and tools/generate-art/clean-dunk-halo.py",
+    "method": "Cleared generated exterior halo with the four-pixel outline margin, preserving source RGBA around each complete silhouette; reviewed on light and dark grounds.",
+    "input": "tools/generate-art/sources/j79-juniper-dunk-double-generated-raw.png",
+    "intermediate": "tools/generate-art/sources/j79-juniper-dunk-double-alpha-fringe-clean.png",
+    "output": "tools/generate-art/sources/j79-juniper-dunk-double15.png",
+    "firstPassClearedExteriorRedPixels": 0,
+    "finalClearedExteriorPixels": 51969,
+    "finalClearedVividRedPixels": 15,
+    "outlineMargin": 4,
+    "reviewedOn": [
+      "solid black",
+      "solid white"
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "15 original Juniper Vale double-dunk poses, canon identity and anatomy, two distinct overhead pumps, one synchronized release, empty follow-through and complete landing.",
+    "notes": "The first two generations baked in a ball and are retained as rejected; the third corrected the hands but left only six pixels above pose3. Accepted generation exec-1e94dbb7-9b45-48ad-b88c-3d1fac38061d has fifteen unique complete poses in row-major 5x3 order with pose3\u2019s source bounding box 33px below the top and no ball/object drawn. Juniper retains her compact natural human build, warm light skin, focused dark eyes, dark-purple curly high ponytail with gold tie, blank Condas purple/gold kit, dark knee pads, white socks and purple/gold shoes."
+  },
+  "actionAnchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "runtimeBallTrack": {
+    "ballInArt": false,
+    "athleteSpecific": true,
+    "heightByPose": [
+      0.95,
+      1.1,
+      1.7,
+      2.5,
+      1.9,
+      1.2,
+      0.95,
+      0.95,
+      1.8,
+      2.5,
+      2.5,
+      2,
+      1.1,
+      0.9,
+      0.8
+    ],
+    "forwardByPose": [
+      4,
+      5,
+      5,
+      7,
+      2,
+      0,
+      -1,
+      0,
+      3,
+      7,
+      8,
+      4,
+      1,
+      4,
+      4
+    ],
+    "poseDurations": [
+      2,
+      2,
+      3,
+      2,
+      1,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3
+    ],
+    "possessionThroughTick": 20,
+    "releaseTick": 21,
+    "scoreTick": 23
+  },
+  "sourceSha256": "469844778b1bca183ebd90b8b0bdc80340fb60370997d8cb170e96c24b98d68c"
+}

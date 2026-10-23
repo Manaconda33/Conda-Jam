@@ -175,7 +175,10 @@ const athleteBallTracks={'reed-ashcroft':{
   'dunk-360':{height:[.85,.8,1.15,1.25,1.45,1.35,1.65,1.15,2,.85,.85,1.8,1.1,.9,.8],forward:[4,1,2,0,-1,-1,-3,10,8,6,8,4,1,4,4]},
   // Juniper loads the separate ball behind her crown, holds it cocked at the
   // apex, then drives it into her one-handed straight-down tomahawk release.
-  'dunk-tomahawk':{height:[.9,.8,1.1,1,.9,1,1,1.3,1,1.4,1.4,1.8,1.1,.9,.8],forward:[4,-2,6,0,-1,-1,0,0,-2,7,8,4,1,4,4]}
+  'dunk-tomahawk':{height:[.9,.8,1.1,1,.9,1,1,1.3,1,1.4,1.4,1.8,1.1,.9,.8],forward:[4,-2,6,0,-1,-1,0,0,-2,7,8,4,1,4,4]},
+  // Juniper pumps the separate ball overhead, resets to her chest, then
+  // drives both hands up for a single synchronized release.
+  'dunk-double':{height:[.95,1.1,1.7,2.5,1.9,1.2,.95,.95,1.8,2.5,2.5,2,1.1,.9,.8],forward:[4,5,5,7,2,0,-1,0,3,7,8,4,1,4,4]}
 },'sera-bellini':{
   // The reviewed 80x96 sheet places the lead hand ahead of her torso; keep
   // the separate game ball at that hand through her court-level bounce.

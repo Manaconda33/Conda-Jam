@@ -1909,3 +1909,31 @@ test('Juniper selects all fifteen reviewed tomahawk poses from the crown cock th
   tick+=animationClips['dunk-tomahawk'].frames[frame].duration;
  }
 });
+
+test('Juniper selects all fifteen reviewed double-dunk poses with two empty-hand pumps',()=>{
+ const id='juniper-vale',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+ const atlas='./public/assets/animation/juniper-vale-dunk-double-right.webp';
+ const clip=character?.directions?.right?.['dunk-double'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.ok(clip,'Juniper double-dunk atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.imageGenerationId,'exec-1e94dbb7-9b45-48ad-b88c-3d1fac38061d');
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.componentIsolation,true);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.heightByPose,[.95,1.1,1.7,2.5,1.9,1.2,.95,.95,1.8,2.5,2.5,2,1.1,.9,.8]);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forwardByPose,[4,5,5,7,2,0,-1,0,3,7,8,4,1,4,4]);
+ assert.equal(clip.provenance.sourceImage,'tools/generate-art/sources/j79-juniper-dunk-double15.png');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.equal(policy.canonicalSection,'J.01');assert.equal(policy.sourceCell,1);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-double',tick).frame,frame,'runtime maps Juniper double-dunk pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-double',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-double'].frames[frame].duration;
+ }
+});
