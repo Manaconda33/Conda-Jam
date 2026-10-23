@@ -1,0 +1,29 @@
+{
+  "athlete": "paprika",
+  "clip": "layup-reverse",
+  "direction": "right",
+  "generationId": "exec-1ca7b357-9633-47e3-9673-3d9cc16f6dcf",
+  "generatedAt": "2026-10-23T06:00:41.671Z",
+  "generationTool": "image_gen.imagegen",
+  "prompt": "Create one original transparent RGBA sprite sheet for Paprika's JAMVERSE '96 reverse layup. Paprika is a REAL TINY FOUR-FOOTED KIT FOX: a horizontal compact wild-fox body, russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright expressive fox eyes, long pointed muzzle, big bushy tail with a pale tip, and fitted purple-and-gold sports vest. Preserve her same small natural fox proportions in all drawings. She stays on four animal legs with fox paws in every pose; never humanoid, never upright like a person, no human arms or hands, shoes, shorts, cloak, or canine species other than a small kit fox. Match polished richly shaded 1990s arcade pixel-sprite art with crisp readable outlines.\n\nDraw EXACTLY eight separate complete right-facing three-quarter full-body fox poses in a strict 4-column by 2-row grid, row-major. Every pose is independently drawn, anatomically plausible, the same scale and camera angle, with generous true-transparent gutters. Keep ears, muzzle, four paws, and full pale-tipped tail inside each cell. No contact between figures, overlap, crop, duplicates, grid marks, panels, or borders.\n\nThis is a reverse-side layup. The game draws the basketball separately; never draw a ball.\nPose order is tied to the existing JAMVERSE runtime: frame 4 (zero-based pose 4, fifth cell) is the high reverse-side peak and preparation; Paprika has NOT released yet and keeps the invisible ball close to her muzzle. Frame 5 (zero-based pose 5, sixth cell) is the actual RELEASE pose at tick 12: a distinct nose-flick over her shoulder with the near fox forepaw reaching behind the turned head toward the reverse-side release lane. Do not move the release to another cell.\n0) low quadruped approach along the baseline;\n1) gather with muzzle close to the invisible ball, forepaws tucked, hind legs preparing;\n2) compact four-paw plant and crouch, beginning a backward shoulder/head turn;\n3) leap across the lane, body rotating naturally but still horizontal and fox-like;\n4) high airborne peak, shoulders and muzzle turned over her shoulder, forepaw cocked behind the head, holding the invisible ball at the muzzle before release;\n5) RELEASE at peak: sharp upward-backward muzzle flick and extended near forepaw, all paws still animal paws, ears and tail readable;\n6) follow through and descend beyond the hoop with forepaws reaching down first;\n7) land on all four paws and recover balanced, still facing right.\n\nTransparent background. No basketball or ball-like object, hoop, rim, net, court, floor, shadow, humans, opponents, extra animals, lettering, numerals, logos, background, glow, or equipment.",
+  "promptVerbatim": true,
+  "generatedImagePath": "/workspace/generated_images/exec-1ca7b357-9633-47e3-9673-3d9cc16f6dcf.png",
+  "sourceImage": "tools/generate-art/sources/j47-paprika-layup-reverse8.png",
+  "sourceSha256": "e65c3f9ca6faceacdd717bfd301bf84a0d7cdd45690e82cfb654c4c9551c3fe3",
+  "eligibleForPacking": true,
+  "rejectedAttempts": [
+    {
+      "generationId": "exec-06373659-3d9c-40a9-b985-6d63bd6f4321",
+      "sourceImage": "tools/generate-art/sources/j47-paprika-layup-reverse8-attempt1-rejected-anchor.png",
+      "reason": "The release was drawn at pose index4, while the shared runtime release marker is pose index5 at tick12."
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-23",
+    "notes": "Visual/source review confirms eight separate full-body kit-fox poses in 4x2 row-major cells, true RGBA transparency, no ball or props, four-legged anatomy, consistent Paprika identity, and in-bounds ears/paws/tail. Pose index4 is the reverse-side peak before release; pose index5 is the distinct nose-flick/forepaw release at runtime tick12."
+  },
+  "imageGenerationId": "exec-1ca7b357-9633-47e3-9673-3d9cc16f6dcf",
+  "sourcePromptStatus": "verbatim",
+  "c2paClaim": null
+}

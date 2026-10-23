@@ -461,6 +461,38 @@ for(const [id,forward,height]of [['reed-ashcroft',7.676,2.135],['juniper-vale',5
  assert.equal(sampleBallHeight('layup',10,id),height);
  assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-p.facing*forward)<1e-9);
 });
+test('Paprika layup releases from her high muzzle/forepaw anchor on frame4 in both facings',()=>{
+ const clip='layup',release=anchorTick(clip,'release');
+ assert.equal(release,10);assert.equal(sampleAnimation(clip,release).frame,4);
+ assert.equal(sampleBallForward(clip,release,'paprika'),10);
+ assert.equal(sampleBallHeight(clip,release,'paprika'),1.0);
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:85,home:{roster:[{id:'paprika'},{id:'paprika-reserve'}]}}),p=m.players.find(player=>player.id==='paprika');
+  p.x=182;p.y=50;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,layupVariant:'normal'}):i));
+  assert.equal(p.animation.clip,'layup');
+  while(p.animation.tick<release)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'shot');assert.equal(p.fga,1);
+  assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*10)<1e-9,'separate ball starts at the fox muzzle in either direction');
+  assert.ok(p.z>0&&m.ball.z>p.z,'released shot clears the airborne fox at the marked frame');
+ }
+});
+test('Paprika reverse layup twists to the muzzle/forepaw release on frame5 at tick12',()=>{
+ const clip='layup-reverse',release=anchorTick(clip,'release');
+ assert.equal(release,12);assert.equal(sampleAnimation(clip,release).frame,5);
+ assert.equal(sampleBallForward(clip,release,'paprika'),10);
+ assert.equal(sampleBallHeight(clip,release,'paprika'),1.0);
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:86,home:{roster:[{id:'paprika'},{id:'paprika-reserve'}]}}),p=m.players.find(player=>player.id==='paprika');
+  p.x=182;p.y=55;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,layupVariant:'reverse'}):i));
+  assert.equal(p.animation.clip,clip);
+  while(p.animation.tick<release)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'shot');assert.equal(p.fga,1);
+  assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*10)<1e-9,'unowned shot starts at the reverse muzzle/paw lane');
+  assert.ok(p.z>0&&m.ball.z>p.z,'released shot clears the airborne fox at the marked frame');
+ }
+});
 for(const [id,forward,height]of [['reed-ashcroft',7.676,2.135],['juniper-vale',5.3,2.03]])test(`${id} reverse layup releases from the authored high hand on frame5`,()=>{
  const m=createMatch({quarterSeconds:60,seed:84,home:{roster:[{id},{id:`${id}-reserve`}]}}),p=m.players.find(player=>player.id===id);
  p.x=182;p.y=55;

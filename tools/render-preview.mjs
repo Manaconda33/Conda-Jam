@@ -66,11 +66,12 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
  const aerial=clip.startsWith('dunk-')||clip.startsWith('alley-oop-');
  const tick=aerial?anchorTick(clip,'peak'):anchorTick(clip,'release')??anchorTick(clip,'apex')??anchorTick(clip,'grab')??anchorTick(clip,'contact')??anchorTick(clip,'bounce')??anchorTick(clip,'finish')??12;
  p.x=x;p.y=50;p.animation={clip,tick};p.z=aerial?5:clip==='shoot'||clip.startsWith('layup')||clip==='block'||clip==='rebound'?2:0;
- // Pass anchors are release points: keep the ball visible at the muzzle/hand
- // while showing it as a free projectile without an owner.
+ // Release anchors keep the ball visible at the authored hand/muzzle while
+ // marking passes and shots as free projectiles without an owner.
  const releasedPass=['pass','pass-overhead','pass-behind'].includes(clip)&&tick>=anchorTick(clip,'release');
- p.hasBall=(['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','receive','pickup','steal','layup','layup-reverse'].includes(clip)&&!releasedPass)||aerial||(clip==='rebound'&&tick>=anchorTick('rebound','grab'));p.facing=position==='right'?-1:1;
- Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick,p.id),y:p.y,z:p.z+((p.hasBall||releasedPass)?sampleBallHeight(clip,p.animation.tick,p.id):0),mode:p.hasBall?'carried':releasedPass?'pass':'loose',ownerId:p.hasBall?p.id:null});
+ const releasedShot=['shoot','layup','layup-reverse'].includes(clip)&&tick>=anchorTick(clip,'release');
+ p.hasBall=(['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','receive','pickup','steal','layup','layup-reverse'].includes(clip)&&!releasedPass&&!releasedShot)||aerial||(clip==='rebound'&&tick>=anchorTick('rebound','grab'));p.facing=position==='right'?-1:1;
+ Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick,p.id),y:p.y,z:p.z+((p.hasBall||releasedPass||releasedShot)?sampleBallHeight(clip,p.animation.tick,p.id):0),mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':'loose',ownerId:p.hasBall?p.id:null});
  for(let i=0;i<(clip==='idle'?90:1);i++)game.tick(0);
  const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(selected),sourceDirection:selected?.atlas?.file?.match(/-(left|right)\.webp$/)?.[1]??null,flipped:selected?.flip??false,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId});
 }
@@ -79,8 +80,9 @@ for(const clip of ['pass-overhead','pass-behind','block','push','rebound','steal
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};
  const releasedPass=['pass','pass-overhead','pass-behind'].includes(clip)&&tick>=anchorTick(clip,'release');
- p.hasBall=(clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&!releasedPass;
- Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:(p.hasBall||releasedPass)?sampleBallHeight(clip,tick,p.id):0,mode:p.hasBall?'carried':releasedPass?'pass':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
+ const releasedShot=['shoot','layup','layup-reverse'].includes(clip)&&tick>=anchorTick(clip,'release');
+ p.hasBall=(clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&!releasedPass&&!releasedShot;
+ Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:(p.hasBall||releasedPass||releasedShot)?sampleBallHeight(clip,tick,p.id):0,mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
  game.tick(0);
  const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
  const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});

@@ -1,0 +1,22 @@
+{
+  "athlete": "paprika",
+  "clip": "layup-reverse",
+  "direction": "right",
+  "generationId": "exec-06373659-3d9c-40a9-b985-6d63bd6f4321",
+  "generatedAt": "2026-10-23T05:58:43.567Z",
+  "generationTool": "image_gen.imagegen",
+  "prompt": "Create one original transparent RGBA sprite sheet for Paprika's JAMVERSE '96 reverse layup. Paprika must match the established sprite identity: a REAL TINY FOUR-FOOTED KIT FOX with a horizontal compact fox body, russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright expressive fox eyes, long pointed muzzle, big bushy tail with a pale tip, and a fitted purple-and-gold sports vest. Keep her small wild-fox proportions consistent. She is always a quadruped with four animal legs and fox paws; never humanoid, never an upright person, never human hands or arms, shoes, shorts, or cloak. Match polished richly shaded 1990s arcade pixel-sprite art with crisp readable dark outlines.\n\nDraw EXACTLY eight separate complete right-facing three-quarter full-body fox poses in a strict 4-column by 2-row grid, read left to right then top to bottom. Each body is a new distinct drawing of the same fox, same scale and side view, with generous true-transparent gutters. Keep both tall ears, muzzle, all four paws, and the full pale-tipped tail inside each pose's own cell. No touching, overlap, clipping, fused silhouettes, duplicates, grid lines, panels, or borders.\n\nAction sequence for a reverse-side layup. The GAME renders the basketball separately, so draw no ball or ball-like object:\n1) quick low quadruped approach along the baseline toward the hoop;\n2) gather with her nose close to the invisible ball, forepaws tucked and hind legs preparing;\n3) plant all four paws, curl into a compact crouch, and begin rotating her shoulders and head away from the hoop;\n4) spring across the lane in a short athletic bound, torso twisting naturally but remaining horizontal and fully fox-like;\n5) RELEASE: at the high point, twist her neck and pointed muzzle back over her shoulder toward the reverse side; the near forepaw reaches into that rearward release lane as a fox paw, with ears, tail, and all four legs clearly visible;\n6) airborne follow-through after the nose-flick, forepaw extended behind the shoulder, body continuing across the hoop;\n7) descend with forepaws reaching down first while tail counterbalances the turn;\n8) land on all four paws and recover facing right, balanced and alert.\n\nTransparent background throughout. No basketball, hoop, rim, net, court, floor, shadow, person, opponent, extra animal, lettering, numerals, logos, background, glow, or sports equipment.",
+  "promptVerbatim": true,
+  "generatedImagePath": "/workspace/generated_images/exec-06373659-3d9c-40a9-b985-6d63bd6f4321.png",
+  "sourceImage": "tools/generate-art/sources/j47-paprika-layup-reverse8-attempt1-rejected-anchor.png",
+  "sourceSha256": "ea037f318b6fa2c1566ba78fb727e8d7a4f42e09ee976ef29b6c1b5c0c061997",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "reviewedAt": "2026-10-23",
+    "notes": "Rejected before atlas integration: the source assigns the reverse-side release to pose index4, while the shared runtime clip marks pose index5 at tick12 as the release. Preserve this candidate for provenance; do not pack it."
+  },
+  "imageGenerationId": "exec-06373659-3d9c-40a9-b985-6d63bd6f4321",
+  "sourcePromptStatus": "verbatim",
+  "c2paClaim": null
+}

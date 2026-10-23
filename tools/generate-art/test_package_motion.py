@@ -391,6 +391,32 @@ class EightPoseActionPackaging(unittest.TestCase):
             frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
             self.assertEqual(len(set(frame_pixels)),8)
 
+    def test_paprika_layup_accepts_eight_original_fox_frames(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'paprika','clip':'layup','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T05:50:32.325Z',
+                'prompt':'eight distinct four-footed fox layup poses','promptVerbatim':True,
+                'sourceSha256':action8.sha256(source),'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action8.ROOT,action8.OUTPUT_DIR
+            action8.ROOT,action8.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action8.package('paprika','layup',source,provenance_path)
+            finally:
+                action8.ROOT,action8.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual(layout['athlete'],'paprika')
+            self.assertEqual(layout['clip'],'layup')
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(4,2,8))
+            self.assertEqual([rect['sourceIndex'] for rect in layout['provenance']['sourceRects']],list(range(8)))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'paprika-layup-right.webp').is_file())
+
     def test_sheet_edge_touch_is_rejected(self):
         with self.assertRaisesRegex(ValueError,'border'):
             action8.pose_rectangles(self.source(edge=True))

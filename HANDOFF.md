@@ -12,9 +12,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
-- Latest deployed source checkpoint: `b12ef87d4e8be115f4af131842ef2337a7e99230`; Pages run #85 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39906350917>.
-- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=b12ef87>.
-- J.29–J.44 are pushed and deployed. The current J.45 local checkpoint adds Paprika's six-pose `pass-overhead` and `pass-behind` clips, each with original right-facing source, reviewed canon-safe mirroring, six distinct atlas frames, exact verbatim prompt provenance and an athlete-specific muzzle ball track. Frame3 releases at tick7; from release the ball is an unowned pass. Standard and zoom120 native previews load136 images and capture87 clip snapshots plus152 action-frame snapshots; all24 new frames select production art in both facings. The strict inventory is608 clips / 5,139 drawings / 105 athletes, with2,495 missing clips,3 target shortfalls and four reconstructed prompt findings. Paprika is at11 clips /79 drawings and next needs `layup`. J.45 build, all28 JavaScript test files, lint, content validation,100-match simulation,27 packer tests, full Chromium journeys and standard/zoom120 native previews pass. J.45 commit and Pages deployment are pending.
+- Latest deployed source checkpoint: `61222ef17acf22a71ff592e9530e260b5414d3fd`; Pages run #86 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39907840273>.
+- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=61222ef>.
+- J.29–J.45 are pushed and deployed. The current J.46–J.47 local checkpoint adds Paprika's eight-pose `layup` and `layup-reverse` clips, with separate fox-muzzle/forepaw ball tracks. The normal release is frame4/tick10; reverse layup peaks at frame4 and releases at frame5/tick12. All32 frames select production art in both facings. One reverse-layup candidate with an early release is preserved and rejected; the accepted retry matches runtime timing. Standard and zoom120 previews load138 images and capture87 clip snapshots plus152 action-frame snapshots. The strict inventory is610 clips / 5,155 drawings / 105 athletes, with2,493 missing clips,3 target shortfalls and four reconstructed prompt findings. Paprika is at13 clips /95 drawings and next needs `block`. Build, all28 JavaScript test files, lint, content validation,100-match simulation,28 packer tests, full Chromium journeys and standard/zoom120 native previews pass. J.46–J.47 commit and Pages deployment are pending.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -90,7 +90,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## Required continuation
 
-1. Continue filling the first missing required action clips in roster order. Paprika's new `pass-overhead` and `pass-behind` clips bring her to11/29; her next clip is the eight-pose quadruped `layup`. Continue across every roster member and verify custom anatomy and ball tracks.
+1. Continue filling the first missing required action clips in roster order. Paprika's new `pass-overhead`, `pass-behind`, `layup` and `layup-reverse` clips bring her to13/29; her next clip is `block`. Continue across every roster member and verify custom anatomy and ball tracks.
 2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/ANIMATION_ASSET_AUDIT.md` and `public/assets/animation/ASSET_STATUS.json`.
 3. Continue gameplay and presentation polish and address the outstanding spec/known issues.
 4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.

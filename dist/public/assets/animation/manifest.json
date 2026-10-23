@@ -15120,6 +15120,345 @@
               "c2paClaim": null
             },
             "reviewed": true
+          },
+          "layup": {
+            "src": "./public/assets/animation/paprika-layup-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "e93fe1cd5f0b115c0c9995dfb0e869a9358a999832271021c222a02dabddca8a"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "6e44ed2f9be2de129defd6df2cf849e93ce73d7696c238a3365195696076b6f9"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "2de603798149639563da434b7aaba0d52c0671d915ac41fa55b90bda1ade983d"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "97a445d0e4fb415166e0d500a6706caa087eafda1cb9f7af8f00071fecc159d9"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "c5089e1e59df0ef8de3d4c260771cfef6bed7d72e3db30b086bc3274a4cbe009"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "1ccd8fe2590eededef770ab30f255494daaee2e6e4fdfcb358cc2490a8298b75"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "09d504813c3a852c30b43b026a0f45343945c809537a66dea21b05b7aaa5513b"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "e0b39a3320e588af483576252f3b0d1bd05308486e4ff3d17452bebe298598ed"
+              }
+            ],
+            "sha256": "80a40a28e74e40b35c13c9bc101801857873c3d862d52a26ab49974b4727eeba",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "paprika",
+              "clip": "layup",
+              "direction": "right",
+              "generationId": "exec-79823875-8d36-47b9-8604-8f76579f0d58",
+              "generatedAt": "2026-10-23T05:50:32.325Z",
+              "generationTool": "image_gen.imagegen",
+              "prompt": "Create one original transparent RGBA sprite sheet for Paprika's JAMVERSE '96 basketball layup. Paprika must match the established sprite identity: a REAL TINY FOUR-FOOTED KIT FOX with a horizontal compact fox body, russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright expressive fox eyes, long pointed muzzle, big bushy tail with a pale tip, and a fitted purple-and-gold sports vest. Keep the small wild-fox proportions consistent in every pose. She is always a quadruped: four slender animal legs and small fox paws, never a humanoid, never upright like a person, never hands, arms, shoes, shorts or cloak. Match polished richly shaded 1990s arcade pixel-sprite art with crisp readable dark outlines and the reference palette.\n\nDraw EXACTLY eight separate complete right-facing three-quarter full-body fox poses in a strict 4-column by 2-row grid, read left to right then top to bottom. Each body is a new distinct drawing of the same fox, same scale and orthographic side angle, with ample true-transparent gutters. Keep both tall ears, muzzle, all four paws, and the entire pale tail tip inside each pose's own cell. No touching, overlap, clipping, fused silhouettes, duplicates, grid lines, panels or cell borders.\n\nAction sequence for a quick high fox layup, with the GAME rendering the basketball separately (do not draw any ball or ball-like object):\n1) fast low four-paw approach to the basket, alert gaze ahead;\n2) gather while running, nose dipping as if collecting the invisible ball, forepaws tucked naturally;\n3) compact crouched plant on all four paws, hindquarters loaded;\n4) explosive upward-forward leap, front paws raised as animal paws, hind legs stretched behind, tail counterbalancing;\n5) RELEASE: high airborne fox, neck and pointed muzzle flick upward-forward, near forepaw reaches naturally toward the release lane, ears perked, all anatomy still fox-like;\n6) follow-through just past the release, extended body and lifted forepaws, muzzle tracking the invisible ball;\n7) descend with forepaws reaching down first and tail balancing;\n8) soft landing and balanced quadruped recovery, eyes looking toward the basket.\n\nTransparent background throughout. No drawn basketball, hoop, rim, net, court, floor, shadow, person, opponent, extra animal, lettering, numerals, logos, background, glow or sports equipment.",
+              "promptVerbatim": true,
+              "generatedImagePath": "/workspace/generated_images/exec-79823875-8d36-47b9-8604-8f76579f0d58.png",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j46-paprika-layup8.png",
+              "sourceSha256": "d6edfa05dd99e793774ea801070fab36c6ff45a2cff030fd28b87ff9fa2d637b",
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "notes": "Visual and source review confirms eight separate full-body fox drawings in 4x2 row-major cells, true RGBA transparency, no drawn ball or props, four-legged anatomy in each pose, consistent Paprika identity, unclipped ears/paws/tail, and the high airborne nose-flick layup release at frame4."
+              },
+              "imageGenerationId": "exec-79823875-8d36-47b9-8604-8f76579f0d58",
+              "sourcePromptStatus": "verbatim",
+              "c2paClaim": null,
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 15,
+                  "y": 117,
+                  "w": 453,
+                  "h": 252,
+                  "component": 2,
+                  "area": 52098
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 486,
+                  "y": 122,
+                  "w": 413,
+                  "h": 261,
+                  "component": 3,
+                  "area": 48274
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 950,
+                  "y": 145,
+                  "w": 373,
+                  "h": 239,
+                  "component": 4,
+                  "area": 46973
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1365,
+                  "y": 18,
+                  "w": 392,
+                  "h": 380,
+                  "component": 1,
+                  "area": 53254
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 27,
+                  "y": 434,
+                  "w": 454,
+                  "h": 391,
+                  "component": 5,
+                  "area": 57382
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 471,
+                  "y": 442,
+                  "w": 440,
+                  "h": 374,
+                  "component": 6,
+                  "area": 55285
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 940,
+                  "y": 499,
+                  "w": 381,
+                  "h": 333,
+                  "component": 7,
+                  "area": 50486
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1367,
+                  "y": 553,
+                  "w": 390,
+                  "h": 280,
+                  "component": 8,
+                  "area": 54746
+                }
+              ],
+              "uniformScale": 0.23529411764705882,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 112x96 cells; baseline94; lossless WebP; 8 original layup poses"
+            },
+            "reviewed": true,
+            "reviewNotes": "Eight original poses were inspected over light and dark backgrounds. Paprika remains a small four-footed kit fox with russet/cream fur, tall ears, pointed muzzle, pale-tipped tail and purple/gold vest. The high release remains quadruped; all ears, paws and tail are in bounds. Eight unique atlas frames select production art in both facings using reviewed K.02 mirroring; the separate ball uses a Paprika-specific muzzle/forepaw track."
+          },
+          "layup-reverse": {
+            "src": "./public/assets/animation/paprika-layup-reverse-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "eb2aa4438ea4d08513babe6345eab7fa1fd5c1051f930506e2458cd1eadfd75c"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "712119b970fabf8cc3d9cd77fc1a462caae2ababb26c2b8b830693daf0ab21f6"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "6c38db9f3e26e9ed31b39c4f856c32ead6469162088d3420880a427c302898df"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "87a48ea84251319d5218d0ae16bec655e2c4665c003728d363fa928a4db6d37f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "07cad0744ec69876ab2ba00cca800e432e200160ae69b9fc39c54428292d5898"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "64013b75ec628762f8f54814a7e3caa5058b0b737ccc430cb54035ac2afebaa1"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "b3f3a84c7bcd759cee881453b28afb20f0d317901e3aac83d86391f08c67ec44"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "addc9ef493fe7db9d870c5989e6d4929db5962a541bd4eeda9952f3997ea9f3c"
+              }
+            ],
+            "sha256": "1b56bb723fd485a060705aa2bf225a183c72fafe51398720392eb91a540d6429",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "paprika",
+              "clip": "layup-reverse",
+              "direction": "right",
+              "generationId": "exec-1ca7b357-9633-47e3-9673-3d9cc16f6dcf",
+              "generatedAt": "2026-10-23T06:00:41.671Z",
+              "generationTool": "image_gen.imagegen",
+              "prompt": "Create one original transparent RGBA sprite sheet for Paprika's JAMVERSE '96 reverse layup. Paprika is a REAL TINY FOUR-FOOTED KIT FOX: a horizontal compact wild-fox body, russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright expressive fox eyes, long pointed muzzle, big bushy tail with a pale tip, and fitted purple-and-gold sports vest. Preserve her same small natural fox proportions in all drawings. She stays on four animal legs with fox paws in every pose; never humanoid, never upright like a person, no human arms or hands, shoes, shorts, cloak, or canine species other than a small kit fox. Match polished richly shaded 1990s arcade pixel-sprite art with crisp readable outlines.\n\nDraw EXACTLY eight separate complete right-facing three-quarter full-body fox poses in a strict 4-column by 2-row grid, row-major. Every pose is independently drawn, anatomically plausible, the same scale and camera angle, with generous true-transparent gutters. Keep ears, muzzle, four paws, and full pale-tipped tail inside each cell. No contact between figures, overlap, crop, duplicates, grid marks, panels, or borders.\n\nThis is a reverse-side layup. The game draws the basketball separately; never draw a ball.\nPose order is tied to the existing JAMVERSE runtime: frame 4 (zero-based pose 4, fifth cell) is the high reverse-side peak and preparation; Paprika has NOT released yet and keeps the invisible ball close to her muzzle. Frame 5 (zero-based pose 5, sixth cell) is the actual RELEASE pose at tick 12: a distinct nose-flick over her shoulder with the near fox forepaw reaching behind the turned head toward the reverse-side release lane. Do not move the release to another cell.\n0) low quadruped approach along the baseline;\n1) gather with muzzle close to the invisible ball, forepaws tucked, hind legs preparing;\n2) compact four-paw plant and crouch, beginning a backward shoulder/head turn;\n3) leap across the lane, body rotating naturally but still horizontal and fox-like;\n4) high airborne peak, shoulders and muzzle turned over her shoulder, forepaw cocked behind the head, holding the invisible ball at the muzzle before release;\n5) RELEASE at peak: sharp upward-backward muzzle flick and extended near forepaw, all paws still animal paws, ears and tail readable;\n6) follow through and descend beyond the hoop with forepaws reaching down first;\n7) land on all four paws and recover balanced, still facing right.\n\nTransparent background. No basketball or ball-like object, hoop, rim, net, court, floor, shadow, humans, opponents, extra animals, lettering, numerals, logos, background, glow, or equipment.",
+              "promptVerbatim": true,
+              "generatedImagePath": "/workspace/generated_images/exec-1ca7b357-9633-47e3-9673-3d9cc16f6dcf.png",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j47-paprika-layup-reverse8.png",
+              "sourceSha256": "e65c3f9ca6faceacdd717bfd301bf84a0d7cdd45690e82cfb654c4c9551c3fe3",
+              "eligibleForPacking": true,
+              "rejectedAttempts": [
+                {
+                  "generationId": "exec-06373659-3d9c-40a9-b985-6d63bd6f4321",
+                  "sourceImage": "tools/generate-art/sources/j47-paprika-layup-reverse8-attempt1-rejected-anchor.png",
+                  "reason": "The release was drawn at pose index4, while the shared runtime release marker is pose index5 at tick12."
+                }
+              ],
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "notes": "Visual/source review confirms eight separate full-body kit-fox poses in 4x2 row-major cells, true RGBA transparency, no ball or props, four-legged anatomy, consistent Paprika identity, and in-bounds ears/paws/tail. Pose index4 is the reverse-side peak before release; pose index5 is the distinct nose-flick/forepaw release at runtime tick12."
+              },
+              "imageGenerationId": "exec-1ca7b357-9633-47e3-9673-3d9cc16f6dcf",
+              "sourcePromptStatus": "verbatim",
+              "c2paClaim": null,
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 21,
+                  "y": 156,
+                  "w": 444,
+                  "h": 245,
+                  "component": 4,
+                  "area": 54970
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 475,
+                  "y": 113,
+                  "w": 386,
+                  "h": 277,
+                  "component": 2,
+                  "area": 48713
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 896,
+                  "y": 121,
+                  "w": 398,
+                  "h": 283,
+                  "component": 3,
+                  "area": 58090
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1328,
+                  "y": 20,
+                  "w": 418,
+                  "h": 317,
+                  "component": 1,
+                  "area": 58605
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 22,
+                  "y": 442,
+                  "w": 412,
+                  "h": 344,
+                  "component": 5,
+                  "area": 59028
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 455,
+                  "y": 450,
+                  "w": 442,
+                  "h": 327,
+                  "component": 6,
+                  "area": 58014
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 912,
+                  "y": 500,
+                  "w": 416,
+                  "h": 334,
+                  "component": 7,
+                  "area": 55957
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1332,
+                  "y": 555,
+                  "w": 425,
+                  "h": 281,
+                  "component": 8,
+                  "area": 55982
+                }
+              ],
+              "uniformScale": 0.26744186046511625,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 128x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses"
+            },
+            "reviewed": true,
+            "reviewNotes": "Eight original poses were inspected over light and dark backgrounds. Paprika remains a small four-footed kit fox with russet/cream fur, tall ears, pointed muzzle, pale-tipped tail and purple/gold vest. Frame4 is the reverse-side peak before release; frame5 releases at tick12. All body parts are in bounds. Eight unique frames select production art in both facings using reviewed K.02 mirroring; the separate ball uses a Paprika-specific muzzle/forepaw track."
           }
         }
       },

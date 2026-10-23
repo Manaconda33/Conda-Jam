@@ -1,0 +1,22 @@
+{
+  "athlete": "paprika",
+  "clip": "layup",
+  "direction": "right",
+  "generationId": "exec-79823875-8d36-47b9-8604-8f76579f0d58",
+  "generatedAt": "2026-10-23T05:50:32.325Z",
+  "generationTool": "image_gen.imagegen",
+  "prompt": "Create one original transparent RGBA sprite sheet for Paprika's JAMVERSE '96 basketball layup. Paprika must match the established sprite identity: a REAL TINY FOUR-FOOTED KIT FOX with a horizontal compact fox body, russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright expressive fox eyes, long pointed muzzle, big bushy tail with a pale tip, and a fitted purple-and-gold sports vest. Keep the small wild-fox proportions consistent in every pose. She is always a quadruped: four slender animal legs and small fox paws, never a humanoid, never upright like a person, never hands, arms, shoes, shorts or cloak. Match polished richly shaded 1990s arcade pixel-sprite art with crisp readable dark outlines and the reference palette.\n\nDraw EXACTLY eight separate complete right-facing three-quarter full-body fox poses in a strict 4-column by 2-row grid, read left to right then top to bottom. Each body is a new distinct drawing of the same fox, same scale and orthographic side angle, with ample true-transparent gutters. Keep both tall ears, muzzle, all four paws, and the entire pale tail tip inside each pose's own cell. No touching, overlap, clipping, fused silhouettes, duplicates, grid lines, panels or cell borders.\n\nAction sequence for a quick high fox layup, with the GAME rendering the basketball separately (do not draw any ball or ball-like object):\n1) fast low four-paw approach to the basket, alert gaze ahead;\n2) gather while running, nose dipping as if collecting the invisible ball, forepaws tucked naturally;\n3) compact crouched plant on all four paws, hindquarters loaded;\n4) explosive upward-forward leap, front paws raised as animal paws, hind legs stretched behind, tail counterbalancing;\n5) RELEASE: high airborne fox, neck and pointed muzzle flick upward-forward, near forepaw reaches naturally toward the release lane, ears perked, all anatomy still fox-like;\n6) follow-through just past the release, extended body and lifted forepaws, muzzle tracking the invisible ball;\n7) descend with forepaws reaching down first and tail balancing;\n8) soft landing and balanced quadruped recovery, eyes looking toward the basket.\n\nTransparent background throughout. No drawn basketball, hoop, rim, net, court, floor, shadow, person, opponent, extra animal, lettering, numerals, logos, background, glow or sports equipment.",
+  "promptVerbatim": true,
+  "generatedImagePath": "/workspace/generated_images/exec-79823875-8d36-47b9-8604-8f76579f0d58.png",
+  "sourceImage": "tools/generate-art/sources/j46-paprika-layup8.png",
+  "sourceSha256": "d6edfa05dd99e793774ea801070fab36c6ff45a2cff030fd28b87ff9fa2d637b",
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-23",
+    "notes": "Visual and source review confirms eight separate full-body fox drawings in 4x2 row-major cells, true RGBA transparency, no drawn ball or props, four-legged anatomy in each pose, consistent Paprika identity, unclipped ears/paws/tail, and the high airborne nose-flick layup release at frame4."
+  },
+  "imageGenerationId": "exec-79823875-8d36-47b9-8604-8f76579f0d58",
+  "sourcePromptStatus": "verbatim",
+  "c2paClaim": null
+}

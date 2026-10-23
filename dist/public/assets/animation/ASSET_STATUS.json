@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T05:28:31.687Z",
+  "generatedAt": "2026-10-23T06:03:42.289Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 606,
+  "inspectedClips": 610,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -178,30 +178,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "paprika",
-      "direction": "right",
-      "clip": "pass-overhead"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "paprika",
-      "direction": "right",
-      "clip": "pass-behind"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "paprika",
-      "direction": "right",
-      "clip": "layup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "paprika",
-      "direction": "right",
-      "clip": "layup-reverse"
     },
     {
       "code": "missing-clip",
@@ -21963,6 +21939,146 @@
     {
       "athlete": "paprika",
       "direction": "right",
+      "clip": "pass-overhead",
+      "src": "./public/assets/animation/paprika-pass-overhead-right.webp",
+      "width": 432,
+      "height": 192,
+      "sha256": "0fdb2bff24760bcf398cbc7b8354546cbcb5ce1f6aff6cf96852d6796a44e2cb",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 144,
+          "h": 96,
+          "hash": "f1bca97957b7e4f96856403b8a0b1ab0df5bff9a9a6a38f8a9943f6542be3fb7",
+          "visiblePixels": 5738
+        },
+        {
+          "index": 1,
+          "x": 144,
+          "y": 0,
+          "w": 144,
+          "h": 96,
+          "hash": "f2eec242fbbef35dfcbe4a6a088087075ccb96b1ba80fa35ccc50396d6980a5e",
+          "visiblePixels": 5797
+        },
+        {
+          "index": 2,
+          "x": 288,
+          "y": 0,
+          "w": 144,
+          "h": 96,
+          "hash": "a670698e82779af4e24f311ded83bb7a8eba3b7030401f71468d5d1d48e2dabb",
+          "visiblePixels": 6023
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 144,
+          "h": 96,
+          "hash": "21a9d4c43c5c61ee527b6fb5263ec54cb9de2fa04f85d19f21a5ad60e868e3ac",
+          "visiblePixels": 5850
+        },
+        {
+          "index": 4,
+          "x": 144,
+          "y": 96,
+          "w": 144,
+          "h": 96,
+          "hash": "4551bb7250613648d889d99388a054a18eb682ca78397ec1c910155ae3e898c6",
+          "visiblePixels": 5957
+        },
+        {
+          "index": 5,
+          "x": 288,
+          "y": 96,
+          "w": 144,
+          "h": 96,
+          "hash": "3b2adfa3b98f48e07adfeab1c72552ef0c4f38d319c13f93088bbf963718d86f",
+          "visiblePixels": 5845
+        }
+      ]
+    },
+    {
+      "athlete": "paprika",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/paprika-pass-behind-right.webp",
+      "width": 480,
+      "height": 192,
+      "sha256": "3b61f49bd0fb7fd20ed944fbe81116590f4c0638139ce655775bd0539979e02a",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 160,
+          "h": 96,
+          "hash": "f854db01b16a778dcc119a314a10d98ee106165b8dfedd1db3b4fca18e4d093c",
+          "visiblePixels": 6941
+        },
+        {
+          "index": 1,
+          "x": 160,
+          "y": 0,
+          "w": 160,
+          "h": 96,
+          "hash": "416b31ed99c7b3efd288f591c3919afa1d8d14f1607d6847535afa010ede2e65",
+          "visiblePixels": 6865
+        },
+        {
+          "index": 2,
+          "x": 320,
+          "y": 0,
+          "w": 160,
+          "h": 96,
+          "hash": "bca89193a2d3cc664885c7a00da79cd3048aaf53444c7351e8a86b65264c1c91",
+          "visiblePixels": 6983
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 160,
+          "h": 96,
+          "hash": "564b692fbdb7493d2aa1dec3be393c5ffd0c4f43417afe0a97a97cd6d9423943",
+          "visiblePixels": 7507
+        },
+        {
+          "index": 4,
+          "x": 160,
+          "y": 96,
+          "w": 160,
+          "h": 96,
+          "hash": "409b7d1911a34fae254e3e7ec21ecde31d92a23945061ce627ae892cbefd5e32",
+          "visiblePixels": 6636
+        },
+        {
+          "index": 5,
+          "x": 320,
+          "y": 96,
+          "w": 160,
+          "h": 96,
+          "hash": "890525fabb8065ea41bddfbb41174d92f04a0ac6962d08d11335b2a11eaeb717",
+          "visiblePixels": 6894
+        }
+      ]
+    },
+    {
+      "athlete": "paprika",
+      "direction": "right",
       "clip": "receive",
       "src": "./public/assets/animation/paprika-receive-right.webp",
       "width": 288,
@@ -22070,6 +22186,182 @@
           "h": 96,
           "hash": "c427a90e26774f6252b125de17774969a73857d561403792056f4d99a0880adb",
           "visiblePixels": 7344
+        }
+      ]
+    },
+    {
+      "athlete": "paprika",
+      "direction": "right",
+      "clip": "layup",
+      "src": "./public/assets/animation/paprika-layup-right.webp",
+      "width": 448,
+      "height": 192,
+      "sha256": "80a40a28e74e40b35c13c9bc101801857873c3d862d52a26ab49974b4727eeba",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "e93fe1cd5f0b115c0c9995dfb0e869a9358a999832271021c222a02dabddca8a",
+          "visiblePixels": 3575
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "6e44ed2f9be2de129defd6df2cf849e93ce73d7696c238a3365195696076b6f9",
+          "visiblePixels": 3201
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "2de603798149639563da434b7aaba0d52c0671d915ac41fa55b90bda1ade983d",
+          "visiblePixels": 3132
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "97a445d0e4fb415166e0d500a6706caa087eafda1cb9f7af8f00071fecc159d9",
+          "visiblePixels": 3638
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "c5089e1e59df0ef8de3d4c260771cfef6bed7d72e3db30b086bc3274a4cbe009",
+          "visiblePixels": 3949
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "1ccd8fe2590eededef770ab30f255494daaee2e6e4fdfcb358cc2490a8298b75",
+          "visiblePixels": 3846
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "09d504813c3a852c30b43b026a0f45343945c809537a66dea21b05b7aaa5513b",
+          "visiblePixels": 3442
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "e0b39a3320e588af483576252f3b0d1bd05308486e4ff3d17452bebe298598ed",
+          "visiblePixels": 3761
+        }
+      ]
+    },
+    {
+      "athlete": "paprika",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "src": "./public/assets/animation/paprika-layup-reverse-right.webp",
+      "width": 512,
+      "height": 192,
+      "sha256": "1b56bb723fd485a060705aa2bf225a183c72fafe51398720392eb91a540d6429",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "eb2aa4438ea4d08513babe6345eab7fa1fd5c1051f930506e2458cd1eadfd75c",
+          "visiblePixels": 4713
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "712119b970fabf8cc3d9cd77fc1a462caae2ababb26c2b8b830693daf0ab21f6",
+          "visiblePixels": 4150
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "6c38db9f3e26e9ed31b39c4f856c32ead6469162088d3420880a427c302898df",
+          "visiblePixels": 4847
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "87a48ea84251319d5218d0ae16bec655e2c4665c003728d363fa928a4db6d37f",
+          "visiblePixels": 5046
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "07cad0744ec69876ab2ba00cca800e432e200160ae69b9fc39c54428292d5898",
+          "visiblePixels": 5021
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "64013b75ec628762f8f54814a7e3caa5058b0b737ccc430cb54035ac2afebaa1",
+          "visiblePixels": 4914
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "b3f3a84c7bcd759cee881453b28afb20f0d317901e3aac83d86391f08c67ec44",
+          "visiblePixels": 4802
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "addc9ef493fe7db9d870c5989e6d4929db5962a541bd4eeda9952f3997ea9f3c",
+          "visiblePixels": 4853
         }
       ]
     },

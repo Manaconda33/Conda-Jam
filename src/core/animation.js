@@ -503,6 +503,11 @@ const athleteBallTracks={'reed-ashcroft':{
   pass:{height:[0,.3,.75,.52,.2,.1],forward:[14.8,13.3,14.8,14.8,15.2,14.8]},
  'pass-overhead':{height:[0,.2,.65,1.1,1.25,.35],forward:[10,11,13,15,17,11]},
  'pass-behind':{height:[0,.15,.35,.85,.65,.1],forward:[10,7,2,-12,-12,5]},
+  // Layup tracks follow Paprika's muzzle/near forepaw through her short leap;
+  // frame 4 is the high airborne release pose.
+  layup:{height:[.3,.35,.35,.9,1.0,.95,.65,.3],forward:[4,7,5,7,10,8,9,5]},
+  // Reverse release holds at frame 5 / tick 12 after the fox twists over her shoulder.
+  'layup-reverse':{height:[.3,.35,.45,.9,1.0,1.0,.6,.3],forward:[4,6,5,8,9,10,6,5]},
   'idle-ball':{height:[.55,.5,.45,.5],forward:[7,7.5,7,6.5]},
   dribble:{height:[.55,.5,.4,.25,.1,0,.1,.25,.4,.55],forward:[7,7.5,8,8.5,9,9,8.5,8,7.5,7]},
   'dribble-run':{height:[.5,.45,.35,.2,.1,0,.1,.2,.35,.45,.5],forward:[7.5,8,8.5,9,9,9,8.5,8,7.5,7,7.5]}
