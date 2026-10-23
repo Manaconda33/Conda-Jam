@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T06:03:42.289Z",
+  "generatedAt": "2026-10-23T06:11:35.747Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 610,
+  "inspectedClips": 611,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -178,12 +178,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "paprika",
-      "direction": "right",
-      "clip": "block"
     },
     {
       "code": "missing-clip",
@@ -22362,6 +22356,58 @@
           "h": 96,
           "hash": "addc9ef493fe7db9d870c5989e6d4929db5962a541bd4eeda9952f3997ea9f3c",
           "visiblePixels": 4853
+        }
+      ]
+    },
+    {
+      "athlete": "paprika",
+      "direction": "right",
+      "clip": "block",
+      "src": "./public/assets/animation/paprika-block-right.webp",
+      "width": 352,
+      "height": 192,
+      "sha256": "2a1c88a5f261f9bfff8ae1d321ab0e83ecce1ce7f9f5a80d8d9ab30f742d9920",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 176,
+          "h": 96,
+          "hash": "30828f94c11e37e278e1721323877bb807fd38e5715e2b36c4623f9594148685",
+          "visiblePixels": 6759
+        },
+        {
+          "index": 1,
+          "x": 176,
+          "y": 0,
+          "w": 176,
+          "h": 96,
+          "hash": "8c75611e0d7b04982df71f52d6268cb80216baea524a07b7178f29de24cc1212",
+          "visiblePixels": 5891
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 176,
+          "h": 96,
+          "hash": "1c4c4447dff699634b02fe64a29e20bb491b52e8ac5bcb7dbf3301916ace86bd",
+          "visiblePixels": 6927
+        },
+        {
+          "index": 3,
+          "x": 176,
+          "y": 96,
+          "w": 176,
+          "h": 96,
+          "hash": "2bceadaa794536fcc5a976a3b2f46b46c4fff3dd742de7aff4998bf80b237f74",
+          "visiblePixels": 6383
         }
       ]
     },

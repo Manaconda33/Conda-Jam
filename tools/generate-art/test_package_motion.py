@@ -228,6 +228,31 @@ class FourPoseActionPackaging(unittest.TestCase):
             self.assertEqual(len(layout['frames']),4)
             self.assertEqual(layout['provenance']['componentIsolation'],True)
 
+    def test_paprika_block_accepts_four_original_fox_frames(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'paprika','clip':'block','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T06:08:01.686Z',
+                'prompt':'four original quadruped fox block poses','promptVerbatim':True,
+                'sourceSha256':action4.sha256(source),'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action4.ROOT,action4.OUTPUT_DIR
+            action4.ROOT,action4.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action4.package('paprika',source,provenance_path)
+            finally:
+                action4.ROOT,action4.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['athlete'],layout['clip']),('paprika','block'))
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(2,2,4))
+            self.assertEqual([rect['sourceIndex'] for rect in layout['provenance']['sourceRects']],list(range(4)))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'paprika-block-right.webp').is_file())
+
 
 class FivePoseActionPackaging(unittest.TestCase):
     def test_five_original_pickup_frames_pack_in_three_by_two_order(self):

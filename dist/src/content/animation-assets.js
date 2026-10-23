@@ -15460,6 +15460,108 @@ export const animationAssetManifest = {
             },
             "reviewed": true,
             "reviewNotes": "Eight original poses were inspected over light and dark backgrounds. Paprika remains a small four-footed kit fox with russet/cream fur, tall ears, pointed muzzle, pale-tipped tail and purple/gold vest. Frame4 is the reverse-side peak before release; frame5 releases at tick12. All body parts are in bounds. Eight unique frames select production art in both facings using reviewed K.02 mirroring; the separate ball uses a Paprika-specific muzzle/forepaw track."
+          },
+          "block": {
+            "src": "./public/assets/animation/paprika-block-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 176,
+                "h": 96,
+                "hash": "30828f94c11e37e278e1721323877bb807fd38e5715e2b36c4623f9594148685"
+              },
+              {
+                "x": 176,
+                "y": 0,
+                "w": 176,
+                "h": 96,
+                "hash": "8c75611e0d7b04982df71f52d6268cb80216baea524a07b7178f29de24cc1212"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 176,
+                "h": 96,
+                "hash": "1c4c4447dff699634b02fe64a29e20bb491b52e8ac5bcb7dbf3301916ace86bd"
+              },
+              {
+                "x": 176,
+                "y": 96,
+                "w": 176,
+                "h": 96,
+                "hash": "2bceadaa794536fcc5a976a3b2f46b46c4fff3dd742de7aff4998bf80b237f74"
+              }
+            ],
+            "sha256": "2a1c88a5f261f9bfff8ae1d321ab0e83ecce1ce7f9f5a80d8d9ab30f742d9920",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "paprika",
+              "clip": "block",
+              "direction": "right",
+              "generationId": "exec-4f59250c-cf7e-482e-992b-2ac012e558bf",
+              "generatedAt": "2026-10-23T06:08:01.686Z",
+              "generationTool": "image_gen.imagegen",
+              "prompt": "Create one original transparent RGBA action sprite sheet for Paprika's JAMVERSE '96 basketball block. Paprika must match the established sprite identity: a REAL TINY FOUR-FOOTED KIT FOX, horizontal compact wild-fox body, russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright expressive eyes, pointed muzzle, large bushy tail with pale tip, and fitted purple-and-gold sports vest. Keep her small natural fox proportions. She always remains a quadruped with four animal legs and fox paws, never humanoid, never upright as a person, no human hands/arms, shoes, shorts, or cloak. Match polished richly shaded 1990s arcade pixel-sprite art with crisp dark outlines.\n\nDraw EXACTLY four separate complete right-facing three-quarter full-body fox poses on a transparent RGBA sheet, arranged in a strict 2-column by 2-row grid in row-major order. Same scale and side angle. Give each pose generous transparent margins. Keep ears, muzzle, every paw and the full pale tail tip inside its cell. No touching, overlap, fused silhouettes, crop, duplicates, panel lines, borders, or background.\n\nAction sequence for an animal-appropriate defensive block. The gameplay renders the separate basketball; draw no ball.\n0) Paprika holds a low alert defensive stance on all four paws, head toward the incoming play, tail balanced.\n1) She compresses her hindquarters and plants her forepaws, beginning a quick vertical spring while keeping her body horizontal.\n2) APEX BLOCK at the high point: a short fox leap with both forepaws raised as unmistakable animal paws to deflect an invisible ball; all four legs remain fox legs, the muzzle and ears are expressive, tail balances the airborne body. Do not turn her into a biped.\n3) She descends, lands on all four paws, and settles back into a guarded stance.\n\nThe figures are independent complete originals, not a progression made by moving limbs between copied drawings. Transparent background only. No ball or ball-like object, hoop, rim, net, floor, court, shadow, human, opponent, other animal, lettering, numerals, logos, glow, or equipment.",
+              "promptVerbatim": true,
+              "generatedImagePath": "/workspace/generated_images/exec-4f59250c-cf7e-482e-992b-2ac012e558bf.png",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j48-paprika-block4.png",
+              "sourceSha256": "218f826de4cc2ee772323bb0a2f38a5aa8b9fdedd02dde16358ee6673196b34a",
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "notes": "Visual and source review confirms four separate full-body kit-fox poses in 2x2 row-major cells, transparent RGBA outside each figure, no ball or props, four-legged fox anatomy in every pose, consistent Paprika identity, and the forepaw-deflection apex in pose2 at runtime frame2/tick5."
+              },
+              "imageGenerationId": "exec-4f59250c-cf7e-482e-992b-2ac012e558bf",
+              "sourcePromptStatus": "verbatim",
+              "c2paClaim": null,
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 35,
+                  "y": 49,
+                  "w": 730,
+                  "h": 406,
+                  "component": 1,
+                  "area": 144272
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 839,
+                  "y": 84,
+                  "w": 637,
+                  "h": 376,
+                  "component": 2,
+                  "area": 127706
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 35,
+                  "y": 472,
+                  "w": 788,
+                  "h": 459,
+                  "component": 3,
+                  "area": 147472
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 844,
+                  "y": 563,
+                  "w": 668,
+                  "h": 400,
+                  "component": 4,
+                  "area": 134733
+                }
+              ],
+              "uniformScale": 0.20043572984749455,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 176x96 cells; baseline94; lossless WebP; 4 original block poses"
+            },
+            "reviewed": true,
+            "reviewNotes": "Four original poses were inspected over light and dark backgrounds. Paprika stays quadruped in the alert stance, takeoff, forepaw-deflection apex and landing; paws remain animal paws and her ears and pale-tipped tail stay in bounds. The separate game ball remains loose and is not attached to the defender. All four frames select production art in both facings under K.02."
           }
         }
       },

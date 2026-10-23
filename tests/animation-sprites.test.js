@@ -1043,3 +1043,25 @@ test('Paprika selects all eight reviewed reverse-layup poses with release at fra
  }
  assert.equal(anchorTick('layup-reverse','release'),12);assert.equal(sampleAnimation('layup-reverse',12).frame,5);
 });
+test('Paprika selects all four reviewed quadruped block poses and reaches apex at tick5',()=>{
+ const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-block-right.webp',clip=character?.directions?.right?.block;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(policy.canonicalSection,'K.02');assert.equal(policy.sourceCell,1);
+ assert.ok(clip,'Paprika block atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,4);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,4);
+ assert.equal(clip.provenance.imageGenerationId,clip.provenance.generationId);assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.componentIsolation,true);
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.sourceRects.length,4);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ assert.equal(anchorTick('block','apex'),5);assert.equal(sampleAnimation('block',5).frame,2);
+ let tick=0;
+ for(let frame=0;frame<4;frame++){
+  assert.equal(sampleAnimation('block',tick).frame,frame,`runtime maps block pose ${frame}`);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id:'paprika',facing,animation:{clip:'block',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.block.frames[frame].duration;
+ }
+});
