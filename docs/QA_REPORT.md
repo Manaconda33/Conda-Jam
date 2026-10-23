@@ -1,17 +1,17 @@
 # QA report
 
-## Latest validated checkpoint — J.90 (2026-10-23; local, push pending)
+## Latest validated checkpoint — J.91 (2026-10-23; local, push pending)
 
-- `npm test`: PASS —396 tests, zero failures; includes static offline build.
+- `npm test`: PASS —397 tests, zero failures; includes static offline build.
 - `npm run lint`: PASS —18 JavaScript modules.
 - `npm run validate:content`: PASS —35 franchises /105 unique athletes /35 canonical captains.
 - `npm run simulate:league`: PASS —100 matches /854,447 ticks /7 overtime periods.
-- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —42 packer checks.
+- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —43 packer checks.
 - `npm run build`: PASS —static bundle and standalone offline page.
-- `npm run test:e2e`: PASS —Chromium offline startup, controls, touch/gamepad/settings, nonhuman matchups, complete match, season progression and standalone startup.
-- Strict animation audit: expected INCOMPLETE —653 clips /5,695 authored drawings across105 athletes,2,450 missing clips,3 target shortfalls and4 inherited prompt findings.
-- Keeg standard and zoom120 native renders each loaded156 images and rendered87 clip snapshots /452 action frames; `rebound` selects production art in both facings and the separate ball reaches the raised hand at tick5.
-- J.89 commit `6723f25` Pages run #127 succeeded. J.90 is validated locally; push/deployment verification is next.
+- `npm run test:e2e`: PASS —Chromium offline startup, settings, controls, co-op, touch, matchups, full match and season progression.
+- Strict audit: expected INCOMPLETE —654 clips /5,699 authored drawings across105 athletes,2,449 missing clips,3 target shortfalls and4 inherited prompt findings.
+- Keeg standard and zoom120 previews each loaded157 images and rendered87 clip snapshots /452 action frames. The block apex selects production art at tick5 in both facings; Keeg has no ball and the opponent’s ball remains independently simulated.
+- J.90 `36f5818` Pages run #128 succeeded. J.91 is ready for checkpoint push and deployment.
 
 ## Environment
 

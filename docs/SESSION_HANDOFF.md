@@ -1,12 +1,13 @@
 # Session handoff
 
-## Current checkpoint — J.90 validated locally; checkpoint push pending
+## Current checkpoint — J.91 Keeg `block` validated locally; push pending
 
-J.90 adds five distinct rebound poses for Keeg, bringing him to12/29 action clips and84 authored drawings. Pose3 is the separate-ball catch at simulation tick5: Keeg springs upward and reaches beside his hat, keeping the complete purple hat, silver trim and mushrooms clear. The ball is then secured by his empty hands at chest level. His adult human anatomy, black hair, close beard, and established purple/lavender/silver kit remain consistent; the Keeg-specific high-ball track and safe mirroring are tested.
+J.91 adds four distinct block poses. Keeg now has13/29 reviewed clips /88 authored drawings. Takeoff is pose1 /tick2, his hat-clearing open-hand apex is pose2 /tick5, and the finish is pose3 /tick8. Keeg’s hands stay empty; the opponent’s basketball remains its independently simulated shot/flight. Canon K.03 approves mirroring. His tall purple hat, silver trim and mushrooms, black hair, close beard, adult human anatomy and purple/lavender/silver kit remain intact.
 
-The exact initial and correction prompts, rejected tight-gutter candidate, raw and cleaned sources, hashes, cell bounds, cleanup, layout and provenance are in `tools/generate-art/j90-keeg-rebound-prompt.md` and associated J.90 files. Accepted correction `exec-5dffbb66-85ee-4bc2-9d1a-f3d0452c8596`, raw SHA-256 `679b1672afda1c3a8932e2d19d91673905032ab3260099bf24fb2b12533c548e`; cleaned source SHA-256 `3e888631807acb9c9a867b495f65e047a67447c682639e473132e6e8db8b2682`. Four-pixel cleanup cleared27,366 exterior pixels. The240×192 atlas `public/assets/animation/keeg-rebound-right.webp` is47,424 bytes (SHA-256 `e5c802eee7a083c0d03bd36cfd22aee9ced2fd50627c95c4b66f90f4abf2fb83`).
+The first generated sheet was rejected because its apex hand crossed the bottom-left cell boundary by6px. Accepted correction `exec-be9ba174-4385-4d27-8f4e-acdee2c9cb86` (parent `exec-b1eb2bd9-7afb-4216-a8fd-ddd2764f79e1`) uniformly scaled only that pose to82%. Raw SHA-256: `1ccea84a5b0ce20c28614354b619512de89ac278fedc19d4211ae1d1a2fa9512`; cleaned source `tools/generate-art/sources/j91-keeg-block4.png` SHA-256: `d4b4ac509e4f1b7d9252da2441ef04414a10d4a781243d5cc22c3b737ee03d7a`. Cleanup cleared11,031 exterior pixels, including1 vivid-red artifact; corrected apex has41px top clearance. Atlas `public/assets/animation/keeg-block-right.webp` is192×192 /39,546 bytes / SHA-256 `81b4bab47b8d5c679e6c243947282ddb3b1af3cfeaff3b7927075222e95dc20a`. Full prompts, rejected source, exact hashes, bounds, layouts and provenance are retained in the J.91 generation files.
 
-J.90 validation passes396 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation (854,447 ticks /7 overtime periods),42 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 native previews each load156 images and capture87 snapshots /452 action frames; the tick5 rebound selects production art in both facings with the ball at the raised hand. Strict audit:653 clips /5,695 drawings /105 athletes,2,450 missing clips,3 below-target clips and4 inherited prompt findings. J.89 `6723f25` is pushed and deployed in Pages run #127; preview https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=6723f25. Next roster action: Keeg `block`.
+Validation passes397 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /854,447 ticks /7 overtime periods,43 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 previews each load157 images and capture87 snapshots /452 action frames; production art is selected at apex tick5 in both facings, with the basketball still loose and separately tracked. Strict audit:654 clips /5,699 drawings /105 athletes,2,449 missing clips,3 target shortfalls and4 inherited prompt findings. Latest deployed source is J.90 `36f5818`, Pages run #128. Next roster action: Keeg `steal`.
+
 
 ## Active assignment and authorization
 
@@ -16,12 +17,12 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed commit is J.89 `6723f25`, Pages run #127 succeeded (https://github.com/Manaconda33/Conda-Jam/actions/runs/40037328040).
+Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed commit is J.90 `36f5818`, Pages run #128 succeeded (https://github.com/Manaconda33/Conda-Jam/actions/runs/40038185321).
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
-- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=6723f25
-- J.89 `6723f25` is pushed to `main` and deployed successfully in Pages run #127. J.90 Keeg `rebound` is validated locally pending checkpoint push; Keeg now has12/29 clips /84 authored drawings. Next action is `block`. Current audit:653 clips /5,695 drawings /105 athletes,2,450 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
+- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=36f5818
+- J.29–J.90 are pushed to `main`; J.90 `36f5818` is deployed in Pages run #128. J.91 Keeg `block` is validated locally pending checkpoint push; Keeg has13/29 clips /88 authored drawings. Next action is `steal`. Current audit:654 clips /5,699 drawings /105 athletes,2,449 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
 
 GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion. Full specification remains authoritative at `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md`.
 

@@ -36898,18 +36898,184 @@
               "c2pa": "No C2PA claim metadata was returned."
             },
             "reviewed": true
+          },
+          "block": {
+            "src": "./public/assets/animation/keeg-block-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5648193b71b03f9a46793af7365336341913240832a3b233629d8ff8645f707f"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1614452bc7c11075c7dc566c5b36bf2e32226eb9f3cf72d6e6ef2e287dafe6f6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0542702236cbb8d14382bafe78b31b55a1e5e6847f332effbd5c05a65407c72e"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "500dc9bf24624bd1ab2495a943aba8c06b7e40ad87e4e3a400fb3e922c6f08cb"
+              }
+            ],
+            "sha256": "81b4bab47b8d5c679e6c243947282ddb3b1af3cfeaff3b7927075222e95dc20a",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "block",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-be9ba174-4385-4d27-8f4e-acdee2c9cb86",
+              "imageGenerationId": "exec-be9ba174-4385-4d27-8f4e-acdee2c9cb86",
+              "parentGenerationId": "exec-b1eb2bd9-7afb-4216-a8fd-ddd2764f79e1",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j91-keeg-block4.png",
+              "sourceSha256": "d4b4ac509e4f1b7d9252da2441ef04414a10d4a781243d5cc22c3b737ee03d7a",
+              "rawSourceImage": "tools/generate-art/sources/j91-keeg-block-generated-correction-raw.png",
+              "rawSourceSha256": "1ccea84a5b0ce20c28614354b619512de89ac278fedc19d4211ae1d1a2fa9512",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-b1eb2bd9-7afb-4216-a8fd-ddd2764f79e1",
+                  "sourceImage": "tools/generate-art/sources/j91-keeg-block-candidate1-rejected-row-crossing.png",
+                  "reason": "Apex-hand silhouette crossed the top boundary of the bottom-left cell by6px; rejected."
+                }
+              ],
+              "promptFile": "tools/generate-art/j91-keeg-block-prompt.md",
+              "prompt": "Edit this four-pose Keeg block sheet for production. Keep the exact four existing poses, identity, art, hat, ornaments, clothes, colors, sheet order and camera. Make only this layout fix: source cell2 (bottom-left 768x512 cell), uniformly scale the entire complete figure down to 82% around its own center and position it wholly inside that bottom-left cell. The current raised hand crosses above the cell's top edge by six pixels; correct this so the full figure including the raised fingers has at least40 pixels of transparent clearance inside every cell edge. Preserve aspect ratio and pose. Do not alter the other three figures' size or position. Do not crop or cross cells, redraw anatomy, change identity, add objects, or shift the cell arrangement. Preserve the canvas exactly 1536x1024 and true transparent RGBA background outside the four characters; remove background/grid artifacts. There is no painted ball. Return only the corrected sheet.",
+              "sourcePrompt": "Edit this four-pose Keeg block sheet for production. Keep the exact four existing poses, identity, art, hat, ornaments, clothes, colors, sheet order and camera. Make only this layout fix: source cell2 (bottom-left 768x512 cell), uniformly scale the entire complete figure down to 82% around its own center and position it wholly inside that bottom-left cell. The current raised hand crosses above the cell's top edge by six pixels; correct this so the full figure including the raised fingers has at least40 pixels of transparent clearance inside every cell edge. Preserve aspect ratio and pose. Do not alter the other three figures' size or position. Do not crop or cross cells, redraw anatomy, change identity, add objects, or shift the cell arrangement. Preserve the canvas exactly 1536x1024 and true transparent RGBA background outside the four characters; remove background/grid artifacts. There is no painted ball. Return only the corrected sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "canonicalSection": "K.03",
+              "cleanup": {
+                "script": "tools/generate-art/clean-dunk-halo.py",
+                "outlineMargin": 4,
+                "removedExteriorPixels": 11031,
+                "removedVividRedPixels": 1,
+                "outerMarginsPx": {
+                  "left": 316,
+                  "top": 9,
+                  "right": 231,
+                  "bottom": 17
+                },
+                "cellMarginsPx": [
+                  {
+                    "left": 327,
+                    "right": 113,
+                    "top": 9,
+                    "bottom": 14
+                  },
+                  {
+                    "left": 65,
+                    "right": 296,
+                    "top": 65,
+                    "bottom": 13
+                  },
+                  {
+                    "left": 316,
+                    "right": 100,
+                    "top": 41,
+                    "bottom": 47
+                  },
+                  {
+                    "left": 66,
+                    "right": 231,
+                    "top": 63,
+                    "bottom": 17
+                  }
+                ]
+              },
+              "actionAnchors": {
+                "takeoff": {
+                  "frame": 1,
+                  "tick": 2
+                },
+                "apex": {
+                  "frame": 2,
+                  "tick": 5
+                },
+                "finish": {
+                  "frame": 3,
+                  "tick": 8
+                }
+              },
+              "ballPolicy": "The basketball remains a separately simulated shot/flight object; Keeg blocks it with empty hands. No held-ball track applies.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "reviewNotes": "Four distinct complete Keeg block poses map to the four source cells. Pose2 reaches up with an open empty hand for the apex at tick5; the arm stays beside and clear of the very tall purple hat, silver trim and mushroom details. Keeg remains an adult human with black hair, close black beard, complete hat, natural anatomy and purple/lavender/silver kit. All silhouettes are inside their own cells; hands contain no ball. The live basketball remains an independent game object. Canon K.03 approves mirroring."
+              },
+              "reviewNotes": "Four distinct complete Keeg block poses map to the four source cells. Pose2 reaches up with an open empty hand for the apex at tick5; the arm stays beside and clear of the very tall purple hat, silver trim and mushroom details. Keeg remains an adult human with black hair, close black beard, complete hat, natural anatomy and purple/lavender/silver kit. All silhouettes are inside their own cells; hands contain no ball. The live basketball remains an independent game object. Canon K.03 approves mirroring.",
+              "c2pa": "No C2PA claim metadata was returned.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 325,
+                  "y": 7,
+                  "w": 332,
+                  "h": 493,
+                  "component": 1,
+                  "area": 82846
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 831,
+                  "y": 63,
+                  "w": 411,
+                  "h": 438,
+                  "component": 2,
+                  "area": 80209
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 314,
+                  "y": 551,
+                  "w": 336,
+                  "h": 428,
+                  "component": 3,
+                  "area": 60097
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 832,
+                  "y": 573,
+                  "w": 475,
+                  "h": 436,
+                  "component": 4,
+                  "area": 86648
+                }
+              ],
+              "uniformScale": 0.18661257606490872,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original block poses"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Keeg’s adult human anatomy, black hair, close beard, complete tall purple hat, silver trim and mushroom ornaments have no fixed side. His rebound reach stays clear of the hat and remains legible when mirrored; the athlete-specific high-ball path is tested in both facings.",
+        "notes": "Keeg’s adult human anatomy, black hair, close beard, complete tall purple hat, silver trim and mushrooms have no fixed side. His hat-clearing block apex remains legible when mirrored; the live shot ball stays separately simulated with no held-ball track on the blocker.",
         "reviewedAt": "2026-10-23",
-        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.90",
+        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.91",
         "evidence": [
-          "tools/generate-art/keeg-rebound5-layouts.json",
-          "public/assets/animation/keeg-rebound-right.webp",
+          "tools/generate-art/keeg-block4-layouts.json",
+          "public/assets/animation/keeg-block-right.webp",
           "tests/animation-sprites.test.js"
         ],
         "canonicalSection": "K.03"

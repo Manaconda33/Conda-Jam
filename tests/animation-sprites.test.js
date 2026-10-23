@@ -284,6 +284,21 @@ test('Keeg selects four reviewed receive poses with safe mirroring',()=>{
   assert.equal(sprite?.atlas.file,receive.src);assert.equal(sprite?.flip,flip);
  }
 });
+test('Keeg selects four reviewed block poses with a hat-clear apex and safe mirroring',()=>{
+ const character=animationAssetManifest.characters.keeg,block=character.directions.right.block;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(block.reviewed,true);assert.equal(block.frames.length,4);
+ assert.equal(new Set(block.frames.map(frame=>frame.hash)).size,4);
+ assert.equal(block.provenance.canonicalSection,'K.03');assert.equal(block.provenance.review.status,'accepted');
+ assert.match(block.provenance.reviewNotes,/hat/i);assert.match(block.provenance.reviewNotes,/tick5/i);
+ assert.equal(anchorTick('block','apex'),5);assert.equal(anchorTick('block','finish'),8);
+ const width=Math.max(...block.frames.map(frame=>frame.x+frame.w)),height=Math.max(...block.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[block.src,{complete:true,naturalWidth:width,naturalHeight:height,file:block.src}]]);
+ for(const [facing,flip] of [[1,false],[-1,true]])for(let tick=0;tick<12;tick++){
+  const sprite=selectProductionSprite({id:'keeg',facing,animation:{clip:'block',tick}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,block.src);assert.equal(sprite?.flip,flip);
+ }
+});
 test('Keeg selects five reviewed pickup poses with floor contact and safe mirroring',()=>{
  const character=animationAssetManifest.characters.keeg,pickup=character.directions.right.pickup;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
