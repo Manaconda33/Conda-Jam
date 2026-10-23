@@ -18505,13 +18505,289 @@
               "packaging": "package-dunk15.py; 128x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "dunk-scythe": {
+            "src": "./public/assets/animation/paprika-dunk-scythe-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f4ae09453651e010bbab737859beee2e6a4ac999118a81cdc45ccaa640aeac52"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "8a032ddc2da7520f6dfbfc643db4e127abab7c4f408c6f83f537b75c32ac327d"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2df590d80e37eaaf5f6d600ad7959e73a6b255a100805449dcbb9b10cc8786bb"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "6832b6b164923d6d6ae7daf710fc2eb1905efab4dfd0b874f9fa897dc6c7efe6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "25760b6aac383f10ec08b1f126102bd5f8c4a789708e8943f6c4fa5f85423652"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5bba17a07b1f3e4358315d85be53c9ea661c79f1e40fb8f38c44ed2df53ac0e0"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "30cf0f40d15d5329bfbb3cd18af7ab7e989f3646b7cece75760f571e07cd26c9"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c631b05f79bf4eb945296135e02411cb6c1f450738fbf1e073f7e4a1eec1019d"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "151c6547db18ca575346b31de380d529bcaff69189ff2e3185bc7e83ced8a75e"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "df99bbda8ea9590df0627d129e56e190d9e9eb0dcc6d585b524dc26eb02c8e0f"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "0a7438a7ce339413e125581ed0adb7112b9aa9cc086b6585dffef7f56fc0bde5"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d78bacdb2b76f9634c610b95391b8eba3ec3ac9ad09cc0920618a7bf6460ae1c"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "69da72d934ea8e0d253003a96202eb55871c167ccffed46048ee17b9b03f72ca"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "563816efc5ddc7088720a73c4b71f2c6a398ad33aa034a3d47e5860a16067702"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "76e11216c67f71880e822b6bb5caebf7aea5993876b166d0866d005824d185a7"
+              }
+            ],
+            "sha256": "2087790687291cbf792f5f90136be6d0a7dda7367c46ccd33811fa639d378680",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "paprika",
+              "clip": "dunk-scythe",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-135864b6-34c2-4aca-bb8b-1bef5d3580d5",
+              "imageGenerationId": "exec-135864b6-34c2-4aca-bb8b-1bef5d3580d5",
+              "initialGenerationId": "exec-135864b6-34c2-4aca-bb8b-1bef5d3580d5",
+              "promptFile": "tools/generate-art/j61-paprika-dunk-scythe-prompt.md",
+              "prompt": "Create one original transparent RGBA production sprite atlas for JAMVERSE ’96: Paprika Rill’s DUNK-SCYTHE. Use the reference sheets only to preserve her exact fox identity and game sprite style; create a new action.\n\nPaprika is the same tiny, natural four-footed kit fox in every pose: low horizontal body, russet-orange fur, cream muzzle/chest/underside, very large triangular ears, bright fox eyes, pointed muzzle, full bushy tail with pale tip, and fitted purple-and-gold basketball vest. Preserve her compact proportions, short real fox legs and paws. She is never humanoid, anthropomorphic, upright or bipedal: no human arms, hands, fingers, shoes, weapons or added clothing.\n\nCreate exactly 15 distinct complete full-body poses in a strict 5-column by 3-row grid, left-to-right then top-to-bottom, on a 1536×1024 transparent canvas. One Paprika in each cell, same scale and right-facing three-quarter gameplay camera. Keep each complete body in bounds with wide transparent gutters and alpha zero outside the foxes. Crisp chunky 1990s arcade pixel art with clean dark-brown/near-black outlines. No clipping, overlap, fused figures, duplicate poses, red/coral/pink fringe, haze, floor, shadow, glow, background, border, grid lines, text or effects. Stable ground baseline; gameplay supplies jump elevation.\n\nThis is a DUNK-SCYTHE: while Paprika's low horizontal body remains compact and quadrupedal, her short near forepaw makes one tight diagonal crescent sweep from low beside the chest/back toward high above the muzzle and near ear, then cuts forward/down to the imaginary rim. Her head and eyes track the separate invisible ball. Her far forepaw, four short legs and pale-tipped tail balance the jump. Keep the near leg attached at its shoulder and visibly short; bend the paw close to the torso so it never becomes a long arm or blade. Do not draw a weapon, ball or hoop. Do not spin the full body, swing a circular windmill, do a vertical tomahawk stroke, or add repeated double pumps. The basketball is rendered separately by gameplay and MUST NOT appear.\n\nExact row-major sequence: frame0 compact alert four-paw approach; frame1 plant and gather invisible ball by muzzle; frame2 hind paws push off for takeoff; frame3 near paw tucks low beside chest as her body lifts; frame4 shoulder turns slightly and paw sweeps back beside the torso; frame5 paw traces a short diagonal path beneath/behind the chest, all paws remain short and visible; frame6 near paw rises diagonally across the chest toward the shoulder; frame7 compact C-shaped paw sweep climbs beside the cheek and ear; frame8 high point with the near paw above/forward of the muzzle, tail counterbalances; frame9 one quick diagonal cut toward the imaginary rim; frame10 compact paw-and-muzzle release at the rim lane; frame11 immediate aerial follow-through with paw folded back near chest; frame12 descend and untwist; frame13 extend four paws toward landing; frame14 grounded alert four-paw stance facing right. Make frames4–9 read as one diagonal crescent, not a full circle; frames10–11 complete the short release. Keep the face readable. No ball, weapon or hoop. Return only the clean transparent RGBA atlas.",
+              "promptVerbatim": true,
+              "sourcePrompt": "Create one original transparent RGBA production sprite atlas for JAMVERSE ’96: Paprika Rill’s DUNK-SCYTHE. Use the reference sheets only to preserve her exact fox identity and game sprite style; create a new action.\n\nPaprika is the same tiny, natural four-footed kit fox in every pose: low horizontal body, russet-orange fur, cream muzzle/chest/underside, very large triangular ears, bright fox eyes, pointed muzzle, full bushy tail with pale tip, and fitted purple-and-gold basketball vest. Preserve her compact proportions, short real fox legs and paws. She is never humanoid, anthropomorphic, upright or bipedal: no human arms, hands, fingers, shoes, weapons or added clothing.\n\nCreate exactly 15 distinct complete full-body poses in a strict 5-column by 3-row grid, left-to-right then top-to-bottom, on a 1536×1024 transparent canvas. One Paprika in each cell, same scale and right-facing three-quarter gameplay camera. Keep each complete body in bounds with wide transparent gutters and alpha zero outside the foxes. Crisp chunky 1990s arcade pixel art with clean dark-brown/near-black outlines. No clipping, overlap, fused figures, duplicate poses, red/coral/pink fringe, haze, floor, shadow, glow, background, border, grid lines, text or effects. Stable ground baseline; gameplay supplies jump elevation.\n\nThis is a DUNK-SCYTHE: while Paprika's low horizontal body remains compact and quadrupedal, her short near forepaw makes one tight diagonal crescent sweep from low beside the chest/back toward high above the muzzle and near ear, then cuts forward/down to the imaginary rim. Her head and eyes track the separate invisible ball. Her far forepaw, four short legs and pale-tipped tail balance the jump. Keep the near leg attached at its shoulder and visibly short; bend the paw close to the torso so it never becomes a long arm or blade. Do not draw a weapon, ball or hoop. Do not spin the full body, swing a circular windmill, do a vertical tomahawk stroke, or add repeated double pumps. The basketball is rendered separately by gameplay and MUST NOT appear.\n\nExact row-major sequence: frame0 compact alert four-paw approach; frame1 plant and gather invisible ball by muzzle; frame2 hind paws push off for takeoff; frame3 near paw tucks low beside chest as her body lifts; frame4 shoulder turns slightly and paw sweeps back beside the torso; frame5 paw traces a short diagonal path beneath/behind the chest, all paws remain short and visible; frame6 near paw rises diagonally across the chest toward the shoulder; frame7 compact C-shaped paw sweep climbs beside the cheek and ear; frame8 high point with the near paw above/forward of the muzzle, tail counterbalances; frame9 one quick diagonal cut toward the imaginary rim; frame10 compact paw-and-muzzle release at the rim lane; frame11 immediate aerial follow-through with paw folded back near chest; frame12 descend and untwist; frame13 extend four paws toward landing; frame14 grounded alert four-paw stance facing right. Make frames4–9 read as one diagonal crescent, not a full circle; frames10–11 complete the short release. Keep the face readable. No ball, weapon or hoop. Return only the clean transparent RGBA atlas.",
+              "sourcePromptStatus": "verbatim",
+              "sourceImage": "tools/generate-art/sources/j61-paprika-dunk-scythe15.png",
+              "generatedRawSource": "tools/generate-art/sources/j61-paprika-dunk-scythe-generated-raw.png",
+              "referenceImages": [
+                "tools/generate-art/sources/j59-paprika-dunk-double15.png",
+                "tools/generate-art/sources/j60-paprika-dunk-clutch15.png"
+              ],
+              "cleanup": {
+                "script": "tools/generate-art/clean-alpha-fringe.py",
+                "operation": "clear only strongly red pixels connected to transparent background and clear outermost image edges",
+                "clearedPixels": 0
+              },
+              "rejectedAttempts": [],
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "15 quadruped Paprika scythe-dunk poses, separated component crops, and K.02 canon anatomy",
+                "notes": "The right-facing sheet has fifteen complete separate fox alpha components in strict 5x3 row-major order. The last two bottom-row padded bounding rectangles overlap by one pixel, but their actual alpha components are disconnected; the component-aware crop assigns antialiased edge pixels to the nearest component without inventing pixels. Frames4-9 form one diagonal paw crescent, followed by a compact release. Paprika keeps short fox legs and her canonical russet/cream fur, ears, pale-tipped tail and purple/gold vest. No ball, weapon or hoop appears."
+              },
+              "sourceSha256": "e80a2da506487ebe5e563aaf53c8111af64c2f5b4a855924297722da60e8ad06",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 40,
+                  "y": 123,
+                  "w": 288,
+                  "h": 216,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 345,
+                  "y": 151,
+                  "w": 269,
+                  "h": 188,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 658,
+                  "y": 84,
+                  "w": 263,
+                  "h": 257,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 947,
+                  "y": 84,
+                  "w": 266,
+                  "h": 240,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1259,
+                  "y": 70,
+                  "w": 248,
+                  "h": 267,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 28,
+                  "y": 434,
+                  "w": 281,
+                  "h": 220,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 347,
+                  "y": 405,
+                  "w": 268,
+                  "h": 237,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 645,
+                  "y": 384,
+                  "w": 262,
+                  "h": 246,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 936,
+                  "y": 366,
+                  "w": 288,
+                  "h": 257,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1238,
+                  "y": 417,
+                  "w": 270,
+                  "h": 220,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 26,
+                  "y": 696,
+                  "w": 317,
+                  "h": 218,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 343,
+                  "y": 696,
+                  "w": 271,
+                  "h": 221,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 640,
+                  "y": 728,
+                  "w": 277,
+                  "h": 223,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 932,
+                  "y": 741,
+                  "w": 307,
+                  "h": 224,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1238,
+                  "y": 738,
+                  "w": 271,
+                  "h": 209,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.3445692883895131,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "K.02 review: Paprika remains a compact natural four-footed kit fox through power, windmill, reverse, 360, tomahawk, double, and clutch dunks. Her muzzle, short paws, ears, and pale tail tip have no fixed-side mark or directional prop; her paws remain natural fox forelegs. Horizontal mirroring preserves her identity and anatomy."
+        "notes": "K.02 review: Paprika remains a compact natural four-footed kit fox through power, windmill, reverse, 360, tomahawk, double, clutch, and scythe dunks. Her muzzle, short paws, ears, and pale tail tip have no fixed-side mark or directional prop; her paws stay natural fox forelegs. Horizontal mirroring preserves her identity and anatomy."
       },
       "reviewedAt": "2026-10-23"
     },

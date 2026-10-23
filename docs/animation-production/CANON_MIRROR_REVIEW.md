@@ -220,3 +220,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Paprika Rill | 1 | yes | Fifteen right-facing poses keep both short forepaws folded against the chest below Paprika's visible muzzle while she tucks around the invisible ball. Her four-legged anatomy stays compact through the peak and one short paw/muzzle release. No human limbs, ball or hoop appear. The russet/cream coat, large ears, pale-tipped tail and purple/gold vest remain canon; K.02 has no fixed-side marking and horizontal mirroring is safe. |
+
+## J.61 scythe-dunk clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Paprika Rill | 1 | yes | Fifteen right-facing poses make one compact diagonal crescent from beside the chest, across the shoulder and above the muzzle, then cut forward into release. Her short near forepaw remains a fox leg attached at the shoulder; all four paws stay natural and the body never becomes upright. No weapon, ball or hoop appears. K.02 has no fixed-side marking, so safe horizontal mirroring preserves her identity. |

@@ -29,6 +29,9 @@ fall_spec.loader.exec_module(action10)
 lob_spec = importlib.util.spec_from_file_location('action6', Path(__file__).with_name('package-action6.py'))
 action6 = importlib.util.module_from_spec(lob_spec)
 lob_spec.loader.exec_module(action6)
+dunk_spec = importlib.util.spec_from_file_location('dunk15', Path(__file__).with_name('package-dunk15.py'))
+dunk15 = importlib.util.module_from_spec(dunk_spec)
+dunk_spec.loader.exec_module(dunk15)
 
 
 class SourceValidation(unittest.TestCase):
@@ -159,6 +162,48 @@ class SourceValidation(unittest.TestCase):
             self.assertTrue(all(entry['direction'] == 'left' for entry in entries))
             self.assertTrue(all(entry['src'].endswith('-left.webp') for entry in entries))
             self.assertTrue(all((root/entry['src']).is_file() for entry in entries))
+
+
+class DunkFifteenPosePackaging(unittest.TestCase):
+    def source(self):
+        image=Image.new('RGBA',(700,600),(0,0,0,0));draw=ImageDraw.Draw(image)
+        for row in range(3):
+            for col in range(5):
+                x,y=col*140+10,row*200+20;color=(40+col*35,60+row*50,120+row*10+col*5,255)
+                if row==2 and col==3:
+                    # One separated L shape extends into the next figure's
+                    # bounding box; the alpha components remain distinct.
+                    draw.rectangle((x,y,x+10,y+80),fill=color)
+                    draw.rectangle((x,y,x+150,y+10),fill=color)
+                elif row==2 and col==4:
+                    draw.rectangle((x,y+40,x+10,y+80),fill=color)
+                    draw.rectangle((x,y+70,x+50,y+80),fill=color)
+                else:
+                    draw.rectangle((x,y,x+50,y+70),fill=color)
+        return image
+
+    def test_dunk_pack_rejects_bbox_overlap_then_isolates_fifteen_separate_components(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            sources=root/'tools/generate-art/sources';sources.mkdir(parents=True)
+            layouts=root/'tools/generate-art';source=sources/'source.png';self.source().save(source)
+            provenance_path=layouts/'provenance.json'
+            provenance_path.write_text(json.dumps({'eligibleForPacking':True,'prompt':'fifteen distinct quadruped poses','generatedAt':'2026-10-23','review':{'status':'accepted'}}))
+            old_root=dunk15.ROOT;dunk15.ROOT=root
+            try:
+                with self.assertRaisesRegex(ValueError,'overlap'):
+                    dunk15.package('paprika','dunk-scythe',source,provenance_path)
+                layout_path=dunk15.package('paprika','dunk-scythe',source,provenance_path,isolate=True)
+            finally:
+                dunk15.ROOT=old_root
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual(len(layout['frames']),15)
+            self.assertEqual(layout['provenance']['componentIsolation'],True)
+            self.assertEqual(len(layout['provenance']['sourceRects']),15)
+            atlas=Image.open(assets/'paprika-dunk-scythe-right.webp').convert('RGBA')
+            frames=[atlas.crop((f['x'],f['y'],f['x']+f['w'],f['y']+f['h'])) for f in layout['frames']]
+            self.assertTrue(all(frame.getchannel('A').getbbox() for frame in frames))
+            self.assertEqual(len({frame.tobytes() for frame in frames}),15)
 
 
 class FourPoseActionPackaging(unittest.TestCase):

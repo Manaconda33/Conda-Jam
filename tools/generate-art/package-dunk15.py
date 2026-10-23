@@ -21,20 +21,21 @@ motion42 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(motion42)
 
 
-def package(athlete: str, clip: str, source: Path, provenance_path: Path) -> Path:
+def package(athlete: str, clip: str, source: Path, provenance_path: Path, isolate: bool = False) -> Path:
     if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", athlete):
         raise ValueError("Unsafe athlete ID")
     if not re.fullmatch(r"dunk-[a-z0-9]+(?:-[a-z0-9]+)*", clip):
         raise ValueError("Expected a dunk clip ID")
     source = source.resolve()
     provenance_path = provenance_path.resolve()
-    rects = motion42.inspect_source(source, count=15, columns=5)
+    rects = motion42.inspect_source(source, count=15, columns=5, isolate=isolate)
+    separated = motion42.isolated_crops(source, rects) if isolate else None
     scale = 92 / max(rect["h"] for rect in rects)
     columns, rows, cell_width, cell_height = 4, 4, 128, 96
     atlas = Image.new("RGBA", (columns * cell_width, rows * cell_height), (0, 0, 0, 0))
     frames = []
     for index, rect in enumerate(rects):
-        crop = Image.open(source).convert("RGBA").crop((
+        crop = separated[index] if separated else Image.open(source).convert("RGBA").crop((
             rect["x"], rect["y"], rect["x"] + rect["w"], rect["y"] + rect["h"]
         ))
         width = round(rect["w"] * scale)
@@ -61,8 +62,8 @@ def package(athlete: str, clip: str, source: Path, provenance_path: Path) -> Pat
         "sourceSha256": hashlib.sha256(source.read_bytes()).hexdigest(),
         "sourceRects": [{"sourceIndex": i, **rect} for i, rect in enumerate(rects)],
         "uniformScale": scale,
-        "componentIsolation": False,
-        "packaging": "package-dunk15.py; 128x96 cells; baseline94; WebP88; no generated extra frames",
+        "componentIsolation": isolate,
+        "packaging": "package-dunk15.py" + (" --isolate-components" if isolate else "") + "; 128x96 cells; baseline94; WebP88; no generated extra frames",
     })
     layout = [{
         "athlete": athlete,
@@ -87,6 +88,9 @@ def package(athlete: str, clip: str, source: Path, provenance_path: Path) -> Pat
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 5:
-        raise SystemExit("Usage: package-dunk15.py athlete clip source.png provenance.json")
-    package(sys.argv[1], sys.argv[2], Path(sys.argv[3]), Path(sys.argv[4]))
+    args = sys.argv[1:]
+    isolate = "--isolate-components" in args
+    args = [arg for arg in args if arg != "--isolate-components"]
+    if len(args) != 4:
+        raise SystemExit("Usage: package-dunk15.py athlete clip source.png provenance.json [--isolate-components]")
+    package(args[0], args[1], Path(args[2]), Path(args[3]), isolate=isolate)
