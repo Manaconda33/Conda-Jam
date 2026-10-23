@@ -23,6 +23,28 @@ test('Paprika power dunk carries the separate ball at her forward forepaw throug
   assert.ok(Math.abs(m.ball.z-p.z-1.65)<1e-9,'ball stays attached at the authored forepaw height');
  }
 });
+test('Paprika windmill dunk carries the separate ball through a fox-sized paw circle',()=>{
+ const frameTick=index=>animationClips['dunk-windmill'].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ const measured=[[0,.55,7],[3,.8,-6],[4,.25,-8],[5,.15,-3],[7,.75,8],[9,1.5,10]];
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:55,home:{roster:[{id:'paprika'},{id:'partner'}]}}),p=m.players[0];
+  p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'windmill'}):i));
+  assert.equal(p.animation.clip,'dunk-windmill');
+  for(const [frame,height,forward]of measured){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(sampleBallHeight('dunk-windmill',p.animation.tick,p.id),height,'fox-sized vertical paw track at frame'+frame);
+   assert.equal(sampleBallForward('dunk-windmill',p.animation.tick,p.id),forward,'circular paw path at frame'+frame);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<1e-9,'ball stays on the near-paw lane facing '+facing);
+   assert.ok(Math.abs(m.ball.z-p.z-height)<1e-9,'ball stays at the authored fox-relative height facing '+facing);
+  }
+  const release=anchorTick('dunk-windmill','release');
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);
+  assert.equal(sampleBallHeight('dunk-windmill',release,p.id),1.45);assert.equal(sampleBallForward('dunk-windmill',release,p.id),12);
+ }
+});
 test('Dorian Mycel and Luca Velori keep possession at their forward hands on corrected locomotion',()=>{
  for(const id of ['dorian-mycel','luca-velori'])for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:41,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);

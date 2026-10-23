@@ -1,0 +1,43 @@
+{
+  "athlete": "paprika",
+  "clip": "dunk-windmill",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-78e30e5b-619a-42cf-9e7b-338636589a76",
+  "imageGenerationId": "exec-78e30e5b-619a-42cf-9e7b-338636589a76",
+  "parentGenerationId": "exec-8b3aec26-fad3-415f-9c6e-5dd22214e00d",
+  "initialGenerationId": "exec-e2cc8413-b533-46c8-ae2d-5c3cf5b1f986",
+  "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j55-paprika-dunk-windmill15.png",
+  "sourceSha256": "deb636ff396858d76d247545aa5a8c92a43881db560ff31dbbd7a5a00189eade",
+  "promptFile": "tools/generate-art/j55-paprika-dunk-windmill-prompt.md",
+  "prompt": "Make a strictly minimal alpha-edge cleanup to this exact transparent 1536\u00d71024 Paprika windmill sprite sheet. Every complete fox figure is visibly separated from the outer canvas edges by a clear margin. Set ONLY stray pixels on the four extreme canvas borders to alpha 0: every pixel in the first and last image rows, and every pixel in the first and last image columns. Preserve all fifteen full foxes, every pixel of their fur, face, paws, tail, vest, pose, outline, shading, scale and position exactly. Preserve the 5\u00d73 layout, canvas size, colors, and all interior transparent pixels exactly. Do not redraw or alter any fox, do not crop or resize, and do not add any new pixels. No background, halo, glow, border, floor, ball, hoop, text or effect. Return the same-size transparent RGBA image.",
+  "sourcePrompt": "Make a transparent RGBA sprite atlas for the JAMVERSE '96 basketball game. It must have exactly 15 separate, complete, full-body drawings of one character, Paprika Rill, in a strict 5-column \u00d7 3-row grid. This is original production game art. Strong 1990s arcade pixel-sprite style: visibly chunky grouped pixels, crisp stair-step edges, a restrained palette and clean dark pixel outlines; no painterly brush texture, gradients, photographic rendering, or antialias blur.\n\nPaprika is a tiny real four-legged kit fox: low horizontal fox torso, russet orange coat, cream muzzle/chest/belly, very large triangular ears, bright fox eyes, pointed muzzle, full bushy tail with pale tip, simple fitted purple-and-gold basketball vest. Preserve that exact small wild-fox identity and natural quadruped anatomy in every frame. Exactly four fox legs and paws; no humanoid body, no upright/biped stance, no long human arms or hands, no fingers, no shoes, no extra clothing. Same right-facing three-quarter gameplay view in every frame.\n\nGRID SAFETY IS CRITICAL: canvas is 1536\u00d71024. Use five 307-pixel columns and three 341-pixel rows. Put each complete fox near the center of its own cell. Keep each figure compact, no more than about 225 pixels wide and 190 pixels tall. Leave at least 35 transparent pixels from every cell boundary and at least 45 transparent pixels from the outer image boundary. Never clip ears, paws, tail, or muzzle. Do not overlap adjacent cells. Maintain a consistent character scale and ground baseline; do not move frames upward progressively because gameplay supplies jump translation. Keep all gaps truly transparent alpha 0. The entire area outside the fifteen character silhouettes must be empty transparent pixels; no haze, color wash, floor, shadow or atmosphere. Return transparency, not a colored background.\n\nThe basketball is drawn separately by gameplay and MUST NOT appear. Paprika makes one readable windmill dunk arc while staying a low horizontal four-footed fox: the near forepaw traces a broad circle down and behind her hip, underneath the front of her belly, forward past the shoulder and up above the muzzle, then reaches toward the imaginary rim. Her muzzle follows the invisible ball. Let the far forepaw, hind legs and tail counterbalance naturally. Do not rotate her torso upright, do not invent a human shoulder or arm.\n\nStrict row-major frame order, one different complete pose in each cell: frame0 alert compact four-paw approach; 1 crouch and gather by muzzle; 2 takeoff, hind legs push off; 3 airborne, near forepaw begins sweeping back; 4 paw arcs behind hip and below torso; 5 paw passes below the chest in low part of circle; 6 paw rounds forward under shoulder; 7 paw sweeps forward and upward beside shoulder; 8 paw reaches high over muzzle at flight peak; 9 stretch toward the unseen rim lane; 10 compact forward paw-and-muzzle release flick; 11 airborne scoring follow-through; 12 descend with forepaws reaching ground; 13 absorb landing on all four paws; 14 fully grounded alert stance. Make all poses distinct and natural, with clear paw/leg separation. No mirrored duplicates.\n\nOnly Paprika appears. No ball, hoop, rim, court, floor, ground shadow, human, opponent, extra animal, prop, scenery, text, numbers, symbols, logos, border, cell outlines, panel, glow, halo, stray pixels, detached body parts or background. Preserve full pale tail tips. Return one transparent PNG sprite atlas only.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "c2paClaim": null,
+  "xmpInstance": null,
+  "rejectedAttempts": [
+    {
+      "generationId": "exec-e2cc8413-b533-46c8-ae2d-5c3cf5b1f986",
+      "sourceImage": "tools/generate-art/sources/j55-paprika-dunk-windmill-attempt1-rejected-haze-clipped.png",
+      "reason": "The first sheet ran several foxes into the canvas edges and left detached components."
+    },
+    {
+      "generationId": "exec-5337544f-6999-40c2-95d1-5c6d9ce3dbfa",
+      "sourceImage": "tools/generate-art/sources/j55-paprika-dunk-windmill-attempt4-rejected-edge-retry.png",
+      "reason": "The final perimeter cleanup retry retained more alpha-1 outer-edge pixels than the accepted edge edit."
+    },
+    {
+      "generationId": "exec-3e8e3ab2-1073-44c8-8043-82c51778bfe4",
+      "sourceImage": "tools/generate-art/sources/j55-paprika-dunk-windmill-attempt5-rejected-red-halo-sweep.png",
+      "reason": "The near foreleg became unnaturally elongated and bright red alpha fringes surrounded the fox figures."
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "fifteen quadruped windmill-dunk poses, alpha separation, Paprika K.02 anatomy, and shared action-marker alignment",
+    "notes": "Fifteen distinct complete fox components pass the source-grid parser in exact 5x3 row-major order. Paprika remains a tiny four-footed russet/cream fox with large ears, pale tail tip and purple/gold vest. The near forepaw and muzzle articulate through the windmill sweep; the most rearward part of the arc is partly occluded by the torso, so the separate game ball follows a fox-sized custom muzzle/forepaw track. No ball or hoop is drawn. The outer border contains only alpha-1 fringe pixels, invisible in game scale and below the packer foreground threshold."
+  }
+}

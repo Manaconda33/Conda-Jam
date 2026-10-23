@@ -6049,7 +6049,7 @@ export const animationAssetManifest = {
               "direction": "right",
               "generationId": "exec-0e26b6d0-e4f5-4527-b1b8-548be2e2f5b7",
               "generatedAt": "2026-10-23",
-              "sourcePrompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Reed Ashcroft, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. He is a young adult human man with medium-brown skin, dark eyes and eyebrows, small dark goatee, dark-purple/black braids tied in a high topknot, natural athletic build, Chicago Condas purple-and-gold uniform, white lower-leg wear and purple/gold shoes. Maintain the face, hair, body and color palette across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near his hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. His hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512×512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, scarf, crest, checkerboard, floor, panels, borders or grid lines.",
+              "sourcePrompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Reed Ashcroft, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. He is a young adult human man with medium-brown skin, dark eyes and eyebrows, small dark goatee, dark-purple/black braids tied in a high topknot, natural athletic build, Chicago Condas purple-and-gold uniform, white lower-leg wear and purple/gold shoes. Maintain the face, hair, body and color palette across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near his hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. His hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512\u00d7512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, scarf, crest, checkerboard, floor, panels, borders or grid lines.",
               "referencePaths": [
                 "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
                 "tools/generate-art/references/reed-ashcroft-gameplay-reference.png"
@@ -6080,7 +6080,7 @@ export const animationAssetManifest = {
                   "reason": "Image edit did not remove the basketball from the windup pose."
                 }
               ],
-              "prompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Reed Ashcroft, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. He is a young adult human man with medium-brown skin, dark eyes and eyebrows, small dark goatee, dark-purple/black braids tied in a high topknot, natural athletic build, Chicago Condas purple-and-gold uniform, white lower-leg wear and purple/gold shoes. Maintain the face, hair, body and color palette across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near his hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. His hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512×512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, scarf, crest, checkerboard, floor, panels, borders or grid lines.",
+              "prompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Reed Ashcroft, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. He is a young adult human man with medium-brown skin, dark eyes and eyebrows, small dark goatee, dark-purple/black braids tied in a high topknot, natural athletic build, Chicago Condas purple-and-gold uniform, white lower-leg wear and purple/gold shoes. Maintain the face, hair, body and color palette across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near his hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. His hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512\u00d7512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, scarf, crest, checkerboard, floor, panels, borders or grid lines.",
               "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-pass6-accepted.png",
               "sourceSha256": "899ecb696c14b5407e66859d1698d037b4dafec79545a6e0c7129e1be139da3a",
               "sourceRects": [
@@ -6598,7 +6598,7 @@ export const animationAssetManifest = {
               "sourceSha256": "11d8ac99e53323ac067e6b1bd4d5092f851fd24d8e629fdac9353386c3403b6e",
               "review": {
                 "status": "accepted",
-                "notes": "Visually reviewed raw transparent source on light and dark grounds. The 3×2 sheet contains five complete distinct original bodies in row-major order, with the bottom-right cell empty. Canonical skin, face, hair, build and uniform identity are preserved; both hands remain empty with no numbers or logos. Frame3 is the marked floor-contact pickup pose. Alpha>=64 connected-component review identifies exactly five complete figures; none touches or clips the source edge. No pose is redrawn, copied or mirrored."
+                "notes": "Visually reviewed raw transparent source on light and dark grounds. The 3\u00d72 sheet contains five complete distinct original bodies in row-major order, with the bottom-right cell empty. Canonical skin, face, hair, build and uniform identity are preserved; both hands remain empty with no numbers or logos. Frame3 is the marked floor-contact pickup pose. Alpha>=64 connected-component review identifies exactly five complete figures; none touches or clips the source edge. No pose is redrawn, copied or mirrored."
               },
               "sourceRects": [
                 {
@@ -8959,7 +8959,7 @@ export const animationAssetManifest = {
             "sha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -9055,7 +9055,7 @@ export const animationAssetManifest = {
             "sha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -9179,7 +9179,7 @@ export const animationAssetManifest = {
             "sha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -9352,7 +9352,7 @@ export const animationAssetManifest = {
             "sha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -9532,7 +9532,7 @@ export const animationAssetManifest = {
             "sha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -10766,7 +10766,7 @@ export const animationAssetManifest = {
               "direction": "right",
               "generationId": "exec-f2e97d9c-1237-4926-80de-a09db756662a",
               "generatedAt": "2026-10-23",
-              "sourcePrompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Juniper Vale, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. She is a compact natural human athletic adult woman with light-warm skin, dark focused eyes, abundant dark-purple curls gathered high with one small gold tie, Chicago Condas purple-and-gold uniform, dark knee pads and matching shoes. Maintain her face, hair, body and colors across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near her hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. Her hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512×512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, extra jewelry, checkerboard, floor, panels, borders or grid lines.",
+              "sourcePrompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Juniper Vale, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. She is a compact natural human athletic adult woman with light-warm skin, dark focused eyes, abundant dark-purple curls gathered high with one small gold tie, Chicago Condas purple-and-gold uniform, dark knee pads and matching shoes. Maintain her face, hair, body and colors across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near her hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. Her hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512\u00d7512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, extra jewelry, checkerboard, floor, panels, borders or grid lines.",
               "referencePaths": [
                 "tools/generate-art/references/juniper-vale-portrait-reference.png",
                 "tools/generate-art/references/juniper-vale-gameplay-reference.png"
@@ -10797,7 +10797,7 @@ export const animationAssetManifest = {
                   "reason": "The edit removed the numerals but was not retained as the accepted art; a clean ball-free generation replaced it."
                 }
               ],
-              "prompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Juniper Vale, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. She is a compact natural human athletic adult woman with light-warm skin, dark focused eyes, abundant dark-purple curls gathered high with one small gold tie, Chicago Condas purple-and-gold uniform, dark knee pads and matching shoes. Maintain her face, hair, body and colors across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near her hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. Her hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512×512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, extra jewelry, checkerboard, floor, panels, borders or grid lines.",
+              "prompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Juniper Vale, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. She is a compact natural human athletic adult woman with light-warm skin, dark focused eyes, abundant dark-purple curls gathered high with one small gold tie, Chicago Condas purple-and-gold uniform, dark knee pads and matching shoes. Maintain her face, hair, body and colors across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near her hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. Her hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512\u00d7512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, extra jewelry, checkerboard, floor, panels, borders or grid lines.",
               "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-pass6-accepted.png",
               "sourceSha256": "37d0b5cdbc55085872c3b0007bd300d1716660822a6007f33ae702e2ffa5b764",
               "sourceRects": [
@@ -11322,7 +11322,7 @@ export const animationAssetManifest = {
               "sourceSha256": "513447530582fd197a7b9fd87815d48de212e55f4fe0e0a582779fdd76e21b3a",
               "review": {
                 "status": "accepted",
-                "notes": "Visually reviewed raw transparent source on light and dark grounds. The 3×2 sheet contains five complete distinct original bodies in row-major order, with the bottom-right cell empty. Canonical skin, face, hair, build and uniform identity are preserved; both hands remain empty with no numbers or logos. Frame3 is the marked floor-contact pickup pose. Alpha>=64 connected-component review identifies exactly five complete figures; none touches or clips the source edge. No pose is redrawn, copied or mirrored."
+                "notes": "Visually reviewed raw transparent source on light and dark grounds. The 3\u00d72 sheet contains five complete distinct original bodies in row-major order, with the bottom-right cell empty. Canonical skin, face, hair, build and uniform identity are preserved; both hands remain empty with no numbers or logos. Frame3 is the marked floor-contact pickup pose. Alpha>=64 connected-component review identifies exactly five complete figures; none touches or clips the source edge. No pose is redrawn, copied or mirrored."
               },
               "sourceRects": [
                 {
@@ -15834,7 +15834,7 @@ export const animationAssetManifest = {
                 "status": "accepted",
                 "by": "Codex",
                 "scope": "decoded alpha components, 4x3 row-major source map, K.02 anatomy and action pose review",
-                "notes": "Eleven distinct complete fox poses occupy cells0–10; the bottom-right cell is blank. Frame5 is the tick8 shoulder/forepaw contact. Paprika stays quadrupedal with canonical russet/cream features and purple/gold vest throughout. No ball, opponent, props, text, numerals or logos are drawn."
+                "notes": "Eleven distinct complete fox poses occupy cells0\u201310; the bottom-right cell is blank. Frame5 is the tick8 shoulder/forepaw contact. Paprika stays quadrupedal with canonical russet/cream features and purple/gold vest throughout. No ball, opponent, props, text, numerals or logos are drawn."
               },
               "sourceRects": [
                 {
@@ -16010,7 +16010,7 @@ export const animationAssetManifest = {
                 "status": "accepted",
                 "by": "Codex",
                 "scope": "decoded alpha components, row-major source cells, K.02 anatomy and rebound pose review",
-                "notes": "Five distinct complete quadruped fox poses in cells0–4, bottom-right cell empty, zero sheet-edge alpha. The edited retry removes the rejected brown backdrop and preserves the five source poses. Frame3 is the tick5 catch. No ball, props, text, numerals or logos are drawn."
+                "notes": "Five distinct complete quadruped fox poses in cells0\u20134, bottom-right cell empty, zero sheet-edge alpha. The edited retry removes the rejected brown backdrop and preserves the five source poses. Frame3 is the tick5 catch. No ball, props, text, numerals or logos are drawn."
               },
               "sourceRects": [
                 {
@@ -16067,7 +16067,7 @@ export const animationAssetManifest = {
             "review": {
               "by": "Codex",
               "scope": "decoded atlas frames, source component map, K.02 anatomy, pose order and both-facing mirror review",
-              "notes": "Five distinct complete quadruped fox poses remain visible in normalized 3x2 cells; the final cell is empty. Russet fur, cream muzzle/chest, tall ears, pale-tipped tail and purple/gold vest remain consistent. Frame3 catches at tick5; the separate ball follows Paprika’s paw/muzzle via her own track. No ball or prop is baked in. Safe to mirror both facings.",
+              "notes": "Five distinct complete quadruped fox poses remain visible in normalized 3x2 cells; the final cell is empty. Russet fur, cream muzzle/chest, tall ears, pale-tipped tail and purple/gold vest remain consistent. Frame3 catches at tick5; the separate ball follows Paprika\u2019s paw/muzzle via her own track. No ball or prop is baked in. Safe to mirror both facings.",
               "at": "2026-10-23T06:39:25.818Z"
             }
           },
@@ -16791,7 +16791,296 @@ export const animationAssetManifest = {
             "review": {
               "by": "Codex",
               "scope": "K.02 fox identity/anatomy, fifteen pose sequence, action markers, and both-facing runtime selection",
-              "notes": "Fifteen distinct action poses retain a horizontal fox body, four animal paws, large ears, pale-tipped bushy tail, russet/cream fur, and purple/gold vest. Frames map to the shared tick4 takeoff, tick14 peak, tick21 release, tick23 scoring finish, and tick30 landing markers. The ball remains a separate game object and follows Paprika’s forepaw/muzzle track. Right-facing production art mirrors safely in the left-facing preview.",
+              "notes": "Fifteen distinct action poses retain a horizontal fox body, four animal paws, large ears, pale-tipped bushy tail, russet/cream fur, and purple/gold vest. Frames map to the shared tick4 takeoff, tick14 peak, tick21 release, tick23 scoring finish, and tick30 landing markers. The ball remains a separate game object and follows Paprika\u2019s forepaw/muzzle track. Right-facing production art mirrors safely in the left-facing preview.",
+              "at": "2026-10-23"
+            }
+          },
+          "dunk-windmill": {
+            "src": "./public/assets/animation/paprika-dunk-windmill-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "5ec29f7381d54ac7970f0510edc80f298d1c4f531f14be82f7774da73af23a5b"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f3792b5846aa8e8e5789ff14d3a3884e35212d0fe9dae254756fbf1e2a2e018f"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "178dd49ca81d7b80f772a54adb9492c8eced3848598a8a97c16f120287a8e059"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "703548b1ebf3eab8b57b04714f47515f86c8e4cfd8f0c59e4848a5a9bdc7c12e"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "91b5b2ab02c18b1308c7bd8d18561bbb1a89151410fff40ac19648cbdb2d7164"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "eab28ab22efe31a2402e081746809c01ed19d651a45b13e64902427b039bfc11"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "05e954beadc72ded51bf91f6ee8cd11096a29049d63675519f515d4fa1c061b6"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "4cd091c1f587c889815608e586b8951541c8b42ce34f05f7fe373c1da5dbec5d"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "09037007c9deed66ce355f2baeadb31a7322c1bb604a5969a3d98d932653ec50"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "2cb97e3a9ee28e8bb06d06fb8181734d8598fd4f5ff140f17bdf7645bd00958d"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d0438a92cd60155f09f8360d6a0efc6ac98eba50fd6289732ffe3fa1efa9dc25"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "9fd86e47ff191e17a8cc9540c610302b08da80fcd28458f02a30d9a7d6f4efb1"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "a2af62ae4aba33ed8f5396925c248d6069a5badfb60a01ea5fca533d10b2408c"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "cd6cf5fd66686d190663bf088ab7659c87b74fb991f3af11746f6d9c12053acf"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "638ea487c70bac907cb34d8ecf96cabfabcaf6a7601034b44ea4d1bbe471777b"
+              }
+            ],
+            "sha256": "3451539a2e4ded24279bba567334ea717683d9437400ad7ab10dfdc06c19121a",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "paprika",
+              "clip": "dunk-windmill",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-78e30e5b-619a-42cf-9e7b-338636589a76",
+              "imageGenerationId": "exec-78e30e5b-619a-42cf-9e7b-338636589a76",
+              "parentGenerationId": "exec-8b3aec26-fad3-415f-9c6e-5dd22214e00d",
+              "initialGenerationId": "exec-e2cc8413-b533-46c8-ae2d-5c3cf5b1f986",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j55-paprika-dunk-windmill15.png",
+              "sourceSha256": "deb636ff396858d76d247545aa5a8c92a43881db560ff31dbbd7a5a00189eade",
+              "promptFile": "tools/generate-art/j55-paprika-dunk-windmill-prompt.md",
+              "prompt": "Make a strictly minimal alpha-edge cleanup to this exact transparent 1536\u00d71024 Paprika windmill sprite sheet. Every complete fox figure is visibly separated from the outer canvas edges by a clear margin. Set ONLY stray pixels on the four extreme canvas borders to alpha 0: every pixel in the first and last image rows, and every pixel in the first and last image columns. Preserve all fifteen full foxes, every pixel of their fur, face, paws, tail, vest, pose, outline, shading, scale and position exactly. Preserve the 5\u00d73 layout, canvas size, colors, and all interior transparent pixels exactly. Do not redraw or alter any fox, do not crop or resize, and do not add any new pixels. No background, halo, glow, border, floor, ball, hoop, text or effect. Return the same-size transparent RGBA image.",
+              "sourcePrompt": "Make a transparent RGBA sprite atlas for the JAMVERSE '96 basketball game. It must have exactly 15 separate, complete, full-body drawings of one character, Paprika Rill, in a strict 5-column \u00d7 3-row grid. This is original production game art. Strong 1990s arcade pixel-sprite style: visibly chunky grouped pixels, crisp stair-step edges, a restrained palette and clean dark pixel outlines; no painterly brush texture, gradients, photographic rendering, or antialias blur.\n\nPaprika is a tiny real four-legged kit fox: low horizontal fox torso, russet orange coat, cream muzzle/chest/belly, very large triangular ears, bright fox eyes, pointed muzzle, full bushy tail with pale tip, simple fitted purple-and-gold basketball vest. Preserve that exact small wild-fox identity and natural quadruped anatomy in every frame. Exactly four fox legs and paws; no humanoid body, no upright/biped stance, no long human arms or hands, no fingers, no shoes, no extra clothing. Same right-facing three-quarter gameplay view in every frame.\n\nGRID SAFETY IS CRITICAL: canvas is 1536\u00d71024. Use five 307-pixel columns and three 341-pixel rows. Put each complete fox near the center of its own cell. Keep each figure compact, no more than about 225 pixels wide and 190 pixels tall. Leave at least 35 transparent pixels from every cell boundary and at least 45 transparent pixels from the outer image boundary. Never clip ears, paws, tail, or muzzle. Do not overlap adjacent cells. Maintain a consistent character scale and ground baseline; do not move frames upward progressively because gameplay supplies jump translation. Keep all gaps truly transparent alpha 0. The entire area outside the fifteen character silhouettes must be empty transparent pixels; no haze, color wash, floor, shadow or atmosphere. Return transparency, not a colored background.\n\nThe basketball is drawn separately by gameplay and MUST NOT appear. Paprika makes one readable windmill dunk arc while staying a low horizontal four-footed fox: the near forepaw traces a broad circle down and behind her hip, underneath the front of her belly, forward past the shoulder and up above the muzzle, then reaches toward the imaginary rim. Her muzzle follows the invisible ball. Let the far forepaw, hind legs and tail counterbalance naturally. Do not rotate her torso upright, do not invent a human shoulder or arm.\n\nStrict row-major frame order, one different complete pose in each cell: frame0 alert compact four-paw approach; 1 crouch and gather by muzzle; 2 takeoff, hind legs push off; 3 airborne, near forepaw begins sweeping back; 4 paw arcs behind hip and below torso; 5 paw passes below the chest in low part of circle; 6 paw rounds forward under shoulder; 7 paw sweeps forward and upward beside shoulder; 8 paw reaches high over muzzle at flight peak; 9 stretch toward the unseen rim lane; 10 compact forward paw-and-muzzle release flick; 11 airborne scoring follow-through; 12 descend with forepaws reaching ground; 13 absorb landing on all four paws; 14 fully grounded alert stance. Make all poses distinct and natural, with clear paw/leg separation. No mirrored duplicates.\n\nOnly Paprika appears. No ball, hoop, rim, court, floor, ground shadow, human, opponent, extra animal, prop, scenery, text, numbers, symbols, logos, border, cell outlines, panel, glow, halo, stray pixels, detached body parts or background. Preserve full pale tail tips. Return one transparent PNG sprite atlas only.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [
+                {
+                  "generationId": "exec-e2cc8413-b533-46c8-ae2d-5c3cf5b1f986",
+                  "sourceImage": "tools/generate-art/sources/j55-paprika-dunk-windmill-attempt1-rejected-haze-clipped.png",
+                  "reason": "The first sheet ran several foxes into the canvas edges and left detached components."
+                },
+                {
+                  "generationId": "exec-5337544f-6999-40c2-95d1-5c6d9ce3dbfa",
+                  "sourceImage": "tools/generate-art/sources/j55-paprika-dunk-windmill-attempt4-rejected-edge-retry.png",
+                  "reason": "The final perimeter cleanup retry retained more alpha-1 outer-edge pixels than the accepted edge edit."
+                },
+                {
+                  "generationId": "exec-3e8e3ab2-1073-44c8-8043-82c51778bfe4",
+                  "sourceImage": "tools/generate-art/sources/j55-paprika-dunk-windmill-attempt5-rejected-red-halo-sweep.png",
+                  "reason": "The near foreleg became unnaturally elongated and bright red alpha fringes surrounded the fox figures."
+                }
+              ],
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "fifteen quadruped windmill-dunk poses, alpha separation, Paprika K.02 anatomy, and shared action-marker alignment",
+                "notes": "Fifteen distinct complete fox components pass the source-grid parser in exact 5x3 row-major order. Paprika remains a tiny four-footed russet/cream fox with large ears, pale tail tip and purple/gold vest. The near forepaw and muzzle articulate through the windmill sweep; the most rearward part of the arc is partly occluded by the torso, so the separate game ball follows a fox-sized custom muzzle/forepaw track. No ball or hoop is drawn. The outer border contains only alpha-1 fringe pixels, invisible in game scale and below the packer foreground threshold."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 17,
+                  "y": 126,
+                  "w": 274,
+                  "h": 173,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 342,
+                  "y": 135,
+                  "w": 251,
+                  "h": 164,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 644,
+                  "y": 96,
+                  "w": 256,
+                  "h": 202,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 928,
+                  "y": 73,
+                  "w": 268,
+                  "h": 230,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1228,
+                  "y": 82,
+                  "w": 284,
+                  "h": 216,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 16,
+                  "y": 393,
+                  "w": 302,
+                  "h": 196,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 340,
+                  "y": 390,
+                  "w": 279,
+                  "h": 210,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 635,
+                  "y": 387,
+                  "w": 294,
+                  "h": 223,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 941,
+                  "y": 373,
+                  "w": 286,
+                  "h": 238,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1235,
+                  "y": 366,
+                  "w": 287,
+                  "h": 249,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 24,
+                  "y": 692,
+                  "w": 299,
+                  "h": 212,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 336,
+                  "y": 685,
+                  "w": 286,
+                  "h": 206,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 643,
+                  "y": 737,
+                  "w": 270,
+                  "h": 182,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 935,
+                  "y": 758,
+                  "w": 286,
+                  "h": 169,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1245,
+                  "y": 732,
+                  "w": 267,
+                  "h": 199,
+                  "component": 13
+                }
+              ],
+              "uniformScale": 0.36947791164658633,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "fifteen quadruped windmill-dunk poses, Paprika K.02 anatomy, both-facing selection, and gameplay ball sweep",
+              "notes": "Paprika stays a low four-legged kit fox with russet/cream fur, large ears, pale-tipped tail and purple/gold vest. The near forepaw arcs beside and beneath her torso into a forward overhead reach; the separate game ball follows a small fox-sized circle from muzzle, behind chest, under belly, and up to release. No ball or hoop is baked into the sprite. All fifteen source poses are distinct and select in both facings.",
               "at": "2026-10-23"
             }
           }
@@ -16800,7 +17089,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "K.02 review: Paprika remains a natural tiny four-footed kit fox through this airborne forward dunk. Her fox muzzle and forepaw control the ball; the pose has no human arms or hands, upright posture, fixed-side marking, or directional prop. Body mirroring preserves her identity and quadruped anatomy."
+        "notes": "K.02 review: Paprika remains a tiny, natural four-footed kit fox through her power and windmill dunks. The muzzle and near forepaw follow the separate ball; no human arms, hands, upright posture, fixed-side marking, or directional prop appears. Horizontal mirroring preserves the fox identity and anatomy."
       },
       "reviewedAt": "2026-10-21"
     },
@@ -24510,7 +24799,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "The orange high ponytail and uniform have no fixed side. Body mirroring preserves Piper’s identity; keep the orange hair and russet/cream team colors."
+        "notes": "The orange high ponytail and uniform have no fixed side. Body mirroring preserves Piper\u2019s identity; keep the orange hair and russet/cream team colors."
       }
     },
     "briar-foxglove": {
@@ -25266,7 +25555,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Brown shoulder-length locs and a red headband have no fixed side. Mirroring preserves Briar’s identity; keep the russet and cream team colors."
+        "notes": "Brown shoulder-length locs and a red headband have no fixed side. Mirroring preserves Briar\u2019s identity; keep the russet and cream team colors."
       }
     },
     "keeg": {
@@ -30045,7 +30334,7 @@ export const animationAssetManifest = {
                 "pass-behind"
               ],
               "direction": "right",
-              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1–6 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7–12 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
+              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1\u20136 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7\u201312 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
               "generatedAt": "2026-10-21T23:11:58Z",
               "generationHistory": [
@@ -30181,7 +30470,7 @@ export const animationAssetManifest = {
                 "pass-behind"
               ],
               "direction": "right",
-              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1–6 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7–12 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
+              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1\u20136 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7\u201312 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
               "generatedAt": "2026-10-21T23:11:58Z",
               "generationHistory": [
@@ -35503,7 +35792,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canon review K.25: Jennifer’s purple wire-rim glasses, teal eyes, half-up dark-brown curls, feathers, turquoise jewelry and floral costume have no fixed left/right assignment. The accepted right-facing sprites can be mirrored without reversing a prescribed identity mark."
+        "notes": "Canon review K.25: Jennifer\u2019s purple wire-rim glasses, teal eyes, half-up dark-brown curls, feathers, turquoise jewelry and floral costume have no fixed left/right assignment. The accepted right-facing sprites can be mirrored without reversing a prescribed identity mark."
       }
     },
     "cilia": {
@@ -43022,7 +43311,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -43132,7 +43421,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -43268,7 +43557,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -43459,7 +43748,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -43658,7 +43947,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -43859,7 +44148,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "All ten poses preserve Dea’s pale human anatomy, feline ears, red eyes, wide Cheshire grin, magenta jacket, pale ruffled blouse and patterned trousers. The packed atlas and clear RGBA transparency were visually checked frame by frame."
+                "source": "All ten poses preserve Dea\u2019s pale human anatomy, feline ears, red eyes, wide Cheshire grin, magenta jacket, pale ruffled blouse and patterned trousers. The packed atlas and clear RGBA transparency were visually checked frame by frame."
               },
               "sourceImage": "/workspace/generated_images/exec-b093c96d-ecc8-4823-8491-66840fd63715.png",
               "sourceSha256": "ac6cfd47212582e9df1ee81ee5f2b870a5fa79a2f6e94eff0c56c61da83b5b63",
@@ -44040,7 +44329,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -44326,7 +44615,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -45352,7 +45641,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -45638,7 +45927,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -46690,7 +46979,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -46976,7 +47265,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -48083,7 +48372,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -48369,7 +48658,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -49484,7 +49773,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -49770,7 +50059,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -54491,7 +54780,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Suga’s hood, orange markings and silver face mask have no fixed side; the fully serpentine rig is reviewed safe to mirror."
+        "notes": "Suga\u2019s hood, orange markings and silver face mask have no fixed side; the fully serpentine rig is reviewed safe to mirror."
       }
     },
     "gb-design": {
@@ -62914,7 +63203,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "All ten frames preserve Avek’s opaque metal face mask, armored humanoid anatomy, copper lightning marks and gloves, with his guitar safely stowed. The packed atlas was checked for distinct complete frames and approved mirroring."
+                "source": "All ten frames preserve Avek\u2019s opaque metal face mask, armored humanoid anatomy, copper lightning marks and gloves, with his guitar safely stowed. The packed atlas was checked for distinct complete frames and approved mirroring."
               },
               "sourceImage": "/workspace/generated_images/exec-a70165bb-463a-4364-a8d4-ca16edb860af.png",
               "sourceSha256": "4a7b938a96d26b8873adb99e4915533a9f9b094e83a9ace50e7c4b568ee7f841",
@@ -63011,7 +63300,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Avek’s opaque mask and symmetric copper armor have no fixed side. Preserve the opaque faceplate and lightning armor when mirrored."
+        "notes": "Avek\u2019s opaque mask and symmetric copper armor have no fixed side. Preserve the opaque faceplate and lightning armor when mirrored."
       }
     },
     "jragena": {
@@ -63922,7 +64211,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "All ten poses retain Jragena’s dark purple skin, freckles, purple glasses, copper hair, horns and attached dragonlike wings. The packed sheet is transparent, cleanly framed and visually reviewed pose by pose."
+                "source": "All ten poses retain Jragena\u2019s dark purple skin, freckles, purple glasses, copper hair, horns and attached dragonlike wings. The packed sheet is transparent, cleanly framed and visually reviewed pose by pose."
               },
               "sourceImage": "/workspace/generated_images/exec-05dd3081-b6c6-4460-b471-f3c4e54c9742.png",
               "sourceSha256": "46894220c5f5c9cd983685a8e1cef40afc3a6a8c6acb67e7938f7e8b274d20da",
@@ -65982,7 +66271,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "Packed 10-frame atlas visually checked: all ten complete right-facing poses preserve Quirky’s orange-furred zebra-striped orangutan anatomy, very long articulated arms and muzzle; transparent margins and frame order checked; native gameplay release attachment reviewed."
+                "source": "Packed 10-frame atlas visually checked: all ten complete right-facing poses preserve Quirky\u2019s orange-furred zebra-striped orangutan anatomy, very long articulated arms and muzzle; transparent margins and frame order checked; native gameplay release attachment reviewed."
               },
               "sourceImage": "/workspace/generated_images/exec-4e06d522-9a65-47c0-8135-c95005bc4caf.png",
               "sourceSha256": "f5d836ebb14d3c6f78e20bcb45f13971e85aa91dc57d19d7b42d5f1afe697119",
@@ -66079,7 +66368,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Quirky’s hybrid stripes and long arms have no fixed handed markings. The right-facing custom shoot atlas is approved for mirroring to left-facing gameplay."
+        "notes": "Quirky\u2019s hybrid stripes and long arms have no fixed handed markings. The right-facing custom shoot atlas is approved for mirroring to left-facing gameplay."
       },
       "reviewedAt": "2026-10-21"
     },
@@ -66158,7 +66447,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -66304,7 +66593,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -66466,7 +66755,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -66663,7 +66952,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -66861,7 +67150,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -67055,7 +67344,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -67271,7 +67560,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -67481,7 +67770,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -67690,12 +67979,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -67814,12 +68103,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -67964,12 +68253,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -68169,12 +68458,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -68382,12 +68671,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -68498,7 +68787,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Sera’s high magenta ponytail and jade/magenta kit have no fixed left/right markings or hand-specific props; mirroring preserves identity."
+        "notes": "Sera\u2019s high magenta ponytail and jade/magenta kit have no fixed left/right markings or hand-specific props; mirroring preserves identity."
       }
     },
     "moxie-capwell": {
@@ -68571,7 +68860,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -68695,7 +68984,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -68845,7 +69134,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -69050,7 +69339,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -69263,7 +69552,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -69379,7 +69668,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia."
+        "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia."
       }
     },
     "sable-regent": {
@@ -69452,12 +69741,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -69576,12 +69865,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -69726,12 +70015,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -69931,12 +70220,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -70144,12 +70433,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -70260,7 +70549,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+        "notes": "Black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
       }
     },
     "marco-vellum": {
@@ -70333,12 +70622,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -70457,12 +70746,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -70607,12 +70896,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -70812,12 +71101,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -71025,12 +71314,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -71141,7 +71430,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+        "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
       }
     },
     "ash-harth": {
@@ -71216,12 +71505,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -72537,12 +72826,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -73884,12 +74173,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -75286,12 +75575,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -76696,12 +76985,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -78007,7 +78296,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+        "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
       }
     },
     "flint-rooker": {
@@ -78888,7 +79177,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Flint’s spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+        "notes": "Flint\u2019s spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
       }
     },
     "marin-dusk": {
@@ -86224,7 +86513,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -87663,7 +87952,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -89128,7 +89417,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -90648,7 +90937,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -92176,7 +92465,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -93680,7 +93969,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -95127,7 +95416,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -96600,7 +96889,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -98128,7 +98417,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -99664,7 +99953,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -108672,7 +108961,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -110119,7 +110408,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -111592,7 +111881,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -113120,7 +113409,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -114656,7 +114945,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -116168,7 +116457,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -117621,7 +117910,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -119100,7 +119389,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -120634,7 +120923,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -122176,7 +122465,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -123694,7 +123983,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -125141,7 +125430,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -126614,7 +126903,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -128142,7 +128431,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -129678,7 +129967,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -131190,7 +131479,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -132640,7 +132929,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -134116,7 +134405,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -135647,7 +135936,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -137186,7 +137475,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -138701,7 +138990,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -139613,7 +139902,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -140551,7 +140840,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -141544,7 +141833,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -142545,7 +142834,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -143523,7 +143812,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -144422,7 +144711,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -145347,7 +145636,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -146327,7 +146616,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -147315,7 +147604,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -148275,13 +148564,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -149163,13 +149452,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -150077,13 +150366,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -151046,13 +151335,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -152023,13 +152312,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -152975,13 +153264,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -153840,13 +154129,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -154731,13 +155020,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -155677,13 +155966,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -156631,13 +156920,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -251131,7 +251420,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -252346,7 +252635,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -253587,7 +253876,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -254883,7 +255172,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -256187,7 +256476,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -279140,7 +279429,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the ball stays clear of Willow’s abundant high ponytail and follows her right hand; no fixed-side mark or handed prop prevents mirroring."
+        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the ball stays clear of Willow\u2019s abundant high ponytail and follows her right hand; no fixed-side mark or handed prop prevents mirroring."
       }
     },
     "rowan-bark": {
@@ -284051,7 +284340,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the separate ball follows Rowan’s right hand; his headband and bilateral arm tattoos have no canon-fixed side."
+        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the separate ball follows Rowan\u2019s right hand; his headband and bilateral arm tattoos have no canon-fixed side."
       }
     },
     "moth-vale": {

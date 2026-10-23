@@ -184,3 +184,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Paprika Rill | 1 | yes | Fifteen right-facing power-dunk poses keep Paprika a tiny four-footed kit fox with russet/cream fur, large ears, pale-tipped tail and purple/gold vest. She gathers and pushes the separate ball with her muzzle and near forepaw through the leap; she never stands upright or grows human arms/hands. The shared markers are takeoff4, peak14, release21, finish23 and landing30. All fifteen production frames select in both facings at standard and zoom120; the separate ball is carried through frame9, then unowned at the dunk release. |
+
+## J.55 windmill-dunk clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Paprika Rill | 1 | yes | Fifteen right-facing windmill-dunk poses retain Paprika's tiny horizontal four-footed fox anatomy, russet/cream coat, large ears, pale-tipped tail and purple/gold vest. The near forepaw folds along the chest and reaches forward/up without becoming a human arm. The separate ball circles behind the chest, beneath the belly and up beside the muzzle/forepaw; the native gameplay preview shows the low sweep and overhead reach before the tick21 release. Shared markers are takeoff4, grab10, peak14, release21, finish23 and landing30. Every production frame selects in both facings at standard and zoom120, with no owner after release. |
