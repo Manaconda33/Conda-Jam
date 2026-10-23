@@ -18138,6 +18138,384 @@ export const animationAssetManifest = {
               "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "dunk-clutch": {
+            "src": "./public/assets/animation/juniper-vale-dunk-clutch-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "fb7e5e0e632ed040d911046552a40044f72c356167e9e0719f42fe38caa45cb9"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c75ec93439782f87cc00c06469ddafed0a6b3d523c63a1dc90ac16d9ea3f8d3d"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "27064680e369fa01035403fb7208e25eaedc3013fb066c9b96697b5db3361d03"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c02ae3a4979aca07570c9842b916dd0a45b309978ba9be17215790874d59d9fc"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "cbf38f18808db7efc97b582f7c8c235be5a5d02d4bd0e4f7acb1f824ee3b0e9c"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "43200a213fadb180e5f338fdbef53f6b8e9ccd394b2af1f83cf5a30fcf9835f2"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "413b6d383ffec57ea586551f8454ae3747017b14108f09c9615c8176ad0a134c"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "b6460866395d57b5fdac57a49cf7091e187712cb0d6ff195de59847a654055ad"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e1d91e2c5ce6b7ed00c2879e85419f61d1225ed6004fc97e486992eb2e7379fe"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8d8435ca78e73f4d39dc24df80c9e79610cef5821903d734083cd81084016bd8"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "ffedbb4e6164e619e0fa8595acafc22ec5a107832e6a50a1ca72609dd9ba84c3"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e392ee738cf6c830af41ae3f5ba22c0761aaec454234d975f02ee1e188bb21d9"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b21dcf554d2adde26f73633d88c6f88590c9823b92098de16b809f495a3d26cd"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "1393280dee1659e95ebccd351c413d22559ebef80d7655d49ebb4c885a186e01"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "9881078619886704e989111864456396efebd9a879df93606eaeb38823d77984"
+              }
+            ],
+            "sha256": "5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "dunk-clutch",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-2e46c2bd-daf6-40c3-89e6-8e208b25cbe9",
+              "imageGenerationId": "exec-2e46c2bd-daf6-40c3-89e6-8e208b25cbe9",
+              "parentGenerationId": "exec-cfac06fc-fbd0-4bbc-ba8f-d40907931d90",
+              "sourceImage": "tools/generate-art/sources/j80-juniper-dunk-clutch15.png",
+              "sourcePromptStatus": "verbatim",
+              "promptVerbatim": true,
+              "promptFile": "tools/generate-art/j80-juniper-dunk-clutch-prompt.md",
+              "prompt": "EDIT the attached margin-safe Juniper Vale 5×3 dunk-clutch sheet. Preserve the canvas, transparent background, complete 5×3 layout, scale, all margins, identity, colors and exact pose0–5 plus pose7–14. Change only pose6, which is row2 column2 (the second figure in the middle row). In the current reference pose6 incorrectly raises one arm overhead. Redraw that cell to match the required late-ascent under-body clutch: knees stay tightly tucked; torso remains compact and airborne; the finishing arm reaches low and inward between the lifted knees, with its empty hand near the sternum/upper-thigh gap; the guide arm stays near the ribs for balance. Both hands remain visibly empty. Do NOT raise either arm over the head in pose6.\n\nMake pose6 clearly distinct from pose5 (low one-hand secure beneath abdomen) and pose7 (apex, finishing elbow pulling up across far ribs while the free arm reaches high). Do not alter pose5 or pose7. Preserve all other fourteen drawings exactly in the established order, and do not move, scale, crop, redraw, or change them. Keep at least40px clear outer margins and at least24px inter-pose gutters. Preserve Juniper's compact human body, warm light skin, focused dark eyes, dark-purple curls in a high ponytail with gold tie, blank Condas purple/gold kit, dark knee pads, white socks and purple/gold shoes.\n\nNo basketball, sphere, seam, glow, object, rim, hoop, court, shadow, extra limb, caption, grid line, detached pixel, or background. Return only the corrected transparent sprite sheet.",
+              "sourcePrompt": "EDIT the attached margin-safe Juniper Vale 5×3 dunk-clutch sheet. Preserve the canvas, transparent background, complete 5×3 layout, scale, all margins, identity, colors and exact pose0–5 plus pose7–14. Change only pose6, which is row2 column2 (the second figure in the middle row). In the current reference pose6 incorrectly raises one arm overhead. Redraw that cell to match the required late-ascent under-body clutch: knees stay tightly tucked; torso remains compact and airborne; the finishing arm reaches low and inward between the lifted knees, with its empty hand near the sternum/upper-thigh gap; the guide arm stays near the ribs for balance. Both hands remain visibly empty. Do NOT raise either arm over the head in pose6.\n\nMake pose6 clearly distinct from pose5 (low one-hand secure beneath abdomen) and pose7 (apex, finishing elbow pulling up across far ribs while the free arm reaches high). Do not alter pose5 or pose7. Preserve all other fourteen drawings exactly in the established order, and do not move, scale, crop, redraw, or change them. Keep at least40px clear outer margins and at least24px inter-pose gutters. Preserve Juniper's compact human body, warm light skin, focused dark eyes, dark-purple curls in a high ponytail with gold tie, blank Condas purple/gold kit, dark knee pads, white socks and purple/gold shoes.\n\nNo basketball, sphere, seam, glow, object, rim, hoop, court, shadow, extra limb, caption, grid line, detached pixel, or background. Return only the corrected transparent sprite sheet.",
+              "rawSourceImage": "tools/generate-art/sources/j80-juniper-dunk-clutch-generated-raw.png",
+              "rawSourceSha256": "d972bc0bcdb09987a2b443e627952af8da034a7422a69654df10ebf0f8042688",
+              "referencePaths": [
+                "tools/generate-art/sources/j80-juniper-dunk-clutch-attempt2-rejected-pose-order.png",
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png"
+              ],
+              "visualReviewReferences": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+                "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+                "tools/generate-art/sources/j74-juniper-vale-dunk-power15.png",
+                "tools/generate-art/sources/j75-juniper-vale-dunk-windmill15.png",
+                "tools/generate-art/sources/j76-juniper-vale-dunk-reverse15.png",
+                "tools/generate-art/sources/j77-juniper-dunk-36015.png",
+                "tools/generate-art/sources/j79-juniper-dunk-double15.png"
+              ],
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [
+                {
+                  "sourceImage": "tools/generate-art/sources/j80-juniper-dunk-clutch-attempt1-rejected-tight-margin.png",
+                  "sha256": "f598362cb56e0bd254af6efbde30c0b31f466f741bdedbfae702bec8fdb8271d",
+                  "generationId": "exec-8710bed3-0658-44fb-be3a-31ce3cc8c035",
+                  "reason": "Rejected because outer silhouette margins were only31px left,13px top,15px right and24px bottom, below requested clearance."
+                },
+                {
+                  "sourceImage": "tools/generate-art/sources/j80-juniper-dunk-clutch-attempt2-rejected-pose-order.png",
+                  "sha256": "4d7b5373c37eeb0730f979b763887d4c3a8a9c53220c9700477cf128b7b9d20d",
+                  "generationId": "exec-cfac06fc-fbd0-4bbc-ba8f-d40907931d90",
+                  "reason": "Rejected because frame6 raised a hand overhead instead of extending the finishing arm low between the tucked knees for the under-body clutch."
+                }
+              ],
+              "cleanupPrompts": [],
+              "cleanup": {
+                "script": "tools/generate-art/clean-alpha-fringe.py and tools/generate-art/clean-dunk-halo.py",
+                "method": "Cleared generated exterior halo with the four-pixel outline margin, preserving source RGBA around each complete silhouette; reviewed on light and dark grounds.",
+                "input": "tools/generate-art/sources/j80-juniper-dunk-clutch-generated-raw.png",
+                "intermediate": "tools/generate-art/sources/j80-juniper-dunk-clutch-alpha-fringe-clean.png",
+                "output": "tools/generate-art/sources/j80-juniper-dunk-clutch15.png",
+                "firstPassClearedExteriorRedPixels": 0,
+                "finalClearedExteriorPixels": 86882,
+                "finalClearedVividRedPixels": 37,
+                "outlineMargin": 4,
+                "reviewedOn": [
+                  "solid black",
+                  "solid white"
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "15 original Juniper Vale clutch-dunk poses, canon identity and anatomy, low cross-body carry, corrected under-body clutch, diagonal single release, empty follow-through and balanced landing.",
+                "notes": "Two candidates are retained as rejected: the first lacked safe edge clearance, and the second put the finishing hand overhead in frame6 instead of low between the knees. Accepted generation exec-2e46c2bd-daf6-40c3-89e6-8e208b25cbe9 corrects frame6 and retains fifteen unique full-body poses in row-major 5x3 order. Source bounding-box clearances are51px left,57px top,38px right and45px bottom; pose6 visibly reaches between Juniper’s tucked knees. No basketball/object is painted. Juniper retains her compact human build, warm light skin, focused dark eyes, dark-purple curly high ponytail and gold tie, blank Condas purple/gold kit, knee pads, white socks and purple/gold shoes."
+              },
+              "actionAnchors": {
+                "takeoff": 2,
+                "grab": 5,
+                "peak": 7,
+                "release": 10,
+                "finish": 11,
+                "land": 14
+              },
+              "runtimeBallTrack": {
+                "ballInArt": false,
+                "athleteSpecific": true,
+                "heightByPose": [
+                  0.9,
+                  1,
+                  1.3,
+                  1,
+                  0.75,
+                  0.75,
+                  0.45,
+                  0.95,
+                  1.5,
+                  2.15,
+                  2.3,
+                  1.75,
+                  1.1,
+                  0.9,
+                  0.8
+                ],
+                "forwardByPose": [
+                  4,
+                  4,
+                  3,
+                  1,
+                  0,
+                  -1,
+                  -2,
+                  -1,
+                  2,
+                  6,
+                  8,
+                  4,
+                  1,
+                  4,
+                  4
+                ],
+                "poseDurations": [
+                  2,
+                  2,
+                  3,
+                  2,
+                  1,
+                  2,
+                  2,
+                  3,
+                  2,
+                  2,
+                  2,
+                  3,
+                  2,
+                  2,
+                  3
+                ],
+                "possessionThroughTick": 20,
+                "releaseTick": 21,
+                "scoreTick": 23
+              },
+              "sourceSha256": "63c1076d9a302dfab4246929dafc1a94503bcc018d67c46ac852ca8e0fadccf0",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 53,
+                  "y": 73,
+                  "w": 229,
+                  "h": 268,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 387,
+                  "y": 79,
+                  "w": 192,
+                  "h": 260,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 681,
+                  "y": 62,
+                  "w": 176,
+                  "h": 267,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 981,
+                  "y": 57,
+                  "w": 168,
+                  "h": 279,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1274,
+                  "y": 73,
+                  "w": 224,
+                  "h": 249,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 69,
+                  "y": 401,
+                  "w": 242,
+                  "h": 244,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 379,
+                  "y": 409,
+                  "w": 179,
+                  "h": 242,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 678,
+                  "y": 402,
+                  "w": 252,
+                  "h": 249,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 960,
+                  "y": 385,
+                  "w": 259,
+                  "h": 270,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1260,
+                  "y": 376,
+                  "w": 236,
+                  "h": 291,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 51,
+                  "y": 681,
+                  "w": 268,
+                  "h": 297,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 365,
+                  "y": 711,
+                  "w": 260,
+                  "h": 260,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 660,
+                  "y": 718,
+                  "w": 255,
+                  "h": 259,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 976,
+                  "y": 725,
+                  "w": 196,
+                  "h": 252,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1281,
+                  "y": 723,
+                  "w": 193,
+                  "h": 256,
+                  "component": 16
+                }
+              ],
+              "uniformScale": 0.30976430976430974,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },

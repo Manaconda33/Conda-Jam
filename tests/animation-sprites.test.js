@@ -1937,3 +1937,31 @@ test('Juniper selects all fifteen reviewed double-dunk poses with two empty-hand
   tick+=animationClips['dunk-double'].frames[frame].duration;
  }
 });
+
+test('Juniper selects all fifteen reviewed clutch-dunk poses through the under-body carry',()=>{
+ const id='juniper-vale',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+ const atlas='./public/assets/animation/juniper-vale-dunk-clutch-right.webp';
+ const clip=character?.directions?.right?.['dunk-clutch'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.ok(clip,'Juniper clutch-dunk atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.imageGenerationId,'exec-2e46c2bd-daf6-40c3-89e6-8e208b25cbe9');
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.componentIsolation,true);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.heightByPose,[.9,1,1.3,1,.75,.75,.45,.95,1.5,2.15,2.3,1.75,1.1,.9,.8]);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forwardByPose,[4,4,3,1,0,-1,-2,-1,2,6,8,4,1,4,4]);
+ assert.equal(clip.provenance.sourceImage,'tools/generate-art/sources/j80-juniper-dunk-clutch15.png');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.equal(policy.canonicalSection,'J.01');assert.equal(policy.sourceCell,1);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-clutch',tick).frame,frame,'runtime maps Juniper clutch-dunk pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-clutch',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-clutch'].frames[frame].duration;
+ }
+});

@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,593 authored drawings across 642 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,608 authored drawings across 643 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -8,7 +8,7 @@
 | reed-ashcroft | 29 | 293 | 1,447,384 |
 | accu | 6 | 52 | 200,024 |
 | nova-stitch | 6 | 52 | 229,296 |
-| juniper-vale | 25 | 233 | 1,331,800 |
+| juniper-vale | 26 | 248 | 1,394,356 |
 | echo-catwalk | 6 | 52 | 177,280 |
 | paprika | 29 | 293 | 2,198,720 |
 | lavi | 5 | 42 | 193,484 |
@@ -487,3 +487,8 @@ The Juniper-specific ball track stays carried through tick20, releases once at21
 ## J.79 — Juniper Vale `dunk-double`
 
 Juniper’s fifteenth new action clip adds15 authored poses. Two overhead pumps return to a chest/sternum gather between cycles, then one synchronized release at tick21, score at tick23 and balanced landing at tick30. Her compact natural human anatomy, dark-purple high curly ponytail and gold tie, blank Condas purple/gold kit, knee pads, socks and shoes remain consistent. The ball is a separate athlete-specific runtime track. Accepted source generation `exec-1e94dbb7-9b45-48ad-b88c-3d1fac38061d`; Juniper reaches25/29 clips /233 drawings. Current decoded audit:642 clips /5,593 drawings /105 athletes;2,461 missing clips,3 target shortfalls and4 old prompt findings. Next: `dunk-clutch`.
+
+
+## J.80 — Juniper Vale `dunk-clutch`
+
+Juniper adds15 authored drawings for a low cross-body carry, corrected under-body clutch between tucked knees, diagonal single release at tick21 and balanced landing at tick30. Her compact human anatomy, purple curls/high ponytail, gold tie and blank Condas kit remain consistent. The separate ball follows her athlete-specific track. Accepted source generation `exec-2e46c2bd-daf6-40c3-89e6-8e208b25cbe9`; Juniper reaches26/29 clips /248 drawings. Current decoded audit:643 clips /5,608 drawings /105 athletes;2,460 missing clips,3 target shortfalls and4 earlier prompt findings. Next: `dunk-scythe`.
