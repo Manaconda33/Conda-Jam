@@ -1491,3 +1491,34 @@ test('Reed selects all fifteen reviewed windmill-dunk poses with his canon mirro
   tick+=animationClips['dunk-windmill'].frames[frame].duration;
  }
 });
+test('Reed selects all fifteen reviewed reverse-dunk poses with his canon mirror policy and hand track',()=>{
+ const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['dunk-reverse'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.canonicalSection,'J.01');assert.equal(policy?.sourceCell,0);assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'Reed reverse-dunk atlas registration');assert.equal(clip.reviewed,true);
+ assert.equal(clip.src,'./public/assets/animation/reed-ashcroft-dunk-reverse-right.webp');
+ assert.equal(clip.sha256,'c50d46d7afb1aa81a7523aaf4124c066a19db26db3b8ff32293036b628bd3efa');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'e43cf79d2b3a2895269286437049ce5cbd14c1af4bea7e7dcc6984fcc51a56f5');
+ assert.equal(clip.provenance.imageGenerationId,'exec-c4480382-c010-4ce2-9d04-1ffe7677874d');
+ assert.equal(clip.provenance.parentGenerationId,'exec-b2af408e-7e84-428c-9d7b-bf4b2abf8557');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.rejectedAttempts.length,1);
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),Array.from({length:15},(_,i)=>i));
+ assert.equal(anchorTick('dunk-reverse','takeoff'),4);assert.equal(anchorTick('dunk-reverse','grab'),10);
+ assert.equal(anchorTick('dunk-reverse','peak'),14);assert.equal(anchorTick('dunk-reverse','release'),21);
+ assert.equal(anchorTick('dunk-reverse','finish'),23);assert.equal(anchorTick('dunk-reverse','land'),30);
+ assert.equal(sampleBallForward('dunk-reverse',17,id),-10.2,'the ball travels behind Reed’s crown');
+ assert.equal(sampleBallHeight('dunk-reverse',17,id),2.35);
+ const images=new Map([[clip.src,{complete:true,naturalWidth:512,naturalHeight:384,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-reverse',tick).frame,frame,'runtime maps Reed reverse-dunk pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-reverse',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-reverse'].frames[frame].duration;
+ }
+});

@@ -68,6 +68,29 @@ test('Reed windmill dunk follows his hand circle and releases cleanly in either 
   stepMatch(m,neutral(m));assert.equal(m.score[0],2,'the marked finish scores in either facing');
  }
 });
+test('Reed reverse dunk carries the ball behind his head and scores at its marked finish',()=>{
+ const frameTick=index=>animationClips['dunk-reverse'].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ const measured=[[0,1,4.4],[1,.9,6.6],[2,1.45,2.9],[3,1.75,-3.65],[4,2.2,-4],[5,2.25,-2.2],[6,2.34,3.3],[7,2.4,8.8],[8,2.35,-10.2],[9,2.4,-9.5]];
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:66,home:{roster:[{id:'reed-ashcroft'},{id:'partner'}]}}),p=m.players[0];
+  p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'reverse'}):i));
+  assert.equal(p.animation.clip,'dunk-reverse');
+  for(const [frame,height,forward]of measured){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(sampleBallHeight('dunk-reverse',p.animation.tick,p.id),height,'Reed hand height at frame '+frame);
+   assert.equal(sampleBallForward('dunk-reverse',p.animation.tick,p.id),forward,'reverse ball path at frame '+frame);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<1e-9,'ball follows the mirrored hand lane at frame '+frame);
+   assert.ok(Math.abs(m.ball.z-p.z-height)<1e-9,'ball follows Reed’s hand height at frame '+frame);
+  }
+  const release=anchorTick('dunk-reverse','release');assert.equal(release,21);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);
+  for(let i=release+1;i<anchorTick('dunk-reverse','finish');i++){stepMatch(m,neutral(m));assert.equal(m.score[0],0);}
+  stepMatch(m,neutral(m));assert.equal(m.score[0],2,'the reverse finish scores in either facing');
+ }
+});
 test('Paprika reverse dunk carries the separate ball behind her turned shoulder',()=>{
  const frameTick=index=>animationClips['dunk-reverse'].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
  const measured=[[0,.55,7],[2,.7,4],[5,2.2,-3],[7,2.8,-5],[9,2.5,-4]];
