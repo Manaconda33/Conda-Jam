@@ -361,6 +361,30 @@ class ElevenPoseActionPackaging(unittest.TestCase):
             atlas=Image.open(assets/'reed-ashcroft-push-right.webp').convert('RGBA')
             frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
             self.assertEqual(len(set(frame_pixels)),11)
+
+    def test_eleven_quadruped_paprika_push_frames_are_supported(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'paprika','clip':'push','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T06:30:00Z',
+                'prompt':'eleven distinct quadruped fox push poses','sourceSha256':action11.sha256(source),
+                'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action11.ROOT,action11.OUTPUT_DIR
+            action11.ROOT,action11.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action11.package('paprika',source,provenance_path)
+            finally:
+                action11.ROOT,action11.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['athlete'],layout['clip']),('paprika','push'))
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(4,3,11))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'paprika-push-right.webp').is_file())
             self.assertTrue(layout['provenance']['componentIsolation'])
 
     def test_empty_or_misordered_push_cells_are_rejected(self):

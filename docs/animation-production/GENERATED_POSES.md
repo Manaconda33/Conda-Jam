@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,167 authored drawings across 612 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,178 authored drawings across 613 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -10,7 +10,7 @@
 | nova-stitch | 6 | 52 | 229,296 |
 | juniper-vale | 19 | 143 | 1,005,036 |
 | echo-catwalk | 6 | 52 | 177,280 |
-| paprika | 15 | 107 | 1,008,974 |
+| paprika | 16 | 118 | 1,184,408 |
 | lavi | 5 | 42 | 193,484 |
 | leo | 5 | 42 | 164,840 |
 | kraken | 5 | 42 | 166,106 |
@@ -280,4 +280,14 @@ The accepted transparent RGBA source is 1774×887 with eight distinct, isolated,
 
 The focused sprite/runtime test covers all eight poses in both facings and confirms the tick5 contact track. All28 JavaScript test files, lint, content validation,100-match simulation,29 Python atlas-packer tests, build and full Chromium match/season journeys pass. Standard and zoom120 native Canvas previews load140 images and capture87 clip snapshots plus152 action-frame snapshots; all16 steal frames select production art. At the contact marker the ball is carried by Paprika with no baked sprite ball. Captures are under `artifacts/native-render-preview/{paprika,paprika-zoom120}/`.
 
-The strict inventory is612 clips /5,167 drawings /105 athletes, with2,491 clips missing,3 target shortfalls and four reconstructed prompt findings. Paprika's next missing clip is `push`; she has14 required clips remaining. Push and Pages deployment remain pending.
+The strict inventory is612 clips /5,167 drawings /105 athletes, with2,491 clips missing,3 target shortfalls and four reconstructed prompt findings. Paprika's next missing clip is `push`; she has14 required clips remaining. J.49 source `4d98729` was pushed and Pages run #88 succeeded. The fresh preview is https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4d98729.
+
+### J.50 — Paprika push
+
+Paprika now has16 reviewed clips /118 authored drawings. The eleven-pose right-facing `push` atlas preserves her canon K.02 small four-footed kit-fox anatomy, russet-and-cream coat, large ears, pale-tipped bushy tail and purple/gold vest. The quick body-check uses her shoulder and near forepaw while she remains quadrupedal. Frame5 is the contact marker at tick8. It is a defensive contact clip, so no ball is drawn or assigned to Paprika.
+
+The accepted transparent RGBA source is 1535×1025 with eleven isolated poses in the first eleven cells of a 4×3 row-major layout (cell12 empty; SHA-256 `920f97d8ac9e28a68eed848496cc43a5a54c3398fae65e3f7d2bc651c184c5bc`, generation `exec-f723fc6e-ab48-4537-a849-43708d80239c`). The lossless 576×288 atlas is in `public/assets/animation/paprika-push-right.webp`. Exact prompt, source provenance and component map are in `tools/generate-art/j50-paprika-push-prompt.md` and `paprika-push11-{provenance,layouts}.json`. The packer now explicitly supports Paprika push sources.
+
+Focused selection/runtime tests cover every frame in both facings and the tick8 contact marker. All28 JavaScript test files, lint, content validation,100-match simulation,30 Python atlas-packer tests, build and full Chromium match/season journeys pass. Standard and zoom120 native Canvas previews load141 images and capture87 clip snapshots plus152 action-frame snapshots; all22 push frames select production art. At frame5 the ball is `dead`, unowned and separate. Captures are under `artifacts/native-render-preview/{paprika,paprika-zoom120}/`. Full regression and Chromium validation pass.
+
+The strict inventory is613 clips /5,178 drawings /105 athletes, with2,490 clips missing,3 target shortfalls and four reconstructed prompt findings. Paprika's next missing action is `rebound`; she has13 required clips remaining. J.50 is local; push and Pages verification are pending.

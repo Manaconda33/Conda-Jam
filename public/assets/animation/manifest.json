@@ -15730,13 +15730,230 @@
               "notes": "Eight distinct complete fox poses remain visible in all 4x2 normalized cells. Russet coat, cream muzzle/chest, tall ears, pale-tipped bushy tail and purple/gold vest stay consistent. Paprika stays quadrupedal throughout; paws are empty and no ball, text, numerals or logos are baked in. Frame 3 is the tick-5 contact reach. All eight frames are eligible for safe body mirroring.",
               "at": "2026-10-23T06:20:56.016Z"
             }
+          },
+          "push": {
+            "src": "./public/assets/animation/paprika-push-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "ba39f412a40d62d128e68d8c2a0a8272fb94c0b95c8019bbe01634ad8ff22f9d"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "14e88b71576a9c02f20e9762383e0bcd678c18f521d0ab9796f60220a25f0160"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "9b588e0b7f6fbc9b9994864a788c458777e322211eacad2fd995a01c15cf8340"
+              },
+              {
+                "x": 432,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "f37d45b291e4816057c45b91722588e25a3500f41b632f3062116f982d2887cd"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "0ccd20bfb8580136178155922dde8837f0e7731a5f70900987a0f2978684830e"
+              },
+              {
+                "x": 144,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "5130072c9237293481eefa45daafa3568ec190104abbd4dcb293bc5b18050904"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "67b7f74d918a19bd9a87965cdf89b81fd930080814897286577e63b6741e2749"
+              },
+              {
+                "x": 432,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "81b3748ce44e04ad3ec84b2c09cc007693a34cf24cd2964209e00a09cbc9e1a9"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "7dd56d1bd64d90da30fbd7470658575b58c65d0cc763d487fc8305a06abf6259"
+              },
+              {
+                "x": 144,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "cdc88300029f58b223a69c07148cbe3036290825e2c23b3fb30a2c2e8669cfa7"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "dc78f974b9f5dbb9f2138c4234c4d53524880c82840ba4a459fc955d70495797"
+              }
+            ],
+            "sha256": "37c2b83b98ed7a2cc4507097bdba191a8cc112c966c711601c86e5a6607cadf2",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "paprika",
+              "clip": "push",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T06:30:08.087Z",
+              "generationId": "exec-f723fc6e-ab48-4537-a849-43708d80239c",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j50-paprika-push11.png",
+              "sourceSha256": "920f97d8ac9e28a68eed848496cc43a5a54c3398fae65e3f7d2bc651c184c5bc",
+              "promptFile": "tools/generate-art/j50-paprika-push-prompt.md",
+              "prompt": "Create one original transparent RGBA action sheet for Paprika's JAMVERSE '96 defensive push. Use the attached Paprika steal atlas strictly as the same character identity, exact russet/cream/purple/gold palette, proportions and pixel-sprite style; do not copy poses. Paprika is canonically a REAL TINY FOUR-FOOTED KIT FOX: horizontal compact fox body, russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright fox eyes, pointed muzzle, large bushy tail with pale tip, fitted purple-and-gold sports vest. Every drawing must remain a natural quadruped on four fox legs, never anthropomorphic, upright, human-shaped, or wearing shoes, shorts or cloak. Preserve this identity and the same right-facing three-quarter view, camera, figure scale and baseline in every pose.\n\nArrange EXACTLY eleven distinct, complete, separately drawn full-body fox poses in a 4-column by 3-row sheet, strict left-to-right then top-to-bottom order; leave the bottom-right (12th) cell empty and transparent. Center one entire figure in each of the first eleven cells. Leave clear transparent padding around each figure and between cells; keep all ears, paws, tail tips, muzzle and fur inside their own cells. No clipping, cropping, touching, overlap, fused silhouettes, stray marks, duplicated figures, borders, panels or grid lines. Each pose must be independently articulated and visibly different, with all four animal legs and the entire pale-tipped tail visible.\n\nThe push action is a short defensive shoulder-and-forepaw bump. Do not draw an opponent or basketball; gameplay handles contact and the game ball stays separate. Pose sequence: frame0 compact low alert stance on four paws; frame1 lower her shoulders and brace both forepaws, eyes focused on an unseen opponent; frame2 shift weight onto her hind legs and angle the near shoulder forward; frame3 take a short grounded step with the near forepaw, tail counterbalancing; frame4 coil her torso and shoulder for contact, muzzle aimed forward; frame5 CONTACT at runtime tick8: drive the near shoulder forward with a short reaching forepaw while the other three paws brace on the ground, head low and body still fully fox-like; frame6 absorb the bump and recoil slightly, paws remain under her; frame7 plant firmly and bring her chest back over her forelegs; frame8 pivot her hips to recover balance, tail sweeping for counterbalance; frame9 step back into space, ears alert; frame10 settle into her compact defensive ready stance on all four paws. The contact is one quick body bump, not a human punch: no fist, arm, hand, raised upright torso, standing biped, or anthropomorphic gesture.\n\nMatch the attached atlas's crisp richly shaded 1990s arcade pixel-art rendering with clean dark outlines and transparent background. No basketball, prop, other character, person, court, floor, hoop, shadow, glow, text, numerals, lettering, logos, cape, clothes other than the purple/gold fox vest, or scenery.",
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "decoded alpha components, 4x3 row-major source map, K.02 anatomy and action pose review",
+                "notes": "Eleven distinct complete fox poses occupy cells0–10; the bottom-right cell is blank. Frame5 is the tick8 shoulder/forepaw contact. Paprika stays quadrupedal with canonical russet/cream features and purple/gold vest throughout. No ball, opponent, props, text, numerals or logos are drawn."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 42,
+                  "y": 74,
+                  "w": 319,
+                  "h": 233,
+                  "component": 3,
+                  "area": 45208
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 428,
+                  "y": 82,
+                  "w": 319,
+                  "h": 228,
+                  "component": 4,
+                  "area": 42096
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 799,
+                  "y": 66,
+                  "w": 331,
+                  "h": 244,
+                  "component": 2,
+                  "area": 45545
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1164,
+                  "y": 65,
+                  "w": 342,
+                  "h": 242,
+                  "component": 1,
+                  "area": 45486
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 44,
+                  "y": 373,
+                  "w": 324,
+                  "h": 248,
+                  "component": 5,
+                  "area": 45984
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 414,
+                  "y": 390,
+                  "w": 355,
+                  "h": 225,
+                  "component": 7,
+                  "area": 45892
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 784,
+                  "y": 393,
+                  "w": 349,
+                  "h": 225,
+                  "component": 8,
+                  "area": 44461
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1175,
+                  "y": 383,
+                  "w": 314,
+                  "h": 241,
+                  "component": 6,
+                  "area": 44944
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 40,
+                  "y": 693,
+                  "w": 329,
+                  "h": 247,
+                  "component": 10,
+                  "area": 45528
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 417,
+                  "y": 690,
+                  "w": 333,
+                  "h": 240,
+                  "component": 9,
+                  "area": 44968
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 798,
+                  "y": 707,
+                  "w": 329,
+                  "h": 229,
+                  "component": 11,
+                  "area": 43749
+                }
+              ],
+              "uniformScale": 0.3709677419354839,
+              "componentIsolation": true,
+              "packaging": "package-action11.py; 144x96 cells; baseline94; lossless WebP; 11 original push poses"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "decoded atlas frames, source component map, K.02 anatomy, frame order and both-facing mirror review",
+              "notes": "Eleven distinct complete quadruped fox poses remain visible in normalized 4x3 cells; the final cell is empty. Russet fur, cream muzzle/chest, tall ears, pale-tipped tail and purple/gold vest remain consistent. Frame5 is the low shoulder/forepaw contact at tick8. No ball, opponent or prop is baked in. All poses are eligible for safe body mirroring.",
+              "at": "2026-10-23T06:31:07.464Z"
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "K.02 review: Paprika remains a tiny four-footed fox in every frame; no fixed-side marks or asymmetrical props. Safe to mirror the body atlas."
+        "notes": "K.02 review: Paprika remains a tiny four-footed fox in every push pose; no fixed-side marks or asymmetrical props. Safe to mirror the body atlas."
       },
       "reviewedAt": "2026-10-21"
     },

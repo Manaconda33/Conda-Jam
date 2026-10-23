@@ -1088,3 +1088,25 @@ test('Paprika selects all eight reviewed quadruped steal poses with a paw-height
   tick+=animationClips.steal.frames[frame].duration;
  }
 });
+test('Paprika selects all eleven reviewed quadruped push poses with contact at tick8',()=>{
+ const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-push-right.webp',clip=character?.directions?.right?.push;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(policy.canonicalSection,'K.02');
+ assert.ok(clip,'Paprika push atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,11);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,11);
+ assert.equal(clip.provenance.sourceSha256,'920f97d8ac9e28a68eed848496cc43a5a54c3398fae65e3f7d2bc651c184c5bc');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),Array.from({length:11},(_,i)=>i));
+ const contact=anchorTick('push','contact');assert.equal(contact,8);assert.equal(sampleAnimation('push',contact).frame,5);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<11;frame++){
+  assert.equal(sampleAnimation('push',tick).frame,frame,'runtime maps push pose '+frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id:'paprika',facing,animation:{clip:'push',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.push.frames[frame].duration;
+ }
+});
