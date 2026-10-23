@@ -36445,22 +36445,170 @@ export const animationAssetManifest = {
               "packaging": "package-action6.py; 80x96 cells; baseline94; lossless WebP; 6 original pass-behind poses"
             },
             "reviewed": true
+          },
+          "receive": {
+            "src": "./public/assets/animation/keeg-receive-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4db9e27e4686c781d555df4faf9dabfa6f3914069006e23664d9ddca51dd2c0e"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b4aabeab9952f3a2e1ce7b1587bcc2ab354f2dbb39959be82e2f3b4dc04041db"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3b29ebf1222b761d91c1b7ca40870c38e20bec22113688c1dc9a0c70e7efc1e5"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8cead9dea2353e930397e5d1aec7ee4d4c25ea39b2902318c662afb7b9924e99"
+              }
+            ],
+            "sha256": "68899da06d25190e819c5bad8325d7a70fde3a9a2693bd34753b2eacdc59d0fe",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "receive",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T22:46:00Z",
+              "generationId": "exec-26f3239e-0d2e-4e77-8915-78d7b4709283",
+              "imageGenerationId": "exec-26f3239e-0d2e-4e77-8915-78d7b4709283",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j88-keeg-receive4.png",
+              "sourceSha256": "476e0bce93467595c19f3a5426ac3b9c8b4eb2c79591e7a6fd88d37ad868d226",
+              "rawSourceImage": "tools/generate-art/sources/j88-keeg-receive-generated-raw.png",
+              "rawSourceSha256": "2b2c93676129110b07ce8720a26dd947919f1704e7e062ec3b88344edb431490",
+              "promptFile": "tools/generate-art/j88-keeg-receive-prompts.md",
+              "prompt": "Create a new four-pose right-facing receive animation sheet for Keeg matching the attached accepted JAMVERSE gameplay sprite style and his exact identity. Adult human witch athlete, black hair and close neat black beard, whole very tall purple/silver hat decorated with mushrooms, purple lavender silver athletic kit, same proportions. Transparent RGBA 1536x1024 sheet, exactly four full body figures, strict 2x2 row-major cells, broad empty gutters and margins, aligned shoes. Crisp chunky 1990s arcade pixel sprite art; not smooth painting. The basketball is rendered at runtime by the game. Absolutely no basketball or other object in any frame. Critical hand construction for catch poses: palms face one another with a clear visible transparent empty gap between them; fingers are visibly separated, curved around an EMPTY SPACE, never touching or enclosing an object. At pose2 the game ball will be drawn into this gap separately. No sphere, circle, seam, ball, glow, orb, spell, prop, text, shadows, court, floor or ground. Poses: 0 eyes track incoming pass in relaxed balanced ready stance, open hands near waist; 1 step forward and raise separated open palms toward the incoming pass; 2 catch anchor at tick4, bring EMPTY open hands toward each other at chest, palms facing each other with unmistakably transparent empty space about basketball-sized between them, individually visible fingertips around perimeter but NO shape in the gap; 3 cushion catch, draw empty hands slightly closer while preserving the same completely clear EMPTY transparent gap, settle stable. Every frame entire hat and complete body, no edge clipping. Same outfit throughout. Do not draw background, panel, border or grid, only four figures with true transparent background. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "canonicalSection": "K.03",
+              "cleanup": {
+                "script": "tools/generate-art/clean-dunk-halo.py",
+                "outlineMargin": 4,
+                "removedExteriorPixels": 17611,
+                "removedVividRedPixels": 0
+              },
+              "rejectedCandidates": [
+                {
+                  "generationId": "exec-56904677-1447-4b53-9ddd-f453e211f530",
+                  "sourceImage": "tools/generate-art/sources/j88-keeg-receive-candidate1-rejected-background-ball.png",
+                  "reason": "First initial sheet included baked basketball at catch and opaque atmospheric background."
+                },
+                {
+                  "generationId": "exec-0e19dfc9-4dc6-4b70-b251-27231003d861",
+                  "sourceImage": "tools/generate-art/sources/j88-keeg-receive-candidate2-rejected-background-ball.png",
+                  "reason": "Repeated initial generation still baked basketball at catch and atmospheric background."
+                },
+                {
+                  "generationId": "exec-f4fdd5b1-3924-449f-85b3-8ad7fb409ebd",
+                  "sourceImage": "tools/generate-art/sources/j88-keeg-receive-candidate3-rejected-background-ball.png",
+                  "reason": "Correction attempt removed visible ball detail but retained basketball-like clenched hands and did not yield a clear empty catch."
+                }
+              ],
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "reviewNotes": "Four complete human Keeg poses are isolated in row-major 2x2 cells with large gutters. Adult human anatomy, black hair, close black beard, complete tall purple hat with mushrooms and silver trim, and purple/lavender/silver kit match accepted action art. All hands remain empty; catch poses leave a visible transparent gap for the separate runtime ball. No pose touches the image edge. The separate Keeg receive track reaches the hands at catch frame2/tick4. Canon K.03 approves mirroring."
+              },
+              "reviewNotes": "Four complete human Keeg poses are isolated in row-major 2x2 cells with large gutters. Adult human anatomy, black hair, close black beard, complete tall purple hat with mushrooms and silver trim, and purple/lavender/silver kit match accepted action art. All hands remain empty; catch poses leave a visible transparent gap for the separate runtime ball. No pose touches the image edge. The separate Keeg receive track reaches the hands at catch frame2/tick4. Canon K.03 approves mirroring.",
+              "c2pa": "No C2PA claim metadata was returned.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 271,
+                  "y": 8,
+                  "w": 331,
+                  "h": 489,
+                  "component": 1,
+                  "area": 79225
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 878,
+                  "y": 8,
+                  "w": 475,
+                  "h": 490,
+                  "component": 2,
+                  "area": 87499
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 264,
+                  "y": 524,
+                  "w": 334,
+                  "h": 480,
+                  "component": 4,
+                  "area": 80734
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 938,
+                  "y": 523,
+                  "w": 324,
+                  "h": 481,
+                  "component": 3,
+                  "area": 80005
+                }
+              ],
+              "uniformScale": 0.18775510204081633,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original receive poses",
+              "actionAnchors": {
+                "grab": {
+                  "frame": 2,
+                  "tick": 4
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.25,
+                  1.4,
+                  1.5,
+                  1.4
+                ],
+                "forward": [
+                  8,
+                  13,
+                  15,
+                  11
+                ]
+              },
+              "visualReferences": [
+                "tools/generate-art/sources/j87-keeg-pass-behind6.png",
+                "public/assets/animation/keeg-idle-right.webp"
+              ]
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "The canon black hair, neatly trimmed black beard, tall purple hat, silver trim and mushroom ornament have no fixed side. His complete hat remains readable when the body faces either direction; the approved custom right-facing production poses may be mirrored.",
+        "notes": "Keeg’s adult human anatomy, black hair, close beard, whole tall purple hat, silver trim and mushrooms have no fixed side. This complete receive sequence remains legible when mirrored; the separate receive ball track is independently tested in both facings.",
         "reviewedAt": "2026-10-23",
-        "scope": "canonical body direction policy; individual production clips require separate visual approval",
+        "scope": "canonical K.03 body direction policy and J.88 receive clip",
         "evidence": [
-          "public/assets/animation/keeg-idle-right.webp",
-          "public/assets/animation/keeg-dribble-right.webp",
-          "tools/generate-art/j84-keeg-shoot10-layouts.json",
-          "tools/generate-art/keeg-pass6-layouts.json",
-          "tools/generate-art/keeg-pass-overhead6-layouts.json",
-          "tools/generate-art/keeg-pass-behind6-layouts.json"
+          "tools/generate-art/keeg-receive4-layouts.json",
+          "public/assets/animation/keeg-receive-right.webp",
+          "tests/animation-sprites.test.js"
         ],
         "canonicalSection": "K.03"
       }

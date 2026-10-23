@@ -562,7 +562,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // The overhead lob rises clear of Keeg's enormous hat to his raised hands.
   'pass-overhead':{height:[1.2,1.4,2,2.55,2.5,1.3],forward:[6,7,8,10,11,7]},
   // His behind-the-back release cuts low behind his hip before recovery.
-  'pass-behind':{height:[1,1.1,.85,1.1,1.25,1.1],forward:[5,6,-5,-12,-8,5]}
+  'pass-behind':{height:[1,1.1,.85,1.1,1.25,1.1],forward:[5,6,-5,-12,-8,5]},
+  // The separate ball meets Keeg's open hands at chest height on catch frame2.
+  receive:{height:[1.25,1.4,1.5,1.4],forward:[8,13,15,11]}
 },paprika:{
   receive:{height:[.35,.5,.5,.35],forward:[12,13,14,12]},
   pickup:{height:[.2,.15,.05,0,.55],forward:[12,13,14,14,7]},

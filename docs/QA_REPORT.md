@@ -1,17 +1,17 @@
 # QA report
 
-## Latest validated checkpoint — J.87 (2026-10-23)
+## Latest validated checkpoint — J.88 (2026-10-23; local, push pending)
 
-- `npm test`: PASS —392 tests.
+- `npm test`: PASS —393 tests, zero failures; includes static offline build.
 - `npm run lint`: PASS —18 JavaScript modules.
 - `npm run validate:content`: PASS —35 franchises /105 unique athletes /35 canonical captains.
 - `npm run simulate:league`: PASS —100 matches /854,447 ticks /7 overtime periods.
-- `python -m unittest discover -s tools/generate-art -p 'test_package*.py'`: PASS —40 packer checks.
+- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —41 packer checks.
 - `npm run build`: PASS —static bundle and standalone offline page.
-- `npm run test:e2e`: PASS —Chromium offline startup, touch/gamepad/control/settings journeys, nonhuman matchups, complete match, season progression and standalone startup.
-- `node tools/audit-animation-assets.mjs`: expected exit1 / INCOMPLETE —650 clips /5,681 authored drawings across105 athletes,2,453 missing clips,3 target shortfalls and4 inherited prompt findings.
-- Keeg native-render captures: standard and zoom120 each loaded153 images and rendered87 clip snapshots /452 action-frame previews; `pass-behind` release art is selected in both facings.
-- J.86 `e2e7435` Pages deployment run #124 succeeded. J.87 is validated locally; commit/push and Pages verification are next.
+- `npm run test:e2e`: PASS —Chromium offline startup, controls, touch/gamepad/settings, nonhuman matchups, complete match, season progression and standalone startup.
+- Strict animation audit: expected exit1 / INCOMPLETE —651 clips /5,685 authored drawings across105 athletes,2,452 missing clips,3 target shortfalls and4 inherited prompt findings.
+- Keeg standard and zoom120 native renders each loaded154 images and rendered87 clip snapshots /452 action frames; `receive` selects production art in both facings and shows the separately rendered ball at the tick4 catch.
+- J.87 commit `0012a40` Pages run #125 succeeded. J.88 is validated locally; push/deployment verification is next.
 
 ## Environment
 

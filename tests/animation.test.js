@@ -1087,8 +1087,8 @@ test('Reed Ashcroft and Juniper Vale behind-the-back passes carry the ball to th
   assert.ok(Math.abs(m.ball.z-.02-p.z-1.25)<1e-9,id+' release preserves hand height in facing '+facing);
  }
 });
-test('Reed Ashcroft and Juniper Vale catch with their own separate-ball tracks in both facings',()=>{
- const catchHand=[['reed-ashcroft',15],['juniper-vale',13]];
+test('Reed Ashcroft, Juniper Vale and Keeg catch with their own separate-ball tracks in both facings',()=>{
+ const catchHand=[['reed-ashcroft',15],['juniper-vale',13],['keeg',15]];
  for(const [id,forward] of catchHand)for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:715,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
   const passer=m.players.find(player=>player.team===p.team&&player.id!==p.id);

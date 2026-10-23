@@ -1,12 +1,12 @@
 # Session handoff
 
-## Current checkpoint — J.87 (validated locally; checkpoint push pending)
+## Current checkpoint — J.88 validated locally; checkpoint push pending
 
-J.87 adds Keeg’s six-pose `pass-behind` after his shot, chest pass and overhead pass; Keeg now has9/29 action clips and70 authored drawings. The sequence turns his shoulders, sweeps the empty throwing hand low behind his waist, releases once at pose3 /tick7, follows through and recovers. The separate basketball follows Keeg’s own track behind the hip before release. His adult human anatomy, black hair, neat black beard, intact tall purple hat with silver trim and mushrooms, and purple/lavender/silver kit remain consistent; reviewed mirroring supports both directions.
+J.88 adds four authored `receive` poses for Keeg after his shot and three passes; he now has10/29 action clips and74 authored drawings. Pose2 is the chest-level catch at tick4. Keeg remains an adult human with black hair, close black beard, complete tall purple hat with silver trim and mushrooms, and established purple/lavender/silver kit. All hands are empty; the separate basketball reaches the visible hand gap at the catch. Safe mirroring and the athlete-specific ball track are covered in runtime tests.
 
-The source and exact generation prompt, accepted sheet, cleanup, hashes, cell bounds, layout and provenance are stored in `tools/generate-art/j87-keeg-pass-behind*`. Accepted generation `exec-ebb73267-f651-423c-8228-54cb8e478888` raw SHA-256 `1c3acde5fabe413526eb628c42147f30c14572462d0440ad4e710c1e5b1d1caa`; cleaned source `tools/generate-art/sources/j87-keeg-pass-behind6.png` SHA-256 `8744c626de1fd774fabfd0afbebb4e5dbcd25c3df243ceb0b19e1e7a2577a227`. Cleanup removed44,705 exterior pixels and no vivid-red pixels; outer margins are78px left,11px top,51px right and26px bottom; cell gaps are at least37px. The 240×192 atlas `public/assets/animation/keeg-pass-behind-right.webp` is58,706 bytes (SHA-256 `fd6d40e1670bf9766e54d4968e9adfba9341803016b687bcdbb86b8fcd004b7f`).
+The exact accepted prompt, rejected generation history, sources, cleanup, hashes, layouts and review notes are in `tools/generate-art/j88-keeg-receive-prompts.md` and associated J.88 files. Accepted generation `exec-26f3239e-0d2e-4e77-8915-78d7b4709283`, raw SHA-256 `2b2c93676129110b07ce8720a26dd947919f1704e7e062ec3b88344edb431490`; cleaned source SHA-256 `476e0bce93467595c19f3a5426ac3b9c8b4eb2c79591e7a6fd88d37ad868d226`. Four-pixel cleanup cleared17,611 exterior pixels. The atlas is192×192, with four distinct96×96 frames.
 
-J.87 validation passes392 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation (854,447 ticks /7 overtime periods),40 packer tests, production build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 native previews each load153 images and capture87 snapshots /452 action frames; the release selects production art in both facings, and the separate ball releases at tick7. Strict asset audit exits1 as expected while incomplete:650 clips /5,681 drawings /105 athletes,2,453 missing clips,3 below-target clips and4 inherited prompt findings. J.86 `e2e7435` is pushed and deployed in Pages run #124: https://github.com/Manaconda33/Conda-Jam/actions/runs/40034500426. Deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=e2e7435. Next roster action: Keeg `receive`.
+J.88 validation passes393 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation (854,447 ticks /7 overtime periods),41 packer tests, production build and Chromium offline/full-match/season/touch E2E. Standard and zoom120 native previews each load154 images and capture87 snapshots /452 action frames; receive art selects in both facings and the ball is carried at the catch. Strict audit remains incomplete:651 clips /5,685 drawings /105 athletes,2,452 missing clips,3 below-target clips and4 inherited prompt findings. J.87 `0012a40` is pushed and deployed in Pages run #125 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40035337662); preview https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=0012a40. Next roster action: Keeg `pickup`.
 
 ## Active assignment and authorization
 
@@ -16,20 +16,26 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. J.86 `e2e7435` is pushed and deployed in Pages run #124 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40034500426).
+Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed commit is J.87 `0012a40`, Pages run #125 succeeded (https://github.com/Manaconda33/Conda-Jam/actions/runs/40035337662).
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
-- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=e2e7435
-- J.87 Keeg `pass-behind` is validated locally and awaits checkpoint push /Pages deployment. Keeg now has9/29 clips /70 authored drawings; next action is `receive`. Current strict report-only audit:650 clips /5,681 drawings /105 athletes,2,453 missing clips,3 below-target clips and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
+- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=0012a40
+- J.87 `0012a40` is pushed to `main` and deployed successfully in Pages run #125. J.88 Keeg `receive` is validated locally pending checkpoint push; Keeg now has10/29 clips /74 authored drawings. Next action is `pickup`. Current audit:651 clips /5,685 drawings /105 athletes,2,452 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
 
 GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion. Full specification remains authoritative at `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md`.
 
-### J.87 — Keeg behind-the-back pass (validated locally; checkpoint push pending)
+### J.88 — Keeg `receive` (validated locally; checkpoint push pending)
 
-J.87 adds six unique `pass-behind` poses. The low hand sweep travels behind Keeg’s waist, releases at tick7 and follows through with empty hands. The source keeps Keeg human, his black hair and close black beard, very tall purple hat with silver trim/mushrooms, and purple/silver uniform. The separate game ball uses an athlete-specific behind-hip path. All six figures fit within their cells; exact prompt, source hashes, cleanup, bounds, layout, provenance and visual review are in J.87 files.
+J.88 adds four distinct catch poses; frame2 receives at tick4. Keeg’s empty hands frame the separately rendered ball, and his identity and complete hat remain consistent. The dedicated ball track meets the hands at catch in both facings. Exact prompt history, reviewed source and provenance are in J.88 files.
 
-Full validation passes392 JS tests, lint18 modules,35 franchises/105 athletes,100 matches /854,447 ticks /7 overtime periods,40 packer tests, build and Chromium offline full-match/season/touch E2E. Standard and zoom120 previews each loaded153 images and rendered87 snapshots /452 action frames; the pass release uses production art in both facings. Audit remains incomplete at650 clips /5,681 drawings,2,453 missing clips,3 target shortfalls and4 inherited prompt findings. Next: Keeg `receive`.
+Full validation passes393 JS tests, lint18 modules,35 franchises/105 athletes,100 matches /854,447 ticks /7 overtimes,41 packer tests, build, Chromium full journey and standard/zoom120 native previews (154 images /87 snapshots /452 action frames each). The strict audit is651 clips /5,685 drawings /105 athletes, with2,452 missing clips,3 target shortfalls and4 inherited prompt findings. Next: Keeg `pickup`.
+
+### J.87 — Keeg behind-the-back pass (pushed and deployed in Pages run #125)
+
+J.87 added six unique `pass-behind` poses. The low hand sweep travels behind Keeg’s waist, releases at tick7 and follows through with empty hands. The source keeps Keeg human, his black hair and close black beard, very tall purple hat with silver trim/mushrooms, and purple/silver uniform. The separate game ball uses an athlete-specific behind-hip path. All six figures fit within their cells; exact prompt, source hashes, cleanup, bounds, layout, provenance and visual review are in J.87 files.
+
+J.87 validation passed392 JS tests, lint18 modules,35 franchises/105 athletes,100 matches /854,447 ticks /7 overtime periods,40 packer tests, build and Chromium offline full-match/season/touch E2E. Standard and zoom120 previews loaded153 images and rendered87 snapshots /452 action frames. J.87 is deployed as `0012a40` in Pages run #125.
 
 ### J.86 — Keeg overhead pass (pushed and deployed in Pages run #124)
 
