@@ -214,3 +214,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Paprika Rill | 1 | yes | Fifteen right-facing poses show two separate short-paw pumps: first raise above the ear, lower beside the muzzle, then raise again before the final release. Paprika remains a compact four-footed fox with no upright turn, human limb, ball or hoop. Her russet/cream coat, large ears, pale-tipped tail and purple/gold vest stay canonical. K.02 has no fixed-side marking, so horizontal mirroring is safe. |
+
+## J.60 clutch-dunk clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Paprika Rill | 1 | yes | Fifteen right-facing poses keep both short forepaws folded against the chest below Paprika's visible muzzle while she tucks around the invisible ball. Her four-legged anatomy stays compact through the peak and one short paw/muzzle release. No human limbs, ball or hoop appear. The russet/cream coat, large ears, pale-tipped tail and purple/gold vest remain canon; K.02 has no fixed-side marking and horizontal mirroring is safe. |
