@@ -1642,6 +1642,35 @@ test('Reed selects all fifteen reviewed power-dunk poses with his canon mirror p
   tick+=animationClips['dunk-power'].frames[frame].duration;
  }
 });
+test('Juniper selects all fifteen reviewed power-dunk poses with her separate hand track in both facings',()=>{
+ const id='juniper-vale',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['dunk-power'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.canonicalSection,'J.01');assert.equal(policy?.sourceCell,1);assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'Juniper power-dunk atlas registration');assert.equal(clip.reviewed,true);
+ assert.equal(clip.src,'./public/assets/animation/juniper-vale-dunk-power-right.webp');
+ assert.equal(clip.sha256,'78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'45ee0e4f18eb6275172f4d83a245b766e15c6706f51c6ed1120d7a0ab997783d');
+ assert.equal(clip.provenance.imageGenerationId,'exec-8e440d86-554d-4dc0-8001-8efdb724bdd5');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.rejectedAttempts.length,2);
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),Array.from({length:15},(_,i)=>i));
+ assert.equal(anchorTick('dunk-power','release'),21);assert.equal(anchorTick('dunk-power','finish'),23);
+ assert.equal(sampleBallForward('dunk-power',21,id),9);assert.equal(sampleBallHeight('dunk-power',21,id),2);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-power',tick).frame,frame,'runtime maps Juniper pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-power',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-power'].frames[frame].duration;
+ }
+});
 test('Reed selects all fifteen reviewed windmill-dunk poses with his canon mirror policy and hand track',()=>{
  const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['dunk-windmill'];
  assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');

@@ -1,0 +1,79 @@
+{
+  "athlete": "juniper-vale",
+  "clip": "dunk-power",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-8e440d86-554d-4dc0-8001-8efdb724bdd5",
+  "imageGenerationId": "exec-8e440d86-554d-4dc0-8001-8efdb724bdd5",
+  "parentGenerationId": "exec-de96c047-52c1-49bd-ac74-bf973fd03b1d",
+  "sourceImage": "tools/generate-art/sources/j74-juniper-vale-dunk-power15.png",
+  "sourcePromptStatus": "verbatim",
+  "promptVerbatim": true,
+  "promptFile": "tools/generate-art/j74-juniper-vale-dunk-power-prompt.md",
+  "prompt": "This is a cleanup edit, not a redesign. There must be ZERO visible basketballs, ZERO orange spheres, ZERO ball outlines and ZERO props in the final sheet. In every one of the fifteen cells, erase any basketball completely and reconstruct only Juniper's natural hand and fingers in the same pose. In particular remove the orange round object at chest level in top-row cell 4 and all orange round objects above the hands in middle-row cells 2, 3 and 4. Keep the gather hands shaped around an invisible ball, with no visible object between them. Keep the open release and follow-through hands empty. Preserve every athlete pose and all Juniper details exactly: compact natural adult human body, light warm skin, dark eyes, dark-purple high curly ponytail with small gold tie, blank purple-and-gold Condas uniform, dark knee pads, purple/gold shoes, scale, framing, positions, proportions and row-major order. The entire background and gutters must be true transparent alpha, not a checkerboard. Do not add background, red fringe, markings, letters, numerals, logo, hoop, floor, shadow, extra figure or any other object. Output fifteen full-body drawings, all complete and separated.",
+  "sourcePrompt": "Create a transparent RGBA sprite sheet for an original 1990s arcade basketball game: exactly fifteen distinct, separate, complete full-body drawings of the SAME adult human woman basketball athlete, arranged in a perfectly regular 5-column by 3-row grid in strict row-major order, with generous transparent gutters and no touching or clipped figures. Canvas 1619 x 971 pixels, transparent background. Character identity throughout: compact natural athletic build, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high into a rounded curly ponytail with a small gold tie, blank sleeveless Chicago Condas basketball uniform in deep purple with simple gold piping and plain unmarked jersey, dark knee pads, purple-and-gold basketball shoes. Keep face, curl silhouette, body proportions, uniform design, shoes, scale and clean pixel-rich sprite shading consistent across all fifteen poses. Right-facing, profile-to-three-quarter view, motion travels to the right. Do NOT draw a basketball or other object; gameplay renders the ball separately, so hands show a plausible grip around an invisible ball in the gather and dunk poses, and become open/empty after release. Do not draw a hoop, rim, court, floor, shadow, text, lettering, jersey number, logo, border, grid line, panel, glow, opponent, extra player, or background. Each cell contains exactly one athlete. Pose sequence: 0) grounded right-facing approach, arms low and relaxed; 1) gather an imaginary ball with both hands near waist, knees bending; 2) compress deeper, elbows tucked, eyes toward rim; 3) spring upward from both feet, ball in both hands at chest; 4) rising, right arm beginning to lift the imaginary ball, left arm balancing; 5) airborne ascent, ball carried beside the right shoulder; 6) high ascent, extend the right arm overhead, knees bent naturally; 7) peak of the jump, right hand securely holds the imaginary ball above head, compact torso extended; 8) peak transition, bring ball slightly forward overhead with shoulders turned toward target; 9) powerful one-handed overhead reach toward the right, left arm counterbalances; 10) release pose at the imaginary rim, right arm fully extended and fingers open, ball is absent; 11) clear follow-through with open right hand and shoulder extending down; 12) descent, arms lower and legs extend toward landing; 13) feet approach the ground, knees ready to absorb impact; 14) stable two-foot landing and balanced finish, arms relaxed. Crisp authentic digitized-arcade 2D sprite art, strongly readable silhouette and limbs, consistent anatomy and lighting, no motion blur. Verify all fifteen bodies are fully separated and inside their own cells.",
+  "cleanupPrompts": [
+    "Carefully edit this 15-pose sprite sheet for production use. Preserve exactly the same 15 complete Juniper Vale athlete drawings, pose order, body shape, facial identity, high dark-purple curls with small gold tie, blank purple-and-gold uniform, knee pads, shoes, spacing, scale, limb articulation and 5-column by 3-row arrangement. Remove every basketball that was accidentally drawn in the hands; no ball or other object may remain anywhere. Remove the entire checkerboard pattern completely and make all space around and between the figures truly transparent alpha, not a painted checker pattern. The figures' hands should be empty, shaped as if gripping an unseen ball in gather poses and open after the imagined release. Keep all figure pixels crisp and intact. Do not add, redraw, crop, merge, shift, mirror or change any of the fifteen figures. No text, numbers, logos, court, rim, shadows or effects.",
+    "This is a cleanup edit, not a redesign. There must be ZERO visible basketballs, ZERO orange spheres, ZERO ball outlines and ZERO props in the final sheet. In every one of the fifteen cells, erase any basketball completely and reconstruct only Juniper's natural hand and fingers in the same pose. In particular remove the orange round object at chest level in top-row cell 4 and all orange round objects above the hands in middle-row cells 2, 3 and 4. Keep the gather hands shaped around an invisible ball, with no visible object between them. Keep the open release and follow-through hands empty. Preserve every athlete pose and all Juniper details exactly: compact natural adult human body, light warm skin, dark eyes, dark-purple high curly ponytail with small gold tie, blank purple-and-gold Condas uniform, dark knee pads, purple/gold shoes, scale, framing, positions, proportions and row-major order. The entire background and gutters must be true transparent alpha, not a checkerboard. Do not add background, red fringe, markings, letters, numerals, logo, hoop, floor, shadow, extra figure or any other object. Output fifteen full-body drawings, all complete and separated."
+  ],
+  "rawSourceImage": "tools/generate-art/sources/j74-juniper-vale-dunk-power-cleanup2-generated.png",
+  "rawSourceSha256": "44d25dd9a22e97bdd6abde3584ab1799efac5ef310baaab3790b3b4493433615",
+  "referencePaths": [],
+  "visualReviewReferences": [
+    "tools/generate-art/references/juniper-vale-portrait-reference.png",
+    "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+    "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+    "public/assets/animation/juniper-vale-layup-right.webp",
+    "public/assets/animation/juniper-vale-layup-reverse-right.webp"
+  ],
+  "c2paClaim": null,
+  "xmpInstance": null,
+  "rejectedAttempts": [
+    {
+      "sourceImage": "tools/generate-art/sources/j74-juniper-vale-dunk-power-attempt1-rejected-baked-ball-checker.png",
+      "sha256": "68b5156a91e857a2e47009c865a2899d8f82a4d111bd1ef249bc81fea2b75d00",
+      "generationId": "exec-d74bbb67-525c-46a5-b895-89cb1c9e17a1",
+      "reason": "Baked basketballs in held poses and checkerboard pattern painted into RGB background; not production art."
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/j74-juniper-vale-dunk-power-attempt2-rejected-red-halo.png",
+      "sha256": "804f1e9fce3ed5c96957281178fdd9f41a05508700992a0d11958e0426f6b278",
+      "generationId": "exec-de96c047-52c1-49bd-ac74-bf973fd03b1d",
+      "reason": "Basketballs removed and alpha restored, but conspicuous red exterior fringe remained around the athlete silhouettes."
+    }
+  ],
+  "cleanup": {
+    "script": "tools/generate-art/clean-alpha-fringe.py",
+    "method": "Only strongly red pixels connected through same-colored pixels to already transparent background were cleared; the four outermost image edges were set transparent. Dark outlines and interior pixels were retained.",
+    "input": "tools/generate-art/sources/j74-juniper-vale-dunk-power-cleanup2-generated.png",
+    "output": "tools/generate-art/sources/j74-juniper-vale-dunk-power15.png",
+    "clearedExteriorRedPixels": 11722,
+    "reviewedOn": [
+      "solid black",
+      "solid white"
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "15 original Juniper Vale power-dunk poses, canonical identity and human anatomy, no baked ball, clean transparency, complete separated bodies",
+    "notes": "Reviewed on white and black compositing. The accepted sheet contains fifteen complete, separated human Juniper drawings in 5x3 row-major order. Her light warm skin, dark eyes, compact athletic build, abundant dark-purple high ponytail with small gold tie, blank purple/gold Condas uniform, dark knee pads, and purple/gold shoes remain consistent. Gather poses have invisible-ball hand shapes; release and follow-through hands are empty. No basketball, hoop, court, text, number or prop is drawn. The accepted raw edit had red exterior fringe; conservative alpha cleanup removed only red pixels connected to transparent background. All poses retain transparent gutters and no clipped pixels."
+  },
+  "componentIsolation": true,
+  "actionAnchors": {
+    "takeoff": 4,
+    "grab": 10,
+    "peak": 14,
+    "release": 21,
+    "finish": 23,
+    "land": 30
+  },
+  "runtimeBallTrack": {
+    "ballInArt": false,
+    "athleteSpecific": true,
+    "proposedPossessionThroughTick": 20,
+    "proposedReleaseTick": 21,
+    "proposedScoreTick": 23
+  }
+}
