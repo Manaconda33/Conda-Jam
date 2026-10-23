@@ -1,0 +1,23 @@
+# J.52 — Paprika fall and get-up
+
+## Generation and review
+
+- Athlete: Paprika (`paprika`), canon K.02.
+- Clip: ten right-facing `fall` poses; runtime frame9 is the recovery finish at tick33.
+- Defensive recovery does not carry the ball; no separate athlete-specific track applies.
+- Generation ID: `exec-5140dbf2-c59d-4806-9ef0-0a0607271035`.
+- Source: `tools/generate-art/sources/j52-paprika-fall10.png` (1983×793 RGBA; SHA-256 `e14f4f8f6a3c6e6b600fe1daaf86ff70488c5a30ef3ada727d91f16694a424e0`).
+- Review: ten distinct, isolated complete fox poses fill the 5×2 sheet in row-major order. The alpha border is effectively transparent. Paprika remains quadrupedal throughout the tumble and returns to a four-paw ready stance at frame9. Russet fur, cream muzzle/chest, large ears, pale-tipped tail and purple/gold vest remain consistent. No ball, opponent, props, numbers or logos appear.
+- C2PA/XMP: no claim or instance metadata was returned by the image-generation tool.
+
+## Verbatim generation prompt
+
+```text
+Create one original transparent RGBA sprite sheet with EXACTLY ten distinct, complete right-facing fall-and-get-up action poses for Paprika in JAMVERSE '96. Use the attached Paprika rebound and push atlases only as strict identity, palette, size, and 1990s arcade pixel-art references; do not copy their poses. Paprika is canonically a REAL TINY FOUR-FOOTED KIT FOX: a low horizontal fox body, russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright fox eyes, pointed muzzle, large bushy tail with pale tip, and fitted purple-and-gold sports vest. Preserve these features and her natural small quadruped proportions in all ten frames. Never humanoid, bipedal, upright, or human-shaped. Keep four fox legs and paws, a natural fox spine, and the entire tail in every pose, including the roll and recovery.
+
+Place exactly ten separate full-body drawings in five columns by two rows, strict left-to-right then top-to-bottom row-major order. Center one full figure in each cell and leave comfortable clear transparent margins; keep every ear, muzzle, paw and tail tip inside its cell. No touching, overlap, clipped parts, fused figures, duplicate poses, extra bodies, panels, borders or grid lines. Make the positions independently articulated and visibly distinct. Use a clean right-facing three-quarter side view, identical camera and figure scale, consistent low fox baseline.
+
+This defensive fall follows a body check. No other character appears; the ball is not part of the action and must not be drawn. Recovery stays on four feet and ends at frame9, the runtime finish marker at tick33. Sequence: frame0 lose balance from a bump, front paws plant wide and tail whips for balance; frame1 body pitches forward, shoulders sink, hind legs scramble; frame2 slide one forepaw and twist the fox hips, still supported by paws; frame3 lose footing and roll low onto one shoulder with tail curling around; frame4 lie briefly on her side with paws tucked naturally, ears visible; frame5 roll chest-down onto the belly, muzzle near the ground; frame6 brace with both forepaws and tuck the hind paws beneath the body; frame7 push back onto all four legs, wobbly but quadrupedal; frame8 regain balance in a low defensive crouch with tail raised; frame9 finish fully recovered in a compact alert four-paw stance, eyes forward. No sitting upright, standing on hind legs, human arms, fists, hands, crawling like a person, or anthropomorphic gestures.
+
+Transparent RGBA only: every pixel outside the ten fox silhouettes must have alpha 0, with no colored backdrop or floor. Preserve crisp clean outlines and the atlases' bright shading. No drawn ball, opponent, floor, court, hoop, shadows, glow, aura, background, text, numerals, lettering, logos, or props.
+```

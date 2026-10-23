@@ -16070,13 +16070,217 @@ export const animationAssetManifest = {
               "notes": "Five distinct complete quadruped fox poses remain visible in normalized 3x2 cells; the final cell is empty. Russet fur, cream muzzle/chest, tall ears, pale-tipped tail and purple/gold vest remain consistent. Frame3 catches at tick5; the separate ball follows Paprika’s paw/muzzle via her own track. No ball or prop is baked in. Safe to mirror both facings.",
               "at": "2026-10-23T06:39:25.818Z"
             }
+          },
+          "fall": {
+            "src": "./public/assets/animation/paprika-fall-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 96,
+                "hash": "ebd9a2d89c0fec2f936a276df7a3c213e7ce69b29c4f392fa66d62b9e67fb468"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 160,
+                "h": 96,
+                "hash": "a76a53d66d976401b75c348cc8259801fe052cbcd1f99bf0a993b91c472094be"
+              },
+              {
+                "x": 320,
+                "y": 0,
+                "w": 160,
+                "h": 96,
+                "hash": "b5f5c0f12766d1c508e166b7ee21360c5beca0b2b65557914c56b4f0b60195c6"
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "w": 160,
+                "h": 96,
+                "hash": "b451eb34359a2e58c2dcbb24332e2c8079a20fb04edd48c48eba379f44dde14f"
+              },
+              {
+                "x": 640,
+                "y": 0,
+                "w": 160,
+                "h": 96,
+                "hash": "bf5d88039cb58aef7d7f4f3c10ca722da3a6b07160b95ddb2855c982876614c7"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 160,
+                "h": 96,
+                "hash": "016c1e9253e64845447f6680a30e22127a0450822b3f3da48a6d5bb65f7a0430"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 160,
+                "h": 96,
+                "hash": "ff3fb2c74af103a63d7b960518d4bd9b8953a6784e497a5f45ba3d4466917b0d"
+              },
+              {
+                "x": 320,
+                "y": 96,
+                "w": 160,
+                "h": 96,
+                "hash": "9cdde408f89f57a5c173a4de26c44d0de7b14d69959443a275c749d27afaadb7"
+              },
+              {
+                "x": 480,
+                "y": 96,
+                "w": 160,
+                "h": 96,
+                "hash": "dc3415f27ebcebb87d9f62c57a44f592083a58f65a849c7b80bdfae5e4729ece"
+              },
+              {
+                "x": 640,
+                "y": 96,
+                "w": 160,
+                "h": 96,
+                "hash": "1daffe041c940a577dafc11a95f51fb123681a529a0aa87fe0b6d0065ad4f817"
+              }
+            ],
+            "sha256": "3009018ded46973204db8659cc55af05080be761469b071783fbc8f32d8c50eb",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "paprika",
+              "clip": "fall",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T06:44:51.840Z",
+              "generationId": "exec-5140dbf2-c59d-4806-9ef0-0a0607271035",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j52-paprika-fall10.png",
+              "sourceSha256": "e14f4f8f6a3c6e6b600fe1daaf86ff70488c5a30ef3ada727d91f16694a424e0",
+              "promptFile": "tools/generate-art/j52-paprika-fall-prompt.md",
+              "prompt": "Create one original transparent RGBA sprite sheet with EXACTLY ten distinct, complete right-facing fall-and-get-up action poses for Paprika in JAMVERSE '96. Use the attached Paprika rebound and push atlases only as strict identity, palette, size, and 1990s arcade pixel-art references; do not copy their poses. Paprika is canonically a REAL TINY FOUR-FOOTED KIT FOX: a low horizontal fox body, russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright fox eyes, pointed muzzle, large bushy tail with pale tip, and fitted purple-and-gold sports vest. Preserve these features and her natural small quadruped proportions in all ten frames. Never humanoid, bipedal, upright, or human-shaped. Keep four fox legs and paws, a natural fox spine, and the entire tail in every pose, including the roll and recovery.\n\nPlace exactly ten separate full-body drawings in five columns by two rows, strict left-to-right then top-to-bottom row-major order. Center one full figure in each cell and leave comfortable clear transparent margins; keep every ear, muzzle, paw and tail tip inside its cell. No touching, overlap, clipped parts, fused figures, duplicate poses, extra bodies, panels, borders or grid lines. Make the positions independently articulated and visibly distinct. Use a clean right-facing three-quarter side view, identical camera and figure scale, consistent low fox baseline.\n\nThis defensive fall follows a body check. No other character appears; the ball is not part of the action and must not be drawn. Recovery stays on four feet and ends at frame9, the runtime finish marker at tick33. Sequence: frame0 lose balance from a bump, front paws plant wide and tail whips for balance; frame1 body pitches forward, shoulders sink, hind legs scramble; frame2 slide one forepaw and twist the fox hips, still supported by paws; frame3 lose footing and roll low onto one shoulder with tail curling around; frame4 lie briefly on her side with paws tucked naturally, ears visible; frame5 roll chest-down onto the belly, muzzle near the ground; frame6 brace with both forepaws and tuck the hind paws beneath the body; frame7 push back onto all four legs, wobbly but quadrupedal; frame8 regain balance in a low defensive crouch with tail raised; frame9 finish fully recovered in a compact alert four-paw stance, eyes forward. No sitting upright, standing on hind legs, human arms, fists, hands, crawling like a person, or anthropomorphic gestures.\n\nTransparent RGBA only: every pixel outside the ten fox silhouettes must have alpha 0, with no colored backdrop or floor. Preserve crisp clean outlines and the atlases' bright shading. No drawn ball, opponent, floor, court, hoop, shadows, glow, aura, background, text, numerals, lettering, logos, or props.",
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "decoded alpha components, 5x2 row-major layout, K.02 anatomy, recovery sequence and finish marker review",
+                "notes": "Ten distinct complete quadruped fox poses in row-major order. Paprika stays on four animal legs with consistent russet/cream identity, large ears, pale tail tip and purple/gold vest through the tumble and recovery. Frame9 finishes at tick33. No ball, opponent, props, text, numbers or logos."
+              },
+              "imageGenerationId": "exec-5140dbf2-c59d-4806-9ef0-0a0607271035",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 28,
+                  "y": 105,
+                  "w": 377,
+                  "h": 271,
+                  "component": 1,
+                  "area": 48126
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 427,
+                  "y": 140,
+                  "w": 375,
+                  "h": 236,
+                  "component": 4,
+                  "area": 46840
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 810,
+                  "y": 111,
+                  "w": 417,
+                  "h": 264,
+                  "component": 2,
+                  "area": 49333
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1267,
+                  "y": 139,
+                  "w": 333,
+                  "h": 243,
+                  "component": 3,
+                  "area": 46780
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1639,
+                  "y": 209,
+                  "w": 324,
+                  "h": 162,
+                  "component": 5,
+                  "area": 37575
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 16,
+                  "y": 551,
+                  "w": 449,
+                  "h": 161,
+                  "component": 10,
+                  "area": 42345
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 472,
+                  "y": 510,
+                  "w": 372,
+                  "h": 205,
+                  "component": 9,
+                  "area": 41920
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 886,
+                  "y": 463,
+                  "w": 345,
+                  "h": 259,
+                  "component": 6,
+                  "area": 48491
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1271,
+                  "y": 480,
+                  "w": 363,
+                  "h": 242,
+                  "component": 8,
+                  "area": 47799
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1647,
+                  "y": 472,
+                  "w": 319,
+                  "h": 250,
+                  "component": 7,
+                  "area": 44960
+                }
+              ],
+              "uniformScale": 0.33948339483394835,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 160x96 cells; baseline94; lossless WebP; 10 original fall poses"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "K.02 identity/anatomy, ten fall-and-get-up poses, finish marker, and left/right runtime preview",
+              "notes": "Paprika remains a tiny four-footed kit fox with animal paws, russet/cream identity, vest, ears and pale tail tip. No figure stands upright or uses human anatomy. Both facings use the reviewed right-facing source with safe mirroring.",
+              "at": "2026-10-23"
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "K.02 review: Paprika remains a tiny four-footed fox in every rebound pose; no fixed-side marks or asymmetrical props. Safe to mirror the body atlas."
+        "notes": "K.02 review: the complete real kit fox remains quadrupedal through defensive falls, shoulder rolls and recovery. The vest, face, ears and tail have no canonically fixed side; horizontal mirroring preserves identity and anatomy."
       },
       "reviewedAt": "2026-10-21"
     },

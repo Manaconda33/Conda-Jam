@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,183 authored drawings across 614 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,193 authored drawings across 615 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -10,7 +10,7 @@
 | nova-stitch | 6 | 52 | 229,296 |
 | juniper-vale | 19 | 143 | 1,005,036 |
 | echo-catwalk | 6 | 52 | 177,280 |
-| paprika | 17 | 123 | 1,237,684 |
+| paprika | 18 | 133 | 1,369,966 |
 | lavi | 5 | 42 | 193,484 |
 | leo | 5 | 42 | 164,840 |
 | kraken | 5 | 42 | 166,106 |

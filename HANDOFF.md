@@ -12,9 +12,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
-- Latest deployed source checkpoint: `f8d56e076c4520f1baef6a97f9aabe6521815588`; Pages run #89 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39912341968>.
-- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=f8d56e0>.
-- J.29–J.50 are pushed and deployed. J.50 (`f8d56e0`, Pages run #89) adds Paprika's eleven-pose `push` with frame5/tick8 contact. Local J.51 adds five quadruped `rebound` poses; frame3 catches at tick5, with a Paprika-specific ball track. Both preserve K.02 fox anatomy and safe mirroring. Standard/zoom120 previews load142 images and capture87 clip snapshots plus152 action frames; all10 rebound frames select production art in both facings, and the ball is carried by Paprika after the grab. Focused sprite tests,31 packer checks and build pass; full regression and browser validation are in progress. The strict inventory is614 clips / 5,183 drawings / 105 athletes, with2,489 missing clips,3 target shortfalls and four reconstructed prompt findings. Paprika is at17 clips /123 drawings and next needs `fall` (12 clips remain). J.51 commit and Pages deployment are pending.
+- Latest deployed source checkpoint: `a66550ed3839d0aea3c6847675b4cf27f229694d`; Pages run #90 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39913232590>.
+- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=a66550e>.
+- J.29–J.51 are pushed and deployed. J.51 (`a66550e`, Pages run #90) adds Paprika's five-pose quadruped `rebound`; frame3 catches at tick5 on her custom paw/muzzle ball track. Local J.52 adds a ten-pose `fall` and four-footed recovery, finishing at tick33. Both preserve K.02 fox anatomy and safe mirroring. Standard/zoom120 previews load143 images and capture87 clip snapshots plus152 action frames; all20 fall frames select production art in both facings, with the ball dead and unowned. Build, all28 JavaScript test files, lint, content validation,100-match simulation,32 packer checks and full Chromium match/season validation pass. The strict inventory is615 clips / 5,193 drawings / 105 athletes, with2,488 missing clips,3 target shortfalls and four reconstructed prompt findings. Paprika is at18 clips /133 drawings; next is `celebrate` (11 required clips remain). J.52 push and Pages deployment are pending.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -90,11 +90,18 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## Required continuation
 
-1. Continue filling the first missing required action clips in roster order. Paprika's `pass-overhead`, `pass-behind`, `layup`, `layup-reverse` and `block` clips bring her to14/29; her next clip is `steal`. Continue across every roster member and verify custom anatomy and ball tracks.
+1. Continue filling the first missing required action clips in roster order. Paprika is at18/29 authored clips after J.52; her next clip is `celebrate` (11 remain). Continue across every roster member and verify custom anatomy and ball tracks.
 2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/ANIMATION_ASSET_AUDIT.md` and `public/assets/animation/ASSET_STATUS.json`.
 3. Continue gameplay and presentation polish and address the outstanding spec/known issues.
 4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.
 5. Build the self-contained `dist/JAMVERSE_96.html`, push a meaningful checkpoint, verify the GitHub Pages workflow, and update this file with the deployed commit and preview URL.
+
+## J.52 — Paprika Rill fall
+
+- Paprika now has18 reviewed clips /133 authored drawings. Her ten-pose defensive fall shows a tiny four-footed kit fox losing balance, rolling naturally over one shoulder, returning chest-down, and recovering onto all four paws. Frame9 reaches the alert crouch at tick33. The ball is absent and remains dead/unowned throughout.
+- The accepted source `tools/generate-art/sources/j52-paprika-fall10.png` is a transparent RGBA sheet with ten isolated row-major poses (SHA-256 `e14f4f8f6a3c6e6b600fe1daaf86ff70488c5a30ef3ada727d91f16694a424e0`; generation `exec-5140dbf2-c59d-4806-9ef0-0a0607271035`). Its lossless 320×192 atlas is registered at `public/assets/animation/paprika-fall-right.webp`. Verbatim prompt, accepted anatomy review, source rectangles, generation metadata and layout are preserved in `tools/generate-art/j52-paprika-fall-prompt.md`, `paprika-fall10-provenance.json` and `paprika-fall10-layouts.json`.
+- Canon K.02 review approves safe mirroring. Focused tests cover all ten distinct atlas frames in both facings and tick33 recovery. Standard/zoom120 native previews load143 images, capture87 clip snapshots plus152 action frames, and select all20 fall frames in both facings with no ball owner.
+- All28 JavaScript test files,32 packer checks, build, lint,35-franchise/105-athlete validation,100-match simulation and full Chromium match/season E2E pass. Strict audit remains incomplete at615 clips /5,193 drawings /105 athletes;2,488 clips are missing,3 clips remain below target and four older reconstructed prompt findings remain. Paprika's next action is `celebrate`;11 required clips remain. J.52 is locally validated; push and Pages verification are pending.
 
 ## J.30 checks performed
 

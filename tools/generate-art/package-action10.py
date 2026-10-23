@@ -13,7 +13,7 @@ from scipy.ndimage import distance_transform_edt, find_objects, label
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "public/assets/animation"
-ATHLETES = {"reed-ashcroft", "juniper-vale"}
+ATHLETES = {"reed-ashcroft", "juniper-vale", "paprika"}
 CLIPS = {"fall", "celebrate"}
 
 
@@ -86,7 +86,7 @@ def pose_rectangles(image: Image.Image) -> tuple[list[dict], np.ndarray, np.ndar
 
 def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
     if athlete not in ATHLETES:
-        raise ValueError("This reviewed batch only accepts Reed Ashcroft and Juniper Vale")
+        raise ValueError("This reviewed batch only accepts Reed Ashcroft, Juniper Vale, and Paprika")
     provenance = json.loads(provenance_path.read_text())
     prompt = provenance.get("prompt") or provenance.get("sourcePrompt")
     if provenance.get("eligibleForPacking") is not True or provenance.get("review", {}).get("status") != "accepted":
