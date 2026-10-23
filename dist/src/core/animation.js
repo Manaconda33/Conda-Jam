@@ -163,7 +163,10 @@ const athleteBallTracks={'reed-ashcroft':{
   'layup-reverse':{height:[.72,.72,.65,1.72,1.85,2.03,.92,.51],forward:[2,5.7,1.7,3.5,5.3,5.3,5.7,1.8]},
   // The compact power-dunk gather rises from waist to her right hand above
   // the rim; gameplay releases the separate ball on the shared tick-21 mark.
-  'dunk-power':{height:[.95,1.1,1.25,1.4,1.8,1.5,1.65,1.9,2,2,2,1.5,1.1,.8,.6],forward:[4,6,8,9,10,-1,1,0,4,9,9,7,5,4,3]}
+  'dunk-power':{height:[.95,1.1,1.25,1.4,1.8,1.5,1.65,1.9,2,2,2,1.5,1.1,.8,.6],forward:[4,6,8,9,10,-1,1,0,4,9,9,7,5,4,3]},
+  // Juniper circles the separate ball close to her compact body: behind the
+  // hip at the low point, then upward beside her curls and into the release.
+  'dunk-windmill':{height:[.9,1.1,.9,.8,1,1.3,.6,.8,.9,1.7,.7,1.5,1,.8,.6],forward:[4,6,4,5,-2,4,6,5,8,-2,5,8,5,4,3]}
 },'sera-bellini':{
   // The reviewed 80x96 sheet places the lead hand ahead of her torso; keep
   // the separate game ball at that hand through her court-level bounce.

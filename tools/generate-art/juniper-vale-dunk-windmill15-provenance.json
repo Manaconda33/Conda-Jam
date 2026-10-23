@@ -1,0 +1,270 @@
+{
+  "athlete": "juniper-vale",
+  "clip": "dunk-windmill",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-e9ad00c5-a1fd-4033-9093-86bc5c101ca8",
+  "imageGenerationId": "exec-e9ad00c5-a1fd-4033-9093-86bc5c101ca8",
+  "parentGenerationId": null,
+  "sourceImage": "tools/generate-art/sources/j75-juniper-vale-dunk-windmill15.png",
+  "sourcePromptStatus": "verbatim",
+  "promptVerbatim": true,
+  "promptFile": "tools/generate-art/j75-juniper-vale-dunk-windmill-prompt.md",
+  "prompt": "Create a transparent RGBA sprite sheet for an original 1990s arcade basketball game: exactly fifteen distinct, separate, complete full-body drawings of the SAME adult human woman basketball athlete, arranged in a perfectly regular 5-column by 3-row grid in strict row-major order, with generous transparent gutters and no touching or clipped figures. Canvas 1619 x 971 pixels, transparent background. Use the attached Juniper Vale sprite sheet only as an identity and style reference; draw a new windmill-dunk action, not copies of its poses. Character identity throughout: compact natural athletic build, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high into a rounded curly ponytail with a small gold tie, blank sleeveless Chicago Condas basketball uniform in deep purple with simple gold piping and plain unmarked jersey, dark knee pads, purple-and-gold basketball shoes. Keep face, curl silhouette, body proportions, uniform design, shoes, scale and clean pixel-rich sprite shading consistent across all fifteen poses. Right-facing, profile-to-three-quarter view, motion travels to the right. Do NOT draw a basketball or any other object; gameplay renders the ball separately, so the right hand shows plausible contact with an invisible ball through the windmill circle, then opens empty immediately after release. Never put an orange circle, ball outline, prop or object in any cell. Do not draw a hoop, rim, court, floor, shadow, text, lettering, jersey number, logo, border, grid line, panel, glow, opponent, extra player, or background. Each cell contains exactly one athlete. Maintain a single continuous one-arm right-hand windmill action with a clearly readable circular path behind the torso and below the hip, sweeping low across the body, then rising overhead for one clean dunk. Pose sequence: 0) grounded right-facing approach, arms relaxed low, knees slightly bent; 1) gather an invisible ball with both hands at the waist, bend knees; 2) compress deeper, transfer the invisible ball to the right hand, left arm balancing; 3) spring upward from both feet, right hand carries the invisible ball beside the right hip; 4) rise with the right arm beginning a large windmill sweep backward behind the shoulder; 5) turn the torso slightly away, right hand and invisible ball circle down behind the hip; 6) airborne low point of the circle, right hand reaches behind and below the hip with the elbow bent, knees tuck naturally; 7) continue the circle low across the front of the knees, ball still invisible and attached to the right hand; 8) sweep the right hand forward and upward across the torso, shoulders rotate back toward the rim; 9) bring the invisible ball up beside the right shoulder and ear, elbow bent, wrist cocked; 10) peak, extend the right arm high overhead with an invisible-ball grip, left arm counters, legs bent; 11) powerful forward overhead reach toward the right, right hand carries the invisible ball at the release point; 12) release follow-through, ball absent, right fingers visibly open; 13) descend with the empty right arm lowering and legs extending; 14) balanced two-foot landing, knees softly bent, both hands empty and relaxed. Crisp authentic digitized-arcade 2D sprite art, strongly readable silhouette and limbs, consistent anatomy and lighting, no motion blur. Verify all fifteen bodies are fully separated, complete and inside their own cells, with true alpha transparency in all gutters.",
+  "sourcePrompt": "Create a transparent RGBA sprite sheet for an original 1990s arcade basketball game: exactly fifteen distinct, separate, complete full-body drawings of the SAME adult human woman basketball athlete, arranged in a perfectly regular 5-column by 3-row grid in strict row-major order, with generous transparent gutters and no touching or clipped figures. Canvas 1619 x 971 pixels, transparent background. Use the attached Juniper Vale sprite sheet only as an identity and style reference; draw a new windmill-dunk action, not copies of its poses. Character identity throughout: compact natural athletic build, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high into a rounded curly ponytail with a small gold tie, blank sleeveless Chicago Condas basketball uniform in deep purple with simple gold piping and plain unmarked jersey, dark knee pads, purple-and-gold basketball shoes. Keep face, curl silhouette, body proportions, uniform design, shoes, scale and clean pixel-rich sprite shading consistent across all fifteen poses. Right-facing, profile-to-three-quarter view, motion travels to the right. Do NOT draw a basketball or any other object; gameplay renders the ball separately, so the right hand shows plausible contact with an invisible ball through the windmill circle, then opens empty immediately after release. Never put an orange circle, ball outline, prop or object in any cell. Do not draw a hoop, rim, court, floor, shadow, text, lettering, jersey number, logo, border, grid line, panel, glow, opponent, extra player, or background. Each cell contains exactly one athlete. Maintain a single continuous one-arm right-hand windmill action with a clearly readable circular path behind the torso and below the hip, sweeping low across the body, then rising overhead for one clean dunk. Pose sequence: 0) grounded right-facing approach, arms relaxed low, knees slightly bent; 1) gather an invisible ball with both hands at the waist, bend knees; 2) compress deeper, transfer the invisible ball to the right hand, left arm balancing; 3) spring upward from both feet, right hand carries the invisible ball beside the right hip; 4) rise with the right arm beginning a large windmill sweep backward behind the shoulder; 5) turn the torso slightly away, right hand and invisible ball circle down behind the hip; 6) airborne low point of the circle, right hand reaches behind and below the hip with the elbow bent, knees tuck naturally; 7) continue the circle low across the front of the knees, ball still invisible and attached to the right hand; 8) sweep the right hand forward and upward across the torso, shoulders rotate back toward the rim; 9) bring the invisible ball up beside the right shoulder and ear, elbow bent, wrist cocked; 10) peak, extend the right arm high overhead with an invisible-ball grip, left arm counters, legs bent; 11) powerful forward overhead reach toward the right, right hand carries the invisible ball at the release point; 12) release follow-through, ball absent, right fingers visibly open; 13) descend with the empty right arm lowering and legs extending; 14) balanced two-foot landing, knees softly bent, both hands empty and relaxed. Crisp authentic digitized-arcade 2D sprite art, strongly readable silhouette and limbs, consistent anatomy and lighting, no motion blur. Verify all fifteen bodies are fully separated, complete and inside their own cells, with true alpha transparency in all gutters.",
+  "rawSourceImage": "tools/generate-art/sources/j75-juniper-vale-dunk-windmill-generated-raw.png",
+  "rawSourceSha256": "bf2809260a1eaa1782c59e88e2066ea258a594b98935ad1c0287d62ca13f85ca",
+  "referencePaths": [
+    "tools/generate-art/sources/j74-juniper-vale-dunk-power15.png"
+  ],
+  "visualReviewReferences": [
+    "tools/generate-art/references/juniper-vale-portrait-reference.png",
+    "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+    "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+    "tools/generate-art/sources/j74-juniper-vale-dunk-power15.png"
+  ],
+  "c2paClaim": null,
+  "xmpInstance": null,
+  "rejectedAttempts": [
+    {
+      "sourceImage": "tools/generate-art/sources/j75-juniper-vale-dunk-windmill-attempt2-rejected-unclear-sweep.png",
+      "sha256": "ee231f0d067332d67ca7a8a3cc72f29fea0140baacd43ce09f6f6dd1114bc2f0",
+      "generationId": "exec-09dcc7e7-f55b-4e6c-8fc1-5b4e2967dce3",
+      "reason": "The initial sequence had a less readable continuous low-to-high windmill hand circle and the same conspicuous red exterior fringe; retained as a rejected generation."
+    }
+  ],
+  "cleanupPrompts": [],
+  "cleanup": {
+    "script": "tools/generate-art/clean-alpha-fringe.py and tools/generate-art/clean-dunk-halo.py",
+    "method": "A first alpha-fringe pass cleared vivid red pixels connected to transparent background. Final accepted cleanup used clean-dunk-halo.py with a 4-pixel margin: vivid red/coral and remote exterior halo pixels were made transparent while retained silhouette RGBA values remained unchanged; outer image edges were set transparent. All poses were reviewed on solid light and dark backgrounds.",
+    "input": "tools/generate-art/sources/j75-juniper-vale-dunk-windmill-generated-raw.png",
+    "intermediate": "tools/generate-art/sources/j75-juniper-vale-dunk-windmill-alpha-fringe-clean.png",
+    "output": "tools/generate-art/sources/j75-juniper-vale-dunk-windmill15.png",
+    "firstPassClearedExteriorRedPixels": 13827,
+    "finalClearedExteriorPixels": 48084,
+    "finalClearedVividRedPixels": 14094,
+    "outlineMargin": 4,
+    "reviewedOn": [
+      "solid black",
+      "solid white"
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "15 original Juniper Vale windmill-dunk poses, canon identity and human anatomy, continuous low-to-high right-hand windmill sweep, transparent gutters and complete separated bodies",
+    "notes": "The accepted sheet has fifteen complete, unique Juniper poses in strict 5x3 row-major order. Her compact natural human build, light warm skin, dark eyes, high dark-purple curly ponytail with gold tie, blank Chicago Condas purple/gold uniform, dark knee pads and purple/gold shoes remain consistent. The movement reads as an overhead windup that circles behind the shoulder and hip, sweeps low across the body, rises to the overhead release, then follows through to a stable landing. No visible ball, hoop, text, logo or prop. Red/coral exterior fringe and remote speckles were cleared conservatively; review on light and dark grounds confirms transparent gutters and intact dark outlines."
+  },
+  "actionAnchors": {
+    "takeoff": 4,
+    "grab": 10,
+    "peak": 14,
+    "release": 21,
+    "finish": 23,
+    "land": 30
+  },
+  "runtimeBallTrack": {
+    "ballInArt": false,
+    "athleteSpecific": true,
+    "heightByPose": [
+      0.9,
+      1.1,
+      0.9,
+      0.8,
+      1,
+      1.3,
+      0.6,
+      0.8,
+      0.9,
+      1.7,
+      0.7,
+      1.5,
+      1,
+      0.8,
+      0.6
+    ],
+    "forwardByPose": [
+      4,
+      6,
+      4,
+      5,
+      -2,
+      4,
+      6,
+      5,
+      8,
+      -2,
+      5,
+      8,
+      5,
+      4,
+      3
+    ],
+    "poseDurations": [
+      2,
+      2,
+      3,
+      2,
+      1,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3
+    ],
+    "possessionThroughTick": 20,
+    "releaseTick": 21,
+    "scoreTick": 23,
+    "reviewNote": "Track checked against Juniper poses in the native renderer in both facings; values are athlete-local forward distance and height."
+  },
+  "sourceSha256": "8a39535a8225943c2345025a9bacff3ae36c13081f9756bbcc3a4dd54d10eb8a",
+  "sourceRects": [
+    {
+      "sourceIndex": 0,
+      "x": 54,
+      "y": 11,
+      "w": 216,
+      "h": 297,
+      "component": 2
+    },
+    {
+      "sourceIndex": 1,
+      "x": 432,
+      "y": 26,
+      "w": 148,
+      "h": 283,
+      "component": 5
+    },
+    {
+      "sourceIndex": 2,
+      "x": 741,
+      "y": 60,
+      "w": 199,
+      "h": 250,
+      "component": 7
+    },
+    {
+      "sourceIndex": 3,
+      "x": 1066,
+      "y": 2,
+      "w": 187,
+      "h": 301,
+      "component": 1
+    },
+    {
+      "sourceIndex": 4,
+      "x": 1399,
+      "y": 12,
+      "w": 209,
+      "h": 291,
+      "component": 3
+    },
+    {
+      "sourceIndex": 5,
+      "x": 76,
+      "y": 334,
+      "w": 199,
+      "h": 289,
+      "component": 14
+    },
+    {
+      "sourceIndex": 6,
+      "x": 421,
+      "y": 355,
+      "w": 197,
+      "h": 278,
+      "component": 17
+    },
+    {
+      "sourceIndex": 7,
+      "x": 706,
+      "y": 347,
+      "w": 223,
+      "h": 276,
+      "component": 15
+    },
+    {
+      "sourceIndex": 8,
+      "x": 1065,
+      "y": 332,
+      "w": 218,
+      "h": 303,
+      "component": 12
+    },
+    {
+      "sourceIndex": 9,
+      "x": 1404,
+      "y": 333,
+      "w": 212,
+      "h": 302,
+      "component": 13
+    },
+    {
+      "sourceIndex": 10,
+      "x": 48,
+      "y": 623,
+      "w": 173,
+      "h": 342,
+      "component": 19
+    },
+    {
+      "sourceIndex": 11,
+      "x": 384,
+      "y": 656,
+      "w": 259,
+      "h": 309,
+      "component": 22
+    },
+    {
+      "sourceIndex": 12,
+      "x": 728,
+      "y": 653,
+      "w": 242,
+      "h": 305,
+      "component": 20
+    },
+    {
+      "sourceIndex": 13,
+      "x": 1067,
+      "y": 657,
+      "w": 163,
+      "h": 307,
+      "component": 23
+    },
+    {
+      "sourceIndex": 14,
+      "x": 1407,
+      "y": 653,
+      "w": 153,
+      "h": 309,
+      "component": 21
+    }
+  ],
+  "uniformScale": 0.26900584795321636,
+  "componentIsolation": true,
+  "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+  "nativePreviewReview": {
+    "renderer": "native Canvas adapter running src/main.js",
+    "zoomPercent": [
+      100,
+      120
+    ],
+    "loadedImages": 166,
+    "uniquePoseCapturesPerZoom": 30,
+    "poseFacings": [
+      "right",
+      "left"
+    ],
+    "productionAtlasSelectionsPerZoom": 30,
+    "carriedBallFramesPerFacing": 10,
+    "releasedBallFramesPerFacing": 5,
+    "selectedAtlas": "public/assets/animation/juniper-vale-dunk-windmill-right.webp",
+    "review": "All fifteen authored poses checked in both facings; the athlete-specific hand track keeps possession through tick20 and the dunk releases at tick21."
+  }
+}

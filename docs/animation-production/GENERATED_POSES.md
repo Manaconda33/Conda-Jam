@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,518 authored drawings across 637 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,533 authored drawings across 638 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -8,7 +8,7 @@
 | reed-ashcroft | 29 | 293 | 1,447,384 |
 | accu | 6 | 52 | 200,024 |
 | nova-stitch | 6 | 52 | 229,296 |
-| juniper-vale | 20 | 158 | 1,053,120 |
+| juniper-vale | 21 | 173 | 1,102,244 |
 | echo-catwalk | 6 | 52 | 177,280 |
 | paprika | 29 | 293 | 2,198,720 |
 | lavi | 5 | 42 | 193,484 |
@@ -446,3 +446,12 @@ Juniper now has20 reviewed clips /158 authored drawings. Fifteen original `dunk-
 The accepted RGBA source `tools/generate-art/sources/j74-juniper-vale-dunk-power15.png` is1619×971 (SHA-256 `45ee0e4f18eb6275172f4d83a245b766e15c6706f51c6ed1120d7a0ab997783d`; cleanup edit `exec-8e440d86-554d-4dc0-8001-8efdb724bdd5`). The first generation with baked basketballs/checkerboard and the second red-halo cleanup are retained as rejected. Conservative `clean-alpha-fringe.py` removed11,722 exterior red pixels connected to transparency. The component-isolated 512×384 atlas is48,084 bytes (SHA-256 `78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff`). Verbatim prompts, generation history, hashes, source rectangles, ball-track review, layout and provenance are in the J.74 generation files.
 
 Runtime/sprite tests pass on the combined J.73+J.74 tree:151/151 runtime and82/82 sprite cases, covering Reed's reverse-lob integration and Juniper's ball path, all15 unique atlas poses and both facings. Full combined validation passes362 JavaScript tests, lint, content validation,100-match simulation,36 packer checks, build, Chromium offline/full-match/season E2E and standard/zoom120 native previews. Each preview loads165 images /87 snapshots /452 action frames; J.74 poses select production art in both facings. Screenshots were restored. The combined decoded audit reports637 clips /5,518 drawings /105 athletes,2,466 missing clips,3 shortfalls and4 older reconstructed prompt findings. J.73+J.74 are pushed at `858fd41`; Pages run #112 succeeded.
+
+
+## J.75 — Juniper Vale windmill dunk
+
+Juniper now has21 reviewed clips /173 authored drawings. The fifteen unique right-facing poses keep her compact natural human build, light warm skin, dark eyes, abundant dark-purple curly high ponytail and gold tie, blank Chicago Condas purple/gold uniform, dark knee pads and purple/gold shoes. Her one-arm windmill circle moves behind the shoulder and hip, sweeps low across the body, rises beside the curls, and releases overhead. The ball remains separate game art. J.01 approves safe body mirroring.
+
+Accepted generation `exec-e9ad00c5-a1fd-4033-9093-86bc5c101ca8` has raw SHA-256 `bf2809260a1eaa1782c59e88e2066ea258a594b98935ad1c0287d62ca13f85ca`; its accepted cleaned 1619×971 source `tools/generate-art/sources/j75-juniper-vale-dunk-windmill15.png` has SHA-256 `8a39535a8225943c2345025a9bacff3ae36c13081f9756bbcc3a4dd54d10eb8a`. Rejected generation `exec-09dcc7e7-f55b-4e6c-8fc1-5b4e2967dce3` and its source hash/review reason are retained. The two conservative alpha-cleanup passes and counts are in provenance; accepted component-isolated 512×384 atlas `public/assets/animation/juniper-vale-dunk-windmill-right.webp` is49,124 bytes (SHA-256 `07d761f93e61c5e9d96b1087063c101c5d24f1a5a4d15eb18ddb4e1ef19adb97`). Exact prompt, generation history, cleanup record, source bounds, atlas layout, pose map and athlete-specific ball samples are in the J.75 generation files.
+
+Runtime and sprite tests cover all15 unique atlas poses in both facings, canonical safe mirroring and Juniper’s own hand path through the tick21 release / tick23 score. All364 JavaScript tests, lint, content validation,100-match simulation,36 Python motion-packer tests, static build and Chromium offline/full-match/season journey pass. Standard and zoom120 native previews each load166 images and capture all30 pose/facing combinations from production art, with20 carried and10 released pose captures. The report-only audit is638 clips /5,533 drawings /105 athletes, with2,465 missing clips,3 below-target clips and4 earlier nonverbatim prompts; Juniper’s next clip is `dunk-reverse`. J.75 checkpoint push and Pages verification are pending.

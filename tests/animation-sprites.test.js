@@ -1671,6 +1671,34 @@ test('Juniper selects all fifteen reviewed power-dunk poses with her separate ha
   tick+=animationClips['dunk-power'].frames[frame].duration;
  }
 });
+
+test('Juniper selects all fifteen reviewed windmill-dunk poses with safe mirroring',()=>{
+ const character=animationAssetManifest.characters['juniper-vale'],policy=animationMirrorPolicy['juniper-vale'];
+ const atlas='./public/assets/animation/juniper-vale-dunk-windmill-right.webp';
+ const clip=character?.directions?.right?.['dunk-windmill'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.ok(clip,'Juniper windmill-dunk atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.imageGenerationId,clip.provenance.generationId);
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.componentIsolation,true);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.heightByPose,[.9,1.1,.9,.8,1,1.3,.6,.8,.9,1.7,.7,1.5,1,.8,.6]);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forwardByPose,[4,6,4,5,-2,4,6,5,8,-2,5,8,5,4,3]);
+ assert.equal(clip.provenance.sourceImage,'tools/generate-art/sources/j75-juniper-vale-dunk-windmill15.png');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.equal(policy.canonicalSection,'J.01');assert.equal(policy.sourceCell,1);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-windmill',tick).frame,frame,'runtime maps Juniper windmill pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id:'juniper-vale',facing,animation:{clip:'dunk-windmill',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-windmill'].frames[frame].duration;
+ }
+});
 test('Reed selects all fifteen reviewed windmill-dunk poses with his canon mirror policy and hand track',()=>{
  const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['dunk-windmill'];
  assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');

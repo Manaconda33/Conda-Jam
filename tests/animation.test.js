@@ -1207,3 +1207,30 @@ test('Juniper power dunk keeps the separate ball on her compact hand path until 
   assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
  }
 });
+
+test('Juniper windmill dunk keeps the separate ball on her low circular hand path until release in both facings',()=>{
+ const id='juniper-vale',clip='dunk-windmill';
+ const measured=[[0,.9,4],[3,.8,5],[5,1.3,4],[7,.8,5],[9,1.7,-2]];
+ const frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:75,home:{roster:[{id},{id:'juniper-partner'}]}}),p=m.players[0];
+  p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'windmill'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(const [frame,height,forward] of measured){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,id)-height)<.001,`frame${frame} Juniper windmill hand height`);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,id)-forward)<.001,`frame${frame} Juniper windmill hand reach`);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<.06,`frame${frame} ball lane facing ${facing}`);
+   assert.ok(Math.abs(m.ball.z-p.z-height)<.02,`frame${frame} ball height facing ${facing}`);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish');
+  assert.equal(release,21);assert.equal(finish,23);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish)stepMatch(m,neutral(m));
+  assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
+ }
+});
