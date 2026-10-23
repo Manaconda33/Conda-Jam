@@ -1,12 +1,12 @@
 # Session handoff
 
-## Current checkpoint — J.94 Keeg `fall` validated locally; push pending
+## Current checkpoint — J.95 Keeg `celebrate` validated locally; push pending
 
-J.94 adds ten distinct fall/get-up poses; Keeg now has16/29 reviewed clips /117 authored drawings. The sequence moves from a loss of balance through a safe side landing, roll to a knee, hand-and-knee push-up, crouch and stable standing finish at frame9 / tick33. His full ornate purple hat, silver trim and mushrooms stay on through the fall. Adult human anatomy, black hair, close beard and lavender/purple/silver uniform remain consistent. The basketball stays a separate game object; Keeg carries no ball in this clip. Canon K.03 approves mirroring.
+J.95 adds ten distinct celebration poses; Keeg now has17/29 reviewed clips /137 authored drawings. The grounded showman sequence rises through an open-arm flourish and fist pump, raises both arms overhead, then settles into a victory stance at frame9 / tick65. The full ornate purple hat, silver trim and mushrooms, black hair, close beard, adult human anatomy, purple/lavender/silver kit and shoes remain consistent. Keeg’s hands stay empty and the ball stays separate; no carried-ball track applies. Canon K.03 approves mirroring.
 
-Accepted generation `exec-a0a69c34-d642-4fb6-910c-cb2a9bd0d661` raw SHA-256 `549f8e2b2d1b379115c6733bfca05aab538b0f61c6e5c3d413c722f88e7e5f1d`; cleaned source `tools/generate-art/sources/j94-keeg-fall10.png` SHA-256 `a31dc90fe8049642f40653fd091eb09d5e67a382c82d0ef27fc6c6d426847b09`. Four-pixel halo cleanup cleared93,712 exterior pixels, including11,559 vivid-red artifacts, and preserved ten isolated bodies. Exact prompt, cleanup, review, source bounds, layout and provenance are in J.94 files. Atlas `public/assets/animation/keeg-fall-right.webp` is480×192 /80,258 bytes / SHA-256 `b278aac5fdb68ae5487fa6c642b9eb05f37f9f4c20025e7d1186c2424a3a1358`.
+Accepted generation `exec-3b30b355-37d2-4337-af6b-78d7d0e21b69` raw SHA-256 `aeea075e5274061dddf4aff07619a9fed4dd24f9f7eacbc18fe2d075b494ee0f`; cleaned source `tools/generate-art/sources/j95-keeg-celebrate10.png` SHA-256 `b308657c93f5c23d828710cc5c6064458ae2b53f94323023f5505eeb675723fb`. Four-pixel halo cleanup cleared83,598 exterior pixels, including4,579 vivid-red artifacts, while preserving all ten bodies. Exact prompt, review, crop bounds and provenance are in the J.95 generation files. Atlas `public/assets/animation/keeg-celebrate-right.webp` is480×192 /70,830 bytes / SHA-256 `d1b814b319155e3dcaa6db3bef684f875ceac6637bd0fbaaa17ab38cd961586c`.
 
-Validation passes400 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /854,447 ticks /7 overtime periods,46 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 previews each load160 images and render87 snapshots /452 action frames. Every fall pose selects production art in both facings; the finish pose is selected at tick33 and no ball is owned by Keeg. Strict audit:657 clips /5,728 drawings /105 athletes,2,446 missing clips,3 target shortfalls and4 inherited prompt findings. J.93 `68358c0` is deployed in Pages run #131. J.94 is ready for checkpoint push and deployment. Next roster action: Keeg `celebrate`.
+Validation passes401 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /854,447 ticks /7 overtime periods,47 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 previews each load161 images and render87 snapshots /452 action frames. All ten celebration poses select production art in both facings; frame9 is selected at tick65 and no ball is owned by Keeg. Strict audit:658 clips /5,738 drawings /105 athletes,2,445 missing clips,3 target shortfalls and4 inherited prompt findings. J.94 `ff52277` is deployed in Pages run #132. J.95 is ready for checkpoint push and deployment. Next roster action: Keeg `layup`.
 
 
 ## Active assignment and authorization
@@ -17,12 +17,12 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed commit is J.93 `68358c0`, Pages run #131 succeeded (https://github.com/Manaconda33/Conda-Jam/actions/runs/40040932340).
+Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed commit is J.94 `ff52277`, Pages run #132 succeeded (https://github.com/Manaconda33/Conda-Jam/actions/runs/40041459655).
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
-- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=68358c0
-- J.29–J.93 are pushed to `main`; J.93 `68358c0` is deployed in Pages run #131. J.94 Keeg fall is fully validated locally pending checkpoint push; Keeg has16/29 clips /117 authored drawings. Next action is `celebrate`. Current audit:657 clips /5,728 drawings /105 athletes,2,446 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
+- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=ff52277
+- J.29–J.94 are pushed to `main`; J.94 `ff52277` is deployed in Pages run #132. J.95 Keeg celebration is fully validated locally pending checkpoint push; Keeg has17/29 clips /137 authored drawings. Next action is `layup`. Current audit:658 clips /5,738 drawings /105 athletes,2,445 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
 
 GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion. Full specification remains authoritative at `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md`.
 

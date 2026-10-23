@@ -37719,24 +37719,250 @@
               "atlasBytes": 80258
             },
             "reviewed": true
+          },
+          "celebrate": {
+            "src": "./public/assets/animation/keeg-celebrate-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "814711ae61ac1fa2733cf3c75b46aa79a30d5093c36b96aa08c7a1a07a7c53e7"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c318545f0f70ca335b0a6fbcaa388b55d2b90c6113198e0e8a02ad60b4b37e9f"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "65190b5f421b49d45be038021fe720e86e74d44128f92d79e1b5ea90981c628c"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "318cfdec4f564f3d4d65c1b8f7e4674020f84d0565a8880deb2c34671624fe29"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a9eab3de341c89b865b3a1c316271c6e308da0dad7f9e3bf1213760018c91a39"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fc8a532dbc92b027b2a51bc0b3a74ba6e1d6e1ab828cd2bd183eb3740e92a11c"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "458cde34149d89c63a37ac09fcc6d1beb17b9e1b488da42e26b4103e47fef78f"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "eaa74e0d2102a09949ab0032bd5f069022768d1099a8786bf71fca4820089ae2"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3311333e32f0908aa2c0b824bfb21477d2cc5810702ea997fe47374055947a35"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "00d5fb2f43dd0516c7917007299223e75454b5f01ef664da7b90961b1fdee72f"
+              }
+            ],
+            "sha256": "d1b814b319155e3dcaa6db3bef684f875ceac6637bd0fbaaa17ab38cd961586c",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "celebrate",
+              "direction": "right",
+              "canonicalSection": "K.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-3b30b355-37d2-4337-af6b-78d7d0e21b69",
+              "imageGenerationId": "exec-3b30b355-37d2-4337-af6b-78d7d0e21b69",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j95-keeg-celebrate10.png",
+              "sourceSha256": "b308657c93f5c23d828710cc5c6064458ae2b53f94323023f5505eeb675723fb",
+              "rawSourceImage": "tools/generate-art/sources/j95-keeg-celebrate-generated-raw.png",
+              "rawSourceSha256": "aeea075e5274061dddf4aff07619a9fed4dd24f9f7eacbc18fe2d075b494ee0f",
+              "promptFile": "tools/generate-art/j95-keeg-celebrate-prompt.md",
+              "prompt": "Create a transparent RGBA sprite atlas for JAMVERSE '96 with exactly ten distinct full-body celebration poses of the same Keeg character arranged left-to-right in a five-column by two-row grid, row-major order. Target canvas 1600x800 and cell size 320x400. Each complete figure remains inside its own cell with at least28px transparent clearance, consistent scale, and common shoe baseline. No visible grid, labels, background, floor, shadow, court, opponent, hoop, ball, prop, magic effect or text; only fully opaque character pixels and true transparent RGBA outside each figure. Face right in every pose.\n\nKeeg is a flamboyant adult male human witch and natural athletic human: black hair, neatly trimmed black beard, extremely tall ornate purple witch hat with silver trim and tiny mushrooms, layered lavender/purple/silver basketball uniform with small mushroom and occult details, belts/jewelry, purple-and-silver athletic shoes. Keep his full hat silhouette and ornaments visible and attached in all ten poses. Keep face, beard, hair, clothing colors, body proportions and anatomy consistent. Hands are empty; no basketball in the artwork.\n\nTen unique sequential celebration poses after a successful play, theatrical but grounded and with no supernatural effects: frame0 upright composure and beginning smile; frame1 arms start to rise; frame2 both arms open outward; frame3 raise one fist and gesture confidently; frame4 a proud low fist pump; frame5 swing arms outward in an expressive showman flourish; frame6 bring one hand to chest and extend the other arm toward the crowd; frame7 both arms lift overhead, hat unobstructed; frame8 settle with arms at shoulder height and joyful expression; frame9 finish in relaxed victorious ready pose. Every pose is recognizably distinct, balanced on both feet with plausible joints. Keep the tall hat clear of raised hands and all parts within their own cells.",
+              "sourcePrompt": "Create a transparent RGBA sprite atlas for JAMVERSE '96 with exactly ten distinct full-body celebration poses of the same Keeg character arranged left-to-right in a five-column by two-row grid, row-major order. Target canvas 1600x800 and cell size 320x400. Each complete figure remains inside its own cell with at least28px transparent clearance, consistent scale, and common shoe baseline. No visible grid, labels, background, floor, shadow, court, opponent, hoop, ball, prop, magic effect or text; only fully opaque character pixels and true transparent RGBA outside each figure. Face right in every pose.\n\nKeeg is a flamboyant adult male human witch and natural athletic human: black hair, neatly trimmed black beard, extremely tall ornate purple witch hat with silver trim and tiny mushrooms, layered lavender/purple/silver basketball uniform with small mushroom and occult details, belts/jewelry, purple-and-silver athletic shoes. Keep his full hat silhouette and ornaments visible and attached in all ten poses. Keep face, beard, hair, clothing colors, body proportions and anatomy consistent. Hands are empty; no basketball in the artwork.\n\nTen unique sequential celebration poses after a successful play, theatrical but grounded and with no supernatural effects: frame0 upright composure and beginning smile; frame1 arms start to rise; frame2 both arms open outward; frame3 raise one fist and gesture confidently; frame4 a proud low fist pump; frame5 swing arms outward in an expressive showman flourish; frame6 bring one hand to chest and extend the other arm toward the crowd; frame7 both arms lift overhead, hat unobstructed; frame8 settle with arms at shoulder height and joyful expression; frame9 finish in relaxed victorious ready pose. Every pose is recognizably distinct, balanced on both feet with plausible joints. Keep the tall hat clear of raised hands and all parts within their own cells.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "actionAnchors": {
+                "finish": {
+                  "frame": 9,
+                  "tick": 65
+                }
+              },
+              "ballPolicy": "Keeg celebrates with empty hands. Basketball remains a separate game object; no carried-ball track applies.",
+              "mirrorEligible": true,
+              "cleanup": {
+                "script": "tools/generate-art/clean-dunk-halo.py",
+                "outlineMargin": 4,
+                "removedExteriorPixels": 83598,
+                "removedVividRedPixels": 4579,
+                "sourceDimensions": [
+                  1774,
+                  887
+                ],
+                "generatorRequestedDimensions": [
+                  1600,
+                  800
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "reviewNotes": "Ten distinct complete Keeg celebration poses were reviewed on a white background. His complete purple hat, silver trim and mushroom ornaments remain attached and visible with black hair, close beard, adult human anatomy, layered lavender/purple/silver kit and shoes. Hands remain empty; canon K.03 approves mirroring."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 85,
+                  "y": 4,
+                  "w": 198,
+                  "h": 431,
+                  "component": 1,
+                  "area": 37857
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 428,
+                  "y": 9,
+                  "w": 249,
+                  "h": 426,
+                  "component": 4,
+                  "area": 40101
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 708,
+                  "y": 8,
+                  "w": 385,
+                  "h": 427,
+                  "component": 3,
+                  "area": 41413
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1154,
+                  "y": 5,
+                  "w": 228,
+                  "h": 430,
+                  "component": 2,
+                  "area": 40662
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1513,
+                  "y": 17,
+                  "w": 210,
+                  "h": 418,
+                  "component": 5,
+                  "area": 38686
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 22,
+                  "y": 454,
+                  "w": 299,
+                  "h": 421,
+                  "component": 10,
+                  "area": 40733
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 411,
+                  "y": 460,
+                  "w": 313,
+                  "h": 415,
+                  "component": 12,
+                  "area": 39710
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 757,
+                  "y": 442,
+                  "w": 254,
+                  "h": 434,
+                  "component": 8,
+                  "area": 40428
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1082,
+                  "y": 459,
+                  "w": 356,
+                  "h": 417,
+                  "component": 11,
+                  "area": 40447
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1529,
+                  "y": 449,
+                  "w": 203,
+                  "h": 427,
+                  "component": 9,
+                  "area": 39178
+                }
+              ],
+              "uniformScale": 0.2119815668202765,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original celebrate poses",
+              "atlasPath": "public/assets/animation/keeg-celebrate-right.webp",
+              "atlasSha256": "d1b814b319155e3dcaa6db3bef684f875ceac6637bd0fbaaa17ab38cd961586c",
+              "atlasBytes": 70830
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Keeg’s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. Reviewed J.91 block, J.92 steal, J.93 press/push, and J.94 fall/get-up poses remain legible when mirrored. Balls remain separate game objects.",
+        "notes": "Keeg’s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. Reviewed J.91 block, J.92 steal, J.93 press/push, J.94 fall/get-up, and J.95 celebration poses remain legible when mirrored. Balls remain separate game objects.",
         "reviewedAt": "2026-10-23",
-        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.94",
+        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.95",
         "evidence": [
           "tools/generate-art/keeg-block4-layouts.json",
           "tools/generate-art/keeg-steal8-layouts.json",
           "tools/generate-art/keeg-push11-layouts.json",
           "tools/generate-art/keeg-fall10-layouts.json",
+          "tools/generate-art/keeg-celebrate10-layouts.json",
           "public/assets/animation/keeg-block-right.webp",
           "public/assets/animation/keeg-steal-right.webp",
           "public/assets/animation/keeg-push-right.webp",
           "public/assets/animation/keeg-fall-right.webp",
+          "public/assets/animation/keeg-celebrate-right.webp",
           "tests/animation-sprites.test.js"
         ],
         "canonicalSection": "K.03"

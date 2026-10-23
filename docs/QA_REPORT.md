@@ -1,17 +1,17 @@
 # QA report
 
-## Latest validated checkpoint — J.94 (2026-10-23; local, push pending)
+## Latest validated checkpoint — J.95 (2026-10-23; local, push pending)
 
-- `npm test`: PASS —400 tests, zero failures; includes static offline build.
+- `npm test`: PASS —401 tests, zero failures; includes static offline build.
 - `npm run lint`: PASS —18 JavaScript modules.
 - `npm run validate:content`: PASS —35 franchises /105 unique athletes /35 canonical captains.
 - `npm run simulate:league`: PASS —100 matches /854,447 ticks /7 overtime periods.
-- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —46 packer checks.
+- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —47 packer checks.
 - `npm run build`: PASS —static bundle and standalone offline page.
 - `npm run test:e2e`: PASS —Chromium offline startup, settings, controls, co-op, touch, matchups, full match and season progression.
-- Strict audit: expected INCOMPLETE —657 clips /5,728 authored drawings across105 athletes,2,446 missing clips,3 target shortfalls and4 inherited prompt findings.
-- Keeg standard and zoom120 previews each loaded160 images and rendered87 clip snapshots /452 action frames. All ten fall poses select production art in both facings; the frame9 get-up finish is selected at tick33.
-- J.93 `68358c0` Pages run #131 succeeded. J.94 is ready for checkpoint push and deployment.
+- Strict audit: expected INCOMPLETE —658 clips /5,738 authored drawings across105 athletes,2,445 missing clips,3 target shortfalls and4 inherited prompt findings.
+- Keeg standard and zoom120 previews each loaded161 images and rendered87 clip snapshots /452 action frames. All ten celebration poses select production art in both facings; the frame9 finish is selected at tick65.
+- J.94 `ff52277` Pages run #132 succeeded. J.95 is ready for checkpoint push and deployment.
 
 ## Environment
 
