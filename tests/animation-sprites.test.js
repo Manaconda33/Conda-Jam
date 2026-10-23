@@ -868,3 +868,30 @@ test('Juniper selects the component-isolated eight-pose layup with her own relea
   tick+=animationClips.layup.frames[frame].duration;
  }
 });
+for(const [id,atlas,sourceHash,generationId,cell]of [
+ ['reed-ashcroft','./public/assets/animation/reed-ashcroft-push-right.webp','19e87a173041d908738e7e0de5eab3bdfedc42e39d2e57cb5c674e13574a4c57','exec-60bd6440-2ba0-46a5-866a-7149689d5fa4',0],
+ ['juniper-vale','./public/assets/animation/juniper-vale-push-right.webp','2a73736f88310d65758cd603d63b4eec465979cd6d47355831388f0e975f1ed6','exec-06b35cc0-86a3-4070-8abf-93d917229141',1]
+])test(`${id} selects eleven reviewed press/push poses with the J.01 mirror policy`,()=>{
+ const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.push;
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.sourceCell,cell);assert.equal(policy?.canonicalSection,'J.01');assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'push atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,11);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,11);
+ assert.equal(clip.provenance.sourceSha256,sourceHash);assert.equal(clip.provenance.imageGenerationId,generationId);
+ assert.equal(clip.provenance.c2paClaim,null);assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.componentIsolation,true);
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.sourceRects.length,11);
+ assert.equal(anchorTick('push','contact'),8,'frame5 is the contact pose at tick8');
+ assert.equal(sampleAnimation('push',anchorTick('push','contact')).frame,5);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<11;frame++){
+  assert.equal(sampleAnimation('push',tick).frame,frame,'runtime maps authored push pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'push',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.push.frames[frame].duration;
+ }
+});

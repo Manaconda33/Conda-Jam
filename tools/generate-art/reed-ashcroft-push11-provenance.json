@@ -1,0 +1,23 @@
+{
+  "athlete": "reed-ashcroft",
+  "clip": "push",
+  "direction": "right",
+  "source": "imagegen",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23T04:47:56Z",
+  "imageGenerationId": "exec-60bd6440-2ba0-46a5-866a-7149689d5fa4",
+  "c2paClaim": null,
+  "sourceSha256": "19e87a173041d908738e7e0de5eab3bdfedc42e39d2e57cb5c674e13574a4c57",
+  "promptVerbatim": true,
+  "prompt": "Create exactly 11 original, separate complete full-body right-facing poses of Reed Ashcroft for his JAMVERSE '96 11-frame basketball press/push animation. Arrange them on one transparent RGBA sprite sheet in 4 columns by 3 rows, strict row-major order. Leave the bottom-right (12th) cell fully empty and transparent. Each of the other eleven cells contains one complete isolated Reed figure. Attached reference images establish his exact canonical identity, proportions, costume and illustration style; preserve them faithfully: adult human man, medium-brown skin, dark eyes and brows, small dark goatee, dark purple-black braids gathered into the same high topknot, natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, white lower-leg wear, purple/gold shoes. Keep face, braid silhouette, anatomy, kit colors and scale consistent in all frames. Match the clean, crisp, richly colored 1990s arcade basketball sprite art of the references. No ball is carried: gameplay renders the loose ball separately. Do not include an opponent, extra person, hoop, court, floor, shadow, glow, lettering, numerals, logos, props or contact marks. Keep each head, hair, hands and shoes entirely inside its cell, at the same scale and foot baseline, with wide empty gutters; no clipping, overlap, touching or fused figures. No cell borders, grid lines or panels. Pose sequence: (0) balanced alert defensive ready stance, knees soft, hands open; (1) step toward an unseen opponent, lower hips and lean forward; (2) turn shoulders and draw the leading open hand back beside the chest, other arm balancing; (3) plant the lead foot, drive from the rear leg, leading palm open; (4) extend the lead forearm forward while transferring body weight; (5) CONTACT anchor: full controlled shove extension, open leading palm and arm straight at chest height, rear foot driving, torso braced and eyes focused toward the unseen target; no target is drawn; (6) follow through with arm extended, shoulders and hips continuing forward; (7) retract the arm as momentum carries the torso forward; (8) take a recovery step and lower the arms; (9) regain a balanced defensive stance; (10) settle into the ready pose with a small natural weight shift. Each pose is a distinct complete drawing, anatomically natural, with five fingers where visible and no duplicated frames.",
+  "references": [
+    "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+    "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+    "tools/generate-art/references/reed-ashcroft-locomotion-contact-reference.png",
+    "public/assets/animation/reed-ashcroft-block-right.webp"
+  ],
+  "review": {
+    "status": "accepted",
+    "notes": "Human source review confirms canonical identity and natural anatomy, 11 distinct full-body poses in row-major order, an empty twelfth cell, transparent separation and a readable open-palm contact anchor at frame5. No ball or opponent is drawn."
+  }
+}

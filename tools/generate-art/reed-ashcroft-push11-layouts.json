@@ -1,0 +1,206 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "push",
+    "src": "./public/assets/animation/reed-ashcroft-push-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "reed-ashcroft",
+      "clip": "push",
+      "direction": "right",
+      "source": "imagegen",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23T04:47:56Z",
+      "imageGenerationId": "exec-60bd6440-2ba0-46a5-866a-7149689d5fa4",
+      "c2paClaim": null,
+      "sourceSha256": "19e87a173041d908738e7e0de5eab3bdfedc42e39d2e57cb5c674e13574a4c57",
+      "promptVerbatim": true,
+      "prompt": "Create exactly 11 original, separate complete full-body right-facing poses of Reed Ashcroft for his JAMVERSE '96 11-frame basketball press/push animation. Arrange them on one transparent RGBA sprite sheet in 4 columns by 3 rows, strict row-major order. Leave the bottom-right (12th) cell fully empty and transparent. Each of the other eleven cells contains one complete isolated Reed figure. Attached reference images establish his exact canonical identity, proportions, costume and illustration style; preserve them faithfully: adult human man, medium-brown skin, dark eyes and brows, small dark goatee, dark purple-black braids gathered into the same high topknot, natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, white lower-leg wear, purple/gold shoes. Keep face, braid silhouette, anatomy, kit colors and scale consistent in all frames. Match the clean, crisp, richly colored 1990s arcade basketball sprite art of the references. No ball is carried: gameplay renders the loose ball separately. Do not include an opponent, extra person, hoop, court, floor, shadow, glow, lettering, numerals, logos, props or contact marks. Keep each head, hair, hands and shoes entirely inside its cell, at the same scale and foot baseline, with wide empty gutters; no clipping, overlap, touching or fused figures. No cell borders, grid lines or panels. Pose sequence: (0) balanced alert defensive ready stance, knees soft, hands open; (1) step toward an unseen opponent, lower hips and lean forward; (2) turn shoulders and draw the leading open hand back beside the chest, other arm balancing; (3) plant the lead foot, drive from the rear leg, leading palm open; (4) extend the lead forearm forward while transferring body weight; (5) CONTACT anchor: full controlled shove extension, open leading palm and arm straight at chest height, rear foot driving, torso braced and eyes focused toward the unseen target; no target is drawn; (6) follow through with arm extended, shoulders and hips continuing forward; (7) retract the arm as momentum carries the torso forward; (8) take a recovery step and lower the arms; (9) regain a balanced defensive stance; (10) settle into the ready pose with a small natural weight shift. Each pose is a distinct complete drawing, anatomically natural, with five fingers where visible and no duplicated frames.",
+      "references": [
+        "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+        "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+        "tools/generate-art/references/reed-ashcroft-locomotion-contact-reference.png",
+        "public/assets/animation/reed-ashcroft-block-right.webp"
+      ],
+      "review": {
+        "status": "accepted",
+        "notes": "Human source review confirms canonical identity and natural anatomy, 11 distinct full-body poses in row-major order, an empty twelfth cell, transparent separation and a readable open-palm contact anchor at frame5. No ball or opponent is drawn."
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-push11-candidate1.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 44,
+          "y": 21,
+          "w": 247,
+          "h": 344,
+          "component": 1,
+          "area": 38975
+        },
+        {
+          "sourceIndex": 1,
+          "x": 390,
+          "y": 43,
+          "w": 311,
+          "h": 320,
+          "component": 3,
+          "area": 39693
+        },
+        {
+          "sourceIndex": 2,
+          "x": 794,
+          "y": 37,
+          "w": 279,
+          "h": 327,
+          "component": 2,
+          "area": 40077
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1110,
+          "y": 43,
+          "w": 319,
+          "h": 321,
+          "component": 4,
+          "area": 40941
+        },
+        {
+          "sourceIndex": 4,
+          "x": 18,
+          "y": 411,
+          "w": 358,
+          "h": 318,
+          "component": 7,
+          "area": 41027
+        },
+        {
+          "sourceIndex": 5,
+          "x": 374,
+          "y": 411,
+          "w": 386,
+          "h": 318,
+          "component": 8,
+          "area": 39518
+        },
+        {
+          "sourceIndex": 6,
+          "x": 753,
+          "y": 406,
+          "w": 395,
+          "h": 323,
+          "component": 5,
+          "area": 42461
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1118,
+          "y": 408,
+          "w": 274,
+          "h": 321,
+          "component": 6,
+          "area": 36687
+        },
+        {
+          "sourceIndex": 8,
+          "x": 47,
+          "y": 747,
+          "w": 271,
+          "h": 312,
+          "component": 10,
+          "area": 35437
+        },
+        {
+          "sourceIndex": 9,
+          "x": 428,
+          "y": 754,
+          "w": 249,
+          "h": 307,
+          "component": 11,
+          "area": 34888
+        },
+        {
+          "sourceIndex": 10,
+          "x": 775,
+          "y": 746,
+          "w": 253,
+          "h": 315,
+          "component": 9,
+          "area": 37314
+        }
+      ],
+      "uniformScale": 0.26744186046511625,
+      "componentIsolation": true,
+      "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses"
+    }
+  }
+]

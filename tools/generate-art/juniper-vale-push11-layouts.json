@@ -1,0 +1,206 @@
+[
+  {
+    "athlete": "juniper-vale",
+    "direction": "right",
+    "clip": "push",
+    "src": "./public/assets/animation/juniper-vale-push-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "juniper-vale",
+      "clip": "push",
+      "direction": "right",
+      "source": "imagegen",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23T04:46:29Z",
+      "imageGenerationId": "exec-06b35cc0-86a3-4070-8abf-93d917229141",
+      "c2paClaim": null,
+      "sourceSha256": "2a73736f88310d65758cd603d63b4eec465979cd6d47355831388f0e975f1ed6",
+      "promptVerbatim": true,
+      "prompt": "Create exactly 11 original, separate complete full-body right-facing poses of Juniper Vale for her JAMVERSE '96 11-frame basketball press/push animation. Arrange them on one transparent RGBA sprite sheet in 4 columns by 3 rows, strict row-major order. Leave the bottom-right (12th) cell fully empty and transparent. Each of the other eleven cells contains one complete isolated Juniper figure. Attached reference images establish her exact canonical identity, proportions, costume and illustration style; preserve them faithfully: adult human woman, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the same small gold tie, compact natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, dark knee pads, purple/gold shoes. Keep face, high-curl silhouette and tie, anatomy, kit colors and scale consistent in all frames; uniform stays completely blank with no numerals. Match the clean, crisp, richly colored 1990s arcade basketball sprite art of the references. No ball is carried: gameplay renders the loose ball separately. Do not include an opponent, extra person, hoop, court, floor, shadow, glow, lettering, numerals, logos, props or contact marks. Keep each head, hair, hands and shoes entirely inside its cell, at the same scale and foot baseline, with wide empty gutters; no clipping, overlap, touching or fused figures. No cell borders, grid lines or panels. Pose sequence: (0) balanced alert defensive ready stance, knees soft, hands open; (1) step toward an unseen opponent, lower hips and lean forward; (2) turn shoulders and draw the leading open hand back beside the chest, other arm balancing; (3) plant the lead foot, drive from the rear leg, leading palm open; (4) extend the lead forearm forward while transferring body weight; (5) CONTACT anchor: full controlled shove extension, open leading palm and arm straight at chest height, rear foot driving, torso braced and eyes focused toward the unseen target; no target is drawn; (6) follow through with arm extended, shoulders and hips continuing forward; (7) retract the arm as momentum carries the torso forward; (8) take a recovery step and lower the arms; (9) regain a balanced defensive stance; (10) settle into the ready pose with a small natural weight shift. Each pose is a distinct complete drawing, anatomically natural, with five fingers where visible and no duplicated frames.",
+      "references": [
+        "tools/generate-art/references/juniper-vale-portrait-reference.png",
+        "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+        "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+        "public/assets/animation/juniper-vale-block-right.webp"
+      ],
+      "review": {
+        "status": "accepted",
+        "notes": "Human source review confirms canonical identity and natural anatomy, 11 distinct full-body poses in row-major order, an empty twelfth cell, transparent separation and a readable open-palm contact anchor at frame5. No ball or opponent is drawn."
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-push11-candidate1.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 73,
+          "y": 47,
+          "w": 215,
+          "h": 310,
+          "component": 1,
+          "area": 33039
+        },
+        {
+          "sourceIndex": 1,
+          "x": 417,
+          "y": 66,
+          "w": 245,
+          "h": 290,
+          "component": 3,
+          "area": 31275
+        },
+        {
+          "sourceIndex": 2,
+          "x": 792,
+          "y": 62,
+          "w": 242,
+          "h": 295,
+          "component": 2,
+          "area": 31358
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1119,
+          "y": 66,
+          "w": 300,
+          "h": 291,
+          "component": 4,
+          "area": 31301
+        },
+        {
+          "sourceIndex": 4,
+          "x": 39,
+          "y": 407,
+          "w": 313,
+          "h": 312,
+          "component": 6,
+          "area": 37278
+        },
+        {
+          "sourceIndex": 5,
+          "x": 385,
+          "y": 410,
+          "w": 315,
+          "h": 308,
+          "component": 8,
+          "area": 35440
+        },
+        {
+          "sourceIndex": 6,
+          "x": 744,
+          "y": 407,
+          "w": 325,
+          "h": 311,
+          "component": 7,
+          "area": 37214
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1136,
+          "y": 403,
+          "w": 251,
+          "h": 316,
+          "component": 5,
+          "area": 33780
+        },
+        {
+          "sourceIndex": 8,
+          "x": 75,
+          "y": 757,
+          "w": 221,
+          "h": 300,
+          "component": 10,
+          "area": 32810
+        },
+        {
+          "sourceIndex": 9,
+          "x": 429,
+          "y": 763,
+          "w": 228,
+          "h": 296,
+          "component": 11,
+          "area": 32646
+        },
+        {
+          "sourceIndex": 10,
+          "x": 782,
+          "y": 752,
+          "w": 215,
+          "h": 307,
+          "component": 9,
+          "area": 33174
+        }
+      ],
+      "uniformScale": 0.2911392405063291,
+      "componentIsolation": true,
+      "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses"
+    }
+  }
+]

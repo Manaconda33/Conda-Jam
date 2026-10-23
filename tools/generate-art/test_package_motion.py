@@ -20,6 +20,9 @@ pickup_spec.loader.exec_module(action5)
 steal_spec = importlib.util.spec_from_file_location('action8', Path(__file__).with_name('package-action8.py'))
 action8 = importlib.util.module_from_spec(steal_spec)
 steal_spec.loader.exec_module(action8)
+push_spec = importlib.util.spec_from_file_location('action11', Path(__file__).with_name('package-action11.py'))
+action11 = importlib.util.module_from_spec(push_spec)
+push_spec.loader.exec_module(action11)
 
 
 class SourceValidation(unittest.TestCase):
@@ -259,6 +262,56 @@ class FivePoseActionPackaging(unittest.TestCase):
             atlas=Image.open(assets/'reed-ashcroft-pickup-right.webp').convert('RGBA')
             frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
             self.assertEqual(len(set(frame_pixels)),5)
+
+
+class ElevenPoseActionPackaging(unittest.TestCase):
+    def source(self):
+        image=Image.new('RGBA',(1200,900),(0,0,0,0));draw=ImageDraw.Draw(image)
+        for index in range(11):
+            row,column=divmod(index,4)
+            x,y=column*300+45,row*300+35
+            draw.rectangle((x,y,x+115,y+245),fill=(40+index*12,80+index*7,190-index*9,255))
+        image.putpixel((1190,890),(255,255,255,255))  # ignore noise in the empty twelfth cell
+        return image
+
+    def test_eleven_original_push_frames_pack_in_four_by_three_order(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'reed-ashcroft','clip':'push','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'eleven separate press and push poses','sourceSha256':action11.sha256(source),
+                'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action11.ROOT,action11.OUTPUT_DIR
+            action11.ROOT,action11.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action11.package('reed-ashcroft',source,provenance_path)
+            finally:
+                action11.ROOT,action11.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['columns'],layout['rows']),(4,3))
+            self.assertEqual(len(layout['frames']),11)
+            cell_width=layout['frames'][0]['w']
+            self.assertEqual([frame['x'] for frame in layout['frames']],[0,cell_width,2*cell_width,3*cell_width,0,cell_width,2*cell_width,3*cell_width,0,cell_width,2*cell_width])
+            self.assertEqual([rect['sourceIndex'] for rect in layout['provenance']['sourceRects']],list(range(11)))
+            atlas=Image.open(assets/'reed-ashcroft-push-right.webp').convert('RGBA')
+            frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
+            self.assertEqual(len(set(frame_pixels)),11)
+            self.assertTrue(layout['provenance']['componentIsolation'])
+
+    def test_empty_or_misordered_push_cells_are_rejected(self):
+        image=self.source()
+        # Move the last body into the otherwise empty twelfth cell.
+        pixels=np.asarray(image).copy()
+        pixels[600:900,900:1200]=0
+        pixels[600:900,600:900]=0
+        pixels[640:880,940:1055]=(40,80,190,255)
+        with self.assertRaisesRegex(ValueError,'first eleven cells'):
+            action11.pose_rectangles(Image.fromarray(pixels,'RGBA'))
 
 
 class EightPoseActionPackaging(unittest.TestCase):

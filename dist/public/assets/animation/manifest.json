@@ -7270,6 +7270,223 @@
             "reviewed": true,
             "reviewedAt": "2026-10-23",
             "reviewNotes": "Four distinct complete block poses were reviewed on light/dark grounds with clean transparent gutters. Reed identity, blank kit and white lower-leg wear match J.01; the apex has two open raised hands and empty palms. J.01 permits safe body mirroring for both facings. The blocker carries no ball."
+          },
+          "push": {
+            "src": "./public/assets/animation/reed-ashcroft-push-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8dfefd162a3ea87e9215b2273b5b8d620e56dabbf121580bd0927b2f9a91ace8"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "1d030a5f249634d66ae367712352799cfb3b5e991f195018382296c8b2b3bd89"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "e3348260396fa882726ec4e63a2058e6b8a130ddfdb1f0a77e590a9808d5ddcc"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "3ffd48e2d8b3d33c2bbfb79362ef0ad865423e3fd60196966209a7183e205fc2"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "a9bc0fa77a7677081d9aafde79a870b352bb43d9dd0cbe40109b381d1f00816f"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "36190a29bb5e8c0605e6f4818d056d64cd9bb5e3410e9b23059fb6d9f7988ca1"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "72b23b6f372aeb6fa034d812f40bffde957078815a5d42bdfa45bd4da264cb42"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "4dff0c0fc52ca5317f5f4cfaf090d452fa5564ff0a053df7b387d30962329ab3"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "04de9aaeef0255dd4dd6ca3669c1b03d3326acdcc056621462dead4a4f56e83f"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "a9b51aa0d8be851de496ecb647a4a68476bed565b30dfde306331572eaea1b6c"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "4f1c30a541e50061a02bb56f4b21a4891a249eb6ae6eedad2e790b99056a4c46"
+              }
+            ],
+            "sha256": "57e9f5a1fe173574af58bde84e93dc3c147a802acc7b479fe117a6e78ebbb571",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "push",
+              "direction": "right",
+              "source": "imagegen",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T04:47:56Z",
+              "imageGenerationId": "exec-60bd6440-2ba0-46a5-866a-7149689d5fa4",
+              "c2paClaim": null,
+              "sourceSha256": "19e87a173041d908738e7e0de5eab3bdfedc42e39d2e57cb5c674e13574a4c57",
+              "promptVerbatim": true,
+              "prompt": "Create exactly 11 original, separate complete full-body right-facing poses of Reed Ashcroft for his JAMVERSE '96 11-frame basketball press/push animation. Arrange them on one transparent RGBA sprite sheet in 4 columns by 3 rows, strict row-major order. Leave the bottom-right (12th) cell fully empty and transparent. Each of the other eleven cells contains one complete isolated Reed figure. Attached reference images establish his exact canonical identity, proportions, costume and illustration style; preserve them faithfully: adult human man, medium-brown skin, dark eyes and brows, small dark goatee, dark purple-black braids gathered into the same high topknot, natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, white lower-leg wear, purple/gold shoes. Keep face, braid silhouette, anatomy, kit colors and scale consistent in all frames. Match the clean, crisp, richly colored 1990s arcade basketball sprite art of the references. No ball is carried: gameplay renders the loose ball separately. Do not include an opponent, extra person, hoop, court, floor, shadow, glow, lettering, numerals, logos, props or contact marks. Keep each head, hair, hands and shoes entirely inside its cell, at the same scale and foot baseline, with wide empty gutters; no clipping, overlap, touching or fused figures. No cell borders, grid lines or panels. Pose sequence: (0) balanced alert defensive ready stance, knees soft, hands open; (1) step toward an unseen opponent, lower hips and lean forward; (2) turn shoulders and draw the leading open hand back beside the chest, other arm balancing; (3) plant the lead foot, drive from the rear leg, leading palm open; (4) extend the lead forearm forward while transferring body weight; (5) CONTACT anchor: full controlled shove extension, open leading palm and arm straight at chest height, rear foot driving, torso braced and eyes focused toward the unseen target; no target is drawn; (6) follow through with arm extended, shoulders and hips continuing forward; (7) retract the arm as momentum carries the torso forward; (8) take a recovery step and lower the arms; (9) regain a balanced defensive stance; (10) settle into the ready pose with a small natural weight shift. Each pose is a distinct complete drawing, anatomically natural, with five fingers where visible and no duplicated frames.",
+              "references": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "tools/generate-art/references/reed-ashcroft-locomotion-contact-reference.png",
+                "public/assets/animation/reed-ashcroft-block-right.webp"
+              ],
+              "review": {
+                "status": "accepted",
+                "notes": "Human source review confirms canonical identity and natural anatomy, 11 distinct full-body poses in row-major order, an empty twelfth cell, transparent separation and a readable open-palm contact anchor at frame5. No ball or opponent is drawn."
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-push11-candidate1.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 44,
+                  "y": 21,
+                  "w": 247,
+                  "h": 344,
+                  "component": 1,
+                  "area": 38975
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 390,
+                  "y": 43,
+                  "w": 311,
+                  "h": 320,
+                  "component": 3,
+                  "area": 39693
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 794,
+                  "y": 37,
+                  "w": 279,
+                  "h": 327,
+                  "component": 2,
+                  "area": 40077
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1110,
+                  "y": 43,
+                  "w": 319,
+                  "h": 321,
+                  "component": 4,
+                  "area": 40941
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 18,
+                  "y": 411,
+                  "w": 358,
+                  "h": 318,
+                  "component": 7,
+                  "area": 41027
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 374,
+                  "y": 411,
+                  "w": 386,
+                  "h": 318,
+                  "component": 8,
+                  "area": 39518
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 753,
+                  "y": 406,
+                  "w": 395,
+                  "h": 323,
+                  "component": 5,
+                  "area": 42461
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1118,
+                  "y": 408,
+                  "w": 274,
+                  "h": 321,
+                  "component": 6,
+                  "area": 36687
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 47,
+                  "y": 747,
+                  "w": 271,
+                  "h": 312,
+                  "component": 10,
+                  "area": 35437
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 428,
+                  "y": 754,
+                  "w": 249,
+                  "h": 307,
+                  "component": 11,
+                  "area": 34888
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 775,
+                  "y": 746,
+                  "w": 253,
+                  "h": 315,
+                  "component": 9,
+                  "area": 37314
+                }
+              ],
+              "uniformScale": 0.26744186046511625,
+              "componentIsolation": true,
+              "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses",
+              "sourcePromptStatus": "verbatim"
+            },
+            "reviewed": true,
+            "reviewNotes": "Reviewed source sheet and light/dark atlas: canonical identity and human anatomy preserved, eleven distinct complete poses, transparent gutters, no ball or opponent, and a readable open-palm contact anchor at frame5. J.01 mirror review approves body flipping for both facings."
           }
         }
       },
@@ -11257,6 +11474,223 @@
             "reviewed": true,
             "reviewedAt": "2026-10-23",
             "reviewNotes": "Four distinct complete block poses were reviewed on light/dark grounds with clean transparent gutters. Juniper identity, high curls and gold tie, compact natural human anatomy, blank kit and dark knee pads match J.01; the apex has two open raised hands and empty palms. J.01 permits safe body mirroring for both facings. The blocker carries no ball."
+          },
+          "push": {
+            "src": "./public/assets/animation/juniper-vale-push-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "824236609158da86700dd908c1315d6eba5a7daccb1457f6e5c913464cbbc484"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "a94d78571b352aa48095d7910c46c89b48e2c2c975c2345895a722610152d39b"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "904cddd284bce080a369f778b1e1759af7502a44bcbf1f4908227fd0c78315ce"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "7fb7433976ca6366abfd4503f8e51200e001c5efcad92495769a632af9a6f677"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "488e4cde1b4355ff86b0c66f0d202b251c132a759b84e74f1d62cb6d8390b4ba"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "4bf8493f386c10cfe68b82aca2aa6744a8152a01101d172e6e55e2d7ccbf2fc7"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "6e6094db60ff7e761f9830cc6c1ed9dc40d3f4234bbaf5e54702ce02c7e1474a"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "0d90bda6abce14ec212659b3d1b8541b8f21c40f8396bce1ad30f96882a9b540"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "1805cb58e00e36dfb63e5b7f0030f614f05775d3f96c0605e0257f23c07d1c5b"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "7ddf43228168a9ddfe4b52b01486c73bf1d3d3b107d21681e828493f89f5794b"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "6371a1aa3055f9745b56f3dc6d37ea2434d5721af626e194284629c959c15c41"
+              }
+            ],
+            "sha256": "cef44862940bf54041543341feff37f5fb27fe798051a26412f556231b77faec",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "push",
+              "direction": "right",
+              "source": "imagegen",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T04:46:29Z",
+              "imageGenerationId": "exec-06b35cc0-86a3-4070-8abf-93d917229141",
+              "c2paClaim": null,
+              "sourceSha256": "2a73736f88310d65758cd603d63b4eec465979cd6d47355831388f0e975f1ed6",
+              "promptVerbatim": true,
+              "prompt": "Create exactly 11 original, separate complete full-body right-facing poses of Juniper Vale for her JAMVERSE '96 11-frame basketball press/push animation. Arrange them on one transparent RGBA sprite sheet in 4 columns by 3 rows, strict row-major order. Leave the bottom-right (12th) cell fully empty and transparent. Each of the other eleven cells contains one complete isolated Juniper figure. Attached reference images establish her exact canonical identity, proportions, costume and illustration style; preserve them faithfully: adult human woman, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the same small gold tie, compact natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, dark knee pads, purple/gold shoes. Keep face, high-curl silhouette and tie, anatomy, kit colors and scale consistent in all frames; uniform stays completely blank with no numerals. Match the clean, crisp, richly colored 1990s arcade basketball sprite art of the references. No ball is carried: gameplay renders the loose ball separately. Do not include an opponent, extra person, hoop, court, floor, shadow, glow, lettering, numerals, logos, props or contact marks. Keep each head, hair, hands and shoes entirely inside its cell, at the same scale and foot baseline, with wide empty gutters; no clipping, overlap, touching or fused figures. No cell borders, grid lines or panels. Pose sequence: (0) balanced alert defensive ready stance, knees soft, hands open; (1) step toward an unseen opponent, lower hips and lean forward; (2) turn shoulders and draw the leading open hand back beside the chest, other arm balancing; (3) plant the lead foot, drive from the rear leg, leading palm open; (4) extend the lead forearm forward while transferring body weight; (5) CONTACT anchor: full controlled shove extension, open leading palm and arm straight at chest height, rear foot driving, torso braced and eyes focused toward the unseen target; no target is drawn; (6) follow through with arm extended, shoulders and hips continuing forward; (7) retract the arm as momentum carries the torso forward; (8) take a recovery step and lower the arms; (9) regain a balanced defensive stance; (10) settle into the ready pose with a small natural weight shift. Each pose is a distinct complete drawing, anatomically natural, with five fingers where visible and no duplicated frames.",
+              "references": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+                "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+                "public/assets/animation/juniper-vale-block-right.webp"
+              ],
+              "review": {
+                "status": "accepted",
+                "notes": "Human source review confirms canonical identity and natural anatomy, 11 distinct full-body poses in row-major order, an empty twelfth cell, transparent separation and a readable open-palm contact anchor at frame5. No ball or opponent is drawn."
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-push11-candidate1.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 73,
+                  "y": 47,
+                  "w": 215,
+                  "h": 310,
+                  "component": 1,
+                  "area": 33039
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 417,
+                  "y": 66,
+                  "w": 245,
+                  "h": 290,
+                  "component": 3,
+                  "area": 31275
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 792,
+                  "y": 62,
+                  "w": 242,
+                  "h": 295,
+                  "component": 2,
+                  "area": 31358
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1119,
+                  "y": 66,
+                  "w": 300,
+                  "h": 291,
+                  "component": 4,
+                  "area": 31301
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 39,
+                  "y": 407,
+                  "w": 313,
+                  "h": 312,
+                  "component": 6,
+                  "area": 37278
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 385,
+                  "y": 410,
+                  "w": 315,
+                  "h": 308,
+                  "component": 8,
+                  "area": 35440
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 744,
+                  "y": 407,
+                  "w": 325,
+                  "h": 311,
+                  "component": 7,
+                  "area": 37214
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1136,
+                  "y": 403,
+                  "w": 251,
+                  "h": 316,
+                  "component": 5,
+                  "area": 33780
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 75,
+                  "y": 757,
+                  "w": 221,
+                  "h": 300,
+                  "component": 10,
+                  "area": 32810
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 429,
+                  "y": 763,
+                  "w": 228,
+                  "h": 296,
+                  "component": 11,
+                  "area": 32646
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 782,
+                  "y": 752,
+                  "w": 215,
+                  "h": 307,
+                  "component": 9,
+                  "area": 33174
+                }
+              ],
+              "uniformScale": 0.2911392405063291,
+              "componentIsolation": true,
+              "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses",
+              "sourcePromptStatus": "verbatim"
+            },
+            "reviewed": true,
+            "reviewNotes": "Reviewed source sheet and light/dark atlas: canonical identity and human anatomy preserved, eleven distinct complete poses, transparent gutters, no ball or opponent, and a readable open-palm contact anchor at frame5. J.01 mirror review approves body flipping for both facings."
           }
         }
       },
