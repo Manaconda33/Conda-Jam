@@ -1,0 +1,32 @@
+{
+  "athlete": "juniper-vale",
+  "clip": "receive",
+  "direction": "right",
+  "generationId": null,
+  "generatedAt": "2026-10-23T03:00:36.033058985Z",
+  "sourceClaimId": "urn:c2pa:d04c3b01-9367-47fd-a74d-c5c41f163a6e",
+  "sourceInstanceId": "xmp:iid:dbee373e-f2d7-4c36-932c-ad8df912c911",
+  "prompt": "Create an original transparent RGBA sprite sheet with exactly four complete full-body action drawings of Juniper Vale, Chicago Condas support athlete cell1. Use the attached portrait as strict identity reference and her clean standard-pass atlas for game-sprite scale, style and uniform; do not copy a pose. Preserve light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the small gold tie, compact natural human athletic proportions, dark-purple basketball uniform with gold trim, dark knee pads and matching shoes. Crucial uniform rule: the jersey and shorts are plain blank fabric with gold trim only. Absolutely no numerals, number 3, digits, lettering, logos, badges or text anywhere. No pointed ears, fantasy traits, glasses, extra jewelry, armor or props. Use a right-facing three-quarter full-body view. Arrange exactly four distinct complete figures in a 2-column by 2-row sheet, strict row-major order. Transparent background; each full silhouette visible, isolated and separated by clear gutters. No cropping, clipping, overlap, touching, fusion, ground, shadows, glow, panels, borders, grid lines or extra figures. The game basketball is separate: no ball, circle or held object is drawn in or near either hand in any frame. Pose sequence: 0 track an incoming pass in a balanced stance with both empty hands open in front of the chest; 1 step toward the catch and extend both open hands slightly forward and up, eyes following the unseen pass; 2 marked catch frame: close both empty hands together at chest height as though securing the ball, elbows bend to absorb impact; 3 cushion the catch and draw both still-empty hands toward the chest while settling into a stable possession stance. Make frame2 clearly read as the catch without drawing a ball. Keep face, hair, skin, build, blank uniform and scale consistent.",
+  "sourcePrompt": "Create an original transparent RGBA sprite sheet with exactly four complete full-body action drawings of Juniper Vale, Chicago Condas support athlete cell1. Use the attached portrait as strict identity reference and her clean standard-pass atlas for game-sprite scale, style and uniform; do not copy a pose. Preserve light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the small gold tie, compact natural human athletic proportions, dark-purple basketball uniform with gold trim, dark knee pads and matching shoes. Crucial uniform rule: the jersey and shorts are plain blank fabric with gold trim only. Absolutely no numerals, number 3, digits, lettering, logos, badges or text anywhere. No pointed ears, fantasy traits, glasses, extra jewelry, armor or props. Use a right-facing three-quarter full-body view. Arrange exactly four distinct complete figures in a 2-column by 2-row sheet, strict row-major order. Transparent background; each full silhouette visible, isolated and separated by clear gutters. No cropping, clipping, overlap, touching, fusion, ground, shadows, glow, panels, borders, grid lines or extra figures. The game basketball is separate: no ball, circle or held object is drawn in or near either hand in any frame. Pose sequence: 0 track an incoming pass in a balanced stance with both empty hands open in front of the chest; 1 step toward the catch and extend both open hands slightly forward and up, eyes following the unseen pass; 2 marked catch frame: close both empty hands together at chest height as though securing the ball, elbows bend to absorb impact; 3 cushion the catch and draw both still-empty hands toward the chest while settling into a stable possession stance. Make frame2 clearly read as the catch without drawing a ball. Keep face, hair, skin, build, blank uniform and scale consistent.",
+  "referencePaths": [
+    "tools/generate-art/references/juniper-vale-portrait-reference.png",
+    "public/assets/animation/juniper-vale-pass-right.webp"
+  ],
+  "identityReferenceCell": 1,
+  "eligibleForPacking": true,
+  "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-receive4-candidate2.png",
+  "sourceSha256": "036575d4a5180a6579d4f818453bedfbb397e09c3ad766481240f467db5045d4",
+  "review": {
+    "status": "accepted",
+    "notes": "Visually reviewed source on light and dark grounds. The 2x2 sheet has four complete distinct Juniper Vale poses matching canonical cell1 skin, face, hair, human build and Chicago Condas identity. Both hands stay empty and no jersey numerals appear. The bottom-left source pose (frame2) is the marked catch; the bottom-right pose cushions the catch. Alpha>=64 component review identifies four complete isolated bodies and one unrelated two-pixel speck below the packaging threshold. The packer isolates original bodies and drops only non-body alpha noise; no pose is redrawn, copied or mirrored."
+  },
+  "rejectedAttempts": [
+    {
+      "generationId": null,
+      "sourceClaimId": "urn:c2pa:6e3aef87-a632-4875-b60c-cc421882e106",
+      "sha256": "e6801ae7b7286ae13c02dbef99eeb4ffee796c0046b9105a745f1c502965d5cd",
+      "file": "tools/generate-art/sources/juniper-vale-receive4-attempt1-rejected-jersey-numbers.png",
+      "reason": "Visible jersey numerals violated the uniform identity constraints; preserved whole and excluded from packing."
+    }
+  ]
+}

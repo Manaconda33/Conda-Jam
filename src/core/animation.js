@@ -97,12 +97,16 @@ const athleteBallTracks={'reed-ashcroft':{
   // torso; frame 3 is the authored release hand, not the shared torso offset.
   pass:{height:[.9,1.2,1.45,1.5,1.45,.95],forward:[8,7.5,12.5,18,17.5,9]},
   'pass-overhead':{height:[1.1,1.65,2.25,2.15,1.95,1.1],forward:[6.5,10,11,12.5,12,6.5]},
-  'pass-behind':{height:[1,1,.95,1.25,1.15,.95],forward:[3,1,-8,-14.5,-12,2]}
+  'pass-behind':{height:[1,1,.95,1.25,1.15,.95],forward:[3,1,-8,-14.5,-12,2]},
+  // The separate ball follows Reed's open hands through the chest-height catch.
+  receive:{height:[1.25,1.4,1.5,1.4],forward:[8,13,15,11]}
 },'juniper-vale':{
   // Juniper's compact 96x96 poses have a shorter reach than Reed's release.
   pass:{height:[.9,1.2,1.4,1.5,1.45,.95],forward:[7,7.5,10.5,15,14.5,8.5]},
   'pass-overhead':{height:[1.1,1.65,2.25,2.15,1.95,1.1],forward:[6.5,9.5,10,10.5,10,6.5]},
-  'pass-behind':{height:[1,1,.95,1.25,1.15,.95],forward:[3,1,-8,-14,-12,2]}
+  'pass-behind':{height:[1,1,.95,1.25,1.15,.95],forward:[3,1,-8,-14,-12,2]},
+  // Juniper's compact stance pulls the separately rendered ball closer to her chest.
+  receive:{height:[1.25,1.4,1.5,1.4],forward:[7,11,13,10]}
 },'sera-bellini':{
   // The reviewed 80x96 sheet places the lead hand ahead of her torso; keep
   // the separate game ball at that hand through her court-level bounce.

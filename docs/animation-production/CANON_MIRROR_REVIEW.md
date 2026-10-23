@@ -144,3 +144,10 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 |:--|--:|:--:|:--|
 | Reed Ashcroft | 0 | yes | Six right-facing behind-pass poses retain Reed's cell0 medium-brown skin, goatee, dark-purple braids in a high topknot, white lower-leg wear and purple/gold Condas kit. All hands are empty; no fixed-side detail is present. Frame3 releases behind the hip and frame4 follows through low. Standard and zoom120 previews show production selection in both facings and the separate ball at the rear hand. |
 | Juniper Vale | 1 | yes | Six right-facing behind-pass poses retain Juniper's cell1 light-warm skin, dark-purple curls and gold tie, compact human proportions, dark knee pads and purple/gold kit. All hands are empty; no fixed-side detail is present. Frame3 releases behind the hip and frame4 follows through low. Standard and zoom120 previews show production selection in both facings and the separate ball at the rear hand. |
+
+## J.36 receive clips
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Reed Ashcroft | 0 | yes | Four right-facing receive poses retain Reed's medium-brown skin, goatee, dark-purple braids in a high topknot, white lower-leg wear and purple/gold Condas kit. The art has empty hands and no fixed-side marks; frame2 is the chest-height catch. Standard and zoom120 native previews select production art in both facings and show the separate ball at the hands. |
+| Juniper Vale | 1 | yes | Four right-facing receive poses retain Juniper's light-warm skin, high dark-purple curls with the gold tie, compact human proportions, dark knee pads and purple/gold Condas kit. Her uniform remains blank with no numerals or logos; hands are empty, and frame2 is the chest-height catch. Standard and zoom120 native previews select production art in both facings and show the separate ball at the hands. |

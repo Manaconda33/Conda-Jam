@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {athleteVisualScale,ballDrawDepth} from '../src/render/animation-sprites.js';
 import {animationAssetManifest} from '../src/content/animation-assets.js';
 import {animationMirrorPolicy} from '../src/content/animation-mirror-policy.js';
-import {animationClips} from '../src/core/animation.js';
+import {animationClips,anchorTick} from '../src/core/animation.js';
 test('Manaconda retains all29 reviewed production clips and293 distinct authored crops',()=>{
  const clips=animationAssetManifest.characters.manaconda.directions.right;
  assert.deepEqual(Object.keys(clips).sort(),Object.keys(animationClips).sort());let total=0;
@@ -635,6 +635,42 @@ test('Reed Ashcroft and Juniper Vale select six reviewed behind-pass poses in bo
     assert.equal(sprite?.flip,flip,id+' frame'+frame+' safe facing');
    }
    tick+=animationClips['pass-behind'].frames[frame].duration;
+  }
+ }
+});
+test('Reed Ashcroft and Juniper Vale select four reviewed receive poses in both facings',()=>{
+ const expected={
+  'reed-ashcroft':{cell:0,sha:'db671f39313f9bca36902999f95f466b69ed2eba01dc957f6388e40cf4b6bb1a',claim:'urn:c2pa:37f708bb-82c2-495d-90c6-96ed1a6e873a'},
+  'juniper-vale':{cell:1,sha:'036575d4a5180a6579d4f818453bedfbb397e09c3ad766481240f467db5045d4',claim:'urn:c2pa:d04c3b01-9367-47fd-a74d-c5c41f163a6e'},
+ };
+ assert.equal(anchorTick('receive','grab'),4,'receive frame2 is the catch frame');
+ for(const [id,{cell,sha,claim}] of Object.entries(expected)){
+  const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.receive;
+  assert.equal(character?.mirrorSafe,true,id+' canon-safe mirror policy');
+  assert.equal(character?.mirrorReview?.status,'reviewed',id+' canon mirror review');
+  assert.equal(policy?.sourceCell,cell,id+' uses canonical supporting cell');
+  assert.equal(character?.directions?.left,undefined,id+' uses reviewed body mirroring');
+  assert.ok(clip,id+' receive registration');
+  assert.equal(clip.reviewed,true,id+' atlas visual review');
+  assert.equal(clip.frames.length,4,id+' four authored poses');
+  assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,4,id+' four unique decoded frame hashes');
+  assert.equal(clip.provenance.sourceSha256,sha,id+' accepted source hash');
+  assert.equal(clip.provenance.sourceClaimId,claim,id+' C2PA source claim');
+  assert.equal(clip.provenance.componentIsolation,true,id+' records component-only isolation');
+  assert.equal(clip.provenance.review.status,'accepted',id+' accepted source review');
+  assert.equal(clip.provenance.sourceRects.length,4,id+' records four source crops');
+  assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),[0,1,2,3],id+' maps poses in row-major order');
+  const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+  const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+  let tick=0;
+  for(let frame=0;frame<4;frame++){
+   for(const [facing,flip] of [[1,false],[-1,true]]){
+    const sprite=selectProductionSprite({id,facing,animation:{clip:'receive',tick}},{manifest:animationAssetManifest,images});
+    assert.equal(sprite?.atlas.file,clip.src,id+' frame'+frame+' production source');
+    assert.equal(sprite?.frame,frame,id+' frame'+frame+' pose mapping');
+    assert.equal(sprite?.flip,flip,id+' frame'+frame+' safe facing');
+   }
+   tick+=animationClips.receive.frames[frame].duration;
   }
  }
 });

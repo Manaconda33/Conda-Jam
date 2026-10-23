@@ -12,9 +12,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
-- Latest deployed source checkpoint: `7d15edc873a8dee34d87a3267e51dcc40c5fcaef`; Pages run #74 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39887404096>.
-- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=7d15edc>.
-- J.29–J.35 art batches are pushed and deployed. J.36 Reed Ashcroft and Juniper Vale now have reviewed standard and overhead passes integrated locally; their checkpoint is pending push and Pages verification.
+- Latest deployed source checkpoint: `cd096cb74b3be98a6e6bb7683a874e9758a95e8`; Pages run #75 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39892273513>.
+- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=cd096cb>.
+- J.29–J.36 standard, overhead and behind-the-back passes are pushed and deployed. Reed and Juniper receive clips are integrated locally with four-frame atlases, mirror review, separate ball tracks, tests and native previews; this checkpoint is pending push and Pages verification.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -27,7 +27,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Exact prompts, generation IDs, rejected attempts, raw sources, source maps and provenance: `tools/generate-art/j29-locomotion-prompts.md`, `tools/generate-art/assemble-supporting-locomotion42.py`, `tools/generate-art/*granite*`, and `tools/generate-art/*alder*`.
 - Reviewed native preview captures: `artifacts/native-render-preview/moss-granite`, `thump-alder`, `moss-granite-zoom120`, and `thump-alder-zoom120`. Both athletes load104 images /87 snapshots; all five clips select production sprites in each facing.
 - Canon mirror review: `docs/animation-production/CANON_MIRROR_REVIEW.md`; source and runtime policy in `src/content/animation-mirror-policy.js`.
-- Current decoded audit:586 reviewed clips /4,981 drawings /105 represented athletes. It reports2,517 missing clips, no unrepresented athletes and three clips below target. The strict audit correctly remains incomplete.
+- Current decoded audit:588 reviewed clips /4,989 drawings /105 represented athletes. It reports2,515 missing clips, no unrepresented athletes and three clips below target. The strict audit correctly remains incomplete.
 
 ## J.30 — Camden Union and Poppy Stitch
 
@@ -74,9 +74,9 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## J.36 — Reed Ashcroft and Juniper Vale action clips
 
-- Both Chicago Condas athletes have six-frame standard chest, overhead and behind-the-back passes registered as reviewed production atlases. Their supporting cells0 and1 retain the canon portrait/gameplay identities, natural human anatomy, purple/gold kits and empty hands. Rejected standard-pass source sheets remain preserved with reasons; all prompts, C2PA claim/instance IDs, source hashes and crop maps are recorded in the three J.36 prompt docs and per-athlete provenance/layout files.
-- Six atlases are component-isolated from original six-body sources and losslessly packed into 3×2 sheets. Each clip has six unique decoded frame hashes, safe canon mirroring and a separate athlete-specific ball track. Overhead and behind passes release from frame3 at tick7. Dark/light atlas review and standard/zoom120 native Canvas previews pass; each preview loads114 images and captures87 snapshots, selecting all six frames in both facings. Captures are under `artifacts/native-render-preview/{reed-ashcroft,juniper-vale}{,-zoom120}`.
-- Focused tests pass; full validation passes all28 repository test files, build, lint, content validation,100-match simulation and12 atlas packaging checks. Chromium full-match/season E2E passed in the elevated environment after the restricted run failed at Crashpad `setsockopt`. The decoded asset audit is incomplete at586 clips /4,981 drawings /105 athletes, with2,517 missing clips and3 below-target clips. Reed and Juniper each still need20 other clips; the next missing clips in roster order are `receive` for Reed and Juniper.
+- Both Chicago Condas athletes have reviewed standard chest, overhead and behind-the-back passes plus four-frame receive clips registered as production atlases. Their supporting cells0 and1 retain the canon portrait/gameplay identities and natural human anatomy. Reed keeps his purple/gold kit and white lower-leg wear; Juniper keeps her purple/gold kit blank of numerals. Hands remain empty and game balls are separate. Rejected source sheets are preserved with reasons; prompts, C2PA claim/instance IDs, source hashes and crop maps are recorded in the J.36 prompt docs and per-athlete provenance/layout files.
+- Six pass atlases preserve six original bodies each; the two receive atlases preserve four original bodies each. Component-isolated, lossless atlases have unique decoded frames, reviewed safe mirroring and athlete-specific ball tracks. Overhead and behind passes release from frame3 at tick7; receive catches at frame2 / tick4. Light/dark atlas review and standard/zoom120 native previews show production selection and the separate ball at each hand in both facings. Each preview loads116 images and captures87 snapshots under `artifacts/native-render-preview/{reed-ashcroft,juniper-vale}{,-zoom120}`. Receive source records and the overlap-safe four-pose packer test are in `tools/generate-art/j36-receive-prompts.md` and `tools/generate-art/package-action4.py`.
+- Focused tests pass; full validation passes all28 repository test files, build, lint, content validation,100-match simulation and13 atlas packaging checks. Chromium full-match/season E2E passed through the complete default match and season progression. The decoded asset audit is incomplete at588 clips /4,989 drawings /105 athletes, with2,515 missing clips and3 below-target clips. Reed and Juniper each still need19 other clips; next in roster order is `pickup` for both.
 
 ## J.31 interim gameplay polish
 
@@ -90,7 +90,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## Required continuation
 
-1. Continue filling the first missing required action clips in roster order. All105 athletes have at least one registered clip; J.29–J.35 supporting athletes currently have only their five locomotion actions complete. Reed and Juniper's next missing action is `receive`.
+1. Continue filling the first missing required action clips in roster order. All105 athletes have at least one registered clip; J.29–J.35 supporting athletes currently have only their five locomotion actions complete. Reed and Juniper's next missing action after the integrated receive batch is `pickup`.
 2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/ANIMATION_ASSET_AUDIT.md` and `public/assets/animation/ASSET_STATUS.json`.
 3. Continue gameplay and presentation polish and address the outstanding spec/known issues.
 4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.

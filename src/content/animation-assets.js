@@ -6426,13 +6426,120 @@ export const animationAssetManifest = {
               "reviewedAt": "2026-10-23",
               "notes": "Six distinct original figures preserve the canon identity; frame3 is the low behind-the-hip release and frame4 is the separate follow-through. Hands are empty and all six decoded crops differ. Standard and zoom120 native Canvas previews load114 images / capture87 snapshots; production art is selected at all six frames in both facings. The athlete-specific separate-ball track meets the rear hand at release."
             }
+          },
+          "receive": {
+            "src": "./public/assets/animation/reed-ashcroft-receive-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "19ef7f017bec5bf818c4cbb821f248b7da1ba09f679cba55c981e18ccf7788a5"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "da7c3e127f015d54c71c662fda1d195785b4c69368a5b631b3483abeaa186a28"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "48be9329250cf5f0002b241fe9e1db677209970ab83cf9e24ec2f6133bd1c6c8"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "0cfb6f9a5453268199fde727c4d238370f9a04c3a6ff0e00c5eccadfd34e21db"
+              }
+            ],
+            "sha256": "4b35bd84425ba35d915616bd289d533e01ba2e40603fb01a2f0405d27728242c",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "receive",
+              "direction": "right",
+              "generationId": null,
+              "generatedAt": "2026-10-23T02:57:50.584030732Z",
+              "sourceClaimId": "urn:c2pa:37f708bb-82c2-495d-90c6-96ed1a6e873a",
+              "sourceInstanceId": "xmp:iid:cff56559-87d2-4e88-a5aa-a0bbcc263fe4",
+              "prompt": "Create an original transparent RGBA sprite sheet with exactly four complete full-body action drawings of Reed Ashcroft, Chicago Condas supporting athlete cell0. Use his attached portrait and gameplay sprite as strict identity references and the clean standard-pass atlas only for game-sprite scale and style. Preserve medium-brown skin, dark eyes and brows, small dark goatee, dark-purple/black braids swept into a high topknot, natural young-adult human athletic proportions, purple-and-gold Condas uniform, white lower-leg wear and matching shoes. No glasses, gray beard, crest, cape, scarf, armor, animal traits, extra jewelry or props. Use a right-facing three-quarter full-body view and arrange exactly four distinct complete figures in a 2-column by 2-row sheet, strict row-major order. Transparent background, each full silhouette completely visible and separate with clear gutters. No cropping, clipping, overlap, touching, fusion, ground, shadows, glow, text, numbers, logos, panels, borders, grid lines or extra figures. The game basketball is separate: absolutely no ball or object is drawn in or near either hand in any frame. Pose sequence: 0 track an incoming pass in a balanced stance with both empty hands open in front of the chest; 1 step toward the catch, extend both open hands slightly forward and up, eyes following the unseen pass; 2 marked catch frame: close both empty hands together at chest height as though securing the ball, elbows bend to absorb impact; 3 cushion the catch and draw both still-empty hands toward the chest while settling into a stable possession stance. Make frame2 clearly read as the catch, without drawing a ball. Keep face, hair, skin, build, clothing and scale consistent.",
+              "sourcePrompt": "Create an original transparent RGBA sprite sheet with exactly four complete full-body action drawings of Reed Ashcroft, Chicago Condas supporting athlete cell0. Use his attached portrait and gameplay sprite as strict identity references and the clean standard-pass atlas only for game-sprite scale and style. Preserve medium-brown skin, dark eyes and brows, small dark goatee, dark-purple/black braids swept into a high topknot, natural young-adult human athletic proportions, purple-and-gold Condas uniform, white lower-leg wear and matching shoes. No glasses, gray beard, crest, cape, scarf, armor, animal traits, extra jewelry or props. Use a right-facing three-quarter full-body view and arrange exactly four distinct complete figures in a 2-column by 2-row sheet, strict row-major order. Transparent background, each full silhouette completely visible and separate with clear gutters. No cropping, clipping, overlap, touching, fusion, ground, shadows, glow, text, numbers, logos, panels, borders, grid lines or extra figures. The game basketball is separate: absolutely no ball or object is drawn in or near either hand in any frame. Pose sequence: 0 track an incoming pass in a balanced stance with both empty hands open in front of the chest; 1 step toward the catch, extend both open hands slightly forward and up, eyes following the unseen pass; 2 marked catch frame: close both empty hands together at chest height as though securing the ball, elbows bend to absorb impact; 3 cushion the catch and draw both still-empty hands toward the chest while settling into a stable possession stance. Make frame2 clearly read as the catch, without drawing a ball. Keep face, hair, skin, build, clothing and scale consistent.",
+              "referencePaths": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "public/assets/animation/reed-ashcroft-pass-right.webp"
+              ],
+              "identityReferenceCell": 0,
+              "eligibleForPacking": true,
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-receive4-candidate1.png",
+              "sourceSha256": "db671f39313f9bca36902999f95f466b69ed2eba01dc957f6388e40cf4b6bb1a",
+              "review": {
+                "status": "accepted",
+                "notes": "Visually reviewed source on light and dark grounds. The 2x2 sheet has four complete distinct Reed Ashcroft poses matching canonical cell0 skin, face, hair, human build and Chicago Condas identity. Both hands stay empty and no jersey numerals appear. The bottom-left source pose (frame2) is the marked catch; the bottom-right pose cushions the catch. Alpha>=64 component review identifies four complete isolated bodies. The packer isolates original bodies and drops only non-body alpha noise; no pose is redrawn, copied or mirrored."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 91,
+                  "y": 9,
+                  "w": 476,
+                  "h": 546,
+                  "component": 1,
+                  "area": 97351
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 767,
+                  "y": 12,
+                  "w": 576,
+                  "h": 539,
+                  "component": 2,
+                  "area": 105001
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 126,
+                  "y": 566,
+                  "w": 476,
+                  "h": 556,
+                  "component": 3,
+                  "area": 92917
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 808,
+                  "y": 573,
+                  "w": 463,
+                  "h": 546,
+                  "component": 4,
+                  "area": 92880
+                }
+              ],
+              "uniformScale": 0.16546762589928057,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 112x96 cells; baseline94; lossless WebP; 4 original receive poses"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-23",
+              "notes": "Four complete original poses preserve the canon supporting identity and natural human anatomy; hands remain empty and no jersey numerals appear. The bottom-left source drawing is the marked frame2 catch at tick4. All four decoded crops are unique. Component ownership isolates overlapping crop bounds without mixing neighboring figures. Light/dark atlas review is complete; native previews verify both facings and the athlete-specific separate-ball catch track."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canon-safe human body mirroring for reed-ashcroft; the behind-the-back pass adds no fixed-side mark, handed prop or directional emblem."
+        "notes": "Canon-safe human body mirroring: the inspected portrait/gameplay identity and all generated receive poses have no fixed-side anatomy, directional emblem or held prop. The receive ball is a separate physics object."
       }
     },
     "accu": {
@@ -9568,13 +9675,128 @@ export const animationAssetManifest = {
               "reviewedAt": "2026-10-23",
               "notes": "Six distinct original figures preserve the canon identity; frame3 is the low behind-the-hip release and frame4 is the separate follow-through. Hands are empty and all six decoded crops differ. Standard and zoom120 native Canvas previews load114 images / capture87 snapshots; production art is selected at all six frames in both facings. The athlete-specific separate-ball track meets the rear hand at release."
             }
+          },
+          "receive": {
+            "src": "./public/assets/animation/juniper-vale-receive-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8115476c571bd9c5c1c7cab77d80ee87dcd9b3e81c80e2bed797c186e4ebcda4"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "663581f024fd596e898eeabbeb6342dbcde47ce0eab9cd3d4863ef91a19b7f5c"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "aee5c24e88a07a06018da59e6be11fdbb22e0568aed3be5ab55b99cf3dd1c7da"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "98811ce9453f06e675ac414ab07b87bb0d758ecab6fc49feb4d23a8b8706e11b"
+              }
+            ],
+            "sha256": "d90bd73bdc38b651f127104000df49841d2c66eec15bafc748830fae657d3da1",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "receive",
+              "direction": "right",
+              "generationId": null,
+              "generatedAt": "2026-10-23T03:00:36.033058985Z",
+              "sourceClaimId": "urn:c2pa:d04c3b01-9367-47fd-a74d-c5c41f163a6e",
+              "sourceInstanceId": "xmp:iid:dbee373e-f2d7-4c36-932c-ad8df912c911",
+              "prompt": "Create an original transparent RGBA sprite sheet with exactly four complete full-body action drawings of Juniper Vale, Chicago Condas support athlete cell1. Use the attached portrait as strict identity reference and her clean standard-pass atlas for game-sprite scale, style and uniform; do not copy a pose. Preserve light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the small gold tie, compact natural human athletic proportions, dark-purple basketball uniform with gold trim, dark knee pads and matching shoes. Crucial uniform rule: the jersey and shorts are plain blank fabric with gold trim only. Absolutely no numerals, number 3, digits, lettering, logos, badges or text anywhere. No pointed ears, fantasy traits, glasses, extra jewelry, armor or props. Use a right-facing three-quarter full-body view. Arrange exactly four distinct complete figures in a 2-column by 2-row sheet, strict row-major order. Transparent background; each full silhouette visible, isolated and separated by clear gutters. No cropping, clipping, overlap, touching, fusion, ground, shadows, glow, panels, borders, grid lines or extra figures. The game basketball is separate: no ball, circle or held object is drawn in or near either hand in any frame. Pose sequence: 0 track an incoming pass in a balanced stance with both empty hands open in front of the chest; 1 step toward the catch and extend both open hands slightly forward and up, eyes following the unseen pass; 2 marked catch frame: close both empty hands together at chest height as though securing the ball, elbows bend to absorb impact; 3 cushion the catch and draw both still-empty hands toward the chest while settling into a stable possession stance. Make frame2 clearly read as the catch without drawing a ball. Keep face, hair, skin, build, blank uniform and scale consistent.",
+              "sourcePrompt": "Create an original transparent RGBA sprite sheet with exactly four complete full-body action drawings of Juniper Vale, Chicago Condas support athlete cell1. Use the attached portrait as strict identity reference and her clean standard-pass atlas for game-sprite scale, style and uniform; do not copy a pose. Preserve light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the small gold tie, compact natural human athletic proportions, dark-purple basketball uniform with gold trim, dark knee pads and matching shoes. Crucial uniform rule: the jersey and shorts are plain blank fabric with gold trim only. Absolutely no numerals, number 3, digits, lettering, logos, badges or text anywhere. No pointed ears, fantasy traits, glasses, extra jewelry, armor or props. Use a right-facing three-quarter full-body view. Arrange exactly four distinct complete figures in a 2-column by 2-row sheet, strict row-major order. Transparent background; each full silhouette visible, isolated and separated by clear gutters. No cropping, clipping, overlap, touching, fusion, ground, shadows, glow, panels, borders, grid lines or extra figures. The game basketball is separate: no ball, circle or held object is drawn in or near either hand in any frame. Pose sequence: 0 track an incoming pass in a balanced stance with both empty hands open in front of the chest; 1 step toward the catch and extend both open hands slightly forward and up, eyes following the unseen pass; 2 marked catch frame: close both empty hands together at chest height as though securing the ball, elbows bend to absorb impact; 3 cushion the catch and draw both still-empty hands toward the chest while settling into a stable possession stance. Make frame2 clearly read as the catch without drawing a ball. Keep face, hair, skin, build, blank uniform and scale consistent.",
+              "referencePaths": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "public/assets/animation/juniper-vale-pass-right.webp"
+              ],
+              "identityReferenceCell": 1,
+              "eligibleForPacking": true,
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-receive4-candidate2.png",
+              "sourceSha256": "036575d4a5180a6579d4f818453bedfbb397e09c3ad766481240f467db5045d4",
+              "review": {
+                "status": "accepted",
+                "notes": "Visually reviewed source on light and dark grounds. The 2x2 sheet has four complete distinct Juniper Vale poses matching canonical cell1 skin, face, hair, human build and Chicago Condas identity. Both hands stay empty and no jersey numerals appear. The bottom-left source pose (frame2) is the marked catch; the bottom-right pose cushions the catch. Alpha>=64 component review identifies four complete isolated bodies and one unrelated two-pixel speck below the packaging threshold. The packer isolates original bodies and drops only non-body alpha noise; no pose is redrawn, copied or mirrored."
+              },
+              "rejectedAttempts": [
+                {
+                  "generationId": null,
+                  "sourceClaimId": "urn:c2pa:6e3aef87-a632-4875-b60c-cc421882e106",
+                  "sha256": "e6801ae7b7286ae13c02dbef99eeb4ffee796c0046b9105a745f1c502965d5cd",
+                  "file": "tools/generate-art/sources/juniper-vale-receive4-attempt1-rejected-jersey-numbers.png",
+                  "reason": "Visible jersey numerals violated the uniform identity constraints; preserved whole and excluded from packing."
+                }
+              ],
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 216,
+                  "y": 11,
+                  "w": 407,
+                  "h": 497,
+                  "component": 1,
+                  "area": 79876
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 796,
+                  "y": 12,
+                  "w": 505,
+                  "h": 497,
+                  "component": 2,
+                  "area": 86799
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 248,
+                  "y": 501,
+                  "w": 414,
+                  "h": 506,
+                  "component": 3,
+                  "area": 80286
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 865,
+                  "y": 501,
+                  "w": 425,
+                  "h": 503,
+                  "component": 4,
+                  "area": 81393
+                }
+              ],
+              "uniformScale": 0.18181818181818182,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original receive poses"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-23",
+              "notes": "Four complete original poses preserve the canon supporting identity and natural human anatomy; hands remain empty and no jersey numerals appear. The bottom-left source drawing is the marked frame2 catch at tick4. All four decoded crops are unique. Component ownership isolates overlapping crop bounds without mixing neighboring figures. Light/dark atlas review is complete; native previews verify both facings and the athlete-specific separate-ball catch track."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canon-safe human body mirroring for juniper-vale; the behind-the-back pass adds no fixed-side mark, handed prop or directional emblem."
+        "notes": "Canon-safe human body mirroring: the inspected portrait/gameplay identity and all generated receive poses have no fixed-side anatomy, directional emblem or held prop. The receive ball is a separate physics object."
       }
     },
     "echo-catwalk": {

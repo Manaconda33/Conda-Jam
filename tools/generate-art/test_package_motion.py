@@ -11,6 +11,9 @@ from PIL import Image, ImageDraw
 spec = importlib.util.spec_from_file_location('motion', Path(__file__).with_name('package-motion42.py'))
 motion = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(motion)
+action_spec = importlib.util.spec_from_file_location('action4', Path(__file__).with_name('package-action4.py'))
+action4 = importlib.util.module_from_spec(action_spec)
+action_spec.loader.exec_module(action4)
 
 
 class SourceValidation(unittest.TestCase):
@@ -141,6 +144,49 @@ class SourceValidation(unittest.TestCase):
             self.assertTrue(all(entry['direction'] == 'left' for entry in entries))
             self.assertTrue(all(entry['src'].endswith('-left.webp') for entry in entries))
             self.assertTrue(all((root/entry['src']).is_file() for entry in entries))
+
+
+class FourPoseActionPackaging(unittest.TestCase):
+    def source(self):
+        image=Image.new('RGBA',(800,800),(0,0,0,0));draw=ImageDraw.Draw(image)
+        # These diagonal L-shaped figures have intersecting bounding boxes but
+        # remain separate alpha components, as happens in Juniper's source.
+        draw.rectangle((100,50,120,650),fill=(220,50,80,255))
+        draw.rectangle((100,50,500,70),fill=(220,50,80,255))
+        draw.rectangle((450,80,650,290),fill=(40,170,220,255))
+        draw.rectangle((50,470,90,700),fill=(50,190,100,255))
+        draw.rectangle((630,300,650,750),fill=(240,180,40,255))
+        draw.rectangle((300,730,650,750),fill=(240,180,40,255))
+        image.putpixel((780,780),(255,255,255,255))  # non-body speck is excluded
+        return image
+
+    def test_four_original_frames_pack_with_overlapping_bounds_and_drop_tiny_noise(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'reed-ashcroft','clip':'receive','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'four separated receive poses','sourceSha256':action4.sha256(source),
+                'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action4.ROOT,action4.OUTPUT_DIR
+            action4.ROOT,action4.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action4.package('reed-ashcroft',source,provenance_path)
+            finally:
+                action4.ROOT,action4.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            cell_width=layout['frames'][0]['w']
+            self.assertEqual([frame['x'] for frame in layout['frames']],[0,cell_width,0,cell_width])
+            self.assertEqual([rect['sourceIndex'] for rect in layout['provenance']['sourceRects']],[0,1,2,3])
+            self.assertEqual(len(layout['provenance']['sourceRects']),4)
+            atlas=Image.open(assets/'reed-ashcroft-receive-right.webp').convert('RGBA')
+            frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
+            self.assertEqual(len(set(frame_pixels)),4)
+            self.assertEqual(layout['provenance']['componentIsolation'],True)
 
 
 if __name__ == '__main__':
