@@ -1,0 +1,7 @@
+# J.68 source cleanup — remove exterior red fringe only
+
+Use this exact 1619×971 RGBA sprite sheet as the source of truth. Clean only the obvious saturated red, coral and magenta fringe pixels that sit outside Reed's near-black or deep-purple pixel outline. Inspect every silhouette edge at high magnification on both white and black backgrounds. Remove those exterior red/coral fringe pixels by making them transparent alpha zero; keep Reed's dark outline as the outermost visible contour. Keep legitimate warm-orange skin shading, gold trim, red-free skin highlights and all interior colors unchanged.
+
+Preserve every original non-fringe pixel exactly: all fifteen full-body Reed figures, identity, face, goatee, attached dark purple-black braided topknot, natural human anatomy, uniform, white lower-leg wear, shoes, proportions, pose, scale, positions, colors, pixel texture, canvas dimensions and five-column by three-row order. Do not redraw, smooth, recolor, crop, resize, shift, add or remove any pose pixel except the exterior red/coral/magenta fringe. Do not alter the hair, skin, gold uniform trim, white legwear, shoes, outlines, limb or face details, interior shading, or pose silhouettes. Keep alpha-zero gutters. Add no background, shadow, glow, grid, border, lettering, logo, basketball, hoop or prop. Return the same 1619×971 transparent RGBA sheet.
+
+The cleanup source is the rejected original attempt `tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-attempt1-rejected-red-halo.png`; keep that source preserved as rejected and do not pack it.

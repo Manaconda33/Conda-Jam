@@ -262,3 +262,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Reed Ashcroft | 0 | yes | Fifteen original right-facing poses show one complete human body turn: right-facing approach, rear view, opposite profile, return to the right-facing peak, forward release and two-foot landing. Reed retains his medium-brown skin, goatee, attached purple-black braided topknot, natural human anatomy, blank Condas purple/gold kit, white lower-leg wear and purple/gold shoes. The sheet contains no ball, hoop or prop. J.01 permits safe mirroring because Reed has no fixed-side anatomy or directional uniform mark. Standard and zoom120 native previews select all fifteen poses in both facings; his separate hand track carries through tick20 and releases at tick21 for the tick23 score. |
+
+## J.68 Reed Ashcroft tomahawk dunk
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Reed Ashcroft | 0 | yes | Fifteen original right-facing poses preserve Reed's human anatomy and J.01 identity through a one-handed tomahawk: waist gather, right-arm cock behind the crown, high reach, forward/downward release and two-foot landing. No basketball or hoop is baked into the source. His athlete-specific ball track follows the right hand through tick20 and releases at tick21; all15 atlas poses select in both facings in standard and zoom120 native previews. |

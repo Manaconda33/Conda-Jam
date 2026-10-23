@@ -9248,6 +9248,383 @@ export const animationAssetManifest = {
               "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "dunk-tomahawk": {
+            "src": "./public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "764b3772b621136a6c526230cc11e41a69a57b6a48aa0d72812ecb5f457cce81"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "bba3083a4b0c6a379ca14f5152625579301897908c3c2232aba7c7b1573fe467"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "96a790570eac296ed98ac5eae5b5a6c5d832a239d24b5db061a4a847b111fed5"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2d1b91845288f3d1ea3aa4a3da947fba7d19eb6710d3ccbaeb633f3b59584a64"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "e3436c8b41b898256209d1d2d260f54ffa4951c977828a8d1a7885542f7fe92b"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "d5448f970bf290bc9ef257692e6cf72a291a03b424b5390a9a0f5f7575d1930c"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "2a9920ccf536aea05e40d2fe0e81e3b55f13e890b37217bfe389213fa55e0441"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "2ede324eb7b2ff9e57bf62e84d118700159a5e737bfdaf4a7533c359487d6eae"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "fc6a802e234a7ab98b164723e08728f0b1bf414cc3cd3cbda0a5d314a7b3651f"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e605bcaeeac9338114c98775666a879acf1a491e98522a990c1e4f3db437727b"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8bfb5290e57dad591b2ab75aa2e0bba2618a1decbd377ec961c1d1e18182791e"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "f2494fbc20bfe17cb9fb4be154e1118544d5a61c67d63b7e9248f70b94b04b7b"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "fafb561f89821253babf86273195aff7192ff49752ea2502e6042bf37e9c2c59"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "71fd813fb636608f3a6e758dd6e3ada24ac01b5027ede71b7f44da20727de3ad"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "2ab863dc739d64f6b8362f74817bf78aa96332b1b0a3d28f44aaca3a1cfc9ed6"
+              }
+            ],
+            "sha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "dunk-tomahawk",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-5656a62f-fac9-4d13-8b3b-c3097731165d",
+              "imageGenerationId": "exec-5656a62f-fac9-4d13-8b3b-c3097731165d",
+              "parentGenerationId": null,
+              "sourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk15.png",
+              "sourceSha256": "a53cb1b62884cee98e51b7e040c245a5817c802e22daee04f05a42637fccc832",
+              "rawSourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-attempt1-rejected-red-halo.png",
+              "rawSourceSha256": "27586fa2015cf93afed40752c27734ab8cd3381808d124d4db8b405e7cc05503",
+              "promptFile": "tools/generate-art/j68-reed-ashcroft-dunk-tomahawk-prompt.md",
+              "prompt": "Create one original transparent RGBA production sprite sheet for Reed Ashcroft's right-facing `dunk-tomahawk` action in JAMVERSE ’96.\n\nCanvas and layout: exactly 15 different complete full-body drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom order, all on one 1619×971 transparent canvas. Place exactly one isolated Reed figure in each cell. Keep a consistent figure scale and stable foot baseline; gameplay supplies jump translation. Keep every braid tip, finger, shoe and dark outline safely inside its cell, with broad transparent gutters. No touching, clipping, overlap, fusion, duplicate drawings, mirrored copies, or pose crossing cell boundaries. True alpha-zero transparency outside each figure. Draw crisp, chunky, readable 1990s arcade pixel art with a near-black dark outline and consistent light from the upper left.\n\nCharacter identity: Reed is a young adult human man with medium-brown skin, dark focused eyes and brows, a small dark goatee, and long dark purple-black braids gathered into a compact high topknot. Preserve his same recognizable face and natural athletic muscular human build in every view. Long braids remain attached to the scalp and move with his head; they are never a cape, scarf, or extra limb. He wears a blank Chicago Condas basketball uniform in deep purple with gold trim, white lower-leg wear and purple-and-gold basketball shoes. Keep natural human anatomy and hands with five fingers. No glasses, headband, armor, fantasy anatomy, text, numbers, symbols or logos.\n\nAction: a forceful one-handed tomahawk dunk, clearly different from a two-handed power dunk or full-body spin. Reed already controls an invisible game ball in his right hand. He approaches facing screen right, plants, jumps, cocks the ball back above and behind his head with his right elbow bent, then drives the right arm forward and downward through an imaginary rim for the release. His left arm balances the movement. Keep the ball position and right hand readable without drawing the ball. The game renders the separate basketball and hoop; draw neither.\n\nExact pose sequence, one distinct drawing per cell:\n\n0. Rightward approach with a compact athletic stride; eyes toward the imaginary rim; invisible ball secure in the right hand near the right hip.\n1. Plant the lead foot, sink the hips and bring the ball up toward the right shoulder; left arm balances forward.\n2. TAKEOFF: both feet leave the floor, torso rises, right hand carries the ball above shoulder height.\n3. Early ascent: right elbow bends and draws the invisible ball high behind the head; one knee lifts and the other leg trails naturally.\n4. Mid-ascent: shoulders coil slightly, right forearm is cocked behind the crown with the hand still gripping the invisible ball; left arm reaches forward for balance.\n5. Strong tomahawk wind-up: right elbow is bent overhead, hand behind the crown; chest opens and knees gather.\n6. Rise toward the apex with the right arm still cocked; the ball remains behind the head, clearly separated from the hair silhouette.\n7. PEAK: highest body point, natural tucked knees, right elbow bent overhead in a powerful tomahawk position; left hand open for balance.\n8. Begin the strike: rotate the shoulders toward the right-side rim and lift the cocked right elbow forward; keep the invisible ball in the right hand.\n9. Pre-release: extend the right arm forward and slightly above the head, wrist cocked, body traveling toward the rim.\n10. RELEASE: snap the right arm downward through the imaginary rim and open the right hand only now; Reed is empty-handed after release.\n11. FINISH: right arm follows through down across the body, left arm extends for balance; show the empty right hand and continuing motion.\n12. Descend, shoulders unwind to face screen right; both arms spread naturally to stabilize.\n13. Landing approach: torso upright, knees unfold beneath him and arms remain out for balance.\n14. LAND: both shoes meet the ground, knees bend deeply to absorb impact, and Reed settles into a balanced ready stance.\n\nEvery drawing must be a complete, independently articulated full-body Reed with the same face, goatee, attached braided topknot, uniform, white lower-leg wear and shoes. Make the tomahawk motion legible in a small game sprite. Do not move the whole sprite upward to fake the jump; keep feet on the shared baseline in the sheet. Do not put a ball in the art, even as a highlight, prop, shadow or effect. No hoop, rim, court, ground shadow, glow, background, border, cell guides, grid, text, effect, opponent, passer or prop. Return only the transparent sprite sheet.",
+              "sourcePrompt": "Create one original transparent RGBA production sprite sheet for Reed Ashcroft's right-facing `dunk-tomahawk` action in JAMVERSE ’96.\n\nCanvas and layout: exactly 15 different complete full-body drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom order, all on one 1619×971 transparent canvas. Place exactly one isolated Reed figure in each cell. Keep a consistent figure scale and stable foot baseline; gameplay supplies jump translation. Keep every braid tip, finger, shoe and dark outline safely inside its cell, with broad transparent gutters. No touching, clipping, overlap, fusion, duplicate drawings, mirrored copies, or pose crossing cell boundaries. True alpha-zero transparency outside each figure. Draw crisp, chunky, readable 1990s arcade pixel art with a near-black dark outline and consistent light from the upper left.\n\nCharacter identity: Reed is a young adult human man with medium-brown skin, dark focused eyes and brows, a small dark goatee, and long dark purple-black braids gathered into a compact high topknot. Preserve his same recognizable face and natural athletic muscular human build in every view. Long braids remain attached to the scalp and move with his head; they are never a cape, scarf, or extra limb. He wears a blank Chicago Condas basketball uniform in deep purple with gold trim, white lower-leg wear and purple-and-gold basketball shoes. Keep natural human anatomy and hands with five fingers. No glasses, headband, armor, fantasy anatomy, text, numbers, symbols or logos.\n\nAction: a forceful one-handed tomahawk dunk, clearly different from a two-handed power dunk or full-body spin. Reed already controls an invisible game ball in his right hand. He approaches facing screen right, plants, jumps, cocks the ball back above and behind his head with his right elbow bent, then drives the right arm forward and downward through an imaginary rim for the release. His left arm balances the movement. Keep the ball position and right hand readable without drawing the ball. The game renders the separate basketball and hoop; draw neither.\n\nExact pose sequence, one distinct drawing per cell:\n\n0. Rightward approach with a compact athletic stride; eyes toward the imaginary rim; invisible ball secure in the right hand near the right hip.\n1. Plant the lead foot, sink the hips and bring the ball up toward the right shoulder; left arm balances forward.\n2. TAKEOFF: both feet leave the floor, torso rises, right hand carries the ball above shoulder height.\n3. Early ascent: right elbow bends and draws the invisible ball high behind the head; one knee lifts and the other leg trails naturally.\n4. Mid-ascent: shoulders coil slightly, right forearm is cocked behind the crown with the hand still gripping the invisible ball; left arm reaches forward for balance.\n5. Strong tomahawk wind-up: right elbow is bent overhead, hand behind the crown; chest opens and knees gather.\n6. Rise toward the apex with the right arm still cocked; the ball remains behind the head, clearly separated from the hair silhouette.\n7. PEAK: highest body point, natural tucked knees, right elbow bent overhead in a powerful tomahawk position; left hand open for balance.\n8. Begin the strike: rotate the shoulders toward the right-side rim and lift the cocked right elbow forward; keep the invisible ball in the right hand.\n9. Pre-release: extend the right arm forward and slightly above the head, wrist cocked, body traveling toward the rim.\n10. RELEASE: snap the right arm downward through the imaginary rim and open the right hand only now; Reed is empty-handed after release.\n11. FINISH: right arm follows through down across the body, left arm extends for balance; show the empty right hand and continuing motion.\n12. Descend, shoulders unwind to face screen right; both arms spread naturally to stabilize.\n13. Landing approach: torso upright, knees unfold beneath him and arms remain out for balance.\n14. LAND: both shoes meet the ground, knees bend deeply to absorb impact, and Reed settles into a balanced ready stance.\n\nEvery drawing must be a complete, independently articulated full-body Reed with the same face, goatee, attached braided topknot, uniform, white lower-leg wear and shoes. Make the tomahawk motion legible in a small game sprite. Do not move the whole sprite upward to fake the jump; keep feet on the shared baseline in the sheet. Do not put a ball in the art, even as a highlight, prop, shadow or effect. No hoop, rim, court, ground shadow, glow, background, border, cell guides, grid, text, effect, opponent, passer or prop. Return only the transparent sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "referencePaths": [],
+              "visualReviewReferences": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+                "public/assets/animation/reed-ashcroft-dunk-360-right.webp"
+              ],
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [
+                {
+                  "generationId": "exec-4f7ebf17-43ff-4b85-93d8-6c192bb42226",
+                  "sourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-cleanup1-rejected-red-halo.png",
+                  "sourceSha256": "111e21ed2e24e83fbe5080c765e2cf9ba6ac292e6ca57404258cefa1fb982341",
+                  "reason": "The cleanup retained visible bright red/coral fringe and changed the canvas width to1620 pixels."
+                },
+                {
+                  "generationId": "exec-4aef2c99-10b0-4b77-a02a-10d04bb062e8",
+                  "sourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-cleanup2-rejected-red-halo.png",
+                  "sourceSha256": "12ebaddeb2521020f696fd61aab973ca1a3e4fb300f0107a5c981b7ea45af875",
+                  "reason": "Visible red/coral edge fringe remained and the output width changed to1620 pixels."
+                },
+                {
+                  "generationId": "exec-a4d793f6-cddc-40db-8bf4-f9e093d309f5",
+                  "sourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-cleanup3-rejected-red-halo.png",
+                  "sourceSha256": "90cfa870504c4fb527a42667f0229b3b42c03afd5bb18082c510bdf8a7225ffb",
+                  "reason": "The edit retained bright red fringe around silhouettes and changed the width to1620 pixels."
+                },
+                {
+                  "generationId": "exec-ca892050-b87b-4855-ba10-2a8ebb1997ca",
+                  "sourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-cleanup4-rejected-red-halo.png",
+                  "sourceSha256": "113bd4b945664a58521cad2a3b7a06f93f882f480a10229645637d0a88750d0e",
+                  "reason": "The edit retained visible red/coral fringe around silhouettes and changed the width to1620 pixels."
+                },
+                {
+                  "generationId": "exec-01a6be16-52bf-4e60-90d8-f745547678f2",
+                  "sourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-attempt2-rejected-red-halo.png",
+                  "sourceSha256": "4154e8ee4e9e7b1d939a8fe09e3e087062d287046adc5226602c6e9c37946c05",
+                  "reason": "Fresh regeneration retained strong red/coral fringe; the approach and overhead poses also deviated from the more coherent first take."
+                },
+                {
+                  "generationId": "exec-a1f9f829-ba51-4a44-971a-0f5f9c7c20f5",
+                  "sourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-cleanup5-rejected-red-halo.png",
+                  "sourceSha256": "03613d6405fa1bcedb6252522b0a3a59fccd2365412bbe5cb4e37dc35629b1c2",
+                  "reason": "The generic edge cleanup left visible exterior fringe on black and white despite retaining the original canvas width."
+                },
+                {
+                  "generationId": "exec-eeaaa957-9df4-4e72-8fbb-b1605126346d",
+                  "sourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-cleanup6-rejected-red-halo.png",
+                  "sourceSha256": "3ce508985825f375e7ebc2a7f65b2b08a6ea6cb15d3a5de2ef993077a8e08b15",
+                  "reason": "Most fringe was reduced, but visible colored edge pixels remained and the canvas width changed to1620 pixels."
+                },
+                {
+                  "generationId": "exec-8b94be41-4447-43cf-bc36-b4379cc673c5",
+                  "sourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-cleanup7-rejected-red-halo.png",
+                  "sourceSha256": "0f6682455828fdaf493026f9c396f96086f64a3e17cd9cd9f63d7625dfcec19a",
+                  "reason": "Bright exterior fringe remained visible against black; pose contours were also reinterpreted."
+                },
+                {
+                  "generationId": "exec-719893f6-b169-4182-aee9-3eb982fe8e6a",
+                  "sourceImage": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-cleanup8-rejected-red-halo.png",
+                  "sourceSha256": "717639540ac296d78706f71b7bd334ff5971322763d8da48f83dc1b294ad43f0",
+                  "reason": "Bright exterior fringe remained visible against black and the width changed to1620 pixels."
+                }
+              ],
+              "cleanup": {
+                "script": "tools/generate-art/clean-alpha-fringe.py",
+                "method": "Only strongly red pixels connected to existing alpha-zero background were cleared; the four outermost image edges were set transparent. Dark outlines and interior pixels were retained.",
+                "input": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk-attempt1-rejected-red-halo.png",
+                "output": "tools/generate-art/sources/j68-reed-ashcroft-dunk-tomahawk15.png",
+                "clearedExteriorRedPixels": 3567,
+                "reviewedOn": [
+                  "solid black",
+                  "solid white"
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "fifteen original Reed tomahawk poses, canon identity and human anatomy, clean transparency and isolated source bodies",
+                "notes": "The first 15-pose generation is retained unchanged as raw source; the project’s conservative clean-alpha-fringe pipeline cleared only strongly red pixels connected to transparency (3567 pixels). The accepted 1619×971 source shows all fifteen separate, complete, in-bounds human Reed figures with dark outlines and broad transparent gutters. Reed retains medium-brown skin, dark focused face and goatee, attached dark purple-black braided topknot, deep-purple/gold Condas kit, white lower-leg wear and purple/gold shoes. The sequence carries a separate invisible runtime ball in the right hand through a cocked tomahawk, forward release and two-foot landing. Full-sheet reviews on black and white show no visible bright exterior halo. J.01 permits safe body mirroring. Standard and zoom120 native Canvas previews load159 images, capture87 clip snapshots plus452 action frames, select all15 poses in both facings, carry the separate ball for twenty pre-release frames, release at tick21 and score at tick23.",
+                "nativePreview": {
+                  "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+                  "standardReport": "artifacts/native-render-preview/reed-ashcroft/report.json",
+                  "zoom120Report": "artifacts/native-render-preview/reed-ashcroft-zoom120/report.json",
+                  "loadedImages": 159,
+                  "clipSnapshots": 87,
+                  "actionFrameSnapshots": 452,
+                  "framesPerFacing": 15,
+                  "selectedProductionFrames": {
+                    "left": 15,
+                    "right": 15
+                  },
+                  "carriedActionFramesPerFacing": 10,
+                  "releasedActionFramesPerFacing": 5,
+                  "carriedThroughTick": 20,
+                  "releaseTick": 21,
+                  "scoreTick": 23,
+                  "atlas": "public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+                  "atlasSha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+                  "reviewed": true
+                }
+              },
+              "componentIsolation": true,
+              "actionAnchors": {
+                "takeoff": 4,
+                "grab": 10,
+                "peak": 14,
+                "release": 21,
+                "finish": 23,
+                "land": 30
+              },
+              "runtimeBallTrack": {
+                "ballInArt": false,
+                "athleteSpecific": true,
+                "possessionThroughTick": 20,
+                "releaseTick": 21,
+                "scoreTick": 23
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 13,
+                  "y": 28,
+                  "w": 262,
+                  "h": 281,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 365,
+                  "y": 51,
+                  "w": 253,
+                  "h": 258,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 681,
+                  "y": 8,
+                  "w": 265,
+                  "h": 304,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1026,
+                  "y": 15,
+                  "w": 268,
+                  "h": 297,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1340,
+                  "y": 13,
+                  "w": 274,
+                  "h": 296,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 38,
+                  "y": 340,
+                  "w": 249,
+                  "h": 280,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 375,
+                  "y": 338,
+                  "w": 255,
+                  "h": 271,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 702,
+                  "y": 328,
+                  "w": 252,
+                  "h": 243,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1007,
+                  "y": 331,
+                  "w": 299,
+                  "h": 278,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1318,
+                  "y": 335,
+                  "w": 268,
+                  "h": 321,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 18,
+                  "y": 652,
+                  "w": 254,
+                  "h": 302,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 348,
+                  "y": 653,
+                  "w": 248,
+                  "h": 301,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 663,
+                  "y": 645,
+                  "w": 283,
+                  "h": 301,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 992,
+                  "y": 674,
+                  "w": 283,
+                  "h": 280,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1353,
+                  "y": 721,
+                  "w": 227,
+                  "h": 233,
+                  "component": 16
+                }
+              ],
+              "uniformScale": 0.2866043613707165,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
