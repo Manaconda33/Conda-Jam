@@ -1,0 +1,161 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "steal",
+    "src": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "reed-ashcroft",
+      "cell": 0,
+      "clip": "steal",
+      "direction": "right",
+      "generatedAt": "2026-10-23T03:40:05.943974906Z",
+      "generationExecution": "exec-483fa086-0c3f-4544-a17f-bd87a6093d57",
+      "sourceClaimId": "urn:c2pa:3842a374-eef9-4102-9e54-248fcbd85d19",
+      "sourceInstanceId": "xmp:iid:b3313172-affa-49fb-990e-60699fc7bbea",
+      "sourceSha256": "c703f0ec1ef00b4cbd40852ae7d827dbc5b248e4e8e0f7742ad3f13434dc7eca",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-steal8-candidate2.png",
+      "sourceReferences": [
+        "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+        "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+        "public/assets/animation/reed-ashcroft-pass-right.webp"
+      ],
+      "prompt": "Create a replacement original transparent RGBA sprite sheet with exactly eight distinct complete full-body defensive steal action drawings of Reed Ashcroft, Chicago Condas supporting athlete cell0. Replace a previous sheet whose fingertip antialiasing reached the right canvas edge. Use the attached portrait as strict identity reference and gameplay sprite plus clean pass atlas for game-sprite scale, style, and uniform only; do not copy poses. Preserve medium-brown skin, dark eyes and brows, small dark goatee, dark-purple/black braids swept into a high topknot, natural young-adult human athletic proportions, purple-and-gold Condas uniform, white lower-leg wear and matching shoes. Keep both hands empty. No ball, objects, glasses, gray beard, crest, cape, scarf, armor, animal traits, extra jewelry or props. Arrange exactly eight different full-body figures in a 4-column by 2-row sheet in strict row-major order, right-facing three-quarter view, same camera and scale. Important framing: leave a wide clear transparent margin around every figure, at least 8 percent of each cell on every side; each silhouette must stay within the central 84 percent of its cell. In particular, keep the frame3 reaching fingertips at least 40 transparent pixels from the right edge of the full sheet; do not stretch the arm to the cell border. Keep all hair, fingers, shoes and white tights fully visible with generous margin. Transparent background; no clipping, cropping, overlap, touching, fusion or parts outside assigned cells. Pose sequence: frame0 low balanced defensive stance, knees flexed and both hands open; frame1 shift weight toward the offense, shoulders turn and lead foot steps out; frame2 lean forward and extend the lead arm with fingers open; frame3 marked steal-contact lunge, reach far forward at waist height with one open hand toward the center of the fourth top-row cell, other arm balances; frame4 sweep the reaching arm across the body to knock the unseen ball free; frame5 withdraw the arm and recover balance with knees bent; frame6 rise into an athletic ready stance, eyes track the unseen ball; frame7 settle into a compact defensive stance. Make all eight poses independently articulated and visibly distinct, preserving Reed's exact identity and natural human anatomy. No ball, floor, ground, shadows, glow, text, numerals, logos, panels, borders, grid lines or extra figures.",
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "notes": "Visually reviewed on light and dark grounds. Eight complete, distinct Reed Ashcroft bodies in row-major order; exact cell0 identity, natural human anatomy, purple/gold Condas kit and white lower-leg wear retained. Both hands are empty; no ball, numbers, or props. Frame3 is the marked contact lunge. Alpha>=64 finds exactly eight isolated body components with broad clear margins and no clipped silhouettes. Three faint alpha pixels at the far-left boundary are isolated non-body noise below the component threshold; they are not included in any pose crop."
+      },
+      "canonicalSection": "J.01",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 40,
+          "y": 67,
+          "w": 320,
+          "h": 367,
+          "component": 1,
+          "area": 50424
+        },
+        {
+          "sourceIndex": 1,
+          "x": 428,
+          "y": 67,
+          "w": 390,
+          "h": 370,
+          "component": 2,
+          "area": 53127
+        },
+        {
+          "sourceIndex": 2,
+          "x": 807,
+          "y": 94,
+          "w": 421,
+          "h": 338,
+          "component": 3,
+          "area": 49215
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1177,
+          "y": 97,
+          "w": 467,
+          "h": 336,
+          "component": 4,
+          "area": 52948
+        },
+        {
+          "sourceIndex": 4,
+          "x": 59,
+          "y": 507,
+          "w": 336,
+          "h": 377,
+          "component": 7,
+          "area": 51343
+        },
+        {
+          "sourceIndex": 5,
+          "x": 458,
+          "y": 506,
+          "w": 328,
+          "h": 375,
+          "component": 6,
+          "area": 48608
+        },
+        {
+          "sourceIndex": 6,
+          "x": 882,
+          "y": 486,
+          "w": 307,
+          "h": 399,
+          "component": 5,
+          "area": 51930
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1290,
+          "y": 508,
+          "w": 309,
+          "h": 377,
+          "component": 8,
+          "area": 52033
+        }
+      ],
+      "uniformScale": 0.23057644110275688,
+      "componentIsolation": true,
+      "packaging": "package-action8.py; 112x96 cells; baseline94; lossless WebP; 8 original steal poses"
+    }
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "athlete": "juniper-vale",
+    "direction": "right",
+    "clip": "steal",
+    "src": "./public/assets/animation/juniper-vale-steal-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "juniper-vale",
+      "cell": 1,
+      "clip": "steal",
+      "direction": "right",
+      "generatedAt": "2026-10-23T03:27:52.951008719Z",
+      "generationExecution": "exec-561639ec-b8d0-4c44-a42a-e16d898ddd8a",
+      "sourceClaimId": "urn:c2pa:81807973-de42-45de-a3f9-3ad41c9f0ff9",
+      "sourceInstanceId": "xmp:iid:06446649-7362-4e4e-a5a9-734701d388d4",
+      "sourceSha256": "7624f8f9014fa6f067b1b3c6a15dbcbc8f803342a01c430ec048370a47672a14",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-steal8-candidate2.png",
+      "sourceReferences": [
+        "tools/generate-art/references/juniper-vale-portrait-reference.png",
+        "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+        "public/assets/animation/juniper-vale-pass-right.webp"
+      ],
+      "prompt": "Create a replacement original transparent RGBA sprite sheet with exactly eight distinct complete full-body defensive steal action drawings of Juniper Vale, Chicago Condas supporting athlete cell1. This replaces an earlier sheet whose reaching hand was too close to the image edge. Use the attached portrait as strict identity reference and gameplay sprite plus clean pass atlas for game-sprite scale and uniform only; do not copy poses. Preserve light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the small gold tie, compact natural human athletic proportions, dark-purple basketball uniform with gold trim, dark knee pads and matching shoes. Jersey and shorts must be plain blank fabric with trim only: absolutely no numerals, digits, lettering, logos, badges or text anywhere. No pointed ears, fantasy anatomy, glasses, extra jewelry, armor or props. Hands empty, no ball. Arrange exactly eight distinct full-body figures in a 4-column by 2-row sheet, strict row-major order, facing right in three-quarter view, same scale. Important framing: leave a wide clear transparent margin around every figure, at least 8 percent of each cell on all four sides. Every pose must be wholly within the central 84 percent of its cell. Keep the frame3 reaching hand well inside its fourth top-row cell, leaving at least 40 transparent pixels from the right edge of the entire sheet; do not stretch that arm to the sheet border. All hair, fingers and shoes fully visible with generous space from the sheet's outer edges. No cropping, clipping, overlap, touching, fusion or figure parts outside cells. Pose sequence: frame0 low balanced defensive stance, knees flexed and both hands open; frame1 shift toward the offense, shoulders turn and lead foot steps out; frame2 lean forward and extend the lead arm with fingers open; frame3 marked steal-contact lunge low, lead open hand reaching forward at waist height toward the center of her cell as though intercepting an unseen pass; frame4 sweep the reaching arm across her body to knock the unseen ball free; frame5 withdraw the arm and recover with knees bent; frame6 rise into an athletic ready stance, eyes follow the unseen ball; frame7 settle into a compact defensive stance. Each pose independently articulated, natural, visibly distinct, and complete. Transparent background only; no floor, ground, shadows, glow, text, numerals, logos, panels, borders, grid lines or extra figures.",
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "notes": "Visually reviewed on light and dark grounds. Eight complete, distinct Juniper Vale bodies in row-major order; exact cell1 face, warm skin, high purple curls with gold tie, compact human anatomy, purple/gold uniform and blank jersey/shorts preserved. Both hands are empty; no ball, numerals, or props. Frame3 is the marked contact lunge. Alpha>=64 finds eight isolated body components and all nonzero-alpha pixels remain inside the source sheet with clear margins."
+      },
+      "canonicalSection": "J.01",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 29,
+          "y": 43,
+          "w": 363,
+          "h": 386,
+          "component": 2,
+          "area": 52289
+        },
+        {
+          "sourceIndex": 1,
+          "x": 463,
+          "y": 32,
+          "w": 375,
+          "h": 396,
+          "component": 1,
+          "area": 54139
+        },
+        {
+          "sourceIndex": 2,
+          "x": 869,
+          "y": 52,
+          "w": 434,
+          "h": 374,
+          "component": 3,
+          "area": 56951
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1318,
+          "y": 95,
+          "w": 443,
+          "h": 332,
+          "component": 4,
+          "area": 54785
+        },
+        {
+          "sourceIndex": 4,
+          "x": 46,
+          "y": 473,
+          "w": 356,
+          "h": 382,
+          "component": 10,
+          "area": 54591
+        },
+        {
+          "sourceIndex": 5,
+          "x": 487,
+          "y": 489,
+          "w": 335,
+          "h": 366,
+          "component": 12,
+          "area": 51289
+        },
+        {
+          "sourceIndex": 6,
+          "x": 922,
+          "y": 466,
+          "w": 350,
+          "h": 389,
+          "component": 9,
+          "area": 53494
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1348,
+          "y": 485,
+          "w": 357,
+          "h": 370,
+          "component": 11,
+          "area": 51531
+        }
+      ],
+      "uniformScale": 0.23232323232323232,
+      "componentIsolation": true,
+      "packaging": "package-action8.py; 112x96 cells; baseline94; lossless WebP; 8 original steal poses"
+    }
+  }
+]

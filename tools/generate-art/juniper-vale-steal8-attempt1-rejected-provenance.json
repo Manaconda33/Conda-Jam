@@ -1,0 +1,17 @@
+{
+  "athlete": "juniper-vale",
+  "cell": 1,
+  "clip": "steal",
+  "direction": "right",
+  "generatedAt": "2026-10-23T03:26:08.799078900Z",
+  "generationExecution": "exec-f015caa8-ae8c-41b2-8e2f-08ff36e489dd",
+  "sourceClaimId": "urn:c2pa:8e302805-36d5-41c4-a860-88b589d25ea1",
+  "sourceInstanceId": "xmp:iid:0b788531-9264-4872-bd9a-dcc89596cfba",
+  "sourceSha256": "91f7c5c1b879438e6b77a888dfce401980756f702dbfe9fdf7acae52e318d6c3",
+  "sourceImage": "tools/generate-art/sources/juniper-vale-steal8-attempt1-rejected-edge.png",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "reason": "Alpha pixels reach the top and side borders; frame3's outstretched hand is too close to the canvas edge, so complete uncropped framing cannot be confirmed. Replaced by candidate2 with explicit per-cell and outer-sheet margins."
+  }
+}

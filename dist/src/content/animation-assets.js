@@ -6656,13 +6656,182 @@ export const animationAssetManifest = {
               "reviewedAt": "2026-10-23",
               "notes": "Five complete original pickup poses retain the canonical human identity and natural anatomy. Hands stay empty, with no numbers or logos; frame3 is the low court-contact pose. All five decoded crops are unique. Light/dark atlas and standard/zoom120 native previews were reviewed; all poses select production art in both facings and the separate ball reaches the floor-contact hand at tick7."
             }
+          },
+          "steal": {
+            "src": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "ad11977229de48a0ecf66d5c8315dba654d75166a6233e4a2a630b15f9c6a65f"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8b4b291fcf8eaa2035ce62eb8358ceeb2ccbf4b4f8a7b39e182c0dad0e351e9e"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8166496afb47817c0a66701d753d368a0bb8ec7a0e9c6a2cb4e0cf633ebc2f95"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "909b4d6657a3142e9861860ed6aedeaa3ca0ee3d3e1596c92e898a656da54190"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "451a2dcd47c60eb9d25c399a0f285925a4e24e83163afd82e4b2061980c7606f"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "d0ce35a10c15b3aeca959992b0cee67ba5cd909d4db032e212af0a79b411c8c6"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "7075beb2c6a4b8c461dc7c52e1c9ce0dd653fc65310439c077e2415beb742d6d"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "7b36a891b0ad8ba779c399cc6b84f6ce7445c8a5c81f8ac5f6dc175d7bbba986"
+              }
+            ],
+            "sha256": "ea6b6187a94a84c9230f9027ef64433cfdca966e5b179a58b61d4e0aa4fb136e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "cell": 0,
+              "clip": "steal",
+              "direction": "right",
+              "generatedAt": "2026-10-23T03:40:05.943974906Z",
+              "generationExecution": "exec-483fa086-0c3f-4544-a17f-bd87a6093d57",
+              "sourceClaimId": "urn:c2pa:3842a374-eef9-4102-9e54-248fcbd85d19",
+              "sourceInstanceId": "xmp:iid:b3313172-affa-49fb-990e-60699fc7bbea",
+              "sourceSha256": "c703f0ec1ef00b4cbd40852ae7d827dbc5b248e4e8e0f7742ad3f13434dc7eca",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-steal8-candidate2.png",
+              "sourceReferences": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "public/assets/animation/reed-ashcroft-pass-right.webp"
+              ],
+              "prompt": "Create a replacement original transparent RGBA sprite sheet with exactly eight distinct complete full-body defensive steal action drawings of Reed Ashcroft, Chicago Condas supporting athlete cell0. Replace a previous sheet whose fingertip antialiasing reached the right canvas edge. Use the attached portrait as strict identity reference and gameplay sprite plus clean pass atlas for game-sprite scale, style, and uniform only; do not copy poses. Preserve medium-brown skin, dark eyes and brows, small dark goatee, dark-purple/black braids swept into a high topknot, natural young-adult human athletic proportions, purple-and-gold Condas uniform, white lower-leg wear and matching shoes. Keep both hands empty. No ball, objects, glasses, gray beard, crest, cape, scarf, armor, animal traits, extra jewelry or props. Arrange exactly eight different full-body figures in a 4-column by 2-row sheet in strict row-major order, right-facing three-quarter view, same camera and scale. Important framing: leave a wide clear transparent margin around every figure, at least 8 percent of each cell on every side; each silhouette must stay within the central 84 percent of its cell. In particular, keep the frame3 reaching fingertips at least 40 transparent pixels from the right edge of the full sheet; do not stretch the arm to the cell border. Keep all hair, fingers, shoes and white tights fully visible with generous margin. Transparent background; no clipping, cropping, overlap, touching, fusion or parts outside assigned cells. Pose sequence: frame0 low balanced defensive stance, knees flexed and both hands open; frame1 shift weight toward the offense, shoulders turn and lead foot steps out; frame2 lean forward and extend the lead arm with fingers open; frame3 marked steal-contact lunge, reach far forward at waist height with one open hand toward the center of the fourth top-row cell, other arm balances; frame4 sweep the reaching arm across the body to knock the unseen ball free; frame5 withdraw the arm and recover balance with knees bent; frame6 rise into an athletic ready stance, eyes track the unseen ball; frame7 settle into a compact defensive stance. Make all eight poses independently articulated and visibly distinct, preserving Reed's exact identity and natural human anatomy. No ball, floor, ground, shadows, glow, text, numerals, logos, panels, borders, grid lines or extra figures.",
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "notes": "Inspected the complete accepted retry source and decoded lossless atlas on light and dark grounds. Eight unique original bodies preserve cell0 identity and uniform details; frame3 is the steal contact. The rejected first source had fourteen low-alpha antialias pixels at the far-right canvas edge. The replacement retains complete body margins; three isolated far-left alpha specks are non-body noise below the component threshold. Both facings use existing canon-reviewed body mirroring, with empty hands and independent ball tracks."
+              },
+              "canonicalSection": "J.01",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 40,
+                  "y": 67,
+                  "w": 320,
+                  "h": 367,
+                  "component": 1,
+                  "area": 50424
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 428,
+                  "y": 67,
+                  "w": 390,
+                  "h": 370,
+                  "component": 2,
+                  "area": 53127
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 807,
+                  "y": 94,
+                  "w": 421,
+                  "h": 338,
+                  "component": 3,
+                  "area": 49215
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1177,
+                  "y": 97,
+                  "w": 467,
+                  "h": 336,
+                  "component": 4,
+                  "area": 52948
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 59,
+                  "y": 507,
+                  "w": 336,
+                  "h": 377,
+                  "component": 7,
+                  "area": 51343
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 458,
+                  "y": 506,
+                  "w": 328,
+                  "h": 375,
+                  "component": 6,
+                  "area": 48608
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 882,
+                  "y": 486,
+                  "w": 307,
+                  "h": 399,
+                  "component": 5,
+                  "area": 51930
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1290,
+                  "y": 508,
+                  "w": 309,
+                  "h": 377,
+                  "component": 8,
+                  "area": 52033
+                }
+              ],
+              "uniformScale": 0.23057644110275688,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 112x96 cells; baseline94; lossless WebP; 8 original steal poses"
+            },
+            "reviewed": true,
+            "reviewedAt": "2026-10-23",
+            "reviewNotes": "Inspected the complete accepted retry source and decoded lossless atlas on light and dark grounds. Eight unique original bodies preserve cell0 identity and uniform details; frame3 is the steal contact. The rejected first source had fourteen low-alpha antialias pixels at the far-right canvas edge. The replacement retains complete body margins; three isolated far-left alpha specks are non-body noise below the component threshold. Both facings use existing canon-reviewed body mirroring, with empty hands and independent ball tracks."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canon-safe human body mirroring: inspected portrait/gameplay identity and authored clips contain no fixed-side anatomy, directional emblem or handed prop. The separate physics basketball is oriented by the athlete track."
+        "notes": "Game-only supporting identity: dark purple locs and beard in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
       }
     },
     "accu": {
@@ -10035,13 +10204,182 @@ export const animationAssetManifest = {
               "reviewedAt": "2026-10-23",
               "notes": "Five complete original pickup poses retain the canonical human identity and natural anatomy. Hands stay empty, with no numbers or logos; frame3 is the low court-contact pose. All five decoded crops are unique. Light/dark atlas and standard/zoom120 native previews were reviewed; all poses select production art in both facings and the separate ball reaches the floor-contact hand at tick7."
             }
+          },
+          "steal": {
+            "src": "./public/assets/animation/juniper-vale-steal-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "6bd55ef0f644beb20ba888ce8154216a8d379d5076b711b974547f924b789fcf"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "42627fed01b7389d237dc62ce78c85ef08716301b07abb74b359f554c2e24315"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "a3b80cbd1e2be112b703698c157e4c6518b1585c1643f008bac9b24426cfeb96"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "594cdf496d7ba1575b89c315c2d32c1fdbf9c35d90633f7594847ffb41fd2361"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "0e4b89857ce7612f8bcc91881098b92382110992ca87322ca44175f06261f4a3"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "7a3744bd208d359e93f2640f48be5a06708953f6c19799337ccaab6be1be44b5"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "6d657f420c0f73158b7aa6bd7dbf923cf1b843fc012625129f9ae040f12ed86a"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "ce6f5da913849f4280445608215d61b95a4807c0f7cb18de7e3eec7f798798f9"
+              }
+            ],
+            "sha256": "ed61bef99c4b07b2142677938f222bd837437149c3910d623a7c41cea8be8589",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "cell": 1,
+              "clip": "steal",
+              "direction": "right",
+              "generatedAt": "2026-10-23T03:27:52.951008719Z",
+              "generationExecution": "exec-561639ec-b8d0-4c44-a42a-e16d898ddd8a",
+              "sourceClaimId": "urn:c2pa:81807973-de42-45de-a3f9-3ad41c9f0ff9",
+              "sourceInstanceId": "xmp:iid:06446649-7362-4e4e-a5a9-734701d388d4",
+              "sourceSha256": "7624f8f9014fa6f067b1b3c6a15dbcbc8f803342a01c430ec048370a47672a14",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-steal8-candidate2.png",
+              "sourceReferences": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+                "public/assets/animation/juniper-vale-pass-right.webp"
+              ],
+              "prompt": "Create a replacement original transparent RGBA sprite sheet with exactly eight distinct complete full-body defensive steal action drawings of Juniper Vale, Chicago Condas supporting athlete cell1. This replaces an earlier sheet whose reaching hand was too close to the image edge. Use the attached portrait as strict identity reference and gameplay sprite plus clean pass atlas for game-sprite scale and uniform only; do not copy poses. Preserve light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the small gold tie, compact natural human athletic proportions, dark-purple basketball uniform with gold trim, dark knee pads and matching shoes. Jersey and shorts must be plain blank fabric with trim only: absolutely no numerals, digits, lettering, logos, badges or text anywhere. No pointed ears, fantasy anatomy, glasses, extra jewelry, armor or props. Hands empty, no ball. Arrange exactly eight distinct full-body figures in a 4-column by 2-row sheet, strict row-major order, facing right in three-quarter view, same scale. Important framing: leave a wide clear transparent margin around every figure, at least 8 percent of each cell on all four sides. Every pose must be wholly within the central 84 percent of its cell. Keep the frame3 reaching hand well inside its fourth top-row cell, leaving at least 40 transparent pixels from the right edge of the entire sheet; do not stretch that arm to the sheet border. All hair, fingers and shoes fully visible with generous space from the sheet's outer edges. No cropping, clipping, overlap, touching, fusion or figure parts outside cells. Pose sequence: frame0 low balanced defensive stance, knees flexed and both hands open; frame1 shift toward the offense, shoulders turn and lead foot steps out; frame2 lean forward and extend the lead arm with fingers open; frame3 marked steal-contact lunge low, lead open hand reaching forward at waist height toward the center of her cell as though intercepting an unseen pass; frame4 sweep the reaching arm across her body to knock the unseen ball free; frame5 withdraw the arm and recover with knees bent; frame6 rise into an athletic ready stance, eyes follow the unseen ball; frame7 settle into a compact defensive stance. Each pose independently articulated, natural, visibly distinct, and complete. Transparent background only; no floor, ground, shadows, glow, text, numerals, logos, panels, borders, grid lines or extra figures.",
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "notes": "Inspected the complete eight-frame source and decoded lossless atlas on light and dark grounds. Eight unique original bodies preserve the athlete identity and blank/number-free kit rules; frame3 is the steal contact. Both facings use existing canon-reviewed body mirroring. Empty hands and independent ball tracks are recorded."
+              },
+              "canonicalSection": "J.01",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 29,
+                  "y": 43,
+                  "w": 363,
+                  "h": 386,
+                  "component": 2,
+                  "area": 52289
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 463,
+                  "y": 32,
+                  "w": 375,
+                  "h": 396,
+                  "component": 1,
+                  "area": 54139
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 869,
+                  "y": 52,
+                  "w": 434,
+                  "h": 374,
+                  "component": 3,
+                  "area": 56951
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1318,
+                  "y": 95,
+                  "w": 443,
+                  "h": 332,
+                  "component": 4,
+                  "area": 54785
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 46,
+                  "y": 473,
+                  "w": 356,
+                  "h": 382,
+                  "component": 10,
+                  "area": 54591
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 487,
+                  "y": 489,
+                  "w": 335,
+                  "h": 366,
+                  "component": 12,
+                  "area": 51289
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 922,
+                  "y": 466,
+                  "w": 350,
+                  "h": 389,
+                  "component": 9,
+                  "area": 53494
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1348,
+                  "y": 485,
+                  "w": 357,
+                  "h": 370,
+                  "component": 11,
+                  "area": 51531
+                }
+              ],
+              "uniformScale": 0.23232323232323232,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 112x96 cells; baseline94; lossless WebP; 8 original steal poses"
+            },
+            "reviewed": true,
+            "reviewedAt": "2026-10-23",
+            "reviewNotes": "Inspected the complete eight-frame source and decoded lossless atlas on light and dark grounds. Eight unique original bodies preserve the athlete identity and blank/number-free kit rules; frame3 is the steal contact. Both facings use existing canon-reviewed body mirroring. Empty hands and independent ball tracks are recorded."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canon-safe human body mirroring: inspected portrait/gameplay identity and authored clips contain no fixed-side anatomy, directional emblem or handed prop. The separate physics basketball is oriented by the athlete track."
+        "notes": "Game-only supporting identity: purple high ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
       }
     },
     "echo-catwalk": {

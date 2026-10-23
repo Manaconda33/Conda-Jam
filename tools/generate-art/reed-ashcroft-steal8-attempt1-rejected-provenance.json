@@ -1,0 +1,17 @@
+{
+  "athlete": "reed-ashcroft",
+  "cell": 0,
+  "clip": "steal",
+  "direction": "right",
+  "generatedAt": "2026-10-23T03:25:08.024488162Z",
+  "generationExecution": "exec-62dd4b75-e6ab-4a16-bce2-0f1180fa92af",
+  "sourceClaimId": "urn:c2pa:43867593-6dd4-4b75-ba81-cf13f2dbee3c",
+  "sourceInstanceId": "xmp:iid:9cd6bdc6-a6aa-4d95-abb0-9bbc3f89bcd9",
+  "sourceSha256": "5beffb68e859986ab007eb881ffb219db978425330867357cda346d3fe6e0ebf",
+  "sourceImage": "tools/generate-art/sources/reed-ashcroft-steal8-attempt1-rejected-edge.png",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "reason": "Fourteen low-alpha antialias pixels reach the far-right image edge beside the reaching pose. Rejected rather than treating this source as fully uncropped; replaced by candidate2 with a wider safe margin."
+  }
+}

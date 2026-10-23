@@ -158,3 +158,10 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 |:--|--:|:--:|:--|
 | Reed Ashcroft | 0 | yes | Five right-facing pickup poses retain Reed's medium-brown skin, goatee, dark-purple braids in a high topknot, white lower-leg wear and purple/gold Condas kit. Hands are empty, no numbers are present, and frame3 reaches court contact. Standard and zoom120 previews select the atlas in both facings and place the separate basketball at the low hand. |
 | Juniper Vale | 1 | yes | Five right-facing pickup poses retain Juniper's light-warm skin, high purple curls and gold tie, compact human proportions, dark knee pads and purple/gold kit. The uniform stays blank; hands are empty, and frame3 reaches court contact. Standard and zoom120 previews select the atlas in both facings and place the separate basketball at the low hand. |
+
+## J.37 steal clips
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Reed Ashcroft | 0 | yes | Eight right-facing steal poses retain Reed's medium-brown skin, goatee, dark-purple braids in a high topknot, white lower-leg wear and purple/gold Condas kit. His hands remain empty; frame3 is the marked contact lunge. The separate ball track reaches his longer hand at tick5. All eight atlas frames select reviewed production art in both facings. |
+| Juniper Vale | 1 | yes | Eight right-facing steal poses retain Juniper's light-warm skin, high purple curls with the gold tie, compact natural human proportions, dark knee pads and purple/gold kit. Jersey and shorts remain blank; her hands are empty. The accepted retry leaves transparent margin at every canvas edge. Frame3 is the marked contact lunge; Juniper's shorter independent ball track reaches it at tick5. All eight atlas frames select reviewed art in both facings. |

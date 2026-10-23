@@ -424,6 +424,19 @@ test('steal contact waits until grab',()=>{
   while(defender.animation.tick<anchorTick('steal','grab')-1){stepMatch(m,neutral(m));assert.equal(holder.stun,0);assert.equal(defender.steals,0);}
   stepMatch(m,neutral(m));assert.equal(defender.steals,1);assert.ok(holder.stun>0);assert.equal(m.ball.mode,'loose');
 });
+test('Reed and Juniper steals use the authored contact frame and distinct hand lanes',()=>{
+ const expected=[['reed-ashcroft',14,1.35],['juniper-vale',12,1.25]];
+ for(const [id,forward,height] of expected){
+  const m=createMatch({quarterSeconds:60,seed:61,away:{roster:[{id},{id:`${id}-reserve`}]}}),holder=m.players[0],defender=m.players[2];
+  holder.x=defender.x=100;holder.y=defender.y=50;defender.steal=99;
+  startSteal(m,defender);assert.equal(defender.animation.clip,'steal',id+' action selection');
+  while(defender.animation.tick<anchorTick('steal','grab')-1)stepMatch(m,neutral(m));
+  stepMatch(m,neutral(m));assert.equal(defender.steals,1,id+' steal resolves at frame3');
+  assert.equal(m.ball.mode,'loose',id+' ball remains separate after contact');
+  assert.equal(sampleBallForward('steal',anchorTick('steal','grab'),id),forward,id+' forward contact track');
+  assert.equal(sampleBallHeight('steal',anchorTick('steal','grab'),id),height,id+' vertical contact track');
+ }
+});
 for(const disruption of ['range','ownership','stun','target-stun'])test(`steal rechecks ${disruption} at grab`,()=>{
   const {m,holder,defender}=stealSetup();startSteal(m,defender);
   if(disruption==='range')holder.x=150;

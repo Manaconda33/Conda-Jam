@@ -101,7 +101,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // The separate ball follows Reed's open hands through the chest-height catch.
   receive:{height:[1.25,1.4,1.5,1.4],forward:[8,13,15,11]},
   // Follow the descending reach to court contact, then lift with Reed's hand.
-  pickup:{height:[1.1,.7,.35,0,.75],forward:[5,10,15,18,10]}
+  pickup:{height:[1.1,.7,.35,0,.75],forward:[5,10,15,18,10]},
+  // Reed's low steal lunge reaches farther forward than Juniper's compact stance.
+  steal:{height:[.95,1.05,1.2,1.35,1.2,1.05,.95,.9],forward:[4,7,11,14,12,8,7,6]}
 },'juniper-vale':{
   // Juniper's compact 96x96 poses have a shorter reach than Reed's release.
   pass:{height:[.9,1.2,1.4,1.5,1.45,.95],forward:[7,7.5,10.5,15,14.5,8.5]},
@@ -110,7 +112,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // Juniper's compact stance pulls the separately rendered ball closer to her chest.
   receive:{height:[1.25,1.4,1.5,1.4],forward:[7,11,13,10]},
   // Her lead hand reaches lower and slightly shorter than Reed's on pickup.
-  pickup:{height:[1.1,.7,.35,0,.75],forward:[5,8,13,16,9]}
+  pickup:{height:[1.1,.7,.35,0,.75],forward:[5,8,13,16,9]},
+  // Her lead hand crosses a shorter reach lane during contact and recovery.
+  steal:{height:[.9,1,1.1,1.25,1.15,1,.9,.85],forward:[3,6,9,12,10,7,6,5]}
 },'sera-bellini':{
   // The reviewed 80x96 sheet places the lead hand ahead of her torso; keep
   // the separate game ball at that hand through her court-level bounce.

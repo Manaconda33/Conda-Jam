@@ -66,10 +66,23 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
  const aerial=clip.startsWith('dunk-')||clip.startsWith('alley-oop-');
  const tick=aerial?anchorTick(clip,'peak'):anchorTick(clip,'release')??anchorTick(clip,'apex')??anchorTick(clip,'grab')??anchorTick(clip,'contact')??anchorTick(clip,'bounce')??12;
  p.x=x;p.y=50;p.animation={clip,tick};p.z=aerial?5:clip==='shoot'||clip.startsWith('layup')||clip==='block'||clip==='rebound'?2:0;
- p.hasBall=['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','receive','pickup','layup','layup-reverse'].includes(clip)||aerial;p.facing=position==='right'?-1:1;
+ // Treat action-anchor poses as hand-alignment diagnostics; steal still uses
+ // a loose physics ball in a live match after its contact event.
+ p.hasBall=['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','receive','pickup','steal','layup','layup-reverse'].includes(clip)||aerial;p.facing=position==='right'?-1:1;
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick,p.id),y:p.y,z:p.z+(p.hasBall?sampleBallHeight(clip,p.animation.tick,p.id):0),mode:p.hasBall?'carried':'loose',ownerId:p.hasBall?p.id:null});
  for(let i=0;i<(clip==='idle'?90:1);i++)game.tick(0);
  const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(selected),sourceDirection:selected?.atlas?.file?.match(/-(left|right)\.webp$/)?.[1]??null,flipped:selected?.flip??false});
 }
-await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',cameraZoom:previewZoom,loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames},null,2));
-console.log(JSON.stringify({loadedImages:images.length,previews:previews.length,out}));
+const actionFramePreviews=[];
+for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips.steal.frames.length;frame++){
+ for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
+ p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip:'steal',tick};p.hasBall=true;
+ Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward('steal',tick,p.id),y:p.y,z:sampleBallHeight('steal',tick,p.id),mode:'carried',ownerId:p.id});
+ game.tick(0);
+ const path=out+'/'+position+'-steal-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
+ const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});
+ actionFramePreviews.push({path,athlete:p.id,clip:'steal',frame,tick,facing:p.facing,production:Boolean(selected),selectedFrame:selected?.frame,source:selected?.atlas?.file??null,flipped:selected?.flip??false});
+ tick+=animationClips.steal.frames[frame].duration;
+}
+await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',cameraZoom:previewZoom,loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames,actionFramePreviews},null,2));
+console.log(JSON.stringify({loadedImages:images.length,previews:previews.length,actionFramePreviews:actionFramePreviews.length,out}));
