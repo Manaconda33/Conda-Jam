@@ -417,17 +417,29 @@ for(const [x,variant,clip] of [[150,undefined,'shoot'],[182,'normal','layup'],[1
   assert.ok(p.z>0);assert.ok(Math.abs(renderedRelease-(p.z*7+sampleBallHeight(clip,p.animation.tick)*28))<1e-9);
   assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-p.facing*sampleBallForward(clip,p.animation.tick))<1e-9,'horizontal release also starts at the hand');
 });
-test('Reed layup releases from his authored high hand on frame4',()=>{
- const m=createMatch({quarterSeconds:60,seed:83,home:{roster:[{id:'reed-ashcroft'},{id:'reed-reserve'}]}}),p=m.players.find(player=>player.id==='reed-ashcroft');
+for(const [id,forward,height]of [['reed-ashcroft',7.676,2.135],['juniper-vale',5.3,2.03]])test(`${id} layup releases from the authored high hand on frame4`,()=>{
+ const m=createMatch({quarterSeconds:60,seed:83,home:{roster:[{id},{id:`${id}-reserve`}]}}),p=m.players.find(player=>player.id===id);
  p.x=182;p.y=50;
  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,layupVariant:'normal'}):i));
  assert.equal(p.animation.clip,'layup');
  while(p.animation.tick<anchorTick('layup','release'))stepMatch(m,neutral(m));
  assert.equal(anchorTick('layup','release'),10);assert.equal(p.animation.tick,10);
  assert.equal(p.fga,1);assert.equal(m.ball.mode,'shot');
- assert.equal(sampleBallForward('layup',10,p.id),7.676);
- assert.equal(sampleBallHeight('layup',10,p.id),2.135);
- assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-p.facing*7.676)<1e-9);
+ assert.equal(sampleBallForward('layup',10,id),forward);
+ assert.equal(sampleBallHeight('layup',10,id),height);
+ assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-p.facing*forward)<1e-9);
+});
+for(const [id,forward,height]of [['reed-ashcroft',7.676,2.135],['juniper-vale',5.3,2.03]])test(`${id} reverse layup releases from the authored high hand on frame5`,()=>{
+ const m=createMatch({quarterSeconds:60,seed:84,home:{roster:[{id},{id:`${id}-reserve`}]}}),p=m.players.find(player=>player.id===id);
+ p.x=182;p.y=55;
+ stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true}):i));
+ assert.equal(p.animation.clip,'layup-reverse');
+ while(p.animation.tick<anchorTick('layup-reverse','release'))stepMatch(m,neutral(m));
+ assert.equal(anchorTick('layup-reverse','release'),12);assert.equal(p.animation.tick,12);
+ assert.equal(p.fga,1);assert.equal(m.ball.mode,'shot');
+ assert.equal(sampleBallForward('layup-reverse',12,id),forward);
+ assert.equal(sampleBallHeight('layup-reverse',12,id),height);
+ assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-p.facing*forward)<1e-9);
 });
 function stealSetup(){const m=setup(),holder=m.players[0],defender=m.players[2];holder.x=defender.x=100;holder.y=defender.y=50;defender.steal=99;return {m,holder,defender};}
 function startSteal(m,defender){stepMatch(m,neutral(m).map(i=>i.playerId===defender.id?createInput(i.playerId,{stealPressed:true}):i));}

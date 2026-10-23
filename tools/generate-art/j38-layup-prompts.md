@@ -1,6 +1,6 @@
 # J.38 layup generation and review — Reed Ashcroft / Juniper Vale
 
-Generation date: 2026-10-23. Both athletes are Chicago Condas supporting identities, runtime cells0/1. This checkpoint integrates Reed's eight-frame `layup`; Juniper has no eligible source yet.
+Generation date: 2026-10-23. Both athletes are Chicago Condas supporting identities, runtime cells0/1. This checkpoint integrates original eight-frame `layup` atlases for both athletes. The accepted prompts were reconstructed from the J.38 checkpoint and are marked nonverbatim in strict provenance.
 
 ## Reed Ashcroft — cell0
 
@@ -31,4 +31,6 @@ Exact generation prompts, hashes, dates, C2PA IDs and rejection notes for Reed's
 
 Juniper remains an adult human woman with light warm skin, dark eyes, abundant dark-purple curls gathered high with a small gold tie, compact natural athletic proportions, plain purple uniform with gold trim, dark knee pads and matching shoes. No digits, lettering, logos, ball or props are allowed.
 
-Seven source attempts were reviewed and rejected. Fresh generations and direct backdrop edits all retained a visible painted or translucent gradient. Some had clear outer sheet edges, but the background still connected across gutters, so none was packed or registered. The source images remain in `tools/generate-art/sources/juniper-vale-layup8-*.png`; their hashes, C2PA claims, XMP instances, generation IDs and rejection reasons are recorded in `tools/generate-art/juniper-vale-layup8-rejected-provenance.json`. Original prompt text was not retained for those earlier attempts and is not reconstructed as verbatim. Generate a new clean transparent sheet before Juniper's `layup` can enter the runtime.
+The accepted eight-pose atlas was isolated from attempt4, `tools/generate-art/sources/juniper-vale-layup8-attempt4-rejected-background.png` (SHA-256 `3774ed5ada2b3cc0e480ab3804086fcfae63c271bc9c68b32102edbcc8498cbb`, C2PA claim `urn:c2pa:362b0cf3-0067-4f3e-bc85-1b3ff9c665e0`, XMP instance `xmp:iid:fe60bb19-7be6-4e03-b170-8f68a1ef20ed`, generation `exec-638c54c1-9dac-4b5b-96fb-a3484a58dc99`). The raw sheet retained a translucent backdrop and was not accepted as a transparent sheet. The standard component-only packer found eight separate substantial alpha>=64 body components and cropped only those original figures; light/dark review of the packed result showed clear gutters and no backdrop. No redrawing, mirroring, or duplicate crops were used. The resulting `public/assets/animation/juniper-vale-layup-right.webp` is 320×192 and SHA-256 `a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2`. Frame4 is the high release at tick10; native Canvas review shows the separate ball at her raised hand in both facings.
+
+The exact prompt was not retained in the checkpoint. The reconstruction is explicitly marked nonverbatim in `tools/generate-art/juniper-vale-layup8-provenance.json`; the strict audit therefore records a `prompt-not-verbatim` finding. Six other generation/edit attempts remain rejected and documented with hashes, C2PA claims, XMP instances, generation IDs and reasons in `tools/generate-art/juniper-vale-layup8-rejected-provenance.json`.

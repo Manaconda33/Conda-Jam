@@ -106,7 +106,10 @@ const athleteBallTracks={'reed-ashcroft':{
   steal:{height:[.95,1.05,1.2,1.35,1.2,1.05,.95,.9],forward:[4,7,11,14,12,8,7,6]},
   // The reviewed 80x96 Reed layup cells put the release hand overhead on
   // authored frame4; keep the loose runtime ball at that hand through landing.
-  layup:{height:[1.101,1.015,.986,2.278,2.135,2.049,.842,.929],forward:[.731,2.924,1.827,10.233,7.676,5.482,8.407,9.869]}
+  layup:{height:[1.101,1.015,.986,2.278,2.135,2.049,.842,.929],forward:[.731,2.924,1.827,10.233,7.676,5.482,8.407,9.869]},
+  // The reverse release is frame5 after Reed crosses beneath the hoop; keep
+  // the ball at his raised hand as his torso turns to the far side.
+  'layup-reverse':{height:[1.101,1.35,1.0,1.8,2.135,2.135,.95,.85],forward:[.731,2.924,1.827,10.233,7.676,7.676,8.407,9.869]}
 },'juniper-vale':{
   // Juniper's compact 96x96 poses have a shorter reach than Reed's release.
   pass:{height:[.9,1.2,1.4,1.5,1.45,.95],forward:[7,7.5,10.5,15,14.5,8.5]},
@@ -117,7 +120,13 @@ const athleteBallTracks={'reed-ashcroft':{
   // Her lead hand reaches lower and slightly shorter than Reed's on pickup.
   pickup:{height:[1.1,.7,.35,0,.75],forward:[5,8,13,16,9]},
   // Her lead hand crosses a shorter reach lane during contact and recovery.
-  steal:{height:[.9,1,1.1,1.25,1.15,1,.9,.85],forward:[3,6,9,12,10,7,6,5]}
+  steal:{height:[.9,1,1.1,1.25,1.15,1,.9,.85],forward:[3,6,9,12,10,7,6,5]},
+  // Juniper's compact 80x96 layup poses keep the separate ball at her own
+  // gather and overhead release hand, clear of the high ponytail silhouette.
+  layup:{height:[.72,.72,.65,1.72,2.03,1.65,.92,.51],forward:[2,5.7,1.7,3.5,5.3,7,5.7,1.8]},
+  // Her reverse-side release is frame5 at tick12; the compact track keeps the
+  // separate ball on Juniper's raised hand without clipping her high curls.
+  'layup-reverse':{height:[.72,.72,.65,1.72,1.85,2.03,.92,.51],forward:[2,5.7,1.7,3.5,5.3,5.3,5.7,1.8]}
 },'sera-bellini':{
   // The reviewed 80x96 sheet places the lead hand ahead of her torso; keep
   // the separate game ball at that hand through her court-level bounce.

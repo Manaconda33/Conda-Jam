@@ -1,0 +1,163 @@
+[
+  {
+    "athlete": "juniper-vale",
+    "direction": "right",
+    "clip": "layup",
+    "src": "./public/assets/animation/juniper-vale-layup-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "juniper-vale",
+      "cell": 1,
+      "clip": "layup",
+      "direction": "right",
+      "canonicalSection": "J.01",
+      "generatedAt": "2026-10-23T03:51:09.866547121Z",
+      "generationExecution": "exec-638c54c1-9dac-4b5b-96fb-a3484a58dc99",
+      "sourceClaimId": "urn:c2pa:362b0cf3-0067-4f3e-bc85-1b3ff9c665e0",
+      "sourceInstanceId": "xmp:iid:fe60bb19-7be6-4e03-b170-8f68a1ef20ed",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-layup8-attempt4-rejected-background.png",
+      "sourceSha256": "3774ed5ada2b3cc0e480ab3804086fcfae63c271bc9c68b32102edbcc8498cbb",
+      "sourceReferences": [
+        "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+        "public/assets/animation/juniper-vale-pass-right.webp"
+      ],
+      "prompt": "RECONSTRUCTED PROMPT, NOT VERBATIM. Generate eight distinct complete right-facing three-quarter full-body layup drawings for Juniper Vale, Chicago Condas supporting athlete cell1, arranged row-major in a 4-column by 2-row sprite sheet. Use her gameplay reference and clean pass atlas for identity, scale, style and uniform. Preserve light warm skin, dark eyes, abundant dark-purple curls in a high gathered style with a small gold tie, compact natural adult human athletic proportions, blank purple uniform with gold trim, dark knee pads and matching shoes. The game renders the basketball separately, so both hands stay empty. Pose order: running approach, gather, planted crouch, takeoff with raised knee, high one-hand release, airborne follow-through, descent, balanced landing. No ball, text, numerals, logos, props, fantasy anatomy, floor, shadows or visible backdrop. Keep the silhouettes complete, separate and in bounds.",
+      "promptVerbatim": false,
+      "sourcePromptStatus": "reconstructed",
+      "sourcePromptReconstructionReason": "The exact original prompt was not retained in the J.38 checkpoint context. This reconstruction records visible identity and action requirements and is not claimed to be verbatim.",
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "notes": "The raw generation sheet has a translucent backdrop between figures and was initially rejected as a transparent sheet. It contains exactly eight substantial, separate alpha>=64 body components in two complete row-major rows. The standard component-only packer crops and preserves the original figure components; the packed atlas contains clean transparent gutters with no visible backdrop on light and dark review. All eight bodies are complete and distinct, Juniper's adult-human identity and blank purple/gold uniform are consistent, and every hand is empty. Accepted for component-isolated packing after dark/light review; the source prompt is explicitly marked reconstructed, not verbatim."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 70,
+          "y": 39,
+          "w": 291,
+          "h": 445,
+          "component": 2,
+          "area": 55705
+        },
+        {
+          "sourceIndex": 1,
+          "x": 457,
+          "y": 75,
+          "w": 283,
+          "h": 409,
+          "component": 3,
+          "area": 56413
+        },
+        {
+          "sourceIndex": 2,
+          "x": 857,
+          "y": 96,
+          "w": 237,
+          "h": 388,
+          "component": 4,
+          "area": 55693
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1205,
+          "y": 32,
+          "w": 286,
+          "h": 496,
+          "component": 1,
+          "area": 60573
+        },
+        {
+          "sourceIndex": 4,
+          "x": 64,
+          "y": 468,
+          "w": 360,
+          "h": 528,
+          "component": 5,
+          "area": 63863
+        },
+        {
+          "sourceIndex": 5,
+          "x": 450,
+          "y": 547,
+          "w": 325,
+          "h": 446,
+          "component": 6,
+          "area": 56837
+        },
+        {
+          "sourceIndex": 6,
+          "x": 835,
+          "y": 609,
+          "w": 304,
+          "h": 377,
+          "component": 8,
+          "area": 54501
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1199,
+          "y": 602,
+          "w": 295,
+          "h": 385,
+          "component": 7,
+          "area": 52232
+        }
+      ],
+      "uniformScale": 0.17424242424242425,
+      "componentIsolation": true,
+      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup poses"
+    }
+  }
+]

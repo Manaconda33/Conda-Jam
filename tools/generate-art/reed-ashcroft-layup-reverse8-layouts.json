@@ -1,0 +1,170 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "layup-reverse",
+    "src": "./public/assets/animation/reed-ashcroft-layup-reverse-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "reed-ashcroft",
+      "cell": 0,
+      "clip": "layup-reverse",
+      "direction": "right",
+      "canonicalSection": "J.01",
+      "generatedAt": "2026-10-23T04:24:59Z",
+      "generationExecution": "exec-28a6a7e6-6f83-4875-b61c-8b7c2f8e7dad",
+      "sourceClaimId": "urn:c2pa:311afb05-654b-4e8b-9fd8-7ea49f165d73",
+      "sourceInstanceId": "xmp:iid:aaf952af-978b-484a-9380-838654e5571a",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-layup-reverse8-attempt2-component-isolation-source.png",
+      "sourceSha256": "b8dd095adb7dae1c6e3145f7fa53bb6d9bdf713536f0a9e569cbe89e7f3f767f",
+      "sourceReferences": [],
+      "prompt": "Edit this sprite atlas by removing the painted gradient backdrop completely and replacing every background pixel with fully transparent alpha. Preserve all eight existing athlete figures and their exact positions, poses, proportions, faces, skin, braids, purple-and-gold uniforms, white leg wear, outlines and shoes. Do not redraw, add, remove, crop, resize or rearrange any figure. The final image must remain a 4-column by 2-row PNG with eight complete separate figures on transparent RGBA canvas, clear transparent gutters between all figures, and at least 2 pixels of fully transparent margin around every figure and every outer canvas edge. No floor, shadow, glow, texture, background color or checkerboard; true transparent alpha only.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "generationChain": [
+        {
+          "sourceImage": "tools/generate-art/sources/reed-ashcroft-layup-reverse8-attempt1-rejected-background.png",
+          "sourceSha256": "b9672d8c8e8d3da1b1143b4e9a50e7e266e538d8991be648eb0cc00d704a2ab5",
+          "generationExecution": "exec-2bac94e9-b040-48ad-986c-1ca9e936d932",
+          "generatedAt": "2026-10-23T04:24:01Z",
+          "sourceClaimId": "urn:c2pa:5c52f378-4fc8-4682-96ab-45f8267efb73",
+          "sourceInstanceId": "xmp:iid:a3d4ca7e-141a-496e-a32f-79b7cf4a63ca",
+          "prompt": "Create one original sprite atlas: an exact 4-column by 2-row grid of eight separate, complete, right-facing full-body reverse basketball layup poses for Reed Ashcroft, supporting athlete cell0 of the Chicago Condas. Reed is an adult human man with medium-brown skin, dark eyes, a small dark goatee, dark purple-black braids gathered in a high topknot, natural athletic proportions, a blank purple-and-gold sleeveless Condas uniform, white lower-leg wear, and purple/gold basketball shoes. Preserve this identity, face, hairstyle, body proportions, and uniform consistently across all eight drawings. All figures are the same scale, evenly spaced with generous transparent gutters, uncropped with clear hands and feet. Use polished 1990s arcade basketball sprite art with crisp readable pixels and consistent outlines. Every hand is empty because the game renders its own basketball. Row-major pose sequence for a reverse layup: (1) approach along the baseline, (2) gather with the ball-side arm pulled in but empty hand, (3) plant beneath the hoop with the torso beginning to turn away, (4) leap across the lane toward the far side of the rim, (5) reverse-side one-hand release behind the head at the action's high point, (6) airborne follow-through with the releasing arm extended, (7) descend beyond the hoop, (8) balanced landing facing right. Keep a clean orthographic three-quarter side view and consistent baseline. No ball, hoop, court, floor, shadow, lettering, numerals, logos, props, border, panels between figures, fantasy anatomy, duplicated or merged bodies. Transparent background throughout."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "notes": "The raw generated source sheet has a painted translucent backdrop and is rejected as a clean transparent atlas. It has eight complete, separate alpha>=64 body components; the component-only packer isolates the original figures and excludes the backdrop. The packed atlas was reviewed on light and dark grounds and has clean transparent gutters. Reed remains an adult human man with medium-brown skin, dark eyes, small goatee, dark braided high topknot, natural proportions, blank purple/gold uniform, white lower-leg wear and matching shoes. Hands are empty. J.01 confirms no fixed-side anatomy mark or directional detail, so reviewed body mirroring is safe."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 32,
+          "y": 47,
+          "w": 345,
+          "h": 405,
+          "component": 2,
+          "area": 44196
+        },
+        {
+          "sourceIndex": 1,
+          "x": 421,
+          "y": 57,
+          "w": 277,
+          "h": 393,
+          "component": 4,
+          "area": 39979
+        },
+        {
+          "sourceIndex": 2,
+          "x": 882,
+          "y": 54,
+          "w": 251,
+          "h": 416,
+          "component": 3,
+          "area": 43537
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1168,
+          "y": 7,
+          "w": 338,
+          "h": 412,
+          "component": 1,
+          "area": 45537
+        },
+        {
+          "sourceIndex": 4,
+          "x": 44,
+          "y": 502,
+          "w": 372,
+          "h": 468,
+          "component": 5,
+          "area": 48886
+        },
+        {
+          "sourceIndex": 5,
+          "x": 429,
+          "y": 510,
+          "w": 394,
+          "h": 483,
+          "component": 6,
+          "area": 50330
+        },
+        {
+          "sourceIndex": 6,
+          "x": 871,
+          "y": 579,
+          "w": 283,
+          "h": 417,
+          "component": 7,
+          "area": 40084
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1229,
+          "y": 617,
+          "w": 265,
+          "h": 383,
+          "component": 8,
+          "area": 43755
+        }
+      ],
+      "uniformScale": 0.19047619047619047,
+      "componentIsolation": true,
+      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses"
+    }
+  }
+]

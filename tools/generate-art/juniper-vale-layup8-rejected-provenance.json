@@ -37,17 +37,6 @@
       "sourcePromptStatus": "not-preserved-in-checkpoint"
     },
     {
-      "sourceImage": "tools/generate-art/sources/juniper-vale-layup8-attempt4-rejected-background.png",
-      "sourceSha256": "3774ed5ada2b3cc0e480ab3804086fcfae63c271bc9c68b32102edbcc8498cbb",
-      "generationExecution": "exec-638c54c1-9dac-4b5b-96fb-a3484a58dc99",
-      "generatedAt": "2026-10-23T03:51:09.866547121Z",
-      "sourceClaimId": "urn:c2pa:362b0cf3-0067-4f3e-bc85-1b3ff9c665e0",
-      "sourceInstanceId": "xmp:iid:fe60bb19-7be6-4e03-b170-8f68a1ef20ed",
-      "reviewStatus": "rejected",
-      "reason": "Outer edges are clear, but a broad translucent gradient remains between figures.",
-      "sourcePromptStatus": "not-preserved-in-checkpoint"
-    },
-    {
       "sourceImage": "tools/generate-art/sources/juniper-vale-layup8-attempt5-rejected-background.png",
       "sourceSha256": "22fb14c5ae4719143057f6ec0c55ab68e38e4135848d0bf9212a6d21ca2c13a2",
       "generationExecution": "exec-ef89a67f-4626-4aa7-98f4-960c6f75c155",

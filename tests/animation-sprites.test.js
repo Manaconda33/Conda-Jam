@@ -784,3 +784,63 @@ test('Reed selects the reviewed eight-pose layup and releases at his authored ha
   tick+=animationClips.layup.frames[frame].duration;
  }
 });
+for(const [id,atlas,atlasHash,sourceHash,claim,instance,cell,forward,heightValue]of [
+ ['reed-ashcroft','./public/assets/animation/reed-ashcroft-layup-reverse-right.webp','69e49117340e1abf285628373c1ca14f6fd56a0ccf695bcad046dd20ae6a034d','b8dd095adb7dae1c6e3145f7fa53bb6d9bdf713536f0a9e569cbe89e7f3f767f','urn:c2pa:311afb05-654b-4e8b-9fd8-7ea49f165d73','xmp:iid:aaf952af-978b-484a-9380-838654e5571a',0,7.676,2.135],
+ ['juniper-vale','./public/assets/animation/juniper-vale-layup-reverse-right.webp','2bf25d9b992f9d22d7e976ee2653f0da057b7637ab7efdb4912dd5443aa30877','d786c1334b991f17573d3b704058979af73ac03506da5a6fa01cf33c024a3cac','urn:c2pa:48a5051d-5299-4f7e-aa7f-cbe1c791a990','xmp:iid:539461c1-ee03-458a-a82d-eaccae097066',1,5.3,2.03]
+])test(`${id} selects the reviewed eight-pose reverse layup and release hand in both facings`,()=>{
+ const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['layup-reverse'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.sourceCell,cell);assert.equal(policy?.canonicalSection,'J.01');assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'reverse layup atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);assert.equal(clip.sha256,atlasHash);
+ assert.equal(clip.frames.length,8);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,8);
+ assert.equal(clip.provenance.sourceSha256,sourceHash);assert.equal(clip.provenance.sourceClaimId,claim);assert.equal(clip.provenance.sourceInstanceId,instance);
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.sourceRects.length,8);
+ assert.equal(anchorTick('layup-reverse','release'),12,'frame5 is the reverse release pose');
+ assert.equal(sampleBallForward('layup-reverse',12,id),forward);assert.equal(sampleBallHeight('layup-reverse',12,id),heightValue);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<8;frame++){
+  assert.equal(sampleAnimation('layup-reverse',tick).frame,frame,'runtime maps authored reverse pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'layup-reverse',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['layup-reverse'].frames[frame].duration;
+ }
+});
+test('Juniper selects the component-isolated eight-pose layup with her own release hand in both facings',()=>{
+ const id='juniper-vale',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.layup;
+ assert.equal(character?.mirrorSafe,true,'Juniper stays canon-safe for mirrored play');
+ assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.sourceCell,1);assert.equal(policy?.canonicalSection,'J.01');
+ assert.equal(character?.directions?.left,undefined,'use the reviewed canonical body mirror');
+ assert.ok(clip,'Juniper layup atlas registration');assert.equal(clip.reviewed,true);
+ assert.equal(clip.src,'./public/assets/animation/juniper-vale-layup-right.webp');
+ assert.equal(clip.sha256,'a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2');
+ assert.equal(clip.frames.length,8);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,8);
+ assert.equal(clip.provenance.sourceSha256,'3774ed5ada2b3cc0e480ab3804086fcfae63c271bc9c68b32102edbcc8498cbb');
+ assert.equal(clip.provenance.sourceClaimId,'urn:c2pa:362b0cf3-0067-4f3e-bc85-1b3ff9c665e0');
+ assert.equal(clip.provenance.sourceInstanceId,'xmp:iid:fe60bb19-7be6-4e03-b170-8f68a1ef20ed');
+ assert.equal(clip.provenance.promptVerbatim,false,'retained prompt reconstruction is identified honestly');
+ assert.equal(clip.provenance.sourcePromptStatus,'reconstructed');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.sourceRects.length,8);
+ assert.equal(anchorTick('layup','release'),10,'frame4 is the release pose');
+ assert.equal(sampleBallForward('layup',10,id),5.3,'ball reaches Juniper\'s high release hand');
+ assert.equal(sampleBallHeight('layup',10,id),2.03,'ball height follows Juniper\'s high release hand');
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<8;frame++){
+  assert.equal(sampleAnimation('layup',tick).frame,frame,'runtime maps authored pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'layup',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src,'production source for frame '+frame);
+   assert.equal(sprite?.frame,frame,'production pose '+frame);
+   assert.equal(sprite?.flip,flip,'safe mirrored facing for frame '+frame);
+  }
+  tick+=animationClips.layup.frames[frame].duration;
+ }
+});
