@@ -29,30 +29,12 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T01:59:49.819Z",
+  "generatedAt": "2026-10-23T02:54:15.470Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 580,
+  "inspectedClips": 586,
   "errors": [
-    {
-      "code": "missing-clip",
-      "athlete": "reed-ashcroft",
-      "direction": "right",
-      "clip": "pass"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "reed-ashcroft",
-      "direction": "right",
-      "clip": "pass-overhead"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "reed-ashcroft",
-      "direction": "right",
-      "clip": "pass-behind"
-    },
     {
       "code": "missing-clip",
       "athlete": "reed-ashcroft",
@@ -172,24 +154,6 @@
       "athlete": "reed-ashcroft",
       "direction": "right",
       "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "juniper-vale",
-      "direction": "right",
-      "clip": "pass"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "juniper-vale",
-      "direction": "right",
-      "clip": "pass-overhead"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "juniper-vale",
-      "direction": "right",
-      "clip": "pass-behind"
     },
     {
       "code": "missing-clip",
@@ -18841,6 +18805,216 @@
       ]
     },
     {
+      "athlete": "reed-ashcroft",
+      "direction": "right",
+      "clip": "pass",
+      "src": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+      "width": 336,
+      "height": 192,
+      "sha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "dbc6380fd3522a256769980551ee0bc99e5e0b465beff8313724ff8e141dbf51",
+          "visiblePixels": 3636
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "e93eb5362274a1bad06ede32977609f6eb57f5a6f8a5f6d36251a9c0e11960a6",
+          "visiblePixels": 3289
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "e5711e803e0a20385e8d0acdea136e2038888ef4b35ab4af254c8b89f670670f",
+          "visiblePixels": 3416
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "0be87d313910485d55bbd6756928b85e16fb16eb60da9ca83e2c7438ad199681",
+          "visiblePixels": 3655
+        },
+        {
+          "index": 4,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "db191cf65744e6d7e5de61e11aba09f0f3a7b0413687caab4280552e485de203",
+          "visiblePixels": 3345
+        },
+        {
+          "index": 5,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "7a382bd8b0fd300915377d3d1b9545bd88a64d9b7a5571eea2b554319a5ea0e5",
+          "visiblePixels": 3390
+        }
+      ]
+    },
+    {
+      "athlete": "reed-ashcroft",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "src": "./public/assets/animation/reed-ashcroft-pass-overhead-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "e47b6d1986588c50d7ab23cefa98d87ba9a79d0ba236855e3dbdfd189a749644",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "29c62cb4f27021b942a62ab74fe4c3121633c9ed5848daf6c42edd4b6a911f92",
+          "visiblePixels": 3139
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9937983e1684d12cfccd4d9c23bb921d5c28f19f352a7e40327706dae1a1cada",
+          "visiblePixels": 2745
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7829ad7e69c3d0346d49dfc7d3c357c369c359bb7f63ccbe2ef0623c7f45e1c2",
+          "visiblePixels": 3039
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c6132865002f0c2c196759a61cf124b3c9d3881e8714fa80beb33b1ba3e5f444",
+          "visiblePixels": 3420
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3f7237b1d3e0da519ca7204af8e83c112c39efda60c34cad73ac8dfe41e013ab",
+          "visiblePixels": 3122
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "afcbd24fa8ac1b92c8e9eb0ea1e0b6871b6f2ffa5957f5d1b974bec2668dc5d4",
+          "visiblePixels": 3080
+        }
+      ]
+    },
+    {
+      "athlete": "reed-ashcroft",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "1c55aa89dc1854860ee6418bef27c4642c2ce5a0e3c44bc61745a767a631b62a",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ae475773df598c49ec370155bf9f4c269f1eefe6533b79916aa7f86c1a3b0d26",
+          "visiblePixels": 3507
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "234721a58b378509d9b84121f14ffdb22e6faecae2aeb41a2376804e78c00201",
+          "visiblePixels": 3239
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "85ae2021dde0927e56671395c57ef1dae723b89e9eecfc18290800a93ec3f3b4",
+          "visiblePixels": 3489
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5ef94968387e8ae4301b2835aeaee30fbd0d4a260e4cf9b1fd14a04e71b766d6",
+          "visiblePixels": 3603
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "208bca28fea77e92330273e3a0b088bc710ce7c727a868d1a83eff59a38676ac",
+          "visiblePixels": 3236
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1b7319a8dbbbcce29431a7d3f1bd97d6f758c05c5b991dfb9f0f0457b029cd11",
+          "visiblePixels": 3272
+        }
+      ]
+    },
+    {
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "idle",
@@ -19401,6 +19575,216 @@
           "h": 96,
           "hash": "c2c7a47d5eddac12aa33a4cace4b28c424fc0dbe36defb667a21f451f09a82bd",
           "visiblePixels": 3809
+        }
+      ]
+    },
+    {
+      "athlete": "juniper-vale",
+      "direction": "right",
+      "clip": "pass",
+      "src": "./public/assets/animation/juniper-vale-pass-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "cf16d171308993f0f8ad38de86696fb167aac4820416451b945559e2168348ef",
+          "visiblePixels": 3246
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a7861f0d478d8478e44036b50b1a4e6c13fee50223e40ba927bed828623f7fcc",
+          "visiblePixels": 3052
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "20c7a7580318fb23f65231e1681cdda93311fe767f3bff7c4c40c86120f4874b",
+          "visiblePixels": 3289
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9cdb7859892673344d0b9966558cdc0f406a6ece1f025f914463059dd0f5bef1",
+          "visiblePixels": 3282
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ccdc7dfb8f63233458baa99bd677646bc2d5b802197707a2b6d0de58f516609a",
+          "visiblePixels": 3136
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8f2952177b8740e3696ea37cd45be39e926d3c7dd958834c8ab468e133191d64",
+          "visiblePixels": 3138
+        }
+      ]
+    },
+    {
+      "athlete": "juniper-vale",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "src": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "57e8ec8a07194146f20a100cd28c48e49f0b1a1d24c3b329187fbd7d86c123c5",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b16c3d73714696146f8735208a41cb86108452e98f100e2f8589d685ecb840ed",
+          "visiblePixels": 3072
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0bbd72c39e811041221e97accb98bcf97a06fb6365fe5ff9f6f370057a40f5f4",
+          "visiblePixels": 2850
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "262c6975fde666cd36f347e54020551258351c8e9b9e23b92eed6f9b24b81da5",
+          "visiblePixels": 3108
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5dc5f45d23bda3993528bb6851dd1e6d05f5143f44cebd66e1d1fb03020d9811",
+          "visiblePixels": 3487
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6b8163ab1d1ff78b3f881f0244bd0f3253d93b224e3177917889b1cc8f3cfb6c",
+          "visiblePixels": 3282
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "686402cefd3f997d1c1b76ab467e014ccbdae44ee40edd0968948cd05cf3c275",
+          "visiblePixels": 3103
+        }
+      ]
+    },
+    {
+      "athlete": "juniper-vale",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/juniper-vale-pass-behind-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "a460d18f5139b5fea77cb8868f1184a952723f7b8d827c063bcdcb932f8c535b",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7392ac0a1d81456ddc3db359e4c2ac08ae63948f647bb762f0931baec793e9a3",
+          "visiblePixels": 3275
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0b5f3fcf105d15874d139d985aa43a8ef6a7c97e4dd64d4edb6977278a4b67b4",
+          "visiblePixels": 2998
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0ab98878e299d36efa95143ec32e4a43ce3000d58b624e7bce9c737522e32791",
+          "visiblePixels": 3316
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cc9e62a6cac205d516bdea6d21ad0d06419ad2707c9bec39f5e4f2f85b003f6b",
+          "visiblePixels": 3587
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8cffa87de885fc6bb6d885bb92235224c4e9943209d85286ba06ed67c8cd8000",
+          "visiblePixels": 3305
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4638bd0a0170b9da1d767593d069fd1ae79e41b6c9425b50202348e35380df02",
+          "visiblePixels": 3218
         }
       ]
     },

@@ -1,0 +1,148 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "pass",
+    "src": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "reed-ashcroft",
+      "clip": "pass",
+      "direction": "right",
+      "generationId": "exec-0e26b6d0-e4f5-4527-b1b8-548be2e2f5b7",
+      "generatedAt": "2026-10-23",
+      "sourcePrompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Reed Ashcroft, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. He is a young adult human man with medium-brown skin, dark eyes and eyebrows, small dark goatee, dark-purple/black braids tied in a high topknot, natural athletic build, Chicago Condas purple-and-gold uniform, white lower-leg wear and purple/gold shoes. Maintain the face, hair, body and color palette across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near his hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. His hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512\u00d7512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, scarf, crest, checkerboard, floor, panels, borders or grid lines.",
+      "referencePaths": [
+        "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+        "tools/generate-art/references/reed-ashcroft-gameplay-reference.png"
+      ],
+      "identityReferenceCell": 0,
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "notes": "Visually reviewed six separate complete Reed poses on the transparent source. Medium-brown face, dark eyes, small goatee, braided high topknot and purple/gold Condas kit match runtime cell0. All six hands are empty; no basketball, numerals or props are baked in. The bottom-left drawing is the chest-pass release anchor. Eight-connected alpha segmentation at threshold64 identifies exactly six unique bodies in row-major order; each stays inside the source sheet and can be isolated without cutting neighboring pose pixels. Atlas packing uniformly scales and baseline-aligns original pixels only."
+      },
+      "rejectedAttempts": [
+        {
+          "generationId": "exec-422391a5-8b93-4e4e-b851-c57687f59a90",
+          "sha256": "43c128560d02b222b6cf3f82b2335e901b74a2ec2fb6c5cb41472dd34d51ceb4",
+          "file": "tools/generate-art/sources/reed-ashcroft-pass6-attempt1-rejected-tight-padding.png",
+          "reason": "The complete figures did not satisfy the requested cell padding; reject rather than accept cropped-tightly poses."
+        },
+        {
+          "generationId": "exec-94a3b947-5c84-4f7f-bec1-3cfd3ea45ac2",
+          "sha256": "9dbd78887a4e0074d99f1e618bf19dbdc9d6e434407d11692b518b91e2f9472e",
+          "file": "tools/generate-art/sources/reed-ashcroft-pass6-attempt2-rejected-baked-ball.png",
+          "reason": "A basketball was baked into the loaded windup pose."
+        },
+        {
+          "generationId": "exec-ef1bc465-e9ab-41be-a1cc-58eaef0c13d7",
+          "sha256": "0a27e0db275acc801e3c6dba4db8a0f884ec67baa325dc416c64966551bc8d3b",
+          "file": "tools/generate-art/sources/reed-ashcroft-pass6-attempt3-rejected-baked-ball-edit.png",
+          "reason": "Image edit did not remove the basketball from the windup pose."
+        }
+      ],
+      "prompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Reed Ashcroft, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. He is a young adult human man with medium-brown skin, dark eyes and eyebrows, small dark goatee, dark-purple/black braids tied in a high topknot, natural athletic build, Chicago Condas purple-and-gold uniform, white lower-leg wear and purple/gold shoes. Maintain the face, hair, body and color palette across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near his hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. His hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512\u00d7512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, scarf, crest, checkerboard, floor, panels, borders or grid lines.",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-pass6-accepted.png",
+      "sourceSha256": "899ecb696c14b5407e66859d1698d037b4dafec79545a6e0c7129e1be139da3a",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 108,
+          "y": 49,
+          "w": 357,
+          "h": 432,
+          "component": 2,
+          "area": 64386
+        },
+        {
+          "sourceIndex": 1,
+          "x": 611,
+          "y": 47,
+          "w": 321,
+          "h": 435,
+          "component": 1,
+          "area": 60406
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1110,
+          "y": 57,
+          "w": 318,
+          "h": 428,
+          "component": 3,
+          "area": 62233
+        },
+        {
+          "sourceIndex": 3,
+          "x": 72,
+          "y": 546,
+          "w": 486,
+          "h": 419,
+          "component": 4,
+          "area": 64203
+        },
+        {
+          "sourceIndex": 4,
+          "x": 566,
+          "y": 552,
+          "w": 438,
+          "h": 419,
+          "component": 5,
+          "area": 59648
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1125,
+          "y": 555,
+          "w": 335,
+          "h": 417,
+          "component": 6,
+          "area": 61845
+        }
+      ],
+      "uniformScale": 0.21149425287356322,
+      "componentIsolation": true,
+      "packaging": "package-pass6.py; 112x96 cells; baseline94; lossless WebP; 6 original poses"
+    }
+  }
+]

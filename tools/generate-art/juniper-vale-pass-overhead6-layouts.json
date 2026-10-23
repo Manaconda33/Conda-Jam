@@ -1,0 +1,131 @@
+[
+  {
+    "athlete": "juniper-vale",
+    "direction": "right",
+    "clip": "pass-overhead",
+    "src": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "juniper-vale",
+      "clip": "pass-overhead",
+      "direction": "right",
+      "generationId": null,
+      "generatedAt": "2026-10-23T02:36:18.971276071Z",
+      "sourceClaimId": "urn:c2pa:04a84ded-b735-4d59-b786-879d38d7ad2f",
+      "sourceInstanceId": "xmp:iid:e61bb8c8-83a0-4c9f-ac04-3738bc0c7553",
+      "prompt": "Create an original transparent RGBA sprite sheet of exactly six complete full-body drawings of Juniper Vale, Chicago Condas support athlete cell 1. Use attached portrait and gameplay references as strict character identity references and the clean Juniper standard-pass atlas for pixel-art scale and style only. Preserve light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the small gold tie, compact natural human athletic proportions, Chicago Condas purple-and-gold basketball uniform, dark knee pads, and matching shoes. No pointed ears, fantasy features, glasses, extra jewelry, armor, or props. Right-facing three-quarter full-body view in every drawing, same scale and camera as the reference atlas. Arrange exactly six different poses in a 3-column by 2-row sheet, strict row-major order. Each figure wholly visible and isolated on transparency, with broad clear transparent padding around each figure and broad gutters between figures; no limb crosses another cell and no clipping, touching, overlap, or fusion. Hands remain empty: no basketball, ball, shadow, or held object. No ground, cast shadow, glow, text, numbers, logos, checkerboard, panel, border, grid lines, extra figures, or duplicate poses. Pose sequence: 0 balanced ready stance, hands open near waist; 1 bend knees and bring both empty hands together in front of upper chest; 2 lift hands above forehead, elbows bent outward, loading an overhead pass; 3 step forward and extend both arms fully above head in a clear overhead pass release with wrists finishing forward; this is the release pose; 4 distinct high follow-through with extended hands and weight over lead foot; 5 recover to balanced ready stance. Keep face, hair, skin, build, clothing and scale consistent.",
+      "sourcePrompt": "Create an original transparent RGBA sprite sheet of exactly six complete full-body drawings of Juniper Vale, Chicago Condas support athlete cell 1. Use attached portrait and gameplay references as strict character identity references and the clean Juniper standard-pass atlas for pixel-art scale and style only. Preserve light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the small gold tie, compact natural human athletic proportions, Chicago Condas purple-and-gold basketball uniform, dark knee pads, and matching shoes. No pointed ears, fantasy features, glasses, extra jewelry, armor, or props. Right-facing three-quarter full-body view in every drawing, same scale and camera as the reference atlas. Arrange exactly six different poses in a 3-column by 2-row sheet, strict row-major order. Each figure wholly visible and isolated on transparency, with broad clear transparent padding around each figure and broad gutters between figures; no limb crosses another cell and no clipping, touching, overlap, or fusion. Hands remain empty: no basketball, ball, shadow, or held object. No ground, cast shadow, glow, text, numbers, logos, checkerboard, panel, border, grid lines, extra figures, or duplicate poses. Pose sequence: 0 balanced ready stance, hands open near waist; 1 bend knees and bring both empty hands together in front of upper chest; 2 lift hands above forehead, elbows bent outward, loading an overhead pass; 3 step forward and extend both arms fully above head in a clear overhead pass release with wrists finishing forward; this is the release pose; 4 distinct high follow-through with extended hands and weight over lead foot; 5 recover to balanced ready stance. Keep face, hair, skin, build, clothing and scale consistent.",
+      "referencePaths": [
+        "tools/generate-art/references/juniper-vale-portrait-reference.png",
+        "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+        "public/assets/animation/juniper-vale-pass-right.webp"
+      ],
+      "identityReferenceCell": 1,
+      "eligibleForPacking": true,
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-pass-overhead6-candidate1.png",
+      "sourceSha256": "f4c63e9c1eb7efb6f63132e860fbd1770278efae50436b75bac8474d8a41f61c",
+      "review": {
+        "status": "accepted",
+        "notes": "Visually reviewed on light and dark backgrounds at source and packed native scale. The six complete Juniper Vale figures preserve the correct cell1 skin, face, hair, body type, uniform and equipment. Every pose has empty hands and no numerals or baked-in ball. Alpha>=64 segmentation finds exactly six distinct bodies in row-major order. The bottom-left drawing (source frame 3) is the overhead-pass release with both hands above the forehead; frame 4 is the high follow-through. Every source body is complete and can be isolated without cutting neighboring pose pixels. Packing uses component isolation, uniform resize, and transparent placement only; no pose is redrawn, copied or mirrored."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 74,
+          "y": 21,
+          "w": 357,
+          "h": 459,
+          "component": 2,
+          "area": 69351
+        },
+        {
+          "sourceIndex": 1,
+          "x": 607,
+          "y": 21,
+          "w": 340,
+          "h": 459,
+          "component": 3,
+          "area": 64589
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1120,
+          "y": 8,
+          "w": 355,
+          "h": 473,
+          "component": 1,
+          "area": 69756
+        },
+        {
+          "sourceIndex": 3,
+          "x": 49,
+          "y": 511,
+          "w": 452,
+          "h": 484,
+          "component": 4,
+          "area": 78392
+        },
+        {
+          "sourceIndex": 4,
+          "x": 575,
+          "y": 525,
+          "w": 442,
+          "h": 471,
+          "component": 5,
+          "area": 73519
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1113,
+          "y": 536,
+          "w": 361,
+          "h": 457,
+          "component": 6,
+          "area": 70186
+        }
+      ],
+      "uniformScale": 0.19008264462809918,
+      "componentIsolation": true,
+      "packaging": "package-pass6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses"
+    }
+  }
+]

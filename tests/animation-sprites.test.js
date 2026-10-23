@@ -533,3 +533,108 @@ test('Sage Fletch and Hazel Bloom select all42 reviewed J.35 locomotion drawings
   }
  }
 });
+test('Reed Ashcroft and Juniper Vale select six reviewed standard-pass poses with canon-safe mirroring',()=>{
+ const expected={
+  'reed-ashcroft':{cell:0,sha:'899ecb696c14b5407e66859d1698d037b4dafec79545a6e0c7129e1be139da3a'},
+  'juniper-vale':{cell:1,sha:'37d0b5cdbc55085872c3b0007bd300d1716660822a6007f33ae702e2ffa5b764'},
+ };
+ for(const [id,{cell,sha}] of Object.entries(expected)){
+  const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.pass;
+  assert.equal(character?.mirrorSafe,true,id+' mirror-safe policy');
+  assert.equal(character?.mirrorReview?.status,'reviewed',id+' canon mirror review');
+  assert.equal(policy?.sourceCell,cell,id+' uses its exact supporting reference cell');
+  assert.equal(policy?.canonicalSection,'J.01');
+  assert.equal(character?.directions?.left,undefined,id+' uses right-facing source with reviewed safe mirroring');
+  assert.ok(clip,id+' standard pass registration');
+  assert.equal(clip.reviewed,true,id+' atlas visual review');
+  assert.equal(clip.frames.length,6,id+' exactly six authored frames');
+  assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,6,id+' six unique decoded frame hashes');
+  assert.equal(clip.provenance.sourceSha256,sha,id+' accepted source hash');
+  assert.equal(clip.provenance.componentIsolation,true,id+' records component-only isolation');
+  assert.equal(clip.provenance.review.status,'accepted',id+' accepted source review');
+  assert.equal(clip.provenance.sourceRects.length,6,id+' records all source crops');
+  assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),[0,1,2,3,4,5],id+' maps six poses in row-major order');
+  const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+  const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+  let tick=0;
+  for(let frame=0;frame<6;frame++){
+   for(const [facing,flip] of [[1,false],[-1,true]]){
+    const sprite=selectProductionSprite({id,facing,animation:{clip:'pass',tick}},{manifest:animationAssetManifest,images});
+    assert.equal(sprite?.atlas.file,clip.src,id+' frame'+frame+' production source');
+    assert.equal(sprite?.frame,frame,id+' frame'+frame+' pose map');
+    assert.equal(sprite?.flip,flip,id+' frame'+frame+' facing');
+   }
+   tick+=animationClips.pass.frames[frame].duration;
+  }
+ }
+});
+test('Reed Ashcroft and Juniper Vale select six reviewed overhead-pass poses in both facings',()=>{
+ const expected={
+  'reed-ashcroft':{cell:0,sha:'5d79b9e21e92ecbfcd01c52b172e2b5edea54bd816fb675edcfe266cbad7223a',claim:'urn:c2pa:8824cde9-9672-4ef1-95c6-5df8b69d322b'},
+  'juniper-vale':{cell:1,sha:'f4c63e9c1eb7efb6f63132e860fbd1770278efae50436b75bac8474d8a41f61c',claim:'urn:c2pa:04a84ded-b735-4d59-b786-879d38d7ad2f'},
+ };
+ for(const [id,{cell,sha,claim}] of Object.entries(expected)){
+  const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['pass-overhead'];
+  assert.equal(character?.mirrorSafe,true,id+' canon-safe mirror policy');
+  assert.equal(character?.mirrorReview?.status,'reviewed',id+' canon mirror review');
+  assert.equal(policy?.sourceCell,cell,id+' uses the canonical supporting cell');
+  assert.equal(character?.directions?.left,undefined,id+' uses reviewed body mirroring');
+  assert.ok(clip,id+' overhead-pass registration');
+  assert.equal(clip.reviewed,true,id+' atlas visual review');
+  assert.equal(clip.frames.length,6,id+' six authored poses');
+  assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,6,id+' six unique decoded frame hashes');
+  assert.equal(clip.provenance.sourceSha256,sha,id+' accepted source hash');
+  assert.equal(clip.provenance.sourceClaimId,claim,id+' C2PA source claim');
+  assert.equal(clip.provenance.componentIsolation,true,id+' records component-only isolation');
+  assert.equal(clip.provenance.review.status,'accepted',id+' accepted source review');
+  assert.equal(clip.provenance.sourceRects.length,6,id+' records all six source crops');
+  assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),[0,1,2,3,4,5],id+' maps poses in row-major order');
+  const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+  const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+  let tick=0;
+  for(let frame=0;frame<6;frame++){
+   for(const [facing,flip] of [[1,false],[-1,true]]){
+    const sprite=selectProductionSprite({id,facing,animation:{clip:'pass-overhead',tick}},{manifest:animationAssetManifest,images});
+    assert.equal(sprite?.atlas.file,clip.src,id+' frame'+frame+' production source');
+    assert.equal(sprite?.frame,frame,id+' frame'+frame+' pose mapping');
+    assert.equal(sprite?.flip,flip,id+' frame'+frame+' safe facing');
+   }
+   tick+=animationClips['pass-overhead'].frames[frame].duration;
+  }
+ }
+});
+test('Reed Ashcroft and Juniper Vale select six reviewed behind-pass poses in both facings',()=>{
+ const expected={
+  'reed-ashcroft':{cell:0,sha:'5e143021d547aa3bc77c6f3c7174a1d67ce0cd06ca5f4b8ffffa242328183ee7',claim:'urn:c2pa:9fbc1ede-d3d1-499c-8584-69226e6b761d'},
+  'juniper-vale':{cell:1,sha:'db6cc001535e969934c74d13f3104d5569eb75de756e934e32d8eb7ef17bbb0b',claim:'urn:c2pa:343053b0-b094-41b6-ae31-51a783aaa5ae'},
+ };
+ for(const [id,{cell,sha,claim}] of Object.entries(expected)){
+  const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['pass-behind'];
+  assert.equal(character?.mirrorSafe,true,id+' canon-safe mirror policy');
+  assert.equal(character?.mirrorReview?.status,'reviewed',id+' canon mirror review');
+  assert.equal(policy?.sourceCell,cell,id+' uses the canonical supporting cell');
+  assert.equal(character?.directions?.left,undefined,id+' uses reviewed body mirroring');
+  assert.ok(clip,id+' behind-pass registration');
+  assert.equal(clip.reviewed,true,id+' atlas visual review');
+  assert.equal(clip.frames.length,6,id+' six authored poses');
+  assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,6,id+' six unique decoded frame hashes');
+  assert.equal(clip.provenance.sourceSha256,sha,id+' accepted source hash');
+  assert.equal(clip.provenance.sourceClaimId,claim,id+' C2PA source claim');
+  assert.equal(clip.provenance.componentIsolation,true,id+' records component-only isolation');
+  assert.equal(clip.provenance.review.status,'accepted',id+' accepted source review');
+  assert.equal(clip.provenance.sourceRects.length,6,id+' records all six source crops');
+  assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),[0,1,2,3,4,5],id+' maps poses in row-major order');
+  const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+  const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+  let tick=0;
+  for(let frame=0;frame<6;frame++){
+   for(const [facing,flip] of [[1,false],[-1,true]]){
+    const sprite=selectProductionSprite({id,facing,animation:{clip:'pass-behind',tick}},{manifest:animationAssetManifest,images});
+    assert.equal(sprite?.atlas.file,clip.src,id+' frame'+frame+' production source');
+    assert.equal(sprite?.frame,frame,id+' frame'+frame+' pose mapping');
+    assert.equal(sprite?.flip,flip,id+' frame'+frame+' safe facing');
+   }
+   tick+=animationClips['pass-behind'].frames[frame].duration;
+  }
+ }
+});

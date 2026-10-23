@@ -1,15 +1,5 @@
-# Animation asset audit
+# Animation asset status
 
-Generated: 2026-10-23T01:59:49.819Z
+Issue 3 remains incomplete. Current audit decodes **586 reviewed clips / 4,981 authored drawings** across all **105 athletes**. It reports **2,517 missing clips** and three clips below target (Dorian Mycel dribble and dribble-run; Luca Velori run). No athlete is unrepresented.
 
-Status: **INCOMPLETE**
-
-105 athletes; 29 required clips per athlete; 580 clips decoded.
-
-Minimum authored frames: 29190; production target: 30765. Inspected clips below target: 3 (not a failure when the minimum is satisfied).
-
-| Finding | Count |
-| --- | ---: |
-| missing-clip | 2523 |
-
-Pixel hashes detect identical decoded crops. They do not certify anatomical correctness, continuity, pose quality, or fidelity to asymmetric character details; recorded human review remains required.
+The full target is 30,765 authored drawings across 3,045 required clips, with a minimum of 29,190 drawings. Mirroring, holds, duplicate crops, and rejected source art do not count. See `docs/ANIMATION_ASSET_AUDIT.md` and `docs/animation-production/GENERATED_POSES.md` for decoded detail.

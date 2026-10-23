@@ -1,0 +1,131 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "pass-behind",
+    "src": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "reed-ashcroft",
+      "clip": "pass-behind",
+      "direction": "right",
+      "generationId": null,
+      "generatedAt": "2026-10-23T02:49:08.250106421Z",
+      "sourceClaimId": "urn:c2pa:9fbc1ede-d3d1-499c-8584-69226e6b761d",
+      "sourceInstanceId": "xmp:iid:3e0825fd-4087-454e-9ce7-f2d5c02484b5",
+      "prompt": "Create an original transparent RGBA sprite sheet of exactly six complete full-body drawings of Reed Ashcroft, Chicago Condas support athlete cell0. Use the attached Reed portrait and gameplay reference as strict identity references and his clean standard-pass atlas for scale and style only. Preserve medium-brown skin, dark eyes and brows, small dark goatee, dark-purple/black braids swept into a high topknot, natural young-adult human athletic proportions, purple-and-gold basketball uniform, white lower-leg wear and matching shoes. No glasses, gray beard, crest, cape, scarf, armor, animal traits, extra jewelry or props. Right-facing three-quarter full-body view in every drawing. Exactly six different poses in a 3-column by 2-row transparent sheet, row-major order; each figure fully visible, isolated, anatomically natural, same scale and camera, with clear padding and gutters. Hands remain visibly empty: absolutely no ball, basketball, held object, ball shadow or circular prop. No ground, cast shadow, glow, text, numbers, logos, panel, border, grid lines, extra figures, duplicates, clipping, touching, overlap or fused bodies. Pose sequence: 0 balanced ready stance with hands open near waist; 1 turn shoulders and hips while bending slightly, both empty hands drawing toward the near hip; 2 load a behind-the-back pass by twisting the shoulders and moving the throwing hand behind the waist/hip while the other hand stays forward for balance; 3 step forward and extend the empty throwing arm clearly behind the body at hip height, wrist finishing backward; this is the behind-the-back release pose; 4 distinct low follow-through with throwing hand still behind the hip and weight over the lead foot; 5 rotate back to a balanced ready stance. Keep the behind-hip release visible in silhouette, distinct from a chest or overhead pass. Preserve face, hair, skin, build and kit consistently.",
+      "sourcePrompt": "Create an original transparent RGBA sprite sheet of exactly six complete full-body drawings of Reed Ashcroft, Chicago Condas support athlete cell0. Use the attached Reed portrait and gameplay reference as strict identity references and his clean standard-pass atlas for scale and style only. Preserve medium-brown skin, dark eyes and brows, small dark goatee, dark-purple/black braids swept into a high topknot, natural young-adult human athletic proportions, purple-and-gold basketball uniform, white lower-leg wear and matching shoes. No glasses, gray beard, crest, cape, scarf, armor, animal traits, extra jewelry or props. Right-facing three-quarter full-body view in every drawing. Exactly six different poses in a 3-column by 2-row transparent sheet, row-major order; each figure fully visible, isolated, anatomically natural, same scale and camera, with clear padding and gutters. Hands remain visibly empty: absolutely no ball, basketball, held object, ball shadow or circular prop. No ground, cast shadow, glow, text, numbers, logos, panel, border, grid lines, extra figures, duplicates, clipping, touching, overlap or fused bodies. Pose sequence: 0 balanced ready stance with hands open near waist; 1 turn shoulders and hips while bending slightly, both empty hands drawing toward the near hip; 2 load a behind-the-back pass by twisting the shoulders and moving the throwing hand behind the waist/hip while the other hand stays forward for balance; 3 step forward and extend the empty throwing arm clearly behind the body at hip height, wrist finishing backward; this is the behind-the-back release pose; 4 distinct low follow-through with throwing hand still behind the hip and weight over the lead foot; 5 rotate back to a balanced ready stance. Keep the behind-hip release visible in silhouette, distinct from a chest or overhead pass. Preserve face, hair, skin, build and kit consistently.",
+      "referencePaths": [
+        "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+        "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+        "public/assets/animation/reed-ashcroft-pass-right.webp"
+      ],
+      "identityReferenceCell": 0,
+      "eligibleForPacking": true,
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-pass-behind6-candidate1.png",
+      "sourceSha256": "5e143021d547aa3bc77c6f3c7174a1d67ce0cd06ca5f4b8ffffa242328183ee7",
+      "review": {
+        "status": "accepted",
+        "notes": "Raw source visually reviewed on transparent/light/dark backgrounds. Exactly six complete, distinct Reed Ashcroft figures match the canonical cell0 skin, face, hair, human proportions and Chicago Condas kit. Hands are empty, with no ball or uniform numerals. Alpha>=64 segmentation identifies six row-major components. Frame3 is an unmistakable behind-the-hip release; frame4 has a distinct low follow-through. Component isolation will preserve each original figure without redrawing or mirroring."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 67,
+          "y": 6,
+          "w": 417,
+          "h": 503,
+          "component": 1,
+          "area": 86551
+        },
+        {
+          "sourceIndex": 1,
+          "x": 609,
+          "y": 22,
+          "w": 383,
+          "h": 486,
+          "component": 3,
+          "area": 79979
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1104,
+          "y": 15,
+          "w": 424,
+          "h": 491,
+          "component": 2,
+          "area": 84287
+        },
+        {
+          "sourceIndex": 3,
+          "x": 33,
+          "y": 523,
+          "w": 502,
+          "h": 471,
+          "component": 5,
+          "area": 85699
+        },
+        {
+          "sourceIndex": 4,
+          "x": 581,
+          "y": 527,
+          "w": 443,
+          "h": 466,
+          "component": 6,
+          "area": 78301
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1110,
+          "y": 517,
+          "w": 397,
+          "h": 483,
+          "component": 4,
+          "area": 80489
+        }
+      ],
+      "uniformScale": 0.18290258449304175,
+      "componentIsolation": true,
+      "packaging": "package-pass6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-behind poses"
+    }
+  }
+]

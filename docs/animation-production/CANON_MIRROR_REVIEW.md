@@ -123,3 +123,24 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Lula | lula | yes | Facial rune markings and stowed bow have no side map or handedness in master. Existing elf silhouette is readable; bow must appear in portrait or intro, where current portrait crop does not establish it. |
 | Sage Fletch | sage-fletch | yes | J.35 cell68 portrait/gameplay references and all42 reviewed original locomotion drawings preserve warm tan skin, dark eyes, short dense olive-green curls, tall natural human athletic proportions and Verdant Reach forest-green/gold kit. No fixed-side mark, handed prop or directional detail appears. Safe mirroring retains his face and curls; the separate basketball stays on the right-hand track. |
 | Hazel Bloom | hazel-bloom | yes | J.35 cell69 portrait/gameplay references and all42 reviewed original locomotion drawings preserve light warm skin, dark eyes, abundant blonde curls gathered high with green/gold headwear, compact natural human athletic proportions and Verdant Reach forest-green/gold kit. The curls and headwear remain attached when mirrored; no fixed-side mark or directional detail appears. The separate basketball stays on the right-hand track. |
+
+## J.36 standard pass clips
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Reed Ashcroft | 0 | yes | Six right-facing standard chest-pass poses match the cell0 portrait/gameplay references: medium-brown skin, dark eyes, small goatee, dark-purple braids in a high topknot and purple/gold Condas kit. No fixed-side mark or handed prop is specified; the right-facing source mirrors safely. The release remains frame3, while Reed's separate ball track follows his longer outstretched hands. Standard and zoom120 native court captures show the ball at release in both facings. |
+| Juniper Vale | 1 | yes | Six right-facing standard chest-pass poses match the cell1 portrait/gameplay references: light-warm skin, dark eyes, voluminous high purple curls with the gold tie, compact human athletic proportions and purple/gold Condas kit. No fixed-side mark or handed prop is specified; the right-facing source mirrors safely. The release remains frame3, while Juniper's shorter athlete-specific ball track follows her hand. Standard and zoom120 native court captures show the ball at release in both facings. |
+
+## J.36 overhead-pass clips
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Reed Ashcroft | 0 | yes | Six right-facing overhead-pass poses retain Reed's cell0 medium-brown skin, goatee, dark-purple braids in a high topknot, white lower-leg wear and purple/gold Condas kit. There is no baked ball, fixed-side mark or handed prop. The bottom-left pose is the frame3 release, followed by a distinct high follow-through. Standard and zoom120 native court captures select the production atlas in both facings and show the separate ball at the raised hands. |
+| Juniper Vale | 1 | yes | Six right-facing overhead-pass poses retain Juniper's cell1 light-warm skin, high dark-purple curls and gold tie, compact human proportions, dark knee pads and purple/gold Condas kit. There is no baked ball, fixed-side mark or handed prop. The bottom-left pose is the frame3 release, followed by a distinct high follow-through. Standard and zoom120 native court captures select the production atlas in both facings and show the separate ball at the raised hands. |
+
+## J.36 behind-pass clips
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Reed Ashcroft | 0 | yes | Six right-facing behind-pass poses retain Reed's cell0 medium-brown skin, goatee, dark-purple braids in a high topknot, white lower-leg wear and purple/gold Condas kit. All hands are empty; no fixed-side detail is present. Frame3 releases behind the hip and frame4 follows through low. Standard and zoom120 previews show production selection in both facings and the separate ball at the rear hand. |
+| Juniper Vale | 1 | yes | Six right-facing behind-pass poses retain Juniper's cell1 light-warm skin, dark-purple curls and gold tie, compact human proportions, dark knee pads and purple/gold kit. All hands are empty; no fixed-side detail is present. Frame3 releases behind the hip and frame4 follows through low. Standard and zoom120 previews show production selection in both facings and the separate ball at the rear hand. |

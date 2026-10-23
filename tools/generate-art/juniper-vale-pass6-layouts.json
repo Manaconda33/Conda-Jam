@@ -1,0 +1,148 @@
+[
+  {
+    "athlete": "juniper-vale",
+    "direction": "right",
+    "clip": "pass",
+    "src": "./public/assets/animation/juniper-vale-pass-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "juniper-vale",
+      "clip": "pass",
+      "direction": "right",
+      "generationId": "exec-f2e97d9c-1237-4926-80de-a09db756662a",
+      "generatedAt": "2026-10-23",
+      "sourcePrompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Juniper Vale, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. She is a compact natural human athletic adult woman with light-warm skin, dark focused eyes, abundant dark-purple curls gathered high with one small gold tie, Chicago Condas purple-and-gold uniform, dark knee pads and matching shoes. Maintain her face, hair, body and colors across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near her hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. Her hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512\u00d7512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, extra jewelry, checkerboard, floor, panels, borders or grid lines.",
+      "referencePaths": [
+        "tools/generate-art/references/juniper-vale-portrait-reference.png",
+        "tools/generate-art/references/juniper-vale-gameplay-reference.png"
+      ],
+      "identityReferenceCell": 1,
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "notes": "Visually reviewed six separate complete Juniper poses on the transparent source. Light-warm skin, dark eyes, abundant dark-purple high curls with gold tie, compact natural build, kneepads and purple/gold Condas kit match runtime cell1. All six hands are empty; no basketball, jersey numeral or extra prop remains. The bottom-left drawing is the chest-pass release anchor. Eight-connected alpha segmentation at threshold64 identifies exactly six unique bodies in row-major order; each stays inside the source sheet and can be isolated without cutting neighboring pose pixels. Atlas packing uniformly scales and baseline-aligns original pixels only."
+      },
+      "rejectedAttempts": [
+        {
+          "generationId": "exec-952aedf2-c0db-4a71-a468-ec779c54b26d",
+          "sha256": "c5e2c888fa5d3502c30850d336a3829bbe1d0d5db1f26967207492e06a48a6f7",
+          "file": "tools/generate-art/sources/juniper-vale-pass6-attempt1-rejected-tight-padding.png",
+          "reason": "The full figure did not meet the specified clear padding at the cell floor edge."
+        },
+        {
+          "generationId": "exec-b1ddd048-e998-45af-a528-863ed75cde0f",
+          "sha256": "cbdca38a2c7784f30ea7955871db4d6a8e9cab52ede27bb0fca0591c25ad171c",
+          "file": "tools/generate-art/sources/juniper-vale-pass6-attempt2-rejected-jersey-numbers.png",
+          "reason": "The generated uniform contained visible jersey numerals despite the prompt."
+        },
+        {
+          "generationId": "exec-7a456e85-d462-4097-a240-006b48de6750",
+          "sha256": "5888ab5aab856d4f3702678e8b467d6b3412db80b2c6e5cc19d4e698ff18cee0",
+          "file": "tools/generate-art/sources/juniper-vale-pass6-attempt3-nonproduction-edited.png",
+          "reason": "The edit removed the numerals but was not retained as the accepted art; a clean ball-free generation replaced it."
+        }
+      ],
+      "prompt": "Generate an original six-frame action animation contact sheet for basketball, on transparent background, 3 columns by 2 rows, reading left to right then down. Athlete: Juniper Vale, based strictly on the attached canonical portrait and clean empty-hand gameplay sprite. She is a compact natural human athletic adult woman with light-warm skin, dark focused eyes, abundant dark-purple curls gathered high with one small gold tie, Chicago Condas purple-and-gold uniform, dark knee pads and matching shoes. Maintain her face, hair, body and colors across every frame. Right-facing three-quarter view, consistent game-sprite scale and camera.\n\nThere must be absolutely no basketball and no object in or near her hands in any pose. Do not show a sphere, circle, ball-like shape, prop or held item. Her hands are visibly empty with separated fingers and palms open. Pose sequence: (0) stable open-hand ready stance, arms relaxed near waist; (1) bring empty open hands toward mid-chest, palms facing each other but separated; (2) chest-pass load with elbows bent and empty hands open at chest sides, palms slightly forward; (3) pass-release anchor: one forward step with both empty arms extended straight at chest height and palms/fingers fully open; (4) empty-hand follow-through, arms forward and weight over lead foot; (5) recover to balanced ready stance. No ball in any of the six cells.\n\nEach 512\u00d7512 cell contains one complete figure centered at uniform scale, maximum 68% cell height and 56% cell width; leave at least 15% clear transparent padding on all four sides. Separate figures with broad gutters. No clipping, crop, overlap, touch, or shadow. Background must be fully transparent RGBA, with no glow or gradient. The uniform front is plain purple fabric with gold trim only: no letters, numbers, badges, logos or text. No extra athletes, anatomy variants, fantasy traits, glasses, extra jewelry, checkerboard, floor, panels, borders or grid lines.",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-pass6-accepted.png",
+      "sourceSha256": "37d0b5cdbc55085872c3b0007bd300d1716660822a6007f33ae702e2ffa5b764",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 99,
+          "y": 30,
+          "w": 351,
+          "h": 458,
+          "component": 1,
+          "area": 66069
+        },
+        {
+          "sourceIndex": 1,
+          "x": 601,
+          "y": 30,
+          "w": 341,
+          "h": 460,
+          "component": 2,
+          "area": 63046
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1074,
+          "y": 32,
+          "w": 359,
+          "h": 458,
+          "component": 3,
+          "area": 67185
+        },
+        {
+          "sourceIndex": 3,
+          "x": 65,
+          "y": 544,
+          "w": 451,
+          "h": 446,
+          "component": 4,
+          "area": 66716
+        },
+        {
+          "sourceIndex": 4,
+          "x": 581,
+          "y": 544,
+          "w": 434,
+          "h": 444,
+          "component": 5,
+          "area": 63058
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1094,
+          "y": 544,
+          "w": 345,
+          "h": 446,
+          "component": 6,
+          "area": 63972
+        }
+      ],
+      "uniformScale": 0.2,
+      "componentIsolation": true,
+      "packaging": "package-pass6.py; 96x96 cells; baseline94; lossless WebP; 6 original poses"
+    }
+  }
+]

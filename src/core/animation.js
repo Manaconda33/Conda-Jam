@@ -92,7 +92,18 @@ export function anchorTick(key, anchor) { const c=animationClips[key];const fram
 export function sampleAnimation(key, elapsedTicks=0) { const c=animationClips[key];if(!c)throw new RangeError(`Unknown animation: ${key}`);const duration=animationDuration(key),elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);for(const frame of sequenceFor(c)){if(tick<c.frames[frame].duration)return {frame,done:!c.loop&&elapsed>=duration};tick-=c.frames[frame].duration;}return {frame:0,done:false}; }
 
 // Interpolate within each authored frame duration, using the same loop as sampling.
-const athleteBallTracks={'sera-bellini':{
+const athleteBallTracks={'reed-ashcroft':{
+  // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
+  // torso; frame 3 is the authored release hand, not the shared torso offset.
+  pass:{height:[.9,1.2,1.45,1.5,1.45,.95],forward:[8,7.5,12.5,18,17.5,9]},
+  'pass-overhead':{height:[1.1,1.65,2.25,2.15,1.95,1.1],forward:[6.5,10,11,12.5,12,6.5]},
+  'pass-behind':{height:[1,1,.95,1.25,1.15,.95],forward:[3,1,-8,-14.5,-12,2]}
+},'juniper-vale':{
+  // Juniper's compact 96x96 poses have a shorter reach than Reed's release.
+  pass:{height:[.9,1.2,1.4,1.5,1.45,.95],forward:[7,7.5,10.5,15,14.5,8.5]},
+  'pass-overhead':{height:[1.1,1.65,2.25,2.15,1.95,1.1],forward:[6.5,9.5,10,10.5,10,6.5]},
+  'pass-behind':{height:[1,1,.95,1.25,1.15,.95],forward:[3,1,-8,-14,-12,2]}
+},'sera-bellini':{
   // The reviewed 80x96 sheet places the lead hand ahead of her torso; keep
   // the separate game ball at that hand through her court-level bounce.
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},

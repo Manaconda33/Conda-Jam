@@ -478,6 +478,53 @@ for(const clip of ['pass','pass-overhead','pass-behind'])for(const facing of [1,
   if(clip==='pass-behind')assert.ok(sampleBallForward(clip,release)<0,'behind-back release exits behind torso');
   if(clip==='pass-overhead')assert.ok(sampleBallHeight(clip,anchorTick(clip,'release')-2)>2,'gather goes above head');
 });
+test('Reed Ashcroft and Juniper Vale standard passes follow their authored hand poses in both facings',()=>{
+ const releases=[['reed-ashcroft',18],['juniper-vale',15]];
+ for(const [id,releaseForward] of releases)for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:712,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
+  p.x=100;p.y=50;p.facing=facing;m.ball.ownerId=p.id;m.ball.lastTouch=p.id;m.ball.mode='carried';
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{passPressed:true}):i));
+  const release=anchorTick('pass','release');
+  while(p.animation.tick<release)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'pass',id+' releases on the marked frame');
+  assert.equal(sampleBallForward('pass',release,id),releaseForward,id+' release reaches the open hands');
+  assert.equal(sampleBallHeight('pass',release,id),1.5,id+' release stays at chest height');
+  assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*releaseForward)<1e-9,id+' flight starts at the athlete hand in facing '+facing);
+  assert.ok(Math.abs(m.ball.z-.02-p.z-sampleBallHeight('pass',release,id))<1e-9,id+' release preserves hand height in facing '+facing);
+ }
+});
+test('Reed Ashcroft and Juniper Vale overhead passes carry the ball to their raised hands in both facings',()=>{
+ const releases=[['reed-ashcroft',12.5],['juniper-vale',10.5]];
+ for(const [id,releaseForward] of releases)for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:713,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
+  p.x=100;p.y=50;p.facing=facing;m.ball.ownerId=p.id;m.ball.lastTouch=p.id;m.ball.mode='carried';
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{passPressed:true,passVariant:'pass-overhead'}):i));
+  const release=anchorTick('pass-overhead','release');
+  while(p.animation.tick<release)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'pass',id+' releases on the marked overhead frame');
+  assert.equal(sampleBallForward('pass-overhead',release,id),releaseForward,id+' release reaches the raised hands');
+  assert.equal(sampleBallHeight('pass-overhead',release,id),2.15,id+' release stays overhead');
+  assert.ok(sampleBallHeight('pass-overhead',release-2,id)>2,id+' gather reaches above the head');
+  assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*releaseForward)<1e-9,id+' release is at the hand in facing '+facing);
+  assert.ok(Math.abs(m.ball.z-.02-p.z-2.15)<1e-9,id+' release preserves hand height in facing '+facing);
+ }
+});
+test('Reed Ashcroft and Juniper Vale behind-the-back passes carry the ball to the rear hand in both facings',()=>{
+ const releases=[['reed-ashcroft',-14.5],['juniper-vale',-14]];
+ for(const [id,releaseForward] of releases)for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:714,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
+  p.x=100;p.y=50;p.facing=facing;m.ball.ownerId=p.id;m.ball.lastTouch=p.id;m.ball.mode='carried';
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{passPressed:true,passVariant:'pass-behind'}):i));
+  const release=anchorTick('pass-behind','release');
+  while(p.animation.tick<release)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'pass',id+' releases on the marked frame');
+  assert.equal(sampleBallForward('pass-behind',release,id),releaseForward,id+' release reaches the rear hand');
+  assert.equal(sampleBallHeight('pass-behind',release,id),1.25,id+' release stays at hip height');
+  assert.ok(sampleBallForward('pass-behind',release,id)<0,id+' releases behind the torso');
+  assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*releaseForward)<1e-9,id+' flight begins at the rear hand in facing '+facing);
+  assert.ok(Math.abs(m.ball.z-.02-p.z-1.25)<1e-9,id+' release preserves hand height in facing '+facing);
+ }
+});
 test('a receiver exactly at the releasing hand cannot create nonfinite pass velocities',()=>{
   const m=setup(),p=m.players[0],receiver=m.players[1];p.facing=1;
   receiver.x=p.x+sampleBallForward('pass',anchorTick('pass','release'));receiver.y=p.y;
