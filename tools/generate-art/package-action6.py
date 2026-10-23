@@ -13,8 +13,8 @@ from scipy.ndimage import distance_transform_edt, find_objects, label
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "public/assets/animation"
-ATHLETES = {"paprika"}
-CLIPS = {"pass-overhead", "pass-behind"}
+ATHLETES = {"paprika", "keeg"}
+CLIPS = {"pass", "pass-overhead", "pass-behind"}
 
 
 def sha256(path: Path) -> str:
@@ -86,7 +86,7 @@ def pose_rectangles(image: Image.Image) -> tuple[list[dict], np.ndarray, np.ndar
 
 def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
     if athlete not in ATHLETES:
-        raise ValueError("This reviewed six-pose packer only accepts Paprika")
+        raise ValueError("This reviewed six-pose packer only accepts explicitly supported athletes")
     provenance = json.loads(provenance_path.read_text())
     clip = provenance.get("clip")
     if clip not in CLIPS:

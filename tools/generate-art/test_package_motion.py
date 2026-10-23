@@ -731,6 +731,24 @@ class SixPoseLobPackaging(unittest.TestCase):
             frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
             self.assertEqual(len(set(frame_pixels)),6)
 
+    def test_six_original_keeg_chest_pass_frames_pack_in_three_by_two_order(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={'athlete':'keeg','clip':'pass','direction':'right','eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z','prompt':'six complete Keeg chest-pass poses','sourceSha256':action6.sha256(source),'review':{'status':'accepted'}}
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action6.ROOT,action6.OUTPUT_DIR;action6.ROOT,action6.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action6.package('keeg',source,provenance_path)
+            finally:
+                action6.ROOT,action6.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['athlete'],layout['clip']),('keeg','pass'))
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(3,2,6))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'keeg-pass-right.webp').is_file())
+
     def test_six_pose_packer_rejects_missing_or_clipped_foxes(self):
         with self.assertRaisesRegex(ValueError,'found 5'):
             action6.pose_rectangles(self.source(missing=True))
@@ -749,7 +767,7 @@ class SixPoseLobPackaging(unittest.TestCase):
             }))
             with self.assertRaisesRegex(ValueError,'accepted'):
                 action6.package('paprika',source,provenance_path)
-            with self.assertRaisesRegex(ValueError,'only accepts Paprika'):
+            with self.assertRaisesRegex(ValueError,'explicitly supported athletes'):
                 action6.package('reed-ashcroft',source,provenance_path)
 
 

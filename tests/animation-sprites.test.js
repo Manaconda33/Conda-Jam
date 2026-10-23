@@ -228,6 +228,20 @@ test('Keeg selects ten reviewed empty-hand shot poses with the canonical black b
   assert.equal(sprite?.atlas.file,shot.src);assert.equal(sprite?.flip,flip);
  }
 });
+test('Keeg selects six reviewed empty-hand chest-pass poses with safe mirroring',()=>{
+ const character=animationAssetManifest.characters.keeg,pass=character.directions.right.pass;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(pass.reviewed,true);assert.equal(pass.frames.length,6);
+ assert.equal(new Set(pass.frames.map(frame=>frame.hash)).size,6);
+ assert.equal(pass.provenance.canonicalSection,'K.03');assert.equal(pass.provenance.review.status,'accepted');
+ assert.match(pass.provenance.reviewNotes,/black beard/i);assert.match(pass.provenance.reviewNotes,/empty hands/i);
+ const width=Math.max(...pass.frames.map(frame=>frame.x+frame.w)),height=Math.max(...pass.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[pass.src,{complete:true,naturalWidth:width,naturalHeight:height,file:pass.src}]]);
+ for(const [facing,flip] of [[1,false],[-1,true]]){
+  const sprite=selectProductionSprite({id:'keeg',facing,animation:{clip:'pass',tick:5}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,pass.src);assert.equal(sprite?.flip,flip);
+ }
+});
 for(const [id,section] of [['dragon-queen','K.27'],['dea','K.32'],['lula','K.35'],['avek','K.22'],['suga','K.28'],['jragena','K.31']])test(`${id} selects ten reviewed canon-specific shot poses in both directions`,()=>{
  const character=animationAssetManifest.characters[id],shot=character.directions.right.shoot;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');

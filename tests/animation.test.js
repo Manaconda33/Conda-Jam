@@ -654,6 +654,17 @@ for(const facing of [1,-1])test(`Keeg's separate ball tracks his empty-hand shot
  assert.ok(Math.abs(m.ball.z-m.ball.vz-.026-flightHeightFromHand(sampleBallHeight('shoot',release,p.id),p.z))<1e-9);
  assert.equal(sampleAnimation('shoot',release).frame,5,'frame5 releases above the hat at tick13');
 });
+for(const facing of [1,-1])test(`Keeg's chest pass follows his hands and releases once at tick5 facing ${facing}`,()=>{
+ const m=createMatch({quarterSeconds:60,seed:185,home:{roster:[{id:'keeg'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='keeg');
+ const release=anchorTick('pass','release');p.x=100;p.facing=facing;
+ assert.equal(release,5);assert.deepEqual([sampleBallHeight('pass',0,p.id),sampleBallHeight('pass',release,p.id)],[1,1.55]);
+ assert.deepEqual([sampleBallForward('pass',0,p.id),sampleBallForward('pass',release,p.id)],[5,13]);
+ stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{passPressed:true,passVariant:'pass'})]);
+ for(let i=1;i<release;i++){stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);}
+ stepMatch(m,neutral(m));assert.equal(m.ball.mode,'pass');assert.equal(p.animation.tick,release);assert.equal(p.hasBall,false);
+ assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*sampleBallForward('pass',release,p.id))<1e-9);
+ assert.ok(Math.abs(m.ball.z-m.ball.vz-.026-flightHeightFromHand(sampleBallHeight('pass',release,p.id),p.z))<1e-9);
+});
 for(const facing of [1,-1])test(`Quirky releases from his extended striped orangutan paw facing ${facing}`,()=>{
  const m=createMatch({quarterSeconds:60,seed:36,home:{roster:[{id:'quirky'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='quirky');
  const release=anchorTick('shoot','release');p.x=100;p.facing=facing;

@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,663 authored drawings across 647 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,669 authored drawings across 648 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -21,7 +21,7 @@
 | gummiefish | 5 | 42 | 219,698 |
 | piper-quickstep | 5 | 42 | 196,618 |
 | briar-foxglove | 5 | 42 | 180,192 |
-| keeg | 6 | 52 | 260,746 |
+| keeg | 7 | 58 | 316,154 |
 | toph | 5 | 42 | 151,554 |
 | heph | 5 | 42 | 152,702 |
 | liv | 6 | 52 | 237,996 |
@@ -508,6 +508,14 @@ Juniper adds15 original poses and reaches28 reviewed action clips /278 authored 
 Three rejected sheets are retained: `exec-9ed5079e-dba8-44ab-9f2e-eee07dd8b81e` (tight 24–40px clearances), `exec-6445ab2f-523e-4d73-8bc6-d59044ae838b` (pose12 touches the bottom edge), and `exec-ef0481d3-fe60-4f86-b5d6-692c29141f37` (9–41px margins). Accepted generation `exec-d3371e76-0178-48d1-ab7f-27f0a0e8ef8e` raw sheet SHA-256 is `1e6a6be3e6424932206d43ad4b10cbe6e78b62ea8494e5f39737607cb16be8cd`; cleaned 15-pose source `tools/generate-art/sources/j82-juniper-alley-oop-power15.png` SHA-256 is `b7759a3d4b14623229f2ba2267d58ed28e85ba4616fa307baceddeb1ae5c1dda`. Exterior halo cleanup cleared40,170 pixels including951 vivid-red pixels; final silhouette margins are67px left,88px top,63px right and81px bottom. The reviewed 512×384 atlas `public/assets/animation/juniper-vale-alley-oop-power-right.webp` is72,324 bytes (SHA-256 `b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa`). Exact prompts, rejected raw sheets, source layout, provenance, cleanup and visual reviews are in the J.82 generation files.
 
 Focused runtime/sprite regressions verify all15 authored poses in both facings, the separate ball hand track, catch tick10, possession through tick20, release tick21, score tick23 and landing tick30. All378 JavaScript tests, lint, content validation,100-match simulation,36 motion-packer tests, build, Chromium full journey, and standard/zoom120 native previews pass. Each preview loads173 images and captures87 clip snapshots plus452 action frames. The report-only audit is645 clips /5,638 drawings /105 athletes, with2,458 missing clips,3 target shortfalls and4 earlier nonverbatim prompt findings.
+
+## J.85 — Keeg `pass`
+
+Keeg adds six authored chest-pass poses after J.84 `shoot`. The sequence gathers at the sternum, extends both empty hands for one release at pose3 /simulation tick5, follows through and recovers. His black hair, neatly trimmed black beard, extremely tall purple hat with silver trim and mushroom ornaments, human proportions and purple/lavender/silver uniform remain consistent. The game supplies a separate Keeg-specific ball track; body mirroring is approved.
+
+Accepted correction `exec-29254ac3-4c01-43af-b644-67ca287cb3f1` raw SHA-256 `f747ecd9da30b5dc0d6a5db6a429234b7a238f178a345acc953e6aa150098ef3`; accepted cleaned 1536×1024 source `tools/generate-art/sources/j85-keeg-pass6.png` SHA-256 `8d58ca1b07a659c0d9518a31ea8b537e58200f853e9e561b9faf2b1e075c0b99`. Cleanup cleared42,347 exterior pixels and no vivid-red pixels; outer margins are41px left,24px top,107px right and33px bottom. The component-isolated 288×192 atlas `public/assets/animation/keeg-pass-right.webp` is55,408 bytes / SHA-256 `42d78cbe3e555ecb3546499caff03a37744f3507508f4ba511b395da5aadcdca`. The first sheet is retained as rejected for a tight cell gutter. Exact prompts, raw sources, layouts, provenance, cleanup and review notes are in J.85 files.
+
+J.85 full validation passes386 JS tests, lint, content validation,100-match simulation /854,367 ticks /7 overtimes,38 packer checks, build, Chromium offline full-match/season/touch E2E and standard/zoom120 native previews (151 images /87 snapshots /452 action frames each). The report-only audit is648 clips /5,669 drawings /105 athletes, with2,455 missing clips,3 target shortfalls and4 inherited prompt findings. Next: Keeg `pass-overhead`.
 
 ## J.84 — Keeg `shoot`
 

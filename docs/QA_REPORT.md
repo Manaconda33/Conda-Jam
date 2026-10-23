@@ -1,18 +1,17 @@
 # QA report
 
-## Latest validated checkpoint — J.84 (2026-10-23)
+## Latest validated checkpoint — J.85 (2026-10-23)
 
-- `npm test`: PASS — 383 tests.
-- `npm run lint`: PASS — 18 JavaScript modules.
+- `npm test`: PASS — 386 tests.
+- `npm run lint`: PASS —18 JavaScript modules.
 - `npm run validate:content`: PASS —35 franchises /105 unique athletes /35 canonical captains.
-- `npm run simulate:league`: PASS —100 matches /854,257 ticks /7 overtime periods.
-- `python -m unittest discover -s tools/generate-art -p 'test_package*.py'`: PASS —37 packer checks.
+- `npm run simulate:league`: PASS —100 matches /854,367 ticks /7 overtime periods.
+- `python -m unittest discover -s tools/generate-art -p 'test_package*.py'`: PASS —38 packer checks.
 - `npm run build`: PASS — static bundle and standalone offline page.
-- `npm run test:e2e`: PASS — Chromium offline startup, touch/gamepad/control/settings journeys, nonhuman matchups, complete match, season progression and standalone startup.
-- `node tools/audit-animation-assets.mjs --report-only --json tools/generate-art/ASSET_AUDIT.json --markdown docs/ANIMATION_ASSET_AUDIT.md`: expected INCOMPLETE —647 clips /5,663 authored drawings across105 athletes,2,456 missing clips,3 target shortfalls and4 inherited prompt findings.
-- Keeg native-render captures: standard and zoom120 each loaded150 images, rendered87 clip snapshots /452 action-frame previews; the `shoot` release selects production art in both facings.
-- J.83 `a67e310` Pages deployment run #121 succeeded. J.84 is validated locally; commit/push/deployment are the next checkpoint actions.
-
+- `npm run test:e2e`: PASS —Chromium offline startup, touch/gamepad/control/settings journeys, nonhuman matchups, complete match, season progression and standalone startup.
+- `node tools/audit-animation-assets.mjs`: expected exit1 / INCOMPLETE —648 clips /5,669 authored drawings across105 athletes,2,455 missing clips,3 target shortfalls and4 inherited prompt findings.
+- Keeg native-render captures: standard and zoom120 each loaded151 images and rendered87 clip snapshots /452 action-frame previews; `pass` release art is selected in both facings.
+- J.84 `a1b8f23` Pages deployment run #122 succeeded. J.85 is validated locally; the next checkpoint is commit/push and Pages verification.
 
 ## Environment
 
