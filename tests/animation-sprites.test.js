@@ -1825,3 +1825,31 @@ test('Reed selects all fifteen reviewed reverse alley-oop poses with his J.01 mi
   tick+=animationClips['alley-oop-reverse'].frames[frame].duration;
  }
 });
+
+test('Juniper selects all fifteen reviewed reverse-dunk poses with safe mirroring',()=>{
+ const id='juniper-vale',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+ const atlas='./public/assets/animation/juniper-vale-dunk-reverse-right.webp';
+ const clip=character?.directions?.right?.['dunk-reverse'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.ok(clip,'Juniper reverse-dunk atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.imageGenerationId,clip.provenance.generationId);
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.componentIsolation,true);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.heightByPose,[.9,.8,1.3,1.6,1.8,1.9,2,2.1,2,1.9,1.1,1.6,.9,.7,.6]);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forwardByPose,[4,6,3,-2,-3,-2,2,5,-5,-5,10,-4,2,4,4]);
+ assert.equal(clip.provenance.sourceImage,'tools/generate-art/sources/j76-juniper-vale-dunk-reverse15.png');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.equal(policy.canonicalSection,'J.01');assert.equal(policy.sourceCell,1);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-reverse',tick).frame,frame,'runtime maps Juniper reverse pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-reverse',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-reverse'].frames[frame].duration;
+ }
+});

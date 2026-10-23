@@ -1234,3 +1234,33 @@ test('Juniper windmill dunk keeps the separate ball on her low circular hand pat
   assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
  }
 });
+
+test('Juniper reverse dunk keeps the separate ball on her hand through the behind-the-crown release in both facings',()=>{
+ const id='juniper-vale',clip='dunk-reverse';
+ const measured=[[0,.9,4],[3,1.6,-2],[7,2.1,5],[8,2,-5],[9,1.9,-5]];
+ const frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:76,home:{roster:[{id},{id:'juniper-partner'}]}}),p=m.players[0];
+  p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'reverse'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(const [frame,height,forward] of measured){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,id)-height)<.001,`frame${frame} Juniper reverse hand height`);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,id)-forward)<.001,`frame${frame} Juniper reverse hand reach`);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<.06,`frame${frame} reverse lane facing ${facing}`);
+   assert.ok(Math.abs(m.ball.z-p.z-height)<.02,`frame${frame} reverse height facing ${facing}`);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish');
+  assert.equal(release,21);assert.equal(finish,23);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward(clip,p.animation.tick,id))<.06);
+  assert.ok(Math.abs(m.ball.z-p.z-sampleBallHeight(clip,p.animation.tick,id))<.02);
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  assert.equal(sampleBallForward(clip,release,id),10,'the reverse-release hand crosses behind Juniper’s turned body');
+  assert.equal(sampleBallHeight(clip,release,id),1.1,'the reverse-release hand stays close to her shoulder height');
+  stepMatch(m,neutral(m));assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish)stepMatch(m,neutral(m));
+  assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
+ }
+});
