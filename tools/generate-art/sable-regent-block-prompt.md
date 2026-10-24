@@ -1,0 +1,5 @@
+# Sable Regent — block
+
+```text
+Use the supplied Sable Regent portrait/gameplay references for canon identity and style. Create transparent RGBA 1536×1024 sprite sheet with four distinct complete full-body Sable defensive shot-block poses in a 2×2 row-major grid. Same warm-brown tall adult human woman, black gathered hair/red headband, individual face, black/crimson/white Blackthorn uniform and wristbands, complete natural anatomy. Right-facing, consistent scale. No basketball, hoop, opponent, teammates or floor; ball is separate at runtime and hands empty. Four poses: 0 crouched defensive ready; 1 takeoff with both arms rising; 2 block apex anchor, high jump with one or both hands fully extended overhead to contest an invisible shot; 3 descend and land in a defensive stance. All distinct, full body/hair/shoes in cells, no extra limbs or cropped fingertips. Crisp limited-palette 1990s arcade pixel art, dark outline, no glossy/3D/painterly style, transparent alpha-zero background, no shadow, checkerboard or matte. Return only sheet.
+```

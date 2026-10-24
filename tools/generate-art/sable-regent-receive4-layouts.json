@@ -1,0 +1,138 @@
+[
+  {
+    "athlete": "sable-regent",
+    "direction": "right",
+    "clip": "receive",
+    "src": "./public/assets/animation/sable-regent-receive-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96,
+        "hash": "e52f71b11ca93b1f7aff647bff24e2329cb5f0818b5a911dc131f48b85f22020"
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96,
+        "hash": "55943c3c4b15daf08c47bdd8b27190b0b13d1b0b5dbfc5519d773d981733026b"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96,
+        "hash": "8c7bbc85f3be82e6930e238596b67cc86369e8159d10d3469bc9a3d55c1ca06d"
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96,
+        "hash": "e07f62ea0e56b6c42851d2a382fe83493d209d7b9891aa49f5e3b51a60c332fe"
+      }
+    ],
+    "provenance": {
+      "athlete": "sable-regent",
+      "canonicalSection": "J.05",
+      "clip": "receive",
+      "direction": "right",
+      "generationId": "exec-6fdb39db-26d1-4f33-8156-86d2ef9336df",
+      "imageGenerationId": "exec-6fdb39db-26d1-4f33-8156-86d2ef9336df",
+      "generatedAt": "2026-10-24T01:48:42.546831+00:00",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sable-regent-receive-generated-raw.png",
+      "sourceSha256": "7a82e2742e518b6bd35b53c3e8d698ab8bdea450ff351c77467095878de1e506",
+      "rawSourceImage": "tools/generate-art/sources/sable-regent-receive-generated-raw.png",
+      "rawSourceSha256": "7a82e2742e518b6bd35b53c3e8d698ab8bdea450ff351c77467095878de1e506",
+      "prompt": "Use Sable Regent's supplied portrait and gameplay sprite as exact identity/style references. Create an original transparent RGBA 1536\u00d71024 sprite sheet with exactly four distinct complete full-body Sable basketball receive poses in a 2-column by 2-row grid, row-major. Same warm-brown athletic adult human woman, individual face, black gathered hair with red headband, black/crimson/white Blackthorn kit, wristbands; preserve anatomy, silhouette and palette. One character per cell, facing right. No ball, teammate, hoop, court, shadow or prop: the basketball is separate at runtime. Four-frame receive: 0 look up and extend both empty hands to meet a descending pass; 1 raise hands farther, adjust stance; 2 catch-anchor pose with both hands cupped together at chest/face level around the invisible ball (grab frame2); 3 secure the invisible ball against chest and stabilize. Clearly distinct phases, natural human hands, complete hair/body/shoes fully in each cell with broad margins. Crisp limited-palette 1990s arcade sprite, dark outlines, no glossy/painterly/3D treatment. True alpha-zero background, no checkerboard/matte. Return only the sprite sheet.",
+      "references": [
+        "tools/generate-art/references/sable-regent-portrait-reference.png",
+        "tools/generate-art/references/sable-regent-gameplay-reference.png"
+      ],
+      "ballTrack": {
+        "height": [
+          1.35,
+          1.55,
+          1.45,
+          1.2
+        ],
+        "forward": [
+          8,
+          11,
+          13,
+          10
+        ],
+        "notes": "Descending separate pass meets both hands on catch frame2; settle at chest on frame3."
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Four distinct complete receive poses; both empty hands reach up and frame2 catch pose is clear; identity consistent, no embedded ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 160,
+          "y": 42,
+          "w": 571,
+          "h": 472,
+          "component": 2,
+          "area": 93189
+        },
+        {
+          "sourceIndex": 1,
+          "x": 849,
+          "y": 9,
+          "w": 503,
+          "h": 505,
+          "component": 1,
+          "area": 92743
+        },
+        {
+          "sourceIndex": 2,
+          "x": 197,
+          "y": 527,
+          "w": 420,
+          "h": 483,
+          "component": 3,
+          "area": 85500
+        },
+        {
+          "sourceIndex": 3,
+          "x": 891,
+          "y": 527,
+          "w": 403,
+          "h": 482,
+          "component": 4,
+          "area": 78944
+        }
+      ],
+      "uniformScale": 0.18217821782178217,
+      "componentIsolation": true,
+      "packaging": "package-nova-action4.py; 112x96 cells; baseline94; lossless WebP; 4 original receive poses",
+      "atlasPath": "public/assets/animation/sable-regent-receive-right.webp",
+      "atlasSha256": "895c5b69db7769c0dbee7707ebeb7f0f0649d935009aec8c1d67dc2110732e62",
+      "atlasBytes": 37014
+    },
+    "ballTrack": {
+      "height": [
+        1.35,
+        1.55,
+        1.45,
+        1.2
+      ],
+      "forward": [
+        8,
+        11,
+        13,
+        10
+      ],
+      "notes": "Descending separate pass meets both hands on catch frame2; settle at chest on frame3."
+    }
+  }
+]

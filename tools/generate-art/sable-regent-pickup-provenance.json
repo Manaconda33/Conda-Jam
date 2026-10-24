@@ -1,0 +1,44 @@
+{
+  "athlete": "sable-regent",
+  "canonicalSection": "J.05",
+  "clip": "pickup",
+  "direction": "right",
+  "generationId": "exec-c2899c14-a3c2-457f-87a6-a64c5525ca5f",
+  "imageGenerationId": "exec-c2899c14-a3c2-457f-87a6-a64c5525ca5f",
+  "generatedAt": "2026-10-24T01:49:45.936441+00:00",
+  "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sable-regent-pickup-generated-raw.png",
+  "sourceSha256": "adc73468b9ffde74e11e735c2f9938ce96792c62d8d054610d7d9c04a01c973d",
+  "rawSourceImage": "tools/generate-art/sources/sable-regent-pickup-generated-raw.png",
+  "rawSourceSha256": "adc73468b9ffde74e11e735c2f9938ce96792c62d8d054610d7d9c04a01c973d",
+  "prompt": "Use supplied Sable Regent portrait/gameplay image for identity and pixel style. Create transparent RGBA sprite sheet 1536\u00d71024 with exactly five distinct complete full-body Sable ball-pickup poses, row-major in a 3-column by 2-row grid. Same warm-brown adult human woman, black gathered hair with red headband, individual face, Blackthorn black/crimson/white kit and wristbands, consistent human anatomy and scale. Right-facing, one Sable per cell. No basketball, props, floor, court, teammate or text: ball is separate at runtime. Five poses: 0 notice a loose ball and begin lowering into stance; 1 bend deeply at knees and waist, reach one empty hand to floor; 2 kneel/reach with fingertips at ground level; 3 clear grab-anchor, hand closes just above court and secures external ball (frame3); 4 rise with ball gathered to chest, empty hands shown as gripping the invisible ball. Keep whole hair, body, hands and shoes visible, no floor or shadow. Crisp limited-palette 1990s arcade sprite with chunky outline; no glossy, painterly or 3D style. True alpha-zero background, no checkerboard or matte. Return only the sheet.",
+  "references": [
+    "tools/generate-art/references/sable-regent-portrait-reference.png",
+    "tools/generate-art/references/sable-regent-gameplay-reference.png"
+  ],
+  "ballTrack": {
+    "height": [
+      1.0,
+      0.55,
+      0.18,
+      0,
+      0.75
+    ],
+    "forward": [
+      6,
+      9,
+      12,
+      14,
+      9
+    ],
+    "notes": "Separate ball descends to the floor at grab frame3 beside Sable\u2019s lowered hand; returns toward hands as she rises."
+  },
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Five unique complete poses show a clear lowering, floor reach/grab and rise; consistent Sable face/hair/headband/kit, no ball."
+  },
+  "eligibleForPacking": true,
+  "separateBall": true,
+  "atlasPath": "public/assets/animation/sable-regent-pickup-right.webp",
+  "atlasSha256": "de25e42382071b53f5a5cfc40bddce6aad57459bfed609b69d71552ee1225e46",
+  "atlasBytes": 49490
+}

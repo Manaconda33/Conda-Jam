@@ -1,0 +1,18 @@
+{
+  "athlete": "sable-regent",
+  "canonicalSection": "J.05",
+  "clip": "pass-behind",
+  "direction": "right",
+  "generationId": "exec-fc9328d8-ddfa-4775-82f6-84b5fbbbb73e",
+  "imageGenerationId": "exec-fc9328d8-ddfa-4775-82f6-84b5fbbbb73e",
+  "generatedAt": "2026-10-24T01:47:26.902108+00:00",
+  "rawSourceImage": "tools/generate-art/sources/sable-regent-pass-behind-attempt1-rejected-raw.png",
+  "rawSourceSha256": "50442105ebeaa659a66b78846704877dc3e4f3e43cfc4cf34546c6f9e237b105",
+  "prompt": "Use Sable Regent's supplied portrait and gameplay reference for exact character identity and style. Create transparent RGBA 1536\u00d71024 sheet with six unique complete full-body right-facing poses in a 3-column\u00d72-row row-major grid. Sable is warm-brown athletic adult human woman, same recognizable face, black gathered hair/red headband, black/crimson/white uniform and wristbands. Maintain silhouette, anatomy and palette. No visible ball, teammate, court, hoop or props; basketball remains separate. Six behind-the-back pass poses: 0 ready with hands clear; 1 turn torso slightly and bring empty ball-hand behind hip; 2 bend at knees, ball hand visibly behind lower back while opposite hand counterbalances; 3 sharp behind-the-back release with right wrist/fingers trailing behind hip (release anchor frame3); 4 recover with arm swinging around; 5 face forward ready. Keep full anatomy, ponytail and shoes inside each cell, no arm crossing through torso, pose progression unmistakable. Crisp limited-palette 1990s arcade pixel art and dark outlines; no glossy, 3D or painterly style. True transparent alpha-zero background, no checkerboard/matte/shadow/ground/text. Return only sheet.",
+  "review": {
+    "status": "rejected",
+    "reviewNotes": "Rejected because release read as forward/side-arm extension; it did not clearly pass behind the back."
+  },
+  "eligibleForPacking": false,
+  "separateBall": true
+}

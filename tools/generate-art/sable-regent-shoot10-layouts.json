@@ -1,0 +1,258 @@
+[
+  {
+    "athlete": "sable-regent",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/sable-regent-shoot-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96,
+        "hash": "9f58f157a6c6e0644eea754454bf3aafcda59d71e8df6ed91c2afbeda9e06d8d"
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96,
+        "hash": "74f5a95bc0c6b8f78286476c22862cf66186b34d080872cf753b0fc52a25504a"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96,
+        "hash": "81a05bb1e76c7382dcf0e5d4096b2e2754452173f34a8a8e57c178984c0a4bf0"
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96,
+        "hash": "036fa8d74d9bbffb6357b21dc7817c1402126b16f5d9fb450edb1b8835a6f202"
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 64,
+        "h": 96,
+        "hash": "133ee6c841c782e222c789c3454bee60b8b20537bf2853d4285c91f5e1fdc209"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96,
+        "hash": "e6f98256f2c0170dc1a877bc52957f175d18e178ab94f5082e51e2f1c222144e"
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96,
+        "hash": "6888af0c36061bd7cc1221bece5599ccbc24b9837ce9e7d3a63a2582e7495cb5"
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96,
+        "hash": "64015d17593325a96afecd08fbdbeea33b74b965f0290169d78f6142185b08a3"
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96,
+        "hash": "d6938749753e6edfe375b91e792fba361d59bc06b9e6bbdba1509a08c6938c98"
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 64,
+        "h": 96,
+        "hash": "b41b9885524d21c98bb04c41bf76c4e02560aaa13c90c718c9de1d62f3fe04f2"
+      }
+    ],
+    "provenance": {
+      "athlete": "sable-regent",
+      "canonicalSection": "J.05",
+      "clip": "shoot",
+      "direction": "right",
+      "generationId": "exec-66da18f2-0348-4d9a-a566-7cff9cad7224",
+      "imageGenerationId": "exec-66da18f2-0348-4d9a-a566-7cff9cad7224",
+      "generatedAt": "2026-10-24T01:41:26.960517+00:00",
+      "rawSourceImage": "tools/generate-art/sources/sable-regent-shoot-generated-raw.png",
+      "rawSourceSha256": "257f3f9d155aa7bc60ccb2674a3cd89e49a6eaab2ec71a6a6ebcd1f58f75501b",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sable-regent-shoot-generated-raw.png",
+      "sourceSha256": "257f3f9d155aa7bc60ccb2674a3cd89e49a6eaab2ec71a6a6ebcd1f58f75501b",
+      "prompt": "Use the supplied Sable Regent portrait and gameplay image ONLY to preserve her identity and style. Create a single genuine transparent RGBA sprite sheet 1536\u00d71024 with ten distinct, complete, independent full-body Sable Regent basketball jump-shot poses in 5 equal columns \u00d7 2 equal rows, row-major. Leave generous transparent gutters between every pose and at least 100px transparent margin to every canvas edge. Figures must be small enough that no hand or fingertip is cropped during the highest release. Same tall adult human woman, warm-brown skin and individual face, gathered black hair under her red headband, black/crimson/white Blackthorn basketball uniform, wristbands, human hands, knees and shoes. Keep exact identity and uniform consistent. Frames 0-9: ready, set hands, knee bend, takeoff, upward release arm, apex follow-through at frame5, hold, descent, land, settle. Keep the full figure and entire raised hand visible in every pose. No basketball or props: ball is separate at runtime and the hands are empty. Use clear negative space around each full silhouette; keep heads, hair, both hands, shoes comfortably within each cell as well as the image outer edges. Crisp 1990s limited-palette arcade pixel art with dark outline, matching gameplay image. No court, floor, shadow, background, glow, labels, text, grid marks, checkerboard or matte. Return only the transparent sprite sheet.",
+      "references": [
+        "tools/generate-art/references/sable-regent-portrait-reference.png",
+        "tools/generate-art/references/sable-regent-gameplay-reference.png"
+      ],
+      "ballTrack": {
+        "height": [
+          0.65,
+          0.8,
+          1.0,
+          1.35,
+          1.65,
+          1.9,
+          1.8,
+          1.3,
+          0.55,
+          0.2
+        ],
+        "forward": [
+          5,
+          6,
+          8,
+          10,
+          12,
+          13,
+          12,
+          9,
+          6,
+          4
+        ],
+        "notes": "Right-hand shooting path fitted to Sable\u2019s established human body; release on frame5 at the fingertips, ball remains external."
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Ten distinct complete human shooting poses; head, hair, hands and shoes fully inside sheet. Warm-brown face, black hair/red headband and black/crimson/white uniform match canon refs; no ball rendered."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 55,
+          "y": 138,
+          "w": 221,
+          "h": 336,
+          "component": 4,
+          "area": 32362
+        },
+        {
+          "sourceIndex": 1,
+          "x": 367,
+          "y": 130,
+          "w": 210,
+          "h": 344,
+          "component": 3,
+          "area": 34714
+        },
+        {
+          "sourceIndex": 2,
+          "x": 688,
+          "y": 169,
+          "w": 190,
+          "h": 306,
+          "component": 5,
+          "area": 33003
+        },
+        {
+          "sourceIndex": 3,
+          "x": 969,
+          "y": 67,
+          "w": 187,
+          "h": 421,
+          "component": 2,
+          "area": 37371
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1271,
+          "y": 33,
+          "w": 190,
+          "h": 452,
+          "component": 1,
+          "area": 38096
+        },
+        {
+          "sourceIndex": 5,
+          "x": 56,
+          "y": 510,
+          "w": 204,
+          "h": 450,
+          "component": 6,
+          "area": 38358
+        },
+        {
+          "sourceIndex": 6,
+          "x": 354,
+          "y": 529,
+          "w": 208,
+          "h": 430,
+          "component": 7,
+          "area": 38701
+        },
+        {
+          "sourceIndex": 7,
+          "x": 656,
+          "y": 561,
+          "w": 215,
+          "h": 419,
+          "component": 8,
+          "area": 38977
+        },
+        {
+          "sourceIndex": 8,
+          "x": 970,
+          "y": 602,
+          "w": 213,
+          "h": 384,
+          "component": 9,
+          "area": 36541
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1294,
+          "y": 638,
+          "w": 200,
+          "h": 347,
+          "component": 10,
+          "area": 35275
+        }
+      ],
+      "uniformScale": 0.20353982300884957,
+      "componentIsolation": true,
+      "packaging": "package-nova-action10.py; 64x96 cells; baseline94; lossless WebP; 10 original shoot poses",
+      "atlasPath": "public/assets/animation/sable-regent-shoot-right.webp",
+      "atlasSha256": "2e8c8a23108ab707fec0e50cf76d96d1297da4d7038929eb61d32573b8af371a",
+      "atlasBytes": 53042
+    },
+    "ballTrack": {
+      "height": [
+        0.65,
+        0.8,
+        1.0,
+        1.35,
+        1.65,
+        1.9,
+        1.8,
+        1.3,
+        0.55,
+        0.2
+      ],
+      "forward": [
+        5,
+        6,
+        8,
+        10,
+        12,
+        13,
+        12,
+        9,
+        6,
+        4
+      ],
+      "notes": "Right-hand shooting path fitted to Sable\u2019s established human body; release on frame5 at the fingertips, ball remains external."
+    }
+  }
+]

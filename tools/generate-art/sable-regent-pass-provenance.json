@@ -1,0 +1,44 @@
+{
+  "athlete": "sable-regent",
+  "canonicalSection": "J.05",
+  "clip": "pass",
+  "direction": "right",
+  "generationId": "exec-06cb6d07-cca0-4ab9-bb62-e2f133d48a63",
+  "imageGenerationId": "exec-06cb6d07-cca0-4ab9-bb62-e2f133d48a63",
+  "generatedAt": "2026-10-24T01:42:41.103136+00:00",
+  "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sable-regent-pass-generated-raw.png",
+  "sourceSha256": "1d74797be26d0f667e854abfb0cf4a62bbef8dddae893500020ce046b36e2592",
+  "prompt": "Use the supplied Sable Regent portrait and gameplay sprite as the exact identity/style references. Create a true transparent RGBA 1536\u00d71024 sprite sheet with exactly six distinct complete full-body right-facing Sable chest-pass poses in a 3-column by 2-row grid, row-major. Sable is the same tall adult human woman, warm-brown skin, individual face, black hair gathered back under the red headband, black/crimson basketball kit with white trim and wristbands. Keep human anatomy, canon face/silhouette, consistent scale and outfit. One athlete per cell. No ball, teammate, court, prop, floor, shadow or text: the basketball is separate at runtime and hands stay empty. Six connected pass poses: 0 ready with hands at chest; 1 step and gather both hands around the invisible ball; 2 extend both arms forward; 3 clear chest-pass release pose with both wrists/fingers pointing forward (release anchor frame3); 4 arms follow through; 5 return to balanced ready. All six full bodies, shoes and hair completely inside cells with gutters. Distinct poses. Crisp limited-palette 1990s arcade pixel art, chunky dark outlines, not painterly/glossy/3D. True alpha-zero background, no checkerboard or matte. Return only the sprite sheet.",
+  "references": [
+    "tools/generate-art/references/sable-regent-portrait-reference.png",
+    "tools/generate-art/references/sable-regent-gameplay-reference.png"
+  ],
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.2,
+      1.55,
+      1.55,
+      1.35,
+      1.0
+    ],
+    "forward": [
+      6,
+      8,
+      11,
+      14,
+      12,
+      8
+    ],
+    "notes": "Two-hand chest pass; release frame3 at extended hands, clear of hair and torso."
+  },
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Six distinct complete Sable poses reviewed. Frame3 has clear two-arm chest-pass release. Identity/palette match canon; source contains no ball."
+  },
+  "eligibleForPacking": true,
+  "separateBall": true,
+  "atlasPath": "public/assets/animation/sable-regent-pass-right.webp",
+  "atlasSha256": "cf4d2d9b544963c4488dea25f8790cab88e9af0b1cd4355a891c6c3caff59b81",
+  "atlasBytes": 54242
+}

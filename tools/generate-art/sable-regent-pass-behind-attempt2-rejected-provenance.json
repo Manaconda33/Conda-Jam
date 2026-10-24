@@ -1,0 +1,18 @@
+{
+  "athlete": "sable-regent",
+  "canonicalSection": "J.05",
+  "clip": "pass-behind",
+  "direction": "right",
+  "generationId": "exec-26a476ad-bcb7-4a32-b239-12a052aaa3d4",
+  "imageGenerationId": "exec-26a476ad-bcb7-4a32-b239-12a052aaa3d4",
+  "generatedAt": "2026-10-24T01:47:26.905422+00:00",
+  "rawSourceImage": "tools/generate-art/sources/sable-regent-pass-behind-attempt2-rejected-raw.png",
+  "rawSourceSha256": "26c18d04e48ab41020c83d8088f6e941fcd7f032c7bd30a440115de5ce275956",
+  "prompt": "Identity reference: supplied Sable Regent portrait and gameplay sprite. This is a behind-the-back basketball pass sequence, not a chest pass. Create transparent RGBA 1536\u00d71024, exactly six small but complete full-body Sable drawings in a strict 3\u00d72 grid, one per cell. Use wide blank gutters. Same Sable from refs: warm-brown human woman, distinct face, black ponytail gathered by red headband, black/crimson/white basketball uniform, human hands/legs, wristbands. Keep consistent right-facing 3/4 view and full figure. No basketball (separate runtime object), no prop, team mate or court. Essential read: the ball arm moves BEHIND her body and the actual release extends backward behind her hip. Pose0: forward-facing ready. Pose1: torso and shoulders twist toward the viewer, elbow pulls behind hip. Pose2: hand clearly visible on far side behind her waist, fingers pointing backward, forearm passing behind her pelvis (not across front). Pose3: strongest release: arm fully extended backward behind torso at hip level, palm flicking the invisible ball away behind her, torso twisted; this frame is the behind-back pass release. Pose4: arm follows through in an arc around the back. Pose5: recover forward-facing. Clear visible far-side hand/arm on poses 2-4, no arm occlusion, no ordinary two-handed forward pass. All six distinct and complete, hair/shoes fit cell. Crisp limited palette 1990s arcade pixel style, dark outlines, transparent alpha, no checkerboard or matte. Return only the sheet.",
+  "review": {
+    "status": "rejected",
+    "reviewNotes": "Rejected because action still lacked a convincing behind-back release silhouette."
+  },
+  "eligibleForPacking": false,
+  "separateBall": true
+}

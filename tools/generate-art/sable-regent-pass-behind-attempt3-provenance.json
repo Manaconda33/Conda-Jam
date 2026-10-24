@@ -1,0 +1,43 @@
+{
+  "athlete": "sable-regent",
+  "canonicalSection": "J.05",
+  "clip": "pass-behind",
+  "direction": "right",
+  "generationId": "exec-9162e5b5-54e4-4047-a942-6cc43af17de9",
+  "imageGenerationId": "exec-9162e5b5-54e4-4047-a942-6cc43af17de9",
+  "generatedAt": "2026-10-24T01:47:26.908495+00:00",
+  "rawSourceImage": "tools/generate-art/sources/sable-regent-pass-behind-generated-raw.png",
+  "rawSourceSha256": "b123bed10e0153d2d5164970e871c9fa6043501fe4ecddca85143553ab90b7a4",
+  "prompt": "Draw a six-frame animation contact sheet, not a character lineup: transparent RGBA 1536\u00d71024, exact 3 columns x 2 rows, six clearly different full-body poses of the SAME Sable Regent. Exact identity from supplied portrait/gameplay refs: warm-brown adult human woman, black ponytail gathered by red headband, black/crimson/white uniform. No ball, prop, hoop, teammate, floor or scenery. Side-facing right so we can see the near-side and back contour of her torso. Behind-the-back pass actions: 0 neutral stance; 1 step right and rotate torso toward the viewer so her chest faces partly forward; 2 bend and put her throwing elbow behind her flank; 3 strongly twist so her back is partly toward us, with throwing hand visibly sticking out at least half a head-width BEHIND her waist on the LEFT side of her body (from our view), fingers flicking backward. This is the unmistakable release frame: the hand is behind the body's back contour, not in front of the chest. 4 follow-through as the same hand swings around behind her; 5 reset. Ensure poses0-5 are different, especially frames2-4. Do not draw a forward chest pass; do not hide the release arm behind the body; do not put both hands in front. Keep complete figure and hair/shoes inside separate cells with transparent gutters. Same natural human anatomy, single pair of arms. Crisp limited-palette 1990s arcade sprite art, dark outline. True alpha transparency, no checkerboard, no background, no words.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Accepted: release pose shows torso turned and throwing arm extended behind the body; six distinct complete poses, identity retained, no ball."
+  },
+  "eligibleForPacking": true,
+  "separateBall": true,
+  "sourceImage": "tools/generate-art/sources/sable-regent-pass-behind-generated-raw.png",
+  "sourceSha256": "b123bed10e0153d2d5164970e871c9fa6043501fe4ecddca85143553ab90b7a4",
+  "ballTrack": {
+    "height": [
+      1.0,
+      0.95,
+      0.8,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "forward": [
+      6,
+      8,
+      -3,
+      -12,
+      -8,
+      5
+    ],
+    "notes": "Frame3 release is behind Sable\u2019s hip; ball goes backward outside her waist silhouette, then the hand resets."
+  },
+  "references": [
+    "tools/generate-art/references/sable-regent-portrait-reference.png",
+    "tools/generate-art/references/sable-regent-gameplay-reference.png"
+  ]
+}

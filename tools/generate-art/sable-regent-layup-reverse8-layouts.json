@@ -1,0 +1,218 @@
+[
+  {
+    "athlete": "sable-regent",
+    "direction": "right",
+    "clip": "layup-reverse",
+    "src": "./public/assets/animation/sable-regent-layup-reverse-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "f375515ec162fdc2284248a52ae11f3f1681039435a2be068230ceb236f6a518"
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "9ebaa1403a7fc4028b66db2d3955cdef7c26775eaa8a4c44d2252afb987c9c9e"
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "1e145cff13e649878fd148a0241930fb98e8b4b1eb576f54f368ee640140ba96"
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "fb32be930b8e6de354392b184ee854b3859e4769888496c10e9c3d4f289131da"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "6627fa1b2f7ccbd9772b65c3226086326fe4a85173e2cc4719b4fd197317268c"
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "c3c1b11b2a2fb42c8d1879c5751268d62de54b87aaecaf773f49777a52059ac0"
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "c06ce085b4d5eeff587d61aabbef4c54da0bef355b93ce30bece714ea21faf77"
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "548d6b62078500e89491e6ea2959f0da0d409192354ad491ceeee4c077581585"
+      }
+    ],
+    "provenance": {
+      "athlete": "sable-regent",
+      "canonicalSection": "J.05",
+      "clip": "layup-reverse",
+      "direction": "right",
+      "generationId": "exec-0c501619-55e8-4938-839e-9333822b496d",
+      "imageGenerationId": "exec-0c501619-55e8-4938-839e-9333822b496d",
+      "generatedAt": "2026-10-24T01:51:56.496714+00:00",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sable-regent-layup-reverse-generated-raw.png",
+      "sourceSha256": "38e3950667f22aba72d3569f6020917c03741ea3534d6acc4e58513ebcda8805",
+      "rawSourceImage": "tools/generate-art/sources/sable-regent-layup-reverse-generated-raw.png",
+      "rawSourceSha256": "38e3950667f22aba72d3569f6020917c03741ea3534d6acc4e58513ebcda8805",
+      "prompt": "Use supplied Sable Regent portrait/gameplay references for exact identity and style. Create a transparent RGBA 1536\u00d71024 sprite sheet of eight distinct complete full-body Sable reverse-layup poses in a 4-column \u00d7 2-row grid, row-major. Same warm-brown adult human woman with recognizable face, black gathered hair/red headband, black/crimson/white Blackthorn uniform, wristbands; preserve anatomy, silhouette, scale and shoes. Right-facing start. No ball, other player, rim, props, court, floor, shadow or text; separate ball is omitted. Eight-pose reverse layup: 0 approach right; 1 gather low; 2 takeoff; 3 rise and rotate shoulders away; 4 back/three-quarter view, carry empty hand behind head; 5 clear airborne reverse release with hand reaching behind/above head toward far side; 6 unwind and descend; 7 balanced landing. Frame5 is release anchor. Complete full body and ponytail visible in every cell, no cropping. Distinct poses and correct connected human limbs. Crisp limited-palette 1990s arcade pixel art, dark outlines, no glossy/3D/painterly style. True alpha-zero background, no checkerboard/matte. Return only the sprite sheet.",
+      "references": [
+        "tools/generate-art/references/sable-regent-portrait-reference.png",
+        "tools/generate-art/references/sable-regent-gameplay-reference.png"
+      ],
+      "ballTrack": {
+        "height": [
+          0.3,
+          0.35,
+          0.45,
+          0.9,
+          1.0,
+          1.0,
+          0.6,
+          0.3
+        ],
+        "forward": [
+          4,
+          6,
+          5,
+          8,
+          9,
+          10,
+          6,
+          5
+        ],
+        "notes": "Reverse layup ball carried to the far side behind Sable\u2019s head; frame5 is separate-ball release."
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Eight distinct full-body poses; reverse turn, overhead/behind-head finish and release at frame5 are visible; identity consistent, no ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 13,
+          "y": 24,
+          "w": 389,
+          "h": 459,
+          "component": 3,
+          "area": 69369
+        },
+        {
+          "sourceIndex": 1,
+          "x": 449,
+          "y": 87,
+          "w": 336,
+          "h": 411,
+          "component": 4,
+          "area": 63393
+        },
+        {
+          "sourceIndex": 2,
+          "x": 826,
+          "y": 13,
+          "w": 302,
+          "h": 499,
+          "component": 2,
+          "area": 67571
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1181,
+          "y": 4,
+          "w": 351,
+          "h": 522,
+          "component": 1,
+          "area": 64529
+        },
+        {
+          "sourceIndex": 4,
+          "x": 17,
+          "y": 488,
+          "w": 319,
+          "h": 520,
+          "component": 5,
+          "area": 62969
+        },
+        {
+          "sourceIndex": 5,
+          "x": 429,
+          "y": 537,
+          "w": 352,
+          "h": 479,
+          "component": 6,
+          "area": 62733
+        },
+        {
+          "sourceIndex": 6,
+          "x": 780,
+          "y": 568,
+          "w": 358,
+          "h": 448,
+          "component": 7,
+          "area": 61044
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1178,
+          "y": 590,
+          "w": 351,
+          "h": 420,
+          "component": 8,
+          "area": 61775
+        }
+      ],
+      "uniformScale": 0.17624521072796934,
+      "componentIsolation": true,
+      "packaging": "package-nova-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses",
+      "atlasPath": "public/assets/animation/sable-regent-layup-reverse-right.webp",
+      "atlasSha256": "eeea25be93b3ac04c556aaf6f5aa376ffced69c6664aee4f10588c5637c39502",
+      "atlasBytes": 54848
+    },
+    "ballTrack": {
+      "height": [
+        0.3,
+        0.35,
+        0.45,
+        0.9,
+        1.0,
+        1.0,
+        0.6,
+        0.3
+      ],
+      "forward": [
+        4,
+        6,
+        5,
+        8,
+        9,
+        10,
+        6,
+        5
+      ],
+      "notes": "Reverse layup ball carried to the far side behind Sable\u2019s head; frame5 is separate-ball release."
+    }
+  }
+]

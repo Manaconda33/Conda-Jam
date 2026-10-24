@@ -1,0 +1,5 @@
+# Sable Regent — pickup
+
+```text
+Use supplied Sable Regent portrait/gameplay image for identity and pixel style. Create transparent RGBA sprite sheet 1536×1024 with exactly five distinct complete full-body Sable ball-pickup poses, row-major in a 3-column by 2-row grid. Same warm-brown adult human woman, black gathered hair with red headband, individual face, Blackthorn black/crimson/white kit and wristbands, consistent human anatomy and scale. Right-facing, one Sable per cell. No basketball, props, floor, court, teammate or text: ball is separate at runtime. Five poses: 0 notice a loose ball and begin lowering into stance; 1 bend deeply at knees and waist, reach one empty hand to floor; 2 kneel/reach with fingertips at ground level; 3 clear grab-anchor, hand closes just above court and secures external ball (frame3); 4 rise with ball gathered to chest, empty hands shown as gripping the invisible ball. Keep whole hair, body, hands and shoes visible, no floor or shadow. Crisp limited-palette 1990s arcade sprite with chunky outline; no glossy, painterly or 3D style. True alpha-zero background, no checkerboard or matte. Return only the sheet.
+```

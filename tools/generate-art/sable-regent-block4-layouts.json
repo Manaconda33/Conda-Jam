@@ -1,0 +1,138 @@
+[
+  {
+    "athlete": "sable-regent",
+    "direction": "right",
+    "clip": "block",
+    "src": "./public/assets/animation/sable-regent-block-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "cc241f1676046630a2fa7fdd0adbe90f466c78a348724ab471ed6f6de7b65b4e"
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "064bba25c8a3a5eb2da39b7c06bf4c2c548673c48f953062cf5b077b69b258d9"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "220811572386aa1084ff0861046a920dbbe82ebfe0d0d2d98e78d9a56161c6b3"
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "83f3e5c9d88f72e0237eac5f189520d677bdecd3fa755acaf05cc52e04035575"
+      }
+    ],
+    "provenance": {
+      "athlete": "sable-regent",
+      "canonicalSection": "J.05",
+      "clip": "block",
+      "direction": "right",
+      "generationId": "exec-c2c11f4c-e52a-4931-a3f1-d1816cfdd6bc",
+      "imageGenerationId": "exec-c2c11f4c-e52a-4931-a3f1-d1816cfdd6bc",
+      "generatedAt": "2026-10-24T01:53:03.218855+00:00",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sable-regent-block-generated-raw.png",
+      "sourceSha256": "a87ea68965ca8a1ba0ecff3f4e2acd18807cdadabba0544e3a2977ff856d0707",
+      "rawSourceImage": "tools/generate-art/sources/sable-regent-block-generated-raw.png",
+      "rawSourceSha256": "a87ea68965ca8a1ba0ecff3f4e2acd18807cdadabba0544e3a2977ff856d0707",
+      "prompt": "Use the supplied Sable Regent portrait/gameplay references for canon identity and style. Create transparent RGBA 1536\u00d71024 sprite sheet with four distinct complete full-body Sable defensive shot-block poses in a 2\u00d72 row-major grid. Same warm-brown tall adult human woman, black gathered hair/red headband, individual face, black/crimson/white Blackthorn uniform and wristbands, complete natural anatomy. Right-facing, consistent scale. No basketball, hoop, opponent, teammates or floor; ball is separate at runtime and hands empty. Four poses: 0 crouched defensive ready; 1 takeoff with both arms rising; 2 block apex anchor, high jump with one or both hands fully extended overhead to contest an invisible shot; 3 descend and land in a defensive stance. All distinct, full body/hair/shoes in cells, no extra limbs or cropped fingertips. Crisp limited-palette 1990s arcade pixel art, dark outline, no glossy/3D/painterly style, transparent alpha-zero background, no shadow, checkerboard or matte. Return only sheet.",
+      "references": [
+        "tools/generate-art/references/sable-regent-portrait-reference.png",
+        "tools/generate-art/references/sable-regent-gameplay-reference.png"
+      ],
+      "ballTrack": {
+        "height": [
+          0.5,
+          1.35,
+          2.0,
+          0.75
+        ],
+        "forward": [
+          5,
+          7,
+          9,
+          7
+        ],
+        "notes": "Separate ball rises into reach at the frame2 apex; block pose meets target hand while ball stays independent."
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Four distinct complete Sable poses; jump, apex extension and landing read clearly. Black/crimson/white uniform and warm-brown face/headband match her refs; no ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 265,
+          "y": 101,
+          "w": 457,
+          "h": 421,
+          "component": 2,
+          "area": 75596
+        },
+        {
+          "sourceIndex": 1,
+          "x": 866,
+          "y": 7,
+          "w": 467,
+          "h": 549,
+          "component": 1,
+          "area": 82852
+        },
+        {
+          "sourceIndex": 2,
+          "x": 278,
+          "y": 471,
+          "w": 485,
+          "h": 540,
+          "component": 3,
+          "area": 82139
+        },
+        {
+          "sourceIndex": 3,
+          "x": 896,
+          "y": 606,
+          "w": 428,
+          "h": 403,
+          "component": 4,
+          "area": 67666
+        }
+      ],
+      "uniformScale": 0.16757741347905283,
+      "componentIsolation": true,
+      "packaging": "package-nova-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original block poses",
+      "atlasPath": "public/assets/animation/sable-regent-block-right.webp",
+      "atlasSha256": "7c4073db573be29a98b80bdbc65c8f0cd42505ec1a694e85d7cdb7de1c759b7e",
+      "atlasBytes": 28772
+    },
+    "ballTrack": {
+      "height": [
+        0.5,
+        1.35,
+        2.0,
+        0.75
+      ],
+      "forward": [
+        5,
+        7,
+        9,
+        7
+      ],
+      "notes": "Separate ball rises into reach at the frame2 apex; block pose meets target hand while ball stays independent."
+    }
+  }
+]

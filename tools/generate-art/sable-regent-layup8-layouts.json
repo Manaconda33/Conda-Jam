@@ -1,0 +1,218 @@
+[
+  {
+    "athlete": "sable-regent",
+    "direction": "right",
+    "clip": "layup",
+    "src": "./public/assets/animation/sable-regent-layup-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "dc7f7587b844ea20cbab04ae287adaf98427982c55d53f696d88cf48fe7fab1a"
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "338996d997a917a309fc21134b0f9786b442f84c56700d546638f10a885fc131"
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "0bff9ed8231548cc6bb3b94c0b9ae1d9c97ab804e48df572fdf6f873ff8efc45"
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "80e9c288a51670d0dfec47bb86b0a444c9e7373e81e09af5bb2b36ea07828236"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "00e4078259bd00e624be1af0b4bc1c882155672ff4855b66d06d7555d85895f8"
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "c81bfc956500513fb7f6951b3787a56a573be9f5fa3870d9ff13a074474832f9"
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "259ffa547524e5d85a9255d9193495ab04ac76f0de92c593c0e359f9e16f2d70"
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "028a9202d612124a2942b25bf344330f2bf6a650817cbaea3ed61e1092d7b2a7"
+      }
+    ],
+    "provenance": {
+      "athlete": "sable-regent",
+      "canonicalSection": "J.05",
+      "clip": "layup",
+      "direction": "right",
+      "generationId": "exec-962ff142-ae96-4598-8553-caabbb1cdf89",
+      "imageGenerationId": "exec-962ff142-ae96-4598-8553-caabbb1cdf89",
+      "generatedAt": "2026-10-24T01:50:49.803277+00:00",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sable-regent-layup-generated-raw.png",
+      "sourceSha256": "13adb3bebfc7db0c7262b66b7d21ba77fd779af3a58d5b3fd1401efe52c96db6",
+      "rawSourceImage": "tools/generate-art/sources/sable-regent-layup-generated-raw.png",
+      "rawSourceSha256": "13adb3bebfc7db0c7262b66b7d21ba77fd779af3a58d5b3fd1401efe52c96db6",
+      "prompt": "Use the supplied Sable Regent portrait/gameplay references for exact identity and 1990s sprite style. Produce a true transparent RGBA 1536\u00d71024 sheet of exactly eight distinct complete full-body Sable basketball layup poses, in 4 columns by 2 rows, row-major. Same warm-brown athletic adult woman, individual face, black gathered hair/red headband, black/crimson/white uniform and wristbands. Preserve face, body, silhouette, outfit, consistent scale/anatomy. Right-facing, one figure per cell. No basketball, hoop, teammate, court, floor, shadow or prop: separate runtime ball, empty hand. 8 poses: 0 approach to basket; 1 accelerate; 2 takeoff begins, one knee rises; 3 leap toward rim; 4 high airborne one-hand layup release pose at frame4 with hand fully extended to right/front at head height; 5 hold follow-through; 6 descend; 7 land and recover. Clear smooth approach-to-leap trajectory. Keep complete figure, hair, hands, shoes all inside cell, no cropped arms. Distinct poses. Crisp limited-palette 1990s arcade pixel art, strong dark outline, not glossy/painterly/3D. Transparent alpha-zero background, no checkerboard/matte. Return only sheet.",
+      "references": [
+        "tools/generate-art/references/sable-regent-portrait-reference.png",
+        "tools/generate-art/references/sable-regent-gameplay-reference.png"
+      ],
+      "ballTrack": {
+        "height": [
+          0.3,
+          0.35,
+          0.5,
+          0.9,
+          1.1,
+          0.95,
+          0.5,
+          0.2
+        ],
+        "forward": [
+          4,
+          6,
+          8,
+          10,
+          13,
+          11,
+          8,
+          5
+        ],
+        "notes": "High right-hand layup path; separate ball reaches the fingertips at frame4 release."
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Eight distinct complete poses reviewed; rightward running approach, takeoff and airborne release at frame4; identity retained, no ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 35,
+          "y": 110,
+          "w": 327,
+          "h": 389,
+          "component": 3,
+          "area": 56005
+        },
+        {
+          "sourceIndex": 1,
+          "x": 409,
+          "y": 110,
+          "w": 367,
+          "h": 388,
+          "component": 4,
+          "area": 58625
+        },
+        {
+          "sourceIndex": 2,
+          "x": 843,
+          "y": 69,
+          "w": 307,
+          "h": 433,
+          "component": 2,
+          "area": 57660
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1174,
+          "y": 23,
+          "w": 351,
+          "h": 479,
+          "component": 1,
+          "area": 60625
+        },
+        {
+          "sourceIndex": 4,
+          "x": 45,
+          "y": 522,
+          "w": 423,
+          "h": 477,
+          "component": 5,
+          "area": 59737
+        },
+        {
+          "sourceIndex": 5,
+          "x": 472,
+          "y": 546,
+          "w": 354,
+          "h": 424,
+          "component": 6,
+          "area": 54143
+        },
+        {
+          "sourceIndex": 6,
+          "x": 862,
+          "y": 572,
+          "w": 327,
+          "h": 427,
+          "component": 7,
+          "area": 57385
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1239,
+          "y": 593,
+          "w": 270,
+          "h": 395,
+          "component": 8,
+          "area": 57142
+        }
+      ],
+      "uniformScale": 0.19206680584551147,
+      "componentIsolation": true,
+      "packaging": "package-nova-action8.py; 96x96 cells; baseline94; lossless WebP; 8 original layup poses",
+      "atlasPath": "public/assets/animation/sable-regent-layup-right.webp",
+      "atlasSha256": "57e7b0c0bbc7abf4d3be6c33f11d99373a76efbcfd61e08dc036dd19810bc37b",
+      "atlasBytes": 56054
+    },
+    "ballTrack": {
+      "height": [
+        0.3,
+        0.35,
+        0.5,
+        0.9,
+        1.1,
+        0.95,
+        0.5,
+        0.2
+      ],
+      "forward": [
+        4,
+        6,
+        8,
+        10,
+        13,
+        11,
+        8,
+        5
+      ],
+      "notes": "High right-hand layup path; separate ball reaches the fingertips at frame4 release."
+    }
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "athlete": "sable-regent",
+  "canonicalSection": "J.05",
+  "clip": "block",
+  "direction": "right",
+  "generationId": "exec-c2c11f4c-e52a-4931-a3f1-d1816cfdd6bc",
+  "imageGenerationId": "exec-c2c11f4c-e52a-4931-a3f1-d1816cfdd6bc",
+  "generatedAt": "2026-10-24T01:53:03.218855+00:00",
+  "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sable-regent-block-generated-raw.png",
+  "sourceSha256": "a87ea68965ca8a1ba0ecff3f4e2acd18807cdadabba0544e3a2977ff856d0707",
+  "rawSourceImage": "tools/generate-art/sources/sable-regent-block-generated-raw.png",
+  "rawSourceSha256": "a87ea68965ca8a1ba0ecff3f4e2acd18807cdadabba0544e3a2977ff856d0707",
+  "prompt": "Use the supplied Sable Regent portrait/gameplay references for canon identity and style. Create transparent RGBA 1536\u00d71024 sprite sheet with four distinct complete full-body Sable defensive shot-block poses in a 2\u00d72 row-major grid. Same warm-brown tall adult human woman, black gathered hair/red headband, individual face, black/crimson/white Blackthorn uniform and wristbands, complete natural anatomy. Right-facing, consistent scale. No basketball, hoop, opponent, teammates or floor; ball is separate at runtime and hands empty. Four poses: 0 crouched defensive ready; 1 takeoff with both arms rising; 2 block apex anchor, high jump with one or both hands fully extended overhead to contest an invisible shot; 3 descend and land in a defensive stance. All distinct, full body/hair/shoes in cells, no extra limbs or cropped fingertips. Crisp limited-palette 1990s arcade pixel art, dark outline, no glossy/3D/painterly style, transparent alpha-zero background, no shadow, checkerboard or matte. Return only sheet.",
+  "references": [
+    "tools/generate-art/references/sable-regent-portrait-reference.png",
+    "tools/generate-art/references/sable-regent-gameplay-reference.png"
+  ],
+  "ballTrack": {
+    "height": [
+      0.5,
+      1.35,
+      2.0,
+      0.75
+    ],
+    "forward": [
+      5,
+      7,
+      9,
+      7
+    ],
+    "notes": "Separate ball rises into reach at the frame2 apex; block pose meets target hand while ball stays independent."
+  },
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Four distinct complete Sable poses; jump, apex extension and landing read clearly. Black/crimson/white uniform and warm-brown face/headband match her refs; no ball."
+  },
+  "eligibleForPacking": true,
+  "separateBall": true,
+  "atlasPath": "public/assets/animation/sable-regent-block-right.webp",
+  "atlasSha256": "7c4073db573be29a98b80bdbc65c8f0cd42505ec1a694e85d7cdb7de1c759b7e",
+  "atlasBytes": 28772
+}
