@@ -23,6 +23,7 @@
 - `npm run test:e2e`: PASS —standalone offline startup, settings and dialogs, controls, touch, substitutions, actions, nonhuman matchups, full default-length match and season progression in Chromium. E2E screenshots were restored after review.
 - Keeg J.105 generation review: five candidates rejected; three new candidates saved with prompt/source/provenance records and black/white grid previews. Rejected images were not cleaned, packed, or registered. No accepted scythe atlas exists.
 - Refreshed strict report-only audit:667 clips /5,859 authored drawings /105 athletes;2,436 missing clips,3 target shortfalls,4 inherited prompt findings. Issue #3 remains incomplete.
+- Commit `7975575` is pushed to `main`; the Pages push filter does not include docs/tests/art metadata, so no deployment run was created. The latest runtime remains run #157 (`31224b3`), which passed.
 
 # QA report
 
