@@ -441,6 +441,8 @@ try:
         mobile.select_option('#quarter','60')
         mobile.click('#play')
         assert mobile.locator('.touch-controls').is_visible()
+        assert mobile.locator('#game').evaluate("canvas=>getComputedStyle(canvas).objectFit")=='contain','portrait gameplay must letterbox the full court instead of cropping its sides'
+        mobile.screenshot(path=str(OUT/'mobile-court.png'))
         before=mobile.evaluate('window.jamverse.state.players[0].x')
         right=mobile.locator('[data-touch="right"]');box=right.bounding_box()
         mobile.mouse.move(box['x']+box['width']/2,box['y']+box['height']/2);mobile.mouse.down();mobile.wait_for_timeout(180);mobile.mouse.up()
@@ -451,7 +453,8 @@ try:
         mobile.wait_for_function('window.jamverse.state.players[0].fga>0',timeout=1000)
         assert mobile.evaluate('window.jamverse.state.players[0].fga')>0,'touch shoot did not register'
         leave_match(mobile);mobile.click('#settings');mobile.select_option('#touch-mode','joystick');mobile.click('#settings-dialog .dialog-button');mobile.click('#practice')
-        assert mobile.locator('.touch-stick').is_visible() and not mobile.locator('.touch-pad').is_visible(),'joystick setting should replace movement buttons on touch screens'
+        assert mobile.locator('.touch-stick').is_visible(),'joystick setting should show the movement stick on touch screens'
+        assert mobile.get_by_role('button',name='Move up').count()==1,'joystick mode must retain an accessible D-pad for screen-reader users'
         before=mobile.evaluate('window.jamverse.state.players[0].x');stickbox=mobile.locator('.touch-stick').bounding_box();sx=stickbox['x']+stickbox['width']/2;sy=stickbox['y']+stickbox['height']/2
         mobile.mouse.move(sx,sy);mobile.mouse.down();mobile.mouse.move(sx+28,sy,steps=12);mobile.wait_for_timeout(180);mobile.mouse.up()
         assert mobile.evaluate('window.jamverse.state.players[0].x')>before,'virtual joystick movement did not register'
