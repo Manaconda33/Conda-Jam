@@ -1,0 +1,58 @@
+{
+  "athlete": "krios",
+  "clip": "pass",
+  "direction": "right",
+  "canonicalSection": "J.06",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-2b11ec80-12af-47c1-ae05-a2a705cf9b25",
+  "imageGenerationId": "exec-2b11ec80-12af-47c1-ae05-a2a705cf9b25",
+  "rawSourceImage": "tools/generate-art/sources/krios-pass6-generated-raw.png",
+  "rawSourceSha256": "42fe93e6e464ba4a18baede6ed38e285c9699b058b5c50e6ce16cf806290995b",
+  "sourceSha256": "42fe93e6e464ba4a18baede6ed38e285c9699b058b5c50e6ce16cf806290995b",
+  "prompt": "Study the attached completed Krios basketball shot poses. Draw the SAME character, the red-skinned male giant with enormous curled black ram horns, heavy dark charcoal beard, hulking red arms, black Scoria Rams uniform with orange/gold trim and black boots. Do not substitute a long-haired man, a human without horns, or a different team. Keep these defining traits on all six figures.\n\nSix full-body Krios chest-pass frames in a strict 3-column \u00d7 2-row grid. True transparent background only, no glow, no gradient, no background, floor, court, hoop, prop, words or other player. Do not draw a ball; game draws a separate ball. Each complete pose isolated with visible spacing. Clean outlined JAMVERSE '96 arcade sprite art.\n\n0 wide stance hands down; 1 hands rise and gather invisible pass at chest; 2 elbows point forward as he aims; 3 both empty hands thrust forward for pass release; 4 arms extended in follow-through; 5 hands return and he recovers to stance. Six different continuous poses; retain Krios's curved horns, dark beard, huge muscular bright-red body, and ember-trimmed dark uniform in every frame.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-bd4af4d4-34e8-4379-ad24-594842a49409",
+      "source": "tools/generate-art/sources/krios-pass-attempt1-rejected.png",
+      "reason": "Changed Krios to a light-skinned long-haired human without horns or beard; only five poses appeared."
+    }
+  ],
+  "references": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-dribble-right.webp",
+    "public/assets/captain-gameplay-sprites.png"
+  ],
+  "historicalSourceAvailability": "Original 42-pose input and cleaned sheet referenced by krios-locomotion42-final-provenance.json are unavailable in current workspace; compiled Krios atlases and captain crop were used as identity references.",
+  "mirrorEligible": true,
+  "ballPolicy": "Krios-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 6.",
+  "ballTrack": {
+    "height": [
+      1.05,
+      1.15,
+      1.4,
+      1.5,
+      1.35,
+      1.05
+    ],
+    "forward": [
+      8.0,
+      9.0,
+      11.0,
+      13.0,
+      12.0,
+      8.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-krios-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "6 distinct complete Krios pass poses. bright volcanic-red skin, towering muscular giant anatomy, huge black ram horns, dark beard and black/ember Scoria Rams kit remain consistent. The separate Krios ball follows the documented pass track."
+  }
+}

@@ -1,0 +1,9 @@
+## Verbatim image-generation prompt
+
+```text
+Create exactly ten unique complete full-body action poses of Krios in a true-transparent RGBA JAMVERSE '96 sprite sheet, five columns by two rows, row-major. Use attached existing Krios locomotion art as the exact character and style reference. Krios is a towering male horned giant with enormously broad muscular build, bright volcanic-red skin, a pair of huge near-black curled ram horns, a wild dark charcoal beard, fierce intelligent face, black/charcoal Scoria Rams basketball kit with ember-red and gold trim, heavy rugged dark basketball boots. Preserve same Krios identity, dark beard, black horns, red body, kit and towering proportions in every frame. Natural bipedal giant anatomy: two arms, two hands, two legs, two boots.
+
+Basketball jump shot sequence, right-facing. The basketball is a separate Krios-specific game object and must NOT be painted into the sprites. His hands mime it only. No other player, ball, hoop, court, floor, shadows, backdrop, lighting effects, text, logo, number, border, panel or grid lines. Only ten isolated full-body Krios poses on transparent pixels. Crisp bold-outlined 1990s arcade pixel art; leave generous transparent margins around horns, hands and boots, no cropping.
+
+0 establishes wide balanced stance, hands ready; 1 bends knees and brings empty hands to waist; 2 gathers invisible ball at chest; 3 crouches deeper, elbows set; 4 rises, lifting both empty hands toward forehead; 5 jumps slightly and releases imaginary ball from strong right hand overhead; 6 right arm follows through, other hand guides; 7 reaches full follow-through; 8 descends to a wide balanced landing; 9 recovers to stance. Ten clearly different connected poses; ball entirely absent; preserve Krios’s huge horns and beard in all frames.
+```

@@ -6,6 +6,8 @@ Dorian Mycel has a completed **source-only** set covering all29 runtime keys: th
 
 Moxie, Accu, Nova Stitch and Echo Catwalk each have complete **source-only** packages covering all29 runtime keys. Their new source atlases add251 poses for Moxie and241 poses each for Accu, Nova and Echo; source hashes, prompts, layouts, provenance, distinct visible crops and separate-ball records were verified. These are committed but not included in the registered totals until roster-order integration after Keeg.
 
+Additional source-only checkpoints: Marco Vellum is at9/29 source clips with an accepted `pass-behind` atlas; Krios is at8/29 with `shoot`, `pass` and `pass-overhead` source packages (not registered in the runtime manifest); Sable Regent is at15/29 with `steal`. Keeg J.104 `dunk-clutch` has15 authored poses and awaits roster-order integration; it is not in the strict registered count yet.
+
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
 | manaconda | 29 | 293 | 1,305,626 |

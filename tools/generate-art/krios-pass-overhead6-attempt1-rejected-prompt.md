@@ -1,0 +1,9 @@
+## Verbatim image-generation prompt
+
+```text
+Create exactly six unique full-body action drawings as one clean transparent sprite sheet, three columns by two rows, read left to right and top to bottom. Use the attached Krios art as the exact character identity and style reference. Krios is the same enormous muscular red-skinned male giant, with huge curled black ram horns, wild dark beard, broad hulking shoulders and arms, black charcoal basketball uniform with ember red and gold trim, black rugged basketball boots. Keep his exact visible identity consistent in every pose. Natural two arms, two hands, two legs, two boots. Right-facing three-quarter profile, readable silhouette.
+
+This is Krios performing a two-handed overhead basketball pass. The basketball is a separate game object and must not appear in any drawing; no prop. His empty hands mime the ball until pass release. Six distinct connected poses with generous transparent spacing: pose 0 strong wide stance, hands low and ready; pose 1 knees bend and both hands gather the invisible ball at chest; pose 2 elbows and hands raise the invisible ball above his forehead; pose 3 deepest overhead windup, hands clearly above the horns and elbows bent; pose 4 both arms thrust up and forward in the overhead pass release, hands open and empty; pose 5 arms finish extended forward-up, then lower as he recovers to stance. Ensure pose 4 is visibly distinct from pose 3 and pose 5.
+
+Only six complete Krios figures. True transparent background, crisp outlined arcade pixel-art sprite style matching references. No ball, no court, no floor, no shadow, no hoop, no other person, no text, no numbers, no logos, no borders, no panel dividers, no checkerboard, no glow, no background color. Keep all horns, hands, boots and whole bodies within their grid cells, no cropping. Keep roomy clear gutters between figures. One pose per cell, no duplicates.
+```

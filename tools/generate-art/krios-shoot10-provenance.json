@@ -1,0 +1,60 @@
+{
+  "athlete": "krios",
+  "clip": "shoot",
+  "direction": "right",
+  "canonicalSection": "J.06",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-68107d68-d2a7-441d-bcc2-e783ef9f4d65",
+  "imageGenerationId": "exec-68107d68-d2a7-441d-bcc2-e783ef9f4d65",
+  "rawSourceImage": "tools/generate-art/sources/krios-shoot10-generated-raw.png",
+  "rawSourceSha256": "b89eb2dd5ee73540b1fae8d72a6868c19b038cfc671ef7140f275fc941a44d97",
+  "sourceSha256": "b89eb2dd5ee73540b1fae8d72a6868c19b038cfc671ef7140f275fc941a44d97",
+  "prompt": "Create exactly ten unique complete full-body action poses of Krios in a true-transparent RGBA JAMVERSE '96 sprite sheet, five columns by two rows, row-major. Use attached existing Krios locomotion art as the exact character and style reference. Krios is a towering male horned giant with enormously broad muscular build, bright volcanic-red skin, a pair of huge near-black curled ram horns, a wild dark charcoal beard, fierce intelligent face, black/charcoal Scoria Rams basketball kit with ember-red and gold trim, heavy rugged dark basketball boots. Preserve same Krios identity, dark beard, black horns, red body, kit and towering proportions in every frame. Natural bipedal giant anatomy: two arms, two hands, two legs, two boots.\n\nBasketball jump shot sequence, right-facing. The basketball is a separate Krios-specific game object and must NOT be painted into the sprites. His hands mime it only. No other player, ball, hoop, court, floor, shadows, backdrop, lighting effects, text, logo, number, border, panel or grid lines. Only ten isolated full-body Krios poses on transparent pixels. Crisp bold-outlined 1990s arcade pixel art; leave generous transparent margins around horns, hands and boots, no cropping.\n\n0 establishes wide balanced stance, hands ready; 1 bends knees and brings empty hands to waist; 2 gathers invisible ball at chest; 3 crouches deeper, elbows set; 4 rises, lifting both empty hands toward forehead; 5 jumps slightly and releases imaginary ball from strong right hand overhead; 6 right arm follows through, other hand guides; 7 reaches full follow-through; 8 descends to a wide balanced landing; 9 recovers to stance. Ten clearly different connected poses; ball entirely absent; preserve Krios\u2019s huge horns and beard in all frames.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Krios-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 10.",
+  "ballTrack": {
+    "height": [
+      1.05,
+      1.2,
+      1.45,
+      1.65,
+      1.95,
+      2.35,
+      2.1,
+      1.8,
+      1.3,
+      1.0
+    ],
+    "forward": [
+      7.0,
+      8.0,
+      9.0,
+      9.0,
+      10.0,
+      12.0,
+      11.0,
+      9.0,
+      7.0,
+      6.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-krios-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "10 distinct complete Krios shoot poses. bright volcanic-red skin, towering muscular giant anatomy, huge black ram horns, dark beard and black/ember Scoria Rams kit remain consistent. The separate Krios ball follows the documented shoot track."
+  },
+  "references": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-dribble-right.webp",
+    "public/assets/captain-gameplay-sprites.png"
+  ],
+  "historicalSourceAvailability": "Original 42-pose input and cleaned sheet referenced by krios-locomotion42-final-provenance.json are unavailable in current workspace; compiled Krios atlases and captain crop were used as identity references."
+}

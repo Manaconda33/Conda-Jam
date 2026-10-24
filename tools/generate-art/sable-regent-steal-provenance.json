@@ -1,0 +1,138 @@
+{
+  "athlete": "sable-regent",
+  "canonicalSection": "J.05",
+  "clip": "steal",
+  "direction": "right",
+  "generationId": "exec-7d5fb2fd-c25e-43a4-920b-f5a8f26eee83",
+  "imageGenerationId": "exec-7d5fb2fd-c25e-43a4-920b-f5a8f26eee83",
+  "generatedAt": "2026-10-24",
+  "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sable-regent-steal-retry.png",
+  "sourceSha256": "1429f16019b521c60f4c285fee12db3ac193722acf2a175d1ad626fe982351c8",
+  "rawSourceImage": "tools/generate-art/sources/sable-regent-steal-retry-generated-raw.png",
+  "rawSourceSha256": "7971731faf71ad00089b376a556327d885b4c31b135db73c7e87c624d8263175",
+  "prompt": "tools/generate-art/sable-regent-steal-prompt.md#exact-generation-prompt",
+  "exactPrompt": "Correct this sprite sheet into a production-ready transparent RGBA sprite sheet, 1536x1024, 4 columns by 2 rows, exactly eight distinct complete full-body right-facing poses in row-major order. Preserve the exact Sable Regent identity and crisp 1990s arcade pixel-art look. She is the same warm-brown adult human woman with black gathered curls, a red headband, black/crimson/white Blackthorn kit, wristbands, knee pads and shoes. No two figures may touch; give every pose generous transparent margins inside its own cell, especially separate the two top-right figures that are currently connected. Poses: defensive ready, lower/reach, low lunge, low right-hand steal anchor, gather, turn/rise, recover, reset. No basketball, opponent, words, floor, shadow, glow or matte. Keep all anatomy intact. Return only the corrected sheet.",
+  "references": [
+    "tools/generate-art/references/sable-regent-portrait-reference.png",
+    "tools/generate-art/references/sable-regent-gameplay-reference.png"
+  ],
+  "cleanup": {
+    "script": "tools/generate-art/clean-sable-regent-steal.py",
+    "method": "Removed the exterior neutral gray checkerboard via boundary-connected color mask (chroma <= 30, mean RGB >= 125); preserved figure pixels.",
+    "exteriorPixelsRemoved": 1087270,
+    "sourceImageSha256": "1429f16019b521c60f4c285fee12db3ac193722acf2a175d1ad626fe982351c8"
+  },
+  "ballTrack": {
+    "height": [
+      1.1,
+      0.8,
+      0.45,
+      0.2,
+      0.7,
+      1.0,
+      1.0,
+      0.8
+    ],
+    "forward": [
+      6,
+      8,
+      10,
+      12,
+      9,
+      7,
+      6,
+      6
+    ],
+    "notes": "The separate ball enters Sable\u2019s low forward reach at grab frame3, then follows her gather."
+  },
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Eight distinct full-body poses, confirmed as separate components and checked on white and black backgrounds. Sable remains an adult human woman with warm-brown skin, black gathered hair/red headband and black/crimson/white Blackthorn kit. No basketball or opponent is drawn."
+  },
+  "eligibleForPacking": true,
+  "separateBall": true,
+  "sourceRects": [
+    {
+      "sourceIndex": 0,
+      "x": 15,
+      "y": 103,
+      "w": 355,
+      "h": 403,
+      "component": 1,
+      "area": 60784
+    },
+    {
+      "sourceIndex": 1,
+      "x": 422,
+      "y": 159,
+      "w": 347,
+      "h": 347,
+      "component": 2,
+      "area": 56023
+    },
+    {
+      "sourceIndex": 2,
+      "x": 785,
+      "y": 171,
+      "w": 408,
+      "h": 338,
+      "component": 3,
+      "area": 58934
+    },
+    {
+      "sourceIndex": 3,
+      "x": 1187,
+      "y": 198,
+      "w": 342,
+      "h": 309,
+      "component": 4,
+      "area": 52916
+    },
+    {
+      "sourceIndex": 4,
+      "x": 15,
+      "y": 565,
+      "w": 373,
+      "h": 411,
+      "component": 8,
+      "area": 66383
+    },
+    {
+      "sourceIndex": 5,
+      "x": 432,
+      "y": 541,
+      "w": 320,
+      "h": 438,
+      "component": 6,
+      "area": 63133
+    },
+    {
+      "sourceIndex": 6,
+      "x": 784,
+      "y": 542,
+      "w": 340,
+      "h": 428,
+      "component": 7,
+      "area": 62574
+    },
+    {
+      "sourceIndex": 7,
+      "x": 1162,
+      "y": 572,
+      "w": 361,
+      "h": 410,
+      "component": 9,
+      "area": 64845
+    }
+  ],
+  "uniformScale": 0.2100456621004566,
+  "componentIsolation": true,
+  "packaging": "package-nova-action8.py; 96x96 cells; baseline94; lossless WebP; 8 original steal poses",
+  "atlasPath": "public/assets/animation/sable-regent-steal-right.webp",
+  "atlasSha256": "e1f0d072452d0d8d5c73989e73e3752210fe7a9ef9cac69b6625b53b6874cdc5",
+  "atlasBytes": 69542,
+  "previewPaths": [
+    "tools/generate-art/sable-regent-steal-preview-standard.png",
+    "tools/generate-art/sable-regent-steal-preview-zoom120.png"
+  ]
+}

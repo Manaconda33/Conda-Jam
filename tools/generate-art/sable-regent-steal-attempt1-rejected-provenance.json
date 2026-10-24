@@ -1,0 +1,48 @@
+{
+  "athlete": "sable-regent",
+  "canonicalSection": "J.05",
+  "clip": "steal",
+  "direction": "right",
+  "generationId": "exec-612234e3-d258-4d6d-b426-f3933702fa29",
+  "imageGenerationId": "exec-612234e3-d258-4d6d-b426-f3933702fa29",
+  "generatedAt": "2026-10-24T01:54:05.281510+00:00",
+  "sourceImage": "tools/generate-art/sources/sable-regent-steal-generated-raw.png",
+  "sourceSha256": "254f33d305e17fa50541f9c9161447bdf18cf4472c43bdddb964c946165c8593",
+  "rawSourceImage": "tools/generate-art/sources/sable-regent-steal-generated-raw.png",
+  "rawSourceSha256": "254f33d305e17fa50541f9c9161447bdf18cf4472c43bdddb964c946165c8593",
+  "prompt": "Use supplied Sable Regent portrait/gameplay images as exact identity/style reference. Create a transparent RGBA 1536\u00d71024 sprite sheet with eight distinct complete full-body right-facing Sable ball-steal poses in a 4\u00d72 row-major grid. Keep same warm-brown adult human woman, recognizable face, black gathered hair/red headband, Blackthorn black/crimson/white uniform, wristbands and shoes. Preserve human anatomy and silhouette. One Sable per cell. No basketball or other player; the ball is separate at runtime and there is no opponent in the sheet. Action: 0 defensive ready; 1 lower and reach toward an unseen loose dribble; 2 lunge forward, right hand sweeps low toward the floor; 3 steal anchor pose with hand at ball height, fingers reaching to intercept (grab frame3); 4 pull invisible ball toward her torso; 5 turn and rise; 6 recover control in balanced stance; 7 reset. Clearly athletic defensive lunge, all eight poses distinct and complete, hair/body/shoes inside every cell. Crisp limited-palette 1990s arcade pixel art with strong outline, not painterly, glossy or 3D. Transparent alpha-zero background, no checkerboard/matte/ground/shadow/text. Return only sheet.",
+  "references": [
+    "tools/generate-art/references/sable-regent-portrait-reference.png",
+    "tools/generate-art/references/sable-regent-gameplay-reference.png"
+  ],
+  "ballTrack": {
+    "height": [
+      1.1,
+      0.8,
+      0.45,
+      0.2,
+      0.7,
+      1.0,
+      1.0,
+      0.8
+    ],
+    "forward": [
+      6,
+      8,
+      10,
+      12,
+      9,
+      7,
+      6,
+      6
+    ],
+    "notes": "The separate ball enters Sable\u2019s low forward reach at grab frame3, then follows her gather."
+  },
+  "review": {
+    "status": "rejected",
+    "reviewNotes": "The accepted-looking initial sheet had only seven isolated bodies: top-row steal poses 2 and 3 touch as one connected component. The eight-pose packer rejected it. Preserved unchanged as rejected source history; do not pack."
+  },
+  "eligibleForPacking": false,
+  "separateBall": true,
+  "rejectionReason": "Initial generated sheet failed source isolation: poses 2 and 3 touch, leaving seven distinct full-body components."
+}
