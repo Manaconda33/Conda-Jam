@@ -9,6 +9,7 @@
 - `npm run build`: PASS — static browser bundle and standalone offline page.
 - `npm run test:e2e`: PASS — Chromium standalone offline startup, controls, co-op, touch, substitutions, actions, full match and season progression.
 - The browser regression closes a pending keyboard rebind with both × and Save, reopens Settings, and confirms the next key does not change or consume the binding.
+- Strict report-only asset audit refreshed: 667 clips / 5,859 authored drawings / 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings. The audit is current but the animation assignment remains incomplete.
 - The J.104 animation audit counts are unchanged. Gameplay commits `8dc07d6` and `6a202ea` plus source-only atlases and the verification-gated build are deployed in Pages run #153: https://github.com/Manaconda33/Conda-Jam/actions/runs/40095638836. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=2422cce.
 
 ## J.104 Keeg `dunk-clutch` art checkpoint (Pages run #145)
