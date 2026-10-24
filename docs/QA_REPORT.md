@@ -1,6 +1,6 @@
 # QA report
 
-## Latest validated checkpoint — J.96 (2026-10-23; local, push pending)
+## Latest validated checkpoint — J.96 (2026-10-24; pushed and deployed)
 
 - `npm test`: PASS —402 tests, zero failures; includes static offline build.
 - `npm run lint`: PASS —18 JavaScript modules.
@@ -11,7 +11,7 @@
 - `npm run test:e2e`: PASS —Chromium offline startup, settings, controls, co-op, touch, matchups, full match and season progression.
 - Strict audit: expected INCOMPLETE —659 clips /5,746 authored drawings across105 athletes,2,444 missing clips,3 target shortfalls and4 inherited prompt findings.
 - Keeg standard and zoom120 previews each loaded162 images and rendered87 clip snapshots /452 action frames. All eight layup poses select production art in both facings; Keeg carries the separate ball through tick8 and releases at tick10.
-- J.95 `d2225b9` Pages run #133 succeeded. J.96 is ready for checkpoint push and deployment.
+- J.96 `3dafc35` Pages run #134 succeeded: https://github.com/Manaconda33/Conda-Jam/actions/runs/40042748188. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3dafc35.
 
 ## Environment
 
