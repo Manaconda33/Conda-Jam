@@ -4,7 +4,7 @@
   "direction": "right",
   "canonicalSection": "K.03",
   "eligibleForPacking": false,
-  "status": "five-candidates-rejected",
+  "status": "six-candidates-rejected",
   "generatedAt": "2026-10-24",
   "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-prompt.md",
   "promptVerbatim": true,
@@ -67,6 +67,14 @@
       "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-05-prompt.md",
       "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-05-review.png",
       "reason": "Gather poses1 and2 still contain a visible basketball; silhouette margins miss 50 pixels in every row, with several edge-touching figures."
+    },
+    {
+      "generationId": "exec-e23e2309-e986-4152-a33c-af879b24711d",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-attempt-06-review.png",
+      "sourceSha256": "e98e933d35f88566966deffa45340e8faae8a81bc58fcf9aad24c5473448a873",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-06-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-06-review.png",
+      "reason": "Two nontransparent outer-edge pixels; every cell fails the 85-pixel vertical margin and several poses have zero top or bottom clearance; gather poses1 and2 contain a visible basketball."
     }
   ],
   "ballPolicy": "The game basketball is separately rendered. It follows Keeg's ball-miming hand through the low rear hip sweep and diagonal rise, releases at pose10/tick21, and is not painted into the drawings.",
@@ -75,5 +83,5 @@
     "height": [0.95, 1.1, 1.2, 0.95, 0.8, 0.75, 0.95, 1.4, 2.0, 2.5, 2.4, 2.0, 1.35, 0.7, 0.55],
     "forward": [6, 7, 4, -2, -8, -10, -5, -1, 4, 10, 13, 10, 8, 5, 6]
   },
-  "nextAction": "Revise generation/recomposition approach to prevent painted basketballs and enforce complete-pose cell margins; accept no source until alpha, pose separation, anatomy, sequence, and margins pass review."
+  "nextAction": "Change generation method or reference composition because prompt-only retries continue to repeat oversize poses and painted gather balls; accept no source until alpha, pose separation, anatomy, sequence, and margins pass review."
 }

@@ -6,7 +6,7 @@ SOURCE_DIR = ROOT / 'tools' / 'generate-art' / 'sources'
 PREVIEW_DIR = ROOT / 'artifacts' / 'native-render-preview'
 PREVIEW_DIR.mkdir(parents=True, exist_ok=True)
 
-for attempt in range(1, 6):
+for attempt in range(1, 7):
     source = SOURCE_DIR / f'j105-keeg-dunk-scythe-attempt-{attempt:02d}-rejected.png'
     if attempt >= 3:
         source = SOURCE_DIR / f'j105-keeg-dunk-scythe-attempt-{attempt:02d}-review.png'
