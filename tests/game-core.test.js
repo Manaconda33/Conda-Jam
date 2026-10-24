@@ -376,6 +376,31 @@ test('a 24-second violation awards one inbound to the defense and resets the sho
   assert.equal(match.players.find(p=>p.hasBall).team,1);
 });
 
+test('a pass still in flight at 24 seconds gives the defense one inbound', () => {
+  const match=createMatch({quarterSeconds:60,seed:11});
+  const passer=match.players.find(p=>p.hasBall);
+  match.ball.mode='pass';
+  match.ball.ownerId=null;
+  match.ball.targetId=match.players.find(p=>p.team===0&&p.id!==passer.id).id;
+  match.ball.x=100;match.ball.y=50;match.ball.z=10;
+  match.ball.vx=0;match.ball.vy=0;match.ball.vz=0;
+  match.ball.lastTouch=passer.id;
+  match.shotClock=1/60;
+
+  stepMatch(match,[createInput(passer.id)]);
+
+  assert.equal(match.possession,1);
+  assert.equal(match.pendingInboundTeam,1);
+  assert.equal(match.shotClock,24);
+  assert.equal(match.ball.mode,'dead');
+  assert.equal(match.events.filter(e=>e.text==='24-second violation').length,1);
+  assert.equal(passer.turnovers,1);
+  for(let tick=0;tick<31;tick++)stepMatch(match,[]);
+  assert.equal(match.players.find(p=>p.hasBall).team,1);
+  assert.equal(passer.turnovers,1);
+  assert.equal(match.events.filter(e=>e.text==='24-second violation').length,1);
+});
+
 test('a timed defender jump can block shot flight into a loose rebound', () => {
   const match=createMatch({quarterSeconds:60,seed:1});
   match.possession=1;

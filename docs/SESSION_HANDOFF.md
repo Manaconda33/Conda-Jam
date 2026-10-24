@@ -1,5 +1,9 @@
 # Session handoff
 
+## Gameplay polish — 24-second pass expiration
+
+Fixed a possession-clock exploit where passing just before expiration could reset the clock on a catch. A carried ball or an in-flight pass now triggers one violation at zero; the turnover goes to the carrier or passer, the pass is canceled, and the opponent gets the inbound. Shots released before expiration remain live. Regression coverage passes in the 411-test suite. Lint, roster validation, 100-match simulation, build, and Chromium offline/full-match/season E2E all pass. This change does not alter animation assets or the J.104 art checkpoint. The validated gameplay change is checkpointed separately from roster art progress.
+
 ## Latest runtime checkpoint — J.104 Keeg `dunk-clutch`; source-only assets deployed in Pages run #149
 
 J.104 adds fifteen distinct clutch-dunk poses. Keeg now has26/29 reviewed clips /258 authored drawings. The separate Keeg ball follows his two-hand overhead clutch and releases at frame10/tick21; standard and zoom120 native previews select every pose in both facings. Canon K.03 approves mirroring; Keeg remains an adult human with black hair and beard, full purple mushroom hat and purple/lavender/silver kit.

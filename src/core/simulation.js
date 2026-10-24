@@ -429,8 +429,8 @@ export function stepMatch(match, inputFrames = []) {
   if(!match.practice)match.clock=Math.max(0,match.clock-1/60);
   if(!match.practice)match.shotClock=Math.max(0,match.shotClock-1/60);
   match.possessionAge++;
-  if(match.shotClock===0&&match.ball.mode==='carried'){
-    const team=match.possession,inbound=1-team,holder=match.players.find(p=>p.team===team&&p.hasBall);if(holder)holder.turnovers++;event(match,'24-second violation');match.shotClock=24;match.ball.mode='dead';releaseOwner(match);match.scorePause=30;match.pendingInboundTeam=inbound;match.possession=inbound;match.ball.lastTouch=`team-${team}`;
+  if(match.shotClock===0&&(match.ball.mode==='carried'||match.ball.mode==='pass')){
+    const team=match.possession,inbound=1-team,holder=match.players.find(p=>p.team===team&&p.hasBall),turnoverPlayer=holder??playerById(match,match.ball.lastTouch);if(turnoverPlayer?.team===team)turnoverPlayer.turnovers++;event(match,'24-second violation');match.shotClock=24;match.ball.mode='dead';match.ball.targetId=null;match.ball.aerialTargetId=null;releaseOwner(match);match.scorePause=30;match.pendingInboundTeam=inbound;match.possession=inbound;match.ball.lastTouch=`team-${team}`;
   }
   if(!match.practice)resolvePeriod(match);
   return match;

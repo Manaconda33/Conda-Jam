@@ -1,5 +1,15 @@
 # QA report
 
+## Gameplay rules regression — 24-second expiration on in-flight passes
+
+- `npm test`: PASS — 411 tests, zero failures, including a regression proving an expired pass is canceled, the passer receives one turnover, and the opponent gets one inbound.
+- `npm run lint`: PASS — 18 JavaScript modules.
+- `npm run validate:content`: PASS — 35 franchises / 105 unique athletes / 35 canonical captains.
+- `npm run simulate:league`: PASS — 100 matches / 866,809 ticks / 9 overtime periods.
+- `npm run build`: PASS — static browser bundle and standalone offline page.
+- `npm run test:e2e`: PASS — Chromium standalone offline startup, controls, co-op, touch, substitutions, actions, full match and season progression.
+- The J.104 animation audit counts and Pages #149 art deployment below are unchanged; this gameplay-only change is tracked separately from animation progress.
+
 ## Latest runtime-validated checkpoint — J.104 Keeg `dunk-clutch` (Pages run #145)
 
 - `npm test`: PASS — 410 tests, zero failures; includes the self-contained offline build.

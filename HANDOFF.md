@@ -1,4 +1,6 @@
-## Latest runtime checkpoint — J.104 Keeg `dunk-clutch`; source-only assets deployed in Pages run #149
+## Latest runtime checkpoint — J.104 art plus shot-clock gameplay fix; source-only assets deployed in Pages run #149
+
+Gameplay polish closes a 24-second clock exploit: a pass still in flight at expiration now causes one violation, credits the passer with a turnover, cancels the pass, and awards the defense an inbound. Released shots remain live. Regression and full validation pass: 411 JavaScript tests, lint, content validation, 100-match simulation, build, and Chromium offline/full-match/season E2E. This code update is being checkpointed after the validation below; it does not change the J.104 animation asset count.
 
 J.104 adds fifteen distinct clutch-dunk poses. Keeg now has26/29 reviewed clips /258 authored drawings. The separate Keeg ball follows his two-hand overhead clutch and releases at frame10/tick21; standard and zoom120 native previews select every pose in both facings. Canon K.03 approves mirroring; Keeg remains an adult human with black hair and beard, full purple mushroom hat and purple/lavender/silver kit.
 
