@@ -1,6 +1,6 @@
 # Animation asset audit
 
-Generated: 2026-10-24T14:27:54.634Z
+Generated: 2026-10-24T14:30:13.316Z
 
 Status: **INCOMPLETE**
 

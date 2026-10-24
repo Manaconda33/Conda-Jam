@@ -131,7 +131,7 @@
       6
     ]
   },
-  "nextAction": "Continue with individually generated, separately reviewed poses 04\u201314 using the pose-component workflow. Keep each source and exact prompt. Only assemble and register a complete 15-pose clip after all cells, anatomy, pose separation, transparency and the athlete-specific separate ball track pass review.",
+  "nextAction": "Continue with individually generated, separately reviewed poses 05\u201314 using the pose-component workflow. Keep each source and exact prompt. Only assemble and register a complete 15-pose clip after all cells, anatomy, pose separation, transparency and the athlete-specific separate ball track pass review.",
   "isolatedPoseComponentTrials": [
     {
       "generationId": "exec-2a98e1db-6f68-4495-a73b-01b47cb2ddca",
@@ -227,6 +227,30 @@
       "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-03-attempt-01-cell-review.png",
       "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
       "ballTrackStatus": "no basketball painted; full separate track remains unvalidated pending poses04-14",
+      "eligibleForClipRegistration": false
+    },
+    {
+      "generationId": "exec-4ef65d88-ecde-44af-ad90-748c85d94f37",
+      "poseIndex": 4,
+      "poseName": "low-rear-hand-sweep",
+      "status": "accepted-as-isolated-pose-component; full-clip-incomplete",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-04-attempt-01.png",
+      "sourceSha256": "9077e06db94be72fccfb579ff3f1398c274502935146f4d09094bab98e7f0321",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-04-prompt.md",
+      "identityReference": "public/assets/animation/keeg-dunk-power-right.webp",
+      "sourceDimensions": [
+        1362,
+        1155
+      ],
+      "alphaBoundsThreshold16": [
+        232,
+        12,
+        1163,
+        1132
+      ],
+      "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-04-attempt-01-cell-review.png",
+      "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
+      "ballTrackStatus": "no basketball painted; full separate track remains unvalidated pending poses05-14",
       "eligibleForClipRegistration": false
     }
   ]
