@@ -10,7 +10,7 @@
 - `npm run test:e2e`: PASS — Chromium standalone offline startup, controls, co-op, touch, substitutions, actions, full match and season progression.
 - The J.104 animation audit counts and Pages #149 art deployment below are unchanged; this gameplay-only change is tracked separately from animation progress.
 
-## Latest runtime-validated checkpoint — J.104 Keeg `dunk-clutch` (Pages run #145)
+## Latest runtime-validated checkpoint — shot-clock fix on J.104 art (Pages run #150)
 
 - `npm test`: PASS — 410 tests, zero failures; includes the self-contained offline build.
 - `npm run lint`: PASS — 18 JavaScript modules.
@@ -21,7 +21,7 @@
 - `npm run test:e2e`: PASS — Chromium standalone offline startup, settings, controls, co-op, touch, matchups, full match and season progression. The first run timed out once at the combined gamepad-input wait; a diagnostic-instrumented complete rerun passed without gameplay-code changes.
 - Strict audit is intentionally report-only and remains incomplete: 667 clips / 5,859 authored drawings across 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings.
 - Keeg standard and zoom120 native previews each loaded 170 images and rendered 87 clip snapshots / 452 action frames. All 15 J.104 poses select production art in both facings; the separate ball releases at frame10/tick21.
-- J.104 `5907922` is the latest runtime-integrated game build, deployed in Pages run #145. Source-only atlas checkpoints followed; Pages run #149 successfully deployed commit `7a15408`, with no runtime-manifest changes: https://github.com/Manaconda33/Conda-Jam/actions/runs/40062077039. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=7a15408.
+- J.104 `5907922` remains the latest animation-integrated art checkpoint. Gameplay fix `8dc07d6` and the source-only atlases are deployed in Pages run #150: https://github.com/Manaconda33/Conda-Jam/actions/runs/40094915283. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=8dc07d6.
 
 ## Environment
 
