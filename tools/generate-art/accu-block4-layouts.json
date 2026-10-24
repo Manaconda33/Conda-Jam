@@ -100,7 +100,87 @@
       ],
       "uniformScale": 0.18969072164948453,
       "componentIsolation": true,
-      "packaging": "package-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original block poses"
-    }
+      "packaging": "package-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original block poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-accu-package.py",
+        "previousAtlasSha256": "d19737b26cabf4bd672d51cb36f084d25b6095909b6ae3600204d811c63b9aa2",
+        "atlasSha256": "a20a6cae504d4f9128c39973d4f2fd59b0736ccecd8b3567a46d1d8a7c6f79e6",
+        "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+        "minimumMarginsPx": {
+          "left": 6,
+          "right": 6,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 11,
+              "top": 29,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              96,
+              0,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 10,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 6,
+              "right": 6,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              96,
+              96,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 9,
+              "right": 9,
+              "top": 19,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "a20a6cae504d4f9128c39973d4f2fd59b0736ccecd8b3567a46d1d8a7c6f79e6"
   }
 ]

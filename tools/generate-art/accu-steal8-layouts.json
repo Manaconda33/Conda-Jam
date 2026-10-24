@@ -167,7 +167,175 @@
       ],
       "uniformScale": 0.2365038560411311,
       "componentIsolation": true,
-      "packaging": "package-action8.py; 112x96 cells; baseline94; lossless WebP; 8 original steal poses"
-    }
+      "packaging": "package-action8.py; 112x96 cells; baseline94; lossless WebP; 8 original steal poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-accu-package.py",
+        "previousAtlasSha256": "b06c8796a49d13d3f7b7c6ecf3c0a8e13763d7fe2d62bce561b4abe89ab42d52",
+        "atlasSha256": "73941057dc84cc1dc3385a4bf6ba430eba0f5b5016e23ee45f0cf8c3c789d166",
+        "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+        "minimumMarginsPx": {
+          "left": 5,
+          "right": 5,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 14,
+              "right": 15,
+              "top": 11,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              112,
+              0,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 13,
+              "right": 14,
+              "top": 8,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              224,
+              0,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 14,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              336,
+              0,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 13,
+              "right": 13,
+              "top": 8,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 14,
+              "right": 15,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              112,
+              96,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 14,
+              "right": 14,
+              "top": 7,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              224,
+              96,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 16,
+              "top": 7,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              336,
+              96,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 19,
+              "right": 20,
+              "top": 5,
+              "bottom": 5
+            }
+          }
+        ]
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1.15,
+          0.95,
+          0.65,
+          1.9,
+          0.7,
+          1,
+          1.2,
+          1.1
+        ],
+        "forward": [
+          8,
+          10,
+          12,
+          13.1,
+          14,
+          14,
+          12,
+          9
+        ],
+        "source": "native hand calibration using Accu atlas and 120% renderer preview",
+        "reviewed": true
+      }
+    },
+    "sha256": "73941057dc84cc1dc3385a4bf6ba430eba0f5b5016e23ee45f0cf8c3c789d166"
   }
 ]

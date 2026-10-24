@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-24",
+  "athlete": "accu",
+  "clipsRepacked": 23,
+  "authoredFrames": 241,
+  "clips": [
+    {
+      "clip": "alley-oop-power",
+      "frames": 15,
+      "atlas": "./public/assets/animation/accu-alley-oop-power-right.webp",
+      "previousAtlasSha256": "8509de3a7e4a31479993f7ebc33e14b8964778cba640a6c73e540d8e7429c15b",
+      "atlasSha256": "8026f4e32a9762fcc28f157d75da4a4f8fed48201cd9da0a9487dadc07d5ea77",
+      "minimumMarginsPx": {
+        "left": 26,
+        "right": 26,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "frames": 15,
+      "atlas": "./public/assets/animation/accu-alley-oop-reverse-right.webp",
+      "previousAtlasSha256": "4019fc46ad51ce81e78e498afe9f5d7d3c20586385db6b2eebff00d0ffe38b4e",
+      "atlasSha256": "873e79ffdee506c22d0c03aebf6248ac7bd7546276611b03fd575fda42df9d1b",
+      "minimumMarginsPx": {
+        "left": 23,
+        "right": 23,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "block",
+      "frames": 4,
+      "atlas": "./public/assets/animation/accu-block-right.webp",
+      "previousAtlasSha256": "d19737b26cabf4bd672d51cb36f084d25b6095909b6ae3600204d811c63b9aa2",
+      "atlasSha256": "a20a6cae504d4f9128c39973d4f2fd59b0736ccecd8b3567a46d1d8a7c6f79e6",
+      "minimumMarginsPx": {
+        "left": 6,
+        "right": 6,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "celebrate",
+      "frames": 10,
+      "atlas": "./public/assets/animation/accu-celebrate-right.webp",
+      "previousAtlasSha256": "87b568a6947cf84fcaff789fb8846fca58a19abe73832a35b0a1160791dbed6e",
+      "atlasSha256": "b334ab874f0b5261256bc0d61e6ee721d75dcd3ca0ba72efe26bf960a143511e",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-360",
+      "frames": 15,
+      "atlas": "./public/assets/animation/accu-dunk-360-right.webp",
+      "previousAtlasSha256": "8b75688b6222e3ca6038046a95e774c145a4cf6523641829c8b84a89a82f969d",
+      "atlasSha256": "55c3cd34467c715099013a638b05e7b8f9ad91be02d261233f6ef320adda0587",
+      "minimumMarginsPx": {
+        "left": 21,
+        "right": 22,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-clutch",
+      "frames": 15,
+      "atlas": "./public/assets/animation/accu-dunk-clutch-right.webp",
+      "previousAtlasSha256": "8efa6b74f8765ab9007ac1c3981cdbefdf3070d8320d9f3fd89883768ae8fdb7",
+      "atlasSha256": "722016afe3d0bfbd172266567237570eff1402b5233e8a2cf657bd90ca46e3ed",
+      "minimumMarginsPx": {
+        "left": 30,
+        "right": 30,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-double",
+      "frames": 15,
+      "atlas": "./public/assets/animation/accu-dunk-double-right.webp",
+      "previousAtlasSha256": "08dc6a841ac8f40c7f82edd291c507260c19eee008cf8e216c8159e42f76a00f",
+      "atlasSha256": "ff547365f744c6ab94c2402d8ae95e0113c3475ec815455d005af7b7ebf56919",
+      "minimumMarginsPx": {
+        "left": 29,
+        "right": 30,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-power",
+      "frames": 15,
+      "atlas": "./public/assets/animation/accu-dunk-power-right.webp",
+      "previousAtlasSha256": "2df91c1def6b78fc850fb8fbe1f491a0b5b030d8a90390d1b6bacb60e960e9e3",
+      "atlasSha256": "7c67892f575ee6fb28efeca8ac95aabd7536f89a2b1e0464ccdeacbe09be1c6f",
+      "minimumMarginsPx": {
+        "left": 25,
+        "right": 25,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-reverse",
+      "frames": 15,
+      "atlas": "./public/assets/animation/accu-dunk-reverse-right.webp",
+      "previousAtlasSha256": "f0c23851127a04c5035df798367eb819007e05fa4889f5dfbe6763faadb84c44",
+      "atlasSha256": "daf7b225ccb07df1aac9f3d0300bc4d19e157c4c5f949e971e4c04217f942847",
+      "minimumMarginsPx": {
+        "left": 28,
+        "right": 29,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-scythe",
+      "frames": 15,
+      "atlas": "./public/assets/animation/accu-dunk-scythe-right.webp",
+      "previousAtlasSha256": "314dedab683f5acc2f12c18d2671f975f97cf1ceed05eda72d48072763c604a7",
+      "atlasSha256": "7e224de2dc26d43e3615fe261a1174b04de8688e086cc7d793147e7673e31a04",
+      "minimumMarginsPx": {
+        "left": 21,
+        "right": 21,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-tomahawk",
+      "frames": 15,
+      "atlas": "./public/assets/animation/accu-dunk-tomahawk-right.webp",
+      "previousAtlasSha256": "0752549e3ea012979e4fc839459dacfebad0ed04824be0ee351efefcbd794186",
+      "atlasSha256": "89e2ed293031bf81fd8759b207697dec7e6fd8541d2a462d6df8c1e983142383",
+      "minimumMarginsPx": {
+        "left": 31,
+        "right": 32,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-windmill",
+      "frames": 15,
+      "atlas": "./public/assets/animation/accu-dunk-windmill-right.webp",
+      "previousAtlasSha256": "b9e51b7c03b6a218a828f15fce64c2d678594c884906bd90235f481a069cf900",
+      "atlasSha256": "6a48eaf8fea6d1a2daf8b747f5bd03126b8cc1509ddfedc6670b57863e75b619",
+      "minimumMarginsPx": {
+        "left": 28,
+        "right": 29,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "fall",
+      "frames": 10,
+      "atlas": "./public/assets/animation/accu-fall-right.webp",
+      "previousAtlasSha256": "14c693ba8b96ec59babe9c2234569d39d292a0fa48b8264131595e4139efb784",
+      "atlasSha256": "506ddc60bc51bc62838dfef0c2b2e6fbeb0935dc61305e7a5e247a43f0a2fd8f",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 8,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "layup-reverse",
+      "frames": 8,
+      "atlas": "./public/assets/animation/accu-layup-reverse-right.webp",
+      "previousAtlasSha256": "ed3536c14502998b656c86889f823af50c618d0f69b3df08ab57381e15aedb12",
+      "atlasSha256": "dec1bd20a1475f86599bec170c08bd16e846418a365892453d8327134b2255f3",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "layup",
+      "frames": 8,
+      "atlas": "./public/assets/animation/accu-layup-right.webp",
+      "previousAtlasSha256": "3da7ecb526fce3b66d9abc715623638e9363fbc81ae6a41f71ec11dbee6dd297",
+      "atlasSha256": "62b853e08c805c5a90285548a7f030b7ddb6d122a49ff917363523076fe08705",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 8,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pass-behind",
+      "frames": 6,
+      "atlas": "./public/assets/animation/accu-pass-behind-right.webp",
+      "previousAtlasSha256": "b9f3f4d999f381211439b41361f4238099bd47d7296056f8447d983ccde03533",
+      "atlasSha256": "663bf7b8d7ce4ede9d3ff963838515452b162cfa9e1fb6cbfea4a2d53c397dc8",
+      "minimumMarginsPx": {
+        "left": 6,
+        "right": 7,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pass-overhead",
+      "frames": 6,
+      "atlas": "./public/assets/animation/accu-pass-overhead-right.webp",
+      "previousAtlasSha256": "796c1b30c0f409a95b87f0bca8e0b763911d5636abd79f8bdc1cb9abad7abe94",
+      "atlasSha256": "a1c3979c21f9ebfbfd39208e55573c4e61e00958b538a25e1df525b8b904dbf2",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pass",
+      "frames": 6,
+      "atlas": "./public/assets/animation/accu-pass-right.webp",
+      "previousAtlasSha256": "407edde9b81532d82e26b2400cbbf7c45f01b60742c72e9ef24c3729c4353c0a",
+      "atlasSha256": "e7d5a6eeb891d8df3c8f254bb02c71ab489f1b13add60edb023a9a2dfbdcb3d0",
+      "minimumMarginsPx": {
+        "left": 8,
+        "right": 9,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pickup",
+      "frames": 5,
+      "atlas": "./public/assets/animation/accu-pickup-right.webp",
+      "previousAtlasSha256": "e409968d7cf213c04d157757d8139a5bfbe38475f9835eb995123a3ee8b8294e",
+      "atlasSha256": "a845537361f746408fcee645e80bf401b0a52965b46de6d19c738fb2caf03085",
+      "minimumMarginsPx": {
+        "left": 6,
+        "right": 6,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "push",
+      "frames": 11,
+      "atlas": "./public/assets/animation/accu-push-right.webp",
+      "previousAtlasSha256": "9a25371522a208c899922df314290e86965aac0ef2ff5f76f820dc15b6dc9417",
+      "atlasSha256": "ca360fc755a9a7c944af8cb52bcfeee0d71bb23950b1e53b9473c705289a03cf",
+      "minimumMarginsPx": {
+        "left": 8,
+        "right": 9,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "rebound",
+      "frames": 5,
+      "atlas": "./public/assets/animation/accu-rebound-right.webp",
+      "previousAtlasSha256": "eb03bcfe7f7f980531917edc0530cba099e90cc0c4dadfe3dd4050788d63371a",
+      "atlasSha256": "84a6f5e53fd1ecaafa311f58c078e9fb383c73482f9bfcbf7e02d74d18c7622a",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 6,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "receive",
+      "frames": 4,
+      "atlas": "./public/assets/animation/accu-receive-right.webp",
+      "previousAtlasSha256": "9d78252fb36e1b092f4f00d9dd73b95b03e048648bfb1c3592ced3ad2849a7b1",
+      "atlasSha256": "314675cb677d9e3632043ecb5adf48283b66b76d9aef9f475fba220585be2da6",
+      "minimumMarginsPx": {
+        "left": 8,
+        "right": 8,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "steal",
+      "frames": 8,
+      "atlas": "./public/assets/animation/accu-steal-right.webp",
+      "previousAtlasSha256": "b06c8796a49d13d3f7b7c6ecf3c0a8e13763d7fe2d62bce561b4abe89ab42d52",
+      "atlasSha256": "73941057dc84cc1dc3385a4bf6ba430eba0f5b5016e23ee45f0cf8c3c789d166",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    }
+  ]
+}

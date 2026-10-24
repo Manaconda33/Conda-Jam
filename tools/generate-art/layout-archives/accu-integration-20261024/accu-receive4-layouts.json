@@ -1,0 +1,106 @@
+[
+  {
+    "athlete": "accu",
+    "direction": "right",
+    "clip": "receive",
+    "src": "./public/assets/animation/accu-receive-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "accu",
+      "clip": "receive",
+      "direction": "right",
+      "canonicalSection": "Neo Runway Precision / Accu",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-749dc7ae-f986-458a-9fe8-02ee4ecfcb57",
+      "imageGenerationId": "exec-749dc7ae-f986-458a-9fe8-02ee4ecfcb57",
+      "rawSourceImage": "tools/generate-art/sources/accu-receive-generated-raw.png",
+      "rawSourceSha256": "ce676acbf5ffd0cebebe0f931e3b452519244f4af854f7df6789da0630e8ae8c",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/accu-receive-generated-raw.png",
+      "sourceSha256": "ce676acbf5ffd0cebebe0f931e3b452519244f4af854f7df6789da0630e8ae8c",
+      "referenceImages": [
+        "public/assets/animation/accu-shoot-right.webp",
+        "public/assets/animation/accu-pass-overhead-right.webp"
+      ],
+      "prompt": "Create four new distinct right-facing basketball catch poses for Accu in a 1536\u00d71024 transparent RGBA pixel-art sheet, strict 2-column by 2-row grid, row-major. Use the attached Accu sprites only as identity, style, palette, scale and baseline references. Keep her complete body centered safely in each cell with room around long hair and hands. No ball, text, border, floor, shadow, hoop, teammate or props.\n\nAccu is a stylish confident young adult human woman with warm tan skin, vivid green eyes, blunt black bangs, closely cropped sides, and two long black twin ponytails with teal ties/highlights. She wears sleek black sportswear with tailored teal and violet trim, dark shorts/tights, black sleeves and teal-violet sneakers. Preserve the same feminine face, human anatomy, green eyes, twin ponytails, cropped sides and kit. Show two arms and hands, two legs and shoes. Hands remain empty; the basketball is separately rendered.\n\nAction: receive a high lob with an overhead catch at pose2, simulation tick4. Four distinct connected poses:\n0 balanced right-facing stance, eyes track the incoming pass, hands ready at chest;\n1 feet set and elbows rise, both empty hands opening above the forehead;\n2 CATCH at tick4: hands meet high over the face and frame the invisible ball securely, wrists soft;\n3 lower the invisible ball toward chest, knees absorb the catch, hands stay naturally cupped but empty.\n\nKeep all poses right-facing, anatomically complete and visibly different. Do not draw any ball or prop. Crisp 1990s arcade pixel clusters, strong outlines, small-game readable. True alpha-zero background and gutters, no haze, checkerboard or matte. Return only the four-pose sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Separate Accu-specific ball arrives high and enters her cupped hands for the catch at frame2/tick4. Ball is never painted into poses.",
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Four distinct complete human poses in a 2x2 grid. Accu\u2019s canon face, green eyes, blunt bangs, short sides, twin long ponytails, teal/violet kit and anatomy remain consistent. Pose2 is a clear high reception catch at tick4. Mirror review pending."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 234,
+          "y": 72,
+          "w": 419,
+          "h": 467,
+          "component": 2,
+          "area": 91125
+        },
+        {
+          "sourceIndex": 1,
+          "x": 827,
+          "y": 22,
+          "w": 490,
+          "h": 523,
+          "component": 1,
+          "area": 101342
+        },
+        {
+          "sourceIndex": 2,
+          "x": 217,
+          "y": 537,
+          "w": 420,
+          "h": 471,
+          "component": 3,
+          "area": 92632
+        },
+        {
+          "sourceIndex": 3,
+          "x": 851,
+          "y": 585,
+          "w": 392,
+          "h": 427,
+          "component": 4,
+          "area": 87263
+        }
+      ],
+      "uniformScale": 0.17590822179732313,
+      "componentIsolation": true,
+      "packaging": "package-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original receive poses"
+    }
+  }
+]

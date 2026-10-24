@@ -1,0 +1,297 @@
+[
+  {
+    "athlete": "accu",
+    "direction": "right",
+    "clip": "dunk-reverse",
+    "src": "./public/assets/animation/accu-dunk-reverse-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "accu",
+      "clip": "dunk-reverse",
+      "direction": "right",
+      "canonicalSection": "J.10",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-bad75614-e551-4c7d-879f-37a363ff8ca8",
+      "sourceImage": "tools/generate-art/sources/accu-dunk-reverse-generated-clean.png",
+      "sourceSha256": "dafdfc60be116c10d39250f145f5188400452bebaaf6798e15d6789ad55ab10a",
+      "promptFile": "tools/generate-art/accu-dunk-reverse-prompt.md",
+      "prompt": "Create 15 complete full-body right-facing Accu DUNK-REVERSE sprite poses in a strict 5-column \u00d7 3-row sheet, row-major. Match the attached Accu: young adult human woman, warm tan skin, green eyes, blunt black bangs, clipped sides, long black twin ponytails with teal ties, sleek black sleeveless kit with teal/violet trim, black arm sleeves and tights, teal/violet sneakers. Preserve her face, hair, body and anatomy (two arms, two legs). Reverse slam sequence: 0 run along baseline, 1 lower center of gravity, 2 takeoff tick4 with forward momentum, 3 rise under imaginary hoop, 4 twist torso toward backboard, 5 tuck knees and rotate shoulders away, 6 turn back to viewer while moving beneath rim, 7 reach reverse-side overhead at peak tick14, 8 bring right arm behind head toward far side of rim, 9 extend behind-head hand, 10 reverse-hand release at tick21 through empty space, 11 finish/follow-through tick23, 12 descend from far side, 13 land, 14 return balanced. 15 distinct poses with clear continuity, all limbs in frame, consistent scale. Blank uniform. Basketball is separate and must not be shown. No ball/sphere/object in hands, no hoop/rim, other person, court/floor/shadow/text/logo/effects/background. True transparent RGBA, no checkerboard, crisp 1990s arcade pixel art. Return only sprite sheet.",
+      "timing": {
+        "takeoffFrame": 2,
+        "takeoffTick": 4,
+        "peakFrame": 7,
+        "peakTick": 14,
+        "releaseFrame": 10,
+        "releaseTick": 21,
+        "finishFrame": 11,
+        "finishTick": 23,
+        "landFrame": 14,
+        "landTick": 30
+      },
+      "ballTrack": {
+        "height": [
+          1.0,
+          1.1,
+          1.4,
+          1.8,
+          2.1,
+          2.25,
+          2.35,
+          2.4,
+          2.2,
+          1.8,
+          1.55,
+          1.2,
+          1.0,
+          0.8,
+          0.7
+        ],
+        "forward": [
+          7,
+          9,
+          11,
+          13,
+          11,
+          8,
+          5,
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          7,
+          6
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-accu-motion-background.py",
+        "method": "remove edge-connected neutral checkerboard pixels"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "15 distinct right-facing Accu reverse dunk poses, including rear/shoulder turn and behind-head release gesture. Identity, kit and anatomy preserved. Ball absent from source; separate Accu ball track."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 35,
+          "y": 113,
+          "w": 265,
+          "h": 259,
+          "component": 5
+        },
+        {
+          "sourceIndex": 1,
+          "x": 414,
+          "y": 166,
+          "w": 216,
+          "h": 212,
+          "component": 7
+        },
+        {
+          "sourceIndex": 2,
+          "x": 678,
+          "y": 104,
+          "w": 234,
+          "h": 274,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 958,
+          "y": 43,
+          "w": 235,
+          "h": 335,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1308,
+          "y": 0,
+          "w": 274,
+          "h": 378,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 62,
+          "y": 393,
+          "w": 261,
+          "h": 287,
+          "component": 15
+        },
+        {
+          "sourceIndex": 6,
+          "x": 395,
+          "y": 403,
+          "w": 250,
+          "h": 276,
+          "component": 16
+        },
+        {
+          "sourceIndex": 7,
+          "x": 668,
+          "y": 360,
+          "w": 272,
+          "h": 366,
+          "component": 13
+        },
+        {
+          "sourceIndex": 8,
+          "x": 976,
+          "y": 413,
+          "w": 248,
+          "h": 308,
+          "component": 17
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1318,
+          "y": 383,
+          "w": 260,
+          "h": 305,
+          "component": 14
+        },
+        {
+          "sourceIndex": 10,
+          "x": 36,
+          "y": 698,
+          "w": 293,
+          "h": 270,
+          "component": 19
+        },
+        {
+          "sourceIndex": 11,
+          "x": 371,
+          "y": 704,
+          "w": 281,
+          "h": 264,
+          "component": 20
+        },
+        {
+          "sourceIndex": 12,
+          "x": 677,
+          "y": 729,
+          "w": 287,
+          "h": 240,
+          "component": 22
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1008,
+          "y": 753,
+          "w": 279,
+          "h": 216,
+          "component": 23
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1358,
+          "y": 721,
+          "w": 220,
+          "h": 248,
+          "component": 21
+        }
+      ],
+      "uniformScale": 0.24338624338624337,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

@@ -1,0 +1,5 @@
+# Accu source image availability — 2026-10-24
+
+The original ImageGen PNGs referenced by the base locomotion and `shoot` provenance records could not be recovered in this workspace. The recorded output paths are `generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png` and `generated_images/exec-e7bd81a6-0467-409f-afbb-3d1a041002a4.png`. Neither exists under `/workspace` or in the repository's preserved source folder. Their exact prompts, generation IDs, and recorded source hashes remain in `accu-locomotion-provenance.json`, `accu-locomotion-layouts.json`, `accu-shoot-provenance.json`, and `accu-shoot10-layouts.json`.
+
+No replacement poses or substitute source sheets were generated. The existing six registered Accu atlases remain the reviewed outputs for those clips. Their current atlas bytes are preserved as the production source; all 23 new action sheets remain separately preserved with raw/clean candidates, exact prompts, hashes, rejected generations, layout records, and cleanup provenance. The missing originals remain a provenance gap.

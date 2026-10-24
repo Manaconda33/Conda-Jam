@@ -1,0 +1,136 @@
+[
+  {
+    "athlete": "accu",
+    "direction": "right",
+    "clip": "pass-behind",
+    "src": "./public/assets/animation/accu-pass-behind-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "accu",
+      "clip": "pass-behind",
+      "direction": "right",
+      "canonicalSection": "Neo Runway Precision / Accu",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-8136dca7-86c8-435f-9243-4e8e3109d5ad",
+      "imageGenerationId": "exec-8136dca7-86c8-435f-9243-4e8e3109d5ad",
+      "rawSourceImage": "tools/generate-art/sources/accu-pass-behind-generated-raw.png",
+      "rawSourceSha256": "0bbc45ea0d6bc6a3f6c16677b294dc4d6a84333611115e2ec2cfd0af7f2aafed",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/accu-pass-behind-generated-raw.png",
+      "sourceSha256": "0bbc45ea0d6bc6a3f6c16677b294dc4d6a84333611115e2ec2cfd0af7f2aafed",
+      "referenceImages": [
+        "public/assets/animation/accu-shoot-right.webp",
+        "public/assets/animation/accu-pass-right.webp"
+      ],
+      "prompt": "Create six new distinct right-facing behind-the-back basketball pass poses for Accu in a 1536\u00d71024 true-transparent RGBA sprite sheet, strict 3-column by 2-row grid, row-major. Use the attached Accu gameplay sprites only for her canon identity, teal/violet/black uniform, figure scale and arcade pixel-art style. Every pose is a complete body in its own cell with safe margins around both hands, feet and ponytails; consistent baseline and camera. No ball, text, labels, border, court, floor, shadow, prop, hoop or other person.\n\nAccu is a stylish young adult human woman with warm tan skin, vivid green eyes, blunt black bangs, closely cropped sides and two long unmistakable black twin ponytails with teal ties/highlights. Her sleek tailored black sportswear has teal and violet trim, dark shorts/tights, black arm sleeves and teal/violet shoes. Keep her feminine human anatomy, face, hair and uniform consistent. Hands are empty and the ball is separate game art. No extra limbs, costume changes, frills, pink or armor.\n\nAction: a controlled behind-the-back pass while moving right. The ball-miming hand crosses behind her low waist; after release she follows through empty-handed. Six distinct connected poses:\n0 compact right-facing stance, invisible ball at the near hip;\n1 bend knees and turn torso slightly, hand travels across the lower back;\n2 pass-miming hand wraps behind waist toward image-left, shoulders rotate away from target;\n3 RELEASE at simulation tick7: arm snaps behind the back toward image-left, wrist flicked and palm empty;\n4 empty hand follows through behind the hip as torso unwinds;\n5 balanced recovery facing right, hands empty.\n\nKeep all six poses anatomically complete with natural arms/hands and two legs, shoes and long twin ponytails. Distinct crisp 1990s arcade pixel clusters, clear dark outlines, original drawings, no repeated poses. Return only the sprite sheet with alpha-zero gutters and background.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Accu-specific separate ball crosses behind her waist and releases toward image-left at frame3/tick7; the ball is never painted into the poses.",
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Six distinct complete right-facing human poses, including a clear behind-waist carry and frame3 empty-hand release. Accu retains warm tan skin, green eyes, blunt bangs, close-cropped sides, long black twin ponytails, teal accents, and teal/violet/black uniform. Mirror review pending."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 95,
+          "y": 38,
+          "w": 331,
+          "h": 450,
+          "component": 3,
+          "area": 81499
+        },
+        {
+          "sourceIndex": 1,
+          "x": 588,
+          "y": 34,
+          "w": 355,
+          "h": 454,
+          "component": 1,
+          "area": 86810
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1112,
+          "y": 34,
+          "w": 360,
+          "h": 454,
+          "component": 2,
+          "area": 85832
+        },
+        {
+          "sourceIndex": 3,
+          "x": 60,
+          "y": 536,
+          "w": 436,
+          "h": 455,
+          "component": 5,
+          "area": 94771
+        },
+        {
+          "sourceIndex": 4,
+          "x": 600,
+          "y": 528,
+          "w": 390,
+          "h": 463,
+          "component": 4,
+          "area": 92160
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1122,
+          "y": 536,
+          "w": 372,
+          "h": 456,
+          "component": 6,
+          "area": 84900
+        }
+      ],
+      "uniformScale": 0.19870410367170627,
+      "componentIsolation": true,
+      "packaging": "package-pass6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-behind poses"
+    }
+  }
+]

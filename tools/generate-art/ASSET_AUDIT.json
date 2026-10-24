@@ -13,11 +13,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-24T18:57:09.533Z",
+  "generatedAt": "2026-10-24T19:16:54.716Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 721,
+  "inspectedClips": 744,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -316,144 +316,6 @@
     {
       "code": "missing-clip",
       "athlete": "briar-foxglove",
-      "direction": "right",
-      "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "pass"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "pass-overhead"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "pass-behind"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "receive"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "pickup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "layup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "layup-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "block"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "steal"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "push"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "rebound"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "fall"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "celebrate"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "dunk-power"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "dunk-windmill"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "dunk-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "dunk-360"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "dunk-tomahawk"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "dunk-double"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "dunk-clutch"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "dunk-scythe"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
-      "direction": "right",
-      "clip": "alley-oop-power"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "accu",
       "direction": "right",
       "clip": "alley-oop-reverse"
     },
@@ -37751,6 +37613,2543 @@
           "h": 96,
           "hash": "a31f29397c613539a98d12afc46e884911a23dc7baa5622ce6d8fba6109db287",
           "visiblePixels": 3241
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "pass",
+      "src": "./public/assets/animation/accu-pass-right.webp",
+      "width": 336,
+      "height": 192,
+      "sha256": "e7d5a6eeb891d8df3c8f254bb02c71ab489f1b13add60edb023a9a2dfbdcb3d0",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "92a1aeb8e34d2824bb065548e42026f7287f3c4db4ed74511d4b96095f8961db",
+          "visiblePixels": 3779
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "e0b02c97e5ad53b2afe2b2119b204524896f36570f631917216d61f2530164fa",
+          "visiblePixels": 3924
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "eaf6c5471bc0a6e63342527a075a83911f50891a0e2f27de3cb4e73d174ca1d6",
+          "visiblePixels": 3933
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "85889fe819d7d079639b8e5e64669e997048e3971f82fdb37107923b40514f6e",
+          "visiblePixels": 4244
+        },
+        {
+          "index": 4,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "bac2b85dff35344ca8c2ac60e916f40eb543e4d53b5e4a0ba38f8d6161a2d0bf",
+          "visiblePixels": 4164
+        },
+        {
+          "index": 5,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "46aa146e7a1b88dbedac9e46a20e30675c46f104bab37a847a08af5882ec76e6",
+          "visiblePixels": 3945
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "src": "./public/assets/animation/accu-pass-overhead-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "a1c3979c21f9ebfbfd39208e55573c4e61e00958b538a25e1df525b8b904dbf2",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "cd732fc74b88da67f3b11e051aa80ef85afd5b33c920e95c89150d19ee8ec877",
+          "visiblePixels": 3376
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c64740834e4c74b75bc872be01d44cc927fde7b6425a85732e21b9299206b17e",
+          "visiblePixels": 3389
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "577bdcbc8055227abe5c3a04b42451f256503b558cd7071c78c66f518d9c4d72",
+          "visiblePixels": 3325
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f884bd7c4bf7a5f79f683252bafea7218b69ffdcad36847d607a2e811cb0f438",
+          "visiblePixels": 3570
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5b3b90d9f49ebadc95990a5a0295094010b2b3613c98d2c70e07679906910a75",
+          "visiblePixels": 3358
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c929152f2e6dbe3e916cbdc0860ba0c3f0369cf7c5eb9b1cd74bd9fc925adee9",
+          "visiblePixels": 3420
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/accu-pass-behind-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "663bf7b8d7ce4ede9d3ff963838515452b162cfa9e1fb6cbfea4a2d53c397dc8",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "67cd1ba3b34071e590e630b57ef7d8edfb2140577e7d0da0ca230c3472e18f18",
+          "visiblePixels": 3735
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e35aa4cea0373a53a939fcca241cf301c1f8262bd1badeb4b19773f536769c09",
+          "visiblePixels": 3905
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6a50c309cb3d585b49095533d84d7bb823197f1cacb22e39a829c52cde458284",
+          "visiblePixels": 3964
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "fc80ec6ebec50d036cd43f80007e8bc8da1706aa16a53f8639e76f268fe889bb",
+          "visiblePixels": 4349
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c825c1f0aead889b170a92fbaa47b8493000bf9f26051c57e665e31752d31b95",
+          "visiblePixels": 4059
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4c974005ce1f3c0ab8bf90d33c8b5a73a7eacd262f682efe07f3c50b294b6bd5",
+          "visiblePixels": 3819
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "receive",
+      "src": "./public/assets/animation/accu-receive-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "314675cb677d9e3632043ecb5adf48283b66b76d9aef9f475fba220585be2da6",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0633403c0243483f433a52d2a58b98544f0fbb8769bb8ff2720ad0c7c6e58b7b",
+          "visiblePixels": 3491
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9cd2319fb6612c966cc97058841c8828f01121eb45c31ce197062ec939137985",
+          "visiblePixels": 3570
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a557c365894e4cd60d815d1d523dc09400a54b2204f6d8cc238f0b54241865ed",
+          "visiblePixels": 3540
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "42101172423ba34488f6de08ffd5806c466b57ef681d7e1cbf332019ae2e27c8",
+          "visiblePixels": 3281
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "pickup",
+      "src": "./public/assets/animation/accu-pickup-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "a845537361f746408fcee645e80bf401b0a52965b46de6d19c738fb2caf03085",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9bd8bc13b40ca4999ecad1bd4eb34bda9e7568464026c8bd4b816966d1025946",
+          "visiblePixels": 4160
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c87987132984f413e4528cf09bed052194c2de9f7d998f7534a9938332c97f5c",
+          "visiblePixels": 4321
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ec16a74ebb0d14eaef7ff5185413e7f228dfabdb32b72e4c2a85a5658168f210",
+          "visiblePixels": 3940
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "24bd26d82240644aa2b68724a67ce3e9127fe5954af93cc5812d1b421d295acf",
+          "visiblePixels": 3996
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "aaaef682a3d2d8058e32aa145d54d9a4a7026356918a969bdb47e1ba06d8f045",
+          "visiblePixels": 3873
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "layup",
+      "src": "./public/assets/animation/accu-layup-right.webp",
+      "width": 320,
+      "height": 192,
+      "sha256": "62b853e08c805c5a90285548a7f030b7ddb6d122a49ff917363523076fe08705",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "602d8760f0fc2ec9437c56c93c9eebab6795498b04e1b5895fc80ed803eccab3",
+          "visiblePixels": 2342
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "b741d475e0d5e1c6a15a73bb90eb378b14c077e3507ac2a027a457b38a3d567d",
+          "visiblePixels": 2416
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "36b6ef1d47482e09011c557425808427b022366a09539e9471f9980c01143b08",
+          "visiblePixels": 2293
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "d8ee233b3a6dd33a2447e9cc994e44f851be49b449392b8428110421c21f2bfa",
+          "visiblePixels": 2037
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "dca0fea377ad43651a66f0c6529546b3c93c51a81b06db5c6054b97854f0371b",
+          "visiblePixels": 2438
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "6420c05cabc972c6a1416537761e6d0ef2d9015e16cb1e6648ac812c902e7fd7",
+          "visiblePixels": 2433
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "0ac402aedcb3e7374dda087568076e8851463991a96a53d3848dfaf2de2a87e3",
+          "visiblePixels": 2356
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "7a6888488e6c5a81aa1e3a7e0f4b4f09578f7f078eecbb92c0c689471213dc5d",
+          "visiblePixels": 2439
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "src": "./public/assets/animation/accu-layup-reverse-right.webp",
+      "width": 320,
+      "height": 192,
+      "sha256": "dec1bd20a1475f86599bec170c08bd16e846418a365892453d8327134b2255f3",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "7abbf8abb8c79cdb8915da9a92bab3e9fbcac90ae310fed80e82012a938b7927",
+          "visiblePixels": 2548
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "76655484c3d1a347b44a51b6e45f31c12919400061081df2da77feb1281c562d",
+          "visiblePixels": 2452
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "babe337d6854e9666d028a30ea26b4ba14731094879d0ba2fd0831637cfe8db8",
+          "visiblePixels": 2263
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "73d789dbf05dd6c4ababe0bf41ea6883185a8639062bc6aae5276d833e1e81f9",
+          "visiblePixels": 2531
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d35c5529e62594293191332a3d789e60b172315a8ef24ded6d6176b9232b9bfd",
+          "visiblePixels": 2457
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "4d70d1fc745154cc07f81d63966a22c584e22bc0ff882fa896b0981be00de890",
+          "visiblePixels": 2395
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "a7495b8f09011ec1425993d1355072e7301af63f8dafbcf8a27822c363f8bc1d",
+          "visiblePixels": 2556
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "eebe92feeb1f0f34ff9f29a1a32e0306dffa6a1fd35ae0ec40a543a99af078a2",
+          "visiblePixels": 2355
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "block",
+      "src": "./public/assets/animation/accu-block-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "a20a6cae504d4f9128c39973d4f2fd59b0736ccecd8b3567a46d1d8a7c6f79e6",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c96e8a068c0887fde7f108650afb6e49f59dfe933bae9148844f882cf3226cb3",
+          "visiblePixels": 2971
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "651096db7985736a83f087cb7ef5e2dd564cac6ad572310fa38c816221a47491",
+          "visiblePixels": 3098
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3cdc7379fe14b2cb7add4867cefc5d4c22bb1a41255ed1fb69541377ad43fd6f",
+          "visiblePixels": 3372
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "aa56e7cc6014248d0822a7a9840965495fc4b21295c6dd3a98109aaaf5c71d09",
+          "visiblePixels": 3273
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "steal",
+      "src": "./public/assets/animation/accu-steal-right.webp",
+      "width": 448,
+      "height": 192,
+      "sha256": "73941057dc84cc1dc3385a4bf6ba430eba0f5b5016e23ee45f0cf8c3c789d166",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "9a8bd0667b49e008b016da5bc424df4a9276881c9aecb8dd62ef28bc57c5479d",
+          "visiblePixels": 3886
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "6eb9bb2761cfbafbd94efb3cbe20b205a5adede46a7aa2234465b9eacf21dcaa",
+          "visiblePixels": 4103
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "dbd8636c165844685e7269689f45daaba5dc927bf9a117d04ed9c7df0bf5f8dd",
+          "visiblePixels": 3909
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "d8f272e63d0c1639179b8e31caa143aa1c87e7cbb0645bf127b030d20cda3c40",
+          "visiblePixels": 3807
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "08918a76e0f9a2a1ab3e5bbd45dd5ab95bbcd143eb2085b7227f5cc2a45302f8",
+          "visiblePixels": 3751
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "0468c4ec35ca973faa52684fa04748162b726ac7af98baf811975a72a33becd0",
+          "visiblePixels": 4013
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "5633546aec70e5c0b14d116c8011387f086a4e2f7342cba32ba7883028f6ac23",
+          "visiblePixels": 3845
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "351803acd641787d45fc856cff848879c64e119b816a09409dc7c3712565de3b",
+          "visiblePixels": 3609
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "push",
+      "src": "./public/assets/animation/accu-push-right.webp",
+      "width": 448,
+      "height": 288,
+      "sha256": "ca360fc755a9a7c944af8cb52bcfeee0d71bb23950b1e53b9473c705289a03cf",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "c43c184d324b88d3affc07becb127d653a86814782a82450cd397eb5042fb966",
+          "visiblePixels": 3798
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "1cf1a05c3871214100c20a2d12ce19714eb9992fe6b2c1f35a4bad9aa58fa0bc",
+          "visiblePixels": 3155
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "bddfe4d0ecc80a9606c62a781c58f20ebf7510b51151f29832513c357e461fd5",
+          "visiblePixels": 3607
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "e0ce21dadf16f6894bec4d8cf4e09e3a9d98575997775871e45cad39e549c03f",
+          "visiblePixels": 3595
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "336bf8d3ae2f1e7051232d86e255bc08531f7a2074adf23bb2790822cb553a01",
+          "visiblePixels": 3959
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "cf8dcf675363f73032ad05d92ad3371e4eeea162cfd683cc3e73a8e0f159ab8c",
+          "visiblePixels": 3765
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "c3245284c2059e8ec261096af5e2d874edf61d1874ac05ba8690ac425cfdd96d",
+          "visiblePixels": 3938
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "36fc658c066cf83356f83d31144160acb8e4b6fdd17d8059ec96f7358e9cabf2",
+          "visiblePixels": 3345
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "ae81ca1582842880a3c378d19a1ab6690d3a008abf79322a2c1e8b568576b5bd",
+          "visiblePixels": 3278
+        },
+        {
+          "index": 9,
+          "x": 112,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "317fdd7e62554f0f15581dae1224a8a75fbd635b2614de600f51c42a39119280",
+          "visiblePixels": 3588
+        },
+        {
+          "index": 10,
+          "x": 224,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "67a5865ca6737565369defbd9f88ef51159e086a021bcd6c4e970de4144c27f5",
+          "visiblePixels": 3511
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "rebound",
+      "src": "./public/assets/animation/accu-rebound-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "84a6f5e53fd1ecaafa311f58c078e9fb383c73482f9bfcbf7e02d74d18c7622a",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "340e9fc64ba75816869f0654d666ac90fe4c72bad40c8bbfdf23c0dd755acd6f",
+          "visiblePixels": 2516
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "35247f83f61968c291f5d79b23b083184504eb44f06b54fd83399712a21e6194",
+          "visiblePixels": 2684
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "918d63d3e33b4294a84e93f5f60d3dc474e06cb312321d1c392cd139d96c7b92",
+          "visiblePixels": 2720
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "68322efd26f79b7113b72e6d6ac52824cfb75421ad56a72a2102db538075f726",
+          "visiblePixels": 2773
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "98f737bc13df3fba866311b9becb2a3e233c2b7ebdf3c311752a0d6a6721459b",
+          "visiblePixels": 2564
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "fall",
+      "src": "./public/assets/animation/accu-fall-right.webp",
+      "width": 640,
+      "height": 192,
+      "sha256": "506ddc60bc51bc62838dfef0c2b2e6fbeb0935dc61305e7a5e247a43f0a2fd8f",
+      "required": 10,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "a944bc74ba1ab42339a6221c9503ecceb941dc20bae2cc0c2f6db85b7907ad36",
+          "visiblePixels": 3558
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "fc54528da2166b67040da8c508f4f8d61de81f5937b6bf9137d8d59e41eaade9",
+          "visiblePixels": 3497
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "949fc3300e04deb11f7d47dabaf4fd61a823947984d1605795850a466c67b855",
+          "visiblePixels": 3495
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "6248e84ed0c3834c10c1a7db19dda9a1e3e95c2f33c93e6c33693788700018a3",
+          "visiblePixels": 3021
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "724c4cec72b93b448c8b0b282f9b6cd7eb9ad342fbcb0b67908748524d2a930d",
+          "visiblePixels": 3395
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "332479ff0dd6e432c616751de67aa38a59c90dc2722ff6a224224db259e653fd",
+          "visiblePixels": 3553
+        },
+        {
+          "index": 6,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "a0dbfca130df8268de0e0b267c1f90bf09f7448a04c586a305b44334cb1d78c9",
+          "visiblePixels": 3440
+        },
+        {
+          "index": 7,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "384429f9b158c2c5167e8b09dd8e762624c25934f91400d8ef183eb67b61c86e",
+          "visiblePixels": 2840
+        },
+        {
+          "index": 8,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "5f6c4fbc6358f6bcd16cabcdcda8c54aaa351c19aa3f0a63757d2c32f6535b3a",
+          "visiblePixels": 3661
+        },
+        {
+          "index": 9,
+          "x": 512,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "e0d602922744d9cb157a40439c5d68e999d9e12142ab08deb516cd5c62db6fc4",
+          "visiblePixels": 3301
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "celebrate",
+      "src": "./public/assets/animation/accu-celebrate-right.webp",
+      "width": 480,
+      "height": 192,
+      "sha256": "b334ab874f0b5261256bc0d61e6ee721d75dcd3ca0ba72efe26bf960a143511e",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "395fa10f93285d3aa082a7f5eb8fa9bd2adf8fcfd6b994487a77ec13c62a1845",
+          "visiblePixels": 2783
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f5bc03e8b6eb0d8250f2c32381b9364787ca12202ad742bf6b9e911c3ae165a9",
+          "visiblePixels": 2884
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0c0352d4f724559f5ca2539f2976c32d32831e70a0a8c1c6adb0e76a922c5668",
+          "visiblePixels": 2730
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "065dc89077c029b4e169e033e3191c19a9a229320bb2154ac7ac4802cc3bb8c4",
+          "visiblePixels": 2982
+        },
+        {
+          "index": 4,
+          "x": 384,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2fbedaa4604ea635994adaddeebc376b23a2ce731b796f6f802a650421d00437",
+          "visiblePixels": 2787
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "caf9e7a754dbb81c9552a388bcd1c28b23b0cbe8df0a1ab8c8c9b6433ab7e382",
+          "visiblePixels": 2917
+        },
+        {
+          "index": 6,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d0b1348105577c51d49d039f6644f4c35a391fbc91750f44d0226bd08a45de45",
+          "visiblePixels": 3115
+        },
+        {
+          "index": 7,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5a4bb5789cb23a32a51c1fb02e660dfb5bd6d42d78cbd91f63ee941ba7eb2830",
+          "visiblePixels": 2989
+        },
+        {
+          "index": 8,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8f5c01654c3683d834351e88c086339f4b1d0be1e43e9e4892a09b1d6180f98d",
+          "visiblePixels": 3030
+        },
+        {
+          "index": 9,
+          "x": 384,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cf46161ec086281ab27eea080a2bc2ca48421f7d67b8555be0f4095cdeecb1bd",
+          "visiblePixels": 2806
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "dunk-power",
+      "src": "./public/assets/animation/accu-dunk-power-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "7c67892f575ee6fb28efeca8ac95aabd7536f89a2b1e0464ccdeacbe09be1c6f",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "06b68c730983ad2aed03f214df8e5ebbda33bbe01067cec259baf496b57c2047",
+          "visiblePixels": 2339
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "95c6a64cac55d8530c266036a62b77e7599061bc1845c4566f8bee6857ee5619",
+          "visiblePixels": 2351
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "597123dd01826e458af856488cbfac62557c53588f02ba95bca49e366fc672ec",
+          "visiblePixels": 2198
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "432ae89ad3e1917d4a66eeed23a7c26815e7be448d2b9c82616d0b92f8906d9b",
+          "visiblePixels": 2291
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "bcd700ac85649515ba1ecb7850e87334b0fa1d303ff872c27327d1e6f4d2cbc1",
+          "visiblePixels": 2499
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "f5a56d1a46a26e977305ad98301d0a67726088a00a44a7d0417452c2cf35b26a",
+          "visiblePixels": 2207
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "970239c19d22783df1154ad10b30163f4cf5b4218d9aa0c03757827e1d0d41e2",
+          "visiblePixels": 2295
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "02fd3d781fae95eaaf24250a20e4c5a8a16d273cc577814f07f1b47a7ba5a927",
+          "visiblePixels": 2307
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "a4b9d12cb59ddb6a96482b5281cedab3513a44a287cb3106e347f685f6ec3238",
+          "visiblePixels": 2490
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "dbba3878764336fb2c1bbdb6af52e3057b5fa730ac25e45ebef88be65674ee1f",
+          "visiblePixels": 2225
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "8a0b4acad8be254012d68e8bd12d26c5b73c3084febc3fc36699c96745c506e1",
+          "visiblePixels": 2069
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "c09b374cd4bb870467a102f0ca0eee8d4071fbe466e088311cf40a6ed9121859",
+          "visiblePixels": 2386
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "f386f4e8e1b24ecd83df9ecf4f2e71b499a8f75e2d5d085643431b02fe287bf3",
+          "visiblePixels": 2269
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "e1e9d9730d813057503829956b62081b9e2bab3bc6f985506bfa51bb7e431e6e",
+          "visiblePixels": 2132
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "a9febd417065f9ae85dd74d6ec1f70a9125b390a34bdfea8edf121a06a423803",
+          "visiblePixels": 2278
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "src": "./public/assets/animation/accu-dunk-windmill-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "6a48eaf8fea6d1a2daf8b747f5bd03126b8cc1509ddfedc6670b57863e75b619",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "962732db009f9d267bf876b16def5454c01e98c52a257889ac6cb9f4991027bd",
+          "visiblePixels": 2298
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "03388cf400b02b97f3e1b8287bac00a8f2fb56e6650e93a309c8193ff3099942",
+          "visiblePixels": 2164
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "ed11a796f6358ca1405cb0dd04916c19c1b32a626c83434ef40a34646e9a048f",
+          "visiblePixels": 2329
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "ec157b5ddcfb41738b676d4a5e2851e75b8fe3687f1b7cc8c064b7a1cda8e74e",
+          "visiblePixels": 2441
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "baa478a947679b17d602d7d5e7f7018b2524dc7b450690bd764f3f89756710f1",
+          "visiblePixels": 2356
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "e43116e8f4fc7be97e7e8059bdfa3d5e9e393e8785b65627bedbe882f7663408",
+          "visiblePixels": 2119
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "d06ef357907fc8471ce7e7cfad47c311d1f26c82954ed4a5c91ddb6574c8cc60",
+          "visiblePixels": 2097
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "5e8ee17b9d2fe4f869ff9a98f9d5723cca02703aa45b3a6ca34f4a2e180e8fd4",
+          "visiblePixels": 2284
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "48a2b4409a4ffe8cd9678fa0e9efae740f034f2182fba4cb384bce96f077f499",
+          "visiblePixels": 2227
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "3e4b3766350a45d28180d9e27feed5f1a7bc6165b2ff0cfe461be60f0ddcb0c8",
+          "visiblePixels": 2495
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "7c15da71effb05c6cfc8504fcb6f2fe64fa4950493fc18711e093865614b335f",
+          "visiblePixels": 2189
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "a28fede484e7fa1371750186acc62bf46ed7852be0688e9cada9d7de6fc7c561",
+          "visiblePixels": 2306
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "9ea8fbb54431c220275f5657b7c552f4be56cc5af18cab58291e47d030bc2b93",
+          "visiblePixels": 1816
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "ebbe8d87d96591334f560eece8f61e137bdd6081e27df017b0fde368ab328eb8",
+          "visiblePixels": 2061
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "933ced75a16ace260df942dffedc047665c3bd7fc0b13b8f5649bf7596e2bdf0",
+          "visiblePixels": 2113
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "src": "./public/assets/animation/accu-dunk-reverse-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "daf7b225ccb07df1aac9f3d0300bc4d19e157c4c5f949e971e4c04217f942847",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "6454d5a70547e016ed9ea9e72b745e0705d9f706ea1f94359a1d83f3f3846565",
+          "visiblePixels": 2258
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "130f19ec98393ad4b51c967443d66581c1f7dd1536e99fc24937bfe6946975f4",
+          "visiblePixels": 1883
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "0bf6072fc8e4d7935a6687a5189a5a9557476e8e0704b6ff1a2e45fe787e126d",
+          "visiblePixels": 2532
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "2ca3b213cccfb82cfd962a3785995ec5d530182d8352dba97ec3480b22a75374",
+          "visiblePixels": 2518
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "1f3897829474bd4b7c5843863d06ac958743aadea8e2f253dff65aa50b461fdd",
+          "visiblePixels": 2580
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "e4e07eead8550790973f81314563ab3e22270dbd41ea787e778e8849262d1c67",
+          "visiblePixels": 2289
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "30aeb1af7195c7f83a8fb938225b26c67422d3a6605f6cb9f8a70d2ff060a1e4",
+          "visiblePixels": 2101
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "712a73dc05013eb3261cbc83d93302354e9bf79bd6bb3d10a103d0a6e36e68c7",
+          "visiblePixels": 2406
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "793e1efd56533879307f1c882ef08ee48ecff5df47bbbf7af79a12ce5b39375d",
+          "visiblePixels": 2454
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "262cb3d74095ef4f1b4ded9b1c6fb4f4182271eaa9e9a5c793280bde6d0f220f",
+          "visiblePixels": 2207
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "91a3c624cace4ef26ccba58229d8cbd14aa7184c5c3e06af877622afddb34538",
+          "visiblePixels": 2229
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "736debb731471673c48dbd9a00fc3c70bb95530dc12f88a983cf87681c0a550c",
+          "visiblePixels": 2235
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "4d94d28239010c9fe511addc274dc839787ec53c1b8312c00e615eb6077f5ce6",
+          "visiblePixels": 2220
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "7f203e21bb3c7b4e878761e1a2e4199c544d09bb23d88dd999cc4b0e39cd3c88",
+          "visiblePixels": 2093
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "e6a7a2b3fc567e0cc3bf8a1787d54eb789ced521d37a4089a05c4c2abf77aa13",
+          "visiblePixels": 2184
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "dunk-360",
+      "src": "./public/assets/animation/accu-dunk-360-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "55c3cd34467c715099013a638b05e7b8f9ad91be02d261233f6ef320adda0587",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9eaf4ad50c604b12c7178e1da741a9d565c3408822011486528f5aa03ee151e0",
+          "visiblePixels": 3259
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "bf8010cba84920e1343370fd55d1a8fc90c2197fe731a171bbc4516b6b51d011",
+          "visiblePixels": 3007
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "e8fe420ce9382cdf876f4fbe6ff214d287bfc2124da68c2b7bcb7da3c7c49115",
+          "visiblePixels": 2914
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "dd76b992846b225433e8794abbb7a321644a891b04954596e94c630a9c2ff615",
+          "visiblePixels": 2837
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "48209acf91da9e690312d580964b3bf01168dfbd322afd76478d15034565ee81",
+          "visiblePixels": 3457
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "6730051600d8a010b5bf990dd5010f5acc3f0846e930989ceb915259148fa1dd",
+          "visiblePixels": 2850
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "6e7e9538687977eff718d4af4d34993153a23b506e0d1f0114e3e03f57f9d7d8",
+          "visiblePixels": 3371
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "0c5a54841dfcddd3859c0eaaad38f6aa631bd189316234b9856e2b54d6aacff3",
+          "visiblePixels": 2331
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "5bf6e36ffc793fd8ffe480ce291278a7f37ab923c3ad69dacf3df0f367908709",
+          "visiblePixels": 2677
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "efb68b40df712a53b7fa7b3da538aefecbe036189dc992dd780e4219bde5fea6",
+          "visiblePixels": 2826
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "9c9e0527a2701cdcacc003007839dc5f48547c06e0e73d73ef4dd8246167a382",
+          "visiblePixels": 2770
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "191ca22515bc1b778391d252987849ab77958dcd46fa3b677c892f50ae084fdb",
+          "visiblePixels": 2868
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "73b9a012b84fc77ec20143319a985739fa9a447a3a95383f8be190806db29e40",
+          "visiblePixels": 2865
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "d009fdf909b7d1753b68ae47f1726d96e64fd9f34c71f6c184e94ed2f10a514a",
+          "visiblePixels": 2685
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "e612d041dfb0d880f24aeb6f590534f35931e1c9e700fd0ea399d062f1a47fec",
+          "visiblePixels": 2686
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "src": "./public/assets/animation/accu-dunk-tomahawk-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "89e2ed293031bf81fd8759b207697dec7e6fd8541d2a462d6df8c1e983142383",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "251ac085c4188415cbd65b4431bd7b89cc1a8c2f1a94a8a21f6d57b095654d3f",
+          "visiblePixels": 2158
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "907b887579e01d87390dd43405c0672868ef7e10a8527db1cd25709fa0e3ec65",
+          "visiblePixels": 2249
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "7dbde5c57135251ce5d376073965e0bcd748423731be8259452510a4ff6394ef",
+          "visiblePixels": 2383
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "1543b281da5c6932556241ff1c45f687207c3daeeb5a72e1ff250e0af7287e70",
+          "visiblePixels": 2371
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "871ec83534d1561d31a348c4af87998d587084dda53c775e2d99404e45f8e470",
+          "visiblePixels": 2490
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "698854b3e03935d5d97b840e8c9bd9b70ebdca9bb89817ec1e075d6845f68180",
+          "visiblePixels": 2249
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "51d8c500db92c5d9488e74d84805a1312d27617e8b7225fd8c6e6c031f5b6526",
+          "visiblePixels": 2316
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "ff3449bfde82976e29b259cc715f75cdc623634dbb644817fc16f17784e3ede9",
+          "visiblePixels": 1890
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "972cd00079c3cd33c2c6f1e6873011013c0240b0b813cce22debcff229ae598b",
+          "visiblePixels": 2199
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "085ed80502fe7f93dc8343884bb5de4e58461ebae4ebafc465f0eec5cb474f79",
+          "visiblePixels": 2082
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "c65f51c288781de3bd579be98d85246ff0570480464ca1170d02773d730a3620",
+          "visiblePixels": 1899
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "95702e158281da52348f64e31ac7bb6ab09f8676e670a290912d638a58e7b58e",
+          "visiblePixels": 1837
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "f25d575b143fc5a9433a802a91146277b041929b0b161baff09752a688dd3fe1",
+          "visiblePixels": 1791
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "cfa91167706214529d166fc3f426e018126508039533a0a2163e972712d0b449",
+          "visiblePixels": 1703
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "14dbacd3c8388d8061eacf7f6f379a8dc80db51ed51c47860519ba23729e20d5",
+          "visiblePixels": 1894
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "dunk-double",
+      "src": "./public/assets/animation/accu-dunk-double-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "ff547365f744c6ab94c2402d8ae95e0113c3475ec815455d005af7b7ebf56919",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "32480550c17f2caa137fd3b5e382af6431fdc291852f90d2f20c3889515b6ee1",
+          "visiblePixels": 2256
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "96ae8d521e5c10e0b0f51c87fedd67940ad31d01ab00cc1e1886338f44230199",
+          "visiblePixels": 2287
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "35c928cfa33a1918a9f172a273cca3d7f9602064f61cb1df3d2f5d09fce2a7a2",
+          "visiblePixels": 2398
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "90f86aeeaa14219232b4f5f52cba1ef195ed9a0d0a00e7473864179ea0bef6b9",
+          "visiblePixels": 2167
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "1ad87a9baeeed8f9fe7e8fe30c57b3a1f57f95abafceb465eb69a689c5de4330",
+          "visiblePixels": 2164
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "0bdd4520cbd57261b7e0539bc713154de712d0e69deed7e43b1ac9da33d3a7e8",
+          "visiblePixels": 2294
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "db25d74095cbeb826818752c952dce9b7bc8f0c352879385fe5b42921814ddab",
+          "visiblePixels": 2239
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "260a18e54ca7664b1b38856c7caf6ca32fbe23c6ed515856df7dc6b1000a86a6",
+          "visiblePixels": 2112
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "aad59e324ab106e5f69c9f71e87c6123a433a3f42f9e8a9b3ced012b16ed08d0",
+          "visiblePixels": 2253
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "67f9e6467c0d2c9bb871088d80215291fa7617ec4f6a40bb712ced8b581c14ed",
+          "visiblePixels": 2263
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "8265b6420975f275c6c9b08576dd28049c0df718513c58c60f5025de1eebdb7e",
+          "visiblePixels": 2278
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "a398614463c18f4120939f533a1cd5efc24dcf2bab626bfd072eead7730ce1c5",
+          "visiblePixels": 2357
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "9c65044530e42269266bfeb3ac1e358333fcd483626f2b92a4e4c99f162e694f",
+          "visiblePixels": 2301
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "ab8ba42c8eebfa60e6e58eed42ebd768c087a8fafbf50c3ff758152f77b781ee",
+          "visiblePixels": 2331
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "5a3ee6c9ed0d5e6782e538f1b49e80f2f34df15defbd70ab2a3eb67b3c05d10a",
+          "visiblePixels": 2486
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "src": "./public/assets/animation/accu-dunk-clutch-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "722016afe3d0bfbd172266567237570eff1402b5233e8a2cf657bd90ca46e3ed",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "8ce3f406c14113f31e6ba2e3f092ddbf63c3e7c41c6f3f9c6ec6db115b648560",
+          "visiblePixels": 2253
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "492a7fd295dbda66cc04b506fb6b25113f8182ea59c4cc9e70ef6a5cfe61271f",
+          "visiblePixels": 2370
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "53c789e3dcfd297e15b42749edb4bd553c654eec953960e5bd05e9743350b7dc",
+          "visiblePixels": 2138
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "ade6c4e6e80ce5196e6007080a1a0df5121e2e43c3d866789d8f72e7b4b31383",
+          "visiblePixels": 2146
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "51b7d2b70ecc51baceba2043f3172e8bddb5ae5c1c493cd2fee4b34c91f7243d",
+          "visiblePixels": 2124
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "772d1d4a36fae0e376030f0d09dd7badd02a65a8a57ffd896b4b6455575dee7d",
+          "visiblePixels": 2091
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "e1418c79bf7eaa7bd058db36969dd7822bac2832803f447b7e2da7484d9e7764",
+          "visiblePixels": 2230
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "3fa4c2e437580e28f96f5f88e0612f88c2a3bbe054694d06a7b7594de45ea526",
+          "visiblePixels": 2228
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "0f5cae929d5cbfa356ef786ca0a75613e594ae972a30b583df2503ea2a277b73",
+          "visiblePixels": 2194
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "60e07d190af48491ea5df83ca6f4900f89970e96857d9b8e986932b6f625bb5f",
+          "visiblePixels": 2271
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "2dc9e9fe6e77b5e5fbef6b5c8f5805ee1c958f63ce094317ee3871be6eb6832a",
+          "visiblePixels": 1933
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "1ae8117687eefd5d2bd8aaf3ebdc1fccc6eebf417b02babe5e151d35d4c8b2d9",
+          "visiblePixels": 2038
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "73349b84e38cec6bd3fb78f492ac264003ecbb59c17e2a893a8986a2c35ef357",
+          "visiblePixels": 2398
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "d970c0df2ff726a55184ef4bb4f4d08500aae687754ee19affd69c9866a3a5a6",
+          "visiblePixels": 2245
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "c0adae56de4bd2f55575b79c1937666a7169dd62fa8640ba57e15fbf8a02e9a5",
+          "visiblePixels": 2356
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "src": "./public/assets/animation/accu-dunk-scythe-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "7e224de2dc26d43e3615fe261a1174b04de8688e086cc7d793147e7673e31a04",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "0f4a31bb9402f00e2c7f0884b3f42060d08c46efb1f55371e9031138b77de85c",
+          "visiblePixels": 2575
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "0da310abac3faa8dc52e6787cb462790967e721326ab99559cf2d620abfba72e",
+          "visiblePixels": 2694
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "e50266a60483f1f1701ae11d4cdd8d5e5e1c00f4a0b4a8da5f809ea440a43911",
+          "visiblePixels": 2743
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "af43994797f4e51e1962f48686311cc77984a00dd3f30cada804f7197f20bf36",
+          "visiblePixels": 2613
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "fe2c0569f536919a772207bc2328ad55eac5b58d4b90e18e1faf6131fb665f36",
+          "visiblePixels": 3010
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "aae7d4168f273b580fe692b1af097d717f8b59af099b01eb1c4e45283a6169a6",
+          "visiblePixels": 2781
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "33543a09cf06c5986056e74316237dce39045b798781019779b9d73bbcc15252",
+          "visiblePixels": 2916
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "9edc6d727d271cf761161aee4eb1202965ad45f43e930e7af570e3e87936f1d9",
+          "visiblePixels": 2651
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "e44861fca035bf6b9db817dd37b516bf20db33f334db99af4d4e5ac890c4088d",
+          "visiblePixels": 3003
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "ea3c28f786a14d58ecc8a9ff1bf3b8c3c9ed946e9c1f963e1cdf1485baf2fa2d",
+          "visiblePixels": 2598
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "0cc3c9cddc1be1ab93fc68fbb547b64c4383f6087ed845b53bc70af03be0ab04",
+          "visiblePixels": 2403
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "ccd1c7041227cce4d665625eb348d3c9c24edfbbfbc268b57ceeb69560ff6aa5",
+          "visiblePixels": 2480
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "9755e4eb43717bbbd5c2af76c2a98bcc3b19a19af0e6b9ce12e8d711594ef206",
+          "visiblePixels": 2639
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "15609adbc5281c6a2862b0e50a264f8f3c4a8b30a995136cb7ae265694dad875",
+          "visiblePixels": 2486
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "b5e5eac444f1145239dbc130d5e986f1bb042a7950a58bfcc0c5f4f1555548bf",
+          "visiblePixels": 2589
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "src": "./public/assets/animation/accu-alley-oop-power-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "8026f4e32a9762fcc28f157d75da4a4f8fed48201cd9da0a9487dadc07d5ea77",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "351cf1cbce97ae003f8782a2203fdc6634f1c19b9f6ca3d03115530e4826a143",
+          "visiblePixels": 2118
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "43ea1bb1ca50ef4fc48a309af9453cdb159224f8f8982949b0e1730b7e256b95",
+          "visiblePixels": 2156
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "386909f8f6ec313d5932207394a69228a9990ef2f65421af6ac58d2c8feaecbd",
+          "visiblePixels": 2189
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "8bc579d55f65fea5a141d6150ab22a9b628753c3835e5d6ce878a2d2c4b5b9e5",
+          "visiblePixels": 2217
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "9081165a7f6fcf00e55dcda5a30b72ea02490a7e0525cb1f9cdddb4a45a2b2c1",
+          "visiblePixels": 2286
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "29f621d5107c731fbf0f54c367f918bbd6ec18d4d5ddec584197c71b14140355",
+          "visiblePixels": 2183
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "3606820b46442e209031b23a46b6da6cf4e68e4c776b22c8b7fbf19a739f7690",
+          "visiblePixels": 2129
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "989dd0cb5a6c7456275ee38e7a909312858bdffe1264d1545c8e51d9d44d4228",
+          "visiblePixels": 2112
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "d0f58a17924af00a00ae685bb6ea20adb109e3163d890ac18a0aa3407d6299bb",
+          "visiblePixels": 2102
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "165e724e07df11c64a11bc3e8bf1ec06bcb85877e5700dafc16e8387e460bec3",
+          "visiblePixels": 2173
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "7b995926ce047ca5b0b7e21c84210ccef25b715c1e848323b27b027f42543c0b",
+          "visiblePixels": 1964
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "309fd69e7af4d77fe89d8e674dba1d8364a09c76505aa457cc1453408b13a495",
+          "visiblePixels": 1893
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "5d4e4bd5a46c7b7b8f43ce26aee879510e297fcdd61eb6e083bccdc62a958004",
+          "visiblePixels": 1855
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "0482ad22f597e66f95a3a7c3159f3167432e4f60388b490fec49b8d7acf7bde0",
+          "visiblePixels": 1833
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "3449798db7855018673c02b80e5d394690fd9bb23d431ae3a0f27f1873293f13",
+          "visiblePixels": 1975
+        }
+      ]
+    },
+    {
+      "athlete": "accu",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "src": "./public/assets/animation/accu-alley-oop-reverse-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "873e79ffdee506c22d0c03aebf6248ac7bd7546276611b03fd575fda42df9d1b",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "61be8c246b54217e2d46e82b16262fde0539d372cceb69f4684ede01764f3ce6",
+          "visiblePixels": 2674
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "760b583661ad4294f3b25f6e02969f391c596cdbb62e9ead4d8f6e16d2117ba3",
+          "visiblePixels": 2983
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "318ef921a435859aa74f15ef55bb6ffdbb7a145ed5e708ac53dad64ba7cb6bc2",
+          "visiblePixels": 2797
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "6a2a58d8c902662bd401e579f5fd34b0ee7c72820824d198eb63dc2cbc5f11c7",
+          "visiblePixels": 2886
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "c7dfde2a383268069c47a83b1d460941845b3b3904453157650bc74e0241f563",
+          "visiblePixels": 2561
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "8e87a516df37642cf5325387d8dc4418179749ad9316c10b79b2da929d20248d",
+          "visiblePixels": 2955
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "381662e673f8be4f71fae0155200221be23aa2a70db136f8dff3509252ebf1ed",
+          "visiblePixels": 2975
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "38b0e53f68701c3eeac45d125b5dc609f0eef653c16a8d07154da40b5821cc5e",
+          "visiblePixels": 2882
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "bea52882f483eedbddc087881ca1af1953b0400c832ed29e6f553606c0b2fdad",
+          "visiblePixels": 2676
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "7491a38236d8baae0b5cd164cefbdfcf01862e50bc4a5e3262339b2ce080ead3",
+          "visiblePixels": 2666
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "65c2b0614a283950ed842be5d1b55b88fd93e57887d14eb54fdd4046a4497cdc",
+          "visiblePixels": 2941
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "7d0a84734d6166d23b21fc87c6f403002001cf411421646a5ec1fc2b32c21ba7",
+          "visiblePixels": 2899
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "e189652431c5ff9415b06aea2c9bb9ae3af7ea9c6c653324dc86e434d779d5b5",
+          "visiblePixels": 2889
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "bf093452732d63211cd136b3279816f33d50825a2b16dfee09b739d0778ea05a",
+          "visiblePixels": 2452
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "1f732f6bc4fe2f66f0d8598fbc003c23561edb598990dddec9927b300a3ab431",
+          "visiblePixels": 2894
         }
       ]
     },

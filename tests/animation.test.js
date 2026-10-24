@@ -27,6 +27,28 @@ test('Dorian has all reviewed clips and runtime ball paths match recorded proven
  }
  for(const key of ['dribble','dribble-run'])assert.equal(clips[key].frames.length,animationClips[key].frames.length,`${key} target length`);
 });
+test('Accu has 29 reviewed clips and athlete-specific tracks matching the recorded calibration',()=>{
+ const clips=animationAssetManifest.characters.accu.directions.right;
+ assert.equal(Object.keys(clips).length,29);
+ assert.equal(Object.values(clips).reduce((n,entry)=>n+entry.frames.length,0),293);
+ let tracked=0;
+ for(const [key,entry] of Object.entries(clips)){
+  assert.equal(entry.reviewed,true,`${key} visual review`);
+  assert.ok(entry.frames.length>=animationClips[key].frames.length,`${key} has enough frames`);
+  const track=entry.provenance.runtimeBallTrack;if(!track)continue;tracked++;
+  assert.equal(track.reviewed,true,`${key} separate-ball review`);
+  assert.equal(track.height.length,animationClips[key].frames.length,`${key} height length`);
+  assert.equal(track.forward.length,animationClips[key].frames.length,`${key} forward length`);
+  let tick=0;
+  for(let frame=0;frame<animationClips[key].frames.length;frame++){
+   assert.equal(sampleBallHeight(key,tick,'accu'),track.height[frame],`${key} frame ${frame} height`);
+   assert.equal(sampleBallForward(key,tick,'accu'),track.forward[frame],`${key} frame ${frame} forward`);
+   tick+=animationClips[key].frames[frame].duration;
+  }
+ }
+ assert.equal(tracked,23);
+ for(const key of ['block','celebrate','fall','push'])assert.equal(clips[key].provenance.runtimeBallTrack,undefined,`${key} remains ball-free`);
+});
 test("Moxie's runtime ball tracks match accepted source provenance",()=>{
  const inventory=JSON.parse(readFileSync(new URL('../tools/generate-art/moxie-capwell-29-clip-inventory.json',import.meta.url),'utf8'));
  const clips=inventory.newSourceOnlyClips.filter(entry=>entry.ballTrack);

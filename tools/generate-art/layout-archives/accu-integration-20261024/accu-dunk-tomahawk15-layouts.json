@@ -1,0 +1,297 @@
+[
+  {
+    "athlete": "accu",
+    "direction": "right",
+    "clip": "dunk-tomahawk",
+    "src": "./public/assets/animation/accu-dunk-tomahawk-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "accu",
+      "clip": "dunk-tomahawk",
+      "direction": "right",
+      "canonicalSection": "J.10",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-47bfa98c-29a9-45c7-93c7-94af5e5a1b21",
+      "sourceImage": "tools/generate-art/sources/accu-dunk-tomahawk-generated-clean.png",
+      "sourceSha256": "6e0e8c7077c2263f69cf2d70dcaf76ad5efbd24f91afd7d401c63cd1265f33bc",
+      "promptFile": "tools/generate-art/accu-dunk-tomahawk-prompt.md",
+      "prompt": "Draw exactly fifteen distinct complete Accu DUNK-TOMAHAWK poses in a row-major 5\u00d73 transparent sprite sheet. Match attached Accu identity: warm tan young adult human woman, bright green eyes, blunt black bangs, close-cropped sides, two long black ponytails with teal ties, black sleeveless basketball uniform with teal/violet piping, dark arm sleeves and tights, teal/violet sneakers. Keep face, outfit, anatomy and scale consistent. Right-facing tomahawk dunk: frames 0-1 approach and gather; 2 takeoff at tick4; 3 rise; 4 knees tuck; 5 right arm lifts imaginary ball high; 6 cocks arm behind head; 7 peak at tick14 with elbow bent overhead; 8 drives arm down in a forceful tomahawk arc; 9 accelerates downward; 10 open-hand release through empty rim lane at tick21; 11 powerful follow-through at tick23; 12 descend; 13 land bent-knee; 14 stable recovery. Full figure each cell, only Accu. Exactly two arms, two legs. Hands empty in art; ball separate. No ball/sphere/object/prop, hoop/rim, opponent, extra athlete, court, floor, shadow, background, text, jersey numbers/logos, grid lines, effects. True transparent RGBA, no checker pattern; sharp 1990s pixel art outlines and gutters. Return only the 15-frame sheet.",
+      "timing": {
+        "takeoffFrame": 2,
+        "takeoffTick": 4,
+        "peakFrame": 7,
+        "peakTick": 14,
+        "releaseFrame": 10,
+        "releaseTick": 21,
+        "finishFrame": 11,
+        "finishTick": 23,
+        "landFrame": 14,
+        "landTick": 30
+      },
+      "ballTrack": {
+        "height": [
+          1.0,
+          1.1,
+          1.35,
+          1.65,
+          1.95,
+          2.15,
+          2.3,
+          2.4,
+          2.2,
+          1.8,
+          1.5,
+          1.3,
+          1.05,
+          0.8,
+          0.65
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          11,
+          10,
+          8,
+          6,
+          7,
+          9,
+          12,
+          14,
+          13,
+          10,
+          7,
+          6
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-accu-motion-background.py",
+        "method": "remove edge-connected neutral checkerboard pixels"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Fifteen distinct Accu tomahawk poses; arm cocks behind head and drives down. Identity and human anatomy preserved; no ball/props in art, separate Accu ball trajectory."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 26,
+          "y": 149,
+          "w": 280,
+          "h": 248,
+          "component": 5
+        },
+        {
+          "sourceIndex": 1,
+          "x": 374,
+          "y": 137,
+          "w": 255,
+          "h": 266,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 705,
+          "y": 111,
+          "w": 235,
+          "h": 293,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 999,
+          "y": 37,
+          "w": 232,
+          "h": 369,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1314,
+          "y": 6,
+          "w": 304,
+          "h": 400,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 49,
+          "y": 400,
+          "w": 257,
+          "h": 324,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 366,
+          "y": 425,
+          "w": 243,
+          "h": 302,
+          "component": 8
+        },
+        {
+          "sourceIndex": 7,
+          "x": 726,
+          "y": 417,
+          "w": 219,
+          "h": 252,
+          "component": 7
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1025,
+          "y": 454,
+          "w": 277,
+          "h": 250,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1358,
+          "y": 470,
+          "w": 238,
+          "h": 237,
+          "component": 10
+        },
+        {
+          "sourceIndex": 10,
+          "x": 52,
+          "y": 731,
+          "w": 275,
+          "h": 227,
+          "component": 12
+        },
+        {
+          "sourceIndex": 11,
+          "x": 372,
+          "y": 734,
+          "w": 257,
+          "h": 231,
+          "component": 13
+        },
+        {
+          "sourceIndex": 12,
+          "x": 745,
+          "y": 718,
+          "w": 223,
+          "h": 247,
+          "component": 11
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1055,
+          "y": 751,
+          "w": 207,
+          "h": 214,
+          "component": 15
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1345,
+          "y": 737,
+          "w": 233,
+          "h": 228,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.23,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

@@ -1,5 +1,12 @@
 # QA report
 
+## Accu — complete 29-clip source integration
+
+- Registered23 action atlases /241 authored drawings; Accu is now29/29 clips /293 drawings. All generated action sheets and packed atlases passed visual review for canonical green eyes, twin black ponytails with teal accents, adult human anatomy, pose separation, transparent background, no baked ball, and minimum5px margins on every packed cell edge. Rejected candidates, prompts, hashes, cleanup notes, layout records, source sheets, and dark/light proofs remain under `tools/generate-art/`.
+- Added athlete-specific separate-ball paths for23 carried-ball clips, calibrated the hand contacts, catch, bounce and release, and reviewed actual Canvas captures at100% and120%. Each zoom loaded176 images and captured87 production snapshots /572 action frames; every checked frame selected production art in both facings.
+- Exact base locomotion and `shoot` source PNGs were absent from this workspace. Their prompts, generation IDs, and hashes remain recorded, and the missing-original gap is explicit; no substitute poses were generated.
+- Validation: `npm test` PASS (28/28 files), lint PASS (18 modules), content validation PASS (35 franchises /105 athletes), 100-match simulation PASS (865,695 ticks /7 overtimes), build PASS, and animation packer checks PASS. Strict audit refreshed at `2026-10-24T19:16:54.716Z`: **744 clips /6,676 authored drawings /105 athletes**, 2,359 missing clips, one target shortfall, and4 inherited prompt findings. Next roster-order source package is Nova Stitch.
+
 ## Dorian Mycel — complete 29-clip integration
 
 - Registered25 reviewed source-only action atlases (260 authored drawings), added five independently generated locomotion frames, and repacked all29 Dorian atlases with at least5px clearance on every cell edge. Rejected tight-margin full sheets, original sources, exact prompts, hashes, cleanup notes, layouts and dark/light previews remain preserved under `tools/generate-art/`.

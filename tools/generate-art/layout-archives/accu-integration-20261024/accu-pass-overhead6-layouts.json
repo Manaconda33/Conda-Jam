@@ -1,0 +1,136 @@
+[
+  {
+    "athlete": "accu",
+    "direction": "right",
+    "clip": "pass-overhead",
+    "src": "./public/assets/animation/accu-pass-overhead-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "accu",
+      "clip": "pass-overhead",
+      "direction": "right",
+      "canonicalSection": "Neo Runway Precision / Accu",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-c2d09951-0e3e-4424-ae04-01bb5a39911d",
+      "imageGenerationId": "exec-c2d09951-0e3e-4424-ae04-01bb5a39911d",
+      "rawSourceImage": "tools/generate-art/sources/accu-pass-overhead-generated-raw.png",
+      "rawSourceSha256": "a859aac958b986342f40e4e2ddcd0d5b24877ad70ed2cb0754fa629721f948f6",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/accu-pass-overhead-generated-raw.png",
+      "sourceSha256": "a859aac958b986342f40e4e2ddcd0d5b24877ad70ed2cb0754fa629721f948f6",
+      "referenceImages": [
+        "public/assets/animation/accu-shoot-right.webp",
+        "public/assets/animation/accu-pass-right.webp"
+      ],
+      "prompt": "Create six NEW and distinct right-facing overhead-pass poses for Accu, in a 3-column by 2-row transparent RGBA sprite sheet, 1536\u00d71024. Use references only for Accu\u2019s canon identity, teal/violet/black kit, scale and pixel-art shading; redraw new poses. Accu is a stylish young adult human woman with warm tan skin, vivid green eyes, blunt black bangs, close-cropped sides, and two long black twin ponytails with teal ties. Keep her human anatomy and sleek teal/violet/black uniform consistent. Each cell has one complete body, clear hands/shoes/ponytails, same scale and baseline. No labels, borders, scenery, floor, shadows, hoop, ball or props. Hands are EMPTY; the game draws the basketball separately. Crisp 1990s arcade pixel clusters, sharp outlines, alpha-zero gutters/background.\n\nThis is a deliberate overhead pass (not a shot). Frame order: 0 balanced stance with hands chest-high; 1 knees flex as hands lift above forehead; 2 step forward and cock hands overhead; 3 RELEASE at tick7 with both arms reaching up and toward image-right, wrists flicked, palms open and empty; 4 upward follow-through with weight forward; 5 stable recovery with arms lowered. All six drawings are distinct and connected. Return only the sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Separate Accu-specific ball rises with her overhead hands and releases at frame3/tick7; it is never painted into the poses.",
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Six distinct complete human poses match Accu\u2019s canon identity and gameplay scale. Both long black twin ponytails, blunt bangs, close-cropped sides, vivid green eyes and teal/violet kit remain consistent. Frame3 is the single empty-hand upward pass release at tick7. Mirror review is pending; only canonical right-facing art is supplied."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 56,
+          "y": 57,
+          "w": 340,
+          "h": 429,
+          "component": 3,
+          "area": 74870
+        },
+        {
+          "sourceIndex": 1,
+          "x": 582,
+          "y": 42,
+          "w": 353,
+          "h": 444,
+          "component": 2,
+          "area": 76050
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1088,
+          "y": 18,
+          "w": 388,
+          "h": 468,
+          "component": 1,
+          "area": 74374
+        },
+        {
+          "sourceIndex": 3,
+          "x": 39,
+          "y": 508,
+          "w": 482,
+          "h": 481,
+          "component": 5,
+          "area": 85942
+        },
+        {
+          "sourceIndex": 4,
+          "x": 562,
+          "y": 507,
+          "w": 456,
+          "h": 484,
+          "component": 4,
+          "area": 80037
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1055,
+          "y": 566,
+          "w": 392,
+          "h": 426,
+          "component": 6,
+          "area": 74196
+        }
+      ],
+      "uniformScale": 0.19008264462809918,
+      "componentIsolation": true,
+      "packaging": "package-pass6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses"
+    }
+  }
+]

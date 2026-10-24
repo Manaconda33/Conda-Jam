@@ -1,0 +1,297 @@
+[
+  {
+    "athlete": "accu",
+    "direction": "right",
+    "clip": "dunk-power",
+    "src": "./public/assets/animation/accu-dunk-power-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "accu",
+      "clip": "dunk-power",
+      "direction": "right",
+      "canonicalSection": "J.10",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-30fe6f50-4196-4ba2-971f-9562a5d8870a",
+      "sourceImage": "tools/generate-art/sources/accu-dunk-power-generated-clean.png",
+      "sourceSha256": "84cdaf675d0809abffd9c9b04a03270a2df0cd3f7bc5544f1d80d3429760cba4",
+      "promptFile": "tools/generate-art/accu-dunk-power-prompt.md",
+      "prompt": "Generate a JAMVERSE '96 power dunk animation sheet for ACCU, the young adult human woman in the attached reference: warm tan skin, vivid green eyes, blunt black bangs, closely cropped sides, two long black twin ponytails tied teal, sleek black sleeveless basketball uniform with teal and violet piping, black tights and arm sleeves, teal/violet shoes. Preserve her identity and human anatomy in all frames. She is alone, exactly 15 different full-body right-facing poses in a strict 5 columns \u00d7 3 rows grid, row-major, with generous clear cell margins, identical scale and baseline. 1990s arcade pixel art with crisp dark outlines. A powerful one-handed right-hand slam dunk: frames 0-1 approaches and gathers, 2 takeoff marker tick4, 3 rises, 4 drives knees up, 5 reaches overhead, 6 swings ball-free arm for balance, 7 peak marker tick14 with right arm reaching high, 8 turns shoulders toward imaginary rim, 9 cocks right hand back, 10 release marker tick21 with open right hand sweeping down through empty space (NO ball drawn), 11 scoring follow-through tick23, 12 descends, 13 lands with knees flexed, 14 regains upright stance. All poses visibly distinct, no mirrored duplicates. The game draws the basketball separately: NO basketball, sphere, hoop, rim, props or object in any hand. No other player, court, floor, shadow, text, numbers, lettering, logo, effects, or background. Blank uniform. Real transparent RGBA, not a checkerboard. Full figure in every cell, no cut hair, fingers or shoes.",
+      "timing": {
+        "takeoffFrame": 2,
+        "takeoffTick": 4,
+        "peakFrame": 7,
+        "peakTick": 14,
+        "releaseFrame": 10,
+        "releaseTick": 21,
+        "finishFrame": 11,
+        "finishTick": 23,
+        "landFrame": 14,
+        "landTick": 30
+      },
+      "ballTrack": {
+        "height": [
+          1.0,
+          1.15,
+          1.25,
+          1.4,
+          1.65,
+          1.9,
+          2.1,
+          2.25,
+          2.35,
+          2.4,
+          2.25,
+          1.65,
+          1.1,
+          0.75,
+          0.65
+        ],
+        "forward": [
+          6,
+          8,
+          9,
+          10,
+          10,
+          8,
+          6,
+          6,
+          9,
+          13,
+          15,
+          13,
+          10,
+          8,
+          7
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-accu-dunk-power-background.py",
+        "method": "remove border-connected neutral checkerboard pixels"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Fifteen distinct full-body right-facing Accu poses. Black twin ponytail, teal ties, green eyes, blank black/teal/violet uniform. Ball absent from art, separate Accu-specific track documented."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 13,
+          "y": 113,
+          "w": 238,
+          "h": 248,
+          "component": 5
+        },
+        {
+          "sourceIndex": 1,
+          "x": 351,
+          "y": 130,
+          "w": 262,
+          "h": 231,
+          "component": 6
+        },
+        {
+          "sourceIndex": 2,
+          "x": 708,
+          "y": 48,
+          "w": 244,
+          "h": 313,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1029,
+          "y": 6,
+          "w": 239,
+          "h": 355,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1355,
+          "y": 3,
+          "w": 249,
+          "h": 337,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 24,
+          "y": 359,
+          "w": 237,
+          "h": 334,
+          "component": 12
+        },
+        {
+          "sourceIndex": 6,
+          "x": 340,
+          "y": 410,
+          "w": 300,
+          "h": 271,
+          "component": 14
+        },
+        {
+          "sourceIndex": 7,
+          "x": 685,
+          "y": 348,
+          "w": 204,
+          "h": 336,
+          "component": 11
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1035,
+          "y": 374,
+          "w": 284,
+          "h": 302,
+          "component": 13
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1358,
+          "y": 413,
+          "w": 256,
+          "h": 270,
+          "component": 15
+        },
+        {
+          "sourceIndex": 10,
+          "x": 15,
+          "y": 697,
+          "w": 269,
+          "h": 272,
+          "component": 19
+        },
+        {
+          "sourceIndex": 11,
+          "x": 360,
+          "y": 695,
+          "w": 244,
+          "h": 274,
+          "component": 18
+        },
+        {
+          "sourceIndex": 12,
+          "x": 697,
+          "y": 707,
+          "w": 241,
+          "h": 262,
+          "component": 20
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1035,
+          "y": 736,
+          "w": 212,
+          "h": 233,
+          "component": 21
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1356,
+          "y": 692,
+          "w": 224,
+          "h": 277,
+          "component": 17
+        }
+      ],
+      "uniformScale": 0.2591549295774648,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

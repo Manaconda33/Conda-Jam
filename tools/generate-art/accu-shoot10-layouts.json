@@ -148,7 +148,35 @@
         }
       ],
       "uniformScale": 0.22772277227722773,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "runtimeBallTrack": {
+        "height": [
+          0.95,
+          1.05,
+          1.25,
+          1.5,
+          2.31,
+          2.31,
+          2.05,
+          1.8,
+          1.35,
+          1.1
+        ],
+        "forward": [
+          6,
+          7,
+          8,
+          9,
+          10.7,
+          10.7,
+          10,
+          8,
+          6,
+          5
+        ],
+        "source": "native hand calibration using Accu atlas and 120% renderer preview",
+        "reviewed": true
+      }
     }
   }
 ]
