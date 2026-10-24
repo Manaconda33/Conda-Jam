@@ -1,0 +1,296 @@
+[
+  {
+    "athlete": "keeg",
+    "direction": "right",
+    "clip": "dunk-reverse",
+    "src": "./public/assets/animation/keeg-dunk-reverse-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "keeg",
+      "clip": "dunk-reverse",
+      "direction": "right",
+      "canonicalSection": "K.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-f54acfc6-8616-4a37-9dd2-e94b3ff41df7",
+      "imageGenerationId": "exec-f54acfc6-8616-4a37-9dd2-e94b3ff41df7",
+      "rawSourceImage": "tools/generate-art/sources/j100-keeg-dunk-reverse-generated-raw.png",
+      "rawSourceSha256": "ba73d07a1236e04851dbee582dc5400cf4af9f474afd5439db803aef87c0624e",
+      "sourceImage": "tools/generate-art/sources/j100-keeg-dunk-reverse15.png",
+      "sourceSha256": "9ebb871c77d922933e9e30768370d1e2802d86e7d9ef96372220373b4a5e10a4",
+      "prompt": "Create an original 1536\u00d71024 transparent RGBA production sprite sheet for JAMVERSE '96: Keeg of the Moonmorel Hex performing a right-facing REVERSE dunk. Arrange exactly fifteen separate complete full-body Keeg poses in a strict five-column by three-row grid, row-major. Keep each pose entirely inside its own cell with broad transparent gutters and outer margins. Same scale, camera, anatomy and identity. No overlap, borders, scenery, court, hoop, floor, shadows, effects, text, labels, teammate, opponent or props.\n\nKeeg is a flamboyant adult human man with normal athletic human anatomy, black hair, a neatly trimmed close black beard, an expressive face, and a very tall complete ornate purple witch hat with silver trim and small mushroom ornaments. He wears the layered purple/lavender/silver Moonmorel Hex athletic kit, belt and restrained occult detailing, plus matching purple/silver shoes. Preserve his face, adult human proportions, black hair, close beard, full hat height and silhouette, mushrooms, kit palette, and readable outline in every drawing. No monster anatomy, horns, robe, cape, staff, extra limbs or altered hat. Keep hands empty. The basketball is a separately rendered game object: never paint a ball, sphere, orb, seams, rim or prop.\n\nThis is an athletic reverse dunk, not a regular forward power dunk: Keeg turns his back/shoulder toward the rim during the flight, carries the invisible ball behind the far side of his very tall hat, then reaches backward over his shoulder and releases into the reverse side of the rim. Keep the entire hat visible and untouched by hand or ball in every pose. Pose 10 (zero based, eleventh cell) is the single empty-handed dunk release at simulation tick 21; poses 0\u20139 retain possession; poses 11\u201314 are empty-handed follow-through, landing and recovery. Fifteen unique connected poses:\n0 balanced right-facing approach, knees soft, hands low;\n1 gather and begin to load, the empty ball-miming hand near the waist;\n2 deep crouch and two-foot plant, shoulders begin turning away from the rim;\n3 explosive takeoff, torso rotates so the back/shoulder leads;\n4 airborne ascent, legs lift, invisible ball swings from the near hip toward the far side;\n5 carry the ball-miming hand behind the back at waist/shoulder level, torso turned away;\n6 rise across the lane, arm sweeps behind the shoulder and alongside the hat with visible clearance;\n7 high reverse-side cock, hand and wrist behind the far edge of the complete hat;\n8 peak, torso turned away from the basket, elbow flexed and empty hand poised over the far shoulder;\n9 coil into the backward finish, arm begins extending behind the shoulder, both hands empty;\n10 RELEASE at peak at tick21: reverse-side arm reaches backward/high into the rim with palm open after the one-handed dunk; full hat remains unobstructed;\n11 empty-handed arm follows through backward/down, other arm counterbalances;\n12 descending under control, torso rotates back toward the court, legs tuck naturally;\n13 controlled landing with knees flexed and arms lowering;\n14 grounded, balanced recovery stance with empty hands.\n\nKeep Keeg right-facing in the source sheet and moving toward image-right on approach. Preserve two arms, two legs, two natural hands and shoes in all poses. Return only one sharp, clean, truly transparent RGBA sprite sheet; no alpha haze, checkerboard, matte or speckles.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Keeg-specific separate ball follows the invisible far-side hand behind the shoulder, moves above and behind the complete hat, and releases on frame10/tick21. It is never painted into the poses.",
+      "ballTrack": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.5,
+          1.8,
+          1.4,
+          2.4,
+          2.55,
+          2.1,
+          2.1,
+          2.1,
+          2.1,
+          1.45,
+          0.7,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          4,
+          -2,
+          -5,
+          -7,
+          -9,
+          -8,
+          -6,
+          -4,
+          2,
+          4,
+          8,
+          5,
+          6
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-keeg-dunk-reverse15.py",
+        "layoutFile": "tools/generate-art/j100-keeg-dunk-reverse-cleanup-layout.json",
+        "minimumCellMarginPx": 10
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-24",
+        "reviewNotes": "Fifteen distinct complete Keeg human reverse-dunk poses. The torso turns away; the separate ball travels behind the shoulder/hat and releases at frame10/tick21. The complete purple hat and mushrooms, black hair, close beard, adult anatomy and purple/lavender/silver uniform remain consistent. K.03 approves mirroring."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 39,
+          "y": 28,
+          "w": 229,
+          "h": 304,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 373,
+          "y": 28,
+          "w": 175,
+          "h": 303,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 671,
+          "y": 30,
+          "w": 193,
+          "h": 301,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 973,
+          "y": 28,
+          "w": 205,
+          "h": 304,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1276,
+          "y": 28,
+          "w": 212,
+          "h": 304,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 33,
+          "y": 369,
+          "w": 240,
+          "h": 304,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 365,
+          "y": 370,
+          "w": 190,
+          "h": 303,
+          "component": 8
+        },
+        {
+          "sourceIndex": 7,
+          "x": 643,
+          "y": 384,
+          "w": 249,
+          "h": 289,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 965,
+          "y": 369,
+          "w": 222,
+          "h": 304,
+          "component": 7
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1296,
+          "y": 370,
+          "w": 171,
+          "h": 303,
+          "component": 9
+        },
+        {
+          "sourceIndex": 10,
+          "x": 30,
+          "y": 713,
+          "w": 246,
+          "h": 301,
+          "component": 14
+        },
+        {
+          "sourceIndex": 11,
+          "x": 329,
+          "y": 718,
+          "w": 261,
+          "h": 297,
+          "component": 15
+        },
+        {
+          "sourceIndex": 12,
+          "x": 667,
+          "y": 711,
+          "w": 202,
+          "h": 303,
+          "component": 11
+        },
+        {
+          "sourceIndex": 13,
+          "x": 982,
+          "y": 712,
+          "w": 187,
+          "h": 302,
+          "component": 13
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1285,
+          "y": 711,
+          "w": 194,
+          "h": 303,
+          "component": 12
+        }
+      ],
+      "uniformScale": 0.3026315789473684,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "atlasPath": "public/assets/animation/keeg-dunk-reverse-right.webp",
+      "atlasSha256": "b643df7cae53ab1642999f16c8a511b6f0a65efc7bc427bf7ead362d45d40f2a",
+      "atlasBytes": 66994
+    }
+  }
+]

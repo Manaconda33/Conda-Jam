@@ -1,0 +1,354 @@
+{
+  "source": "tools/generate-art/sources/j100-keeg-dunk-reverse-generated-raw.png",
+  "sourceSha256": "ba73d07a1236e04851dbee582dc5400cf4af9f474afd5439db803aef87c0624e",
+  "cleanedSource": "tools/generate-art/sources/j100-keeg-dunk-reverse15.png",
+  "cleanedSourceSha256": "9ebb871c77d922933e9e30768370d1e2802d86e7d9ef96372220373b4a5e10a4",
+  "method": "detect 15 alpha-connected figures; assign only each figure component and its nearest antialiased pixels; crop transparent halos; uniformly scale while preserving aspect; center in a 5x3 grid and bottom align with at least10px cell clearance",
+  "frames": [
+    {
+      "sourceIndex": 0,
+      "component": 1,
+      "rawBounds": [
+        12,
+        8,
+        262,
+        340
+      ],
+      "destination": [
+        41,
+        30,
+        225,
+        300
+      ],
+      "scale": 0.914878,
+      "marginsPx": [
+        41,
+        30,
+        41,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 1,
+      "component": 4,
+      "rawBounds": [
+        359,
+        15,
+        547,
+        340
+      ],
+      "destination": [
+        374,
+        30,
+        172,
+        300
+      ],
+      "scale": 0.931925,
+      "marginsPx": [
+        67,
+        30,
+        68,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 2,
+      "component": 5,
+      "rawBounds": [
+        652,
+        36,
+        845,
+        337
+      ],
+      "destination": [
+        673,
+        31,
+        189,
+        299
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        59,
+        31,
+        60,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 3,
+      "component": 2,
+      "rawBounds": [
+        971,
+        10,
+        1203,
+        354
+      ],
+      "destination": [
+        975,
+        30,
+        201,
+        300
+      ],
+      "scale": 0.882588,
+      "marginsPx": [
+        53,
+        30,
+        53,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 4,
+      "component": 3,
+      "rawBounds": [
+        1293,
+        10,
+        1523,
+        340
+      ],
+      "destination": [
+        1278,
+        30,
+        209,
+        300
+      ],
+      "scale": 0.920491,
+      "marginsPx": [
+        49,
+        30,
+        49,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 5,
+      "component": 7,
+      "rawBounds": [
+        27,
+        349,
+        294,
+        687
+      ],
+      "destination": [
+        34,
+        371,
+        238,
+        301
+      ],
+      "scale": 0.898388,
+      "marginsPx": [
+        34,
+        30,
+        35,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 6,
+      "component": 8,
+      "rawBounds": [
+        392,
+        350,
+        604,
+        688
+      ],
+      "destination": [
+        366,
+        371,
+        189,
+        301
+      ],
+      "scale": 0.895714,
+      "marginsPx": [
+        59,
+        30,
+        59,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 7,
+      "component": 9,
+      "rawBounds": [
+        689,
+        350,
+        938,
+        639
+      ],
+      "destination": [
+        644,
+        386,
+        247,
+        286
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        30,
+        45,
+        31,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 8,
+      "component": 6,
+      "rawBounds": [
+        1016,
+        344,
+        1252,
+        667
+      ],
+      "destination": [
+        965,
+        371,
+        220,
+        301
+      ],
+      "scale": 0.9405,
+      "marginsPx": [
+        43,
+        30,
+        44,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 9,
+      "component": 10,
+      "rawBounds": [
+        1321,
+        352,
+        1515,
+        696
+      ],
+      "destination": [
+        1297,
+        371,
+        170,
+        301
+      ],
+      "scale": 0.88,
+      "marginsPx": [
+        68,
+        30,
+        69,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 10,
+      "component": 13,
+      "rawBounds": [
+        26,
+        694,
+        277,
+        1001
+      ],
+      "destination": [
+        31,
+        713,
+        244,
+        300
+      ],
+      "scale": 0.980654,
+      "marginsPx": [
+        31,
+        30,
+        32,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 11,
+      "component": 14,
+      "rawBounds": [
+        338,
+        695,
+        624,
+        1021
+      ],
+      "destination": [
+        331,
+        720,
+        258,
+        293
+      ],
+      "scale": 0.911237,
+      "marginsPx": [
+        24,
+        37,
+        25,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 12,
+      "component": 11,
+      "rawBounds": [
+        700,
+        684,
+        902,
+        987
+      ],
+      "destination": [
+        668,
+        713,
+        200,
+        300
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        54,
+        30,
+        54,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 13,
+      "component": 15,
+      "rawBounds": [
+        1005,
+        698,
+        1199,
+        1012
+      ],
+      "destination": [
+        984,
+        713,
+        183,
+        300
+      ],
+      "scale": 0.961795,
+      "marginsPx": [
+        62,
+        30,
+        62,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 14,
+      "component": 12,
+      "rawBounds": [
+        1307,
+        693,
+        1515,
+        1018
+      ],
+      "destination": [
+        1287,
+        713,
+        191,
+        300
+      ],
+      "scale": 0.931925,
+      "marginsPx": [
+        58,
+        30,
+        58,
+        11
+      ]
+    }
+  ]
+}

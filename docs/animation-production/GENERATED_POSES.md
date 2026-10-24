@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-24. Issue3 remains **incomplete**. Actual registered total: **5,784 authored drawings across 662 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-24. Issue3 remains **incomplete**. Actual registered total: **5,799 authored drawings across 663 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -21,7 +21,7 @@
 | gummiefish | 5 | 42 | 219,698 |
 | piper-quickstep | 5 | 42 | 196,618 |
 | briar-foxglove | 5 | 42 | 180,192 |
-| keeg | 21 | 183 | 1,016,716 |
+| keeg | 22 | 198 | 1,083,710 |
 | toph | 5 | 42 | 151,554 |
 | heph | 5 | 42 | 152,702 |
 | liv | 6 | 52 | 237,996 |
@@ -599,6 +599,14 @@ Keeg adds fifteen distinct right-facing power-dunk poses, reaching20/29 reviewed
 Accepted generation `exec-e7da59f6-70b5-4424-a581-50618d4898fe` raw 1536×1024 RGBA SHA-256 `9a68e2f1bd94498e47a079bc74412b0ee3fd257c93657c38ca1494b7e8b093a6`; cleaned source `tools/generate-art/sources/j98-keeg-dunk-power15.png` SHA-256 `e1a077991759d139ad74f17c5ecdb4ffa73fee8fbee0a604fd234b5716c601b2`. Component cleanup isolates fifteen full silhouettes in row-major order with at least10px source-cell margins. The reviewed512×384 atlas `public/assets/animation/keeg-dunk-power-right.webp` is61,316 bytes / SHA-256 `0b4cd4390809a791ea4474fb512fece83544dccfb9b0f8f9f1fa5b214edb7521`. The verbatim prompt, source cleanup, layouts, provenance and ball track are in the J.98 generation files.
 
 J.98 validation passes404 JavaScript tests, lint18 modules, content validation,100-match simulation /854,447 ticks /7 overtimes,50 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 native previews each load164 images /87 snapshots /452 action frames. Both facings select all fifteen production poses; the separate ball is carried through frame9 and releases once at tick21. The strict report-only audit is661 clips /5,769 drawings /105 athletes, with2,442 missing clips,3 target shortfalls and4 inherited prompt findings. J.97 `f4843db` is deployed in Pages run #135. Next: Keeg `dunk-windmill`.
+
+## J.100 — Keeg `dunk-reverse`
+
+Keeg adds fifteen distinct reverse-dunk poses, reaching22/29 reviewed action clips /198 authored drawings. The back-facing turn carries the separate basketball behind the shoulder and clear of his full mushroom hat; release occurs at frame10/tick21 with the ball aligned to the extended palm in both facings. Canon K.03 approves mirroring. His human anatomy, black hair and close beard, purple hat with silver trim/mushrooms, and purple/lavender/silver uniform remain consistent.
+
+Accepted generation `exec-f54acfc6-8616-4a37-9dd2-e94b3ff41df7` raw1536×1024 RGBA SHA-256 `ba73d07a1236e04851dbee582dc5400cf4af9f474afd5439db803aef87c0624e`; cleaned source `tools/generate-art/sources/j100-keeg-dunk-reverse15.png` SHA-256 `9ebb871c77d922933e9e30768370d1e2802d86e7d9ef96372220373b4a5e10a4`. Alpha-component cleanup isolates fifteen complete figures with at least11px cell margins. The reviewed512×384 atlas `public/assets/animation/keeg-dunk-reverse-right.webp` is66,994 bytes / SHA-256 `b643df7cae53ab1642999f16c8a511b6f0a65efc7bc427bf7ead362d45d40f2a`. Exact prompt and rejected attempt, cleanup, layouts, ball track and provenance are in the J.100 files.
+
+J.100 validation passes406 JavaScript tests, lint18 modules, content validation,100-match simulation /854,447 ticks /7 overtimes,52 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 native previews each load166 images /87 snapshots /452 action frames. Both facings select the fifteen production poses; the separate ball follows the far-side hand and meets the release palm at frame10/tick21. Strict report-only audit is663 clips /5,799 drawings /105 athletes, with2,440 missing clips,3 target shortfalls and4 inherited prompt findings. J.99 `bb2501d` is deployed in Pages run #137. Next: Keeg `dunk-360`.
 
 ## J.99 — Keeg `dunk-windmill`
 
