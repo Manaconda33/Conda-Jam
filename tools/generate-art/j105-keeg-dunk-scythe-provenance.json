@@ -131,7 +131,7 @@
       6
     ]
   },
-  "nextAction": "Continue with individually generated, separately reviewed poses 07\u201314 using the pose-component workflow. Keep each source and exact prompt. Only assemble and register a complete 15-pose clip after all cells, anatomy, pose separation, transparency and the athlete-specific separate ball track pass review.",
+  "nextAction": "Continue with individually generated, separately reviewed poses 08\u201314 using the pose-component workflow. Keep each source and exact prompt. Only assemble and register a complete 15-pose clip after all cells, anatomy, pose separation, transparency and the athlete-specific separate ball track pass review.",
   "isolatedPoseComponentTrials": [
     {
       "generationId": "exec-2a98e1db-6f68-4495-a73b-01b47cb2ddca",
@@ -300,6 +300,43 @@
       "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
       "ballTrackStatus": "no basketball painted; full separate track remains unvalidated pending poses07-14",
       "eligibleForClipRegistration": false
+    },
+    {
+      "generationId": "exec-d6cba8f5-4de9-4032-911e-10cbe2fe5076",
+      "poseIndex": 7,
+      "poseName": "hand-beside-head-forward-of-hat",
+      "status": "accepted-as-isolated-pose-component; full-clip-incomplete",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-07-attempt-02.png",
+      "sourceSha256": "9f3184cd96842d7b8c96ab0b5c7fa169ead5e8a91c731f09ff05a30c4ffb03dd",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-07-attempt-02-prompt.md",
+      "identityReference": "public/assets/animation/keeg-dunk-power-right.webp",
+      "sourceDimensions": [
+        1322,
+        1190
+      ],
+      "alphaBoundsThreshold16": [
+        289,
+        49,
+        998,
+        1105
+      ],
+      "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-07-attempt-02-cell-review.png",
+      "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
+      "ballTrackStatus": "no basketball painted; full separate track remains unvalidated pending poses08-14",
+      "eligibleForClipRegistration": false
+    }
+  ],
+  "rejectedPoseComponentTrials": [
+    {
+      "generationId": "exec-ebc495c4-884e-487e-b47a-cd4f5caf841e",
+      "poseIndex": 7,
+      "attempt": 1,
+      "status": "rejected",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-07-attempt-01-rejected.png",
+      "sourceSha256": "cf736fa068c6303d609273778cc8bd572655c38022ff5b457ef2a8df53dd2487",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-07-attempt-01-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-07-attempt-01-rejected-review.png",
+      "reason": "The empty hand landed behind/left of and partly merged with the hat; it failed the required forward/right separation."
     }
   ]
 }

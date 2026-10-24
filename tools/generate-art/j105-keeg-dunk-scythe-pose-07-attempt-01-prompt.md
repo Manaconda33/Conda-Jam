@@ -1,0 +1,9 @@
+# J.105 — Keeg scythe dunk — isolated pose 07 — attempt 01
+
+## Verbatim generation prompt
+
+```text
+Create exactly ONE right-facing full-body Keeg game sprite for JAMVERSE '96 on transparent RGBA. This is pose 7 of the single-handed dunk-scythe: ascent, with the dunk hand beside Keeg's head but CLEARLY forward/right of the hat silhouette. Adult human man, normal athletic anatomy, black hair, neat beard, expressive face, tall ornate purple witch hat with silver trim and mushrooms, purple/lavender/silver Moonmorel Hex uniform, belt and matching shoes. Preserve exact identity and crisp pixel arcade style from attached reference. In a rising jump moving right, torso upright, both knees bent and shoes below. Dunk arm is bent upward; empty hand held beside the face at temple height, visibly to the right/forward of the hat edge with a clear gap so hand never overlaps or disappears against the hat. The free arm reaches down/out for balance. Distinct pose, full body, complete hat and shoes, generous transparent border. Exactly two arms, hands and legs, hands empty. Do not paint a ball. No circle, ball, prop, blade, scythe, staff, extra limbs, monster features, cape, robe, shadow, haze, glow, background, floor, court, grid, labels, text, sprite sheet, multiple poses or extra figure. One isolated transparent sprite only, clean outlines and readable human anatomy.
+```
+
+Generation `exec-ebc495c4-884e-487e-b47a-cd4f5caf841e`; identity reference `public/assets/animation/keeg-dunk-power-right.webp`; source `sources/j105-keeg-dunk-scythe-pose-07-attempt-01-rejected.png`; SHA-256 `cf736fa068c6303d609273778cc8bd572655c38022ff5b457ef2a8df53dd2487`. **Rejected.** The empty dunk hand appears behind/left of the hat, partly merging with its silhouette; it is not clearly forward/right of the hat as required. The isolated cell preview is `artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-07-attempt-01-rejected-review.png`.
