@@ -1,17 +1,16 @@
 # QA report
 
-## Latest validated checkpoint — J.96 (2026-10-24; pushed and deployed)
+## Latest validated checkpoint — J.97 (2026-10-24; local, push pending)
 
-- `npm test`: PASS —402 tests, zero failures; includes static offline build.
+- `npm test`: PASS —403 tests, zero failures; includes static offline build.
 - `npm run lint`: PASS —18 JavaScript modules.
 - `npm run validate:content`: PASS —35 franchises /105 unique athletes /35 canonical captains.
 - `npm run simulate:league`: PASS —100 matches /854,447 ticks /7 overtime periods.
-- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —48 packer checks.
-- `npm run build`: PASS —static bundle and standalone offline page.
+- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —49 packer checks.
 - `npm run test:e2e`: PASS —Chromium offline startup, settings, controls, co-op, touch, matchups, full match and season progression.
-- Strict audit: expected INCOMPLETE —659 clips /5,746 authored drawings across105 athletes,2,444 missing clips,3 target shortfalls and4 inherited prompt findings.
-- Keeg standard and zoom120 previews each loaded162 images and rendered87 clip snapshots /452 action frames. All eight layup poses select production art in both facings; Keeg carries the separate ball through tick8 and releases at tick10.
-- J.96 `3dafc35` Pages run #134 succeeded: https://github.com/Manaconda33/Conda-Jam/actions/runs/40042748188. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3dafc35.
+- Strict audit: expected INCOMPLETE —660 clips /5,754 authored drawings across105 athletes,2,443 missing clips,3 target shortfalls and4 inherited prompt findings.
+- Keeg standard and zoom120 previews each loaded163 images and rendered87 clip snapshots /452 action frames. All eight reverse-layup poses select production art in both facings; the separate ball stays carried through frame4 and releases at tick12 in frame5.
+- J.96 `3dafc35` Pages run #134 succeeded. J.97 is fully validated and ready for checkpoint push.
 
 ## Environment
 

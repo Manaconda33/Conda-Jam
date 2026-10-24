@@ -410,6 +410,29 @@ test('Keeg selects eight reviewed layup poses with a separate release hand track
   tick+=animationClips.layup.frames[frame].duration;
  }
 });
+test('Keeg selects eight reviewed reverse-layup poses with his separate ball releasing at tick12',()=>{
+ const id='keeg',character=animationAssetManifest.characters[id],clip=character?.directions?.right?.['layup-reverse'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(character?.mirrorReview?.canonicalSection,'K.03');
+ assert.ok(clip,'registered reverse-layup atlas');assert.equal(clip.reviewed,true);
+ assert.equal(clip.frames.length,8);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,8);
+ assert.equal(clip.provenance.sourceSha256,'5dfe3449da937f98cfa2579b6da72a86a63cbae3ad1952eddc6624ba6c41964b');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.ballTrack.height[5],2.15);assert.equal(clip.provenance.ballTrack.forward[5],2);
+ const release=anchorTick('layup-reverse','release');assert.equal(release,12);
+ assert.equal(sampleBallForward('layup-reverse',release,id),2);assert.equal(sampleBallHeight('layup-reverse',release,id),2.15);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<8;frame++){
+  assert.equal(sampleAnimation('layup-reverse',tick).frame,frame,'runtime maps Keeg reverse-layup pose '+frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'layup-reverse',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['layup-reverse'].frames[frame].duration;
+ }
+});
 test('Keeg selects five reviewed pickup poses with floor contact and safe mirroring',()=>{
  const character=animationAssetManifest.characters.keeg,pickup=character.directions.right.pickup;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');

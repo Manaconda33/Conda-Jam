@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,746 authored drawings across 659 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-24. Issue3 remains **incomplete**. Actual registered total: **5,754 authored drawings across 660 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -21,7 +21,7 @@
 | gummiefish | 5 | 42 | 219,698 |
 | piper-quickstep | 5 | 42 | 196,618 |
 | briar-foxglove | 5 | 42 | 180,192 |
-| keeg | 18 | 145 | 833,716 |
+| keeg | 19 | 153 | 892,104 |
 | toph | 5 | 42 | 151,554 |
 | heph | 5 | 42 | 152,702 |
 | liv | 6 | 52 | 237,996 |
@@ -583,3 +583,11 @@ Keeg adds eight distinct right-facing layup poses, reaching18/29 reviewed clips 
 The first generated sheet is preserved and rejected because its empty follow-through hand intersects the hat. Corrected edit `exec-495f8dd7-ec8a-4396-9319-c9e2b5180b63` moves only that follow-through hand clear of the brim; raw source SHA-256 `2a19b5b775289c79927ea84f1587e674f5a0ad2d8b7998dcf0952aceae9332c9`. Cleaned source `tools/generate-art/sources/j96-keeg-layup8.png` SHA-256 `ad8e83a97b612596d3e3e308ee36a65b3e1e1e9cd927ac39c9dab2b5acc4e4d9`; the reviewed320×192 atlas `public/assets/animation/keeg-layup-right.webp` is60,854 bytes / SHA-256 `97c49ec8a6bb9b8ef4ffd831e0cbcc87c301445369519c58928225587d6ec56e`. Exact accepted/rejected prompts, layouts, provenance, cleanup, and preview evidence are recorded in the J.96 generation files.
 
 J.96 validation passes402 JavaScript tests, lint18 modules, content validation,100-match simulation /854,447 ticks /7 overtimes,48 packer checks, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 native previews each load162 images /87 snapshots /452 action frames; all eight poses use production art in both facings and the separate ball releases at tick10. The strict report-only audit is659 clips /5,746 drawings /105 athletes, with2,444 missing clips,3 target shortfalls and4 inherited prompt findings. J.96 `3dafc35` is deployed in Pages run #134; preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3dafc35. Next: Keeg `layup-reverse`.
+
+## J.97 — Keeg `layup-reverse`
+
+Keeg adds eight distinct right-facing reverse-layup poses, reaching19/29 reviewed action clips /153 authored drawings. He crosses beneath the hoop, turns his shoulders away from the rim, holds the invisible ball at the high reverse-side peak in frame4, releases once from the far-side hand at frame5 /simulation tick12, then follows through empty-handed and lands. The separate basketball follows Keeg's own track: height `[1.05,1.25,1.3,1.85,2.15,2.15,1.4,.6]`, forward `[6,8,6,6,3,2,7,6]`. His adult human anatomy, black hair, close beard, complete very tall purple hat with silver trim and mushrooms, and purple/lavender/silver kit remain consistent. Canon K.03 approves mirroring.
+
+Accepted generation `exec-0aa3a988-6dc5-48ea-8115-48924eb1e7c4` raw 1536×1024 RGBA source SHA-256 `017b3081a0097a608bf67777e5d4a85c439a466e0da0732597543bbaef640086`; cleaned source `tools/generate-art/sources/j97-keeg-layup-reverse8.png` SHA-256 `5dfe3449da937f98cfa2579b6da72a86a63cbae3ad1952eddc6624ba6c41964b`. Alpha-component cleanup isolates eight complete silhouettes in row-major cells with at least34px margins. The reviewed320×192 atlas `public/assets/animation/keeg-layup-reverse-right.webp` is58,388 bytes / SHA-256 `95e8b5161027f55ffd9591b4cc03d7d928700e038295f3c49059eed775b2231b`. The verbatim generation prompt, cleanup layout, provenance and source are in the J.97 generation files.
+
+J.97 validation passes403 JavaScript tests, lint18 modules, content validation,100-match simulation /854,447 ticks /7 overtimes,49 packer checks, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 native previews each load163 images /87 snapshots /452 action frames. Both facings select all eight production poses; in the frame4/tick10 peak the separate ball is held at Keeg's far-side hand and releases once at tick12. The strict report-only audit is660 clips /5,754 drawings /105 athletes, with2,443 missing clips,3 target shortfalls and4 inherited prompt findings. J.96 `3dafc35` is deployed in Pages run #134. Next: Keeg `dunk-power`.

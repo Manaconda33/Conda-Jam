@@ -574,7 +574,10 @@ const athleteBallTracks={'reed-ashcroft':{
   steal:{height:[1.05,1,.85,.72,.85,1,1.15,1.1],forward:[6,9,12,14,12,9,7,6]},
   // Keeg's separate layup ball rises beside the tall hat to his right hand,
   // meets the release pose, and leaves on the shared tick-10 marker.
-  layup:{height:[1.05,1.2,1.45,2.15,2.4,2.25,1.55,1.05],forward:[6,7.5,9,12,14,12,8,6]}
+  layup:{height:[1.05,1.2,1.45,2.15,2.4,2.25,1.55,1.05],forward:[6,7.5,9,12,14,12,8,6]},
+  // The reverse layup rotates the far-side hand behind Keeg's shoulder. Keep
+  // the separate ball at that raised hand through frame5/tick12, then release.
+  'layup-reverse':{height:[1.05,1.25,1.3,1.85,2.15,2.15,1.4,.6],forward:[6,8,6,6,3,2,7,6]}
 },paprika:{
   receive:{height:[.35,.5,.5,.35],forward:[12,13,14,12]},
   pickup:{height:[.2,.15,.05,0,.55],forward:[12,13,14,14,7]},

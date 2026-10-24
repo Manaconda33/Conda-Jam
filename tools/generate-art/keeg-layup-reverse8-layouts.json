@@ -1,0 +1,193 @@
+[
+  {
+    "athlete": "keeg",
+    "direction": "right",
+    "clip": "layup-reverse",
+    "src": "./public/assets/animation/keeg-layup-reverse-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "keeg",
+      "clip": "layup-reverse",
+      "direction": "right",
+      "canonicalSection": "K.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-0aa3a988-6dc5-48ea-8115-48924eb1e7c4",
+      "imageGenerationId": "exec-0aa3a988-6dc5-48ea-8115-48924eb1e7c4",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j97-keeg-layup-reverse8.png",
+      "sourceSha256": "5dfe3449da937f98cfa2579b6da72a86a63cbae3ad1952eddc6624ba6c41964b",
+      "rawSourceImage": "tools/generate-art/sources/j97-keeg-layup-reverse-generated-raw.png",
+      "rawSourceSha256": "017b3081a0097a608bf67777e5d4a85c439a466e0da0732597543bbaef640086",
+      "rejectedGenerations": [],
+      "prompt": "Create one original true-transparent RGBA sprite sheet for JAMVERSE '96: Keeg's right-facing reverse layup. Keeg is the canonical Moonmorel Hex athlete: a flamboyant adult human man with normal athletic human anatomy, black hair, a neatly trimmed close black beard, and an extremely tall complete ornate purple witch hat with silver trim and small mushroom ornaments. His clothing is layered lavender, purple and silver Moonmorel Hex athletic kit with belts, rings and restrained occult detailing. Preserve the same face, close beard, black hair, very tall hat silhouette and height, mushroom ornaments, human proportions, shoes, palette and crisp chunky 1990s arcade pixel-art sprite style in all eight drawings. Do not make him a wizard caricature or change his hat, face, body, or uniform.\n\nDraw exactly eight separate complete right-facing three-quarter full-body Keeg poses, strict four columns by two rows, row-major. Each cell contains one independently drawn original pose at identical scale and camera view. Use a clean transparent RGBA canvas with generous transparent gutters and wide outer margins, especially above the tall hat. Keep his entire hat, all limbs and shoes inside the cell. No figure touches/crosses a cell boundary or overlaps another. No scenery, floor, hoop, shadow, glow, grid, labels, text, border or other character.\n\nThis is a reverse-side layup, not a regular layup or dunk. Show one mechanically connected compact takeoff, torso rotation, reverse-side overhead finish and landing sequence as he crosses beneath the hoop. The basketball is rendered separately by the game: never draw a ball, sphere, seams, orb, or object. His natural human hands mime the ball position but remain visibly empty and distinct. Keep the very tall hat intact and visible through every shoulder turn.\n\nPose order is tied to the runtime: pose 4 (fifth cell) is the high reverse-side peak and preparation; Keeg is still holding the invisible ball. Pose 5 (sixth cell) is the sole release at simulation tick 12; after that his hands are empty. Make all poses clearly distinct:\n0. Low, controlled approach toward the right along the baseline, knees flexed and hands empty near waist.\n1. Gather while moving right, knees bend, hands close together at chest height as if securing the invisible ball.\n2. Plant and begin taking off under the rim; turn shoulders and head to show the reverse-side rotation without hiding or deforming the hat.\n3. Rise across the lane, rotate the torso naturally; bring the shooting hand beside the hat, ball-miming hand still empty.\n4. High airborne reverse-side peak before release, chest partly turned away, head looking over shoulder toward the target, far-side shooting hand cocked safely beside and just above the rear edge of the hat; invisible ball remains gathered in that empty hand position.\n5. RELEASE at the peak at tick 12: extend the far-side arm up and back over the shoulder toward the reverse side of the rim with an open empty hand and clear wrist snap. Do not put fingers, wrist or arm through the hat. This is the only release pose.\n6. Empty-handed follow-through as Keeg descends beyond the rim; extended arm relaxes, knees tuck naturally, hat remains whole.\n7. Land balanced on both feet with flexed knees and recover to an upright ready stance.\n\nKeep the movement athletic and anatomically sound with two arms, two legs, two hands and two shoes in every complete drawing. Preserve his adult human face, beard and readable purple hat details. Output only the sprite sheet with real alpha transparency, clean pixel edges and no exterior matte or speckles.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "c2pa": null,
+      "ballPolicy": "Keeg-specific separately rendered ball track follows his empty far-side shooting hand through frame4 peak and frame5 release at tick12; hands are empty after release.",
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.25,
+          1.3,
+          1.85,
+          2.15,
+          2.15,
+          1.4,
+          0.6
+        ],
+        "forward": [
+          6,
+          8,
+          6,
+          6,
+          3,
+          2,
+          7,
+          6
+        ]
+      },
+      "mirrorEligible": true,
+      "cleanup": {
+        "script": "tools/generate-art/clean-keeg-layup-reverse8.py",
+        "minimumCellMarginPx": 34,
+        "layoutFile": "tools/generate-art/j97-keeg-layup-reverse-cleanup-layout.json"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-24",
+        "reviewNotes": "Eight distinct full-body reverse layup poses with separate alpha-connected silhouettes. The high reverse-side prep is frame4; open-handed far-side release is frame5/tick12, followed by an empty-handed descent and balanced landing. Keeg retains adult human anatomy, black hair, close beard, complete tall purple hat with silver trim and mushroom ornaments, and purple/lavender/silver kit. K.03 approves mirroring."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 51,
+          "y": 33,
+          "w": 280,
+          "h": 445,
+          "component": 3,
+          "area": 46076
+        },
+        {
+          "sourceIndex": 1,
+          "x": 461,
+          "y": 32,
+          "w": 228,
+          "h": 447,
+          "component": 1,
+          "area": 44190
+        },
+        {
+          "sourceIndex": 2,
+          "x": 844,
+          "y": 33,
+          "w": 233,
+          "h": 446,
+          "component": 4,
+          "area": 41802
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1216,
+          "y": 32,
+          "w": 254,
+          "h": 447,
+          "component": 2,
+          "area": 42076
+        },
+        {
+          "sourceIndex": 4,
+          "x": 49,
+          "y": 546,
+          "w": 286,
+          "h": 445,
+          "component": 8,
+          "area": 48184
+        },
+        {
+          "sourceIndex": 5,
+          "x": 434,
+          "y": 544,
+          "w": 283,
+          "h": 447,
+          "component": 6,
+          "area": 43632
+        },
+        {
+          "sourceIndex": 6,
+          "x": 801,
+          "y": 585,
+          "w": 318,
+          "h": 406,
+          "component": 9,
+          "area": 37807
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1225,
+          "y": 545,
+          "w": 238,
+          "h": 446,
+          "component": 7,
+          "area": 46031
+        }
+      ],
+      "uniformScale": 0.2058165548098434,
+      "componentIsolation": true,
+      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses",
+      "atlasPath": "public/assets/animation/keeg-layup-reverse-right.webp",
+      "atlasSha256": "95e8b5161027f55ffd9591b4cc03d7d928700e038295f3c49059eed775b2231b",
+      "atlasBytes": 58388
+    }
+  }
+]
