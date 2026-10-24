@@ -52,8 +52,8 @@
         <div class="game-footer"><span id="game-controls-hint">WASD MOVE · J SHOOT/BLOCK · K PASS/STEAL · L TURBO · L+K CHECK · ENTER PAUSE</span><button id="back-menu">QUIT TO MENU</button></div>
       </div>
     </section>
-    <dialog id="settings-dialog">
-      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">CABINET SETTINGS</p><h2>MAKE IT YOURS</h2>
+    <dialog id="settings-dialog" aria-labelledby="settings-title">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">CABINET SETTINGS</p><h2 id="settings-title">MAKE IT YOURS</h2>
         <label class="setting">Music <input type="range" id="music-volume" min="0" max="100" value="55" /><span id="music-volume-value">55%</span></label>
         <label class="setting">Game effects <input type="range" id="effects-volume" min="0" max="100" value="55" /><span id="effects-volume-value">55%</span></label>
         <label class="setting">Screen shake <input type="checkbox" id="screen-shake" checked /></label>
@@ -69,19 +69,19 @@
       </form>
     </dialog>
     <dialog id="quit-dialog" aria-labelledby="quit-title"><form method="dialog"><p class="kicker">MATCH IN PROGRESS</p><h2 id="quit-title">LEAVE THIS GAME?</h2><p class="setting-note">This match will end without adding it to your saved records.</p><div class="quit-actions"><button type="button" id="cancel-quit" class="dialog-button">KEEP PLAYING</button><button type="button" id="confirm-quit" class="dialog-button danger-button">QUIT TO TEAM SELECT</button></div></form></dialog>
-    <dialog id="campaign-dialog">
-      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">SEASON RUN</p><h2>THE LONG ROAD</h2><p class="setting-note">Build a run through the league. Win each match on court to advance. Progress is saved locally between visits.</p><ol id="ladder"></ol><button class="dialog-button" id="campaign-play">PLAY NEXT GAME</button></form>
+    <dialog id="campaign-dialog" aria-labelledby="campaign-title">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">SEASON RUN</p><h2 id="campaign-title">THE LONG ROAD</h2><p class="setting-note">Build a run through the league. Win each match on court to advance. Progress is saved locally between visits.</p><ol id="ladder"></ol><button class="dialog-button" id="campaign-play">PLAY NEXT GAME</button></form>
     </dialog>
-    <dialog id="tournament-dialog">
-      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">SINGLE ELIMINATION · 8 FRANCHISES</p><h2>THE JAM CUP</h2><p class="setting-note">Win three games to take the cup. The bracket and each CPU result are generated from a saved seed.</p><ol id="cup-bracket" class="standings-list"></ol><button class="dialog-button" id="cup-play">PLAY ROUND ONE</button></form>
+    <dialog id="tournament-dialog" aria-labelledby="tournament-title">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">SINGLE ELIMINATION · 8 FRANCHISES</p><h2 id="tournament-title">THE JAM CUP</h2><p class="setting-note">Win three games to take the cup. The bracket and each CPU result are generated from a saved seed.</p><ol id="cup-bracket" class="standings-list"></ol><button class="dialog-button" id="cup-play">PLAY ROUND ONE</button></form>
     </dialog>
-    <dialog id="standings-dialog">
-      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">JAMVERSE ’96 LEAGUE</p><h2>THE STANDINGS</h2><p class="setting-note">All completed games count. Records stay saved on this device.</p><ol id="standings-list" class="standings-list"></ol><button class="dialog-button">CLOSE</button></form>
+    <dialog id="standings-dialog" aria-labelledby="standings-title">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">JAMVERSE ’96 LEAGUE</p><h2 id="standings-title">THE STANDINGS</h2><p class="setting-note">All completed games count. Records stay saved on this device.</p><ol id="standings-list" class="standings-list"></ol><button class="dialog-button">CLOSE</button></form>
     </dialog>
-    <dialog id="career-dialog">
-      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">ALL-TIME PLAYER RECORDS</p><h2>CAREER LEADERS</h2><p class="setting-note">Top scorers from completed non-practice games on this device.</p><ol id="career-list" class="standings-list"></ol><button class="dialog-button">CLOSE</button></form>
+    <dialog id="career-dialog" aria-labelledby="career-title">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">ALL-TIME PLAYER RECORDS</p><h2 id="career-title">CAREER LEADERS</h2><p class="setting-note">Top scorers from completed non-practice games on this device.</p><ol id="career-list" class="standings-list"></ol><button class="dialog-button">CLOSE</button></form>
     </dialog>
-    <dialog id="team-dialog" class="team-dialog">
+    <dialog id="team-dialog" class="team-dialog" aria-labelledby="team-dialog-title">
       <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">35 ORIGINAL FRANCHISES</p><h2 id="team-dialog-title">CHOOSE A TEAM</h2><div id="team-grid" class="team-grid"></div></form>
     </dialog>
     <div id="live-region" class="sr-only" aria-live="polite"></div>

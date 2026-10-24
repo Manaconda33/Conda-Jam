@@ -535,6 +535,19 @@ test('regulation transitions into overtime on a tie and only finishes after a de
   assert.equal(match.phase, 'final');
 });
 
+test('a shot already in flight gets to resolve after the period clock reaches zero', () => {
+  const match=createMatch({quarterSeconds:1,seed:27});
+  match.clock=1/60;
+  Object.assign(match.ball,{mode:'shot',x:80,y:20,z:30,vx:.1,vy:0,vz:0,made:false,targetX:130,targetY:50,targetZ:2.6,attemptId:'buzzer-shot'});
+  stepMatch(match,[]);
+  assert.equal(match.phase,'playing');
+  assert.equal(match.clock,0);
+  assert.equal(match.ball.mode,'shot');
+  match.ball.mode='loose';
+  stepMatch(match,[]);
+  assert.equal(match.phase,'break');
+});
+
 test('three-point scoring follows the regulation elliptical arc and corner segments in both directions',()=>{
   const cornerOffset=court.arcX*Math.sqrt(1-((50-court.cornerY)/court.arcY)**2);
   for(const team of [0,1]){

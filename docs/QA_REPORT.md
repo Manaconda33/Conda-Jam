@@ -1,3 +1,11 @@
+## Current checkpoint — gameplay, accessibility and audit refresh (source validation passed; Pages pending)
+
+- Gameplay: body checks can jar the ball loose from a nearby carrier at reduced odds; the carrier is stunned and the defender receives last touch. Shots and dunks released before zero on the game clock now resolve before period transition. Regressions cover both behaviors.
+- Accessibility: Settings, franchise picker, season, cup, standings, and career dialogs now use their visible headings as accessible names. Chromium role/name assertions cover all six.
+- Verification: `npm test` 413/413; `npm run lint` 18 modules; `npm run validate:content` 35/105; `npm run simulate:league` 100 matches / 853,336 ticks / 6 overtime periods; atlas packer 55 tests; build and full Chromium offline/match/season journey pass.
+- Strict animation audit remains incomplete as required: 667 clips / 5,859 authored drawings / 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings. No accepted Keeg J.105 scythe art yet: two generated sheets are rejected for poses touching/crossing cell margins; both sources and exact prompts are preserved.
+- Source changes have not yet been committed or deployed. Latest confirmed Pages build remains run #154 at `aca8ac9`; `gh run list` currently returns GitHub API Forbidden in this environment, so later workflow status cannot be verified here.
+
 # QA report
 
 ## Gameplay and settings polish — shot-clock pass expiration and keyboard capture cancellation

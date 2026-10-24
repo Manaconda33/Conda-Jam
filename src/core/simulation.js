@@ -410,6 +410,7 @@ function integrateBall(match) {
 function resolvePeriod(match) {
   if(match.periodBreak>0){match.periodBreak--;if(match.periodBreak===0){match.phase=match.period>4?'overtime':'playing';const team=match.period%2===0?1:0;const p=match.players.find(a=>a.team===team);giveBall(match,p,`Quarter ${match.period}: play!`);}return;}
   if(match.clock>0)return;
+  if(match.ball.mode==='shot'||match.ball.mode==='dunk')return;
   if(match.period<4){match.period++;match.clock=match.quarterSeconds;match.shotClock=24;match.phase='break';match.periodBreak=100;match.ball.mode='dead';releaseOwner(match);event(match,match.period===3?'Halftime!':'Quarter break');return;}
   if(match.score[0]===match.score[1]){match.period++;match.clock=match.overtimeSeconds;match.shotClock=24;match.phase='break';match.ball.mode='dead';releaseOwner(match);match.periodBreak=100;event(match,'Overtime!');return;}
   match.phase='final';match.winner=match.score[0]>match.score[1]?0:1;match.ball.mode='dead';releaseOwner(match);event(match,`${match.teamNames[match.winner]} win!`);

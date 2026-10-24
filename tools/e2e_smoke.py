@@ -40,7 +40,11 @@ try:
         page.screenshot(path=str(OUT/'title.png'))
         roster=page.evaluate('window.jamverse.rosterCheck')
         assert roster['teams']==35 and roster['athletes']==105 and not roster['errors'],roster
+        page.click('#choose-home')
+        assert page.get_by_role('dialog',name='CHOOSE HOME FRANCHISE').count()==1
+        page.locator('#team-dialog button.close').click()
         page.click('#settings')
+        assert page.get_by_role('dialog',name='MAKE IT YOURS').count()==1
         page.locator('#text-size').evaluate("el=>{el.value='120';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.locator('#music-volume').evaluate("el=>{el.value='30';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.locator('#effects-volume').evaluate("el=>{el.value='75';el.dispatchEvent(new Event('input',{bubbles:true}))}")
@@ -279,6 +283,7 @@ try:
         page.select_option('#quarter',value='180')
         standings_before=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).leagueRecords['chicago-condas'].played")
         page.click('#campaign')
+        assert page.get_by_role('dialog',name='THE LONG ROAD').count()==1
         page.screenshot(path=str(OUT/'campaign-ladder.png'))
         page.click('#campaign-play')
         assert page.locator('#campaign-dialog').evaluate('(d)=>!d.open')
@@ -295,10 +300,12 @@ try:
         assert len(careers)==105 and any(row['games']>0 for row in careers.values())
         leave_match(page)
         page.click('#standings')
+        assert page.get_by_role('dialog',name='THE STANDINGS').count()==1
         assert page.locator('#standings-list li').count()==35
         assert 'Chicago Condas' in page.locator('#standings-list').inner_text()
         page.locator('#standings-dialog .dialog-button').click()
         page.click('#careers')
+        assert page.get_by_role('dialog',name='CAREER LEADERS').count()==1
         assert page.locator('#career-list li').count()<=10 and page.locator('#career-list li').count()>0
         assert page.locator('#career-list').evaluate('(list)=>list.scrollWidth<=list.clientWidth'), 'career leaders must fit the panel without horizontal scrolling'
         page.locator('#career-dialog .dialog-button').click()
@@ -336,6 +343,7 @@ try:
         page.click('#settings-dialog .dialog-button')
         # Play the saved cup route through three result commits and verify each round advances.
         page.click('#tournament')
+        assert page.get_by_role('dialog',name='THE JAM CUP').count()==1
         assert page.locator('#cup-bracket li').count()==3
         page.screenshot(path=str(OUT/'jam-cup-bracket.png'))
         opponents=[]
