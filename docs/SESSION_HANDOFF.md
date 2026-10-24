@@ -1,4 +1,4 @@
-## Current checkpoint — gameplay, accessibility and audit refresh (source validation passed; Pages pending)
+## Current checkpoint — gameplay, accessibility and audit refresh (Pages run #156 passed)
 
 - Gameplay: body checks can jar the ball loose from a nearby carrier at reduced odds; the carrier is stunned and the defender receives last touch. Shots and dunks released before zero on the game clock now resolve before period transition. Regressions cover both behaviors.
 - Accessibility: Settings, franchise picker, season, cup, standings, and career dialogs now use their visible headings as accessible names. Chromium role/name assertions cover all six.

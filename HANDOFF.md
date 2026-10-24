@@ -1,4 +1,4 @@
-## Current checkpoint — gameplay, accessibility and audit refresh (source validation passed; Pages pending)
+## Current checkpoint — gameplay, accessibility and audit refresh (Pages run #156 passed)
 
 - Gameplay: body checks can jar the ball loose from a nearby carrier at reduced odds; the carrier is stunned and the defender receives last touch. Shots and dunks released before zero on the game clock now resolve before period transition. Regressions cover both behaviors.
 - Accessibility: Settings, franchise picker, season, cup, standings, and career dialogs now use their visible headings as accessible names. Chromium role/name assertions cover all six.
@@ -6,7 +6,7 @@
 - Strict animation audit remains incomplete as required: 667 clips / 5,859 authored drawings / 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings. No accepted Keeg J.105 scythe art yet: two generated sheets are rejected for poses touching/crossing cell margins; both sources and exact prompts are preserved.
 - The gameplay/accessibility checkpoint is committed and pushed as `8c54309`. Pages run #156 passed and deployed it: https://github.com/Manaconda33/Conda-Jam/actions/runs/40097847308. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=8c54309.
 
-## Latest runtime checkpoint — J.104 art plus gameplay fixes; Pages run #154 succeeded
+## Prior runtime checkpoint — J.104 art plus shot-clock and keyboard-rebind fixes; Pages run #154 succeeded
 
 Gameplay polish closes a 24-second clock exploit: an in-flight pass at expiration causes one violation, credits the passer with a turnover, cancels the pass, and awards the defense an inbound. Released shots remain live. Keyboard rebinding now cancels when Settings closes by either × or Save, so the next gameplay key is not swallowed. Regression and full validation pass: 411 JavaScript tests, lint, content validation, 100-match simulation, build, and Chromium offline/full-match/season E2E. Commit `6a202ea` is the latest gameplay code; CI and the refreshed strict asset audit are deployed in Pages run #154 at checkpoint `aca8ac9`: https://github.com/Manaconda33/Conda-Jam/actions/runs/40096067391. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=aca8ac9. Pages deployment now waits for tests, lint, roster validation, and league simulation. The changes do not alter J.104's animation asset count.
 
