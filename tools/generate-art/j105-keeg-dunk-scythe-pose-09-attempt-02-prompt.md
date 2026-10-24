@@ -1,0 +1,9 @@
+# J.105 — Keeg scythe dunk — isolated pose 09 — attempt 02
+
+## Verbatim generation prompt
+
+```text
+One isolated full-body sprite of Keeg for JAMVERSE '96, pose09 only, transparent RGBA. Adult athletic human man; exact reference identity: black hair and beard, tall purple mushroom witch hat with silver trim, purple/lavender/silver Moonmorel Hex uniform, matching shoes. Crisp pixel arcade style. He is airborne at the top of a rightward jump, torso upright and legs bent below. Critical screen placement: the dunk arm elbow bends and lifts beside the face; the cocked EMPTY hand is on the SCREEN-RIGHT side of Keeg's head, forward of the face and forward/right of the hat brim, with a visible transparent gap between hand and hat. Do not put this hand at screen-left or behind the hat. Keep the hand clear of the face, brim, mushrooms, and hat silhouette. Fingers naturally curl around an invisible ball; no ball is painted. This is a compact high cocked preparation pose, elbow bent, hand at head height, distinct from pose08's fully extended diagonal reach and pose10's release. Free arm extends down/out. Full anatomy, complete hat and both shoes visible; generous transparency outside. Exactly two arms, two hands, two legs. No basketball, sphere, prop, scythe, blade, staff, extra limb, monster traits, cape, robe, shadow, haze, background, floor, grid, labels, text, sheet, or second pose. One clean pixel-art sprite only.
+```
+
+Generation `exec-651304c6-8ea3-44e4-8ceb-b3a962be420d`; identity reference `public/assets/animation/keeg-dunk-power-right.webp`; source `sources/j105-keeg-dunk-scythe-pose-09-attempt-02-rejected.png`; SHA-256 `c8c2f48743b0053767f8df5d7e095682df935138b18a9d2e763f4059fa88ab68`. **Rejected.** Despite explicit screen placement, the raised hand again landed behind/left of the hat instead of forward/right. Preview: `artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-09-attempt-02-rejected-review.png`.

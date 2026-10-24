@@ -1,0 +1,9 @@
+# J.105 — Keeg scythe dunk — isolated pose 09 — attempt 01
+
+## Verbatim generation prompt
+
+```text
+Create one isolated transparent full-body Keeg sprite for JAMVERSE '96, pose09 of his single-handed dunk-scythe. Preserve exact adult human identity, athletic anatomy, black hair, neat beard, tall purple witch hat with silver trim and mushrooms, purple/lavender/silver Moonmorel Hex uniform, belt and shoes, matching the attached pixel arcade reference. He is near the top of his jump, facing/rising screen-right; torso elongated, legs bent below. The dunk elbow is bent and raised high; the hand is cocked beside and forward/right of the hat, above temple level, wrist loaded back, fingers naturally curved around an invisible ball. Keep a clearly visible transparent gap between hand and hat; hand must not touch or overlap hat or face. This is the high cocked preparation pose, distinct from pose08's straighter arm reaching upward and from pose10's full release extension. The free arm balances down/out. Show full hat and both shoes, one complete human figure, clean transparent margins. Both hands mime the invisible ball, but absolutely no ball/sphere/object is painted. Exactly two arms/hands/legs; no extra anatomy. No prop, scythe, blade, staff, monster traits, cape, robe, shadow, haze, glow, floor, background, court, grid, labels, text, extra poses, sheet, or second figure. Crisp clean 1990s arcade pixel art, true alpha transparent outside the figure.
+```
+
+Generation `exec-66ae29ce-b0fe-4a83-ad11-9f9b8fbfb4ef`; identity reference `public/assets/animation/keeg-dunk-power-right.webp`; source `sources/j105-keeg-dunk-scythe-pose-09-attempt-01-rejected.png`; SHA-256 `84f4ac663485736799676f4ef11f6b907c85eae443b122aedd9eea4066b479e2`. **Rejected.** The cocked hand landed behind/left of the hat rather than forward/right as required. Preview: `artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-09-attempt-01-rejected-review.png`.

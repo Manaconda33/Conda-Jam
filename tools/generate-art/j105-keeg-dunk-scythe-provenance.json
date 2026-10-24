@@ -131,7 +131,7 @@
       6
     ]
   },
-  "nextAction": "Continue with individually generated, separately reviewed poses 09\u201314 using the pose-component workflow. Keep each source and exact prompt. Only assemble and register a complete 15-pose clip after all cells, anatomy, pose separation, transparency and the athlete-specific separate ball track pass review.",
+  "nextAction": "Continue with individually generated, separately reviewed poses 10\u201314 using the pose-component workflow. Keep each source and exact prompt. Only assemble and register a complete 15-pose clip after all cells, anatomy, pose separation, transparency and the athlete-specific separate ball track pass review.",
   "isolatedPoseComponentTrials": [
     {
       "generationId": "exec-2a98e1db-6f68-4495-a73b-01b47cb2ddca",
@@ -348,6 +348,31 @@
       "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
       "ballTrackStatus": "no basketball painted; full separate track remains unvalidated pending poses09-14",
       "eligibleForClipRegistration": false
+    },
+    {
+      "generationId": "exec-73668b26-4842-4540-836a-9b481ccf9068",
+      "poseIndex": 9,
+      "poseName": "high-cocked-hand-forward-of-hat",
+      "status": "accepted-as-isolated-pose-component; full-clip-incomplete",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-09-attempt-03.png",
+      "sourceSha256": "eaabcc4bcc95834d0194492162cc99b2bdc0e00acb30ec88a9ee7f18d2350ec2",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-09-attempt-03-prompt.md",
+      "identityReference": "public/assets/animation/keeg-dunk-power-right.webp",
+      "poseReference": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-07-attempt-02.png",
+      "sourceDimensions": [
+        1206,
+        1305
+      ],
+      "alphaBoundsThreshold16": [
+        177,
+        81,
+        1043,
+        1218
+      ],
+      "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-09-attempt-03-cell-review.png",
+      "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
+      "ballTrackStatus": "no basketball painted; full separate track remains unvalidated pending poses10-14",
+      "eligibleForClipRegistration": false
     }
   ],
   "rejectedPoseComponentTrials": [
@@ -361,6 +386,28 @@
       "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-07-attempt-01-prompt.md",
       "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-07-attempt-01-rejected-review.png",
       "reason": "The empty hand landed behind/left of and partly merged with the hat; it failed the required forward/right separation."
+    },
+    {
+      "generationId": "exec-66ae29ce-b0fe-4a83-ad11-9f9b8fbfb4ef",
+      "poseIndex": 9,
+      "attempt": 1,
+      "status": "rejected",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-09-attempt-01-rejected.png",
+      "sourceSha256": "84f4ac663485736799676f4ef11f6b907c85eae443b122aedd9eea4066b479e2",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-09-attempt-01-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-09-attempt-01-rejected-review.png",
+      "reason": "Cocked hand landed behind/left of the hat rather than forward/right."
+    },
+    {
+      "generationId": "exec-651304c6-8ea3-44e4-8ceb-b3a962be420d",
+      "poseIndex": 9,
+      "attempt": 2,
+      "status": "rejected",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-09-attempt-02-rejected.png",
+      "sourceSha256": "c8c2f48743b0053767f8df5d7e095682df935138b18a9d2e763f4059fa88ab68",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-09-attempt-02-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-09-attempt-02-rejected-review.png",
+      "reason": "Despite explicit screen coordinates, the cocked hand again landed behind/left of the hat."
     }
   ]
 }
