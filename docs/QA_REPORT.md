@@ -1,6 +1,6 @@
 # QA report
 
-## Latest validated checkpoint — J.100 (2026-10-24; local, push pending)
+## Latest validated checkpoint — J.100 (2026-10-24; pushed and deployed)
 
 - `npm test`: PASS —406 tests, zero failures; includes static offline build.
 - `npm run lint`: PASS —18 JavaScript modules.
@@ -10,7 +10,7 @@
 - `npm run test:e2e`: PASS —Chromium offline startup, settings, controls, co-op, touch, matchups, full match and season progression.
 - Strict audit: expected INCOMPLETE —663 clips /5,799 authored drawings across105 athletes,2,440 missing clips,3 target shortfalls and4 inherited prompt findings.
 - Keeg standard and zoom120 previews each loaded166 images and rendered87 clip snapshots /452 action frames. All fifteen reverse-dunk poses select production art in both facings; the separate ball meets Keeg's extended palm at frame10/tick21.
-- J.99 `bb2501d` Pages run #137 succeeded. J.100 is fully validated and ready for checkpoint push.
+- J.99 `bb2501d` Pages run #137 succeeded. J.100 `4ac0c2c` is deployed in Pages run #138 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40046126134); preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4ac0c2c.
 
 ## Environment
 
