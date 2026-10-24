@@ -1,0 +1,7 @@
+## Verbatim image-generation prompt
+
+```text
+Create 15 full-body poses of the exact same male athlete in the attached Dorian Mycel sprite sheet. Preserve clean-shaven face, warm medium-brown skin, short dense vivid-purple curls, compact adult human build, purple Chicago Condas uniform with silver/lavender trim, dark knee pads and purple/silver shoes. Do not alter identity, hair, clothing or anatomy. Actual transparent RGBA sprite atlas in a 5×3 grid, row-major; every figure isolated with generous transparent margin and complete head/hands/feet.
+
+Right-facing ALLEY-OOP-REVERSE animation. Basketball is a separately rendered game object and must NOT appear in the art; no ball, sphere, teammate, hoop, court, floor, shadows, backdrop, effects, text, logos or lines. Dorian mimes catching an invisible lob and finishing with a reverse layup/dunk while passing under the imaginary basket. 0 approaches; 1 runs; 2 plants; 3 takes off; 4 reaches back with both empty hands; 5 catches invisible lob overhead; 6 rotates shoulders away from basket; 7 floats past rim with back turned; 8 carries unseen ball behind head; 9 twists to reverse side; 10 reaches high with empty near hand for reverse finish; 11 finishes and rotates; 12 descends; 13 lands; 14 resets facing right. Fifteen distinct poses and coherent transition; maintain readable full-body silhouettes. Crisp outlined 90s arcade pixel art. Outside the player art all pixels are transparent.
+```

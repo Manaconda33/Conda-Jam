@@ -1,0 +1,44 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "pickup",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-04da324b-faee-4769-aaec-10416cbc61b4",
+  "imageGenerationId": "exec-04da324b-faee-4769-aaec-10416cbc61b4",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-pickup5-generated-raw.png",
+  "rawSourceSha256": "155b891d8070e26045b34b6300505fa7171b446b55e27806895bed207626e3d6",
+  "sourceSha256": "155b891d8070e26045b34b6300505fa7171b446b55e27806895bed207626e3d6",
+  "prompt": "Create an original transparent RGBA JAMVERSE '96 sprite sheet with EXACTLY five distinct full-body Dorian Mycel poses, arranged in one row of five equal cells, read left to right. Match the attached Dorian portrait and gameplay reference: adult compact athletic human man, warm medium-brown skin, clean-shaven expressive face, strong brows, short dense vivid-purple curls, purple Chicago Condas uniform with silver/lavender trim, dark knee pads, purple wristbands, purple/silver shoes. Keep his individual identity and proportions consistent, two arms, two hands, two legs, two shoes. One whole pose centered in each cell with broad clear transparent gutters.\n\nAction: pickup a loose basketball. The game ball is separately rendered: NEVER draw the ball or any sphere, seams or prop. No court, hoop, floor, shadow, ground line, background, glow, text, number, logo, borders, grid or other people. Pixel-art arcade style with bold outlines and true transparent alpha throughout.\n\n0 balanced standing ready, hands lowered;\n1 bends knees and torso, reaches toward the floor;\n2 deep stable crouch, right hand approaches an imaginary ball;\n3 GRAB at simulation tick7: right fingertips meet the floor, hand closes after pickup;\n4 rises from crouch with the invisible ball secured in both hands, balanced recovery.\nFive distinct complete connected poses, no repeats or extra figures. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 5.",
+  "ballTrack": {
+    "height": [
+      1.1,
+      0.65,
+      0.3,
+      0.0,
+      0.75
+    ],
+    "forward": [
+      5.0,
+      7.0,
+      10.0,
+      13.0,
+      8.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "5 distinct complete Dorian pickup poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented pickup track."
+  }
+}

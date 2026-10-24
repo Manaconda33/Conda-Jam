@@ -1,0 +1,70 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "dunk-360",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-9b3fd96b-73f6-467b-aa7f-88c6ebe637b6",
+  "imageGenerationId": "exec-9b3fd96b-73f6-467b-aa7f-88c6ebe637b6",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-dunk-36015-generated-raw.png",
+  "rawSourceSha256": "47ffe3f272039a8606288a66893a88b81b007691be3e843bec7520c8ff4187be",
+  "sourceSha256": "47ffe3f272039a8606288a66893a88b81b007691be3e843bec7520c8ff4187be",
+  "prompt": "Create a transparent RGBA sprite sheet, exact 5\u00d73 grid, 15 full-body Dorian Mycel poses row-major. Keep figures compact and leave visible transparent spacing in every cell; especially leave an empty top margin of 15% of cell height. No head, hand, shoe or limb may touch any edge. No ball, objects, hoop, floor, background or effects; the game ball is separately rendered. Only isolated character poses, crisp 90s arcade outlines.\n\nUse both attached references as exact identity: clean-shaven compact human male, warm medium-brown skin, short dense vivid-purple curls, strong brows, purple Chicago Condas jersey and shorts with silver/lavender trim, dark knee pads, purple wristbands, purple/silver shoes. Same natural anatomy, two arms and legs.\n\nFifteen-frame DUNK-360: right-facing approach, takeoff, complete body rotation through front, side, back, opposite side, front, then finish and land. Keep elbows bent and both hands around head/shoulder height or lower; do NOT raise any arm straight overhead, which would leave the top margin. Rotational sequence: 0 run, 1 prepare, 2 plant, 3 rise front three-quarter, 4 turns side, 5 back three-quarter, 6 full back, 7 opposite back three-quarter, 8 opposite side, 9 turns front, 10 facing front at peak with compact raised elbow, 11 downward finish, 12 turns through descent, 13 crouched landing, 14 stable facing right. Make silhouettes compact in cells, and all fifteen poses clearly different with coherent spin. Exactly 15 figures, isolated, no extra marks.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-f089f086-630b-454f-97b3-47580b34f9c1",
+      "source": "tools/generate-art/sources/dorian-mycel-dunk-360-attempt1-rejected.png",
+      "reason": "High-reaching poses clipped the upper canvas edge; see rejected prompt/source note."
+    }
+  ],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 15.",
+  "ballTrack": {
+    "height": [
+      1.1,
+      1.2,
+      1.35,
+      1.6,
+      1.9,
+      2.2,
+      2.45,
+      2.5,
+      2.45,
+      2.3,
+      2.2,
+      1.9,
+      1.3,
+      0.8,
+      0.6
+    ],
+    "forward": [
+      6.0,
+      8.0,
+      7.0,
+      2.0,
+      -3.0,
+      -6.0,
+      -7.0,
+      -5.0,
+      1.0,
+      5.0,
+      10.0,
+      12.0,
+      8.0,
+      5.0,
+      6.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "15 distinct complete Dorian dunk-360 poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented dunk-360 track."
+  }
+}

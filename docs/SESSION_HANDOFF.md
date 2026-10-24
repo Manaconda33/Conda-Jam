@@ -7,6 +7,7 @@ J.103 adds fifteen distinct two-pump dunk poses. Keeg now has25/29 reviewed clip
 Accepted generation `exec-c394e341-4e13-4298-92e9-97119fdaffcf`; raw sheet SHA-256 `6b7fb70dd7fd1389ee94139e0622daf3b4a9384bfb10554cdbc67194e37db4a8`; cleaned source SHA-256 `f563162a8f00bf9b12d72d36edfb9e05637349bcd627ba707741652a97ef2bac`. Atlas `public/assets/animation/keeg-dunk-double-right.webp` is512×384 /71,636 bytes / SHA-256 `f600dbba7981c12ee6da6e023827dcd02d5e36b20810dd8b795c2c784c0f55f8`. Exact prompt, cleanup, layouts, separate ball path and provenance are in the J.103 files.
 
 Validation passes409 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /866,809 ticks /9 overtime periods,55 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 previews each load169 images and render87 snapshots /452 action frames; all fifteen J.103 poses select production art in both facings. Strict report-only audit:666 clips /5,844 drawings /105 athletes,2,437 missing clips,3 target shortfalls,4 inherited prompt findings. J.103 `7f925af` is deployed in Pages run #141 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40049640158): https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=7f925af. Next: Keeg `dunk-clutch`.
+Parallel source-only set status: Moxie 28/29, Dorian 29/29 with 25 new reviewed clips (255 drawings) independently integrity-checked, Accu 28/29, Nova 29/29, Echo 29/29, Leo 11/29, Sable 7/29, with Marco and Krios just started. Dorian/Nova/Echo remain unregistered until roster-order integration; strict totals include registered clips only.
 
 ## Active assignment and authorization
 
@@ -22,7 +23,7 @@ Repository: `/workspace/Conda-Jam`, branch `main`. Issue #1 (records-table width
 - Deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=7f925af.
 - J.29–J.103 are pushed and deployed. Keeg has25/29 clips /243 authored drawings.
 - Current audit:666 clips /5,844 drawings /105 athletes,2,437 missing clips,3 target shortfalls,4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
-- Asset-only parallel generation is underway for Moxie (roster position8), Dorian (9), Accu (10), Nova (11), Echo (12) and Leo (13); files remain isolated until roster-order integration. Keeg’s next action is `dunk-clutch`.
+- Asset-only lanes are underway through Krios (position16); Dorian’s complete source package is integrity-checked and queued for roster-order integration after Moxie. Keeg’s next action is `dunk-clutch`.
 - Full target remains29 clips /293 authored drawings per athlete, with no credit for mirroring, repeated holds, duplicate crops or rejected sources.
 
 GitHub Pages is enabled. The user authorized continuous image generation, tests, pushes and deployments; do not ask again.

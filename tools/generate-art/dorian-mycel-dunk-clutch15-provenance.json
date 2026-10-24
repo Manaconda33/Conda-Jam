@@ -1,0 +1,64 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-f4e76583-4cbd-4fcb-bf92-6b5e14002086",
+  "imageGenerationId": "exec-f4e76583-4cbd-4fcb-bf92-6b5e14002086",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-dunk-clutch15-generated-raw.png",
+  "rawSourceSha256": "2c44e1e156e6de5ae26e6236878aabe7ebf2a6d8b3d4a86538cb72ee5a8a87fc",
+  "sourceSha256": "2c44e1e156e6de5ae26e6236878aabe7ebf2a6d8b3d4a86538cb72ee5a8a87fc",
+  "prompt": "A transparent RGBA 5 by 3 sprite atlas of fifteen full-body Dorian Mycel poses, row-major, unique and separated. Keep each figure compact and centered with clear transparent margins; no clipping. Clean outlined 1990s arcade pixel art. No ball, hoop, court, floor, shadows, backdrop, effects, text, other player or any object. The basketball is drawn separately by the game, so hands mime it empty.\n\nExact design from attached Dorian refs: compact adult human, warm medium-brown skin, clean-shaven face, strong brows, short dense vivid-purple curls, purple Chicago Condas uniform with silver/lavender trim, dark knee pads, purple wristbands, purple/silver shoes. Preserve same human anatomy and face across poses.\n\nDUNK-CLUTCH animation: right-facing drive; gather the invisible ball tightly to chest with both empty hands, clutch it briefly in the air, then rise and finish one-handed, land in control. 0 approach; 1 accelerates; 2 gathers; 3 plants; 4 takes off; 5 brings hands tightly to sternum; 6 holds clutch as knees rise; 7 compact airborne pause; 8 turns toward basket; 9 transfers to finishing hand; 10 high one-hand scoring finish; 11 follow-through; 12 descends; 13 crouched landing; 14 upright reset. Exactly 15 distinct connected poses, rows of five. Full body isolated, no object held, ample margins around highest and widest limbs.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 15.",
+  "ballTrack": {
+    "height": [
+      1.0,
+      0.9,
+      1.0,
+      1.2,
+      1.6,
+      1.5,
+      1.4,
+      1.35,
+      1.5,
+      1.8,
+      2.2,
+      1.7,
+      1.2,
+      0.7,
+      0.55
+    ],
+    "forward": [
+      6.0,
+      8.0,
+      9.0,
+      8.0,
+      6.0,
+      1.0,
+      -4.0,
+      -5.0,
+      -2.0,
+      4.0,
+      11.0,
+      12.0,
+      8.0,
+      5.0,
+      6.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "15 distinct complete Dorian dunk-clutch poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented dunk-clutch track."
+  }
+}

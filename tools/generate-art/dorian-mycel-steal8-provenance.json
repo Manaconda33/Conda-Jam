@@ -1,0 +1,50 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "steal",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-31f9a9b3-7137-412a-aebe-2e7de6d453c8",
+  "imageGenerationId": "exec-31f9a9b3-7137-412a-aebe-2e7de6d453c8",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-steal8-generated-raw.png",
+  "rawSourceSha256": "6b305403d6b90b4475dc2f59da25c4fa92a475c3613bff42008329c359479e5a",
+  "sourceSha256": "6b305403d6b90b4475dc2f59da25c4fa92a475c3613bff42008329c359479e5a",
+  "prompt": "Create a true-transparent RGBA JAMVERSE '96 sprite sheet of EXACTLY eight separate complete Dorian Mycel poses in a strict four-column by two-row grid, row-major. Match the attached Dorian portrait and gameplay reference precisely: adult compact athletic human man, warm medium-brown skin, clean-shaven focused face and strong brows, short dense vivid-purple curls, purple Chicago Condas kit with silver/lavender trim, dark knee pads, wristbands and purple/silver shoes. Preserve two arms, two hands, two legs, shoes, his individual face, hair and proportions.\n\nRight-facing STEAL action, a quick defensive swipe that recovers possession. No other players or objects. The game basketball is separate; do not draw it, a ball seam, sphere or prop. No court, hoop, floor, shadow, background, text, number, logo, glow, border or grid. Clean 1990s arcade pixel art, dark outlines, actual transparent alpha and broad gutters. Exactly one entire in-bounds figure per cell.\n\n0 low alert defensive stance, weight centered;\n1 lunges forward with right hand extended into the ball lane;\n2 twists torso and sweeps the hand down/across;\n3 STEAL at tick5: right hand closes and pulls back after intercepting the invisible ball;\n4 pivots to turn upcourt with ball-miming hand near hip;\n5 accelerates rightward, protecting invisible ball;\n6 one running stride forward, head up;\n7 controlled recovery stance, hands empty or low.\nEight distinct poses connected by plausible motion, no repeats. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 8.",
+  "ballTrack": {
+    "height": [
+      1.15,
+      0.95,
+      0.65,
+      0.4,
+      0.7,
+      1.0,
+      1.2,
+      1.1
+    ],
+    "forward": [
+      8.0,
+      10.0,
+      12.0,
+      13.0,
+      14.0,
+      14.0,
+      12.0,
+      9.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "8 distinct complete Dorian steal poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented steal track."
+  }
+}

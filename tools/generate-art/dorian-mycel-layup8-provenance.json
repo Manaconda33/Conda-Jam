@@ -1,0 +1,50 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "layup",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-d0f147fa-a887-4593-be73-fed4fe85056d",
+  "imageGenerationId": "exec-d0f147fa-a887-4593-be73-fed4fe85056d",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-layup8-generated-raw.png",
+  "rawSourceSha256": "c00e31523624df7b62f505ff7c4767b09d2587a797c5079a59667fae90431782",
+  "sourceSha256": "c00e31523624df7b62f505ff7c4767b09d2587a797c5079a59667fae90431782",
+  "prompt": "Create a 1536x1024 true-transparent RGBA sprite sheet for JAMVERSE '96: EXACTLY eight unique, complete full-body poses in a strict four-column by two-row grid, row-major. One whole Dorian Mycel per cell. Match the attached identity/gameplay reference: compact adult human basketball player, warm medium-brown skin, clean-shaven strong-browed face, short dense vivid-purple curls, purple Chicago Condas kit with silver/lavender edging, dark knee pads, purple wristbands, purple/silver basketball shoes. Preserve his identity, face, curls, skin and proportions throughout.\n\nRight-facing right-handed layup, advancing toward image-right. The ball is separate game art: never draw a ball, sphere, seams or prop. No court, basket, floor, shadow, background, glow, text, numbers, logo, border, grid line or extra person. True transparent gutters and exterior; bold-outlined 1990s arcade pixel art. Complete two-arm, two-hand, two-leg, two-shoe anatomy; no clipping.\n\n0 controlled approach stride, hands mime ball at waist;\n1 gathers into both hands and plants for takeoff;\n2 launches off one foot, right knee rises, ball-miming hands lift;\n3 airborne, torso leans toward basket, right hand carries invisible ball high;\n4 RELEASE at tick10: right arm extends fully toward rim, palm opens after layup;\n5 follows through at apex, opposite arm balances;\n6 descends, legs prepare to land, empty hands lower;\n7 controlled soft landing and balanced recovery.\nExactly eight different connected poses, no repetition; show the entire figure each time. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 8.",
+  "ballTrack": {
+    "height": [
+      1.1,
+      1.25,
+      1.5,
+      1.8,
+      2.1,
+      2.05,
+      1.35,
+      0.8
+    ],
+    "forward": [
+      6.0,
+      7.0,
+      9.0,
+      11.0,
+      12.0,
+      11.0,
+      9.0,
+      7.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "8 distinct complete Dorian layup poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented layup track."
+  }
+}

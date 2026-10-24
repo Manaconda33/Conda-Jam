@@ -1,0 +1,42 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "receive",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-0ab016a2-42b0-4a1f-a195-40bea9996329",
+  "imageGenerationId": "exec-0ab016a2-42b0-4a1f-a195-40bea9996329",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-receive4-generated-raw.png",
+  "rawSourceSha256": "88e0217922d53a72c01297cff25f9e55fe84c7713a28536255130d8f640aecff",
+  "sourceSha256": "88e0217922d53a72c01297cff25f9e55fe84c7713a28536255130d8f640aecff",
+  "prompt": "JAMVERSE '96 transparent RGBA sprite sheet, EXACTLY four separate complete Dorian Mycel full-body poses in a strict 2-column by 2-row grid, row-major, one pose per cell. Use attached Dorian portrait and gameplay image as the identity authority: adult compact athletic human man, warm medium-brown skin, clean-shaven face, strong brows, short dense vivid-purple curls, purple Chicago Condas jersey and shorts with silver/lavender trim, dark knee pads, purple wristbands and matching shoes. Preserve his distinct face, hair, outfit and compact proportions. Four natural human limbs, complete hands and shoes.\n\nRight-facing RECEIVE animation, facing image-right. Ball is a separate gameplay object; never draw a basketball, ball seams, sphere or prop. No court, hoop, floor, shadow, background, text, jersey number, logo, effect, panel, border or grid line. Pixel-art arcade shading, dark outline, truly transparent gutters and outer background. Each cell has one full in-bounds figure.\n\n0 standing ready, hands open and forward to receive;\n1 steps and reaches toward an incoming chest-height pass;\n2 CATCH at tick4: both hands close around the invisible ball at chest, elbows absorb the catch;\n3 secures it at chest and steadies into a balanced stance.\nExactly four distinct sequential poses, no repeated cells. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 4.",
+  "ballTrack": {
+    "height": [
+      1.1,
+      1.25,
+      1.4,
+      1.35
+    ],
+    "forward": [
+      5.0,
+      8.0,
+      11.0,
+      9.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "4 distinct complete Dorian receive poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented receive track."
+  }
+}

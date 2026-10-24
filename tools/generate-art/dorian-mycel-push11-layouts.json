@@ -1,0 +1,349 @@
+[
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "push",
+    "src": "./public/assets/animation/dorian-mycel-push-right.webp",
+    "columns": 5,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 512,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "clip": "push",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-7d235ee3-4539-4bfe-9ece-c3e5760665c1",
+      "imageGenerationId": "exec-7d235ee3-4539-4bfe-9ece-c3e5760665c1",
+      "rawSourceImage": "tools/generate-art/sources/dorian-mycel-push11-generated-raw.png",
+      "rawSourceSha256": "081bc18db19f26805230fb7ea72aac037f1e99b0a974a5ce2840ea9c57878298",
+      "sourceSha256": "081bc18db19f26805230fb7ea72aac037f1e99b0a974a5ce2840ea9c57878298",
+      "prompt": "JAMVERSE '96 true-transparent RGBA sprite sheet, EXACTLY eleven separate complete full-body Dorian Mycel poses, strict four-column by three-row grid, row-major, last row has three figures and the unused final cell remains empty. Match the Dorian portrait/gameplay identity: adult compact human athlete, warm medium-brown skin, clean-shaven face, strong brows, short dense vivid-purple curls, purple Chicago Condas kit with silver/lavender trim, dark knee pads, wristbands, purple/silver shoes. Preserve all identity and natural two-arm/two-leg anatomy.\n\nRight-facing PUSH/body-check animation, but depict Dorian alone; never draw a second person or contact target. He has no ball; never draw a ball, sphere or prop. No court, hoop, floor, shadow, background, text, numbers, logos, effects, borders, cell dividers or panels. Crisp outlined 1990s arcade pixel art, true transparent alpha and broad cell margins. Exactly one full in-bounds Dorian in each occupied grid cell.\n\n0 balanced defensive stance;\n1 shifts weight low and coils shoulders;\n2 takes a short forceful step toward image-right;\n3 drives forward with shoulder leading, arms braced naturally;\n4 extends lead arm while torso leans into a body check;\n5 CONTACT at tick8: strongest forward impact pose, planted feet and firm shoulder/arm, still alone;\n6 carries momentum past contact, arm extends then starts to lower;\n7 follow-through with weight transferring forward;\n8 regains balance and straightens;\n9 steps back into defensive footwork, hands lowering;\n10 settled ready stance.\nEleven distinct connected poses, no duplicates, correct anatomy and identity. Return only the sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 11.",
+      "ballTrack": {
+        "height": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-dorian-actions.py",
+        "method": "alpha-connected component isolation and nearest-pixel reassignment"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "11 distinct complete Dorian push poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented push track."
+      },
+      "sourceImage": "tools/generate-art/sources/dorian-mycel-push11-generated-raw.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "sourceRect": {
+            "component": 1,
+            "area": 45525,
+            "x": 33,
+            "y": 35,
+            "w": 321,
+            "h": 325,
+            "row": 0,
+            "column": 0
+          },
+          "cropBox": [
+            31,
+            33,
+            356,
+            362
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "sourceRect": {
+            "component": 4,
+            "area": 38249,
+            "x": 435,
+            "y": 61,
+            "w": 213,
+            "h": 309,
+            "row": 0,
+            "column": 1
+          },
+          "cropBox": [
+            433,
+            59,
+            650,
+            372
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "sourceRect": {
+            "component": 3,
+            "area": 36787,
+            "x": 743,
+            "y": 37,
+            "w": 275,
+            "h": 328,
+            "row": 0,
+            "column": 2
+          },
+          "cropBox": [
+            741,
+            35,
+            1020,
+            367
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "sourceRect": {
+            "component": 2,
+            "area": 47357,
+            "x": 1085,
+            "y": 35,
+            "w": 357,
+            "h": 329,
+            "row": 0,
+            "column": 3
+          },
+          "cropBox": [
+            1083,
+            33,
+            1444,
+            366
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "sourceRect": {
+            "component": 5,
+            "area": 44619,
+            "x": 18,
+            "y": 392,
+            "w": 379,
+            "h": 325,
+            "row": 1,
+            "column": 0
+          },
+          "cropBox": [
+            16,
+            390,
+            399,
+            719
+          ]
+        },
+        {
+          "sourceIndex": 5,
+          "sourceRect": {
+            "component": 7,
+            "area": 45164,
+            "x": 345,
+            "y": 397,
+            "w": 430,
+            "h": 318,
+            "row": 1,
+            "column": 1
+          },
+          "cropBox": [
+            343,
+            395,
+            777,
+            717
+          ]
+        },
+        {
+          "sourceIndex": 6,
+          "sourceRect": {
+            "component": 8,
+            "area": 44245,
+            "x": 727,
+            "y": 400,
+            "w": 395,
+            "h": 312,
+            "row": 1,
+            "column": 2
+          },
+          "cropBox": [
+            725,
+            398,
+            1124,
+            714
+          ]
+        },
+        {
+          "sourceIndex": 7,
+          "sourceRect": {
+            "component": 6,
+            "area": 43781,
+            "x": 1108,
+            "y": 395,
+            "w": 324,
+            "h": 332,
+            "row": 1,
+            "column": 3
+          },
+          "cropBox": [
+            1106,
+            393,
+            1434,
+            729
+          ]
+        },
+        {
+          "sourceIndex": 8,
+          "sourceRect": {
+            "component": 9,
+            "area": 42755,
+            "x": 25,
+            "y": 737,
+            "w": 294,
+            "h": 328,
+            "row": 2,
+            "column": 0
+          },
+          "cropBox": [
+            23,
+            735,
+            321,
+            1067
+          ]
+        },
+        {
+          "sourceIndex": 9,
+          "sourceRect": {
+            "component": 10,
+            "area": 40267,
+            "x": 382,
+            "y": 741,
+            "w": 278,
+            "h": 323,
+            "row": 2,
+            "column": 1
+          },
+          "cropBox": [
+            380,
+            739,
+            662,
+            1066
+          ]
+        },
+        {
+          "sourceIndex": 10,
+          "sourceRect": {
+            "component": 11,
+            "area": 45038,
+            "x": 735,
+            "y": 741,
+            "w": 329,
+            "h": 324,
+            "row": 2,
+            "column": 2
+          },
+          "cropBox": [
+            733,
+            739,
+            1066,
+            1067
+          ]
+        }
+      ],
+      "uniformScale": 0.2694610778443114,
+      "componentIsolation": true,
+      "packaging": "package-dorian-actions.py; 128x96 cells; baseline94; lossless WebP; 11 original poses"
+    }
+  }
+]

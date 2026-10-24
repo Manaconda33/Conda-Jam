@@ -1,0 +1,11 @@
+## Verbatim image-generation prompt
+
+```text
+Create one original transparent RGBA JAMVERSE '96 basketball POWER DUNK action sheet. EXACTLY fifteen separate, complete, full-body poses of Dorian Mycel, arranged in five equal columns by three rows in strict left-to-right, top-to-bottom order. Match attached Dorian portrait and gameplay references: compact adult human athlete, warm medium-brown skin, clean-shaven expressive face, strong brows, short dense vivid-purple curls, purple Chicago Condas jersey and shorts with silver/lavender trim, dark knee pads, purple wristbands, purple/silver shoes. Preserve same face, hair, compact athletic proportions and natural human anatomy: two arms, two hands, two legs, two shoes. Right-facing, coherent athletic action.
+
+Dorian's explosive one-handed power dunk. He is alone; the basketball is separately rendered by the game and must NEVER appear in this sheet. No hoop, court, floor, shadow, background, other person, sphere, seams, text, logo, number, effect, border or grid divider. Only the fifteen poses. Authentic clean outlined 1990s arcade pixel art, bold dark linework, actual transparent RGBA gutters. Each figure fully visible and isolated in its own cell, no cropped head, hands or feet.
+
+Frames progress as one continuous takeoff, airborne gather and forceful one-handed finish: 0 low balanced approach, arms ready; 1 drives forward with knees bending; 2 gathers an unseen ball at waist, plants; 3 takes powerful last step; 4 pushes off, body rising; 5 lifts knees and gathers both hands near chest; 6 ascends with right arm beginning to extend; 7 climbs, right hand carries the invisible ball overhead; 8 reaches peak with right arm high; 9 forcefully extends toward imaginary rim; 10 scoring release/finish, hand drives down; 11 follows through in the air; 12 begins descending, legs extend; 13 lands in a balanced crouch; 14 recovers upright, arms settle. Fifteen distinct connected poses, consistent scale and identity throughout. Return only the sprite sheet.
+```
+
+Rejected generation `exec-d3b72a62-a09a-4986-b2dc-b369cd1383f6`: visible basketball prop appears in frame 5, and a nontransparent purple background is present behind the figures; this violates separated-ball and transparent-sprite requirements. Do not pack or use this candidate.

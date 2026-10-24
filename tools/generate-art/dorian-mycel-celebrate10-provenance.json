@@ -1,0 +1,54 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "celebrate",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-eb861149-f341-4705-ab06-5e830f3a30d7",
+  "imageGenerationId": "exec-eb861149-f341-4705-ab06-5e830f3a30d7",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-celebrate10-generated-raw.png",
+  "rawSourceSha256": "e7c7b3cbb910e4cebc5d7a7878ff70d16d7344d56300115c7cf58343850a1b16",
+  "sourceSha256": "e7c7b3cbb910e4cebc5d7a7878ff70d16d7344d56300115c7cf58343850a1b16",
+  "prompt": "JAMVERSE '96 true-transparent RGBA sheet with EXACTLY ten unique complete Dorian Mycel full-body celebration poses in a strict five-column by two-row grid, row-major. Match attached identity/gameplay references exactly: adult compact athletic human, warm medium-brown skin, clean-shaven expressive face, strong brows, short dense vivid-purple curls, purple Chicago Condas uniform with silver/lavender trim, knee pads, wristbands and purple/silver shoes. Preserve the same distinct face, hair, proportions, two arms/hands, two legs/shoes.\n\nA joyful basketball-score CELEBRATION. Dorian is alone, with no ball or other people. No ball, hoop, court, floor, shadow, background, effects, text, logo, number, border, panel or grid line. Use bright but clean 1990s arcade pixel art, bold readable dark outlines and actual transparent alpha. One full, unclipped figure per cell.\n\n0 recognizes the made basket, smile begins, arms lift;\n1 springs into a celebratory hop, hands rising;\n2 punches right fist overhead, left arm balances;\n3 lands from hop with a broad grin and raised arms;\n4 pumps both fists at shoulder height;\n5 turns slightly and shouts happily, arms spread;\n6 raises one hand in triumph again;\n7 begins lowering arms, still smiling;\n8 returns to grounded stance, shoulders relax;\n9 confident balanced recovery, arms down.\nTen distinct connected poses showing a short jubilant beat then recovery; no repetitive copies or extra figures. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 10.",
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "forward": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "10 distinct complete Dorian celebrate poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented celebrate track."
+  }
+}

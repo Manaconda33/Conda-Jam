@@ -2,6 +2,8 @@
 
 2026-10-24. Issue3 remains **incomplete**. Actual registered total: **5,844 authored drawings across 666 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
+Dorian Mycel has a completed **source-only** set covering all29 runtime keys: the four existing baseline clips plus25 new reviewed atlases /255 authored drawings. The independent package check passed source SHA-256, layout, atlas bounds, nonblank unique cells and exact clip-key coverage. Since it awaits roster-order integration after Moxie, these new clips are not included in the registered totals above.
+
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
 | manaconda | 29 | 293 | 1,305,626 |

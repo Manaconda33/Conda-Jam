@@ -1,0 +1,56 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "push",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-7d235ee3-4539-4bfe-9ece-c3e5760665c1",
+  "imageGenerationId": "exec-7d235ee3-4539-4bfe-9ece-c3e5760665c1",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-push11-generated-raw.png",
+  "rawSourceSha256": "081bc18db19f26805230fb7ea72aac037f1e99b0a974a5ce2840ea9c57878298",
+  "sourceSha256": "081bc18db19f26805230fb7ea72aac037f1e99b0a974a5ce2840ea9c57878298",
+  "prompt": "JAMVERSE '96 true-transparent RGBA sprite sheet, EXACTLY eleven separate complete full-body Dorian Mycel poses, strict four-column by three-row grid, row-major, last row has three figures and the unused final cell remains empty. Match the Dorian portrait/gameplay identity: adult compact human athlete, warm medium-brown skin, clean-shaven face, strong brows, short dense vivid-purple curls, purple Chicago Condas kit with silver/lavender trim, dark knee pads, wristbands, purple/silver shoes. Preserve all identity and natural two-arm/two-leg anatomy.\n\nRight-facing PUSH/body-check animation, but depict Dorian alone; never draw a second person or contact target. He has no ball; never draw a ball, sphere or prop. No court, hoop, floor, shadow, background, text, numbers, logos, effects, borders, cell dividers or panels. Crisp outlined 1990s arcade pixel art, true transparent alpha and broad cell margins. Exactly one full in-bounds Dorian in each occupied grid cell.\n\n0 balanced defensive stance;\n1 shifts weight low and coils shoulders;\n2 takes a short forceful step toward image-right;\n3 drives forward with shoulder leading, arms braced naturally;\n4 extends lead arm while torso leans into a body check;\n5 CONTACT at tick8: strongest forward impact pose, planted feet and firm shoulder/arm, still alone;\n6 carries momentum past contact, arm extends then starts to lower;\n7 follow-through with weight transferring forward;\n8 regains balance and straightens;\n9 steps back into defensive footwork, hands lowering;\n10 settled ready stance.\nEleven distinct connected poses, no duplicates, correct anatomy and identity. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 11.",
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "forward": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "11 distinct complete Dorian push poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented push track."
+  }
+}

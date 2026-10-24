@@ -4,4 +4,6 @@ Issue 3 remains incomplete. The decoded strict audit inspects **666 clips / 5,84
 
 J.103 `7f925af` is pushed to `main` and deployed in Pages run #141 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40049640158). Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=7f925af. The next action is Keeg `dunk-clutch`.
 
+Dorian Mycel has a complete source-only package: 29/29 keys including the newly authored `idle-ball`, with25 new action atlases /255 distinct drawings. Source hashes, accepted provenance, layouts, atlas bounds, nonblank unique frame crops and exact 29-key coverage passed an independent check. These assets are not in the registered totals above until roster-order integration after Moxie.
+
 Full target:30,765 authored drawings across3,045 required clips, with a minimum of29,190 drawings. Mirroring, holds, duplicate crops and rejected source art do not count. See `docs/ANIMATION_ASSET_AUDIT.md` and `docs/animation-production/GENERATED_POSES.md` for decoded detail.

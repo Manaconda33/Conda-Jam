@@ -1,0 +1,9 @@
+## Verbatim image-generation prompt
+
+```text
+Create a true-transparent RGBA sprite sheet with exactly 15 full-body action drawings of Dorian Mycel, five columns by three rows, row-major. Each isolated figure is centered in its own cell with generous transparent padding; no body parts touch cell or canvas edges. No background, floor, shadow, grid, court, hoop, text, logos, effects or extra people. Do not draw a basketball or any sphere: the game ball is a separate Dorian-specific object. Draw only Dorian miming its path with empty hands. Clean bold outlined 1990s arcade pixel art.
+
+Match both attached Dorian refs exactly: compact adult human, warm medium-brown skin, clean-shaven face and strong brows, short dense vivid-purple curls, purple Chicago Condas jersey/shorts with silver-lavender trim, dark knee pads, purple wristbands and purple/silver shoes. Keep identity and two-arm/two-leg human anatomy unchanged in every pose. Right-facing DUNK-WINDMILL sequence: he carries the invisible ball in one hand; sweeps that hand in a broad circular windmill path around his torso while gathering momentum, jumps and finishes at the imaginary rim; then descends and lands. 0 crouched approach; 1 turn shoulders and draw arm low; 2 arm sweeps backward behind hip; 3 windmill circles behind chest; 4 arm passes beneath waist; 5 continues around forward; 6 jumps and brings arm up; 7 airborne, windmill arm circles upward; 8 arm reaches high; 9 peak; 10 forceful finish; 11 follow-through; 12 descend; 13 land bent knees; 14 stable recovery. Fifteen clearly unique connected poses, all full body, no ball drawn. Transparent pixels everywhere outside people.
+```
+
+Rejected `exec-bb169519-7645-4d07-b4d4-02a01b4c325f`: outer right-hand poses are clipped at the sheet edge, failing full-body margin requirements.

@@ -1,0 +1,64 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "dunk-tomahawk",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-784558b0-422b-4246-801a-5d60e0e73931",
+  "imageGenerationId": "exec-784558b0-422b-4246-801a-5d60e0e73931",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-dunk-tomahawk15-generated-raw.png",
+  "rawSourceSha256": "160496d2c725c0e8d3a513719b28a8240969a6a870055480891b060c65c8a914",
+  "sourceSha256": "160496d2c725c0e8d3a513719b28a8240969a6a870055480891b060c65c8a914",
+  "prompt": "Create a true-transparent RGBA JAMVERSE '96 action sprite sheet: exactly 15 complete Dorian Mycel poses in a 5-column x 3-row grid, row-major. Keep each entire person centered with visible clear space on every side; no hand, hair or shoe touches the canvas edge. Only the player, no ball/sphere, hoop, court, floor, background, shadow, effects, text, lines, logo or other person. Basketball is a separate runtime object and is not illustrated. Crisp dark outlines, classic colorful 1990s arcade pixel art.\n\nExact attached character identity: Dorian Mycel, compact athletic adult human, warm medium-brown skin, clean-shaven face, strong brows, short dense vivid-purple curls, purple Chicago Condas jersey and shorts with silver/lavender trim, dark knee pads, purple wristbands, purple/silver shoes. Same face, outfit and natural two arms/hands, two legs/shoes across all poses.\n\nDUNK-TOMAHAWK: right-facing drive, leap, cock the invisible ball behind and above the crown, then forcefully hammer it downward into a tomahawk dunk; recover and land. Ball never appears, hand only mimes it. 0 approach crouch; 1 accelerates; 2 plant step; 3 launches; 4 tucks knees; 5 rises holding invisible ball near chest; 6 draws right arm behind shoulder; 7 cocks arm high behind crown; 8 peak, elbow bent and hand behind head; 9 starts hammer swing; 10 forceful downward finish; 11 follows through; 12 descends; 13 stable low landing; 14 recovery standing. Fifteen unique linked poses, varied silhouettes, consistent Dorian scale, empty transparent gutters. Keep raised poses compact so hair and hands remain well inside their cells.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 15.",
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.15,
+      1.25,
+      1.55,
+      1.8,
+      2.0,
+      2.1,
+      2.35,
+      2.4,
+      2.3,
+      1.3,
+      1.8,
+      1.4,
+      0.7,
+      0.55
+    ],
+    "forward": [
+      6.0,
+      8.0,
+      9.0,
+      10.0,
+      7.0,
+      4.0,
+      0.0,
+      -4.0,
+      -5.0,
+      -3.0,
+      9.0,
+      6.0,
+      8.0,
+      5.0,
+      6.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "15 distinct complete Dorian dunk-tomahawk poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented dunk-tomahawk track."
+  }
+}

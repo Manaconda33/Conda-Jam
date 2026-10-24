@@ -1,0 +1,457 @@
+[
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "dunk-tomahawk",
+    "src": "./public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+    "columns": 5,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 104,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 208,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 312,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 416,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 104,
+        "y": 96,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 208,
+        "y": 96,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 312,
+        "y": 96,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 416,
+        "y": 96,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 104,
+        "y": 192,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 208,
+        "y": 192,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 312,
+        "y": 192,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 416,
+        "y": 192,
+        "w": 104,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "clip": "dunk-tomahawk",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-784558b0-422b-4246-801a-5d60e0e73931",
+      "imageGenerationId": "exec-784558b0-422b-4246-801a-5d60e0e73931",
+      "rawSourceImage": "tools/generate-art/sources/dorian-mycel-dunk-tomahawk15-generated-raw.png",
+      "rawSourceSha256": "160496d2c725c0e8d3a513719b28a8240969a6a870055480891b060c65c8a914",
+      "sourceSha256": "160496d2c725c0e8d3a513719b28a8240969a6a870055480891b060c65c8a914",
+      "prompt": "Create a true-transparent RGBA JAMVERSE '96 action sprite sheet: exactly 15 complete Dorian Mycel poses in a 5-column x 3-row grid, row-major. Keep each entire person centered with visible clear space on every side; no hand, hair or shoe touches the canvas edge. Only the player, no ball/sphere, hoop, court, floor, background, shadow, effects, text, lines, logo or other person. Basketball is a separate runtime object and is not illustrated. Crisp dark outlines, classic colorful 1990s arcade pixel art.\n\nExact attached character identity: Dorian Mycel, compact athletic adult human, warm medium-brown skin, clean-shaven face, strong brows, short dense vivid-purple curls, purple Chicago Condas jersey and shorts with silver/lavender trim, dark knee pads, purple wristbands, purple/silver shoes. Same face, outfit and natural two arms/hands, two legs/shoes across all poses.\n\nDUNK-TOMAHAWK: right-facing drive, leap, cock the invisible ball behind and above the crown, then forcefully hammer it downward into a tomahawk dunk; recover and land. Ball never appears, hand only mimes it. 0 approach crouch; 1 accelerates; 2 plant step; 3 launches; 4 tucks knees; 5 rises holding invisible ball near chest; 6 draws right arm behind shoulder; 7 cocks arm high behind crown; 8 peak, elbow bent and hand behind head; 9 starts hammer swing; 10 forceful downward finish; 11 follows through; 12 descends; 13 stable low landing; 14 recovery standing. Fifteen unique linked poses, varied silhouettes, consistent Dorian scale, empty transparent gutters. Keep raised poses compact so hair and hands remain well inside their cells.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 15.",
+      "ballTrack": {
+        "height": [
+          1.0,
+          1.15,
+          1.25,
+          1.55,
+          1.8,
+          2.0,
+          2.1,
+          2.35,
+          2.4,
+          2.3,
+          1.3,
+          1.8,
+          1.4,
+          0.7,
+          0.55
+        ],
+        "forward": [
+          6.0,
+          8.0,
+          9.0,
+          10.0,
+          7.0,
+          4.0,
+          0.0,
+          -4.0,
+          -5.0,
+          -3.0,
+          9.0,
+          6.0,
+          8.0,
+          5.0,
+          6.0
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-dorian-actions.py",
+        "method": "alpha-connected component isolation and nearest-pixel reassignment"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "15 distinct complete Dorian dunk-tomahawk poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented dunk-tomahawk track."
+      },
+      "sourceImage": "tools/generate-art/sources/dorian-mycel-dunk-tomahawk15-generated-raw.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "sourceRect": {
+            "component": 5,
+            "area": 27906,
+            "x": 60,
+            "y": 96,
+            "w": 235,
+            "h": 224,
+            "row": 0,
+            "column": 0
+          },
+          "cropBox": [
+            58,
+            94,
+            297,
+            322
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "sourceRect": {
+            "component": 4,
+            "area": 25897,
+            "x": 352,
+            "y": 69,
+            "w": 257,
+            "h": 254,
+            "row": 0,
+            "column": 1
+          },
+          "cropBox": [
+            350,
+            67,
+            611,
+            325
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "sourceRect": {
+            "component": 3,
+            "area": 31568,
+            "x": 662,
+            "y": 42,
+            "w": 296,
+            "h": 275,
+            "row": 0,
+            "column": 2
+          },
+          "cropBox": [
+            660,
+            40,
+            960,
+            319
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "sourceRect": {
+            "component": 1,
+            "area": 29779,
+            "x": 1039,
+            "y": 11,
+            "w": 230,
+            "h": 314,
+            "row": 0,
+            "column": 3
+          },
+          "cropBox": [
+            1037,
+            9,
+            1271,
+            327
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "sourceRect": {
+            "component": 2,
+            "area": 24531,
+            "x": 1396,
+            "y": 14,
+            "w": 144,
+            "h": 290,
+            "row": 0,
+            "column": 4
+          },
+          "cropBox": [
+            1394,
+            12,
+            1542,
+            306
+          ]
+        },
+        {
+          "sourceIndex": 5,
+          "sourceRect": {
+            "component": 9,
+            "area": 30702,
+            "x": 49,
+            "y": 350,
+            "w": 267,
+            "h": 272,
+            "row": 1,
+            "column": 0
+          },
+          "cropBox": [
+            47,
+            348,
+            318,
+            624
+          ]
+        },
+        {
+          "sourceIndex": 6,
+          "sourceRect": {
+            "component": 8,
+            "area": 31603,
+            "x": 360,
+            "y": 344,
+            "w": 273,
+            "h": 280,
+            "row": 1,
+            "column": 1
+          },
+          "cropBox": [
+            358,
+            342,
+            635,
+            626
+          ]
+        },
+        {
+          "sourceIndex": 7,
+          "sourceRect": {
+            "component": 7,
+            "area": 31519,
+            "x": 698,
+            "y": 341,
+            "w": 278,
+            "h": 275,
+            "row": 1,
+            "column": 2
+          },
+          "cropBox": [
+            696,
+            339,
+            978,
+            618
+          ]
+        },
+        {
+          "sourceIndex": 8,
+          "sourceRect": {
+            "component": 6,
+            "area": 32841,
+            "x": 995,
+            "y": 339,
+            "w": 315,
+            "h": 273,
+            "row": 1,
+            "column": 3
+          },
+          "cropBox": [
+            993,
+            337,
+            1312,
+            614
+          ]
+        },
+        {
+          "sourceIndex": 9,
+          "sourceRect": {
+            "component": 10,
+            "area": 27575,
+            "x": 1346,
+            "y": 364,
+            "w": 231,
+            "h": 246,
+            "row": 1,
+            "column": 4
+          },
+          "cropBox": [
+            1344,
+            362,
+            1579,
+            612
+          ]
+        },
+        {
+          "sourceIndex": 10,
+          "sourceRect": {
+            "component": 14,
+            "area": 28612,
+            "x": 40,
+            "y": 705,
+            "w": 286,
+            "h": 246,
+            "row": 2,
+            "column": 0
+          },
+          "cropBox": [
+            38,
+            703,
+            328,
+            953
+          ]
+        },
+        {
+          "sourceIndex": 11,
+          "sourceRect": {
+            "component": 12,
+            "area": 31136,
+            "x": 356,
+            "y": 670,
+            "w": 273,
+            "h": 267,
+            "row": 2,
+            "column": 1
+          },
+          "cropBox": [
+            354,
+            668,
+            631,
+            939
+          ]
+        },
+        {
+          "sourceIndex": 12,
+          "sourceRect": {
+            "component": 15,
+            "area": 27828,
+            "x": 715,
+            "y": 739,
+            "w": 237,
+            "h": 215,
+            "row": 2,
+            "column": 2
+          },
+          "cropBox": [
+            713,
+            737,
+            954,
+            956
+          ]
+        },
+        {
+          "sourceIndex": 13,
+          "sourceRect": {
+            "component": 13,
+            "area": 29766,
+            "x": 1041,
+            "y": 682,
+            "w": 222,
+            "h": 270,
+            "row": 2,
+            "column": 3
+          },
+          "cropBox": [
+            1039,
+            680,
+            1265,
+            954
+          ]
+        },
+        {
+          "sourceIndex": 14,
+          "sourceRect": {
+            "component": 11,
+            "area": 29875,
+            "x": 1367,
+            "y": 633,
+            "w": 177,
+            "h": 320,
+            "row": 2,
+            "column": 4
+          },
+          "cropBox": [
+            1365,
+            631,
+            1546,
+            955
+          ]
+        }
+      ],
+      "uniformScale": 0.2795031055900621,
+      "componentIsolation": true,
+      "packaging": "package-dorian-actions.py; 104x96 cells; baseline94; lossless WebP; 15 original poses"
+    }
+  }
+]

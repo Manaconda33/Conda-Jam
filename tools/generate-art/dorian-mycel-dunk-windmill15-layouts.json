@@ -1,0 +1,457 @@
+[
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "dunk-windmill",
+    "src": "./public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+    "columns": 5,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 88,
+        "y": 0,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 176,
+        "y": 0,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 264,
+        "y": 0,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 352,
+        "y": 0,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 88,
+        "y": 96,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 176,
+        "y": 96,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 264,
+        "y": 96,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 352,
+        "y": 96,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 88,
+        "y": 192,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 176,
+        "y": 192,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 264,
+        "y": 192,
+        "w": 88,
+        "h": 96
+      },
+      {
+        "x": 352,
+        "y": 192,
+        "w": 88,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "clip": "dunk-windmill",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-0e0a45a1-7ecd-4b1e-a5cf-ff94c574f6e3",
+      "imageGenerationId": "exec-0e0a45a1-7ecd-4b1e-a5cf-ff94c574f6e3",
+      "rawSourceImage": "tools/generate-art/sources/dorian-mycel-dunk-windmill15-generated-raw.png",
+      "rawSourceSha256": "5f8405f048cf126493855e88ae4053ca2ac89b47d0169c6c83ed5ab0a5be7d9f",
+      "sourceSha256": "5f8405f048cf126493855e88ae4053ca2ac89b47d0169c6c83ed5ab0a5be7d9f",
+      "prompt": "Sprite sheet art, true transparent RGBA, 15 complete poses in 5 columns x 3 rows. Leave a wide transparent margin on the right and left of EVERY character, including both edge columns; no figure touches or crosses any canvas boundary. Place all figures well within a centered 70% wide area of their cells. Full feet and hair visible. Only characters on transparent background: no court/floor/shadow/gradient/hoop, no ball or any other object, no text, no divisions or decorations. Ball is a separate runtime object, entirely absent from drawings. Crisp dark outlines, colorful 1990s arcade pixel illustration.\n\nDorian Mycel exactly matches attached character references in every pose: clean-shaven compact adult human, warm medium-brown skin, dense vivid-purple short curly hair, strong brows, purple Chicago Condas jersey and shorts with silver/lavender trim, dark knee pads, purple wristbands, purple/silver shoes. Two arms, two hands, two legs, two feet. No identity changes.\n\n15 unique right-facing DUNK-WINDMILL animation poses depicting the player sweeping the ball-holding hand in a circular windmill path, then jumping to dunk, with no ball shown. Keep windmill arm close to his body, bent at elbow and never reaching sideways beyond his silhouette: 0 low crouch approach; 1 turns torso, draws arm down; 2 sweeps hand behind hip; 3 arm circles behind body; 4 hand crosses below waist; 5 arm returns to the front; 6 jumps, brings arm up; 7 airborne, arm continues circle; 8 hand rises beside head; 9 peak with bent raised arm; 10 downward finishing motion; 11 follows through; 12 descends; 13 lands in crouch; 14 balanced recovery. Row-major order, same size and identity, full bodies only, ample clear transparent gutters.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 15.",
+      "ballTrack": {
+        "height": [
+          1.1,
+          1.0,
+          0.9,
+          0.8,
+          0.75,
+          0.95,
+          1.2,
+          1.7,
+          2.05,
+          2.3,
+          1.8,
+          1.4,
+          1.1,
+          0.75,
+          0.65
+        ],
+        "forward": [
+          6.0,
+          4.0,
+          -2.0,
+          -7.0,
+          -10.0,
+          -8.0,
+          -3.0,
+          2.0,
+          5.0,
+          3.0,
+          9.0,
+          12.0,
+          8.0,
+          5.0,
+          5.0
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-dorian-actions.py",
+        "method": "alpha-connected component isolation and nearest-pixel reassignment"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "15 distinct complete Dorian dunk-windmill poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented dunk-windmill track."
+      },
+      "sourceImage": "tools/generate-art/sources/dorian-mycel-dunk-windmill15-generated-raw.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "sourceRect": {
+            "component": 5,
+            "area": 27459,
+            "x": 37,
+            "y": 95,
+            "w": 244,
+            "h": 223,
+            "row": 0,
+            "column": 0
+          },
+          "cropBox": [
+            35,
+            93,
+            283,
+            320
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "sourceRect": {
+            "component": 1,
+            "area": 29555,
+            "x": 375,
+            "y": 38,
+            "w": 214,
+            "h": 288,
+            "row": 0,
+            "column": 1
+          },
+          "cropBox": [
+            373,
+            36,
+            591,
+            328
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "sourceRect": {
+            "component": 2,
+            "area": 29506,
+            "x": 702,
+            "y": 38,
+            "w": 215,
+            "h": 287,
+            "row": 0,
+            "column": 2
+          },
+          "cropBox": [
+            700,
+            36,
+            919,
+            327
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "sourceRect": {
+            "component": 3,
+            "area": 31478,
+            "x": 1013,
+            "y": 38,
+            "w": 228,
+            "h": 284,
+            "row": 0,
+            "column": 3
+          },
+          "cropBox": [
+            1011,
+            36,
+            1243,
+            324
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "sourceRect": {
+            "component": 4,
+            "area": 25656,
+            "x": 1332,
+            "y": 60,
+            "w": 221,
+            "h": 261,
+            "row": 0,
+            "column": 4
+          },
+          "cropBox": [
+            1330,
+            58,
+            1555,
+            323
+          ]
+        },
+        {
+          "sourceIndex": 5,
+          "sourceRect": {
+            "component": 10,
+            "area": 27794,
+            "x": 63,
+            "y": 369,
+            "w": 220,
+            "h": 272,
+            "row": 1,
+            "column": 0
+          },
+          "cropBox": [
+            61,
+            367,
+            285,
+            643
+          ]
+        },
+        {
+          "sourceIndex": 6,
+          "sourceRect": {
+            "component": 7,
+            "area": 28463,
+            "x": 418,
+            "y": 342,
+            "w": 185,
+            "h": 308,
+            "row": 1,
+            "column": 1
+          },
+          "cropBox": [
+            416,
+            340,
+            605,
+            652
+          ]
+        },
+        {
+          "sourceIndex": 7,
+          "sourceRect": {
+            "component": 8,
+            "area": 29707,
+            "x": 735,
+            "y": 355,
+            "w": 227,
+            "h": 270,
+            "row": 1,
+            "column": 2
+          },
+          "cropBox": [
+            733,
+            353,
+            964,
+            627
+          ]
+        },
+        {
+          "sourceIndex": 8,
+          "sourceRect": {
+            "component": 9,
+            "area": 31322,
+            "x": 1056,
+            "y": 357,
+            "w": 239,
+            "h": 291,
+            "row": 1,
+            "column": 3
+          },
+          "cropBox": [
+            1054,
+            355,
+            1297,
+            650
+          ]
+        },
+        {
+          "sourceIndex": 9,
+          "sourceRect": {
+            "component": 6,
+            "area": 29164,
+            "x": 1362,
+            "y": 340,
+            "w": 190,
+            "h": 271,
+            "row": 1,
+            "column": 4
+          },
+          "cropBox": [
+            1360,
+            338,
+            1554,
+            613
+          ]
+        },
+        {
+          "sourceIndex": 10,
+          "sourceRect": {
+            "component": 13,
+            "area": 26837,
+            "x": 121,
+            "y": 669,
+            "w": 198,
+            "h": 273,
+            "row": 2,
+            "column": 0
+          },
+          "cropBox": [
+            119,
+            667,
+            321,
+            944
+          ]
+        },
+        {
+          "sourceIndex": 11,
+          "sourceRect": {
+            "component": 12,
+            "area": 25049,
+            "x": 365,
+            "y": 668,
+            "w": 247,
+            "h": 272,
+            "row": 2,
+            "column": 1
+          },
+          "cropBox": [
+            363,
+            666,
+            614,
+            942
+          ]
+        },
+        {
+          "sourceIndex": 12,
+          "sourceRect": {
+            "component": 14,
+            "area": 26357,
+            "x": 691,
+            "y": 674,
+            "w": 230,
+            "h": 268,
+            "row": 2,
+            "column": 2
+          },
+          "cropBox": [
+            689,
+            672,
+            923,
+            944
+          ]
+        },
+        {
+          "sourceIndex": 13,
+          "sourceRect": {
+            "component": 15,
+            "area": 26054,
+            "x": 1036,
+            "y": 726,
+            "w": 204,
+            "h": 215,
+            "row": 2,
+            "column": 3
+          },
+          "cropBox": [
+            1034,
+            724,
+            1242,
+            943
+          ]
+        },
+        {
+          "sourceIndex": 14,
+          "sourceRect": {
+            "component": 11,
+            "area": 29808,
+            "x": 1342,
+            "y": 667,
+            "w": 209,
+            "h": 276,
+            "row": 2,
+            "column": 4
+          },
+          "cropBox": [
+            1340,
+            665,
+            1553,
+            945
+          ]
+        }
+      ],
+      "uniformScale": 0.2912621359223301,
+      "componentIsolation": true,
+      "packaging": "package-dorian-actions.py; 88x96 cells; baseline94; lossless WebP; 15 original poses"
+    }
+  }
+]

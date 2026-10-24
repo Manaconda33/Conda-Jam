@@ -1,0 +1,13 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "pass-behind",
+  "direction": "right",
+  "generationId": "exec-9c572a15-ebb3-4cd5-a578-9715a48253d6",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-pass-behind-rejected-exec-9c572a15.png",
+  "rawSourceSha256": "c827ea388521c5506255d14685fa46793d7cc0a00988e9ad46ee8552f22a559f",
+  "prompt": "JAMVERSE '96 sprite sheet, exactly six full-body poses of Dorian Mycel in a strict three-column by two-row grid, read row-major. Dorian is a compact adult human basketball player with warm medium-brown skin, strong brows, focused eyes, short dense vivid-purple curls, a purple Chicago Condas uniform with silver/lavender trim, dark knee pads, wristbands and purple/silver shoes. Keep his face, hair, compact proportions, kit and natural two-arm/two-leg anatomy consistent. Match the attached portrait and gameplay references.\n\nRight-facing BEHIND-THE-BACK pass. The basketball is separate game art: do not draw any ball, sphere, seams, orb, prop or hoop. No court, floor, shadow, background, glow, text, jersey number, logo, border, panels or cell dividers. Pixel-art style with clear outlines and true alpha-0 gutters, all complete bodies safely inside their cells.\n\n0 right-facing approach, hands mime ball at waist;\n1 plants one foot and turns shoulder away, ball-miming hand crosses behind the hip;\n2 torso twists, invisible ball held behind the lower back, elbow bends naturally;\n3 RELEASE at simulation tick7: far hand snaps behind the back and opens after pass, wrist visible clear of body;\n4 arm follows through behind the hip as torso unwinds;\n5 balanced right-facing recovery with empty hands.\nSix distinct connected athletic poses; preserve complete limbs and identity. Return only the sheet.",
+  "promptVerbatim": true,
+  "status": "rejected",
+  "eligibleForPacking": false,
+  "rejectionReason": "Wrong identity: teal hair/headband, beard and teal/purple kit; source contains only four figures rather than the required six."
+}

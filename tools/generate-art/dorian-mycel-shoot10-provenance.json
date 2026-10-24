@@ -1,0 +1,55 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "shoot",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-59711d2f-c88e-43b2-9df7-878062084e61",
+  "imageGenerationId": "exec-59711d2f-c88e-43b2-9df7-878062084e61",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-shoot10-generated-raw.png",
+  "rawSourceSha256": "cfc7b2df6b3a413e734913927d237f6c1e1f3397d3a7506949546c5b01d86a07",
+  "sourceSha256": "cfc7b2df6b3a413e734913927d237f6c1e1f3397d3a7506949546c5b01d86a07",
+  "prompt": "Create an original 1536\u00d71024 true-transparent RGBA basketball sprite sheet for JAMVERSE '96. Show exactly ten separate complete full-body poses of Dorian Mycel in a strict five-column by two-row grid, read left-to-right then top-to-bottom. Keep all heads, curls, hands, shoes and bodies safely inside their own cells with clear gutters and outer margins. Each frame is a different connected pose in a right-facing jump-shot animation. Consistent anatomy, scale, outfit, face and pixel-art rendering across all ten figures.\n\nDorian Mycel is an adult male basketball player with warm medium-brown skin, a compact athletic build, short dense vivid-purple curls, strong brows, focused dark eyes and an individual face. He wears the Chicago Condas purple basketball kit with silver-lavender trim, matching shorts, dark knee pads, purple and silver shoes, and simple wristbands. Preserve these canon traits and his compact adult proportions in every view. Keep two human arms, two hands, two legs and two shoes. No horns, tail, extra limbs, costume change or unrequested props.\n\nThe basketball is a separately rendered game object. Do not draw any ball, sphere, orb, ball seams or prop in the art. Do not draw a court, hoop, floor, shadow, background, glow, letters, jersey number, logos, borders, cell dividers, teammate or opponent. Background and all gutters must be actual transparent alpha, not a checkerboard or matte. Use crisp 1990s arcade pixel-art clusters, bold readable outlines and clear hands/feet.\n\nThis is one compact right-handed jump shot. Keep Dorian facing and moving right. Create ten distinct natural poses in sequence:\n0 balanced stance, ball-miming hands low at waist;\n1 gathers the invisible ball to his chest, elbows flexed;\n2 bends knees and squares shoulders toward the basket, hands lift into shooting pocket;\n3 begins jump, shooting hand under the invisible ball, guide hand to the side;\n4 ball at forehead height, right elbow aligned and wrists set;\n5 RELEASE at simulation tick13: fully extended right shooting arm and open wrist after release, guide hand relaxed away from the invisible ball;\n6 airborne follow-through, shooting wrist stays flexed and legs extend;\n7 starts descending, right arm remains high, guide arm lowers;\n8 lands softly with knees flexed, eyes toward the basket;\n9 balanced recovery stance, hands empty and lowering.\n\nKeep all poses distinct, connected, anatomically plausible and clear at small gameplay size. Only one figure per cell. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "The basketball is rendered separately. Dorian controls it with a compact right-handed shooting motion and releases once from his fingertips at frame5/tick13. It is not painted into the poses.",
+  "ballTrack": {
+    "height": [
+      0.95,
+      1.05,
+      1.25,
+      1.5,
+      1.8,
+      2.05,
+      2.05,
+      1.8,
+      1.35,
+      1.1
+    ],
+    "forward": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      10,
+      8,
+      6,
+      5
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-action10.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment",
+    "minimumCellMarginPx": 20
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Ten distinct complete right-facing Dorian poses show a controlled gather, compact right-handed jump shot, open palm release at frame5/tick13, follow-through and balanced recovery. Face, dense purple curls, warm brown skin, compact human anatomy and purple/silver Chicago kit remain consistent."
+  }
+}

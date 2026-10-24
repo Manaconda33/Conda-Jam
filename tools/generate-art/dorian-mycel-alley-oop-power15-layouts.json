@@ -1,0 +1,177 @@
+[
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "alley-oop-power",
+    "src": "./public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+    "columns": 5,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "clip": "alley-oop-power",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-2a16a466-e81c-487f-b858-90bdaa196ede",
+      "imageGenerationId": "exec-2a16a466-e81c-487f-b858-90bdaa196ede",
+      "rawSourceImage": "tools/generate-art/sources/dorian-mycel-alley-oop-power15-generated-raw.png",
+      "rawSourceSha256": "35af9dc060da57e886f0bc9c9d9bc1e0fa2dc9029f144368caf486b1cd740224",
+      "sourceSha256": "35af9dc060da57e886f0bc9c9d9bc1e0fa2dc9029f144368caf486b1cd740224",
+      "prompt": "Create a 5x3 row-major sprite atlas of 15 distinct full-body poses. Character design must be identical to the attached successful Dorian sheet: Dorian Mycel, same clean-shaven compact adult human, warm brown skin, short dense bright purple curls, purple/silver Condas uniform, dark knee pads, purple wristbands, purple/silver shoes. This is the same male athlete, not a teammate or different person. Use no teal, headband, beard, long hair, ponytail, or dark uniform. True transparent RGBA background, all empty pixels transparent; no floor, court, gradient, hoop, ball or props. No clipping and leave clear margins. Crisp 90s arcade pixel-art outline.\n\nDraw an ALLEY-OOP POWER dunk animation. The invisible pass is a separate runtime basketball and must not be drawn; only Dorian appears. 15 frames: runs right, accelerates, plants, launches, rises, catches separate invisible lob with both empty hands overhead at frame 5, tucks and gathers while airborne, then one-handed forceful finish at frame 10, follows through, descends, lands, stands. Fifteen varied connected full-body poses, natural two arms and two legs, identity and outfit match attached Dorian asset exactly.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [
+        {
+          "generationId": "exec-2b2395cd-3d7b-489c-9e65-1fe0c9487ef7",
+          "source": "tools/generate-art/sources/dorian-mycel-alley-oop-power-attempt1-rejected.png",
+          "reason": "Changed Dorian identity to long lavender-haired woman in dark uniform and added opaque gradient backdrop; see rejected note."
+        },
+        {
+          "generationId": "exec-521864de-4e7d-4461-892f-ffade55a610b",
+          "source": "tools/generate-art/sources/dorian-mycel-alley-oop-power-attempt2-rejected.png",
+          "reason": "Changed Dorian identity to bearded teal-haired athlete in teal uniform and added opaque gradient backdrop; see rejected note."
+        }
+      ],
+      "mirrorEligible": true,
+      "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 15.",
+      "ballTrack": {
+        "height": [
+          1.0,
+          1.1,
+          1.2,
+          1.4,
+          1.7,
+          2.05,
+          1.6,
+          1.9,
+          2.2,
+          2.4,
+          2.5,
+          1.8,
+          1.2,
+          0.7,
+          0.55
+        ],
+        "forward": [
+          6.0,
+          8.0,
+          9.0,
+          8.0,
+          7.0,
+          10.0,
+          9.0,
+          8.0,
+          11.0,
+          14.0,
+          15.0,
+          12.0,
+          8.0,
+          5.0,
+          6.0
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-dorian-actions.py",
+        "method": "alpha-connected component isolation and nearest-pixel reassignment"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "15 distinct complete Dorian alley-oop-power poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented alley-oop-power track."
+      }
+    }
+  }
+]

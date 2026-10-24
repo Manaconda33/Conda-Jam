@@ -1,0 +1,228 @@
+[
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "pass-behind",
+    "src": "./public/assets/animation/dorian-mycel-pass-behind-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 104,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 208,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 312,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 416,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 104,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "clip": "pass-behind",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-89a8ba72-91ba-493e-9aee-22e4a6a6f07e",
+      "imageGenerationId": "exec-89a8ba72-91ba-493e-9aee-22e4a6a6f07e",
+      "rawSourceImage": "tools/generate-art/sources/dorian-mycel-pass-behind6-generated-raw.png",
+      "rawSourceSha256": "93025b791e2aa3df6f46dfabebce73a57d46d141d6f3e865689d812f26d70074",
+      "sourceSha256": "93025b791e2aa3df6f46dfabebce73a57d46d141d6f3e865689d812f26d70074",
+      "prompt": "Generate a sprite sheet with EXACTLY six (6) separate full-body figures in EXACTLY three columns and two rows, read left-to-right, top-to-bottom. Each cell contains exactly one whole person; no missing cells, extra figures or cropped bodies. Transparent RGBA, 1536x1024.\n\nCharacter identity is fixed by the attached Dorian portrait and gameplay reference. Copy that individual exactly: young adult human man, warm medium-brown skin, clean-shaven face, strong brows, focused dark eyes, short dense vivid PURPLE curls with no headband. Compact athletic adult build. He wears the purple Chicago Condas jersey and shorts with bright silver-white/lavender edging, dark knee pads, purple/silver shoes and purple wristbands. No teal/cyan hair or clothing; no beard; no hat; no facial hair. Preserve this look across all six different poses. Two arms, two hands, two legs, two shoes.\n\nAction: a right-facing behind-the-back pass. The ball is separate game art and must never appear. No sphere, ball seams, props, hoop, court, floor, shadows, effects, lettering, numbers, logos, lines, frame borders or opaque background. Use clean 1990s arcade pixel-art shading and dark outlines. All exterior and gutters are fully transparent.\n\nExact six-frame sequence:\n1. Right-facing ready stance with hands miming the separate ball at waist.\n2. Plant feet; pivot shoulders away; ball-miming hand crosses behind the right hip.\n3. Torso twists; invisible ball is carried behind the lower back.\n4. RELEASE at tick7: arm snaps behind the back; open palm finishes the pass.\n5. Empty hand follows through behind the hip while torso unwinds.\n6. Balanced right-facing recovery, both hands empty.\nDo not repeat or omit a pose. Show the complete body in every cell, consistent Dorian identity, no extra person. Return only this sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [
+        {
+          "athlete": "dorian-mycel",
+          "clip": "pass-behind",
+          "direction": "right",
+          "generationId": "exec-9c572a15-ebb3-4cd5-a578-9715a48253d6",
+          "rawSourceImage": "tools/generate-art/sources/dorian-mycel-pass-behind-rejected-exec-9c572a15.png",
+          "rawSourceSha256": "c827ea388521c5506255d14685fa46793d7cc0a00988e9ad46ee8552f22a559f",
+          "prompt": "JAMVERSE '96 sprite sheet, exactly six full-body poses of Dorian Mycel in a strict three-column by two-row grid, read row-major. Dorian is a compact adult human basketball player with warm medium-brown skin, strong brows, focused eyes, short dense vivid-purple curls, a purple Chicago Condas uniform with silver/lavender trim, dark knee pads, wristbands and purple/silver shoes. Keep his face, hair, compact proportions, kit and natural two-arm/two-leg anatomy consistent. Match the attached portrait and gameplay references.\n\nRight-facing BEHIND-THE-BACK pass. The basketball is separate game art: do not draw any ball, sphere, seams, orb, prop or hoop. No court, floor, shadow, background, glow, text, jersey number, logo, border, panels or cell dividers. Pixel-art style with clear outlines and true alpha-0 gutters, all complete bodies safely inside their cells.\n\n0 right-facing approach, hands mime ball at waist;\n1 plants one foot and turns shoulder away, ball-miming hand crosses behind the hip;\n2 torso twists, invisible ball held behind the lower back, elbow bends naturally;\n3 RELEASE at simulation tick7: far hand snaps behind the back and opens after pass, wrist visible clear of body;\n4 arm follows through behind the hip as torso unwinds;\n5 balanced right-facing recovery with empty hands.\nSix distinct connected athletic poses; preserve complete limbs and identity. Return only the sheet.",
+          "promptVerbatim": true,
+          "status": "rejected",
+          "eligibleForPacking": false,
+          "rejectionReason": "Wrong identity: teal hair/headband, beard and teal/purple kit; source contains only four figures rather than the required six."
+        }
+      ],
+      "mirrorEligible": true,
+      "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 6.",
+      "ballTrack": {
+        "height": [
+          1.1,
+          1.0,
+          0.95,
+          1.2,
+          1.1,
+          0.95
+        ],
+        "forward": [
+          5.0,
+          2.0,
+          -5.0,
+          -10.0,
+          -8.0,
+          4.0
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-dorian-actions.py",
+        "method": "alpha-connected component isolation and nearest-pixel reassignment"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "6 distinct complete Dorian pass-behind poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented pass-behind track."
+      },
+      "sourceImage": "tools/generate-art/sources/dorian-mycel-pass-behind6-generated-raw.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "sourceRect": {
+            "component": 1,
+            "area": 71033,
+            "x": 72,
+            "y": 20,
+            "w": 370,
+            "h": 468,
+            "row": 0,
+            "column": 0
+          },
+          "cropBox": [
+            70,
+            18,
+            444,
+            490
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "sourceRect": {
+            "component": 2,
+            "area": 68867,
+            "x": 608,
+            "y": 26,
+            "w": 346,
+            "h": 466,
+            "row": 0,
+            "column": 1
+          },
+          "cropBox": [
+            606,
+            24,
+            956,
+            494
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "sourceRect": {
+            "component": 3,
+            "area": 70615,
+            "x": 1116,
+            "y": 40,
+            "w": 360,
+            "h": 449,
+            "row": 0,
+            "column": 2
+          },
+          "cropBox": [
+            1114,
+            38,
+            1478,
+            491
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "sourceRect": {
+            "component": 4,
+            "area": 76536,
+            "x": 52,
+            "y": 526,
+            "w": 466,
+            "h": 465,
+            "row": 1,
+            "column": 0
+          },
+          "cropBox": [
+            50,
+            524,
+            520,
+            993
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "sourceRect": {
+            "component": 5,
+            "area": 65951,
+            "x": 631,
+            "y": 536,
+            "w": 359,
+            "h": 454,
+            "row": 1,
+            "column": 1
+          },
+          "cropBox": [
+            629,
+            534,
+            992,
+            992
+          ]
+        },
+        {
+          "sourceIndex": 5,
+          "sourceRect": {
+            "component": 6,
+            "area": 67379,
+            "x": 1127,
+            "y": 538,
+            "w": 365,
+            "h": 452,
+            "row": 1,
+            "column": 2
+          },
+          "cropBox": [
+            1125,
+            536,
+            1494,
+            992
+          ]
+        }
+      ],
+      "uniformScale": 0.19189765458422176,
+      "componentIsolation": true,
+      "packaging": "package-dorian-actions.py; 104x96 cells; baseline94; lossless WebP; 6 original poses"
+    }
+  }
+]

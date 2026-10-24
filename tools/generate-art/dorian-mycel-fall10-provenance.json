@@ -1,0 +1,54 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "fall",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-4d160c31-8f39-462e-9dae-4e4d1b3f735c",
+  "imageGenerationId": "exec-4d160c31-8f39-462e-9dae-4e4d1b3f735c",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-fall10-generated-raw.png",
+  "rawSourceSha256": "bc2677a5e581b8780f5c95b73902a0cf1a1a570e57e8373c0373a2de217689e6",
+  "sourceSha256": "bc2677a5e581b8780f5c95b73902a0cf1a1a570e57e8373c0373a2de217689e6",
+  "prompt": "Create a true-transparent RGBA JAMVERSE '96 sheet with EXACTLY ten different complete full-body Dorian Mycel action drawings in a five-column by two-row grid, row-major. Use attached Dorian portrait and gameplay reference: adult compact human athlete, warm medium-brown skin, clean-shaven face, strong brows, short dense vivid-purple curls, purple Chicago Condas uniform with silver/lavender trim, dark knee pads, wristbands, purple/silver shoes. Keep his exact identity, face, curls and compact proportions; two arms, two hands, two legs, two shoes.\n\nAnimation: controlled FALL after a basketball body check, then recovery. Show Dorian alone. The game ball remains separate and must not be drawn. No other player, ball, hoop, court, floor, shadow, background, text, numbers, logos, effects, borders or grid lines. Use clean outlined 1990s arcade pixel art and true transparent gutters. One complete pose in each cell, no cropped hair/hands/shoes.\n\n0 loses balance, torso pitches forward, arms counterbalance;\n1 stumbles one step, knees bend;\n2 tips onto one knee, hands brace for the fall;\n3 controlled side/back contact with the ground, limbs remain natural;\n4 rolls onto one hip, head and shoulders lift;\n5 sits and plants one hand, preparing to rise;\n6 pushes up to a low crouch;\n7 one knee under body, hand leaves floor;\n8 rises to stable crouch with arms balancing;\n9 fully recovered athletic stance, upright and ready.\nTen distinct poses; the grounded state lasts only the middle poses, no crawling or distorted anatomy. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 10.",
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "forward": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "10 distinct complete Dorian fall poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented fall track."
+  }
+}

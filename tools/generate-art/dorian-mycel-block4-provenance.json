@@ -1,0 +1,42 @@
+{
+  "athlete": "dorian-mycel",
+  "clip": "block",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-c6641d8c-6bd3-43cd-9c9e-a14fbd94bfe4",
+  "imageGenerationId": "exec-c6641d8c-6bd3-43cd-9c9e-a14fbd94bfe4",
+  "rawSourceImage": "tools/generate-art/sources/dorian-mycel-block4-generated-raw.png",
+  "rawSourceSha256": "d439eb3dcf1dcd5349aa7500ff4d5d93f3672b8ee2ffc878833ce8f5021a5352",
+  "sourceSha256": "d439eb3dcf1dcd5349aa7500ff4d5d93f3672b8ee2ffc878833ce8f5021a5352",
+  "prompt": "JAMVERSE '96 pixel-art RGBA sprite sheet, exactly four separate full-body Dorian Mycel poses in a two-column by two-row grid. Match his attached portrait/gameplay identity: compact adult human, warm medium-brown skin, clean-shaven strong-browed face, short vivid-purple curls, purple Chicago Condas uniform with silver/lavender trim, dark knee pads, wristbands, purple/silver shoes. No identity or anatomy changes.\n\nDefensive BLOCK animation, right-facing. Dorian has no ball; do not draw a ball, sphere, hoop, court, floor, shadow, background, effects, text, labels, logos, grid or border. True transparent RGBA gutters and exterior. Bold outlines, 1990s arcade pixel art. One complete, unclipped athlete in each cell; two arms and two legs.\n\n0 stable defensive stance, knees flexed, arms low and ready;\n1 explodes upward, right arm rises, left arm balances;\n2 APEX block at tick5: right hand reaches straight up with fingers spread, body fully airborne;\n3 descending and landing under control, both arms return toward balance.\nExactly four distinct connected poses, no duplicates or extra objects. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 4.",
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.2,
+      1.4,
+      1.2
+    ],
+    "forward": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dorian-actions.py",
+    "method": "alpha-connected component isolation and nearest-pixel reassignment"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "4 distinct complete Dorian block poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented block track."
+  }
+}

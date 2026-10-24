@@ -1,0 +1,9 @@
+## Verbatim image-generation prompt
+
+```text
+Design a true-transparent RGBA sprite atlas with a strict 5-column × 3-row grid, containing 15 full body Dorian Mycel drawings in row-major order. Keep each drawing centered in its cell with at least 12% transparent padding on every side. Figures must be small enough to fit; no body part, hair, hand or shoe may touch or cross cell boundaries or canvas edges. Outside the 15 figures is completely transparent alpha 0, with no backdrop, gradient, shadow, glow, floor, grid lines or panel. No basketball or object at all; ball is drawn separately in gameplay, so hands only mime its position. No hoop, people, court, text, logo or prop.
+
+Dorian Mycel is a compact adult human athlete with warm medium-brown skin, clean-shaven strong-browed face, short dense vivid-purple curls, purple Chicago Condas kit with silver/lavender trim, dark knee pads, wristbands and purple/silver shoes. Use attached refs and match his exact face, hair, build, kit and natural two-arm/two-leg anatomy in all cells. Right-facing powerful high-speed basketball dunk sequence, 15 distinct connected poses, clean outlined colorful 1990s arcade pixel art, consistent scale. 0 crouched approach; 1 accelerating run; 2 gathers empty hands near waist; 3 forward plant; 4 launches; 5 knees rise and empty hands approach chest; 6 arms rise; 7 right arm reaches high; 8 airborne peak, right hand high; 9 reaches toward invisible rim outside the frame; 10 drives empty hand downward to finish; 11 follows through; 12 descends; 13 controlled crouch landing; 14 stands in recovery. Do not draw a rim. Leave clear 12% cell border space all around every figure. Make only the fifteen figures, nothing else.
+```
+
+Rejected generation `exec-c1d83027-e95b-4232-b744-fd79b1720a1a`: the rightmost forward reach touches the image's right edge (11 nontransparent pixels on outer edge), leaving no clear safe margin. Do not pack or use this candidate.
