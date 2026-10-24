@@ -1,12 +1,12 @@
 # QA report
 
-## J.107 Keeg `alley-oop-reverse` asset checkpoint — validated locally, not deployed
+## J.107 Keeg `alley-oop-reverse` asset checkpoint — Pages run #159 passed
 
 - Accepted and registered 15 unique generated Keeg poses in a lossless5×3 atlas. The 128×96 packed cells retain at least26px side margins and5px vertical margins; the corrected light/dark review covers all15 poses. Pose05 has an empty catch gap; no source art contains a ball.
 - Exact per-pose generation/edit prompts, generation IDs, raw and cleaned source hashes, cleanup,20 rejected/excluded candidates, layout records and reviews are preserved under `tools/generate-art/`. Keeg retains K.03 human anatomy, black hair/beard, purple mushroom hat with silver trim, full Moonmorel kit and shoes.
 - A Keeg-specific separate ball track catches the incoming lob at tick10, stays carried through tick20, and releases once at tick21 into simulation-owned rim flight. Native Canvas captures select all15 poses in both facings at standard and120% zoom; both full sequences and contact/release screenshots are preserved.
 - Keeg is29/29 clips /293 authored drawings. Next canonical roster-order athlete is Piper Quickstep (`5/29`); `shoot` pose generation is underway.
-- Validation: `npm test` PASS —28/28 test files; `npm run lint` PASS —18 modules; `npm run validate:content` PASS —35 franchises /105 athletes; `npm run simulate:league` PASS —100 matches /856,346 ticks /5 overtimes; atlas packer PASS —55/55; build and Chromium E2E PASS. Focused suites pass animation-sprites115/115 and simulation animation171/171. Strict report-only audit refreshed `2026-10-24T17:32:56.733Z`:670 clips /5,904 drawings /105 athletes,2,433 missing clips,3 target shortfalls,4 inherited prompt findings. Push and Pages workflow verification remain pending.
+- Validation: `npm test` PASS —28/28 test files; `npm run lint` PASS —18 modules; `npm run validate:content` PASS —35 franchises /105 athletes; `npm run simulate:league` PASS —100 matches /856,346 ticks /5 overtimes; atlas packer PASS —55/55; build and Chromium E2E PASS. Focused suites pass animation-sprites115/115 and simulation animation171/171. Strict report-only audit refreshed `2026-10-24T17:32:56.733Z`:670 clips /5,904 drawings /105 athletes,2,433 missing clips,3 target shortfalls,4 inherited prompt findings. Checkpoint `b8fd1d3` is pushed to `main`; GitHub Pages run #159 passed: https://github.com/Manaconda33/Conda-Jam/actions/runs/40117044306. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=b8fd1d3.
 
 ## J.106 Keeg `alley-oop-power` asset checkpoint — local, not deployed
 
