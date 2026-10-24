@@ -1,6 +1,6 @@
 # QA report
 
-## Latest validated checkpoint — J.101 + court geometry (2026-10-24; local, push pending)
+## Latest validated checkpoint — J.101 + court geometry (2026-10-24; pushed and deployed)
 
 - `npm test`: PASS —407 tests, zero failures; includes static offline build.
 - `npm run lint`: PASS —18 JavaScript modules.
@@ -11,7 +11,7 @@
 - Strict audit: expected INCOMPLETE —664 clips /5,814 authored drawings across105 athletes,2,439 missing clips,3 target shortfalls and4 inherited prompt findings.
 - Court unit tests confirm regulation hoop, board, lane and elliptical arc coordinates; score classification follows the rendered arc and corner segments. E2E full-match journey passes on the corrected court.
 - Keeg zoom120 native preview loaded167 images and rendered452 action frames. All fifteen J.101 poses select production art in both facings; the separate ball meets Keeg’s extended palm at frame10/tick21.
-- J.100 `4ac0c2c` Pages run #138 succeeded. J.101 and court geometry are fully validated locally and ready for checkpoint push.
+- J.100 `4ac0c2c` Pages run #138 succeeded. J.101 and court geometry `a5bd50e` are deployed in Pages run #139 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40047825849); preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=a5bd50e.
 
 ## Environment
 

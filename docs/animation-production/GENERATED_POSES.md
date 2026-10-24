@@ -606,7 +606,7 @@ Keeg adds fifteen distinct 360-dunk poses, reaching23/29 reviewed action clips /
 
 Accepted generation `exec-7e0684b7-bf8b-4626-bd52-21a5c9a6a8f5` raw source SHA-256 `bdba724ffcbc8a6ef0fe3ee7334d3659f796a7d91065f6caee9e4f9345a32db3`; cleaned source SHA-256 `6fd60609f02b1c76f84a6d7ed99cc70e67475d74e8c33c05595edf62455d9a29`. The512×384 atlas `public/assets/animation/keeg-dunk-360-right.webp` is72,348 bytes / SHA-256 `66cbe3f6a8c997f630e3e3b5ab3ff183114ffe43ee48bea19acf6a2afeafe25b`. Prompt, cleanup, layouts, track and provenance are recorded in J.101 generation files.
 
-J.101 passes407 JavaScript tests, lint18 modules, content validation,100-match simulation /866,809 ticks /9 overtimes,53 packer tests, build and Chromium full-match/season/touch E2E. Zoom120 preview loads167 images /452 action frames. The audit is664 clips /5,814 drawings /105 athletes,2,439 missing clips,3 target shortfalls,4 inherited prompt findings. J.100 `4ac0c2c` is deployed in Pages run #138. Next: Keeg `dunk-tomahawk`.
+J.101 passes407 JavaScript tests, lint18 modules, content validation,100-match simulation /866,809 ticks /9 overtimes,53 packer tests, build and Chromium full-match/season/touch E2E. Zoom120 preview loads167 images /452 action frames. The audit is664 clips /5,814 drawings /105 athletes,2,439 missing clips,3 target shortfalls,4 inherited prompt findings. J.101 `a5bd50e` is deployed in Pages run #139: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=a5bd50e. Next: Keeg `dunk-tomahawk`.
 
 ## J.100 — Keeg `dunk-reverse`
 

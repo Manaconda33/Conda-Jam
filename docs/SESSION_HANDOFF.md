@@ -1,6 +1,6 @@
 # Session handoff
 
-## Current checkpoint — J.101 Keeg `dunk-360` validated locally; push pending
+## Current checkpoint — J.101 Keeg `dunk-360` pushed and deployed in Pages run #139
 
 J.101 adds fifteen distinct 360-dunk poses. Keeg now has23/29 reviewed clips /213 authored drawings; each pose selects reviewed production art in both facings. His torso completes the airborne turn, while a separate Keeg-specific ball reaches the extended palm on frame10/tick21. K.03 approves mirroring; his black hair, close beard, tall purple mushroom hat, adult human anatomy and purple/lavender/silver kit remain intact.
 
@@ -8,7 +8,7 @@ Accepted generation `exec-7e0684b7-bf8b-4626-bd52-21a5c9a6a8f5`; raw source SHA-
 
 Gameplay polish now maps rim centers 5.25 ft from baselines, board faces 4 ft out, lane geometry to 19×16 ft, and three-point/free-throw arcs to the 94×50 ft court proportions. Scoring uses the same elliptical arc and straight corner segments as the rendered markings. Floor boards use finer grain and a low-opacity team wordmark.
 
-Validation passes407 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /866,809 ticks /9 overtime periods,53 packer tests, build and Chromium offline/full-match/season/touch E2E. The zoom120 native preview loads167 images /452 action frames; all fifteen J.101 frames select production art in both facings, with ball at the release palm on frame10/tick21. Strict report-only audit:664 clips /5,814 drawings /105 athletes,2,439 missing clips,3 target shortfalls,4 inherited prompt findings. J.100 `4ac0c2c` remains the deployed checkpoint (Pages #138): https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4ac0c2c. J.101 is validated locally and ready for push. Next: Keeg `dunk-tomahawk`.
+Validation passes407 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /866,809 ticks /9 overtime periods,53 packer tests, build and Chromium offline/full-match/season/touch E2E. The zoom120 native preview loads167 images /452 action frames; all fifteen J.101 frames select production art in both facings, with ball at the release palm on frame10/tick21. Strict report-only audit:664 clips /5,814 drawings /105 athletes,2,439 missing clips,3 target shortfalls,4 inherited prompt findings. J.100 `4ac0c2c` remains the deployed checkpoint (Pages #138): https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4ac0c2c. J.101 `a5bd50e` is pushed and deployed in Pages run #139 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40047825849); preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=a5bd50e. Next: Keeg `dunk-tomahawk`.
 
 ## Active assignment and authorization
 
