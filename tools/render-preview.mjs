@@ -59,6 +59,20 @@ const state=game.state;state.lastEvent='';state.pause=false;state.phase='playing
 const p=state.players.find(p=>p.id===previewAthlete);
 if(!p)throw new Error('Preview athlete is not in the active lineup: '+previewAthlete);
 const {animationAssetManifest}=await import(pathToFileURL(root+'/src/content/animation-assets.js'));
+// Asset reviewers can inspect a provisional manifest entry without marking it
+// approved in the checked-in manifest. This override is process-local only.
+if(process.env.JAMVERSE_PREVIEW_UNREVIEWED==='1'){
+  const character=animationAssetManifest.characters?.[previewAthlete];
+  const provisional=character?.directions?.right?.['dunk-scythe'];
+  if(provisional)provisional.reviewed=true;
+  for(const key of ['alley-oop-power','alley-oop-reverse']){
+    const provisionalOop=character?.directions?.right?.[key];
+    if(provisionalOop)provisionalOop.reviewed=true;
+  }
+  // Keeg's K.03 canon approves mirroring. Apply that approval only to the
+  // in-memory review run because registration resets the manifest to pending.
+  if(previewAthlete==='keeg'&&character?.mirrorReview?.canonicalSection==='K.03')character.mirrorReview.status='reviewed';
+}
 const previewImages=new Map(images.map(image=>[image.file,image]));
 const previews=[],previewFrames=[],clips=Object.keys(animationClips);
 for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip of clips){
@@ -104,16 +118,38 @@ for(const clip of ['dunk-power','dunk-windmill','dunk-reverse','dunk-360','dunk-
  for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
   for(const player of state.players){player.animation={clip:'idle',tick:0};player.hasBall=false;player.z=0;}
   const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish'),release=anchorTick(clip,'release'),grab=anchorTick(clip,'grab');
-  p.x=100;p.y=50;p.facing=facing;p.animation={clip,tick};
+  // Place the dunker near the rim in the direction they face so the separate
+  // pre-release ball track and release point can be judged in court context.
+  p.x=facing>0?170:30;p.y=50;p.facing=facing;p.animation={clip,tick};
   p.z=tick<=takeoff?0:tick<=peak?5*Math.sin((tick-takeoff)/(peak-takeoff)*Math.PI/2):5*Math.sin((finish-tick)/(finish-peak)*Math.PI/2);
   const released=tick>=release,caught=!clip.startsWith('alley-oop-')||tick>=grab;p.hasBall=caught&&!released;
-  Object.assign(state.ball,{x:p.x+facing*sampleBallForward(clip,tick,p.id),y:50,z:p.z+sampleBallHeight(clip,tick,p.id),mode:released?'dunk':caught?'carried':'pass',ownerId:p.hasBall?p.id:null});
+  const handHeight=sampleBallHeight(clip,tick,p.id);
+  if(released){
+    // The simulation resolves a made dunk at the hoop at the release anchor.
+    const hoop=facing>0?188.83:11.17;
+    Object.assign(state.ball,{x:hoop,y:50,z:3,vx:0,vy:0,vz:0,mode:'dunk',ownerId:null});
+  }else Object.assign(state.ball,{x:p.x+facing*sampleBallForward(clip,tick,p.id),y:50,z:p.z+handHeight,mode:caught?'carried':'pass',ownerId:p.hasBall?p.id:null});
   game.tick(0);
   const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
   const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});
   actionFramePreviews.push({path,athlete:p.id,clip,frame,tick,facing,production:Boolean(selected),selectedFrame:selected?.frame,source:selected?.atlas?.file??null,flipped:selected?.flip??false,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId});
   tick+=animationClips[clip].frames[frame].duration;
  }
+}
+// The last carried tick immediately precedes the shared pose10/tick21 dunk
+// release. Capture it separately because frame9 spans both ticks19 and20.
+for(const clip of ['dunk-scythe','alley-oop-power','alley-oop-reverse'])for(const facing of [1,-1]){
+ const tick=anchorTick(clip,'release')-1;
+ for(const player of state.players){player.animation={clip:'idle',tick:0};player.hasBall=false;player.z=0;}
+ p.x=facing>0?170:30;p.y=50;p.facing=facing;p.animation={clip,tick};
+ const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish');
+ p.z=tick<=takeoff?0:tick<=peak?5*Math.sin((tick-takeoff)/(peak-takeoff)*Math.PI/2):5*Math.sin((finish-tick)/(finish-peak)*Math.PI/2);
+ p.hasBall=true;
+ Object.assign(state.ball,{x:p.x+facing*sampleBallForward(clip,tick,p.id),y:50,z:p.z+sampleBallHeight(clip,tick,p.id),mode:'carried',ownerId:p.id});
+ game.tick(0);
+ const position=facing>0?'right':'left',path=out+'/'+position+'-'+clip+'-pre-release-tick'+tick+'.png';
+ await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
+ actionFramePreviews.push({path,athlete:p.id,clip,frame:9,tick,facing,production:Boolean(selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages})),source:animationAssetManifest.characters?.[p.id]?.directions?.right?.[clip]?.src??null,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:'last carried tick before release'});
 }
 await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',cameraZoom:previewZoom,loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames,actionFramePreviews},null,2));
 console.log(JSON.stringify({loadedImages:images.length,previews:previews.length,actionFramePreviews:actionFramePreviews.length,out}));

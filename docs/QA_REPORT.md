@@ -1,3 +1,41 @@
+# QA report
+
+## J.107 Keeg `alley-oop-reverse` asset checkpoint — validated locally, not deployed
+
+- Accepted and registered 15 unique generated Keeg poses in a lossless5×3 atlas. The 128×96 packed cells retain at least26px side margins and5px vertical margins; the corrected light/dark review covers all15 poses. Pose05 has an empty catch gap; no source art contains a ball.
+- Exact per-pose generation/edit prompts, generation IDs, raw and cleaned source hashes, cleanup,20 rejected/excluded candidates, layout records and reviews are preserved under `tools/generate-art/`. Keeg retains K.03 human anatomy, black hair/beard, purple mushroom hat with silver trim, full Moonmorel kit and shoes.
+- A Keeg-specific separate ball track catches the incoming lob at tick10, stays carried through tick20, and releases once at tick21 into simulation-owned rim flight. Native Canvas captures select all15 poses in both facings at standard and120% zoom; both full sequences and contact/release screenshots are preserved.
+- Keeg is29/29 clips /293 authored drawings. Next canonical roster-order athlete is Piper Quickstep (`5/29`); `shoot` pose generation is underway.
+- Validation: `npm test` PASS —28/28 test files; `npm run lint` PASS —18 modules; `npm run validate:content` PASS —35 franchises /105 athletes; `npm run simulate:league` PASS —100 matches /856,346 ticks /5 overtimes; atlas packer PASS —55/55; build and Chromium E2E PASS. Focused suites pass animation-sprites115/115 and simulation animation171/171. Strict report-only audit refreshed `2026-10-24T17:32:56.733Z`:670 clips /5,904 drawings /105 athletes,2,433 missing clips,3 target shortfalls,4 inherited prompt findings. Push and Pages workflow verification remain pending.
+
+## J.106 Keeg `alley-oop-power` asset checkpoint — local, not deployed
+
+- Accepted and registered 15 unique generated Keeg drawings in a 5×3 lossless atlas. Original and alpha-cleaned sources, exact prompts, generation IDs, hashes, cleanup, layout/crop metadata, six rejected attempts, light/dark reviews, full sequence and ball overlay are preserved in `tools/generate-art/`.
+- The independent Keeg ball track contacts the catch hand at tick10, remains attached through tick20, then simulation resolves the sole release to the rim at tick21. Native renderer report/screens cover both facings. K.03 human anatomy/identity, full hat/hands/shoes, transparent margins and pose separation pass.
+- Keeg is 28/29 clips /278 authored drawings. Next roster-order asset is J.107 `alley-oop-reverse`.
+- Validation: `npm test` PASS —28/28 files; lint PASS —18 modules; content PASS —35 franchises /105 athletes; simulation PASS —100 matches /856,346 ticks /5 overtimes; atlas packer PASS —55 checks; build PASS; Chromium E2E PASS.
+- Strict audit refreshed `2026-10-24T16:44:38.344Z`:669 clips /5,889 drawings /105 athletes;2,434 missing clips,3 target shortfalls,4 inherited prompt findings. J.106 is validated locally; commit/push and Pages workflow verification remain.
+
+
+## Latest animation work and validation — 2026-10-24 16:24 UTC
+
+### J.105 Keeg `dunk-scythe`
+
+- Accepted production atlas `public/assets/animation/keeg-dunk-scythe-right.webp`; 15 unique right-facing poses, safely mirrored under reviewed K.03 policy. The exact prompts, generated sources, eight rejected sheets, isolated rejected variants, cell layouts, cleanup notes, track overlay and native previews are preserved in the J.105 files and `artifacts/native-render-preview/`.
+- Native preview selected all15 J.105 poses in both facings; carried ball tracks to the hand through tick20 and resolves at the rim on tick21. Focused sprite coverage verifies atlas hash, all unique frames, mirror direction, release anchor and sampled ball offsets.
+- Audit refreshed at `2026-10-24T16:22:12.268Z`: 668 registered clips / 5,874 authored drawings / 105 athletes; 2,435 missing clips,3 target shortfalls,4 inherited prompt findings. Exact timestamp is in `docs/animation-production/ASSET_AUDIT.json`.
+
+### J.106 Keeg `alley-oop-power` source lane — not registered yet
+
+- Poses00–07 have individually generated source images and light/dark 128×96 cell reviews. Pose03 attempt01 (haze) and attempt02 (too similar to pose02), pose05 attempt01 (too similar to pose04), and pose07 attempt01 (hand behind/against hat) are preserved as rejected; accepted alternatives retain raw and cleaned outputs as applicable. Exact prompts, IDs, hashes and review metrics are in `tools/generate-art/j106-keeg-alley-oop-power-provenance.json` and pose prompt files.
+- The accepted drawings retain Keeg’s K.03 human identity, black hair/beard, tall purple mushroom hat and purple/silver kit; no ball is painted. A separate ball track and atlas have not been approved. Poses08–14 are being generated in a separate review lane and must be verified before integration.
+
+### Validation
+
+- `npm test`: PASS —28/28 test files. `npm run lint`: PASS —18 modules. `npm run validate:content`: PASS —35 franchises /105 athletes. `npm run simulate:league`: PASS —100 matches /856,346 ticks /5 overtimes. `python3 tools/generate-art/test_package_motion.py`: PASS. `npm run build`: PASS.
+- `npm run test:e2e`: PASS in Chromium after retrying with loopback access. The initial sandbox run failed when the local server bind returned `EPERM`; the authorized retry passed the standalone offline launch, game flow, nonhuman matchups, full match and season journey.
+- J.105 native renderer:171 images loaded,87 clip snapshots /454 action previews; all35 J.105 pose/facing preview rows selected production art.
+
 ## Current checkpoint — portrait court, touch accessibility and audit refresh (Pages run #157 passed)
 
 - Portrait play no longer crops the fixed 480×360 court into a narrow strip: mobile CSS letterboxes the full court. The 390×844 Chromium screenshot is `artifacts/screenshots/mobile-court.png`.
@@ -22,11 +60,18 @@
 - `npm run simulate:league`: PASS —100 matches /856,346 ticks /5 overtime periods. `python3 -m unittest tools/generate-art/test_package_motion.py`: PASS —55 checks. `npm run build`: PASS.
 - Buzzer celebration: made shots and dunks at zero clock hold their score pause for 70 ticks, then resolve the period without an inbound. Regression coverage verifies both a final lead and overtime tie.
 - `npm run test:e2e`: PASS —standalone offline startup, settings and dialogs, controls, touch, substitutions, actions, nonhuman matchups, full default-length match and season progression in Chromium. E2E screenshots were restored after review.
-- Keeg J.105 generation review: eight full-sheet candidates rejected; six new sheets saved with prompt/source/provenance records and black/white grid previews. Isolated poses00–09 (approach through high cocked hand) passed human anatomy/identity/transparency review and deterministic 128×96 cell previews; pose07 attempt01 and pose09 attempts01–02 are rejected and preserved. These are not a complete clip source; poses10–14 and ball alignment remain open. No atlas or clip registration was created.
-- Refreshed strict report-only audit at `2026-10-24T15:26:18.656Z`:667 clips /5,859 authored drawings /105 athletes;2,436 missing clips,3 target shortfalls,4 inherited prompt findings. Issue #3 remains incomplete.
+- Keeg J.105 generation review: eight full-sheet candidates rejected. All 15 isolated poses passed individual human anatomy/identity/transparency review and deterministic 128×96 cell previews; pose07 attempt01 and pose09 attempts01–02 are rejected and preserved. The full pose strip is reviewed; the separate Keeg-specific ball track remains to be aligned and verified before this can become a complete clip source. No atlas or clip registration was created.
+- Refreshed strict report-only audit at `2026-10-24T15:44:20.218Z`:667 clips /5,859 authored drawings /105 athletes;2,436 missing clips,3 target shortfalls,4 inherited prompt findings. Issue #3 remains incomplete.
 - Art commits `7975575`, `8febf97`, `d8248cf`, `35307b7`, `30f5679`, `12d44d6`, `63201c8`, `ca71b2f`, `8741440`, `066c89d`, `7544b2f`, `25faa7b`, and `4b1aee3` are pushed to `main`. These art changes do not trigger Pages. Buzzer celebration runtime commit `3cdc3d6` is deployed successfully in Pages run #158: https://github.com/Manaconda33/Conda-Jam/actions/runs/40101381016. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3cdc3d6.
 
 # QA report
+
+## J.105 Keeg `dunk-scythe` asset checkpoint
+
+- Accepted and registered15 pose-specific transparent drawings in a 5×3 atlas. The light/dark pose review checks separation, transparent gutters/cell margins, full human anatomy and Keeg’s black hair/beard, tall purple mushroom hat and purple/lavender/silver kit. The game ball is absent from all drawings. Rejected sheets and pose07/pose09 candidates remain preserved with exact prompts and review notes.
+- The separate Keeg-specific track was reviewed over the pose cells and in native previews for both facings. It contacts the hand through pose09/tick20; pose10/tick21 resolves at the rim, after which simulation owns ball flight. Preview report: `artifacts/native-render-preview/keeg/report.json`.
+- Atlas: `public/assets/animation/keeg-dunk-scythe-right.webp` (640×288; SHA-256 `60a7b91f8f5d004530ef74bffaa14d9e69921984b51deb141d5bbf3c4bb21df6`). Keeg now has27/29 clips /263 authored drawings; `alley-oop-power` is next.
+- Strict report-only audit:668 clips /5,874 drawings /105 athletes;2,435 missing clips,3 target shortfalls,4 inherited prompt findings. Timestamp is recorded in `docs/animation-production/ASSET_AUDIT.json`.
 
 ## Gameplay and settings polish — shot-clock pass expiration and keyboard capture cancellation
 

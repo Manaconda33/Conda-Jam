@@ -1,0 +1,3 @@
+# J.107 Keeg alley-oop reverse — pose 01 edit prompt verbatim
+
+> Edit this exact image for production sprite use. Preserve every pixel of Keeg's character, pose, anatomy, colors, outline, face, hat, outfit and shoes exactly as shown; do not redraw, resize, crop or alter him. Remove only the gray-and-white checkerboard background and replace it with true transparent alpha (alpha 0) over the entire background. The original checkerboard is a background pattern, not transparency. Leave all character pixels intact including white/silver costume and highlights. Output the same full-size PNG with genuine transparency and no visible background.

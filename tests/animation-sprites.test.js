@@ -2473,3 +2473,102 @@ test('Juniper selects all fifteen reviewed scythe-dunk poses with the wide sidew
   tick+=animationClips['dunk-scythe'].frames[frame].duration;
  }
 });
+
+test('Keeg selects all fifteen reviewed J.105 scythe-dunk poses with its separate ball track',()=>{
+ const id='keeg',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+ const atlas='./public/assets/animation/keeg-dunk-scythe-right.webp';
+ const clip=character?.directions?.right?.['dunk-scythe'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.ok(clip,'Keeg J.105 scythe-dunk atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.sha256,'60a7b91f8f5d004530ef74bffaa14d9e69921984b51deb141d5bbf3c4bb21df6');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.status,'accepted source; native-render ball-track review passed');
+ assert.equal(clip.provenance.sourceRecords.length,15);assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(policy.canonicalSection,'K.03');
+ assert.equal(anchorTick('dunk-scythe','release'),21);
+ const images=new Map([[atlas,{complete:true,naturalWidth:640,naturalHeight:288,file:atlas}]]);
+ const expectedHeight=[1.005,1.119,.975,.718,.804,.689,1.119,1.981,2.442,2.01,2.01,2,1.35,.7,.55];
+ const expectedForward=[9.502,6.576,.365,-11.329,-12.429,-12.429,-6.943,8.405,17.888,9.136,9.136,10,8,5,6];
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-scythe',tick).frame,frame,'runtime maps Keeg J.105 pose '+frame);
+  assert.equal(sampleBallHeight('dunk-scythe',tick,id),expectedHeight[frame],'ball meets reviewed hand height at pose '+frame);
+  assert.equal(sampleBallForward('dunk-scythe',tick,id),expectedForward[frame],'ball meets reviewed hand offset at pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-scythe',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-scythe'].frames[frame].duration;
+ }
+});
+
+
+test('Keeg selects all fifteen reviewed J.107 reverse-lob poses and carries the separated ball',()=>{
+ const id='keeg',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+ const atlas='./public/assets/animation/keeg-alley-oop-reverse-right.webp';
+ const clip=character?.directions?.right?.['alley-oop-reverse'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(policy.canonicalSection,'K.03');
+ assert.ok(clip,'Keeg J.107 alley-oop-reverse atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.sha256,'33409a7268467db62acd617621b32921d77262c525e45573a0f0f4e7969f233e');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.status,'accepted source; native-render ball-track review passed');
+ assert.equal(clip.provenance.sourceRecords.length,15);assert.equal(clip.provenance.promptVerbatim,true);
+ assert.deepEqual(clip.provenance.actionAnchors,{takeoff:2,grab:5,peak:7,release:10,finish:11,land:14});
+ const expectedHeight=[1.22,1.59,2.24,1.82,2.12,1.46,1.12,1.82,2.06,1.75,2.24,1.1,.86,.42,.7];
+ const expectedForward=[5.85,8.77,5.12,8.77,12.43,7.31,-8.04,7.31,11.7,12.06,12.43,11.7,4.02,-5.12,-1.46];
+ assert.deepEqual(clip.provenance.runtimeBallTrack.heightByPose,expectedHeight);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forwardByPose,expectedForward);
+ assert.equal(anchorTick('alley-oop-reverse','grab'),10);assert.equal(anchorTick('alley-oop-reverse','release'),21);
+ assert.equal(sampleBallHeight('alley-oop-reverse',10,id),expectedHeight[5]);
+ assert.equal(sampleBallForward('alley-oop-reverse',10,id),expectedForward[5]);
+ assert.equal(sampleAnimation('alley-oop-reverse',20).frame,9);
+ assert.equal(sampleBallHeight('alley-oop-reverse',20,id),1.995);
+ assert.ok(Math.abs(sampleBallForward('alley-oop-reverse',20,id)-12.245)<1e-9);
+ assert.equal(sampleAnimation('alley-oop-reverse',21).frame,10);
+ const images=new Map([[atlas,{complete:true,naturalWidth:640,naturalHeight:288,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('alley-oop-reverse',tick).frame,frame,'runtime maps Keeg J.107 pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'alley-oop-reverse',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['alley-oop-reverse'].frames[frame].duration;
+ }
+});
+
+test('Keeg selects all fifteen reviewed J.106 alley-oop poses with a separate lob track through tick20',()=>{
+ const id='keeg',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+ const atlas='./public/assets/animation/keeg-alley-oop-power-right.webp';
+ const clip=character?.directions?.right?.['alley-oop-power'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(policy.canonicalSection,'K.03');
+ assert.ok(clip,'Keeg J.106 alley-oop-power atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.sha256,'c2c671181c88fcb2cf0e49d2664a315647c8d841cc4c82c8aac41e8778858ab3');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.status,'accepted source; native-render ball-track review passed');
+ assert.equal(clip.provenance.sourceRecords.length,15);assert.equal(clip.provenance.promptVerbatim,true);
+ assert.deepEqual(clip.provenance.actionAnchors,{takeoff:2,grab:5,peak:7,release:10,finish:11,land:14});
+ const expectedHeight=[1.407,1.752,2.412,2.441,2.498,2.039,1.522,2.096,2.297,2.125,2.125,2.326,1.637,1.034,1.005];
+ const expectedForward=[11.695,9.867,7.309,9.502,9.867,9.867,2.924,7.675,8.771,5.482,5.482,9.867,6.578,.365,0];
+ assert.deepEqual(clip.provenance.runtimeBallTrack.heightByPose,expectedHeight);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forwardByPose,expectedForward);
+ assert.equal(anchorTick('alley-oop-power','grab'),10);assert.equal(anchorTick('alley-oop-power','release'),21);
+ assert.equal(sampleBallHeight('alley-oop-power',10,id),expectedHeight[5],'tick10 lob meets Keeg’s catch hand');
+ assert.equal(sampleBallForward('alley-oop-power',10,id),expectedForward[5]);
+ assert.equal(sampleAnimation('alley-oop-power',20).frame,9,'pose09 remains visible through tick20');
+ assert.equal(sampleBallHeight('alley-oop-power',20,id),expectedHeight[9],'ball remains held through tick20');
+ assert.equal(sampleBallForward('alley-oop-power',20,id),expectedForward[9]);
+ assert.equal(sampleAnimation('alley-oop-power',21).frame,10,'pose10 is the release frame');
+ const images=new Map([[atlas,{complete:true,naturalWidth:640,naturalHeight:288,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('alley-oop-power',tick).frame,frame,'runtime maps Keeg J.106 pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'alley-oop-power',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['alley-oop-power'].frames[frame].duration;
+ }
+});

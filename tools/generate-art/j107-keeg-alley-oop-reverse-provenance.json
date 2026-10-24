@@ -1,0 +1,1570 @@
+{
+  "athlete": "keeg",
+  "clip": "alley-oop-reverse",
+  "direction": "right",
+  "canonicalSection": "K.03",
+  "status": "accepted; fifteen distinct authored poses with native-render separate-ball track review passed",
+  "generatedAt": "2026-10-24T17:30:55Z",
+  "prompt": "Isolated transparent PNG, NO background. One right-facing pose of original character Keeg K.03: adult athletic human man, black hair, neat close beard, exceptionally tall ornate purple witch hat with silver trim and small mushrooms, purple/lavender/silver Moonmorel Hex uniform and shoes. Crisp 1990s pixel arcade style. Pose for frame 0 of a reverse alley-oop dunk: compact forward approach step to the right, chin/eyes tracking upward, elbows bent and held close, empty hands loosely raised at chest level with clear gap, knees flexed. Natural anatomy with exactly two arms and legs, complete hat and feet. Fit entire silhouette within the middle 65% of a 1024x1536 portrait canvas, centered, leaving large empty transparent border around it; silhouette aspect ratio no wider than 0.75. TRUE TRANSPARENCY: every pixel outside the character must have alpha 0. Do NOT draw any checkerboard, gray tiles, white or colored backdrop, transparency preview, backdrop pattern, floor, shadow, ground, court, hoop, ball, object, glow, border, text, logo or grid. Return one character only with a genuinely transparent background.\n",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim pose00 prompt; exact per-pose source/edit prompts are linked in sourceRecords",
+  "ballPolicy": "The basketball is a separate Keeg-specific runtime object. Source poses contain no ball. The incoming lob meets the empty catch gap at pose05/tick10. Keeg carries it behind the hip/hat, then releases it at pose10/tick21 into simulation-owned rim flight.",
+  "identityReferences": [
+    "K.03 canonical Keeg",
+    "public/assets/animation/keeg-alley-oop-power-right.webp",
+    "tools/generate-art/j107-keeg-alley-oop-reverse-source-notes.md"
+  ],
+  "actionAnchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "poses": [
+    {
+      "index": 0,
+      "name": "approach",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-3b0bd99d-9ef6-4b04-bc75-d63812b465ee",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-00-attempt-04-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-00-attempt-04-prompt.md"
+      ],
+      "promptSha256": "9b8019981f1db97ac9b2c6b9f0f7a4ad498ba19e9fc20e550ec4b6cab1ba7fc3",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-04.png",
+      "sourceSha256": "b6b6509cfdeef083ef3b7b56c8f2e7e3cc315dac43926a104b423ec25f2532be",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-04-raw.png",
+      "rawSourceSha256": "2c06a5277b9323819865da57a7254a0d361fd31fdb3e097288ed315b95d16402",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        208,
+        167,
+        829,
+        1390
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/pose-00-cell.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        46,
+        90
+      ],
+      "cellMargins": [
+        41,
+        41,
+        5,
+        1
+      ],
+      "cleanup": "Raw generation source preserved. Background-removal edits are separately recorded where used. Clean source only clears alpha<=16 while preserving RGB.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 1,
+      "name": "reach",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-df528c6b-3da1-483c-b53a-418266d51c51",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-01-attempt-02-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-01-attempt-02-prompt.md",
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-01-attempt-03-edit-prompt.md"
+      ],
+      "promptSha256": "4eeac8c24dd093ead8cd63b13f3071624de76dec04efb1afcd649317c5cfe057",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-01-attempt-03.png",
+      "sourceSha256": "ec13f33f1e51bb124979d44a935d251a1ff37b4065d1e241011e81224fb07708",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-01-attempt-02-rejected-checkerboard.png",
+      "rawSourceSha256": "ac9f66e00d7f7ed388c40d18912a1fc851366ed0bfe8d53a814edd5988405682",
+      "dimensions": [
+        1278,
+        1230
+      ],
+      "alphaBoundsThreshold16": [
+        245,
+        110,
+        1013,
+        1119
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/pose-01-cell.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        69,
+        90
+      ],
+      "cellMargins": [
+        29,
+        30,
+        5,
+        1
+      ],
+      "cleanup": "Raw generation source preserved. Background-removal edits are separately recorded where used. Clean source only clears alpha<=16 while preserving RGB.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 2,
+      "name": "takeoff",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-165add6a-064e-4dfc-a287-600ca4612564",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-02-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-02-prompt.md",
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-02-edit-prompt.md"
+      ],
+      "promptSha256": "a505ff0cda1843a511a733febb57254e0011623747f3fbcdca7e4cd3419bcebc",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-02-attempt-02.png",
+      "sourceSha256": "3304c7f05a59f6b0a2420f89f5454b2facff1a734519f78dbcff8b147a6afc84",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-02-attempt-01-checkerboard.png",
+      "rawSourceSha256": "aeb0349cc30e58a77838af8ea9b686af57a6ee85579397f275ed6fc7b11c7045",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "alphaBoundsThreshold16": [
+        241,
+        10,
+        904,
+        1297
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/pose-02-attempt-02-cell.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        46,
+        90
+      ],
+      "cellMargins": [
+        41,
+        41,
+        5,
+        1
+      ],
+      "cleanup": "Raw generation source preserved. Background-removal edits are separately recorded where used. Clean source only clears alpha<=16 while preserving RGB.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 3,
+      "name": "turn-tuck",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-a4f411ee-f058-4129-9fa8-3840d933c3b0",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-03-attempt-04-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-03-attempt-04-prompt.md",
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-03-attempt-05-edit-prompt.md"
+      ],
+      "promptSha256": "780488018427e44bc67ab8c9ee670e7f526bd19ffa2306a0ce579feb769fa3f8",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-03-attempt-05.png",
+      "sourceSha256": "bdf3945e9d2290e0dfeb20dac74f30e2eff8b15c74808de8f44905c4832ccc36",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-03-attempt-04-checkerboard.png",
+      "rawSourceSha256": "7bd3e8f259ac24e14a291ea555e2e3cee0ee7d9bfd75182cc0e205401b11484c",
+      "dimensions": [
+        1150,
+        1367
+      ],
+      "alphaBoundsThreshold16": [
+        297,
+        15,
+        900,
+        1265
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/pose-03-attempt-05-cell.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        43,
+        90
+      ],
+      "cellMargins": [
+        42,
+        43,
+        5,
+        1
+      ],
+      "cleanup": "Raw generation source preserved. Background-removal edits are separately recorded where used. Clean source only clears alpha<=16 while preserving RGB.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 4,
+      "name": "pre-catch-reach",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-de27fff7-efde-48fc-9089-d6cf52be2fb6",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-04-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-04-prompt.md",
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-04-edit-prompt.md"
+      ],
+      "promptSha256": "ec6bff6525ba739f5dc2bfb01b068ac7f6e0a509a7bf54be8c5b6dd47963d435",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-04-attempt-02.png",
+      "sourceSha256": "ca778bd91d68b375f2b5390abbbab1cb7fec48b911aaa7c46010b61bf427d12d",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-04-attempt-01-checkerboard.png",
+      "rawSourceSha256": "989639b5e746dfd7007b84b8243f77559e95cb042617536077bbc421740079d3",
+      "dimensions": [
+        1151,
+        1366
+      ],
+      "alphaBoundsThreshold16": [
+        217,
+        68,
+        980,
+        1259
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/pose-04-attempt-02-cell.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        58,
+        90
+      ],
+      "cellMargins": [
+        35,
+        35,
+        5,
+        1
+      ],
+      "cleanup": "Raw generation source preserved. Background-removal edits are separately recorded where used. Clean source only clears alpha<=16 while preserving RGB.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 5,
+      "name": "lob-catch",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-fd6cadd0-d78a-432b-ba6a-7442e169de88",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-05-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-05-prompt.md",
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-05-attempt-04-edit-prompt.md"
+      ],
+      "promptSha256": "d9b2cea9975f50e26583970db1ac3aa36d16eeb11ac5017008b9687f55680ced",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-04.png",
+      "sourceSha256": "0e6d591b08c2fad68dea287496c6cae3cae1e6f70d262ad86e8e181121733f58",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-02-checkerboard.png",
+      "rawSourceSha256": "b0846beaa75ee5c0675a049412d7bb388dd7430869355e254824742aa7bc63ec",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "alphaBoundsThreshold16": [
+        428,
+        8,
+        1030,
+        1046
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/pose-05-attempt-04-cell.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        52,
+        90
+      ],
+      "cellMargins": [
+        38,
+        38,
+        5,
+        1
+      ],
+      "cleanup": "Raw generation source preserved. Background-removal edits are separately recorded where used. Clean source only clears alpha<=16 while preserving RGB.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 6,
+      "name": "rear-hip-carry",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-d9c03d6d-642c-4d47-a277-96be66c32382",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-06-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-06-prompt.md",
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-06-edit-prompt.md"
+      ],
+      "promptSha256": "db0d317b3523b8218b7df67f1e904a96e8d4ca8ff30cd9524fe2a097aee58b97",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-06-attempt-02.png",
+      "sourceSha256": "acae5bec8300fa533f0db196fb0253f97e9413d8fcfb44d0846e91274fdee0cc",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-06-attempt-01-checkerboard.png",
+      "rawSourceSha256": "d7412b485f163483764abb91f1a4d6540d2959c59fd9396853df3ec4a26fb0a5",
+      "dimensions": [
+        1153,
+        1364
+      ],
+      "alphaBoundsThreshold16": [
+        297,
+        18,
+        969,
+        1321
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/pose-06-attempt-02-cell.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        46,
+        90
+      ],
+      "cellMargins": [
+        41,
+        41,
+        5,
+        1
+      ],
+      "cleanup": "Raw generation source preserved. Background-removal edits are separately recorded where used. Clean source only clears alpha<=16 while preserving RGB.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 7,
+      "name": "mid-cock",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-aad7bde3-11fe-4c4a-85c8-4ebc7766ab3b",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-07-attempt-04-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-07-attempt-04-prompt.md",
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-07-attempt-05-edit-prompt.md"
+      ],
+      "promptSha256": "f7a8e92f54b491006bfe470e0f6f45173a1a1433dfb5b96489d7358e4f9e907e",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-05.png",
+      "sourceSha256": "94d57cac895732984f8bc5d699566a048a0da92170dc9b1c4d74b948142e3e38",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-04-checkerboard.png",
+      "rawSourceSha256": "7e8720519189bf468f3889587e36441aad49e940886566a21f6ca260ee7a52d4",
+      "dimensions": [
+        1182,
+        1330
+      ],
+      "alphaBoundsThreshold16": [
+        197,
+        14,
+        977,
+        1289
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/pose-07-attempt-05-cell.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        55,
+        90
+      ],
+      "cellMargins": [
+        36,
+        37,
+        5,
+        1
+      ],
+      "cleanup": "Raw generation source preserved. Background-removal edits are separately recorded where used. Clean source only clears alpha<=16 while preserving RGB.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 8,
+      "name": "high-cock",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-058fa4e8-31ef-4e81-ba33-dd5bf04a1858",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-08-attempt-02-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-08-attempt-02-prompt.md"
+      ],
+      "promptSha256": "55b6a1134ba6073b5c923680cdee28b80d43950d9b3906131253802610a4889c",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-08-attempt-02.png",
+      "sourceSha256": "ff70fede49c70ab2824130a17f1e1ac9c6ac557d0a1d63243a4c751f7dbf1c7f",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-08-attempt-02-raw.png",
+      "rawSourceSha256": "d5bbed874afc04fd72e2d90f1830f6cf861368339dcc32e1dbd6aa02c2ca90c2",
+      "dimensions": [
+        1303,
+        1207
+      ],
+      "alphaBoundsThreshold16": [
+        339,
+        95,
+        1049,
+        1125
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/j107-keeg-alley-oop-reverse-pose-08-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        59,
+        86
+      ],
+      "cellMargins": [
+        34,
+        35,
+        5,
+        5
+      ],
+      "cleanup": "Clean source preserves RGB and clears alpha<=16; raw source remains preserved.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 9,
+      "name": "compressed-cock",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-27da6050-a440-447e-90bb-50f4b38ddf3e",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-09-attempt-02-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-09-attempt-02-prompt.md"
+      ],
+      "promptSha256": "10ff5503b4f929ef078ad4cd2e4786e68de46bc513e50f838c68a5f686059058",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-09-attempt-02.png",
+      "sourceSha256": "f429225ffc98db88b2190dfaaf946f5698dd375a076bef9c4e665a76983249c4",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-09-attempt-02-raw.png",
+      "rawSourceSha256": "bd0f44cb75bb5b71e645e922c456a95184010163f12d71c9d0cc67486d07557c",
+      "dimensions": [
+        1292,
+        1217
+      ],
+      "alphaBoundsThreshold16": [
+        238,
+        30,
+        1177,
+        1119
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/j107-keeg-alley-oop-reverse-pose-09-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        74,
+        86
+      ],
+      "cellMargins": [
+        27,
+        27,
+        5,
+        5
+      ],
+      "cleanup": "Clean source preserves RGB and clears alpha<=16; raw source remains preserved.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 10,
+      "name": "reverse-release",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-6e19be67-3a63-467c-9b9e-77a6cc0d0e47",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-10-attempt-02-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-10-attempt-02-prompt.md"
+      ],
+      "promptSha256": "d6ca47164075e23726a61ccf426507a18221d65dedc29e11d00aed5a6ae7901c",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-10-attempt-02.png",
+      "sourceSha256": "009ad437a88496303335e39fb77588fa494929bb1136f8a8c55a122454124c2b",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-10-attempt-02-raw.png",
+      "rawSourceSha256": "3e1344b5d2b20c8e0c37e81a41997769fbabca136c3e075c42c80480645d482d",
+      "dimensions": [
+        1298,
+        1212
+      ],
+      "alphaBoundsThreshold16": [
+        191,
+        61,
+        1222,
+        1140
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/j107-keeg-alley-oop-reverse-pose-10-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        76,
+        80
+      ],
+      "cellMargins": [
+        26,
+        26,
+        8,
+        8
+      ],
+      "cleanup": "Clean source preserves RGB and clears alpha<=16; raw source remains preserved.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 11,
+      "name": "follow-through",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-8c115c51-8809-4867-9b98-5efbcf441e7b",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-11-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-11-prompt.md"
+      ],
+      "promptSha256": "156368422016ef04b78bca1d47217674d2fd6254dd6dbdcae9414cd8ff3c1303",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-11-attempt-01.png",
+      "sourceSha256": "cd011257d5a294f395aba87b384bf4e6e5507250addcc3b7d1cd606ddfcf2bd2",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-11-attempt-01-raw.png",
+      "rawSourceSha256": "db80cb298d8c9d9867769df388860eb9ad4e8a70ebb49a2e4988ec1ecba840fb",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "alphaBoundsThreshold16": [
+        357,
+        58,
+        1144,
+        1102
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/j107-keeg-alley-oop-reverse-pose-11-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        65,
+        86
+      ],
+      "cellMargins": [
+        31,
+        32,
+        5,
+        5
+      ],
+      "cleanup": "Clean source preserves RGB and clears alpha<=16; raw source remains preserved.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 12,
+      "name": "descent",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-2d81f314-fa2d-48c4-b7f6-9a1839670624",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-12-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-12-prompt.md"
+      ],
+      "promptSha256": "668ca42230c66d6e896036457e7bbf9326f51249dfeab04c14e0fafb40343167",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-12-attempt-01.png",
+      "sourceSha256": "15c22ab139fd38f777ba4a6229a0319625a59d01542df2df698f4ea6b90fb161",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-12-attempt-01-raw.png",
+      "rawSourceSha256": "58149ee98ebba433feb56666fc44f0a6c9ee3f005c5d9a5a14ed00c1cf2aa613",
+      "dimensions": [
+        1337,
+        1176
+      ],
+      "alphaBoundsThreshold16": [
+        423,
+        24,
+        1069,
+        1125
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/j107-keeg-alley-oop-reverse-pose-12-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        50,
+        86
+      ],
+      "cellMargins": [
+        39,
+        39,
+        5,
+        5
+      ],
+      "cleanup": "Clean source preserves RGB and clears alpha<=16; raw source remains preserved.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 13,
+      "name": "landing",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-51d533a8-0ed9-433f-bb0c-8c6397bc1e69",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-13-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-13-prompt.md"
+      ],
+      "promptSha256": "576f1de87dc7275225b4e763d1286675998818d9153745b72d08d5da94282099",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-13-attempt-01.png",
+      "sourceSha256": "c4e61784e0d4fb7fac220e25e024909a22f1494126f8af0f8a86887b2f943c4a",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-13-attempt-01-raw.png",
+      "rawSourceSha256": "ba9687a77b9e0e0dad1aa17a71138b8ceaf64e261368d9c45f8b1b36b983347f",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "alphaBoundsThreshold16": [
+        170,
+        13,
+        1194,
+        1149
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/j107-keeg-alley-oop-reverse-pose-13-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        76,
+        84
+      ],
+      "cellMargins": [
+        26,
+        26,
+        6,
+        6
+      ],
+      "cleanup": "Clean source preserves RGB and clears alpha<=16; raw source remains preserved.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    },
+    {
+      "index": 14,
+      "name": "recovery",
+      "status": "accepted-isolated-pose",
+      "generationId": "exec-0799230f-9343-4315-96ba-162d2dfa506e",
+      "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-pose-14-prompt.md",
+      "promptFiles": [
+        "tools/generate-art/j107-keeg-alley-oop-reverse-pose-14-prompt.md"
+      ],
+      "promptSha256": "02f7684649941ea32b2f4c5c5560691624f929c43352a1ebf3d7c1c6d4c1acc2",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-14-attempt-01.png",
+      "sourceSha256": "c7cf2dc7b52cf56d20f771bcfae4a468829eabf817d1ac3e6c0fa9c9f6ccdbf4",
+      "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-14-attempt-01-raw.png",
+      "rawSourceSha256": "480614960627c216de47b9590170b7ed92e2309c74ac74aa0c40fc69992d8ca5",
+      "dimensions": [
+        1295,
+        1214
+      ],
+      "alphaBoundsThreshold16": [
+        414,
+        13,
+        881,
+        1171
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/j107-keeg-alley-oop-reverse-pose-14-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        35,
+        86
+      ],
+      "cellMargins": [
+        46,
+        47,
+        5,
+        5
+      ],
+      "cleanup": "Clean source preserves RGB and clears alpha<=16; raw source remains preserved.",
+      "review": "Individually reviewed on light and dark 128x96 backgrounds for K.03 identity/anatomy, full hat/hands/shoes, pose separation, transparent clearance and no painted basketball. Full 00-14 contact sheet checked before atlas assembly."
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "pose": 0,
+      "attempt": "01",
+      "generationId": "exec-6b904584-6fc2-41af-bda8-3c3c7bf3ee17",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-01.png",
+      "reason": "Back-facing orientation, does not read as approach."
+    },
+    {
+      "pose": 0,
+      "attempt": "02",
+      "generationId": "exec-350ec0fe-0a74-4c53-a26b-2a0f22f2861b",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-02.png",
+      "reason": "At 90px height the figure is92px wide and leaves only18px side margins."
+    },
+    {
+      "pose": 0,
+      "attempt": "03",
+      "generationId": "exec-a6fb894c-ff6f-460d-9641-697cc45f4d3e",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-03.png",
+      "reason": "Opaque checkerboard backdrop."
+    },
+    {
+      "pose": 1,
+      "attempt": "01",
+      "generationId": "exec-771b117b-79f9-4f6e-838b-531c717e6ae1",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-01-attempt-01.png",
+      "reason": "Opaque checkerboard backdrop."
+    },
+    {
+      "pose": 1,
+      "attempt": "02",
+      "generationId": "exec-bb9baaf0-5350-493c-a768-a075b4830b2c",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-01-attempt-02-rejected-checkerboard.png",
+      "reason": "Opaque checkerboard; background edit retained as input for accepted image-edit chain."
+    },
+    {
+      "pose": 2,
+      "attempt": "01",
+      "generationId": "exec-8e59830a-778a-4bbf-8588-119ac33d5a76",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-02-attempt-01-checkerboard.png",
+      "reason": "Opaque checkerboard, excluded after edited transparent source was prepared."
+    },
+    {
+      "pose": 3,
+      "attempt": "01",
+      "generationId": "exec-c11c7782-cc44-4423-b33d-d3818089de6f",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-03-attempt-01-checkerboard.png",
+      "reason": "Opaque checkerboard; background edits retained a detached red/green pixel cluster beside the hand."
+    },
+    {
+      "pose": 3,
+      "attempt": "02",
+      "generationId": "exec-e225d721-adb4-4a39-99db-fefaeec1b432",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-03-attempt-02-checkerboard.png",
+      "reason": "The edited pose remained too similar to takeoff frame02."
+    },
+    {
+      "pose": 4,
+      "attempt": "01",
+      "generationId": "exec-96f000bf-6a2a-4d44-849e-c7b4d574afd0",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-04-attempt-01-checkerboard.png",
+      "reason": "Opaque checkerboard."
+    },
+    {
+      "pose": 5,
+      "attempt": "01",
+      "generationId": "exec-145a55e5-0735-4e97-9b54-a159c1beca40",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-01-checkerboard.png",
+      "reason": "Tights changed to light silver/white, inconsistent with Keeg’s approved kit."
+    },
+    {
+      "pose": 5,
+      "attempt": "02",
+      "generationId": "exec-f737c53f-915b-4689-aeb7-6e69bbdfa1eb",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-02-checkerboard.png",
+      "reason": "Opaque checkerboard; edited output later showed a white ball-like dot in the hand gap."
+    },
+    {
+      "pose": 5,
+      "attempt": "03",
+      "generationId": "exec-3d4d3f85-e4b2-468f-b869-b875b518a286",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-03-edit-raw.png",
+      "reason": "White ball-shaped object visible between hands."
+    },
+    {
+      "pose": 6,
+      "attempt": "01",
+      "generationId": "exec-742741c9-391c-434b-a5ee-26c2de7058e6",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-06-attempt-01-checkerboard.png",
+      "reason": "Opaque checkerboard."
+    },
+    {
+      "pose": 7,
+      "attempt": "01",
+      "generationId": "exec-06f5b0c2-b62e-40c9-a910-4ea1963de991",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-01-wrong-side.png",
+      "reason": "High hand appears screen-left of hat."
+    },
+    {
+      "pose": 7,
+      "attempt": "02",
+      "generationId": "exec-66b96fa8-de1f-4ae8-961f-da0bc7267fb1",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-02-checkerboard.png",
+      "reason": "Opaque checkerboard."
+    },
+    {
+      "pose": 7,
+      "attempt": "03",
+      "generationId": "exec-b5ac000e-2d01-464c-ba2b-ad899323cede",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-03-edit-raw.png",
+      "reason": "Deselected after full sequence review; high hand too similar to poses08 and10 at cell size."
+    },
+    {
+      "pose": 7,
+      "attempt": "04",
+      "generationId": "exec-d89457d0-585a-4ee6-b129-36ee70189ceb",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-04-checkerboard.png",
+      "reason": "Opaque checkerboard; retained as raw source for the accepted mid-cock retry."
+    },
+    {
+      "pose": 8,
+      "attempt": "01",
+      "generationId": "invalid-collision-exec-6b904584-6fc2-41af-bda8-3c3c7bf3ee17",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-08-attempt-01-raw.png",
+      "reason": "Accidental duplicate of root pose00 attempt01; invalid source provenance and excluded."
+    },
+    {
+      "pose": 9,
+      "attempt": "01",
+      "generationId": "exec-d0f2892c-ed44-416e-89fa-a71784fd101a",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-09-attempt-01-raw.png",
+      "reason": "Too similar to pose08; accepted attempt02 uses compressed bent elbow."
+    },
+    {
+      "pose": 10,
+      "attempt": "01",
+      "generationId": "exec-c17d4d04-c393-4c63-a838-93c1bc9b8dea",
+      "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-10-attempt-01-raw.png",
+      "reason": "Release hand landed screen-left of hat."
+    }
+  ],
+  "reviewSummary": "The complete 00-14 light/dark contact sheet was reviewed at 128x96. Frames are individually authored and unique. The mid-cock pose07 retry was chosen after the first candidate was too similar to frames08 and10. All accepted poses preserve K.03 identity/anatomy and have transparent margins; no painted ball or prop. The actual Canvas renderer selected every pose in both facings; the athlete-specific ball track aligned at tick10 catch and tick20 hold, then released at tick21 in both facings at standard and 120% zoom. The actual Canvas renderer selected every pose in both facings; the athlete-specific ball track aligned at tick10 catch and tick20 hold, then released at tick21 in both facings at standard and 120% zoom.",
+  "sourceNotes": "tools/generate-art/j107-keeg-alley-oop-reverse-source-notes.md",
+  "delegatedLaneNotes": "tools/generate-art/j107-keeg-alley-oop-reverse-poses08-14-lane-notes.md",
+  "sequences": {
+    "rootReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/j107-keeg-alley-oop-reverse-poses00-14-sequence-review.png",
+    "delegatedReview": "tools/generate-art/previews/j107-keeg-alley-oop-reverse-poses08-14-sequence-review.png"
+  },
+  "plannedBallTrack": "keeg-alley-oop-reverse-track pending hand/ball native alignment",
+  "atlas": {
+    "png": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-atlas.png",
+    "webp": "public/assets/animation/keeg-alley-oop-reverse-right.webp",
+    "layout": "tools/generate-art/j107-keeg-alley-oop-reverse-layout.json",
+    "assemblyScript": "tools/generate-art/assemble-keeg-alley-oop-reverse.py",
+    "cellSize": [
+      128,
+      96
+    ],
+    "grid": [
+      5,
+      3
+    ],
+    "maxFigure": [
+      76,
+      86
+    ],
+    "sequenceOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "pngSha256": "0d1c00703fc240ece0eb18ec72a0ac8c3f19f31e777021c707f2400dd90e7a2b",
+    "webpSha256": "33409a7268467db62acd617621b32921d77262c525e45573a0f0f4e7969f233e",
+    "dimensions": [
+      640,
+      288
+    ],
+    "figureFit": "Uniform nearest-neighbor fit inside 76x86, center in transparent 128x96 cell; minimum side margins26px and top/bottom margins5px.",
+    "packedCellSha256": [
+      "59ac3985e6eb1b7a6db141034429f89e902f034cba7ef17c7fa1780bda4d6c05",
+      "45285720fcad14c84a6b37e448ed43c9ec83e2771834cda5edaec32c71fe4376",
+      "ea74936a782c4835804945cc4d8a6aa66c886ae772afda5b92e24472d931885d",
+      "83bbdaf0a9e3b0635411ee41a454f058596e43ef27864513d5dd46c4c6bfbfa2",
+      "683ac30bc5e000886033abf8ffdb641e358825399eb69e260eb70f7fab5bb3b2",
+      "8105f0653b32836084b2c8443a9d7e8a1adc3b399be38f3c7e1a20700a78de47",
+      "afc7ddb31008c6bdafffc267b13ac53aa70a16fc0bde163f3abcc851b93a9500",
+      "d922fbf57ff33fe2ea8d8c07128e9d9a7abcd9e3f1aa8d2c46b2df111bb98a8a",
+      "1116235ea2fe1e51e67cd3c53b2fb74d00d2133a1c761b23300045ec4555a216",
+      "91834e13000a496ea310f3b4dd577bbd43573e1c0dbf69da691da555179be210",
+      "175a14324e85b4f7b4c20da7acee3d84517ed7c07ea7d3b59bf1b23b712dc61d",
+      "f778f960bdf3827da1114d4ba31cbefa777fec66a428bbfa23067d152d8e243d",
+      "14a09a05018e69681c8c741d8dc885d5bc183ca55c5686f3bf748433e2032cd8",
+      "06e20320c5359b96151fa2700aa272a25f984400b21c3f3bbab5a082f80096de",
+      "c5d1e87567edb08b7d786219472721d51fe2689698bbff6029602c2cd7c21813"
+    ],
+    "sourceRecords": [
+      {
+        "poseIndex": 0,
+        "generationId": "exec-3b0bd99d-9ef6-4b04-bc75-d63812b465ee",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-00-attempt-04-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-04.png",
+        "sourceSha256": "b6b6509cfdeef083ef3b7b56c8f2e7e3cc315dac43926a104b423ec25f2532be",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-04-raw.png",
+        "rawSourceSha256": "2c06a5277b9323819865da57a7254a0d361fd31fdb3e097288ed315b95d16402",
+        "cropThreshold": 16,
+        "cropBox": [
+          208,
+          167,
+          829,
+          1390
+        ],
+        "figureSize": [
+          44,
+          86
+        ],
+        "cellMargins": [
+          42,
+          42,
+          5,
+          5
+        ],
+        "packedCellSha256": "59ac3985e6eb1b7a6db141034429f89e902f034cba7ef17c7fa1780bda4d6c05",
+        "cell": [
+          0,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 1,
+        "generationId": "exec-df528c6b-3da1-483c-b53a-418266d51c51",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-01-attempt-02-prompt.md",
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-01-attempt-03-edit-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-01-attempt-03.png",
+        "sourceSha256": "ec13f33f1e51bb124979d44a935d251a1ff37b4065d1e241011e81224fb07708",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-01-attempt-02-rejected-checkerboard.png",
+        "rawSourceSha256": "ac9f66e00d7f7ed388c40d18912a1fc851366ed0bfe8d53a814edd5988405682",
+        "cropThreshold": 16,
+        "cropBox": [
+          245,
+          110,
+          1013,
+          1119
+        ],
+        "figureSize": [
+          65,
+          86
+        ],
+        "cellMargins": [
+          31,
+          32,
+          5,
+          5
+        ],
+        "packedCellSha256": "45285720fcad14c84a6b37e448ed43c9ec83e2771834cda5edaec32c71fe4376",
+        "cell": [
+          128,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 2,
+        "generationId": "exec-165add6a-064e-4dfc-a287-600ca4612564",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-02-prompt.md",
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-02-edit-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-02-attempt-02.png",
+        "sourceSha256": "3304c7f05a59f6b0a2420f89f5454b2facff1a734519f78dbcff8b147a6afc84",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-02-attempt-01-checkerboard.png",
+        "rawSourceSha256": "aeb0349cc30e58a77838af8ea9b686af57a6ee85579397f275ed6fc7b11c7045",
+        "cropThreshold": 16,
+        "cropBox": [
+          241,
+          10,
+          904,
+          1297
+        ],
+        "figureSize": [
+          44,
+          86
+        ],
+        "cellMargins": [
+          42,
+          42,
+          5,
+          5
+        ],
+        "packedCellSha256": "ea74936a782c4835804945cc4d8a6aa66c886ae772afda5b92e24472d931885d",
+        "cell": [
+          256,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 3,
+        "generationId": "exec-a4f411ee-f058-4129-9fa8-3840d933c3b0",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-03-attempt-04-prompt.md",
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-03-attempt-05-edit-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-03-attempt-05.png",
+        "sourceSha256": "bdf3945e9d2290e0dfeb20dac74f30e2eff8b15c74808de8f44905c4832ccc36",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-03-attempt-04-checkerboard.png",
+        "rawSourceSha256": "7bd3e8f259ac24e14a291ea555e2e3cee0ee7d9bfd75182cc0e205401b11484c",
+        "cropThreshold": 16,
+        "cropBox": [
+          297,
+          15,
+          900,
+          1265
+        ],
+        "figureSize": [
+          41,
+          86
+        ],
+        "cellMargins": [
+          43,
+          44,
+          5,
+          5
+        ],
+        "packedCellSha256": "83bbdaf0a9e3b0635411ee41a454f058596e43ef27864513d5dd46c4c6bfbfa2",
+        "cell": [
+          384,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 4,
+        "generationId": "exec-de27fff7-efde-48fc-9089-d6cf52be2fb6",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-04-prompt.md",
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-04-edit-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-04-attempt-02.png",
+        "sourceSha256": "ca778bd91d68b375f2b5390abbbab1cb7fec48b911aaa7c46010b61bf427d12d",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-04-attempt-01-checkerboard.png",
+        "rawSourceSha256": "989639b5e746dfd7007b84b8243f77559e95cb042617536077bbc421740079d3",
+        "cropThreshold": 16,
+        "cropBox": [
+          217,
+          68,
+          980,
+          1259
+        ],
+        "figureSize": [
+          55,
+          86
+        ],
+        "cellMargins": [
+          36,
+          37,
+          5,
+          5
+        ],
+        "packedCellSha256": "683ac30bc5e000886033abf8ffdb641e358825399eb69e260eb70f7fab5bb3b2",
+        "cell": [
+          512,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 5,
+        "generationId": "exec-fd6cadd0-d78a-432b-ba6a-7442e169de88",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-05-prompt.md",
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-05-attempt-04-edit-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-04.png",
+        "sourceSha256": "0e6d591b08c2fad68dea287496c6cae3cae1e6f70d262ad86e8e181121733f58",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-02-checkerboard.png",
+        "rawSourceSha256": "b0846beaa75ee5c0675a049412d7bb388dd7430869355e254824742aa7bc63ec",
+        "cropThreshold": 16,
+        "cropBox": [
+          428,
+          8,
+          1030,
+          1046
+        ],
+        "figureSize": [
+          50,
+          86
+        ],
+        "cellMargins": [
+          39,
+          39,
+          5,
+          5
+        ],
+        "packedCellSha256": "8105f0653b32836084b2c8443a9d7e8a1adc3b399be38f3c7e1a20700a78de47",
+        "cell": [
+          0,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 6,
+        "generationId": "exec-d9c03d6d-642c-4d47-a277-96be66c32382",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-06-prompt.md",
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-06-edit-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-06-attempt-02.png",
+        "sourceSha256": "acae5bec8300fa533f0db196fb0253f97e9413d8fcfb44d0846e91274fdee0cc",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-06-attempt-01-checkerboard.png",
+        "rawSourceSha256": "d7412b485f163483764abb91f1a4d6540d2959c59fd9396853df3ec4a26fb0a5",
+        "cropThreshold": 16,
+        "cropBox": [
+          297,
+          18,
+          969,
+          1321
+        ],
+        "figureSize": [
+          44,
+          86
+        ],
+        "cellMargins": [
+          42,
+          42,
+          5,
+          5
+        ],
+        "packedCellSha256": "afc7ddb31008c6bdafffc267b13ac53aa70a16fc0bde163f3abcc851b93a9500",
+        "cell": [
+          128,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 7,
+        "generationId": "exec-aad7bde3-11fe-4c4a-85c8-4ebc7766ab3b",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-07-attempt-04-prompt.md",
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-07-attempt-05-edit-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-05.png",
+        "sourceSha256": "94d57cac895732984f8bc5d699566a048a0da92170dc9b1c4d74b948142e3e38",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-04-checkerboard.png",
+        "rawSourceSha256": "7e8720519189bf468f3889587e36441aad49e940886566a21f6ca260ee7a52d4",
+        "cropThreshold": 16,
+        "cropBox": [
+          197,
+          14,
+          977,
+          1289
+        ],
+        "figureSize": [
+          53,
+          86
+        ],
+        "cellMargins": [
+          37,
+          38,
+          5,
+          5
+        ],
+        "packedCellSha256": "d922fbf57ff33fe2ea8d8c07128e9d9a7abcd9e3f1aa8d2c46b2df111bb98a8a",
+        "cell": [
+          256,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 8,
+        "generationId": "exec-058fa4e8-31ef-4e81-ba33-dd5bf04a1858",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-08-attempt-02-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-08-attempt-02.png",
+        "sourceSha256": "ff70fede49c70ab2824130a17f1e1ac9c6ac557d0a1d63243a4c751f7dbf1c7f",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-08-attempt-02-raw.png",
+        "rawSourceSha256": "d5bbed874afc04fd72e2d90f1830f6cf861368339dcc32e1dbd6aa02c2ca90c2",
+        "cropThreshold": 16,
+        "cropBox": [
+          339,
+          95,
+          1049,
+          1125
+        ],
+        "figureSize": [
+          59,
+          86
+        ],
+        "cellMargins": [
+          34,
+          35,
+          5,
+          5
+        ],
+        "packedCellSha256": "1116235ea2fe1e51e67cd3c53b2fb74d00d2133a1c761b23300045ec4555a216",
+        "cell": [
+          384,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 9,
+        "generationId": "exec-27da6050-a440-447e-90bb-50f4b38ddf3e",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-09-attempt-02-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-09-attempt-02.png",
+        "sourceSha256": "f429225ffc98db88b2190dfaaf946f5698dd375a076bef9c4e665a76983249c4",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-09-attempt-02-raw.png",
+        "rawSourceSha256": "bd0f44cb75bb5b71e645e922c456a95184010163f12d71c9d0cc67486d07557c",
+        "cropThreshold": 16,
+        "cropBox": [
+          238,
+          30,
+          1177,
+          1119
+        ],
+        "figureSize": [
+          74,
+          86
+        ],
+        "cellMargins": [
+          27,
+          27,
+          5,
+          5
+        ],
+        "packedCellSha256": "91834e13000a496ea310f3b4dd577bbd43573e1c0dbf69da691da555179be210",
+        "cell": [
+          512,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 10,
+        "generationId": "exec-6e19be67-3a63-467c-9b9e-77a6cc0d0e47",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-10-attempt-02-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-10-attempt-02.png",
+        "sourceSha256": "009ad437a88496303335e39fb77588fa494929bb1136f8a8c55a122454124c2b",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-10-attempt-02-raw.png",
+        "rawSourceSha256": "3e1344b5d2b20c8e0c37e81a41997769fbabca136c3e075c42c80480645d482d",
+        "cropThreshold": 16,
+        "cropBox": [
+          191,
+          61,
+          1222,
+          1140
+        ],
+        "figureSize": [
+          76,
+          80
+        ],
+        "cellMargins": [
+          26,
+          26,
+          8,
+          8
+        ],
+        "packedCellSha256": "175a14324e85b4f7b4c20da7acee3d84517ed7c07ea7d3b59bf1b23b712dc61d",
+        "cell": [
+          0,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 11,
+        "generationId": "exec-8c115c51-8809-4867-9b98-5efbcf441e7b",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-11-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-11-attempt-01.png",
+        "sourceSha256": "cd011257d5a294f395aba87b384bf4e6e5507250addcc3b7d1cd606ddfcf2bd2",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-11-attempt-01-raw.png",
+        "rawSourceSha256": "db80cb298d8c9d9867769df388860eb9ad4e8a70ebb49a2e4988ec1ecba840fb",
+        "cropThreshold": 16,
+        "cropBox": [
+          357,
+          58,
+          1144,
+          1102
+        ],
+        "figureSize": [
+          65,
+          86
+        ],
+        "cellMargins": [
+          31,
+          32,
+          5,
+          5
+        ],
+        "packedCellSha256": "f778f960bdf3827da1114d4ba31cbefa777fec66a428bbfa23067d152d8e243d",
+        "cell": [
+          128,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 12,
+        "generationId": "exec-2d81f314-fa2d-48c4-b7f6-9a1839670624",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-12-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-12-attempt-01.png",
+        "sourceSha256": "15c22ab139fd38f777ba4a6229a0319625a59d01542df2df698f4ea6b90fb161",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-12-attempt-01-raw.png",
+        "rawSourceSha256": "58149ee98ebba433feb56666fc44f0a6c9ee3f005c5d9a5a14ed00c1cf2aa613",
+        "cropThreshold": 16,
+        "cropBox": [
+          423,
+          24,
+          1069,
+          1125
+        ],
+        "figureSize": [
+          50,
+          86
+        ],
+        "cellMargins": [
+          39,
+          39,
+          5,
+          5
+        ],
+        "packedCellSha256": "14a09a05018e69681c8c741d8dc885d5bc183ca55c5686f3bf748433e2032cd8",
+        "cell": [
+          256,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 13,
+        "generationId": "exec-51d533a8-0ed9-433f-bb0c-8c6397bc1e69",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-13-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-13-attempt-01.png",
+        "sourceSha256": "c4e61784e0d4fb7fac220e25e024909a22f1494126f8af0f8a86887b2f943c4a",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-13-attempt-01-raw.png",
+        "rawSourceSha256": "ba9687a77b9e0e0dad1aa17a71138b8ceaf64e261368d9c45f8b1b36b983347f",
+        "cropThreshold": 16,
+        "cropBox": [
+          170,
+          13,
+          1194,
+          1149
+        ],
+        "figureSize": [
+          76,
+          84
+        ],
+        "cellMargins": [
+          26,
+          26,
+          6,
+          6
+        ],
+        "packedCellSha256": "06e20320c5359b96151fa2700aa272a25f984400b21c3f3bbab5a082f80096de",
+        "cell": [
+          384,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 14,
+        "generationId": "exec-0799230f-9343-4315-96ba-162d2dfa506e",
+        "promptFiles": [
+          "tools/generate-art/j107-keeg-alley-oop-reverse-pose-14-prompt.md"
+        ],
+        "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-14-attempt-01.png",
+        "sourceSha256": "c7cf2dc7b52cf56d20f771bcfae4a468829eabf817d1ac3e6c0fa9c9f6ccdbf4",
+        "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-14-attempt-01-raw.png",
+        "rawSourceSha256": "480614960627c216de47b9590170b7ed92e2309c74ac74aa0c40fc69992d8ca5",
+        "cropThreshold": 16,
+        "cropBox": [
+          414,
+          13,
+          881,
+          1171
+        ],
+        "figureSize": [
+          35,
+          86
+        ],
+        "cellMargins": [
+          46,
+          47,
+          5,
+          5
+        ],
+        "packedCellSha256": "c5d1e87567edb08b7d786219472721d51fe2689698bbff6029602c2cd7c21813",
+        "cell": [
+          512,
+          192,
+          128,
+          96
+        ]
+      }
+    ]
+  },
+  "runtimeBallTrack": {
+    "heightByPose": [
+      1.22,
+      1.59,
+      2.24,
+      1.82,
+      2.12,
+      1.46,
+      1.12,
+      1.82,
+      2.06,
+      1.75,
+      2.24,
+      1.1,
+      0.86,
+      0.42,
+      0.7
+    ],
+    "forwardByPose": [
+      5.85,
+      8.77,
+      5.12,
+      8.77,
+      12.43,
+      7.31,
+      -8.04,
+      7.31,
+      11.7,
+      12.06,
+      12.43,
+      11.7,
+      4.02,
+      -5.12,
+      -1.46
+    ],
+    "anchors": {
+      "grab": 10,
+      "release": 21
+    },
+    "releasePolicy": "carried through tick20; at tick21 simulation releases into rim flight"
+  },
+  "nativeRendererReport": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/native-render-report.json",
+  "promptScope": "Pose00 attempt04 only. Every accepted pose links all exact generation/edit prompt files."
+}

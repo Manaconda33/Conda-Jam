@@ -848,6 +848,30 @@ test('Paprika catches and releases a power alley oop on her muzzle and near fore
   while(receiver.animation.clip===clip&&receiver.animation.tick<anchorTick(clip,'finish'))stepMatch(m,neutral(m));
   assert.equal(m.score[0],2);assert.equal(passer.assists,1);assert.equal(receiver.dunks,1);
 });
+test('Keeg receives the incoming power lob and holds his athlete-specific hand track through tick20 in both facings',()=>{
+ for(const facing of [1,-1]){
+  const m=setup(),passer=m.players[0],receiver=m.players[1];receiver.id='keeg';receiver.name='Keeg';passer.x=170;receiver.x=184;receiver.y=46;receiver.facing=facing;
+  stepMatch(m,[...neutral(m).filter(i=>i.playerId!==passer.id),createInput(passer.id,{passPressed:true,turbo:true,alleyOop:'power'})]);
+  while(passer.animation.tick<anchorTick(passer.animation.clip,'release'))stepMatch(m,neutral(m));
+  const clip='alley-oop-power',grab=anchorTick(clip,'grab'),release=anchorTick(clip,'release');
+  assert.equal(receiver.animation.clip,clip);assert.equal(receiver.hasBall,false);assert.equal(m.ball.mode,'pass');
+  while(receiver.animation.tick<grab)stepMatch(m,neutral(m));
+  assert.equal(receiver.animation.tick,grab);assert.equal(receiver.hasBall,true);assert.equal(m.ball.ownerId,receiver.id);
+  assert.ok(Math.abs(m.ball.x-receiver.x-facing*9.867)<1e-9,'lob lands at Keeg’s open catch hand facing '+facing);
+  assert.ok(Math.abs(m.ball.z-receiver.z-2.039)<1e-9,'catch reaches Keeg’s reviewed hand height');
+  while(receiver.animation.tick<release-1){
+   stepMatch(m,neutral(m));
+   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,receiver.id);
+   assert.ok(Math.abs(m.ball.x-receiver.x-facing*sampleBallForward(clip,receiver.animation.tick,receiver.id))<1e-9);
+   assert.ok(Math.abs(m.ball.z-receiver.z-sampleBallHeight(clip,receiver.animation.tick,receiver.id))<1e-9);
+  }
+  assert.equal(receiver.animation.tick,20);assert.equal(sampleAnimation(clip,20).frame,9);
+  assert.equal(sampleBallHeight(clip,20,receiver.id),2.125);assert.equal(sampleBallForward(clip,20,receiver.id),5.482);
+  stepMatch(m,neutral(m));assert.equal(receiver.animation.tick,release);assert.equal(receiver.hasBall,false);assert.equal(m.ball.mode,'dunk');assert.equal(m.ball.ownerId,null);
+  while(receiver.animation.clip===clip&&receiver.animation.tick<anchorTick(clip,'finish'))stepMatch(m,neutral(m));
+  assert.equal(m.score[0],2);assert.equal(passer.assists,1);assert.equal(receiver.dunks,1);
+ }
+});
 test('Reed catches the lob at his high right hand and carries it through the power finish',()=>{
  const m=setup(),passer=m.players[0],receiver=m.players[1];receiver.id='reed-ashcroft';receiver.name='Reed Ashcroft';passer.x=170;receiver.x=184;receiver.y=46;
  stepMatch(m,[...neutral(m).filter(i=>i.playerId!==passer.id),createInput(passer.id,{passPressed:true,turbo:true,alleyOop:'power'})]);
@@ -1511,6 +1535,38 @@ test('Juniper receives the reverse lob, carries it behind her crown and releases
   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);
   stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);
   while(p.animation.tick<finish)stepMatch(m,neutral(m));assert.equal(m.score[0],2);assert.equal(p.dunks,1);assert.equal(passer.assists,1);
+  while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
+ }
+});
+
+test('Keeg reverse alley-oop catches between empty hands, carries behind the hip and releases once',()=>{
+ const clip='alley-oop-reverse',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ const height=[1.22,1.59,2.24,1.82,2.12,1.46,1.12,1.82,2.06,1.75,2.24,1.1,.86,.42,.7];
+ const forward=[5.85,8.77,5.12,8.77,12.43,7.31,-8.04,7.31,11.7,12.06,12.43,11.7,4.02,-5.12,-1.46];
+ for(const facing of [1,-1]){
+  const m=setup(),passer=m.players[0],p=m.players[1];p.id='keeg';p.name='Keeg';passer.x=170;p.x=184;p.y=46;p.facing=facing;
+  stepMatch(m,[...neutral(m).filter(i=>i.playerId!==passer.id),createInput(passer.id,{passPressed:true,turbo:true,alleyOop:'reverse'})]);
+  while(passer.animation.tick<anchorTick(passer.animation.clip,'release'))stepMatch(m,neutral(m));
+  assert.equal(p.animation.clip,clip);assert.equal(m.ball.mode,'pass');
+  for(let frame=0;frame<10;frame++){
+   const tick=frameTick(frame);
+   while(p.animation.tick<tick)stepMatch(m,neutral(m));
+   assert.equal(sampleBallHeight(clip,p.animation.tick,p.id),height[frame]);
+   assert.equal(sampleBallForward(clip,p.animation.tick,p.id),forward[frame]);
+   if(p.animation.tick>=10){
+    assert.ok(Math.abs(m.ball.x-p.x-facing*forward[frame])<.06,'separate ball follows Keeg facing '+facing+' pose '+frame);
+    assert.ok(Math.abs(m.ball.z-p.z-height[frame])<.02,'ball stays at Keeg hand height pose '+frame);
+   }
+  }
+  assert.equal(p.hasBall,true);assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');
+  assert.equal(anchorTick(clip,'grab'),10);assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(p.animation.tick,20);assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);
+  assert.equal(sampleBallHeight(clip,20,p.id),1.995);assert.ok(Math.abs(sampleBallForward(clip,20,p.id)-12.245)<1e-9);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish)stepMatch(m,neutral(m));
+  assert.equal(m.score[0],2);assert.equal(p.dunks,1);assert.equal(passer.assists,1);
   while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
  }
 });

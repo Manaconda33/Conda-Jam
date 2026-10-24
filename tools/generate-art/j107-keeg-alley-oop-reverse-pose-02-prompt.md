@@ -1,0 +1,9 @@
+# J.107 Keeg alley-oop reverse — pose 02 generation prompt
+
+Initial generation: `exec-8e59830a-778a-4bbf-8588-119ac33d5a76` (checkerboard rejected as source). Edited transparent output: `exec-165add6a-064e-4dfc-a287-600ca4612564`.
+
+Verbatim initial prompt:
+
+> Transparent production sprite source: exactly one full-body Keeg K.03 athlete, facing right. Keeg is an adult athletic human man with black hair, close black beard, warm light skin, an exceptionally tall ornate purple witch/mushroom hat with silver trim, and a purple/lavender/silver Moonmorel Hex basketball uniform and matching shoes. Crisp chunky outlined 1990s arcade pixel art, matching prior sprite scale. Pose 02 of his reverse alley-oop dunk, the takeoff anchor: compact two-foot plant and explosive upward launch toward the rim, torso beginning to rotate away from the viewer, one knee lifting, both empty arms drawn close as he begins to track the incoming high lob. Hands stay empty, no catch yet. Make this clearly airborne and different from grounded approach poses; natural two-arm/two-leg human anatomy. Keep all parts of tall hat and shoes inside. Figure at most 76px wide when fitted to 90px high, leaving at least26px horizontal cell margins in a 128x96 cell. Entire background must be alpha0; no painted checkerboard, halo, shadows or backdrop. No ball, hoop, props, floor, court, text or grid. Return only the sprite on true transparency.
+
+Background edit prompt is preserved in `j107-keeg-alley-oop-reverse-pose-02-edit-prompt.md`. Edited output was reviewed: single complete airborne figure, adult human anatomy, hat/kit identity preserved, no ball, transparent corners. It fits at46×90 with41px horizontal margins after threshold16. The image edit changed the canvas from 1278×1230 to1145×1374; both images remain preserved and only the edited transparent output is eligible for further review.

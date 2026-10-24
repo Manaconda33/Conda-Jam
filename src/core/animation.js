@@ -596,6 +596,18 @@ const athleteBallTracks={'reed-ashcroft':{
   // Keeg's two-hand clutch carries the separate ball overhead and releases
   // from his empty-palmed frame 10 at the shared tick21 dunk anchor.
   'dunk-clutch':{height:[.95,1.1,1.25,1.6,2,2.35,2.5,2.65,2.75,2.65,2.45,2,1.4,.7,.55],forward:[6,7,6,4,2,0,-1,0,1,6,12,10,8,5,6]},
+  // Keeg's scythe gathers at the waist, sweeps low behind the hip, reverses
+  // across his torso, then rises beside the hat to one open-palm tick21 release.
+  // The ball remains a separate athlete-specific sprite; after release its
+  // flight is simulated independently of Keeg's follow-through poses.
+  'dunk-scythe':{height:[1.005,1.119,.975,.718,.804,.689,1.119,1.981,2.442,2.01,2.01,2,1.35,.7,.55],forward:[9.502,6.576,.365,-11.329,-12.429,-12.429,-6.943,8.405,17.888,9.136,9.136,10,8,5,6]},
+  // Keeg's alley-oop lob reaches his open hand at pose05/tick10, gathers to
+  // his chest, then follows the raised/cocked hand through tick20. Pose10 at
+  // tick21 is the sole release; the dunk simulation places the ball at rim.
+  'alley-oop-power':{height:[1.407,1.752,2.412,2.441,2.498,2.039,1.522,2.096,2.297,2.125,2.125,2.326,1.637,1.034,1.005],forward:[11.695,9.867,7.309,9.502,9.867,9.867,2.924,7.675,8.771,5.482,5.482,9.867,6.578,.365,0]},
+  // The reverse lob catches between Keeg's empty hands, sweeps behind his hip,
+  // then stays at his image-right cocked hand through tick20 and the sole tick21 release.
+  'alley-oop-reverse':{height:[1.22,1.59,2.24,1.82,2.12,1.46,1.12,1.82,2.06,1.75,2.24,1.1,.86,.42,.7],forward:[5.85,8.77,5.12,8.77,12.43,7.31,-8.04,7.31,11.70,12.06,12.43,11.70,4.02,-5.12,-1.46]},
   // Reverse dunk carries the separate ball behind Keeg's shoulder and hat,
   // then releases from the far side at the shared frame10/tick21 anchor.
   'dunk-reverse':{height:[.95,1.1,1.25,1.5,1.8,1.4,2.4,2.55,2.1,2.1,1.2,2.1,1.45,.7,.55],forward:[6,8,4,-2,-5,-7,-9,-8,-6,-4,12,4,8,5,6]}

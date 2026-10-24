@@ -1,3 +1,11 @@
+## Continuation checkpoint — 2026-10-24
+
+- Workspace `/workspace/Conda-Jam` is connected and image generation is callable. Working branch `codex/jamverse-buzzer-art-retries`, HEAD `f1cb5d6` plus local changes; verified remote baseline `origin/main` is `4b1aee3`. Previous gameplay checkpoint `3cdc3d6` is deployed in Pages run #158.
+- Juniper Vale remains complete at29/29 clips /293 drawings. Keeg J.107 `alley-oop-reverse` now completes his roster at29/29 /293 drawings. Fifteen individually generated right-facing poses are accepted in a lossless 640×288 atlas with15 unique authored frame hashes. The independent reviewer confirmed identity, anatomy, pose separation, transparency, cell margins and empty catch hands; the full packed sheet preview was fixed to display every row on both backgrounds.
+- Exact prompts, IDs, raw/clean hashes,20 rejected/excluded candidates, layouts, cleanup and previews are preserved under `tools/generate-art/`. Keeg’s separate ball track catches at tick10, stays with the pose09 hand through tick20, and releases to the simulation at tick21. Standard and120% native Canvas runs select all15 poses in both facings; 64 captures and the full mirrored sequences are recorded.
+- Focused tests pass: animation sprites115/115 and simulation animation171/171. Strict report-only audit at `2026-10-24T17:32:56.733Z`:670 clips /5,904 authored drawings /105 athletes;2,433 missing clips,3 target shortfalls and4 inherited prompt findings. The full-roster objective remains incomplete.
+- Next canonical roster-order target is Piper Quickstep (`5/29` clips), `shoot`; this isolated pose-generation lane is delegated and must be reviewed before packing or integration. Run the full validation after integrating subsequent work, then push and verify Pages CI. Do not describe source-only poses as registered clips.
+
 ## Current checkpoint — portrait court, touch accessibility and audit refresh (Pages run #157 passed)
 
 - Portrait play no longer crops the fixed 480×360 court into a narrow strip: mobile CSS letterboxes the full court. The 390×844 Chromium screenshot is `artifacts/screenshots/mobile-court.png`.
@@ -16,12 +24,11 @@
 
 ## Continuation checkpoint — 2026-10-24
 
-- Started from current `origin/main` `f2b0a22` (Pages run #157 passed); the original `work` branch was behind by three deployment/handoff commits. Working branch: `codex/jamverse-buzzer-art-retries`.
-- Juniper is already complete at29/29 clips /293 drawings, including `dunk-power`; Keeg is26/29 and J.105 `dunk-scythe` is the current roster-ordered gap. Image generation is available; eight full-sheet attempts are rejected, and isolated-pose generation is now being reviewed. Poses00–09 (approach through high cocked hand) passed as separate transparent authored drawings and were deterministically fitted to 128×96 cells; poses10–14 and ball alignment remain open. Pose07 attempt01 and pose09 attempts01–02 are preserved as rejected. All prompts, sources, generation IDs/hashes, notes and previews are preserved. No complete accepted source, layout, or atlas exists.
-- Made buzzer shots and dunks now retain the 70-tick scoring pause before resolving the final horn or period; the pause then ends without awarding an inbound. Regression coverage checks a final-period lead and tie-to-overtime. Focused game-core test:41/41. Full `npm test`:28/28 test files; lint, content validation, 100-match simulation (856,346 ticks /5 OT), 55 packer checks, build and Chromium offline/full-match/season E2E pass.
-- Strict report-only audit refreshed at `2026-10-24T15:26:18.656Z`:667 clips /5,859 authored drawings /105 athletes;2,436 missing clips,3 target shortfalls and4 inherited prompt findings. Rejected/isolated component art does not change registered coverage.
-- Art checkpoints `7544b2f` and `25faa7b` are pushed to `main`. Buzzer scoring celebration fix `3cdc3d6` is deployed successfully in Pages run #158: https://github.com/Manaconda33/Conda-Jam/actions/runs/40101381016. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3cdc3d6.
-- Continue generating pose components in order, keeping hands empty and the ball on Keeg’s separate track. Do not register or pack until all 15 poses and ball alignment pass review.
+- Managed environment is running and connected; image generation is available. Branch `codex/jamverse-buzzer-art-retries` is based at `f1cb5d6` and contains uncommitted J.105 integration work. Deployed gameplay checkpoint `3cdc3d6` passed Pages run #158.
+- Juniper Vale is complete at29/29 clips /293 drawings. Keeg J.105 `dunk-scythe` is accepted and registered with15 authored right-facing drawings and a separate Keeg-specific ball track. Eight rejected full sheets and all isolated pose trials, exact prompts, source hashes, layouts, rejected attempts and previews are preserved. The 5×3 light/dark pose review and ball overlay were checked for separation, transparent gutters, margins, anatomy/identity and hand contact. Both native facings confirm carried contact through tick20 and tick21 rim release.
+- Keeg is27/29 /263 registered drawings. Next roster-ordered Keeg actions: `alley-oop-power`, then `alley-oop-reverse`. Current generation target: `alley-oop-power`; preserve K.03 human anatomy, black hair/beard, tall purple mushroom hat with silver trim, purple/lavender/silver kit, and a separate ball track.
+- Latest strict audit:668 clips /5,874 drawings /105 athletes;2,435 missing clips,3 target shortfalls and4 inherited prompt findings. Audit timestamp is in `docs/animation-production/ASSET_AUDIT.json`.
+- Runtime gameplay remains deployed at https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3cdc3d6. J.105 art changes are local pending asset validation and checkpointing.
 
 # Session handoff
 

@@ -1,0 +1,641 @@
+{
+  "athlete": "keeg",
+  "direction": "right",
+  "clip": "alley-oop-power",
+  "src": "./public/assets/animation/keeg-alley-oop-power-right.webp",
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "status": "accepted source; independent cell, track-overlay, and native-render review passed",
+    "promptAndSourceManifest": "tools/generate-art/j106-keeg-alley-oop-power-provenance.json",
+    "assemblyScript": "tools/generate-art/assemble-keeg-alley-oop-power.py",
+    "cellSize": [
+      128,
+      96
+    ],
+    "figureHeight": 90,
+    "sequenceOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "operation": "Tight alpha crop at threshold16; uniform nearest-neighbor resize to 90px figure height; center in transparent 128x96 cell with baseline y95; pack row-major. No pose was drawn, duplicated, mirrored, or interpolated.",
+    "sourceRecords": [
+      {
+        "poseIndex": 0,
+        "generationId": "exec-2717b4df-16b1-4af5-98ea-bf668e7fa3ee",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-00-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-00-attempt-01.png",
+        "sourceSha256": "e5a6a7fecda3acff60f34044899e8df56b17f66b372668c4200471eabb6d84f1",
+        "rawSource": null,
+        "rawSourceSha256": null,
+        "cropThreshold": 16,
+        "cropBox": [
+          250,
+          70,
+          1059,
+          1126
+        ],
+        "figureSize": [
+          69,
+          90
+        ],
+        "cellMargins": [
+          29,
+          30,
+          5,
+          1
+        ],
+        "packedCellSha256": "338b8c97079f5fd19c37709e2802df7bbef0af96e7db9eaac9f657c016d477bd",
+        "cell": [
+          0,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 1,
+        "generationId": "exec-4e70cfcb-c703-445a-af5e-5ae9765f5b3d",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-01-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-01-attempt-01.png",
+        "sourceSha256": "9b4a0d77540fc4437e2722cce97ac2d846773620d7350ac04e84a5c5c97c0e10",
+        "rawSource": null,
+        "rawSourceSha256": null,
+        "cropThreshold": 16,
+        "cropBox": [
+          341,
+          59,
+          1054,
+          1152
+        ],
+        "figureSize": [
+          59,
+          90
+        ],
+        "cellMargins": [
+          34,
+          35,
+          5,
+          1
+        ],
+        "packedCellSha256": "2c43d71c5da2b86fb93ea4aaa1cd6945862f2d252da1253206ffa0d9ca4f2401",
+        "cell": [
+          128,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 2,
+        "generationId": "exec-29bfe67c-d897-45f3-b18c-d40e88f6e4b4",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-02-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-02-attempt-01.png",
+        "sourceSha256": "8169098d5486198b266e4d787872a0873540e312e986496e7545edc2efb3cd1d",
+        "rawSource": null,
+        "rawSourceSha256": null,
+        "cropThreshold": 16,
+        "cropBox": [
+          266,
+          72,
+          1104,
+          1135
+        ],
+        "figureSize": [
+          71,
+          90
+        ],
+        "cellMargins": [
+          28,
+          29,
+          5,
+          1
+        ],
+        "packedCellSha256": "3ac89b6261f2cf3f9316eb6834d5829d1bfd7d2af86515d2ecfcbe072e27eaa9",
+        "cell": [
+          256,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 3,
+        "generationId": "exec-f51f32e4-0a2b-41c8-91e6-ed0ff85fa3aa",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-03-retry-03-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-03-attempt-03.png",
+        "sourceSha256": "e1ebd2434100ad2bb69ec68b9b8226c0f1c03757903dae02dceb30e5604e2b56",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-03-attempt-03-raw.png",
+        "rawSourceSha256": "dc3092f9d727ffee17df8b69cd4bec41ac99cdc4fe5f0a4669550f65618aa929",
+        "cropThreshold": 16,
+        "cropBox": [
+          140,
+          35,
+          918,
+          1415
+        ],
+        "figureSize": [
+          51,
+          90
+        ],
+        "cellMargins": [
+          38,
+          39,
+          5,
+          1
+        ],
+        "packedCellSha256": "1a91d126bdd89e73cc6d10d75f52c6125d0c5c8e925b7301675d41a868361cd4",
+        "cell": [
+          384,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 4,
+        "generationId": "exec-d3326743-8036-4530-b841-471a4f21d240",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-04-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-04-attempt-01.png",
+        "sourceSha256": "18fa8157f5095ba07d45097850b802e4cf75f5b208baad1562252dfb0d46d870",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-04-attempt-01-raw.png",
+        "rawSourceSha256": "1916ed451ff8170b921884059c95c8d5ebf154d7069ad54e666839f1760d26e7",
+        "cropThreshold": 16,
+        "cropBox": [
+          85,
+          77,
+          983,
+          1458
+        ],
+        "figureSize": [
+          59,
+          90
+        ],
+        "cellMargins": [
+          34,
+          35,
+          5,
+          1
+        ],
+        "packedCellSha256": "8d48578bd9b0cb0f0f84568f99f180f31d1c5c9b163f63f3d1aa66f6916d7c0e",
+        "cell": [
+          512,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 5,
+        "generationId": "exec-8714137c-54e0-4acf-b628-803f995821a9",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-05-retry-02-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-05-attempt-02.png",
+        "sourceSha256": "2a5fe4032621c01d06750cc08ec0a3026817819855e74a7614d50175649d02ba",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-05-attempt-02-raw.png",
+        "rawSourceSha256": "93e2b130aabdd2b0aa5247d88e93ef8666eb5ca2d1d8573073000a9eeb84179e",
+        "cropThreshold": 16,
+        "cropBox": [
+          129,
+          128,
+          937,
+          1426
+        ],
+        "figureSize": [
+          56,
+          90
+        ],
+        "cellMargins": [
+          36,
+          36,
+          5,
+          1
+        ],
+        "packedCellSha256": "5d1683c16d0d353b18e1e56955a56acc164a77cc912274905ef036943d3f4736",
+        "cell": [
+          0,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 6,
+        "generationId": "exec-729681d5-bca2-4a40-836f-202063e3f2c2",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-06-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-06-attempt-01.png",
+        "sourceSha256": "015244684bae784c2f9dfb608508f4559cf86242637dc4f6f0a3f0fbc6744aa3",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-06-attempt-01-raw.png",
+        "rawSourceSha256": "849851f226b2129927732a80fe05f0995841ce34d75c636782f45b788866cae7",
+        "cropThreshold": 16,
+        "cropBox": [
+          151,
+          64,
+          858,
+          1469
+        ],
+        "figureSize": [
+          45,
+          90
+        ],
+        "cellMargins": [
+          41,
+          42,
+          5,
+          1
+        ],
+        "packedCellSha256": "8045b8e4f2b0c2e64bde700528b4b6f26d0fbacc98315de3106e3382544b0fac",
+        "cell": [
+          128,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 7,
+        "generationId": "exec-4b6b01fe-440b-4c01-be72-37b3b78db23d",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-07-retry-02-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-07-attempt-02.png",
+        "sourceSha256": "1a8157db1873dd0bab5b90b6f46fb7c73818b74f8cbdf4f9c2a91340c46f813e",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-07-attempt-02-raw.png",
+        "rawSourceSha256": "46d148e5088282a8ab4a04d3c8db487339ed338c3e26ff27e987301e49b6bbe4",
+        "cropThreshold": 16,
+        "cropBox": [
+          59,
+          64,
+          967,
+          1474
+        ],
+        "figureSize": [
+          58,
+          90
+        ],
+        "cellMargins": [
+          35,
+          35,
+          5,
+          1
+        ],
+        "packedCellSha256": "115fb2c4ae070f65d1dbb009eaa035dc1dc609dc06ad3df812952f37485be51a",
+        "cell": [
+          256,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 8,
+        "generationId": "exec-1d0e611c-f4a4-4499-b60d-a658578aacb6",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-08-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-08-attempt-01.png",
+        "sourceSha256": "f38f00e4af6630c1dab110bed30eec15bbc2819615fcd20ab3e0866b6f65ea7d",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-08-attempt-01-raw.png",
+        "rawSourceSha256": "cc55f98cb62c5208ff29fa073947c241c59d9c91e549eab9759da47779efc934",
+        "cropThreshold": 16,
+        "cropBox": [
+          67,
+          91,
+          989,
+          1485
+        ],
+        "figureSize": [
+          60,
+          90
+        ],
+        "cellMargins": [
+          34,
+          34,
+          5,
+          1
+        ],
+        "packedCellSha256": "89b0649bc68df71f12ab4663eb752dd34faaef258975071ca6d04bf2c0fb2d5b",
+        "cell": [
+          384,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 9,
+        "generationId": "exec-b1dde26f-367a-43ca-bacd-f3369e99091c",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-09-retry-03-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-03.png",
+        "sourceSha256": "d2d387dfb1d3f9c7d8eff931e1d3b43598b5afacd2370e8f66370c893a567f90",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-03-raw.png",
+        "rawSourceSha256": "9679b61433afce1b6986848a030b00bcc240034d122dca2eac254c3be5000fd3",
+        "cropThreshold": 16,
+        "cropBox": [
+          148,
+          31,
+          988,
+          1448
+        ],
+        "figureSize": [
+          53,
+          90
+        ],
+        "cellMargins": [
+          37,
+          38,
+          5,
+          1
+        ],
+        "packedCellSha256": "ce99bdc983032f4057449f1208bf4d14b764b66966987c891e16e1fffb9d183e",
+        "cell": [
+          512,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 10,
+        "generationId": "exec-5a8efa8e-0a92-4704-8be3-4db8e3b33844",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-10-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-10-attempt-01.png",
+        "sourceSha256": "2189f2ec9b350171672b36d8bb31f1d1ae4d9cfacc6ab0d872b1fdef2530d744",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-10-attempt-01-raw.png",
+        "rawSourceSha256": "dec07aada76e34a751d5977c65e541d3c33a94f0a6d14d58c25ad3f79480af52",
+        "cropThreshold": 16,
+        "cropBox": [
+          66,
+          35,
+          1014,
+          1508
+        ],
+        "figureSize": [
+          58,
+          90
+        ],
+        "cellMargins": [
+          35,
+          35,
+          5,
+          1
+        ],
+        "packedCellSha256": "0d78dc25fa1aca68aaa311e3b7a10198bf5fe04cc9af6dd3e7f6794c8c1f3ca5",
+        "cell": [
+          0,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 11,
+        "generationId": "exec-922b9b34-1bf9-4087-b011-541e2f4ca5d1",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-11-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-11-attempt-01.png",
+        "sourceSha256": "2f4c83b3f390030d4e9a0d6503a84de907e3e868bff644f2c89a0acbb8480d13",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-11-attempt-01-raw.png",
+        "rawSourceSha256": "920b1c7a087a9f717852d7c6dcf6dd18bf524d9f0ef18719012e45d6b9f634aa",
+        "cropThreshold": 16,
+        "cropBox": [
+          67,
+          108,
+          1013,
+          1502
+        ],
+        "figureSize": [
+          61,
+          90
+        ],
+        "cellMargins": [
+          33,
+          34,
+          5,
+          1
+        ],
+        "packedCellSha256": "eeb28de4a6ee3de40df6c04d05f6051238d649170ecffc28aa37143b3f826567",
+        "cell": [
+          128,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 12,
+        "generationId": "exec-278e9559-a20d-456c-a09c-f313c3fc2453",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-12-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-12-attempt-01.png",
+        "sourceSha256": "702fc874ccedd8f83e3900fc76008ccb1942bcffcce5e0f9fb1ce17efcabac4f",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-12-attempt-01-raw.png",
+        "rawSourceSha256": "4b790b4a19433e356651acf10314aa854df68f5ffdcf9907860441b6ad94179a",
+        "cropThreshold": 16,
+        "cropBox": [
+          71,
+          32,
+          1009,
+          1478
+        ],
+        "figureSize": [
+          58,
+          90
+        ],
+        "cellMargins": [
+          35,
+          35,
+          5,
+          1
+        ],
+        "packedCellSha256": "110566abdff8d51ecffe1eb8f8915f40e4c5f1d9d6c0661041ceabaef5b4eaab",
+        "cell": [
+          256,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 13,
+        "generationId": "exec-c64ed971-8ede-4f60-ac74-38adeb115f86",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-13-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-13-attempt-01.png",
+        "sourceSha256": "1b46dc0e91a4f01965c6db826583a4df6b499322ade1a7255bce4b053809a5fa",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-13-attempt-01-raw.png",
+        "rawSourceSha256": "54244dea01368228a21dab3ee4dd9a66af4e4cff0dbdc8e0554fd3dd7c31b24e",
+        "cropThreshold": 16,
+        "cropBox": [
+          109,
+          39,
+          1146,
+          1279
+        ],
+        "figureSize": [
+          75,
+          90
+        ],
+        "cellMargins": [
+          26,
+          27,
+          5,
+          1
+        ],
+        "packedCellSha256": "0a8042d1758301bd9c2746ecd20b72ce7737467093fd42f64e56ce02e8c1340c",
+        "cell": [
+          384,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 14,
+        "generationId": "exec-33da20b2-57d3-4e77-aceb-1ffc3e683d25",
+        "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-14-prompt.md",
+        "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-14-attempt-01.png",
+        "sourceSha256": "a39f64e1700ca95ba5b1ae6e7586b3df577aa35802aec93b3421f48b2e472694",
+        "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-14-attempt-01-raw.png",
+        "rawSourceSha256": "9ac3652305b8e304301824442254d6675aaee4c8beb0041a19c2f195c498b5b5",
+        "cropThreshold": 16,
+        "cropBox": [
+          352,
+          21,
+          906,
+          1267
+        ],
+        "figureSize": [
+          40,
+          90
+        ],
+        "cellMargins": [
+          44,
+          44,
+          5,
+          1
+        ],
+        "packedCellSha256": "75c0d4aac091c1cf2839b4aa4e48d4e38bfde968b89f2ff0f8855a238ba93e4f",
+        "cell": [
+          512,
+          192,
+          128,
+          96
+        ]
+      }
+    ],
+    "cleanup": "Raw generator PNGs remain preserved. Accepted cleaned images preserve RGB and clear alpha<=16. Atlas adds no background pixels.",
+    "ballTrack": "Keeg-specific separate track in provenance JSON and src/core/animation.js; native previews confirm catch at tick10, contact through tick20, and simulation release to rim at tick21 in both facings.",
+    "reviewSummary": "All 15 unique alpha-cropped pose sources were reviewed on white/dark cell previews and full sequence. Complete Keeg anatomy/identity, margins, pose separation and no-ball artwork pass.",
+    "nativeRendererReport": "tools/generate-art/previews/j106-keeg-alley-oop-power/native-render-report.json",
+    "nativeRendererScreens": [
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-frame5.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-pre-release-tick20.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-frame10.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-frame5.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-pre-release-tick20.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-frame10.png"
+    ],
+    "ballTrackPreview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-ball-track-review.png",
+    "ballTrackSha256": "98ce7e59d6290b30dd16f560570432d3622d14d392aabc898448b7614d82be9a",
+    "prompt": "POSE 00\nCreate one isolated full-body transparent RGBA pixel-art athlete for JAMVERSE '96: Keeg, pose00 of a 15-pose alley-oop power-dunk sequence. Use the first reference to match Keeg's exact visual identity and sprite scale, and the second as the pixel-art/material style reference. Keeg is an adult athletic human man with black hair and a neat short black beard, an exceptionally tall ornate purple witch hat with silver trim and small mushroom ornaments, layered lavender/purple/silver Moonmorel Hex basketball uniform, belt and matching purple shoes. Keep natural human anatomy, two arms, two legs and both shoes visible; do not humanize or alter his canon. Pose00 is the grounded approach beneath an incoming lob: face screen-right, lean forward into a small controlled step, eyes looking upward toward the separate incoming ball, right forearm beginning to lift in anticipation, left arm balancing naturally, both feet still on the court plane. This is an approach/tracking pose, not the catch or jump; it must read clearly differently from the upright gather reference. Show Keeg's hands empty. Keep his entire tall hat, fingers, elbows and shoes comfortably inside the transparent canvas with clear transparent clearance on every edge. The basketball and hoop are separate game objects and must never appear in the sprite. No ball, sphere, orange circle, prop, blade, scythe, staff, extra limb, duplicate body, monster anatomy, cape, robe, cast shadow, floor, court, background, grid, cell marks, text, contact sheet, multiple poses or second figure. One crisp original arcade pixel-art character on a true transparent RGBA background.\n\nPOSE 01\nCreate one isolated full-body transparent RGBA pixel-art athlete for JAMVERSE '96: Keeg, pose01 of a 15-pose alley-oop power-dunk sequence. Match the exact Keeg identity, body proportions and arcade pixel style from the references. Keeg is an adult athletic human man with black hair and a neat short black beard; preserve his exceptionally tall ornate purple witch hat with silver trim and mushroom ornaments, layered lavender/purple/silver Moonmorel Hex uniform, belt and matching shoes. Pose01 continues pose00's screen-right approach but changes the silhouette clearly: his stride checks into a two-foot plant, knees flex, torso becomes more upright, and both open empty hands rise in front of his chest as he tracks the lob overhead. His eyes look above and slightly forward. This is anticipation before the jump, not the one-hand catch and not the airborne pose. Show natural human anatomy, two arms, two legs and both shoes. Keep the entire hat, fingers, elbows and shoes well inside the true transparent canvas with clear margin on every side. Do not draw a ball; the game basketball is a separate runtime object and will reach Keeg's open receiving hand only at pose05/tick10. No sphere, orange circle, prop, blade, scythe, staff, extra limb, duplicate figure, monster anatomy, cape, robe, shadow, floor, court, background, grid, text, contact sheet, multiple poses or second character. One crisp original arcade pixel-art sprite on transparent RGBA.\n\nPOSE 02\nCreate one isolated full-body transparent RGBA arcade pixel-art sprite: Keeg, pose02 of his 15-pose alley-oop power dunk. Match the exact adult-human Keeg, black hair, neat black beard, enormous tall purple mushroom witch hat with silver trim, and lavender/purple/silver Moonmorel Hex kit from the references. Continue from the two-foot lob anticipation pose, but show the first explosive takeoff: both knees drive upward, both shoes have just cleared the court, torso lifts and turns slightly toward screen-right, right arm rises above the head with an open empty receiving palm, and left arm reaches out/back for balance. His eyes track the separate lob. This is the takeoff initiation, not yet the full extension or catch; make the silhouette clearly distinct from grounded pose01 and ensure the receiving hand is not hidden by the hat brim. Preserve believable human joints and exactly two arms/two legs, with all fingers, the complete tall hat and both shoes inside the transparent canvas. Leave generous transparent clearance around every extremity. No ball, sphere, orange circle, drawn hoop, prop, weapon, extra limb, duplicate body, cape/robe, cast shadow, floor, court, background, grid, cell border, text, contact sheet, multiple poses or second figure. The game basketball remains separate and is not drawn. One original crisp pixel-art sprite on true transparent RGBA.\n\nPOSE 03\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose03 of his JAMVERSE '96 alley-oop power dunk. Keep the same original athlete identity and costume from the references: adult human man, black hair and neat black beard, extremely tall purple mushroom hat with silver trim, lavender/purple/silver Moonmorel Hex basketball kit, belt and matching shoes. The action is an airborne apex preparation between the broad diagonal takeoff and the later catch: make the torso upright, hips high, one knee sharply tucked forward and the other lower leg folded back. Bend the right receiving arm at the elbow so its empty open hand reaches almost straight upward just to screen-right of the hat crown; keep a clear gap between fingers and hat. The left arm folds across and slightly away from the chest as counterbalance, creating a compact silhouette unlike pose02's wide diagonal arms and split-leg takeoff. Keeg looks upward toward the unseen lob. Natural human anatomy, one figure, exactly two arms/hands and two legs/feet, full hat and shoes visible. Leave generous true transparent margins around every extremity. Do not draw any ball or object; the ball is separate and the actual catch is pose05/tick10. No ball, orange circle, sphere, staff, blade, scythe, prop, extra limbs, duplicate pose, second character, cape, glow, haze, shadow, floor, court, hoop, background, grid, cell line, text, contact sheet or multiple poses. Every pixel outside the sprite must be alpha zero. Crisp original arcade pixel art on transparent RGBA.\n\nPOSE 04\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg in JAMVERSE '96, pose04 of a 15-pose alley-oop power dunk. Match the adult human man's black hair and neat short beard, the full extremely tall purple mushroom hat with silver trim, lavender/purple/silver Moonmorel Hex kit and matching shoes from the references. Continue from pose03's compact airborne tuck into a long reaching line: Keeg's torso stretches upward and slightly screen-right, legs trail below with one knee bent and the other lower leg angled back, right arm is now almost fully extended above/right with open empty fingers reaching for the unseen lob, left arm sweeps downward/back as counterbalance. His eyes stay fixed on the incoming ball. Make this tall extension clearly different from pose03's compact tucked body; the catch has not happened yet and the hand remains empty. Keep the whole figure, hat, fingertips and shoes comfortably within clear transparent margins. Preserve exact natural human anatomy and one head/two arms/two legs. No basketball or object is drawn; the separate game ball reaches his receiving palm at pose05/tick10. No ball, sphere, orange circle, staff, blade, scythe, prop, extra limb, duplicate, cape, glow, haze, cast shadow, floor, court, hoop, backdrop, grid, cell boundary, text or multi-pose sheet. Every area outside the sprite must remain alpha transparent. One crisp original arcade pixel-art figure on true RGBA.\n\nPOSE 05\nCreate one isolated full-body transparent RGBA sprite for JAMVERSE '96, Keeg's pose05 alley-oop catch at simulation tick10. Preserve the exact adult human Keeg in the reference: black hair, neat short beard, full extremely tall ornate purple mushroom hat with silver trim, purple/lavender/silver Moonmorel Hex uniform and matching shoes. He is airborne at the catch apex beneath an unseen lob. Make this pose visibly different at 128x96 from pose04's straight-arm reach: bend his right receiving elbow to absorb the catch, turn the empty palm inward/up, and curl the fingers slightly into a clear cupped catching shape. Bring his left forearm inward across the lower chest as he begins to gather, draw both knees closer under his hips, and tilt the torso slightly back while his eyes watch the cupped hand. The ball is separate and should meet the center of this empty palm in the runtime track; do not draw it. Keep the entire hat, hands, fingers and both shoes comfortably inside the transparent image with clear margins. Exactly one natural human figure with two arms and two legs. No basketball, sphere, orange circle, object, staff, blade, extra limb, duplicate figure, cape, glow, haze, ground shadow, floor, court, hoop, background, grid, cell border, text, multiple poses, contact sheet or second figure. Every pixel outside the sprite is alpha zero. Crisp original arcade pixel art on a true transparent RGBA canvas.\n\nPOSE 06\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg in JAMVERSE '96, pose06, the immediate gather after his pose05 alley-oop catch. Keep exact K.03 identity: adult human man with black hair, neat short black beard, extremely tall purple mushroom hat and silver trim, lavender/purple/silver Moonmorel Hex basketball outfit and matching shoes. Keeg is descending slightly from the lob catch and bringing the unseen ball down from his high right hand to his right chest/shoulder. Bend the right elbow sharply so that empty hand rests beside his shoulder; bring his left empty hand in to frame the separate ball at chest height. His torso rotates toward screen-right, shoulders compress into a powerful gather, and knees begin to fold under him. This is a compact two-hand gather, clearly lower and more centered than pose05's high cupped catch. Keep both hands empty with no object between them; the runtime basketball remains separate and follows the hands. Show complete natural human anatomy, two arms/two legs, full hat, fingers and shoes inside generous transparent margins. No ball, sphere, orange circle, prop, blade, staff, scythe, extra limb, duplicate figure, cape, glow, haze, cast shadow, floor, court, hoop, backdrop, grid, cell boundaries, words, multi-pose sheet or second figure. True transparent alpha outside one crisp original arcade pixel-art sprite.\n\nPOSE 07\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose07 of the JAMVERSE '96 alley-oop power dunk. Preserve the reference identity exactly: adult human man with black hair, neat short black beard, full extremely tall purple mushroom hat with silver trim, lavender/purple/silver Moonmorel Hex uniform and matching shoes. This is the powerful upward drive after the catch. Keeg's torso faces screen-right and rises diagonally; one knee is driven high and the other leg trails bent. IMPORTANT BALL-HAND PLACEMENT: raise the right ball-hand on the SCREEN-RIGHT side of Keeg's head, clearly forward of the hat silhouette, with a visible transparent gap between hand/fingers and every part of the hat. Put the palm around the same height as the hat brim but to its right, elbow bent and visible; do not place the raised hand behind, above, or to the left of the hat. Keep the other arm extended down/back as counterbalance. The right palm is open and empty; game ball stays separate and will track this hand. This side-by-side relationship must remain obvious when the sprite is reduced to a 128x96 cell. Retain natural human anatomy, exactly two arms and two legs, full hat/fingers/shoes, and generous transparent margins. No basketball, sphere, orange circle, object, staff, blade, extra limb, duplicate body, cape, glow, haze, shadow, floor, court, hoop, background, grid, cell line, text, contact sheet or second pose/figure. One crisp original arcade pixel-art Keeg on true transparent RGBA.\n\nPOSE 08\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose08 of the JAMVERSE '96 alley-oop power dunk. Match Keeg's exact canon from the references: adult human man, black hair and neat black beard, full very tall ornate purple mushroom witch hat with silver trim, lavender/purple/silver Moonmorel Hex uniform, belt and shoes. Continue from pose07's high drive into a stronger upward extension: torso and hips rise, one knee remains high, the other leg trails, right ball-hand lifts farther above shoulder level with its elbow bent, palm empty and visible to screen-right of the hat with a clear transparent gap. The left arm drives down/back. This is an ascent/cock transition, distinct from pose07's lower bent-arm drive and pose09's fully cocked high finish windup. Keep natural human anatomy, complete hat, hands, fingers and both shoes with generous transparent margins. Do not draw the game ball; it stays on a separate Keeg-specific track. No sphere, basketball, orange circle, prop, staff, blade, scythe, extra limb, duplicate body, second figure, cape, glow, haze, shadow, floor, court, hoop, background, grid, cell line, text, contact sheet or multiple poses. One crisp original arcade pixel-art Keeg on true transparent RGBA.\n\nPOSE 09\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg in his JAMVERSE '96 alley-oop power dunk, pose09 high windup. Maintain K.03 exactly: adult human man with black hair and neat beard, huge tall purple mushroom hat with silver trim and ornaments, lavender/purple/silver Moonmorel Hex uniform and shoes. Keeg is airborne with torso slightly leaning back, both knees tucked, left hand folded across his abdomen. His right ball-arm is cocked at a sharp elbow for the one-hand power finish.\n\nCRITICAL SCREEN PLACEMENT: place the empty right palm entirely on SCREEN-RIGHT of the hat, at approximately the right side of his forehead, with a clear strip of transparent pixels between hat brim and hand. The hand must be visibly in front/right of his face, never behind the hat, never to the left of the hat, and never touching mushroom ornaments. Use the accepted pose07 reference for the hand's correct screen-right side; make this pose's elbow more folded and the body more compressed than pose07. Keep all finger pixels separated from the hat at 128x96 display size. His eyes look toward the basket. This is a loaded windup, not the pose10 release. The ball remains separate and must not be drawn.\n\nPreserve one complete human body with exactly two arms/hands and two legs/shoes. Full hat, every fingertip, elbow and both shoes must fit inside generous transparent margins. No ball, sphere, orange circle, object, prop, staff, blade, extra limb, duplicate, cape, glow, haze, shadow, floor, court, hoop, backdrop, grid, cell boundary, text, second figure or multi-pose sheet. One crisp original arcade pixel-art figure; every outside pixel alpha zero.\n\nPOSE 10\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose10 and the sole release pose of his JAMVERSE '96 alley-oop power dunk at simulation tick21. Preserve the adult human Keeg from K.03: black hair, neat short beard, full extremely tall purple mushroom hat with silver trim and ornaments, lavender/purple/silver Moonmorel Hex kit and shoes. Continue from pose09's compressed windup into one powerful release: Keeg's right ball-arm straightens diagonally up and forward toward screen-right, elbow extended, wrist snapped, open empty palm and fingers visibly splayed. Keep the entire hand clear of the hat with transparent space; do not put fingers behind ornaments. His chest leans toward the rim, left arm drops/back as a counterbalance, one knee drives upward and the other leg trails bent. This is the only release; pose09 is cocked, pose11 is follow-through. The game ball is a separate runtime object and must not appear in the drawing; simulation takes over ball flight at release. Show complete human anatomy, full hat, both hands/arms and shoes inside generous margins. No ball, sphere, orange circle, prop, staff, blade, extra limb, duplicate, cape, glow, haze, floor, court, hoop, background, shadow, grid, border, text, contact sheet or multiple poses. One crisp original arcade pixel-art sprite on true transparent RGBA.\n\nPOSE 11\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg in JAMVERSE '96, pose11, the empty-handed follow-through immediately after pose10 releases the alley-oop power dunk at tick21. Keep K.03: adult natural human man with black hair and neat black beard, full tall purple mushroom hat with silver trim and ornaments, purple/lavender/silver Moonmorel Hex uniform and matching shoes. Continue from pose10 but visibly advance the motion: Keeg's right arm remains extended toward screen-right while the wrist relaxes and fingers open after release; the shoulder rolls forward, chest turns slightly toward the rim, left arm trails low/back. His hips and legs begin to descend from the jump, with one knee uncoiling and the other foot trailing. Both hands are empty; the game ball is already a separate rim-bound runtime object. This pose is a follow-through, not another release or a repeated cocked arm. Keep all anatomy, full hat, hands/fingers and shoes inside generous transparent margins. No ball, sphere, orange circle, prop, staff, blade, extra limb, duplicate body, cape, glow, haze, floor, court, hoop, cast shadow, background, grid, cell edge, text, contact sheet or multiple poses. One crisp original arcade pixel-art Keeg on true transparent RGBA.\n\nPOSE 12\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose12 descent in JAMVERSE '96 after the alley-oop power dunk release. Preserve K.03 identity and anatomy: adult human man, black hair and neat beard, entire very tall ornate purple mushroom hat with silver trim, purple/lavender/silver Moonmorel Hex kit and shoes. Show him clearly descending from the jump after pose11 follow-through: torso returns closer to upright, right arm lowers out to screen-right with an open empty hand below shoulder level, left arm rises slightly for balance, both knees loosen and legs move toward a controlled landing. He looks toward the basket/landing area. This must be visibly lower and more relaxed than the airborne release and follow-through; there is no ball in his hands, and the separate rim-bound ball remains in simulation. Fit complete hat, fingers, limbs and both shoes inside generous transparent margins. Keep human joints natural, one figure, exactly two arms and two legs. No basketball, sphere, orange circle, prop, staff, blade, extra limb, duplicate, cape, glow, haze, cast shadow, floor, court, hoop, background, grid, cell border, text, multi-pose sheet or second figure. One crisp original arcade pixel-art sprite on true transparent RGBA.\n\nPOSE 13\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose13 of his JAMVERSE '96 alley-oop power dunk, the first two-foot landing compression. Preserve K.03: adult human man with black hair, neat short beard, full very tall ornate purple mushroom hat with silver trim and mushrooms, lavender/purple/silver Moonmorel Hex kit, belt and matching shoes. Keeg has now reached the floor after pose12 descent: both shoes are visibly planted at the same time, knees bent to absorb impact, hips low, torso inclined forward slightly, arms relaxed and swung down/out for balance with both empty hands. His tall hat remains intact and clear. This is ground contact/compression, visibly lower and wider than the airborne descent pose12; it is not yet the upright recovery of pose14. Preserve natural human anatomy, exactly two arms and two legs, both shoes fully visible, and generous transparent cell margins around hat, hands and feet. The ball has already left the player and remains separate in simulation. No ball, sphere, orange circle, prop, staff, blade, extra limb, duplicate figure, cape, glow, haze, floor, cast shadow, court, hoop, backdrop, grid, cell boundary, text, multi-pose sheet or second figure. One crisp original arcade pixel-art Keeg on true transparent RGBA.\n\nPOSE 14\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg in JAMVERSE '96, pose14 stable recovery at the end of his alley-oop power dunk. Preserve K.03 faithfully: adult human male, black hair, neat beard, tall ornate purple mushroom hat with silver trim and mushrooms, purple/lavender/silver Moonmorel Hex uniform and matching shoes. After the compressed two-foot landing in pose13, Keeg straightens to a comfortable balanced upright stance, both feet flat and shoulder-width apart, knees softly relaxed, torso vertical, arms lowered naturally at his sides with open empty hands. He looks toward the court with calm focus. This must read as a distinct stable recovery after pose13's low wide compression, not a repeat of the jump or landing. Keep the entire tall hat, fingers and both shoes inside generous clear transparent margins. One adult human with natural anatomy, two arms and two legs. The ball is separate and already in simulation; do not draw it. No ball, sphere, orange circle, prop, staff, blade, extra limb, duplicate figure, cape, glow, haze, floor, shadow, court, hoop, background, grid, cell marks, text, contact sheet or multiple poses. One crisp original arcade pixel-art Keeg on true transparent RGBA.",
+    "generatedAt": "2026-10-24T16:44:04.916Z"
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "athlete": "keeg",
+  "direction": "right",
+  "clip": "dunk-scythe",
+  "src": "./public/assets/animation/keeg-dunk-scythe-right.webp",
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "status": "accepted source; native-render ball-track review passed",
+    "promptAndSourceManifest": "tools/generate-art/j105-keeg-dunk-scythe-provenance.json",
+    "assemblyScript": "tools/generate-art/assemble-keeg-dunk-scythe.py",
+    "cellSize": [
+      128,
+      96
+    ],
+    "figureHeight": 90,
+    "sequenceOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "operation": "Tight alpha crop at threshold16; uniformly nearest-neighbor resize to 90px figure height; center in transparent 128x96 cell with baseline y95; pack row-major. No pose was drawn, duplicated, mirrored or interpolated.",
+    "sourceRecords": [
+      {
+        "poseIndex": 0,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-00-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          261,
+          93,
+          984,
+          1145
+        ],
+        "figureSize": [
+          62,
+          90
+        ],
+        "cell": [
+          0,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 1,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-01-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          312,
+          33,
+          934,
+          1166
+        ],
+        "figureSize": [
+          49,
+          90
+        ],
+        "cell": [
+          128,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 2,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-02-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          284,
+          35,
+          1085,
+          1119
+        ],
+        "figureSize": [
+          67,
+          90
+        ],
+        "cell": [
+          256,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 3,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-03-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          279,
+          11,
+          1113,
+          1136
+        ],
+        "figureSize": [
+          67,
+          90
+        ],
+        "cell": [
+          384,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 4,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-04-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          232,
+          12,
+          1163,
+          1132
+        ],
+        "figureSize": [
+          75,
+          90
+        ],
+        "cell": [
+          512,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 5,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-05-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          311,
+          16,
+          1344,
+          1024
+        ],
+        "figureSize": [
+          92,
+          90
+        ],
+        "cell": [
+          0,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 6,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-06-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          347,
+          15,
+          1125,
+          1113
+        ],
+        "figureSize": [
+          64,
+          90
+        ],
+        "cell": [
+          128,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 7,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-07-attempt-02.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          289,
+          49,
+          998,
+          1105
+        ],
+        "figureSize": [
+          60,
+          90
+        ],
+        "cell": [
+          256,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 8,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-08-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          287,
+          46,
+          1067,
+          1170
+        ],
+        "figureSize": [
+          62,
+          90
+        ],
+        "cell": [
+          384,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 9,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-09-attempt-03.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          177,
+          81,
+          1043,
+          1218
+        ],
+        "figureSize": [
+          69,
+          90
+        ],
+        "cell": [
+          512,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 10,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-10-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          133,
+          79,
+          1196,
+          1231
+        ],
+        "figureSize": [
+          83,
+          90
+        ],
+        "cell": [
+          0,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 11,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-11-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          99,
+          70,
+          1189,
+          1228
+        ],
+        "figureSize": [
+          85,
+          90
+        ],
+        "cell": [
+          128,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 12,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-12-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          174,
+          47,
+          1122,
+          1218
+        ],
+        "figureSize": [
+          73,
+          90
+        ],
+        "cell": [
+          256,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 13,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-13-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          175,
+          53,
+          1228,
+          1162
+        ],
+        "figureSize": [
+          85,
+          90
+        ],
+        "cell": [
+          384,
+          192,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 14,
+        "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-14-attempt-01.png",
+        "cropThreshold": 16,
+        "cropBox": [
+          279,
+          45,
+          1003,
+          1260
+        ],
+        "figureSize": [
+          54,
+          90
+        ],
+        "cell": [
+          512,
+          192,
+          128,
+          96
+        ]
+      }
+    ],
+    "cleanup": "No source pixels altered apart from tight alpha cropping and nearest-neighbor uniform resize. Cell backgrounds and gutters remain transparent.",
+    "ballTrack": "The Keeg-specific separate track is in the provenance JSON and src/core/animation.js. Native previews confirm contact through tick20 and rim resolution at pose10/tick21 in both facings.",
+    "prompt": "Fifteen exact, independently generated pose prompts are preserved in tools/generate-art/j105-keeg-dunk-scythe-pose-00-prompt.md through pose-14-prompt.md (poses07 and09 retain attempt-specific prompt filenames); this atlas is a deterministic assembly of those isolated sources.",
+    "generatedAt": "2026-10-24",
+    "promptVerbatim": true
+  }
+}

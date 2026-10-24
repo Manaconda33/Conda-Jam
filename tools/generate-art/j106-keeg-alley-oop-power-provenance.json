@@ -1,0 +1,957 @@
+{
+  "athlete": "keeg",
+  "clip": "alley-oop-power",
+  "direction": "right",
+  "canonicalSection": "K.03",
+  "status": "accepted-and-registered; Keeg 28/29 clips / 278 drawings",
+  "generatedAt": "2026-10-24",
+  "ballPolicy": "The basketball is a separate runtime object. Pose art must not depict a ball; track it from the incoming lob into Keeg's hand at tick10, carry through tick20, release once at the dunk's tick21 anchor, and leave the post-release flight to simulation.",
+  "identityReferences": [
+    "public/assets/animation/keeg-dunk-power-right.webp",
+    "public/assets/animation/keeg-dunk-scythe-right.webp"
+  ],
+  "actionAnchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "rejectedCandidates": [
+    {
+      "index": 3,
+      "attempt": 1,
+      "generationId": "exec-13feda7f-d2e3-4337-b1db-7cf2ba4e01cd",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-03-attempt-01-rejected-background.png",
+      "sourceSha256": "bcfe3aee5662c41459e115882d58f8110f3f08cb11b7b0115eaf08b221215bab",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-03-prompt.md",
+      "reason": "Rejected before packing: the original canvas contains a visible semi-transparent purple/copper atmospheric halo despite transparent corners; the prompt requires a clean transparent sprite without glow. Preserve the original and regenerate.",
+      "promptSha256": "c16dec7db98da0ff6777289c137980046d13831a23c33779cfc1645cdaa38a88",
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-03-attempt-01-rejected-review.png"
+    },
+    {
+      "index": 3,
+      "attempt": 2,
+      "generationId": "exec-8be26d01-90db-4d24-bc0d-0047db8965c3",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-03-attempt-02.png",
+      "sourceSha256": "da11b1c38c8ea79a1db0ce712d6067ac6a9b815f5ae270efd3449c5a14566e06",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-03-retry-02-prompt.md",
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-03-attempt-02-rejected-review.png",
+      "reason": "Transparency, corners, anatomy and margins pass, but the 90px cell silhouette is too similar to pose02 takeoff. Preserve as rejected and create a more upright/tucked-knee peak reach.",
+      "promptSha256": "562f2bdcd682441168f652d60ead538345fe25522fab2884f0dbad3b728a4666"
+    },
+    {
+      "index": 5,
+      "attempt": 1,
+      "generationId": "exec-4e5092eb-a87d-4808-8c8d-5589ca86beb8",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-05-attempt-01-raw.png",
+      "rawSourceSha256": "17013f436c99d373cc0bfbad1d24c9d1a0110cd83c12a163db9c9152704d491b",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-05-attempt-01.png",
+      "sourceSha256": "37401387d9cfab8511bba576d4286778c4275e6c4d956836634f6e8a7a63a358",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-05-prompt.md",
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-05-attempt-01-rejected-review.png",
+      "reason": "Anatomy, alpha cleanup and 35px side margins pass, but pose05 is visually too similar to pose04 at 128x96: same extended elbow, open-palm reach and leg silhouette. Retry with a visible catch absorption/gather change.",
+      "promptSha256": "5867922f7341383213598b37d066b9c440acbb51b50f3ecb5a6d36efecb605f9"
+    },
+    {
+      "index": 7,
+      "attempt": 1,
+      "generationId": "exec-f706d793-8560-4f61-a66d-7f1d2593fec9",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-07-attempt-01-raw.png",
+      "rawSourceSha256": "4c3c1816bee9a0bc94df535c44530b067c1cd68cda8a8254584bddd62f472890",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-07-attempt-01.png",
+      "sourceSha256": "8a7a41b011e098b09127b7c7278b53a82dc22efef65b966620a698747a21e184",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-07-prompt.md",
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-07-attempt-01-rejected-review.png",
+      "reason": "Rejected despite complete anatomy and clear margins: in the 128x96 cell the raised empty ball hand sits behind/against the hat brim and reads ambiguously, breaking the hand/ball contact landmark. Retry with the hand clearly forward and screen-right of the hat.",
+      "promptSha256": "95bfc4520866a8c8004d7a4af507f451445d3c769a86ae688e7a16e4df1f0e13"
+    },
+    {
+      "index": 9,
+      "attempt": 1,
+      "generationId": "exec-c0862aa3-59bd-4a97-9cc5-c03d77bed4b5",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-01-raw.png",
+      "rawSourceSha256": "31bea1c1859abf55419f2a4fc58e5f7040b45e634cee62d6e6b205a9c229ca80",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-01.png",
+      "sourceSha256": "4ec1a7fd103315ef1ab1da34c09747298f51b267ca64d8621addb227ee269f13",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-09-prompt.md",
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-09-attempt-01-rejected-review.png",
+      "reason": "Rejected after cell comparison because the high reach arm bend, hand position and torso silhouette are too close to pose08 ascent. Preserved; retry as a more compressed leaned-back high windup.",
+      "promptSha256": "d5c37b377f703eb90c246f15798594a11152340366a23ad5baf8fd2a6a3e87bd"
+    },
+    {
+      "index": 9,
+      "attempt": 2,
+      "generationId": "exec-fa2995f9-5e9e-45ae-b81b-644958f70044",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-02-raw.png",
+      "rawSourceSha256": "5df806fc5d1b94246b94af7e7ff24938c48d5c3fad38f8cc26f15052f6298b43",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-02.png",
+      "sourceSha256": "89847f428f374b1bee69518dbffd24855a3ba0bf3dc71ce705606fbe75ca5508",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-09-retry-02-prompt.md",
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-09-attempt-02-rejected-review.png",
+      "reason": "Rejected: although the compact windup silhouette is distinct, the raised empty ball hand is screen-left/behind the hat, opposite the approved screen-right track side and too close to hat ornaments. Preserved and retried with the hand clear of the hat.",
+      "promptSha256": "f6a286b1f1573d54c90f9528432dfbb538a06f68a5ecc589f2b285cb78cde835"
+    }
+  ],
+  "poses": [
+    {
+      "index": 0,
+      "name": "approach-under-lob",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-2717b4df-16b1-4af5-98ea-bf668e7fa3ee",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-00-prompt.md",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-00-attempt-01.png",
+      "sourceSha256": "e5a6a7fecda3acff60f34044899e8df56b17f66b372668c4200471eabb6d84f1",
+      "dimensions": [
+        1330,
+        1182
+      ],
+      "alphaBoundsThreshold16": [
+        250,
+        70,
+        1059,
+        1126
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-00-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        69,
+        90
+      ],
+      "cellMargins": [
+        29,
+        30,
+        5,
+        1
+      ],
+      "review": "White/dark preview reviewed: Keeg's identity and complete natural human anatomy are preserved; hands are empty; pose reads as a grounded screen-right lob approach and differs from the idle/gather stance. Hat, arms, fingers and shoes fit within transparent cell margins. No ball is visible.",
+      "promptSha256": "989d2c16a7c9d923633f0176f36c446f77a0627de635dc523b6caa5d2561daf2"
+    },
+    {
+      "index": 1,
+      "name": "two-foot-anticipation",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-4e70cfcb-c703-445a-af5e-5ae9765f5b3d",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-01-prompt.md",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-01-attempt-01.png",
+      "sourceSha256": "9b4a0d77540fc4437e2722cce97ac2d846773620d7350ac04e84a5c5c97c0e10",
+      "dimensions": [
+        1330,
+        1182
+      ],
+      "alphaBoundsThreshold16": [
+        341,
+        59,
+        1054,
+        1152
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-01-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        59,
+        90
+      ],
+      "cellMargins": [
+        34,
+        35,
+        5,
+        1
+      ],
+      "review": "White/dark preview reviewed: complete Keeg identity/anatomy and full hat/hands/shoes; two-foot anticipation stance is distinct from pose00; hands and cell gutters are clear; no ball appears.",
+      "promptSha256": "ef5b8484e38c4426ed6ce3b504c8758231cfedb1fb440bd0474751a66ef05b58"
+    },
+    {
+      "index": 2,
+      "name": "takeoff-open-receiving-hand",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-29bfe67c-d897-45f3-b18c-d40e88f6e4b4",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-02-prompt.md",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-02-attempt-01.png",
+      "sourceSha256": "8169098d5486198b266e4d787872a0873540e312e986496e7545edc2efb3cd1d",
+      "dimensions": [
+        1330,
+        1182
+      ],
+      "alphaBoundsThreshold16": [
+        266,
+        72,
+        1104,
+        1135
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-02-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        71,
+        90
+      ],
+      "cellMargins": [
+        28,
+        29,
+        5,
+        1
+      ],
+      "review": "White/dark preview reviewed: airborne takeoff differs from grounded anticipation; Keeg has complete human anatomy, full hat and shoes; open receiving hand is distinct and clear of the hat; margins and alpha pass; no ball.",
+      "promptSha256": "785d4cb3838d8e9db0c5657827f54d4c3e2e8856dde56ea31617d336d636e828"
+    },
+    {
+      "index": 3,
+      "name": "upright-tucked-peak-reach",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-f51f32e4-0a2b-41c8-91e6-ed0ff85fa3aa",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-03-retry-03-prompt.md",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-03-attempt-03-raw.png",
+      "rawSourceSha256": "dc3092f9d727ffee17df8b69cd4bec41ac99cdc4fe5f0a4669550f65618aa929",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-03-attempt-03.png",
+      "sourceSha256": "e1ebd2434100ad2bb69ec68b9b8226c0f1c03757903dae02dceb30e5604e2b56",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        140,
+        35,
+        918,
+        1415
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose-03.py",
+        "operation": "Preserve original RGB and alpha >16; zero alpha values <=16. Raw generated source is preserved."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-03-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        51,
+        90
+      ],
+      "cellMargins": [
+        38,
+        39,
+        5,
+        1
+      ],
+      "review": "White/dark cell review: full human Keeg anatomy, identity, hat, fingers and shoes are present. Pose is distinct from neighboring takeoff/reach poses; margins and transparency pass; no ball appears.",
+      "promptSha256": "53aac451dba0771af6903f347f46a61f4e598ce52c863088c1ddd0c41f1d7f2b"
+    },
+    {
+      "index": 4,
+      "name": "extended-lob-reach",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-d3326743-8036-4530-b841-471a4f21d240",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-04-prompt.md",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-04-attempt-01-raw.png",
+      "rawSourceSha256": "1916ed451ff8170b921884059c95c8d5ebf154d7069ad54e666839f1760d26e7",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-04-attempt-01.png",
+      "sourceSha256": "18fa8157f5095ba07d45097850b802e4cf75f5b208baad1562252dfb0d46d870",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        85,
+        77,
+        983,
+        1458
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve original RGB and alpha >16; zero alpha values <=16. Raw generated source is preserved."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-04-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        59,
+        90
+      ],
+      "cellMargins": [
+        34,
+        35,
+        5,
+        1
+      ],
+      "review": "White/dark cell review: full human Keeg anatomy, identity, hat, fingers and shoes are present. Pose is distinct from neighboring takeoff/reach poses; margins and transparency pass; no ball appears.",
+      "promptSha256": "fd6ebded9864c263ef2380f9337c9c5d0d029e88d2a31f53ff7f819f4fb26c77"
+    },
+    {
+      "index": 5,
+      "name": "lob-catch-cupped-hand",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-8714137c-54e0-4acf-b628-803f995821a9",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-05-retry-02-prompt.md",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-05-attempt-02-raw.png",
+      "rawSourceSha256": "93e2b130aabdd2b0aa5247d88e93ef8666eb5ca2d1d8573073000a9eeb84179e",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-05-attempt-02.png",
+      "sourceSha256": "2a5fe4032621c01d06750cc08ec0a3026817819855e74a7614d50175649d02ba",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        129,
+        128,
+        937,
+        1426
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve RGB and alpha >16; zero alpha values <=16. Raw generation retained."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-05-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        56,
+        90
+      ],
+      "cellMargins": [
+        36,
+        36,
+        5,
+        1
+      ],
+      "catchLandmarkCellApprox": [
+        88,
+        27
+      ],
+      "review": "White/dark cell reviewed: unlike pose04, pose05 has a bent receiving elbow, inward cupped empty palm, gathering left arm, and compact knee tuck. Complete human anatomy, full hat and shoes, clear margins, no ball.",
+      "promptSha256": "67be86262cf076fc148c0b70c0bb8094b67f57f1b38c5b117d00f96cb701a63b"
+    },
+    {
+      "index": 6,
+      "name": "post-catch-chest-gather",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-729681d5-bca2-4a40-836f-202063e3f2c2",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-06-prompt.md",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-06-attempt-01-raw.png",
+      "rawSourceSha256": "849851f226b2129927732a80fe05f0995841ce34d75c636782f45b788866cae7",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-06-attempt-01.png",
+      "sourceSha256": "015244684bae784c2f9dfb608508f4559cf86242637dc4f6f0a3f0fbc6744aa3",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        151,
+        64,
+        858,
+        1469
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve RGB and alpha >16; zero alpha values <=16; preserve raw source."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-06-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        45,
+        90
+      ],
+      "cellMargins": [
+        41,
+        42,
+        5,
+        1
+      ],
+      "review": "Light/dark cell review confirms a compact two-hand post-catch gather distinct from the high catch; complete Keeg identity/anatomy, full hat and shoes; alpha/margins pass; no ball.",
+      "promptSha256": "5b60c42837c0e74a0d59500e18ab0e9354ea4f675cf7e766c1bb1030c4ed433a"
+    },
+    {
+      "index": 7,
+      "name": "peak-drive-hand-clear-of-hat",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-4b6b01fe-440b-4c01-be72-37b3b78db23d",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-07-retry-02-prompt.md",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-07-attempt-02-raw.png",
+      "rawSourceSha256": "46d148e5088282a8ab4a04d3c8db487339ed338c3e26ff27e987301e49b6bbe4",
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-07-attempt-02.png",
+      "sourceSha256": "1a8157db1873dd0bab5b90b6f46fb7c73818b74f8cbdf4f9c2a91340c46f813e",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        59,
+        64,
+        967,
+        1474
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve RGB and alpha >16; zero alpha values <=16; raw retained."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-07-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        58,
+        90
+      ],
+      "cellMargins": [
+        35,
+        35,
+        5,
+        1
+      ],
+      "ballHandLandmarkCellApprox": [
+        85,
+        27
+      ],
+      "review": "The raised empty hand is clearly screen-right of and separated from the hat by a transparent gap; silhouette differs from pose06 gather. Complete human anatomy/identity and full shoes; margins pass; no ball.",
+      "promptSha256": "60717da3071c626e97ce42b745713d8cf88cc896b5b9efd1dcd699486a3ffb5a"
+    },
+    {
+      "index": 8,
+      "name": "ascent-cock-transition",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-1d0e611c-f4a4-4499-b60d-a658578aacb6",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-08-prompt.md",
+      "promptVerbatim": true,
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-08-attempt-01.png",
+      "sourceSha256": "f38f00e4af6630c1dab110bed30eec15bbc2819615fcd20ab3e0866b6f65ea7d",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-08-attempt-01-raw.png",
+      "rawSourceSha256": "cc55f98cb62c5208ff29fa073947c241c59d9c91e549eab9759da47779efc934",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        67,
+        91,
+        989,
+        1485
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve RGB and alpha >16; zero alpha values <=16; preserve raw generated PNG."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-08-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        60,
+        90
+      ],
+      "cellMargins": [
+        34,
+        34,
+        5,
+        1
+      ],
+      "review": "Ascent/cock transition distinct from pose07: raised empty hand stays screen-right of the mushroom hat with a clear gap, torso and trailing leg rise. Full adult human anatomy, beard, hat, uniform, fingers and shoes pass on white/dark cells; no ball.",
+      "promptSha256": "5d8a4297f309375824f380758a85df24aa21fe0e8cc03076e66af800b77f3613"
+    },
+    {
+      "index": 9,
+      "name": "high-cock-windup",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-b1dde26f-367a-43ca-bacd-f3369e99091c",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-09-retry-03-prompt.md",
+      "promptVerbatim": true,
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-03.png",
+      "sourceSha256": "d2d387dfb1d3f9c7d8eff931e1d3b43598b5afacd2370e8f66370c893a567f90",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-03-raw.png",
+      "rawSourceSha256": "9679b61433afce1b6986848a030b00bcc240034d122dca2eac254c3be5000fd3",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        148,
+        31,
+        988,
+        1448
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve RGB and alpha >16; zero alpha values <=16; preserve raw generated PNG."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-09-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        53,
+        90
+      ],
+      "cellMargins": [
+        37,
+        38,
+        5,
+        1
+      ],
+      "review": "Compressed bent-arm cock differs from pose08 extended ascent; empty raised hand is screen-right of and separated from the hat. Complete human anatomy and cell margins pass on white/dark; no ball.",
+      "promptSha256": "17ea70e5e5b8e629f47609a92b6fef256ef8b8c110e5292f1eac44047fe47330"
+    },
+    {
+      "index": 10,
+      "name": "sole-release",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-5a8efa8e-0a92-4704-8be3-4db8e3b33844",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-10-prompt.md",
+      "promptVerbatim": true,
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-10-attempt-01.png",
+      "sourceSha256": "2189f2ec9b350171672b36d8bb31f1d1ae4d9cfacc6ab0d872b1fdef2530d744",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-10-attempt-01-raw.png",
+      "rawSourceSha256": "dec07aada76e34a751d5977c65e541d3c33a94f0a6d14d58c25ad3f79480af52",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        66,
+        35,
+        1014,
+        1508
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve RGB and alpha >16; zero alpha values <=16; preserve raw generated PNG."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-10-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        58,
+        90
+      ],
+      "cellMargins": [
+        35,
+        35,
+        5,
+        1
+      ],
+      "review": "Single release with raised open right hand; distinct from pose09 cock and pose11 relaxed-wrist follow-through. Keeg anatomy, hat, hands, shoes, alpha and margins pass; no ball.",
+      "promptSha256": "9a140cdea047393b6fdd45a35dc40c1c6c4f15b2f3d9fd1962bb9f8218d1187e"
+    },
+    {
+      "index": 11,
+      "name": "post-release-follow-through",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-922b9b34-1bf9-4087-b011-541e2f4ca5d1",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-11-prompt.md",
+      "promptVerbatim": true,
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-11-attempt-01.png",
+      "sourceSha256": "2f4c83b3f390030d4e9a0d6503a84de907e3e868bff644f2c89a0acbb8480d13",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-11-attempt-01-raw.png",
+      "rawSourceSha256": "920b1c7a087a9f717852d7c6dcf6dd18bf524d9f0ef18719012e45d6b9f634aa",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        67,
+        108,
+        1013,
+        1502
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve RGB and alpha >16; zero alpha values <=16; preserve raw generated PNG."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-11-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        61,
+        90
+      ],
+      "cellMargins": [
+        33,
+        34,
+        5,
+        1
+      ],
+      "review": "Wrist and fingers relax after release, with arms spreading into a clear follow-through. Distinct from pose10 at cell size; full anatomy/identity, alpha, margins pass; no ball.",
+      "promptSha256": "8ce793150968d1e39cabb099206165ec618c51183d3aee75cc837437bc3af95b"
+    },
+    {
+      "index": 12,
+      "name": "controlled-descent",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-278e9559-a20d-456c-a09c-f313c3fc2453",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-12-prompt.md",
+      "promptVerbatim": true,
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-12-attempt-01.png",
+      "sourceSha256": "702fc874ccedd8f83e3900fc76008ccb1942bcffcce5e0f9fb1ce17efcabac4f",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-12-attempt-01-raw.png",
+      "rawSourceSha256": "4b790b4a19433e356651acf10314aa854df68f5ffdcf9907860441b6ad94179a",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBoundsThreshold16": [
+        71,
+        32,
+        1009,
+        1478
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve RGB and alpha >16; zero alpha values <=16; preserve raw generated PNG."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-12-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        58,
+        90
+      ],
+      "cellMargins": [
+        35,
+        35,
+        5,
+        1
+      ],
+      "review": "Controlled descent lowers the arm and opens the body after follow-through. Full identity/anatomy, transparent margins and shoes pass; no ball.",
+      "promptSha256": "4d28e473be1ef4fe76687df78c393054b37f3325e03c8cc97cd2721b7a704be5"
+    },
+    {
+      "index": 13,
+      "name": "two-foot-landing-compression",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-c64ed971-8ede-4f60-ac74-38adeb115f86",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-13-prompt.md",
+      "promptVerbatim": true,
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-13-attempt-01.png",
+      "sourceSha256": "1b46dc0e91a4f01965c6db826583a4df6b499322ade1a7255bce4b053809a5fa",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-13-attempt-01-raw.png",
+      "rawSourceSha256": "54244dea01368228a21dab3ee4dd9a66af4e4cff0dbdc8e0554fd3dd7c31b24e",
+      "dimensions": [
+        1212,
+        1297
+      ],
+      "alphaBoundsThreshold16": [
+        109,
+        39,
+        1146,
+        1279
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve RGB and alpha >16; zero alpha values <=16; preserve raw generated PNG."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-13-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        75,
+        90
+      ],
+      "cellMargins": [
+        26,
+        27,
+        5,
+        1
+      ],
+      "review": "Two feet plant in a low compressed stance, distinct from controlled descent. Hands are empty; full Keeg anatomy/identity, transparent margins and shoes pass; no ball.",
+      "promptSha256": "fb4d778a1cbba42a905870d161e790071b0975f154d059f43ca4af7edc07adfe"
+    },
+    {
+      "index": 14,
+      "name": "stable-recovery",
+      "status": "accepted-isolated-pose-only",
+      "generationId": "exec-33da20b2-57d3-4e77-aceb-1ffc3e683d25",
+      "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-14-prompt.md",
+      "promptVerbatim": true,
+      "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-14-attempt-01.png",
+      "sourceSha256": "a39f64e1700ca95ba5b1ae6e7586b3df577aa35802aec93b3421f48b2e472694",
+      "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-14-attempt-01-raw.png",
+      "rawSourceSha256": "9ac3652305b8e304301824442254d6675aaee4c8beb0041a19c2f195c498b5b5",
+      "dimensions": [
+        1212,
+        1297
+      ],
+      "alphaBoundsThreshold16": [
+        352,
+        21,
+        906,
+        1267
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-j106-keeg-alley-oop-pose.py",
+        "operation": "Preserve RGB and alpha >16; zero alpha values <=16; preserve raw generated PNG."
+      },
+      "cellReview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-pose-14-cell-review.png",
+      "cellSize": [
+        128,
+        96
+      ],
+      "cellFigure": [
+        40,
+        90
+      ],
+      "cellMargins": [
+        44,
+        44,
+        5,
+        1
+      ],
+      "review": "Stable upright recovery is distinct from the wide landing compression. Full adult human anatomy, identity, hat, hands and shoes pass; margins and transparency pass; no ball.",
+      "promptSha256": "f84fd644c21356d47e56eb54c5947b7b6a9a45807a2d6bfccbbcc3fb0ccc81c8"
+    }
+  ],
+  "nextAction": "Continue roster-order J.107 Keeg alley-oop-reverse with individually generated, reviewed poses; keep its ball on Keeg-specific separate track.",
+  "reviewSummary": {
+    "reviewedAt": "2026-10-24",
+    "status": "approved-for-production; source cells and separate track reviewed in both facings",
+    "poseCount": 15,
+    "independentReviewer": "primary agent",
+    "reviewedOnLightAndDarkBackgrounds": true,
+    "cellSize": [
+      128,
+      96
+    ],
+    "criteria": [
+      "exact K.03 adult human identity and anatomy",
+      "complete hat, hands, fingers and shoes",
+      "distinct sequence at 128x96 cell size",
+      "transparent alpha and at least 8px horizontal cell margins",
+      "no ball painted in athlete sprites",
+      "separate Keeg-specific ball aligns at catch tick10 through tick20",
+      "simulation resolves the sole tick21 release at rim in both facings"
+    ],
+    "sequencePreview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-poses00-14-contact.png",
+    "ballTrackPreview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-ball-track-review.png",
+    "nativeRendererReport": "tools/generate-art/previews/j106-keeg-alley-oop-power/native-render-report.json",
+    "nativeRendererScreens": [
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-frame5.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-pre-release-tick20.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-frame10.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-frame5.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-pre-release-tick20.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-frame10.png"
+    ]
+  },
+  "plannedBallTrack": {
+    "status": "accepted-keeg-specific-separate-track; native catch/tick20/release reviewed",
+    "height": [
+      1.407,
+      1.752,
+      2.412,
+      2.441,
+      2.498,
+      2.039,
+      1.522,
+      2.096,
+      2.297,
+      2.125,
+      2.125,
+      2.326,
+      1.637,
+      1.034,
+      1.005
+    ],
+    "forward": [
+      11.695,
+      9.867,
+      7.309,
+      9.502,
+      9.867,
+      9.867,
+      2.924,
+      7.675,
+      8.771,
+      5.482,
+      5.482,
+      9.867,
+      6.578,
+      0.365,
+      0.0
+    ],
+    "releasePoseIndex": 10,
+    "releaseTick": 21,
+    "cellProjection": "Diagnostic overlay: x=64+forward*2.2/0.804; y=95-height*28/0.804. Pose05 at tick10 aligns the incoming lob to the open right hand; pose06 gathers at chest; poses07–09 follow the rising and cocked hand. Pose09 remains visible through ticks19–20, so frame10 repeats pose09 ball coordinates to maintain contact. Pose10 at tick21 releases to the rim in simulation; no carried-ball marker appears at or after pose10.",
+    "overlayPreviewPath": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-ball-track-review.png",
+    "nativeRendererStatus": "passed both facings; catch/contact reviewed at tick10, held hand contact at tick20, and tick21 resolves to the rim with no ball owner",
+    "reviewedBallCellCentersByPose00To10": [
+      [
+        96,
+        46
+      ],
+      [
+        91,
+        34
+      ],
+      [
+        84,
+        11
+      ],
+      [
+        90,
+        10
+      ],
+      [
+        91,
+        8
+      ],
+      [
+        91,
+        24
+      ],
+      [
+        72,
+        42
+      ],
+      [
+        85,
+        22
+      ],
+      [
+        88,
+        15
+      ],
+      [
+        79,
+        21
+      ],
+      [
+        79,
+        21
+      ]
+    ],
+    "nativeRendererReport": "tools/generate-art/previews/j106-keeg-alley-oop-power/native-render-report.json",
+    "nativeRendererReportSha256": "56e7c48dcc6904d8451bd31a6354fc79bfe78cdd85e448cf1e21b32d442dea56",
+    "nativeRendererScreens": [
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-frame5.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-pre-release-tick20.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-frame10.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-frame5.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-pre-release-tick20.png",
+      "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-frame10.png"
+    ],
+    "overlaySha256": "98ce7e59d6290b30dd16f560570432d3622d14d392aabc898448b7614d82be9a"
+  },
+  "atlas": {
+    "path": "public/assets/animation/keeg-alley-oop-power-right.webp",
+    "sha256": "c2c671181c88fcb2cf0e49d2664a315647c8d841cc4c82c8aac41e8778858ab3",
+    "dimensions": [
+      640,
+      288
+    ],
+    "sourcePng": "tools/generate-art/sources/j106-keeg-alley-oop-power-atlas.png",
+    "sourcePngSha256": "acc1e2eb0527eb32591adca8dc55f97190f604f57312d8dc36b6e3b1e023a5ba"
+  }
+}

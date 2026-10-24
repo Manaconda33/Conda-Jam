@@ -40400,49 +40400,2177 @@
               "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "dunk-scythe": {
+            "src": "./public/assets/animation/keeg-dunk-scythe-right.webp",
+            "columns": 5,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c7e70e34f2c7ec8d6743f00d5c4c7565a025203fa68583b9c7bdc2734b7c3642"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "14900afadbbf7e3e0fd84d321fc8d726363fc8af4e192123f5bc17bc8dfdacd0"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "51dd838c372453e9d576caf3bf5b8b1276ad2606624fb5b844ebf6fd591d6642"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f3505e93fbad1fa5530dcdc51ab775c2d8d58f18534344b5e8b3057e898d98cc"
+              },
+              {
+                "x": 512,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "bf5d2eeea58dbbb311ef97d57ad609641c94855b7bff3e551c1dd924be0a9a2b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "83c41f4a20157c64d44afd864c5fe70d520d9b297b47be66febaf9a23742e04c"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "eb2924e59c2e35564564b152e8d3caa248f5f0adfec752c0558682573c7cca83"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "8fe26bf3a86ca27ca133592fd9c025eac12ff4782abc93a1c21572316bd70ec3"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "9f6b78c2cb3a6c5857ef61d0c87d0a35bd8ec9aaeb16e3f96d916eabe816ea57"
+              },
+              {
+                "x": 512,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "71f25a1032dbffbbb4230c5b7180a225b859f954e66c0ae813f6be8cb6ffda56"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "85427ec99fda65a594f9e5fc2ddfe96a03fa9747a7f06a0515fd0cb19a49693e"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d136680c9d6772f1950789709bc523dc7f99ef70bc021f915a00eaf9a68b8695"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "1ced728f01578edaa8b6ed92bfebed5fcc59580711fa04e06a422079a7f76353"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "871b0f868774150ecb9ad31d4c3d8b4458f47eb91a15acd713b99c51758cca0d"
+              },
+              {
+                "x": 512,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "5a7b192fa21974ed704dc7a747252a2e82d8b64da717d7b3163a130d7be0e21b"
+              }
+            ],
+            "sha256": "60a7b91f8f5d004530ef74bffaa14d9e69921984b51deb141d5bbf3c4bb21df6",
+            "source": "imagegen",
+            "provenance": {
+              "status": "accepted source; native-render ball-track review passed",
+              "promptAndSourceManifest": "tools/generate-art/j105-keeg-dunk-scythe-provenance.json",
+              "assemblyScript": "tools/generate-art/assemble-keeg-dunk-scythe.py",
+              "cellSize": [
+                128,
+                96
+              ],
+              "figureHeight": 90,
+              "sequenceOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "operation": "Tight alpha crop at threshold16; uniformly nearest-neighbor resize to 90px figure height; center in transparent 128x96 cell with baseline y95; pack row-major. No pose was drawn, duplicated, mirrored or interpolated.",
+              "sourceRecords": [
+                {
+                  "poseIndex": 0,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-00-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    261,
+                    93,
+                    984,
+                    1145
+                  ],
+                  "figureSize": [
+                    62,
+                    90
+                  ],
+                  "cell": [
+                    0,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 1,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-01-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    312,
+                    33,
+                    934,
+                    1166
+                  ],
+                  "figureSize": [
+                    49,
+                    90
+                  ],
+                  "cell": [
+                    128,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 2,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-02-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    284,
+                    35,
+                    1085,
+                    1119
+                  ],
+                  "figureSize": [
+                    67,
+                    90
+                  ],
+                  "cell": [
+                    256,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 3,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-03-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    279,
+                    11,
+                    1113,
+                    1136
+                  ],
+                  "figureSize": [
+                    67,
+                    90
+                  ],
+                  "cell": [
+                    384,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 4,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-04-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    232,
+                    12,
+                    1163,
+                    1132
+                  ],
+                  "figureSize": [
+                    75,
+                    90
+                  ],
+                  "cell": [
+                    512,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 5,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-05-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    311,
+                    16,
+                    1344,
+                    1024
+                  ],
+                  "figureSize": [
+                    92,
+                    90
+                  ],
+                  "cell": [
+                    0,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 6,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-06-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    347,
+                    15,
+                    1125,
+                    1113
+                  ],
+                  "figureSize": [
+                    64,
+                    90
+                  ],
+                  "cell": [
+                    128,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 7,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-07-attempt-02.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    289,
+                    49,
+                    998,
+                    1105
+                  ],
+                  "figureSize": [
+                    60,
+                    90
+                  ],
+                  "cell": [
+                    256,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 8,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-08-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    287,
+                    46,
+                    1067,
+                    1170
+                  ],
+                  "figureSize": [
+                    62,
+                    90
+                  ],
+                  "cell": [
+                    384,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 9,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-09-attempt-03.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    177,
+                    81,
+                    1043,
+                    1218
+                  ],
+                  "figureSize": [
+                    69,
+                    90
+                  ],
+                  "cell": [
+                    512,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 10,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-10-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    133,
+                    79,
+                    1196,
+                    1231
+                  ],
+                  "figureSize": [
+                    83,
+                    90
+                  ],
+                  "cell": [
+                    0,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 11,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-11-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    99,
+                    70,
+                    1189,
+                    1228
+                  ],
+                  "figureSize": [
+                    85,
+                    90
+                  ],
+                  "cell": [
+                    128,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 12,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-12-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    174,
+                    47,
+                    1122,
+                    1218
+                  ],
+                  "figureSize": [
+                    73,
+                    90
+                  ],
+                  "cell": [
+                    256,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 13,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-13-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    175,
+                    53,
+                    1228,
+                    1162
+                  ],
+                  "figureSize": [
+                    85,
+                    90
+                  ],
+                  "cell": [
+                    384,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 14,
+                  "source": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-14-attempt-01.png",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    279,
+                    45,
+                    1003,
+                    1260
+                  ],
+                  "figureSize": [
+                    54,
+                    90
+                  ],
+                  "cell": [
+                    512,
+                    192,
+                    128,
+                    96
+                  ]
+                }
+              ],
+              "cleanup": "No source pixels altered apart from tight alpha cropping and nearest-neighbor uniform resize. Cell backgrounds and gutters remain transparent.",
+              "ballTrack": "The Keeg-specific separate track is in the provenance JSON and src/core/animation.js. Native previews confirm contact through tick20 and rim resolution at pose10/tick21 in both facings.",
+              "acceptedAt": "2026-10-24",
+              "sourcePromptStatus": "verbatim per isolated-pose prompt files",
+              "nativePreview": "artifacts/native-render-preview/keeg",
+              "sequenceReview": "artifacts/native-render-preview/j105-keeg-dunk-scythe-full-sequence-review.png",
+              "ballTrackPreview": "artifacts/native-render-preview/j105-keeg-dunk-scythe-ball-track-candidate-overlay.png",
+              "nativePreReleaseChecks": [
+                "artifacts/native-render-preview/keeg/right-dunk-scythe-frame0.png",
+                "artifacts/native-render-preview/keeg/right-dunk-scythe-frame3.png",
+                "artifacts/native-render-preview/keeg/right-dunk-scythe-frame5.png",
+                "artifacts/native-render-preview/keeg/right-dunk-scythe-frame7.png",
+                "artifacts/native-render-preview/keeg/right-dunk-scythe-frame8.png",
+                "artifacts/native-render-preview/keeg/right-dunk-scythe-frame9.png",
+                "artifacts/native-render-preview/keeg/right-dunk-scythe-pre-release-tick20.png",
+                "artifacts/native-render-preview/keeg/left-dunk-scythe-pre-release-tick20.png",
+                "artifacts/native-render-preview/keeg/right-dunk-scythe-frame10.png",
+                "artifacts/native-render-preview/keeg/left-dunk-scythe-frame10.png"
+              ],
+              "ballRelease": "Simulation releases the separate ball to the rim at pose10/tick21; pre-release track holds the pose09 cocked hand through tick20.",
+              "prompt": "Fifteen exact, independently generated pose prompts are preserved in tools/generate-art/j105-keeg-dunk-scythe-pose-00-prompt.md through pose-14-prompt.md (poses07 and09 retain attempt-specific prompt filenames); this atlas is a deterministic assembly of those isolated sources.",
+              "generatedAt": "2026-10-24",
+              "promptVerbatim": true
+            },
+            "reviewed": true
+          },
+          "alley-oop-power": {
+            "src": "./public/assets/animation/keeg-alley-oop-power-right.webp",
+            "columns": 5,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "4df8fb201f98ed8e4a447876773fbf15e6d7d289dff56bcb3e31e913ac4b9032"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "dfa6b1ab57dfe3345e9941ffc3b1cd190083ac02e1a1912700cbe6f64313acf4"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "e4175689ff98dbd2570f503b33dc175629328c0b3e3cf6afebabc1f64694a262"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2594ea0bc5997767f1530573bbc7df4b348c570992992231f4076cd56d7b9835"
+              },
+              {
+                "x": 512,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c0c83919b8d4a6fa74e443b63de51add9ef4c7d40bcdf0210cefb7ccaa0c9bb4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "1411cfa902dcc903c2c6341dd0fd2741640c718ce6ed6cf4f2175382f1376526"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6a48caecc9fd41258f8f69f3f3e5b88c553741da02c082a80596ec064bdc56ce"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "946146828af9d9e9dde703b1d1679f2459e256384e7f3d36deeb2709f2b0cdc6"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5a3a99d8df6bfac081b88aaa37ee4ea2ef78b9cad183d9f42008ca6f9bda75a3"
+              },
+              {
+                "x": 512,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "199ad76564ed3e09a7034582f0124444d58b541d7ee3c8f539ac043dd5f8009a"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "6b07e3daa93053c05659063f254e40a6d03ec0e8bce3d7d0a98d47e59a0a0ad5"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "c3ee9e4df4a2b4898bdc64ca79fff593a0d228c41f494a60f7205a55b7e25c07"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "5642e9acadbd733a1713a0ff34a045a533feb6b89aed65efff0d500b8042331d"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "db9bd8d296ed8da5134d0eadedd8f8118cb0338e81fbebadd92f52b6c53d1252"
+              },
+              {
+                "x": 512,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "bce859f31c25cd681a9936b966ff9934e69543993b30cb0aab59af45d8b028ef"
+              }
+            ],
+            "sha256": "c2c671181c88fcb2cf0e49d2664a315647c8d841cc4c82c8aac41e8778858ab3",
+            "source": "imagegen",
+            "provenance": {
+              "status": "accepted source; native-render ball-track review passed",
+              "promptAndSourceManifest": "tools/generate-art/j106-keeg-alley-oop-power-provenance.json",
+              "assemblyScript": "tools/generate-art/assemble-keeg-alley-oop-power.py",
+              "cellSize": [
+                128,
+                96
+              ],
+              "figureHeight": 90,
+              "sequenceOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "operation": "Tight alpha crop at threshold16; uniform nearest-neighbor resize to 90px figure height; center in transparent 128x96 cell with baseline y95; pack row-major. No pose was drawn, duplicated, mirrored, or interpolated.",
+              "sourceRecords": [
+                {
+                  "poseIndex": 0,
+                  "generationId": "exec-2717b4df-16b1-4af5-98ea-bf668e7fa3ee",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-00-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-00-attempt-01.png",
+                  "sourceSha256": "e5a6a7fecda3acff60f34044899e8df56b17f66b372668c4200471eabb6d84f1",
+                  "rawSource": null,
+                  "rawSourceSha256": null,
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    250,
+                    70,
+                    1059,
+                    1126
+                  ],
+                  "figureSize": [
+                    69,
+                    90
+                  ],
+                  "cellMargins": [
+                    29,
+                    30,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "338b8c97079f5fd19c37709e2802df7bbef0af96e7db9eaac9f657c016d477bd",
+                  "cell": [
+                    0,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 1,
+                  "generationId": "exec-4e70cfcb-c703-445a-af5e-5ae9765f5b3d",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-01-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-01-attempt-01.png",
+                  "sourceSha256": "9b4a0d77540fc4437e2722cce97ac2d846773620d7350ac04e84a5c5c97c0e10",
+                  "rawSource": null,
+                  "rawSourceSha256": null,
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    341,
+                    59,
+                    1054,
+                    1152
+                  ],
+                  "figureSize": [
+                    59,
+                    90
+                  ],
+                  "cellMargins": [
+                    34,
+                    35,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "2c43d71c5da2b86fb93ea4aaa1cd6945862f2d252da1253206ffa0d9ca4f2401",
+                  "cell": [
+                    128,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 2,
+                  "generationId": "exec-29bfe67c-d897-45f3-b18c-d40e88f6e4b4",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-02-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-02-attempt-01.png",
+                  "sourceSha256": "8169098d5486198b266e4d787872a0873540e312e986496e7545edc2efb3cd1d",
+                  "rawSource": null,
+                  "rawSourceSha256": null,
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    266,
+                    72,
+                    1104,
+                    1135
+                  ],
+                  "figureSize": [
+                    71,
+                    90
+                  ],
+                  "cellMargins": [
+                    28,
+                    29,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "3ac89b6261f2cf3f9316eb6834d5829d1bfd7d2af86515d2ecfcbe072e27eaa9",
+                  "cell": [
+                    256,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 3,
+                  "generationId": "exec-f51f32e4-0a2b-41c8-91e6-ed0ff85fa3aa",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-03-retry-03-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-03-attempt-03.png",
+                  "sourceSha256": "e1ebd2434100ad2bb69ec68b9b8226c0f1c03757903dae02dceb30e5604e2b56",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-03-attempt-03-raw.png",
+                  "rawSourceSha256": "dc3092f9d727ffee17df8b69cd4bec41ac99cdc4fe5f0a4669550f65618aa929",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    140,
+                    35,
+                    918,
+                    1415
+                  ],
+                  "figureSize": [
+                    51,
+                    90
+                  ],
+                  "cellMargins": [
+                    38,
+                    39,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "1a91d126bdd89e73cc6d10d75f52c6125d0c5c8e925b7301675d41a868361cd4",
+                  "cell": [
+                    384,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 4,
+                  "generationId": "exec-d3326743-8036-4530-b841-471a4f21d240",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-04-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-04-attempt-01.png",
+                  "sourceSha256": "18fa8157f5095ba07d45097850b802e4cf75f5b208baad1562252dfb0d46d870",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-04-attempt-01-raw.png",
+                  "rawSourceSha256": "1916ed451ff8170b921884059c95c8d5ebf154d7069ad54e666839f1760d26e7",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    85,
+                    77,
+                    983,
+                    1458
+                  ],
+                  "figureSize": [
+                    59,
+                    90
+                  ],
+                  "cellMargins": [
+                    34,
+                    35,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "8d48578bd9b0cb0f0f84568f99f180f31d1c5c9b163f63f3d1aa66f6916d7c0e",
+                  "cell": [
+                    512,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 5,
+                  "generationId": "exec-8714137c-54e0-4acf-b628-803f995821a9",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-05-retry-02-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-05-attempt-02.png",
+                  "sourceSha256": "2a5fe4032621c01d06750cc08ec0a3026817819855e74a7614d50175649d02ba",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-05-attempt-02-raw.png",
+                  "rawSourceSha256": "93e2b130aabdd2b0aa5247d88e93ef8666eb5ca2d1d8573073000a9eeb84179e",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    129,
+                    128,
+                    937,
+                    1426
+                  ],
+                  "figureSize": [
+                    56,
+                    90
+                  ],
+                  "cellMargins": [
+                    36,
+                    36,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "5d1683c16d0d353b18e1e56955a56acc164a77cc912274905ef036943d3f4736",
+                  "cell": [
+                    0,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 6,
+                  "generationId": "exec-729681d5-bca2-4a40-836f-202063e3f2c2",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-06-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-06-attempt-01.png",
+                  "sourceSha256": "015244684bae784c2f9dfb608508f4559cf86242637dc4f6f0a3f0fbc6744aa3",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-06-attempt-01-raw.png",
+                  "rawSourceSha256": "849851f226b2129927732a80fe05f0995841ce34d75c636782f45b788866cae7",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    151,
+                    64,
+                    858,
+                    1469
+                  ],
+                  "figureSize": [
+                    45,
+                    90
+                  ],
+                  "cellMargins": [
+                    41,
+                    42,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "8045b8e4f2b0c2e64bde700528b4b6f26d0fbacc98315de3106e3382544b0fac",
+                  "cell": [
+                    128,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 7,
+                  "generationId": "exec-4b6b01fe-440b-4c01-be72-37b3b78db23d",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-07-retry-02-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-07-attempt-02.png",
+                  "sourceSha256": "1a8157db1873dd0bab5b90b6f46fb7c73818b74f8cbdf4f9c2a91340c46f813e",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-07-attempt-02-raw.png",
+                  "rawSourceSha256": "46d148e5088282a8ab4a04d3c8db487339ed338c3e26ff27e987301e49b6bbe4",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    59,
+                    64,
+                    967,
+                    1474
+                  ],
+                  "figureSize": [
+                    58,
+                    90
+                  ],
+                  "cellMargins": [
+                    35,
+                    35,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "115fb2c4ae070f65d1dbb009eaa035dc1dc609dc06ad3df812952f37485be51a",
+                  "cell": [
+                    256,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 8,
+                  "generationId": "exec-1d0e611c-f4a4-4499-b60d-a658578aacb6",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-08-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-08-attempt-01.png",
+                  "sourceSha256": "f38f00e4af6630c1dab110bed30eec15bbc2819615fcd20ab3e0866b6f65ea7d",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-08-attempt-01-raw.png",
+                  "rawSourceSha256": "cc55f98cb62c5208ff29fa073947c241c59d9c91e549eab9759da47779efc934",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    67,
+                    91,
+                    989,
+                    1485
+                  ],
+                  "figureSize": [
+                    60,
+                    90
+                  ],
+                  "cellMargins": [
+                    34,
+                    34,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "89b0649bc68df71f12ab4663eb752dd34faaef258975071ca6d04bf2c0fb2d5b",
+                  "cell": [
+                    384,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 9,
+                  "generationId": "exec-b1dde26f-367a-43ca-bacd-f3369e99091c",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-09-retry-03-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-03.png",
+                  "sourceSha256": "d2d387dfb1d3f9c7d8eff931e1d3b43598b5afacd2370e8f66370c893a567f90",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-03-raw.png",
+                  "rawSourceSha256": "9679b61433afce1b6986848a030b00bcc240034d122dca2eac254c3be5000fd3",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    148,
+                    31,
+                    988,
+                    1448
+                  ],
+                  "figureSize": [
+                    53,
+                    90
+                  ],
+                  "cellMargins": [
+                    37,
+                    38,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "ce99bdc983032f4057449f1208bf4d14b764b66966987c891e16e1fffb9d183e",
+                  "cell": [
+                    512,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 10,
+                  "generationId": "exec-5a8efa8e-0a92-4704-8be3-4db8e3b33844",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-10-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-10-attempt-01.png",
+                  "sourceSha256": "2189f2ec9b350171672b36d8bb31f1d1ae4d9cfacc6ab0d872b1fdef2530d744",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-10-attempt-01-raw.png",
+                  "rawSourceSha256": "dec07aada76e34a751d5977c65e541d3c33a94f0a6d14d58c25ad3f79480af52",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    66,
+                    35,
+                    1014,
+                    1508
+                  ],
+                  "figureSize": [
+                    58,
+                    90
+                  ],
+                  "cellMargins": [
+                    35,
+                    35,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "0d78dc25fa1aca68aaa311e3b7a10198bf5fe04cc9af6dd3e7f6794c8c1f3ca5",
+                  "cell": [
+                    0,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 11,
+                  "generationId": "exec-922b9b34-1bf9-4087-b011-541e2f4ca5d1",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-11-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-11-attempt-01.png",
+                  "sourceSha256": "2f4c83b3f390030d4e9a0d6503a84de907e3e868bff644f2c89a0acbb8480d13",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-11-attempt-01-raw.png",
+                  "rawSourceSha256": "920b1c7a087a9f717852d7c6dcf6dd18bf524d9f0ef18719012e45d6b9f634aa",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    67,
+                    108,
+                    1013,
+                    1502
+                  ],
+                  "figureSize": [
+                    61,
+                    90
+                  ],
+                  "cellMargins": [
+                    33,
+                    34,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "eeb28de4a6ee3de40df6c04d05f6051238d649170ecffc28aa37143b3f826567",
+                  "cell": [
+                    128,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 12,
+                  "generationId": "exec-278e9559-a20d-456c-a09c-f313c3fc2453",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-12-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-12-attempt-01.png",
+                  "sourceSha256": "702fc874ccedd8f83e3900fc76008ccb1942bcffcce5e0f9fb1ce17efcabac4f",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-12-attempt-01-raw.png",
+                  "rawSourceSha256": "4b790b4a19433e356651acf10314aa854df68f5ffdcf9907860441b6ad94179a",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    71,
+                    32,
+                    1009,
+                    1478
+                  ],
+                  "figureSize": [
+                    58,
+                    90
+                  ],
+                  "cellMargins": [
+                    35,
+                    35,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "110566abdff8d51ecffe1eb8f8915f40e4c5f1d9d6c0661041ceabaef5b4eaab",
+                  "cell": [
+                    256,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 13,
+                  "generationId": "exec-c64ed971-8ede-4f60-ac74-38adeb115f86",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-13-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-13-attempt-01.png",
+                  "sourceSha256": "1b46dc0e91a4f01965c6db826583a4df6b499322ade1a7255bce4b053809a5fa",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-13-attempt-01-raw.png",
+                  "rawSourceSha256": "54244dea01368228a21dab3ee4dd9a66af4e4cff0dbdc8e0554fd3dd7c31b24e",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    109,
+                    39,
+                    1146,
+                    1279
+                  ],
+                  "figureSize": [
+                    75,
+                    90
+                  ],
+                  "cellMargins": [
+                    26,
+                    27,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "0a8042d1758301bd9c2746ecd20b72ce7737467093fd42f64e56ce02e8c1340c",
+                  "cell": [
+                    384,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 14,
+                  "generationId": "exec-33da20b2-57d3-4e77-aceb-1ffc3e683d25",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-14-prompt.md",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-14-attempt-01.png",
+                  "sourceSha256": "a39f64e1700ca95ba5b1ae6e7586b3df577aa35802aec93b3421f48b2e472694",
+                  "rawSource": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-14-attempt-01-raw.png",
+                  "rawSourceSha256": "9ac3652305b8e304301824442254d6675aaee4c8beb0041a19c2f195c498b5b5",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    352,
+                    21,
+                    906,
+                    1267
+                  ],
+                  "figureSize": [
+                    40,
+                    90
+                  ],
+                  "cellMargins": [
+                    44,
+                    44,
+                    5,
+                    1
+                  ],
+                  "packedCellSha256": "75c0d4aac091c1cf2839b4aa4e48d4e38bfde968b89f2ff0f8855a238ba93e4f",
+                  "cell": [
+                    512,
+                    192,
+                    128,
+                    96
+                  ]
+                }
+              ],
+              "cleanup": "Raw generator PNGs remain preserved. Accepted cleaned images preserve RGB and clear alpha<=16. Atlas adds no background pixels.",
+              "ballTrack": "Keeg-specific separate track in provenance JSON and src/core/animation.js; native previews confirm catch at tick10, contact through tick20, and simulation release to rim at tick21 in both facings.",
+              "reviewSummary": "All 15 unique alpha-cropped pose sources were reviewed on white/dark cell previews and full sequence. Complete Keeg anatomy/identity, margins, pose separation and no-ball artwork pass.",
+              "nativeRendererReport": "tools/generate-art/previews/j106-keeg-alley-oop-power/native-render-report.json",
+              "nativeRendererScreens": [
+                "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-frame5.png",
+                "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-pre-release-tick20.png",
+                "tools/generate-art/previews/j106-keeg-alley-oop-power/right-alley-oop-power-frame10.png",
+                "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-frame5.png",
+                "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-pre-release-tick20.png",
+                "tools/generate-art/previews/j106-keeg-alley-oop-power/left-alley-oop-power-frame10.png"
+              ],
+              "ballTrackPreview": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-ball-track-review.png",
+              "ballTrackSha256": "98ce7e59d6290b30dd16f560570432d3622d14d392aabc898448b7614d82be9a",
+              "sourceImage": "tools/generate-art/sources/j106-keeg-alley-oop-power-atlas.png",
+              "sourceSha256": "acc1e2eb0527eb32591adca8dc55f97190f604f57312d8dc36b6e3b1e023a5ba",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim per isolated pose",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-24",
+                "summary": "All 15 unique source poses reviewed on light/dark 128x96 cells; K.03 Keeg identity/anatomy, margins, separation and no-ball art pass. Separate ball track contacts at tick10 through tick20 and resolves at tick21 in the native renderer in both facings."
+              },
+              "actionAnchors": {
+                "takeoff": 2,
+                "grab": 5,
+                "peak": 7,
+                "release": 10,
+                "finish": 11,
+                "land": 14
+              },
+              "runtimeBallTrack": {
+                "heightByPose": [
+                  1.407,
+                  1.752,
+                  2.412,
+                  2.441,
+                  2.498,
+                  2.039,
+                  1.522,
+                  2.096,
+                  2.297,
+                  2.125,
+                  2.125,
+                  2.326,
+                  1.637,
+                  1.034,
+                  1.005
+                ],
+                "forwardByPose": [
+                  11.695,
+                  9.867,
+                  7.309,
+                  9.502,
+                  9.867,
+                  9.867,
+                  2.924,
+                  7.675,
+                  8.771,
+                  5.482,
+                  5.482,
+                  9.867,
+                  6.578,
+                  0.365,
+                  0
+                ],
+                "releasePoseIndex": 10,
+                "releaseTick": 21,
+                "heldThroughTick": 20,
+                "nativeRendererReport": "tools/generate-art/previews/j106-keeg-alley-oop-power/native-render-report.json",
+                "overlayPreviewPath": "tools/generate-art/previews/j106-keeg-alley-oop-power/j106-keeg-alley-oop-power-ball-track-review.png"
+              },
+              "rejectedAttempts": [
+                {
+                  "poseIndex": 3,
+                  "attempt": 1,
+                  "generationId": "exec-13feda7f-d2e3-4337-b1db-7cf2ba4e01cd",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-03-attempt-01-rejected-background.png",
+                  "sourceSha256": "bcfe3aee5662c41459e115882d58f8110f3f08cb11b7b0115eaf08b221215bab",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-03-prompt.md",
+                  "reason": "Rejected before packing: the original canvas contains a visible semi-transparent purple/copper atmospheric halo despite transparent corners; the prompt requires a clean transparent sprite without glow. Preserve the original and regenerate."
+                },
+                {
+                  "poseIndex": 3,
+                  "attempt": 2,
+                  "generationId": "exec-8be26d01-90db-4d24-bc0d-0047db8965c3",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-03-attempt-02.png",
+                  "sourceSha256": "da11b1c38c8ea79a1db0ce712d6067ac6a9b815f5ae270efd3449c5a14566e06",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-03-retry-02-prompt.md",
+                  "reason": "Transparency, corners, anatomy and margins pass, but the 90px cell silhouette is too similar to pose02 takeoff. Preserve as rejected and create a more upright/tucked-knee peak reach."
+                },
+                {
+                  "poseIndex": 5,
+                  "attempt": 1,
+                  "generationId": "exec-4e5092eb-a87d-4808-8c8d-5589ca86beb8",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-05-attempt-01.png",
+                  "sourceSha256": "37401387d9cfab8511bba576d4286778c4275e6c4d956836634f6e8a7a63a358",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-05-prompt.md",
+                  "reason": "Anatomy, alpha cleanup and 35px side margins pass, but pose05 is visually too similar to pose04 at 128x96: same extended elbow, open-palm reach and leg silhouette. Retry with a visible catch absorption/gather change."
+                },
+                {
+                  "poseIndex": 7,
+                  "attempt": 1,
+                  "generationId": "exec-f706d793-8560-4f61-a66d-7f1d2593fec9",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-07-attempt-01.png",
+                  "sourceSha256": "8a7a41b011e098b09127b7c7278b53a82dc22efef65b966620a698747a21e184",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-07-prompt.md",
+                  "reason": "Rejected despite complete anatomy and clear margins: in the 128x96 cell the raised empty ball hand sits behind/against the hat brim and reads ambiguously, breaking the hand/ball contact landmark. Retry with the hand clearly forward and screen-right of the hat."
+                },
+                {
+                  "poseIndex": 9,
+                  "attempt": 1,
+                  "generationId": "exec-c0862aa3-59bd-4a97-9cc5-c03d77bed4b5",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-01.png",
+                  "sourceSha256": "4ec1a7fd103315ef1ab1da34c09747298f51b267ca64d8621addb227ee269f13",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-09-prompt.md",
+                  "reason": "Rejected after cell comparison because the high reach arm bend, hand position and torso silhouette are too close to pose08 ascent. Preserved; retry as a more compressed leaned-back high windup."
+                },
+                {
+                  "poseIndex": 9,
+                  "attempt": 2,
+                  "generationId": "exec-fa2995f9-5e9e-45ae-b81b-644958f70044",
+                  "source": "tools/generate-art/sources/j106-keeg-alley-oop-power-pose-09-attempt-02.png",
+                  "sourceSha256": "89847f428f374b1bee69518dbffd24855a3ba0bf3dc71ce705606fbe75ca5508",
+                  "promptFile": "tools/generate-art/j106-keeg-alley-oop-power-pose-09-retry-02-prompt.md",
+                  "reason": "Rejected: although the compact windup silhouette is distinct, the raised empty ball hand is screen-left/behind the hat, opposite the approved screen-right track side and too close to hat ornaments. Preserved and retried with the hand clear of the hat."
+                }
+              ],
+              "prompt": "POSE 00\nCreate one isolated full-body transparent RGBA pixel-art athlete for JAMVERSE '96: Keeg, pose00 of a 15-pose alley-oop power-dunk sequence. Use the first reference to match Keeg's exact visual identity and sprite scale, and the second as the pixel-art/material style reference. Keeg is an adult athletic human man with black hair and a neat short black beard, an exceptionally tall ornate purple witch hat with silver trim and small mushroom ornaments, layered lavender/purple/silver Moonmorel Hex basketball uniform, belt and matching purple shoes. Keep natural human anatomy, two arms, two legs and both shoes visible; do not humanize or alter his canon. Pose00 is the grounded approach beneath an incoming lob: face screen-right, lean forward into a small controlled step, eyes looking upward toward the separate incoming ball, right forearm beginning to lift in anticipation, left arm balancing naturally, both feet still on the court plane. This is an approach/tracking pose, not the catch or jump; it must read clearly differently from the upright gather reference. Show Keeg's hands empty. Keep his entire tall hat, fingers, elbows and shoes comfortably inside the transparent canvas with clear transparent clearance on every edge. The basketball and hoop are separate game objects and must never appear in the sprite. No ball, sphere, orange circle, prop, blade, scythe, staff, extra limb, duplicate body, monster anatomy, cape, robe, cast shadow, floor, court, background, grid, cell marks, text, contact sheet, multiple poses or second figure. One crisp original arcade pixel-art character on a true transparent RGBA background.\n\nPOSE 01\nCreate one isolated full-body transparent RGBA pixel-art athlete for JAMVERSE '96: Keeg, pose01 of a 15-pose alley-oop power-dunk sequence. Match the exact Keeg identity, body proportions and arcade pixel style from the references. Keeg is an adult athletic human man with black hair and a neat short black beard; preserve his exceptionally tall ornate purple witch hat with silver trim and mushroom ornaments, layered lavender/purple/silver Moonmorel Hex uniform, belt and matching shoes. Pose01 continues pose00's screen-right approach but changes the silhouette clearly: his stride checks into a two-foot plant, knees flex, torso becomes more upright, and both open empty hands rise in front of his chest as he tracks the lob overhead. His eyes look above and slightly forward. This is anticipation before the jump, not the one-hand catch and not the airborne pose. Show natural human anatomy, two arms, two legs and both shoes. Keep the entire hat, fingers, elbows and shoes well inside the true transparent canvas with clear margin on every side. Do not draw a ball; the game basketball is a separate runtime object and will reach Keeg's open receiving hand only at pose05/tick10. No sphere, orange circle, prop, blade, scythe, staff, extra limb, duplicate figure, monster anatomy, cape, robe, shadow, floor, court, background, grid, text, contact sheet, multiple poses or second character. One crisp original arcade pixel-art sprite on transparent RGBA.\n\nPOSE 02\nCreate one isolated full-body transparent RGBA arcade pixel-art sprite: Keeg, pose02 of his 15-pose alley-oop power dunk. Match the exact adult-human Keeg, black hair, neat black beard, enormous tall purple mushroom witch hat with silver trim, and lavender/purple/silver Moonmorel Hex kit from the references. Continue from the two-foot lob anticipation pose, but show the first explosive takeoff: both knees drive upward, both shoes have just cleared the court, torso lifts and turns slightly toward screen-right, right arm rises above the head with an open empty receiving palm, and left arm reaches out/back for balance. His eyes track the separate lob. This is the takeoff initiation, not yet the full extension or catch; make the silhouette clearly distinct from grounded pose01 and ensure the receiving hand is not hidden by the hat brim. Preserve believable human joints and exactly two arms/two legs, with all fingers, the complete tall hat and both shoes inside the transparent canvas. Leave generous transparent clearance around every extremity. No ball, sphere, orange circle, drawn hoop, prop, weapon, extra limb, duplicate body, cape/robe, cast shadow, floor, court, background, grid, cell border, text, contact sheet, multiple poses or second figure. The game basketball remains separate and is not drawn. One original crisp pixel-art sprite on true transparent RGBA.\n\nPOSE 03\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose03 of his JAMVERSE '96 alley-oop power dunk. Keep the same original athlete identity and costume from the references: adult human man, black hair and neat black beard, extremely tall purple mushroom hat with silver trim, lavender/purple/silver Moonmorel Hex basketball kit, belt and matching shoes. The action is an airborne apex preparation between the broad diagonal takeoff and the later catch: make the torso upright, hips high, one knee sharply tucked forward and the other lower leg folded back. Bend the right receiving arm at the elbow so its empty open hand reaches almost straight upward just to screen-right of the hat crown; keep a clear gap between fingers and hat. The left arm folds across and slightly away from the chest as counterbalance, creating a compact silhouette unlike pose02's wide diagonal arms and split-leg takeoff. Keeg looks upward toward the unseen lob. Natural human anatomy, one figure, exactly two arms/hands and two legs/feet, full hat and shoes visible. Leave generous true transparent margins around every extremity. Do not draw any ball or object; the ball is separate and the actual catch is pose05/tick10. No ball, orange circle, sphere, staff, blade, scythe, prop, extra limbs, duplicate pose, second character, cape, glow, haze, shadow, floor, court, hoop, background, grid, cell line, text, contact sheet or multiple poses. Every pixel outside the sprite must be alpha zero. Crisp original arcade pixel art on transparent RGBA.\n\nPOSE 04\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg in JAMVERSE '96, pose04 of a 15-pose alley-oop power dunk. Match the adult human man's black hair and neat short beard, the full extremely tall purple mushroom hat with silver trim, lavender/purple/silver Moonmorel Hex kit and matching shoes from the references. Continue from pose03's compact airborne tuck into a long reaching line: Keeg's torso stretches upward and slightly screen-right, legs trail below with one knee bent and the other lower leg angled back, right arm is now almost fully extended above/right with open empty fingers reaching for the unseen lob, left arm sweeps downward/back as counterbalance. His eyes stay fixed on the incoming ball. Make this tall extension clearly different from pose03's compact tucked body; the catch has not happened yet and the hand remains empty. Keep the whole figure, hat, fingertips and shoes comfortably within clear transparent margins. Preserve exact natural human anatomy and one head/two arms/two legs. No basketball or object is drawn; the separate game ball reaches his receiving palm at pose05/tick10. No ball, sphere, orange circle, staff, blade, scythe, prop, extra limb, duplicate, cape, glow, haze, cast shadow, floor, court, hoop, backdrop, grid, cell boundary, text or multi-pose sheet. Every area outside the sprite must remain alpha transparent. One crisp original arcade pixel-art figure on true RGBA.\n\nPOSE 05\nCreate one isolated full-body transparent RGBA sprite for JAMVERSE '96, Keeg's pose05 alley-oop catch at simulation tick10. Preserve the exact adult human Keeg in the reference: black hair, neat short beard, full extremely tall ornate purple mushroom hat with silver trim, purple/lavender/silver Moonmorel Hex uniform and matching shoes. He is airborne at the catch apex beneath an unseen lob. Make this pose visibly different at 128x96 from pose04's straight-arm reach: bend his right receiving elbow to absorb the catch, turn the empty palm inward/up, and curl the fingers slightly into a clear cupped catching shape. Bring his left forearm inward across the lower chest as he begins to gather, draw both knees closer under his hips, and tilt the torso slightly back while his eyes watch the cupped hand. The ball is separate and should meet the center of this empty palm in the runtime track; do not draw it. Keep the entire hat, hands, fingers and both shoes comfortably inside the transparent image with clear margins. Exactly one natural human figure with two arms and two legs. No basketball, sphere, orange circle, object, staff, blade, extra limb, duplicate figure, cape, glow, haze, ground shadow, floor, court, hoop, background, grid, cell border, text, multiple poses, contact sheet or second figure. Every pixel outside the sprite is alpha zero. Crisp original arcade pixel art on a true transparent RGBA canvas.\n\nPOSE 06\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg in JAMVERSE '96, pose06, the immediate gather after his pose05 alley-oop catch. Keep exact K.03 identity: adult human man with black hair, neat short black beard, extremely tall purple mushroom hat and silver trim, lavender/purple/silver Moonmorel Hex basketball outfit and matching shoes. Keeg is descending slightly from the lob catch and bringing the unseen ball down from his high right hand to his right chest/shoulder. Bend the right elbow sharply so that empty hand rests beside his shoulder; bring his left empty hand in to frame the separate ball at chest height. His torso rotates toward screen-right, shoulders compress into a powerful gather, and knees begin to fold under him. This is a compact two-hand gather, clearly lower and more centered than pose05's high cupped catch. Keep both hands empty with no object between them; the runtime basketball remains separate and follows the hands. Show complete natural human anatomy, two arms/two legs, full hat, fingers and shoes inside generous transparent margins. No ball, sphere, orange circle, prop, blade, staff, scythe, extra limb, duplicate figure, cape, glow, haze, cast shadow, floor, court, hoop, backdrop, grid, cell boundaries, words, multi-pose sheet or second figure. True transparent alpha outside one crisp original arcade pixel-art sprite.\n\nPOSE 07\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose07 of the JAMVERSE '96 alley-oop power dunk. Preserve the reference identity exactly: adult human man with black hair, neat short black beard, full extremely tall purple mushroom hat with silver trim, lavender/purple/silver Moonmorel Hex uniform and matching shoes. This is the powerful upward drive after the catch. Keeg's torso faces screen-right and rises diagonally; one knee is driven high and the other leg trails bent. IMPORTANT BALL-HAND PLACEMENT: raise the right ball-hand on the SCREEN-RIGHT side of Keeg's head, clearly forward of the hat silhouette, with a visible transparent gap between hand/fingers and every part of the hat. Put the palm around the same height as the hat brim but to its right, elbow bent and visible; do not place the raised hand behind, above, or to the left of the hat. Keep the other arm extended down/back as counterbalance. The right palm is open and empty; game ball stays separate and will track this hand. This side-by-side relationship must remain obvious when the sprite is reduced to a 128x96 cell. Retain natural human anatomy, exactly two arms and two legs, full hat/fingers/shoes, and generous transparent margins. No basketball, sphere, orange circle, object, staff, blade, extra limb, duplicate body, cape, glow, haze, shadow, floor, court, hoop, background, grid, cell line, text, contact sheet or second pose/figure. One crisp original arcade pixel-art Keeg on true transparent RGBA.\n\nPOSE 08\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose08 of the JAMVERSE '96 alley-oop power dunk. Match Keeg's exact canon from the references: adult human man, black hair and neat black beard, full very tall ornate purple mushroom witch hat with silver trim, lavender/purple/silver Moonmorel Hex uniform, belt and shoes. Continue from pose07's high drive into a stronger upward extension: torso and hips rise, one knee remains high, the other leg trails, right ball-hand lifts farther above shoulder level with its elbow bent, palm empty and visible to screen-right of the hat with a clear transparent gap. The left arm drives down/back. This is an ascent/cock transition, distinct from pose07's lower bent-arm drive and pose09's fully cocked high finish windup. Keep natural human anatomy, complete hat, hands, fingers and both shoes with generous transparent margins. Do not draw the game ball; it stays on a separate Keeg-specific track. No sphere, basketball, orange circle, prop, staff, blade, scythe, extra limb, duplicate body, second figure, cape, glow, haze, shadow, floor, court, hoop, background, grid, cell line, text, contact sheet or multiple poses. One crisp original arcade pixel-art Keeg on true transparent RGBA.\n\nPOSE 09\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg in his JAMVERSE '96 alley-oop power dunk, pose09 high windup. Maintain K.03 exactly: adult human man with black hair and neat beard, huge tall purple mushroom hat with silver trim and ornaments, lavender/purple/silver Moonmorel Hex uniform and shoes. Keeg is airborne with torso slightly leaning back, both knees tucked, left hand folded across his abdomen. His right ball-arm is cocked at a sharp elbow for the one-hand power finish.\n\nCRITICAL SCREEN PLACEMENT: place the empty right palm entirely on SCREEN-RIGHT of the hat, at approximately the right side of his forehead, with a clear strip of transparent pixels between hat brim and hand. The hand must be visibly in front/right of his face, never behind the hat, never to the left of the hat, and never touching mushroom ornaments. Use the accepted pose07 reference for the hand's correct screen-right side; make this pose's elbow more folded and the body more compressed than pose07. Keep all finger pixels separated from the hat at 128x96 display size. His eyes look toward the basket. This is a loaded windup, not the pose10 release. The ball remains separate and must not be drawn.\n\nPreserve one complete human body with exactly two arms/hands and two legs/shoes. Full hat, every fingertip, elbow and both shoes must fit inside generous transparent margins. No ball, sphere, orange circle, object, prop, staff, blade, extra limb, duplicate, cape, glow, haze, shadow, floor, court, hoop, backdrop, grid, cell boundary, text, second figure or multi-pose sheet. One crisp original arcade pixel-art figure; every outside pixel alpha zero.\n\nPOSE 10\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose10 and the sole release pose of his JAMVERSE '96 alley-oop power dunk at simulation tick21. Preserve the adult human Keeg from K.03: black hair, neat short beard, full extremely tall purple mushroom hat with silver trim and ornaments, lavender/purple/silver Moonmorel Hex kit and shoes. Continue from pose09's compressed windup into one powerful release: Keeg's right ball-arm straightens diagonally up and forward toward screen-right, elbow extended, wrist snapped, open empty palm and fingers visibly splayed. Keep the entire hand clear of the hat with transparent space; do not put fingers behind ornaments. His chest leans toward the rim, left arm drops/back as a counterbalance, one knee drives upward and the other leg trails bent. This is the only release; pose09 is cocked, pose11 is follow-through. The game ball is a separate runtime object and must not appear in the drawing; simulation takes over ball flight at release. Show complete human anatomy, full hat, both hands/arms and shoes inside generous margins. No ball, sphere, orange circle, prop, staff, blade, extra limb, duplicate, cape, glow, haze, floor, court, hoop, background, shadow, grid, border, text, contact sheet or multiple poses. One crisp original arcade pixel-art sprite on true transparent RGBA.\n\nPOSE 11\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg in JAMVERSE '96, pose11, the empty-handed follow-through immediately after pose10 releases the alley-oop power dunk at tick21. Keep K.03: adult natural human man with black hair and neat black beard, full tall purple mushroom hat with silver trim and ornaments, purple/lavender/silver Moonmorel Hex uniform and matching shoes. Continue from pose10 but visibly advance the motion: Keeg's right arm remains extended toward screen-right while the wrist relaxes and fingers open after release; the shoulder rolls forward, chest turns slightly toward the rim, left arm trails low/back. His hips and legs begin to descend from the jump, with one knee uncoiling and the other foot trailing. Both hands are empty; the game ball is already a separate rim-bound runtime object. This pose is a follow-through, not another release or a repeated cocked arm. Keep all anatomy, full hat, hands/fingers and shoes inside generous transparent margins. No ball, sphere, orange circle, prop, staff, blade, extra limb, duplicate body, cape, glow, haze, floor, court, hoop, cast shadow, background, grid, cell edge, text, contact sheet or multiple poses. One crisp original arcade pixel-art Keeg on true transparent RGBA.\n\nPOSE 12\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose12 descent in JAMVERSE '96 after the alley-oop power dunk release. Preserve K.03 identity and anatomy: adult human man, black hair and neat beard, entire very tall ornate purple mushroom hat with silver trim, purple/lavender/silver Moonmorel Hex kit and shoes. Show him clearly descending from the jump after pose11 follow-through: torso returns closer to upright, right arm lowers out to screen-right with an open empty hand below shoulder level, left arm rises slightly for balance, both knees loosen and legs move toward a controlled landing. He looks toward the basket/landing area. This must be visibly lower and more relaxed than the airborne release and follow-through; there is no ball in his hands, and the separate rim-bound ball remains in simulation. Fit complete hat, fingers, limbs and both shoes inside generous transparent margins. Keep human joints natural, one figure, exactly two arms and two legs. No basketball, sphere, orange circle, prop, staff, blade, extra limb, duplicate, cape, glow, haze, cast shadow, floor, court, hoop, background, grid, cell border, text, multi-pose sheet or second figure. One crisp original arcade pixel-art sprite on true transparent RGBA.\n\nPOSE 13\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg, pose13 of his JAMVERSE '96 alley-oop power dunk, the first two-foot landing compression. Preserve K.03: adult human man with black hair, neat short beard, full very tall ornate purple mushroom hat with silver trim and mushrooms, lavender/purple/silver Moonmorel Hex kit, belt and matching shoes. Keeg has now reached the floor after pose12 descent: both shoes are visibly planted at the same time, knees bent to absorb impact, hips low, torso inclined forward slightly, arms relaxed and swung down/out for balance with both empty hands. His tall hat remains intact and clear. This is ground contact/compression, visibly lower and wider than the airborne descent pose12; it is not yet the upright recovery of pose14. Preserve natural human anatomy, exactly two arms and two legs, both shoes fully visible, and generous transparent cell margins around hat, hands and feet. The ball has already left the player and remains separate in simulation. No ball, sphere, orange circle, prop, staff, blade, extra limb, duplicate figure, cape, glow, haze, floor, cast shadow, court, hoop, backdrop, grid, cell boundary, text, multi-pose sheet or second figure. One crisp original arcade pixel-art Keeg on true transparent RGBA.\n\nPOSE 14\nCreate one isolated full-body transparent RGBA pixel-art sprite of Keeg in JAMVERSE '96, pose14 stable recovery at the end of his alley-oop power dunk. Preserve K.03 faithfully: adult human male, black hair, neat beard, tall ornate purple mushroom hat with silver trim and mushrooms, purple/lavender/silver Moonmorel Hex uniform and matching shoes. After the compressed two-foot landing in pose13, Keeg straightens to a comfortable balanced upright stance, both feet flat and shoulder-width apart, knees softly relaxed, torso vertical, arms lowered naturally at his sides with open empty hands. He looks toward the court with calm focus. This must read as a distinct stable recovery after pose13's low wide compression, not a repeat of the jump or landing. Keep the entire tall hat, fingers and both shoes inside generous clear transparent margins. One adult human with natural anatomy, two arms and two legs. The ball is separate and already in simulation; do not draw it. No ball, sphere, orange circle, prop, staff, blade, extra limb, duplicate figure, cape, glow, haze, floor, shadow, court, hoop, background, grid, cell marks, text, contact sheet or multiple poses. One crisp original arcade pixel-art Keeg on true transparent RGBA.",
+              "generatedAt": "2026-10-24T16:44:04.916Z"
+            },
+            "reviewed": true
+          },
+          "alley-oop-reverse": {
+            "src": "./public/assets/animation/keeg-alley-oop-reverse-right.webp",
+            "columns": 5,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "5db8b18364311ff124104b3e6eb0fb8f1c970db4c32f8f07c27b2972fde0c26f"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "268d75d8b119527dff59b0d184762d4e1e837e3f70423f83b935c1426b6a1741"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "79e81b8995df367ef02b7baf8ebe9a4913db7f7dc265bc04d900a9690918bee2"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "cf1ee0a4f946ccd19bbf5fbb3d75f97cca38a34bf9f7654786a632b75a3ee4f9"
+              },
+              {
+                "x": 512,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "646e2ac349b86fb2ef2c616aef5f8430c2df214338149235ad454dfabc2a9fbe"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "bd7e95379894a5261854302dfc21ce4812a343fb0522bbd3bc864e407a89923c"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "04a47bf6c3512e812872976a944248097b8ebe52ff86104096ddcdb5134c3d02"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "de3821be334bc559d8a64237e6a40d99c36498ff44b78c1dc79f7d8eb38a3bca"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "fa57960d1672aaddb8bf9c1ba334e19f298aa6acce6cd0c3ac77f45c4b377832"
+              },
+              {
+                "x": 512,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "1380101b48e05656bd3844626d476e6d12f3b8bb8b59bd135c4b8163b2a91e8f"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "79d723369efa2cad4fc793d9ce653de7695ff9b5c40ade0a9688b9034a9aff01"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "789d792400beeb048b0176ebab22f68bd8b0b1ead71b0f4c617071f330f0fac4"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "432bc8255d9e096bd62865a123d5b8e6edd54bd512d3f5eb540a23ebca61d3de"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8093526375af0fd9ba21368ba207c88fe6841b80e04ed307743cde7779330ac5"
+              },
+              {
+                "x": 512,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "427b8fe0e7ca349b6d2ed701bbccdbc54938176b0ba09041c559b785fcfc3748"
+              }
+            ],
+            "sha256": "33409a7268467db62acd617621b32921d77262c525e45573a0f0f4e7969f233e",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Isolated transparent PNG, NO background. One right-facing pose of original character Keeg K.03: adult athletic human man, black hair, neat close beard, exceptionally tall ornate purple witch hat with silver trim and small mushrooms, purple/lavender/silver Moonmorel Hex uniform and shoes. Crisp 1990s pixel arcade style. Pose for frame 0 of a reverse alley-oop dunk: compact forward approach step to the right, chin/eyes tracking upward, elbows bent and held close, empty hands loosely raised at chest level with clear gap, knees flexed. Natural anatomy with exactly two arms and legs, complete hat and feet. Fit entire silhouette within the middle 65% of a 1024x1536 portrait canvas, centered, leaving large empty transparent border around it; silhouette aspect ratio no wider than 0.75. TRUE TRANSPARENCY: every pixel outside the character must have alpha 0. Do NOT draw any checkerboard, gray tiles, white or colored backdrop, transparency preview, backdrop pattern, floor, shadow, ground, court, hoop, ball, object, glow, border, text, logo or grid. Return one character only with a genuinely transparent background.\n",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim pose00 prompt; exact per-pose source/edit prompts are linked in sourceRecords",
+              "promptScope": "Pose00 attempt04 only. Every accepted pose links all exact generation/edit prompt files.",
+              "generatedAt": "2026-10-24T17:30:55Z",
+              "generationId": "15 individually generated pose records; see sourceRecords",
+              "promptAndSourceManifest": "tools/generate-art/j107-keeg-alley-oop-reverse-provenance.json",
+              "sourceNotes": "tools/generate-art/j107-keeg-alley-oop-reverse-source-notes.md",
+              "assemblyScript": "tools/generate-art/assemble-keeg-alley-oop-reverse.py",
+              "cellSize": [
+                128,
+                96
+              ],
+              "grid": [
+                5,
+                3
+              ],
+              "figureFit": [
+                76,
+                86
+              ],
+              "sequenceOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "operation": "Tight alpha crop at threshold16; uniform nearest-neighbor fit within76x86, center in transparent128x96 cell; pack row-major. No pose was drawn, duplicated, mirrored or interpolated.",
+              "actionAnchors": {
+                "takeoff": 2,
+                "grab": 5,
+                "peak": 7,
+                "release": 10,
+                "finish": 11,
+                "land": 14
+              },
+              "sourceRecords": [
+                {
+                  "poseIndex": 0,
+                  "generationId": "exec-3b0bd99d-9ef6-4b04-bc75-d63812b465ee",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-00-attempt-04-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-04.png",
+                  "sourceSha256": "b6b6509cfdeef083ef3b7b56c8f2e7e3cc315dac43926a104b423ec25f2532be",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-04-raw.png",
+                  "rawSourceSha256": "2c06a5277b9323819865da57a7254a0d361fd31fdb3e097288ed315b95d16402",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    208,
+                    167,
+                    829,
+                    1390
+                  ],
+                  "figureSize": [
+                    44,
+                    86
+                  ],
+                  "cellMargins": [
+                    42,
+                    42,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "59ac3985e6eb1b7a6db141034429f89e902f034cba7ef17c7fa1780bda4d6c05",
+                  "cell": [
+                    0,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 1,
+                  "generationId": "exec-df528c6b-3da1-483c-b53a-418266d51c51",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-01-attempt-02-prompt.md",
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-01-attempt-03-edit-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-01-attempt-03.png",
+                  "sourceSha256": "ec13f33f1e51bb124979d44a935d251a1ff37b4065d1e241011e81224fb07708",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-01-attempt-02-rejected-checkerboard.png",
+                  "rawSourceSha256": "ac9f66e00d7f7ed388c40d18912a1fc851366ed0bfe8d53a814edd5988405682",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    245,
+                    110,
+                    1013,
+                    1119
+                  ],
+                  "figureSize": [
+                    65,
+                    86
+                  ],
+                  "cellMargins": [
+                    31,
+                    32,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "45285720fcad14c84a6b37e448ed43c9ec83e2771834cda5edaec32c71fe4376",
+                  "cell": [
+                    128,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 2,
+                  "generationId": "exec-165add6a-064e-4dfc-a287-600ca4612564",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-02-prompt.md",
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-02-edit-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-02-attempt-02.png",
+                  "sourceSha256": "3304c7f05a59f6b0a2420f89f5454b2facff1a734519f78dbcff8b147a6afc84",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-02-attempt-01-checkerboard.png",
+                  "rawSourceSha256": "aeb0349cc30e58a77838af8ea9b686af57a6ee85579397f275ed6fc7b11c7045",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    241,
+                    10,
+                    904,
+                    1297
+                  ],
+                  "figureSize": [
+                    44,
+                    86
+                  ],
+                  "cellMargins": [
+                    42,
+                    42,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "ea74936a782c4835804945cc4d8a6aa66c886ae772afda5b92e24472d931885d",
+                  "cell": [
+                    256,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 3,
+                  "generationId": "exec-a4f411ee-f058-4129-9fa8-3840d933c3b0",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-03-attempt-04-prompt.md",
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-03-attempt-05-edit-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-03-attempt-05.png",
+                  "sourceSha256": "bdf3945e9d2290e0dfeb20dac74f30e2eff8b15c74808de8f44905c4832ccc36",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-03-attempt-04-checkerboard.png",
+                  "rawSourceSha256": "7bd3e8f259ac24e14a291ea555e2e3cee0ee7d9bfd75182cc0e205401b11484c",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    297,
+                    15,
+                    900,
+                    1265
+                  ],
+                  "figureSize": [
+                    41,
+                    86
+                  ],
+                  "cellMargins": [
+                    43,
+                    44,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "83bbdaf0a9e3b0635411ee41a454f058596e43ef27864513d5dd46c4c6bfbfa2",
+                  "cell": [
+                    384,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 4,
+                  "generationId": "exec-de27fff7-efde-48fc-9089-d6cf52be2fb6",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-04-prompt.md",
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-04-edit-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-04-attempt-02.png",
+                  "sourceSha256": "ca778bd91d68b375f2b5390abbbab1cb7fec48b911aaa7c46010b61bf427d12d",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-04-attempt-01-checkerboard.png",
+                  "rawSourceSha256": "989639b5e746dfd7007b84b8243f77559e95cb042617536077bbc421740079d3",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    217,
+                    68,
+                    980,
+                    1259
+                  ],
+                  "figureSize": [
+                    55,
+                    86
+                  ],
+                  "cellMargins": [
+                    36,
+                    37,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "683ac30bc5e000886033abf8ffdb641e358825399eb69e260eb70f7fab5bb3b2",
+                  "cell": [
+                    512,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 5,
+                  "generationId": "exec-fd6cadd0-d78a-432b-ba6a-7442e169de88",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-05-prompt.md",
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-05-attempt-04-edit-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-04.png",
+                  "sourceSha256": "0e6d591b08c2fad68dea287496c6cae3cae1e6f70d262ad86e8e181121733f58",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-02-checkerboard.png",
+                  "rawSourceSha256": "b0846beaa75ee5c0675a049412d7bb388dd7430869355e254824742aa7bc63ec",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    428,
+                    8,
+                    1030,
+                    1046
+                  ],
+                  "figureSize": [
+                    50,
+                    86
+                  ],
+                  "cellMargins": [
+                    39,
+                    39,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "8105f0653b32836084b2c8443a9d7e8a1adc3b399be38f3c7e1a20700a78de47",
+                  "cell": [
+                    0,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 6,
+                  "generationId": "exec-d9c03d6d-642c-4d47-a277-96be66c32382",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-06-prompt.md",
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-06-edit-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-06-attempt-02.png",
+                  "sourceSha256": "acae5bec8300fa533f0db196fb0253f97e9413d8fcfb44d0846e91274fdee0cc",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-06-attempt-01-checkerboard.png",
+                  "rawSourceSha256": "d7412b485f163483764abb91f1a4d6540d2959c59fd9396853df3ec4a26fb0a5",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    297,
+                    18,
+                    969,
+                    1321
+                  ],
+                  "figureSize": [
+                    44,
+                    86
+                  ],
+                  "cellMargins": [
+                    42,
+                    42,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "afc7ddb31008c6bdafffc267b13ac53aa70a16fc0bde163f3abcc851b93a9500",
+                  "cell": [
+                    128,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 7,
+                  "generationId": "exec-aad7bde3-11fe-4c4a-85c8-4ebc7766ab3b",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-07-attempt-04-prompt.md",
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-07-attempt-05-edit-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-05.png",
+                  "sourceSha256": "94d57cac895732984f8bc5d699566a048a0da92170dc9b1c4d74b948142e3e38",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-04-checkerboard.png",
+                  "rawSourceSha256": "7e8720519189bf468f3889587e36441aad49e940886566a21f6ca260ee7a52d4",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    197,
+                    14,
+                    977,
+                    1289
+                  ],
+                  "figureSize": [
+                    53,
+                    86
+                  ],
+                  "cellMargins": [
+                    37,
+                    38,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "d922fbf57ff33fe2ea8d8c07128e9d9a7abcd9e3f1aa8d2c46b2df111bb98a8a",
+                  "cell": [
+                    256,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 8,
+                  "generationId": "exec-058fa4e8-31ef-4e81-ba33-dd5bf04a1858",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-08-attempt-02-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-08-attempt-02.png",
+                  "sourceSha256": "ff70fede49c70ab2824130a17f1e1ac9c6ac557d0a1d63243a4c751f7dbf1c7f",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-08-attempt-02-raw.png",
+                  "rawSourceSha256": "d5bbed874afc04fd72e2d90f1830f6cf861368339dcc32e1dbd6aa02c2ca90c2",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    339,
+                    95,
+                    1049,
+                    1125
+                  ],
+                  "figureSize": [
+                    59,
+                    86
+                  ],
+                  "cellMargins": [
+                    34,
+                    35,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "1116235ea2fe1e51e67cd3c53b2fb74d00d2133a1c761b23300045ec4555a216",
+                  "cell": [
+                    384,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 9,
+                  "generationId": "exec-27da6050-a440-447e-90bb-50f4b38ddf3e",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-09-attempt-02-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-09-attempt-02.png",
+                  "sourceSha256": "f429225ffc98db88b2190dfaaf946f5698dd375a076bef9c4e665a76983249c4",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-09-attempt-02-raw.png",
+                  "rawSourceSha256": "bd0f44cb75bb5b71e645e922c456a95184010163f12d71c9d0cc67486d07557c",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    238,
+                    30,
+                    1177,
+                    1119
+                  ],
+                  "figureSize": [
+                    74,
+                    86
+                  ],
+                  "cellMargins": [
+                    27,
+                    27,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "91834e13000a496ea310f3b4dd577bbd43573e1c0dbf69da691da555179be210",
+                  "cell": [
+                    512,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 10,
+                  "generationId": "exec-6e19be67-3a63-467c-9b9e-77a6cc0d0e47",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-10-attempt-02-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-10-attempt-02.png",
+                  "sourceSha256": "009ad437a88496303335e39fb77588fa494929bb1136f8a8c55a122454124c2b",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-10-attempt-02-raw.png",
+                  "rawSourceSha256": "3e1344b5d2b20c8e0c37e81a41997769fbabca136c3e075c42c80480645d482d",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    191,
+                    61,
+                    1222,
+                    1140
+                  ],
+                  "figureSize": [
+                    76,
+                    80
+                  ],
+                  "cellMargins": [
+                    26,
+                    26,
+                    8,
+                    8
+                  ],
+                  "packedCellSha256": "175a14324e85b4f7b4c20da7acee3d84517ed7c07ea7d3b59bf1b23b712dc61d",
+                  "cell": [
+                    0,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 11,
+                  "generationId": "exec-8c115c51-8809-4867-9b98-5efbcf441e7b",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-11-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-11-attempt-01.png",
+                  "sourceSha256": "cd011257d5a294f395aba87b384bf4e6e5507250addcc3b7d1cd606ddfcf2bd2",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-11-attempt-01-raw.png",
+                  "rawSourceSha256": "db80cb298d8c9d9867769df388860eb9ad4e8a70ebb49a2e4988ec1ecba840fb",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    357,
+                    58,
+                    1144,
+                    1102
+                  ],
+                  "figureSize": [
+                    65,
+                    86
+                  ],
+                  "cellMargins": [
+                    31,
+                    32,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "f778f960bdf3827da1114d4ba31cbefa777fec66a428bbfa23067d152d8e243d",
+                  "cell": [
+                    128,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 12,
+                  "generationId": "exec-2d81f314-fa2d-48c4-b7f6-9a1839670624",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-12-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-12-attempt-01.png",
+                  "sourceSha256": "15c22ab139fd38f777ba4a6229a0319625a59d01542df2df698f4ea6b90fb161",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-12-attempt-01-raw.png",
+                  "rawSourceSha256": "58149ee98ebba433feb56666fc44f0a6c9ee3f005c5d9a5a14ed00c1cf2aa613",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    423,
+                    24,
+                    1069,
+                    1125
+                  ],
+                  "figureSize": [
+                    50,
+                    86
+                  ],
+                  "cellMargins": [
+                    39,
+                    39,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "14a09a05018e69681c8c741d8dc885d5bc183ca55c5686f3bf748433e2032cd8",
+                  "cell": [
+                    256,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 13,
+                  "generationId": "exec-51d533a8-0ed9-433f-bb0c-8c6397bc1e69",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-13-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-13-attempt-01.png",
+                  "sourceSha256": "c4e61784e0d4fb7fac220e25e024909a22f1494126f8af0f8a86887b2f943c4a",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-13-attempt-01-raw.png",
+                  "rawSourceSha256": "ba9687a77b9e0e0dad1aa17a71138b8ceaf64e261368d9c45f8b1b36b983347f",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    170,
+                    13,
+                    1194,
+                    1149
+                  ],
+                  "figureSize": [
+                    76,
+                    84
+                  ],
+                  "cellMargins": [
+                    26,
+                    26,
+                    6,
+                    6
+                  ],
+                  "packedCellSha256": "06e20320c5359b96151fa2700aa272a25f984400b21c3f3bbab5a082f80096de",
+                  "cell": [
+                    384,
+                    192,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 14,
+                  "generationId": "exec-0799230f-9343-4315-96ba-162d2dfa506e",
+                  "promptFiles": [
+                    "tools/generate-art/j107-keeg-alley-oop-reverse-pose-14-prompt.md"
+                  ],
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-14-attempt-01.png",
+                  "sourceSha256": "c7cf2dc7b52cf56d20f771bcfae4a468829eabf817d1ac3e6c0fa9c9f6ccdbf4",
+                  "rawSource": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-14-attempt-01-raw.png",
+                  "rawSourceSha256": "480614960627c216de47b9590170b7ed92e2309c74ac74aa0c40fc69992d8ca5",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    414,
+                    13,
+                    881,
+                    1171
+                  ],
+                  "figureSize": [
+                    35,
+                    86
+                  ],
+                  "cellMargins": [
+                    46,
+                    47,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "c5d1e87567edb08b7d786219472721d51fe2689698bbff6029602c2cd7c21813",
+                  "cell": [
+                    512,
+                    192,
+                    128,
+                    96
+                  ]
+                }
+              ],
+              "rejectedCandidates": [
+                {
+                  "pose": 0,
+                  "attempt": "01",
+                  "generationId": "exec-6b904584-6fc2-41af-bda8-3c3c7bf3ee17",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-01.png",
+                  "reason": "Back-facing orientation, does not read as approach."
+                },
+                {
+                  "pose": 0,
+                  "attempt": "02",
+                  "generationId": "exec-350ec0fe-0a74-4c53-a26b-2a0f22f2861b",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-02.png",
+                  "reason": "At 90px height the figure is92px wide and leaves only18px side margins."
+                },
+                {
+                  "pose": 0,
+                  "attempt": "03",
+                  "generationId": "exec-a6fb894c-ff6f-460d-9641-697cc45f4d3e",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-00-attempt-03.png",
+                  "reason": "Opaque checkerboard backdrop."
+                },
+                {
+                  "pose": 1,
+                  "attempt": "01",
+                  "generationId": "exec-771b117b-79f9-4f6e-838b-531c717e6ae1",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-01-attempt-01.png",
+                  "reason": "Opaque checkerboard backdrop."
+                },
+                {
+                  "pose": 1,
+                  "attempt": "02",
+                  "generationId": "exec-bb9baaf0-5350-493c-a768-a075b4830b2c",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-01-attempt-02-rejected-checkerboard.png",
+                  "reason": "Opaque checkerboard; background edit retained as input for accepted image-edit chain."
+                },
+                {
+                  "pose": 2,
+                  "attempt": "01",
+                  "generationId": "exec-8e59830a-778a-4bbf-8588-119ac33d5a76",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-02-attempt-01-checkerboard.png",
+                  "reason": "Opaque checkerboard, excluded after edited transparent source was prepared."
+                },
+                {
+                  "pose": 3,
+                  "attempt": "01",
+                  "generationId": "exec-c11c7782-cc44-4423-b33d-d3818089de6f",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-03-attempt-01-checkerboard.png",
+                  "reason": "Opaque checkerboard; background edits retained a detached red/green pixel cluster beside the hand."
+                },
+                {
+                  "pose": 3,
+                  "attempt": "02",
+                  "generationId": "exec-e225d721-adb4-4a39-99db-fefaeec1b432",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-03-attempt-02-checkerboard.png",
+                  "reason": "The edited pose remained too similar to takeoff frame02."
+                },
+                {
+                  "pose": 4,
+                  "attempt": "01",
+                  "generationId": "exec-96f000bf-6a2a-4d44-849e-c7b4d574afd0",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-04-attempt-01-checkerboard.png",
+                  "reason": "Opaque checkerboard."
+                },
+                {
+                  "pose": 5,
+                  "attempt": "01",
+                  "generationId": "exec-145a55e5-0735-4e97-9b54-a159c1beca40",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-01-checkerboard.png",
+                  "reason": "Tights changed to light silver/white, inconsistent with Keeg’s approved kit."
+                },
+                {
+                  "pose": 5,
+                  "attempt": "02",
+                  "generationId": "exec-f737c53f-915b-4689-aeb7-6e69bbdfa1eb",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-02-checkerboard.png",
+                  "reason": "Opaque checkerboard; edited output later showed a white ball-like dot in the hand gap."
+                },
+                {
+                  "pose": 5,
+                  "attempt": "03",
+                  "generationId": "exec-3d4d3f85-e4b2-468f-b869-b875b518a286",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-05-attempt-03-edit-raw.png",
+                  "reason": "White ball-shaped object visible between hands."
+                },
+                {
+                  "pose": 6,
+                  "attempt": "01",
+                  "generationId": "exec-742741c9-391c-434b-a5ee-26c2de7058e6",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-06-attempt-01-checkerboard.png",
+                  "reason": "Opaque checkerboard."
+                },
+                {
+                  "pose": 7,
+                  "attempt": "01",
+                  "generationId": "exec-06f5b0c2-b62e-40c9-a910-4ea1963de991",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-01-wrong-side.png",
+                  "reason": "High hand appears screen-left of hat."
+                },
+                {
+                  "pose": 7,
+                  "attempt": "02",
+                  "generationId": "exec-66b96fa8-de1f-4ae8-961f-da0bc7267fb1",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-02-checkerboard.png",
+                  "reason": "Opaque checkerboard."
+                },
+                {
+                  "pose": 7,
+                  "attempt": "03",
+                  "generationId": "exec-b5ac000e-2d01-464c-ba2b-ad899323cede",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-03-edit-raw.png",
+                  "reason": "Deselected after full sequence review; high hand too similar to poses08 and10 at cell size."
+                },
+                {
+                  "pose": 7,
+                  "attempt": "04",
+                  "generationId": "exec-d89457d0-585a-4ee6-b129-36ee70189ceb",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-07-attempt-04-checkerboard.png",
+                  "reason": "Opaque checkerboard; retained as raw source for the accepted mid-cock retry."
+                },
+                {
+                  "pose": 8,
+                  "attempt": "01",
+                  "generationId": "invalid-collision-exec-6b904584-6fc2-41af-bda8-3c3c7bf3ee17",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-08-attempt-01-raw.png",
+                  "reason": "Accidental duplicate of root pose00 attempt01; invalid source provenance and excluded."
+                },
+                {
+                  "pose": 9,
+                  "attempt": "01",
+                  "generationId": "exec-d0f2892c-ed44-416e-89fa-a71784fd101a",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-09-attempt-01-raw.png",
+                  "reason": "Too similar to pose08; accepted attempt02 uses compressed bent elbow."
+                },
+                {
+                  "pose": 10,
+                  "attempt": "01",
+                  "generationId": "exec-c17d4d04-c393-4c63-a838-93c1bc9b8dea",
+                  "source": "tools/generate-art/sources/j107-keeg-alley-oop-reverse-pose-10-attempt-01-raw.png",
+                  "reason": "Release hand landed screen-left of hat."
+                }
+              ],
+              "ballPolicy": "The basketball is a separate Keeg-specific runtime object. Source poses contain no ball. The incoming lob meets the empty catch gap at pose05/tick10. Keeg carries it behind the hip/hat, then releases it at pose10/tick21 into simulation-owned rim flight.",
+              "ballTrack": "Keeg-specific separated runtime track in src/core/animation.js; see runtimeBallTrack and nativeRendererReport.",
+              "reviewSummary": "The complete 00-14 light/dark contact sheet was reviewed at 128x96. Frames are individually authored and unique. The mid-cock pose07 retry was chosen after the first candidate was too similar to frames08 and10. All accepted poses preserve K.03 identity/anatomy and have transparent margins; no painted ball or prop. The actual Canvas renderer selected every pose in both facings; the athlete-specific ball track aligned at tick10 catch and tick20 hold, then released at tick21 in both facings at standard and 120% zoom. The actual Canvas renderer selected every pose in both facings; the athlete-specific ball track aligned at tick10 catch and tick20 hold, then released at tick21 in both facings at standard and 120% zoom.",
+              "runtimeBallTrack": {
+                "heightByPose": [
+                  1.22,
+                  1.59,
+                  2.24,
+                  1.82,
+                  2.12,
+                  1.46,
+                  1.12,
+                  1.82,
+                  2.06,
+                  1.75,
+                  2.24,
+                  1.1,
+                  0.86,
+                  0.42,
+                  0.7
+                ],
+                "forwardByPose": [
+                  5.85,
+                  8.77,
+                  5.12,
+                  8.77,
+                  12.43,
+                  7.31,
+                  -8.04,
+                  7.31,
+                  11.7,
+                  12.06,
+                  12.43,
+                  11.7,
+                  4.02,
+                  -5.12,
+                  -1.46
+                ],
+                "anchors": {
+                  "grab": 10,
+                  "release": 21
+                },
+                "releasePolicy": "Ball remains attached through tick20 and releases into simulation-owned rim flight at tick21."
+              },
+              "nativeRendererReport": "tools/generate-art/previews/j107-keeg-alley-oop-reverse/native-render-report.json",
+              "atlasSha256": "33409a7268467db62acd617621b32921d77262c525e45573a0f0f4e7969f233e",
+              "promptFile": "tools/generate-art/j107-keeg-alley-oop-reverse-provenance.json",
+              "status": "accepted source; native-render ball-track review passed",
+              "nativeRendererCaptures": [
+                "tools/generate-art/previews/j107-keeg-alley-oop-reverse/right-alley-oop-reverse-frame5.png",
+                "tools/generate-art/previews/j107-keeg-alley-oop-reverse/right-alley-oop-reverse-pre-release-tick20.png",
+                "tools/generate-art/previews/j107-keeg-alley-oop-reverse/right-alley-oop-reverse-frame10.png",
+                "tools/generate-art/previews/j107-keeg-alley-oop-reverse/left-alley-oop-reverse-frame5.png",
+                "tools/generate-art/previews/j107-keeg-alley-oop-reverse/left-alley-oop-reverse-pre-release-tick20.png",
+                "tools/generate-art/previews/j107-keeg-alley-oop-reverse/left-alley-oop-reverse-frame10.png"
+              ],
+              "review": {
+                "by": "Codex with independent reviewer",
+                "scope": "15 packed frames, provenance, transparency, pose separation, K.03 identity/anatomy, cell margins, separate ball alignment, native Canvas rendering in both facings at standard and 120% zoom",
+                "notes": "All fifteen distinct poses select from this atlas in both facings. Packed cell bounds leave at least26px side and5px vertical margins; gutters are transparent. Keeg retains adult human anatomy, black hair/beard, exceptionally tall purple/silver mushroom hat, purple/lavender/silver Moonmorel Hex kit, and complete shoes. No source pose contains a ball. Native captures align the incoming ball at pose05/tick10, carry through tick20, and release at pose10/tick21 to independent rim flight.",
+                "reviewedAt": "2026-10-24T17:31:05Z"
+              }
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Keeg’s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. J.01 and K.03 approve mirroring; the basketball remains a separate runtime object.",
-        "reviewedAt": "2026-10-24",
-        "scope": "canonical K.03 direction review covering all registered Keeg clips through J.104",
+        "canonicalSection": "K.03",
+        "reviewedAt": "2026-10-24T17:31:05Z",
+        "scope": "Keeg identity and J.107 alley-oop-reverse; right-facing source mirrored for the opposite facing under canonical K.03 policy.",
+        "notes": "Both native facings preserve the full human anatomy, hat, beard, uniform and shoes. Athlete-specific ball track keeps the separate basketball aligned with the facing-side hand and rim release.",
         "evidence": [
-          "tools/generate-art/keeg-block4-layouts.json",
-          "tools/generate-art/keeg-steal8-layouts.json",
-          "tools/generate-art/keeg-push11-layouts.json",
-          "tools/generate-art/keeg-fall10-layouts.json",
-          "tools/generate-art/keeg-celebrate10-layouts.json",
-          "tools/generate-art/keeg-layup8-layouts.json",
-          "public/assets/animation/keeg-block-right.webp",
-          "public/assets/animation/keeg-steal-right.webp",
-          "public/assets/animation/keeg-push-right.webp",
-          "public/assets/animation/keeg-fall-right.webp",
-          "public/assets/animation/keeg-celebrate-right.webp",
-          "public/assets/animation/keeg-layup-right.webp",
-          "tests/animation-sprites.test.js",
-          "tools/generate-art/keeg-layup-reverse8-layouts.json",
-          "public/assets/animation/keeg-layup-reverse-right.webp",
-          "tools/generate-art/keeg-dunk-power15-layouts.json",
-          "public/assets/animation/keeg-dunk-power-right.webp",
-          "tools/generate-art/keeg-dunk-windmill15-layouts.json",
-          "public/assets/animation/keeg-dunk-windmill-right.webp",
-          "tools/generate-art/keeg-dunk-reverse15-layouts.json",
-          "public/assets/animation/keeg-dunk-reverse-right.webp",
-          "tools/generate-art/keeg-dunk-36015-layouts.json",
-          "public/assets/animation/keeg-dunk-360-right.webp",
-          "tools/generate-art/keeg-dunk-36015-layouts.json",
-          "public/assets/animation/keeg-dunk-360-right.webp",
-          "tools/generate-art/keeg-dunk-tomahawk15-layouts.json",
-          "public/assets/animation/keeg-dunk-tomahawk-right.webp",
-          "tools/generate-art/keeg-dunk-double15-layouts.json",
-          "public/assets/animation/keeg-dunk-double-right.webp",
-          "tools/generate-art/keeg-dunk-clutch15-layouts.json",
-          "public/assets/animation/keeg-dunk-clutch-right.webp"
-        ],
-        "canonicalSection": "K.03"
+          "tools/generate-art/j107-keeg-alley-oop-reverse-layout.json",
+          "tools/generate-art/previews/j107-keeg-alley-oop-reverse/native-render-report.json",
+          "tools/generate-art/previews/j107-keeg-alley-oop-reverse/right-sequence-native-review.png",
+          "tools/generate-art/previews/j107-keeg-alley-oop-reverse/left-sequence-native-review.png"
+        ]
       }
     },
     "toph": {

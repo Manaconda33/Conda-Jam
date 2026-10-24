@@ -3,8 +3,8 @@
   "clip": "dunk-scythe",
   "direction": "right",
   "canonicalSection": "K.03",
-  "eligibleForPacking": false,
-  "status": "eight-candidates-rejected",
+  "eligibleForPacking": true,
+  "status": "accepted-and-registered; Keeg 27/29 clips / 263 drawings",
   "generatedAt": "2026-10-24",
   "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-prompt.md",
   "promptVerbatim": true,
@@ -22,11 +22,11 @@
   "generationId": null,
   "rawSourceImage": null,
   "rawSourceSha256": null,
-  "sourceImage": null,
-  "sourceSha256": null,
-  "atlasPath": null,
-  "atlasSha256": null,
-  "layoutFile": null,
+  "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-atlas.png",
+  "sourceSha256": "0281c63c827a357b490cf67ddee3e57590e512181722f3fd4d9e8607f062e4ff",
+  "atlasPath": "public/assets/animation/keeg-dunk-scythe-right.webp",
+  "atlasSha256": "60a7b91f8f5d004530ef74bffaa14d9e69921984b51deb141d5bbf3c4bb21df6",
+  "layoutFile": "tools/generate-art/j105-keeg-dunk-scythe-layout.json",
   "rejectedGenerations": [
     {
       "generationId": "exec-04a0d663-afc4-47d4-b28c-6e1d86e9d478",
@@ -42,7 +42,7 @@
       "sourceSha256": "06b2c70f9dfb3db592580d4d7f8213d61bedc75ed2be3fc88b54c2798bee7c01",
       "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-02-prompt.md",
       "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-02-review.png",
-      "reason": "Multiple hands, hat parts, and feet touch or cross cell margins, including poses1,2,6,7,10\u201313."
+      "reason": "Multiple hands, hat parts, and feet touch or cross cell margins, including poses1,2,6,7,10–13."
     },
     {
       "generationId": "exec-45c28032-fad4-44bb-9223-3100a9cbe291",
@@ -82,7 +82,7 @@
       "sourceSha256": "7c538369a2f68303d22474947acddd39982ac896fbe7e9a32ab5f0b95167f28f",
       "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-07-prompt.md",
       "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-07-review.png",
-      "reason": "Poses0\u20134 have zero bottom margin and poses5\u20139 zero top margin; they cross row gutters. Pose10 has only 2 pixels right clearance."
+      "reason": "Poses0–4 have zero bottom margin and poses5–9 zero top margin; they cross row gutters. Pose10 has only 2 pixels right clearance."
     },
     {
       "generationId": "exec-f83bc85d-8f73-422a-8e90-7b748774a882",
@@ -90,48 +90,96 @@
       "sourceSha256": "8253d4476fcc0029a908196459597b2684a9cf8979fa6a0eded4fa80efb06109",
       "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-08-prompt.md",
       "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-08-review.png",
-      "reason": "Poses0\u20134 touch bottom row edge; poses5\u20139 touch top. Pose10 has 10 pixels top clearance and pose11 6 pixels right clearance. Silhouettes exceed scale and collide across row gutters."
+      "reason": "Poses0–4 touch bottom row edge; poses5–9 touch top. Pose10 has 10 pixels top clearance and pose11 6 pixels right clearance. Silhouettes exceed scale and collide across row gutters."
     }
   ],
   "ballPolicy": "The game basketball is separately rendered. It follows Keeg's ball-miming hand through the low rear hip sweep and diagonal rise, releases at pose10/tick21, and is not painted into the drawings.",
   "plannedBallTrack": {
-    "status": "planning-only; not visually validated",
+    "status": "accepted-keeg-specific-separate-track; native-render contact and release reviewed",
     "height": [
-      0.95,
-      1.1,
-      1.2,
-      0.95,
-      0.8,
-      0.75,
-      0.95,
-      1.4,
-      2.0,
-      2.5,
-      2.4,
+      1.005,
+      1.12,
+      0.976,
+      0.718,
+      0.804,
+      0.689,
+      1.12,
+      1.981,
+      2.441,
+      2.01,
+      2.01,
       2.0,
       1.35,
       0.7,
       0.55
     ],
     "forward": [
-      6,
-      7,
-      4,
-      -2,
-      -8,
-      -10,
-      -5,
-      -1,
-      4,
-      10,
-      13,
+      9.502,
+      6.578,
+      0.365,
+      -11.329,
+      -12.425,
+      -12.425,
+      -6.944,
+      8.405,
+      17.907,
+      9.136,
+      9.136,
       10,
       8,
       5,
       6
-    ]
+    ],
+    "releasePoseIndex": 10,
+    "releaseTick": 21,
+    "reviewedPreReleaseHandCentersIn128x96Cells": [
+      [
+        90,
+        60
+      ],
+      [
+        82,
+        56
+      ],
+      [
+        65,
+        61
+      ],
+      [
+        33,
+        70
+      ],
+      [
+        30,
+        67
+      ],
+      [
+        30,
+        71
+      ],
+      [
+        45,
+        56
+      ],
+      [
+        87,
+        26
+      ],
+      [
+        113,
+        10
+      ],
+      [
+        89,
+        25
+      ]
+    ],
+    "cellProjection": "For diagnostic only, x=64+forward*2.2/0.804 and y=95-height*28/0.804. Approximate active-hand centers are recorded for carried poses00–09. The ball stays with pose09 through tick20; at pose10/tick21 the dunk resolves the ball at the rim and the simulation takes over. Confirm projection and contact in native renderer before packing.",
+    "overlayPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-ball-track-review.png",
+    "nativeRendererStatus": "passed both facing previews; carried contact checked across poses00-09 and at tick20; pose10/tick21 resolves the separate ball to the rim",
+    "overlaySha256": "684e8c0616e75802df95feb0d9cc0a986b4485d5c56815acd4e2e8aa013283c5"
   },
-  "nextAction": "Continue with individually generated, separately reviewed poses 10\u201314 using the pose-component workflow. Keep each source and exact prompt. Only assemble and register a complete 15-pose clip after all cells, anatomy, pose separation, transparency and the athlete-specific separate ball track pass review.",
+  "nextAction": "J.106 Keeg alley-oop-power is in progress. Verify poses08-14 from the separate lane, complete the athlete-specific lob/catch/dunk ball track and both-facing native review, then register it before Keeg alley-oop-reverse.",
   "isolatedPoseComponentTrials": [
     {
       "generationId": "exec-2a98e1db-6f68-4495-a73b-01b47cb2ddca",
@@ -373,6 +421,214 @@
       "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
       "ballTrackStatus": "no basketball painted; full separate track remains unvalidated pending poses10-14",
       "eligibleForClipRegistration": false
+    },
+    {
+      "generationId": "exec-7d48e4fb-b3b7-4397-a30a-cf474bea09c9",
+      "poseIndex": 10,
+      "poseName": "sole-release-open-palm-tick21",
+      "status": "accepted-as-isolated-pose-component; full-clip-incomplete",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-10-attempt-01.png",
+      "sourceSha256": "68be3f01b425d487f83f271af8f252d57ba96eb900d4cf2af21669b2893892d7",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-10-prompt.md",
+      "identityReference": "public/assets/animation/keeg-dunk-power-right.webp",
+      "poseReference": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-09-attempt-03.png",
+      "sourceDimensions": [
+        1205,
+        1305
+      ],
+      "alphaBoundsThreshold16": [
+        133,
+        79,
+        1196,
+        1231
+      ],
+      "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-10-attempt-01-cell-review.png",
+      "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
+      "ballTrackStatus": "release pose has empty open palm at tick21; no basketball painted; track alignment awaits full clip preview",
+      "eligibleForClipRegistration": false
+    },
+    {
+      "generationId": "exec-af5e214a-bd16-48ba-b429-ab42520202a3",
+      "poseIndex": 11,
+      "poseName": "first-empty-handed-follow-through",
+      "status": "accepted-as-isolated-pose-component; full-clip-incomplete",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-11-attempt-01.png",
+      "sourceSha256": "60e893686957f485b452258bee3e2a79fe213c6fe411454f4601b04229623803",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-11-prompt.md",
+      "identityReference": "public/assets/animation/keeg-dunk-power-right.webp",
+      "sequenceReferences": [
+        "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-10-attempt-01.png",
+        "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-09-attempt-03.png"
+      ],
+      "sourceDimensions": [
+        1205,
+        1305
+      ],
+      "alphaBoundsThreshold16": [
+        99,
+        70,
+        1189,
+        1228
+      ],
+      "transparentCornerAlpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "cellFigureDimensions": [
+        85,
+        90
+      ],
+      "cellMargins": [
+        21,
+        5,
+        22,
+        1
+      ],
+      "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-11-attempt-01-cell-review.png",
+      "sequenceReviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-09-11-sequence-review.png",
+      "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
+      "visualReview": "Complete adult human Keeg anatomy; black hair/beard, full tall purple mushroom hat and purple/lavender/silver kit; open empty hands; no painted basketball. Follow-through silhouette is distinct from pose09 high-cock and pose10 straight release; hat, hands and both shoes remain intact in cell preview.",
+      "ballTrackStatus": "no basketball painted; separate track alignment remains unvalidated pending poses12-14 and full sequence review",
+      "eligibleForClipRegistration": false
+    },
+    {
+      "generationId": "exec-01a07c13-2cd2-4adb-af97-b5aa535a0e03",
+      "poseIndex": 12,
+      "poseName": "controlled-airborne-descent",
+      "status": "accepted-as-isolated-pose-component; full-clip-incomplete",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-12-attempt-01.png",
+      "sourceSha256": "c12a291143cdc8a45e1e29aa8f869325648f93e1762f0d61e4680b17d135113c",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-12-prompt.md",
+      "identityReference": "public/assets/animation/keeg-dunk-power-right.webp",
+      "sequenceReferences": [
+        "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-11-attempt-01.png",
+        "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-10-attempt-01.png"
+      ],
+      "sourceDimensions": [
+        1201,
+        1310
+      ],
+      "alphaBoundsThreshold16": [
+        174,
+        47,
+        1122,
+        1218
+      ],
+      "transparentCornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellFigureDimensions": [
+        73,
+        90
+      ],
+      "cellMargins": [
+        27,
+        5,
+        28,
+        1
+      ],
+      "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-12-attempt-01-cell-review.png",
+      "sequenceReviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-10-12-sequence-review.png",
+      "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
+      "visualReview": "Complete adult human Keeg anatomy; black hair/beard, full tall purple mushroom hat and purple/lavender/silver kit; both hands empty, shoes visible, no painted ball. Controlled airborne descent is distinct from pose11 follow-through and is not yet the pose13 landing.",
+      "ballTrackStatus": "no basketball painted; separate track alignment remains unvalidated pending poses13-14 and full sequence review",
+      "eligibleForClipRegistration": false
+    },
+    {
+      "generationId": "exec-ef52d42f-1682-4df1-aa08-c987cff70ba6",
+      "poseIndex": 13,
+      "poseName": "two-foot-landing-compression",
+      "status": "accepted-as-isolated-pose-component; full-clip-incomplete",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-13-attempt-01.png",
+      "sourceSha256": "f59dd4f3e10e865170c004fe57c1fcaf9ca355f530e324550fd1cb490b7c0586",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-13-prompt.md",
+      "identityReference": "public/assets/animation/keeg-dunk-power-right.webp",
+      "sequenceReferences": [
+        "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-12-attempt-01.png",
+        "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-11-attempt-01.png"
+      ],
+      "sourceDimensions": [
+        1312,
+        1199
+      ],
+      "alphaBoundsThreshold16": [
+        175,
+        53,
+        1228,
+        1162
+      ],
+      "transparentCornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellFigureDimensions": [
+        86,
+        90
+      ],
+      "cellMargins": [
+        21,
+        5,
+        21,
+        1
+      ],
+      "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-13-attempt-01-cell-review.png",
+      "sequenceReviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-11-13-sequence-review.png",
+      "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
+      "visualReview": "Complete adult human Keeg anatomy; black hair/beard, full tall purple mushroom hat and purple/lavender/silver kit. Both empty hands are visible; both separated shoes contact together in a compressed landing. No ball is painted; pose is distinct from airborne pose12.",
+      "ballTrackStatus": "no basketball painted; separate track alignment remains unvalidated pending pose14 and full sequence review",
+      "eligibleForClipRegistration": false
+    },
+    {
+      "generationId": "exec-a8272cfb-645c-484e-aa2d-ac50bf6b068f",
+      "poseIndex": 14,
+      "poseName": "stable-upright-recovery",
+      "status": "accepted-as-isolated-pose-component; full-clip-incomplete",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-14-attempt-01.png",
+      "sourceSha256": "f0b500316f52ffc4792d3c3c86baafac42ed504268430b916fc824459c25d5fb",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-14-prompt.md",
+      "identityReference": "public/assets/animation/keeg-dunk-power-right.webp",
+      "sequenceReferences": [
+        "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-13-attempt-01.png",
+        "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-12-attempt-01.png"
+      ],
+      "sourceDimensions": [
+        1203,
+        1308
+      ],
+      "alphaBoundsThreshold16": [
+        279,
+        45,
+        1003,
+        1260
+      ],
+      "transparentCornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cellFigureDimensions": [
+        54,
+        90
+      ],
+      "cellMargins": [
+        37,
+        5,
+        37,
+        1
+      ],
+      "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-14-attempt-01-cell-review.png",
+      "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
+      "visualReview": "Complete adult human Keeg anatomy; black hair/beard, full tall purple mushroom hat and purple/lavender/silver kit. Empty hands, separated planted shoes, clear safe cell margins and no ball. Stable upright recovery is distinct from pose13 landing compression.",
+      "ballTrackStatus": "no basketball painted; athlete-specific ball track review pending full sequence",
+      "eligibleForClipRegistration": false
     }
   ],
   "rejectedPoseComponentTrials": [
@@ -409,5 +665,28 @@
       "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-09-attempt-02-rejected-review.png",
       "reason": "Despite explicit screen coordinates, the cocked hand again landed behind/left of the hat."
     }
-  ]
+  ],
+  "fullSequenceReview": {
+    "reviewedAt": "2026-10-24T15:55:04Z",
+    "status": "approved-for-production; native ball track reviewed in both facings",
+    "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-full-sequence-review.png",
+    "reviewedOnLightAndDarkBackgrounds": true,
+    "cellSize": [
+      128,
+      96
+    ],
+    "summary": "The 15 right-facing figures read in sequence from approach, gather, plant, low rear sweep, diagonal rise, high cock, sole release at pose10/tick21, follow-through, descent, two-foot landing and stable recovery. Each silhouette is individually visible with full hat/hands/shoes; cells have clear gutters and no bodies overlap. Keeg remains a human adult with black hair/beard, tall purple mushroom hat and purple/lavender/silver uniform. No ball appears in any drawing. The separate athlete-specific ball track is approved by its light/dark overlay and two-facing native renderer review described below.",
+    "separateBallTrack": "Accepted Keeg-specific track holds the ball at the active hand through pose09/tick20 in both facings. Pose10/tick21 resolves at the rim as specified by the game simulation; subsequent animation frames use the independent dunk ball state.",
+    "eligibleForPacking": true,
+    "overlaySha256": "b8108ce4c447c8846a1b97064575fbfe8a6805f487b928daf207ea402c7afae4",
+    "ballTrackPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-ball-track-review.png",
+    "ballTrackPreviewSha256": "684e8c0616e75802df95feb0d9cc0a986b4485d5c56815acd4e2e8aa013283c5",
+    "nativeRendererReport": "artifacts/native-render-preview/keeg/report.json",
+    "nativeRendererReportSha256": "e538a4e3db08ee500e62cae5fb5598fcba1b78737af45a0b387d976ff173f95f"
+  },
+  "supersededTrackPreview": {
+    "path": "artifacts/native-render-preview/j105-keeg-dunk-scythe-ball-track-candidate-overlay.png",
+    "status": "superseded-and-retained",
+    "reason": "The first cell overlay showed a carried ball in pose10. Native timing review established pose09 remains on screen through tick20 and pose10/tick21 immediately resolves to the rim; the revised track holds position through tick20 and the final overlay omits a carried ball on pose10."
+  }
 }
