@@ -1,6 +1,6 @@
 # QA report
 
-## Latest validated checkpoint — J.103 (2026-10-24; local, checkpoint push pending)
+## Latest validated checkpoint — J.103 (2026-10-24; pushed and deployed)
 
 - `npm test`: PASS —409 tests, zero failures; includes static offline build.
 - `npm run lint`: PASS —18 JavaScript modules.
@@ -10,7 +10,7 @@
 - `npm run test:e2e`: PASS —Chromium offline startup, settings, controls, co-op, touch, matchups, full match and season progression.
 - Strict audit: expected INCOMPLETE —666 clips /5,844 authored drawings across105 athletes,2,437 missing clips,3 target shortfalls and4 inherited prompt findings.
 - Keeg standard and zoom120 previews each loaded169 images and rendered87 clip snapshots /452 action frames. All fifteen J.103 poses select production art in both facings; the separate ball clears his hat and meets his hand at frame10/tick21.
-- J.102 `55d1def` remains deployed in Pages run #140. J.103 awaits checkpoint push and deployment.
+- J.103 `7f925af` Pages run #141 succeeded: https://github.com/Manaconda33/Conda-Jam/actions/runs/40049640158. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=7f925af.
 
 
 

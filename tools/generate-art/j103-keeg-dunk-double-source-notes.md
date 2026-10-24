@@ -13,7 +13,7 @@ Fifteen reviewed Keeg poses distinguish the first overhead pump, reset to chest,
 
 ## Separate ball track
 
-Keeg’s ball is not painted into the poses. The initial athlete-specific track is recorded in the provenance: height [0.95, 1.1, 1.25, 1.55, 2.15, 2.9, 1.55, 1.75, 2.35, 2.9, 2.35, 2, 1.15, 0.85, 0.65]; forward [7, 5, 3, -4, -8, -1, 2, 5, 4.5, 12.5, 13, 7.5, 4, 3, 3]. The action releases from pose10 at tick21. Runtime hand-contact review is complete: standard and zoom120 native previews select all fifteen poses in both facings, with a clear-hat release at frame10/tick21. J.103 is registered. Full validation passes409 JavaScript tests, lint18 modules, content validation,100-match simulation,55 packer tests, offline build and Chromium full-match/season/touch E2E; standard/zoom120 previews select every pose in both facings. Checkpoint push and deployment are pending.
+Keeg’s ball is not painted into the poses. The initial athlete-specific track is recorded in the provenance: height [0.95, 1.1, 1.25, 1.55, 2.15, 2.9, 1.55, 1.75, 2.35, 2.9, 2.35, 2, 1.15, 0.85, 0.65]; forward [7, 5, 3, -4, -8, -1, 2, 5, 4.5, 12.5, 13, 7.5, 4, 3, 3]. The action releases from pose10 at tick21. Runtime hand-contact review is complete: standard and zoom120 native previews select all fifteen poses in both facings, with a clear-hat release at frame10/tick21. J.103 is registered. Full validation passes409 JavaScript tests, lint18 modules, content validation,100-match simulation,55 packer tests, offline build and Chromium full-match/season/touch E2E; standard/zoom120 previews select every pose in both facings. Checkpoint `7f925af` is pushed and deployed in Pages run #141: https://github.com/Manaconda33/Conda-Jam/actions/runs/40049640158.
 
 ## Exact prompt
 

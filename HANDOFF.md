@@ -1,10 +1,10 @@
-## Current checkpoint — J.103 Keeg `dunk-double` validated locally; checkpoint push pending
+## Current checkpoint — J.103 Keeg `dunk-double` pushed and deployed in Pages run #141
 
 J.103 adds fifteen distinct two-pump dunk poses. Keeg now has25/29 reviewed clips /243 authored drawings. The separate Keeg ball completes an overhead pump, chest reset, second higher drive and frame10/tick21 release; standard and zoom120 previews select every pose in both facings with clear hat clearance and palm contact. Canon K.03 approves mirroring; Keeg remains an adult human with black hair and beard, full purple mushroom hat and purple/lavender/silver kit.
 
 Accepted generation `exec-c394e341-4e13-4298-92e9-97119fdaffcf`; raw sheet SHA-256 `6b7fb70dd7fd1389ee94139e0622daf3b4a9384bfb10554cdbc67194e37db4a8`; cleaned source SHA-256 `f563162a8f00bf9b12d72d36edfb9e05637349bcd627ba707741652a97ef2bac`. Atlas `public/assets/animation/keeg-dunk-double-right.webp` is512×384 /71,636 bytes / SHA-256 `f600dbba7981c12ee6da6e023827dcd02d5e36b20810dd8b795c2c784c0f55f8`. Exact prompt, cleanup, layouts, separate ball path and provenance are in the J.103 files.
 
-Validation passes409 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /866,809 ticks /9 overtime periods,55 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 previews each load169 images and render87 snapshots /452 action frames; all fifteen J.103 poses select production art in both facings. Strict report-only audit:666 clips /5,844 drawings /105 athletes,2,437 missing clips,3 target shortfalls,4 inherited prompt findings. J.102 `55d1def` is still the deployed checkpoint in Pages run #140: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=55d1def. J.103 is validated locally and ready for push. Next: Keeg `dunk-clutch`.
+Validation passes409 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /866,809 ticks /9 overtime periods,55 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 previews each load169 images and render87 snapshots /452 action frames; all fifteen J.103 poses select production art in both facings. Strict report-only audit:666 clips /5,844 drawings /105 athletes,2,437 missing clips,3 target shortfalls,4 inherited prompt findings. J.103 `7f925af` is deployed in Pages run #141 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40049640158): https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=7f925af. Next: Keeg `dunk-clutch`.
 
 
 
@@ -18,9 +18,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Original handoff/source baseline: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`; recovered J.73 `0cc5afc` and J.74 `925403e` are on local `main`.
-- Latest deployed game source checkpoint: `55d1def`; Pages run #140 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/40048780152>.
-- Latest deployed preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=55d1def>.
-- J.29–J.102 are pushed to `main`; J.102 `55d1def` is deployed in Pages run #140. J.103 `dunk-double` is locally validated and pending push; Keeg has25/29 clips /243 drawings. Next action is Keeg `dunk-clutch`. Audit:666 clips /5,844 drawings /105 athletes,2,437 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29. Asset-only parallel work is underway for the next five roster athletes, with integration still in roster order.
+- Latest deployed game source checkpoint: `7f925af`; Pages run #141 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/40049640158>.
+- Latest deployed preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=7f925af>.
+- J.29–J.103 are pushed to `main`; J.103 `7f925af` is deployed in Pages run #141. Keeg has25/29 clips /243 drawings. Next action is Keeg `dunk-clutch`. Audit:666 clips /5,844 drawings /105 athletes,2,437 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29. Asset-only parallel work is underway for Moxie, Dorian, Accu, Nova and Echo (positions8–12), plus Leo (position13); integration remains in roster order.
 - J.69 adds fifteen reviewed poses, an athlete-specific hand track, J.01 mirror review, regression coverage and standard/zoom120 native previews. Both previews load160 images /87 clip snapshots /452 action frames; all15 poses select in each facing and the separate ball stays carried through tick20, releases at tick21 and scores at tick23. All28 JavaScript files, lint, content validation,100-match simulation,34 packer tests, build and full Chromium match/season journey pass. J.69 source `ef10b21` is deployed in Pages run #108.
 
 ### J.71 — Reed Ashcroft scythe dunk (pushed and deployed in Pages run #110)
