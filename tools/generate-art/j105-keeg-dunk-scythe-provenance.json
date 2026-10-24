@@ -131,5 +131,31 @@
       6
     ]
   },
-  "nextAction": "Change composition strategy instead of repeating full-sheet text-to-image: create or generate isolated athlete poses at safe scale, then assemble a 5x3 sheet only after each pose and empty-hand ball track pass visual review. Keep the separate ball track unvalidated until an accepted source exists."
+  "nextAction": "Continue with individually generated, separately reviewed poses 01\u201314 using the pose-component workflow. Keep each source and exact prompt. Only assemble and register a complete 15-pose clip after all cells, anatomy, pose separation, transparency and the athlete-specific separate ball track pass review.",
+  "isolatedPoseComponentTrials": [
+    {
+      "generationId": "exec-2a98e1db-6f68-4495-a73b-01b47cb2ddca",
+      "poseIndex": 0,
+      "poseName": "approach-right",
+      "status": "accepted-as-isolated-pose-component; full-clip-incomplete",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-00-attempt-01.png",
+      "sourceSha256": "e0d6c36436f1987e654a18e8fd78cda845c1cdc23cd939e3b3d73848b8507340",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-00-prompt.md",
+      "identityReference": "public/assets/animation/keeg-dunk-power-right.webp",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "alphaBoundsThreshold16": [
+        261,
+        93,
+        984,
+        1145
+      ],
+      "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-00-attempt-01-cell-review.png",
+      "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
+      "ballTrackStatus": "not applicable to pose0 image; complete separate track remains unvalidated pending poses1-14",
+      "eligibleForClipRegistration": false
+    }
+  ]
 }

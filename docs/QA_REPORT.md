@@ -22,9 +22,9 @@
 - `npm run simulate:league`: PASS —100 matches /856,346 ticks /5 overtime periods. `python3 -m unittest tools/generate-art/test_package_motion.py`: PASS —55 checks. `npm run build`: PASS.
 - Buzzer celebration: made shots and dunks at zero clock hold their score pause for 70 ticks, then resolve the period without an inbound. Regression coverage verifies both a final lead and overtime tie.
 - `npm run test:e2e`: PASS —standalone offline startup, settings and dialogs, controls, touch, substitutions, actions, nonhuman matchups, full default-length match and season progression in Chromium. E2E screenshots were restored after review.
-- Keeg J.105 generation review: eight candidates rejected; six new candidates saved with prompt/source/provenance records and black/white grid previews. Rejected images were not cleaned, packed, or registered. No accepted scythe atlas exists.
-- Refreshed strict report-only audit at `2026-10-24T14:16:11.807Z`:667 clips /5,859 authored drawings /105 athletes;2,436 missing clips,3 target shortfalls,4 inherited prompt findings. Issue #3 remains incomplete.
-- Art commits `7975575`, `8febf97`, and `d8248cf` are pushed to `main`; because they only touch docs/tests/art-review files, they did not create deployment runs. Buzzer celebration runtime commit `3cdc3d6` is deployed successfully in Pages run #158: https://github.com/Manaconda33/Conda-Jam/actions/runs/40101381016. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3cdc3d6.
+- Keeg J.105 generation review: eight full-sheet candidates rejected; six new sheets saved with prompt/source/provenance records and black/white grid previews. Isolated pose00 (approach-right) passed human anatomy/identity/transparency review and a deterministic 128×96 cell preview; it is not a complete clip source. Poses01–14 and ball alignment remain open. No atlas or clip registration was created.
+- Refreshed strict report-only audit at `2026-10-24T14:20:54.470Z`:667 clips /5,859 authored drawings /105 athletes;2,436 missing clips,3 target shortfalls,4 inherited prompt findings. Issue #3 remains incomplete.
+- Art commits `7975575`, `8febf97`, `d8248cf`, and `35307b7` are pushed to `main`; because they only touch docs/tests/art-review files, they did not create deployment runs. Buzzer celebration runtime commit `3cdc3d6` is deployed successfully in Pages run #158: https://github.com/Manaconda33/Conda-Jam/actions/runs/40101381016. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3cdc3d6.
 
 # QA report
 
