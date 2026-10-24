@@ -1,0 +1,130 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "shoot",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "eligibleForPacking": true,
+  "promptFile": "tools/generate-art/marco-vellum-shoot-attempt7-prompt.md",
+  "prompt": "Create exactly one fresh, original transparent RGBA PNG spritesheet, precisely 1536 \u00d7 1024 pixels, strict 5-column \u00d7 2-row grid of ten cells each 307.2 \u00d7 512 pixels. Read in row-major order, left to right top row then left to right bottom row. One complete Marco Vellum in each cell, no other figures. These are ten different sequential frames of one right-facing jump shot. This is a new drawing, not an edit, cleanup, variation, or reuse of any prior generated sheet.\n\nUse only the supplied canonical Marco portrait and gameplay sprite as identity/style reference. Marco is a compact athletic adult human man with medium-light olive skin, angular clean-shaven face, thick short black hair with a slight natural wave, no beard or mustache. He wears the existing Blackthorn Court Kings uniform: plain black sleeveless jersey and shorts with only the established crimson/red piping and white trim, black wristbands, black high-top shoes. Keep jersey front blank black except existing red seams/trim: absolutely no chest mark, emblem, logo, number, badge, text, or added design. Preserve normal human anatomy and identity in every pose.\n\nHard pose safe area, applied to every individual 307 \u00d7 512 cell: keep each full-body figure no wider than 225 pixels and no taller than 300 pixels, centered. Maintain at least 41 transparent pixels left/right and at least 106 transparent pixels top/bottom (with extra buffer beyond those minimums). No part of hair, fingertips, elbows, shoes, or body crosses these limits or touches a cell boundary. Keep each figure at a consistent scale across all ten frames. Every cell must contain one distinct, complete pose; no silhouettes touch or overlap.\n\nPose order: 0 balanced ready stance, hands empty; 1 gathers empty hands around an invisible ball at waist; 2 bends knees and brings hands toward chest; 3 sets invisible ball before forehead, shooting hand under it and guide hand beside it; 4 deeper knee bend, eyes focused toward target; 5 clearly begins a small vertical jump with both shoes visibly off the ground and shooting elbow aligned; 6 extends shooting arm upward while guide hand separates; 7 high wrist-flick follow-through, fingers relaxed and hands empty; 8 descends with shooting arm still raised; 9 lands balanced and lowers arm. Make every pose distinct and show continuous action progression.\n\nNo basketball or any object anywhere, including gather/release. Ball is a separately rendered Marco-specific runtime track. True transparent background: every empty pixel, gutter, margin, and unused canvas area must have alpha exactly zero. No haze, tint, glow, shadow, floor, court, hoop, checkerboard, background, lines, cell dividers, border, words, logos, numbers, marks, badge, props, or extra figures. Clean crisp outlined 1990s arcade pixel/cel art consistent with the references. Return only the sheet.\n",
+  "generationId": "exec-abc16f2a-a41b-4b49-95df-866fdfa7edb9",
+  "rawSource": "tools/generate-art/sources/marco-vellum-shoot-attempt7-generated-rejected.png",
+  "rawSourceSha256": "bdcf28c3e209589c1a87ded99f94f1d3d8f662d932dd54e64e58ef5a11c88719",
+  "sourceImage": "tools/generate-art/sources/marco-vellum-shoot-attempt7-clean-candidate-v2.png",
+  "sourceSha256": "3e7dd3dfc309cc970611b70b21d8fd7cb2627b936fe1fb73f2bc3b64c5013c80",
+  "cleanup": {
+    "script": "tools/generate-art/clean-marco-vellum-shoot-attempt7.py",
+    "record": "tools/generate-art/marco-vellum-shoot-attempt7-cleanup-v2.json",
+    "recordSha256": "964034e0dd241acb8fed3d82607bfa567121bd21ad4caa735c1debe5c42a8525",
+    "method": "Within each original cell isolate its sole 4-connected alpha>=64 component; retain original RGBA only within a 2px dilation of that component; uniformly resize all ten complete poses by 0.65 and center. No pose pixels are drawn, synthesized, or rearranged.",
+    "previews": [
+      "previews/marco-vellum-shoot/attempt7-clean-v2-dark.png",
+      "previews/marco-vellum-shoot/attempt7-clean-v2-light.png"
+    ],
+    "minimumMarginsLeftRightTopBottom": [
+      68,
+      68,
+      107,
+      107
+    ]
+  },
+  "generationHistoryFile": "tools/generate-art/marco-vellum-shoot-attempts.json",
+  "generationHistory": [
+    {
+      "id": "exec-a6e5b1fe-943e-43a0-b887-26876c8086e9",
+      "attempt": 1,
+      "status": "rejected",
+      "source": "tools/generate-art/sources/marco-vellum-shoot-generated-raw.png",
+      "sha256": "76e240bff826dcf57aae1c182998fa9d90cabce040b93b7c9e699d9296ca8330",
+      "promptFile": "tools/generate-art/marco-vellum-shoot-attempt1-prompt.md"
+    },
+    {
+      "id": "exec-3e848f57-d152-4858-a2cd-18e0c58e542c",
+      "attempt": "1-edit",
+      "status": "rejected-edit",
+      "source": "tools/generate-art/sources/marco-vellum-shoot-ball-cleanup-generated.png",
+      "sha256": "7fb737f41aaceb7ab48f5bfb03ec4ad32938608dccee2b1cfa31f41c2f4890b3",
+      "promptFile": "tools/generate-art/marco-vellum-shoot-attempt1-prompt.md"
+    },
+    {
+      "id": "exec-94ab1b5f-7003-406f-85f1-f9e95d6c0cda",
+      "attempt": 2,
+      "status": "rejected-after-review",
+      "source": "tools/generate-art/sources/marco-vellum-shoot-attempt2-generated-raw.png",
+      "sha256": "fde2b406956bebf9ea999056e7c487a9e2f75a6dfd4b0e1bc61e90bd69f234ce",
+      "promptFile": "tools/generate-art/marco-vellum-shoot-prompt.md"
+    },
+    {
+      "id": "exec-bed6bf7a-7490-46bb-9f83-02c94a840ccb",
+      "attempt": 3,
+      "status": "rejected",
+      "source": "tools/generate-art/sources/marco-vellum-shoot-attempt3-rejected.png",
+      "sha256": "053cb448f95656d2bd7305092b77f3f5132dbd20ddbd259e504409d073b80127",
+      "promptFile": null
+    },
+    {
+      "id": "exec-93f34b04-e567-4f67-a22d-8132265615d4",
+      "attempt": 4,
+      "status": "rejected-raw-source-cleanup-candidate",
+      "source": "tools/generate-art/sources/marco-vellum-shoot-attempt4-rejected.png",
+      "sha256": "dc22bb91c90417680d2fdb8c5b100e3dcf263a31ae0f8d33ab666cd71e7c4c9f",
+      "promptFile": null
+    },
+    {
+      "id": "exec-27808b0f-6544-4745-a1ef-fc84e311c411",
+      "attempt": "4-edit",
+      "status": "rejected",
+      "source": "tools/generate-art/sources/marco-vellum-shoot-attempt4-edit-opaque-rejected.png",
+      "sha256": "a397fa18cacaa44d53b1d87477dd09245baa083b93799b8c8ebe9cbe61dae8ec",
+      "promptFile": "tools/generate-art/marco-vellum-shoot-attempt4-edit-prompt.md"
+    },
+    {
+      "id": "exec-5d71d12b-1de5-4d29-a41e-ff8ea426293e",
+      "attempt": 5,
+      "status": "rejected",
+      "source": "tools/generate-art/sources/marco-vellum-shoot-attempt5-generated-rejected.png",
+      "sha256": "a5532b4639449039b61b62b599a12006a52eb82b330920eb2278573b5a72005e",
+      "promptFile": "tools/generate-art/marco-vellum-shoot-attempt5-prompt.md"
+    },
+    {
+      "id": "exec-96a1869d-3a16-4ab0-a8a0-8ccb368e69e6",
+      "attempt": 6,
+      "status": "rejected",
+      "source": "tools/generate-art/sources/marco-vellum-shoot-attempt6-generated-raw.png",
+      "sha256": "3864c8caae2f4ad7ea78154bbc1f9fd46bd6e6a38a9ccc111e23387e857b300f",
+      "promptFile": "tools/generate-art/marco-vellum-shoot-attempt6-prompt.md"
+    },
+    {
+      "id": "exec-abc16f2a-a41b-4b49-95df-866fdfa7edb9",
+      "attempt": "attempt7",
+      "status": "rejected",
+      "source": "tools/generate-art/sources/marco-vellum-shoot-attempt7-generated-rejected.png",
+      "sha256": "bdcf28c3e209589c1a87ded99f94f1d3d8f662d932dd54e64e58ef5a11c88719",
+      "promptFile": "tools/generate-art/marco-vellum-shoot-attempt7-prompt.md"
+    },
+    {
+      "id": "exec-5056e09e-0346-439b-8523-83aac2da981b",
+      "attempt": "attempt8-edit",
+      "status": "rejected",
+      "source": "tools/generate-art/sources/marco-vellum-shoot-attempt8-edit-rejected.png",
+      "sha256": "d2e5d2597affe43d604567346267630b8c684f107ae7e698ba238dfd6d4ec9e8",
+      "promptFile": "tools/generate-art/marco-vellum-shoot-attempt8-edit-prompt.md"
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "notes": "Independent review passed identity, kit, sequence, anatomy, alpha-zero background, source and atlas margins, no-ball, and source-component preservation. Native Canvas review at100%/120% in both facings passes ball contact through tick12 and release at tick13/frame5. All20 facing/frame captures per zoom select the production atlas."
+  },
+  "artifactHashes": {
+    "rawSourceSha256": "bdcf28c3e209589c1a87ded99f94f1d3d8f662d932dd54e64e58ef5a11c88719",
+    "cleanedSourceSha256": "3e7dd3dfc309cc970611b70b21d8fd7cb2627b936fe1fb73f2bc3b64c5013c80",
+    "cleanupRecordSha256": "964034e0dd241acb8fed3d82607bfa567121bd21ad4caa735c1debe5c42a8525"
+  },
+  "status": "accepted-and-runtime-integrated",
+  "atlas": "public/assets/animation/marco-vellum-shoot-right.webp",
+  "atlasSha256": "27625aacd2d7644472b8abd2f625f3caf70dfdfa8a548e5b110b1a3181590ad0",
+  "runtimeBallTrackFile": "tools/generate-art/marco-vellum-runtime-ball-tracks.json",
+  "nativeReviewReports": [
+    "tools/generate-art/previews/marco-vellum-shoot/native-100/report.json",
+    "tools/generate-art/previews/marco-vellum-shoot/native-120/report.json"
+  ]
+}

@@ -1,0 +1,13 @@
+# Marco Vellum — `shoot` — generation attempt 3
+
+## Exact prompt
+
+```text
+Create one original transparent RGBA PNG spritesheet exactly 1536 × 1024 pixels with a strict 5-column × 2-row grid, read left to right across each row. Draw exactly ten separate, complete full-body sequential jump-shot poses of Marco Vellum, one centered in each 307 × 512 pixel cell. Marco must be the same compact athletic adult human man in every cell, matching the attached canonical portrait and gameplay sprite references: medium-light olive skin, angular clean-shaven face, thick short black hair with a slight natural wave, no beard or mustache, black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands and black high-top shoes. Keep his exact identity, human anatomy and outfit consistent.
+
+Hard cell safe area for every complete figure: no nontransparent athlete pixel may be closer than 30 pixels to either vertical cell edge or closer than 70 pixels to either horizontal cell edge. This limits the visible pose to at most 247 pixels wide × 372 pixels high inside its 307 × 512 cell. Center each body within those bounds. Keep the entire hair, fingers, arms, legs and shoes inside the safe area. Keep every pose at one consistent scale; if needed, draw all ten figures smaller so every pose fits. No figure may touch or cross any cell boundary, divider or outer sheet edge. Leave broad transparent gutters between all ten silhouettes.
+
+Pose sequence, strict row-major: 0 balanced stance with empty hands ready; 1 gathers empty hands around an invisible ball at his waist; 2 bends his knees and brings his empty hands toward his chest; 3 raises the invisible ball toward his forehead with the shooting hand beneath it and guide hand beside it; 4 bends deeper and focuses on the target; 5 begins a small vertical jump, shooting elbow aligned; 6 extends the shooting arm above his head as the guide hand separates; 7 reaches a clear high wrist-flick follow-through with relaxed, empty fingers; 8 descends with the shooting arm still raised; 9 lands in a balanced stance and lowers the arm. Each pose must be distinct, anatomically complete and visibly advance the jump-shot action.
+
+Do not draw a basketball or any other object in any cell, including the gather or release. The basketball is rendered separately by Marco's athlete-specific runtime track. No hoop, court, floor, ground shadow, background, glow, haze, halo, checkerboard, grid lines, panel, border, text, logo, number, badge, opponent, teammate or extra figure. Use crisp, outlined 1990s arcade pixel art. The canvas corners, empty space, gutters and all unused pixels must be true alpha-zero transparent. Return only the 1536 × 1024 RGBA sheet.
+```

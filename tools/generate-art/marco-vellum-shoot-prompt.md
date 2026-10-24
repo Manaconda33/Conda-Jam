@@ -1,6 +1,6 @@
-# Marco Vellum — `shoot` — generation attempt 2
+# Marco Vellum — `shoot` — source prompt history
 
-## Exact generation prompt
+## Original baseline generation prompt (attempts1–2)
 
 ```text
 Use the portrait and gameplay sprites as the exact Marco Vellum identity and style reference. Marco is a compact, athletic adult HUMAN MAN with medium-light olive skin, strong clean-shaven masculine face, short thick black hair with a slight wave. He has NO mustache or beard and NO long hair. He wears a black Blackthorn Court Kings jersey and shorts with crimson/red piping and white trim, black wristbands, black high-top shoes. Preserve the same identity in all ten poses; do not transfer any other Blackthorn athlete's traits.
@@ -11,3 +11,12 @@ Sequence: 0 balanced; 1 gathers empty hands around invisible ball at waist; 2 be
 
 Use crisp 1990s arcade pixel/cel art with the gameplay reference's proportions, colors and dark outline. All ten faces remain clean-shaven with short waved black hair. True alpha-zero background and wide gutters. Return only the sheet.
 ```
+
+
+Attempts3 and4 used the separately saved strict-margin prompt in `marco-vellum-shoot-attempt3-prompt.md`; both raw outputs and their rejection findings are preserved in `marco-vellum-shoot-attempts.json`. Attempt4 is the source for the current cleanup candidate; no raw sheet has been accepted or packed.
+
+## Accepted generation prompt — attempt7
+
+Exact prompt: `tools/generate-art/marco-vellum-shoot-attempt7-prompt.md`; verbatim text is also embedded in `marco-vellum-shoot-attempts.json` and accepted provenance. The raw image was rejected for atmospheric alpha contamination and unsafe margins. Cleanup v2 preserved its ten source components without drawing or rearranging poses and passed the stricter prompt's <=225×300 silhouette and >=41px side /106px vertical margins.
+
+Attempt8 was a targeted image edit of attempt7; it is rejected because the model changed the original pose pixels and left haze/margin failures. The attempt5/6/7 raw sheets and attempt4/8 edit results are retained under `sources/` with their exact prompts, IDs, hashes, and review findings. Cleanup v1 is retained separately as rejected for exceeding attempt7's exact size/margin limits.

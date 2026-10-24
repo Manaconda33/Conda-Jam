@@ -1,0 +1,131 @@
+[
+  {
+    "athlete": "marco-vellum",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/marco-vellum-shoot-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "marco-vellum",
+      "clip": "shoot",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "eligibleForPacking": true,
+      "promptFile": "tools/generate-art/marco-vellum-shoot-prompt.md",
+      "prompt": "Use the portrait and gameplay sprites as the exact Marco Vellum identity and style reference. Marco is a compact, athletic adult HUMAN MAN with medium-light olive skin, strong clean-shaven masculine face, short thick black hair with a slight wave. He has NO mustache or beard and NO long hair. He wears a black Blackthorn Court Kings jersey and shorts with crimson/red piping and white trim, black wristbands, black high-top shoes. Preserve the same identity in all ten poses; do not transfer any other Blackthorn athlete's traits.\n\nCreate a transparent RGBA 1536x1024 sheet, exactly 5 columns by 2 rows, strict row-major. Exactly ten distinct complete full-body basketball jump-shot poses. Each cell is 307x512 pixels: draw each figure at about 60% of cell height, centered with at least 70 transparent pixels above and below and at least 25 transparent pixels at both sides. No body part may cross a cell edge or row divider. Keep every head, hand, limb and shoe fully visible inside its own cell. Do not use oversized figures.\n\nSequence: 0 balanced; 1 gathers empty hands around invisible ball at waist; 2 bends knees and brings hands to chest; 3 raises hands toward forehead, shooting hand under invisible ball and guide hand beside it; 4 bends deeper; 5 rises into a small jump; 6 shooting arm extends upward while guide hand separates; 7 high wrist-flick follow-through, fingers relaxed, hands empty; 8 descends with arm held high; 9 lands and lowers arm. No ball anywhere, no object, no hoop, no court, no shadow, no background, no text or other figures. The ball is separate Marco-specific runtime art.\n\nUse crisp 1990s arcade pixel/cel art with the gameplay reference's proportions, colors and dark outline. All ten faces remain clean-shaven with short waved black hair. True alpha-zero background and wide gutters. Return only the sheet.",
+      "references": [
+        "tools/generate-art/references/marco-vellum-portrait-reference.png",
+        "public/assets/animation/marco-vellum-idle-right.webp"
+      ],
+      "review": {
+        "status": "accepted",
+        "notes": "Ten complete, centered, cell-separated poses preserve Marco as a compact clean-shaven adult man with short waved black hair, olive skin and black/crimson/white kit. Sequential gather, shot set, rise, empty hand follow-through, descent and landing. There is no basketball anywhere in the accepted source."
+      },
+      "ballTrack": {
+        "owner": "marco-vellum",
+        "art": "no ball in poses; independently animated Marco-specific runtime path"
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-marco-vellum-shoot10.py",
+        "method": "For each cell retain the largest alpha>=32 athlete component plus only its 2px antialias fringe; packer confirms ten separate full bodies, cell containment and normalized atlas.",
+        "rawSource": "tools/generate-art/sources/marco-vellum-shoot-attempt2-generated-raw.png",
+        "rawSourceSha256": "fde2b406956bebf9ea999056e7c487a9e2f75a6dfd4b0e1bc61e90bd69f234ce",
+        "cleanedSource": "tools/generate-art/sources/marco-vellum-shoot10.png",
+        "cleanedSourceSha256": "cd17fb236f3ff435f142ff535c60db901e811951ceff31db352de7e2a5f7c752",
+        "sourceSha256": "cd17fb236f3ff435f142ff535c60db901e811951ceff31db352de7e2a5f7c752"
+      },
+      "sourceSha256": "cd17fb236f3ff435f142ff535c60db901e811951ceff31db352de7e2a5f7c752",
+      "generationHistory": [
+        {
+          "id": "exec-a6e5b1fe-943e-43a0-b887-26876c8086e9",
+          "status": "rejected",
+          "reason": "Pose 2 had a baked basketball and raised poses crossed the strict 5x2 cell boundary.",
+          "sha256": "76e240bff826dcf57aae1c182998fa9d90cabce040b93b7c9e699d9296ca8330",
+          "promptFile": "tools/generate-art/marco-vellum-shoot-attempt1-prompt.md"
+        },
+        {
+          "id": "exec-3e848f57-d152-4858-a2cd-18e0c58e542c",
+          "status": "rejected-edit",
+          "reason": "Localized ball removal succeeded, but the source still had bottom-row poses touching/crossing cell boundaries.",
+          "sha256": "7fb737f41aaceb7ab48f5bfb03ec4ad32938608dccee2b1cfa31f41c2f4890b3"
+        },
+        {
+          "id": "exec-94ab1b5f-7003-406f-85f1-f9e95d6c0cda",
+          "status": "accepted",
+          "source": "tools/generate-art/sources/marco-vellum-shoot-attempt2-generated-raw.png",
+          "sha256": "fde2b406956bebf9ea999056e7c487a9e2f75a6dfd4b0e1bc61e90bd69f234ce"
+        }
+      ],
+      "reviewPreview": "tools/generate-art/sources/marco-vellum-shoot-review.png",
+      "artifactHashes": {
+        "cleanedSourceSha256": "cd17fb236f3ff435f142ff535c60db901e811951ceff31db352de7e2a5f7c752",
+        "atlasSha256": "ff416e5702f026ca1342628ea0a55642ff86b8f261069e1c5af11578337572d2",
+        "reviewPreviewSha256": "aedc0c1aeae4ff260e79d586556d9dae3ca78eac50cc2313caea0b7668c1cae1",
+        "rawSourceSha256": "fde2b406956bebf9ea999056e7c487a9e2f75a6dfd4b0e1bc61e90bd69f234ce"
+      }
+    }
+  }
+]

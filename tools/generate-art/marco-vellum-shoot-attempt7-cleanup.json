@@ -1,0 +1,302 @@
+{
+  "source": "sources/marco-vellum-shoot-attempt7-generated-rejected.png",
+  "sourceSha256": "bdcf28c3e209589c1a87ded99f94f1d3d8f662d932dd54e64e58ef5a11c88719",
+  "output": "sources/marco-vellum-shoot-attempt7-clean-candidate.png",
+  "outputSha256": "0478f9a3ffba9e593726e3bd01684d4b2b446a04253d2d6091254a334f07724c",
+  "method": "Within each original cell isolate its sole 8-connected alpha>=64 component; retain original RGBA only within a 2px dilation of that component; uniformly resize all ten complete poses by 0.78 and center. No pose pixels are drawn, synthesized, or rearranged.",
+  "thresholdAlpha": 64,
+  "antialiasFringePixels": 2,
+  "uniformScale": 0.78,
+  "requiredMinimumMarginsLeftRightTopBottom": [
+    30,
+    30,
+    70,
+    70
+  ],
+  "poses": [
+    {
+      "index": 0,
+      "sourceCell": [
+        0,
+        0,
+        307,
+        512
+      ],
+      "sourceBoundsAlphaGte64": [
+        38,
+        119,
+        297,
+        451
+      ],
+      "sourceCorePixels": 38486,
+      "uniformScale": 0.78,
+      "outputSize": [
+        205,
+        262
+      ],
+      "outputMarginsLeftRightTopBottom": [
+        51,
+        51,
+        125,
+        125
+      ],
+      "connectedComponentsAtAlpha64": 1
+    },
+    {
+      "index": 1,
+      "sourceCell": [
+        307,
+        0,
+        614,
+        512
+      ],
+      "sourceBoundsAlphaGte64": [
+        365,
+        105,
+        592,
+        453
+      ],
+      "sourceCorePixels": 36171,
+      "uniformScale": 0.78,
+      "outputSize": [
+        180,
+        275
+      ],
+      "outputMarginsLeftRightTopBottom": [
+        63,
+        64,
+        118,
+        119
+      ],
+      "connectedComponentsAtAlpha64": 1
+    },
+    {
+      "index": 2,
+      "sourceCell": [
+        614,
+        0,
+        922,
+        512
+      ],
+      "sourceBoundsAlphaGte64": [
+        677,
+        110,
+        885,
+        453
+      ],
+      "sourceCorePixels": 33740,
+      "uniformScale": 0.78,
+      "outputSize": [
+        165,
+        271
+      ],
+      "outputMarginsLeftRightTopBottom": [
+        71,
+        72,
+        120,
+        121
+      ],
+      "connectedComponentsAtAlpha64": 1
+    },
+    {
+      "index": 3,
+      "sourceCell": [
+        922,
+        0,
+        1229,
+        512
+      ],
+      "sourceBoundsAlphaGte64": [
+        983,
+        90,
+        1172,
+        453
+      ],
+      "sourceCorePixels": 36445,
+      "uniformScale": 0.78,
+      "outputSize": [
+        151,
+        286
+      ],
+      "outputMarginsLeftRightTopBottom": [
+        78,
+        78,
+        113,
+        113
+      ],
+      "connectedComponentsAtAlpha64": 1
+    },
+    {
+      "index": 4,
+      "sourceCell": [
+        1229,
+        0,
+        1536,
+        512
+      ],
+      "sourceBoundsAlphaGte64": [
+        1289,
+        135,
+        1474,
+        454
+      ],
+      "sourceCorePixels": 35080,
+      "uniformScale": 0.78,
+      "outputSize": [
+        147,
+        252
+      ],
+      "outputMarginsLeftRightTopBottom": [
+        80,
+        80,
+        130,
+        130
+      ],
+      "connectedComponentsAtAlpha64": 1
+    },
+    {
+      "index": 5,
+      "sourceCell": [
+        0,
+        512,
+        307,
+        1024
+      ],
+      "sourceBoundsAlphaGte64": [
+        80,
+        552,
+        255,
+        957
+      ],
+      "sourceCorePixels": 36538,
+      "uniformScale": 0.78,
+      "outputSize": [
+        140,
+        319
+      ],
+      "outputMarginsLeftRightTopBottom": [
+        83,
+        84,
+        96,
+        97
+      ],
+      "connectedComponentsAtAlpha64": 1
+    },
+    {
+      "index": 6,
+      "sourceCell": [
+        307,
+        512,
+        614,
+        1024
+      ],
+      "sourceBoundsAlphaGte64": [
+        389,
+        538,
+        567,
+        982
+      ],
+      "sourceCorePixels": 38118,
+      "uniformScale": 0.78,
+      "outputSize": [
+        142,
+        349
+      ],
+      "outputMarginsLeftRightTopBottom": [
+        82,
+        83,
+        81,
+        82
+      ],
+      "connectedComponentsAtAlpha64": 1
+    },
+    {
+      "index": 7,
+      "sourceCell": [
+        614,
+        512,
+        922,
+        1024
+      ],
+      "sourceBoundsAlphaGte64": [
+        693,
+        528,
+        871,
+        983
+      ],
+      "sourceCorePixels": 36382,
+      "uniformScale": 0.78,
+      "outputSize": [
+        142,
+        358
+      ],
+      "outputMarginsLeftRightTopBottom": [
+        83,
+        83,
+        77,
+        77
+      ],
+      "connectedComponentsAtAlpha64": 1
+    },
+    {
+      "index": 8,
+      "sourceCell": [
+        922,
+        512,
+        1229,
+        1024
+      ],
+      "sourceBoundsAlphaGte64": [
+        1004,
+        542,
+        1175,
+        987
+      ],
+      "sourceCorePixels": 36704,
+      "uniformScale": 0.78,
+      "outputSize": [
+        136,
+        350
+      ],
+      "outputMarginsLeftRightTopBottom": [
+        85,
+        86,
+        81,
+        81
+      ],
+      "connectedComponentsAtAlpha64": 1
+    },
+    {
+      "index": 9,
+      "sourceCell": [
+        1229,
+        512,
+        1536,
+        1024
+      ],
+      "sourceBoundsAlphaGte64": [
+        1263,
+        641,
+        1478,
+        981
+      ],
+      "sourceCorePixels": 38095,
+      "uniformScale": 0.78,
+      "outputSize": [
+        171,
+        268
+      ],
+      "outputMarginsLeftRightTopBottom": [
+        68,
+        68,
+        122,
+        122
+      ],
+      "connectedComponentsAtAlpha64": 1
+    }
+  ],
+  "previews": [
+    "previews/marco-vellum-shoot/attempt7-clean-dark.png",
+    "previews/marco-vellum-shoot/attempt7-clean-light.png"
+  ]
+}

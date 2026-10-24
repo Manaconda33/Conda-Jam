@@ -58,6 +58,60 @@
           "tools/generate-art/previews/marco-vellum-pickup/native-120/report.json"
         ]
       }
+    },
+    "shoot": {
+      "athlete": "marco-vellum",
+      "clip": "shoot",
+      "status": "accepted after native contact review at 100% and 120%",
+      "height": [
+        0.8,
+        1,
+        1.25,
+        1.5,
+        1.35,
+        1.6,
+        2.1,
+        2.6,
+        2.3,
+        1.2
+      ],
+      "forward": [
+        3,
+        4,
+        5,
+        5,
+        5,
+        6,
+        9,
+        14,
+        18,
+        22
+      ],
+      "basis": "Marco-specific separate-ball path follows the authored waist gather and forehead set. The ball remains hand-aligned through frame4/tick10, releases at frame5/tick13, then separates into forward flight in frames6\u20139. No ball is painted into the sprite.",
+      "calibrationNotes": [],
+      "nativeReview": {
+        "zooms": [
+          100,
+          120
+        ],
+        "facings": [
+          "right",
+          "left"
+        ],
+        "frames": {
+          "0-4": "Ball follows hand from waist gather through forehead set; contact holds through tick12.",
+          "5": "Release at tick13 is at the shooting hand with near-contact.",
+          "6-9": "Progressive forward separation and shot flight."
+        },
+        "clipSummariesPerZoom": 2,
+        "actionFrameCapturesPerZoom": 20,
+        "review": "Independent visual reviewer and Codex review pass. All20 facings/frame captures per zoom select the production shoot atlas; ball contact and release timing align in both facings.",
+        "reports": [
+          "tools/generate-art/previews/marco-vellum-shoot/native-100/report.json",
+          "tools/generate-art/previews/marco-vellum-shoot/native-120/report.json"
+        ]
+      }
     }
-  }
+  },
+  "basis": "Marco-specific frame-indexed tracks; shoot contact was checked in actual native Canvas captures at 100% and 120% in both facings. Source art and the separate ball path remain independently recorded."
 }

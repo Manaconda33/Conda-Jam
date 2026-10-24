@@ -108,9 +108,9 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
         crop[local_owners != rect["component"], 3] = 0
         crops.append(Image.fromarray(crop, mode="RGBA"))
 
-    scale = 92 / max(crop.height for crop in crops)
+    scale = 86 / max(crop.height for crop in crops)
     widest = max(crop.width * scale for crop in crops)
-    cell_width = max(64, math.ceil((widest + 4) / 16) * 16)
+    cell_width = max(64, math.ceil((widest + 10) / 16) * 16)
     if cell_width > 160:
         raise ValueError("The action poses exceed the supported atlas width")
     cell_height = 96
@@ -119,11 +119,15 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
     for index, crop in enumerate(crops):
         size = (max(1, round(crop.width * scale)), max(1, round(crop.height * scale)))
         resized = crop.resize(size, Image.Resampling.LANCZOS)
-        if resized.width > cell_width or resized.height > 92:
+        if resized.width > cell_width - 10 or resized.height > 86:
             raise ValueError(f"Pose {index} does not fit its normalized atlas cell")
         row, column = divmod(index, 5)
         x = column * cell_width + (cell_width - resized.width) // 2
-        y = row * cell_height + 94 - resized.height
+        y = row * cell_height + 91 - resized.height
+        if x - column * cell_width < 5 or (column + 1) * cell_width - (x + resized.width) < 5:
+            raise ValueError(f"Pose {index} does not have five horizontal atlas margin pixels")
+        if y - row * cell_height < 5 or (row + 1) * cell_height - (y + resized.height) < 5:
+            raise ValueError(f"Pose {index} does not have five vertical atlas margin pixels")
         atlas.alpha_composite(resized, (x, y))
         frames.append({"x": column * cell_width, "y": row * cell_height, "w": cell_width, "h": cell_height})
 

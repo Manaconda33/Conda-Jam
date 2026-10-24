@@ -2,6 +2,11 @@
 
 Target: 105 athletes, 29 clips and 293 authored frames per athlete per required direction. Accepted issue minima total 278: dribble 8, run 8, dribble-run 8, shoot 8, push 8, celebrate 8; remaining minima equal targets. Minimum-approved genuinely distinct clips may ship; target shortfalls remain visible in the audit. Frame scheduling must map available authored frames honestly rather than claiming repeated playback frames are new drawings. The authoritative frame counts, timing and event anchors are in `src/core/animation.js`; asset registration and audit instructions are in `docs/ANIMATION_ASSET_AUDIT.md`.
 
+## Current checkpoint — 2026-10-24
+
+Strict audit:792 registered clips /7,173 authored drawings /105 athletes;2,311 missing clips, one below-target clip and4 inherited prompt findings. Marco Vellum has7/29 clips /57 drawings. The ten-pose right-facing `shoot` atlas is integrated with a separate ball track; native Canvas review passes at100%/120% in both facings with release on frame5/tick13. Continue Marco `pass` next in roster order. Full target remains30,765 drawings.
+
+
 Generate authentic distinct hand-drawn pixel animation frames using imagegen. Preserve each athlete's canonical portrait identity, clothing palette, anatomy, face, markings and accessories. Nonhuman athletes retain their actual rigs. Never create apparent frame counts by duplicating, shifting, rotating, recoloring, stretching or adding noise to existing sprites.
 
 Suggested generation groups per athlete and direction:

@@ -1,0 +1,249 @@
+{
+  "source": "tools/generate-art/sources/marco-vellum-shoot-attempt4-rejected.png",
+  "sourceSha256": "dc22bb91c90417680d2fdb8c5b100e3dcf263a31ae0f8d33ab666cd71e7c4c9f",
+  "output": "tools/generate-art/sources/marco-vellum-shoot-attempt4-clean.png",
+  "outputSha256": "f318f4acd4332e170241c4974c1d33e3938b40108f489df0cb67e9e012a3372f",
+  "method": "Per-cell largest alpha>=64 athlete component plus2px antialias fringe; uniform 0.78 scale for all ten figures; center within each original cell. No pose pixels are redrawn or invented.",
+  "poses": [
+    {
+      "index": 0,
+      "sourceBounds": [
+        46,
+        102,
+        278,
+        440
+      ],
+      "sourceCorePixels": 36441,
+      "uniformScale": 0.78,
+      "outputBounds": [
+        63,
+        124,
+        244,
+        388
+      ],
+      "margins": [
+        63,
+        63,
+        124,
+        124
+      ],
+      "removedDetachedComponents": 0
+    },
+    {
+      "index": 1,
+      "sourceBounds": [
+        58,
+        104,
+        267,
+        439
+      ],
+      "sourceCorePixels": 33883,
+      "uniformScale": 0.78,
+      "outputBounds": [
+        72,
+        125,
+        235,
+        386
+      ],
+      "margins": [
+        72,
+        72,
+        125,
+        126
+      ],
+      "removedDetachedComponents": 1
+    },
+    {
+      "index": 2,
+      "sourceBounds": [
+        62,
+        109,
+        262,
+        439
+      ],
+      "sourceCorePixels": 33084,
+      "uniformScale": 0.78,
+      "outputBounds": [
+        75,
+        127,
+        231,
+        384
+      ],
+      "margins": [
+        75,
+        76,
+        127,
+        128
+      ],
+      "removedDetachedComponents": 0
+    },
+    {
+      "index": 3,
+      "sourceBounds": [
+        60,
+        75,
+        266,
+        448
+      ],
+      "sourceCorePixels": 37653,
+      "uniformScale": 0.78,
+      "outputBounds": [
+        73,
+        110,
+        234,
+        401
+      ],
+      "margins": [
+        73,
+        73,
+        110,
+        111
+      ],
+      "removedDetachedComponents": 0
+    },
+    {
+      "index": 4,
+      "sourceBounds": [
+        66,
+        132,
+        266,
+        446
+      ],
+      "sourceCorePixels": 33329,
+      "uniformScale": 0.78,
+      "outputBounds": [
+        75,
+        133,
+        231,
+        378
+      ],
+      "margins": [
+        75,
+        76,
+        133,
+        134
+      ],
+      "removedDetachedComponents": 0
+    },
+    {
+      "index": 5,
+      "sourceBounds": [
+        69,
+        42,
+        257,
+        448
+      ],
+      "sourceCorePixels": 34441,
+      "uniformScale": 0.78,
+      "outputBounds": [
+        80,
+        97,
+        227,
+        414
+      ],
+      "margins": [
+        80,
+        80,
+        97,
+        98
+      ],
+      "removedDetachedComponents": 0
+    },
+    {
+      "index": 6,
+      "sourceBounds": [
+        91,
+        0,
+        249,
+        458
+      ],
+      "sourceCorePixels": 33508,
+      "uniformScale": 0.78,
+      "outputBounds": [
+        92,
+        77,
+        215,
+        434
+      ],
+      "margins": [
+        92,
+        92,
+        77,
+        78
+      ],
+      "removedDetachedComponents": 0
+    },
+    {
+      "index": 7,
+      "sourceBounds": [
+        91,
+        0,
+        281,
+        458
+      ],
+      "sourceCorePixels": 36127,
+      "uniformScale": 0.78,
+      "outputBounds": [
+        79,
+        77,
+        227,
+        434
+      ],
+      "margins": [
+        79,
+        80,
+        77,
+        78
+      ],
+      "removedDetachedComponents": 0
+    },
+    {
+      "index": 8,
+      "sourceBounds": [
+        90,
+        3,
+        267,
+        467
+      ],
+      "sourceCorePixels": 36388,
+      "uniformScale": 0.78,
+      "outputBounds": [
+        84,
+        75,
+        222,
+        437
+      ],
+      "margins": [
+        84,
+        85,
+        75,
+        75
+      ],
+      "removedDetachedComponents": 0
+    },
+    {
+      "index": 9,
+      "sourceBounds": [
+        42,
+        124,
+        264,
+        462
+      ],
+      "sourceCorePixels": 34894,
+      "uniformScale": 0.78,
+      "outputBounds": [
+        67,
+        124,
+        240,
+        388
+      ],
+      "margins": [
+        67,
+        67,
+        124,
+        124
+      ],
+      "removedDetachedComponents": 0
+    }
+  ]
+}

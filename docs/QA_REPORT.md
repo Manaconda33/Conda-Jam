@@ -1,5 +1,12 @@
 # QA report
 
+## Marco Vellum — `shoot` accepted and integrated
+
+- Added ten authored poses; Marco now has7/29 clips /57 drawings. Attempt7 raw had a contaminated background and unsafe margins, so it remains rejected. A documented alpha-component cleanup preserved the ten source silhouettes without drawing or rearranging poses. Independent review passed identity, kit, anatomy, pose order, alpha-zero background, blank chest, no-ball, and the exact prompt's <=225×300 pose bounds with >=41px side /106px vertical margins.
+- Atlas `public/assets/animation/marco-vellum-shoot-right.webp` contains10 unique poses in320×192 lossless WebP cells with at least5px clearance. Source, atlas, cleanup and layout hashes, exact prompts, rejected generations/edits, previous atlas archive, and dark/light proofs are retained under `tools/generate-art/marco-vellum-shoot*`.
+- Added a separate Marco ball track. Native Canvas review at100% and120%, both facings: the ball follows the hand through tick12, releases at frame5/tick13, and separates through frames6–9. Each zoom loads152 images, captures2 court summaries /20 action frames; all20 facing/frame combinations select the production atlas. Reports: `tools/generate-art/previews/marco-vellum-shoot/native-{100,120}/`.
+- Regression checks unique frames, exact source/atlas hashes, source and packed margins, both facings, track/timing parity and native reports. Validation: `npm test`32/32 files, lint18 modules, content35 franchises/105 athletes, league simulation100 matches /861,238 ticks /6 overtimes, atlas packer55 checks, build, Chromium E2E. Audit refreshed `2026-10-24T21:16:19.787Z`:792 clips /7,173 drawings /105 athletes,2,311 missing clips, one target shortfall and4 inherited prompt findings. Commit/push/Pages deployment pending.
+
 ## Marco Vellum — `pickup` accepted and integrated
 
 - Added five unique authored drawings to the runtime atlas. The accepted source preserves Marco’s short black hair, clean-shaven olive-skinned face, Blackthorn Court Kings kit and ordinary adult-human anatomy. Both generated sheets and the background-only edit with contamination remain preserved as rejected candidates; the accepted sheet uses documented alpha isolation without redrawing or fabricating a pose. The rejected two-pixel atlas layout is also retained; the final packed cells have at least5px margins.
