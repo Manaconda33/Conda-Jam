@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-24",
+  "athlete": "echo-catwalk",
+  "clipsRepacked": 23,
+  "authoredFrames": 241,
+  "clips": [
+    {
+      "clip": "alley-oop-power",
+      "frames": 15,
+      "atlas": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+      "previousAtlasSha256": "04bde18a0430e7dd9c5cf56b6771726b1e1ea071a42dc47a500f6e0c74b4017f",
+      "atlasSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+      "minimumMarginsPx": {
+        "left": 26,
+        "right": 27,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "frames": 15,
+      "atlas": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+      "previousAtlasSha256": "aca12c6a7966eea5e347e52dd5095ae1eafe06390751957da94530e63a02c169",
+      "atlasSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+      "minimumMarginsPx": {
+        "left": 25,
+        "right": 26,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "block",
+      "frames": 4,
+      "atlas": "./public/assets/animation/echo-catwalk-block-right.webp",
+      "previousAtlasSha256": "4be761b32b7dca39fe12dbf645b9f93f0f539e3c48dacee3ecab988e4f9558d9",
+      "atlasSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 8,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "celebrate",
+      "frames": 10,
+      "atlas": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+      "previousAtlasSha256": "f9ed943b6427f8c551db9c6003b05dfa69062cf0f82f461e50534cf28279d9a9",
+      "atlasSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+      "minimumMarginsPx": {
+        "left": 9,
+        "right": 9,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-360",
+      "frames": 15,
+      "atlas": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+      "previousAtlasSha256": "b3443fd8ec9190fb7e9aa9a569e0431bd7ba1e4d237cb101af855023bb98e2f7",
+      "atlasSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+      "minimumMarginsPx": {
+        "left": 22,
+        "right": 23,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-clutch",
+      "frames": 15,
+      "atlas": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+      "previousAtlasSha256": "30c7d83e93a54712859e5c19f69235ca8cb242bd91762221f75a91457cce20f5",
+      "atlasSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+      "minimumMarginsPx": {
+        "left": 28,
+        "right": 29,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-double",
+      "frames": 15,
+      "atlas": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+      "previousAtlasSha256": "4a6a803f0714dca2b563196f155abe45fc04760a57b7639bd0a4e3a0e0e43501",
+      "atlasSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+      "minimumMarginsPx": {
+        "left": 24,
+        "right": 25,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-power",
+      "frames": 15,
+      "atlas": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+      "previousAtlasSha256": "985ab4830e2304779dbb9ac84962e56beb252feaa8b9d6c83279cbbe41993007",
+      "atlasSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+      "minimumMarginsPx": {
+        "left": 24,
+        "right": 24,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-reverse",
+      "frames": 15,
+      "atlas": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+      "previousAtlasSha256": "326671968e21cf2a23ddf2cb2162fef46e931b06d535044e3f59dd009a627291",
+      "atlasSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+      "minimumMarginsPx": {
+        "left": 27,
+        "right": 28,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-scythe",
+      "frames": 15,
+      "atlas": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+      "previousAtlasSha256": "c4a959e318f067e3a78b1972076c88c1321861471efa7246c1fe81a98ad16e13",
+      "atlasSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+      "minimumMarginsPx": {
+        "left": 30,
+        "right": 31,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-tomahawk",
+      "frames": 15,
+      "atlas": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+      "previousAtlasSha256": "9cea3b7dace5a088434ca3a87e263910985ab918d60c4f9c75f98605486d6358",
+      "atlasSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+      "minimumMarginsPx": {
+        "left": 26,
+        "right": 27,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-windmill",
+      "frames": 15,
+      "atlas": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+      "previousAtlasSha256": "ed0650c8ff76e47c867a4655f9b91e419f1fe9dddc90475bfa5d45523cd16d20",
+      "atlasSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+      "minimumMarginsPx": {
+        "left": 25,
+        "right": 26,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "fall",
+      "frames": 10,
+      "atlas": "./public/assets/animation/echo-catwalk-fall-right.webp",
+      "previousAtlasSha256": "9413f57fbd018d40ca8b2157983e66b32958b01b5899907ead851d2719c91cbb",
+      "atlasSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 7,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "layup-reverse",
+      "frames": 8,
+      "atlas": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+      "previousAtlasSha256": "3b43d7f9fbaac1bf1dfbdf864a80382511ba82d89c92922bd92d268a225823be",
+      "atlasSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+      "minimumMarginsPx": {
+        "left": 9,
+        "right": 10,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "layup",
+      "frames": 8,
+      "atlas": "./public/assets/animation/echo-catwalk-layup-right.webp",
+      "previousAtlasSha256": "df8368fc60d55f558f538b882079d5500a29a09a48ec37310704fed8b9a60b29",
+      "atlasSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 8,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pass-behind",
+      "frames": 6,
+      "atlas": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+      "previousAtlasSha256": "bc1d507cc738d5409c5905182d352290ebe56e85386d4564cc2a6ebafa2c1c96",
+      "atlasSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+      "minimumMarginsPx": {
+        "left": 6,
+        "right": 7,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pass-overhead",
+      "frames": 6,
+      "atlas": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+      "previousAtlasSha256": "004aac2a7b5efb340a85b91857889bd32dfcdca9012755293cacb27d86cf2dc1",
+      "atlasSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pass",
+      "frames": 6,
+      "atlas": "./public/assets/animation/echo-catwalk-pass-right.webp",
+      "previousAtlasSha256": "af37e9ad37aad1e0154ac6fceb7fd097ee55b0bf9f16f5c40e598c08c01a7ffe",
+      "atlasSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 6,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pickup",
+      "frames": 5,
+      "atlas": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+      "previousAtlasSha256": "95d678b9923d431bb607965fb6a653352c5e8ad43172a0246e843718ae68a929",
+      "atlasSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 8,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "push",
+      "frames": 11,
+      "atlas": "./public/assets/animation/echo-catwalk-push-right.webp",
+      "previousAtlasSha256": "e44eb91c280ecafa3dc85986fc29bc034a3b7f9df9bda9aefd1bbb57e8f76234",
+      "atlasSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "rebound",
+      "frames": 5,
+      "atlas": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+      "previousAtlasSha256": "ec6694b7aabe3bf8372bbc19ad64dbec4a23f798eb432be85db14f3422905ca8",
+      "atlasSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+      "minimumMarginsPx": {
+        "left": 9,
+        "right": 10,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "receive",
+      "frames": 4,
+      "atlas": "./public/assets/animation/echo-catwalk-receive-right.webp",
+      "previousAtlasSha256": "f5b6a57dbf0c5262ba0dfcb0a0066e60b71973dbf61a1f5f04cd97f59aa77fc6",
+      "atlasSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+      "minimumMarginsPx": {
+        "left": 9,
+        "right": 9,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "steal",
+      "frames": 8,
+      "atlas": "./public/assets/animation/echo-catwalk-steal-right.webp",
+      "previousAtlasSha256": "5ca42304a8703f7c8fb20954e8a3eafe12545f1267aa62892694695cd80dce1f",
+      "atlasSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 7,
+        "top": 5,
+        "bottom": 5
+      }
+    }
+  ]
+}

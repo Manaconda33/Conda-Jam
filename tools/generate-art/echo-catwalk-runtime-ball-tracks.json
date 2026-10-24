@@ -1,0 +1,1007 @@
+{
+  "date": "2026-10-24",
+  "athlete": "echo-catwalk",
+  "basis": "Echo-specific frame-indexed values stored separately from sprite art. Authored source tracks are taken from Echo layout provenance where available; remaining points were calibrated against hand contacts and court contact in actual native Canvas captures at 100% and 120%.",
+  "status": "accepted after native visual contact review",
+  "sourceTrackClips": [
+    "layup",
+    "layup-reverse",
+    "pass",
+    "pass-overhead",
+    "pass-behind",
+    "receive",
+    "pickup",
+    "rebound",
+    "steal"
+  ],
+  "tracks": {
+    "idle-ball": {
+      "height": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "forward": [
+        7,
+        8,
+        8,
+        7
+      ]
+    },
+    "dribble": {
+      "height": [
+        1.15,
+        1,
+        0.8,
+        0.5,
+        0.2,
+        0,
+        0.25,
+        0.6,
+        0.95,
+        1.15
+      ],
+      "forward": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
+    },
+    "dribble-run": {
+      "height": [
+        1.15,
+        1.05,
+        0.85,
+        0.55,
+        0.25,
+        0,
+        0.25,
+        0.55,
+        0.85,
+        1.05,
+        1.15
+      ],
+      "forward": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        13,
+        12,
+        11,
+        10,
+        9,
+        9
+      ]
+    },
+    "shoot": {
+      "height": [
+        1,
+        1.1,
+        1.3,
+        1.8,
+        1.6,
+        2.2,
+        2.1,
+        1.5,
+        1.1,
+        0.9
+      ],
+      "forward": [
+        5,
+        7,
+        9,
+        12,
+        6,
+        4.5,
+        12,
+        8,
+        6,
+        5
+      ]
+    },
+    "pass": {
+      "height": [
+        1,
+        1.05,
+        1.2,
+        1.6,
+        1.3,
+        1
+      ],
+      "forward": [
+        5,
+        4,
+        13,
+        19,
+        16,
+        8
+      ]
+    },
+    "pass-overhead": {
+      "height": [
+        1.1,
+        1.25,
+        1.8,
+        2.1,
+        1.85,
+        1.1
+      ],
+      "forward": [
+        5,
+        5,
+        8,
+        8,
+        10,
+        7
+      ]
+    },
+    "pass-behind": {
+      "height": [
+        1,
+        1.1,
+        0.8,
+        1.1,
+        1.15,
+        1
+      ],
+      "forward": [
+        5,
+        5,
+        -4,
+        14,
+        15,
+        7
+      ]
+    },
+    "receive": {
+      "height": [
+        1.2,
+        1.35,
+        1.4,
+        1.2
+      ],
+      "forward": [
+        4,
+        8,
+        4,
+        7
+      ]
+    },
+    "pickup": {
+      "height": [
+        1.2,
+        0.65,
+        0.25,
+        0,
+        0.75
+      ],
+      "forward": [
+        5,
+        8,
+        12,
+        14,
+        9
+      ]
+    },
+    "layup": {
+      "height": [
+        1,
+        1.1,
+        1.4,
+        1.4,
+        2,
+        2.8,
+        2.2,
+        1
+      ],
+      "forward": [
+        5,
+        8,
+        9,
+        5,
+        8,
+        12,
+        9,
+        7
+      ]
+    },
+    "layup-reverse": {
+      "height": [
+        1,
+        1.1,
+        1.2,
+        1.6,
+        2.2,
+        2.4,
+        1.5,
+        0.8
+      ],
+      "forward": [
+        5,
+        8,
+        7,
+        4,
+        -5,
+        -7,
+        0,
+        5
+      ]
+    },
+    "rebound": {
+      "height": [
+        0.95,
+        1.5,
+        2.4,
+        1.9,
+        1.5
+      ],
+      "forward": [
+        6,
+        6,
+        9,
+        2,
+        8
+      ]
+    },
+    "steal": {
+      "height": [
+        1,
+        1.1,
+        0.65,
+        1.1,
+        0.8,
+        1.1,
+        1.2,
+        1
+      ],
+      "forward": [
+        5,
+        8,
+        12,
+        15,
+        7,
+        8,
+        8,
+        5
+      ]
+    },
+    "dunk-power": {
+      "height": [
+        1,
+        1.15,
+        1.25,
+        1.4,
+        1.65,
+        1.9,
+        2.1,
+        2.25,
+        2.35,
+        1.7,
+        2.08,
+        1.65,
+        1.1,
+        0.75,
+        0.65
+      ],
+      "forward": [
+        6,
+        8,
+        9,
+        10,
+        10,
+        8,
+        6,
+        6,
+        9,
+        3,
+        -2.1,
+        13,
+        10,
+        8,
+        7
+      ]
+    },
+    "dunk-windmill": {
+      "height": [
+        1,
+        1.1,
+        1.2,
+        1,
+        0.8,
+        0.9,
+        1.2,
+        1.6,
+        2,
+        2.2,
+        2.1,
+        1.7,
+        1.2,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        6,
+        8,
+        9,
+        -3,
+        -7,
+        -10,
+        -8,
+        -4,
+        0,
+        6,
+        11,
+        12,
+        8,
+        5,
+        4
+      ]
+    },
+    "dunk-reverse": {
+      "height": [
+        1,
+        1.1,
+        1.2,
+        1.5,
+        1.8,
+        2,
+        2.2,
+        2.3,
+        2.4,
+        1.9,
+        2.1,
+        1.7,
+        1.2,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        6,
+        8,
+        10,
+        9,
+        7,
+        4,
+        2,
+        -2,
+        -6,
+        15,
+        -11,
+        -8,
+        -3,
+        3,
+        4
+      ]
+    },
+    "dunk-360": {
+      "height": [
+        1,
+        1.1,
+        1.3,
+        1.6,
+        1.9,
+        2.1,
+        2.3,
+        2.4,
+        2.4,
+        1.7,
+        2.1,
+        1.7,
+        1.2,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        6,
+        8,
+        10,
+        11,
+        8,
+        4,
+        0,
+        -5,
+        -8,
+        1,
+        13,
+        10,
+        5,
+        4,
+        4
+      ]
+    },
+    "dunk-tomahawk": {
+      "height": [
+        1,
+        1.1,
+        1.3,
+        1.6,
+        1.9,
+        2,
+        2.1,
+        2,
+        1.9,
+        1.8,
+        2.1,
+        1.6,
+        1.1,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        6,
+        8,
+        9,
+        7,
+        3,
+        0,
+        -3,
+        -5,
+        -7,
+        4,
+        12,
+        8,
+        5,
+        4,
+        4
+      ]
+    },
+    "dunk-double": {
+      "height": [
+        1,
+        1.1,
+        1.3,
+        1.8,
+        2.5,
+        1.4,
+        1.1,
+        1.6,
+        2.5,
+        1.8,
+        2.1,
+        1.7,
+        1.2,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        6,
+        8,
+        8,
+        3,
+        1,
+        -1,
+        2,
+        6,
+        10,
+        4,
+        12,
+        8,
+        5,
+        4,
+        4
+      ]
+    },
+    "dunk-clutch": {
+      "height": [
+        1,
+        1.05,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2,
+        2.2,
+        2.3,
+        1.7,
+        2.15,
+        1.7,
+        1.2,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        5,
+        6,
+        7,
+        8,
+        7,
+        6,
+        4,
+        5,
+        9,
+        4,
+        12,
+        8,
+        5,
+        4,
+        4
+      ]
+    },
+    "dunk-scythe": {
+      "height": [
+        1,
+        1.1,
+        1.2,
+        1,
+        0.8,
+        0.6,
+        0.7,
+        1,
+        1.6,
+        1.7,
+        2.3,
+        1.8,
+        1.2,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        6,
+        4,
+        1,
+        -5,
+        -9,
+        -12,
+        -10,
+        -6,
+        0,
+        2,
+        13,
+        9,
+        5,
+        4,
+        4
+      ]
+    },
+    "alley-oop-power": {
+      "height": [
+        1.5,
+        1.8,
+        2.1,
+        2.5,
+        2.5,
+        2,
+        1.5,
+        1.3,
+        1.2,
+        1.7,
+        2.2,
+        1.5,
+        1,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        13,
+        10,
+        8,
+        6,
+        4,
+        2,
+        1,
+        2,
+        7,
+        4,
+        12,
+        8,
+        5,
+        4,
+        4
+      ]
+    },
+    "alley-oop-reverse": {
+      "height": [
+        1.5,
+        1.8,
+        2.1,
+        2.2,
+        2.3,
+        1.3,
+        2.5,
+        2.3,
+        2,
+        1.6,
+        2.1,
+        1.6,
+        1,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        12,
+        10,
+        8,
+        6,
+        2,
+        6,
+        -2,
+        0,
+        0,
+        8,
+        -13,
+        -8,
+        -3,
+        4,
+        4
+      ]
+    }
+  },
+  "calibrationNotes": [
+    {
+      "clip": "rebound",
+      "frame": 3,
+      "tick": 5,
+      "before": {
+        "height": 3,
+        "forward": 11
+      },
+      "after": {
+        "height": 1.9,
+        "forward": 2
+      },
+      "reason": "Native 100%/120% capture placed the ball above and in front of the authored two-hand grab; lowered and centered it on Echo’s hands."
+    },
+    {
+      "clip": "steal",
+      "frame": 3,
+      "tick": 5,
+      "before": {
+        "height": 0.25,
+        "forward": 15
+      },
+      "after": {
+        "height": 1.1,
+        "forward": 15
+      },
+      "reason": "Native capture showed the catch ball near court height while the authored catch hand is raised; lifted it to meet the hand."
+    },
+    {
+      "clip": "pass",
+      "frame": 2,
+      "before": {
+        "height": 1.2,
+        "forward": 5
+      },
+      "after": {
+        "height": 1.2,
+        "forward": 13
+      },
+      "reason": "Independent native 120% left/right review found possession hidden against the torso; moved the carried ball toward the forward-reaching hand."
+    },
+    {
+      "clip": "receive",
+      "frame": 2,
+      "before": {
+        "height": 1.4,
+        "forward": 11
+      },
+      "after": {
+        "height": 1.4,
+        "forward": 4
+      },
+      "reason": "Independent native 120% left/right review found the catch ball 30–40 screen pixels beyond the receiving hands; pulled it back to the hand position."
+    },
+    {
+      "clip": "layup",
+      "frame": 3,
+      "before": {
+        "height": 2.1,
+        "forward": 12
+      },
+      "after": {
+        "height": 1.4,
+        "forward": 5
+      },
+      "reason": "Independent native 120% contact review found the last carried ball about 35px ahead and 20px above the raised hand; lowered and brought it to the hand."
+    },
+    {
+      "clip": "dunk-power",
+      "frame": 9,
+      "before": {
+        "height": 2.3,
+        "forward": 13
+      },
+      "after": {
+        "height": 2,
+        "forward": 6
+      },
+      "reason": "Independent native 120% contact review found the pre-release ball about 25px ahead and 15px above the raised hand; lowered and centered it on the hand."
+    },
+    {
+      "clip": "shoot",
+      "frame": 4,
+      "before": {
+        "height": 2.5,
+        "forward": 15
+      },
+      "after": {
+        "height": 1.6,
+        "forward": 6
+      },
+      "reason": "Native 100%/120% contact review found the last carried/set ball 35–45px ahead and 15px above gathered hands; moved it into the set position."
+    },
+    {
+      "clip": "shoot",
+      "frame": 5,
+      "before": {
+        "height": 2.5,
+        "forward": 15
+      },
+      "after": {
+        "height": 3,
+        "forward": 10.5
+      },
+      "reason": "Native review found the release ball about 20px ahead and below the fingertips; moved the release point toward fingertips."
+    },
+    {
+      "clip": "layup",
+      "frame": 4,
+      "before": {
+        "height": 2.7,
+        "forward": 15
+      },
+      "after": {
+        "height": 2,
+        "forward": 8
+      },
+      "reason": "Native 100%/120% review found the launch point about 25px beyond the raised hand; pulled it toward fingertips."
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "frame": 5,
+      "before": {
+        "height": 2.5,
+        "forward": 0
+      },
+      "after": {
+        "height": 1.3,
+        "forward": 0
+      },
+      "reason": "Native 100%/120% review found the catch ball roughly 30–40px above the two-hand catch; lowered it to hand level."
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "frame": 7,
+      "before": {
+        "height": 2.3,
+        "forward": -5
+      },
+      "after": {
+        "height": 2.3,
+        "forward": 0
+      },
+      "reason": "Native review showed the reverse gather ball lagging the turned hand; shifted it toward the hand as Echo rotates."
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "frame": 8,
+      "before": {
+        "height": 2.2,
+        "forward": -9
+      },
+      "after": {
+        "height": 2,
+        "forward": 0
+      },
+      "reason": "Native review showed the reverse gather ball trailing the behind-head hand; shifted and lowered it toward the hand."
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "frame": 9,
+      "before": {
+        "height": 2.2,
+        "forward": -13
+      },
+      "after": {
+        "height": 1.6,
+        "forward": 3
+      },
+      "reason": "Native 100%/120% review found the pre-release ball 30–50px behind the extended hand; moved it onto the hand and lowered slightly."
+    },
+    {
+      "clip": "dunk-power",
+      "frame": 9,
+      "before": {
+        "height": 2,
+        "forward": 6
+      },
+      "after": {
+        "height": 1.7,
+        "forward": 3
+      },
+      "reason": "Native 100%/120% review found the last carried ball about 20px ahead and high; moved it toward the raised hand."
+    },
+    {
+      "clip": "dunk-reverse",
+      "frame": 9,
+      "before": {
+        "height": 2.3,
+        "forward": -10
+      },
+      "after": {
+        "height": 1.6,
+        "forward": 5
+      },
+      "reason": "Native review found the last carried ball 30–45px behind the hand; moved it across to the extended hand and lowered it."
+    },
+    {
+      "clip": "dunk-360",
+      "frame": 9,
+      "before": {
+        "height": 2.3,
+        "forward": 10
+      },
+      "after": {
+        "height": 1.7,
+        "forward": 1
+      },
+      "reason": "Native review found the last carried ball about 30px ahead and high; centered it on the raised hand."
+    },
+    {
+      "clip": "dunk-tomahawk",
+      "frame": 9,
+      "before": {
+        "height": 2.25,
+        "forward": 13
+      },
+      "after": {
+        "height": 1.8,
+        "forward": 4
+      },
+      "reason": "Native review found the last carried ball about 20px ahead and high; moved it toward the tomahawk grip."
+    },
+    {
+      "clip": "dunk-clutch",
+      "frame": 9,
+      "before": {
+        "height": 2.3,
+        "forward": 13
+      },
+      "after": {
+        "height": 1.7,
+        "forward": 4
+      },
+      "reason": "Native review found the last carried ball about 20px ahead and high; moved it toward the clutch grip."
+    },
+    {
+      "clip": "dunk-scythe",
+      "frame": 9,
+      "before": {
+        "height": 2.4,
+        "forward": 10
+      },
+      "after": {
+        "height": 1.7,
+        "forward": 2
+      },
+      "reason": "Native review found the last carried ball about 25px ahead and high; moved it into the hand path."
+    },
+    {
+      "clip": "alley-oop-power",
+      "frame": 9,
+      "before": {
+        "height": 2.2,
+        "forward": 12
+      },
+      "after": {
+        "height": 1.7,
+        "forward": 4
+      },
+      "reason": "Native review found the last carried ball about 20px ahead and high; centered it on the one-hand finish."
+    },
+    {
+      "clip": "dunk-double",
+      "frame": 9,
+      "before": {
+        "height": 2.3,
+        "forward": 13
+      },
+      "after": {
+        "height": 1.8,
+        "forward": 4
+      },
+      "reason": "Native review found the last carried ball 15–25px off the two-hand grip in a horizontal body pose; re-anchored it to both hands."
+    },
+    {
+      "clip": "pass",
+      "frame": 3,
+      "before": {
+        "height": 1.6,
+        "forward": 14
+      },
+      "after": {
+        "height": 1.6,
+        "forward": 19
+      },
+      "reason": "Native 100%/120% review found the post-release ball hidden at the hand; moved it slightly forward to clear the sprite."
+    },
+    {
+      "clip": "shoot",
+      "frame": 5,
+      "before": {
+        "height": 3,
+        "forward": 10.5
+      },
+      "after": {
+        "height": 2.2,
+        "forward": 4.5
+      },
+      "reason": "Facing-specific native review found the release ball about 17px right and 19px above fingertips; moved it to the release point at the fingers."
+    },
+    {
+      "clip": "layup",
+      "frame": 4,
+      "before": {
+        "height": 2,
+        "forward": 8
+      },
+      "after": {
+        "height": 1.2,
+        "forward": 1
+      },
+      "reason": "Native review found the release ball about 16px right and 23px high of fingertips; brought it down and toward the fingers."
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "frame": 5,
+      "before": {
+        "height": 1.3,
+        "forward": 0
+      },
+      "after": {
+        "height": 1.3,
+        "forward": 6
+      },
+      "reason": "Native review found the lowered two-hand catch still occluded; shifted it toward the receiving hands."
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "frame": 9,
+      "before": {
+        "height": 1.6,
+        "forward": 3
+      },
+      "after": {
+        "height": 1.6,
+        "forward": 8
+      },
+      "reason": "Native 100%/120% review found a remaining 15–20px gap at the extended hand; shifted the last carried ball to the hand."
+    },
+    {
+      "clip": "dunk-reverse",
+      "frame": 9,
+      "before": {
+        "height": 1.6,
+        "forward": 5
+      },
+      "after": {
+        "height": 1.9,
+        "forward": 15
+      },
+      "reason": "Native review found the reverse dunk ball 20–25px outside and slightly low of the raised hand; shifted and raised it into the grip."
+    },
+    {
+      "clip": "layup",
+      "frame": 4,
+      "before": {
+        "height": 1.2,
+        "forward": 1
+      },
+      "after": {
+        "height": 2,
+        "forward": 8
+      },
+      "reason": "Direct side-by-side review of mirrored native 120% captures showed revision3 at height2.0/forward8 places the ball directly on the fingertips in both facings; the revision4 reduction hid the ball behind Echo’s sprite. Restored the visually verified point."
+    }
+  ]
+}

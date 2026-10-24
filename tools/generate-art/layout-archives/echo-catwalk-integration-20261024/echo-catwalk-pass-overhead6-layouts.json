@@ -1,0 +1,157 @@
+[
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "pass-overhead",
+    "src": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "echo-catwalk",
+      "clip": "pass-overhead",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-85b81116-bfce-47da-ae95-26501b94f610",
+      "imageGenerationId": "exec-85b81116-bfce-47da-ae95-26501b94f610",
+      "rawSourceImage": "tools/generate-art/sources/echo-catwalk-pass-overhead-generated-raw.png",
+      "rawSourceSha256": "1b9ad5366cf8fa84ecae54195aa13f286c652d7233508f181ef8b4857bf4d353",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-pass-overhead-generated-raw.png",
+      "sourceSha256": "1b9ad5366cf8fa84ecae54195aa13f286c652d7233508f181ef8b4857bf4d353",
+      "promptFile": "tools/generate-art/echo-catwalk-pass-overhead-prompt.md",
+      "prompt": "Use the referenced Echo Catwalk sprite sheet only to preserve Echo's exact identity, body, face, colors, hair, beard and scale. Do not copy its poses. Create six NEW full-body overhead-pass poses for JAMVERSE '96, on a 1536\u00d71024 transparent RGBA pixel-art sheet, strict three columns by two rows in reading order. Keep each entire body inside its own cell with broad transparent gutters. No backgrounds, scenery, panels, gridlines, court, floor, shadows, text, objects, hoop, ball or basketball.\n\nThe reference is ECHO CATWALK. Preserve this exact compact athletic ADULT HUMAN MAN from the reference: medium-brown skin, short spiky dark-teal hair, teal headband, close dark-teal beard, teal sleeveless jersey, black/deep-purple side panels, teal shorts, black knee pads, teal-black shoes and wristbands. Keep his male face, beard, hair silhouette and uniform unchanged. Absolutely no woman, girl, lavender hair, ponytail, bow, headband in any other color, altered body or extra accessories. Exactly two arms, two hands, two legs and two shoes in every drawing.\n\nRight-facing, body moving toward image-right. Both natural hands stay empty because game code renders the basketball separately; do not draw any ball or prop. Pose sequence:\n0 balanced stance, empty hands at chest;\n1 gather at chest and bend knees;\n2 raise both hands above forehead, tracking invisible ball;\n3 single RELEASE at simulation tick5: arms extend upward and slightly right, wrists snap, fingers open and empty;\n4 full overhead follow-through, torso leans toward target;\n5 balanced recovery with arms lowering naturally.\n\nAll six poses must be connected, unique, complete full-body drawings, consistent in scale and anatomy. True transparent alpha-zero background and gutters, no haze, matte or checkerboard. Crisp 1990s arcade pixel clusters. Return only the sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [
+        {
+          "generationId": "exec-5c67223e-5072-4d01-960c-567968357ef1",
+          "rawSourceImage": "tools/generate-art/sources/echo-catwalk-pass-overhead-rejected-juniper-identity-raw.png",
+          "rawSourceSha256": "ff554523855fd5abeee6c165ccafd94426d07461b2c10edaa56f51bc3758db92",
+          "prompt": "Create an original 1536\u00d71024 transparent RGBA 2D pixel-art sprite sheet for JAMVERSE '96: Echo Catwalk of Neo Runway Precision performing a right-facing overhead basketball pass. Arrange exactly six separate complete full-body poses in a strict three-column by two-row grid, row-major, with broad transparent gutters and outer margins. Each pose stays inside its own cell. Same camera, scale, baseline, anatomy and identity. No borders, court, floor, shadows, glow, text, ball, prop, teammate, opponent, hoop or rim.\n\nEcho is a compact athletic adult human man with medium-brown skin, short spiky-curly dark-teal hair, teal forehead band, neatly trimmed dark-teal beard and focused distinct face. He wears a sleeveless teal basketball jersey and shorts with black and deep-purple accents, black knee pads, teal-black basketball shoes and simple wristbands. Preserve this exact face, human anatomy, hair, headband, beard and uniform consistently in every pose. Exactly two natural arms, hands, legs and shoes. Both hands empty; the game supplies the ball separately. Never draw a ball, sphere, orb, seams or object.\n\nSix mechanically connected right-facing overhead-pass poses:\n0 balanced ready stance, hands empty at chest;\n1 gather at chest and bend knees;\n2 raise both hands above forehead, tracking invisible ball;\n3 RELEASE at simulation tick5: both arms extend upward and slightly right, wrists snap, fingers open, hands empty;\n4 full overhead follow-through, torso leans toward target and heels lift naturally;\n5 balanced recovery, arms lower, feet stable.\n\nEach pose distinct, full-body, readable and proportionate, moving toward image-right. Maintain generous transparent margin around hair, raised hands and shoes. Crisp 1990s arcade pixel clusters, sharp outline, gameplay readability, true transparent RGBA gutters/exterior without haze, checkerboard, matte, text or props. Return only the sprite sheet.",
+          "reason": "Rejected after visual inspection: generated Juniper Vale with long lavender ponytail and feminine face instead of Echo Catwalk."
+        }
+      ],
+      "mirrorEligible": true,
+      "ballPolicy": "Separate Echo-specific ball tracks above the forehead on both hands, then releases at frame3/tick5. It is never painted into poses.",
+      "ballTrack": {
+        "height": [
+          1.1,
+          1.25,
+          1.8,
+          2.1,
+          1.85,
+          1.1
+        ],
+        "forward": [
+          5,
+          5,
+          8,
+          8,
+          10,
+          7
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Correct Echo Catwalk male identity based on existing canon art reference: medium-brown skin, short dark-teal hair/headband, close teal beard, teal/deep-purple uniform. Six distinct complete overhead-pass poses with empty hands, raised overhead release and safe margins."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 178,
+          "y": 55,
+          "w": 243,
+          "h": 416,
+          "component": 2,
+          "area": 47728
+        },
+        {
+          "sourceIndex": 1,
+          "x": 665,
+          "y": 99,
+          "w": 212,
+          "h": 370,
+          "component": 3,
+          "area": 44206
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1129,
+          "y": 17,
+          "w": 213,
+          "h": 454,
+          "component": 1,
+          "area": 50571
+        },
+        {
+          "sourceIndex": 3,
+          "x": 190,
+          "y": 488,
+          "w": 258,
+          "h": 506,
+          "component": 4,
+          "area": 55301
+        },
+        {
+          "sourceIndex": 4,
+          "x": 630,
+          "y": 506,
+          "w": 307,
+          "h": 488,
+          "component": 5,
+          "area": 50087
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1114,
+          "y": 573,
+          "w": 264,
+          "h": 421,
+          "component": 6,
+          "area": 48872
+        }
+      ],
+      "uniformScale": 0.18181818181818182,
+      "componentIsolation": true,
+      "packaging": "package-action6.py; 64x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses"
+    }
+  }
+]

@@ -91,7 +91,11 @@
       },
       "review": {
         "status": "accepted",
-        "reviewNotes": "Correct Echo Catwalk male identity based on existing canon art reference: medium-brown skin, short dark-teal hair/headband, close teal beard, teal/deep-purple uniform. Six distinct complete overhead-pass poses with empty hands, raised overhead release and safe margins."
+        "reviewNotes": "Correct Echo Catwalk male identity based on existing canon art reference: medium-brown skin, short dark-teal hair/headband, close teal beard, teal/deep-purple uniform. Six distinct complete overhead-pass poses with empty hands, raised overhead release and safe margins.",
+        "integrationReview": {
+          "status": "pending-independent-source-and-native-review",
+          "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+        }
       },
       "sourceRects": [
         {
@@ -151,7 +155,119 @@
       ],
       "uniformScale": 0.18181818181818182,
       "componentIsolation": true,
-      "packaging": "package-action6.py; 64x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses"
-    }
+      "packaging": "package-action6.py; 64x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-echo-catwalk-package.py",
+        "previousAtlasSha256": "004aac2a7b5efb340a85b91857889bd32dfcdca9012755293cacb27d86cf2dc1",
+        "atlasSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+        "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+        "minimumMarginsPx": {
+          "left": 5,
+          "right": 5,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 10,
+              "top": 15,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              64,
+              0,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 13,
+              "top": 24,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              128,
+              0,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 13,
+              "top": 8,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 10,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              64,
+              96,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              128,
+              96,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 8,
+              "right": 8,
+              "top": 14,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3"
   }
 ]

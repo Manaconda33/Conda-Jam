@@ -159,7 +159,34 @@
       ],
       "uniformScale": 0.23057644110275688,
       "componentIsolation": false,
-      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "runtimeBallTrack": {
+        "height": [
+          1,
+          1.1,
+          1.3,
+          1.8,
+          1.6,
+          2.2,
+          2.1,
+          1.5,
+          1.1,
+          0.9
+        ],
+        "forward": [
+          5,
+          7,
+          9,
+          12,
+          6,
+          4.5,
+          12,
+          8,
+          6,
+          5
+        ]
+      },
+      "separateBall": true
     }
   }
 ]

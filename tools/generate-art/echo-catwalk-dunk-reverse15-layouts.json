@@ -109,7 +109,11 @@
       "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
       "review": {
         "status": "accepted",
-        "notes": "15 full-body poses preserve Echo\u2019s male face, beard, headband, dark-teal hair, teal uniform, knee pads, anatomy and scale. Distinct reverse rotation with visible back-facing poses, reach/release, descent and landing. No ball in source."
+        "notes": "15 full-body poses preserve Echo\u2019s male face, beard, headband, dark-teal hair, teal uniform, knee pads, anatomy and scale. Distinct reverse rotation with visible back-facing poses, reach/release, descent and landing. No ball in source.",
+        "integrationReview": {
+          "status": "pending-independent-source-and-native-review",
+          "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+        }
       },
       "ballTrack": {
         "owner": "echo-catwalk",
@@ -257,7 +261,263 @@
       ],
       "uniformScale": 0.2822085889570552,
       "componentIsolation": true,
-      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
-    }
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-echo-catwalk-package.py",
+        "previousAtlasSha256": "326671968e21cf2a23ddf2cb2162fef46e931b06d535044e3f59dd009a627291",
+        "atlasSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+        "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+        "minimumMarginsPx": {
+          "left": 27,
+          "right": 28,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 31,
+              "right": 31,
+              "top": 24,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              128,
+              0,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 27,
+              "right": 28,
+              "top": 20,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              256,
+              0,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 43,
+              "right": 43,
+              "top": 24,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              384,
+              0,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 40,
+              "right": 40,
+              "top": 12,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 33,
+              "right": 33,
+              "top": 7,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              128,
+              96,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 32,
+              "right": 33,
+              "top": 13,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              256,
+              96,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 31,
+              "right": 32,
+              "top": 20,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              384,
+              96,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 45,
+              "right": 46,
+              "top": 26,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 8,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              192,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 31,
+              "right": 31,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 9,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              128,
+              192,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 35,
+              "right": 36,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 10,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              256,
+              192,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 36,
+              "right": 37,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 11,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              384,
+              192,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 33,
+              "right": 34,
+              "top": 12,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 12,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              288,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 38,
+              "right": 39,
+              "top": 22,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 13,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              128,
+              288,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 36,
+              "right": 37,
+              "top": 34,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 14,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              256,
+              288,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 39,
+              "right": 39,
+              "top": 20,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f"
   }
 ]

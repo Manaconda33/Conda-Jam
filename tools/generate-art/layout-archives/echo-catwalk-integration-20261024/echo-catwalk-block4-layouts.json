@@ -1,0 +1,101 @@
+[
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "block",
+    "src": "./public/assets/animation/echo-catwalk-block-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "echo-catwalk",
+      "clip": "block",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-75352449-175a-4065-a796-fe99d2ee7666",
+      "imageGenerationId": "exec-75352449-175a-4065-a796-fe99d2ee7666",
+      "rawSourceImage": "tools/generate-art/sources/echo-catwalk-block-generated-raw.png",
+      "rawSourceSha256": "97b2ff0738334d8ac1149bee80bf6a762f8b21b26460b46e20e2576c4a68c39c",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-block-generated-raw.png",
+      "sourceSha256": "97b2ff0738334d8ac1149bee80bf6a762f8b21b26460b46e20e2576c4a68c39c",
+      "promptFile": "tools/generate-art/echo-catwalk-block-prompt.md",
+      "prompt": "Use the Echo Catwalk reference only for exact identity and pixel scale. Make four fresh full-body blocking poses in a 1536\u00d71024 RGBA pixel-art sprite sheet, strict two-by-two grid, row-major, with generous transparent gutters. All hands empty. No ball, court, floor, hoop, background, text or props.\n\nEcho is a compact athletic ADULT HUMAN MAN, medium-brown skin, short spiky dark-teal curls, teal headband, neatly trimmed dark-teal beard, teal sleeveless basketball jersey and shorts with black/deep-purple accents, black knee pads, teal-black shoes and wristbands. Preserve male face, hairstyle, beard, uniform, proportions and consistent size. Exactly two arms/hands, two legs/shoes.\n\nFour connected right-facing defense/blocking poses:\n0 bent-knee defensive ready stance, arms half-raised;\n1 plants and jumps vertically, right hand begins reaching up, other arm counterbalances;\n2 BLOCK apex at simulation tick4: fully airborne, right hand extended high to contest, palm open, legs tucked naturally;\n3 descend, arms lower and feet prepare for balanced landing.\n\nEach full body distinct and clear, inside its own cell. True transparent alpha-zero background and spaces, no halo, floor, shadow or checkerboard. Crisp 1990s arcade pixel clusters. Return only the sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "No ball is held during block; when the separate game ball is contested it remains separately rendered.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Four distinct complete right-facing blocking frames: defensive ready, plant/jump, high apex block at frame2/tick5, descent. Canon identity and empty hands."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 259,
+          "y": 96,
+          "w": 359,
+          "h": 386,
+          "component": 2,
+          "area": 53681
+        },
+        {
+          "sourceIndex": 1,
+          "x": 881,
+          "y": 7,
+          "w": 373,
+          "h": 490,
+          "component": 1,
+          "area": 59197
+        },
+        {
+          "sourceIndex": 2,
+          "x": 262,
+          "y": 472,
+          "w": 396,
+          "h": 524,
+          "component": 3,
+          "area": 64039
+        },
+        {
+          "sourceIndex": 3,
+          "x": 934,
+          "y": 600,
+          "w": 320,
+          "h": 400,
+          "component": 4,
+          "area": 58774
+        }
+      ],
+      "uniformScale": 0.17557251908396945,
+      "componentIsolation": true,
+      "packaging": "package-action4.py; 80x96 cells; baseline94; lossless WebP; 4 original block poses"
+    }
+  }
+]

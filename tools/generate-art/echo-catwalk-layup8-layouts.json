@@ -99,7 +99,11 @@
       },
       "review": {
         "status": "accepted",
-        "reviewNotes": "Eight distinct complete right-facing Echo poses show approach, gather, one-foot load, airborne right-hand release at frame4/tick10, follow-through, descent, landing and recovery. Correct identity, all hands empty."
+        "reviewNotes": "Eight distinct complete right-facing Echo poses show approach, gather, one-foot load, airborne right-hand release at frame4/tick10, follow-through, descent, landing and recovery. Correct identity, all hands empty.",
+        "integrationReview": {
+          "status": "pending-independent-source-and-native-review",
+          "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+        }
       },
       "sourceRects": [
         {
@@ -177,7 +181,151 @@
       ],
       "uniformScale": 0.1908713692946058,
       "componentIsolation": true,
-      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup poses"
-    }
+      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-echo-catwalk-package.py",
+        "previousAtlasSha256": "df8368fc60d55f558f538b882079d5500a29a09a48ec37310704fed8b9a60b29",
+        "atlasSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+        "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+        "minimumMarginsPx": {
+          "left": 7,
+          "right": 8,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 7,
+              "right": 8,
+              "top": 18,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              80,
+              0,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 13,
+              "right": 13,
+              "top": 19,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              160,
+              0,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 18,
+              "right": 18,
+              "top": 13,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              240,
+              0,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 9,
+              "right": 10,
+              "top": 7,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 8,
+              "right": 8,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              80,
+              96,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 9,
+              "right": 10,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              160,
+              96,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 9,
+              "right": 10,
+              "top": 19,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              240,
+              96,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 15,
+              "top": 18,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99"
   }
 ]

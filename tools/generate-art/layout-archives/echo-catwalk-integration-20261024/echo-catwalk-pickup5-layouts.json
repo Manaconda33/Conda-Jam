@@ -1,0 +1,132 @@
+[
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "pickup",
+    "src": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "echo-catwalk",
+      "clip": "pickup",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-b780625f-6f11-4637-97f5-3dfa1af66ff9",
+      "imageGenerationId": "exec-b780625f-6f11-4637-97f5-3dfa1af66ff9",
+      "rawSourceImage": "tools/generate-art/sources/echo-catwalk-pickup-generated-raw.png",
+      "rawSourceSha256": "0ae6436552574d59ae281ebd371b9d768a436d4bd4b5477faf8591c34da85f2b",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-pickup-generated-raw.png",
+      "sourceSha256": "0ae6436552574d59ae281ebd371b9d768a436d4bd4b5477faf8591c34da85f2b",
+      "promptFile": "tools/generate-art/echo-catwalk-pickup-prompt.md",
+      "prompt": "Use the referenced Echo Catwalk art only for exact identity, hair, face, clothes, colors and size; draw new poses. Generate five full-body sprite poses for JAMVERSE '96 on one 1536\u00d71024 transparent RGBA pixel-art canvas, organized row-major in a three-column by two-row grid (five cells used, bottom-right cell empty). Keep each full figure inside its cell with clear gutters. No court, floor, background, border, text, ball or object.\n\nEcho is a compact athletic adult human man with medium-brown skin, short spiky dark-teal hair, teal headband, trimmed dark-teal beard, teal sleeveless jersey with deep-purple/black accents, teal shorts, black knee pads, teal-black shoes and wristbands. Match the reference exactly; male face, human anatomy, kit and colors stay consistent. Exactly two arms/hands, two legs/shoes. Both hands empty; game ball is separate and not drawn.\n\nRight-facing ball pickup action:\n0 grounded ready stance, eyes down toward floor, arms relaxed;\n1 steps toward the loose ball and bends at waist/knees, lead hand reaching low;\n2 deep controlled crouch, hand inches above the floor, free hand balances;\n3 PICKUP at simulation tick7: fingertips meet the floor position of the invisible ball, elbow bends, secure empty hand closes around empty space;\n4 rises into a stable possession-ready stance, hand still empty near waist.\n\nFive distinctive connected action poses, natural joints and contact. Do not draw any ball, circles, seams, props, shadows or text. True alpha-zero background/gutters; no matte, halo or checkerboard. Crisp arcade pixel art, small-sprite readability. Return only the sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "The separate Echo ball moves from the floor to his low lead hand and rises with him after pickup frame3/tick7. Never drawn into poses.",
+      "ballTrack": {
+        "height": [
+          1.2,
+          0.65,
+          0.25,
+          0,
+          0.75
+        ],
+        "forward": [
+          5,
+          8,
+          12,
+          14,
+          9
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Five unique full-body frames, clear low right-hand pickup contact at frame3/tick7 and standing recovery. Exactly one unused grid cell, complete intact Echo identity and empty hands."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 128,
+          "y": 23,
+          "w": 267,
+          "h": 475,
+          "component": 1,
+          "area": 71927
+        },
+        {
+          "sourceIndex": 1,
+          "x": 577,
+          "y": 102,
+          "w": 416,
+          "h": 394,
+          "component": 2,
+          "area": 71682
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1102,
+          "y": 184,
+          "w": 398,
+          "h": 308,
+          "component": 3,
+          "area": 66574
+        },
+        {
+          "sourceIndex": 3,
+          "x": 77,
+          "y": 648,
+          "w": 360,
+          "h": 325,
+          "component": 5,
+          "area": 69297
+        },
+        {
+          "sourceIndex": 4,
+          "x": 587,
+          "y": 537,
+          "w": 326,
+          "h": 440,
+          "component": 4,
+          "area": 68636
+        }
+      ],
+      "uniformScale": 0.1936842105263158,
+      "componentIsolation": true,
+      "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses"
+    }
+  }
+]

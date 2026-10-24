@@ -170,7 +170,22 @@
         }
       ],
       "uniformScale": 0.39826839826839827,
-      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "runtimeBallTrack": {
+        "height": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "forward": [
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "separateBall": true
     }
   },
   {
@@ -322,7 +337,34 @@
         }
       ],
       "uniformScale": 0.39826839826839827,
-      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "runtimeBallTrack": {
+        "height": [
+          1.15,
+          1,
+          0.8,
+          0.5,
+          0.2,
+          0,
+          0.25,
+          0.6,
+          0.95,
+          1.15
+        ],
+        "forward": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          11,
+          10,
+          9,
+          8,
+          7
+        ]
+      },
+      "separateBall": true
     }
   },
   {
@@ -652,7 +694,36 @@
         }
       ],
       "uniformScale": 0.39826839826839827,
-      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "runtimeBallTrack": {
+        "height": [
+          1.15,
+          1.05,
+          0.85,
+          0.55,
+          0.25,
+          0,
+          0.25,
+          0.55,
+          0.85,
+          1.05,
+          1.15
+        ],
+        "forward": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          13,
+          12,
+          11,
+          10,
+          9,
+          9
+        ]
+      },
+      "separateBall": true
     }
   }
 ]

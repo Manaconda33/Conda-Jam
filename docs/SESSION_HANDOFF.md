@@ -1,3 +1,12 @@
+## Current continuation checkpoint — 2026-10-24 (Echo Catwalk accepted)
+
+- Workspace `/workspace/Conda-Jam`, branch `codex/jamverse-buzzer-art-retries`. Latest pushed runtime/gameplay baseline before this local art checkpoint was `964e10e` (Nova). Echo's 23-clip integration and acceptance are now in the working tree; deployment is pending full validation and checkpointing.
+- Echo Catwalk is complete at29/29 clips /293 authored drawings. The23 action atlases add241 drawings. Source identity/anatomy, unique separated poses, transparent alpha, five-pixel repacked margins and no-baked-ball review passed. Prompts, generation IDs, hashes, raw/cleaned sources, rejected candidates, layouts, repack archives and proof sheets are preserved.
+- Echo's23 athlete-specific ball tracks are separate from the art and passed independent native Canvas contact review at100% and120% in both facings. Each final preview loads222 images and records87 per-clip summaries /572 action-frame captures. Final captures are under `tools/generate-art/previews/echo-catwalk-package-20261024/native-{100,120}-final-candidate/`; track changes and their frame/tick reasons are in `echo-catwalk-runtime-ball-tracks.json`.
+- The six original generation images underlying Echo's five baseline locomotion clips and `shoot` are unavailable. Their source IDs, SHA-256 hashes and exact prompts remain recorded; original reviewed atlases are retained without invented substitutes.
+- Validation: full `npm test` PASS (30/30 files); `npm run lint` PASS (18 modules); `npm run validate:content` PASS (35 franchises /105 athletes); `npm run simulate:league` PASS (100 matches /861,238 ticks /6 overtime periods); atlas packaging suite PASS (55 tests); `npm run build` PASS; focused Echo/animation tests PASS (3 suites); `npm run test:e2e` PASS on the authorized local-network retry (Chromium offline, match and season journey). The default restricted run could not bind loopback (`listen EPERM`); no app change was needed.
+- Next roster-order source lane: Marco Vellum. Continue through every athlete and required clip; do not treat the remaining audit gaps as completion.
+
 ## Continuation checkpoint — 2026-10-24 (Moxie local validation)
 
 - Workspace: `/workspace/Conda-Jam`, branch `codex/jamverse-buzzer-art-retries` at `82adb13` before the Moxie checkpoint commit. Remote Pages checkpoint remains Keeg J.107 in successful run #159 (`b8fd1d3`); Piper/Briar and Moxie changes are validated locally and await this checkpoint's push/deployment.

@@ -83,7 +83,11 @@
       },
       "review": {
         "status": "accepted",
-        "reviewNotes": "Six distinct connected full-body poses, clear low behind-back gather and torso turn, extended empty release arm at frame3, correct Echo identity and broad margins."
+        "reviewNotes": "Six distinct connected full-body poses, clear low behind-back gather and torso turn, extended empty release arm at frame3, correct Echo identity and broad margins.",
+        "integrationReview": {
+          "status": "pending-independent-source-and-native-review",
+          "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+        }
       },
       "sourceRects": [
         {
@@ -143,7 +147,119 @@
       ],
       "uniformScale": 0.1978494623655914,
       "componentIsolation": true,
-      "packaging": "package-action6.py; 112x96 cells; baseline94; lossless WebP; 6 original pass-behind poses"
-    }
+      "packaging": "package-action6.py; 112x96 cells; baseline94; lossless WebP; 6 original pass-behind poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-echo-catwalk-package.py",
+        "previousAtlasSha256": "bc1d507cc738d5409c5905182d352290ebe56e85386d4564cc2a6ebafa2c1c96",
+        "atlasSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+        "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+        "minimumMarginsPx": {
+          "left": 6,
+          "right": 7,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 22,
+              "right": 23,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              112,
+              0,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 20,
+              "right": 20,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              224,
+              0,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 20,
+              "right": 21,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 6,
+              "right": 7,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              112,
+              96,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 11,
+              "right": 12,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              224,
+              96,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 23,
+              "right": 23,
+              "top": 5,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff"
   }
 ]

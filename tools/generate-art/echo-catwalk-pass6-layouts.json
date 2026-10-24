@@ -83,7 +83,11 @@
       },
       "review": {
         "status": "accepted",
-        "reviewNotes": "Six distinct connected full-body chest-pass poses, complete body, clean empty hands, consistent Echo identity and safe margins. Pose3 has an extended rightward hand for the separate ball release at tick5."
+        "reviewNotes": "Six distinct connected full-body chest-pass poses, complete body, clean empty hands, consistent Echo identity and safe margins. Pose3 has an extended rightward hand for the separate ball release at tick5.",
+        "integrationReview": {
+          "status": "pending-independent-source-and-native-review",
+          "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+        }
       },
       "sourceRects": [
         {
@@ -143,7 +147,119 @@
       ],
       "uniformScale": 0.2081447963800905,
       "componentIsolation": true,
-      "packaging": "package-action6.py; 112x96 cells; baseline94; lossless WebP; 6 original pass poses"
-    }
+      "packaging": "package-action6.py; 112x96 cells; baseline94; lossless WebP; 6 original pass poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-echo-catwalk-package.py",
+        "previousAtlasSha256": "af37e9ad37aad1e0154ac6fceb7fd097ee55b0bf9f16f5c40e598c08c01a7ffe",
+        "atlasSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+        "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+        "minimumMarginsPx": {
+          "left": 5,
+          "right": 6,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 23,
+              "right": 24,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              112,
+              0,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 28,
+              "right": 28,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              224,
+              0,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 14,
+              "right": 15,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 6,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              112,
+              96,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 6,
+              "right": 6,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              224,
+              96,
+              112,
+              96
+            ],
+            "marginsPx": {
+              "left": 23,
+              "right": 23,
+              "top": 5,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0"
   }
 ]

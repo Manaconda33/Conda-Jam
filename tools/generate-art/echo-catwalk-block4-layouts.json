@@ -53,7 +53,11 @@
       "ballPolicy": "No ball is held during block; when the separate game ball is contested it remains separately rendered.",
       "review": {
         "status": "accepted",
-        "reviewNotes": "Four distinct complete right-facing blocking frames: defensive ready, plant/jump, high apex block at frame2/tick5, descent. Canon identity and empty hands."
+        "reviewNotes": "Four distinct complete right-facing blocking frames: defensive ready, plant/jump, high apex block at frame2/tick5, descent. Canon identity and empty hands.",
+        "integrationReview": {
+          "status": "pending-independent-source-and-native-review",
+          "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+        }
       },
       "sourceRects": [
         {
@@ -95,7 +99,87 @@
       ],
       "uniformScale": 0.17557251908396945,
       "componentIsolation": true,
-      "packaging": "package-action4.py; 80x96 cells; baseline94; lossless WebP; 4 original block poses"
-    }
+      "packaging": "package-action4.py; 80x96 cells; baseline94; lossless WebP; 4 original block poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-echo-catwalk-package.py",
+        "previousAtlasSha256": "4be761b32b7dca39fe12dbf645b9f93f0f539e3c48dacee3ecab988e4f9558d9",
+        "atlasSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+        "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+        "minimumMarginsPx": {
+          "left": 7,
+          "right": 8,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 8,
+              "right": 9,
+              "top": 23,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              80,
+              0,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 7,
+              "right": 8,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 7,
+              "right": 8,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              80,
+              96,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 12,
+              "top": 21,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e"
   }
 ]

@@ -90,7 +90,11 @@
       },
       "review": {
         "status": "accepted",
-        "reviewNotes": "Five distinct full-body rebound poses with two visible empty hands at each pose; frame3/tick5 catches the separately rendered ball overhead; final recovery has open separated empty hands. No ball remains baked in the accepted art."
+        "reviewNotes": "Five distinct full-body rebound poses with two visible empty hands at each pose; frame3/tick5 catches the separately rendered ball overhead; final recovery has open separated empty hands. No ball remains baked in the accepted art.",
+        "integrationReview": {
+          "status": "pending-independent-source-and-native-review",
+          "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+        }
       },
       "cleanup": {
         "script": "tools/generate-art/clean-echo-catwalk-rebound5.py",
@@ -146,7 +150,103 @@
       ],
       "uniformScale": 0.18699186991869918,
       "componentIsolation": true,
-      "packaging": "package-action5.py; 80x96 cells; baseline94; lossless WebP; 5 original rebound poses"
-    }
+      "packaging": "package-action5.py; 80x96 cells; baseline94; lossless WebP; 5 original rebound poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-echo-catwalk-package.py",
+        "previousAtlasSha256": "ec6694b7aabe3bf8372bbc19ad64dbec4a23f798eb432be85db14f3422905ca8",
+        "atlasSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+        "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+        "minimumMarginsPx": {
+          "left": 9,
+          "right": 10,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 9,
+              "right": 10,
+              "top": 22,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              80,
+              0,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 11,
+              "top": 6,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              160,
+              0,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 11,
+              "right": 12,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 21,
+              "right": 22,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              80,
+              96,
+              80,
+              96
+            ],
+            "marginsPx": {
+              "left": 14,
+              "right": 14,
+              "top": 15,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371"
   }
 ]

@@ -1,0 +1,262 @@
+[
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "dunk-tomahawk",
+    "src": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "echo-catwalk",
+      "clip": "dunk-tomahawk",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "eligibleForPacking": true,
+      "promptFile": "tools/generate-art/echo-catwalk-dunk-tomahawk-prompt.md",
+      "prompt": "Use the Echo Catwalk reference to match the same ADULT MAN in every pose: medium-brown skin, masculine face, short spiky dark-teal curls, teal forehead band, clearly visible trimmed dark-teal beard and mustache, compact athletic build, teal sleeveless jersey and shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never woman, long hair, ponytail or clean-shaven. Exactly two arms and two legs. Original art faces right.\n\nDraw exactly fifteen complete full-body sequential poses in a strict row-major five-column by three-row 1536x1024 transparent RGBA sprite sheet. Keep each figure fully inside its own cell and separate with broad transparent gutters. Crisp 1990s arcade pixel art with clear dark outlines. No background, court, hoop, floor, shadows, effects, letters, teammate, opponent, ball or any prop.\n\nEcho performs a forceful tomahawk dunk: 0 runs to the right; 1 strides; 2 gathers around an invisible ball; 3 plants and jumps; 4 raises the imagined ball high; 5 bends the ball-arm behind his head like a tomahawk hammer; 6 reaches peak with elbow cocked and knees lifted; 7 swings the empty hand forward from behind his head; 8 forcefully chops the arm downward; 9 reaches above rim; 10 open empty hand release; 11 exaggerated downward follow-through; 12 falls from the rim area; 13 lands with both knees bent; 14 stands steady. Make the strong behind-the-head cock and downward hammer motion unmistakable; do not show any basketball. Both hands must remain empty; the ball follows Echo\u2019s own separate runtime track.\n\nEvery figure has consistent Echo identity, proportions and uniform, with natural attached limbs, visible hair and shoes. No cropping, merging or repeated identical poses. Alpha-zero background and gutters; no haze/checkerboard. Return only the sprite sheet.",
+      "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+      "review": {
+        "status": "accepted",
+        "notes": "All 15 full-body poses retain Echo\u2019s identity, anatomy and kit; the gather, cocked elbow behind head, strong downward tomahawk swing, release, landing and recovery are clear. Empty hand/no embedded ball."
+      },
+      "ballTrack": {
+        "owner": "echo-catwalk",
+        "art": "none; independent Echo-specific runtime ball path"
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-echo-catwalk-dunk-tomahawk15.py",
+        "method": "Per-cell largest alpha>=32 component plus 2px antialiased fringe; remove haze; pack isolated poses.",
+        "rawSourceSha256": "928923b2df2fe93622f5246cb5e653ee87531e764285e95ede2cea276438148b",
+        "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-tomahawk15.png",
+        "cleanedSourceSha256": "70104693e9a4f63f8aa36f36580c18a978ec3e1364856cb074088724c1333cde"
+      },
+      "generationHistory": [
+        {
+          "id": "exec-8163d32b-4a39-4a48-8cac-20c2b234032e",
+          "status": "accepted",
+          "source": "tools/generate-art/sources/echo-catwalk-dunk-tomahawk-generated-raw.png",
+          "sha256": "928923b2df2fe93622f5246cb5e653ee87531e764285e95ede2cea276438148b"
+        }
+      ],
+      "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-tomahawk15.png",
+      "sourceSha256": "70104693e9a4f63f8aa36f36580c18a978ec3e1364856cb074088724c1333cde",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 39,
+          "y": 127,
+          "w": 212,
+          "h": 216,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 348,
+          "y": 111,
+          "w": 256,
+          "h": 232,
+          "component": 3
+        },
+        {
+          "sourceIndex": 2,
+          "x": 706,
+          "y": 139,
+          "w": 186,
+          "h": 204,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 976,
+          "y": 64,
+          "w": 177,
+          "h": 279,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1268,
+          "y": 19,
+          "w": 226,
+          "h": 324,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 38,
+          "y": 418,
+          "w": 226,
+          "h": 267,
+          "component": 9
+        },
+        {
+          "sourceIndex": 6,
+          "x": 390,
+          "y": 403,
+          "w": 214,
+          "h": 263,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 645,
+          "y": 416,
+          "w": 265,
+          "h": 269,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 948,
+          "y": 456,
+          "w": 248,
+          "h": 229,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1324,
+          "y": 362,
+          "w": 170,
+          "h": 323,
+          "component": 6
+        },
+        {
+          "sourceIndex": 10,
+          "x": 50,
+          "y": 732,
+          "w": 259,
+          "h": 265,
+          "component": 12
+        },
+        {
+          "sourceIndex": 11,
+          "x": 378,
+          "y": 749,
+          "w": 217,
+          "h": 236,
+          "component": 14
+        },
+        {
+          "sourceIndex": 12,
+          "x": 695,
+          "y": 744,
+          "w": 181,
+          "h": 253,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 998,
+          "y": 783,
+          "w": 190,
+          "h": 222,
+          "component": 15
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1300,
+          "y": 711,
+          "w": 160,
+          "h": 296,
+          "component": 11
+        }
+      ],
+      "uniformScale": 0.2839506172839506,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

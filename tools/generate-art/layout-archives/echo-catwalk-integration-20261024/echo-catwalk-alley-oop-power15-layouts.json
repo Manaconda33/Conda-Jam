@@ -1,0 +1,263 @@
+[
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "alley-oop-power",
+    "src": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "echo-catwalk",
+      "clip": "alley-oop-power",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "eligibleForPacking": true,
+      "promptFile": "tools/generate-art/echo-catwalk-alley-oop-power-prompt.md",
+      "prompt": "Use Echo Catwalk reference for exact identity: same compact athletic adult MAN, medium-brown skin, masculine face, short spiky dark-teal hair with teal headband, unmistakable trimmed dark-teal beard/mustache, teal sleeveless jersey/shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never female, long-haired or clean-shaven. Exactly two natural arms and two legs. Right-facing source.\n\nCreate a 1536x1024 transparent RGBA production sprite sheet, 5 columns x 3 rows, strict row-major. Fifteen distinct complete full-body poses of this one athlete; each safely inside its cell, broad alpha-zero gutters. Crisp outlined 1990s arcade pixel art. No court, hoop, floor, environment, shadow, effects, text, opponent, teammate, basketball or prop.\n\nEcho performs a powerful alley-oop: 0 moves right preparing to jump; 1 runs under an incoming pass; 2 plants and looks up; 3 leaps off both feet toward the pass; 4 reaches both hands up; 5 catches an invisible pass with both hands at peak; 6 pulls the imaginary ball tightly to chest; 7 raises it powerfully overhead with one hand; 8 extends toward the rim; 9 reaches full height; 10 empty open hand releases at rim; 11 powerful follow-through; 12 descends; 13 lands with knees flexed; 14 regains ready stance. Make the two-hand catch at peak distinct, then show a forceful one-handed finish. Do not draw a ball; Echo's alley-oop ball path is independently animated by runtime and must not be merged with the passer's track.\n\nMaintain the exact same Echo identity, costume, scale and natural anatomy across every pose. No clipping, extra limbs, merged bodies or duplicate figures. Transparent alpha-zero background/gutters, no haze/checkerboard. Return only the sheet.",
+      "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+      "review": {
+        "status": "accepted",
+        "notes": "15 complete poses preserve Echo\u2019s adult male identity, beard, hair, teal uniform, proportions and anatomy. Two-hand overhead catch pose followed by chest gather, one-hand overhead finish, release, landing and ready stance. No ball baked into poses."
+      },
+      "ballTrack": {
+        "owner": "echo-catwalk",
+        "art": "none; separately animated Echo-specific alley-oop ball track",
+        "notes": "Do not share with passer or opposing athlete; independent catch/release timing."
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-echo-catwalk-alley-oop-power15.py",
+        "method": "Within each 5x3 cell retain largest alpha>=32 character component plus 2px antialias fringe; then isolated packing.",
+        "rawSourceSha256": "fcac693246e457a5bdbb39ae089786143cbf93f791e00de627f286d004b90a37",
+        "cleanedSource": "tools/generate-art/sources/echo-catwalk-alley-oop-power15.png",
+        "cleanedSourceSha256": "e258bcda31a5cbca9f8bf8ded2113a9bbe572eba4bf0b6e4bbb71e92deb6525b"
+      },
+      "generationHistory": [
+        {
+          "id": "exec-1392290b-fcbe-41f7-9bd5-58c446984d7a",
+          "status": "accepted",
+          "source": "tools/generate-art/sources/echo-catwalk-alley-oop-power-generated-raw.png",
+          "sha256": "fcac693246e457a5bdbb39ae089786143cbf93f791e00de627f286d004b90a37"
+        }
+      ],
+      "sourceImage": "tools/generate-art/sources/echo-catwalk-alley-oop-power15.png",
+      "sourceSha256": "e258bcda31a5cbca9f8bf8ded2113a9bbe572eba4bf0b6e4bbb71e92deb6525b",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 34,
+          "y": 126,
+          "w": 228,
+          "h": 217,
+          "component": 5
+        },
+        {
+          "sourceIndex": 1,
+          "x": 350,
+          "y": 123,
+          "w": 266,
+          "h": 220,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 734,
+          "y": 119,
+          "w": 155,
+          "h": 224,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 986,
+          "y": 76,
+          "w": 195,
+          "h": 267,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1263,
+          "y": 16,
+          "w": 245,
+          "h": 327,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 56,
+          "y": 400,
+          "w": 190,
+          "h": 285,
+          "component": 9
+        },
+        {
+          "sourceIndex": 6,
+          "x": 392,
+          "y": 462,
+          "w": 162,
+          "h": 223,
+          "component": 10
+        },
+        {
+          "sourceIndex": 7,
+          "x": 653,
+          "y": 398,
+          "w": 189,
+          "h": 287,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 975,
+          "y": 395,
+          "w": 248,
+          "h": 290,
+          "component": 7
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1316,
+          "y": 357,
+          "w": 172,
+          "h": 328,
+          "component": 6
+        },
+        {
+          "sourceIndex": 10,
+          "x": 59,
+          "y": 732,
+          "w": 246,
+          "h": 278,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 369,
+          "y": 748,
+          "w": 243,
+          "h": 258,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 704,
+          "y": 763,
+          "w": 181,
+          "h": 247,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 994,
+          "y": 803,
+          "w": 193,
+          "h": 207,
+          "component": 15
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1300,
+          "y": 761,
+          "w": 192,
+          "h": 249,
+          "component": 13
+        }
+      ],
+      "uniformScale": 0.2804878048780488,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

@@ -161,3 +161,10 @@ Stored E2E captures are under `artifacts/screenshots/`, including title, team se
 ## Limits
 
 The strict animation audit remains incomplete, so full issue #3 acceptance is not met. No Edge or Firefox run, manual human playtest, accessibility audit, broad responsive screenshot review, performance percentile measurement or 100 human-versus-CPU full-length game validation was performed. Current known defects are recorded in `KNOWN_ISSUES.md`.
+
+## Echo Catwalk — complete 29-clip integration (2026-10-24)
+
+- Integrated23 action atlases /241 authored drawings; Echo is29/29 clips /293 drawings. Source review passed identity, full anatomy, distinct poses, transparency and no-baked-ball checks. Derived atlases were repacked to at least5px clear margins on every edge. Exact prompts, generation IDs, rejected source candidates, source hashes, layouts, cleanup and archives remain recorded.
+- Added23 Echo-specific separate-ball tracks. Independent native Canvas review at100%/120% in both facings passed87 per-clip summaries /572 action frames per zoom; all frames select production atlases and ball ownership matches carried/free states.
+- Validation: full `npm test` PASS (30/30 files); lint PASS (18 modules); content validation PASS (35 franchises /105 athletes); league simulation PASS (100 matches /861,238 ticks /6 overtime periods); atlas packaging suite PASS (55 tests); build PASS; focused Echo/animation tests PASS; Chromium E2E PASS on the authorized local-network retry (offline standalone, gameplay, full match and season progression). The default restricted run was blocked by loopback `listen EPERM`; no app change was needed.
+- Strict report-only audit refreshed at `2026-10-24T20:03:58.210Z`:790 clips /7,158 authored drawings /105 athletes;2,313 missing clips, one target shortfall and four inherited prompt findings. The six missing original baseline generation images remain documented by ID/hash/prompt; no substitute poses were fabricated.

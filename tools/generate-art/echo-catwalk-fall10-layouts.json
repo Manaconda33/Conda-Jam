@@ -76,7 +76,11 @@
       "referenceImage": "public/assets/animation/echo-catwalk-pass-right.webp",
       "review": {
         "status": "accepted",
-        "notes": "Accepted: all ten frames show Echo Catwalk as a medium-brown adult man with teal headband, short dark-teal hair, trimmed beard, teal kit, knee pads and teal-black shoes. Continuous controlled fall and recovery, no ball or props. Figure scale/identity remain consistent. Source rendered a dark background despite transparency request; component isolation packaging removes it."
+        "notes": "Accepted: all ten frames show Echo Catwalk as a medium-brown adult man with teal headband, short dark-teal hair, trimmed beard, teal kit, knee pads and teal-black shoes. Continuous controlled fall and recovery, no ball or props. Figure scale/identity remain consistent. Source rendered a dark background despite transparency request; component isolation packaging removes it.",
+        "integrationReview": {
+          "status": "pending-independent-source-and-native-review",
+          "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+        }
       },
       "ballPolicy": "No ball in frames. Echo-specific ball track must be authored independently in the game runtime; this atlas contains no ball.",
       "cleanup": "package-echo-action10.py performs per-pose connected-component isolation, transparent-background cleanup, uniform scale and baseline placement.",
@@ -188,7 +192,183 @@
       ],
       "uniformScale": 0.23529411764705882,
       "componentIsolation": true,
-      "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original fall poses"
-    }
+      "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original fall poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-echo-catwalk-package.py",
+        "previousAtlasSha256": "9413f57fbd018d40ca8b2157983e66b32958b01b5899907ead851d2719c91cbb",
+        "atlasSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+        "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+        "minimumMarginsPx": {
+          "left": 7,
+          "right": 7,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 14,
+              "right": 15,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              96,
+              0,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 7,
+              "right": 7,
+              "top": 12,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              192,
+              0,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 12,
+              "top": 36,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              288,
+              0,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 9,
+              "right": 10,
+              "top": 41,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              384,
+              0,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 16,
+              "top": 59,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 16,
+              "right": 16,
+              "top": 26,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              96,
+              96,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 17,
+              "right": 18,
+              "top": 28,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              192,
+              96,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 18,
+              "right": 19,
+              "top": 16,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 8,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              288,
+              96,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 21,
+              "right": 22,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 9,
+            "input": "pre-integration packed atlas cell",
+            "originalBox": [
+              384,
+              96,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 17,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355"
   }
 ]

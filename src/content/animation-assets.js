@@ -39630,7 +39630,22 @@ export const animationAssetManifest = {
                 }
               ],
               "uniformScale": 0.39826839826839827,
-              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "forward": [
+                  7,
+                  8,
+                  8,
+                  7
+                ]
+              },
+              "separateBall": true
             },
             "reviewed": true,
             "review": {
@@ -39796,7 +39811,34 @@ export const animationAssetManifest = {
                 }
               ],
               "uniformScale": 0.39826839826839827,
-              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "runtimeBallTrack": {
+                "height": [
+                  1.15,
+                  1,
+                  0.8,
+                  0.5,
+                  0.2,
+                  0,
+                  0.25,
+                  0.6,
+                  0.95,
+                  1.15
+                ],
+                "forward": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  11,
+                  10,
+                  9,
+                  8,
+                  7
+                ]
+              },
+              "separateBall": true
             },
             "reviewed": true,
             "review": {
@@ -40156,7 +40198,36 @@ export const animationAssetManifest = {
                 }
               ],
               "uniformScale": 0.39826839826839827,
-              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "runtimeBallTrack": {
+                "height": [
+                  1.15,
+                  1.05,
+                  0.85,
+                  0.55,
+                  0.25,
+                  0,
+                  0.25,
+                  0.55,
+                  0.85,
+                  1.05,
+                  1.15
+                ],
+                "forward": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  13,
+                  12,
+                  11,
+                  10,
+                  9,
+                  9
+                ]
+              },
+              "separateBall": true
             },
             "reviewed": true,
             "review": {
@@ -40333,13 +40404,10161 @@ export const animationAssetManifest = {
               ],
               "uniformScale": 0.23057644110275688,
               "componentIsolation": false,
-              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.3,
+                  1.8,
+                  1.6,
+                  2.2,
+                  2.1,
+                  1.5,
+                  1.1,
+                  0.9
+                ],
+                "forward": [
+                  5,
+                  7,
+                  9,
+                  12,
+                  6,
+                  4.5,
+                  12,
+                  8,
+                  6,
+                  5
+                ]
+              },
+              "separateBall": true
             },
             "reviewed": true,
             "review": {
               "reviewedAt": "2026-10-21",
               "notes": "Reviewed10source poses and packed cells overblue. Supporting athlete identity preserved from approved locomotion/reference: tealcurlyponytail woman forNova, shorttealheadband/beardedman forEcho. Gather/lift/release/wristsnap/followthrough/landing independentlydrawn. Emptyhands, truealpha, completebodies. Browser alignment/continuity needsplaytest."
             }
+          },
+          "alley-oop-power": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "alley-oop-power",
+            "src": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a7bec16e95a243309e6b58ac5ce010db0630b5451722b7b436d745b2caa0a89a"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "4c3cf7ab9f35f6b6b373790f10c2f919646b1305106ba27a0326dc885c9d649a"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "49a47b3921d77ce19f9a01f91fc258ac126237fb18104eeedc1ab92eed9b5df0"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c250a998e1acfcf4cf8f9e013f5fde00bacadc1a30f7e6a84d8a1790f10b2c45"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "251d0dcafd9571a91385e3814745c2819f5970edd991d31e317602e5c674c038"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "af50a1a488020c291ef84307fc4073ecb447bd653538f945fc271b0c4740c330"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "222e47800d4b8b0c3000ff5a10057c55dbd6eb77936fa2cdf2a72def7c0480bd"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "63e8877326c7297eac2bfebedff15fe9cde7cf7663e82ae5224e1f3bf883fc3b"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "41734f7aab8e5070ac57e42ef1a6c25c5dd58a2a88bad3ccc7bc0d9a6bfb75ac"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "3a4153c7afc83894289f6b4ae535887eee98c0a01f76db55b92ebe106deb198f"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "b1c70b1a430e610d21c6b2b1253e1997ba0151021b130ab2f97c46311945ecad"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d3b4c6ea0ec1d1b765a3c4f36cb20f698ec3c4b3676601214f89b7dfbe04ae47"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "652e2867195bca75d86cb1e8e05ecbb1638e06a28a4624395cd37d70e8fa6405"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "cf549ba8a17a9a3d40901630f48b1436bed43efdf9f8c2dd621131e40fae5671"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "c395a71848012f78046f3f4f70b092ae30e37e186342a9a82d1ebd7e3e4745cd"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "alley-oop-power",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-alley-oop-power-prompt.md",
+              "prompt": "Use Echo Catwalk reference for exact identity: same compact athletic adult MAN, medium-brown skin, masculine face, short spiky dark-teal hair with teal headband, unmistakable trimmed dark-teal beard/mustache, teal sleeveless jersey/shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never female, long-haired or clean-shaven. Exactly two natural arms and two legs. Right-facing source.\n\nCreate a 1536x1024 transparent RGBA production sprite sheet, 5 columns x 3 rows, strict row-major. Fifteen distinct complete full-body poses of this one athlete; each safely inside its cell, broad alpha-zero gutters. Crisp outlined 1990s arcade pixel art. No court, hoop, floor, environment, shadow, effects, text, opponent, teammate, basketball or prop.\n\nEcho performs a powerful alley-oop: 0 moves right preparing to jump; 1 runs under an incoming pass; 2 plants and looks up; 3 leaps off both feet toward the pass; 4 reaches both hands up; 5 catches an invisible pass with both hands at peak; 6 pulls the imaginary ball tightly to chest; 7 raises it powerfully overhead with one hand; 8 extends toward the rim; 9 reaches full height; 10 empty open hand releases at rim; 11 powerful follow-through; 12 descends; 13 lands with knees flexed; 14 regains ready stance. Make the two-hand catch at peak distinct, then show a forceful one-handed finish. Do not draw a ball; Echo's alley-oop ball path is independently animated by runtime and must not be merged with the passer's track.\n\nMaintain the exact same Echo identity, costume, scale and natural anatomy across every pose. No clipping, extra limbs, merged bodies or duplicate figures. Transparent alpha-zero background/gutters, no haze/checkerboard. Return only the sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "15 complete poses preserve Echo’s adult male identity, beard, hair, teal uniform, proportions and anatomy. Two-hand overhead catch pose followed by chest gather, one-hand overhead finish, release, landing and ready stance. No ball baked into poses.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballTrack": {
+                "owner": "echo-catwalk",
+                "art": "none; separately animated Echo-specific alley-oop ball track",
+                "notes": "Do not share with passer or opposing athlete; independent catch/release timing."
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-alley-oop-power15.py",
+                "method": "Within each 5x3 cell retain largest alpha>=32 character component plus 2px antialias fringe; then isolated packing.",
+                "rawSourceSha256": "fcac693246e457a5bdbb39ae089786143cbf93f791e00de627f286d004b90a37",
+                "cleanedSource": "tools/generate-art/sources/echo-catwalk-alley-oop-power15.png",
+                "cleanedSourceSha256": "e258bcda31a5cbca9f8bf8ded2113a9bbe572eba4bf0b6e4bbb71e92deb6525b"
+              },
+              "generationHistory": [
+                {
+                  "id": "exec-1392290b-fcbe-41f7-9bd5-58c446984d7a",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-alley-oop-power-generated-raw.png",
+                  "sha256": "fcac693246e457a5bdbb39ae089786143cbf93f791e00de627f286d004b90a37"
+                }
+              ],
+              "sourceImage": "tools/generate-art/sources/echo-catwalk-alley-oop-power15.png",
+              "sourceSha256": "e258bcda31a5cbca9f8bf8ded2113a9bbe572eba4bf0b6e4bbb71e92deb6525b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 34,
+                  "y": 126,
+                  "w": 228,
+                  "h": 217,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 350,
+                  "y": 123,
+                  "w": 266,
+                  "h": 220,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 734,
+                  "y": 119,
+                  "w": 155,
+                  "h": 224,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 986,
+                  "y": 76,
+                  "w": 195,
+                  "h": 267,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1263,
+                  "y": 16,
+                  "w": 245,
+                  "h": 327,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 56,
+                  "y": 400,
+                  "w": 190,
+                  "h": 285,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 392,
+                  "y": 462,
+                  "w": 162,
+                  "h": 223,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 653,
+                  "y": 398,
+                  "w": 189,
+                  "h": 287,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 975,
+                  "y": 395,
+                  "w": 248,
+                  "h": 290,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1316,
+                  "y": 357,
+                  "w": 172,
+                  "h": 328,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 59,
+                  "y": 732,
+                  "w": 246,
+                  "h": 278,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 369,
+                  "y": 748,
+                  "w": 243,
+                  "h": 258,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 704,
+                  "y": 763,
+                  "w": 181,
+                  "h": 247,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 994,
+                  "y": 803,
+                  "w": 193,
+                  "h": 207,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1300,
+                  "y": 761,
+                  "w": 192,
+                  "h": 249,
+                  "component": 13
+                }
+              ],
+              "uniformScale": 0.2804878048780488,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "04bde18a0430e7dd9c5cf56b6771726b1e1ea071a42dc47a500f6e0c74b4017f",
+                "atlasSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 26,
+                  "right": 27,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 30,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 26,
+                      "right": 27,
+                      "top": 29,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 42,
+                      "right": 43,
+                      "top": 28,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 41,
+                      "right": 42,
+                      "top": 28,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 41,
+                      "right": 42,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 13,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 39,
+                      "top": 22,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 33,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 21,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.5,
+                  1.8,
+                  2.1,
+                  2.5,
+                  2.5,
+                  2,
+                  1.5,
+                  1.3,
+                  1.2,
+                  1.7,
+                  2.2,
+                  1.5,
+                  1,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  13,
+                  10,
+                  8,
+                  6,
+                  4,
+                  2,
+                  1,
+                  2,
+                  7,
+                  4,
+                  12,
+                  8,
+                  5,
+                  4,
+                  4
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "alley-oop-reverse": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "alley-oop-reverse",
+            "src": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "595ee2afa143cde2cacad4acfff76ba1dd2507a3f7bb96929cbddbd86704a3b8"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c362a50855ccb284dc8060345a1899b9998706bf9f85f89f2a6fa3274dcbec00"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "1d4d37fbad35888aca31f07ffb62d233c499dc7a82a59884c38f57fe7f297456"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "0bdbe2fe95cd5efdd0fd988b3cfce5763de91ca114dcb0fae2d56d30636adac9"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "e58669c51f6ca3703b33bfb1954ba159037734953548b13ffb07d2724fe65728"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "dd4188a1fed1506a3bcc98bd3c54ef7861bac24c6910d35d5c4b35df23be0e3c"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "f66f84d70ddfc39b65f58ff9699ab848503c9163b6293c25ad4a6cb576fc24f1"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a7c8c4d442581ce8440cb0adf7dbbc268013a60903fa7b5c0820eddb0bb74442"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "03538b2e640fbae72b9124ebd3cb4839d3b1f732fcf8b504ec58d215d0d09dc4"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "da04c5227bf8d88a32f5e80d487fa5482ba05c048734ecf97cf065ee60bf9330"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "1d5902ae14deac9d6905f07237508d98d47f9830360100efe82609db5edd9229"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "bb8463cd0493499bc8ffcd1fc39955da382c1fdbb40c442bb78196814f67438d"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "7f6e08d955f75c3d8f172ca117ce7a0d890c41d0dac849f7a5510930f0c83de4"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "ae4996816a469ae1a1cd7a44f4d08728111f22f6d648dd2b864f30b9dfead4ba"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "301ab88c1aa1d8576b3ed74983cfdbd5e00636a06caaea975637704e0559ab9d"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "alley-oop-reverse",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-alley-oop-reverse-prompt.md",
+              "prompt": "IDENTITY LOCK: Echo Catwalk is the ADULT MAN in the attached Echo Catwalk reference sprite. Use that exact adult male person, with the same masculine face, medium-brown skin, short spiky dark-teal curls, teal forehead band, and clearly visible trimmed dark-teal beard and mustache. Same compact athletic male body and teal sleeveless uniform with dark-purple trim, black knee pads, teal-black shoes and wristbands. All 15 poses must be this man. Do not depict a woman, girl, ponytail, long hair or clean-shaven athlete.\n\nCreate a transparent RGBA 1536x1024 sheet, strict row-major five columns by three rows, exactly fifteen complete full-body poses. Right-facing source. Each cell contains one separate Echo figure, fully in frame. Crisp 1990s arcade pixel art, clean outlines. No checkerboard, backdrop, court, hoop, shadows, text, effects, teammate, opponent, ball or props.\n\nAction: reverse alley-oop. 0 runs right; 1 moves beneath a pass and looks up; 2 plants; 3 jumps with both hands reaching upward; 4 catches the imaginary pass with two empty hands above head; 5 brings empty hands together at chest; 6 holds imaginary ball near one shoulder; 7 turns his back toward hoop; 8 rotates under rim, ball-hand behind head; 9 extends behind head for reverse finish; 10 open empty hand releases at the rim; 11 follows through while back-facing; 12 rotates forward during descent; 13 lands flexed; 14 stands ready. Pose sequence must visibly show the two-hand catch and a back-facing reverse finish. No actual ball or other objects; Echo's basketball trajectory is separately controlled by his own runtime track.\n\nKeep male anatomy, beard, hair, same teal kit, limb count and proportions consistent in every cell. No body overlaps or cropping. True alpha-zero transparent background and gutters. Return only the sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-pass-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "Accepted sheet contains the correct adult male Echo with short dark-teal hair, headband and clearly visible beard in all poses; two-hand aerial catch, back-facing rotation, behind-head reverse release and recovery. First image was rejected as a long-haired woman with checkerboard transparency, not Echo.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballTrack": {
+                "owner": "echo-catwalk",
+                "art": "none; independent Echo-specific alley-oop runtime track",
+                "notes": "Keep Echo receiver track separate from passer and opponent; no ball baked in atlas."
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-alley-oop-reverse15.py",
+                "method": "Per-cell largest alpha>=32 athlete component plus 2px antialias fringe; remove generated background and pack isolated poses.",
+                "rawSourceSha256": "3ec42a2bda69e8e7bd6706ab2a2845215bf2030679729becf8c01c6fd203ab47",
+                "cleanedSource": "tools/generate-art/sources/echo-catwalk-alley-oop-reverse15.png",
+                "cleanedSourceSha256": "eaa97f67d7b3a32c7ad59a5294ccc7a7d6893fd818af87e6157823b2de663026"
+              },
+              "generationHistory": [
+                {
+                  "id": "exec-542d1ccd-381a-4407-9c2e-acd5278fa276",
+                  "status": "rejected",
+                  "reason": "Wrong athlete identity: generated a long-haired woman resembling Juniper and rendered checkerboard background.",
+                  "source": "tools/generate-art/sources/echo-catwalk-alley-oop-reverse-attempt1-rejected-raw.png",
+                  "sha256": "219250f0b2cf63f8f91b30ac0699fc0766993a55f72e6a9f26592e414ba2776c"
+                },
+                {
+                  "id": "exec-521864de-4e7d-4461-892f-ffade55a610b",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-alley-oop-reverse-generated-raw.png",
+                  "sha256": "3ec42a2bda69e8e7bd6706ab2a2845215bf2030679729becf8c01c6fd203ab47"
+                }
+              ],
+              "sourceImage": "tools/generate-art/sources/echo-catwalk-alley-oop-reverse15.png",
+              "sourceSha256": "eaa97f67d7b3a32c7ad59a5294ccc7a7d6893fd818af87e6157823b2de663026",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 32,
+                  "y": 103,
+                  "w": 264,
+                  "h": 240,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 359,
+                  "y": 86,
+                  "w": 257,
+                  "h": 257,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 668,
+                  "y": 103,
+                  "w": 256,
+                  "h": 240,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1006,
+                  "y": 7,
+                  "w": 225,
+                  "h": 336,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1314,
+                  "y": 5,
+                  "w": 183,
+                  "h": 338,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 56,
+                  "y": 375,
+                  "w": 180,
+                  "h": 294,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 360,
+                  "y": 382,
+                  "w": 184,
+                  "h": 284,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 668,
+                  "y": 388,
+                  "w": 196,
+                  "h": 279,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 947,
+                  "y": 385,
+                  "w": 283,
+                  "h": 289,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1247,
+                  "y": 370,
+                  "w": 268,
+                  "h": 297,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 50,
+                  "y": 681,
+                  "w": 259,
+                  "h": 323,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 388,
+                  "y": 693,
+                  "w": 204,
+                  "h": 307,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 668,
+                  "y": 729,
+                  "w": 226,
+                  "h": 269,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 940,
+                  "y": 771,
+                  "w": 251,
+                  "h": 234,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1281,
+                  "y": 715,
+                  "w": 220,
+                  "h": 290,
+                  "component": 13
+                }
+              ],
+              "uniformScale": 0.27218934911242604,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "aca12c6a7966eea5e347e52dd5095ae1eafe06390751957da94530e63a02c169",
+                "atlasSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 25,
+                  "right": 26,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 28,
+                      "top": 26,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 21,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 26,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 35,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 40,
+                      "right": 41,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 40,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 25,
+                      "right": 26,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 28,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 27,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.5,
+                  1.8,
+                  2.1,
+                  2.2,
+                  2.3,
+                  1.3,
+                  2.5,
+                  2.3,
+                  2,
+                  1.6,
+                  2.1,
+                  1.6,
+                  1,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  12,
+                  10,
+                  8,
+                  6,
+                  2,
+                  6,
+                  -2,
+                  0,
+                  0,
+                  8,
+                  -13,
+                  -8,
+                  -3,
+                  4,
+                  4
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "block": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "block",
+            "src": "./public/assets/animation/echo-catwalk-block-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "2aae4777e30b30d4da0f48706d6346e785a1939bd5fedd997665204acc135ad7"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "5f8eaf0ba2f43c427635a023d5f5380980552251ebedd9a645ef535d3747d6d1"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "8b00df7f94aadc3d4a1428fa3dde3f8ce704a9591704386b54676a18383a4f39"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "58f7973378f04ecb2b1b9b34910ef54a17c1c22ac0db301d39bb7d2ab8cc3c90"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "block",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-75352449-175a-4065-a796-fe99d2ee7666",
+              "imageGenerationId": "exec-75352449-175a-4065-a796-fe99d2ee7666",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-block-generated-raw.png",
+              "rawSourceSha256": "97b2ff0738334d8ac1149bee80bf6a762f8b21b26460b46e20e2576c4a68c39c",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-block-generated-raw.png",
+              "sourceSha256": "97b2ff0738334d8ac1149bee80bf6a762f8b21b26460b46e20e2576c4a68c39c",
+              "promptFile": "tools/generate-art/echo-catwalk-block-prompt.md",
+              "prompt": "Use the Echo Catwalk reference only for exact identity and pixel scale. Make four fresh full-body blocking poses in a 1536×1024 RGBA pixel-art sprite sheet, strict two-by-two grid, row-major, with generous transparent gutters. All hands empty. No ball, court, floor, hoop, background, text or props.\n\nEcho is a compact athletic ADULT HUMAN MAN, medium-brown skin, short spiky dark-teal curls, teal headband, neatly trimmed dark-teal beard, teal sleeveless basketball jersey and shorts with black/deep-purple accents, black knee pads, teal-black shoes and wristbands. Preserve male face, hairstyle, beard, uniform, proportions and consistent size. Exactly two arms/hands, two legs/shoes.\n\nFour connected right-facing defense/blocking poses:\n0 bent-knee defensive ready stance, arms half-raised;\n1 plants and jumps vertically, right hand begins reaching up, other arm counterbalances;\n2 BLOCK apex at simulation tick4: fully airborne, right hand extended high to contest, palm open, legs tucked naturally;\n3 descend, arms lower and feet prepare for balanced landing.\n\nEach full body distinct and clear, inside its own cell. True transparent alpha-zero background and spaces, no halo, floor, shadow or checkerboard. Crisp 1990s arcade pixel clusters. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "No ball is held during block; when the separate game ball is contested it remains separately rendered.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Four distinct complete right-facing blocking frames: defensive ready, plant/jump, high apex block at frame2/tick5, descent. Canon identity and empty hands.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 259,
+                  "y": 96,
+                  "w": 359,
+                  "h": 386,
+                  "component": 2,
+                  "area": 53681
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 881,
+                  "y": 7,
+                  "w": 373,
+                  "h": 490,
+                  "component": 1,
+                  "area": 59197
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 262,
+                  "y": 472,
+                  "w": 396,
+                  "h": 524,
+                  "component": 3,
+                  "area": 64039
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 934,
+                  "y": 600,
+                  "w": 320,
+                  "h": 400,
+                  "component": 4,
+                  "area": 58774
+                }
+              ],
+              "uniformScale": 0.17557251908396945,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 80x96 cells; baseline94; lossless WebP; 4 original block poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "4be761b32b7dca39fe12dbf645b9f93f0f539e3c48dacee3ecab988e4f9558d9",
+                "atlasSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 7,
+                  "right": 8,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 8,
+                      "right": 9,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      80,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 8,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 8,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      80,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 12,
+                      "top": 21,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "celebrate": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "celebrate",
+            "src": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "cc0832e485912ac228eea080afae42b1cb9bffd1e86f1be1ec73ec371216a7ee"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "bbc2221e48e8ab153f41c9f26b0da3799fcad59f7b839a628860563d5fc45aa5"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "583341faf3d9ab4b40ef9a1c7d16f56a6a1dddcdc593110c8dfc3d64e40bf4cb"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "29b432985e8b461dbf74cfab2f2df26334c183156d69c32563e37e156b294287"
+              },
+              {
+                "x": 320,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "4f050625585ff35eab8b96700cb5e4bbfeae65035350155f2cf8a5a3a94ee6cf"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "34588e08d4c447783f167e02121294b0dc4027562fe5baf50c5df321c8e75e56"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "5d9b9134cc628f63ab34595ca33d135d7577004b67b510987a6a5788d551d4e5"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "3db02a3035514cb9135c2775119fbd1b0cdd279e780072163a2f8973dbd7e90b"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "f42280461a201346a4dd0d7a5958c457463720a63b703360a70b7967ef5f6f02"
+              },
+              {
+                "x": 320,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "f23b60d6f6e6985b181d4778bdc1fe856874a957d34426e45512d6f40b497e84"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "celebrate",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-celebrate-prompt.md",
+              "prompt": "Use the attached Echo Catwalk sprite solely to match his identity and uniform. The athlete in every pose must be the SAME ADULT MAN shown in the reference: visibly masculine face and broad athletic shoulders, medium-brown skin, short spiky dark-teal hair, teal forehead band, unmistakable trimmed dark-teal beard and mustache. Never depict a woman, girl, ponytail, long hair, or clean-shaven person. Keep his exact teal sleeveless jersey and shorts with dark purple side trim, black knee pads, teal-black shoes and wristbands.\n\nCreate a 5-column by 2-row, row-major sheet of exactly ten unique complete full-body poses, transparent RGBA 1536x1024 pixel art, no backgrounds or props. Keep every pose the same compact athletic adult male, same costume, face, hair and beard, with exactly two arms and two legs. Be certain the beard is visible in each front/three-quarter view.\n\nA happy but controlled celebration after a made basketball basket, as a continuous sequence: small excited bounce; fists rise near chest; one arm lifts; both arms rise; brief upward hop; lands balanced; turns slightly to teammates; friendly proud point; lowers arms smiling; returns ready. No dunk, collision or injury. No ball or props; ball will be animated separately. Distinct clear poses with feet and hands visible, no clipped limbs or merged anatomy. Transparent alpha-zero background and gutters, no haze/checkerboard. Crisp 1990s arcade pixel clusters. Return only the sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-fall-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "Accepted generation retains Echo as a visibly adult male with the short dark-teal hair, teal headband, clear trimmed beard, teal uniform, knee pads and teal-black shoes. Ten celebration/recovery poses, consistent anatomy and identity; no ball.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballPolicy": "No ball in frames. Echo-specific ball path must be authored independently in the game runtime.",
+              "cleanup": "package-echo-action10.py isolates each pose component, removes surrounding background, and normalizes scale and baseline.",
+              "sourceSha256": "1f1f9d3f0706a38bd01e63047e5b0e24d1c90ffa10f74ca120deabdaafb648e2",
+              "generationHistory": [
+                {
+                  "id": "exec-48e8ad3d-f6f6-422d-b10d-a3e5c7627188",
+                  "status": "rejected",
+                  "reason": "Generated a long-haired woman instead of Echo, despite matching palette.",
+                  "sha256": "23186e1f507dea15568f64fafc1dee2dc948b25b4ea825ff573839012a32eeb8"
+                },
+                {
+                  "id": "exec-43dc3c69-dc95-441e-8301-5ab3b0f73e28",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-celebrate-generated-raw.png",
+                  "sha256": "1f1f9d3f0706a38bd01e63047e5b0e24d1c90ffa10f74ca120deabdaafb648e2"
+                }
+              ],
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-celebrate-generated-raw.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 60,
+                  "y": 151,
+                  "w": 201,
+                  "h": 370,
+                  "component": 5,
+                  "area": 40951
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 352,
+                  "y": 147,
+                  "w": 223,
+                  "h": 376,
+                  "component": 4,
+                  "area": 40852
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 651,
+                  "y": 61,
+                  "w": 229,
+                  "h": 462,
+                  "component": 3,
+                  "area": 47385
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 945,
+                  "y": 51,
+                  "w": 270,
+                  "h": 472,
+                  "component": 2,
+                  "area": 51929
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1275,
+                  "y": 23,
+                  "w": 232,
+                  "h": 397,
+                  "component": 1,
+                  "area": 44251
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 30,
+                  "y": 611,
+                  "w": 266,
+                  "h": 367,
+                  "component": 9,
+                  "area": 44917
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 313,
+                  "y": 586,
+                  "w": 303,
+                  "h": 392,
+                  "component": 6,
+                  "area": 47071
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 650,
+                  "y": 586,
+                  "w": 316,
+                  "h": 393,
+                  "component": 7,
+                  "area": 47110
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 967,
+                  "y": 588,
+                  "w": 233,
+                  "h": 394,
+                  "component": 8,
+                  "area": 44833
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1252,
+                  "y": 613,
+                  "w": 267,
+                  "h": 365,
+                  "component": 10,
+                  "area": 45569
+                }
+              ],
+              "uniformScale": 0.19491525423728814,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 80x96 cells; baseline94; lossless WebP; 10 original celebrate poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "f9ed943b6427f8c551db9c6003b05dfa69062cf0f82f461e50534cf28279d9a9",
+                "atlasSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 9,
+                  "right": 9,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 20,
+                      "right": 21,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      80,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 19,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      160,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 19,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      240,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 15,
+                      "right": 15,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      320,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 17,
+                      "right": 18,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 14,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      80,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 11,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      160,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 9,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      240,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 17,
+                      "right": 18,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      320,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 14,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "dunk-360": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "dunk-360",
+            "src": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "d8d4f8e949829e68415a4a2fd372be44f49ae9421a1c0b52b43401cb6a2a05e1"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f54b21f737d93d04d3d095503e53ded8d5c3066a4e4f4e2613d25c9c2b896c81"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "635f7054ebc18fcc5699d327ee1c86d461bc486c40762c6245ff01af5984eb56"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "048a0cc58889bb519b8f862d60ef4f8e92496b0f023da10207ee4702369a8d01"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "67bfb19c281a442eecd0478d28e29048d2dab8f2c25a3e80b3ac7c43de8b3ec2"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "3427f6593fc734117f8b8c42b59412a9c83994d832b5fc15f3fb64c39c353822"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "92c721a316b0981931d18f2962598a83efa8a6145960fe566755772b23c852d9"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "d8a600cd355d2701ec3e4a45a96e7e0209aebbe042a872214c07459b4739ac11"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "32d70d14ebcdd44dde2e3aeaa5fdc063d8ac479fef8c437f3418ae21a5101117"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "4c5698961a69e68b3d3a058cd780136d83074ecb91292073b5f12c73f71762ba"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "f9c17af675f997fd43cda197d62dfaaebb22179153615997af3d66015af9a6ed"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "ddf6bc212e6f804aa5fd6fb0cf3cb154bd9bca1ba728e9be0985dcca8749d30d"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "a84c5735aae260c7459c4502727d62e547fe3329207ace292795416cecc38745"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "547b820de604ec1ad07931007680ce1edc07ff6bda1ce71ddd2411ef27077d7b"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "ca6a24e25f3a42f0faf568451c3d82644faca21dc3da940ef032e60f07f25891"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "dunk-360",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-dunk-360-prompt.md",
+              "prompt": "Keep exact Echo Catwalk identity from reference: ADULT MAN, medium-brown skin, visibly masculine face, short spiky dark-teal curls, teal headband, strong recognizable trimmed dark-teal beard and mustache, compact athletic body, teal uniform with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never female or long-haired. Create a strict row-major 5x3 sheet of exactly fifteen complete full-body figures in transparent RGBA at 1536x1024, original art right-facing. Crisp outlined 1990s arcade pixel sprites; no backgrounds, courts, hoop, shadows, text, effects, opponents, props or basketball. Keep all bodies distinct and inside their cells.\n\nThis is a true 360-degree dunk spin. Use each pose’s torso facing direction as the main visual cue; rotate gradually and visibly. Sequence: 0 running right in profile; 1 gathers right-facing; 2 jumps, still right-facing; 3 turns three-quarter away; 4 clearly back-facing, jersey back visible; 5 back-facing; 6 rotates to left-facing profile; 7 left-facing profile, face/profile visible; 8 turns three-quarter toward viewer; 9 clearly front-facing, chest visible; 10 rotates to three-quarter right; 11 returns to right-facing profile and reaches empty hand high to dunk; 12 empty-hand follow-through; 13 descending right-facing; 14 lands and returns ready right-facing. The changing orientation must show one continuous complete full revolution, not a half-turn. Maintain the same connected anatomy and outfit from pose to pose, with exactly two arms and legs. No basketball at any point: ball is a separate Echo-specific runtime track. Transparent alpha-zero gutters and background, no checkerboard or haze. Return only the sprite sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-pass-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "Accepted 15-pose source preserves Echo’s masculine identity, beard, hair, headband, body and uniform. Orientation changes visibly from side through back and front, returning to right-facing on landing; independent anatomy and scale retained. No embedded ball. First generation was rejected because pose sequence showed only about half a turn.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballTrack": {
+                "owner": "echo-catwalk",
+                "art": "none; independent athlete-specific runtime ball path",
+                "notes": "Never merge this ball with another athlete’s track; runtime ball release/action timing is independent of atlas."
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-dunk-36015.py",
+                "method": "Retain largest alpha>=32 component plus 2px fringe inside every 5x3 cell, then isolated pose packing.",
+                "rawSourceSha256": "5676f2c3deacab4ef7c13b5e944859444a551c1f9b1e8cc941f4f28f3a9c58be",
+                "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-36015.png",
+                "cleanedSourceSha256": "f315196f4055a25a418ae0eadf40c6d8e49024d0a18c44c1c60fcb86af266725"
+              },
+              "generationHistory": [
+                {
+                  "id": "exec-97782875-077d-44ac-94d7-3a1bcfaedf23",
+                  "status": "rejected",
+                  "reason": "Pose sequence did not show the requested full 360-degree rotation; orientation returned only about halfway.",
+                  "sha256": "a9394324107b4dd3f1afcab92409823e7c2ff7d7cb185f034a23b6aa24a2d68e"
+                },
+                {
+                  "id": "exec-56c059a7-c9c4-4fe1-af4b-ec257f92a331",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-dunk-360-generated-raw.png",
+                  "sha256": "5676f2c3deacab4ef7c13b5e944859444a551c1f9b1e8cc941f4f28f3a9c58be"
+                }
+              ],
+              "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-36015.png",
+              "sourceSha256": "f315196f4055a25a418ae0eadf40c6d8e49024d0a18c44c1c60fcb86af266725",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 26,
+                  "y": 90,
+                  "w": 283,
+                  "h": 253,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 414,
+                  "y": 104,
+                  "w": 147,
+                  "h": 239,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 686,
+                  "y": 30,
+                  "w": 216,
+                  "h": 313,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 952,
+                  "y": 32,
+                  "w": 226,
+                  "h": 311,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1247,
+                  "y": 28,
+                  "w": 257,
+                  "h": 315,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 20,
+                  "y": 412,
+                  "w": 289,
+                  "h": 273,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 358,
+                  "y": 411,
+                  "w": 258,
+                  "h": 274,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 684,
+                  "y": 398,
+                  "w": 205,
+                  "h": 287,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 980,
+                  "y": 414,
+                  "w": 245,
+                  "h": 271,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1247,
+                  "y": 374,
+                  "w": 257,
+                  "h": 311,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 52,
+                  "y": 687,
+                  "w": 257,
+                  "h": 319,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 341,
+                  "y": 681,
+                  "w": 263,
+                  "h": 326,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 630,
+                  "y": 737,
+                  "w": 294,
+                  "h": 271,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 961,
+                  "y": 776,
+                  "w": 198,
+                  "h": 241,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1278,
+                  "y": 769,
+                  "w": 208,
+                  "h": 248,
+                  "component": 15
+                }
+              ],
+              "uniformScale": 0.2822085889570552,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "b3443fd8ec9190fb7e9aa9a569e0431bd7ba1e4d237cb101af855023bb98e2f7",
+                "atlasSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 22,
+                  "right": 23,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 24,
+                      "right": 24,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 43,
+                      "right": 44,
+                      "top": 24,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 33,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 29,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 23,
+                      "right": 23,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 28,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 35,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 29,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 22,
+                      "right": 23,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 21,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.3,
+                  1.6,
+                  1.9,
+                  2.1,
+                  2.3,
+                  2.4,
+                  2.4,
+                  1.7,
+                  2.1,
+                  1.7,
+                  1.2,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  11,
+                  8,
+                  4,
+                  0,
+                  -5,
+                  -8,
+                  1,
+                  13,
+                  10,
+                  5,
+                  4,
+                  4
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "dunk-clutch": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "dunk-clutch",
+            "src": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "d17593286739ff91d84b88dcdc98e34f168802877e06b400ae6a0b47b4dd8c31"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2980ae4c9529dc2ec4a9655f022ecaf05e735c3edb919afe7bee36f549f7cec6"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "4ede5cc6d2222f66077a7807646c5fbf7b2a4c8ea1536bd69e42465438e9afc6"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f1fe114de0cb68b8e9b249c9de632b56b7429a62f241cfc7036cb2909303ebb2"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "d57bb461dd75234791f25af1795a4c0b1b54925dc06a6de029c3da56b2d8f554"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "d7376cc1e53aa53eac4ac0bb9397ed72ea0367fb57ae2f2db0c2d64581fc399e"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "9c5747728c48c0c3542a43242818d86c748f03f443323e9d7eff52095810f642"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "410e9893f96e77c024d2929349348bb9dc51f9863350ae875da0800850b3afc4"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "dc60af9fb6d57fe93a868da25ad1d6e6f02fb113f411dea59458da505c4b9174"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "12c35435eed510a9e172329df3032ddb04f15b76f5c4c39dc6efd1e4a3da1e72"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "c5708bc97b83063493a931eed215cf128dc92ab7f2ae843f43403a6f432ce4ad"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "c9f3bb97b07e9aa90428b96eeb258cb20915c0deb543358ce9623aabd00936d9"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "e6eed5551e8e28a9aca8e620fdac9fe366556992d8d2bdebaba02bde42bd6f25"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "3d5090bc6130846d92a8b90510d7ea5d13d85750370ef8502605ad27a5f4ba6e"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "1bbcaa31a43b1ba3dd26aafde49ddc07f112cce67383ad204bd8bd17a6991708"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "dunk-clutch",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-dunk-clutch-prompt.md",
+              "prompt": "Use reference only to match Echo Catwalk exactly: the same adult man with medium-brown skin, masculine face, short spiky dark-teal hair, teal headband and unmistakable trimmed dark-teal beard/mustache; compact athletic build; teal sleeveless uniform with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never woman, long-haired or clean-shaven. Exactly two arms/legs. Right-facing original art.\n\nCreate fifteen distinct complete full-body poses in a strict row-major five-column by three-row grid, transparent RGBA, 1536x1024. Broad transparent gutters and safe margins; no limbs or hair clipped. Crisp 1990s arcade pixel art with dark clean outlines. No background, court, hoop, floor, shadow, effects, words, teammates, opponents, ball or props.\n\nEcho performs a clutch dunk while protecting the ball low at his hip. Fifteen poses: 0 runs right with arms low; 1 longer stride; 2 gathers an imaginary ball tightly at the hip; 3 brings both forearms around the hip to shield it with his torso; 4 crouches and keeps elbows tucked, ball protected close to waist; 5 plants to jump with hands still low and protected; 6 rises with ball-side hand near the hip; 7 begins lifting it beside his body; 8 raises it toward shoulder; 9 extends to dunk; 10 release pose at rim with EMPTY hand and no object; 11 follows through; 12 descends; 13 lands with knees bent; 14 balances. The distinctive clutch gather must visibly protect the imagined ball low against the hip before the upward finish. Hands stay empty in all cells; do not draw any basketball because Echo's ball is animated separately by runtime.\n\nMaintain same Echo identity, costume, scale and natural connected anatomy in every pose. Transparent alpha-zero background and gutters with no haze/checkerboard. Return only the sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "15 full-body poses preserve Echo’s adult male identity, beard, hair, uniform and anatomy. Distinct hands-at-hip protection across the gather/crouch before lift and one-hand finish; no embedded ball.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballTrack": {
+                "owner": "echo-catwalk",
+                "art": "none; Echo-specific independent runtime path",
+                "notes": "Clutch action keeps the separate ball low at hip during gather; runtime handles exact positions and release."
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-dunk-clutch15.py",
+                "method": "Per cell, retain largest alpha>=32 component and 2px fringe to remove haze; then pack isolated frames.",
+                "rawSourceSha256": "6b51d584ecf9c516d383311a77bb64afbc27a0bede254afc90f7a1c03c1459e0",
+                "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-clutch15.png",
+                "cleanedSourceSha256": "db21bd1b10e54695b7c7e51c7649ded42e3183470b58baf83de0ad67ef2a6a97"
+              },
+              "generationHistory": [
+                {
+                  "id": "exec-a484f5c0-4ed9-4efe-ac29-6ef4631d0688",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-dunk-clutch-generated-raw.png",
+                  "sha256": "6b51d584ecf9c516d383311a77bb64afbc27a0bede254afc90f7a1c03c1459e0"
+                }
+              ],
+              "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-clutch15.png",
+              "sourceSha256": "db21bd1b10e54695b7c7e51c7649ded42e3183470b58baf83de0ad67ef2a6a97",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 49,
+                  "y": 64,
+                  "w": 260,
+                  "h": 258,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 368,
+                  "y": 65,
+                  "w": 248,
+                  "h": 255,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 699,
+                  "y": 73,
+                  "w": 221,
+                  "h": 254,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1029,
+                  "y": 78,
+                  "w": 151,
+                  "h": 250,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1334,
+                  "y": 101,
+                  "w": 134,
+                  "h": 224,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 70,
+                  "y": 433,
+                  "w": 209,
+                  "h": 246,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 388,
+                  "y": 394,
+                  "w": 186,
+                  "h": 290,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 684,
+                  "y": 400,
+                  "w": 224,
+                  "h": 285,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 983,
+                  "y": 390,
+                  "w": 218,
+                  "h": 295,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1288,
+                  "y": 339,
+                  "w": 199,
+                  "h": 339,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 86,
+                  "y": 699,
+                  "w": 212,
+                  "h": 295,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 394,
+                  "y": 741,
+                  "w": 219,
+                  "h": 251,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 726,
+                  "y": 745,
+                  "w": 180,
+                  "h": 249,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1009,
+                  "y": 767,
+                  "w": 196,
+                  "h": 226,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1300,
+                  "y": 732,
+                  "w": 187,
+                  "h": 262,
+                  "component": 12
+                }
+              ],
+              "uniformScale": 0.2713864306784661,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "30c7d83e93a54712859e5c19f69235ca8cb242bd91762221f75a91457cce20f5",
+                "atlasSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 28,
+                  "right": 29,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 29,
+                      "top": 21,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 31,
+                      "top": 22,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 22,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 43,
+                      "right": 44,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 46,
+                      "right": 46,
+                      "top": 30,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 36,
+                      "top": 24,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 34,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 35,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 40,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 30,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 39,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.05,
+                  1.2,
+                  1.4,
+                  1.6,
+                  1.8,
+                  2,
+                  2.2,
+                  2.3,
+                  1.7,
+                  2.15,
+                  1.7,
+                  1.2,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  7,
+                  6,
+                  4,
+                  5,
+                  9,
+                  4,
+                  12,
+                  8,
+                  5,
+                  4,
+                  4
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "dunk-double": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "dunk-double",
+            "src": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "bcac520fbcb07f32ed2a766977238aaae6eb482a9d69de45dea1e221ee5ffd2b"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "50f819124b71deba7ab2a7ad1adbf287877c557ab7c7b0a7a4b0bc2f7aff343c"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "487a4674088d433f5bf3d6cacdc6f0cdaf69083eb2ed392837a1943b66e89445"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "abe5252f7fcaae92608fac4fb242552433eeb34173849d204bbf8af3f8c842d6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "0e0583e825dc1bc4a4c1e27d2327e0edda2b8c288700fb5c62376396c3e1286e"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "111e41477be4e9d98d908f970887ede38d6658036097c36822dbbd8b36b6c794"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "0dfdc0aae025b68f50af0d13a95d38fc1364d0d2db06a93d420837378ec314d6"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "4969b733fbeb2121aeadae72ba6e89bb6edc23f50b62b26bf7d3be6ad8827c3e"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e799772e5e13666024b8afe30226da3fde0360b0ed30d6e34f1cca681de3ba87"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8f24f2eeaee1c5dd4ca08cd287ce44d9353ff88be29dfd0d2a14836f23dce96f"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "a5cda8a3d1d367f348c0fb4502dc157da92121edd47a83ed2d8780e839f88ba4"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "9e6509d6f1b3ed3734b703c284b10d42c2641fbb2b715632f152d63ec2e409da"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "79811cfa93e7da5a2058b3c48d09665824a1c07b8e3894ecacd984d33f958b2f"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "c3e91217da5c031bb1eab545931c44d8cbd0c0b057c62e7b2caf410d195b1232"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "9fcd1473967c665fe67b68528d7310c07846dfb99240588cf9f5db1ede5829c1"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "dunk-double",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-dunk-double-prompt.md",
+              "prompt": "Preserve Echo Catwalk as the same visibly adult MAN in every cell: medium-brown skin, short spiky dark-teal hair under teal headband, clear trimmed dark-teal beard and mustache, masculine face, compact athletic build, teal sleeveless jersey and shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never depict a woman, ponytail, long hair or clean-shaven athlete. Exactly two arms and legs. Right-facing original art.\n\nCreate exactly fifteen distinct complete full-body pose drawings in row-major order, five columns by three rows, on a 1536x1024 transparent RGBA sprite sheet. Keep bodies inside separated cells, broad transparent gutters. 1990s arcade pixel art, strong outlines. No background, court, hoop, floor, shadows, effects, words, other players, ball or props.\n\nEcho performs a two-handed double dunk: 0 right-running approach; 1 long stride; 2 reaches both empty hands to gather an imaginary ball; 3 cups both hands together at chest height; 4 jumps off one foot while keeping both hands together; 5 raises both hands overhead; 6 lifts knees at peak; 7 extends both arms straight toward the rim; 8 leans forward and reaches with both hands; 9 presses both empty hands down at the rim; 10 two-hand release pose with both hands open and empty; 11 strong two-arm follow-through; 12 descends; 13 lands on both feet, knees flexed; 14 balanced recovery stance. This must visibly be a two-handed finish throughout the dunk, not a one-handed dunk. Do not draw a basketball or any object between the hands. Echo's ball follows its own separate runtime track.\n\nKeep the same face, beard, body, uniform and scale throughout. Natural anatomy with two clear arms, two hands, legs and shoes. No clipped/merged figures. Alpha-zero background and gutters, no haze/checkerboard. Return only the sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "All 15 poses preserve Echo’s male identity, beard, hairstyle, uniform, proportions and anatomy. Gather holds both empty hands together, followed by both-arm overhead extension and a clear two-hand release/follow-through. No basketball embedded.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballTrack": {
+                "owner": "echo-catwalk",
+                "art": "none; independent Echo-specific ball track"
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-dunk-double15.py",
+                "method": "Per-cell largest alpha>=32 athlete component plus its 2px antialias fringe, removing surrounding haze. Then pack isolated poses.",
+                "rawSourceSha256": "fa69afde7cfd55927af2131c7f4efbd833e4429a8a8b6ae61f9c7e14c40cbcc1",
+                "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-double15.png",
+                "cleanedSourceSha256": "d4bf91aaf2da25adabea5eb9d1b7ee63a73594d1ce508caf7990fa2491395cbf"
+              },
+              "generationHistory": [
+                {
+                  "id": "exec-c057bc86-c6e0-4c23-b1ab-c7334116b76d",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-dunk-double-generated-raw.png",
+                  "sha256": "fa69afde7cfd55927af2131c7f4efbd833e4429a8a8b6ae61f9c7e14c40cbcc1"
+                }
+              ],
+              "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-double15.png",
+              "sourceSha256": "d4bf91aaf2da25adabea5eb9d1b7ee63a73594d1ce508caf7990fa2491395cbf",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 34,
+                  "y": 72,
+                  "w": 217,
+                  "h": 259,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 340,
+                  "y": 72,
+                  "w": 272,
+                  "h": 256,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 664,
+                  "y": 73,
+                  "w": 260,
+                  "h": 261,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1041,
+                  "y": 65,
+                  "w": 129,
+                  "h": 269,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1300,
+                  "y": 22,
+                  "w": 174,
+                  "h": 309,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 62,
+                  "y": 354,
+                  "w": 175,
+                  "h": 331,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 392,
+                  "y": 349,
+                  "w": 148,
+                  "h": 320,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 639,
+                  "y": 369,
+                  "w": 276,
+                  "h": 310,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 941,
+                  "y": 408,
+                  "w": 284,
+                  "h": 272,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1237,
+                  "y": 447,
+                  "w": 279,
+                  "h": 238,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 39,
+                  "y": 701,
+                  "w": 246,
+                  "h": 312,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 349,
+                  "y": 730,
+                  "w": 238,
+                  "h": 269,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 685,
+                  "y": 772,
+                  "w": 190,
+                  "h": 233,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 965,
+                  "y": 774,
+                  "w": 218,
+                  "h": 231,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1305,
+                  "y": 727,
+                  "w": 154,
+                  "h": 278,
+                  "component": 12
+                }
+              ],
+              "uniformScale": 0.27794561933534745,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "4a6a803f0714dca2b563196f155abe45fc04760a57b7639bd0a4e3a0e0e43501",
+                "atlasSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 24,
+                  "right": 25,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 26,
+                      "right": 26,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 28,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 46,
+                      "right": 46,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 40,
+                      "right": 40,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 41,
+                      "right": 41,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 44,
+                      "right": 44,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 25,
+                      "right": 26,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 24,
+                      "right": 25,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 25,
+                      "right": 25,
+                      "top": 25,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 31,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 26,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 34,
+                      "top": 27,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 42,
+                      "right": 43,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.3,
+                  1.8,
+                  2.5,
+                  1.4,
+                  1.1,
+                  1.6,
+                  2.5,
+                  1.8,
+                  2.1,
+                  1.7,
+                  1.2,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  8,
+                  3,
+                  1,
+                  -1,
+                  2,
+                  6,
+                  10,
+                  4,
+                  12,
+                  8,
+                  5,
+                  4,
+                  4
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "dunk-power": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "dunk-power",
+            "src": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "85ec1e16036bd08e13fa012f4d171dd108a69ab1b5453d73b3a02f6a873014f2"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "fbf99a86142038577932a5f9b9cccb4291175932466e97b1a52b75199ebb859a"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "bc7727ab9b5126f38a1bb7b66f2f3d03a08dcf2e7df1d00a4685e003ed597c1e"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2196c8cbfbad95c1bf0129d5cf234846396b64ea81fe8828649e0ce5664d1e77"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "edef1b77991fbfbc4a593cb9a002889cb8315bb402a5c3a8fe487969b7b30782"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c47cabb54b43a22669d099c82184b05ef71c9fe27534975f7505932f5335fe34"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c9cce25b0fe9e79c7525e4da08e1e0e24b339ceda409d0d2ff57b88cc9173514"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "341ab3d084eefb21465b810179791667bdd5e82a5974048973ba935e7e42a1dd"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "a4a11374462066eb3f5609de68efd4578d755999d5a7db8f1a589be364561171"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "7cd6306ebb8c3074cdc207fa354514eacee4932f51dab203dcd507685c957c0e"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "7201c32aae2fbb0b2889b6d4486468c8592ea3a0c95633495ded8df3b0f0b644"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "2c35f5ac2c11ce3849efb1bb9f1d6bac99f9b109cef806b5b2c64a2c267c1839"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "2625a87d1817b83bb108df3ada41f811db33f933c78a323b6822d39865bdabbc"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "0051f06330c2a6c5b12e3ddac8aab47e8be8d63289c22ca5be47fad5b57a8085"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "9ea91c8485b14dad5184c8f9a7fe541711155f979c1516577d5751afd310e33f"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "dunk-power",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-dunk-power-prompt.md",
+              "prompt": "Use the Echo Catwalk reference solely to preserve his identity. The same ADULT MAN must appear in all 15 cells: medium-brown skin, visibly masculine face, short spiky dark-teal hair, teal forehead band, unmistakable trimmed dark-teal beard and mustache, compact athletic build, teal sleeveless jersey and shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. No woman, ponytail, long hair or clean-shaven face. Exactly two arms and two legs. Original art faces right.\n\nCreate an original transparent RGBA production sprite sheet, 1536x1024, strict five equal columns by three rows, row-major, exactly fifteen distinct complete full-body poses of one athlete. Leave broad transparent gutters and outer margins; keep every limb, head and shoe inside its cell. No environment, court, hoop, floor, shadow, effects, text, opponent, teammate, or props. Crisp 1990s arcade pixel art with clean dark outlines and readable pose clusters.\n\nEcho performs a powerful one-handed right-facing basketball dunk. Fifteen sequential poses: 0 forward approach; 1 long running stride; 2 gathers arms close to torso around an invisible ball; 3 drives upward; 4 lifts knees into takeoff; 5 rises with one hand bringing the imaginary ball overhead; 6 extends toward the rim; 7 reaches peak extension; 8 drives the arm down; 9 hangs briefly; 10 open one-hand release pose at the rim (leave hand empty); 11 follows through; 12 descends; 13 lands with knees flexed; 14 regains balance. Keep both hands empty: there must be NO basketball anywhere in the sheet. The ball is an independently animated Echo-specific runtime track, carried through tick 20 and released at tick 21; do not draw or suggest a ball.\n\nAll 15 figures fully separated, consistent scale, proportions, costume and identity. Keep anatomy natural and connected. No cropped limbs or hair, no merged figures, no checkerboard or haze. Every background pixel and gutter must be alpha zero. Return only the sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-pass-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "All 15 poses retain Echo as a bearded adult male with teal headband, short teal hair, teal kit and knee pads. Readable run, gather, jump, one-hand dunk, release follow-through and landing sequence. No basketball was generated. Minor dark-alpha haze removed by per-cell component cleanup; the isolated atlas is reviewed separately.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballTrack": {
+                "owner": "echo-catwalk",
+                "art": "none; independent runtime basketball",
+                "notes": "Keep Echo and the opposing player ball paths separate. Carry through simulation tick 20, release at tick 21; dunk score finish at tick 23."
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-dunk-power15.py",
+                "method": "For each of 15 strict 5x3 cells, retain largest alpha>=32 athlete component plus only its 2px antialiased fringe; clear generated haze. Then package with package-dunk15.py --isolate-components.",
+                "rawSourceSha256": "65c78cd8620548eea8bf22e3cefceb11c4b4db4962f2014612c1a824d97df253",
+                "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-power15.png",
+                "cleanedSourceSha256": "7aee0822f0d417bcf82f3037bbaf79e1e5c12683f8d3dd90581057827e2dda4e"
+              },
+              "generationHistory": [
+                {
+                  "id": "exec-7165b7cd-c862-47e3-ae33-46ac9396ac10",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-dunk-power-generated-raw.png",
+                  "sha256": "65c78cd8620548eea8bf22e3cefceb11c4b4db4962f2014612c1a824d97df253"
+                }
+              ],
+              "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-power15.png",
+              "sourceSha256": "7aee0822f0d417bcf82f3037bbaf79e1e5c12683f8d3dd90581057827e2dda4e",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 20,
+                  "y": 76,
+                  "w": 243,
+                  "h": 267,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 325,
+                  "y": 75,
+                  "w": 289,
+                  "h": 265,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 742,
+                  "y": 89,
+                  "w": 116,
+                  "h": 254,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 971,
+                  "y": 63,
+                  "w": 236,
+                  "h": 280,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1268,
+                  "y": 12,
+                  "w": 233,
+                  "h": 331,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 24,
+                  "y": 377,
+                  "w": 230,
+                  "h": 308,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 350,
+                  "y": 377,
+                  "w": 237,
+                  "h": 308,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 670,
+                  "y": 355,
+                  "w": 173,
+                  "h": 330,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 977,
+                  "y": 400,
+                  "w": 207,
+                  "h": 285,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1296,
+                  "y": 369,
+                  "w": 210,
+                  "h": 316,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 45,
+                  "y": 745,
+                  "w": 250,
+                  "h": 264,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 392,
+                  "y": 745,
+                  "w": 151,
+                  "h": 262,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 678,
+                  "y": 795,
+                  "w": 201,
+                  "h": 213,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 992,
+                  "y": 760,
+                  "w": 182,
+                  "h": 249,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1300,
+                  "y": 745,
+                  "w": 184,
+                  "h": 265,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.27794561933534745,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "985ab4830e2304779dbb9ac84962e56beb252feaa8b9d6c83279cbbe41993007",
+                "atlasSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 24,
+                  "right": 24,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 17,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 24,
+                      "right": 24,
+                      "top": 17,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 48,
+                      "right": 48,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 13,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 34,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 41,
+                      "right": 42,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 35,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 36,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 43,
+                      "right": 43,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 32,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 39,
+                      "top": 22,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 39,
+                      "top": 17,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.15,
+                  1.25,
+                  1.4,
+                  1.65,
+                  1.9,
+                  2.1,
+                  2.25,
+                  2.35,
+                  1.7,
+                  2.08,
+                  1.65,
+                  1.1,
+                  0.75,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  9,
+                  10,
+                  10,
+                  8,
+                  6,
+                  6,
+                  9,
+                  3,
+                  -2.1,
+                  13,
+                  10,
+                  8,
+                  7
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "dunk-reverse": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "dunk-reverse",
+            "src": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "b3a7c417880f27aac541de545762f36f90085887a01cf954b817129f924b508c"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "d04ecdd146f51d314c1445c0e9206d06f471364b249375584f6a7b226d13182a"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "200e409f1c40318d204626498a843a11a06d54ce8ec7bd45463b5b7076359edd"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "7e95a5f4eb1661c42f6544e26fd79a275f972a9a3df310143cb8c4f061f14001"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "50e621461fc84ffb4a948d17187da3ea911fcc18d81be70eb0c87da7a684ba42"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "d69997c0e58f4bda5f5a5f83b7c087a523221c17fc4d3765e00342a198874fb1"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "dc828e5739779be36a91afaf1c130bc0bb1e49f795baf3a6e9ecf6aefc979c1e"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "408badcd9748fbfdc5be770e980f906f6b9385ae9fdf477d67543c79b431e4dd"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "46c50080c83b954bde31cdbbac772b17152177a2eddb7ff7d3391ffde3383097"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "0581cdfdc1d2eff2d22eb65803c667a9b231dfb12d6e6f2062a0bf0b36fa85a2"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "ccc624bb9f2946f2be4ab29892f338da4a13a25c495c854e41960c1f1a07bc81"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "0982e4cd50aa6efc2a28b18366d0cb23c1712c05ee7d773ca185ec41e8680706"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "d78f6f98fba167bc0aa663149415e303bc281d7fbbe206c5cc5769f21eed01c8"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "dea02d7ed8c03f41dc212a046c3333a52580e978c2afe4142afb16bfbfd17587"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "891edb418da62b73cdaa76be857c52167bec5b8c83cd8ea72ccb20c01f80d3c8"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "dunk-reverse",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-dunk-reverse-prompt.md",
+              "prompt": "Use the Echo Catwalk reference to preserve the same ADULT MAN in every pose: medium-brown skin, visibly masculine face, short spiky dark-teal hair, teal forehead band, clear trimmed dark-teal beard and mustache, compact athletic build, teal sleeveless jersey and shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never depict a woman, ponytail, long hair or clean-shaven face. Exactly two arms and two legs. Original source faces right.\n\nCreate a transparent RGBA 1536x1024 production sprite sheet with five equal columns by three rows, strict row-major order. Exactly fifteen distinct complete full-body poses of this one athlete, each safely inside its own cell and separated by broad transparent gutters. No court, hoop, floor, background, effects, shadow, letters, opponents, teammates, basketball or props. Crisp outlined 1990s arcade pixel art.\n\nEcho performs a reverse dunk with a strong in-air body rotation. Sequence: 0 running approach to the right; 1 strides under the basket line; 2 gathers around an invisible ball; 3 plants and takes off; 4 rises and begins turning his back to the hoop; 5 shoulders rotate away from camera; 6 carries imagined ball behind his head; 7 tucks knees and turns under the rim; 8 reaches the ball-hand behind his head toward the basket; 9 extends for the reverse finish; 10 open empty hand at release; 11 follows through behind the head; 12 turns back while descending; 13 lands softly with bent knees; 14 regains a balanced stance. Make the reverse direction and torso rotation clear. Keep every hand empty and distinct; no ball anywhere because Echo's ball is animated on a separate athlete-specific runtime track.\n\nAll fifteen figures keep consistent identity, body proportions, costume and scale. Natural anatomy, no extra or merged limbs, no cropped hair or shoes. Background and gutters must be alpha zero, with no haze or checkerboard. Return only the sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "15 full-body poses preserve Echo’s male face, beard, headband, dark-teal hair, teal uniform, knee pads, anatomy and scale. Distinct reverse rotation with visible back-facing poses, reach/release, descent and landing. No ball in source.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballTrack": {
+                "owner": "echo-catwalk",
+                "art": "none; separate Echo-specific runtime track",
+                "notes": "Do not share the opposing player ball track; runtime independently controls hold and release."
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-dunk-reverse15.py",
+                "method": "Retain each cell’s largest alpha>=32 athlete component plus 2px antialiased fringe; remove haze and pack isolated poses.",
+                "rawSourceSha256": "4958e570b0f8562ef28ea57426985a8ba65f2f81055422f5e10e9bcc8230a120",
+                "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-reverse15.png",
+                "cleanedSourceSha256": "8d55cc0b0791f67f55604fa6b1fcd322c757949f11ab3baf1ccb5d3edb8d14dc"
+              },
+              "generationHistory": [
+                {
+                  "id": "exec-306d55e3-f8f6-49e9-ab9b-9b4e9ee6278c",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-dunk-reverse-generated-raw.png",
+                  "sha256": "4958e570b0f8562ef28ea57426985a8ba65f2f81055422f5e10e9bcc8230a120"
+                }
+              ],
+              "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-reverse15.png",
+              "sourceSha256": "8d55cc0b0791f67f55604fa6b1fcd322c757949f11ab3baf1ccb5d3edb8d14dc",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 45,
+                  "y": 104,
+                  "w": 234,
+                  "h": 239,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 357,
+                  "y": 93,
+                  "w": 259,
+                  "h": 250,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 719,
+                  "y": 104,
+                  "w": 149,
+                  "h": 239,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 996,
+                  "y": 64,
+                  "w": 170,
+                  "h": 279,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1268,
+                  "y": 45,
+                  "w": 221,
+                  "h": 298,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 59,
+                  "y": 408,
+                  "w": 223,
+                  "h": 277,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 350,
+                  "y": 408,
+                  "w": 232,
+                  "h": 251,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 725,
+                  "y": 423,
+                  "w": 131,
+                  "h": 231,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 964,
+                  "y": 373,
+                  "w": 238,
+                  "h": 307,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1297,
+                  "y": 365,
+                  "w": 212,
+                  "h": 320,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 52,
+                  "y": 681,
+                  "w": 209,
+                  "h": 326,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 380,
+                  "y": 719,
+                  "w": 217,
+                  "h": 281,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 686,
+                  "y": 749,
+                  "w": 182,
+                  "h": 245,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 994,
+                  "y": 793,
+                  "w": 195,
+                  "h": 203,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1320,
+                  "y": 747,
+                  "w": 176,
+                  "h": 250,
+                  "component": 13
+                }
+              ],
+              "uniformScale": 0.2822085889570552,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "326671968e21cf2a23ddf2cb2162fef46e931b06d535044e3f59dd009a627291",
+                "atlasSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 27,
+                  "right": 28,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 24,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 28,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 43,
+                      "right": 43,
+                      "top": 24,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 40,
+                      "right": 40,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 33,
+                      "top": 13,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 32,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 45,
+                      "right": 46,
+                      "top": 26,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 36,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 34,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 39,
+                      "top": 22,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 34,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.2,
+                  1.5,
+                  1.8,
+                  2,
+                  2.2,
+                  2.3,
+                  2.4,
+                  1.9,
+                  2.1,
+                  1.7,
+                  1.2,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  9,
+                  7,
+                  4,
+                  2,
+                  -2,
+                  -6,
+                  15,
+                  -11,
+                  -8,
+                  -3,
+                  3,
+                  4
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "dunk-scythe": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "dunk-scythe",
+            "src": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "1087ac844ab89a6f327dd61fa3ac5f0a607618596c25b0f191cdab1f383277f1"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "4c75bbe293ccc220a6eab1a52d888964bd94e9aecc7704eaabb4606e70991ee9"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "e0c083bc5721a2014786cf8ac160588187ed7a9ff8a54b2728b16329d2656227"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "52b0a665c6254db15d4cb81d71e4d5dbb1872c94a5288d976c20d8775a299048"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "8dba9ea39bedc02a9055a678a26fa7953659f290dfbd5c1b6e35380de83e33cf"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "df64df4f5c5b5ad85cc566639a629388362dff210739da0f95d93982948f61d3"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "0a955c9efb689540bbb00a3a43f13e355b94a8fc175eb286f8936e3925bcfc58"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "4ad1f70d94651203ab0ef3c00f8181be179bc40154650948f56d16ee83f37691"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d1a0f4cd2cf048cfebc612407d41c49fa16a726befbf97e568b8368eb7de20ad"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "be1072531f7080905e30f47e5c4eee8cf828b07a26916f0248fd5a4275f219ef"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "b200b60a6e5f3e4c0a14b4564a9fed401203dfa553ecee2851bc4fa4d45900ae"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "5633083b4a048ee530775d2b55936fa4db30e35a70d37c7da617ac61d1227b0b"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "226286970767e2b3bf00859aa7600463defa6725f1812d45f8d8834e49617d8e"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "bacdcfa4e9e53af2f8ef77d2e8242ba2e927b2d0f984477f5ce2187c31a64851"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "291a4d835861ffea1218461764667aa350e5b2e1d8aaa1c802c9fbfe82e8ef0a"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "dunk-scythe",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-dunk-scythe-prompt.md",
+              "prompt": "Use Echo Catwalk reference to preserve the same adult male identity in every cell: medium-brown skin, masculine face, short spiky dark-teal hair, teal headband, unmistakable trimmed beard and mustache, compact athletic body, teal uniform with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never woman, ponytail, long hair or clean-shaven. Exactly two arms and legs. Original art faces right.\n\nDraw a strict 5x3 row-major sheet of fifteen unique complete full-body poses in 1536x1024 transparent RGBA pixel art. Keep every complete figure separated inside its cell with wide gutters. No court, hoop, floor, background, shadows, effects, text, other players, basketball or props. Crisp 1990s arcade art with dark outlines.\n\nEcho executes a scythe dunk: a sweeping diagonal arm path cuts across his body before rising to finish. Sequence: 0 rightward running approach; 1 stride; 2 gathers imaginary ball low on one side; 3 sweeps the ball-side forearm diagonally across abdomen toward opposite shoulder, torso twisting; 4 continues the broad scything sweep across chest; 5 steps into takeoff with arm crossing diagonally; 6 jumps and swings that arm sharply upward across the opposite side; 7 turns shoulders through the finish; 8 reaches overhead toward rim; 9 stretches for dunk; 10 open empty hand releases at the rim; 11 follows through; 12 descends with arm lowering across body; 13 lands, knees flexed; 14 returns balanced. Make the low-across-body-to-high-opposite-side diagonal motion clear in several consecutive frames. Hands remain empty: do not draw any ball. The ball follows Echo’s separate athlete-specific runtime track.\n\nKeep Echo’s same beard, hair, headband, uniform, scale and natural connected anatomy. No clipped or merged limbs, hands, hair or shoes. Alpha-zero background/gutters, no haze or checkerboard. Return only the sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "15 complete poses preserve Echo’s male face, beard, hair, uniform and anatomy. A clear low gather and diagonal across-body sweep continue into an overhead extension and follow-through. Hands empty; no ball in art.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballTrack": {
+                "owner": "echo-catwalk",
+                "art": "none; separate Echo-specific runtime path",
+                "notes": "Ball sweeps diagonally via runtime, independently of any opponent."
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-dunk-scythe15.py",
+                "method": "Per-cell largest alpha>=32 component plus 2px fringe removes generation haze; isolated component packer creates atlas.",
+                "rawSourceSha256": "5255be78f946227b0e2406e0e4ed1e11b5b8f1f42a83c21f1b9cf5e13621500d",
+                "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-scythe15.png",
+                "cleanedSourceSha256": "f879cfb21fc476b4410544a1471da1d85fe94308a17054580f2ca99910885e26"
+              },
+              "generationHistory": [
+                {
+                  "id": "exec-d83316a1-7313-4d21-9943-e0d1ac19ad70",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-dunk-scythe-generated-raw.png",
+                  "sha256": "5255be78f946227b0e2406e0e4ed1e11b5b8f1f42a83c21f1b9cf5e13621500d"
+                }
+              ],
+              "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-scythe15.png",
+              "sourceSha256": "f879cfb21fc476b4410544a1471da1d85fe94308a17054580f2ca99910885e26",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 35,
+                  "y": 53,
+                  "w": 253,
+                  "h": 275,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 361,
+                  "y": 62,
+                  "w": 239,
+                  "h": 274,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 660,
+                  "y": 80,
+                  "w": 234,
+                  "h": 256,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 973,
+                  "y": 57,
+                  "w": 247,
+                  "h": 279,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1292,
+                  "y": 54,
+                  "w": 202,
+                  "h": 282,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 87,
+                  "y": 388,
+                  "w": 207,
+                  "h": 297,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 384,
+                  "y": 389,
+                  "w": 220,
+                  "h": 296,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 667,
+                  "y": 367,
+                  "w": 223,
+                  "h": 315,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 973,
+                  "y": 339,
+                  "w": 258,
+                  "h": 346,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1287,
+                  "y": 347,
+                  "w": 209,
+                  "h": 338,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 50,
+                  "y": 689,
+                  "w": 213,
+                  "h": 315,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 379,
+                  "y": 731,
+                  "w": 226,
+                  "h": 277,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 697,
+                  "y": 734,
+                  "w": 196,
+                  "h": 275,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 992,
+                  "y": 769,
+                  "w": 198,
+                  "h": 237,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1282,
+                  "y": 741,
+                  "w": 185,
+                  "h": 268,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.2658959537572254,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "c4a959e318f067e3a78b1972076c88c1321861471efa7246c1fe81a98ad16e13",
+                "atlasSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 30,
+                  "right": 31,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 31,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 17,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 35,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 36,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 17,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 28,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 40,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.2,
+                  1,
+                  0.8,
+                  0.6,
+                  0.7,
+                  1,
+                  1.6,
+                  1.7,
+                  2.3,
+                  1.8,
+                  1.2,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  4,
+                  1,
+                  -5,
+                  -9,
+                  -12,
+                  -10,
+                  -6,
+                  0,
+                  2,
+                  13,
+                  9,
+                  5,
+                  4,
+                  4
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "dunk-tomahawk": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "dunk-tomahawk",
+            "src": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "44281c922160d3efb301439edfa2d391ed7910fb17434f9179c7c883e5e715a3"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "b06e0be80eff87728efa0c24e2df505c0f6bf3e02a3c5b39b570c3ad811ba6f1"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "961daab2a22cf1dbb3236944c23dc5519d627f8e253af5af4158cc77de31a330"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "40e271a6b4ec61b5f510c2e9aa1e0ef8c3fad2217bf31776d7dd2d5fa97482fe"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "cf4f634e8e7e2287cfbaba60532dc7ce4a8b101e7dffcee4e800aa3afb138dfb"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "09fede52aa1f53448abd403d99c3a7e267fe441f3d06b1d5e8622d7774dadd02"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "68d0b7ac7621f849d164111c32065857fe0f94811a38bcc6887951856aa25cf1"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "e05a672b300b4dd1dc8a88ae2474da8a873647545041ec67dd2d64f48d8119f6"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "dde12ebe745e6d98885e16689e03f93407c0d6ac890215c50460f5857b8933c0"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "1a8c909c22d6b966597b190d734df060815e9e92d64d778dc682ee6dc0ac928c"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "459c6c198ead006a3c218d1a883671fab956e1d2dd927868160022e937fb0fcb"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e156d59a5dd6f74624dedafc405451e6adeed53e51bde004545d926285f18fbb"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "af1cea5a1da2ed307994c6d019b10a6ae99f03095e511fa6d547f287bccc1550"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "f90e46a4c7dbea5f1f3e25d8df5759b3db3d97480872145d6a811e18ea0625ef"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "46593c2fe2e4af91e5d2a8c2efca6e5b758af8de1329aa8cdac5a25cc64d94a2"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "dunk-tomahawk",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-dunk-tomahawk-prompt.md",
+              "prompt": "Use the Echo Catwalk reference to match the same ADULT MAN in every pose: medium-brown skin, masculine face, short spiky dark-teal curls, teal forehead band, clearly visible trimmed dark-teal beard and mustache, compact athletic build, teal sleeveless jersey and shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never woman, long hair, ponytail or clean-shaven. Exactly two arms and two legs. Original art faces right.\n\nDraw exactly fifteen complete full-body sequential poses in a strict row-major five-column by three-row 1536x1024 transparent RGBA sprite sheet. Keep each figure fully inside its own cell and separate with broad transparent gutters. Crisp 1990s arcade pixel art with clear dark outlines. No background, court, hoop, floor, shadows, effects, letters, teammate, opponent, ball or any prop.\n\nEcho performs a forceful tomahawk dunk: 0 runs to the right; 1 strides; 2 gathers around an invisible ball; 3 plants and jumps; 4 raises the imagined ball high; 5 bends the ball-arm behind his head like a tomahawk hammer; 6 reaches peak with elbow cocked and knees lifted; 7 swings the empty hand forward from behind his head; 8 forcefully chops the arm downward; 9 reaches above rim; 10 open empty hand release; 11 exaggerated downward follow-through; 12 falls from the rim area; 13 lands with both knees bent; 14 stands steady. Make the strong behind-the-head cock and downward hammer motion unmistakable; do not show any basketball. Both hands must remain empty; the ball follows Echo’s own separate runtime track.\n\nEvery figure has consistent Echo identity, proportions and uniform, with natural attached limbs, visible hair and shoes. No cropping, merging or repeated identical poses. Alpha-zero background and gutters; no haze/checkerboard. Return only the sprite sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "All 15 full-body poses retain Echo’s identity, anatomy and kit; the gather, cocked elbow behind head, strong downward tomahawk swing, release, landing and recovery are clear. Empty hand/no embedded ball.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballTrack": {
+                "owner": "echo-catwalk",
+                "art": "none; independent Echo-specific runtime ball path"
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-dunk-tomahawk15.py",
+                "method": "Per-cell largest alpha>=32 component plus 2px antialiased fringe; remove haze; pack isolated poses.",
+                "rawSourceSha256": "928923b2df2fe93622f5246cb5e653ee87531e764285e95ede2cea276438148b",
+                "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-tomahawk15.png",
+                "cleanedSourceSha256": "70104693e9a4f63f8aa36f36580c18a978ec3e1364856cb074088724c1333cde"
+              },
+              "generationHistory": [
+                {
+                  "id": "exec-8163d32b-4a39-4a48-8cac-20c2b234032e",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-dunk-tomahawk-generated-raw.png",
+                  "sha256": "928923b2df2fe93622f5246cb5e653ee87531e764285e95ede2cea276438148b"
+                }
+              ],
+              "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-tomahawk15.png",
+              "sourceSha256": "70104693e9a4f63f8aa36f36580c18a978ec3e1364856cb074088724c1333cde",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 39,
+                  "y": 127,
+                  "w": 212,
+                  "h": 216,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 348,
+                  "y": 111,
+                  "w": 256,
+                  "h": 232,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 706,
+                  "y": 139,
+                  "w": 186,
+                  "h": 204,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 976,
+                  "y": 64,
+                  "w": 177,
+                  "h": 279,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1268,
+                  "y": 19,
+                  "w": 226,
+                  "h": 324,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 38,
+                  "y": 418,
+                  "w": 226,
+                  "h": 267,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 390,
+                  "y": 403,
+                  "w": 214,
+                  "h": 263,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 645,
+                  "y": 416,
+                  "w": 265,
+                  "h": 269,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 948,
+                  "y": 456,
+                  "w": 248,
+                  "h": 229,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1324,
+                  "y": 362,
+                  "w": 170,
+                  "h": 323,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 50,
+                  "y": 732,
+                  "w": 259,
+                  "h": 265,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 378,
+                  "y": 749,
+                  "w": 217,
+                  "h": 236,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 695,
+                  "y": 744,
+                  "w": 181,
+                  "h": 253,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 998,
+                  "y": 783,
+                  "w": 190,
+                  "h": 222,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1300,
+                  "y": 711,
+                  "w": 160,
+                  "h": 296,
+                  "component": 11
+                }
+              ],
+              "uniformScale": 0.2839506172839506,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "9cea3b7dace5a088434ca3a87e263910985ab918d60c4f9c75f98605486d6358",
+                "atlasSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 26,
+                  "right": 27,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 30,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 28,
+                      "top": 25,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 33,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 34,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 26,
+                      "right": 27,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 26,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 41,
+                      "right": 42,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 27,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 24,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 39,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 28,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 41,
+                      "right": 42,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.3,
+                  1.6,
+                  1.9,
+                  2,
+                  2.1,
+                  2,
+                  1.9,
+                  1.8,
+                  2.1,
+                  1.6,
+                  1.1,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  9,
+                  7,
+                  3,
+                  0,
+                  -3,
+                  -5,
+                  -7,
+                  4,
+                  12,
+                  8,
+                  5,
+                  4,
+                  4
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "dunk-windmill": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "dunk-windmill",
+            "src": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f5c119f406940f87bbe4e943f970586a29f8f27450af1353d6d9c969acc8805f"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "fc379d438728bab1cc22ea5b428cebf4307b366cd47c0dbee0ce41394342e6aa"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "748ed8bd35ec8bf1fc8e16fecf382dd191b029693da5d1e56f1ec72e567f6499"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "6693bc4ab7d7dddcbb405e8a3a0009d954cffcd94a74a1688abcd2405ed4016b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6b3c347be5f057cff414b71133ebf0a39c53cca59e821fec6da93a9819812769"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "231ae53d7dd74512607181511e2d1db8cb2588283bf01d4bad006c31dedddb3f"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "43f916adfedd162ba121c2b42d708eeebb8478e1a5e07476238d7e1cc7a38440"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "44e0b3d5466b2ae6256c1f03a1e45f8a943aa5f21a04e1bd49950a5538b030b6"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "cfd4310e351203fd43ba91d17b66236bdeaccad8ab5825ed02fe43c37a77ac4e"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "869fd16aa4c3505de8b6184a43f48eec08fcd5fbe7bdb9e63c22cca846a7c37d"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "23c10cf82fa1d94ec39947794d9a5d3991a88dccab124787304ccae353dd6998"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "f24ba3da99474ba602ef37aada124853eb49b3903eef595bc4d50b6641341a21"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "904532ad20352f7a36e8fda47661f68c7c96196a7b07004b1d105736f9e6de6a"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "0617e4d058f28540bcab15f03fd12b469dab59300f6ab970f3ec01013cc89210"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "f91315a0b964fb81d0c29cf5b20bcd54125b22a53421f61d637dcf3fda9069e0"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "dunk-windmill",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/echo-catwalk-dunk-windmill-prompt.md",
+              "prompt": "Use the Echo Catwalk reference solely to preserve his identity. The same ADULT MAN must appear in all 15 cells: medium-brown skin, visibly masculine face, short spiky dark-teal hair, teal forehead band, unmistakable trimmed dark-teal beard and mustache, compact athletic build, teal sleeveless jersey and shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never depict a woman, ponytail, long hair or clean-shaven face. Exactly two arms and two legs. Right-facing original art.\n\nCreate a transparent RGBA production sheet of 1536x1024 pixels, strict five equal columns by three rows, row-major, exactly fifteen distinct complete full-body poses of the same athlete. Keep every figure inside its cell, with broad transparent gutters. No court, hoop, floor, background, effects, shadows, lettering, teammate, opponent or props. Crisp outlined 1990s arcade pixel art.\n\nEcho performs a one-handed windmill dunk: 0 running approach; 1 longer stride; 2 gathers close to chest around invisible ball; 3 leaps; 4 brings imaginary ball up; 5 moves ball-hand out wide; 6 swings it through a broad circular windmill path; 7 arm sweeps down and around; 8 continues circular swing across shoulder level; 9 rises and rotates the arm overhead; 10 reaches above rim for one-hand release (hand empty); 11 follows through; 12 descends; 13 lands with flexed knees; 14 balances upright. Show clear arm rotation, body and leg continuity. Do not draw a basketball or any prop; keep both hands empty and anatomically distinct. Echo's ball is tracked independently in runtime and must not be embedded in the drawings.\n\nAll 15 figures complete, consistent identity and scale, no cropped hair, limbs or shoes. Transparent alpha-zero background/gutters, no haze or checkerboard. Return only the sheet.",
+              "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "All 15 poses preserve Echo’s male identity, beard, headband, hair, build, teal uniform and separate limbs. Sequential running, gather, jump, broad one-arm overhead sweep, release/follow-through and landing. Empty hands/no ball. Windmill arm path reads more as a broad overhead arc than a full circular rotation; visual review considers it acceptable for this low-resolution action atlas.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballTrack": {
+                "owner": "echo-catwalk",
+                "art": "none; independent Echo-specific runtime basketball track",
+                "notes": "Do not merge ball with another athlete path; ball carry/release timing is authored by runtime."
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-dunk-windmill15.py",
+                "method": "Per 5x3 cell retain largest alpha>=32 athlete component plus its 2px antialias fringe; clear generated background haze. Packed with package-dunk15.py --isolate-components.",
+                "rawSourceSha256": "7e3903acd2a9cca4e46bb464b7d2983752bd5125961ba2de89d1af4e78316581",
+                "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-windmill15.png",
+                "cleanedSourceSha256": "d25105e22b028a720fb79fd383a423941a237b237d0d433410d4825e65ba44ab"
+              },
+              "generationHistory": [
+                {
+                  "id": "exec-b1301044-0c89-4166-84d6-7c676c3adefc",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-dunk-windmill-generated-raw.png",
+                  "sha256": "7e3903acd2a9cca4e46bb464b7d2983752bd5125961ba2de89d1af4e78316581"
+                }
+              ],
+              "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-windmill15.png",
+              "sourceSha256": "d25105e22b028a720fb79fd383a423941a237b237d0d433410d4825e65ba44ab",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 25,
+                  "y": 104,
+                  "w": 246,
+                  "h": 239,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 335,
+                  "y": 98,
+                  "w": 281,
+                  "h": 245,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 734,
+                  "y": 112,
+                  "w": 134,
+                  "h": 231,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 962,
+                  "y": 43,
+                  "w": 232,
+                  "h": 300,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1261,
+                  "y": 15,
+                  "w": 243,
+                  "h": 328,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 40,
+                  "y": 437,
+                  "w": 249,
+                  "h": 248,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 357,
+                  "y": 475,
+                  "w": 194,
+                  "h": 210,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 653,
+                  "y": 454,
+                  "w": 219,
+                  "h": 231,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 982,
+                  "y": 397,
+                  "w": 216,
+                  "h": 288,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1290,
+                  "y": 351,
+                  "w": 193,
+                  "h": 334,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 45,
+                  "y": 733,
+                  "w": 259,
+                  "h": 264,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 389,
+                  "y": 761,
+                  "w": 189,
+                  "h": 244,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 701,
+                  "y": 780,
+                  "w": 194,
+                  "h": 223,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1022,
+                  "y": 749,
+                  "w": 176,
+                  "h": 255,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1327,
+                  "y": 734,
+                  "w": 165,
+                  "h": 269,
+                  "component": 13
+                }
+              ],
+              "uniformScale": 0.2754491017964072,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "ed0650c8ff76e47c867a4655f9b91e419f1fe9dddc90475bfa5d45523cd16d20",
+                "atlasSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 25,
+                  "right": 26,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 25,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 25,
+                      "right": 26,
+                      "top": 24,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 45,
+                      "right": 46,
+                      "top": 27,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 33,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 27,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 29,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 24,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 30,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 40,
+                      "right": 40,
+                      "top": 21,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 41,
+                      "right": 42,
+                      "top": 17,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.2,
+                  1,
+                  0.8,
+                  0.9,
+                  1.2,
+                  1.6,
+                  2,
+                  2.2,
+                  2.1,
+                  1.7,
+                  1.2,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  9,
+                  -3,
+                  -7,
+                  -10,
+                  -8,
+                  -4,
+                  0,
+                  6,
+                  11,
+                  12,
+                  8,
+                  5,
+                  4
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "fall": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "fall",
+            "src": "./public/assets/animation/echo-catwalk-fall-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c11ba588605874d28044fedd7e74a003351f6c342fc45b8cb8ad13f75acd9938"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0767677092ea0b95271b9675015da7eca9f3726f2515681b69e1aad95ba19ef2"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bbeaef85307388ea26667285adf23ccc851695f4cd7958d2514bdac7465de707"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c142259b9a58a823135c4bd8de695a78928ac49a7da974d6f69c8064d1b57c7f"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7a0b6f0decb5e20620bb50a9f26c7f8c1954fe219e2f99bb563088b58fd5853f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c4a555e8b2c561d2603f12bc746681c0d0f815a8ebc427c9e8de2a97e7c3f3ec"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "076e2e78b22162be55925a9672d92420226cf1ef61202cf0d574230df10bf577"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7cc18c70e4b8936e9b82f67e21dc24bed711f9e3413efdc64b09654955a9401a"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c65dc99d5e38a2751afde7aff3292c1bb87afbed5c7e0c43d8c8a4d61e50a66e"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a0693a32e8a2c22da0e80d4a52c57a419aae1c48f39c523a42c5dc5490d4adcc"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "fall",
+              "generationId": "exec-08cb79cb-f965-4e8c-88e6-1a8d656c76a2",
+              "promptFile": "tools/generate-art/echo-catwalk-fall-prompt.md",
+              "referenceImage": "public/assets/animation/echo-catwalk-pass-right.webp",
+              "review": {
+                "status": "accepted",
+                "notes": "Accepted: all ten frames show Echo Catwalk as a medium-brown adult man with teal headband, short dark-teal hair, trimmed beard, teal kit, knee pads and teal-black shoes. Continuous controlled fall and recovery, no ball or props. Figure scale/identity remain consistent. Source rendered a dark background despite transparency request; component isolation packaging removes it.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "ballPolicy": "No ball in frames. Echo-specific ball track must be authored independently in the game runtime; this atlas contains no ball.",
+              "cleanup": "package-echo-action10.py performs per-pose connected-component isolation, transparent-background cleanup, uniform scale and baseline placement.",
+              "generationHistory": [
+                {
+                  "id": "exec-08cb79cb-f965-4e8c-88e6-1a8d656c76a2",
+                  "status": "accepted",
+                  "source": "tools/generate-art/sources/echo-catwalk-fall-generated-raw.png",
+                  "sha256": "3cf9271976ceff730e6eaafd22a8ff93f551f4de4cd51b6ffdfb9b5c0abea25b"
+                }
+              ],
+              "prompt": "Use the Echo Catwalk reference only for exact identity, face, hair, beard, uniform and scale. Create ten distinct complete full-body fall-and-recovery poses in 1536×1024 transparent RGBA pixel art, strict five columns by two rows, row-major. Each figure clear and inside its cell. No court, floor, background, shadow, text, opponent or props.\n\nEcho is a compact athletic ADULT HUMAN MAN, medium-brown skin, short spiky dark-teal curls, teal headband, trimmed dark-teal beard, teal sleeveless jersey/shorts with black-deep-purple trim, black knee pads, teal-black shoes, wristbands. Preserve his face, male anatomy, hair, beard and kit. Exactly two natural arms/hands, legs/shoes.\n\nA controlled gameplay knockdown from a stumble, followed by immediate safe recovery. Ten connected poses:\n0 balanced run interrupted, torso twists, arms counterbalance;\n1 loses balance to one side, knees bend;\n2 lowers toward a controlled knee/hip fall;\n3 seated side-fall with one palm bracing on ground, no pain or injury;\n4 briefly curled side position, legs tucked but anatomically clear;\n5 rolls upright to one knee;\n6 plants one foot and pushes up;\n7 rises through crouch;\n8 returns upright with balanced feet and arms lowering;\n9 stable ready stance. Make this a continuous valid human action, not a crawling/prone pose in normal play. One deliberate low frame only; never distort, flatten or merge limbs.\n\nAll ten distinct full bodies; same scale and identity, no clipped limbs/hair. No ball or props. Transparent alpha-zero background/gutters, no haze/checkerboard. Crisp 1990s arcade pixel clusters. Return only the sheet.",
+              "generatedAt": "2026-10-24",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "sourceSha256": "3cf9271976ceff730e6eaafd22a8ff93f551f4de4cd51b6ffdfb9b5c0abea25b",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-fall-generated-raw.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 36,
+                  "y": 106,
+                  "w": 294,
+                  "h": 375,
+                  "component": 1,
+                  "area": 39915
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 319,
+                  "y": 156,
+                  "w": 350,
+                  "h": 334,
+                  "component": 2,
+                  "area": 41055
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 599,
+                  "y": 257,
+                  "w": 305,
+                  "h": 233,
+                  "component": 3,
+                  "area": 34694
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 908,
+                  "y": 281,
+                  "w": 329,
+                  "h": 212,
+                  "component": 4,
+                  "area": 35340
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1251,
+                  "y": 355,
+                  "w": 275,
+                  "h": 136,
+                  "component": 5,
+                  "area": 26179
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 29,
+                  "y": 667,
+                  "w": 270,
+                  "h": 278,
+                  "component": 9,
+                  "area": 38337
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 350,
+                  "y": 679,
+                  "w": 259,
+                  "h": 266,
+                  "component": 10,
+                  "area": 37957
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 650,
+                  "y": 621,
+                  "w": 250,
+                  "h": 320,
+                  "component": 8,
+                  "area": 39818
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 942,
+                  "y": 554,
+                  "w": 242,
+                  "h": 391,
+                  "component": 6,
+                  "area": 43929
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1233,
+                  "y": 563,
+                  "w": 275,
+                  "h": 383,
+                  "component": 7,
+                  "area": 42319
+                }
+              ],
+              "uniformScale": 0.23529411764705882,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original fall poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "9413f57fbd018d40ca8b2157983e66b32958b01b5899907ead851d2719c91cbb",
+                "atlasSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 7,
+                  "right": 7,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      96,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 7,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      192,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 12,
+                      "top": 36,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      288,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 10,
+                      "top": 41,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 15,
+                      "right": 16,
+                      "top": 59,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 16,
+                      "right": 16,
+                      "top": 26,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      96,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 17,
+                      "right": 18,
+                      "top": 28,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      192,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 19,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      288,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 21,
+                      "right": 22,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 17,
+                      "right": 17,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "layup-reverse": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "layup-reverse",
+            "src": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "91a5e5740bb4334a924c6db331b846669ec323d3b1a3594880fa4cde6bba7efd"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "28921071d5e4c73244b360eb63e0ba2588c71ee55c4c815685770c83170bcd7d"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f7c204725c16d42c359736ae656350d6e135c9b5baec8be291cdc037262456a4"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5a74b7c3215043d645fb99c99bc0437df386bf25960434a20f82cd88ad698345"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "129fc3cc668d1106bcc21c0d885cd0cf4cb2c3ebaad42388b8a70f83be91d4c4"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4a79a1d26b8b406cb5928857ca1b172c8dfbbe440293ffcbbbe46f3f79085864"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "43ac3be23534789e960fce9e4c81d79069bf2f13c68d4d975957350a73fa3cf9"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "13be1be3e8b56fb13e72096b28787a46f336196baf493d2044f67e8a93f6370d"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "layup-reverse",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-464ec7ba-21fd-4ab0-8a4a-dbf5a9ab2473",
+              "imageGenerationId": "exec-464ec7ba-21fd-4ab0-8a4a-dbf5a9ab2473",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-layup-reverse-generated-raw.png",
+              "rawSourceSha256": "81b6725a81ae5cff569425820447524f61e4b01f7792fa56f9100803414aa535",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-layup-reverse-generated-raw.png",
+              "sourceSha256": "81b6725a81ae5cff569425820447524f61e4b01f7792fa56f9100803414aa535",
+              "promptFile": "tools/generate-art/echo-catwalk-layup-reverse-prompt.md",
+              "prompt": "Use the referenced Echo Catwalk art only to preserve his exact identity and colors. Create eight new full-body poses for a right-facing reverse layup, on a 1536×1024 transparent RGBA pixel-art sheet in a strict four-column by two-row grid, row-major. Broad transparent margins around every complete figure. No backgrounds, court, hoop, floor, text, ball, props or shadows.\n\nEcho is a compact adult human male athlete, medium-brown skin, short spiky dark-teal curls, teal headband, neat dark-teal beard, teal jersey and shorts with black/deep-purple panels, black knee pads, teal-black shoes and wristbands. Keep same male face, human proportions and kit in every pose. Two arms/hands, two legs/shoes. Hands remain empty; game renders the separate ball.\n\nRight-facing reverse layup toward an offscreen hoop at image-right. Sequence:\n0 approach in a controlled stride;\n1 gather invisible ball at chest;\n2 plant and load;\n3 jump and turn shoulders away from the rim, ball-miming hand sweeps behind far shoulder;\n4 rise with back/shoulder leading, other arm counterbalances;\n5 RELEASE at simulation tick12: reverse-side arm reaches high backward over the shoulder, open empty hand, knees tucked;\n6 empty-handed follow-through and controlled descent;\n7 balanced landing and recovery.\n\nMake all eight distinct, connected and full-body, keep complete hair and shoes in cells, with the whole pose readable. No ball or props at all. True transparent alpha-zero exterior and gutters, no halo, checkerboard or matte. Crisp arcade pixel-art clusters, small-sprite readability. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Echo-specific ball rises with him, follows the far-side hand behind the shoulder and releases at reverse-layup frame5/tick12. Never painted into poses.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.2,
+                  1.6,
+                  2.2,
+                  2.4,
+                  1.5,
+                  0.8
+                ],
+                "forward": [
+                  5,
+                  8,
+                  7,
+                  4,
+                  -5,
+                  -7,
+                  0,
+                  5
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eight distinct complete right-facing poses show approach, gather, takeoff while turning away, backward high reverse release at frame5/tick12, follow-through, controlled descent and landing. Canon identity consistent and hands empty.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 57,
+                  "y": 121,
+                  "w": 348,
+                  "h": 377,
+                  "component": 2,
+                  "area": 46968
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 474,
+                  "y": 121,
+                  "w": 267,
+                  "h": 377,
+                  "component": 3,
+                  "area": 41864
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 896,
+                  "y": 153,
+                  "w": 207,
+                  "h": 345,
+                  "component": 4,
+                  "area": 38752
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1183,
+                  "y": 41,
+                  "w": 340,
+                  "h": 413,
+                  "component": 1,
+                  "area": 42474
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 48,
+                  "y": 522,
+                  "w": 382,
+                  "h": 427,
+                  "component": 5,
+                  "area": 48480
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 473,
+                  "y": 557,
+                  "w": 346,
+                  "h": 423,
+                  "component": 6,
+                  "area": 45572
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 861,
+                  "y": 598,
+                  "w": 312,
+                  "h": 401,
+                  "component": 7,
+                  "area": 46310
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1218,
+                  "y": 660,
+                  "w": 301,
+                  "h": 339,
+                  "component": 8,
+                  "area": 43884
+                }
+              ],
+              "uniformScale": 0.2154566744730679,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 96x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "3b43d7f9fbaac1bf1dfbdf864a80382511ba82d89c92922bd92d268a225823be",
+                "atlasSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 9,
+                  "right": 10,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 11,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      96,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 19,
+                      "right": 19,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      192,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 25,
+                      "right": 26,
+                      "top": 17,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      288,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 13,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 10,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      96,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 13,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      192,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      288,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 15,
+                      "right": 16,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.2,
+                  1.6,
+                  2.2,
+                  2.4,
+                  1.5,
+                  0.8
+                ],
+                "forward": [
+                  5,
+                  8,
+                  7,
+                  4,
+                  -5,
+                  -7,
+                  0,
+                  5
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "layup": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "layup",
+            "src": "./public/assets/animation/echo-catwalk-layup-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "06ffb469fb65597d59325385dbeb4c589bd1ff07f6d92c7acc02f97a94e1cef8"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "52e5c0f1d0fdcca17df643902b706213cdda43b45bdb7bbf32dc4f9f4c8dbc68"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "4c59cc55ff1f687723101bcb21a4f566f10b2996f4045cb4e14f0983c66bf0e2"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "c0e5f34c957c76c7bcb0a8ce09efcdaeb9e3f8775f70fbfb4dce1de7631194b3"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "b1b42e0bb440234d4a2bd4c5293f846bd3ee627a5a1e8a38bdfc65f63185da6f"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "4c668db939a79d42e2312677e40a8b3777fcbfd4071ca9686d198eb4bc12b67f"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "880b7197d00ae006bfe804fd181429cfdacbc3a2c7c8547d94610531265dc7f4"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "4a9bffd19604192acdfede5f221484e3ddfb6504274d201a5f17a8492054cbf3"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "layup",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-60d9699d-b8da-473c-af85-236c60d302c2",
+              "imageGenerationId": "exec-60d9699d-b8da-473c-af85-236c60d302c2",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-layup-generated-raw.png",
+              "rawSourceSha256": "32283e3e9c74cef9a4dbfbda4351ddf1139d049679d827c41477a8c1fdbd8703",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-layup-generated-raw.png",
+              "sourceSha256": "32283e3e9c74cef9a4dbfbda4351ddf1139d049679d827c41477a8c1fdbd8703",
+              "promptFile": "tools/generate-art/echo-catwalk-layup-prompt.md",
+              "prompt": "Use the referenced Echo Catwalk game sprite only for his exact identity, face, hair, beard, uniform colors and scale, not for pose copying. Create eight new complete full-body basketball layup poses in a 1536×1024 true-transparent RGBA pixel-art sheet, strict four-column by two-row, row-major. Broad cell gutters. No scenery, court, background, shadows, text, ball, hoop or props.\n\nEcho is a compact athletic adult human man with medium-brown skin, short spiky dark-teal curls, teal headband, trimmed dark-teal beard, teal sleeveless jersey with black/deep-purple accents, teal shorts, black knee pads, teal-black shoes, wristbands. Preserve this precise masculine human appearance in all frames. Two natural arms/hands, two legs/shoes. No extra limbs/accessories. Both hands empty; game draws the ball separately.\n\nRight-facing one-hand right-handed layup toward an offscreen hoop at image-right. Eight distinct connected poses:\n0 controlled approach run;\n1 gather invisible ball near waist, eyes on target;\n2 plant left foot and load knee;\n3 jump upward, right arm and invisible ball rise beside head, left arm balances;\n4 RELEASE at simulation tick10: fully airborne, right hand extended high to image-right with open empty fingertips, left arm counterbalances, knees naturally tucked;\n5 follow through with empty right hand;\n6 descend with legs moving toward landing;\n7 balanced controlled landing and recovery.\n\nKeep motion athletic, smoothly rotational, full figure and complete hair/feet inside each cell. Clean, crisp 1990s arcade sprite clusters, alpha-zero transparent gutters/background with no haze, checkerboard or matte. No basketball or object in any pose. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Echo-specific separate ball gathers on his right hand during takeoff, meets the raised right hand at release frame4/tick10, then arcs forward to the rim. Never drawn into poses.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.4,
+                  2.1,
+                  2.7,
+                  2.8,
+                  2.2,
+                  1
+                ],
+                "forward": [
+                  5,
+                  8,
+                  9,
+                  12,
+                  15,
+                  12,
+                  9,
+                  7
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eight distinct complete right-facing Echo poses show approach, gather, one-foot load, airborne right-hand release at frame4/tick10, follow-through, descent, landing and recovery. Correct identity, all hands empty.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 28,
+                  "y": 88,
+                  "w": 338,
+                  "h": 384,
+                  "component": 3,
+                  "area": 49021
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 450,
+                  "y": 104,
+                  "w": 283,
+                  "h": 376,
+                  "component": 4,
+                  "area": 41020
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 851,
+                  "y": 80,
+                  "w": 231,
+                  "h": 408,
+                  "component": 2,
+                  "area": 43558
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1202,
+                  "y": 27,
+                  "w": 321,
+                  "h": 441,
+                  "component": 1,
+                  "area": 47647
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 13,
+                  "y": 501,
+                  "w": 363,
+                  "h": 482,
+                  "component": 5,
+                  "area": 46080
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 436,
+                  "y": 533,
+                  "w": 321,
+                  "h": 453,
+                  "component": 6,
+                  "area": 45427
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 841,
+                  "y": 607,
+                  "w": 319,
+                  "h": 379,
+                  "component": 7,
+                  "area": 48952
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1232,
+                  "y": 615,
+                  "w": 263,
+                  "h": 381,
+                  "component": 8,
+                  "area": 43484
+                }
+              ],
+              "uniformScale": 0.1908713692946058,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "df8368fc60d55f558f538b882079d5500a29a09a48ec37310704fed8b9a60b29",
+                "atlasSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 7,
+                  "right": 8,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 8,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      80,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 13,
+                      "right": 13,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      160,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 18,
+                      "top": 13,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      240,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 10,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 8,
+                      "right": 8,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      80,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 10,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      160,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 10,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      240,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 15,
+                      "right": 15,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.4,
+                  1.4,
+                  2,
+                  2.8,
+                  2.2,
+                  1
+                ],
+                "forward": [
+                  5,
+                  8,
+                  9,
+                  5,
+                  8,
+                  12,
+                  9,
+                  7
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "pass-behind": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "pass-behind",
+            "src": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "c0e81387cdf3a12b9ac40f8205d0d08d75d35ac8d1ab538264c2be813830aedd"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "b93a6630889d8c94dfab342a17a5dc6207c49a57efd193b3281543d3dd0cb1b2"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "2faff278777f7bbab86bb0ddc6133acd0d72a7ae15d36c28b1e556e924039384"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "1644e7c4604372a890441d8e6e17cd1caa84b573f690a6c95f84fc77717e329f"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "2f8d253aaea73ae78a4dab5ae69047614e8a6de7c0c4cc8143f2b69843c5b6e3"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "9a0c3f8e3e5e236bf331f3303e27f20914f0a26ac0817fd05420f14684ad957b"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "pass-behind",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-a2bbde7e-82ba-4cba-b95b-c5b6609ad7f6",
+              "imageGenerationId": "exec-a2bbde7e-82ba-4cba-b95b-c5b6609ad7f6",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-pass-behind-generated-raw.png",
+              "rawSourceSha256": "970b7ac0997bcbfb827e2b95dab4aafdf6a36168733940edf700a5b6f7b6697a",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-pass-behind-generated-raw.png",
+              "sourceSha256": "970b7ac0997bcbfb827e2b95dab4aafdf6a36168733940edf700a5b6f7b6697a",
+              "promptFile": "tools/generate-art/echo-catwalk-pass-behind-prompt.md",
+              "prompt": "Use the referenced Echo Catwalk sprite art only for exact identity, uniform, color palette and scale; draw six new poses, not copied poses. Create a 1536×1024 transparent RGBA pixel-art sheet, strict three-column by two-row, row-major. Broad gutters, complete figures inside cells. No background, floor, court, hoop, text, props, ball, sphere or basketball.\n\nEcho is the reference's compact adult human man: medium-brown skin, short spiky dark-teal curls, teal headband, close dark-teal beard, teal sleeveless jersey with deep-purple/black accents, teal shorts, black knee pads and teal-black shoes. Keep his male face, hair, beard, proportions and kit consistent, exactly two arms/hands/legs/shoes. Both hands empty; the game draws the separate ball.\n\nRight-facing behind-the-back pass toward image-right. Six connected keyframes:\n0 ready stance, empty hands near chest;\n1 turns shoulder and gathers invisible ball at waist;\n2 pivots away from target, ball-miming hand sweeps behind lower back;\n3 RELEASE at simulation tick7: torso twisted, lead hand passes behind the hip and opens toward image-right, ball-hand empty;\n4 arm follows through across the back and torso unwinds;\n5 recover to balanced right-facing stance with hands down.\n\nMake six distinct complete poses, no cropped limbs or hair. Focus on believable torso rotation and a readable low behind-back hand path. True transparent alpha-zero sheet and margins, no haze/checkerboard/matte. Crisp 1990s arcade pixel clusters. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Separate Echo-specific ball gathers low at the hip, follows the behind-back sweep and exits forward on image-right at frame3/tick7. Never drawn into poses.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  0.8,
+                  1.1,
+                  1.15,
+                  1
+                ],
+                "forward": [
+                  5,
+                  5,
+                  -4,
+                  14,
+                  15,
+                  7
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Six distinct connected full-body poses, clear low behind-back gather and torso turn, extended empty release arm at frame3, correct Echo identity and broad margins.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 84,
+                  "y": 34,
+                  "w": 363,
+                  "h": 465,
+                  "component": 1,
+                  "area": 64573
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 622,
+                  "y": 43,
+                  "w": 381,
+                  "h": 457,
+                  "component": 3,
+                  "area": 67009
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1139,
+                  "y": 42,
+                  "w": 378,
+                  "h": 458,
+                  "component": 2,
+                  "area": 66248
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 43,
+                  "y": 543,
+                  "w": 533,
+                  "h": 458,
+                  "component": 5,
+                  "area": 78271
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 586,
+                  "y": 544,
+                  "w": 467,
+                  "h": 451,
+                  "component": 6,
+                  "area": 74405
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1147,
+                  "y": 537,
+                  "w": 355,
+                  "h": 458,
+                  "component": 4,
+                  "area": 68747
+                }
+              ],
+              "uniformScale": 0.1978494623655914,
+              "componentIsolation": true,
+              "packaging": "package-action6.py; 112x96 cells; baseline94; lossless WebP; 6 original pass-behind poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "bc1d507cc738d5409c5905182d352290ebe56e85386d4564cc2a6ebafa2c1c96",
+                "atlasSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 6,
+                  "right": 7,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 22,
+                      "right": 23,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      112,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 20,
+                      "right": 20,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      224,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 20,
+                      "right": 21,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 6,
+                      "right": 7,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      112,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 11,
+                      "right": 12,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      224,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 23,
+                      "right": 23,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  0.8,
+                  1.1,
+                  1.15,
+                  1
+                ],
+                "forward": [
+                  5,
+                  5,
+                  -4,
+                  14,
+                  15,
+                  7
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "pass-overhead": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "pass-overhead",
+            "src": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "750621b66f8cc41d3914a3addf0b44daa77199470e66d934b3e4799789f8b470"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "5530b811b6587c2c296a68c67b6ec3fe331dea0b4c24a7153a391cf52fcc6505"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "f343c9b46c4e86fb162b3677e5acc13b8294b2d636fa58c0a2830728a6c9999a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "eb1e444445a0ab9ca518f8d3286516337565fab8014dfebc3b67bb6cd4bf92cb"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "082c8738929afab791be3fe857825152d77e3ce7bb6a48a75cf01093bd81262e"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "79b3a7693207e414a11ed0919f382bba34bdfe62bda9c020040a4c83796e09fd"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "pass-overhead",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-85b81116-bfce-47da-ae95-26501b94f610",
+              "imageGenerationId": "exec-85b81116-bfce-47da-ae95-26501b94f610",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-pass-overhead-generated-raw.png",
+              "rawSourceSha256": "1b9ad5366cf8fa84ecae54195aa13f286c652d7233508f181ef8b4857bf4d353",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-pass-overhead-generated-raw.png",
+              "sourceSha256": "1b9ad5366cf8fa84ecae54195aa13f286c652d7233508f181ef8b4857bf4d353",
+              "promptFile": "tools/generate-art/echo-catwalk-pass-overhead-prompt.md",
+              "prompt": "Use the referenced Echo Catwalk sprite sheet only to preserve Echo's exact identity, body, face, colors, hair, beard and scale. Do not copy its poses. Create six NEW full-body overhead-pass poses for JAMVERSE '96, on a 1536×1024 transparent RGBA pixel-art sheet, strict three columns by two rows in reading order. Keep each entire body inside its own cell with broad transparent gutters. No backgrounds, scenery, panels, gridlines, court, floor, shadows, text, objects, hoop, ball or basketball.\n\nThe reference is ECHO CATWALK. Preserve this exact compact athletic ADULT HUMAN MAN from the reference: medium-brown skin, short spiky dark-teal hair, teal headband, close dark-teal beard, teal sleeveless jersey, black/deep-purple side panels, teal shorts, black knee pads, teal-black shoes and wristbands. Keep his male face, beard, hair silhouette and uniform unchanged. Absolutely no woman, girl, lavender hair, ponytail, bow, headband in any other color, altered body or extra accessories. Exactly two arms, two hands, two legs and two shoes in every drawing.\n\nRight-facing, body moving toward image-right. Both natural hands stay empty because game code renders the basketball separately; do not draw any ball or prop. Pose sequence:\n0 balanced stance, empty hands at chest;\n1 gather at chest and bend knees;\n2 raise both hands above forehead, tracking invisible ball;\n3 single RELEASE at simulation tick5: arms extend upward and slightly right, wrists snap, fingers open and empty;\n4 full overhead follow-through, torso leans toward target;\n5 balanced recovery with arms lowering naturally.\n\nAll six poses must be connected, unique, complete full-body drawings, consistent in scale and anatomy. True transparent alpha-zero background and gutters, no haze, matte or checkerboard. Crisp 1990s arcade pixel clusters. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-5c67223e-5072-4d01-960c-567968357ef1",
+                  "rawSourceImage": "tools/generate-art/sources/echo-catwalk-pass-overhead-rejected-juniper-identity-raw.png",
+                  "rawSourceSha256": "ff554523855fd5abeee6c165ccafd94426d07461b2c10edaa56f51bc3758db92",
+                  "prompt": "Create an original 1536×1024 transparent RGBA 2D pixel-art sprite sheet for JAMVERSE '96: Echo Catwalk of Neo Runway Precision performing a right-facing overhead basketball pass. Arrange exactly six separate complete full-body poses in a strict three-column by two-row grid, row-major, with broad transparent gutters and outer margins. Each pose stays inside its own cell. Same camera, scale, baseline, anatomy and identity. No borders, court, floor, shadows, glow, text, ball, prop, teammate, opponent, hoop or rim.\n\nEcho is a compact athletic adult human man with medium-brown skin, short spiky-curly dark-teal hair, teal forehead band, neatly trimmed dark-teal beard and focused distinct face. He wears a sleeveless teal basketball jersey and shorts with black and deep-purple accents, black knee pads, teal-black basketball shoes and simple wristbands. Preserve this exact face, human anatomy, hair, headband, beard and uniform consistently in every pose. Exactly two natural arms, hands, legs and shoes. Both hands empty; the game supplies the ball separately. Never draw a ball, sphere, orb, seams or object.\n\nSix mechanically connected right-facing overhead-pass poses:\n0 balanced ready stance, hands empty at chest;\n1 gather at chest and bend knees;\n2 raise both hands above forehead, tracking invisible ball;\n3 RELEASE at simulation tick5: both arms extend upward and slightly right, wrists snap, fingers open, hands empty;\n4 full overhead follow-through, torso leans toward target and heels lift naturally;\n5 balanced recovery, arms lower, feet stable.\n\nEach pose distinct, full-body, readable and proportionate, moving toward image-right. Maintain generous transparent margin around hair, raised hands and shoes. Crisp 1990s arcade pixel clusters, sharp outline, gameplay readability, true transparent RGBA gutters/exterior without haze, checkerboard, matte, text or props. Return only the sprite sheet.",
+                  "reason": "Rejected after visual inspection: generated Juniper Vale with long lavender ponytail and feminine face instead of Echo Catwalk."
+                }
+              ],
+              "mirrorEligible": true,
+              "ballPolicy": "Separate Echo-specific ball tracks above the forehead on both hands, then releases at frame3/tick5. It is never painted into poses.",
+              "ballTrack": {
+                "height": [
+                  1.1,
+                  1.25,
+                  1.8,
+                  2.1,
+                  1.85,
+                  1.1
+                ],
+                "forward": [
+                  5,
+                  5,
+                  8,
+                  8,
+                  10,
+                  7
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Correct Echo Catwalk male identity based on existing canon art reference: medium-brown skin, short dark-teal hair/headband, close teal beard, teal/deep-purple uniform. Six distinct complete overhead-pass poses with empty hands, raised overhead release and safe margins.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 178,
+                  "y": 55,
+                  "w": 243,
+                  "h": 416,
+                  "component": 2,
+                  "area": 47728
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 665,
+                  "y": 99,
+                  "w": 212,
+                  "h": 370,
+                  "component": 3,
+                  "area": 44206
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1129,
+                  "y": 17,
+                  "w": 213,
+                  "h": 454,
+                  "component": 1,
+                  "area": 50571
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 190,
+                  "y": 488,
+                  "w": 258,
+                  "h": 506,
+                  "component": 4,
+                  "area": 55301
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 630,
+                  "y": 506,
+                  "w": 307,
+                  "h": 488,
+                  "component": 5,
+                  "area": 50087
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1114,
+                  "y": 573,
+                  "w": 264,
+                  "h": 421,
+                  "component": 6,
+                  "area": 48872
+                }
+              ],
+              "uniformScale": 0.18181818181818182,
+              "componentIsolation": true,
+              "packaging": "package-action6.py; 64x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "004aac2a7b5efb340a85b91857889bd32dfcdca9012755293cacb27d86cf2dc1",
+                "atlasSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 10,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      64,
+                      0,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 13,
+                      "top": 24,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 13,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 10,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      64,
+                      96,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 5,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 8,
+                      "right": 8,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  1.25,
+                  1.8,
+                  2.1,
+                  1.85,
+                  1.1
+                ],
+                "forward": [
+                  5,
+                  5,
+                  8,
+                  8,
+                  10,
+                  7
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "pass": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "pass",
+            "src": "./public/assets/animation/echo-catwalk-pass-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "6c9c2a76b43e5a9766285b8b0d78459c6356a2d57e9475986c00b19c8bd31300"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "1900ae20c39735d6efc7b6c8e861cf526ca7a08dbe034029848944cee4eafd32"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "6060096cfe5cf63240f8ced6d18cbc24d73a9350579f5f46262c8092020956f3"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "1ae1bf39f4f478573919b281e19a76a35d428a642c0b43c5e52067305f4af395"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "228c0fa7b5556c1a71510741bd311e97d56af8c6a9b91fe81ff39ddfc48bdbc5"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "189e4290006f4e3c73bd73d640dc5acf6759060b257bf8e3eb5a070c80cce24a"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "pass",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-6ef90f3e-f450-4349-971d-05321d768e8a",
+              "imageGenerationId": "exec-6ef90f3e-f450-4349-971d-05321d768e8a",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-pass-generated-raw.png",
+              "rawSourceSha256": "de45de0990638d079c1c22e2a2c86d66be3bf195d026dc41b253e15b24487add",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-pass-generated-raw.png",
+              "sourceSha256": "de45de0990638d079c1c22e2a2c86d66be3bf195d026dc41b253e15b24487add",
+              "promptFile": "tools/generate-art/echo-catwalk-pass-prompt.md",
+              "prompt": "Create an original 1536×1024 transparent RGBA 2D pixel-art sprite sheet for JAMVERSE '96: Echo Catwalk of Neo Runway Precision performing a right-facing basketball chest pass. Arrange exactly six separate complete full-body poses in a strict three-column by two-row grid, row-major. Keep each pose entirely within its own cell with broad transparent gutters and outer margins. Same camera, scale, feet baseline, anatomy and identity across all poses. No cell borders, court, floor, shadows, glow, text, ball, prop, teammate, opponent, hoop or rim.\n\nEcho is a compact athletic adult human man with medium-brown skin, short spiky-curly dark-teal hair, a teal forehead band, neatly trimmed dark-teal beard and distinct focused face. He wears a sleeveless teal basketball jersey and shorts with black and deep-purple accents, black knee pads, teal-black basketball shoes and simple wristbands. Preserve his exact adult human anatomy, individual face, short dark-teal hair, forehead band, trimmed beard, teal/violet uniform palette, knee pads and shoes in every pose. He is not a woman, child, robot or creature. Show exactly two natural arms, two hands, two legs and two shoes. Keep both hands empty because the basketball is a separate game object. Never draw a ball, sphere, orb, seams or prop.\n\nThis is a quick chest pass delivered to a teammate on image-right. Six mechanically connected but distinct full-body poses:\n0 balanced ready stance, elbows bent, empty hands framing the invisible ball at the sternum;\n1 gathers both empty hands toward the chest, knees flex, weight settles back;\n2 steps toward image-right, torso turns slightly toward target, elbows begin extending;\n3 RELEASE at simulation tick5: lead arm extends straight toward image-right, wrist flicked, palm open and empty; trailing hand opens away from the invisible ball;\n4 controlled full forward follow-through, body leans into the step and fingers extend;\n5 balanced recovery with arms lowering naturally, feet stable, both hands empty.\n\nKeep every pose right-facing, moving toward image-right. The separate basketball is never drawn. Draw six clean, unique silhouettes at consistent scale with complete hair, hands and shoes inside each cell. Crisp 1990s arcade pixel clusters, sharp outlines, readable at small gameplay scale, true transparent RGBA gutters and exterior; no alpha haze, checkerboard or matte. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Separate Echo-specific ball follows his hands to the chest, tracks forward on the step and meets the lead hand at the tick5 release. It is never painted into poses.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.05,
+                  1.2,
+                  1.6,
+                  1.3,
+                  1
+                ],
+                "forward": [
+                  5,
+                  4,
+                  5,
+                  14,
+                  16,
+                  8
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Six distinct connected full-body chest-pass poses, complete body, clean empty hands, consistent Echo identity and safe margins. Pose3 has an extended rightward hand for the separate ball release at tick5.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 72,
+                  "y": 39,
+                  "w": 337,
+                  "h": 442,
+                  "component": 1,
+                  "area": 53096
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 632,
+                  "y": 66,
+                  "w": 276,
+                  "h": 417,
+                  "component": 3,
+                  "area": 50012
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1071,
+                  "y": 57,
+                  "w": 412,
+                  "h": 426,
+                  "component": 2,
+                  "area": 55202
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 42,
+                  "y": 556,
+                  "w": 493,
+                  "h": 422,
+                  "component": 5,
+                  "area": 60445
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 555,
+                  "y": 561,
+                  "w": 483,
+                  "h": 417,
+                  "component": 6,
+                  "area": 57687
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1118,
+                  "y": 546,
+                  "w": 330,
+                  "h": 432,
+                  "component": 4,
+                  "area": 52890
+                }
+              ],
+              "uniformScale": 0.2081447963800905,
+              "componentIsolation": true,
+              "packaging": "package-action6.py; 112x96 cells; baseline94; lossless WebP; 6 original pass poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "af37e9ad37aad1e0154ac6fceb7fd097ee55b0bf9f16f5c40e598c08c01a7ffe",
+                "atlasSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 6,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 23,
+                      "right": 24,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      112,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 28,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      224,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 6,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      112,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 6,
+                      "right": 6,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      224,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 23,
+                      "right": 23,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.05,
+                  1.2,
+                  1.6,
+                  1.3,
+                  1
+                ],
+                "forward": [
+                  5,
+                  4,
+                  13,
+                  19,
+                  16,
+                  8
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "pickup": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "pickup",
+            "src": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "caf7073de86805e6bcc0160286875627886a2214d3dfcb76ad9df119a02be5cb"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2e20d1be0c6398ed18b1b1b25df0e81fda6b471378dd8921669fb2e40235808c"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bc7b985e5762049c6c87a6ea5e954e339ab6bd65d101e9ea0961fd7ec2d7e8cc"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4683a47f7c53a6b0eec8071029b80fb898f31dfba91011d1c1a0e8268bc3e5bc"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8a678e53ae2fa9cfb394f6b582e9547ffbd7fd28a93b5e044365035fbec2790b"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "pickup",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-b780625f-6f11-4637-97f5-3dfa1af66ff9",
+              "imageGenerationId": "exec-b780625f-6f11-4637-97f5-3dfa1af66ff9",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-pickup-generated-raw.png",
+              "rawSourceSha256": "0ae6436552574d59ae281ebd371b9d768a436d4bd4b5477faf8591c34da85f2b",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-pickup-generated-raw.png",
+              "sourceSha256": "0ae6436552574d59ae281ebd371b9d768a436d4bd4b5477faf8591c34da85f2b",
+              "promptFile": "tools/generate-art/echo-catwalk-pickup-prompt.md",
+              "prompt": "Use the referenced Echo Catwalk art only for exact identity, hair, face, clothes, colors and size; draw new poses. Generate five full-body sprite poses for JAMVERSE '96 on one 1536×1024 transparent RGBA pixel-art canvas, organized row-major in a three-column by two-row grid (five cells used, bottom-right cell empty). Keep each full figure inside its cell with clear gutters. No court, floor, background, border, text, ball or object.\n\nEcho is a compact athletic adult human man with medium-brown skin, short spiky dark-teal hair, teal headband, trimmed dark-teal beard, teal sleeveless jersey with deep-purple/black accents, teal shorts, black knee pads, teal-black shoes and wristbands. Match the reference exactly; male face, human anatomy, kit and colors stay consistent. Exactly two arms/hands, two legs/shoes. Both hands empty; game ball is separate and not drawn.\n\nRight-facing ball pickup action:\n0 grounded ready stance, eyes down toward floor, arms relaxed;\n1 steps toward the loose ball and bends at waist/knees, lead hand reaching low;\n2 deep controlled crouch, hand inches above the floor, free hand balances;\n3 PICKUP at simulation tick7: fingertips meet the floor position of the invisible ball, elbow bends, secure empty hand closes around empty space;\n4 rises into a stable possession-ready stance, hand still empty near waist.\n\nFive distinctive connected action poses, natural joints and contact. Do not draw any ball, circles, seams, props, shadows or text. True alpha-zero background/gutters; no matte, halo or checkerboard. Crisp arcade pixel art, small-sprite readability. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The separate Echo ball moves from the floor to his low lead hand and rises with him after pickup frame3/tick7. Never drawn into poses.",
+              "ballTrack": {
+                "height": [
+                  1.2,
+                  0.65,
+                  0.25,
+                  0,
+                  0.75
+                ],
+                "forward": [
+                  5,
+                  8,
+                  12,
+                  14,
+                  9
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Five unique full-body frames, clear low right-hand pickup contact at frame3/tick7 and standing recovery. Exactly one unused grid cell, complete intact Echo identity and empty hands.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 128,
+                  "y": 23,
+                  "w": 267,
+                  "h": 475,
+                  "component": 1,
+                  "area": 71927
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 577,
+                  "y": 102,
+                  "w": 416,
+                  "h": 394,
+                  "component": 2,
+                  "area": 71682
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1102,
+                  "y": 184,
+                  "w": 398,
+                  "h": 308,
+                  "component": 3,
+                  "area": 66574
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 77,
+                  "y": 648,
+                  "w": 360,
+                  "h": 325,
+                  "component": 5,
+                  "area": 69297
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 587,
+                  "y": 537,
+                  "w": 326,
+                  "h": 440,
+                  "component": 4,
+                  "area": 68636
+                }
+              ],
+              "uniformScale": 0.1936842105263158,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "95d678b9923d431bb607965fb6a653352c5e8ad43172a0246e843718ae68a929",
+                "atlasSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 7,
+                  "right": 8,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 23,
+                      "right": 24,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      96,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 8,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      192,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 10,
+                      "top": 31,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 13,
+                      "right": 13,
+                      "top": 28,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      96,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 16,
+                      "right": 17,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.2,
+                  0.65,
+                  0.25,
+                  0,
+                  0.75
+                ],
+                "forward": [
+                  5,
+                  8,
+                  12,
+                  14,
+                  9
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "push": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "push",
+            "src": "./public/assets/animation/echo-catwalk-push-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "f39f1eb7f4d49ff92d2b20301169b800f0a15bb1d248930e9e3f9175fcca6fb8"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "e509e901808f779150fc3299768cff4d64c08f910638b0bd18b59a1938fbcc1c"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "7fea443d413469588fdbddd520f83cf70098556c37e409abe3588e87963b54d0"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "a454cf518537dea94cacd7d7e882d4a9528f5b5d14fb8686af369d3dbeff9fe3"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "c690b82df6465b4b5073d099f69beb940e19b079642d1510abfca0ab2c085e9d"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "a8981322b27d30193f1f551b5f579ad7e883b8a8b6d1d00e78a0c928a5731ec8"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "1fa301660d8f1e777a5919e351a89de8af6333f81f130bc8e3db03042acea946"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "e8d54e53eb75f8a1bde970603788fc16875db6f208dac0fad6b4701033644a11"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "74fa27c756ea8348a4ffc017e1b4c71bd91b3e845859010c28903cef8684fe19"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "3aa1f85565e0aa363276c5c1c68f02d9c85558721df452092d3d08e443229ffc"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "3b9bfa5b15a3dacc7f00cf816f7a2110535980cc5ab413c2e13d21b0d1075df8"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "push",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-d82add0d-5b48-4325-8b56-929243731e29",
+              "imageGenerationId": "exec-d82add0d-5b48-4325-8b56-929243731e29",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-push-generated-raw.png",
+              "rawSourceSha256": "339d2815f74d2ab53ef7bcd9d2371905ffdc57783e9f7a2cca17351e695e07fb",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-push-generated-raw.png",
+              "sourceSha256": "339d2815f74d2ab53ef7bcd9d2371905ffdc57783e9f7a2cca17351e695e07fb",
+              "promptFile": "tools/generate-art/echo-catwalk-push-prompt.md",
+              "prompt": "Use the referenced Echo Catwalk artwork only to preserve his exact identity, outfit, color palette and pixel-art scale. Create 11 distinct right-facing full-body poses in a 1536×1024 transparent RGBA sprite sheet, strict four-column by three-row grid, row-major (last cell empty). Each figure fully inside its own cell with clear gutters. No second character, ball, floor, court, background, hoop, text, props or shadows.\n\nEcho is a compact athletic ADULT HUMAN MAN, medium-brown skin, short spiky dark-teal curls, teal headband, close dark-teal beard, teal sleeveless jersey and shorts with black/deep-purple trim, black knee pads, teal-black sneakers, wristbands. Preserve his exact male identity, human body, face, hair, beard and palette. Exactly two arms/hands, two legs/shoes. Hands empty; this is a body-check/push, not ball handling.\n\nContinuous legal push sequence against an offscreen opponent toward image-right:\n0 balanced defensive stance;\n1 steps closer and squares shoulders;\n2 plants feet and draws lead arm back;\n3 shifts weight forward, torso turns;\n4 lead palm extends toward offscreen opponent's shoulder/chest;\n5 CONTACT at simulation tick8: shoulder and open palm apply the push, sturdy planted stance;\n6 follow-through, arm extends but no wild punch;\n7 opponent remains offscreen, Echo's arm withdraws;\n8 shifts weight back and regains balance;\n9 arms lower, feet reset;\n10 calm recovered defensive stance.\n\nExactly 11 complete distinct poses. Keep the action controlled; no strike, punch, fall, extra hands or anatomy. True alpha-zero gutters, no background glow, checkerboard, floor or shadows. Crisp 1990s arcade pixel art. Return only sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eleven distinct complete human Echo frames with controlled body-check, clear two-arm anatomy and a strong but legal open-palm contact at frame5/tick8. No opponent or ball is baked into art.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 61,
+                  "y": 17,
+                  "w": 277,
+                  "h": 335,
+                  "component": 1,
+                  "area": 36579
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 446,
+                  "y": 20,
+                  "w": 279,
+                  "h": 332,
+                  "component": 2,
+                  "area": 37136
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 828,
+                  "y": 22,
+                  "w": 291,
+                  "h": 330,
+                  "component": 3,
+                  "area": 39282
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1203,
+                  "y": 24,
+                  "w": 316,
+                  "h": 329,
+                  "component": 4,
+                  "area": 38801
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 22,
+                  "y": 374,
+                  "w": 381,
+                  "h": 307,
+                  "component": 7,
+                  "area": 38101
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 414,
+                  "y": 372,
+                  "w": 361,
+                  "h": 309,
+                  "component": 5,
+                  "area": 37989
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 777,
+                  "y": 373,
+                  "w": 385,
+                  "h": 308,
+                  "component": 6,
+                  "area": 38978
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1207,
+                  "y": 378,
+                  "w": 293,
+                  "h": 304,
+                  "component": 8,
+                  "area": 36123
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 57,
+                  "y": 688,
+                  "w": 277,
+                  "h": 319,
+                  "component": 9,
+                  "area": 34111
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 455,
+                  "y": 688,
+                  "w": 257,
+                  "h": 319,
+                  "component": 10,
+                  "area": 35395
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 817,
+                  "y": 691,
+                  "w": 276,
+                  "h": 316,
+                  "component": 11,
+                  "area": 33942
+                }
+              ],
+              "uniformScale": 0.2746268656716418,
+              "componentIsolation": true,
+              "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "e44eb91c280ecafa3dc85986fc29bc034a3b7f9df9bda9aefd1bbb57e8f76234",
+                "atlasSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 20,
+                      "right": 21,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      112,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 19,
+                      "right": 20,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      224,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 18,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      336,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 5,
+                      "top": 9,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      112,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 6,
+                      "right": 7,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      224,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 5,
+                      "top": 9,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      336,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 16,
+                      "right": 16,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 19,
+                      "right": 19,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      112,
+                      192,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 21,
+                      "right": 22,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      224,
+                      192,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 19,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "rebound": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "rebound",
+            "src": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "e0bfad38ab21adfb059950e3afaca0cce4675cde7a33a2d09667d604cda5ac21"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "37f3429c09e885c53236d46aefb3c9d659a0b497e6ce64008f4fc9fc94a2d4d5"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "6939dbc528fa04f2c2d14c9e8e39975ef6f692e870866650ba4d392ab1f38e1d"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "fa9656fbb3089dd6e9401a7fd4cc557f196368c585a660e4b9b6ee276091b8d0"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "bec8b80a3e9743d3aaef3a97f21918a27edcae089225c2712a8c0ddd453af43b"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "rebound",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-75f5fc9a-294a-4f2e-ac74-343e0ed98971",
+              "imageGenerationId": "exec-75f5fc9a-294a-4f2e-ac74-343e0ed98971",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-rebound-repair2-generated-raw.png",
+              "rawSourceSha256": "cf2dcb660abdf3e279efde0c4a4bbd9e036c7e5ed73bbddc3dde48be8ed3aef7",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-rebound5.png",
+              "sourceSha256": "80481c6722123a2e2e86f3c4ab7f1c8f05ab0e56571d99b97b908bd45ca7131c",
+              "promptFile": "tools/generate-art/echo-catwalk-rebound-prompt.md",
+              "prompt": "Edit only the bottom-row middle Echo pose (frame5) in this transparent sprite sheet. Preserve the exact 1536x1024 canvas, 3x2 grid, all five figures and every other pose. The tiny dark round object still visible between the pose's hands is forbidden: erase it completely. Redraw BOTH hands as separate empty natural hands, fingers visible and slightly apart, with no object in the space between palms. No ball, circle, sphere, seams, prop, hidden object or dark round shape anywhere. Keep Echo's exact identity, skin, wristbands, clothes, pose, feet and alpha background unchanged. Return the whole corrected sheet only.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-9c5406ea-8608-49e3-82be-9b66c148e093",
+                  "rawSourceImage": "tools/generate-art/sources/echo-catwalk-rebound-rejected-ball-raw.png",
+                  "rawSourceSha256": "e0cab3afdab6fdbaa3e0ccbad718541dcc7a0fcd4c3f741a4c67ff33771ac579",
+                  "prompt": "Use referenced Echo sprite only for identity and scale. Create five new full-body right-facing rebound poses on a 1536×1024 transparent RGBA pixel-art sheet, strict three-column by two-row grid, row-major, with final cell empty. No court, floor, opponent, ball, text, background or props.\n\nEcho: compact athletic adult human male, medium-brown skin, short spiky dark-teal hair, teal headband, trimmed teal beard, teal sleeveless jersey and shorts with black/purple trim, knee pads and teal-black shoes. Preserve face, anatomy and uniform. Exactly two arms/hands and legs/shoes. All hands empty; game ball is separate.\n\nFive connected rebound poses: 0 knees bent preparing to jump; 1 jumps vertically with eyes up; 2 rises, both arms reach overhead; 3 REBOUND GRAB at simulation tick5: peak jump, both open hands close around the invisible ball overhead, elbows start to bend; 4 descends and lands balanced, arms draw the separate ball down. All poses full-body, distinct and natural; never draw ball, rim, court, floor or other player. True transparent background/gutters, no haze or matte, crisp 1990s arcade pixel clusters. Return only the sheet.",
+                  "reason": "Rejected: generated sheet included a basketball in the bottom-middle recovery pose despite the explicit empty-hands instruction."
+                },
+                {
+                  "generationId": "exec-6c4efdde-0db9-4170-b1ae-9c139d477757",
+                  "rawSourceImage": "tools/generate-art/sources/echo-catwalk-rebound-rejected-ball-repair1-raw.png",
+                  "rawSourceSha256": "1038cbb9f8d9d8f65171274c04624bc5f8b45acb96bf2a0c480cfd35355a655c",
+                  "prompt": "Edit the referenced Echo Catwalk five-pose rebound sprite sheet. Preserve its exact 1536x1024 transparent RGBA dimensions, five figures, 3-by-2 grid, pose order, identity, colors, outlines, transparent background and all poses. The only correction: in the bottom-row middle figure (pose4), erase the basketball being held and finish both empty human hands naturally together at chest height. Leave every other pixel/pose unchanged. Absolutely no ball, sphere or object anywhere in the sheet; the game renders its own ball separately. Return the whole corrected sheet only.",
+                  "reason": "Rejected: edit removed the clear basketball but retained a dark round object between the bottom-middle pose’s hands."
+                }
+              ],
+              "mirrorEligible": true,
+              "ballPolicy": "The separate Echo-specific ball reaches both overhead hands on rebound frame3/tick5 and lowers toward the chest on recovery; it is never painted into poses.",
+              "ballTrack": {
+                "height": [
+                  0.95,
+                  1.5,
+                  2.4,
+                  3,
+                  1.5
+                ],
+                "forward": [
+                  6,
+                  6,
+                  9,
+                  11,
+                  8
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Five distinct full-body rebound poses with two visible empty hands at each pose; frame3/tick5 catches the separately rendered ball overhead; final recovery has open separated empty hands. No ball remains baked in the accepted art.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-echo-catwalk-rebound5.py",
+                "method": "within each 3x2 cell, retain only the main alpha-connected athlete component plus 2px antialias fringe, strip all outside haze, scale/crop and center to at least10px margin",
+                "rejectedVisualHistory": "two ball-containing candidates and exact edit prompts in rejectedGenerations"
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 94,
+                  "y": 131,
+                  "w": 324,
+                  "h": 371,
+                  "component": 3,
+                  "area": 56389
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 609,
+                  "y": 46,
+                  "w": 317,
+                  "h": 455,
+                  "component": 2,
+                  "area": 62606
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1116,
+                  "y": 11,
+                  "w": 328,
+                  "h": 492,
+                  "component": 1,
+                  "area": 63552
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 150,
+                  "y": 523,
+                  "w": 212,
+                  "h": 492,
+                  "component": 6,
+                  "area": 57822
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 628,
+                  "y": 609,
+                  "w": 279,
+                  "h": 404,
+                  "component": 7,
+                  "area": 55886
+                }
+              ],
+              "uniformScale": 0.18699186991869918,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 80x96 cells; baseline94; lossless WebP; 5 original rebound poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "ec6694b7aabe3bf8372bbc19ad64dbec4a23f798eb432be85db14f3422905ca8",
+                "atlasSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 9,
+                  "right": 10,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 10,
+                      "top": 22,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      80,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 11,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      160,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 11,
+                      "right": 12,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 21,
+                      "right": 22,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      80,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 14,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  0.95,
+                  1.5,
+                  2.4,
+                  1.9,
+                  1.5
+                ],
+                "forward": [
+                  6,
+                  6,
+                  9,
+                  2,
+                  8
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "receive": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "receive",
+            "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "23c6f40b7832de136d2f010d6bca8d2117cd2752ada0c607fd5e01ff43c1eb91"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "6b1ada147bb199b379c9da0b44d07d5b612a84d9e7de15b344479023319dbab4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a7c9f3c34ac5cec0fa478a112f0f25295e317d6ff2f4021586bd665e09678014"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5adeacb73c7e46187382835042affed77155036d6039ff164f905b69139545e4"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "receive",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-9c572a15-ebb3-4cd5-a578-9715a48253d6",
+              "imageGenerationId": "exec-9c572a15-ebb3-4cd5-a578-9715a48253d6",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-receive-generated-raw.png",
+              "rawSourceSha256": "c827ea388521c5506255d14685fa46793d7cc0a00988e9ad46ee8552f22a559f",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-receive-generated-raw.png",
+              "sourceSha256": "c827ea388521c5506255d14685fa46793d7cc0a00988e9ad46ee8552f22a559f",
+              "promptFile": "tools/generate-art/echo-catwalk-receive-prompt.md",
+              "prompt": "Use the referenced Echo Catwalk sprite art only for identity, face, colors and scale, never to copy a pose. Create four new complete Echo poses in a 1536×1024 transparent RGBA pixel-art sheet, strict two-column by two-row, row-major. No floor, court, background, grid, text, ball or props. Maintain broad transparent space around each entire body.\n\nEcho is the reference's compact athletic adult human man: medium-brown skin, short spiky dark-teal curls, teal headband, close dark-teal beard, teal sleeveless jersey with black/deep-purple trim, teal shorts, black knee pads, teal-black basketball shoes and wristbands. Preserve his face, male anatomy, hair, beard and uniform consistently. Exactly two arms/hands, two legs/shoes. His hands remain empty; the ball is game art rendered separately.\n\nRight-facing receiving sequence:\n0 balanced ready stance, elbows bent and empty hands open at chest height for an incoming pass;\n1 anticipates the pass, hands spread on either side of the invisible ball, torso leans forward;\n2 CATCH at simulation tick4: empty hands draw inward as elbows bend to cushion the impact, feet planted;\n3 settles into secure empty-handed possession stance, arms relax toward the chest.\n\nFour distinct connected full-body poses, action clear without any drawn ball. Clean silhouette, no clipped hair or limbs; alpha-zero transparent background and gutters, no haze or checkerboard. Crisp 1990s arcade pixel clusters. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Echo-specific ball arrives in front of open hands and is caught at frame2/tick4, then follows his chest to possession. Never drawn into poses.",
+              "ballTrack": {
+                "height": [
+                  1.2,
+                  1.35,
+                  1.4,
+                  1.2
+                ],
+                "forward": [
+                  4,
+                  8,
+                  11,
+                  7
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Four distinct complete male Echo Catwalk poses. Empty hands open to the pass, cushion the invisible catch at frame2/tick4, then settle into possession.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 195,
+                  "y": 43,
+                  "w": 446,
+                  "h": 443,
+                  "component": 1,
+                  "area": 77836
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 851,
+                  "y": 58,
+                  "w": 544,
+                  "h": 426,
+                  "component": 2,
+                  "area": 80332
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 207,
+                  "y": 550,
+                  "w": 388,
+                  "h": 427,
+                  "component": 4,
+                  "area": 70284
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 929,
+                  "y": 541,
+                  "w": 379,
+                  "h": 434,
+                  "component": 3,
+                  "area": 72477
+                }
+              ],
+              "uniformScale": 0.2076749435665914,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 128x96 cells; baseline94; lossless WebP; 4 original receive poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "f5b6a57dbf0c5262ba0dfcb0a0066e60b71973dbf61a1f5f04cd97f59aa77fc6",
+                "atlasSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 9,
+                  "right": 9,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 20,
+                      "right": 21,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 9,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 25,
+                      "right": 25,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 26,
+                      "right": 27,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.2,
+                  1.35,
+                  1.4,
+                  1.2
+                ],
+                "forward": [
+                  4,
+                  8,
+                  4,
+                  7
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+            "reviewed": true,
+            "source": "imagegen"
+          },
+          "steal": {
+            "athlete": "echo-catwalk",
+            "direction": "right",
+            "clip": "steal",
+            "src": "./public/assets/animation/echo-catwalk-steal-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "f130bfb5415dbef7d5edff3e29cdb6b438c5d178cab0b828533f7274b12a5cdf"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "e733e53d32d46254b9561ba1cc9f6b24ab9436cf7e876b4e68611a8d40525685"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "81db52c3aac64609bf9f8354440175bd6e1b4b929f956b7b623abac38589bc71"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "f2e9b41b2ab9e7a3bb924e358041029b6f913ce70ef260718aed84b407c9f32d"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "78a3a99f86bbc0c00b3329567a980218ecf17345a1a418a7a7d89a9cafb15881"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "42c89513bb4f3c67f6efbeae389c0db4ed1d0d25c382a02817ec0d59bceea02e"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "cf53e6e4a4bb2d97d80fc25a6be20b903a904418c4829ca0d1d8a111358390e2"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "6e082c346a0cd503a39dfb1e26867f58f5377ecc74f78eb994bff17a07bf9851"
+              }
+            ],
+            "provenance": {
+              "athlete": "echo-catwalk",
+              "clip": "steal",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-fc223703-1f17-48c3-a92a-b3dce35493ac",
+              "imageGenerationId": "exec-fc223703-1f17-48c3-a92a-b3dce35493ac",
+              "rawSourceImage": "tools/generate-art/sources/echo-catwalk-steal-generated-raw.png",
+              "rawSourceSha256": "fda483e6fe42a2c90625d1b7a714a16fe4fb64c575511f82047d4fd676b220b5",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/echo-catwalk-steal-generated-raw.png",
+              "sourceSha256": "fda483e6fe42a2c90625d1b7a714a16fe4fb64c575511f82047d4fd676b220b5",
+              "promptFile": "tools/generate-art/echo-catwalk-steal-prompt.md",
+              "prompt": "Use reference only for Echo Catwalk's identity, face, hair, beard, uniform and scale. Create 8 new full-body right-facing basketball steal poses on a 1536×1024 transparent RGBA pixel-art sheet, four columns by two rows, row-major. No opponent, ball, court, floor, shadow, text, hoop or props. Empty hands; game ball is separate.\n\nEcho is compact athletic ADULT HUMAN MAN, medium-brown skin, short spiky dark-teal curls, teal headband, neat dark-teal beard, teal sleeveless jersey and shorts with black/deep-purple accents, black knee pads and teal-black shoes. Keep exact identity and proportions, two natural arms/hands/legs/shoes.\n\nSequence: 0 low defensive stance; 1 quick rightward shuffle toward the loose ball; 2 lean forward with lead hand reaching low; 3 GRAB at simulation tick5, fingers close around the invisible steal, body plants; 4 pull empty hand toward chest and turn away; 5 accelerate forward, opposite arm counterbalances; 6 shield the invisible ball near waist while running; 7 stable forward recovery with empty hands. Eight clearly distinct connected poses, no cropped anatomy, every hand empty, no ball or prop drawn. True transparent alpha-zero gutters/background; crisp readable 1990s arcade pixel clusters. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The separate game ball approaches the reaching hand and is caught by Echo at steal frame3/tick5, then is drawn close to his body. Never painted in poses.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  0.65,
+                  0.25,
+                  0.8,
+                  1.1,
+                  1.2,
+                  1
+                ],
+                "forward": [
+                  5,
+                  8,
+                  12,
+                  15,
+                  7,
+                  8,
+                  8,
+                  5
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eight distinct complete poses show defensive stance, reach, closed-hand grab at frame3/tick5, protected carry and run-out. Correct Echo identity and empty hands.",
+                "integrationReview": {
+                  "status": "pending-independent-source-and-native-review",
+                  "notes": "Accepted source package pending independent source-sheet review and native runtime ball-contact review."
+                }
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 26,
+                  "y": 139,
+                  "w": 307,
+                  "h": 345,
+                  "component": 1,
+                  "area": 43382
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 380,
+                  "y": 139,
+                  "w": 325,
+                  "h": 345,
+                  "component": 2,
+                  "area": 45001
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 737,
+                  "y": 199,
+                  "w": 408,
+                  "h": 285,
+                  "component": 3,
+                  "area": 45658
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1137,
+                  "y": 199,
+                  "w": 380,
+                  "h": 286,
+                  "component": 4,
+                  "area": 44373
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 26,
+                  "y": 585,
+                  "w": 283,
+                  "h": 364,
+                  "component": 8,
+                  "area": 46404
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 374,
+                  "y": 578,
+                  "w": 378,
+                  "h": 367,
+                  "component": 7,
+                  "area": 51306
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 771,
+                  "y": 571,
+                  "w": 359,
+                  "h": 378,
+                  "component": 6,
+                  "area": 45511
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1203,
+                  "y": 566,
+                  "w": 296,
+                  "h": 383,
+                  "component": 5,
+                  "area": 45918
+                }
+              ],
+              "uniformScale": 0.2402088772845953,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 112x96 cells; baseline94; lossless WebP; 8 original steal poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-echo-catwalk-package.py",
+                "previousAtlasSha256": "5ca42304a8703f7c8fb20954e8a3eafe12545f1267aa62892694695cd80dce1f",
+                "atlasSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+                "fit": "uniform scale, never upscale; at least 5px transparent clearance on every cell edge",
+                "minimumMarginsPx": {
+                  "left": 7,
+                  "right": 7,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 19,
+                      "right": 19,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      112,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 17,
+                      "right": 17,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      224,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 7,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      336,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 11,
+                      "top": 22,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 22,
+                      "right": 23,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      112,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 11,
+                      "right": 12,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      224,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 15,
+                      "right": 16,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "pre-integration packed atlas cell",
+                    "originalBox": [
+                      336,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 23,
+                      "right": 23,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  0.65,
+                  1.1,
+                  0.8,
+                  1.1,
+                  1.2,
+                  1
+                ],
+                "forward": [
+                  5,
+                  8,
+                  12,
+                  15,
+                  7,
+                  8,
+                  8,
+                  5
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "integrationReview": {
+                "status": "passed",
+                "previewDirectory": "tools/generate-art/previews/echo-catwalk-package-20261024/",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "summaryCapturesPerZoom": 87,
+                "actionFrameCapturesPerZoom": 572,
+                "review": "Both facings; pose identity and production selection, separate ball contacts, and carried/free-ball ownership."
+              }
+            },
+            "sha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+            "reviewed": true,
+            "source": "imagegen"
           }
         }
       },
@@ -40347,7 +50566,15 @@ export const animationAssetManifest = {
       "mirrorReview": {
         "status": "reviewed",
         "notes": "Game-only supporting identity: teal locs and headband in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
-      }
+      },
+      "reviewedAt": "2026-10-21",
+      "scope": "canonical body direction policy; individual production clips require separate visual approval",
+      "evidence": [
+        "public/assets/supporting-player-portrait-atlas.png",
+        "public/assets/supporting-player-gameplay-sprites.png"
+      ],
+      "canonicalSection": "J.04",
+      "sourceCell": 7
     },
     "paprika": {
       "directions": {

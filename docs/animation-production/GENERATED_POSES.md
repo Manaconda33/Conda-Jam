@@ -1,10 +1,10 @@
 # Generated animation production checkpoint
 
-2026-10-24. Issue3 remains **incomplete**. Actual registered total: **6,917 unique authored drawings across 767 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes. Moxie Capwell, Paprika Rill, Reed Ashcroft, Juniper Vale, Keeg, Accu and Nova Stitch are complete at29/29 clips /293 drawings each. Piper Quickstep and Briar Foxglove each have six registered clips /52 drawings after J.108/J.109 `shoot` integration.
+2026-10-24. Issue3 remains **incomplete**. Actual registered total: **7,158 unique authored drawings across 790 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes. Moxie Capwell, Paprika Rill, Reed Ashcroft, Juniper Vale, Keeg, Accu, Nova Stitch and Echo Catwalk are complete at29/29 clips /293 drawings each. Piper Quickstep and Briar Foxglove each have six registered clips /52 drawings after J.108/J.109 `shoot` integration.
 
 Dorian Mycel is integrated at **29/29 clips /295 authored drawings**: the four baseline clips plus25 reviewed atlases (260 new poses), including five newly generated locomotion extensions. The package was checked for source hashes, layout, atlas bounds, nonblank unique cells, exact clip-key coverage, transparent gutters, anatomy, identity, and separate athlete-specific ball tracks. All29 dark/light proofs and native previews passed review.
 
-Accu is integrated at29/29 clips /293 authored drawings. Its23 new action atlases add241 poses. The source sheets were visually reviewed, repacked with at least5px edge clearance, and checked in dark/light proofs and native100%/120% captures. Athlete-specific ball tracks remain separate; missing original PNGs for its registered base locomotion and `shoot` outputs are documented with their surviving prompts/IDs/hashes. Nova Stitch and Echo Catwalk retain complete source-only packages covering all29 runtime keys; their packages remain outside registered totals until their roster-order integration.
+Accu is integrated at29/29 clips /293 authored drawings. Its23 new action atlases add241 poses. The source sheets were visually reviewed, repacked with at least5px edge clearance, and checked in dark/light proofs and native100%/120% captures. Athlete-specific ball tracks remain separate; missing original PNGs for its registered base locomotion and `shoot` outputs are documented with their surviving prompts/IDs/hashes. Nova Stitch and Echo Catwalk are integrated at29/29 clips /293 drawings each. Echo’s23 action atlases add241 poses. Its23 separate-ball tracks passed native Canvas contact review at100%/120% in both facings. Source availability gap, exact prompts, hashes, rejected candidates, layout archives, repack notes and previews are recorded under `tools/generate-art/echo-catwalk-*`.
 
 Nova Stitch is integrated at29/29 clips /293 authored drawings; her23 new atlases add241 poses. Repacked cells have at least5px transparent margins on every edge. Source and dark/light proof review confirms consistent teal ponytail, teal/purple kit, adult human anatomy, pose separation, alpha and no baked basketballs. Twenty-three Nova-specific ball tracks were calibrated and visually checked at100%/120%; all29 clips select production frames in both facing directions. Two original baseline PNGs (locomotion and `shoot`) remain unavailable, with their exact prompts, generation IDs and hashes preserved and the gap documented in `tools/generate-art/nova-stitch-source-image-availability.md`. Nova's original generated action sources, exact prompts, rejected candidates, layout archives, pre-integration atlases and renderer screenshots are retained under `tools/generate-art/`.
 
@@ -21,7 +21,7 @@ Additional source-only checkpoints: Marco Vellum is at9/29 source clips with an 
 | accu | 29 | 293 | 2,052,336 |
 | nova-stitch | 29 | 293 | 2,267,560 |
 | juniper-vale | 29 | 293 | 1,449,374 |
-| echo-catwalk | 6 | 52 | 177,280 |
+| echo-catwalk | 29 | 293 | 1,781,192 |
 | paprika | 29 | 293 | 2,198,720 |
 | lavi | 5 | 42 | 193,484 |
 | leo | 5 | 42 | 164,840 |

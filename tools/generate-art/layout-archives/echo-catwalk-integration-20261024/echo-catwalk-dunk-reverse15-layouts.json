@@ -1,0 +1,263 @@
+[
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "dunk-reverse",
+    "src": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "echo-catwalk",
+      "clip": "dunk-reverse",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "eligibleForPacking": true,
+      "promptFile": "tools/generate-art/echo-catwalk-dunk-reverse-prompt.md",
+      "prompt": "Use the Echo Catwalk reference to preserve the same ADULT MAN in every pose: medium-brown skin, visibly masculine face, short spiky dark-teal hair, teal forehead band, clear trimmed dark-teal beard and mustache, compact athletic build, teal sleeveless jersey and shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never depict a woman, ponytail, long hair or clean-shaven face. Exactly two arms and two legs. Original source faces right.\n\nCreate a transparent RGBA 1536x1024 production sprite sheet with five equal columns by three rows, strict row-major order. Exactly fifteen distinct complete full-body poses of this one athlete, each safely inside its own cell and separated by broad transparent gutters. No court, hoop, floor, background, effects, shadow, letters, opponents, teammates, basketball or props. Crisp outlined 1990s arcade pixel art.\n\nEcho performs a reverse dunk with a strong in-air body rotation. Sequence: 0 running approach to the right; 1 strides under the basket line; 2 gathers around an invisible ball; 3 plants and takes off; 4 rises and begins turning his back to the hoop; 5 shoulders rotate away from camera; 6 carries imagined ball behind his head; 7 tucks knees and turns under the rim; 8 reaches the ball-hand behind his head toward the basket; 9 extends for the reverse finish; 10 open empty hand at release; 11 follows through behind the head; 12 turns back while descending; 13 lands softly with bent knees; 14 regains a balanced stance. Make the reverse direction and torso rotation clear. Keep every hand empty and distinct; no ball anywhere because Echo's ball is animated on a separate athlete-specific runtime track.\n\nAll fifteen figures keep consistent identity, body proportions, costume and scale. Natural anatomy, no extra or merged limbs, no cropped hair or shoes. Background and gutters must be alpha zero, with no haze or checkerboard. Return only the sheet.",
+      "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+      "review": {
+        "status": "accepted",
+        "notes": "15 full-body poses preserve Echo\u2019s male face, beard, headband, dark-teal hair, teal uniform, knee pads, anatomy and scale. Distinct reverse rotation with visible back-facing poses, reach/release, descent and landing. No ball in source."
+      },
+      "ballTrack": {
+        "owner": "echo-catwalk",
+        "art": "none; separate Echo-specific runtime track",
+        "notes": "Do not share the opposing player ball track; runtime independently controls hold and release."
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-echo-catwalk-dunk-reverse15.py",
+        "method": "Retain each cell\u2019s largest alpha>=32 athlete component plus 2px antialiased fringe; remove haze and pack isolated poses.",
+        "rawSourceSha256": "4958e570b0f8562ef28ea57426985a8ba65f2f81055422f5e10e9bcc8230a120",
+        "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-reverse15.png",
+        "cleanedSourceSha256": "8d55cc0b0791f67f55604fa6b1fcd322c757949f11ab3baf1ccb5d3edb8d14dc"
+      },
+      "generationHistory": [
+        {
+          "id": "exec-306d55e3-f8f6-49e9-ab9b-9b4e9ee6278c",
+          "status": "accepted",
+          "source": "tools/generate-art/sources/echo-catwalk-dunk-reverse-generated-raw.png",
+          "sha256": "4958e570b0f8562ef28ea57426985a8ba65f2f81055422f5e10e9bcc8230a120"
+        }
+      ],
+      "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-reverse15.png",
+      "sourceSha256": "8d55cc0b0791f67f55604fa6b1fcd322c757949f11ab3baf1ccb5d3edb8d14dc",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 45,
+          "y": 104,
+          "w": 234,
+          "h": 239,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 357,
+          "y": 93,
+          "w": 259,
+          "h": 250,
+          "component": 3
+        },
+        {
+          "sourceIndex": 2,
+          "x": 719,
+          "y": 104,
+          "w": 149,
+          "h": 239,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 996,
+          "y": 64,
+          "w": 170,
+          "h": 279,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1268,
+          "y": 45,
+          "w": 221,
+          "h": 298,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 59,
+          "y": 408,
+          "w": 223,
+          "h": 277,
+          "component": 8
+        },
+        {
+          "sourceIndex": 6,
+          "x": 350,
+          "y": 408,
+          "w": 232,
+          "h": 251,
+          "component": 9
+        },
+        {
+          "sourceIndex": 7,
+          "x": 725,
+          "y": 423,
+          "w": 131,
+          "h": 231,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 964,
+          "y": 373,
+          "w": 238,
+          "h": 307,
+          "component": 7
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1297,
+          "y": 365,
+          "w": 212,
+          "h": 320,
+          "component": 6
+        },
+        {
+          "sourceIndex": 10,
+          "x": 52,
+          "y": 681,
+          "w": 209,
+          "h": 326,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 380,
+          "y": 719,
+          "w": 217,
+          "h": 281,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 686,
+          "y": 749,
+          "w": 182,
+          "h": 245,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 994,
+          "y": 793,
+          "w": 195,
+          "h": 203,
+          "component": 15
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1320,
+          "y": 747,
+          "w": 176,
+          "h": 250,
+          "component": 13
+        }
+      ],
+      "uniformScale": 0.2822085889570552,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]
