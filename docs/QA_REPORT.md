@@ -10,7 +10,7 @@
 - `npm run test:e2e`: PASS — Chromium standalone offline startup, controls, co-op, touch, substitutions, actions, full match and season progression.
 - The browser regression closes a pending keyboard rebind with both × and Save, reopens Settings, and confirms the next key does not change or consume the binding.
 - Strict report-only asset audit refreshed: 667 clips / 5,859 authored drawings / 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings. The audit is current but the animation assignment remains incomplete.
-- The J.104 animation audit counts are unchanged. Gameplay commits `8dc07d6` and `6a202ea` plus source-only atlases and the verification-gated build are deployed in Pages run #153: https://github.com/Manaconda33/Conda-Jam/actions/runs/40095638836. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=2422cce.
+- The J.104 animation audit counts are unchanged. Gameplay commits `8dc07d6` and `6a202ea`, source-only atlases, and the refreshed strict report-only audit are deployed in Pages run #154: https://github.com/Manaconda33/Conda-Jam/actions/runs/40096067391. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=aca8ac9.
 
 ## J.104 Keeg `dunk-clutch` art checkpoint (Pages run #145)
 
@@ -23,7 +23,7 @@
 - `npm run test:e2e`: PASS — Chromium standalone offline startup, settings, controls, co-op, touch, matchups, full match and season progression. The first run timed out once at the combined gamepad-input wait; a diagnostic-instrumented complete rerun passed without gameplay-code changes.
 - Strict audit is intentionally report-only and remains incomplete: 667 clips / 5,859 authored drawings across 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings.
 - Keeg standard and zoom120 native previews each loaded 170 images and rendered 87 clip snapshots / 452 action frames. All 15 J.104 poses select production art in both facings; the separate ball releases at frame10/tick21.
-- J.104 `5907922` remains the latest animation-integrated art checkpoint. Gameplay fix `8dc07d6` and source-only atlases were deployed in Pages run #150; latest workflow checkpoint `2422cce` includes the verification gate and is deployed in Pages run #153: https://github.com/Manaconda33/Conda-Jam/actions/runs/40095638836. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=2422cce.
+- J.104 `5907922` remains the latest animation-integrated art checkpoint. Gameplay fix `8dc07d6` and source-only atlases were deployed in Pages run #150; verification-gated build and refreshed audit checkpoint `aca8ac9` are deployed in Pages run #154: https://github.com/Manaconda33/Conda-Jam/actions/runs/40096067391. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=aca8ac9.
 
 ## Environment
 
