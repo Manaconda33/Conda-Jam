@@ -57,7 +57,7 @@
       "sourceSha256": "7742c0841efccb9ed5c23b987f85134ac21421fdefbd495fbeb5160b8a11c195",
       "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pass-behind6-generated-raw.png",
       "rawSourceSha256": "7742c0841efccb9ed5c23b987f85134ac21421fdefbd495fbeb5160b8a11c195",
-      "prompt": "Create one original 1536\u00d71024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing behind-the-back pass. Match both supplied canon references. Moxie is the same adult human woman with pale skin, lavender-purple eyes, long thick lavender hair in a high ponytail tied with a small gold band, mature athletic human anatomy, purple/silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve her face, ponytail silhouette, tie, colors and proportions across all six drawings. No male, witch hat, beard, monster, robot or different athlete.\n\nUse crisp, readable 1990s arcade basketball sprite art with chunky pixel-cel shading and consistent camera/scale. Output six distinct full-body poses in a strict 3-column by 2-row row-major grid. Exactly one complete figure per cell, full ponytail to shoes, with broad transparent gutters and outer margins; no overlap, touching, clipping or crops. Keep both hands empty: basketball is always a separate game object, never drawn. No ball, sphere, seams, hoop, rim, court, floor, ground shadow, glow, effects, text, labels, borders, teammate or scenery.\n\nThis is a behind-the-back pass, visibly different from a chest pass. Sequence:\n0 ready right-facing stance, arms relaxed;\n1 gather stance, bring hands low toward the hip while rotating shoulders;\n2 one empty ball-miming hand sweeps behind Moxie\u2019s lower back, torso turns enough to show the pass path, other arm balances;\n3 RELEASE at simulation tick7: the far-side hand whips from behind her back toward image-right with open empty fingers;\n4 arm follows through out from behind her body, shoulders unwind, hair trails naturally;\n5 balanced recovery, both empty hands visible and feet settled.\n\nAll six poses should be distinct and connected, with clear human anatomy and no hand, wrist, hair or arm overlap that hides her silhouette. Preserve Moxie\u2019s canon face, lavender eyes, high ponytail and gold tie, purple/silver uniform, wristbands and shoes. Return only a true-transparent RGBA sprite sheet with clean alpha-zero gutters and no haze, matte, checkerboard, speckles or colored halo.",
+      "prompt": "Create one original 1536×1024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing behind-the-back pass. Match both supplied canon references. Moxie is the same adult human woman with pale skin, lavender-purple eyes, long thick lavender hair in a high ponytail tied with a small gold band, mature athletic human anatomy, purple/silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve her face, ponytail silhouette, tie, colors and proportions across all six drawings. No male, witch hat, beard, monster, robot or different athlete.\n\nUse crisp, readable 1990s arcade basketball sprite art with chunky pixel-cel shading and consistent camera/scale. Output six distinct full-body poses in a strict 3-column by 2-row row-major grid. Exactly one complete figure per cell, full ponytail to shoes, with broad transparent gutters and outer margins; no overlap, touching, clipping or crops. Keep both hands empty: basketball is always a separate game object, never drawn. No ball, sphere, seams, hoop, rim, court, floor, ground shadow, glow, effects, text, labels, borders, teammate or scenery.\n\nThis is a behind-the-back pass, visibly different from a chest pass. Sequence:\n0 ready right-facing stance, arms relaxed;\n1 gather stance, bring hands low toward the hip while rotating shoulders;\n2 one empty ball-miming hand sweeps behind Moxie’s lower back, torso turns enough to show the pass path, other arm balances;\n3 RELEASE at simulation tick7: the far-side hand whips from behind her back toward image-right with open empty fingers;\n4 arm follows through out from behind her body, shoulders unwind, hair trails naturally;\n5 balanced recovery, both empty hands visible and feet settled.\n\nAll six poses should be distinct and connected, with clear human anatomy and no hand, wrist, hair or arm overlap that hides her silhouette. Preserve Moxie’s canon face, lavender eyes, high ponytail and gold tie, purple/silver uniform, wristbands and shoes. Return only a true-transparent RGBA sprite sheet with clean alpha-zero gutters and no haze, matte, checkerboard, speckles or colored halo.",
       "promptVerbatim": true,
       "sourcePromptStatus": "verbatim",
       "references": [
@@ -147,7 +147,53 @@
       ],
       "uniformScale": 0.1885245901639344,
       "componentIsolation": true,
-      "packaging": "package-action6.py; 112x96 cells; baseline94; lossless WebP; 6 original pass-behind poses"
-    }
+      "packaging": "package-action6.py; 112x96 cells; baseline94; lossless WebP; 6 original pass-behind poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+        "previousAtlasSha256": "6c6511c529012ff8c8f721ddc8e4fd262ac946b0e51255ee1e298912d0ce7a7e",
+        "atlasSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+        "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 9,
+          "right": 10,
+          "top": 5,
+          "bottom": 5
+        },
+        "maxMarginsPx": {
+          "left": 22,
+          "right": 23,
+          "top": 5,
+          "bottom": 5
+        }
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1.05,
+          0.9,
+          0.8,
+          0.8,
+          0.8,
+          0.8
+        ],
+        "forward": [
+          5,
+          -3,
+          -12,
+          -14,
+          -8,
+          4
+        ]
+      },
+      "runtimeTrackCalibration": {
+        "status": "native-reviewed",
+        "source": "src/core/animation.js",
+        "reviewDate": "2026-10-24",
+        "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+      }
+    },
+    "sha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+    "reviewed": true,
+    "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom."
   }
 ]

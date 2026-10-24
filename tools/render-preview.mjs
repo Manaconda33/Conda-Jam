@@ -63,18 +63,10 @@ const {animationAssetManifest}=await import(pathToFileURL(root+'/src/content/ani
 // approved in the checked-in manifest. This override is process-local only.
 if(process.env.JAMVERSE_PREVIEW_UNREVIEWED==='1'){
   const character=animationAssetManifest.characters?.[previewAthlete];
-  const provisionalShoot=character?.directions?.right?.shoot;
-  if(provisionalShoot)provisionalShoot.reviewed=true;
-  const provisional=character?.directions?.right?.['dunk-scythe'];
-  if(provisional)provisional.reviewed=true;
-  for(const key of ['alley-oop-power','alley-oop-reverse']){
-    const provisionalOop=character?.directions?.right?.[key];
-    if(provisionalOop)provisionalOop.reviewed=true;
-  }
-  // Keeg's K.03 canon approves mirroring. Apply that approval only to the
-  // in-memory review run because registration resets the manifest to pending.
-  if(previewAthlete==='keeg'&&character?.mirrorReview?.canonicalSection==='K.03')character.mirrorReview.status='reviewed';
-  if(['piper-quickstep','briar-foxglove'].includes(previewAthlete)&&character?.mirrorSafe===true&&character?.mirrorReview?.notes)character.mirrorReview.status='reviewed';
+  for(const direction of Object.values(character?.directions??{}))for(const clip of Object.values(direction))clip.reviewed=true;
+  // Mirror approvals apply only to this diagnostic process. Registration can
+  // reset the checked-in status to pending until the visual review is done.
+  if(character?.mirrorSafe===true&&character?.mirrorReview?.notes)character.mirrorReview.status='reviewed';
 }
 const previewImages=new Map(images.map(image=>[image.file,image]));
 const previews=[],previewFrames=[],clips=Object.keys(animationClips);
@@ -93,7 +85,7 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
  const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(selected),sourceDirection:selected?.atlas?.file?.match(/-(left|right)\.webp$/)?.[1]??null,flipped:selected?.flip??false,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId});
 }
 const actionFramePreviews=[];
-for(const clip of ['pass-overhead','pass-behind','shoot','block','push','rebound','steal','layup','layup-reverse','fall','celebrate'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
+for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','pickup','block','push','rebound','steal','layup','layup-reverse','fall','celebrate'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};
  if(clip==='dunk-power'){
@@ -139,9 +131,9 @@ for(const clip of ['dunk-power','dunk-windmill','dunk-reverse','dunk-360','dunk-
   tick+=animationClips[clip].frames[frame].duration;
  }
 }
-// The last carried tick immediately precedes the shared pose10/tick21 dunk
-// release. Capture it separately because frame9 spans both ticks19 and20.
-for(const clip of ['dunk-scythe','alley-oop-power','alley-oop-reverse'])for(const facing of [1,-1]){
+// Capture each aerial clip's last carried tick. Pose9 spans the final carry
+// interval and the ball must meet its authored hand before pose10 releases.
+for(const clip of Object.keys(animationClips).filter(key=>key.startsWith('dunk-')||key.startsWith('alley-oop-')))for(const facing of [1,-1]){
  const tick=anchorTick(clip,'release')-1;
  for(const player of state.players){player.animation={clip:'idle',tick:0};player.hasBall=false;player.z=0;}
  p.x=facing>0?170:30;p.y=50;p.facing=facing;p.animation={clip,tick};

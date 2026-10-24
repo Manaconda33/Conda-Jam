@@ -1,11 +1,11 @@
 # QA report
 
-## J.108 / J.109 — Piper and Briar jump shots (local validation; deployment pending)
+## Moxie Capwell — full-roster asset integration and review
 
-- Registered ten unique authored `shoot` poses each for Piper Quickstep and Briar Foxglove in lossless640×192 atlases. Both retain identity, complete human anatomy, transparent corners, clear pose progression, and clean cell margins. Exact prompts, raw/clean hashes, cleanup methods, rejected attempts, layouts, provenance, and light/dark reviews are preserved in `tools/generate-art/`.
-- Each athlete has an independent hand-aligned ball track. Source-cell overlays were reviewed before packing; native Canvas renders show all ten frames in both facings at standard and120% zoom. Possession remains through tick12; release frame05 transfers the ball into shot flight at tick13. Frames05/07 (Piper) and06/07 (Briar) are the closest silhouettes and are distinct by posture.
-- Focused animation/sprite suites pass. Full validation: `npm test` PASS (28/28 test files), `npm run lint` PASS (18 modules), `npm run validate:content` PASS (35 franchises /105 athletes), `npm run simulate:league` PASS (100 matches /856,237 ticks /5 overtimes), `npm run build` PASS, and Chromium `npm run test:e2e` PASS.
-- Strict audit at `2026-10-24T17:56:22.523Z`: **672 clips /5,924 authored drawings /105 athletes**, 2,431 missing clips,3 target shortfalls,4 inherited prompt findings. The full-roster target remains incomplete. Next canonical roster-order item is Moxie Capwell; her full source-only package has passed inventory/hash/identity review and awaits atlas-margin and native ball-track review.
+- Registered the24 source-only action atlases (251 authored drawings) after reviewing every light/dark pose sheet for cell separation, transparency, anatomy, canon identity and ball absence. Repacked only the derived atlases to provide at least5px clearance on all cell edges. The generated source sheets, original track values, exact prompts, raw/clean hashes, layouts, cleanup notes and rejected candidates remain preserved.
+- Wired all22 source-specific ball tracks into gameplay and calibrated the late hand points on ten aerial actions. Native Canvas review at standard and120% zoom selected production art across87 snapshots and522 action frames per zoom, including contact, final carry and release in both facings. The original source track data and reviewed runtime values are separate in the inventory and clip provenance.
+- Moxie is complete at29/29 clips /293 authored drawings. Focused sprite/animation tests pass; full validation passes: `npm test` (28/28 test files), lint (18 modules), content validation (35 franchises /105 athletes), 100-match simulation (860,220 ticks /6 overtimes), build, and Chromium E2E including offline standalone play and full-match progression.
+- Strict report-only audit at `2026-10-24T18:26:27.303Z`: **696 clips /6,175 authored drawings /105 athletes**, 2,407 missing clips,3 target shortfalls and4 inherited prompt findings. The full roster target remains incomplete. Next canonical roster-order package is Dorian Mycel.
 
 ## J.107 Keeg `alley-oop-reverse` asset checkpoint — Pages run #159 passed
 

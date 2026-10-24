@@ -123,7 +123,7 @@
           9
         ]
       },
-      "cleanupNotes": "Generated sheet had a purple painted backdrop. Applied the documented local RGB-contrast matte (Gaussian sigma 38px, alpha fade for contrast 21\u201342); raw source retained separately.",
+      "cleanupNotes": "Generated sheet had a purple painted backdrop. Applied the documented local RGB-contrast matte (Gaussian sigma 38px, alpha fade for contrast 21–42); raw source retained separately.",
       "review": {
         "status": "accepted",
         "reviewNotes": "Ten complete sequential Moxie figures in a five-by-two sheet with clear cell margins. Adult human identity, pale skin, lavender eyes, high ponytail/gold tie, purple/silver uniform and shoes stay consistent. Controlled fall sequence progresses from stumble to side fall, seated, kneeling and standing recovery, without injury. Background cleanup checked on light background; no ball drawn."
@@ -222,7 +222,61 @@
       ],
       "uniformScale": 0.24210526315789474,
       "componentIsolation": true,
-      "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original fall poses"
-    }
+      "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original fall poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+        "previousAtlasSha256": "4e12839c8f4b8f95d84f0a5ab46b46fe8d460d18dd098b13ed3cf5d99a23290b",
+        "atlasSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+        "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 5,
+          "right": 6,
+          "top": 5,
+          "bottom": 5
+        },
+        "maxMarginsPx": {
+          "left": 20,
+          "right": 21,
+          "top": 46,
+          "bottom": 5
+        }
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1,
+          0.9,
+          0.75,
+          0.4,
+          0.2,
+          0.1,
+          0.15,
+          0.2,
+          0.4,
+          0.6
+        ],
+        "forward": [
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          13,
+          13,
+          11,
+          9
+        ]
+      },
+      "runtimeTrackCalibration": {
+        "status": "native-reviewed",
+        "source": "src/core/animation.js",
+        "reviewDate": "2026-10-24",
+        "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+      }
+    },
+    "sha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+    "reviewed": true,
+    "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom."
   }
 ]

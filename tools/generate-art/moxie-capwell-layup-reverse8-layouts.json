@@ -69,7 +69,7 @@
       "sourceSha256": "94fac73c0b534ca4dfb9e43fd434e806081f88913921f5d1705cfd97e71b2f78",
       "rawSourceImage": "tools/generate-art/sources/moxie-capwell-layup-reverse8-generated-raw.png",
       "rawSourceSha256": "94fac73c0b534ca4dfb9e43fd434e806081f88913921f5d1705cfd97e71b2f78",
-      "prompt": "Create one original 1536\u00d71024 true-transparent RGBA production spritesheet for Moxie Capwell of Moonmorel Hex performing a right-facing reverse layup. Follow the supplied canon portrait and gameplay references. She is an adult human woman with pale skin, lavender-purple eyes, very long thick lavender hair in a high ponytail with a small gold hair tie, athletic mature proportions, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Maintain her face, eyes, ponytail silhouette, gold tie, kit palette and normal human anatomy in all poses. No witch hat, beard, male, monster, robot or replacement character.\n\nDraw clean chunky late-1990s arcade pixel-cel basketball art with consistent scale and camera. Exactly eight distinct complete full-body poses in a strict 4-column by 2-row, left-to-right row-major grid. Broad true-transparent gutters and outer margins; no pose may overlap or clip its hair, hand, foot or shoes. The basketball is separate and never drawn. No ball, sphere, seams, hoop, rim, floor, court, shadow, glow, effects, text, labels, borders, teammate or scenery. Hands always empty.\n\nThe action is a reverse-side finish, clearly different from a normal layup:\n0 approach toward the basket from the right;\n1 gather and plant, eyes toward the basket;\n2 drive up off the outside leg, knees rising;\n3 in the air, turn shoulders away from the rim while taking the invisible ball around the body;\n4 reach backward with the far-side shooting hand behind the head, ponytail stays distinct;\n5 single reverse-layup RELEASE at simulation tick12, arm extends backward/up toward the opposite side of the rim, palm visibly open and empty;\n6 continue empty-handed reverse-side follow-through as the torso unwinds;\n7 land under control, knees flexed, recover to a ready stance.\n\nKeep the entire ponytail and gold tie visible. Do not let the shooting arm cross or conceal her eyes. Use physically believable athletic movement and distinct poses with a readable torso turn. No character or uniform redesign. Return only one transparent RGBA sheet; alpha zero outside the figures, no haze, matte, checkerboard, speckles or colored fringe.",
+      "prompt": "Create one original 1536×1024 true-transparent RGBA production spritesheet for Moxie Capwell of Moonmorel Hex performing a right-facing reverse layup. Follow the supplied canon portrait and gameplay references. She is an adult human woman with pale skin, lavender-purple eyes, very long thick lavender hair in a high ponytail with a small gold hair tie, athletic mature proportions, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Maintain her face, eyes, ponytail silhouette, gold tie, kit palette and normal human anatomy in all poses. No witch hat, beard, male, monster, robot or replacement character.\n\nDraw clean chunky late-1990s arcade pixel-cel basketball art with consistent scale and camera. Exactly eight distinct complete full-body poses in a strict 4-column by 2-row, left-to-right row-major grid. Broad true-transparent gutters and outer margins; no pose may overlap or clip its hair, hand, foot or shoes. The basketball is separate and never drawn. No ball, sphere, seams, hoop, rim, floor, court, shadow, glow, effects, text, labels, borders, teammate or scenery. Hands always empty.\n\nThe action is a reverse-side finish, clearly different from a normal layup:\n0 approach toward the basket from the right;\n1 gather and plant, eyes toward the basket;\n2 drive up off the outside leg, knees rising;\n3 in the air, turn shoulders away from the rim while taking the invisible ball around the body;\n4 reach backward with the far-side shooting hand behind the head, ponytail stays distinct;\n5 single reverse-layup RELEASE at simulation tick12, arm extends backward/up toward the opposite side of the rim, palm visibly open and empty;\n6 continue empty-handed reverse-side follow-through as the torso unwinds;\n7 land under control, knees flexed, recover to a ready stance.\n\nKeep the entire ponytail and gold tie visible. Do not let the shooting arm cross or conceal her eyes. Use physically believable athletic movement and distinct poses with a readable torso turn. No character or uniform redesign. Return only one transparent RGBA sheet; alpha zero outside the figures, no haze, matte, checkerboard, speckles or colored fringe.",
       "promptVerbatim": true,
       "sourcePromptStatus": "verbatim",
       "references": [
@@ -181,7 +181,57 @@
       ],
       "uniformScale": 0.18969072164948453,
       "componentIsolation": true,
-      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses"
-    }
+      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+        "previousAtlasSha256": "04ec9707fd27457095ad2151438d11de9bb5a1dabb854e3184914f99e59cbc4d",
+        "atlasSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+        "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 5,
+          "right": 5,
+          "top": 5,
+          "bottom": 5
+        },
+        "maxMarginsPx": {
+          "left": 10,
+          "right": 11,
+          "top": 21,
+          "bottom": 5
+        }
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1.05,
+          1.25,
+          1.6,
+          2,
+          2.2,
+          2.4,
+          1.2,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          6,
+          3,
+          -3,
+          8,
+          5,
+          5
+        ]
+      },
+      "runtimeTrackCalibration": {
+        "status": "native-reviewed",
+        "source": "src/core/animation.js",
+        "reviewDate": "2026-10-24",
+        "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+      }
+    },
+    "sha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+    "reviewed": true,
+    "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom."
   }
 ]

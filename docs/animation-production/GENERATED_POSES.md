@@ -1,10 +1,12 @@
 # Generated animation production checkpoint
 
-2026-10-24. Issue3 remains **incomplete**. Actual registered total: **5,924 unique authored drawings across 672 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes. Piper Quickstep and Briar Foxglove each have six registered clips /52 drawings after J.108/J.109 `shoot` integration.
+2026-10-24. Issue3 remains **incomplete**. Actual registered total: **6,175 unique authored drawings across 696 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes. Moxie Capwell, Paprika Rill, Reed Ashcroft, Juniper Vale and Keeg are now complete at29/29 clips /293 drawings each. Piper Quickstep and Briar Foxglove each have six registered clips /52 drawings after J.108/J.109 `shoot` integration.
 
-Dorian Mycel has a completed **source-only** set covering all29 runtime keys: the four existing baseline clips plus25 new reviewed atlases /255 authored drawings. The independent package check passed source SHA-256, layout, atlas bounds, nonblank unique cells and exact clip-key coverage. Since it awaits roster-order integration after Moxie, these new clips are not included in the registered totals above.
+Dorian Mycel has a completed **source-only** set covering all29 runtime keys: the four existing baseline clips plus25 reviewed atlases /255 authored drawings. The independent package check passed source SHA-256, layout, atlas bounds, nonblank unique cells and exact clip-key coverage. It awaits roster-order integration after Moxie and does not count toward registered totals above.
 
-Moxie, Accu, Nova Stitch and Echo Catwalk each have complete **source-only** packages covering all29 runtime keys. Their new source atlases add251 poses for Moxie and241 poses each for Accu, Nova and Echo; source hashes, prompts, layouts, provenance, distinct visible crops and separate-ball records were verified. These are committed but not included in the registered totals until roster-order integration after Keeg.
+Accu, Nova Stitch and Echo Catwalk each have complete **source-only** packages covering all29 runtime keys; their source atlases add241 poses each. Their source hashes, prompts, layouts, provenance, distinct visible crops and separate-ball records were verified. These packages remain outside registered totals until their roster-order integration.
+
+Moxie's24 new source-only atlases were integrated after complete pose, anatomy, transparency, margins and native ball-track review. The 251 packed figures were normalized to at least5px cell clearance while preserving the original generated sheets. Exact source prompts/values remain separate from the corrected runtime hand tracks. Dark/light atlas proofs and standard/120% native pose/ball captures live under `tools/generate-art/previews/moxie-capwell-package-20261024/`; the full inventory and calibration are recorded in `tools/generate-art/moxie-capwell-29-clip-inventory.json`.
 
 J.108 Piper Quickstep `shoot` and J.109 Briar Foxglove `shoot` each register ten new unique poses. Both preserve the correct adult-human identity and separate basketball tracks, hold possession through tick12, and release on frame05/tick13. Source crops, exact prompts, rejected generations, cleanup, provenance, packed-cell previews, and standard/120% native renders are stored under their J.108/J.109 prefixes.
 
@@ -56,7 +58,7 @@ Additional source-only checkpoints: Marco Vellum is at9/29 source clips with an 
 | dorian-mycel | 4 | 35 | 142,496 |
 | luca-velori | 4 | 42 | 159,856 |
 | sera-bellini | 5 | 42 | 162,542 |
-| moxie-capwell | 5 | 42 | 177,354 |
+| moxie-capwell | 29 | 293 | 2,330,618 |
 | sable-regent | 5 | 42 | 160,442 |
 | marco-vellum | 5 | 42 | 161,856 |
 | ash-harth | 5 | 42 | 193,978 |

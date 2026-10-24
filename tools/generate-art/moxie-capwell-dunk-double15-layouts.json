@@ -157,7 +157,7 @@
           42
         ]
       },
-      "cleanupNotes": "Backdrop removed via local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained and fifteen pose components isolated at pack.",
+      "cleanupNotes": "Backdrop removed via local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21–42); raw source retained and fifteen pose components isolated at pack.",
       "review": {
         "status": "accepted",
         "reviewNotes": "Fifteen complete Moxie poses in 5x3 layout with consistent human anatomy and identity. Two hands gather and rise overhead, remain together through peak, extend forward/down for the double-hand finish, release at frame10/tick21, then descend and land. No ball is drawn; backdrop cleanup and packed atlas reviewed."
@@ -286,7 +286,76 @@
       ],
       "uniformScale": 0.2857142857142857,
       "componentIsolation": true,
-      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
-    }
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+        "previousAtlasSha256": "7c9d2d7f6c01e0dd09d16c4daa45f7a219c8bb684a2de641d80e2855c5ae8a6a",
+        "atlasSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+        "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 22,
+          "right": 23,
+          "top": 5,
+          "bottom": 5
+        },
+        "maxMarginsPx": {
+          "left": 36,
+          "right": 36,
+          "top": 19,
+          "bottom": 5
+        }
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1,
+          1.2,
+          1.4,
+          1.8,
+          2.3,
+          2.8,
+          3.2,
+          3.3,
+          1.71,
+          1.07,
+          1.07,
+          1.7,
+          1.2,
+          0.7,
+          0.6
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          17,
+          18,
+          11.8,
+          14,
+          14,
+          28,
+          34,
+          39,
+          42
+        ]
+      },
+      "runtimeTrackCalibration": {
+        "status": "native-reviewed",
+        "reviewDate": "2026-10-24",
+        "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+        "frames": {
+          "8": "1.71/11.8",
+          "9": "1.07/14",
+          "10": "1.07/14"
+        },
+        "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+      }
+    },
+    "sha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+    "reviewed": true,
+    "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom."
   }
 ]

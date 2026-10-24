@@ -1,9 +1,32 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { animationClips, sampleAnimation, anchorTick, animationDuration, sampleBallHeight, sampleBallForward, flightHeightFromHand } from '../src/core/animation.js';
 import { createMatch,createInput,stepMatch } from '../src/core/simulation.js';
 const neutral=m=>m.players.map(p=>createInput(p.id));
 function setup(){const m=createMatch({quarterSeconds:60,seed:1});for(const p of m.players){p.x=p.team?20:(p===m.players[0]?150:120);p.y=p.team?0:50;}return m;}
+test("Moxie's runtime ball tracks match accepted source provenance",()=>{
+ const inventory=JSON.parse(readFileSync(new URL('../tools/generate-art/moxie-capwell-29-clip-inventory.json',import.meta.url),'utf8'));
+ const clips=inventory.newSourceOnlyClips.filter(entry=>entry.ballTrack);
+ assert.equal(clips.length,22);
+ for(const entry of clips){
+  const definition=animationClips[entry.clip],track=entry.runtimeBallTrack;
+  assert.ok(track,`${entry.clip} runtime track is recorded separately from source provenance`);
+  assert.equal(track.height.length,definition.frames.length,`${entry.clip} height track length`);
+  assert.equal(track.forward.length,definition.frames.length,`${entry.clip} forward track length`);
+  let tick=0;
+  for(let frame=0;frame<definition.frames.length;frame++){
+   assert.equal(sampleBallHeight(entry.clip,tick,'moxie-capwell'),track.height[frame],`${entry.clip} frame ${frame} height`);
+   assert.equal(sampleBallForward(entry.clip,tick,'moxie-capwell'),track.forward[frame],`${entry.clip} frame ${frame} forward`);
+   tick+=definition.frames[frame].duration;
+  }
+  if(inventory.runtimeBallTracks.calibratedClips.includes(entry.clip)){
+   const lastCarried=anchorTick(entry.clip,'release')-1;
+   assert.equal(sampleBallHeight(entry.clip,lastCarried,'moxie-capwell'),track.height[9],`${entry.clip} final carry height`);
+   assert.equal(sampleBallForward(entry.clip,lastCarried,'moxie-capwell'),track.forward[9],`${entry.clip} final carry forward`);
+  }
+ }
+});
 test('Paprika starts with the ball at her authored paw without a first-tick snap',()=>{
  const m=createMatch({home:{roster:[{id:'paprika'},{id:'partner'}]}}),p=m.players[0];
  const point={x:m.ball.x,y:m.ball.y,z:m.ball.z};assert.equal(point.x-p.x,7);assert.equal(point.z,.55);

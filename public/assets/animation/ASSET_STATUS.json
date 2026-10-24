@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-24T13:28:15.268Z",
+  "generatedAt": "2026-10-24T18:26:27.303Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 667,
+  "inspectedClips": 696,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -63,12 +63,6 @@
       "code": "missing-clip",
       "athlete": "piper-quickstep",
       "direction": "right",
-      "clip": "shoot"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "piper-quickstep",
-      "direction": "right",
       "clip": "pass"
     },
     {
@@ -207,12 +201,6 @@
       "code": "missing-clip",
       "athlete": "briar-foxglove",
       "direction": "right",
-      "clip": "shoot"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "briar-foxglove",
-      "direction": "right",
       "clip": "pass"
     },
     {
@@ -344,168 +332,6 @@
     {
       "code": "missing-clip",
       "athlete": "briar-foxglove",
-      "direction": "right",
-      "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "keeg",
-      "direction": "right",
-      "clip": "dunk-scythe"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "keeg",
-      "direction": "right",
-      "clip": "alley-oop-power"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "keeg",
-      "direction": "right",
-      "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "shoot"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "pass"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "pass-overhead"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "pass-behind"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "receive"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "pickup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "layup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "layup-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "block"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "steal"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "push"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "rebound"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "fall"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "celebrate"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "dunk-power"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "dunk-windmill"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "dunk-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "dunk-360"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "dunk-tomahawk"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "dunk-double"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "dunk-clutch"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "dunk-scythe"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
-      "direction": "right",
-      "clip": "alley-oop-power"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "moxie-capwell",
       "direction": "right",
       "clip": "alley-oop-reverse"
     },
@@ -27540,6 +27366,112 @@
       ]
     },
     {
+      "athlete": "piper-quickstep",
+      "direction": "right",
+      "clip": "shoot",
+      "src": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+      "width": 640,
+      "height": 192,
+      "sha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "a0ce976b79853cf19a501e9033666ed34625155d2191279e0a7e74e7a35ed637",
+          "visiblePixels": 2185
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "1118ab7d54560f08058967d50ce981431e9db9acf6eb099c5304ac82029e2557",
+          "visiblePixels": 2680
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "1b2514899929f39c3fb4f6d51041e5ad71e0d53e07d392c2e5b952ed99f38f70",
+          "visiblePixels": 2434
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "67f7bf336ad059891e96b1b65703019f8a9cd9416ce33a029f8b92c65b60e675",
+          "visiblePixels": 2508
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931",
+          "visiblePixels": 2130
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "6f83e60fd5b5506dec90ba760e2b656757a44c7d123008cb6a892bcfa150019d",
+          "visiblePixels": 1888
+        },
+        {
+          "index": 6,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "efd7382fc581c4a434e0cdd857d2e588c8bdc57770d2eb87c1ba0bcc8d4fbd82",
+          "visiblePixels": 2325
+        },
+        {
+          "index": 7,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "73b6562862f861452ccbd6b62c21055e1e6999a81d6401969faf1b3e1536bfec",
+          "visiblePixels": 1724
+        },
+        {
+          "index": 8,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "e3d6b1c01918a45792a7ecd316e40e0e109cf2c14526758b1cb68ddd4fdc21ed",
+          "visiblePixels": 2036
+        },
+        {
+          "index": 9,
+          "x": 512,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "6ea1884539be3d96fda21495ada5c44256930d883dd10ac2c561da145481d9d4",
+          "visiblePixels": 2544
+        }
+      ]
+    },
+    {
       "athlete": "briar-foxglove",
       "direction": "right",
       "clip": "idle",
@@ -27994,6 +27926,112 @@
           "h": 96,
           "hash": "34c26658d7113ba25d144fa7d7c18b6ac7e4e09fc5ce87e4c189ce6bfa1bada3",
           "visiblePixels": 2442
+        }
+      ]
+    },
+    {
+      "athlete": "briar-foxglove",
+      "direction": "right",
+      "clip": "shoot",
+      "src": "./public/assets/animation/briar-foxglove-shoot-right.webp",
+      "width": 640,
+      "height": 192,
+      "sha256": "9303c007d4d8697559670cfa851cc4c9667156daa43c83cef2a29cd0020a34f1",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "fc67f09e772d20061f58ef49052951791c583f82becfe0af58434bd80e21d961",
+          "visiblePixels": 2096
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "b3c13803207d5ff61add6f4fe4e76566d9fdee39da2130e6a7d305d7d981817c",
+          "visiblePixels": 2184
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "cae9cd67c61a6c0d76e0e1b0e5f9a669f914794c60214cd76a0a48a54e347bbc",
+          "visiblePixels": 2303
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "77010cd26e89e209b2a1c3e5d5eeeb78aadd96fbd9adedaf99d21d06b0e77ad3",
+          "visiblePixels": 1668
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "1c24e1b5d441e425802d958fcf1d70151c76644bdf91b03f287fb27de3600205",
+          "visiblePixels": 1465
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "baf17e374106d512d438ce0f47e0616cc716b94ac2226569d365693850d0cf43",
+          "visiblePixels": 1394
+        },
+        {
+          "index": 6,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "edf1669bd3320d0ff2f64afc80857fbfe64bb53eb80763b5ce981fdbc0407618",
+          "visiblePixels": 1357
+        },
+        {
+          "index": 7,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "d5e8ed467ae6447d23b458ae1f6a12de60527bac566a11baaaac06563dc0b409",
+          "visiblePixels": 1542
+        },
+        {
+          "index": 8,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "22ac35d795488b9a4641db712d2c7b76b0e513ddf4388d6baad249d8ad9d4857",
+          "visiblePixels": 2429
+        },
+        {
+          "index": 9,
+          "x": 512,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "bed723bdfd9a8ba0c8b0b090807e36726e4fbafa4d5e98cf70085fe08bc43286",
+          "visiblePixels": 1946
         }
       ]
     },
@@ -30646,6 +30684,459 @@
       ]
     },
     {
+      "athlete": "keeg",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "src": "./public/assets/animation/keeg-dunk-scythe-right.webp",
+      "width": 640,
+      "height": 288,
+      "sha256": "60a7b91f8f5d004530ef74bffaa14d9e69921984b51deb141d5bbf3c4bb21df6",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "c7e70e34f2c7ec8d6743f00d5c4c7565a025203fa68583b9c7bdc2734b7c3642",
+          "visiblePixels": 2452
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "14900afadbbf7e3e0fd84d321fc8d726363fc8af4e192123f5bc17bc8dfdacd0",
+          "visiblePixels": 2159
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "51dd838c372453e9d576caf3bf5b8b1276ad2606624fb5b844ebf6fd591d6642",
+          "visiblePixels": 2847
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "f3505e93fbad1fa5530dcdc51ab775c2d8d58f18534344b5e8b3057e898d98cc",
+          "visiblePixels": 2556
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "bf5d2eeea58dbbb311ef97d57ad609641c94855b7bff3e551c1dd924be0a9a2b",
+          "visiblePixels": 2505
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "83c41f4a20157c64d44afd864c5fe70d520d9b297b47be66febaf9a23742e04c",
+          "visiblePixels": 2771
+        },
+        {
+          "index": 6,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "eb2924e59c2e35564564b152e8d3caa248f5f0adfec752c0558682573c7cca83",
+          "visiblePixels": 2068
+        },
+        {
+          "index": 7,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "8fe26bf3a86ca27ca133592fd9c025eac12ff4782abc93a1c21572316bd70ec3",
+          "visiblePixels": 2477
+        },
+        {
+          "index": 8,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "9f6b78c2cb3a6c5857ef61d0c87d0a35bd8ec9aaeb16e3f96d916eabe816ea57",
+          "visiblePixels": 2126
+        },
+        {
+          "index": 9,
+          "x": 512,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "71f25a1032dbffbbb4230c5b7180a225b859f954e66c0ae813f6be8cb6ffda56",
+          "visiblePixels": 2661
+        },
+        {
+          "index": 10,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "85427ec99fda65a594f9e5fc2ddfe96a03fa9747a7f06a0515fd0cb19a49693e",
+          "visiblePixels": 2675
+        },
+        {
+          "index": 11,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "d136680c9d6772f1950789709bc523dc7f99ef70bc021f915a00eaf9a68b8695",
+          "visiblePixels": 2659
+        },
+        {
+          "index": 12,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "1ced728f01578edaa8b6ed92bfebed5fcc59580711fa04e06a422079a7f76353",
+          "visiblePixels": 2581
+        },
+        {
+          "index": 13,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "871b0f868774150ecb9ad31d4c3d8b4458f47eb91a15acd713b99c51758cca0d",
+          "visiblePixels": 3060
+        },
+        {
+          "index": 14,
+          "x": 512,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "5a7b192fa21974ed704dc7a747252a2e82d8b64da717d7b3163a130d7be0e21b",
+          "visiblePixels": 2373
+        }
+      ]
+    },
+    {
+      "athlete": "keeg",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "src": "./public/assets/animation/keeg-alley-oop-power-right.webp",
+      "width": 640,
+      "height": 288,
+      "sha256": "c2c671181c88fcb2cf0e49d2664a315647c8d841cc4c82c8aac41e8778858ab3",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "4df8fb201f98ed8e4a447876773fbf15e6d7d289dff56bcb3e31e913ac4b9032",
+          "visiblePixels": 2638
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "dfa6b1ab57dfe3345e9941ffc3b1cd190083ac02e1a1912700cbe6f64313acf4",
+          "visiblePixels": 2313
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "e4175689ff98dbd2570f503b33dc175629328c0b3e3cf6afebabc1f64694a262",
+          "visiblePixels": 2455
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "2594ea0bc5997767f1530573bbc7df4b348c570992992231f4076cd56d7b9835",
+          "visiblePixels": 1988
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "c0c83919b8d4a6fa74e443b63de51add9ef4c7d40bcdf0210cefb7ccaa0c9bb4",
+          "visiblePixels": 1947
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "1411cfa902dcc903c2c6341dd0fd2741640c718ce6ed6cf4f2175382f1376526",
+          "visiblePixels": 2228
+        },
+        {
+          "index": 6,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "6a48caecc9fd41258f8f69f3f3e5b88c553741da02c082a80596ec064bdc56ce",
+          "visiblePixels": 1903
+        },
+        {
+          "index": 7,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "946146828af9d9e9dde703b1d1679f2459e256384e7f3d36deeb2709f2b0cdc6",
+          "visiblePixels": 2148
+        },
+        {
+          "index": 8,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "5a3a99d8df6bfac081b88aaa37ee4ea2ef78b9cad183d9f42008ca6f9bda75a3",
+          "visiblePixels": 2240
+        },
+        {
+          "index": 9,
+          "x": 512,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "199ad76564ed3e09a7034582f0124444d58b541d7ee3c8f539ac043dd5f8009a",
+          "visiblePixels": 2119
+        },
+        {
+          "index": 10,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "6b07e3daa93053c05659063f254e40a6d03ec0e8bce3d7d0a98d47e59a0a0ad5",
+          "visiblePixels": 1938
+        },
+        {
+          "index": 11,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "c3ee9e4df4a2b4898bdc64ca79fff593a0d228c41f494a60f7205a55b7e25c07",
+          "visiblePixels": 2070
+        },
+        {
+          "index": 12,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "5642e9acadbd733a1713a0ff34a045a533feb6b89aed65efff0d500b8042331d",
+          "visiblePixels": 2062
+        },
+        {
+          "index": 13,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "db9bd8d296ed8da5134d0eadedd8f8118cb0338e81fbebadd92f52b6c53d1252",
+          "visiblePixels": 2709
+        },
+        {
+          "index": 14,
+          "x": 512,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "bce859f31c25cd681a9936b966ff9934e69543993b30cb0aab59af45d8b028ef",
+          "visiblePixels": 1855
+        }
+      ]
+    },
+    {
+      "athlete": "keeg",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "src": "./public/assets/animation/keeg-alley-oop-reverse-right.webp",
+      "width": 640,
+      "height": 288,
+      "sha256": "33409a7268467db62acd617621b32921d77262c525e45573a0f0f4e7969f233e",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "5db8b18364311ff124104b3e6eb0fb8f1c970db4c32f8f07c27b2972fde0c26f",
+          "visiblePixels": 1716
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "268d75d8b119527dff59b0d184762d4e1e837e3f70423f83b935c1426b6a1741",
+          "visiblePixels": 1883
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "79e81b8995df367ef02b7baf8ebe9a4913db7f7dc265bc04d900a9690918bee2",
+          "visiblePixels": 1490
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "cf1ee0a4f946ccd19bbf5fbb3d75f97cca38a34bf9f7654786a632b75a3ee4f9",
+          "visiblePixels": 1616
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "646e2ac349b86fb2ef2c616aef5f8430c2df214338149235ad454dfabc2a9fbe",
+          "visiblePixels": 1502
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "bd7e95379894a5261854302dfc21ce4812a343fb0522bbd3bc864e407a89923c",
+          "visiblePixels": 2048
+        },
+        {
+          "index": 6,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "04a47bf6c3512e812872976a944248097b8ebe52ff86104096ddcdb5134c3d02",
+          "visiblePixels": 1346
+        },
+        {
+          "index": 7,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "de3821be334bc559d8a64237e6a40d99c36498ff44b78c1dc79f7d8eb38a3bca",
+          "visiblePixels": 1892
+        },
+        {
+          "index": 8,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "fa57960d1672aaddb8bf9c1ba334e19f298aa6acce6cd0c3ac77f45c4b377832",
+          "visiblePixels": 1944
+        },
+        {
+          "index": 9,
+          "x": 512,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "1380101b48e05656bd3844626d476e6d12f3b8bb8b59bd135c4b8163b2a91e8f",
+          "visiblePixels": 2654
+        },
+        {
+          "index": 10,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "79d723369efa2cad4fc793d9ce653de7695ff9b5c40ade0a9688b9034a9aff01",
+          "visiblePixels": 2033
+        },
+        {
+          "index": 11,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "789d792400beeb048b0176ebab22f68bd8b0b1ead71b0f4c617071f330f0fac4",
+          "visiblePixels": 1920
+        },
+        {
+          "index": 12,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "432bc8255d9e096bd62865a123d5b8e6edd54bd512d3f5eb540a23ebca61d3de",
+          "visiblePixels": 1520
+        },
+        {
+          "index": 13,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "8093526375af0fd9ba21368ba207c88fe6841b80e04ed307743cde7779330ac5",
+          "visiblePixels": 2419
+        },
+        {
+          "index": 14,
+          "x": 512,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "427b8fe0e7ca349b6d2ed701bbccdbc54938176b0ba09041c559b785fcfc3748",
+          "visiblePixels": 1524
+        }
+      ]
+    },
+    {
       "athlete": "moxie-capwell",
       "direction": "right",
       "clip": "idle",
@@ -31100,6 +31591,2649 @@
           "h": 96,
           "hash": "25318c0c95326129abd1252139b243c82c98542fd864aaee87001bd0b43af9ab",
           "visiblePixels": 2441
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "shoot",
+      "src": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+      "width": 320,
+      "height": 192,
+      "sha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "20841c19902615f4942268cb907279f4e3428b4b84535cd63a2ba8385f017356",
+          "visiblePixels": 2314
+        },
+        {
+          "index": 1,
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "4e1c1f1086ffc5e595e1c1b77b45c8fdd8a3115231e3fe4e7ce2866a3c1e36f5",
+          "visiblePixels": 2251
+        },
+        {
+          "index": 2,
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "b3ed6ea700af9534d8fefd1eb24185d137403950c62cb27f4bad2c04449945cf",
+          "visiblePixels": 2391
+        },
+        {
+          "index": 3,
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "fab7bb7ad19571662531046ae1a18fa6f563afc1ea72ac6432bed63604ddf332",
+          "visiblePixels": 2353
+        },
+        {
+          "index": 4,
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246",
+          "visiblePixels": 2330
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "b3402f21c9f173fef2171d9fc6b7558d9d7ce48b5a065059c12a69d23917507d",
+          "visiblePixels": 2311
+        },
+        {
+          "index": 6,
+          "x": 64,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "3ce9e7115b25cb4de5b67e96b54cbebd1d34c1f82bed5405e0c014bb589b7497",
+          "visiblePixels": 2433
+        },
+        {
+          "index": 7,
+          "x": 128,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "7aac5579c4347ac931756c526a59e788d9958044eb226d39212458ccacdb3361",
+          "visiblePixels": 2469
+        },
+        {
+          "index": 8,
+          "x": 192,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "ca1dfe2057ebc84609bd84117d5e13a8ba2b5ebead61d9579723a0dee525ba15",
+          "visiblePixels": 2403
+        },
+        {
+          "index": 9,
+          "x": 256,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "c9b239e6561bb8dc5b7554c8a9ac6882f2419cc62854f62ee55329029a0334ff",
+          "visiblePixels": 2387
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "pass",
+      "src": "./public/assets/animation/moxie-capwell-pass-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9af1160f941fb04d0a33be4d2b1f8dc655042111b7cecbebcfd3394a6d98d318",
+          "visiblePixels": 3028
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d2f0bff5a4a1ee9a8afe10e4ad714e91fed5a3ead6857cb9ed12a0f7751c1951",
+          "visiblePixels": 3056
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79",
+          "visiblePixels": 2982
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5932f091a45e628dcd2b307ea0d19046b442d08dce1b17710d0b2d4379d96d68",
+          "visiblePixels": 3374
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "55ab7172009b2e14b550ea4da67f707602a0648163db79fc0c2afd234a8c24dd",
+          "visiblePixels": 3511
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "58f6f955ee99cdc48538a4e6129b3c0e2a279d93451073ae5fc0c1353d3f6b8e",
+          "visiblePixels": 3119
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "src": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "0584e53423f21d69b3b408ce2ed3d7624a898f25ddeaa2c220d70efc4fde1728",
+          "visiblePixels": 2510
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "0c81681f7cdfc284bc2dcc859fd1dd10b887100ac2558fa466044d8068508c19",
+          "visiblePixels": 2613
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319",
+          "visiblePixels": 2745
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "e355ec093724ca6f005018f8edd3a56cdfb01cbaf9e3a65faaadc9bdd1823b71",
+          "visiblePixels": 2605
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "88611c22180113eebc2da39ec9d54460b5ccd65b9eb33d20de097b0227e03ad0",
+          "visiblePixels": 2810
+        },
+        {
+          "index": 5,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "46ce92ad19f17034f7436a34d9460b65bcb14744ebc81693f2c1fc975e175f8c",
+          "visiblePixels": 2495
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+      "width": 336,
+      "height": 192,
+      "sha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "63b161a43e47ee945468cc4b883d794928fb7039dbd48a11769e69ca63476014",
+          "visiblePixels": 3222
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "430b620046af35dd2ce04071c7a14f98d519d5e3804b784a6a8af2f0553d2421",
+          "visiblePixels": 3111
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9",
+          "visiblePixels": 3302
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "76279db48d9e9280fc2e86817ef617bd3c4e2e4c850827379cfd6de64a7e71ed",
+          "visiblePixels": 3729
+        },
+        {
+          "index": 4,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "da71dbf80c731f2d04c959b2c640c04e246476bf5cf5e112c312f8aeb875a203",
+          "visiblePixels": 3533
+        },
+        {
+          "index": 5,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "194903538c40259ec337b72940c560f4b21aa4707a73f3ca97d221183273df63",
+          "visiblePixels": 3345
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "receive",
+      "src": "./public/assets/animation/moxie-capwell-receive-right.webp",
+      "width": 224,
+      "height": 192,
+      "sha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "8ce5087c5650c2b4a3ef919bf7481f125b0fb57371253272d17b26f8693c8bb6",
+          "visiblePixels": 3222
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f",
+          "visiblePixels": 3673
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "d95623778608badf02e83b0f31baed592959c5a61f854aa554510e883755aae0",
+          "visiblePixels": 3335
+        },
+        {
+          "index": 3,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "4ac19b62e09b6909addf5fb45acf76aa0cdc7dc2a3d55ea30aa0d22ec9162d02",
+          "visiblePixels": 3198
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "pickup",
+      "src": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "dbcaf5e016fde1a83ae8c2e7dc715db810700c492edc2449955390614bab4914",
+          "visiblePixels": 3404
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "18ee3442259f6896a0fa61c8dbd1ee50a330f22a2620b6b82e3b3b6a8623383b",
+          "visiblePixels": 3660
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d",
+          "visiblePixels": 3598
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cd1f867562c319aa5a1d14fb6eb43d18cf4150474077f7181cb3c9a87cebde6a",
+          "visiblePixels": 3512
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "83c1380b785d38ebb2ae41d8e44cc3ae84688e968def0d75b339f72c7a6492ed",
+          "visiblePixels": 3576
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "layup",
+      "src": "./public/assets/animation/moxie-capwell-layup-right.webp",
+      "width": 320,
+      "height": 192,
+      "sha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "0285cb860199dea41b86036d0514379156d319438c028c6c8e7988c8d7f47b9a",
+          "visiblePixels": 2737
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "37be52253aa9fd7e215253c73bf0da156d982e8feca83df8aa19d3bd87efa61b",
+          "visiblePixels": 2566
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "108b7c3ab9003b0d7f9d93a9a3485576e55eae6a0bf1acdeabfd3d9a95de9782",
+          "visiblePixels": 2397
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770",
+          "visiblePixels": 2593
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "02f7753c62ef01e0c37879f3aa15aa30a049b905f870ec90138bc9d04ca40d45",
+          "visiblePixels": 2325
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "f0cbcdc5d83a0944c7f1c1e8a558ea2c5f453b11e0c668152ac1075526ed849d",
+          "visiblePixels": 2284
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d5e85007a4e53b40a24b202ed1986f05d03bb117062394053d7ba76d3f60fdd9",
+          "visiblePixels": 2430
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "15ec01cd62fd378f9b345b819047727e0b75f6e6c0a9797f72709acea8d038df",
+          "visiblePixels": 2030
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "src": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+      "width": 320,
+      "height": 192,
+      "sha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "7a6ea120ebf79d5da557e0e543f1bb750d503415551667a9db18b9b94a6393e4",
+          "visiblePixels": 2708
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "6495bdffad7e1fd32704754e6285f30576e98fcdcdea4eb233a82f06663b7e08",
+          "visiblePixels": 2694
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "0724c6c51e0ad8d48bee67aba7f5141236e24939e1f1f7e1384593d62204a5cb",
+          "visiblePixels": 2741
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca",
+          "visiblePixels": 2680
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "af2cd6e5788ed34629f9903578e3c48376fe94050baa8153f5d69e0b9b9f7c39",
+          "visiblePixels": 2663
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b88d783b042d933fac0d8a3f472d55831e404a8256dd4f3e6e6bea32c54bf676",
+          "visiblePixels": 2623
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "83b3ca61dd4169656129ef62aad70022446eeb99d8ae4e3877c3c45021bfcfd0",
+          "visiblePixels": 2811
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "9edf0e04de7768ff24859cb31e58f6714cb500170c6502ad8601fd932260a9aa",
+          "visiblePixels": 2589
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "block",
+      "src": "./public/assets/animation/moxie-capwell-block-right.webp",
+      "width": 160,
+      "height": 192,
+      "sha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a58c8a7510715c210d5bcec461c7c7cdcfca7494d93150677febdb938146d36e",
+          "visiblePixels": 2330
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81",
+          "visiblePixels": 2463
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "3168404732eb35379d50627a26dec673cafb81de744734b2a6a7416b9a100dbe",
+          "visiblePixels": 2391
+        },
+        {
+          "index": 3,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d93e2801aefe8c17f853eff29645334bfd50aae6abdeff8f1e8c36c3639bb24c",
+          "visiblePixels": 2307
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "steal",
+      "src": "./public/assets/animation/moxie-capwell-steal-right.webp",
+      "width": 448,
+      "height": 192,
+      "sha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "38ff57284619a022db1d981f5a4a581b369acbd58d38cc9932300f7048b1832d",
+          "visiblePixels": 3399
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "0ea6165b519d5f1bac41f9260b9c38d580e5c988cf4077e9a7c2dee5c5da08ab",
+          "visiblePixels": 3711
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "b8d4f36900ce9085d394aef7e4f0e0456c52ce896675b424b618247d003e752d",
+          "visiblePixels": 3631
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74",
+          "visiblePixels": 3790
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "e09cf4273ba8ac5002eec713906d8b5757208ecc4e2673cefa3857b60f3038ea",
+          "visiblePixels": 3425
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "e9929ca75e2c3100cd4c7b1767a60ad822e6ba86bea5adc0c430ee80c30ca430",
+          "visiblePixels": 3687
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "cc9ca2e0f1455aefcaf1f9442f39b715616c8f40ca638e1db0e6e30462bfc3cc",
+          "visiblePixels": 4053
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "4b5e629dd98f4c0159ea8771a1c82d4aeef0201e2cbf1c22298163fcab651c07",
+          "visiblePixels": 3585
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "push",
+      "src": "./public/assets/animation/moxie-capwell-push-right.webp",
+      "width": 448,
+      "height": 288,
+      "sha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "0293e52cf3b887c2c4506834bd33eea87229daf9a62e5d9453d4d211a0c9af71",
+          "visiblePixels": 3940
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "0ecab82c0df48a56910dc2d8b3b3af1aa3afc4a7ccce1255aa8a7d3923785441",
+          "visiblePixels": 4007
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "2e5a63563616a44aa4c2b7e0bbf1e7a561d22bdf61bd02a1742d73b532b45f3c",
+          "visiblePixels": 3831
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "8d81b2cc30986c9c6845635ed47f4c892457916c26657492bbca2223bea06b05",
+          "visiblePixels": 3769
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "a1066ce868d7fd766083f7ea5f283f41bc2031b44dc392518ef87d00ed1017ac",
+          "visiblePixels": 4264
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f",
+          "visiblePixels": 4387
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "98738a6acc16156b5037d07ce6848a6fb5706f6224d5d16dbbd8636ef7137ad2",
+          "visiblePixels": 4135
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "68bbe473e9597c068dc870a609cace4074d2837f769ab70e37d53a35ac8a692a",
+          "visiblePixels": 3990
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "f7dc5750efd2b19e09fc17bf56546f9ddf58b87eb8b1b856fccb74608b46a59a",
+          "visiblePixels": 4242
+        },
+        {
+          "index": 9,
+          "x": 112,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "06538f3a00af9a978e4d9e115fac7ade6e6b26e62b98e4fc659410387d2fcaab",
+          "visiblePixels": 4154
+        },
+        {
+          "index": 10,
+          "x": 224,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "041736a3a9649be729add9949d8e613ccf3f10482e270d90baf9ac6ea22a8edc",
+          "visiblePixels": 4351
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "rebound",
+      "src": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "c1c0464bcfd7cf7711b4304eb0af036181cb89b754d7e4aa25031ab935fc9180",
+          "visiblePixels": 2405
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "86811a3c48c97fab7e09b4c489a60ad4c205a737d66ef0bdee9b7df5fac180eb",
+          "visiblePixels": 2749
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2",
+          "visiblePixels": 2675
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "fa412107590444d8ab884a8922a9bfa7dc340f12ffc53fb22e527aeecfc208af",
+          "visiblePixels": 2863
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "102e3fbd406901d31accb7c1be1fbe1fe5cd9b8d2ab8fe04eacbd2dc1993f808",
+          "visiblePixels": 2404
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "fall",
+      "src": "./public/assets/animation/moxie-capwell-fall-right.webp",
+      "width": 480,
+      "height": 192,
+      "sha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+      "required": 10,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "cbdec0b9528c43b828466462a6c05f8bec6a4f1f6a045bc4252f58e042feb807",
+          "visiblePixels": 2814
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "89c106b41b8f98d609025a302492a09b5b576b43911967488d82052e6ed03d9a",
+          "visiblePixels": 3074
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d7d6582fb3168768a6c47b5e9cdccc70301a2a3ce31fa0af3da98838e41a4660",
+          "visiblePixels": 2885
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "56f6bb90131fafa6baaff385130817182d96a556664e9dee4fe572075c92870b",
+          "visiblePixels": 2630
+        },
+        {
+          "index": 4,
+          "x": 384,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65",
+          "visiblePixels": 2913
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f580fc5c1834d8ebc7076a23686d92039cce546aa886a7199779c853daf6557c",
+          "visiblePixels": 2453
+        },
+        {
+          "index": 6,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b828e28659c68d129b6471ac5e3c4369bcf7232cc87b9def325c4ddfa46b81c8",
+          "visiblePixels": 2722
+        },
+        {
+          "index": 7,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f3f60a16fd7e0020d1cd976508dd7b2f5bb4a3d4ed69ffea709ac5141b491a39",
+          "visiblePixels": 2982
+        },
+        {
+          "index": 8,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d74d98aa59386c42becf1a645a5ab309bf1277550d28bfcf22fede12af03ecd3",
+          "visiblePixels": 2807
+        },
+        {
+          "index": 9,
+          "x": 384,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a00c8f34012053f6bf292ec7bbf67f8318bc89429a76932da6db691a502c5f3d",
+          "visiblePixels": 2980
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "celebrate",
+      "src": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+      "width": 400,
+      "height": 192,
+      "sha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "9efcfce291a284eb3256c301cc762da9eee1882245a798effb36b731a0edf555",
+          "visiblePixels": 2330
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "92ba849be84a2fd0601a6ab1830f95360a6b50bfe4f31f56b117eb289e79c69f",
+          "visiblePixels": 2260
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "7c68f3030037507c5d5659635491a8aae649b1b0d57cbbcc3d1a86512dbd6615",
+          "visiblePixels": 2199
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "d37e3e4aedc22416cf9beac374fcec4a98aa0be0d04dda518627d36ca3dd9a13",
+          "visiblePixels": 2288
+        },
+        {
+          "index": 4,
+          "x": 320,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81",
+          "visiblePixels": 2187
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "f675da56c94b670593b2e6a9f6cf0c379fa4ad6e00d791fdb832813dfaf31d15",
+          "visiblePixels": 2479
+        },
+        {
+          "index": 6,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "e7cda2e0dfcf9cef97f767ae0b7d3667edfbfda3b5ef4f21f19bc2cea39aa4a0",
+          "visiblePixels": 2260
+        },
+        {
+          "index": 7,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "1aca2cb2adccf4f4459edecddb9bb64fd89eb36b39ecd7af425096e8f7aa9acc",
+          "visiblePixels": 2196
+        },
+        {
+          "index": 8,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "5266e2e1492bd3c8602b5df5450e517b10ef9a10400c9c00fbcde52da086565e",
+          "visiblePixels": 2425
+        },
+        {
+          "index": 9,
+          "x": 320,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "5ca0af85cdecc89f06112d3cb47ef3d7632e78e40200c6c32d6b96e6a7908016",
+          "visiblePixels": 2369
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "dunk-power",
+      "src": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "a7c3a2b0ee3ec4a54ffc3f8dfc12696f992196019284aee9fa0cbfda49048b5b",
+          "visiblePixels": 2665
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "bcdc7f0f5f26650f050d9126c73193a5a54247fff2ebef5297d4edca6f845e67",
+          "visiblePixels": 2367
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "4ee5506b283d17fe1acb8db7d1e03acde316d68b8f21b0a7072ea5347c121a0b",
+          "visiblePixels": 2433
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "c5d2011c661401ebbbdf630c88eb4680e1dff4aa4dbb6e0cc6ea195f1f70272b",
+          "visiblePixels": 2265
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "7ed6726897cf16cd6dde89c4d780eed8a9ddc5ab90226cce61ba62951629bc9d",
+          "visiblePixels": 2148
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "9d7d18cb636cb022f12af80501ab98094c6d6994aa89659e6de24300c33dabb2",
+          "visiblePixels": 2616
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "a053a2e5e6886576ae6b563ad45a1948a1ef7eaf94d474ca0fca11af8d05d85b",
+          "visiblePixels": 2613
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433",
+          "visiblePixels": 2428
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "d62f958442f45c69f807574add77021d97eb97fcf0040ec0859c55c208abe7a8",
+          "visiblePixels": 2754
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "0d2d5b4dcc777424b3bcb6f4631983bb072c52fc872ed13747211278250a8bbb",
+          "visiblePixels": 2599
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "9417e51c72c25d05f9c8c58f082761622b4ea77f55c1d139400b8f6a6547a610",
+          "visiblePixels": 2572
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "b01a936310b277c09aeedb06debb945f09dfe51f64aba9223c9b4b27841be3f7",
+          "visiblePixels": 2367
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "b923cff1514e981adae3cf441feab9374154dce6a01d2bd0af36f90cf135e7f8",
+          "visiblePixels": 2703
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "b5e7fb006a2a8693b73b4f61cb96473366f83260b8f3235ef03e39c23690fd76",
+          "visiblePixels": 2600
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "588cda5572daec29df9dbebad6ce5e61d9618b883b222e219eac37a850821b5a",
+          "visiblePixels": 2688
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "src": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9097d868afa8094b4cf68cdccb016b8410a16d176041b5ca2b82865f7a8a4022",
+          "visiblePixels": 3373
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "f449cec58d116326beb9f81f6ba5f5795bedfacfbb08a6cdde0c286180eb16a8",
+          "visiblePixels": 2797
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "33b87af963a1c0378cb5a9bc426bcc6459ae9abd07cb311b4b2523d4e0114449",
+          "visiblePixels": 2688
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "329c0732b1ba93add359582bb0c66781337c6ccba3b6a0ad910b0f5d07bd5859",
+          "visiblePixels": 2988
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "fccdcf22f02de0a7a4b842905282f670bc254fe5d742c6685bd4b721ed7b9a34",
+          "visiblePixels": 2934
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "0751d52771ffb4d79f1c9130bcd8ec7e0f5e5cfee02c240a66c63bad8016c44a",
+          "visiblePixels": 2910
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "9a9d750c6dfaddf5c64ee49df467d4d2505f9d5943fbde7bf152bf293a87e6eb",
+          "visiblePixels": 2874
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1",
+          "visiblePixels": 2881
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "2c8a53cebddf0bf413bf7d5945522591cca79b3ec7a5690b1e979a0e8159f821",
+          "visiblePixels": 2904
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "482708cdd4178e9d5b5c0992ef0850053a15b2fb45f440957fa19bf9cf6eb65f",
+          "visiblePixels": 2862
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "f9d369c5127b6b85b869a3940b65744dc0714defc47e95e58afca34113c265ae",
+          "visiblePixels": 2809
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "c1d7154d530af51aef226e06c617e52c9cfbbf1d3157706d01c825a40b4ecd18",
+          "visiblePixels": 2669
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "ac71323ad04a69e4025ff5990f8ddcff82019cf01a01c386631f69f91c102499",
+          "visiblePixels": 2746
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "aec29f24d68e653b922b2adee3a24a18d9a1190fef330c580442e31ab1876f45",
+          "visiblePixels": 2951
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "edbf04f40892d48a54dd32267cb06ceab23fef35efb0d586c06aa6f2103e07df",
+          "visiblePixels": 2691
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "src": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "fa4a9a40ae326f3a614aee3d1713c224764670bff02141619d28ae95047942bd",
+          "visiblePixels": 2651
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "eff0a0aa474f0e7299f57708e2119bcb50f24d741b8dca9422bee29fe38966f5",
+          "visiblePixels": 2432
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "2caeefaeace7de5fd9f437a7dca80bfcd794c6fee0e30cdb345c815e0dab9dec",
+          "visiblePixels": 2309
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "a21f008f73d107e574040bfe7d8fb58702d771621342f0f918be5ccd77e5f1fb",
+          "visiblePixels": 2339
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "79a94f1404cab073fbcb5c35fa8d24477f2f7181433cd7be6ee7d68ac5ac535b",
+          "visiblePixels": 2382
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "7c3fda3686dd0a1389b24359ac6a90f66339660587d43b9f5defecdaa28b1096",
+          "visiblePixels": 2549
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "3a223b0ade84092dac36e33eabba66dc5412a1f0d1e4839107c0c65944088b5d",
+          "visiblePixels": 2439
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68",
+          "visiblePixels": 2414
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "404691e36de200319ef98a5d9cd2fc95765210c19039b54103be9fae3a0cb5d3",
+          "visiblePixels": 2242
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "385c05bd4b4c0b6ae6d0364c0e265203f3ad063e23e7cf7a21b4889f52c68abe",
+          "visiblePixels": 2244
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "2b72bc9810453793c56c6d2266b4ef1f0f9541f9589038a14e4e770463c10c87",
+          "visiblePixels": 2473
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "a7cfdcce61afbf0e74d667226e6fa4e3b711dee99f43c71cfe89de4779e0a915",
+          "visiblePixels": 2603
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "43d7f06dcef363498de1d15fd8e3fd819e699a792242a064e588b4eb01a0094c",
+          "visiblePixels": 2599
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "65f9071afeef0f7aaa963c9de0dc1155382aadf766aa7d6410e9891add7fc678",
+          "visiblePixels": 2795
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "4f1425890e91e6f5d511c0811fd50ac2840db1fca903934031f499cfbf49dcb4",
+          "visiblePixels": 2604
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "dunk-360",
+      "src": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "12ef9c33d9f4c1287cc73ef80e21aaa45357298967f65b5b1a825a522315d77f",
+          "visiblePixels": 2758
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "2ea6b51d725fa3c816915306e4eb5babedc2f0cfafac291789b9547fca9304d0",
+          "visiblePixels": 2935
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "e47ddc512804ee52fe827cbdb1e1da466d4aceedf95428e4139ea1858b278180",
+          "visiblePixels": 2747
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "79ad79526eef84689dc473d37b68fd102fe3856c3bf3d7066c951eed4b06d119",
+          "visiblePixels": 2976
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "8169263b8d3b5c290219b4b3d809490b05e0779202921a65478c954f16cef82b",
+          "visiblePixels": 2677
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "c1ac7d918e1a3ea87a6daed44906408ab0530a7dc5a3564437fa2a85cfb82d0f",
+          "visiblePixels": 2830
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "2f5d2bbd98e6d979e361e898f43d19a548b19813542554858453e943b87ad905",
+          "visiblePixels": 2763
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01",
+          "visiblePixels": 2716
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "3222c46edd2cc46b1c93f8ba6658d6841387b6af827f5dd49c8cc5f8bd0be22e",
+          "visiblePixels": 2665
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "4283744683f7f2e06523b88b462ebe6570eeba6716826034f081cf43035a70b5",
+          "visiblePixels": 2638
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "d8b7ee4a8529dc8a7567d5c99300add3da083402d7c5c877acad76971239a554",
+          "visiblePixels": 2673
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "1bf37d75ec8f9ec2f52d535245ebdb32b551ad7760f2bd8eb190bea009b83154",
+          "visiblePixels": 2399
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "9b2939c442deef59338641bff54b0b4469eaa941dcb68cd8eeb5101e0bf071e5",
+          "visiblePixels": 2829
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "d36530eadd3c2240bbbfbfeab61e59b097297bd9a93ca7b8fba4472f088cb813",
+          "visiblePixels": 2805
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "212629d730182c4407cc58a86a16feeeedaac56a36359f2a350c925e79d30b12",
+          "visiblePixels": 3014
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "src": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "0fbde1b684875200d9822e55c42bbaa23cd3d0df43b9f0f8935ddc4b6bc9b487",
+          "visiblePixels": 3257
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "353dc695b8cd0bf104bb73414e259e57c7122b3b02e19c581736072a75771ec5",
+          "visiblePixels": 2877
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "abdb6cc5ef3945e57633666b584a55eeedb8639153a32a7e169c9698b8b99dc2",
+          "visiblePixels": 2945
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "d6d6854b1c2a9c4910e3f456ff21d193faaf877173b14f70c70b6e1e27a6b928",
+          "visiblePixels": 2572
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "ba511a2a9594bba31db4672259d766e6d9955e91f5321f9ed01c5557fe4dd37e",
+          "visiblePixels": 2767
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "ad25c41fb2d578c9b7ed1f7712f72b86dbd952b9f306e4ba7832b80fcaa127b5",
+          "visiblePixels": 2844
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "86c8c5fc2f00daf6514cc6f9173f0e831e8468c8d9859d091ff5141005a2cd6c",
+          "visiblePixels": 2890
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3",
+          "visiblePixels": 2765
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "e17c2e1f3b57ce0711d8a843469c930abb0cce1573fdc3b9616a2445d174402d",
+          "visiblePixels": 2605
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "763a95794aa9a11cfd500fd96f1c936ac1a126bfcaa3f1efe8a7d1076ccefe18",
+          "visiblePixels": 2730
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "c8a2973141fa67a294f0254491dc770fef7f5c98fb21e8f03e7b1895fca54bb5",
+          "visiblePixels": 2816
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "0098c1318dad2a63dc0846c840721a38d23d12c5898586c6fbb2f96a6f398b1f",
+          "visiblePixels": 2965
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "b9707ec2503e5c4386205729ca2a896bbc0c46fb7b9b76dd35040ee3025ad0e0",
+          "visiblePixels": 3010
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "b2f5e31a1d5c23b5838d104114eaaedb3a83022283da68917826f2bedb809afa",
+          "visiblePixels": 2917
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "0319100e4cd0c257f07822c0bc57990fa35a9e4875488cb21da83626a2cf469e",
+          "visiblePixels": 2866
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "dunk-double",
+      "src": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "d0a8f3a86ec82f689f56b93edaa1941ce340aca1c1a067bd6aaa2a80a449c85e",
+          "visiblePixels": 3207
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "7211e8b5ac65d48c045aabb5a0ef8b8cff02bdb4f1c8c7585e15e8be8a60a1a8",
+          "visiblePixels": 2867
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "dfba57da049a9451fd37f214fd75cc9cc80e7697503ec5992a18c83beff90e9d",
+          "visiblePixels": 2850
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "d139e87b25c906caeaaf23eb1cd90396d5778216f920446189d407a3aae45242",
+          "visiblePixels": 2769
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "fde9e57d0d52e9145c929c4a078407692667d33d3e711a872bae223e7c336593",
+          "visiblePixels": 2945
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "ea90e7bfd8f9792b29bd7f9f28feeec4c3aa003831b1c35e16d98df749e6f411",
+          "visiblePixels": 3201
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "2ddb4b6a09346a43a2cfac65d5a4d3e87958f5b04ed7a51c5d58fb627d85a400",
+          "visiblePixels": 3106
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771",
+          "visiblePixels": 3137
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "bd0303c7a0c24cc2733c1a58eb19d22f1d6bcd62b51430673ffe329007e69516",
+          "visiblePixels": 3066
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "18bd016eed3f1fbfb5dce5e3409d977c17607235f6efa334953b3c315cfd5f6b",
+          "visiblePixels": 3107
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "56b978d1c88ce6bd21ad67eb18a35d8a4a6f10392a657a31536dd2f85eea4103",
+          "visiblePixels": 3316
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "c89debe8d23b8ae25cd79d9d8e12a4363d18e45a0a36a702157ae4815d0b781e",
+          "visiblePixels": 3191
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "84c1badfbcb7a6a80917c162c53304034c74d08b5eadc1c7879da4d8e7a2d728",
+          "visiblePixels": 3017
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "58050c51eff2c7e797723bf99c272b5a38f4d5684d6bc69d40af74f59220990d",
+          "visiblePixels": 3267
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "80d98d7ba6de778e01eb1745d31f9565a079454e7139ddef4923b91b9759d8b7",
+          "visiblePixels": 3323
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "src": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "48384855ba76689be8bae3bf073f6e2f76b497f0ede32cc13c0fbc1bf6c39d78",
+          "visiblePixels": 2738
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "a8009d1fd4e57e6bf4618afcc02539838e19d0cb2bdd4a4bb3f9708b5653a00d",
+          "visiblePixels": 2429
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "d0a9c57051c0614d39a8df3acf039b12c261e3f4730da22bbc9e80e005c0e09f",
+          "visiblePixels": 2290
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "a2957b5c47a8f4ff9f4ee71020674618cd02b5f1d8b6574ca7c54b458a9b6dd6",
+          "visiblePixels": 2247
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "09b8caa5ae0065abe0eb8cf72745fcb69b4ac911e56e165c09b24aecb9a1d07c",
+          "visiblePixels": 2390
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "c6c843928369182ca923d77bd27afffef398dc1ea207529f43b6c3798921f891",
+          "visiblePixels": 2341
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "f1cbab8fe70dee4764792e1a06671919efd35e0daa57e26f6a49fa48825148b9",
+          "visiblePixels": 2460
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547",
+          "visiblePixels": 2471
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "37f8534a83d2e7663007d8df53273f8fba69a6166f986e5742ccf9d9188ab521",
+          "visiblePixels": 2776
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "a49088e782dbedb59023445bd6696d91c99c39ed82dea3d2bde23552e5b6c32e",
+          "visiblePixels": 2774
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "8804aa6d03e0b5c7913ad26ca7910578f3f06bde1df4641d54ee497875b19f8b",
+          "visiblePixels": 2557
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "f6e66f311f86af6bbe7dc10a46fe23e1920ed93516264628365c6be99c72bf7e",
+          "visiblePixels": 2939
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "fb89b3d1f4ac9d375fc0f739270f38ac80b4b018f32f9ed70cc9ed408b1994b8",
+          "visiblePixels": 2958
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "fd939a2e98e0b8851a9c9715e23c266bda1d6904d913b98d478d738423bcd66d",
+          "visiblePixels": 2517
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "8b012ce43ccd869f1d8c58a3424c5b80f8611c962dfad3b313cbb9cb721e5c6a",
+          "visiblePixels": 2594
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "src": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "1adbe3a32f8575c760fb4683b4df92e96e2af67c17a3767d2a924eff05517404",
+          "visiblePixels": 3059
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "c58284e99de666a5321f2fff40647506d58b0da44103b59b4d2054381b136e56",
+          "visiblePixels": 2815
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "325eb560525e5016006d136c35c7d27c7dad17118d629b9ab9c68584ab22454f",
+          "visiblePixels": 2965
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "8a6060d37fd2e63028a791d53ba43285b214006db52bbddf3ddc7214ec44f9f7",
+          "visiblePixels": 2642
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "f28f9de4d9ca7f1aba54ceb7b324267016b49bed962bd25a41296fab584758cb",
+          "visiblePixels": 2613
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "80bea4853e6e34f95f91d6164ae6db5a4c8298e347e96b067f983935e8620172",
+          "visiblePixels": 2812
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "a77fded1aa0d49d9a6bd6d0ff4a59301576b7a09d3ac4d6008598656366f8517",
+          "visiblePixels": 2749
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68",
+          "visiblePixels": 3031
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "b363b5ede70cbf6d60255354f78b0f10da4edabd17cb83a74cecee199b08843d",
+          "visiblePixels": 3060
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "1c3a27ef080df9993007d0e170b940e33043ba4de796a8dadcf9f36fa2284b52",
+          "visiblePixels": 2823
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "70a4133f77e289cac9815dd78203bf474112be926ce42613027bf849aa9298e3",
+          "visiblePixels": 2803
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "741d3620c22087c601df50920dec36b8e135c9e250e31cfc81752dd363ef9140",
+          "visiblePixels": 2845
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "c3518935fdf919319ea3fae5fbbc3a559b0ff07fe000d5d98379f451379da928",
+          "visiblePixels": 2740
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "2179ececb3fb20648a98996aca2f07705cdbdb416c46b84c7af96e71c6638f10",
+          "visiblePixels": 2819
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "b351da11c8c65cdab1f1399b551a558a5577dd59bfd12a3a6055632e7407fa85",
+          "visiblePixels": 2857
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "src": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "ed33937dd1499883d8fd60b5235942bbb58380c89d39c61397758ca4a6c98e9d",
+          "visiblePixels": 1854
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "8fcefd9514646ea9ec543f095e88d919794e688fee75c5cb22a4e0e0a624cf11",
+          "visiblePixels": 1931
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "b2da0058161eb6558a59ca6143174ce5b5aead02d085e086277d26af8da5b184",
+          "visiblePixels": 1956
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "7b2561b4380b8c308a7b36ecf9b519ec714093fd38e2c5490b87e8aa53ca8922",
+          "visiblePixels": 2089
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "af056ac58778bc178c182099779c4b2f8531b2a064de74d60b5b7485bca6f3e5",
+          "visiblePixels": 2035
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "5674953d2a83ed2e33081dd4b966eaad4a06aa1923a9036728b053721a59d779",
+          "visiblePixels": 2320
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "7d4ef2bd535389626fb71c5c62a8a756b009e8556a94c3caa6ccaf0de4dd88d1",
+          "visiblePixels": 2044
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845",
+          "visiblePixels": 2180
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "0b0c72f8688b8c020d3e494d36082d63eb6d146d669242bae3da58a2ef2202ba",
+          "visiblePixels": 2154
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "18aac98f3fe6ff4b0e608bbd2e086478646af47d1a724ec7c8cb0258787b1da2",
+          "visiblePixels": 2107
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "b61b3b7d396454a68c638a36eeb8b1567f0462531f9c62f6ce9082b164df85cd",
+          "visiblePixels": 2130
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "46f80ded1511ea3b29573f435ffc6a65ddfc6449994f98080ec2d80bc9bd617f",
+          "visiblePixels": 2159
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "4d43393502fecdc9726858732fc4f677f08837ab7dcd235bc01c8acdb04ec4e4",
+          "visiblePixels": 2164
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "e6583a5cca21e0289112a7eec88fc365fd814bad352b62ed3951b8e32a379fb9",
+          "visiblePixels": 2210
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "55b633a9c7dd4dd915ebe867ad0c88cff74413aa5b70c3c4b6ce5453268cc0f9",
+          "visiblePixels": 2255
+        }
+      ]
+    },
+    {
+      "athlete": "moxie-capwell",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "src": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "f38606db893b10e4f05f7e44260055fb4eb49754e11aa98200eb34e7c7ba4d7f",
+          "visiblePixels": 2647
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "b98bce3dd5d686f79ee98dd5a8448b2b70238c0a9a7ac365fdd16f17a9a08c7a",
+          "visiblePixels": 2119
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9c9e33a6cb5491e4708f78458b31a2524cc270834ea62edc2866455ff3924f5b",
+          "visiblePixels": 2361
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "641c18b57bcea9e7249314ad65292fc1695bc6f2d1bddd6029d4e1ff8e5dc0dd",
+          "visiblePixels": 2380
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "d82d95e5bd0a58afd4d5ab24225b63768839ee1be52825e08b76736dcc1dad88",
+          "visiblePixels": 2287
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "2ab03962eb0a1b752edb63b9a1a9f1a8e14e8fe62d600a3deb767d9448c45d82",
+          "visiblePixels": 2588
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "2b7432db06a17390f8566af2973e422bbbd0008f0a9fddacefeb95cdcab5776b",
+          "visiblePixels": 2525
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a",
+          "visiblePixels": 2477
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "9463dc53a66ff9242c91a857f8895f63c77bd300317447b8b870368928a40d1b",
+          "visiblePixels": 2400
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "a45e457ba23422f2ead3dc312f7f247a93bb177d1e9e71eb7587cd3835c4991c",
+          "visiblePixels": 2820
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "d3fc87666a0298017b296a1cc0f5bc99d1eb13ef2b507532c676f21e008153d8",
+          "visiblePixels": 3237
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "ed962b408603ecf645513fb37cea352832a583c35365cb2a1c3fdc877f605778",
+          "visiblePixels": 2880
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "7f4eeb25934984bed2a40a2cb386a64fe6480d329d12af7c1925e11baa2135a7",
+          "visiblePixels": 2734
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "9c166b04f3faea10c09ac8b0d26b25fb27f52600a9b69157f2cb6fe8c16e63bb",
+          "visiblePixels": 2499
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "b46f66828a51469736db5a52a339f587ab10c157b696dc2314545938b062aa48",
+          "visiblePixels": 2375
         }
       ]
     },

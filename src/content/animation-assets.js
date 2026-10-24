@@ -86855,6 +86855,6806 @@ export const animationAssetManifest = {
               "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "shoot": {
+            "src": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "20841c19902615f4942268cb907279f4e3428b4b84535cd63a2ba8385f017356"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "4e1c1f1086ffc5e595e1c1b77b45c8fdd8a3115231e3fe4e7ce2866a3c1e36f5"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "b3ed6ea700af9534d8fefd1eb24185d137403950c62cb27f4bad2c04449945cf"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "fab7bb7ad19571662531046ae1a18fa6f563afc1ea72ac6432bed63604ddf332"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "b3402f21c9f173fef2171d9fc6b7558d9d7ce48b5a065059c12a69d23917507d"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "3ce9e7115b25cb4de5b67e96b54cbebd1d34c1f82bed5405e0c014bb589b7497"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "7aac5579c4347ac931756c526a59e788d9958044eb226d39212458ccacdb3361"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "ca1dfe2057ebc84609bd84117d5e13a8ba2b5ebead61d9579723a0dee525ba15"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "c9b239e6561bb8dc5b7554c8a9ac6882f2419cc62854f62ee55329029a0334ff"
+              }
+            ],
+            "sha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "shoot",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-0022127e-43ac-45dd-8cdf-6c936fc7b63c",
+              "imageGenerationId": "exec-0022127e-43ac-45dd-8cdf-6c936fc7b63c",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-shoot10-generated-raw.png",
+              "sourceSha256": "07971d02ac397b29b43139c3c5d2c530e5f655f1226d1792a87f2e1a046ddfb0",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-shoot10-generated-raw.png",
+              "rawSourceSha256": "07971d02ac397b29b43139c3c5d2c530e5f655f1226d1792a87f2e1a046ddfb0",
+              "prompt": "Create an original 1536×1024 true-transparent RGBA production sprite sheet for JAMVERSE ’96: Moxie Capwell of Moonmorel Hex performing a right-facing jump shot. Match both supplied canon references closely. Moxie is an adult human woman with pale skin, lavender-purple eyes, and very long, thick lavender hair gathered into a high ponytail with a small gold hair tie. She has a focused, confident face and mature athletic human proportions. Her uniform is purple and silver with white side panels, purple wristbands, and purple high-top basketball shoes. Preserve her same face, eye color, hair length and silhouette, ponytail, gold tie, uniform palette and body scale in every pose. Keep normal human hands, two arms and two legs. Do not substitute a man, witch hat, beard, different athlete, monster, robot or costume.\n\nRender crisp, readable, chunky late-1990s arcade basketball sprite art with clean pixel-cel shading, consistent camera and proportions. Output one sheet exactly 1536×1024 with ten distinct full-body poses in a strict 5-column by 2-row grid, read left-to-right, top-to-bottom. One separate pose per cell; broad transparent gutters and outer margin; no touching or clipping. Show complete hair, hands, fingers, feet and shoes in all cells. Each pose should be connected and anatomically sound.\n\nThe basketball is rendered separately by the game. Never draw any basketball, sphere, orb, circle, ball seams, hoop, rim, floor, court, ground shadow, glow, motion effect, text, label, border, teammate or scenery. Keep both hands empty in every pose.\n\nPose order:\n0 balanced right-facing ready stance, hands loose near waist, knees soft;\n1 gather begins, feet set and both hands come near the shooting side, still empty;\n2 compact crouch and load, elbows bend, empty hands frame an invisible ball at chest;\n3 rise from the crouch, knees extend, ball-miming hands move upward;\n4 jump begins, shooting hand lifts beside and above the head while guide hand stays naturally beside it;\n5 single release at simulation tick13, at the jump apex, shooting arm fully extends up and forward with an open, empty hand, guide hand opens away from the ball;\n6 clear high follow-through, wrist flexed, body still airborne, ponytail flowing naturally;\n7 descent, shooting arm relaxes while knees lower;\n8 land with both feet and flexed knees, arms settling;\n9 calm upright recovery, both hands empty, facing right.\n\nKeep Moxie’s ponytail and all hands clear of the head silhouette in every pose. The release reaches naturally above the head without hiding her eyes or face. Make every pose visibly distinct and preserve the clean high ponytail outline. Use true alpha-zero background and gutters; no alpha haze, checkerboard, backdrop, matte, speckles or colored halo. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separately rendered ball rises from chest to her release palm at pose5/tick13, then travels out of frame. No ball is painted into any pose.",
+              "ballTrack": {
+                "height": [
+                  1.1,
+                  1.35,
+                  1.7,
+                  2.1,
+                  2.6,
+                  3,
+                  3.25,
+                  2.8,
+                  1.2,
+                  0.8
+                ],
+                "forward": [
+                  5,
+                  5,
+                  3,
+                  4,
+                  6,
+                  7,
+                  5,
+                  1,
+                  1,
+                  4
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Ten distinct complete right-facing adult human jump-shot poses. Moxie’s pale skin, lavender eyes, long high ponytail with gold tie, purple/silver uniform and purple shoes match both supplied canon references. No basketball appears. Pose5 is the only release at tick13; all bodies and ponytails fit their cells."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 25,
+                  "y": 84,
+                  "w": 241,
+                  "h": 406,
+                  "component": 3,
+                  "area": 47693
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 352,
+                  "y": 104,
+                  "w": 231,
+                  "h": 386,
+                  "component": 4,
+                  "area": 46307
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 650,
+                  "y": 128,
+                  "w": 248,
+                  "h": 362,
+                  "component": 5,
+                  "area": 49276
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 964,
+                  "y": 75,
+                  "w": 225,
+                  "h": 415,
+                  "component": 2,
+                  "area": 48422
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1247,
+                  "y": 18,
+                  "w": 250,
+                  "h": 469,
+                  "component": 1,
+                  "area": 50476
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 37,
+                  "y": 507,
+                  "w": 276,
+                  "h": 468,
+                  "component": 6,
+                  "area": 49156
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 328,
+                  "y": 530,
+                  "w": 288,
+                  "h": 449,
+                  "component": 7,
+                  "area": 49898
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 632,
+                  "y": 577,
+                  "w": 279,
+                  "h": 398,
+                  "component": 9,
+                  "area": 49928
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 949,
+                  "y": 605,
+                  "w": 258,
+                  "h": 386,
+                  "component": 10,
+                  "area": 48566
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1257,
+                  "y": 550,
+                  "w": 247,
+                  "h": 441,
+                  "component": 8,
+                  "area": 48550
+                }
+              ],
+              "uniformScale": 0.19616204690831557,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 64x96 cells; baseline94; lossless WebP; 10 original shoot poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "9f0d36a2dcd7e105f808b61b97b72a9782c9532c58eeee248621422462fdb7ee",
+                "atlasSha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 10,
+                  "right": 10,
+                  "top": 20,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  1.35,
+                  1.7,
+                  2.1,
+                  2.6,
+                  3,
+                  3.25,
+                  2.8,
+                  1.2,
+                  0.8
+                ],
+                "forward": [
+                  5,
+                  5,
+                  3,
+                  4,
+                  6,
+                  7,
+                  5,
+                  1,
+                  1,
+                  4
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "pass": {
+            "src": "./public/assets/animation/moxie-capwell-pass-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9af1160f941fb04d0a33be4d2b1f8dc655042111b7cecbebcfd3394a6d98d318"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d2f0bff5a4a1ee9a8afe10e4ad714e91fed5a3ead6857cb9ed12a0f7751c1951"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5932f091a45e628dcd2b307ea0d19046b442d08dce1b17710d0b2d4379d96d68"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "55ab7172009b2e14b550ea4da67f707602a0648163db79fc0c2afd234a8c24dd"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "58f6f955ee99cdc48538a4e6129b3c0e2a279d93451073ae5fc0c1353d3f6b8e"
+              }
+            ],
+            "sha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "pass",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-5c67223e-5072-4d01-960c-567968357ef1",
+              "imageGenerationId": "exec-5c67223e-5072-4d01-960c-567968357ef1",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-pass6-generated-raw.png",
+              "sourceSha256": "ff554523855fd5abeee6c165ccafd94426d07461b2c10edaa56f51bc3758db92",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pass6-generated-raw.png",
+              "rawSourceSha256": "ff554523855fd5abeee6c165ccafd94426d07461b2c10edaa56f51bc3758db92",
+              "prompt": "Create one original 1536×1024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing chest pass. Use the attached canon portrait and gameplay references. Moxie is the same adult human woman: pale skin, lavender-purple eyes, long thick lavender hair gathered into a high ponytail with a small gold hair tie, athletic mature proportions, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve her face, ponytail silhouette, gold tie, palette and anatomy through every pose. Keep two ordinary arms, two hands, two legs and two shoes. No male, witch hat, beard, monster, robot or costume.\n\nDraw crisp readable late-1990s arcade basketball art with clean dark pixel-cel outlines, consistent scale and camera. Arrange exactly six distinct complete full-body poses in a strict 3-column by 2-row grid, row-major, with broad true-transparent gutters and outer margins. One pose per cell; no overlap, touching, clipping or cropping. Hands remain empty at all times: the basketball is a separate game object and must never be drawn. No hoop, rim, court, floor, shadows, glow, effects, text, labels, border, teammate or scenery.\n\nPass sequence:\n0 ready stance, facing right, hands near chest;\n1 step into a balanced pass, hips and shoulders prepare, hands close but not touching;\n2 rotate the shoulders and load both empty hands beside the chest;\n3 RELEASE at simulation tick5: Moxie extends both arms toward image-right with open empty hands and a clear chest-pass follow-through;\n4 arms continue forward, fingers open, weight shifts onto the lead foot;\n5 balanced recovery with hands lowering and feet set.\n\nAll six poses must differ clearly and connect mechanically. Keep the ponytail clear of the face and shoulders. Preserve the same Moxie identity and uniform in all poses. Output only the transparent sprite sheet with real alpha-zero background, no haze, checkerboard, matte, speckles or colored halo.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separately rendered basketball travels from her chest to her open hands, releases at frame3/tick5, then continues forward. The ball never appears in the poses.",
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  1.15,
+                  1.25,
+                  0.95,
+                  0.8,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  6,
+                  8,
+                  14,
+                  14,
+                  8
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Six distinct complete right-facing human chest-pass poses. Moxie’s pale skin, lavender eyes, long high lavender ponytail and gold tie, purple/silver uniform and human anatomy match her supplied canon references. No basketball appears. Frame3 is the sole release at tick5; both full bodies and ponytails fit the source cells."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 94,
+                  "y": 10,
+                  "w": 339,
+                  "h": 488,
+                  "component": 1,
+                  "area": 76731
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 609,
+                  "y": 23,
+                  "w": 345,
+                  "h": 475,
+                  "component": 3,
+                  "area": 73781
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1092,
+                  "y": 16,
+                  "w": 347,
+                  "h": 487,
+                  "component": 2,
+                  "area": 75392
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 45,
+                  "y": 526,
+                  "w": 488,
+                  "h": 472,
+                  "component": 4,
+                  "area": 83729
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 554,
+                  "y": 536,
+                  "w": 448,
+                  "h": 462,
+                  "component": 6,
+                  "area": 78462
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1126,
+                  "y": 532,
+                  "w": 364,
+                  "h": 466,
+                  "component": 5,
+                  "area": 71412
+                }
+              ],
+              "uniformScale": 0.1885245901639344,
+              "componentIsolation": true,
+              "packaging": "package-action6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "8cf7cfe60fd08d8b62a7533c90ebb640846c8cec19229a92913dd575101e6fd8",
+                "atlasSha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 18,
+                  "right": 18,
+                  "top": 8,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.05,
+                  1.15,
+                  1.25,
+                  0.95,
+                  0.8,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  6,
+                  8,
+                  14,
+                  14,
+                  8
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "pass-overhead": {
+            "src": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "0584e53423f21d69b3b408ce2ed3d7624a898f25ddeaa2c220d70efc4fde1728"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "0c81681f7cdfc284bc2dcc859fd1dd10b887100ac2558fa466044d8068508c19"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "e355ec093724ca6f005018f8edd3a56cdfb01cbaf9e3a65faaadc9bdd1823b71"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "88611c22180113eebc2da39ec9d54460b5ccd65b9eb33d20de097b0227e03ad0"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "46ce92ad19f17034f7436a34d9460b65bcb14744ebc81693f2c1fc975e175f8c"
+              }
+            ],
+            "sha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "pass-overhead",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-c8aba9b0-336b-4e02-8334-2be7878c99b1",
+              "imageGenerationId": "exec-c8aba9b0-336b-4e02-8334-2be7878c99b1",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-pass-overhead6-generated-raw.png",
+              "sourceSha256": "c9777d9e7915136acdef32b179236d35170b74b0631a548d35dffcc29602e020",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pass-overhead6-generated-raw.png",
+              "rawSourceSha256": "c9777d9e7915136acdef32b179236d35170b74b0631a548d35dffcc29602e020",
+              "prompt": "Create one original 1536×1024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing overhead pass. Match the supplied portrait and gameplay references. Moxie is the same adult human woman with pale skin, lavender-purple eyes, long thick lavender hair in a high ponytail with a small gold hair tie, athletic mature anatomy, purple/silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve her face, ponytail silhouette, gold tie and colors. No male, witch hat, beard, monster, robot, costume or different athlete.\n\nDraw clean, readable, chunky 1990s arcade basketball pixel-cel art, consistent camera and scale. Exactly six distinct complete full-body poses in a strict 3-column by 2-row row-major grid, one pose per cell. True transparent RGBA gutters and broad outer margins; never clip or overlap ponytail, hands, body or shoes. The ball is a separate game object: draw no basketball, orb, sphere or seams. No hoop, rim, court, floor, shadows, glow, effects, words, labels, border, teammate or background. Both hands are empty in every pose.\n\nSequence:\n0 right-facing ready stance, relaxed elbows;\n1 set feet and shift weight, lift both empty hands toward the forehead;\n2 raise hands overhead, elbows bent, fingers open around empty air;\n3 single RELEASE at simulation tick7: both arms fully extend overhead and slightly forward, palms open after sending the invisible ball;\n4 clean overhead follow-through, wrists flexed, ponytail flows back;\n5 return to a stable balanced stance, arms lower.\n\nMake poses distinct and mechanically connected, with both arms and hands clearly readable. Keep Moxie’s face and lavender eyes visible; hands must not cover the ponytail tie or hairline. Retain the exact canon palette and adult human anatomy. Output only the sprite sheet with alpha-zero exterior, no matte, checkerboard, halo or speckles.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separate ball rises overhead into her open hands, releases at frame3/tick7 and continues forward. The poses contain no basketball.",
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  1.35,
+                  2,
+                  2.8,
+                  2.5,
+                  1.4
+                ],
+                "forward": [
+                  6,
+                  5,
+                  4,
+                  8,
+                  10,
+                  7
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Six distinct complete right-facing overhead-pass poses. Moxie’s pale skin, lavender eyes, high lavender ponytail/gold tie, purple/silver kit and human anatomy remain consistent with both canon references. No ball appears. Frame3 is the sole tick7 release; the face stays readable."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 143,
+                  "y": 41,
+                  "w": 314,
+                  "h": 450,
+                  "component": 2,
+                  "area": 61255
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 641,
+                  "y": 60,
+                  "w": 286,
+                  "h": 431,
+                  "component": 3,
+                  "area": 66036
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1114,
+                  "y": 6,
+                  "w": 281,
+                  "h": 485,
+                  "component": 1,
+                  "area": 67097
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 129,
+                  "y": 494,
+                  "w": 368,
+                  "h": 511,
+                  "component": 4,
+                  "area": 67150
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 597,
+                  "y": 511,
+                  "w": 367,
+                  "h": 494,
+                  "component": 5,
+                  "area": 68647
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1134,
+                  "y": 577,
+                  "w": 305,
+                  "h": 428,
+                  "component": 6,
+                  "area": 61658
+                }
+              ],
+              "uniformScale": 0.18003913894324852,
+              "componentIsolation": true,
+              "packaging": "package-action6.py; 80x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "86c24df1f4c433c6a71afda017102a762a991a9122ac5d297613ba41f7ba594f",
+                "atlasSha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 8,
+                  "right": 8,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 15,
+                  "right": 15,
+                  "top": 14,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.05,
+                  1.35,
+                  2,
+                  2.8,
+                  2.5,
+                  1.4
+                ],
+                "forward": [
+                  6,
+                  5,
+                  4,
+                  8,
+                  10,
+                  7
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "pass-behind": {
+            "src": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "63b161a43e47ee945468cc4b883d794928fb7039dbd48a11769e69ca63476014"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "430b620046af35dd2ce04071c7a14f98d519d5e3804b784a6a8af2f0553d2421"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "76279db48d9e9280fc2e86817ef617bd3c4e2e4c850827379cfd6de64a7e71ed"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "da71dbf80c731f2d04c959b2c640c04e246476bf5cf5e112c312f8aeb875a203"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "194903538c40259ec337b72940c560f4b21aa4707a73f3ca97d221183273df63"
+              }
+            ],
+            "sha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "pass-behind",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-a90d7041-d4cf-49ca-a4df-6a1bff91ec40",
+              "imageGenerationId": "exec-a90d7041-d4cf-49ca-a4df-6a1bff91ec40",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-pass-behind6-generated-raw.png",
+              "sourceSha256": "7742c0841efccb9ed5c23b987f85134ac21421fdefbd495fbeb5160b8a11c195",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pass-behind6-generated-raw.png",
+              "rawSourceSha256": "7742c0841efccb9ed5c23b987f85134ac21421fdefbd495fbeb5160b8a11c195",
+              "prompt": "Create one original 1536×1024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing behind-the-back pass. Match both supplied canon references. Moxie is the same adult human woman with pale skin, lavender-purple eyes, long thick lavender hair in a high ponytail tied with a small gold band, mature athletic human anatomy, purple/silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve her face, ponytail silhouette, tie, colors and proportions across all six drawings. No male, witch hat, beard, monster, robot or different athlete.\n\nUse crisp, readable 1990s arcade basketball sprite art with chunky pixel-cel shading and consistent camera/scale. Output six distinct full-body poses in a strict 3-column by 2-row row-major grid. Exactly one complete figure per cell, full ponytail to shoes, with broad transparent gutters and outer margins; no overlap, touching, clipping or crops. Keep both hands empty: basketball is always a separate game object, never drawn. No ball, sphere, seams, hoop, rim, court, floor, ground shadow, glow, effects, text, labels, borders, teammate or scenery.\n\nThis is a behind-the-back pass, visibly different from a chest pass. Sequence:\n0 ready right-facing stance, arms relaxed;\n1 gather stance, bring hands low toward the hip while rotating shoulders;\n2 one empty ball-miming hand sweeps behind Moxie’s lower back, torso turns enough to show the pass path, other arm balances;\n3 RELEASE at simulation tick7: the far-side hand whips from behind her back toward image-right with open empty fingers;\n4 arm follows through out from behind her body, shoulders unwind, hair trails naturally;\n5 balanced recovery, both empty hands visible and feet settled.\n\nAll six poses should be distinct and connected, with clear human anatomy and no hand, wrist, hair or arm overlap that hides her silhouette. Preserve Moxie’s canon face, lavender eyes, high ponytail and gold tie, purple/silver uniform, wristbands and shoes. Return only a true-transparent RGBA sprite sheet with clean alpha-zero gutters and no haze, matte, checkerboard, speckles or colored halo.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separate basketball follows her hand behind the waist and releases backward at frame3/tick7. No ball is drawn in the poses.",
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  0.9,
+                  0.8,
+                  0.8,
+                  0.8,
+                  0.8
+                ],
+                "forward": [
+                  5,
+                  -3,
+                  -12,
+                  -14,
+                  -8,
+                  4
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Six distinct complete Moxie human poses. The high lavender ponytail and gold tie, pale face, adult human anatomy, purple/silver uniform and shoes remain consistent with the canon refs. Torso turns to show a behind-the-back sweep; one open hand releases backward at frame3/tick7. No ball appears."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 90,
+                  "y": 13,
+                  "w": 384,
+                  "h": 488,
+                  "component": 1,
+                  "area": 81357
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 643,
+                  "y": 30,
+                  "w": 368,
+                  "h": 469,
+                  "component": 3,
+                  "area": 73281
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1123,
+                  "y": 13,
+                  "w": 380,
+                  "h": 480,
+                  "component": 2,
+                  "area": 78384
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 56,
+                  "y": 520,
+                  "w": 514,
+                  "h": 476,
+                  "component": 4,
+                  "area": 86256
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 611,
+                  "y": 520,
+                  "w": 477,
+                  "h": 476,
+                  "component": 5,
+                  "area": 81477
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1147,
+                  "y": 525,
+                  "w": 373,
+                  "h": 470,
+                  "component": 6,
+                  "area": 78600
+                }
+              ],
+              "uniformScale": 0.1885245901639344,
+              "componentIsolation": true,
+              "packaging": "package-action6.py; 112x96 cells; baseline94; lossless WebP; 6 original pass-behind poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "6c6511c529012ff8c8f721ddc8e4fd262ac946b0e51255ee1e298912d0ce7a7e",
+                "atlasSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 9,
+                  "right": 10,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 22,
+                  "right": 23,
+                  "top": 5,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.05,
+                  0.9,
+                  0.8,
+                  0.8,
+                  0.8,
+                  0.8
+                ],
+                "forward": [
+                  5,
+                  -3,
+                  -12,
+                  -14,
+                  -8,
+                  4
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "receive": {
+            "src": "./public/assets/animation/moxie-capwell-receive-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8ce5087c5650c2b4a3ef919bf7481f125b0fb57371253272d17b26f8693c8bb6"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "d95623778608badf02e83b0f31baed592959c5a61f854aa554510e883755aae0"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "4ac19b62e09b6909addf5fb45acf76aa0cdc7dc2a3d55ea30aa0d22ec9162d02"
+              }
+            ],
+            "sha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "receive",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-3cee8735-2f4f-422c-868a-c3269ddbd59c",
+              "imageGenerationId": "exec-3cee8735-2f4f-422c-868a-c3269ddbd59c",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-receive4-generated-raw.png",
+              "sourceSha256": "6eb3ef65d9ddb503bef67dc8b957f2ba3af62116c2d8bdbe213d328430bef6a1",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-receive4-generated-raw.png",
+              "rawSourceSha256": "6eb3ef65d9ddb503bef67dc8b957f2ba3af62116c2d8bdbe213d328430bef6a1",
+              "prompt": "Create one original 1536×1024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing basketball receive/catch. Use both supplied canon references. Moxie is an adult human woman with pale skin, lavender-purple eyes, a very long thick lavender ponytail tied high with a small gold band, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Preserve her face, eye color, ponytail shape/tie, clothing and natural human anatomy. No witch hat, beard, male, monster, robot or different athlete.\n\nDraw clean readable chunky 1990s arcade pixel-cel art, consistent scale and camera. Exactly four distinct complete full-body poses in a 2-column by 2-row grid, row-major, broad transparent gutters and margins. One figure per cell, no touches, crop or overlap. All hands are empty: the basketball is separate game art; do not draw ball, sphere, seams or prop. No hoop, rim, court, floor, shadow, glow, effects, text, labels, borders, teammate or scenery.\n\n0 balanced ready stance, hands open at chest height, facing right;\n1 arms reach forward to receive an incoming pass, palms facing each other;\n2 CATCH at simulation tick4: both empty hands close around the imagined ball at chest level, fingers open and clearly readable;\n3 draw the imagined ball softly into chest, elbows bend, feet regain balance.\n\nMake all poses distinct and connected, with the catch pose aligned to the hands and no limbs crossing the face or ponytail. Keep the high lavender ponytail, gold tie, adult human build, white side panels, purple uniform and shoes consistent. Return only a true-transparent RGBA sheet with alpha-zero background and no haze, matte, checkerboard, speckles or colored halo.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separate basketball approaches chest height; both empty hands meet it at frame2/tick4, then draw it in to her chest. No ball is baked into the poses.",
+              "ballTrack": {
+                "height": [
+                  1.2,
+                  1.45,
+                  1.5,
+                  1.35
+                ],
+                "forward": [
+                  5,
+                  10,
+                  12,
+                  8
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Four distinct complete right-facing Moxie receive poses with readable catch at frame2/tick4. Canon lavender eyes, long high ponytail/gold tie, purple/silver uniform, adult human anatomy and shoes are consistent. The separate ball is not drawn."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 267,
+                  "y": 20,
+                  "w": 363,
+                  "h": 487,
+                  "component": 1,
+                  "area": 81950
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 828,
+                  "y": 39,
+                  "w": 560,
+                  "h": 470,
+                  "component": 2,
+                  "area": 85459
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 255,
+                  "y": 522,
+                  "w": 369,
+                  "h": 476,
+                  "component": 4,
+                  "area": 81233
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 903,
+                  "y": 518,
+                  "w": 342,
+                  "h": 484,
+                  "component": 3,
+                  "area": 79941
+                }
+              ],
+              "uniformScale": 0.188911704312115,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 112x96 cells; baseline94; lossless WebP; 4 original receive poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "9f2a82b283a215164e26387cf8081e36b57238d42e3b3f4dd574fca1402a7b76",
+                "atlasSha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 25,
+                  "right": 26,
+                  "top": 5,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.2,
+                  1.45,
+                  1.5,
+                  1.35
+                ],
+                "forward": [
+                  5,
+                  10,
+                  12,
+                  8
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "pickup": {
+            "src": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "dbcaf5e016fde1a83ae8c2e7dc715db810700c492edc2449955390614bab4914"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "18ee3442259f6896a0fa61c8dbd1ee50a330f22a2620b6b82e3b3b6a8623383b"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "cd1f867562c319aa5a1d14fb6eb43d18cf4150474077f7181cb3c9a87cebde6a"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "83c1380b785d38ebb2ae41d8e44cc3ae84688e968def0d75b339f72c7a6492ed"
+              }
+            ],
+            "sha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "pickup",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-55175b08-95bb-49ba-82b0-e2d32f6b17ab",
+              "imageGenerationId": "exec-55175b08-95bb-49ba-82b0-e2d32f6b17ab",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-pickup5-generated-raw.png",
+              "sourceSha256": "434ee5abe32212f970a05009e73d5ae1d524d2fd1cbdec89aa59330a87811ca0",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pickup5-generated-raw.png",
+              "rawSourceSha256": "434ee5abe32212f970a05009e73d5ae1d524d2fd1cbdec89aa59330a87811ca0",
+              "prompt": "Create one original transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing ball pickup. Use both supplied canon references. Moxie is the same adult human woman with pale skin, lavender-purple eyes, extremely long thick lavender hair in a high ponytail with a small gold tie, athletic adult proportions, purple/silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve face, eyes, ponytail, tie, palette and anatomy. No witch hat, beard, male, monster, robot or different athlete.\n\nDraw readable 1990s arcade basketball art with crisp pixel-cel edges, consistent camera and size. Place five distinct complete full-body Moxie poses in a strict 3-column by 2-row sheet, row-major; the bottom-right sixth cell stays completely transparent and empty. Broad transparent gutters and outer margins. No body part may touch, overlap, or cross a cell boundary. Keep ponytail and hands fully in their cell.\n\nThe separate basketball is never drawn. No ball, sphere, seams, prop, floor, court, hoop, shadow, glow, text, label, border, teammate, opponent or scenery. Both hands are empty in every pose.\n\n0 upright ready stance, eyes on a loose ball implied near the floor;\n1 bend knees and hips, reach one open empty hand toward the ground;\n2 deep athletic crouch, fingertips approach court level, other hand balances;\n3 TOUCH at simulation tick7: fingertips make pickup contact at floor level while remaining visibly empty, knees flexed and back stable;\n4 lift the imaginary ball from the floor and rise into a balanced ready posture.\n\nAll five poses are connected and clearly distinct. Preserve full human anatomy and Moxie’s high ponytail/gold tie, purple-silver uniform and purple shoes. Return only transparent RGBA, with alpha-zero background/gutters and no halo, haze, matte, checkerboard or speckles.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separate basketball is near the floor on approach, met by her empty fingertips at frame3/tick7, then rises with her to chest level. Never painted into the poses.",
+              "ballTrack": {
+                "height": [
+                  0.55,
+                  0.35,
+                  0.15,
+                  0,
+                  0.75
+                ],
+                "forward": [
+                  7,
+                  8,
+                  12,
+                  14,
+                  9
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Five distinct complete Moxie pickup poses. Her pale adult human face, lavender eyes, long high lavender ponytail/gold tie, purple/silver kit and shoes are intact. Figure5 touches court with open empty fingertips at frame3/tick7. Bottom-right cell stays empty; no ball or prop appears."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 78,
+                  "y": 10,
+                  "w": 360,
+                  "h": 479,
+                  "component": 1,
+                  "area": 83432
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 589,
+                  "y": 82,
+                  "w": 394,
+                  "h": 406,
+                  "component": 2,
+                  "area": 79605
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1091,
+                  "y": 136,
+                  "w": 422,
+                  "h": 355,
+                  "component": 3,
+                  "area": 80448
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 80,
+                  "y": 627,
+                  "w": 386,
+                  "h": 358,
+                  "component": 5,
+                  "area": 79178
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 604,
+                  "y": 525,
+                  "w": 360,
+                  "h": 458,
+                  "component": 4,
+                  "area": 82057
+                }
+              ],
+              "uniformScale": 0.19206680584551147,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "d2d50ba537d6b7991a22efd610fd42a30cfa104062167544ce3e5e282423b32b",
+                "atlasSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 7,
+                  "right": 8,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 16,
+                  "right": 16,
+                  "top": 23,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  0.55,
+                  0.35,
+                  0.15,
+                  0,
+                  0.75
+                ],
+                "forward": [
+                  7,
+                  8,
+                  12,
+                  14,
+                  9
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "layup": {
+            "src": "./public/assets/animation/moxie-capwell-layup-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "0285cb860199dea41b86036d0514379156d319438c028c6c8e7988c8d7f47b9a"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "37be52253aa9fd7e215253c73bf0da156d982e8feca83df8aa19d3bd87efa61b"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "108b7c3ab9003b0d7f9d93a9a3485576e55eae6a0bf1acdeabfd3d9a95de9782"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "02f7753c62ef01e0c37879f3aa15aa30a049b905f870ec90138bc9d04ca40d45"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "f0cbcdc5d83a0944c7f1c1e8a558ea2c5f453b11e0c668152ac1075526ed849d"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "d5e85007a4e53b40a24b202ed1986f05d03bb117062394053d7ba76d3f60fdd9"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "15ec01cd62fd378f9b345b819047727e0b75f6e6c0a9797f72709acea8d038df"
+              }
+            ],
+            "sha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "layup",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-eb472609-aa8e-4142-b2ae-f6a5b7438f2d",
+              "imageGenerationId": "exec-eb472609-aa8e-4142-b2ae-f6a5b7438f2d",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-layup8-generated-raw.png",
+              "sourceSha256": "6e4623d84deb5ce102b48e40b46ff7c4600f476624ac45c48a3696c1774d368a",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-layup8-generated-raw.png",
+              "rawSourceSha256": "6e4623d84deb5ce102b48e40b46ff7c4600f476624ac45c48a3696c1774d368a",
+              "prompt": "Create one original 1536×1024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing one-handed layup. Use the supplied canon portrait and gameplay references. Moxie is an adult human woman with pale skin, lavender-purple eyes, a very long thick lavender high ponytail tied with a small gold tie, mature athletic proportions, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes. Keep her face, eyes, hair, ponytail tie, kit and human anatomy consistent. No witch hat, beard, male, monster, robot or other character.\n\nDraw crisp late-1990s arcade basketball sprite art with a clean outline, readable limbs and consistent scale. Exactly eight distinct complete full-body poses in a strict 4-column by 2-row grid, row-major; one pose per cell with broad alpha-zero gutters and outer margins. Never clip or overlap her ponytail, hands, feet or shoes. The basketball remains separate: never draw a ball, sphere, seams, hoop, rim, court, floor, shadow, glow, effect, text, labels, border, teammate or background. Both hands empty in all poses.\n\n0 right-facing controlled approach toward the basket;\n1 step and plant for a layup, eyes toward the target;\n2 push off the outside foot and rise;\n3 airborne, knees lift, shooting-side hand brings imaginary ball toward the head;\n4 single layup RELEASE at the apex at simulation tick9, shooting arm reaches high toward an implied rim with open empty palm;\n5 extended follow-through, guide arm balances and ponytail trails;\n6 descend under control, legs begin to extend;\n7 land with flexed knees and recover upright.\n\nUse believable athletic takeoff and reach with full human limbs. Keep the high lavender ponytail/gold tie and face unobstructed by the shooting arm; do not put fingers into the hair. Show all eight poses distinct and connected. Return only clean true-transparent RGBA sprites, no checkerboard, haze, matte, speckles or halo.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separate ball is carried through the layup gather, reaches her open right hand at the frame4/tick9 release, then follows through above the rim. No ball is drawn into the source.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  0.9,
+                  1.3,
+                  2,
+                  2.8,
+                  2.6,
+                  1.4,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  8,
+                  10,
+                  13,
+                  10,
+                  5,
+                  6
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eight distinct complete human layup poses. Moxie’s pale face, lavender eyes, long high ponytail/gold tie, purple/silver kit and shoes remain consistent. She approaches, rises, extends one empty hand at the frame4/tick9 layup release, follows through and lands. No ball is drawn."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 16,
+                  "y": 78,
+                  "w": 389,
+                  "h": 399,
+                  "component": 3,
+                  "area": 64255
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 459,
+                  "y": 85,
+                  "w": 338,
+                  "h": 405,
+                  "component": 4,
+                  "area": 60952
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 843,
+                  "y": 50,
+                  "w": 324,
+                  "h": 447,
+                  "component": 2,
+                  "area": 57612
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1193,
+                  "y": 9,
+                  "w": 322,
+                  "h": 481,
+                  "component": 1,
+                  "area": 58658
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 49,
+                  "y": 479,
+                  "w": 358,
+                  "h": 511,
+                  "component": 6,
+                  "area": 60296
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 457,
+                  "y": 512,
+                  "w": 332,
+                  "h": 479,
+                  "component": 7,
+                  "area": 54584
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 842,
+                  "y": 543,
+                  "w": 311,
+                  "h": 450,
+                  "component": 8,
+                  "area": 56449
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1215,
+                  "y": 642,
+                  "w": 274,
+                  "h": 357,
+                  "component": 9,
+                  "area": 49891
+                }
+              ],
+              "uniformScale": 0.18003913894324852,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "d0bac26359b57ecbb412377210355b75c4740dab784ccabe15277099a344202f",
+                "atlasSha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 15,
+                  "right": 16,
+                  "top": 27,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  0.9,
+                  1.3,
+                  2,
+                  2.8,
+                  2.6,
+                  1.4,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  8,
+                  10,
+                  13,
+                  10,
+                  5,
+                  6
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "layup-reverse": {
+            "src": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "7a6ea120ebf79d5da557e0e543f1bb750d503415551667a9db18b9b94a6393e4"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "6495bdffad7e1fd32704754e6285f30576e98fcdcdea4eb233a82f06663b7e08"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "0724c6c51e0ad8d48bee67aba7f5141236e24939e1f1f7e1384593d62204a5cb"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "af2cd6e5788ed34629f9903578e3c48376fe94050baa8153f5d69e0b9b9f7c39"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "b88d783b042d933fac0d8a3f472d55831e404a8256dd4f3e6e6bea32c54bf676"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "83b3ca61dd4169656129ef62aad70022446eeb99d8ae4e3877c3c45021bfcfd0"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "9edf0e04de7768ff24859cb31e58f6714cb500170c6502ad8601fd932260a9aa"
+              }
+            ],
+            "sha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "layup-reverse",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-240ac8ef-79fe-480e-b364-db17dd1d9ba6",
+              "imageGenerationId": "exec-240ac8ef-79fe-480e-b364-db17dd1d9ba6",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-layup-reverse8-generated-raw.png",
+              "sourceSha256": "94fac73c0b534ca4dfb9e43fd434e806081f88913921f5d1705cfd97e71b2f78",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-layup-reverse8-generated-raw.png",
+              "rawSourceSha256": "94fac73c0b534ca4dfb9e43fd434e806081f88913921f5d1705cfd97e71b2f78",
+              "prompt": "Create one original 1536×1024 true-transparent RGBA production spritesheet for Moxie Capwell of Moonmorel Hex performing a right-facing reverse layup. Follow the supplied canon portrait and gameplay references. She is an adult human woman with pale skin, lavender-purple eyes, very long thick lavender hair in a high ponytail with a small gold hair tie, athletic mature proportions, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Maintain her face, eyes, ponytail silhouette, gold tie, kit palette and normal human anatomy in all poses. No witch hat, beard, male, monster, robot or replacement character.\n\nDraw clean chunky late-1990s arcade pixel-cel basketball art with consistent scale and camera. Exactly eight distinct complete full-body poses in a strict 4-column by 2-row, left-to-right row-major grid. Broad true-transparent gutters and outer margins; no pose may overlap or clip its hair, hand, foot or shoes. The basketball is separate and never drawn. No ball, sphere, seams, hoop, rim, floor, court, shadow, glow, effects, text, labels, borders, teammate or scenery. Hands always empty.\n\nThe action is a reverse-side finish, clearly different from a normal layup:\n0 approach toward the basket from the right;\n1 gather and plant, eyes toward the basket;\n2 drive up off the outside leg, knees rising;\n3 in the air, turn shoulders away from the rim while taking the invisible ball around the body;\n4 reach backward with the far-side shooting hand behind the head, ponytail stays distinct;\n5 single reverse-layup RELEASE at simulation tick12, arm extends backward/up toward the opposite side of the rim, palm visibly open and empty;\n6 continue empty-handed reverse-side follow-through as the torso unwinds;\n7 land under control, knees flexed, recover to a ready stance.\n\nKeep the entire ponytail and gold tie visible. Do not let the shooting arm cross or conceal her eyes. Use physically believable athletic movement and distinct poses with a readable torso turn. No character or uniform redesign. Return only one transparent RGBA sheet; alpha zero outside the figures, no haze, matte, checkerboard, speckles or colored fringe.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separate ball follows the reverse gather, travels behind the far side and reaches her open far-side hand for frame5/tick12 release; never drawn into the poses.",
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  1.25,
+                  1.6,
+                  2,
+                  2.2,
+                  2.4,
+                  1.2,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  6,
+                  3,
+                  -3,
+                  8,
+                  5,
+                  5
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eight distinct complete Moxie reverse-layup poses. Her identity, adult human anatomy, long lavender ponytail/gold tie, purple/silver kit and shoes remain consistent. She turns away during flight and releases with a high open far-side hand at frame5/tick12. No ball appears."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 14,
+                  "y": 82,
+                  "w": 380,
+                  "h": 403,
+                  "component": 3,
+                  "area": 58970
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 447,
+                  "y": 84,
+                  "w": 324,
+                  "h": 399,
+                  "component": 4,
+                  "area": 58835
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 790,
+                  "y": 46,
+                  "w": 344,
+                  "h": 455,
+                  "component": 2,
+                  "area": 59904
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1178,
+                  "y": 12,
+                  "w": 351,
+                  "h": 451,
+                  "component": 1,
+                  "area": 58369
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 24,
+                  "y": 535,
+                  "w": 329,
+                  "h": 474,
+                  "component": 6,
+                  "area": 62500
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 381,
+                  "y": 517,
+                  "w": 388,
+                  "h": 485,
+                  "component": 5,
+                  "area": 63366
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 788,
+                  "y": 542,
+                  "w": 361,
+                  "h": 446,
+                  "component": 7,
+                  "area": 61939
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1194,
+                  "y": 628,
+                  "w": 309,
+                  "h": 367,
+                  "component": 8,
+                  "area": 57120
+                }
+              ],
+              "uniformScale": 0.18969072164948453,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "04ec9707fd27457095ad2151438d11de9bb5a1dabb854e3184914f99e59cbc4d",
+                "atlasSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 10,
+                  "right": 11,
+                  "top": 21,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.05,
+                  1.25,
+                  1.6,
+                  2,
+                  2.2,
+                  2.4,
+                  1.2,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  6,
+                  3,
+                  -3,
+                  8,
+                  5,
+                  5
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "block": {
+            "src": "./public/assets/animation/moxie-capwell-block-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "a58c8a7510715c210d5bcec461c7c7cdcfca7494d93150677febdb938146d36e"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "3168404732eb35379d50627a26dec673cafb81de744734b2a6a7416b9a100dbe"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "d93e2801aefe8c17f853eff29645334bfd50aae6abdeff8f1e8c36c3639bb24c"
+              }
+            ],
+            "sha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "block",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-4eb0bbdc-6ced-4a43-bc58-2c1d53f8629f",
+              "imageGenerationId": "exec-4eb0bbdc-6ced-4a43-bc58-2c1d53f8629f",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-block4-generated-raw.png",
+              "sourceSha256": "53085935aaedd45f7617ea2217c115a2904525f51b9691d1f7466bf1f7fa8ee0",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-block4-generated-raw.png",
+              "rawSourceSha256": "53085935aaedd45f7617ea2217c115a2904525f51b9691d1f7466bf1f7fa8ee0",
+              "prompt": "Create one original 1536×1024 true-transparent RGBA spritesheet for Moxie Capwell of Moonmorel Hex performing a right-facing jump block. Match the canon portrait and gameplay references. She is an adult human woman with pale skin, lavender-purple eyes, long thick lavender hair in a high ponytail with a small gold hair tie, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Preserve her face, eyes, ponytail, tie, kit and ordinary human anatomy. No witch hat, beard, male, monster, robot, new character, or costume.\n\nDraw clean readable late-1990s arcade basketball pixel-cel art. Exactly four full-body poses in a 2-column by 2-row grid, row-major, with broad transparent gutters and margin. Every hair strand, hand and shoe remains inside its cell. Poses are distinct and connected; two arms/two legs only. Hands are empty; the ball belongs to a separate game object and is never drawn. No ball, sphere, hoop, rim, court, floor, shadows, effects, text, border, teammates or scenery.\n\n0 defensive stance, facing right, knees flexed and both hands low;\n1 plant and jump, lead arm rising while the other arm balances;\n2 peak block at simulation tick4: both arms stretch straight upward, fingers wide and empty, full body airborne;\n3 descend and land with knees flexed, arms lowering.\n\nKeep the high ponytail/gold tie unobscured and separated from the raised hands. Preserve the same Moxie face, eyes, clothing palette, adult proportions and shoes. Return only a true-transparent RGBA sheet with no alpha haze, checkerboard, matte, speckles or colored halo.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The contested basketball stays with the opposing player and is never painted into Moxie’s defensive pose sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Four distinct complete Moxie defensive block poses. Her pale skin, lavender eyes, high ponytail/gold tie, purple/silver kit, adult human anatomy and shoes remain consistent. Frame2 is the clear peak block with both empty arms extended overhead; no ball is drawn."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 305,
+                  "y": 59,
+                  "w": 343,
+                  "h": 389,
+                  "component": 2,
+                  "area": 63188
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 872,
+                  "y": 16,
+                  "w": 372,
+                  "h": 485,
+                  "component": 1,
+                  "area": 65646
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 321,
+                  "y": 461,
+                  "w": 348,
+                  "h": 539,
+                  "component": 3,
+                  "area": 67957
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 905,
+                  "y": 621,
+                  "w": 368,
+                  "h": 379,
+                  "component": 4,
+                  "area": 62235
+                }
+              ],
+              "uniformScale": 0.17068645640074212,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 80x96 cells; baseline94; lossless WebP; 4 original block poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "a24edb3334ec0cdba8bcc5a03ae2d3ed76c739daf11fec7dd9a5e98c25ba7c48",
+                "atlasSha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 8,
+                  "right": 9,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 12,
+                  "right": 13,
+                  "top": 26,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": null
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. No ball track is required for this ball-free action."
+          },
+          "steal": {
+            "src": "./public/assets/animation/moxie-capwell-steal-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "38ff57284619a022db1d981f5a4a581b369acbd58d38cc9932300f7048b1832d"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "0ea6165b519d5f1bac41f9260b9c38d580e5c988cf4077e9a7c2dee5c5da08ab"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "b8d4f36900ce9085d394aef7e4f0e0456c52ce896675b424b618247d003e752d"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "e09cf4273ba8ac5002eec713906d8b5757208ecc4e2673cefa3857b60f3038ea"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "e9929ca75e2c3100cd4c7b1767a60ad822e6ba86bea5adc0c430ee80c30ca430"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "cc9ca2e0f1455aefcaf1f9442f39b715616c8f40ca638e1db0e6e30462bfc3cc"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "4b5e629dd98f4c0159ea8771a1c82d4aeef0201e2cbf1c22298163fcab651c07"
+              }
+            ],
+            "sha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "steal",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-26715941-0727-40fd-8050-132e8319f895",
+              "imageGenerationId": "exec-26715941-0727-40fd-8050-132e8319f895",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-steal8-generated-raw.png",
+              "sourceSha256": "13e925f64360e36a611941a9bf4366d17b0409d8cb1e0cbf70c41863d0fa0e0f",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-steal8-generated-raw.png",
+              "rawSourceSha256": "13e925f64360e36a611941a9bf4366d17b0409d8cb1e0cbf70c41863d0fa0e0f",
+              "prompt": "Create one original 1536×1024 true-transparent RGBA spritesheet for Moxie Capwell of Moonmorel Hex performing an eight-pose right-facing basketball steal. Use both supplied canon references. Moxie is the same adult human woman with pale skin, lavender eyes, very long thick lavender hair in a high ponytail with small gold tie, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes; mature athletic human build. Preserve face, eye color, ponytail silhouette/tie, kit and anatomy consistently. No male, witch hat, beard, monster, robot or different athlete.\n\nDraw crisp readable 1990s arcade basketball sprite art with consistent camera/scale. Exactly eight distinct complete full-body poses in a strict 4-column by 2-row grid, row-major, with generous true-transparent gutters and outer margins. Keep all hair, limbs and shoes in each cell. Do not draw any ball: the game renders it separately. No sphere, seams, hoop, rim, floor, court, shadow, effects, glow, labels, text, borders, teammate or scene. Hands are empty.\n\nSequence:\n0 defensive stance, facing right, knees bent and eyes on opponent;\n1 shuffle close, drop center of gravity, near hand reaches cautiously;\n2 sharp step-in and turn shoulders, one open hand sweeps toward the imagined ball;\n3 STEAL contact at simulation tick5: empty palm snaps toward the ball path at waist height, fingers spread;\n4 retract the empty hand and rotate hips away from the opponent;\n5 pivot into a protected stance, arms counterbalance;\n6 begin moving right with the ball now separate and off-screen/near court;\n7 settle into a controlled defensive recovery, hands visible and empty.\n\nMake actions distinct and connected; show a believable reach without clipping the ponytail or hiding Moxie’s face. Keep the same adult human features and purple/silver kit. Return only true-transparent RGBA with alpha-zero background, no matte, checkerboard, halo, haze or speckles.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The separate ball remains with the opponent before tick5. After the steal, the Moxie-specific ball track brings the acquired ball to her hand. The sprites never draw a ball.",
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  1.05,
+                  1.15,
+                  1.25,
+                  1.1,
+                  0.9,
+                  0.8,
+                  0.8
+                ],
+                "forward": [
+                  -8,
+                  -4,
+                  2,
+                  10,
+                  12,
+                  8,
+                  5,
+                  5
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eight distinct full-body Moxie defensive-steal poses. Moxie’s pale human face, lavender eyes, long high lavender ponytail/gold tie, purple/silver kit and shoes are consistent. Pose3 is the waist-level steal contact; both hands remain empty and readable. No ball is drawn."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 20,
+                  "y": 58,
+                  "w": 336,
+                  "h": 423,
+                  "component": 1,
+                  "area": 65577
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 389,
+                  "y": 95,
+                  "w": 389,
+                  "h": 379,
+                  "component": 4,
+                  "area": 63929
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 791,
+                  "y": 80,
+                  "w": 395,
+                  "h": 400,
+                  "component": 2,
+                  "area": 61221
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1088,
+                  "y": 82,
+                  "w": 443,
+                  "h": 393,
+                  "component": 3,
+                  "area": 65553
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 31,
+                  "y": 541,
+                  "w": 347,
+                  "h": 425,
+                  "component": 5,
+                  "area": 65984
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 408,
+                  "y": 552,
+                  "w": 343,
+                  "h": 414,
+                  "component": 7,
+                  "area": 67321
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 785,
+                  "y": 556,
+                  "w": 382,
+                  "h": 403,
+                  "component": 8,
+                  "area": 69855
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1181,
+                  "y": 547,
+                  "w": 344,
+                  "h": 417,
+                  "component": 6,
+                  "area": 66753
+                }
+              ],
+              "uniformScale": 0.2164705882352941,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 112x96 cells; baseline94; lossless WebP; 8 original steal poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "24f338db54e6948e748c03b1f30912b2fb2503df1966c10f4b2ce2093b0714b2",
+                "atlasSha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 8,
+                  "right": 8,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 22,
+                  "right": 22,
+                  "top": 9,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.05,
+                  1.05,
+                  1.15,
+                  1.25,
+                  1.1,
+                  0.9,
+                  0.8,
+                  0.8
+                ],
+                "forward": [
+                  -8,
+                  -4,
+                  2,
+                  10,
+                  12,
+                  8,
+                  5,
+                  5
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "push": {
+            "src": "./public/assets/animation/moxie-capwell-push-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "0293e52cf3b887c2c4506834bd33eea87229daf9a62e5d9453d4d211a0c9af71"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "0ecab82c0df48a56910dc2d8b3b3af1aa3afc4a7ccce1255aa8a7d3923785441"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "2e5a63563616a44aa4c2b7e0bbf1e7a561d22bdf61bd02a1742d73b532b45f3c"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8d81b2cc30986c9c6845635ed47f4c892457916c26657492bbca2223bea06b05"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "a1066ce868d7fd766083f7ea5f283f41bc2031b44dc392518ef87d00ed1017ac"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "98738a6acc16156b5037d07ce6848a6fb5706f6224d5d16dbbd8636ef7137ad2"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "68bbe473e9597c068dc870a609cace4074d2837f769ab70e37d53a35ac8a692a"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "f7dc5750efd2b19e09fc17bf56546f9ddf58b87eb8b1b856fccb74608b46a59a"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "06538f3a00af9a978e4d9e115fac7ade6e6b26e62b98e4fc659410387d2fcaab"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "041736a3a9649be729add9949d8e613ccf3f10482e270d90baf9ac6ea22a8edc"
+              }
+            ],
+            "sha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "push",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-f2c234e1-14ad-4db9-ad0d-b2aba56b0d5f",
+              "imageGenerationId": "exec-f2c234e1-14ad-4db9-ad0d-b2aba56b0d5f",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-push11-cleaned.png",
+              "sourceSha256": "d4ae4565468b725c94e8260aa4235479ca66fefe12ad8aa3bfc129c963317a8c",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-push11-generated-raw.png",
+              "rawSourceSha256": "5cc5869ee547f987f140c829aeb9887c2e37ebc955fe349940024408821bd853",
+              "prompt": "Create one original 1536×1024 true-transparent RGBA production spritesheet for Moxie Capwell of Moonmorel Hex performing an eleven-pose right-facing basketball body-check push. Match the supplied Moxie portrait and gameplay references. She is an adult human woman with pale skin, lavender-purple eyes, long thick lavender high ponytail with small gold tie, purple-and-silver athletic uniform with white side panels, purple wristbands and purple high-tops. Preserve face, eyes, ponytail, tie, mature human anatomy and outfit in every pose. No male, witch hat, beard, monster, robot or different person.\n\nDraw polished, readable 1990s arcade basketball pixel-cel art. Exactly eleven distinct complete full-body Moxie figures in a 4-column by 3-row grid, row-major; bottom-right cell is transparent and empty. Broad true-transparent gutters and outer margin. Do not overlap or clip body, ponytail, hands or shoes. Show Moxie alone; no opponent or other character.\n\nThis is a legal stylized basketball body-check animation, not a punch or fight. Hands are open and empty and stay away from the face. The basketball is separate game art and never drawn; no ball, sphere, hoop, floor, court, shadows, glow, effects, text, labels or scenery.\n\n0 stable defensive stance;\n1 move laterally to close space;\n2 bend knees and lower center of gravity;\n3 shift into the opponent's path with shoulder turned sideways;\n4 load the hips and plant both feet, arms held open for balance;\n5 CONTACT at simulation tick8: a controlled shoulder-to-chest bump position, knees flexed, no punch, no grabbing; the hands stay apart and visible;\n6 immediately recoil and stabilize, empty hands open;\n7 slide one step as the unseen opponent is displaced offscreen;\n8 regain stance;\n9 move back into guard;\n10 calm balanced recovery with both hands open.\n\nAll poses are connected and distinct; maintain a safe-looking athletic posture without violent facial expression or visible injury. Keep her recognizable face and lavender ponytail/gold tie clear, with no anatomy distortion. Return only true-transparent RGBA sprite art with alpha-zero background, no checkerboard, matte, haze, speckles or halo.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-cb5a8222-2641-4316-bda4-ee73db818e8f",
+                  "reason": "Correct Moxie identity and action sequence, but smooth purple backdrop leaked conspicuously into packed frames; rejected and superseded."
+                }
+              ],
+              "mirrorEligible": true,
+              "ballPolicy": "The basketball remains a separate game object with its current carrier throughout this body-check action. Moxie never draws or visibly holds the ball in this animation.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eleven separate full-body Moxie poses are complete and row-major in a four-by-three sheet. Her pale human face, lavender eyes, long lavender high ponytail with gold tie, purple-silver uniform, wristbands and high-top shoes remain consistent. Pose5 depicts a controlled shoulder-to-chest bump with bent knees and open hands; poses recover to guard. The generated purple backdrop was removed with documented contrast matte; no backdrop haze remains in packed atlas. No ball or opponent appears."
+              },
+              "cleanupNotes": "The generated source contained a smooth, fully opaque purple backdrop despite the transparency request. The athlete-specific cleanup script removes low-frequency background color by multiplying source alpha by a local RGB-contrast matte (Gaussian sigma 38 px; 21–42 contrast fade). This leaves the detailed figure pixels and removes background haze. Raw generation preserved separately.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 47,
+                  "y": 15,
+                  "w": 327,
+                  "h": 324,
+                  "component": 1,
+                  "area": 44168
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 442,
+                  "y": 15,
+                  "w": 316,
+                  "h": 323,
+                  "component": 2,
+                  "area": 45328
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 839,
+                  "y": 57,
+                  "w": 271,
+                  "h": 283,
+                  "component": 4,
+                  "area": 40844
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1198,
+                  "y": 24,
+                  "w": 272,
+                  "h": 318,
+                  "component": 3,
+                  "area": 41239
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 26,
+                  "y": 351,
+                  "w": 352,
+                  "h": 327,
+                  "component": 5,
+                  "area": 49376
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 423,
+                  "y": 367,
+                  "w": 336,
+                  "h": 310,
+                  "component": 8,
+                  "area": 45855
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 836,
+                  "y": 365,
+                  "w": 300,
+                  "h": 311,
+                  "component": 6,
+                  "area": 43200
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1177,
+                  "y": 365,
+                  "w": 346,
+                  "h": 313,
+                  "component": 7,
+                  "area": 41757
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 32,
+                  "y": 697,
+                  "w": 339,
+                  "h": 311,
+                  "component": 9,
+                  "area": 44245
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 428,
+                  "y": 703,
+                  "w": 323,
+                  "h": 306,
+                  "component": 11,
+                  "area": 43561
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 814,
+                  "y": 701,
+                  "w": 325,
+                  "h": 309,
+                  "component": 10,
+                  "area": 45126
+                }
+              ],
+              "uniformScale": 0.28134556574923547,
+              "componentIsolation": true,
+              "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "f6a787b546ebe12e6c9cb02f3379b3b85cf11b9d0bf7979830bc2f2be2c57426",
+                "atlasSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 8,
+                  "right": 9,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 19,
+                  "right": 19,
+                  "top": 11,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": null
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. No ball track is required for this ball-free action."
+          },
+          "rebound": {
+            "src": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "c1c0464bcfd7cf7711b4304eb0af036181cb89b754d7e4aa25031ab935fc9180"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "86811a3c48c97fab7e09b4c489a60ad4c205a737d66ef0bdee9b7df5fac180eb"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "fa412107590444d8ab884a8922a9bfa7dc340f12ffc53fb22e527aeecfc208af"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "102e3fbd406901d31accb7c1be1fbe1fe5cd9b8d2ab8fe04eacbd2dc1993f808"
+              }
+            ],
+            "sha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "rebound",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-cd7c4759-f8c5-48ce-a76f-6987cc7b3df3",
+              "imageGenerationId": "exec-cd7c4759-f8c5-48ce-a76f-6987cc7b3df3",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-rebound5-cleaned.png",
+              "sourceSha256": "9442b546be4a81748ba94e42de69ed77b961e3c357f2417d1c50f70a46dd196d",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-rebound5-generated-raw.png",
+              "rawSourceSha256": "f7396868cbb9392518f2829e5cc2efa52e3d1de017f09a2ff1dfa0e32648d8ee",
+              "prompt": "Create one original transparent RGBA production spritesheet for Moxie Capwell's right-facing basketball rebound action. Use the attached Moxie portrait and gameplay references as strict identity, anatomy and uniform guidance. She is an adult human woman with pale skin, lavender-purple eyes, a very long thick lavender high ponytail tied with a small gold tie, a mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve this same face, eye color, ponytail and gold tie, human anatomy and outfit in every pose.\n\nDraw clean readable 1990s arcade basketball pixel-cel sprite art. Canvas 1536x1024, exact 3-column by 2-row grid, five complete full-body Moxie poses in row-major order in cells 0 through 4. Bottom-right cell empty and transparent. Wide transparent gutters and outer margins. Moxie alone. Keep her long ponytail and both shoes inside each cell. No ball in the drawing; the basketball is a separate game object. No other athlete, hoop, rim, court, floor, shadows, effects, glow, text, labels or scenery. Return RGBA with a genuinely transparent alpha-zero background.\n\nAction sequence:\n0. Moxie squares up and tracks a rebound above her, knees bent, eyes up, hands open.\n1. She steps toward the rebound path and raises both arms.\n2. She jumps, reaching high with both hands, ponytail trailing behind.\n3. REBOUND GRAB at simulation tick5: hands meet above her forehead to secure the separate basketball; leave clear empty space between her hands because no ball is drawn.\n4. She descends, protecting the newly gained ball near her chest with open hands visible.\n\nKeep all five poses distinctive, complete and sequential; retain her exact identity and kit.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "A separate ball begins on the rebound path and arrives above Moxie at frame3 / tick5; after the catch it follows Moxie to chest height. The ball never appears in the sprite art.",
+              "ballTrack": {
+                "height": [
+                  0.9,
+                  1.25,
+                  1.9,
+                  2.2,
+                  1.2
+                ],
+                "forward": [
+                  6,
+                  8,
+                  11,
+                  14,
+                  8
+                ]
+              },
+              "cleanupNotes": "The generated sheet contains a smooth painted backdrop despite the transparency request. Applied the athlete-specific local RGB-contrast matte (Gaussian sigma 38px, alpha fade for contrast 21–42) and retained the original raw generation separately.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Five distinct complete full-body Moxie poses in row-major order. Correct pale human face, lavender eyes, high lavender ponytail with gold tie, purple/silver kit and high-top shoes. Frame3 is the high two-hand rebound catch; frame4 lands with the ball protected near chest height. Smooth backdrop removed and alpha edges reviewed against white; the separate ball is not drawn."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 94,
+                  "y": 141,
+                  "w": 334,
+                  "h": 377,
+                  "component": 3,
+                  "area": 55679
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 567,
+                  "y": 124,
+                  "w": 390,
+                  "h": 394,
+                  "component": 2,
+                  "area": 60742
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1080,
+                  "y": 7,
+                  "w": 367,
+                  "h": 504,
+                  "component": 1,
+                  "area": 65412
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 96,
+                  "y": 535,
+                  "w": 328,
+                  "h": 457,
+                  "component": 44,
+                  "area": 65307
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 601,
+                  "y": 625,
+                  "w": 297,
+                  "h": 374,
+                  "component": 45,
+                  "area": 57157
+                }
+              ],
+              "uniformScale": 0.18253968253968253,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 80x96 cells; baseline94; lossless WebP; 5 original rebound poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "f76ec5106a733db4fc4c0f47c6052ba9b761b3d7ee979a5ce0bbae5492ccee83",
+                "atlasSha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 13,
+                  "right": 13,
+                  "top": 23,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  0.9,
+                  1.25,
+                  1.9,
+                  2.2,
+                  1.2
+                ],
+                "forward": [
+                  6,
+                  8,
+                  11,
+                  14,
+                  8
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "fall": {
+            "src": "./public/assets/animation/moxie-capwell-fall-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "cbdec0b9528c43b828466462a6c05f8bec6a4f1f6a045bc4252f58e042feb807"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "89c106b41b8f98d609025a302492a09b5b576b43911967488d82052e6ed03d9a"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d7d6582fb3168768a6c47b5e9cdccc70301a2a3ce31fa0af3da98838e41a4660"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "56f6bb90131fafa6baaff385130817182d96a556664e9dee4fe572075c92870b"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f580fc5c1834d8ebc7076a23686d92039cce546aa886a7199779c853daf6557c"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b828e28659c68d129b6471ac5e3c4369bcf7232cc87b9def325c4ddfa46b81c8"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f3f60a16fd7e0020d1cd976508dd7b2f5bb4a3d4ed69ffea709ac5141b491a39"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d74d98aa59386c42becf1a645a5ab309bf1277550d28bfcf22fede12af03ecd3"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a00c8f34012053f6bf292ec7bbf67f8318bc89429a76932da6db691a502c5f3d"
+              }
+            ],
+            "sha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "fall",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-8d81d7eb-6721-4bba-a514-9e0cbb7363b7",
+              "imageGenerationId": "exec-8d81d7eb-6721-4bba-a514-9e0cbb7363b7",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-fall10-cleaned.png",
+              "sourceSha256": "76294958c6fc40fbf487a7310ffa5abdc2807efe1789e80256a7c880d9551822",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-fall10-generated-raw.png",
+              "rawSourceSha256": "a35dda6b1de328092915a7bee032846f48d826e1536d7f282ea2c96d1d9c148d",
+              "prompt": "Create one original true-transparent RGBA production spritesheet for Moxie Capwell's right-facing basketball fall action. Strictly match supplied Moxie portrait and gameplay references: adult human woman, pale skin, lavender-purple eyes, very long thick lavender high ponytail with small gold tie, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands, purple high-tops. Keep exact identity and consistent anatomy.\n\n1990s arcade basketball pixel-cel sprites. Exact 1536x1024 canvas, 5 columns x 2 rows, ten distinct complete full-body poses in row-major order. Leave generous empty space around every pose: at least 45 transparent pixels from each figure to its cell boundaries, including leftmost hand, ponytail, and shoes. Keep each pose centered within its own cell, never touching any grid or canvas edge. Entire pose fits inside the cell. No overlap between poses. The bottom row also has roomy clear gutters.\nNo ball is drawn; separate game basketball only. No opponent, court, floor, shadow, background, glow, effects, text or labels. True transparent RGBA, alpha zero outside every figure.\nA controlled nonviolent basketball stumble-and-fall, no injury:\n0 off-balance recovery step after loose-ball collision, arms out;\n1 stumble forward, one foot catches, hands spread;\n2 lower center, bend knees, reach one hand toward floor;\n3 knee touches down and opposite hand braces;\n4 controlled side fall, hip lowers, ponytail arcs behind;\n5 settle onto side with palm supporting, legs bent;\n6 seated on hip, one hand plants, other hand visible and empty;\n7 turn to one knee;\n8 rise to low crouch;\n9 balanced standing guard, calm face.\nAll ten figures are fully visible with complete hands, hair, and shoes.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-823ab7f3-3191-4eed-8116-b8c9ec8b318d",
+                  "reason": "First pose touched the outer source-sheet edge and the action packer rejected the incomplete margin.",
+                  "prompt": "Create one original transparent RGBA production spritesheet for Moxie Capwell's right-facing basketball fall action. Follow the supplied Moxie portrait and gameplay references as strict identity and anatomy guides: adult human woman, pale skin, lavender-purple eyes, very long thick lavender high ponytail with small gold tie, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Same face, eyes, ponytail/tie, and kit in every pose.\n\n1990s arcade basketball pixel-cel art, crisp outlines, consistent scale. Exact 1536x1024 canvas, 5 columns x 2 rows, ten complete Moxie poses row-major in every cell. Wide clear transparent gutters; no clipped ponytail, hands or shoes. Moxie alone. No ball or opponent drawn: the separate basketball will be handled by the game. No floor, shadow, court, hoop, effects, glow, background, text or labels. Return true-transparent RGBA with alpha-zero background.\n\nA controlled nonviolent basketball stumble-and-fall with safe athletic form, no injury or distress. Pose sequence:\n0: off-balance recovery step after a loose-ball collision, arms out;\n1: stumble forward, one foot catches, hands spread;\n2: drop center, bend knees and reach one hand toward the floor;\n3: knee touches down and opposite hand braces;\n4: controlled side fall, hip lowers, ponytail arcs behind;\n5: settle onto side with one palm supporting her, legs bent;\n6: seated on hip, one hand plants, other hand visible and empty;\n7: turn to one knee;\n8: rise into a low crouch;\n9: recover to balanced standing guard, calm face.\nKeep complete human anatomy, all poses distinct and sequential, no impact marks or visible injury."
+                }
+              ],
+              "mirrorEligible": true,
+              "ballPolicy": "The separate basketball is carried at the beginning, drops low and forward as Moxie falls, and remains on court while she rises. Never drawn in the sprite.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  0.9,
+                  0.75,
+                  0.4,
+                  0.2,
+                  0.1,
+                  0.15,
+                  0.2,
+                  0.4,
+                  0.6
+                ],
+                "forward": [
+                  6,
+                  7,
+                  9,
+                  10,
+                  12,
+                  13,
+                  13,
+                  13,
+                  11,
+                  9
+                ]
+              },
+              "cleanupNotes": "Generated sheet had a purple painted backdrop. Applied the documented local RGB-contrast matte (Gaussian sigma 38px, alpha fade for contrast 21–42); raw source retained separately.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Ten complete sequential Moxie figures in a five-by-two sheet with clear cell margins. Adult human identity, pale skin, lavender eyes, high ponytail/gold tie, purple/silver uniform and shoes stay consistent. Controlled fall sequence progresses from stumble to side fall, seated, kneeling and standing recovery, without injury. Background cleanup checked on light background; no ball drawn."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 24,
+                  "y": 77,
+                  "w": 289,
+                  "h": 373,
+                  "component": 1,
+                  "area": 41350
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 346,
+                  "y": 98,
+                  "w": 296,
+                  "h": 355,
+                  "component": 2,
+                  "area": 41944
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 658,
+                  "y": 168,
+                  "w": 274,
+                  "h": 285,
+                  "component": 4,
+                  "area": 40330
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 948,
+                  "y": 217,
+                  "w": 234,
+                  "h": 242,
+                  "component": 5,
+                  "area": 37033
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1205,
+                  "y": 220,
+                  "w": 330,
+                  "h": 236,
+                  "component": 6,
+                  "area": 40499
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 12,
+                  "y": 730,
+                  "w": 350,
+                  "h": 187,
+                  "component": 14,
+                  "area": 36461
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 366,
+                  "y": 689,
+                  "w": 310,
+                  "h": 241,
+                  "component": 13,
+                  "area": 39607
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 686,
+                  "y": 635,
+                  "w": 233,
+                  "h": 285,
+                  "component": 12,
+                  "area": 43331
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 980,
+                  "y": 622,
+                  "w": 226,
+                  "h": 306,
+                  "component": 11,
+                  "area": 39337
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1240,
+                  "y": 550,
+                  "w": 280,
+                  "h": 380,
+                  "component": 10,
+                  "area": 43724
+                }
+              ],
+              "uniformScale": 0.24210526315789474,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original fall poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "4e12839c8f4b8f95d84f0a5ab46b46fe8d460d18dd098b13ed3cf5d99a23290b",
+                "atlasSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 6,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 20,
+                  "right": 21,
+                  "top": 46,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  0.9,
+                  0.75,
+                  0.4,
+                  0.2,
+                  0.1,
+                  0.15,
+                  0.2,
+                  0.4,
+                  0.6
+                ],
+                "forward": [
+                  6,
+                  7,
+                  9,
+                  10,
+                  12,
+                  13,
+                  13,
+                  13,
+                  11,
+                  9
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "celebrate": {
+            "src": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "9efcfce291a284eb3256c301cc762da9eee1882245a798effb36b731a0edf555"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "92ba849be84a2fd0601a6ab1830f95360a6b50bfe4f31f56b117eb289e79c69f"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "7c68f3030037507c5d5659635491a8aae649b1b0d57cbbcc3d1a86512dbd6615"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "d37e3e4aedc22416cf9beac374fcec4a98aa0be0d04dda518627d36ca3dd9a13"
+              },
+              {
+                "x": 320,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "f675da56c94b670593b2e6a9f6cf0c379fa4ad6e00d791fdb832813dfaf31d15"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "e7cda2e0dfcf9cef97f767ae0b7d3667edfbfda3b5ef4f21f19bc2cea39aa4a0"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "1aca2cb2adccf4f4459edecddb9bb64fd89eb36b39ecd7af425096e8f7aa9acc"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "5266e2e1492bd3c8602b5df5450e517b10ef9a10400c9c00fbcde52da086565e"
+              },
+              {
+                "x": 320,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "5ca0af85cdecc89f06112d3cb47ef3d7632e78e40200c6c32d6b96e6a7908016"
+              }
+            ],
+            "sha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "celebrate",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-8634fb3c-fd4b-4050-8ed3-23730dcbfb01",
+              "imageGenerationId": "exec-8634fb3c-fd4b-4050-8ed3-23730dcbfb01",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-celebrate10-cleaned.png",
+              "sourceSha256": "9ded75633ee45c472e916ab4bd6a63b6e5431901d7110b10bb520a7958d2d8fb",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-celebrate10-generated-raw.png",
+              "rawSourceSha256": "ccd5cb3a6937d5974ffad50957c6abb04355bfa5cff68a58facaad18c6c05627",
+              "prompt": "Create one original true-transparent RGBA production spritesheet for Moxie Capwell's right-facing basketball celebration. Match supplied Moxie portrait and gameplay references as strict identity guides: adult human woman, pale skin, lavender-purple eyes, long thick lavender high ponytail with small gold tie, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes. Keep same face, hair/tie, kit and body proportions in every pose.\n\n1990s arcade basketball pixel-cel art, crisp clean outlines. Canvas exactly 1536x1024, five columns by two rows, exactly ten distinct complete full-body Moxie poses in row-major order. Give every pose wide transparent margins within its cell; full ponytail and shoes visible, no touching canvas or cell boundaries. Transparent alpha-zero background.\nMoxie alone, separate basketball not drawn, no opponent. This is a joyful composed sports celebration after a score: mature confident smile, not exaggerated or childish, no props. No ball, hoop, court, floor, shadow, glow, effects, text, labels, or scenery.\nPose sequence:\n0 balanced stance, smile begins, hands relaxed;\n1 lift both forearms with quiet excitement;\n2 raise one fist at shoulder height and smile;\n3 raise both hands overhead in triumph;\n4 hold the overhead celebration, feet planted;\n5 lower arms outward while turning slightly toward teammates offscreen;\n6 tap one fist to chest, appreciative expression;\n7 small confident step and nod;\n8 settle with one hand raised in a calm wave;\n9 return to balanced relaxed stance, smiling.\nAll figures are full-body and poses visibly distinct but connected, preserve Moxie's identity and anatomy.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The separate ball is resting on court away from Moxie through the celebration; it is never drawn or attached to her sprite.",
+              "ballTrack": {
+                "height": [
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2
+                ],
+                "forward": [
+                  14,
+                  14,
+                  14,
+                  14,
+                  14,
+                  14,
+                  14,
+                  14,
+                  14,
+                  14
+                ]
+              },
+              "cleanupNotes": "The generated background was removed using the Moxie-specific low-frequency RGB contrast cleanup (Gaussian sigma38px; alpha fade contrast21–42); raw source retained separately.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Ten full-body Moxie poses in row-major order. Adult human face and anatomy, pale skin, lavender eyes, gold-tied high ponytail, purple/silver uniform and high-tops remain consistent. Distinct composed celebration: measured fist pumps and overhead pose, arms opened, chest gesture, nod and wave, relaxed finish. No object or ball is drawn. Background cleanup reviewed in packed atlas over a light and court-colored ground."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 73,
+                  "y": 65,
+                  "w": 222,
+                  "h": 442,
+                  "component": 3,
+                  "area": 52231
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 370,
+                  "y": 65,
+                  "w": 232,
+                  "h": 442,
+                  "component": 4,
+                  "area": 50007
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 674,
+                  "y": 76,
+                  "w": 230,
+                  "h": 431,
+                  "component": 5,
+                  "area": 49871
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 960,
+                  "y": 24,
+                  "w": 232,
+                  "h": 482,
+                  "component": 2,
+                  "area": 51194
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1258,
+                  "y": 19,
+                  "w": 236,
+                  "h": 488,
+                  "component": 1,
+                  "area": 51968
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 27,
+                  "y": 544,
+                  "w": 349,
+                  "h": 441,
+                  "component": 16,
+                  "area": 54090
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 397,
+                  "y": 547,
+                  "w": 229,
+                  "h": 438,
+                  "component": 18,
+                  "area": 50418
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 668,
+                  "y": 542,
+                  "w": 214,
+                  "h": 443,
+                  "component": 14,
+                  "area": 49471
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 946,
+                  "y": 545,
+                  "w": 249,
+                  "h": 440,
+                  "component": 17,
+                  "area": 53134
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1270,
+                  "y": 542,
+                  "w": 224,
+                  "h": 443,
+                  "component": 15,
+                  "area": 52799
+                }
+              ],
+              "uniformScale": 0.1885245901639344,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 80x96 cells; baseline94; lossless WebP; 10 original celebrate poses",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "a1d5da14d377dc70c50bc9080182d984f075471d41b0c740ce5bb4657f3e32b9",
+                "atlasSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 7,
+                  "right": 7,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 20,
+                  "right": 20,
+                  "top": 10,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2,
+                  0.2
+                ],
+                "forward": [
+                  14,
+                  14,
+                  14,
+                  14,
+                  14,
+                  14,
+                  14,
+                  14,
+                  14,
+                  14
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "source": "src/core/animation.js",
+                "reviewDate": "2026-10-24",
+                "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "dunk-power": {
+            "src": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a7c3a2b0ee3ec4a54ffc3f8dfc12696f992196019284aee9fa0cbfda49048b5b"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "bcdc7f0f5f26650f050d9126c73193a5a54247fff2ebef5297d4edca6f845e67"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "4ee5506b283d17fe1acb8db7d1e03acde316d68b8f21b0a7072ea5347c121a0b"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c5d2011c661401ebbbdf630c88eb4680e1dff4aa4dbb6e0cc6ea195f1f70272b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "7ed6726897cf16cd6dde89c4d780eed8a9ddc5ab90226cce61ba62951629bc9d"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "9d7d18cb636cb022f12af80501ab98094c6d6994aa89659e6de24300c33dabb2"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a053a2e5e6886576ae6b563ad45a1948a1ef7eaf94d474ca0fca11af8d05d85b"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d62f958442f45c69f807574add77021d97eb97fcf0040ec0859c55c208abe7a8"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "0d2d5b4dcc777424b3bcb6f4631983bb072c52fc872ed13747211278250a8bbb"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "9417e51c72c25d05f9c8c58f082761622b4ea77f55c1d139400b8f6a6547a610"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "b01a936310b277c09aeedb06debb945f09dfe51f64aba9223c9b4b27841be3f7"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b923cff1514e981adae3cf441feab9374154dce6a01d2bd0af36f90cf135e7f8"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b5e7fb006a2a8693b73b4f61cb96473366f83260b8f3235ef03e39c23690fd76"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "588cda5572daec29df9dbebad6ce5e61d9618b883b222e219eac37a850821b5a"
+              }
+            ],
+            "sha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "dunk-power",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-9d3ac1e9-868e-464f-93fb-27cf01134bfe",
+              "imageGenerationId": "exec-9d3ac1e9-868e-464f-93fb-27cf01134bfe",
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-power15-cleaned.png",
+              "sourceSha256": "a0137afe6ddb2713c088a307abbeb1cc90035fb83ad3d4bf42193a00c6cf1afb",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-power15-generated-raw.png",
+              "rawSourceSha256": "4391bfa2f9d809c8c6cd728051ce01e97d14de4e0292d44bd966b4d56c84915c",
+              "prompt": "Create one original transparent RGBA 5-column by 3-row spritesheet with exactly fifteen distinct full-body right-facing basketball dunk-power poses of Moxie Capwell. Follow her attached canon portrait/gameplay refs strictly: adult human woman, pale skin, lavender eyes, very long thick lavender high ponytail with small gold tie, mature powerful athletic anatomy, purple-and-silver uniform with white side panels, purple wristbands, purple high-top shoes. Same face, proportions, outfit and hair in all fifteen figures.\n\nCrisp readable 1990s arcade basketball pixel-cel sprite art. Exact 1536x1024 canvas, 5x3 strict row-major layout, one complete pose centered per cell with wide transparent gutters. All limbs, shoes and ponytail inside cell; never touch canvas edge. True transparent RGBA background. Only Moxie. Basketball is a separate game object and MUST NOT appear in any frame. No hoop, rim, net, court, floor, shadow, opponent, scenery, background, effects, glow, labels, text or extra character.\n\nA forceful one-handed power dunk, all pose phases distinct:\n0 approach run;\n1 gather steps and bend;\n2 takeoff launch at gameplay tick4;\n3 rise, knees lift;\n4 extend to rim height;\n5 gather unseen ball with right hand above shoulder;\n6 cock strong right arm, left arm counterbalances;\n7 drive upward at peak tick14, right hand high;\n8 power through imaginary rim path;\n9 right arm fully extended to drive imaginary ball downward;\n10 one-hand release tick21;\n11 scoring finish tick23, airborne after release with hand below imaginary rim height;\n12 descend with arms lowering;\n13 land on feet, knees flex;\n14 settled athletic recovery.\nMoxie remains a human athlete, never a quadruped. No ball/rim is drawn; leave hands empty and readable.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separate ball arc follows her right hand into the high finish, then advances toward the hoop and releases on tick21. The art never contains a ball or rim.",
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  1.2,
+                  1.4,
+                  1.7,
+                  2.2,
+                  2.6,
+                  3,
+                  3.3,
+                  3.1,
+                  2.5,
+                  2.1,
+                  1.9,
+                  1.45,
+                  1.05,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  9,
+                  11,
+                  13,
+                  15,
+                  16,
+                  17,
+                  16,
+                  14,
+                  18,
+                  25,
+                  32,
+                  38,
+                  42
+                ]
+              },
+              "cleanupNotes": "Smooth generated purple backdrop removed with Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21–42). Raw source retained; fifteen source components isolated during atlas packing.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen complete distinct Moxie human poses in 5x3 row-major layout. Consistent adult face/anatomy, pale skin, lavender eyes, very long gold-tied lavender ponytail, purple/silver uniform and shoes. Clear run-up, one-hand right-arm rise, apex/power push, release at frame10/tick21, scoring finish, descent and grounded recovery. Separate basketball is not drawn. Background-cleaned alpha reviewed."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 4,
+                  "y": 79,
+                  "w": 286,
+                  "h": 266,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 354,
+                  "y": 91,
+                  "w": 222,
+                  "h": 254,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 658,
+                  "y": 74,
+                  "w": 198,
+                  "h": 275,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 973,
+                  "y": 61,
+                  "w": 204,
+                  "h": 285,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1283,
+                  "y": 1,
+                  "w": 211,
+                  "h": 348,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 30,
+                  "y": 366,
+                  "w": 287,
+                  "h": 321,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 339,
+                  "y": 390,
+                  "w": 288,
+                  "h": 288,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 646,
+                  "y": 346,
+                  "w": 238,
+                  "h": 343,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 926,
+                  "y": 366,
+                  "w": 298,
+                  "h": 316,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1259,
+                  "y": 390,
+                  "w": 258,
+                  "h": 281,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 52,
+                  "y": 725,
+                  "w": 266,
+                  "h": 285,
+                  "component": 56
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 360,
+                  "y": 736,
+                  "w": 210,
+                  "h": 272,
+                  "component": 58
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 660,
+                  "y": 773,
+                  "w": 229,
+                  "h": 237,
+                  "component": 66
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 986,
+                  "y": 744,
+                  "w": 216,
+                  "h": 266,
+                  "component": 59
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1284,
+                  "y": 712,
+                  "w": 214,
+                  "h": 302,
+                  "component": 55
+                }
+              ],
+              "uniformScale": 0.26436781609195403,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "5f3d77698c79972222d3d11744ba12da62389f2e570104b5e9d8bcb5f8529987",
+                "atlasSha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 24,
+                  "right": 25,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 38,
+                  "right": 38,
+                  "top": 28,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.05,
+                  1.2,
+                  1.4,
+                  1.7,
+                  2.2,
+                  2.6,
+                  3,
+                  3.3,
+                  2.38,
+                  2.29,
+                  2.29,
+                  1.9,
+                  1.45,
+                  1.05,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  9,
+                  11,
+                  13,
+                  15,
+                  16,
+                  17,
+                  11.1,
+                  11.1,
+                  11.1,
+                  25,
+                  32,
+                  38,
+                  42
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "reviewDate": "2026-10-24",
+                "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+                "frames": {
+                  "8": "2.38/11.1",
+                  "9": "2.29/11.1",
+                  "10": "2.29/11.1"
+                },
+                "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "dunk-windmill": {
+            "src": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "9097d868afa8094b4cf68cdccb016b8410a16d176041b5ca2b82865f7a8a4022"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f449cec58d116326beb9f81f6ba5f5795bedfacfbb08a6cdde0c286180eb16a8"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "33b87af963a1c0378cb5a9bc426bcc6459ae9abd07cb311b4b2523d4e0114449"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "329c0732b1ba93add359582bb0c66781337c6ccba3b6a0ad910b0f5d07bd5859"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "fccdcf22f02de0a7a4b842905282f670bc254fe5d742c6685bd4b721ed7b9a34"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "0751d52771ffb4d79f1c9130bcd8ec7e0f5e5cfee02c240a66c63bad8016c44a"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "9a9d750c6dfaddf5c64ee49df467d4d2505f9d5943fbde7bf152bf293a87e6eb"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "2c8a53cebddf0bf413bf7d5945522591cca79b3ec7a5690b1e979a0e8159f821"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "482708cdd4178e9d5b5c0992ef0850053a15b2fb45f440957fa19bf9cf6eb65f"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "f9d369c5127b6b85b869a3940b65744dc0714defc47e95e58afca34113c265ae"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "c1d7154d530af51aef226e06c617e52c9cfbbf1d3157706d01c825a40b4ecd18"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "ac71323ad04a69e4025ff5990f8ddcff82019cf01a01c386631f69f91c102499"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "aec29f24d68e653b922b2adee3a24a18d9a1190fef330c580442e31ab1876f45"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "edbf04f40892d48a54dd32267cb06ceab23fef35efb0d586c06aa6f2103e07df"
+              }
+            ],
+            "sha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "dunk-windmill",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-d98f1d68-d31f-435f-936d-16cb688b9fdd",
+              "imageGenerationId": "exec-d98f1d68-d31f-435f-936d-16cb688b9fdd",
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-windmill15-cleaned.png",
+              "sourceSha256": "f7a8bc7e75803b9e5e24b246ccc0a7483b0bd3fbccacf9466ed2488be1a602a0",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-windmill15-generated-raw.png",
+              "rawSourceSha256": "36f235578eced771ada2608ecbb550fd0dfa9297e9e58799181b8866c833d5da",
+              "prompt": "Create one original true-transparent RGBA spritesheet of fifteen right-facing Moxie Capwell basketball dunk-windmill poses, 5 columns x 3 rows, strict row-major. Use supplied canon refs: adult human woman, pale skin, lavender eyes, long thick lavender high ponytail with small gold tie, mature athletic build; purple/silver uniform with white side panels, purple wristbands and purple high tops. Preserve exact identity, face, ponytail, anatomy and kit consistently.\n\nClean readable 1990s arcade basketball pixel-cel art. 1536x1024 sheet with exactly fifteen separate complete full-body figures, centered with wide transparent margins. Keep ponytail/arms/shoes inside each cell; no boundary contact, no overlap. True transparent RGBA background. Moxie alone, human, no other character. No basketball is drawn; the basketball remains a separate game object. No hoop, rim, net, court, floor, shadows, background, effects, glow, labels or text.\n\nAction is a powerful one-handed windmill dunk, with the right arm making a broad complete circular windmill while she rises. Pose order:\n0 approach sprint;\n1 gather steps and crouch;\n2 takeoff at tick4;\n3 airborne, knees lift, ball hand separates from torso;\n4 begin sweeping right arm backward behind shoulder;\n5 carry the imaginary ball hand behind her head;\n6 windmill arm circles low behind hip;\n7 right hand passes beside thigh while legs tuck;\n8 arm sweeps forward and upward;\n9 hand rises past shoulder;\n10 full overhead circle approaches apex, peak at tick14;\n11 extend strongly toward imaginary rim;\n12 release imaginary ball at tick21 with right hand, arm stretched;\n13 scoring finish tick23 and descent;\n14 landing absorbed on bent knees.\nShow a clear circular windmill arc in the changing arm positions, keep free left arm balancing, long ponytail streaming behind. Hands remain empty/visible with no ball.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separate ball follows her right hand in a circular path behind the body and rises over her head before the tick21 release. Sprite figures have empty hands and contain no ball.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.4,
+                  1.5,
+                  1.8,
+                  2.1,
+                  1.4,
+                  0.7,
+                  0.9,
+                  1.6,
+                  2.6,
+                  3.2,
+                  2.5,
+                  1.5,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  10,
+                  8,
+                  4,
+                  0,
+                  -2,
+                  1,
+                  5,
+                  12,
+                  18,
+                  27,
+                  35,
+                  40
+                ]
+              },
+              "cleanupNotes": "Generated smooth purple backdrop removed with Moxie-specific low-frequency RGB-contrast matte (Gaussian sigma38px; alpha fade contrast21–42); raw source retained. Isolated fifteen pose components during packing.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen complete Moxie poses in 5x3 order; adult human face, pale skin, lavender eyes, gold-tied lavender ponytail and purple/silver uniform stay consistent. Arm traces behind the head, low behind the hip, forward and up through release to form a broad windmill. One-hand release frame12/tick21 followed by score, descent and landing. No ball is drawn; background cleaned and alpha isolation checked."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 23,
+                  "y": 36,
+                  "w": 307,
+                  "h": 304,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 355,
+                  "y": 57,
+                  "w": 234,
+                  "h": 287,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 681,
+                  "y": 87,
+                  "w": 206,
+                  "h": 258,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 965,
+                  "y": 27,
+                  "w": 265,
+                  "h": 317,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1248,
+                  "y": 31,
+                  "w": 283,
+                  "h": 287,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 41,
+                  "y": 362,
+                  "w": 276,
+                  "h": 278,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 359,
+                  "y": 387,
+                  "w": 233,
+                  "h": 271,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 659,
+                  "y": 402,
+                  "w": 238,
+                  "h": 271,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 919,
+                  "y": 384,
+                  "w": 314,
+                  "h": 288,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1262,
+                  "y": 356,
+                  "w": 253,
+                  "h": 304,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 40,
+                  "y": 670,
+                  "w": 282,
+                  "h": 333,
+                  "component": 63
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 342,
+                  "y": 666,
+                  "w": 276,
+                  "h": 342,
+                  "component": 62
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 640,
+                  "y": 701,
+                  "w": 298,
+                  "h": 288,
+                  "component": 64
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 966,
+                  "y": 713,
+                  "w": 269,
+                  "h": 281,
+                  "component": 65
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1290,
+                  "y": 784,
+                  "w": 223,
+                  "h": 223,
+                  "component": 80
+                }
+              ],
+              "uniformScale": 0.26900584795321636,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "2c153aa8c264080ad88fd7a75b61553c99ca76be21bdc77562396a0d01ecdcd6",
+                "atlasSha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 22,
+                  "right": 22,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 36,
+                  "right": 37,
+                  "top": 31,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.4,
+                  1.5,
+                  1.8,
+                  2.1,
+                  1.4,
+                  0.7,
+                  1.6,
+                  2.18,
+                  2.18,
+                  3.2,
+                  2.5,
+                  1.5,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  10,
+                  8,
+                  4,
+                  0,
+                  -2,
+                  -13.3,
+                  0.4,
+                  0.4,
+                  18,
+                  27,
+                  35,
+                  40
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "reviewDate": "2026-10-24",
+                "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+                "frames": {
+                  "8": "1.6/-13.3",
+                  "9": "2.18/0.4",
+                  "10": "2.18/0.4"
+                },
+                "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "dunk-reverse": {
+            "src": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "fa4a9a40ae326f3a614aee3d1713c224764670bff02141619d28ae95047942bd"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "eff0a0aa474f0e7299f57708e2119bcb50f24d741b8dca9422bee29fe38966f5"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2caeefaeace7de5fd9f437a7dca80bfcd794c6fee0e30cdb345c815e0dab9dec"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a21f008f73d107e574040bfe7d8fb58702d771621342f0f918be5ccd77e5f1fb"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "79a94f1404cab073fbcb5c35fa8d24477f2f7181433cd7be6ee7d68ac5ac535b"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "7c3fda3686dd0a1389b24359ac6a90f66339660587d43b9f5defecdaa28b1096"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "3a223b0ade84092dac36e33eabba66dc5412a1f0d1e4839107c0c65944088b5d"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "404691e36de200319ef98a5d9cd2fc95765210c19039b54103be9fae3a0cb5d3"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "385c05bd4b4c0b6ae6d0364c0e265203f3ad063e23e7cf7a21b4889f52c68abe"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "2b72bc9810453793c56c6d2266b4ef1f0f9541f9589038a14e4e770463c10c87"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "a7cfdcce61afbf0e74d667226e6fa4e3b711dee99f43c71cfe89de4779e0a915"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "43d7f06dcef363498de1d15fd8e3fd819e699a792242a064e588b4eb01a0094c"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "65f9071afeef0f7aaa963c9de0dc1155382aadf766aa7d6410e9891add7fc678"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "4f1425890e91e6f5d511c0811fd50ac2840db1fca903934031f499cfbf49dcb4"
+              }
+            ],
+            "sha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "dunk-reverse",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-22966b7c-5895-4b51-95fb-98a890c4286d",
+              "imageGenerationId": "exec-22966b7c-5895-4b51-95fb-98a890c4286d",
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-reverse15-cleaned.png",
+              "sourceSha256": "8439bf47b7508ab0d98b473c18b0cfc10d7a8d73ae7d671947f30adb34199de2",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-reverse15-generated-raw.png",
+              "rawSourceSha256": "50011a72af76f29e8d66517ac09ebaa851183935d409c6194d0a414f797f408f",
+              "prompt": "Create an original true-transparent RGBA spritesheet of fifteen full-body right-facing Moxie Capwell basketball dunk-reverse poses in a strict 5x3 row-major grid. Use supplied Moxie canon references: adult human woman, pale skin, lavender eyes, long thick lavender high ponytail with small gold tie, mature athletic proportions, purple/silver uniform with white side panels, wristbands and purple high-tops. Keep her exact consistent identity and anatomy.\n\n1990s arcade basketball pixel-cel sprite style with crisp edges. 1536x1024, fifteen distinct complete pose figures, centered in their cells with wide transparent gutters and margins; no cropping or overlap. Show Moxie's profile, three-quarter back and back views as she turns, while retaining her recognizable lavender ponytail/gold tie, uniform and human build. True transparent RGBA background. Moxie alone. Do not draw ball, hoop, rim or net; gameplay ball is separate. No other person, court, floor, shadow, scenery, backdrop, text, glow or effects.\n\nA reverse dunk: sprint past the imaginary basket, rise to its far side, turn her back toward the imaginary rim, then reach the ball behind her head and slam it backward through the imaginary hoop, followed by landing.\n0 approach run;\n1 gather;\n2 takeoff at tick4;\n3 rise alongside imaginary rim;\n4 turn hips and shoulders away from viewer/rim;\n5 back faces rim, right arm brings unseen ball behind head;\n6 carry ball hand behind head and upper back;\n7 bend the right arm and reach back around the opposite side;\n8 drive the hand backward toward the rim;\n9 strong behind-head reverse dunk extension;\n10 release at tick21 behind her head;\n11 scoring finish tick23 with hand across and below imaginary rim;\n12 rotate back while descending;\n13 land with knees flexed;\n14 stable recovery stance.\nKeep both arms anatomically correct and visible. Pose actions flow and are distinct; no ball in any hand or elsewhere.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The Moxie-specific ball stays on her right-hand lane through the back-facing turn, is carried behind the head and releases through the reverse finish on tick21. Never drawn in sprite.",
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  1.2,
+                  1.4,
+                  2,
+                  2.5,
+                  2.8,
+                  2.2,
+                  1.8,
+                  2.1,
+                  2.7,
+                  3.2,
+                  3.4,
+                  2.6,
+                  1.4,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  15,
+                  16,
+                  14,
+                  13,
+                  15,
+                  18,
+                  20,
+                  24,
+                  31,
+                  38,
+                  42
+                ]
+              },
+              "cleanupNotes": "Removed the smooth generated purple backdrop using the Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade for contrast21–42). Raw generation retained; isolated 15 source components when packing.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen complete distinct Moxie human poses with back and three-quarter-back views through a reverse dunk. Identity, adult proportions, lavender eyes/ponytail/gold tie, purple/silver kit remain consistent. Behind-head ball approach, strong backward extension, tick21 release, score finish and landing are clear. No ball drawn; backdrop cleanup and all frame crops reviewed."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 36,
+                  "y": 42,
+                  "w": 283,
+                  "h": 294,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 348,
+                  "y": 64,
+                  "w": 256,
+                  "h": 274,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 677,
+                  "y": 34,
+                  "w": 230,
+                  "h": 307,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 968,
+                  "y": 8,
+                  "w": 226,
+                  "h": 330,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1248,
+                  "y": 38,
+                  "w": 244,
+                  "h": 291,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 58,
+                  "y": 355,
+                  "w": 226,
+                  "h": 309,
+                  "component": 54
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 347,
+                  "y": 376,
+                  "w": 254,
+                  "h": 293,
+                  "component": 56
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 656,
+                  "y": 381,
+                  "w": 287,
+                  "h": 301,
+                  "component": 57
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 981,
+                  "y": 333,
+                  "w": 264,
+                  "h": 357,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1260,
+                  "y": 343,
+                  "w": 261,
+                  "h": 338,
+                  "component": 53
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 59,
+                  "y": 693,
+                  "w": 272,
+                  "h": 316,
+                  "component": 115
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 382,
+                  "y": 686,
+                  "w": 245,
+                  "h": 309,
+                  "component": 112
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 670,
+                  "y": 731,
+                  "w": 252,
+                  "h": 274,
+                  "component": 127
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 974,
+                  "y": 694,
+                  "w": 229,
+                  "h": 313,
+                  "component": 117
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1287,
+                  "y": 666,
+                  "w": 209,
+                  "h": 337,
+                  "component": 109
+                }
+              ],
+              "uniformScale": 0.25770308123249297,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "1c56351044276b8404ea298bca1dd575c4613dd32750de3d3eb4198da98fa56c",
+                "atlasSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 27,
+                  "right": 27,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 37,
+                  "right": 38,
+                  "top": 20,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.05,
+                  1.2,
+                  1.4,
+                  2,
+                  2.5,
+                  2.8,
+                  2.2,
+                  1.8,
+                  2.1,
+                  2.3,
+                  2.3,
+                  3.4,
+                  2.6,
+                  1.4,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  15,
+                  16,
+                  14,
+                  13,
+                  15,
+                  2,
+                  2,
+                  24,
+                  31,
+                  38,
+                  42
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "reviewDate": "2026-10-24",
+                "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+                "frames": {
+                  "8": "2.1/15",
+                  "9": "2.3/2",
+                  "10": "2.3/2"
+                },
+                "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "dunk-360": {
+            "src": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "12ef9c33d9f4c1287cc73ef80e21aaa45357298967f65b5b1a825a522315d77f"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2ea6b51d725fa3c816915306e4eb5babedc2f0cfafac291789b9547fca9304d0"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "e47ddc512804ee52fe827cbdb1e1da466d4aceedf95428e4139ea1858b278180"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "79ad79526eef84689dc473d37b68fd102fe3856c3bf3d7066c951eed4b06d119"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "8169263b8d3b5c290219b4b3d809490b05e0779202921a65478c954f16cef82b"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c1ac7d918e1a3ea87a6daed44906408ab0530a7dc5a3564437fa2a85cfb82d0f"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "2f5d2bbd98e6d979e361e898f43d19a548b19813542554858453e943b87ad905"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "3222c46edd2cc46b1c93f8ba6658d6841387b6af827f5dd49c8cc5f8bd0be22e"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "4283744683f7f2e06523b88b462ebe6570eeba6716826034f081cf43035a70b5"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d8b7ee4a8529dc8a7567d5c99300add3da083402d7c5c877acad76971239a554"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "1bf37d75ec8f9ec2f52d535245ebdb32b551ad7760f2bd8eb190bea009b83154"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "9b2939c442deef59338641bff54b0b4469eaa941dcb68cd8eeb5101e0bf071e5"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "d36530eadd3c2240bbbfbfeab61e59b097297bd9a93ca7b8fba4472f088cb813"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "212629d730182c4407cc58a86a16feeeedaac56a36359f2a350c925e79d30b12"
+              }
+            ],
+            "sha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "dunk-360",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-cc943581-7fab-4749-8e1d-d57de172810a",
+              "imageGenerationId": "exec-cc943581-7fab-4749-8e1d-d57de172810a",
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-36015-cleaned.png",
+              "sourceSha256": "b204b1b9a21dd35b38a84ee0d516187b0c07119b87a55da83fc7111bd1fda8fc",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-36015-generated-raw.png",
+              "rawSourceSha256": "b23abcd256492c267bdfba7c139aa710d2f4cc1e192466e5ec0c8fb0b47112d9",
+              "prompt": "Create one original transparent RGBA spritesheet of fifteen full-body right-facing Moxie Capwell dunk-360 poses, exactly 5 columns x 3 rows, strict row-major. Use supplied Moxie canon refs: adult human woman, pale skin and lavender-purple eyes, long thick lavender high ponytail with small gold hair tie, athletic mature anatomy, purple/silver basketball uniform with white side panels, wristbands and purple high-tops. Consistent face, body and uniform in every view.\n\nClean crisp readable 1990s arcade basketball pixel-cel art. Exact 1536x1024, fifteen separate complete figures, one centered per cell with transparent gaps/margins, never crop or touch canvas edges. True-transparent RGBA. Moxie alone. The basketball is a separate game object and is never drawn. No hoop/rim/net, opponent, court, floor, shadows, background, effects, glow, labels, text.\n\nA one-handed 360 dunk with a full 360-degree airborne body turn. Make body orientation clearly progress across each view while keeping hair and uniform recognizable:\n0 run-in facing right;\n1 gather and turn shoulders;\n2 takeoff tick4;\n3 airborne three-quarter front;\n4 rotate to side view;\n5 back view, ponytail trails with spin;\n6 three-quarter back;\n7 face turns away while knees tuck;\n8 reach overhead as rotation continues;\n9 three-quarter front returns;\n10 face/front view, nearing a full rotation at peak tick14;\n11 extend right hand to imaginary rim;\n12 release at tick21 after completing the 360;\n13 scoring finish tick23 and begin descending;\n14 land oriented right, knees flex, recovery.\nKeep the left arm extended for balance and anatomy correct. No ball, hoop or background drawn.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separate ball rotates from her lead-hand lane as her body completes the airborne 360; the release occurs at frame12 / tick21. No ball or hoop in the art.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.8,
+                  2.5,
+                  3,
+                  2.8,
+                  2.5,
+                  2.2,
+                  2.4,
+                  2.8,
+                  3.3,
+                  3.2,
+                  2.1,
+                  1.2,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  10,
+                  8,
+                  6,
+                  5,
+                  8,
+                  12,
+                  16,
+                  18,
+                  25,
+                  35,
+                  42
+                ]
+              },
+              "cleanupNotes": "Smooth generated backdrop removed via Moxie local RGB-contrast cleanup (Gaussian sigma38px; alpha fade contrast21–42). Raw source retained and 15 components isolated on pack.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen full distinct poses in 5x3. Body rotates from right-facing profile through back/three-quarter/front views over the jump and returns to a right-facing landing. Moxie identity, lavender ponytail/gold tie, mature human build, purple/silver outfit remain consistent. Right hand release frame12/tick21; scoring and landing follow. No ball drawn; alpha cleanup reviewed."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 15,
+                  "y": 44,
+                  "w": 270,
+                  "h": 286,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 355,
+                  "y": 65,
+                  "w": 274,
+                  "h": 274,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 633,
+                  "y": 18,
+                  "w": 270,
+                  "h": 316,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 945,
+                  "y": 24,
+                  "w": 289,
+                  "h": 290,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1251,
+                  "y": 8,
+                  "w": 269,
+                  "h": 316,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 35,
+                  "y": 352,
+                  "w": 224,
+                  "h": 313,
+                  "component": 68
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 367,
+                  "y": 345,
+                  "w": 256,
+                  "h": 306,
+                  "component": 66
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 678,
+                  "y": 345,
+                  "w": 245,
+                  "h": 318,
+                  "component": 67
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 967,
+                  "y": 343,
+                  "w": 257,
+                  "h": 320,
+                  "component": 65
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1280,
+                  "y": 328,
+                  "w": 247,
+                  "h": 317,
+                  "component": 64
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 27,
+                  "y": 673,
+                  "w": 277,
+                  "h": 305,
+                  "component": 100
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 339,
+                  "y": 662,
+                  "w": 241,
+                  "h": 346,
+                  "component": 97
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 636,
+                  "y": 697,
+                  "w": 286,
+                  "h": 320,
+                  "component": 104
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 978,
+                  "y": 670,
+                  "w": 247,
+                  "h": 337,
+                  "component": 98
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1267,
+                  "y": 727,
+                  "w": 260,
+                  "h": 273,
+                  "component": 111
+                }
+              ],
+              "uniformScale": 0.2658959537572254,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "6aad9dfdaae7b34b44a325f5196eb782d5027d7d364c9dd524e4560f703ead0f",
+                "atlasSha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 25,
+                  "right": 26,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 34,
+                  "right": 34,
+                  "top": 18,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.8,
+                  2.5,
+                  3,
+                  2.8,
+                  2.5,
+                  2.2,
+                  2.4,
+                  2.47,
+                  2.47,
+                  3.2,
+                  2.1,
+                  1.2,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  10,
+                  8,
+                  6,
+                  5,
+                  8,
+                  3.7,
+                  3.7,
+                  18,
+                  25,
+                  35,
+                  42
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "reviewDate": "2026-10-24",
+                "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+                "frames": {
+                  "8": "2.4/8",
+                  "9": "2.47/3.7",
+                  "10": "2.47/3.7"
+                },
+                "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "dunk-tomahawk": {
+            "src": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "0fbde1b684875200d9822e55c42bbaa23cd3d0df43b9f0f8935ddc4b6bc9b487"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "353dc695b8cd0bf104bb73414e259e57c7122b3b02e19c581736072a75771ec5"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "abdb6cc5ef3945e57633666b584a55eeedb8639153a32a7e169c9698b8b99dc2"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "d6d6854b1c2a9c4910e3f456ff21d193faaf877173b14f70c70b6e1e27a6b928"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "ba511a2a9594bba31db4672259d766e6d9955e91f5321f9ed01c5557fe4dd37e"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "ad25c41fb2d578c9b7ed1f7712f72b86dbd952b9f306e4ba7832b80fcaa127b5"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "86c8c5fc2f00daf6514cc6f9173f0e831e8468c8d9859d091ff5141005a2cd6c"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e17c2e1f3b57ce0711d8a843469c930abb0cce1573fdc3b9616a2445d174402d"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "763a95794aa9a11cfd500fd96f1c936ac1a126bfcaa3f1efe8a7d1076ccefe18"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "c8a2973141fa67a294f0254491dc770fef7f5c98fb21e8f03e7b1895fca54bb5"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "0098c1318dad2a63dc0846c840721a38d23d12c5898586c6fbb2f96a6f398b1f"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b9707ec2503e5c4386205729ca2a896bbc0c46fb7b9b76dd35040ee3025ad0e0"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b2f5e31a1d5c23b5838d104114eaaedb3a83022283da68917826f2bedb809afa"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "0319100e4cd0c257f07822c0bc57990fa35a9e4875488cb21da83626a2cf469e"
+              }
+            ],
+            "sha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "dunk-tomahawk",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-6a4cf58a-5a8a-41de-9552-6f8d104b03ae",
+              "imageGenerationId": "exec-6a4cf58a-5a8a-41de-9552-6f8d104b03ae",
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-tomahawk15-cleaned.png",
+              "sourceSha256": "77132204357e577d1e32b711b3e9601bf17084adb4393156e292c1378a215e04",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-tomahawk15-generated-raw.png",
+              "rawSourceSha256": "7ebf8b2265515bd94676ae7969006599b04dd72d7b75695a5fb965fb50d8e442",
+              "prompt": "Create one original true-transparent RGBA spritesheet of fifteen full-body right-facing Moxie Capwell dunk-tomahawk poses in exact 5x3 row-major order. Supplied canon refs are authoritative: adult human woman, pale skin, lavender eyes, very long thick lavender ponytail with gold tie, mature athletic build, purple-and-silver uniform with white panels, purple wristbands and high-tops. Preserve her consistent face, hair, human anatomy, uniform and scale.\n\nCrisp readable 1990s arcade basketball pixel-cel sprites. Canvas 1536x1024; exactly fifteen separate complete figures in a 5-column x 3-row grid. Wide transparent gutters/margins, no crop, overlap or edge contact. True alpha-zero background. Moxie alone. No ball in sprite; the game basketball remains separate. No hoop, rim, net, court, floor, shadows, effects, background, glow, text or labels.\n\nOne-handed tomahawk dunk: right hand raises the separate ball high behind her head then hammers straight down in front of the body.\n0 approach run;\n1 gather steps;\n2 takeoff at tick4;\n3 rise with right hand cocked high behind head;\n4 knees tuck, right elbow bent and hand behind crown;\n5 reach apex, right hand still cocked;\n6 draw right arm farther behind head;\n7 start forceful tomahawk swing, elbow comes forward;\n8 accelerate arm downward;\n9 extend hand toward imaginary rim path;\n10 slam downward and release at tick21;\n11 scoring finish tick23, right arm below imaginary rim;\n12 descend;\n13 land with knees bent;\n14 balanced recovery stance.\nShow clear overhead cock and direct downward strike, anatomically correct shoulders/elbows and visible free left arm. All hands are empty. Maintain ponytail silhouette in every pose.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Separate Moxie ball rises behind her crown into the cocked right hand, then plunges down and forward with the tomahawk release at frame10 / tick21; ball never appears in art.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.4,
+                  2,
+                  2.5,
+                  3,
+                  3.3,
+                  3.1,
+                  2.8,
+                  2.2,
+                  1.5,
+                  0.9,
+                  0.6,
+                  0.35,
+                  0.35
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  14,
+                  15,
+                  14,
+                  13,
+                  12,
+                  14,
+                  20,
+                  30,
+                  38,
+                  42,
+                  42
+                ]
+              },
+              "cleanupNotes": "Applied Moxie RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21–42) to remove generated backdrop; raw retained; isolated components at packing.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen complete Moxie human poses, consistent face, lavender ponytail/gold tie, mature athletic anatomy and purple/silver uniform. Right hand cocks high behind head then comes down in a clear tomahawk swing; release frame10/tick21, score, descent and landing follow. Ball absent from art; backdrop-cleaned transparent atlas reviewed."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 19,
+                  "y": 54,
+                  "w": 287,
+                  "h": 297,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 357,
+                  "y": 63,
+                  "w": 241,
+                  "h": 294,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 664,
+                  "y": 61,
+                  "w": 256,
+                  "h": 296,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 974,
+                  "y": 14,
+                  "w": 240,
+                  "h": 347,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1265,
+                  "y": 28,
+                  "w": 256,
+                  "h": 309,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 37,
+                  "y": 384,
+                  "w": 282,
+                  "h": 287,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 359,
+                  "y": 367,
+                  "w": 283,
+                  "h": 295,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 681,
+                  "y": 376,
+                  "w": 260,
+                  "h": 302,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 979,
+                  "y": 377,
+                  "w": 243,
+                  "h": 295,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1264,
+                  "y": 380,
+                  "w": 227,
+                  "h": 298,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 47,
+                  "y": 690,
+                  "w": 217,
+                  "h": 294,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 357,
+                  "y": 700,
+                  "w": 244,
+                  "h": 286,
+                  "component": 53
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 675,
+                  "y": 720,
+                  "w": 237,
+                  "h": 281,
+                  "component": 59
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 957,
+                  "y": 720,
+                  "w": 252,
+                  "h": 278,
+                  "component": 60
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1266,
+                  "y": 720,
+                  "w": 257,
+                  "h": 278,
+                  "component": 61
+                }
+              ],
+              "uniformScale": 0.26512968299711814,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "0ce181a6328cb49548b584aba798ab5bab1dc70fa82cd67a614c12a054c9a5d3",
+                "atlasSha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 26,
+                  "right": 26,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 35,
+                  "right": 35,
+                  "top": 17,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.4,
+                  2,
+                  2.5,
+                  3,
+                  3.3,
+                  3.1,
+                  0.96,
+                  0.15,
+                  0.15,
+                  0.9,
+                  0.6,
+                  0.35,
+                  0.35
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  14,
+                  15,
+                  14,
+                  13,
+                  14.4,
+                  7,
+                  7,
+                  30,
+                  38,
+                  42,
+                  42
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "reviewDate": "2026-10-24",
+                "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+                "frames": {
+                  "8": "0.96/14.4",
+                  "9": "0.15/7",
+                  "10": "0.15/7"
+                },
+                "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "dunk-double": {
+            "src": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "d0a8f3a86ec82f689f56b93edaa1941ce340aca1c1a067bd6aaa2a80a449c85e"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "7211e8b5ac65d48c045aabb5a0ef8b8cff02bdb4f1c8c7585e15e8be8a60a1a8"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "dfba57da049a9451fd37f214fd75cc9cc80e7697503ec5992a18c83beff90e9d"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "d139e87b25c906caeaaf23eb1cd90396d5778216f920446189d407a3aae45242"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "fde9e57d0d52e9145c929c4a078407692667d33d3e711a872bae223e7c336593"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "ea90e7bfd8f9792b29bd7f9f28feeec4c3aa003831b1c35e16d98df749e6f411"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "2ddb4b6a09346a43a2cfac65d5a4d3e87958f5b04ed7a51c5d58fb627d85a400"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "bd0303c7a0c24cc2733c1a58eb19d22f1d6bcd62b51430673ffe329007e69516"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "18bd016eed3f1fbfb5dce5e3409d977c17607235f6efa334953b3c315cfd5f6b"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "56b978d1c88ce6bd21ad67eb18a35d8a4a6f10392a657a31536dd2f85eea4103"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "c89debe8d23b8ae25cd79d9d8e12a4363d18e45a0a36a702157ae4815d0b781e"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "84c1badfbcb7a6a80917c162c53304034c74d08b5eadc1c7879da4d8e7a2d728"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "58050c51eff2c7e797723bf99c272b5a38f4d5684d6bc69d40af74f59220990d"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "80d98d7ba6de778e01eb1745d31f9565a079454e7139ddef4923b91b9759d8b7"
+              }
+            ],
+            "sha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "dunk-double",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-2b2395cd-3d7b-489c-9e65-1fe0c9487ef7",
+              "imageGenerationId": "exec-2b2395cd-3d7b-489c-9e65-1fe0c9487ef7",
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-double15-cleaned.png",
+              "sourceSha256": "572ff25ad4aa9dc0dab2a5db93bb41a840d8075911ae57f16f1364857d179188",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-double15-generated-raw.png",
+              "rawSourceSha256": "3eb15a972389adcb9cf36e700b795051603850baf632b00b4b1b12f88f8fbc6b",
+              "prompt": "Create one original transparent RGBA sheet containing exactly fifteen complete full-body right-facing Moxie Capwell basketball dunk-double poses, 5x3 row-major. Use Moxie's attached portrait/gameplay refs strictly: adult human woman, pale skin, lavender eyes, very long lavender high ponytail and gold tie, mature powerful athletic anatomy, purple-and-silver uniform with white side panels, purple wristbands, purple high tops. Keep consistent identity and anatomy.\n\nCrisp readable 1990s arcade basketball pixel-cel sprites. 1536x1024 canvas, fifteen separate poses centered in their cells, wide transparent margins/gutters, no crop, overlap or canvas-edge contact. True transparent RGBA. Moxie alone. Basketball is a separate game object, not drawn. No hoop, rim, net, opponent, court, floor, shadow, background, effect, glow, text or label.\n\nTwo-handed double-hand dunk: Moxie gathers and raises both empty hands together above her head, then extends both arms and drives the invisible ball down through the imaginary rim, releases, descends and lands.\n0 approach run;\n1 gather;\n2 takeoff at tick4;\n3 rise, both hands lift;\n4 knees tuck, hands come together overhead;\n5 rise toward apex;\n6 reach both hands high;\n7 peak tick14, both hands over crown;\n8 bring both arms forward toward imaginary hoop;\n9 two-hand slam extension;\n10 release at tick21 with hands moving down;\n11 scoring finish tick23, arms below imaginary rim;\n12 descend;\n13 land absorbing impact on flexed knees;\n14 balanced recovery.\nKeep two arms symmetric but natural with correct shoulders/elbows; long ponytail streams behind. Show all body parts. No visible ball or hoop anywhere.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Moxie-specific separate ball follows both hands overhead and down the two-hand lane, releasing at frame10 / tick21; no ball is drawn.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.4,
+                  1.8,
+                  2.3,
+                  2.8,
+                  3.2,
+                  3.3,
+                  3.2,
+                  2.8,
+                  2.2,
+                  1.7,
+                  1.2,
+                  0.7,
+                  0.6
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  14,
+                  16,
+                  17,
+                  18,
+                  17,
+                  16,
+                  20,
+                  28,
+                  34,
+                  39,
+                  42
+                ]
+              },
+              "cleanupNotes": "Backdrop removed via local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21–42); raw source retained and fifteen pose components isolated at pack.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen complete Moxie poses in 5x3 layout with consistent human anatomy and identity. Two hands gather and rise overhead, remain together through peak, extend forward/down for the double-hand finish, release at frame10/tick21, then descend and land. No ball is drawn; backdrop cleanup and packed atlas reviewed."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 55,
+                  "y": 54,
+                  "w": 260,
+                  "h": 276,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 381,
+                  "y": 60,
+                  "w": 230,
+                  "h": 270,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 660,
+                  "y": 78,
+                  "w": 260,
+                  "h": 252,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 969,
+                  "y": 9,
+                  "w": 217,
+                  "h": 322,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1275,
+                  "y": 9,
+                  "w": 209,
+                  "h": 305,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 42,
+                  "y": 347,
+                  "w": 218,
+                  "h": 304,
+                  "component": 133
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 353,
+                  "y": 349,
+                  "w": 201,
+                  "h": 303,
+                  "component": 134
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 650,
+                  "y": 343,
+                  "w": 209,
+                  "h": 298,
+                  "component": 132
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 967,
+                  "y": 375,
+                  "w": 266,
+                  "h": 276,
+                  "component": 135
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1232,
+                  "y": 376,
+                  "w": 291,
+                  "h": 267,
+                  "component": 136
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 39,
+                  "y": 694,
+                  "w": 273,
+                  "h": 303,
+                  "component": 297
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 360,
+                  "y": 693,
+                  "w": 249,
+                  "h": 304,
+                  "component": 296
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 664,
+                  "y": 697,
+                  "w": 226,
+                  "h": 312,
+                  "component": 298
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 963,
+                  "y": 736,
+                  "w": 242,
+                  "h": 271,
+                  "component": 331
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1281,
+                  "y": 701,
+                  "w": 218,
+                  "h": 306,
+                  "component": 299
+                }
+              ],
+              "uniformScale": 0.2857142857142857,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "7c9d2d7f6c01e0dd09d16c4daa45f7a219c8bb684a2de641d80e2855c5ae8a6a",
+                "atlasSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 22,
+                  "right": 23,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 36,
+                  "right": 36,
+                  "top": 19,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.4,
+                  1.8,
+                  2.3,
+                  2.8,
+                  3.2,
+                  3.3,
+                  1.71,
+                  1.07,
+                  1.07,
+                  1.7,
+                  1.2,
+                  0.7,
+                  0.6
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  14,
+                  16,
+                  17,
+                  18,
+                  11.8,
+                  14,
+                  14,
+                  28,
+                  34,
+                  39,
+                  42
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "reviewDate": "2026-10-24",
+                "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+                "frames": {
+                  "8": "1.71/11.8",
+                  "9": "1.07/14",
+                  "10": "1.07/14"
+                },
+                "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "dunk-clutch": {
+            "src": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "48384855ba76689be8bae3bf073f6e2f76b497f0ede32cc13c0fbc1bf6c39d78"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a8009d1fd4e57e6bf4618afcc02539838e19d0cb2bdd4a4bb3f9708b5653a00d"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "d0a9c57051c0614d39a8df3acf039b12c261e3f4730da22bbc9e80e005c0e09f"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a2957b5c47a8f4ff9f4ee71020674618cd02b5f1d8b6574ca7c54b458a9b6dd6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "09b8caa5ae0065abe0eb8cf72745fcb69b4ac911e56e165c09b24aecb9a1d07c"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c6c843928369182ca923d77bd27afffef398dc1ea207529f43b6c3798921f891"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "f1cbab8fe70dee4764792e1a06671919efd35e0daa57e26f6a49fa48825148b9"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "37f8534a83d2e7663007d8df53273f8fba69a6166f986e5742ccf9d9188ab521"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "a49088e782dbedb59023445bd6696d91c99c39ed82dea3d2bde23552e5b6c32e"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8804aa6d03e0b5c7913ad26ca7910578f3f06bde1df4641d54ee497875b19f8b"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "f6e66f311f86af6bbe7dc10a46fe23e1920ed93516264628365c6be99c72bf7e"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "fb89b3d1f4ac9d375fc0f739270f38ac80b4b018f32f9ed70cc9ed408b1994b8"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "fd939a2e98e0b8851a9c9715e23c266bda1d6904d913b98d478d738423bcd66d"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "8b012ce43ccd869f1d8c58a3424c5b80f8611c962dfad3b313cbb9cb721e5c6a"
+              }
+            ],
+            "sha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "dunk-clutch",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-552d7fbe-dd8d-4e88-a2b0-008d63def0d6",
+              "imageGenerationId": "exec-552d7fbe-dd8d-4e88-a2b0-008d63def0d6",
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-clutch15-cleaned.png",
+              "sourceSha256": "17a86320a17188dce45d62b74b50eabf5ef02cd3a72c9a8a5aa599420de0ec55",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-clutch15-generated-raw.png",
+              "rawSourceSha256": "f4b7cdf35881faed506311279831a66b43343f0e7b6a0152c0e19033849f3e71",
+              "prompt": "Create one original true-transparent RGBA spritesheet of fifteen full-body right-facing Moxie Capwell dunk-clutch poses, strict 5x3 row-major. Use Moxie's supplied portrait/gameplay refs as canon: adult human woman, pale skin, lavender eyes, thick very long lavender high ponytail with small gold tie, mature athletic anatomy, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve identity and scale throughout.\n\n1990s arcade basketball pixel-cel art with crisp outlines. Exact 1536x1024 canvas. Fifteen distinct complete figures centered in cells with wide margins and transparent gutters; no overlap, no clipping or edge contact. True-transparent RGBA background. Moxie alone. No ball drawn because gameplay renders it separately. No hoop, rim, net, opponent, court, floor, shadow, glow, effects, background, text or labels.\n\nA clutch dunk: Moxie gathers the invisible ball securely with both hands tight to her chest and keeps it clutched compactly throughout the jump and peak; then opens one hand and releases in a short direct reach at the rim.\n0 sprint approach;\n1 gather and cup hands tightly at sternum;\n2 takeoff tick4 while clutch remains centered at chest;\n3 rise with elbows tucked in;\n4 knees tuck, both hands guard the chest;\n5 continue upward, head turns toward rim;\n6 approach peak with tight compact hold;\n7 peak tick14, both forearms still close to torso;\n8 maintain the clutch hold through a slight shoulder turn;\n9 begin short one-hand delivery toward imaginary hoop;\n10 one-hand release at tick21, right arm snaps forward/up while left hand retracts;\n11 scoring finish tick23 with right hand below rim lane;\n12 descend with arms folding back;\n13 land on bent knees;\n14 regain ready stance.\nKeep the clutch visually distinct from power dunk: hands stay close to chest through frame8, followed by a short release. Empty visible hands; no ball, hoop or rim drawn.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Separate Moxie ball remains tightly at her chest through the rise and peak, then advances to her right hand for the short release at frame10/tick21. No ball drawn.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.5,
+                  1.8,
+                  2.2,
+                  2.6,
+                  2.9,
+                  3.1,
+                  2.9,
+                  3.2,
+                  2.4,
+                  1.8,
+                  1.2,
+                  0.8,
+                  0.6
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  22,
+                  28,
+                  35,
+                  40,
+                  42,
+                  42
+                ]
+              },
+              "cleanupNotes": "Backdrop removed with Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21–42); raw preserved; isolated components at pack.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen complete Moxie human poses. Hands stay clasped tightly at chest through takeoff and peak, then separate for a short one-hand release at frame10/tick21, followed by score and landing. Her adult identity, lavender eyes and ponytail/gold tie, purple/silver uniform and proportions remain consistent. No basketball in art; cleaned atlas reviewed."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 20,
+                  "y": 35,
+                  "w": 286,
+                  "h": 293,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 339,
+                  "y": 32,
+                  "w": 261,
+                  "h": 299,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 673,
+                  "y": 14,
+                  "w": 188,
+                  "h": 322,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 975,
+                  "y": 14,
+                  "w": 188,
+                  "h": 318,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1264,
+                  "y": 11,
+                  "w": 199,
+                  "h": 294,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 37,
+                  "y": 355,
+                  "w": 206,
+                  "h": 278,
+                  "component": 65
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 340,
+                  "y": 340,
+                  "w": 226,
+                  "h": 273,
+                  "component": 60
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 649,
+                  "y": 346,
+                  "w": 228,
+                  "h": 271,
+                  "component": 63
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 952,
+                  "y": 343,
+                  "w": 231,
+                  "h": 302,
+                  "component": 61
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1235,
+                  "y": 344,
+                  "w": 277,
+                  "h": 318,
+                  "component": 62
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 14,
+                  "y": 633,
+                  "w": 289,
+                  "h": 361,
+                  "component": 115
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 359,
+                  "y": 656,
+                  "w": 248,
+                  "h": 333,
+                  "component": 116
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 629,
+                  "y": 670,
+                  "w": 261,
+                  "h": 327,
+                  "component": 123
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 949,
+                  "y": 717,
+                  "w": 252,
+                  "h": 262,
+                  "component": 138
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1279,
+                  "y": 700,
+                  "w": 234,
+                  "h": 286,
+                  "component": 133
+                }
+              ],
+              "uniformScale": 0.2548476454293629,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "6fb51602ccf676c429301743f4a38753148ee8bb29aa03a5b99b40a08888c5ad",
+                "atlasSha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 27,
+                  "right": 28,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 40,
+                  "right": 40,
+                  "top": 24,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.5,
+                  1.8,
+                  2.2,
+                  2.6,
+                  2.9,
+                  3.1,
+                  1.48,
+                  2.44,
+                  2.44,
+                  1.8,
+                  1.2,
+                  0.8,
+                  0.6
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  14,
+                  15,
+                  16,
+                  17,
+                  6.6,
+                  15.5,
+                  15.5,
+                  35,
+                  40,
+                  42,
+                  42
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "reviewDate": "2026-10-24",
+                "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+                "frames": {
+                  "8": "1.48/6.6",
+                  "9": "2.44/15.5",
+                  "10": "2.44/15.5"
+                },
+                "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "dunk-scythe": {
+            "src": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "1adbe3a32f8575c760fb4683b4df92e96e2af67c17a3767d2a924eff05517404"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c58284e99de666a5321f2fff40647506d58b0da44103b59b4d2054381b136e56"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "325eb560525e5016006d136c35c7d27c7dad17118d629b9ab9c68584ab22454f"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "8a6060d37fd2e63028a791d53ba43285b214006db52bbddf3ddc7214ec44f9f7"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "f28f9de4d9ca7f1aba54ceb7b324267016b49bed962bd25a41296fab584758cb"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "80bea4853e6e34f95f91d6164ae6db5a4c8298e347e96b067f983935e8620172"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a77fded1aa0d49d9a6bd6d0ff4a59301576b7a09d3ac4d6008598656366f8517"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "b363b5ede70cbf6d60255354f78b0f10da4edabd17cb83a74cecee199b08843d"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "1c3a27ef080df9993007d0e170b940e33043ba4de796a8dadcf9f36fa2284b52"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "70a4133f77e289cac9815dd78203bf474112be926ce42613027bf849aa9298e3"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "741d3620c22087c601df50920dec36b8e135c9e250e31cfc81752dd363ef9140"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "c3518935fdf919319ea3fae5fbbc3a559b0ff07fe000d5d98379f451379da928"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "2179ececb3fb20648a98996aca2f07705cdbdb416c46b84c7af96e71c6638f10"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b351da11c8c65cdab1f1399b551a558a5577dd59bfd12a3a6055632e7407fa85"
+              }
+            ],
+            "sha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "dunk-scythe",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-4cf51ffc-ef11-4094-a05c-be94f605eaae",
+              "imageGenerationId": "exec-4cf51ffc-ef11-4094-a05c-be94f605eaae",
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-scythe15-cleaned.png",
+              "sourceSha256": "25496d531935c067449e95b1739c7dd1c702c09227d51bf10804063917121865",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-scythe15-generated-raw.png",
+              "rawSourceSha256": "655eeb4c2fb96134937bca04568efc1c61273ef00e55b5a9f642ebafb268213b",
+              "prompt": "Create one true-transparent RGBA spritesheet of fifteen right-facing Moxie Capwell dunk-scythe poses, exactly 5x3 grid row-major. Strict Moxie identity from attached refs: adult human woman, pale skin, lavender eyes, very long thick lavender high ponytail with small gold tie, mature athletic build, purple/silver uniform with white side panels, purple wristbands, purple high tops. Preserve her face, hair, anatomy, colors and outfit in every pose.\n\n1990s arcade basketball pixel-cel sprite art, clean bold outlines, clear silhouettes. 1536x1024, fifteen complete figures, centered within separate cells, wide transparent gutters and margins, no crop or edge contact. True alpha-transparent background. Moxie alone. The basketball remains a separate game object; never draw it. No hoop/rim/net, opponent, court, ground, shadows, background, effects, glow, words or labels.\n\nDunk-scythe action: as Moxie rises, her right hand carries the imaginary ball in a compact diagonal crescent across her body, like a scythe cut, then sends it toward the rim for a one-hand dunk. Keep path diagonal, not a full windmill.\n0 approach sprint;\n1 gather and bend;\n2 takeoff at tick4;\n3 rise, right hand low near hip;\n4 sweep right hand diagonally across abdomen;\n5 hand crosses toward left side of chest;\n6 hand climbs diagonally across sternum;\n7 hand passes near opposite shoulder, compact crescent;\n8 hand reaches beside cheek as she nears peak tick14;\n9 finish diagonal arc above head toward imaginary rim;\n10 one-hand release at tick21;\n11 scoring follow-through tick23, hand comes below rim lane;\n12 descend, shoulders unwind;\n13 land on flexed knees;\n14 stable recovery.\nMoxie remains upright bipedal with visible left balancing arm and natural shoulders/elbows. All hands empty, hair fully visible, no ball or hoop drawn.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-66da18f2-0348-4d9a-a566-7cff9cad7224",
+                  "reason": "Wrong character: red-and-black-uniformed athlete with dark hair, not Moxie Capwell."
+                }
+              ],
+              "mirrorEligible": true,
+              "ballPolicy": "Separate Moxie ball crosses the torso in a compact diagonal crescent from low hand position toward the high right-hand release; never drawn in the sprite.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.4,
+                  1.2,
+                  1.5,
+                  2,
+                  2.5,
+                  3,
+                  3.4,
+                  3.5,
+                  2.5,
+                  1.6,
+                  1.2,
+                  0.8,
+                  0.6
+                ],
+                "forward": [
+                  6,
+                  8,
+                  9,
+                  8,
+                  7,
+                  6,
+                  8,
+                  11,
+                  15,
+                  18,
+                  25,
+                  35,
+                  40,
+                  42,
+                  42
+                ]
+              },
+              "cleanupNotes": "Removed smooth generated backdrop with Moxie RGB-contrast alpha matte (Gaussian sigma38px; alpha fade contrast21–42); isolated components during packing. Raw source retained.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen full Moxie human poses in 5x3 row-major. Right arm traverses a diagonal crescent across the torso toward an overhead right-hand release, distinct from the windmill loop. Adult anatomy, lavender ponytail/gold tie, purple/silver uniform remain consistent. Release frame10/tick21 and landing clear. Wrong-athlete candidate rejected; separate ball absent from sprite; cleaned atlas checked."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 20,
+                  "y": 13,
+                  "w": 286,
+                  "h": 312,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 383,
+                  "y": 61,
+                  "w": 230,
+                  "h": 265,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 654,
+                  "y": 11,
+                  "w": 258,
+                  "h": 314,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 980,
+                  "y": 8,
+                  "w": 229,
+                  "h": 318,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1285,
+                  "y": 9,
+                  "w": 233,
+                  "h": 320,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 48,
+                  "y": 345,
+                  "w": 265,
+                  "h": 303,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 353,
+                  "y": 345,
+                  "w": 276,
+                  "h": 287,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 652,
+                  "y": 339,
+                  "w": 274,
+                  "h": 290,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 944,
+                  "y": 346,
+                  "w": 286,
+                  "h": 302,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1258,
+                  "y": 327,
+                  "w": 259,
+                  "h": 341,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 17,
+                  "y": 655,
+                  "w": 257,
+                  "h": 341,
+                  "component": 106
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 345,
+                  "y": 697,
+                  "w": 249,
+                  "h": 279,
+                  "component": 107
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 657,
+                  "y": 708,
+                  "w": 242,
+                  "h": 295,
+                  "component": 109
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 962,
+                  "y": 734,
+                  "w": 245,
+                  "h": 264,
+                  "component": 114
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1279,
+                  "y": 701,
+                  "w": 224,
+                  "h": 303,
+                  "component": 108
+                }
+              ],
+              "uniformScale": 0.2697947214076246,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "f6f66e1c2ac925e8590eb79c04b9183f37e82f16001d076cad03c1a220a17797",
+                "atlasSha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 25,
+                  "right": 26,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 34,
+                  "right": 34,
+                  "top": 20,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.4,
+                  1.2,
+                  1.5,
+                  2,
+                  2.5,
+                  3,
+                  1.48,
+                  2.47,
+                  2.47,
+                  1.6,
+                  1.2,
+                  0.8,
+                  0.6
+                ],
+                "forward": [
+                  6,
+                  8,
+                  9,
+                  8,
+                  7,
+                  6,
+                  8,
+                  11,
+                  2.2,
+                  8.5,
+                  8.5,
+                  35,
+                  40,
+                  42,
+                  42
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "reviewDate": "2026-10-24",
+                "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+                "frames": {
+                  "8": "1.48/2.2",
+                  "9": "2.47/8.5",
+                  "10": "2.47/8.5"
+                },
+                "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "alley-oop-power": {
+            "src": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "ed33937dd1499883d8fd60b5235942bbb58380c89d39c61397758ca4a6c98e9d"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "8fcefd9514646ea9ec543f095e88d919794e688fee75c5cb22a4e0e0a624cf11"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "b2da0058161eb6558a59ca6143174ce5b5aead02d085e086277d26af8da5b184"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "7b2561b4380b8c308a7b36ecf9b519ec714093fd38e2c5490b87e8aa53ca8922"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "af056ac58778bc178c182099779c4b2f8531b2a064de74d60b5b7485bca6f3e5"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5674953d2a83ed2e33081dd4b966eaad4a06aa1923a9036728b053721a59d779"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "7d4ef2bd535389626fb71c5c62a8a756b009e8556a94c3caa6ccaf0de4dd88d1"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "0b0c72f8688b8c020d3e494d36082d63eb6d146d669242bae3da58a2ef2202ba"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "18aac98f3fe6ff4b0e608bbd2e086478646af47d1a724ec7c8cb0258787b1da2"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "b61b3b7d396454a68c638a36eeb8b1567f0462531f9c62f6ce9082b164df85cd"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "46f80ded1511ea3b29573f435ffc6a65ddfc6449994f98080ec2d80bc9bd617f"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "4d43393502fecdc9726858732fc4f677f08837ab7dcd235bc01c8acdb04ec4e4"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "e6583a5cca21e0289112a7eec88fc365fd814bad352b62ed3951b8e32a379fb9"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "55b633a9c7dd4dd915ebe867ad0c88cff74413aa5b70c3c4b6ce5453268cc0f9"
+              }
+            ],
+            "sha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "alley-oop-power",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-c1638557-aef5-48c1-88a9-09304dcf481b",
+              "imageGenerationId": "exec-c1638557-aef5-48c1-88a9-09304dcf481b",
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-alley-oop-power15-cleaned.png",
+              "sourceSha256": "9bf65b0dba57890c9d0f1b81ec53684e7fadf289266d8e667560a4582f87e942",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-alley-oop-power15-generated-raw.png",
+              "rawSourceSha256": "cec58315fae9ae7d101efab2d0b89608caf6ff99a0d353a8055ff1abf4b3561b",
+              "prompt": "Create one original true-transparent RGBA spritesheet with fifteen complete full-body right-facing Moxie Capwell alley-oop-power poses in a strict 5-column x 3-row grid, row-major. Use supplied Moxie canon refs strictly: adult human woman, pale skin, lavender eyes, very long thick lavender high ponytail tied with small gold band, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands, purple high-top shoes. Preserve consistent face, anatomy, hair and outfit.\n\nCrisp readable 1990s arcade basketball pixel-cel sprite art. Exact canvas 1536x1024 with fifteen separate full-body poses centered in cells and wide transparent gutters. All limbs, ponytail and shoes inside cell, no edge contact or overlap. True-transparent RGBA background. Moxie alone. Do not draw any basketball: lob and dunk ball are separate gameplay object. No passer, teammate, opponent, hoop, rim, net, court, floor, shadows, glow, effects, scenery, text or labels.\n\nAlley-oop power dunk: Moxie runs to receive a high lob, jumps and catches it in her right hand, then immediately drives it upward and slams it through the imaginary hoop one-handed.\n0 move toward lob, eyes up;\n1 plant and begin jump;\n2 takeoff tick4, arms starting upward;\n3 rise, both hands reach high;\n4 climb toward overhead pass;\n5 catch the separate lob overhead at tick10, right hand controls it;\n6 bring imaginary ball into a strong right-hand gather;\n7 rise toward peak with knees tucked;\n8 high power extension, right arm above head;\n9 drive down toward imaginary rim;\n10 release one-handed at tick21;\n11 scoring finish tick23, hand follows through below imaginary rim;\n12 descend and prepare to land;\n13 land with knees flexed;\n14 recover to balanced athletic stance.\nClearly read the initial high catch, then the power finish. Keep Moxie human with consistent face, ponytail/gold tie and purple/silver kit. Both hands remain empty in the art; no ball or hoop is drawn.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The Moxie-specific separate ball arcs in from the lob, meets her raised right hand at catch frame5/tick10, follows her through the power gather, and releases at frame10/tick21. Ball absent from sprite.",
+              "ballTrack": {
+                "height": [
+                  1.5,
+                  2,
+                  2.5,
+                  3,
+                  3.4,
+                  3.1,
+                  2.8,
+                  3,
+                  3.4,
+                  3.5,
+                  2.5,
+                  1.8,
+                  1.2,
+                  0.8,
+                  0.6
+                ],
+                "forward": [
+                  22,
+                  19,
+                  16,
+                  14,
+                  12,
+                  10,
+                  12,
+                  15,
+                  18,
+                  22,
+                  30,
+                  36,
+                  41,
+                  42,
+                  42
+                ]
+              },
+              "cleanupNotes": "Purple backdrop removed with Moxie local contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21–42); raw source retained, 15 components isolated during packing.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen complete Moxie poses in 5x3 row-major. High-lob reach and two-hand overhead catch at frame5/tick10 are clear, then transition into a right-hand power finish and frame10/tick21 release. Human identity, long gold-tied lavender ponytail, adult anatomy and purple/silver kit remain consistent. No ball/pass partner/hoop drawn; cleaned atlas reviewed."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 45,
+                  "y": 90,
+                  "w": 248,
+                  "h": 246,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 391,
+                  "y": 81,
+                  "w": 204,
+                  "h": 262,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 656,
+                  "y": 42,
+                  "w": 209,
+                  "h": 306,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 948,
+                  "y": 3,
+                  "w": 228,
+                  "h": 339,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1271,
+                  "y": 4,
+                  "w": 222,
+                  "h": 331,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 46,
+                  "y": 348,
+                  "w": 231,
+                  "h": 330,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 365,
+                  "y": 407,
+                  "w": 253,
+                  "h": 291,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 658,
+                  "y": 398,
+                  "w": 275,
+                  "h": 263,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 950,
+                  "y": 318,
+                  "w": 226,
+                  "h": 370,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1269,
+                  "y": 381,
+                  "w": 226,
+                  "h": 305,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 29,
+                  "y": 686,
+                  "w": 245,
+                  "h": 314,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 358,
+                  "y": 711,
+                  "w": 236,
+                  "h": 294,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 656,
+                  "y": 727,
+                  "w": 241,
+                  "h": 271,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 951,
+                  "y": 764,
+                  "w": 237,
+                  "h": 239,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1272,
+                  "y": 749,
+                  "w": 234,
+                  "h": 255,
+                  "component": 40
+                }
+              ],
+              "uniformScale": 0.24864864864864866,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "05685b3dd9828c81c846f0244a56631e67c034eef6ec1781cbd786b4f7807a69",
+                "atlasSha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 30,
+                  "right": 30,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 38,
+                  "right": 39,
+                  "top": 32,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.5,
+                  2,
+                  2.5,
+                  3,
+                  3.4,
+                  3.1,
+                  2.8,
+                  3,
+                  0.84,
+                  0.52,
+                  0.52,
+                  1.8,
+                  1.2,
+                  0.8,
+                  0.6
+                ],
+                "forward": [
+                  22,
+                  19,
+                  16,
+                  14,
+                  12,
+                  10,
+                  12,
+                  15,
+                  10.7,
+                  10,
+                  10,
+                  36,
+                  41,
+                  42,
+                  42
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "reviewDate": "2026-10-24",
+                "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+                "frames": {
+                  "8": "0.84/10.7",
+                  "9": "0.52/10",
+                  "10": "0.52/10"
+                },
+                "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
+          },
+          "alley-oop-reverse": {
+            "src": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f38606db893b10e4f05f7e44260055fb4eb49754e11aa98200eb34e7c7ba4d7f"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "b98bce3dd5d686f79ee98dd5a8448b2b70238c0a9a7ac365fdd16f17a9a08c7a"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "9c9e33a6cb5491e4708f78458b31a2524cc270834ea62edc2866455ff3924f5b"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "641c18b57bcea9e7249314ad65292fc1695bc6f2d1bddd6029d4e1ff8e5dc0dd"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "d82d95e5bd0a58afd4d5ab24225b63768839ee1be52825e08b76736dcc1dad88"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "2ab03962eb0a1b752edb63b9a1a9f1a8e14e8fe62d600a3deb767d9448c45d82"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "2b7432db06a17390f8566af2973e422bbbd0008f0a9fddacefeb95cdcab5776b"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "9463dc53a66ff9242c91a857f8895f63c77bd300317447b8b870368928a40d1b"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "a45e457ba23422f2ead3dc312f7f247a93bb177d1e9e71eb7587cd3835c4991c"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d3fc87666a0298017b296a1cc0f5bc99d1eb13ef2b507532c676f21e008153d8"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "ed962b408603ecf645513fb37cea352832a583c35365cb2a1c3fdc877f605778"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "7f4eeb25934984bed2a40a2cb386a64fe6480d329d12af7c1925e11baa2135a7"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "9c166b04f3faea10c09ac8b0d26b25fb27f52600a9b69157f2cb6fe8c16e63bb"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b46f66828a51469736db5a52a339f587ab10c157b696dc2314545938b062aa48"
+              }
+            ],
+            "sha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "clip": "alley-oop-reverse",
+              "direction": "right",
+              "canonicalSection": "J.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-cb510e41-a8dd-4d4c-bcf9-6bce9393cef4",
+              "imageGenerationId": "exec-cb510e41-a8dd-4d4c-bcf9-6bce9393cef4",
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-alley-oop-reverse15-cleaned.png",
+              "sourceSha256": "2d21d2c3b4cdde9f9db4e2dd82e27acbccb396a05635323be5660d2fc48e9221",
+              "rawSourceImage": "tools/generate-art/sources/moxie-capwell-alley-oop-reverse15-generated-raw.png",
+              "rawSourceSha256": "85a396d9b84a9ec2647994836738243ff57f964ba0272c1e248c21ee49e79592",
+              "prompt": "Create one original true-transparent RGBA 5x3 row-major spritesheet of fifteen complete right-facing Moxie Capwell alley-oop-reverse poses. Moxie's supplied canon portrait/gameplay references define identity: adult human woman, pale skin, lavender-purple eyes, long thick lavender ponytail with small gold tie, mature athletic body, purple-and-silver uniform with white side panels, purple wristbands and high tops. Preserve exact face, anatomy, hair/tie and outfit in every view.\n\n1990s arcade basketball pixel-cel art, crisp readable outlines. Exact 1536x1024 canvas, 15 separate complete figures, each centered with wide transparent margins/gutters and no clipping/overlap. True transparent RGBA. Moxie alone. Basketball remains separate gameplay art and is never drawn. No teammate, opponent, hoop/rim/net, court/floor, shadow, scenery, background, glow, effects, text or labels.\n\nAlley-oop reverse dunk: Moxie receives a high lob, turns her back to the imaginary rim, then reaches behind her head to dunk backward on the far side.\n0 cut toward the lob, eyes up;\n1 plant to jump;\n2 takeoff at tick4;\n3 reach high with both hands;\n4 receive lob at frame5/tick10 with right hand;\n5 pull the separate ball close to shoulder;\n6 twist hips and shoulders away, starting a reverse turn;\n7 back faces the imaginary rim, right arm draws the ball behind her head;\n8 rise with knees tucked and hand behind crown;\n9 reach backward around the far side of her head;\n10 extend into the reverse dunk and release at tick21;\n11 score finish tick23, hand follows down behind the head;\n12 rotate back toward right-facing view while descending;\n13 land with knees bent;\n14 stable athletic recovery.\nKeep back and three-quarter-back poses readable but preserve Moxie's lavender ponytail/gold tie and purple/silver uniform. Full human anatomy, no ball or hoop drawn; both hands remain empty and visible.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Separate alley pass approaches Moxie and is caught overhead at frame4/tick10. It follows her turn and behind-head reverse dunk, releasing at frame10/tick21; no ball drawn.",
+              "ballTrack": {
+                "height": [
+                  1.8,
+                  2.2,
+                  2.8,
+                  3.2,
+                  3.4,
+                  3.3,
+                  3.1,
+                  3.3,
+                  3.4,
+                  3.5,
+                  2.5,
+                  1.8,
+                  1.2,
+                  0.8,
+                  0.6
+                ],
+                "forward": [
+                  20,
+                  18,
+                  16,
+                  14,
+                  12,
+                  10,
+                  12,
+                  14,
+                  16,
+                  20,
+                  28,
+                  35,
+                  40,
+                  42,
+                  42
+                ]
+              },
+              "cleanupNotes": "Removed smooth purple backdrop with Moxie RGB contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21–42); raw source retained; isolated pose components when packing.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen complete Moxie poses in 5x3. Frame4/tick10 overhead lob catch, shoulder gather, back-facing turn, behind-head reverse finish and right-facing landing form a distinct sequence. Identity, adult anatomy and purple/silver uniform remain consistent. Ball/pass partner/hoop absent from art; separate ball track recorded and backdrop cleanup reviewed."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 50,
+                  "y": 54,
+                  "w": 224,
+                  "h": 307,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 378,
+                  "y": 117,
+                  "w": 194,
+                  "h": 252,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 677,
+                  "y": 70,
+                  "w": 191,
+                  "h": 298,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 973,
+                  "y": 8,
+                  "w": 188,
+                  "h": 358,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1273,
+                  "y": 13,
+                  "w": 222,
+                  "h": 349,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 39,
+                  "y": 385,
+                  "w": 271,
+                  "h": 285,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 369,
+                  "y": 391,
+                  "w": 261,
+                  "h": 278,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 674,
+                  "y": 392,
+                  "w": 213,
+                  "h": 274,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 952,
+                  "y": 381,
+                  "w": 227,
+                  "h": 277,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1276,
+                  "y": 384,
+                  "w": 239,
+                  "h": 299,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 37,
+                  "y": 683,
+                  "w": 244,
+                  "h": 329,
+                  "component": 47
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 368,
+                  "y": 700,
+                  "w": 264,
+                  "h": 312,
+                  "component": 48
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 666,
+                  "y": 715,
+                  "w": 257,
+                  "h": 288,
+                  "component": 50
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 973,
+                  "y": 748,
+                  "w": 255,
+                  "h": 254,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1276,
+                  "y": 757,
+                  "w": 238,
+                  "h": 246,
+                  "component": 53
+                }
+              ],
+              "uniformScale": 0.2569832402234637,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+                "previousAtlasSha256": "89b420791d8cef972aedbec6d06b477467c7eb65824db1f7671289750c4a7e28",
+                "atlasSha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+                "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+                "minimumMarginsPx": {
+                  "left": 29,
+                  "right": 29,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "maxMarginsPx": {
+                  "left": 41,
+                  "right": 42,
+                  "top": 28,
+                  "bottom": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.8,
+                  2.2,
+                  2.8,
+                  3.2,
+                  3.4,
+                  3.3,
+                  3.1,
+                  3.3,
+                  2.47,
+                  2.12,
+                  2.12,
+                  1.8,
+                  1.2,
+                  0.8,
+                  0.6
+                ],
+                "forward": [
+                  20,
+                  18,
+                  16,
+                  14,
+                  12,
+                  10,
+                  12,
+                  14,
+                  5.2,
+                  -10.7,
+                  -10.7,
+                  35,
+                  40,
+                  42,
+                  42
+                ]
+              },
+              "runtimeTrackCalibration": {
+                "status": "native-reviewed",
+                "reviewDate": "2026-10-24",
+                "source": "human source-cell estimate then native 120% capture; upper hand center is near x35,y16 in 128x96 frame9 cell; formulas x=(cellX-64)*0.8125/2.2, y=(89-cellY)*0.8125/28",
+                "frames": {
+                  "8": "2.47/5.2",
+                  "9": "2.12/-10.7",
+                  "10": "2.12/-10.7"
+                },
+                "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom. Separate Moxie-specific runtime track reviewed at contact/transition/release frames in both facings."
           }
         }
       },

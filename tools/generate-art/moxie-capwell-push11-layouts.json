@@ -87,7 +87,7 @@
       "sourceSha256": "d4ae4565468b725c94e8260aa4235479ca66fefe12ad8aa3bfc129c963317a8c",
       "rawSourceImage": "tools/generate-art/sources/moxie-capwell-push11-generated-raw.png",
       "rawSourceSha256": "5cc5869ee547f987f140c829aeb9887c2e37ebc955fe349940024408821bd853",
-      "prompt": "Create one original 1536\u00d71024 true-transparent RGBA production spritesheet for Moxie Capwell of Moonmorel Hex performing an eleven-pose right-facing basketball body-check push. Match the supplied Moxie portrait and gameplay references. She is an adult human woman with pale skin, lavender-purple eyes, long thick lavender high ponytail with small gold tie, purple-and-silver athletic uniform with white side panels, purple wristbands and purple high-tops. Preserve face, eyes, ponytail, tie, mature human anatomy and outfit in every pose. No male, witch hat, beard, monster, robot or different person.\n\nDraw polished, readable 1990s arcade basketball pixel-cel art. Exactly eleven distinct complete full-body Moxie figures in a 4-column by 3-row grid, row-major; bottom-right cell is transparent and empty. Broad true-transparent gutters and outer margin. Do not overlap or clip body, ponytail, hands or shoes. Show Moxie alone; no opponent or other character.\n\nThis is a legal stylized basketball body-check animation, not a punch or fight. Hands are open and empty and stay away from the face. The basketball is separate game art and never drawn; no ball, sphere, hoop, floor, court, shadows, glow, effects, text, labels or scenery.\n\n0 stable defensive stance;\n1 move laterally to close space;\n2 bend knees and lower center of gravity;\n3 shift into the opponent's path with shoulder turned sideways;\n4 load the hips and plant both feet, arms held open for balance;\n5 CONTACT at simulation tick8: a controlled shoulder-to-chest bump position, knees flexed, no punch, no grabbing; the hands stay apart and visible;\n6 immediately recoil and stabilize, empty hands open;\n7 slide one step as the unseen opponent is displaced offscreen;\n8 regain stance;\n9 move back into guard;\n10 calm balanced recovery with both hands open.\n\nAll poses are connected and distinct; maintain a safe-looking athletic posture without violent facial expression or visible injury. Keep her recognizable face and lavender ponytail/gold tie clear, with no anatomy distortion. Return only true-transparent RGBA sprite art with alpha-zero background, no checkerboard, matte, haze, speckles or halo.",
+      "prompt": "Create one original 1536×1024 true-transparent RGBA production spritesheet for Moxie Capwell of Moonmorel Hex performing an eleven-pose right-facing basketball body-check push. Match the supplied Moxie portrait and gameplay references. She is an adult human woman with pale skin, lavender-purple eyes, long thick lavender high ponytail with small gold tie, purple-and-silver athletic uniform with white side panels, purple wristbands and purple high-tops. Preserve face, eyes, ponytail, tie, mature human anatomy and outfit in every pose. No male, witch hat, beard, monster, robot or different person.\n\nDraw polished, readable 1990s arcade basketball pixel-cel art. Exactly eleven distinct complete full-body Moxie figures in a 4-column by 3-row grid, row-major; bottom-right cell is transparent and empty. Broad true-transparent gutters and outer margin. Do not overlap or clip body, ponytail, hands or shoes. Show Moxie alone; no opponent or other character.\n\nThis is a legal stylized basketball body-check animation, not a punch or fight. Hands are open and empty and stay away from the face. The basketball is separate game art and never drawn; no ball, sphere, hoop, floor, court, shadows, glow, effects, text, labels or scenery.\n\n0 stable defensive stance;\n1 move laterally to close space;\n2 bend knees and lower center of gravity;\n3 shift into the opponent's path with shoulder turned sideways;\n4 load the hips and plant both feet, arms held open for balance;\n5 CONTACT at simulation tick8: a controlled shoulder-to-chest bump position, knees flexed, no punch, no grabbing; the hands stay apart and visible;\n6 immediately recoil and stabilize, empty hands open;\n7 slide one step as the unseen opponent is displaced offscreen;\n8 regain stance;\n9 move back into guard;\n10 calm balanced recovery with both hands open.\n\nAll poses are connected and distinct; maintain a safe-looking athletic posture without violent facial expression or visible injury. Keep her recognizable face and lavender ponytail/gold tie clear, with no anatomy distortion. Return only true-transparent RGBA sprite art with alpha-zero background, no checkerboard, matte, haze, speckles or halo.",
       "promptVerbatim": true,
       "sourcePromptStatus": "verbatim",
       "references": [
@@ -106,7 +106,7 @@
         "status": "accepted",
         "reviewNotes": "Eleven separate full-body Moxie poses are complete and row-major in a four-by-three sheet. Her pale human face, lavender eyes, long lavender high ponytail with gold tie, purple-silver uniform, wristbands and high-top shoes remain consistent. Pose5 depicts a controlled shoulder-to-chest bump with bent knees and open hands; poses recover to guard. The generated purple backdrop was removed with documented contrast matte; no backdrop haze remains in packed atlas. No ball or opponent appears."
       },
-      "cleanupNotes": "The generated source contained a smooth, fully opaque purple backdrop despite the transparency request. The athlete-specific cleanup script removes low-frequency background color by multiplying source alpha by a local RGB-contrast matte (Gaussian sigma 38 px; 21\u201342 contrast fade). This leaves the detailed figure pixels and removes background haze. Raw generation preserved separately.",
+      "cleanupNotes": "The generated source contained a smooth, fully opaque purple backdrop despite the transparency request. The athlete-specific cleanup script removes low-frequency background color by multiplying source alpha by a local RGB-contrast matte (Gaussian sigma 38 px; 21–42 contrast fade). This leaves the detailed figure pixels and removes background haze. Raw generation preserved separately.",
       "sourceRects": [
         {
           "sourceIndex": 0,
@@ -210,7 +210,29 @@
       ],
       "uniformScale": 0.28134556574923547,
       "componentIsolation": true,
-      "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses"
-    }
+      "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+        "previousAtlasSha256": "f6a787b546ebe12e6c9cb02f3379b3b85cf11b9d0bf7979830bc2f2be2c57426",
+        "atlasSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+        "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 8,
+          "right": 9,
+          "top": 5,
+          "bottom": 5
+        },
+        "maxMarginsPx": {
+          "left": 19,
+          "right": 19,
+          "top": 11,
+          "bottom": 5
+        }
+      }
+    },
+    "sha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+    "reviewed": true,
+    "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom."
   }
 ]

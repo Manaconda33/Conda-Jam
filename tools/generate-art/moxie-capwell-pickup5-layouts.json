@@ -51,7 +51,7 @@
       "sourceSha256": "434ee5abe32212f970a05009e73d5ae1d524d2fd1cbdec89aa59330a87811ca0",
       "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pickup5-generated-raw.png",
       "rawSourceSha256": "434ee5abe32212f970a05009e73d5ae1d524d2fd1cbdec89aa59330a87811ca0",
-      "prompt": "Create one original transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing ball pickup. Use both supplied canon references. Moxie is the same adult human woman with pale skin, lavender-purple eyes, extremely long thick lavender hair in a high ponytail with a small gold tie, athletic adult proportions, purple/silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve face, eyes, ponytail, tie, palette and anatomy. No witch hat, beard, male, monster, robot or different athlete.\n\nDraw readable 1990s arcade basketball art with crisp pixel-cel edges, consistent camera and size. Place five distinct complete full-body Moxie poses in a strict 3-column by 2-row sheet, row-major; the bottom-right sixth cell stays completely transparent and empty. Broad transparent gutters and outer margins. No body part may touch, overlap, or cross a cell boundary. Keep ponytail and hands fully in their cell.\n\nThe separate basketball is never drawn. No ball, sphere, seams, prop, floor, court, hoop, shadow, glow, text, label, border, teammate, opponent or scenery. Both hands are empty in every pose.\n\n0 upright ready stance, eyes on a loose ball implied near the floor;\n1 bend knees and hips, reach one open empty hand toward the ground;\n2 deep athletic crouch, fingertips approach court level, other hand balances;\n3 TOUCH at simulation tick7: fingertips make pickup contact at floor level while remaining visibly empty, knees flexed and back stable;\n4 lift the imaginary ball from the floor and rise into a balanced ready posture.\n\nAll five poses are connected and clearly distinct. Preserve full human anatomy and Moxie\u2019s high ponytail/gold tie, purple-silver uniform and purple shoes. Return only transparent RGBA, with alpha-zero background/gutters and no halo, haze, matte, checkerboard or speckles.",
+      "prompt": "Create one original transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing ball pickup. Use both supplied canon references. Moxie is the same adult human woman with pale skin, lavender-purple eyes, extremely long thick lavender hair in a high ponytail with a small gold tie, athletic adult proportions, purple/silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve face, eyes, ponytail, tie, palette and anatomy. No witch hat, beard, male, monster, robot or different athlete.\n\nDraw readable 1990s arcade basketball art with crisp pixel-cel edges, consistent camera and size. Place five distinct complete full-body Moxie poses in a strict 3-column by 2-row sheet, row-major; the bottom-right sixth cell stays completely transparent and empty. Broad transparent gutters and outer margins. No body part may touch, overlap, or cross a cell boundary. Keep ponytail and hands fully in their cell.\n\nThe separate basketball is never drawn. No ball, sphere, seams, prop, floor, court, hoop, shadow, glow, text, label, border, teammate, opponent or scenery. Both hands are empty in every pose.\n\n0 upright ready stance, eyes on a loose ball implied near the floor;\n1 bend knees and hips, reach one open empty hand toward the ground;\n2 deep athletic crouch, fingertips approach court level, other hand balances;\n3 TOUCH at simulation tick7: fingertips make pickup contact at floor level while remaining visibly empty, knees flexed and back stable;\n4 lift the imaginary ball from the floor and rise into a balanced ready posture.\n\nAll five poses are connected and clearly distinct. Preserve full human anatomy and Moxie’s high ponytail/gold tie, purple-silver uniform and purple shoes. Return only transparent RGBA, with alpha-zero background/gutters and no halo, haze, matte, checkerboard or speckles.",
       "promptVerbatim": true,
       "sourcePromptStatus": "verbatim",
       "references": [
@@ -130,7 +130,51 @@
       ],
       "uniformScale": 0.19206680584551147,
       "componentIsolation": true,
-      "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses"
-    }
+      "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+        "previousAtlasSha256": "d2d50ba537d6b7991a22efd610fd42a30cfa104062167544ce3e5e282423b32b",
+        "atlasSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+        "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 7,
+          "right": 8,
+          "top": 5,
+          "bottom": 5
+        },
+        "maxMarginsPx": {
+          "left": 16,
+          "right": 16,
+          "top": 23,
+          "bottom": 5
+        }
+      },
+      "runtimeBallTrack": {
+        "height": [
+          0.55,
+          0.35,
+          0.15,
+          0,
+          0.75
+        ],
+        "forward": [
+          7,
+          8,
+          12,
+          14,
+          9
+        ]
+      },
+      "runtimeTrackCalibration": {
+        "status": "native-reviewed",
+        "source": "src/core/animation.js",
+        "reviewDate": "2026-10-24",
+        "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+      }
+    },
+    "sha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+    "reviewed": true,
+    "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom."
   }
 ]

@@ -126,7 +126,7 @@
           1.05,
           1.2,
           1.4,
-          2.0,
+          2,
           2.5,
           2.8,
           2.2,
@@ -157,7 +157,7 @@
           42
         ]
       },
-      "cleanupNotes": "Removed the smooth generated purple backdrop using the Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade for contrast21\u201342). Raw generation retained; isolated 15 source components when packing.",
+      "cleanupNotes": "Removed the smooth generated purple backdrop using the Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade for contrast21–42). Raw generation retained; isolated 15 source components when packing.",
       "review": {
         "status": "accepted",
         "reviewNotes": "Fifteen complete distinct Moxie human poses with back and three-quarter-back views through a reverse dunk. Identity, adult proportions, lavender eyes/ponytail/gold tie, purple/silver kit remain consistent. Behind-head ball approach, strong backward extension, tick21 release, score finish and landing are clear. No ball drawn; backdrop cleanup and all frame crops reviewed."
@@ -286,7 +286,76 @@
       ],
       "uniformScale": 0.25770308123249297,
       "componentIsolation": true,
-      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
-    }
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+        "previousAtlasSha256": "1c56351044276b8404ea298bca1dd575c4613dd32750de3d3eb4198da98fa56c",
+        "atlasSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+        "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 27,
+          "right": 27,
+          "top": 5,
+          "bottom": 5
+        },
+        "maxMarginsPx": {
+          "left": 37,
+          "right": 38,
+          "top": 20,
+          "bottom": 5
+        }
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1.05,
+          1.2,
+          1.4,
+          2,
+          2.5,
+          2.8,
+          2.2,
+          1.8,
+          2.1,
+          2.3,
+          2.3,
+          3.4,
+          2.6,
+          1.4,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          12,
+          15,
+          16,
+          14,
+          13,
+          15,
+          2,
+          2,
+          24,
+          31,
+          38,
+          42
+        ]
+      },
+      "runtimeTrackCalibration": {
+        "status": "native-reviewed",
+        "reviewDate": "2026-10-24",
+        "source": "human source-cell hand estimate; formulas documented in per-clip layout provenance",
+        "frames": {
+          "8": "2.1/15",
+          "9": "2.3/2",
+          "10": "2.3/2"
+        },
+        "notes": "Aerial contact points in frames8-10 calibrated from the visible Moxie hand and checked at last carried tick20 in both facings at standard and120% native Canvas zoom. Frame10 ball resolves at the rim on tick21. Raw source ballTrack remains preserved separately."
+      }
+    },
+    "sha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+    "reviewed": true,
+    "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom."
   }
 ]

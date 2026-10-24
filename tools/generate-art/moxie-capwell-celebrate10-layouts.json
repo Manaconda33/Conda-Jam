@@ -117,7 +117,7 @@
           14
         ]
       },
-      "cleanupNotes": "The generated background was removed using the Moxie-specific low-frequency RGB contrast cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained separately.",
+      "cleanupNotes": "The generated background was removed using the Moxie-specific low-frequency RGB contrast cleanup (Gaussian sigma38px; alpha fade contrast21–42); raw source retained separately.",
       "review": {
         "status": "accepted",
         "reviewNotes": "Ten full-body Moxie poses in row-major order. Adult human face and anatomy, pale skin, lavender eyes, gold-tied high ponytail, purple/silver uniform and high-tops remain consistent. Distinct composed celebration: measured fist pumps and overhead pose, arms opened, chest gesture, nod and wave, relaxed finish. No object or ball is drawn. Background cleanup reviewed in packed atlas over a light and court-colored ground."
@@ -216,7 +216,61 @@
       ],
       "uniformScale": 0.1885245901639344,
       "componentIsolation": true,
-      "packaging": "package-action10.py; 80x96 cells; baseline94; lossless WebP; 10 original celebrate poses"
-    }
+      "packaging": "package-action10.py; 80x96 cells; baseline94; lossless WebP; 10 original celebrate poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-moxie-capwell-margins.py",
+        "previousAtlasSha256": "a1d5da14d377dc70c50bc9080182d984f075471d41b0c740ce5bb4657f3e32b9",
+        "atlasSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+        "fit": "uniform scale, never upscale; max 86px high and cell width minus 10px; centered horizontally and baseline aligned with 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 7,
+          "right": 7,
+          "top": 5,
+          "bottom": 5
+        },
+        "maxMarginsPx": {
+          "left": 20,
+          "right": 20,
+          "top": 10,
+          "bottom": 5
+        }
+      },
+      "runtimeBallTrack": {
+        "height": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "forward": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      },
+      "runtimeTrackCalibration": {
+        "status": "native-reviewed",
+        "source": "src/core/animation.js",
+        "reviewDate": "2026-10-24",
+        "notes": "Separate track checked at relevant contact, catch, gather or release frames in both facings at standard and120% native Canvas zoom; source atlas contains no ball."
+      }
+    },
+    "sha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+    "reviewed": true,
+    "reviewNotes": "Full atlas reviewed on dark and light backgrounds after margin normalization: separated complete human poses, clean alpha, at least5px vertical and horizontal clearance, no crop bleed, Moxie canon and no baked ball. Native Canvas action frames select this atlas in both facings at100% and120% zoom."
   }
 ]
