@@ -1,0 +1,31 @@
+{
+  "athlete": "flint-rooker",
+  "canonicalSection": "J.06",
+  "clip": "shoot",
+  "rejectedAttempts": [
+    {
+      "attempt": "attempt1",
+      "generationId": "urn:c2pa:6a12bf76-1b06-4f5b-ba65-9317a3b19103",
+      "path": "tools/generate-art/sources/flint-rooker-shoot-attempt1-rejected.png",
+      "sha256": "e4f77a1f85e295adb3474658f84be2b24abd2ace7bdd785bcc22ae91f42f568d",
+      "prompt": "tools/generate-art/flint-rooker-shoot10-prompt.md#rejected-attempt1-prompt-verbatim",
+      "reason": "Generated basketballs in first two poses"
+    },
+    {
+      "attempt": "attempt2",
+      "generationId": "urn:c2pa:4c047e15-a93a-461a-9175-600dee375b75",
+      "path": "tools/generate-art/sources/flint-rooker-shoot-attempt2-rejected.png",
+      "sha256": "c9e8739bad8cfa04e7f1d306dde221dd32dbda18a5deb463ff32f912d7f28487",
+      "prompt": "tools/generate-art/flint-rooker-shoot10-prompt.md#rejected-attempt2-prompt-verbatim",
+      "reason": "Ball-colored artifact and malformed hand remained in row 1 cell 2 after edit"
+    },
+    {
+      "attempt": "attempt3",
+      "generationId": "urn:c2pa:aeb89bc2-6768-40d5-a458-17ddeb464cb8",
+      "path": "tools/generate-art/sources/flint-rooker-shoot-attempt3-rejected.png",
+      "sha256": "2b9393e5fffefaecd7ba19478edf9211510a4915b0a15761f051d167037720d4",
+      "prompt": "tools/generate-art/flint-rooker-shoot10-prompt.md#rejected-attempt3-prompt-verbatim",
+      "reason": "Unrequested red chest emblem appeared on every uniform"
+    }
+  ]
+}

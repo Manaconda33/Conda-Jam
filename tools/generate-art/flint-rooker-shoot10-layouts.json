@@ -1,0 +1,334 @@
+[
+  {
+    "athlete": "flint-rooker",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/flint-rooker-shoot-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "flint-rooker",
+      "canonicalSection": "J.06",
+      "clip": "shoot",
+      "direction": "right",
+      "generatedAt": "2026-10-24T03:49:01Z",
+      "references": [
+        "tools/generate-art/references/flint-rooker-portrait-reference.png",
+        "tools/generate-art/references/flint-rooker-gameplay-reference.png"
+      ],
+      "prompt": "tools/generate-art/flint-rooker-shoot10-prompt.md#accepted-generation-prompt-verbatim",
+      "generationId": "urn:c2pa:e3736b31-2f66-42c1-b06c-dbb77b28c2bd",
+      "sourceRaw": "tools/generate-art/sources/flint-rooker-shoot-generated-raw.png",
+      "sourceRawSha256": "405c3de9c31af13940387b5ed580a03471d7e1f7f5606e111c38b9a4169e352d",
+      "source": "tools/generate-art/sources/flint-rooker-shoot10-reframed.png",
+      "sourceSha256": "ceac2185d6250ae72fcd387128be5e8d0b9da37c86d2dcae34a7535377261af2",
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-24T03:54:42Z",
+        "notes": "Exactly ten isolated complete human poses in a 5x2 row-major atlas. Flint retains warm light-olive skin, a clean-shaven face, vivid red spiky curls and blank charcoal/ember/white Scoria kit. No ball, logo, court or props. Transparent canvas; ten major silhouettes and broad gutters. Three isolated stray alpha pixels removed during cleanup. All poses were reframed at one common 0.86 scale into cells with at least 40px transparent margins; no pose pixels were drawn or removed."
+      },
+      "cleanup": {
+        "operation": "Remove isolated alpha components smaller than 16 pixels; preserve the ten full-body connected components.",
+        "removedComponents": 3,
+        "removedPixels": 3,
+        "sourceDimensions": [
+          1800,
+          900
+        ],
+        "reframing": {
+          "script": "tools/generate-art/reframe-flint-shoot10.py",
+          "method": "Isolate each existing alpha>=64 body component, retain its existing antialias pixels within 2px, uniformly scale every pose by the same factor, and reposition without changing pose content or adding pixels.",
+          "uniformScale": 0.86,
+          "sourceDimensions": [
+            1774,
+            887
+          ],
+          "outputDimensions": [
+            1800,
+            900
+          ],
+          "gridCellSize": [
+            360,
+            450
+          ],
+          "minimumTransparentCellMarginPx": 40,
+          "generatedPixels": false,
+          "measuredCellMarginsPx": [
+            {
+              "sourceIndex": 0,
+              "cellMarginsPx": [
+                91,
+                83,
+                92,
+                42
+              ]
+            },
+            {
+              "sourceIndex": 1,
+              "cellMarginsPx": [
+                73,
+                132,
+                75,
+                41
+              ]
+            },
+            {
+              "sourceIndex": 2,
+              "cellMarginsPx": [
+                92,
+                120,
+                93,
+                42
+              ]
+            },
+            {
+              "sourceIndex": 3,
+              "cellMarginsPx": [
+                98,
+                82,
+                98,
+                41
+              ]
+            },
+            {
+              "sourceIndex": 4,
+              "cellMarginsPx": [
+                108,
+                43,
+                109,
+                42
+              ]
+            },
+            {
+              "sourceIndex": 5,
+              "cellMarginsPx": [
+                104,
+                50,
+                104,
+                42
+              ]
+            },
+            {
+              "sourceIndex": 6,
+              "cellMarginsPx": [
+                84,
+                58,
+                84,
+                42
+              ]
+            },
+            {
+              "sourceIndex": 7,
+              "cellMarginsPx": [
+                103,
+                54,
+                104,
+                42
+              ]
+            },
+            {
+              "sourceIndex": 8,
+              "cellMarginsPx": [
+                93,
+                116,
+                93,
+                41
+              ]
+            },
+            {
+              "sourceIndex": 9,
+              "cellMarginsPx": [
+                94,
+                103,
+                94,
+                42
+              ]
+            }
+          ],
+          "sourceSha256": "ceac2185d6250ae72fcd387128be5e8d0b9da37c86d2dcae34a7535377261af2",
+          "previewWhite": "tools/generate-art/flint-rooker-shoot10-reframed-preview-white.png",
+          "previewBlack": "tools/generate-art/flint-rooker-shoot10-reframed-preview-black.png"
+        }
+      },
+      "provenance": {
+        "imageSource": "imagegen",
+        "mirroring": "J.01 approved horizontal body mirroring",
+        "ball": "No ball drawn; game ball remains separate runtime art."
+      },
+      "atlas": {
+        "path": "public/assets/animation/flint-rooker-shoot-right.webp",
+        "sha256": "ff38e38577a61cee8128f937b8aad1a11a043f44cea76d60d0bff3aae6b4d4da",
+        "bytes": 55154,
+        "dimensions": [
+          320,
+          192
+        ],
+        "previewWhite": "tools/generate-art/flint-rooker-shoot-atlas-preview-white.png",
+        "previewBlack": "tools/generate-art/flint-rooker-shoot-atlas-preview-black.png"
+      },
+      "sourceBeforeReframe": "tools/generate-art/sources/flint-rooker-shoot10.png",
+      "sourceBeforeReframeSha256": "17ef42a66c9b5b4f109032fdb1a80c95b743af87060bbf037940c7374ee3ff37",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/flint-rooker-shoot10-reframed.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 89,
+          "y": 81,
+          "w": 181,
+          "h": 329,
+          "component": 3,
+          "area": 27960
+        },
+        {
+          "sourceIndex": 1,
+          "x": 431,
+          "y": 130,
+          "w": 216,
+          "h": 281,
+          "component": 5,
+          "area": 24704
+        },
+        {
+          "sourceIndex": 2,
+          "x": 810,
+          "y": 118,
+          "w": 179,
+          "h": 292,
+          "component": 4,
+          "area": 22848
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1176,
+          "y": 80,
+          "w": 168,
+          "h": 331,
+          "component": 2,
+          "area": 23441
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1546,
+          "y": 41,
+          "w": 147,
+          "h": 369,
+          "component": 1,
+          "area": 20691
+        },
+        {
+          "sourceIndex": 5,
+          "x": 102,
+          "y": 498,
+          "w": 156,
+          "h": 362,
+          "component": 6,
+          "area": 21774
+        },
+        {
+          "sourceIndex": 6,
+          "x": 442,
+          "y": 506,
+          "w": 196,
+          "h": 354,
+          "component": 8,
+          "area": 22929
+        },
+        {
+          "sourceIndex": 7,
+          "x": 821,
+          "y": 502,
+          "w": 157,
+          "h": 358,
+          "component": 7,
+          "area": 23208
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1171,
+          "y": 564,
+          "w": 178,
+          "h": 297,
+          "component": 10,
+          "area": 23709
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1532,
+          "y": 551,
+          "w": 176,
+          "h": 309,
+          "component": 9,
+          "area": 25179
+        }
+      ],
+      "uniformScale": 0.24932249322493225,
+      "componentIsolation": true,
+      "packaging": "package-flint-action10.py; 64x96 cells; baseline94; lossless WebP; 10 original shoot poses",
+      "previewSourceWhite": "tools/generate-art/flint-rooker-shoot10-reframed-preview-white.png",
+      "previewSourceBlack": "tools/generate-art/flint-rooker-shoot10-reframed-preview-black.png"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "athlete": "flint-rooker",
+  "canonicalSection": "J.06",
+  "clip": "pass",
+  "rejectedAttempts": [
+    {
+      "attempt": "attempt1",
+      "generationId": "urn:c2pa:aba02354-2e9c-48ff-8d60-6e77b3912891",
+      "path": "tools/generate-art/sources/flint-rooker-pass-attempt1-rejected.png",
+      "sha256": "2d9c4d22fa09b28273e48d081edcef222ad45ea9bafbefa51f68ee574ff41dc7",
+      "prompt": "tools/generate-art/flint-rooker-pass6-prompt.md#accepted-generation-prompt-verbatim",
+      "reason": "Opaque brown/red scenic backdrop and red glow made the raw sheet unsuitable for atlas packaging; the six original pose RGB regions are retained in the accepted alpha source after alpha-only cleanup."
+    }
+  ]
+}

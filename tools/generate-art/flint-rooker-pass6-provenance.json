@@ -1,0 +1,196 @@
+{
+  "athlete": "flint-rooker",
+  "canonicalSection": "J.06",
+  "clip": "pass",
+  "direction": "right",
+  "generatedAt": "2026-10-24T03:51:20Z",
+  "generationId": "urn:c2pa:aba02354-2e9c-48ff-8d60-6e77b3912891",
+  "prompt": "tools/generate-art/flint-rooker-pass6-prompt.md#accepted-generation-prompt-verbatim",
+  "references": [
+    "tools/generate-art/references/flint-rooker-portrait-reference.png",
+    "tools/generate-art/references/flint-rooker-gameplay-reference.png"
+  ],
+  "sourceRaw": "tools/generate-art/sources/flint-rooker-pass-attempt1-rejected.png",
+  "sourceRawSha256": "2d9c4d22fa09b28273e48d081edcef222ad45ea9bafbefa51f68ee574ff41dc7",
+  "source": "tools/generate-art/sources/flint-rooker-pass6-reframed.png",
+  "sourceSha256": "77008f259cf1160b61c5a9632f19eb085619d7e6546f2a01568363271f597a34",
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-24T03:54:42Z",
+    "notes": "Exactly six isolated, complete human poses in a 3x2 row-major sheet. Flint retains light-olive skin, clean-shaven face, vivid red curls, and blank charcoal/ember/white Scoria uniform. The separate ball is not drawn. Six connected body components. Tested on black and white composites; cleanup changes alpha only and every surviving RGB pixel is identical to generated source. All poses were reframed at one common 0.77 scale into cells with at least 40px transparent margins; no pose pixels were drawn or removed."
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-flint-pass-background.py",
+    "method": "Per-cell smooth-region flood fill behind one-pixel dilated RGB gradient barrier; max channel edge threshold5.",
+    "backgroundPixelsRemoved": 1156669,
+    "backgroundPercent": 73.5,
+    "bodyComponents": 6,
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "foregroundRgbPreservedExactly": true,
+    "reframing": {
+      "script": "tools/generate-art/reframe-flint-pass6.py",
+      "method": "Isolate each existing alpha>=64 body component, retain its existing antialias pixels within 2px, uniformly scale every pose by the same factor, and reposition without changing pose content or adding pixels.",
+      "uniformScale": 0.77,
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "outputDimensions": [
+        1536,
+        1024
+      ],
+      "gridCellSize": [
+        512,
+        512
+      ],
+      "minimumTransparentCellMarginPx": 40,
+      "generatedPixels": false,
+      "note": "The originally backdrop-rejected raw sheet was retained as the exact alpha-cleanup input; the cleaned transparent source was then uniformly reframed.",
+      "measuredCellMarginsPx": [
+        {
+          "sourceIndex": 0,
+          "cellMarginsPx": [
+            104,
+            109,
+            104,
+            41
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "cellMarginsPx": [
+            117,
+            110,
+            117,
+            41
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "cellMarginsPx": [
+            80,
+            110,
+            81,
+            41
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "cellMarginsPx": [
+            63,
+            109,
+            65,
+            41
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "cellMarginsPx": [
+            43,
+            106,
+            44,
+            41
+          ]
+        },
+        {
+          "sourceIndex": 5,
+          "cellMarginsPx": [
+            115,
+            104,
+            116,
+            41
+          ]
+        }
+      ],
+      "sourceSha256": "77008f259cf1160b61c5a9632f19eb085619d7e6546f2a01568363271f597a34",
+      "previewWhite": "tools/generate-art/flint-rooker-pass6-reframed-preview-white.png",
+      "previewBlack": "tools/generate-art/flint-rooker-pass6-reframed-preview-black.png"
+    },
+    "input": "tools/generate-art/sources/flint-rooker-pass-attempt1-rejected.png",
+    "inputSha256": "2d9c4d22fa09b28273e48d081edcef222ad45ea9bafbefa51f68ee574ff41dc7"
+  },
+  "provenance": {
+    "imageSource": "imagegen",
+    "mirroring": "J.01 approved horizontal body mirroring",
+    "ball": "No ball drawn; game ball remains separate runtime art."
+  },
+  "atlas": {
+    "path": "public/assets/animation/flint-rooker-pass-right.webp",
+    "sha256": "37d5478704da53a24a3093a08c07e0c75977f15c40132eb0f0993364622e6cb1",
+    "bytes": 51514,
+    "dimensions": [
+      336,
+      192
+    ],
+    "previewWhite": "tools/generate-art/flint-rooker-pass-atlas-preview-white.png",
+    "previewBlack": "tools/generate-art/flint-rooker-pass-atlas-preview-black.png"
+  },
+  "sourceBeforeReframe": "tools/generate-art/sources/flint-rooker-pass6.png",
+  "sourceBeforeReframeSha256": "07b1f8f93ff9eace3a28c9aecf8f13836bb0ce8966ef4a9317cc02d5affa0d53",
+  "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/flint-rooker-pass6-reframed.png",
+  "sourceRects": [
+    {
+      "sourceIndex": 0,
+      "x": 102,
+      "y": 107,
+      "w": 308,
+      "h": 366,
+      "component": 1,
+      "area": 40227
+    },
+    {
+      "sourceIndex": 1,
+      "x": 627,
+      "y": 108,
+      "w": 282,
+      "h": 365,
+      "component": 2,
+      "area": 40203
+    },
+    {
+      "sourceIndex": 2,
+      "x": 1102,
+      "y": 108,
+      "w": 355,
+      "h": 365,
+      "component": 3,
+      "area": 41022
+    },
+    {
+      "sourceIndex": 3,
+      "x": 61,
+      "y": 619,
+      "w": 388,
+      "h": 366,
+      "component": 6,
+      "area": 44001
+    },
+    {
+      "sourceIndex": 4,
+      "x": 553,
+      "y": 616,
+      "w": 429,
+      "h": 369,
+      "component": 5,
+      "area": 43745
+    },
+    {
+      "sourceIndex": 5,
+      "x": 1137,
+      "y": 614,
+      "w": 285,
+      "h": 371,
+      "component": 4,
+      "area": 40111
+    }
+  ],
+  "uniformScale": 0.24797843665768193,
+  "componentIsolation": true,
+  "packaging": "package-flint-action6.py; 112x96 cells; baseline94; lossless WebP; 6 original pass poses",
+  "previewSourceWhite": "tools/generate-art/flint-rooker-pass6-reframed-preview-white.png",
+  "previewSourceBlack": "tools/generate-art/flint-rooker-pass6-reframed-preview-black.png"
+}
