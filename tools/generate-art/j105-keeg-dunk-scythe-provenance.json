@@ -4,7 +4,7 @@
   "direction": "right",
   "canonicalSection": "K.03",
   "eligibleForPacking": false,
-  "status": "six-candidates-rejected",
+  "status": "eight-candidates-rejected",
   "generatedAt": "2026-10-24",
   "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-prompt.md",
   "promptVerbatim": true,
@@ -42,7 +42,7 @@
       "sourceSha256": "06b2c70f9dfb3db592580d4d7f8213d61bedc75ed2be3fc88b54c2798bee7c01",
       "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-02-prompt.md",
       "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-02-review.png",
-      "reason": "Multiple hands, hat parts, and feet touch or cross cell margins, including poses1,2,6,7,10–13."
+      "reason": "Multiple hands, hat parts, and feet touch or cross cell margins, including poses1,2,6,7,10\u201313."
     },
     {
       "generationId": "exec-45c28032-fad4-44bb-9223-3100a9cbe291",
@@ -75,13 +75,61 @@
       "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-06-prompt.md",
       "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-06-review.png",
       "reason": "Two nontransparent outer-edge pixels; every cell fails the 85-pixel vertical margin and several poses have zero top or bottom clearance; gather poses1 and2 contain a visible basketball."
+    },
+    {
+      "generationId": "exec-7a75d85d-6d6b-49f6-a478-c1beec7fe2ce",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-attempt-07-review.png",
+      "sourceSha256": "7c538369a2f68303d22474947acddd39982ac896fbe7e9a32ab5f0b95167f28f",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-07-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-07-review.png",
+      "reason": "Poses0\u20134 have zero bottom margin and poses5\u20139 zero top margin; they cross row gutters. Pose10 has only 2 pixels right clearance."
+    },
+    {
+      "generationId": "exec-f83bc85d-8f73-422a-8e90-7b748774a882",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-attempt-08-review.png",
+      "sourceSha256": "8253d4476fcc0029a908196459597b2684a9cf8979fa6a0eded4fa80efb06109",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-08-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-08-review.png",
+      "reason": "Poses0\u20134 touch bottom row edge; poses5\u20139 touch top. Pose10 has 10 pixels top clearance and pose11 6 pixels right clearance. Silhouettes exceed scale and collide across row gutters."
     }
   ],
   "ballPolicy": "The game basketball is separately rendered. It follows Keeg's ball-miming hand through the low rear hip sweep and diagonal rise, releases at pose10/tick21, and is not painted into the drawings.",
   "plannedBallTrack": {
     "status": "planning-only; not visually validated",
-    "height": [0.95, 1.1, 1.2, 0.95, 0.8, 0.75, 0.95, 1.4, 2.0, 2.5, 2.4, 2.0, 1.35, 0.7, 0.55],
-    "forward": [6, 7, 4, -2, -8, -10, -5, -1, 4, 10, 13, 10, 8, 5, 6]
+    "height": [
+      0.95,
+      1.1,
+      1.2,
+      0.95,
+      0.8,
+      0.75,
+      0.95,
+      1.4,
+      2.0,
+      2.5,
+      2.4,
+      2.0,
+      1.35,
+      0.7,
+      0.55
+    ],
+    "forward": [
+      6,
+      7,
+      4,
+      -2,
+      -8,
+      -10,
+      -5,
+      -1,
+      4,
+      10,
+      13,
+      10,
+      8,
+      5,
+      6
+    ]
   },
-  "nextAction": "Change generation method or reference composition because prompt-only retries continue to repeat oversize poses and painted gather balls; accept no source until alpha, pose separation, anatomy, sequence, and margins pass review."
+  "nextAction": "Change composition strategy instead of repeating full-sheet text-to-image: create or generate isolated athlete poses at safe scale, then assemble a 5x3 sheet only after each pose and empty-hand ball track pass visual review. Keep the separate ball track unvalidated until an accepted source exists."
 }
