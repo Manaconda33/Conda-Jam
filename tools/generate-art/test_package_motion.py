@@ -260,6 +260,24 @@ class DunkFifteenPosePackaging(unittest.TestCase):
             self.assertTrue(layout['provenance']['componentIsolation'])
             self.assertTrue((assets/'keeg-dunk-360-right.webp').is_file())
 
+    def test_keeg_double_dunk_packs_fifteen_original_human_poses(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            sources=root/'tools/generate-art/sources';sources.mkdir(parents=True)
+            layouts=root/'tools/generate-art';source=sources/'source.png';self.source().save(source)
+            provenance_path=layouts/'provenance.json'
+            provenance_path.write_text(json.dumps({'athlete':'keeg','clip':'dunk-double','direction':'right','eligibleForPacking':True,'prompt':'fifteen distinct Keeg human double-pump dunk poses','generatedAt':'2026-10-24','review':{'status':'accepted'}}))
+            old_root=dunk15.ROOT;dunk15.ROOT=root
+            try:
+                layout_path=dunk15.package('keeg','dunk-double',source,provenance_path,isolate=True)
+            finally:
+                dunk15.ROOT=old_root
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['athlete'],layout['clip']),('keeg','dunk-double'))
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(4,4,15))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'keeg-dunk-double-right.webp').is_file())
+
     def test_keeg_power_dunk_packs_fifteen_original_human_poses(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);assets=root/'public/assets/animation';assets.mkdir(parents=True)

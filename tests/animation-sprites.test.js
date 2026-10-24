@@ -456,6 +456,29 @@ test('Keeg selects fifteen reviewed tomahawk-dunk poses with a separate crown-cl
   tick+=animationClips['dunk-tomahawk'].frames[frame].duration;
  }
 });
+test('Keeg selects fifteen reviewed double-pump dunk poses with a separate second-drive release',()=>{
+ const id='keeg',character=animationAssetManifest.characters[id],clip=character?.directions?.right?.['dunk-double'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(character?.mirrorReview?.canonicalSection,'K.03');
+ assert.ok(clip,'registered double-pump dunk atlas');assert.equal(clip.reviewed,true);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'f563162a8f00bf9b12d72d36edfb9e05637349bcd627ba707741652a97ef2bac');
+ assert.equal(clip.provenance.cleanup.script,'tools/generate-art/clean-keeg-dunk-double15.py');assert.equal(clip.provenance.cleanup.minimumCellMarginPx,11);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.ballTrack.forward[10],13);assert.equal(clip.provenance.ballTrack.height[10],2.35);
+ const release=anchorTick('dunk-double','release');assert.equal(release,21);
+ assert.equal(sampleBallForward('dunk-double',release,id),13);assert.equal(sampleBallHeight('dunk-double',release,id),2.35);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-double',tick).frame,frame,'runtime maps Keeg double-pump pose '+frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-double',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-double'].frames[frame].duration;
+ }
+});
 test('Keeg selects fifteen reviewed reverse-dunk poses with a separate far-side ball release',()=>{
  const id='keeg',character=animationAssetManifest.characters[id],clip=character?.directions?.right?.['dunk-reverse'];
  assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');

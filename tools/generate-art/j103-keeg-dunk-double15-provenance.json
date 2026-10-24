@@ -1,0 +1,70 @@
+{
+  "athlete": "keeg",
+  "clip": "dunk-double",
+  "direction": "right",
+  "canonicalSection": "K.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-c394e341-4e13-4298-92e9-97119fdaffcf",
+  "imageGenerationId": "exec-c394e341-4e13-4298-92e9-97119fdaffcf",
+  "rawSourceImage": "tools/generate-art/sources/j103-keeg-dunk-double-generated-raw.png",
+  "rawSourceSha256": "6b7fb70dd7fd1389ee94139e0622daf3b4a9384bfb10554cdbc67194e37db4a8",
+  "sourceImage": "tools/generate-art/sources/j103-keeg-dunk-double15.png",
+  "sourceSha256": "f563162a8f00bf9b12d72d36edfb9e05637349bcd627ba707741652a97ef2bac",
+  "prompt": "Create an original 1536×1024 transparent RGBA sprite sheet for JAMVERSE '96: Keeg of the Moonmorel Hex performing a two-pump DOUBLE dunk. Use the attached Keeg animation sheet only as an identity and art-style reference. Redraw fifteen distinct complete full-body poses in a strict five-column by three-row grid, row-major, with broad transparent gutters and outer margins. Each pose stays entirely within its own cell at a consistent scale and camera. No copied or merged figures; no borders, court, hoop, floor, shadows, effects, text, labels, teammates, opponents, ball, sphere, orb, props, or equipment.\n\nKeeg is a flamboyant adult human man with normal athletic human anatomy, black hair, a neat close black beard and expressive face. Keep his complete very tall ornate purple witch hat with silver trim and mushroom ornaments recognizable in every pose. He wears the layered purple/lavender/silver Moonmorel Hex athletic kit, matching belt and shoes. Preserve his human face, adult proportions, two arms, two hands, two legs, black hair, beard, hat height and ornaments, kit palette, and shoes. No monster anatomy, horns, robe, cape, staff, extra limbs, altered uniform, or missing limbs. Both hands stay empty: the game basketball is separately rendered and must never appear in the drawings.\n\nThis is a two-pump dunk. Keeg gathers the invisible ball, plants and jumps, performs a first overhead pump, then visibly brings the ball-miming hand back down to his chest before driving up again for a second, higher pump and dunk. Do not turn this into a single pump, windmill, reverse, or 360 dunk. Pose10 (zero-based) is the one release at simulation tick21 on the second drive: palm open and empty at full reach. Poses0–9 retain possession; poses11–14 are empty-handed follow-through, descent, landing and recovery. Keep both hands and the whole hat clear and separated. Unique connected poses:\n0 right-facing approach with hands low;\n1 gathers invisible ball near waist;\n2 two-foot plant and crouch;\n3 takeoff with ball-miming hand rising to the chest;\n4 first pump lifts the hand toward the shoulder;\n5 first overhead pump reaches above the crown, full hat unobstructed;\n6 lowers the hand and resets the invisible ball at the chest;\n7 second drive begins, torso tightens and knees tuck;\n8 raises the hand higher than in the first pump;\n9 reaches full second-pump extension toward the rim;\n10 single RELEASE at tick21 with open empty palm and straight shooting arm;\n11 empty-handed follow-through;\n12 descent with legs tucked;\n13 controlled landing, knees flexed;\n14 stable recovery, both hands empty.\n\nKeep Keeg facing and approaching image-right. Use clean arcade-sprite illustration edges and true transparent RGBA exterior and gutters. No alpha haze, checkerboard, matte, speckles, backgrounds or colored artifacts. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Keeg-specific separate basketball follows his ball-miming hand through the first overhead pump, resets to his chest, rises for the second pump, and releases at frame10/tick21. It is never painted into the poses.",
+  "ballTrack": {
+    "height": [
+      0.95,
+      1.1,
+      1.25,
+      1.55,
+      2.15,
+      2.9,
+      1.55,
+      1.75,
+      2.35,
+      2.9,
+      2.35,
+      2,
+      1.15,
+      0.85,
+      0.65
+    ],
+    "forward": [
+      7,
+      5,
+      3,
+      -4,
+      -8,
+      -1,
+      2,
+      5,
+      4.5,
+      12.5,
+      13,
+      7.5,
+      4,
+      3,
+      3
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-keeg-dunk-double15.py",
+    "layoutFile": "tools/generate-art/j103-keeg-dunk-double-cleanup-layout.json",
+    "minimumCellMarginPx": 11,
+    "removedHighChromaRedPixels": true
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "All fifteen authored poses select the registered production atlas in both facings at standard and 120% zoom. Keeg retains his human anatomy, beard, black hair, complete mushroom hat and purple/lavender/silver kit. The separate ball completes the first overhead pump, chest reset and second higher drive; release at frame10/tick21 is clear of the hat and visually aligned with the extended hand."
+  },
+  "atlasPath": "public/assets/animation/keeg-dunk-double-right.webp",
+  "atlasSha256": "f600dbba7981c12ee6da6e023827dcd02d5e36b20810dd8b795c2c784c0f55f8",
+  "atlasBytes": 71636
+}

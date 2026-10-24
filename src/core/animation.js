@@ -590,6 +590,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // Tomahawk cocks the separate ball behind Keeg's crown, then meets his
   // raised hand at the single frame10/tick21 release, clear of the hat.
   'dunk-tomahawk':{height:[.95,1.1,1.25,1.7,1.9,2.05,2.2,2.45,2.4,2.35,1.5,2,1.4,.7,.55],forward:[6,8,4,-2,-10,-7,-8,-5,12,2,8,6,8,5,6]},
+  // Keeg's two-pump dunk returns the separate ball to his chest after pump
+  // one, then tracks his higher second reach to the shared tick-21 release.
+  'dunk-double':{height:[.95,1.1,1.25,1.55,2.15,2.9,1.55,1.75,2.35,2.9,2.35,2,1.15,.85,.65],forward:[7,5,3,-4,-8,-1,2,5,4.5,12.5,13,7.5,4,3,3]},
   // Reverse dunk carries the separate ball behind Keeg's shoulder and hat,
   // then releases from the far side at the shared frame10/tick21 anchor.
   'dunk-reverse':{height:[.95,1.1,1.25,1.5,1.8,1.4,2.4,2.55,2.1,2.1,1.2,2.1,1.45,.7,.55],forward:[6,8,4,-2,-5,-7,-9,-8,-6,-4,12,4,8,5,6]}
