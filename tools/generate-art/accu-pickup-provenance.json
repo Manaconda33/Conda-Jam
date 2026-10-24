@@ -1,0 +1,29 @@
+{
+  "athlete": "accu",
+  "clip": "pickup",
+  "direction": "right",
+  "canonicalSection": "Neo Runway Precision / Accu",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-44438e80-1222-488b-ac97-ceb8956f4b10",
+  "imageGenerationId": "exec-44438e80-1222-488b-ac97-ceb8956f4b10",
+  "rawSourceImage": "tools/generate-art/sources/accu-pickup-generated-raw.png",
+  "rawSourceSha256": "b1157be4a8ad1f5a0ee0792971fd3d32bbd1a0a481b045b1c06f76b0ce6db15b",
+  "sourceImage": "tools/generate-art/sources/accu-pickup-generated-raw.png",
+  "sourceSha256": "b1157be4a8ad1f5a0ee0792971fd3d32bbd1a0a481b045b1c06f76b0ce6db15b",
+  "referenceImages": [
+    "public/assets/animation/accu-shoot-right.webp",
+    "public/assets/animation/accu-pass-right.webp"
+  ],
+  "prompt": "Create five distinct complete right-facing basketball pickup poses for Accu in an original 1536\u00d71024 true-transparent RGBA sprite sheet, strict 3-column by 2-row grid, row-major; keep the unused sixth cell fully transparent. Use the attached Accu gameplay art only for canon identity, pixel-art style, palette and scale. Keep every pose fully inside its cell with broad transparent spacing around hands, shoes and ponytails. No ball, text, labels, grid, floor, shadows, hoop, props or people.\n\nAccu is a stylish young adult human woman with warm tan skin, vivid green eyes, blunt black bangs, close-cropped sides and two long black twin ponytails with teal ties/highlights. She wears sleek black sportswear tailored with teal and violet trim, dark shorts/tights, black arm sleeves and teal/violet shoes. Keep the same face, twin ponytails, green eyes, cropped sides, human anatomy and precise kit. She has two natural arms/hands and legs/shoes. The basketball is separate game art: do not draw any ball or prop.\n\nAction: bend and pick up a loose ball from the court with the forward hand. Five distinct connected poses:\n0 upright right-facing ready stance, sees the loose ball low ahead and to the right;\n1 bends hips and knees into a low crouch, torso inclines toward the floor;\n2 reaches an empty hand down toward the court, balanced with the other arm countering;\n3 PICKUP at simulation tick7: fingertips meet the floor at the ball location, hand begins to close, face focused;\n4 rises to a half-standing recovery with the invisible ball secured at the waist by naturally cupped empty hands.\n\nKeep complete anatomy and both ponytails visible, natural knees and hand reach, distinct poses, steady scale and feet baseline. Crisp 1990s arcade pixel clusters, dark clean outlines, readable at gameplay scale. True alpha-zero background/gutters; no glow, checkerboard or matte. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Separate Accu-specific ball sits ahead near the court during approach and meets her reaching hand for pickup at frame3/tick7; it is never painted into sprite poses.",
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Five unique complete right-facing human poses. Accu retains her green eyes, blunt bangs, cropped sides, twin long black ponytails, teal/violet sports kit and human anatomy. Frame3 is the low floor-contact pickup at tick7, followed by an upright recovery. Mirror review pending."
+  }
+}

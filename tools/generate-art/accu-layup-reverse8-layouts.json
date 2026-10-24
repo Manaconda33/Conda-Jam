@@ -1,0 +1,166 @@
+[
+  {
+    "athlete": "accu",
+    "direction": "right",
+    "clip": "layup-reverse",
+    "src": "./public/assets/animation/accu-layup-reverse-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "accu",
+      "clip": "layup-reverse",
+      "direction": "right",
+      "canonicalSection": "Neo Runway Precision / Accu",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-86428b95-202a-444c-9a4b-7a8e99ca634d",
+      "imageGenerationId": "exec-86428b95-202a-444c-9a4b-7a8e99ca634d",
+      "rawSourceImage": "tools/generate-art/sources/accu-layup-reverse-generated-raw.png",
+      "rawSourceSha256": "af5a1a6c9c9b2bccb29376bd5cefc0b910e384a2d80811be478ab1d2e3ce71a2",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/accu-layup-reverse-generated-raw.png",
+      "sourceSha256": "af5a1a6c9c9b2bccb29376bd5cefc0b910e384a2d80811be478ab1d2e3ce71a2",
+      "referenceImages": [
+        "public/assets/animation/accu-layup-right.webp",
+        "public/assets/animation/accu-shoot-right.webp"
+      ],
+      "prompt": "Create eight distinct complete right-facing reverse-layup poses for Accu in an original 1536\u00d71024 transparent RGBA pixel-art sheet, 4-column by 2-row grid, row-major. Use the attached Accu gameplay art only for canon identity, palette, scale and pixel style. Keep each full figure centered in its cell, all limbs/hands/shoes and both ponytails inside with generous clear-alpha margins. Same camera and scale. No text, borders, court, floor, shadow, hoop, rim, ball, props or other people.\n\nAccu is a stylish confident young adult human woman with warm tan skin, vivid green eyes, black blunt bangs, close-cropped sides and two long black twin ponytails with teal ties/highlights. Her modern athletic uniform is black with precise teal and violet trim, dark shorts/tights, black sleeves and teal/violet sneakers. Keep her face, feminine human proportions, eyes, hair, ponytails, sides and kit exactly consistent. Show two arms and hands, two legs and shoes. The basketball is separate game art and must not be drawn.\n\nPerform a right-facing reverse layup: Accu drives toward image-right, turns her back/shoulder toward the target during flight, and finishes high on the reverse side. Eight continuous distinct poses with event timing:\n0 right-facing approach stride;\n1 takeoff at simulation tick2, lead knee lifts as body launches;\n2 airborne, torso begins turning away from the rim while empty ball-miming hand protects the invisible ball;\n3 back/shoulder leads, arm cocks behind the head but leaves the whole ponytails visible;\n4 rise on the reverse side, hand poised for the finish;\n5 RELEASE at tick12, arm reaches backward and high with an open empty palm;\n6 empty-hand follow-through as she descends and unwinds;\n7 controlled landing and recovery, facing back toward the court.\n\nKeep the ornate hairstyle intact, no hair clipped or crossed by the arm. Distinct original pixel-art poses, safe transparent spacing, true alpha-zero background, no glow, haze, checkerboard or matte. Return only the sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Separate Accu-specific ball tracks her right-facing reverse layup, moves behind the turning shoulder, and releases at frame5/tick12. It is never painted into the pose sheet.",
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Eight distinct complete human reverse-layup poses. Accu retains green eyes, blunt bangs, cropped sides, two long black twin ponytails and the teal/violet/black kit. Body turns toward a back/shoulder view and returns through a clean high reverse finish; single release is frame5/tick12. Canon mirror review pending."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 24,
+          "y": 165,
+          "w": 327,
+          "h": 337,
+          "component": 4,
+          "area": 50028
+        },
+        {
+          "sourceIndex": 1,
+          "x": 439,
+          "y": 150,
+          "w": 306,
+          "h": 365,
+          "component": 3,
+          "area": 48739
+        },
+        {
+          "sourceIndex": 2,
+          "x": 823,
+          "y": 105,
+          "w": 295,
+          "h": 395,
+          "component": 2,
+          "area": 44610
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1213,
+          "y": 81,
+          "w": 268,
+          "h": 432,
+          "component": 1,
+          "area": 49767
+        },
+        {
+          "sourceIndex": 4,
+          "x": 41,
+          "y": 537,
+          "w": 324,
+          "h": 451,
+          "component": 6,
+          "area": 49835
+        },
+        {
+          "sourceIndex": 5,
+          "x": 439,
+          "y": 526,
+          "w": 335,
+          "h": 462,
+          "component": 5,
+          "area": 50885
+        },
+        {
+          "sourceIndex": 6,
+          "x": 809,
+          "y": 589,
+          "w": 354,
+          "h": 394,
+          "component": 7,
+          "area": 50323
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1208,
+          "y": 657,
+          "w": 290,
+          "h": 328,
+          "component": 8,
+          "area": 47114
+        }
+      ],
+      "uniformScale": 0.19913419913419914,
+      "componentIsolation": true,
+      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses"
+    }
+  }
+]

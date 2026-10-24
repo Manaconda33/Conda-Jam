@@ -1,0 +1,7 @@
+# Accu — alley-oop-power
+
+## Exact accepted generation prompt
+
+Create exactly 15 full-body Accu ALLEY-OOP-POWER dunk poses in a strict 5-column × 3-row sprite sheet, row-major. Accu is the same young human woman in the reference: warm tan skin, green eyes, blunt black bangs, close-cropped sides, two long black ponytails with teal ties, fitted black sleeveless uniform with teal/violet trim, black arm sleeves and tights, teal/violet shoes. Preserve identity and anatomy. Right-facing alley-oop sequence: 0 sprints toward pass lane, eyes up; 1 reaches forward with empty hands for an incoming pass; 2 catches the unseen pass and takes off tick4 (hands curve around empty space); 3 rises strongly; 4 lifts knees; 5 reaches overhead at peak tick14; 6 cocks arm for power slam; 7 drives toward imaginary rim; 8 right hand high, second arm counterbalances; 9 extends into dunk; 10 releases the invisible ball tick21 with open empty hand; 11 follow-through tick23; 12 descends; 13 lands bent knees; 14 recovers ready. No ball is pictured; hands stay empty and gesture around invisible pass. 15 distinct full-body poses, all hair/fingers/shoes in bounds, consistent scale. Accu alone. Do not draw basketball, sphere, prop, hoop, rim, extra person, court, floor, shadow, background, text, numbers, logos, grid or effects. True transparent RGBA with no checkerboard. Crisp outlined 1990s arcade pixel art. Return only sheet.
+
+`clean-accu-motion-background.py` removes edge-connected neutral background from the opaque white source.

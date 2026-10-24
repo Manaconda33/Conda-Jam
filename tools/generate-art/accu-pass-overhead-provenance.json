@@ -1,0 +1,29 @@
+{
+  "athlete": "accu",
+  "clip": "pass-overhead",
+  "direction": "right",
+  "canonicalSection": "Neo Runway Precision / Accu",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-c2d09951-0e3e-4424-ae04-01bb5a39911d",
+  "imageGenerationId": "exec-c2d09951-0e3e-4424-ae04-01bb5a39911d",
+  "rawSourceImage": "tools/generate-art/sources/accu-pass-overhead-generated-raw.png",
+  "rawSourceSha256": "a859aac958b986342f40e4e2ddcd0d5b24877ad70ed2cb0754fa629721f948f6",
+  "sourceImage": "tools/generate-art/sources/accu-pass-overhead-generated-raw.png",
+  "sourceSha256": "a859aac958b986342f40e4e2ddcd0d5b24877ad70ed2cb0754fa629721f948f6",
+  "referenceImages": [
+    "public/assets/animation/accu-shoot-right.webp",
+    "public/assets/animation/accu-pass-right.webp"
+  ],
+  "prompt": "Create six NEW and distinct right-facing overhead-pass poses for Accu, in a 3-column by 2-row transparent RGBA sprite sheet, 1536\u00d71024. Use references only for Accu\u2019s canon identity, teal/violet/black kit, scale and pixel-art shading; redraw new poses. Accu is a stylish young adult human woman with warm tan skin, vivid green eyes, blunt black bangs, close-cropped sides, and two long black twin ponytails with teal ties. Keep her human anatomy and sleek teal/violet/black uniform consistent. Each cell has one complete body, clear hands/shoes/ponytails, same scale and baseline. No labels, borders, scenery, floor, shadows, hoop, ball or props. Hands are EMPTY; the game draws the basketball separately. Crisp 1990s arcade pixel clusters, sharp outlines, alpha-zero gutters/background.\n\nThis is a deliberate overhead pass (not a shot). Frame order: 0 balanced stance with hands chest-high; 1 knees flex as hands lift above forehead; 2 step forward and cock hands overhead; 3 RELEASE at tick7 with both arms reaching up and toward image-right, wrists flicked, palms open and empty; 4 upward follow-through with weight forward; 5 stable recovery with arms lowered. All six drawings are distinct and connected. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Separate Accu-specific ball rises with her overhead hands and releases at frame3/tick7; it is never painted into the poses.",
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Six distinct complete human poses match Accu\u2019s canon identity and gameplay scale. Both long black twin ponytails, blunt bangs, close-cropped sides, vivid green eyes and teal/violet kit remain consistent. Frame3 is the single empty-hand upward pass release at tick7. Mirror review is pending; only canonical right-facing art is supplied."
+  }
+}

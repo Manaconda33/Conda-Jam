@@ -1,0 +1,60 @@
+{
+  "athlete": "accu",
+  "clip": "push",
+  "direction": "right",
+  "canonicalSection": "J.10",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-99bb69d7-9945-41ce-83ae-33c458eaeea5",
+  "sourceImage": "tools/generate-art/sources/accu-push-generated-clean.png",
+  "sourceSha256": "2119e62526b8f4e2b03026878fc653f5b8ff3f12a3eff8877eb3de48198dd60f",
+  "promptFile": "tools/generate-art/accu-push-prompt.md",
+  "ballTrack": {
+    "height": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "forward": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-accu-push-checker.py",
+    "method": "remove border-connected neutral checker pixels; preserve colored figure pixels"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Eleven distinct complete Accu poses, human anatomy, green eyes, blunt bangs, twin long black ponytails with teal ties, black/teal/violet uniform. Empty hands; no ball. Separate Accu ball track remains on simulation runtime."
+  },
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-607d2fe3-b18b-48c2-be42-f5ee9ab64d4b",
+      "reason": "painted checkerboard, basketball props, only ten figures"
+    },
+    {
+      "generationId": "exec-d3b72a62-a09a-4986-b2dc-b369cd1383f6",
+      "reason": "wrong athlete (Dorian) and opaque background"
+    }
+  ],
+  "prompt": "Transparent background image asset, real RGBA transparency. DO NOT draw or render any checkerboard pattern. No background pixels at all. Make a clean professional transparent pixel-art sprite sheet, 4 columns by 3 rows, eleven full-body right-facing frames of the same Accu basketball game character, final bottom-right cell empty. Match the attached image precisely: athletic young human woman, warm tan skin, green eyes, blunt black bangs, cropped sides, two long black ponytails secured with teal ties, fitted black basketball uniform with teal/violet piping and black knee-length leggings, teal violet sneakers, black arm sleeves. Keep human anatomy accurate: exactly two arms, two hands, two legs. Blank clothes without numbers or logos. PUSH body-check sequence, poses progress from guard stance, crouch, forceful step, leaning push, extended arm, peak contact tick 8, follow-through, recover, straighten, step back, return to guard. She is alone; hands empty; absolutely no basketball or other object, no person, no court, no floor, no shadows, no text. Strict aligned 4x3 grid, last cell empty, broad transparent gutters, consistent scale and baseline. Sharp outlined 1990s arcade pixel art. Return only the transparent PNG."
+}

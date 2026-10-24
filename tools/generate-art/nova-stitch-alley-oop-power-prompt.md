@@ -1,0 +1,7 @@
+# Nova Stitch — alley-oop-power
+
+## Verbatim generation prompt
+
+```text
+Use the supplied Nova Stitch image only as identity/style reference. Make a true transparent RGBA 1536×1024 sprite sheet of exactly fifteen distinct complete full-body poses in a five-column by three-row row-major grid for Nova’s alley-oop power dunk. Same fair-tan athletic human woman with face, long curly teal high ponytail, teal jersey and shorts with purple/black trim, black knee pads, teal-black shoes and wristbands. Consistent right-facing human anatomy, outfit, camera and scale. One Nova per cell, no teammate or passer. Do NOT draw a basketball or hoop: separate runtime ball track supplies the lob, and hands are empty after catch/release. Sequence follows one continuous lob catch to compact power dunk. Frames0-1 run into lane and look up; frames2-4 reach toward incoming high lob; frame5 is unmistakable two-hand/right-hand catch pose with arms up and eyes tracking; frames6-7 bring invisible ball close to chest while airborne; frames8-9 gather then extend upward; frame10 high one-hand power dunk release, empty hand reaches rim-height; frames11-12 follow through and descend; frames13-14 land and recover. Keep every full body, ponytail, fingers, shoes visible. Poses distinct. No background, floor, shadow, glow, text, rim, ball, border, gridline, checkerboard or matte; transparent alpha zero. Crisp 1990s limited-palette arcade pixel art with chunky dark outlines, not glossy, photorealistic, anime, painterly or 3D. Return only the sprite sheet.
+```

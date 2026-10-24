@@ -1,0 +1,65 @@
+{
+  "athlete": "moxie-capwell",
+  "clip": "dunk-power",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-9d3ac1e9-868e-464f-93fb-27cf01134bfe",
+  "imageGenerationId": "exec-9d3ac1e9-868e-464f-93fb-27cf01134bfe",
+  "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-power15-cleaned.png",
+  "sourceSha256": "a0137afe6ddb2713c088a307abbeb1cc90035fb83ad3d4bf42193a00c6cf1afb",
+  "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-power15-generated-raw.png",
+  "rawSourceSha256": "4391bfa2f9d809c8c6cd728051ce01e97d14de4e0292d44bd966b4d56c84915c",
+  "prompt": "Create one original transparent RGBA 5-column by 3-row spritesheet with exactly fifteen distinct full-body right-facing basketball dunk-power poses of Moxie Capwell. Follow her attached canon portrait/gameplay refs strictly: adult human woman, pale skin, lavender eyes, very long thick lavender high ponytail with small gold tie, mature powerful athletic anatomy, purple-and-silver uniform with white side panels, purple wristbands, purple high-top shoes. Same face, proportions, outfit and hair in all fifteen figures.\n\nCrisp readable 1990s arcade basketball pixel-cel sprite art. Exact 1536x1024 canvas, 5x3 strict row-major layout, one complete pose centered per cell with wide transparent gutters. All limbs, shoes and ponytail inside cell; never touch canvas edge. True transparent RGBA background. Only Moxie. Basketball is a separate game object and MUST NOT appear in any frame. No hoop, rim, net, court, floor, shadow, opponent, scenery, background, effects, glow, labels, text or extra character.\n\nA forceful one-handed power dunk, all pose phases distinct:\n0 approach run;\n1 gather steps and bend;\n2 takeoff launch at gameplay tick4;\n3 rise, knees lift;\n4 extend to rim height;\n5 gather unseen ball with right hand above shoulder;\n6 cock strong right arm, left arm counterbalances;\n7 drive upward at peak tick14, right hand high;\n8 power through imaginary rim path;\n9 right arm fully extended to drive imaginary ball downward;\n10 one-hand release tick21;\n11 scoring finish tick23, airborne after release with hand below imaginary rim height;\n12 descend with arms lowering;\n13 land on feet, knees flex;\n14 settled athletic recovery.\nMoxie remains a human athlete, never a quadruped. No ball/rim is drawn; leave hands empty and readable.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Moxie-specific separate ball arc follows her right hand into the high finish, then advances toward the hoop and releases on tick21. The art never contains a ball or rim.",
+  "ballTrack": {
+    "height": [
+      1.05,
+      1.2,
+      1.4,
+      1.7,
+      2.2,
+      2.6,
+      3.0,
+      3.3,
+      3.1,
+      2.5,
+      2.1,
+      1.9,
+      1.45,
+      1.05,
+      0.8
+    ],
+    "forward": [
+      6,
+      8,
+      9,
+      11,
+      13,
+      15,
+      16,
+      17,
+      16,
+      14,
+      18,
+      25,
+      32,
+      38,
+      42
+    ]
+  },
+  "cleanupNotes": "Smooth generated purple backdrop removed with Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342). Raw source retained; fifteen source components isolated during atlas packing.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Fifteen complete distinct Moxie human poses in 5x3 row-major layout. Consistent adult face/anatomy, pale skin, lavender eyes, very long gold-tied lavender ponytail, purple/silver uniform and shoes. Clear run-up, one-hand right-arm rise, apex/power push, release at frame10/tick21, scoring finish, descent and grounded recovery. Separate basketball is not drawn. Background-cleaned alpha reviewed."
+  }
+}

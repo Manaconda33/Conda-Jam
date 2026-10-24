@@ -1,0 +1,1382 @@
+{
+  "athlete": "moxie-capwell",
+  "canonSection": "J.03",
+  "inventoryStatus": "source-only assets ready for roster-order registration",
+  "runtimeClipCount": 29,
+  "runtimeKeys": [
+    "idle",
+    "idle-ball",
+    "dribble",
+    "run",
+    "dribble-run",
+    "shoot",
+    "pass",
+    "pass-overhead",
+    "pass-behind",
+    "receive",
+    "pickup",
+    "layup",
+    "layup-reverse",
+    "block",
+    "steal",
+    "push",
+    "rebound",
+    "fall",
+    "celebrate",
+    "dunk-power",
+    "dunk-windmill",
+    "dunk-reverse",
+    "dunk-360",
+    "dunk-tomahawk",
+    "dunk-double",
+    "dunk-clutch",
+    "dunk-scythe",
+    "alley-oop-power",
+    "alley-oop-reverse"
+  ],
+  "existingBaseClips": [
+    {
+      "clip": "idle",
+      "atlasPath": "public/assets/animation/moxie-capwell-idle-right.webp",
+      "atlasSha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+      "frameCount": 6,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "ballTrackKeys": [],
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+      },
+      "registration": "already-present-in-current-manifest"
+    },
+    {
+      "clip": "idle-ball",
+      "atlasPath": "public/assets/animation/moxie-capwell-idle-ball-right.webp",
+      "atlasSha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+      "frameCount": 4,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "ballTrackKeys": [],
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+      },
+      "registration": "already-present-in-current-manifest"
+    },
+    {
+      "clip": "dribble",
+      "atlasPath": "public/assets/animation/moxie-capwell-dribble-right.webp",
+      "atlasSha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+      "frameCount": 10,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "ballTrackKeys": [],
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+      },
+      "registration": "already-present-in-current-manifest"
+    },
+    {
+      "clip": "run",
+      "atlasPath": "public/assets/animation/moxie-capwell-run-right.webp",
+      "atlasSha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+      "frameCount": 11,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "ballTrackKeys": [],
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+      },
+      "registration": "already-present-in-current-manifest"
+    },
+    {
+      "clip": "dribble-run",
+      "atlasPath": "public/assets/animation/moxie-capwell-dribble-run-right.webp",
+      "atlasSha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+      "frameCount": 11,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "ballTrackKeys": [],
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+      },
+      "registration": "already-present-in-current-manifest"
+    }
+  ],
+  "newSourceOnlyClips": [
+    {
+      "clip": "shoot",
+      "atlasPath": "public/assets/animation/moxie-capwell-shoot-right.webp",
+      "atlasSha256": "9f0d36a2dcd7e105f808b61b97b72a9782c9532c58eeee248621422462fdb7ee",
+      "frameCount": 10,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-shoot10-generated-raw.png",
+      "sourceSha256": "07971d02ac397b29b43139c3c5d2c530e5f655f1226d1792a87f2e1a046ddfb0",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-shoot10-generated-raw.png",
+      "rawSourceSha256": "07971d02ac397b29b43139c3c5d2c530e5f655f1226d1792a87f2e1a046ddfb0",
+      "layoutPath": "tools/generate-art/moxie-capwell-shoot10-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-shoot10-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-shoot10-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.1,
+          1.35,
+          1.7,
+          2.1,
+          2.6,
+          3,
+          3.25,
+          2.8,
+          1.2,
+          0.8
+        ],
+        "forward": [
+          5,
+          5,
+          3,
+          4,
+          6,
+          7,
+          5,
+          1,
+          1,
+          4
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": null,
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Ten distinct complete right-facing adult human jump-shot poses. Moxie\u2019s pale skin, lavender eyes, long high ponytail with gold tie, purple/silver uniform and purple shoes match both supplied canon references. No basketball appears. Pose5 is the only release at tick13; all bodies and ponytails fit their cells."
+      }
+    },
+    {
+      "clip": "pass",
+      "atlasPath": "public/assets/animation/moxie-capwell-pass-right.webp",
+      "atlasSha256": "8cf7cfe60fd08d8b62a7533c90ebb640846c8cec19229a92913dd575101e6fd8",
+      "frameCount": 6,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-pass6-generated-raw.png",
+      "sourceSha256": "ff554523855fd5abeee6c165ccafd94426d07461b2c10edaa56f51bc3758db92",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pass6-generated-raw.png",
+      "rawSourceSha256": "ff554523855fd5abeee6c165ccafd94426d07461b2c10edaa56f51bc3758db92",
+      "layoutPath": "tools/generate-art/moxie-capwell-pass6-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-pass6-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-pass6-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.15,
+          1.25,
+          0.95,
+          0.8,
+          0.8
+        ],
+        "forward": [
+          6,
+          6,
+          8,
+          14,
+          14,
+          8
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": null,
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Six distinct complete right-facing human chest-pass poses. Moxie\u2019s pale skin, lavender eyes, long high lavender ponytail and gold tie, purple/silver uniform and human anatomy match her supplied canon references. No basketball appears. Frame3 is the sole release at tick5; both full bodies and ponytails fit the source cells."
+      }
+    },
+    {
+      "clip": "pass-overhead",
+      "atlasPath": "public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+      "atlasSha256": "86c24df1f4c433c6a71afda017102a762a991a9122ac5d297613ba41f7ba594f",
+      "frameCount": 6,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-pass-overhead6-generated-raw.png",
+      "sourceSha256": "c9777d9e7915136acdef32b179236d35170b74b0631a548d35dffcc29602e020",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pass-overhead6-generated-raw.png",
+      "rawSourceSha256": "c9777d9e7915136acdef32b179236d35170b74b0631a548d35dffcc29602e020",
+      "layoutPath": "tools/generate-art/moxie-capwell-pass-overhead6-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-pass-overhead6-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-pass-overhead6-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.35,
+          2.0,
+          2.8,
+          2.5,
+          1.4
+        ],
+        "forward": [
+          6,
+          5,
+          4,
+          8,
+          10,
+          7
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": null,
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Six distinct complete right-facing overhead-pass poses. Moxie\u2019s pale skin, lavender eyes, high lavender ponytail/gold tie, purple/silver kit and human anatomy remain consistent with both canon references. No ball appears. Frame3 is the sole tick7 release; the face stays readable."
+      }
+    },
+    {
+      "clip": "pass-behind",
+      "atlasPath": "public/assets/animation/moxie-capwell-pass-behind-right.webp",
+      "atlasSha256": "6c6511c529012ff8c8f721ddc8e4fd262ac946b0e51255ee1e298912d0ce7a7e",
+      "frameCount": 6,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-pass-behind6-generated-raw.png",
+      "sourceSha256": "7742c0841efccb9ed5c23b987f85134ac21421fdefbd495fbeb5160b8a11c195",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pass-behind6-generated-raw.png",
+      "rawSourceSha256": "7742c0841efccb9ed5c23b987f85134ac21421fdefbd495fbeb5160b8a11c195",
+      "layoutPath": "tools/generate-art/moxie-capwell-pass-behind6-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-pass-behind6-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-pass-behind6-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.05,
+          0.9,
+          0.8,
+          0.8,
+          0.8,
+          0.8
+        ],
+        "forward": [
+          5,
+          -3,
+          -12,
+          -14,
+          -8,
+          4
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": null,
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Six distinct complete Moxie human poses. The high lavender ponytail and gold tie, pale face, adult human anatomy, purple/silver uniform and shoes remain consistent with the canon refs. Torso turns to show a behind-the-back sweep; one open hand releases backward at frame3/tick7. No ball appears."
+      }
+    },
+    {
+      "clip": "receive",
+      "atlasPath": "public/assets/animation/moxie-capwell-receive-right.webp",
+      "atlasSha256": "9f2a82b283a215164e26387cf8081e36b57238d42e3b3f4dd574fca1402a7b76",
+      "frameCount": 4,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-receive4-generated-raw.png",
+      "sourceSha256": "6eb3ef65d9ddb503bef67dc8b957f2ba3af62116c2d8bdbe213d328430bef6a1",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-receive4-generated-raw.png",
+      "rawSourceSha256": "6eb3ef65d9ddb503bef67dc8b957f2ba3af62116c2d8bdbe213d328430bef6a1",
+      "layoutPath": "tools/generate-art/moxie-capwell-receive4-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-receive4-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-receive4-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.2,
+          1.45,
+          1.5,
+          1.35
+        ],
+        "forward": [
+          5,
+          10,
+          12,
+          8
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": null,
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Four distinct complete right-facing Moxie receive poses with readable catch at frame2/tick4. Canon lavender eyes, long high ponytail/gold tie, purple/silver uniform, adult human anatomy and shoes are consistent. The separate ball is not drawn."
+      }
+    },
+    {
+      "clip": "pickup",
+      "atlasPath": "public/assets/animation/moxie-capwell-pickup-right.webp",
+      "atlasSha256": "d2d50ba537d6b7991a22efd610fd42a30cfa104062167544ce3e5e282423b32b",
+      "frameCount": 5,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-pickup5-generated-raw.png",
+      "sourceSha256": "434ee5abe32212f970a05009e73d5ae1d524d2fd1cbdec89aa59330a87811ca0",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pickup5-generated-raw.png",
+      "rawSourceSha256": "434ee5abe32212f970a05009e73d5ae1d524d2fd1cbdec89aa59330a87811ca0",
+      "layoutPath": "tools/generate-art/moxie-capwell-pickup5-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-pickup5-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-pickup5-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          0.55,
+          0.35,
+          0.15,
+          0,
+          0.75
+        ],
+        "forward": [
+          7,
+          8,
+          12,
+          14,
+          9
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": null,
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Five distinct complete Moxie pickup poses. Her pale adult human face, lavender eyes, long high lavender ponytail/gold tie, purple/silver kit and shoes are intact. Figure5 touches court with open empty fingertips at frame3/tick7. Bottom-right cell stays empty; no ball or prop appears."
+      }
+    },
+    {
+      "clip": "layup",
+      "atlasPath": "public/assets/animation/moxie-capwell-layup-right.webp",
+      "atlasSha256": "d0bac26359b57ecbb412377210355b75c4740dab784ccabe15277099a344202f",
+      "frameCount": 8,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-layup8-generated-raw.png",
+      "sourceSha256": "6e4623d84deb5ce102b48e40b46ff7c4600f476624ac45c48a3696c1774d368a",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-layup8-generated-raw.png",
+      "rawSourceSha256": "6e4623d84deb5ce102b48e40b46ff7c4600f476624ac45c48a3696c1774d368a",
+      "layoutPath": "tools/generate-art/moxie-capwell-layup8-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-layup8-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-layup8-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.0,
+          0.9,
+          1.3,
+          2,
+          2.8,
+          2.6,
+          1.4,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          8,
+          10,
+          13,
+          10,
+          5,
+          6
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": null,
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Eight distinct complete human layup poses. Moxie\u2019s pale face, lavender eyes, long high ponytail/gold tie, purple/silver kit and shoes remain consistent. She approaches, rises, extends one empty hand at the frame4/tick9 layup release, follows through and lands. No ball is drawn."
+      }
+    },
+    {
+      "clip": "layup-reverse",
+      "atlasPath": "public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+      "atlasSha256": "04ec9707fd27457095ad2151438d11de9bb5a1dabb854e3184914f99e59cbc4d",
+      "frameCount": 8,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-layup-reverse8-generated-raw.png",
+      "sourceSha256": "94fac73c0b534ca4dfb9e43fd434e806081f88913921f5d1705cfd97e71b2f78",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-layup-reverse8-generated-raw.png",
+      "rawSourceSha256": "94fac73c0b534ca4dfb9e43fd434e806081f88913921f5d1705cfd97e71b2f78",
+      "layoutPath": "tools/generate-art/moxie-capwell-layup-reverse8-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-layup-reverse8-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-layup-reverse8-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.25,
+          1.6,
+          2,
+          2.2,
+          2.4,
+          1.2,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          6,
+          3,
+          -3,
+          8,
+          5,
+          5
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": null,
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Eight distinct complete Moxie reverse-layup poses. Her identity, adult human anatomy, long lavender ponytail/gold tie, purple/silver kit and shoes remain consistent. She turns away during flight and releases with a high open far-side hand at frame5/tick12. No ball appears."
+      }
+    },
+    {
+      "clip": "block",
+      "atlasPath": "public/assets/animation/moxie-capwell-block-right.webp",
+      "atlasSha256": "a24edb3334ec0cdba8bcc5a03ae2d3ed76c739daf11fec7dd9a5e98c25ba7c48",
+      "frameCount": 4,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-block4-generated-raw.png",
+      "sourceSha256": "53085935aaedd45f7617ea2217c115a2904525f51b9691d1f7466bf1f7fa8ee0",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-block4-generated-raw.png",
+      "rawSourceSha256": "53085935aaedd45f7617ea2217c115a2904525f51b9691d1f7466bf1f7fa8ee0",
+      "layoutPath": "tools/generate-art/moxie-capwell-block4-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-block4-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-block4-prompt.md",
+      "ballTrackKeys": [],
+      "ballTrack": null,
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": null,
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Four distinct complete Moxie defensive block poses. Her pale skin, lavender eyes, high ponytail/gold tie, purple/silver kit, adult human anatomy and shoes remain consistent. Frame2 is the clear peak block with both empty arms extended overhead; no ball is drawn."
+      }
+    },
+    {
+      "clip": "steal",
+      "atlasPath": "public/assets/animation/moxie-capwell-steal-right.webp",
+      "atlasSha256": "24f338db54e6948e748c03b1f30912b2fb2503df1966c10f4b2ce2093b0714b2",
+      "frameCount": 8,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-steal8-generated-raw.png",
+      "sourceSha256": "13e925f64360e36a611941a9bf4366d17b0409d8cb1e0cbf70c41863d0fa0e0f",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-steal8-generated-raw.png",
+      "rawSourceSha256": "13e925f64360e36a611941a9bf4366d17b0409d8cb1e0cbf70c41863d0fa0e0f",
+      "layoutPath": "tools/generate-art/moxie-capwell-steal8-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-steal8-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-steal8-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.05,
+          1.15,
+          1.25,
+          1.1,
+          0.9,
+          0.8,
+          0.8
+        ],
+        "forward": [
+          -8,
+          -4,
+          2,
+          10,
+          12,
+          8,
+          5,
+          5
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": null,
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Eight distinct full-body Moxie defensive-steal poses. Moxie\u2019s pale human face, lavender eyes, long high lavender ponytail/gold tie, purple/silver kit and shoes are consistent. Pose3 is the waist-level steal contact; both hands remain empty and readable. No ball is drawn."
+      }
+    },
+    {
+      "clip": "push",
+      "atlasPath": "public/assets/animation/moxie-capwell-push-right.webp",
+      "atlasSha256": "f6a787b546ebe12e6c9cb02f3379b3b85cf11b9d0bf7979830bc2f2be2c57426",
+      "frameCount": 11,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-push11-cleaned.png",
+      "sourceSha256": "d4ae4565468b725c94e8260aa4235479ca66fefe12ad8aa3bfc129c963317a8c",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-push11-generated-raw.png",
+      "rawSourceSha256": "5cc5869ee547f987f140c829aeb9887c2e37ebc955fe349940024408821bd853",
+      "layoutPath": "tools/generate-art/moxie-capwell-push11-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-push11-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-push11-prompt.md",
+      "ballTrackKeys": [],
+      "ballTrack": null,
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "The generated source contained a smooth, fully opaque purple backdrop despite the transparency request. The athlete-specific cleanup script removes low-frequency background color by multiplying source alpha by a local RGB-contrast matte (Gaussian sigma 38 px; 21\u201342 contrast fade). This leaves the detailed figure pixels and removes background haze. Raw generation preserved separately.",
+      "rejectedGenerations": [
+        {
+          "generationId": "exec-cb5a8222-2641-4316-bda4-ee73db818e8f",
+          "reason": "Correct Moxie identity and action sequence, but smooth purple backdrop leaked conspicuously into packed frames; rejected and superseded."
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Eleven separate full-body Moxie poses are complete and row-major in a four-by-three sheet. Her pale human face, lavender eyes, long lavender high ponytail with gold tie, purple-silver uniform, wristbands and high-top shoes remain consistent. Pose5 depicts a controlled shoulder-to-chest bump with bent knees and open hands; poses recover to guard. The generated purple backdrop was removed with documented contrast matte; no backdrop haze remains in packed atlas. No ball or opponent appears."
+      }
+    },
+    {
+      "clip": "rebound",
+      "atlasPath": "public/assets/animation/moxie-capwell-rebound-right.webp",
+      "atlasSha256": "f76ec5106a733db4fc4c0f47c6052ba9b761b3d7ee979a5ce0bbae5492ccee83",
+      "frameCount": 5,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-rebound5-cleaned.png",
+      "sourceSha256": "9442b546be4a81748ba94e42de69ed77b961e3c357f2417d1c50f70a46dd196d",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-rebound5-generated-raw.png",
+      "rawSourceSha256": "f7396868cbb9392518f2829e5cc2efa52e3d1de017f09a2ff1dfa0e32648d8ee",
+      "layoutPath": "tools/generate-art/moxie-capwell-rebound5-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-rebound5-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-rebound5-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          0.9,
+          1.25,
+          1.9,
+          2.2,
+          1.2
+        ],
+        "forward": [
+          6,
+          8,
+          11,
+          14,
+          8
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "The generated sheet contains a smooth painted backdrop despite the transparency request. Applied the athlete-specific local RGB-contrast matte (Gaussian sigma 38px, alpha fade for contrast 21\u201342) and retained the original raw generation separately.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Five distinct complete full-body Moxie poses in row-major order. Correct pale human face, lavender eyes, high lavender ponytail with gold tie, purple/silver kit and high-top shoes. Frame3 is the high two-hand rebound catch; frame4 lands with the ball protected near chest height. Smooth backdrop removed and alpha edges reviewed against white; the separate ball is not drawn."
+      }
+    },
+    {
+      "clip": "fall",
+      "atlasPath": "public/assets/animation/moxie-capwell-fall-right.webp",
+      "atlasSha256": "4e12839c8f4b8f95d84f0a5ab46b46fe8d460d18dd098b13ed3cf5d99a23290b",
+      "frameCount": 10,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-fall10-cleaned.png",
+      "sourceSha256": "76294958c6fc40fbf487a7310ffa5abdc2807efe1789e80256a7c880d9551822",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-fall10-generated-raw.png",
+      "rawSourceSha256": "a35dda6b1de328092915a7bee032846f48d826e1536d7f282ea2c96d1d9c148d",
+      "layoutPath": "tools/generate-art/moxie-capwell-fall10-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-fall10-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-fall10-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1,
+          0.9,
+          0.75,
+          0.4,
+          0.2,
+          0.1,
+          0.15,
+          0.2,
+          0.4,
+          0.6
+        ],
+        "forward": [
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          13,
+          13,
+          11,
+          9
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Generated sheet had a purple painted backdrop. Applied the documented local RGB-contrast matte (Gaussian sigma 38px, alpha fade for contrast 21\u201342); raw source retained separately.",
+      "rejectedGenerations": [
+        {
+          "generationId": "exec-823ab7f3-3191-4eed-8116-b8c9ec8b318d",
+          "reason": "First pose touched the outer source-sheet edge and the action packer rejected the incomplete margin.",
+          "prompt": "Create one original transparent RGBA production spritesheet for Moxie Capwell's right-facing basketball fall action. Follow the supplied Moxie portrait and gameplay references as strict identity and anatomy guides: adult human woman, pale skin, lavender-purple eyes, very long thick lavender high ponytail with small gold tie, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Same face, eyes, ponytail/tie, and kit in every pose.\n\n1990s arcade basketball pixel-cel art, crisp outlines, consistent scale. Exact 1536x1024 canvas, 5 columns x 2 rows, ten complete Moxie poses row-major in every cell. Wide clear transparent gutters; no clipped ponytail, hands or shoes. Moxie alone. No ball or opponent drawn: the separate basketball will be handled by the game. No floor, shadow, court, hoop, effects, glow, background, text or labels. Return true-transparent RGBA with alpha-zero background.\n\nA controlled nonviolent basketball stumble-and-fall with safe athletic form, no injury or distress. Pose sequence:\n0: off-balance recovery step after a loose-ball collision, arms out;\n1: stumble forward, one foot catches, hands spread;\n2: drop center, bend knees and reach one hand toward the floor;\n3: knee touches down and opposite hand braces;\n4: controlled side fall, hip lowers, ponytail arcs behind;\n5: settle onto side with one palm supporting her, legs bent;\n6: seated on hip, one hand plants, other hand visible and empty;\n7: turn to one knee;\n8: rise into a low crouch;\n9: recover to balanced standing guard, calm face.\nKeep complete human anatomy, all poses distinct and sequential, no impact marks or visible injury."
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Ten complete sequential Moxie figures in a five-by-two sheet with clear cell margins. Adult human identity, pale skin, lavender eyes, high ponytail/gold tie, purple/silver uniform and shoes stay consistent. Controlled fall sequence progresses from stumble to side fall, seated, kneeling and standing recovery, without injury. Background cleanup checked on light background; no ball drawn."
+      }
+    },
+    {
+      "clip": "celebrate",
+      "atlasPath": "public/assets/animation/moxie-capwell-celebrate-right.webp",
+      "atlasSha256": "a1d5da14d377dc70c50bc9080182d984f075471d41b0c740ce5bb4657f3e32b9",
+      "frameCount": 10,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-celebrate10-cleaned.png",
+      "sourceSha256": "9ded75633ee45c472e916ab4bd6a63b6e5431901d7110b10bb520a7958d2d8fb",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-celebrate10-generated-raw.png",
+      "rawSourceSha256": "ccd5cb3a6937d5974ffad50957c6abb04355bfa5cff68a58facaad18c6c05627",
+      "layoutPath": "tools/generate-art/moxie-capwell-celebrate10-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-celebrate10-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-celebrate10-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "forward": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "The generated background was removed using the Moxie-specific low-frequency RGB contrast cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained separately.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Ten full-body Moxie poses in row-major order. Adult human face and anatomy, pale skin, lavender eyes, gold-tied high ponytail, purple/silver uniform and high-tops remain consistent. Distinct composed celebration: measured fist pumps and overhead pose, arms opened, chest gesture, nod and wave, relaxed finish. No object or ball is drawn. Background cleanup reviewed in packed atlas over a light and court-colored ground."
+      }
+    },
+    {
+      "clip": "dunk-power",
+      "atlasPath": "public/assets/animation/moxie-capwell-dunk-power-right.webp",
+      "atlasSha256": "5f3d77698c79972222d3d11744ba12da62389f2e570104b5e9d8bcb5f8529987",
+      "frameCount": 15,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-power15-cleaned.png",
+      "sourceSha256": "a0137afe6ddb2713c088a307abbeb1cc90035fb83ad3d4bf42193a00c6cf1afb",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-power15-generated-raw.png",
+      "rawSourceSha256": "4391bfa2f9d809c8c6cd728051ce01e97d14de4e0292d44bd966b4d56c84915c",
+      "layoutPath": "tools/generate-art/moxie-capwell-dunk-power15-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-dunk-power15-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-dunk-power15-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.2,
+          1.4,
+          1.7,
+          2.2,
+          2.6,
+          3.0,
+          3.3,
+          3.1,
+          2.5,
+          2.1,
+          1.9,
+          1.45,
+          1.05,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          9,
+          11,
+          13,
+          15,
+          16,
+          17,
+          16,
+          14,
+          18,
+          25,
+          32,
+          38,
+          42
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Smooth generated purple backdrop removed with Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342). Raw source retained; fifteen source components isolated during atlas packing.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete distinct Moxie human poses in 5x3 row-major layout. Consistent adult face/anatomy, pale skin, lavender eyes, very long gold-tied lavender ponytail, purple/silver uniform and shoes. Clear run-up, one-hand right-arm rise, apex/power push, release at frame10/tick21, scoring finish, descent and grounded recovery. Separate basketball is not drawn. Background-cleaned alpha reviewed."
+      }
+    },
+    {
+      "clip": "dunk-windmill",
+      "atlasPath": "public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+      "atlasSha256": "2c153aa8c264080ad88fd7a75b61553c99ca76be21bdc77562396a0d01ecdcd6",
+      "frameCount": 15,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-windmill15-cleaned.png",
+      "sourceSha256": "f7a8bc7e75803b9e5e24b246ccc0a7483b0bd3fbccacf9466ed2488be1a602a0",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-windmill15-generated-raw.png",
+      "rawSourceSha256": "36f235578eced771ada2608ecbb550fd0dfa9297e9e58799181b8866c833d5da",
+      "layoutPath": "tools/generate-art/moxie-capwell-dunk-windmill15-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-dunk-windmill15-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-dunk-windmill15-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1,
+          1.2,
+          1.4,
+          1.5,
+          1.8,
+          2.1,
+          1.4,
+          0.7,
+          0.9,
+          1.6,
+          2.6,
+          3.2,
+          2.5,
+          1.5,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          10,
+          8,
+          4,
+          0,
+          -2,
+          1,
+          5,
+          12,
+          18,
+          27,
+          35,
+          40
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Generated smooth purple backdrop removed with Moxie-specific low-frequency RGB-contrast matte (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained. Isolated fifteen pose components during packing.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete Moxie poses in 5x3 order; adult human face, pale skin, lavender eyes, gold-tied lavender ponytail and purple/silver uniform stay consistent. Arm traces behind the head, low behind the hip, forward and up through release to form a broad windmill. One-hand release frame12/tick21 followed by score, descent and landing. No ball is drawn; background cleaned and alpha isolation checked."
+      }
+    },
+    {
+      "clip": "dunk-reverse",
+      "atlasPath": "public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+      "atlasSha256": "1c56351044276b8404ea298bca1dd575c4613dd32750de3d3eb4198da98fa56c",
+      "frameCount": 15,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-reverse15-cleaned.png",
+      "sourceSha256": "8439bf47b7508ab0d98b473c18b0cfc10d7a8d73ae7d671947f30adb34199de2",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-reverse15-generated-raw.png",
+      "rawSourceSha256": "50011a72af76f29e8d66517ac09ebaa851183935d409c6194d0a414f797f408f",
+      "layoutPath": "tools/generate-art/moxie-capwell-dunk-reverse15-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-dunk-reverse15-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-dunk-reverse15-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.2,
+          1.4,
+          2.0,
+          2.5,
+          2.8,
+          2.2,
+          1.8,
+          2.1,
+          2.7,
+          3.2,
+          3.4,
+          2.6,
+          1.4,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          12,
+          15,
+          16,
+          14,
+          13,
+          15,
+          18,
+          20,
+          24,
+          31,
+          38,
+          42
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Removed the smooth generated purple backdrop using the Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade for contrast21\u201342). Raw generation retained; isolated 15 source components when packing.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete distinct Moxie human poses with back and three-quarter-back views through a reverse dunk. Identity, adult proportions, lavender eyes/ponytail/gold tie, purple/silver kit remain consistent. Behind-head ball approach, strong backward extension, tick21 release, score finish and landing are clear. No ball drawn; backdrop cleanup and all frame crops reviewed."
+      }
+    },
+    {
+      "clip": "dunk-360",
+      "atlasPath": "public/assets/animation/moxie-capwell-dunk-360-right.webp",
+      "atlasSha256": "6aad9dfdaae7b34b44a325f5196eb782d5027d7d364c9dd524e4560f703ead0f",
+      "frameCount": 15,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-36015-cleaned.png",
+      "sourceSha256": "b204b1b9a21dd35b38a84ee0d516187b0c07119b87a55da83fc7111bd1fda8fc",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-36015-generated-raw.png",
+      "rawSourceSha256": "b23abcd256492c267bdfba7c139aa710d2f4cc1e192466e5ec0c8fb0b47112d9",
+      "layoutPath": "tools/generate-art/moxie-capwell-dunk-36015-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-dunk-36015-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-dunk-36015-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.0,
+          1.1,
+          1.8,
+          2.5,
+          3.0,
+          2.8,
+          2.5,
+          2.2,
+          2.4,
+          2.8,
+          3.3,
+          3.2,
+          2.1,
+          1.2,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          12,
+          10,
+          8,
+          6,
+          5,
+          8,
+          12,
+          16,
+          18,
+          25,
+          35,
+          42
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Smooth generated backdrop removed via Moxie local RGB-contrast cleanup (Gaussian sigma38px; alpha fade contrast21\u201342). Raw source retained and 15 components isolated on pack.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen full distinct poses in 5x3. Body rotates from right-facing profile through back/three-quarter/front views over the jump and returns to a right-facing landing. Moxie identity, lavender ponytail/gold tie, mature human build, purple/silver outfit remain consistent. Right hand release frame12/tick21; scoring and landing follow. No ball drawn; alpha cleanup reviewed."
+      }
+    },
+    {
+      "clip": "dunk-tomahawk",
+      "atlasPath": "public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+      "atlasSha256": "0ce181a6328cb49548b584aba798ab5bab1dc70fa82cd67a614c12a054c9a5d3",
+      "frameCount": 15,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-tomahawk15-cleaned.png",
+      "sourceSha256": "77132204357e577d1e32b711b3e9601bf17084adb4393156e292c1378a215e04",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-tomahawk15-generated-raw.png",
+      "rawSourceSha256": "7ebf8b2265515bd94676ae7969006599b04dd72d7b75695a5fb965fb50d8e442",
+      "layoutPath": "tools/generate-art/moxie-capwell-dunk-tomahawk15-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-dunk-tomahawk15-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-dunk-tomahawk15-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1,
+          1.2,
+          1.4,
+          2,
+          2.5,
+          3,
+          3.3,
+          3.1,
+          2.8,
+          2.2,
+          1.5,
+          0.9,
+          0.6,
+          0.35,
+          0.35
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          12,
+          14,
+          15,
+          14,
+          13,
+          12,
+          14,
+          20,
+          30,
+          38,
+          42,
+          42
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Applied Moxie RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342) to remove generated backdrop; raw retained; isolated components at packing.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete Moxie human poses, consistent face, lavender ponytail/gold tie, mature athletic anatomy and purple/silver uniform. Right hand cocks high behind head then comes down in a clear tomahawk swing; release frame10/tick21, score, descent and landing follow. Ball absent from art; backdrop-cleaned transparent atlas reviewed."
+      }
+    },
+    {
+      "clip": "dunk-double",
+      "atlasPath": "public/assets/animation/moxie-capwell-dunk-double-right.webp",
+      "atlasSha256": "7c9d2d7f6c01e0dd09d16c4daa45f7a219c8bb684a2de641d80e2855c5ae8a6a",
+      "frameCount": 15,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-double15-cleaned.png",
+      "sourceSha256": "572ff25ad4aa9dc0dab2a5db93bb41a840d8075911ae57f16f1364857d179188",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-double15-generated-raw.png",
+      "rawSourceSha256": "3eb15a972389adcb9cf36e700b795051603850baf632b00b4b1b12f88f8fbc6b",
+      "layoutPath": "tools/generate-art/moxie-capwell-dunk-double15-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-dunk-double15-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-dunk-double15-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1,
+          1.2,
+          1.4,
+          1.8,
+          2.3,
+          2.8,
+          3.2,
+          3.3,
+          3.2,
+          2.8,
+          2.2,
+          1.7,
+          1.2,
+          0.7,
+          0.6
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          17,
+          18,
+          17,
+          16,
+          20,
+          28,
+          34,
+          39,
+          42
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Backdrop removed via local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained and fifteen pose components isolated at pack.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete Moxie poses in 5x3 layout with consistent human anatomy and identity. Two hands gather and rise overhead, remain together through peak, extend forward/down for the double-hand finish, release at frame10/tick21, then descend and land. No ball is drawn; backdrop cleanup and packed atlas reviewed."
+      }
+    },
+    {
+      "clip": "dunk-clutch",
+      "atlasPath": "public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+      "atlasSha256": "6fb51602ccf676c429301743f4a38753148ee8bb29aa03a5b99b40a08888c5ad",
+      "frameCount": 15,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-clutch15-cleaned.png",
+      "sourceSha256": "17a86320a17188dce45d62b74b50eabf5ef02cd3a72c9a8a5aa599420de0ec55",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-clutch15-generated-raw.png",
+      "rawSourceSha256": "f4b7cdf35881faed506311279831a66b43343f0e7b6a0152c0e19033849f3e71",
+      "layoutPath": "tools/generate-art/moxie-capwell-dunk-clutch15-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-dunk-clutch15-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-dunk-clutch15-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1,
+          1.2,
+          1.5,
+          1.8,
+          2.2,
+          2.6,
+          2.9,
+          3.1,
+          2.9,
+          3.2,
+          2.4,
+          1.8,
+          1.2,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          22,
+          28,
+          35,
+          40,
+          42,
+          42
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Backdrop removed with Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw preserved; isolated components at pack.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete Moxie human poses. Hands stay clasped tightly at chest through takeoff and peak, then separate for a short one-hand release at frame10/tick21, followed by score and landing. Her adult identity, lavender eyes and ponytail/gold tie, purple/silver uniform and proportions remain consistent. No basketball in art; cleaned atlas reviewed."
+      }
+    },
+    {
+      "clip": "dunk-scythe",
+      "atlasPath": "public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+      "atlasSha256": "f6f66e1c2ac925e8590eb79c04b9183f37e82f16001d076cad03c1a220a17797",
+      "frameCount": 15,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-scythe15-cleaned.png",
+      "sourceSha256": "25496d531935c067449e95b1739c7dd1c702c09227d51bf10804063917121865",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-scythe15-generated-raw.png",
+      "rawSourceSha256": "655eeb4c2fb96134937bca04568efc1c61273ef00e55b5a9f642ebafb268213b",
+      "layoutPath": "tools/generate-art/moxie-capwell-dunk-scythe15-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-dunk-scythe15-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-dunk-scythe15-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1,
+          1.2,
+          1.4,
+          1.2,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.4,
+          3.5,
+          2.5,
+          1.6,
+          1.2,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          6,
+          8,
+          9,
+          8,
+          7,
+          6,
+          8,
+          11,
+          15,
+          18,
+          25,
+          35,
+          40,
+          42,
+          42
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Removed smooth generated backdrop with Moxie RGB-contrast alpha matte (Gaussian sigma38px; alpha fade contrast21\u201342); isolated components during packing. Raw source retained.",
+      "rejectedGenerations": [
+        {
+          "generationId": "exec-66da18f2-0348-4d9a-a566-7cff9cad7224",
+          "reason": "Wrong character: red-and-black-uniformed athlete with dark hair, not Moxie Capwell."
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen full Moxie human poses in 5x3 row-major. Right arm traverses a diagonal crescent across the torso toward an overhead right-hand release, distinct from the windmill loop. Adult anatomy, lavender ponytail/gold tie, purple/silver uniform remain consistent. Release frame10/tick21 and landing clear. Wrong-athlete candidate rejected; separate ball absent from sprite; cleaned atlas checked."
+      }
+    },
+    {
+      "clip": "alley-oop-power",
+      "atlasPath": "public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+      "atlasSha256": "05685b3dd9828c81c846f0244a56631e67c034eef6ec1781cbd786b4f7807a69",
+      "frameCount": 15,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-alley-oop-power15-cleaned.png",
+      "sourceSha256": "9bf65b0dba57890c9d0f1b81ec53684e7fadf289266d8e667560a4582f87e942",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-alley-oop-power15-generated-raw.png",
+      "rawSourceSha256": "cec58315fae9ae7d101efab2d0b89608caf6ff99a0d353a8055ff1abf4b3561b",
+      "layoutPath": "tools/generate-art/moxie-capwell-alley-oop-power15-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-alley-oop-power15-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-alley-oop-power15-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.5,
+          2,
+          2.5,
+          3,
+          3.4,
+          3.1,
+          2.8,
+          3,
+          3.4,
+          3.5,
+          2.5,
+          1.8,
+          1.2,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          22,
+          19,
+          16,
+          14,
+          12,
+          10,
+          12,
+          15,
+          18,
+          22,
+          30,
+          36,
+          41,
+          42,
+          42
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Purple backdrop removed with Moxie local contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained, 15 components isolated during packing.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete Moxie poses in 5x3 row-major. High-lob reach and two-hand overhead catch at frame5/tick10 are clear, then transition into a right-hand power finish and frame10/tick21 release. Human identity, long gold-tied lavender ponytail, adult anatomy and purple/silver kit remain consistent. No ball/pass partner/hoop drawn; cleaned atlas reviewed."
+      }
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "atlasPath": "public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+      "atlasSha256": "89b420791d8cef972aedbec6d06b477467c7eb65824db1f7671289750c4a7e28",
+      "frameCount": 15,
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-alley-oop-reverse15-cleaned.png",
+      "sourceSha256": "2d21d2c3b4cdde9f9db4e2dd82e27acbccb396a05635323be5660d2fc48e9221",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-alley-oop-reverse15-generated-raw.png",
+      "rawSourceSha256": "85a396d9b84a9ec2647994836738243ff57f964ba0272c1e248c21ee49e79592",
+      "layoutPath": "tools/generate-art/moxie-capwell-alley-oop-reverse15-layouts.json",
+      "provenancePath": "tools/generate-art/moxie-capwell-alley-oop-reverse15-provenance.json",
+      "promptPath": "tools/generate-art/moxie-capwell-alley-oop-reverse15-prompt.md",
+      "ballTrackKeys": [
+        "height",
+        "forward"
+      ],
+      "ballTrack": {
+        "height": [
+          1.8,
+          2.2,
+          2.8,
+          3.2,
+          3.4,
+          3.3,
+          3.1,
+          3.3,
+          3.4,
+          3.5,
+          2.5,
+          1.8,
+          1.2,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          20,
+          18,
+          16,
+          14,
+          12,
+          10,
+          12,
+          14,
+          16,
+          20,
+          28,
+          35,
+          40,
+          42,
+          42
+        ]
+      },
+      "mirrorReview": {
+        "safeToMirror": true,
+        "canonicalPolicy": "J.03: Moxie\u2019s long ponytail streams behind her both facings and the purple/silver uniform has no directional prop; verify hand-specific ball target when integrating mirrored gameplay."
+      },
+      "cleanupNotes": "Removed smooth purple backdrop with Moxie RGB contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained; isolated pose components when packing.",
+      "rejectedGenerations": [],
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete Moxie poses in 5x3. Frame4/tick10 overhead lob catch, shoulder gather, back-facing turn, behind-head reverse finish and right-facing landing form a distinct sequence. Identity, adult anatomy and purple/silver uniform remain consistent. Ball/pass partner/hoop absent from art; separate ball track recorded and backdrop cleanup reviewed."
+      }
+    }
+  ],
+  "clipCountAudit": {
+    "base": 5,
+    "new": 24,
+    "total": 29,
+    "keysUnique": true
+  },
+  "mirrorPolicy": "Moxie\u2019s long high ponytail streams behind both facings; her kit has no directional props. Mirroring is canon-approved. Ball hand target remains athlete-specific in each independent track."
+}

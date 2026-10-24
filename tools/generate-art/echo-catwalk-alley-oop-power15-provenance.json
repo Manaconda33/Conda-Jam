@@ -1,0 +1,34 @@
+{
+  "athlete": "echo-catwalk",
+  "clip": "alley-oop-power",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "eligibleForPacking": true,
+  "promptFile": "tools/generate-art/echo-catwalk-alley-oop-power-prompt.md",
+  "prompt": "Use Echo Catwalk reference for exact identity: same compact athletic adult MAN, medium-brown skin, masculine face, short spiky dark-teal hair with teal headband, unmistakable trimmed dark-teal beard/mustache, teal sleeveless jersey/shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never female, long-haired or clean-shaven. Exactly two natural arms and two legs. Right-facing source.\n\nCreate a 1536x1024 transparent RGBA production sprite sheet, 5 columns x 3 rows, strict row-major. Fifteen distinct complete full-body poses of this one athlete; each safely inside its cell, broad alpha-zero gutters. Crisp outlined 1990s arcade pixel art. No court, hoop, floor, environment, shadow, effects, text, opponent, teammate, basketball or prop.\n\nEcho performs a powerful alley-oop: 0 moves right preparing to jump; 1 runs under an incoming pass; 2 plants and looks up; 3 leaps off both feet toward the pass; 4 reaches both hands up; 5 catches an invisible pass with both hands at peak; 6 pulls the imaginary ball tightly to chest; 7 raises it powerfully overhead with one hand; 8 extends toward the rim; 9 reaches full height; 10 empty open hand releases at rim; 11 powerful follow-through; 12 descends; 13 lands with knees flexed; 14 regains ready stance. Make the two-hand catch at peak distinct, then show a forceful one-handed finish. Do not draw a ball; Echo's alley-oop ball path is independently animated by runtime and must not be merged with the passer's track.\n\nMaintain the exact same Echo identity, costume, scale and natural anatomy across every pose. No clipping, extra limbs, merged bodies or duplicate figures. Transparent alpha-zero background/gutters, no haze/checkerboard. Return only the sheet.",
+  "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+  "review": {
+    "status": "accepted",
+    "notes": "15 complete poses preserve Echo\u2019s adult male identity, beard, hair, teal uniform, proportions and anatomy. Two-hand overhead catch pose followed by chest gather, one-hand overhead finish, release, landing and ready stance. No ball baked into poses."
+  },
+  "ballTrack": {
+    "owner": "echo-catwalk",
+    "art": "none; separately animated Echo-specific alley-oop ball track",
+    "notes": "Do not share with passer or opposing athlete; independent catch/release timing."
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-echo-catwalk-alley-oop-power15.py",
+    "method": "Within each 5x3 cell retain largest alpha>=32 character component plus 2px antialias fringe; then isolated packing.",
+    "rawSourceSha256": "fcac693246e457a5bdbb39ae089786143cbf93f791e00de627f286d004b90a37",
+    "cleanedSource": "tools/generate-art/sources/echo-catwalk-alley-oop-power15.png",
+    "cleanedSourceSha256": "e258bcda31a5cbca9f8bf8ded2113a9bbe572eba4bf0b6e4bbb71e92deb6525b"
+  },
+  "generationHistory": [
+    {
+      "id": "exec-1392290b-fcbe-41f7-9bd5-58c446984d7a",
+      "status": "accepted",
+      "source": "tools/generate-art/sources/echo-catwalk-alley-oop-power-generated-raw.png",
+      "sha256": "fcac693246e457a5bdbb39ae089786143cbf93f791e00de627f286d004b90a37"
+    }
+  ]
+}

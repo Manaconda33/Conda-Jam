@@ -1,0 +1,7 @@
+# Nova Stitch — dunk-double
+
+## Verbatim generation prompt
+
+```text
+Reference the supplied Nova Stitch sprite for exact identity. Produce an original transparent RGBA 1536x1024 sprite sheet, fifteen unique complete full-body drawings in 5 columns x 3 rows, row-major, of Nova performing a double-pump dunk. No basketball in any cell (separate runtime ball), no rim, other person, court, floor, shadow or text. Preserve Nova’s fair-tan athletic human woman anatomy, teal curly high ponytail, same face, teal/purple/black trim uniform, knee pads, teal-black sneakers, wristbands. Right-facing start, consistent size and pixel-art style. Both hands empty. The action must clearly show TWO distinct raised-hand pumps: first gather and launch, first high overhead ball-hand pump at frames4-5, pull that empty hand visibly back down toward chest/waist at frames6-7 while still airborne, then spring into a second higher pump with the same hand up at frames8-10 for the final dunk release pose at frame10. The second reach is higher and stronger. Then follow through, land and recover. Frame plan: 0 approach; 1 gather; 2 takeoff; 3 rise; 4 first pump up; 5 first high pump; 6 retract hand to chest; 7 lower second pump; 8 re-cock and extend; 9 rise high; 10 second high release; 11 follow through; 12 descend; 13 land; 14 ready. All cells different; complete anatomy and figure visible. Crisp limited-palette 1990s arcade sprite with chunky dark outlines, no glossy 3D, photorealism or painterly style. True alpha background, no checkerboard/matte. Return only the sprite sheet.
+```

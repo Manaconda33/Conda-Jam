@@ -1,0 +1,170 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "steal",
+    "src": "./public/assets/animation/nova-stitch-steal-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "37401c46e8f424572d3d26394b0b44d2cbfd259868c2b4ac543786f29c1e9c93"
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "afcf501edcd133207cacb4d6b83d3a61ae735f08eecfcbbeaae5eb404f036463"
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "27083cd559fabae016e1a599ea655d35ddf8cd89f1438fef8db8e2e1db00ddc3"
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "8acd3732faa7ea1f69ced5efc890a0715ff414574e7fb3675ab1be6f25833049"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "289df89182ae6fe5ab4489d275b4d27359e42ed2c33fc50fe521c1300aa33b57"
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "e7a467b8e0a8e34e723206833edf20e44229f3b639b6c31ecfe3b05dba0b2752"
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "805d7d370d0db7f6a4081fc2ab0f8147aac4b9c018f19a3cf259f902984e3722"
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "ca9b2eb3cb73376bca8352c7ac6218881eb6838087718abe0159750803c90c52"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "steal",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-accb1d20-1101-4840-9966-41f0525b792a",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-steal-generated-raw.png",
+      "rawSourceSha256": "45d2e30fb96d1f941d32735b96307878ee2e5f536fe7a3a1094800e035700203",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-steal-generated-raw.png",
+      "sourceSha256": "45d2e30fb96d1f941d32735b96307878ee2e5f536fe7a3a1094800e035700203",
+      "eligibleForPacking": true,
+      "prompt": "Use the supplied Nova Stitch gameplay sprite as the identity/style reference. Create an original 1536\u00d71024 transparent RGBA sheet with exactly eight distinct full-body Nova Stitch basketball-steal poses arranged in a four-column by two-row grid, row-major. All poses are right-facing at consistent scale and camera. Clear separate cells with broad transparent spacing. No court, floor, scene, shadow, glow, ball, hoop, text, labels, teammates or opponents.\n\nNova is a young athletic fair-tan woman with long curly teal hair tied in a high ponytail, an individual human face, teal jersey and shorts with purple/black trim, black knee pads, teal-and-black shoes and wristbands. Preserve her human anatomy, face, hair, silhouette and uniform colors. Hands stay empty; the game ball is a separate object and must never appear in the sprite poses.\n\nAction: Nova anticipates an opponent\u2019s dribble, darts in and steals the invisible ball with her right hand, then pivots to move away. Eight connected unique poses:\n0 balanced defensive stance, knees bent, eyes ahead;\n1 shift weight forward and extend the near hand;\n2 quick side-step with shoulders turning toward the ball;\n3 GRAB at simulation tick5: right arm reaches into the ball\u2019s chest-height path and fingers close;\n4 pull the empty hand back toward her ribs as possession changes;\n5 pivot toward image-right, ponytail trails from the turn;\n6 begin a quick escape step with the arms naturally counterbalancing;\n7 regain a forward-facing running-ready pose.\nKeep a readable one-hand interception and full athletic movement; no visible ball in any frame. Complete natural limbs, ponytail and shoes in every cell.\n\nMatch the tiny 2D arcade reference: crisp limited-palette 1990s pixel art with chunky dark outlines, not painterly, photoreal, 3D, glossy or anime. True alpha-zero background and gutters, no matte or checkerboard. Return only the sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Eight distinct complete Nova Stitch steal poses preserve the teal high ponytail, face, human anatomy and teal/purple kit. Pose3 reaches at tick5; pose4 pulls the ball-miming hand back, then she pivots to escape. No ball is baked into the sprite art."
+      },
+      "ballPolicy": "Separate Nova-specific basketball is intercepted at pose3/tick5 and carried away after the steal. It is not painted into the poses.",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 35,
+          "y": 58,
+          "w": 304,
+          "h": 430,
+          "component": 1,
+          "area": 69864
+        },
+        {
+          "sourceIndex": 1,
+          "x": 380,
+          "y": 73,
+          "w": 413,
+          "h": 415,
+          "component": 2,
+          "area": 70036
+        },
+        {
+          "sourceIndex": 2,
+          "x": 814,
+          "y": 75,
+          "w": 375,
+          "h": 413,
+          "component": 3,
+          "area": 64899
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1101,
+          "y": 75,
+          "w": 424,
+          "h": 413,
+          "component": 4,
+          "area": 70346
+        },
+        {
+          "sourceIndex": 4,
+          "x": 32,
+          "y": 535,
+          "w": 316,
+          "h": 432,
+          "component": 5,
+          "area": 73052
+        },
+        {
+          "sourceIndex": 5,
+          "x": 429,
+          "y": 538,
+          "w": 302,
+          "h": 429,
+          "component": 6,
+          "area": 71449
+        },
+        {
+          "sourceIndex": 6,
+          "x": 780,
+          "y": 544,
+          "w": 375,
+          "h": 416,
+          "component": 8,
+          "area": 73085
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1179,
+          "y": 538,
+          "w": 335,
+          "h": 429,
+          "component": 7,
+          "area": 71748
+        }
+      ],
+      "uniformScale": 0.21296296296296297,
+      "componentIsolation": true,
+      "packaging": "package-nova-action8.py; 96x96 cells; baseline94; lossless WebP; 8 original steal poses",
+      "atlasPath": "public/assets/animation/nova-stitch-steal-right.webp",
+      "atlasSha256": "5bd9214bfe251692a7504e3ef7054868a46057db9e4c79bc946fa5cd312ad362",
+      "atlasBytes": 80842
+    }
+  }
+]

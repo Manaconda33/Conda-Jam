@@ -1,0 +1,72 @@
+{
+  "athlete": "accu",
+  "clip": "alley-oop-power",
+  "direction": "right",
+  "canonicalSection": "J.10",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-f3ad5578-2b4d-4b8c-be99-81b410fd80ca",
+  "sourceImage": "tools/generate-art/sources/accu-alley-oop-power-generated-clean.png",
+  "sourceSha256": "ed7c2db1a221b1aa0fc182d67061e6334275246cc439c7a98dcbc89928eea8c4",
+  "promptFile": "tools/generate-art/accu-alley-oop-power-prompt.md",
+  "prompt": "Create exactly 15 full-body Accu ALLEY-OOP-POWER dunk poses in a strict 5-column \u00d7 3-row sprite sheet, row-major. Accu is the same young human woman in the reference: warm tan skin, green eyes, blunt black bangs, close-cropped sides, two long black ponytails with teal ties, fitted black sleeveless uniform with teal/violet trim, black arm sleeves and tights, teal/violet shoes. Preserve identity and anatomy. Right-facing alley-oop sequence: 0 sprints toward pass lane, eyes up; 1 reaches forward with empty hands for an incoming pass; 2 catches the unseen pass and takes off tick4 (hands curve around empty space); 3 rises strongly; 4 lifts knees; 5 reaches overhead at peak tick14; 6 cocks arm for power slam; 7 drives toward imaginary rim; 8 right hand high, second arm counterbalances; 9 extends into dunk; 10 releases the invisible ball tick21 with open empty hand; 11 follow-through tick23; 12 descends; 13 lands bent knees; 14 recovers ready. No ball is pictured; hands stay empty and gesture around invisible pass. 15 distinct full-body poses, all hair/fingers/shoes in bounds, consistent scale. Accu alone. Do not draw basketball, sphere, prop, hoop, rim, extra person, court, floor, shadow, background, text, numbers, logos, grid or effects. True transparent RGBA with no checkerboard. Crisp outlined 1990s arcade pixel art. Return only sheet.",
+  "timing": {
+    "takeoffFrame": 2,
+    "takeoffTick": 4,
+    "catchFrame": 5,
+    "catchTick": 10,
+    "peakFrame": 7,
+    "peakTick": 14,
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "finishFrame": 11,
+    "finishTick": 23,
+    "landFrame": 14,
+    "landTick": 30
+  },
+  "ballTrack": {
+    "height": [
+      1.7,
+      2.0,
+      2.1,
+      2.25,
+      2.4,
+      2.5,
+      2.55,
+      2.45,
+      2.3,
+      2.2,
+      1.8,
+      1.45,
+      1.1,
+      0.8,
+      0.65
+    ],
+    "forward": [
+      12,
+      10,
+      7,
+      4,
+      2,
+      1,
+      1,
+      3,
+      7,
+      11,
+      14,
+      13,
+      10,
+      8,
+      6
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-accu-motion-background.py",
+    "method": "remove edge-connected neutral white background pixels"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "15 full-body Accu alley-oop power poses include empty-hand catch, rising power finish and landing. No ball/props in the source; a separate Accu ball path follows the incoming pass then dunk."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "athlete": "nova-stitch",
+  "clip": "dunk-scythe",
+  "direction": "right",
+  "generationId": "exec-5d244e76-dc84-4d18-8ff6-3084af3f0706",
+  "imageGenerationId": "exec-5d244e76-dc84-4d18-8ff6-3084af3f0706",
+  "generatedAt": "2026-10-24T01:32:23.964482+00:00",
+  "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-scythe-generated-raw.png",
+  "rawSourceSha256": "117b99268ca7d0f3aa7a4da643cbdfa4ee5014cb45f0158347c223433e5a448f",
+  "prompt": "Draw an original transparent RGBA 1536\u00d71024 sprite sheet in crisp 1990s side-view pixel art. EXACTLY 15 separate full-body drawings, 5 columns x 3 rows, row-major. Use supplied Nova Stitch sprite ONLY to match identity: fair-tan young human woman, teal curly ponytail, teal/purple/black basketball uniform, knee pads, teal-black shoes. A distinctive SCYTHE DUNK: prioritize a large unmistakable low-to-high arm arc over ordinary jump action. No ball, no props or rim, no other people; the external basketball is absent and both hands remain empty. Frames 0-2 Nova runs then crouches with the right arm stretched far backward and down, palm beside her rear knee. Frame3 takeoff begins while the arm stays low behind. Frame4 torso twists, arm reaches even farther diagonally down/back. Frame5-6 the empty hand sweeps low behind and under her waist, elbow and shoulder visibly rotate. Frame7-8 the same arm crosses diagonally upward in front of her abdomen and chest, tracing a clear bottom-left to top-right scythe curve. Frame9 arm passes above shoulder. Frame10 arm fully reaches overhead/forward for release. Frames11-12 descend with a high follow-through; frames13-14 land and settle. These arm poses must visibly differ from a straight-overhead dunk: low back reach, sweep under/behind hip, then upward diagonal slice. Nova stays complete in each cell with same human anatomy and outfit, no copies, no extra limbs. Camera consistent, right-facing side/three-quarter; full ponytail and footwear inside every cell. Transparent alpha-zero background only, no checkerboard, matte, floor or shadows. Return only the sprite sheet.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Accepted: low crouched/backward reach and later raised arm form a readable low-to-high diagonal sweep; 15 complete poses, stable Nova identity and no ball."
+  },
+  "eligibleForPacking": true,
+  "separateBall": true
+}

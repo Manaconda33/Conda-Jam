@@ -1,0 +1,33 @@
+{
+  "athlete": "echo-catwalk",
+  "clip": "dunk-double",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "eligibleForPacking": true,
+  "promptFile": "tools/generate-art/echo-catwalk-dunk-double-prompt.md",
+  "prompt": "Preserve Echo Catwalk as the same visibly adult MAN in every cell: medium-brown skin, short spiky dark-teal hair under teal headband, clear trimmed dark-teal beard and mustache, masculine face, compact athletic build, teal sleeveless jersey and shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never depict a woman, ponytail, long hair or clean-shaven athlete. Exactly two arms and legs. Right-facing original art.\n\nCreate exactly fifteen distinct complete full-body pose drawings in row-major order, five columns by three rows, on a 1536x1024 transparent RGBA sprite sheet. Keep bodies inside separated cells, broad transparent gutters. 1990s arcade pixel art, strong outlines. No background, court, hoop, floor, shadows, effects, words, other players, ball or props.\n\nEcho performs a two-handed double dunk: 0 right-running approach; 1 long stride; 2 reaches both empty hands to gather an imaginary ball; 3 cups both hands together at chest height; 4 jumps off one foot while keeping both hands together; 5 raises both hands overhead; 6 lifts knees at peak; 7 extends both arms straight toward the rim; 8 leans forward and reaches with both hands; 9 presses both empty hands down at the rim; 10 two-hand release pose with both hands open and empty; 11 strong two-arm follow-through; 12 descends; 13 lands on both feet, knees flexed; 14 balanced recovery stance. This must visibly be a two-handed finish throughout the dunk, not a one-handed dunk. Do not draw a basketball or any object between the hands. Echo's ball follows its own separate runtime track.\n\nKeep the same face, beard, body, uniform and scale throughout. Natural anatomy with two clear arms, two hands, legs and shoes. No clipped/merged figures. Alpha-zero background and gutters, no haze/checkerboard. Return only the sheet.",
+  "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+  "review": {
+    "status": "accepted",
+    "notes": "All 15 poses preserve Echo\u2019s male identity, beard, hairstyle, uniform, proportions and anatomy. Gather holds both empty hands together, followed by both-arm overhead extension and a clear two-hand release/follow-through. No basketball embedded."
+  },
+  "ballTrack": {
+    "owner": "echo-catwalk",
+    "art": "none; independent Echo-specific ball track"
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-echo-catwalk-dunk-double15.py",
+    "method": "Per-cell largest alpha>=32 athlete component plus its 2px antialias fringe, removing surrounding haze. Then pack isolated poses.",
+    "rawSourceSha256": "fa69afde7cfd55927af2131c7f4efbd833e4429a8a8b6ae61f9c7e14c40cbcc1",
+    "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-double15.png",
+    "cleanedSourceSha256": "d4bf91aaf2da25adabea5eb9d1b7ee63a73594d1ce508caf7990fa2491395cbf"
+  },
+  "generationHistory": [
+    {
+      "id": "exec-c057bc86-c6e0-4c23-b1ab-c7334116b76d",
+      "status": "accepted",
+      "source": "tools/generate-art/sources/echo-catwalk-dunk-double-generated-raw.png",
+      "sha256": "fa69afde7cfd55927af2131c7f4efbd833e4429a8a8b6ae61f9c7e14c40cbcc1"
+    }
+  ]
+}

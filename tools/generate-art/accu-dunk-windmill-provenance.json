@@ -1,0 +1,70 @@
+{
+  "athlete": "accu",
+  "clip": "dunk-windmill",
+  "direction": "right",
+  "canonicalSection": "J.10",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-87d89b04-48eb-4787-9285-bbdaa1d6d251",
+  "sourceImage": "tools/generate-art/sources/accu-dunk-windmill-generated-clean.png",
+  "sourceSha256": "7f712e36b2b1f1997ed8d68fefcafdeac6def564c1418d4a281785a2fee9fd13",
+  "promptFile": "tools/generate-art/accu-dunk-windmill-prompt.md",
+  "prompt": "Create 15 full-body Accu dunk-windmill sprite poses in a strict five-column by three-row sheet, row-major, each pose centered with ample transparent margins and the same size/feet baseline. Accu is a young adult human woman matching the attached reference: warm tan skin, green eyes, blunt black bangs, cropped sides, two long black twin ponytails with teal ties, fitted black sleeveless basketball uniform with teal/violet trim, black forearm sleeves/tights, teal-violet sneakers. Keep her exact face, hair, palette, human anatomy and athletic build in all poses. Right-facing one-handed WINDMILL slam dunk: 0 approach stride; 1 gathers and coils; 2 takeoff at tick4; 3 rises; 4 knees tuck; 5 windmills her right arm downward and back; 6 arm swings behind her; 7 completes broad circular windmill at peak tick14; 8 brings right arm up toward imaginary rim; 9 extends arm and hand overhead; 10 release tick21: open hand snaps through empty space, no ball; 11 finish/follow-through tick23; 12 descends; 13 lands with knees flexed; 14 stands balanced. Fifteen distinct connected yet naturally changing poses; never duplicate or mirror a frame. She has exactly two arms and two legs. Blank uniform, no number/logo/text. The ball is separate game art; NO basketball, sphere, hoop, rim, held object or prop in the sprites. No other character, court, floor, shadow, effects, letters or background. True RGBA transparency, not a checkerboard, crisp outlined 1990s arcade pixel art. Return only sprite sheet.",
+  "timing": {
+    "takeoffFrame": 2,
+    "takeoffTick": 4,
+    "peakFrame": 7,
+    "peakTick": 14,
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "finishFrame": 11,
+    "finishTick": 23,
+    "landFrame": 14,
+    "landTick": 30
+  },
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.2,
+      1.5,
+      1.8,
+      2.0,
+      2.1,
+      2.3,
+      2.5,
+      2.4,
+      2.2,
+      1.8,
+      1.4,
+      1.0,
+      0.75,
+      0.65
+    ],
+    "forward": [
+      6,
+      8,
+      9,
+      10,
+      8,
+      5,
+      4,
+      8,
+      10,
+      13,
+      15,
+      12,
+      9,
+      6,
+      5
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-accu-motion-background.py",
+    "method": "remove edge-connected neutral checkerboard pixels"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "15 distinct full-body right-facing Accu poses for the windmill dunk. Black twin ponytails with teal ties, green eyes, black/teal/violet uniform. No ball or props in source; separate Accu ball track."
+  }
+}

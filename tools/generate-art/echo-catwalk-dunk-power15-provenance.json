@@ -1,0 +1,34 @@
+{
+  "athlete": "echo-catwalk",
+  "clip": "dunk-power",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "eligibleForPacking": true,
+  "promptFile": "tools/generate-art/echo-catwalk-dunk-power-prompt.md",
+  "prompt": "Use the Echo Catwalk reference solely to preserve his identity. The same ADULT MAN must appear in all 15 cells: medium-brown skin, visibly masculine face, short spiky dark-teal hair, teal forehead band, unmistakable trimmed dark-teal beard and mustache, compact athletic build, teal sleeveless jersey and shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. No woman, ponytail, long hair or clean-shaven face. Exactly two arms and two legs. Original art faces right.\n\nCreate an original transparent RGBA production sprite sheet, 1536x1024, strict five equal columns by three rows, row-major, exactly fifteen distinct complete full-body poses of one athlete. Leave broad transparent gutters and outer margins; keep every limb, head and shoe inside its cell. No environment, court, hoop, floor, shadow, effects, text, opponent, teammate, or props. Crisp 1990s arcade pixel art with clean dark outlines and readable pose clusters.\n\nEcho performs a powerful one-handed right-facing basketball dunk. Fifteen sequential poses: 0 forward approach; 1 long running stride; 2 gathers arms close to torso around an invisible ball; 3 drives upward; 4 lifts knees into takeoff; 5 rises with one hand bringing the imaginary ball overhead; 6 extends toward the rim; 7 reaches peak extension; 8 drives the arm down; 9 hangs briefly; 10 open one-hand release pose at the rim (leave hand empty); 11 follows through; 12 descends; 13 lands with knees flexed; 14 regains balance. Keep both hands empty: there must be NO basketball anywhere in the sheet. The ball is an independently animated Echo-specific runtime track, carried through tick 20 and released at tick 21; do not draw or suggest a ball.\n\nAll 15 figures fully separated, consistent scale, proportions, costume and identity. Keep anatomy natural and connected. No cropped limbs or hair, no merged figures, no checkerboard or haze. Every background pixel and gutter must be alpha zero. Return only the sheet.",
+  "referenceImage": "public/assets/animation/echo-catwalk-pass-right.webp",
+  "review": {
+    "status": "accepted",
+    "notes": "All 15 poses retain Echo as a bearded adult male with teal headband, short teal hair, teal kit and knee pads. Readable run, gather, jump, one-hand dunk, release follow-through and landing sequence. No basketball was generated. Minor dark-alpha haze removed by per-cell component cleanup; the isolated atlas is reviewed separately."
+  },
+  "ballTrack": {
+    "owner": "echo-catwalk",
+    "art": "none; independent runtime basketball",
+    "notes": "Keep Echo and the opposing player ball paths separate. Carry through simulation tick 20, release at tick 21; dunk score finish at tick 23."
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-echo-catwalk-dunk-power15.py",
+    "method": "For each of 15 strict 5x3 cells, retain largest alpha>=32 athlete component plus only its 2px antialiased fringe; clear generated haze. Then package with package-dunk15.py --isolate-components.",
+    "rawSourceSha256": "65c78cd8620548eea8bf22e3cefceb11c4b4db4962f2014612c1a824d97df253",
+    "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-power15.png",
+    "cleanedSourceSha256": "7aee0822f0d417bcf82f3037bbaf79e1e5c12683f8d3dd90581057827e2dda4e"
+  },
+  "generationHistory": [
+    {
+      "id": "exec-7165b7cd-c862-47e3-ae33-46ac9396ac10",
+      "status": "accepted",
+      "source": "tools/generate-art/sources/echo-catwalk-dunk-power-generated-raw.png",
+      "sha256": "65c78cd8620548eea8bf22e3cefceb11c4b4db4962f2014612c1a824d97df253"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "athlete": "accu",
+  "clip": "dunk-scythe",
+  "direction": "right",
+  "canonicalSection": "J.10",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-d18a26ea-5a5a-484c-9757-0a2c2806ce39",
+  "sourceImage": "tools/generate-art/sources/accu-dunk-scythe-generated-clean.png",
+  "sourceSha256": "bf0c6d683f79bbe242288018ff3f77c11f4aa942c46e22dc0d9caf5cc0fb0c40",
+  "promptFile": "tools/generate-art/accu-dunk-scythe-prompt.md",
+  "prompt": "Create exactly 15 distinct full-body Accu DUNK-SCYTHE poses in 5 columns by 3 rows, row-major. Accu matches reference: young human woman, warm tan skin, green eyes, blunt black bangs, sides clipped short, twin long black ponytails with teal ties, black sleeveless uniform with teal/violet trim, black sleeves/tights, teal-violet sneakers. Maintain face, hair, kit and anatomy. A right-facing scythe-style dunk: approach, gather, takeoff tick4, rise with knees tucked; sweep right arm in a broad horizontal arc across body; rotate shoulders through deep side-to-side swing; arm circles around head like a scythe; at peak tick14 extend toward far side of imaginary rim; re-cock and finish in a downward scything release at tick21, follow-through tick23; descend, land, recover. 15 distinct connected poses. Hands empty, all limbs and feet visible in every cell. Game draws ball separately. No basketball, sphere, prop/object, hoop/rim, other athlete, court, floor, shadow, text, number, logo, grid lines, effects or background. Blank uniform. True RGBA transparent background, no checkerboard; crisp outlined 1990s pixel art. Return only sheet.",
+  "timing": {
+    "takeoffFrame": 2,
+    "takeoffTick": 4,
+    "peakFrame": 7,
+    "peakTick": 14,
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "finishFrame": 11,
+    "finishTick": 23,
+    "landFrame": 14,
+    "landTick": 30
+  },
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.2,
+      1.5,
+      1.8,
+      2.05,
+      2.25,
+      2.4,
+      2.5,
+      2.35,
+      2.0,
+      1.6,
+      1.3,
+      1.0,
+      0.75,
+      0.65
+    ],
+    "forward": [
+      6,
+      8,
+      10,
+      12,
+      10,
+      8,
+      6,
+      5,
+      7,
+      10,
+      13,
+      12,
+      9,
+      7,
+      6
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-accu-motion-background.py",
+    "method": "remove edge-connected neutral checkerboard pixels"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "15 distinct Accu scythe dunk poses with broad torso/arm sweep and right-facing identity. No ball or prop, separate Accu ball track."
+  }
+}

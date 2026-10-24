@@ -1,0 +1,242 @@
+[
+  {
+    "athlete": "accu",
+    "direction": "right",
+    "clip": "push",
+    "src": "./public/assets/animation/accu-push-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "accu",
+      "clip": "push",
+      "direction": "right",
+      "canonicalSection": "J.10",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-99bb69d7-9945-41ce-83ae-33c458eaeea5",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/accu-push-generated-clean.png",
+      "sourceSha256": "2119e62526b8f4e2b03026878fc653f5b8ff3f12a3eff8877eb3de48198dd60f",
+      "promptFile": "tools/generate-art/accu-push-prompt.md",
+      "ballTrack": {
+        "height": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "forward": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-accu-push-checker.py",
+        "method": "remove border-connected neutral checker pixels; preserve colored figure pixels"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Eleven distinct complete Accu poses, human anatomy, green eyes, blunt bangs, twin long black ponytails with teal ties, black/teal/violet uniform. Empty hands; no ball. Separate Accu ball track remains on simulation runtime."
+      },
+      "rejectedGenerations": [
+        {
+          "generationId": "exec-607d2fe3-b18b-48c2-be42-f5ee9ab64d4b",
+          "reason": "painted checkerboard, basketball props, only ten figures"
+        },
+        {
+          "generationId": "exec-d3b72a62-a09a-4986-b2dc-b369cd1383f6",
+          "reason": "wrong athlete (Dorian) and opaque background"
+        }
+      ],
+      "prompt": "Transparent background image asset, real RGBA transparency. DO NOT draw or render any checkerboard pattern. No background pixels at all. Make a clean professional transparent pixel-art sprite sheet, 4 columns by 3 rows, eleven full-body right-facing frames of the same Accu basketball game character, final bottom-right cell empty. Match the attached image precisely: athletic young human woman, warm tan skin, green eyes, blunt black bangs, cropped sides, two long black ponytails secured with teal ties, fitted black basketball uniform with teal/violet piping and black knee-length leggings, teal violet sneakers, black arm sleeves. Keep human anatomy accurate: exactly two arms, two hands, two legs. Blank clothes without numbers or logos. PUSH body-check sequence, poses progress from guard stance, crouch, forceful step, leaning push, extended arm, peak contact tick 8, follow-through, recover, straighten, step back, return to guard. She is alone; hands empty; absolutely no basketball or other object, no person, no court, no floor, no shadows, no text. Strict aligned 4x3 grid, last cell empty, broad transparent gutters, consistent scale and baseline. Sharp outlined 1990s arcade pixel art. Return only the transparent PNG.",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 36,
+          "y": 20,
+          "w": 276,
+          "h": 326,
+          "component": 1,
+          "area": 41981
+        },
+        {
+          "sourceIndex": 1,
+          "x": 406,
+          "y": 113,
+          "w": 278,
+          "h": 233,
+          "component": 5,
+          "area": 36377
+        },
+        {
+          "sourceIndex": 2,
+          "x": 745,
+          "y": 30,
+          "w": 272,
+          "h": 316,
+          "component": 2,
+          "area": 39962
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1085,
+          "y": 54,
+          "w": 352,
+          "h": 289,
+          "component": 3,
+          "area": 39832
+        },
+        {
+          "sourceIndex": 4,
+          "x": 43,
+          "y": 394,
+          "w": 353,
+          "h": 316,
+          "component": 21,
+          "area": 43507
+        },
+        {
+          "sourceIndex": 5,
+          "x": 392,
+          "y": 396,
+          "w": 341,
+          "h": 308,
+          "component": 22,
+          "area": 41546
+        },
+        {
+          "sourceIndex": 6,
+          "x": 749,
+          "y": 385,
+          "w": 337,
+          "h": 322,
+          "component": 20,
+          "area": 44157
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1123,
+          "y": 447,
+          "w": 285,
+          "h": 260,
+          "component": 24,
+          "area": 37517
+        },
+        {
+          "sourceIndex": 8,
+          "x": 64,
+          "y": 721,
+          "w": 257,
+          "h": 343,
+          "component": 35,
+          "area": 39386
+        },
+        {
+          "sourceIndex": 9,
+          "x": 429,
+          "y": 734,
+          "w": 253,
+          "h": 326,
+          "component": 36,
+          "area": 39408
+        },
+        {
+          "sourceIndex": 10,
+          "x": 776,
+          "y": 734,
+          "w": 253,
+          "h": 331,
+          "component": 37,
+          "area": 40265
+        }
+      ],
+      "uniformScale": 0.26822157434402333,
+      "componentIsolation": true,
+      "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses"
+    }
+  }
+]

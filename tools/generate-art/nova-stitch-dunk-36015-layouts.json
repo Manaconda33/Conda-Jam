@@ -1,0 +1,264 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "dunk-360",
+    "src": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "d3b58dacad21f91656273a07eebc72ba5d655edc1365919a901450fbdcd64b48"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "bb5d4f0f2f90ca80dddb75220c7c2df0d32d76ee31bea48cd49c003ab195123b"
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "459fec4449777d90736ee62880103f9fd06886ce53058dabf812d77091946e07"
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "b5d9207b7cbb8ba06400c872eae5e89896d395d4924abbc985bd6542c65bd9ef"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "95ad948708671f2c69826ca13ee7394ea1c2b7fac4bc89eb1aedd897248a5909"
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "aa6f0531ff684f758fe54153f9822763068a9b35d901b52a4bdc80ae0aec8791"
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "8fdce54de9aa3b25cbeabeff2cfdffe71f6418f13d0cc9c6a90b11b9f1d0a976"
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "5d4cfd91ab6de92770d39e4d7cef907234597e6e3f38c94a4c5802f7b1cd9d22"
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "f0637b4cd721e81ef77f8fbc9edfce33ee1b50f4202cc080908f0d01cedeb6d2"
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "9ffc68b18ac42ea5a98d520a43674fa56aef2d140d59e5a7f9397b24388ade33"
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "61ff51d539280c478bebba51b89736a9a23e1c5fa025893905563607d3f02fc4"
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "294110cae316165a0e2d9098796b1767c8ddfeb3b2d31e92f018b0275eb2e645"
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "acb868c5242c60fbb4ffff4c2748f72add541a3bf2c7244c1d534f1debac0312"
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "68485d7e6858db044729bb14183a8177651f5bdd6935410602d630e67e10c279"
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "0872a63c3e367d5edfbc55ca36419d2c17d874d1a4f27697e6b9d15a2536f2fc"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "dunk-360",
+      "direction": "right",
+      "generationId": "exec-5b21927e-6c6d-4ea7-83ed-a3117786ff38",
+      "imageGenerationId": "exec-5b21927e-6c6d-4ea7-83ed-a3117786ff38",
+      "generatedAt": "2026-10-24T01:25:13.933032+00:00",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-360-generated-raw.png",
+      "rawSourceSha256": "1223d140f994233f448f79b0e6f7aa34482cdd6f68f9db5601e573bcf3604731",
+      "prompt": "Using the supplied Nova Stitch sprite for exact character identity and 2D pixel style, make a 1536x1024 transparent RGBA sheet containing fifteen distinct complete full-body poses, strict 5 columns x 3 rows, row-major, for a 360-degree spinning dunk. Only Nova in each cell; no ball (runtime ball is separate and her hands must stay empty), rim, teammates, floor, shadow, glow, checkerboard or text. The same fair-tan athletic human woman, same face, long curly teal high ponytail, teal/purple/black trimmed uniform, black knee pads, teal-black sneakers, wristbands and anatomy in every view. Right-facing start and finish. Sequentially: 0 approach; 1 lower gather; 2 plant to take off; 3 rotate to three-quarter view; 4 side/back view; 5 turn fully back-facing; 6 continue into opposite three-quarter rear; 7 rise airborne rotating through side view; 8 turn back toward front; 9 reach peak in a forward three-quarter view with arm extended high; 10 one-hand overhead release pose; 11 complete spin and follow through; 12 descend; 13 land balanced; 14 ready finish. Body orientation must visibly change around full circle across frames 3-9, including clear back view, with ponytail and limbs moving naturally, no cloned/repeated poses. All limbs connected, complete full body within each cell. Pixel-art limited palette 1990s arcade sprites, chunky dark outline, not glossy, anime, 3D or painterly. Output only the sprite sheet.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen distinct complete Nova poses visually reviewed; back-facing turn and return toward release are visible, consistent identity and no ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-360-generated-raw.png",
+      "sourceSha256": "1223d140f994233f448f79b0e6f7aa34482cdd6f68f9db5601e573bcf3604731",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 11,
+          "y": 12,
+          "w": 300,
+          "h": 331,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 360,
+          "y": 45,
+          "w": 263,
+          "h": 301,
+          "component": 6
+        },
+        {
+          "sourceIndex": 2,
+          "x": 670,
+          "y": 20,
+          "w": 226,
+          "h": 325,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 968,
+          "y": 9,
+          "w": 267,
+          "h": 340,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1284,
+          "y": 9,
+          "w": 249,
+          "h": 336,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 17,
+          "y": 359,
+          "w": 298,
+          "h": 328,
+          "component": 10
+        },
+        {
+          "sourceIndex": 6,
+          "x": 339,
+          "y": 366,
+          "w": 282,
+          "h": 322,
+          "component": 12
+        },
+        {
+          "sourceIndex": 7,
+          "x": 629,
+          "y": 359,
+          "w": 289,
+          "h": 324,
+          "component": 11
+        },
+        {
+          "sourceIndex": 8,
+          "x": 999,
+          "y": 358,
+          "w": 257,
+          "h": 317,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1265,
+          "y": 323,
+          "w": 247,
+          "h": 380,
+          "component": 8
+        },
+        {
+          "sourceIndex": 10,
+          "x": 7,
+          "y": 682,
+          "w": 258,
+          "h": 342,
+          "component": 14
+        },
+        {
+          "sourceIndex": 11,
+          "x": 326,
+          "y": 702,
+          "w": 288,
+          "h": 315,
+          "component": 15
+        },
+        {
+          "sourceIndex": 12,
+          "x": 658,
+          "y": 722,
+          "w": 270,
+          "h": 295,
+          "component": 19
+        },
+        {
+          "sourceIndex": 13,
+          "x": 965,
+          "y": 714,
+          "w": 268,
+          "h": 303,
+          "component": 17
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1281,
+          "y": 714,
+          "w": 222,
+          "h": 303,
+          "component": 18
+        }
+      ],
+      "uniformScale": 0.24210526315789474,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "atlasPath": "public/assets/animation/nova-stitch-dunk-360-right.webp",
+      "atlasSha256": "20a2862e57e34e2741a5084f74a144dfb3396987d6d2ccc1a19e23c866bb39a3",
+      "atlasBytes": 62880
+    }
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "pass-overhead",
+    "src": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "clip": "pass-overhead",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-c8aba9b0-336b-4e02-8334-2be7878c99b1",
+      "imageGenerationId": "exec-c8aba9b0-336b-4e02-8334-2be7878c99b1",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-pass-overhead6-generated-raw.png",
+      "sourceSha256": "c9777d9e7915136acdef32b179236d35170b74b0631a548d35dffcc29602e020",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pass-overhead6-generated-raw.png",
+      "rawSourceSha256": "c9777d9e7915136acdef32b179236d35170b74b0631a548d35dffcc29602e020",
+      "prompt": "Create one original 1536\u00d71024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing overhead pass. Match the supplied portrait and gameplay references. Moxie is the same adult human woman with pale skin, lavender-purple eyes, long thick lavender hair in a high ponytail with a small gold hair tie, athletic mature anatomy, purple/silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve her face, ponytail silhouette, gold tie and colors. No male, witch hat, beard, monster, robot, costume or different athlete.\n\nDraw clean, readable, chunky 1990s arcade basketball pixel-cel art, consistent camera and scale. Exactly six distinct complete full-body poses in a strict 3-column by 2-row row-major grid, one pose per cell. True transparent RGBA gutters and broad outer margins; never clip or overlap ponytail, hands, body or shoes. The ball is a separate game object: draw no basketball, orb, sphere or seams. No hoop, rim, court, floor, shadows, glow, effects, words, labels, border, teammate or background. Both hands are empty in every pose.\n\nSequence:\n0 right-facing ready stance, relaxed elbows;\n1 set feet and shift weight, lift both empty hands toward the forehead;\n2 raise hands overhead, elbows bent, fingers open around empty air;\n3 single RELEASE at simulation tick7: both arms fully extend overhead and slightly forward, palms open after sending the invisible ball;\n4 clean overhead follow-through, wrists flexed, ponytail flows back;\n5 return to a stable balanced stance, arms lower.\n\nMake poses distinct and mechanically connected, with both arms and hands clearly readable. Keep Moxie\u2019s face and lavender eyes visible; hands must not cover the ponytail tie or hairline. Retain the exact canon palette and adult human anatomy. Output only the sprite sheet with alpha-zero exterior, no matte, checkerboard, halo or speckles.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Moxie-specific separate ball rises overhead into her open hands, releases at frame3/tick7 and continues forward. The poses contain no basketball.",
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.35,
+          2.0,
+          2.8,
+          2.5,
+          1.4
+        ],
+        "forward": [
+          6,
+          5,
+          4,
+          8,
+          10,
+          7
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Six distinct complete right-facing overhead-pass poses. Moxie\u2019s pale skin, lavender eyes, high lavender ponytail/gold tie, purple/silver kit and human anatomy remain consistent with both canon references. No ball appears. Frame3 is the sole tick7 release; the face stays readable."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 143,
+          "y": 41,
+          "w": 314,
+          "h": 450,
+          "component": 2,
+          "area": 61255
+        },
+        {
+          "sourceIndex": 1,
+          "x": 641,
+          "y": 60,
+          "w": 286,
+          "h": 431,
+          "component": 3,
+          "area": 66036
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1114,
+          "y": 6,
+          "w": 281,
+          "h": 485,
+          "component": 1,
+          "area": 67097
+        },
+        {
+          "sourceIndex": 3,
+          "x": 129,
+          "y": 494,
+          "w": 368,
+          "h": 511,
+          "component": 4,
+          "area": 67150
+        },
+        {
+          "sourceIndex": 4,
+          "x": 597,
+          "y": 511,
+          "w": 367,
+          "h": 494,
+          "component": 5,
+          "area": 68647
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1134,
+          "y": 577,
+          "w": 305,
+          "h": 428,
+          "component": 6,
+          "area": 61658
+        }
+      ],
+      "uniformScale": 0.18003913894324852,
+      "componentIsolation": true,
+      "packaging": "package-action6.py; 80x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses"
+    }
+  }
+]

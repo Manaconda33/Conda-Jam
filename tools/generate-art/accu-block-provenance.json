@@ -1,0 +1,29 @@
+{
+  "athlete": "accu",
+  "clip": "block",
+  "direction": "right",
+  "canonicalSection": "Neo Runway Precision / Accu",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-79380527-9bb2-463c-889f-bfb28d35f570",
+  "imageGenerationId": "exec-79380527-9bb2-463c-889f-bfb28d35f570",
+  "rawSourceImage": "tools/generate-art/sources/accu-block-generated-raw.png",
+  "rawSourceSha256": "e7478b8c55dd7e2cc20539fcef49169b4c2b499c635025fe6fac4f2bf0dcd005",
+  "sourceImage": "tools/generate-art/sources/accu-block-generated-raw.png",
+  "sourceSha256": "e7478b8c55dd7e2cc20539fcef49169b4c2b499c635025fe6fac4f2bf0dcd005",
+  "referenceImages": [
+    "public/assets/animation/accu-shoot-right.webp",
+    "public/assets/animation/accu-run-right.webp"
+  ],
+  "prompt": "Create four new distinct complete right-facing basketball defense/blocking poses for Accu in a 1536\u00d71024 transparent RGBA pixel-art sprite sheet, strict 2-column by 2-row grid, row-major. Use attached Accu gameplay sprites only for canon identity, teal/violet/black uniform, body scale and pixel style. Each cell contains one complete figure with ample transparent spacing around hands, shoes and twin ponytails. No ball, hoop, text, border, court, floor, shadow, prop or other person.\n\nAccu is a stylish young adult human woman with warm tan skin, vivid green eyes, blunt black bangs, close-cropped sides and two long black twin ponytails with teal ties. She wears sleek black sportswear with precise teal and violet trim, dark shorts/tights, black sleeves, and teal/violet sneakers. Keep her human anatomy, face, eyes, ponytails, cropped sides and kit consistent. Two arms/hands and two legs/shoes. The basketball is separate game art; never draw it.\n\nFour connected defensive block poses:\n0 low balanced right-facing defensive stance, hands ready and eyes on the opponent;\n1 takeoff at tick2, drive upward off both legs with one hand rising;\n2 apex at tick5, both arms extend high to contest the shot, fingers spread, feet lift and knees tuck naturally;\n3 descend and finish at tick8, arms lower, knees absorb a controlled landing.\n\nMake every pose clearly distinct and anatomically sound; no broken joints, extra hands, body distortion or added accessories. Crisp 1990s arcade pixel clusters, sharp outlines, readable at small scale, alpha-zero background and cell gutters. Return only the four-pose sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "The separate Accu-specific ball remains with the opponent during her block and is never painted into these poses.",
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Four distinct complete human defense poses, preserving Accu\u2019s canon identity and teal/violet/black kit. The block begins at frame1/tick2, reaches apex at frame2/tick5 and finishes landing at frame3/tick8. No baked ball. Mirror review pending."
+  }
+}

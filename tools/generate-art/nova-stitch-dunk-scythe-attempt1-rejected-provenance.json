@@ -1,0 +1,17 @@
+{
+  "athlete": "nova-stitch",
+  "clip": "dunk-scythe",
+  "direction": "right",
+  "generationId": "exec-d157fed4-ec2e-4937-b3d0-5d5818c37723",
+  "imageGenerationId": "exec-d157fed4-ec2e-4937-b3d0-5d5818c37723",
+  "generatedAt": "2026-10-24T01:32:23.961066+00:00",
+  "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-scythe-attempt1-rejected-raw.png",
+  "rawSourceSha256": "cd805d772c942664a1ea7e76759171b42bd284bce7ffc0a101d0d22bb86920a1",
+  "prompt": "Use supplied Nova Stitch sprite as identity/style reference. Create a 1536x1024 transparent RGBA 5x3 sprite grid, row-major, exactly fifteen distinct complete full-body Nova poses for a scythe dunk. Same fair-tan athletic human woman, teal curly high ponytail, teal and purple/black uniform, black knee pads, teal-black sneakers, wristbands, face and proportions. No ball at all (separate runtime game ball), no rim or other people, floor, shadow, glow or text. Both hands empty. Right-facing start/end; coherent 2D side view. Signature action: after gathering, Nova sweeps one empty hand far down and behind her body on a low diagonal like a scythe stroke, torso leans and rotates with the sweep, then the same arm carves a broad rising diagonal arc from behind her hip across her body and up to the high release at frame10. This low-back to high-forward path must be obvious and distinct from straight power. Poses: 0 approach; 1 gather; 2 crouch; 3 takeoff with hand low behind hip; 4 extend arm farther backward/down; 5 swing low behind body; 6 sweep diagonally across torso; 7 arm rises across chest; 8 reach shoulder level; 9 hand arcs up past head; 10 full high one-hand release; 11 follow-through; 12 descend; 13 balanced landing; 14 recover. Fifteen unique postures with all body, ponytail and shoes visible, limb connections natural. Crisp limited-palette 1990s arcade pixel art, chunky dark outlines, not glossy, painterly, anime or 3D. True transparent background, no checkerboard or matte. Return only sprite sheet.",
+  "review": {
+    "status": "rejected",
+    "reviewNotes": "Rejected: first result read as generic dunk and did not emphasize the low-to-high scythe sweep."
+  },
+  "eligibleForPacking": false,
+  "separateBall": true
+}

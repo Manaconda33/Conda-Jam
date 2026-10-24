@@ -1,0 +1,292 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "dunk-windmill",
+    "src": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "clip": "dunk-windmill",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-d98f1d68-d31f-435f-936d-16cb688b9fdd",
+      "imageGenerationId": "exec-d98f1d68-d31f-435f-936d-16cb688b9fdd",
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-windmill15-cleaned.png",
+      "sourceSha256": "f7a8bc7e75803b9e5e24b246ccc0a7483b0bd3fbccacf9466ed2488be1a602a0",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-windmill15-generated-raw.png",
+      "rawSourceSha256": "36f235578eced771ada2608ecbb550fd0dfa9297e9e58799181b8866c833d5da",
+      "prompt": "Create one original true-transparent RGBA spritesheet of fifteen right-facing Moxie Capwell basketball dunk-windmill poses, 5 columns x 3 rows, strict row-major. Use supplied canon refs: adult human woman, pale skin, lavender eyes, long thick lavender high ponytail with small gold tie, mature athletic build; purple/silver uniform with white side panels, purple wristbands and purple high tops. Preserve exact identity, face, ponytail, anatomy and kit consistently.\n\nClean readable 1990s arcade basketball pixel-cel art. 1536x1024 sheet with exactly fifteen separate complete full-body figures, centered with wide transparent margins. Keep ponytail/arms/shoes inside each cell; no boundary contact, no overlap. True transparent RGBA background. Moxie alone, human, no other character. No basketball is drawn; the basketball remains a separate game object. No hoop, rim, net, court, floor, shadows, background, effects, glow, labels or text.\n\nAction is a powerful one-handed windmill dunk, with the right arm making a broad complete circular windmill while she rises. Pose order:\n0 approach sprint;\n1 gather steps and crouch;\n2 takeoff at tick4;\n3 airborne, knees lift, ball hand separates from torso;\n4 begin sweeping right arm backward behind shoulder;\n5 carry the imaginary ball hand behind her head;\n6 windmill arm circles low behind hip;\n7 right hand passes beside thigh while legs tuck;\n8 arm sweeps forward and upward;\n9 hand rises past shoulder;\n10 full overhead circle approaches apex, peak at tick14;\n11 extend strongly toward imaginary rim;\n12 release imaginary ball at tick21 with right hand, arm stretched;\n13 scoring finish tick23 and descent;\n14 landing absorbed on bent knees.\nShow a clear circular windmill arc in the changing arm positions, keep free left arm balancing, long ponytail streaming behind. Hands remain empty/visible with no ball.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Moxie-specific separate ball follows her right hand in a circular path behind the body and rises over her head before the tick21 release. Sprite figures have empty hands and contain no ball.",
+      "ballTrack": {
+        "height": [
+          1,
+          1.2,
+          1.4,
+          1.5,
+          1.8,
+          2.1,
+          1.4,
+          0.7,
+          0.9,
+          1.6,
+          2.6,
+          3.2,
+          2.5,
+          1.5,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          10,
+          8,
+          4,
+          0,
+          -2,
+          1,
+          5,
+          12,
+          18,
+          27,
+          35,
+          40
+        ]
+      },
+      "cleanupNotes": "Generated smooth purple backdrop removed with Moxie-specific low-frequency RGB-contrast matte (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained. Isolated fifteen pose components during packing.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete Moxie poses in 5x3 order; adult human face, pale skin, lavender eyes, gold-tied lavender ponytail and purple/silver uniform stay consistent. Arm traces behind the head, low behind the hip, forward and up through release to form a broad windmill. One-hand release frame12/tick21 followed by score, descent and landing. No ball is drawn; background cleaned and alpha isolation checked."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 23,
+          "y": 36,
+          "w": 307,
+          "h": 304,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 355,
+          "y": 57,
+          "w": 234,
+          "h": 287,
+          "component": 12
+        },
+        {
+          "sourceIndex": 2,
+          "x": 681,
+          "y": 87,
+          "w": 206,
+          "h": 258,
+          "component": 24
+        },
+        {
+          "sourceIndex": 3,
+          "x": 965,
+          "y": 27,
+          "w": 265,
+          "h": 317,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1248,
+          "y": 31,
+          "w": 283,
+          "h": 287,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 41,
+          "y": 362,
+          "w": 276,
+          "h": 278,
+          "component": 35
+        },
+        {
+          "sourceIndex": 6,
+          "x": 359,
+          "y": 387,
+          "w": 233,
+          "h": 271,
+          "component": 37
+        },
+        {
+          "sourceIndex": 7,
+          "x": 659,
+          "y": 402,
+          "w": 238,
+          "h": 271,
+          "component": 38
+        },
+        {
+          "sourceIndex": 8,
+          "x": 919,
+          "y": 384,
+          "w": 314,
+          "h": 288,
+          "component": 36
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1262,
+          "y": 356,
+          "w": 253,
+          "h": 304,
+          "component": 34
+        },
+        {
+          "sourceIndex": 10,
+          "x": 40,
+          "y": 670,
+          "w": 282,
+          "h": 333,
+          "component": 63
+        },
+        {
+          "sourceIndex": 11,
+          "x": 342,
+          "y": 666,
+          "w": 276,
+          "h": 342,
+          "component": 62
+        },
+        {
+          "sourceIndex": 12,
+          "x": 640,
+          "y": 701,
+          "w": 298,
+          "h": 288,
+          "component": 64
+        },
+        {
+          "sourceIndex": 13,
+          "x": 966,
+          "y": 713,
+          "w": 269,
+          "h": 281,
+          "component": 65
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1290,
+          "y": 784,
+          "w": 223,
+          "h": 223,
+          "component": 80
+        }
+      ],
+      "uniformScale": 0.26900584795321636,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

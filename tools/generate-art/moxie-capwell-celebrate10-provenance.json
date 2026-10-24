@@ -1,0 +1,55 @@
+{
+  "athlete": "moxie-capwell",
+  "clip": "celebrate",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-8634fb3c-fd4b-4050-8ed3-23730dcbfb01",
+  "imageGenerationId": "exec-8634fb3c-fd4b-4050-8ed3-23730dcbfb01",
+  "sourceImage": "tools/generate-art/sources/moxie-capwell-celebrate10-cleaned.png",
+  "sourceSha256": "9ded75633ee45c472e916ab4bd6a63b6e5431901d7110b10bb520a7958d2d8fb",
+  "rawSourceImage": "tools/generate-art/sources/moxie-capwell-celebrate10-generated-raw.png",
+  "rawSourceSha256": "ccd5cb3a6937d5974ffad50957c6abb04355bfa5cff68a58facaad18c6c05627",
+  "prompt": "Create one original true-transparent RGBA production spritesheet for Moxie Capwell's right-facing basketball celebration. Match supplied Moxie portrait and gameplay references as strict identity guides: adult human woman, pale skin, lavender-purple eyes, long thick lavender high ponytail with small gold tie, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes. Keep same face, hair/tie, kit and body proportions in every pose.\n\n1990s arcade basketball pixel-cel art, crisp clean outlines. Canvas exactly 1536x1024, five columns by two rows, exactly ten distinct complete full-body Moxie poses in row-major order. Give every pose wide transparent margins within its cell; full ponytail and shoes visible, no touching canvas or cell boundaries. Transparent alpha-zero background.\nMoxie alone, separate basketball not drawn, no opponent. This is a joyful composed sports celebration after a score: mature confident smile, not exaggerated or childish, no props. No ball, hoop, court, floor, shadow, glow, effects, text, labels, or scenery.\nPose sequence:\n0 balanced stance, smile begins, hands relaxed;\n1 lift both forearms with quiet excitement;\n2 raise one fist at shoulder height and smile;\n3 raise both hands overhead in triumph;\n4 hold the overhead celebration, feet planted;\n5 lower arms outward while turning slightly toward teammates offscreen;\n6 tap one fist to chest, appreciative expression;\n7 small confident step and nod;\n8 settle with one hand raised in a calm wave;\n9 return to balanced relaxed stance, smiling.\nAll figures are full-body and poses visibly distinct but connected, preserve Moxie's identity and anatomy.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "The separate ball is resting on court away from Moxie through the celebration; it is never drawn or attached to her sprite.",
+  "ballTrack": {
+    "height": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "forward": [
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14
+    ]
+  },
+  "cleanupNotes": "The generated background was removed using the Moxie-specific low-frequency RGB contrast cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained separately.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Ten full-body Moxie poses in row-major order. Adult human face and anatomy, pale skin, lavender eyes, gold-tied high ponytail, purple/silver uniform and high-tops remain consistent. Distinct composed celebration: measured fist pumps and overhead pose, arms opened, chest gesture, nod and wave, relaxed finish. No object or ball is drawn. Background cleanup reviewed in packed atlas over a light and court-colored ground."
+  }
+}

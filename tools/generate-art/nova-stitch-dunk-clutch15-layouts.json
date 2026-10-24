@@ -1,0 +1,264 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "dunk-clutch",
+    "src": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "83fc1cd83348b2bb4a484b87443ac13a5fbeeaccaf6237e5049bdbf7c12593f2"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "2b5c4183222629326b706e7f66a409059281d6d6d55c0c1cf9a1e383c07e0b28"
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "3df761947102d92ce00dca69abff99a9ff8032d13870b2a5146620ac262de130"
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "fe837c1a1d02c4f6b11060ca2fbff9cbf697e2642671aed315580585a6a07fc0"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "6382836b8fee6e89638c136baa4aac747c69d3fc409adf9d0fd4dfba1e4e8d4c"
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "4763e01a63d5420e95353c4cbe2c134c97bbef34be47e30e99e0865d47800e35"
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "616e592cf48fb5fe94058ee27793f6ec2d0d264bc0f6d4937b88a48f23acd89b"
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "4aeddeda1991a9a9498962704198963caa2c290c9b80e404182805fef40a1dc9"
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "68cdc7cc835e8ad5164e133f3c15973b1cb94c8d426b04ae42b3831490389dba"
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "256bbfaaaa74c2ba1abf436de295a04edd648b288e9b4440da36d057a36583b9"
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "8261d8dcb71b25fe814b56c68877b2cbcb3c43ccf9b91cf5c84e13f76bb16721"
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "a1baf27e2121606d27a6672d8f779c1b6f6898cb7ea675390dfe84e1099b4699"
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "ddd4ff6c65cfc5c0039c08935f32450873749002d439c2c1250dc743f8d0fc31"
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "2209eba411e775cb05cfe6ef8913b8d3c8462112a338c357fa0c1ee027ddf125"
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "4617479dc73ebe1ec347314c165c06e40644792935983294c3cefa83bf977d76"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "dunk-clutch",
+      "direction": "right",
+      "generationId": "exec-f16eb889-0f88-4139-8418-a648b723e968",
+      "imageGenerationId": "exec-f16eb889-0f88-4139-8418-a648b723e968",
+      "generatedAt": "2026-10-24T01:30:03.595538+00:00",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-clutch-generated-raw.png",
+      "rawSourceSha256": "b5994be7b6c28e69ca796af3ee3bab0e917279d3f3569e458ba4593fb395faec",
+      "prompt": "Use the supplied Nova Stitch sprite as the exact character reference. Create a transparent RGBA 1536\u00d71024 action sheet, exactly 15 distinct complete full-body poses in five columns by three rows, row-major, for a clutch dunk. Nova is the same athletic fair-tan human woman with teal high ponytail, identifiable face, teal uniform with purple/black trim, knee pads, teal-black sneakers and wristbands; no change of anatomy or costume. No basketball in the image (separate runtime sprite), no rim, scene, other player, floor, shadow, glow or text. Keep hands empty. Right-facing, consistent size. The signature clutch motion keeps both empty hands tightly together against her chest through the gather and first half of ascent, elbows bent and protective as though securing the ball; she continues to cradle the invisible ball close while rising, then at frame10 suddenly thrusts both arms together upward and forward for a strong two-hand clutch release. Follow-through, descent and recovery. 0 approach; 1 gather; 2 draw both hands to chest; 3 plant/takeoff while clutching; 4 low rise, hands still tight to sternum; 5 airborne, still clutching; 6 rise higher; 7 hold close; 8 begin reach; 9 extend both arms; 10 full two-hand overhead release; 11 follow-through; 12 descend; 13 land; 14 finish. This close-to-chest hold then two-hand extension must be clear and distinct from one-handed dunks. Fifteen different complete poses, all hair and shoes within each cell, correct connected anatomy. Crisp 1990s limited-palette arcade pixel art with chunky outlines, not photorealistic, glossy, anime or 3D. True alpha-zero background and no checkerboard/matte. Return only sprite sheet.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen distinct full-body poses reviewed; early sequence holds both hands together at chest through gather and rise before a two-hand high finish. Stable Nova identity and no ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-clutch-generated-raw.png",
+      "sourceSha256": "b5994be7b6c28e69ca796af3ee3bab0e917279d3f3569e458ba4593fb395faec",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 52,
+          "y": 24,
+          "w": 262,
+          "h": 313,
+          "component": 2
+        },
+        {
+          "sourceIndex": 1,
+          "x": 360,
+          "y": 27,
+          "w": 251,
+          "h": 310,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 700,
+          "y": 24,
+          "w": 193,
+          "h": 313,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1011,
+          "y": 29,
+          "w": 185,
+          "h": 308,
+          "component": 5
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1308,
+          "y": 9,
+          "w": 163,
+          "h": 325,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 80,
+          "y": 362,
+          "w": 194,
+          "h": 309,
+          "component": 11
+        },
+        {
+          "sourceIndex": 6,
+          "x": 397,
+          "y": 355,
+          "w": 199,
+          "h": 282,
+          "component": 8
+        },
+        {
+          "sourceIndex": 7,
+          "x": 702,
+          "y": 357,
+          "w": 211,
+          "h": 307,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 968,
+          "y": 356,
+          "w": 260,
+          "h": 315,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1249,
+          "y": 335,
+          "w": 265,
+          "h": 342,
+          "component": 7
+        },
+        {
+          "sourceIndex": 10,
+          "x": 44,
+          "y": 672,
+          "w": 268,
+          "h": 338,
+          "component": 12
+        },
+        {
+          "sourceIndex": 11,
+          "x": 362,
+          "y": 688,
+          "w": 241,
+          "h": 325,
+          "component": 13
+        },
+        {
+          "sourceIndex": 12,
+          "x": 650,
+          "y": 728,
+          "w": 231,
+          "h": 282,
+          "component": 16
+        },
+        {
+          "sourceIndex": 13,
+          "x": 966,
+          "y": 728,
+          "w": 226,
+          "h": 282,
+          "component": 17
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1281,
+          "y": 690,
+          "w": 197,
+          "h": 320,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.26900584795321636,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "atlasPath": "public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+      "atlasSha256": "76b4b4e836ce87d7a62ee104c909eb9a4ea55d5cad7542334743e76195179eed",
+      "atlasBytes": 61446
+    }
+  }
+]

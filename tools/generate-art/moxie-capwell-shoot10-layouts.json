@@ -1,0 +1,221 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "clip": "shoot",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-0022127e-43ac-45dd-8cdf-6c936fc7b63c",
+      "imageGenerationId": "exec-0022127e-43ac-45dd-8cdf-6c936fc7b63c",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-shoot10-generated-raw.png",
+      "sourceSha256": "07971d02ac397b29b43139c3c5d2c530e5f655f1226d1792a87f2e1a046ddfb0",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-shoot10-generated-raw.png",
+      "rawSourceSha256": "07971d02ac397b29b43139c3c5d2c530e5f655f1226d1792a87f2e1a046ddfb0",
+      "prompt": "Create an original 1536\u00d71024 true-transparent RGBA production sprite sheet for JAMVERSE \u201996: Moxie Capwell of Moonmorel Hex performing a right-facing jump shot. Match both supplied canon references closely. Moxie is an adult human woman with pale skin, lavender-purple eyes, and very long, thick lavender hair gathered into a high ponytail with a small gold hair tie. She has a focused, confident face and mature athletic human proportions. Her uniform is purple and silver with white side panels, purple wristbands, and purple high-top basketball shoes. Preserve her same face, eye color, hair length and silhouette, ponytail, gold tie, uniform palette and body scale in every pose. Keep normal human hands, two arms and two legs. Do not substitute a man, witch hat, beard, different athlete, monster, robot or costume.\n\nRender crisp, readable, chunky late-1990s arcade basketball sprite art with clean pixel-cel shading, consistent camera and proportions. Output one sheet exactly 1536\u00d71024 with ten distinct full-body poses in a strict 5-column by 2-row grid, read left-to-right, top-to-bottom. One separate pose per cell; broad transparent gutters and outer margin; no touching or clipping. Show complete hair, hands, fingers, feet and shoes in all cells. Each pose should be connected and anatomically sound.\n\nThe basketball is rendered separately by the game. Never draw any basketball, sphere, orb, circle, ball seams, hoop, rim, floor, court, ground shadow, glow, motion effect, text, label, border, teammate or scenery. Keep both hands empty in every pose.\n\nPose order:\n0 balanced right-facing ready stance, hands loose near waist, knees soft;\n1 gather begins, feet set and both hands come near the shooting side, still empty;\n2 compact crouch and load, elbows bend, empty hands frame an invisible ball at chest;\n3 rise from the crouch, knees extend, ball-miming hands move upward;\n4 jump begins, shooting hand lifts beside and above the head while guide hand stays naturally beside it;\n5 single release at simulation tick13, at the jump apex, shooting arm fully extends up and forward with an open, empty hand, guide hand opens away from the ball;\n6 clear high follow-through, wrist flexed, body still airborne, ponytail flowing naturally;\n7 descent, shooting arm relaxes while knees lower;\n8 land with both feet and flexed knees, arms settling;\n9 calm upright recovery, both hands empty, facing right.\n\nKeep Moxie\u2019s ponytail and all hands clear of the head silhouette in every pose. The release reaches naturally above the head without hiding her eyes or face. Make every pose visibly distinct and preserve the clean high ponytail outline. Use true alpha-zero background and gutters; no alpha haze, checkerboard, backdrop, matte, speckles or colored halo. Return only the sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Moxie-specific separately rendered ball rises from chest to her release palm at pose5/tick13, then travels out of frame. No ball is painted into any pose.",
+      "ballTrack": {
+        "height": [
+          1.1,
+          1.35,
+          1.7,
+          2.1,
+          2.6,
+          3,
+          3.25,
+          2.8,
+          1.2,
+          0.8
+        ],
+        "forward": [
+          5,
+          5,
+          3,
+          4,
+          6,
+          7,
+          5,
+          1,
+          1,
+          4
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Ten distinct complete right-facing adult human jump-shot poses. Moxie\u2019s pale skin, lavender eyes, long high ponytail with gold tie, purple/silver uniform and purple shoes match both supplied canon references. No basketball appears. Pose5 is the only release at tick13; all bodies and ponytails fit their cells."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 25,
+          "y": 84,
+          "w": 241,
+          "h": 406,
+          "component": 3,
+          "area": 47693
+        },
+        {
+          "sourceIndex": 1,
+          "x": 352,
+          "y": 104,
+          "w": 231,
+          "h": 386,
+          "component": 4,
+          "area": 46307
+        },
+        {
+          "sourceIndex": 2,
+          "x": 650,
+          "y": 128,
+          "w": 248,
+          "h": 362,
+          "component": 5,
+          "area": 49276
+        },
+        {
+          "sourceIndex": 3,
+          "x": 964,
+          "y": 75,
+          "w": 225,
+          "h": 415,
+          "component": 2,
+          "area": 48422
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1247,
+          "y": 18,
+          "w": 250,
+          "h": 469,
+          "component": 1,
+          "area": 50476
+        },
+        {
+          "sourceIndex": 5,
+          "x": 37,
+          "y": 507,
+          "w": 276,
+          "h": 468,
+          "component": 6,
+          "area": 49156
+        },
+        {
+          "sourceIndex": 6,
+          "x": 328,
+          "y": 530,
+          "w": 288,
+          "h": 449,
+          "component": 7,
+          "area": 49898
+        },
+        {
+          "sourceIndex": 7,
+          "x": 632,
+          "y": 577,
+          "w": 279,
+          "h": 398,
+          "component": 9,
+          "area": 49928
+        },
+        {
+          "sourceIndex": 8,
+          "x": 949,
+          "y": 605,
+          "w": 258,
+          "h": 386,
+          "component": 10,
+          "area": 48566
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1257,
+          "y": 550,
+          "w": 247,
+          "h": 441,
+          "component": 8,
+          "area": 48550
+        }
+      ],
+      "uniformScale": 0.19616204690831557,
+      "componentIsolation": true,
+      "packaging": "package-action10.py; 64x96 cells; baseline94; lossless WebP; 10 original shoot poses"
+    }
+  }
+]

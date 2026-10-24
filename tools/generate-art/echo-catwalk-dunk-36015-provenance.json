@@ -1,0 +1,40 @@
+{
+  "athlete": "echo-catwalk",
+  "clip": "dunk-360",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "eligibleForPacking": true,
+  "promptFile": "tools/generate-art/echo-catwalk-dunk-360-prompt.md",
+  "prompt": "Keep exact Echo Catwalk identity from reference: ADULT MAN, medium-brown skin, visibly masculine face, short spiky dark-teal curls, teal headband, strong recognizable trimmed dark-teal beard and mustache, compact athletic body, teal uniform with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never female or long-haired. Create a strict row-major 5x3 sheet of exactly fifteen complete full-body figures in transparent RGBA at 1536x1024, original art right-facing. Crisp outlined 1990s arcade pixel sprites; no backgrounds, courts, hoop, shadows, text, effects, opponents, props or basketball. Keep all bodies distinct and inside their cells.\n\nThis is a true 360-degree dunk spin. Use each pose\u2019s torso facing direction as the main visual cue; rotate gradually and visibly. Sequence: 0 running right in profile; 1 gathers right-facing; 2 jumps, still right-facing; 3 turns three-quarter away; 4 clearly back-facing, jersey back visible; 5 back-facing; 6 rotates to left-facing profile; 7 left-facing profile, face/profile visible; 8 turns three-quarter toward viewer; 9 clearly front-facing, chest visible; 10 rotates to three-quarter right; 11 returns to right-facing profile and reaches empty hand high to dunk; 12 empty-hand follow-through; 13 descending right-facing; 14 lands and returns ready right-facing. The changing orientation must show one continuous complete full revolution, not a half-turn. Maintain the same connected anatomy and outfit from pose to pose, with exactly two arms and legs. No basketball at any point: ball is a separate Echo-specific runtime track. Transparent alpha-zero gutters and background, no checkerboard or haze. Return only the sprite sheet.",
+  "referenceImage": "public/assets/animation/echo-catwalk-pass-right.webp",
+  "review": {
+    "status": "accepted",
+    "notes": "Accepted 15-pose source preserves Echo\u2019s masculine identity, beard, hair, headband, body and uniform. Orientation changes visibly from side through back and front, returning to right-facing on landing; independent anatomy and scale retained. No embedded ball. First generation was rejected because pose sequence showed only about half a turn."
+  },
+  "ballTrack": {
+    "owner": "echo-catwalk",
+    "art": "none; independent athlete-specific runtime ball path",
+    "notes": "Never merge this ball with another athlete\u2019s track; runtime ball release/action timing is independent of atlas."
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-echo-catwalk-dunk-36015.py",
+    "method": "Retain largest alpha>=32 component plus 2px fringe inside every 5x3 cell, then isolated pose packing.",
+    "rawSourceSha256": "5676f2c3deacab4ef7c13b5e944859444a551c1f9b1e8cc941f4f28f3a9c58be",
+    "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-36015.png",
+    "cleanedSourceSha256": "f315196f4055a25a418ae0eadf40c6d8e49024d0a18c44c1c60fcb86af266725"
+  },
+  "generationHistory": [
+    {
+      "id": "exec-97782875-077d-44ac-94d7-3a1bcfaedf23",
+      "status": "rejected",
+      "reason": "Pose sequence did not show the requested full 360-degree rotation; orientation returned only about halfway.",
+      "sha256": "a9394324107b4dd3f1afcab92409823e7c2ff7d7cb185f034a23b6aa24a2d68e"
+    },
+    {
+      "id": "exec-56c059a7-c9c4-4fe1-af4b-ec257f92a331",
+      "status": "accepted",
+      "source": "tools/generate-art/sources/echo-catwalk-dunk-360-generated-raw.png",
+      "sha256": "5676f2c3deacab4ef7c13b5e944859444a551c1f9b1e8cc941f4f28f3a9c58be"
+    }
+  ]
+}

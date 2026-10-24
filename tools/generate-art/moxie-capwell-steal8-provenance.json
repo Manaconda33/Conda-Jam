@@ -1,0 +1,50 @@
+{
+  "athlete": "moxie-capwell",
+  "clip": "steal",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-26715941-0727-40fd-8050-132e8319f895",
+  "imageGenerationId": "exec-26715941-0727-40fd-8050-132e8319f895",
+  "sourceImage": "tools/generate-art/sources/moxie-capwell-steal8-generated-raw.png",
+  "sourceSha256": "13e925f64360e36a611941a9bf4366d17b0409d8cb1e0cbf70c41863d0fa0e0f",
+  "rawSourceImage": "tools/generate-art/sources/moxie-capwell-steal8-generated-raw.png",
+  "rawSourceSha256": "13e925f64360e36a611941a9bf4366d17b0409d8cb1e0cbf70c41863d0fa0e0f",
+  "prompt": "Create one original 1536\u00d71024 true-transparent RGBA spritesheet for Moxie Capwell of Moonmorel Hex performing an eight-pose right-facing basketball steal. Use both supplied canon references. Moxie is the same adult human woman with pale skin, lavender eyes, very long thick lavender hair in a high ponytail with small gold tie, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes; mature athletic human build. Preserve face, eye color, ponytail silhouette/tie, kit and anatomy consistently. No male, witch hat, beard, monster, robot or different athlete.\n\nDraw crisp readable 1990s arcade basketball sprite art with consistent camera/scale. Exactly eight distinct complete full-body poses in a strict 4-column by 2-row grid, row-major, with generous true-transparent gutters and outer margins. Keep all hair, limbs and shoes in each cell. Do not draw any ball: the game renders it separately. No sphere, seams, hoop, rim, floor, court, shadow, effects, glow, labels, text, borders, teammate or scene. Hands are empty.\n\nSequence:\n0 defensive stance, facing right, knees bent and eyes on opponent;\n1 shuffle close, drop center of gravity, near hand reaches cautiously;\n2 sharp step-in and turn shoulders, one open hand sweeps toward the imagined ball;\n3 STEAL contact at simulation tick5: empty palm snaps toward the ball path at waist height, fingers spread;\n4 retract the empty hand and rotate hips away from the opponent;\n5 pivot into a protected stance, arms counterbalance;\n6 begin moving right with the ball now separate and off-screen/near court;\n7 settle into a controlled defensive recovery, hands visible and empty.\n\nMake actions distinct and connected; show a believable reach without clipping the ponytail or hiding Moxie\u2019s face. Keep the same adult human features and purple/silver kit. Return only true-transparent RGBA with alpha-zero background, no matte, checkerboard, halo, haze or speckles.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "The separate ball remains with the opponent before tick5. After the steal, the Moxie-specific ball track brings the acquired ball to her hand. The sprites never draw a ball.",
+  "ballTrack": {
+    "height": [
+      1.05,
+      1.05,
+      1.15,
+      1.25,
+      1.1,
+      0.9,
+      0.8,
+      0.8
+    ],
+    "forward": [
+      -8,
+      -4,
+      2,
+      10,
+      12,
+      8,
+      5,
+      5
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Eight distinct full-body Moxie defensive-steal poses. Moxie\u2019s pale human face, lavender eyes, long high lavender ponytail/gold tie, purple/silver kit and shoes are consistent. Pose3 is the waist-level steal contact; both hands remain empty and readable. No ball is drawn."
+  }
+}

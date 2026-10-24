@@ -1,0 +1,138 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "pass-behind",
+    "src": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "74bc4b6141de35cbcf3aace7d39b28d31919f24d867d6ef433b6ac50c0c689d8"
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "1da3dc82e2649208ff2bbc29c6c1fec42c44a130de9b203f5b48e08cf52494c4"
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "50b92cf5d8dc80582ed89946cc1707a5be5aba2e28b4d58a5912874d6d4ec62b"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "d60b4b747a46c81e27304a75ab7be0957ea992aa8bc8aa5553c42712cafad7c0"
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "9796ec348e774332eef2b9a5e33ea77e130e6a295415efec0283e7ef21d28b9c"
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "4b04ff87b665ae91d5556a352c9ac26134a76b6dce13e847810a5733f2a041ed"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "pass-behind",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-66d1e335-b354-4dc3-9595-84491067d802",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-pass-behind-generated-raw.png",
+      "rawSourceSha256": "cc542cb73f38ea93f53bef296217ee8c4334e2056602c2553c63aec2bb052a14",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-pass-behind-generated-raw.png",
+      "sourceSha256": "cc542cb73f38ea93f53bef296217ee8c4334e2056602c2553c63aec2bb052a14",
+      "eligibleForPacking": true,
+      "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and visual-style reference. Create an original 1536\u00d71024 transparent RGBA sprite sheet for JAMVERSE '96 with exactly six separate complete full-body Nova Stitch behind-the-back-pass poses in a strict three-column by two-row grid, read left-to-right then top-to-bottom. Keep each figure inside its own cell with broad clear transparent spacing. Same player, right-facing source direction, camera, scale, anatomy, outline and palette across all six cells. No background, court, floor, shadow, glow, grid, text, number, prop, teammate or opponent.\n\nNova is a young athletic fair-tan woman with an expressive face and long curly teal hair tied in a high ponytail. She wears a teal jersey and shorts with purple/black trim, black knee pads, teal-and-black sneakers and matching wristbands. Preserve the same human identity, face, feminine athletic proportions, ponytail shape and color, uniform palette and shoes in all six drawings. Do not depict another athlete or add non-canon items. Keep hands empty; the basketball is separately rendered game art, never drawn in the poses.\n\nThis action is a quick behind-the-back basketball pass while moving toward image-right. Nova carries the invisible ball low from her forward hip behind her lower back, pivots her shoulders and releases it from the rear hand toward image-left, behind her body. The pass should read clearly from the hand path, torso twist and follow-through. Exactly six distinct connected full-body poses:\n0 right-facing balanced ready stance, hands low;\n1 gather the invisible ball at her forward hip;\n2 turn torso away and bring the empty ball-miming hand behind her waist;\n3 sole RELEASE at simulation tick7, rear arm extends behind the back and hand opens;\n4 continue the rearward wrist follow-through while stepping through;\n5 regain a balanced right-facing ready stance.\nNo other release, no ball in any frame. Preserve two natural arms, hands, legs and shoes in all complete poses.\n\nMatch the supplied tiny 2D gameplay reference: crisp limited-palette 1990s arcade pixel art with chunky dark outlines, not painterly, photorealistic, 3D, glossy or anime. Keep all hair tips, hands and shoes within each cell. True RGBA alpha-zero background, transparent gutters, no alpha haze, matte or checkerboard. Return only the sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Six distinct full-body Nova Stitch behind-the-back-pass poses preserve her teal high ponytail, face, teal/purple kit and human anatomy. Pose3 releases behind her waist at tick7; ball remains separate."
+      },
+      "ballPolicy": "Nova-specific ball path passes behind her waist, matches the rearward hand and releases at frame3/tick7. No ball is painted into poses.",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 111,
+          "y": 18,
+          "w": 316,
+          "h": 486,
+          "component": 1,
+          "area": 83128
+        },
+        {
+          "sourceIndex": 1,
+          "x": 619,
+          "y": 18,
+          "w": 309,
+          "h": 486,
+          "component": 2,
+          "area": 84504
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1131,
+          "y": 18,
+          "w": 356,
+          "h": 486,
+          "component": 3,
+          "area": 89810
+        },
+        {
+          "sourceIndex": 3,
+          "x": 83,
+          "y": 522,
+          "w": 434,
+          "h": 480,
+          "component": 6,
+          "area": 94172
+        },
+        {
+          "sourceIndex": 4,
+          "x": 614,
+          "y": 522,
+          "w": 371,
+          "h": 480,
+          "component": 7,
+          "area": 92124
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1134,
+          "y": 522,
+          "w": 319,
+          "h": 480,
+          "component": 8,
+          "area": 85832
+        }
+      ],
+      "uniformScale": 0.18930041152263374,
+      "componentIsolation": true,
+      "packaging": "package-nova-pass-behind6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-behind poses",
+      "atlasPath": "public/assets/animation/nova-stitch-pass-behind-right.webp",
+      "atlasSha256": "20372e35e34d71f98dcb8ea408944acb28ad7e73cabb1ed4bc8a6d6ac9e1ec5c",
+      "atlasBytes": 59528
+    }
+  }
+]

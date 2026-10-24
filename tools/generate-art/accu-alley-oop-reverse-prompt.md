@@ -1,0 +1,7 @@
+# Accu — alley-oop-reverse
+
+## Exact accepted generation prompt
+
+Create 15 complete full-body Accu ALLEY-OOP-REVERSE dunk poses, strict 5 columns × 3 rows row-major sheet. Same Accu as reference: warm tan young adult human woman, green eyes, blunt black bangs, close-cropped sides, two long black ponytails with teal ties, fitted black sleeveless basketball kit with teal/violet trim, black sleeves/tights, teal/violet shoes. Preserve identity and anatomy. Right-facing alley-oop reverse sequence: 0 approach toward incoming pass lane; 1 reach forward with empty hands; 2 catch unseen pass and takeoff at tick4; 3 rise under imaginary hoop; 4 tuck knees; 5 rotate shoulders away from viewer; 6 turn beneath imaginary rim; 7 peak tick14 with back/shoulder partly toward viewer; 8 reach behind head to far side of rim; 9 extend hand toward reverse side; 10 release invisible pass at tick21 with open hand through empty space; 11 follow-through tick23 from far side; 12 descend; 13 land knees flexed; 14 return balanced. Distinct poses, full body, every limb and ponytail in bounds, consistent scale. No ball, sphere, held prop or object in any image. Hands empty around invisible pass; game ball is separate. No hoop/rim, other player, court, floor, shadow, text, numbers, logo, effects, grid lines, background. Blank uniform. True transparent RGBA, not checkerboard, crisp outlined arcade pixel art. Return only fifteen poses.
+
+`clean-accu-motion-background.py` removes edge-connected neutral checker pixels from this source.

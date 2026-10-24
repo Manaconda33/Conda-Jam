@@ -1,0 +1,153 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "pass",
+    "src": "./public/assets/animation/moxie-capwell-pass-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "clip": "pass",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-5c67223e-5072-4d01-960c-567968357ef1",
+      "imageGenerationId": "exec-5c67223e-5072-4d01-960c-567968357ef1",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-pass6-generated-raw.png",
+      "sourceSha256": "ff554523855fd5abeee6c165ccafd94426d07461b2c10edaa56f51bc3758db92",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pass6-generated-raw.png",
+      "rawSourceSha256": "ff554523855fd5abeee6c165ccafd94426d07461b2c10edaa56f51bc3758db92",
+      "prompt": "Create one original 1536\u00d71024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing chest pass. Use the attached canon portrait and gameplay references. Moxie is the same adult human woman: pale skin, lavender-purple eyes, long thick lavender hair gathered into a high ponytail with a small gold hair tie, athletic mature proportions, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve her face, ponytail silhouette, gold tie, palette and anatomy through every pose. Keep two ordinary arms, two hands, two legs and two shoes. No male, witch hat, beard, monster, robot or costume.\n\nDraw crisp readable late-1990s arcade basketball art with clean dark pixel-cel outlines, consistent scale and camera. Arrange exactly six distinct complete full-body poses in a strict 3-column by 2-row grid, row-major, with broad true-transparent gutters and outer margins. One pose per cell; no overlap, touching, clipping or cropping. Hands remain empty at all times: the basketball is a separate game object and must never be drawn. No hoop, rim, court, floor, shadows, glow, effects, text, labels, border, teammate or scenery.\n\nPass sequence:\n0 ready stance, facing right, hands near chest;\n1 step into a balanced pass, hips and shoulders prepare, hands close but not touching;\n2 rotate the shoulders and load both empty hands beside the chest;\n3 RELEASE at simulation tick5: Moxie extends both arms toward image-right with open empty hands and a clear chest-pass follow-through;\n4 arms continue forward, fingers open, weight shifts onto the lead foot;\n5 balanced recovery with hands lowering and feet set.\n\nAll six poses must differ clearly and connect mechanically. Keep the ponytail clear of the face and shoulders. Preserve the same Moxie identity and uniform in all poses. Output only the transparent sprite sheet with real alpha-zero background, no haze, checkerboard, matte, speckles or colored halo.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Moxie-specific separately rendered basketball travels from her chest to her open hands, releases at frame3/tick5, then continues forward. The ball never appears in the poses.",
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.15,
+          1.25,
+          0.95,
+          0.8,
+          0.8
+        ],
+        "forward": [
+          6,
+          6,
+          8,
+          14,
+          14,
+          8
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Six distinct complete right-facing human chest-pass poses. Moxie\u2019s pale skin, lavender eyes, long high lavender ponytail and gold tie, purple/silver uniform and human anatomy match her supplied canon references. No basketball appears. Frame3 is the sole release at tick5; both full bodies and ponytails fit the source cells."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 94,
+          "y": 10,
+          "w": 339,
+          "h": 488,
+          "component": 1,
+          "area": 76731
+        },
+        {
+          "sourceIndex": 1,
+          "x": 609,
+          "y": 23,
+          "w": 345,
+          "h": 475,
+          "component": 3,
+          "area": 73781
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1092,
+          "y": 16,
+          "w": 347,
+          "h": 487,
+          "component": 2,
+          "area": 75392
+        },
+        {
+          "sourceIndex": 3,
+          "x": 45,
+          "y": 526,
+          "w": 488,
+          "h": 472,
+          "component": 4,
+          "area": 83729
+        },
+        {
+          "sourceIndex": 4,
+          "x": 554,
+          "y": 536,
+          "w": 448,
+          "h": 462,
+          "component": 6,
+          "area": 78462
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1126,
+          "y": 532,
+          "w": 364,
+          "h": 466,
+          "component": 5,
+          "area": 71412
+        }
+      ],
+      "uniformScale": 0.1885245901639344,
+      "componentIsolation": true,
+      "packaging": "package-action6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass poses"
+    }
+  }
+]

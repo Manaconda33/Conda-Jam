@@ -1,0 +1,292 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "alley-oop-reverse",
+    "src": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "clip": "alley-oop-reverse",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-cb510e41-a8dd-4d4c-bcf9-6bce9393cef4",
+      "imageGenerationId": "exec-cb510e41-a8dd-4d4c-bcf9-6bce9393cef4",
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-alley-oop-reverse15-cleaned.png",
+      "sourceSha256": "2d21d2c3b4cdde9f9db4e2dd82e27acbccb396a05635323be5660d2fc48e9221",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-alley-oop-reverse15-generated-raw.png",
+      "rawSourceSha256": "85a396d9b84a9ec2647994836738243ff57f964ba0272c1e248c21ee49e79592",
+      "prompt": "Create one original true-transparent RGBA 5x3 row-major spritesheet of fifteen complete right-facing Moxie Capwell alley-oop-reverse poses. Moxie's supplied canon portrait/gameplay references define identity: adult human woman, pale skin, lavender-purple eyes, long thick lavender ponytail with small gold tie, mature athletic body, purple-and-silver uniform with white side panels, purple wristbands and high tops. Preserve exact face, anatomy, hair/tie and outfit in every view.\n\n1990s arcade basketball pixel-cel art, crisp readable outlines. Exact 1536x1024 canvas, 15 separate complete figures, each centered with wide transparent margins/gutters and no clipping/overlap. True transparent RGBA. Moxie alone. Basketball remains separate gameplay art and is never drawn. No teammate, opponent, hoop/rim/net, court/floor, shadow, scenery, background, glow, effects, text or labels.\n\nAlley-oop reverse dunk: Moxie receives a high lob, turns her back to the imaginary rim, then reaches behind her head to dunk backward on the far side.\n0 cut toward the lob, eyes up;\n1 plant to jump;\n2 takeoff at tick4;\n3 reach high with both hands;\n4 receive lob at frame5/tick10 with right hand;\n5 pull the separate ball close to shoulder;\n6 twist hips and shoulders away, starting a reverse turn;\n7 back faces the imaginary rim, right arm draws the ball behind her head;\n8 rise with knees tucked and hand behind crown;\n9 reach backward around the far side of her head;\n10 extend into the reverse dunk and release at tick21;\n11 score finish tick23, hand follows down behind the head;\n12 rotate back toward right-facing view while descending;\n13 land with knees bent;\n14 stable athletic recovery.\nKeep back and three-quarter-back poses readable but preserve Moxie's lavender ponytail/gold tie and purple/silver uniform. Full human anatomy, no ball or hoop drawn; both hands remain empty and visible.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Separate alley pass approaches Moxie and is caught overhead at frame4/tick10. It follows her turn and behind-head reverse dunk, releasing at frame10/tick21; no ball drawn.",
+      "ballTrack": {
+        "height": [
+          1.8,
+          2.2,
+          2.8,
+          3.2,
+          3.4,
+          3.3,
+          3.1,
+          3.3,
+          3.4,
+          3.5,
+          2.5,
+          1.8,
+          1.2,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          20,
+          18,
+          16,
+          14,
+          12,
+          10,
+          12,
+          14,
+          16,
+          20,
+          28,
+          35,
+          40,
+          42,
+          42
+        ]
+      },
+      "cleanupNotes": "Removed smooth purple backdrop with Moxie RGB contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained; isolated pose components when packing.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete Moxie poses in 5x3. Frame4/tick10 overhead lob catch, shoulder gather, back-facing turn, behind-head reverse finish and right-facing landing form a distinct sequence. Identity, adult anatomy and purple/silver uniform remain consistent. Ball/pass partner/hoop absent from art; separate ball track recorded and backdrop cleanup reviewed."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 50,
+          "y": 54,
+          "w": 224,
+          "h": 307,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 378,
+          "y": 117,
+          "w": 194,
+          "h": 252,
+          "component": 12
+        },
+        {
+          "sourceIndex": 2,
+          "x": 677,
+          "y": 70,
+          "w": 191,
+          "h": 298,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 973,
+          "y": 8,
+          "w": 188,
+          "h": 358,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1273,
+          "y": 13,
+          "w": 222,
+          "h": 349,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 39,
+          "y": 385,
+          "w": 271,
+          "h": 285,
+          "component": 21
+        },
+        {
+          "sourceIndex": 6,
+          "x": 369,
+          "y": 391,
+          "w": 261,
+          "h": 278,
+          "component": 22
+        },
+        {
+          "sourceIndex": 7,
+          "x": 674,
+          "y": 392,
+          "w": 213,
+          "h": 274,
+          "component": 23
+        },
+        {
+          "sourceIndex": 8,
+          "x": 952,
+          "y": 381,
+          "w": 227,
+          "h": 277,
+          "component": 19
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1276,
+          "y": 384,
+          "w": 239,
+          "h": 299,
+          "component": 20
+        },
+        {
+          "sourceIndex": 10,
+          "x": 37,
+          "y": 683,
+          "w": 244,
+          "h": 329,
+          "component": 47
+        },
+        {
+          "sourceIndex": 11,
+          "x": 368,
+          "y": 700,
+          "w": 264,
+          "h": 312,
+          "component": 48
+        },
+        {
+          "sourceIndex": 12,
+          "x": 666,
+          "y": 715,
+          "w": 257,
+          "h": 288,
+          "component": 50
+        },
+        {
+          "sourceIndex": 13,
+          "x": 973,
+          "y": 748,
+          "w": 255,
+          "h": 254,
+          "component": 52
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1276,
+          "y": 757,
+          "w": 238,
+          "h": 246,
+          "component": 53
+        }
+      ],
+      "uniformScale": 0.2569832402234637,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "athlete": "echo-catwalk",
+  "clip": "layup-reverse",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-464ec7ba-21fd-4ab0-8a4a-dbf5a9ab2473",
+  "imageGenerationId": "exec-464ec7ba-21fd-4ab0-8a4a-dbf5a9ab2473",
+  "rawSourceImage": "tools/generate-art/sources/echo-catwalk-layup-reverse-generated-raw.png",
+  "rawSourceSha256": "81b6725a81ae5cff569425820447524f61e4b01f7792fa56f9100803414aa535",
+  "sourceImage": "tools/generate-art/sources/echo-catwalk-layup-reverse-generated-raw.png",
+  "sourceSha256": "81b6725a81ae5cff569425820447524f61e4b01f7792fa56f9100803414aa535",
+  "promptFile": "tools/generate-art/echo-catwalk-layup-reverse-prompt.md",
+  "prompt": "Use the referenced Echo Catwalk art only to preserve his exact identity and colors. Create eight new full-body poses for a right-facing reverse layup, on a 1536\u00d71024 transparent RGBA pixel-art sheet in a strict four-column by two-row grid, row-major. Broad transparent margins around every complete figure. No backgrounds, court, hoop, floor, text, ball, props or shadows.\n\nEcho is a compact adult human male athlete, medium-brown skin, short spiky dark-teal curls, teal headband, neat dark-teal beard, teal jersey and shorts with black/deep-purple panels, black knee pads, teal-black shoes and wristbands. Keep same male face, human proportions and kit in every pose. Two arms/hands, two legs/shoes. Hands remain empty; game renders the separate ball.\n\nRight-facing reverse layup toward an offscreen hoop at image-right. Sequence:\n0 approach in a controlled stride;\n1 gather invisible ball at chest;\n2 plant and load;\n3 jump and turn shoulders away from the rim, ball-miming hand sweeps behind far shoulder;\n4 rise with back/shoulder leading, other arm counterbalances;\n5 RELEASE at simulation tick12: reverse-side arm reaches high backward over the shoulder, open empty hand, knees tucked;\n6 empty-handed follow-through and controlled descent;\n7 balanced landing and recovery.\n\nMake all eight distinct, connected and full-body, keep complete hair and shoes in cells, with the whole pose readable. No ball or props at all. True transparent alpha-zero exterior and gutters, no halo, checkerboard or matte. Crisp arcade pixel-art clusters, small-sprite readability. Return only the sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Echo-specific ball rises with him, follows the far-side hand behind the shoulder and releases at reverse-layup frame5/tick12. Never painted into poses.",
+  "ballTrack": {
+    "height": [
+      1,
+      1.1,
+      1.2,
+      1.6,
+      2.2,
+      2.4,
+      1.5,
+      0.8
+    ],
+    "forward": [
+      5,
+      8,
+      7,
+      4,
+      -5,
+      -7,
+      0,
+      5
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Eight distinct complete right-facing poses show approach, gather, takeoff while turning away, backward high reverse release at frame5/tick12, follow-through, controlled descent and landing. Canon identity consistent and hands empty."
+  }
+}

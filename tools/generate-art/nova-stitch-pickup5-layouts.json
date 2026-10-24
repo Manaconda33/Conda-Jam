@@ -1,0 +1,122 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "pickup",
+    "src": "./public/assets/animation/nova-stitch-pickup-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "4a5632c5c386b9c960c44d01d2205d7d030f6a17ef9884cddae540ce36864319"
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "191c5c05bccbca0318cf6cad8f3229d69906ca88f054c7234835c2c124e8ce7b"
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "868ca1968f6c571c2e4f14bc8e3b98aac47173febd03a6288a6d579ec1bc4d8e"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "653d0914784c386c9e1e6915af025e3269abe253a0075e37f758ba4a190ffe5f"
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "531ce980a2c37631f7c97ee55d6ff2ac18f2a08015b014a0f3063521037b2966"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "pickup",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-0c4dfd79-9915-4857-a8c2-beb68f008d90",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-pickup-generated-raw.png",
+      "rawSourceSha256": "0422d68b2acd7861481a3841c8d82fbf34d49a243920e7d9309c54e96ca8a989",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-pickup-generated-raw.png",
+      "sourceSha256": "0422d68b2acd7861481a3841c8d82fbf34d49a243920e7d9309c54e96ca8a989",
+      "eligibleForPacking": true,
+      "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and visual-style reference. Create a new original 1536\u00d71024 transparent RGBA sprite sheet for JAMVERSE '96 containing exactly five separate complete full-body Nova Stitch ball-pickup poses, in a three-column by two-row grid and row-major order. Leave the last cell (bottom row, third column) completely transparent. Put one pose centered in each of the other five cells, with clear margins. Same player, same right-facing source direction, camera, scale, palette and anatomy throughout. No scenery, court, floor, shadow, glow, borders, text, numbers, prop, other athlete or opponent.\n\nNova is a young athletic fair-tan woman with a long curly teal ponytail tied high, teal jersey and shorts with purple/black trim, black knee pads, teal-and-black shoes and matching wristbands. Keep her individual human face, build, hair, outfit, silhouette and colors consistent. Hands are empty; the basketball is a separate game object and never drawn into poses.\n\nAction: Nova jogs up to a loose basketball on the court, reaches down with her right hand, touches it at floor level, and begins to rise. Exactly five distinct poses:\n0 approach in a right-facing stride, hands relaxed;\n1 decelerate and bend knees, eyes toward the floor;\n2 deep crouch, reach right hand toward the ball's ground position;\n3 GRAB at simulation tick7: fingertips meet the floor at the pickup point, palm open, left arm balances;\n4 lift from the crouch, right hand closed near her waist after pickup.\nShow no basketball or prop. Keep the exact floor contact in pose3 so the separate ball can meet the hand; pose4 starts recovery. All poses full-body with natural two-arm anatomy and complete ponytail and shoes.\n\nMatch the tiny 2D gameplay reference: crisp limited-palette 1990s arcade pixel art with chunky dark outlines, not painterly, photoreal, 3D, glossy or anime. True RGBA transparent background and empty cell, no alpha haze, matte or checkerboard. Return only the sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Five distinct complete Nova Stitch pickup poses preserve the teal-haired human identity and teal/purple kit. Pose3 touches down at tick7; pose4 rises. Final cell is left empty; basketball stays separate."
+      },
+      "ballPolicy": "Nova-specific separate basketball meets the right fingertips at frame3/tick7; no ball appears in the packaged art.",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 74,
+          "y": 29,
+          "w": 378,
+          "h": 493,
+          "component": 1,
+          "area": 90165
+        },
+        {
+          "sourceIndex": 1,
+          "x": 655,
+          "y": 66,
+          "w": 353,
+          "h": 455,
+          "component": 2,
+          "area": 93437
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1118,
+          "y": 152,
+          "w": 394,
+          "h": 369,
+          "component": 3,
+          "area": 85535
+        },
+        {
+          "sourceIndex": 3,
+          "x": 114,
+          "y": 650,
+          "w": 371,
+          "h": 347,
+          "component": 5,
+          "area": 84930
+        },
+        {
+          "sourceIndex": 4,
+          "x": 627,
+          "y": 542,
+          "w": 354,
+          "h": 450,
+          "component": 4,
+          "area": 85764
+        }
+      ],
+      "uniformScale": 0.18661257606490872,
+      "componentIsolation": true,
+      "packaging": "package-nova-action5.py; 80x96 cells; baseline94; lossless WebP; 5 original pickup poses",
+      "atlasPath": "public/assets/animation/nova-stitch-pickup-right.webp",
+      "atlasSha256": "50921a3715919ef43cbc28e92a93c31cc16ad3fcd2cd9f1808339aeb43d92a2a",
+      "atlasBytes": 47032
+    }
+  }
+]

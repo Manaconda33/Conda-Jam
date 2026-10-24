@@ -1,0 +1,7 @@
+# Accu — dunk-360
+
+## Exact accepted generation prompt
+
+Create exactly 15 full-body Accu DUNK-360 poses in a five-column by three-row sprite sheet, row-major, no extra figures. Match the attached Accu: young adult woman, warm tan skin, green eyes, blunt black bangs, close-cropped sides, twin long black ponytails with teal ties, sleek black sleeveless basketball kit with teal/violet trim, black sleeves/tights and teal/violet sneakers. Preserve her identity and human anatomy throughout. A complete 360-degree spin dunk, right-facing start and finish: 0 runs right; 1 gathers; 2 takeoff tick4; 3 rises into rotation; 4 rotates shoulders toward viewer; 5 turns to near-front; 6 back briefly faces viewer; 7 reaches apex tick14 in the middle of a controlled full turn, arms tucked naturally; 8 turns past far side; 9 returns to right-facing view, raises right arm; 10 release tick21 with open hand into empty space; 11 follow-through finish tick23, torso still airborne; 12 descends; 13 lands; 14 balanced right-facing ready stance. Exactly 15 clearly different continuous poses in 5x3 order. Full body, both ponytails, hands and feet inside every cell with margin. Ball is drawn separately, so no basketball, sphere, hoop, rim or object in any hand. No other players, court, floor, shadow, text, logo, effects, grid lines or background. True RGBA transparency, not checkerboard. 1990s arcade pixel art, crisp outlines and consistent scale.
+
+`clean-accu-motion-background.py` removes edge-connected neutral checkerboard from the generated sheet.

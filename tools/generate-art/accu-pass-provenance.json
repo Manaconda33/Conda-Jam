@@ -1,0 +1,26 @@
+{
+  "athlete": "accu",
+  "clip": "pass",
+  "direction": "right",
+  "canonicalSection": "Neo Runway Precision / Accu",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-01aef2f3-327d-42d5-ac00-0a799d56032f",
+  "imageGenerationId": "exec-01aef2f3-327d-42d5-ac00-0a799d56032f",
+  "rawSourceImage": "tools/generate-art/sources/accu-pass-generated-raw.png",
+  "rawSourceSha256": "2029465155b6790f5f86b519a8b61acea6c63088a460846d6cd5c35bacff0560",
+  "sourceImage": "tools/generate-art/sources/accu-pass-generated-raw.png",
+  "sourceSha256": "2029465155b6790f5f86b519a8b61acea6c63088a460846d6cd5c35bacff0560",
+  "referenceImage": "public/assets/animation/accu-shoot-right.webp",
+  "prompt": "Create an original 1536\u00d71024 transparent RGBA 2D pixel-art sprite sheet for JAMVERSE '96: Accu of Neo Runway Precision performing a right-facing basketball chest pass. Use the attached Accu gameplay sprite sheet only as the canon identity, uniform palette, scale, and pixel-art style reference. Redraw six new distinct animation poses in a strict 3-column by 2-row grid, row-major, with broad transparent gutters and outer margins. Each complete figure must stay in its own cell. Same camera, scale, feet baseline, anatomy and identity. No grid, panel, text, court, floor, shadows, ball, props, teammate, opponent, hoop or rim. Accu is a stylish confident young adult human woman with warm tan skin, vivid green eyes, black blunt bangs, closely cropped sides, and two long unmistakable black twin ponytails with teal ties/highlights. She wears sleek black modern basketball sportswear with precisely tailored teal and violet trim, dark shorts/tights, black arm sleeves, and polished teal/violet athletic shoes. Keep her feminine face, body proportions, green eyes, twin ponytails, cropped sides and teal-black-violet kit consistent. No extra accessories, ruffles, pink costume, armor or changed hairstyle. Show exactly two natural arms, two hands, two legs and two shoes. Both hands stay empty: the game renders the basketball separately. Never draw any ball, sphere, orb, seams, prop or object. This is a compact, accurate right-facing chest pass from stance with a deliberate step, forward arm extension and clean follow-through. Six connected unique poses:\n0 ready balanced stance, elbows bent and empty hands framing the invisible ball at the sternum;\n1 gather hands closer at chest, knees flex and weight shifts to the back foot;\n2 step forward with lead foot, torso turns slightly toward the target, pass begins from chest;\n3 RELEASE at simulation tick5: lead arm extends straight toward image-right, wrist flicked and hand empty; trailing hand opens away from the invisible ball;\n4 full but controlled forward follow-through, lead fingers extended and weight settles forward;\n5 balanced recovery, arms lower naturally, hands empty, feet stable. Keep all poses right-facing and the pass travelling toward image-right. Draw six clearly distinct complete bodies with safe transparent alpha around all hands, shoes and ponytails. Crisp 1990s arcade pixel clusters, sharp outlines, readable at small gameplay scale, true transparent RGBA gutters and exterior, no alpha haze, checkerboard or matte. Return only the sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Separate basketball tracks Accu\u2019s empty hands on the chest pass and releases from her lead hand at frame3/tick5; it is never painted into the poses.",
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Six distinct complete human poses. Accu\u2019s green eyes, blunt bangs, close-cropped sides, twin long black/teal ponytails, athletic human anatomy and teal/violet/black uniform remain legible and consistent. Frame3 is the single empty-hand chest-pass release at tick5. K.03 leaves mirror review pending; only right-facing production art is supplied."
+  }
+}

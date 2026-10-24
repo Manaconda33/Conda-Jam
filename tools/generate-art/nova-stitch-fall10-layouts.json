@@ -1,0 +1,198 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "fall",
+    "src": "./public/assets/animation/nova-stitch-fall-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "99edcd2e5ebf2356bc83987cbf73c385a0b21f64951eaea8f9e9b1f3be0e0b66"
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "60b700480e5245f1d2c6366db0d2d40cbe08439afb81353392efa6a36eb3cf8f"
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "a7d0a9a275318f1380d74d662fcb5c60bae99b0711a5f4d03d5bbd774021e9ca"
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "9fa8a5d3b4f8382c3d3ae6b5aea2a166b35b8d81fc68a56d48cc3191dc4dc811"
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "089bafee83fefd09064f695d8300ba6999fb282a3ced4a5b59b2e5a0f0b08b30"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "4b73dd24a4154eee716a5bd15fb902483ca678e84ada7a4f3d353f069e6b0ce0"
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "3707de12d9e60de97694d82ad615af8380260132df270f715d0fdccbcba5166c"
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "bec971ff75749ff0c33d27933354af3e511d19c06b58febaf3831ad8bc70dd95"
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "a7354c806700d59a919255b980fa4a0c1251a2241d6b8c6c8ac611c1687dd75b"
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "d20c5569414171100d108ee3ac7f56c2cb64208d0a9d04828b1e154310f166b5"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "fall",
+      "direction": "right",
+      "generationId": "exec-1c48547d-b865-4a29-85c2-0e7b96199d0d",
+      "generatedAt": "2026-10-24T01:17:51.102451+00:00",
+      "sourceSha256": "0787a96d6a27075747980706f16167f365047d5f48e5df3f9445f3c00eeab5af",
+      "prompt": "Use the supplied Nova Stitch gameplay sprite as the identity/style reference. Create an original 1536\u00d71024 transparent RGBA sprite sheet with exactly ten separate complete full-body Nova Stitch controlled fall-and-recovery poses in a five-column by two-row grid, row-major. Use one distinct connected pose in every cell. Consistent right-facing source direction, camera, scale and anatomy. No scene, floor, shadow, background, prop, text, basketball, teammate or opponent.\n\nNova is a young athletic fair-tan woman with long curly teal hair in a high ponytail, distinct human face, teal jersey and shorts with purple/black trim, black knee pads, teal-black sneakers and wristbands. Preserve her face, human proportions, ponytail, uniform palette and shoes in all poses. Do not depict another person. This is a brief game knockdown and recovery, not an injury: no gore, no impact effects, no broken limbs, no crawling locomotion. Her body moves through one intentional fall and then stands back up.\n\nTen connected poses:\n0 balance disrupted, torso leans and arms widen;\n1 take an off-balance step and bend knees;\n2 begin a controlled backward/side descent, hands reach to brace;\n3 lower onto one knee and forearm;\n4 controlled low seated/side-fall, legs bent naturally;\n5 brief grounded recovery pose on one knee and hand, complete body visible;\n6 plant both hands/one foot to rise;\n7 lift torso into a low squat;\n8 stand gradually and regain balance;\n9 return to a normal upright right-facing ready stance.\nThe central ground-contact poses are intentional recovery, not a normal running pose. Keep limbs anatomically correct and non-overlapping, all hair and shoes visible within each cell, and the face fully identifiable when angle permits.\n\nMatch the supplied tiny 2D arcade sprite: crisp limited-palette 1990s pixel art with chunky dark outlines, not painterly, photorealistic, 3D, glossy or anime. True RGBA alpha-zero outside cells, no floor shadow, glow, matte or checkerboard. Return only the sprite sheet.",
+      "review": {
+        "status": "accepted",
+        "notes": "Identity, palette, complete body coverage and ten separated recovery poses visually reviewed. Source includes checkerboard artifacts; component isolation is required before atlas packaging."
+      },
+      "eligibleForPacking": true,
+      "rawGeneratedImage": "tools/generate-art/sources/nova-stitch-fall-generated-raw.png",
+      "rawGeneratedSha256": "666829eb7168db14a723b4b5bba47a8b4288c5fa0083749125b11207a0630b77",
+      "cleanupNotes": "Generation returned an RGB image with a baked gray checkerboard instead of alpha. Removed neutral high-luminance edge-connected checkerboard pixels into alpha-zero; retained colorful opaque sprite pixels; cleanup source visually reviewed.",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-fall-generated-cleanup.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 8,
+          "y": 138,
+          "w": 321,
+          "h": 358,
+          "component": 1,
+          "area": 44203
+        },
+        {
+          "sourceIndex": 1,
+          "x": 347,
+          "y": 180,
+          "w": 284,
+          "h": 317,
+          "component": 2,
+          "area": 38281
+        },
+        {
+          "sourceIndex": 2,
+          "x": 634,
+          "y": 242,
+          "w": 298,
+          "h": 254,
+          "component": 3,
+          "area": 35884
+        },
+        {
+          "sourceIndex": 3,
+          "x": 942,
+          "y": 296,
+          "w": 290,
+          "h": 205,
+          "component": 5,
+          "area": 31314
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1241,
+          "y": 289,
+          "w": 284,
+          "h": 208,
+          "component": 4,
+          "area": 30309
+        },
+        {
+          "sourceIndex": 5,
+          "x": 22,
+          "y": 752,
+          "w": 316,
+          "h": 206,
+          "component": 16,
+          "area": 33653
+        },
+        {
+          "sourceIndex": 6,
+          "x": 367,
+          "y": 713,
+          "w": 266,
+          "h": 248,
+          "component": 15,
+          "area": 33318
+        },
+        {
+          "sourceIndex": 7,
+          "x": 700,
+          "y": 679,
+          "w": 224,
+          "h": 286,
+          "component": 14,
+          "area": 36636
+        },
+        {
+          "sourceIndex": 8,
+          "x": 984,
+          "y": 610,
+          "w": 255,
+          "h": 355,
+          "component": 13,
+          "area": 41229
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1255,
+          "y": 577,
+          "w": 251,
+          "h": 388,
+          "component": 12,
+          "area": 45016
+        }
+      ],
+      "uniformScale": 0.23711340206185566,
+      "componentIsolation": true,
+      "packaging": "package-nova-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original fall poses",
+      "atlasPath": "public/assets/animation/nova-stitch-fall-right.webp",
+      "atlasSha256": "ed32b65d11989c309867d17e4c4952c42b7886f94ac0f3cb63645cb86f236bd5",
+      "atlasBytes": 77012
+    }
+  }
+]

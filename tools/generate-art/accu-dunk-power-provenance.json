@@ -1,0 +1,70 @@
+{
+  "athlete": "accu",
+  "clip": "dunk-power",
+  "direction": "right",
+  "canonicalSection": "J.10",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-30fe6f50-4196-4ba2-971f-9562a5d8870a",
+  "sourceImage": "tools/generate-art/sources/accu-dunk-power-generated-clean.png",
+  "sourceSha256": "84cdaf675d0809abffd9c9b04a03270a2df0cd3f7bc5544f1d80d3429760cba4",
+  "promptFile": "tools/generate-art/accu-dunk-power-prompt.md",
+  "prompt": "Generate a JAMVERSE '96 power dunk animation sheet for ACCU, the young adult human woman in the attached reference: warm tan skin, vivid green eyes, blunt black bangs, closely cropped sides, two long black twin ponytails tied teal, sleek black sleeveless basketball uniform with teal and violet piping, black tights and arm sleeves, teal/violet shoes. Preserve her identity and human anatomy in all frames. She is alone, exactly 15 different full-body right-facing poses in a strict 5 columns \u00d7 3 rows grid, row-major, with generous clear cell margins, identical scale and baseline. 1990s arcade pixel art with crisp dark outlines. A powerful one-handed right-hand slam dunk: frames 0-1 approaches and gathers, 2 takeoff marker tick4, 3 rises, 4 drives knees up, 5 reaches overhead, 6 swings ball-free arm for balance, 7 peak marker tick14 with right arm reaching high, 8 turns shoulders toward imaginary rim, 9 cocks right hand back, 10 release marker tick21 with open right hand sweeping down through empty space (NO ball drawn), 11 scoring follow-through tick23, 12 descends, 13 lands with knees flexed, 14 regains upright stance. All poses visibly distinct, no mirrored duplicates. The game draws the basketball separately: NO basketball, sphere, hoop, rim, props or object in any hand. No other player, court, floor, shadow, text, numbers, lettering, logo, effects, or background. Blank uniform. Real transparent RGBA, not a checkerboard. Full figure in every cell, no cut hair, fingers or shoes.",
+  "timing": {
+    "takeoffFrame": 2,
+    "takeoffTick": 4,
+    "peakFrame": 7,
+    "peakTick": 14,
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "finishFrame": 11,
+    "finishTick": 23,
+    "landFrame": 14,
+    "landTick": 30
+  },
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.15,
+      1.25,
+      1.4,
+      1.65,
+      1.9,
+      2.1,
+      2.25,
+      2.35,
+      2.4,
+      2.25,
+      1.65,
+      1.1,
+      0.75,
+      0.65
+    ],
+    "forward": [
+      6,
+      8,
+      9,
+      10,
+      10,
+      8,
+      6,
+      6,
+      9,
+      13,
+      15,
+      13,
+      10,
+      8,
+      7
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-accu-dunk-power-background.py",
+    "method": "remove border-connected neutral checkerboard pixels"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Fifteen distinct full-body right-facing Accu poses. Black twin ponytail, teal ties, green eyes, blank black/teal/violet uniform. Ball absent from art, separate Accu-specific track documented."
+  }
+}

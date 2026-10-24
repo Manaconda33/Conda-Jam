@@ -1,0 +1,7 @@
+# Accu — dunk-reverse
+
+## Exact accepted generation prompt
+
+Create 15 complete full-body right-facing Accu DUNK-REVERSE sprite poses in a strict 5-column × 3-row sheet, row-major. Match the attached Accu: young adult human woman, warm tan skin, green eyes, blunt black bangs, clipped sides, long black twin ponytails with teal ties, sleek black sleeveless kit with teal/violet trim, black arm sleeves and tights, teal/violet sneakers. Preserve her face, hair, body and anatomy (two arms, two legs). Reverse slam sequence: 0 run along baseline, 1 lower center of gravity, 2 takeoff tick4 with forward momentum, 3 rise under imaginary hoop, 4 twist torso toward backboard, 5 tuck knees and rotate shoulders away, 6 turn back to viewer while moving beneath rim, 7 reach reverse-side overhead at peak tick14, 8 bring right arm behind head toward far side of rim, 9 extend behind-head hand, 10 reverse-hand release at tick21 through empty space, 11 finish/follow-through tick23, 12 descend from far side, 13 land, 14 return balanced. 15 distinct poses with clear continuity, all limbs in frame, consistent scale. Blank uniform. Basketball is separate and must not be shown. No ball/sphere/object in hands, no hoop/rim, other person, court/floor/shadow/text/logo/effects/background. True transparent RGBA, no checkerboard, crisp 1990s arcade pixel art. Return only sprite sheet.
+
+`clean-accu-motion-background.py` removes edge-connected neutral checkerboard from the generated sheet.

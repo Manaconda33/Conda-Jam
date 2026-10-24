@@ -1,0 +1,218 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "push",
+    "src": "./public/assets/animation/nova-stitch-push-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96,
+        "hash": "78ce1c909345569c5f75c0a545585f1c4ceeb9e49e8d19802d542e6f3424e728"
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96,
+        "hash": "7e0c0f9abed1196f84247d60d602db8ed9fd0254f1923c177e6ec7071b0a4ba7"
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96,
+        "hash": "b733059df11801472acc2cff2b3efd1a9eca7ceaeb53c5ee9bbad3bcb1791e3f"
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96,
+        "hash": "cf06affa1dde0be5b698c6dc1acfa41ac9ca9f7dabe90dac162799e1614262ca"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96,
+        "hash": "accc7b5b1ebdc837811aba755c0cf5cd93bd236d41b464e9b6baaddf824773ed"
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96,
+        "hash": "8d7716a8d5edcce8e92973d51d4aab412aef5839ac49afd19f4adf6976d3ef19"
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96,
+        "hash": "900c10d54edded0e0d79c710ed48c351b5204f85f1e678e46cd0aeb90c704828"
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96,
+        "hash": "af92ddfbe20ad5ccf97dc7cfb48da45103726f05176922704b046cbbd1a9893d"
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96,
+        "hash": "92dd1f70e4b8ae040365654f218cbec999c63ba0fb2896d15413f165cb1fa826"
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96,
+        "hash": "f68311dcfef52df85a0783d2f8a782cac894c8138412fe3ab86bf28e0f5e4bb5"
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96,
+        "hash": "0e15f1acd4cc8b43e890453ab968ee485b03061f763bd869cff621526aa2a6a6"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "push",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-5a125d00-6b1a-4c2f-be48-c8b853e4930f",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-push-generated-raw.png",
+      "rawSourceSha256": "62344c070d73896c092ced577ec56e429721a4c1086c9904cb0bb7bf2a969600",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-push-generated-raw.png",
+      "sourceSha256": "62344c070d73896c092ced577ec56e429721a4c1086c9904cb0bb7bf2a969600",
+      "eligibleForPacking": true,
+      "prompt": "Use the supplied Nova Stitch gameplay sprite as the identity/style reference. Create an original 1536\u00d71024 transparent RGBA sprite sheet containing exactly eleven separate complete full-body poses of Nova Stitch performing a basketball push/body-check, in a four-column by three-row grid, row-major. Put poses0\u201310 in the first eleven cells and leave the final cell (row3 column4) transparent. Keep a consistent right-facing source direction, scale and camera. Keep each pose inside its own cell. No scene, floor, court, shadow, glow, text, numbers, other athletes, basketball, prop or background.\n\nNova is a young athletic fair-tan woman with long curly teal hair in a high ponytail, distinct human face, teal jersey and shorts with purple/black trim, black knee pads, teal-and-black sneakers and wristbands. Preserve her exact body, face, ponytail and uniform colors in all poses. Keep hands empty; no ball or prop is drawn. This is a controlled in-game defensive body-check, not a fight: no punches, kicks, weapons, injury, or fallen/prone character. Show Nova\u2019s upper-arm/shoulder nudging an unseen opponent, never a strike.\n\nEleven connected, visibly distinct poses:\n0 neutral right-facing ready stance, hands low;\n1 lower defensive stance and prepare to step in;\n2 drive off the rear foot toward image-right, shoulder turning;\n3 close the space, arm bent and shoulder leading;\n4 lean in, upper arm/shoulder aligned for contact, other arm balancing;\n5 CONTACT at simulation tick8: brief shoulder-to-shoulder bump pose, stable feet, no punch;\n6 continue a short safe follow-through, arm raised but open hand;\n7 recoil naturally as the opponent moves away, regain balance;\n8 lower the arms and step back;\n9 stand upright, return to defensive stance;\n10 reset in a balanced right-facing ready pose.\nNo other figure is drawn. Keep all limbs, hands, ponytail and shoes clear, anatomically correct and fully visible.\n\nMatch the supplied tiny 2D arcade sprite with crisp limited-palette 1990s pixel art and chunky dark outlines, not painterly, photorealistic, 3D, glossy or anime. True transparent background and gutters; no matte or checkerboard. Return only the sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Eleven distinct complete Nova Stitch push poses preserve the teal ponytail, female human anatomy and teal/purple uniform. Pose5 contacts at tick8; the controlled no-punch shoulder check continues through a safe follow-through and reset. No opponent or ball is baked into poses."
+      },
+      "ballPolicy": "Nova-specific basketball stays separate during the defensive body-check; it is not painted into any pose.",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 94,
+          "y": 13,
+          "w": 199,
+          "h": 337,
+          "component": 1,
+          "area": 43087
+        },
+        {
+          "sourceIndex": 1,
+          "x": 459,
+          "y": 44,
+          "w": 267,
+          "h": 305,
+          "component": 4,
+          "area": 43556
+        },
+        {
+          "sourceIndex": 2,
+          "x": 810,
+          "y": 34,
+          "w": 292,
+          "h": 315,
+          "component": 3,
+          "area": 46421
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1205,
+          "y": 27,
+          "w": 269,
+          "h": 321,
+          "component": 2,
+          "area": 45931
+        },
+        {
+          "sourceIndex": 4,
+          "x": 56,
+          "y": 369,
+          "w": 345,
+          "h": 314,
+          "component": 7,
+          "area": 51499
+        },
+        {
+          "sourceIndex": 5,
+          "x": 458,
+          "y": 365,
+          "w": 291,
+          "h": 318,
+          "component": 5,
+          "area": 47344
+        },
+        {
+          "sourceIndex": 6,
+          "x": 815,
+          "y": 373,
+          "w": 302,
+          "h": 311,
+          "component": 8,
+          "area": 47809
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1221,
+          "y": 366,
+          "w": 265,
+          "h": 317,
+          "component": 6,
+          "area": 44073
+        },
+        {
+          "sourceIndex": 8,
+          "x": 89,
+          "y": 699,
+          "w": 241,
+          "h": 313,
+          "component": 12,
+          "area": 41408
+        },
+        {
+          "sourceIndex": 9,
+          "x": 469,
+          "y": 692,
+          "w": 208,
+          "h": 320,
+          "component": 11,
+          "area": 41494
+        },
+        {
+          "sourceIndex": 10,
+          "x": 851,
+          "y": 689,
+          "w": 203,
+          "h": 323,
+          "component": 10,
+          "area": 41415
+        }
+      ],
+      "uniformScale": 0.27299703264094954,
+      "componentIsolation": true,
+      "packaging": "package-nova-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses",
+      "atlasPath": "public/assets/animation/nova-stitch-push-right.webp",
+      "atlasSha256": "69bd756f1dfed9b37c0cd5af3f83361052ebd9a2a0a222cbfe2eac2cab64d9c5",
+      "atlasBytes": 112970
+    }
+  }
+]

@@ -1,0 +1,7 @@
+# Nova Stitch — dunk-reverse
+
+## Verbatim generation prompt
+
+```text
+Use the supplied Nova Stitch sprite as exact identity/style reference. Generate a true transparent RGBA 1536x1024 production sprite sheet: exactly fifteen distinct complete full-body poses, five columns by three rows, row-major, for a reverse basketball dunk. One connected Nova per cell. No ball, no rim, no other character, no floor/shadow/text. The game ball stays a separate runtime object; hands are empty and ball poses are only mime. Preserve the same fair-tan athletic human woman, recognizable face, long curly teal high ponytail, teal jersey and shorts with purple/black trim, knee pads, teal-black shoes, wristbands, consistent scale/anatomy. Action reads clearly as reverse: approach the basket lane, gather, jump, rotate shoulders and hips away from the viewer/rim so the back and ponytail show, carry empty hand behind/around her crown, keep back-facing orientation while rising, then reach behind herself for a one-hand reverse release at frame10, finish and turn through descent. Poses 0-2 run/gather; 3 takeoff; 4-6 rotate away; 7-9 airborne back-facing reverse reach; 10 overhead/behind-the-head release; 11-12 follow-through turn and descent; 13 landing; 14 balanced finish. All fifteen distinctly different. Preserve anatomically correct limbs and ponytail. Crisp limited-palette 1990s arcade pixel art, chunky dark outline, not glossy, painterly, 3D or anime. Only sprite sheet, no checkerboard, matte, glow or background.
+```

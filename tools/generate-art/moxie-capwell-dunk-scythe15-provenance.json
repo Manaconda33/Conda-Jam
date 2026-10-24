@@ -1,0 +1,70 @@
+{
+  "athlete": "moxie-capwell",
+  "clip": "dunk-scythe",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-4cf51ffc-ef11-4094-a05c-be94f605eaae",
+  "imageGenerationId": "exec-4cf51ffc-ef11-4094-a05c-be94f605eaae",
+  "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-scythe15-cleaned.png",
+  "sourceSha256": "25496d531935c067449e95b1739c7dd1c702c09227d51bf10804063917121865",
+  "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-scythe15-generated-raw.png",
+  "rawSourceSha256": "655eeb4c2fb96134937bca04568efc1c61273ef00e55b5a9f642ebafb268213b",
+  "prompt": "Create one true-transparent RGBA spritesheet of fifteen right-facing Moxie Capwell dunk-scythe poses, exactly 5x3 grid row-major. Strict Moxie identity from attached refs: adult human woman, pale skin, lavender eyes, very long thick lavender high ponytail with small gold tie, mature athletic build, purple/silver uniform with white side panels, purple wristbands, purple high tops. Preserve her face, hair, anatomy, colors and outfit in every pose.\n\n1990s arcade basketball pixel-cel sprite art, clean bold outlines, clear silhouettes. 1536x1024, fifteen complete figures, centered within separate cells, wide transparent gutters and margins, no crop or edge contact. True alpha-transparent background. Moxie alone. The basketball remains a separate game object; never draw it. No hoop/rim/net, opponent, court, ground, shadows, background, effects, glow, words or labels.\n\nDunk-scythe action: as Moxie rises, her right hand carries the imaginary ball in a compact diagonal crescent across her body, like a scythe cut, then sends it toward the rim for a one-hand dunk. Keep path diagonal, not a full windmill.\n0 approach sprint;\n1 gather and bend;\n2 takeoff at tick4;\n3 rise, right hand low near hip;\n4 sweep right hand diagonally across abdomen;\n5 hand crosses toward left side of chest;\n6 hand climbs diagonally across sternum;\n7 hand passes near opposite shoulder, compact crescent;\n8 hand reaches beside cheek as she nears peak tick14;\n9 finish diagonal arc above head toward imaginary rim;\n10 one-hand release at tick21;\n11 scoring follow-through tick23, hand comes below rim lane;\n12 descend, shoulders unwind;\n13 land on flexed knees;\n14 stable recovery.\nMoxie remains upright bipedal with visible left balancing arm and natural shoulders/elbows. All hands empty, hair fully visible, no ball or hoop drawn.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-66da18f2-0348-4d9a-a566-7cff9cad7224",
+      "reason": "Wrong character: red-and-black-uniformed athlete with dark hair, not Moxie Capwell."
+    }
+  ],
+  "mirrorEligible": true,
+  "ballPolicy": "Separate Moxie ball crosses the torso in a compact diagonal crescent from low hand position toward the high right-hand release; never drawn in the sprite.",
+  "ballTrack": {
+    "height": [
+      1,
+      1.2,
+      1.4,
+      1.2,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.4,
+      3.5,
+      2.5,
+      1.6,
+      1.2,
+      0.8,
+      0.6
+    ],
+    "forward": [
+      6,
+      8,
+      9,
+      8,
+      7,
+      6,
+      8,
+      11,
+      15,
+      18,
+      25,
+      35,
+      40,
+      42,
+      42
+    ]
+  },
+  "cleanupNotes": "Removed smooth generated backdrop with Moxie RGB-contrast alpha matte (Gaussian sigma38px; alpha fade contrast21\u201342); isolated components during packing. Raw source retained.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Fifteen full Moxie human poses in 5x3 row-major. Right arm traverses a diagonal crescent across the torso toward an overhead right-hand release, distinct from the windmill loop. Adult anatomy, lavender ponytail/gold tie, purple/silver uniform remain consistent. Release frame10/tick21 and landing clear. Wrong-athlete candidate rejected; separate ball absent from sprite; cleaned atlas checked."
+  }
+}

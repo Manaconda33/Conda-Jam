@@ -1,0 +1,137 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "rebound",
+    "src": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "clip": "rebound",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-cd7c4759-f8c5-48ce-a76f-6987cc7b3df3",
+      "imageGenerationId": "exec-cd7c4759-f8c5-48ce-a76f-6987cc7b3df3",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-rebound5-cleaned.png",
+      "sourceSha256": "9442b546be4a81748ba94e42de69ed77b961e3c357f2417d1c50f70a46dd196d",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-rebound5-generated-raw.png",
+      "rawSourceSha256": "f7396868cbb9392518f2829e5cc2efa52e3d1de017f09a2ff1dfa0e32648d8ee",
+      "prompt": "Create one original transparent RGBA production spritesheet for Moxie Capwell's right-facing basketball rebound action. Use the attached Moxie portrait and gameplay references as strict identity, anatomy and uniform guidance. She is an adult human woman with pale skin, lavender-purple eyes, a very long thick lavender high ponytail tied with a small gold tie, a mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve this same face, eye color, ponytail and gold tie, human anatomy and outfit in every pose.\n\nDraw clean readable 1990s arcade basketball pixel-cel sprite art. Canvas 1536x1024, exact 3-column by 2-row grid, five complete full-body Moxie poses in row-major order in cells 0 through 4. Bottom-right cell empty and transparent. Wide transparent gutters and outer margins. Moxie alone. Keep her long ponytail and both shoes inside each cell. No ball in the drawing; the basketball is a separate game object. No other athlete, hoop, rim, court, floor, shadows, effects, glow, text, labels or scenery. Return RGBA with a genuinely transparent alpha-zero background.\n\nAction sequence:\n0. Moxie squares up and tracks a rebound above her, knees bent, eyes up, hands open.\n1. She steps toward the rebound path and raises both arms.\n2. She jumps, reaching high with both hands, ponytail trailing behind.\n3. REBOUND GRAB at simulation tick5: hands meet above her forehead to secure the separate basketball; leave clear empty space between her hands because no ball is drawn.\n4. She descends, protecting the newly gained ball near her chest with open hands visible.\n\nKeep all five poses distinctive, complete and sequential; retain her exact identity and kit.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "A separate ball begins on the rebound path and arrives above Moxie at frame3 / tick5; after the catch it follows Moxie to chest height. The ball never appears in the sprite art.",
+      "ballTrack": {
+        "height": [
+          0.9,
+          1.25,
+          1.9,
+          2.2,
+          1.2
+        ],
+        "forward": [
+          6,
+          8,
+          11,
+          14,
+          8
+        ]
+      },
+      "cleanupNotes": "The generated sheet contains a smooth painted backdrop despite the transparency request. Applied the athlete-specific local RGB-contrast matte (Gaussian sigma 38px, alpha fade for contrast 21\u201342) and retained the original raw generation separately.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Five distinct complete full-body Moxie poses in row-major order. Correct pale human face, lavender eyes, high lavender ponytail with gold tie, purple/silver kit and high-top shoes. Frame3 is the high two-hand rebound catch; frame4 lands with the ball protected near chest height. Smooth backdrop removed and alpha edges reviewed against white; the separate ball is not drawn."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 94,
+          "y": 141,
+          "w": 334,
+          "h": 377,
+          "component": 3,
+          "area": 55679
+        },
+        {
+          "sourceIndex": 1,
+          "x": 567,
+          "y": 124,
+          "w": 390,
+          "h": 394,
+          "component": 2,
+          "area": 60742
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1080,
+          "y": 7,
+          "w": 367,
+          "h": 504,
+          "component": 1,
+          "area": 65412
+        },
+        {
+          "sourceIndex": 3,
+          "x": 96,
+          "y": 535,
+          "w": 328,
+          "h": 457,
+          "component": 44,
+          "area": 65307
+        },
+        {
+          "sourceIndex": 4,
+          "x": 601,
+          "y": 625,
+          "w": 297,
+          "h": 374,
+          "component": 45,
+          "area": 57157
+        }
+      ],
+      "uniformScale": 0.18253968253968253,
+      "componentIsolation": true,
+      "packaging": "package-action5.py; 80x96 cells; baseline94; lossless WebP; 5 original rebound poses"
+    }
+  }
+]

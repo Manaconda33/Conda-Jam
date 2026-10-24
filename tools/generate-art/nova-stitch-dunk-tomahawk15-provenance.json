@@ -1,0 +1,17 @@
+{
+  "athlete": "nova-stitch",
+  "clip": "dunk-tomahawk",
+  "direction": "right",
+  "generationId": "exec-67e45791-3d9f-4554-a32e-4c58e6188802",
+  "imageGenerationId": "exec-67e45791-3d9f-4554-a32e-4c58e6188802",
+  "generatedAt": "2026-10-24T01:27:39.637661+00:00",
+  "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-tomahawk-generated-raw.png",
+  "rawSourceSha256": "c35109c7e8a1ec1b6b15e96f1820f77ad2f8a291cbf3253f3c2efb64fb37910a",
+  "prompt": "Use the supplied Nova Stitch reference. Create only one transparent RGBA 1536\u00d71024 sprite sheet for an unmistakable tomahawk dunk, fifteen full-body drawings in 5\u00d73 row-major cells. Each figure is Nova Stitch: fair-tan athletic human woman, long teal curly ponytail, teal jersey/shorts with purple-black trim, black knee pads, teal-black sneakers, same face and anatomy. No basketball at all (runtime adds it), no rim, other people, floor, shadows, text, checkerboard. Her right arm performs the specific tomahawk path: on approach her right hand is empty at waist; as she jumps, she sharply folds the right elbow and cocks the empty hand behind the back of her head; in the next airborne poses the hand is visibly behind the crown, elbow pointed up and back; then she snaps that same arm in one strong downward arc past the front of her head and shoulder, finishing extended downward at release frame 10. Do not use a straight overhead power-dunk reach; the distinctive behind-head cock and downward chop must dominate frames 5 through 11. Her left arm counterbalances. 15 sequence: 0 approach; 1 low gather; 2 plant; 3 takeoff; 4 rising, arm bent; 5 hand behind head; 6 highest cocked tomahawk; 7 begin chop; 8 arm cutting forward/down; 9 near extension; 10 full downward release; 11 downward follow-through; 12 descent; 13 landing; 14 recovery. Keep complete bodies inside cells and poses unique. Crisp limited-palette 1990s arcade pixel art, dark chunky outline, no glossy 3D/painterly style, no text. Return only transparent sprite sheet.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Accepted after review: the arm is visibly folded near the crown and follows a distinct chopping/forward-downward path; 15 complete Nova poses, no ball."
+  },
+  "eligibleForPacking": true,
+  "separateBall": true
+}

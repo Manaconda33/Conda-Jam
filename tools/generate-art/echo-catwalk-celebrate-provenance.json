@@ -1,0 +1,31 @@
+{
+  "athlete": "echo-catwalk",
+  "clip": "celebrate",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "eligibleForPacking": true,
+  "promptFile": "tools/generate-art/echo-catwalk-celebrate-prompt.md",
+  "prompt": "Use the attached Echo Catwalk sprite solely to match his identity and uniform. The athlete in every pose must be the SAME ADULT MAN shown in the reference: visibly masculine face and broad athletic shoulders, medium-brown skin, short spiky dark-teal hair, teal forehead band, unmistakable trimmed dark-teal beard and mustache. Never depict a woman, girl, ponytail, long hair, or clean-shaven person. Keep his exact teal sleeveless jersey and shorts with dark purple side trim, black knee pads, teal-black shoes and wristbands.\n\nCreate a 5-column by 2-row, row-major sheet of exactly ten unique complete full-body poses, transparent RGBA 1536x1024 pixel art, no backgrounds or props. Keep every pose the same compact athletic adult male, same costume, face, hair and beard, with exactly two arms and two legs. Be certain the beard is visible in each front/three-quarter view.\n\nA happy but controlled celebration after a made basketball basket, as a continuous sequence: small excited bounce; fists rise near chest; one arm lifts; both arms rise; brief upward hop; lands balanced; turns slightly to teammates; friendly proud point; lowers arms smiling; returns ready. No dunk, collision or injury. No ball or props; ball will be animated separately. Distinct clear poses with feet and hands visible, no clipped limbs or merged anatomy. Transparent alpha-zero background and gutters, no haze/checkerboard. Crisp 1990s arcade pixel clusters. Return only the sheet.",
+  "referenceImage": "public/assets/animation/echo-catwalk-fall-right.webp",
+  "review": {
+    "status": "accepted",
+    "notes": "Accepted generation retains Echo as a visibly adult male with the short dark-teal hair, teal headband, clear trimmed beard, teal uniform, knee pads and teal-black shoes. Ten celebration/recovery poses, consistent anatomy and identity; no ball."
+  },
+  "ballPolicy": "No ball in frames. Echo-specific ball path must be authored independently in the game runtime.",
+  "cleanup": "package-echo-action10.py isolates each pose component, removes surrounding background, and normalizes scale and baseline.",
+  "sourceSha256": "1f1f9d3f0706a38bd01e63047e5b0e24d1c90ffa10f74ca120deabdaafb648e2",
+  "generationHistory": [
+    {
+      "id": "exec-48e8ad3d-f6f6-422d-b10d-a3e5c7627188",
+      "status": "rejected",
+      "reason": "Generated a long-haired woman instead of Echo, despite matching palette.",
+      "sha256": "23186e1f507dea15568f64fafc1dee2dc948b25b4ea825ff573839012a32eeb8"
+    },
+    {
+      "id": "exec-43dc3c69-dc95-441e-8301-5ab3b0f73e28",
+      "status": "accepted",
+      "source": "tools/generate-art/sources/echo-catwalk-celebrate-generated-raw.png",
+      "sha256": "1f1f9d3f0706a38bd01e63047e5b0e24d1c90ffa10f74ca120deabdaafb648e2"
+    }
+  ]
+}

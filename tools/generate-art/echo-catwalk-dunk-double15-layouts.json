@@ -1,0 +1,262 @@
+[
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "dunk-double",
+    "src": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "echo-catwalk",
+      "clip": "dunk-double",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "eligibleForPacking": true,
+      "promptFile": "tools/generate-art/echo-catwalk-dunk-double-prompt.md",
+      "prompt": "Preserve Echo Catwalk as the same visibly adult MAN in every cell: medium-brown skin, short spiky dark-teal hair under teal headband, clear trimmed dark-teal beard and mustache, masculine face, compact athletic build, teal sleeveless jersey and shorts with dark-purple trim, black knee pads, teal-black shoes and wristbands. Never depict a woman, ponytail, long hair or clean-shaven athlete. Exactly two arms and legs. Right-facing original art.\n\nCreate exactly fifteen distinct complete full-body pose drawings in row-major order, five columns by three rows, on a 1536x1024 transparent RGBA sprite sheet. Keep bodies inside separated cells, broad transparent gutters. 1990s arcade pixel art, strong outlines. No background, court, hoop, floor, shadows, effects, words, other players, ball or props.\n\nEcho performs a two-handed double dunk: 0 right-running approach; 1 long stride; 2 reaches both empty hands to gather an imaginary ball; 3 cups both hands together at chest height; 4 jumps off one foot while keeping both hands together; 5 raises both hands overhead; 6 lifts knees at peak; 7 extends both arms straight toward the rim; 8 leans forward and reaches with both hands; 9 presses both empty hands down at the rim; 10 two-hand release pose with both hands open and empty; 11 strong two-arm follow-through; 12 descends; 13 lands on both feet, knees flexed; 14 balanced recovery stance. This must visibly be a two-handed finish throughout the dunk, not a one-handed dunk. Do not draw a basketball or any object between the hands. Echo's ball follows its own separate runtime track.\n\nKeep the same face, beard, body, uniform and scale throughout. Natural anatomy with two clear arms, two hands, legs and shoes. No clipped/merged figures. Alpha-zero background and gutters, no haze/checkerboard. Return only the sheet.",
+      "referenceImage": "public/assets/animation/echo-catwalk-dunk-power-right.webp",
+      "review": {
+        "status": "accepted",
+        "notes": "All 15 poses preserve Echo\u2019s male identity, beard, hairstyle, uniform, proportions and anatomy. Gather holds both empty hands together, followed by both-arm overhead extension and a clear two-hand release/follow-through. No basketball embedded."
+      },
+      "ballTrack": {
+        "owner": "echo-catwalk",
+        "art": "none; independent Echo-specific ball track"
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-echo-catwalk-dunk-double15.py",
+        "method": "Per-cell largest alpha>=32 athlete component plus its 2px antialias fringe, removing surrounding haze. Then pack isolated poses.",
+        "rawSourceSha256": "fa69afde7cfd55927af2131c7f4efbd833e4429a8a8b6ae61f9c7e14c40cbcc1",
+        "cleanedSource": "tools/generate-art/sources/echo-catwalk-dunk-double15.png",
+        "cleanedSourceSha256": "d4bf91aaf2da25adabea5eb9d1b7ee63a73594d1ce508caf7990fa2491395cbf"
+      },
+      "generationHistory": [
+        {
+          "id": "exec-c057bc86-c6e0-4c23-b1ab-c7334116b76d",
+          "status": "accepted",
+          "source": "tools/generate-art/sources/echo-catwalk-dunk-double-generated-raw.png",
+          "sha256": "fa69afde7cfd55927af2131c7f4efbd833e4429a8a8b6ae61f9c7e14c40cbcc1"
+        }
+      ],
+      "sourceImage": "tools/generate-art/sources/echo-catwalk-dunk-double15.png",
+      "sourceSha256": "d4bf91aaf2da25adabea5eb9d1b7ee63a73594d1ce508caf7990fa2491395cbf",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 34,
+          "y": 72,
+          "w": 217,
+          "h": 259,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 340,
+          "y": 72,
+          "w": 272,
+          "h": 256,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 664,
+          "y": 73,
+          "w": 260,
+          "h": 261,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1041,
+          "y": 65,
+          "w": 129,
+          "h": 269,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1300,
+          "y": 22,
+          "w": 174,
+          "h": 309,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 62,
+          "y": 354,
+          "w": 175,
+          "h": 331,
+          "component": 7
+        },
+        {
+          "sourceIndex": 6,
+          "x": 392,
+          "y": 349,
+          "w": 148,
+          "h": 320,
+          "component": 6
+        },
+        {
+          "sourceIndex": 7,
+          "x": 639,
+          "y": 369,
+          "w": 276,
+          "h": 310,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 941,
+          "y": 408,
+          "w": 284,
+          "h": 272,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1237,
+          "y": 447,
+          "w": 279,
+          "h": 238,
+          "component": 10
+        },
+        {
+          "sourceIndex": 10,
+          "x": 39,
+          "y": 701,
+          "w": 246,
+          "h": 312,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 349,
+          "y": 730,
+          "w": 238,
+          "h": 269,
+          "component": 13
+        },
+        {
+          "sourceIndex": 12,
+          "x": 685,
+          "y": 772,
+          "w": 190,
+          "h": 233,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 965,
+          "y": 774,
+          "w": 218,
+          "h": 231,
+          "component": 15
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1305,
+          "y": 727,
+          "w": 154,
+          "h": 278,
+          "component": 12
+        }
+      ],
+      "uniformScale": 0.27794561933534745,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "pass-overhead",
+    "src": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "e991a88d96fffe1181943241e1ee3ab4f0329f84fa2a2a2bc03628500c1ed82e"
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "f2bb263b7fbbe5496181fb7e6142afae7289780da07f7ccc1936c1e27ec3fb1a"
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96,
+        "hash": "88421d21db8561581c32a0295570826d95a1710239574921f929f24cf53b69fd"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "b57d7abf388535ef630df56478f87a029c1c6e63baf1f0ab164e046c3d982595"
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "410a8a08bfde498d58bee29c167e09f409d6f36636d1ce5fe4305c06bc3b34d0"
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96,
+        "hash": "f6a26fb90120d82325881b654954f8c32df6b7da6e07394c52ca70ccb91a3895"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "pass-overhead",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-e510a11e-7fd6-4e2c-940e-10d09e902d0d",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-pass-overhead-generated-raw.png",
+      "rawSourceSha256": "a2323c59d11488f8d0f34d501edd4d932886d734ebc3bf23a623688172a3452b",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-pass-overhead-generated-raw.png",
+      "sourceSha256": "a2323c59d11488f8d0f34d501edd4d932886d734ebc3bf23a623688172a3452b",
+      "eligibleForPacking": true,
+      "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and visual-style reference. Create an original 1536\u00d71024 transparent RGBA sprite sheet for JAMVERSE '96 with exactly six separate full-body Nova Stitch overhead-pass poses in a three-column by two-row grid, read left-to-right then top-to-bottom. Keep every pose inside its cell with clear transparent margins. Same player, facing right, camera, scale, proportions, outline and pixel-art palette in every cell. No background, court, floor, shadow, glow, lines, text, numbers, props, teammates or opponents.\n\nNova is a young athletic fair-tan woman with an individual expressive face and long curly teal hair in a high ponytail. She wears a teal basketball jersey and shorts with purple/black trim, black knee pads, teal-and-black sneakers and matching wristbands. Preserve the exact face, feminine athletic human anatomy, ponytail silhouette/color, outfit and footwear in every pose. Do not turn her into the reference athlete or recolor/add features. Both hands remain empty because the basketball is separate game art. Never draw a ball, sphere, seams or prop.\n\nAction: Nova prepares a high two-handed overhead pass, lifts the invisible ball above her crown with bent elbows, then releases it forward toward image-right and follows through. Exactly six distinct connected full-body poses:\n0 right-facing ready stance with hands low;\n1 gather the invisible ball at waist while stepping into position;\n2 bend knees and raise both hands above her head, elbows bent;\n3 single RELEASE at simulation tick7, arms extend upward/forward and hands open;\n4 lean into the pass with arms continuing forward from above the head;\n5 lower her arms into a balanced ready stance.\nNo other release or drawn ball. Keep arms, hands, ponytail and shoes complete, natural and unobstructed; do not let the overhead hands cover or clip the ponytail.\n\nMatch the tiny 2D arcade gameplay reference: crisp limited-palette 1990s pixel art and chunky dark outlines, no painterly, photoreal, 3D, glossy or anime rendering. All six figures must be fully visible in their cells, with true alpha-zero background/gutters and no matte or checkerboard. Return only the image.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Six distinct full-body Nova Stitch overhead-pass poses retain the exact teal-haired human identity and outfit. Pose3 is the sole overhead release at tick7; no ball is baked into the art."
+      },
+      "ballPolicy": "Nova-specific separate basketball follows overhead ball-miming hands and releases at frame3/tick7; never painted into the poses.",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 144,
+          "y": 17,
+          "w": 272,
+          "h": 485,
+          "component": 2,
+          "area": 81697
+        },
+        {
+          "sourceIndex": 1,
+          "x": 609,
+          "y": 43,
+          "w": 320,
+          "h": 459,
+          "component": 3,
+          "area": 76391
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1116,
+          "y": 14,
+          "w": 311,
+          "h": 491,
+          "component": 1,
+          "area": 81158
+        },
+        {
+          "sourceIndex": 3,
+          "x": 104,
+          "y": 520,
+          "w": 400,
+          "h": 487,
+          "component": 4,
+          "area": 90695
+        },
+        {
+          "sourceIndex": 4,
+          "x": 608,
+          "y": 538,
+          "w": 446,
+          "h": 469,
+          "component": 5,
+          "area": 89142
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1150,
+          "y": 551,
+          "w": 322,
+          "h": 456,
+          "component": 6,
+          "area": 78146
+        }
+      ],
+      "uniformScale": 0.18737270875763748,
+      "componentIsolation": true,
+      "packaging": "package-nova-pass-overhead6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses",
+      "atlasPath": "public/assets/animation/nova-stitch-pass-overhead-right.webp",
+      "atlasSha256": "b12b22f5e2df10fb6884226dd3c19137bb5fffbd5959b5877425338c8e692693",
+      "atlasBytes": 54734
+    }
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "athlete": "echo-catwalk",
+  "clip": "alley-oop-reverse",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "eligibleForPacking": true,
+  "promptFile": "tools/generate-art/echo-catwalk-alley-oop-reverse-prompt.md",
+  "prompt": "IDENTITY LOCK: Echo Catwalk is the ADULT MAN in the attached Echo Catwalk reference sprite. Use that exact adult male person, with the same masculine face, medium-brown skin, short spiky dark-teal curls, teal forehead band, and clearly visible trimmed dark-teal beard and mustache. Same compact athletic male body and teal sleeveless uniform with dark-purple trim, black knee pads, teal-black shoes and wristbands. All 15 poses must be this man. Do not depict a woman, girl, ponytail, long hair or clean-shaven athlete.\n\nCreate a transparent RGBA 1536x1024 sheet, strict row-major five columns by three rows, exactly fifteen complete full-body poses. Right-facing source. Each cell contains one separate Echo figure, fully in frame. Crisp 1990s arcade pixel art, clean outlines. No checkerboard, backdrop, court, hoop, shadows, text, effects, teammate, opponent, ball or props.\n\nAction: reverse alley-oop. 0 runs right; 1 moves beneath a pass and looks up; 2 plants; 3 jumps with both hands reaching upward; 4 catches the imaginary pass with two empty hands above head; 5 brings empty hands together at chest; 6 holds imaginary ball near one shoulder; 7 turns his back toward hoop; 8 rotates under rim, ball-hand behind head; 9 extends behind head for reverse finish; 10 open empty hand releases at the rim; 11 follows through while back-facing; 12 rotates forward during descent; 13 lands flexed; 14 stands ready. Pose sequence must visibly show the two-hand catch and a back-facing reverse finish. No actual ball or other objects; Echo's basketball trajectory is separately controlled by his own runtime track.\n\nKeep male anatomy, beard, hair, same teal kit, limb count and proportions consistent in every cell. No body overlaps or cropping. True alpha-zero transparent background and gutters. Return only the sheet.",
+  "referenceImage": "public/assets/animation/echo-catwalk-pass-right.webp",
+  "review": {
+    "status": "accepted",
+    "notes": "Accepted sheet contains the correct adult male Echo with short dark-teal hair, headband and clearly visible beard in all poses; two-hand aerial catch, back-facing rotation, behind-head reverse release and recovery. First image was rejected as a long-haired woman with checkerboard transparency, not Echo."
+  },
+  "ballTrack": {
+    "owner": "echo-catwalk",
+    "art": "none; independent Echo-specific alley-oop runtime track",
+    "notes": "Keep Echo receiver track separate from passer and opponent; no ball baked in atlas."
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-echo-catwalk-alley-oop-reverse15.py",
+    "method": "Per-cell largest alpha>=32 athlete component plus 2px antialias fringe; remove generated background and pack isolated poses.",
+    "rawSourceSha256": "3ec42a2bda69e8e7bd6706ab2a2845215bf2030679729becf8c01c6fd203ab47",
+    "cleanedSource": "tools/generate-art/sources/echo-catwalk-alley-oop-reverse15.png",
+    "cleanedSourceSha256": "eaa97f67d7b3a32c7ad59a5294ccc7a7d6893fd818af87e6157823b2de663026"
+  },
+  "generationHistory": [
+    {
+      "id": "exec-542d1ccd-381a-4407-9c2e-acd5278fa276",
+      "status": "rejected",
+      "reason": "Wrong athlete identity: generated a long-haired woman resembling Juniper and rendered checkerboard background.",
+      "source": "tools/generate-art/sources/echo-catwalk-alley-oop-reverse-attempt1-rejected-raw.png",
+      "sha256": "219250f0b2cf63f8f91b30ac0699fc0766993a55f72e6a9f26592e414ba2776c"
+    },
+    {
+      "id": "exec-521864de-4e7d-4461-892f-ffade55a610b",
+      "status": "accepted",
+      "source": "tools/generate-art/sources/echo-catwalk-alley-oop-reverse-generated-raw.png",
+      "sha256": "3ec42a2bda69e8e7bd6706ab2a2845215bf2030679729becf8c01c6fd203ab47"
+    }
+  ]
+}

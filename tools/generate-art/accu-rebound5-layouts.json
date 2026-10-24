@@ -1,0 +1,136 @@
+[
+  {
+    "athlete": "accu",
+    "direction": "right",
+    "clip": "rebound",
+    "src": "./public/assets/animation/accu-rebound-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "accu",
+      "clip": "rebound",
+      "direction": "right",
+      "canonicalSection": "J.10",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-5447e0cd-a5dc-40c6-b3b9-4ee95ed0dc73",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/accu-rebound-generated-clean.png",
+      "sourceSha256": "57f8580c573281b76f3d20c76067a78c0f9976085ca61bf5612cc360b39afa64",
+      "promptFile": "tools/generate-art/accu-rebound-prompt.md",
+      "prompt": "Using the attached Accu sprite as the direct identity reference: copy her black hair, teal hair ties, tan face, green eyes, body silhouette and black/teal/violet uniform. Accu must have black hair (NOT turquoise hair), blunt straight black bangs, shaved close sides, and two separate long black ponytails tied with small teal ties. Her uniform must be black (NOT blue), with teal and violet piping. Keep her human anatomy and athletic proportions. Draw exactly five distinct complete right-facing frames for a REBOUND action, arranged in strict 3 columns by 2 rows, row-major, last cell blank. Frame 0 looks up and sets feet, 1 jumps, 2 reaches both empty hands high, 3 reaches at peak tick 5, 4 lands in a low balanced stance. The game draws the basketball separately. DO NOT draw a basketball, sphere, object, other person, hoop, or court. Hands empty. Blank jersey without numbers/words/logos. Real transparent PNG, full alpha transparent background; absolutely no checkerboard and no backdrop. Pixel art, outline, consistent size and baseline, clean cell separation.",
+      "ballTrack": {
+        "height": [
+          1.0,
+          1.55,
+          2.15,
+          2.45,
+          1.45
+        ],
+        "forward": [
+          3,
+          5,
+          8,
+          0,
+          0
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-accu-rebound-checker.py",
+        "method": "remove border-connected neutral checker pixels"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Five distinct full-body right-facing Accu rebound poses with matching black/teal/violet kit, black ponytail style and green eyes; no ball appears in source; separate Accu ball trajectory documented."
+      },
+      "rejectedGenerations": [
+        {
+          "generationId": "exec-041d10e6-daa4-44a1-aa22-a3254a2a67ae",
+          "reason": "wrong teal hair and blue uniform"
+        }
+      ],
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 85,
+          "y": 139,
+          "w": 350,
+          "h": 368,
+          "component": 3,
+          "area": 57911
+        },
+        {
+          "sourceIndex": 1,
+          "x": 592,
+          "y": 75,
+          "w": 269,
+          "h": 439,
+          "component": 2,
+          "area": 62374
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1088,
+          "y": 13,
+          "w": 368,
+          "h": 498,
+          "component": 1,
+          "area": 64101
+        },
+        {
+          "sourceIndex": 3,
+          "x": 102,
+          "y": 509,
+          "w": 402,
+          "h": 502,
+          "component": 4,
+          "area": 68550
+        },
+        {
+          "sourceIndex": 4,
+          "x": 589,
+          "y": 655,
+          "w": 356,
+          "h": 354,
+          "component": 5,
+          "area": 61579
+        }
+      ],
+      "uniformScale": 0.18326693227091634,
+      "componentIsolation": true,
+      "packaging": "package-action5.py; 80x96 cells; baseline94; lossless WebP; 5 original rebound poses"
+    }
+  }
+]

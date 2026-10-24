@@ -1,0 +1,264 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "alley-oop-reverse",
+    "src": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "906dc433912120f39191469adfb095349fd2884b90228c8432f5754db49234ea"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "041741d58f9dc2eb203abb5b84b9f9271116cc8c67b30d7a05b44df16dae930f"
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "0350ac96e9f5961fe53a2febb07cfe1b71098697641be1f1d467ed29dc310f8e"
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "506bb8bd8ebb98b4f0634e6236c1f8b7ef98543c27b835bffed9336f48572352"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "46c3aa28069b1d3ca362759857606ea5dd1556b323ba540d2df5f6c57ff3f686"
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "84a326d5a0a650c0a6e1a8c8b1ee80dfac75a711c9c8daef410ed2dbbcf49d15"
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "a9a10672ff55ee3fc68677d726a35e902c6bee87ee55176c7d7272d3eeb21e7b"
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "a6bbaf061592a96ff439fcb798d7a39704abc8ddb16acc06d8d0c344f57202ee"
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "3c6d206bc086367b9df235b3e616fc9951072c31922b71f9f040b26a535d35f9"
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "0c8ff9b88dc021ad61c6101d59e89dcee144213297c07ba631c67cfd18d6ab1b"
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "9dcde4a1f5888a52ab43ac18cc1c6ce198f15294eab9e269c22395d10350f20c"
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "9542a34427990602b1b6a49bc379d7288c42a549f1205ae65f88de69b5d0fcd2"
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "47d9e95b4ecfce79b9dd29166355fc50d916fc6c8b18e42535468ce73431ebc2"
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "86aedbe3073c33c2a31dbbf78e4a08ad1e1d5ed003da295731a889881ade6e96"
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "c78623e931ed326a972d79b5551ccbe7140ea7e84bf51e04d05be9daf6a4314d"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "alley-oop-reverse",
+      "direction": "right",
+      "generationId": "exec-09417cf1-7db4-4f39-82e6-f7426cb71041",
+      "imageGenerationId": "exec-09417cf1-7db4-4f39-82e6-f7426cb71041",
+      "generatedAt": "2026-10-24T01:35:08.717121+00:00",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-alley-oop-reverse-generated-raw.png",
+      "rawSourceSha256": "caf71ef3ab374a3913322b8e461d9e76c50a99be72ddbcd131c0689caa8bc890",
+      "prompt": "Use the supplied Nova Stitch sprite as exact identity and style reference. Make a true transparent 1536\u00d71024 RGBA sheet with fifteen distinct complete full-body Nova poses in strict 5 columns by 3 rows, row-major, for an alley-oop reverse dunk. Nova is the same fair-tan athletic human woman, face, long curly teal high ponytail, teal jersey/shorts purple-black trim, black knee pads, teal-black shoes, wristbands. Preserve proportions, costume, hair and camera. One character per cell, no passer/teammate. No basketball or hoop: separate runtime ball is delivered as an overhead lob and then follows Nova's hands; empty hand only. Frames0-1 move into lane and look up; frames2-4 reach up at an incoming lob; frame5 clearly catches overhead with right hand; frames6-7 gather the invisible ball and rotate shoulders and hips away from rim/viewer, showing her back and ponytail; frames8-9 carry the empty ball hand behind and around her crown while staying turned away; frame10 is a clear behind-the-head reverse release from the far side; frames11-12 follow through and unwind during descent; frames13-14 land and recover. The backwards turn and behind-crown reverse finish must be visually distinct from a front-facing power dunk. Fifteen unique connected full-body poses, no duplicate drawings, anatomy correct, full hair/shoes within cell. Right-facing start, back-facing airborne mid-action, right-facing finish. Crisp limited-palette 1990s arcade pixel art with chunky outline, not 3D, anime, glossy or painterly. No background, court, floor, shadow, glow, text, ball, border, checkerboard or matte. Return only sprite sheet.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen distinct full-body poses reviewed; overhead catch at frame5, shoulders turn away for far-side reverse release at frame10, stable Nova identity and no visible ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceImage": "tools/generate-art/sources/nova-stitch-alley-oop-reverse-generated-raw.png",
+      "sourceSha256": "caf71ef3ab374a3913322b8e461d9e76c50a99be72ddbcd131c0689caa8bc890",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 44,
+          "y": 74,
+          "w": 244,
+          "h": 269,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 373,
+          "y": 80,
+          "w": 223,
+          "h": 263,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 687,
+          "y": 82,
+          "w": 212,
+          "h": 270,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 967,
+          "y": 5,
+          "w": 201,
+          "h": 346,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1255,
+          "y": 1,
+          "w": 223,
+          "h": 348,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 52,
+          "y": 336,
+          "w": 253,
+          "h": 364,
+          "component": 7
+        },
+        {
+          "sourceIndex": 6,
+          "x": 371,
+          "y": 365,
+          "w": 209,
+          "h": 329,
+          "component": 9
+        },
+        {
+          "sourceIndex": 7,
+          "x": 674,
+          "y": 361,
+          "w": 206,
+          "h": 337,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 986,
+          "y": 370,
+          "w": 205,
+          "h": 330,
+          "component": 11
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1297,
+          "y": 365,
+          "w": 199,
+          "h": 320,
+          "component": 10
+        },
+        {
+          "sourceIndex": 10,
+          "x": 44,
+          "y": 704,
+          "w": 295,
+          "h": 319,
+          "component": 13
+        },
+        {
+          "sourceIndex": 11,
+          "x": 358,
+          "y": 715,
+          "w": 273,
+          "h": 301,
+          "component": 15
+        },
+        {
+          "sourceIndex": 12,
+          "x": 668,
+          "y": 706,
+          "w": 208,
+          "h": 305,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 968,
+          "y": 758,
+          "w": 241,
+          "h": 253,
+          "component": 16
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1264,
+          "y": 700,
+          "w": 199,
+          "h": 304,
+          "component": 12
+        }
+      ],
+      "uniformScale": 0.25274725274725274,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "atlasPath": "public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+      "atlasSha256": "9df12399f18c813cd04236739508da74ba50f6e77ea6c805324789a77982ccc0",
+      "atlasBytes": 55082
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "athlete": "nova-stitch",
+  "clip": "receive",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-59c48b35-31ba-4992-b770-2aa09d7ac12d",
+  "rawSourceImage": "tools/generate-art/sources/nova-stitch-receive-generated-raw.png",
+  "rawSourceSha256": "fc5d1f69a7b96d9415841112fd7216756fade5e29cbbdc89813057d24731791e",
+  "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-receive-generated-raw.png",
+  "sourceSha256": "fc5d1f69a7b96d9415841112fd7216756fade5e29cbbdc89813057d24731791e",
+  "eligibleForPacking": true,
+  "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and pixel-style reference. Create an original 1536\u00d71024 transparent RGBA sprite sheet for JAMVERSE '96 with exactly four separate complete full-body Nova Stitch receiving poses in a strict two-column by two-row grid, read left-to-right, then top-to-bottom. Use the full canvas and keep each pose inside one clear cell. Same athlete, right-facing direction, camera, scale, human anatomy, outline, color palette and lighting in every cell. No background, court, floor, shadow, glow, text, number, prop, teammate or opponent.\n\nNova is a young athletic fair-tan woman with an individual expressive face and long curly teal high ponytail. She wears a teal jersey and shorts with purple/black trim, black knee pads, teal-and-black sneakers and matching wristbands. Keep this identity and clothing consistent in all poses. Preserve natural hands and arms. Both hands are empty in the drawings because the basketball is separate gameplay art; never paint a ball, circle, seams, orb or prop.\n\nAction: Nova braces and catches a separately rendered incoming chest-high basketball with both hands. Exactly four unique connected poses:\n0 right-facing ready stance, hands down and eyes tracking the incoming pass;\n1 raise both hands in front of her chest, elbows bent, prepare to catch;\n2 CATCH at simulation tick4: both open hands close around the incoming-ball position at chest height;\n3 absorb the catch, elbows bend inward and hands settle at chest height holding no painted object.\nNova faces right; receiver hand position must align at pose2, then remain controlled. No extra pose or duplicate frame.\n\nMatch the supplied tiny 2D gameplay reference: crisp limited-palette 1990s arcade pixel art with chunky dark outlines, not painterly, photorealistic, 3D, glossy or anime. Keep ponytail, hands, body and shoes fully within each cell. True alpha-zero background and gutters, no matte or checkerboard. Return only the image.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Four distinct complete Nova Stitch catch poses retain her human teal-haired identity and kit. Pose2 catches at tick4; component isolation removes the generator\u2019s small detached ball glyph so the packaged hands remain empty and basketball stays separate."
+  },
+  "ballPolicy": "The separately rendered Nova ball meets both hands at the tick4 catch, remains held through frame3; no ball is present in the packaged sprite poses.",
+  "atlasPath": "public/assets/animation/nova-stitch-receive-right.webp",
+  "atlasSha256": "fd8eaff491d2c226d8054a42ac1d1d272ce9c4771b124e810c19de275509b998",
+  "atlasBytes": 40016
+}

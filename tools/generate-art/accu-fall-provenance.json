@@ -1,0 +1,54 @@
+{
+  "athlete": "accu",
+  "clip": "fall",
+  "direction": "right",
+  "canonicalSection": "J.10",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-d97582f0-aed2-433d-b933-ebafad2614aa",
+  "sourceImage": "tools/generate-art/sources/accu-fall-generated-clean.png",
+  "sourceSha256": "c34ad9f7aa585fe90ae534b426cbc6d5d72a531774c99e61d212cd2891e4d7c7",
+  "promptFile": "tools/generate-art/accu-fall-prompt.md",
+  "prompt": "Using the attached Accu sprite as the direct identity reference: reproduce the same visibly female character, warm tan skin, bright green eyes, blunt straight black bangs, sides clipped short, two long flowing black ponytails tied with teal bands, fitted sleeveless black jersey and shorts with teal/violet piping, black leg tights and arm sleeves, teal/violet sneakers. She is a young adult human woman. Create exactly ten complete full-body frames in five columns by two rows, no extra row, each cell one figure, row-major. RIGHT-facing controlled FALL sequence: 0 starts to lose balance, 1 stumbles, 2 bends and reaches toward floor, 3 falls safely onto side, 4 seated recovery, 5 plants a hand and pushes up, 6 kneels, 7 crouches, 8 rises, 9 standing ready. Hands empty. No basketball/object/opponent. No court, shadow, text or logos. Real transparent RGBA background, no checkerboard, blank outside figures. Crisp 1990s arcade pixel art, consistent Accu face, body and hairstyle in all ten poses.",
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "forward": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-accu-fall-background.py",
+    "method": "remove border-connected near-white background pixels"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Ten distinct complete Accu poses show controlled fall and recovery progression. Black hair with teal ties, black/teal/violet uniform, human woman anatomy, empty hands; no ball."
+  },
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-d3588657-d0be-41fe-8215-9a5c79b4c908",
+      "reason": "wrong purple-curly-haired numbered male character, fifteen figures"
+    }
+  ]
+}

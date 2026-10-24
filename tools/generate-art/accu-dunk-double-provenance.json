@@ -1,0 +1,76 @@
+{
+  "athlete": "accu",
+  "clip": "dunk-double",
+  "direction": "right",
+  "canonicalSection": "J.10",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-5534d846-6319-4986-9173-40eefa424b58",
+  "sourceImage": "tools/generate-art/sources/accu-dunk-double-generated-clean.png",
+  "sourceSha256": "0b7447aed52a5184d5c04eefff7bb5d9f7c11ffd39694ac801e38830810f07bf",
+  "promptFile": "tools/generate-art/accu-dunk-double-prompt.md",
+  "prompt": "Using attached Accu identity, generate exactly 15 complete Accu two-handed DUNK-DOUBLE poses in a strict 5-column \u00d7 3-row sheet, row-major. Accu is a young adult human woman, warm tan skin, green eyes, blunt black bangs, clipped sides, two long black ponytails tied teal, black sleeveless sports uniform with teal/violet piping, black tights and arm sleeves, teal/violet sneakers. Preserve face, hair, anatomy. Keep each figure fully within its cell; center with margins and consistent scale. Action: 0 approaches right; 1 gathers; 2 takeoff tick4; 3 rises; 4 brings both hands together at waist around imaginary ball; 5 lifts two empty hands in front of chest; 6 raises both arms overhead; 7 peak tick14 with both hands high; 8 stretches toward imaginary rim; 9 two-hand dunk reach; 10 release tick21 with both empty palms pushing through empty rim lane; 11 follow-through tick23 with arms lowering; 12 descends; 13 lands bent knees; 14 recovers. Keep two separate arms/hands and two legs. No fused or missing limbs. No ball, sphere, hoop, rim, object, prop or held item; game ball is separate. No other people, court, floor, shadow, background, text, number, logo, effects or dividers. Blank kit. True transparent RGBA, not checkerboard; crisp outlined 1990s arcade pixel art. Return only the sheet.",
+  "timing": {
+    "takeoffFrame": 2,
+    "takeoffTick": 4,
+    "peakFrame": 7,
+    "peakTick": 14,
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "finishFrame": 11,
+    "finishTick": 23,
+    "landFrame": 14,
+    "landTick": 30
+  },
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.15,
+      1.4,
+      1.8,
+      2.1,
+      2.3,
+      2.5,
+      2.6,
+      2.35,
+      1.9,
+      1.55,
+      1.3,
+      1.0,
+      0.75,
+      0.65
+    ],
+    "forward": [
+      6,
+      8,
+      10,
+      11,
+      9,
+      7,
+      5,
+      5,
+      7,
+      10,
+      13,
+      12,
+      9,
+      7,
+      6
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-accu-motion-background.py",
+    "method": "remove edge-connected neutral checkerboard pixels"
+  },
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-542d1ccd-381a-4407-9c2e-acd5278fa276",
+      "reason": "lower legs clipped in several frames"
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Accepted 15 distinct full-body Accu poses show two-handed gather and slam, all limbs complete. Identity and uniform palette consistent. No ball or prop; separate Accu-specific ball track recorded."
+  }
+}

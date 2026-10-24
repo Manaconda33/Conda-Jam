@@ -1,0 +1,26 @@
+{
+  "athlete": "echo-catwalk",
+  "clip": "fall",
+  "generationId": "exec-08cb79cb-f965-4e8c-88e6-1a8d656c76a2",
+  "promptFile": "tools/generate-art/echo-catwalk-fall-prompt.md",
+  "referenceImage": "public/assets/animation/echo-catwalk-pass-right.webp",
+  "review": {
+    "status": "accepted",
+    "notes": "Accepted: all ten frames show Echo Catwalk as a medium-brown adult man with teal headband, short dark-teal hair, trimmed beard, teal kit, knee pads and teal-black shoes. Continuous controlled fall and recovery, no ball or props. Figure scale/identity remain consistent. Source rendered a dark background despite transparency request; component isolation packaging removes it."
+  },
+  "ballPolicy": "No ball in frames. Echo-specific ball track must be authored independently in the game runtime; this atlas contains no ball.",
+  "cleanup": "package-echo-action10.py performs per-pose connected-component isolation, transparent-background cleanup, uniform scale and baseline placement.",
+  "generationHistory": [
+    {
+      "id": "exec-08cb79cb-f965-4e8c-88e6-1a8d656c76a2",
+      "status": "accepted",
+      "source": "tools/generate-art/sources/echo-catwalk-fall-generated-raw.png",
+      "sha256": "3cf9271976ceff730e6eaafd22a8ff93f551f4de4cd51b6ffdfb9b5c0abea25b"
+    }
+  ],
+  "prompt": "Use the Echo Catwalk reference only for exact identity, face, hair, beard, uniform and scale. Create ten distinct complete full-body fall-and-recovery poses in 1536\u00d71024 transparent RGBA pixel art, strict five columns by two rows, row-major. Each figure clear and inside its cell. No court, floor, background, shadow, text, opponent or props.\n\nEcho is a compact athletic ADULT HUMAN MAN, medium-brown skin, short spiky dark-teal curls, teal headband, trimmed dark-teal beard, teal sleeveless jersey/shorts with black-deep-purple trim, black knee pads, teal-black shoes, wristbands. Preserve his face, male anatomy, hair, beard and kit. Exactly two natural arms/hands, legs/shoes.\n\nA controlled gameplay knockdown from a stumble, followed by immediate safe recovery. Ten connected poses:\n0 balanced run interrupted, torso twists, arms counterbalance;\n1 loses balance to one side, knees bend;\n2 lowers toward a controlled knee/hip fall;\n3 seated side-fall with one palm bracing on ground, no pain or injury;\n4 briefly curled side position, legs tucked but anatomically clear;\n5 rolls upright to one knee;\n6 plants one foot and pushes up;\n7 rises through crouch;\n8 returns upright with balanced feet and arms lowering;\n9 stable ready stance. Make this a continuous valid human action, not a crawling/prone pose in normal play. One deliberate low frame only; never distort, flatten or merge limbs.\n\nAll ten distinct full bodies; same scale and identity, no clipped limbs/hair. No ball or props. Transparent alpha-zero background/gutters, no haze/checkerboard. Crisp 1990s arcade pixel clusters. Return only the sheet.",
+  "generatedAt": "2026-10-24",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "sourceSha256": "3cf9271976ceff730e6eaafd22a8ff93f551f4de4cd51b6ffdfb9b5c0abea25b"
+}

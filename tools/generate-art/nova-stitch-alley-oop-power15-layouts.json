@@ -1,0 +1,264 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "alley-oop-power",
+    "src": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "9b2f3cd1242661a628e568adf8c09ccb1137be777c4178212006b233589509d4"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "e6d6a0aabfec752f23d0b7933a3532611ec95b220254dd5220554747283290c6"
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "56827039a04a45866fbbb369953bd1f7e0f893813c0cf174e9145257f6ad2ebf"
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "965d2eff58ed2468618aff7dd4004a80dc60af8984565f1ede9356d63f9b9271"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "72cacd8b55eaac670ee8d635c6368417296988f5261d4c36910dabe3aa01dc64"
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "3ef71534f2756c42180c17d1b1c75e91baaf44db5a1469c0774cb308c40584bc"
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "44f6866ff0c95699ed1dd6e04940f811d7813c2c2f3e1d79db74c61e137eb80f"
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "8e2731ce2cf67e3d08be5889c669085285eed326256fbbe2caa1cb5d897db6c8"
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "ea57e1df60252109f322b8b994b311ede51ccc5fa6027d63d95ee3c4b72604aa"
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "1b8479a4ccb17d8b50da8ff18cb6134e756a30736b3520a322ec6cd2c0e9af1c"
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "d2d34703a92d2a042fc0cbf8650752e762a7c31791f8e3f89e05c44bf10d80a0"
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "ce6aa21e82a11e6a48d78a3c8a6afdcd02948a0625460107c23299d8a529bef9"
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "c3af88c8c502819f5e4d30975305116f537e6c8904a5f8740b2db230ba44009b"
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "736fc3cf24bbee28113b9d4d0a8973a5b027aeceaf354c27a7bd493d2e96b6aa"
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "133834ae6c4c341327d74ae639bfde2f73960e2ad953e0107d5a57fd5b913058"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "alley-oop-power",
+      "direction": "right",
+      "generationId": "exec-d65a4e01-3a67-4591-8037-bb25e00c3256",
+      "imageGenerationId": "exec-d65a4e01-3a67-4591-8037-bb25e00c3256",
+      "generatedAt": "2026-10-24T01:33:44.467927+00:00",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-alley-oop-power-generated-raw.png",
+      "rawSourceSha256": "6dd69d5e0cd66a859b66512a68b5bf42c186b0f40ac5f1d44b395de4a574908d",
+      "prompt": "Use the supplied Nova Stitch image only as identity/style reference. Make a true transparent RGBA 1536\u00d71024 sprite sheet of exactly fifteen distinct complete full-body poses in a five-column by three-row row-major grid for Nova\u2019s alley-oop power dunk. Same fair-tan athletic human woman with face, long curly teal high ponytail, teal jersey and shorts with purple/black trim, black knee pads, teal-black shoes and wristbands. Consistent right-facing human anatomy, outfit, camera and scale. One Nova per cell, no teammate or passer. Do NOT draw a basketball or hoop: separate runtime ball track supplies the lob, and hands are empty after catch/release. Sequence follows one continuous lob catch to compact power dunk. Frames0-1 run into lane and look up; frames2-4 reach toward incoming high lob; frame5 is unmistakable two-hand/right-hand catch pose with arms up and eyes tracking; frames6-7 bring invisible ball close to chest while airborne; frames8-9 gather then extend upward; frame10 high one-hand power dunk release, empty hand reaches rim-height; frames11-12 follow through and descend; frames13-14 land and recover. Keep every full body, ponytail, fingers, shoes visible. Poses distinct. No background, floor, shadow, glow, text, rim, ball, border, gridline, checkerboard or matte; transparent alpha zero. Crisp 1990s limited-palette arcade pixel art with chunky dark outlines, not glossy, photorealistic, anime, painterly or 3D. Return only the sprite sheet.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen distinct full-body poses reviewed; lob catch reaches overhead at frame5, compact gather and power release at frame10; consistent Nova identity, no visible ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceImage": "tools/generate-art/sources/nova-stitch-alley-oop-power-generated-raw.png",
+      "sourceSha256": "6dd69d5e0cd66a859b66512a68b5bf42c186b0f40ac5f1d44b395de4a574908d",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 27,
+          "y": 52,
+          "w": 240,
+          "h": 287,
+          "component": 5
+        },
+        {
+          "sourceIndex": 1,
+          "x": 333,
+          "y": 49,
+          "w": 227,
+          "h": 289,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 646,
+          "y": 46,
+          "w": 260,
+          "h": 300,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 963,
+          "y": 15,
+          "w": 254,
+          "h": 336,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1269,
+          "y": 30,
+          "w": 243,
+          "h": 332,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 27,
+          "y": 352,
+          "w": 249,
+          "h": 328,
+          "component": 10
+        },
+        {
+          "sourceIndex": 6,
+          "x": 352,
+          "y": 394,
+          "w": 209,
+          "h": 259,
+          "component": 12
+        },
+        {
+          "sourceIndex": 7,
+          "x": 655,
+          "y": 399,
+          "w": 228,
+          "h": 271,
+          "component": 13
+        },
+        {
+          "sourceIndex": 8,
+          "x": 970,
+          "y": 367,
+          "w": 219,
+          "h": 319,
+          "component": 11
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1269,
+          "y": 330,
+          "w": 232,
+          "h": 379,
+          "component": 9
+        },
+        {
+          "sourceIndex": 10,
+          "x": 35,
+          "y": 679,
+          "w": 246,
+          "h": 329,
+          "component": 15
+        },
+        {
+          "sourceIndex": 11,
+          "x": 363,
+          "y": 713,
+          "w": 225,
+          "h": 299,
+          "component": 16
+        },
+        {
+          "sourceIndex": 12,
+          "x": 672,
+          "y": 756,
+          "w": 205,
+          "h": 256,
+          "component": 18
+        },
+        {
+          "sourceIndex": 13,
+          "x": 970,
+          "y": 758,
+          "w": 214,
+          "h": 254,
+          "component": 19
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1278,
+          "y": 717,
+          "w": 216,
+          "h": 295,
+          "component": 17
+        }
+      ],
+      "uniformScale": 0.24274406332453827,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "atlasPath": "public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+      "atlasSha256": "5f8104533085872f04a517e9fa67ff8a7b3f3cbcf2a4bfdee57024857608c940",
+      "atlasBytes": 53136
+    }
+  }
+]

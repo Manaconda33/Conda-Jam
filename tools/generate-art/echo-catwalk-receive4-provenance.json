@@ -1,0 +1,38 @@
+{
+  "athlete": "echo-catwalk",
+  "clip": "receive",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-9c572a15-ebb3-4cd5-a578-9715a48253d6",
+  "imageGenerationId": "exec-9c572a15-ebb3-4cd5-a578-9715a48253d6",
+  "rawSourceImage": "tools/generate-art/sources/echo-catwalk-receive-generated-raw.png",
+  "rawSourceSha256": "c827ea388521c5506255d14685fa46793d7cc0a00988e9ad46ee8552f22a559f",
+  "sourceImage": "tools/generate-art/sources/echo-catwalk-receive-generated-raw.png",
+  "sourceSha256": "c827ea388521c5506255d14685fa46793d7cc0a00988e9ad46ee8552f22a559f",
+  "promptFile": "tools/generate-art/echo-catwalk-receive-prompt.md",
+  "prompt": "Use the referenced Echo Catwalk sprite art only for identity, face, colors and scale, never to copy a pose. Create four new complete Echo poses in a 1536\u00d71024 transparent RGBA pixel-art sheet, strict two-column by two-row, row-major. No floor, court, background, grid, text, ball or props. Maintain broad transparent space around each entire body.\n\nEcho is the reference's compact athletic adult human man: medium-brown skin, short spiky dark-teal curls, teal headband, close dark-teal beard, teal sleeveless jersey with black/deep-purple trim, teal shorts, black knee pads, teal-black basketball shoes and wristbands. Preserve his face, male anatomy, hair, beard and uniform consistently. Exactly two arms/hands, two legs/shoes. His hands remain empty; the ball is game art rendered separately.\n\nRight-facing receiving sequence:\n0 balanced ready stance, elbows bent and empty hands open at chest height for an incoming pass;\n1 anticipates the pass, hands spread on either side of the invisible ball, torso leans forward;\n2 CATCH at simulation tick4: empty hands draw inward as elbows bend to cushion the impact, feet planted;\n3 settles into secure empty-handed possession stance, arms relax toward the chest.\n\nFour distinct connected full-body poses, action clear without any drawn ball. Clean silhouette, no clipped hair or limbs; alpha-zero transparent background and gutters, no haze or checkerboard. Crisp 1990s arcade pixel clusters. Return only the sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Echo-specific ball arrives in front of open hands and is caught at frame2/tick4, then follows his chest to possession. Never drawn into poses.",
+  "ballTrack": {
+    "height": [
+      1.2,
+      1.35,
+      1.4,
+      1.2
+    ],
+    "forward": [
+      4,
+      8,
+      11,
+      7
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Four distinct complete male Echo Catwalk poses. Empty hands open to the pass, cushion the invisible catch at frame2/tick4, then settle into possession."
+  }
+}

@@ -1,0 +1,187 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "layup-reverse",
+    "src": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "clip": "layup-reverse",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-240ac8ef-79fe-480e-b364-db17dd1d9ba6",
+      "imageGenerationId": "exec-240ac8ef-79fe-480e-b364-db17dd1d9ba6",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-layup-reverse8-generated-raw.png",
+      "sourceSha256": "94fac73c0b534ca4dfb9e43fd434e806081f88913921f5d1705cfd97e71b2f78",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-layup-reverse8-generated-raw.png",
+      "rawSourceSha256": "94fac73c0b534ca4dfb9e43fd434e806081f88913921f5d1705cfd97e71b2f78",
+      "prompt": "Create one original 1536\u00d71024 true-transparent RGBA production spritesheet for Moxie Capwell of Moonmorel Hex performing a right-facing reverse layup. Follow the supplied canon portrait and gameplay references. She is an adult human woman with pale skin, lavender-purple eyes, very long thick lavender hair in a high ponytail with a small gold hair tie, athletic mature proportions, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Maintain her face, eyes, ponytail silhouette, gold tie, kit palette and normal human anatomy in all poses. No witch hat, beard, male, monster, robot or replacement character.\n\nDraw clean chunky late-1990s arcade pixel-cel basketball art with consistent scale and camera. Exactly eight distinct complete full-body poses in a strict 4-column by 2-row, left-to-right row-major grid. Broad true-transparent gutters and outer margins; no pose may overlap or clip its hair, hand, foot or shoes. The basketball is separate and never drawn. No ball, sphere, seams, hoop, rim, floor, court, shadow, glow, effects, text, labels, borders, teammate or scenery. Hands always empty.\n\nThe action is a reverse-side finish, clearly different from a normal layup:\n0 approach toward the basket from the right;\n1 gather and plant, eyes toward the basket;\n2 drive up off the outside leg, knees rising;\n3 in the air, turn shoulders away from the rim while taking the invisible ball around the body;\n4 reach backward with the far-side shooting hand behind the head, ponytail stays distinct;\n5 single reverse-layup RELEASE at simulation tick12, arm extends backward/up toward the opposite side of the rim, palm visibly open and empty;\n6 continue empty-handed reverse-side follow-through as the torso unwinds;\n7 land under control, knees flexed, recover to a ready stance.\n\nKeep the entire ponytail and gold tie visible. Do not let the shooting arm cross or conceal her eyes. Use physically believable athletic movement and distinct poses with a readable torso turn. No character or uniform redesign. Return only one transparent RGBA sheet; alpha zero outside the figures, no haze, matte, checkerboard, speckles or colored fringe.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Moxie-specific separate ball follows the reverse gather, travels behind the far side and reaches her open far-side hand for frame5/tick12 release; never drawn into the poses.",
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.25,
+          1.6,
+          2,
+          2.2,
+          2.4,
+          1.2,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          6,
+          3,
+          -3,
+          8,
+          5,
+          5
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Eight distinct complete Moxie reverse-layup poses. Her identity, adult human anatomy, long lavender ponytail/gold tie, purple/silver kit and shoes remain consistent. She turns away during flight and releases with a high open far-side hand at frame5/tick12. No ball appears."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 14,
+          "y": 82,
+          "w": 380,
+          "h": 403,
+          "component": 3,
+          "area": 58970
+        },
+        {
+          "sourceIndex": 1,
+          "x": 447,
+          "y": 84,
+          "w": 324,
+          "h": 399,
+          "component": 4,
+          "area": 58835
+        },
+        {
+          "sourceIndex": 2,
+          "x": 790,
+          "y": 46,
+          "w": 344,
+          "h": 455,
+          "component": 2,
+          "area": 59904
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1178,
+          "y": 12,
+          "w": 351,
+          "h": 451,
+          "component": 1,
+          "area": 58369
+        },
+        {
+          "sourceIndex": 4,
+          "x": 24,
+          "y": 535,
+          "w": 329,
+          "h": 474,
+          "component": 6,
+          "area": 62500
+        },
+        {
+          "sourceIndex": 5,
+          "x": 381,
+          "y": 517,
+          "w": 388,
+          "h": 485,
+          "component": 5,
+          "area": 63366
+        },
+        {
+          "sourceIndex": 6,
+          "x": 788,
+          "y": 542,
+          "w": 361,
+          "h": 446,
+          "component": 7,
+          "area": 61939
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1194,
+          "y": 628,
+          "w": 309,
+          "h": 367,
+          "component": 8,
+          "area": 57120
+        }
+      ],
+      "uniformScale": 0.18969072164948453,
+      "componentIsolation": true,
+      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses"
+    }
+  }
+]

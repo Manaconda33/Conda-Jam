@@ -1,0 +1,264 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "dunk-reverse",
+    "src": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "a94385401ad9ec76d71c6d4e0cb5b4932f00ac3ad06ed2276964d7be891580b0"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "53bb8113633d1acb5a6d1461c75a4cf82da07489f3c994208d9b8c0ee65d4594"
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "33e928795c4d3372e426d664fef9b49736c5e3af360ffa1cdb72e889d5a9bde0"
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "b508cc3bd8e664019dc1cd536d84eae41817beb3a69ddd923fb7e0247ed0fb48"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "33bbcb8018ced0a6e26f3f3be849826969e38be67caa671ab324c93d29f13e06"
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "36e30fd83f44a6188c023595c45bd337d71c7dfcd81e46a8cba9ec4447bdf935"
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "7ff9a25bdbcf24c3110cf5bcf15865560fc98eb170c77630a989f2df56aa5d79"
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "cd243ab30f5be7c5c425d55b8085b3b6641d7ef4cb1901e01c9fb21bd0ed02dc"
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "face9e175e07f7b0ec816c76d531ec4af0d3dd7dad464056300d3dc8d7f7d564"
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "736d9478f60531b3e9964fd34291b1ad08d43547ae06f37327d3de6a91cc6b85"
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "96e00c98eae672136bc5acb98bc315970ab248fb21cb9f71a339db2e2fceb065"
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "a8776b9b80b09e323b5355986b5d532e62b36f1b97e9681724645120d0f63a75"
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "a141d6c54a7c3ee103c25bd41bc48b84f621eb5de2439ad4b83639f0b0201a70"
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "0254a939268b231ddc62495b026c83237341778006187a4eeb5a75859afe6e31"
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "58267bcf3b8eedfb0cb542427fa522a67a69510af4df6586a9a2128da024627d"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "dunk-reverse",
+      "direction": "right",
+      "generationId": "exec-0cf34fb4-e022-47e0-9aec-c7e09a441929",
+      "imageGenerationId": "exec-0cf34fb4-e022-47e0-9aec-c7e09a441929",
+      "generatedAt": "2026-10-24T01:24:03.357644+00:00",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-reverse-generated-raw.png",
+      "rawSourceSha256": "acebc15a9a16a68c485837a470f2fe618fe804c3e4dc8e2b92e3cfb997001dd2",
+      "prompt": "Use the supplied Nova Stitch sprite as exact identity/style reference. Generate a true transparent RGBA 1536x1024 production sprite sheet: exactly fifteen distinct complete full-body poses, five columns by three rows, row-major, for a reverse basketball dunk. One connected Nova per cell. No ball, no rim, no other character, no floor/shadow/text. The game ball stays a separate runtime object; hands are empty and ball poses are only mime. Preserve the same fair-tan athletic human woman, recognizable face, long curly teal high ponytail, teal jersey and shorts with purple/black trim, knee pads, teal-black shoes, wristbands, consistent scale/anatomy. Action reads clearly as reverse: approach the basket lane, gather, jump, rotate shoulders and hips away from the viewer/rim so the back and ponytail show, carry empty hand behind/around her crown, keep back-facing orientation while rising, then reach behind herself for a one-hand reverse release at frame10, finish and turn through descent. Poses 0-2 run/gather; 3 takeoff; 4-6 rotate away; 7-9 airborne back-facing reverse reach; 10 overhead/behind-the-head release; 11-12 follow-through turn and descent; 13 landing; 14 balanced finish. All fifteen distinctly different. Preserve anatomically correct limbs and ponytail. Crisp limited-palette 1990s arcade pixel art, chunky dark outline, not glossy, painterly, 3D or anime. Only sprite sheet, no checkerboard, matte, glow or background.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen distinct full-body poses reviewed; reverse turn and back-facing phase read clearly, release at frame10, consistent Nova identity and no ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-reverse-generated-raw.png",
+      "sourceSha256": "acebc15a9a16a68c485837a470f2fe618fe804c3e4dc8e2b92e3cfb997001dd2",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 19,
+          "y": 24,
+          "w": 287,
+          "h": 322,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 327,
+          "y": 42,
+          "w": 263,
+          "h": 319,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 652,
+          "y": 81,
+          "w": 258,
+          "h": 285,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 930,
+          "y": 5,
+          "w": 255,
+          "h": 365,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1299,
+          "y": 16,
+          "w": 189,
+          "h": 341,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 66,
+          "y": 373,
+          "w": 242,
+          "h": 329,
+          "component": 9
+        },
+        {
+          "sourceIndex": 6,
+          "x": 375,
+          "y": 387,
+          "w": 259,
+          "h": 303,
+          "component": 11
+        },
+        {
+          "sourceIndex": 7,
+          "x": 657,
+          "y": 399,
+          "w": 288,
+          "h": 280,
+          "component": 12
+        },
+        {
+          "sourceIndex": 8,
+          "x": 975,
+          "y": 373,
+          "w": 223,
+          "h": 331,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1293,
+          "y": 357,
+          "w": 199,
+          "h": 343,
+          "component": 8
+        },
+        {
+          "sourceIndex": 10,
+          "x": 43,
+          "y": 713,
+          "w": 285,
+          "h": 307,
+          "component": 15
+        },
+        {
+          "sourceIndex": 11,
+          "x": 355,
+          "y": 716,
+          "w": 276,
+          "h": 304,
+          "component": 16
+        },
+        {
+          "sourceIndex": 12,
+          "x": 676,
+          "y": 759,
+          "w": 212,
+          "h": 254,
+          "component": 18
+        },
+        {
+          "sourceIndex": 13,
+          "x": 979,
+          "y": 733,
+          "w": 231,
+          "h": 284,
+          "component": 17
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1301,
+          "y": 707,
+          "w": 179,
+          "h": 313,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.25205479452054796,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "atlasPath": "public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+      "atlasSha256": "4a600240679f6280b70903b7cd1a7bdb56aa95875254876967727cea6dfa870b",
+      "atlasBytes": 58866
+    }
+  }
+]

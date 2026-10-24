@@ -1,0 +1,264 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "dunk-windmill",
+    "src": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "02685e2febc871c8dad68db0c54569f1a8b3c005dbf9d8e5e5cc940b30563eb7"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "61b0f9baee9020745fd6cca6630a7958350e951fcbd033e17c83d2f2fc0c1469"
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "968c5d5242d50c0dcb31502b6055aadd8cf408fb24b81ced3955c49a4465abfd"
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "7ca01d223b9e0798c02c5a3d4c633afd84acfdf6ba8cbdc61ecd694aa62ee592"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "c87045c100e8375bdfd5256ccc531e273021108c62e09b2096cd5919f98dc03c"
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "feffc448280e6de48851e5bbfa9dee85ff0bb212a8f8f9d93f544623916c73ff"
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "c44c2643b747527899dfd3d286a2047dc08e0095786d46815a49a4acbc64dcd7"
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "3ab5dea2f23130fbee2d1319084a1a5f394041f42b6f028fbe122a5ae0cececc"
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "300061e9e2759210eabfa14a003e22b806c7428a1c6385de855a88c02252aaef"
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "3a13da812c9422004926579044ab8ac12301256eec28744792fe9ba579e4319b"
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "8eb9c5eed1b28bcddb39740811fac95921af48f5e213d8445e30dff351fb0a5f"
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "da92aa8cdce1509c7fff970d6dc96c3d44e59c3d60c6b13887c5039ff3fbaaca"
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "b1ce69e4baff91eeb52b97c9f4447cd9314f85cd46933ebc715e7ca5723ae51e"
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "8201e35bd0d239b72766e1dce1e56fa95589427a82e992d07245029e5cff8184"
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "71a3231cb7402bfcde36105a4971f1a21d67091a5bc25bdf5a0e41aca5a461d0"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "dunk-windmill",
+      "direction": "right",
+      "generationId": "exec-33270a1d-9f04-4c06-89c0-2fda1a946bda",
+      "imageGenerationId": "exec-33270a1d-9f04-4c06-89c0-2fda1a946bda",
+      "generatedAt": "2026-10-24T01:22:40.272878+00:00",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-windmill-generated-raw.png",
+      "rawSourceSha256": "07068813181f97b1fa9c2e9826962eeb2b41f9bfc097d636257744807459a03a",
+      "prompt": "Using the supplied Nova Stitch sprite as the exact identity and style reference, create a transparent RGBA 1536\u00d71024 5-column by 3-row row-major sprite sheet with exactly fifteen distinct full-body poses of Nova performing a windmill dunk. One athlete per cell, complete body/hair/shoes visible. No ball, other athlete, rim, text, floor or shadow: the basketball is separate at runtime, and both hands are empty. Preserve Nova as the same young athletic fair-tan human woman with long curly teal high ponytail, face, teal jersey and shorts with purple/black trim, black knee pads, teal-black shoes and wristbands. Right-facing, consistent pixel-art camera, scale, outfit, anatomy. The windmill motion clearly circles one empty hand down and behind her hip, loops low below/behind her torso and sweeps back upward in a broad arc toward a strong one-hand overhead dunk release on frame10. Fifteen sequential unique complete poses: 0 approach; 1 crouch/gather; 2 start takeoff; 3 lift with ball arm low; 4 arm begins circular sweep backward; 5 airborne, arm passes behind hip; 6 circle low under torso; 7 continue sweep behind back; 8 whip arm upward; 9 reach peak and extend to the overhead release point; 10 clean one-hand dunk release; 11 follow through; 12 descend; 13 land balanced; 14 recover. Do not duplicate poses or depict an impossible disconnected arm. Crisp limited-palette 1990s arcade pixel art, chunky dark outlines, no photorealism, 3D or glossy finish. True alpha-zero background, no checkerboard, matte or glow. Return only sprite sheet.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen distinct complete Nova poses visually reviewed, with specific backward/low/up windmill action. Stable teal ponytail, human proportions, teal/purple kit; no ball in source."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-windmill-generated-raw.png",
+      "sourceSha256": "07068813181f97b1fa9c2e9826962eeb2b41f9bfc097d636257744807459a03a",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 18,
+          "y": 19,
+          "w": 291,
+          "h": 331,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 371,
+          "y": 74,
+          "w": 214,
+          "h": 276,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 649,
+          "y": 8,
+          "w": 221,
+          "h": 339,
+          "component": 1
+        },
+        {
+          "sourceIndex": 3,
+          "x": 959,
+          "y": 8,
+          "w": 272,
+          "h": 326,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1268,
+          "y": 12,
+          "w": 258,
+          "h": 338,
+          "component": 3
+        },
+        {
+          "sourceIndex": 5,
+          "x": 49,
+          "y": 364,
+          "w": 253,
+          "h": 298,
+          "component": 8
+        },
+        {
+          "sourceIndex": 6,
+          "x": 373,
+          "y": 372,
+          "w": 222,
+          "h": 299,
+          "component": 9
+        },
+        {
+          "sourceIndex": 7,
+          "x": 656,
+          "y": 372,
+          "w": 282,
+          "h": 311,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 966,
+          "y": 337,
+          "w": 293,
+          "h": 355,
+          "component": 7
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1258,
+          "y": 323,
+          "w": 263,
+          "h": 382,
+          "component": 6
+        },
+        {
+          "sourceIndex": 10,
+          "x": 30,
+          "y": 670,
+          "w": 267,
+          "h": 344,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 367,
+          "y": 693,
+          "w": 266,
+          "h": 318,
+          "component": 13
+        },
+        {
+          "sourceIndex": 12,
+          "x": 674,
+          "y": 724,
+          "w": 246,
+          "h": 293,
+          "component": 15
+        },
+        {
+          "sourceIndex": 13,
+          "x": 986,
+          "y": 705,
+          "w": 239,
+          "h": 311,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1289,
+          "y": 692,
+          "w": 205,
+          "h": 325,
+          "component": 12
+        }
+      ],
+      "uniformScale": 0.24083769633507854,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "atlasPath": "public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+      "atlasSha256": "beae664d52bb6c6d497826f25327d7a6c1f070a91140c8c0df1b5ad93b2d1c41",
+      "atlasBytes": 56410
+    }
+  }
+]

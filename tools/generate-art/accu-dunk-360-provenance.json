@@ -1,0 +1,70 @@
+{
+  "athlete": "accu",
+  "clip": "dunk-360",
+  "direction": "right",
+  "canonicalSection": "J.10",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-9cd96f50-7ea2-4e75-92df-251a1a369adf",
+  "sourceImage": "tools/generate-art/sources/accu-dunk-360-generated-clean.png",
+  "sourceSha256": "f58dd321a094a412c4f5540427f6beedff55f05e063c9c1dd9aef8e3dfa8c8d7",
+  "promptFile": "tools/generate-art/accu-dunk-360-prompt.md",
+  "prompt": "Create exactly 15 full-body Accu DUNK-360 poses in a five-column by three-row sprite sheet, row-major, no extra figures. Match the attached Accu: young adult woman, warm tan skin, green eyes, blunt black bangs, close-cropped sides, twin long black ponytails with teal ties, sleek black sleeveless basketball kit with teal/violet trim, black sleeves/tights and teal/violet sneakers. Preserve her identity and human anatomy throughout. A complete 360-degree spin dunk, right-facing start and finish: 0 runs right; 1 gathers; 2 takeoff tick4; 3 rises into rotation; 4 rotates shoulders toward viewer; 5 turns to near-front; 6 back briefly faces viewer; 7 reaches apex tick14 in the middle of a controlled full turn, arms tucked naturally; 8 turns past far side; 9 returns to right-facing view, raises right arm; 10 release tick21 with open hand into empty space; 11 follow-through finish tick23, torso still airborne; 12 descends; 13 lands; 14 balanced right-facing ready stance. Exactly 15 clearly different continuous poses in 5x3 order. Full body, both ponytails, hands and feet inside every cell with margin. Ball is drawn separately, so no basketball, sphere, hoop, rim or object in any hand. No other players, court, floor, shadow, text, logo, effects, grid lines or background. True RGBA transparency, not checkerboard. 1990s arcade pixel art, crisp outlines and consistent scale.",
+  "timing": {
+    "takeoffFrame": 2,
+    "takeoffTick": 4,
+    "peakFrame": 7,
+    "peakTick": 14,
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "finishFrame": 11,
+    "finishTick": 23,
+    "landFrame": 14,
+    "landTick": 30
+  },
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.2,
+      1.5,
+      1.8,
+      2.1,
+      2.3,
+      2.5,
+      2.6,
+      2.4,
+      2.1,
+      1.8,
+      1.4,
+      1.0,
+      0.75,
+      0.65
+    ],
+    "forward": [
+      6,
+      8,
+      10,
+      12,
+      13,
+      12,
+      10,
+      7,
+      6,
+      8,
+      12,
+      14,
+      12,
+      9,
+      7
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-accu-motion-background.py",
+    "method": "remove edge-connected neutral checkerboard pixels"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "15 full Accu dunk spin poses turn through back/front perspectives and return to right-facing. Preserves ponytails, face, kit and anatomy; no ball in art; Accu-specific separate ball track."
+  }
+}

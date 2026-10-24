@@ -1,0 +1,119 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "receive",
+    "src": "./public/assets/animation/moxie-capwell-receive-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "clip": "receive",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-3cee8735-2f4f-422c-868a-c3269ddbd59c",
+      "imageGenerationId": "exec-3cee8735-2f4f-422c-868a-c3269ddbd59c",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-receive4-generated-raw.png",
+      "sourceSha256": "6eb3ef65d9ddb503bef67dc8b957f2ba3af62116c2d8bdbe213d328430bef6a1",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-receive4-generated-raw.png",
+      "rawSourceSha256": "6eb3ef65d9ddb503bef67dc8b957f2ba3af62116c2d8bdbe213d328430bef6a1",
+      "prompt": "Create one original 1536\u00d71024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing basketball receive/catch. Use both supplied canon references. Moxie is an adult human woman with pale skin, lavender-purple eyes, a very long thick lavender ponytail tied high with a small gold band, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Preserve her face, eye color, ponytail shape/tie, clothing and natural human anatomy. No witch hat, beard, male, monster, robot or different athlete.\n\nDraw clean readable chunky 1990s arcade pixel-cel art, consistent scale and camera. Exactly four distinct complete full-body poses in a 2-column by 2-row grid, row-major, broad transparent gutters and margins. One figure per cell, no touches, crop or overlap. All hands are empty: the basketball is separate game art; do not draw ball, sphere, seams or prop. No hoop, rim, court, floor, shadow, glow, effects, text, labels, borders, teammate or scenery.\n\n0 balanced ready stance, hands open at chest height, facing right;\n1 arms reach forward to receive an incoming pass, palms facing each other;\n2 CATCH at simulation tick4: both empty hands close around the imagined ball at chest level, fingers open and clearly readable;\n3 draw the imagined ball softly into chest, elbows bend, feet regain balance.\n\nMake all poses distinct and connected, with the catch pose aligned to the hands and no limbs crossing the face or ponytail. Keep the high lavender ponytail, gold tie, adult human build, white side panels, purple uniform and shoes consistent. Return only a true-transparent RGBA sheet with alpha-zero background and no haze, matte, checkerboard, speckles or colored halo.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Moxie-specific separate basketball approaches chest height; both empty hands meet it at frame2/tick4, then draw it in to her chest. No ball is baked into the poses.",
+      "ballTrack": {
+        "height": [
+          1.2,
+          1.45,
+          1.5,
+          1.35
+        ],
+        "forward": [
+          5,
+          10,
+          12,
+          8
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Four distinct complete right-facing Moxie receive poses with readable catch at frame2/tick4. Canon lavender eyes, long high ponytail/gold tie, purple/silver uniform, adult human anatomy and shoes are consistent. The separate ball is not drawn."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 267,
+          "y": 20,
+          "w": 363,
+          "h": 487,
+          "component": 1,
+          "area": 81950
+        },
+        {
+          "sourceIndex": 1,
+          "x": 828,
+          "y": 39,
+          "w": 560,
+          "h": 470,
+          "component": 2,
+          "area": 85459
+        },
+        {
+          "sourceIndex": 2,
+          "x": 255,
+          "y": 522,
+          "w": 369,
+          "h": 476,
+          "component": 4,
+          "area": 81233
+        },
+        {
+          "sourceIndex": 3,
+          "x": 903,
+          "y": 518,
+          "w": 342,
+          "h": 484,
+          "component": 3,
+          "area": 79941
+        }
+      ],
+      "uniformScale": 0.188911704312115,
+      "componentIsolation": true,
+      "packaging": "package-action4.py; 112x96 cells; baseline94; lossless WebP; 4 original receive poses"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "athlete": "nova-stitch",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "generationId": "exec-f16eb889-0f88-4139-8418-a648b723e968",
+  "imageGenerationId": "exec-f16eb889-0f88-4139-8418-a648b723e968",
+  "generatedAt": "2026-10-24T01:30:03.595538+00:00",
+  "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-clutch-generated-raw.png",
+  "rawSourceSha256": "b5994be7b6c28e69ca796af3ee3bab0e917279d3f3569e458ba4593fb395faec",
+  "prompt": "Use the supplied Nova Stitch sprite as the exact character reference. Create a transparent RGBA 1536\u00d71024 action sheet, exactly 15 distinct complete full-body poses in five columns by three rows, row-major, for a clutch dunk. Nova is the same athletic fair-tan human woman with teal high ponytail, identifiable face, teal uniform with purple/black trim, knee pads, teal-black sneakers and wristbands; no change of anatomy or costume. No basketball in the image (separate runtime sprite), no rim, scene, other player, floor, shadow, glow or text. Keep hands empty. Right-facing, consistent size. The signature clutch motion keeps both empty hands tightly together against her chest through the gather and first half of ascent, elbows bent and protective as though securing the ball; she continues to cradle the invisible ball close while rising, then at frame10 suddenly thrusts both arms together upward and forward for a strong two-hand clutch release. Follow-through, descent and recovery. 0 approach; 1 gather; 2 draw both hands to chest; 3 plant/takeoff while clutching; 4 low rise, hands still tight to sternum; 5 airborne, still clutching; 6 rise higher; 7 hold close; 8 begin reach; 9 extend both arms; 10 full two-hand overhead release; 11 follow-through; 12 descend; 13 land; 14 finish. This close-to-chest hold then two-hand extension must be clear and distinct from one-handed dunks. Fifteen different complete poses, all hair and shoes within each cell, correct connected anatomy. Crisp 1990s limited-palette arcade pixel art with chunky outlines, not photorealistic, glossy, anime or 3D. True alpha-zero background and no checkerboard/matte. Return only sprite sheet.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Fifteen distinct full-body poses reviewed; early sequence holds both hands together at chest through gather and rise before a two-hand high finish. Stable Nova identity and no ball."
+  },
+  "eligibleForPacking": true,
+  "separateBall": true
+}

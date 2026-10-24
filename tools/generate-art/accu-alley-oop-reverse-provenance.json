@@ -1,0 +1,72 @@
+{
+  "athlete": "accu",
+  "clip": "alley-oop-reverse",
+  "direction": "right",
+  "canonicalSection": "J.10",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-42aaa91b-13b6-4164-9be7-ded28aa39f92",
+  "sourceImage": "tools/generate-art/sources/accu-alley-oop-reverse-generated-clean.png",
+  "sourceSha256": "9ffe88702f5beab9a280255f7ceb9276a1b926ce475af034b987d14f091af63f",
+  "promptFile": "tools/generate-art/accu-alley-oop-reverse-prompt.md",
+  "prompt": "Create 15 complete full-body Accu ALLEY-OOP-REVERSE dunk poses, strict 5 columns \u00d7 3 rows row-major sheet. Same Accu as reference: warm tan young adult human woman, green eyes, blunt black bangs, close-cropped sides, two long black ponytails with teal ties, fitted black sleeveless basketball kit with teal/violet trim, black sleeves/tights, teal/violet shoes. Preserve identity and anatomy. Right-facing alley-oop reverse sequence: 0 approach toward incoming pass lane; 1 reach forward with empty hands; 2 catch unseen pass and takeoff at tick4; 3 rise under imaginary hoop; 4 tuck knees; 5 rotate shoulders away from viewer; 6 turn beneath imaginary rim; 7 peak tick14 with back/shoulder partly toward viewer; 8 reach behind head to far side of rim; 9 extend hand toward reverse side; 10 release invisible pass at tick21 with open hand through empty space; 11 follow-through tick23 from far side; 12 descend; 13 land knees flexed; 14 return balanced. Distinct poses, full body, every limb and ponytail in bounds, consistent scale. No ball, sphere, held prop or object in any image. Hands empty around invisible pass; game ball is separate. No hoop/rim, other player, court, floor, shadow, text, numbers, logo, effects, grid lines, background. Blank uniform. True transparent RGBA, not checkerboard, crisp outlined arcade pixel art. Return only fifteen poses.",
+  "timing": {
+    "takeoffFrame": 2,
+    "takeoffTick": 4,
+    "catchFrame": 5,
+    "catchTick": 10,
+    "peakFrame": 7,
+    "peakTick": 14,
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "finishFrame": 11,
+    "finishTick": 23,
+    "landFrame": 14,
+    "landTick": 30
+  },
+  "ballTrack": {
+    "height": [
+      1.7,
+      2.0,
+      2.2,
+      2.3,
+      2.4,
+      2.45,
+      2.5,
+      2.45,
+      2.3,
+      2.1,
+      1.75,
+      1.45,
+      1.1,
+      0.8,
+      0.65
+    ],
+    "forward": [
+      12,
+      10,
+      7,
+      4,
+      2,
+      1,
+      0,
+      1,
+      3,
+      5,
+      8,
+      9,
+      9,
+      8,
+      6
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-accu-motion-background.py",
+    "method": "remove edge-connected neutral checkerboard pixels"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "15 full-body Accu alley-oop reverse poses show incoming pass receive, turn under rim, behind-head finish and recovery. No ball or prop in sprite; separate Accu ball track recorded."
+  }
+}

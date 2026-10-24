@@ -1,0 +1,46 @@
+{
+  "athlete": "echo-catwalk",
+  "clip": "layup",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-60d9699d-b8da-473c-af85-236c60d302c2",
+  "imageGenerationId": "exec-60d9699d-b8da-473c-af85-236c60d302c2",
+  "rawSourceImage": "tools/generate-art/sources/echo-catwalk-layup-generated-raw.png",
+  "rawSourceSha256": "32283e3e9c74cef9a4dbfbda4351ddf1139d049679d827c41477a8c1fdbd8703",
+  "sourceImage": "tools/generate-art/sources/echo-catwalk-layup-generated-raw.png",
+  "sourceSha256": "32283e3e9c74cef9a4dbfbda4351ddf1139d049679d827c41477a8c1fdbd8703",
+  "promptFile": "tools/generate-art/echo-catwalk-layup-prompt.md",
+  "prompt": "Use the referenced Echo Catwalk game sprite only for his exact identity, face, hair, beard, uniform colors and scale, not for pose copying. Create eight new complete full-body basketball layup poses in a 1536\u00d71024 true-transparent RGBA pixel-art sheet, strict four-column by two-row, row-major. Broad cell gutters. No scenery, court, background, shadows, text, ball, hoop or props.\n\nEcho is a compact athletic adult human man with medium-brown skin, short spiky dark-teal curls, teal headband, trimmed dark-teal beard, teal sleeveless jersey with black/deep-purple accents, teal shorts, black knee pads, teal-black shoes, wristbands. Preserve this precise masculine human appearance in all frames. Two natural arms/hands, two legs/shoes. No extra limbs/accessories. Both hands empty; game draws the ball separately.\n\nRight-facing one-hand right-handed layup toward an offscreen hoop at image-right. Eight distinct connected poses:\n0 controlled approach run;\n1 gather invisible ball near waist, eyes on target;\n2 plant left foot and load knee;\n3 jump upward, right arm and invisible ball rise beside head, left arm balances;\n4 RELEASE at simulation tick10: fully airborne, right hand extended high to image-right with open empty fingertips, left arm counterbalances, knees naturally tucked;\n5 follow through with empty right hand;\n6 descend with legs moving toward landing;\n7 balanced controlled landing and recovery.\n\nKeep motion athletic, smoothly rotational, full figure and complete hair/feet inside each cell. Clean, crisp 1990s arcade sprite clusters, alpha-zero transparent gutters/background with no haze, checkerboard or matte. No basketball or object in any pose. Return only the sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Echo-specific separate ball gathers on his right hand during takeoff, meets the raised right hand at release frame4/tick10, then arcs forward to the rim. Never drawn into poses.",
+  "ballTrack": {
+    "height": [
+      1,
+      1.1,
+      1.4,
+      2.1,
+      2.7,
+      2.8,
+      2.2,
+      1
+    ],
+    "forward": [
+      5,
+      8,
+      9,
+      12,
+      15,
+      12,
+      9,
+      7
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Eight distinct complete right-facing Echo poses show approach, gather, one-foot load, airborne right-hand release at frame4/tick10, follow-through, descent, landing and recovery. Correct identity, all hands empty."
+  }
+}

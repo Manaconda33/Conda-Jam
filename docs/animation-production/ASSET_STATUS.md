@@ -6,4 +6,6 @@ J.103 `7f925af` is pushed to `main` and deployed in Pages run #141 (https://gith
 
 Dorian Mycel has a complete source-only package: 29/29 keys including the newly authored `idle-ball`, with25 new action atlases /255 distinct drawings. Source hashes, accepted provenance, layouts, atlas bounds, nonblank unique frame crops and exact 29-key coverage passed an independent check. These assets are not in the registered totals above until roster-order integration after Moxie.
 
+Moxie Capwell, Accu, Nova Stitch and Echo Catwalk also have complete, independently verified source-only packs: each covers all29 runtime keys, with the new atlases totaling251 drawings for Moxie and241 each for the other three. Their sheets, source hashes, prompts, layouts, provenance, unique-frame and separate-ball checks passed. These generated assets are committed but remain outside the registered audit until roster-order integration after Keeg.
+
 Full target:30,765 authored drawings across3,045 required clips, with a minimum of29,190 drawings. Mirroring, holds, duplicate crops and rejected source art do not count. See `docs/ANIMATION_ASSET_AUDIT.md` and `docs/animation-production/GENERATED_POSES.md` for decoded detail.

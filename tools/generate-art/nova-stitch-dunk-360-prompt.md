@@ -1,0 +1,7 @@
+# Nova Stitch — dunk-360
+
+## Verbatim generation prompt
+
+```text
+Using the supplied Nova Stitch sprite for exact character identity and 2D pixel style, make a 1536x1024 transparent RGBA sheet containing fifteen distinct complete full-body poses, strict 5 columns x 3 rows, row-major, for a 360-degree spinning dunk. Only Nova in each cell; no ball (runtime ball is separate and her hands must stay empty), rim, teammates, floor, shadow, glow, checkerboard or text. The same fair-tan athletic human woman, same face, long curly teal high ponytail, teal/purple/black trimmed uniform, black knee pads, teal-black sneakers, wristbands and anatomy in every view. Right-facing start and finish. Sequentially: 0 approach; 1 lower gather; 2 plant to take off; 3 rotate to three-quarter view; 4 side/back view; 5 turn fully back-facing; 6 continue into opposite three-quarter rear; 7 rise airborne rotating through side view; 8 turn back toward front; 9 reach peak in a forward three-quarter view with arm extended high; 10 one-hand overhead release pose; 11 complete spin and follow through; 12 descend; 13 land balanced; 14 ready finish. Body orientation must visibly change around full circle across frames 3-9, including clear back view, with ponytail and limbs moving naturally, no cloned/repeated poses. All limbs connected, complete full body within each cell. Pixel-art limited palette 1990s arcade sprites, chunky dark outline, not glossy, anime, 3D or painterly. Output only the sprite sheet.
+```

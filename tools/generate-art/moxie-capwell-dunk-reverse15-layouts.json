@@ -1,0 +1,292 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "dunk-reverse",
+    "src": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "clip": "dunk-reverse",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-22966b7c-5895-4b51-95fb-98a890c4286d",
+      "imageGenerationId": "exec-22966b7c-5895-4b51-95fb-98a890c4286d",
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-reverse15-cleaned.png",
+      "sourceSha256": "8439bf47b7508ab0d98b473c18b0cfc10d7a8d73ae7d671947f30adb34199de2",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-reverse15-generated-raw.png",
+      "rawSourceSha256": "50011a72af76f29e8d66517ac09ebaa851183935d409c6194d0a414f797f408f",
+      "prompt": "Create an original true-transparent RGBA spritesheet of fifteen full-body right-facing Moxie Capwell basketball dunk-reverse poses in a strict 5x3 row-major grid. Use supplied Moxie canon references: adult human woman, pale skin, lavender eyes, long thick lavender high ponytail with small gold tie, mature athletic proportions, purple/silver uniform with white side panels, wristbands and purple high-tops. Keep her exact consistent identity and anatomy.\n\n1990s arcade basketball pixel-cel sprite style with crisp edges. 1536x1024, fifteen distinct complete pose figures, centered in their cells with wide transparent gutters and margins; no cropping or overlap. Show Moxie's profile, three-quarter back and back views as she turns, while retaining her recognizable lavender ponytail/gold tie, uniform and human build. True transparent RGBA background. Moxie alone. Do not draw ball, hoop, rim or net; gameplay ball is separate. No other person, court, floor, shadow, scenery, backdrop, text, glow or effects.\n\nA reverse dunk: sprint past the imaginary basket, rise to its far side, turn her back toward the imaginary rim, then reach the ball behind her head and slam it backward through the imaginary hoop, followed by landing.\n0 approach run;\n1 gather;\n2 takeoff at tick4;\n3 rise alongside imaginary rim;\n4 turn hips and shoulders away from viewer/rim;\n5 back faces rim, right arm brings unseen ball behind head;\n6 carry ball hand behind head and upper back;\n7 bend the right arm and reach back around the opposite side;\n8 drive the hand backward toward the rim;\n9 strong behind-head reverse dunk extension;\n10 release at tick21 behind her head;\n11 scoring finish tick23 with hand across and below imaginary rim;\n12 rotate back while descending;\n13 land with knees flexed;\n14 stable recovery stance.\nKeep both arms anatomically correct and visible. Pose actions flow and are distinct; no ball in any hand or elsewhere.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "The Moxie-specific ball stays on her right-hand lane through the back-facing turn, is carried behind the head and releases through the reverse finish on tick21. Never drawn in sprite.",
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.2,
+          1.4,
+          2.0,
+          2.5,
+          2.8,
+          2.2,
+          1.8,
+          2.1,
+          2.7,
+          3.2,
+          3.4,
+          2.6,
+          1.4,
+          0.8
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          12,
+          15,
+          16,
+          14,
+          13,
+          15,
+          18,
+          20,
+          24,
+          31,
+          38,
+          42
+        ]
+      },
+      "cleanupNotes": "Removed the smooth generated purple backdrop using the Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade for contrast21\u201342). Raw generation retained; isolated 15 source components when packing.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen complete distinct Moxie human poses with back and three-quarter-back views through a reverse dunk. Identity, adult proportions, lavender eyes/ponytail/gold tie, purple/silver kit remain consistent. Behind-head ball approach, strong backward extension, tick21 release, score finish and landing are clear. No ball drawn; backdrop cleanup and all frame crops reviewed."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 36,
+          "y": 42,
+          "w": 283,
+          "h": 294,
+          "component": 5
+        },
+        {
+          "sourceIndex": 1,
+          "x": 348,
+          "y": 64,
+          "w": 256,
+          "h": 274,
+          "component": 16
+        },
+        {
+          "sourceIndex": 2,
+          "x": 677,
+          "y": 34,
+          "w": 230,
+          "h": 307,
+          "component": 2
+        },
+        {
+          "sourceIndex": 3,
+          "x": 968,
+          "y": 8,
+          "w": 226,
+          "h": 330,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1248,
+          "y": 38,
+          "w": 244,
+          "h": 291,
+          "component": 3
+        },
+        {
+          "sourceIndex": 5,
+          "x": 58,
+          "y": 355,
+          "w": 226,
+          "h": 309,
+          "component": 54
+        },
+        {
+          "sourceIndex": 6,
+          "x": 347,
+          "y": 376,
+          "w": 254,
+          "h": 293,
+          "component": 56
+        },
+        {
+          "sourceIndex": 7,
+          "x": 656,
+          "y": 381,
+          "w": 287,
+          "h": 301,
+          "component": 57
+        },
+        {
+          "sourceIndex": 8,
+          "x": 981,
+          "y": 333,
+          "w": 264,
+          "h": 357,
+          "component": 52
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1260,
+          "y": 343,
+          "w": 261,
+          "h": 338,
+          "component": 53
+        },
+        {
+          "sourceIndex": 10,
+          "x": 59,
+          "y": 693,
+          "w": 272,
+          "h": 316,
+          "component": 115
+        },
+        {
+          "sourceIndex": 11,
+          "x": 382,
+          "y": 686,
+          "w": 245,
+          "h": 309,
+          "component": 112
+        },
+        {
+          "sourceIndex": 12,
+          "x": 670,
+          "y": 731,
+          "w": 252,
+          "h": 274,
+          "component": 127
+        },
+        {
+          "sourceIndex": 13,
+          "x": 974,
+          "y": 694,
+          "w": 229,
+          "h": 313,
+          "component": 117
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1287,
+          "y": 666,
+          "w": 209,
+          "h": 337,
+          "component": 109
+        }
+      ],
+      "uniformScale": 0.25770308123249297,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

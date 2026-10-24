@@ -1,0 +1,28 @@
+{
+  "athlete": "moxie-capwell",
+  "clip": "block",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-4eb0bbdc-6ced-4a43-bc58-2c1d53f8629f",
+  "imageGenerationId": "exec-4eb0bbdc-6ced-4a43-bc58-2c1d53f8629f",
+  "sourceImage": "tools/generate-art/sources/moxie-capwell-block4-generated-raw.png",
+  "sourceSha256": "53085935aaedd45f7617ea2217c115a2904525f51b9691d1f7466bf1f7fa8ee0",
+  "rawSourceImage": "tools/generate-art/sources/moxie-capwell-block4-generated-raw.png",
+  "rawSourceSha256": "53085935aaedd45f7617ea2217c115a2904525f51b9691d1f7466bf1f7fa8ee0",
+  "prompt": "Create one original 1536\u00d71024 true-transparent RGBA spritesheet for Moxie Capwell of Moonmorel Hex performing a right-facing jump block. Match the canon portrait and gameplay references. She is an adult human woman with pale skin, lavender-purple eyes, long thick lavender hair in a high ponytail with a small gold hair tie, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Preserve her face, eyes, ponytail, tie, kit and ordinary human anatomy. No witch hat, beard, male, monster, robot, new character, or costume.\n\nDraw clean readable late-1990s arcade basketball pixel-cel art. Exactly four full-body poses in a 2-column by 2-row grid, row-major, with broad transparent gutters and margin. Every hair strand, hand and shoe remains inside its cell. Poses are distinct and connected; two arms/two legs only. Hands are empty; the ball belongs to a separate game object and is never drawn. No ball, sphere, hoop, rim, court, floor, shadows, effects, text, border, teammates or scenery.\n\n0 defensive stance, facing right, knees flexed and both hands low;\n1 plant and jump, lead arm rising while the other arm balances;\n2 peak block at simulation tick4: both arms stretch straight upward, fingers wide and empty, full body airborne;\n3 descend and land with knees flexed, arms lowering.\n\nKeep the high ponytail/gold tie unobscured and separated from the raised hands. Preserve the same Moxie face, eyes, clothing palette, adult proportions and shoes. Return only a true-transparent RGBA sheet with no alpha haze, checkerboard, matte, speckles or colored halo.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "The contested basketball stays with the opposing player and is never painted into Moxie\u2019s defensive pose sheet.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Four distinct complete Moxie defensive block poses. Her pale skin, lavender eyes, high ponytail/gold tie, purple/silver kit, adult human anatomy and shoes remain consistent. Frame2 is the clear peak block with both empty arms extended overhead; no ball is drawn."
+  }
+}

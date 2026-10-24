@@ -1,0 +1,7 @@
+# Accu — dunk-clutch
+
+## Exact accepted generation prompt
+
+Make a NEW exact 15-frame 5×3 sprite sheet for Accu, matching the attached black-haired woman identity. This is a basketball game sprite: the game inserts the basketball as a separate object, so the sprite sheet must contain ZERO basketballs. Remove every ball from every frame. All hands must be empty with fingers visible; pose hands together as if they would hold a ball, but leave actual space empty. Absolutely no orange sphere, black circle, ball, prop, equipment or object anywhere. Accu: young tan-skinned human woman, green eyes, blunt black bangs, close-cropped sides, twin long black ponytails with teal ties, black sleeveless uniform with teal/violet trim, black tights and arm sleeves, teal/violet sneakers. Exactly fifteen complete right-facing full-body frames, 5 columns by 3 rows, row-major. Two-handed clutch dunk gather and jump: approach, gather empty hands, rise, lift both empty hands, extend toward imaginary rim, open hands at release tick21, follow through, land, ready. All body parts fully inside each cell with margins. No ball, hoop, rim, person, court, floor, shadow, text, number, logo, background or grid. True transparent RGBA, 1990s outlined pixel art. Return only the sheet.
+
+The first candidate `exec-698467bb-d1f0-4557-b396-b4a6d4ebff6b` was rejected because it drew basketballs in several poses. `clean-accu-motion-background.py` removes edge-connected neutral checker pixels from the accepted retry.

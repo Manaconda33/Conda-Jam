@@ -1,0 +1,61 @@
+{
+  "athlete": "moxie-capwell",
+  "clip": "fall",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-8d81d7eb-6721-4bba-a514-9e0cbb7363b7",
+  "imageGenerationId": "exec-8d81d7eb-6721-4bba-a514-9e0cbb7363b7",
+  "sourceImage": "tools/generate-art/sources/moxie-capwell-fall10-cleaned.png",
+  "sourceSha256": "76294958c6fc40fbf487a7310ffa5abdc2807efe1789e80256a7c880d9551822",
+  "rawSourceImage": "tools/generate-art/sources/moxie-capwell-fall10-generated-raw.png",
+  "rawSourceSha256": "a35dda6b1de328092915a7bee032846f48d826e1536d7f282ea2c96d1d9c148d",
+  "prompt": "Create one original true-transparent RGBA production spritesheet for Moxie Capwell's right-facing basketball fall action. Strictly match supplied Moxie portrait and gameplay references: adult human woman, pale skin, lavender-purple eyes, very long thick lavender high ponytail with small gold tie, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands, purple high-tops. Keep exact identity and consistent anatomy.\n\n1990s arcade basketball pixel-cel sprites. Exact 1536x1024 canvas, 5 columns x 2 rows, ten distinct complete full-body poses in row-major order. Leave generous empty space around every pose: at least 45 transparent pixels from each figure to its cell boundaries, including leftmost hand, ponytail, and shoes. Keep each pose centered within its own cell, never touching any grid or canvas edge. Entire pose fits inside the cell. No overlap between poses. The bottom row also has roomy clear gutters.\nNo ball is drawn; separate game basketball only. No opponent, court, floor, shadow, background, glow, effects, text or labels. True transparent RGBA, alpha zero outside every figure.\nA controlled nonviolent basketball stumble-and-fall, no injury:\n0 off-balance recovery step after loose-ball collision, arms out;\n1 stumble forward, one foot catches, hands spread;\n2 lower center, bend knees, reach one hand toward floor;\n3 knee touches down and opposite hand braces;\n4 controlled side fall, hip lowers, ponytail arcs behind;\n5 settle onto side with palm supporting, legs bent;\n6 seated on hip, one hand plants, other hand visible and empty;\n7 turn to one knee;\n8 rise to low crouch;\n9 balanced standing guard, calm face.\nAll ten figures are fully visible with complete hands, hair, and shoes.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-823ab7f3-3191-4eed-8116-b8c9ec8b318d",
+      "reason": "First pose touched the outer source-sheet edge and the action packer rejected the incomplete margin.",
+      "prompt": "Create one original transparent RGBA production spritesheet for Moxie Capwell's right-facing basketball fall action. Follow the supplied Moxie portrait and gameplay references as strict identity and anatomy guides: adult human woman, pale skin, lavender-purple eyes, very long thick lavender high ponytail with small gold tie, mature athletic build, purple-and-silver uniform with white side panels, purple wristbands and purple high-tops. Same face, eyes, ponytail/tie, and kit in every pose.\n\n1990s arcade basketball pixel-cel art, crisp outlines, consistent scale. Exact 1536x1024 canvas, 5 columns x 2 rows, ten complete Moxie poses row-major in every cell. Wide clear transparent gutters; no clipped ponytail, hands or shoes. Moxie alone. No ball or opponent drawn: the separate basketball will be handled by the game. No floor, shadow, court, hoop, effects, glow, background, text or labels. Return true-transparent RGBA with alpha-zero background.\n\nA controlled nonviolent basketball stumble-and-fall with safe athletic form, no injury or distress. Pose sequence:\n0: off-balance recovery step after a loose-ball collision, arms out;\n1: stumble forward, one foot catches, hands spread;\n2: drop center, bend knees and reach one hand toward the floor;\n3: knee touches down and opposite hand braces;\n4: controlled side fall, hip lowers, ponytail arcs behind;\n5: settle onto side with one palm supporting her, legs bent;\n6: seated on hip, one hand plants, other hand visible and empty;\n7: turn to one knee;\n8: rise into a low crouch;\n9: recover to balanced standing guard, calm face.\nKeep complete human anatomy, all poses distinct and sequential, no impact marks or visible injury."
+    }
+  ],
+  "mirrorEligible": true,
+  "ballPolicy": "The separate basketball is carried at the beginning, drops low and forward as Moxie falls, and remains on court while she rises. Never drawn in the sprite.",
+  "ballTrack": {
+    "height": [
+      1,
+      0.9,
+      0.75,
+      0.4,
+      0.2,
+      0.1,
+      0.15,
+      0.2,
+      0.4,
+      0.6
+    ],
+    "forward": [
+      6,
+      7,
+      9,
+      10,
+      12,
+      13,
+      13,
+      13,
+      11,
+      9
+    ]
+  },
+  "cleanupNotes": "Generated sheet had a purple painted backdrop. Applied the documented local RGB-contrast matte (Gaussian sigma 38px, alpha fade for contrast 21\u201342); raw source retained separately.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Ten complete sequential Moxie figures in a five-by-two sheet with clear cell margins. Adult human identity, pale skin, lavender eyes, high ponytail/gold tie, purple/silver uniform and shoes stay consistent. Controlled fall sequence progresses from stumble to side fall, seated, kneeling and standing recovery, without injury. Background cleanup checked on light background; no ball drawn."
+  }
+}

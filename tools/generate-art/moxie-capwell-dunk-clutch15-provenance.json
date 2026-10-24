@@ -1,0 +1,65 @@
+{
+  "athlete": "moxie-capwell",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-552d7fbe-dd8d-4e88-a2b0-008d63def0d6",
+  "imageGenerationId": "exec-552d7fbe-dd8d-4e88-a2b0-008d63def0d6",
+  "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-clutch15-cleaned.png",
+  "sourceSha256": "17a86320a17188dce45d62b74b50eabf5ef02cd3a72c9a8a5aa599420de0ec55",
+  "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-clutch15-generated-raw.png",
+  "rawSourceSha256": "f4b7cdf35881faed506311279831a66b43343f0e7b6a0152c0e19033849f3e71",
+  "prompt": "Create one original true-transparent RGBA spritesheet of fifteen full-body right-facing Moxie Capwell dunk-clutch poses, strict 5x3 row-major. Use Moxie's supplied portrait/gameplay refs as canon: adult human woman, pale skin, lavender eyes, thick very long lavender high ponytail with small gold tie, mature athletic anatomy, purple-and-silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve identity and scale throughout.\n\n1990s arcade basketball pixel-cel art with crisp outlines. Exact 1536x1024 canvas. Fifteen distinct complete figures centered in cells with wide margins and transparent gutters; no overlap, no clipping or edge contact. True-transparent RGBA background. Moxie alone. No ball drawn because gameplay renders it separately. No hoop, rim, net, opponent, court, floor, shadow, glow, effects, background, text or labels.\n\nA clutch dunk: Moxie gathers the invisible ball securely with both hands tight to her chest and keeps it clutched compactly throughout the jump and peak; then opens one hand and releases in a short direct reach at the rim.\n0 sprint approach;\n1 gather and cup hands tightly at sternum;\n2 takeoff tick4 while clutch remains centered at chest;\n3 rise with elbows tucked in;\n4 knees tuck, both hands guard the chest;\n5 continue upward, head turns toward rim;\n6 approach peak with tight compact hold;\n7 peak tick14, both forearms still close to torso;\n8 maintain the clutch hold through a slight shoulder turn;\n9 begin short one-hand delivery toward imaginary hoop;\n10 one-hand release at tick21, right arm snaps forward/up while left hand retracts;\n11 scoring finish tick23 with right hand below rim lane;\n12 descend with arms folding back;\n13 land on bent knees;\n14 regain ready stance.\nKeep the clutch visually distinct from power dunk: hands stay close to chest through frame8, followed by a short release. Empty visible hands; no ball, hoop or rim drawn.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Separate Moxie ball remains tightly at her chest through the rise and peak, then advances to her right hand for the short release at frame10/tick21. No ball drawn.",
+  "ballTrack": {
+    "height": [
+      1,
+      1.2,
+      1.5,
+      1.8,
+      2.2,
+      2.6,
+      2.9,
+      3.1,
+      2.9,
+      3.2,
+      2.4,
+      1.8,
+      1.2,
+      0.8,
+      0.6
+    ],
+    "forward": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      28,
+      35,
+      40,
+      42,
+      42
+    ]
+  },
+  "cleanupNotes": "Backdrop removed with Moxie local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw preserved; isolated components at pack.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Fifteen complete Moxie human poses. Hands stay clasped tightly at chest through takeoff and peak, then separate for a short one-hand release at frame10/tick21, followed by score and landing. Her adult identity, lavender eyes and ponytail/gold tie, purple/silver uniform and proportions remain consistent. No basketball in art; cleaned atlas reviewed."
+  }
+}

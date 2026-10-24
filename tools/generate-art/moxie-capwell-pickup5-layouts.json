@@ -1,0 +1,136 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "pickup",
+    "src": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "clip": "pickup",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-55175b08-95bb-49ba-82b0-e2d32f6b17ab",
+      "imageGenerationId": "exec-55175b08-95bb-49ba-82b0-e2d32f6b17ab",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/moxie-capwell-pickup5-generated-raw.png",
+      "sourceSha256": "434ee5abe32212f970a05009e73d5ae1d524d2fd1cbdec89aa59330a87811ca0",
+      "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pickup5-generated-raw.png",
+      "rawSourceSha256": "434ee5abe32212f970a05009e73d5ae1d524d2fd1cbdec89aa59330a87811ca0",
+      "prompt": "Create one original transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing ball pickup. Use both supplied canon references. Moxie is the same adult human woman with pale skin, lavender-purple eyes, extremely long thick lavender hair in a high ponytail with a small gold tie, athletic adult proportions, purple/silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve face, eyes, ponytail, tie, palette and anatomy. No witch hat, beard, male, monster, robot or different athlete.\n\nDraw readable 1990s arcade basketball art with crisp pixel-cel edges, consistent camera and size. Place five distinct complete full-body Moxie poses in a strict 3-column by 2-row sheet, row-major; the bottom-right sixth cell stays completely transparent and empty. Broad transparent gutters and outer margins. No body part may touch, overlap, or cross a cell boundary. Keep ponytail and hands fully in their cell.\n\nThe separate basketball is never drawn. No ball, sphere, seams, prop, floor, court, hoop, shadow, glow, text, label, border, teammate, opponent or scenery. Both hands are empty in every pose.\n\n0 upright ready stance, eyes on a loose ball implied near the floor;\n1 bend knees and hips, reach one open empty hand toward the ground;\n2 deep athletic crouch, fingertips approach court level, other hand balances;\n3 TOUCH at simulation tick7: fingertips make pickup contact at floor level while remaining visibly empty, knees flexed and back stable;\n4 lift the imaginary ball from the floor and rise into a balanced ready posture.\n\nAll five poses are connected and clearly distinct. Preserve full human anatomy and Moxie\u2019s high ponytail/gold tie, purple-silver uniform and purple shoes. Return only transparent RGBA, with alpha-zero background/gutters and no halo, haze, matte, checkerboard or speckles.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Moxie-specific separate basketball is near the floor on approach, met by her empty fingertips at frame3/tick7, then rises with her to chest level. Never painted into the poses.",
+      "ballTrack": {
+        "height": [
+          0.55,
+          0.35,
+          0.15,
+          0,
+          0.75
+        ],
+        "forward": [
+          7,
+          8,
+          12,
+          14,
+          9
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Five distinct complete Moxie pickup poses. Her pale adult human face, lavender eyes, long high lavender ponytail/gold tie, purple/silver kit and shoes are intact. Figure5 touches court with open empty fingertips at frame3/tick7. Bottom-right cell stays empty; no ball or prop appears."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 78,
+          "y": 10,
+          "w": 360,
+          "h": 479,
+          "component": 1,
+          "area": 83432
+        },
+        {
+          "sourceIndex": 1,
+          "x": 589,
+          "y": 82,
+          "w": 394,
+          "h": 406,
+          "component": 2,
+          "area": 79605
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1091,
+          "y": 136,
+          "w": 422,
+          "h": 355,
+          "component": 3,
+          "area": 80448
+        },
+        {
+          "sourceIndex": 3,
+          "x": 80,
+          "y": 627,
+          "w": 386,
+          "h": 358,
+          "component": 5,
+          "area": 79178
+        },
+        {
+          "sourceIndex": 4,
+          "x": 604,
+          "y": 525,
+          "w": 360,
+          "h": 458,
+          "component": 4,
+          "area": 82057
+        }
+      ],
+      "uniformScale": 0.19206680584551147,
+      "componentIsolation": true,
+      "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses"
+    }
+  }
+]

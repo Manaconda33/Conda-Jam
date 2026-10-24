@@ -1,0 +1,17 @@
+{
+  "athlete": "nova-stitch",
+  "clip": "alley-oop-reverse",
+  "direction": "right",
+  "generationId": "exec-09417cf1-7db4-4f39-82e6-f7426cb71041",
+  "imageGenerationId": "exec-09417cf1-7db4-4f39-82e6-f7426cb71041",
+  "generatedAt": "2026-10-24T01:35:08.717121+00:00",
+  "rawSourceImage": "tools/generate-art/sources/nova-stitch-alley-oop-reverse-generated-raw.png",
+  "rawSourceSha256": "caf71ef3ab374a3913322b8e461d9e76c50a99be72ddbcd131c0689caa8bc890",
+  "prompt": "Use the supplied Nova Stitch sprite as exact identity and style reference. Make a true transparent 1536\u00d71024 RGBA sheet with fifteen distinct complete full-body Nova poses in strict 5 columns by 3 rows, row-major, for an alley-oop reverse dunk. Nova is the same fair-tan athletic human woman, face, long curly teal high ponytail, teal jersey/shorts purple-black trim, black knee pads, teal-black shoes, wristbands. Preserve proportions, costume, hair and camera. One character per cell, no passer/teammate. No basketball or hoop: separate runtime ball is delivered as an overhead lob and then follows Nova's hands; empty hand only. Frames0-1 move into lane and look up; frames2-4 reach up at an incoming lob; frame5 clearly catches overhead with right hand; frames6-7 gather the invisible ball and rotate shoulders and hips away from rim/viewer, showing her back and ponytail; frames8-9 carry the empty ball hand behind and around her crown while staying turned away; frame10 is a clear behind-the-head reverse release from the far side; frames11-12 follow through and unwind during descent; frames13-14 land and recover. The backwards turn and behind-crown reverse finish must be visually distinct from a front-facing power dunk. Fifteen unique connected full-body poses, no duplicate drawings, anatomy correct, full hair/shoes within cell. Right-facing start, back-facing airborne mid-action, right-facing finish. Crisp limited-palette 1990s arcade pixel art with chunky outline, not 3D, anime, glossy or painterly. No background, court, floor, shadow, glow, text, ball, border, checkerboard or matte. Return only sprite sheet.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Fifteen distinct full-body poses reviewed; overhead catch at frame5, shoulders turn away for far-side reverse release at frame10, stable Nova identity and no visible ball."
+  },
+  "eligibleForPacking": true,
+  "separateBall": true
+}

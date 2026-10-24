@@ -4,6 +4,8 @@
 
 Dorian Mycel has a completed **source-only** set covering all29 runtime keys: the four existing baseline clips plus25 new reviewed atlases /255 authored drawings. The independent package check passed source SHA-256, layout, atlas bounds, nonblank unique cells and exact clip-key coverage. Since it awaits roster-order integration after Moxie, these new clips are not included in the registered totals above.
 
+Moxie, Accu, Nova Stitch and Echo Catwalk each have complete **source-only** packages covering all29 runtime keys. Their new source atlases add251 poses for Moxie and241 poses each for Accu, Nova and Echo; source hashes, prompts, layouts, provenance, distinct visible crops and separate-ball records were verified. These are committed but not included in the registered totals until roster-order integration after Keeg.
+
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
 | manaconda | 29 | 293 | 1,305,626 |

@@ -1,0 +1,7 @@
+# Nova Stitch — dunk-power
+
+## Verbatim generation prompt
+
+```text
+Using the supplied Nova Stitch gameplay sprite as the identity and pixel-art reference, create a 1536×1024 transparent RGBA sprite sheet: exactly fifteen distinct complete Nova basketball power-dunk poses in a strict five-column by three-row grid, row-major. One full-body athlete per cell. No basketball or other character; the game ball is a separate runtime sprite, so hands must be empty. Keep same human anatomy, size, face, skin, long curly teal high ponytail, teal jersey and shorts with purple/black trim, black knee pads, teal-black sneakers and wristbands in all cells. Right-facing action, consistent camera and scale. Sequence: 0 balanced approach; 1 accelerate; 2 gather into a controlled run; 3 begin takeoff; 4 drive knee upward and raise empty ball hand; 5 rise; 6 strong airborne extension; 7 carry imaginary ball straight overhead; 8 reach peak; 9 extend one arm directly to rim-height release point; 10 clear one-hand slam release pose; 11 follow-through; 12 descend; 13 land softly on both legs; 14 recover to stable stance. Distinct connected original poses with complete body, face, hair and footwear inside their cells. One empty hand follows the external ball path. Preserve recognizably feminine athletic human proportions; no animal traits, no extra arms, no text, no floor, shadow, glow, checkerboard or matte. Crisp limited-palette 1990s arcade pixel art with chunky dark outlines, not glossy or painterly. Return only the sprite sheet.
+```

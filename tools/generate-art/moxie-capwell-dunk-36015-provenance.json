@@ -1,0 +1,65 @@
+{
+  "athlete": "moxie-capwell",
+  "clip": "dunk-360",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-cc943581-7fab-4749-8e1d-d57de172810a",
+  "imageGenerationId": "exec-cc943581-7fab-4749-8e1d-d57de172810a",
+  "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-36015-cleaned.png",
+  "sourceSha256": "b204b1b9a21dd35b38a84ee0d516187b0c07119b87a55da83fc7111bd1fda8fc",
+  "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-36015-generated-raw.png",
+  "rawSourceSha256": "b23abcd256492c267bdfba7c139aa710d2f4cc1e192466e5ec0c8fb0b47112d9",
+  "prompt": "Create one original transparent RGBA spritesheet of fifteen full-body right-facing Moxie Capwell dunk-360 poses, exactly 5 columns x 3 rows, strict row-major. Use supplied Moxie canon refs: adult human woman, pale skin and lavender-purple eyes, long thick lavender high ponytail with small gold hair tie, athletic mature anatomy, purple/silver basketball uniform with white side panels, wristbands and purple high-tops. Consistent face, body and uniform in every view.\n\nClean crisp readable 1990s arcade basketball pixel-cel art. Exact 1536x1024, fifteen separate complete figures, one centered per cell with transparent gaps/margins, never crop or touch canvas edges. True-transparent RGBA. Moxie alone. The basketball is a separate game object and is never drawn. No hoop/rim/net, opponent, court, floor, shadows, background, effects, glow, labels, text.\n\nA one-handed 360 dunk with a full 360-degree airborne body turn. Make body orientation clearly progress across each view while keeping hair and uniform recognizable:\n0 run-in facing right;\n1 gather and turn shoulders;\n2 takeoff tick4;\n3 airborne three-quarter front;\n4 rotate to side view;\n5 back view, ponytail trails with spin;\n6 three-quarter back;\n7 face turns away while knees tuck;\n8 reach overhead as rotation continues;\n9 three-quarter front returns;\n10 face/front view, nearing a full rotation at peak tick14;\n11 extend right hand to imaginary rim;\n12 release at tick21 after completing the 360;\n13 scoring finish tick23 and begin descending;\n14 land oriented right, knees flex, recovery.\nKeep the left arm extended for balance and anatomy correct. No ball, hoop or background drawn.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Moxie-specific separate ball rotates from her lead-hand lane as her body completes the airborne 360; the release occurs at frame12 / tick21. No ball or hoop in the art.",
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.1,
+      1.8,
+      2.5,
+      3.0,
+      2.8,
+      2.5,
+      2.2,
+      2.4,
+      2.8,
+      3.3,
+      3.2,
+      2.1,
+      1.2,
+      0.8
+    ],
+    "forward": [
+      6,
+      8,
+      10,
+      12,
+      10,
+      8,
+      6,
+      5,
+      8,
+      12,
+      16,
+      18,
+      25,
+      35,
+      42
+    ]
+  },
+  "cleanupNotes": "Smooth generated backdrop removed via Moxie local RGB-contrast cleanup (Gaussian sigma38px; alpha fade contrast21\u201342). Raw source retained and 15 components isolated on pack.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Fifteen full distinct poses in 5x3. Body rotates from right-facing profile through back/three-quarter/front views over the jump and returns to a right-facing landing. Moxie identity, lavender ponytail/gold tie, mature human build, purple/silver outfit remain consistent. Right hand release frame12/tick21; scoring and landing follow. No ball drawn; alpha cleanup reviewed."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "athlete": "moxie-capwell",
+  "clip": "pass-behind",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-a90d7041-d4cf-49ca-a4df-6a1bff91ec40",
+  "imageGenerationId": "exec-a90d7041-d4cf-49ca-a4df-6a1bff91ec40",
+  "sourceImage": "tools/generate-art/sources/moxie-capwell-pass-behind6-generated-raw.png",
+  "sourceSha256": "7742c0841efccb9ed5c23b987f85134ac21421fdefbd495fbeb5160b8a11c195",
+  "rawSourceImage": "tools/generate-art/sources/moxie-capwell-pass-behind6-generated-raw.png",
+  "rawSourceSha256": "7742c0841efccb9ed5c23b987f85134ac21421fdefbd495fbeb5160b8a11c195",
+  "prompt": "Create one original 1536\u00d71024 true-transparent RGBA production sprite sheet for Moxie Capwell of Moonmorel Hex performing a right-facing behind-the-back pass. Match both supplied canon references. Moxie is the same adult human woman with pale skin, lavender-purple eyes, long thick lavender hair in a high ponytail tied with a small gold band, mature athletic human anatomy, purple/silver uniform with white side panels, purple wristbands and purple high-top shoes. Preserve her face, ponytail silhouette, tie, colors and proportions across all six drawings. No male, witch hat, beard, monster, robot or different athlete.\n\nUse crisp, readable 1990s arcade basketball sprite art with chunky pixel-cel shading and consistent camera/scale. Output six distinct full-body poses in a strict 3-column by 2-row row-major grid. Exactly one complete figure per cell, full ponytail to shoes, with broad transparent gutters and outer margins; no overlap, touching, clipping or crops. Keep both hands empty: basketball is always a separate game object, never drawn. No ball, sphere, seams, hoop, rim, court, floor, ground shadow, glow, effects, text, labels, borders, teammate or scenery.\n\nThis is a behind-the-back pass, visibly different from a chest pass. Sequence:\n0 ready right-facing stance, arms relaxed;\n1 gather stance, bring hands low toward the hip while rotating shoulders;\n2 one empty ball-miming hand sweeps behind Moxie\u2019s lower back, torso turns enough to show the pass path, other arm balances;\n3 RELEASE at simulation tick7: the far-side hand whips from behind her back toward image-right with open empty fingers;\n4 arm follows through out from behind her body, shoulders unwind, hair trails naturally;\n5 balanced recovery, both empty hands visible and feet settled.\n\nAll six poses should be distinct and connected, with clear human anatomy and no hand, wrist, hair or arm overlap that hides her silhouette. Preserve Moxie\u2019s canon face, lavender eyes, high ponytail and gold tie, purple/silver uniform, wristbands and shoes. Return only a true-transparent RGBA sprite sheet with clean alpha-zero gutters and no haze, matte, checkerboard, speckles or colored halo.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Moxie-specific separate basketball follows her hand behind the waist and releases backward at frame3/tick7. No ball is drawn in the poses.",
+  "ballTrack": {
+    "height": [
+      1.05,
+      0.9,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "forward": [
+      5,
+      -3,
+      -12,
+      -14,
+      -8,
+      4
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Six distinct complete Moxie human poses. The high lavender ponytail and gold tie, pale face, adult human anatomy, purple/silver uniform and shoes remain consistent with the canon refs. Torso turns to show a behind-the-back sweep; one open hand releases backward at frame3/tick7. No ball appears."
+  }
+}

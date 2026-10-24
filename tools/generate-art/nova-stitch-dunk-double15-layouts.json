@@ -1,0 +1,264 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "dunk-double",
+    "src": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "b103f28809f1a3ed5a29e7237d93291b9680061d0d30ec519fe4919e4f376a4c"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "4d311db4e40e629bea2c6500c842ac286d4185376ec14114b3dc6ade03e8ef4c"
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "b0f9213e85e661c722816e27284eed285f6fdad6f39edd7d259d12d3fa45f607"
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "dc6ec152dac01ce7aa4858e7723e9db885a84f218cc926dbb4babd9d62841e2b"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "0e1681821a7cac48c0118ae18af028f492421aeb311798b5e245ba3c6d4effca"
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "4bee57231ce9ec9f5f3c1a88d1f402255ab0650dc063b4b6717a4afc70f2a94d"
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "ce0a53e56596b8c56f85828a8992e73b29c2663d06a745b692dccd6b03bcd698"
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "e0fc19cf983b8a1d24952812eb21258b5b0acd7b09849127216e9c613f7cd04b"
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "a4bde6af08a638901e7e7d889ed298ae96d3a994cfba5b9ca1248a63105471df"
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "aedfe8ca25297f964b27465c2bd4f85710f6c77e13ff6e1bdf6f342996b3500d"
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "ce4779abfe487180c8ee3aebd98b81fb0a4cd91aba6530729d5cb0ce8209ce32"
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "c79f4f99ed2fd026f7030ad5eba58d954d8a784b8883a20634641f065faadfcc"
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "2d9d1ec4ca3d6d654706f47eee4e1ddf7fde0c09d31723ad5c540ad815e2e51b"
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "f845e777214ae051c302e42e6960d72d7a9cfb1668a5f0b30d8b93a4b0226169"
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "80af7228e6264318508eda7f457e51b978b2f592c973930bedfa6afca4160f45"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "dunk-double",
+      "direction": "right",
+      "generationId": "exec-0aa6914c-f251-4882-8687-68701ccfdd04",
+      "imageGenerationId": "exec-0aa6914c-f251-4882-8687-68701ccfdd04",
+      "generatedAt": "2026-10-24T01:28:47.428729+00:00",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-double-generated-raw.png",
+      "rawSourceSha256": "cfc12497d5b6e3efef4058736d6662bde9dd847d90d0fc592cbb4bb369892e20",
+      "prompt": "Reference the supplied Nova Stitch sprite for exact identity. Produce an original transparent RGBA 1536x1024 sprite sheet, fifteen unique complete full-body drawings in 5 columns x 3 rows, row-major, of Nova performing a double-pump dunk. No basketball in any cell (separate runtime ball), no rim, other person, court, floor, shadow or text. Preserve Nova\u2019s fair-tan athletic human woman anatomy, teal curly high ponytail, same face, teal/purple/black trim uniform, knee pads, teal-black sneakers, wristbands. Right-facing start, consistent size and pixel-art style. Both hands empty. The action must clearly show TWO distinct raised-hand pumps: first gather and launch, first high overhead ball-hand pump at frames4-5, pull that empty hand visibly back down toward chest/waist at frames6-7 while still airborne, then spring into a second higher pump with the same hand up at frames8-10 for the final dunk release pose at frame10. The second reach is higher and stronger. Then follow through, land and recover. Frame plan: 0 approach; 1 gather; 2 takeoff; 3 rise; 4 first pump up; 5 first high pump; 6 retract hand to chest; 7 lower second pump; 8 re-cock and extend; 9 rise high; 10 second high release; 11 follow through; 12 descend; 13 land; 14 ready. All cells different; complete anatomy and figure visible. Crisp limited-palette 1990s arcade sprite with chunky dark outlines, no glossy 3D, photorealism or painterly style. True alpha background, no checkerboard/matte. Return only the sprite sheet.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Fifteen distinct full-body poses reviewed; first high pump is followed by a lowered/retracted hand before the second high release; stable Nova identity; ball absent."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-double-generated-raw.png",
+      "sourceSha256": "cfc12497d5b6e3efef4058736d6662bde9dd847d90d0fc592cbb4bb369892e20",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 40,
+          "y": 108,
+          "w": 234,
+          "h": 269,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 372,
+          "y": 135,
+          "w": 209,
+          "h": 242,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 676,
+          "y": 99,
+          "w": 193,
+          "h": 278,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 976,
+          "y": 47,
+          "w": 187,
+          "h": 318,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1278,
+          "y": 8,
+          "w": 196,
+          "h": 345,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 55,
+          "y": 387,
+          "w": 195,
+          "h": 288,
+          "component": 7
+        },
+        {
+          "sourceIndex": 6,
+          "x": 389,
+          "y": 419,
+          "w": 214,
+          "h": 261,
+          "component": 9
+        },
+        {
+          "sourceIndex": 7,
+          "x": 676,
+          "y": 422,
+          "w": 201,
+          "h": 275,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 959,
+          "y": 418,
+          "w": 208,
+          "h": 270,
+          "component": 8
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1268,
+          "y": 360,
+          "w": 209,
+          "h": 337,
+          "component": 6
+        },
+        {
+          "sourceIndex": 10,
+          "x": 54,
+          "y": 666,
+          "w": 219,
+          "h": 348,
+          "component": 12
+        },
+        {
+          "sourceIndex": 11,
+          "x": 378,
+          "y": 735,
+          "w": 262,
+          "h": 270,
+          "component": 14
+        },
+        {
+          "sourceIndex": 12,
+          "x": 682,
+          "y": 752,
+          "w": 174,
+          "h": 262,
+          "component": 15
+        },
+        {
+          "sourceIndex": 13,
+          "x": 964,
+          "y": 784,
+          "w": 224,
+          "h": 230,
+          "component": 16
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1294,
+          "y": 732,
+          "w": 171,
+          "h": 282,
+          "component": 13
+        }
+      ],
+      "uniformScale": 0.26436781609195403,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "atlasPath": "public/assets/animation/nova-stitch-dunk-double-right.webp",
+      "atlasSha256": "fd6ec2a5b1a2495de2aa29ea5cad4dbf7dac61fc8db8dab9c3b84719878dc94d",
+      "atlasBytes": 52654
+    }
+  }
+]

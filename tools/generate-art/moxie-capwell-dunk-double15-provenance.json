@@ -1,0 +1,65 @@
+{
+  "athlete": "moxie-capwell",
+  "clip": "dunk-double",
+  "direction": "right",
+  "canonicalSection": "J.03",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-2b2395cd-3d7b-489c-9e65-1fe0c9487ef7",
+  "imageGenerationId": "exec-2b2395cd-3d7b-489c-9e65-1fe0c9487ef7",
+  "sourceImage": "tools/generate-art/sources/moxie-capwell-dunk-double15-cleaned.png",
+  "sourceSha256": "572ff25ad4aa9dc0dab2a5db93bb41a840d8075911ae57f16f1364857d179188",
+  "rawSourceImage": "tools/generate-art/sources/moxie-capwell-dunk-double15-generated-raw.png",
+  "rawSourceSha256": "3eb15a972389adcb9cf36e700b795051603850baf632b00b4b1b12f88f8fbc6b",
+  "prompt": "Create one original transparent RGBA sheet containing exactly fifteen complete full-body right-facing Moxie Capwell basketball dunk-double poses, 5x3 row-major. Use Moxie's attached portrait/gameplay refs strictly: adult human woman, pale skin, lavender eyes, very long lavender high ponytail and gold tie, mature powerful athletic anatomy, purple-and-silver uniform with white side panels, purple wristbands, purple high tops. Keep consistent identity and anatomy.\n\nCrisp readable 1990s arcade basketball pixel-cel sprites. 1536x1024 canvas, fifteen separate poses centered in their cells, wide transparent margins/gutters, no crop, overlap or canvas-edge contact. True transparent RGBA. Moxie alone. Basketball is a separate game object, not drawn. No hoop, rim, net, opponent, court, floor, shadow, background, effect, glow, text or label.\n\nTwo-handed double-hand dunk: Moxie gathers and raises both empty hands together above her head, then extends both arms and drives the invisible ball down through the imaginary rim, releases, descends and lands.\n0 approach run;\n1 gather;\n2 takeoff at tick4;\n3 rise, both hands lift;\n4 knees tuck, hands come together overhead;\n5 rise toward apex;\n6 reach both hands high;\n7 peak tick14, both hands over crown;\n8 bring both arms forward toward imaginary hoop;\n9 two-hand slam extension;\n10 release at tick21 with hands moving down;\n11 scoring finish tick23, arms below imaginary rim;\n12 descend;\n13 land absorbing impact on flexed knees;\n14 balanced recovery.\nKeep two arms symmetric but natural with correct shoulders/elbows; long ponytail streams behind. Show all body parts. No visible ball or hoop anywhere.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Moxie-specific separate ball follows both hands overhead and down the two-hand lane, releasing at frame10 / tick21; no ball is drawn.",
+  "ballTrack": {
+    "height": [
+      1,
+      1.2,
+      1.4,
+      1.8,
+      2.3,
+      2.8,
+      3.2,
+      3.3,
+      3.2,
+      2.8,
+      2.2,
+      1.7,
+      1.2,
+      0.7,
+      0.6
+    ],
+    "forward": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      17,
+      18,
+      17,
+      16,
+      20,
+      28,
+      34,
+      39,
+      42
+    ]
+  },
+  "cleanupNotes": "Backdrop removed via local RGB-contrast alpha cleanup (Gaussian sigma38px; alpha fade contrast21\u201342); raw source retained and fifteen pose components isolated at pack.",
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Fifteen complete Moxie poses in 5x3 layout with consistent human anatomy and identity. Two hands gather and rise overhead, remain together through peak, extend forward/down for the double-hand finish, release at frame10/tick21, then descend and land. No ball is drawn; backdrop cleanup and packed atlas reviewed."
+  }
+}
