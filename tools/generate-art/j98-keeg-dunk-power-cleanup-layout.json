@@ -1,0 +1,354 @@
+{
+  "source": "tools/generate-art/sources/j98-keeg-dunk-power-generated-raw.png",
+  "sourceSha256": "9a68e2f1bd94498e47a079bc74412b0ee3fd257c93657c38ca1494b7e8b093a6",
+  "cleanedSource": "tools/generate-art/sources/j98-keeg-dunk-power15.png",
+  "cleanedSourceSha256": "e1a077991759d139ad74f17c5ecdb4ffa73fee8fbee0a604fd234b5716c601b2",
+  "method": "detect 15 alpha-connected figures; assign only each figure component and its nearest antialiased pixels; crop transparent halos; uniformly scale while preserving aspect; center in a 5x3 grid and bottom align with at least10px cell clearance",
+  "frames": [
+    {
+      "sourceIndex": 0,
+      "component": 3,
+      "rawBounds": [
+        42,
+        8,
+        251,
+        329
+      ],
+      "destination": [
+        57,
+        30,
+        193,
+        300
+      ],
+      "scale": 0.94069,
+      "marginsPx": [
+        57,
+        30,
+        57,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 1,
+      "component": 5,
+      "rawBounds": [
+        381,
+        31,
+        535,
+        330
+      ],
+      "destination": [
+        385,
+        33,
+        151,
+        297
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        78,
+        33,
+        78,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 2,
+      "component": 6,
+      "rawBounds": [
+        675,
+        32,
+        852,
+        328
+      ],
+      "destination": [
+        681,
+        37,
+        174,
+        293
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        67,
+        37,
+        67,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 3,
+      "component": 1,
+      "rawBounds": [
+        982,
+        6,
+        1183,
+        330
+      ],
+      "destination": [
+        983,
+        30,
+        185,
+        300
+      ],
+      "scale": 0.931925,
+      "marginsPx": [
+        61,
+        30,
+        61,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 4,
+      "component": 2,
+      "rawBounds": [
+        1271,
+        6,
+        1512,
+        329
+      ],
+      "destination": [
+        1271,
+        30,
+        222,
+        300
+      ],
+      "scale": 0.934829,
+      "marginsPx": [
+        42,
+        30,
+        43,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 5,
+      "component": 17,
+      "rawBounds": [
+        49,
+        347,
+        268,
+        665
+      ],
+      "destination": [
+        49,
+        371,
+        208,
+        301
+      ],
+      "scale": 0.958471,
+      "marginsPx": [
+        49,
+        30,
+        50,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 6,
+      "component": 18,
+      "rawBounds": [
+        356,
+        347,
+        607,
+        631
+      ],
+      "destination": [
+        336,
+        392,
+        248,
+        280
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        29,
+        51,
+        30,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 7,
+      "component": 14,
+      "rawBounds": [
+        651,
+        335,
+        902,
+        662
+      ],
+      "destination": [
+        653,
+        371,
+        229,
+        301
+      ],
+      "scale": 0.928889,
+      "marginsPx": [
+        39,
+        30,
+        40,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 8,
+      "component": 13,
+      "rawBounds": [
+        975,
+        327,
+        1206,
+        667
+      ],
+      "destination": [
+        973,
+        371,
+        204,
+        301
+      ],
+      "scale": 0.893056,
+      "marginsPx": [
+        51,
+        30,
+        52,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 9,
+      "component": 12,
+      "rawBounds": [
+        1237,
+        319,
+        1502,
+        667
+      ],
+      "destination": [
+        1268,
+        371,
+        229,
+        301
+      ],
+      "scale": 0.872348,
+      "marginsPx": [
+        39,
+        30,
+        39,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 10,
+      "component": 26,
+      "rawBounds": [
+        40,
+        674,
+        292,
+        1004
+      ],
+      "destination": [
+        38,
+        713,
+        230,
+        300
+      ],
+      "scale": 0.920491,
+      "marginsPx": [
+        38,
+        30,
+        39,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 11,
+      "component": 24,
+      "rawBounds": [
+        358,
+        665,
+        582,
+        988
+      ],
+      "destination": [
+        357,
+        713,
+        206,
+        300
+      ],
+      "scale": 0.93775,
+      "marginsPx": [
+        50,
+        30,
+        51,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 12,
+      "component": 29,
+      "rawBounds": [
+        668,
+        680,
+        886,
+        979
+      ],
+      "destination": [
+        660,
+        716,
+        215,
+        297
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        46,
+        33,
+        47,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 13,
+      "component": 32,
+      "rawBounds": [
+        992,
+        697,
+        1178,
+        1013
+      ],
+      "destination": [
+        987,
+        713,
+        176,
+        300
+      ],
+      "scale": 0.958722,
+      "marginsPx": [
+        65,
+        30,
+        66,
+        11
+      ]
+    },
+    {
+      "sourceIndex": 14,
+      "component": 30,
+      "rawBounds": [
+        1303,
+        680,
+        1484,
+        1013
+      ],
+      "destination": [
+        1302,
+        713,
+        161,
+        300
+      ],
+      "scale": 0.906586,
+      "marginsPx": [
+        73,
+        30,
+        73,
+        11
+      ]
+    }
+  ]
+}

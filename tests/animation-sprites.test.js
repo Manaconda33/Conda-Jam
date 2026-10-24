@@ -410,6 +410,29 @@ test('Keeg selects eight reviewed layup poses with a separate release hand track
   tick+=animationClips.layup.frames[frame].duration;
  }
 });
+test('Keeg selects fifteen reviewed power-dunk poses with his separate ball releasing at tick21',()=>{
+ const id='keeg',character=animationAssetManifest.characters[id],clip=character?.directions?.right?.['dunk-power'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(character?.mirrorReview?.canonicalSection,'K.03');
+ assert.ok(clip,'registered power-dunk atlas');assert.equal(clip.reviewed,true);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'e1a077991759d139ad74f17c5ecdb4ffa73fee8fbee0a604fd234b5716c601b2');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.ballTrack.height[10],2.45);assert.equal(clip.provenance.ballTrack.forward[10],15);
+ const release=anchorTick('dunk-power','release');assert.equal(release,21);
+ assert.equal(sampleBallForward('dunk-power',release,id),15);assert.equal(sampleBallHeight('dunk-power',release,id),2.45);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-power',tick).frame,frame,'runtime maps Keeg power-dunk pose '+frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-power',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-power'].frames[frame].duration;
+ }
+});
 test('Keeg selects eight reviewed reverse-layup poses with his separate ball releasing at tick12',()=>{
  const id='keeg',character=animationAssetManifest.characters[id],clip=character?.directions?.right?.['layup-reverse'];
  assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
