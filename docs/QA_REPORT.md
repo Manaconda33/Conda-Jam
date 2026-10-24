@@ -14,6 +14,16 @@
 - Strict animation audit remains incomplete as required: 667 clips / 5,859 authored drawings / 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings. No accepted Keeg J.105 scythe art yet: two generated sheets are rejected for poses touching/crossing cell margins; both sources and exact prompts are preserved.
 - The gameplay/accessibility checkpoint is committed and pushed as `8c54309`. Pages run #156 passed and deployed it: https://github.com/Manaconda33/Conda-Jam/actions/runs/40097847308. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=8c54309.
 
+## Continuation validation — 2026-10-24
+
+- Baseline: current `origin/main` at `f2b0a22`; Pages run #157 passed for gameplay/accessibility checkpoint `31224b3`.
+- `npm test`: PASS —28/28 test files. `node tests/game-core.test.js`: PASS —41/41 individual simulation cases, including made buzzer shots and dunks resolving a final-period lead or tie-to-overtime.
+- `npm run lint`: PASS —18 modules. `npm run validate:content`: PASS —35 franchises /105 unique athletes /35 captains.
+- `npm run simulate:league`: PASS —100 matches /851,533 ticks /4 overtime periods. `python3 -m unittest tools/generate-art/test_package_motion.py`: PASS —55 checks. `npm run build`: PASS.
+- `npm run test:e2e`: PASS —standalone offline startup, settings and dialogs, controls, touch, substitutions, actions, nonhuman matchups, full default-length match and season progression in Chromium. E2E screenshots were restored after review.
+- Keeg J.105 generation review: five candidates rejected; three new candidates saved with prompt/source/provenance records and black/white grid previews. Rejected images were not cleaned, packed, or registered. No accepted scythe atlas exists.
+- Refreshed strict report-only audit:667 clips /5,859 authored drawings /105 athletes;2,436 missing clips,3 target shortfalls,4 inherited prompt findings. Issue #3 remains incomplete.
+
 # QA report
 
 ## Gameplay and settings polish — shot-clock pass expiration and keyboard capture cancellation

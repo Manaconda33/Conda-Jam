@@ -4,7 +4,7 @@
   "direction": "right",
   "canonicalSection": "K.03",
   "eligibleForPacking": false,
-  "status": "blocked-before-generation",
+  "status": "five-candidates-rejected",
   "generatedAt": "2026-10-24",
   "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-prompt.md",
   "promptVerbatim": true,
@@ -27,12 +27,53 @@
   "atlasPath": null,
   "atlasSha256": null,
   "layoutFile": null,
-  "rejectedGenerations": [],
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-04a0d663-afc4-47d4-b28c-6e1d86e9d478",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-attempt-01-rejected.png",
+      "sourceSha256": "12af612a3f1b4c33fd40056a11789d87cc1413ad3807cdd01918a701231094ea",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-01-review.png",
+      "reason": "Pose10 raised hand crosses the top edge of its cell; required safe margins fail."
+    },
+    {
+      "generationId": "exec-89c23132-73b9-45fc-a718-a2ac1714cc7b",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-attempt-02-rejected.png",
+      "sourceSha256": "06b2c70f9dfb3db592580d4d7f8213d61bedc75ed2be3fc88b54c2798bee7c01",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-02-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-02-review.png",
+      "reason": "Multiple hands, hat parts, and feet touch or cross cell margins, including poses1,2,6,7,10–13."
+    },
+    {
+      "generationId": "exec-45c28032-fad4-44bb-9223-3100a9cbe291",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-attempt-03-review.png",
+      "sourceSha256": "b435795ec5d1dfad808280d43c2bbdf471730cc7409aa1b58b25bbf241c8bb5a",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-03-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-03-review.png",
+      "reason": "Gather poses1 and2 contain a visible basketball; silhouettes lack safe cell margins; five nontransparent pixels touch the outer sheet edge."
+    },
+    {
+      "generationId": "exec-c7b23b96-d5e0-4df7-8294-8be123bc7dd1",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-attempt-04-review.png",
+      "sourceSha256": "f209a7db086a42f81d94b40964f5b628f36a68013ccc68d9091b3f2822450c77",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-04-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-04-review.png",
+      "reason": "Gather poses1 and2 contain a visible basketball; hat, hand, and shoe margins are below 48 pixels."
+    },
+    {
+      "generationId": "exec-062ce935-4ecd-4670-82bd-d0bf771cf16d",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-attempt-05-review.png",
+      "sourceSha256": "a50088ae6d1a1b905131ae0560c4599ac01c37850d5bdd1438bb1b03fbfccf60",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-retry-05-prompt.md",
+      "previewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-attempt-05-review.png",
+      "reason": "Gather poses1 and2 still contain a visible basketball; silhouette margins miss 50 pixels in every row, with several edge-touching figures."
+    }
+  ],
   "ballPolicy": "The game basketball is separately rendered. It follows Keeg's ball-miming hand through the low rear hip sweep and diagonal rise, releases at pose10/tick21, and is not painted into the drawings.",
   "plannedBallTrack": {
     "status": "planning-only; not visually validated",
     "height": [0.95, 1.1, 1.2, 0.95, 0.8, 0.75, 0.95, 1.4, 2.0, 2.5, 2.4, 2.0, 1.35, 0.7, 0.55],
     "forward": [6, 7, 4, -2, -8, -10, -5, -1, 4, 10, 13, 10, 8, 5, 6]
   },
-  "nextAction": "Retry image generation after the provider quota resets; review an acceptable fifteen-pose source before cleanup and atlas packaging."
+  "nextAction": "Revise generation/recomposition approach to prevent painted basketballs and enforce complete-pose cell margins; accept no source until alpha, pose separation, anatomy, sequence, and margins pass review."
 }

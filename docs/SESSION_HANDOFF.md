@@ -14,6 +14,14 @@
 - Strict animation audit remains incomplete as required: 667 clips / 5,859 authored drawings / 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings. No accepted Keeg J.105 scythe art yet: two generated sheets are rejected for poses touching/crossing cell margins; both sources and exact prompts are preserved.
 - The gameplay/accessibility checkpoint is committed and pushed as `8c54309`. Pages run #156 passed and deployed it: https://github.com/Manaconda33/Conda-Jam/actions/runs/40097847308. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=8c54309.
 
+## Continuation checkpoint — 2026-10-24
+
+- Started from current `origin/main` `f2b0a22` (Pages run #157 passed); the original `work` branch was behind by three deployment/handoff commits. Working branch: `codex/jamverse-buzzer-art-retries`.
+- Juniper is already complete at29/29 clips /293 drawings, including `dunk-power`; Keeg is26/29 and J.105 `dunk-scythe` is the current roster-ordered gap. Image generation is available, but five reviewed Keeg sheets are rejected. Three new source sheets, exact prompts, generation IDs/hashes, notes and black/white grid previews are retained. No accepted source, layout, or atlas exists.
+- Added made buzzer shot/dunk regression coverage for a final-period lead and tie-to-overtime. Focused game-core test:41/41. Full `npm test`:28/28 test files; lint, content validation, 100-match simulation (851,533 ticks /4 OT), 55 packer checks, build and Chromium offline/full-match/season E2E pass.
+- Strict report-only audit refreshed at `2026-10-24T13:59:40.372Z`:667 clips /5,859 authored drawings /105 athletes;2,436 missing clips,3 target shortfalls and4 inherited prompt findings. The rejected candidates do not change registered coverage.
+- Continue with a prompt/generation approach that keeps every complete pose safely inside its cell and leaves both hands empty in gather frames. Do not clean or pack a rejected sheet. Keep the separate Keeg ball track pending until an accepted source can be visually reviewed.
+
 # Session handoff
 
 ## Gameplay polish — 24-second pass expiration

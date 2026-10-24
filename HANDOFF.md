@@ -1,3 +1,11 @@
+## Continuation checkpoint — 2026-10-24
+
+- Started from current `origin/main` `f2b0a22` (Pages run #157 passed); the original `work` branch was behind by three deployment/handoff commits. Working branch: `codex/jamverse-buzzer-art-retries`.
+- Juniper is already complete at29/29 clips /293 drawings, including `dunk-power`; Keeg is26/29 and J.105 `dunk-scythe` is the current roster-ordered gap. Image generation is available, but five reviewed Keeg sheets are rejected. Three new source sheets, exact prompts, generation IDs/hashes, notes and black/white grid previews are retained. No accepted source, layout, or atlas exists.
+- Added made buzzer shot/dunk regression coverage for a final-period lead and tie-to-overtime. Focused game-core test:41/41. Full `npm test`:28/28 test files; lint, content validation, 100-match simulation (851,533 ticks /4 OT), 55 packer checks, build and Chromium offline/full-match/season E2E pass.
+- Strict report-only audit refreshed at `2026-10-24T13:59:40.372Z`:667 clips /5,859 authored drawings /105 athletes;2,436 missing clips,3 target shortfalls and4 inherited prompt findings. The rejected candidates do not change registered coverage.
+- Continue with a prompt/generation approach that keeps every complete pose safely inside its cell and leaves both hands empty in gather frames. Do not clean or pack a rejected sheet. Keep the separate Keeg ball track pending until an accepted source can be visually reviewed.
+
 ## Current checkpoint — portrait court, touch accessibility and audit refresh (Pages run #157 passed)
 
 - Portrait play no longer crops the fixed 480×360 court into a narrow strip: mobile CSS letterboxes the full court. The 390×844 Chromium screenshot is `artifacts/screenshots/mobile-court.png`.

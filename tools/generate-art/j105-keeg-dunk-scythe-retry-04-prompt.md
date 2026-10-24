@@ -1,0 +1,13 @@
+# J.105 — Keeg scythe dunk — retry 04
+
+## Verbatim generation prompt
+
+```text
+Make a new isolated transparent RGBA sprite sheet for JAMVERSE '96, Keeg of the Moonmorel Hex, using the attached accepted Keeg sheet only as identity/style reference. Original 1536x1024 sheet, exactly 15 distinct complete full-body poses in strict 5-column x 3-row row-major grid. Each 307x341 cell contains one centered pose scaled to at most 68% cell height. Keep every hat tip, mushroom ornament, fingertip and shoe at least 48px inside its own cell edges on all sides; broad clear transparent gutters; no touching, crossing, cropping or overlap. Keep transparent true alpha, no checkerboard.
+
+Keeg is an adult athletic human man, black hair, neat close black beard, expressive face, complete very tall ornate purple witch hat with silver trim and mushroom ornaments, consistent layered purple/lavender/silver athletic kit, belt and shoes. Natural human anatomy, exactly two arms and legs. No monster, horns, robe, cape, staff, ball, sphere, scythe, blade, prop or extra object. Empty hands mime the separately rendered game ball. 'Scythe' refers only to his one-handed motion: right-facing approach, waist gather, plant, jump, low broad hand sweep behind hip in poses 3-5, reverse into one rising diagonal across torso in 6-9, single extended open-palm release in pose10 at tick21, empty follow-through, descent, two-foot landing and balanced recovery in 11-14. Pose0 approaches image-right; 1 waist gather; 2 plant; 3 takeoff hand drops behind hip; 4 low airborne rear sweep; 5 deepest sweep; 6 upward reversal; 7 hand beside head but forward/right of hat with clear gap; 8 ascent; 9 high cocked hand forward/right of hat; 10 sole release, open empty hand extended diagonally forward/up; 11 follow-through; 12 descent; 13 flexed two-foot landing; 14 recovery. Poses0-9 retain possession; 11-14 are empty handed. Keep hands at least 30 pixels from hat. No background, gradient, checkerboard, matte, shadow, halo, haze, fringe, border, court, hoop, floor, text or labels. Crisp arcade sprite illustration. Return only this sheet.
+```
+
+## Review
+
+Generation `exec-c7b23b96-d5e0-4df7-8294-8be123bc7dd1`; source `sources/j105-keeg-dunk-scythe-attempt-04-review.png`; SHA-256 `f209a7db086a42f81d94b40964f5b628f36a68013ccc68d9091b3f2822450c77`. It is retained for review only and is **rejected**. The 1536×1024 RGBA output has transparent exterior at the sampled corners and is readable on black and white composite previews, but visible pose silhouettes violate the requested 48-pixel cell margins (e.g. top-row hat/hand/foot clearances are substantially smaller). An orange basketball is painted between the hands in gather poses 1 and 2. Do not clean, pack, or register this sheet.

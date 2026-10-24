@@ -550,6 +550,27 @@ test('a live shot or dunk gets to resolve after the period clock reaches zero', 
   }
 });
 
+test('made buzzer shots and dunks score before final-period resolution',()=>{
+  const hoop=court.hoops[1];
+  for(const attempt of [
+    {mode:'shot',id:'buzzer-made-shot',startScore:[0,1],expectedPhase:'final',expectedWinner:0},
+    {mode:'dunk',id:'dunk-buzzer-made',startScore:[0,2],expectedPhase:'break',expectedWinner:null},
+  ]){
+    const match=createMatch({quarterSeconds:1,seed:28});
+    match.period=4;match.clock=1/60;match.score=[...attempt.startScore];match.possession=0;
+    const shooter=match.players[0];
+    for(const player of match.players)player.hasBall=false;
+    Object.assign(match.ball,{mode:attempt.mode,ownerId:null,lastTouch:shooter.id,x:hoop-1,y:50,z:2.7,vx:2,vy:0,vz:-.2,made:true,scored:false,rim:false,backboard:false,targetX:hoop,targetY:50,targetZ:2.6,attemptId:attempt.id,value:2});
+    stepMatch(match,neutralInputs(match));
+    assert.deepEqual(match.score,[2,attempt.startScore[1]],`${attempt.mode} scores before the horn is resolved`);
+    assert.equal(match.phase,attempt.expectedPhase);
+    assert.equal(match.winner,attempt.expectedWinner);
+    assert.equal(shooter.points,2);
+    assert.equal(shooter.dunks,attempt.mode==='dunk'?1:0);
+    assert.equal(match.ball.mode,'dead');
+  }
+});
+
 test('three-point scoring follows the regulation elliptical arc and corner segments in both directions',()=>{
   const cornerOffset=court.arcX*Math.sqrt(1-((50-court.cornerY)/court.arcY)**2);
   for(const team of [0,1]){
