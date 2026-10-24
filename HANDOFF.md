@@ -4,7 +4,7 @@
 - Accessibility: Settings, franchise picker, season, cup, standings, and career dialogs now use their visible headings as accessible names. Chromium role/name assertions cover all six.
 - Verification: `npm test` 413/413; `npm run lint` 18 modules; `npm run validate:content` 35/105; `npm run simulate:league` 100 matches / 853,336 ticks / 6 overtime periods; atlas packer 55 tests; build and full Chromium offline/match/season journey pass.
 - Strict animation audit remains incomplete as required: 667 clips / 5,859 authored drawings / 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings. No accepted Keeg J.105 scythe art yet: two generated sheets are rejected for poses touching/crossing cell margins; both sources and exact prompts are preserved.
-- Source changes have not yet been committed or deployed. Latest confirmed Pages build remains run #154 at `aca8ac9`; `gh run list` currently returns GitHub API Forbidden in this environment, so later workflow status cannot be verified here.
+- The gameplay/accessibility checkpoint is committed and pushed as `8c54309`. Pages run #156 passed and deployed it: https://github.com/Manaconda33/Conda-Jam/actions/runs/40097847308. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=8c54309.
 
 ## Latest runtime checkpoint — J.104 art plus gameplay fixes; Pages run #154 succeeded
 
