@@ -1,0 +1,27 @@
+# J.96 — Keeg layup
+
+## Action and canon
+
+Eight right-facing layup poses for Keeg, canonical K.03. The separate basketball follows his Keeg-specific right-hand path and releases at pose4 / tick10. Keeg steps, rises with the full tall hat clear of his arm, flicks the right hand, follows through with both hands empty, and lands balanced. His adult human anatomy, black hair, close beard, ornate purple witch hat with silver trim and mushrooms, and lavender/purple/silver basketball kit stay consistent. K.03 approves body mirroring.
+
+## Generation history
+
+- Rejected generation `exec-10fb6dae-f39d-47d6-9577-0763f66d4591`, raw `tools/generate-art/sources/j96-keeg-layup-generated-raw.png`, SHA-256 `47fa7cf26f3984db1c4fa62a1f207bfc55b2e5610f17394a0bce5115514fc1f2`. Frame5 folded its empty follow-through arm backward into the hat brim and ornaments.
+- Accepted correction `exec-495f8dd7-ec8a-4396-9319-c9e2b5180b63`, corrected raw `tools/generate-art/sources/j96-keeg-layup-correction-raw.png`, SHA-256 `2a19b5b775289c79927ea84f1587e674f5a0ad2d8b7998dcf0952aceae9332c9`. Only frame5 was corrected: the hand now follows forward at shoulder height, with clear separation from the hat.
+- Cleanup `tools/generate-art/clean-keeg-layup8.py` isolates eight complete alpha-connected bodies, removes pixels owned by adjacent components, uniformly scales and centers them inside 384×512 cells with at least34px transparent margins, and aligns their ground baseline. Cleaned source `tools/generate-art/sources/j96-keeg-layup8.png` SHA-256 `ad8e83a97b612596d3e3e308ee36a65b3e1e1e9cd927ac39c9dab2b5acc4e4d9`. Raw/clean bounds and scale factors are in `tools/generate-art/j96-keeg-layup-cleanup-layout.json`.
+
+## Exact initial prompt
+
+> Create an original production sprite sheet for JAMVERSE '96, transparent RGBA, exact 1536x1024 canvas arranged in an exact 4-column by2-row grid of 384x512 cells. Eight distinct full-body poses, one complete figure in each cell, row-major order, facing right. Keep each figure entirely inside its own cell with at least34 pixels of clear transparency from every cell edge. No grid lines, cell borders, labels, background, floor, shadows, court, hoop, opponent, effect or text. No basketball in the artwork; the game renders it separately.
+>
+> Same character Keeg in all eight cells: flamboyant adult male human witch, natural athletic adult human anatomy, black hair and close neatly trimmed black beard, extremely tall ornate purple witch hat with silver trim and tiny mushrooms fully visible, layered lavender/purple/silver basketball uniform with small mushroom motifs and belts/jewelry, matching purple/silver athletic shoes. Preserve his consistent face, body proportions and exact colors. Keep all hat ornaments visible and attached, and never let a raised arm or hand overlap the hat. Hands stay empty after release.
+>
+> This is an eight-pose right-handed layup, with frame4 the separate-ball release at simulation tick10. Sequence: 0 gather low in a balanced ready stance; 1 bring the unseen ball to the chest while preparing the steps; 2 step toward the hoop with the unseen ball near the right shoulder; 3 spring upward and raise the right hand beside, not across, the tall hat; 4 at release tick10 extend the right arm high to the right of the hat, wrist flick and fingers open, left arm balances, feet airborne; 5 empty right hand follows through as the ball leaves; 6 descend with one knee raised and both hands empty; 7 land in a balanced crouch with empty hands. Clear full-body silhouette, grounded basketball mechanics, unique poses, readable right-hand finish. Keep the ball absent from all eight drawings; only the independent runtime game ball reaches the raised hand and releases at tick10.
+
+## Exact accepted correction prompt
+
+> Edit this existing JAMVERSE '96 transparent eight-pose sprite sheet. Preserve the exact 1536x1024 RGBA canvas, the four-column by two-row layout and all content, identity, poses, sizes, colors, and placement outside one single cell. Make exactly one pose correction in bottom-row, second-column cell (x384..767, y512..1023; pose index5, immediately after the layup release): the current raised empty arm bends backward and its hand touches/overlaps Keeg's tall purple hat. Repose that arm into a natural empty-hand layup follow-through extending forward/right at shoulder level, with open relaxed fingers clearly in front of the torso and separated from the hat brim, ornaments, and hair by visible transparent space. Keep his other arm extended to the right for balance, and keep his face turned toward the hoop. Preserve his full hat, silver trim and mushroom ornaments, hair, beard, uniform and human anatomy. Do not change the other seven poses at all. There is no painted ball. Do not crop, resize, shift cells, add a background, text, grid, court, opponent, hoop, shadow, effect or prop. Return only the corrected transparent sprite sheet.
+
+## Visual review and ball track
+
+The cleaned RGBA sheet was composited on white; all eight poses are distinct, complete and separated, and the corrected follow-through hand is clear of Keeg’s hat. Atlas review, cell crops and hashes are in `tools/generate-art/keeg-layup8-layouts.json` and `tools/generate-art/j96-keeg-layup8-provenance.json`. Runtime track by frame: height `[1.05,1.2,1.45,2.15,2.4,2.25,1.55,1.05]`, forward `[6,7.5,9,12,14,12,8,6]`; pose4 meets the open right hand and releases at tick10. The ball is separate from the sprite.

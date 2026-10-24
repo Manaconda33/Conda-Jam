@@ -1,0 +1,201 @@
+{
+  "source": "tools/generate-art/sources/j96-keeg-layup-correction-raw.png",
+  "sourceSha256": "2a19b5b775289c79927ea84f1587e674f5a0ad2d8b7998dcf0952aceae9332c9",
+  "cleanedSource": "tools/generate-art/sources/j96-keeg-layup8.png",
+  "cleanedSourceSha256": "ad8e83a97b612596d3e3e308ee36a65b3e1e1e9cd927ac39c9dab2b5acc4e4d9",
+  "method": "threshold alpha at64; isolate eight row-major Keeg bodies; mask non-owner pixels in 3px padded component crops; uniformly scale with preserved aspect ratio; center and bottom-align in384x512 cells with at least34px margins",
+  "frames": [
+    {
+      "sourceIndex": 0,
+      "component": 4,
+      "areaPx": 46665,
+      "rawBounds": [
+        56,
+        63,
+        330,
+        480
+      ],
+      "scale": 1.0,
+      "destination": [
+        54,
+        61,
+        275,
+        417
+      ],
+      "marginsPx": [
+        54,
+        61,
+        55,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 1,
+      "component": 3,
+      "areaPx": 49942,
+      "rawBounds": [
+        440,
+        46,
+        706,
+        481
+      ],
+      "scale": 1.0,
+      "destination": [
+        442,
+        41,
+        267,
+        437
+      ],
+      "marginsPx": [
+        58,
+        41,
+        59,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 2,
+      "component": 2,
+      "areaPx": 54295,
+      "rawBounds": [
+        795,
+        35,
+        1140,
+        484
+      ],
+      "scale": 0.915942,
+      "destination": [
+        802,
+        66,
+        316,
+        412
+      ],
+      "marginsPx": [
+        34,
+        66,
+        34,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 3,
+      "component": 1,
+      "areaPx": 45363,
+      "rawBounds": [
+        1207,
+        8,
+        1459,
+        481
+      ],
+      "scale": 0.938689,
+      "destination": [
+        1225,
+        34,
+        238,
+        444
+      ],
+      "marginsPx": [
+        73,
+        34,
+        73,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 4,
+      "component": 5,
+      "areaPx": 47244,
+      "rawBounds": [
+        77,
+        508,
+        333,
+        986
+      ],
+      "scale": 0.925,
+      "destination": [
+        72,
+        546,
+        239,
+        444
+      ],
+      "marginsPx": [
+        72,
+        34,
+        73,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 5,
+      "component": 6,
+      "areaPx": 47661,
+      "rawBounds": [
+        461,
+        527,
+        749,
+        980
+      ],
+      "scale": 0.975824,
+      "destination": [
+        434,
+        546,
+        283,
+        444
+      ],
+      "marginsPx": [
+        50,
+        34,
+        51,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 6,
+      "component": 7,
+      "areaPx": 53615,
+      "rawBounds": [
+        797,
+        558,
+        1134,
+        1002
+      ],
+      "scale": 0.932153,
+      "destination": [
+        802,
+        573,
+        316,
+        417
+      ],
+      "marginsPx": [
+        34,
+        61,
+        34,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 7,
+      "component": 8,
+      "areaPx": 46732,
+      "rawBounds": [
+        1239,
+        611,
+        1489,
+        1006
+      ],
+      "scale": 1.0,
+      "destination": [
+        1218,
+        593,
+        251,
+        397
+      ],
+      "marginsPx": [
+        66,
+        81,
+        67,
+        34
+      ]
+    }
+  ]
+}

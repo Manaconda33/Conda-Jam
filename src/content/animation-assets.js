@@ -37944,26 +37944,243 @@ export const animationAssetManifest = {
               "atlasBytes": 70830
             },
             "reviewed": true
+          },
+          "layup": {
+            "src": "./public/assets/animation/keeg-layup-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "95edef84ba812a4806e1d3b13ccb3c1222a9a8e7abcf5c30ed8605e3ed5ae141"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "9eb49cae3ab20a41d10c15e2d1fbe116e62e1588d1fd9ca0753111d762fab7fe"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "04d563a046e40548651abe5830ffdc094b2fdefbd09cb68113858cc52df83b96"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "3f8ff73dc2b21e1f6d0b14c05a61a30c065763fed251387756d483e45f8297ba"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "3678269ef2ec71591d37ef03b74d4fc375c0883886b7b12e3befab11b3bb1a89"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "1c0cb0b4f49b9ccd6cb7e3a652298009582f2d4b32e03d27b0f754d36efcfe65"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "9c5565c91824dfe97739e30d986d735f70fb33d0445c6666c366796d0588a889"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "18cbf8d58dc56f9ebc523bcf2ab3c9bb7adcac0e3472737b5bb115486c8a780a"
+              }
+            ],
+            "sha256": "97c49ec8a6bb9b8ef4ffd831e0cbcc87c301445369519c58928225587d6ec56e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "layup",
+              "direction": "right",
+              "canonicalSection": "K.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-495f8dd7-ec8a-4396-9319-c9e2b5180b63",
+              "imageGenerationId": "exec-495f8dd7-ec8a-4396-9319-c9e2b5180b63",
+              "parentGenerationId": "exec-10fb6dae-f39d-47d6-9577-0763f66d4591",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j96-keeg-layup8.png",
+              "sourceSha256": "ad8e83a97b612596d3e3e308ee36a65b3e1e1e9cd927ac39c9dab2b5acc4e4d9",
+              "rawSourceImage": "tools/generate-art/sources/j96-keeg-layup-correction-raw.png",
+              "rawSourceSha256": "2a19b5b775289c79927ea84f1587e674f5a0ad2d8b7998dcf0952aceae9332c9",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-10fb6dae-f39d-47d6-9577-0763f66d4591",
+                  "sourceImage": "tools/generate-art/sources/j96-keeg-layup-generated-raw.png",
+                  "sha256": "47fa7cf26f3984db1c4fa62a1f207bfc55b2e5610f17394a0bce5115514fc1f2",
+                  "reason": "Frame5 folded its empty follow-through arm backward into Keeg’s hat brim and ornaments; rejected."
+                }
+              ],
+              "initialPrompt": "Create an original production sprite sheet for JAMVERSE '96, transparent RGBA, exact 1536x1024 canvas arranged in an exact 4-column by2-row grid of 384x512 cells. Eight distinct full-body poses, one complete figure in each cell, row-major order, facing right. Keep each figure entirely inside its own cell with at least34 pixels of clear transparency from every cell edge. No grid lines, cell borders, labels, background, floor, shadows, court, hoop, opponent, effect or text. No basketball in the artwork; the game renders it separately.\n\nSame character Keeg in all eight cells: flamboyant adult male human witch, natural athletic adult human anatomy, black hair and close neatly trimmed black beard, extremely tall ornate purple witch hat with silver trim and tiny mushrooms fully visible, layered lavender/purple/silver basketball uniform with small mushroom motifs and belts/jewelry, matching purple/silver athletic shoes. Preserve his consistent face, body proportions and exact colors. Keep all hat ornaments visible and attached, and never let a raised arm or hand overlap the hat. Hands stay empty after release.\n\nThis is an eight-pose right-handed layup, with frame4 the separate-ball release at simulation tick10. Sequence: 0 gather low in a balanced ready stance; 1 bring the unseen ball to the chest while preparing the steps; 2 step toward the hoop with the unseen ball near the right shoulder; 3 spring upward and raise the right hand beside, not across, the tall hat; 4 at release tick10 extend the right arm high to the right of the hat, wrist flick and fingers open, left arm balances, feet airborne; 5 empty right hand follows through as the ball leaves; 6 descend with one knee raised and both hands empty; 7 land in a balanced crouch with empty hands. Clear full-body silhouette, grounded basketball mechanics, unique poses, readable right-hand finish. Keep the ball absent from all eight drawings; only the independent runtime game ball reaches the raised hand and releases at tick10.",
+              "prompt": "Edit this existing JAMVERSE '96 transparent eight-pose sprite sheet. Preserve the exact 1536x1024 RGBA canvas, the four-column by two-row layout and all content, identity, poses, sizes, colors, and placement outside one single cell. Make exactly one pose correction in bottom-row, second-column cell (x384..767, y512..1023; pose index5, immediately after the layup release): the current raised empty arm bends backward and its hand touches/overlaps Keeg's tall purple hat. Repose that arm into a natural empty-hand layup follow-through extending forward/right at shoulder level, with open relaxed fingers clearly in front of the torso and separated from the hat brim, ornaments, and hair by visible transparent space. Keep his other arm extended to the right for balance, and keep his face turned toward the hoop. Preserve his full hat, silver trim and mushroom ornaments, hair, beard, uniform and human anatomy. Do not change the other seven poses at all. There is no painted ball. Do not crop, resize, shift cells, add a background, text, grid, court, opponent, hoop, shadow, effect or prop. Return only the corrected transparent sprite sheet.",
+              "sourcePrompt": "Edit this existing JAMVERSE '96 transparent eight-pose sprite sheet. Preserve the exact 1536x1024 RGBA canvas, the four-column by two-row layout and all content, identity, poses, sizes, colors, and placement outside one single cell. Make exactly one pose correction in bottom-row, second-column cell (x384..767, y512..1023; pose index5, immediately after the layup release): the current raised empty arm bends backward and its hand touches/overlaps Keeg's tall purple hat. Repose that arm into a natural empty-hand layup follow-through extending forward/right at shoulder level, with open relaxed fingers clearly in front of the torso and separated from the hat brim, ornaments, and hair by visible transparent space. Keep his other arm extended to the right for balance, and keep his face turned toward the hoop. Preserve his full hat, silver trim and mushroom ornaments, hair, beard, uniform and human anatomy. Do not change the other seven poses at all. There is no painted ball. Do not crop, resize, shift cells, add a background, text, grid, court, opponent, hoop, shadow, effect or prop. Return only the corrected transparent sprite sheet.",
+              "promptFile": "tools/generate-art/j96-keeg-layup-prompt.md",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "actionAnchors": {
+                "release": {
+                  "frame": 4,
+                  "tick": 10
+                }
+              },
+              "ballPolicy": "Keeg-specific separate right-hand track meets the extended empty hand on pose4 and releases at tick10; no ball is painted into the sheet.",
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  1.2,
+                  1.45,
+                  2.15,
+                  2.4,
+                  2.25,
+                  1.55,
+                  1.05
+                ],
+                "forward": [
+                  6,
+                  7.5,
+                  9,
+                  12,
+                  14,
+                  12,
+                  8,
+                  6
+                ]
+              },
+              "mirrorEligible": true,
+              "cleanup": {
+                "script": "tools/generate-art/clean-keeg-layup8.py",
+                "minimumCellMarginPx": 34,
+                "layoutFile": "tools/generate-art/j96-keeg-layup-cleanup-layout.json"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "reviewNotes": "Eight distinct complete Keeg right-handed layup poses. Pose4 opens the right hand at release tick10 beside and above the tall hat; pose5’s corrected follow-through reaches forward with visible clearance from the brim and ornaments. The basketball stays separately simulated. Keeg’s adult human anatomy, black hair, close beard, full purple witch hat, silver trim/mushrooms and lavender/purple/silver kit remain intact; K.03 approves mirroring."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 52,
+                  "y": 59,
+                  "w": 278,
+                  "h": 421,
+                  "component": 3,
+                  "area": 46665
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 440,
+                  "y": 40,
+                  "w": 270,
+                  "h": 439,
+                  "component": 2,
+                  "area": 49942
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 800,
+                  "y": 65,
+                  "w": 320,
+                  "h": 415,
+                  "component": 4,
+                  "area": 45603
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1223,
+                  "y": 32,
+                  "w": 241,
+                  "h": 448,
+                  "component": 1,
+                  "area": 39946
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 71,
+                  "y": 545,
+                  "w": 241,
+                  "h": 446,
+                  "component": 5,
+                  "area": 40566
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 433,
+                  "y": 545,
+                  "w": 285,
+                  "h": 446,
+                  "component": 6,
+                  "area": 45465
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 800,
+                  "y": 572,
+                  "w": 319,
+                  "h": 418,
+                  "component": 7,
+                  "area": 46714
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1217,
+                  "y": 592,
+                  "w": 254,
+                  "h": 399,
+                  "component": 8,
+                  "area": 46732
+                }
+              ],
+              "uniformScale": 0.20535714285714285,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup poses",
+              "atlasPath": "public/assets/animation/keeg-layup-right.webp",
+              "atlasSha256": "97c49ec8a6bb9b8ef4ffd831e0cbcc87c301445369519c58928225587d6ec56e",
+              "atlasBytes": 60854
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Keeg’s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. Reviewed J.91 block, J.92 steal, J.93 press/push, J.94 fall/get-up, and J.95 celebration poses remain legible when mirrored. Balls remain separate game objects.",
+        "notes": "Keeg’s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. Reviewed J.91 block, J.92 steal, J.93 press/push, J.94 fall/get-up, J.95 celebration, and J.96 right-handed layup poses remain legible when mirrored; the ball stays a separate runtime object.",
         "reviewedAt": "2026-10-23",
-        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.95",
+        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.96",
         "evidence": [
           "tools/generate-art/keeg-block4-layouts.json",
           "tools/generate-art/keeg-steal8-layouts.json",
           "tools/generate-art/keeg-push11-layouts.json",
           "tools/generate-art/keeg-fall10-layouts.json",
           "tools/generate-art/keeg-celebrate10-layouts.json",
+          "tools/generate-art/keeg-layup8-layouts.json",
           "public/assets/animation/keeg-block-right.webp",
           "public/assets/animation/keeg-steal-right.webp",
           "public/assets/animation/keeg-push-right.webp",
           "public/assets/animation/keeg-fall-right.webp",
           "public/assets/animation/keeg-celebrate-right.webp",
+          "public/assets/animation/keeg-layup-right.webp",
           "tests/animation-sprites.test.js"
         ],
         "canonicalSection": "K.03"

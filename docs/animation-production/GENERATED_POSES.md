@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,738 authored drawings across 658 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,746 authored drawings across 659 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -21,7 +21,7 @@
 | gummiefish | 5 | 42 | 219,698 |
 | piper-quickstep | 5 | 42 | 196,618 |
 | briar-foxglove | 5 | 42 | 180,192 |
-| keeg | 17 | 137 | 772,862 |
+| keeg | 18 | 145 | 833,716 |
 | toph | 5 | 42 | 151,554 |
 | heph | 5 | 42 | 152,702 |
 | liv | 6 | 52 | 237,996 |
@@ -575,3 +575,11 @@ Keeg adds five unique right-facing rebound poses, reaching12/29 required clips /
 The initial sheet `exec-fefdffdc-d593-4922-ac37-434ae4ecaf9f` was rejected after frame3's hand came within2px of its cell boundary. Accepted edit `exec-5dffbb66-85ee-4bc2-9d1a-f3d0452c8596` moves only that complete pose to give it safe margins. Corrected raw source SHA-256 `679b1672afda1c3a8932e2d19d91673905032ab3260099bf24fb2b12533c548e`; cleaned source `tools/generate-art/sources/j90-keeg-rebound5.png` SHA-256 `3e888631807acb9c9a867b495f65e047a67447c682639e473132e6e8db8b2682`. Four-pixel cleanup removed27,366 exterior pixels. The reviewed240×192 atlas `public/assets/animation/keeg-rebound-right.webp` is47,424 bytes (SHA-256 `e5c802eee7a083c0d03bd36cfd22aee9ced2fd50627c95c4b66f90f4abf2fb83`). Exact prompts, bounds, layout and provenance are in J.90 files.
 
 J.90 passes396 JS tests, lint, content validation,100-match simulation /854,447 ticks /7 overtimes,42 packer tests, build and Chromium offline full-match/season/touch E2E. Standard/zoom120 previews each load156 images /87 snapshots /452 action frames; rebound art and ball are correctly selected in both facings. Audit:653 clips /5,695 drawings across105 athletes,2,450 missing clips,3 target shortfalls and4 inherited prompt findings. J.89 `6723f25` is deployed in Pages run #127; J.90 is pending push/deployment.
+
+## J.96 — Keeg `layup`
+
+Keeg adds eight distinct right-facing layup poses, reaching18/29 reviewed clips /145 authored drawings. He gathers, rises into a right-handed finish, releases at frame4 /simulation tick10, follows through with an empty hand kept clear of his very tall hat, then lands and recovers. The basketball remains separately rendered on Keeg's own hand-aligned track: height `[1.05,1.2,1.45,2.15,2.4,2.25,1.55,1.05]`, forward `[6,7.5,9,12,14,12,8,6]`. His adult human anatomy, black hair, close beard, purple witch hat with silver trim and mushrooms, and purple/lavender/silver kit remain consistent. Canon K.03 approves mirroring.
+
+The first generated sheet is preserved and rejected because its empty follow-through hand intersects the hat. Corrected edit `exec-495f8dd7-ec8a-4396-9319-c9e2b5180b63` moves only that follow-through hand clear of the brim; raw source SHA-256 `2a19b5b775289c79927ea84f1587e674f5a0ad2d8b7998dcf0952aceae9332c9`. Cleaned source `tools/generate-art/sources/j96-keeg-layup8.png` SHA-256 `ad8e83a97b612596d3e3e308ee36a65b3e1e1e9cd927ac39c9dab2b5acc4e4d9`; the reviewed320×192 atlas `public/assets/animation/keeg-layup-right.webp` is60,854 bytes / SHA-256 `97c49ec8a6bb9b8ef4ffd831e0cbcc87c301445369519c58928225587d6ec56e`. Exact accepted/rejected prompts, layouts, provenance, cleanup, and preview evidence are recorded in the J.96 generation files.
+
+J.96 validation passes402 JavaScript tests, lint18 modules, content validation,100-match simulation /854,447 ticks /7 overtimes,48 packer checks, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 native previews each load162 images /87 snapshots /452 action frames; all eight poses use production art in both facings and the separate ball releases at tick10. The strict report-only audit is659 clips /5,746 drawings /105 athletes, with2,444 missing clips,3 target shortfalls and4 inherited prompt findings. Next: Keeg `layup-reverse`.

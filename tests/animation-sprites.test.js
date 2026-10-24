@@ -387,6 +387,29 @@ test('Keeg selects ten reviewed celebration poses with empty hands and safe mirr
   tick+=animationClips.celebrate.frames[frame].duration;
  }
 });
+test('Keeg selects eight reviewed layup poses with a separate release hand track in both facings',()=>{
+ const id='keeg',character=animationAssetManifest.characters[id],clip=character?.directions?.right?.layup;
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(character?.mirrorReview?.canonicalSection,'K.03');
+ assert.ok(clip,'registered layup atlas');assert.equal(clip.reviewed,true);
+ assert.equal(clip.frames.length,8);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,8);
+ assert.equal(clip.provenance.sourceSha256,'ad8e83a97b612596d3e3e308ee36a65b3e1e1e9cd927ac39c9dab2b5acc4e4d9');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),[0,1,2,3,4,5,6,7]);
+ const release=anchorTick('layup','release');assert.equal(release,10);
+ assert.equal(sampleBallForward('layup',release,id),14);assert.equal(sampleBallHeight('layup',release,id),2.4);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<8;frame++){
+  assert.equal(sampleAnimation('layup',tick).frame,frame,'runtime maps Keeg layup pose '+frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'layup',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.layup.frames[frame].duration;
+ }
+});
 test('Keeg selects five reviewed pickup poses with floor contact and safe mirroring',()=>{
  const character=animationAssetManifest.characters.keeg,pickup=character.directions.right.pickup;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
