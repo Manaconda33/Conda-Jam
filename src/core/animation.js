@@ -593,6 +593,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // Keeg's two-pump dunk returns the separate ball to his chest after pump
   // one, then tracks his higher second reach to the shared tick-21 release.
   'dunk-double':{height:[.95,1.1,1.25,1.55,2.15,2.9,1.55,1.75,2.35,2.9,2.35,2,1.15,.85,.65],forward:[7,5,3,-4,-8,-1,2,5,4.5,12.5,13,7.5,4,3,3]},
+  // Keeg's two-hand clutch carries the separate ball overhead and releases
+  // from his empty-palmed frame 10 at the shared tick21 dunk anchor.
+  'dunk-clutch':{height:[.95,1.1,1.25,1.6,2,2.35,2.5,2.65,2.75,2.65,2.45,2,1.4,.7,.55],forward:[6,7,6,4,2,0,-1,0,1,6,12,10,8,5,6]},
   // Reverse dunk carries the separate ball behind Keeg's shoulder and hat,
   // then releases from the far side at the shared frame10/tick21 anchor.
   'dunk-reverse':{height:[.95,1.1,1.25,1.5,1.8,1.4,2.4,2.55,2.1,2.1,1.2,2.1,1.45,.7,.55],forward:[6,8,4,-2,-5,-7,-9,-8,-6,-4,12,4,8,5,6]}

@@ -1,0 +1,13 @@
+# J.104 — Keeg clutch dunk
+
+## Verbatim generation prompt
+
+```text
+Create an original 1536×1024 transparent RGBA sprite sheet for JAMVERSE '96: Keeg of the Moonmorel Hex performing a two-handed CLUTCH dunk. Use the attached Keeg animation sheet only as an identity and art-style reference. Redraw fifteen distinct complete full-body poses in a strict five-column by three-row grid, row-major, broad transparent gutters and outer margins, consistent scale/camera, each figure entirely in its own cell. No borders, court, hoop, floor, shadows, effects, text, labels, other characters, basketball, props, or equipment.
+
+Keeg is a flamboyant adult human man with normal athletic human anatomy, black hair, neatly trimmed close black beard and expressive face. Keep his complete very tall ornate purple witch hat with silver trim and mushroom ornaments recognizable in every pose. He wears layered purple/lavender/silver Moonmorel Hex athletic kit, matching belt and shoes. Preserve human face and adult proportions, two arms, two hands, two legs, black hair, beard, full hat silhouette and ornaments, kit and shoes. No monster anatomy, horns, robe, cape, staff, extra limbs or missing limbs. Both hands stay empty: the basketball is separately rendered and must never appear.
+
+This is a two-handed CLUTCH dunk: gather the invisible ball with both hands, jump, bring hands together around the imaginary ball above his head, then hammer down through the rim with both hands. Not one-handed, tomahawk, windmill, reverse or double-pump. Pose10 (zero-based) is the single release at tick21: both arms extended above and slightly forward, both open palms empty after the downward push. Poses0–9 carry the invisible ball in two hands; poses11–14 are empty-handed follow-through, descent, landing and recovery. Keep both hands and the complete tall hat separated and unobstructed. Fifteen unique connected right-facing poses: 0 approach arms low; 1 gather at waist; 2 two-foot plant, knees flexed, ball at chest; 3 jump raising hands toward chin; 4 rising hands above forehead; 5 lift invisible ball above full hat; 6 reach higher with elbows outward and knees tucked; 7 prepare forceful two-hand finish; 8 maximum apex, hands around invisible ball above crown; 9 swing both hands forward/up; 10 single release, both arms extended forward/up with open empty palms; 11 empty-handed two-arm follow-through; 12 descent, arms lower, legs tuck; 13 two-foot landing, knees flexed; 14 balanced recovery, hands empty.
+
+Keep Keeg facing and approaching image-right. Clean arcade-sprite illustration edges and true transparent exterior and gutters: no alpha haze, checkerboard, matte, speckles, background or colored artifacts. Return only the sprite sheet.
+```

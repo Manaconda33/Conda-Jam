@@ -40093,6 +40093,314 @@ export const animationAssetManifest = {
               "atlasBytes": 71636
             },
             "reviewed": true
+          },
+          "dunk-clutch": {
+            "src": "./public/assets/animation/keeg-dunk-clutch-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a6b81846be45b63c049fa3cabf8da10939dea536c2dde41b2217622da363a979"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "9541bdcc13179a5bda1ca1396575e3722ec12b2fc22b5dc71c73139132f6556a"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "63e6ea566ae8da12f9d11e9227cf90fe2f2301d665839dcf6b90bb1af3b6b676"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "68f2781c14187a3c474af0c19f8388e8c573f8d6fecb09d00538577c065fe757"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "72ca1ceb1135e2f911888f5ab3420f8f20db03a40cee4245d20812b046111634"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "4a0469398ec2f9a736b85414fec3dfb54411ebf047bf2977b59eae942edcc13c"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a9f37aadbb327541e5bf2b98eb03baa30e2b1464aaf62646990c9c39c936074a"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "35571be476f4a5368a8726ac211cbb90aa181bdab4ff48879521c8d9a9cbb1b1"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "cb73aa81fea3f11ba1395ccda789372cbca0423d4fbd1ba8ea2d01ee7b877472"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "cc452619c7cc4521da99f266df96daddf1b016bbb0dbe79dc144ec1b911fe99d"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "50ca7f156f8059cebcc07c1b6e095273f43b73c5e0a029777deaf37e692fab45"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "ca2865f7defaaf826f03b703e6d85da1719ffcfbf865546c102703e690d38bbb"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "f42fbb0f848bea61aacdb1a1ef9cd1b81a252ea1d87800db439e9fac95533311"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "116d5a3a74b3366c0a2bfa916b33f9305b06c5d8057c2738fa03ff5221d7f0bc"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b12bf5853f73ea503ef325905283d6ed95c8d6d48fd7943050d48d83656512ae"
+              }
+            ],
+            "sha256": "c667a5a04a77c6b2cd18d14267952a5a04142d19b5c11ccce1cdc2da0c307a92",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "dunk-clutch",
+              "direction": "right",
+              "canonicalSection": "K.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-e4a19c0e-2ec3-474d-901d-6629f6f7f468",
+              "imageGenerationId": "exec-e4a19c0e-2ec3-474d-901d-6629f6f7f468",
+              "rawSourceImage": "tools/generate-art/sources/j104-keeg-dunk-clutch-generated-raw.png",
+              "rawSourceSha256": "44977e83c30769085d5ec38062dfecdea3557046962a49e76e4aa99a822fe519",
+              "sourceImage": "tools/generate-art/sources/j104-keeg-dunk-clutch15.png",
+              "sourceSha256": "c0fa2538c8be63ed0edab0010a5734da3585c103b7613790a4593058b2d7752c",
+              "prompt": "Create an original 1536×1024 transparent RGBA sprite sheet for JAMVERSE '96: Keeg of the Moonmorel Hex performing a two-handed CLUTCH dunk. Use the attached Keeg animation sheet only as an identity and art-style reference. Redraw fifteen distinct complete full-body poses in a strict five-column by three-row grid, row-major, broad transparent gutters and outer margins, consistent scale/camera, each figure entirely in its own cell. No borders, court, hoop, floor, shadows, effects, text, labels, other characters, basketball, props, or equipment.\n\nKeeg is a flamboyant adult human man with normal athletic human anatomy, black hair, neatly trimmed close black beard and expressive face. Keep his complete very tall ornate purple witch hat with silver trim and mushroom ornaments recognizable in every pose. He wears layered purple/lavender/silver Moonmorel Hex athletic kit, matching belt and shoes. Preserve human face and adult proportions, two arms, two hands, two legs, black hair, beard, full hat silhouette and ornaments, kit and shoes. No monster anatomy, horns, robe, cape, staff, extra limbs or missing limbs. Both hands stay empty: the basketball is separately rendered and must never appear.\n\nThis is a two-handed CLUTCH dunk: gather the invisible ball with both hands, jump, bring hands together around the imaginary ball above his head, then hammer down through the rim with both hands. Not one-handed, tomahawk, windmill, reverse or double-pump. Pose10 (zero-based) is the single release at tick21: both arms extended above and slightly forward, both open palms empty after the downward push. Poses0–9 carry the invisible ball in two hands; poses11–14 are empty-handed follow-through, descent, landing and recovery. Keep both hands and the complete tall hat separated and unobstructed. Fifteen unique connected right-facing poses: 0 approach arms low; 1 gather at waist; 2 two-foot plant, knees flexed, ball at chest; 3 jump raising hands toward chin; 4 rising hands above forehead; 5 lift invisible ball above full hat; 6 reach higher with elbows outward and knees tucked; 7 prepare forceful two-hand finish; 8 maximum apex, hands around invisible ball above crown; 9 swing both hands forward/up; 10 single release, both arms extended forward/up with open empty palms; 11 empty-handed two-arm follow-through; 12 descent, arms lower, legs tuck; 13 two-foot landing, knees flexed; 14 balanced recovery, hands empty.\n\nKeep Keeg facing and approaching image-right. Clean arcade-sprite illustration edges and true transparent exterior and gutters: no alpha haze, checkerboard, matte, speckles, background or colored artifacts. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The basketball is separately rendered. Keeg gathers it with both hands, carries it overhead through the clutch jump, releases once at frame10/tick21, and follows through empty-handed.",
+              "ballTrack": {
+                "height": [
+                  0.95,
+                  1.1,
+                  1.25,
+                  1.6,
+                  2,
+                  2.35,
+                  2.5,
+                  2.65,
+                  2.75,
+                  2.65,
+                  2.45,
+                  2,
+                  1.4,
+                  0.7,
+                  0.55
+                ],
+                "forward": [
+                  6,
+                  7,
+                  6,
+                  4,
+                  2,
+                  0,
+                  -1,
+                  0,
+                  1,
+                  6,
+                  12,
+                  10,
+                  8,
+                  5,
+                  6
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-keeg-dunk-clutch15.py",
+                "layoutFile": "tools/generate-art/j104-keeg-dunk-clutch-cleanup-layout.json",
+                "minimumCellMarginPx": 11,
+                "removedHighChromaRedPixels": true
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "Fifteen unique connected right-facing human poses show a two-hand gather, rising jump, overhead clutch and single empty-palmed release at pose10/tick21, followed by empty-handed descent and landing. Keeg retains his complete tall purple mushroom hat with silver trim, black hair and neat beard, adult anatomy, and purple/lavender/silver athletic kit. No basketball is painted into the poses; both hands stay clear of the hat at release. All frames remain inside individual cells with at least11px margin."
+              },
+              "atlasPath": "public/assets/animation/keeg-dunk-clutch-right.webp",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 23,
+                  "y": 49,
+                  "w": 260,
+                  "h": 281,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 337,
+                  "y": 30,
+                  "w": 247,
+                  "h": 301,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 677,
+                  "y": 48,
+                  "w": 182,
+                  "h": 283,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 976,
+                  "y": 28,
+                  "w": 198,
+                  "h": 303,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1286,
+                  "y": 30,
+                  "w": 193,
+                  "h": 301,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 66,
+                  "y": 371,
+                  "w": 175,
+                  "h": 303,
+                  "component": 159
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 380,
+                  "y": 371,
+                  "w": 161,
+                  "h": 302,
+                  "component": 162
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 674,
+                  "y": 372,
+                  "w": 189,
+                  "h": 301,
+                  "component": 165
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 993,
+                  "y": 370,
+                  "w": 164,
+                  "h": 303,
+                  "component": 156
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1262,
+                  "y": 369,
+                  "w": 239,
+                  "h": 304,
+                  "component": 153
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 34,
+                  "y": 712,
+                  "w": 238,
+                  "h": 302,
+                  "component": 231
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 329,
+                  "y": 762,
+                  "w": 261,
+                  "h": 252,
+                  "component": 247
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 655,
+                  "y": 718,
+                  "w": 228,
+                  "h": 296,
+                  "component": 236
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 948,
+                  "y": 754,
+                  "w": 254,
+                  "h": 260,
+                  "component": 244
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1255,
+                  "y": 717,
+                  "w": 255,
+                  "h": 298,
+                  "component": 235
+                }
+              ],
+              "uniformScale": 0.3026315789473684,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
@@ -40101,7 +40409,7 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "Keeg’s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. J.01 and K.03 approve mirroring; the basketball remains a separate runtime object.",
         "reviewedAt": "2026-10-24",
-        "scope": "canonical K.03 body direction policy; Keeg reviewed actions through J.103",
+        "scope": "canonical K.03 direction review covering all registered Keeg clips through J.104",
         "evidence": [
           "tools/generate-art/keeg-block4-layouts.json",
           "tools/generate-art/keeg-steal8-layouts.json",
@@ -40131,7 +40439,9 @@ export const animationAssetManifest = {
           "tools/generate-art/keeg-dunk-tomahawk15-layouts.json",
           "public/assets/animation/keeg-dunk-tomahawk-right.webp",
           "tools/generate-art/keeg-dunk-double15-layouts.json",
-          "public/assets/animation/keeg-dunk-double-right.webp"
+          "public/assets/animation/keeg-dunk-double-right.webp",
+          "tools/generate-art/keeg-dunk-clutch15-layouts.json",
+          "public/assets/animation/keeg-dunk-clutch-right.webp"
         ],
         "canonicalSection": "K.03"
       }

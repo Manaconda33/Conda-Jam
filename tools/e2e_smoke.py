@@ -357,7 +357,11 @@ try:
         dpad_moved=page.evaluate('window.jamverse.state.players[1].x')
         assert dpad_moved>dpad_initial,f'gamepad D-pad movement failed: {dpad_initial} -> {dpad_moved}'
         page.evaluate("window.__testGamepad.gp.buttons[15].pressed=false;window.__testGamepad.gp.buttons[1].pressed=true;window.__testGamepad.gp.buttons[4].pressed=true;window.__testGamepad.gp.buttons[6].value=.7")
-        page.wait_for_function("(()=>{const id=window.jamverse.state.players[1].id,input=window.jamverse.keyState.inputs.find(frame=>frame.playerId===id);return input?.passPressed&&input?.shootPressed&&input?.turbo})()")
+        try:
+            page.wait_for_function("(()=>{const id=window.jamverse.state.players[1].id,input=window.jamverse.keyState.inputs.find(frame=>frame.playerId===id);return input?.passPressed&&input?.shootPressed&&input?.turbo})()")
+        except Exception:
+            print('GAMEPAD_DIAGNOSTIC',page.evaluate("""(()=>({map:JSON.parse(localStorage.getItem('jamverse96-v5')).gamepadButtons,controlled:window.jamverse.controlledPlayers,players:window.jamverse.state.players.slice(0,2).map(p=>({id:p.id,team:p.team})),inputs:window.jamverse.keyState.inputs,gp:window.__testGamepad?.gp?.buttons?.map((b,i)=>b?.pressed||b?.value?{i,pressed:b.pressed,value:b.value}:null).filter(Boolean),paused:window.jamverse.state.pause,phase:window.jamverse.state.phase}))()"""))
+            raise
         page.evaluate("window.__testGamepad.gp.buttons[1].pressed=false;window.__testGamepad.gp.buttons[4].pressed=false;window.__testGamepad.gp.buttons[6].value=0")
         page.evaluate('window.__testGamepad.gp.buttons[9].pressed=true')
         page.wait_for_function('window.jamverse.state.pause===true')

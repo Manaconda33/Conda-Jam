@@ -1,12 +1,12 @@
 # Generated animation production checkpoint
 
-2026-10-24. Issue3 remains **incomplete**. Actual registered total: **5,844 authored drawings across 666 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,859 authored drawings across 667 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 Dorian Mycel has a completed **source-only** set covering all29 runtime keys: the four existing baseline clips plus25 new reviewed atlases /255 authored drawings. The independent package check passed source SHA-256, layout, atlas bounds, nonblank unique cells and exact clip-key coverage. Since it awaits roster-order integration after Moxie, these new clips are not included in the registered totals above.
 
 Moxie, Accu, Nova Stitch and Echo Catwalk each have complete **source-only** packages covering all29 runtime keys. Their new source atlases add251 poses for Moxie and241 poses each for Accu, Nova and Echo; source hashes, prompts, layouts, provenance, distinct visible crops and separate-ball records were verified. These are committed but not included in the registered totals until roster-order integration after Keeg.
 
-Additional source-only checkpoints: Marco Vellum is at9/29 source clips with an accepted `pass-behind` atlas; Krios is at8/29 with `shoot`, `pass` and `pass-overhead` source packages (not registered in the runtime manifest); Sable Regent is at15/29 with `steal`. Keeg J.104 `dunk-clutch` has15 authored poses and awaits roster-order integration; it is not in the strict registered count yet.
+Additional source-only checkpoints: Marco Vellum is at9/29 source clips with an accepted `pass-behind` atlas; Krios is at8/29 with `shoot`, `pass` and `pass-overhead` source packages (not registered in the runtime manifest); Sable Regent is at15/29 with `steal`. Keeg J.104 `dunk-clutch` is registered with15 authored poses; its source-only peer packs remain outside the strict registered count.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |

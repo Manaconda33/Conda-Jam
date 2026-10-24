@@ -1,0 +1,369 @@
+{
+  "source": "tools/generate-art/sources/j104-keeg-dunk-clutch-generated-raw.png",
+  "sourceSha256": "44977e83c30769085d5ec38062dfecdea3557046962a49e76e4aa99a822fe519",
+  "cleanedSource": "tools/generate-art/sources/j104-keeg-dunk-clutch15.png",
+  "cleanedSourceSha256": "c0fa2538c8be63ed0edab0010a5734da3585c103b7613790a4593058b2d7752c",
+  "method": "detect 15 alpha-connected figures; assign each figure component and nearest antialiased pixels; remove isolated high-chroma red artifacts if present; crop transparent halos; uniformly scale and center in a 5x3 grid with at least10px cell clearance",
+  "frames": [
+    {
+      "sourceIndex": 0,
+      "component": 3,
+      "rawBounds": [
+        30,
+        32,
+        306,
+        331
+      ],
+      "destination": [
+        24,
+        50,
+        258,
+        280
+      ],
+      "scale": 0.941168,
+      "marginsPx": [
+        24,
+        50,
+        25,
+        11
+      ],
+      "removedRedArtifactPixels": 1269
+    },
+    {
+      "sourceIndex": 1,
+      "component": 4,
+      "rawBounds": [
+        376,
+        34,
+        623,
+        335
+      ],
+      "destination": [
+        338,
+        32,
+        244,
+        298
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        31,
+        32,
+        32,
+        11
+      ],
+      "removedRedArtifactPixels": 906
+    },
+    {
+      "sourceIndex": 2,
+      "component": 5,
+      "rawBounds": [
+        739,
+        53,
+        921,
+        336
+      ],
+      "destination": [
+        679,
+        50,
+        178,
+        280
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        65,
+        50,
+        65,
+        11
+      ],
+      "removedRedArtifactPixels": 679
+    },
+    {
+      "sourceIndex": 3,
+      "component": 2,
+      "rawBounds": [
+        1001,
+        20,
+        1200,
+        325
+      ],
+      "destination": [
+        977,
+        30,
+        196,
+        300
+      ],
+      "scale": 0.993642,
+      "marginsPx": [
+        55,
+        30,
+        56,
+        11
+      ],
+      "removedRedArtifactPixels": 735
+    },
+    {
+      "sourceIndex": 4,
+      "component": 1,
+      "rawBounds": [
+        1306,
+        5,
+        1514,
+        329
+      ],
+      "destination": [
+        1287,
+        30,
+        191,
+        300
+      ],
+      "scale": 0.92904,
+      "marginsPx": [
+        58,
+        30,
+        58,
+        11
+      ],
+      "removedRedArtifactPixels": 821
+    },
+    {
+      "sourceIndex": 5,
+      "component": 8,
+      "rawBounds": [
+        50,
+        368,
+        235,
+        689
+      ],
+      "destination": [
+        67,
+        371,
+        172,
+        301
+      ],
+      "scale": 0.946415,
+      "marginsPx": [
+        67,
+        30,
+        68,
+        11
+      ],
+      "removedRedArtifactPixels": 801
+    },
+    {
+      "sourceIndex": 6,
+      "component": 9,
+      "rawBounds": [
+        419,
+        371,
+        586,
+        685
+      ],
+      "destination": [
+        381,
+        371,
+        159,
+        301
+      ],
+      "scale": 0.964615,
+      "marginsPx": [
+        74,
+        30,
+        74,
+        11
+      ],
+      "removedRedArtifactPixels": 685
+    },
+    {
+      "sourceIndex": 7,
+      "component": 10,
+      "rawBounds": [
+        702,
+        376,
+        891,
+        677
+      ],
+      "destination": [
+        675,
+        374,
+        186,
+        298
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        61,
+        33,
+        61,
+        11
+      ],
+      "removedRedArtifactPixels": 551
+    },
+    {
+      "sourceIndex": 8,
+      "component": 6,
+      "rawBounds": [
+        991,
+        326,
+        1183,
+        680
+      ],
+      "destination": [
+        994,
+        371,
+        162,
+        301
+      ],
+      "scale": 0.855,
+      "marginsPx": [
+        72,
+        30,
+        73,
+        11
+      ],
+      "removedRedArtifactPixels": 876
+    },
+    {
+      "sourceIndex": 9,
+      "component": 7,
+      "rawBounds": [
+        1274,
+        365,
+        1515,
+        669
+      ],
+      "destination": [
+        1263,
+        371,
+        238,
+        301
+      ],
+      "scale": 0.999867,
+      "marginsPx": [
+        34,
+        30,
+        35,
+        11
+      ],
+      "removedRedArtifactPixels": 668
+    },
+    {
+      "sourceIndex": 10,
+      "component": 11,
+      "rawBounds": [
+        8,
+        679,
+        275,
+        1018
+      ],
+      "destination": [
+        35,
+        713,
+        237,
+        300
+      ],
+      "scale": 0.893095,
+      "marginsPx": [
+        35,
+        30,
+        35,
+        11
+      ],
+      "removedRedArtifactPixels": 1007
+    },
+    {
+      "sourceIndex": 11,
+      "component": 12,
+      "rawBounds": [
+        331,
+        713,
+        639,
+        1009
+      ],
+      "destination": [
+        331,
+        764,
+        258,
+        249
+      ],
+      "scale": 0.845508,
+      "marginsPx": [
+        24,
+        81,
+        25,
+        11
+      ],
+      "removedRedArtifactPixels": 1007
+    },
+    {
+      "sourceIndex": 12,
+      "component": 14,
+      "rawBounds": [
+        660,
+        723,
+        888,
+        1019
+      ],
+      "destination": [
+        655,
+        719,
+        226,
+        294
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        41,
+        36,
+        41,
+        11
+      ],
+      "removedRedArtifactPixels": 1054
+    },
+    {
+      "sourceIndex": 13,
+      "component": 15,
+      "rawBounds": [
+        967,
+        758,
+        1223,
+        1018
+      ],
+      "destination": [
+        948,
+        755,
+        254,
+        258
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        26,
+        72,
+        27,
+        11
+      ],
+      "removedRedArtifactPixels": 1137
+    },
+    {
+      "sourceIndex": 14,
+      "component": 13,
+      "rawBounds": [
+        1276,
+        721,
+        1531,
+        1019
+      ],
+      "destination": [
+        1256,
+        718,
+        253,
+        295
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        27,
+        35,
+        27,
+        11
+      ],
+      "removedRedArtifactPixels": 1263
+    }
+  ]
+}
