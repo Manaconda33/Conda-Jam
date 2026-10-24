@@ -13,11 +13,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-24T19:16:54.716Z",
+  "generatedAt": "2026-10-24T19:39:26.645Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 744,
+  "inspectedClips": 767,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -316,144 +316,6 @@
     {
       "code": "missing-clip",
       "athlete": "briar-foxglove",
-      "direction": "right",
-      "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "pass"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "pass-overhead"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "pass-behind"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "receive"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "pickup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "layup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "layup-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "block"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "steal"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "push"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "rebound"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "fall"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "celebrate"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "dunk-power"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "dunk-windmill"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "dunk-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "dunk-360"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "dunk-tomahawk"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "dunk-double"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "dunk-clutch"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "dunk-scythe"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
-      "direction": "right",
-      "clip": "alley-oop-power"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "nova-stitch",
       "direction": "right",
       "clip": "alley-oop-reverse"
     },
@@ -40714,6 +40576,2543 @@
           "h": 96,
           "hash": "a30059150b18b889a40d72debf1abab87c8b70b3626f712e4204a9ff33ce72c5",
           "visiblePixels": 3502
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "pass",
+      "src": "./public/assets/animation/nova-stitch-pass-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3731d824264e0064a8ac48e30b334daafb25157b44bf8ba5b2dced15c1a6c3bc",
+          "visiblePixels": 3163
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9e87429aef065b9f0124df10f54c1d821261a08cdf9701a881acf79bee9cb5b5",
+          "visiblePixels": 3192
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4",
+          "visiblePixels": 3365
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4f881a1fe2226a8234bcf1e56b731ba065263e1c4c0993e1b0073032723ab116",
+          "visiblePixels": 3857
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "23d25f8f79368a003bc042c1842b4707718650e8c2beb76cb40948ea00441db0",
+          "visiblePixels": 3699
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a6fd92dccf284db243d5a5afba415b03557cda6f586bb4b12af29096ca8a1aac",
+          "visiblePixels": 3287
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "src": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f12e4656f9a0686e80ab7dc704bb2c3478de7d1f834d04b477d647db651672de",
+          "visiblePixels": 3119
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7373c71c615f77cc847f849ba071141f4a796448fc7c0609ad32335a109e3ff5",
+          "visiblePixels": 3267
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee",
+          "visiblePixels": 3127
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "fc9841d0ef76cefcef44b042f622ba61a3cb6384f9d4aa0b8ab87c70b5029041",
+          "visiblePixels": 3584
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "96f22bc8fe633d18db21844cb7c3053e77509c6039df0db1eeaaa3f4123708d0",
+          "visiblePixels": 3810
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "36c971d8aa927639e28a72594ba033fce7bad11d765d19a8ddc5fc0c54c35ca8",
+          "visiblePixels": 3321
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c494bd4bf642ccc0383e20fc24763b9ef0e56f24e1d59f2dbefd8bd05e9b5e8b",
+          "visiblePixels": 3215
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ab94f1b5730a6aa9b2a1017226553d33a211f2b70114c6ab4f279bb2cf22e8c9",
+          "visiblePixels": 3227
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867",
+          "visiblePixels": 3536
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e3882c45761eac19487dc7c48322431ffadb8920a62bf01167fe2b9383db1608",
+          "visiblePixels": 3792
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "932e67b2e8006c1830633389181106bcf69c4145321a5757e8506b089427c34b",
+          "visiblePixels": 3697
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7731703e38e4b284fd9cca060608728da9b28e3a3a6fa67fe15b8509e063f66a",
+          "visiblePixels": 3375
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "receive",
+      "src": "./public/assets/animation/nova-stitch-receive-right.webp",
+      "width": 160,
+      "height": 192,
+      "sha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "eb397c35516071420bb77007fcaab1b207ae3649d1fcab13aea5e7aaea4c8b62",
+          "visiblePixels": 3119
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721",
+          "visiblePixels": 3212
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "efeb8862a01c02e5b4c2fd5544e051281c6cc4d179d296e1349479d4a2116b12",
+          "visiblePixels": 3330
+        },
+        {
+          "index": 3,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "87b31e2442228b4de1a7d4aa3e3483cab30dc94bc41260f8096b363fc7be0b5b",
+          "visiblePixels": 3158
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "pickup",
+      "src": "./public/assets/animation/nova-stitch-pickup-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "24f4d8fa1932acf4ead0e89db359051735b765aff1327fd768b74e6eb4f2e8e4",
+          "visiblePixels": 3454
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a4a6ed7fbec390a3f8df7a4db534b817843412d9fc0f4339b4551d23f279ddad",
+          "visiblePixels": 3888
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5",
+          "visiblePixels": 3298
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b7ab9a2abf2dc191063bb6866bcc6689c12251ce62f0614f8f7a232d6f5e3f88",
+          "visiblePixels": 3474
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "f81d42be80861d3796029f3bcdc9232e99c4fd999185e0acb68e7e59b1bd80b5",
+          "visiblePixels": 3581
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "layup",
+      "src": "./public/assets/animation/nova-stitch-layup-right.webp",
+      "width": 320,
+      "height": 192,
+      "sha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "b3e199ba21b78e0e42154d14cc28798b14858eeff0d8fe31f06756265f82efcc",
+          "visiblePixels": 3064
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "138bd30b86a4575739e39893f1d1c5ee220e8d14923c0925f7948b44124f5bd9",
+          "visiblePixels": 2941
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "bfdea530e85b53c1354fa9d11abbb2c8827575692cb85a333f920bb208ff9ead",
+          "visiblePixels": 2893
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170",
+          "visiblePixels": 2653
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "8666d0eebde5d2238c4ab8b475686c1d310ad4754b51d85d27ee1fe2dc7c2361",
+          "visiblePixels": 2691
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "fe9bce9374f947ddfd0659b70247fdb1c02e3b40dc6acaeaad59c030fd92fdb4",
+          "visiblePixels": 2635
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "c2ee71db23506eebe3f00d6dd225a089ec02279768eae0fb228f8daad9e36a42",
+          "visiblePixels": 2852
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d029cf3b2765c705adcbb3d3dcbc12e80bdae231f9d7a4d57e24574ca9c2aae2",
+          "visiblePixels": 2594
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "src": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+      "width": 320,
+      "height": 192,
+      "sha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "ee1c6b015eb80dfcc94eb6a80569061aa711c276724df199e45e718545e1c2a5",
+          "visiblePixels": 2927
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "9029dd8a92c675208d8442895200738084f4c4d1bdeaa6dccdc4a3de6a96cd73",
+          "visiblePixels": 2948
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "983bec0a7922c1b844245efd0fa35e897be3113a0c005067eed28282da1e07f2",
+          "visiblePixels": 2954
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007",
+          "visiblePixels": 2622
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "22648094727157efd661a82c848c0cb735a18a0ce8791134f4f5bfb86f225d39",
+          "visiblePixels": 2909
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "0bcb49f45c6ebe96ea4bb18355fd88cca9faa7e879ee78f1a3b5b62d242ca04b",
+          "visiblePixels": 2666
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "49ac59707ee7747fc072e9510d35cfa5221c21b16b953a20fd3ad31c6e6f14f4",
+          "visiblePixels": 2884
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "cbdd25ff914f30bbe5d20b1d2df75c990556b037d761a89e49cb3bdacae5886c",
+          "visiblePixels": 2659
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "block",
+      "src": "./public/assets/animation/nova-stitch-block-right.webp",
+      "width": 160,
+      "height": 192,
+      "sha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "e2e773b9facb86d802c9965121f2f569aaedffcf37e387499b4654405b279ca1",
+          "visiblePixels": 3054
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1",
+          "visiblePixels": 2774
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d4d623bf29aa02f5450d1e6fd0b68d17474fc81d6b13903fd4d9fc4573e2b0c1",
+          "visiblePixels": 3055
+        },
+        {
+          "index": 3,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "96766621b8b0507945d2651328e471459c1e23facfbbeae353d4531a2ceff716",
+          "visiblePixels": 3018
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "steal",
+      "src": "./public/assets/animation/nova-stitch-steal-right.webp",
+      "width": 384,
+      "height": 192,
+      "sha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bda886831cf7d87f69cf9c1d365ac6383d98dbe8eea33bb9e57a6bf8c6555a37",
+          "visiblePixels": 3464
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c616b6dd08aa990ec2fff99a8014370173c48fd8b974bb199e8f3689752a194c",
+          "visiblePixels": 3867
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "74fa9717067770823723885d400ac9b82e47150370d624e4905238436dac15f2",
+          "visiblePixels": 3525
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980",
+          "visiblePixels": 3686
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9b373a3e40eb63f9bbb7ff67fcc53fba47dcf8c31a3408bfaa0d386b45f131a8",
+          "visiblePixels": 3668
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e608883bcfc8864fb4b69100034171d970f0c1768dd23c13157c1eaea4d7cac8",
+          "visiblePixels": 3610
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "22078177bb9941a3835a946b8b00c6a1315955d11ffcdfa71d0c25e982a71bcd",
+          "visiblePixels": 3960
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2db6ef9c0cf281c0a2602fa5dbcfe09aa645be3e86ae6adffbb8a0cff10a0a73",
+          "visiblePixels": 3631
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "push",
+      "src": "./public/assets/animation/nova-stitch-push-right.webp",
+      "width": 448,
+      "height": 288,
+      "sha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "983710b1b7d249d0176e7e01eb5b8bd4f486ff23acaa3aa353ff72656ad39c3c",
+          "visiblePixels": 3415
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "0a10456d69e8002c614875662c1c8d244a6cb56f83149d55204b2a5c25098e19",
+          "visiblePixels": 4063
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "8bdd71a1693a4b39e23e31eb4367944406346ec813a51bba4e959f2a5a6a15b9",
+          "visiblePixels": 4362
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "e1ecfb5b39e790d7ad0b191236c3902d28eb6ae0d288c9546d7dbc150374ccf7",
+          "visiblePixels": 4059
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "319802c0da38abbe650e19b4b0d913e2f1b18504780b4f3eaa7e0de993173301",
+          "visiblePixels": 4820
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26",
+          "visiblePixels": 4325
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "4a849f1ebe413ff04f9f98d026fff390bfc08da9d2f1669103e1b7f018ef4820",
+          "visiblePixels": 4549
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "6fb9292e264bf309abd395183f0588d913268a1fc9a1b4ee9aeee1c79ca1b806",
+          "visiblePixels": 4048
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "9129155bbe828b66a45e5d461c28431165c504f4cd0c3cf01328b6c8d04ec332",
+          "visiblePixels": 3839
+        },
+        {
+          "index": 9,
+          "x": 112,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "1c9b406997423922aa2e8c6ab35fdeb40959654370a63eaa2925cdb7f43b0199",
+          "visiblePixels": 3711
+        },
+        {
+          "index": 10,
+          "x": 224,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "333c4e93c174f2d7d905b343fb8fe0eb1a296bc490dff9447808b118596974a1",
+          "visiblePixels": 3615
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "rebound",
+      "src": "./public/assets/animation/nova-stitch-rebound-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "8615b8cced45c15a39a3d2b27019f434e3077c17f49db68cd3d2377c29c0ebf4",
+          "visiblePixels": 2546
+        },
+        {
+          "index": 1,
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "b201052165ffcb1788efd161b1543e928b12594f6b3a1fd6c26fa7dde240a46e",
+          "visiblePixels": 2429
+        },
+        {
+          "index": 2,
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec",
+          "visiblePixels": 2629
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "21947692827ed0d03fc06693ec4a4e2fedcab7d65ff5652616bd6a75a264df2b",
+          "visiblePixels": 2876
+        },
+        {
+          "index": 4,
+          "x": 64,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "7e436860bf758877bb6928e8b2244aa01977fddd7ba6d6eb8e769955188626fa",
+          "visiblePixels": 2563
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "fall",
+      "src": "./public/assets/animation/nova-stitch-fall-right.webp",
+      "width": 480,
+      "height": 192,
+      "sha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+      "required": 10,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c44c8a43fee4ea39a2c375b30a66a471a4bab5fa0f2f1926201d3e5c97f81f9c",
+          "visiblePixels": 3207
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6944e94a741c7f77dadfead7447b2ccda7ece6be0cbd7c0aece88c73e5cf6d05",
+          "visiblePixels": 2722
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d92b447b38cda63bf9dffab1103fddc48a48f0a18f33341be447b6af02869e7f",
+          "visiblePixels": 2568
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a78a706e3db3211b433dcf98e5b42cb97e2e6479cfbdafb78cea22b885e78382",
+          "visiblePixels": 2176
+        },
+        {
+          "index": 4,
+          "x": 384,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434",
+          "visiblePixels": 1997
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "404f72df62e5935d55db7a32105baefc6f2ff58cf7d0e6487891a3e2ac533723",
+          "visiblePixels": 2299
+        },
+        {
+          "index": 6,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "32c3d4d6d76ce857ba4a75b232604a3fa9768d60228cbcf3a66e4d32dc87e7de",
+          "visiblePixels": 2358
+        },
+        {
+          "index": 7,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "070b32a014f1508637c29177a2f41c257748993881d959a98c3c8d767b688b11",
+          "visiblePixels": 2531
+        },
+        {
+          "index": 8,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cb27a23614bd57aef6df6b112fc2cdb6f9de189116d1180ac279ca0e43c387ca",
+          "visiblePixels": 2896
+        },
+        {
+          "index": 9,
+          "x": 384,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8a9675f61b4461b33cd730695c7055a5b4833edbd43e196cbcd912baa9869c3d",
+          "visiblePixels": 2916
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "celebrate",
+      "src": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+      "width": 400,
+      "height": 192,
+      "sha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f6695b030543e9ce5b64128aeb0d0f99c8ab99fb54490f4fbb173d1b25084d30",
+          "visiblePixels": 3099
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a70ff6dc1901096c84ede3fafd4ae838e7456183f765dbea9f1ab53f40f5582b",
+          "visiblePixels": 2949
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "382e919cf6c77e53b54f5194963fed5872896e1ab820083f6422b2f77809ed2b",
+          "visiblePixels": 2971
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "6ae3efd279b9ee80c2f285cfad91bdb73a76346c51d7078c72918a9f588e68b6",
+          "visiblePixels": 2878
+        },
+        {
+          "index": 4,
+          "x": 320,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe",
+          "visiblePixels": 2877
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "48ade5696fd4b66c32d0d008360cd071b79de4d9eb619ae74317020481db3b9f",
+          "visiblePixels": 2940
+        },
+        {
+          "index": 6,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "77b15fb11ecd247c9f930c4f62bd47d392a57e440b8430777ab1adbfb4606123",
+          "visiblePixels": 2862
+        },
+        {
+          "index": 7,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "e184351e62bafa6b86ded850c8eaf9bf904f01a4ae33fb7b0537278d6a166168",
+          "visiblePixels": 2626
+        },
+        {
+          "index": 8,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "9da6999866c8df0ba706b52bb8af0c759f92fef4d65880de52b561bff9044aee",
+          "visiblePixels": 2981
+        },
+        {
+          "index": 9,
+          "x": 320,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "ab77097c79ca5ce6a4c9985f924808881a1dd08cdd6d4f8834670e4e5a14d14d",
+          "visiblePixels": 2789
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "dunk-power",
+      "src": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "757ee2ca08cfbfeda26198fa675747558e7eeb742f93ba6d7143d86c3050bb0e",
+          "visiblePixels": 3299
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "d48c6519f4861d9c509fe356c18e3b767c918b25cdf7dd0c1f649eb4bd1fce01",
+          "visiblePixels": 3507
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "36ae5ddae738bbe90b29b2e123415858b2b2f6a26a652c10fd5324a6a63e0227",
+          "visiblePixels": 3047
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "c6727a3ff07fa5bb49bb858209ca57b2e99ea96a91f36df3406e7c3dadfef3dd",
+          "visiblePixels": 3440
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "7941239c1f66775a2b34e38a0781f03195606982a3f5c00c5237ee9d5211b8c9",
+          "visiblePixels": 3089
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "3acc53396dd5bc6a33d13752650f11573fed2f1b61e63a60a4e5c230e0a839df",
+          "visiblePixels": 3079
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "1529d94884c725860ec2f0df7e3ecf41c904a043c377a37cecc40ab9ee557165",
+          "visiblePixels": 3077
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2",
+          "visiblePixels": 2831
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "1e51bbf9396eff64409356739b8460971788df7f4bb90f9577af6247189d2dbc",
+          "visiblePixels": 2958
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "6cddf88af1751a072befd907d7e72bb76256f44fce96813f6f920465a552d4c5",
+          "visiblePixels": 2354
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "d3db1da48a713f346ba7a6de350dcef4ed11475d11127d0662d14ad2902bdecf",
+          "visiblePixels": 2770
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "39bafab1a164993bc7f2b2733e62a2d43614a2365f9604cf98e841a76cc501cf",
+          "visiblePixels": 2900
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "5457ba26017d31e22837a0b2d17ef866ed5d067d48f6e3742edb852e533b162d",
+          "visiblePixels": 3345
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "b248bf03150f2e4a7116ce423f95d54584e7459c98080e73ce2ec1a841fe7ae0",
+          "visiblePixels": 3085
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "952698c67e7ac6ac2a98445ef450f187ee414c9df2e3e85636ac9e9ae3eac092",
+          "visiblePixels": 3066
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "src": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "436245c295615df8c1566f00bb963f23281788cbf1961f7922b3af32fb3173cd",
+          "visiblePixels": 3235
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "e5d54e2b5d728da6f4efd2e8b1c234aaabe37c055b9d1b4ca4dffcfb66142fdc",
+          "visiblePixels": 2462
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "2add8583ec7d65b7975e53b4e6f14ddd176ab32a403afd334f10dde7a2840e96",
+          "visiblePixels": 2855
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "f2c627be3ba64647db4efaa4ae75af9d045ef2d3245319f05d1833bafc73f180",
+          "visiblePixels": 3122
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "3a294d1dbf252071eb9b1c16f05f6dfa85022e1187651813c846b06bca1e6132",
+          "visiblePixels": 2877
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "c98bd6714f188fadcaec674f7d112dc173bf1102b9f21e8dc6e9f361994c9033",
+          "visiblePixels": 2820
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "a2bf030252dcf39c3b61b73484deff7a1159581799290f1b0b4309a5470124f8",
+          "visiblePixels": 2456
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d",
+          "visiblePixels": 2788
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "fe465bc5314718fcb7b8ea2f52484f76a1f850a47b0881e13167393ec4fd36af",
+          "visiblePixels": 3104
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "dfa2b31181e49a5af626c53050f056e83d74d2d969063f9a19213ac3fdbe5d3f",
+          "visiblePixels": 2707
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "2bd2e20823efe3fb24325177e4b7e70e1fff25d7afdf62cdf865b5d484544a54",
+          "visiblePixels": 2863
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "e2c2d4e91051181c5c7302788a49bffe575f988a58be3ede93bcd60403f3e6a2",
+          "visiblePixels": 2729
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "523adc7ea92236d7af4036b8cde827b36c9b0c0b55f64a8e835bbd8317912948",
+          "visiblePixels": 2665
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "b1d8d9dd9f9e432e190a633e9797e8e0dd7ce098eed87cca90582ece8213967c",
+          "visiblePixels": 2825
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "af41526576acd407c2fcf5888d6a3c9bd7e14db1181062d83fc235fc0baa6acd",
+          "visiblePixels": 2738
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "src": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "681e6b99a5120df9bd9b1c8ad1f11bec09bb6e01ce3da75e10b4a64cb22c42d2",
+          "visiblePixels": 3187
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "e14ed3d3bd47ca20fe0b34027ee99a23eb2080351107d660cdc8028ee1cebcf2",
+          "visiblePixels": 3034
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "54786e491db2e5f1650fcfa6edd0a02411c217c622b7ff60c699276deef04b9d",
+          "visiblePixels": 2814
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9b34788c1e514bdaf57566d4276ef630d4b74c66c5c1d4e81f46592992eb3498",
+          "visiblePixels": 2931
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "67dff002658c58b982ccf32b1638c4adf9f7de65c669146630cfb96e2230bc11",
+          "visiblePixels": 2891
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "6d045c3145f601bf2ebac5bdfc9ca88cd9b3d58a52e09b3b09e06ec66374fa21",
+          "visiblePixels": 3031
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "11205c957d7a8493a0ab4e8f59f1f8f41440dbb4bb84117e9962d24a63ee3fb2",
+          "visiblePixels": 2895
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea",
+          "visiblePixels": 2885
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "8dd27fe3c1c0ec1bd73234c0a80e6c79c2063f1b4885156c08d51a9405951471",
+          "visiblePixels": 2824
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "d753f5265cbad3b030849ca7acf7de1718efdb1f36a35b2dccc69ebb502e23fc",
+          "visiblePixels": 2399
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "e6392a793b336e4cc00148135cba62200e6a797b46b0e714d1a6d09c0adfe06e",
+          "visiblePixels": 2830
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "341b074b7c60f68edb19130ffdf6644609dfb45341839533e571a611bbea8c0b",
+          "visiblePixels": 2757
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "9308b0124d1ad8b69d645a97f2648e60d065357fdeda571cddbd4229d63519ad",
+          "visiblePixels": 2527
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "026f5cdda992bce44913dba2b6126d65215dffc6ef9a801c4b6ef83567223b74",
+          "visiblePixels": 2965
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "5a5375ce10403723fa4ca88bfac421400977c32914f878005b66e79b741de72b",
+          "visiblePixels": 2640
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "dunk-360",
+      "src": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "8f7a021b313d527cf737f37f57ca9b8485429c7a88a8e60bbfdcb3de63c11c01",
+          "visiblePixels": 3219
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9e87f653f40dd81b1c10ee8ba9552e7fababa983ae9b158342d151b6e15773c8",
+          "visiblePixels": 3259
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "de0d4345a8fa3a80cfb48786d817ac364eceabd0f15e8828384b49612234f4cd",
+          "visiblePixels": 3117
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "2fe4b2450915919b259cc9698e4191131d9a70123adcee585ce590ce0d39a0a3",
+          "visiblePixels": 3152
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "2a2c6c0ff1ad58328c12050e6b5fdcaf9ae98b4f8decd6d8599a651c054a2d6f",
+          "visiblePixels": 2964
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "bcf17183f19bafb0ff8d451b6419b77e0d9874ceca1676f85b7ab5e364ef902f",
+          "visiblePixels": 3020
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "a9008579fe0d9b32bd006bfa3fb19d53bec456ffdd97673f76192499832ce06a",
+          "visiblePixels": 3185
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca",
+          "visiblePixels": 2930
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "484a9a451243abc2b0d50dcb02dce5bf64d99f7f96096f30243dde70412f5a47",
+          "visiblePixels": 3270
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "0a651f5973484fa2d0d04f81c2676deb719470b0c6821b57a039f74b7514c0da",
+          "visiblePixels": 2831
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "d6a04e934c580cc42a8ba5ddf7cb5fdb8b0fea3d3cbd6ca7104c6f819ab093ad",
+          "visiblePixels": 3134
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "6120733bb50a6a018a4f5ed10a0ca3d8ed514c4548a2135596f20eee0e520281",
+          "visiblePixels": 3007
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "b52c1e6985d0f4da478f9d3c02b29efa0dc44324a1fb910d6da283295d1440fa",
+          "visiblePixels": 3046
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "77b52cc4f0645f925f3efcf9057650b6b541d7f1a1571129ae5d2feb2b4a6b55",
+          "visiblePixels": 3251
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "c4f48cbf52a92859787ea83ab203c25cd353c4bd666898408d0509baaaf19422",
+          "visiblePixels": 2907
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "src": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "13be06513b52434caed04ecd88dfe9c26713fb6b09bce26fde42e6df71f57069",
+          "visiblePixels": 3562
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "3227a14e22db20209a88c822f0e5787ef1ff8f95aefa8f3254833181c4eed153",
+          "visiblePixels": 3175
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "f1d096f40b36af751b638c14690a4d7b5117969a02807e38d06401606db977ef",
+          "visiblePixels": 3455
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "5d7edffddc7bda1164322a98806028d65953b4750cd4e180323e09c18decd3c5",
+          "visiblePixels": 3258
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "ff0df41c07fe3f91211fa44a02db40a927803e7d12eb4881e7084efba4872a8e",
+          "visiblePixels": 3183
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "630964fab8038ebe63400158270be65bfc658cce0e33a589212bd56fb975a7af",
+          "visiblePixels": 3706
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "76f188c4dbb178b7f77c196f25820bb90789c18eb70a56c542b6999a5c1610ac",
+          "visiblePixels": 3629
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b",
+          "visiblePixels": 3295
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "bdfd35f8b12064286d6b488a0544eabc2e755bbafc5e94ff995f6222d2515983",
+          "visiblePixels": 3259
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "1ff863811fc0ec555171788d94323351619d7c6420c412885eb2ef2bd51d2e51",
+          "visiblePixels": 3229
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "8f684a0a398f5840594711e8ecad8001075b839861aa12f4c85682883a3ab932",
+          "visiblePixels": 3245
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "4f682cbe49047a431decf96e419cd2b8be288fabc3d2d90bc40bc74a999b021a",
+          "visiblePixels": 3115
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "0b10ac2b407ac41ca5f6e09b95d88af12428e7c7c23e9ea10cf82f2273d4cbb4",
+          "visiblePixels": 3562
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "fa1e7eb63922cea2bedf9e2e7169c01c7b9db824f59b3dd48ef3211be3b1de94",
+          "visiblePixels": 3337
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "d8c6200e2dc3d567efb68dd61b65490f91bca3059d6e3f5d6e439356c87dbadf",
+          "visiblePixels": 3160
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "dunk-double",
+      "src": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "4d9f21193fd71f97c1886eaa3a122761b4be14ae5d0b717ef35d063e51e21b69",
+          "visiblePixels": 2533
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "d4c27ddcb5fbc2dd373d38fa07b3383f40526ce8b8d22a6082cbb15817e770d4",
+          "visiblePixels": 2432
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "58e1fe120a81010d6ef5e6cdf6c5e06940618352c035d78070405262b7afb05e",
+          "visiblePixels": 2457
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "a03955bb24b2f7d2ef32fe36e649aa80b620233128ffb5744a7debacab41e923",
+          "visiblePixels": 2560
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "acf272779bc577903f25a6b648f6cf90ec6214e1a3fd4fc832282820e422a55e",
+          "visiblePixels": 2405
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "3a491d70b6d35e28d6d8eeb3a890d4edffe9c5fd461eaec95323c5a9a56b29a8",
+          "visiblePixels": 2766
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "3291509136e8a75389be78f9afb45515476f7019d58d353787281ebc962d50b5",
+          "visiblePixels": 2532
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3",
+          "visiblePixels": 2442
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "562ac64667c9fcda17464b502618dec839a96a0477e432f45f6dd1cf11b4654b",
+          "visiblePixels": 2511
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "cb3c39af81c7368a2f0d915d76efa5688834c862806671b166b24ca3124dd2c6",
+          "visiblePixels": 2648
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "9b17cb421ae15b74f4b2a49a04fc1fbd3b4398e8a73f1f353c9abfe336365eb5",
+          "visiblePixels": 2717
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "f0c8d61184107acf27f9dba45476e826f7d069c51ac4a2ae63c9f9ad98593818",
+          "visiblePixels": 2541
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "292696554aaeb8ae4806d78d2245c4324ddad3bcf4161e6382d026d995b3c1fa",
+          "visiblePixels": 2221
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "c17e047dac8af97a1bef62f4a228c916e890fc1e2255452b690927f8cd20c1b2",
+          "visiblePixels": 2424
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "6a2bf9162693073f1457021b8d13357013cdb6615cc46e57e5ab1f131d877f9d",
+          "visiblePixels": 2452
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "src": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "25a9866168d777a24dd676e8f49ed2524bc778e442bc6f4994993073b10f2353",
+          "visiblePixels": 3406
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "30f0c60ffaa9b8079c61206a253c63cf4862d1980e2beb8d32f75d84dbc87b93",
+          "visiblePixels": 3119
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "582093849b1fc453e7c4a1d72c0dca39d0732a64a576ea3880782a7f52142c0b",
+          "visiblePixels": 3043
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "fae945cb733c9f14e0890fa2dd0c69f7a30aa1c2874757597f8916656b137dc4",
+          "visiblePixels": 2959
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "ae0cba1ca24447141dcb6c2503c32324f24bd30b70ab722eda775653ae480e89",
+          "visiblePixels": 2525
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "8099bc7be60dccf53bfb520c220c51a84715a807423c94eda2b15d76d781a3f1",
+          "visiblePixels": 2932
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "18b4f37aa4f2d21321767504bb8a52aa05ab24e0fd78171bf95c27b34979f9b5",
+          "visiblePixels": 2923
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6",
+          "visiblePixels": 2995
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "93b1525235caa4fa9b538d0d9cc9e108915b49a1c83e91d698fcd186ad68c17f",
+          "visiblePixels": 3216
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "8c67fb58c1289ad422ae0e2cfdfea868e0829009ff9175d2e04a872004202524",
+          "visiblePixels": 2895
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "2c75832cd5802f0b98655a03e3e1b5d0cc789fb582c80cd930b4263834c6b5d5",
+          "visiblePixels": 3144
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "eb3545a2e1ee879d800d172691b0f417a201d5798f8c1ea7360749b778b58e80",
+          "visiblePixels": 3242
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "3f33b845bf3996dcad142e114a7c5d92d895e3307c73b358b1cc7e254ea5f4ba",
+          "visiblePixels": 3202
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "d9dc24023b01f6573d4647eab517bf3d38887f748a83f0a52e87b6f27aca07f7",
+          "visiblePixels": 3218
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "67a6eabc3568ada28d06f9ea561c2ded214d392841ce3d3aa57f0228ea092a8e",
+          "visiblePixels": 3228
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "src": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "2d1f80177df4a8c8c0002db0747bab61b2f4c7a8da116ea83603eeed767e6c4e",
+          "visiblePixels": 3798
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "56e97166f56c60fd6ba7b3b53066177b5e83fd250b30f50b399e0e3e85654aba",
+          "visiblePixels": 3784
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "edc868bae87f33cd6684256f32786747f5c200e567c07200bfb618559081509c",
+          "visiblePixels": 3406
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "b9479a063a63a93cdb2bf607a7baa9fbfbadcc0b5678925b9a306a8c9143e1fe",
+          "visiblePixels": 3682
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "82e4f1c8ea0ffcdc9fc3a7f343ce793ec1728ac80b13ae07be5d5a735cab742f",
+          "visiblePixels": 3623
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "300dcd3665b7524a729f83bbcedc85c3a5783fec3ad9b488c7d0885b136c3365",
+          "visiblePixels": 4026
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "3411a223fb43fbb62ef4474da28fb5369332a7c139d654e576623d2eede916b5",
+          "visiblePixels": 3851
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296",
+          "visiblePixels": 3694
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "da07a6a4a4428f796f5372c19c06bcea94508e81891cb325a0be6a19364ef44d",
+          "visiblePixels": 3392
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "0ef6492a706af0829f630a99cc76c51219c9de2855adc70d022ee112a3bdd26d",
+          "visiblePixels": 3271
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "8c2383dc86306ef95b2653a7711569f6a6ddf26389c493f6377ea5d77ced6363",
+          "visiblePixels": 3372
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "e5358c00fe83b6d802926bc6094f9f7c2d750628ae451a0f70a1d6063879e074",
+          "visiblePixels": 3259
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "8dd5061bf82b49358468ab05a4bfeeef4b2aeff8a6c324aa20443df0d35d276d",
+          "visiblePixels": 3351
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "0c480fbe96b7caa8619ad206737301cb43b4c53c9c0d1ca182e2cef0fbdba157",
+          "visiblePixels": 3308
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "6bb350e71edba4b04adbbb72ce1ab8e4863767ca12251c795723b0cccae25470",
+          "visiblePixels": 3302
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "src": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "a624acccac6b6f23cee624a852540b0a92b60ac01816ea5f489987caffd5c119",
+          "visiblePixels": 2472
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "b63e23a5d334c813c13dca344ffb328d40b439e19d4befc48cfe00f84657a335",
+          "visiblePixels": 2517
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "8d1be1891a1c490a944c246ff6ef20e935835b20aedef40a5a066f29da57d50d",
+          "visiblePixels": 2689
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "cb1c78ca979a50bdc8361fa458ad4b29492257637871aa178594d3afee6cce20",
+          "visiblePixels": 2678
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "3fbeeb10eafd9712afe391e010d758b339b5c39358b22a6026373026a28ec361",
+          "visiblePixels": 2512
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "ae59c5ee7ab691a3fc7d01aeaba53f5c45d38128506c3c74d8d63b198a7e2194",
+          "visiblePixels": 2754
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "abcf3916f50a2c05d46fbef86534ee888c3b04422ba771d6304e7402cbdac30e",
+          "visiblePixels": 2162
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a",
+          "visiblePixels": 2284
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "d036970113395f2d3ef8d3d93acbd09c2275dcd5f6abb69fa29fd73be4a86a6e",
+          "visiblePixels": 2166
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "05de89e6ed2ee3a7ddd6e49df87a50cfeb61ad5740e326929e4c255fa933cf04",
+          "visiblePixels": 2355
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "75b8dd0961f3605938c44985e535194540452da6b3bead2ac36ffd527516487c",
+          "visiblePixels": 2760
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "ffb63cdf0560fa03faf81f44424a61ffea7679eba3e9ec8d9baa63d8cd49cd51",
+          "visiblePixels": 2425
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "4792d20939368b71bfdaf12f89b4c30f3e3d5729f0d4f3eaf40cd2f925eb63ac",
+          "visiblePixels": 2311
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "d21d5c0ec6460da11990d2f93c65d83172dd7a8d7525138674d5969b74905281",
+          "visiblePixels": 2284
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "5a188884096ba69f1b085af993af46930c95194566a53bab33967449c101683c",
+          "visiblePixels": 2531
+        }
+      ]
+    },
+    {
+      "athlete": "nova-stitch",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "src": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "8d312cc6d14919eadbf19f80fe88ae1a745fde0709e6678c91418bfeb2375637",
+          "visiblePixels": 2393
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "c5986571685fa6aa1c83d7d9518823dc2edb73302e0c3972e01cadaad678ba23",
+          "visiblePixels": 2139
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "cc21b2250c1191934322e699161fe2bebefefd57537c72412185d694379d6f76",
+          "visiblePixels": 2038
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9013c73b280c95e34523ade14f5e73c202bd9bc88f7e8dcd2d8d07602ae56dc2",
+          "visiblePixels": 2322
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "81df1378e04f71332d0035d5de041f10673685604e30e9e5d42b1caaa1ab6bfa",
+          "visiblePixels": 2472
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "0bbb115a1d2ccf09ce813fae5545941d8e8566880fa916d34a521a8914edc2dd",
+          "visiblePixels": 2517
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "270e6d298d06de0a2e67097d4a1664f934dce0a82e9188360cb7270015c019e0",
+          "visiblePixels": 2543
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2",
+          "visiblePixels": 2729
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "b690cf3f86b8c1d2b882296d3eb6e091095291bca1584a2b252bad1fb7d3b3e7",
+          "visiblePixels": 2608
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "71c5235784316185933ce9d79a10322928efc0b5dc6737ea5133c3c49af26c62",
+          "visiblePixels": 2605
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "9d22d9df4023c0d164cad1967b7b80b1722597ab3887a76da5cfc08c2e823850",
+          "visiblePixels": 2982
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "a4c061d89087f87c28917dc350942ffa8ea8edd46bce43959fdd93d0ea1c617e",
+          "visiblePixels": 2748
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "d4843c4ce27bfabdcf0e80aa8a65cbc759ef35193957d636c534b102f2a85e42",
+          "visiblePixels": 2477
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "95659a4dfc18e632d1f3ca34576142af4420fa9d98204867f8341a4b733f64b6",
+          "visiblePixels": 2573
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "1c3c57fa067a22ca87315effb497628f70460653d6a8c221f641c2c3f7e95ab3",
+          "visiblePixels": 2769
         }
       ]
     },

@@ -22543,7 +22543,23 @@ export const animationAssetManifest = {
                 }
               ],
               "uniformScale": 0.39316239316239315,
-              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  1.1,
+                  1.1,
+                  1.1
+                ],
+                "forward": [
+                  8,
+                  9,
+                  9,
+                  8
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
             },
             "reviewed": true,
             "review": {
@@ -22709,7 +22725,35 @@ export const animationAssetManifest = {
                 }
               ],
               "uniformScale": 0.39316239316239315,
-              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "runtimeBallTrack": {
+                "height": [
+                  1.2,
+                  1.05,
+                  0.8,
+                  0.5,
+                  0.2,
+                  0,
+                  0.25,
+                  0.6,
+                  0.95,
+                  1.2
+                ],
+                "forward": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  11,
+                  10,
+                  9,
+                  8,
+                  7
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
             },
             "reviewed": true,
             "review": {
@@ -23069,7 +23113,37 @@ export const animationAssetManifest = {
                 }
               ],
               "uniformScale": 0.39316239316239315,
-              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "runtimeBallTrack": {
+                "height": [
+                  1.2,
+                  1.1,
+                  0.85,
+                  0.55,
+                  0.25,
+                  0,
+                  0.25,
+                  0.55,
+                  0.85,
+                  1.1,
+                  1.2
+                ],
+                "forward": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  13,
+                  12,
+                  11,
+                  10,
+                  9,
+                  9
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
             },
             "reviewed": true,
             "review": {
@@ -23246,13 +23320,9473 @@ export const animationAssetManifest = {
               ],
               "uniformScale": 0.23115577889447236,
               "componentIsolation": false,
-              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "runtimeBallTrack": {
+                "height": [
+                  0.95,
+                  1.05,
+                  1.25,
+                  1.5,
+                  2.31,
+                  2.31,
+                  2.05,
+                  1.8,
+                  1.35,
+                  1.1
+                ],
+                "forward": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10.7,
+                  10.7,
+                  10,
+                  8,
+                  6,
+                  5
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
             },
             "reviewed": true,
             "review": {
               "reviewedAt": "2026-10-21",
               "notes": "Reviewed10source poses and packed cells overblue. Supporting athlete identity preserved from approved locomotion/reference: tealcurlyponytail woman forNova, shorttealheadband/beardedman forEcho. Gather/lift/release/wristsnap/followthrough/landing independentlydrawn. Emptyhands, truealpha, completebodies. Browser alignment/continuity needsplaytest."
             }
+          },
+          "alley-oop-power": {
+            "src": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a624acccac6b6f23cee624a852540b0a92b60ac01816ea5f489987caffd5c119"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "b63e23a5d334c813c13dca344ffb328d40b439e19d4befc48cfe00f84657a335"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "8d1be1891a1c490a944c246ff6ef20e935835b20aedef40a5a066f29da57d50d"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "cb1c78ca979a50bdc8361fa458ad4b29492257637871aa178594d3afee6cce20"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "3fbeeb10eafd9712afe391e010d758b339b5c39358b22a6026373026a28ec361"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "ae59c5ee7ab691a3fc7d01aeaba53f5c45d38128506c3c74d8d63b198a7e2194"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "abcf3916f50a2c05d46fbef86534ee888c3b04422ba771d6304e7402cbdac30e"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d036970113395f2d3ef8d3d93acbd09c2275dcd5f6abb69fa29fd73be4a86a6e"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "05de89e6ed2ee3a7ddd6e49df87a50cfeb61ad5740e326929e4c255fa933cf04"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "75b8dd0961f3605938c44985e535194540452da6b3bead2ac36ffd527516487c"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "ffb63cdf0560fa03faf81f44424a61ffea7679eba3e9ec8d9baa63d8cd49cd51"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "4792d20939368b71bfdaf12f89b4c30f3e3d5729f0d4f3eaf40cd2f925eb63ac"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "d21d5c0ec6460da11990d2f93c65d83172dd7a8d7525138674d5969b74905281"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "5a188884096ba69f1b085af993af46930c95194566a53bab33967449c101683c"
+              }
+            ],
+            "sha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "alley-oop-power",
+              "direction": "right",
+              "generationId": "exec-d65a4e01-3a67-4591-8037-bb25e00c3256",
+              "imageGenerationId": "exec-d65a4e01-3a67-4591-8037-bb25e00c3256",
+              "generatedAt": "2026-10-24T01:33:44.467927+00:00",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-alley-oop-power-generated-raw.png",
+              "rawSourceSha256": "6dd69d5e0cd66a859b66512a68b5bf42c186b0f40ac5f1d44b395de4a574908d",
+              "prompt": "Use the supplied Nova Stitch image only as identity/style reference. Make a true transparent RGBA 1536×1024 sprite sheet of exactly fifteen distinct complete full-body poses in a five-column by three-row row-major grid for Nova’s alley-oop power dunk. Same fair-tan athletic human woman with face, long curly teal high ponytail, teal jersey and shorts with purple/black trim, black knee pads, teal-black shoes and wristbands. Consistent right-facing human anatomy, outfit, camera and scale. One Nova per cell, no teammate or passer. Do NOT draw a basketball or hoop: separate runtime ball track supplies the lob, and hands are empty after catch/release. Sequence follows one continuous lob catch to compact power dunk. Frames0-1 run into lane and look up; frames2-4 reach toward incoming high lob; frame5 is unmistakable two-hand/right-hand catch pose with arms up and eyes tracking; frames6-7 bring invisible ball close to chest while airborne; frames8-9 gather then extend upward; frame10 high one-hand power dunk release, empty hand reaches rim-height; frames11-12 follow through and descend; frames13-14 land and recover. Keep every full body, ponytail, fingers, shoes visible. Poses distinct. No background, floor, shadow, glow, text, rim, ball, border, gridline, checkerboard or matte; transparent alpha zero. Crisp 1990s limited-palette arcade pixel art with chunky dark outlines, not glossy, photorealistic, anime, painterly or 3D. Return only the sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen distinct full-body poses reviewed; lob catch reaches overhead at frame5, compact gather and power release at frame10; consistent Nova identity, no visible ball.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "separateBall": true,
+              "sourceImage": "tools/generate-art/sources/nova-stitch-alley-oop-power-generated-raw.png",
+              "sourceSha256": "6dd69d5e0cd66a859b66512a68b5bf42c186b0f40ac5f1d44b395de4a574908d",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 27,
+                  "y": 52,
+                  "w": 240,
+                  "h": 287,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 333,
+                  "y": 49,
+                  "w": 227,
+                  "h": 289,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 646,
+                  "y": 46,
+                  "w": 260,
+                  "h": 300,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 963,
+                  "y": 15,
+                  "w": 254,
+                  "h": 336,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1269,
+                  "y": 30,
+                  "w": 243,
+                  "h": 332,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 27,
+                  "y": 352,
+                  "w": 249,
+                  "h": 328,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 352,
+                  "y": 394,
+                  "w": 209,
+                  "h": 259,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 655,
+                  "y": 399,
+                  "w": 228,
+                  "h": 271,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 970,
+                  "y": 367,
+                  "w": 219,
+                  "h": 319,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1269,
+                  "y": 330,
+                  "w": 232,
+                  "h": 379,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 35,
+                  "y": 679,
+                  "w": 246,
+                  "h": 329,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 363,
+                  "y": 713,
+                  "w": 225,
+                  "h": 299,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 672,
+                  "y": 756,
+                  "w": 205,
+                  "h": 256,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 970,
+                  "y": 758,
+                  "w": 214,
+                  "h": 254,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1278,
+                  "y": 717,
+                  "w": 216,
+                  "h": 295,
+                  "component": 17
+                }
+              ],
+              "uniformScale": 0.24274406332453827,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+              "atlasSha256": "5f8104533085872f04a517e9fa67ff8a7b3f3cbcf2a4bfdee57024857608c940",
+              "atlasBytes": 53136,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "5f8104533085872f04a517e9fa67ff8a7b3f3cbcf2a4bfdee57024857608c940",
+                "atlasSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 32,
+                  "right": 33,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 35,
+                      "top": 21,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 21,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 33,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 9,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 39,
+                      "top": 28,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 25,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 29,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 29,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.7,
+                  2,
+                  2.1,
+                  2.25,
+                  2.4,
+                  2.5,
+                  2.55,
+                  2.45,
+                  2.3,
+                  2.31,
+                  2.31,
+                  1.45,
+                  1.1,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  12,
+                  10,
+                  7,
+                  4,
+                  2,
+                  1,
+                  1,
+                  3,
+                  7,
+                  -3.3,
+                  -3.3,
+                  13,
+                  10,
+                  8,
+                  6
+                ]
+              },
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "alley-oop-reverse": {
+            "src": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "8d312cc6d14919eadbf19f80fe88ae1a745fde0709e6678c91418bfeb2375637"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c5986571685fa6aa1c83d7d9518823dc2edb73302e0c3972e01cadaad678ba23"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "cc21b2250c1191934322e699161fe2bebefefd57537c72412185d694379d6f76"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "9013c73b280c95e34523ade14f5e73c202bd9bc88f7e8dcd2d8d07602ae56dc2"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "81df1378e04f71332d0035d5de041f10673685604e30e9e5d42b1caaa1ab6bfa"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "0bbb115a1d2ccf09ce813fae5545941d8e8566880fa916d34a521a8914edc2dd"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "270e6d298d06de0a2e67097d4a1664f934dce0a82e9188360cb7270015c019e0"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "b690cf3f86b8c1d2b882296d3eb6e091095291bca1584a2b252bad1fb7d3b3e7"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "71c5235784316185933ce9d79a10322928efc0b5dc6737ea5133c3c49af26c62"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "9d22d9df4023c0d164cad1967b7b80b1722597ab3887a76da5cfc08c2e823850"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "a4c061d89087f87c28917dc350942ffa8ea8edd46bce43959fdd93d0ea1c617e"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "d4843c4ce27bfabdcf0e80aa8a65cbc759ef35193957d636c534b102f2a85e42"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "95659a4dfc18e632d1f3ca34576142af4420fa9d98204867f8341a4b733f64b6"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "1c3c57fa067a22ca87315effb497628f70460653d6a8c221f641c2c3f7e95ab3"
+              }
+            ],
+            "sha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "alley-oop-reverse",
+              "direction": "right",
+              "generationId": "exec-09417cf1-7db4-4f39-82e6-f7426cb71041",
+              "imageGenerationId": "exec-09417cf1-7db4-4f39-82e6-f7426cb71041",
+              "generatedAt": "2026-10-24T01:35:08.717121+00:00",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-alley-oop-reverse-generated-raw.png",
+              "rawSourceSha256": "caf71ef3ab374a3913322b8e461d9e76c50a99be72ddbcd131c0689caa8bc890",
+              "prompt": "Use the supplied Nova Stitch sprite as exact identity and style reference. Make a true transparent 1536×1024 RGBA sheet with fifteen distinct complete full-body Nova poses in strict 5 columns by 3 rows, row-major, for an alley-oop reverse dunk. Nova is the same fair-tan athletic human woman, face, long curly teal high ponytail, teal jersey/shorts purple-black trim, black knee pads, teal-black shoes, wristbands. Preserve proportions, costume, hair and camera. One character per cell, no passer/teammate. No basketball or hoop: separate runtime ball is delivered as an overhead lob and then follows Nova's hands; empty hand only. Frames0-1 move into lane and look up; frames2-4 reach up at an incoming lob; frame5 clearly catches overhead with right hand; frames6-7 gather the invisible ball and rotate shoulders and hips away from rim/viewer, showing her back and ponytail; frames8-9 carry the empty ball hand behind and around her crown while staying turned away; frame10 is a clear behind-the-head reverse release from the far side; frames11-12 follow through and unwind during descent; frames13-14 land and recover. The backwards turn and behind-crown reverse finish must be visually distinct from a front-facing power dunk. Fifteen unique connected full-body poses, no duplicate drawings, anatomy correct, full hair/shoes within cell. Right-facing start, back-facing airborne mid-action, right-facing finish. Crisp limited-palette 1990s arcade pixel art with chunky outline, not 3D, anime, glossy or painterly. No background, court, floor, shadow, glow, text, ball, border, checkerboard or matte. Return only sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen distinct full-body poses reviewed; overhead catch at frame5, shoulders turn away for far-side reverse release at frame10, stable Nova identity and no visible ball.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "separateBall": true,
+              "sourceImage": "tools/generate-art/sources/nova-stitch-alley-oop-reverse-generated-raw.png",
+              "sourceSha256": "caf71ef3ab374a3913322b8e461d9e76c50a99be72ddbcd131c0689caa8bc890",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 44,
+                  "y": 74,
+                  "w": 244,
+                  "h": 269,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 373,
+                  "y": 80,
+                  "w": 223,
+                  "h": 263,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 687,
+                  "y": 82,
+                  "w": 212,
+                  "h": 270,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 967,
+                  "y": 5,
+                  "w": 201,
+                  "h": 346,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1255,
+                  "y": 1,
+                  "w": 223,
+                  "h": 348,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 52,
+                  "y": 336,
+                  "w": 253,
+                  "h": 364,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 371,
+                  "y": 365,
+                  "w": 209,
+                  "h": 329,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 674,
+                  "y": 361,
+                  "w": 206,
+                  "h": 337,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 986,
+                  "y": 370,
+                  "w": 205,
+                  "h": 330,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1297,
+                  "y": 365,
+                  "w": 199,
+                  "h": 320,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 44,
+                  "y": 704,
+                  "w": 295,
+                  "h": 319,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 358,
+                  "y": 715,
+                  "w": 273,
+                  "h": 301,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 668,
+                  "y": 706,
+                  "w": 208,
+                  "h": 305,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 968,
+                  "y": 758,
+                  "w": 241,
+                  "h": 253,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1264,
+                  "y": 700,
+                  "w": 199,
+                  "h": 304,
+                  "component": 12
+                }
+              ],
+              "uniformScale": 0.25274725274725274,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+              "atlasSha256": "9df12399f18c813cd04236739508da74ba50f6e77ea6c805324789a77982ccc0",
+              "atlasBytes": 55082,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "9df12399f18c813cd04236739508da74ba50f6e77ea6c805324789a77982ccc0",
+                "atlasSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 26,
+                  "right": 27,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 25,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 26,
+                      "right": 27,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 34,
+                      "top": 27,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.7,
+                  2,
+                  2.2,
+                  2.3,
+                  2.4,
+                  2.45,
+                  2.5,
+                  2.45,
+                  2.3,
+                  2.22,
+                  2.22,
+                  1.45,
+                  1.1,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  12,
+                  10,
+                  7,
+                  4,
+                  2,
+                  1,
+                  0,
+                  1,
+                  3,
+                  13.7,
+                  13.7,
+                  9,
+                  9,
+                  8,
+                  6
+                ]
+              },
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "block": {
+            "src": "./public/assets/animation/nova-stitch-block-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "e2e773b9facb86d802c9965121f2f569aaedffcf37e387499b4654405b279ca1"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "d4d623bf29aa02f5450d1e6fd0b68d17474fc81d6b13903fd4d9fc4573e2b0c1"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "96766621b8b0507945d2651328e471459c1e23facfbbeae353d4531a2ceff716"
+              }
+            ],
+            "sha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "block",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-1ee562f5-0a54-40e4-9807-7a74e95b50a4",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-block-generated-raw.png",
+              "rawSourceSha256": "359af7fa93a7af18c77bc248175eca73ee40a1f81108240f9bbcc2e38c5d0fc8",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-block-generated-raw.png",
+              "sourceSha256": "359af7fa93a7af18c77bc248175eca73ee40a1f81108240f9bbcc2e38c5d0fc8",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite only as the identity and visual-style reference. Create an original 1536×1024 transparent RGBA sheet for JAMVERSE '96 with exactly four separate complete full-body Nova Stitch defensive-block poses in a two-column by two-row grid, row-major. Keep figure scale and right-facing direction consistent; each body must fit in a cell. No background, floor, court, shadows, glow, text, number, hoop, prop, teammate or opponent.\n\nNova is a young athletic fair-tan woman with long curly teal hair in a high ponytail, a distinct face, teal jersey/shorts with purple/black trim, black knee pads, teal-and-black shoes and wristbands. Preserve this human identity and outfit. Hands remain empty; never draw a basketball or prop.\n\nAction: Nova plays defense, crouches, springs upward and reaches both empty hands to block a shot, then lands balanced. Four distinct connected poses:\n0 alert defensive stance, knees flexed, hands low and ready;\n1 load down and plant both feet, elbows bending;\n2 leap at the ball peak at tick5, torso extended with both arms raised, fingers spread to deflect an imagined ball;\n3 descend and land under control, arms lowering and knees flexing.\nTakeoff begins at tick2 (pose1). No player lies on the floor; this is a clean athletic jump block. Keep both hands, both feet and ponytail fully visible and anatomically coherent.\n\nMatch the tiny supplied 2D arcade sprite reference: crisp limited-palette 1990s pixel art with chunky dark outlines, not painterly, photoreal, 3D, glossy or anime. True alpha-zero background and gutters; no checkerboard or matte. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Four distinct complete Nova Stitch block poses preserve her high teal ponytail, human face, athletic proportions and teal/purple uniform. Takeoff at frame1/tick2, two-hand jump block peaks at frame2/tick5, then controlled landing at frame3/tick8.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "No ball is drawn; Nova-specific opponent ball is separate. Open hands meet the overhead block point at frame2/tick5.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 285,
+                  "y": 7,
+                  "w": 359,
+                  "h": 447,
+                  "component": 1,
+                  "area": 85191
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 913,
+                  "y": 67,
+                  "w": 344,
+                  "h": 387,
+                  "component": 2,
+                  "area": 79169
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 274,
+                  "y": 456,
+                  "w": 412,
+                  "h": 533,
+                  "component": 3,
+                  "area": 90334
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 926,
+                  "y": 583,
+                  "w": 377,
+                  "h": 429,
+                  "component": 4,
+                  "area": 83046
+                }
+              ],
+              "uniformScale": 0.1726078799249531,
+              "componentIsolation": true,
+              "packaging": "package-nova-action4.py; 80x96 cells; baseline94; lossless WebP; 4 original block poses",
+              "atlasPath": "public/assets/animation/nova-stitch-block-right.webp",
+              "atlasSha256": "ba7fd47bae219a9fc657d53f423b944abc3b359551d427333557c6338718f6fd",
+              "atlasBytes": 34744,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "ba7fd47bae219a9fc657d53f423b944abc3b359551d427333557c6338718f6fd",
+                "atlasSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 7,
+                  "right": 7,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 9,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 11,
+                      "top": 24,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 7,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 8,
+                      "top": 17,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              }
+            },
+            "reviewed": true
+          },
+          "celebrate": {
+            "src": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "f6695b030543e9ce5b64128aeb0d0f99c8ab99fb54490f4fbb173d1b25084d30"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "a70ff6dc1901096c84ede3fafd4ae838e7456183f765dbea9f1ab53f40f5582b"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "382e919cf6c77e53b54f5194963fed5872896e1ab820083f6422b2f77809ed2b"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "6ae3efd279b9ee80c2f285cfad91bdb73a76346c51d7078c72918a9f588e68b6"
+              },
+              {
+                "x": 320,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "48ade5696fd4b66c32d0d008360cd071b79de4d9eb619ae74317020481db3b9f"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "77b15fb11ecd247c9f930c4f62bd47d392a57e440b8430777ab1adbfb4606123"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "e184351e62bafa6b86ded850c8eaf9bf904f01a4ae33fb7b0537278d6a166168"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "9da6999866c8df0ba706b52bb8af0c759f92fef4d65880de52b561bff9044aee"
+              },
+              {
+                "x": 320,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "ab77097c79ca5ce6a4c9985f924808881a1dd08cdd6d4f8834670e4e5a14d14d"
+              }
+            ],
+            "sha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "celebrate",
+              "direction": "right",
+              "generationId": "exec-48e8ad3d-f6f6-422d-b10d-a3e5c7627188",
+              "generatedAt": "2026-10-24T01:19:29.614801+00:00",
+              "sourceSha256": "23186e1f507dea15568f64fafc1dee2dc948b25b4ea825ff573839012a32eeb8",
+              "prompt": "Using the supplied Nova Stitch gameplay sprite as the identity and style reference, create an original transparent RGBA 1536×1024 sprite sheet with exactly ten distinct separate complete full-body Nova Stitch basketball celebration poses in a five-column by two-row grid, row-major. One connected figure centered in each cell, facing right or three-quarter right. Keep consistent camera, scale, anatomy and outfit. No scene, floor, shadow, background, props, text, basketball, teammate or opponent.\n\nNova is the same young athletic fair-tan human woman as the reference, with long curly teal hair in a high ponytail, distinct face, teal jersey and shorts with purple and black trim, black knee pads, teal-black basketball sneakers and wristbands. Preserve her identity, human proportions, facial features, hair, uniform colors and shoes in every pose. No other characters.\n\nTen sequential jubilant, athletic, non-contact celebration poses: 0 settle from the play, relaxed ready stance; 1 smile and bring one fist toward chest; 2 raise both bent arms with excitement; 3 punch one fist upward; 4 turn slightly and clap once at chest height; 5 lean back with joyful raised arms; 6 pump both fists overhead; 7 make a small celebratory hop with both feet visibly off ground; 8 land in a balanced upbeat stance with arms out; 9 return to a cheerful confident ready pose. Keep complete body, hair and footwear in each cell, limbs separated and anatomically correct, readable full-body silhouette. The sequence should visibly change; no copied poses.\n\nMatch the supplied small 2D arcade sprite: crisp limited-palette 1990s pixel art, chunky dark outlines, not painterly, photorealistic, 3D, glossy or anime. True transparent alpha-zero background, no checkerboard or matte, no floor shadow or glow. Return only the sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "notes": "Visually reviewed ten distinct complete Nova poses with consistent identity, hair, palette and anatomy; no ball or other person.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-celebrate-generated-raw.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 10,
+                  "y": 57,
+                  "w": 263,
+                  "h": 451,
+                  "component": 2,
+                  "area": 71383
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 345,
+                  "y": 61,
+                  "w": 267,
+                  "h": 447,
+                  "component": 4,
+                  "area": 66884
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 632,
+                  "y": 63,
+                  "w": 273,
+                  "h": 445,
+                  "component": 5,
+                  "area": 66669
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 927,
+                  "y": 27,
+                  "w": 302,
+                  "h": 482,
+                  "component": 1,
+                  "area": 70906
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1272,
+                  "y": 60,
+                  "w": 252,
+                  "h": 448,
+                  "component": 3,
+                  "area": 64805
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 38,
+                  "y": 522,
+                  "w": 280,
+                  "h": 470,
+                  "component": 7,
+                  "area": 68250
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 337,
+                  "y": 519,
+                  "w": 289,
+                  "h": 473,
+                  "component": 6,
+                  "area": 66638
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 615,
+                  "y": 528,
+                  "w": 272,
+                  "h": 399,
+                  "component": 8,
+                  "area": 59183
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 904,
+                  "y": 576,
+                  "w": 365,
+                  "h": 416,
+                  "component": 10,
+                  "area": 65944
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1277,
+                  "y": 568,
+                  "w": 249,
+                  "h": 424,
+                  "component": 9,
+                  "area": 62974
+                }
+              ],
+              "uniformScale": 0.1908713692946058,
+              "componentIsolation": true,
+              "packaging": "package-nova-action10.py; 80x96 cells; baseline94; lossless WebP; 10 original celebrate poses",
+              "atlasPath": "public/assets/animation/nova-stitch-celebrate-right.webp",
+              "atlasSha256": "6d63cbe2e105a99cd7d2c1dc79b430d7b9849972cef5c538b39409c898fef945",
+              "atlasBytes": 86106,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "6d63cbe2e105a99cd7d2c1dc79b430d7b9849972cef5c538b39409c898fef945",
+                "atlasSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 15,
+                      "right": 15,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      160,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 14,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      240,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 13,
+                      "right": 13,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      320,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 16,
+                      "right": 16,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 13,
+                      "right": 14,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      160,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 14,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      240,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 5,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      320,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 16,
+                      "right": 16,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              }
+            },
+            "reviewed": true
+          },
+          "dunk-360": {
+            "src": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "8f7a021b313d527cf737f37f57ca9b8485429c7a88a8e60bbfdcb3de63c11c01"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "9e87f653f40dd81b1c10ee8ba9552e7fababa983ae9b158342d151b6e15773c8"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "de0d4345a8fa3a80cfb48786d817ac364eceabd0f15e8828384b49612234f4cd"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2fe4b2450915919b259cc9698e4191131d9a70123adcee585ce590ce0d39a0a3"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "2a2c6c0ff1ad58328c12050e6b5fdcaf9ae98b4f8decd6d8599a651c054a2d6f"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "bcf17183f19bafb0ff8d451b6419b77e0d9874ceca1676f85b7ab5e364ef902f"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a9008579fe0d9b32bd006bfa3fb19d53bec456ffdd97673f76192499832ce06a"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "484a9a451243abc2b0d50dcb02dce5bf64d99f7f96096f30243dde70412f5a47"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "0a651f5973484fa2d0d04f81c2676deb719470b0c6821b57a039f74b7514c0da"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d6a04e934c580cc42a8ba5ddf7cb5fdb8b0fea3d3cbd6ca7104c6f819ab093ad"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "6120733bb50a6a018a4f5ed10a0ca3d8ed514c4548a2135596f20eee0e520281"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b52c1e6985d0f4da478f9d3c02b29efa0dc44324a1fb910d6da283295d1440fa"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "77b52cc4f0645f925f3efcf9057650b6b541d7f1a1571129ae5d2feb2b4a6b55"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "c4f48cbf52a92859787ea83ab203c25cd353c4bd666898408d0509baaaf19422"
+              }
+            ],
+            "sha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "dunk-360",
+              "direction": "right",
+              "generationId": "exec-5b21927e-6c6d-4ea7-83ed-a3117786ff38",
+              "imageGenerationId": "exec-5b21927e-6c6d-4ea7-83ed-a3117786ff38",
+              "generatedAt": "2026-10-24T01:25:13.933032+00:00",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-360-generated-raw.png",
+              "rawSourceSha256": "1223d140f994233f448f79b0e6f7aa34482cdd6f68f9db5601e573bcf3604731",
+              "prompt": "Using the supplied Nova Stitch sprite for exact character identity and 2D pixel style, make a 1536x1024 transparent RGBA sheet containing fifteen distinct complete full-body poses, strict 5 columns x 3 rows, row-major, for a 360-degree spinning dunk. Only Nova in each cell; no ball (runtime ball is separate and her hands must stay empty), rim, teammates, floor, shadow, glow, checkerboard or text. The same fair-tan athletic human woman, same face, long curly teal high ponytail, teal/purple/black trimmed uniform, black knee pads, teal-black sneakers, wristbands and anatomy in every view. Right-facing start and finish. Sequentially: 0 approach; 1 lower gather; 2 plant to take off; 3 rotate to three-quarter view; 4 side/back view; 5 turn fully back-facing; 6 continue into opposite three-quarter rear; 7 rise airborne rotating through side view; 8 turn back toward front; 9 reach peak in a forward three-quarter view with arm extended high; 10 one-hand overhead release pose; 11 complete spin and follow through; 12 descend; 13 land balanced; 14 ready finish. Body orientation must visibly change around full circle across frames 3-9, including clear back view, with ponytail and limbs moving naturally, no cloned/repeated poses. All limbs connected, complete full body within each cell. Pixel-art limited palette 1990s arcade sprites, chunky dark outline, not glossy, anime, 3D or painterly. Output only the sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen distinct complete Nova poses visually reviewed; back-facing turn and return toward release are visible, consistent identity and no ball.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "separateBall": true,
+              "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-360-generated-raw.png",
+              "sourceSha256": "1223d140f994233f448f79b0e6f7aa34482cdd6f68f9db5601e573bcf3604731",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 11,
+                  "y": 12,
+                  "w": 300,
+                  "h": 331,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 360,
+                  "y": 45,
+                  "w": 263,
+                  "h": 301,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 670,
+                  "y": 20,
+                  "w": 226,
+                  "h": 325,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 968,
+                  "y": 9,
+                  "w": 267,
+                  "h": 340,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1284,
+                  "y": 9,
+                  "w": 249,
+                  "h": 336,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 17,
+                  "y": 359,
+                  "w": 298,
+                  "h": 328,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 339,
+                  "y": 366,
+                  "w": 282,
+                  "h": 322,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 629,
+                  "y": 359,
+                  "w": 289,
+                  "h": 324,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 999,
+                  "y": 358,
+                  "w": 257,
+                  "h": 317,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1265,
+                  "y": 323,
+                  "w": 247,
+                  "h": 380,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 7,
+                  "y": 682,
+                  "w": 258,
+                  "h": 342,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 326,
+                  "y": 702,
+                  "w": 288,
+                  "h": 315,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 658,
+                  "y": 722,
+                  "w": 270,
+                  "h": 295,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 965,
+                  "y": 714,
+                  "w": 268,
+                  "h": 303,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1281,
+                  "y": 714,
+                  "w": 222,
+                  "h": 303,
+                  "component": 18
+                }
+              ],
+              "uniformScale": 0.24210526315789474,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/nova-stitch-dunk-360-right.webp",
+              "atlasSha256": "20a2862e57e34e2741a5084f74a144dfb3396987d6d2ccc1a19e23c866bb39a3",
+              "atlasBytes": 62880,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "20a2862e57e34e2741a5084f74a144dfb3396987d6d2ccc1a19e23c866bb39a3",
+                "atlasSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 27,
+                  "right": 28,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 28,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 32,
+                      "top": 9,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 28,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 13,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 13,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 32,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 32,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.5,
+                  1.8,
+                  2.1,
+                  2.3,
+                  2.5,
+                  2.6,
+                  2.4,
+                  2.28,
+                  2.28,
+                  1.4,
+                  1,
+                  0.75,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  13,
+                  12,
+                  10,
+                  7,
+                  6,
+                  13.1,
+                  13.1,
+                  14,
+                  12,
+                  9,
+                  7
+                ]
+              },
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "dunk-clutch": {
+            "src": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "25a9866168d777a24dd676e8f49ed2524bc778e442bc6f4994993073b10f2353"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "30f0c60ffaa9b8079c61206a253c63cf4862d1980e2beb8d32f75d84dbc87b93"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "582093849b1fc453e7c4a1d72c0dca39d0732a64a576ea3880782a7f52142c0b"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "fae945cb733c9f14e0890fa2dd0c69f7a30aa1c2874757597f8916656b137dc4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "ae0cba1ca24447141dcb6c2503c32324f24bd30b70ab722eda775653ae480e89"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "8099bc7be60dccf53bfb520c220c51a84715a807423c94eda2b15d76d781a3f1"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "18b4f37aa4f2d21321767504bb8a52aa05ab24e0fd78171bf95c27b34979f9b5"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "93b1525235caa4fa9b538d0d9cc9e108915b49a1c83e91d698fcd186ad68c17f"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8c67fb58c1289ad422ae0e2cfdfea868e0829009ff9175d2e04a872004202524"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "2c75832cd5802f0b98655a03e3e1b5d0cc789fb582c80cd930b4263834c6b5d5"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "eb3545a2e1ee879d800d172691b0f417a201d5798f8c1ea7360749b778b58e80"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "3f33b845bf3996dcad142e114a7c5d92d895e3307c73b358b1cc7e254ea5f4ba"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "d9dc24023b01f6573d4647eab517bf3d38887f748a83f0a52e87b6f27aca07f7"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "67a6eabc3568ada28d06f9ea561c2ded214d392841ce3d3aa57f0228ea092a8e"
+              }
+            ],
+            "sha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "dunk-clutch",
+              "direction": "right",
+              "generationId": "exec-f16eb889-0f88-4139-8418-a648b723e968",
+              "imageGenerationId": "exec-f16eb889-0f88-4139-8418-a648b723e968",
+              "generatedAt": "2026-10-24T01:30:03.595538+00:00",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-clutch-generated-raw.png",
+              "rawSourceSha256": "b5994be7b6c28e69ca796af3ee3bab0e917279d3f3569e458ba4593fb395faec",
+              "prompt": "Use the supplied Nova Stitch sprite as the exact character reference. Create a transparent RGBA 1536×1024 action sheet, exactly 15 distinct complete full-body poses in five columns by three rows, row-major, for a clutch dunk. Nova is the same athletic fair-tan human woman with teal high ponytail, identifiable face, teal uniform with purple/black trim, knee pads, teal-black sneakers and wristbands; no change of anatomy or costume. No basketball in the image (separate runtime sprite), no rim, scene, other player, floor, shadow, glow or text. Keep hands empty. Right-facing, consistent size. The signature clutch motion keeps both empty hands tightly together against her chest through the gather and first half of ascent, elbows bent and protective as though securing the ball; she continues to cradle the invisible ball close while rising, then at frame10 suddenly thrusts both arms together upward and forward for a strong two-hand clutch release. Follow-through, descent and recovery. 0 approach; 1 gather; 2 draw both hands to chest; 3 plant/takeoff while clutching; 4 low rise, hands still tight to sternum; 5 airborne, still clutching; 6 rise higher; 7 hold close; 8 begin reach; 9 extend both arms; 10 full two-hand overhead release; 11 follow-through; 12 descend; 13 land; 14 finish. This close-to-chest hold then two-hand extension must be clear and distinct from one-handed dunks. Fifteen different complete poses, all hair and shoes within each cell, correct connected anatomy. Crisp 1990s limited-palette arcade pixel art with chunky outlines, not photorealistic, glossy, anime or 3D. True alpha-zero background and no checkerboard/matte. Return only sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen distinct full-body poses reviewed; early sequence holds both hands together at chest through gather and rise before a two-hand high finish. Stable Nova identity and no ball.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "separateBall": true,
+              "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-clutch-generated-raw.png",
+              "sourceSha256": "b5994be7b6c28e69ca796af3ee3bab0e917279d3f3569e458ba4593fb395faec",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 52,
+                  "y": 24,
+                  "w": 262,
+                  "h": 313,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 360,
+                  "y": 27,
+                  "w": 251,
+                  "h": 310,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 700,
+                  "y": 24,
+                  "w": 193,
+                  "h": 313,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1011,
+                  "y": 29,
+                  "w": 185,
+                  "h": 308,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1308,
+                  "y": 9,
+                  "w": 163,
+                  "h": 325,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 80,
+                  "y": 362,
+                  "w": 194,
+                  "h": 309,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 397,
+                  "y": 355,
+                  "w": 199,
+                  "h": 282,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 702,
+                  "y": 357,
+                  "w": 211,
+                  "h": 307,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 968,
+                  "y": 356,
+                  "w": 260,
+                  "h": 315,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1249,
+                  "y": 335,
+                  "w": 265,
+                  "h": 342,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 44,
+                  "y": 672,
+                  "w": 268,
+                  "h": 338,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 362,
+                  "y": 688,
+                  "w": 241,
+                  "h": 325,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 650,
+                  "y": 728,
+                  "w": 231,
+                  "h": 282,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 966,
+                  "y": 728,
+                  "w": 226,
+                  "h": 282,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1281,
+                  "y": 690,
+                  "w": 197,
+                  "h": 320,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.26900584795321636,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+              "atlasSha256": "76b4b4e836ce87d7a62ee104c909eb9a4ea55d5cad7542334743e76195179eed",
+              "atlasBytes": 61446,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "76b4b4e836ce87d7a62ee104c909eb9a4ea55d5cad7542334743e76195179eed",
+                "atlasSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 29,
+                  "right": 29,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 42,
+                      "right": 43,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 36,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 34,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.15,
+                  1.3,
+                  1.55,
+                  1.8,
+                  2.05,
+                  2.3,
+                  2.5,
+                  2.45,
+                  2.19,
+                  2.19,
+                  1.3,
+                  1,
+                  0.75,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  11,
+                  9,
+                  7,
+                  6,
+                  8,
+                  3,
+                  3,
+                  12,
+                  9,
+                  7,
+                  6
+                ]
+              },
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "dunk-double": {
+            "src": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "4d9f21193fd71f97c1886eaa3a122761b4be14ae5d0b717ef35d063e51e21b69"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "d4c27ddcb5fbc2dd373d38fa07b3383f40526ce8b8d22a6082cbb15817e770d4"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "58e1fe120a81010d6ef5e6cdf6c5e06940618352c035d78070405262b7afb05e"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a03955bb24b2f7d2ef32fe36e649aa80b620233128ffb5744a7debacab41e923"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "acf272779bc577903f25a6b648f6cf90ec6214e1a3fd4fc832282820e422a55e"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "3a491d70b6d35e28d6d8eeb3a890d4edffe9c5fd461eaec95323c5a9a56b29a8"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "3291509136e8a75389be78f9afb45515476f7019d58d353787281ebc962d50b5"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "562ac64667c9fcda17464b502618dec839a96a0477e432f45f6dd1cf11b4654b"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "cb3c39af81c7368a2f0d915d76efa5688834c862806671b166b24ca3124dd2c6"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "9b17cb421ae15b74f4b2a49a04fc1fbd3b4398e8a73f1f353c9abfe336365eb5"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "f0c8d61184107acf27f9dba45476e826f7d069c51ac4a2ae63c9f9ad98593818"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "292696554aaeb8ae4806d78d2245c4324ddad3bcf4161e6382d026d995b3c1fa"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "c17e047dac8af97a1bef62f4a228c916e890fc1e2255452b690927f8cd20c1b2"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "6a2bf9162693073f1457021b8d13357013cdb6615cc46e57e5ab1f131d877f9d"
+              }
+            ],
+            "sha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "dunk-double",
+              "direction": "right",
+              "generationId": "exec-0aa6914c-f251-4882-8687-68701ccfdd04",
+              "imageGenerationId": "exec-0aa6914c-f251-4882-8687-68701ccfdd04",
+              "generatedAt": "2026-10-24T01:28:47.428729+00:00",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-double-generated-raw.png",
+              "rawSourceSha256": "cfc12497d5b6e3efef4058736d6662bde9dd847d90d0fc592cbb4bb369892e20",
+              "prompt": "Reference the supplied Nova Stitch sprite for exact identity. Produce an original transparent RGBA 1536x1024 sprite sheet, fifteen unique complete full-body drawings in 5 columns x 3 rows, row-major, of Nova performing a double-pump dunk. No basketball in any cell (separate runtime ball), no rim, other person, court, floor, shadow or text. Preserve Nova’s fair-tan athletic human woman anatomy, teal curly high ponytail, same face, teal/purple/black trim uniform, knee pads, teal-black sneakers, wristbands. Right-facing start, consistent size and pixel-art style. Both hands empty. The action must clearly show TWO distinct raised-hand pumps: first gather and launch, first high overhead ball-hand pump at frames4-5, pull that empty hand visibly back down toward chest/waist at frames6-7 while still airborne, then spring into a second higher pump with the same hand up at frames8-10 for the final dunk release pose at frame10. The second reach is higher and stronger. Then follow through, land and recover. Frame plan: 0 approach; 1 gather; 2 takeoff; 3 rise; 4 first pump up; 5 first high pump; 6 retract hand to chest; 7 lower second pump; 8 re-cock and extend; 9 rise high; 10 second high release; 11 follow through; 12 descend; 13 land; 14 ready. All cells different; complete anatomy and figure visible. Crisp limited-palette 1990s arcade sprite with chunky dark outlines, no glossy 3D, photorealism or painterly style. True alpha background, no checkerboard/matte. Return only the sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen distinct full-body poses reviewed; first high pump is followed by a lowered/retracted hand before the second high release; stable Nova identity; ball absent.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "separateBall": true,
+              "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-double-generated-raw.png",
+              "sourceSha256": "cfc12497d5b6e3efef4058736d6662bde9dd847d90d0fc592cbb4bb369892e20",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 40,
+                  "y": 108,
+                  "w": 234,
+                  "h": 269,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 372,
+                  "y": 135,
+                  "w": 209,
+                  "h": 242,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 676,
+                  "y": 99,
+                  "w": 193,
+                  "h": 278,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 976,
+                  "y": 47,
+                  "w": 187,
+                  "h": 318,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1278,
+                  "y": 8,
+                  "w": 196,
+                  "h": 345,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 55,
+                  "y": 387,
+                  "w": 195,
+                  "h": 288,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 389,
+                  "y": 419,
+                  "w": 214,
+                  "h": 261,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 676,
+                  "y": 422,
+                  "w": 201,
+                  "h": 275,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 959,
+                  "y": 418,
+                  "w": 208,
+                  "h": 270,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1268,
+                  "y": 360,
+                  "w": 209,
+                  "h": 337,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 54,
+                  "y": 666,
+                  "w": 219,
+                  "h": 348,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 378,
+                  "y": 735,
+                  "w": 262,
+                  "h": 270,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 682,
+                  "y": 752,
+                  "w": 174,
+                  "h": 262,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 964,
+                  "y": 784,
+                  "w": 224,
+                  "h": 230,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1294,
+                  "y": 732,
+                  "w": 171,
+                  "h": 282,
+                  "component": 13
+                }
+              ],
+              "uniformScale": 0.26436781609195403,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/nova-stitch-dunk-double-right.webp",
+              "atlasSha256": "fd6ec2a5b1a2495de2aa29ea5cad4dbf7dac61fc8db8dab9c3b84719878dc94d",
+              "atlasBytes": 52654,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "fd6ec2a5b1a2495de2aa29ea5cad4dbf7dac61fc8db8dab9c3b84719878dc94d",
+                "atlasSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 29,
+                  "right": 30,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 27,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 39,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 40,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 40,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 36,
+                      "top": 22,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 37,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 41,
+                      "right": 41,
+                      "top": 22,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 30,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 41,
+                      "right": 42,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.15,
+                  1.4,
+                  1.8,
+                  2.1,
+                  2.3,
+                  2.5,
+                  2.6,
+                  2.35,
+                  3.15,
+                  0.76,
+                  1.3,
+                  1,
+                  0.75,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  11,
+                  9,
+                  7,
+                  5,
+                  5,
+                  7,
+                  8.9,
+                  8.9,
+                  12,
+                  9,
+                  7,
+                  6
+                ]
+              },
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "dunk-power": {
+            "src": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "757ee2ca08cfbfeda26198fa675747558e7eeb742f93ba6d7143d86c3050bb0e"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "d48c6519f4861d9c509fe356c18e3b767c918b25cdf7dd0c1f649eb4bd1fce01"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "36ae5ddae738bbe90b29b2e123415858b2b2f6a26a652c10fd5324a6a63e0227"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c6727a3ff07fa5bb49bb858209ca57b2e99ea96a91f36df3406e7c3dadfef3dd"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "7941239c1f66775a2b34e38a0781f03195606982a3f5c00c5237ee9d5211b8c9"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "3acc53396dd5bc6a33d13752650f11573fed2f1b61e63a60a4e5c230e0a839df"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "1529d94884c725860ec2f0df7e3ecf41c904a043c377a37cecc40ab9ee557165"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "1e51bbf9396eff64409356739b8460971788df7f4bb90f9577af6247189d2dbc"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "6cddf88af1751a072befd907d7e72bb76256f44fce96813f6f920465a552d4c5"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d3db1da48a713f346ba7a6de350dcef4ed11475d11127d0662d14ad2902bdecf"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "39bafab1a164993bc7f2b2733e62a2d43614a2365f9604cf98e841a76cc501cf"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "5457ba26017d31e22837a0b2d17ef866ed5d067d48f6e3742edb852e533b162d"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b248bf03150f2e4a7116ce423f95d54584e7459c98080e73ce2ec1a841fe7ae0"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "952698c67e7ac6ac2a98445ef450f187ee414c9df2e3e85636ac9e9ae3eac092"
+              }
+            ],
+            "sha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "dunk-power",
+              "direction": "right",
+              "generationId": "exec-041d10e6-daa4-44a1-aa22-a3254a2a67ae",
+              "imageGenerationId": "exec-041d10e6-daa4-44a1-aa22-a3254a2a67ae",
+              "generatedAt": "2026-10-24T01:20:54.849922+00:00",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-power-generated-raw.png",
+              "rawSourceSha256": "8ce7b1623e500dca2b4786cbb2bdfd28f97209601dcf1d19193ebbb03ed1da7d",
+              "prompt": "Using the supplied Nova Stitch gameplay sprite as the identity and pixel-art reference, create a 1536×1024 transparent RGBA sprite sheet: exactly fifteen distinct complete Nova basketball power-dunk poses in a strict five-column by three-row grid, row-major. One full-body athlete per cell. No basketball or other character; the game ball is a separate runtime sprite, so hands must be empty. Keep same human anatomy, size, face, skin, long curly teal high ponytail, teal jersey and shorts with purple/black trim, black knee pads, teal-black sneakers and wristbands in all cells. Right-facing action, consistent camera and scale. Sequence: 0 balanced approach; 1 accelerate; 2 gather into a controlled run; 3 begin takeoff; 4 drive knee upward and raise empty ball hand; 5 rise; 6 strong airborne extension; 7 carry imaginary ball straight overhead; 8 reach peak; 9 extend one arm directly to rim-height release point; 10 clear one-hand slam release pose; 11 follow-through; 12 descend; 13 land softly on both legs; 14 recover to stable stance. Distinct connected original poses with complete body, face, hair and footwear inside their cells. One empty hand follows the external ball path. Preserve recognizably feminine athletic human proportions; no animal traits, no extra arms, no text, no floor, shadow, glow, checkerboard or matte. Crisp limited-palette 1990s arcade pixel art with chunky dark outlines, not glossy or painterly. Return only the sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Visually reviewed 15 complete Nova poses in 5x3 order; consistent teal ponytail, fair-tan human anatomy and teal/purple kit. No ball or other character. Release shape aligns with frame10.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "separateBall": true,
+              "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-power-generated-raw.png",
+              "sourceSha256": "8ce7b1623e500dca2b4786cbb2bdfd28f97209601dcf1d19193ebbb03ed1da7d",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 46,
+                  "y": 26,
+                  "w": 207,
+                  "h": 313,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 340,
+                  "y": 26,
+                  "w": 255,
+                  "h": 315,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 652,
+                  "y": 38,
+                  "w": 253,
+                  "h": 303,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 979,
+                  "y": 35,
+                  "w": 234,
+                  "h": 306,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1266,
+                  "y": 8,
+                  "w": 238,
+                  "h": 333,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 35,
+                  "y": 353,
+                  "w": 257,
+                  "h": 328,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 347,
+                  "y": 352,
+                  "w": 253,
+                  "h": 313,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 663,
+                  "y": 344,
+                  "w": 208,
+                  "h": 329,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1006,
+                  "y": 344,
+                  "w": 196,
+                  "h": 318,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1296,
+                  "y": 346,
+                  "w": 225,
+                  "h": 339,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 37,
+                  "y": 680,
+                  "w": 251,
+                  "h": 328,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 330,
+                  "y": 706,
+                  "w": 259,
+                  "h": 291,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 675,
+                  "y": 703,
+                  "w": 247,
+                  "h": 294,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 995,
+                  "y": 736,
+                  "w": 244,
+                  "h": 267,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1303,
+                  "y": 696,
+                  "w": 194,
+                  "h": 309,
+                  "component": 16
+                }
+              ],
+              "uniformScale": 0.2713864306784661,
+              "componentIsolation": false,
+              "packaging": "package-dunk15.py; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/nova-stitch-dunk-power-right.webp",
+              "atlasSha256": "bc0995c612208e74e58f03360a7733fb829f7601249b26e845f7844704a15f39",
+              "atlasBytes": 63116,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "bc0995c612208e74e58f03360a7733fb829f7601249b26e845f7844704a15f39",
+                "atlasSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 29,
+                  "right": 29,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 9,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 36,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 31,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.15,
+                  1.25,
+                  1.4,
+                  1.65,
+                  1.9,
+                  2.1,
+                  2.25,
+                  2.35,
+                  2.3,
+                  2.08,
+                  1.65,
+                  1.1,
+                  0.75,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  9,
+                  10,
+                  10,
+                  8,
+                  6,
+                  6,
+                  9,
+                  13,
+                  -2.1,
+                  13,
+                  10,
+                  8,
+                  7
+                ]
+              },
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "dunk-reverse": {
+            "src": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "681e6b99a5120df9bd9b1c8ad1f11bec09bb6e01ce3da75e10b4a64cb22c42d2"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "e14ed3d3bd47ca20fe0b34027ee99a23eb2080351107d660cdc8028ee1cebcf2"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "54786e491db2e5f1650fcfa6edd0a02411c217c622b7ff60c699276deef04b9d"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "9b34788c1e514bdaf57566d4276ef630d4b74c66c5c1d4e81f46592992eb3498"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "67dff002658c58b982ccf32b1638c4adf9f7de65c669146630cfb96e2230bc11"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6d045c3145f601bf2ebac5bdfc9ca88cd9b3d58a52e09b3b09e06ec66374fa21"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "11205c957d7a8493a0ab4e8f59f1f8f41440dbb4bb84117e9962d24a63ee3fb2"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8dd27fe3c1c0ec1bd73234c0a80e6c79c2063f1b4885156c08d51a9405951471"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d753f5265cbad3b030849ca7acf7de1718efdb1f36a35b2dccc69ebb502e23fc"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e6392a793b336e4cc00148135cba62200e6a797b46b0e714d1a6d09c0adfe06e"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "341b074b7c60f68edb19130ffdf6644609dfb45341839533e571a611bbea8c0b"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "9308b0124d1ad8b69d645a97f2648e60d065357fdeda571cddbd4229d63519ad"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "026f5cdda992bce44913dba2b6126d65215dffc6ef9a801c4b6ef83567223b74"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "5a5375ce10403723fa4ca88bfac421400977c32914f878005b66e79b741de72b"
+              }
+            ],
+            "sha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "dunk-reverse",
+              "direction": "right",
+              "generationId": "exec-0cf34fb4-e022-47e0-9aec-c7e09a441929",
+              "imageGenerationId": "exec-0cf34fb4-e022-47e0-9aec-c7e09a441929",
+              "generatedAt": "2026-10-24T01:24:03.357644+00:00",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-reverse-generated-raw.png",
+              "rawSourceSha256": "acebc15a9a16a68c485837a470f2fe618fe804c3e4dc8e2b92e3cfb997001dd2",
+              "prompt": "Use the supplied Nova Stitch sprite as exact identity/style reference. Generate a true transparent RGBA 1536x1024 production sprite sheet: exactly fifteen distinct complete full-body poses, five columns by three rows, row-major, for a reverse basketball dunk. One connected Nova per cell. No ball, no rim, no other character, no floor/shadow/text. The game ball stays a separate runtime object; hands are empty and ball poses are only mime. Preserve the same fair-tan athletic human woman, recognizable face, long curly teal high ponytail, teal jersey and shorts with purple/black trim, knee pads, teal-black shoes, wristbands, consistent scale/anatomy. Action reads clearly as reverse: approach the basket lane, gather, jump, rotate shoulders and hips away from the viewer/rim so the back and ponytail show, carry empty hand behind/around her crown, keep back-facing orientation while rising, then reach behind herself for a one-hand reverse release at frame10, finish and turn through descent. Poses 0-2 run/gather; 3 takeoff; 4-6 rotate away; 7-9 airborne back-facing reverse reach; 10 overhead/behind-the-head release; 11-12 follow-through turn and descent; 13 landing; 14 balanced finish. All fifteen distinctly different. Preserve anatomically correct limbs and ponytail. Crisp limited-palette 1990s arcade pixel art, chunky dark outline, not glossy, painterly, 3D or anime. Only sprite sheet, no checkerboard, matte, glow or background.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen distinct full-body poses reviewed; reverse turn and back-facing phase read clearly, release at frame10, consistent Nova identity and no ball.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "separateBall": true,
+              "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-reverse-generated-raw.png",
+              "sourceSha256": "acebc15a9a16a68c485837a470f2fe618fe804c3e4dc8e2b92e3cfb997001dd2",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 19,
+                  "y": 24,
+                  "w": 287,
+                  "h": 322,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 327,
+                  "y": 42,
+                  "w": 263,
+                  "h": 319,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 652,
+                  "y": 81,
+                  "w": 258,
+                  "h": 285,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 930,
+                  "y": 5,
+                  "w": 255,
+                  "h": 365,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1299,
+                  "y": 16,
+                  "w": 189,
+                  "h": 341,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 66,
+                  "y": 373,
+                  "w": 242,
+                  "h": 329,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 375,
+                  "y": 387,
+                  "w": 259,
+                  "h": 303,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 657,
+                  "y": 399,
+                  "w": 288,
+                  "h": 280,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 975,
+                  "y": 373,
+                  "w": 223,
+                  "h": 331,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1293,
+                  "y": 357,
+                  "w": 199,
+                  "h": 343,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 43,
+                  "y": 713,
+                  "w": 285,
+                  "h": 307,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 355,
+                  "y": 716,
+                  "w": 276,
+                  "h": 304,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 676,
+                  "y": 759,
+                  "w": 212,
+                  "h": 254,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 979,
+                  "y": 733,
+                  "w": 231,
+                  "h": 284,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1301,
+                  "y": 707,
+                  "w": 179,
+                  "h": 313,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.25205479452054796,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+              "atlasSha256": "4a600240679f6280b70903b7cd1a7bdb56aa95875254876967727cea6dfa870b",
+              "atlasBytes": 58866,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "4a600240679f6280b70903b7cd1a7bdb56aa95875254876967727cea6dfa870b",
+                "atlasSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 27,
+                  "right": 28,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 28,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 32,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 34,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 40,
+                      "right": 40,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 34,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 32,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 28,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 39,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 28,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 27,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 35,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 41,
+                      "right": 42,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.4,
+                  1.8,
+                  2.1,
+                  2.25,
+                  2.35,
+                  2.4,
+                  2.2,
+                  2.08,
+                  2.08,
+                  1.2,
+                  1,
+                  0.8,
+                  0.7
+                ],
+                "forward": [
+                  7,
+                  9,
+                  11,
+                  13,
+                  11,
+                  8,
+                  5,
+                  4,
+                  4,
+                  13.1,
+                  13.1,
+                  8,
+                  8,
+                  7,
+                  6
+                ]
+              },
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "dunk-scythe": {
+            "src": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2d1f80177df4a8c8c0002db0747bab61b2f4c7a8da116ea83603eeed767e6c4e"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "56e97166f56c60fd6ba7b3b53066177b5e83fd250b30f50b399e0e3e85654aba"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "edc868bae87f33cd6684256f32786747f5c200e567c07200bfb618559081509c"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "b9479a063a63a93cdb2bf607a7baa9fbfbadcc0b5678925b9a306a8c9143e1fe"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "82e4f1c8ea0ffcdc9fc3a7f343ce793ec1728ac80b13ae07be5d5a735cab742f"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "300dcd3665b7524a729f83bbcedc85c3a5783fec3ad9b488c7d0885b136c3365"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "3411a223fb43fbb62ef4474da28fb5369332a7c139d654e576623d2eede916b5"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "da07a6a4a4428f796f5372c19c06bcea94508e81891cb325a0be6a19364ef44d"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "0ef6492a706af0829f630a99cc76c51219c9de2855adc70d022ee112a3bdd26d"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8c2383dc86306ef95b2653a7711569f6a6ddf26389c493f6377ea5d77ced6363"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e5358c00fe83b6d802926bc6094f9f7c2d750628ae451a0f70a1d6063879e074"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "8dd5061bf82b49358468ab05a4bfeeef4b2aeff8a6c324aa20443df0d35d276d"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "0c480fbe96b7caa8619ad206737301cb43b4c53c9c0d1ca182e2cef0fbdba157"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "6bb350e71edba4b04adbbb72ce1ab8e4863767ca12251c795723b0cccae25470"
+              }
+            ],
+            "sha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "dunk-scythe",
+              "direction": "right",
+              "generationId": "exec-5d244e76-dc84-4d18-8ff6-3084af3f0706",
+              "imageGenerationId": "exec-5d244e76-dc84-4d18-8ff6-3084af3f0706",
+              "generatedAt": "2026-10-24T01:32:23.964482+00:00",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-scythe-generated-raw.png",
+              "rawSourceSha256": "117b99268ca7d0f3aa7a4da643cbdfa4ee5014cb45f0158347c223433e5a448f",
+              "prompt": "Draw an original transparent RGBA 1536×1024 sprite sheet in crisp 1990s side-view pixel art. EXACTLY 15 separate full-body drawings, 5 columns x 3 rows, row-major. Use supplied Nova Stitch sprite ONLY to match identity: fair-tan young human woman, teal curly ponytail, teal/purple/black basketball uniform, knee pads, teal-black shoes. A distinctive SCYTHE DUNK: prioritize a large unmistakable low-to-high arm arc over ordinary jump action. No ball, no props or rim, no other people; the external basketball is absent and both hands remain empty. Frames 0-2 Nova runs then crouches with the right arm stretched far backward and down, palm beside her rear knee. Frame3 takeoff begins while the arm stays low behind. Frame4 torso twists, arm reaches even farther diagonally down/back. Frame5-6 the empty hand sweeps low behind and under her waist, elbow and shoulder visibly rotate. Frame7-8 the same arm crosses diagonally upward in front of her abdomen and chest, tracing a clear bottom-left to top-right scythe curve. Frame9 arm passes above shoulder. Frame10 arm fully reaches overhead/forward for release. Frames11-12 descend with a high follow-through; frames13-14 land and settle. These arm poses must visibly differ from a straight-overhead dunk: low back reach, sweep under/behind hip, then upward diagonal slice. Nova stays complete in each cell with same human anatomy and outfit, no copies, no extra limbs. Camera consistent, right-facing side/three-quarter; full ponytail and footwear inside every cell. Transparent alpha-zero background only, no checkerboard, matte, floor or shadows. Return only the sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Accepted: low crouched/backward reach and later raised arm form a readable low-to-high diagonal sweep; 15 complete poses, stable Nova identity and no ball.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "separateBall": true,
+              "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-scythe-generated-raw.png",
+              "sourceSha256": "117b99268ca7d0f3aa7a4da643cbdfa4ee5014cb45f0158347c223433e5a448f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 26,
+                  "y": 14,
+                  "w": 260,
+                  "h": 325,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 336,
+                  "y": 28,
+                  "w": 264,
+                  "h": 311,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 647,
+                  "y": 92,
+                  "w": 244,
+                  "h": 250,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 954,
+                  "y": 11,
+                  "w": 246,
+                  "h": 341,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1276,
+                  "y": 12,
+                  "w": 253,
+                  "h": 340,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 36,
+                  "y": 360,
+                  "w": 276,
+                  "h": 304,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 347,
+                  "y": 360,
+                  "w": 259,
+                  "h": 296,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 629,
+                  "y": 362,
+                  "w": 278,
+                  "h": 307,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 944,
+                  "y": 342,
+                  "w": 290,
+                  "h": 346,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1227,
+                  "y": 333,
+                  "w": 288,
+                  "h": 340,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 20,
+                  "y": 660,
+                  "w": 287,
+                  "h": 338,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 340,
+                  "y": 673,
+                  "w": 260,
+                  "h": 338,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 654,
+                  "y": 730,
+                  "w": 223,
+                  "h": 280,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 976,
+                  "y": 698,
+                  "w": 215,
+                  "h": 313,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1263,
+                  "y": 696,
+                  "w": 204,
+                  "h": 315,
+                  "component": 15
+                }
+              ],
+              "uniformScale": 0.2658959537572254,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+              "atlasSha256": "9c0f83d81ffa36b66cffee337e585be08c24c543e10a7217302e895b3e2f1e61",
+              "atlasBytes": 72002,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "9c0f83d81ffa36b66cffee337e585be08c24c543e10a7217302e895b3e2f1e61",
+                "atlasSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 27,
+                  "right": 27,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 32,
+                      "top": 25,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 34,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 28,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 30,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 27,
+                      "top": 9,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 28,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 27,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 28,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 17,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 36,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 37,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.5,
+                  1.8,
+                  2.05,
+                  2.25,
+                  2.4,
+                  2.5,
+                  2.35,
+                  1.99,
+                  1.99,
+                  1.3,
+                  1,
+                  0.75,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  12,
+                  10,
+                  8,
+                  6,
+                  5,
+                  7,
+                  13.4,
+                  13.4,
+                  12,
+                  9,
+                  7,
+                  6
+                ]
+              },
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "dunk-tomahawk": {
+            "src": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "13be06513b52434caed04ecd88dfe9c26713fb6b09bce26fde42e6df71f57069"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "3227a14e22db20209a88c822f0e5787ef1ff8f95aefa8f3254833181c4eed153"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f1d096f40b36af751b638c14690a4d7b5117969a02807e38d06401606db977ef"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "5d7edffddc7bda1164322a98806028d65953b4750cd4e180323e09c18decd3c5"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "ff0df41c07fe3f91211fa44a02db40a927803e7d12eb4881e7084efba4872a8e"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "630964fab8038ebe63400158270be65bfc658cce0e33a589212bd56fb975a7af"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "76f188c4dbb178b7f77c196f25820bb90789c18eb70a56c542b6999a5c1610ac"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "bdfd35f8b12064286d6b488a0544eabc2e755bbafc5e94ff995f6222d2515983"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "1ff863811fc0ec555171788d94323351619d7c6420c412885eb2ef2bd51d2e51"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8f684a0a398f5840594711e8ecad8001075b839861aa12f4c85682883a3ab932"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "4f682cbe49047a431decf96e419cd2b8be288fabc3d2d90bc40bc74a999b021a"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "0b10ac2b407ac41ca5f6e09b95d88af12428e7c7c23e9ea10cf82f2273d4cbb4"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "fa1e7eb63922cea2bedf9e2e7169c01c7b9db824f59b3dd48ef3211be3b1de94"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "d8c6200e2dc3d567efb68dd61b65490f91bca3059d6e3f5d6e439356c87dbadf"
+              }
+            ],
+            "sha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "dunk-tomahawk",
+              "direction": "right",
+              "generationId": "exec-67e45791-3d9f-4554-a32e-4c58e6188802",
+              "imageGenerationId": "exec-67e45791-3d9f-4554-a32e-4c58e6188802",
+              "generatedAt": "2026-10-24T01:27:39.637661+00:00",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-tomahawk-generated-raw.png",
+              "rawSourceSha256": "c35109c7e8a1ec1b6b15e96f1820f77ad2f8a291cbf3253f3c2efb64fb37910a",
+              "prompt": "Use the supplied Nova Stitch reference. Create only one transparent RGBA 1536×1024 sprite sheet for an unmistakable tomahawk dunk, fifteen full-body drawings in 5×3 row-major cells. Each figure is Nova Stitch: fair-tan athletic human woman, long teal curly ponytail, teal jersey/shorts with purple-black trim, black knee pads, teal-black sneakers, same face and anatomy. No basketball at all (runtime adds it), no rim, other people, floor, shadows, text, checkerboard. Her right arm performs the specific tomahawk path: on approach her right hand is empty at waist; as she jumps, she sharply folds the right elbow and cocks the empty hand behind the back of her head; in the next airborne poses the hand is visibly behind the crown, elbow pointed up and back; then she snaps that same arm in one strong downward arc past the front of her head and shoulder, finishing extended downward at release frame 10. Do not use a straight overhead power-dunk reach; the distinctive behind-head cock and downward chop must dominate frames 5 through 11. Her left arm counterbalances. 15 sequence: 0 approach; 1 low gather; 2 plant; 3 takeoff; 4 rising, arm bent; 5 hand behind head; 6 highest cocked tomahawk; 7 begin chop; 8 arm cutting forward/down; 9 near extension; 10 full downward release; 11 downward follow-through; 12 descent; 13 landing; 14 recovery. Keep complete bodies inside cells and poses unique. Crisp limited-palette 1990s arcade pixel art, dark chunky outline, no glossy 3D/painterly style, no text. Return only transparent sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Accepted after review: the arm is visibly folded near the crown and follows a distinct chopping/forward-downward path; 15 complete Nova poses, no ball.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "separateBall": true,
+              "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-tomahawk-generated-raw.png",
+              "sourceSha256": "c35109c7e8a1ec1b6b15e96f1820f77ad2f8a291cbf3253f3c2efb64fb37910a",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 24,
+                  "y": 27,
+                  "w": 256,
+                  "h": 322,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 318,
+                  "y": 61,
+                  "w": 231,
+                  "h": 288,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 650,
+                  "y": 49,
+                  "w": 261,
+                  "h": 299,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 943,
+                  "y": 14,
+                  "w": 294,
+                  "h": 342,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1251,
+                  "y": 17,
+                  "w": 270,
+                  "h": 327,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 28,
+                  "y": 342,
+                  "w": 294,
+                  "h": 325,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 337,
+                  "y": 353,
+                  "w": 293,
+                  "h": 305,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 641,
+                  "y": 365,
+                  "w": 277,
+                  "h": 290,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 949,
+                  "y": 368,
+                  "w": 238,
+                  "h": 286,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1242,
+                  "y": 365,
+                  "w": 219,
+                  "h": 301,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 23,
+                  "y": 680,
+                  "w": 242,
+                  "h": 307,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 358,
+                  "y": 686,
+                  "w": 237,
+                  "h": 317,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 642,
+                  "y": 695,
+                  "w": 232,
+                  "h": 308,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 948,
+                  "y": 738,
+                  "w": 246,
+                  "h": 266,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1279,
+                  "y": 669,
+                  "w": 218,
+                  "h": 334,
+                  "component": 11
+                }
+              ],
+              "uniformScale": 0.26900584795321636,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+              "atlasSha256": "0a5fdc495691b9796b2b6a7838dcb8b72a53f303a95948566ec902ef413656ef",
+              "atlasBytes": 67012,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "0a5fdc495691b9796b2b6a7838dcb8b72a53f303a95948566ec902ef413656ef",
+                "atlasSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 24,
+                  "right": 25,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 27,
+                      "right": 27,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 29,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 25,
+                      "right": 25,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 24,
+                      "right": 25,
+                      "top": 9,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 26,
+                      "right": 27,
+                      "top": 13,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 32,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.1,
+                  1.35,
+                  1.65,
+                  1.95,
+                  2.15,
+                  2.3,
+                  2.4,
+                  2.2,
+                  -1.65,
+                  1.67,
+                  1.3,
+                  1.05,
+                  0.8,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  11,
+                  10,
+                  8,
+                  6,
+                  7,
+                  9,
+                  5.5,
+                  2.7,
+                  13,
+                  10,
+                  7,
+                  6
+                ]
+              },
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "dunk-windmill": {
+            "src": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "436245c295615df8c1566f00bb963f23281788cbf1961f7922b3af32fb3173cd"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "e5d54e2b5d728da6f4efd2e8b1c234aaabe37c055b9d1b4ca4dffcfb66142fdc"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2add8583ec7d65b7975e53b4e6f14ddd176ab32a403afd334f10dde7a2840e96"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f2c627be3ba64647db4efaa4ae75af9d045ef2d3245319f05d1833bafc73f180"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "3a294d1dbf252071eb9b1c16f05f6dfa85022e1187651813c846b06bca1e6132"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c98bd6714f188fadcaec674f7d112dc173bf1102b9f21e8dc6e9f361994c9033"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a2bf030252dcf39c3b61b73484deff7a1159581799290f1b0b4309a5470124f8"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "fe465bc5314718fcb7b8ea2f52484f76a1f850a47b0881e13167393ec4fd36af"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "dfa2b31181e49a5af626c53050f056e83d74d2d969063f9a19213ac3fdbe5d3f"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "2bd2e20823efe3fb24325177e4b7e70e1fff25d7afdf62cdf865b5d484544a54"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e2c2d4e91051181c5c7302788a49bffe575f988a58be3ede93bcd60403f3e6a2"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "523adc7ea92236d7af4036b8cde827b36c9b0c0b55f64a8e835bbd8317912948"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "b1d8d9dd9f9e432e190a633e9797e8e0dd7ce098eed87cca90582ece8213967c"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "af41526576acd407c2fcf5888d6a3c9bd7e14db1181062d83fc235fc0baa6acd"
+              }
+            ],
+            "sha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "dunk-windmill",
+              "direction": "right",
+              "generationId": "exec-33270a1d-9f04-4c06-89c0-2fda1a946bda",
+              "imageGenerationId": "exec-33270a1d-9f04-4c06-89c0-2fda1a946bda",
+              "generatedAt": "2026-10-24T01:22:40.272878+00:00",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-windmill-generated-raw.png",
+              "rawSourceSha256": "07068813181f97b1fa9c2e9826962eeb2b41f9bfc097d636257744807459a03a",
+              "prompt": "Using the supplied Nova Stitch sprite as the exact identity and style reference, create a transparent RGBA 1536×1024 5-column by 3-row row-major sprite sheet with exactly fifteen distinct full-body poses of Nova performing a windmill dunk. One athlete per cell, complete body/hair/shoes visible. No ball, other athlete, rim, text, floor or shadow: the basketball is separate at runtime, and both hands are empty. Preserve Nova as the same young athletic fair-tan human woman with long curly teal high ponytail, face, teal jersey and shorts with purple/black trim, black knee pads, teal-black shoes and wristbands. Right-facing, consistent pixel-art camera, scale, outfit, anatomy. The windmill motion clearly circles one empty hand down and behind her hip, loops low below/behind her torso and sweeps back upward in a broad arc toward a strong one-hand overhead dunk release on frame10. Fifteen sequential unique complete poses: 0 approach; 1 crouch/gather; 2 start takeoff; 3 lift with ball arm low; 4 arm begins circular sweep backward; 5 airborne, arm passes behind hip; 6 circle low under torso; 7 continue sweep behind back; 8 whip arm upward; 9 reach peak and extend to the overhead release point; 10 clean one-hand dunk release; 11 follow through; 12 descend; 13 land balanced; 14 recover. Do not duplicate poses or depict an impossible disconnected arm. Crisp limited-palette 1990s arcade pixel art, chunky dark outlines, no photorealism, 3D or glossy finish. True alpha-zero background, no checkerboard, matte or glow. Return only sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Fifteen distinct complete Nova poses visually reviewed, with specific backward/low/up windmill action. Stable teal ponytail, human proportions, teal/purple kit; no ball in source.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "separateBall": true,
+              "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-windmill-generated-raw.png",
+              "sourceSha256": "07068813181f97b1fa9c2e9826962eeb2b41f9bfc097d636257744807459a03a",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 18,
+                  "y": 19,
+                  "w": 291,
+                  "h": 331,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 371,
+                  "y": 74,
+                  "w": 214,
+                  "h": 276,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 649,
+                  "y": 8,
+                  "w": 221,
+                  "h": 339,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 959,
+                  "y": 8,
+                  "w": 272,
+                  "h": 326,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1268,
+                  "y": 12,
+                  "w": 258,
+                  "h": 338,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 49,
+                  "y": 364,
+                  "w": 253,
+                  "h": 298,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 373,
+                  "y": 372,
+                  "w": 222,
+                  "h": 299,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 656,
+                  "y": 372,
+                  "w": 282,
+                  "h": 311,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 966,
+                  "y": 337,
+                  "w": 293,
+                  "h": 355,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1258,
+                  "y": 323,
+                  "w": 263,
+                  "h": 382,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 30,
+                  "y": 670,
+                  "w": 267,
+                  "h": 344,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 367,
+                  "y": 693,
+                  "w": 266,
+                  "h": 318,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 674,
+                  "y": 724,
+                  "w": 246,
+                  "h": 293,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 986,
+                  "y": 705,
+                  "w": 239,
+                  "h": 311,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1289,
+                  "y": 692,
+                  "w": 205,
+                  "h": 325,
+                  "component": 12
+                }
+              ],
+              "uniformScale": 0.24083769633507854,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+              "atlasSha256": "beae664d52bb6c6d497826f25327d7a6c1f070a91140c8c0df1b5ad93b2d1c41",
+              "atlasBytes": 56410,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "beae664d52bb6c6d497826f25327d7a6c1f070a91140c8c0df1b5ad93b2d1c41",
+                "atlasSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 28,
+                  "right": 29,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 11,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 38,
+                      "right": 38,
+                      "top": 25,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 9,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 33,
+                      "top": 10,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 33,
+                      "right": 34,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 37,
+                      "right": 38,
+                      "top": 19,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 30,
+                      "right": 30,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 29,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 11,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      192,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 32,
+                      "right": 32,
+                      "top": 14,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 12,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 34,
+                      "right": 35,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 13,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 35,
+                      "right": 35,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 14,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      256,
+                      288,
+                      128,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 39,
+                      "right": 40,
+                      "top": 13,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.5,
+                  1.8,
+                  2,
+                  2.1,
+                  2.3,
+                  2.5,
+                  2.4,
+                  2.31,
+                  2.31,
+                  1.4,
+                  1,
+                  0.75,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  9,
+                  10,
+                  8,
+                  5,
+                  4,
+                  8,
+                  10,
+                  12.2,
+                  12.2,
+                  12,
+                  9,
+                  6,
+                  5
+                ]
+              },
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "fall": {
+            "src": "./public/assets/animation/nova-stitch-fall-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c44c8a43fee4ea39a2c375b30a66a471a4bab5fa0f2f1926201d3e5c97f81f9c"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6944e94a741c7f77dadfead7447b2ccda7ece6be0cbd7c0aece88c73e5cf6d05"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d92b447b38cda63bf9dffab1103fddc48a48f0a18f33341be447b6af02869e7f"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a78a706e3db3211b433dcf98e5b42cb97e2e6479cfbdafb78cea22b885e78382"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "404f72df62e5935d55db7a32105baefc6f2ff58cf7d0e6487891a3e2ac533723"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "32c3d4d6d76ce857ba4a75b232604a3fa9768d60228cbcf3a66e4d32dc87e7de"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "070b32a014f1508637c29177a2f41c257748993881d959a98c3c8d767b688b11"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "cb27a23614bd57aef6df6b112fc2cdb6f9de189116d1180ac279ca0e43c387ca"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8a9675f61b4461b33cd730695c7055a5b4833edbd43e196cbcd912baa9869c3d"
+              }
+            ],
+            "sha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "fall",
+              "direction": "right",
+              "generationId": "exec-1c48547d-b865-4a29-85c2-0e7b96199d0d",
+              "generatedAt": "2026-10-24T01:17:51.102451+00:00",
+              "sourceSha256": "0787a96d6a27075747980706f16167f365047d5f48e5df3f9445f3c00eeab5af",
+              "prompt": "Use the supplied Nova Stitch gameplay sprite as the identity/style reference. Create an original 1536×1024 transparent RGBA sprite sheet with exactly ten separate complete full-body Nova Stitch controlled fall-and-recovery poses in a five-column by two-row grid, row-major. Use one distinct connected pose in every cell. Consistent right-facing source direction, camera, scale and anatomy. No scene, floor, shadow, background, prop, text, basketball, teammate or opponent.\n\nNova is a young athletic fair-tan woman with long curly teal hair in a high ponytail, distinct human face, teal jersey and shorts with purple/black trim, black knee pads, teal-black sneakers and wristbands. Preserve her face, human proportions, ponytail, uniform palette and shoes in all poses. Do not depict another person. This is a brief game knockdown and recovery, not an injury: no gore, no impact effects, no broken limbs, no crawling locomotion. Her body moves through one intentional fall and then stands back up.\n\nTen connected poses:\n0 balance disrupted, torso leans and arms widen;\n1 take an off-balance step and bend knees;\n2 begin a controlled backward/side descent, hands reach to brace;\n3 lower onto one knee and forearm;\n4 controlled low seated/side-fall, legs bent naturally;\n5 brief grounded recovery pose on one knee and hand, complete body visible;\n6 plant both hands/one foot to rise;\n7 lift torso into a low squat;\n8 stand gradually and regain balance;\n9 return to a normal upright right-facing ready stance.\nThe central ground-contact poses are intentional recovery, not a normal running pose. Keep limbs anatomically correct and non-overlapping, all hair and shoes visible within each cell, and the face fully identifiable when angle permits.\n\nMatch the supplied tiny 2D arcade sprite: crisp limited-palette 1990s pixel art with chunky dark outlines, not painterly, photorealistic, 3D, glossy or anime. True RGBA alpha-zero outside cells, no floor shadow, glow, matte or checkerboard. Return only the sprite sheet.",
+              "review": {
+                "status": "accepted",
+                "notes": "Identity, palette, complete body coverage and ten separated recovery poses visually reviewed. Source includes checkerboard artifacts; component isolation is required before atlas packaging.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "eligibleForPacking": true,
+              "rawGeneratedImage": "tools/generate-art/sources/nova-stitch-fall-generated-raw.png",
+              "rawGeneratedSha256": "666829eb7168db14a723b4b5bba47a8b4288c5fa0083749125b11207a0630b77",
+              "cleanupNotes": "Generation returned an RGB image with a baked gray checkerboard instead of alpha. Removed neutral high-luminance edge-connected checkerboard pixels into alpha-zero; retained colorful opaque sprite pixels; cleanup source visually reviewed.",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-fall-generated-cleanup.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 8,
+                  "y": 138,
+                  "w": 321,
+                  "h": 358,
+                  "component": 1,
+                  "area": 44203
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 347,
+                  "y": 180,
+                  "w": 284,
+                  "h": 317,
+                  "component": 2,
+                  "area": 38281
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 634,
+                  "y": 242,
+                  "w": 298,
+                  "h": 254,
+                  "component": 3,
+                  "area": 35884
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 942,
+                  "y": 296,
+                  "w": 290,
+                  "h": 205,
+                  "component": 5,
+                  "area": 31314
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1241,
+                  "y": 289,
+                  "w": 284,
+                  "h": 208,
+                  "component": 4,
+                  "area": 30309
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 22,
+                  "y": 752,
+                  "w": 316,
+                  "h": 206,
+                  "component": 16,
+                  "area": 33653
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 367,
+                  "y": 713,
+                  "w": 266,
+                  "h": 248,
+                  "component": 15,
+                  "area": 33318
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 700,
+                  "y": 679,
+                  "w": 224,
+                  "h": 286,
+                  "component": 14,
+                  "area": 36636
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 984,
+                  "y": 610,
+                  "w": 255,
+                  "h": 355,
+                  "component": 13,
+                  "area": 41229
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1255,
+                  "y": 577,
+                  "w": 251,
+                  "h": 388,
+                  "component": 12,
+                  "area": 45016
+                }
+              ],
+              "uniformScale": 0.23711340206185566,
+              "componentIsolation": true,
+              "packaging": "package-nova-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original fall poses",
+              "atlasPath": "public/assets/animation/nova-stitch-fall-right.webp",
+              "atlasSha256": "ed32b65d11989c309867d17e4c4952c42b7886f94ac0f3cb63645cb86f236bd5",
+              "atlasBytes": 77012,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "ed32b65d11989c309867d17e4c4952c42b7886f94ac0f3cb63645cb86f236bd5",
+                "atlasSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 10,
+                  "right": 10,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 10,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      96,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      192,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 13,
+                      "top": 31,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      288,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 13,
+                      "right": 14,
+                      "top": 42,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 42,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 11,
+                      "top": 42,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      96,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 16,
+                      "right": 17,
+                      "top": 32,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      192,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 21,
+                      "right": 22,
+                      "top": 23,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      288,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 18,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      384,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 20,
+                      "right": 20,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              }
+            },
+            "reviewed": true
+          },
+          "layup-reverse": {
+            "src": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "ee1c6b015eb80dfcc94eb6a80569061aa711c276724df199e45e718545e1c2a5"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "9029dd8a92c675208d8442895200738084f4c4d1bdeaa6dccdc4a3de6a96cd73"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "983bec0a7922c1b844245efd0fa35e897be3113a0c005067eed28282da1e07f2"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "22648094727157efd661a82c848c0cb735a18a0ce8791134f4f5bfb86f225d39"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "0bcb49f45c6ebe96ea4bb18355fd88cca9faa7e879ee78f1a3b5b62d242ca04b"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "49ac59707ee7747fc072e9510d35cfa5221c21b16b953a20fd3ad31c6e6f14f4"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "cbdd25ff914f30bbe5d20b1d2df75c990556b037d761a89e49cb3bdacae5886c"
+              }
+            ],
+            "sha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "layup-reverse",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-2a1aad65-39ec-49f9-b5e4-1ff35978d737",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-layup-reverse-generated-raw.png",
+              "rawSourceSha256": "5151f66d22b310cc7f4d0d528683eb8d84df25e108d44376cc776952752af93a",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-layup-reverse-generated-raw.png",
+              "sourceSha256": "5151f66d22b310cc7f4d0d528683eb8d84df25e108d44376cc776952752af93a",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and style reference. Create an original 1536×1024 transparent RGBA sheet with exactly eight separate full-body Nova Stitch REVERSE layup poses in a four-column by two-row grid, row-major. All poses must be complete, in separate cells, at consistent scale. Right-facing on approach. Same human player, camera, palette, anatomy, outline and hair through the turn. No background, floor, court, hoop, shadow, glow, text, number, prop, teammate or opponent.\n\nNova is a young athletic fair-tan woman with long curly teal hair in a high ponytail, individual face, teal uniform with purple/black trim, black knee pads, teal-black shoes and wristbands. Preserve her exact identity, feminine athletic build, hair and outfit. No ball is drawn; basketball is separate gameplay art.\n\nThis is a reverse layup: Nova approaches the rim moving right, gathers, turns her shoulders/back away from the basket in flight, carries the invisible ball to the far side of her head and releases with the right hand on the reverse side of the rim. It must visibly differ from a normal forward layup. Eight unique connected full-body poses:\n0 rightward approach, balanced stride;\n1 gather hands near waist and prepare to plant;\n2 TAKEOFF at tick2, leap with right knee rising;\n3 airborne, rotate torso away so her shoulder/back turns toward viewer;\n4 reverse-side peak, empty ball-miming hand reaches behind the crown with full ponytail unobstructed;\n5 sole RELEASE at tick12, arm extends backward/high past her shoulder, palm open and already empty;\n6 descend and unwind toward the court, arms counterbalance;\n7 controlled landing with flexed knees and hands lowering.\nNo other release, no ball baked into any pose. Keep all limbs/hair/shoes complete and anatomically coherent.\n\nMatch the supplied 2D arcade sprite reference with crisp limited-palette 1990s pixel art and chunky dark outlines, not painterly, photoreal, 3D, glossy or anime. True transparent RGBA background, no alpha haze, matte or checkerboard. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eight distinct complete Nova Stitch reverse-layup poses retain the same high teal ponytail, face, human proportions and teal/purple uniform. Torso turns away before the reverse-side single release at frame5/tick12, then descends and lands. Ball is separate.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "Nova-specific separate ball moves with the far-side hand during the reverse turn, releases at frame5/tick12; no ball is drawn in the poses.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 29,
+                  "y": 33,
+                  "w": 345,
+                  "h": 449,
+                  "component": 2,
+                  "area": 70100
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 435,
+                  "y": 37,
+                  "w": 299,
+                  "h": 453,
+                  "component": 3,
+                  "area": 71028
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 812,
+                  "y": 21,
+                  "w": 347,
+                  "h": 480,
+                  "component": 1,
+                  "area": 73161
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1227,
+                  "y": 38,
+                  "w": 283,
+                  "h": 463,
+                  "component": 4,
+                  "area": 62673
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 45,
+                  "y": 504,
+                  "w": 316,
+                  "h": 484,
+                  "component": 7,
+                  "area": 70585
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 420,
+                  "y": 504,
+                  "w": 332,
+                  "h": 503,
+                  "component": 8,
+                  "area": 68493
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 791,
+                  "y": 575,
+                  "w": 367,
+                  "h": 417,
+                  "component": 9,
+                  "area": 68443
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1207,
+                  "y": 609,
+                  "w": 302,
+                  "h": 387,
+                  "component": 10,
+                  "area": 65272
+                }
+              ],
+              "uniformScale": 0.18290258449304175,
+              "componentIsolation": true,
+              "packaging": "package-nova-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses",
+              "atlasPath": "public/assets/animation/nova-stitch-layup-reverse-right.webp",
+              "atlasSha256": "96dea0e98181242ceaf7f00c24800e16564fcae1bffe8b61c48383f889b3612b",
+              "atlasBytes": 67382,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "96dea0e98181242ceaf7f00c24800e16564fcae1bffe8b61c48383f889b3612b",
+                "atlasSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 6,
+                  "right": 7,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 8,
+                      "right": 9,
+                      "top": 9,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 13,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      160,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 9,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      240,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 14,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 12,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 11,
+                      "right": 12,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      160,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 6,
+                      "right": 7,
+                      "top": 15,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      240,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 13,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  1.2,
+                  1.5,
+                  1.8,
+                  2,
+                  2.14,
+                  2.14,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  8,
+                  6,
+                  -2,
+                  -3,
+                  10.1,
+                  10.1,
+                  6
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "layup": {
+            "src": "./public/assets/animation/nova-stitch-layup-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "b3e199ba21b78e0e42154d14cc28798b14858eeff0d8fe31f06756265f82efcc"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "138bd30b86a4575739e39893f1d1c5ee220e8d14923c0925f7948b44124f5bd9"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "bfdea530e85b53c1354fa9d11abbb2c8827575692cb85a333f920bb208ff9ead"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "8666d0eebde5d2238c4ab8b475686c1d310ad4754b51d85d27ee1fe2dc7c2361"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "fe9bce9374f947ddfd0659b70247fdb1c02e3b40dc6acaeaad59c030fd92fdb4"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "c2ee71db23506eebe3f00d6dd225a089ec02279768eae0fb228f8daad9e36a42"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "d029cf3b2765c705adcbb3d3dcbc12e80bdae231f9d7a4d57e24574ca9c2aae2"
+              }
+            ],
+            "sha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "layup",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-882d1b21-8390-46a1-b03c-ddc6757fec18",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-layup-generated-raw.png",
+              "rawSourceSha256": "c8d224247a6106d7232f6f07947e5787ef73e331085887f7d6c8e865994571e2",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-layup-generated-raw.png",
+              "sourceSha256": "c8d224247a6106d7232f6f07947e5787ef73e331085887f7d6c8e865994571e2",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and style reference. Create an original 1536×1024 transparent RGBA JAMVERSE '96 sheet with exactly eight separate full-body Nova Stitch right-handed layup poses in a four-column by two-row grid, row-major. Same scale, facing, camera, body proportions and color palette in all cells. No scene, floor, court, shadows, glow, borders, text, numbers, ball, hoop, prop, teammate or opponent.\n\nNova is a young athletic fair-tan woman with long curly teal hair in a high ponytail, an individual face, teal jersey and shorts with purple/black trim, black knee pads, teal-black shoes and wristbands. Preserve this exact human identity, hair, uniform and shoes. Both hands remain empty; basketball is separately rendered and is never drawn in poses.\n\nAction: right-facing running approach, gather the separate ball, plant, jump for a one-handed right-hand layup toward image-right, then land and recover. Eight connected unique poses:\n0 controlled rightward running approach, arms swing naturally;\n1 gather hands at waist while taking the last running step;\n2 TAKEOFF at tick2: plant lead foot and lift opposite knee;\n3 rise forward, shooting hand and elbow lift above shoulder;\n4 single RELEASE at tick10: leap toward right, right arm fully extended, open hand flicks upward;\n5 follow through at peak with hand high and eyes toward the rim;\n6 descend, torso stays upright, arms begin to lower;\n7 land under control with knees flexed and return to a balanced stance.\nThe hand is empty after frame4; no ball is drawn. Keep human limbs and complete hair/shoes visible, with naturally connected motion. Don’t let the ponytail touch adjacent cells.\n\nMatch the tiny gameplay sprite reference with crisp limited-palette 1990s arcade pixel art and chunky dark pixel outlines, not painterly, photoreal, 3D, glossy or anime. Background and cell gutters must have true alpha zero and no matte, shadow or checkerboard. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eight distinct complete Nova Stitch right-facing layup poses preserve the teal ponytail, fair-tan human face, teal/purple kit and knee pads. Frame4 releases once at tick10; all hands are empty and ball remains separate.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "Nova-specific ball is gathered and follows the right shooting hand, releases at frame4/tick10. No basketball is drawn into the pose atlas.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 33,
+                  "y": 42,
+                  "w": 346,
+                  "h": 441,
+                  "component": 2,
+                  "area": 67936
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 431,
+                  "y": 48,
+                  "w": 325,
+                  "h": 445,
+                  "component": 3,
+                  "area": 67104
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 808,
+                  "y": 48,
+                  "w": 314,
+                  "h": 454,
+                  "component": 4,
+                  "area": 64048
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1199,
+                  "y": 19,
+                  "w": 322,
+                  "h": 487,
+                  "component": 1,
+                  "area": 65270
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 51,
+                  "y": 519,
+                  "w": 328,
+                  "h": 451,
+                  "component": 6,
+                  "area": 58674
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 427,
+                  "y": 524,
+                  "w": 310,
+                  "h": 455,
+                  "component": 7,
+                  "area": 58099
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 820,
+                  "y": 592,
+                  "w": 313,
+                  "h": 418,
+                  "component": 8,
+                  "area": 62821
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1199,
+                  "y": 615,
+                  "w": 271,
+                  "h": 395,
+                  "component": 9,
+                  "area": 58428
+                }
+              ],
+              "uniformScale": 0.188911704312115,
+              "componentIsolation": true,
+              "packaging": "package-nova-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup poses",
+              "atlasPath": "public/assets/animation/nova-stitch-layup-right.webp",
+              "atlasSha256": "9e00e0b0dc141e0506354de19229d1a86cdbdcd5821708073052b57d753fd18a",
+              "atlasBytes": 66042,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "9e00e0b0dc141e0506354de19229d1a86cdbdcd5821708073052b57d753fd18a",
+                "atlasSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 7,
+                  "right": 8,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 8,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 10,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      160,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 11,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      240,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 11,
+                      "right": 12,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 9,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 11,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      160,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 10,
+                      "right": 11,
+                      "top": 12,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      240,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 16,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  1.25,
+                  1.5,
+                  1.8,
+                  2.19,
+                  2.19,
+                  1.35,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  7,
+                  9,
+                  11,
+                  8.9,
+                  8.9,
+                  9,
+                  7
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "pass-behind": {
+            "src": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c494bd4bf642ccc0383e20fc24763b9ef0e56f24e1d59f2dbefd8bd05e9b5e8b"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ab94f1b5730a6aa9b2a1017226553d33a211f2b70114c6ab4f279bb2cf22e8c9"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e3882c45761eac19487dc7c48322431ffadb8920a62bf01167fe2b9383db1608"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "932e67b2e8006c1830633389181106bcf69c4145321a5757e8506b089427c34b"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7731703e38e4b284fd9cca060608728da9b28e3a3a6fa67fe15b8509e063f66a"
+              }
+            ],
+            "sha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "pass-behind",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-66d1e335-b354-4dc3-9595-84491067d802",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-pass-behind-generated-raw.png",
+              "rawSourceSha256": "cc542cb73f38ea93f53bef296217ee8c4334e2056602c2553c63aec2bb052a14",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-pass-behind-generated-raw.png",
+              "sourceSha256": "cc542cb73f38ea93f53bef296217ee8c4334e2056602c2553c63aec2bb052a14",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and visual-style reference. Create an original 1536×1024 transparent RGBA sprite sheet for JAMVERSE '96 with exactly six separate complete full-body Nova Stitch behind-the-back-pass poses in a strict three-column by two-row grid, read left-to-right then top-to-bottom. Keep each figure inside its own cell with broad clear transparent spacing. Same player, right-facing source direction, camera, scale, anatomy, outline and palette across all six cells. No background, court, floor, shadow, glow, grid, text, number, prop, teammate or opponent.\n\nNova is a young athletic fair-tan woman with an expressive face and long curly teal hair tied in a high ponytail. She wears a teal jersey and shorts with purple/black trim, black knee pads, teal-and-black sneakers and matching wristbands. Preserve the same human identity, face, feminine athletic proportions, ponytail shape and color, uniform palette and shoes in all six drawings. Do not depict another athlete or add non-canon items. Keep hands empty; the basketball is separately rendered game art, never drawn in the poses.\n\nThis action is a quick behind-the-back basketball pass while moving toward image-right. Nova carries the invisible ball low from her forward hip behind her lower back, pivots her shoulders and releases it from the rear hand toward image-left, behind her body. The pass should read clearly from the hand path, torso twist and follow-through. Exactly six distinct connected full-body poses:\n0 right-facing balanced ready stance, hands low;\n1 gather the invisible ball at her forward hip;\n2 turn torso away and bring the empty ball-miming hand behind her waist;\n3 sole RELEASE at simulation tick7, rear arm extends behind the back and hand opens;\n4 continue the rearward wrist follow-through while stepping through;\n5 regain a balanced right-facing ready stance.\nNo other release, no ball in any frame. Preserve two natural arms, hands, legs and shoes in all complete poses.\n\nMatch the supplied tiny 2D gameplay reference: crisp limited-palette 1990s arcade pixel art with chunky dark outlines, not painterly, photorealistic, 3D, glossy or anime. Keep all hair tips, hands and shoes within each cell. True RGBA alpha-zero background, transparent gutters, no alpha haze, matte or checkerboard. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Six distinct full-body Nova Stitch behind-the-back-pass poses preserve her teal high ponytail, face, teal/purple kit and human anatomy. Pose3 releases behind her waist at tick7; ball remains separate.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "Nova-specific ball path passes behind her waist, matches the rearward hand and releases at frame3/tick7. No ball is painted into poses.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 111,
+                  "y": 18,
+                  "w": 316,
+                  "h": 486,
+                  "component": 1,
+                  "area": 83128
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 619,
+                  "y": 18,
+                  "w": 309,
+                  "h": 486,
+                  "component": 2,
+                  "area": 84504
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1131,
+                  "y": 18,
+                  "w": 356,
+                  "h": 486,
+                  "component": 3,
+                  "area": 89810
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 83,
+                  "y": 522,
+                  "w": 434,
+                  "h": 480,
+                  "component": 6,
+                  "area": 94172
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 614,
+                  "y": 522,
+                  "w": 371,
+                  "h": 480,
+                  "component": 7,
+                  "area": 92124
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1134,
+                  "y": 522,
+                  "w": 319,
+                  "h": 480,
+                  "component": 8,
+                  "area": 85832
+                }
+              ],
+              "uniformScale": 0.18930041152263374,
+              "componentIsolation": true,
+              "packaging": "package-nova-pass-behind6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-behind poses",
+              "atlasPath": "public/assets/animation/nova-stitch-pass-behind-right.webp",
+              "atlasSha256": "20372e35e34d71f98dcb8ea408944acb28ad7e73cabb1ed4bc8a6d6ac9e1ec5c",
+              "atlasBytes": 59528,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "20372e35e34d71f98dcb8ea408944acb28ad7e73cabb1ed4bc8a6d6ac9e1ec5c",
+                "atlasSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 9,
+                  "right": 10,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 20,
+                      "right": 20,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      96,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 21,
+                      "right": 21,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      192,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 16,
+                      "right": 17,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 10,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      96,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 15,
+                      "right": 15,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      192,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 19,
+                      "right": 20,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  1,
+                  0.95,
+                  0.96,
+                  1.1,
+                  0.9
+                ],
+                "forward": [
+                  5,
+                  2,
+                  -8,
+                  -11.3,
+                  -8,
+                  4
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "pass-overhead": {
+            "src": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f12e4656f9a0686e80ab7dc704bb2c3478de7d1f834d04b477d647db651672de"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7373c71c615f77cc847f849ba071141f4a796448fc7c0609ad32335a109e3ff5"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fc9841d0ef76cefcef44b042f622ba61a3cb6384f9d4aa0b8ab87c70b5029041"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "96f22bc8fe633d18db21844cb7c3053e77509c6039df0db1eeaaa3f4123708d0"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "36c971d8aa927639e28a72594ba033fce7bad11d765d19a8ddc5fc0c54c35ca8"
+              }
+            ],
+            "sha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "pass-overhead",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-e510a11e-7fd6-4e2c-940e-10d09e902d0d",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-pass-overhead-generated-raw.png",
+              "rawSourceSha256": "a2323c59d11488f8d0f34d501edd4d932886d734ebc3bf23a623688172a3452b",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-pass-overhead-generated-raw.png",
+              "sourceSha256": "a2323c59d11488f8d0f34d501edd4d932886d734ebc3bf23a623688172a3452b",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and visual-style reference. Create an original 1536×1024 transparent RGBA sprite sheet for JAMVERSE '96 with exactly six separate full-body Nova Stitch overhead-pass poses in a three-column by two-row grid, read left-to-right then top-to-bottom. Keep every pose inside its cell with clear transparent margins. Same player, facing right, camera, scale, proportions, outline and pixel-art palette in every cell. No background, court, floor, shadow, glow, lines, text, numbers, props, teammates or opponents.\n\nNova is a young athletic fair-tan woman with an individual expressive face and long curly teal hair in a high ponytail. She wears a teal basketball jersey and shorts with purple/black trim, black knee pads, teal-and-black sneakers and matching wristbands. Preserve the exact face, feminine athletic human anatomy, ponytail silhouette/color, outfit and footwear in every pose. Do not turn her into the reference athlete or recolor/add features. Both hands remain empty because the basketball is separate game art. Never draw a ball, sphere, seams or prop.\n\nAction: Nova prepares a high two-handed overhead pass, lifts the invisible ball above her crown with bent elbows, then releases it forward toward image-right and follows through. Exactly six distinct connected full-body poses:\n0 right-facing ready stance with hands low;\n1 gather the invisible ball at waist while stepping into position;\n2 bend knees and raise both hands above her head, elbows bent;\n3 single RELEASE at simulation tick7, arms extend upward/forward and hands open;\n4 lean into the pass with arms continuing forward from above the head;\n5 lower her arms into a balanced ready stance.\nNo other release or drawn ball. Keep arms, hands, ponytail and shoes complete, natural and unobstructed; do not let the overhead hands cover or clip the ponytail.\n\nMatch the tiny 2D arcade gameplay reference: crisp limited-palette 1990s pixel art and chunky dark outlines, no painterly, photoreal, 3D, glossy or anime rendering. All six figures must be fully visible in their cells, with true alpha-zero background/gutters and no matte or checkerboard. Return only the image.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Six distinct full-body Nova Stitch overhead-pass poses retain the exact teal-haired human identity and outfit. Pose3 is the sole overhead release at tick7; no ball is baked into the art.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "Nova-specific separate basketball follows overhead ball-miming hands and releases at frame3/tick7; never painted into the poses.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 144,
+                  "y": 17,
+                  "w": 272,
+                  "h": 485,
+                  "component": 2,
+                  "area": 81697
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 609,
+                  "y": 43,
+                  "w": 320,
+                  "h": 459,
+                  "component": 3,
+                  "area": 76391
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1116,
+                  "y": 14,
+                  "w": 311,
+                  "h": 491,
+                  "component": 1,
+                  "area": 81158
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 104,
+                  "y": 520,
+                  "w": 400,
+                  "h": 487,
+                  "component": 4,
+                  "area": 90695
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 608,
+                  "y": 538,
+                  "w": 446,
+                  "h": 469,
+                  "component": 5,
+                  "area": 89142
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1150,
+                  "y": 551,
+                  "w": 322,
+                  "h": 456,
+                  "component": 6,
+                  "area": 78146
+                }
+              ],
+              "uniformScale": 0.18737270875763748,
+              "componentIsolation": true,
+              "packaging": "package-nova-pass-overhead6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses",
+              "atlasPath": "public/assets/animation/nova-stitch-pass-overhead-right.webp",
+              "atlasSha256": "b12b22f5e2df10fb6884226dd3c19137bb5fffbd5959b5877425338c8e692693",
+              "atlasBytes": 54734,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "b12b22f5e2df10fb6884226dd3c19137bb5fffbd5959b5877425338c8e692693",
+                "atlasSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 7,
+                  "right": 7,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 24,
+                      "right": 24,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      96,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 18,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      192,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 21,
+                      "right": 21,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 12,
+                      "right": 13,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      96,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 7,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      192,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 18,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  1.5,
+                  2.1,
+                  2.25,
+                  1.6,
+                  1.1
+                ],
+                "forward": [
+                  6,
+                  7,
+                  10.7,
+                  10.7,
+                  9,
+                  6
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "pass": {
+            "src": "./public/assets/animation/nova-stitch-pass-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3731d824264e0064a8ac48e30b334daafb25157b44bf8ba5b2dced15c1a6c3bc"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9e87429aef065b9f0124df10f54c1d821261a08cdf9701a881acf79bee9cb5b5"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4f881a1fe2226a8234bcf1e56b731ba065263e1c4c0993e1b0073032723ab116"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "23d25f8f79368a003bc042c1842b4707718650e8c2beb76cb40948ea00441db0"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a6fd92dccf284db243d5a5afba415b03557cda6f586bb4b12af29096ca8a1aac"
+              }
+            ],
+            "sha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "pass",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-beeea829-d398-467a-af6c-5022cc1b80bf",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-pass-generated-raw.png",
+              "rawSourceSha256": "9921be9903d4283b63db1e4f6d71953348c6906df3309d94ea409cd3e52cc9b3",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and visual-style reference. Create a new original 1536×1024 transparent RGBA production sprite sheet for JAMVERSE '96 containing exactly six separate complete full-body Nova Stitch chest-pass poses in a strict three-column by two-row grid, left-to-right, top-to-bottom. Keep each pose centered inside its own cell with broad transparent gutters and outer margins. Same player, same facing right, same camera, figure scale, pixel-art palette and outline in all six poses. No cell lines, scenery, floor, shadow, glow, court, hoop, text, numbers, labels, props, teammates, or opponents.\n\nNova is a young athletic fair-tan woman with an individual expressive face and long curly teal hair tied in a high ponytail. She wears a teal basketball jersey and shorts with purple/black trim, black knee pads, teal-and-black sneakers and matching wristbands. Preserve that exact feminine human identity, adult athletic anatomy, face, ponytail shape/color, outfit and shoes in each pose. Do not turn her into the reference athlete, recolor her uniform, change her hair, or add unrelated signature items. Both hands must remain empty: the basketball is separately rendered game art. Never draw a ball, sphere, seams, orb or prop.\n\nAction: Nova plants and pushes a quick two-handed chest pass toward image-right, with convincing arm and shoulder movement, balanced footwork, clean readable hand positions and a brief follow-through. Exactly these six distinct connected poses:\n0 ready right-facing stance, knees soft, hands low and relaxed;\n1 bring the empty ball-miming hands together near the waist;\n2 step forward, elbows bend, hands gather to the chest;\n3 RELEASE at simulation tick5: step into the pass, arms drive forward and hands open at chest height;\n4 arms extend in a natural follow-through while weight shifts onto the lead foot;\n5 lower her arms and recover to a balanced ready stance.\nThe pass is only one release at pose3. Keep both arms/hands anatomically correct and unobstructed; no baked-in basketball.\n\nThe supplied reference is a tiny 2D arcade gameplay sprite. Match its crisp limited-palette 1990s pixel-art scale and chunky dark outlines; do not render painterly, photoreal, 3D, glossy, or high-resolution anime art. Keep poses fully inside cells with complete hair, hands, legs and shoes. Background and gutters must have true alpha zero, with clean edges and no matte or checkerboard. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Six distinct full-body Nova Stitch chest-pass poses match the established teal-haired human identity and pixel-art gameplay scale. Frame3 is a single chest-height release at tick5; hands and basketball are separate.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "Nova-specific basketball remains separate from all poses and follows her chest-height hands through frame3/tick5 release.",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-pass-generated-raw.png",
+              "sourceSha256": "9921be9903d4283b63db1e4f6d71953348c6906df3309d94ea409cd3e52cc9b3",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 112,
+                  "y": 29,
+                  "w": 273,
+                  "h": 474,
+                  "component": 1,
+                  "area": 78298
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 622,
+                  "y": 39,
+                  "w": 282,
+                  "h": 463,
+                  "component": 2,
+                  "area": 74874
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1137,
+                  "y": 48,
+                  "w": 307,
+                  "h": 455,
+                  "component": 3,
+                  "area": 74860
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 68,
+                  "y": 545,
+                  "w": 442,
+                  "h": 441,
+                  "component": 6,
+                  "area": 81798
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 568,
+                  "y": 544,
+                  "w": 437,
+                  "h": 443,
+                  "component": 5,
+                  "area": 79058
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1146,
+                  "y": 529,
+                  "w": 288,
+                  "h": 459,
+                  "component": 4,
+                  "area": 75143
+                }
+              ],
+              "uniformScale": 0.1940928270042194,
+              "componentIsolation": true,
+              "packaging": "package-nova-pass6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass poses",
+              "atlasSha256": "2efdb270b094976ea809fef9e6419a713511666eff787275f7d1d94349a8d78b",
+              "atlasBytes": 61472,
+              "atlasPath": "public/assets/animation/nova-stitch-pass-right.webp",
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "2efdb270b094976ea809fef9e6419a713511666eff787275f7d1d94349a8d78b",
+                "atlasSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 23,
+                      "right": 23,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      96,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 21,
+                      "right": 22,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      192,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 19,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 5,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      96,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 6,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      192,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 21,
+                      "right": 21,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  1.2,
+                  1.5,
+                  1.77,
+                  1.5,
+                  1.1
+                ],
+                "forward": [
+                  7,
+                  6,
+                  10,
+                  16.1,
+                  12,
+                  7
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "pickup": {
+            "src": "./public/assets/animation/nova-stitch-pickup-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "24f4d8fa1932acf4ead0e89db359051735b765aff1327fd768b74e6eb4f2e8e4"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "a4a6ed7fbec390a3f8df7a4db534b817843412d9fc0f4339b4551d23f279ddad"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "b7ab9a2abf2dc191063bb6866bcc6689c12251ce62f0614f8f7a232d6f5e3f88"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "f81d42be80861d3796029f3bcdc9232e99c4fd999185e0acb68e7e59b1bd80b5"
+              }
+            ],
+            "sha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "pickup",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-0c4dfd79-9915-4857-a8c2-beb68f008d90",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-pickup-generated-raw.png",
+              "rawSourceSha256": "0422d68b2acd7861481a3841c8d82fbf34d49a243920e7d9309c54e96ca8a989",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-pickup-generated-raw.png",
+              "sourceSha256": "0422d68b2acd7861481a3841c8d82fbf34d49a243920e7d9309c54e96ca8a989",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and visual-style reference. Create a new original 1536×1024 transparent RGBA sprite sheet for JAMVERSE '96 containing exactly five separate complete full-body Nova Stitch ball-pickup poses, in a three-column by two-row grid and row-major order. Leave the last cell (bottom row, third column) completely transparent. Put one pose centered in each of the other five cells, with clear margins. Same player, same right-facing source direction, camera, scale, palette and anatomy throughout. No scenery, court, floor, shadow, glow, borders, text, numbers, prop, other athlete or opponent.\n\nNova is a young athletic fair-tan woman with a long curly teal ponytail tied high, teal jersey and shorts with purple/black trim, black knee pads, teal-and-black shoes and matching wristbands. Keep her individual human face, build, hair, outfit, silhouette and colors consistent. Hands are empty; the basketball is a separate game object and never drawn into poses.\n\nAction: Nova jogs up to a loose basketball on the court, reaches down with her right hand, touches it at floor level, and begins to rise. Exactly five distinct poses:\n0 approach in a right-facing stride, hands relaxed;\n1 decelerate and bend knees, eyes toward the floor;\n2 deep crouch, reach right hand toward the ball's ground position;\n3 GRAB at simulation tick7: fingertips meet the floor at the pickup point, palm open, left arm balances;\n4 lift from the crouch, right hand closed near her waist after pickup.\nShow no basketball or prop. Keep the exact floor contact in pose3 so the separate ball can meet the hand; pose4 starts recovery. All poses full-body with natural two-arm anatomy and complete ponytail and shoes.\n\nMatch the tiny 2D gameplay reference: crisp limited-palette 1990s arcade pixel art with chunky dark outlines, not painterly, photoreal, 3D, glossy or anime. True RGBA transparent background and empty cell, no alpha haze, matte or checkerboard. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Five distinct complete Nova Stitch pickup poses preserve the teal-haired human identity and teal/purple kit. Pose3 touches down at tick7; pose4 rises. Final cell is left empty; basketball stays separate.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "Nova-specific separate basketball meets the right fingertips at frame3/tick7; no ball appears in the packaged art.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 74,
+                  "y": 29,
+                  "w": 378,
+                  "h": 493,
+                  "component": 1,
+                  "area": 90165
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 655,
+                  "y": 66,
+                  "w": 353,
+                  "h": 455,
+                  "component": 2,
+                  "area": 93437
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1118,
+                  "y": 152,
+                  "w": 394,
+                  "h": 369,
+                  "component": 3,
+                  "area": 85535
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 114,
+                  "y": 650,
+                  "w": 371,
+                  "h": 347,
+                  "component": 5,
+                  "area": 84930
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 627,
+                  "y": 542,
+                  "w": 354,
+                  "h": 450,
+                  "component": 4,
+                  "area": 85764
+                }
+              ],
+              "uniformScale": 0.18661257606490872,
+              "componentIsolation": true,
+              "packaging": "package-nova-action5.py; 80x96 cells; baseline94; lossless WebP; 5 original pickup poses",
+              "atlasPath": "public/assets/animation/nova-stitch-pickup-right.webp",
+              "atlasSha256": "50921a3715919ef43cbc28e92a93c31cc16ad3fcd2cd9f1808339aeb43d92a2a",
+              "atlasBytes": 47032,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "50921a3715919ef43cbc28e92a93c31cc16ad3fcd2cd9f1808339aeb43d92a2a",
+                "atlasSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 7,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 7,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      160,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 5,
+                      "top": 26,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 6,
+                      "top": 26,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 7,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  0.65,
+                  0.3,
+                  0,
+                  0.75
+                ],
+                "forward": [
+                  5,
+                  7,
+                  10,
+                  13,
+                  8
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "push": {
+            "src": "./public/assets/animation/nova-stitch-push-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "983710b1b7d249d0176e7e01eb5b8bd4f486ff23acaa3aa353ff72656ad39c3c"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "0a10456d69e8002c614875662c1c8d244a6cb56f83149d55204b2a5c25098e19"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8bdd71a1693a4b39e23e31eb4367944406346ec813a51bba4e959f2a5a6a15b9"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "e1ecfb5b39e790d7ad0b191236c3902d28eb6ae0d288c9546d7dbc150374ccf7"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "319802c0da38abbe650e19b4b0d913e2f1b18504780b4f3eaa7e0de993173301"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "4a849f1ebe413ff04f9f98d026fff390bfc08da9d2f1669103e1b7f018ef4820"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "6fb9292e264bf309abd395183f0588d913268a1fc9a1b4ee9aeee1c79ca1b806"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "9129155bbe828b66a45e5d461c28431165c504f4cd0c3cf01328b6c8d04ec332"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "1c9b406997423922aa2e8c6ab35fdeb40959654370a63eaa2925cdb7f43b0199"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "333c4e93c174f2d7d905b343fb8fe0eb1a296bc490dff9447808b118596974a1"
+              }
+            ],
+            "sha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "push",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-5a125d00-6b1a-4c2f-be48-c8b853e4930f",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-push-generated-raw.png",
+              "rawSourceSha256": "62344c070d73896c092ced577ec56e429721a4c1086c9904cb0bb7bf2a969600",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-push-generated-raw.png",
+              "sourceSha256": "62344c070d73896c092ced577ec56e429721a4c1086c9904cb0bb7bf2a969600",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite as the identity/style reference. Create an original 1536×1024 transparent RGBA sprite sheet containing exactly eleven separate complete full-body poses of Nova Stitch performing a basketball push/body-check, in a four-column by three-row grid, row-major. Put poses0–10 in the first eleven cells and leave the final cell (row3 column4) transparent. Keep a consistent right-facing source direction, scale and camera. Keep each pose inside its own cell. No scene, floor, court, shadow, glow, text, numbers, other athletes, basketball, prop or background.\n\nNova is a young athletic fair-tan woman with long curly teal hair in a high ponytail, distinct human face, teal jersey and shorts with purple/black trim, black knee pads, teal-and-black sneakers and wristbands. Preserve her exact body, face, ponytail and uniform colors in all poses. Keep hands empty; no ball or prop is drawn. This is a controlled in-game defensive body-check, not a fight: no punches, kicks, weapons, injury, or fallen/prone character. Show Nova’s upper-arm/shoulder nudging an unseen opponent, never a strike.\n\nEleven connected, visibly distinct poses:\n0 neutral right-facing ready stance, hands low;\n1 lower defensive stance and prepare to step in;\n2 drive off the rear foot toward image-right, shoulder turning;\n3 close the space, arm bent and shoulder leading;\n4 lean in, upper arm/shoulder aligned for contact, other arm balancing;\n5 CONTACT at simulation tick8: brief shoulder-to-shoulder bump pose, stable feet, no punch;\n6 continue a short safe follow-through, arm raised but open hand;\n7 recoil naturally as the opponent moves away, regain balance;\n8 lower the arms and step back;\n9 stand upright, return to defensive stance;\n10 reset in a balanced right-facing ready pose.\nNo other figure is drawn. Keep all limbs, hands, ponytail and shoes clear, anatomically correct and fully visible.\n\nMatch the supplied tiny 2D arcade sprite with crisp limited-palette 1990s pixel art and chunky dark outlines, not painterly, photorealistic, 3D, glossy or anime. True transparent background and gutters; no matte or checkerboard. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eleven distinct complete Nova Stitch push poses preserve the teal ponytail, female human anatomy and teal/purple uniform. Pose5 contacts at tick8; the controlled no-punch shoulder check continues through a safe follow-through and reset. No opponent or ball is baked into poses.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "Nova-specific basketball stays separate during the defensive body-check; it is not painted into any pose.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 94,
+                  "y": 13,
+                  "w": 199,
+                  "h": 337,
+                  "component": 1,
+                  "area": 43087
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 459,
+                  "y": 44,
+                  "w": 267,
+                  "h": 305,
+                  "component": 4,
+                  "area": 43556
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 810,
+                  "y": 34,
+                  "w": 292,
+                  "h": 315,
+                  "component": 3,
+                  "area": 46421
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1205,
+                  "y": 27,
+                  "w": 269,
+                  "h": 321,
+                  "component": 2,
+                  "area": 45931
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 56,
+                  "y": 369,
+                  "w": 345,
+                  "h": 314,
+                  "component": 7,
+                  "area": 51499
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 458,
+                  "y": 365,
+                  "w": 291,
+                  "h": 318,
+                  "component": 5,
+                  "area": 47344
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 815,
+                  "y": 373,
+                  "w": 302,
+                  "h": 311,
+                  "component": 8,
+                  "area": 47809
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1221,
+                  "y": 366,
+                  "w": 265,
+                  "h": 317,
+                  "component": 6,
+                  "area": 44073
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 89,
+                  "y": 699,
+                  "w": 241,
+                  "h": 313,
+                  "component": 12,
+                  "area": 41408
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 469,
+                  "y": 692,
+                  "w": 208,
+                  "h": 320,
+                  "component": 11,
+                  "area": 41494
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 851,
+                  "y": 689,
+                  "w": 203,
+                  "h": 323,
+                  "component": 10,
+                  "area": 41415
+                }
+              ],
+              "uniformScale": 0.27299703264094954,
+              "componentIsolation": true,
+              "packaging": "package-nova-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses",
+              "atlasPath": "public/assets/animation/nova-stitch-push-right.webp",
+              "atlasSha256": "69bd756f1dfed9b37c0cd5af3f83361052ebd9a2a0a222cbfe2eac2cab64d9c5",
+              "atlasBytes": 112970,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "69bd756f1dfed9b37c0cd5af3f83361052ebd9a2a0a222cbfe2eac2cab64d9c5",
+                "atlasSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 9,
+                  "right": 9,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 31,
+                      "right": 31,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      112,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 19,
+                      "right": 20,
+                      "top": 8,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      224,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 16,
+                      "right": 16,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      336,
+                      0,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 20,
+                      "right": 21,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 9,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      112,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 17,
+                      "right": 17,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      224,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 15,
+                      "right": 15,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      336,
+                      96,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 20,
+                      "right": 21,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 8,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      192,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 23,
+                      "right": 23,
+                      "top": 6,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 9,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      112,
+                      192,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 28,
+                      "right": 28,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 10,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      224,
+                      192,
+                      112,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 29,
+                      "right": 29,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              }
+            },
+            "reviewed": true
+          },
+          "rebound": {
+            "src": "./public/assets/animation/nova-stitch-rebound-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "8615b8cced45c15a39a3d2b27019f434e3077c17f49db68cd3d2377c29c0ebf4"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "b201052165ffcb1788efd161b1543e928b12594f6b3a1fd6c26fa7dde240a46e"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "21947692827ed0d03fc06693ec4a4e2fedcab7d65ff5652616bd6a75a264df2b"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "7e436860bf758877bb6928e8b2244aa01977fddd7ba6d6eb8e769955188626fa"
+              }
+            ],
+            "sha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "rebound",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-665a3d86-964a-4944-aa55-137f2b21d5bb",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-rebound-generated-raw.png",
+              "rawSourceSha256": "419048771eb057800a95507b2d730123454d40edda3b78e808a123d9df3363c6",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-rebound-generated-raw.png",
+              "sourceSha256": "419048771eb057800a95507b2d730123454d40edda3b78e808a123d9df3363c6",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite as the identity/style reference. Create an original 1536×1024 transparent RGBA sprite sheet with exactly five separate full-body Nova Stitch rebound poses in a three-column by two-row grid, row-major; leave the sixth cell transparent. Same player, right-facing, scale, camera, pixel palette and anatomy throughout. Each body inside its own cell with clear alpha margins. No court, floor, ball, hoop, shadow, glow, text, prop, teammate or opponent.\n\nNova is a young athletic fair-tan woman with long curly teal hair in a high ponytail, individual human face, teal jersey/shorts with purple/black trim, black knee pads, teal-black shoes and wristbands. Preserve her face, ponytail, anatomy and uniform. No ball is drawn; the separate game basketball is omitted from art.\n\nAction: Nova jumps for a defensive rebound and catches the invisible ball at the apex with both hands, then brings it down and lands. Five distinct connected poses:\n0 ready stance, eyes tracking upward;\n1 bend knees and load for a jump;\n2 rise straight up, arms reach overhead;\n3 GRAB at simulation tick5: both hands close around the ball’s separate position above her forehead at the peak;\n4 descend with elbows drawing in and land in balance, hands empty.\nThe ball remains separate and absent from all five pose drawings. Keep her complete body and ponytail within cell boundaries; use coherent athletic footwork.\n\nMatch the supplied tiny 2D gameplay sprite: crisp limited-palette 1990s arcade pixel art with chunky dark outlines, not painterly, photoreal, 3D, glossy or anime. True alpha-zero sheet background and clear gutters, no matte or checkerboard. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Five distinct complete Nova Stitch rebound poses preserve her human teal-haired identity and teal/purple kit. Pose3 grasps at tick5 overhead; pose4 brings the separate rebound down while landing.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "Separate Nova-specific ball meets both hands at frame3/tick5 and remains carried; sprite atlas contains no ball.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 146,
+                  "y": 99,
+                  "w": 267,
+                  "h": 397,
+                  "component": 2,
+                  "area": 61150
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 624,
+                  "y": 141,
+                  "w": 273,
+                  "h": 355,
+                  "component": 3,
+                  "area": 58804
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1122,
+                  "y": 10,
+                  "w": 314,
+                  "h": 498,
+                  "component": 1,
+                  "area": 67093
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 122,
+                  "y": 522,
+                  "w": 272,
+                  "h": 466,
+                  "component": 4,
+                  "area": 67374
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 642,
+                  "y": 609,
+                  "w": 280,
+                  "h": 386,
+                  "component": 5,
+                  "area": 62066
+                }
+              ],
+              "uniformScale": 0.18473895582329317,
+              "componentIsolation": true,
+              "packaging": "package-nova-action5.py; 64x96 cells; baseline94; lossless WebP; 5 original rebound poses",
+              "atlasPath": "public/assets/animation/nova-stitch-rebound-right.webp",
+              "atlasSha256": "db76cb230b45167c1f1196060b98f153367c951ac0d2af16d340ee3b77caf542",
+              "atlasBytes": 38862,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "db76cb230b45167c1f1196060b98f153367c951ac0d2af16d340ee3b77caf542",
+                "atlasSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 8,
+                      "top": 18,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      64,
+                      0,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 7,
+                      "top": 25,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      128,
+                      0,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 5,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 7,
+                      "right": 7,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      64,
+                      96,
+                      64,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 6,
+                      "right": 6,
+                      "top": 20,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.55,
+                  2.15,
+                  2.18,
+                  1.45
+                ],
+                "forward": [
+                  3,
+                  5,
+                  8,
+                  2.4,
+                  0
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "receive": {
+            "src": "./public/assets/animation/nova-stitch-receive-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "eb397c35516071420bb77007fcaab1b207ae3649d1fcab13aea5e7aaea4c8b62"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "efeb8862a01c02e5b4c2fd5544e051281c6cc4d179d296e1349479d4a2116b12"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "87b31e2442228b4de1a7d4aa3e3483cab30dc94bc41260f8096b363fc7be0b5b"
+              }
+            ],
+            "sha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "receive",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-59c48b35-31ba-4992-b770-2aa09d7ac12d",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-receive-generated-raw.png",
+              "rawSourceSha256": "fc5d1f69a7b96d9415841112fd7216756fade5e29cbbdc89813057d24731791e",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-receive-generated-raw.png",
+              "sourceSha256": "fc5d1f69a7b96d9415841112fd7216756fade5e29cbbdc89813057d24731791e",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite only as an identity and pixel-style reference. Create an original 1536×1024 transparent RGBA sprite sheet for JAMVERSE '96 with exactly four separate complete full-body Nova Stitch receiving poses in a strict two-column by two-row grid, read left-to-right, then top-to-bottom. Use the full canvas and keep each pose inside one clear cell. Same athlete, right-facing direction, camera, scale, human anatomy, outline, color palette and lighting in every cell. No background, court, floor, shadow, glow, text, number, prop, teammate or opponent.\n\nNova is a young athletic fair-tan woman with an individual expressive face and long curly teal high ponytail. She wears a teal jersey and shorts with purple/black trim, black knee pads, teal-and-black sneakers and matching wristbands. Keep this identity and clothing consistent in all poses. Preserve natural hands and arms. Both hands are empty in the drawings because the basketball is separate gameplay art; never paint a ball, circle, seams, orb or prop.\n\nAction: Nova braces and catches a separately rendered incoming chest-high basketball with both hands. Exactly four unique connected poses:\n0 right-facing ready stance, hands down and eyes tracking the incoming pass;\n1 raise both hands in front of her chest, elbows bent, prepare to catch;\n2 CATCH at simulation tick4: both open hands close around the incoming-ball position at chest height;\n3 absorb the catch, elbows bend inward and hands settle at chest height holding no painted object.\nNova faces right; receiver hand position must align at pose2, then remain controlled. No extra pose or duplicate frame.\n\nMatch the supplied tiny 2D gameplay reference: crisp limited-palette 1990s arcade pixel art with chunky dark outlines, not painterly, photorealistic, 3D, glossy or anime. Keep ponytail, hands, body and shoes fully within each cell. True alpha-zero background and gutters, no matte or checkerboard. Return only the image.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Four distinct complete Nova Stitch catch poses retain her human teal-haired identity and kit. Pose2 catches at tick4; component isolation removes the generator’s small detached ball glyph so the packaged hands remain empty and basketball stays separate.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "The separately rendered Nova ball meets both hands at the tick4 catch, remains held through frame3; no ball is present in the packaged sprite poses.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 243,
+                  "y": 10,
+                  "w": 296,
+                  "h": 489,
+                  "component": 1,
+                  "area": 83309
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 973,
+                  "y": 10,
+                  "w": 354,
+                  "h": 489,
+                  "component": 2,
+                  "area": 83388
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 247,
+                  "y": 518,
+                  "w": 354,
+                  "h": 491,
+                  "component": 3,
+                  "area": 86851
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 970,
+                  "y": 525,
+                  "w": 321,
+                  "h": 484,
+                  "component": 4,
+                  "area": 80468
+                }
+              ],
+              "uniformScale": 0.18737270875763748,
+              "componentIsolation": true,
+              "packaging": "package-nova-action4.py; 80x96 cells; baseline94; lossless WebP; 4 original receive poses",
+              "atlasPath": "public/assets/animation/nova-stitch-receive-right.webp",
+              "atlasSha256": "fd8eaff491d2c226d8054a42ac1d1d272ce9c4771b124e810c19de275509b998",
+              "atlasBytes": 40016,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "fd8eaff491d2c226d8054a42ac1d1d272ce9c4771b124e810c19de275509b998",
+                "atlasSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 9,
+                  "right": 9,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      0,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 9,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 9,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      80,
+                      96,
+                      80,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 11,
+                      "right": 12,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  2.2,
+                  1.25,
+                  1.35
+                ],
+                "forward": [
+                  5,
+                  4.8,
+                  9,
+                  9
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
+          },
+          "steal": {
+            "src": "./public/assets/animation/nova-stitch-steal-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bda886831cf7d87f69cf9c1d365ac6383d98dbe8eea33bb9e57a6bf8c6555a37"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c616b6dd08aa990ec2fff99a8014370173c48fd8b974bb199e8f3689752a194c"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "74fa9717067770823723885d400ac9b82e47150370d624e4905238436dac15f2"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9b373a3e40eb63f9bbb7ff67fcc53fba47dcf8c31a3408bfaa0d386b45f131a8"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e608883bcfc8864fb4b69100034171d970f0c1768dd23c13157c1eaea4d7cac8"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "22078177bb9941a3835a946b8b00c6a1315955d11ffcdfa71d0c25e982a71bcd"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2db6ef9c0cf281c0a2602fa5dbcfe09aa645be3e86ae6adffbb8a0cff10a0a73"
+              }
+            ],
+            "sha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nova-stitch",
+              "clip": "steal",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-accb1d20-1101-4840-9966-41f0525b792a",
+              "rawSourceImage": "tools/generate-art/sources/nova-stitch-steal-generated-raw.png",
+              "rawSourceSha256": "45d2e30fb96d1f941d32735b96307878ee2e5f536fe7a3a1094800e035700203",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-steal-generated-raw.png",
+              "sourceSha256": "45d2e30fb96d1f941d32735b96307878ee2e5f536fe7a3a1094800e035700203",
+              "eligibleForPacking": true,
+              "prompt": "Use the supplied Nova Stitch gameplay sprite as the identity/style reference. Create an original 1536×1024 transparent RGBA sheet with exactly eight distinct full-body Nova Stitch basketball-steal poses arranged in a four-column by two-row grid, row-major. All poses are right-facing at consistent scale and camera. Clear separate cells with broad transparent spacing. No court, floor, scene, shadow, glow, ball, hoop, text, labels, teammates or opponents.\n\nNova is a young athletic fair-tan woman with long curly teal hair tied in a high ponytail, an individual human face, teal jersey and shorts with purple/black trim, black knee pads, teal-and-black shoes and wristbands. Preserve her human anatomy, face, hair, silhouette and uniform colors. Hands stay empty; the game ball is a separate object and must never appear in the sprite poses.\n\nAction: Nova anticipates an opponent’s dribble, darts in and steals the invisible ball with her right hand, then pivots to move away. Eight connected unique poses:\n0 balanced defensive stance, knees bent, eyes ahead;\n1 shift weight forward and extend the near hand;\n2 quick side-step with shoulders turning toward the ball;\n3 GRAB at simulation tick5: right arm reaches into the ball’s chest-height path and fingers close;\n4 pull the empty hand back toward her ribs as possession changes;\n5 pivot toward image-right, ponytail trails from the turn;\n6 begin a quick escape step with the arms naturally counterbalancing;\n7 regain a forward-facing running-ready pose.\nKeep a readable one-hand interception and full athletic movement; no visible ball in any frame. Complete natural limbs, ponytail and shoes in every cell.\n\nMatch the tiny 2D arcade reference: crisp limited-palette 1990s pixel art with chunky dark outlines, not painterly, photoreal, 3D, glossy or anime. True alpha-zero background and gutters, no matte or checkerboard. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Eight distinct complete Nova Stitch steal poses preserve the teal high ponytail, face, human anatomy and teal/purple kit. Pose3 reaches at tick5; pose4 pulls the ball-miming hand back, then she pivots to escape. No ball is baked into the sprite art.",
+                "integrationReview": {
+                  "status": "accepted",
+                  "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+                }
+              },
+              "ballPolicy": "Separate Nova-specific basketball is intercepted at pose3/tick5 and carried away after the steal. It is not painted into the poses.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 35,
+                  "y": 58,
+                  "w": 304,
+                  "h": 430,
+                  "component": 1,
+                  "area": 69864
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 380,
+                  "y": 73,
+                  "w": 413,
+                  "h": 415,
+                  "component": 2,
+                  "area": 70036
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 814,
+                  "y": 75,
+                  "w": 375,
+                  "h": 413,
+                  "component": 3,
+                  "area": 64899
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1101,
+                  "y": 75,
+                  "w": 424,
+                  "h": 413,
+                  "component": 4,
+                  "area": 70346
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 32,
+                  "y": 535,
+                  "w": 316,
+                  "h": 432,
+                  "component": 5,
+                  "area": 73052
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 429,
+                  "y": 538,
+                  "w": 302,
+                  "h": 429,
+                  "component": 6,
+                  "area": 71449
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 780,
+                  "y": 544,
+                  "w": 375,
+                  "h": 416,
+                  "component": 8,
+                  "area": 73085
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1179,
+                  "y": 538,
+                  "w": 335,
+                  "h": 429,
+                  "component": 7,
+                  "area": 71748
+                }
+              ],
+              "uniformScale": 0.21296296296296297,
+              "componentIsolation": true,
+              "packaging": "package-nova-action8.py; 96x96 cells; baseline94; lossless WebP; 8 original steal poses",
+              "atlasPath": "public/assets/animation/nova-stitch-steal-right.webp",
+              "atlasSha256": "5bd9214bfe251692a7504e3ef7054868a46057db9e4c79bc946fa5cd312ad362",
+              "atlasBytes": 80842,
+              "repack": {
+                "date": "2026-10-24",
+                "script": "tools/generate-art/repack-nova-stitch-package.py",
+                "previousAtlasSha256": "5bd9214bfe251692a7504e3ef7054868a46057db9e4c79bc946fa5cd312ad362",
+                "atlasSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+                "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+                "minimumMarginsPx": {
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                  "bottom": 5
+                },
+                "sourceRecords": [
+                  {
+                    "frame": 0,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 17,
+                      "right": 18,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 1,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      96,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 5,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 2,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      192,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 9,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 3,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      288,
+                      0,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 5,
+                      "right": 5,
+                      "top": 7,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 4,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      0,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 16,
+                      "right": 17,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 5,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      96,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 18,
+                      "right": 18,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 6,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      192,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 9,
+                      "right": 10,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  },
+                  {
+                    "frame": 7,
+                    "input": "original packed atlas cell",
+                    "originalBox": [
+                      288,
+                      96,
+                      96,
+                      96
+                    ],
+                    "marginsPx": {
+                      "left": 14,
+                      "right": 15,
+                      "top": 5,
+                      "bottom": 5
+                    }
+                  }
+                ]
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.15,
+                  0.95,
+                  0.65,
+                  1.9,
+                  0.7,
+                  1,
+                  1.2,
+                  1.1
+                ],
+                "forward": [
+                  8,
+                  10,
+                  12,
+                  13.1,
+                  14,
+                  14,
+                  12,
+                  9
+                ]
+              },
+              "separateBall": true,
+              "status": "accepted source; Nova-specific separate-ball track passed native 100%/120% contact review"
+            },
+            "reviewed": true
           }
         }
       },
@@ -23260,7 +32794,15 @@ export const animationAssetManifest = {
       "mirrorReview": {
         "status": "reviewed",
         "notes": "Game-only supporting identity: teal high ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
-      }
+      },
+      "reviewedAt": "2026-10-21",
+      "scope": "canonical body direction policy; individual production clips require separate visual approval",
+      "evidence": [
+        "public/assets/supporting-player-portrait-atlas.png",
+        "public/assets/supporting-player-gameplay-sprites.png"
+      ],
+      "canonicalSection": "J.04",
+      "sourceCell": 6
     },
     "juniper-vale": {
       "directions": {

@@ -11,43 +11,37 @@
         "x": 0,
         "y": 0,
         "w": 96,
-        "h": 96,
-        "hash": "e991a88d96fffe1181943241e1ee3ab4f0329f84fa2a2a2bc03628500c1ed82e"
+        "h": 96
       },
       {
         "x": 96,
         "y": 0,
         "w": 96,
-        "h": 96,
-        "hash": "f2bb263b7fbbe5496181fb7e6142afae7289780da07f7ccc1936c1e27ec3fb1a"
+        "h": 96
       },
       {
         "x": 192,
         "y": 0,
         "w": 96,
-        "h": 96,
-        "hash": "88421d21db8561581c32a0295570826d95a1710239574921f929f24cf53b69fd"
+        "h": 96
       },
       {
         "x": 0,
         "y": 96,
         "w": 96,
-        "h": 96,
-        "hash": "b57d7abf388535ef630df56478f87a029c1c6e63baf1f0ab164e046c3d982595"
+        "h": 96
       },
       {
         "x": 96,
         "y": 96,
         "w": 96,
-        "h": 96,
-        "hash": "410a8a08bfde498d58bee29c167e09f409d6f36636d1ce5fe4305c06bc3b34d0"
+        "h": 96
       },
       {
         "x": 192,
         "y": 96,
         "w": 96,
-        "h": 96,
-        "hash": "f6a26fb90120d82325881b654954f8c32df6b7da6e07394c52ca70ccb91a3895"
+        "h": 96
       }
     ],
     "provenance": {
@@ -132,7 +126,119 @@
       "packaging": "package-nova-pass-overhead6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses",
       "atlasPath": "public/assets/animation/nova-stitch-pass-overhead-right.webp",
       "atlasSha256": "b12b22f5e2df10fb6884226dd3c19137bb5fffbd5959b5877425338c8e692693",
-      "atlasBytes": 54734
-    }
+      "atlasBytes": 54734,
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-nova-stitch-package.py",
+        "previousAtlasSha256": "b12b22f5e2df10fb6884226dd3c19137bb5fffbd5959b5877425338c8e692693",
+        "atlasSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+        "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+        "minimumMarginsPx": {
+          "left": 7,
+          "right": 7,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 24,
+              "right": 24,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              96,
+              0,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 18,
+              "right": 18,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              192,
+              0,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 21,
+              "right": 21,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 13,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              96,
+              96,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 7,
+              "right": 7,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              192,
+              96,
+              96,
+              96
+            ],
+            "marginsPx": {
+              "left": 18,
+              "right": 18,
+              "top": 6,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09"
   }
 ]

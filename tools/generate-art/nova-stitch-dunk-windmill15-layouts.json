@@ -11,106 +11,91 @@
         "x": 0,
         "y": 0,
         "w": 128,
-        "h": 96,
-        "hash": "02685e2febc871c8dad68db0c54569f1a8b3c005dbf9d8e5e5cc940b30563eb7"
+        "h": 96
       },
       {
         "x": 128,
         "y": 0,
         "w": 128,
-        "h": 96,
-        "hash": "61b0f9baee9020745fd6cca6630a7958350e951fcbd033e17c83d2f2fc0c1469"
+        "h": 96
       },
       {
         "x": 256,
         "y": 0,
         "w": 128,
-        "h": 96,
-        "hash": "968c5d5242d50c0dcb31502b6055aadd8cf408fb24b81ced3955c49a4465abfd"
+        "h": 96
       },
       {
         "x": 384,
         "y": 0,
         "w": 128,
-        "h": 96,
-        "hash": "7ca01d223b9e0798c02c5a3d4c633afd84acfdf6ba8cbdc61ecd694aa62ee592"
+        "h": 96
       },
       {
         "x": 0,
         "y": 96,
         "w": 128,
-        "h": 96,
-        "hash": "c87045c100e8375bdfd5256ccc531e273021108c62e09b2096cd5919f98dc03c"
+        "h": 96
       },
       {
         "x": 128,
         "y": 96,
         "w": 128,
-        "h": 96,
-        "hash": "feffc448280e6de48851e5bbfa9dee85ff0bb212a8f8f9d93f544623916c73ff"
+        "h": 96
       },
       {
         "x": 256,
         "y": 96,
         "w": 128,
-        "h": 96,
-        "hash": "c44c2643b747527899dfd3d286a2047dc08e0095786d46815a49a4acbc64dcd7"
+        "h": 96
       },
       {
         "x": 384,
         "y": 96,
         "w": 128,
-        "h": 96,
-        "hash": "3ab5dea2f23130fbee2d1319084a1a5f394041f42b6f028fbe122a5ae0cececc"
+        "h": 96
       },
       {
         "x": 0,
         "y": 192,
         "w": 128,
-        "h": 96,
-        "hash": "300061e9e2759210eabfa14a003e22b806c7428a1c6385de855a88c02252aaef"
+        "h": 96
       },
       {
         "x": 128,
         "y": 192,
         "w": 128,
-        "h": 96,
-        "hash": "3a13da812c9422004926579044ab8ac12301256eec28744792fe9ba579e4319b"
+        "h": 96
       },
       {
         "x": 256,
         "y": 192,
         "w": 128,
-        "h": 96,
-        "hash": "8eb9c5eed1b28bcddb39740811fac95921af48f5e213d8445e30dff351fb0a5f"
+        "h": 96
       },
       {
         "x": 384,
         "y": 192,
         "w": 128,
-        "h": 96,
-        "hash": "da92aa8cdce1509c7fff970d6dc96c3d44e59c3d60c6b13887c5039ff3fbaaca"
+        "h": 96
       },
       {
         "x": 0,
         "y": 288,
         "w": 128,
-        "h": 96,
-        "hash": "b1ce69e4baff91eeb52b97c9f4447cd9314f85cd46933ebc715e7ca5723ae51e"
+        "h": 96
       },
       {
         "x": 128,
         "y": 288,
         "w": 128,
-        "h": 96,
-        "hash": "8201e35bd0d239b72766e1dce1e56fa95589427a82e992d07245029e5cff8184"
+        "h": 96
       },
       {
         "x": 256,
         "y": 288,
         "w": 128,
-        "h": 96,
-        "hash": "71a3231cb7402bfcde36105a4971f1a21d67091a5bc25bdf5a0e41aca5a461d0"
+        "h": 96
       }
     ],
     "provenance": {
@@ -258,7 +243,263 @@
       "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
       "atlasPath": "public/assets/animation/nova-stitch-dunk-windmill-right.webp",
       "atlasSha256": "beae664d52bb6c6d497826f25327d7a6c1f070a91140c8c0df1b5ad93b2d1c41",
-      "atlasBytes": 56410
-    }
+      "atlasBytes": 56410,
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-nova-stitch-package.py",
+        "previousAtlasSha256": "beae664d52bb6c6d497826f25327d7a6c1f070a91140c8c0df1b5ad93b2d1c41",
+        "atlasSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+        "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+        "minimumMarginsPx": {
+          "left": 28,
+          "right": 29,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 29,
+              "right": 29,
+              "top": 11,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              128,
+              0,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 38,
+              "right": 38,
+              "top": 25,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              256,
+              0,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 37,
+              "right": 38,
+              "top": 9,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              384,
+              0,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 31,
+              "right": 31,
+              "top": 12,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 33,
+              "right": 33,
+              "top": 10,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              128,
+              96,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 33,
+              "right": 34,
+              "top": 19,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              256,
+              96,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 37,
+              "right": 38,
+              "top": 19,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              384,
+              96,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 30,
+              "right": 30,
+              "top": 16,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 8,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              192,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 28,
+              "right": 29,
+              "top": 6,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 9,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              128,
+              192,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 34,
+              "right": 35,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 10,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              256,
+              192,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 32,
+              "right": 32,
+              "top": 8,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 11,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              384,
+              192,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 32,
+              "right": 32,
+              "top": 14,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 12,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              288,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 34,
+              "right": 35,
+              "top": 20,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 13,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              128,
+              288,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 35,
+              "right": 35,
+              "top": 16,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 14,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              256,
+              288,
+              128,
+              96
+            ],
+            "marginsPx": {
+              "left": 39,
+              "right": 40,
+              "top": 13,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386"
   }
 ]

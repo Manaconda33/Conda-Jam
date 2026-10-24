@@ -1,6 +1,6 @@
 # Animation asset status
 
-Issue #3 remains in progress. The strict report-only audit inspects **744 registered clips / 6,676 unique authored drawings** across **105 athletes**. It reports **2,359 missing clips**, one below-target clip (Luca Velori `run`), and four inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
+Issue #3 remains in progress. The strict report-only audit inspects **767 registered clips / 6,917 unique authored drawings** across **105 athletes**. It reports **2,336 missing clips**, one below-target clip (Luca Velori `run`), and four inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
 
 Dorian Mycel is complete at **29/29 clips /295 authored drawings**. His25 source-only atlases add255 poses and the two under-target locomotion loops gained five new generated frames. All29 dark/light atlas proofs pass separation, alpha, anatomy, identity and five-pixel cell-margin review. The original source sheets, exact prompts, hashes, layouts, cleanup and rejected multi-pose margin attempts are preserved under `tools/generate-art/`. The five accepted single-pose sources and their source track values are preserved in the locomotion extension provenance.
 
@@ -10,8 +10,12 @@ Accu is complete at **29/29 clips /293 authored drawings**. Its23 newly integrat
 
 Audit timestamp: `2026-10-24T19:16:54.716Z`, recorded in `docs/animation-production/ASSET_AUDIT.json`. Juniper Vale is already complete at29/29; the next canonical roster-order source package is Nova Stitch, whose 29-clip set is ready for review and integration.
 
+Nova Stitch is now complete at **29/29 clips /293 authored drawings**. Her23 newly integrated action atlases add241 poses; all cells have at least5px transparent clearance, and every source/packed proof passed identity, anatomy, pose separation, alpha and no-baked-ball review. Exact prompts, source PNGs, hashes, cleanup and rejected variants are preserved. Nova-specific runtime ball tracks cover23 ball-bearing actions and passed native Canvas contact review at100%/120%. The original locomotion and `shoot` PNGs referenced by baseline provenance are unavailable in this workspace; their prompts/IDs/hashes remain documented without replacement art. Preview, layouts, archived atlases and source availability notes live under `tools/generate-art/previews/nova-stitch-package-20261024/` and related Nova files.
+
+Audit timestamp: `2026-10-24T19:39:26.645Z`. The next roster-order source package is Echo Catwalk.
+
 Moxie Capwell is complete at **29/29 clips /293 authored drawings**. The 24 newly integrated clips add251 drawings to her existing five locomotion clips. All new atlases were visually reviewed on light and dark backgrounds; derived packed cells have at least5px clearance on every edge, and the original generated sheets, exact prompts, source hashes, rejected candidates and provenance remain preserved. Moxie's J.03 identity and human anatomy are consistent, with no ball painted into the athlete art. Her22 ball-bearing action tracks are athlete-specific and registered; original source track values and reviewed runtime calibrations are retained separately in the inventory/layout provenance.
 
 Native Canvas review at standard and120% zoom loaded197 images, captured87 production snapshots and522 action-frame previews per zoom, and selected production sprites throughout both facings. The review includes all ten aerial last-carried ticks and release-to-rim frames in both facings. Renderer reports and images are under `tools/generate-art/previews/moxie-capwell-package-20261024/`.
 
-Other complete source-only packages for Nova Stitch, Echo Catwalk, Marco, Krios, Sable, Leo and Flint remain outside registered totals until their roster-order turn. Preserve each athlete's canon, and use a separate athlete-specific track for every ball-bearing action.
+Other complete source-only packages for Echo Catwalk, Marco, Krios, Sable, Leo and Flint remain outside registered totals until their roster-order turn. Preserve each athlete's canon, and use a separate athlete-specific track for every ball-bearing action.

@@ -1,0 +1,195 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "celebrate",
+    "src": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "efb6b3917c10098a2b3b238f4407d4ad473220a69fe20dd8933df8e04d2f67dc"
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "ce89057b632c05f023964a012f98f25891fae1dba9147a45577e7c00a81ebdc2"
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "07140f75133300c7ffad41e73d46686cb20a3a5a93766019fbb82ce18b4d3833"
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "92fe7a5cccbd3ce7144b844363cdd36ffc86b11917c9a239e108b0b20b0163b0"
+      },
+      {
+        "x": 320,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "hash": "0b46082de154d6d9775249d5de2f7cde6a0f730f4d8817a0bd25acb68ed675fc"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "56d67601695b92bbf5689d343db2b8871f0dc9263e3bb113db17536faaa422b0"
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "5fd070ac85d7edda499eb90e674542c57f3b55c26455f02fbf9a74404c41ca18"
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "2de7977ca9c7adf3e9e393b57c0e3cc2352cc359e2f165dcdb6b3590530871c4"
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "239ebdd28682e63b111dd5b3864f7a23ac9fff9a67ef372910dc72d517561daa"
+      },
+      {
+        "x": 320,
+        "y": 96,
+        "w": 80,
+        "h": 96,
+        "hash": "b6ae82673465fd9ca3e0c4d20327ed79a530dc16c21cfb13516e2fca264d6ed2"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "celebrate",
+      "direction": "right",
+      "generationId": "exec-48e8ad3d-f6f6-422d-b10d-a3e5c7627188",
+      "generatedAt": "2026-10-24T01:19:29.614801+00:00",
+      "sourceSha256": "23186e1f507dea15568f64fafc1dee2dc948b25b4ea825ff573839012a32eeb8",
+      "prompt": "Using the supplied Nova Stitch gameplay sprite as the identity and style reference, create an original transparent RGBA 1536\u00d71024 sprite sheet with exactly ten distinct separate complete full-body Nova Stitch basketball celebration poses in a five-column by two-row grid, row-major. One connected figure centered in each cell, facing right or three-quarter right. Keep consistent camera, scale, anatomy and outfit. No scene, floor, shadow, background, props, text, basketball, teammate or opponent.\n\nNova is the same young athletic fair-tan human woman as the reference, with long curly teal hair in a high ponytail, distinct face, teal jersey and shorts with purple and black trim, black knee pads, teal-black basketball sneakers and wristbands. Preserve her identity, human proportions, facial features, hair, uniform colors and shoes in every pose. No other characters.\n\nTen sequential jubilant, athletic, non-contact celebration poses: 0 settle from the play, relaxed ready stance; 1 smile and bring one fist toward chest; 2 raise both bent arms with excitement; 3 punch one fist upward; 4 turn slightly and clap once at chest height; 5 lean back with joyful raised arms; 6 pump both fists overhead; 7 make a small celebratory hop with both feet visibly off ground; 8 land in a balanced upbeat stance with arms out; 9 return to a cheerful confident ready pose. Keep complete body, hair and footwear in each cell, limbs separated and anatomically correct, readable full-body silhouette. The sequence should visibly change; no copied poses.\n\nMatch the supplied small 2D arcade sprite: crisp limited-palette 1990s pixel art, chunky dark outlines, not painterly, photorealistic, 3D, glossy or anime. True transparent alpha-zero background, no checkerboard or matte, no floor shadow or glow. Return only the sprite sheet.",
+      "review": {
+        "status": "accepted",
+        "notes": "Visually reviewed ten distinct complete Nova poses with consistent identity, hair, palette and anatomy; no ball or other person."
+      },
+      "eligibleForPacking": true,
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-celebrate-generated-raw.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 10,
+          "y": 57,
+          "w": 263,
+          "h": 451,
+          "component": 2,
+          "area": 71383
+        },
+        {
+          "sourceIndex": 1,
+          "x": 345,
+          "y": 61,
+          "w": 267,
+          "h": 447,
+          "component": 4,
+          "area": 66884
+        },
+        {
+          "sourceIndex": 2,
+          "x": 632,
+          "y": 63,
+          "w": 273,
+          "h": 445,
+          "component": 5,
+          "area": 66669
+        },
+        {
+          "sourceIndex": 3,
+          "x": 927,
+          "y": 27,
+          "w": 302,
+          "h": 482,
+          "component": 1,
+          "area": 70906
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1272,
+          "y": 60,
+          "w": 252,
+          "h": 448,
+          "component": 3,
+          "area": 64805
+        },
+        {
+          "sourceIndex": 5,
+          "x": 38,
+          "y": 522,
+          "w": 280,
+          "h": 470,
+          "component": 7,
+          "area": 68250
+        },
+        {
+          "sourceIndex": 6,
+          "x": 337,
+          "y": 519,
+          "w": 289,
+          "h": 473,
+          "component": 6,
+          "area": 66638
+        },
+        {
+          "sourceIndex": 7,
+          "x": 615,
+          "y": 528,
+          "w": 272,
+          "h": 399,
+          "component": 8,
+          "area": 59183
+        },
+        {
+          "sourceIndex": 8,
+          "x": 904,
+          "y": 576,
+          "w": 365,
+          "h": 416,
+          "component": 10,
+          "area": 65944
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1277,
+          "y": 568,
+          "w": 249,
+          "h": 424,
+          "component": 9,
+          "area": 62974
+        }
+      ],
+      "uniformScale": 0.1908713692946058,
+      "componentIsolation": true,
+      "packaging": "package-nova-action10.py; 80x96 cells; baseline94; lossless WebP; 10 original celebrate poses",
+      "atlasPath": "public/assets/animation/nova-stitch-celebrate-right.webp",
+      "atlasSha256": "6d63cbe2e105a99cd7d2c1dc79b430d7b9849972cef5c538b39409c898fef945",
+      "atlasBytes": 86106
+    }
+  }
+]

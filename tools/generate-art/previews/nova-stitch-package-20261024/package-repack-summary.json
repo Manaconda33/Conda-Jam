@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-24",
+  "athlete": "nova-stitch",
+  "clipsRepacked": 23,
+  "authoredFrames": 241,
+  "clips": [
+    {
+      "clip": "alley-oop-power",
+      "frames": 15,
+      "atlas": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+      "previousAtlasSha256": "5f8104533085872f04a517e9fa67ff8a7b3f3cbcf2a4bfdee57024857608c940",
+      "atlasSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+      "minimumMarginsPx": {
+        "left": 32,
+        "right": 33,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "frames": 15,
+      "atlas": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+      "previousAtlasSha256": "9df12399f18c813cd04236739508da74ba50f6e77ea6c805324789a77982ccc0",
+      "atlasSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+      "minimumMarginsPx": {
+        "left": 26,
+        "right": 27,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "block",
+      "frames": 4,
+      "atlas": "./public/assets/animation/nova-stitch-block-right.webp",
+      "previousAtlasSha256": "ba7fd47bae219a9fc657d53f423b944abc3b359551d427333557c6338718f6fd",
+      "atlasSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 7,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "celebrate",
+      "frames": 10,
+      "atlas": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+      "previousAtlasSha256": "6d63cbe2e105a99cd7d2c1dc79b430d7b9849972cef5c538b39409c898fef945",
+      "atlasSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-360",
+      "frames": 15,
+      "atlas": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+      "previousAtlasSha256": "20a2862e57e34e2741a5084f74a144dfb3396987d6d2ccc1a19e23c866bb39a3",
+      "atlasSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+      "minimumMarginsPx": {
+        "left": 27,
+        "right": 28,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-clutch",
+      "frames": 15,
+      "atlas": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+      "previousAtlasSha256": "76b4b4e836ce87d7a62ee104c909eb9a4ea55d5cad7542334743e76195179eed",
+      "atlasSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+      "minimumMarginsPx": {
+        "left": 29,
+        "right": 29,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-double",
+      "frames": 15,
+      "atlas": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+      "previousAtlasSha256": "fd6ec2a5b1a2495de2aa29ea5cad4dbf7dac61fc8db8dab9c3b84719878dc94d",
+      "atlasSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+      "minimumMarginsPx": {
+        "left": 29,
+        "right": 30,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-power",
+      "frames": 15,
+      "atlas": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+      "previousAtlasSha256": "bc0995c612208e74e58f03360a7733fb829f7601249b26e845f7844704a15f39",
+      "atlasSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+      "minimumMarginsPx": {
+        "left": 29,
+        "right": 29,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-reverse",
+      "frames": 15,
+      "atlas": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+      "previousAtlasSha256": "4a600240679f6280b70903b7cd1a7bdb56aa95875254876967727cea6dfa870b",
+      "atlasSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+      "minimumMarginsPx": {
+        "left": 27,
+        "right": 28,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-scythe",
+      "frames": 15,
+      "atlas": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+      "previousAtlasSha256": "9c0f83d81ffa36b66cffee337e585be08c24c543e10a7217302e895b3e2f1e61",
+      "atlasSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+      "minimumMarginsPx": {
+        "left": 27,
+        "right": 27,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-tomahawk",
+      "frames": 15,
+      "atlas": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+      "previousAtlasSha256": "0a5fdc495691b9796b2b6a7838dcb8b72a53f303a95948566ec902ef413656ef",
+      "atlasSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+      "minimumMarginsPx": {
+        "left": 24,
+        "right": 25,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "dunk-windmill",
+      "frames": 15,
+      "atlas": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+      "previousAtlasSha256": "beae664d52bb6c6d497826f25327d7a6c1f070a91140c8c0df1b5ad93b2d1c41",
+      "atlasSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+      "minimumMarginsPx": {
+        "left": 28,
+        "right": 29,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "fall",
+      "frames": 10,
+      "atlas": "./public/assets/animation/nova-stitch-fall-right.webp",
+      "previousAtlasSha256": "ed32b65d11989c309867d17e4c4952c42b7886f94ac0f3cb63645cb86f236bd5",
+      "atlasSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+      "minimumMarginsPx": {
+        "left": 10,
+        "right": 10,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "layup-reverse",
+      "frames": 8,
+      "atlas": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+      "previousAtlasSha256": "96dea0e98181242ceaf7f00c24800e16564fcae1bffe8b61c48383f889b3612b",
+      "atlasSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+      "minimumMarginsPx": {
+        "left": 6,
+        "right": 7,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "layup",
+      "frames": 8,
+      "atlas": "./public/assets/animation/nova-stitch-layup-right.webp",
+      "previousAtlasSha256": "9e00e0b0dc141e0506354de19229d1a86cdbdcd5821708073052b57d753fd18a",
+      "atlasSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 8,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pass-behind",
+      "frames": 6,
+      "atlas": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+      "previousAtlasSha256": "20372e35e34d71f98dcb8ea408944acb28ad7e73cabb1ed4bc8a6d6ac9e1ec5c",
+      "atlasSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+      "minimumMarginsPx": {
+        "left": 9,
+        "right": 10,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pass-overhead",
+      "frames": 6,
+      "atlas": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+      "previousAtlasSha256": "b12b22f5e2df10fb6884226dd3c19137bb5fffbd5959b5877425338c8e692693",
+      "atlasSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 7,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pass",
+      "frames": 6,
+      "atlas": "./public/assets/animation/nova-stitch-pass-right.webp",
+      "previousAtlasSha256": "2efdb270b094976ea809fef9e6419a713511666eff787275f7d1d94349a8d78b",
+      "atlasSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "pickup",
+      "frames": 5,
+      "atlas": "./public/assets/animation/nova-stitch-pickup-right.webp",
+      "previousAtlasSha256": "50921a3715919ef43cbc28e92a93c31cc16ad3fcd2cd9f1808339aeb43d92a2a",
+      "atlasSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "push",
+      "frames": 11,
+      "atlas": "./public/assets/animation/nova-stitch-push-right.webp",
+      "previousAtlasSha256": "69bd756f1dfed9b37c0cd5af3f83361052ebd9a2a0a222cbfe2eac2cab64d9c5",
+      "atlasSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+      "minimumMarginsPx": {
+        "left": 9,
+        "right": 9,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "rebound",
+      "frames": 5,
+      "atlas": "./public/assets/animation/nova-stitch-rebound-right.webp",
+      "previousAtlasSha256": "db76cb230b45167c1f1196060b98f153367c951ac0d2af16d340ee3b77caf542",
+      "atlasSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "receive",
+      "frames": 4,
+      "atlas": "./public/assets/animation/nova-stitch-receive-right.webp",
+      "previousAtlasSha256": "fd8eaff491d2c226d8054a42ac1d1d272ce9c4771b124e810c19de275509b998",
+      "atlasSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+      "minimumMarginsPx": {
+        "left": 9,
+        "right": 9,
+        "top": 5,
+        "bottom": 5
+      }
+    },
+    {
+      "clip": "steal",
+      "frames": 8,
+      "atlas": "./public/assets/animation/nova-stitch-steal-right.webp",
+      "previousAtlasSha256": "5bd9214bfe251692a7504e3ef7054868a46057db9e4c79bc946fa5cd312ad362",
+      "atlasSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      }
+    }
+  ]
+}

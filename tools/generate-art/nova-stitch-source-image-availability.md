@@ -1,0 +1,5 @@
+# Nova Stitch source image availability — 2026-10-24
+
+The original ImageGen PNGs referenced by the baseline locomotion and `shoot` provenance records could not be recovered in this workspace. The recorded outputs were `/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png` (SHA-256 `3896652e…aa92132`) and `/workspace/generated_images/exec-bb516e42-e4e3-4430-9050-25472bf1ad6f.png` (SHA-256 `93906a3e…2360896`). Neither exists under `/workspace` or in the preserved source folder. Exact prompts, generation IDs and hashes remain in the source provenance/layout JSON files.
+
+No replacement poses were generated. The six existing registered baseline atlases remain the reviewed outputs. All23 new action raw sheets and their cleanup/rejected candidates are preserved under `tools/generate-art/sources/`; the original pre-integration atlases are archived under the same folder, and their layout files are archived under `tools/generate-art/layout-archives/nova-stitch-integration-20261024/`. The missing originals remain a provenance gap.

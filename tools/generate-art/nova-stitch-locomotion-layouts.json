@@ -45,7 +45,7 @@
       }
     ],
     "provenance": {
-      "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+      "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
       "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
       "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
       "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -133,7 +133,7 @@
       }
     ],
     "provenance": {
-      "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+      "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
       "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
       "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
       "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -170,7 +170,29 @@
         }
       ],
       "uniformScale": 0.39316239316239315,
-      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "runtimeBallTrack": {
+        "height": [
+          1.1,
+          1.1,
+          1.1,
+          1.1
+        ],
+        "forward": [
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "separateBall": true,
+      "review": {
+        "status": "accepted",
+        "integrationReview": {
+          "status": "accepted",
+          "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+        }
+      }
     }
   },
   {
@@ -243,7 +265,7 @@
       }
     ],
     "provenance": {
-      "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+      "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
       "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
       "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
       "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -322,7 +344,41 @@
         }
       ],
       "uniformScale": 0.39316239316239315,
-      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "runtimeBallTrack": {
+        "height": [
+          1.2,
+          1.05,
+          0.8,
+          0.5,
+          0.2,
+          0,
+          0.25,
+          0.6,
+          0.95,
+          1.2
+        ],
+        "forward": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          11,
+          10,
+          9,
+          8,
+          7
+        ]
+      },
+      "separateBall": true,
+      "review": {
+        "status": "accepted",
+        "integrationReview": {
+          "status": "accepted",
+          "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+        }
+      }
     }
   },
   {
@@ -401,7 +457,7 @@
       }
     ],
     "provenance": {
-      "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+      "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
       "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
       "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
       "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -566,7 +622,7 @@
       }
     ],
     "provenance": {
-      "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+      "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
       "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
       "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
       "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -652,7 +708,43 @@
         }
       ],
       "uniformScale": 0.39316239316239315,
-      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "runtimeBallTrack": {
+        "height": [
+          1.2,
+          1.1,
+          0.85,
+          0.55,
+          0.25,
+          0,
+          0.25,
+          0.55,
+          0.85,
+          1.1,
+          1.2
+        ],
+        "forward": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          13,
+          12,
+          11,
+          10,
+          9,
+          9
+        ]
+      },
+      "separateBall": true,
+      "review": {
+        "status": "accepted",
+        "integrationReview": {
+          "status": "accepted",
+          "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+        }
+      }
     }
   }
 ]

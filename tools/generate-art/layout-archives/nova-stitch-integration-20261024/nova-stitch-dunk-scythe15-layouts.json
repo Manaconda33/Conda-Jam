@@ -1,0 +1,264 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "dunk-scythe",
+    "src": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "66ae3d50a41e5fae6806ad66b47ae9c0d212927d9f7a0ab6d25b70205ac3b896"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "d898c6cd666c6888b34925006ab4bf76d721a0da431fbfb08b2770c2649cc66b"
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "d1cca8cd8910053ce49b25abe06e40b5a3be70ccb0e836e8e29b21e39565db95"
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "39ff45908719327594b53b010b3f72d5fc9db4a15346b78581402559fd1d536f"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "ab89a061773a6c3274e597a2ca3acdc1186a272fa8eda88d247ecc6e12f9a90b"
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "1f1ea9bbeacc3f5348643ee90831db404e169d2a6cdbb80b09b0b1dfa217c23b"
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "444192398bec9cc6f9ef41554b305cd65c9e7e5cf608920acf529bcc447d72f2"
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "33240de86d89295001a8750204ac38ea7cf6bf80bf691c0d5a3c7233824a710a"
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "d7cea9e59d5a807a5756e03ec7f50341867bf74846e6db411959a77829d22c11"
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "58558bd7ee666bdea0b17baa987487f0f871ba75211d987c9dcb557232c72e63"
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "73d513c902f27c793d1e9731ed5f81126e02ee44b1e2f145168b0215d1a17778"
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "a8986960a7271b4306f34d7e3d86938b107d1ef9aa818c999b5215e671aca2d8"
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "f0f6a8c518427210c14355bab7c580636a634090cf85220dee7b98959a658e2c"
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "1470be8bd8b8017f2d8d53c3b9972e38b649e787ac6fbcb05f09b09506210cca"
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "b7997e0dcb33181e5b755eb756a8ae25b900ff6a96e60e0dc41ec5d06bb1d434"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "dunk-scythe",
+      "direction": "right",
+      "generationId": "exec-5d244e76-dc84-4d18-8ff6-3084af3f0706",
+      "imageGenerationId": "exec-5d244e76-dc84-4d18-8ff6-3084af3f0706",
+      "generatedAt": "2026-10-24T01:32:23.964482+00:00",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-scythe-generated-raw.png",
+      "rawSourceSha256": "117b99268ca7d0f3aa7a4da643cbdfa4ee5014cb45f0158347c223433e5a448f",
+      "prompt": "Draw an original transparent RGBA 1536\u00d71024 sprite sheet in crisp 1990s side-view pixel art. EXACTLY 15 separate full-body drawings, 5 columns x 3 rows, row-major. Use supplied Nova Stitch sprite ONLY to match identity: fair-tan young human woman, teal curly ponytail, teal/purple/black basketball uniform, knee pads, teal-black shoes. A distinctive SCYTHE DUNK: prioritize a large unmistakable low-to-high arm arc over ordinary jump action. No ball, no props or rim, no other people; the external basketball is absent and both hands remain empty. Frames 0-2 Nova runs then crouches with the right arm stretched far backward and down, palm beside her rear knee. Frame3 takeoff begins while the arm stays low behind. Frame4 torso twists, arm reaches even farther diagonally down/back. Frame5-6 the empty hand sweeps low behind and under her waist, elbow and shoulder visibly rotate. Frame7-8 the same arm crosses diagonally upward in front of her abdomen and chest, tracing a clear bottom-left to top-right scythe curve. Frame9 arm passes above shoulder. Frame10 arm fully reaches overhead/forward for release. Frames11-12 descend with a high follow-through; frames13-14 land and settle. These arm poses must visibly differ from a straight-overhead dunk: low back reach, sweep under/behind hip, then upward diagonal slice. Nova stays complete in each cell with same human anatomy and outfit, no copies, no extra limbs. Camera consistent, right-facing side/three-quarter; full ponytail and footwear inside every cell. Transparent alpha-zero background only, no checkerboard, matte, floor or shadows. Return only the sprite sheet.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Accepted: low crouched/backward reach and later raised arm form a readable low-to-high diagonal sweep; 15 complete poses, stable Nova identity and no ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-scythe-generated-raw.png",
+      "sourceSha256": "117b99268ca7d0f3aa7a4da643cbdfa4ee5014cb45f0158347c223433e5a448f",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 26,
+          "y": 14,
+          "w": 260,
+          "h": 325,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 336,
+          "y": 28,
+          "w": 264,
+          "h": 311,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 647,
+          "y": 92,
+          "w": 244,
+          "h": 250,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 954,
+          "y": 11,
+          "w": 246,
+          "h": 341,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1276,
+          "y": 12,
+          "w": 253,
+          "h": 340,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 36,
+          "y": 360,
+          "w": 276,
+          "h": 304,
+          "component": 8
+        },
+        {
+          "sourceIndex": 6,
+          "x": 347,
+          "y": 360,
+          "w": 259,
+          "h": 296,
+          "component": 9
+        },
+        {
+          "sourceIndex": 7,
+          "x": 629,
+          "y": 362,
+          "w": 278,
+          "h": 307,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 944,
+          "y": 342,
+          "w": 290,
+          "h": 346,
+          "component": 7
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1227,
+          "y": 333,
+          "w": 288,
+          "h": 340,
+          "component": 6
+        },
+        {
+          "sourceIndex": 10,
+          "x": 20,
+          "y": 660,
+          "w": 287,
+          "h": 338,
+          "component": 13
+        },
+        {
+          "sourceIndex": 11,
+          "x": 340,
+          "y": 673,
+          "w": 260,
+          "h": 338,
+          "component": 14
+        },
+        {
+          "sourceIndex": 12,
+          "x": 654,
+          "y": 730,
+          "w": 223,
+          "h": 280,
+          "component": 17
+        },
+        {
+          "sourceIndex": 13,
+          "x": 976,
+          "y": 698,
+          "w": 215,
+          "h": 313,
+          "component": 16
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1263,
+          "y": 696,
+          "w": 204,
+          "h": 315,
+          "component": 15
+        }
+      ],
+      "uniformScale": 0.2658959537572254,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "atlasPath": "public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+      "atlasSha256": "9c0f83d81ffa36b66cffee337e585be08c24c543e10a7217302e895b3e2f1e61",
+      "atlasBytes": 72002
+    }
+  }
+]

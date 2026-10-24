@@ -11,36 +11,31 @@
         "x": 0,
         "y": 0,
         "w": 64,
-        "h": 96,
-        "hash": "8d176c994ec3ceb79769b854eb7f0a4aa1e5a46c4895834568522797de4daed3"
+        "h": 96
       },
       {
         "x": 64,
         "y": 0,
         "w": 64,
-        "h": 96,
-        "hash": "48569d375c6c5f7fee31a47bf8d09e295493126b10c98284b3650f2710e3c008"
+        "h": 96
       },
       {
         "x": 128,
         "y": 0,
         "w": 64,
-        "h": 96,
-        "hash": "1aea91d0582b4ba7a96a48b9c7a6b88972ca30b5c20e9aef8eb8be4f958c524a"
+        "h": 96
       },
       {
         "x": 0,
         "y": 96,
         "w": 64,
-        "h": 96,
-        "hash": "f162440fe2bd62c827f723f0cac64112dc9da29393e7f4c761c1eba75e315775"
+        "h": 96
       },
       {
         "x": 64,
         "y": 96,
         "w": 64,
-        "h": 96,
-        "hash": "6d1eb8c70268a6989e773a820fb0821546c8787e7f3b73f651afe9c54b84fd3e"
+        "h": 96
       }
     ],
     "provenance": {
@@ -116,7 +111,103 @@
       "packaging": "package-nova-action5.py; 64x96 cells; baseline94; lossless WebP; 5 original rebound poses",
       "atlasPath": "public/assets/animation/nova-stitch-rebound-right.webp",
       "atlasSha256": "db76cb230b45167c1f1196060b98f153367c951ac0d2af16d340ee3b77caf542",
-      "atlasBytes": 38862
-    }
+      "atlasBytes": 38862,
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-nova-stitch-package.py",
+        "previousAtlasSha256": "db76cb230b45167c1f1196060b98f153367c951ac0d2af16d340ee3b77caf542",
+        "atlasSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+        "fit": "uniform scale, never upscale, keep baseline at 5px bottom clearance and 5px minimum on all edges",
+        "minimumMarginsPx": {
+          "left": 5,
+          "right": 5,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              0,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 7,
+              "right": 8,
+              "top": 18,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              64,
+              0,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 7,
+              "right": 7,
+              "top": 25,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              128,
+              0,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              0,
+              96,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 7,
+              "right": 7,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "original packed atlas cell",
+            "originalBox": [
+              64,
+              96,
+              64,
+              96
+            ],
+            "marginsPx": {
+              "left": 6,
+              "right": 6,
+              "top": 20,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea"
   }
 ]

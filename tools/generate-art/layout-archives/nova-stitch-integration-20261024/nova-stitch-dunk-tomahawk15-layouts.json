@@ -1,0 +1,264 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "dunk-tomahawk",
+    "src": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "53023f9c5dbf1e9ad88f93511bc45a3d776044b84e22b1cf09fcc1a38c88393b"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "6f88e65f50298db19547fffca4ac6235ab97f51279048ee891ac77237860a49a"
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "04e7f8cdcbd2d6d5a62a194526fc44376231d8e0562c6bf9d8e80c43df88321a"
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96,
+        "hash": "5259054b48a8d896225e8da84ae1d6526ee529786efb063b98e4046ef8857966"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "7ff98631c32f5637154721c66392272b8f5df87936108109602652f761ae977a"
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "cccd3063be5eff55b585a5b2db0ee645dec0cd716c0db7bd2f5a17fe68501900"
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "540e587b09d57becb7428b3cdc24a85b00b5769ff909cdb7e4352f6f086b9a78"
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96,
+        "hash": "b4e5c859d37b445d89a1639c88d6588ccdfbb5d260467749352a7c69d38795ef"
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "c78c82ac020e16bbe81c48596d8f3d3e1e7f0941a43542bdbaa45850d081ab70"
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "5b626e205519d2ba0ef4517750d278f2af96a2f9579cc61b936b12607b183a54"
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "4ac7cf06d8413a640e03e2944163e05cd477aa5f89d369ff0173cdc8c00f5938"
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96,
+        "hash": "44824f45c1096e25ff0ad6e8b1526b96a8c40f1c80ea5c42af8bb9a81ce33132"
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "db1701caecf54fb6eaefb64e006ade25553442de0ea7de153e921f31a94e215f"
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "ec17ef50817e7e5663c3905a5bc69c9c6367ad3971ad188d3e30e308db5dfe85"
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96,
+        "hash": "4d52d5b48527c966b653a2bbfb3322586f58b05f0d7341ce7659bbb3eb246e33"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "dunk-tomahawk",
+      "direction": "right",
+      "generationId": "exec-67e45791-3d9f-4554-a32e-4c58e6188802",
+      "imageGenerationId": "exec-67e45791-3d9f-4554-a32e-4c58e6188802",
+      "generatedAt": "2026-10-24T01:27:39.637661+00:00",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-dunk-tomahawk-generated-raw.png",
+      "rawSourceSha256": "c35109c7e8a1ec1b6b15e96f1820f77ad2f8a291cbf3253f3c2efb64fb37910a",
+      "prompt": "Use the supplied Nova Stitch reference. Create only one transparent RGBA 1536\u00d71024 sprite sheet for an unmistakable tomahawk dunk, fifteen full-body drawings in 5\u00d73 row-major cells. Each figure is Nova Stitch: fair-tan athletic human woman, long teal curly ponytail, teal jersey/shorts with purple-black trim, black knee pads, teal-black sneakers, same face and anatomy. No basketball at all (runtime adds it), no rim, other people, floor, shadows, text, checkerboard. Her right arm performs the specific tomahawk path: on approach her right hand is empty at waist; as she jumps, she sharply folds the right elbow and cocks the empty hand behind the back of her head; in the next airborne poses the hand is visibly behind the crown, elbow pointed up and back; then she snaps that same arm in one strong downward arc past the front of her head and shoulder, finishing extended downward at release frame 10. Do not use a straight overhead power-dunk reach; the distinctive behind-head cock and downward chop must dominate frames 5 through 11. Her left arm counterbalances. 15 sequence: 0 approach; 1 low gather; 2 plant; 3 takeoff; 4 rising, arm bent; 5 hand behind head; 6 highest cocked tomahawk; 7 begin chop; 8 arm cutting forward/down; 9 near extension; 10 full downward release; 11 downward follow-through; 12 descent; 13 landing; 14 recovery. Keep complete bodies inside cells and poses unique. Crisp limited-palette 1990s arcade pixel art, dark chunky outline, no glossy 3D/painterly style, no text. Return only transparent sprite sheet.",
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Accepted after review: the arm is visibly folded near the crown and follows a distinct chopping/forward-downward path; 15 complete Nova poses, no ball."
+      },
+      "eligibleForPacking": true,
+      "separateBall": true,
+      "sourceImage": "tools/generate-art/sources/nova-stitch-dunk-tomahawk-generated-raw.png",
+      "sourceSha256": "c35109c7e8a1ec1b6b15e96f1820f77ad2f8a291cbf3253f3c2efb64fb37910a",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 24,
+          "y": 27,
+          "w": 256,
+          "h": 322,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 318,
+          "y": 61,
+          "w": 231,
+          "h": 288,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 650,
+          "y": 49,
+          "w": 261,
+          "h": 299,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 943,
+          "y": 14,
+          "w": 294,
+          "h": 342,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1251,
+          "y": 17,
+          "w": 270,
+          "h": 327,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 28,
+          "y": 342,
+          "w": 294,
+          "h": 325,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 337,
+          "y": 353,
+          "w": 293,
+          "h": 305,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 641,
+          "y": 365,
+          "w": 277,
+          "h": 290,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 949,
+          "y": 368,
+          "w": 238,
+          "h": 286,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1242,
+          "y": 365,
+          "w": 219,
+          "h": 301,
+          "component": 9
+        },
+        {
+          "sourceIndex": 10,
+          "x": 23,
+          "y": 680,
+          "w": 242,
+          "h": 307,
+          "component": 12
+        },
+        {
+          "sourceIndex": 11,
+          "x": 358,
+          "y": 686,
+          "w": 237,
+          "h": 317,
+          "component": 13
+        },
+        {
+          "sourceIndex": 12,
+          "x": 642,
+          "y": 695,
+          "w": 232,
+          "h": 308,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 948,
+          "y": 738,
+          "w": 246,
+          "h": 266,
+          "component": 15
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1279,
+          "y": 669,
+          "w": 218,
+          "h": 334,
+          "component": 11
+        }
+      ],
+      "uniformScale": 0.26900584795321636,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "atlasPath": "public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+      "atlasSha256": "0a5fdc495691b9796b2b6a7838dcb8b72a53f303a95948566ec902ef413656ef",
+      "atlasBytes": 67012
+    }
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "athlete": "nova-stitch",
+    "direction": "right",
+    "clip": "rebound",
+    "src": "./public/assets/animation/nova-stitch-rebound-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96,
+        "hash": "8d176c994ec3ceb79769b854eb7f0a4aa1e5a46c4895834568522797de4daed3"
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96,
+        "hash": "48569d375c6c5f7fee31a47bf8d09e295493126b10c98284b3650f2710e3c008"
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96,
+        "hash": "1aea91d0582b4ba7a96a48b9c7a6b88972ca30b5c20e9aef8eb8be4f958c524a"
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96,
+        "hash": "f162440fe2bd62c827f723f0cac64112dc9da29393e7f4c761c1eba75e315775"
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96,
+        "hash": "6d1eb8c70268a6989e773a820fb0821546c8787e7f3b73f651afe9c54b84fd3e"
+      }
+    ],
+    "provenance": {
+      "athlete": "nova-stitch",
+      "clip": "rebound",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-665a3d86-964a-4944-aa55-137f2b21d5bb",
+      "rawSourceImage": "tools/generate-art/sources/nova-stitch-rebound-generated-raw.png",
+      "rawSourceSha256": "419048771eb057800a95507b2d730123454d40edda3b78e808a123d9df3363c6",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nova-stitch-rebound-generated-raw.png",
+      "sourceSha256": "419048771eb057800a95507b2d730123454d40edda3b78e808a123d9df3363c6",
+      "eligibleForPacking": true,
+      "prompt": "Use the supplied Nova Stitch gameplay sprite as the identity/style reference. Create an original 1536\u00d71024 transparent RGBA sprite sheet with exactly five separate full-body Nova Stitch rebound poses in a three-column by two-row grid, row-major; leave the sixth cell transparent. Same player, right-facing, scale, camera, pixel palette and anatomy throughout. Each body inside its own cell with clear alpha margins. No court, floor, ball, hoop, shadow, glow, text, prop, teammate or opponent.\n\nNova is a young athletic fair-tan woman with long curly teal hair in a high ponytail, individual human face, teal jersey/shorts with purple/black trim, black knee pads, teal-black shoes and wristbands. Preserve her face, ponytail, anatomy and uniform. No ball is drawn; the separate game basketball is omitted from art.\n\nAction: Nova jumps for a defensive rebound and catches the invisible ball at the apex with both hands, then brings it down and lands. Five distinct connected poses:\n0 ready stance, eyes tracking upward;\n1 bend knees and load for a jump;\n2 rise straight up, arms reach overhead;\n3 GRAB at simulation tick5: both hands close around the ball\u2019s separate position above her forehead at the peak;\n4 descend with elbows drawing in and land in balance, hands empty.\nThe ball remains separate and absent from all five pose drawings. Keep her complete body and ponytail within cell boundaries; use coherent athletic footwork.\n\nMatch the supplied tiny 2D gameplay sprite: crisp limited-palette 1990s arcade pixel art with chunky dark outlines, not painterly, photoreal, 3D, glossy or anime. True alpha-zero sheet background and clear gutters, no matte or checkerboard. Return only the sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "review": {
+        "status": "accepted",
+        "reviewNotes": "Five distinct complete Nova Stitch rebound poses preserve her human teal-haired identity and teal/purple kit. Pose3 grasps at tick5 overhead; pose4 brings the separate rebound down while landing."
+      },
+      "ballPolicy": "Separate Nova-specific ball meets both hands at frame3/tick5 and remains carried; sprite atlas contains no ball.",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 146,
+          "y": 99,
+          "w": 267,
+          "h": 397,
+          "component": 2,
+          "area": 61150
+        },
+        {
+          "sourceIndex": 1,
+          "x": 624,
+          "y": 141,
+          "w": 273,
+          "h": 355,
+          "component": 3,
+          "area": 58804
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1122,
+          "y": 10,
+          "w": 314,
+          "h": 498,
+          "component": 1,
+          "area": 67093
+        },
+        {
+          "sourceIndex": 3,
+          "x": 122,
+          "y": 522,
+          "w": 272,
+          "h": 466,
+          "component": 4,
+          "area": 67374
+        },
+        {
+          "sourceIndex": 4,
+          "x": 642,
+          "y": 609,
+          "w": 280,
+          "h": 386,
+          "component": 5,
+          "area": 62066
+        }
+      ],
+      "uniformScale": 0.18473895582329317,
+      "componentIsolation": true,
+      "packaging": "package-nova-action5.py; 64x96 cells; baseline94; lossless WebP; 5 original rebound poses",
+      "atlasPath": "public/assets/animation/nova-stitch-rebound-right.webp",
+      "atlasSha256": "db76cb230b45167c1f1196060b98f153367c951ac0d2af16d340ee3b77caf542",
+      "atlasBytes": 38862
+    }
+  }
+]

@@ -1,5 +1,13 @@
 # QA report
 
+## Nova Stitch — complete 29-clip source integration
+
+- Registered23 action atlases /241 authored drawings; Nova is now29/29 clips /293 drawings. All23 generated source sheets pass the identity, complete human anatomy, separated-pose, transparency and no-baked-ball checks. Repacked cells have at least5px clearance on every edge; exact prompts, hashes, rejected candidates, cleanup, layouts, original atlases and light/dark proofs are retained.
+- Added Nova-specific separate-ball tracks for23 ball-bearing actions. Native Canvas review at100%/120% loaded199 images and captured87 production snapshots /572 action frames per zoom. All captures select production atlases in both facings. Review included the catch and release ticks, dribble bounce, all final carried aerial poses and four corrected hand contacts.
+- Two original baseline PNGs for locomotion and `shoot` could not be recovered; prompts, IDs and hashes remain recorded in `tools/generate-art/nova-stitch-source-image-availability.md`. No replacement poses were generated.
+- Validation: focused Nova/animation tests PASS (3 focused Nova checks); `npm test` PASS (29 test files); lint PASS (18 modules); content validation PASS (35 franchises /105 athletes); simulation PASS (100 matches /861,238 ticks /6 overtimes); atlas packer tests PASS; build PASS; Chromium E2E PASS, including offline standalone launch, full match and season progression.
+- Strict report-only audit refreshed at `2026-10-24T19:39:26.645Z`: **767 clips /6,917 authored drawings /105 athletes**, 2,336 missing clips, one target shortfall and4 inherited prompt findings. Next roster-order package is Echo Catwalk.
+
 ## Accu — complete 29-clip source integration
 
 - Registered23 action atlases /241 authored drawings; Accu is now29/29 clips /293 drawings. All generated action sheets and packed atlases passed visual review for canonical green eyes, twin black ponytails with teal accents, adult human anatomy, pose separation, transparent background, no baked ball, and minimum5px margins on every packed cell edge. Rejected candidates, prompts, hashes, cleanup notes, layout records, source sheets, and dark/light proofs remain under `tools/generate-art/`.

@@ -159,7 +159,41 @@
       ],
       "uniformScale": 0.23115577889447236,
       "componentIsolation": false,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "runtimeBallTrack": {
+        "height": [
+          0.95,
+          1.05,
+          1.25,
+          1.5,
+          2.31,
+          2.31,
+          2.05,
+          1.8,
+          1.35,
+          1.1
+        ],
+        "forward": [
+          6,
+          7,
+          8,
+          9,
+          10.7,
+          10.7,
+          10,
+          8,
+          6,
+          5
+        ]
+      },
+      "separateBall": true,
+      "review": {
+        "status": "accepted",
+        "integrationReview": {
+          "status": "accepted",
+          "notes": "Nova Stitch source and repacked atlas reviewed for identity, full human anatomy, pose separation, alpha, and five-pixel edge clearance. Native Canvas captures at 100% and 120% select production art across all poses in both facings; the separate Nova-specific ball tracks were visually calibrated against hand contacts, including catch, release, and final carried ticks."
+        }
+      }
     }
   }
 ]
