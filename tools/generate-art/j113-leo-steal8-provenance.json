@@ -1,0 +1,55 @@
+{
+  "athlete": "leo",
+  "clip": "steal",
+  "direction": "right",
+  "canonicalSection": "K.05",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-10be67e6-cd16-4ffe-aedb-e1ed4c7982b5",
+  "imageGenerationId": "exec-10be67e6-cd16-4ffe-aedb-e1ed4c7982b5",
+  "rawSourceImage": "tools/generate-art/sources/j113-leo-steal-generated-raw.png",
+  "sourceImage": "tools/generate-art/sources/j113-leo-steal-generated-raw.png",
+  "rawSourceSha256": "f413b3ce505fc09741f27b2515c2395f001eb2b745744786f76ba79cce3dc391",
+  "sourceSha256": "f413b3ce505fc09741f27b2515c2395f001eb2b745744786f76ba79cce3dc391",
+  "promptFile": "tools/generate-art/j113-leo-steal8-prompt.md",
+  "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as identity and pixel-art style reference. Draw exactly eight distinct complete full-body Leo poses in a strict four-column by two-row grid, row-major. Broad transparent gutters and outer margins, all long hair, fingers and shoes inside their cells. Consistent camera and scale; crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve pale skin, long wavy black hair, refined mustache, composed handsome face, natural adult human anatomy and patient controlled poise. He wears his tailored black basketball uniform with restrained crimson accents, matching shorts and shoes, and refined trim. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThis is a right-facing defensive steal of a ball from an opponent just off-screen on image-right. The basketball is separate runtime game art. Leo’s hands are empty in every drawing, including contact and recovery. Do not draw any basketball, sphere, orb, seams, equipment, court, hoop, floor, shadow, background, glow, border, grid, text, opponent or teammate. All exterior and gutters are alpha-zero transparency, no checkerboard, matte, speckles or haze.\n\nEight sequential connected poses:\n0 poised defensive stance, knees bent, eyes tracking image-right;\n1 shifts weight forward, arms ready and fingers open;\n2 lunges toward image-right, near hand sweeps low toward the imaginary ball path;\n3 STEAL at simulation tick5: reaches to the right with open empty fingers at the contact point, shoulders turn, left hand balances;\n4 pulls the empty hand back toward his torso after contact, body still low;\n5 closes the defensive distance with a controlled step, empty hands ready;\n6 rises and squares toward image-right, composed and alert;\n7 returns to balanced guard stance, hands empty.\n\nKeep the action readable and natural at small game size. Preserve Leo’s pale skin, long wavy black hair, mustache, adult proportions, black/crimson kit and shoes. Return only the transparent sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "The opponent’s ball remains separately rendered. Leo contacts it with the open hand at frame3/tick5, then secures the ball to his chest in the post-steal recovery; no ball is painted into the poses.",
+  "ballTrack": {
+    "height": [
+      1.05,
+      1,
+      0.8,
+      1.15,
+      0.9,
+      1,
+      1.1,
+      1.1
+    ],
+    "forward": [
+      6,
+      9,
+      12,
+      14,
+      12,
+      9,
+      7,
+      6
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-leo-action8.py",
+    "method": "shared eight-pose component isolation and nearest antialiased-pixel reassignment; 4x2 row-major atlas pack with common baseline"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Eight distinct full-body poses show a defensive set, low reach, image-right hand contact at frame3/tick5, controlled pullback and balanced recovery. Leo remains pale, adult and human with long wavy black hair, refined mustache and black/crimson kit. No ball is drawn."
+  },
+  "atlasPath": "public/assets/animation/leo-steal-right.webp",
+  "atlasSha256": "9ffc4e68c67085cf522adb6140cdcb970af0ca5b244c3df21d3f911783c4bf2f",
+  "atlasBytes": 69374
+}

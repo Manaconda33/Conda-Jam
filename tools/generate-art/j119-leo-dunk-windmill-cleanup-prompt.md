@@ -1,0 +1,1 @@
+Make a transparent-background edit of the attached sheet. Keep all 15 original Leo poses and all character pixels, details, colors, scale, framing and positions unchanged. Remove only the dark background and fill all negative space between/outside figures with full transparency. Same 1536x1024 RGBA PNG.

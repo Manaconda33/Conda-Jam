@@ -1,0 +1,310 @@
+[
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "dunk-windmill",
+    "src": "./public/assets/animation/leo-dunk-windmill-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "leo",
+      "clip": "dunk-windmill",
+      "direction": "right",
+      "canonicalSection": "K.05",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "c2pa:30641e9c-7acb-4ae1-828a-78981521b263",
+      "imageGenerationId": "c2pa:30641e9c-7acb-4ae1-828a-78981521b263",
+      "rawSourceImage": "tools/generate-art/sources/j119-leo-dunk-windmill-generated-raw.png",
+      "rawSourceSha256": "10caf6f95442644bf452b5864011e55f87bf6bdfab649cd1b816caaf1ca1880a",
+      "sourceImage": "tools/generate-art/sources/j119-leo-dunk-windmill15.png",
+      "sourceSha256": "2ef60273e15ed9f8fff9e8a3cf7a4e0a671c79318b4183524a37e04e40420ead",
+      "promptFile": "tools/generate-art/j119-leo-dunk-windmill15-prompt.md",
+      "prompt": "Create an original 1536\u00d71024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as identity and arcade pixel-art style reference. Draw exactly fifteen distinct complete full-body Leo poses in a strict five-column by three-row grid, row-major, broad gutters and outer margins. Keep long hair, fingers and shoes safely inside each cell at consistent scale and camera. Crisp readable 1990s arcade pixel clusters and dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve pale skin, long wavy black hair, refined mustache, composed handsome face, natural adult human anatomy and controlled poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change or props.\n\nThis is a right-facing one-hand windmill dunk. The basketball is separately rendered game art and is never drawn. Both hands stay visibly empty in all poses. No ball, sphere, orb, seams, court, hoop, rim, floor, shadow, background, glow, border, grid, text, teammate or opponent. Exterior and gutters are genuine alpha-zero transparency, without checkerboard, matte, speckles or haze.\n\nFifteen sequential original poses with a clear low windmill orbit and one release:\n0 right-facing approach, eyes on the rim;\n1 gathers the invisible ball near the right hip;\n2 plants and coils, right arm starts a large circular sweep;\n3 jumps, right arm swings down and behind the hip;\n4 turns his shoulders as the empty hand circles behind his back;\n5 sweeps the hand low beneath the waist, knees tucked;\n6 continues the circle around the far side of the torso;\n7 torso rotates back toward image-right, hand rises behind the shoulder;\n8 right elbow lifts beside and behind the head;\n9 completes the windmill arc overhead, body fully extended;\n10 RELEASE at simulation tick21: right hand opens through the imaginary rim, fully empty, left arm balances;\n11 empty-handed follow-through travels down and forward;\n12 descends, shoulders unwind toward image-right;\n13 lands softly with knees bent;\n14 recovers to a poised ready stance.\n\nKeep Leo right-facing overall and preserve his pale human face, long wavy hair, refined mustache, black/crimson kit and complete shoes. Distinguish the windmill circle from a straight power dunk, tomahawk, reverse or 360. No ball in the artwork. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "cleanupPromptFile": "tools/generate-art/j119-leo-dunk-windmill-cleanup-prompt.md",
+      "cleanupPrompt": "Make a transparent-background edit of the attached sheet. Keep all 15 original Leo poses and all character pixels, details, colors, scale, framing and positions unchanged. Remove only the dark background and fill all negative space between/outside figures with full transparency. Same 1536x1024 RGBA PNG.",
+      "cleanupPromptVerbatim": true,
+      "rejectedGenerations": [
+        {
+          "generationId": "c2pa:30641e9c-7acb-4ae1-828a-78981521b263",
+          "image": "tools/generate-art/sources/leo-windmill-edit-rejected.png",
+          "sha256": "6021a1d04f06aaa6ccbd8df6eae42606e2a5beca145c50ca8a2705da3f557db3",
+          "reason": "The image edit replaced the dark matte with a visible light checkerboard instead of alpha transparency. The retained image is used only as the cleanup input; edge-connected checkerboard components were removed without erasing enclosed pale pixels."
+        }
+      ],
+      "mirrorEligible": true,
+      "ballPolicy": "Leo\u2019s separate runtime basketball follows his right hand through the low windmill circle and overhead finish. Release once from the open hand at frame10/tick21. No ball is painted into the atlas.",
+      "ballTrack": {
+        "height": [
+          1.2,
+          1.1,
+          1.1,
+          2.1,
+          0.8,
+          0.5,
+          0.9,
+          1.2,
+          2.8,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "forward": [
+          1.5,
+          -4,
+          -5,
+          -7,
+          -3,
+          4,
+          3,
+          10,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-leo-dunk-windmill.py",
+        "method": "mask near-neutral pale checkerboard pixels only in 8-connected components that touch the outer canvas edge; enclosed character highlights remain opaque"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Fifteen complete poses show the approach, gather, low circular windmill, overhead finish, one open-hand release pose, empty-handed follow-through and landing. Leo remains an adult human with pale skin, long wavy black hair, refined mustache and black/crimson kit. Background is transparent; no basketball appears."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 26,
+          "y": 50,
+          "w": 276,
+          "h": 290,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 372,
+          "y": 87,
+          "w": 231,
+          "h": 253,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 662,
+          "y": 60,
+          "w": 244,
+          "h": 280,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 973,
+          "y": 19,
+          "w": 235,
+          "h": 314,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1281,
+          "y": 22,
+          "w": 223,
+          "h": 292,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 80,
+          "y": 375,
+          "w": 198,
+          "h": 269,
+          "component": 10
+        },
+        {
+          "sourceIndex": 6,
+          "x": 394,
+          "y": 386,
+          "w": 226,
+          "h": 286,
+          "component": 12
+        },
+        {
+          "sourceIndex": 7,
+          "x": 679,
+          "y": 382,
+          "w": 236,
+          "h": 288,
+          "component": 11
+        },
+        {
+          "sourceIndex": 8,
+          "x": 960,
+          "y": 358,
+          "w": 265,
+          "h": 304,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1260,
+          "y": 323,
+          "w": 266,
+          "h": 357,
+          "component": 8
+        },
+        {
+          "sourceIndex": 10,
+          "x": 40,
+          "y": 653,
+          "w": 252,
+          "h": 345,
+          "component": 14
+        },
+        {
+          "sourceIndex": 11,
+          "x": 366,
+          "y": 715,
+          "w": 227,
+          "h": 283,
+          "component": 16
+        },
+        {
+          "sourceIndex": 12,
+          "x": 679,
+          "y": 721,
+          "w": 200,
+          "h": 277,
+          "component": 17
+        },
+        {
+          "sourceIndex": 13,
+          "x": 992,
+          "y": 754,
+          "w": 210,
+          "h": 244,
+          "component": 19
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1313,
+          "y": 714,
+          "w": 170,
+          "h": 290,
+          "component": 15
+        }
+      ],
+      "uniformScale": 0.25770308123249297,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+      "previewFiles": [
+        "tools/generate-art/sources/leo-dunk-windmill15-review.jpg",
+        "tools/generate-art/leo-dunk-windmill-atlas-preview.png"
+      ],
+      "atlasPath": "public/assets/animation/leo-dunk-windmill-right.webp",
+      "atlasSha256": "c78e100cf9add406e3204db2cd04b10db116a24949bee818f691fa05651bc81a",
+      "atlasBytes": 48302
+    }
+  }
+]

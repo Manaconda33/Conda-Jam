@@ -1,0 +1,139 @@
+[
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "receive",
+    "src": "./public/assets/animation/leo-receive-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "leo",
+      "clip": "receive",
+      "direction": "right",
+      "canonicalSection": "K.05",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-69fdeb9a-c4fe-4d0b-a424-412012469435",
+      "imageGenerationId": "exec-69fdeb9a-c4fe-4d0b-a424-412012469435",
+      "rawSourceImage": "tools/generate-art/sources/j108-leo-receive-generated-raw.png",
+      "sourceImage": "tools/generate-art/sources/j108-leo-receive-generated-raw.png",
+      "rawSourceSha256": "fd219581c78dbaa3f3242f8eb9b52046d3af24a68ed3b9d544848c7e74d2e1be",
+      "sourceSha256": "fd219581c78dbaa3f3242f8eb9b52046d3af24a68ed3b9d544848c7e74d2e1be",
+      "promptFile": "tools/generate-art/j108-leo-receive4-prompt.md",
+      "prompt": "Create an original 1024×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly four distinct complete full-body Leo poses in a strict two-column by two-row grid, row-major. Broad transparent gutters, each complete figure centered inside its own cell, full hair/hands/shoes visible, same camera and scale. Readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human man and captain of the Blackthorn Court Kings. Preserve his pale skin, long wavy black hair, refined mustache, composed handsome face, natural adult anatomy and controlled pose. He wears his black basketball uniform with restrained crimson details, matching black/crimson shorts and red-black shoes. Keep exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThe art shows only Leo. Do not include any object or prop whatsoever: zero basketballs, zero balls, zero spheres, zero circles, zero seams, zero equipment. The game basketball is a separate runtime sprite and is excluded from every drawing. No court, hoop, rim, floor, shadow, background, glow, border, grid, text, teammate or opponent. Background and gutters are genuine alpha-zero transparency with no checkerboard, matte, speckles or haze. In every pose, Leo's hands are visibly EMPTY. For the catch pose, his open palms meet in front of his chest without enclosing or touching any object; no ball silhouette between or near his hands.\n\nDraw exactly four sequential poses:\n0 Leo turns his shoulders toward image-right, relaxed knees, hands open at chest height and ready;\n1 leans slightly toward the incoming pass, both empty palms reach toward image-right with fingers spread;\n2 CATCH at simulation tick4: empty palms meet gently, hands stay open and separated from one another, wrists flex to absorb the catch, with no object between them;\n3 elbows bend inward as he settles into a composed upright stance, both hands still visibly empty.\n\nKeep long wavy hair away from the mustache and face, adult human proportions, complete feet and consistent identity. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [
+        {
+          "generationId": "exec-26854928-a326-43e6-9ed8-2de1addf5229",
+          "sourceImage": "tools/generate-art/sources/j108-leo-receive-rejected-01.png",
+          "sourceSha256": "a906b7fe7f9435aca6cf2fd22e3b80e23adcee7054479601a88fbdead2ee8249",
+          "promptFile": "tools/generate-art/j108-leo-receive-attempt1-rejected-prompt.md",
+          "reason": "Painted orange basketball in the catch pose; violates separate-ball requirement."
+        },
+        {
+          "generationId": "exec-ea6692b1-5dc8-4c34-903b-db3680786345",
+          "sourceImage": "tools/generate-art/sources/j108-leo-receive-rejected-02.png",
+          "sourceSha256": "7d703d6d4e39713616bf4819ad185a2f7fc1a5141655e7d4a6a63a426c212ae6",
+          "promptFile": "tools/generate-art/j108-leo-receive-attempt2-rejected-prompt.md",
+          "reason": "Requested edit retained the basketball in the catch pose; violates separate-ball requirement."
+        }
+      ],
+      "mirrorEligible": true,
+      "ballPolicy": "The basketball is separate runtime art. Leo extends empty hands toward the incoming pass, receives it with hands meeting at tick4, then gathers the separate ball to his chest. No ball is drawn into the poses.",
+      "ballTrack": {
+        "height": [
+          1.15,
+          1.35,
+          1.5,
+          1.45
+        ],
+        "forward": [
+          8,
+          13,
+          16,
+          11
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-leo-action4.py",
+        "method": "shared four-pose component isolation and nearest antialiased-pixel reassignment; 2x2 row-major atlas pack with common baseline"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "The accepted four-pose sheet has no drawn ball. Leo stays a pale adult human with long wavy black hair, refined mustache, black/crimson kit and complete anatomy. The external ball reaches his empty hands at frame2/tick4, then he gathers."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 166,
+          "y": 54,
+          "w": 327,
+          "h": 517,
+          "component": 1,
+          "area": 85894
+        },
+        {
+          "sourceIndex": 1,
+          "x": 681,
+          "y": 61,
+          "w": 513,
+          "h": 510,
+          "component": 2,
+          "area": 93063
+        },
+        {
+          "sourceIndex": 2,
+          "x": 167,
+          "y": 668,
+          "w": 317,
+          "h": 524,
+          "component": 4,
+          "area": 88291
+        },
+        {
+          "sourceIndex": 3,
+          "x": 733,
+          "y": 664,
+          "w": 313,
+          "h": 528,
+          "component": 3,
+          "area": 85441
+        }
+      ],
+      "uniformScale": 0.17424242424242425,
+      "componentIsolation": true,
+      "packaging": "package-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original receive poses",
+      "atlasPath": "public/assets/animation/leo-receive-right.webp",
+      "atlasSha256": "7b7bd363210e7ba10937e94886db6790189a09f3f19bd1e4aecf0840d6074ec1",
+      "atlasBytes": 33518
+    }
+  }
+]

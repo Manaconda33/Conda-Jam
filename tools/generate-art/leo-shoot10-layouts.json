@@ -1,0 +1,227 @@
+[
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/leo-shoot-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "leo",
+      "clip": "shoot",
+      "direction": "right",
+      "canonicalSection": "K.05",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-038f7613-8e7c-4f00-b85e-210fdd86ab66",
+      "imageGenerationId": "exec-038f7613-8e7c-4f00-b85e-210fdd86ab66",
+      "rawSourceImage": "tools/generate-art/sources/j104-leo-shoot-generated-raw.png",
+      "sourceImage": "tools/generate-art/sources/j104-leo-shoot10.png",
+      "promptFile": "tools/generate-art/j104-leo-shoot10-prompt.md",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Leo's basketball is separate runtime/game art. He gathers the ball into his patient shooting pocket and releases once from his right fingertips on frame5 at simulation tick13; the ball is never painted into the poses.",
+      "ballTrack": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.55,
+          1.9,
+          2.15,
+          2.1,
+          1.8,
+          1.35,
+          1.05
+        ],
+        "forward": [
+          6,
+          7.5,
+          8.5,
+          9.5,
+          10.5,
+          11.5,
+          10.5,
+          8.5,
+          6.5,
+          5.5
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-leo-shoot10.py",
+        "layoutFile": "tools/generate-art/j104-leo-shoot-cleanup-layout.json",
+        "method": "retain ten major alpha-connected figures; remove nonbody haze/specks beyond two-pixel antialias dilation; baseline and uniformly scale all poses to one 5x2 sheet",
+        "minimumCellMarginPx": 18
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Ten distinct full-body right-facing jump-shot poses show patient gather, set, release, follow-through and recovery. Leo remains a pale adult human with long wavy black hair, refined mustache, composed face and controlled black/crimson uniform. The hands are empty and the external ball releases at frame5/tick13. The cleanup removes surrounding transparency haze while keeping all ten bodies intact."
+      },
+      "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as the identity and pixel-art style reference. Draw exactly ten distinct complete full-body Leo poses in a strict five-column by two-row grid, row-major, with broad transparent gutters and outer margins. Each pose must fit entirely in its own cell at a consistent scale and camera, with full hair, hands and shoes visible. Crisp readable 1990s arcade pixel-art clusters and outlines, not glossy or painterly.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his adult human anatomy, pale face, long wavy black hair, refined mustache, composed handsome features, and patient master-strategist poise. He wears a tailored black basketball uniform with restrained crimson accents, black/crimson shorts, matching athletic shoes and subtle refined white trim. Keep him recognizably Leo and consistent with the reference in every pose. Exactly two human arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, altered face, or costume change.\n\nThis is a right-facing jump shot. The basketball is separately rendered by the game. Both hands remain empty; never draw a ball, sphere, orb, seams, prop, court, hoop, rim, floor, ground shadow, background, glow, border, grid, cell divider, text, label, teammate or opponent. Every exterior and gutter pixel must be actual alpha-zero transparency, with no checkerboard, matte, speckles or color haze.\n\nDraw ten sequential, distinct, mechanically connected full-body poses:\n0 balanced approach/readied stance, hands low and eyes on the target;\n1 gathers the invisible ball at waist level, elbows relaxed;\n2 feet set, knees bend and shoulders square into a patient shooting pocket;\n3 begins the jump, right shooting hand under the invisible ball and left guide hand beside it;\n4 raises the invisible ball to forehead height, shooting elbow aligned, guide hand steady;\n5 RELEASE at simulation tick13: right arm fully extended toward the basket, shooting wrist snapped and fingers open after the ball leaves; guide hand relaxed away;\n6 airborne follow-through with right wrist flexed and left arm lowering;\n7 begins descending, shooting arm remains raised and body controlled;\n8 lands softly with knees flexed, both hands empty;\n9 returns to composed balanced ready stance, hands empty and lowering.\n\nLeo stays right-facing and moves toward image-right. Keep the long wavy hair clear of the face and readable across poses. Maintain natural joints, subtle captain presence and consistent pale complexion, mustache, outfit and body scale. Return only the transparent sprite sheet.",
+      "sourceSha256": "8566b1425af4324c826b5cf3f4eb6dad174d1643f738eb0f486cf75ba08d1f29",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 51,
+          "y": 139,
+          "w": 206,
+          "h": 355,
+          "component": 3,
+          "area": 41906
+        },
+        {
+          "sourceIndex": 1,
+          "x": 357,
+          "y": 139,
+          "w": 207,
+          "h": 355,
+          "component": 4,
+          "area": 40781
+        },
+        {
+          "sourceIndex": 2,
+          "x": 667,
+          "y": 170,
+          "w": 201,
+          "h": 324,
+          "component": 5,
+          "area": 38651
+        },
+        {
+          "sourceIndex": 3,
+          "x": 963,
+          "y": 100,
+          "w": 222,
+          "h": 393,
+          "component": 2,
+          "area": 44731
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1276,
+          "y": 76,
+          "w": 212,
+          "h": 417,
+          "component": 1,
+          "area": 43824
+        },
+        {
+          "sourceIndex": 5,
+          "x": 28,
+          "y": 555,
+          "w": 250,
+          "h": 451,
+          "component": 7,
+          "area": 42987
+        },
+        {
+          "sourceIndex": 6,
+          "x": 334,
+          "y": 572,
+          "w": 252,
+          "h": 434,
+          "component": 9,
+          "area": 40923
+        },
+        {
+          "sourceIndex": 7,
+          "x": 645,
+          "y": 564,
+          "w": 244,
+          "h": 442,
+          "component": 8,
+          "area": 45504
+        },
+        {
+          "sourceIndex": 8,
+          "x": 966,
+          "y": 656,
+          "w": 216,
+          "h": 350,
+          "component": 11,
+          "area": 42514
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1281,
+          "y": 648,
+          "w": 202,
+          "h": 358,
+          "component": 10,
+          "area": 41890
+        }
+      ],
+      "uniformScale": 0.2039911308203991,
+      "componentIsolation": true,
+      "packaging": "package-action10.py; 64x96 cells; baseline94; lossless WebP; 10 original shoot poses",
+      "atlasPath": "public/assets/animation/leo-shoot-right.webp",
+      "atlasSha256": "34ecd0c8022338a92a612ca6a16d573219465fc2fa2c123aa562c588aaee6eef",
+      "atlasBytes": 57662
+    }
+  }
+]

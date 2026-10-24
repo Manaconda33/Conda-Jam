@@ -1,0 +1,69 @@
+{
+  "athlete": "leo",
+  "clip": "dunk-power",
+  "direction": "right",
+  "canonicalSection": "K.05",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-9e936652-930b-4365-acbc-2b351c6a34d0",
+  "imageGenerationId": "exec-9e936652-930b-4365-acbc-2b351c6a34d0",
+  "rawSourceImage": "tools/generate-art/sources/j118-leo-dunk-power-generated-raw.png",
+  "sourceImage": "tools/generate-art/sources/j118-leo-dunk-power-generated-raw.png",
+  "rawSourceSha256": "51ab2b8895af4a934e826ff0aba6b46b2d93d1d6cbff9b9d7c3acb8c50371331",
+  "sourceSha256": "51ab2b8895af4a934e826ff0aba6b46b2d93d1d6cbff9b9d7c3acb8c50371331",
+  "promptFile": "tools/generate-art/j118-leo-dunk-power15-prompt.md",
+  "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as identity and arcade pixel-art style reference. Draw exactly fifteen distinct complete full-body Leo poses in a strict five-column by three-row grid, row-major, with generous gutters and outer margins. Consistent scale and camera. Every long hair strand, hand, shoe and full body stays entirely inside its own cell. Crisp, readable 1990s arcade sprite clusters with strong dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his adult human anatomy, pale skin, long wavy black hair, refined mustache, composed handsome face and controlled Victorian-gothic poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts, red-black basketball shoes and subtle trim. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster features, extra limbs, costume change or props.\n\nThis is a powerful but elegant right-facing one-hand dunk. Show only Leo. The live basketball is separately rendered game art; there must be no basketball, ball, sphere, orb, seams, ring or prop visible in any pose. Both hands are empty in every drawing. No court, hoop, rim, floor, ground shadow, background, glow, border, grid, text, teammate or opponent. Exterior and gutters must be true alpha-zero transparency, not checkerboard, matte, haze or speckles.\n\nFifteen distinct, sequential, mechanically connected full-body poses:\n0 controlled approach toward image-right, eyes on the rim;\n1 lengthens the stride and lowers the center of gravity;\n2 gathers the invisible ball near the right hip and plants;\n3 coils at the knees, empty right hand begins rising;\n4 takeoff, one knee drives up and the right arm carries the separate-ball path beside the chest;\n5 rises powerfully with right elbow bent overhead;\n6 extends through the shoulders toward the rim, left arm balances;\n7 reaches the apex with full body stretched, empty right hand high;\n8 bends the right elbow into the dunk motion;\n9 drives the right hand forcefully toward the rim;\n10 RELEASE at simulation tick21: right arm fully extended down through the imaginary rim, palm open and empty, left arm counterbalances;\n11 empty-handed follow-through, body continues forward;\n12 begins descent, knees gather naturally;\n13 lands softly with knees flexed, no injury cue;\n14 recovers to a composed ready stance.\n\nKeep Leo right-facing and preserve his face, mustache, long wavy hair, pale skin, human proportions, black/crimson kit and shoes in all fifteen poses. Make the action athletic and powerful while retaining refined control. Do not draw the basketball. Return only the transparent sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Leo’s basketball follows his right-hand approach, takeoff, rise and power finish as a separate runtime object. Release once from the open right palm at frame10/tick21. No ball is painted into the sprite sheet.",
+  "ballTrack": {
+    "height": [
+      0.95,
+      1.1,
+      1.25,
+      1.45,
+      1.8,
+      2.1,
+      2.3,
+      2.4,
+      2.55,
+      2.6,
+      2.4,
+      2,
+      1.3,
+      0.7,
+      0.55
+    ],
+    "forward": [
+      6,
+      8,
+      6,
+      2,
+      0,
+      -3,
+      -5,
+      -4,
+      0,
+      8,
+      12,
+      10,
+      7,
+      5,
+      6
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-dunk15.py",
+    "method": "inspect fifteen 5x3 poses and isolate alpha-connected bodies with nearest antialiased pixels; pack 128x96 baseline94 WebP cells"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Fifteen complete right-facing poses show an approach, gather, takeoff, powerful one-hand rise, open-hand release at frame10/tick21, follow-through and landing. Leo remains pale, adult and human with long wavy black hair, refined mustache and black/crimson kit. Both hands are empty and no ball is painted."
+  },
+  "atlasPath": "public/assets/animation/leo-dunk-power-right.webp",
+  "atlasSha256": "04c4aab5f7ad518bc0c6fd575498dcd638c1cbe1e8a1ce47e24bbf2463982626",
+  "atlasBytes": 42084
+}

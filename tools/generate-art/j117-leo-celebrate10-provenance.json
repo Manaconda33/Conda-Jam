@@ -1,0 +1,33 @@
+{
+  "athlete": "leo",
+  "clip": "celebrate",
+  "direction": "right",
+  "canonicalSection": "K.05",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-6f1f8451-0ce5-4771-bd09-b5439633c79a",
+  "imageGenerationId": "exec-6f1f8451-0ce5-4771-bd09-b5439633c79a",
+  "rawSourceImage": "tools/generate-art/sources/j117-leo-celebrate-generated-raw.png",
+  "sourceImage": "tools/generate-art/sources/j117-leo-celebrate-generated-raw.png",
+  "rawSourceSha256": "6ac09f4c3dc29bdeb29f57071b609faa6e68aa98c14f41ea35cc0659de5f40da",
+  "sourceSha256": "6ac09f4c3dc29bdeb29f57071b609faa6e68aa98c14f41ea35cc0659de5f40da",
+  "promptFile": "tools/generate-art/j117-leo-celebrate10-prompt.md",
+  "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly ten distinct complete full-body Leo poses in a strict five-column by two-row grid, row-major, broad gutters and outer margins. Keep long hair, hands and shoes fully inside each cell; consistent scale and camera. Crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human captain of the Blackthorn Court Kings. Preserve pale skin, long wavy black hair, refined mustache, composed handsome face, natural adult anatomy and controlled Victorian-gothic poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change or props.\n\nThis is a restrained basketball celebration after a successful play. Show only Leo and his empty hands. No basketball, sphere, orb, trophy, court, hoop, floor, shadow, background, glow, confetti, border, grid, text, teammate or opponent. Exterior and gutters must be genuine alpha-zero transparency with no checkerboard, matte, speckles or haze.\n\nTen sequential full-body celebration poses, each visibly distinct:\n0 composed smile with one fist lifted near the chest;\n1 raises both empty arms in a controlled salute;\n2 gives a measured right fist pump, shoulders squared;\n3 opens his arms slightly and looks toward teammates off-screen;\n4 offers a calm palm-up acknowledgement;\n5 turns his shoulders a little, long hair moving naturally;\n6 lifts one arm high in restrained triumph;\n7 lowers the arm and returns to a poised stance;\n8 gives a small confident nod with relaxed hands;\n9 finishes in a balanced composed ready stance, empty-handed.\n\nKeep the celebration elegant and self-assured, never clownish or supernatural. Preserve Leo’s pale face, long wavy black hair, refined mustache, adult human proportions, black/crimson kit and shoes in every pose. Return only the transparent sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "This empty-handed celebration has no carried-ball track. Basketball ownership stays separate in game simulation, and the drawing includes no ball or props.",
+  "cleanup": {
+    "script": "tools/generate-art/package-leo-action10.py",
+    "method": "shared ten-pose component isolation and nearest antialiased-pixel reassignment; 5x2 row-major atlas pack with common baseline"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Ten complete celebration poses show a measured salute, fist pump, acknowledgement and composed finish. Leo remains pale, adult and human with long wavy black hair, refined mustache and black/crimson kit. The gestures are self-assured, controlled and empty-handed."
+  },
+  "atlasPath": "public/assets/animation/leo-celebrate-right.webp",
+  "atlasSha256": "3b421d87ec78c3f0598b2847affe71e1636620a6415a6656df347671406174e5",
+  "atlasBytes": 64680
+}

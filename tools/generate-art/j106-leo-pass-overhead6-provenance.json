@@ -1,0 +1,51 @@
+{
+  "athlete": "leo",
+  "clip": "pass-overhead",
+  "direction": "right",
+  "canonicalSection": "K.05",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-e1a09303-9223-46f6-9ecd-e832e2f48083",
+  "imageGenerationId": "exec-e1a09303-9223-46f6-9ecd-e832e2f48083",
+  "rawSourceImage": "tools/generate-art/sources/j106-leo-pass-overhead-generated-raw.png",
+  "sourceImage": "tools/generate-art/sources/j106-leo-pass-overhead-generated-raw.png",
+  "rawSourceSha256": "ee26eb2c96481bbf29f635969062ba64871d292cfaa8fa3843cea6381b2de911",
+  "sourceSha256": "ee26eb2c96481bbf29f635969062ba64871d292cfaa8fa3843cea6381b2de911",
+  "promptFile": "tools/generate-art/j106-leo-pass-overhead6-prompt.md",
+  "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as the identity and pixel-art style reference. Draw exactly six distinct complete full-body Leo poses in a strict three-column by two-row grid, row-major, with broad transparent gutters and outer margins. Each pose must fit entirely in its own cell at a consistent scale and camera, with full long hair, hands and shoes inside the cell. Crisp readable 1990s arcade pixel-art clusters and outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his natural adult human anatomy, pale face, long wavy black hair, refined mustache, composed handsome features and patient master-strategist poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes, and subtle refined trim. Exactly two human arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change, or unrequested props.\n\nThis is a right-facing overhead pass to a teammate off-screen on image-right. The basketball is separately rendered by the game. Both hands remain empty; never draw a ball, sphere, orb, seams, court, hoop, rim, floor, ground shadow, background, glow, border, grid, text, teammate or opponent. Every exterior and gutter pixel must be true alpha-zero transparency, with no checkerboard, matte, speckles or color haze.\n\nSix sequential distinct full-body poses:\n0 composed ready stance, elbows relaxed and empty hands at chest level;\n1 gathers the invisible ball and lifts both hands above his forehead, eyes tracking image-right;\n2 extends both empty hands overhead, weight shifting into a measured step;\n3 RELEASE at simulation tick5: both arms extend high and toward image-right, wrists open after the overhead lob leaves his hands, keeping his face and long hair unobscured;\n4 overhead follow-through with fingers extended and lead foot planted;\n5 recovers to an upright composed stance as both arms lower naturally, hands empty.\n\nLeo remains right-facing. Keep every pose anatomically plausible, complete and consistent in face, long wavy hair, mustache, pale skin, black/crimson kit and shoes. Return only the transparent sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Leo’s basketball remains separately rendered. He raises it above his forehead for a high image-right lob and releases once from both hands on frame3/tick5; it is never painted into the poses.",
+  "ballTrack": {
+    "height": [
+      1.1,
+      1.55,
+      2,
+      2.35,
+      2.1,
+      1.25
+    ],
+    "forward": [
+      5,
+      6.5,
+      8,
+      11,
+      11,
+      7
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-leo-action6.py",
+    "method": "shared six-pose component isolation and nearest antialiased-pixel reassignment; 3x2 row-major atlas pack with common baseline"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Six complete right-facing poses show a controlled chest gather, two-hand overhead raise and image-right lob release at frame3/tick5. Leo remains pale, adult and human, with long wavy black hair, refined mustache and black/crimson kit. No visible ball or scene props are included."
+  },
+  "atlasPath": "public/assets/animation/leo-pass-overhead-right.webp",
+  "atlasSha256": "f5f32a83dc1abf67020f7af01d6d4cf5e45b0c17f6d410ddeb3a4fa61c5b9ceb",
+  "atlasBytes": 43262
+}

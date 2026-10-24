@@ -1,0 +1,241 @@
+{
+  "rawSource": "tools/generate-art/sources/j104-leo-shoot-generated-raw.png",
+  "rawSha256": "4139635828981e0fceddedc47993cb5348eba290f287f021546f8ca169b7d455",
+  "cleanedSource": "tools/generate-art/sources/j104-leo-shoot10.png",
+  "cleanedSourceSha256": "8566b1425af4324c826b5cf3f4eb6dad174d1643f738eb0f486cf75ba08d1f29",
+  "method": "retain ten large alpha-connected bodies; keep only a two-pixel antialias dilation; remove disconnected haze/specks; uniformly scale and center each complete pose in its own 5x2 cell with aligned 18px foot baseline",
+  "removedNonBodyAlphaPixels": 55808,
+  "minimumCellMarginPx": 18,
+  "frames": [
+    {
+      "sourceIndex": 0,
+      "component": 3,
+      "rawBounds": [
+        64,
+        106,
+        271,
+        461
+      ],
+      "destination": [
+        50,
+        139,
+        207,
+        355
+      ],
+      "uniformScale": 1.0,
+      "marginsPx": [
+        50,
+        139,
+        50,
+        18
+      ]
+    },
+    {
+      "sourceIndex": 1,
+      "component": 4,
+      "rawBounds": [
+        376,
+        106,
+        584,
+        461
+      ],
+      "destination": [
+        356,
+        139,
+        208,
+        355
+      ],
+      "uniformScale": 1.0,
+      "marginsPx": [
+        49,
+        139,
+        50,
+        18
+      ]
+    },
+    {
+      "sourceIndex": 2,
+      "component": 5,
+      "rawBounds": [
+        678,
+        136,
+        879,
+        461
+      ],
+      "destination": [
+        667,
+        169,
+        201,
+        325
+      ],
+      "uniformScale": 1.0,
+      "marginsPx": [
+        53,
+        169,
+        53,
+        18
+      ]
+    },
+    {
+      "sourceIndex": 3,
+      "component": 2,
+      "rawBounds": [
+        963,
+        69,
+        1187,
+        464
+      ],
+      "destination": [
+        962,
+        99,
+        224,
+        395
+      ],
+      "uniformScale": 1.0,
+      "marginsPx": [
+        41,
+        99,
+        42,
+        18
+      ]
+    },
+    {
+      "sourceIndex": 4,
+      "component": 1,
+      "rawBounds": [
+        1279,
+        45,
+        1492,
+        464
+      ],
+      "destination": [
+        1275,
+        75,
+        213,
+        419
+      ],
+      "uniformScale": 1.0,
+      "marginsPx": [
+        47,
+        75,
+        47,
+        18
+      ]
+    },
+    {
+      "sourceIndex": 5,
+      "component": 7,
+      "rawBounds": [
+        41,
+        503,
+        304,
+        976
+      ],
+      "destination": [
+        28,
+        555,
+        251,
+        451
+      ],
+      "uniformScale": 0.9534883720930233,
+      "marginsPx": [
+        28,
+        43,
+        28,
+        18
+      ]
+    },
+    {
+      "sourceIndex": 6,
+      "component": 8,
+      "rawBounds": [
+        348,
+        514,
+        600,
+        949
+      ],
+      "destination": [
+        334,
+        571,
+        252,
+        435
+      ],
+      "uniformScale": 1.0,
+      "marginsPx": [
+        27,
+        59,
+        28,
+        18
+      ]
+    },
+    {
+      "sourceIndex": 7,
+      "component": 9,
+      "rawBounds": [
+        656,
+        532,
+        900,
+        974
+      ],
+      "destination": [
+        645,
+        564,
+        244,
+        442
+      ],
+      "uniformScale": 1.0,
+      "marginsPx": [
+        31,
+        52,
+        32,
+        18
+      ]
+    },
+    {
+      "sourceIndex": 8,
+      "component": 11,
+      "rawBounds": [
+        974,
+        621,
+        1190,
+        971
+      ],
+      "destination": [
+        966,
+        656,
+        216,
+        350
+      ],
+      "uniformScale": 1.0,
+      "marginsPx": [
+        45,
+        144,
+        46,
+        18
+      ]
+    },
+    {
+      "sourceIndex": 9,
+      "component": 10,
+      "rawBounds": [
+        1277,
+        611,
+        1480,
+        970
+      ],
+      "destination": [
+        1280,
+        647,
+        203,
+        359
+      ],
+      "uniformScale": 1.0,
+      "marginsPx": [
+        52,
+        135,
+        52,
+        18
+      ]
+    }
+  ]
+}

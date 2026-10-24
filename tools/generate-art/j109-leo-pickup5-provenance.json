@@ -1,0 +1,49 @@
+{
+  "athlete": "leo",
+  "clip": "pickup",
+  "direction": "right",
+  "canonicalSection": "K.05",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-3367d441-68b5-4b6a-8591-5dfbbe77ace3",
+  "imageGenerationId": "exec-3367d441-68b5-4b6a-8591-5dfbbe77ace3",
+  "rawSourceImage": "tools/generate-art/sources/j109-leo-pickup-generated-raw.png",
+  "sourceImage": "tools/generate-art/sources/j109-leo-pickup-generated-raw.png",
+  "rawSourceSha256": "fc0a74c93f615f2ebcb9ccb21de7d38c7da15e08ef181092f9b4a91625273387",
+  "sourceSha256": "fc0a74c93f615f2ebcb9ccb21de7d38c7da15e08ef181092f9b4a91625273387",
+  "promptFile": "tools/generate-art/j109-leo-pickup5-prompt.md",
+  "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly five distinct complete full-body Leo poses in a strict three-column by two-row grid, row-major; leave the sixth cell fully transparent. Broad gutters and outer margins; each complete figure stays in its own cell with hair, hands and shoes clear. Consistent camera, scale and ground baseline. Readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his pale skin, long wavy black hair, refined mustache, composed face, natural adult human anatomy and measured poise. He wears a tailored black basketball uniform with restrained crimson accents, matching black/crimson shorts and shoes, and refined trim. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThis is a right-facing loose-ball pickup. There is no ball in the art: the game basketball is separately rendered. Both hands remain visibly empty; at floor contact, fingers touch only the empty floor plane with nothing between them. No basketball, sphere, seams, court, hoop, floor texture, shadow, background, glow, border, grid, text, teammate or opponent. Use true alpha-zero transparent exterior and gutters with no checkerboard, matte, haze or speckles.\n\nFive distinct sequential poses:\n0 Leo spots a loose ball to image-right, pivots and lowers his center of gravity;\n1 takes a low forward step, right arm reaches toward the floor, left arm balances behind;\n2 deepens the lunge, knees flex, empty right hand lowers to just above the ground;\n3 GRAB at simulation tick7: right fingertips touch the empty ground plane at image-right, left arm counterbalances, torso stable;\n4 rises into a composed ready stance, both hands empty and relaxed after securing the separate ball.\n\nLeo remains right-facing. Keep complete adult human anatomy, pale skin, long waves, refined mustache, black/crimson kit and shoes consistent. Return only the transparent sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "The basketball remains separate game art. Leo’s empty right fingertips touch the floor at frame3/tick7 to retrieve it; the ball is never drawn into the poses.",
+  "ballTrack": {
+    "height": [
+      0.95,
+      0.65,
+      0.3,
+      0,
+      0.7
+    ],
+    "forward": [
+      6,
+      9,
+      13,
+      16,
+      10
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-leo-action5.py",
+    "method": "shared five-pose component isolation and nearest antialiased-pixel reassignment; 3x2 row-major atlas pack; final cell left transparent"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Five distinct full-body right-facing poses show a controlled low reach, ground contact at frame3/tick7, and composed recovery. Leo remains pale, adult and human with long wavy black hair, refined mustache and black/crimson kit. All hands are empty; no ball is drawn."
+  },
+  "atlasPath": "public/assets/animation/leo-pickup-right.webp",
+  "atlasSha256": "a04b3e26e83cb75cc099d665f218be3fbb6b4292a46ed7b1c51b1a34ae007ecd",
+  "atlasBytes": 47426
+}

@@ -1,13 +1,13 @@
 # Session handoff
 
-## Current checkpoint — J.104 Keeg `dunk-clutch` integrated and validated locally
+## Current checkpoint — J.104 Keeg `dunk-clutch` pushed and deployed in Pages run #145
 
 J.104 adds fifteen distinct clutch-dunk poses. Keeg now has26/29 reviewed clips /258 authored drawings. The separate Keeg ball follows his two-hand overhead clutch and releases at frame10/tick21; standard and zoom120 native previews select every pose in both facings. Canon K.03 approves mirroring; Keeg remains an adult human with black hair and beard, full purple mushroom hat and purple/lavender/silver kit.
 
 Accepted generation `exec-e4a19c0e-2ec3-474d-901d-6629f6f7f468`; raw source SHA-256 `44977e83c30769085d5ec38062dfecdea3557046962a49e76e4aa99a822fe519`; cleaned source SHA-256 `c0fa2538c8be63ed0edab0010a5734da3585c103b7613790a4593058b2d7752c`. Atlas `public/assets/animation/keeg-dunk-clutch-right.webp` is512×384 /70,734 bytes / SHA-256 `c667a5a04a77c6b2cd18d14267952a5a04142d19b5c11ccce1cdc2da0c307a92`. Exact prompt, cleanup, layouts, separate ball path and provenance are in the J.104 files.
 
-Validation passes410 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /866,809 ticks /9 overtime periods,55 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 previews each load170 images and render87 snapshots /452 action frames; all fifteen J.104 poses select production art in both facings. Strict report-only audit:667 clips /5,859 drawings /105 athletes,2,436 missing clips,3 target shortfalls,4 inherited prompt findings. J.103 `7f925af` remains the deployed game build while J.104 awaits its commit and Pages verification. Next: Keeg `dunk-scythe`.
-Verified source-only packages: Moxie 29/29 (24 new clips /251 poses), Dorian 29/29 (25/255), Accu, Nova and Echo each 29/29 (23/241 each). Additional source checkpoints include Marco `pass-behind` (9/29), Krios `pass-overhead` (8/29) and Sable `steal` (15/29); these remain outside the runtime manifest. Current source lanes: Leo 21/29, Marco 10/29, Flint 7/29. Strict inventory counts only registered clips.
+Validation passes410 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /866,809 ticks /9 overtime periods,55 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 previews each load170 images and render87 snapshots /452 action frames; all fifteen J.104 poses select production art in both facings. Strict report-only audit:667 clips /5,859 drawings /105 athletes,2,436 missing clips,3 target shortfalls,4 inherited prompt findings. J.104 `5907922` is pushed and deployed in Pages run #145: https://github.com/Manaconda33/Conda-Jam/actions/runs/40060828610. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=5907922. Next: Keeg `dunk-scythe`.
+Verified source-only packages: Moxie 29/29 (24 new clips /251 poses), Dorian 29/29 (25/255), Accu, Nova and Echo each 29/29 (23/241 each). Current lanes: Marco `pass-behind` (9/29 accepted source clips), Krios (8/29), Sable (15/29), Leo (21/29 generated atlases; source-only checkpoint awaits ball-track/provenance reconciliation), and Flint (`shoot`/`pass` candidates pending margin and reproducibility fixes). Marco `receive` was rejected for clipped top hair, an unrequested emblem, and no runtime-specific receive track. Next missing registered action remains Keeg `dunk-scythe`; generation is paused by the shared HTTP 429 quota, with exact prompts and blocker notes recorded. Strict inventory counts only registered clips.
 
 ## Active assignment and authorization
 
@@ -19,11 +19,11 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 Repository: `/workspace/Conda-Jam`, branch `main`. Issue #1 (records-table width) is closed. Issues #2 (arcade/court fidelity) and #3 (complete league animation assets) remain in scope; the full requirements are in `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md` and GitHub issue #2/#3.
 
-- Latest deployed game commit: `7f925af`, Pages run #141 succeeded: https://github.com/Manaconda33/Conda-Jam/actions/runs/40049640158.
-- Deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=7f925af.
-- J.29–J.103 are pushed and deployed. Keeg has25/29 clips /243 authored drawings.
-- Current audit:666 clips /5,844 drawings /105 athletes,2,437 missing clips,3 target shortfalls,4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
-- Source-only work is underway through Krios (position16); five complete packages are verified and committed, with roster-order integration queued behind Keeg. Keeg’s next action is `dunk-clutch`.
+- Latest deployed game commit: `5907922`, Pages run #145 succeeded: https://github.com/Manaconda33/Conda-Jam/actions/runs/40060828610.
+- Deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=5907922.
+- J.29–J.104 are pushed and deployed. Keeg has26/29 clips /258 authored drawings.
+- Current audit:667 clips /5,859 drawings /105 athletes,2,436 missing clips,3 target shortfalls,4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
+- Source-only work is underway through Krios (position16); five complete packages are verified and committed, with roster-order integration queued behind Keeg. Keeg’s next action is `dunk-scythe`; image generation is paused by a shared provider HTTP 429 quota.
 - Full target remains29 clips /293 authored drawings per athlete, with no credit for mirroring, repeated holds, duplicate crops or rejected sources.
 
 GitHub Pages is enabled. The user authorized continuous image generation, tests, pushes and deployments; do not ask again.

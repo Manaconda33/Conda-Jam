@@ -1,0 +1,51 @@
+{
+  "athlete": "leo",
+  "clip": "pass",
+  "direction": "right",
+  "canonicalSection": "K.05",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-89d2bf88-8242-466a-8c1a-429d0e79abef",
+  "imageGenerationId": "exec-89d2bf88-8242-466a-8c1a-429d0e79abef",
+  "rawSourceImage": "tools/generate-art/sources/j105-leo-pass-generated-raw.png",
+  "sourceImage": "tools/generate-art/sources/j105-leo-pass-generated-raw.png",
+  "rawSourceSha256": "4e63db8875624152a65d47fa80eb8fb0da4b85165a705d7f0c9492a1c8af74c4",
+  "sourceSha256": "4e63db8875624152a65d47fa80eb8fb0da4b85165a705d7f0c9492a1c8af74c4",
+  "promptFile": "tools/generate-art/j105-leo-pass6-prompt.md",
+  "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as the identity and pixel-art style reference. Draw exactly six distinct complete full-body Leo poses in a strict three-column by two-row grid, row-major, with broad transparent gutters and outer margins. Each pose must fit entirely in its own cell at a consistent scale and camera, with full hair, hands and shoes visible. Crisp readable 1990s arcade pixel-art clusters and outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his natural adult human anatomy, pale face, long wavy black hair, refined mustache, composed handsome features and patient master-strategist poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes, and subtle refined trim. Keep him consistently recognizable. Exactly two human arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change, or unrequested props.\n\nThis is a right-facing chest pass to a teammate off-screen on image-right. The basketball is separately rendered by the game. Both hands are always empty; never draw a ball, sphere, orb, seams, court, hoop, rim, floor, ground shadow, background, glow, border, grid, text, teammate or opponent. Every exterior and gutter pixel must be true alpha-zero transparency, without checkerboard, matte, speckles or color haze.\n\nSix sequential, mechanically connected poses:\n0 composed ready stance, knees softly bent, empty hands framing the invisible ball at chest height;\n1 gathers the imaginary ball into his chest, elbows bent and weight settling;\n2 steps toward image-right, shoulders turn slightly toward target and both hands begin extending;\n3 RELEASE at simulation tick5: both arms extend toward image-right, wrists snap forward and open empty hands separate after the pass;\n4 follows through with fingers extended and lead step planted;\n5 recovers to balanced poised stance, arms lowering naturally, both hands empty.\n\nLeo stays right-facing. Keep his long wavy hair from obscuring his mustache or face. Maintain human anatomy, controlled expression, consistent face, black/crimson kit and complete shoes. Return only the transparent sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "Leo’s basketball remains separately rendered. He sends a right-facing chest pass and releases once from his extended hands on frame3/tick5; no ball is painted into the poses.",
+  "ballTrack": {
+    "height": [
+      0.95,
+      1.1,
+      1.3,
+      1.55,
+      1.45,
+      1.05
+    ],
+    "forward": [
+      5,
+      6.5,
+      9,
+      13,
+      12,
+      7
+    ]
+  },
+  "cleanup": {
+    "script": "tools/generate-art/package-leo-action6.py",
+    "method": "shared six-pose component isolation and nearest antialiased-pixel reassignment; 3x2 row-major atlas pack with common baseline"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Six complete right-facing poses show a composed ready stance, chest gather, image-right delivery with empty hands at frame3/tick5, follow-through and recovery. Leo remains a pale adult human with long wavy black hair, refined mustache, black/crimson kit and natural anatomy."
+  },
+  "atlasPath": "public/assets/animation/leo-pass-right.webp",
+  "atlasSha256": "27e6ed011e08274d37819765638f33ede90f448c31a58ad42e925411a86c7e83",
+  "atlasBytes": 52102
+}

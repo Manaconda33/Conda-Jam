@@ -90,6 +90,13 @@
           "reason": "Generated bright red hair rather than Marco canonical short waved black hair; rejected before packaging."
         }
       ],
+      "reviewPreview": "tools/generate-art/sources/marco-vellum-pass-behind-review.png",
+      "artifactHashes": {
+        "rawSourceSha256": "a7611830d75fde7eb2dc373698da346b50eb0a8bdc899005d91320f77558cff3",
+        "cleanedSourceSha256": "9f9835df67c352309d45cb833aa13b0958901334ac1199398b5b55d3c020af03",
+        "atlasSha256": "9a955fa7534b148018244ea43316a36b34a42dc4817c20cc348648b84d958126",
+        "reviewPreviewSha256": "b3a6f2e7babfaf5812071817f164b1cee4e3319b5afd009bfd69c53000256dc2"
+      },
       "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/marco-vellum-pass-behind6.png",
       "sourceRects": [
         {

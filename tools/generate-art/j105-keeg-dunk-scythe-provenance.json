@@ -1,0 +1,38 @@
+{
+  "athlete": "keeg",
+  "clip": "dunk-scythe",
+  "direction": "right",
+  "canonicalSection": "K.03",
+  "eligibleForPacking": false,
+  "status": "blocked-before-generation",
+  "generatedAt": "2026-10-24",
+  "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-prompt.md",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "providerError": {
+    "httpStatus": 429,
+    "type": "usage_limit_reached",
+    "message": "The usage limit has been reached",
+    "planType": "plus",
+    "resetsInSeconds": 32753,
+    "resetsInApprox": "about 9 hours 6 minutes from the report",
+    "resetsAtUnix": 1792847415,
+    "resetsAtUtc": "2026-10-24T13:10:15Z"
+  },
+  "generationId": null,
+  "rawSourceImage": null,
+  "rawSourceSha256": null,
+  "sourceImage": null,
+  "sourceSha256": null,
+  "atlasPath": null,
+  "atlasSha256": null,
+  "layoutFile": null,
+  "rejectedGenerations": [],
+  "ballPolicy": "The game basketball is separately rendered. It follows Keeg's ball-miming hand through the low rear hip sweep and diagonal rise, releases at pose10/tick21, and is not painted into the drawings.",
+  "plannedBallTrack": {
+    "status": "planning-only; not visually validated",
+    "height": [0.95, 1.1, 1.2, 0.95, 0.8, 0.75, 0.95, 1.4, 2.0, 2.5, 2.4, 2.0, 1.35, 0.7, 0.55],
+    "forward": [6, 7, 4, -2, -8, -10, -5, -1, 4, 10, 13, 10, 8, 5, 6]
+  },
+  "nextAction": "Retry image generation after the provider quota resets; review an acceptable fifteen-pose source before cleanup and atlas packaging."
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "layup",
+    "src": "./public/assets/animation/leo-layup-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "leo",
+      "clip": "layup",
+      "direction": "right",
+      "canonicalSection": "K.05",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-ed078327-ebab-4bd1-b390-ef2fde79cbce",
+      "imageGenerationId": "exec-ed078327-ebab-4bd1-b390-ef2fde79cbce",
+      "rawSourceImage": "tools/generate-art/sources/j110-leo-layup-generated-raw.png",
+      "sourceImage": "tools/generate-art/sources/j110-leo-layup-generated-raw.png",
+      "rawSourceSha256": "bc469e1e5ca7aa5838a325c8558ef8fd89792478994cda5fd52a156c391b268b",
+      "sourceSha256": "bc469e1e5ca7aa5838a325c8558ef8fd89792478994cda5fd52a156c391b268b",
+      "promptFile": "tools/generate-art/j110-leo-layup8-prompt.md",
+      "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly eight distinct complete full-body Leo poses in a strict four-column by two-row grid, row-major. Broad transparent gutters and outer margins; keep all hair, hands and shoes inside each cell. Consistent camera, scale and shared foot baseline. Crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his natural adult human anatomy, pale skin, long wavy black hair, refined mustache, composed handsome face and controlled master-strategist poise. He wears a tailored black basketball uniform with restrained crimson accents, matching black/crimson shorts and shoes, and refined trim. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThis is a right-facing one-hand layup toward an off-screen basket on image-right. The basketball is rendered separately by the game. Both hands stay visibly empty in every drawing. There must be no ball, sphere, orb, seams, equipment, court, hoop, floor, ground shadow, background, glow, border, grid, text, teammate or opponent. All gutters and exterior pixels are genuine alpha-zero transparency, without checkerboard, matte, speckles or haze.\n\nEight distinct connected full-body poses:\n0 approaches the basket at a controlled jog, eyes and body toward image-right;\n1 gathers the invisible ball into his waist while stepping forward;\n2 plants and compresses at the knees, right hand beginning to rise;\n3 takes off from one foot, opposite knee drives upward, empty right hand carries the separate ball path beside his head;\n4 RELEASE at simulation tick10: fully extended right arm reaches toward the rim, fingers open after release; left arm balances and hair stays clear of the face;\n5 graceful one-hand follow-through in the air, right wrist relaxed and empty;\n6 descends with body controlled and knees bending for landing;\n7 lands softly and returns to a composed ready stance, both hands empty.\n\nLeo stays right-facing. Preserve his pale face, long wavy black hair, refined mustache, black/crimson identity, natural joints and complete shoes. Keep the motion distinct from a dunk or jump shot. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "The basketball is separately rendered. Leo gathers through the right-facing approach and releases from his raised right fingertips on frame4/tick10. Both hands are empty in all authored drawings.",
+      "ballTrack": {
+        "height": [
+          0.95,
+          1.15,
+          1.45,
+          2.05,
+          2.35,
+          1.8,
+          0.95,
+          0.6
+        ],
+        "forward": [
+          5,
+          7,
+          9,
+          12,
+          14,
+          11,
+          7,
+          5
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-leo-action8.py",
+        "method": "shared eight-pose component isolation and nearest antialiased-pixel reassignment; 4x2 row-major atlas pack with common baseline"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Eight distinct complete right-facing layup poses show an approach, gathered takeoff, one-hand extension and open-hand release at frame4/tick10, then follow-through and soft landing. Leo keeps pale skin, long wavy black hair, refined mustache, natural adult anatomy and black/crimson uniform. No ball is drawn."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 35,
+          "y": 74,
+          "w": 299,
+          "h": 401,
+          "component": 2,
+          "area": 50330
+        },
+        {
+          "sourceIndex": 1,
+          "x": 446,
+          "y": 78,
+          "w": 271,
+          "h": 404,
+          "component": 3,
+          "area": 48982
+        },
+        {
+          "sourceIndex": 2,
+          "x": 808,
+          "y": 129,
+          "w": 266,
+          "h": 354,
+          "component": 4,
+          "area": 46382
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1203,
+          "y": 10,
+          "w": 272,
+          "h": 472,
+          "component": 1,
+          "area": 54751
+        },
+        {
+          "sourceIndex": 4,
+          "x": 29,
+          "y": 496,
+          "w": 338,
+          "h": 496,
+          "component": 5,
+          "area": 47540
+        },
+        {
+          "sourceIndex": 5,
+          "x": 416,
+          "y": 523,
+          "w": 329,
+          "h": 479,
+          "component": 6,
+          "area": 47933
+        },
+        {
+          "sourceIndex": 6,
+          "x": 820,
+          "y": 624,
+          "w": 282,
+          "h": 378,
+          "component": 7,
+          "area": 51521
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1237,
+          "y": 627,
+          "w": 254,
+          "h": 375,
+          "component": 8,
+          "area": 48901
+        }
+      ],
+      "uniformScale": 0.18548387096774194,
+      "componentIsolation": true,
+      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup poses",
+      "atlasPath": "public/assets/animation/leo-layup-right.webp",
+      "atlasSha256": "86c92af3768128fa7cf676dfe8a5f8593b24740eb873c7f328717e81beceeee5",
+      "atlasBytes": 46204
+    }
+  }
+]

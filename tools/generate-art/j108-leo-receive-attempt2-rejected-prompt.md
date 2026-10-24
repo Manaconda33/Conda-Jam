@@ -1,0 +1,3 @@
+Edit the referenced Leo basketball sprite sheet in place. Preserve the exact transparent 2x2 layout and all four full-body poses, identity, long wavy black hair, pale skin, refined mustache, black/crimson kit, cell positions, scale and pose anatomy.
+
+CRITICAL CORRECTION: remove the orange basketball visible between Leo's hands in the bottom-left cell (frame2). Reconstruct the hands as empty hands closing gently toward each other around an invisible catch point. There must be NO ball or sphere anywhere in any cell. The game's basketball is a separate runtime object and may not appear in sprite art. Do not add any extra figure, limbs, props, effects or scenery. Keep real transparent alpha-zero background and gutters. Return only the corrected sheet.

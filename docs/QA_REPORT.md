@@ -1,6 +1,6 @@
 # QA report
 
-## Latest validated checkpoint — J.104 Keeg `dunk-clutch` (local; Pages run pending)
+## Latest validated checkpoint — J.104 Keeg `dunk-clutch` (pushed and deployed; Pages run #145)
 
 - `npm test`: PASS — 410 tests, zero failures; includes the self-contained offline build.
 - `npm run lint`: PASS — 18 JavaScript modules.
@@ -11,7 +11,7 @@
 - `npm run test:e2e`: PASS — Chromium standalone offline startup, settings, controls, co-op, touch, matchups, full match and season progression. The first run timed out once at the combined gamepad-input wait; a diagnostic-instrumented complete rerun passed without gameplay-code changes.
 - Strict audit is intentionally report-only and remains incomplete: 667 clips / 5,859 authored drawings across 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings.
 - Keeg standard and zoom120 native previews each loaded 170 images and rendered 87 clip snapshots / 452 action frames. All 15 J.104 poses select production art in both facings; the separate ball releases at frame10/tick21.
-- J.104 is validated locally and awaits push/Pages verification. The last deployed game build is J.103 `7f925af`, Pages run #141: https://github.com/Manaconda33/Conda-Jam/actions/runs/40049640158.
+- J.104 `5907922` is deployed in Pages run #145: https://github.com/Manaconda33/Conda-Jam/actions/runs/40060828610. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=5907922.
 
 ## Environment
 

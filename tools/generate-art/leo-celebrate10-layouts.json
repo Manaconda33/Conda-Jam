@@ -1,0 +1,200 @@
+[
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "celebrate",
+    "src": "./public/assets/animation/leo-celebrate-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "leo",
+      "clip": "celebrate",
+      "direction": "right",
+      "canonicalSection": "K.05",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-6f1f8451-0ce5-4771-bd09-b5439633c79a",
+      "imageGenerationId": "exec-6f1f8451-0ce5-4771-bd09-b5439633c79a",
+      "rawSourceImage": "tools/generate-art/sources/j117-leo-celebrate-generated-raw.png",
+      "sourceImage": "tools/generate-art/sources/j117-leo-celebrate-generated-raw.png",
+      "rawSourceSha256": "6ac09f4c3dc29bdeb29f57071b609faa6e68aa98c14f41ea35cc0659de5f40da",
+      "sourceSha256": "6ac09f4c3dc29bdeb29f57071b609faa6e68aa98c14f41ea35cc0659de5f40da",
+      "promptFile": "tools/generate-art/j117-leo-celebrate10-prompt.md",
+      "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly ten distinct complete full-body Leo poses in a strict five-column by two-row grid, row-major, broad gutters and outer margins. Keep long hair, hands and shoes fully inside each cell; consistent scale and camera. Crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human captain of the Blackthorn Court Kings. Preserve pale skin, long wavy black hair, refined mustache, composed handsome face, natural adult anatomy and controlled Victorian-gothic poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change or props.\n\nThis is a restrained basketball celebration after a successful play. Show only Leo and his empty hands. No basketball, sphere, orb, trophy, court, hoop, floor, shadow, background, glow, confetti, border, grid, text, teammate or opponent. Exterior and gutters must be genuine alpha-zero transparency with no checkerboard, matte, speckles or haze.\n\nTen sequential full-body celebration poses, each visibly distinct:\n0 composed smile with one fist lifted near the chest;\n1 raises both empty arms in a controlled salute;\n2 gives a measured right fist pump, shoulders squared;\n3 opens his arms slightly and looks toward teammates off-screen;\n4 offers a calm palm-up acknowledgement;\n5 turns his shoulders a little, long hair moving naturally;\n6 lifts one arm high in restrained triumph;\n7 lowers the arm and returns to a poised stance;\n8 gives a small confident nod with relaxed hands;\n9 finishes in a balanced composed ready stance, empty-handed.\n\nKeep the celebration elegant and self-assured, never clownish or supernatural. Preserve Leo’s pale face, long wavy black hair, refined mustache, adult human proportions, black/crimson kit and shoes in every pose. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "This empty-handed celebration has no carried-ball track. Basketball ownership stays separate in game simulation, and the drawing includes no ball or props.",
+      "cleanup": {
+        "script": "tools/generate-art/package-leo-action10.py",
+        "method": "shared ten-pose component isolation and nearest antialiased-pixel reassignment; 5x2 row-major atlas pack with common baseline"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Ten complete celebration poses show a measured salute, fist pump, acknowledgement and composed finish. Leo remains pale, adult and human with long wavy black hair, refined mustache and black/crimson kit. The gestures are self-assured, controlled and empty-handed."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 36,
+          "y": 78,
+          "w": 236,
+          "h": 416,
+          "component": 2,
+          "area": 52214
+        },
+        {
+          "sourceIndex": 1,
+          "x": 337,
+          "y": 67,
+          "w": 307,
+          "h": 427,
+          "component": 1,
+          "area": 51977
+        },
+        {
+          "sourceIndex": 2,
+          "x": 663,
+          "y": 90,
+          "w": 227,
+          "h": 404,
+          "component": 3,
+          "area": 50302
+        },
+        {
+          "sourceIndex": 3,
+          "x": 917,
+          "y": 110,
+          "w": 318,
+          "h": 384,
+          "component": 4,
+          "area": 50300
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1238,
+          "y": 110,
+          "w": 289,
+          "h": 384,
+          "component": 5,
+          "area": 49643
+        },
+        {
+          "sourceIndex": 5,
+          "x": 39,
+          "y": 577,
+          "w": 258,
+          "h": 406,
+          "component": 8,
+          "area": 53715
+        },
+        {
+          "sourceIndex": 6,
+          "x": 356,
+          "y": 511,
+          "w": 241,
+          "h": 472,
+          "component": 7,
+          "area": 54380
+        },
+        {
+          "sourceIndex": 7,
+          "x": 648,
+          "y": 588,
+          "w": 245,
+          "h": 395,
+          "component": 10,
+          "area": 52065
+        },
+        {
+          "sourceIndex": 8,
+          "x": 945,
+          "y": 589,
+          "w": 238,
+          "h": 394,
+          "component": 11,
+          "area": 51440
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1238,
+          "y": 584,
+          "w": 240,
+          "h": 399,
+          "component": 9,
+          "area": 52103
+        }
+      ],
+      "uniformScale": 0.19491525423728814,
+      "componentIsolation": true,
+      "packaging": "package-action10.py; 80x96 cells; baseline94; lossless WebP; 10 original celebrate poses",
+      "atlasPath": "public/assets/animation/leo-celebrate-right.webp",
+      "atlasSha256": "3b421d87ec78c3f0598b2847affe71e1636620a6415a6656df347671406174e5",
+      "atlasBytes": 64680
+    }
+  }
+]

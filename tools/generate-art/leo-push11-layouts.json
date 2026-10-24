@@ -1,0 +1,215 @@
+[
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "push",
+    "src": "./public/assets/animation/leo-push-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "leo",
+      "clip": "push",
+      "direction": "right",
+      "canonicalSection": "K.05",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-6e7dfbe6-0385-414a-af4f-50119684a5d6",
+      "imageGenerationId": "exec-6e7dfbe6-0385-414a-af4f-50119684a5d6",
+      "rawSourceImage": "tools/generate-art/sources/j114-leo-push-generated-raw.png",
+      "sourceImage": "tools/generate-art/sources/j114-leo-push-generated-raw.png",
+      "rawSourceSha256": "a24773133f3211a0a294c302fe4277ff4c5d5d8b501f7ba64edad8242649d3bf",
+      "sourceSha256": "a24773133f3211a0a294c302fe4277ff4c5d5d8b501f7ba64edad8242649d3bf",
+      "promptFile": "tools/generate-art/j114-leo-push11-prompt.md",
+      "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as identity and pixel-art style reference. Draw exactly eleven distinct complete full-body Leo poses in a strict four-column by three-row grid, row-major; leave the final cell fully transparent. Broad gutters, consistent scale/camera and complete long hair, hands and shoes within cells. Crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his pale skin, long wavy black hair, refined mustache, composed handsome face, natural adult human anatomy and restrained confidence. He wears a tailored black basketball uniform with crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change or props.\n\nThis is a right-facing defensive press and controlled body push against an off-screen opponent. Draw only Leo. Both hands stay empty. There is no basketball in this action and no ball is drawn. No opponent, teammate, object, sphere, seams, court, hoop, floor, shadow, background, glow, border, grid, text, or special effect. Exterior and gutters are genuine alpha-zero transparency with no checkerboard, matte, speckles or haze.\n\nEleven sequential connected defensive poses:\n0 balanced guard stance, knees bent and arms ready;\n1 steps toward image-right, chest square and palms open;\n2 CONTACT at simulation tick5: shoulders and hips drive forward, both open hands extend into a controlled two-hand press at chest height;\n3 completes the brief push, arms remain extended and feet planted;\n4 releases pressure and starts drawing elbows back;\n5 shifts weight back into a safe stance, hands open;\n6 sidesteps toward image-right while maintaining defensive balance;\n7 lowers center of gravity and resets footwork;\n8 rises slightly, shoulders square and arms relax;\n9 retreats one controlled step, eyes stay on the opponent;\n10 returns to composed ready guard, hands empty.\n\nKeep the action athletic but controlled, with natural joints and no injury or aggression cues. Leo stays recognizable in every pose: pale adult human, long wavy black hair, refined mustache, black/crimson kit, complete shoes. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "This defensive push has no carried basketball track. Leo’s empty hands contact an off-screen opponent at tick5; game ball ownership and physics remain independent of the shove. No ball is drawn.",
+      "cleanup": {
+        "script": "tools/generate-art/package-leo-action11.py",
+        "method": "shared eleven-pose component isolation and nearest antialiased-pixel reassignment; 4x3 row-major atlas pack; unused twelfth cell stays transparent"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Eleven distinct complete right-facing poses show a controlled defensive approach, two-hand push contact at tick5 and balanced recovery. Leo remains a pale adult human with long wavy black hair, refined mustache and black/crimson uniform. No opponent, ball or props are drawn."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 47,
+          "y": 37,
+          "w": 259,
+          "h": 304,
+          "component": 1,
+          "area": 35649
+        },
+        {
+          "sourceIndex": 1,
+          "x": 446,
+          "y": 37,
+          "w": 271,
+          "h": 304,
+          "component": 2,
+          "area": 36533
+        },
+        {
+          "sourceIndex": 2,
+          "x": 805,
+          "y": 37,
+          "w": 339,
+          "h": 305,
+          "component": 3,
+          "area": 39605
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1199,
+          "y": 38,
+          "w": 301,
+          "h": 303,
+          "component": 4,
+          "area": 37720
+        },
+        {
+          "sourceIndex": 4,
+          "x": 47,
+          "y": 366,
+          "w": 283,
+          "h": 304,
+          "component": 5,
+          "area": 36493
+        },
+        {
+          "sourceIndex": 5,
+          "x": 445,
+          "y": 368,
+          "w": 258,
+          "h": 302,
+          "component": 7,
+          "area": 35286
+        },
+        {
+          "sourceIndex": 6,
+          "x": 828,
+          "y": 366,
+          "w": 288,
+          "h": 305,
+          "component": 6,
+          "area": 36882
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1216,
+          "y": 404,
+          "w": 264,
+          "h": 266,
+          "component": 8,
+          "area": 33520
+        },
+        {
+          "sourceIndex": 8,
+          "x": 64,
+          "y": 692,
+          "w": 249,
+          "h": 302,
+          "component": 9,
+          "area": 35490
+        },
+        {
+          "sourceIndex": 9,
+          "x": 461,
+          "y": 703,
+          "w": 253,
+          "h": 292,
+          "component": 11,
+          "area": 33599
+        },
+        {
+          "sourceIndex": 10,
+          "x": 839,
+          "y": 696,
+          "w": 245,
+          "h": 299,
+          "component": 10,
+          "area": 34750
+        }
+      ],
+      "uniformScale": 0.3016393442622951,
+      "componentIsolation": true,
+      "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses",
+      "atlasPath": "public/assets/animation/leo-push-right.webp",
+      "atlasSha256": "dd1e6250f62ae2db2de1f7699d794d277d0b04c34177e04925ca10395c4e0d4c",
+      "atlasBytes": 106822
+    }
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "receive",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "eligibleForPacking": false,
+  "promptFile": "tools/generate-art/marco-vellum-receive4-prompt.md",
+  "prompt": "Create an original transparent RGBA PNG spritesheet exactly 1536 \u00d7 1024 pixels with a strict row-major 2-column \u00d7 2-row grid. Include exactly four distinct, complete full-body drawings, one per 768 \u00d7 512 cell, centered with at least 40 transparent pixels from each cell boundary. Keep all heads, hands, arms, legs and shoes inside their cells. Use crisp outlined 1990s arcade pixel art matching the supplied Marco Vellum portrait and gameplay sprite references.\n\nAll four figures are the same compact athletic adult human MAN: medium-light olive skin, angular clean-shaven face, thick short black hair with a slight wave, no beard or mustache. He wears a black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands, and black high-top shoes. Keep his facial features, hair, skin, compact human proportions and uniform consistent across all four poses.\n\nRight-facing basketball `receive`, strict row-major: pose 0 balanced ready stance, looking toward an incoming pass, hands open and empty near chest height; pose 1 steps toward the incoming pass and reaches both empty hands forward at chest height; pose 2 closes both hands around an imaginary ball at the chest and plants his feet in a stable catch; pose 3 draws the imaginary ball into a secure chest-level hold and settles into balance. Each pose is clearly different and the catch is immediately readable. Do not draw any actual ball: Marco's own separate game-ball track renders it in gameplay.\n\nFull bodies only. True alpha-zero background and gutters. No shadows, haze, checkerboard, floor, court, hoop, text, logos, props, extra characters or basketball. Return only the sheet.",
+  "editPromptFile": "tools/generate-art/marco-vellum-receive-edit-prompt.md",
+  "editPrompt": "Edit this exact 1536\u00d71024 transparent 2\u00d72 sprite sheet. Preserve the top-left, top-right and bottom-left poses as they are. In the bottom-right cell only, redraw Marco as a clearly distinct post-catch settle pose: he is upright and balanced, knees only slightly bent, feet shoulder-width apart, elbows tucked, and he secures the invisible basketball at his right hip with both empty hands. The pose must visibly differ from the bottom-left deep, wide crouched chest catch while preserving the exact same Marco identity: short waved black hair, clean-shaven angular face, medium-light olive skin, black jersey and shorts with crimson piping and white trim, black wristbands and high-top shoes. Keep exactly four complete full-body drawings in the same row-major cells, with transparent alpha-zero background and clear gutters. Do not add an actual ball, background, floor, shadows, text, or props. Return the edited sheet only.",
+  "references": [
+    "tools/generate-art/references/marco-vellum-portrait-reference.png",
+    "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+  ],
+  "review": {
+    "status": "rejected",
+    "notes": "Independent review found the edited lower-right pose has hair pixels at the source-cell top boundary (0 px margin, against the prompt requirement of 40 px) and an unrequested red chest emblem. The accepted edit cannot recover the clipped hair by padding; the predecessor is rejected for duplicate-like catch poses. Preserve this attempt for provenance, but do not pack or count it. The claimed athlete-specific receive ball track is also absent from runtime."
+  },
+  "ballTrack": {
+    "owner": "marco-vellum",
+    "art": "no ball in atlas; independent Marco-specific runtime ball path"
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-marco-vellum-receive4.py",
+    "method": "For each 2x2 cell, retained the largest alpha>=64 athlete component and a 2px antialias fringe; removed generated background and remote pixels. Component-isolated action4 packer verifies four full bodies.",
+    "rawSource": "tools/generate-art/sources/marco-vellum-receive-edited-generated-raw.png",
+    "rawSourceSha256": "60daf860dfeb9059b79affd7c77359fdfe6108a43a36bdd5ea517e3f82ae1152",
+    "previousSource": "tools/generate-art/sources/marco-vellum-receive-generated-raw.png",
+    "previousSourceSha256": "6c87d901f6af0213a9134332b8f2029f38481045d5f262a7fdebd9164fa92c13",
+    "cleanedSource": "tools/generate-art/sources/marco-vellum-receive4.png",
+    "sourceSha256": "215ba83ddebe442073d1380921f1ebb466324bbfea9e0704e8fc9199d7474523"
+  },
+  "sourceSha256": "215ba83ddebe442073d1380921f1ebb466324bbfea9e0704e8fc9199d7474523",
+  "generationHistory": [
+    {
+      "id": "exec-dfaf418e-8197-4ecf-8397-82fda774e855",
+      "status": "edited-after-review",
+      "reason": "Initial sheet had a catch pose and settle pose that were too similar; localized edit changed lower-right pose to an upright hip-secure settle.",
+      "sha256": "6c87d901f6af0213a9134332b8f2029f38481045d5f262a7fdebd9164fa92c13"
+    },
+    {
+      "id": "exec-cbc59c92-f7e4-4a39-9add-deb266f08bc4",
+      "status": "accepted-edit",
+      "parent": "exec-dfaf418e-8197-4ecf-8397-82fda774e855",
+      "promptFile": "tools/generate-art/marco-vellum-receive-edit-prompt.md",
+      "reason": "The lower-right settle pose is visibly distinct while preserving the other three poses and Marco identity.",
+      "sha256": "60daf860dfeb9059b79affd7c77359fdfe6108a43a36bdd5ea517e3f82ae1152"
+    }
+  ],
+  "rejectedAttempts": [
+    {
+      "id": "exec-dfaf418e-8197-4ecf-8397-82fda774e855",
+      "source": "tools/generate-art/sources/marco-vellum-receive-generated-raw.png",
+      "sourceSha256": "6c87d901f6af0213a9134332b8f2029f38481045d5f262a7fdebd9164fa92c13",
+      "promptFile": "tools/generate-art/marco-vellum-receive4-prompt.md",
+      "reason": "The two chest-catch poses were too similar to count as clearly distinct authored drawings; retained and revised with a localized edit."
+    }
+  ],
+  "reviewPreview": "tools/generate-art/sources/marco-vellum-receive-review.png",
+  "artifactHashes": {
+    "rawSourceSha256": "60daf860dfeb9059b79affd7c77359fdfe6108a43a36bdd5ea517e3f82ae1152",
+    "cleanedSourceSha256": "215ba83ddebe442073d1380921f1ebb466324bbfea9e0704e8fc9199d7474523",
+    "atlasSha256": "799c0387dc5e1582af3dd45ad5a5064af5dc29f22005dc1aed37a26a47a2b74b",
+    "reviewPreviewSha256": "9dd50f30a766ba33fd7384424b8f6012e2bd9750428e9ca73e61a7fa622efbb4",
+    "previousSourceSha256": "6c87d901f6af0213a9134332b8f2029f38481045d5f262a7fdebd9164fa92c13"
+  }
+}

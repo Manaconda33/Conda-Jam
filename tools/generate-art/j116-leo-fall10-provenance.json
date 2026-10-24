@@ -1,0 +1,33 @@
+{
+  "athlete": "leo",
+  "clip": "fall",
+  "direction": "right",
+  "canonicalSection": "K.05",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-05b210be-22b1-4b65-8161-c629cdc63e0f",
+  "imageGenerationId": "exec-05b210be-22b1-4b65-8161-c629cdc63e0f",
+  "rawSourceImage": "tools/generate-art/sources/j116-leo-fall-generated-raw.png",
+  "sourceImage": "tools/generate-art/sources/j116-leo-fall-generated-raw.png",
+  "rawSourceSha256": "9d2a4a987f2d3ae792bbd2f5131fea6ccd139ee3fcbdaca999660cf1c0285956",
+  "sourceSha256": "9d2a4a987f2d3ae792bbd2f5131fea6ccd139ee3fcbdaca999660cf1c0285956",
+  "promptFile": "tools/generate-art/j116-leo-fall10-prompt.md",
+  "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as the identity and pixel-art style reference. Draw exactly ten distinct complete full-body Leo poses in a strict five-column by two-row grid, row-major. Broad transparent gutters and outer margins; keep all hair, hands and shoes inside each cell. Same scale and camera; crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human captain of the Blackthorn Court Kings. Preserve his pale skin, long wavy black hair, refined mustache, composed face, natural adult anatomy and controlled character. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThis is a safe basketball collision fall followed by a get-up. Draw only Leo; no ball, opponent, teammate, court, hoop, floor, ground shadow, background, glow, border, grid, text, injury, blood or dramatic impact effect. His hands are empty; game ball remains separate. Exterior and gutters are genuine alpha-zero transparency with no checkerboard, matte, speckles or haze.\n\nTen sequential full-body poses:\n0 loses balance from a defensive stance, arms spread to recover;\n1 staggers one step, torso tilts and arms counterbalance;\n2 knees buckle and he reaches a hand toward the floor;\n3 safely drops to one hip with one palm braced, hair clear of his face;\n4 settles briefly on his side/hip, calm and uninjured, complete anatomy visible;\n5 rolls to a knee and planted palm;\n6 pushes his upper body off the floor, knees underneath;\n7 rises into a low crouch with both feet planted;\n8 begins standing and regains balance, arms lifting naturally;\n9 finishes in a composed ready stance, hands empty.\n\nPreserve Leo’s pale complexion, long wavy black hair, refined mustache and black/crimson uniform throughout. Natural joints and safe athletic motion, no pain or injury cues. Return only the transparent sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [],
+  "mirrorEligible": true,
+  "ballPolicy": "This fall/get-up action has no carried-ball track; game ball remains independent and simulation-owned. Leo keeps empty hands and no ball is drawn.",
+  "cleanup": {
+    "script": "tools/generate-art/package-leo-action10.py",
+    "method": "shared ten-pose component isolation and nearest antialiased-pixel reassignment; 5x2 row-major atlas pack with common baseline"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "Codex visual inspection",
+    "reviewNotes": "Ten distinct complete poses show safe loss of balance, supported fall, roll to a knee, push-up and composed return to stance. Leo remains pale, adult and human with long wavy black hair, refined mustache and black/crimson kit; anatomy remains plausible with no injury cues."
+  },
+  "atlasPath": "public/assets/animation/leo-fall-right.webp",
+  "atlasSha256": "9be6114d8023179a95f643b99968c61980fd46ba955432c59da34cfd190ee315",
+  "atlasBytes": 80174
+}
