@@ -1,29 +1,33 @@
 # Session handoff
 
-## Current checkpoint — J.100 Keeg `dunk-reverse` pushed and deployed in Pages run #138
+## Current checkpoint — J.101 Keeg `dunk-360` validated locally; push pending
 
-J.100 adds fifteen distinct reverse-dunk poses. Keeg now has22/29 reviewed clips /198 authored drawings; all fifteen poses select reviewed production art in both facings. The separate Keeg ball follows behind the turned shoulder and releases at frame10/tick21 aligned with the extended palm. His complete purple mushroom hat, beard, human anatomy, and purple/lavender/silver kit remain intact. Canon K.03 approves mirroring.
+J.101 adds fifteen distinct 360-dunk poses. Keeg now has23/29 reviewed clips /213 authored drawings; each pose selects reviewed production art in both facings. His torso completes the airborne turn, while a separate Keeg-specific ball reaches the extended palm on frame10/tick21. K.03 approves mirroring; his black hair, close beard, tall purple mushroom hat, adult human anatomy and purple/lavender/silver kit remain intact.
 
-Accepted generation `exec-f54acfc6-8616-4a37-9dd2-e94b3ff41df7`; raw source SHA-256 `ba73d07a1236e04851dbee582dc5400cf4af9f474afd5439db803aef87c0624e`; cleaned 15-pose source SHA-256 `9ebb871c77d922933e9e30768370d1e2802d86e7d9ef96372220373b4a5e10a4`. Atlas `public/assets/animation/keeg-dunk-reverse-right.webp` is512×384 /66,994 bytes / SHA-256 `b643df7cae53ab1642999f16c8a511b6f0a65efc7bc427bf7ead362d45d40f2a`. Exact prompt, rejected-attempt history, cleanup, layouts, ball track, and provenance are in J.100 generation files.
+Accepted generation `exec-7e0684b7-bf8b-4626-bd52-21a5c9a6a8f5`; raw source SHA-256 `bdba724ffcbc8a6ef0fe3ee7334d3659f796a7d91065f6caee9e4f9345a32db3`; cleaned source SHA-256 `6fd60609f02b1c76f84a6d7ed99cc70e67475d74e8c33c05595edf62455d9a29`. Atlas `public/assets/animation/keeg-dunk-360-right.webp` is512×384 /72,348 bytes / SHA-256 `66cbe3f6a8c997f630e3e3b5ab3ff183114ffe43ee48bea19acf6a2afeafe25b`. Exact prompt, generation record, cleanup, layout, separate ball path and provenance are in J.101 files.
 
-Validation passes406 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /854,447 ticks /7 overtime periods,52 packer tests, build, and Chromium offline/full-match/season/touch E2E. Standard/zoom120 previews each load166 images and render87 snapshots /452 action frames. Strict report-only audit:663 clips /5,799 drawings /105 athletes,2,440 missing clips,3 target shortfalls,4 inherited prompt findings. J.99 `bb2501d` is deployed in Pages run #137 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40045293081); preview https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bb2501d. J.100 `4ac0c2c` is pushed to `main` and deployed in Pages run #138 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40046126134); preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4ac0c2c. Next roster action: Keeg `dunk-360`.
+Gameplay polish now maps rim centers 5.25 ft from baselines, board faces 4 ft out, lane geometry to 19×16 ft, and three-point/free-throw arcs to the 94×50 ft court proportions. Scoring uses the same elliptical arc and straight corner segments as the rendered markings. Floor boards use finer grain and a low-opacity team wordmark.
+
+Validation passes407 JavaScript tests, lint18 modules, content35 franchises /105 athletes,100-match simulation /866,809 ticks /9 overtime periods,53 packer tests, build and Chromium offline/full-match/season/touch E2E. The zoom120 native preview loads167 images /452 action frames; all fifteen J.101 frames select production art in both facings, with ball at the release palm on frame10/tick21. Strict report-only audit:664 clips /5,814 drawings /105 athletes,2,439 missing clips,3 target shortfalls,4 inherited prompt findings. J.100 `4ac0c2c` remains the deployed checkpoint (Pages #138): https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4ac0c2c. J.101 is validated locally and ready for push. Next: Keeg `dunk-tomahawk`.
 
 ## Active assignment and authorization
 
 Continue https://github.com/Manaconda33/Conda-Jam/issues/3 and the full master specification in `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md`. Neither the full game specification nor the league animation assignment is complete. User authorizes continuous development, image generation, tests, push/merge and GitHub Pages deployment without further approval pauses. Do not ask for another approval of these actions.
 
-Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total across105 athletes), with29,190 minimum; mirroring only after canon review. Runtime transforms, holds, duplicate crops and failed sources never count as authored completion. Issues1/2 also remain open; issue2 floor/arena presentation and real portrait browser acceptance remain unfinished. User prioritizes filling actual animation assets.
+Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total across105 athletes), with29,190 minimum; mirroring only after canon review. Runtime transforms, holds, duplicate crops and failed sources never count as authored completion. Issue #1 is closed. Issue #2 floor/arena presentation and real portrait browser acceptance remain unfinished. User prioritizes filling actual animation assets.
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed commit is J.94 `ff52277`, Pages run #132 succeeded (https://github.com/Manaconda33/Conda-Jam/actions/runs/40041459655).
+Repository: `/workspace/Conda-Jam`, branch `main`. Issue #1 (records-table width) is closed. Issues #2 (arcade/court fidelity) and #3 (complete league animation assets) remain in scope; the full requirements are in `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md` and GitHub issue #2/#3.
 
-- Browser site: https://manaconda33.github.io/Conda-Jam/
-- Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
-- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=ff52277
-- J.29–J.94 are pushed to `main`; J.94 `ff52277` is deployed in Pages run #132. J.95 Keeg celebration is fully validated locally pending checkpoint push; Keeg has17/29 clips /137 authored drawings. Next action is `layup`. Current audit:658 clips /5,738 drawings /105 athletes,2,445 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
+- Latest deployed game commit: `4ac0c2c`, Pages run #138 succeeded: https://github.com/Manaconda33/Conda-Jam/actions/runs/40046126134.
+- Deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4ac0c2c.
+- J.29–J.100 are pushed and deployed. J.101 Keeg `dunk-360` plus court-fidelity changes are fully validated locally and pending checkpoint push. Keeg has23/29 clips /213 authored drawings.
+- Current audit:664 clips /5,814 drawings /105 athletes,2,439 missing clips,3 target shortfalls,4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
+- Asset-only parallel generation is underway by athlete for Moxie (roster position8), Dorian (9), Accu (10), Nova (11) and Echo (12); kept in unique files and still awaiting roster-ordered integration. Keeg’s agent owns the remaining Keeg set.
+- Next Keeg action: `dunk-tomahawk`. Full target remains29 clips and293 authored drawings per athlete, with no completion credited for mirroring, repeated holds, duplicate crops or rejected sources.
 
-GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion. Full specification remains authoritative at `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md`.
+GitHub Pages is enabled. The user authorized continuous image generation, tests, pushes and deployments; do not ask again.
 
 ### J.90 — Keeg `rebound` (validated locally; checkpoint push pending)
 

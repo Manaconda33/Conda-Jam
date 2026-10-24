@@ -310,17 +310,17 @@ function drawCourt(){
   const t=match?teamById(homeSelect.value):teams[0],colors=palette(t),corners=[[0,0],[200,0],[200,100],[0,100]].map(([x,y])=>project(x,y));
   const wood=ctx.createLinearGradient(0,120,0,355);wood.addColorStop(0,'#b96845');wood.addColorStop(.42,'#e1a45a');wood.addColorStop(1,'#a9543d');poly(corners,wood);
   ctx.save();ctx.beginPath();ctx.moveTo(...corners[0]);for(const p of corners.slice(1))ctx.lineTo(...p);ctx.closePath();ctx.clip();
-  for(let lane=0;lane<20;lane++){const y=lane*5;const a=project(0,y),b=project(200,y),c=project(200,y+5),d=project(0,y+5);ctx.globalAlpha=lane%2?.12:.06;poly([a,b,c,d],lane%2?'#4e201d':'#fff1c4');ctx.globalAlpha=1;ctx.strokeStyle='#81433055';ctx.lineWidth=.45;ctx.beginPath();ctx.moveTo(...a);ctx.lineTo(...b);ctx.stroke();}
-  for(let i=0;i<34;i++){const x=(i*47+17)%200,y=(i*29+7)%100,a=project(x,y),b=project(Math.min(200,x+9+(i%8)*3),y+(i%2?1:-1));ctx.strokeStyle=i%3?'#fff3c31b':'#ffefcf35';ctx.lineWidth=i%4===0?1.3:.6;ctx.beginPath();ctx.moveTo(...a);ctx.lineTo(...b);ctx.stroke()}
-  ctx.globalAlpha=.13;const logo=project(100,50);ctx.fillStyle=colors[0];ctx.font='bold 37px monospace';ctx.textAlign='center';ctx.fillText(t.mascot.slice(0,1).toUpperCase(),logo[0],logo[1]+12);ctx.globalAlpha=1;ctx.textAlign='left';
+  for(let lane=0;lane<40;lane++){const y=lane*2.5;const a=project(0,y),b=project(200,y),c=project(200,y+2.5),d=project(0,y+2.5);ctx.globalAlpha=lane%2?.075:.035;poly([a,b,c,d],lane%2?'#4e201d':'#fff1c4');ctx.globalAlpha=1;ctx.strokeStyle='#81433042';ctx.lineWidth=.35;ctx.beginPath();ctx.moveTo(...a);ctx.lineTo(...b);ctx.stroke();}
+  for(let i=0;i<76;i++){const x=(i*47+17)%200,y=(i*29+7)%100,a=project(x,y),b=project(Math.min(200,x+7+(i%9)*2),y+(i%2?1:-1));ctx.strokeStyle=i%4?'#fff3c318':'#ffefcf2b';ctx.lineWidth=i%5===0?1:.55;ctx.beginPath();ctx.moveTo(...a);ctx.lineTo(...b);ctx.stroke()}
+  ctx.globalAlpha=.13;const logo=project(100,50);ctx.fillStyle=colors[0];ctx.font='bold 37px monospace';ctx.textAlign='center';ctx.fillText(t.mascot.slice(0,1).toUpperCase(),logo[0],logo[1]+12);ctx.globalAlpha=.12;ctx.font='bold 12px monospace';ctx.fillText(t.name.toUpperCase(),logo[0],logo[1]+25);ctx.globalAlpha=1;ctx.textAlign='left';
   const line='#f7e3b7';function worldLine(points,width=1.5,color=line){ctx.strokeStyle=color;ctx.lineWidth=width;ctx.beginPath();points.forEach(([x,y],i)=>{const p=project(x,y);i?ctx.lineTo(...p):ctx.moveTo(...p)});ctx.stroke()}
   const markings=courtMarkings(court),zoom=cameraZoom/100;
-  worldLine([[0,0],[200,0],[200,100],[0,100],[0,0]],2.2,'#ffe5ad');worldLine([[100,0],[100,100]],1.5);ctx.strokeStyle=line;ctx.lineWidth=1.5;let c=project(100,50);ctx.beginPath();ctx.arc(c[0],c[1],markings.center.radius*2.2*zoom,0,Math.PI*2);ctx.stroke();
+  worldLine([[0,0],[200,0],[200,100],[0,100],[0,0]],2.2,'#ffe5ad');worldLine([[100,0],[100,100]],1.5);ctx.strokeStyle=line;ctx.lineWidth=1.5;let c=project(...markings.center.position);ctx.beginPath();ctx.ellipse(c[0],c[1],markings.center.radiusX*2.2*zoom,markings.center.radiusY*2.2*zoom,0,0,Math.PI*2);ctx.stroke();
   for(const end of markings.ends){
     worldLine(end.key,1.7);
-    const ft=end.freeThrow,fc=project(...ft.center);ctx.strokeStyle=line;ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(fc[0],fc[1],ft.radius*2.2*zoom,ft.start,ft.end);ctx.stroke();
-    ctx.save();ctx.setLineDash([3,3]);ctx.beginPath();ctx.arc(fc[0],fc[1],ft.radius*2.2*zoom,ft.end,ft.start+Math.PI*2);ctx.stroke();ctx.restore();
-    const arc=end.threePoint,hp=project(...arc.center);ctx.beginPath();ctx.arc(hp[0],hp[1],arc.radius*2.2*zoom,arc.start,arc.end);ctx.stroke();for(const segment of arc.corners)worldLine(segment);
+    const ft=end.freeThrow,fc=project(...ft.center);ctx.strokeStyle=line;ctx.lineWidth=1.5;ctx.beginPath();ctx.ellipse(fc[0],fc[1],ft.radiusX*2.2*zoom,ft.radiusY*2.2*zoom,0,ft.start,ft.end);ctx.stroke();
+    ctx.save();ctx.setLineDash([3,3]);ctx.beginPath();ctx.ellipse(fc[0],fc[1],ft.radiusX*2.2*zoom,ft.radiusY*2.2*zoom,0,ft.end,ft.start+Math.PI*2);ctx.stroke();ctx.restore();
+    const arc=end.threePoint,hp=project(...arc.center);ctx.beginPath();ctx.ellipse(hp[0],hp[1],arc.radiusX*2.2*zoom,arc.radiusY*2.2*zoom,0,arc.start,arc.end);ctx.stroke();for(const segment of arc.corners)worldLine(segment);
     const [rimX,floorY]=project(...end.hoop),rimY=floorY-end.rimHeight*zoom,boardX=project(...end.board)[0];
     ctx.strokeStyle='#243553';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(boardX,floorY+5);ctx.lineTo(boardX,rimY-25);ctx.stroke();
     ctx.fillStyle='#dfe5dc';ctx.fillRect(boardX-3,rimY-25,6,36);ctx.strokeStyle='#84dbe4';ctx.lineWidth=1.4;ctx.strokeRect(boardX-4,rimY-26,8,38);

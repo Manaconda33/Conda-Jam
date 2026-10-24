@@ -10,11 +10,11 @@ function prepareBlock(match,defender){stepMatch(match,[...neutralInputs(match).f
 
 test('shot value is locked to its release location in either direction', () => {
   assert.equal(scoreValue({ x: 170, team: 0 }, 0), 2);
-  assert.equal(scoreValue({ x: 140, team: 0 }, 0), 3);
+  assert.equal(scoreValue({ x: 130, team: 0 }, 0), 3);
   assert.equal(scoreValue({ x: 30, team: 1 }, 1), 2);
-  assert.equal(scoreValue({ x: 60, team: 1 }, 1), 3);
-  assert.equal(scoreValue({ x: 150, y: 20 }, 0), 3);
-  assert.equal(scoreValue({ x: 50, y: 80 }, 1), 3);
+  assert.equal(scoreValue({ x: 70, team: 1 }, 1), 3);
+  assert.equal(scoreValue({ x: 140, y: 20 }, 0), 3);
+  assert.equal(scoreValue({ x: 60, y: 80 }, 1), 3);
 });
 
 test('practice mode keeps both clocks running free and restores controlled possession on reset',()=>{
@@ -495,19 +495,21 @@ test('regulation transitions into overtime on a tie and only finishes after a de
   assert.equal(match.phase, 'final');
 });
 
-test('three-point scoring shares the regulation arc and corner lines in both directions',()=>{
-  assert.equal(court.arc,50.5);assert.equal(court.cornerY,6.4);
+test('three-point scoring follows the regulation elliptical arc and corner segments in both directions',()=>{
+  const cornerOffset=court.arcX*Math.sqrt(1-((50-court.cornerY)/court.arcY)**2);
   for(const team of [0,1]){
-    const hoop=team===0?192:8,dir=team===0?-1:1;
-    assert.equal(scoreValue({x:hoop+dir*50.5,y:50},team),2,'a foot on the arc is two');
-    assert.equal(scoreValue({x:hoop+dir*50.501,y:50},team),3);
+    const hoop=team===0?court.hoops[1]:court.hoops[0],dir=team===0?-1:1;
+    assert.equal(scoreValue({x:hoop+dir*court.arcX,y:50},team),2,'a foot on the arc is two');
+    assert.equal(scoreValue({x:hoop+dir*(court.arcX+.01),y:50},team),3);
     assert.equal(scoreValue({x:hoop+dir*42,y:50},team),2,'old shortened arc is inside');
-    for(const y of [6.4,93.6])assert.equal(scoreValue({x:hoop,y},team),2,'a foot on the corner line is two');
-    for(const y of [6.399,93.601])assert.equal(scoreValue({x:hoop,y},team),3,'corner threes may be inside the circular radius');
+    for(const y of [0,court.cornerY,100-court.cornerY,100]){
+      assert.equal(scoreValue({x:hoop+dir*(cornerOffset-.01),y},team),2,'inside the straight corner line is two');
+      assert.equal(scoreValue({x:hoop+dir*(cornerOffset+.01),y},team),3,'past the straight corner line is three');
+    }
   }
 });
 test('a genuine above-arc three stays in flight and can score its locked value',()=>{
-  const m=createMatch({quarterSeconds:60,seed:1}),p=m.players[0];p.x=140;p.y=50;p.shoot=99;
+  const m=createMatch({quarterSeconds:60,seed:1}),p=m.players[0];p.x=130;p.y=50;p.shoot=99;
   for(const defender of m.players.filter(d=>d.team!==p.team)){defender.x=20;defender.y=0;}
   stepMatch(m,[...neutralInputs(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true})]);
   advanceToAnchor(m,p,'release');assert.equal(m.ball.mode,'shot');assert.equal(m.ball.value,3);assert.equal(p.threeAttempts,1);const attempt=m.ball.attemptId;

@@ -578,6 +578,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // The reverse layup rotates the far-side hand behind Keeg's shoulder. Keep
   // the separate ball at that raised hand through frame5/tick12, then release.
   'layup-reverse':{height:[1.05,1.25,1.3,1.85,2.15,2.15,1.4,.6],forward:[6,8,6,6,3,2,7,6]},
+  // The 360 dunk keeps Keeg's separate ball beside his turning hand through
+  // the airborne spin, then meets the extended palm at the tick21 release.
+  'dunk-360':{height:[.95,1.1,1.25,1.4,1.7,2,2.2,2.4,2.6,2.5,1.7,1.8,1.45,.7,.55],forward:[6,8,4,0,-4,-8,-6,-3,2,5,8,10,8,5,6]},
   // Keeg's power dunk tracks the separate ball past his full hat and into the
   // extended shooting hand for the shared frame10/tick21 release.
   'dunk-power':{height:[.95,1.1,1.2,.95,1.25,1.55,1.85,2.15,2.3,2.4,2.45,2,1.45,.7,.55],forward:[6,8,10,9,7,6,3,4,8,13,15,12,8,5,6]},

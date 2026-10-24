@@ -1,5 +1,9 @@
 import { animationClips, sampleAnimation, animationDuration, anchorTick, dunkVariants, sampleBallHeight, sampleBallForward, flightHeightFromHand } from './animation.js';
-const COURT = { minX: 0, maxX: 200, minY: 0, maxY: 100, hoops: [8, 192], arc: 50.5, cornerY: 6.4 };
+const COURT = { minX: 0, maxX: 200, minY: 0, maxY: 100,
+  hoops: [200 * 5.25 / 94, 200 * (1 - 5.25 / 94)],
+  arcX: 200 * 23.75 / 94, arcY: 100 * 23.75 / 50, cornerY: 100 * 3 / 50,
+  keyLength: 200 * 19 / 94, keyHalfWidth: 100 * 8 / 50,
+  boardOffset: 200 * 4 / 94, hoopOffset: 200 * 5.25 / 94 };
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 const hypot = (x, y) => Math.hypot(x, y) || 1;
 const CPU_PROFILES = {
@@ -14,8 +18,11 @@ export function cpuProfileFor(difficulty = 'Pro') {
 
 export function scoreValue(player, team) {
   const hoop = team === 0 ? COURT.hoops[1] : COURT.hoops[0];
-  const fromCenter=Math.abs((player.y??50)-50);
-  return hypot(player.x-hoop,fromCenter)>COURT.arc||fromCenter>50-COURT.cornerY?3:2;
+  const fromCenter=Math.abs((player.y??50)-50),cornerDistance=50-COURT.cornerY;
+  const verticalDistance=Math.min(fromCenter,cornerDistance);
+  const horizontalDistance=Math.abs(player.x-hoop);
+  const normalizedDistance=(horizontalDistance/COURT.arcX)**2+(verticalDistance/COURT.arcY)**2;
+  return normalizedDistance>1+1e-10?3:2;
 }
 
 export function createInput(playerId, values = {}) {

@@ -39282,6 +39282,313 @@ export const animationAssetManifest = {
               "atlasBytes": 66994
             },
             "reviewed": true
+          },
+          "dunk-360": {
+            "src": "./public/assets/animation/keeg-dunk-360-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a4179e0b640bdc3c5c1927ce7ed3164807a220934a9c8283e2e5b887bfce93c6"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "1ed59568e008f5018982ed7f28ed82c891757641a9c6f200c822151ba30b968f"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "602c876982b151ed159662edd295a67df10a61a77158cae786220e4934662752"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2c1173e6d43d0fd3a74696a8df924fa73390d890b65fffd70d951b8638c88853"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "161f61250fb7db62248c086dca91948cc4fd1d04e645c4892dadecc161766305"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "58330f71ab82acdd14e0e22ccb5cc4ca99bf9461a6f2f0493672865cf036c5f9"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c036844ff7eb31e0f4259a8b191980fbb91e645f4aeebeaa4d7b95c405eb2d1d"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "87d2047bca68fde8d5c5f8f74b0504607e7c05fefeec972681f2af48244eab72"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "bb4e2d81ba328f9bdfa89d93efecbfbff98a433331253510316a2c3566c6e39d"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "00099c7265993aff471ed8acef9d3e30ca69cfaf3e02b50f97b53316782d8c64"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "eb228ce6edeccec5ffa7845ac86331543aa3f3f928fa374c2d3b1472ddd657ee"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e937f9a8dfe0888a4a672d58b7c2063228184cf9a4a6748dd0691d3f8f21575d"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "cdafeac47cfac64691883cbf31a97ea770ce7a510a4581bbfb5e34ca0d2744da"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "57bd75df76b876b7654c42a4d9384c9d0fc4b59878704318b30d6ec683cd0668"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "88c1ddb20de9be1375393a120f28e1849a694c7e2d4033f43f1d7bc36501a506"
+              }
+            ],
+            "sha256": "66cbe3f6a8c997f630e3e3b5ab3ff183114ffe43ee48bea19acf6a2afeafe25b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "dunk-360",
+              "direction": "right",
+              "canonicalSection": "K.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-7e0684b7-bf8b-4626-bd52-21a5c9a6a8f5",
+              "imageGenerationId": "exec-7e0684b7-bf8b-4626-bd52-21a5c9a6a8f5",
+              "rawSourceImage": "tools/generate-art/sources/j101-keeg-dunk-360-generated-raw.png",
+              "rawSourceSha256": "bdba724ffcbc8a6ef0fe3ee7334d3659f796a7d91065f6caee9e4f9345a32db3",
+              "sourceImage": "tools/generate-art/sources/j101-keeg-dunk-36015.png",
+              "sourceSha256": "e1d4849ee13f1c4dfb7bcd3fe65915880f7533095fb8239091428f13a9c27d53",
+              "prompt": "Create an original 1536\u00d71024 transparent RGBA production sprite sheet for JAMVERSE '96: Keeg of the Moonmorel Hex performing a powerful full-body 360 dunk. Arrange exactly fifteen separate complete full-body poses in a strict five-column by three-row grid, row-major, with broad transparent gutters and outer margins. Each pose must stay entirely inside its own cell. Same pixel-art style, scale, camera and anatomy throughout. No cell boundaries, scenery, court, hoop, floor, shadows, effects, text, labels, teammate, opponent or props.\n\nKeeg is a flamboyant adult human man with normal athletic human anatomy, black hair, a neatly trimmed close black beard and expressive face. His tall ornate purple witch hat has silver trim and small mushroom ornaments; keep its complete recognizable height and silhouette in every pose. He wears the layered purple/lavender/silver Moonmorel Hex athletic kit, belt, restrained occult detailing and matching shoes. Keep his human face, proportions, hands, two arms, two legs, black hair, beard, full hat, mushrooms, kit colors and shoes consistent. No monster anatomy, horns, robe, cape, staff, extra limbs or changed uniform. Keep both hands empty: the basketball is separate game art. Never draw any ball, sphere, orb, seams, prop, rim or hoop.\n\nThis is a jumping 360 dunk. Keeg gathers the invisible ball, plants, takes off, completes one clear full-body 360-degree turn while airborne, cocks the ball-miming hand beside the shoulder, then reaches up and dunks with one hand. The other arm counterbalances; knees tuck and legs kick naturally through rotation. Keep the whole tall hat visible and unobstructed in every pose. All poses are distinct connected keyframes with readable weight and motion:\n0 right-facing approach, controlled stride;\n1 gathers the invisible ball at waist;\n2 low two-foot plant and crouch;\n3 takeoff, torso begins turning toward viewer;\n4 airborne, torso rotates through front-facing view;\n5 mid-spin, back and shoulders turn toward viewer;\n6 torso continues toward the opposite profile;\n7 high airborne spin, ball-miming hand secured near shoulder, hat stable;\n8 full rotation returns toward the right-facing finish, knees tucked;\n9 cocks for one-handed dunk, empty hand near the crown but never over the hat;\n10 single RELEASE at simulation tick21: arm fully extended toward the rim, palm open, already empty;\n11 empty-handed follow-through through rim;\n12 descent with torso turning back toward the court;\n13 controlled two-foot landing, knees flexed;\n14 balanced recovery, arms lower.\n\nKeep Keeg right-facing in the source sheet and moving toward image-right on approach; the turn happens during the jump. Preserve complete bodies at consistent scale, clean pixel-art edges and true transparent RGBA gutters and exterior: no alpha haze, checkerboard, matte or speckles. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Separate Keeg-specific ball follows the ball-miming hand through his full 360-degree airborne turn and reaches the extended hand at frame10/tick21. The ball is never painted into the poses.",
+              "ballTrack": {
+                "height": [
+                  0.95,
+                  1.1,
+                  1.25,
+                  1.4,
+                  1.7,
+                  2,
+                  2.2,
+                  2.4,
+                  2.6,
+                  2.5,
+                  1.7,
+                  1.8,
+                  1.45,
+                  0.7,
+                  0.55
+                ],
+                "forward": [
+                  6,
+                  8,
+                  4,
+                  0,
+                  -4,
+                  -8,
+                  -6,
+                  -3,
+                  2,
+                  5,
+                  8,
+                  10,
+                  8,
+                  5,
+                  6
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-keeg-dunk-36015.py",
+                "layoutFile": "tools/generate-art/j101-keeg-dunk-360-cleanup-layout.json",
+                "minimumCellMarginPx": 11,
+                "removedHighChromaRedPixels": true
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "Fifteen distinct complete Keeg 360-dunk poses. Human identity, complete tall mushroom hat, black beard, purple/silver kit and anatomy remain consistent. Torso rotates through rear/profile/forward views; the separate ball meets the extended palm at frame10/tick21. K.03 approves mirroring."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 26,
+                  "y": 30,
+                  "w": 253,
+                  "h": 301,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 339,
+                  "y": 28,
+                  "w": 243,
+                  "h": 303,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 662,
+                  "y": 81,
+                  "w": 211,
+                  "h": 251,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 963,
+                  "y": 29,
+                  "w": 223,
+                  "h": 303,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1252,
+                  "y": 76,
+                  "w": 259,
+                  "h": 255,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 22,
+                  "y": 403,
+                  "w": 261,
+                  "h": 270,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 330,
+                  "y": 394,
+                  "w": 260,
+                  "h": 279,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 638,
+                  "y": 400,
+                  "w": 259,
+                  "h": 273,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 945,
+                  "y": 416,
+                  "w": 261,
+                  "h": 258,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1271,
+                  "y": 370,
+                  "w": 223,
+                  "h": 303,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 59,
+                  "y": 712,
+                  "w": 190,
+                  "h": 303,
+                  "component": 69
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 330,
+                  "y": 720,
+                  "w": 260,
+                  "h": 295,
+                  "component": 71
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 643,
+                  "y": 711,
+                  "w": 249,
+                  "h": 304,
+                  "component": 68
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 959,
+                  "y": 730,
+                  "w": 233,
+                  "h": 284,
+                  "component": 72
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1277,
+                  "y": 712,
+                  "w": 209,
+                  "h": 303,
+                  "component": 70
+                }
+              ],
+              "uniformScale": 0.3026315789473684,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
@@ -39290,7 +39597,7 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "Keeg\u2019s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. J.01 and K.03 approve mirroring; the basketball remains a separate runtime object.",
         "reviewedAt": "2026-10-24",
-        "scope": "canonical K.03 body direction policy; Keeg reviewed actions through J.100",
+        "scope": "canonical K.03 body direction policy; Keeg reviewed actions through J.101",
         "evidence": [
           "tools/generate-art/keeg-block4-layouts.json",
           "tools/generate-art/keeg-steal8-layouts.json",
@@ -39312,7 +39619,11 @@ export const animationAssetManifest = {
           "tools/generate-art/keeg-dunk-windmill15-layouts.json",
           "public/assets/animation/keeg-dunk-windmill-right.webp",
           "tools/generate-art/keeg-dunk-reverse15-layouts.json",
-          "public/assets/animation/keeg-dunk-reverse-right.webp"
+          "public/assets/animation/keeg-dunk-reverse-right.webp",
+          "tools/generate-art/keeg-dunk-36015-layouts.json",
+          "public/assets/animation/keeg-dunk-360-right.webp",
+          "tools/generate-art/keeg-dunk-36015-layouts.json",
+          "public/assets/animation/keeg-dunk-360-right.webp"
         ],
         "canonicalSection": "K.03"
       }

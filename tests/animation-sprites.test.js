@@ -410,6 +410,29 @@ test('Keeg selects eight reviewed layup poses with a separate release hand track
   tick+=animationClips.layup.frames[frame].duration;
  }
 });
+test('Keeg selects fifteen reviewed 360-dunk poses with a separate spinning ball track',()=>{
+ const id='keeg',character=animationAssetManifest.characters[id],clip=character?.directions?.right?.['dunk-360'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(character?.mirrorReview?.canonicalSection,'K.03');
+ assert.ok(clip,'registered 360-dunk atlas');assert.equal(clip.reviewed,true);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'e1d4849ee13f1c4dfb7bcd3fe65915880f7533095fb8239091428f13a9c27d53');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.ballTrack.forward[10],8);assert.equal(clip.provenance.ballTrack.height[10],1.7);
+ const release=anchorTick('dunk-360','release');assert.equal(release,21);
+ assert.equal(sampleBallForward('dunk-360',release,id),8);assert.equal(sampleBallHeight('dunk-360',release,id),1.7);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-360',tick).frame,frame,'runtime maps Keeg 360-dunk pose '+frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-360',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-360'].frames[frame].duration;
+ }
+});
 test('Keeg selects fifteen reviewed reverse-dunk poses with a separate far-side ball release',()=>{
  const id='keeg',character=animationAssetManifest.characters[id],clip=character?.directions?.right?.['dunk-reverse'];
  assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
