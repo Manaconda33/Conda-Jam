@@ -1,10 +1,10 @@
-## In-progress follow-up — portrait court and touch accessibility (local validation passed; push pending)
+## Current checkpoint — portrait court, touch accessibility and audit refresh (Pages run #157 passed)
 
 - Portrait play no longer crops the fixed 480×360 court into a narrow strip: mobile CSS letterboxes the full court. The 390×844 Chromium screenshot is `artifacts/screenshots/mobile-court.png`.
 - Joystick mode preserves the labeled D-pad in the assistive-technology tree while keeping it visually hidden until focused. E2E checks the `Move up` button remains exposed and confirms joystick movement.
 - Verification after these changes: `npm test` 413/413; `npm run test:e2e` PASS (including standalone offline, full match, touch, and named dialogs); lint 18 modules; content 35/105; 100-match simulation 851,533 ticks / 4 overtime periods. Atlas packer remains 55/55.
 - Strict report-only audit refreshed at 2026-10-24T13:28:15Z: 667 clips / 5,859 authored drawings / 105 athletes; 2,436 missing clips, 3 target shortfalls and 4 inherited prompt findings.
-- Latest deployed checkpoint is `8c54309`, Pages run #156 succeeded: https://github.com/Manaconda33/Conda-Jam/actions/runs/40097847308. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=8c54309. The CSS and audit follow-up is not pushed yet.
+- Responsive/accessibility and audit checkpoint `31224b3` is pushed and deployed in Pages run #157: https://github.com/Manaconda33/Conda-Jam/actions/runs/40098618086. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=31224b3.
 
 ## Current checkpoint — gameplay, accessibility and audit refresh (Pages run #156 passed)
 
