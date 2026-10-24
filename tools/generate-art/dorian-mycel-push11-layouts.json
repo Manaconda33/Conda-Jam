@@ -10,67 +10,67 @@
       {
         "x": 0,
         "y": 0,
-        "w": 128,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 128,
+        "x": 96,
         "y": 0,
-        "w": 128,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 256,
+        "x": 192,
         "y": 0,
-        "w": 128,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
         "h": 96
       },
       {
         "x": 384,
         "y": 0,
-        "w": 128,
-        "h": 96
-      },
-      {
-        "x": 512,
-        "y": 0,
-        "w": 128,
+        "w": 96,
         "h": 96
       },
       {
         "x": 0,
         "y": 96,
-        "w": 128,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 128,
+        "x": 96,
         "y": 96,
-        "w": 128,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 256,
+        "x": 192,
         "y": 96,
-        "w": 128,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
         "h": 96
       },
       {
         "x": 384,
         "y": 96,
-        "w": 128,
-        "h": 96
-      },
-      {
-        "x": 512,
-        "y": 96,
-        "w": 128,
+        "w": 96,
         "h": 96
       },
       {
         "x": 0,
         "y": 192,
-        "w": 128,
+        "w": 96,
         "h": 96
       }
     ],
@@ -343,7 +343,199 @@
       ],
       "uniformScale": 0.2694610778443114,
       "componentIsolation": true,
-      "packaging": "package-dorian-actions.py; 128x96 cells; baseline94; lossless WebP; 11 original poses"
-    }
+      "packaging": "package-dorian-actions.py; 128x96 cells; baseline94; lossless WebP; 11 original poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-dorian-mycel-package.py",
+        "previousAtlasSha256": "913ae33820cf24efaa2d73497bd11f375acedf6d529ad99b9c5b56fbc5b6b787",
+        "atlasSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+        "fit": "uniform scale, never upscale, max 86px high, cell width minus 10px; horizontally centered with baseline aligned to 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 5,
+          "right": 5,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              85,
+              86
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 6,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              57,
+              84
+            ],
+            "marginsPx": {
+              "left": 19,
+              "right": 20,
+              "top": 7,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              72,
+              86
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 12,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              86,
+              79
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 12,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              86,
+              73
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 18,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              86,
+              64
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 27,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              86,
+              68
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 23,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              84,
+              86
+            ],
+            "marginsPx": {
+              "left": 6,
+              "right": 6,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 8,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              76,
+              86
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 10,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 9,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              73,
+              86
+            ],
+            "marginsPx": {
+              "left": 11,
+              "right": 12,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 10,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              86,
+              85
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 6,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a"
   }
 ]

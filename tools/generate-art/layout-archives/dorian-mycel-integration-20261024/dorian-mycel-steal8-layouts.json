@@ -1,0 +1,268 @@
+[
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "steal",
+    "src": "./public/assets/animation/dorian-mycel-steal-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 96
+      },
+      {
+        "x": 120,
+        "y": 0,
+        "w": 120,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 120,
+        "h": 96
+      },
+      {
+        "x": 360,
+        "y": 0,
+        "w": 120,
+        "h": 96
+      },
+      {
+        "x": 480,
+        "y": 0,
+        "w": 120,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 120,
+        "h": 96
+      },
+      {
+        "x": 120,
+        "y": 96,
+        "w": 120,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 120,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "clip": "steal",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-31f9a9b3-7137-412a-aebe-2e7de6d453c8",
+      "imageGenerationId": "exec-31f9a9b3-7137-412a-aebe-2e7de6d453c8",
+      "rawSourceImage": "tools/generate-art/sources/dorian-mycel-steal8-generated-raw.png",
+      "rawSourceSha256": "6b305403d6b90b4475dc2f59da25c4fa92a475c3613bff42008329c359479e5a",
+      "sourceSha256": "6b305403d6b90b4475dc2f59da25c4fa92a475c3613bff42008329c359479e5a",
+      "prompt": "Create a true-transparent RGBA JAMVERSE '96 sprite sheet of EXACTLY eight separate complete Dorian Mycel poses in a strict four-column by two-row grid, row-major. Match the attached Dorian portrait and gameplay reference precisely: adult compact athletic human man, warm medium-brown skin, clean-shaven focused face and strong brows, short dense vivid-purple curls, purple Chicago Condas kit with silver/lavender trim, dark knee pads, wristbands and purple/silver shoes. Preserve two arms, two hands, two legs, shoes, his individual face, hair and proportions.\n\nRight-facing STEAL action, a quick defensive swipe that recovers possession. No other players or objects. The game basketball is separate; do not draw it, a ball seam, sphere or prop. No court, hoop, floor, shadow, background, text, number, logo, glow, border or grid. Clean 1990s arcade pixel art, dark outlines, actual transparent alpha and broad gutters. Exactly one entire in-bounds figure per cell.\n\n0 low alert defensive stance, weight centered;\n1 lunges forward with right hand extended into the ball lane;\n2 twists torso and sweeps the hand down/across;\n3 STEAL at tick5: right hand closes and pulls back after intercepting the invisible ball;\n4 pivots to turn upcourt with ball-miming hand near hip;\n5 accelerates rightward, protecting invisible ball;\n6 one running stride forward, head up;\n7 controlled recovery stance, hands empty or low.\nEight distinct poses connected by plausible motion, no repeats. Return only the sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 8.",
+      "ballTrack": {
+        "height": [
+          1.15,
+          0.95,
+          0.65,
+          0.4,
+          0.7,
+          1.0,
+          1.2,
+          1.1
+        ],
+        "forward": [
+          8.0,
+          10.0,
+          12.0,
+          13.0,
+          14.0,
+          14.0,
+          12.0,
+          9.0
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-dorian-actions.py",
+        "method": "alpha-connected component isolation and nearest-pixel reassignment"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "8 distinct complete Dorian steal poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented steal track."
+      },
+      "sourceImage": "tools/generate-art/sources/dorian-mycel-steal8-generated-raw.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "sourceRect": {
+            "component": 1,
+            "area": 59972,
+            "x": 27,
+            "y": 53,
+            "w": 379,
+            "h": 359,
+            "row": 0,
+            "column": 0
+          },
+          "cropBox": [
+            25,
+            51,
+            408,
+            414
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "sourceRect": {
+            "component": 2,
+            "area": 62259,
+            "x": 437,
+            "y": 54,
+            "w": 486,
+            "h": 358,
+            "row": 0,
+            "column": 1
+          },
+          "cropBox": [
+            435,
+            52,
+            925,
+            414
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "sourceRect": {
+            "component": 4,
+            "area": 57466,
+            "x": 914,
+            "y": 79,
+            "w": 412,
+            "h": 331,
+            "row": 0,
+            "column": 2
+          },
+          "cropBox": [
+            912,
+            77,
+            1328,
+            412
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "sourceRect": {
+            "component": 3,
+            "area": 57386,
+            "x": 1390,
+            "y": 54,
+            "w": 339,
+            "h": 358,
+            "row": 0,
+            "column": 3
+          },
+          "cropBox": [
+            1388,
+            52,
+            1731,
+            414
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "sourceRect": {
+            "component": 6,
+            "area": 57256,
+            "x": 55,
+            "y": 474,
+            "w": 333,
+            "h": 375,
+            "row": 1,
+            "column": 0
+          },
+          "cropBox": [
+            53,
+            472,
+            390,
+            851
+          ]
+        },
+        {
+          "sourceIndex": 5,
+          "sourceRect": {
+            "component": 8,
+            "area": 58768,
+            "x": 442,
+            "y": 489,
+            "w": 413,
+            "h": 363,
+            "row": 1,
+            "column": 1
+          },
+          "cropBox": [
+            440,
+            487,
+            857,
+            854
+          ]
+        },
+        {
+          "sourceIndex": 6,
+          "sourceRect": {
+            "component": 5,
+            "area": 59882,
+            "x": 917,
+            "y": 458,
+            "w": 389,
+            "h": 402,
+            "row": 1,
+            "column": 2
+          },
+          "cropBox": [
+            915,
+            456,
+            1308,
+            862
+          ]
+        },
+        {
+          "sourceIndex": 7,
+          "sourceRect": {
+            "component": 7,
+            "area": 56937,
+            "x": 1394,
+            "y": 488,
+            "w": 333,
+            "h": 372,
+            "row": 1,
+            "column": 3
+          },
+          "cropBox": [
+            1392,
+            486,
+            1729,
+            862
+          ]
+        }
+      ],
+      "uniformScale": 0.22277227722772278,
+      "componentIsolation": true,
+      "packaging": "package-dorian-actions.py; 120x96 cells; baseline94; lossless WebP; 8 original poses"
+    }
+  }
+]

@@ -85,6 +85,18 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
  const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(selected),sourceDirection:selected?.atlas?.file?.match(/-(left|right)\.webp$/)?.[1]??null,flipped:selected?.flip??false,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId});
 }
 const actionFramePreviews=[];
+// Inspect all Dorian ball-ready and locomotion frames with the separate ball
+// attached, including newly authored extension poses 08–10.
+for(const clip of ['idle-ball','dribble','dribble-run'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
+ for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
+ p.x=100;p.y=50;p.z=0;p.facing=position==='right'?1:-1;p.animation={clip,tick};p.hasBall=true;
+ Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:sampleBallHeight(clip,tick,p.id),mode:'carried',ownerId:p.id});
+ game.tick(0);
+ const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
+ const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});
+ actionFramePreviews.push({path,athlete:p.id,clip,frame,tick,facing:p.facing,production:Boolean(selected),selectedFrame:selected?.frame,source:selected?.atlas?.file??null,flipped:selected?.flip??false,hasBall:true,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:'separate ball throughout possession'});
+ tick+=animationClips[clip].frames[frame].duration;
+}
 for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','pickup','block','push','rebound','steal','layup','layup-reverse','fall','celebrate'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};

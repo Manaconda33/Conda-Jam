@@ -1,0 +1,415 @@
+{
+  "date": "2026-10-24",
+  "athlete": "dorian-mycel",
+  "registeredClipTarget": 29,
+  "clipsRepacked": 29,
+  "authoredLocomotionFramesAdded": 5,
+  "clips": [
+    {
+      "clip": "alley-oop-power",
+      "frames": 15,
+      "atlas": "public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+      "previousAtlasSha256": "e1eddef17f9ad4dc13078298b06902d60de9d1ce9c488341ac8b203100445715",
+      "atlasSha256": "143f6d19b342019a623454404294b12dcf8b2bf2d181c39ad59ab28cbdf3df80",
+      "minimumMarginsPx": {
+        "left": 13,
+        "right": 13,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/alley-oop-power-dark-light.png"
+    },
+    {
+      "clip": "alley-oop-reverse",
+      "frames": 15,
+      "atlas": "public/assets/animation/dorian-mycel-alley-oop-reverse-right.webp",
+      "previousAtlasSha256": "7265fb840872b13d477138a73f7c5800c4d89de3f1b73e205b18c3008174d931",
+      "atlasSha256": "4c4e71a4f77eb52158ad3f8f89e289252ac0155ee45c6e8558ce09aa8cc7e4b2",
+      "minimumMarginsPx": {
+        "left": 6,
+        "right": 6,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/alley-oop-reverse-dark-light.png"
+    },
+    {
+      "clip": "block",
+      "frames": 4,
+      "atlas": "public/assets/animation/dorian-mycel-block-right.webp",
+      "previousAtlasSha256": "cec76934fff82db23c2e8ebb8f66e9e535b2e5240dfdd41cc09c32a3dfa1cae7",
+      "atlasSha256": "84c7ab5069793cd9801d4a1cf1e9ae049e003cc674ed9095895414db676d3e65",
+      "minimumMarginsPx": {
+        "left": 14,
+        "right": 15,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/block-dark-light.png"
+    },
+    {
+      "clip": "celebrate",
+      "frames": 10,
+      "atlas": "public/assets/animation/dorian-mycel-celebrate-right.webp",
+      "previousAtlasSha256": "ea1e1e16c4ef05bbf8e34677de3b4ebf8e5d58b665ee396b8d3cc2738d5d9f60",
+      "atlasSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+      "minimumMarginsPx": {
+        "left": 8,
+        "right": 9,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/celebrate-dark-light.png"
+    },
+    {
+      "clip": "dribble",
+      "frames": 10,
+      "atlas": "public/assets/animation/dorian-mycel-dribble-right.webp",
+      "previousAtlasSha256": "d06e6b1bd120e1244896ad495ce0e886072d5af5c7ead682a4393f24d5cb7ba4",
+      "atlasSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/dribble-dark-light.png"
+    },
+    {
+      "clip": "dribble-run",
+      "frames": 11,
+      "atlas": "public/assets/animation/dorian-mycel-dribble-run-right.webp",
+      "previousAtlasSha256": "b733ea1493d2a4d36a061d4a8042d1fc6404732d271958534f7615d2c2c312d2",
+      "atlasSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/dribble-run-dark-light.png"
+    },
+    {
+      "clip": "dunk-360",
+      "frames": 15,
+      "atlas": "public/assets/animation/dorian-mycel-dunk-360-right.webp",
+      "previousAtlasSha256": "e6fcf96e7d8c2f1370e9a401e3b26290f557bc80afa5af344c4ec539c51ae807",
+      "atlasSha256": "f954e294b986895e28a842eaa4992a743eea82daebe8144c2875eba522a29389",
+      "minimumMarginsPx": {
+        "left": 7,
+        "right": 8,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/dunk-360-dark-light.png"
+    },
+    {
+      "clip": "dunk-clutch",
+      "frames": 15,
+      "atlas": "public/assets/animation/dorian-mycel-dunk-clutch-right.webp",
+      "previousAtlasSha256": "1ceb5c771b2e0e304de8e050b6859a6e0b654d86f03c4a0997dd82ab5c1dd6df",
+      "atlasSha256": "72d888f1621981de1ec10231d9b81c8b2ba073263661cd45f134d375f5537a9a",
+      "minimumMarginsPx": {
+        "left": 6,
+        "right": 6,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/dunk-clutch-dark-light.png"
+    },
+    {
+      "clip": "dunk-double",
+      "frames": 15,
+      "atlas": "public/assets/animation/dorian-mycel-dunk-double-right.webp",
+      "previousAtlasSha256": "df28c97a68b4b64ff353aadabad57dcefe2b2f987cedf77e45f29a557f719f3d",
+      "atlasSha256": "3e12b3b90c1ff6ffd4618b05fc370665815e3ee7def37f502f90921ce9a1d2cd",
+      "minimumMarginsPx": {
+        "left": 14,
+        "right": 14,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/dunk-double-dark-light.png"
+    },
+    {
+      "clip": "dunk-power",
+      "frames": 15,
+      "atlas": "public/assets/animation/dorian-mycel-dunk-power-right.webp",
+      "previousAtlasSha256": "b394590b273361939a09a339ce1194e3e197960f95dc3ff51a194b99be2a0ca7",
+      "atlasSha256": "02ab3f2f0ca3350028542e4f5557194dd1d8fe7af02b9dccb6c1393be3a9d398",
+      "minimumMarginsPx": {
+        "left": 18,
+        "right": 19,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/dunk-power-dark-light.png"
+    },
+    {
+      "clip": "dunk-reverse",
+      "frames": 15,
+      "atlas": "public/assets/animation/dorian-mycel-dunk-reverse-right.webp",
+      "previousAtlasSha256": "9bc620230b089c809210eea999831088657542513be2b3f8c5ba91d5b67b9f7e",
+      "atlasSha256": "e3fc7b7df18b6309165ae4c3bf8d41c0772fe805d1bf09adb24d095d1a0fce91",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/dunk-reverse-dark-light.png"
+    },
+    {
+      "clip": "dunk-scythe",
+      "frames": 15,
+      "atlas": "public/assets/animation/dorian-mycel-dunk-scythe-right.webp",
+      "previousAtlasSha256": "3765908a09df5e0cbb759fb64e3e052c739f6527f9d4c00e79539dc9a7e19472",
+      "atlasSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+      "minimumMarginsPx": {
+        "left": 6,
+        "right": 7,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/dunk-scythe-dark-light.png"
+    },
+    {
+      "clip": "dunk-tomahawk",
+      "frames": 15,
+      "atlas": "public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+      "previousAtlasSha256": "d2f417ec66217ebae1a02a327e5899e9c5398205315c65915fd71b6122bd6a2f",
+      "atlasSha256": "0c824d5f05399b8503161a24bf93126852e75e7852613cb46ca3fd6804a36c6d",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/dunk-tomahawk-dark-light.png"
+    },
+    {
+      "clip": "dunk-windmill",
+      "frames": 15,
+      "atlas": "public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+      "previousAtlasSha256": "69ab477864f6d0b70ecffeea951acc3fdd5bec92fa72f7b178d2ed45205d756c",
+      "atlasSha256": "978b53ff6fb8b16b62ac50f68c877b738f8043dc316b4dd3673173707848f9e8",
+      "minimumMarginsPx": {
+        "left": 11,
+        "right": 12,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/dunk-windmill-dark-light.png"
+    },
+    {
+      "clip": "fall",
+      "frames": 10,
+      "atlas": "public/assets/animation/dorian-mycel-fall-right.webp",
+      "previousAtlasSha256": "ca58eb10a46d2ec10389064c3cda2a75557835f979409205a1e98bd829a2ca5e",
+      "atlasSha256": "01ff71c8ab5455063753b9cdc340ab223b43d6513eca3126f8a49d986645a4b7",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 6,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/fall-dark-light.png"
+    },
+    {
+      "clip": "idle",
+      "frames": 6,
+      "atlas": "public/assets/animation/dorian-mycel-idle-right.webp",
+      "previousAtlasSha256": "8849769d651b0ff7f133a2e4ec172c6de9078ac926b214f5736a630a8b3b3dbd",
+      "atlasSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+      "minimumMarginsPx": {
+        "left": 26,
+        "right": 27,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/idle-dark-light.png"
+    },
+    {
+      "clip": "idle-ball",
+      "frames": 4,
+      "atlas": "public/assets/animation/dorian-mycel-idle-ball-right.webp",
+      "previousAtlasSha256": "64811c116255a12c39ba68e077c71f1368e01d0c1358dc802e600113bb5b5cc2",
+      "atlasSha256": "dd05ec22afc6104e23728ac8b3e637b9e189868f0db9ae81b9d2b2ca0fd26799",
+      "minimumMarginsPx": {
+        "left": 18,
+        "right": 19,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/idle-ball-dark-light.png"
+    },
+    {
+      "clip": "layup",
+      "frames": 8,
+      "atlas": "public/assets/animation/dorian-mycel-layup-right.webp",
+      "previousAtlasSha256": "fff853db7265741571cbfb24c0cc5691c59c77943eecb11a7c633e9294f22bc4",
+      "atlasSha256": "e5acecc02f02258726d6929b77be7768003c66c5fbd8dd21dee53ee754375168",
+      "minimumMarginsPx": {
+        "left": 16,
+        "right": 17,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/layup-dark-light.png"
+    },
+    {
+      "clip": "layup-reverse",
+      "frames": 8,
+      "atlas": "public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+      "previousAtlasSha256": "6a2d1e92b430726d76db1bfb896b908860e168146daf65115ccb06131f38b087",
+      "atlasSha256": "9978aa570d112b59a5bc644bfdf75d05051f100516ed9fcdbe9df9db24af97d5",
+      "minimumMarginsPx": {
+        "left": 8,
+        "right": 8,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/layup-reverse-dark-light.png"
+    },
+    {
+      "clip": "pass",
+      "frames": 6,
+      "atlas": "public/assets/animation/dorian-mycel-pass-right.webp",
+      "previousAtlasSha256": "29d1807e420427b80887449943182a41affb4564fc4c3878932501afc0f362a4",
+      "atlasSha256": "59ba1969c08cf48d12a8a4dce6aad931143373968a139d63c254c29fdcecafe1",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/pass-dark-light.png"
+    },
+    {
+      "clip": "pass-behind",
+      "frames": 6,
+      "atlas": "public/assets/animation/dorian-mycel-pass-behind-right.webp",
+      "previousAtlasSha256": "6afd69a41187e5ef03b73b8ba95d55cbb45356d06eb8e2bdc9b13d41d982ff0a",
+      "atlasSha256": "4537b0130125f5e68b304fd1f5ca01302d6780a5df62933a865e64330a53f396",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/pass-behind-dark-light.png"
+    },
+    {
+      "clip": "pass-overhead",
+      "frames": 6,
+      "atlas": "public/assets/animation/dorian-mycel-pass-overhead-right.webp",
+      "previousAtlasSha256": "4bb5ce3167ba178f17874db4d49a7179b2062b69b66393d059178ea300f28323",
+      "atlasSha256": "ed9fe285b111a5e0dca41ea2b14ddb0e2a93db6b903912fe1b0e41a3568ebb07",
+      "minimumMarginsPx": {
+        "left": 9,
+        "right": 9,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/pass-overhead-dark-light.png"
+    },
+    {
+      "clip": "pickup",
+      "frames": 5,
+      "atlas": "public/assets/animation/dorian-mycel-pickup-right.webp",
+      "previousAtlasSha256": "d62a0e4c70a3646656f7d08fb0cfd746627e9b5f4446f94f9243980951226550",
+      "atlasSha256": "53ec8a94f6c0c84789eebf03d6cea5100458b2be497a7d4cdb96a8cc1f7b8643",
+      "minimumMarginsPx": {
+        "left": 19,
+        "right": 20,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/pickup-dark-light.png"
+    },
+    {
+      "clip": "push",
+      "frames": 11,
+      "atlas": "public/assets/animation/dorian-mycel-push-right.webp",
+      "previousAtlasSha256": "913ae33820cf24efaa2d73497bd11f375acedf6d529ad99b9c5b56fbc5b6b787",
+      "atlasSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/push-dark-light.png"
+    },
+    {
+      "clip": "rebound",
+      "frames": 5,
+      "atlas": "public/assets/animation/dorian-mycel-rebound-right.webp",
+      "previousAtlasSha256": "7466ecada42ab34c7d1bb0a7c5e149ca9bad1fce1e55ddaa355c8f69ae86bab9",
+      "atlasSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+      "minimumMarginsPx": {
+        "left": 21,
+        "right": 22,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/rebound-dark-light.png"
+    },
+    {
+      "clip": "receive",
+      "frames": 4,
+      "atlas": "public/assets/animation/dorian-mycel-receive-right.webp",
+      "previousAtlasSha256": "cd683599435490c09bddd1b3d3c0ef0441d3e5a3e498739a805176d9753e3491",
+      "atlasSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/receive-dark-light.png"
+    },
+    {
+      "clip": "run",
+      "frames": 13,
+      "atlas": "public/assets/animation/dorian-mycel-run-right.webp",
+      "previousAtlasSha256": "d5afddc96e94a85e36c445b19caa3fff3cecd06914c013155470ca0dc7cb3890",
+      "atlasSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+      "minimumMarginsPx": {
+        "left": 8,
+        "right": 8,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/run-dark-light.png"
+    },
+    {
+      "clip": "shoot",
+      "frames": 10,
+      "atlas": "public/assets/animation/dorian-mycel-shoot-right.webp",
+      "previousAtlasSha256": "07f4ab1302b683a6bd02c97547b7fb0ea1de9f286ebed25aab3821bb7270c9e8",
+      "atlasSha256": "28248a153f64075f7b667e90b830e344d2f270aaa252726190abe55c1cea9d53",
+      "minimumMarginsPx": {
+        "left": 26,
+        "right": 26,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/shoot-dark-light.png"
+    },
+    {
+      "clip": "steal",
+      "frames": 8,
+      "atlas": "public/assets/animation/dorian-mycel-steal-right.webp",
+      "previousAtlasSha256": "516ff8fdbd51bcb1f806f5c693117a1680fcbfdf747dc0a32194939c543edf71",
+      "atlasSha256": "7c826243b068937eedd2427fd3639dfef2edfd27cc63f943b58ede05b86ca8e7",
+      "minimumMarginsPx": {
+        "left": 5,
+        "right": 5,
+        "top": 5,
+        "bottom": 5
+      },
+      "preview": "tools/generate-art/previews/dorian-mycel-package-20261024/steal-dark-light.png"
+    }
+  ]
+}

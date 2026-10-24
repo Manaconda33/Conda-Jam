@@ -10,25 +10,25 @@
       {
         "x": 0,
         "y": 0,
-        "w": 120,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 120,
+        "x": 96,
         "y": 0,
-        "w": 120,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 240,
+        "x": 192,
         "y": 0,
-        "w": 120,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 360,
+        "x": 288,
         "y": 0,
-        "w": 120,
+        "w": 96,
         "h": 96
       }
     ],
@@ -154,7 +154,107 @@
       ],
       "uniformScale": 0.18867924528301888,
       "componentIsolation": true,
-      "packaging": "package-dorian-actions.py; 120x96 cells; baseline94; lossless WebP; 4 original poses"
-    }
+      "packaging": "package-dorian-actions.py; 120x96 cells; baseline94; lossless WebP; 4 original poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-dorian-mycel-package.py",
+        "previousAtlasSha256": "cd683599435490c09bddd1b3d3c0ef0441d3e5a3e498739a805176d9753e3491",
+        "atlasSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+        "fit": "uniform scale, never upscale, max 86px high, cell width minus 10px; horizontally centered with baseline aligned to 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 5,
+          "right": 5,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              73,
+              86
+            ],
+            "marginsPx": {
+              "left": 11,
+              "right": 12,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              86,
+              70
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 21,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              63,
+              86
+            ],
+            "marginsPx": {
+              "left": 16,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              72,
+              86
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 12,
+              "top": 5,
+              "bottom": 5
+            }
+          }
+        ]
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1.1,
+          1.25,
+          1.1,
+          1.35
+        ],
+        "forward": [
+          5.0,
+          8.0,
+          3.0,
+          9.0
+        ]
+      },
+      "runtimeBallTrackReview": {
+        "status": "reviewed-native-100-and-120",
+        "date": "2026-10-24",
+        "sourceBallTrackPreserved": true,
+        "notes": "Source ballTrack remains verbatim. Runtime points were checked in actual Canvas renders against the authored Dorian pose in both facings; action event and aerial last-carry contacts were calibrated where needed."
+      }
+    },
+    "sha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60"
   }
 ]

@@ -1,0 +1,268 @@
+[
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "layup-reverse",
+    "src": "./public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "clip": "layup-reverse",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-97a1a1d7-f172-47a8-b79d-668daa07e2c4",
+      "imageGenerationId": "exec-97a1a1d7-f172-47a8-b79d-668daa07e2c4",
+      "rawSourceImage": "tools/generate-art/sources/dorian-mycel-layup-reverse8-generated-raw.png",
+      "rawSourceSha256": "0bb8936da48d1d15d37a3f524bf4027bb8cd9cd9f691b9ec1de71d8a06d504f7",
+      "sourceSha256": "0bb8936da48d1d15d37a3f524bf4027bb8cd9cd9f691b9ec1de71d8a06d504f7",
+      "prompt": "JAMVERSE '96 transparent RGBA action sheet, EXACTLY eight unique complete Dorian Mycel full-body poses, strict four-column by two-row grid in row-major sequence. Match attached Dorian identity/gameplay reference: warm medium-brown skin, short dense vivid-purple curls, clean-shaven strong-browed adult face, compact athletic human body, purple Chicago Condas uniform with silver/lavender trim, knee pads, wristbands and purple/silver shoes. Maintain two arms, two hands, two legs and shoes; no anatomy or identity changes.\n\nAction: right-facing REVERSE LAYUP. Dorian drives right, turns his shoulders away from the basket in the air and finishes behind his head with the right hand. Rotate his body naturally; do not mirror-copy frames. Keep his complete curl silhouette consistent. The basketball is separate game art: never draw the ball or any sphere, seams or prop. No court, hoop, floor, shadows, text, numbers, logos, effects, borders, grid, opaque background or other player. Real transparent RGBA gutters, bold-outlined 1990s arcade pixel-art; one whole in-bounds figure per cell.\n\n0 controlled approach, hands mime ball near waist;\n1 gathers, plants foot and begins upward drive;\n2 takes off and turns shoulders away from rim;\n3 airborne, torso rotates to a back/profile view, hand carries invisible ball behind shoulder;\n4 reverses torso toward basket, cocks right arm behind head;\n5 RELEASE at tick12: right arm reaches backward/high over the shoulder, palm opens after reverse layup;\n6 empty-handed follow-through while descending;\n7 controlled landing and recovery, body facing right again.\nEight distinct connected poses, no repeats and no missing cells. Return only the sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 8.",
+      "ballTrack": {
+        "height": [
+          1.1,
+          1.2,
+          1.5,
+          1.8,
+          2.0,
+          2.2,
+          1.5,
+          0.8
+        ],
+        "forward": [
+          6.0,
+          8.0,
+          6.0,
+          -2.0,
+          -3.0,
+          2.0,
+          7.0,
+          6.0
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-dorian-actions.py",
+        "method": "alpha-connected component isolation and nearest-pixel reassignment"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "8 distinct complete Dorian layup-reverse poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented layup-reverse track."
+      },
+      "sourceImage": "tools/generate-art/sources/dorian-mycel-layup-reverse8-generated-raw.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "sourceRect": {
+            "component": 3,
+            "area": 49458,
+            "x": 21,
+            "y": 46,
+            "w": 339,
+            "h": 377,
+            "row": 0,
+            "column": 0
+          },
+          "cropBox": [
+            19,
+            44,
+            362,
+            425
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "sourceRect": {
+            "component": 4,
+            "area": 49361,
+            "x": 506,
+            "y": 51,
+            "w": 283,
+            "h": 372,
+            "row": 0,
+            "column": 1
+          },
+          "cropBox": [
+            504,
+            49,
+            791,
+            425
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "sourceRect": {
+            "component": 1,
+            "area": 54754,
+            "x": 951,
+            "y": 13,
+            "w": 327,
+            "h": 426,
+            "row": 0,
+            "column": 2
+          },
+          "cropBox": [
+            949,
+            11,
+            1280,
+            441
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "sourceRect": {
+            "component": 2,
+            "area": 51679,
+            "x": 1408,
+            "y": 15,
+            "w": 342,
+            "h": 408,
+            "row": 0,
+            "column": 3
+          },
+          "cropBox": [
+            1406,
+            13,
+            1752,
+            425
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "sourceRect": {
+            "component": 6,
+            "area": 54606,
+            "x": 71,
+            "y": 469,
+            "w": 377,
+            "h": 395,
+            "row": 1,
+            "column": 0
+          },
+          "cropBox": [
+            69,
+            467,
+            450,
+            866
+          ]
+        },
+        {
+          "sourceIndex": 5,
+          "sourceRect": {
+            "component": 5,
+            "area": 48802,
+            "x": 501,
+            "y": 448,
+            "w": 370,
+            "h": 408,
+            "row": 1,
+            "column": 1
+          },
+          "cropBox": [
+            499,
+            446,
+            873,
+            858
+          ]
+        },
+        {
+          "sourceIndex": 6,
+          "sourceRect": {
+            "component": 7,
+            "area": 50087,
+            "x": 951,
+            "y": 476,
+            "w": 380,
+            "h": 399,
+            "row": 1,
+            "column": 2
+          },
+          "cropBox": [
+            949,
+            474,
+            1333,
+            877
+          ]
+        },
+        {
+          "sourceIndex": 7,
+          "sourceRect": {
+            "component": 8,
+            "area": 52452,
+            "x": 1397,
+            "y": 508,
+            "w": 354,
+            "h": 348,
+            "row": 1,
+            "column": 3
+          },
+          "cropBox": [
+            1395,
+            506,
+            1753,
+            858
+          ]
+        }
+      ],
+      "uniformScale": 0.2107728337236534,
+      "componentIsolation": true,
+      "packaging": "package-dorian-actions.py; 96x96 cells; baseline94; lossless WebP; 8 original poses"
+    }
+  }
+]

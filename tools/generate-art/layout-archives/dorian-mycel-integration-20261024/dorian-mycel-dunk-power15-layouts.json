@@ -1,0 +1,187 @@
+[
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "dunk-power",
+    "src": "./public/assets/animation/dorian-mycel-dunk-power-right.webp",
+    "columns": 5,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "clip": "dunk-power",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-06043b5b-6cb5-4809-8721-d96da15d98b3",
+      "imageGenerationId": "exec-06043b5b-6cb5-4809-8721-d96da15d98b3",
+      "rawSourceImage": "tools/generate-art/sources/dorian-mycel-dunk-power15-generated-raw.png",
+      "rawSourceSha256": "bdc30bd2ebd40582b1b9782127cfae1b40abd0d1553ca87a656bfc7db1d80fd5",
+      "sourceSha256": "bdc30bd2ebd40582b1b9782127cfae1b40abd0d1553ca87a656bfc7db1d80fd5",
+      "prompt": "Draw fifteen SMALL, complete, fully visible full-body action poses in a 5-column \u00d7 3-row transparent sprite sheet. Each person is centered in their own cell and no body part crosses its cell boundary. Leave at least 10% of cell width empty to left and right of every person. The outermost left/right figures must have at least 10% empty margin to canvas edges. Keep arms bent and close to torso so they fit. Solid transparent RGBA outside characters; no background, no court, no floor, no shadow, no lines, no panels, no rim, no ball, no props, no text.\n\nThe same Dorian Mycel as in both attached reference images: clean-shaven adult compact-athletic human, warm medium-brown skin, strong brows, short dense vivid-purple curls, purple Chicago Condas jersey and shorts, silver/lavender trim, dark knee pads, purple wristbands, purple/silver shoes. Preserve identity exactly, never beard or headband, no teal hair or kit. Each person has two arms, two hands, two legs and shoes. Right-facing basketball power dunk, mime only an invisible separate basketball: 0 bent approach; 1 forward drive; 2 gathers empty hands; 3 plant; 4 takeoff; 5 rises with knees tucked; 6 climbs and brings empty right hand upward; 7 extends right arm; 8 peak high reach; 9 still airborne and reaches up, arm bent so within cell; 10 downward scoring finish; 11 follows through; 12 descends; 13 lands in crouch; 14 stable standing recovery. 15 unique connected poses, exact row-major order, clear bold 90s arcade pixel art outline. Small uniform figure scale and enough transparent empty space around everyone. Return only the sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [
+        {
+          "generationId": "exec-d3b72a62-a09a-4986-b2dc-b369cd1383f6",
+          "source": "tools/generate-art/sources/dorian-mycel-dunk-power-attempt1-rejected.png",
+          "reason": "Visible basketball in frame 5 and nontransparent purple background; see rejected prompt/source note."
+        },
+        {
+          "generationId": "exec-2da9d47e-f0a0-44d9-8943-0439681c8071",
+          "source": "tools/generate-art/sources/dorian-mycel-dunk-power-attempt2-rejected.png",
+          "reason": "Figures clipped by the canvas bottom edge; see rejected prompt/source note."
+        },
+        {
+          "generationId": "exec-c1d83027-e95b-4232-b744-fd79b1720a1a",
+          "source": "tools/generate-art/sources/dorian-mycel-dunk-power-attempt3-rejected.png",
+          "reason": "Rightmost forward reach touched the outer right edge; see rejected prompt/source note."
+        },
+        {
+          "generationId": "exec-7165b7cd-c862-47e3-ae33-46ac9396ac10",
+          "source": "tools/generate-art/sources/dorian-mycel-dunk-power-attempt4-rejected.png",
+          "reason": "Changed Dorian identity to teal-haired/bearded teal-uniform athlete and opaque gradient background; see rejected prompt/source note."
+        }
+      ],
+      "mirrorEligible": true,
+      "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 15.",
+      "ballTrack": {
+        "height": [
+          0.95,
+          1.1,
+          1.2,
+          0.95,
+          1.25,
+          1.55,
+          1.85,
+          2.15,
+          2.3,
+          2.4,
+          2.45,
+          2.0,
+          1.45,
+          0.7,
+          0.55
+        ],
+        "forward": [
+          6.0,
+          8.0,
+          10.0,
+          9.0,
+          7.0,
+          6.0,
+          3.0,
+          4.0,
+          8.0,
+          13.0,
+          15.0,
+          12.0,
+          8.0,
+          5.0,
+          6.0
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-dorian-actions.py",
+        "method": "alpha-connected component isolation and nearest-pixel reassignment"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "15 distinct complete Dorian dunk-power poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented dunk-power track."
+      }
+    }
+  }
+]

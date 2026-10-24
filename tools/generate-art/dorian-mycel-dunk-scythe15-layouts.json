@@ -451,7 +451,305 @@
       ],
       "uniformScale": 0.24725274725274726,
       "componentIsolation": true,
-      "packaging": "package-dorian-actions.py; 96x96 cells; baseline94; lossless WebP; 15 original poses"
-    }
+      "packaging": "package-dorian-actions.py; 96x96 cells; baseline94; lossless WebP; 15 original poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-dorian-mycel-package.py",
+        "previousAtlasSha256": "3765908a09df5e0cbb759fb64e3e052c739f6527f9d4c00e79539dc9a7e19472",
+        "atlasSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+        "fit": "uniform scale, never upscale, max 86px high, cell width minus 10px; horizontally centered with baseline aligned to 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 6,
+          "right": 7,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              70,
+              67
+            ],
+            "marginsPx": {
+              "left": 13,
+              "right": 13,
+              "top": 24,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              76,
+              63
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 10,
+              "top": 28,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              60,
+              64
+            ],
+            "marginsPx": {
+              "left": 18,
+              "right": 18,
+              "top": 27,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              57,
+              65
+            ],
+            "marginsPx": {
+              "left": 19,
+              "right": 20,
+              "top": 26,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              65,
+              67
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 16,
+              "top": 24,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              58,
+              76
+            ],
+            "marginsPx": {
+              "left": 19,
+              "right": 19,
+              "top": 15,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              63,
+              72
+            ],
+            "marginsPx": {
+              "left": 16,
+              "right": 17,
+              "top": 19,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              71,
+              75
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 13,
+              "top": 16,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 8,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              75,
+              86
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 11,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 9,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              71,
+              80
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 13,
+              "top": 11,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 10,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              83,
+              67
+            ],
+            "marginsPx": {
+              "left": 6,
+              "right": 7,
+              "top": 24,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 11,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              75,
+              65
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 11,
+              "top": 26,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 12,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              67,
+              56
+            ],
+            "marginsPx": {
+              "left": 14,
+              "right": 15,
+              "top": 35,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 13,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              59,
+              58
+            ],
+            "marginsPx": {
+              "left": 18,
+              "right": 19,
+              "top": 33,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 14,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              63,
+              64
+            ],
+            "marginsPx": {
+              "left": 16,
+              "right": 17,
+              "top": 27,
+              "bottom": 5
+            }
+          }
+        ]
+      },
+      "runtimeBallTrack": {
+        "height": [
+          0.95,
+          1.05,
+          1.2,
+          0.85,
+          0.55,
+          0.7,
+          1.0,
+          1.5,
+          2.0,
+          1.6,
+          2.45,
+          1.8,
+          1.1,
+          0.7,
+          0.55
+        ],
+        "forward": [
+          6.0,
+          8.0,
+          9.0,
+          7.0,
+          3.0,
+          -3.0,
+          -5.0,
+          -2.0,
+          3.0,
+          3.0,
+          14.0,
+          12.0,
+          8.0,
+          5.0,
+          6.0
+        ]
+      },
+      "runtimeBallTrackReview": {
+        "status": "reviewed-native-100-and-120",
+        "date": "2026-10-24",
+        "sourceBallTrackPreserved": true,
+        "notes": "Source ballTrack remains verbatim. Runtime points were checked in actual Canvas renders against the authored Dorian pose in both facings; action event and aerial last-carry contacts were calibrated where needed."
+      }
+    },
+    "sha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e"
   }
 ]

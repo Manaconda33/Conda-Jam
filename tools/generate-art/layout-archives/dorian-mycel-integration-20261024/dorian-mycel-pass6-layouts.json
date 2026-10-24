@@ -1,0 +1,209 @@
+[
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "pass",
+    "src": "./public/assets/animation/dorian-mycel-pass-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 448,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "clip": "pass",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-7932afa2-19d7-4b6c-8385-90145c8a2b74",
+      "rawSourceImage": "tools/generate-art/sources/dorian-mycel-pass6-generated-raw.png",
+      "rawSourceSha256": "564e2fc2e197ca1c816e4175a5b00fb7397ca1efdb2c24298629315a04baeeb9",
+      "sourceSha256": "564e2fc2e197ca1c816e4175a5b00fb7397ca1efdb2c24298629315a04baeeb9",
+      "prompt": "JAMVERSE '96 transparent RGBA sprite sheet, exactly six distinct complete full-body poses in a strict 3-column by 2-row grid, read row-major. Dorian Mycel, an adult compact athletic man with warm medium-brown skin, strong brows, short dense vivid-purple curls and a focused face. Preserve his individual face, hair, compact proportions, Chicago Condas purple uniform with silver-lavender trim, dark knee pads, purple/silver shoes and wristbands. Match the attached Dorian portrait and gameplay references. Two natural arms/hands and two legs/shoes in every pose.\n\nRight-facing two-handed chest pass, moving toward image-right. The basketball is a separately rendered game object: never draw a ball, sphere, seams, prop or hoop. No court, floor, shadow, background, labels, numbers, logos, borders, glow or panel. Use crisp 1990s arcade pixel-art clusters, bold outlines, true transparent alpha and broad clean gutters. Keep every figure complete and inside its own cell.\n\n0 balanced right-facing stance, invisible ball held low at abdomen;\n1 gathers to chest with elbows tucked;\n2 steps forward and drives both ball-miming hands toward target;\n3 RELEASE at simulation tick5: both arms extend forward, palms open after the pass;\n4 arms follow through, torso leans forward, empty hands;\n5 balanced recovery, arms return low.\nExactly six distinct poses; preserve anatomy, face, curls and kit. Return only the sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Dorian-specific separate basketball follows the two-hand chest pass and releases once from open palms on frame3/tick5; never paint a ball into the poses.",
+      "ballTrack": {
+        "height": [
+          1.15,
+          1.2,
+          1.35,
+          1.6,
+          1.5,
+          1.1
+        ],
+        "forward": [
+          8,
+          7,
+          8,
+          12,
+          12,
+          8
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "Six unique complete Dorian poses show a controlled two-handed chest pass, open-palm release at frame3/tick5 and balanced recovery. The individual face, warm brown skin, short vivid-purple curls, compact human anatomy and purple/silver Chicago kit remain consistent."
+      },
+      "sourceImage": "tools/generate-art/sources/dorian-mycel-pass6-generated-raw.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "sourceRect": {
+            "component": 3,
+            "area": 71928,
+            "x": 42,
+            "y": 25,
+            "w": 399,
+            "h": 472,
+            "row": 0,
+            "column": 0
+          },
+          "cropBox": [
+            40,
+            23,
+            443,
+            499
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "sourceRect": {
+            "component": 1,
+            "area": 71854,
+            "x": 561,
+            "y": 24,
+            "w": 344,
+            "h": 473,
+            "row": 0,
+            "column": 1
+          },
+          "cropBox": [
+            559,
+            22,
+            907,
+            499
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "sourceRect": {
+            "component": 2,
+            "area": 79637,
+            "x": 1030,
+            "y": 24,
+            "w": 477,
+            "h": 472,
+            "row": 0,
+            "column": 2
+          },
+          "cropBox": [
+            1028,
+            22,
+            1509,
+            498
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "sourceRect": {
+            "component": 5,
+            "area": 81654,
+            "x": 40,
+            "y": 522,
+            "w": 533,
+            "h": 459,
+            "row": 1,
+            "column": 0
+          },
+          "cropBox": [
+            38,
+            520,
+            575,
+            983
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "sourceRect": {
+            "component": 6,
+            "area": 84797,
+            "x": 560,
+            "y": 525,
+            "w": 524,
+            "h": 455,
+            "row": 1,
+            "column": 1
+          },
+          "cropBox": [
+            558,
+            523,
+            1086,
+            982
+          ]
+        },
+        {
+          "sourceIndex": 5,
+          "sourceRect": {
+            "component": 4,
+            "area": 73484,
+            "x": 1089,
+            "y": 519,
+            "w": 403,
+            "h": 465,
+            "row": 1,
+            "column": 2
+          },
+          "cropBox": [
+            1087,
+            517,
+            1494,
+            986
+          ]
+        }
+      ],
+      "uniformScale": 0.18947368421052632,
+      "componentIsolation": true,
+      "packaging": "package-dorian-actions.py; 112x96 cells; baseline94; lossless WebP; 6 original poses"
+    }
+  }
+]

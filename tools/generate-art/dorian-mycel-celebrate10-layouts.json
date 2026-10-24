@@ -316,7 +316,183 @@
       ],
       "uniformScale": 0.23017902813299232,
       "componentIsolation": true,
-      "packaging": "package-dorian-actions.py; 96x96 cells; baseline94; lossless WebP; 10 original poses"
-    }
+      "packaging": "package-dorian-actions.py; 96x96 cells; baseline94; lossless WebP; 10 original poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-dorian-mycel-package.py",
+        "previousAtlasSha256": "ea1e1e16c4ef05bbf8e34677de3b4ebf8e5d58b665ee396b8d3cc2738d5d9f60",
+        "atlasSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+        "fit": "uniform scale, never upscale, max 86px high, cell width minus 10px; horizontally centered with baseline aligned to 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 8,
+          "right": 9,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              58,
+              81
+            ],
+            "marginsPx": {
+              "left": 19,
+              "right": 19,
+              "top": 10,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              63,
+              79
+            ],
+            "marginsPx": {
+              "left": 16,
+              "right": 17,
+              "top": 12,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              52,
+              86
+            ],
+            "marginsPx": {
+              "left": 22,
+              "right": 22,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              60,
+              75
+            ],
+            "marginsPx": {
+              "left": 18,
+              "right": 18,
+              "top": 16,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              59,
+              74
+            ],
+            "marginsPx": {
+              "left": 18,
+              "right": 19,
+              "top": 17,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              79,
+              81
+            ],
+            "marginsPx": {
+              "left": 8,
+              "right": 9,
+              "top": 10,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              59,
+              86
+            ],
+            "marginsPx": {
+              "left": 18,
+              "right": 19,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              60,
+              81
+            ],
+            "marginsPx": {
+              "left": 18,
+              "right": 18,
+              "top": 10,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 8,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              57,
+              82
+            ],
+            "marginsPx": {
+              "left": 19,
+              "right": 20,
+              "top": 9,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 9,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              54,
+              84
+            ],
+            "marginsPx": {
+              "left": 21,
+              "right": 21,
+              "top": 7,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96"
   }
 ]

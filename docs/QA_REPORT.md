@@ -1,5 +1,12 @@
 # QA report
 
+## Dorian Mycel — complete 29-clip integration
+
+- Registered25 reviewed source-only action atlases (260 authored drawings), added five independently generated locomotion frames, and repacked all29 Dorian atlases with at least5px clearance on every cell edge. Rejected tight-margin full sheets, original sources, exact prompts, hashes, cleanup notes, layouts and dark/light previews remain preserved under `tools/generate-art/`.
+- Dorian’s identity and human anatomy were checked across the package; the athlete art contains no ball. Separate Dorian-specific runtime tracks cover23 ball-bearing actions. Native Canvas review at100% and120% loaded222 images and captured87 snapshots /572 action frames per zoom, selecting production art in both facings.
+- Dorian is29/29 clips /295 authored drawings. Focused animation suites, full `npm test` (28/28 files), lint (18 modules), content validation (35 franchises /105 athletes), 100-match simulation (860,220 ticks /6 overtimes), build and isolated Chromium E2E with offline standalone play passed.
+- Strict audit refreshed at `2026-10-24T18:57:09.533Z`: **721 clips /6,435 authored drawings /105 athletes**, 2,382 missing clips, one target shortfall and4 inherited prompt findings. Next roster-order source package is Accu.
+
 ## Moxie Capwell — full-roster asset integration and review
 
 - Registered the24 source-only action atlases (251 authored drawings) after reviewing every light/dark pose sheet for cell separation, transparency, anatomy, canon identity and ball absence. Repacked only the derived atlases to provide at least5px clearance on all cell edges. The generated source sheets, original track values, exact prompts, raw/clean hashes, layouts, cleanup notes and rejected candidates remain preserved.

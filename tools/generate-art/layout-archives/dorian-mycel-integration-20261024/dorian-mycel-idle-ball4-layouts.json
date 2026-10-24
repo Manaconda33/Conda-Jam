@@ -1,0 +1,160 @@
+[
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
+    "columns": 5,
+    "rows": 1,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "clip": "idle-ball",
+      "direction": "right",
+      "canonicalSection": "J.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-1ec3f3d9-dc61-4ba6-885e-a9e9fa3313e3",
+      "imageGenerationId": "exec-1ec3f3d9-dc61-4ba6-885e-a9e9fa3313e3",
+      "rawSourceImage": "tools/generate-art/sources/dorian-mycel-idle-ball4-generated-raw.png",
+      "rawSourceSha256": "98f6196e71f64da02f7fb1502b1db6d69476fb5672f591c1c0cf50205bb8398f",
+      "sourceSha256": "98f6196e71f64da02f7fb1502b1db6d69476fb5672f591c1c0cf50205bb8398f",
+      "prompt": "Create exactly four distinct full-body poses of the same Dorian Mycel male athlete in one row, four cells, designed as a subtle looping IDLE-BALL animation for JAMVERSE '96. True transparent RGBA sprite sheet: no colored background, floor, court, hoop, shadow, props, extra people, text, effects, grid lines. Do not draw a basketball; the separate runtime ball is invisible here and the hands only mime cradling its position. Leave clear transparent margins, keep full head and shoes inside every cell. Clean outlined 1990s arcade pixel art.\n\nCopy Dorian's exact appearance from both attached refs: compact adult human, warm medium-brown skin, clean-shaven face, strong brows, short dense vivid-purple curls, purple Chicago Condas jersey and shorts with silver/lavender trim, dark knee pads, purple wristbands, purple/silver shoes. Same identity and anatomy in every frame, two arms/hands and two legs.\n\nStationary comfortable offensive possession stance, facing right: 0 knees softly bent and elbows relaxed, empty hands cradling invisible basketball at right waist; 1 subtle body sway and hands shift slightly upward; 2 eyes glance toward court, weight shifts, ball-miming hands remain softly near torso; 3 returns to starting balanced pose with small breathing motion. Four individually distinct but gently connected poses suitable for a calm loop, no running, no jump and no visible ball. All four drawings full-body, separated, centered, consistent scale.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Dorian-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 4.",
+      "ballTrack": {
+        "height": [
+          1.1,
+          1.15,
+          1.2,
+          1.1
+        ],
+        "forward": [
+          8.0,
+          8.5,
+          9.0,
+          8.5
+        ]
+      },
+      "cleanup": {
+        "script": "tools/generate-art/package-dorian-actions.py",
+        "method": "alpha-connected component isolation and nearest-pixel reassignment"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex visual inspection",
+        "reviewNotes": "4 distinct complete Dorian idle-ball poses. Warm brown skin, short dense vivid-purple curls, compact adult human anatomy, strong brows and the purple/silver Chicago Condas kit remain consistent. The separate Dorian ball follows the documented idle-ball track."
+      },
+      "sourceImage": "tools/generate-art/sources/dorian-mycel-idle-ball4-generated-raw.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "sourceRect": {
+            "component": 3,
+            "area": 119826,
+            "x": 91,
+            "y": 109,
+            "w": 410,
+            "h": 591,
+            "row": 0,
+            "column": 0
+          },
+          "cropBox": [
+            89,
+            107,
+            503,
+            702
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "sourceRect": {
+            "component": 1,
+            "area": 115034,
+            "x": 636,
+            "y": 99,
+            "w": 384,
+            "h": 601,
+            "row": 0,
+            "column": 1
+          },
+          "cropBox": [
+            634,
+            97,
+            1022,
+            702
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "sourceRect": {
+            "component": 2,
+            "area": 118841,
+            "x": 1153,
+            "y": 108,
+            "w": 404,
+            "h": 592,
+            "row": 0,
+            "column": 2
+          },
+          "cropBox": [
+            1151,
+            106,
+            1559,
+            702
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "sourceRect": {
+            "component": 4,
+            "area": 119713,
+            "x": 1663,
+            "y": 109,
+            "w": 410,
+            "h": 591,
+            "row": 0,
+            "column": 3
+          },
+          "cropBox": [
+            1661,
+            107,
+            2075,
+            702
+          ]
+        }
+      ],
+      "uniformScale": 0.14925373134328357,
+      "componentIsolation": true,
+      "packaging": "package-dorian-actions.py; 80x96 cells; baseline94; lossless WebP; 4 original poses"
+    }
+  }
+]

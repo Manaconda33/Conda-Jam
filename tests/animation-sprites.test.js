@@ -710,14 +710,15 @@ test('legacy animation uses simulation ticks, including dribble running and dunk
 });
 test('Dorian Mycel and Luca Velori use reviewed canon-specific locomotion in both facings',()=>{
  const expectedCounts={
-  'dorian-mycel':{idle:6,dribble:8,run:13,'dribble-run':8},
+  'dorian-mycel':{idle:6,'idle-ball':4,dribble:10,run:13,'dribble-run':11},
   'luca-velori':{idle:6,dribble:14,run:8,'dribble-run':14},
  };
  for(const [id,expected] of Object.entries(expectedCounts)){
   const character=animationAssetManifest.characters[id];
   assert.equal(character.mirrorSafe,true,id+' canon allows reviewed mirroring');
   assert.equal(character.mirrorReview.status,'reviewed',id+' mirror review');
-  assert.equal(character.directions.right['idle-ball'],undefined,id+' uses fallback until a standing ball-ready clip is authored');
+  if(id==='dorian-mycel')assert.ok(character.directions.right['idle-ball'],id+' has reviewed standing ball-ready art');
+  else assert.equal(character.directions.right['idle-ball'],undefined,id+' uses fallback until a standing ball-ready clip is authored');
   const images=new Map();
   for(const [key,count] of Object.entries(expected)){
    const clip=character.directions.right[key];

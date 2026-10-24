@@ -3,8 +3,30 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { animationClips, sampleAnimation, anchorTick, animationDuration, sampleBallHeight, sampleBallForward, flightHeightFromHand } from '../src/core/animation.js';
 import { createMatch,createInput,stepMatch } from '../src/core/simulation.js';
+import { animationAssetManifest } from '../src/content/animation-assets.js';
 const neutral=m=>m.players.map(p=>createInput(p.id));
 function setup(){const m=createMatch({quarterSeconds:60,seed:1});for(const p of m.players){p.x=p.team?20:(p===m.players[0]?150:120);p.y=p.team?0:50;}return m;}
+test('Dorian has all reviewed clips and runtime ball paths match recorded provenance',()=>{
+ const clips=animationAssetManifest.characters['dorian-mycel'].directions.right;
+ assert.equal(Object.keys(clips).length,29);
+ assert.equal(Object.values(clips).reduce((n,entry)=>n+entry.frames.length,0),295);
+ for(const [key,entry] of Object.entries(clips)){
+  const definition=animationClips[key];assert.ok(definition,`${key} is a required animation key`);
+  assert.equal(entry.reviewed,true,`${key} visual review`);
+  assert.ok(entry.frames.length>=definition.frames.length,`${key} has enough authored frames for its runtime sequence`);
+  const track=entry.provenance.runtimeBallTrack;
+  if(!track)continue;
+  assert.equal(track.height.length,definition.frames.length,`${key} runtime height length`);
+  assert.equal(track.forward.length,definition.frames.length,`${key} runtime forward length`);
+  let tick=0;
+  for(let frame=0;frame<definition.frames.length;frame++){
+   assert.equal(sampleBallHeight(key,tick,'dorian-mycel'),track.height[frame],`${key} frame ${frame} height`);
+   assert.equal(sampleBallForward(key,tick,'dorian-mycel'),track.forward[frame],`${key} frame ${frame} forward`);
+   tick+=definition.frames[frame].duration;
+  }
+ }
+ for(const key of ['dribble','dribble-run'])assert.equal(clips[key].frames.length,animationClips[key].frames.length,`${key} target length`);
+});
 test("Moxie's runtime ball tracks match accepted source provenance",()=>{
  const inventory=JSON.parse(readFileSync(new URL('../tools/generate-art/moxie-capwell-29-clip-inventory.json',import.meta.url),'utf8'));
  const clips=inventory.newSourceOnlyClips.filter(entry=>entry.ballTrack);

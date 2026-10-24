@@ -10,31 +10,31 @@
       {
         "x": 0,
         "y": 0,
-        "w": 80,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 80,
+        "x": 96,
         "y": 0,
-        "w": 80,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 160,
+        "x": 192,
         "y": 0,
-        "w": 80,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 240,
+        "x": 288,
         "y": 0,
-        "w": 80,
+        "w": 96,
         "h": 96
       },
       {
-        "x": 320,
+        "x": 384,
         "y": 0,
-        "w": 80,
+        "w": 96,
         "h": 96
       }
     ],
@@ -181,7 +181,125 @@
       ],
       "uniformScale": 0.13719512195121952,
       "componentIsolation": true,
-      "packaging": "package-dorian-actions.py; 80x96 cells; baseline94; lossless WebP; 5 original poses"
-    }
+      "packaging": "package-dorian-actions.py; 80x96 cells; baseline94; lossless WebP; 5 original poses",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-dorian-mycel-package.py",
+        "previousAtlasSha256": "7466ecada42ab34c7d1bb0a7c5e149ca9bad1fce1e55ddaa355c8f69ae86bab9",
+        "atlasSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+        "fit": "uniform scale, never upscale, max 86px high, cell width minus 10px; horizontally centered with baseline aligned to 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 21,
+          "right": 22,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              51,
+              68
+            ],
+            "marginsPx": {
+              "left": 22,
+              "right": 23,
+              "top": 23,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              53,
+              68
+            ],
+            "marginsPx": {
+              "left": 21,
+              "right": 22,
+              "top": 23,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              52,
+              86
+            ],
+            "marginsPx": {
+              "left": 22,
+              "right": 22,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              47,
+              86
+            ],
+            "marginsPx": {
+              "left": 24,
+              "right": 25,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              42,
+              69
+            ],
+            "marginsPx": {
+              "left": 27,
+              "right": 27,
+              "top": 22,
+              "bottom": 5
+            }
+          }
+        ]
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1.1,
+          1.6,
+          2.2,
+          1.5,
+          1.8
+        ],
+        "forward": [
+          7.0,
+          9.0,
+          11.0,
+          5.0,
+          9.0
+        ]
+      },
+      "runtimeBallTrackReview": {
+        "status": "reviewed-native-100-and-120",
+        "date": "2026-10-24",
+        "sourceBallTrackPreserved": true,
+        "notes": "Source ballTrack remains verbatim. Runtime points were checked in actual Canvas renders against the authored Dorian pose in both facings; action event and aerial last-carry contacts were calibrated where needed."
+      }
+    },
+    "sha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b"
   }
 ]

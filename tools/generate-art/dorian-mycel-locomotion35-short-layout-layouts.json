@@ -122,16 +122,128 @@
       ],
       "uniformScale": 0.38333333333333336,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-    }
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-dorian-mycel-package.py",
+        "previousAtlasSha256": "8849769d651b0ff7f133a2e4ec172c6de9078ac926b214f5736a630a8b3b3dbd",
+        "atlasSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+        "fit": "uniform scale, never upscale, max 86px high, cell width minus 10px; horizontally centered with baseline aligned to 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 26,
+          "right": 27,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              41,
+              86
+            ],
+            "marginsPx": {
+              "left": 27,
+              "right": 28,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              40,
+              85
+            ],
+            "marginsPx": {
+              "left": 28,
+              "right": 28,
+              "top": 6,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              43,
+              86
+            ],
+            "marginsPx": {
+              "left": 26,
+              "right": 27,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              42,
+              85
+            ],
+            "marginsPx": {
+              "left": 27,
+              "right": 27,
+              "top": 6,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              41,
+              85
+            ],
+            "marginsPx": {
+              "left": 27,
+              "right": 28,
+              "top": 6,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              40,
+              86
+            ],
+            "marginsPx": {
+              "left": 28,
+              "right": 28,
+              "top": 5,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb"
   },
   {
     "athlete": "dorian-mycel",
     "direction": "right",
     "clip": "dribble",
     "src": "./public/assets/animation/dorian-mycel-dribble-right.webp",
-    "columns": 3,
-    "rows": 3,
+    "columns": 5,
+    "rows": 2,
     "frames": [
       {
         "x": 0,
@@ -152,6 +264,18 @@
         "h": 96
       },
       {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
         "x": 0,
         "y": 96,
         "w": 96,
@@ -170,14 +294,14 @@
         "h": 96
       },
       {
-        "x": 0,
-        "y": 192,
+        "x": 288,
+        "y": 96,
         "w": 96,
         "h": 96
       },
       {
-        "x": 96,
-        "y": 192,
+        "x": 384,
+        "y": 96,
         "w": 96,
         "h": 96
       }
@@ -276,8 +400,216 @@
       ],
       "uniformScale": 0.38333333333333336,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-    }
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-dorian-mycel-package.py",
+        "previousAtlasSha256": "d06e6b1bd120e1244896ad495ce0e886072d5af5c7ead682a4393f24d5cb7ba4",
+        "atlasSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+        "fit": "uniform scale, never upscale, max 86px high, cell width minus 10px; horizontally centered with baseline aligned to 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 5,
+          "right": 5,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              65,
+              61
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 16,
+              "top": 30,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              64,
+              66
+            ],
+            "marginsPx": {
+              "left": 16,
+              "right": 16,
+              "top": 25,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              78,
+              65
+            ],
+            "marginsPx": {
+              "left": 9,
+              "right": 9,
+              "top": 26,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              75,
+              65
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 11,
+              "top": 26,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              78,
+              65
+            ],
+            "marginsPx": {
+              "left": 9,
+              "right": 9,
+              "top": 26,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              75,
+              66
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 11,
+              "top": 25,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              73,
+              66
+            ],
+            "marginsPx": {
+              "left": 11,
+              "right": 12,
+              "top": 25,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              69,
+              66
+            ],
+            "marginsPx": {
+              "left": 13,
+              "right": 14,
+              "top": 25,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 8,
+            "input": "tools/generate-art/sources/dorian-mycel-dribble-extension-pose08.png",
+            "bbox": [
+              0,
+              0,
+              86,
+              79
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 12,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 9,
+            "input": "tools/generate-art/sources/dorian-mycel-dribble-extension-pose09.png",
+            "bbox": [
+              0,
+              0,
+              85,
+              86
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 6,
+              "top": 5,
+              "bottom": 5
+            }
+          }
+        ]
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1.2,
+          1.05,
+          0.8,
+          0.55,
+          0.25,
+          0.0,
+          0.25,
+          0.55,
+          0.85,
+          1.1
+        ],
+        "forward": [
+          8.0,
+          9.0,
+          10.0,
+          12.0,
+          13.0,
+          13.0,
+          12.0,
+          11.0,
+          9.0,
+          8.0
+        ]
+      },
+      "runtimeBallTrackReview": {
+        "status": "reviewed-native-100-and-120",
+        "date": "2026-10-24",
+        "sourceBallTrackPreserved": true,
+        "notes": "Source ballTrack remains verbatim. Runtime points were checked in actual Canvas renders against the authored Dorian pose in both facings; action event and aerial last-carry contacts were calibrated where needed."
+      }
+    },
+    "sha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3"
   },
   {
     "athlete": "dorian-mycel",
@@ -500,15 +832,239 @@
       ],
       "uniformScale": 0.38333333333333336,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-    }
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-dorian-mycel-package.py",
+        "previousAtlasSha256": "d5afddc96e94a85e36c445b19caa3fff3cecd06914c013155470ca0dc7cb3890",
+        "atlasSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+        "fit": "uniform scale, never upscale, max 86px high, cell width minus 10px; horizontally centered with baseline aligned to 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 8,
+          "right": 8,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              65,
+              81
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 16,
+              "top": 10,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              68,
+              76
+            ],
+            "marginsPx": {
+              "left": 14,
+              "right": 14,
+              "top": 15,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              66,
+              82
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 15,
+              "top": 9,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              69,
+              82
+            ],
+            "marginsPx": {
+              "left": 13,
+              "right": 14,
+              "top": 9,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              76,
+              83
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 10,
+              "top": 8,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              66,
+              85
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 15,
+              "top": 6,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              63,
+              86
+            ],
+            "marginsPx": {
+              "left": 16,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              76,
+              86
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 10,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 8,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              66,
+              86
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 15,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 9,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              64,
+              86
+            ],
+            "marginsPx": {
+              "left": 16,
+              "right": 16,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 10,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              80,
+              86
+            ],
+            "marginsPx": {
+              "left": 8,
+              "right": 8,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 11,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              66,
+              86
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 15,
+              "top": 5,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 12,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              62,
+              86
+            ],
+            "marginsPx": {
+              "left": 17,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            }
+          }
+        ]
+      }
+    },
+    "sha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041"
   },
   {
     "athlete": "dorian-mycel",
     "direction": "right",
     "clip": "dribble-run",
     "src": "./public/assets/animation/dorian-mycel-dribble-run-right.webp",
-    "columns": 3,
+    "columns": 5,
     "rows": 3,
     "frames": [
       {
@@ -530,6 +1086,18 @@
         "h": 96
       },
       {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
         "x": 0,
         "y": 96,
         "w": 96,
@@ -548,13 +1116,19 @@
         "h": 96
       },
       {
-        "x": 0,
-        "y": 192,
+        "x": 288,
+        "y": 96,
         "w": 96,
         "h": 96
       },
       {
-        "x": 96,
+        "x": 384,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
         "y": 192,
         "w": 96,
         "h": 96
@@ -654,7 +1228,233 @@
       ],
       "uniformScale": 0.38333333333333336,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-    }
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "repack": {
+        "date": "2026-10-24",
+        "script": "tools/generate-art/repack-dorian-mycel-package.py",
+        "previousAtlasSha256": "b733ea1493d2a4d36a061d4a8042d1fc6404732d271958534f7615d2c2c312d2",
+        "atlasSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+        "fit": "uniform scale, never upscale, max 86px high, cell width minus 10px; horizontally centered with baseline aligned to 5px bottom clearance",
+        "minimumMarginsPx": {
+          "left": 5,
+          "right": 5,
+          "top": 5,
+          "bottom": 5
+        },
+        "sourceRecords": [
+          {
+            "frame": 0,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              69,
+              82
+            ],
+            "marginsPx": {
+              "left": 13,
+              "right": 14,
+              "top": 9,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 1,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              70,
+              70
+            ],
+            "marginsPx": {
+              "left": 13,
+              "right": 13,
+              "top": 21,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 2,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              72,
+              68
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 12,
+              "top": 23,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 3,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              81,
+              67
+            ],
+            "marginsPx": {
+              "left": 7,
+              "right": 8,
+              "top": 24,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 4,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              70,
+              65
+            ],
+            "marginsPx": {
+              "left": 13,
+              "right": 13,
+              "top": 26,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 5,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              76,
+              69
+            ],
+            "marginsPx": {
+              "left": 10,
+              "right": 10,
+              "top": 22,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 6,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              79,
+              69
+            ],
+            "marginsPx": {
+              "left": 8,
+              "right": 9,
+              "top": 22,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 7,
+            "input": "existing-atlas-cell",
+            "bbox": [
+              0,
+              0,
+              71,
+              64
+            ],
+            "marginsPx": {
+              "left": 12,
+              "right": 13,
+              "top": 27,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 8,
+            "input": "tools/generate-art/sources/dorian-mycel-dribble-run-extension-pose08.png",
+            "bbox": [
+              0,
+              0,
+              86,
+              63
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 28,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 9,
+            "input": "tools/generate-art/sources/dorian-mycel-dribble-run-extension-pose09.png",
+            "bbox": [
+              0,
+              0,
+              86,
+              69
+            ],
+            "marginsPx": {
+              "left": 5,
+              "right": 5,
+              "top": 22,
+              "bottom": 5
+            }
+          },
+          {
+            "frame": 10,
+            "input": "tools/generate-art/sources/dorian-mycel-dribble-run-extension-pose10.png",
+            "bbox": [
+              0,
+              0,
+              65,
+              86
+            ],
+            "marginsPx": {
+              "left": 15,
+              "right": 16,
+              "top": 5,
+              "bottom": 5
+            }
+          }
+        ]
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1.2,
+          1.05,
+          0.8,
+          0.55,
+          0.25,
+          0.0,
+          0.25,
+          0.55,
+          0.85,
+          1.05,
+          1.2
+        ],
+        "forward": [
+          12.0,
+          13.0,
+          14.0,
+          15.0,
+          16.0,
+          16.0,
+          15.0,
+          14.0,
+          13.0,
+          12.0,
+          12.0
+        ]
+      },
+      "runtimeBallTrackReview": {
+        "status": "reviewed-native-100-and-120",
+        "date": "2026-10-24",
+        "sourceBallTrackPreserved": true,
+        "notes": "Source ballTrack remains verbatim. Runtime points were checked in actual Canvas renders against the authored Dorian pose in both facings; action event and aerial last-carry contacts were calibrated where needed."
+      }
+    },
+    "sha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9"
   }
 ]
