@@ -33993,6 +33993,540 @@
             },
             "reviewed": true,
             "reviewNotes": "Canon reviewed: athletic adult woman with a contained bright orange high ponytail, russet/cream basketball kit and warm skin tone. All42 source poses and every packed locomotion crop inspected; independent poses, pose16/37 low dribble reach, no baked ball or clipping. Live game ball tracking remains separate from the sprite."
+          },
+          "shoot": {
+            "src": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a0ce976b79853cf19a501e9033666ed34625155d2191279e0a7e74e7a35ed637"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "1118ab7d54560f08058967d50ce981431e9db9acf6eb099c5304ac82029e2557"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "1b2514899929f39c3fb4f6d51041e5ad71e0d53e07d392c2e5b952ed99f38f70"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "67f7bf336ad059891e96b1b65703019f8a9cd9416ce33a029f8b92c65b60e675"
+              },
+              {
+                "x": 512,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6f83e60fd5b5506dec90ba760e2b656757a44c7d123008cb6a892bcfa150019d"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "efd7382fc581c4a434e0cdd857d2e588c8bdc57770d2eb87c1ba0bcc8d4fbd82"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "73b6562862f861452ccbd6b62c21055e1e6999a81d6401969faf1b3e1536bfec"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "e3d6b1c01918a45792a7ecd316e40e0e109cf2c14526758b1cb68ddd4fdc21ed"
+              },
+              {
+                "x": 512,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6ea1884539be3d96fda21495ada5c44256930d883dd10ac2c561da145481d9d4"
+              }
+            ],
+            "sha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit this exact transparent Piper Quickstep sprite sheet for production. Preserve the same 10 individual full-body adult human Piper drawings, exact 5-column by 2-row order, identity, face, warm brown skin, vivid orange high ponytail, russet red and cream uniform, poses, anatomy and shoes. Do not redesign, redraw, add, remove, duplicate, merge, reorder or change any pose. Make only these corrections: (1) remove the bright red outline/glow fringe outside each character silhouette while keeping the actual orange hair, russet uniform, skin, normal crisp outline and highlights unchanged; (2) uniformly scale each complete character as one unit as needed and center it in its own original 5x2 grid cell so every hair strand, raised hand and both shoes stay wholly within that cell with at least 12% empty transparent margin on every edge; no pixels of one pose may enter another cell. Preserve equal cell boundaries and sequence. Keep genuine alpha transparency everywhere outside the characters, including gutters and outer border. No ball, props, ground shadow, court, hoop, glow, effects, checkerboard, text, dividers, labels or background. Return a transparent RGBA PNG at the original dimensions.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "Verbatim attempt02 edit prompt; each replacement frame links the verbatim attempt03 prompt in sourceRecords.",
+              "promptScope": "The exact accepted source and replacement prompts are preserved per frame in sourceRecords.",
+              "generatedAt": "2026-10-24T17:47:34Z",
+              "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+              "promptAndSourceManifest": "tools/generate-art/j108-piper-quickstep-shoot-provenance.json",
+              "sourceRecords": [
+                {
+                  "poseIndex": 0,
+                  "pose": "approach",
+                  "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+                  "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-00-attempt-2.png",
+                  "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+                  "sourceSha256": "c1a5effb254da2be94b654d85c50c978982fa4f3fa7cbe9427ec5ca27fc04a8d",
+                  "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+                  "rawSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    0,
+                    0,
+                    212,
+                    330
+                  ],
+                  "figureSize": [
+                    55,
+                    86
+                  ],
+                  "cellMargins": [
+                    36,
+                    37,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "4936a1dced443235c78868e310a6c50e90d19c4d5880f979045072df85fb2f8d",
+                  "cell": [
+                    0,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 1,
+                  "pose": "bend",
+                  "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+                  "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-01-attempt-3.png",
+                  "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+                  "sourceSha256": "d20e4784d72e806f7dedc93a9d587004f5f693983c7c9a59e4e1590c67d3f17b",
+                  "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+                  "rawSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    0,
+                    0,
+                    313,
+                    450
+                  ],
+                  "figureSize": [
+                    60,
+                    86
+                  ],
+                  "cellMargins": [
+                    34,
+                    34,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "f12a26477494dacb930fe9e44bffaad94e5e1e040a2de2f2dee3a09561d9155e",
+                  "cell": [
+                    128,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 2,
+                  "pose": "gather",
+                  "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+                  "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-02-attempt-3.png",
+                  "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+                  "sourceSha256": "097041abe8742a3b04848375edae564ca478e8a83fc63427d0d32a9ff965e900",
+                  "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+                  "rawSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    3,
+                    0,
+                    289,
+                    446
+                  ],
+                  "figureSize": [
+                    55,
+                    86
+                  ],
+                  "cellMargins": [
+                    36,
+                    37,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "7f19bf2d0c267c52fc2fb31ed3d7156774f026b6b5dcef3328a01b6c30b1f053",
+                  "cell": [
+                    256,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 3,
+                  "pose": "deep-gather",
+                  "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+                  "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-03-attempt-2.png",
+                  "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+                  "sourceSha256": "78b5cbb0d21aefb6f80ceb7d676d46519b1a67cb995ef10e9bbaa1bea86dfc60",
+                  "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+                  "rawSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    0,
+                    0,
+                    217,
+                    296
+                  ],
+                  "figureSize": [
+                    63,
+                    86
+                  ],
+                  "cellMargins": [
+                    32,
+                    33,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "4dbf641aeb3552dbcca2bc00f6afb4c09183690003b713679770aad66843a584",
+                  "cell": [
+                    384,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 4,
+                  "pose": "set",
+                  "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+                  "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-04-attempt-2.png",
+                  "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+                  "sourceSha256": "937a04cd453f39b126e3100336d92a84ddb93336bafdd4c784d2509848343e0d",
+                  "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+                  "rawSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    0,
+                    0,
+                    208,
+                    312
+                  ],
+                  "figureSize": [
+                    57,
+                    86
+                  ],
+                  "cellMargins": [
+                    35,
+                    36,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "618a2b4b6b88194d6bcc3860a4e7a2afc00f73720fdadaedb6289140be10e0d7",
+                  "cell": [
+                    512,
+                    0,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 5,
+                  "pose": "release",
+                  "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+                  "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-05-attempt-2.png",
+                  "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+                  "sourceSha256": "7c69a9c30c8470b06886919df52dabffe8bbb0517fbd43d6b19e7abae2830225",
+                  "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+                  "rawSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    4,
+                    0,
+                    215,
+                    357
+                  ],
+                  "figureSize": [
+                    51,
+                    86
+                  ],
+                  "cellMargins": [
+                    38,
+                    39,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "f5aefa95040105fd81422aadf5b44012f1fd7bd1501b734a236a8b06f6f32b85",
+                  "cell": [
+                    0,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 6,
+                  "pose": "follow-through",
+                  "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+                  "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-06-attempt-2.png",
+                  "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+                  "sourceSha256": "4625d34829900acde75dc7f02d72d1578009b4de616cc077b9afaa1ad8636fa1",
+                  "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+                  "rawSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    0,
+                    0,
+                    231,
+                    316
+                  ],
+                  "figureSize": [
+                    63,
+                    86
+                  ],
+                  "cellMargins": [
+                    32,
+                    33,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "c9253d4123bccf8d1cea88eecef335c9173c8abfe6838a56cbc7a4aa6ba5d254",
+                  "cell": [
+                    128,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 7,
+                  "pose": "apex",
+                  "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+                  "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-07-attempt-3.png",
+                  "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+                  "sourceSha256": "78a876ddde80ef22198bdfd1cc71f11ab602ebc0a83365572049cf7279b7a5b3",
+                  "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+                  "rawSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    0,
+                    0,
+                    324,
+                    575
+                  ],
+                  "figureSize": [
+                    48,
+                    86
+                  ],
+                  "cellMargins": [
+                    40,
+                    40,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "db78c88cc3d8be8ecd0cced438e7a7963dba0ad29457013037d26654c1f169e1",
+                  "cell": [
+                    256,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 8,
+                  "pose": "descent",
+                  "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+                  "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-08-attempt-3.png",
+                  "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+                  "sourceSha256": "75e01070771c195efec77373766d91071f3c09759415ec04e7db3d6a2be1462f",
+                  "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+                  "rawSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    0,
+                    0,
+                    335,
+                    513
+                  ],
+                  "figureSize": [
+                    56,
+                    86
+                  ],
+                  "cellMargins": [
+                    36,
+                    36,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "5db4e49c210d3257e3d67a4057925fa2006fe6023c3b60e60ae75cec5269dc09",
+                  "cell": [
+                    384,
+                    96,
+                    128,
+                    96
+                  ]
+                },
+                {
+                  "poseIndex": 9,
+                  "pose": "landing",
+                  "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+                  "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-09-attempt-3.png",
+                  "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+                  "sourceSha256": "35b1c24f9989a19cf8e05abb17b58e440d1b326592299dbabc0adb7f0cd7bf56",
+                  "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+                  "rawSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+                  "cropThreshold": 16,
+                  "cropBox": [
+                    0,
+                    0,
+                    300,
+                    450
+                  ],
+                  "figureSize": [
+                    57,
+                    86
+                  ],
+                  "cellMargins": [
+                    35,
+                    36,
+                    5,
+                    5
+                  ],
+                  "packedCellSha256": "b8d3ce04fc476a4a7ea43b65c3fed2cc91be9bf031aba38db20279926082df0a",
+                  "cell": [
+                    512,
+                    96,
+                    128,
+                    96
+                  ]
+                }
+              ],
+              "runtimeBallTrack": {
+                "height": [
+                  1.13,
+                  1.043,
+                  1.503,
+                  1.503,
+                  2.048,
+                  2.278,
+                  2.278,
+                  2.278,
+                  1.962,
+                  1.187
+                ],
+                "forward": [
+                  8.04,
+                  9.502,
+                  3.655,
+                  4.751,
+                  7.675,
+                  5.847,
+                  6.944,
+                  7.309,
+                  9.867,
+                  8.405
+                ],
+                "anchors": {
+                  "takeoff": 6,
+                  "release": 13,
+                  "peak": 13,
+                  "finish": 23
+                },
+                "releasePolicy": "Piper holds the separate ball through tick12; the tick13 release transfers it to simulation-owned shot flight.",
+                "prePackOverlayReview": "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-ball-overlay-diagnostic.png",
+                "handCentersInReviewCell": [
+                  [
+                    86,
+                    48
+                  ],
+                  [
+                    90,
+                    51
+                  ],
+                  [
+                    74,
+                    35
+                  ],
+                  [
+                    77,
+                    35
+                  ],
+                  [
+                    85,
+                    16
+                  ],
+                  [
+                    80,
+                    8
+                  ],
+                  [
+                    83,
+                    8
+                  ],
+                  [
+                    84,
+                    8
+                  ],
+                  [
+                    91,
+                    19
+                  ],
+                  [
+                    87,
+                    46
+                  ]
+                ]
+              },
+              "status": "accepted source; ten distinct poses and native-render separate-ball track review passed",
+              "actionAnchors": {
+                "takeoff": 2,
+                "release": 5,
+                "peak": 5,
+                "finish": 9
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-24",
+                "notes": [
+                  "Independent review passed identity, anatomy, transparency, margins and release ball alignment.",
+                  "Frames05 and07 are the closest silhouettes; pose07 is distinct by its airborne posture.",
+                  "Actual Canvas renders all ten frames in both facings at100% and120% zoom; ball held through tick12 and released at tick13."
+                ],
+                "evidence": [
+                  "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-attempt-01-review.png",
+                  "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-attempt-02-grid-review.png",
+                  "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-attempt-03-replacements-review.png",
+                  "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-poses00-09-cell-review.png",
+                  "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-ball-overlay-diagnostic.png",
+                  "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-atlas-review.png",
+                  "tools/generate-art/previews/j108-piper-quickstep-shoot/native-100/native-render-report.json",
+                  "tools/generate-art/previews/j108-piper-quickstep-shoot/native-120/native-render-report.json"
+                ]
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "All10 unique isolated poses reviewed for clear sequence, transparent alpha,32px side margins and5px top/bottom. Piper’s adult human anatomy, warm brown skin, orange high ponytail, russet/cream uniform and shoes remain consistent. Independent review noted poses05/07 are closest but distinct in airborne posture. Separate ball aligns at the open hand on release frame05/tick13; actual Canvas selects all frames in both facings at standard and120% zoom. Source, prompts, rejected sheets and previews are retained under tools/generate-art/j108-piper-quickstep-shoot*."
           }
         }
       },
@@ -34749,6 +35283,480 @@
             },
             "reviewed": true,
             "reviewNotes": "Canon reviewed: human athlete with medium-brown skin, dense brown shoulder-length locs and a vivid red headband, in russet/cream kit. All42 source poses and every packed locomotion crop inspected; independent poses, pose16/37 low dribble reach, no baked ball or clipping. Live game ball tracking remains separate from the sprite."
+          },
+          "shoot": {
+            "src": "./public/assets/animation/briar-foxglove-shoot-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "fc67f09e772d20061f58ef49052951791c583f82becfe0af58434bd80e21d961"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "b3c13803207d5ff61add6f4fe4e76566d9fdee39da2130e6a7d305d7d981817c"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "cae9cd67c61a6c0d76e0e1b0e5f9a669f914794c60214cd76a0a48a54e347bbc"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "77010cd26e89e209b2a1c3e5d5eeeb78aadd96fbd9adedaf99d21d06b0e77ad3"
+              },
+              {
+                "x": 512,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "1c24e1b5d441e425802d958fcf1d70151c76644bdf91b03f287fb27de3600205"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "baf17e374106d512d438ce0f47e0616cc716b94ac2226569d365693850d0cf43"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "edf1669bd3320d0ff2f64afc80857fbfe64bb53eb80763b5ce981fdbc0407618"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "d5e8ed467ae6447d23b458ae1f6a12de60527bac566a11baaaac06563dc0b409"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "22ac35d795488b9a4641db712d2c7b76b0e513ddf4388d6baad249d8ad9d4857"
+              },
+              {
+                "x": 512,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "bed723bdfd9a8ba0c8b0b090807e36726e4fbafa4d5e98cf70085fe08bc43286"
+              }
+            ],
+            "sha256": "9303c007d4d8697559670cfa851cc4c9667156daa43c83cef2a29cd0020a34f1",
+            "source": "imagegen",
+            "reviewed": true,
+            "reviewNotes": "All10 complete source poses retain Briar’s deep-brown adult human identity, shoulder-length dark locs, red headband, compact build, russet/cream kit and shoes. Independent review passed transparent alpha, cell margins, anatomy and cleanup; frames06/07 are close but distinct. Pre-pack overlay and native separate-ball views align at the raised hand for release frame05/tick13. All frames select in both facings at standard/120% zoom; sources, exact prompts, rejected attempts and previews are in tools/generate-art/j109-briar-foxglove-shoot*.",
+            "provenance": {
+              "prompt": "Isolated transparent PNG, NO background. One right-facing full-body pose of Briar Foxglove, the adult human woman shown in the provided Emberwood Kits sprite reference. Match her identity precisely: warm deep-brown skin, shoulder-length dark brown locs swept back by a vivid red headband, determined friendly face, compact athletic human build, russet-red sleeveless Emberwood basketball top with cream side panel, matching russet shorts with cream piping, cream socks, russet-and-cream basketball shoes. Keep natural human anatomy with exactly two arms and two legs, natural hands, no animal ears, no fox muzzle, no tail, no magical effects. Match the chunky, crisp 1990s arcade pixel sprite style, limited warm palette and shaded pixel contours of the reference. Frame 0 of her ten-pose jump shot: balanced right-facing ready stance just before the shot, knees softly bent, feet planted apart, torso upright and eyes on the right-hand basket, both empty hands relaxed at chest height with a clear empty space between them. No basketball or prop may appear in the sprite. Show the complete figure including locs, shoes and fingers, from her loc top through both soles, centered and small enough to fit the middle 65 percent of a 1024x1536 portrait canvas with a large clear transparent border; figure aspect ratio no wider than 0.75. TRUE TRANSPARENCY: every pixel outside the player must have alpha 0. Do NOT draw checkerboard, gray tiles, white or colored backdrop, floor, shadow, court, hoop, ball, object, glow, border, text, logo or grid. Return exactly one character, one pose, genuinely transparent background.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "Pose00 prompt is verbatim; per-pose prompts and generations are linked in sourceRecords.",
+              "promptScope": "Verbatim prompt for frame00; all ten authored poses link their own exact prompts, generations and raw sources.",
+              "generatedAt": "2026-10-24T17:54:09Z",
+              "generationId": "exec-0c1f7802-d7eb-4fae-afe8-768b06995b70",
+              "promptAndSourceManifest": "tools/generate-art/j109-briar-foxglove-shoot-provenance.json",
+              "sourceRecords": [
+                {
+                  "pose": 0,
+                  "source": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-00-attempt-1.png",
+                  "sha256": "6f75bbe5266a9f01ea0232381a895fea5c989bae824997d51b357e82e7cb07a3",
+                  "rawSource": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-00-attempt-01-raw.png",
+                  "rawSourceSha256": "0247d817e02d34d21a5cfa952acfd81b759a551c7f22250ba6252d4eb8aed224",
+                  "generationId": "exec-0c1f7802-d7eb-4fae-afe8-768b06995b70",
+                  "prompt": "tools/generate-art/j109-briar-foxglove-shoot-pose-00-attempt-1-prompt.md",
+                  "sourceBounds": [
+                    352,
+                    203,
+                    884,
+                    1118
+                  ],
+                  "sourceComponentPixels": 237242,
+                  "cellFigure": [
+                    50,
+                    86
+                  ],
+                  "marginsLTRB": [
+                    39,
+                    39,
+                    5,
+                    5
+                  ],
+                  "cellSha256": "d5e25790edc5fee3ecfc63b890b8e3b0c97ca15a644c056650487b330a16437d",
+                  "ballPaintedInPose": false
+                },
+                {
+                  "pose": 1,
+                  "source": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-01-attempt-2.png",
+                  "sha256": "e176e5d5a6840b6f07baa9ecc96e2e47f037f48ee0a5745ef6c14a992842175b",
+                  "rawSource": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-01-attempt-02-raw.png",
+                  "rawSourceSha256": "f7141e18d13997cf441ebaffc831fa99e3686fe417b0c43d2f48585fae3a89e1",
+                  "generationId": "exec-7f322440-38ff-4d80-a0e8-67081f050900",
+                  "prompt": "tools/generate-art/j109-briar-foxglove-shoot-pose-01-attempt-2-prompt.md",
+                  "sourceBounds": [
+                    328,
+                    285,
+                    853,
+                    1162
+                  ],
+                  "sourceComponentPixels": 228553,
+                  "cellFigure": [
+                    51,
+                    86
+                  ],
+                  "marginsLTRB": [
+                    38,
+                    39,
+                    5,
+                    5
+                  ],
+                  "cellSha256": "c604a48492118fdc52c2192b7e62029d70fbeefe1ba852d15f60c0de247e6b43",
+                  "ballPaintedInPose": false
+                },
+                {
+                  "pose": 2,
+                  "source": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-02-attempt-1.png",
+                  "sha256": "66f7adac89502de5ab2afc6b853aacede93a249308fc058d6a88b8620ef8bfd5",
+                  "rawSource": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-02-attempt-01-raw.png",
+                  "rawSourceSha256": "1e84162ea19e3de568b8db5b40e56e1b7b79a05fafa816a5a0adc6021b1e39f7",
+                  "generationId": "exec-15922876-12a2-4bd6-ab64-be0ef2e9d41c",
+                  "prompt": "tools/generate-art/j109-briar-foxglove-shoot-pose-02-attempt-1-prompt.md",
+                  "sourceBounds": [
+                    316,
+                    408,
+                    744,
+                    1144
+                  ],
+                  "sourceComponentPixels": 168935,
+                  "cellFigure": [
+                    50,
+                    86
+                  ],
+                  "marginsLTRB": [
+                    39,
+                    39,
+                    5,
+                    5
+                  ],
+                  "cellSha256": "5cc4b34371917d6c9363d7262e54b4b4cc061ca95e0ade4acf2b8194cd7db33d",
+                  "ballPaintedInPose": false
+                },
+                {
+                  "pose": 3,
+                  "source": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-03-attempt-1.png",
+                  "sha256": "4c3759de667cb6bafa552f91db1757055fa4deca7fdd68567b6f0297d30ca80e",
+                  "rawSource": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-03-attempt-01-raw.png",
+                  "rawSourceSha256": "f053d4b8f3e8a6024176b669216a4d1b029cf5593d54ad1ef2c312b014f95610",
+                  "generationId": "exec-48524f51-9c34-429b-890c-0258a9117905",
+                  "prompt": "tools/generate-art/j109-briar-foxglove-shoot-pose-03-attempt-1-prompt.md",
+                  "sourceBounds": [
+                    320,
+                    305,
+                    773,
+                    1276
+                  ],
+                  "sourceComponentPixels": 213416,
+                  "cellFigure": [
+                    40,
+                    86
+                  ],
+                  "marginsLTRB": [
+                    44,
+                    44,
+                    5,
+                    5
+                  ],
+                  "cellSha256": "858cb10149bcd64bd42948828d1e7234a5b6729c358c23e175d725b9be82b74b",
+                  "ballPaintedInPose": false
+                },
+                {
+                  "pose": 4,
+                  "source": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-04-attempt-1.png",
+                  "sha256": "5c0c72e314579923a3f89f250c7115423d9318e16b4cdeb9f38ee1394bc215ef",
+                  "rawSource": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-04-attempt-01-raw.png",
+                  "rawSourceSha256": "f66164739b22c6d4ad5d50c5a64ad5f6ea01149fc1fd36f85b67d86cdfa1adb0",
+                  "generationId": "exec-9be747c4-6443-4bdf-81f9-357f4c8c1020",
+                  "prompt": "tools/generate-art/j109-briar-foxglove-shoot-pose-04-attempt-1-prompt.md",
+                  "sourceBounds": [
+                    328,
+                    258,
+                    761,
+                    1284
+                  ],
+                  "sourceComponentPixels": 211126,
+                  "cellFigure": [
+                    36,
+                    86
+                  ],
+                  "marginsLTRB": [
+                    46,
+                    46,
+                    5,
+                    5
+                  ],
+                  "cellSha256": "427439fb0a37568bcb34ee3585d1a7a70199267ae3a4917359ffc8b22ef62b43",
+                  "ballPaintedInPose": false
+                },
+                {
+                  "pose": 5,
+                  "source": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-05-attempt-1.png",
+                  "sha256": "6fa391d698172e054d7434be1d24912eaa3543791279c9929eedf8df4c1db00e",
+                  "rawSource": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-05-attempt-01-raw.png",
+                  "rawSourceSha256": "41ea138c55f74096be43cc0728df574e3f5008cd23def7d5769f78f7b1000905",
+                  "generationId": "exec-8bc24603-007b-405f-b113-55a2412960a6",
+                  "prompt": "tools/generate-art/j109-briar-foxglove-shoot-pose-05-attempt-1-prompt.md",
+                  "sourceBounds": [
+                    341,
+                    273,
+                    801,
+                    1168
+                  ],
+                  "sourceComponentPixels": 152239,
+                  "cellFigure": [
+                    44,
+                    86
+                  ],
+                  "marginsLTRB": [
+                    42,
+                    42,
+                    5,
+                    5
+                  ],
+                  "cellSha256": "702fbc2c896b7c33a6e1a342d01d715770808b2f4f6095007f266f5dbf78c229",
+                  "ballPaintedInPose": false
+                },
+                {
+                  "pose": 6,
+                  "source": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-06-attempt-1.png",
+                  "sha256": "18b9daf45befe64060d6c948f782135eebfee6d5b5de9c5cd315c06140b0bcbd",
+                  "rawSource": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-06-attempt-01-raw.png",
+                  "rawSourceSha256": "0d3ddb66b9bbc80acc032411be60443ee09489a4d757adf96b69205c2a86e3fc",
+                  "generationId": "exec-d61ce4e4-792a-42d7-a1a8-691f6890ac7b",
+                  "prompt": "tools/generate-art/j109-briar-foxglove-shoot-pose-06-attempt-1-prompt.md",
+                  "sourceBounds": [
+                    266,
+                    198,
+                    848,
+                    1290
+                  ],
+                  "sourceComponentPixels": 217111,
+                  "cellFigure": [
+                    46,
+                    86
+                  ],
+                  "marginsLTRB": [
+                    41,
+                    41,
+                    5,
+                    5
+                  ],
+                  "cellSha256": "29cb0d8728ed8c096f538890fd4d486fcddd623d7fac4b29106291ccdcca90a5",
+                  "ballPaintedInPose": false
+                },
+                {
+                  "pose": 7,
+                  "source": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-07-attempt-1.png",
+                  "sha256": "1fa4bc2ff47bcaa7e4323b8ed7b515f8e062f01d2c5273779416585bc50dbafe",
+                  "rawSource": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-07-attempt-01-raw.png",
+                  "rawSourceSha256": "fee122c85c83ba9e6822d5939a4861b0abb01d90c7aa778501a79d12f5baccc9",
+                  "generationId": "exec-56d9ef90-8d07-43c6-b641-13a37efaff21",
+                  "prompt": "tools/generate-art/j109-briar-foxglove-shoot-pose-07-attempt-1-prompt.md",
+                  "sourceBounds": [
+                    303,
+                    209,
+                    845,
+                    1266
+                  ],
+                  "sourceComponentPixels": 232925,
+                  "cellFigure": [
+                    44,
+                    86
+                  ],
+                  "marginsLTRB": [
+                    42,
+                    42,
+                    5,
+                    5
+                  ],
+                  "cellSha256": "ad1f61fb1951f1dab317e073fc13c8609217ac05d8264cf3c3f843783e7b7a65",
+                  "ballPaintedInPose": false
+                },
+                {
+                  "pose": 8,
+                  "source": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-08-attempt-1.png",
+                  "sha256": "05b8cda53231cc799516d11177838e418af71a805428f97d61a7b5c48f612cb8",
+                  "rawSource": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-08-attempt-01-raw.png",
+                  "rawSourceSha256": "ce0ad1c3ee239dda378efc055f5fd83e63663c39fac6417b4f67d0181f66e474",
+                  "generationId": "exec-b9e91faf-5368-4358-a41a-a15cf7bbffa9",
+                  "prompt": "tools/generate-art/j109-briar-foxglove-shoot-pose-08-attempt-1-prompt.md",
+                  "sourceBounds": [
+                    256,
+                    288,
+                    813,
+                    1275
+                  ],
+                  "sourceComponentPixels": 316631,
+                  "cellFigure": [
+                    49,
+                    86
+                  ],
+                  "marginsLTRB": [
+                    39,
+                    40,
+                    5,
+                    5
+                  ],
+                  "cellSha256": "dc5fe08e622cab8c25e9461d22135384dd4b7d9c13d9636ffa2f63449a3827a5",
+                  "ballPaintedInPose": false
+                },
+                {
+                  "pose": 9,
+                  "source": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-09-attempt-1.png",
+                  "sha256": "2cce000fb0fbf9688572165047583c52e690b628626550184822df3fe21277b5",
+                  "rawSource": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-09-attempt-01-raw.png",
+                  "rawSourceSha256": "75862d7c6544fe3fb336f8ebfaaacdb55e9539981773f34f1dd72834c900a8b7",
+                  "generationId": "exec-3fbbb732-488e-486c-90d2-3ca92a5be498",
+                  "prompt": "tools/generate-art/j109-briar-foxglove-shoot-pose-09-attempt-1-prompt.md",
+                  "sourceBounds": [
+                    294,
+                    307,
+                    742,
+                    1112
+                  ],
+                  "sourceComponentPixels": 169713,
+                  "cellFigure": [
+                    48,
+                    86
+                  ],
+                  "marginsLTRB": [
+                    40,
+                    40,
+                    5,
+                    5
+                  ],
+                  "cellSha256": "63ab04b44b0b8296e47d166e238cd026ba4c0e57aa5b3f380d03d12b5f90584e",
+                  "ballPaintedInPose": false
+                }
+              ],
+              "status": "accepted source; ten distinct poses and native-render separate-ball track review passed",
+              "actionAnchors": {
+                "takeoff": 2,
+                "release": 5,
+                "peak": 5,
+                "finish": 9
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.043,
+                  1.417,
+                  0.929,
+                  1.618,
+                  1.962,
+                  2.249,
+                  2.278,
+                  2.249,
+                  1.187,
+                  1.072
+                ],
+                "forward": [
+                  7.309,
+                  4.02,
+                  7.675,
+                  5.847,
+                  6.213,
+                  6.944,
+                  7.675,
+                  7.675,
+                  6.578,
+                  8.771
+                ],
+                "anchors": {
+                  "takeoff": 6,
+                  "release": 13,
+                  "peak": 13,
+                  "finish": 23
+                },
+                "releasePolicy": "Briar holds the separate ball through tick12; frame05 releases at tick13 into simulation-owned shot flight.",
+                "handCentersInReviewCell": [
+                  [
+                    84,
+                    51
+                  ],
+                  [
+                    75,
+                    38
+                  ],
+                  [
+                    85,
+                    55
+                  ],
+                  [
+                    80,
+                    31
+                  ],
+                  [
+                    81,
+                    19
+                  ],
+                  [
+                    83,
+                    9
+                  ],
+                  [
+                    85,
+                    8
+                  ],
+                  [
+                    85,
+                    9
+                  ],
+                  [
+                    82,
+                    46
+                  ],
+                  [
+                    88,
+                    50
+                  ]
+                ],
+                "nativeRendererReports": [
+                  "tools/generate-art/previews/j109-briar-foxglove-shoot/native-100/native-render-report.json",
+                  "tools/generate-art/previews/j109-briar-foxglove-shoot/native-120/native-render-report.json"
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-24",
+                "notes": [
+                  "Independent review passed identity, anatomy, transparency, margins and cleanup.",
+                  "Frames06/07 are close but distinct: upright extension versus bent-knee descent.",
+                  "Pre-pack overlay and native Canvas show the separate ball at release fingertips in both facings.",
+                  "Actual Canvas selects all ten frames in both facings at100% and120% zoom; hold through tick12, release at tick13."
+                ],
+                "evidence": [
+                  "tools/generate-art/previews/j109-briar-foxglove-shoot/j109-briar-foxglove-shoot-ball-overlay-diagnostic.png",
+                  "tools/generate-art/previews/j109-briar-foxglove-shoot/j109-briar-foxglove-shoot-atlas-review.png",
+                  "tools/generate-art/previews/j109-briar-foxglove-shoot/native-100/native-render-report.json",
+                  "tools/generate-art/previews/j109-briar-foxglove-shoot/native-120/native-render-report.json"
+                ]
+              }
+            }
           }
         }
       },

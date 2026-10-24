@@ -1,0 +1,20 @@
+# J.109 Briar Foxglove `shoot` source review
+
+Roster order and target: Briar Foxglove is rosterIndex 2 in the current Emberwood Kits roster. The current animation manifest lists `idle`, `idle-ball`, `dribble`, `run`, `dribble-run`; the next missing clip is `shoot`, with ten frames. This lane contains individual candidate pose sources only. No manifest, production atlas, tracker, or runtime files were changed.
+
+Identity reviewed against Briar’s gameplay atlas and roster: adult human woman; warm deep-brown skin; shoulder-length dark locs; vivid red headband; compact athletic build; russet-and-cream Emberwood uniform, cream socks and russet/cream shoes. No fox traits. All candidates are right-facing, with no basketball painted in source. Ball remains a separate athlete-specific runtime track.
+
+Review: all ten candidates were laid into individual 128x96 cells, checked on both light and dark contact sheets, and inspected at zoom. All cell corners are fully transparent. Alpha>16 cell bounds remain within the required 76x86 maximum fit area and centered with at least 26px left/right and 5px top/bottom margins. Anatomy shows two arms and two legs; no pose is cropped. Poses progress ready (00), gather (01), dip (02), rise (03), set (04), release (05), follow-through (06), descent (07), landing (08), recovery (09). 06/07 are related but separable: 06 has near-straight body and extended arm; 07 has bent knees and descending body. The previews reveal no painted ball or extra limb. Palette/identity are consistent across candidates, though generated shading/scale varies; parent should review before production integration.
+
+Pose 01 attempt 01 had an opaque dark vignette despite alpha requested. Its background-only edit regenerated the same vignette. Both raw files and exact prompts/generation IDs are preserved as rejected; do not use either. Pose 01 attempt 02 and poses 02–09 have alpha 0 at all four corners and are reviewed candidates. Pose 00 also has clean alpha and is a candidate. The independent parent review passed the ten source cells and ball overlay before packing. Source poses are now packed as J.109; the actual Canvas test confirms the live ball stays at the raised release hand and enters shot flight at tick13.
+
+Artifacts: exact prompts and generation IDs are in `j109-briar-foxglove-shoot-pose-*-prompt.md`; hashes and source bounds are in `j109-briar-foxglove-shoot-provenance.json`; fitted-cell bounds/margins are in `j109-briar-foxglove-shoot-layout.json`; light/dark and zoom contact sheets are in `previews/j109-briar-foxglove-shoot/`.
+
+
+## Acceptance and renderer review
+
+An independent source reviewer passed all ten cells: complete human anatomy, Briar’s canon identity, transparent corners, no ball in art, no fringe at production size, and at least26px horizontal /5px vertical margins. Frames06–07 are the closest pair but remain distinguishable by upright extension versus bent-knee descent. The pre-pack diagnostic `previews/j109-briar-foxglove-shoot/j109-briar-foxglove-shoot-ball-overlay-diagnostic.png` places the separate game ball at the measured shooting hand, with frame05’s release touching the fingertips.
+
+Accepted atlas: `public/assets/animation/briar-foxglove-shoot-right.webp`, lossless640×192, ten distinct source frames, SHA-256 `9303c007d4d8697559670cfa851cc4c9667156daa43c83cef2a29cd0020a34f1`. The packed preview `previews/j109-briar-foxglove-shoot/j109-briar-foxglove-shoot-atlas-review.png` shows all rows on light and dark grounds.
+
+The athlete-specific ball track is `[1.043,1.417,.929,1.618,1.962,2.249,2.278,2.249,1.187,1.072]` height and `[7.309,4.02,7.675,5.847,6.213,6.944,7.675,7.675,6.578,8.771]` forward. Briar holds through tick12 and releases from frame05 at tick13. Native Canvas captures select all ten frames in both facings at standard and120% zoom; the ball stays at her hand on release and becomes simulation-owned shot flight. Full frame captures and filtered native reports are under `previews/j109-briar-foxglove-shoot/native-100/` and `native-120/`.

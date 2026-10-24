@@ -1,5 +1,12 @@
 # QA report
 
+## J.108 / J.109 — Piper and Briar jump shots (local validation; deployment pending)
+
+- Registered ten unique authored `shoot` poses each for Piper Quickstep and Briar Foxglove in lossless640×192 atlases. Both retain identity, complete human anatomy, transparent corners, clear pose progression, and clean cell margins. Exact prompts, raw/clean hashes, cleanup methods, rejected attempts, layouts, provenance, and light/dark reviews are preserved in `tools/generate-art/`.
+- Each athlete has an independent hand-aligned ball track. Source-cell overlays were reviewed before packing; native Canvas renders show all ten frames in both facings at standard and120% zoom. Possession remains through tick12; release frame05 transfers the ball into shot flight at tick13. Frames05/07 (Piper) and06/07 (Briar) are the closest silhouettes and are distinct by posture.
+- Focused animation/sprite suites pass. Full validation: `npm test` PASS (28/28 test files), `npm run lint` PASS (18 modules), `npm run validate:content` PASS (35 franchises /105 athletes), `npm run simulate:league` PASS (100 matches /856,237 ticks /5 overtimes), `npm run build` PASS, and Chromium `npm run test:e2e` PASS.
+- Strict audit at `2026-10-24T17:56:22.523Z`: **672 clips /5,924 authored drawings /105 athletes**, 2,431 missing clips,3 target shortfalls,4 inherited prompt findings. The full-roster target remains incomplete. Next canonical roster-order item is Moxie Capwell; her full source-only package has passed inventory/hash/identity review and awaits atlas-margin and native ball-track review.
+
 ## J.107 Keeg `alley-oop-reverse` asset checkpoint — Pages run #159 passed
 
 - Accepted and registered 15 unique generated Keeg poses in a lossless5×3 atlas. The 128×96 packed cells retain at least26px side margins and5px vertical margins; the corrected light/dark review covers all15 poses. Pose05 has an empty catch gap; no source art contains a ball.

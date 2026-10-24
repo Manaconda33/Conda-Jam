@@ -92,7 +92,16 @@ export function anchorTick(key, anchor) { const c=animationClips[key];const fram
 export function sampleAnimation(key, elapsedTicks=0) { const c=animationClips[key];if(!c)throw new RangeError(`Unknown animation: ${key}`);const duration=animationDuration(key),elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);for(const frame of sequenceFor(c)){if(tick<c.frames[frame].duration)return {frame,done:!c.loop&&elapsed>=duration};tick-=c.frames[frame].duration;}return {frame:0,done:false}; }
 
 // Interpolate within each authored frame duration, using the same loop as sampling.
-const athleteBallTracks={'reed-ashcroft':{
+const athleteBallTracks={'briar-foxglove':{
+  // Briar's direct jump shot follows the separate ball from her low gather
+  // through the high right-hand release; the source artwork remains empty.
+  shoot:{height:[1.043,1.417,.929,1.618,1.962,2.249,2.278,2.249,1.187,1.072],forward:[7.309,4.02,7.675,5.847,6.213,6.944,7.675,7.675,6.578,8.771]}
+},'piper-quickstep':{
+  // The ball stays in Piper's leading hand through the bent jump-shot release.
+  // Centers were measured on the reviewed 128x96 source cells and checked in
+  // the pre-pack overlay and native Canvas render at standard/120% zoom.
+  shoot:{height:[1.13,1.043,1.503,1.503,2.048,2.278,2.278,2.278,1.962,1.187],forward:[8.04,9.502,3.655,4.751,7.675,5.847,6.944,7.309,9.867,8.405]}
+},'reed-ashcroft':{
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.
   pass:{height:[.9,1.2,1.45,1.5,1.45,.95],forward:[8,7.5,12.5,18,17.5,9]},

@@ -654,6 +654,28 @@ for(const facing of [1,-1])test(`Keeg's separate ball tracks his empty-hand shot
  assert.ok(Math.abs(m.ball.z-m.ball.vz-.026-flightHeightFromHand(sampleBallHeight('shoot',release,p.id),p.z))<1e-9);
  assert.equal(sampleAnimation('shoot',release).frame,5,'frame5 releases above the hat at tick13');
 });
+for(const facing of [1,-1])test(`Piper's J.108 separate ball reaches her release hand and enters shot flight at tick13 facing ${facing}`,()=>{
+ const m=createMatch({quarterSeconds:60,seed:108,home:{roster:[{id:'piper-quickstep'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='piper-quickstep');
+ const release=anchorTick('shoot','release');p.x=100;p.facing=facing;
+ assert.equal(release,13);assert.deepEqual([sampleBallHeight('shoot',release,p.id),sampleBallForward('shoot',release,p.id)],[2.278,5.847]);
+ stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true})]);
+ for(let i=1;i<release;i++){stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);}
+ stepMatch(m,neutral(m));assert.equal(m.ball.mode,'shot');assert.equal(p.animation.tick,release);assert.equal(p.hasBall,false);
+ assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*5.847)<1e-9,'release begins at Piper’s hand in both facings');
+ assert.ok(Math.abs(m.ball.z-m.ball.vz-.026-flightHeightFromHand(2.278,p.z))<1e-9,'ball flight starts from Piper’s separate hand-height track');
+ assert.equal(sampleAnimation('shoot',release).frame,5,'pose05 is the release pose');
+});
+for(const facing of [1,-1])test(`Briar's J.109 separate ball reaches her release hand and enters shot flight at tick13 facing ${facing}`,()=>{
+ const m=createMatch({quarterSeconds:60,seed:109,home:{roster:[{id:'briar-foxglove'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='briar-foxglove');
+ const release=anchorTick('shoot','release');p.x=100;p.facing=facing;
+ assert.equal(release,13);assert.deepEqual([sampleBallHeight('shoot',release,p.id),sampleBallForward('shoot',release,p.id)],[2.249,6.944]);
+ stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true})]);
+ for(let i=1;i<release;i++){stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);}
+ stepMatch(m,neutral(m));assert.equal(m.ball.mode,'shot');assert.equal(p.animation.tick,release);assert.equal(p.hasBall,false);
+ assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*6.944)<1e-9,'release begins at Briar’s hand in both facings');
+ assert.ok(Math.abs(m.ball.z-m.ball.vz-.026-flightHeightFromHand(2.249,p.z))<1e-9,'shot flight starts from Briar’s separate hand-height track');
+ assert.equal(sampleAnimation('shoot',release).frame,5,'pose05 is the release pose');
+});
 for(const facing of [1,-1])test(`Keeg's chest pass follows his hands and releases once at tick5 facing ${facing}`,()=>{
  const m=createMatch({quarterSeconds:60,seed:185,home:{roster:[{id:'keeg'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='keeg');
  const release=anchorTick('pass','release');p.x=100;p.facing=facing;

@@ -12,6 +12,55 @@ test('Manaconda retains all29 reviewed production clips and293 distinct authored
  for(const [key,clip]of Object.entries(clips)){assert.equal(clip.reviewed,true,key);assert.equal(clip.frames.length,animationClips[key].frames.length,key);assert.equal(new Set(clip.frames.map(f=>f.hash)).size,clip.frames.length,key);total+=clip.frames.length;}
  assert.equal(total,293);
 });
+test('Piper J.108 selects ten reviewed shoot poses with her own release hand and mirrored body',()=>{
+ const id='piper-quickstep',character=animationAssetManifest.characters[id],clip=character.directions.right.shoot;
+ const atlas='./public/assets/animation/piper-quickstep-shoot-right.webp';
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);assert.equal(clip.sha256,'0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804');
+ assert.equal(clip.frames.length,10);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,10);
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.status,'accepted source; ten distinct poses and native-render separate-ball track review passed');
+ assert.deepEqual(clip.provenance.actionAnchors,{takeoff:2,release:5,peak:5,finish:9});
+ const height=[1.13,1.043,1.503,1.503,2.048,2.278,2.278,2.278,1.962,1.187];
+ const forward=[8.04,9.502,3.655,4.751,7.675,5.847,6.944,7.309,9.867,8.405];
+ assert.deepEqual(clip.provenance.runtimeBallTrack.height,height);assert.deepEqual(clip.provenance.runtimeBallTrack.forward,forward);
+ assert.equal(anchorTick('shoot','release'),13);assert.equal(sampleAnimation('shoot',13).frame,5,'pose05 is the shot release');
+ assert.equal(sampleBallHeight('shoot',13,id),height[5]);assert.equal(sampleBallForward('shoot',13,id),forward[5]);
+ assert.equal(sampleAnimation('shoot',12).frame,4,'the separate ball remains held through tick12');
+ const images=new Map([[atlas,{complete:true,naturalWidth:640,naturalHeight:192,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<10;frame++){
+  assert.equal(sampleAnimation('shoot',tick).frame,frame,'Piper maps J.108 pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'shoot',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.shoot.frames[frame].duration;
+ }
+});
+test('Briar J.109 selects ten reviewed shoot poses with her own release hand and mirrored body',()=>{
+ const id='briar-foxglove',character=animationAssetManifest.characters[id],clip=character.directions.right.shoot;
+ const atlas='./public/assets/animation/briar-foxglove-shoot-right.webp';
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);assert.equal(clip.sha256,'9303c007d4d8697559670cfa851cc4c9667156daa43c83cef2a29cd0020a34f1');
+ assert.equal(clip.frames.length,10);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,10);
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.status,'accepted source; ten distinct poses and native-render separate-ball track review passed');
+ assert.deepEqual(clip.provenance.actionAnchors,{takeoff:2,release:5,peak:5,finish:9});
+ const height=[1.043,1.417,.929,1.618,1.962,2.249,2.278,2.249,1.187,1.072];
+ const forward=[7.309,4.02,7.675,5.847,6.213,6.944,7.675,7.675,6.578,8.771];
+ assert.deepEqual(clip.provenance.runtimeBallTrack.height,height);assert.deepEqual(clip.provenance.runtimeBallTrack.forward,forward);
+ assert.equal(anchorTick('shoot','release'),13);assert.equal(sampleAnimation('shoot',13).frame,5);
+ assert.equal(sampleBallHeight('shoot',13,id),height[5]);assert.equal(sampleBallForward('shoot',13,id),forward[5]);
+ assert.equal(sampleAnimation('shoot',12).frame,4,'the separate ball remains held through tick12');
+ const images=new Map([[atlas,{complete:true,naturalWidth:640,naturalHeight:192,file:atlas}]]);let tick=0;
+ for(let frame=0;frame<10;frame++){
+  assert.equal(sampleAnimation('shoot',tick).frame,frame,'Briar maps J.109 pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'shoot',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.shoot.frames[frame].duration;
+ }
+});
 test('held balls remain visible in front of their carrier at every jump height',()=>{
  for(const z of [0,5,18]){const owner={id:'carrier',y:50,z};const depth=ballDrawDepth({mode:'carried',ownerId:owner.id,y:50},[owner]);assert.ok(depth>owner.y-owner.z*.05);assert.ok(depth<51);}
  assert.equal(ballDrawDepth({mode:'shot',y:50},[]),49.5);

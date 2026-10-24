@@ -53,7 +53,7 @@ if(!game.state.players.some(p=>p.id===previewAthlete)){
 for(const im of images)if(!im.complete)await Promise.race([new Promise((resolve,reject)=>{im.addEventListener('load',resolve);im.onerror=reject}),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Image did not load: '+im.file+' '+im.width+'x'+im.height)),5000))]);
 const {animationClips,anchorTick,sampleBallHeight,sampleBallForward}=await import(pathToFileURL(root+'/src/core/animation.js'));
 const {selectProductionSprite}=await import(pathToFileURL(root+'/src/render/animation-sprites.js'));
-const out=path.join(root,'artifacts/native-render-preview',previewAthlete+(previewZoom===100?'':`-zoom${previewZoom}`));await mkdir(out,{recursive:true});
+const out=process.env.JAMVERSE_PREVIEW_DIR?path.resolve(root,process.env.JAMVERSE_PREVIEW_DIR):path.join(root,'artifacts/native-render-preview',previewAthlete+(previewZoom===100?'':`-zoom${previewZoom}`));await mkdir(out,{recursive:true});
 game.tick(180);await writeFile(out+'/simulation-180.png',document.getElementById('game').native.toBuffer('image/png'));
 const state=game.state;state.lastEvent='';state.pause=false;state.phase='playing';
 const p=state.players.find(p=>p.id===previewAthlete);
@@ -63,6 +63,8 @@ const {animationAssetManifest}=await import(pathToFileURL(root+'/src/content/ani
 // approved in the checked-in manifest. This override is process-local only.
 if(process.env.JAMVERSE_PREVIEW_UNREVIEWED==='1'){
   const character=animationAssetManifest.characters?.[previewAthlete];
+  const provisionalShoot=character?.directions?.right?.shoot;
+  if(provisionalShoot)provisionalShoot.reviewed=true;
   const provisional=character?.directions?.right?.['dunk-scythe'];
   if(provisional)provisional.reviewed=true;
   for(const key of ['alley-oop-power','alley-oop-reverse']){
@@ -72,6 +74,7 @@ if(process.env.JAMVERSE_PREVIEW_UNREVIEWED==='1'){
   // Keeg's K.03 canon approves mirroring. Apply that approval only to the
   // in-memory review run because registration resets the manifest to pending.
   if(previewAthlete==='keeg'&&character?.mirrorReview?.canonicalSection==='K.03')character.mirrorReview.status='reviewed';
+  if(['piper-quickstep','briar-foxglove'].includes(previewAthlete)&&character?.mirrorSafe===true&&character?.mirrorReview?.notes)character.mirrorReview.status='reviewed';
 }
 const previewImages=new Map(images.map(image=>[image.file,image]));
 const previews=[],previewFrames=[],clips=Object.keys(animationClips);
@@ -90,7 +93,7 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
  const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(selected),sourceDirection:selected?.atlas?.file?.match(/-(left|right)\.webp$/)?.[1]??null,flipped:selected?.flip??false,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId});
 }
 const actionFramePreviews=[];
-for(const clip of ['pass-overhead','pass-behind','block','push','rebound','steal','layup','layup-reverse','fall','celebrate'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
+for(const clip of ['pass-overhead','pass-behind','shoot','block','push','rebound','steal','layup','layup-reverse','fall','celebrate'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};
  if(clip==='dunk-power'){

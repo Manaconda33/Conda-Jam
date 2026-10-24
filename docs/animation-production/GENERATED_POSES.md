@@ -1,10 +1,12 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,859 authored drawings across 667 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-24. Issue3 remains **incomplete**. Actual registered total: **5,924 unique authored drawings across 672 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes. Piper Quickstep and Briar Foxglove each have six registered clips /52 drawings after J.108/J.109 `shoot` integration.
 
 Dorian Mycel has a completed **source-only** set covering all29 runtime keys: the four existing baseline clips plus25 new reviewed atlases /255 authored drawings. The independent package check passed source SHA-256, layout, atlas bounds, nonblank unique cells and exact clip-key coverage. Since it awaits roster-order integration after Moxie, these new clips are not included in the registered totals above.
 
 Moxie, Accu, Nova Stitch and Echo Catwalk each have complete **source-only** packages covering all29 runtime keys. Their new source atlases add251 poses for Moxie and241 poses each for Accu, Nova and Echo; source hashes, prompts, layouts, provenance, distinct visible crops and separate-ball records were verified. These are committed but not included in the registered totals until roster-order integration after Keeg.
+
+J.108 Piper Quickstep `shoot` and J.109 Briar Foxglove `shoot` each register ten new unique poses. Both preserve the correct adult-human identity and separate basketball tracks, hold possession through tick12, and release on frame05/tick13. Source crops, exact prompts, rejected generations, cleanup, provenance, packed-cell previews, and standard/120% native renders are stored under their J.108/J.109 prefixes.
 
 Additional source-only checkpoints: Marco Vellum is at9/29 source clips with an accepted `pass-behind` atlas; Krios is at8/29 with `shoot`, `pass` and `pass-overhead` source packages (not registered in the runtime manifest); Sable Regent is at15/29 with `steal`. Keeg J.104 `dunk-clutch` is registered with15 authored poses; its source-only peer packs remain outside the strict registered count.
 
@@ -25,8 +27,8 @@ Additional source-only checkpoints: Marco Vellum is at9/29 source clips with an 
 | mcfleurdel | 5 | 42 | 196,718 |
 | ria | 5 | 42 | 175,396 |
 | gummiefish | 5 | 42 | 219,698 |
-| piper-quickstep | 5 | 42 | 196,618 |
-| briar-foxglove | 5 | 42 | 180,192 |
+| piper-quickstep | 6 | 52 | 264,094 |
+| briar-foxglove | 6 | 52 | 233,294 |
 | keeg | 25 | 243 | 1,299,348 |
 | toph | 5 | 42 | 151,554 |
 | heph | 5 | 42 | 152,702 |

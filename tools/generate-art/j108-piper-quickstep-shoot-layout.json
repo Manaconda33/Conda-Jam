@@ -1,0 +1,1101 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "shoot",
+  "direction": "right",
+  "cellSize": [
+    128,
+    96
+  ],
+  "grid": [
+    5,
+    2
+  ],
+  "figureFit": [
+    76,
+    86
+  ],
+  "sequenceOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "actionAnchors": {
+    "takeoff": 2,
+    "release": 5,
+    "peak": 5,
+    "finish": 9
+  },
+  "sources": [
+    {
+      "index": 0,
+      "pose": "approach",
+      "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-00-attempt-2.png",
+      "sha256": "c1a5effb254da2be94b654d85c50c978982fa4f3fa7cbe9427ec5ca27fc04a8d",
+      "generationSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+      "generationSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+      "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+      "componentBounds": [
+        106,
+        47,
+        318,
+        377
+      ],
+      "sourceDimensions": [
+        212,
+        330
+      ],
+      "componentPixels": 37635,
+      "alphaBoundsThreshold16": [
+        0,
+        0,
+        212,
+        330
+      ],
+      "cellFigure": [
+        55,
+        86
+      ],
+      "cellMargins": [
+        36,
+        37,
+        5,
+        5
+      ],
+      "packedCellSha256": "4936a1dced443235c78868e310a6c50e90d19c4d5880f979045072df85fb2f8d",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": "Complete isolated figure; true alpha outside; hand and shoes fit; no ball/props."
+    },
+    {
+      "index": 1,
+      "pose": "bend",
+      "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-01-attempt-3.png",
+      "sha256": "d20e4784d72e806f7dedc93a9d587004f5f693983c7c9a59e4e1590c67d3f17b",
+      "generationSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+      "generationSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+      "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+      "componentBounds": [
+        87,
+        241,
+        400,
+        691
+      ],
+      "sourceDimensions": [
+        313,
+        450
+      ],
+      "componentPixels": 80442,
+      "alphaBoundsThreshold16": [
+        0,
+        0,
+        313,
+        450
+      ],
+      "cellFigure": [
+        60,
+        86
+      ],
+      "cellMargins": [
+        34,
+        34,
+        5,
+        5
+      ],
+      "packedCellSha256": "f12a26477494dacb930fe9e44bffaad94e5e1e040a2de2f2dee3a09561d9155e",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": "Complete isolated figure; true alpha outside; hand and shoes fit; no ball/props."
+    },
+    {
+      "index": 2,
+      "pose": "gather",
+      "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-02-attempt-3.png",
+      "sha256": "097041abe8742a3b04848375edae564ca478e8a83fc63427d0d32a9ff965e900",
+      "generationSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+      "generationSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+      "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+      "componentBounds": [
+        517,
+        242,
+        806,
+        688
+      ],
+      "sourceDimensions": [
+        289,
+        446
+      ],
+      "componentPixels": 71675,
+      "alphaBoundsThreshold16": [
+        3,
+        0,
+        289,
+        446
+      ],
+      "cellFigure": [
+        55,
+        86
+      ],
+      "cellMargins": [
+        36,
+        37,
+        5,
+        5
+      ],
+      "packedCellSha256": "7f19bf2d0c267c52fc2fb31ed3d7156774f026b6b5dcef3328a01b6c30b1f053",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": "Complete isolated figure; true alpha outside; hand and shoes fit; no ball/props."
+    },
+    {
+      "index": 3,
+      "pose": "deep-gather",
+      "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-03-attempt-2.png",
+      "sha256": "78b5cbb0d21aefb6f80ceb7d676d46519b1a67cb995ef10e9bbaa1bea86dfc60",
+      "generationSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+      "generationSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+      "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+      "componentBounds": [
+        514,
+        80,
+        734,
+        376
+      ],
+      "sourceDimensions": [
+        220,
+        296
+      ],
+      "componentPixels": 34418,
+      "alphaBoundsThreshold16": [
+        0,
+        0,
+        217,
+        296
+      ],
+      "cellFigure": [
+        63,
+        86
+      ],
+      "cellMargins": [
+        32,
+        33,
+        5,
+        5
+      ],
+      "packedCellSha256": "4dbf641aeb3552dbcca2bc00f6afb4c09183690003b713679770aad66843a584",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": "Complete isolated figure; true alpha outside; hand and shoes fit; no ball/props."
+    },
+    {
+      "index": 4,
+      "pose": "set",
+      "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-04-attempt-2.png",
+      "sha256": "937a04cd453f39b126e3100336d92a84ddb93336bafdd4c784d2509848343e0d",
+      "generationSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+      "generationSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+      "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+      "componentBounds": [
+        891,
+        65,
+        1099,
+        377
+      ],
+      "sourceDimensions": [
+        208,
+        312
+      ],
+      "componentPixels": 32996,
+      "alphaBoundsThreshold16": [
+        0,
+        0,
+        208,
+        312
+      ],
+      "cellFigure": [
+        57,
+        86
+      ],
+      "cellMargins": [
+        35,
+        36,
+        5,
+        5
+      ],
+      "packedCellSha256": "618a2b4b6b88194d6bcc3860a4e7a2afc00f73720fdadaedb6289140be10e0d7",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": "Complete isolated figure; true alpha outside; hand and shoes fit; no ball/props."
+    },
+    {
+      "index": 5,
+      "pose": "release",
+      "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-05-attempt-2.png",
+      "sha256": "7c69a9c30c8470b06886919df52dabffe8bbb0517fbd43d6b19e7abae2830225",
+      "generationSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+      "generationSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+      "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+      "componentBounds": [
+        892,
+        410,
+        1107,
+        767
+      ],
+      "sourceDimensions": [
+        215,
+        357
+      ],
+      "componentPixels": 38099,
+      "alphaBoundsThreshold16": [
+        4,
+        0,
+        215,
+        357
+      ],
+      "cellFigure": [
+        51,
+        86
+      ],
+      "cellMargins": [
+        38,
+        39,
+        5,
+        5
+      ],
+      "packedCellSha256": "f5aefa95040105fd81422aadf5b44012f1fd7bd1501b734a236a8b06f6f32b85",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": "Complete isolated figure; true alpha outside; hand and shoes fit; no ball/props."
+    },
+    {
+      "index": 6,
+      "pose": "follow-through",
+      "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-06-attempt-2.png",
+      "sha256": "4625d34829900acde75dc7f02d72d1578009b4de616cc077b9afaa1ad8636fa1",
+      "generationSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+      "generationSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+      "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+      "componentBounds": [
+        1281,
+        451,
+        1512,
+        767
+      ],
+      "sourceDimensions": [
+        231,
+        316
+      ],
+      "componentPixels": 36561,
+      "alphaBoundsThreshold16": [
+        0,
+        0,
+        231,
+        316
+      ],
+      "cellFigure": [
+        63,
+        86
+      ],
+      "cellMargins": [
+        32,
+        33,
+        5,
+        5
+      ],
+      "packedCellSha256": "c9253d4123bccf8d1cea88eecef335c9173c8abfe6838a56cbc7a4aa6ba5d254",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": "Complete isolated figure; true alpha outside; hand and shoes fit; no ball/props."
+    },
+    {
+      "index": 7,
+      "pose": "apex",
+      "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-07-attempt-3.png",
+      "sha256": "78a876ddde80ef22198bdfd1cc71f11ab602ebc0a83365572049cf7279b7a5b3",
+      "generationSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+      "generationSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+      "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+      "componentBounds": [
+        950,
+        56,
+        1274,
+        631
+      ],
+      "sourceDimensions": [
+        324,
+        575
+      ],
+      "componentPixels": 85193,
+      "alphaBoundsThreshold16": [
+        0,
+        0,
+        324,
+        575
+      ],
+      "cellFigure": [
+        48,
+        86
+      ],
+      "cellMargins": [
+        40,
+        40,
+        5,
+        5
+      ],
+      "packedCellSha256": "db78c88cc3d8be8ecd0cced438e7a7963dba0ad29457013037d26654c1f169e1",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": "Complete isolated figure; true alpha outside; hand and shoes fit; no ball/props."
+    },
+    {
+      "index": 8,
+      "pose": "descent",
+      "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-08-attempt-3.png",
+      "sha256": "75e01070771c195efec77373766d91071f3c09759415ec04e7db3d6a2be1462f",
+      "generationSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+      "generationSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+      "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+      "componentBounds": [
+        1390,
+        163,
+        1725,
+        676
+      ],
+      "sourceDimensions": [
+        335,
+        513
+      ],
+      "componentPixels": 79718,
+      "alphaBoundsThreshold16": [
+        0,
+        0,
+        335,
+        513
+      ],
+      "cellFigure": [
+        56,
+        86
+      ],
+      "cellMargins": [
+        36,
+        36,
+        5,
+        5
+      ],
+      "packedCellSha256": "5db4e49c210d3257e3d67a4057925fa2006fe6023c3b60e60ae75cec5269dc09",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": "Complete isolated figure; true alpha outside; hand and shoes fit; no ball/props."
+    },
+    {
+      "index": 9,
+      "pose": "landing",
+      "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-09-attempt-3.png",
+      "sha256": "35b1c24f9989a19cf8e05abb17b58e440d1b326592299dbabc0adb7f0cd7bf56",
+      "generationSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+      "generationSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+      "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+      "componentBounds": [
+        1821,
+        241,
+        2121,
+        691
+      ],
+      "sourceDimensions": [
+        300,
+        450
+      ],
+      "componentPixels": 76515,
+      "alphaBoundsThreshold16": [
+        0,
+        0,
+        300,
+        450
+      ],
+      "cellFigure": [
+        57,
+        86
+      ],
+      "cellMargins": [
+        35,
+        36,
+        5,
+        5
+      ],
+      "packedCellSha256": "b8d3ce04fc476a4a7ea43b65c3fed2cc91be9bf031aba38db20279926082df0a",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": "Complete isolated figure; true alpha outside; hand and shoes fit; no ball/props."
+    }
+  ],
+  "packing": "Review-only cells; tight alpha>16 crop; nearest-neighbor fit within76x86 and center in transparent128x96 cell.",
+  "prompts": [
+    "tools/generate-art/j108-piper-quickstep-shoot-prompt.md",
+    "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+    "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md"
+  ],
+  "rejectedCandidates": [
+    "tools/generate-art/sources/j108-piper-quickstep-shoot-generated-raw.png: nominal grid layout rejected because the first sheet did not leave clear per-cell vertical margins and some upper arms crossed the implied row boundary; silhouettes were recovered by component isolation.",
+    "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png: edited full sheet still had red edge fringe and repeated/poorly ordered poses; selected only component-isolated poses explicitly reviewed in this layout.",
+    "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png: five-pose replacement sheet is not itself a complete ten-pose clip; components 0–4 are only used for frames01,02,07,08,09."
+  ],
+  "generatedAt": "2026-10-24T17:41:26Z",
+  "generationHistory": [
+    {
+      "attempt": "01 full sheet",
+      "id": "exec-630e1998-344a-4e64-a231-b001d0ba2f61",
+      "raw": "tools/generate-art/sources/j108-piper-quickstep-shoot-generated-raw.png",
+      "prompt": "tools/generate-art/j108-piper-quickstep-shoot-prompt.md",
+      "status": "rejected as a row-major atlas; several figures crossed the implied cell boundaries and pose order/silhouette requirements needed replacement frames.",
+      "rawSha256": "2f1db2652dbd8c638cbadce122d8801c596b38c0c2f52a57677c36b7a5081189",
+      "promptFileSha256": "83c7b4b6cee1582e65edefb86b7b269d1eabdf15982eac2466548c0a5dbff103"
+    },
+    {
+      "attempt": "02 background/layout edit",
+      "id": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+      "raw": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+      "prompt": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+      "status": "whole sheet rejected for persistent red edge fringe and similar/misordered follow-through poses; selected unique components retained for frames00,03,04,05,06.",
+      "rawSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+      "promptFileSha256": "9a60910b33e7f200d495aae8102a90376ae91880c643533ac82ae9f5d2d19acf"
+    },
+    {
+      "attempt": "03 transition replacements",
+      "id": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+      "raw": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+      "prompt": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+      "status": "five pose components accepted only for frames01,02,07,08,09 after review; it is not a complete atlas.",
+      "rawSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+      "promptFileSha256": "727ada20b2cae98dd90b67e04249697e1aed27204b15a28941bf403c5cc38570"
+    }
+  ],
+  "ballPolicy": "The basketball is a separate athlete-specific runtime object; no accepted drawing contains a ball, prop, hoop, effect, or floor shadow. Candidate release hand in accepted pose05 is approximately (x=80,y=7) within the 128x96 review cell; confirm/refine in native renderer integration.",
+  "reviewSummary": "Ten unique 128x96 fitted review cells were inspected on light and dark backgrounds. Piper retains warm-brown adult human anatomy, vivid orange high ponytail, consistent face, russet/cream uniform and matching trainers. All hands and shoes are complete; no pose touches/crosses the final cell. Margins are at least32px left/right and5px top/bottom. No painted ball/props. Pose01/02/07/08/09 use the separately authored replacement strip to establish clear pose separation and action order.",
+  "reviewEvidence": [
+    "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-attempt-01-review.png",
+    "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-attempt-02-grid-review.png",
+    "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-attempt-03-replacements-review.png",
+    "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-poses00-09-cell-review.png"
+  ],
+  "src": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+  "columns": 5,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "atlasSha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+  "atlasReview": "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-atlas-review.png",
+  "runtimeBallTrack": {
+    "height": [
+      1.13,
+      1.043,
+      1.503,
+      1.503,
+      2.048,
+      2.278,
+      2.278,
+      2.278,
+      1.962,
+      1.187
+    ],
+    "forward": [
+      8.04,
+      9.502,
+      3.655,
+      4.751,
+      7.675,
+      5.847,
+      6.944,
+      7.309,
+      9.867,
+      8.405
+    ],
+    "anchors": {
+      "takeoff": 6,
+      "release": 13,
+      "peak": 13,
+      "finish": 23
+    },
+    "releasePolicy": "Piper holds the separate ball through tick12; the tick13 release transfers it to simulation-owned shot flight.",
+    "prePackOverlayReview": "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-ball-overlay-diagnostic.png",
+    "handCentersInReviewCell": [
+      [
+        86,
+        48
+      ],
+      [
+        90,
+        51
+      ],
+      [
+        74,
+        35
+      ],
+      [
+        77,
+        35
+      ],
+      [
+        85,
+        16
+      ],
+      [
+        80,
+        8
+      ],
+      [
+        83,
+        8
+      ],
+      [
+        84,
+        8
+      ],
+      [
+        91,
+        19
+      ],
+      [
+        87,
+        46
+      ]
+    ]
+  },
+  "reviewStatus": "accepted; independent review and native renderer validation passed",
+  "provenance": {
+    "prompt": "Edit this exact transparent Piper Quickstep sprite sheet for production. Preserve the same 10 individual full-body adult human Piper drawings, exact 5-column by 2-row order, identity, face, warm brown skin, vivid orange high ponytail, russet red and cream uniform, poses, anatomy and shoes. Do not redesign, redraw, add, remove, duplicate, merge, reorder or change any pose. Make only these corrections: (1) remove the bright red outline/glow fringe outside each character silhouette while keeping the actual orange hair, russet uniform, skin, normal crisp outline and highlights unchanged; (2) uniformly scale each complete character as one unit as needed and center it in its own original 5x2 grid cell so every hair strand, raised hand and both shoes stay wholly within that cell with at least 12% empty transparent margin on every edge; no pixels of one pose may enter another cell. Preserve equal cell boundaries and sequence. Keep genuine alpha transparency everywhere outside the characters, including gutters and outer border. No ball, props, ground shadow, court, hoop, glow, effects, checkerboard, text, dividers, labels or background. Return a transparent RGBA PNG at the original dimensions.",
+    "promptVerbatim": true,
+    "sourcePromptStatus": "Verbatim attempt02 edit prompt; each replacement frame links the verbatim attempt03 prompt in sourceRecords.",
+    "promptScope": "The exact accepted source and replacement prompts are preserved per frame in sourceRecords.",
+    "generatedAt": "2026-10-24T17:47:34Z",
+    "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+    "promptAndSourceManifest": "tools/generate-art/j108-piper-quickstep-shoot-provenance.json",
+    "sourceRecords": [
+      {
+        "poseIndex": 0,
+        "pose": "approach",
+        "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+        "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-00-attempt-2.png",
+        "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+        "sourceSha256": "c1a5effb254da2be94b654d85c50c978982fa4f3fa7cbe9427ec5ca27fc04a8d",
+        "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+        "rawSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+        "cropThreshold": 16,
+        "cropBox": [
+          0,
+          0,
+          212,
+          330
+        ],
+        "figureSize": [
+          55,
+          86
+        ],
+        "cellMargins": [
+          36,
+          37,
+          5,
+          5
+        ],
+        "packedCellSha256": "4936a1dced443235c78868e310a6c50e90d19c4d5880f979045072df85fb2f8d",
+        "cell": [
+          0,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 1,
+        "pose": "bend",
+        "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+        "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-01-attempt-3.png",
+        "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+        "sourceSha256": "d20e4784d72e806f7dedc93a9d587004f5f693983c7c9a59e4e1590c67d3f17b",
+        "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+        "rawSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+        "cropThreshold": 16,
+        "cropBox": [
+          0,
+          0,
+          313,
+          450
+        ],
+        "figureSize": [
+          60,
+          86
+        ],
+        "cellMargins": [
+          34,
+          34,
+          5,
+          5
+        ],
+        "packedCellSha256": "f12a26477494dacb930fe9e44bffaad94e5e1e040a2de2f2dee3a09561d9155e",
+        "cell": [
+          128,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 2,
+        "pose": "gather",
+        "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+        "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-02-attempt-3.png",
+        "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+        "sourceSha256": "097041abe8742a3b04848375edae564ca478e8a83fc63427d0d32a9ff965e900",
+        "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+        "rawSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+        "cropThreshold": 16,
+        "cropBox": [
+          3,
+          0,
+          289,
+          446
+        ],
+        "figureSize": [
+          55,
+          86
+        ],
+        "cellMargins": [
+          36,
+          37,
+          5,
+          5
+        ],
+        "packedCellSha256": "7f19bf2d0c267c52fc2fb31ed3d7156774f026b6b5dcef3328a01b6c30b1f053",
+        "cell": [
+          256,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 3,
+        "pose": "deep-gather",
+        "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+        "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-03-attempt-2.png",
+        "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+        "sourceSha256": "78b5cbb0d21aefb6f80ceb7d676d46519b1a67cb995ef10e9bbaa1bea86dfc60",
+        "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+        "rawSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+        "cropThreshold": 16,
+        "cropBox": [
+          0,
+          0,
+          217,
+          296
+        ],
+        "figureSize": [
+          63,
+          86
+        ],
+        "cellMargins": [
+          32,
+          33,
+          5,
+          5
+        ],
+        "packedCellSha256": "4dbf641aeb3552dbcca2bc00f6afb4c09183690003b713679770aad66843a584",
+        "cell": [
+          384,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 4,
+        "pose": "set",
+        "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+        "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-04-attempt-2.png",
+        "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+        "sourceSha256": "937a04cd453f39b126e3100336d92a84ddb93336bafdd4c784d2509848343e0d",
+        "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+        "rawSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+        "cropThreshold": 16,
+        "cropBox": [
+          0,
+          0,
+          208,
+          312
+        ],
+        "figureSize": [
+          57,
+          86
+        ],
+        "cellMargins": [
+          35,
+          36,
+          5,
+          5
+        ],
+        "packedCellSha256": "618a2b4b6b88194d6bcc3860a4e7a2afc00f73720fdadaedb6289140be10e0d7",
+        "cell": [
+          512,
+          0,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 5,
+        "pose": "release",
+        "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+        "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-05-attempt-2.png",
+        "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+        "sourceSha256": "7c69a9c30c8470b06886919df52dabffe8bbb0517fbd43d6b19e7abae2830225",
+        "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+        "rawSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+        "cropThreshold": 16,
+        "cropBox": [
+          4,
+          0,
+          215,
+          357
+        ],
+        "figureSize": [
+          51,
+          86
+        ],
+        "cellMargins": [
+          38,
+          39,
+          5,
+          5
+        ],
+        "packedCellSha256": "f5aefa95040105fd81422aadf5b44012f1fd7bd1501b734a236a8b06f6f32b85",
+        "cell": [
+          0,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 6,
+        "pose": "follow-through",
+        "generationId": "exec-57e8bead-39f1-47bc-9f68-77e961d8041b",
+        "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-06-attempt-2.png",
+        "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-02-edit-prompt.md",
+        "sourceSha256": "4625d34829900acde75dc7f02d72d1578009b4de616cc077b9afaa1ad8636fa1",
+        "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-02-edit-raw.png",
+        "rawSourceSha256": "15c05e6378589fc4f837e961d0f4651116273cd2eca3ef187404ab61bbbc7d0e",
+        "cropThreshold": 16,
+        "cropBox": [
+          0,
+          0,
+          231,
+          316
+        ],
+        "figureSize": [
+          63,
+          86
+        ],
+        "cellMargins": [
+          32,
+          33,
+          5,
+          5
+        ],
+        "packedCellSha256": "c9253d4123bccf8d1cea88eecef335c9173c8abfe6838a56cbc7a4aa6ba5d254",
+        "cell": [
+          128,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 7,
+        "pose": "apex",
+        "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+        "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-07-attempt-3.png",
+        "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+        "sourceSha256": "78a876ddde80ef22198bdfd1cc71f11ab602ebc0a83365572049cf7279b7a5b3",
+        "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+        "rawSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+        "cropThreshold": 16,
+        "cropBox": [
+          0,
+          0,
+          324,
+          575
+        ],
+        "figureSize": [
+          48,
+          86
+        ],
+        "cellMargins": [
+          40,
+          40,
+          5,
+          5
+        ],
+        "packedCellSha256": "db78c88cc3d8be8ecd0cced438e7a7963dba0ad29457013037d26654c1f169e1",
+        "cell": [
+          256,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 8,
+        "pose": "descent",
+        "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+        "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-08-attempt-3.png",
+        "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+        "sourceSha256": "75e01070771c195efec77373766d91071f3c09759415ec04e7db3d6a2be1462f",
+        "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+        "rawSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+        "cropThreshold": 16,
+        "cropBox": [
+          0,
+          0,
+          335,
+          513
+        ],
+        "figureSize": [
+          56,
+          86
+        ],
+        "cellMargins": [
+          36,
+          36,
+          5,
+          5
+        ],
+        "packedCellSha256": "5db4e49c210d3257e3d67a4057925fa2006fe6023c3b60e60ae75cec5269dc09",
+        "cell": [
+          384,
+          96,
+          128,
+          96
+        ]
+      },
+      {
+        "poseIndex": 9,
+        "pose": "landing",
+        "generationId": "exec-429e12df-7cb5-4811-a5d1-e7e0cd0d8db1",
+        "source": "tools/generate-art/sources/j108-piper-quickstep-shoot-pose-09-attempt-3.png",
+        "promptFile": "tools/generate-art/j108-piper-quickstep-shoot-attempt-03-replacements-prompt.md",
+        "sourceSha256": "35b1c24f9989a19cf8e05abb17b58e440d1b326592299dbabc0adb7f0cd7bf56",
+        "rawSource": "tools/generate-art/sources/j108-piper-quickstep-shoot-attempt-03-replacements-raw.png",
+        "rawSourceSha256": "b25ea7e8a83d495dc7345816e5cccf5ee3856aafb989ba048f6b8c9eec1ae207",
+        "cropThreshold": 16,
+        "cropBox": [
+          0,
+          0,
+          300,
+          450
+        ],
+        "figureSize": [
+          57,
+          86
+        ],
+        "cellMargins": [
+          35,
+          36,
+          5,
+          5
+        ],
+        "packedCellSha256": "b8d3ce04fc476a4a7ea43b65c3fed2cc91be9bf031aba38db20279926082df0a",
+        "cell": [
+          512,
+          96,
+          128,
+          96
+        ]
+      }
+    ],
+    "runtimeBallTrack": {
+      "height": [
+        1.13,
+        1.043,
+        1.503,
+        1.503,
+        2.048,
+        2.278,
+        2.278,
+        2.278,
+        1.962,
+        1.187
+      ],
+      "forward": [
+        8.04,
+        9.502,
+        3.655,
+        4.751,
+        7.675,
+        5.847,
+        6.944,
+        7.309,
+        9.867,
+        8.405
+      ],
+      "anchors": {
+        "takeoff": 6,
+        "release": 13,
+        "peak": 13,
+        "finish": 23
+      },
+      "releasePolicy": "Piper holds the separate ball through tick12; the tick13 release transfers it to simulation-owned shot flight.",
+      "prePackOverlayReview": "tools/generate-art/previews/j108-piper-quickstep-shoot/j108-piper-shoot-ball-overlay-diagnostic.png",
+      "handCentersInReviewCell": [
+        [
+          86,
+          48
+        ],
+        [
+          90,
+          51
+        ],
+        [
+          74,
+          35
+        ],
+        [
+          77,
+          35
+        ],
+        [
+          85,
+          16
+        ],
+        [
+          80,
+          8
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          84,
+          8
+        ],
+        [
+          91,
+          19
+        ],
+        [
+          87,
+          46
+        ]
+      ]
+    }
+  },
+  "nativeRendererReports": [
+    "tools/generate-art/previews/j108-piper-quickstep-shoot/native-100/native-render-report.json",
+    "tools/generate-art/previews/j108-piper-quickstep-shoot/native-120/native-render-report.json"
+  ]
+}

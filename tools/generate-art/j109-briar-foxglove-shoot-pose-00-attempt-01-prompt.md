@@ -1,0 +1,9 @@
+# J.109 Briar Foxglove `shoot` — pose 00 attempt 01
+
+Generation ID: `exec-0c1f7802-d7eb-4fae-afe8-768b06995b70`.
+
+Verbatim prompt:
+
+> Isolated transparent PNG, NO background. One right-facing full-body pose of Briar Foxglove, the adult human woman shown in the provided Emberwood Kits sprite reference. Match her identity precisely: warm deep-brown skin, shoulder-length dark brown locs swept back by a vivid red headband, determined friendly face, compact athletic human build, russet-red sleeveless Emberwood basketball top with cream side panel, matching russet shorts with cream piping, cream socks, russet-and-cream basketball shoes. Keep natural human anatomy with exactly two arms and two legs, natural hands, no animal ears, no fox muzzle, no tail, no magical effects. Match the chunky, crisp 1990s arcade pixel sprite style, limited warm palette and shaded pixel contours of the reference. Frame 0 of her ten-pose jump shot: balanced right-facing ready stance just before the shot, knees softly bent, feet planted apart, torso upright and eyes on the right-hand basket, both empty hands relaxed at chest height with a clear empty space between them. No basketball or prop may appear in the sprite. Show the complete figure including locs, shoes and fingers, from her loc top through both soles, centered and small enough to fit the middle 65 percent of a 1024x1536 portrait canvas with a large clear transparent border; figure aspect ratio no wider than 0.75. TRUE TRANSPARENCY: every pixel outside the player must have alpha 0. Do NOT draw checkerboard, gray tiles, white or colored backdrop, floor, shadow, court, hoop, ball, object, glow, border, text, logo or grid. Return exactly one character, one pose, genuinely transparent background.
+
+Reference: `public/assets/animation/briar-foxglove-idle-right.webp`.
