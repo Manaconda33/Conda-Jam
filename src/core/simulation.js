@@ -408,6 +408,7 @@ function integrateBall(match) {
 }
 
 function resolvePeriod(match) {
+  if(match.scorePause>0)return;
   if(match.periodBreak>0){match.periodBreak--;if(match.periodBreak===0){match.phase=match.period>4?'overtime':'playing';const team=match.period%2===0?1:0;const p=match.players.find(a=>a.team===team);giveBall(match,p,`Quarter ${match.period}: play!`);}return;}
   if(match.clock>0)return;
   if(match.ball.mode==='shot'||match.ball.mode==='dunk')return;
@@ -422,7 +423,7 @@ export function stepMatch(match, inputFrames = []) {
   const pause=frames.find(f=>f.pausePressed);if(pause){match.pause=!match.pause;return match;}
   if(match.pause)return match;
   if(match.phase==='break'){resolvePeriod(match);return match;}
-  if(match.scorePause>0){advanceAnimations(match);match.scorePause--;if(match.scorePause===0){const lastTouchTeam=match.players.find(p=>p.id===match.ball.lastTouch)?.team;const inboundTeam=Number.isInteger(match.pendingInboundTeam)?match.pendingInboundTeam:(Number.isFinite(lastTouchTeam)?1-lastTouchTeam:1-match.possession);const receiver=match.players.find(p=>p.team===inboundTeam);match.pendingInboundTeam=null;giveBall(match,receiver,'Inbound!');}return match;}
+  if(match.scorePause>0){advanceAnimations(match);match.scorePause--;if(match.scorePause===0){if(match.clock===0){resolvePeriod(match);return match;}const lastTouchTeam=match.players.find(p=>p.id===match.ball.lastTouch)?.team;const inboundTeam=Number.isInteger(match.pendingInboundTeam)?match.pendingInboundTeam:(Number.isFinite(lastTouchTeam)?1-lastTouchTeam:1-match.possession);const receiver=match.players.find(p=>p.team===inboundTeam);match.pendingInboundTeam=null;giveBall(match,receiver,'Inbound!');}return match;}
   const inputIds=new Set(frames.map(f=>f.playerId));
   match.humanPlayerIds=[...inputIds];
   const allInputs=frames.concat(aiInputs(match,inputIds));

@@ -563,11 +563,15 @@ test('made buzzer shots and dunks score before final-period resolution',()=>{
     Object.assign(match.ball,{mode:attempt.mode,ownerId:null,lastTouch:shooter.id,x:hoop-1,y:50,z:2.7,vx:2,vy:0,vz:-.2,made:true,scored:false,rim:false,backboard:false,targetX:hoop,targetY:50,targetZ:2.6,attemptId:attempt.id,value:2});
     stepMatch(match,neutralInputs(match));
     assert.deepEqual(match.score,[2,attempt.startScore[1]],`${attempt.mode} scores before the horn is resolved`);
-    assert.equal(match.phase,attempt.expectedPhase);
-    assert.equal(match.winner,attempt.expectedWinner);
+    assert.equal(match.phase,'playing',`${attempt.mode} leaves time for the buzzer scoring pause`);
+    assert.equal(match.scorePause,70);
     assert.equal(shooter.points,2);
     assert.equal(shooter.dunks,attempt.mode==='dunk'?1:0);
     assert.equal(match.ball.mode,'dead');
+    for(let tick=0;tick<70;tick++)stepMatch(match,neutralInputs(match));
+    assert.equal(match.phase,attempt.expectedPhase);
+    assert.equal(match.winner,attempt.expectedWinner);
+    assert.equal(match.scorePause,0);
   }
 });
 
