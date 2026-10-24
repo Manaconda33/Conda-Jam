@@ -478,6 +478,21 @@ test('a close turbo body check knocks down an off-ball opponent', () => {
   assert.notEqual(target.anim,'knockdown');
 });
 
+test('a close turbo body check can jar the ball loose from the carrier', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  const defender=match.players.find(p=>p.team===1),holder=match.players.find(p=>p.team===0&&p.hasBall);
+  defender.x=95;defender.y=50;defender.strength=99;holder.x=100;holder.y=50;holder.facing=1;
+  match.rng=1;
+  stepMatch(match,neutralInputs(match).map(input=>input.playerId===defender.id?createInput(defender.id,{shovePressed:true}):input));
+  advanceToAnchor(match,defender,'contact');
+  assert.equal(holder.hasBall,false);
+  assert.equal(match.ball.mode,'loose');
+  assert.equal(match.ball.ownerId,null);
+  assert.equal(match.ball.lastTouch,defender.id);
+  assert.ok(holder.stun>0);
+  assert.equal(defender.knockdowns,1);
+});
+
 test('a defender contacting a descending shot above the rim is called for goaltending', () => {
   const match=createMatch({quarterSeconds:60,seed:1});
   match.possession=1;

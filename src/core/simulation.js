@@ -196,8 +196,9 @@ function actions(match, inputMap) {
     }
     if(!offense&&inp.shovePressed){
       const carrier=match.players.find(a=>a.hasBall&&a.team!==p.team);
-      const target=match.players.filter(a=>a.team===match.possession&&!a.hasBall).sort((a,b)=>hypot(a.x-p.x,a.y-p.y)-hypot(b.x-p.x,b.y-p.y))[0];
-      if(target&&(!carrier||hypot(carrier.x-p.x,carrier.y-p.y)>=8)&&hypot(target.x-p.x,target.y-p.y)<6){
+      const carrierInReach=carrier&&hypot(carrier.x-p.x,carrier.y-p.y)<6;
+      const target=carrierInReach?carrier:match.players.filter(a=>a.team===match.possession&&!a.hasBall).sort((a,b)=>hypot(a.x-p.x,a.y-p.y)-hypot(b.x-p.x,b.y-p.y))[0];
+      if(target&&hypot(target.x-p.x,target.y-p.y)<6){
         queueAction(p,'push',{kind:'push',targetId:target.id});
       }
     }
@@ -252,8 +253,12 @@ function advanceAnimations(match){
       if(p.stun>0){delete a.action;continue;}
       if(a.tick===anchorTick('push','contact')){
         delete a.action;const target=playerById(match,action.targetId);
-        if(target&&!target.hasBall&&hypot(target.x-p.x,target.y-p.y)<6&&rand(match)<clamp(.18+p.strength/250,.18,.58)){
-          const dx=target.x-p.x,dy=target.y-p.y,d=hypot(dx,dy),separated=dx*dx+dy*dy>1e-12,nx=separated?dx/d:(p.facing||1),ny=separated?dy/d:0;target.stun=45;startAnimation(target,'fall','knockdown');target.vx=nx*.58;target.vy=ny*.58;p.knockdowns++;event(match,`${p.name} knocks ${target.name} down!`);
+        const hasCarriedBall=target?.hasBall&&match.ball.mode==='carried'&&match.ball.ownerId===target.id;
+        const chance=hasCarriedBall?clamp(.08+p.strength/400,.08,.32):clamp(.18+p.strength/250,.18,.58);
+        if(target&&hypot(target.x-p.x,target.y-p.y)<6&&rand(match)<chance){
+          const dx=target.x-p.x,dy=target.y-p.y,d=hypot(dx,dy),separated=dx*dx+dy*dy>1e-12,nx=separated?dx/d:(p.facing||1),ny=separated?dy/d:0;
+          if(hasCarriedBall){const ball=match.ball;releaseOwner(match);Object.assign(ball,{mode:'loose',ownerId:null,targetId:null,aerialTargetId:null,attemptId:null,scored:false,vx:nx*.36,vy:ny*.36,vz:.14,lastTouch:p.id});}
+          target.stun=45;startAnimation(target,'fall','knockdown');target.vx=nx*.58;target.vy=ny*.58;p.knockdowns++;event(match,hasCarriedBall?`${p.name} jars ${target.name}'s ball loose!`:`${p.name} knocks ${target.name} down!`);
         }
       }
     }else if(action?.kind==='catch'){
@@ -303,7 +308,7 @@ function aiInputs(match, controlled) {
     const dx=targetX-p.x,dy=targetY-p.y,dist=hypot(dx,dy), move=dist>2;
     const hoop=p.team===0?COURT.hoops[1]:COURT.hoops[0], shotDistance=Math.abs(hoop-p.x);
     const nearestDefender=match.players.filter(a=>a.team!==p.team).reduce((n,a)=>Math.min(n,hypot(a.x-p.x,a.y-p.y)),99);
-    const shoveTarget=match.players.some(a=>a.team!==p.team&&!a.hasBall&&hypot(a.x-p.x,a.y-p.y)<5);
+    const shoveTarget=match.players.some(a=>a.team!==p.team&&hypot(a.x-p.x,a.y-p.y)<5);
     const profile=match.cpuProfile??CPU_PROFILES.Pro;
     const rimFinish=p.dunk>70&&hypot(hoop-p.x,50-p.y)<18&&(hoop-p.x)*p.vx>.12;
     const shoot=offense&&p.hasBall&&shotDistance<profile.shotDistance&&(rimFinish||match.shotClock<9||(nearestDefender>7&&rand(match)<profile.openShotChance));
