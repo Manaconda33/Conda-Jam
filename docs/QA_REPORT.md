@@ -1,6 +1,6 @@
 # QA report
 
-## Gameplay rules regression — 24-second expiration on in-flight passes
+## Gameplay and settings polish — shot-clock pass expiration and keyboard capture cancellation
 
 - `npm test`: PASS — 411 tests, zero failures, including a regression proving an expired pass is canceled, the passer receives one turnover, and the opponent gets one inbound.
 - `npm run lint`: PASS — 18 JavaScript modules.
@@ -8,9 +8,10 @@
 - `npm run simulate:league`: PASS — 100 matches / 866,809 ticks / 9 overtime periods.
 - `npm run build`: PASS — static browser bundle and standalone offline page.
 - `npm run test:e2e`: PASS — Chromium standalone offline startup, controls, co-op, touch, substitutions, actions, full match and season progression.
-- The J.104 animation audit counts and Pages #149 art deployment below are unchanged; this gameplay-only change is tracked separately from animation progress.
+- The browser regression closes a pending keyboard rebind with both × and Save, reopens Settings, and confirms the next key does not change or consume the binding.
+- The J.104 animation audit counts are unchanged. Gameplay commits `8dc07d6` and `6a202ea` plus source-only atlases are deployed in Pages run #151: https://github.com/Manaconda33/Conda-Jam/actions/runs/40095219892. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=6a202ea.
 
-## Latest runtime-validated checkpoint — shot-clock fix on J.104 art (Pages run #150)
+## J.104 Keeg `dunk-clutch` art checkpoint (Pages run #145)
 
 - `npm test`: PASS — 410 tests, zero failures; includes the self-contained offline build.
 - `npm run lint`: PASS — 18 JavaScript modules.

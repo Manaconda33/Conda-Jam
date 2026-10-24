@@ -1,6 +1,6 @@
-## Latest runtime checkpoint — J.104 art plus shot-clock gameplay fix; Pages run #150 succeeded
+## Latest runtime checkpoint — J.104 art plus gameplay fixes; Pages run #151 succeeded
 
-Gameplay polish closes a 24-second clock exploit: a pass still in flight at expiration now causes one violation, credits the passer with a turnover, cancels the pass, and awards the defense an inbound. Released shots remain live. Regression and full validation pass: 411 JavaScript tests, lint, content validation, 100-match simulation, build, and Chromium offline/full-match/season E2E. Commit `8dc07d6` is pushed to `main` and deployed in Pages run #150: https://github.com/Manaconda33/Conda-Jam/actions/runs/40094915283. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=8dc07d6. The change does not alter the J.104 animation asset count.
+Gameplay polish closes a 24-second clock exploit: an in-flight pass at expiration causes one violation, credits the passer with a turnover, cancels the pass, and awards the defense an inbound. Released shots remain live. Keyboard rebinding now cancels when Settings closes by either × or Save, so the next gameplay key is not swallowed. Regression and full validation pass: 411 JavaScript tests, lint, content validation, 100-match simulation, build, and Chromium offline/full-match/season E2E. Commit `6a202ea` is pushed to `main` and deployed in Pages run #151: https://github.com/Manaconda33/Conda-Jam/actions/runs/40095219892. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=6a202ea. The changes do not alter J.104's animation asset count.
 
 J.104 adds fifteen distinct clutch-dunk poses. Keeg now has26/29 reviewed clips /258 authored drawings. The separate Keeg ball follows his two-hand overhead clutch and releases at frame10/tick21; standard and zoom120 native previews select every pose in both facings. Canon K.03 approves mirroring; Keeg remains an adult human with black hair and beard, full purple mushroom hat and purple/lavender/silver kit.
 
@@ -20,9 +20,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 ## Repository and deployment
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
-- Repository branch is `main`; J.73 and J.74 are part of the pushed history. Latest gameplay code is `8dc07d6`, deployed in Pages run #150.
-- Latest animation-integrated game checkpoint: `5907922` (J.104); source-only updates and the later gameplay patch are also deployed in Pages run #150: <https://github.com/Manaconda33/Conda-Jam/actions/runs/40094915283>.
-- Latest deployed preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=8dc07d6>.
+- Repository branch is `main`; J.73 and J.74 are part of the pushed history. Latest gameplay code is `6a202ea`, deployed in Pages run #151.
+- Latest animation-integrated game checkpoint: `5907922` (J.104); source-only updates and later gameplay fixes are also deployed in Pages run #151: <https://github.com/Manaconda33/Conda-Jam/actions/runs/40095219892>.
+- Latest deployed preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=6a202ea>.
 - J.29–J.104 are pushed to `main`; J.104 `5907922` is deployed in Pages run #145. Keeg has26/29 clips /258 drawings. Next action is Keeg `dunk-scythe`. Audit:667 clips /5,859 drawings /105 athletes,2,436 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29. Verified source-only packages remain queued behind roster-order registration. Image generation is currently paused by the provider’s HTTP 429 usage quota; pending action prompts/blockers are recorded per athlete.
 - J.69 adds fifteen reviewed poses, an athlete-specific hand track, J.01 mirror review, regression coverage and standard/zoom120 native previews. Both previews load160 images /87 clip snapshots /452 action frames; all15 poses select in each facing and the separate ball stays carried through tick20, releases at tick21 and scores at tick23. All28 JavaScript files, lint, content validation,100-match simulation,34 packer tests, build and full Chromium match/season journey pass. J.69 source `ef10b21` is deployed in Pages run #108.
 
