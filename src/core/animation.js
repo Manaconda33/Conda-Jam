@@ -587,6 +587,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // Windmill circles low behind Keeg's hip before rising over his shoulder;
   // the separate ball returns to his hand for the shared tick21 release.
   'dunk-windmill':{height:[.95,1.15,1.05,.8,1.0,1.15,1.4,2.15,2.6,2.6,1.6,1.8,1.3,.7,.55],forward:[6,8,3,-2,-7,-8,-5,-2,-8,-5,8,12,8,5,6]},
+  // Tomahawk cocks the separate ball behind Keeg's crown, then meets his
+  // raised hand at the single frame10/tick21 release, clear of the hat.
+  'dunk-tomahawk':{height:[.95,1.1,1.25,1.7,1.9,2.05,2.2,2.45,2.4,2.35,1.5,2,1.4,.7,.55],forward:[6,8,4,-2,-10,-7,-8,-5,12,2,8,6,8,5,6]},
   // Reverse dunk carries the separate ball behind Keeg's shoulder and hat,
   // then releases from the far side at the shared frame10/tick21 anchor.
   'dunk-reverse':{height:[.95,1.1,1.25,1.5,1.8,1.4,2.4,2.55,2.1,2.1,1.2,2.1,1.45,.7,.55],forward:[6,8,4,-2,-5,-7,-9,-8,-6,-4,12,4,8,5,6]}

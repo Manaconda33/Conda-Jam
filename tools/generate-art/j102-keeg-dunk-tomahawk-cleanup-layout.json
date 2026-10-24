@@ -1,0 +1,369 @@
+{
+  "source": "tools/generate-art/sources/j102-keeg-dunk-tomahawk-generated-raw.png",
+  "sourceSha256": "e37b4ec555e69dcac91026c44900f80a304d1c4eb02227ddab52e0f0ba0a04bc",
+  "cleanedSource": "tools/generate-art/sources/j102-keeg-dunk-tomahawk15.png",
+  "cleanedSourceSha256": "4bbf49de235ed6c6fe6e519ec14631dd722167dc734be7e43afbed5e8d368596",
+  "method": "detect 15 alpha-connected figures; assign each figure component and nearest antialiased pixels; remove high-chroma red generation artifacts (HSV red hue, saturation >= 100); crop transparent halos; uniformly scale and center in a 5x3 grid with at least10px cell clearance",
+  "frames": [
+    {
+      "sourceIndex": 0,
+      "component": 1,
+      "rawBounds": [
+        23,
+        29,
+        298,
+        337
+      ],
+      "destination": [
+        24,
+        42,
+        258,
+        288
+      ],
+      "scale": 0.948088,
+      "marginsPx": [
+        24,
+        42,
+        25,
+        11
+      ],
+      "removedRedArtifactPixels": 686
+    },
+    {
+      "sourceIndex": 1,
+      "component": 2,
+      "rawBounds": [
+        358,
+        29,
+        578,
+        337
+      ],
+      "destination": [
+        353,
+        30,
+        214,
+        300
+      ],
+      "scale": 0.987105,
+      "marginsPx": [
+        46,
+        30,
+        47,
+        11
+      ],
+      "removedRedArtifactPixels": 696
+    },
+    {
+      "sourceIndex": 2,
+      "component": 5,
+      "rawBounds": [
+        664,
+        106,
+        874,
+        339
+      ],
+      "destination": [
+        664,
+        100,
+        208,
+        230
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        50,
+        100,
+        50,
+        11
+      ],
+      "removedRedArtifactPixels": 602
+    },
+    {
+      "sourceIndex": 3,
+      "component": 3,
+      "rawBounds": [
+        978,
+        29,
+        1227,
+        339
+      ],
+      "destination": [
+        955,
+        30,
+        241,
+        300
+      ],
+      "scale": 0.977459,
+      "marginsPx": [
+        33,
+        30,
+        33,
+        11
+      ],
+      "removedRedArtifactPixels": 734
+    },
+    {
+      "sourceIndex": 4,
+      "component": 4,
+      "rawBounds": [
+        1289,
+        30,
+        1517,
+        329
+      ],
+      "destination": [
+        1269,
+        35,
+        226,
+        295
+      ],
+      "scale": 1.0,
+      "marginsPx": [
+        40,
+        35,
+        41,
+        11
+      ],
+      "removedRedArtifactPixels": 719
+    },
+    {
+      "sourceIndex": 5,
+      "component": 7,
+      "rawBounds": [
+        42,
+        352,
+        333,
+        652
+      ],
+      "destination": [
+        24,
+        407,
+        258,
+        265
+      ],
+      "scale": 0.892318,
+      "marginsPx": [
+        24,
+        66,
+        25,
+        11
+      ],
+      "removedRedArtifactPixels": 745
+    },
+    {
+      "sourceIndex": 6,
+      "component": 10,
+      "rawBounds": [
+        348,
+        370,
+        656,
+        682
+      ],
+      "destination": [
+        331,
+        410,
+        258,
+        262
+      ],
+      "scale": 0.845508,
+      "marginsPx": [
+        24,
+        69,
+        25,
+        11
+      ],
+      "removedRedArtifactPixels": 681
+    },
+    {
+      "sourceIndex": 7,
+      "component": 9,
+      "rawBounds": [
+        635,
+        368,
+        934,
+        683
+      ],
+      "destination": [
+        638,
+        398,
+        259,
+        274
+      ],
+      "scale": 0.874054,
+      "marginsPx": [
+        24,
+        57,
+        25,
+        11
+      ],
+      "removedRedArtifactPixels": 706
+    },
+    {
+      "sourceIndex": 8,
+      "component": 6,
+      "rawBounds": [
+        938,
+        340,
+        1214,
+        694
+      ],
+      "destination": [
+        958,
+        371,
+        235,
+        301
+      ],
+      "scale": 0.857436,
+      "marginsPx": [
+        36,
+        30,
+        36,
+        11
+      ],
+      "removedRedArtifactPixels": 559
+    },
+    {
+      "sourceIndex": 9,
+      "component": 8,
+      "rawBounds": [
+        1248,
+        354,
+        1499,
+        691
+      ],
+      "destination": [
+        1271,
+        371,
+        222,
+        301
+      ],
+      "scale": 0.898388,
+      "marginsPx": [
+        42,
+        30,
+        43,
+        11
+      ],
+      "removedRedArtifactPixels": 523
+    },
+    {
+      "sourceIndex": 10,
+      "component": 11,
+      "rawBounds": [
+        46,
+        679,
+        279,
+        1007
+      ],
+      "destination": [
+        47,
+        713,
+        213,
+        300
+      ],
+      "scale": 0.920491,
+      "marginsPx": [
+        47,
+        30,
+        47,
+        11
+      ],
+      "removedRedArtifactPixels": 538
+    },
+    {
+      "sourceIndex": 11,
+      "component": 14,
+      "rawBounds": [
+        364,
+        705,
+        640,
+        1011
+      ],
+      "destination": [
+        331,
+        728,
+        258,
+        285
+      ],
+      "scale": 0.941168,
+      "marginsPx": [
+        24,
+        45,
+        25,
+        11
+      ],
+      "removedRedArtifactPixels": 626
+    },
+    {
+      "sourceIndex": 12,
+      "component": 13,
+      "rawBounds": [
+        638,
+        703,
+        922,
+        1015
+      ],
+      "destination": [
+        638,
+        728,
+        259,
+        285
+      ],
+      "scale": 0.924,
+      "marginsPx": [
+        24,
+        45,
+        25,
+        11
+      ],
+      "removedRedArtifactPixels": 661
+    },
+    {
+      "sourceIndex": 13,
+      "component": 15,
+      "rawBounds": [
+        951,
+        733,
+        1219,
+        1014
+      ],
+      "destination": [
+        946,
+        741,
+        258,
+        272
+      ],
+      "scale": 0.973132,
+      "marginsPx": [
+        24,
+        58,
+        25,
+        11
+      ],
+      "removedRedArtifactPixels": 793
+    },
+    {
+      "sourceIndex": 14,
+      "component": 12,
+      "rawBounds": [
+        1265,
+        687,
+        1513,
+        1009
+      ],
+      "destination": [
+        1267,
+        713,
+        230,
+        300
+      ],
+      "scale": 0.94069,
+      "marginsPx": [
+        38,
+        30,
+        39,
+        11
+      ],
+      "removedRedArtifactPixels": 746
+    }
+  ]
+}

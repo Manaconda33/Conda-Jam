@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-24. Issue3 remains **incomplete**. Actual registered total: **5,814 authored drawings across 664 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-24. Issue3 remains **incomplete**. Actual registered total: **5,829 authored drawings across 665 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -21,7 +21,7 @@
 | gummiefish | 5 | 42 | 219,698 |
 | piper-quickstep | 5 | 42 | 196,618 |
 | briar-foxglove | 5 | 42 | 180,192 |
-| keeg | 23 | 213 | 1,156,058 |
+| keeg | 24 | 228 | 1,227,712 |
 | toph | 5 | 42 | 151,554 |
 | heph | 5 | 42 | 152,702 |
 | liv | 6 | 52 | 237,996 |
@@ -599,6 +599,14 @@ Keeg adds fifteen distinct right-facing power-dunk poses, reaching20/29 reviewed
 Accepted generation `exec-e7da59f6-70b5-4424-a581-50618d4898fe` raw 1536×1024 RGBA SHA-256 `9a68e2f1bd94498e47a079bc74412b0ee3fd257c93657c38ca1494b7e8b093a6`; cleaned source `tools/generate-art/sources/j98-keeg-dunk-power15.png` SHA-256 `e1a077991759d139ad74f17c5ecdb4ffa73fee8fbee0a604fd234b5716c601b2`. Component cleanup isolates fifteen full silhouettes in row-major order with at least10px source-cell margins. The reviewed512×384 atlas `public/assets/animation/keeg-dunk-power-right.webp` is61,316 bytes / SHA-256 `0b4cd4390809a791ea4474fb512fece83544dccfb9b0f8f9f1fa5b214edb7521`. The verbatim prompt, source cleanup, layouts, provenance and ball track are in the J.98 generation files.
 
 J.98 validation passes404 JavaScript tests, lint18 modules, content validation,100-match simulation /854,447 ticks /7 overtimes,50 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 native previews each load164 images /87 snapshots /452 action frames. Both facings select all fifteen production poses; the separate ball is carried through frame9 and releases once at tick21. The strict report-only audit is661 clips /5,769 drawings /105 athletes, with2,442 missing clips,3 target shortfalls and4 inherited prompt findings. J.97 `f4843db` is deployed in Pages run #135. Next: Keeg `dunk-windmill`.
+
+## J.102 — Keeg `dunk-tomahawk`
+
+Keeg adds fifteen distinct tomahawk-dunk poses, reaching24/29 reviewed action clips /228 authored drawings. His ball-miming hand cocks behind the full hat through frames5–7; the single release at frame10/tick21 reaches the rim with the separate basketball aligned to the palm. All fifteen poses use production art in both facings. Canon K.03 approves mirroring.
+
+Accepted generation `exec-b6cc222a-218c-496d-b99a-336a9a303309`; rejected generation `exec-7932afa2-19d7-4b6c-8385-90145c8a2b74` changed Keeg’s identity and supplied six panels, and is retained with its rejection reason. Raw source SHA-256 `e37b4ec555e69dcac91026c44900f80a304d1c4eb02227ddab52e0f0ba0a04bc`; cleaned source SHA-256 `4bbf49de235ed6c6fe6e519ec14631dd722167dc734be7e43afbed5e8d368596`. The512×384 atlas `public/assets/animation/keeg-dunk-tomahawk-right.webp` is71,654 bytes / SHA-256 `2b79542a96cb69e46a2c689ce6eeca382c6e0ea11333c07bef60a482451e01a8`. Exact prompts, cleanup, layouts, separate ball track and provenance are in the J.102 files.
+
+J.102 passes408 JavaScript tests, lint18 modules, content validation,100-match simulation /866,809 ticks /9 overtimes,54 packer tests, build and Chromium full-match/season/touch E2E. Standard/zoom120 previews each load168 images /87 snapshots /452 action frames. Both facings select all fifteen poses and the ball meets the release palm at frame10/tick21. Audit:665 clips /5,829 drawings /105 athletes,2,438 missing clips,3 target shortfalls and4 inherited prompt findings. J.101 `a5bd50e` is deployed in Pages run #139. Next: Keeg `dunk-double`.
 
 ## J.101 — Keeg `dunk-360`
 

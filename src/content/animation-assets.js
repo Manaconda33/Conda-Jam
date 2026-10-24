@@ -39589,6 +39589,325 @@ export const animationAssetManifest = {
               "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "dunk-tomahawk": {
+            "src": "./public/assets/animation/keeg-dunk-tomahawk-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "78ce2294f532df7d8a0b028bbd5574f02804de71c29dfc6cf08eb1ca1351c825"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "15b14e19c20d491b0167cd2f16ebb9880036d36184f7d26aa0819654b6ac551c"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "891245df729b04a1d3fce6391c5dd702b02e68df4be8589f0a1c0b3fcf598b21"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "9605f8fe5eaa888ad1e2f238a02deb8948b9398d9c78428c9f588c49900fc46c"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "122bbcb0d3d4cdc0e2c3b44667ba0c08047a2f5a43849eeb4ccd85ea4ff11f20"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "e07a3736712d2ee41db60e41abbb66c9e8206b9171716c72b7cd3d6816e74c49"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "9b27810ab1432c8b6474881f35ac7b96ae76d4a1698053dc910e0f3982853a87"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c286f7c2bfe606009004071f97409580d6b22f8617d29d1bcb32413b256a3eb0"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "41b6e574373677031364a6be09fa42a81da1bc79c966fe9fe24464d4a5c206fe"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "abe6e36f150086a7579269953b2fe68283933e7481162bc30c29f1a803819d0c"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "392731d2ae96649189d10e4ff7bb981f703d9a177317b5b15ed908e8796f2840"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "568b5eaa9da925caf3adeeb70d6774c0817afebf6a4d9cca33770fac1f18f242"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "56474e1bc8c0075f860f7a0f717a38c77f4213caea4a7e4e98ecae252ba2bf27"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "8c66ecfae2f27563d3f9bfc679d198a9ae2ec1ac5509d73dfdae3296abd94903"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "8ad3717fac209b4efa95092f7822639f865266495be51fc3aa362c67d482d6da"
+              }
+            ],
+            "sha256": "2b79542a96cb69e46a2c689ce6eeca382c6e0ea11333c07bef60a482451e01a8",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "dunk-tomahawk",
+              "direction": "right",
+              "canonicalSection": "K.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-b6cc222a-218c-496d-b99a-336a9a303309",
+              "imageGenerationId": "exec-b6cc222a-218c-496d-b99a-336a9a303309",
+              "rawSourceImage": "tools/generate-art/sources/j102-keeg-dunk-tomahawk-generated-raw.png",
+              "rawSourceSha256": "e37b4ec555e69dcac91026c44900f80a304d1c4eb02227ddab52e0f0ba0a04bc",
+              "sourceImage": "tools/generate-art/sources/j102-keeg-dunk-tomahawk15.png",
+              "sourceSha256": "4bbf49de235ed6c6fe6e519ec14631dd722167dc734be7e43afbed5e8d368596",
+              "prompt": "Create an original 1536\u00d71024 transparent RGBA sprite sheet for JAMVERSE '96: Keeg of the Moonmorel Hex performing a one-handed TOMAHAWK dunk. Use the attached Keeg animation sheet only as an identity and art-style reference. Redraw fifteen distinct complete full-body poses in a strict five-column by three-row grid, row-major, with broad transparent gutters and outer margins. Every athlete stays fully inside their own cell at consistent scale and camera. No copied or merged figures; no borders, court, hoop, floor, shadows, effects, text, labels, teammates, opponents, ball, sphere, orb, prop, or equipment.\n\nKeeg is a flamboyant adult human man with normal athletic human anatomy, black hair, a neat close black beard, and an expressive face. Keep his complete very tall ornate purple witch hat with silver trim and mushroom ornaments recognizable in all fifteen poses. He wears the layered purple/lavender/silver Moonmorel Hex athletic kit with matching belt and shoes. Preserve his human face, adult proportions, two arms, two hands, two legs, black hair, beard, hat height and ornaments, kit palette, and shoes. No monster anatomy, horns, robe, cape, staff, extra limbs, altered uniform, or missing limbs. Both hands are always empty: the game basketball is separately rendered and must never appear in the drawings.\n\nThis is a TOMOHAWK dunk, not a windmill or reverse dunk. Keeg gathers the invisible ball, plants and rises, cocks the ball-miming hand behind his head like a tomahawk while keeping the hat clear, then snaps that arm forward over the crown and dunks one-handed. Pose10 (zero-based) is the only release at simulation tick21: the palm is open and empty at full reach. Poses0\u20139 carry the invisible ball in a natural hand arc; poses11\u201314 are empty-handed follow-through, descent, landing and recovery. Keep the ball hand separated from the full hat silhouette: no hand or ball is drawn on top of the hat. Unique connected poses:\n0 controlled right-facing approach;\n1 gather the invisible ball at waist;\n2 low two-foot plant, knees flexed;\n3 jump and lift the ball-miming hand toward the rear shoulder;\n4 airborne, elbow bent, hand cocks behind the crown without touching the hat;\n5 maximum tomahawk coil, hand far behind head;\n6 powerful high ascent, torso starts unwinding;\n7 arm accelerates forward above the hat, never across its silhouette;\n8 near full extension with the wrist above the crown;\n9 final cock and body twist toward the rim;\n10 single RELEASE at tick21: arm fully extended upward/forward, open empty palm;\n11 empty-handed arm follows through toward the rim;\n12 descending with legs tucked naturally;\n13 controlled two-foot landing, knees flexed;\n14 balanced recovery with hands empty.\n\nKeeg approaches moving toward image-right. Keep the right-facing body direction consistent; make the tomahawk motion clear from the pose sequence rather than changing his identity or scale. Clean arcade-sprite illustration edges and true transparency throughout, no alpha haze, checkerboard, matte, speckles, background, or colored artifacts. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-7932afa2-19d7-4b6c-8385-90145c8a2b74",
+                  "rawSourceImage": "tools/generate-art/sources/j102-keeg-dunk-tomahawk-rejected-01.png",
+                  "rawSourceSha256": "564e2fc2e197ca1c816e4175a5b00fb7397ca1efdb2c24298629315a04baeeb9",
+                  "promptUsed": "The verbatim J.102 prompt in tools/generate-art/j102-keeg-dunk-tomahawk-prompt.md with the same J.101 identity reference.",
+                  "reviewStatus": "rejected",
+                  "reason": "Produced a different purple-haired athlete without Keeg\u2019s tall mushroom hat and only six pose panels; it does not satisfy the requested fifteen-pose Keeg action."
+                }
+              ],
+              "mirrorEligible": true,
+              "ballPolicy": "Separate Keeg-specific basketball tracks the ball-miming hand behind the crown through the tomahawk cock and reaches the raised release hand at frame10/tick21. The ball is never painted into the poses.",
+              "ballTrack": {
+                "height": [
+                  0.95,
+                  1.1,
+                  1.25,
+                  1.7,
+                  1.9,
+                  2.05,
+                  2.2,
+                  2.45,
+                  2.4,
+                  2.35,
+                  1.5,
+                  2,
+                  1.4,
+                  0.7,
+                  0.55
+                ],
+                "forward": [
+                  6,
+                  8,
+                  4,
+                  -2,
+                  -10,
+                  -7,
+                  -8,
+                  -5,
+                  12,
+                  2,
+                  8,
+                  6,
+                  8,
+                  5,
+                  6
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-keeg-dunk-tomahawk15.py",
+                "layoutFile": "tools/generate-art/j102-keeg-dunk-tomahawk-cleanup-layout.json",
+                "minimumCellMarginPx": 11,
+                "removedHighChromaRedPixels": true
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "Fifteen distinct complete Keeg tomahawk-dunk poses. His human anatomy, full mushroom hat, beard, black hair, purple/lavender/silver kit and shoes remain consistent. The arm cocks behind the crown through frames5\u20137, stays clear of the hat, and opens for the sole frame10/tick21 release. K.03 approves mirroring."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 23,
+                  "y": 40,
+                  "w": 261,
+                  "h": 292,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 352,
+                  "y": 28,
+                  "w": 217,
+                  "h": 304,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 663,
+                  "y": 99,
+                  "w": 210,
+                  "h": 233,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 954,
+                  "y": 28,
+                  "w": 243,
+                  "h": 303,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1268,
+                  "y": 33,
+                  "w": 228,
+                  "h": 299,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 23,
+                  "y": 405,
+                  "w": 260,
+                  "h": 268,
+                  "component": 64
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 330,
+                  "y": 409,
+                  "w": 261,
+                  "h": 264,
+                  "component": 65
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 637,
+                  "y": 397,
+                  "w": 262,
+                  "h": 276,
+                  "component": 63
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 957,
+                  "y": 370,
+                  "w": 237,
+                  "h": 304,
+                  "component": 62
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1269,
+                  "y": 369,
+                  "w": 226,
+                  "h": 305,
+                  "component": 61
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 45,
+                  "y": 712,
+                  "w": 216,
+                  "h": 302,
+                  "component": 88
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 330,
+                  "y": 726,
+                  "w": 260,
+                  "h": 288,
+                  "component": 90
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 636,
+                  "y": 726,
+                  "w": 262,
+                  "h": 289,
+                  "component": 91
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 944,
+                  "y": 740,
+                  "w": 262,
+                  "h": 274,
+                  "component": 92
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1265,
+                  "y": 711,
+                  "w": 234,
+                  "h": 304,
+                  "component": 87
+                }
+              ],
+              "uniformScale": 0.3016393442622951,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/keeg-dunk-tomahawk-right.webp",
+              "atlasSha256": "2b79542a96cb69e46a2c689ce6eeca382c6e0ea11333c07bef60a482451e01a8",
+              "atlasBytes": 71654
+            },
+            "reviewed": true
           }
         }
       },
@@ -39597,7 +39916,7 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "Keeg\u2019s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. J.01 and K.03 approve mirroring; the basketball remains a separate runtime object.",
         "reviewedAt": "2026-10-24",
-        "scope": "canonical K.03 body direction policy; Keeg reviewed actions through J.101",
+        "scope": "canonical K.03 body direction policy; Keeg reviewed actions through J.102",
         "evidence": [
           "tools/generate-art/keeg-block4-layouts.json",
           "tools/generate-art/keeg-steal8-layouts.json",
@@ -39623,7 +39942,9 @@ export const animationAssetManifest = {
           "tools/generate-art/keeg-dunk-36015-layouts.json",
           "public/assets/animation/keeg-dunk-360-right.webp",
           "tools/generate-art/keeg-dunk-36015-layouts.json",
-          "public/assets/animation/keeg-dunk-360-right.webp"
+          "public/assets/animation/keeg-dunk-360-right.webp",
+          "tools/generate-art/keeg-dunk-tomahawk15-layouts.json",
+          "public/assets/animation/keeg-dunk-tomahawk-right.webp"
         ],
         "canonicalSection": "K.03"
       }
