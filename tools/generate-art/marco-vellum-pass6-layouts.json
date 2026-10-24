@@ -1,0 +1,101 @@
+[
+  {
+    "athlete": "marco-vellum",
+    "direction": "right",
+    "clip": "pass",
+    "src": "./public/assets/animation/marco-vellum-pass-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "marco-vellum",
+      "clip": "pass",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "eligibleForPacking": true,
+      "promptFile": "tools/generate-art/marco-vellum-pass-prompt.md",
+      "prompt": "Match Marco Vellum using the attached portrait and gameplay atlas: compact athletic adult human MAN, medium-light olive skin, strong angular clean-shaven face, short thick black hair with slight wave; no mustache, no beard, no long hair. Black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands, black high-top shoes. Keep this exact identity and uniform in all six poses.\n\nCreate six distinct complete full-body poses, strict row-major three columns by two rows on transparent RGBA 1536x1024. Each figure about 65% of its 512x512 cell height, centered with wide gutters and safe cell margins. Nothing may cross a cell boundary. Crisp outlined 1990s arcade pixel art. No background, court, floor, shadow, hoop, text, other athletes, basketball or props.\n\nRight-facing chest pass sequence: 0 ready balanced, hands empty; 1 steps forward and gathers invisible ball around waist; 2 brings both empty hands to chest, elbows bent; 3 rotates torso and drives both hands forward toward image-right; 4 arms extend fully in two-hand pass, palms/fingers open and empty; 5 follows through and returns balanced. No basketball at any point; Marco's ball is rendered by his own independent runtime track.\n\nAll six figures are complete, distinct and anatomically natural, with two arms/hands, two legs/shoes. Keep Marco clean-shaven and short-haired in every cell. True alpha-zero background and gutters, no haze/checkerboard. Return only the sheet.",
+      "references": [
+        "tools/generate-art/references/marco-vellum-portrait-reference.png",
+        "public/assets/animation/marco-vellum-idle-right.webp"
+      ],
+      "review": {
+        "status": "accepted",
+        "notes": "Six frames show the correct adult clean-shaven Marco, short wavy black hair, olive skin and black/crimson uniform. Chest-pass motion is readable and fits the 3x2 grid. Initial source had a dark ball-like object in the waist gather; localized image edit reconstructed empty hands, and cleanup isolated the athlete. Final atlas has no ball."
+      },
+      "ballTrack": {
+        "owner": "marco-vellum",
+        "art": "no ball in atlas; independent Marco-specific runtime path"
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-marco-vellum-pass6.py",
+        "method": "Localized image edit removes the only generated ball-like object; per-cell largest alpha>=32 athlete component plus 2px antialias fringe clears background haze; action6 packer verifies six full pose components.",
+        "rawSource": "tools/generate-art/sources/marco-vellum-pass-generated-raw.png",
+        "rawSourceSha256": "df55b0408846de3a0ddf55ba2e53af410aaf6a49919a15d5c71405e4153728e6",
+        "editedSource": "tools/generate-art/sources/marco-vellum-pass-ball-cleanup-generated.png",
+        "editedSourceSha256": "09fb3c73e877884d21cd855ee760fcdfeb4cbcca4d357f53c187f4433569d55a",
+        "cleanedSource": "tools/generate-art/sources/marco-vellum-pass6.png",
+        "sourceSha256": "31148f21fc9c3262cc5d50277e04446eacb837d64e6af0a951aa92d552240b40"
+      },
+      "sourceSha256": "31148f21fc9c3262cc5d50277e04446eacb837d64e6af0a951aa92d552240b40",
+      "generationHistory": [
+        {
+          "id": "exec-7b164c2f-dda9-40a2-aed2-c1462e10c080",
+          "status": "accepted-after-edit",
+          "reason": "Correct Marco identity and clear chest-pass; pose 1 had a dark ball-like object, removed in localized edit.",
+          "sha256": "df55b0408846de3a0ddf55ba2e53af410aaf6a49919a15d5c71405e4153728e6"
+        },
+        {
+          "id": "exec-0eb6127d-5804-4f97-ac47-f0e825fdf807",
+          "status": "accepted-edit",
+          "reason": "Removed object from pose 1; retained all other poses and Marco identity.",
+          "sha256": "09fb3c73e877884d21cd855ee760fcdfeb4cbcca4d357f53c187f4433569d55a"
+        }
+      ],
+      "reviewPreview": "tools/generate-art/sources/marco-vellum-pass-review.png",
+      "artifactHashes": {
+        "cleanedSourceSha256": "31148f21fc9c3262cc5d50277e04446eacb837d64e6af0a951aa92d552240b40",
+        "atlasSha256": "2f31b19867265ba3abe2427215dfb6b91cc5d45f63758ebe5a5b8759455b0d0c",
+        "reviewPreviewSha256": "64aae73c549cc2e97a70e57c53b44eb9673974204531f700c46543c551a239bf",
+        "rawSourceSha256": "df55b0408846de3a0ddf55ba2e53af410aaf6a49919a15d5c71405e4153728e6"
+      }
+    }
+  }
+]
