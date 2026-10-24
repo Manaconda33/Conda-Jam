@@ -156,6 +156,30 @@
       "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
       "ballTrackStatus": "not applicable to pose0 image; complete separate track remains unvalidated pending poses1-14",
       "eligibleForClipRegistration": false
+    },
+    {
+      "generationId": "exec-8c908d0a-4400-4cff-9c1b-fdb965e90e39",
+      "poseIndex": 1,
+      "poseName": "waist-gather-right",
+      "status": "accepted-as-isolated-pose-component; full-clip-incomplete",
+      "sourceImage": "tools/generate-art/sources/j105-keeg-dunk-scythe-pose-01-attempt-01.png",
+      "sourceSha256": "f8c277615d61d35d8e9622115a5a447b31ccd60b8d25e7e0223a770bedc6cec8",
+      "promptFile": "tools/generate-art/j105-keeg-dunk-scythe-pose-01-prompt.md",
+      "identityReference": "public/assets/animation/keeg-dunk-power-right.webp",
+      "sourceDimensions": [
+        1312,
+        1199
+      ],
+      "alphaBoundsThreshold16": [
+        312,
+        33,
+        934,
+        1166
+      ],
+      "cellPreviewPath": "artifacts/native-render-preview/j105-keeg-dunk-scythe-pose-01-attempt-01-cell-review.png",
+      "cellPreviewMethod": "tight alpha crop at threshold16; nearest-neighbor scaled to 90px figure height; centered in 128x96 transparent cell with bottom at y95; light/dark visual review",
+      "ballTrackStatus": "no basketball painted; full separate track remains unvalidated pending poses02-14",
+      "eligibleForClipRegistration": false
     }
   ]
 }
