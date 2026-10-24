@@ -1,5 +1,12 @@
 # QA report
 
+## Marco Vellum — `pickup` accepted and integrated
+
+- Added five unique authored drawings to the runtime atlas. The accepted source preserves Marco’s short black hair, clean-shaven olive-skinned face, Blackthorn Court Kings kit and ordinary adult-human anatomy. Both generated sheets and the background-only edit with contamination remain preserved as rejected candidates; the accepted sheet uses documented alpha isolation without redrawing or fabricating a pose. The rejected two-pixel atlas layout is also retained; the final packed cells have at least5px margins.
+- The ball remains a separate Marco-specific track. Native Canvas review at100% and120% passes in both facings: frame2/tick5 loose ball at open fingertips; frame3/tick7 carried grab at the closed low fist; frame4/tick8 waist/hip carry. Each zoom loads151 images and captures2 court summaries /10 pickup frame captures; all ten pickup/facing combinations select the production atlas.
+- Exact generation/edit prompts, IDs, hashes, rejected candidates, cleanup details, source and packed layouts, light/dark proofs, native captures, and independent review are preserved under `tools/generate-art/marco-vellum-pickup*`.
+- Focused regression covers five unique atlas frames, production selection in both facings, grab timing and track parity. Full validation passes: `npm test` (31 test files), lint (18 modules), content validation (35 franchises /105 athletes), 100-match simulation (861,238 ticks /6 overtimes), 55 atlas packer tests, build and Chromium E2E (full match, season, touch and standalone offline journeys). E2E screenshots were refreshed. The strict report-only audit is `2026-10-24T20:31:50.524Z`:791 clips /7,163 drawings /105 athletes, 2,312 missing clips, one target shortfall and4 inherited prompt findings. Push and Pages deployment are pending.
+
 ## Nova Stitch — complete 29-clip source integration
 
 - Registered23 action atlases /241 authored drawings; Nova is now29/29 clips /293 drawings. All23 generated source sheets pass the identity, complete human anatomy, separated-pose, transparency and no-baked-ball checks. Repacked cells have at least5px clearance on every edge; exact prompts, hashes, rejected candidates, cleanup, layouts, original atlases and light/dark proofs are retained.

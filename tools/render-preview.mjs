@@ -70,7 +70,10 @@ if(process.env.JAMVERSE_PREVIEW_UNREVIEWED==='1'){
 }
 const previewImages=new Map(images.map(image=>[image.file,image]));
 const previews=[],previewFrames=[],clips=Object.keys(animationClips);
+const onlyPreviewClips=new Set((process.env.JAMVERSE_PREVIEW_CLIPS??'').split(',').map(x=>x.trim()).filter(Boolean));
+const shouldPreview=clip=>onlyPreviewClips.size===0||onlyPreviewClips.has(clip);
 for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip of clips){
+ if(!shouldPreview(clip)||(onlyPreviewClips.size&&position==='mid'))continue;
  for(const player of state.players){player.x=x+(player.team?40:-40);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  const aerial=clip.startsWith('dunk-')||clip.startsWith('alley-oop-');
  const tick=aerial?anchorTick(clip,'peak'):anchorTick(clip,'release')??anchorTick(clip,'apex')??anchorTick(clip,'grab')??anchorTick(clip,'contact')??anchorTick(clip,'bounce')??anchorTick(clip,'finish')??12;
@@ -87,7 +90,7 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
 const actionFramePreviews=[];
 // Inspect all Dorian ball-ready and locomotion frames with the separate ball
 // attached, including newly authored extension poses 08–10.
-for(const clip of ['idle-ball','dribble','dribble-run'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
+for(const clip of ['idle-ball','dribble','dribble-run'].filter(shouldPreview))for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  p.x=100;p.y=50;p.z=0;p.facing=position==='right'?1:-1;p.animation={clip,tick};p.hasBall=true;
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:sampleBallHeight(clip,tick,p.id),mode:'carried',ownerId:p.id});
@@ -97,7 +100,7 @@ for(const clip of ['idle-ball','dribble','dribble-run'])for(const position of ['
  actionFramePreviews.push({path,athlete:p.id,clip,frame,tick,facing:p.facing,production:Boolean(selected),selectedFrame:selected?.frame,source:selected?.atlas?.file??null,flipped:selected?.flip??false,hasBall:true,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:'separate ball throughout possession'});
  tick+=animationClips[clip].frames[frame].duration;
 }
-for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','pickup','block','push','rebound','steal','layup','layup-reverse','fall','celebrate'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
+for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','pickup','block','push','rebound','steal','layup','layup-reverse','fall','celebrate'].filter(shouldPreview))for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};
  if(clip==='dunk-power'){
@@ -109,7 +112,7 @@ for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','picku
  const aerial=clip.startsWith('dunk-')||clip.startsWith('alley-oop-'),catchTick=anchorTick(clip,'grab');
  const caught=!clip.startsWith('alley-oop-')||tick>=catchTick;
  const releasedAerial=aerial&&tick>=anchorTick(clip,'release');
- p.hasBall=(clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&caught&&!releasedPass&&!releasedShot&&!releasedAerial;
+ p.hasBall=(clip==='pickup'?tick>=anchorTick('pickup','grab'):clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&caught&&!releasedPass&&!releasedShot&&!releasedAerial;
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:(p.hasBall||releasedPass||releasedShot||releasedAerial)?sampleBallHeight(clip,tick,p.id)+p.z:0,mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':releasedAerial?'dunk':clip.startsWith('alley-oop-')?'pass':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
  game.tick(0);
  const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
@@ -120,7 +123,7 @@ for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','picku
 // Capture every Paprika dunk frame with the live renderer in both facings.
 // Keep her on the roster that owns her sprite data; change only facing.
 // Center the fox so the separate ball and authored jump curve stay visible.
-for(const clip of ['dunk-power','dunk-windmill','dunk-reverse','dunk-360','dunk-tomahawk','dunk-double','dunk-clutch','dunk-scythe','alley-oop-power','alley-oop-reverse'])for(const position of ['left','right']){
+for(const clip of ['dunk-power','dunk-windmill','dunk-reverse','dunk-360','dunk-tomahawk','dunk-double','dunk-clutch','dunk-scythe','alley-oop-power','alley-oop-reverse'].filter(shouldPreview))for(const position of ['left','right']){
  const facing=position==='right'?1:-1;
  for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
   for(const player of state.players){player.animation={clip:'idle',tick:0};player.hasBall=false;player.z=0;}
@@ -145,7 +148,7 @@ for(const clip of ['dunk-power','dunk-windmill','dunk-reverse','dunk-360','dunk-
 }
 // Capture each aerial clip's last carried tick. Pose9 spans the final carry
 // interval and the ball must meet its authored hand before pose10 releases.
-for(const clip of Object.keys(animationClips).filter(key=>key.startsWith('dunk-')||key.startsWith('alley-oop-')))for(const facing of [1,-1]){
+for(const clip of Object.keys(animationClips).filter(key=>(key.startsWith('dunk-')||key.startsWith('alley-oop-'))&&shouldPreview(key)))for(const facing of [1,-1]){
  const tick=anchorTick(clip,'release')-1;
  for(const player of state.players){player.animation={clip:'idle',tick:0};player.hasBall=false;player.z=0;}
  p.x=facing>0?170:30;p.y=50;p.facing=facing;p.animation={clip,tick};

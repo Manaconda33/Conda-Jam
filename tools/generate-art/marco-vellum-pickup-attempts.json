@@ -1,0 +1,60 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "pickup",
+  "direction": "right",
+  "status": "all three raw image candidates are rejected; accepted source is the documented alpha-isolated cleanup of attempt3; final pickup atlas passed native review and is registered",
+  "promptFile": "tools/generate-art/marco-vellum-pickup-prompt.md",
+  "references": [
+    "tools/generate-art/references/marco-vellum-portrait-reference.png",
+    "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+  ],
+  "attempts": [
+    {
+      "generationId": "exec-aeca1dba-1315-47ec-8de9-749a27e82516",
+      "sourceImage": "tools/generate-art/sources/marco-vellum-pickup-attempt1-rejected.png",
+      "sha256": "cd505b9b9fe43baa2e985ba509467b94339b57b167453abbddf8b1a256f45981",
+      "dimensions": "1536x1024",
+      "exactPrompt": "Create one original transparent RGBA PNG spritesheet exactly 1536 \u00d7 1024 pixels in a strict 3-column \u00d7 2-row grid, read left-to-right top row then left-to-right bottom row. Draw exactly five separate, complete full-body poses of Marco Vellum, one pose centered in each of the first five 512 \u00d7 512 cells. Leave the bottom-right sixth cell completely transparent and empty. Keep heads, hands, limbs and shoes fully inside every used cell, with at least 35 pixels clear margin. Use crisp outlined 1990s arcade pixel art matching Marco's portrait and gameplay sprite references.\n\nMarco is the same compact athletic adult human MAN in all five poses: medium-light olive skin, angular clean-shaven face, thick short black hair with a slight natural wave, no beard and no mustache. He wears a black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands and black high-top shoes. Preserve his face, hairstyle, compact human proportions and exact kit consistently.\n\nRight-facing basketball pickup, five distinct sequential poses in strict row-major order: 0 notices a loose ball near the floor, lowers his stance and reaches one empty hand down; 1 bends farther at the waist and steps forward, reaching toward the court with the near hand; 2 drops into a deep balanced crouch and places his open fingertips at court level to collect an imaginary ball; 3 closes the empty hand around the invisible ball at the pickup point and stabilizes with the other arm extended for balance; 4 begins rising into a secure low carry, drawing the imaginary ball toward his waist. Every pose must visibly change the reach, body crouch, arm position or recovery. No visible ball anywhere: Marco's separately animated game ball is placed by runtime.\n\nExactly five figures, exactly five used cells and one blank cell. True alpha-zero background and gutters. No shadow, haze, checkerboard, floor, court, hoop, words, logos, props, opponents, extra figures or basketball. Return only the sheet.",
+      "review": {
+        "status": "rejected",
+        "reason": "On a white composite, the sheet has dark translucent haze/halos and many stray semitransparent speckles throughout the gutters and empty cell. The figures are separated and recognizably Marco, but background alpha contamination makes the sheet ineligible for packing.",
+        "poseSeparation": "five figures are distinct and do not touch one another",
+        "identityAndAnatomy": "clean-shaven adult Marco identity is consistent; no obvious missing or extra limbs",
+        "cellMargins": "figures remain inside the 3x2 cells with visible outer margins",
+        "ball": "no basketball visible in the athlete art",
+        "transparency": "corner pixels are alpha-zero; semitransparent background contamination remains",
+        "accepted": false
+      }
+    },
+    {
+      "generationId": "exec-4af7e890-f57f-402c-9ba4-b996f523fd3c",
+      "sourceImage": "tools/generate-art/sources/marco-vellum-pickup-attempt2-rejected.png",
+      "sha256": "f6232e265a7c3360e6000c451957845e16dbc596a12ee373af8ae4c0d934b433",
+      "dimensions": "1536x1024",
+      "exactPrompt": "Create one original transparent RGBA PNG spritesheet exactly 1536 \u00d7 1024 pixels in a strict 3-column \u00d7 2-row grid, read left-to-right top row then left-to-right bottom row. Draw exactly five separate, complete full-body poses of Marco Vellum, one pose centered in each of the first five 512 \u00d7 512 cells. Leave the bottom-right sixth cell completely transparent and empty. Keep heads, hands, limbs and shoes fully inside every used cell, with at least 35 pixels clear margin. Use crisp outlined 1990s arcade pixel art matching Marco's portrait and gameplay sprite references.\n\nMarco is the same compact athletic adult human MAN in all five poses: medium-light olive skin, angular clean-shaven face, thick short black hair with a slight natural wave, no beard and no mustache. He wears a black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands and black high-top shoes. Preserve his face, hairstyle, compact human proportions and exact kit consistently.\n\nRight-facing basketball pickup, five distinct sequential poses in strict row-major order: 0 notices a loose ball near the floor, lowers his stance and reaches one empty hand down; 1 bends farther at the waist and steps forward, reaching toward the court with the near hand; 2 drops into a deep balanced crouch and places his open fingertips at court level to collect an imaginary ball; 3 closes the empty hand around the invisible ball at the pickup point and stabilizes with the other arm extended for balance; 4 begins rising into a secure low carry, drawing the imaginary ball toward his waist. Every pose must visibly change the reach, body crouch, arm position or recovery. No visible ball anywhere: Marco's separately animated game ball is placed by runtime.\n\nExactly five figures, exactly five used cells and one blank cell. True alpha-zero background and gutters. No shadow, haze, checkerboard, floor, court, hoop, words, logos, props, opponents, extra figures or basketball. Return only the sheet.",
+      "review": {
+        "status": "rejected",
+        "reason": "On a white composite, the sheet has dark translucent haze/halos and stray semitransparent speckles in the gutters and empty cell. Thin visible column/row divider lines were also generated. It is ineligible for packing until these artifacts are removed without altering the five figures.",
+        "poseSeparation": "five figures are distinct; divider lines cross the clear space between cell groups",
+        "identityAndAnatomy": "clean-shaven adult Marco identity is consistent; no obvious missing or extra limbs",
+        "cellMargins": "poses are inside the 3x2 cell regions; some clear-cell margins are reduced by divider artifacts",
+        "ball": "no basketball visible in the athlete art",
+        "transparency": "corner pixels are alpha-zero; haze, speckles and divider pixels contaminate transparent space",
+        "accepted": false
+      }
+    },
+    {
+      "generationId": "exec-aedea74a-0e0e-4015-9c5c-02beac63e518",
+      "sourceImage": "tools/generate-art/sources/marco-vellum-pickup-attempt3-rejected.png",
+      "sha256": "32c5cebc70e5fea36a836b85ea68ecad5d52cde1beba4fa490c4acc3eb0f2dac",
+      "dimensions": "1536x1024",
+      "editOf": "tools/generate-art/sources/marco-vellum-pickup-attempt2-rejected.png",
+      "exactPrompt": "Edit only the transparency and background of this exact Marco Vellum pickup sprite sheet. Preserve the exact 1536x1024 canvas, all five existing complete figures, their pose designs, identity, anatomy, clothes, colors, outlines, scale, positions and row-major order. Keep the bottom-right sixth cell empty. Do not redraw, move, resize, crop, replace or add any athlete or pose. Remove every non-athlete background artifact everywhere: dark brown/black haze, glow, halos, shadows, speckles, stray pixels, and all row/column divider or grid lines. Make all empty gutters, the outer margin and the unused sixth cell fully alpha-zero transparent. Keep the five crisp figure silhouettes and their shoe/hand outlines intact with visible clean margins. No props, no basketball, no background, no shadow, no cell lines. Return only this cleaned sheet with genuine transparent background.",
+      "review": {
+        "status": "rejected",
+        "reason": "The background-only edit reduced some divider artifacts but left dark translucent haze, halos and stray speckles; it is not packable.",
+        "accepted": false
+      }
+    }
+  ]
+}

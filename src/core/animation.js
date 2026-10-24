@@ -1102,7 +1102,8 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   // Marco's low dribble reaches with the lead hand clear of his torso.
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
-  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]},
+  pickup:{height:[0,0,0,.25,.9],forward:[8,8,9,.5,-9]}
 },'flint-rooker':{
   // Flint's short-haired lead-hand poses need the separate ball ahead of his
   // charcoal/ember-red body through stationary and turbo dribble cycles.

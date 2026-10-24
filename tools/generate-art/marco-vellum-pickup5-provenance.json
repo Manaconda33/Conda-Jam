@@ -1,0 +1,97 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "pickup",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-aedea74a-0e0e-4015-9c5c-02beac63e518",
+  "imageGenerationId": "exec-aedea74a-0e0e-4015-9c5c-02beac63e518",
+  "rawSourceImage": "tools/generate-art/sources/marco-vellum-pickup-attempt3-rejected.png",
+  "rawSourceSha256": "32c5cebc70e5fea36a836b85ea68ecad5d52cde1beba4fa490c4acc3eb0f2dac",
+  "sourceImage": "tools/generate-art/sources/marco-vellum-pickup5.png",
+  "sourceSha256": "020cf588a55bf465aaf13377bee088f87cf4944295a742d42b49cd2ece1b1342",
+  "promptFile": "tools/generate-art/marco-vellum-pickup-edit-prompt.md",
+  "prompt": "Edit only the transparency and background of this exact Marco Vellum pickup sprite sheet. Preserve the exact 1536x1024 canvas, all five existing complete figures, their pose designs, identity, anatomy, clothes, colors, outlines, scale, positions and row-major order. Keep the bottom-right sixth cell empty. Do not redraw, move, resize, crop, replace or add any athlete or pose. Remove every non-athlete background artifact everywhere: dark brown/black haze, glow, halos, shadows, speckles, stray pixels, and all row/column divider or grid lines. Make all empty gutters, the outer margin and the unused sixth cell fully alpha-zero transparent. Keep the five crisp figure silhouettes and their shoe/hand outlines intact with visible clean margins. No props, no basketball, no background, no shadow, no cell lines. Return only this cleaned sheet with genuine transparent background.",
+  "promptVerbatim": true,
+  "sourcePromptFile": "tools/generate-art/marco-vellum-pickup-prompt.md",
+  "sourcePromptNote": "Two earlier full-sheet generations used the prompt recorded in marco-vellum-pickup-attempts.json and were rejected; the accepted source is the edit result after documented alpha cleanup.",
+  "references": [
+    "tools/generate-art/references/marco-vellum-portrait-reference.png",
+    "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+  ],
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-aeca1dba-1315-47ec-8de9-749a27e82516",
+      "source": "tools/generate-art/sources/marco-vellum-pickup-attempt1-rejected.png",
+      "sha256": "cd505b9b9fe43baa2e985ba509467b94339b57b167453abbddf8b1a256f45981",
+      "reason": "Semitransparent haze, halos and stray speckles contaminated gutters and blank cell."
+    },
+    {
+      "generationId": "exec-4af7e890-f57f-402c-9ba4-b996f523fd3c",
+      "source": "tools/generate-art/sources/marco-vellum-pickup-attempt2-rejected.png",
+      "sha256": "f6232e265a7c3360e6000c451957845e16dbc596a12ee373af8ae4c0d934b433",
+      "reason": "Semitransparent haze, halos, speckles and divider marks contaminated gutters and blank cell."
+    }
+  ],
+  "cleanup": {
+    "script": "tools/generate-art/clean-marco-vellum-pickup5.py",
+    "method": "Per-cell alpha-component isolation, retain largest athlete component plus 2px antialias fringe; remove all disconnected background; uniformly scale only where needed to guarantee at least35px cell margins.",
+    "componentIsolation": true,
+    "uniformScales": [
+      1.0,
+      0.9844097996,
+      1.0,
+      0.9424307036,
+      0.9822222222
+    ],
+    "note": "Cleanup changed transparency and uniformly scaled/centered poses1,3,4; it did not invent or redraw poses."
+  },
+  "review": {
+    "status": "accepted",
+    "reviewNotes": "Independent review passes all five distinct full-body poses: Marco identity and anatomy, no baked ball, transparent empty gutters and sixth cell, at least35px source margins and five-pixel packed margins. Both facing directions pass actual native Canvas contact review at100% and120%: frame2 loose ball meets fingertips, frame3 carried ball meets the closed low fist, frame4 ball follows the waist/hip hand.",
+    "prepackReview": "tools/generate-art/previews/marco-vellum-pickup/pickup5-separate-ball-contact.png",
+    "accepted": true,
+    "nativeCanvas": "Frame2 loose-ball contact and frame4 carried waist contact pass at 120% in both facings. Frame3/tick7 still needs native contact review after a hand-directed horizontal correction."
+  },
+  "ballPolicy": "No ball is painted in the athlete poses. Marco\u2019s separate ball track reaches open fingertips on frame2, closes on the low hand at frame3, and follows the hand to his waist on frame4. Native Canvas contact was reviewed in both facings at100% and120%.",
+  "packaging": "package-action5.py; see packed layout record for cell geometry and hashes",
+  "eligibleForPacking": true,
+  "runtimeBallTrack": {
+    "height": [
+      0,
+      0,
+      0,
+      0.25,
+      0.9
+    ],
+    "forward": [
+      8,
+      8,
+      9,
+      0.5,
+      -9
+    ],
+    "status": "accepted after native review"
+  },
+  "integrationReview": {
+    "status": "passed",
+    "zooms": [
+      100,
+      120
+    ],
+    "facings": [
+      "right",
+      "left"
+    ],
+    "clipSummariesPerZoom": 2,
+    "actionFrameCapturesPerZoom": 10,
+    "reviewPoints": [
+      "frame2/tick5 loose open-fingertip contact",
+      "frame3/tick7 carried closed-fist grab",
+      "frame4/tick8 waist/hip carry"
+    ],
+    "reportPaths": [
+      "tools/generate-art/previews/marco-vellum-pickup/native-100/report.json",
+      "tools/generate-art/previews/marco-vellum-pickup/native-120/report.json"
+    ]
+  }
+}

@@ -139172,6 +139172,200 @@
               "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "pickup": {
+            "athlete": "marco-vellum",
+            "direction": "right",
+            "clip": "pickup",
+            "src": "./public/assets/animation/marco-vellum-pickup-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "4639d9a7a53383ad89fd96b32adecfdd5b8c959ddac9d0e1779c70f12fa69a0e"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "ff949e7fd6187681bc16cdb175ab3a9ac28792213621ec5558bfc01bfc3cd5e1"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "60fd8bb89368a35e7fe664afa2d98bae3e91d2edb102a15c5c08ad222809f610"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "8abfce462e06d68f6a814a1dd31723aefafc5cc847d2313a901ff814f71bd18c"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "b90beb1694448abc67f45b6633a43d5e0444c5c0ed4a010e9330a2d9ce809c55"
+              }
+            ],
+            "provenance": {
+              "athlete": "marco-vellum",
+              "clip": "pickup",
+              "direction": "right",
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-aedea74a-0e0e-4015-9c5c-02beac63e518",
+              "imageGenerationId": "exec-aedea74a-0e0e-4015-9c5c-02beac63e518",
+              "rawSourceImage": "tools/generate-art/sources/marco-vellum-pickup-attempt3-rejected.png",
+              "rawSourceSha256": "32c5cebc70e5fea36a836b85ea68ecad5d52cde1beba4fa490c4acc3eb0f2dac",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/marco-vellum-pickup5.png",
+              "sourceSha256": "020cf588a55bf465aaf13377bee088f87cf4944295a742d42b49cd2ece1b1342",
+              "promptFile": "tools/generate-art/marco-vellum-pickup-edit-prompt.md",
+              "prompt": "Edit only the transparency and background of this exact Marco Vellum pickup sprite sheet. Preserve the exact 1536x1024 canvas, all five existing complete figures, their pose designs, identity, anatomy, clothes, colors, outlines, scale, positions and row-major order. Keep the bottom-right sixth cell empty. Do not redraw, move, resize, crop, replace or add any athlete or pose. Remove every non-athlete background artifact everywhere: dark brown/black haze, glow, halos, shadows, speckles, stray pixels, and all row/column divider or grid lines. Make all empty gutters, the outer margin and the unused sixth cell fully alpha-zero transparent. Keep the five crisp figure silhouettes and their shoe/hand outlines intact with visible clean margins. No props, no basketball, no background, no shadow, no cell lines. Return only this cleaned sheet with genuine transparent background.",
+              "promptVerbatim": true,
+              "sourcePromptFile": "tools/generate-art/marco-vellum-pickup-prompt.md",
+              "sourcePromptNote": "Two earlier full-sheet generations used the prompt recorded in marco-vellum-pickup-attempts.json and were rejected; the accepted source is the edit result after documented alpha cleanup.",
+              "references": [
+                "tools/generate-art/references/marco-vellum-portrait-reference.png",
+                "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+              ],
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-aeca1dba-1315-47ec-8de9-749a27e82516",
+                  "source": "tools/generate-art/sources/marco-vellum-pickup-attempt1-rejected.png",
+                  "sha256": "cd505b9b9fe43baa2e985ba509467b94339b57b167453abbddf8b1a256f45981",
+                  "reason": "Semitransparent haze, halos and stray speckles contaminated gutters and blank cell."
+                },
+                {
+                  "generationId": "exec-4af7e890-f57f-402c-9ba4-b996f523fd3c",
+                  "source": "tools/generate-art/sources/marco-vellum-pickup-attempt2-rejected.png",
+                  "sha256": "f6232e265a7c3360e6000c451957845e16dbc596a12ee373af8ae4c0d934b433",
+                  "reason": "Semitransparent haze, halos, speckles and divider marks contaminated gutters and blank cell."
+                }
+              ],
+              "cleanup": {
+                "script": "tools/generate-art/clean-marco-vellum-pickup5.py",
+                "method": "Per-cell alpha-component isolation, retain largest athlete component plus 2px antialias fringe; remove all disconnected background; uniformly scale only where needed to guarantee at least35px cell margins.",
+                "componentIsolation": true,
+                "uniformScales": [
+                  1,
+                  0.9844097996,
+                  1,
+                  0.9424307036,
+                  0.9822222222
+                ],
+                "note": "Cleanup changed transparency and uniformly scaled/centered poses1,3,4; it did not invent or redraw poses."
+              },
+              "review": {
+                "status": "accepted",
+                "reviewNotes": "Five distinct complete Marco poses in the specified pickup sequence. Identity matches Marco's short black hair, clean-shaven olive adult-human face and black/crimson/white kit; anatomy is complete. All empty hands remain empty. Independent review confirms the five poses are separated, all alpha gutters and blank cell are clear, and visible-content margins are at least35px. Prepack separate-ball proof places the ball at frames2,3 and4 hand contacts; reviewer confirmed corrected frame3 point.",
+                "prepackReview": "tools/generate-art/previews/marco-vellum-pickup/pickup5-separate-ball-contact.png",
+                "accepted": true
+              },
+              "ballPolicy": "No ball is painted in the athlete poses. A Marco-specific separately rendered basketball reaches the open fingers at frame2, closes on the low pickup hand at frame3, and follows the closed hand to his waist on frame4. Runtime coordinates remain provisional until native Canvas review.",
+              "packaging": "package-action5.py; 112x96 cells; baseline91; minimum 5px margins; lossless WebP; 5 original pickup poses",
+              "eligibleForPacking": true,
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 36,
+                  "y": 40,
+                  "w": 439,
+                  "h": 432,
+                  "component": 1,
+                  "area": 82691
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 548,
+                  "y": 74,
+                  "w": 440,
+                  "h": 363,
+                  "component": 2,
+                  "area": 68592
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1066,
+                  "y": 89,
+                  "w": 427,
+                  "h": 334,
+                  "component": 3,
+                  "area": 67872
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 35,
+                  "y": 592,
+                  "w": 441,
+                  "h": 352,
+                  "component": 5,
+                  "area": 63433
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 575,
+                  "y": 548,
+                  "w": 386,
+                  "h": 440,
+                  "component": 4,
+                  "area": 77716
+                }
+              ],
+              "uniformScale": 0.19545454545454546,
+              "componentIsolation": true,
+              "status": "accepted after native contact review at 100% and 120%",
+              "runtimeBallTrack": {
+                "height": [
+                  0,
+                  0,
+                  0,
+                  0.25,
+                  0.9
+                ],
+                "forward": [
+                  8,
+                  8,
+                  9,
+                  0.5,
+                  -9
+                ]
+              },
+              "separateBall": true,
+              "integrationReview": {
+                "status": "passed",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "facings": [
+                  "right",
+                  "left"
+                ],
+                "clipSummariesPerZoom": 2,
+                "actionFrameCapturesPerZoom": 10,
+                "reviewPoints": [
+                  "frame2/tick5 loose open-fingertip contact",
+                  "frame3/tick7 carried closed-fist grab",
+                  "frame4/tick8 waist/hip carry"
+                ],
+                "reportPaths": [
+                  "tools/generate-art/previews/marco-vellum-pickup/native-100/report.json",
+                  "tools/generate-art/previews/marco-vellum-pickup/native-120/report.json"
+                ]
+              }
+            },
+            "reviewed": true,
+            "source": "imagegen",
+            "sha256": "494bbdb46c4223afe1563800662d4b6b95e274c5d112c5b89a0ce8cda191b7cd"
           }
         }
       },

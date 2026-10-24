@@ -1,0 +1,63 @@
+{
+  "athlete": "marco-vellum",
+  "status": "accepted",
+  "tracks": {
+    "pickup": {
+      "athlete": "marco-vellum",
+      "clip": "pickup",
+      "status": "accepted after native contact review",
+      "height": [
+        0,
+        0,
+        0,
+        0.25,
+        0.9
+      ],
+      "forward": [
+        8,
+        8,
+        9,
+        0.5,
+        -9
+      ],
+      "basis": "Marco-specific separate-ball track calibrated to his pickup atlas hands in native Canvas captures at 100% and 120%. Frame2/tick5 remains a loose ball at open fingertips; frame3/tick7 is the carried closed-fist grab; frame4/tick8 follows to the waist hand. No ball is baked into the art.",
+      "calibrationNotes": [
+        {
+          "frame": 3,
+          "tick": 7,
+          "before": {
+            "height": 0.1,
+            "forward": 8.5
+          },
+          "after": {
+            "height": 0.25,
+            "forward": 0.5
+          },
+          "reason": "Native 120% review showed the ball beside the shoe, away from the closed fist. Move it across to the hand; both facings pass at 100% and 120% after correction."
+        }
+      ],
+      "nativeReview": {
+        "zooms": [
+          100,
+          120
+        ],
+        "facings": [
+          "right",
+          "left"
+        ],
+        "frames": {
+          "2": "loose fingertip contact",
+          "3": "closed fist grab, carried by Marco",
+          "4": "waist/hip carry"
+        },
+        "clipSummariesPerZoom": 2,
+        "actionFrameCapturesPerZoom": 10,
+        "review": "Independent reviewer and Codex visual review passed. All pickup frames select the production atlas in both facings; owner is null before grab and Marco after grab.",
+        "reports": [
+          "tools/generate-art/previews/marco-vellum-pickup/native-100/report.json",
+          "tools/generate-art/previews/marco-vellum-pickup/native-120/report.json"
+        ]
+      }
+    }
+  }
+}

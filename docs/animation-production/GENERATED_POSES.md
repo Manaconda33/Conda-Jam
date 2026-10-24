@@ -12,7 +12,7 @@ Moxie's24 new source-only atlases were integrated after complete pose, anatomy, 
 
 J.108 Piper Quickstep `shoot` and J.109 Briar Foxglove `shoot` each register ten new unique poses. Both preserve the correct adult-human identity and separate basketball tracks, hold possession through tick12, and release on frame05/tick13. Source crops, exact prompts, rejected generations, cleanup, provenance, packed-cell previews, and standard/120% native renders are stored under their J.108/J.109 prefixes.
 
-Additional source-only checkpoints: Marco Vellum is at9/29 source clips with an accepted `pass-behind` atlas; Krios is at8/29 with `shoot`, `pass` and `pass-overhead` source packages (not registered in the runtime manifest); Sable Regent is at15/29 with `steal`. Keeg J.104 `dunk-clutch` is registered with15 authored poses; its source-only peer packs remain outside the strict registered count.
+Additional source-only checkpoints: Marco Vellum has six registered clips /47 drawings (five baseline clips plus the newly integrated five-pose `pickup`); its accepted `pass-behind` source remains outside the runtime manifest; Krios is at8/29 with `shoot`, `pass` and `pass-overhead` source packages (not registered in the runtime manifest); Sable Regent is at15/29 with `steal`. Keeg J.104 `dunk-clutch` is registered with15 authored poses; its source-only peer packs remain outside the strict registered count.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -62,7 +62,7 @@ Additional source-only checkpoints: Marco Vellum is at9/29 source clips with an 
 | sera-bellini | 5 | 42 | 162,542 |
 | moxie-capwell | 29 | 293 | 2,330,618 |
 | sable-regent | 5 | 42 | 160,442 |
-| marco-vellum | 5 | 42 | 161,856 |
+| marco-vellum | 6 | 47 | 205,790 |
 | ash-harth | 5 | 42 | 193,978 |
 | flint-rooker | 5 | 42 | 181,944 |
 | marin-dusk | 5 | 42 | 163,592 |

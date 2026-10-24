@@ -1,0 +1,175 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "pickup",
+  "direction": "right",
+  "status": "source candidate; separate-ball native review pending; not packed",
+  "sourceImage": "tools/generate-art/sources/marco-vellum-pickup5.png",
+  "sourceSha256": "020cf588a55bf465aaf13377bee088f87cf4944295a742d42b49cd2ece1b1342",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "grid": {
+    "columns": 3,
+    "rows": 2,
+    "cellWidth": 512,
+    "cellHeight": 512,
+    "rowMajor": true
+  },
+  "emptyCell": 5,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "hash": "13edddfa3a7dda976832b4612b133d2cab171c48f5f13512d7bc4bf7699a84f1",
+      "visiblePixels": 87159
+    },
+    {
+      "index": 1,
+      "x": 512,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "hash": "0a477e37e10c99165ed7cd8c8e7568a46cde833bad8e7f1773be99fa9cc0bc64",
+      "visiblePixels": 72295
+    },
+    {
+      "index": 2,
+      "x": 1024,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "hash": "263f9ba6c9bcf113e03fa3f671354082f4b1fe5234d30a65e256f67c63ac0dc6",
+      "visiblePixels": 71021
+    },
+    {
+      "index": 3,
+      "x": 0,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "hash": "bfc9800236d07c1209614a986046ef4480bf42a3ad13d540320ce72c780617c1",
+      "visiblePixels": 66840
+    },
+    {
+      "index": 4,
+      "x": 512,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "hash": "8b9f4fbef26148e9aa7c27127ebbad35386cb4254c37a47155a06ca1347e1f6f",
+      "visiblePixels": 81545
+    }
+  ],
+  "sourceProvenance": "tools/generate-art/marco-vellum-pickup-attempts.json",
+  "cleanup": {
+    "script": "tools/generate-art/clean-marco-vellum-pickup5.py",
+    "basis": "Same per-cell connected-component isolation used by Marco's other accepted cleanups: alpha core >=64, keep only the main athlete component plus 2px antialias fringe, alpha-zero the rest, then uniformly scale/center only when needed to guarantee 35px clear margins.",
+    "poses": [
+      {
+        "index": 0,
+        "uniformScale": 1.0,
+        "marginsPx": {
+          "left": 35,
+          "right": 36,
+          "top": 39,
+          "bottom": 39
+        }
+      },
+      {
+        "index": 1,
+        "uniformScale": 0.9844097996,
+        "marginsPx": {
+          "left": 35,
+          "right": 35,
+          "top": 73,
+          "bottom": 74
+        }
+      },
+      {
+        "index": 2,
+        "uniformScale": 1.0,
+        "marginsPx": {
+          "left": 41,
+          "right": 42,
+          "top": 88,
+          "bottom": 88
+        }
+      },
+      {
+        "index": 3,
+        "uniformScale": 0.9424307036,
+        "marginsPx": {
+          "left": 35,
+          "right": 35,
+          "top": 79,
+          "bottom": 79
+        }
+      },
+      {
+        "index": 4,
+        "uniformScale": 0.9822222222,
+        "marginsPx": {
+          "left": 62,
+          "right": 62,
+          "top": 35,
+          "bottom": 35
+        }
+      }
+    ],
+    "blankCellRemovedAlphaPixels": 159
+  },
+  "prepackSeparateBallContactProof": {
+    "status": "visual markers added for review only; not embedded in source art",
+    "preview": "tools/generate-art/previews/marco-vellum-pickup/pickup5-separate-ball-contact.png",
+    "contacts": [
+      {
+        "frame": 2,
+        "sourceCenter": [
+          1484,
+          411
+        ],
+        "meaning": "ball reaches open fingertips at floor contact"
+      },
+      {
+        "frame": 3,
+        "sourceCenter": [
+          165,
+          870
+        ],
+        "meaning": "ball meets the closed pickup hand at floor contact; moved 15 source px right after independent contact review"
+      },
+      {
+        "frame": 4,
+        "sourceCenter": [
+          660,
+          730
+        ],
+        "meaning": "ball follows the closed hand to the waist carry"
+      }
+    ],
+    "note": "These are source-space visual checks, not the calibrated runtime track. Native Canvas contact verification is still required before acceptance or atlas packing.",
+    "calibrationNotes": [
+      {
+        "frame": 3,
+        "before": [
+          150,
+          870
+        ],
+        "after": [
+          165,
+          870
+        ],
+        "reason": "Independent review found a 13\u201315px visible gap between the separate ball and closed pickup hand."
+      }
+    ]
+  },
+  "review": {
+    "identityAnatomySeparationAlphaMargins": "parent review passed; independent review pending",
+    "ballContact": "prepack overlay reviewed; native runtime contact pending",
+    "accepted": false
+  }
+}
