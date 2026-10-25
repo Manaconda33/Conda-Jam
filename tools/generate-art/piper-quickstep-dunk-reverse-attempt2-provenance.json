@@ -1,0 +1,47 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-reverse",
+  "direction": "right",
+  "attempt": 2,
+  "source": "imagegen",
+  "generationId": "exec-39a9414d-b2d0-4096-b43a-d7821ff03437",
+  "generationIdNote": "ImageGen output_hint saved raw image at /workspace/generated_images/exec-39a9414d-b2d0-4096-b43a-d7821ff03437.png.",
+  "generatedAt": "2026-10-25T05:00:00Z",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt2-prompt.md",
+  "promptVerbatim": true,
+  "referenceFiles": [],
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt2-generated-raw.png",
+  "rawSourceSha256": "2edba78f8ec1e45363192896dab48844d34754de6427742f9045321c8c198869",
+  "rawSourceSize": [
+    1536,
+    1024
+  ],
+  "rawSourceMode": "RGBA",
+  "rawReview": {
+    "status": "rejected-for-direct-packing",
+    "notes": "Opaque brown/orange backdrop violates true transparency. Preserve raw unchanged; component-only cleaned candidate is pending final source acceptance."
+  },
+  "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-reverse-attempt2.py",
+  "cleanupNotes": "Alpha-connected component isolation at threshold >64 using shared package-motion42.py. Detached opaque backdrop components excluded; nearest antialiased pixels assigned to original pose. Uniform scale <=251x285 and baseline alignment preserve >=28px transparent margins. No body pixels redrawn, synthesized, duplicated or reordered.",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt2-clean-candidate.png",
+  "sourceSha256": "2e2b5987b70d0ba1a8817aecb839dbb08e4cce2c8bfb4ded1f162cb89fc2c375",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceMode": "RGBA",
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt2-layouts.json",
+  "review": {
+    "status": "rejected-as-final-candidate",
+    "reviewer": "independent source-review subagent",
+    "reviewedAt": "2026-10-25",
+    "reviewNotes": "Frame3 anatomy fixed and poses5\u20137 distinct enough, but pose7 hides the right hand near the ear instead of showing it emerge past the crown; frame10 release direction is ambiguous. Retain as best candidate if later attempt fails; do not pack pending clear contact."
+  },
+  "eligibleForPacking": false,
+  "ballBehavior": "No basketball painted in sheet; separate Piper-specific track required; only release frame10 at tick21.",
+  "packedAtlasPath": null,
+  "nativeReview": {
+    "status": "pending"
+  },
+  "ballTrackStatus": "pending"
+}

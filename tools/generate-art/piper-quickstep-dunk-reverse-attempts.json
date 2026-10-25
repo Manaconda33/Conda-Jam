@@ -1,0 +1,62 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-reverse",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "rejected",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt1-generated-raw.png",
+      "rawSourceSha256": "cce9ae2e4d041641ab28d9be3fbde6e1c3b7c7869981cca55ba21c7ab70f0276",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt1-prompt.md",
+      "rawRejection": "Opaque background; preserve source unchanged and clean via component isolation.",
+      "cleanCandidate": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt1-clean-candidate.png",
+      "cleanCandidateSha256": "44790acc5f65a2921098565c3f23d32b0da50bb7a344866a6e737c26e5569206",
+      "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-reverse-attempt1.py",
+      "layoutFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt1-layouts.json",
+      "review": "Independent review rejected frame3 for duplicated arm and frames5\u20137 for near-duplicate poses/unclear hidden carry."
+    },
+    {
+      "attempt": 2,
+      "status": "rejected-as-final-candidate",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt2-generated-raw.png",
+      "rawSourceSha256": "2edba78f8ec1e45363192896dab48844d34754de6427742f9045321c8c198869",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt2-prompt.md",
+      "generationId": "exec-39a9414d-b2d0-4096-b43a-d7821ff03437",
+      "rawRejection": "Opaque brown/orange background; raw preserved and rejected for direct packing.",
+      "cleanCandidate": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt2-clean-candidate.png",
+      "cleanCandidateSha256": "2e2b5987b70d0ba1a8817aecb839dbb08e4cce2c8bfb4ded1f162cb89fc2c375",
+      "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-reverse-attempt2.py",
+      "layoutFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt2-layouts.json",
+      "review": "Corrects extra arm and pose separation; still hides the carry hand near crown and release direction is ambiguous."
+    },
+    {
+      "attempt": 3,
+      "status": "rejected-as-final-candidate",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt3-generated-raw.png",
+      "rawSourceSha256": "7e64708ca921d2d84ae2df98f7557d78062201920a6b52ed3af8e818a0dab25c",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt3-prompt.md",
+      "generationId": "exec-005f9fec-6f22-46bf-88bd-2f8e851681be",
+      "rawRejection": "Opaque brown/orange background; raw preserved and rejected for direct packing.",
+      "cleanCandidate": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt3-clean-candidate.png",
+      "cleanCandidateSha256": "be1ea8cc764ebd899154ab15a8b45b6b0e095f1cb28c3dbc0c6057044af45a3e",
+      "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-reverse-attempt3.py",
+      "layoutFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt3-layouts.json",
+      "review": "Frame3 and frame10 improved, but frame7 hand still stays above crown and poses5\u20138 remain clustered with similar overhead carry silhouettes."
+    },
+    {
+      "attempt": 4,
+      "status": "source-and-atlas-approved-native-pending",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt4-generated-raw.png",
+      "rawSourceSha256": "47fee59a3118b23969e9b814563920932d3a7d06cd67a3689ac556b1eaabf722",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt4-prompt.md",
+      "generationId": "exec-1c5f436c-3d50-4e12-ac10-3eae29f482ac",
+      "rawRejection": "Opaque brown/orange background; raw preserved and rejected for direct packing.",
+      "cleanCandidate": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt4-clean-candidate.png",
+      "cleanCandidateSha256": "9c22d50f917186444e95c178c7476ad916c1293fe105c4327823b9db915d5610",
+      "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-reverse-attempt4.py",
+      "layoutFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt4-layouts.json",
+      "review": "Independent source and candidate-layout reviews pass; candidate atlas is preserved outside public assets. Native separate-ball contact/release review is pending before production packing.",
+      "atlasSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438"
+    }
+  ]
+}

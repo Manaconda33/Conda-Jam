@@ -1,0 +1,44 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-reverse",
+  "direction": "right",
+  "attempt": 3,
+  "source": "imagegen",
+  "generationId": "exec-005f9fec-6f22-46bf-88bd-2f8e851681be",
+  "generationIdNote": "ImageGen output_hint saved raw image at /workspace/generated_images/exec-005f9fec-6f22-46bf-88bd-2f8e851681be.png.",
+  "generatedAt": "2026-10-25T05:02:00Z",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt3-prompt.md",
+  "promptVerbatim": true,
+  "referenceFiles": [],
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt3-generated-raw.png",
+  "rawSourceSha256": "7e64708ca921d2d84ae2df98f7557d78062201920a6b52ed3af8e818a0dab25c",
+  "rawSourceSize": [
+    1536,
+    1024
+  ],
+  "rawSourceMode": "RGBA",
+  "rawReview": {
+    "status": "rejected-for-direct-packing",
+    "notes": "Opaque brown/orange backdrop violates true transparency. Preserve raw unchanged; component-only cleaned candidate is pending independent review."
+  },
+  "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-reverse-attempt3.py",
+  "cleanupNotes": "Alpha-connected component isolation at threshold >64 with package-motion42.py; opaque background components omitted and nearest antialiased pixels retained with their source body. Uniform fit <=251x285, bottom aligned; margins >=28px. No pose redraw, synthesis, duplication, or reorder.",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt3-clean-candidate.png",
+  "sourceSha256": "be1ea8cc764ebd899154ab15a8b45b6b0e095f1cb28c3dbc0c6057044af45a3e",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceMode": "RGBA",
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt3-layouts.json",
+  "review": {
+    "status": "pending-independent-source-review"
+  },
+  "eligibleForPacking": false,
+  "ballBehavior": "No basketball painted in sheet; separate Piper-specific track required, release frame10/tick21.",
+  "packedAtlasPath": null,
+  "nativeReview": {
+    "status": "pending"
+  },
+  "ballTrackStatus": "pending"
+}

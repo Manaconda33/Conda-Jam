@@ -1,0 +1,63 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-reverse",
+  "direction": "right",
+  "attempt": 4,
+  "source": "imagegen",
+  "generationId": "exec-1c5f436c-3d50-4e12-ac10-3eae29f482ac",
+  "generationIdNote": "ImageGen output_hint saved raw image at /workspace/generated_images/exec-1c5f436c-3d50-4e12-ac10-3eae29f482ac.png.",
+  "generatedAt": "2026-10-25T05:04:00Z",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt4-prompt.md",
+  "promptVerbatim": true,
+  "referenceFiles": [],
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt4-generated-raw.png",
+  "rawSourceSha256": "47fee59a3118b23969e9b814563920932d3a7d06cd67a3689ac556b1eaabf722",
+  "rawSourceSize": [
+    1536,
+    1024
+  ],
+  "rawSourceMode": "RGBA",
+  "rawReview": {
+    "status": "rejected-for-direct-packing",
+    "notes": "Opaque brown/orange background violates true transparency. Preserve raw unchanged; component-cleaned candidate under independent review."
+  },
+  "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-reverse-attempt4.py",
+  "cleanupNotes": "Connected component isolation threshold >64 with package-motion42.py; omit opaque background components, retain source body antialiasing, uniform fit <=251x285, bottom aligned with >=28px transparent cell margins. No redraw/reorder/synthesis.",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt4-clean-candidate.png",
+  "sourceSha256": "9c22d50f917186444e95c178c7476ad916c1293fe105c4327823b9db915d5610",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceMode": "RGBA",
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt4-layouts.json",
+  "review": {
+    "status": "accepted",
+    "reviewer": "independent source-review subagent",
+    "reviewedAt": "2026-10-25",
+    "reviewNotes": "Accept cleaned attempt4 for packing. Frames5\u20138 show readable hand-and-torso progression, with pose7 right hand visible image-left behind the crown; frame10 clearly releases backward/down with open hand. No extra limbs; Piper identity/anatomy consistent; true alpha and >=28px margins. Raw remains rejected for translucent brown background."
+  },
+  "eligibleForPacking": false,
+  "ballBehavior": "No basketball drawn; Piper-specific runtime track required; release frame10/tick21.",
+  "packedAtlasPath": null,
+  "nativeReview": {
+    "status": "pending-separate-ball-track-calibration"
+  },
+  "ballTrackStatus": "pending-native-calibration",
+  "packedAtlasSha256": null,
+  "packedAtlasBytes": 70888,
+  "packedAtlasSize": [
+    512,
+    384
+  ],
+  "packedLayoutFile": null,
+  "packedLayoutReview": {
+    "status": "candidate-layout-reviewed",
+    "reviewer": "independent packed-atlas review subagent",
+    "reviewedAt": "2026-10-25",
+    "notes": "Candidate composition visually reviewed: 512x384 RGBA, 15 distinct ordered cells, transparent final cell, clean gutters/no ball/clipping; identity/anatomy legible. This is retained as a candidate proof only; do not register or treat as production atlas until separate-ball native contact/release review passes."
+  },
+  "candidateAtlasPath": "tools/generate-art/previews/piper-quickstep-dunk-reverse/attempt4-atlas-candidate/candidate-atlas.webp",
+  "candidateAtlasSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+  "candidateLayoutFile": "tools/generate-art/piper-quickstep-dunk-reverse15-candidate-layouts.json"
+}

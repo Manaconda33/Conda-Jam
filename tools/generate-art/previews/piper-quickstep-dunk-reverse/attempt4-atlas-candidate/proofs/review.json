@@ -1,0 +1,18 @@
+{
+  "sourceReview": {
+    "status": "accepted",
+    "reviewer": "independent source-review subagent",
+    "reviewedAt": "2026-10-25",
+    "reviewNotes": "Accept cleaned attempt4 for packing. Frames5\u20138 show readable hand-and-torso progression, with pose7 right hand visible image-left behind the crown; frame10 clearly releases backward/down with open hand. No extra limbs; Piper identity/anatomy consistent; true alpha and >=28px margins. Raw remains rejected for translucent brown background."
+  },
+  "packedAtlasReview": {
+    "status": "candidate-layout-reviewed",
+    "reviewer": "independent packed-atlas review subagent",
+    "reviewedAt": "2026-10-25",
+    "notes": "Candidate composition visually reviewed: 512x384 RGBA, 15 distinct ordered cells, transparent final cell, clean gutters/no ball/clipping; identity/anatomy legible. This is retained as a candidate proof only; do not register or treat as production atlas until separate-ball native contact/release review passes."
+  },
+  "atlas": "tools/generate-art/previews/piper-quickstep-dunk-reverse/attempt4-atlas-candidate/candidate-atlas.webp",
+  "atlasSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+  "nativeBallTrackStatus": "pending",
+  "productionPackingStatus": "blocked-pending-native-ball-track-review"
+}

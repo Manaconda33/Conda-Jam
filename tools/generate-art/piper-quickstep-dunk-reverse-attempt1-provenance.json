@@ -1,0 +1,47 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-reverse",
+  "direction": "right",
+  "attempt": 1,
+  "source": "imagegen",
+  "generationId": "exec-43724bb4-546b-4ea9-a6ea-2b0af18ba996",
+  "generationIdNote": "Recovered from the ImageGen output path /workspace/generated_images/exec-43724bb4-546b-4ea9-a6ea-2b0af18ba996.png; the tool response exposed data image output.",
+  "generatedAt": "2026-10-25T04:57:00Z",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt1-prompt.md",
+  "promptVerbatim": true,
+  "referenceFiles": [],
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt1-generated-raw.png",
+  "rawSourceSha256": "cce9ae2e4d041641ab28d9be3fbde6e1c3b7c7869981cca55ba21c7ab70f0276",
+  "rawSourceSize": [
+    1536,
+    1024
+  ],
+  "rawSourceMode": "RGBA",
+  "rawReview": {
+    "status": "rejected-for-direct-packing",
+    "notes": "Opaque brown/orange background violates true transparency. Independent source review also rejected pose3 for an extra arm/hand and poses5\u20137 as near-duplicates with unclear reverse carry. Preserve raw unchanged; do not pack."
+  },
+  "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-reverse-attempt1.py",
+  "cleanupNotes": "Adapted shared package-motion42 connected-component isolation (>64), retaining original source components in row-major cell positions and nearest antialiased pixels. Each pose was uniformly fit to <=251x285 and baseline aligned with >=28px transparent margins. No body art redrawn, synthesized, duplicated, or reordered.",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-reverse-attempt1-clean-candidate.png",
+  "sourceSha256": "44790acc5f65a2921098565c3f23d32b0da50bb7a344866a6e737c26e5569206",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceMode": "RGBA",
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-reverse-attempt1-layouts.json",
+  "review": {
+    "status": "rejected",
+    "reviewer": "independent source-review subagent",
+    "reviewedAt": "2026-10-25",
+    "reviewNotes": "Reject: pose3 contains a duplicated trailing arm/hand; poses5\u20137 are near-duplicates and do not show a clearly visible hand carrying behind Piper\u2019s crown. Identity and kit are consistent, but pose anatomy and key action contact fail."
+  },
+  "eligibleForPacking": false,
+  "ballBehavior": "No basketball painted in the athlete sheet. Separate Piper-specific track required; release is frame10 at tick21.",
+  "packedAtlasPath": null,
+  "nativeReview": {
+    "status": "pending"
+  },
+  "ballTrackStatus": "pending"
+}
