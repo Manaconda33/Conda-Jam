@@ -1,0 +1,268 @@
+{
+  "task": "J.130",
+  "character": "briar-foxglove",
+  "animation": "layup",
+  "candidate_status": "unreviewed_cleanup_candidate_not_accepted",
+  "source_prompts": [
+    "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose0-retry1-prompt.md",
+    "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose1-retry1-prompt.md"
+  ],
+  "source_provenance": [
+    "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose0-retry1-provenance.json",
+    "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose1-retry1-provenance.json"
+  ],
+  "reference_paths": [
+    "public/assets/animation/briar-foxglove-shoot-right.webp",
+    "public/assets/animation/briar-foxglove-receive-right.webp",
+    "public/assets/animation/briar-foxglove-idle-right.webp"
+  ],
+  "preview_path": "tools/generate-art/candidates/j130-briar-foxglove-layup-poses01-cleanup-retry1/j130-briar-foxglove-layup-poses01-cleanup-candidate-light-dark-preview.jpg",
+  "frames": [
+    {
+      "frame": 0,
+      "source_path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose0-retry1-raw.png",
+      "source_sha256": "c8c73d2739e3a8c64e544ce5e29dc280c5371001e4212d1670085c0de5a21a37",
+      "candidate_path": "tools/generate-art/candidates/j130-briar-foxglove-layup-poses01-cleanup-retry1/j130-briar-foxglove-layup-pose0-cleanup-candidate.png",
+      "candidate_sha256": "e33c80885df99cd2ab08e44077622d4b738bcf6d5d2daa95d44f430118e9a509",
+      "candidate_dimensions": [
+        1254,
+        1254
+      ],
+      "crop_bbox_xyxy_exclusive": [
+        297,
+        214,
+        948,
+        1085
+      ],
+      "source_crop_size": [
+        651,
+        871
+      ],
+      "uniform_scale_factor": 0.93570608,
+      "resized_size": [
+        609,
+        815
+      ],
+      "canvas_offset_xy": [
+        322,
+        219
+      ],
+      "cleanup": "Keep original source RGBA pixels within square MaxFilter(9) dilation of source alpha>=64; outside that mask set alpha=0. No drawing or reconstruction. Uniform Lanczos resize in premultiplied RGBA, centered on a 1254-square transparent canvas.",
+      "threshold_metrics": {
+        "1": {
+          "bbox_xyxy_exclusive": [
+            322,
+            219,
+            931,
+            1034
+          ],
+          "margins_ltrb": [
+            322,
+            219,
+            323,
+            220
+          ],
+          "max_occupancy_fraction": 0.64992
+        },
+        "8": {
+          "bbox_xyxy_exclusive": [
+            325,
+            222,
+            928,
+            1031
+          ],
+          "margins_ltrb": [
+            325,
+            222,
+            326,
+            223
+          ],
+          "max_occupancy_fraction": 0.645136
+        },
+        "32": {
+          "bbox_xyxy_exclusive": [
+            326,
+            222,
+            927,
+            1030
+          ],
+          "margins_ltrb": [
+            326,
+            222,
+            327,
+            224
+          ],
+          "max_occupancy_fraction": 0.644338
+        },
+        "64": {
+          "bbox_xyxy_exclusive": [
+            326,
+            223,
+            927,
+            1030
+          ],
+          "margins_ltrb": [
+            326,
+            223,
+            327,
+            224
+          ],
+          "max_occupancy_fraction": 0.643541
+        },
+        "128": {
+          "bbox_xyxy_exclusive": [
+            326,
+            223,
+            927,
+            1030
+          ],
+          "margins_ltrb": [
+            326,
+            223,
+            327,
+            224
+          ],
+          "max_occupancy_fraction": 0.643541
+        },
+        "250": {
+          "bbox_xyxy_exclusive": [
+            327,
+            224,
+            926,
+            1029
+          ],
+          "margins_ltrb": [
+            327,
+            224,
+            328,
+            225
+          ],
+          "max_occupancy_fraction": 0.641946
+        }
+      }
+    },
+    {
+      "frame": 1,
+      "source_path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose1-retry1-raw.png",
+      "source_sha256": "a722384c5b0bbd422358b2112df0951ab1d79f52e96791551437fcccf03da007",
+      "candidate_path": "tools/generate-art/candidates/j130-briar-foxglove-layup-poses01-cleanup-retry1/j130-briar-foxglove-layup-pose1-cleanup-candidate.png",
+      "candidate_sha256": "39f31e75aec7dcb4448550af2ac4821c42fd1226520cef40ecf916ca10333abd",
+      "candidate_dimensions": [
+        1254,
+        1254
+      ],
+      "crop_bbox_xyxy_exclusive": [
+        355,
+        188,
+        953,
+        1115
+      ],
+      "source_crop_size": [
+        598,
+        927
+      ],
+      "uniform_scale_factor": 0.87918015,
+      "resized_size": [
+        526,
+        815
+      ],
+      "canvas_offset_xy": [
+        364,
+        219
+      ],
+      "cleanup": "Keep original source RGBA pixels within square MaxFilter(9) dilation of source alpha>=64; outside that mask set alpha=0. No drawing or reconstruction. Uniform Lanczos resize in premultiplied RGBA, centered on a 1254-square transparent canvas.",
+      "threshold_metrics": {
+        "1": {
+          "bbox_xyxy_exclusive": [
+            364,
+            219,
+            890,
+            1034
+          ],
+          "margins_ltrb": [
+            364,
+            219,
+            364,
+            220
+          ],
+          "max_occupancy_fraction": 0.64992
+        },
+        "8": {
+          "bbox_xyxy_exclusive": [
+            367,
+            221,
+            888,
+            1031
+          ],
+          "margins_ltrb": [
+            367,
+            221,
+            366,
+            223
+          ],
+          "max_occupancy_fraction": 0.645933
+        },
+        "32": {
+          "bbox_xyxy_exclusive": [
+            367,
+            222,
+            887,
+            1031
+          ],
+          "margins_ltrb": [
+            367,
+            222,
+            367,
+            223
+          ],
+          "max_occupancy_fraction": 0.645136
+        },
+        "64": {
+          "bbox_xyxy_exclusive": [
+            367,
+            222,
+            887,
+            1031
+          ],
+          "margins_ltrb": [
+            367,
+            222,
+            367,
+            223
+          ],
+          "max_occupancy_fraction": 0.645136
+        },
+        "128": {
+          "bbox_xyxy_exclusive": [
+            367,
+            222,
+            887,
+            1030
+          ],
+          "margins_ltrb": [
+            367,
+            222,
+            367,
+            224
+          ],
+          "max_occupancy_fraction": 0.644338
+        },
+        "250": {
+          "bbox_xyxy_exclusive": [
+            373,
+            223,
+            886,
+            1029
+          ],
+          "margins_ltrb": [
+            373,
+            223,
+            368,
+            225
+          ],
+          "max_occupancy_fraction": 0.642743
+        }
+      }
+    }
+  ]
+}
