@@ -1,0 +1,850 @@
+{
+  "issue": "J.129",
+  "athlete": "briar-foxglove",
+  "clip": "pickup",
+  "status": "no accepted source",
+  "expectedFrameCount": 5,
+  "expectedAtlasCells": 6,
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-1f097b57-7034-4215-9c64-a37d6b58eee9",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-prompt-attempt1.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt1-raw.png",
+      "sha256": "94be57d17d5eb8b40422b8263423924b2700fe01b0df612d1a3436fd04929b0a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "poseComponents": 5,
+      "poses": [
+        {
+          "sourceCell": [
+            0,
+            0
+          ],
+          "bboxAlphaGte64": [
+            111,
+            71,
+            384,
+            472
+          ],
+          "marginsLTRB": [
+            111,
+            128,
+            71,
+            40
+          ],
+          "componentArea": 49355
+        },
+        {
+          "sourceCell": [
+            1,
+            0
+          ],
+          "bboxAlphaGte64": [
+            614,
+            125,
+            958,
+            471
+          ],
+          "marginsLTRB": [
+            102,
+            66,
+            125,
+            41
+          ],
+          "componentArea": 51224
+        },
+        {
+          "sourceCell": [
+            2,
+            0
+          ],
+          "bboxAlphaGte64": [
+            1141,
+            181,
+            1480,
+            471
+          ],
+          "marginsLTRB": [
+            117,
+            56,
+            181,
+            41
+          ],
+          "componentArea": 46948
+        },
+        {
+          "sourceCell": [
+            1,
+            1
+          ],
+          "bboxAlphaGte64": [
+            644,
+            562,
+            891,
+            957
+          ],
+          "marginsLTRB": [
+            132,
+            133,
+            50,
+            67
+          ],
+          "componentArea": 47412
+        },
+        {
+          "sourceCell": [
+            0,
+            1
+          ],
+          "bboxAlphaGte64": [
+            119,
+            707,
+            424,
+            957
+          ],
+          "marginsLTRB": [
+            119,
+            88,
+            195,
+            67
+          ],
+          "componentArea": 42904
+        }
+      ],
+      "alphaNonzeroPixels": 312140,
+      "alphaGte64Pixels": 237843,
+      "outerCornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "emptyBottomRightNonzeroAlphaPixels": 848,
+      "status": "rejected-background-haze",
+      "reason": "Brown/black glow or haze remains connected around poses; non-character alpha is not transparent. Source poses otherwise remain in 5-cell row-major layout, but the minimum source margin is below prompt target."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-a44318c4-0578-42e6-8f08-104b7ff5ae00",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-prompt-attempt2-edit.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt2-edit-raw.png",
+      "sha256": "f0bca1d44000b051718922b9456740080f029eaaaf50ef35bfb7eec3ab80a4e3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "poseComponents": 5,
+      "poses": [
+        {
+          "sourceCell": [
+            0,
+            0
+          ],
+          "bboxAlphaGte64": [
+            111,
+            72,
+            385,
+            472
+          ],
+          "marginsLTRB": [
+            111,
+            127,
+            72,
+            40
+          ],
+          "componentArea": 49529
+        },
+        {
+          "sourceCell": [
+            1,
+            0
+          ],
+          "bboxAlphaGte64": [
+            614,
+            125,
+            958,
+            471
+          ],
+          "marginsLTRB": [
+            102,
+            66,
+            125,
+            41
+          ],
+          "componentArea": 51371
+        },
+        {
+          "sourceCell": [
+            2,
+            0
+          ],
+          "bboxAlphaGte64": [
+            1141,
+            181,
+            1481,
+            471
+          ],
+          "marginsLTRB": [
+            117,
+            55,
+            181,
+            41
+          ],
+          "componentArea": 47203
+        },
+        {
+          "sourceCell": [
+            1,
+            1
+          ],
+          "bboxAlphaGte64": [
+            645,
+            562,
+            891,
+            958
+          ],
+          "marginsLTRB": [
+            133,
+            133,
+            50,
+            66
+          ],
+          "componentArea": 47621
+        },
+        {
+          "sourceCell": [
+            0,
+            1
+          ],
+          "bboxAlphaGte64": [
+            119,
+            708,
+            425,
+            958
+          ],
+          "marginsLTRB": [
+            119,
+            87,
+            196,
+            66
+          ],
+          "componentArea": 43136
+        }
+      ],
+      "alphaNonzeroPixels": 311544,
+      "alphaGte64Pixels": 238860,
+      "outerCornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "emptyBottomRightNonzeroAlphaPixels": 550,
+      "status": "rejected-background-haze",
+      "reason": "Brown/black glow or haze remains connected around poses; non-character alpha is not transparent. Source poses otherwise remain in 5-cell row-major layout, but the minimum source margin is below prompt target."
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-c3d1a28f-3b00-4608-b7fb-7623f6638e87",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-prompt-attempt3.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt3-raw.png",
+      "sha256": "e381723044a39be16e8c1afa226b49739cb7a862038e5654c07f3366d9195618",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "poseComponents": 5,
+      "poses": [
+        {
+          "sourceCell": [
+            0,
+            0
+          ],
+          "bboxAlphaGte64": [
+            140,
+            77,
+            383,
+            471
+          ],
+          "marginsLTRB": [
+            140,
+            129,
+            77,
+            41
+          ],
+          "componentArea": 46728
+        },
+        {
+          "sourceCell": [
+            1,
+            0
+          ],
+          "bboxAlphaGte64": [
+            636,
+            115,
+            940,
+            470
+          ],
+          "marginsLTRB": [
+            124,
+            84,
+            115,
+            42
+          ],
+          "componentArea": 51782
+        },
+        {
+          "sourceCell": [
+            2,
+            0
+          ],
+          "bboxAlphaGte64": [
+            1091,
+            176,
+            1462,
+            469
+          ],
+          "marginsLTRB": [
+            67,
+            74,
+            176,
+            43
+          ],
+          "componentArea": 50034
+        },
+        {
+          "sourceCell": [
+            1,
+            1
+          ],
+          "bboxAlphaGte64": [
+            644,
+            538,
+            891,
+            954
+          ],
+          "marginsLTRB": [
+            132,
+            133,
+            26,
+            70
+          ],
+          "componentArea": 51209
+        },
+        {
+          "sourceCell": [
+            0,
+            1
+          ],
+          "bboxAlphaGte64": [
+            92,
+            687,
+            457,
+            954
+          ],
+          "marginsLTRB": [
+            92,
+            55,
+            175,
+            70
+          ],
+          "componentArea": 49419
+        }
+      ],
+      "alphaNonzeroPixels": 338152,
+      "alphaGte64Pixels": 249172,
+      "outerCornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "emptyBottomRightNonzeroAlphaPixels": 1285,
+      "status": "rejected-background-haze",
+      "reason": "Brown/black glow or haze remains connected around poses; non-character alpha is not transparent. Source poses otherwise remain in 5-cell row-major layout, but the minimum source margin is below prompt target."
+    },
+    {
+      "attempt": 4,
+      "generationId": "exec-9e33b80d-fc91-4eab-81ba-918871bf323a",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-prompt-attempt4.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt4-raw.png",
+      "sha256": "6f8c332eb89dc3e43c4f026f2ad45bf59557b8addcca7836dc1d2805ab9bf195",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "poseComponents": 5,
+      "poses": [
+        {
+          "sourceCell": [
+            0,
+            0
+          ],
+          "bboxAlphaGte64": [
+            144,
+            83,
+            398,
+            491
+          ],
+          "marginsLTRB": [
+            144,
+            114,
+            83,
+            21
+          ],
+          "componentArea": 48280
+        },
+        {
+          "sourceCell": [
+            1,
+            0
+          ],
+          "bboxAlphaGte64": [
+            621,
+            130,
+            927,
+            491
+          ],
+          "marginsLTRB": [
+            109,
+            97,
+            130,
+            21
+          ],
+          "componentArea": 48215
+        },
+        {
+          "sourceCell": [
+            2,
+            0
+          ],
+          "bboxAlphaGte64": [
+            1147,
+            177,
+            1448,
+            491
+          ],
+          "marginsLTRB": [
+            123,
+            88,
+            177,
+            21
+          ],
+          "componentArea": 46405
+        },
+        {
+          "sourceCell": [
+            1,
+            1
+          ],
+          "bboxAlphaGte64": [
+            653,
+            561,
+            890,
+            973
+          ],
+          "marginsLTRB": [
+            141,
+            134,
+            49,
+            51
+          ],
+          "componentArea": 49432
+        },
+        {
+          "sourceCell": [
+            0,
+            1
+          ],
+          "bboxAlphaGte64": [
+            157,
+            708,
+            418,
+            973
+          ],
+          "marginsLTRB": [
+            157,
+            94,
+            196,
+            51
+          ],
+          "componentArea": 40150
+        }
+      ],
+      "alphaNonzeroPixels": 287001,
+      "alphaGte64Pixels": 232482,
+      "outerCornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "emptyBottomRightNonzeroAlphaPixels": 126,
+      "status": "rejected-background-haze",
+      "reason": "Brown/black glow or haze remains connected around poses; non-character alpha is not transparent. Source poses otherwise remain in 5-cell row-major layout, but the minimum source margin is below prompt target."
+    },
+    {
+      "attempt": 5,
+      "generationId": "exec-428b07f9-bd4d-4161-9e01-e61d31778205",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-prompt-attempt5.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt5-raw.png",
+      "sha256": "f38c712f88efc4ab5827d038d17225450e692436c51e9fe84146f93841f76c9c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "poseComponents": 5,
+      "poses": [
+        {
+          "sourceCell": [
+            0,
+            0
+          ],
+          "bboxAlphaGte64": [
+            144,
+            100,
+            418,
+            484
+          ],
+          "marginsLTRB": [
+            144,
+            94,
+            100,
+            28
+          ],
+          "componentArea": 50627
+        },
+        {
+          "sourceCell": [
+            1,
+            0
+          ],
+          "bboxAlphaGte64": [
+            626,
+            109,
+            961,
+            484
+          ],
+          "marginsLTRB": [
+            114,
+            63,
+            109,
+            28
+          ],
+          "componentArea": 53219
+        },
+        {
+          "sourceCell": [
+            2,
+            0
+          ],
+          "bboxAlphaGte64": [
+            1131,
+            171,
+            1448,
+            484
+          ],
+          "marginsLTRB": [
+            107,
+            88,
+            171,
+            28
+          ],
+          "componentArea": 49450
+        },
+        {
+          "sourceCell": [
+            1,
+            1
+          ],
+          "bboxAlphaGte64": [
+            647,
+            540,
+            915,
+            956
+          ],
+          "marginsLTRB": [
+            135,
+            109,
+            28,
+            68
+          ],
+          "componentArea": 50519
+        },
+        {
+          "sourceCell": [
+            0,
+            1
+          ],
+          "bboxAlphaGte64": [
+            141,
+            685,
+            440,
+            958
+          ],
+          "marginsLTRB": [
+            141,
+            72,
+            173,
+            66
+          ],
+          "componentArea": 46387
+        }
+      ],
+      "alphaNonzeroPixels": 315780,
+      "alphaGte64Pixels": 250202,
+      "outerCornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "emptyBottomRightNonzeroAlphaPixels": 915,
+      "status": "rejected-background-haze",
+      "reason": "Brown/black glow or haze remains connected around poses; non-character alpha is not transparent. Source poses otherwise remain in 5-cell row-major layout, but the minimum source margin is below prompt target."
+    },
+    {
+      "attempt": 6,
+      "generationId": "exec-7f8f732c-f285-445e-aac5-1999eca6c305",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-prompt-attempt6.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt6-raw.png",
+      "sha256": "012dbcf9c5ee8e805867fe66751b6bee4d886901be3ff228ec7001e76e5f799a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "poseComponents": 5,
+      "poses": [
+        {
+          "sourceCell": [
+            0,
+            0
+          ],
+          "bboxAlphaGte64": [
+            142,
+            86,
+            389,
+            487
+          ],
+          "marginsLTRB": [
+            142,
+            123,
+            86,
+            25
+          ],
+          "componentArea": 47724
+        },
+        {
+          "sourceCell": [
+            1,
+            0
+          ],
+          "bboxAlphaGte64": [
+            632,
+            160,
+            922,
+            487
+          ],
+          "marginsLTRB": [
+            120,
+            102,
+            160,
+            25
+          ],
+          "componentArea": 44553
+        },
+        {
+          "sourceCell": [
+            2,
+            0
+          ],
+          "bboxAlphaGte64": [
+            1145,
+            201,
+            1450,
+            487
+          ],
+          "marginsLTRB": [
+            121,
+            86,
+            201,
+            25
+          ],
+          "componentArea": 43333
+        },
+        {
+          "sourceCell": [
+            1,
+            1
+          ],
+          "bboxAlphaGte64": [
+            635,
+            562,
+            885,
+            965
+          ],
+          "marginsLTRB": [
+            123,
+            139,
+            50,
+            59
+          ],
+          "componentArea": 47873
+        },
+        {
+          "sourceCell": [
+            0,
+            1
+          ],
+          "bboxAlphaGte64": [
+            145,
+            700,
+            421,
+            965
+          ],
+          "marginsLTRB": [
+            145,
+            91,
+            188,
+            59
+          ],
+          "componentArea": 40542
+        }
+      ],
+      "alphaNonzeroPixels": 289193,
+      "alphaGte64Pixels": 224025,
+      "outerCornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "emptyBottomRightNonzeroAlphaPixels": 1642,
+      "status": "rejected-background-haze",
+      "reason": "Brown/black glow or haze remains connected around poses; non-character alpha is not transparent. Source poses otherwise remain in 5-cell row-major layout, but the minimum source margin is below prompt target."
+    },
+    {
+      "attempt": 7,
+      "generationId": "exec-2783acbb-b8f7-4532-9a11-cee3c6988e1f",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-prompt-attempt7-edit.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt7-edit-raw.png",
+      "sha256": "64da511839f118ac0c408b5a497dba7be4e61d0f6b95bd28ade73786277321aa",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "poseComponents": 5,
+      "poses": [
+        {
+          "sourceCell": [
+            0,
+            0
+          ],
+          "bboxAlphaGte64": [
+            143,
+            100,
+            418,
+            485
+          ],
+          "marginsLTRB": [
+            143,
+            94,
+            100,
+            27
+          ],
+          "componentArea": 51006
+        },
+        {
+          "sourceCell": [
+            1,
+            0
+          ],
+          "bboxAlphaGte64": [
+            625,
+            109,
+            961,
+            485
+          ],
+          "marginsLTRB": [
+            113,
+            63,
+            109,
+            27
+          ],
+          "componentArea": 53686
+        },
+        {
+          "sourceCell": [
+            2,
+            0
+          ],
+          "bboxAlphaGte64": [
+            1132,
+            171,
+            1449,
+            485
+          ],
+          "marginsLTRB": [
+            108,
+            87,
+            171,
+            27
+          ],
+          "componentArea": 49808
+        },
+        {
+          "sourceCell": [
+            1,
+            1
+          ],
+          "bboxAlphaGte64": [
+            647,
+            540,
+            915,
+            956
+          ],
+          "marginsLTRB": [
+            135,
+            109,
+            28,
+            68
+          ],
+          "componentArea": 51016
+        },
+        {
+          "sourceCell": [
+            0,
+            1
+          ],
+          "bboxAlphaGte64": [
+            140,
+            685,
+            441,
+            959
+          ],
+          "marginsLTRB": [
+            140,
+            71,
+            173,
+            65
+          ],
+          "componentArea": 46771
+        }
+      ],
+      "alphaNonzeroPixels": 312646,
+      "alphaGte64Pixels": 252287,
+      "outerCornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "emptyBottomRightNonzeroAlphaPixels": 367,
+      "status": "rejected-background-haze",
+      "reason": "Background-only edit is a no-op for acceptance: brown haze remains; 312646 nonzero alpha pixels, including 367 in empty cell5."
+    }
+  ]
+}

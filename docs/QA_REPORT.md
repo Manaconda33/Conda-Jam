@@ -1,11 +1,9 @@
-# Latest validation — J.128 Briar Foxglove `receive`
+# Latest work — J.129 Briar Foxglove `pickup` source rejects
 
-- Briar now has10/29 clips /74 authored drawings. Independent source review accepts four distinct complete ball-free poses, transparent alpha, a clear catch gap and at least77px source margins. Atlas proof was reviewed on light/dark grounds.
-- Source/atlas SHA-256: `332409b4013e618eee4a62e0a425ee86fac7b8e794bc18c787d36d5ba681da98` / `f24bc088ec36f954617fb4e759860e8469a9f6cecaf1640e032a19ee7c110b28`. ImageGen output1254×1254 instead of1024×1024; original source, exact prompt, generation ID, full deviation note, packed layout and light/dark previews are retained.
-- Independent native ball review: H `[1.35,1.55,1.2,1.2]` / F `[9,14,8,8]` aligns the chest catch at tick4 and cushion at tick5 in both facings at100%/120%. Actual simulation passes the incoming ball at tick4 and preserves possession through frame3.
-- Validation: `npm test` PASS,50/50 files; lint PASS,18 modules; content PASS,35 franchises/105 athletes; simulation PASS,100 matches /861,421 ticks /6 overtimes; production build PASS.
-- Strict audit: **823 clips /7458 authored drawings /105 athletes**, 2280 missing clips, one target shortfall and4 inherited prompt findings; generated `2026-10-25T19:09:05.323Z`. Next roster target: J.129 Briar Foxglove `pickup`, first missing clip in the refreshed audit.
-- E2E not rerun. Push and Pages validation remain pending due the unreachable configured proxy; latest deployed checkpoint `513e0a59` / run #169.
+- The next missing roster-order clip remains J.129 Briar `pickup`. The generation lane preserved seven exact prompts, IDs, raw PNGs, measurement records, and light/dark reviews. All seven are rejected for connected brown/black haze, nonzero alpha in unused cell5, and/or margins of only21–40px. Attempt7 background removal did not change acceptance state:312,646 nonzero-alpha pixels remain, including367 in cell5. No source was accepted, cleaned, packed, or registered.
+- Production remains J.128: Briar10/29 clips /74 authored drawings; strict audit823 clips /7,458 drawings /105 athletes,2,280 missing clips, one target shortfall and4 inherited prompt findings (timestamp `2026-10-25T19:09:05.323Z`).
+- Last full validation at J.128: `npm test`50/50; lint18 modules; content35 franchises/105 athletes;100-match simulation /861,421 ticks /6 OTs; build PASS. J.129 was source-only and did not change runtime or manifest.
+- Push remains blocked by the unreachable configured proxy; latest deployment `513e0a59` / Pages run #169.
 
 # Validation — J.119 Piper Quickstep `dunk-tomahawk`
 

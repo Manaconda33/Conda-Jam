@@ -1,3 +1,11 @@
+## Current checkpoint — 2026-10-25 (J.129 Briar Foxglove `pickup` source attempts rejected)
+
+- Briar remains **10/29 clips /74 authored drawings** through accepted J.128 `receive`; J.129 `pickup` is still the first missing clip in roster order. Seven generated/edit candidates are preserved with exact prompts, generation IDs, untouched PNGs, alpha/bounds measurements, rejected-candidate index, and light/dark reviews under `tools/generate-art/j129-briar-foxglove-pickup-*`.
+- All seven sheets show a coherent five-pose sequence and consistent human Briar anatomy, but each retains connected brown/black background haze and nonzero alpha in the unused sixth cell. Per-sheet minimum margins range21–40px, below prompt targets. Attempt7’s background-only edit is a no-op for acceptance:312,646 nonzero-alpha pixels remain, including367 in cell5. No source was cleaned, accepted, packed, or registered. The J.129 asset remains missing.
+- Production audit is unchanged at **823 clips /7,458 authored drawings /105 athletes**,2,280 missing clips, one target shortfall and4 inherited prompt findings (generated `2026-10-25T19:09:05.323Z`). Next action is another J.129 `pickup` source attempt that satisfies clean transparency and cell margins before integration.
+- J.128 validation remains `npm test`50/50; lint18 modules; content35 franchises/105 athletes;100-match simulation /861,421 ticks /6 OTs; build PASS. The five-pose packer now allows Briar for the eventual reviewed pickup source.
+- Current branch `codex/jamverse-buzzer-art-retries`; push remains blocked by the unreachable configured proxy on port8080. Latest Pages checkpoint `513e0a59` / run #169. User-owned J.106 review helper remains untouched.
+
 ## Current checkpoint — 2026-10-25 (J.128 Briar Foxglove `receive` integrated locally)
 
 - Briar now has **10/29 clips /74 authored drawings**. J.128 adds four distinct, complete human poses: ready, reach, frame2/tick4 catch and cushion. Her dark-brown skin, shoulder-length locs, red headband, compact build and russet/cream Emberwood kit remain consistent. The source is transparent and has at least77px cell clearance; no pose touches or crosses an edge. ImageGen returned1254×1254 versus the requested1024×1024, documented in provenance; the packer isolates the four original figures into a 2×2 atlas without drawing or duplicating pixels.

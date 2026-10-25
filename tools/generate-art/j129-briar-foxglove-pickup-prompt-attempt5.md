@@ -1,0 +1,10 @@
+# J.129 Briar Foxglove `pickup` — attempt 5
+
+Reference: accepted transparent Briar receive source `tools/generate-art/sources/j128-briar-foxglove-receive-generated-raw.png` (identity and pixel treatment only).
+
+Exact prompt:
+
+> Create a transparent sprite source image, not a scene or illustration. Output RGBA1536×1024 with five small cutout Briar figures in five cells of a 3×2, 512px grid. Empty bottom-right cell. Briar is an adult human woman with deep warm-brown skin, shoulder-length dark locs and red headband, compact build, russet/cream Emberwood basketball kit, cream socks and russet/cream shoes. Match the supplied accepted transparent Briar reference closely. Right-facing three-quarter. Five complete poses: 0 balanced ready looking down at loose-ball location; 1 bends knees, leans and begins extending the forward open right hand; 2 deeper squat with hand halfway to floor; 3 at tick7 crouched fingertip floor contact with empty hand; 4 rises upright with the empty hand returning to waist. Pose2 hand stays at least a hand-length above the floor, while pose3 fingertips touch the floor; pose4 is much taller. Exactly five distinct natural human bodies, each head to toe, no extra limbs. No ball in the art; game ball is separate. Characters are each no more than250px high and220px wide, centered in their cells with at least120px transparent margins on every cell edge. Six grid locations are logical only: do not draw grid lines. The transparency is literal pixel alpha: outside the character cutout every pixel is fully transparent RGBA(0,0,0,0). Empty cells, all gutters and the full outside area are fully transparent. No non-character RGB pixels, no background, no radial lighting, glow, haze, aura, shadow, outline effect, backdrop, floor, ground texture, spot, text, label, numbers, logo, court, ball, circle or object. Flat even sprite lighting, crisp clean late-1990s arcade pixel clusters. Return only the transparent sprite sheet.
+
+Generation ID: `exec-428b07f9-bd4d-4161-9e01-e61d31778205`
+Raw source: `tools/generate-art/sources/j129-briar-foxglove-pickup-attempt5-raw.png`

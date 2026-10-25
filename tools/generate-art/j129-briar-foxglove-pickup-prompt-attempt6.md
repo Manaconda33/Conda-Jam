@@ -1,0 +1,10 @@
+# J.129 Briar Foxglove `pickup` — attempt 6
+
+Reference: `tools/generate-art/sources/j128-briar-foxglove-receive-generated-raw.png`.
+
+Exact prompt:
+
+> Draw five Briar Foxglove character sprites in a transparent RGBA PNG. This is a cutout spritesheet, not an illustrated setting. Match Briar's appearance in the reference: adult human woman, warm dark-brown skin, shoulder-length locs, red headband, compact athletic build, russet/cream Emberwood basketball kit, cream socks, russet shoes. Same person and pixel-art style in every frame; right-facing 3/4 view. Dimensions1536×1024, rows2, columns3, each cell512×512. Five full-body drawings occupy cells0–4 in row-major order. Cell5 is empty. Sequence: (0) ready upright, eyes down toward her front foot; (1) bend knees and incline forward, right hand begins to reach; (2) lower into a deeper squat, open right fingers hover clearly above lowest reach; (3) tick7 pickup pose, low squat with open right fingertips at the bottom of their reach next to the front shoe; (4) stand and return empty right hand to waist. Keep the hand and torso visibly lower in frame3 than frame2, and much higher in frame4. Both hands empty, no ball drawn. Keep figures smaller than320px high, centered in cells with at least60px clear margin from all four cell edges. Each figure must be complete and separated; no touching/crossing cell edges or other figures. Use smooth clear pixel sprite edges; no extra anatomy. The alpha channel is literal: every pixel outside the five character sprites must be alpha0; all cell gutters, the unused cell and all image edges remain completely transparent. Do not paint any ambience or support under the figures. No background, haze, aura, glow, shadow, light falloff, vignette, ground, floor, court, backdrop, lines, grid, borders, text, numerals, logo, object, sphere or basketball. Return only this transparent sprite sheet.
+
+Generation ID: `exec-7f8f732c-f285-445e-aac5-1999eca6c305`
+Raw source: `tools/generate-art/sources/j129-briar-foxglove-pickup-attempt6-raw.png`

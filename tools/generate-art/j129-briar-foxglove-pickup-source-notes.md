@@ -1,0 +1,9 @@
+# J.129 — Briar Foxglove `pickup` source attempts
+
+Roster tracker confirms J.129 `pickup` is the next missing Briar clip. Timing is five frames with durations `[2,3,2,1,4]`; frame3 is the empty-hand grab anchor at tick7. The ball remains a separate runtime object. Briar must remain an adult human woman with warm deep-brown skin, shoulder-length locs, red headband, compact athletic build and russet/cream Emberwood kit.
+
+Seven generations are preserved with their exact prompts, image-generation IDs, untouched raw PNGs and per-cell alpha>=64 bounds in `tools/generate-art/j129-briar-foxglove-pickup-attempts.json`. All seven are rejected; no source was cleaned, packed or registered. Attempts1,3–6 are fresh sheets; attempt2 edits1; attempt7 edits5. Every raw PNG is1536×1024 and contains five large components positioned in row-major cells0–4, with empty cell5. Visual review shows a coherent ready/reach/deeper-squat/contact/recovery sequence, complete human anatomy, consistent Briar identity and no drawn basketball. None of the five poses touches or crosses its cell boundary, but the minimum recorded cell margin ranges21–40px, below the individual prompts' larger targets.
+
+All candidate sheets and both background-only edits retain brown/black radial haze connected to the bodies: alpha>0 persists through non-character gutters, and the unused sixth cell still has nonzero alpha. In particular, attempt7 is a no-op for acceptance: 312,646 pixels have alpha>0 and 367 are in the otherwise empty sixth cell. Outer corners being alpha0 is insufficient to accept. Do not pack any attempt until the source background is fully removed and alpha/cell margins are remeasured.
+
+Light/dark side-by-side source proofs are in `tools/generate-art/previews/j129-briar-foxglove-pickup/attempt*-light-dark-review.png`. Exact per-attempt data and the rejection reasons are in the attempts JSON; the prompt files preserve each complete generation/edit prompt.

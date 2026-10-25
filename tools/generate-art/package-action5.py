@@ -82,7 +82,7 @@ def pose_rectangles(image: Image.Image) -> tuple[list[dict], np.ndarray, np.ndar
 
 
 def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
-    if athlete not in {"reed-ashcroft", "juniper-vale", "paprika", "keeg", "piper-quickstep"}:
+    if athlete not in {"reed-ashcroft", "juniper-vale", "paprika", "keeg", "piper-quickstep", "briar-foxglove"}:
         raise ValueError("This reviewed batch only accepts Reed Ashcroft, Juniper Vale, Paprika, and Keeg")
     provenance = json.loads(provenance_path.read_text())
     clip = provenance.get("clip")
