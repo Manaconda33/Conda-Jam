@@ -1,10 +1,10 @@
-# Latest validation — J.124 Piper Quickstep alley-oop-reverse
+# Latest validation — J.125 Briar Foxglove `pass`
 
-- Piper reaches29/29 clips /293 drawings. Candidate3b uses pose06 attempt2b and preserves 15 unique, transparent, ball-free drawings. Source SHA-256 db45a86e77b55014a9b201238d4c842c8217b631d214933cea5103fe0f3ab2a0; production WebP SHA-256 9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f. Source identity/anatomy, pose separation, alpha/margins and unused cell16 pass review.
-- Accepted separate ball path H [1.05,1.2,1.6,1.85,2.1,1.8,1.45,2.0,1.75,1.95,2.1,1.8,1.2,.75,.6] / F [5,7,8,7,4,4,1,-3,-5,-7,-7,-5,-2,1,3]. Independent source, track and production reviewers pass actual Canvas contacts at poses05–09 and the pre-release tick20, plus release flight at21. Both facings pass at100%/120%. The real teammate lob test passes catch10/carry20/release21, one two-point score23 and landing30 in both facings.
-- npm test: PASS,46/46 files; lint PASS,18 modules; content PASS,35 franchises/105 athletes; simulation PASS,100 matches /861,421 ticks /6 overtimes; production build PASS. Focused J.124 production/teammate test PASS.
-- Strict report-only audit: **819 clips /7,436 authored drawings /105 athletes**,2,284 missing clips, one target shortfall,4 inherited prompt findings; generated 2026-10-25T18:23:50.741Z. J.124 contributes no audit findings.
-- Native Canvas captures use actual src/main.js and select production WebP for all15 poses in both facings at100%/120%. E2E was not rerun; the prior sandbox localhost socket denial remains documented. Push and Pages validation are pending; latest deployed checkpoint remains 513e0a59 / run #169.
+- Briar reaches7/29 clips /58 authored drawings. Selected six-frame chest-pass source SHA-256 `5bf2a2fd35680aec2d34a50332fa097f6a6cff10c129f286c40528e214e10d0e`; production WebP SHA-256 `b6f4ef27059a07116ba60794a145fe6bd6437504bd450fb1519fe4f6c59a2665`. All six poses are distinct, complete human figures, with transparent corners, no embedded ball, and source margins inside the 3×2 grid. Earlier candidates and the no-op edit remain preserved.
+- Accepted separate ball path H `[1.0,1.15,1.4,1.55,1.5,1.05]` / F `[7.5,8,12,19,18,9]`. Actual Canvas captures at100%/120% in both facings show the ball at the extended hands on tick4 and released as ownerless pass flight at tick5.
+- `npm test`: PASS,47/47 files; lint PASS,18 modules; content PASS,35 franchises/105 athletes; simulation PASS,100 matches /861,421 ticks /6 overtimes; production build PASS. Focused J.125 atlas/ball ownership test PASS.
+- Strict audit: **820 clips /7,442 authored drawings /105 athletes**,2,283 missing clips, one target shortfall and4 inherited prompt findings; generated2026-10-25T18:40:52.951Z. J.125 adds no new audit errors.
+- E2E was not rerun; previous sandbox localhost socket denial remains documented. Push and Pages validation are pending; latest deployed checkpoint remains `513e0a59` / run #169.
 
 # Validation — J.119 Piper Quickstep `dunk-tomahawk`
 

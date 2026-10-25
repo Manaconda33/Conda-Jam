@@ -13,11 +13,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-25T18:23:50.741Z",
+  "generatedAt": "2026-10-25T18:40:52.951Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 819,
+  "inspectedClips": 820,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -42,12 +42,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "fall"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "briar-foxglove",
-      "direction": "right",
-      "clip": "pass"
     },
     {
       "code": "missing-clip",
@@ -29815,6 +29809,76 @@
           "h": 96,
           "hash": "bed723bdfd9a8ba0c8b0b090807e36726e4fbafa4d5e98cf70085fe08bc43286",
           "visiblePixels": 1946
+        }
+      ]
+    },
+    {
+      "athlete": "briar-foxglove",
+      "direction": "right",
+      "clip": "pass",
+      "src": "./public/assets/animation/briar-foxglove-pass-right.webp",
+      "width": 336,
+      "height": 192,
+      "sha256": "b6f4ef27059a07116ba60794a145fe6bd6437504bd450fb1519fe4f6c59a2665",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "79d17905ddb8112ee8aea6a4824545c5024655f0c416ba7601ed2f275dbe4957",
+          "visiblePixels": 3026
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "2446f101d129d88b5c810f637d713c2296868129f07e161e330c5b575b3bbc1f",
+          "visiblePixels": 2938
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "af1c7187f19840c028970d628ccfdb77f3b37f539dcb16e37a35ea0ecdf98bb2",
+          "visiblePixels": 3166
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "2e57ed4ab44507d8bf791e59fa50304e59d64ac9fbb67936106b9eab8c1a5468",
+          "visiblePixels": 3466
+        },
+        {
+          "index": 4,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "80e7b1c2a5e10487cd1d2710147aa8451b4a4cb6128789a9f780411309d81778",
+          "visiblePixels": 3285
+        },
+        {
+          "index": 5,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "50f7646a069cb88da56e5d719d495222be32eacb9114affcecbfabe74f64a729",
+          "visiblePixels": 3044
         }
       ]
     },

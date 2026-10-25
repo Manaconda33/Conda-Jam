@@ -72432,13 +72432,183 @@ export const animationAssetManifest = {
                 ]
               }
             }
+          },
+          "pass": {
+            "src": "./public/assets/animation/briar-foxglove-pass-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "79d17905ddb8112ee8aea6a4824545c5024655f0c416ba7601ed2f275dbe4957"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "2446f101d129d88b5c810f637d713c2296868129f07e161e330c5b575b3bbc1f"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "af1c7187f19840c028970d628ccfdb77f3b37f539dcb16e37a35ea0ecdf98bb2"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "2e57ed4ab44507d8bf791e59fa50304e59d64ac9fbb67936106b9eab8c1a5468"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "80e7b1c2a5e10487cd1d2710147aa8451b4a4cb6128789a9f780411309d81778"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "50f7646a069cb88da56e5d719d495222be32eacb9114affcecbfabe74f64a729"
+              }
+            ],
+            "sha256": "b6f4ef27059a07116ba60794a145fe6bd6437504bd450fb1519fe4f6c59a2665",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "briar-foxglove",
+              "clip": "pass",
+              "direction": "right",
+              "issue": "J.125",
+              "canonicalSection": "Emberwood Kits athlete bible; gameplay reference and J.109 Briar shoot review",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-25",
+              "generationId": "exec-6fb819a2-33d7-42f7-b624-f25eb32ba690",
+              "imageGenerationId": "exec-6fb819a2-33d7-42f7-b624-f25eb32ba690",
+              "prompt": "tools/generate-art/j125-briar-foxglove-pass/prompts/attempt2.md",
+              "promptFile": "tools/generate-art/j125-briar-foxglove-pass/prompts/attempt2.md",
+              "sourceImage": "tools/generate-art/sources/j125-briar-foxglove-pass-generated-raw.png",
+              "sourceSha256": "5bf2a2fd35680aec2d34a50332fa097f6a6cff10c129f286c40528e214e10d0e",
+              "rawSourceImage": "tools/generate-art/sources/j125-briar-foxglove-pass-generated-raw.png",
+              "rawSourceSha256": "5bf2a2fd35680aec2d34a50332fa097f6a6cff10c129f286c40528e214e10d0e",
+              "reference": "public/assets/animation/briar-foxglove-shoot-right.webp",
+              "review": {
+                "status": "accepted",
+                "reviewers": [
+                  "independent J.125 source reviewer",
+                  "Codex parent"
+                ],
+                "reviewedAt": "2026-10-25T18:38:21Z",
+                "statusNotes": "Six distinct pass poses, complete human anatomy and Briar identity, no embedded basketball, alpha-zero corners, all source poses inside their cells. Tightest source margin is pose03 15px; fit reviewed before packing. Poses03/04 remain distinct by open release fingers versus follow-through."
+              },
+              "candidateImages": [
+                {
+                  "name": "attempt1a",
+                  "generationId": "exec-c9aff78a-ac04-48da-9c95-fdabd0b7e42c",
+                  "rawSource": "tools/generate-art/sources/j125-briar-foxglove-pass-attempt1a-raw.png",
+                  "rawSourceSha256": "a3ef5ef05b438b8c619fbb9f1bb3f3493d2677052dcbe258ae12514b9562fe8e",
+                  "promptFile": "tools/generate-art/j125-briar-foxglove-pass/prompts/attempt1a.md",
+                  "review": "unselected visual variant; six distinct poses and transparent edges; not packed"
+                },
+                {
+                  "name": "attempt1b",
+                  "generationId": "exec-11529f69-5bf0-4ee0-aa0e-8179db08ef41",
+                  "rawSource": "tools/generate-art/sources/j125-briar-foxglove-pass-attempt1b-raw.png",
+                  "rawSourceSha256": "faf05172fd07f111a2104b4a0cae585099a06d3fe2a8af117b4e139bce257662",
+                  "promptFile": "tools/generate-art/j125-briar-foxglove-pass/prompts/attempt1b.md",
+                  "review": "unselected visual variant; six distinct poses and transparent edges; not packed"
+                },
+                {
+                  "name": "attempt2",
+                  "generationId": "exec-6fb819a2-33d7-42f7-b624-f25eb32ba690",
+                  "rawSource": "tools/generate-art/sources/j125-briar-foxglove-pass-generated-raw.png",
+                  "rawSourceSha256": "5bf2a2fd35680aec2d34a50332fa097f6a6cff10c129f286c40528e214e10d0e",
+                  "promptFile": "tools/generate-art/j125-briar-foxglove-pass/prompts/attempt2.md",
+                  "review": "selected source; six pose sequence, transparent alpha confirmed; accepted for native-cell fit after independent review"
+                },
+                {
+                  "name": "attempt3-edit",
+                  "generationId": "exec-36523ab3-7d16-492f-b346-9987d4ad81e1",
+                  "rawSource": "tools/generate-art/sources/j125-briar-foxglove-pass-bg-removal-raw.png",
+                  "rawSourceSha256": "eb4f90afd8a68c51f01e58f7d5b2c96dd1e169e8d78b6950febed0affa250c96",
+                  "promptFile": "tools/generate-art/j125-briar-foxglove-pass/prompts/attempt3-edit.md",
+                  "review": "rejected as no-op edit; compared with selected source and did not remove/alter content; original transparent source remains selected"
+                }
+              ],
+              "releaseFrame": 3,
+              "releaseTick": 5,
+              "expectedPoseOrder": [
+                "ready",
+                "chest gather",
+                "forward step and rotation",
+                "two-hand release",
+                "follow-through",
+                "recover"
+              ],
+              "nativeReview": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-25T18:38:21Z",
+                "reviewers": [
+                  "independent J.125 source reviewer",
+                  "independent J.125 ball timing reviewer",
+                  "Codex parent"
+                ],
+                "contactProofs": [
+                  "tools/generate-art/previews/j125-briar-foxglove-pass/native-100/contact-crops.png"
+                ],
+                "reviewNotes": "Actual src/main.js Canvas at 100% and 120%, both facings. All six frames select production art. Tick4 separate ball meets extended hands; release at frame3/tick5 becomes ownerless pass flight. Native Canvas is diagnostic evidence, not browser E2E.",
+                "previewReports": [
+                  "tools/generate-art/previews/j125-briar-foxglove-pass/native-100/report.json",
+                  "tools/generate-art/previews/j125-briar-foxglove-pass/native-120/report.json"
+                ],
+                "contactPreviews": [
+                  "tools/generate-art/previews/j125-briar-foxglove-pass/native-100/contact-crops.png",
+                  "tools/generate-art/previews/j125-briar-foxglove-pass/native-120/contact-crops.png",
+                  "tools/generate-art/previews/j125-briar-foxglove-pass/atlas-light-dark-review.png",
+                  "tools/generate-art/previews/j125-briar-foxglove-pass/selected-source-light-dark-review.png"
+                ]
+              },
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.15,
+                  1.4,
+                  1.55,
+                  1.5,
+                  1.05
+                ],
+                "forward": [
+                  7.5,
+                  8,
+                  12,
+                  19,
+                  18,
+                  9
+                ],
+                "status": "accepted-native-review",
+                "releaseFrame": 3,
+                "releaseTick": 5,
+                "file": "src/core/animation.js"
+              },
+              "reviewState": "accepted source and native ball-track review",
+              "candidateOnly": false
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Brown shoulder-length locs and a red headband have no fixed side. Mirroring preserves Briar\u2019s identity; keep the russet and cream team colors."
+        "notes": "Briar\u2019s body mirroring is approved by docs/animation-production/CANON_MIRROR_REVIEW.md; it preserves her identity and team palette. Readable jersey text remains a separate rendering layer."
       }
     },
     "keeg": {

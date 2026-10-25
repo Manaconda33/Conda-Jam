@@ -13,7 +13,7 @@ from scipy.ndimage import distance_transform_edt, find_objects, label
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "public/assets/animation"
-ATHLETES = {"paprika", "keeg"}
+ATHLETES = {"paprika", "keeg", "briar-foxglove"}
 CLIPS = {"pass", "pass-overhead", "pass-behind"}
 
 
@@ -90,7 +90,7 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
     provenance = json.loads(provenance_path.read_text())
     clip = provenance.get("clip")
     if clip not in CLIPS:
-        raise ValueError("This six-pose packer only accepts Paprika pass-overhead or pass-behind clips")
+        raise ValueError("This six-pose packer only accepts the configured six-frame passing clips")
     if provenance.get("eligibleForPacking") is not True or provenance.get("review", {}).get("status") != "accepted":
         raise ValueError("Only explicitly accepted six-pose sources may be packed")
     if provenance.get("athlete") != athlete or provenance.get("direction") != "right":

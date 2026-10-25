@@ -1,0 +1,32 @@
+{
+  "issue": "J.125",
+  "athlete": "briar-foxglove",
+  "clip": "pass",
+  "selectedGenerationId": "exec-6fb819a2-33d7-42f7-b624-f25eb32ba690",
+  "candidateFiles": [
+    {
+      "generationId": "exec-c9aff78a-ac04-48da-9c95-fdabd0b7e42c",
+      "source": "tools/generate-art/sources/j125-briar-foxglove-pass-attempt1a-raw.png",
+      "prompt": "tools/generate-art/j125-briar-foxglove-pass/prompts/attempt1a.md",
+      "status": "unselected"
+    },
+    {
+      "generationId": "exec-11529f69-5bf0-4ee0-aa0e-8179db08ef41",
+      "source": "tools/generate-art/sources/j125-briar-foxglove-pass-attempt1b-raw.png",
+      "prompt": "tools/generate-art/j125-briar-foxglove-pass/prompts/attempt1b.md",
+      "status": "unselected"
+    },
+    {
+      "generationId": "exec-6fb819a2-33d7-42f7-b624-f25eb32ba690",
+      "source": "tools/generate-art/sources/j125-briar-foxglove-pass-generated-raw.png",
+      "prompt": "tools/generate-art/j125-briar-foxglove-pass/prompts/attempt2.md",
+      "status": "selected"
+    },
+    {
+      "generationId": "exec-36523ab3-7d16-492f-b346-9987d4ad81e1",
+      "source": "tools/generate-art/sources/j125-briar-foxglove-pass-bg-removal-raw.png",
+      "prompt": "tools/generate-art/j125-briar-foxglove-pass/prompts/attempt3-edit.md",
+      "status": "rejected-no-op"
+    }
+  ]
+}
