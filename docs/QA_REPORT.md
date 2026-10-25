@@ -6,6 +6,8 @@ Commit `158c400e` preserves the source checkpoint and review evidence. Standard 
 
 J.116 Piper `dunk-windmill` source+atlas are ready in an unregistered source checkpoint after independent source and packed reviews. No audit/test totals change; runtime track review is queued behind J.115.
 
+Push retry after `91eb91f2` failed because the configured proxy on port8080 could not connect; no Pages workflow ran. Latest deployed remains `513e0a59` / run #169.
+
 - `npm test`: PASS,36/36 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer suite: PASS,55 tests; production build: PASS.
 - Native Canvas review: PASS,20/20 action captures per zoom at100%/120%, both facings, all10 frames and the frame9/tick65 hand-on-hip finish. Source, packed and semantic sequence review accept identity/anatomy, exact 4×3 source layout, component map, margins, transparency and no-ball art.
 - `npm run test:e2e`: BLOCKED before app readiness; server exits before responding at `http://127.0.0.1:4175/`.
