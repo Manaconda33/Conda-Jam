@@ -13,11 +13,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-25T19:09:05.323Z",
+  "generatedAt": "2026-10-25T19:53:37.775Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 823,
+  "inspectedClips": 824,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -42,12 +42,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "fall"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "briar-foxglove",
-      "direction": "right",
-      "clip": "pickup"
     },
     {
       "code": "missing-clip",
@@ -30053,6 +30047,67 @@
           "h": 96,
           "hash": "d3f82ddf37ebaba6bd739e7bab2036635a5d46e6f42fe4982c449d707e69b089",
           "visiblePixels": 2939
+        }
+      ]
+    },
+    {
+      "athlete": "briar-foxglove",
+      "direction": "right",
+      "clip": "pickup",
+      "src": "./public/assets/animation/briar-foxglove-pickup-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "18c153b02626d6329e3f0a379bce4561e3992278a47ff1ef0e43272f1e705e77",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ba238e728e8c8378e2e6501a5f0b7e7616bdbf35471efbfc8cac432b13732d36",
+          "visiblePixels": 2554
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e263bddb9180f3aebbe830ec3300ff4aae513b931713c8a2db746ee1d57892be",
+          "visiblePixels": 3033
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d384c0ca40c70f1da26c7b9f54de56385215ef60063603731cbfc0733da5e976",
+          "visiblePixels": 4075
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6caf71effa481516d3829a933aa4ece5da871e27c2d934201f63d0dc51f23d52",
+          "visiblePixels": 4635
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1ca3da7d8ef604621169675c64f7a07e402c2f168130e07b856d3f2697ea1205",
+          "visiblePixels": 3072
         }
       ]
     },

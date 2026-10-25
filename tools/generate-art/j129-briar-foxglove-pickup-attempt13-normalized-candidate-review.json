@@ -120,13 +120,32 @@
     "poses": "Five distinct poses read ready, bend/reach, deeper reach, deepest grab, partial recovery. Figure outlines remain separated, and there is no ball. Briar\u2019s adult human appearance, locs/red headband, compact build and russet/cream uniform are consistent.",
     "transparency": "Source low-alpha exterior background residue was removed by main-component isolation. The only alpha1-63 pixels are resampling edge pixels within figure crops; candidate preview shows no broad backdrop on light/dark backgrounds.",
     "margins": "Every pose has 136px or greater margins on all cell edges; lower right cell5 has zero nonzero-alpha pixels.",
-    "decision": "Pending independent review; candidate is not accepted or packed."
+    "decision": "Parent review accepts the five distinct, anatomically consistent, ball-free poses, clean transparency, and safe cell margins."
   },
   "independentReview": {
-    "status": "approved for further atlas packing review; not production registration",
-    "notes": "Independent reviewer recomputed candidate SHA, alpha counts and all cells; exact match. Five distinct sources/generation IDs match provenance. 3x2 row-major; cell5 zero alpha; all frames at least136px margins; no intercell spill or ball; no visible haze/halo. In-memory reproduction of component isolation and placement matched candidate pixel-for-pixel. Pose order and Briar identity/anatomy approved."
+    "status": "accepted for atlas and production integration",
+    "notes": "Independent native review confirms tick5 approach, tick7 floor-level grab/ownership, and tick8 carried recovery at 100%/120% in both facings. Production atlas selected in all ten frame captures; ball remains separate.",
+    "ballTrack": {
+      "height": [
+        0.9,
+        0.6,
+        0.3,
+        0,
+        0.65
+      ],
+      "forward": [
+        7,
+        11,
+        16,
+        20,
+        10
+      ],
+      "grabFrame": 3,
+      "grabTick": 7
+    },
+    "reviewedAt": "2026-10-25T19:55:46Z"
   },
   "packingAllowed": true,
-  "productionRegistrationAllowed": false,
-  "decision": "Accepted source for atlas packing review; production registration pending separate athlete-specific ball-track alignment and native captures."
+  "productionRegistrationAllowed": true,
+  "decision": "Accepted and integrated: source atlas, mirrored body and separate Briar pickup ball track pass independent review."
 }

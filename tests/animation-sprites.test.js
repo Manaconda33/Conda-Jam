@@ -1173,6 +1173,29 @@ test('Reed Ashcroft and Juniper Vale select five reviewed pickup poses in both f
   }
  }
 });
+test('Briar J.129 selects five reviewed pickup poses with a separate native-reviewed ball track',()=>{
+ const id='briar-foxglove',character=animationAssetManifest.characters[id],clip=character.directions.right.pickup;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(clip.reviewed,true);assert.equal(clip.src,'./public/assets/animation/briar-foxglove-pickup-right.webp');
+ assert.equal(clip.sha256,'18c153b02626d6329e3f0a379bce4561e3992278a47ff1ef0e43272f1e705e77');
+ assert.equal(clip.frames.length,5);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,5);
+ assert.equal(clip.provenance.issue,'J.129');assert.equal(clip.provenance.candidateSha256,'8a43b2067d18b5cf158b74ace3804ce0c3d4d9371c29c1db86f1879aef96e95c');
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.sourceRects.length,5);
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),[0,1,2,3,4]);
+ assert.equal(clip.provenance.nativeReview.status,'accepted');assert.equal(clip.provenance.nativeReview.previewReports.length,2);
+ assert.equal(clip.provenance.nativeReview.contactPreviews.length,12);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.height,[.9,.6,.3,0,.65]);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forward,[7,11,16,20,10]);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+ const frameTicks=[0,2,5,7,8];
+ for(const [frame,tick] of frameTicks.entries())for(const [facing,flip] of [[1,false],[-1,true]]){
+  const sprite=selectProductionSprite({id,facing,animation:{clip:'pickup',tick}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,clip.src,`frame${frame} production source`);
+  assert.equal(sprite?.frame,frame,`frame${frame} pose mapping`);
+  assert.equal(sprite?.flip,flip,`frame${frame} safe facing`);
+ }
+});
 test('Reed Ashcroft and Juniper Vale select eight reviewed steal poses with separate tracks in both facings',()=>{
  const expected={
   'reed-ashcroft':{cell:0,sha:'c703f0ec1ef00b4cbd40852ae7d827dbc5b248e4e8e0f7742ad3f13434dc7eca',claim:'urn:c2pa:3842a374-eef9-4102-9e54-248fcbd85d19',instance:'xmp:iid:b3313172-affa-49fb-990e-60699fc7bbea',forward:14,height:1.35},

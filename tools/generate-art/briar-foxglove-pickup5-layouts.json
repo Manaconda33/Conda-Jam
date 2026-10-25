@@ -42,7 +42,7 @@
       "issue": "J.129",
       "athlete": "briar-foxglove",
       "clip": "pickup",
-      "status": "accepted-for-atlas-packing-review",
+      "status": "accepted-source-and-native-ball-track-review",
       "layout": "3 columns x 2 rows, 512x512 cells; five unique original generated pose cutouts in row-major cells0-4; cell5 empty",
       "generationIds": [
         "exec-2d00ce2c-f477-4851-a2be-7f403e0fb180",
@@ -321,7 +321,7 @@
       "review": {
         "status": "accepted",
         "reviewedAt": "2026-10-25T19:45:44Z",
-        "notes": "Parent visual review and independent source review confirm transparent exterior, 136px minimum cell margins, empty cell5, five unique row-major poses, Briar identity/anatomy and no ball. Accepted as input for atlas packing review. Production registration and athlete-specific ball-track alignment remain pending."
+        "notes": "Normalized sheet and atlas independently reviewed: five distinct row-major poses, transparent cell5, 136px minimum margins, preserved Briar identity/anatomy, no ball. Native ball-track alignment accepted at 100% and120% in both facings."
       },
       "reviewFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-normalized-candidate-review.json",
       "candidatePreview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-normalized-light-dark-review.png",
@@ -336,7 +336,7 @@
       "prompt": "Five pose-specific exact prompts are linked in each frame record and preserved under tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose*-prompt.md.",
       "sourcePrompt": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-poses-review.json",
       "eligibleForPacking": true,
-      "ballPolicy": "The pose source contains no basketball. Briar pickup requires a separate runtime ball track; ball-to-hand alignment is not yet reviewed.",
+      "ballPolicy": "Basketball remains a separate athlete-specific runtime track; source atlas contains no ball.",
       "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-normalized-sheet-candidate.png",
       "sourceRects": [
         {
@@ -387,7 +387,59 @@
       ],
       "uniformScale": 0.3770491803278688,
       "componentIsolation": true,
-      "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses"
+      "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses",
+      "reviewed": true,
+      "reviewState": "accepted native separate-ball track review; integrated in runtime",
+      "runtimeBallTrack": {
+        "height": [
+          0.9,
+          0.6,
+          0.3,
+          0,
+          0.65
+        ],
+        "forward": [
+          7,
+          11,
+          16,
+          20,
+          10
+        ],
+        "status": "accepted-native-review",
+        "file": "src/core/animation.js",
+        "grabFrame": 3,
+        "grabTick": 7
+      },
+      "nativeReview": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-25T19:55:46Z",
+        "reviewers": [
+          "independent J.129 ball-track reviewer",
+          "Codex parent"
+        ],
+        "previewReports": [
+          "artifacts/native-render-preview/j129-briar-pickup/native-100/report.json",
+          "artifacts/native-render-preview/j129-briar-pickup/native-120/report.json"
+        ],
+        "contactPreviews": [
+          "artifacts/native-render-preview/j129-briar-pickup/native-100/right-pickup-frame2.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-100/right-pickup-frame3.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-100/right-pickup-frame4.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-100/left-pickup-frame2.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-100/left-pickup-frame3.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-100/left-pickup-frame4.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-120/right-pickup-frame2.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-120/right-pickup-frame3.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-120/right-pickup-frame4.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-120/left-pickup-frame2.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-120/left-pickup-frame3.png",
+          "artifacts/native-render-preview/j129-briar-pickup/native-120/left-pickup-frame4.png"
+        ],
+        "notes": "In native Canvas at 100% and120%, both facings: frame2/tick5 ball approaches the forward hand; frame3/tick7 reaches the floor-level fingertips and grab anchor; frame4/tick8 rises with Briar’s recovering hand. All ten frames select production art; the separate ball is acquired and owned by Briar at tick7. No ball pixels are in the atlas."
+      },
+      "reviewedAt": "2026-10-25T19:55:46Z",
+      "reviewStatus": "accepted-and-runtime-integrated",
+      "sourceReview": "Accepted after parent and independent review; five unique poses remain separated, cell5 is transparent, and all margins exceed136px."
     }
   }
 ]

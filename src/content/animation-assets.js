@@ -73318,13 +73318,461 @@ export const animationAssetManifest = {
               "status": "accepted-and-runtime-integrated"
             },
             "reviewed": true
+          },
+          "pickup": {
+            "src": "./public/assets/animation/briar-foxglove-pickup-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ba238e728e8c8378e2e6501a5f0b7e7616bdbf35471efbfc8cac432b13732d36"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e263bddb9180f3aebbe830ec3300ff4aae513b931713c8a2db746ee1d57892be"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d384c0ca40c70f1da26c7b9f54de56385215ef60063603731cbfc0733da5e976"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "6caf71effa481516d3829a933aa4ece5da871e27c2d934201f63d0dc51f23d52"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1ca3da7d8ef604621169675c64f7a07e402c2f168130e07b856d3f2697ea1205"
+              }
+            ],
+            "sha256": "18c153b02626d6329e3f0a379bce4561e3992278a47ff1ef0e43272f1e705e77",
+            "source": "imagegen",
+            "provenance": {
+              "issue": "J.129",
+              "athlete": "briar-foxglove",
+              "clip": "pickup",
+              "status": "accepted-source-and-native-ball-track-review",
+              "layout": "3 columns x 2 rows, 512x512 cells; five unique original generated pose cutouts in row-major cells0-4; cell5 empty",
+              "generationIds": [
+                "exec-2d00ce2c-f477-4851-a2be-7f403e0fb180",
+                "exec-84442fe6-99a8-48a1-9cc3-dd82d11f8c43",
+                "exec-eda823be-4fc0-41b9-a64a-84f87803c501",
+                "exec-1ea7125b-6705-46ff-99fc-624cd20f5cb0",
+                "exec-e1c54d85-f133-4714-933b-6e6f02dd265f"
+              ],
+              "candidateSource": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-normalized-sheet-candidate.png",
+              "candidateSha256": "8a43b2067d18b5cf158b74ace3804ce0c3d4d9371c29c1db86f1879aef96e95c",
+              "size": [
+                1536,
+                1024
+              ],
+              "cleanupPolicy": "Threshold-connected component isolation at alpha>=64, per-frame tight crop, uniform Lanczos downscale to <=240x240, center horizontally and align every shoe baseline at y=376 in every 512px cell. All other source pixels are transparent in the candidate. No pose content was drawn, synthesized, duplicated, mirrored or reordered; each source figure is uniformly resampled.",
+              "frames": [
+                {
+                  "poseIndex": 0,
+                  "pose": "ready",
+                  "rawSource": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose0-retry-raw.png",
+                  "rawSourceSha256": "d39c0b2ceab754c3d1ec9c52d20cdbd15185c6c4cafca04dc3d3bcbce79729e3",
+                  "sourcePrompt": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose0-retry-prompt.md",
+                  "rawDimensions": [
+                    1254,
+                    1254
+                  ],
+                  "sourceComponent": 1,
+                  "sourceComponentAlphaGte64Area": 200334,
+                  "sourceComponentBboxLTRB": [
+                    407,
+                    159,
+                    883,
+                    1064
+                  ],
+                  "componentIsolationThreshold": 64,
+                  "cleanup": "Keep the only 8-connected alpha>=64 figure component; remove all other alpha, including low-alpha exterior residue. No pose content is drawn, duplicated, mirrored, or reordered; the original component is uniformly resampled.",
+                  "uniformScale": 0.26519337016574585,
+                  "normalizedFigureSize": [
+                    126,
+                    240
+                  ],
+                  "candidateCell": [
+                    0,
+                    0
+                  ],
+                  "candidatePlacementXY": [
+                    193,
+                    136
+                  ],
+                  "candidateMarginsLTRB": [
+                    193,
+                    193,
+                    136,
+                    136
+                  ]
+                },
+                {
+                  "poseIndex": 1,
+                  "pose": "bend-reach",
+                  "rawSource": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose1-raw.png",
+                  "rawSourceSha256": "9081af83e1d121abc4164a97e721829b5ab4cb4922d1351264ba4bdaa625a4d7",
+                  "sourcePrompt": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose1-prompt.md",
+                  "rawDimensions": [
+                    1254,
+                    1254
+                  ],
+                  "sourceComponent": 1,
+                  "sourceComponentAlphaGte64Area": 189043,
+                  "sourceComponentBboxLTRB": [
+                    384,
+                    254,
+                    868,
+                    1050
+                  ],
+                  "componentIsolationThreshold": 64,
+                  "cleanup": "Keep the only 8-connected alpha>=64 figure component; remove all other alpha, including low-alpha exterior residue. No pose content is drawn, duplicated, mirrored, or reordered; the original component is uniformly resampled.",
+                  "uniformScale": 0.3015075376884422,
+                  "normalizedFigureSize": [
+                    146,
+                    240
+                  ],
+                  "candidateCell": [
+                    1,
+                    0
+                  ],
+                  "candidatePlacementXY": [
+                    695,
+                    136
+                  ],
+                  "candidateMarginsLTRB": [
+                    183,
+                    183,
+                    136,
+                    136
+                  ]
+                },
+                {
+                  "poseIndex": 2,
+                  "pose": "low-reach",
+                  "rawSource": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose2-raw.png",
+                  "rawSourceSha256": "4e7ff9d24c0349c46820b84775f53b1e260119e264b01c98e3a9dd0c02a7df7d",
+                  "sourcePrompt": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose2-prompt.md",
+                  "rawDimensions": [
+                    1254,
+                    1254
+                  ],
+                  "sourceComponent": 1,
+                  "sourceComponentAlphaGte64Area": 180328,
+                  "sourceComponentBboxLTRB": [
+                    391,
+                    312,
+                    973,
+                    975
+                  ],
+                  "componentIsolationThreshold": 64,
+                  "cleanup": "Keep the only 8-connected alpha>=64 figure component; remove all other alpha, including low-alpha exterior residue. No pose content is drawn, duplicated, mirrored, or reordered; the original component is uniformly resampled.",
+                  "uniformScale": 0.36199095022624433,
+                  "normalizedFigureSize": [
+                    211,
+                    240
+                  ],
+                  "candidateCell": [
+                    2,
+                    0
+                  ],
+                  "candidatePlacementXY": [
+                    1174,
+                    136
+                  ],
+                  "candidateMarginsLTRB": [
+                    150,
+                    151,
+                    136,
+                    136
+                  ]
+                },
+                {
+                  "poseIndex": 3,
+                  "pose": "grab",
+                  "rawSource": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose3-raw.png",
+                  "rawSourceSha256": "9daa05eda79f969f6e6d251f4d66a2a5f65d9a731493dfa003b2dfbbce70d763",
+                  "sourcePrompt": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose3-prompt.md",
+                  "rawDimensions": [
+                    1254,
+                    1254
+                  ],
+                  "sourceComponent": 1,
+                  "sourceComponentAlphaGte64Area": 189502,
+                  "sourceComponentBboxLTRB": [
+                    351,
+                    347,
+                    963,
+                    978
+                  ],
+                  "componentIsolationThreshold": 64,
+                  "cleanup": "Keep the only 8-connected alpha>=64 figure component; remove all other alpha, including low-alpha exterior residue. No pose content is drawn, duplicated, mirrored, or reordered; the original component is uniformly resampled.",
+                  "uniformScale": 0.3803486529318542,
+                  "normalizedFigureSize": [
+                    233,
+                    240
+                  ],
+                  "candidateCell": [
+                    0,
+                    1
+                  ],
+                  "candidatePlacementXY": [
+                    139,
+                    648
+                  ],
+                  "candidateMarginsLTRB": [
+                    139,
+                    140,
+                    136,
+                    136
+                  ]
+                },
+                {
+                  "poseIndex": 4,
+                  "pose": "recovery",
+                  "rawSource": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose4-retry-raw.png",
+                  "rawSourceSha256": "9037874111f2cb0cb5343828b7b3e6e593012bc9e77915a604c430228a3799db",
+                  "sourcePrompt": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-retry-prompt.md",
+                  "rawDimensions": [
+                    1254,
+                    1254
+                  ],
+                  "sourceComponent": 1,
+                  "sourceComponentAlphaGte64Area": 157012,
+                  "sourceComponentBboxLTRB": [
+                    393,
+                    264,
+                    910,
+                    987
+                  ],
+                  "componentIsolationThreshold": 64,
+                  "cleanup": "Keep the only 8-connected alpha>=64 figure component; remove all other alpha, including low-alpha exterior residue. No pose content is drawn, duplicated, mirrored, or reordered; the original component is uniformly resampled.",
+                  "uniformScale": 0.33195020746887965,
+                  "normalizedFigureSize": [
+                    172,
+                    240
+                  ],
+                  "candidateCell": [
+                    1,
+                    1
+                  ],
+                  "candidatePlacementXY": [
+                    682,
+                    648
+                  ],
+                  "candidateMarginsLTRB": [
+                    170,
+                    170,
+                    136,
+                    136
+                  ]
+                }
+              ],
+              "cellTransparency": [
+                {
+                  "cell": 0,
+                  "nonzeroAlpha": 15565,
+                  "bboxLocal": [
+                    193,
+                    136,
+                    319,
+                    376
+                  ]
+                },
+                {
+                  "cell": 1,
+                  "nonzeroAlpha": 18745,
+                  "bboxLocal": [
+                    183,
+                    136,
+                    329,
+                    376
+                  ]
+                },
+                {
+                  "cell": 2,
+                  "nonzeroAlpha": 25640,
+                  "bboxLocal": [
+                    150,
+                    136,
+                    361,
+                    376
+                  ]
+                },
+                {
+                  "cell": 3,
+                  "nonzeroAlpha": 29480,
+                  "bboxLocal": [
+                    139,
+                    136,
+                    372,
+                    376
+                  ]
+                },
+                {
+                  "cell": 4,
+                  "nonzeroAlpha": 18955,
+                  "bboxLocal": [
+                    170,
+                    136,
+                    342,
+                    376
+                  ]
+                },
+                {
+                  "cell": 5,
+                  "nonzeroAlpha": 0,
+                  "bboxLocal": null
+                }
+              ],
+              "ball": "Absent from every sprite; separate athlete-specific runtime track remains required.",
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-25T19:45:44Z",
+                "notes": "Normalized sheet and atlas independently reviewed: five distinct row-major poses, transparent cell5, 136px minimum margins, preserved Briar identity/anatomy, no ball. Native ball-track alignment accepted at 100% and120% in both facings."
+              },
+              "reviewFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-normalized-candidate-review.json",
+              "candidatePreview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-normalized-light-dark-review.png",
+              "candidateAlphaHistogram": {
+                "alpha0": 1464479,
+                "alpha1to63": 8128,
+                "alpha64plus": 100257
+              },
+              "direction": "right",
+              "sourceSha256": "8a43b2067d18b5cf158b74ace3804ce0c3d4d9371c29c1db86f1879aef96e95c",
+              "generatedAt": "2026-10-25T19:42:13Z",
+              "prompt": "Five pose-specific exact prompts are linked in each frame record and preserved under tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose*-prompt.md.",
+              "sourcePrompt": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-poses-review.json",
+              "eligibleForPacking": true,
+              "ballPolicy": "Basketball remains a separate athlete-specific runtime track; source atlas contains no ball.",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-normalized-sheet-candidate.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 191,
+                  "y": 134,
+                  "w": 130,
+                  "h": 244,
+                  "component": 1,
+                  "area": 14160
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 693,
+                  "y": 134,
+                  "w": 150,
+                  "h": 244,
+                  "component": 2,
+                  "area": 17295
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1172,
+                  "y": 134,
+                  "w": 215,
+                  "h": 244,
+                  "component": 3,
+                  "area": 23762
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 137,
+                  "y": 646,
+                  "w": 237,
+                  "h": 244,
+                  "component": 4,
+                  "area": 27576
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 680,
+                  "y": 646,
+                  "w": 176,
+                  "h": 244,
+                  "component": 5,
+                  "area": 17464
+                }
+              ],
+              "uniformScale": 0.3770491803278688,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses",
+              "reviewed": true,
+              "reviewState": "accepted native separate-ball track review; integrated in runtime",
+              "runtimeBallTrack": {
+                "height": [
+                  0.9,
+                  0.6,
+                  0.3,
+                  0,
+                  0.65
+                ],
+                "forward": [
+                  7,
+                  11,
+                  16,
+                  20,
+                  10
+                ],
+                "status": "accepted-native-review",
+                "file": "src/core/animation.js",
+                "grabFrame": 3,
+                "grabTick": 7
+              },
+              "nativeReview": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-25T19:55:46Z",
+                "reviewers": [
+                  "independent J.129 ball-track reviewer",
+                  "Codex parent"
+                ],
+                "previewReports": [
+                  "artifacts/native-render-preview/j129-briar-pickup/native-100/report.json",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-120/report.json"
+                ],
+                "contactPreviews": [
+                  "artifacts/native-render-preview/j129-briar-pickup/native-100/right-pickup-frame2.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-100/right-pickup-frame3.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-100/right-pickup-frame4.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-100/left-pickup-frame2.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-100/left-pickup-frame3.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-100/left-pickup-frame4.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-120/right-pickup-frame2.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-120/right-pickup-frame3.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-120/right-pickup-frame4.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-120/left-pickup-frame2.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-120/left-pickup-frame3.png",
+                  "artifacts/native-render-preview/j129-briar-pickup/native-120/left-pickup-frame4.png"
+                ],
+                "notes": "In native Canvas at 100% and120%, both facings: frame2/tick5 ball approaches the forward hand; frame3/tick7 reaches the floor-level fingertips and grab anchor; frame4/tick8 rises with Briar’s recovering hand. All ten frames select production art; the separate ball is acquired and owned by Briar at tick7. No ball pixels are in the atlas."
+              },
+              "reviewedAt": "2026-10-25T19:55:46Z",
+              "reviewStatus": "accepted-and-runtime-integrated",
+              "sourceReview": "Accepted after parent and independent review; five unique poses remain separated, cell5 is transparent, and all margins exceed136px."
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Briar’s body mirroring is approved by docs/animation-production/CANON_MIRROR_REVIEW.md; it preserves her identity and team palette. Readable jersey text remains a separate rendering layer."
+        "notes": "J.129 pickup was visually checked in both facings using the canon-approved Briar safe-mirroring rule; all five right-facing poses mirror without changing human anatomy or team colors. No ball is painted into the art; the separate track applies the facing sign."
       }
     },
     "keeg": {
