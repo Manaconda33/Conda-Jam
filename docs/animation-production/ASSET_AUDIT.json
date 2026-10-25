@@ -13,11 +13,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-25T01:54:32.933Z",
+  "generatedAt": "2026-10-25T02:06:00.776Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 795,
+  "inspectedClips": 796,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -606,12 +606,6 @@
       "athlete": "sable-regent",
       "direction": "right",
       "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "marco-vellum",
-      "direction": "right",
-      "clip": "receive"
     },
     {
       "code": "missing-clip",
@@ -47736,6 +47730,58 @@
           "h": 96,
           "hash": "7f594855631b8be230fe879203a3c3ad7f3513a93fcd2fc52cbd3fcada3fff6e",
           "visiblePixels": 2167
+        }
+      ]
+    },
+    {
+      "athlete": "marco-vellum",
+      "direction": "right",
+      "clip": "receive",
+      "src": "./public/assets/animation/marco-vellum-receive-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "94a98f2d60ea43a1e496bb59365a6477246889287df1fcca1eeda757fc757227",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a8ef5199ff75f6462b02819def32b90a6802f915dc362369e6d2f05edc5c3475",
+          "visiblePixels": 2809
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ac727eef341c90ed44e42d531c55e6f9532deb6d9f645edf8edaf06606eaa6cd",
+          "visiblePixels": 2748
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "505dbd8240625bb82b73d26261711785d7d5004c966c0bd532ff78986818617e",
+          "visiblePixels": 2508
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "af6bfef0c0ae9a0bccdae2ffa12b331884de210181492a1e6584431af03a7462",
+          "visiblePixels": 2248
         }
       ]
     },

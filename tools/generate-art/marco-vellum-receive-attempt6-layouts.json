@@ -1,0 +1,147 @@
+{
+  "source": "tools/generate-art/sources/marco-vellum-receive-attempt6-generated-raw.png",
+  "output": "tools/generate-art/sources/marco-vellum-receive-attempt6-clean-candidate.png",
+  "method": "per-cell largest alpha>=64 component; retain original antialias pixels within a 2px dilation; remove alpha<8; uniform nearest-neighbor scale to <=330x330 and center in transparent 768x512 cell; no redraw, synthesis or pose rearrangement",
+  "frames": [
+    {
+      "frame": 0,
+      "sourceBounds": [
+        238,
+        58,
+        515,
+        457
+      ],
+      "sourceMargins": [
+        238,
+        252,
+        58,
+        54
+      ],
+      "isolatedSourceCrop": [
+        236,
+        56,
+        518,
+        460
+      ],
+      "scale": 0.816832,
+      "outputBounds": [
+        269,
+        91,
+        498,
+        420
+      ],
+      "outputMargins": [
+        269,
+        269,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 1,
+      "sourceBounds": [
+        188,
+        60,
+        608,
+        457
+      ],
+      "sourceMargins": [
+        188,
+        159,
+        60,
+        54
+      ],
+      "isolatedSourceCrop": [
+        186,
+        58,
+        611,
+        460
+      ],
+      "scale": 0.776471,
+      "outputBounds": [
+        219,
+        100,
+        548,
+        411
+      ],
+      "outputMargins": [
+        219,
+        219,
+        100,
+        100
+      ]
+    },
+    {
+      "frame": 2,
+      "sourceBounds": [
+        248,
+        29,
+        525,
+        462
+      ],
+      "sourceMargins": [
+        248,
+        242,
+        29,
+        49
+      ],
+      "isolatedSourceCrop": [
+        246,
+        27,
+        528,
+        465
+      ],
+      "scale": 0.753425,
+      "outputBounds": [
+        278,
+        91,
+        489,
+        420
+      ],
+      "outputMargins": [
+        278,
+        278,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 3,
+      "sourceBounds": [
+        277,
+        18,
+        485,
+        468
+      ],
+      "sourceMargins": [
+        277,
+        282,
+        18,
+        43
+      ],
+      "isolatedSourceCrop": [
+        275,
+        16,
+        488,
+        471
+      ],
+      "scale": 0.725275,
+      "outputBounds": [
+        307,
+        91,
+        460,
+        420
+      ],
+      "outputMargins": [
+        307,
+        307,
+        91,
+        91
+      ]
+    }
+  ],
+  "eligibleForPacking": true,
+  "reviewStatus": "accepted-after-independent-review",
+  "reviewNotes": "Independent visual review accepted. Four distinct ordered poses; catch frame2/tick4 and upright settle frame3; Marco identity, complete anatomy and blank kit consistent; no basketball or dark sphere; light/dark proofs show clean transparency without haze. Cleaned cell margins are >=91px vertical and >=219px horizontal. Raw sheet had a colored background glow, removed by documented component isolation without redrawing.",
+  "rawSheetBackground": "Generated colored glow removed by per-cell component isolation."
+}

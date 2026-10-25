@@ -1,0 +1,36 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "receive",
+  "attempts": [
+    {
+      "attempt": 4,
+      "status": "rejected",
+      "provenance": "tools/generate-art/marco-vellum-receive4-provenance.json",
+      "reason": "Hair touched top boundary in frame3; source margins failed 40px minimum and an unrequested chest emblem appeared. Prior layout eligibility contradiction preserved in archive."
+    },
+    {
+      "attempt": 5,
+      "status": "rejected",
+      "generationId": "exec-b9372a96-0f71-4906-a9f0-0768f0aac5ac",
+      "source": "tools/generate-art/sources/marco-vellum-receive-attempt5-generated-raw.png",
+      "sha256": "748ed0fc971275946d73a3806ad0e03b9c9c21080bb70590ff6d647001e3915b",
+      "promptFile": "tools/generate-art/marco-vellum-receive-attempt5-prompt.md",
+      "provenanceFile": "tools/generate-art/marco-vellum-receive-attempt5-provenance.json",
+      "reason": "Dark ball-like object visible in catch and settle poses."
+    },
+    {
+      "attempt": 6,
+      "status": "accepted-and-runtime-integrated",
+      "generationId": "exec-bc08a0f3-9a4c-4e2b-9bcd-3f0659587499",
+      "source": "tools/generate-art/sources/marco-vellum-receive-attempt6-generated-raw.png",
+      "sha256": "bc77dc71cb1a3bf8e821efe8ffd1cb1a6e804787882aaa166cfd97f262453bee",
+      "promptFile": "tools/generate-art/marco-vellum-receive-attempt6-prompt.md",
+      "cleanedSource": "tools/generate-art/sources/marco-vellum-receive-attempt6-clean-candidate.png",
+      "cleanedSha256": "588a84fc3a5bb84a83aa1b1b4d6847b2923e7aec42699e7b3f94c2da1687fc26"
+    }
+  ],
+  "nativeReviewReports": [
+    "tools/generate-art/previews/marco-vellum-receive/native-100/report.json",
+    "tools/generate-art/previews/marco-vellum-receive/native-120/report.json"
+  ]
+}

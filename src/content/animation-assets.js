@@ -138371,12 +138371,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -138495,12 +138495,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -138645,12 +138645,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -138850,12 +138850,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -139063,12 +139063,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -139453,7 +139453,7 @@ export const animationAssetManifest = {
               "generatedAt": "2026-10-24",
               "eligibleForPacking": true,
               "promptFile": "tools/generate-art/marco-vellum-shoot-attempt7-prompt.md",
-              "prompt": "Create exactly one fresh, original transparent RGBA PNG spritesheet, precisely 1536 \u00d7 1024 pixels, strict 5-column \u00d7 2-row grid of ten cells each 307.2 \u00d7 512 pixels. Read in row-major order, left to right top row then left to right bottom row. One complete Marco Vellum in each cell, no other figures. These are ten different sequential frames of one right-facing jump shot. This is a new drawing, not an edit, cleanup, variation, or reuse of any prior generated sheet.\n\nUse only the supplied canonical Marco portrait and gameplay sprite as identity/style reference. Marco is a compact athletic adult human man with medium-light olive skin, angular clean-shaven face, thick short black hair with a slight natural wave, no beard or mustache. He wears the existing Blackthorn Court Kings uniform: plain black sleeveless jersey and shorts with only the established crimson/red piping and white trim, black wristbands, black high-top shoes. Keep jersey front blank black except existing red seams/trim: absolutely no chest mark, emblem, logo, number, badge, text, or added design. Preserve normal human anatomy and identity in every pose.\n\nHard pose safe area, applied to every individual 307 \u00d7 512 cell: keep each full-body figure no wider than 225 pixels and no taller than 300 pixels, centered. Maintain at least 41 transparent pixels left/right and at least 106 transparent pixels top/bottom (with extra buffer beyond those minimums). No part of hair, fingertips, elbows, shoes, or body crosses these limits or touches a cell boundary. Keep each figure at a consistent scale across all ten frames. Every cell must contain one distinct, complete pose; no silhouettes touch or overlap.\n\nPose order: 0 balanced ready stance, hands empty; 1 gathers empty hands around an invisible ball at waist; 2 bends knees and brings hands toward chest; 3 sets invisible ball before forehead, shooting hand under it and guide hand beside it; 4 deeper knee bend, eyes focused toward target; 5 clearly begins a small vertical jump with both shoes visibly off the ground and shooting elbow aligned; 6 extends shooting arm upward while guide hand separates; 7 high wrist-flick follow-through, fingers relaxed and hands empty; 8 descends with shooting arm still raised; 9 lands balanced and lowers arm. Make every pose distinct and show continuous action progression.\n\nNo basketball or any object anywhere, including gather/release. Ball is a separately rendered Marco-specific runtime track. True transparent background: every empty pixel, gutter, margin, and unused canvas area must have alpha exactly zero. No haze, tint, glow, shadow, floor, court, hoop, checkerboard, background, lines, cell dividers, border, words, logos, numbers, marks, badge, props, or extra figures. Clean crisp outlined 1990s arcade pixel/cel art consistent with the references. Return only the sheet.\n",
+              "prompt": "Create exactly one fresh, original transparent RGBA PNG spritesheet, precisely 1536 × 1024 pixels, strict 5-column × 2-row grid of ten cells each 307.2 × 512 pixels. Read in row-major order, left to right top row then left to right bottom row. One complete Marco Vellum in each cell, no other figures. These are ten different sequential frames of one right-facing jump shot. This is a new drawing, not an edit, cleanup, variation, or reuse of any prior generated sheet.\n\nUse only the supplied canonical Marco portrait and gameplay sprite as identity/style reference. Marco is a compact athletic adult human man with medium-light olive skin, angular clean-shaven face, thick short black hair with a slight natural wave, no beard or mustache. He wears the existing Blackthorn Court Kings uniform: plain black sleeveless jersey and shorts with only the established crimson/red piping and white trim, black wristbands, black high-top shoes. Keep jersey front blank black except existing red seams/trim: absolutely no chest mark, emblem, logo, number, badge, text, or added design. Preserve normal human anatomy and identity in every pose.\n\nHard pose safe area, applied to every individual 307 × 512 cell: keep each full-body figure no wider than 225 pixels and no taller than 300 pixels, centered. Maintain at least 41 transparent pixels left/right and at least 106 transparent pixels top/bottom (with extra buffer beyond those minimums). No part of hair, fingertips, elbows, shoes, or body crosses these limits or touches a cell boundary. Keep each figure at a consistent scale across all ten frames. Every cell must contain one distinct, complete pose; no silhouettes touch or overlap.\n\nPose order: 0 balanced ready stance, hands empty; 1 gathers empty hands around an invisible ball at waist; 2 bends knees and brings hands toward chest; 3 sets invisible ball before forehead, shooting hand under it and guide hand beside it; 4 deeper knee bend, eyes focused toward target; 5 clearly begins a small vertical jump with both shoes visibly off the ground and shooting elbow aligned; 6 extends shooting arm upward while guide hand separates; 7 high wrist-flick follow-through, fingers relaxed and hands empty; 8 descends with shooting arm still raised; 9 lands balanced and lowers arm. Make every pose distinct and show continuous action progression.\n\nNo basketball or any object anywhere, including gather/release. Ball is a separately rendered Marco-specific runtime track. True transparent background: every empty pixel, gutter, margin, and unused canvas area must have alpha exactly zero. No haze, tint, glow, shadow, floor, court, hoop, checkerboard, background, lines, cell dividers, border, words, logos, numbers, marks, badge, props, or extra figures. Clean crisp outlined 1990s arcade pixel/cel art consistent with the references. Return only the sheet.\n",
               "generationId": "exec-abc16f2a-a41b-4b49-95df-866fdfa7edb9",
               "rawSource": "tools/generate-art/sources/marco-vellum-shoot-attempt7-generated-rejected.png",
               "rawSourceSha256": "bdcf28c3e209589c1a87ded99f94f1d3d8f662d932dd54e64e58ef5a11c88719",
@@ -140251,8 +140251,8 @@ export const animationAssetManifest = {
                   "releaseFrame": 3,
                   "releaseTick": 7,
                   "frames": {
-                    "0-2": "behind-back gather and setup, owner Marco",
                     "3": "image-left behind-back release at tick7",
+                    "0-2": "behind-back gather and setup, owner Marco",
                     "4-5": "backward flight, owner null"
                   },
                   "clipSummariesPerZoom": 2,
@@ -140269,13 +140269,13 @@ export const animationAssetManifest = {
                   "generationId": "exec-d330e8f5-d266-41bf-9a6b-830167b8a12c",
                   "source": "tools/generate-art/sources/marco-vellum-pass-behind-attempt1-rejected-raw.png",
                   "status": "rejected",
-                  "reason": "Bright red hair did not match Marco\u2019s short black hair; retained with exact prompt."
+                  "reason": "Bright red hair did not match Marco’s short black hair; retained with exact prompt."
                 },
                 {
                   "generationId": "exec-5d15f2c2-ee85-4da6-9894-03ba626bd556",
                   "source": "tools/generate-art/sources/marco-vellum-pass-behind-generated-raw.png",
                   "status": "rejected-after-audit",
-                  "reason": "Previously labeled accepted, but independent source measurement found multiple poses below the prompt\u2019s35px margins and frame3 at zero right clearance; no native Marco ball track existed. Full historical package preserved under tools/generate-art/layout-archives/marco-vellum-pass-behind-20261025/prior-margin-rejected/."
+                  "reason": "Previously labeled accepted, but independent source measurement found multiple poses below the prompt’s35px margins and frame3 at zero right clearance; no native Marco ball track existed. Full historical package preserved under tools/generate-art/layout-archives/marco-vellum-pass-behind-20261025/prior-margin-rejected/."
                 },
                 {
                   "attempt": 2,
@@ -140290,8 +140290,8 @@ export const animationAssetManifest = {
                 "releaseFrame": 3,
                 "releaseTick": 7,
                 "frames": {
-                  "0-2": "behind-back gather, owner Marco",
                   "3": "behind-back release toward image-left",
+                  "0-2": "behind-back gather, owner Marco",
                   "4-5": "backward flight with owner null"
                 }
               },
@@ -140315,13 +140315,185 @@ export const animationAssetManifest = {
               }
             },
             "reviewed": true
+          },
+          "receive": {
+            "src": "./public/assets/animation/marco-vellum-receive-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a8ef5199ff75f6462b02819def32b90a6802f915dc362369e6d2f05edc5c3475"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ac727eef341c90ed44e42d531c55e6f9532deb6d9f645edf8edaf06606eaa6cd"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "505dbd8240625bb82b73d26261711785d7d5004c966c0bd532ff78986818617e"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "af6bfef0c0ae9a0bccdae2ffa12b331884de210181492a1e6584431af03a7462"
+              }
+            ],
+            "sha256": "94a98f2d60ea43a1e496bb59365a6477246889287df1fcca1eeda757fc757227",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "marco-vellum",
+              "clip": "receive",
+              "direction": "right",
+              "attempt": 6,
+              "generatedAt": "2026-10-25",
+              "eligibleForPacking": true,
+              "promptFile": "tools/generate-art/marco-vellum-receive-attempt6-prompt.md",
+              "prompt": "Create only a transparent RGBA image sprite sheet: 1536x1024 pixels, exact 2 columns by 2 rows of 768x512 cells, row-major. Four complete full-body Marco Vellum drawings, one centered per cell, facing image-right. Each full silhouette including hair, fingers, shoes and outlines must fit within a 330x330px centered rectangle with at least 90 transparent pixels from every cell edge. Empty alpha-zero background and gutters. No tint, haze, gradient, floor, shadow, court, hoop, frame, grid, checkerboard, text, logo, badge, number, emblem, prop, other person, sphere or ball.\n\nMarco is the same compact athletic adult human man in all four frames: medium-light olive skin, angular clean-shaven face, short thick slightly wavy black hair, no beard or mustache, black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands and high-top shoes. Plain blank black jersey front: piping only, no chest mark. Crisp outlined 1990s arcade pixel art, same right-facing three-quarter camera, face, body proportions and clothes. Natural complete anatomy with exactly two arms/hands and two legs/shoes.\n\nThe game renders its basketball separately. Do NOT draw a basketball, circle, sphere, dark oval or any object in any cell. In catch and hold poses the athlete's hands touch each other or touch his chest; the empty gap between hands must show only transparent background:\n0. Balanced ready stance, watching for a pass from image-right, empty hands apart near his chest.\n1. Step toward image-right and extend both empty arms forward, palms open and fingers spread; receiving reach.\n2. CATCH ANCHOR at frame index2 / animation tick4: plant both feet, bring empty palms together at the sternum, fingertips visibly touching; arms bent. The ball is represented only by the separate game ball and is absent from this image.\n3. After the catch, settle upright and balanced, hands together against the lower sternum, elbows tucked, feet shoulder-width. Make this distinct from pose2 by changing the legs and torso to an upright stance. Empty hands visibly touch; there is no object held.\n\nShow four clean, separate, anatomically natural poses in this exact order. Do not enclose, cradle or surround empty space as if holding a round object. No spheres or dark objects anywhere. Return only the four-cell transparent sheet.",
+              "generationId": "exec-bc08a0f3-9a4c-4e2b-9bcd-3f0659587499",
+              "references": [
+                "tools/generate-art/references/marco-vellum-portrait-reference.png",
+                "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+              ],
+              "rawSource": "tools/generate-art/sources/marco-vellum-receive-attempt6-generated-raw.png",
+              "rawSourceSha256": "bc77dc71cb1a3bf8e821efe8ffd1cb1a6e804787882aaa166cfd97f262453bee",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/marco-vellum-receive-attempt6-clean-candidate.png",
+              "sourceSha256": "588a84fc3a5bb84a83aa1b1b4d6847b2923e7aec42699e7b3f94c2da1687fc26",
+              "layoutFile": "tools/generate-art/marco-vellum-receive-attempt6-layouts.json",
+              "layoutSha256": "0a9d3e5e4d956d44959a7dfcf59ab52b1c1327afb5e8a0418bf437bddccb22d3",
+              "cleanup": {
+                "script": "tools/generate-art/clean-marco-vellum-receive-attempt6.py",
+                "record": "tools/generate-art/marco-vellum-receive-attempt6-layouts.json",
+                "method": "Per-cell largest alpha>=64 component; preserve original pixels within a 2px dilation; remove alpha<8 and the generated background glow; uniformly nearest-neighbor scale to <=330x330 and center in transparent 768x512 cells. No redraw, synthesis or pose rearrangement.",
+                "previews": [
+                  "tools/generate-art/previews/marco-vellum-receive/attempt6-clean-light.png",
+                  "tools/generate-art/previews/marco-vellum-receive/attempt6-clean-dark.png"
+                ],
+                "minimumMarginsLeftRightTopBottom": [
+                  219,
+                  219,
+                  91,
+                  91
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "notes": "Independent visual review accepted. Four distinct ordered poses; catch frame2/tick4 and upright settle frame3; Marco identity, complete anatomy and blank kit consistent; no basketball or dark sphere; light/dark proofs show clean transparency without haze. Cleaned cell margins are >=91px vertical and >=219px horizontal. Raw sheet had a colored background glow, removed by documented component isolation without redrawing."
+              },
+              "generationHistoryFile": "tools/generate-art/marco-vellum-receive-attempts.json",
+              "generationHistory": [
+                {
+                  "attempt": 4,
+                  "status": "rejected",
+                  "provenance": "tools/generate-art/marco-vellum-receive4-provenance.json",
+                  "reason": "Hair touched top boundary in frame3; source margins failed 40px minimum and an unrequested chest emblem appeared. Prior layout eligibility contradiction preserved in archive."
+                },
+                {
+                  "attempt": 5,
+                  "status": "rejected",
+                  "generationId": "exec-b9372a96-0f71-4906-a9f0-0768f0aac5ac",
+                  "source": "tools/generate-art/sources/marco-vellum-receive-attempt5-generated-raw.png",
+                  "sha256": "748ed0fc971275946d73a3806ad0e03b9c9c21080bb70590ff6d647001e3915b",
+                  "promptFile": "tools/generate-art/marco-vellum-receive-attempt5-prompt.md",
+                  "provenanceFile": "tools/generate-art/marco-vellum-receive-attempt5-provenance.json",
+                  "reason": "Dark ball-like object visible in catch and settle poses."
+                },
+                {
+                  "attempt": 6,
+                  "status": "accepted",
+                  "generationId": "exec-bc08a0f3-9a4c-4e2b-9bcd-3f0659587499",
+                  "source": "tools/generate-art/sources/marco-vellum-receive-attempt6-generated-raw.png",
+                  "sha256": "bc77dc71cb1a3bf8e821efe8ffd1cb1a6e804787882aaa166cfd97f262453bee",
+                  "promptFile": "tools/generate-art/marco-vellum-receive-attempt6-prompt.md",
+                  "cleanedSource": "tools/generate-art/sources/marco-vellum-receive-attempt6-clean-candidate.png",
+                  "cleanedSha256": "588a84fc3a5bb84a83aa1b1b4d6847b2923e7aec42699e7b3f94c2da1687fc26"
+                }
+              ],
+              "ballTrack": {
+                "owner": "marco-vellum",
+                "art": "No ball in atlas; separate Marco-specific runtime path accepted after native review at 100% and 120%."
+              },
+              "status": "accepted-and-runtime-integrated",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 269,
+                  "y": 91,
+                  "w": 230,
+                  "h": 330,
+                  "component": 1,
+                  "area": 29081
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 987,
+                  "y": 100,
+                  "w": 330,
+                  "h": 312,
+                  "component": 2,
+                  "area": 27748
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 278,
+                  "y": 603,
+                  "w": 212,
+                  "h": 330,
+                  "component": 4,
+                  "area": 25650
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1074,
+                  "y": 602,
+                  "w": 156,
+                  "h": 332,
+                  "component": 3,
+                  "area": 23003
+                }
+              ],
+              "uniformScale": 0.27710843373493976,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original receive poses",
+              "runtimeBallTrack": {
+                "height": [
+                  1.3,
+                  1.35,
+                  1.2,
+                  0.95
+                ],
+                "forward": [
+                  22,
+                  13,
+                  4,
+                  3
+                ]
+              },
+              "nativeReviewReports": [
+                "tools/generate-art/previews/marco-vellum-receive/native-100/report.json",
+                "tools/generate-art/previews/marco-vellum-receive/native-120/report.json"
+              ],
+              "atlasSha256": "94a98f2d60ea43a1e496bb59365a6477246889287df1fcca1eeda757fc757227"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Game-only supporting identity: short black hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately.",
+        "notes": "Game-only supporting identity: short black hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately. Marco receive is visually approved in both facings at 100% and 120%.",
         "reviewedAt": "2026-10-21",
         "scope": "canonical body direction policy; individual production clips require separate visual approval",
         "evidence": [

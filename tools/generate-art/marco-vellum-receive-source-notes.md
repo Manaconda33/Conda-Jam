@@ -1,6 +1,14 @@
-# Marco Vellum — `receive` source review
+# Marco Vellum — `receive` source audit correction
 
-- Preserved as a rejected attempt; do not pack or count it. Independent review confirms the edited lower-right pose has hair pixels on the source-cell top boundary (0 px margin, despite the 40 px prompt requirement) and an unrequested red chest emblem.
-- Padding cannot recover missing hair. The predecessor retains more hair clearance but is rejected because its catch and settle poses are too similar. A composite would require separate review.
-- The atlas has four unique crops, correct basic identity and no painted basketball. Provenance and source hashes are retained for audit.
-- Provenance claims a Marco-specific `receive` ball track, but the runtime currently lacks that override; this would need implementation if a later replacement is accepted.
+- The existing four-pose attempt4 is rejected and must not be packed. The active layout provenance had a stale `eligibleForPacking:true` / accepted label; the contradictory JSON is retained in `tools/generate-art/layout-archives/marco-vellum-receive-20261025/` and the active layout now agrees with rejected provenance.
+- Independent alpha>=64 measurements in the cleaned 768×512 cells (left/right/top/bottom): frame0 170/160/35/16; frame1 112/57/40/19; frame2 186/180/15/34; frame3 210/217/0/34. All four fail the exact prompt's40px minimum; frame3 hair touches the top edge.
+- The edited frame3 also has an unrequested red chest emblem. Hair cannot be recovered by padding. The predecessor is retained as rejected because its catch and settle poses are too similar.
+- The silhouettes otherwise show complete human Marco anatomy, correct short black hair/clean-shaven face and black/crimson/white kit. No ball is painted. Receive's catch timing is frame2/tick4.
+- `marco-vellum-runtime-ball-tracks.json` and Marco's `src/core/animation.js` block do not have a `receive` override. A replacement needs its own native-reviewed Marco ball track.
+
+## Attempt5 and attempt6 review (2026-10-25)
+
+- Attempt5 (`exec-b9372a96-0f71-4906-a9f0-0768f0aac5ac`) is rejected: an independent reviewer found a dark round ball-like object between the catch hands in frame2 and around the waist in frame3. Exact prompt, raw/clean source, layout, cleanup script and light/dark proofs remain in the attempt5 files.
+- Attempt6 (`exec-bc08a0f3-9a4c-4e2b-9bcd-3f0659587499`) is accepted after independent source review. Its raw SHA-256 is `bc77dc71cb1a3bf8e821efe8ffd1cb1a6e804787882aaa166cfd97f262453bee`; cleaned source SHA-256 is `588a84fc3a5bb84a83aa1b1b4d6847b2923e7aec42699e7b3f94c2da1687fc26`. Raw background glow was removed with the recorded per-cell alpha-component cleanup; no pose redraw or rearrangement. The final source has >=219px horizontal and91px vertical margins in all four cells. Light/dark proofs show transparent background, no haze, complete distinct poses and no ball.
+- The final 192×192 atlas `public/assets/animation/marco-vellum-receive-right.webp` SHA-256 is `94a98f2d60ea43a1e496bb59365a6477246889287df1fcca1eeda757fc757227`. Its predecessor atlas is preserved at `tools/generate-art/layout-archives/marco-vellum-receive-20261025/prior-margin-rejected/marco-vellum-receive-right.webp`.
+- Separate ball track height `[1.3,1.35,1.2,.95]`, forward `[22,13,4,3]` passes independent native Canvas review at100%/120% in both facings: fingertip contact frame1, catch frame2/tick4, lower-sternum carry frame3; all eight captures per zoom select the production atlas. Reports and captures are under `tools/generate-art/previews/marco-vellum-receive/native-{100,120}/`.

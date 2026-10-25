@@ -249,6 +249,46 @@
           "tools/generate-art/previews/marco-vellum-pass-behind/native-120/report.json"
         ]
       }
+    },
+    "receive": {
+      "athlete": "marco-vellum",
+      "clip": "receive",
+      "status": "accepted after native contact review at 100% and 120%",
+      "height": [
+        1.3,
+        1.35,
+        1.2,
+        0.95
+      ],
+      "forward": [
+        22,
+        13,
+        4,
+        3
+      ],
+      "basis": "Marco-specific separate-ball path approaches the extended fingertips in frame1, aligns at the catch anchor frame2/tick4, and remains secured at the lower sternum in frame3. No basketball is painted in the atlas.",
+      "nativeReview": {
+        "zooms": [
+          100,
+          120
+        ],
+        "facings": [
+          "right",
+          "left"
+        ],
+        "frames": {
+          "1": "incoming ball meets extended fingertips",
+          "2": "catch at frame2/tick4, ball aligned over clasped hands/sternum",
+          "3": "ball remains at lower-sternum hold"
+        },
+        "clipSummariesPerZoom": 2,
+        "actionFrameCapturesPerZoom": 8,
+        "review": "Independent reviewer accepted the ball contact at both zooms and both facings. Frame1 reaches the fingertips; frame2 aligns with the catch; frame3 is carried at the lower sternum. No collision or clipping. All eight frame/facing captures per zoom select the production atlas.",
+        "reports": [
+          "tools/generate-art/previews/marco-vellum-receive/native-100/report.json",
+          "tools/generate-art/previews/marco-vellum-receive/native-120/report.json"
+        ]
+      }
     }
   },
   "basis": "Marco-specific frame-indexed tracks; shoot contact was checked in actual native Canvas captures at 100% and 120% in both facings. Source art and the separate ball path remain independently recorded."

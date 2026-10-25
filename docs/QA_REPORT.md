@@ -1,3 +1,11 @@
+# QA report
+
+## Marco Vellum — `receive` accepted and integrated locally
+
+- Attempt6 adds four unique poses; Marco now has11/29 clips /79 authored drawings. Its cleaned source preserves all four poses without redraw/rearrangement and has >=219px horizontal /91px vertical margins. The 192×192 atlas has four unique crops. The previous rejected atlas is archived; attempt4 and ball-contaminated attempt5 remain rejected with their prompts and notes.
+- The separate Marco ball track `[22,13,4,3]` forward / `[1.3,1.35,1.2,.95]` height passes independent native review at100%/120% in both facings. The ball meets the fingertips on frame1, aligns at the frame2/tick4 catch, and remains at the lower sternum in frame3. All8 frame/facing captures per zoom select production art.
+- Full checks pass: `npm test`36/36 files; lint18 modules; roster35/105; 100-match simulation /861,238 ticks /6 overtimes; build. Strict report-only audit `2026-10-25T02:06:00.776Z`:796 clips /7,195 drawings /105 athletes,2,307 missing clips, one below-target clip and4 inherited prompt findings. Chromium E2E was blocked before launch because the executor denies localhost binding (`listen EPERM`).
+
 ## Marco Vellum — `pass` accepted and integrated
 
 - Added six unique right-facing poses, bringing Marco to8/29 clips /63 authored drawings. Attempt4 passed independent source review after per-cell alpha isolation and uniform downscaling; no pose was redrawn or rearranged. Earlier raw attempts remain rejected and preserved. The final atlas is288×192, uses six distinct cells, and has at least5px transparency on every edge.

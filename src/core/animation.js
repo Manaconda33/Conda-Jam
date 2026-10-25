@@ -1114,6 +1114,9 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   'pass-overhead':{height:[1.05,1.45,1.9,2.05,2.15,2.2],forward:[5,6,8,11,16,22]},
   // Marco releases the behind-the-back pass at frame3/tick7 toward image-left.
   'pass-behind':{height:[1.05,.95,.9,1.25,1.25,1.2],forward:[5,2,-5,-14,-18,-22]},
+  // Marco receives on a separate ball track: incoming fingertip contact through tick3,
+  // hand catch at frame2/tick4, then secured against the lower sternum.
+  receive:{height:[1.3,1.35,1.2,.95],forward:[22,13,4,3]},
   pickup:{height:[0,0,0,.25,.9],forward:[8,8,9,.5,-9]}
 },'flint-rooker':{
   // Flint's short-haired lead-hand poses need the separate ball ahead of his

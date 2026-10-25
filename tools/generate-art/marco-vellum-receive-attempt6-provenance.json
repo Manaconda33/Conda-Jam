@@ -1,0 +1,92 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "receive",
+  "direction": "right",
+  "attempt": 6,
+  "generatedAt": "2026-10-25",
+  "eligibleForPacking": true,
+  "promptFile": "tools/generate-art/marco-vellum-receive-attempt6-prompt.md",
+  "prompt": "Create only a transparent RGBA image sprite sheet: 1536x1024 pixels, exact 2 columns by 2 rows of 768x512 cells, row-major. Four complete full-body Marco Vellum drawings, one centered per cell, facing image-right. Each full silhouette including hair, fingers, shoes and outlines must fit within a 330x330px centered rectangle with at least 90 transparent pixels from every cell edge. Empty alpha-zero background and gutters. No tint, haze, gradient, floor, shadow, court, hoop, frame, grid, checkerboard, text, logo, badge, number, emblem, prop, other person, sphere or ball.\n\nMarco is the same compact athletic adult human man in all four frames: medium-light olive skin, angular clean-shaven face, short thick slightly wavy black hair, no beard or mustache, black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands and high-top shoes. Plain blank black jersey front: piping only, no chest mark. Crisp outlined 1990s arcade pixel art, same right-facing three-quarter camera, face, body proportions and clothes. Natural complete anatomy with exactly two arms/hands and two legs/shoes.\n\nThe game renders its basketball separately. Do NOT draw a basketball, circle, sphere, dark oval or any object in any cell. In catch and hold poses the athlete's hands touch each other or touch his chest; the empty gap between hands must show only transparent background:\n0. Balanced ready stance, watching for a pass from image-right, empty hands apart near his chest.\n1. Step toward image-right and extend both empty arms forward, palms open and fingers spread; receiving reach.\n2. CATCH ANCHOR at frame index2 / animation tick4: plant both feet, bring empty palms together at the sternum, fingertips visibly touching; arms bent. The ball is represented only by the separate game ball and is absent from this image.\n3. After the catch, settle upright and balanced, hands together against the lower sternum, elbows tucked, feet shoulder-width. Make this distinct from pose2 by changing the legs and torso to an upright stance. Empty hands visibly touch; there is no object held.\n\nShow four clean, separate, anatomically natural poses in this exact order. Do not enclose, cradle or surround empty space as if holding a round object. No spheres or dark objects anywhere. Return only the four-cell transparent sheet.",
+  "generationId": "exec-bc08a0f3-9a4c-4e2b-9bcd-3f0659587499",
+  "references": [
+    "tools/generate-art/references/marco-vellum-portrait-reference.png",
+    "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+  ],
+  "rawSource": "tools/generate-art/sources/marco-vellum-receive-attempt6-generated-raw.png",
+  "rawSourceSha256": "bc77dc71cb1a3bf8e821efe8ffd1cb1a6e804787882aaa166cfd97f262453bee",
+  "sourceImage": "tools/generate-art/sources/marco-vellum-receive-attempt6-clean-candidate.png",
+  "sourceSha256": "588a84fc3a5bb84a83aa1b1b4d6847b2923e7aec42699e7b3f94c2da1687fc26",
+  "layoutFile": "tools/generate-art/marco-vellum-receive-attempt6-layouts.json",
+  "layoutSha256": "0a9d3e5e4d956d44959a7dfcf59ab52b1c1327afb5e8a0418bf437bddccb22d3",
+  "cleanup": {
+    "script": "tools/generate-art/clean-marco-vellum-receive-attempt6.py",
+    "record": "tools/generate-art/marco-vellum-receive-attempt6-layouts.json",
+    "method": "Per-cell largest alpha>=64 component; preserve original pixels within a 2px dilation; remove alpha<8 and the generated background glow; uniformly nearest-neighbor scale to <=330x330 and center in transparent 768x512 cells. No redraw, synthesis or pose rearrangement.",
+    "previews": [
+      "tools/generate-art/previews/marco-vellum-receive/attempt6-clean-light.png",
+      "tools/generate-art/previews/marco-vellum-receive/attempt6-clean-dark.png"
+    ],
+    "minimumMarginsLeftRightTopBottom": [
+      219,
+      219,
+      91,
+      91
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "notes": "Independent visual review accepted. Four distinct ordered poses; catch frame2/tick4 and upright settle frame3; Marco identity, complete anatomy and blank kit consistent; no basketball or dark sphere; light/dark proofs show clean transparency without haze. Cleaned cell margins are >=91px vertical and >=219px horizontal. Raw sheet had a colored background glow, removed by documented component isolation without redrawing. Native Canvas review at 100% and 120% in both facings confirms contact at the fingertips, frame2/tick4 catch, and lower-sternum carry; all16 frame/facing captures select the production atlas."
+  },
+  "generationHistoryFile": "tools/generate-art/marco-vellum-receive-attempts.json",
+  "generationHistory": [
+    {
+      "attempt": 4,
+      "status": "rejected",
+      "provenance": "tools/generate-art/marco-vellum-receive4-provenance.json",
+      "reason": "Hair touched top boundary in frame3; source margins failed 40px minimum and an unrequested chest emblem appeared. Prior layout eligibility contradiction preserved in archive."
+    },
+    {
+      "attempt": 5,
+      "status": "rejected",
+      "generationId": "exec-b9372a96-0f71-4906-a9f0-0768f0aac5ac",
+      "source": "tools/generate-art/sources/marco-vellum-receive-attempt5-generated-raw.png",
+      "sha256": "748ed0fc971275946d73a3806ad0e03b9c9c21080bb70590ff6d647001e3915b",
+      "promptFile": "tools/generate-art/marco-vellum-receive-attempt5-prompt.md",
+      "provenanceFile": "tools/generate-art/marco-vellum-receive-attempt5-provenance.json",
+      "reason": "Dark ball-like object visible in catch and settle poses."
+    },
+    {
+      "attempt": 6,
+      "status": "accepted",
+      "generationId": "exec-bc08a0f3-9a4c-4e2b-9bcd-3f0659587499",
+      "source": "tools/generate-art/sources/marco-vellum-receive-attempt6-generated-raw.png",
+      "sha256": "bc77dc71cb1a3bf8e821efe8ffd1cb1a6e804787882aaa166cfd97f262453bee",
+      "promptFile": "tools/generate-art/marco-vellum-receive-attempt6-prompt.md",
+      "cleanedSource": "tools/generate-art/sources/marco-vellum-receive-attempt6-clean-candidate.png",
+      "cleanedSha256": "588a84fc3a5bb84a83aa1b1b4d6847b2923e7aec42699e7b3f94c2da1687fc26"
+    }
+  ],
+  "ballTrack": {
+    "owner": "marco-vellum",
+    "art": "No ball in atlas; separate Marco-specific runtime path accepted after native contact review.",
+    "height": [
+      1.3,
+      1.35,
+      1.2,
+      0.95
+    ],
+    "forward": [
+      22,
+      13,
+      4,
+      3
+    ]
+  },
+  "status": "accepted-and-runtime-integrated",
+  "nativeReviewReports": [
+    "tools/generate-art/previews/marco-vellum-receive/native-100/report.json",
+    "tools/generate-art/previews/marco-vellum-receive/native-120/report.json"
+  ],
+  "atlas": "public/assets/animation/marco-vellum-receive-right.webp",
+  "atlasSha256": "94a98f2d60ea43a1e496bb59365a6477246889287df1fcca1eeda757fc757227"
+}
