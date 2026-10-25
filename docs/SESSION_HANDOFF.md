@@ -4,7 +4,7 @@ Piper reaches23/29 registered clips /203 authored drawings. Attempt3 source SHA-
 
 Accepted track H `[.95,1.1,.55,1.3,1.45,1.25,1.2,2.0,1.0,1.8,3.2,2.4,1.5,.7,.55]` / F `[6,6,4,5,0,-4,12,-8,10,-4,3,8,8,5,5]` passed independent native review both facings at100%/120%. Piper owns through tick20, releases ownerless at21 and scores once for two. The five prior tracks against attempt1 are diagnostic-only/rejected.
 
-Validation: `npm test`40/40 files; lint18 modules; content35 franchises/105 athletes; league simulation100 matches /861,421 ticks /6 overtimes; atlas packer55 tests; build PASS. E2E is blocked because the sandbox denies localhost binding (`listen EPERM` at `127.0.0.1:4175`). Audit `2026-10-25T12:46:10.618Z`:813 clips /7,346 drawings /105 athletes, 2,290 missing clips, one target shortfall and4 inherited prompt findings. Next: J.119 Piper `dunk-tomahawk`; accepted attempt2 source is committed, native review pending.
+Validation: `npm test`40/40 files; lint18 modules; content35 franchises/105 athletes; league simulation100 matches /861,421 ticks /6 overtimes; atlas packer55 tests; build PASS. E2E is blocked because the sandbox denies localhost binding (`listen EPERM` at `127.0.0.1:4175`). Audit `2026-10-25T12:46:10.618Z`:813 clips /7,346 drawings /105 athletes, 2,290 missing clips, one target shortfall and4 inherited prompt findings. Next: J.119 Piper `dunk-tomahawk`; accepted attempt2 source is committed, native review pending. J.118 is committed locally as `e70e4cfd`; standard push failed at the configured port8080 proxy, so no Pages workflow ran. Latest deployed checkpoint remains `513e0a59` / run #169.
 
 
 ## Current checkpoint — 2026-10-25 (J.117 Piper Quickstep `dunk-reverse` integrated locally)

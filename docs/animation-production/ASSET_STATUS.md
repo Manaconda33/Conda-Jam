@@ -4,7 +4,7 @@ Issue #3 remains in progress. The strict report-only audit at `2026-10-25T12:46:
 
 Piper `dunk-power` J.115, `dunk-windmill` J.116, `dunk-reverse` J.117, and `dunk-360` J.118 are accepted and registered. J.118's separate track H `[.95,1.1,.55,1.3,1.45,1.25,1.2,2.0,1.0,1.8,3.2,2.4,1.5,.7,.55]` / F `[6,6,4,5,0,-4,12,-8,10,-4,3,8,8,5,5]` passed native review both facings at100%/120%; it holds contact through tick20, releases ownerless at21, and scores once for two. All diagnostic-only tracks for the rejected attempt1 source remain preserved.
 
-Piper J.119 `dunk-tomahawk` attempt2 is source-reviewed and committed locally as `431ec7a9`; its native ball track and production atlas are pending.
+Piper J.119 `dunk-tomahawk` attempt2 is source-reviewed and committed locally as `431ec7a9`; its native ball track and production atlas are pending. J.118 integration is committed locally as `e70e4cfd`; its push failed at the unavailable port8080 proxy, so no Pages workflow ran.
 
 
 
