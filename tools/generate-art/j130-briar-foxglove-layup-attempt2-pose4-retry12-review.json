@@ -1,0 +1,17 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry12",
+  "decision": "REJECT",
+  "generationId": "exec-5bf4b626-69b6-4b30-aea5-c9da7768023f",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry12-raw.png",
+  "sourceSha256": "77c7efd731f40f91862d8606f3d9a4da3e27a146d514478981377009323983e8",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry12-light-dark-review.jpg",
+  "checks": {
+    "pose": "Broad peak release gesture with high-forward open palm, lower guide arm and tucked trailing leg; two arms/two legs visible, no ball. Figure visibly exceeds the 44% canvas-height limit.",
+    "identity": "Adult human with shoulder-length locs and red headband; no fox traits.",
+    "palette": "Skin remains bright/orange compared with accepted Briar deep-brown references. Cream shoes are present.",
+    "transparency": "The tool returned RGB with a checkerboard baked into the entire image; no alpha channel.",
+    "cellMargins": "The full 1254x1254 canvas is opaque; zero clear margin on all four edges."
+  },
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry12-prompt.md",
+  "reason": "Opaque RGB output with baked checkerboard leaves zero transparent margins; figure also exceeds the requested size and palette drifts orange. Preserve exactly; do not clean or assemble."
+}

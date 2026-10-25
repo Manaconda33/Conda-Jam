@@ -1,0 +1,65 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "frame": 4,
+  "tick": 10,
+  "retry": 12,
+  "generationId": "exec-5bf4b626-69b6-4b30-aea5-c9da7768023f",
+  "generator": "image_gen.imagegen",
+  "originalGeneratedPath": "/workspace/generated_images/exec-5bf4b626-69b6-4b30-aea5-c9da7768023f.png",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry12-raw.png",
+  "rawSha256": "77c7efd731f40f91862d8606f3d9a4da3e27a146d514478981377009323983e8",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "transparentBackgroundRequested": true,
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry12-prompt.md",
+  "promptSha256": "6c8e8bf55f3658b71f04b16112f92d9243c409ffc4283765d62c3cc47f251e30",
+  "references": [],
+  "alphaMetrics": {
+    "inputMode": "RGB (no alpha channel)",
+    "convertedRGBAAlphaExtrema": [
+      255,
+      255
+    ],
+    "thresholdBoundsXYXYExclusive": {
+      "1": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "8": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "64": [
+        0,
+        0,
+        1254,
+        1254
+      ]
+    },
+    "marginsLTRB": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "connectedComponents": 1
+  },
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry12-light-dark-review.jpg",
+  "decision": "REJECT; retain raw unchanged; no cleanup or packing",
+  "visualReview": {
+    "pose": "Broad peak release gesture with high-forward open palm, lower guide arm and tucked trailing leg; two arms/two legs visible, no ball. Figure visibly exceeds the 44% canvas-height limit.",
+    "identity": "Adult human with shoulder-length locs and red headband; no fox traits.",
+    "palette": "Skin remains bright/orange compared with accepted Briar deep-brown references. Cream shoes are present.",
+    "transparency": "The tool returned RGB with a checkerboard baked into the entire image; no alpha channel.",
+    "cellMargins": "The full 1254x1254 canvas is opaque; zero clear margin on all four edges."
+  }
+}
