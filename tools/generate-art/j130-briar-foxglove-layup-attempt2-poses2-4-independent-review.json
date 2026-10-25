@@ -1,0 +1,808 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "reviewedAt": "2026-10-25",
+  "reviewer": "independent source-selection review",
+  "scope": "pose2 retries2\u20138; pose3 retries3\u201310; pose4 retries2\u20137; exact prompts and provenance inspected for every in-scope raw source. Later pose2 retry9 and pose3 retry11 were not in this review scope. Pose4 retry3 palette-edit output and pose4 retry6 palette-edit variants were separately inventoried as edited images and rejected; they are not unmodified-source alternatives.",
+  "references": [
+    "public/assets/animation/briar-foxglove-shoot-right.webp",
+    "public/assets/animation/briar-foxglove-receive-right.webp",
+    "public/assets/animation/briar-foxglove-idle-right.webp"
+  ],
+  "canonicalSequence": {
+    "frame2": "tick5 early ascending carry; bent shooting elbow and hand at lower cheek below mouth, off-hand starting sideways, folded trailing leg.",
+    "frame3": "tick8 prerelease; bent elbow, shallow palm-up tray with fingertips at/below red headband top, off-hand opening sideways; preserve tucked heel.",
+    "frame4": "tick10 release; extended high-forward open palm directed up/outward; lower distinct guide hand, high lead knee and tightly folded trailing leg."
+  },
+  "identityHardConstraints": {
+    "targetMedianSkin": "#914627",
+    "shadow": "#552311",
+    "highlight": "#C17246",
+    "kit": "russet sleeveless torso and shorts with cream trim; predominantly cream socks/shoes",
+    "hair": "dark locs and vivid red headband",
+    "wrists": "bare",
+    "chest": "blank",
+    "ball": "no ball/props; ball stays on separate athlete-specific track"
+  },
+  "method": "Reviewed exact prompt text and provenance for each in-scope source, existing raw images and prior review records, accepted reference atlases and pose sequence. Full-canvas alpha bounds were retained from raw pixel data; contact sheet crops only for readable pose comparison and does not imply passing margins. No source was changed, cleaned, accepted or packed.",
+  "overallDecision": "No existing in-scope unmodified raw source passes for cleanup after only uniform scale/component isolation. Every frame has a plausible leading pose candidate, but each still violates identity/palette and alpha-clearance requirements and frame-specific gesture constraints remain imperfect. Frame4 retry7 is the strongest broad release pose but is still unequivocally reject.",
+  "bestCandidateByFrame": {
+    "2": {
+      "retry": 2,
+      "reason": "Closest to specified cheek-level early carry and correct leg silhouette; fails skin/kit and raw-clear-margin criteria."
+    },
+    "3": {
+      "retry": 5,
+      "reason": "Closest to bent-elbow shallow palm-up prerelease with readable folded leg and opening guide hand; fingertips are at crown rather than the constrained brow/headband zone, and palette/margins fail."
+    },
+    "4": {
+      "retry": 7,
+      "reason": "Most coherent release silhouette and limb arrangement, but orange/bronze skin, non-cream shoe accents, 13,207 low-alpha pixels and 21.8% top clearance violate explicit constraints."
+    }
+  },
+  "candidateRanks": {
+    "2": [
+      {
+        "retry": 2,
+        "passForCleanup": false
+      },
+      {
+        "retry": 4,
+        "passForCleanup": false
+      },
+      {
+        "retry": 3,
+        "passForCleanup": false
+      },
+      {
+        "retry": 5,
+        "passForCleanup": false
+      },
+      {
+        "retry": 7,
+        "passForCleanup": false
+      },
+      {
+        "retry": 8,
+        "passForCleanup": false
+      },
+      {
+        "retry": 6,
+        "passForCleanup": false
+      }
+    ],
+    "3": [
+      {
+        "retry": 5,
+        "passForCleanup": false
+      },
+      {
+        "retry": 4,
+        "passForCleanup": false
+      },
+      {
+        "retry": 7,
+        "passForCleanup": false
+      },
+      {
+        "retry": 9,
+        "passForCleanup": false
+      },
+      {
+        "retry": 10,
+        "passForCleanup": false
+      },
+      {
+        "retry": 3,
+        "passForCleanup": false
+      },
+      {
+        "retry": 8,
+        "passForCleanup": false
+      },
+      {
+        "retry": 6,
+        "passForCleanup": false
+      }
+    ],
+    "4": [
+      {
+        "retry": 7,
+        "passForCleanup": false
+      },
+      {
+        "retry": 2,
+        "passForCleanup": false
+      },
+      {
+        "retry": 5,
+        "passForCleanup": false
+      },
+      {
+        "retry": 4,
+        "passForCleanup": false
+      },
+      {
+        "retry": 6,
+        "passForCleanup": false
+      },
+      {
+        "retry": 3,
+        "passForCleanup": false
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "frame": 2,
+      "retry": 2,
+      "rankWithinFrame": 1,
+      "generationId": "exec-30ce7e37-acfb-411f-8a31-b90228bafa53",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry2-raw.png",
+      "rawSha256": "d37b346999c2aceb0a44da3d2ba6f925439cf5dee29354732047e8c4e143e529",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry2-prompt.md",
+      "promptSha256": "d41cab7c80c7eec34d37d5afbb2c6d9f3077fcfdb41274c93dde9d9c8935caf2",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry2-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry2-review.json",
+      "priorDecision": "reject",
+      "visualNotes": "Best cheek-level carry hand with high lead knee and folded trail heel; palette/shoes/emblem and clear-margin constraints fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        26,
+        1224,
+        1214
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        26,
+        30,
+        40
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 2,
+      "retry": 3,
+      "rankWithinFrame": 3,
+      "generationId": "exec-e7e6c4eb-bd8b-492b-9474-ea72e9de1d89",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry3-raw.png",
+      "rawSha256": "83bc2d417df0ad6d28b3bce79ad5e658e0e6f3a1f778b1b09cf5dba1144812dd",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry3-prompt.md",
+      "promptSha256": "6d9e764273530dbbec9a4b93ff98a15e128c96ed86b2564ee2da76c241eaab9f",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry3-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry3-review.json",
+      "priorDecision": "reject",
+      "visualNotes": "Compact folded-knee ascent, but fingertips at brow; palette and shoes drift, margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        0,
+        1216,
+        1198
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        0,
+        38,
+        56
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 2,
+      "retry": 4,
+      "rankWithinFrame": 2,
+      "generationId": "exec-0cea9d31-c068-4cdd-ab67-b8eaf6cb4b7c",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry4-raw.png",
+      "rawSha256": "84032b8434248bc3101adee25627f1db06a450ed59dcce3a1aa30aec33ef60c0",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry4-prompt.md",
+      "promptSha256": "738713f143ff6dbbe1fa23e0554c69356bf75c119235c382d84308f7784b8067",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry4-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry4-review.json",
+      "priorDecision": "reject",
+      "visualNotes": "Two limbs and folded heel; hand too near eye/brow, skin orange, long locs/bright kit, margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        21,
+        1238,
+        1254
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        21,
+        16,
+        0
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 2,
+      "retry": 5,
+      "rankWithinFrame": 4,
+      "generationId": "exec-37ef487e-a741-48a6-88ae-71a1163d4b43",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry5-raw.png",
+      "rawSha256": "75878fdb7c71a73e05055ce2cbdaed44f2d7002fd4237ed0f74d54a4b4e566cf",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry5-prompt.md",
+      "promptSha256": "cf1f35f3c916b3ef1166ed20c31555e6e4dea9db1a246653f82402d29e0da18f",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry5-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry5-review.json",
+      "priorDecision": "reject",
+      "visualNotes": "Good airborne legs, but fingers at brow/eye, guide hand not sideways, orange skin/russet shoes, margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        73,
+        95,
+        1202,
+        1170
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        73,
+        95,
+        52,
+        84
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 2,
+      "retry": 6,
+      "rankWithinFrame": 7,
+      "generationId": "exec-56f19aad-be58-4688-aacd-4651eb65835d",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry6-raw.png",
+      "rawSha256": "795be148492eda5b3527c7028c22f888e42dadb50874cca54beafc9f01863fd6",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry6-prompt.md",
+      "promptSha256": "8e2624026bf23e15917bbcc0d3fbc6e5b0f48f51da6106cb13adfd8ef0d632d9",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry6-provenance.json",
+      "reviewFile": null,
+      "priorDecision": "rejected per source notes; see prompt/provenance",
+      "visualNotes": "Hand remains eye/forehead high and torso rendered cream; identity mismatch, residue/margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        17,
+        19,
+        1162,
+        1212
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        17,
+        19,
+        92,
+        42
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 2,
+      "retry": 7,
+      "rankWithinFrame": 5,
+      "generationId": "exec-54389acd-4c5c-4118-b697-838cbbbaa150",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry7-raw.png",
+      "rawSha256": "54efff0ea839e5612cba3cd72571ee5fdc08d4f8c601a54f9cdde026a2265e57",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry7-prompt.md",
+      "promptSha256": "31f00050a51463ff200cd2dc3777682d948a201fcbf1ee39751eed450fe00275",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry7-provenance.json",
+      "reviewFile": null,
+      "priorDecision": "rejected per source notes; see prompt/provenance",
+      "visualNotes": "Hand near forehead/eye rather than below mouth; skin orange and figure exceeds 25% margins.",
+      "rawDimensions": [
+        1272,
+        1236
+      ],
+      "nonzeroAlphaBounds": [
+        63,
+        45,
+        1242,
+        1220
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        63,
+        45,
+        30,
+        16
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 2,
+      "retry": 8,
+      "rankWithinFrame": 6,
+      "generationId": "exec-1a7b19ba-d3c3-44e6-9085-e6d290b149a3",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry8-raw.png",
+      "rawSha256": "a096832567dd657451b3d13e812c9405736c2d6b82b101d18b909537dfda71b8",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry8-prompt.md",
+      "promptSha256": "820ecd7b8018adaf331cbcb9a7d65f2a8109f859d36abe7c5a0da222e27160db",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry8-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry8-review.json",
+      "priorDecision": "reject",
+      "visualNotes": "Hand at nose/mouth not below mouth, raised lower leg awkward, orange palette and red edge residue; margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        27,
+        23,
+        1234,
+        1214
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        27,
+        23,
+        20,
+        40
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 3,
+      "retry": 3,
+      "rankWithinFrame": 6,
+      "generationId": "exec-a1c45e74-fde4-4f3b-a208-f210bdeefe19",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry3-raw.png",
+      "rawSha256": "c997e87e8eef505361bcbcb007dc8286bba2d057a3351bfa2521f861c4b10551",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry3-prompt.md",
+      "promptSha256": "849c88ce7a3fe23aa6f93cbdf7df8debbb32b4ae462614a0ad3c74d4154a4651",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry3-provenance.json",
+      "reviewFile": null,
+      "priorDecision": "rejected per source notes; see prompt/provenance",
+      "visualNotes": "Fingertips above crown, trailing leg extended rather than folded, orange/light palette, edge residue/margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        33,
+        39,
+        1232,
+        1254
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        33,
+        39,
+        22,
+        0
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 3,
+      "retry": 4,
+      "rankWithinFrame": 2,
+      "generationId": "exec-ae7b24c9-4322-44c7-a9e5-53c8f58f6aaa",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry4-raw.png",
+      "rawSha256": "720ef642a834401417a4cc4acf5d744f7824eeac0dce047bf0307e95775ae59f",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry4-prompt.md",
+      "promptSha256": "01a5fb4d0c2a1a71615a5339e8723b06ff65aa2494180277d4a3ef1dc7bcbf43",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry4-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry4-review.json",
+      "priorDecision": "reject",
+      "visualNotes": "Palm-up and bent arm with folded legs, but fingertips above crown and guide hand clustered at chest; palette/margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        29,
+        1210,
+        1214
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        29,
+        44,
+        40
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 3,
+      "retry": 5,
+      "rankWithinFrame": 1,
+      "generationId": "exec-a2d5d24f-e267-44d2-97bb-0e99113064d7",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry5-raw.png",
+      "rawSha256": "c5cde3e69a7e4f4a8d3e5db99bfdcc05b9646b3129112574e19c988980d4a4ce",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry5-prompt.md",
+      "promptSha256": "ceffa44830bfd1a0d5d974e59922b52a9520c53f5bc33d019546c2addff701cf",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry5-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry5-review.json",
+      "priorDecision": "reject",
+      "visualNotes": "Best shallow palm-up prerelease with bent elbow, open guide hand and folded heel; fingertips at crown, skin orange, margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        27,
+        1168,
+        1206
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        27,
+        86,
+        48
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 3,
+      "retry": 6,
+      "rankWithinFrame": 8,
+      "generationId": "exec-6ce76ddf-08d7-4aa3-8362-85b78fd7f032",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry6-raw.png",
+      "rawSha256": "0d7aa394230b9eb1f4b4cc769ad51b8496f1786f33253eefc463059c18833cab",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry6-prompt.md",
+      "promptSha256": "07c0364551f64cd2e88f9dbe5f65b4df97e751bf15f5ffd6ccb1bd190187ea04",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry6-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry6-review.json",
+      "priorDecision": "reject",
+      "visualNotes": "Three legs/three shoes (hard anatomy failure), elbow extended, orange palette, alpha/margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        39,
+        37,
+        1222,
+        1174
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        39,
+        37,
+        32,
+        80
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 3,
+      "retry": 7,
+      "rankWithinFrame": 3,
+      "generationId": "exec-7ac81d0d-da48-4d91-b86e-0ef1014a5896",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry7-raw.png",
+      "rawSha256": "8d0573f20dcdd2a37cfa1e820f8d152bf9e91e0dd77b47fd4a7aaae5626df36d",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry7-prompt.md",
+      "promptSha256": "93a643738fd9b40fd69617411e30d6308c74ba0fc417da57491f9375bc1bbd8e",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry7-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry7-review.json",
+      "priorDecision": "reject",
+      "visualNotes": "Good broad palm-up/folded leg pose but forbidden chest numeral 1, orange skin/russet shoes, hand near crown, alpha/margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        0,
+        1224,
+        1239
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        0,
+        30,
+        15
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 3,
+      "retry": 8,
+      "rankWithinFrame": 7,
+      "generationId": "exec-7f0ad417-6a99-458a-8544-9ac487b1f361",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry8-raw.png",
+      "rawSha256": "0aa2e31f59fb95a0f2e7c1fa1bcb64a360133bca61a48f9eb894d20f2f51b0a4",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry8-prompt.md",
+      "promptSha256": "b23c7d4cf1e478f683f2938b492b6d927c9dd6c068185e6c5d6287b3e90da869",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry8-provenance.json",
+      "reviewFile": null,
+      "priorDecision": "rejected per source notes; see prompt/provenance",
+      "visualNotes": "Palm above crown, orange highlights, alpha specks, oversized; margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        0,
+        1236,
+        1254
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        0,
+        18,
+        0
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 3,
+      "retry": 9,
+      "rankWithinFrame": 4,
+      "generationId": "exec-fdb59d57-5de1-4160-bafb-dec2d82d2012",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry9-raw.png",
+      "rawSha256": "10f5f2b944a727128f46c568344a5e5c1d893773848c3e9e95465d4d8330af48",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry9-prompt.md",
+      "promptSha256": "f8bd49cac494fe442367a2680ae2a930b0af29c70d3478797b0c080d4a848a64",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry9-provenance.json",
+      "reviewFile": null,
+      "priorDecision": "rejected per source notes; see prompt/provenance",
+      "visualNotes": "Two limbs and blank chest, but palm above crown, orange skin, oversized figure and alpha reaches edges.",
+      "rawDimensions": [
+        1275,
+        1234
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        21,
+        1188,
+        1234
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        21,
+        87,
+        0
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 3,
+      "retry": 10,
+      "rankWithinFrame": 5,
+      "generationId": "exec-e201405b-7777-4833-bab2-48764990aa6d",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry10-raw.png",
+      "rawSha256": "6c871d3ce357ad5a73589a9d8caf3a97c02336cf70e7214e7aa7c4eb7934a1c7",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry10-prompt.md",
+      "promptSha256": "75b31fa7cd5bd27b3a638bbd131c0e56786a4b37d6e7d4a98521869e6994b109",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry10-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry10-review.json",
+      "priorDecision": "reject",
+      "visualNotes": "Strong folded-leg structure but fingertips exceed headband/crown; orange skin/russet shoes and margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        30,
+        1238,
+        1200
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        30,
+        16,
+        54
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 4,
+      "retry": 2,
+      "rankWithinFrame": 2,
+      "generationId": "exec-e5eca92b-b06b-48be-9a42-02c54e1e6b6c",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry2-raw.png",
+      "rawSha256": "8004e70963fc9f220e363e683abffcc24794824573ea7579907a9054aeda7868",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry2-prompt.md",
+      "promptSha256": "5daaae07ff5aade800f4889c92dec8afe17986225c4751b9736a297d7b195ede",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry2-provenance.json",
+      "reviewFile": null,
+      "priorDecision": "rejected per source notes; see prompt/provenance",
+      "visualNotes": "Release geometry and folded trail leg; skin/shoes drift, alpha residue and top margin short by 1.24 percentage points.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        33,
+        23,
+        1230,
+        1190
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        33,
+        23,
+        24,
+        64
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 4,
+      "retry": 3,
+      "rankWithinFrame": 6,
+      "generationId": "exec-a577c153-9cb3-4fba-bc28-a6e2a1b967da",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry3-raw.png",
+      "rawSha256": "b4992a2d6eab7b1ad2f6a5abac0dd6df922a34ce50dfd0cf1a3fe866d2b47c4c",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry3-edit-prompt.md",
+      "promptSha256": "9d1a8a6c0dc1da16c8ced9a4e22312953ad02dd59b092b6f49b3184cda8276ef",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry3-provenance.json",
+      "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry3-review.json",
+      "priorDecision": "Retry; do not accept for cleanup.",
+      "visualNotes": "Image-edit output altered pose silhouette/details/placement rather than a color-only edit; fails skin/palette and margins and is not an acceptable unmodified raw pose source.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        21,
+        1236,
+        1230
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        21,
+        18,
+        24
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 4,
+      "retry": 4,
+      "rankWithinFrame": 4,
+      "generationId": "urn:c2pa:8527a513-152e-4c46-9655-270d41fd1733",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry4-raw.png",
+      "rawSha256": "1b128674d0f8ddb1e68c258df6f35288c4ed3a11c265652c254d38960785a9aa",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry4-prompt.md",
+      "promptSha256": "141c491b3e0b61ffce444b492291a6de4361f314c24bdff4334a122b887df7c7",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry4-provenance.json",
+      "reviewFile": null,
+      "priorDecision": "rejected per source notes; see prompt/provenance",
+      "visualNotes": "Release gesture compromised by wristband, orange skin and insufficient margins.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        33,
+        51,
+        1178,
+        1226
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        33,
+        51,
+        76,
+        28
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 4,
+      "retry": 5,
+      "rankWithinFrame": 3,
+      "generationId": "exec-5d2deb16-ba9d-47a6-a07b-46c1a1a06ddd",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry5-raw.png",
+      "rawSha256": "fcaabdc44521f113cd03df8b14ba1384a9a3ca43521ac4501ecb12c4e5fcf154",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry5-prompt.md",
+      "promptSha256": "2e884687518fa94b604fd236de07baced15acb9aa3467eff3bed6d5892b54223",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry5-provenance.json",
+      "reviewFile": null,
+      "priorDecision": "rejected per source notes; see prompt/provenance",
+      "visualNotes": "Two limbs, but shooting hand bends down rather than up/out; heel too low, orange skin/russet shoes.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        0,
+        21,
+        1218,
+        1254
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        0,
+        21,
+        36,
+        0
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 4,
+      "retry": 6,
+      "rankWithinFrame": 5,
+      "generationId": "exec-71d623b8-c385-48a2-8aa2-1ffbb89244cc",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry6-raw.png",
+      "rawSha256": "bd0b78c5dd118d9f564973b8f0feee5e50a1d0c7763a245aa042d2957a0ae408",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry6-prompt.md",
+      "promptSha256": "703ad1196fc969b4a8d6d5f39054b5cf985a5fc43fffce527a4fc9f186b09be2",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry6-provenance.json",
+      "reviewFile": null,
+      "priorDecision": "rejected per source notes; see prompt/provenance",
+      "visualNotes": "Broad geometry mostly coherent but orange skin/cream shoe mismatch; 26,322 low-alpha pixels and all-side 25% margins fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        25,
+        19,
+        1234,
+        1230
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        25,
+        19,
+        20,
+        24
+      ],
+      "passForCleanup": false
+    },
+    {
+      "frame": 4,
+      "retry": 7,
+      "rankWithinFrame": 1,
+      "generationId": "exec-e3f843b2-3a98-49c0-84dc-5751c574d60b",
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry7-raw.png",
+      "rawSha256": "3f3f3cdfd23678247c00638266efac358e2cbb856e010d8c59fdd6791363fa1e",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry7-prompt.md",
+      "promptSha256": "732071cda8ccd41a867ea8f6d18a32dfb7a225ce773f862f46010494ad071901",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry7-provenance.json",
+      "reviewFile": null,
+      "priorDecision": "rejected per source notes; see prompt/provenance",
+      "visualNotes": "Best broad release pose: high-forward open palm, lower guide hand, high lead knee/folded rear heel; skin/shoe palette drift, low-alpha contamination and top clearance fail.",
+      "rawDimensions": [
+        1254,
+        1254
+      ],
+      "nonzeroAlphaBounds": [
+        39,
+        115,
+        1069,
+        1117
+      ],
+      "nonzeroAlphaMarginsLTRB": [
+        39,
+        115,
+        185,
+        137
+      ],
+      "passForCleanup": false
+    }
+  ],
+  "additionalInScopeImageEdits": [
+    {
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit-raw.png",
+      "rawSha256": "5b9009a87f5728cf92fd6cae19fe2a06927dffff528b826ba40671a73cf6f40d",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit-prompt.md",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit-provenance.json",
+      "decision": "rejected image-edit output; skin-only change caused large RGB and silhouette changes."
+    },
+    {
+      "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit2-raw.png",
+      "rawSha256": "2449aa5c5431362fb17751a2b902e7c51af33e4911d14202ad2c599768943387",
+      "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit-prompt.md",
+      "provenanceFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit2-provenance.json",
+      "decision": "rejected exact skin-only image-edit output; 86,696 alpha pixels changed and full-alpha bounds reach x=0."
+    }
+  ],
+  "contactSheet": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-poses2-4-independent-comparison.png",
+  "contactSheetCaveat": "Visual contact sheet shows selected raw candidates on light/dark backgrounds with display crops; it is a comparison aid only. Full raw canvas margins and low-alpha pixels were checked separately and remain blocking.",
+  "sequenceDistinction": "Pose2 retry2 reads lower cheek carry, pose3 retry5 is a higher palm-up prerelease, and pose4 retry7 has a fully extended high-forward release arm. Their arm silhouette progression is legible, but frame2 is not exact due hand slightly high, frame3 is not exact due fingertips at crown. None is selectable for cleanup."
+}
