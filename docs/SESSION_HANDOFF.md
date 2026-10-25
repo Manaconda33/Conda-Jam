@@ -4,7 +4,7 @@ Piper adds eight unique, ball-free steal poses and reaches16/29 reviewed clips /
 
 Atlas `public/assets/animation/piper-quickstep-steal-right.webp` is320×192 / SHA-256 `0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983`. Raw source SHA-256 `3cc2c218bdbbc280e3a78cab58351f398d2ece05223c929b53f52898c5c4c390`; accepted cleaned SHA-256 `bb429ab94bf662c8cf3d9f259b91a7974f78a03745e43a87426aeead83d93900`. Exact prompt, cleanup, provenance, layout and fixed/final native previews are under `tools/generate-art/piper-quickstep-steal*`.
 
-Validation passes36/36 JS test files, lint19 modules, roster validation35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes, atlas packer suite and build; E2E fails before local server readiness at `127.0.0.1:4175`. Strict audit `2026-10-25T04:07:52.259Z` counts806 clips /7,255 drawings /105 athletes, 2,297 missing clips, one target shortfall and4 inherited prompt findings. J.111 is local; standard push failed through the unavailable configured port8080 proxy; latest deployment remains `513e0a59` / Pages run #169. Next: Piper `push`.
+Validation passes36/36 JS test files, lint19 modules, roster validation35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes, atlas packer suite and build; E2E fails before local server readiness at `127.0.0.1:4175`. Strict audit `2026-10-25T04:07:52.259Z` counts806 clips /7,255 drawings /105 athletes, 2,297 missing clips, one target shortfall and4 inherited prompt findings. J.111 commit `e5b3c168` is local; a standard push retry failed immediately through the unavailable configured port8080 proxy; latest deployment remains `513e0a59` / Pages run #169. Next: Piper `push`.
 
 ## J.110 — Piper Quickstep `block`
 
