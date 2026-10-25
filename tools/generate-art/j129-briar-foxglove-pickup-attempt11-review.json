@@ -1,0 +1,115 @@
+{
+  "issue": "J.129",
+  "athlete": "Briar Foxglove",
+  "clip": "pickup",
+  "attempt": 11,
+  "generation_id": "exec-5c498499-b9f3-4dd4-86f0-8a41e4f758b7",
+  "prompt": "tools/generate-art/j129-briar-foxglove-pickup-prompt-attempt11.md",
+  "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt11-raw.png",
+  "source_sha256": "00612a112e279eec6b8be71aeb8cb2230e5576e5f5829efc9bc337aa2c05a44f",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "review_preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt11-light-dark-review.png",
+  "transparency": {
+    "alpha_zero_pixels": 1298766,
+    "alpha_1_to_63_pixels": 46990,
+    "alpha_64_to_254_pixels": 227108,
+    "alpha_255_pixels": 0,
+    "finding": "Rejected. A connected brown-black radial haze occupies the background and contaminates cell5; no fully opaque pixels exist."
+  },
+  "cell_layout": {
+    "format": "3 columns by 2 rows, 512x512 cells; row-major cells0-4 intended for figures and cell5 blank",
+    "figure_bboxes_alpha_ge_160_cell_local": {
+      "0": [
+        171,
+        72,
+        412,
+        507
+      ],
+      "1": [
+        121,
+        145,
+        404,
+        507
+      ],
+      "2": [
+        83,
+        203,
+        370,
+        507
+      ],
+      "3": [
+        166,
+        180,
+        433,
+        457
+      ],
+      "4": [
+        140,
+        56,
+        393,
+        457
+      ],
+      "5": null
+    },
+    "minimum_margin_pixels_alpha_ge_160": 5,
+    "requested_minimum_margin_pixels": 120,
+    "blank_cell5_nonzero_alpha_pixels": 226,
+    "finding": "Rejected. The strongest figure pixels approach cell0's bottom boundary within 5px; requested 120px clear margins are not met. Cell5 has 226 stray nonzero-alpha pixels, all below alpha160."
+  },
+  "visual_review": {
+    "pose_separation": "Five distinct crouch/reach phases are visible, though cell4 returns to a ready pose rather than a clear upward recovery.",
+    "identity_anatomy": "Briar's human identity, red headband, locs, skin tone, and Emberwood uniform are broadly consistent; hands and leg anatomy remain readable.",
+    "ball_track": "No visible ball; separate ball-track requirement is respected.",
+    "cell_margins": "Fail; cell0's shoes nearly touch the bottom cell edge, and other poses exceed 120px-safe-box constraints.",
+    "background": "Fail; conspicuous brown/black haze on both light and dark composites.",
+    "decision": "REJECTED; do not clean, accept, pack, or register."
+  },
+  "independent_review": {
+    "decision": "REJECT",
+    "reviewer": "independent source reviewer",
+    "sha256": "00612a112e279eec6b8be71aeb8cb2230e5576e5f5829efc9bc337aa2c05a44f",
+    "alphaHistogram": {
+      "alphaZero": 1298766,
+      "alpha1to63": 46990,
+      "alpha64to254": 227108,
+      "alpha255": 0
+    },
+    "poseMarginLTRBByCell": {
+      "0": [
+        171,
+        99,
+        71,
+        4
+      ],
+      "1": [
+        121,
+        108,
+        144,
+        4
+      ],
+      "2": [
+        82,
+        141,
+        202,
+        4
+      ],
+      "3": [
+        166,
+        79,
+        179,
+        54
+      ],
+      "4": [
+        140,
+        119,
+        56,
+        54
+      ]
+    },
+    "blankCell5NonzeroAlpha": 226,
+    "findings": "Five separate ball-free poses preserve Briar identity. Brown haze remains, and cells0\u20132 approach the horizontal divider within4px. The grab pose may have forearm overlap. No packing or registration."
+  }
+}
