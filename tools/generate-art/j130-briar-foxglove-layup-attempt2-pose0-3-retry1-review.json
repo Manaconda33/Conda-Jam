@@ -1,0 +1,24 @@
+{
+  "issue":"J.130",
+  "athlete":"briar-foxglove",
+  "clip":"layup",
+  "attempt":2,
+  "reviewedAt":"2026-10-25T20:25:00Z",
+  "reviewer":"independent source reviewer",
+  "preview":"tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-retry1-combined-light-dark-review.png",
+  "reviewStatus":"frames0-1 pass for cleanup; frames2-3 require retry; no sources accepted",
+  "sourceCollisionCorrection":"The first combined preview was generated while the pose3-retry1 path had been overwritten by a different source. That source (generation exec-a1c45e74-fde4-4f3b-a208-f210bdeefe19, SHA c997e87e8eef505361bcbcb007dc8286bba2d057a3351bfa2521f861c4b10551) is now preserved as pose3-retry3. The pose3-retry1 file has been restored byte-for-byte from commit af84f93f and this corrected preview now uses it.",
+  "poses":[
+    {"frame":0,"generationId":"exec-33a19f38-6f7a-4911-bcd4-1a262d4e4635","sha256":"c8c73d2739e3a8c64e544ce5e29dc280c5371001e4212d1670085c0de5a21a37","decision":"pass for cleanup; final sheet review required","notes":"Grounded approach with forward planted foot, flexed knees and empty hands gathering low near hip. Complete anatomy and bare wrists. Alpha1 haze violates clear padding; leaf accents are stronger than canon."},
+    {"frame":1,"generationId":"exec-72ca7abf-b02f-4c1a-8b59-31d5e188870e","sha256":"a722384c5b0bbd422358b2112df0951ab1d79f52e96791551437fcccf03da007","decision":"pass for cleanup; final sheet review required","notes":"Clear asymmetric one-foot takeoff with long pushing leg, opposite knee rising and hands lifting toward chest. Distinct from frame0; bare wrists. Alpha1 haze violates clear padding."},
+    {"frame":2,"generationId":"exec-f22c4091-54f6-4572-b4ba-2955d97c9fae","sha256":"eb360ee09594c2a069bfde6b0e9de8a53c5106cea0b346be093e222ba6b95245","decision":"retry","notes":"Folded trailing knee and heel tuck read correctly, but shooting hand is already above the forehead instead of beside the cheek, advancing the action too early."},
+    {"frame":3,"generationId":"exec-4b000bea-e82a-410e-97d4-b30ab02b2656","sha256":"e6abdfe9b4f93dc0425827caa9170886b0c81e738bb7ac4564173dc4b5910471","decision":"rejected; retry","notes":"Palm-up prerelease hand exists and trailing leg is tucked, but the hand rises overhead and skin reads lighter/oranger than canon; alpha residue and insufficient margin also fail."}
+  ],
+  "reviewOfPose3Retry3":{"generationId":"exec-a1c45e74-fde4-4f3b-a208-f210bdeefe19","sha256":"c997e87e8eef505361bcbcb007dc8286bba2d057a3351bfa2521f861c4b10551","decision":"retry","notes":"Independent reviewer found good palm-up prerelease gesture, open off-hand and clear separation from frame4; trailing leg remains too straight/downward, creating an unwanted reversal from frame2's tucked knee."},
+  "sharedFindings":[
+    "Identity is recognizable against accepted atlases; all sources have bare wrists, empty hands, no numbers/logos or animal traits.",
+    "Skin highlights are somewhat golden; no strong palette break was found for this retry set.",
+    "All raw sources are 1254x1254 RGBA and fail strict alpha-zero padding because low-alpha specks/haze remain outside visible bodies.",
+    "Visible scale varies across frames and requires uniform size normalization followed by full-sheet and native review."
+  ]
+}
