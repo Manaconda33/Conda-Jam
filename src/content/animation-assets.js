@@ -66111,13 +66111,503 @@ export const animationAssetManifest = {
             },
             "reviewed": true,
             "reviewNotes": "Eight source and packed poses independently reviewed for Piper identity/anatomy, separation, alpha and margins >=60px; no ball in art. Fixed native Canvas review at 100%/120% in both facings selects every frame. Piper-specific separate ball track contacts open fingertips at frame3/tick5. Direct steal releases loose at contact; pass interception can carry from the same contact point."
+          },
+          "push": {
+            "src": "./public/assets/animation/piper-quickstep-push-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "ffa9466ffcad3d4139a9aae06c4b3c2fd3eb076214da633edb49c6563653c92f"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "e93650144b1a245465ec0c6b67f5676603b11dbf1683b3a044363a93c053fd18"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "481da7ee40c465d15ef2904ffc14f7e75a9c4ccd3b375f2fc3108246a17092a6"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "5c4a232eac36c3b002e289f88923b174eca418a9a6bcb88633648447f0986933"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "806a2db2146ac7bfebb20d63a04cbe4491c74df5872e272f2223f6ff315ab183"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "55de2aa1e55cfd1d85fcd42fe217252f254a8e2d24bedc546d78b0d3adc05843"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "1c1363535346d9dcd7c5e442644c5b6a4e2b94dfbae8d2478af33820a6e94f2b"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "55cfbd2be558cf8ece4e119bebdc9608367307d8ac2c74a20da5fc10fdbd86fc"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "870da1552f7d9387472dd4b7bdb8854067b2dcd1e7fcceff91b5c590014fd160"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "1a765156068f882bc8633d4a36f2a00b8e588fbec9dfcbb9f3e85401b50d8d89"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "d733cca93853bb9ec3841e9e21ae06581548b80375326015e72e94db99c13e7f"
+              }
+            ],
+            "sha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "piper-quickstep",
+              "clip": "push",
+              "direction": "right",
+              "source": "imagegen",
+              "attempt": 1,
+              "generationId": "exec-6b33be5b-8b13-47e9-825e-4c64440f545b",
+              "generatedAt": "2026-10-25T04:01:51.098Z",
+              "promptFile": "tools/generate-art/piper-quickstep-push-attempt1-prompt.md",
+              "promptVerbatim": true,
+              "prompt": "Create one original production sprite sheet for Piper Quickstep performing the basketball press/push action in JAMVERSE '96. Use the supplied accepted Piper sheets only as identity, proportion, costume, and rendering references; do not copy their poses. Piper is an athletic adult human woman with warm-brown skin, bright orange hair tied in a high ponytail behind her head, a russet-red sleeveless basketball kit with cream speed stripes and trim, and red/cream trainers. Preserve the same face, hair, body proportions, skin tone, full natural human anatomy, kit and shoe colors throughout. Keep every uniform blank with no numbers, words, logos, jewelry, or marks.\n\nSheet specification: exactly 1536x1536 pixels, true RGBA alpha with transparent background; four equal columns by three equal rows, each cell exactly 384x512. Draw exactly eleven separate complete Piper figures, row-major in cells 0 through 10. Leave the bottom-right twelfth cell completely empty. All figures face image-right in a consistent three-quarter profile at one uniform scale and shared foot baseline. In each occupied cell keep the entire figure—especially the high ponytail, both hands/fingertips and both shoes—at least 56 pixels from every cell edge. Keep wide fully transparent gutters between every pose. No figure may touch or cross a cell edge, overlap, or fuse with another. Keep the silhouette compact enough to preserve that margin.\n\nThis is an eleven-frame defensive press/push body-check sequence, with no actual target drawn. Keep Piper grounded and athletic throughout; this is not a steal, punch, block, pass, shot, or dunk. The event marker is frame 5 at runtime tick 8.\n0. Balanced alert defensive ready stance, knees flexed, both hands open and empty near chest, weight centered.\n1. Shift weight and lower hips, eyes focused on an unseen opponent, hands ready.\n2. Draw the leading near arm back beside the chest, rotate shoulders slightly, opposite arm balances.\n3. Take a short step forward with the lead foot, hips low, rear leg planted.\n4. Turn hips and torso into the shove, lead open palm moving forward, elbow still bent.\n5. CONTACT at tick 8: one strong controlled open-palm press at chest height, lead arm extended, fingers visibly separated and empty, rear leg drives and braces, torso balanced; the contact is to an unseen offscreen target with no impact marks or effect.\n6. Continue a short grounded follow-through, lead palm still forward, shoulders and hips carrying momentum.\n7. Retract lead arm and shift weight back under the torso.\n8. Recover to an upright guard, both hands visible and open.\n9. Take a settling recovery step back, shoulders return to defensive orientation.\n10. Finish in a balanced ready stance with a small natural weight shift, visibly distinct from frame 0.\n\nEvery frame must be a complete independently articulated pose. Keep two arms, two hands, five clear separated fingers where visible, two legs and two shoes; natural joints and shoulders. Keep Piper recognizably the same woman in every pose. There is no carried ball on this defensive action: never draw a basketball, circle, seams, target, opponent, extra person, hoop, court, floor, shadow, glow, speed lines, contact burst, background, checkerboard, grid, cell divider, border, text, number, logo, prop, or UI. Preserve genuine fully transparent cells and gutters. Return only the sprite sheet.",
+              "rawSource": "tools/generate-art/sources/piper-quickstep-push-attempt1-generated-raw.png",
+              "rawSourceSha256": "89a4f78007863fe5e6fba26ed7d1eb5fd9d1ad0d3f092f9e8a3fba26edebc48723",
+              "rawSize": [
+                1254,
+                1254
+              ],
+              "rawMode": "RGBA",
+              "rawReview": {
+                "status": "rejected_before_packing",
+                "notes": "Eleven complete ordered Piper poses and clear tick8 contact are present, but the generated canvas is 1254x1254 rather than the requested 1536x1536, a noisy red glow/speck field remains, and multiple figures cross their source cell edges. Poses are salvageable with component-only cleanup and common uniform scale/centering; no content was drawn, synthesized, duplicated or reordered."
+              },
+              "referenceFiles": [
+                "tools/generate-art/sources/piper-quickstep-rebound-attempt1-clean-candidate.png",
+                "tools/generate-art/sources/piper-quickstep-block-attempt1-clean-candidate.png"
+              ],
+              "cleanupScript": "tools/generate-art/clean-piper-quickstep-push-attempt1.py",
+              "cleanupNotes": "Global alpha>=64 component isolation identifies all eleven complete bodies; detached glow/specks are removed. Original alpha is preserved only on each component and a two-pixel antialias dilation. All figures share the same uniform scale and are centered in exact384x512 transparent cells on a1536x1536 RGBA sheet. No figure pixels were drawn, synthesized, duplicated or reordered.",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/piper-quickstep-push-attempt1-clean-candidate.png",
+              "sourceSha256": "a5fb08b8716f7b86632161666048dfdd9185a6be643ca449dbe8b9be001b22ce",
+              "sourceSize": [
+                1536,
+                1536
+              ],
+              "sourceMode": "RGBA",
+              "layoutFile": "tools/generate-art/piper-quickstep-push-attempt1-layouts.json",
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "reviewer": "independent source-review subagent",
+                "notes": "Light/dark source proofs accepted: eleven distinct ordered complete poses in first eleven cells, final cell transparent, Piper identity and natural adult-human anatomy consistent, open-palm frame5 contact clearly readable, no ball or opponent, clean alpha and at least60px transparent margins."
+              },
+              "ballBehavior": "The press/push action is defensive and has no athlete possession path; basketball remains a separate runtime object.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 99,
+                  "y": 124,
+                  "w": 186,
+                  "h": 265,
+                  "component": 1,
+                  "area": 21202
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 481,
+                  "y": 141,
+                  "w": 189,
+                  "h": 230,
+                  "component": 4,
+                  "area": 19186
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 861,
+                  "y": 135,
+                  "w": 198,
+                  "h": 241,
+                  "component": 2,
+                  "area": 20265
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1240,
+                  "y": 135,
+                  "w": 207,
+                  "h": 241,
+                  "component": 3,
+                  "area": 19138
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 80,
+                  "y": 642,
+                  "w": 223,
+                  "h": 251,
+                  "component": 5,
+                  "area": 21324
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 444,
+                  "y": 644,
+                  "w": 266,
+                  "h": 247,
+                  "component": 6,
+                  "area": 20931
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 837,
+                  "y": 647,
+                  "w": 246,
+                  "h": 242,
+                  "component": 8,
+                  "area": 20250
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1259,
+                  "y": 645,
+                  "w": 170,
+                  "h": 246,
+                  "component": 7,
+                  "area": 19613
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 100,
+                  "y": 1156,
+                  "w": 182,
+                  "h": 248,
+                  "component": 10,
+                  "area": 20201
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 486,
+                  "y": 1159,
+                  "w": 179,
+                  "h": 241,
+                  "component": 11,
+                  "area": 17892
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 866,
+                  "y": 1155,
+                  "w": 188,
+                  "h": 249,
+                  "component": 9,
+                  "area": 20871
+                }
+              ],
+              "uniformScale": 0.3471698113207547,
+              "componentIsolation": true,
+              "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses",
+              "packedReview": {
+                "status": "accepted_visual_atlas_scale",
+                "reviewer": "independent source-review subagent",
+                "atlasPath": "public/assets/animation/piper-quickstep-push-right.webp",
+                "atlasSha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+                "atlasSize": [
+                  448,
+                  288
+                ],
+                "cellSize": [
+                  112,
+                  96
+                ],
+                "alphaExtrema": [
+                  0,
+                  255
+                ],
+                "all11CropHashesUnique": true,
+                "emptyTwelfthCell": true,
+                "frames": [
+                  {
+                    "frame": 0,
+                    "cell": [
+                      0,
+                      0
+                    ],
+                    "alphaBoundsXYXY": [
+                      23,
+                      2,
+                      88,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      23,
+                      24
+                    ],
+                    "topBottomMarginPx": [
+                      2,
+                      2
+                    ]
+                  },
+                  {
+                    "frame": 1,
+                    "cell": [
+                      0,
+                      1
+                    ],
+                    "alphaBoundsXYXY": [
+                      23,
+                      14,
+                      89,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      23,
+                      23
+                    ],
+                    "topBottomMarginPx": [
+                      14,
+                      2
+                    ]
+                  },
+                  {
+                    "frame": 2,
+                    "cell": [
+                      0,
+                      2
+                    ],
+                    "alphaBoundsXYXY": [
+                      21,
+                      10,
+                      90,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      21,
+                      22
+                    ],
+                    "topBottomMarginPx": [
+                      10,
+                      2
+                    ]
+                  },
+                  {
+                    "frame": 3,
+                    "cell": [
+                      0,
+                      3
+                    ],
+                    "alphaBoundsXYXY": [
+                      20,
+                      10,
+                      92,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      20,
+                      20
+                    ],
+                    "topBottomMarginPx": [
+                      10,
+                      2
+                    ]
+                  },
+                  {
+                    "frame": 4,
+                    "cell": [
+                      1,
+                      0
+                    ],
+                    "alphaBoundsXYXY": [
+                      17,
+                      7,
+                      94,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      17,
+                      18
+                    ],
+                    "topBottomMarginPx": [
+                      7,
+                      2
+                    ]
+                  },
+                  {
+                    "frame": 5,
+                    "cell": [
+                      1,
+                      1
+                    ],
+                    "alphaBoundsXYXY": [
+                      10,
+                      8,
+                      102,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      10,
+                      10
+                    ],
+                    "topBottomMarginPx": [
+                      8,
+                      2
+                    ]
+                  },
+                  {
+                    "frame": 6,
+                    "cell": [
+                      1,
+                      2
+                    ],
+                    "alphaBoundsXYXY": [
+                      13,
+                      10,
+                      98,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      13,
+                      14
+                    ],
+                    "topBottomMarginPx": [
+                      10,
+                      2
+                    ]
+                  },
+                  {
+                    "frame": 7,
+                    "cell": [
+                      1,
+                      3
+                    ],
+                    "alphaBoundsXYXY": [
+                      26,
+                      9,
+                      85,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      26,
+                      27
+                    ],
+                    "topBottomMarginPx": [
+                      9,
+                      2
+                    ]
+                  },
+                  {
+                    "frame": 8,
+                    "cell": [
+                      2,
+                      0
+                    ],
+                    "alphaBoundsXYXY": [
+                      24,
+                      8,
+                      87,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      24,
+                      25
+                    ],
+                    "topBottomMarginPx": [
+                      8,
+                      2
+                    ]
+                  },
+                  {
+                    "frame": 9,
+                    "cell": [
+                      2,
+                      1
+                    ],
+                    "alphaBoundsXYXY": [
+                      25,
+                      10,
+                      87,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      25,
+                      25
+                    ],
+                    "topBottomMarginPx": [
+                      10,
+                      2
+                    ]
+                  },
+                  {
+                    "frame": 10,
+                    "cell": [
+                      2,
+                      2
+                    ],
+                    "alphaBoundsXYXY": [
+                      23,
+                      8,
+                      88,
+                      94
+                    ],
+                    "leftRightMarginPx": [
+                      23,
+                      24
+                    ],
+                    "topBottomMarginPx": [
+                      8,
+                      2
+                    ]
+                  }
+                ],
+                "notes": "Direct atlas inspection on composited light/dark backgrounds at native 96px cell height: all eleven crops are unique and readable, clean transparency, no glow/specks/ball/opponent, Piper identity/anatomy consistent, frame5 open-palm contact clear. Packer intentionally aligns each pose baseline at y=94, leaving a 2px lower edge guard. Full engine-native review awaits manifest integration."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Eleven source/packed poses independently reviewed for Piper identity/anatomy, separation, clear alpha and >=60px source margins; no ball in athlete art. Native Canvas review at 100%/120% in both facings selects every frame. Frame5/tick8 is a distinct open-palm shove contact. Push is defensive: gameplay moves the target and separately releases the ball if possession is jarred loose; Piper has no carry track for this action."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Piper steal passes native source-frame and ball-contact review in both facings at 100% and 120%; her human identity and orange ponytail remain readable under mirroring."
+        "notes": "Piper block, steal and push body art passed native mirror review in both facings. Ponytail and pose silhouettes remain readable; defensive clips contain no baked or carried ball."
       }
     },
     "briar-foxglove": {

@@ -1,3 +1,11 @@
+## J.112 — Piper Quickstep `push` integrated locally
+
+Piper adds11 distinct defensive push poses and reaches17/29 registered clips /123 authored drawings. Eleven figures fill cells0–10 of a 4×3 sheet, cell11 stays empty, and every source figure has >=60px transparent margins. Attempt1 raw was rejected for its 1254×1254 size, glow/specks and cell crossings; the preserved component cleanup contains no redraw, reorder or duplicate. Independent reviews accept Piper’s identity/anatomy, the ball-free sheet, open-palm frame5/tick8 contact, and all11 native production frames in both facings at100%/120%. Push has no Piper carry track; gameplay separately releases the target ball when the shove succeeds.
+
+Raw SHA-256 `89a4f78007863fe5c3e96cd7d1eb5fd9d1ad0d3f092f9e8a3fba26edebc48723`; accepted clean source SHA-256 `a5fb08b8716f7b86632161666048dfdd9185a6be643ca449dbe8b9be001b22ce`; atlas `public/assets/animation/piper-quickstep-push-right.webp` SHA-256 `90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1`. Exact prompt, attempt history, cleanup, provenance, layouts and previews are under Piper push files.
+
+J.112 full validation passes:36/36 JS test files, lint18 modules,35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes, atlas packer suite and build; E2E exits before server readiness at `127.0.0.1:4175/`. Strict audit `2026-10-25T04:13:47.625Z` counts807 clips /7,266 drawings /105 athletes, 2,296 missing clips, one target shortfall, 4 inherited prompt findings. Next action is Piper `fall`.
+
 ## J.111 — Piper Quickstep `steal` integrated locally
 
 Piper adds eight unique, ball-free steal poses and reaches16/29 reviewed clips /112 authored drawings. Source/packed reviews accept the transparent 4×2 sheet with >=60px margins, distinct ordered poses, full Piper identity/anatomy, and a clear frame3/tick5 reach. The accepted separate Piper track is height `[1.05,1.0,.75,1.5,1.3,1.1,1.0,.95]`, forward `[4,7,10,12.5,10,8,6,5]`; the ball edge meets the open fingertips at100%/120% in both facings. Direct steals transition to loose-ball physics after tick5; pass interception can carry from the hand point. Raw attempt1 and fallback/first-contact calibrations remain preserved with reasons.

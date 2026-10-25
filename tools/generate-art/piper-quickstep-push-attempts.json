@@ -1,0 +1,14 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "push",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generation_id": "exec-6b33be5b-8b13-47e9-825e-4c64440f545b",
+      "source": "tools/generate-art/sources/piper-quickstep-push-attempt1-generated-raw.png",
+      "prompt": "tools/generate-art/piper-quickstep-push-attempt1-prompt.md",
+      "state": "accepted_after_cleanup_and_native_review",
+      "reason": "Raw is 1254x1254 rather than requested 1536x1536, contains a detached red speck/glow field, and several complete figures cross their original source-cell boundaries. It contains eleven complete ordered Piper poses and is salvageable by component-only isolation and common uniform scale/centering. Independent light/dark review accepts the cleaned source with 11 poses, clear empty twelfth cell, no ball or background artifacts, and >=60px transparent margins. Packed atlas also reviewed on light/dark grounds; native manifest preview remains to be done by integration lane. Independent native preview now passes at 100%/120% in both facings with all 11 production frames selected and clear open-palm contact at frame5/tick8."
+    }
+  ]
+}

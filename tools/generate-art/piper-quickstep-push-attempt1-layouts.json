@@ -1,0 +1,361 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "push",
+  "attempt": 1,
+  "rawSource": "tools/generate-art/sources/piper-quickstep-push-attempt1-generated-raw.png",
+  "rawSha256": "89a4f78007863fe5c3e96cd7d1eb5fd9d1ad0d3f092f9e8a3fba26edebc48723",
+  "cleanSource": "tools/generate-art/sources/piper-quickstep-push-attempt1-clean-candidate.png",
+  "cleanSha256": "a5fb08b8716f7b86632161666048dfdd9185a6be643ca449dbe8b9be001b22ce",
+  "cleanSize": [
+    1536,
+    1536
+  ],
+  "mode": "RGBA",
+  "layout": "4x3 row-major, 11 distinct original poses and empty final cell",
+  "uniformScale": 0.7058823529411765,
+  "minimumTransparentMargin": 60,
+  "cleanup": "Global alpha>=64 component isolation, per-pose crop, retain original alpha only within 2px of the component, common uniform scale and transparent centering. No figure pixels drawn, synthesized, duplicated or reordered.",
+  "frames": [
+    {
+      "frame": 0,
+      "rawComponent": 1,
+      "rawAreaAlpha64": 42383,
+      "rawBboxXYXY": [
+        30,
+        59,
+        289,
+        433
+      ],
+      "cell": [
+        0,
+        0
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        183,
+        264
+      ],
+      "outputXY": [
+        100,
+        124
+      ],
+      "transparentMarginsLTRBpx": [
+        100,
+        101,
+        124,
+        124
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    },
+    {
+      "frame": 1,
+      "rawComponent": 4,
+      "rawAreaAlpha64": 38371,
+      "rawBboxXYXY": [
+        348,
+        106,
+        613,
+        429
+      ],
+      "cell": [
+        0,
+        1
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        187,
+        228
+      ],
+      "outputXY": [
+        482,
+        142
+      ],
+      "transparentMarginsLTRBpx": [
+        98,
+        99,
+        142,
+        142
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    },
+    {
+      "frame": 2,
+      "rawComponent": 3,
+      "rawAreaAlpha64": 40497,
+      "rawBboxXYXY": [
+        661,
+        93,
+        938,
+        432
+      ],
+      "cell": [
+        0,
+        2
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        196,
+        239
+      ],
+      "outputXY": [
+        862,
+        136
+      ],
+      "transparentMarginsLTRBpx": [
+        94,
+        94,
+        136,
+        137
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    },
+    {
+      "frame": 3,
+      "rawComponent": 2,
+      "rawAreaAlpha64": 38187,
+      "rawBboxXYXY": [
+        945,
+        90,
+        1235,
+        431
+      ],
+      "cell": [
+        0,
+        3
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        205,
+        241
+      ],
+      "outputXY": [
+        1241,
+        135
+      ],
+      "transparentMarginsLTRBpx": [
+        89,
+        90,
+        135,
+        136
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    },
+    {
+      "frame": 4,
+      "rawComponent": 5,
+      "rawAreaAlpha64": 42667,
+      "rawBboxXYXY": [
+        22,
+        485,
+        335,
+        838
+      ],
+      "cell": [
+        1,
+        0
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        221,
+        249
+      ],
+      "outputXY": [
+        81,
+        643
+      ],
+      "transparentMarginsLTRBpx": [
+        81,
+        82,
+        131,
+        132
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    },
+    {
+      "frame": 5,
+      "rawComponent": 6,
+      "rawAreaAlpha64": 41799,
+      "rawBboxXYXY": [
+        300,
+        493,
+        674,
+        841
+      ],
+      "cell": [
+        1,
+        1
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        264,
+        246
+      ],
+      "outputXY": [
+        444,
+        645
+      ],
+      "transparentMarginsLTRBpx": [
+        60,
+        60,
+        133,
+        133
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    },
+    {
+      "frame": 6,
+      "rawComponent": 8,
+      "rawAreaAlpha64": 40409,
+      "rawBboxXYXY": [
+        647,
+        497,
+        992,
+        838
+      ],
+      "cell": [
+        1,
+        2
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        244,
+        241
+      ],
+      "outputXY": [
+        838,
+        647
+      ],
+      "transparentMarginsLTRBpx": [
+        70,
+        70,
+        135,
+        136
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    },
+    {
+      "frame": 7,
+      "rawComponent": 7,
+      "rawAreaAlpha64": 39247,
+      "rawBboxXYXY": [
+        977,
+        496,
+        1218,
+        843
+      ],
+      "cell": [
+        1,
+        3
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        170,
+        245
+      ],
+      "outputXY": [
+        1259,
+        645
+      ],
+      "transparentMarginsLTRBpx": [
+        107,
+        107,
+        133,
+        134
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    },
+    {
+      "frame": 8,
+      "rawComponent": 10,
+      "rawAreaAlpha64": 40423,
+      "rawBboxXYXY": [
+        35,
+        875,
+        291,
+        1224
+      ],
+      "cell": [
+        2,
+        0
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        181,
+        246
+      ],
+      "outputXY": [
+        101,
+        1157
+      ],
+      "transparentMarginsLTRBpx": [
+        101,
+        102,
+        133,
+        133
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    },
+    {
+      "frame": 9,
+      "rawComponent": 11,
+      "rawAreaAlpha64": 35699,
+      "rawBboxXYXY": [
+        351,
+        876,
+        603,
+        1214
+      ],
+      "cell": [
+        2,
+        1
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        178,
+        239
+      ],
+      "outputXY": [
+        487,
+        1160
+      ],
+      "transparentMarginsLTRBpx": [
+        103,
+        103,
+        136,
+        137
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    },
+    {
+      "frame": 10,
+      "rawComponent": 9,
+      "rawAreaAlpha64": 41663,
+      "rawBboxXYXY": [
+        657,
+        874,
+        920,
+        1224
+      ],
+      "cell": [
+        2,
+        2
+      ],
+      "uniformScale": 0.7058823529411765,
+      "outputSize": [
+        186,
+        247
+      ],
+      "outputXY": [
+        867,
+        1156
+      ],
+      "transparentMarginsLTRBpx": [
+        99,
+        99,
+        132,
+        133
+      ],
+      "cleanup": "component mask plus 2px original antialias only"
+    }
+  ]
+}
