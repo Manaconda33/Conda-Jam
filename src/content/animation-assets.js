@@ -65354,13 +65354,186 @@ export const animationAssetManifest = {
             },
             "reviewed": true,
             "reviewNotes": "Five source poses and atlas crops pass identity, anatomy, separation, alpha, margins, and empty-ball review. Independent native review accepted the separate ball meeting open fingertips at frame3/tick7 and Piper\u2019s trailing hand at frame4 recovery; 20/20 production selections across both facings at 100% and 120%."
+          },
+          "layup": {
+            "src": "./public/assets/animation/piper-quickstep-layup-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a292df454bcc3b794d4b88ab73e85641a91ea24acb4f4fdd8fb509353b350bb7"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "47ffdbdd66a854e984dce4c252b3f5fa8210d8fa197b6f8c7022ec26d072a85e"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8a83a3426f1394427e81fb70ffb23a3e75013bcd01a7b7f73d4831fb80046212"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "634b9ba35b3f249d47854da671de91acca40b4303b1fd1ddf1deb1d1e9f243d6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "80586a98cf9db6ede1f063c1fc294ee4575872bac62c7beba212cbf8e8e826cb"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "10949f881818e3843fc42fd1ec3c4a4d25cd6397d0e0ab72eae2ce53c01bf8fa"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "942ffe80daffe0979144a5d8493bf2fe3e5dd4fa365c1b31d925c3e448f0e0ed"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2df3a839a62dab471da26f97d4d50e12c823038f490ef9cbb468d3aaf90aa93c"
+              }
+            ],
+            "sha256": "91da885526bd1a00e2fd3641ca37a2d3c07e1fb37f846bf85be566830cc1034b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "piper-quickstep",
+              "clip": "layup",
+              "attempt": 2,
+              "generationId": "exec-76ace781-7ed2-400d-a9cc-4f9044cb8ba9",
+              "generationTool": "image_gen.imagegen",
+              "generatedAt": "2026-10-25T03:06:00Z",
+              "promptFile": "tools/generate-art/piper-quickstep-layup-attempt2-edit-prompt.md",
+              "promptSha256": "2f843ad044f240424dc56cf9a3d14c2a43f69d68a9b616258b90c25faa530362",
+              "referenceImage": "tools/generate-art/sources/piper-quickstep-layup-attempt1-generated-raw.png",
+              "rawSource": "tools/generate-art/sources/piper-quickstep-layup-attempt2-generated-raw.png",
+              "rawSha256": "d989c15f251dcbb16ca8d76fea2e19dd96161aaad7718cc8fa498228e8233aa1",
+              "rawDimensions": [
+                1774,
+                887
+              ],
+              "status": "accepted for production",
+              "cleanSource": "tools/generate-art/sources/piper-quickstep-layup-attempt2-clean-candidate.png",
+              "cleanSha256": "36002962e36cf006be76aa96138decb852296c05dce0364fb5539426496c6b5e",
+              "layout": "tools/generate-art/piper-quickstep-layup-attempt2-layouts.json",
+              "cleanup": {
+                "script": "tools/generate-art/clean-piper-quickstep-layup-attempt2.py",
+                "method": "uniform whole-sheet resize to 2048x1024; per-cell largest alpha>=224 figure component with 2px antialias dilation; discard red fringe/outside pixels; uniform scale into <=344x380 and center in each 512px cell; no redraw or reorder"
+              },
+              "previews": [
+                "tools/generate-art/previews/piper-quickstep-layup/attempt2-clean-light.png",
+                "tools/generate-art/previews/piper-quickstep-layup/attempt2-clean-dark.png",
+                "tools/generate-art/previews/piper-quickstep-layup/attempt2-clean-contact.png"
+              ],
+              "direction": "right",
+              "sourceImage": "tools/generate-art/sources/piper-quickstep-layup-attempt2-clean-candidate.png",
+              "sourceSha256": "36002962e36cf006be76aa96138decb852296c05dce0364fb5539426496c6b5e",
+              "rawSourceImage": "tools/generate-art/sources/piper-quickstep-layup-attempt2-generated-raw.png",
+              "sourcePromptFile": "tools/generate-art/piper-quickstep-layup-attempt1-prompt.md",
+              "prompt": "Edit this exact Piper layup source sheet to improve four poses and the figure edges. Preserve the same canvas size and four-column by two-row layout. Keep exactly eight complete right-facing figures, one per existing cell, row-major. Do not add, remove, move between cells, duplicate, mirror, crop, or reorder any pose. Keep Piper\u2019s warm-brown adult-human identity, orange high ponytail, russet-red/cream uniform with speed stripes, red/cream trainers, consistent proportions and complete anatomy.\n\nMake only these pose changes to improve clear separation:\n- Frame2 (top row, third cell): a distinct airborne rise with lead knee high, torso lengthened, and hands gathering the invisible ball near the shooting shoulder; the other arm balances away from the torso.\n- Frame3 (top row, fourth cell): a visibly different compact final gather, elbows bent and close to the head, knees folding more, torso rotated slightly toward the basket. Do not repeat frame2\u2019s extended rise.\n- Frame4 (bottom row, first cell): the single right-handed release at simulation tick10, shooting arm extended high-forward with open fingertips, opposite arm balancing, lead knee lifted.\n- Frame5 (bottom row, second cell): the immediate empty-handed follow-through at tick11, with the shooting forearm relaxed and angled forward/down from the release and the opposite arm opened for balance; make its silhouette clearly different from frame4.\n\nPreserve frames0,1,6,7 in content and identity. Recenter and uniformly scale all eight figures within their own original cells to leave generous clear transparent margins on every side; no hair, hand, finger, or shoe may touch a cell edge. Remove the red chromatic fringe and any background pixels around every figure while keeping crisp clean dark outlines and all authentic antialiased anatomy and clothing edges. Do not redraw the whole character design or erase hair strands or fingers.\n\nKeep every hand empty. The basketball is separate runtime art and is never painted into the sheet. No ball, sphere, seams, prop, hoop, rim, floor, shadow, glow, scenery, background, checkerboard, grid, cell lines, border, text, UI, or extra person. Preserve true transparent RGBA alpha in all empty space. Return only the corrected transparent sheet.",
+              "review": {
+                "status": "accepted",
+                "reviewer": "independent source-review subagent",
+                "reviewedAt": "2026-10-25",
+                "notes": "Eight ordered distinct layup poses. Piper identity/anatomy is consistent; true transparent alpha, no red fringe/background, no ball; all cells have >=66px margins. Release frame4 and follow-through frame5 are distinct. Native ball alignment accepted."
+              },
+              "eligibleForPacking": true,
+              "ballPolicy": {
+                "separateTrack": true,
+                "event": "release",
+                "anchorTick": 10,
+                "takeoffTick": 2,
+                "peakTick": 10,
+                "finishTick": 18,
+                "height": [
+                  1.1,
+                  1.25,
+                  2.1,
+                  1.8,
+                  2.19,
+                  2.19,
+                  1.35,
+                  0.8
+                ],
+                "forward": [
+                  6,
+                  7,
+                  9,
+                  9,
+                  8.9,
+                  8.9,
+                  9,
+                  7
+                ],
+                "notes": "Piper-specific track carries the separate ball through tick9; frame4/tick10 releases from the extended fingertips. Real simulation shot physics takes over after release and carries toward the correct rim."
+              },
+              "nativeReview": {
+                "status": "accepted",
+                "reviewer": "independent native-render subagent",
+                "reviewedAt": "2026-10-25",
+                "renderer": "tools/render-preview.mjs with simulation jump curve and stepMatch live-shot trajectory",
+                "evidence": [
+                  "tools/generate-art/previews/piper-quickstep-layup/native-final-100/report.json",
+                  "tools/generate-art/previews/piper-quickstep-layup/native-final-120/report.json"
+                ],
+                "captures": {
+                  "actionFramesPerZoom": 18,
+                  "liveShotTicks": [
+                    9,
+                    10,
+                    11,
+                    14,
+                    18,
+                    40,
+                    60,
+                    80,
+                    85
+                  ],
+                  "facings": [
+                    1,
+                    -1
+                  ],
+                  "zooms": [
+                    100,
+                    120
+                  ]
+                },
+                "productionSelections": "all action-frame and live-shot captures select production art in both facings at both zooms",
+                "notes": "Frame2/tick5 reaches the raised hand; frame3/tick8 and last-carry tick9 meet the gather hands; frame4/tick10 meets the extended release fingertips. Live shot moves toward the correct rim. No clipping or collision."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Eight distinct ordered poses pass identity/anatomy, transparent alpha, no-ball art, margins, and release/follow-through separation. Separate track aligns at frame2/tick5, frame3/tick8, last-carry tick9, and frame4/tick10. Independent native review covers both facings and 100%/120%; live shot physics moves to the correct rim."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Piper\u2019s canonical body can be mirrored; pickup was visually reviewed with production art in both facings at 100% and 120% zoom. No directional hair/clothing asymmetry affects identity. Evidence: native-final-100/120 reports."
+        "notes": "Piper\u2019s canonical body is safe to mirror; layup art and separate ball contact were reviewed with production captures in both facings at100% and120% zoom."
       }
     },
     "briar-foxglove": {

@@ -1,12 +1,12 @@
 # QA report
 
-## Piper Quickstep — `pickup` accepted and integrated locally
+## Piper Quickstep — `layup` accepted and integrated locally
 
-The five-pose pickup atlas adds five drawings, bringing Piper to11/29 clips /79 authored drawings. ImageGen attempt3 `exec-0b3e249d-a4d3-4d2e-9228-50fd3507d2b5` passed independent source review for sequence, pose separation, warm-brown adult-human identity, orange high ponytail, russet/cream kit, complete anatomy, empty hand, true alpha and cell margins (minimum56px). Frame3 reaches open fingertips to the floor at grab tick7. The separate Piper-specific ball track `[.9,.55,.2,0,.6]` height / `[7,10,14,14,8]` forward passed independent native review: 20/20 production selections at100% and120% in both facings; floor contact at frame3/tick7 and trailing-hand contact in frame4 recovery.
+The eight-pose layup adds eight authored drawings, bringing Piper to12/29 clips /87 drawings. Accepted edit attempt2 `exec-76ace781-7ed2-400d-a9cc-4f9044cb8ba9` passed independent source review: distinct ordered approach/takeoff/rise/gather/release/follow-through/descent/landing poses; consistent warm-brown adult-human identity, orange high ponytail, russet/cream kit and full anatomy; transparent alpha; no fringe or ball; every cell has >=66px margins. Attempt1 is rejected for tight margins, red fringe and similar pose pairs, with source and prompt retained.
 
-Attempt1 was rejected for a round mark in the frame3 fist. Attempt2 was rejected: two outputs baked in checkerboard, and its cleaned RGBA candidate was not accepted. Accepted source, exact prompts, raw and clean images, hashes, cleanup scripts, layouts, rejected candidates, alpha composites, and native previews/reports are retained under `tools/generate-art/piper-quickstep-pickup*` and `tools/generate-art/previews/piper-quickstep-pickup/`.
+Separate Piper track: height `[1.1,1.25,2.1,1.8,2.19,2.19,1.35,.8]`, forward `[6,7,9,9,8.9,8.9,9,7]`. Independent native review accepts the hand contact at frame2/tick5, frame3/tick8 and tick9 pre-release, and frame4/tick10 release. It covers both facings and100%/120% zoom, selecting production art throughout; live `stepMatch` shot physics moves toward the correct rim. Reports are under `tools/generate-art/previews/piper-quickstep-layup/native-final-{100,120}/`.
 
-Validation: `npm test`36/36 files, lint18 modules, content validation35 franchises /105 athletes, 100-match simulation /861,421 ticks /6 overtimes, 55 packer tests, and build pass. The E2E server exited before readiness at `127.0.0.1:4175`. Audit `2026-10-25T03:02:18.738Z`:801 registered clips,2,302 missing clips, one below-target clip (Luca Velori `run`),4 inherited prompt findings. Next: Piper `layup`.
+Validation: `npm test`36/36 files; lint18 modules; content validation35 franchises /105 athletes;100-match simulation /861,421 ticks /6 overtimes;55 packer tests; build. E2E remains blocked because the server exits before readiness at `127.0.0.1:4175`. Audit `2026-10-25T03:20:54.260Z`:802 registered clips /7,230 authored drawings /105 athletes,2,301 missing clips, one target shortfall and4 inherited prompt findings. Next: Piper `layup-reverse`.
 
 ## Marco Vellum — `receive` accepted and integrated locally
 

@@ -1,0 +1,22 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "layup",
+  "attempt": 1,
+  "generationId": "exec-76a7262f-7cf7-4543-ae39-90994324aaf0",
+  "generationTool": "image_gen.imagegen",
+  "generatedAt": "2026-10-25T03:04:00Z",
+  "promptFile": "tools/generate-art/piper-quickstep-layup-attempt1-prompt.md",
+  "promptSha256": "e82a24833b3c24876d0cfb8fce433c2ba37cd888c37cd2984e1273ddaf60250f",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-layup-attempt1-generated-raw.png",
+  "rawSha256": "fb87622039352f0ca45c3c3a50873b2719f3e4f73637be917dd1a7203c7a1103",
+  "rawDimensions": [
+    1774,
+    887
+  ],
+  "review": {
+    "status": "rejected",
+    "reviewer": "independent source-review subagent",
+    "reviewedAt": "2026-10-25",
+    "notes": "All eight poses and RGBA transparency present, identity/anatomy consistent, no baked ball. Rejected: several poses below prompted 64px margins; frame4 only 1px from top; conspicuous red fringe; frames2/3 and4/5 too similar for clear separation."
+  }
+}

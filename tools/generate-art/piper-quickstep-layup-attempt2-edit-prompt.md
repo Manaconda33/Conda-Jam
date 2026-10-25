@@ -1,0 +1,11 @@
+Edit this exact Piper layup source sheet to improve four poses and the figure edges. Preserve the same canvas size and four-column by two-row layout. Keep exactly eight complete right-facing figures, one per existing cell, row-major. Do not add, remove, move between cells, duplicate, mirror, crop, or reorder any pose. Keep Piper’s warm-brown adult-human identity, orange high ponytail, russet-red/cream uniform with speed stripes, red/cream trainers, consistent proportions and complete anatomy.
+
+Make only these pose changes to improve clear separation:
+- Frame2 (top row, third cell): a distinct airborne rise with lead knee high, torso lengthened, and hands gathering the invisible ball near the shooting shoulder; the other arm balances away from the torso.
+- Frame3 (top row, fourth cell): a visibly different compact final gather, elbows bent and close to the head, knees folding more, torso rotated slightly toward the basket. Do not repeat frame2’s extended rise.
+- Frame4 (bottom row, first cell): the single right-handed release at simulation tick10, shooting arm extended high-forward with open fingertips, opposite arm balancing, lead knee lifted.
+- Frame5 (bottom row, second cell): the immediate empty-handed follow-through at tick11, with the shooting forearm relaxed and angled forward/down from the release and the opposite arm opened for balance; make its silhouette clearly different from frame4.
+
+Preserve frames0,1,6,7 in content and identity. Recenter and uniformly scale all eight figures within their own original cells to leave generous clear transparent margins on every side; no hair, hand, finger, or shoe may touch a cell edge. Remove the red chromatic fringe and any background pixels around every figure while keeping crisp clean dark outlines and all authentic antialiased anatomy and clothing edges. Do not redraw the whole character design or erase hair strands or fingers.
+
+Keep every hand empty. The basketball is separate runtime art and is never painted into the sheet. No ball, sphere, seams, prop, hoop, rim, floor, shadow, glow, scenery, background, checkerboard, grid, cell lines, border, text, UI, or extra person. Preserve true transparent RGBA alpha in all empty space. Return only the corrected transparent sheet.

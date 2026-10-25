@@ -1,0 +1,243 @@
+{
+  "source": "tools/generate-art/sources/piper-quickstep-layup-attempt2-generated-raw.png",
+  "output": "tools/generate-art/sources/piper-quickstep-layup-attempt2-clean-candidate.png",
+  "columns": 4,
+  "rows": 2,
+  "cellWidth": 512,
+  "cellHeight": 512,
+  "method": "uniform whole-sheet LANCZOS resize from generated 1774x887 to 2048x1024; in each cell retain the largest alpha>=224 opaque figure component and original RGBA pixels within a 2px dilation, clear outside mask and alpha<8; uniformly scale to <=344x380 and center; no redraw/reorder",
+  "frames": [
+    {
+      "frame": 0,
+      "component": 1,
+      "sourceBounds": [
+        69,
+        103,
+        465,
+        487
+      ],
+      "sourceMargins": [
+        69,
+        47,
+        103,
+        25
+      ],
+      "uniformScale": 0.868687,
+      "outputBounds": [
+        84,
+        89,
+        428,
+        423
+      ],
+      "outputMargins": [
+        84,
+        84,
+        89,
+        89
+      ]
+    },
+    {
+      "frame": 1,
+      "component": 1,
+      "sourceBounds": [
+        129,
+        75,
+        444,
+        506
+      ],
+      "sourceMargins": [
+        129,
+        68,
+        75,
+        6
+      ],
+      "uniformScale": 0.881671,
+      "outputBounds": [
+        117,
+        66,
+        395,
+        446
+      ],
+      "outputMargins": [
+        117,
+        117,
+        66,
+        66
+      ]
+    },
+    {
+      "frame": 2,
+      "component": 1,
+      "sourceBounds": [
+        116,
+        59,
+        453,
+        508
+      ],
+      "sourceMargins": [
+        116,
+        59,
+        59,
+        4
+      ],
+      "uniformScale": 0.846325,
+      "outputBounds": [
+        113,
+        66,
+        398,
+        446
+      ],
+      "outputMargins": [
+        113,
+        114,
+        66,
+        66
+      ]
+    },
+    {
+      "frame": 3,
+      "component": 1,
+      "sourceBounds": [
+        139,
+        58,
+        393,
+        506
+      ],
+      "sourceMargins": [
+        139,
+        119,
+        58,
+        6
+      ],
+      "uniformScale": 0.848214,
+      "outputBounds": [
+        148,
+        66,
+        363,
+        446
+      ],
+      "outputMargins": [
+        148,
+        149,
+        66,
+        66
+      ]
+    },
+    {
+      "frame": 4,
+      "component": 1,
+      "sourceBounds": [
+        87,
+        4,
+        451,
+        489
+      ],
+      "sourceMargins": [
+        87,
+        61,
+        4,
+        23
+      ],
+      "uniformScale": 0.783505,
+      "outputBounds": [
+        113,
+        66,
+        398,
+        446
+      ],
+      "outputMargins": [
+        113,
+        114,
+        66,
+        66
+      ]
+    },
+    {
+      "frame": 5,
+      "component": 1,
+      "sourceBounds": [
+        89,
+        60,
+        482,
+        489
+      ],
+      "sourceMargins": [
+        89,
+        30,
+        60,
+        23
+      ],
+      "uniformScale": 0.875318,
+      "outputBounds": [
+        84,
+        68,
+        428,
+        444
+      ],
+      "outputMargins": [
+        84,
+        84,
+        68,
+        68
+      ]
+    },
+    {
+      "frame": 6,
+      "component": 1,
+      "sourceBounds": [
+        153,
+        61,
+        428,
+        486
+      ],
+      "sourceMargins": [
+        153,
+        84,
+        61,
+        26
+      ],
+      "uniformScale": 0.894118,
+      "outputBounds": [
+        133,
+        66,
+        379,
+        446
+      ],
+      "outputMargins": [
+        133,
+        133,
+        66,
+        66
+      ]
+    },
+    {
+      "frame": 7,
+      "component": 1,
+      "sourceBounds": [
+        151,
+        58,
+        393,
+        482
+      ],
+      "sourceMargins": [
+        151,
+        119,
+        58,
+        30
+      ],
+      "uniformScale": 0.896226,
+      "outputBounds": [
+        147,
+        66,
+        364,
+        446
+      ],
+      "outputMargins": [
+        147,
+        148,
+        66,
+        66
+      ]
+    }
+  ]
+}

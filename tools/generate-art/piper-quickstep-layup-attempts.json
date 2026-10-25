@@ -1,0 +1,70 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "layup",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "rejected: margins, red fringe, similar pose pairs",
+      "provenance": "tools/generate-art/piper-quickstep-layup-attempt1-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-layup-attempt1-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-layup-attempt1-generated-raw.png",
+      "review": {
+        "status": "rejected",
+        "reviewer": "independent source-review subagent",
+        "reviewedAt": "2026-10-25",
+        "notes": "All eight poses and RGBA transparency present, identity/anatomy consistent, no baked ball. Rejected: several poses below prompted 64px margins; frame4 only 1px from top; conspicuous red fringe; frames2/3 and4/5 too similar for clear separation."
+      }
+    },
+    {
+      "attempt": 2,
+      "status": "accepted for production",
+      "provenance": "tools/generate-art/piper-quickstep-layup-attempt2-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-layup-attempt2-edit-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-layup-attempt2-generated-raw.png",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-layup-attempt2-clean-candidate.png",
+      "layout": "tools/generate-art/piper-quickstep-layup-attempt2-layouts.json",
+      "cleanup": "alpha-core isolation; no redraw",
+      "cleanSha256": "36002962e36cf006be76aa96138decb852296c05dce0364fb5539426496c6b5e",
+      "review": {
+        "status": "accepted",
+        "reviewer": "independent source-review subagent",
+        "reviewedAt": "2026-10-25",
+        "notes": "Eight ordered distinct layup poses. Warm-brown adult Piper identity, orange ponytail, russet/cream uniform and full anatomy are consistent. Every cell has at least66px margins; true transparent alpha, no remaining red fringe/background, and no ball. Frames4 release and5 follow-through are distinct."
+      },
+      "nativeReview": {
+        "status": "accepted",
+        "reviewer": "independent native-render subagent",
+        "reviewedAt": "2026-10-25",
+        "renderer": "tools/render-preview.mjs with simulation jump curve and stepMatch live-shot trajectory",
+        "evidence": [
+          "tools/generate-art/previews/piper-quickstep-layup/native-final-100/report.json",
+          "tools/generate-art/previews/piper-quickstep-layup/native-final-120/report.json"
+        ],
+        "captures": {
+          "actionFramesPerZoom": 18,
+          "liveShotTicks": [
+            9,
+            10,
+            11,
+            14,
+            18,
+            40,
+            60,
+            80,
+            85
+          ],
+          "facings": [
+            1,
+            -1
+          ],
+          "zooms": [
+            100,
+            120
+          ]
+        },
+        "productionSelections": "all action-frame and live-shot captures select production art in both facings at both zooms",
+        "notes": "Frame2/tick5 reaches the raised hand; frame3/tick8 and last-carry tick9 meet the gather hands; frame4/tick10 meets the extended release fingertips. Live shot moves toward the correct rim. No clipping or collision."
+      }
+    }
+  ]
+}
