@@ -111,6 +111,51 @@
           "tools/generate-art/previews/marco-vellum-shoot/native-120/report.json"
         ]
       }
+    },
+    "pass": {
+      "athlete": "marco-vellum",
+      "clip": "pass",
+      "status": "accepted after native contact review at 100% and 120%",
+      "height": [
+        1,
+        1.05,
+        1.3,
+        1.5,
+        1.6,
+        1.7
+      ],
+      "forward": [
+        5,
+        6,
+        8,
+        13,
+        15,
+        22
+      ],
+      "basis": "Marco-specific separate-ball track for the reviewed six empty-hand chest-pass poses. Frame0-1 align at waist gather; frame2 rises to chest load; frame3 meets fingertips and releases at tick5; frames4-5 progress into forward flight. No ball is painted into the atlas.",
+      "nativeReview": {
+        "zooms": [
+          100,
+          120
+        ],
+        "facings": [
+          "right",
+          "left"
+        ],
+        "frames": {
+          "0-1": "waist gather, ball owner Marco",
+          "2": "chest load",
+          "3": "fingertip contact and release at tick5",
+          "4-5": "separating forward flight"
+        },
+        "clipSummariesPerZoom": 2,
+        "actionFrameCapturesPerZoom": 12,
+        "review": "Independent native Canvas reviewer checked all12 action-frame captures at100% and120%. All production frames selected. Ball remains with Marco through frame2 and meets the release fingertips at frame3/tick5; it separates in flight at frames4-5, with owner null. Both facings travel coherently and each capture contains one ball.",
+        "reports": [
+          "tools/generate-art/previews/marco-vellum-pass/native-100/report.json",
+          "tools/generate-art/previews/marco-vellum-pass/native-120/report.json"
+        ]
+      }
     }
   },
   "basis": "Marco-specific frame-indexed tracks; shoot contact was checked in actual native Canvas captures at 100% and 120% in both facings. Source art and the separate ball path remain independently recorded."

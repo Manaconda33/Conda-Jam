@@ -1,0 +1,17 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "pass",
+  "generationId": "exec-97b1dcb2-282c-48b7-b3e0-06050b171ff5",
+  "input": "tools/generate-art/sources/marco-vellum-pass-attempt4-generated-raw.png",
+  "inputSha256": "08cc519e7ce59d10150d987d860d6d36e995d22c49e5f880b703a12cb3cf8963",
+  "output": "tools/generate-art/sources/marco-vellum-pass-attempt4-clean-candidate.png",
+  "outputSha256": "c5b4eb093f8e53b506a07eb6f78a73f257cdd5bd0feaefe68ac68b2b583529d1",
+  "script": "tools/generate-art/clean-marco-vellum-pass-attempt4.py",
+  "layout": "tools/generate-art/marco-vellum-pass-attempt4-layouts.json",
+  "method": "For each of six 512x512 row-major cells, isolate the largest alpha>=64 connected athlete component, retain only original alpha pixels within a 2px dilation, clear alpha below8, uniformly resize by nearest-neighbor to at most330x330, and center on zero-alpha canvas. No pose pixels redrawn, synthesized, copied, mirrored, or rearranged.",
+  "proofs": [
+    "tools/generate-art/previews/marco-vellum-pass-attempt4-clean-light.png",
+    "tools/generate-art/previews/marco-vellum-pass-attempt4-clean-dark.png"
+  ],
+  "review": "Independent reviewer passes source cleanup, transparent background, anatomy, cell margins and pose sequence."
+}

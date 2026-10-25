@@ -1,3 +1,9 @@
+## Marco Vellum — `pass` accepted and integrated
+
+- Added six unique right-facing poses, bringing Marco to8/29 clips /63 authored drawings. Attempt4 passed independent source review after per-cell alpha isolation and uniform downscaling; no pose was redrawn or rearranged. Earlier raw attempts remain rejected and preserved. The final atlas is288×192, uses six distinct cells, and has at least5px transparency on every edge.
+- Marco's separate ball path is reviewed at100% and120% in both facings: carried through frame2, fingertip contact and release at frame3/tick5, then increasing forward separation. All12 native action captures per zoom select production frames. Exact prompts, raw and cleaned sources, hashes, layouts, rejected candidates, proofs and reports are under `tools/generate-art/marco-vellum-pass*`.
+- Focused Marco pass regression passes. Full validation:33 JavaScript test files, lint18 modules, content35 franchises /105 athletes, league simulation100 matches /861,238 ticks /6 overtimes,55 atlas packer tests, build, and Chromium E2E. The strict audit at `2026-10-25T01:27:50.135Z` reports793 clips /7,179 drawings /105 athletes,2,310 missing clips, one target shortfall and4 inherited prompt findings. Pages deployment will be recorded below after workflow verification.
+
 # QA report
 
 ## Marco Vellum — `shoot` accepted and integrated

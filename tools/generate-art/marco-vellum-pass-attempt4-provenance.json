@@ -1,0 +1,92 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "pass",
+  "direction": "right",
+  "generatedAt": "2026-10-24",
+  "generationId": "exec-97b1dcb2-282c-48b7-b3e0-06050b171ff5",
+  "promptFile": "tools/generate-art/marco-vellum-pass-attempt4-prompt.md",
+  "prompt": "Make a single six-pose transparent RGBA animation sprite sheet, exact canvas 1536x1024, divided into 3 columns and 2 rows of 512x512 cells, read row-major. Each centered full-body figure should be about 60% of cell height (roughly 305px tall) and leave at least 85px clear space at every cell edge. Each figure must be fully inside its own cell with broad blank gaps. True zero-alpha outside the athlete. No background tint or haze, no floor/shadow/glow, no panel, lines, checkerboard, props or basketball. No text, logos, numbers, badges or chest emblem.\n\nAthlete identity must be identical in every cell: Marco Vellum, compact athletic adult human man, medium-light olive skin, angular clean-shaven face, short thick slightly wavy black hair, black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands, black high-top shoes. Plain blank uniform fabric. Crisp outlined 1990s arcade pixel art with a consistent right-facing three-quarter camera, not 3D, not painterly. Full natural anatomy, two arms, two hands, two legs and two shoes in every cell.\n\nShow six clearly different successive chest-pass poses:\n0. Upright balanced ready stance, feet under shoulders, knees slightly bent, empty hands relaxed apart at waist.\n1. Definite forward step and weight shift, knees bent, both empty hands low at waist shaping a gather around an invisible ball.\n2. Upright chest-pass load, hands lifted apart at sternum, elbows bent outward.\n3. Torso turned toward image-right, lead foot planted, both arms driving forward from chest.\n4. Strong two-hand pass release, both arms fully extended image-right, palms and fingers open, empty hands.\n5. Completed follow-through has ended: Marco stands upright and balanced again, feet under shoulders, arms lowered loosely beside his hips, empty hands, facing the same direction as pose 0. This last pose must not still be reaching or leaning forward.\nEach pose is distinct and anatomically natural. No limbs cross cell edges. Return only the six figures and transparent sheet.\n",
+  "sourceSha256": "c5b4eb093f8e53b506a07eb6f78a73f257cdd5bd0feaefe68ac68b2b583529d1",
+  "sourceImage": "tools/generate-art/sources/marco-vellum-pass-attempt4-clean-candidate.png",
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "reviewers": [
+      "Codex",
+      "independent visual reviewer"
+    ],
+    "notes": "Accept the cleaned source for packing. All six poses are distinct and in order including the balanced final recovery. Marco identity and plain blank black/crimson/white kit are consistent, full anatomy is intact, hands are empty and no ball/markings appear. Both white and dark proofs pass."
+  },
+  "cleanupRecord": "tools/generate-art/marco-vellum-pass-attempt4-cleanup.json",
+  "attemptHistory": "tools/generate-art/marco-vellum-pass-attempts.json",
+  "identityReferencesReviewed": [
+    "tools/generate-art/references/marco-vellum-portrait-reference.png",
+    "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+  ],
+  "ballTrack": {
+    "owner": "marco-vellum",
+    "status": "accepted after native contact review at 100% and 120%",
+    "art": "no basketball is painted in the accepted frames",
+    "runtimeValues": {
+      "height": [
+        1,
+        1.05,
+        1.3,
+        1.5,
+        1.6,
+        1.7
+      ],
+      "forward": [
+        5,
+        6,
+        8,
+        13,
+        15,
+        22
+      ]
+    },
+    "nativeReview": {
+      "zooms": [
+        100,
+        120
+      ],
+      "facings": [
+        "right",
+        "left"
+      ],
+      "frames": {
+        "0-1": "waist gather, ball owner Marco",
+        "2": "chest load",
+        "3": "fingertip contact and release at tick5",
+        "4-5": "separating forward flight"
+      },
+      "clipSummariesPerZoom": 2,
+      "actionFrameCapturesPerZoom": 12,
+      "review": "Independent native Canvas reviewer checked all12 action-frame captures at100% and120%. All production frames selected. Ball remains with Marco through frame2 and meets the release fingertips at frame3/tick5; it separates in flight at frames4-5, with owner null. Both facings travel coherently and each capture contains one ball.",
+      "reports": [
+        "tools/generate-art/previews/marco-vellum-pass/native-100/report.json",
+        "tools/generate-art/previews/marco-vellum-pass/native-120/report.json"
+      ]
+    }
+  },
+  "generationHistory": [
+    {
+      "attempt": 2,
+      "generationId": "exec-96911ccc-a687-4308-a33a-93b9294ce675",
+      "source": "tools/generate-art/sources/marco-vellum-pass-attempt2-generated-raw.png",
+      "status": "rejected"
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-7028a33e-da26-433e-9d57-bc81e9d34c32",
+      "source": "tools/generate-art/sources/marco-vellum-pass-attempt3-generated-raw.png",
+      "status": "rejected"
+    },
+    {
+      "attempt": 4,
+      "generationId": "exec-97b1dcb2-282c-48b7-b3e0-06050b171ff5",
+      "source": "tools/generate-art/sources/marco-vellum-pass-attempt4-generated-raw.png",
+      "status": "accepted-after-cleanup"
+    }
+  ]
+}

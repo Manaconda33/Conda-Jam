@@ -1,0 +1,98 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "pass",
+  "direction": "right",
+  "updatedAt": "2026-10-24",
+  "existingAttempt": {
+    "athlete": "marco-vellum",
+    "clip": "pass",
+    "direction": "right",
+    "generatedAt": "2026-10-24",
+    "eligibleForPacking": false,
+    "promptFile": "tools/generate-art/marco-vellum-pass-prompt.md",
+    "prompt": "Match Marco Vellum using the attached portrait and gameplay atlas: compact athletic adult human MAN, medium-light olive skin, strong angular clean-shaven face, short thick black hair with slight wave; no mustache, no beard, no long hair. Black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands, black high-top shoes. Keep this exact identity and uniform in all six poses.\n\nCreate six distinct complete full-body poses, strict row-major three columns by two rows on transparent RGBA 1536x1024. Each figure about 65% of its 512x512 cell height, centered with wide gutters and safe cell margins. Nothing may cross a cell boundary. Crisp outlined 1990s arcade pixel art. No background, court, floor, shadow, hoop, text, other athletes, basketball or props.\n\nRight-facing chest pass sequence: 0 ready balanced, hands empty; 1 steps forward and gathers invisible ball around waist; 2 brings both empty hands to chest, elbows bent; 3 rotates torso and drives both hands forward toward image-right; 4 arms extend fully in two-hand pass, palms/fingers open and empty; 5 follows through and returns balanced. No basketball at any point; Marco's ball is rendered by his own independent runtime track.\n\nAll six figures are complete, distinct and anatomically natural, with two arms/hands, two legs/shoes. Keep Marco clean-shaven and short-haired in every cell. True alpha-zero background and gutters, no haze/checkerboard. Return only the sheet.",
+    "references": [
+      "tools/generate-art/references/marco-vellum-portrait-reference.png",
+      "public/assets/animation/marco-vellum-idle-right.webp"
+    ],
+    "review": {
+      "status": "rejected",
+      "notes": "Independent review rejects this package pending rework: brown/red haze remains visible around figures in the source and atlas, and two source poses reach their cell right edge. The exact prompt, hashes and unique frames check out; no ball remains after the edit. Do not pack or count it until cleanup/margins and Marco-specific ball-track provenance are corrected."
+    },
+    "ballTrack": {
+      "owner": "marco-vellum",
+      "art": "no ball in atlas; independent Marco-specific runtime path"
+    },
+    "cleanup": {
+      "script": "tools/generate-art/clean-marco-vellum-pass6.py",
+      "method": "Localized image edit removes the only generated ball-like object; per-cell largest alpha>=32 athlete component plus 2px antialias fringe clears background haze; action6 packer verifies six full pose components.",
+      "rawSource": "tools/generate-art/sources/marco-vellum-pass-generated-raw.png",
+      "rawSourceSha256": "df55b0408846de3a0ddf55ba2e53af410aaf6a49919a15d5c71405e4153728e6",
+      "editedSource": "tools/generate-art/sources/marco-vellum-pass-ball-cleanup-generated.png",
+      "editedSourceSha256": "09fb3c73e877884d21cd855ee760fcdfeb4cbcca4d357f53c187f4433569d55a",
+      "cleanedSource": "tools/generate-art/sources/marco-vellum-pass6.png",
+      "sourceSha256": "31148f21fc9c3262cc5d50277e04446eacb837d64e6af0a951aa92d552240b40"
+    },
+    "sourceSha256": "31148f21fc9c3262cc5d50277e04446eacb837d64e6af0a951aa92d552240b40",
+    "generationHistory": [
+      {
+        "id": "exec-7b164c2f-dda9-40a2-aed2-c1462e10c080",
+        "status": "accepted-after-edit",
+        "reason": "Correct Marco identity and clear chest-pass; pose 1 had a dark ball-like object, removed in localized edit.",
+        "sha256": "df55b0408846de3a0ddf55ba2e53af410aaf6a49919a15d5c71405e4153728e6"
+      },
+      {
+        "id": "exec-0eb6127d-5804-4f97-ac47-f0e825fdf807",
+        "status": "accepted-edit",
+        "reason": "Removed object from pose 1; retained all other poses and Marco identity.",
+        "sha256": "09fb3c73e877884d21cd855ee760fcdfeb4cbcca4d357f53c187f4433569d55a"
+      }
+    ],
+    "reviewPreview": "tools/generate-art/sources/marco-vellum-pass-review.png",
+    "artifactHashes": {
+      "cleanedSourceSha256": "31148f21fc9c3262cc5d50277e04446eacb837d64e6af0a951aa92d552240b40",
+      "atlasSha256": "2f31b19867265ba3abe2427215dfb6b91cc5d45f63758ebe5a5b8759455b0d0c",
+      "reviewPreviewSha256": "64aae73c549cc2e97a70e57c53b44eb9673974204531f700c46543c551a239bf",
+      "rawSourceSha256": "df55b0408846de3a0ddf55ba2e53af410aaf6a49919a15d5c71405e4153728e6"
+    }
+  },
+  "newAttempts": [
+    {
+      "attempt": 2,
+      "generationId": "exec-96911ccc-a687-4308-a33a-93b9294ce675",
+      "promptFile": "tools/generate-art/marco-vellum-pass-prompt.md",
+      "source": "tools/generate-art/sources/marco-vellum-pass-attempt2-generated-raw.png",
+      "sha256": "b280d4f730cc24aa4b2ca189ed16f4496a9d490434baa2a1671fe85a305dcb3e",
+      "status": "rejected",
+      "review": "Opaque brown haze; figures exceeded prompt size; pose sequence repeated a wide-legged stance; large red chest emblem. All bodies complete and cell-contained; no ball."
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-7028a33e-da26-433e-9d57-bc81e9d34c32",
+      "promptFile": "tools/generate-art/marco-vellum-pass-attempt3-prompt.md",
+      "source": "tools/generate-art/sources/marco-vellum-pass-attempt3-generated-raw.png",
+      "sha256": "88207f50d28d494a58f317d8f6fbe9271bc898e1954752b5ad5db0174c0f549c",
+      "status": "rejected",
+      "review": "Raw background haze and figures at 79\u201384% cell height. Pose sequence reads clearly, but final pose remains extended instead of returning to balance. A transparent isolated/scaled copy is retained for review only, not selected."
+    },
+    {
+      "attempt": 4,
+      "generationId": "exec-97b1dcb2-282c-48b7-b3e0-06050b171ff5",
+      "promptFile": "tools/generate-art/marco-vellum-pass-attempt4-prompt.md",
+      "source": "tools/generate-art/sources/marco-vellum-pass-attempt4-generated-raw.png",
+      "sha256": "08cc519e7ce59d10150d987d860d6d36e995d22c49e5f880b703a12cb3cf8963",
+      "status": "accepted-after-cleanup",
+      "rawReview": "Reject raw sheet for brown alpha haze, silhouettes 385\u2013419px tall against a 60% target, and 63px right clearance on the extended pose. Six poses are complete and ordered; identity, blank uniform, natural anatomy, no-ball art and balanced final pose pass.",
+      "cleanedSource": "tools/generate-art/sources/marco-vellum-pass-attempt4-clean-candidate.png",
+      "cleanedSha256": "c5b4eb093f8e53b506a07eb6f78a73f257cdd5bd0feaefe68ac68b2b583529d1",
+      "cleanupRecord": "tools/generate-art/marco-vellum-pass-attempt4-cleanup.json",
+      "layout": "tools/generate-art/marco-vellum-pass-attempt4-layouts.json",
+      "previews": [
+        "tools/generate-art/previews/marco-vellum-pass-attempt4-clean-light.png",
+        "tools/generate-art/previews/marco-vellum-pass-attempt4-clean-dark.png"
+      ],
+      "review": "Independent reviewer accepted cleaned attempt4: six distinct ordered poses, balanced final recovery, consistent Marco identity/anatomy/blank kit, empty hands/no ball, clean alpha, >=104px side and91px top/bottom source-cell clearance; original pixels preserved within 2px dilation and uniformly scaled without redrawing or rearrangement."
+    }
+  ],
+  "generationHistoryInterpretation": "The original pass provenance records its localized edit as accepted-after-edit, but the complete package remains rejected by independent source review for background haze and poses reaching cell margins. The attempt records retain both facts without treating that edited sheet as accepted source art."
+}

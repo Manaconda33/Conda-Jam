@@ -1106,6 +1106,9 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   // Keep Marco's separate ball at his hands through the forehead set; it
   // leaves on shoot frame5/tick13, then follows the forward shot arc.
   shoot:{height:[.8,1,1.25,1.5,1.35,1.6,2.1,2.6,2.3,1.2],forward:[3,4,5,5,5,6,9,14,18,22]},
+  // Marco gathers at his waist, raises to a chest load, releases in his
+  // two-hand drive, then lets the ball separate through follow-through.
+  pass:{height:[1,1.05,1.3,1.5,1.6,1.7],forward:[5,6,8,13,15,22]},
   pickup:{height:[0,0,0,.25,.9],forward:[8,8,9,.5,-9]}
 },'flint-rooker':{
   // Flint's short-haired lead-hand poses need the separate ball ahead of his
