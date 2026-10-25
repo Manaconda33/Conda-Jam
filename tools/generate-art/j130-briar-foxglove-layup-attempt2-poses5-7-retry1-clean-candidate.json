@@ -13,7 +13,7 @@
       "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose5-retry1-raw.png",
       "sourceSha256": "6dc9a26ac09409047186d9bcfbf1d1f21c03d93f7c1dfaf4b4269ca2a38763aa",
       "candidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose5-retry1-clean-candidate.png",
-      "candidateSha256": "39af0962fcf3f6bc63d16cb5bda73a48f66c0858fff1b77cfd4e1a35275c9ecb",
+      "candidateSha256": "b77e97ae8c5f7e488f76bf7c83994c03cf1bebe1c09ddaf180b67f52db37964a",
       "dimensions": [
         1254,
         1254
@@ -35,6 +35,8 @@
         395,
         752
       ],
+      "postResizeDetachedComponentsRemoved": 1,
+      "postResizeDetachedPixelsRemoved": 1,
       "candidateBoundsLTRBExclusive": [
         429,
         251,
@@ -56,7 +58,7 @@
       "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose6-retry1-raw.png",
       "sourceSha256": "94f411c08a851c3ca1a9fb433f5402f9dbceaddae7076b19cc2faf2bf3275a0e",
       "candidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose6-retry1-clean-candidate.png",
-      "candidateSha256": "f9077f0e22ccbfa25816ee4ba9b0309d8c1b2f2c7f6cedafd375ad36aae47426",
+      "candidateSha256": "1035a9fd8432c479b6018536b691e7572513bc1d410699728f300b50c46acb07",
       "dimensions": [
         1254,
         1254
@@ -78,6 +80,8 @@
         469,
         740
       ],
+      "postResizeDetachedComponentsRemoved": 0,
+      "postResizeDetachedPixelsRemoved": 0,
       "candidateBoundsLTRBExclusive": [
         392,
         257,
@@ -99,7 +103,7 @@
       "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose7-retry1-raw.png",
       "sourceSha256": "1e2dd8ecb3bd4a5cee25043a43a8bf1c3102635b2ed8943122b5bfea75b0f71f",
       "candidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose7-retry1-clean-candidate.png",
-      "candidateSha256": "3b65358d3759b36c0146245e2ac9022bfb7a12e1b908336afbf6ce1f6b104578",
+      "candidateSha256": "2794a97ef551cb07f7fa62f640a06ea986cd998bdae91793687b2ff881c355ec",
       "dimensions": [
         1254,
         1254
@@ -121,6 +125,8 @@
         423,
         626
       ],
+      "postResizeDetachedComponentsRemoved": 0,
+      "postResizeDetachedPixelsRemoved": 0,
       "candidateBoundsLTRBExclusive": [
         415,
         314,

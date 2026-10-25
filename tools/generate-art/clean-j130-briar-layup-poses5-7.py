@@ -57,7 +57,12 @@ def clean(frame: int) -> tuple[Image.Image, dict]:
     main_mask = labels == main_label
     source_box = bounds(main_mask)
     assert source_box is not None
-    crop = rgba.crop((source_box[0], source_box[1], source_box[2], source_box[3]))
+    # Clear every disconnected nonzero-alpha component before cropping. Cropping
+    # the unmasked source would leave satellite specks inside the figure bounds.
+    isolated_pixels = source_pixels.copy()
+    isolated_pixels[~main_mask, 3] = 0
+    isolated = Image.fromarray(isolated_pixels, mode="RGBA")
+    crop = isolated.crop((source_box[0], source_box[1], source_box[2], source_box[3]))
 
     # Keep accepted scale when possible. For frame 5, shrink by the smallest
     # uniform factor that puts every surviving nonzero-alpha pixel >=20% from
@@ -71,6 +76,26 @@ def clean(frame: int) -> tuple[Image.Image, dict]:
         crop = crop.resize(new_size, Image.Resampling.LANCZOS)
     else:
         new_size = crop.size
+
+    # Resampling may leave an isolated one-pixel alpha artifact in a transparent
+    # gap. Remove only tiny post-resize satellite components and fail closed if
+    # the operation would remove enough pixels to suggest real anatomy loss.
+    resized_pixels = np.asarray(crop).copy()
+    resized_alpha = resized_pixels[:, :, 3]
+    resized_labels, resized_count = label(
+        resized_alpha > 0, structure=np.ones((3, 3), dtype=np.uint8)
+    )
+    resized_sizes = np.bincount(resized_labels.ravel(), minlength=resized_count + 1)
+    resized_sizes[0] = 0
+    resized_main = int(np.argmax(resized_sizes))
+    removed_resized_pixels = int(resized_sizes.sum() - resized_sizes[resized_main])
+    removed_resized_components = int(resized_count - 1)
+    if removed_resized_pixels > 4:
+        raise ValueError(
+            f"Frame {frame}: refusing to remove {removed_resized_pixels} post-resize pixels"
+        )
+    resized_pixels[resized_labels != resized_main, 3] = 0
+    crop = Image.fromarray(resized_pixels, mode="RGBA")
 
     output = Image.new("RGBA", SIZE, (0, 0, 0, 0))
     x = (SIZE[0] - crop.width) // 2
@@ -102,6 +127,8 @@ def clean(frame: int) -> tuple[Image.Image, dict]:
         "sourceMainBoundsLTRBExclusive": source_box,
         "uniformScale": float(scale),
         "resizedFigureCrop": list(new_size),
+        "postResizeDetachedComponentsRemoved": removed_resized_components,
+        "postResizeDetachedPixelsRemoved": removed_resized_pixels,
         "candidateBoundsLTRBExclusive": out_box,
         "candidateMarginsLTRB": margins(out_box, *SIZE),
         "requiredMinimumMarginPixels": int(np.ceil(SIZE[0] * MARGIN_FRACTION)),
