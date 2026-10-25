@@ -21,8 +21,9 @@ Accepted separate track H `[.35,.4,.65,.5,1.65,1.8,2.5,2.2,1.8,1.9,1.9,1.1,.8,.7
 
 ## J.118 source checkpoint — Piper Quickstep `dunk-360`
 
-ImageGen attempt1 (`exec-e9792f4f-8109-49d5-b8e9-bdea8089b03b`) produced a 1536×1024 RGBA sheet with an opaque brown/orange backdrop and poses crossing or approaching source-cell margins, so raw SHA-256 `ddec9fc7b43d185ac5813fcc28ff7319357ea6ad6e6f5e626cfa86c1765e8bad` is rejected for direct packing. Component-only cleanup preserved fifteen distinct row-major poses, no redraw/reorder, transparent cells and >=28px clearance; accepted source SHA-256 `91e0c1c3b0f2b432c4c6864ab0a1b729896e6dd64136d58452c4eafe23e1a1b9`. Independent source review accepts the explicit shared J101 360 sequence and Piper identity/anatomy. The sheet is ball-free; native track review and atlas packing remain pending.
+Attempts1–2 are rejected for source-canon mismatch: the required J101 middle-row, third-column high airborne pose with a hand secured beside the shoulder was missing or shifted to a neighboring cell. Attempt1 raw SHA-256 `ddec9fc7b43d185ac5813fcc28ff7319357ea6ad6e6f5e626cfa86c1765e8bad`; cleaned SHA-256 `91e0c1c3b0f2b432c4c6864ab0a1b729896e6dd64136d58452c4eafe23e1a1b9`. Attempt2 raw/clean SHA-256 `7b07f841ac4044ec5067c40a1dd3641ab1ae1fc3cc8f313be9fb9adbd9bb0572` / `0473ebb8348fb16f7a59d51c5c36952d615d963f7380d863881eeab4875c2526`.
 
+Attempt3 ImageGen id `exec-ab167c5f-02c0-48c8-9412-8da7874fa132` raw SHA-256 `c2a7216985ca1d625a6f7ab9f53d0cb4bdeadbf01c1ac6b3393b373815fa7c7c` is rejected for its brown/orange backdrop. Component-only cleanup preserved fifteen distinct original poses without redraw/reorder, transparent gutters and >=28px margins; cleaned source SHA-256 `10bc9afa202fcdd4d2bdef255609feb1799d6c0dc06e5faa128bebbb7aa1eaf9`. Independent source review accepts the middle-row/third-column shoulder-secured hand and all adjacent spin poses. Native track calibration is pending; no atlas is registered. Attempt1's five track candidates remain diagnostic-only and rejected for source hand-contact mismatch.
 
 ## J.119 source checkpoint — Piper Quickstep `dunk-tomahawk`
 

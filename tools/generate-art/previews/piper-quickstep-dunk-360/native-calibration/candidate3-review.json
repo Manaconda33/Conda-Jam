@@ -1,0 +1,11 @@
+{
+  "candidate": 3,
+  "status": "rejected",
+  "reviewer": "independent native-review subagent",
+  "notes": "All 15 frames select candidate atlas in both facings/zooms and real sim passes. On the exact rendered vector H8=1.9/F8=6, frames6\u20137 remain torso-side, frame8 gap, frame9/tick20 near forehead rather than palm, mirrored worst.",
+  "zoomReports": [
+    "candidate3-100/report.json",
+    "candidate3-120/report.json"
+  ],
+  "simulation": "candidate3-simulation.json"
+}

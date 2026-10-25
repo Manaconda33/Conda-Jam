@@ -1,0 +1,11 @@
+{
+  "candidate": 4,
+  "status": "rejected",
+  "reviewer": "independent native-review subagent",
+  "notes": "32/32 action captures select candidate atlas; live sim releases at21/scores two once. Frame6 right gap ~17px, mirrored close; frame7 mirrored ball hidden/off shoulder, right near hand; frame8 right ~13px diagonal gap, mirrored close. Frames9/tick20 within ball edge.",
+  "zoomReports": [
+    "candidate4-100/report.json",
+    "candidate4-120/report.json"
+  ],
+  "simulation": "candidate4-simulation.json"
+}

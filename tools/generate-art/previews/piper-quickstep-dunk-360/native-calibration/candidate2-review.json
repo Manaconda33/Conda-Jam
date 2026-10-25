@@ -1,0 +1,14 @@
+{
+  "candidate": 2,
+  "status": "rejected",
+  "reviewers": [
+    "independent native reviewer",
+    "independent reviewer retry"
+  ],
+  "notes": "All atlas selections and live sim pass. One review found F6/F7 widened shoulder gaps from ~27\u201330px to ~42\u201346px; retry found frame6\u20137 near shoulder in right and within ball edge mirrored. Both reject c2: frame8 right leaves ~15\u201320px gap below/forward of bent overhead hand, mirrored closer. Frame9/tick20 is close.",
+  "zoomReports": [
+    "candidate2-100/report.json",
+    "candidate2-120/report.json"
+  ],
+  "simulation": "candidate2-simulation.json"
+}

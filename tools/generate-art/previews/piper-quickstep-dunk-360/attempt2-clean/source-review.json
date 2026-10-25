@@ -1,0 +1,10 @@
+{
+  "status": "rejected-source-canon-mismatch-frame7",
+  "reviewer": "independent frame-by-frame source reviewer",
+  "reviewedAt": "2026-10-25",
+  "requiredPose": "J101 dunk-360 frame7: high airborne spin, torso stable, ball-miming hand secured beside shoulder; other arm counterbalances",
+  "notes": "Reject attempt2 for canon mismatch. Zero-based frame7 (middle row, third cell) is a deep crouch with both hands reaching down toward knee/shin level, not the required shoulder-secured hand. It is distinct from adjacent frames6 and8 but does not satisfy the pose target. Positive checks: 15 row-major poses; RGBA 1536x1024; all frame margins at least28px; transparent alpha; no ball or residual background; Piper identity and anatomy remain consistent.",
+  "evidenceSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt2-clean-candidate.png",
+  "productionEligible": false,
+  "nativeTrackStatus": "blocked; do not tune ball offsets around the missing pose"
+}

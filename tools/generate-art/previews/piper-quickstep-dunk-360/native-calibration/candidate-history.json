@@ -1,0 +1,303 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-360",
+  "candidateAtlas": "tools/generate-art/previews/piper-quickstep-dunk-360/attempt1-atlas-candidate/candidate-atlas.webp",
+  "candidateAtlasStatus": "diagnostic preview only; source rejected for missing frame7 shoulder hand; no public asset/runtime",
+  "candidates": [
+    {
+      "candidate": 1,
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          0.55,
+          1.3,
+          1.45,
+          1.25,
+          1.1,
+          1.7,
+          2.0,
+          2.4,
+          2.8,
+          2.4,
+          1.5,
+          0.7,
+          0.55
+        ],
+        "forward": [
+          6,
+          6,
+          4,
+          5,
+          0,
+          -4,
+          -6,
+          -4,
+          2,
+          5,
+          6,
+          8,
+          8,
+          5,
+          5
+        ]
+      },
+      "status": "diagnostic-only-source-rejected",
+      "change": "Initial Piper-specific contact estimate from the reviewed fifteen-pose sheet; calibrate against native hand alignment before acceptance.",
+      "independentReview": {
+        "candidate": 1,
+        "status": "rejected",
+        "reviewer": "independent native-review subagent",
+        "notes": "All 15 frames select candidate atlas in both facings/zooms and live simulation releases tick21/scores two once. Contact is unclear at frames6\u20137, especially mirrored, where ball is off/hidden at shoulder; frames8\u20139/tick20 float above crown rather than meet raised palm.",
+        "zoomReports": [
+          "candidate1-100/report.json",
+          "candidate1-120/report.json"
+        ],
+        "simulation": "candidate1-simulation.json"
+      },
+      "nativeReports": [
+        "candidate1-100/report.json",
+        "candidate1-120/report.json",
+        "candidate1-simulation.json"
+      ],
+      "sourceBlocker": "Frame7 lacks the J101 shoulder-secured ball-miming hand; native offsets cannot repair a missing authored pose."
+    },
+    {
+      "candidate": 2,
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          0.55,
+          1.3,
+          1.45,
+          1.25,
+          1.45,
+          1.75,
+          1.6,
+          2.0,
+          2.8,
+          2.4,
+          1.5,
+          0.7,
+          0.55
+        ],
+        "forward": [
+          6,
+          6,
+          4,
+          5,
+          0,
+          -4,
+          -12,
+          -10,
+          2,
+          5,
+          6,
+          8,
+          8,
+          5,
+          5
+        ]
+      },
+      "status": "diagnostic-only-source-rejected",
+      "change": "Frames6\u20137 move toward the turning hand/shoulder; frames8\u20139 lower toward the raised hand; hold frame10 at release transition.",
+      "independentReview": {
+        "candidate": 2,
+        "status": "rejected",
+        "reviewers": [
+          "independent native reviewer",
+          "independent reviewer retry"
+        ],
+        "notes": "All atlas selections and live sim pass. One review found F6/F7 widened shoulder gaps from ~27\u201330px to ~42\u201346px; retry found frame6\u20137 near shoulder in right and within ball edge mirrored. Both reject c2: frame8 right leaves ~15\u201320px gap below/forward of bent overhead hand, mirrored closer. Frame9/tick20 is close.",
+        "zoomReports": [
+          "candidate2-100/report.json",
+          "candidate2-120/report.json"
+        ],
+        "simulation": "candidate2-simulation.json"
+      },
+      "nativeReports": [
+        "candidate2-100/report.json",
+        "candidate2-120/report.json",
+        "candidate2-simulation.json"
+      ],
+      "sourceBlocker": "Frame7 lacks the J101 shoulder-secured ball-miming hand; native offsets cannot repair a missing authored pose."
+    },
+    {
+      "candidate": 3,
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          0.55,
+          1.3,
+          1.45,
+          1.25,
+          1.45,
+          1.75,
+          1.9,
+          2.0,
+          2.8,
+          2.4,
+          1.5,
+          0.7,
+          0.55
+        ],
+        "forward": [
+          6,
+          6,
+          4,
+          5,
+          0,
+          -4,
+          -12,
+          -10,
+          6,
+          5,
+          6,
+          8,
+          8,
+          5,
+          5
+        ]
+      },
+      "status": "diagnostic-only-source-rejected",
+      "change": "Candidate2 independent review requested raising frame8 height by0.2 and increasing forward by4; all other values retained.",
+      "independentReview": {
+        "candidate": 3,
+        "status": "rejected",
+        "reviewer": "independent native-review subagent",
+        "notes": "All 15 frames select candidate atlas in both facings/zooms and real sim passes. On the exact rendered vector H8=1.9/F8=6, frames6\u20137 remain torso-side, frame8 gap, frame9/tick20 near forehead rather than palm, mirrored worst.",
+        "zoomReports": [
+          "candidate3-100/report.json",
+          "candidate3-120/report.json"
+        ],
+        "simulation": "candidate3-simulation.json"
+      },
+      "nativeReports": [
+        "candidate3-100/report.json",
+        "candidate3-120/report.json",
+        "candidate3-simulation.json"
+      ],
+      "sourceBlocker": "Frame7 lacks the J101 shoulder-secured ball-miming hand; native offsets cannot repair a missing authored pose."
+    },
+    {
+      "candidate": 4,
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          0.55,
+          1.3,
+          1.45,
+          1.25,
+          1.8,
+          1.9,
+          2.0,
+          2.25,
+          2.25,
+          2.4,
+          1.5,
+          0.7,
+          0.55
+        ],
+        "forward": [
+          6,
+          6,
+          4,
+          5,
+          0,
+          -4,
+          -8,
+          -6,
+          2,
+          5,
+          5,
+          8,
+          8,
+          5,
+          5
+        ]
+      },
+      "status": "diagnostic-only-source-rejected",
+      "change": "Move frames6\u20137 from torso to turning hand/shoulder; close frame8 hand gap; hold frame9/10 equal through tick20 and release at21.",
+      "independentReview": {
+        "candidate": 4,
+        "status": "rejected",
+        "reviewer": "independent native-review subagent",
+        "notes": "32/32 action captures select candidate atlas; live sim releases at21/scores two once. Frame6 right gap ~17px, mirrored close; frame7 mirrored ball hidden/off shoulder, right near hand; frame8 right ~13px diagonal gap, mirrored close. Frames9/tick20 within ball edge.",
+        "zoomReports": [
+          "candidate4-100/report.json",
+          "candidate4-120/report.json"
+        ],
+        "simulation": "candidate4-simulation.json"
+      },
+      "nativeReports": [
+        "candidate4-100/report.json",
+        "candidate4-120/report.json",
+        "candidate4-simulation.json"
+      ],
+      "sourceBlocker": "Frame7 lacks the J101 shoulder-secured ball-miming hand; native offsets cannot repair a missing authored pose."
+    },
+    {
+      "candidate": 5,
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          0.55,
+          1.3,
+          1.45,
+          1.25,
+          2.1,
+          1.8,
+          2.2,
+          2.4,
+          3.2,
+          2.4,
+          1.5,
+          0.7,
+          0.55
+        ],
+        "forward": [
+          6,
+          6,
+          4,
+          5,
+          0,
+          -4,
+          8,
+          -2,
+          2,
+          7,
+          3,
+          8,
+          8,
+          5,
+          5
+        ]
+      },
+      "status": "diagnostic-only-source-rejected",
+      "change": "Adjust only frames6\u20138 after c4; retain accepted tick20/crown hold at frames9\u201310.",
+      "independentReview": {
+        "candidate": 5,
+        "status": "rejected",
+        "reviewer": "independent native-review subagent",
+        "notes": "32/32 captures select candidate atlas; live sim release21/two points pass. Frame6 contacts bent hand within ball edge both views. Frame7 obscures face or misses shoulder hand: right overlays face/shoulder, mirrored hidden/off shoulder. Frame8 diagonal gap ~12\u201315px at120% both facings. Frame9/tick20 remains close.",
+        "zoomReports": [
+          "candidate5-100/report.json",
+          "candidate5-120/report.json"
+        ],
+        "simulation": "candidate5-simulation.json"
+      },
+      "nativeReports": [
+        "candidate5-100/report.json",
+        "candidate5-120/report.json",
+        "candidate5-simulation.json"
+      ],
+      "sourceBlocker": "Frame7 lacks the J101 shoulder-secured ball-miming hand; native offsets cannot repair a missing authored pose."
+    }
+  ],
+  "sourceCanonReview": "frame7-source-review.json",
+  "candidatesNotEligibleForProduction": true
+}

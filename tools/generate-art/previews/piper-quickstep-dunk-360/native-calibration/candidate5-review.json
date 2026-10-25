@@ -1,0 +1,11 @@
+{
+  "candidate": 5,
+  "status": "rejected",
+  "reviewer": "independent native-review subagent",
+  "notes": "32/32 captures select candidate atlas; live sim release21/two points pass. Frame6 contacts bent hand within ball edge both views. Frame7 obscures face or misses shoulder hand: right overlays face/shoulder, mirrored hidden/off shoulder. Frame8 diagonal gap ~12\u201315px at120% both facings. Frame9/tick20 remains close.",
+  "zoomReports": [
+    "candidate5-100/report.json",
+    "candidate5-120/report.json"
+  ],
+  "simulation": "candidate5-simulation.json"
+}

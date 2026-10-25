@@ -32,21 +32,48 @@
   "sourceMode": "RGBA",
   "layoutFile": "tools/generate-art/piper-quickstep-dunk-360-attempt1-layouts.json",
   "review": {
-    "status": "accepted-source-pending-native-ball-track",
-    "reviewer": "independent source review",
-    "reviewedAt": "2026-10-25T12:06:30Z",
-    "reviewNotes": "Independent visual review accepts 15 distinct row-major original poses for the specified 360 dunk arc, with consistent Piper face/skin/orange ponytail/kit/shoes, complete anatomy, no ball, and a readable turn from right-facing approach through front and back views to the right-facing finish, single release and landing. Component isolation preserves the original drawing pixels without synthesis, redraw, duplication or reorder. Dark/light proofs show no broad matte or halo remaining. The frame-9 to frame-10 release transition remains subject to separate native ball-track contact review."
+    "status": "rejected-source-canon-mismatch",
+    "reviewer": "independent source-canon review subagent",
+    "reviewedAt": "2026-10-25",
+    "notes": "Independent frame-by-frame canon review finds zero-based frame7 does not show the J101 required high airborne spin with the ball-miming hand secured near the shoulder. Both arms extend away/down: the back hand is low behind the body and the forward hand is low beside the hip. No hand is visibly available for the required shoulder contact. Track previews are diagnostic only; further ball offset tuning cannot satisfy this source pose. Reject attempt1 for source-canon mismatch and regenerate the sheet without altering or fabricating a pose.",
+    "requiredPose": "J101 dunk-360 frame7: high airborne spin, ball-miming hand secured near shoulder, torso stable",
+    "evidenceSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt1-clean-candidate.png",
+    "productionEligible": false,
+    "nativeTrackStatus": "blocked; candidates1\u20135 are diagnostic only"
   },
   "eligibleForPacking": false,
   "ballBehavior": "The athlete sheet contains no basketball. Runtime must use a Piper-specific separate ball track; production packing remains ineligible until native contact/release review.",
   "nativeReview": {
-    "status": "pending",
-    "notes": "Review the candidate atlas and separate ball path in the native renderer at100%/120% in both facings before packing/registering."
+    "status": "diagnostic-only-source-rejected",
+    "notes": "Native previews were used to diagnose contact but cannot authorize a track because cleaned frame7 lacks the required shoulder-secured hand. Preserve candidates1\u20135 as diagnostics; do not pack/register this source."
   },
   "packedAtlasPath": null,
   "layoutEvidence": "tools/generate-art/piper-quickstep-dunk-360-attempt1-layouts.json",
   "previewProofs": [
     "tools/generate-art/previews/piper-quickstep-dunk-360/attempt1-clean/source-light.png",
     "tools/generate-art/previews/piper-quickstep-dunk-360/attempt1-clean/source-dark.png"
-  ]
+  ],
+  "reviewHistory": [
+    {
+      "status": "accepted-source-pending-native-ball-track",
+      "reviewer": "independent source review",
+      "reviewedAt": "2026-10-25T12:06:30Z",
+      "reviewNotes": "Independent visual review accepts 15 distinct row-major original poses for the specified 360 dunk arc, with consistent Piper face/skin/orange ponytail/kit/shoes, complete anatomy, no ball, and a readable turn from right-facing approach through front and back views to the right-facing finish, single release and landing. Component isolation preserves the original drawing pixels without synthesis, redraw, duplication or reorder. Dark/light proofs show no broad matte or halo remaining. The frame-9 to frame-10 release transition remains subject to separate native ball-track contact review."
+    },
+    {
+      "status": "rejected-source-canon-mismatch",
+      "reviewer": "independent source-canon review subagent",
+      "reviewedAt": "2026-10-25",
+      "notes": "Independent frame-by-frame canon review finds zero-based frame7 does not show the J101 required high airborne spin with the ball-miming hand secured near the shoulder. Both arms extend away/down: the back hand is low behind the body and the forward hand is low beside the hip. No hand is visibly available for the required shoulder contact. Track previews are diagnostic only; further ball offset tuning cannot satisfy this source pose. Reject attempt1 for source-canon mismatch and regenerate the sheet without altering or fabricating a pose.",
+      "requiredPose": "J101 dunk-360 frame7: high airborne spin, ball-miming hand secured near shoulder, torso stable",
+      "evidenceSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt1-clean-candidate.png",
+      "productionEligible": false,
+      "nativeTrackStatus": "blocked; candidates1\u20135 are diagnostic only"
+    }
+  ],
+  "ballTrackStatus": "blocked-source-canon-mismatch-frame7",
+  "candidateAtlasPath": "tools/generate-art/previews/piper-quickstep-dunk-360/attempt1-atlas-candidate/candidate-atlas.webp",
+  "candidateAtlasSha256": "3e492a926eb2a456978894abd754fe0ca02bd5dffa412e857f82ad6614b82d60",
+  "candidateLayoutFile": "tools/generate-art/previews/piper-quickstep-dunk-360/attempt1-atlas-candidate/candidate-layout.json",
+  "sourceCanonReviewFile": "tools/generate-art/previews/piper-quickstep-dunk-360/native-calibration/frame7-source-review.json"
 }

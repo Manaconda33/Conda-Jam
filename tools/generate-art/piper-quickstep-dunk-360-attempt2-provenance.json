@@ -1,0 +1,52 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-360",
+  "direction": "right",
+  "attempt": 2,
+  "source": "imagegen",
+  "generationId": "exec-11b0a4fe-a489-4cee-839e-24eb2d3d17c0",
+  "generatedAt": "2026-10-25T12:32:56.375889Z",
+  "generatedAtNote": "Taken from generated image file mtime; imagegen output_hint provides an ID but no timestamp.",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-360-attempt2-prompt.md",
+  "prompt": "J.118 / Piper Quickstep \u2014 DUNK-360 action sheet, attempt 2\n\nAction canon: follow the explicit fifteen-pose `dunk-360` sequence in `tools/generate-art/j101-keeg-dunk-360-prompt.md`. This Piper-specific prompt preserves that full turn, handoff, single release and landing sequence while using Piper's canonical appearance and the established Piper sprite-sheet style.\n\nCreate one original production sprite sheet for Piper Quickstep performing a powerful full-body 360 basketball dunk for JAMVERSE '96. Canvas exactly 1536\u00d71024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Each cell is approximately 307\u00d7341 pixels. Keep every part of every pose\u2014including the entire bright-orange high ponytail, every fingertip, and both shoes\u2014at least 28 pixels inside every cell edge. Keep clear transparent gutters, consistent figure scale, camera and anatomy. Piper approaches facing image-right; complete the turn while airborne. No pose may overlap, touch or cross a cell boundary. No cell boundaries, scenery, court, hoop, floor, shadows, effects, text, labels, teammate, opponent or props.\n\nPiper is the same athletic adult human woman in every pose: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural adult athletic proportions, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, body proportions, uniform and shoes consistently. Exactly one head, two arms, two hands, two legs and two feet, with natural joints and five fingers on each visible hand. No costume changes, jewelry, numbers, text, logo, extra limbs or altered anatomy. Match the established detailed JAMVERSE Piper artwork, clean shape language, palette, linework, lighting and full-body figure scale; do not switch to pixelated rendering.\n\nBoth hands stay empty; the basketball is separate game art. NEVER draw any ball, sphere, orb, seams, rim, hoop, net, prop, shadow, floor, glow, haze, matte, backdrop, alpha fringe or extra art. Before the one release, Piper's hands mime the invisible ball. Release exactly once at frame 10 / simulation tick 21 with the hand fully extended toward the rim, palm open and already empty. Frames 11\u201314 are empty-handed.\n\nThis is a jumping full-body 360 dunk. Piper gathers the invisible ball, plants, takes off, completes one clear full-body 360-degree turn while airborne, cocks the ball-miming hand beside the shoulder, then reaches up and dunks with one hand. The other arm counterbalances; knees tuck and legs kick naturally through rotation. Keep her whole ponytail visible and unobstructed. CRITICAL pose7 correction for attempt2: frame 7 must show Piper\u2019s near-side ball-miming hand clearly bent and held immediately beside her shoulder, with elbow bent about a right angle and fingers visible; do not place either hand above or behind the crown or extend the hand away/down. The face and ponytail must remain unobstructed. Frame 6 is the opposite-profile turn with arms counterbalancing; frame 7 is a separate high airborne pose with torso stable and the hand secured beside the shoulder; frame 8 then rotates back toward the right-facing finish. Do not merge or repeat these poses.\n\nAll poses are distinct connected keyframes with readable weight and motion, in this exact order:\n0. Right-facing approach, controlled stride.\n1. Gather the invisible ball at the waist.\n2. Low two-foot plant and crouch.\n3. Takeoff, torso begins turning toward the viewer.\n4. Airborne, torso rotates through a front-facing view.\n5. Mid-spin, back and shoulders turn toward the viewer.\n6. Torso continues toward the opposite profile.\n7. High airborne spin, ball-miming hand secured near the shoulder, torso stable.\n8. Full rotation returns toward the right-facing finish, knees tucked.\n9. Cock for one-handed dunk, empty hand near the head but never obscuring the face or ponytail.\n10. Sole release at tick 21: arm fully extended toward the rim, palm open, already empty.\n11. Empty-handed follow-through through the imagined rim plane.\n12. Descent with torso turning back toward the court.\n13. Controlled two-foot landing, knees flexed.\n14. Balanced recovery, arms lower.\n\nMake all fifteen poses visibly distinct, anatomically complete and mechanically connected. Check every pose individually for separation, full anatomy, face/identity consistency, alpha and the minimum cell margins. Keep both hands empty in the artwork. Preserve the complete ponytail, separated hands/fingers and both shoes inside every margin. Favor pose clarity over figure size. Return only the sprite sheet.\n",
+  "promptVerbatim": true,
+  "referenceFiles": [],
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt2-generated-raw.png",
+  "rawSourceSha256": "7b07f841ac4044ec5067c40a1dd3641ab1ae1fc3cc8f313be9fb9adbd9bb0572",
+  "rawSourceSize": [
+    1536,
+    1024
+  ],
+  "rawSourceMode": "RGBA",
+  "rawReview": {
+    "status": "rejected-for-direct-packing",
+    "notes": "Opaque brown/orange backdrop violates true transparency. Preserve raw unchanged. Component-only cleanup extracts the original figures; source review must still confirm the corrected frame7 hand and pose order."
+  },
+  "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-360-attempt2.py",
+  "cleanupNotes": "Adapted shared package-motion42 component isolation at alpha threshold >64; retained exactly 15 original bodies in row-major source cells. Each pose was uniformly scaled and bottom-aligned with minimum 28px transparent margin. No redraw, synthesis, duplication or reorder; detached backdrop was discarded.",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt2-clean-candidate.png",
+  "sourceSha256": "0473ebb8348fb16f7a59d51c5c36952d615d963f7380d863881eeab4875c2526",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceMode": "RGBA",
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-360-attempt2-layouts.json",
+  "sourceReview": {
+    "status": "rejected-source-canon-mismatch-frame7",
+    "reviewer": "independent frame-by-frame source reviewer",
+    "reviewedAt": "2026-10-25",
+    "requiredPose": "J101 dunk-360 frame7: high airborne spin, torso stable, ball-miming hand secured beside shoulder; other arm counterbalances",
+    "notes": "Reject attempt2 for canon mismatch. Zero-based frame7 (middle row, third cell) is a deep crouch with both hands reaching down toward knee/shin level, not the required shoulder-secured hand. It is distinct from adjacent frames6 and8 but does not satisfy the pose target. Positive checks: 15 row-major poses; RGBA 1536x1024; all frame margins at least28px; transparent alpha; no ball or residual background; Piper identity and anatomy remain consistent.",
+    "evidenceSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt2-clean-candidate.png",
+    "productionEligible": false,
+    "nativeTrackStatus": "blocked; do not tune ball offsets around the missing pose"
+  },
+  "eligibleForPacking": false,
+  "ballBehavior": "No basketball appears in the athlete sheet. Separate Piper-specific track review is pending.",
+  "nativeReview": {
+    "status": "diagnostic-only-source-rejected"
+  },
+  "ballTrackStatus": "blocked-source-canon-mismatch-frame7",
+  "productionAtlasPath": null
+}

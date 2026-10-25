@@ -1,0 +1,42 @@
+{
+  "candidate": 3,
+  "track": {
+    "height": [
+      0.95,
+      1.1,
+      0.55,
+      1.3,
+      1.45,
+      1.25,
+      1.45,
+      1.75,
+      1.8,
+      2.0,
+      2.8,
+      2.4,
+      1.5,
+      0.7,
+      0.55
+    ],
+    "forward": [
+      6,
+      6,
+      4,
+      5,
+      0,
+      -4,
+      -12,
+      -10,
+      6,
+      5,
+      6,
+      8,
+      8,
+      5,
+      5
+    ]
+  },
+  "status": "rejected-source-canon-mismatch",
+  "change": "Candidate2 independent review requested raising frame8 height by0.2 and increasing forward by4; all other values retained.",
+  "sourceBlocker": "Attempt1 cleaned source frame7 does not show the shoulder-secured ball hand required by J101; its native track cannot be accepted."
+}

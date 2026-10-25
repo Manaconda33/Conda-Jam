@@ -14,13 +14,77 @@
       "cleanedSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt1-clean-candidate.png",
       "cleanedSourceSha256": "91e0c1c3b0f2b432c4c6864ab0a1b729896e6dd64136d58452c4eafe23e1a1b9",
       "sourceReview": {
+        "status": "rejected-source-canon-mismatch",
+        "reviewer": "independent source-canon review subagent",
+        "reviewedAt": "2026-10-25",
+        "notes": "Independent frame-by-frame canon review finds zero-based frame7 does not show the J101 required high airborne spin with the ball-miming hand secured near the shoulder. Both arms extend away/down: the back hand is low behind the body and the forward hand is low beside the hip. No hand is visibly available for the required shoulder contact. Track previews are diagnostic only; further ball offset tuning cannot satisfy this source pose. Reject attempt1 for source-canon mismatch and regenerate the sheet without altering or fabricating a pose.",
+        "requiredPose": "J101 dunk-360 frame7: high airborne spin, ball-miming hand secured near shoulder, torso stable",
+        "evidenceSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt1-clean-candidate.png",
+        "productionEligible": false,
+        "nativeTrackStatus": "blocked; candidates1\u20135 are diagnostic only"
+      },
+      "eligibleForProductionPacking": false,
+      "nativeBallTrackReview": {
+        "status": "diagnostic-only-source-rejected",
+        "notes": "Candidates1\u20135 diagnose contact only and cannot authorize packing/runtime because frame7 lacks the required shoulder hand."
+      },
+      "priorSourceReview": {
         "status": "accepted-source-pending-native-ball-track",
         "reviewer": "independent source review",
         "reviewedAt": "2026-10-25T12:06:30Z",
         "reviewNotes": "Independent visual review accepts 15 distinct row-major original poses for the specified 360 dunk arc, with consistent Piper face/skin/orange ponytail/kit/shoes, complete anatomy, no ball, and a readable turn from right-facing approach through front and back views to the right-facing finish, single release and landing. Component isolation preserves the original drawing pixels without synthesis, redraw, duplication or reorder. Dark/light proofs show no broad matte or halo remaining. The frame-9 to frame-10 release transition remains subject to separate native ball-track contact review."
+      }
+    },
+    {
+      "attempt": 2,
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-360-attempt2-prompt.md",
+      "generationId": "exec-11b0a4fe-a489-4cee-839e-24eb2d3d17c0",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt2-generated-raw.png",
+      "rawSourceSha256": "7b07f841ac4044ec5067c40a1dd3641ab1ae1fc3cc8f313be9fb9adbd9bb0572",
+      "rawReview": {
+        "status": "rejected-for-direct-packing",
+        "notes": "Opaque brown/orange backdrop violates true transparency. Preserve raw unchanged. Component-only cleanup extracts the original figures; source review must still confirm the corrected frame7 hand and pose order."
+      },
+      "cleanedSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt2-clean-candidate.png",
+      "cleanedSourceSha256": "0473ebb8348fb16f7a59d51c5c36952d615d963f7380d863881eeab4875c2526",
+      "sourceReview": {
+        "status": "rejected-source-canon-mismatch-frame7",
+        "reviewer": "independent frame-by-frame source reviewer",
+        "reviewedAt": "2026-10-25",
+        "requiredPose": "J101 dunk-360 frame7: high airborne spin, torso stable, ball-miming hand secured beside shoulder; other arm counterbalances",
+        "notes": "Reject attempt2 for canon mismatch. Zero-based frame7 (middle row, third cell) is a deep crouch with both hands reaching down toward knee/shin level, not the required shoulder-secured hand. It is distinct from adjacent frames6 and8 but does not satisfy the pose target. Positive checks: 15 row-major poses; RGBA 1536x1024; all frame margins at least28px; transparent alpha; no ball or residual background; Piper identity and anatomy remain consistent.",
+        "evidenceSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt2-clean-candidate.png",
+        "productionEligible": false,
+        "nativeTrackStatus": "blocked; do not tune ball offsets around the missing pose"
       },
       "eligibleForProductionPacking": false,
-      "nativeBallTrackReview": "pending"
+      "provenanceFile": "tools/generate-art/piper-quickstep-dunk-360-attempt2-provenance.json"
+    },
+    {
+      "attempt": 3,
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-360-attempt3-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt3-generated-raw.png",
+      "rawSourceSha256": "c2a7216985ca1d625a6f7ab9f53d0cb4bdeadbf01c1ac6b3393b373815fa7c7c",
+      "rawReview": {
+        "status": "rejected-for-direct-packing",
+        "notes": "The raw 1536x1024 RGBA sheet has an opaque/translucent brown-orange backdrop and broad glow, so it is preserved unchanged and rejected for direct packing."
+      },
+      "cleanedSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt3-clean-candidate.png",
+      "cleanedSourceSha256": "10bc9afa202fcdd4d2bdef255609feb1799d6c0dc06e5faa128bebbb7aa1eaf9",
+      "sourceReview": {
+        "status": "accepted-source-pending-native-ball-track",
+        "reviewer": "independent source-review subagent",
+        "reviewedAt": "2026-10-25",
+        "requiredCell": "middle row, third column (row2/column3; zero-based index7)",
+        "reviewNotes": "Source review accepts the exact middle-row/column3 pose: high airborne with tucked knees, stable torso, near-side elbow bent and visible hand secured beside the shoulder. Neighbor cell6 is the back/three-quarter counterbalance; cell8 is a separate reoriented reach. All 15 original row-major poses are distinct and match the shared J101 turn/gather/plant/rotation/cock/release/follow-through/landing sequence. Piper identity, adult anatomy, face, orange ponytail, russet/cream kit and shoes remain consistent. No basketball appears. Light/dark proofs show true transparent gutters; layout measurements confirm all poses have at least28px cell margins. No pose was redrawn, synthesized, duplicated or reordered.",
+        "proofFiles": [
+          "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-clean/source-light.png",
+          "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-clean/source-dark.png"
+        ],
+        "minimumCellMarginPx": 28
+      },
+      "eligibleForProductionPacking": false,
+      "provenanceFile": "tools/generate-art/piper-quickstep-dunk-360-attempt3-provenance.json"
     }
   ]
 }

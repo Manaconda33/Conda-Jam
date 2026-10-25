@@ -1,0 +1,11 @@
+{
+  "candidate": 1,
+  "status": "rejected",
+  "reviewer": "independent native-review subagent",
+  "notes": "All 15 frames select candidate atlas in both facings/zooms and live simulation releases tick21/scores two once. Contact is unclear at frames6\u20137, especially mirrored, where ball is off/hidden at shoulder; frames8\u20139/tick20 float above crown rather than meet raised palm.",
+  "zoomReports": [
+    "candidate1-100/report.json",
+    "candidate1-120/report.json"
+  ],
+  "simulation": "candidate1-simulation.json"
+}

@@ -1,0 +1,276 @@
+{
+  "athlete": "piper-quickstep",
+  "direction": "right",
+  "clip": "dunk-360",
+  "src": "./tools/generate-art/previews/piper-quickstep-dunk-360/attempt1-atlas-candidate/candidate-atlas.webp",
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "athlete": "piper-quickstep",
+    "clip": "dunk-360",
+    "direction": "right",
+    "attempt": 1,
+    "source": "imagegen",
+    "generationId": "exec-e9792f4f-8109-49d5-b8e9-bdea8089b03b",
+    "generatedAt": "2026-10-25T12:05:03.080Z",
+    "generatedAtNote": "Timestamp is the generated image file mtime; the image-generation tool returned no separate timestamp.",
+    "promptFile": "tools/generate-art/piper-quickstep-dunk-360-attempt1-prompt.md",
+    "prompt": "J.118 / Piper Quickstep \u2014 DUNK-360 action sheet, attempt 1\n\nAction canon: follow the explicit fifteen-pose `dunk-360` sequence in `tools/generate-art/j101-keeg-dunk-360-prompt.md`. This Piper-specific prompt preserves that full turn, handoff, single release and landing sequence while using Piper's canonical appearance and the established Piper sprite-sheet style.\n\nCreate one original production sprite sheet for Piper Quickstep performing a powerful full-body 360 basketball dunk for JAMVERSE '96. Canvas exactly 1536\u00d71024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Each cell is approximately 307\u00d7341 pixels. Keep every part of every pose\u2014including the entire bright-orange high ponytail, every fingertip, and both shoes\u2014at least 28 pixels inside every cell edge. Keep clear transparent gutters, consistent figure scale, camera and anatomy. Piper approaches facing image-right; complete the turn while airborne. No pose may overlap, touch or cross a cell boundary. No cell boundaries, scenery, court, hoop, floor, shadows, effects, text, labels, teammate, opponent or props.\n\nPiper is the same athletic adult human woman in every pose: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural adult athletic proportions, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, body proportions, uniform and shoes consistently. Exactly one head, two arms, two hands, two legs and two feet, with natural joints and five fingers on each visible hand. No costume changes, jewelry, numbers, text, logo, extra limbs or altered anatomy. Match the established detailed JAMVERSE Piper artwork, clean shape language, palette, linework, lighting and full-body figure scale; do not switch to pixelated rendering.\n\nBoth hands stay empty; the basketball is separate game art. NEVER draw any ball, sphere, orb, seams, rim, hoop, net, prop, shadow, floor, glow, haze, matte, backdrop, alpha fringe or extra art. Before the one release, Piper's hands mime the invisible ball. Release exactly once at frame 10 / simulation tick 21 with the hand fully extended toward the rim, palm open and already empty. Frames 11\u201314 are empty-handed.\n\nThis is a jumping full-body 360 dunk. Piper gathers the invisible ball, plants, takes off, completes one clear full-body 360-degree turn while airborne, cocks the ball-miming hand beside the shoulder, then reaches up and dunks with one hand. The other arm counterbalances; knees tuck and legs kick naturally through rotation. Keep her whole ponytail visible and unobstructed. All poses are distinct connected keyframes with readable weight and motion, in this exact order:\n0. Right-facing approach, controlled stride.\n1. Gather the invisible ball at the waist.\n2. Low two-foot plant and crouch.\n3. Takeoff, torso begins turning toward the viewer.\n4. Airborne, torso rotates through a front-facing view.\n5. Mid-spin, back and shoulders turn toward the viewer.\n6. Torso continues toward the opposite profile.\n7. High airborne spin, ball-miming hand secured near the shoulder, torso stable.\n8. Full rotation returns toward the right-facing finish, knees tucked.\n9. Cock for one-handed dunk, empty hand near the head but never obscuring the face or ponytail.\n10. Sole release at tick 21: arm fully extended toward the rim, palm open, already empty.\n11. Empty-handed follow-through through the imagined rim plane.\n12. Descent with torso turning back toward the court.\n13. Controlled two-foot landing, knees flexed.\n14. Balanced recovery, arms lower.\n\nMake all fifteen poses visibly distinct, anatomically complete and mechanically connected. Check every pose individually for separation, full anatomy, face/identity consistency, alpha and the minimum cell margins. Keep both hands empty in the artwork. Preserve the complete ponytail, separated hands/fingers and both shoes inside every margin. Favor pose clarity over figure size. Return only the sprite sheet.\n",
+    "promptVerbatim": true,
+    "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt1-generated-raw.png",
+    "rawSourceSha256": "ddec9fc7b43d185ac5813fcc28ff7319357ea6ad6e6f5e626cfa86c1765e8bad",
+    "rawSourceSize": [
+      1536,
+      1024
+    ],
+    "rawSourceMode": "RGBA",
+    "rawReview": {
+      "status": "rejected-for-direct-packing",
+      "notes": "The raw image has a translucent/opaque brown-orange backdrop and glow. Several figures approach/cross the source-cell row boundaries. Preserve the raw image unchanged; component-isolate and uniformly fit all 15 originals before any source acceptance."
+    },
+    "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-360-attempt1.py",
+    "cleanupNotes": "Shared motion42 alpha-connected component isolation at threshold >64 finds exactly 15 figure components. Components are uniformly fitted to <=251x285 and baseline-aligned in their original 5x3 cells with at least 28px transparent margins. Detached backdrop is discarded; no drawing, reconstruction, synthesis, duplication or reorder.",
+    "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt1-clean-candidate.png",
+    "sourceSha256": "91e0c1c3b0f2b432c4c6864ab0a1b729896e6dd64136d58452c4eafe23e1a1b9",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "sourceMode": "RGBA",
+    "layoutFile": "tools/generate-art/piper-quickstep-dunk-360-attempt1-layouts.json",
+    "review": {
+      "status": "accepted-source-pending-native-ball-track",
+      "reviewer": "independent source review",
+      "reviewedAt": "2026-10-25T12:06:30Z",
+      "reviewNotes": "Independent visual review accepts 15 distinct row-major original poses for the specified 360 dunk arc, with consistent Piper face/skin/orange ponytail/kit/shoes, complete anatomy, no ball, and a readable turn from right-facing approach through front and back views to the right-facing finish, single release and landing. Component isolation preserves the original drawing pixels without synthesis, redraw, duplication or reorder. Dark/light proofs show no broad matte or halo remaining. The frame-9 to frame-10 release transition remains subject to separate native ball-track contact review."
+    },
+    "eligibleForPacking": false,
+    "ballBehavior": "The athlete sheet contains no basketball. Runtime must use a Piper-specific separate ball track; production packing remains ineligible until native contact/release review.",
+    "nativeReview": {
+      "status": "pending",
+      "notes": "Review the candidate atlas and separate ball path in the native renderer at100%/120% in both facings before packing/registering."
+    },
+    "packedAtlasPath": null,
+    "layoutEvidence": "tools/generate-art/piper-quickstep-dunk-360-attempt1-layouts.json",
+    "previewProofs": [
+      "tools/generate-art/previews/piper-quickstep-dunk-360/attempt1-clean/source-light.png",
+      "tools/generate-art/previews/piper-quickstep-dunk-360/attempt1-clean/source-dark.png"
+    ]
+  },
+  "sourceRects": [
+    {
+      "sourceIndex": 0,
+      "x": 27,
+      "y": 43,
+      "w": 253,
+      "h": 271,
+      "component": 3
+    },
+    {
+      "sourceIndex": 1,
+      "x": 346,
+      "y": 26,
+      "w": 228,
+      "h": 288,
+      "component": 1
+    },
+    {
+      "sourceIndex": 2,
+      "x": 674,
+      "y": 60,
+      "w": 189,
+      "h": 254,
+      "component": 5
+    },
+    {
+      "sourceIndex": 3,
+      "x": 964,
+      "y": 28,
+      "w": 221,
+      "h": 286,
+      "component": 2
+    },
+    {
+      "sourceIndex": 4,
+      "x": 1256,
+      "y": 43,
+      "w": 253,
+      "h": 272,
+      "component": 4
+    },
+    {
+      "sourceIndex": 5,
+      "x": 46,
+      "y": 369,
+      "w": 215,
+      "h": 287,
+      "component": 9
+    },
+    {
+      "sourceIndex": 6,
+      "x": 356,
+      "y": 370,
+      "w": 209,
+      "h": 287,
+      "component": 11
+    },
+    {
+      "sourceIndex": 7,
+      "x": 658,
+      "y": 369,
+      "w": 220,
+      "h": 287,
+      "component": 10
+    },
+    {
+      "sourceIndex": 8,
+      "x": 949,
+      "y": 389,
+      "w": 253,
+      "h": 268,
+      "component": 13
+    },
+    {
+      "sourceIndex": 9,
+      "x": 1280,
+      "y": 370,
+      "w": 203,
+      "h": 287,
+      "component": 12
+    },
+    {
+      "sourceIndex": 10,
+      "x": 62,
+      "y": 709,
+      "w": 184,
+      "h": 289,
+      "component": 14
+    },
+    {
+      "sourceIndex": 11,
+      "x": 342,
+      "y": 710,
+      "w": 237,
+      "h": 288,
+      "component": 15
+    },
+    {
+      "sourceIndex": 12,
+      "x": 643,
+      "y": 723,
+      "w": 249,
+      "h": 274,
+      "component": 18
+    },
+    {
+      "sourceIndex": 13,
+      "x": 975,
+      "y": 710,
+      "w": 201,
+      "h": 287,
+      "component": 16
+    },
+    {
+      "sourceIndex": 14,
+      "x": 1280,
+      "y": 710,
+      "w": 206,
+      "h": 287,
+      "component": 17
+    }
+  ],
+  "uniformScale": 0.31833910034602075,
+  "componentIsolation": true
+}

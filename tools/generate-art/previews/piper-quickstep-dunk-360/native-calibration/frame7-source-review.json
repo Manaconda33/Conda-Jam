@@ -1,0 +1,10 @@
+{
+  "status": "rejected-source-canon-mismatch",
+  "reviewer": "independent source-canon review subagent",
+  "reviewedAt": "2026-10-25",
+  "notes": "Independent frame-by-frame canon review finds zero-based frame7 does not show the J101 required high airborne spin with the ball-miming hand secured near the shoulder. Both arms extend away/down: the back hand is low behind the body and the forward hand is low beside the hip. No hand is visibly available for the required shoulder contact. Track previews are diagnostic only; further ball offset tuning cannot satisfy this source pose. Reject attempt1 for source-canon mismatch and regenerate the sheet without altering or fabricating a pose.",
+  "requiredPose": "J101 dunk-360 frame7: high airborne spin, ball-miming hand secured near shoulder, torso stable",
+  "evidenceSource": "tools/generate-art/sources/piper-quickstep-dunk-360-attempt1-clean-candidate.png",
+  "productionEligible": false,
+  "nativeTrackStatus": "blocked; candidates1\u20135 are diagnostic only"
+}

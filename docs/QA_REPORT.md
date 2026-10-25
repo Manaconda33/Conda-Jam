@@ -1,12 +1,12 @@
 # Latest validation — J.117 Piper Quickstep `dunk-reverse`
 
-- Piper adds15 poses and reaches22/29 registered clips /188 authored drawings. Source and atlas review accept the full adult-human identity/anatomy, ordered reverse-dunk poses, transparent margins, alpha and no baked ball. Raw backdrop rejection, cleanup, exact prompt/provenance, hashes, layouts, rejected candidates and previews are preserved.
-- Accepted separate track H `[.35,.4,.65,.5,1.65,1.8,2.5,2.2,1.8,1.9,1.9,1.1,.8,.7,.6]` / F `[10,0,4,5,6,7,0,-7,-6,-2,-2,16,8,5,4]` passes independent native review at100%/120% in both facings. Piper owns through tick20; release occurs once at21; live simulation scores one two-point dunk.
-- `npm test`: PASS,39/39 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer: PASS,55 tests; production build: PASS.
-- `npm run test:e2e`: BLOCKED because the sandbox denies localhost binding (`listen EPERM` at `127.0.0.1:4175`).
-- Strict report-only audit `2026-10-25T12:09:12.753Z`:812 clips /7,331 drawings /105 athletes,2,291 missing clips, one target shortfall and4 inherited prompt findings.
-- Pipeline: J.119 Piper `dunk-tomahawk` attempt2 passed source review; checkpoint `431ec7a9` is local and push failed at the port8080 proxy. J.118 remains next for integration.
-- Next roster action: Piper J.118 `dunk-360`; attempt1 source is accepted after cleanup, while its separate ball track is pending. Source checkpoint `ae6a1a72` is local; standard push failed at the configured port8080 proxy. J.117 is committed locally as `3d183ef2`; standard push failed at the configured port8080 proxy, so no Pages workflow ran. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
+J.117 is integrated at22/29 clips /188 drawings. Its latest full validation passes39/39 JS test files, lint18 modules, content validation35/105, 100-match simulation /861,421 ticks /6 overtimes,55 atlas packer tests and build. E2E is blocked by sandbox `listen EPERM` at `127.0.0.1:4175`.
+
+## Current asset work — J.118 Piper `dunk-360`
+
+Attempts1–2 are rejected for source-canon mismatch: the required J101 middle-row, third-column high airborne pose with a shoulder-secured hand was missing or shifted to a neighboring cell. Attempt1 also produced five diagnostic-only tracks, all rejected for contact gaps; preserve their vectors/previews. Attempt3 now passes independent source review: all15 distinct ordered poses, correct shoulder hand, identity/anatomy, ball-free transparency, >=28px margins. Raw/clean hashes are `c2a7216985ca1d625a6f7ab9f53d0cb4bdeadbf01c1ac6b3393b373815fa7c7c` / `10bc9afa202fcdd4d2bdef255609feb1799d6c0dc06e5faa128bebbb7aa1eaf9`. Native track review remains pending, no atlas is registered.
+
+Strict audit remains `2026-10-25T12:09:12.753Z`:812 clips /7,331 drawings /105 athletes,2,291 missing clips, one target shortfall and4 inherited prompt findings. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
 
 # Latest validation — J.113 Piper fall
 
