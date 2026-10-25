@@ -1,36 +1,89 @@
 {
-  "issue":"J.130",
-  "athlete":"briar-foxglove",
-  "clip":"layup",
-  "attempt":2,
-  "reviewedAt":"2026-10-25T20:15:00Z",
-  "preview":"tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose3-4-retry2-light-dark-review.png",
-  "reviewStatus":"both preserved; neither accepted",
-  "poses":[
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "attempt": 2,
+  "reviewedAt": "2026-10-25T20:15:00Z",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose3-4-retry2-light-dark-review.png",
+  "reviewStatus": "independent reviewer recommends retrying both sources; neither accepted",
+  "poses": [
     {
-      "frame":3,
-      "generationId":"exec-65eebb86-566e-473a-9f33-b45e399fde76",
-      "sha256":"a5d420643845ebf2f41d4d670f29a9afa9e9dc368488b77a69722a0d33f9870f",
-      "dimensions":[1254,1254],
-      "source":"tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry2-raw.png",
-      "decision":"reject; pose/identity retry",
-      "poseReview":"Elbow is bent, palm up and off-hand open; hand still sits above the crown, beyond the specified just-above-forehead prerelease position.",
-      "identityReview":"Bare wrists and blank chest are consistent; skin tone remains lighter and more orange than Briar's accepted deep-brown references.",
-      "alphaMarginsLTRB":{"alphaGte1":[41,27,38,17],"alphaGte64":[411,261,320,249]},
-      "reasons":["Alpha1 residue prevents requested20% all-edge padding.","Shooting fingertips are above the crown rather than just above forehead.","Skin palette diverges from accepted Briar identity."]
+      "frame": 3,
+      "generationId": "exec-65eebb86-566e-473a-9f33-b45e399fde76",
+      "sha256": "a5d420643845ebf2f41d4d670f29a9afa9e9dc368488b77a69722a0d33f9870f",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry2-raw.png",
+      "decision": "rejected; retry",
+      "poseReview": "Elbow is bent and palm up, but fingertips sit above the crown rather than near the forehead, and the trailing leg extends down/back rather than folding tightly.",
+      "identityReview": "Bare wrists and blank chest are consistent; skin tone remains lighter and more orange than Briar's accepted deep-brown references.",
+      "alphaMarginsLTRB": {
+        "alphaGte1": [
+          41,
+          27,
+          38,
+          17
+        ],
+        "alphaGte64": [
+          411,
+          261,
+          320,
+          249
+        ]
+      },
+      "reasons": [
+        "Alpha1 residue prevents requested20% all-edge padding.",
+        "Shooting fingertips are above the crown rather than just above forehead.",
+        "Skin palette diverges from accepted Briar identity.",
+        "Independent comparison to accepted Briar art finds skin lighter/oranger and the face more polished than the established low-resolution sprite rendering."
+      ]
     },
     {
-      "frame":4,
-      "generationId":"exec-e5eca92b-b06b-48be-9a42-02c54e1e6b6c",
-      "sha256":"8004e70963fc9f220e363e683abffcc24794824573ea7579907a9054aeda7868",
-      "dimensions":[1254,1254],
-      "source":"tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry2-raw.png",
-      "decision":"pose pass; identity/transparency retry required",
-      "poseReview":"Full high-forward release arm, separate guide hand, elevated lead knee and sharply folded trailing leg with heel close to hip match the frame4 pose specification. Hands are empty.",
-      "identityReview":"Blank chest and bare wrists match the accepted outfit; warm skin still reads lighter/oranger than Briar's accepted deep-brown references.",
-      "alphaMarginsLTRB":{"alphaGte1":[33,23,24,64],"alphaGte64":[473,298,377,389]},
-      "reasons":["Alpha1 residue fails requested20% all-edge clear margin despite visible figure meeting it.","Skin palette needs independent identity comparison; no number, logo, wristband, ball or prop is present."]
+      "frame": 4,
+      "generationId": "exec-e5eca92b-b06b-48be-9a42-02c54e1e6b6c",
+      "sha256": "8004e70963fc9f220e363e683abffcc24794824573ea7579907a9054aeda7868",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry2-raw.png",
+      "decision": "rejected; identity/transparency retry required",
+      "poseReview": "Full high-forward release arm, separate guide hand, elevated lead knee and sharply folded trailing leg with heel close to hip match the frame4 pose specification. Hands are empty.",
+      "identityReview": "Blank chest and bare wrists match the accepted outfit; warm skin still reads lighter/oranger than Briar's accepted deep-brown references.",
+      "alphaMarginsLTRB": {
+        "alphaGte1": [
+          33,
+          23,
+          24,
+          64
+        ],
+        "alphaGte64": [
+          473,
+          298,
+          377,
+          389
+        ]
+      },
+      "reasons": [
+        "Alpha1 residue fails requested20% all-edge clear margin despite visible figure meeting it.",
+        "Skin palette needs independent identity comparison; no number, logo, wristband, ball or prop is present.",
+        "Independent comparison finds skin lighter/oranger than the accepted idle canon; visible source alpha>=64 top clearance is23.76%, below the saved prompt’s25% minimum."
+      ]
     }
   ],
-  "notes":"Untouched generated outputs. No normalization, cleanup, assembly, acceptance or packing."
+  "notes": "Untouched generated outputs. No normalization, cleanup, assembly, acceptance or packing.",
+  "independentReview": {
+    "reviewer": "independent source reviewer",
+    "reviewedAt": "2026-10-25T20:17:00Z",
+    "decision": "Retry both. Pose3 has geometry and palette drift; pose4 has correct release geometry but palette drift and contaminated alpha.",
+    "notes": [
+      "Both raw hashes and original-copy equality verified.",
+      "Pose3 fingertip is above crown by about30px; rear leg extends down/back rather than folding.",
+      "Pose4 high-forward release and acute folded trailing knee read correctly; heel remains below hip.",
+      "Both retain recognizable human anatomy and Briar hair/headband, but skin remains lighter/oranger against accepted idle reference.",
+      "Pose4 alpha>=64 margins L/T/R/B=[473,298,377,389]px; prompt requires25% clearance. Alpha1 residue extends to within24px of right edge."
+    ]
+  }
 }
