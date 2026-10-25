@@ -1,0 +1,137 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "frame": 4,
+  "tick": 10,
+  "retry": 18,
+  "generationId": "exec-ef8ce520-0768-402b-b7f0-2d025430f6a9",
+  "generator": "image_gen.imagegen",
+  "generatedOutputPath": "/workspace/generated_images/exec-ef8ce520-0768-402b-b7f0-2d025430f6a9.png",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry18-raw.png",
+  "rawSha256": "2905a3f9b422e62f00e369e37a9a74698566aa8d6223b3ae06a10a4ef1bddc46",
+  "decodedRgbaPixelSha256": "fd1cae5c448efc9cf79765152b8e41f434058f6da57ed4e57fcdd737f89e313f",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentBackgroundRequested": true,
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry18-prompt.md",
+  "promptSha256": "6acce61246c0689be7480f06ae82ac5e1d2fbfa4f20d92b94f9a8a6f6cbb2a59",
+  "referenceImages": [],
+  "thresholdMetrics": {
+    "1": {
+      "boundsXYXYExclusive": [
+        41,
+        161,
+        1015,
+        981
+      ],
+      "marginsLTRB": [
+        41,
+        161,
+        239,
+        273
+      ],
+      "figureWidthFraction": 0.776715,
+      "figureHeightFraction": 0.653907,
+      "connectedComponents": 47
+    },
+    "8": {
+      "boundsXYXYExclusive": [
+        485,
+        373,
+        825,
+        865
+      ],
+      "marginsLTRB": [
+        485,
+        373,
+        429,
+        389
+      ],
+      "figureWidthFraction": 0.271132,
+      "figureHeightFraction": 0.392344,
+      "connectedComponents": 57
+    },
+    "32": {
+      "boundsXYXYExclusive": [
+        487,
+        373,
+        825,
+        865
+      ],
+      "marginsLTRB": [
+        487,
+        373,
+        429,
+        389
+      ],
+      "figureWidthFraction": 0.269537,
+      "figureHeightFraction": 0.392344,
+      "connectedComponents": 1
+    },
+    "64": {
+      "boundsXYXYExclusive": [
+        487,
+        374,
+        825,
+        865
+      ],
+      "marginsLTRB": [
+        487,
+        374,
+        429,
+        389
+      ],
+      "figureWidthFraction": 0.269537,
+      "figureHeightFraction": 0.391547,
+      "connectedComponents": 1
+    },
+    "128": {
+      "boundsXYXYExclusive": [
+        488,
+        374,
+        824,
+        864
+      ],
+      "marginsLTRB": [
+        488,
+        374,
+        430,
+        390
+      ],
+      "figureWidthFraction": 0.267943,
+      "figureHeightFraction": 0.39075,
+      "connectedComponents": 1
+    },
+    "250": {
+      "boundsXYXYExclusive": [
+        490,
+        379,
+        824,
+        861
+      ],
+      "marginsLTRB": [
+        490,
+        379,
+        430,
+        393
+      ],
+      "figureWidthFraction": 0.266348,
+      "figureHeightFraction": 0.38437,
+      "connectedComponents": 378
+    }
+  },
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/j130-briar-foxglove-layup-attempt2-pose4-retry18-light-dark-review.png",
+  "decision": "REJECT; preserve unchanged; no cleanup or packing",
+  "duplicatePixelMatches": [],
+  "uniqueDecodedRgbaPixels": true,
+  "duplicateAuditReport": "tools/generate-art/j130-briar-foxglove-layup-duplicate-source-audit.json",
+  "duplicateAuditSourceCount": 73
+}

@@ -1,0 +1,23 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry18",
+  "decision": "REJECT",
+  "generationId": "exec-ef8ce520-0768-402b-b7f0-2d025430f6a9",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry18-raw.png",
+  "sourceSha256": "2905a3f9b422e62f00e369e37a9a74698566aa8d6223b3ae06a10a4ef1bddc46",
+  "decodedRgbaPixelSha256": "fd1cae5c448efc9cf79765152b8e41f434058f6da57ed4e57fcdd737f89e313f",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry18-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/j130-briar-foxglove-layup-attempt2-pose4-retry18-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PASS: adult human with dark locs, red headband and russet/cream kit; complete two arms/hands and two legs/shoes; no fox traits or ball.",
+    "pose": "PASS: high-forward one-hand release at peak, guide hand distinct from face, folded trailing leg. Right-facing airborne layup reads clearly.",
+    "palette": "FAIL: exposed skin is visibly warm orange/bronze rather than Briar’s canonical deep-brown skin.",
+    "transparency": "PASS at base level: true RGBA with alpha extrema 0..255 and no baked backdrop; however low-alpha speckles are present.",
+    "cellMargins": "FAIL: alpha>=64 margins are L/T/R/B 487/374/429/389px; top is 29.82%, two pixels short of a 30% minimum. Alpha>=1 margins are 41/161/239/273px with 47 disconnected components.",
+    "scale": "FAIL: alpha>=64 body height is 491/1254 = 39.16%, exceeding this retry prompt’s 25% target (although within the earlier 40% cap).",
+    "ball": "PASS: no basketball appears; ball remains on the separate Briar-specific track.",
+    "uniqueness": "PASS: decoded RGBA pixel hash is unique in the 73-source J.130 audit; only the two separately documented duplicate groups remain."
+  },
+  "reason": "Reject unchanged for palette drift, explicit prompt-scale miss, strict top-margin miss, and low-alpha residue; retain raw/prompt/provenance/review/preview. No recoloring, cleanup, normalization, packing, registration or acceptance.",
+  "uniqueDecodedRgbaPixels": true,
+  "duplicateAuditSourceCount": 73
+}
