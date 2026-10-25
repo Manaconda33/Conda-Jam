@@ -1,0 +1,165 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "frame": 3,
+  "tick": 8,
+  "retry": 15,
+  "generationId": "exec-0608f371-e81c-4d8f-a8f8-01ec2f157ec3",
+  "generator": "image_gen.imagegen",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry15-raw.png",
+  "originalGeneratedPath": "/workspace/generated_images/exec-0608f371-e81c-4d8f-a8f8-01ec2f157ec3.png",
+  "rawSha256": "6a147f58f8ed1ed2fe14a34a4edcee84fe7e87caf7281f6bf9891d352ae40244",
+  "generatedFileSha256": "6a147f58f8ed1ed2fe14a34a4edcee84fe7e87caf7281f6bf9891d352ae40244",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentBackgroundRequested": true,
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry15-prompt.md",
+  "promptSha256": "33aa8ce098f0d1ccc7ddbe0a2e0a67189b618105f3835e68cbde6471fe5ae031",
+  "referenceImages": [],
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry15-light-dark-review.jpg",
+  "alphaMetrics": {
+    "1": {
+      "bounds_xyxy_exclusive": [
+        2,
+        37,
+        1222,
+        1232
+      ],
+      "margins_ltrb_px": [
+        2,
+        37,
+        32,
+        22
+      ],
+      "margin_fractions_ltrb": [
+        0.0016,
+        0.0295,
+        0.0255,
+        0.0175
+      ],
+      "height_fraction": 0.953
+    },
+    "8": {
+      "bounds_xyxy_exclusive": [
+        377,
+        253,
+        848,
+        958
+      ],
+      "margins_ltrb_px": [
+        377,
+        253,
+        406,
+        296
+      ],
+      "margin_fractions_ltrb": [
+        0.3006,
+        0.2018,
+        0.3238,
+        0.236
+      ],
+      "height_fraction": 0.5622
+    },
+    "32": {
+      "bounds_xyxy_exclusive": [
+        377,
+        255,
+        846,
+        956
+      ],
+      "margins_ltrb_px": [
+        377,
+        255,
+        408,
+        298
+      ],
+      "margin_fractions_ltrb": [
+        0.3006,
+        0.2033,
+        0.3254,
+        0.2376
+      ],
+      "height_fraction": 0.559
+    },
+    "64": {
+      "bounds_xyxy_exclusive": [
+        377,
+        255,
+        846,
+        956
+      ],
+      "margins_ltrb_px": [
+        377,
+        255,
+        408,
+        298
+      ],
+      "margin_fractions_ltrb": [
+        0.3006,
+        0.2033,
+        0.3254,
+        0.2376
+      ],
+      "height_fraction": 0.559
+    },
+    "128": {
+      "bounds_xyxy_exclusive": [
+        378,
+        255,
+        845,
+        956
+      ],
+      "margins_ltrb_px": [
+        378,
+        255,
+        409,
+        298
+      ],
+      "margin_fractions_ltrb": [
+        0.3014,
+        0.2033,
+        0.3262,
+        0.2376
+      ],
+      "height_fraction": 0.559
+    },
+    "250": {
+      "bounds_xyxy_exclusive": [
+        378,
+        256,
+        843,
+        955
+      ],
+      "margins_ltrb_px": [
+        378,
+        256,
+        411,
+        299
+      ],
+      "margin_fractions_ltrb": [
+        0.3014,
+        0.2041,
+        0.3278,
+        0.2384
+      ],
+      "height_fraction": 0.5574
+    }
+  },
+  "decision": "REJECT; preserve raw unchanged; do not cleanup or pack",
+  "review": {
+    "pose": "Shooting hand is raised above the crown/headband, not at/below brow level. The pose is not a valid frame3 prerelease gesture.",
+    "identity": "Adult human anatomy, shoulder-length locs and red headband are recognizable; two arms and two legs are present; no ball appears.",
+    "palette": "Skin is brighter and more orange than the accepted deep-brown reference.",
+    "costume": "Russet jersey/shorts and pale trainers are generally consistent; blank chest, bare wrists.",
+    "transparency": "RGBA with broad clear area around the main silhouette, but low-alpha components remain; alpha>=8 has170 components, alpha>=1 reaches near edges.",
+    "cellMargins": "At alpha>=64, margins are [377,255,408,298] px and figure height is701/1254=55.9%, exceeding44% maximum. The specified 28% clear margin also fails at top/bottom."
+  }
+}
