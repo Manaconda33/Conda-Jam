@@ -1,0 +1,127 @@
+{
+  "source": "tools/generate-art/sources/piper-quickstep-receive-attempt4-generated-raw.png",
+  "output": "tools/generate-art/sources/piper-quickstep-receive-attempt4-clean-candidate.png",
+  "columns": 2,
+  "rows": 2,
+  "cellWidth": 768,
+  "cellHeight": 512,
+  "method": "per-cell largest alpha>=64 component; retain original antialias pixels within a2px dilation; remove alpha<8 and background glow; uniform nearest-neighbor scale to <=600x400 and center in transparent 768x512 cell; no redraw, synthesis or pose rearrangement",
+  "frames": [
+    {
+      "frame": 0,
+      "component": 1,
+      "sourceBounds": [
+        223,
+        8,
+        567,
+        494
+      ],
+      "sourceMargins": [
+        223,
+        201,
+        8,
+        18
+      ],
+      "scale": 0.823045,
+      "outputBounds": [
+        242,
+        56,
+        525,
+        456
+      ],
+      "outputMargins": [
+        242,
+        243,
+        56,
+        56
+      ]
+    },
+    {
+      "frame": 1,
+      "component": 1,
+      "sourceBounds": [
+        89,
+        15,
+        663,
+        492
+      ],
+      "sourceMargins": [
+        89,
+        105,
+        15,
+        20
+      ],
+      "scale": 0.838574,
+      "outputBounds": [
+        143,
+        56,
+        624,
+        456
+      ],
+      "outputMargins": [
+        143,
+        144,
+        56,
+        56
+      ]
+    },
+    {
+      "frame": 2,
+      "component": 1,
+      "sourceBounds": [
+        222,
+        0,
+        535,
+        494
+      ],
+      "sourceMargins": [
+        222,
+        233,
+        0,
+        18
+      ],
+      "scale": 0.809717,
+      "outputBounds": [
+        257,
+        56,
+        510,
+        456
+      ],
+      "outputMargins": [
+        257,
+        258,
+        56,
+        56
+      ]
+    },
+    {
+      "frame": 3,
+      "component": 1,
+      "sourceBounds": [
+        214,
+        0,
+        500,
+        494
+      ],
+      "sourceMargins": [
+        214,
+        268,
+        0,
+        18
+      ],
+      "scale": 0.809717,
+      "outputBounds": [
+        268,
+        56,
+        500,
+        456
+      ],
+      "outputMargins": [
+        268,
+        268,
+        56,
+        56
+      ]
+    }
+  ]
+}

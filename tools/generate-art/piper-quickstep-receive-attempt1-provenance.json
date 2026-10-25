@@ -1,0 +1,36 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "receive",
+  "direction": "right",
+  "attempt": 1,
+  "generatedAt": "2026-10-25",
+  "eligibleForPacking": false,
+  "promptFile": "tools/generate-art/piper-quickstep-receive-attempt1-prompt.md",
+  "prompt": "Create one production 2D arcade basketball sprite sheet for Piper Quickstep on a truly transparent RGBA canvas. Exact layout: 2 equal columns by 2 equal rows, four full-body poses, 1536x1024 pixels. Keep each complete figure centered inside its own equal 768x512 cell with clear transparent space on every side; no figure, ponytail, hand, shoe or shadow may touch or cross a cell margin. All figures face image-right in the same three-quarter view.\n\nPiper is an athletic adult human woman with warm brown skin, an energetic focused face, bright orange high ponytail tied securely behind her head, russet-red basketball uniform with cream speed stripes and trim, and matching red/cream trainers. Preserve natural, complete human anatomy with exactly two arms/hands and two legs/shoes; keep proportions, identity, face, kit, scale and direction consistent across all four drawings.\n\nDraw the four ordered poses of one basketball receive. Frame0: balanced ready stance at chest level, elbows bent and hands prepared for an incoming pass. Frame1: step and lean toward the incoming ball, extending both open hands forward to meet it. Frame2 at tick4: close both hands around the incoming ball at upper-chest height with fingers curved naturally; this is the one catch/contact pose. Frame3: draw the secured ball inward to the lower sternum, elbows settle down, shoulders relax and Piper holds a stable balanced stance. Pose changes must be clearly visible and anatomically natural. The basketball is separate runtime art: do not draw a ball or any ball-like object in any source pose.\n\nUse a polished late-1990s arcade sports painted pixel-art style consistent with JAMVERSE. Transparent alpha only. No basketball, sphere, circle, dark oval, prop, floor, court, ground shadow, scenery, grid lines, text, labels, UI, extra characters, duplicate poses, cropped limbs, background, glow, or checkerboard. Leave clear transparent gutters around each entire figure. Return only the transparent sprite sheet.",
+  "promptSha256": "1891de26c22893494f4633963ff39be3c7960c6134b603c6ad83189e9e5d29a2",
+  "generationId": "exec-ea57c91a-71b3-4a2d-90fd-3fba24eefd54",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-receive-attempt1-generated-raw.png",
+  "rawSourceSha256": "ab6f05118ca824bc207fbc15ba12e59c3ed204b1848cbace953124b26fb80989",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-receive-attempt1-clean-candidate.png",
+  "sourceSha256": "2088f1d7cbb4b5e7908964a7a1995667a3fc22a3d7f60ccd07cb7aba72a2b6d7",
+  "layoutFile": "tools/generate-art/piper-quickstep-receive-attempt1-layouts.json",
+  "cleanup": {
+    "script": "tools/generate-art/clean-piper-quickstep-receive-attempt1.py",
+    "record": "tools/generate-art/piper-quickstep-receive-attempt1-layouts.json",
+    "previews": [
+      "tools/generate-art/previews/piper-quickstep-receive/attempt1-clean-light.png",
+      "tools/generate-art/previews/piper-quickstep-receive/attempt1-clean-dark.png",
+      "tools/generate-art/previews/piper-quickstep-receive/attempt1-clean-contact.png"
+    ],
+    "method": "per-cell largest alpha>=64 component isolation; retain two-pixel antialias fringe; remove low-alpha generated glow; no pose redraw or rearrangement"
+  },
+  "review": {
+    "status": "rejected",
+    "notes": "Rejected for painted basketballs embedded in source poses frame2 and frame3, violating the separate athlete-specific ball-track requirement. The four-pose order, identity and anatomy otherwise appear consistent; retain exact raw and cleaned candidates."
+  },
+  "status": "rejected source; embedded balls in frames2/3; not eligible for packing",
+  "separateBall": {
+    "owner": "piper-quickstep",
+    "art": "Rejected because the source atlas paints balls in the catch and hold poses; these must be separate runtime art."
+  }
+}

@@ -1,12 +1,13 @@
 # QA report
 
-## Piper Quickstep — `pass`, `pass-overhead`, and `pass-behind` integrated locally
+## Piper Quickstep — `pass`, `pass-overhead`, `pass-behind`, and `receive` integrated locally
 
-Piper now has9/29 reviewed clips /70 authored drawings. The three accepted six-pose atlases passed independent source review for pose separation, identity, anatomy, alpha transparency, no ball art, and >=91px cell margins. Pass attempt1 was rejected for similar frames3/4; overhead attempt1 was rejected for similar frames1/2 and3/4. Their localized attempt2 edits passed review. Behind-pass attempt1 passed review.
+Piper now has10/29 reviewed clips /74 authored drawings. The four accepted atlases passed independent source reviews for pose separation, identity, anatomy, true alpha, no ball art, and cleaned-cell margins. Attempts1 for chest pass and overhead pass were rejected for near-duplicate poses; localized attempt2 edits were accepted. Behind-pass attempt1 was accepted. Receive attempts1–3 were rejected for painted basketballs; attempt4 removed them and passed source review.
 
-The separate athlete-specific tracks passed native Canvas review at100%/120% in both facings: chest pass releases at frame3/tick5; overhead and behind-back passes release at frame3/tick7. All12 frame captures per zoom select production art, with hand contact and flight checked. Exact prompts, rejected attempts, raw/clean sources, hashes, layouts, cleanup, proofs and native reports are preserved.
+Separate Piper-specific tracks passed native Canvas review at100%/120% in both facings. Chest pass releases at frame3/tick5; overhead and behind-back passes release at frame3/tick7; receive catches at frame2/tick4. Every per-frame capture selects production art and was checked for hand contact and ball flight. Exact prompts, raw/clean images, hashes, cleanup, layouts, rejected candidates, proofs and reports are retained.
 
-Validation: 36/36 JavaScript test files; 120 animation-sprite assertions; lint18 modules; roster validation35 franchises/105 athletes;100-match simulation /861,421 ticks /6 overtimes;55 atlas packer tests; build. E2E server startup exited before readiness at `127.0.0.1:4175`. Strict audit `2026-10-25T02:37:31.457Z`:799 clips /7,213 drawings /105 athletes;2,304 missing clips; one Luca Velori `run` target shortfall;4 inherited prompt findings. Next lane: Piper `receive`.
+Validation:36/36 JavaScript test files;121 animation-sprite assertions; lint18 modules; roster validation35 franchises/105 athletes;100-match simulation /861,421 ticks /6 overtimes;55 atlas packer tests; build. E2E server startup exited before readiness at `127.0.0.1:4175`. Strict audit `2026-10-25T02:47:39.275Z`:800 clips /7,217 drawings /105 athletes;2,303 missing clips; one Luca Velori `run` target shortfall;4 inherited prompt findings. Next lane: Piper `pickup`.
+
 
 ## Marco Vellum — `receive` accepted and integrated locally
 

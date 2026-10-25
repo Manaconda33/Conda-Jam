@@ -1,0 +1,59 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "receive",
+  "direction": "right",
+  "attempt": 4,
+  "generatedAt": "2026-10-25",
+  "eligibleForPacking": true,
+  "promptFile": "tools/generate-art/piper-quickstep-receive-attempt4-prompt.md",
+  "prompt": "Create a character-only 2D arcade animation sprite sheet for Piper Quickstep on a truly transparent RGBA canvas, exactly 1536x1024 pixels, 2 equal columns by 2 equal rows, four full-body drawings. Each cell is 768x512 pixels. Center each complete figure inside its cell with a transparent margin on every side; no hair, hand, shoe or figure may touch or cross a cell edge. All poses face image-right in the same three-quarter view.\n\nPiper is one athletic adult human woman with warm brown skin, focused energetic face, bright orange high ponytail tied behind her head, russet-red basketball uniform with cream speed stripes and trim, and matching red/cream trainers. Keep the same adult human identity, face, hair, uniform, body scale and proportions through all four drawings. Preserve complete anatomy with exactly two arms/hands and two legs/shoes.\n\nShow four ordered character poses for receiving a pass, with Piper\u2019s hands always completely empty and no object between them. Pose0: balanced ready stance, elbows bent, empty palms open at chest height and about shoulder-width apart. Pose1: step and lean forward; both empty arms extend toward image-right, fingers spread to prepare to meet the pass. Pose2: at tick4, elbows bend and both empty hands draw close together at upper-chest height, fingers naturally curved but leaving a visible transparent gap between the palms; this pose represents the moment she would make contact. Pose3: return upright into a stable lower-sternum hold with empty hands gently together, fingers relaxed and naturally separated, elbows lowered. Make the poses clearly distinct and connected as an action sequence.\n\nCritical art restriction: depict only Piper. Do not render anything in the space between or inside her hands. Never draw a basketball or any object, sphere, circle, dark oval, ball-like mark, prop or accessory. Basketball motion is drawn later as separate runtime art. Also exclude floor, court, ground shadow, scenery, grid lines, labels, text, UI, extra characters, duplicate poses, cropped limbs, background glow and checkerboard. Preserve true alpha transparency throughout the sheet. Return only the transparent character sprite sheet.",
+  "promptSha256": "4fb4a1103a763f0723a6a6ffd47d41bda28b32a0c3b657146ece5115d7cfbc49",
+  "generationId": "exec-ef08e25e-82a9-4591-9c76-f4251241199c",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-receive-attempt4-generated-raw.png",
+  "rawSourceSha256": "70254d8937c6118f6b0ed12baaccb6f73b4af2e6ba8f537f7fcb534dcb00eec6",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-receive-attempt4-clean-candidate.png",
+  "sourceSha256": "45ed5ad829023586a4b0348be970623b8316eb5bfacf746bfe5873135a2e616b",
+  "layoutFile": "tools/generate-art/piper-quickstep-receive-attempt4-layouts.json",
+  "cleanup": {
+    "script": "tools/generate-art/clean-piper-quickstep-receive-attempt4.py",
+    "record": "tools/generate-art/piper-quickstep-receive-attempt4-layouts.json",
+    "previews": [
+      "tools/generate-art/previews/piper-quickstep-receive/attempt4-clean-light.png",
+      "tools/generate-art/previews/piper-quickstep-receive/attempt4-clean-dark.png",
+      "tools/generate-art/previews/piper-quickstep-receive/attempt4-clean-contact.png"
+    ],
+    "method": "per-cell largest alpha>=64 component; retain original antialias pixels within a2px dilation; remove alpha<8 and background glow; uniform nearest-neighbor scale to <=600x400 and center in transparent 768x512 cell; no redraw, synthesis or pose rearrangement"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewer": "independent source-review subagent",
+    "notes": "The four poses read as ready, reach, catch contact and lower-sternum settle; frames0 and3 are distinct. Piper identity and complete anatomy are consistent; no ball appears. Raw frames2/3 touch the top of their cells, but uniform scaling and centering in cleanup gives every cleaned pose >=56px of margin. Light and dark proofs show clean transparency."
+  },
+  "status": "accepted source, packed atlas, and separate Piper ball track; native review passed at100%/120% in both facings",
+  "separateBall": {
+    "owner": "piper-quickstep",
+    "art": "No basketball in source atlas. The separate Piper ball meets her hands at frame2/tick4 and settles at her lower sternum in frame3.",
+    "height": [
+      1.35,
+      1.55,
+      2.0,
+      1.2
+    ],
+    "forward": [
+      9,
+      14,
+      8,
+      8
+    ],
+    "nativeReview": "Independent native review inspected all 8 per-frame captures at 100% and 120% in both facings. Frame1 aligns the ball with Piper\u2019s reach; frame2/tick4 meets her catch hands; frame3 settles at her lower sternum. All captures select production art; no clipping or collision is visible."
+  },
+  "nativeReview": {
+    "status": "accepted",
+    "reviewer": "independent subagent",
+    "notes": "Independent native review inspected all 8 per-frame captures at 100% and 120% in both facings. Frame1 aligns the ball with Piper\u2019s reach; frame2/tick4 meets her catch hands; frame3 settles at her lower sternum. All captures select production art; no clipping or collision is visible.",
+    "reports": [
+      "tools/generate-art/previews/piper-quickstep-receive/native-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-receive/native-120/report.json"
+    ]
+  }
+}

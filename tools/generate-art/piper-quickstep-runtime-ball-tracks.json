@@ -116,6 +116,30 @@
         "tools/generate-art/previews/piper-quickstep-pass-behind/native-100/report.json",
         "tools/generate-art/previews/piper-quickstep-pass-behind/native-120/report.json"
       ]
+    },
+    "receive": {
+      "athlete": "piper-quickstep",
+      "clip": "receive",
+      "status": "accepted after native review at100% and120%, both facings",
+      "height": [
+        1.35,
+        1.55,
+        2.0,
+        1.2
+      ],
+      "forward": [
+        9,
+        14,
+        8,
+        8
+      ],
+      "grabFrame": 2,
+      "grabTick": 4,
+      "nativeReview": "Independent native review inspected all 8 per-frame captures at 100% and 120% in both facings. Frame1 aligns the ball with Piper\u2019s reach; frame2/tick4 meets her catch hands; frame3 settles at her lower sternum. All captures select production art; no clipping or collision is visible.",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-receive/native-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-receive/native-120/report.json"
+      ]
     }
   }
 }

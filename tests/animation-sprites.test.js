@@ -2739,3 +2739,42 @@ test('Piper behind-back pass uses six reviewed poses and a separately reviewed r
  }
  const prompt=readFileSync('tools/generate-art/piper-quickstep-pass-behind-attempt1-prompt.md','utf8');assert.ok(prompt.includes('behind-the-back basketball pass'));
 });
+test('Piper receive uses four reviewed poses and a separately reviewed catch track',()=>{
+ const id='piper-quickstep',character=animationAssetManifest.characters[id],clip=character.directions.right.receive;
+ const atlas='./public/assets/animation/piper-quickstep-receive-right.webp';
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);assert.equal(clip.sha256,createHash('sha256').update(readFileSync('public/assets/animation/piper-quickstep-receive-right.webp')).digest('hex'));
+ assert.equal(clip.frames.length,4);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,4);
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.status,'accepted source; four distinct poses and native-render separate-ball track review passed');
+ assert.deepEqual(clip.provenance.actionAnchors,{grab:2});
+ const height=[1.35,1.55,2.0,1.2],forward=[9,14,8,8];
+ assert.deepEqual(clip.provenance.runtimeBallTrack.height,height);assert.deepEqual(clip.provenance.runtimeBallTrack.forward,forward);
+ assert.equal(anchorTick('receive','grab'),4);assert.equal(sampleAnimation('receive',4).frame,2,'the catch resolves on frame2/tick4');
+ assert.equal(sampleBallHeight('receive',4,id),height[2]);assert.equal(sampleBallForward('receive',4,id),forward[2]);
+ assert.equal(sampleAnimation('receive',3).frame,1,'Piper reaches before the catch');
+ const images=new Map([[atlas,{complete:true,naturalWidth:256,naturalHeight:192,file:atlas}]]);let tick=0;
+ for(let frame=0;frame<4;frame++){
+  assert.equal(sampleAnimation('receive',tick).frame,frame,'Piper selects receive pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'receive',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.receive.frames[frame].duration;
+ }
+ const raw=readFileSync('tools/generate-art/sources/piper-quickstep-receive-attempt4-generated-raw.png');
+ assert.equal(createHash('sha256').update(raw).digest('hex'),clip.provenance.rawSourceSha256);
+ const cleaned=readFileSync('tools/generate-art/sources/piper-quickstep-receive-attempt4-clean-candidate.png');
+ assert.equal(createHash('sha256').update(cleaned).digest('hex'),clip.provenance.sourceSha256);
+ const layout=JSON.parse(readFileSync('tools/generate-art/piper-quickstep-receive-attempt4-layouts.json','utf8'));
+ assert.equal(layout.frames.length,4);for(const frame of layout.frames)assert.ok(Math.min(...frame.outputMargins)>=56);
+ const review=JSON.parse(readFileSync('tools/generate-art/previews/piper-quickstep-receive/native-review.json','utf8'));
+ assert.equal(review.status,'accepted');assert.equal(review.grabTick,4);
+ const attempts=JSON.parse(readFileSync('tools/generate-art/piper-quickstep-receive-attempts.json','utf8')).attempts;
+ assert.equal(attempts.length,4);for(let i=0;i<3;i++)assert.match(attempts[i].status,/rejected/);assert.match(attempts[3].status,/accepted and integrated/);
+ for(const zoom of [100,120]){
+  const report=JSON.parse(readFileSync(`tools/generate-art/previews/piper-quickstep-receive/native-${zoom}/report.json`,'utf8'));
+  assert.equal(report.actionFramePreviews.length,8);
+  assert.ok(report.actionFramePreviews.every(frame=>frame.production&&frame.source===atlas));
+  for(const facing of ['left','right'])assert.equal(report.actionFramePreviews.filter(frame=>frame.path.includes(`/${facing}-receive-frame`)).length,4);
+ }
+});

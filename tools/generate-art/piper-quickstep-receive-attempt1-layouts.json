@@ -1,0 +1,75 @@
+{
+  "source": "tools/generate-art/sources/piper-quickstep-receive-attempt1-generated-raw.png",
+  "output": "tools/generate-art/sources/piper-quickstep-receive-attempt1-clean-candidate.png",
+  "columns": 2,
+  "rows": 2,
+  "cellWidth": 768,
+  "cellHeight": 512,
+  "method": "per-cell largest alpha>=64 component isolation; retain two-pixel antialias fringe; remove low-alpha generated glow; no pose redraw or rearrangement",
+  "frames": [
+    {
+      "frame": 0,
+      "componentCount": 1,
+      "bounds": [
+        264,
+        10,
+        571,
+        480
+      ],
+      "margins": [
+        264,
+        197,
+        10,
+        32
+      ]
+    },
+    {
+      "frame": 1,
+      "componentCount": 1,
+      "bounds": [
+        129,
+        11,
+        593,
+        471
+      ],
+      "margins": [
+        129,
+        175,
+        11,
+        41
+      ]
+    },
+    {
+      "frame": 2,
+      "componentCount": 1,
+      "bounds": [
+        268,
+        10,
+        573,
+        481
+      ],
+      "margins": [
+        268,
+        195,
+        10,
+        31
+      ]
+    },
+    {
+      "frame": 3,
+      "componentCount": 1,
+      "bounds": [
+        216,
+        10,
+        524,
+        481
+      ],
+      "margins": [
+        216,
+        244,
+        10,
+        31
+      ]
+    }
+  ]
+}

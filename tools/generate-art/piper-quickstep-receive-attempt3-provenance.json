@@ -1,0 +1,26 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "receive",
+  "direction": "right",
+  "attempt": 3,
+  "generatedAt": "2026-10-25",
+  "eligibleForPacking": false,
+  "promptFile": "tools/generate-art/piper-quickstep-receive-attempt3-edit-prompt.md",
+  "prompt": "Edit this exact Piper Quickstep receive sheet and make one localized correction only: remove the remaining basketball from pose index 3 (bottom-right cell) so that both hands at her lower sternum are empty. Preserve pose indices 0, 1 and 2 exactly, and preserve Piper\u2019s identity, anatomy, expression, outfit, scale, pose position, facing, camera and the 2x2 cell layout. Do not crop, move, rescale, redraw other poses, or change the sheet.\n\nFor pose3 only, keep the stable lower-sternum settle: elbows down, shoulders relaxed, hands resting gently together at the lower sternum. Erase the ball completely and reconstruct only the tiny hand/art pixels hidden behind it, with natural empty hands and a clean uniform visible between the fingers. No ball-like dark/orange mark or substitute object.\n\nPiper remains the same athletic adult human woman with warm brown skin, bright orange high ponytail, russet-red uniform with cream stripes and trim, and matching red/cream trainers. Preserve complete human anatomy, two arms/hands and two legs/shoes. All figures face image-right in the same three-quarter view.\n\nThe basketball belongs to a separate athlete-specific runtime track and must not appear in any pose. Keep all figures safely inside their original cells and preserve genuine alpha transparency. Return only the edited transparent sheet.",
+  "generationId": "exec-13762534-9eea-4515-a759-aaab8722ff18",
+  "referenceSource": "tools/generate-art/sources/piper-quickstep-receive-attempt2-edit-clean-candidate.png",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-receive-attempt3-edit-generated-raw.png",
+  "rawSourceSha256": "c1ae9ce616f925aa22655c078b18029b3c0e6e3079b65a93d46b9983fc2156d8",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-receive-attempt3-edit-clean-candidate.png",
+  "sourceSha256": "368bb3842c9824c8fef0bd27ae9fc9e01eb8175beb51c24b680282903c5fa1f6",
+  "layoutFile": "tools/generate-art/piper-quickstep-receive-attempt3-edit-layouts.json",
+  "review": {
+    "status": "rejected",
+    "notes": "Localized edit still retains a visible painted basketball at pose3/lower sternum. Separate-ball art requirement remains violated; do not pack."
+  },
+  "status": "rejected source; painted ball remains in frame3",
+  "cleanup": {
+    "script": "tools/generate-art/clean-piper-quickstep-receive-attempt3-edit.py",
+    "record": "tools/generate-art/piper-quickstep-receive-attempt3-edit-layouts.json"
+  }
+}

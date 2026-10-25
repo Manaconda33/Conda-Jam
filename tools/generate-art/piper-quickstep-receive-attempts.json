@@ -1,0 +1,49 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "receive",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "rejected: baked basketball art in frames2 and3",
+      "provenance": "tools/generate-art/piper-quickstep-receive-attempt1-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-receive-attempt1-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-receive-attempt1-generated-raw.png",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-receive-attempt1-clean-candidate.png"
+    },
+    {
+      "attempt": 2,
+      "status": "rejected: frame3 still has baked basketball art",
+      "provenance": "tools/generate-art/piper-quickstep-receive-attempt2-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-receive-attempt2-edit-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-receive-attempt2-edit-generated-raw.png",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-receive-attempt2-edit-clean-candidate.png",
+      "referenceSource": "tools/generate-art/sources/piper-quickstep-receive-attempt1-clean-candidate.png"
+    },
+    {
+      "attempt": 3,
+      "status": "rejected: frame3 still has baked basketball art",
+      "provenance": "tools/generate-art/piper-quickstep-receive-attempt3-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-receive-attempt3-edit-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-receive-attempt3-edit-generated-raw.png",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-receive-attempt3-edit-clean-candidate.png",
+      "referenceSource": "tools/generate-art/sources/piper-quickstep-receive-attempt2-edit-clean-candidate.png"
+    },
+    {
+      "attempt": 4,
+      "status": "accepted and integrated after independent source/native review",
+      "provenance": "tools/generate-art/piper-quickstep-receive-attempt4-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-receive-attempt4-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-receive-attempt4-generated-raw.png",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-receive-attempt4-clean-candidate.png",
+      "review": {
+        "status": "accepted",
+        "reviewer": "independent source-review subagent",
+        "notes": "The four poses read as ready, reach, catch contact and lower-sternum settle; frames0 and3 are distinct. Piper identity and complete anatomy are consistent; no ball appears. Raw frames2/3 touch the top of their cells, but uniform scaling and centering in cleanup gives every cleaned pose >=56px of margin. Light and dark proofs show clean transparency."
+      },
+      "nativePreviewReports": [
+        "tools/generate-art/previews/piper-quickstep-receive/native-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-receive/native-120/report.json"
+      ]
+    }
+  ]
+}

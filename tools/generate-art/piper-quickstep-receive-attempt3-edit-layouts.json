@@ -1,0 +1,46 @@
+{
+  "source": "tools/generate-art/sources/piper-quickstep-receive-attempt3-edit-generated-raw.png",
+  "output": "tools/generate-art/sources/piper-quickstep-receive-attempt3-edit-clean-candidate.png",
+  "columns": 2,
+  "rows": 2,
+  "cellWidth": 768,
+  "cellHeight": 512,
+  "frames": [
+    {
+      "frame": 0,
+      "margins": [
+        264,
+        195,
+        9,
+        30
+      ]
+    },
+    {
+      "frame": 1,
+      "margins": [
+        133,
+        171,
+        8,
+        38
+      ]
+    },
+    {
+      "frame": 2,
+      "margins": [
+        266,
+        193,
+        7,
+        29
+      ]
+    },
+    {
+      "frame": 3,
+      "margins": [
+        214,
+        239,
+        7,
+        29
+      ]
+    }
+  ]
+}
