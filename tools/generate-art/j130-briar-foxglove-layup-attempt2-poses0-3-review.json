@@ -1,0 +1,22 @@
+{
+  "issue":"J.130",
+  "athlete":"briar-foxglove",
+  "clip":"layup",
+  "attempt":2,
+  "reviewedAt":"2026-10-25T20:06:45Z",
+  "reviewer":"independent source reviewer",
+  "reviewStatus":"all four raw sources retained; retries required before selection",
+  "preview":"tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-poses0-7-first-review.png",
+  "poses":[
+    {"frame":0,"decision":"pose pass; regenerate for accessory continuity","generationId":"exec-07141b50-ccbb-412e-a6ed-01d05e39e79d","identityAnatomy":"Complete human Briar with matching hair, headband, skin and kit; no visible prop.","sequence":"Grounded approach/gather with bent knees and empty hands below chest; distinct from later action.","accessory":"Red wristband conflicts with accepted Briar references, which have no wristband.","transparencyAndMargins":"1254x1254 RGBA. Alpha residue reaches source edges. Main figure alpha>=8 margins L/T/R/B=346/242/281/183px; requested189px minimum is missed only at bottom."},
+    {"frame":1,"decision":"pose pass; regenerate for accessory continuity","generationId":"exec-286c9e5a-8d7b-485c-80af-abbe27e8688a","identityAnatomy":"Complete human Briar with matching hair, headband, skin and kit; no visible prop.","sequence":"Readable early one-foot takeoff with opposite knee raised, pushing leg extended and hands near chest; pushing shoe floats slightly but motion reads.","accessory":"Red wristband conflicts with accepted Briar references.","transparencyAndMargins":"1254x1254 RGBA. Alpha residue reaches canvas edges. Main figure alpha>=8 margins are445/123/375/178px L/T/R/B; figure height is76%, below requested padding."},
+    {"frame":2,"decision":"rejected; regenerate","generationId":"exec-14d6ee40-a2a7-42db-a3b3-e7d4d8f06790","identityAnatomy":"Complete human Briar with matching identity; no visible prop.","sequence":"Forearm is upright beside face and guide hand separates, but shooting hand rises above forehead instead of staying beside cheek; trailing leg is nearly straight down/back rather than folded.","accessory":"Red bands appear on both wrists and conflict with accepted identity references.","transparencyAndMargins":"1254x1254 RGBA. Alpha residue reaches source edges. Main figure alpha>=8 margins are388/166/311/153px L/T/R/B."},
+    {"frame":3,"decision":"rejected; regenerate","generationId":"exec-5584a8ef-da9a-4cc4-9bca-31b5e5103ff1","identityAnatomy":"Complete human Briar with matching identity; no visible prop.","sequence":"Shooting arm is nearly straight and wrist/fingers drop forward/down; this reads as release/follow-through rather than the prerelease pose with palm upward. It consumes frame4's gesture and weakens the sequence.","accessory":"No wristband visible.","transparencyAndMargins":"1254x1254 RGBA. Alpha residue reaches source edges. Main figure alpha>=8 margins are394/95/251/89px L/T/R/B; figure height is85.3%, well below requested padding."}
+  ],
+  "sharedFindings":[
+    "All four are complete human figures with two arms, two hands, two legs and two shoes; no fox traits, painted ball, or props are visible.",
+    "All four raw sources have low-opacity edge specks; reframe/cleanup must preserve contour antialiasing and prove safe margins in the assembled sheet.",
+    "Frames0 and1 are visually usable poses but have wristbands absent from accepted Briar references; regenerate for continuity.",
+    "No frame is selected. No cleanup, normalization, assembly or packing has been done."
+  ]
+}
