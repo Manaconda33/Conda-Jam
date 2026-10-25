@@ -1,0 +1,13 @@
+{
+  "task": "J.130",
+  "frame": 2,
+  "retry": 4,
+  "generation_id": "exec-0cea9d31-c068-4cdd-ab67-b8eaf6cb4b7c",
+  "decision": "reject",
+  "observations": "Complete single human figure with two legs, folded trailing heel and high lead knee. Empty hands and bare wrists; predominantly cream shoes improve canon. Skin remains orange/bronze rather than neutral deep cocoa/umber and does not read darker than jersey. Shooting fingers reach eyebrow/eye level rather than staying clearly below eyebrow at cheek. Voluminous long locs and bright red jersey remain identity/style drift. Reject. All-nonzero alpha bounds fail 20% transparent margins; raw low-alpha residue retained.",
+  "raw_source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry4-raw.png",
+  "sha256": "84032b8434248bc3101adee25627f1db06a450ed59dcce3a1aa30aec33ef60c0",
+  "required_transparent_margin_fraction": 0.2,
+  "raw_alpha_margin_pass": false,
+  "processing": "None. Raw retained unchanged."
+}

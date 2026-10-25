@@ -1,0 +1,13 @@
+{
+  "task": "J.130",
+  "frame": 3,
+  "retry": 6,
+  "generation_id": "exec-6ce76ddf-08d7-4aa3-8362-85b78fd7f032",
+  "decision": "reject",
+  "observations": "ANATOMY FAILURE: figure has three separate legs and three shoes: one front raised leg, one tucked rear leg, and an extra long descending rear leg. This invalidates frame3. Palm-up empty shooting hand is readable but elbow more extended than requested approximately90 degrees, off-hand stays near chest. Skin remains orange/bronze instead of neutral deep cocoa/umber. Bare wrists and cream shoes. Reject unequivocally. All-nonzero alpha bounds fail 20% transparent margins; raw low-alpha residue retained.",
+  "raw_source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry6-raw.png",
+  "sha256": "0d7aa394230b9eb1f4b4cc769ad51b8496f1786f33253eefc463059c18833cab",
+  "required_transparent_margin_fraction": 0.2,
+  "raw_alpha_margin_pass": false,
+  "processing": "None. Raw retained unchanged."
+}
