@@ -1,0 +1,116 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry15",
+  "decision": "REJECT",
+  "generationId": "exec-8a3014db-a0bd-4899-9109-9602e934bf24",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry15-raw.png",
+  "sourceSha256": "552fd613e62bfd853e206340d12800e686a5255ae40a94a15b9ccbee0a002785",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry15-light-dark-review.png",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry15-prompt.md",
+  "checks": {
+    "identity": "Adult human Briar with shoulder locs, red headband, russet/cream kit.",
+    "anatomy": "Two visible arms/hands and two legs/shoes; no ball.",
+    "pose": "Ascending pose with raised knee and folded trail leg, but shooting hand/fingertips touch or overlap the mouth instead of staying below the lower lip and apart from the face.",
+    "palette": "Skin remains brighter/oranger than accepted Briar references; shoes are cream-dominant.",
+    "transparency": "RGBA with transparent background, but low-alpha satellite residue extends close to the canvas edges.",
+    "margins": "At alpha>=64, margins are 438/219/318/300px (L/T/R/B); top=17.46%, bottom=23.92%. The figure height is58.61%, exceeding the48% cap. At alpha>=1 margins shrink to33/21/110/80px."
+  },
+  "metrics": {
+    "1": {
+      "bboxXYXYExclusive": [
+        33,
+        21,
+        1144,
+        1174
+      ],
+      "marginsLTRB": [
+        33,
+        21,
+        110,
+        80
+      ],
+      "figureHeightFraction": 0.919458,
+      "connectedComponents": 121
+    },
+    "8": {
+      "bboxXYXYExclusive": [
+        437,
+        218,
+        936,
+        955
+      ],
+      "marginsLTRB": [
+        437,
+        218,
+        318,
+        299
+      ],
+      "figureHeightFraction": 0.587719,
+      "connectedComponents": 157
+    },
+    "32": {
+      "bboxXYXYExclusive": [
+        438,
+        219,
+        936,
+        954
+      ],
+      "marginsLTRB": [
+        438,
+        219,
+        318,
+        300
+      ],
+      "figureHeightFraction": 0.586124,
+      "connectedComponents": 2
+    },
+    "64": {
+      "bboxXYXYExclusive": [
+        438,
+        219,
+        936,
+        954
+      ],
+      "marginsLTRB": [
+        438,
+        219,
+        318,
+        300
+      ],
+      "figureHeightFraction": 0.586124,
+      "connectedComponents": 1
+    },
+    "128": {
+      "bboxXYXYExclusive": [
+        439,
+        219,
+        935,
+        954
+      ],
+      "marginsLTRB": [
+        439,
+        219,
+        319,
+        300
+      ],
+      "figureHeightFraction": 0.586124,
+      "connectedComponents": 1
+    },
+    "250": {
+      "bboxXYXYExclusive": [
+        442,
+        223,
+        932,
+        953
+      ],
+      "marginsLTRB": [
+        442,
+        223,
+        322,
+        301
+      ],
+      "figureHeightFraction": 0.582137,
+      "connectedComponents": 355
+    }
+  },
+  "reason": "The shooting hand still touches the mouth; skin palette remains too orange; figure height and transparent margins exceed the requested limits; low-alpha edge residue remains."
+}
