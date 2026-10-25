@@ -1,0 +1,108 @@
+{
+  "issue": "J.130",
+  "frame": 4,
+  "attempt": 2,
+  "retry": 6,
+  "reviewer": "independent pose4 source reviewer",
+  "reviewedAt": "2026-10-25T20:26:44.644746+00:00",
+  "reviewedCommit": "d093138d",
+  "decision": "retry/reject; not pass-for-cleanup",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry6-raw.png",
+  "sourceSha256": "bd0b78c5dd118d9f564973b8f0feee5e50a1d0c7763a245aa042d2957a0ae408",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry6-prompt.md",
+  "promptSha256": "703ad1196fc969b4a8d6d5f39054b5cf985a5fc43fffce527a4fc9f186b09be2",
+  "checks": {
+    "sourceHashMatches": true,
+    "originalCopyMatches": true,
+    "allThreeReferenceHashesMatch": true,
+    "mode": "RGBA",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  "alphaCountsConfirmed": {
+    "zero": 1395407,
+    "nonzero": 177109,
+    "alpha1to63": 26322,
+    "alpha64plus": 150787,
+    "opaque": 682
+  },
+  "boundsConfirmed": {
+    "alphaGte1": {
+      "bboxExclusive": [
+        25,
+        19,
+        1234,
+        1230
+      ],
+      "marginsLTRB": [
+        25,
+        19,
+        20,
+        24
+      ]
+    },
+    "alphaGte64": {
+      "bboxExclusive": [
+        437,
+        169,
+        968,
+        975
+      ],
+      "marginsLTRB": [
+        437,
+        169,
+        286,
+        279
+      ]
+    }
+  },
+  "paletteSamples": {
+    "method": "Median raw RGBA in stated rectangular core-skin regions; observational samples, not a segmentation of every skin pixel.",
+    "shoulder": {
+      "bboxExclusive": [
+        565,
+        450,
+        595,
+        480
+      ],
+      "medianRGBA": [
+        189,
+        106,
+        52,
+        253
+      ]
+    },
+    "face": {
+      "bboxExclusive": [
+        650,
+        350,
+        675,
+        375
+      ],
+      "medianRGBA": [
+        185,
+        101,
+        48,
+        253
+      ]
+    },
+    "promptMidtoneRGB": [
+      145,
+      70,
+      39
+    ]
+  },
+  "findings": [
+    "Confirm retry/reject. Skin remains noticeably orange/bronze against the deeper accepted idle identity and the explicitly requested #914627 midtone. Sample shoulder median RGB [189,106,52] and face [185,101,48] are substantially lighter than that requested midtone; this is not evidence that all highlights violate the separate RGB193 ceiling.",
+    "Hand orientation improves over retry5: the extended arm and wrist continue diagonally upper-right without the prior dropped-wrist pose. The hand is empty, fingers extend upper-right with slight curl; open upward/outward palm is less explicit than requested, but broad release orientation is plausible.",
+    "Guide hand is lower and separate; lead knee is elevated. Rear knee is acutely folded and heel rises backward, though heel remains below the seat rather than tightly tucked adjacent behind it. The exact tucked-heel requirement is not fully met.",
+    "Two arms, two hands, two legs and two shoes have coherent connections; no evident extra limb, animal feature, basketball or prop. Blank chest and bare wrists pass.",
+    "Shoes have more cream than retry5 but retain large russet panels and bands; this does not match predominantly cream with only small russet trim.",
+    "Confirm 26322 alpha1-through63 pixels and overall nonzero-alpha margins [25,19,20,24]px. Background residue fails clean transparent field.",
+    "Correct generator margin wording: alpha>=64 margins [437,169,286,279]px PASS 25 percent on the LEFT; TOP, RIGHT and BOTTOM fail. The requested central50percent figure box is not met. At least314px clearance is needed per side on1254px canvas.",
+    "Padding or alpha isolation can preserve the current pose, but cannot establish the requested palette, shoe treatment and tight heel tuck. Cleanup alone does not resolve rejection."
+  ],
+  "processing": "Separate review record only; existing source, status/provenance, preview and J.106 helper unchanged. Existing light/dark preview inspected; no duplicate preview generated."
+}
