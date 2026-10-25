@@ -1,0 +1,7 @@
+Edit this exact Piper Quickstep pickup sprite sheet and make one localized correction only: replace pose index 3 (bottom-left cell) so its floor-contact hand is open and empty. In the current pose, the closed right fist contains a dark-rimmed white-centered round mark. Remove that mark completely. Repose only the right hand: Piper’s palm faces down, fingers open and clearly separated, with two fingertips just touching floor level. The empty hand must contain no circle, disc, ring, highlight, mark, sphere, prop, or object. Keep her wrist and arm path reaching naturally toward the floor.
+
+Preserve poses0,1,2,4 and the empty cell5 exactly in content, location, identity, clothing, proportions, size, direction, row and column. Do not crop, shift, resize, reorder, add, or remove any drawing. Keep the 1536x1024 transparent RGBA 3-column by 2-row grid unchanged.
+
+Piper remains the same athletic adult human woman with warm brown skin, bright orange high ponytail, russet-red uniform with cream speed stripes and trim, and red/cream trainers. Preserve complete human anatomy with two arms/hands and two legs/shoes, all facing image-right in the same three-quarter view.
+
+The basketball is separate runtime art. Do not draw a ball, sphere, circle, dark oval, mark, prop, floor object, court, floor texture, ground shadow, scenery, labels, text, UI, extra person, background glow, or checkerboard in any cell. Preserve true transparent alpha and clear safe margins. Return only the edited transparent sheet.

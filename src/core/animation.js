@@ -732,7 +732,9 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   // Piper sends the ball behind her waist on frame3/tick7; keep it athlete-specific.
   'pass-behind':{height:[1.15,1.2,1.25,1.4,1.25,1.0],forward:[8,4,-5,-12,-17,-22]},
   // Piper meets the incoming ball on frame2/tick4, then settles it at her sternum.
-  receive:{height:[1.35,1.55,2.0,1.2],forward:[9,14,8,8]}
+  receive:{height:[1.35,1.55,2.0,1.2],forward:[9,14,8,8]},
+  // The separate ball starts ahead of Piper, meets her open fingertips at frame3/tick7, then rises into her recovery hold.
+  pickup:{height:[.9,.55,.2,0,.6],forward:[7,10,14,14,8]}
 },'reed-ashcroft':{
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.

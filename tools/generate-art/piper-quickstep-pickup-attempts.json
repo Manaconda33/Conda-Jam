@@ -1,0 +1,63 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "pickup",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "rejected: round object embedded in frame3 fist",
+      "provenance": "tools/generate-art/piper-quickstep-pickup-attempt1-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-pickup-attempt1-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-pickup-attempt1-generated-raw.png",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-pickup-attempt1-clean-candidate.png",
+      "review": "Independent source reviewer rejected the dark-rimmed white-centered round mark in the closed fist."
+    },
+    {
+      "attempt": 2,
+      "status": "rejected: outputs not production-ready",
+      "generationIds": [
+        "exec-e81de4b2-28d7-44e4-a6ce-c7afafc97d53",
+        "exec-11515309-15cd-4508-ba54-33fd0321262e",
+        "exec-04062ae3-5638-40ac-bea8-d370e3ce7c21"
+      ],
+      "prompts": [
+        "tools/generate-art/piper-quickstep-pickup-attempt2-edit-prompt.md",
+        "tools/generate-art/piper-quickstep-pickup-attempt2-edit-prompt-short.md"
+      ],
+      "candidateRaw": "tools/generate-art/sources/piper-quickstep-pickup-attempt2-generated-raw.png",
+      "rejectedRaw": [
+        "tools/generate-art/sources/piper-quickstep-pickup-attempt2-rejected-opaque-checkerboard-raw.png",
+        "tools/generate-art/sources/piper-quickstep-pickup-attempt2-rejected-opaque-checkerboard-raw-2.png"
+      ],
+      "cleanCandidate": "tools/generate-art/sources/piper-quickstep-pickup-attempt2-clean-candidate.png",
+      "review": "Independent reviewer rejected two opaque RGB outputs with baked checkerboard. The RGBA candidate had a 53px raw margin; the cleaned proof was rejected for apparent glow in alpha-visible pixels. All candidates are retained."
+    },
+    {
+      "attempt": 3,
+      "status": "accepted for production",
+      "provenance": "tools/generate-art/piper-quickstep-pickup-attempt3-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-pickup-attempt3-edit-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-pickup-attempt3-generated-raw.png",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-pickup-attempt3-clean-candidate.png",
+      "layout": "tools/generate-art/piper-quickstep-pickup-attempt3-layouts.json",
+      "previews": [
+        "tools/generate-art/previews/piper-quickstep-pickup/attempt3/light.png",
+        "tools/generate-art/previews/piper-quickstep-pickup/attempt3/dark.png",
+        "tools/generate-art/previews/piper-quickstep-pickup/attempt3/contact.png"
+      ],
+      "review": "Independent source review accepted: five distinct poses, identity/anatomy, empty contact hand, alpha, margins, and blank sixth cell all pass.",
+      "nativeReview": {
+        "status": "accepted",
+        "reviewer": "independent native-render subagent",
+        "reviewedAt": "2026-10-25",
+        "renderer": "tools/render-preview.mjs actual game Canvas adapter",
+        "evidence": [
+          "tools/generate-art/previews/piper-quickstep-pickup/native-final-100/report.json",
+          "tools/generate-art/previews/piper-quickstep-pickup/native-final-120/report.json"
+        ],
+        "capturesPerZoom": 10,
+        "productionSelections": "20/20 across both facings and 100%/120% zoom",
+        "notes": "Frame3/tick7 ball meets the open fingertips at floor level. Frame4 ball aligns with Piper\u2019s trailing hand at her side/waist. No clipping or collision."
+      }
+    }
+  ]
+}

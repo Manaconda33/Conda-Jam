@@ -1,0 +1,37 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "pickup",
+  "direction": "right",
+  "attempt": 1,
+  "generatedAt": "2026-10-25",
+  "eligibleForPacking": false,
+  "promptFile": "tools/generate-art/piper-quickstep-pickup-attempt1-prompt.md",
+  "prompt": "Create one production 2D arcade basketball character sprite sheet for Piper Quickstep on a truly transparent RGBA canvas, 1536x1024 pixels, laid out as exactly 3 equal columns by 2 equal rows of 512x512 cells. Draw exactly five full-body poses in row-major order in cells 0\u20134; leave cell5 (bottom-right) completely transparent and empty. Center every complete figure within its own cell with a clear transparent margin on all sides. No hair, hand, shoe or figure may touch or cross a cell border. Every pose faces image-right in the same three-quarter view.\n\nPiper is the same athletic adult human woman with warm brown skin, an energetic focused face, bright orange high ponytail tied behind her head, russet-red basketball uniform with cream speed stripes and trim, and matching red/cream trainers. Preserve consistent identity, face, outfit, proportions and complete human anatomy: exactly two arms/hands and two legs/shoes.\n\nDraw five ordered poses of one floor pickup. Frame0: stand alert and balanced, eyes lowered toward an offscreen floor object; hands empty. Frame1: bend knees and hinge forward, lowering the right hand toward the floor while the other arm balances. Frame2: deepen the squat and extend the right hand to just above floor level. Frame3 at tick7: make fingertip contact at floor level and close the empty right hand as she collects an offscreen object; keep her back and stance balanced. Frame4: rise into a stable upright recovery with the right hand returning toward the lower sternum. Make each pose visibly distinct; do not repeat a crouch or standing pose.\n\nThe basketball is separate runtime art and must never appear in the sprite sheet. Keep both hands empty and draw no ball, sphere, circle, dark oval, floor object, prop, floor, court, ground shadow, scenery, grid line, label, text, UI, extra figure, duplicate pose, cropped limb, background, glow or checkerboard. Preserve genuine alpha transparency and leave the unused sixth cell fully transparent. Return only the character sprite sheet.",
+  "promptSha256": "be42d03063af903ae047f2ff03c230ebfcd98fb2a1a764a55854df5cf0016ea3",
+  "generationId": "exec-b70cbb3e-348d-490b-b991-decb0fe20da4",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-pickup-attempt1-generated-raw.png",
+  "rawSourceSha256": "ca395fba3223ce324a6c821a1427df2eda0e240f00b75bc7bef97d4bbfe5e944",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-pickup-attempt1-clean-candidate.png",
+  "sourceSha256": "a43e92ac0951dc4f71d1c2c39ec8f068297ae97b27d6ab12664cc47564f60841",
+  "layoutFile": "tools/generate-art/piper-quickstep-pickup-attempt1-layouts.json",
+  "cleanup": {
+    "script": "tools/generate-art/clean-piper-quickstep-pickup-attempt1.py",
+    "record": "tools/generate-art/piper-quickstep-pickup-attempt1-layouts.json",
+    "previews": [
+      "tools/generate-art/previews/piper-quickstep-pickup/attempt1-clean-light.png",
+      "tools/generate-art/previews/piper-quickstep-pickup/attempt1-clean-dark.png",
+      "tools/generate-art/previews/piper-quickstep-pickup/attempt1-clean-contact.png"
+    ],
+    "method": "per-cell largest alpha>=64 component for poses0\u20134; require cell5 empty; preserve original antialias within2px dilation; remove alpha<8/glow; uniform nearest-neighbor scale to <=360x400 and center in transparent512x512 cell; no redraw or pose rearrangement"
+  },
+  "review": {
+    "status": "rejected",
+    "reviewer": "independent source-review subagent",
+    "notes": "Frames0\u20134 are distinct and ordered; Piper identity/anatomy are consistent, transparency is clean after alpha cleanup, margins are >=56px and cell5 is empty. Rejected because frame3\u2019s closed right fist contains a dark-rimmed white-centered round mark that reads as a basketball/object. Preserve and do not pack."
+  },
+  "status": "rejected source; round object embedded in frame3 fist",
+  "separateBall": {
+    "owner": "piper-quickstep",
+    "art": "No ball in source sheet; separate runtime track should contact floor at frame3/tick7 and rise with Piper at frame4."
+  }
+}

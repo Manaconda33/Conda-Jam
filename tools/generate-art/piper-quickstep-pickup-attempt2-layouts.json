@@ -1,0 +1,166 @@
+{
+  "source": "tools/generate-art/sources/piper-quickstep-pickup-attempt2-generated-raw.png",
+  "output": "tools/generate-art/sources/piper-quickstep-pickup-attempt2-clean-candidate.png",
+  "columns": 3,
+  "rows": 2,
+  "cellWidth": 512,
+  "cellHeight": 512,
+  "method": "per-cell largest alpha>=64 component for poses0\u20134; require cell5 empty; preserve original antialias within2px dilation; remove alpha<8/glow; uniform nearest-neighbor scale to <=360x400 and center in transparent512x512 cell; no redraw or pose rearrangement",
+  "frames": [
+    {
+      "frame": 0,
+      "component": 1,
+      "sourceBounds": [
+        158,
+        56,
+        354,
+        459
+      ],
+      "sourceMargins": [
+        158,
+        158,
+        56,
+        53
+      ],
+      "scale": 0.992556,
+      "outputBounds": [
+        158,
+        56,
+        353,
+        456
+      ],
+      "outputMargins": [
+        158,
+        159,
+        56,
+        56
+      ]
+    },
+    {
+      "frame": 1,
+      "component": 1,
+      "sourceBounds": [
+        111,
+        56,
+        399,
+        459
+      ],
+      "sourceMargins": [
+        111,
+        113,
+        56,
+        53
+      ],
+      "scale": 0.992556,
+      "outputBounds": [
+        113,
+        56,
+        399,
+        456
+      ],
+      "outputMargins": [
+        113,
+        113,
+        56,
+        56
+      ]
+    },
+    {
+      "frame": 2,
+      "component": 1,
+      "sourceBounds": [
+        88,
+        86,
+        425,
+        428
+      ],
+      "sourceMargins": [
+        88,
+        87,
+        86,
+        84
+      ],
+      "scale": 1.0,
+      "outputBounds": [
+        87,
+        85,
+        424,
+        427
+      ],
+      "outputMargins": [
+        87,
+        88,
+        85,
+        85
+      ]
+    },
+    {
+      "frame": 3,
+      "component": 1,
+      "sourceBounds": [
+        104,
+        89,
+        432,
+        425
+      ],
+      "sourceMargins": [
+        104,
+        80,
+        89,
+        87
+      ],
+      "scale": 1.0,
+      "outputBounds": [
+        92,
+        88,
+        420,
+        424
+      ],
+      "outputMargins": [
+        92,
+        92,
+        88,
+        88
+      ]
+    },
+    {
+      "frame": 4,
+      "component": 1,
+      "sourceBounds": [
+        149,
+        54,
+        362,
+        460
+      ],
+      "sourceMargins": [
+        149,
+        150,
+        54,
+        52
+      ],
+      "scale": 0.985222,
+      "outputBounds": [
+        151,
+        56,
+        361,
+        456
+      ],
+      "outputMargins": [
+        151,
+        151,
+        56,
+        56
+      ]
+    },
+    {
+      "frame": 5,
+      "empty": true,
+      "margins": [
+        512,
+        512,
+        512,
+        512
+      ]
+    }
+  ]
+}

@@ -1,13 +1,12 @@
 # QA report
 
-## Piper Quickstep — `pass`, `pass-overhead`, `pass-behind`, and `receive` integrated locally
+## Piper Quickstep — `pickup` accepted and integrated locally
 
-Piper now has10/29 reviewed clips /74 authored drawings. The four accepted atlases passed independent source reviews for pose separation, identity, anatomy, true alpha, no ball art, and cleaned-cell margins. Attempts1 for chest pass and overhead pass were rejected for near-duplicate poses; localized attempt2 edits were accepted. Behind-pass attempt1 was accepted. Receive attempts1–3 were rejected for painted basketballs; attempt4 removed them and passed source review.
+The five-pose pickup atlas adds five drawings, bringing Piper to11/29 clips /79 authored drawings. ImageGen attempt3 `exec-0b3e249d-a4d3-4d2e-9228-50fd3507d2b5` passed independent source review for sequence, pose separation, warm-brown adult-human identity, orange high ponytail, russet/cream kit, complete anatomy, empty hand, true alpha and cell margins (minimum56px). Frame3 reaches open fingertips to the floor at grab tick7. The separate Piper-specific ball track `[.9,.55,.2,0,.6]` height / `[7,10,14,14,8]` forward passed independent native review: 20/20 production selections at100% and120% in both facings; floor contact at frame3/tick7 and trailing-hand contact in frame4 recovery.
 
-Separate Piper-specific tracks passed native Canvas review at100%/120% in both facings. Chest pass releases at frame3/tick5; overhead and behind-back passes release at frame3/tick7; receive catches at frame2/tick4. Every per-frame capture selects production art and was checked for hand contact and ball flight. Exact prompts, raw/clean images, hashes, cleanup, layouts, rejected candidates, proofs and reports are retained.
+Attempt1 was rejected for a round mark in the frame3 fist. Attempt2 was rejected: two outputs baked in checkerboard, and its cleaned RGBA candidate was not accepted. Accepted source, exact prompts, raw and clean images, hashes, cleanup scripts, layouts, rejected candidates, alpha composites, and native previews/reports are retained under `tools/generate-art/piper-quickstep-pickup*` and `tools/generate-art/previews/piper-quickstep-pickup/`.
 
-Validation:36/36 JavaScript test files;121 animation-sprite assertions; lint18 modules; roster validation35 franchises/105 athletes;100-match simulation /861,421 ticks /6 overtimes;55 atlas packer tests; build. E2E server startup exited before readiness at `127.0.0.1:4175`. Strict audit `2026-10-25T02:47:39.275Z`:800 clips /7,217 drawings /105 athletes;2,303 missing clips; one Luca Velori `run` target shortfall;4 inherited prompt findings. Next lane: Piper `pickup`.
-
+Validation: `npm test`36/36 files, lint18 modules, content validation35 franchises /105 athletes, 100-match simulation /861,421 ticks /6 overtimes, 55 packer tests, and build pass. The E2E server exited before readiness at `127.0.0.1:4175`. Audit `2026-10-25T03:02:18.738Z`:801 registered clips,2,302 missing clips, one below-target clip (Luca Velori `run`),4 inherited prompt findings. Next: Piper `layup`.
 
 ## Marco Vellum — `receive` accepted and integrated locally
 

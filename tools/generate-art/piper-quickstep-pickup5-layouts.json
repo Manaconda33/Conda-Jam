@@ -1,0 +1,110 @@
+[
+  {
+    "athlete": "piper-quickstep",
+    "direction": "right",
+    "clip": "pickup",
+    "src": "./public/assets/animation/piper-quickstep-pickup-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "piper-quickstep",
+      "clip": "pickup",
+      "direction": "right",
+      "generatedAt": "2026-10-25T02:54:00Z",
+      "generationId": "exec-0b3e249d-a4d3-4d2e-9228-50fd3507d2b5",
+      "generationTool": "image_gen.imagegen",
+      "prompt": "Make one localized edit to this exact Piper Quickstep pickup sprite sheet: in pose index 3 (bottom-left cell), change only the floor-contact right hand from a closed fist to an open, empty palm. The palm faces down, with fingers clearly separated and two fingertips just touching floor level. Remove the dark-rimmed white-centered circular mark from the fist. The hand must have no circle, disc, ring, highlight, mark, ball, prop, or other object. Preserve the wrist and arm path.\n\nKeep poses 0, 1, 2, and 4 and empty cell 5 exactly unchanged in content, placement, identity, clothing, proportions, size, facing, row and column. Keep the 1536x1024 canvas and 3-column x 2-row grid unchanged. Piper is an athletic adult human woman with warm-brown skin, bright orange high ponytail, russet-red uniform with cream speed stripes and trim, and red/cream trainers. Preserve complete human anatomy: two arms and hands, two legs and shoes, same three-quarter view facing image-right.\n\nReturn true transparent alpha, not a checkerboard or simulated transparency. Do not add a background, glow, floor, ground shadow, texture, scenery, text, UI, extra person, or any object. The basketball remains separate runtime art. Return only the edited sheet.",
+      "promptFile": "tools/generate-art/piper-quickstep-pickup-attempt3-edit-prompt.md",
+      "promptSha256": "7f4f8d4141b4f6b42e1b858827429299da4d4600b2dc291a46fa10614c6f2e54",
+      "sourceImage": "tools/generate-art/sources/piper-quickstep-pickup-attempt3-clean-candidate.png",
+      "sourceSha256": "fca2b2e854e5cbb23bf71395d82f1d32041c106ca8dba125d7308594b5eb4207",
+      "rawSourceImage": "tools/generate-art/sources/piper-quickstep-pickup-attempt3-generated-raw.png",
+      "rawSha256": "9c84e9a2a4a19416ed20c2c5f9a8b36d0be5f09d563b168351f6ba3ac8d9a95b",
+      "sourcePromptFile": "tools/generate-art/piper-quickstep-pickup-attempt1-prompt.md",
+      "editPromptHistory": [
+        "tools/generate-art/piper-quickstep-pickup-attempt2-edit-prompt.md",
+        "tools/generate-art/piper-quickstep-pickup-attempt2-edit-prompt-short.md",
+        "tools/generate-art/piper-quickstep-pickup-attempt3-edit-prompt.md"
+      ],
+      "attemptsRecord": "tools/generate-art/piper-quickstep-pickup-attempts.json",
+      "layout": "tools/generate-art/piper-quickstep-pickup-attempt3-layouts.json",
+      "cleanup": {
+        "script": "tools/generate-art/clean-piper-quickstep-pickup-attempt3.py",
+        "method": "per-cell largest alpha>=224 opaque figure component; preserve original RGBA antialias within 2px dilation; zero outside mask and alpha<8; uniformly nearest-neighbor scale to <=360x400 and center; no redraw/reorder"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewer": "independent source-review subagent",
+        "reviewedAt": "2026-10-25",
+        "notes": "Five distinct ordered ready/hinge/squat/floor-contact/recovery poses; open empty fingertips touch floor in frame3; identity/anatomy intact; true alpha and cell5 empty; white/dark and magenta composites show no halo; minimum alpha>=64 margins: frame0 57px, frame1 56px, frame2 87px, frame3 91px, frame4 56px. Independent native review accepted the separate-ball track in 20/20 captures across both facings and 100%/120% zoom."
+      },
+      "eligibleForPacking": true,
+      "ballPolicy": {
+        "separateTrack": true,
+        "event": "grab",
+        "anchorTick": 7,
+        "height": [
+          0.9,
+          0.55,
+          0.2,
+          0,
+          0.6
+        ],
+        "forward": [
+          7,
+          10,
+          14,
+          14,
+          8
+        ],
+        "notes": "Separate Piper-specific ball stays loose through frames0-2, touches open fingertips at floor level in frame3/tick7, then rises into trailing-hand contact at waist/side during frame4."
+      },
+      "nativeReview": {
+        "status": "accepted",
+        "reviewer": "independent native-render subagent",
+        "reviewedAt": "2026-10-25",
+        "renderer": "tools/render-preview.mjs actual game Canvas adapter",
+        "evidence": [
+          "tools/generate-art/previews/piper-quickstep-pickup/native-final-100/report.json",
+          "tools/generate-art/previews/piper-quickstep-pickup/native-final-120/report.json"
+        ],
+        "capturesPerZoom": 10,
+        "productionSelections": "20/20 across both facings and 100%/120% zoom",
+        "notes": "Frame3/tick7 ball meets the open fingertips at floor level. Frame4 ball aligns with Piper\u2019s trailing hand at her side/waist. No clipping or collision."
+      },
+      "status": "accepted for production"
+    }
+  }
+]
