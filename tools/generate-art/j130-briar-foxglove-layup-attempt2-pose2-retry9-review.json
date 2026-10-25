@@ -1,0 +1,9 @@
+{
+  "decision": "reject",
+  "frame": 2,
+  "retry": 9,
+  "generation_id": "exec-22bb0671-5eda-4014-abc6-0d00080f2b7d",
+  "observations": "Hand lowered to mouth/lower cheek but upper fingertips remain at mouth line rather than fully below it. Two legs and shoes; high knee and folded rear leg maintained though heel not tightly near hip. Empty hands, blank chest, bare wrists. Skin remains orange/light, shoes russet-dominant, jersey overly bright red. Reject. Raw alpha bounds fail25% clear margins.",
+  "sha256": "54d3b60a4fd891eda24d1bc33f9c522d12169c2f5f1c94120f0af52f6bc88145",
+  "raw_alpha_margin_pass": false
+}

@@ -1,0 +1,9 @@
+{
+  "decision": "reject",
+  "frame": 3,
+  "retry": 11,
+  "generation_id": "exec-0de270fd-d001-4ba3-ac10-11353449f8af",
+  "observations": "Palm-up hand is below headband/scalp, improving upper bound, but hand now down near eye/mouth elevation rather than brow-level prerelease. Off-hand clearly separates sideways; high knee and tightly folded trailing leg, exactly two shoes/legs. Blank chest and bare wrists. Skin remains orange/light and shoes predominantly russet. Reject for palette/canon and low hand elevation. Raw alpha bounds fail25% clear margins.",
+  "sha256": "05d655c2685143ea656bb3b5c30e4b05aedb133bce580e23ade438ad3f0f302d",
+  "raw_alpha_margin_pass": false
+}
