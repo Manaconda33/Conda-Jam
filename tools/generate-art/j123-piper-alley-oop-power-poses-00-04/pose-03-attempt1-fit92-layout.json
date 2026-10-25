@@ -1,0 +1,33 @@
+{
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-raw.png",
+  "rawSha256": "092f80074cf225b8a84bc53ef80efa99230ed3d9cced8a1b879e5e7f93d177f9",
+  "candidate": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-fit92-candidate.png",
+  "candidateSha256": "268993906d3de9723e7a0b353f4432fe06a04a19419af4f8a81494fd66386bbd",
+  "transform": "Uniform whole-canvas premultiplied-alpha Lanczos scale 0.92; centered on original 1234x1274 canvas; no pose pixels drawn or removed.",
+  "rawAlphaCropBBoxThreshold16": [
+    231,
+    67,
+    1143,
+    1223
+  ],
+  "scale": 0.92,
+  "placementXY": [
+    49,
+    51
+  ],
+  "candidateMarginsLTRBpx": {
+    "16": [
+      262,
+      112,
+      133,
+      98
+    ],
+    "128": [
+      263,
+      113,
+      134,
+      99
+    ]
+  },
+  "rawMarginsFailure": "Raw alpha>16 top/bottom margins are 67/51px, below 80px. Fit-candidate yields >=80px margins."
+}

@@ -1,0 +1,48 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 0,
+  "attempt": 1,
+  "generatedAt": "2026-10-25T14:32:00Z",
+  "generationTool": "OpenAI ImageGen imagegen tool",
+  "generationId": "No separate execution ID returned; C2PA claim and XMP instance IDs retained below",
+  "c2paClaim": "urn:c2pa:759c6cad-dd80-46ef-8d8d-c20391d36318",
+  "xmpInstanceId": "xmp:iid:ff71a53a-c33d-462f-ad1d-69eb80821ef0",
+  "claimGenerator": "OpenAI Media Service API",
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-raw.png",
+  "rawSourceSha256": "9ee3833af5cbf209223bc5672153d4dce5b680a18380ae392cae0350cfec5ce4",
+  "rawCanvasPx": [
+    1536,
+    1024
+  ],
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-prompt.md",
+  "promptVerbatim": true,
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png"
+  ],
+  "rawReview": {
+    "status": "candidate; transparent RGBA with semitransparent brown/orange exterior glow visible in proof; do not pack raw",
+    "poseRead": "right-facing approach while tracking lob; hands remain empty",
+    "identityAnatomy": "Piper's warm brown skin, dark eyes, orange attached ponytail, red/cream uniform, white socks and red/cream shoes read consistently; full human anatomy is visible",
+    "ball": "none visible",
+    "alphaMarginsAtThreshold16px": [
+      383,
+      83,
+      403,
+      88
+    ],
+    "decision": "Raw glow candidate is rejected for direct packing. The alpha-only cleanup candidate retains original RGB, removes exterior haze, and has alpha>16 margins 383/83/403/88px. It is selected as a pose00 candidate pending full-lane and parent sequence review."
+  },
+  "promptSha256": "b5efab5cfe5b11c507ab9074d024c06892563289720b4b165ac7a25adb0a5782",
+  "cleanCandidate": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-alpha-clean-candidate.png",
+  "cleanCandidateSha256": "9eb8c8b7e1160404c5e50cb4f6c6184913017420880390059db7cdf40c7c414c",
+  "cleanupScript": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/clean-alpha-only.py",
+  "cleanupRecord": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-cleanup-layout.json",
+  "proofs": [
+    "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-clean-candidate-light.jpg",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-clean-candidate-dark.jpg"
+  ],
+  "unpersistedPreliminaryCall": "One earlier identical-prompt ImageGen response was not written to the workspace because the first transfer command exceeded the OS argument limit. It was not reviewed or used. The saved PNG, hash, XMP and C2PA identifiers here belong to the retained attempt1 candidate."
+}

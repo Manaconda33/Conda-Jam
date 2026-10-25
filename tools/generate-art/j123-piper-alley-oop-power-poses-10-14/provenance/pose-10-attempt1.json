@@ -1,0 +1,120 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 10,
+  "attempt": 1,
+  "beat": "Sole open-palm release at tick21; empty hand, ball absent.",
+  "generationId": "exec-7e4cbe88-40a3-423d-9cd2-ee74030edd5f",
+  "generatedAt": "2026-10-25T14:30:34.622544Z",
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/prompts/pose-10.md",
+  "promptSha256": "f82735e554e2f0982389f1ce925bcaa26571c5526f2de3006d05fe86cbf95ea4",
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png"
+  ],
+  "referenceSha256": {
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png": "5147a3d29c566144c116e0e4545871e5f96c5f2acf595be740a39d4e52b4fbd8",
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png": "1b4fbf9e09b6ba3e3cb7c543efe68cb127ecb846adcc6dc4de1ceaec5257c419"
+  },
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/sources/pose-10-attempt1-raw.png",
+  "rawSourceSha256": "a72efa54ce0937be7b689388ccc2b0e300f17fde106b5d5d868cbd10aa4820a4",
+  "rawSourcePx": [
+    1254,
+    1254
+  ],
+  "rawMode": "RGBA",
+  "alphaBackground": "transparent",
+  "rawAlphaMargins": {
+    "alpha>16": {
+      "bboxLTRB": [
+        230,
+        128,
+        1091,
+        1128
+      ],
+      "marginsLTRB": [
+        230,
+        128,
+        163,
+        126
+      ]
+    },
+    "alpha>128": {
+      "bboxLTRB": [
+        230,
+        129,
+        1090,
+        1127
+      ],
+      "marginsLTRB": [
+        230,
+        129,
+        164,
+        127
+      ]
+    }
+  },
+  "cleanup": {
+    "script": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/clean-alpha-components.py",
+    "method": "Keep the largest 8-connected alpha>0 component and preserve its original alpha values; do not alter RGB.",
+    "components": 1028,
+    "removedDetachedPixels": 3040,
+    "rgbChannelsUnchanged": true
+  },
+  "cleanedSource": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/cleaned/pose-10-attempt1-components-clean.png",
+  "cleanedSourceSha256": "1a4db3c8794b42b1368cb5edbf6728076995fe67b629d211a63e952bb9ff9500",
+  "cleanedAlphaMargins": {
+    "alpha>0": {
+      "bboxLTRB": [
+        227,
+        125,
+        1094,
+        1131
+      ],
+      "marginsLTRB": [
+        227,
+        125,
+        160,
+        123
+      ]
+    },
+    "alpha>16": {
+      "bboxLTRB": [
+        230,
+        128,
+        1091,
+        1128
+      ],
+      "marginsLTRB": [
+        230,
+        128,
+        163,
+        126
+      ]
+    },
+    "alpha>128": {
+      "bboxLTRB": [
+        230,
+        129,
+        1090,
+        1127
+      ],
+      "marginsLTRB": [
+        230,
+        129,
+        164,
+        127
+      ]
+    }
+  },
+  "sourceReview": {
+    "status": "accepted-isolated-pose-source",
+    "identity": "PASS: Piper identity, warm-brown skin, dark eyes, bright orange high ponytail, russet/cream uniform, white socks and red/cream shoes are consistent with accepted Piper references.",
+    "anatomy": "PASS: complete natural adult-human anatomy; all limbs, hands, fingers and shoes visible; no visible anatomy defects.",
+    "noBall": "PASS: no basketball or other prop is drawn.",
+    "transparency": "PASS: RGBA transparent background; detached low-alpha components removed by alpha-only cleanup.",
+    "margin": "PASS: alpha>16 and alpha>128 margins exceed 80px on every side.",
+    "sequence": "PASS: distinct from adjacent selected poses; see parent-reviewed 10\u201314 contact sheet."
+  }
+}

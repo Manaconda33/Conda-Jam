@@ -1,0 +1,44 @@
+{
+  "raw": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-raw.png",
+  "rawSha256": "9ee3833af5cbf209223bc5672153d4dce5b680a18380ae392cae0350cfec5ce4",
+  "cleanCandidate": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-alpha-clean-candidate.png",
+  "cleanSha256": "9eb8c8b7e1160404c5e50cb4f6c6184913017420880390059db7cdf40c7c414c",
+  "cleanup": "Keep the largest connected alpha>128 figure, dilate mask by 2px to retain antialiased contours, clear alpha only outside that exterior mask. RGB unchanged byte-for-byte.",
+  "componentsAlpha128": 7,
+  "primaryComponentPixelsAlpha128": 233863,
+  "removedExteriorAlphaPixels": 12250,
+  "sourcePx": [
+    1536,
+    1024
+  ],
+  "marginsLTRB": {
+    "16": {
+      "bbox": [
+        383,
+        83,
+        1133,
+        936
+      ],
+      "margins": [
+        383,
+        83,
+        403,
+        88
+      ]
+    },
+    "128": {
+      "bbox": [
+        383,
+        84,
+        1132,
+        935
+      ],
+      "margins": [
+        383,
+        84,
+        404,
+        89
+      ]
+    }
+  }
+}

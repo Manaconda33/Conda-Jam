@@ -1,0 +1,50 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 2,
+  "attempt": 1,
+  "generatedAt": "2026-10-25T14:36:00Z",
+  "generationTool": "OpenAI ImageGen imagegen tool",
+  "generationId": "No separate execution ID returned; C2PA claim and XMP instance IDs retained below",
+  "c2paClaim": "urn:c2pa:b37e0d48-5240-4e34-9104-f63ccc62bbb6",
+  "xmpInstanceId": "xmp:iid:8116aa57-d112-4407-aae2-b86a86f2bb04",
+  "claimGenerator": "OpenAI Media Service API",
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-02-attempt1-raw.png",
+  "rawSourceSha256": "bdbe1b7dc3d19190c6d65212f68069d42bb3aa32979d9492f1a1891efa4c42e3",
+  "rawCanvasPx": [
+    1316,
+    1195
+  ],
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-02-attempt1-prompt.md",
+  "promptSha256": "29a22fd6f8a2afa20a87b80addc9294eb42d387bdf33d367694f2fd1dff0fa22",
+  "promptVerbatim": true,
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png"
+  ],
+  "rawAlphaMarginsLTRB": {
+    "16": [
+      288,
+      152,
+      157,
+      99
+    ],
+    "128": [
+      289,
+      153,
+      158,
+      100
+    ]
+  },
+  "rawReview": {
+    "status": "pose source candidate; pending full-lane/parent review",
+    "poseRead": "right-facing airborne takeoff at tick4; two open empty hands reach forward and upward; no ball",
+    "identityAnatomy": "Piper face, warm brown skin, dark eyes, attached high orange ponytail, uniform, socks, shoes and full adult human anatomy match accepted references",
+    "transparency": "transparent RGBA; no floor/backdrop/glow seen on white/dark composites",
+    "ball": "none visible",
+    "marginCheck": "alpha>16 margins L/T/R/B = [288, 152, 157, 99]px",
+    "distinctness": "airborne compact tuck and forward reach clearly differs from pose00 stride and pose01 deceleration; full-sequence review must confirm it remains an early reach rather than premature catch",
+    "decision": "selected lane candidate pending full sequence; no packing or final acceptance"
+  }
+}

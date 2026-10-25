@@ -1,0 +1,57 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 3,
+  "attempt": 1,
+  "generatedAt": "2026-10-25T14:37:00Z",
+  "generationTool": "OpenAI ImageGen imagegen tool",
+  "generationId": "No separate execution ID returned; C2PA claim and XMP instance IDs retained below",
+  "c2paClaim": "urn:c2pa:3bd8dae1-3f9e-4b17-b610-98ddd55fac8f",
+  "xmpInstanceId": "xmp:iid:fc41076d-a7bf-4996-b25e-30ae85dc1242",
+  "claimGenerator": "OpenAI Media Service API",
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-raw.png",
+  "rawSourceSha256": "092f80074cf225b8a84bc53ef80efa99230ed3d9cced8a1b879e5e7f93d177f9",
+  "rawCanvasPx": [
+    1234,
+    1274
+  ],
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-prompt.md",
+  "promptSha256": "b8e835cf8e110be56ae0adcf9805ae8c6285c396c6e310b2e3542c1c52db00fb",
+  "promptVerbatim": true,
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png"
+  ],
+  "rawAlphaMarginsLTRB": {
+    "16": [
+      231,
+      67,
+      91,
+      51
+    ],
+    "128": [
+      232,
+      67,
+      92,
+      52
+    ]
+  },
+  "candidateSource": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-fit92-candidate.png",
+  "candidateSha256": "268993906d3de9723e7a0b353f4432fe06a04a19419af4f8a81494fd66386bbd",
+  "layoutFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-fit92-layout.json",
+  "proofs": [
+    "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-fit92-light.jpg",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-fit92-dark.jpg"
+  ],
+  "rawReview": {
+    "status": "raw rejected for direct layout; uniformly scaled candidate selected pending parent sequence review",
+    "poseRead": "right-facing upward reach with one hand high and one near chest, empty hands",
+    "identityAnatomy": "Piper identity and complete adult-human anatomy, high orange ponytail, blank red/cream uniform, socks and shoes match accepted references",
+    "transparency": "transparent RGBA with no glow or background",
+    "ball": "none visible",
+    "rawMarginDecision": "Raw alpha>16 top/bottom margins are 67/51px and fail 80px minimum. A centered uniform 0.92 fit yields alpha>16 margins L/T/R/B =262/112/133/98px; no pixels drawn or erased.",
+    "distinctness": "higher, longer one-hand lead reach distinct from pose02 compact two-hand rise",
+    "decision": "fit92 candidate passes pose and margin review; remains pending full-lane/parent review, not packed"
+  }
+}

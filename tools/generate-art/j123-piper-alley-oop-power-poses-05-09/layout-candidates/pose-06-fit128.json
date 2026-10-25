@@ -1,0 +1,44 @@
+{
+  "pose": 6,
+  "source": "cleaned/pose-06-attempt1-main-alpha.png",
+  "sourceCanvasPx": [
+    1254,
+    1254
+  ],
+  "sourceAlphaBBox": [
+    324,
+    126,
+    873,
+    1136
+  ],
+  "alphaNonzeroMarginsBeforeFit": [
+    324,
+    126,
+    381,
+    118
+  ],
+  "requiredTransparentMarginPx": 128,
+  "uniformScale": 0.98811881,
+  "figureSizePx": [
+    542,
+    998
+  ],
+  "placementXY": [
+    356,
+    128
+  ],
+  "candidate": "layout-candidates/pose-06-fit128.png",
+  "candidateAlphaBBox": [
+    356,
+    128,
+    898,
+    1126
+  ],
+  "candidateAlphaNonzeroMarginsLTRB": [
+    356,
+    128,
+    356,
+    128
+  ],
+  "disposition": "uniform layout candidate; no pixels redrawn"
+}

@@ -55,6 +55,15 @@ Full-sheet attempts1–3 remain rejected with prompts, source sheets and reasons
 
 Audit `2026-10-25T14:19:07.013Z:817 clips /7,406 drawings /105 athletes;2,286 missing clips, one below-target clip and4 inherited prompt findings. Next: Piper J.123 `alley-oop-power`.
 
+
+## J.123 — Piper Quickstep `alley-oop-power` source review (atlas pending)
+
+Fifteen isolated original Piper pose sources pass lane and full-sequence review in row order: approach, ready, takeoff, one-hand ascent, two-hand pre-catch; overhead catch at tick10; shoulder gather, airborne peak, one-hand load, closed-hand pre-release; open-hand release at tick21, empty-handed follow-through, descent, two-foot compression, and upright recovery. All retain Piper’s warm-brown skin, dark eyes, bright attached orange high ponytail, blank russet-red/cream kit, white socks, red/cream shoes and complete human anatomy. No pose contains a ball or rim.
+
+Parent and independent review confirms the complete sequence reads through catch and landing. The closed fist in pose09 is visibly distinct from pose10’s open release hand; this distinction must remain clear at native atlas size. Prompt/source hashes verify for all15 sources. Alpha>16 selected-source margins are at least80px; poses06/09 were uniformly scaled to meet their128px prompt margins, and poses03/04 use documented0.92 fit candidates. Pose00’s raw glow and all tighter raw margin candidates remain preserved and rejected for direct packing. Exact prompts, generation identifiers, raw and selected source hashes, cleanup notes, proofs and layout candidates remain in `tools/generate-art/j123-piper-alley-oop-power-poses-00-04/`, `...-05-09/`, and `...-10-14/`.
+
+J.123 is not registered yet. Review-only4×4 atlas layouts are in progress; final atlas scale, native pose separation and Piper-specific separate-ball contact (catch tick10, carry through20, release21, score23, land30) still require review. The audit remains `2026-10-25T14:27:11.905Z:817 clips /7,406 drawings /105 athletes;2,286 missing clips, one below-target clip and4 inherited prompt findings.
+
 # J.114 — Piper Quickstep `celebrate`
 
 Piper adds ten celebration poses and reaches19/29 clips /143 authored drawings. The accepted source honors the prompt’s exact transparent 4×3/1536² grid, preserves ten original distinct drawings and leaves the final two source cells empty. The final semantic component map is `[3,2,1,0,5,7,4,6,9,8]`: grounded anticipation, compact fist rise, two-fist hop, symmetric V apex, angled descent, landing fists, overhead punch, open-hand reach, arms-low step recovery, and grounded hand-on-hip salute. No art was redrawn, duplicated or fabricated. Independent source and packed reviews confirm Piper identity/anatomy, alpha and >=60px margins; native preview selects all ten frames at100%/120% in both facings, ending on the salute at tick65. The celebration sheet has no ball.

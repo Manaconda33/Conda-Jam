@@ -1,0 +1,33 @@
+{
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-04-attempt1-raw.png",
+  "rawSha256": "243b7d2dbac8a66523b7b61dfd81b47705ed644947856ed1c5bb3b807150bb8f",
+  "candidate": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-04-attempt1-fit92-candidate.png",
+  "candidateSha256": "86a09b27b06056c0d58a61254be2b22440f2f76c8062ee49be43fba9b82865bb",
+  "transform": "Uniform whole-canvas premultiplied-alpha Lanczos scale0.92, centered, no pixels drawn or removed.",
+  "scale": 0.92,
+  "placementXY": [
+    47,
+    53
+  ],
+  "rawMarginsAlpha16px": [
+    196,
+    93,
+    64,
+    67
+  ],
+  "candidateMarginsLTRBpx": {
+    "16": [
+      227,
+      138,
+      107,
+      115
+    ],
+    "128": [
+      228,
+      139,
+      107,
+      116
+    ]
+  },
+  "rawDirectLayoutDecision": "Raw candidate fails >=80px right and bottom margins; fit92 candidate clears all sides."
+}

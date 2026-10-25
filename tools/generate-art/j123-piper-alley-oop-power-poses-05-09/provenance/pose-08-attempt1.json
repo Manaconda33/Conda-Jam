@@ -1,0 +1,57 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 8,
+  "generationId": "exec-abaffc78-f732-4bee-9c1b-0b791ed064f3",
+  "generationDate": "2026-10-25",
+  "generationTimeNote": "ImageGen provided a generation ID but no per-image timestamp; poses05-09 were generated in one concurrent lane batch.",
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/prompts/pose-08.md",
+  "promptSha256": "8b8179c7b1d9789b6ad3b20df5db9098a6d8274f037bcc245271f7e03bec2754",
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png"
+  ],
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/sources/pose-08-attempt1.png",
+  "rawSourceSha256": "00e027caa619790bda7cdbd180a90eb63b28ff299cdec161da490ccf0043219b",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawMode": "RGBA",
+  "alphaCleanup": {
+    "script": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleanup-alpha-components.py",
+    "threshold": 16,
+    "largestComponentPixels": 308685,
+    "secondaryComponents": 7,
+    "secondaryComponentSizes": [
+      4,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "removedOutsideOnePixelHalo": 21735,
+    "method": "Keep largest alpha>16 component plus one-pixel halo. Alpha only; no redraw."
+  },
+  "selectedSource": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleaned/pose-08-attempt1-main-alpha.png",
+  "selectedSourceSha256": "3ee1dcda326683411a8eeaff8b363cb1b50dbc2a1c5733316f33db4bfadce0ab",
+  "alpha16MarginsLTRBpx": [
+    237,
+    170,
+    189,
+    141
+  ],
+  "disposition": "source-candidate-pending-adjacent-sequence-review",
+  "sourceReview": {
+    "identity": "PASS: Piper identity/kit match references.",
+    "anatomy": "PASS: complete airborne body, two visible hands, legs intact.",
+    "pose": "PASS: distinct one-hand closed-grip power load beside crown; non-ball hand counterbalances behind.",
+    "transparency": "PASS after alpha-only cleanup; light/dark proofs retained.",
+    "margins": "PASS: alpha>16 margins L/T/R/B =237/170/189/141px.",
+    "ball": "PASS: no ball/rim/court.",
+    "style": "Pose is a strong one-hand load and differs from adjacent two-hand gather/peak."
+  }
+}

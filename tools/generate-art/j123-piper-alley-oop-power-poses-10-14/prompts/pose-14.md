@@ -1,0 +1,7 @@
+J.123 Piper Quickstep — `alley-oop-power`, pose 14 of 15 — balanced recovery finish.
+
+Create one single full-body transparent PNG sprite of Piper Quickstep, matching the supplied accepted Piper identity reference. Piper is an adult athletic human woman with warm-brown skin, dark eyes, vivid bright orange hair in an attached high ponytail, an unmarked russet-red and cream basketball uniform, white crew socks, and red-and-cream basketball shoes. Preserve human proportions, one head, two arms, two hands, two legs, two feet, believable fingers, and attached hair. Keep the uniform blank: no number, lettering, logo, watermark, or added accessories.
+
+Pose: right-facing, empty-handed, fully recovered upright after the landing. Both feet are planted shoulder-width apart and clearly visible, knees nearly straight but relaxed, torso upright, shoulders settled. Her arms rest naturally at her sides with open hands; her gaze remains toward the rim side. This is a stable final recovery pose, distinct from the low landing compression and all earlier airborne poses. Keep full anatomy and attached ponytail in frame.
+
+The basketball is a separate game object and must not appear in this image. Do not draw a ball, rim, hoop, court, shadow, floor, background, text, border, grid, panel, or other athlete. Output one isolated sprite on fully transparent RGBA background, with crisp clean edges and at least 80 pixels of clear transparent margin on every side of the 1024x1024 canvas. Do not crop, duplicate, mirror, synthesize extra limbs, or add motion trails.

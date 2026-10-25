@@ -1,0 +1,7 @@
+# J.123 Piper Quickstep `alley-oop-power`, poses05–09 source lane
+
+This lane contains five separately generated ImageGen pose sources; no combined sheet or atlas was generated. The sequence is overhead catch (05/tick10), shoulder gather (06), high airborne peak (07/tick14), one-hand power load (08), and closed-hand pre-release extension (09). All five source images are ball-free; the basketball must remain a separate Piper-specific runtime track.
+
+Each exact prompt, ImageGen generation ID/date, raw source SHA-256, alpha cleanup record, selected source/layout, light/dark proofs, and review notes are in `prompts/`, `sources/`, `provenance/`, `cleaned/`, `layout-candidates/`, and `proofs/`. Source pixels were not painted or redrawn; cleanup removes detached low-alpha components only. Pose06 and pose09 raw images miss the prompt’s128px transparent-margin requirement; their raw candidates are preserved and uniformly scaled/centered layout candidates meet128px on every edge. Poses05,07,08 meet the requested margin after cleanup.
+
+The light-background sequence proof `proofs/poses-05-09-sequence-light.png` compares the five selected silhouettes. The dark proof is also preserved. Current source review accepts identity/anatomy, pose beats, alpha cleanup, margins (after layout for06/09), and absence of a painted ball. Adjacent pose04/10 comparison, final 15-pose continuity review, common atlas scale, and native ball-track contact review remain pending; none of these candidates is packed or marked as a production atlas.

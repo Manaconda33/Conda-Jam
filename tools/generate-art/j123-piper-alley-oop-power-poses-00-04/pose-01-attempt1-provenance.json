@@ -1,0 +1,50 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 1,
+  "attempt": 1,
+  "generatedAt": "2026-10-25T14:34:00Z",
+  "generationTool": "OpenAI ImageGen imagegen tool",
+  "generationId": "No separate execution ID returned; C2PA claim and XMP instance IDs retained below",
+  "c2paClaim": "urn:c2pa:ec46673b-7e03-4031-a806-e0404020f36a",
+  "xmpInstanceId": "xmp:iid:32b33b05-da75-487d-9e21-db2a6c16e201",
+  "claimGenerator": "OpenAI Media Service API",
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-01-attempt1-raw.png",
+  "rawSourceSha256": "f450b6c747a13dfa950550eaed9d017490a6ea6e5d6bf8c7e01b2ccd9605c827",
+  "rawCanvasPx": [
+    1227,
+    1282
+  ],
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-01-attempt1-prompt.md",
+  "promptSha256": "1944a836870dfef8d220f732132f0dd2ce77d02976f460a1b80f7c6fbf0a29ac",
+  "promptVerbatim": true,
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png"
+  ],
+  "rawAlphaMarginsLTRB": {
+    "16": [
+      216,
+      113,
+      105,
+      81
+    ],
+    "128": [
+      216,
+      114,
+      106,
+      81
+    ]
+  },
+  "rawReview": {
+    "status": "pose source candidate; pending parent sequence review",
+    "poseRead": "right-facing decelerating approach, looking up, both hands beginning to rise before takeoff/catch",
+    "identityAnatomy": "Piper identity, adult human anatomy, uniform, socks and shoes match references; all limbs and attached ponytail visible",
+    "ball": "none visible",
+    "transparency": "transparent RGBA, no floor/backdrop/glow; no cleanup needed",
+    "marginCheck": "alpha>16 margins L/T/R/B = [216, 113, 105, 81]px, all >=80px",
+    "distinctness": "differs clearly from pose00 running stride by deceleration, lowered hips, planted front step, and raised ready hands",
+    "decision": "selected as lane candidate; not atlas packed or final clip accepted"
+  }
+}

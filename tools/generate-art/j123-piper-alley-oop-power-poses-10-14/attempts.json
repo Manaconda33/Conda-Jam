@@ -1,0 +1,34 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "lane": "poses10-14",
+  "status": "source candidates reviewed; not assembled or packed",
+  "poses": [
+    {
+      "pose": 10,
+      "selectedAttempt": 1,
+      "provenance": "provenance/pose-10-attempt1.json"
+    },
+    {
+      "pose": 11,
+      "selectedAttempt": 1,
+      "provenance": "provenance/pose-11-attempt1.json"
+    },
+    {
+      "pose": 12,
+      "selectedAttempt": 2,
+      "provenance": "provenance/pose-12-attempt2.json"
+    },
+    {
+      "pose": 13,
+      "selectedAttempt": 1,
+      "provenance": "provenance/pose-13-attempt1.json"
+    },
+    {
+      "pose": 14,
+      "selectedAttempt": 1,
+      "provenance": "provenance/pose-14-attempt1.json"
+    }
+  ]
+}

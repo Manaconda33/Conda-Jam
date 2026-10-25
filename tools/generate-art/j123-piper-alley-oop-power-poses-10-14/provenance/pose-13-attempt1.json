@@ -1,0 +1,120 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 13,
+  "attempt": 1,
+  "beat": "Two-foot landing compression; both shoes at equal ground level, knees flexed.",
+  "generationId": "exec-1e3489a6-9b4c-4c60-a6ef-a3c1ae436a9c",
+  "generatedAt": "2026-10-25T14:37:56.758700Z",
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/prompts/pose-13-attempt1.md",
+  "promptSha256": "e195fd4c729bbbadc37c7606da097165b0c7128a1924917e21f74a7109ade738",
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png"
+  ],
+  "referenceSha256": {
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png": "5147a3d29c566144c116e0e4545871e5f96c5f2acf595be740a39d4e52b4fbd8",
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png": "1b4fbf9e09b6ba3e3cb7c543efe68cb127ecb846adcc6dc4de1ceaec5257c419"
+  },
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/sources/pose-13-attempt1-raw.png",
+  "rawSourceSha256": "d7613ee58e81f1f5695f0554758fbe8935fb3e57a5b5e2c1997d35e40636ea15",
+  "rawSourcePx": [
+    1254,
+    1254
+  ],
+  "rawMode": "RGBA",
+  "alphaBackground": "transparent",
+  "rawAlphaMargins": {
+    "alpha>16": {
+      "bboxLTRB": [
+        289,
+        243,
+        1016,
+        1014
+      ],
+      "marginsLTRB": [
+        289,
+        243,
+        238,
+        240
+      ]
+    },
+    "alpha>128": {
+      "bboxLTRB": [
+        290,
+        243,
+        1016,
+        1013
+      ],
+      "marginsLTRB": [
+        290,
+        243,
+        238,
+        241
+      ]
+    }
+  },
+  "cleanup": {
+    "script": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/clean-alpha-components.py",
+    "method": "Keep the largest 8-connected alpha>0 component and preserve its original alpha values; do not alter RGB.",
+    "components": 271,
+    "removedDetachedPixels": 568,
+    "rgbChannelsUnchanged": true
+  },
+  "cleanedSource": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/cleaned/pose-13-attempt1-components-clean.png",
+  "cleanedSourceSha256": "62e248c77a46e9e7133919bac1fa2c65c05ed6d10d36515fca86e1820459f26d",
+  "cleanedAlphaMargins": {
+    "alpha>0": {
+      "bboxLTRB": [
+        287,
+        240,
+        1019,
+        1016
+      ],
+      "marginsLTRB": [
+        287,
+        240,
+        235,
+        238
+      ]
+    },
+    "alpha>16": {
+      "bboxLTRB": [
+        289,
+        243,
+        1016,
+        1014
+      ],
+      "marginsLTRB": [
+        289,
+        243,
+        238,
+        240
+      ]
+    },
+    "alpha>128": {
+      "bboxLTRB": [
+        290,
+        243,
+        1016,
+        1013
+      ],
+      "marginsLTRB": [
+        290,
+        243,
+        238,
+        241
+      ]
+    }
+  },
+  "sourceReview": {
+    "status": "accepted-isolated-pose-source",
+    "identity": "PASS: Piper identity, warm-brown skin, dark eyes, bright orange high ponytail, russet/cream uniform, white socks and red/cream shoes are consistent with accepted Piper references.",
+    "anatomy": "PASS: complete natural adult-human anatomy; all limbs, hands, fingers and shoes visible; no visible anatomy defects.",
+    "noBall": "PASS: no basketball or other prop is drawn.",
+    "transparency": "PASS: RGBA transparent background; detached low-alpha components removed by alpha-only cleanup.",
+    "margin": "PASS: alpha>16 and alpha>128 margins exceed 80px on every side.",
+    "sequence": "PASS: distinct from adjacent selected poses; see parent-reviewed 10\u201314 contact sheet."
+  }
+}

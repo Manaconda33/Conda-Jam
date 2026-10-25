@@ -1,0 +1,51 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 6,
+  "generationId": "exec-fca84606-43a0-4102-8b18-201f0c0b1258",
+  "generationDate": "2026-10-25",
+  "generationTimeNote": "ImageGen provided a generation ID but no per-image timestamp; poses05-09 were generated in one concurrent lane batch.",
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/prompts/pose-06.md",
+  "promptSha256": "40bf446e920e7ac8b3374f61914f77c60fb319c1820638208740fdc8f4359550",
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png"
+  ],
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/sources/pose-06-attempt1.png",
+  "rawSourceSha256": "f06b63b972603e685c0aef4518e6780f3bd7d07deda68c00139a7dbf4d632fb5",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawMode": "RGBA",
+  "alphaCleanup": {
+    "script": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleanup-alpha-components.py",
+    "threshold": 16,
+    "largestComponentPixels": 274048,
+    "secondaryComponents": 1,
+    "secondaryComponentSizes": [
+      1
+    ],
+    "removedOutsideOnePixelHalo": 13216,
+    "method": "Keep largest alpha>16 component plus one-pixel halo. Alpha only; no redraw."
+  },
+  "selectedSource": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/layout-candidates/pose-06-fit128.png",
+  "selectedSourceSha256": "658470c8a2911c6cf1c298b4b3178fc64321b3f5b8cc310ec2739113c512f01d",
+  "alpha16MarginsLTRBpx": [
+    356,
+    128,
+    356,
+    128
+  ],
+  "disposition": "raw-rejected-prompt-margin; uniform fit candidate pending adjacent-sequence review",
+  "sourceReview": {
+    "identity": "PASS: Piper identity and kit match accepted references.",
+    "anatomy": "PASS: complete airborne body; hands and fingers intact; no detached limbs.",
+    "pose": "PASS: post-catch shoulder gather, distinct from pose05 overhead catch and pose07 peak.",
+    "transparency": "PASS after alpha-only detached-component cleanup; light/dark proofs retained.",
+    "margins": "Raw margin min118px failed 128px prompt; uniform 0.98811881 fit candidate has 128px transparent margin all edges.",
+    "ball": "PASS: no ball/rim/court.",
+    "style": "Slightly softer than J.122; legibility should be reviewed in final atlas."
+  }
+}

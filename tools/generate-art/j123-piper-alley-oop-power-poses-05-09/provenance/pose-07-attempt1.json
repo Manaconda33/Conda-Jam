@@ -1,0 +1,60 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 7,
+  "generationId": "exec-e5120996-a942-4ee2-96b6-215d6c57fb53",
+  "generationDate": "2026-10-25",
+  "generationTimeNote": "ImageGen provided a generation ID but no per-image timestamp; poses05-09 were generated in one concurrent lane batch.",
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/prompts/pose-07.md",
+  "promptSha256": "fcc67b438285d655d2d8100970f9b6d504c15de4d6c14ae01dd43b8a5b54724c",
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png"
+  ],
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/sources/pose-07-attempt1.png",
+  "rawSourceSha256": "547a9e3a594c2dc7d6092caae5288f513cdabd62f993b34ac1522ff59c4b1f4f",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawMode": "RGBA",
+  "alphaCleanup": {
+    "script": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleanup-alpha-components.py",
+    "threshold": 16,
+    "largestComponentPixels": 265113,
+    "secondaryComponents": 10,
+    "secondaryComponentSizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "removedOutsideOnePixelHalo": 13672,
+    "method": "Keep largest alpha>16 component plus one-pixel halo. Alpha only; no redraw."
+  },
+  "selectedSource": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleaned/pose-07-attempt1-main-alpha.png",
+  "selectedSourceSha256": "d8b7908d3209685e15a4dc769088c7b6d584cbb07e6c699eb20efba95b6a7e20",
+  "alpha16MarginsLTRBpx": [
+    295,
+    157,
+    371,
+    198
+  ],
+  "disposition": "source-candidate-pending-adjacent-sequence-review",
+  "sourceReview": {
+    "identity": "PASS: Piper identity/kit match references.",
+    "anatomy": "PASS: complete airborne body, legs tucked naturally, hands distinct and intact.",
+    "pose": "PASS: higher gathered peak pose, distinct from pose06 lower shoulder gather and pose08 one-hand load.",
+    "transparency": "PASS after alpha-only cleanup; light/dark proofs retained.",
+    "margins": "PASS: alpha>16 margins L/T/R/B =295/157/371/198px.",
+    "ball": "PASS: no ball/rim/court.",
+    "style": "Smooth shaded pixel-art; downsample scale/readability remains pending final atlas."
+  }
+}

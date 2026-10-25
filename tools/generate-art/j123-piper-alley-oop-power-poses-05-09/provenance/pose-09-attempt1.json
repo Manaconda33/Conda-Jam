@@ -1,0 +1,58 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 9,
+  "generationId": "exec-28fc091e-ab51-4534-bf9b-b654855c6b12",
+  "generationDate": "2026-10-25",
+  "generationTimeNote": "ImageGen provided a generation ID but no per-image timestamp; poses05-09 were generated in one concurrent lane batch.",
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/prompts/pose-09.md",
+  "promptSha256": "501c385d30f39fd83a4bdabe261768ea9a02df05eb8ee484c11502ecc3de08d7",
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png"
+  ],
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/sources/pose-09-attempt1.png",
+  "rawSourceSha256": "a463d4aa43097b0148608fd26f6e70cdcf08a8f750a4980ed0bb8ca7b054bc47",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawMode": "RGBA",
+  "alphaCleanup": {
+    "script": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleanup-alpha-components.py",
+    "threshold": 16,
+    "largestComponentPixels": 258044,
+    "secondaryComponents": 8,
+    "secondaryComponentSizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "removedOutsideOnePixelHalo": 23497,
+    "method": "Keep largest alpha>16 component plus one-pixel halo. Alpha only; no redraw."
+  },
+  "selectedSource": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/layout-candidates/pose-09-fit128.png",
+  "selectedSourceSha256": "dce36d643315417d565fab11ce8e5bc1748187cfe1d9aec45882f5054605f189",
+  "alpha16MarginsLTRBpx": [
+    244,
+    128,
+    244,
+    128
+  ],
+  "disposition": "raw-rejected-prompt-margin; uniform fit candidate pending adjacent-sequence review",
+  "sourceReview": {
+    "identity": "PASS: Piper identity/kit match references.",
+    "anatomy": "PASS: full body and limb anatomy intact; no cropping.",
+    "pose": "PASS: high closed-fist pre-release extension, clearly no open-hand release.",
+    "transparency": "PASS after alpha-only cleanup; light/dark proofs retained.",
+    "margins": "Raw margin min99px failed 128px prompt; uniform 0.9559387 fit candidate has 128px transparent margin all edges.",
+    "ball": "PASS: no ball/rim/court.",
+    "style": "Strong pose; sequence comparison and atlas-size readability remain pending."
+  }
+}

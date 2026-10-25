@@ -5,6 +5,11 @@
 - Strict report-only audit `2026-10-25T14:27:11.905Z`:817 clips /7,406 drawings /105 athletes,2,286 missing clips, one target shortfall and4 inherited prompt findings. `npm test`44/44, lint18 modules, simulation100 matches /861,421 ticks /6 OTs, atlas packer55 tests, and build pass. E2E remains blocked before readiness by sandbox localhost socket denial.
 - J.122 is local; earlier push attempts failed at the configured port8080 proxy, so no new Pages workflow ran. Latest deployed checkpoint remains `513e0a59` / run #169. Next canonical asset: J.123 Piper `alley-oop-power`.
 
+
+# J.123 source-only checkpoint — Piper `alley-oop-power`
+
+All15 isolated pose candidates have exact prompt/provenance/hash records, passed lane reviews, and pass an independent full-sequence source review. Identity/anatomy, transparent backgrounds, no-ball art, distinct beats, and selected-source margins are verified. The sequence opens at tick0, catches overhead at tick10, releases once at21, and lands at30. Pose09 closed-hand pre-release versus pose10 open-hand release remains an explicit native-size atlas check. The J.123 source directories are uncommitted and not registered; no gameplay/runtime track or asset audit count changed. J.122 remains the latest integrated animation checkpoint.
+
 # Validation — J.119 Piper Quickstep `dunk-tomahawk`
 
 - Piper adds15 poses and reaches24/29 clips /218 authored drawings. Attempt2 source/atlas review accepts the ordered tomahawk poses, clear behind-head cock, frame10 open-hand release, identity/anatomy, transparent margins and ball-free art. Attempt1 is preserved/rejected for pose clustering and a missing final cock.

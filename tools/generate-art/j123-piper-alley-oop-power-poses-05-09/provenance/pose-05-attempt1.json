@@ -1,0 +1,58 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 5,
+  "generationId": "exec-cbb8d9ed-bd59-4bfc-9c69-d02ccbd7563c",
+  "generationDate": "2026-10-25",
+  "generationTimeNote": "ImageGen returned a generation ID but not an exact per-image timestamp; generated during the 2026-10-25 UTC work session.",
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/prompts/pose-05.md",
+  "promptSha256": "247154fbc24034514897545809459a47f1d2c1d0d2ce56d23b15e734f228747e",
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png"
+  ],
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/sources/pose-05-attempt1.png",
+  "rawSourceSha256": "4ee1cd21750e69265a010d3e684f7dd21fd65a4b53204af207717f96a531c04a",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawMode": "RGBA",
+  "alphaCleanup": {
+    "script": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleanup-alpha-components.py",
+    "threshold": 16,
+    "largestComponentPixels": 230940,
+    "secondaryComponents": 8,
+    "secondaryComponentSizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "removedOutsideOnePixelHalo": 23597,
+    "method": "Keep largest alpha>16 component plus one-pixel halo. Alpha only; no redraw."
+  },
+  "selectedSource": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleaned/pose-05-attempt1-main-alpha.png",
+  "selectedSourceSha256": "9546536c2e1159afe3b3d4e9e6e74d3656242298200bcde9a12c742919acf623",
+  "alpha16MarginsLTRBpx": [
+    317,
+    141,
+    300,
+    154
+  ],
+  "disposition": "source-candidate-pending-adjacent-sequence-review",
+  "sourceReview": {
+    "identity": "PASS: Piper face/skin/eyes, attached orange high ponytail, blank russet/cream uniform, white socks and red/cream shoes match accepted refs.",
+    "anatomy": "PASS: complete airborne body, two arms/hands, visible fingers, two legs and shoes.",
+    "pose": "PASS: overhead catch pose; eyes track upward; separate ball absent. Adjacent pose06 comparison now available in lane sequence sheet.",
+    "transparency": "PASS after conservative alpha-only cleanup; light/dark proofs retained.",
+    "margins": "PASS: alpha>16 margins L/T/R/B =317/141/300/154px; min141px meets 128px prompt.",
+    "ball": "PASS: no ball, rim or court.",
+    "style": "Smooth shaded pixel-art rendering; downstream atlas-size legibility remains to be checked."
+  }
+}
