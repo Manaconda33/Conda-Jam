@@ -1,0 +1,30 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "review_date": "2026-10-25",
+  "review_scope": "provisional cleanup candidates for frames 0, 1, 5, 6, 7 as one sequence",
+  "decision": "advance_to_whole_sequence_normalization_only",
+  "production_acceptance": false,
+  "packing_or_registration_allowed": false,
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/outer-cleanup-candidates-sequence-review-20261025.png",
+  "frames": [
+    {"frame": 0, "candidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-poses01-cleanup-retry1/j130-briar-foxglove-layup-pose0-cleanup-candidate.png", "sha256": "e33c80885df99cd2ab08e44077622d4b738bcf6d5d2daa95d44f430118e9a509", "bounds_ltrb_exclusive": [322,219,931,1034], "height": 815, "min_margin": 219, "margin_fraction": 0.174641, "cleanup_scale": 0.93570608, "pose": "grounded approach/gather", "alpha_review": "cleanup review confirms fully transparent outside silhouette; removes a few faint source pixels (maximum alpha 9)"},
+    {"frame": 1, "candidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-poses01-cleanup-retry1/j130-briar-foxglove-layup-pose1-cleanup-candidate.png", "sha256": "39f31e75aec7dcb4448550af2ac4821c42fd1226520cef40ecf916ca10333abd", "bounds_ltrb_exclusive": [364,219,890,1034], "height": 815, "min_margin": 219, "margin_fraction": 0.174641, "cleanup_scale": 0.87918015, "pose": "one-foot takeoff", "alpha_review": "cleanup review confirms fully transparent outside silhouette"},
+    {"frame": 5, "candidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose5-retry1-clean-candidate.png", "sha256": "b77e97ae8c5f7e488f76bf7c83994c03cf1bebe1c09ddaf180b67f52db37964a", "bounds_ltrb_exclusive": [429,251,824,1003], "height": 752, "min_margin": 251, "margin_fraction": 0.20016, "cleanup_scale": 0.99602649, "pose": "airborne follow-through", "alpha_review": "one connected nonzero-alpha component; one alpha-1 resize satellite removed"},
+    {"frame": 6, "candidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose6-retry1-clean-candidate.png", "sha256": "1035a9fd8432c479b6018536b691e7572513bc1d410699728f300b50c46acb07", "bounds_ltrb_exclusive": [392,257,861,997], "height": 740, "min_margin": 257, "margin_fraction": 0.204944, "cleanup_scale": 1.0, "pose": "descent/stride", "alpha_review": "one connected nonzero-alpha component; no post-resize satellite"},
+    {"frame": 7, "candidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose7-retry1-clean-candidate.png", "sha256": "2794a97ef551cb07f7fa62f640a06ea986cd998bdae91793687b2ff881c355ec", "bounds_ltrb_exclusive": [415,314,838,940], "height": 626, "min_margin": 314, "margin_fraction": 0.2504, "cleanup_scale": 1.0, "pose": "grounded finish crouch", "alpha_review": "one connected nonzero-alpha component; no post-resize satellite"}
+  ],
+  "sequence_findings": {
+    "identity_and_anatomy": "Pass visually for the five reviewed candidates: adult human Briar, complete two-arm/two-leg anatomy, consistent locs/headband/kit, empty hands, no ball.",
+    "pose_separation": "Pass for the five candidates; frames 2-4 unresolved, so end-to-end transition is unreviewed.",
+    "transparency": "Pass after cleanup for the candidates, with the faint-pixel removal caveat on frame 0.",
+    "cell_margins": "Frames 0-1 each miss requested 17.5% by 1px; frames 5-7 meet the documented 20% minimum.",
+    "relative_scale": "Bounding-box heights vary 626-815px; frame 7's crouch explains much of the difference, but independent cleanup scale factors and body scale must be checked with frames 2-4.",
+    "ground_anchors": "Not normalized: frames 0-1 bottom at y=1034; frame 7 bottom at y=940. Shifting frame 7 down 94px would reduce its bottom margin to 220px, below 251px.",
+    "next_gate": "Normalize shared scale and cell placement across all eight poses; inspect all eight on light and dark backgrounds before atlas packing."
+  },
+  "source_modified": false,
+  "production_status_modified": false,
+  "j106_helper_modified": false
+}
