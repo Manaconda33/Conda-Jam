@@ -1,4 +1,9 @@
-# Latest work — J.129 Briar Foxglove `pickup` integrated
+# Latest work — J.130 Briar Foxglove `layup` source review in progress
+
+- J.130 is the current roster-order target; no production art is registered and the strict audit remains at the J.129 checkpoint (824 clips /7,463 drawings; 2,279 missing). Eight authored poses are required, with takeoff at frame1/tick2, release at frame4/tick10 and finish at frame7/tick18. Frames0–1 and5–7 have provisional cleanup candidates. Independent review found and corrected disconnected alpha specks in frames5–7; their rerun candidates pass component/margin/anatomy review. Frame0–1 cleanup preserves anatomy, but whole-sequence scale is still pending. All current pose2–4 generations remain rejected for identity/palette, hand height or margin issues. No sheet, pack, runtime ball track or gameplay changes are made.
+- Source notes, exact prompts, raw images, hashes, rejected candidates and reviews are preserved in `tools/generate-art/j130-briar-foxglove-layup-source-notes.md` and adjacent J.130 files. Generation is available; additional pose2/3 retries are underway. Standard push remains blocked by unreachable configured proxy; latest Pages checkpoint is `513e0a59` / run #169.
+
+## Previous integration — J.129 Briar Foxglove `pickup`
 
 - Briar reaches **11/29 clips /79 authored drawings**. Five unique full-body poses preserve her human identity and russet/cream Emberwood kit. All rejected sheets, duplicate-source history, exact prompts, raw sources, hashes, alpha/bounds metrics, cleanup steps, and previews remain under `tools/generate-art/j129-briar-foxglove-pickup*`. Accepted normalized source:1536×1024, SHA-256 `8a43b2067d18b5cf158b74ace3804ce0c3d4d9371c29c1db86f1879aef96e95c`; five selected cells have >=136px margins and cell5 is empty. Atlas:288×192, SHA-256 `18c153b02626d6329e3f0a379bce4561e3992278a47ff1ef0e43272f1e705e77`.
 - Separate Briar ball track H `[0.9,0.6,0.3,0,0.65]` / F `[7,11,16,20,10]` passes independent native Canvas review in both facings at100%/120%. Frame3/tick7 is floor contact and possession; all ten captures select production art.
