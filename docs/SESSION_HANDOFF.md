@@ -6,7 +6,7 @@ Accepted Piper-specific track H `[.95,1.1,1.25,1.4,1.8,2.25,1.65,2.4,2,2.2,2.2,1
 
 Validation passes37/37 JS test files, lint18 modules, content35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes,55 atlas-packer tests and production build. `npm run test:e2e` remains blocked before app readiness; local server exits before responding at `127.0.0.1:4175/`. Strict audit `2026-10-25T04:51:27.335Z`:810 clips /7,301 drawings /105 athletes,2,293 missing clips, one target shortfall and4 inherited prompt findings. Next: Piper J.116 `dunk-windmill` source/atlas checkpoint is ready but unregistered; its native ball track remains pending.
 
-J.115 integration commit and push status will be recorded after checkpointing. Latest deployed Pages checkpoint remains `513e0a59` / run #169. The user-owned J.106 helper remains untouched.
+J.115 is committed locally as `8a7f9a10`. `git push origin HEAD:main` failed because the configured proxy on port8080 is unreachable, so no Pages workflow ran. Latest deployed Pages checkpoint remains `513e0a59` / run #169. The user-owned J.106 helper remains untouched.
 
 ## J.113 — Piper Quickstep `fall` integrated locally
 

@@ -5,7 +5,7 @@
 - `npm test`: PASS,37/37 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer suite: PASS,55 tests; production build: PASS.
 - `npm run test:e2e`: BLOCKED before app readiness; local server exits before responding at `http://127.0.0.1:4175/`.
 - Strict report-only audit `2026-10-25T04:51:27.335Z`:810 clips /7,301 authored drawings /105 athletes,2,293 missing clips, one target shortfall and4 inherited prompt findings.
-- Next roster action: Piper J.116 `dunk-windmill` (source/atlas accepted and checkpointed; native track review pending). Latest deployed Pages checkpoint remains `513e0a59` / run #169.
+- Next roster action: Piper J.116 `dunk-windmill` (source/atlas accepted and checkpointed; native track review pending). J.115 is committed locally as `8a7f9a10`; standard push failed because the configured proxy on port8080 is unreachable, so no Pages workflow ran. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
 
 # Latest validation — J.113 Piper fall
 
