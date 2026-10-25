@@ -1,0 +1,5 @@
+EDIT this isolated transparent Piper pose9 crop for the J.121 `dunk-clutch` action. Keep the same complete right-facing airborne figure and exact pose, camera, proportions, face, orange ponytail, warm-brown skin, russet-red/cream kit, red-and-cream shoes, body, limbs and arm direction. Preserve every part except the raised finishing hand.
+
+Pose9 is the pre-release carry: replace the clenched fist with a readable ball-carry C grip. Turn the palm inward toward the body; keep the thumb visibly separated; curve all four fingers toward the thumb, leaving a clear empty transparent space inside the C about the diameter of a basketball. The fingertips must not meet the thumb and must not spread out as an open release. The hand should visibly cradle an invisible ball, with the transparent gap showing that the separate runtime ball will be placed there. Do not draw any ball, sphere, circle, prop, filled area, or object.
+
+Keep the exact crop size and transparent alpha, preserve clean outlined style and all other pixels if possible, and do not add a background, glow, rim, text, court, or effects. Return only the edited transparent pose crop.

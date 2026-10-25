@@ -1,0 +1,389 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "attempt": 4,
+  "source": "imagegen",
+  "generationId": "exec-1d60daea-1b7a-414f-b30f-30a8a4940acf",
+  "generatedAt": "2026-10-25T13:07:00Z",
+  "generatedAtNote": "Approximate UTC based on the generated image file modification time.",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-clutch-attempt4-prompt.md",
+  "prompt": "EDIT the attached transparent 5\u00d73 Piper Quickstep dunk-clutch sheet. Change only the finishing hand in frame9 (zero-based; middle row, rightmost cell). Keep that exact pose's arm direction, arm bend, shoulder position, face, body, legs, other hand, cell position and scale. Preserve frames0\u20138 and10\u201314 unchanged, and preserve the canvas, identity, outfit, clean transparency, colors, outlines and margins.\n\nFrame9 is still carrying the invisible ball just before the sole frame10 release. Replace the clenched fist with a clearly readable C-shaped carry grip: palm turned inward, thumb separated from the curved fingers, fingertips gently bent toward the thumb, leaving an obvious empty transparent gap about the size of a basketball within the hand curve. The fingers must not be spread flat or fully open. Do not draw a ball, circle, sphere, object or filled area in that gap. Frame9 must read as holding the invisible ball; frame10 remains the only open-palm release.\n\nDo not change the other hand or body pose. Keep Piper's warm-brown skin, dark eyes, vivid orange ponytail, blank russet-red and cream kit, red/cream shoes, natural adult human anatomy and right-facing direction. No text, grid, rim, court, shadow, effects or background. Return the edited transparent image only.\n",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt4-generated-raw.png",
+  "rawSourceSha256": "dbb053d947b4ad1578e3419764e6e609b0b3b88455f16ab3f0de53e268ddb109",
+  "review": {
+    "status": "pending-independent-review",
+    "notes": "Pose9 retouched as a curved carry grip; awaiting independent determination whether the hand visibly carries empty air rather than reading as a fist."
+  },
+  "eligibleForPacking": false,
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt4-clean.png",
+  "sourceSha256": "c37b9ae2051b9b5f21bb534b8063a1ce34c38950394859a0a1df2b05d4738c78",
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-clutch-attempt4-layouts.json",
+  "layout": {
+    "athlete": "piper-quickstep",
+    "clip": "dunk-clutch",
+    "attempt": 4,
+    "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt4-generated-raw.png",
+    "rawSourceSha256": "dbb053d947b4ad1578e3419764e6e609b0b3b88455f16ab3f0de53e268ddb109",
+    "cleanedSource": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt4-clean.png",
+    "cleanedSourceSha256": "c37b9ae2051b9b5f21bb534b8063a1ce34c38950394859a0a1df2b05d4738c78",
+    "size": [
+      1536,
+      1024
+    ],
+    "layout": "5x3 row-major, fifteen original poses",
+    "cleanup": "Isolate alpha-connected character components at >64 with shared package-motion42.py; retain exactly fifteen complete figures, uniformly downsample each to <=251x285 and bottom-align with >=28px source-cell margins. No pose pixels are drawn, synthesized, duplicated or reordered. Detached components below the shared analyzer area floor and exterior alpha are not carried into the clean sheet.",
+    "frames": [
+      {
+        "sourceIndex": 0,
+        "component": 5,
+        "rawBounds": [
+          26,
+          45,
+          282,
+          315
+        ],
+        "destination": [
+          28,
+          46,
+          251,
+          267
+        ],
+        "uniformScale": 0.996032,
+        "transparentMarginsLTRBpx": [
+          28,
+          46,
+          28,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 1,
+        "component": 4,
+        "rawBounds": [
+          333,
+          28,
+          588,
+          315
+        ],
+        "destination": [
+          335,
+          29,
+          251,
+          284
+        ],
+        "uniformScale": 0.996032,
+        "transparentMarginsLTRBpx": [
+          28,
+          29,
+          28,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 2,
+        "component": 1,
+        "rawBounds": [
+          671,
+          26,
+          866,
+          316
+        ],
+        "destination": [
+          672,
+          28,
+          191,
+          285
+        ],
+        "uniformScale": 0.993031,
+        "transparentMarginsLTRBpx": [
+          58,
+          28,
+          59,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 3,
+        "component": 2,
+        "rawBounds": [
+          982,
+          26,
+          1169,
+          315
+        ],
+        "destination": [
+          984,
+          28,
+          183,
+          285
+        ],
+        "uniformScale": 0.996503,
+        "transparentMarginsLTRBpx": [
+          62,
+          28,
+          62,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 4,
+        "component": 3,
+        "rawBounds": [
+          1295,
+          27,
+          1471,
+          315
+        ],
+        "destination": [
+          1296,
+          28,
+          172,
+          285
+        ],
+        "uniformScale": 0.996503,
+        "transparentMarginsLTRBpx": [
+          67,
+          28,
+          68,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 5,
+        "component": 8,
+        "rawBounds": [
+          57,
+          395,
+          250,
+          657
+        ],
+        "destination": [
+          58,
+          395,
+          190,
+          260
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          58,
+          54,
+          59,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 6,
+        "component": 9,
+        "rawBounds": [
+          360,
+          398,
+          562,
+          657
+        ],
+        "destination": [
+          361,
+          398,
+          199,
+          257
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          54,
+          57,
+          54,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 7,
+        "component": 10,
+        "rawBounds": [
+          640,
+          420,
+          894,
+          658
+        ],
+        "destination": [
+          642,
+          421,
+          251,
+          234
+        ],
+        "uniformScale": 0.996032,
+        "transparentMarginsLTRBpx": [
+          28,
+          80,
+          29,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 8,
+        "component": 11,
+        "rawBounds": [
+          950,
+          424,
+          1203,
+          658
+        ],
+        "destination": [
+          950,
+          424,
+          250,
+          231
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          28,
+          83,
+          29,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 9,
+        "component": 7,
+        "rawBounds": [
+          1267,
+          369,
+          1500,
+          658
+        ],
+        "destination": [
+          1267,
+          370,
+          230,
+          285
+        ],
+        "uniformScale": 0.996503,
+        "transparentMarginsLTRBpx": [
+          38,
+          29,
+          39,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 10,
+        "component": 18,
+        "rawBounds": [
+          46,
+          712,
+          263,
+          998
+        ],
+        "destination": [
+          46,
+          713,
+          215,
+          283
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          46,
+          30,
+          46,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 11,
+        "component": 22,
+        "rawBounds": [
+          333,
+          743,
+          589,
+          998
+        ],
+        "destination": [
+          335,
+          744,
+          251,
+          252
+        ],
+        "uniformScale": 0.996032,
+        "transparentMarginsLTRBpx": [
+          28,
+          61,
+          28,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 12,
+        "component": 16,
+        "rawBounds": [
+          658,
+          711,
+          881,
+          998
+        ],
+        "destination": [
+          658,
+          711,
+          220,
+          285
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          44,
+          28,
+          44,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 13,
+        "component": 20,
+        "rawBounds": [
+          955,
+          714,
+          1194,
+          998
+        ],
+        "destination": [
+          957,
+          713,
+          237,
+          283
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          35,
+          30,
+          35,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 14,
+        "component": 17,
+        "rawBounds": [
+          1296,
+          711,
+          1470,
+          998
+        ],
+        "destination": [
+          1296,
+          711,
+          172,
+          285
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          67,
+          28,
+          68,
+          28
+        ]
+      }
+    ]
+  },
+  "cleanup": {
+    "method": "Alpha-component isolation at threshold >64 and uniform downsample/pad only, via shared package-motion42.py helper. No pixels redrawn, no pose reordered or synthesized.",
+    "script": "tools/generate-art/clean-piper-quickstep-dunk-clutch-attempt4.py",
+    "minimumCellMarginPx": 28
+  }
+}

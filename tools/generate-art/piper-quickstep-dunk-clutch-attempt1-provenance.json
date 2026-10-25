@@ -1,0 +1,389 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "attempt": 1,
+  "source": "imagegen",
+  "generationId": "exec-580d946a-bee0-4820-bccd-b337c010eb2a",
+  "generatedAt": "2026-10-25T13:01:00Z",
+  "generatedAtNote": "Approximate UTC based on the generated image file modification time.",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-clutch-attempt1-prompt.md",
+  "prompt": "Create one original transparent RGBA production sprite sheet for Piper Quickstep's right-facing `dunk-clutch` action in JAMVERSE '96. Output one 1536\u00d71024 image with exactly five equal columns and three equal rows, fifteen complete original full-body poses in strict row-major order. Keep the figures consistently scaled and centered within their own cells, with at least 32 transparent pixels between every body part and every cell boundary. No touching or crossing cell margins, no overlap, and no cut-off hair, fingertips, shoes, or limbs. Leave the unused spaces transparent; do not draw a grid, borders, labels, text, background, court, hoop, rim, floor, shadow, effects, teammate, opponent, ball, sphere, prop or equipment.\n\nPiper is the same athletic adult human woman in all fifteen frames: warm-brown skin, expressive dark-brown eyes, vivid bright-orange hair gathered into a long high ponytail tied behind her head, natural adult athletic proportions, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, blank kit with no numbers or marks, red-and-cream high-top basketball shoes and white socks. Keep her face, skin, hair, body proportions, uniform and footwear consistent with Piper's established JAMVERSE artwork. Correct human anatomy: one head, two arms, two hands, two legs and two feet, natural joints and fingers. Keep her polished, cleanly outlined illustrated game-sprite rendering consistent with the existing Piper assets; not pixelated, anime, 3D or photorealistic.\n\nThe basketball is separate game art and must never appear in this sheet. Piper's hands are visibly empty in every pose, with a clear gap of transparent air where an invisible ball is carried. The action is a close-protected cross-body clutch dunk: she keeps the invisible ball tucked low against her hip/abdomen through approach and takeoff, briefly sweeps the carrying hand inward beneath her body while airborne, then pulls it across her torso and extends diagonally toward the rim. This must read as a single clutch path, distinct from a two-pump dunk, windmill, reverse, tomahawk or spin. The only release is frame 10 (zero-based, third row / first column) at simulation tick 21. Frame 9 is still carrying the invisible ball; frame 10 is the release and subsequent frames are empty-handed.\n\nMake these fifteen poses visibly distinct and mechanically connected, facing image-right:\n0. Forward approach, shoulders angled toward the rim, finishing hand low outside the hip and guide hand close beneath it; both hands mime an empty ball.\n1. Lead foot plants and hips sink; the empty hand cradle crosses low over the abdomen toward the opposite hip.\n2. Takeoff begins after leg extension; torso rises while both hands pull the invisible ball close to the lower chest.\n3. Early ascent, one knee lifts and the trailing leg folds; the finishing hand carries low across the belly and the other forearm shields the torso.\n4. Mid-ascent, knees gather under the hips; the finishing hand sweeps toward the opposite thigh, keeping the invisible ball protected.\n5. Airborne clutch: bent elbows and empty hands tightly frame the invisible ball below the abdomen.\n6. Distinct under-body sweep: knees stay tucked, torso compact, finishing forearm reaches low inward between the lifted legs while the guide hand remains near the ribs.\n7. Peak approach: the finishing elbow pulls up across the far ribs; the other arm opens for balance, legs tucked.\n8. The clutch rises beside the opposite shoulder; torso rotates slightly toward the rim, ponytail follows the turn.\n9. Pre-release diagonal reach toward the rim, finishing hand still curved around empty air; guide arm balances the body.\n10. Sole release at tick 21: finishing arm extends diagonally upward and forward with an open, empty palm; guide hand separates and opens.\n11. Empty-handed follow-through, arms extend naturally through the imagined rim plane.\n12. Descent with both knees bent, arms lowering after the release.\n13. Controlled landing approach, feet reaching down and knees preparing to absorb impact.\n14. Balanced two-foot recovery, upright and empty-handed.\n\nPrioritize pose separation, identity and fully correct anatomy over figure size. Keep every cell and gutter transparent. No ball or object may be painted anywhere. Return only the sprite sheet.\n",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt1-generated-raw.png",
+  "rawSourceSha256": "cb773e6bea6f3c2f0d1695b2a63488fc0933b5c2538f90570634d8b97650f7f5",
+  "review": {
+    "status": "rejected",
+    "notes": "Frame9 (middle row, fifth column) has an open finishing palm and reads as a premature release; canonical release is frame10 at tick21."
+  },
+  "eligibleForPacking": false,
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt1-clean.png",
+  "sourceSha256": "136a9377393d35c98679b7a49302a3c5ccd247b89bc2a9a5149df8231c18edd5",
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-clutch-attempt1-layouts.json",
+  "layout": {
+    "athlete": "piper-quickstep",
+    "clip": "dunk-clutch",
+    "attempt": 1,
+    "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt1-generated-raw.png",
+    "rawSourceSha256": "cb773e6bea6f3c2f0d1695b2a63488fc0933b5c2538f90570634d8b97650f7f5",
+    "cleanedSource": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt1-clean.png",
+    "cleanedSourceSha256": "136a9377393d35c98679b7a49302a3c5ccd247b89bc2a9a5149df8231c18edd5",
+    "size": [
+      1536,
+      1024
+    ],
+    "layout": "5x3 row-major, fifteen original poses",
+    "cleanup": "Isolate alpha-connected character components at >64 with shared package-motion42.py; retain exactly fifteen complete figures, uniformly downsample each to <=251x285 and bottom-align with >=28px source-cell margins. No pose pixels are drawn, synthesized, duplicated or reordered. Detached components below the shared analyzer area floor and exterior alpha are not carried into the clean sheet.",
+    "frames": [
+      {
+        "sourceIndex": 0,
+        "component": 5,
+        "rawBounds": [
+          38,
+          28,
+          323,
+          331
+        ],
+        "destination": [
+          28,
+          46,
+          251,
+          267
+        ],
+        "uniformScale": 0.890071,
+        "transparentMarginsLTRBpx": [
+          28,
+          46,
+          28,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 1,
+        "component": 6,
+        "rawBounds": [
+          376,
+          31,
+          640,
+          331
+        ],
+        "destination": [
+          335,
+          28,
+          250,
+          285
+        ],
+        "uniformScale": 0.956376,
+        "transparentMarginsLTRBpx": [
+          28,
+          28,
+          29,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 2,
+        "component": 3,
+        "rawBounds": [
+          678,
+          16,
+          892,
+          335
+        ],
+        "destination": [
+          673,
+          28,
+          190,
+          285
+        ],
+        "uniformScale": 0.904762,
+        "transparentMarginsLTRBpx": [
+          59,
+          28,
+          59,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 3,
+        "component": 1,
+        "rawBounds": [
+          1013,
+          9,
+          1215,
+          322
+        ],
+        "destination": [
+          983,
+          28,
+          184,
+          285
+        ],
+        "uniformScale": 0.916399,
+        "transparentMarginsLTRBpx": [
+          61,
+          28,
+          62,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 4,
+        "component": 2,
+        "rawBounds": [
+          1322,
+          10,
+          1508,
+          316
+        ],
+        "destination": [
+          1296,
+          28,
+          172,
+          285
+        ],
+        "uniformScale": 0.9375,
+        "transparentMarginsLTRBpx": [
+          67,
+          28,
+          68,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 5,
+        "component": 17,
+        "rawBounds": [
+          87,
+          361,
+          279,
+          622
+        ],
+        "destination": [
+          58,
+          396,
+          190,
+          259
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          58,
+          55,
+          59,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 6,
+        "component": 20,
+        "rawBounds": [
+          379,
+          378,
+          580,
+          640
+        ],
+        "destination": [
+          361,
+          397,
+          198,
+          258
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          54,
+          56,
+          55,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 7,
+        "component": 19,
+        "rawBounds": [
+          656,
+          376,
+          945,
+          646
+        ],
+        "destination": [
+          642,
+          421,
+          251,
+          234
+        ],
+        "uniformScale": 0.877622,
+        "transparentMarginsLTRBpx": [
+          28,
+          80,
+          29,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 8,
+        "component": 18,
+        "rawBounds": [
+          959,
+          367,
+          1252,
+          636
+        ],
+        "destination": [
+          950,
+          424,
+          251,
+          231
+        ],
+        "uniformScale": 0.865517,
+        "transparentMarginsLTRBpx": [
+          28,
+          83,
+          28,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 9,
+        "component": 16,
+        "rawBounds": [
+          1268,
+          334,
+          1529,
+          658
+        ],
+        "destination": [
+          1267,
+          370,
+          230,
+          285
+        ],
+        "uniformScale": 0.890625,
+        "transparentMarginsLTRBpx": [
+          38,
+          29,
+          39,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 10,
+        "component": 24,
+        "rawBounds": [
+          48,
+          658,
+          301,
+          994
+        ],
+        "destination": [
+          46,
+          711,
+          215,
+          285
+        ],
+        "uniformScale": 0.855856,
+        "transparentMarginsLTRBpx": [
+          46,
+          28,
+          46,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 11,
+        "component": 27,
+        "rawBounds": [
+          367,
+          695,
+          661,
+          990
+        ],
+        "destination": [
+          335,
+          743,
+          251,
+          253
+        ],
+        "uniformScale": 0.862543,
+        "transparentMarginsLTRBpx": [
+          28,
+          60,
+          28,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 12,
+        "component": 26,
+        "rawBounds": [
+          682,
+          693,
+          922,
+          1001
+        ],
+        "destination": [
+          657,
+          711,
+          221,
+          285
+        ],
+        "uniformScale": 0.928339,
+        "transparentMarginsLTRBpx": [
+          43,
+          28,
+          44,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 13,
+        "component": 28,
+        "rawBounds": [
+          982,
+          700,
+          1233,
+          1002
+        ],
+        "destination": [
+          957,
+          711,
+          236,
+          285
+        ],
+        "uniformScale": 0.953177,
+        "transparentMarginsLTRBpx": [
+          35,
+          28,
+          36,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 14,
+        "component": 25,
+        "rawBounds": [
+          1294,
+          681,
+          1489,
+          1005
+        ],
+        "destination": [
+          1297,
+          711,
+          170,
+          285
+        ],
+        "uniformScale": 0.885093,
+        "transparentMarginsLTRBpx": [
+          68,
+          28,
+          69,
+          28
+        ]
+      }
+    ]
+  },
+  "cleanup": {
+    "method": "Alpha-component isolation at threshold >64 and uniform downsample/pad only, via shared package-motion42.py helper. No pixels redrawn, no pose reordered or synthesized.",
+    "script": "tools/generate-art/clean-piper-quickstep-dunk-clutch-attempt1.py",
+    "minimumCellMarginPx": 28
+  }
+}

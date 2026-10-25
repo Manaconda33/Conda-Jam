@@ -1,0 +1,19 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "attempt": 2,
+  "source": "imagegen",
+  "generationId": "exec-c47ea4c1-7f1b-42a4-8f89-d658ba6f4361",
+  "generatedAt": "2026-10-25T13:02:00Z",
+  "generatedAtNote": "Approximate UTC based on the generated image file modification time.",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-clutch-attempt2-prompt.md",
+  "prompt": "EDIT the attached attempt1 sprite sheet. Remove the brown/orange vignette and every backdrop pixel, replacing all exterior and between-cell areas with true transparent alpha. Preserve the same canvas size and strict five-column by three-row reading order. Preserve all fifteen existing Piper drawings exactly as they are: do not redraw, alter, reposition, rescale, crop, duplicate, reorder, add or remove any pose or body detail. Preserve Piper's face, orange ponytail, warm-brown skin, anatomy, red/cream kit, shoes, pose, linework and colors without change. Retain clean opaque figure pixels and antialiased edges; remove only the continuous brown/orange background, including any matte halo or edge fringe. No object, ball, text, grid, floor, hoop, shadow or effects. Keep all spaces outside the original figure silhouettes fully transparent. Return the same 1536\u00d71024 RGBA sheet.\n",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt2-generated-raw.png",
+  "rawSourceSha256": "5e58ad6aaec46444668829950425b4114db4d7d208303cdfdbadd30499a48eb0",
+  "review": {
+    "status": "rejected",
+    "notes": "Background-edit attempt failed to address pose9 timing and drifted small figure details despite the preserve-art instruction."
+  },
+  "eligibleForPacking": false
+}

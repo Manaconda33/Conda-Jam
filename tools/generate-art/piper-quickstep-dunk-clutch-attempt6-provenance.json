@@ -1,0 +1,398 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "attempt": 6,
+  "source": "imagegen",
+  "generationId": "exec-075dc535-d3df-455e-ab60-13c697c963e0",
+  "generatedAt": "2026-10-25T13:11:00Z",
+  "generatedAtNote": "Approximate UTC based on generated image file modification time.",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-clutch-attempt6-prompt.md",
+  "prompt": "Create a NEW original transparent RGBA sprite sheet for Piper Quickstep's right-facing `dunk-clutch` action in JAMVERSE '96. Use the attached Piper sprite sheet only as a reference for Piper's identity, outfit and art style; draw a different dunk sequence. Canvas exactly 1536\u00d71024, five equal columns by three equal rows, fifteen distinct complete full-body figures in strict row-major order. Keep each pose centered and fully inside its own cell, uniform size, with at least32px of transparent margin on every cell edge. No pose may touch another or cross a cell boundary. True transparent background and gutters. No grid, border, caption, background, court, hoop, rim, floor, shadow, effects, teammate, opponent, ball, sphere, prop or equipment.\n\nPiper is an athletic adult human woman: warm-brown skin, expressive dark-brown eyes, vivid bright-orange long high ponytail tied behind her head, natural adult athletic proportions, blank russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, white socks and red-and-cream high-top basketball shoes. Match the attached Piper identity consistently. Correct one-head/two-arm/two-hand/two-leg/two-foot human anatomy and natural joints. Use cleanly outlined, polished illustrated game-sprite rendering.\n\nThe basketball is a separate runtime object and never appears in this art. Both hands stay empty. On carrying poses, clearly mime an invisible ball with a readable pocket of transparent air; do not use clenched fists as a substitute for holding. This is one cross-body clutch dunk, distinct from a power dunk, double-pump, windmill, reverse, tomahawk or spin. Piper approaches and jumps to image-right, keeping the invisible ball protected low across her abdomen and beneath her tucked legs before pulling diagonally upward. Exactly one release occurs at frame10/tick21.\n\nFifteen unique connected poses, row-major, zero-based indices:\n0. Image-right running approach; right/finishing hand is a loose C around clear air beside the low outside hip, guide palm close underneath.\n1. Plant and sink; both empty hands gather around a clear air pocket at the opposite hip.\n2. Takeoff after leg extension; tuck the clear two-hand cradle close to the lower chest.\n3. Early ascent with one knee lifted; finishing hand moves low across belly, guide forearm shields.\n4. Mid-ascent with knees gathering; finishing hand sweeps inward toward the opposite thigh.\n5. Airborne, both elbows bent; hands make a visible loose cradle around empty transparent air below the abdomen.\n6. Under-body clutch sweep with knees tightly tucked; finishing forearm reaches inward between knees while guide hand balances near ribs.\n7. Rise toward the peak; finishing elbow pulls across far ribs, guide arm opens for balance.\n8. Pull the invisible ball across the torso toward the opposite shoulder, wrist bent, fingers clearly wrapped around air.\n9. PRE-RELEASE HOLD. Keep the elbow bent and finishing hand just above/forward of the shoulder. The thumb and four separated, curved fingers make a clearly visible C-shaped empty carry grip around a large transparent opening. The palm must not face fully outward; it is NOT an open release palm and NOT a closed fist. Keep the invisible ball held immediately before release.\n10. THE ONLY RELEASE at tick21. Extend the finishing arm diagonally up/forward and open the empty palm with fingers spread. The guide hand opens away; this pose must differ clearly from frame9's cupped grip.\n11. Empty-handed follow-through through the imaginary rim plane.\n12. Descent, both knees bent, arms lowering.\n13. Landing approach, feet lower and knees prepare to absorb impact.\n14. Balanced upright recovery, hands empty.\n\nFrame9's empty-air opening must be visible even at a small sprite size: show the palm contour, a real gap between thumb and bent fingertips, and distinct finger outlines; do not hide the hand behind hair or crop it. Keep all pose anatomy, ponytail, fingertips and shoes within margins. No ball, sphere, object, backdrop, matting, glow, or speckles. Return only the sprite sheet.\n",
+  "promptReferenceImage": "tools/generate-art/sources/piper-quickstep-dunk-double-attempt1-clean-candidate.png",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt6-generated-raw.png",
+  "rawSourceSha256": "3f56ad83b7fad6f4b407b930b4394b89d551e179d3dedf3589007abcbd5b103b",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt6-clean.png",
+  "sourceSha256": "627151a762e44ea27e719c1d2694b8344d78f3cc5da50f1572409230946ad391",
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-clutch-attempt6-layouts.json",
+  "layout": {
+    "athlete": "piper-quickstep",
+    "clip": "dunk-clutch",
+    "attempt": 6,
+    "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt6-generated-raw.png",
+    "rawSourceSha256": "3f56ad83b7fad6f4b407b930b4394b89d551e179d3dedf3589007abcbd5b103b",
+    "cleanedSource": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt6-clean.png",
+    "cleanedSourceSha256": "627151a762e44ea27e719c1d2694b8344d78f3cc5da50f1572409230946ad391",
+    "size": [
+      1536,
+      1024
+    ],
+    "layout": "5x3 row-major, fifteen original poses",
+    "cleanup": "Isolate alpha-connected character components at >64 with shared package-motion42.py; retain exactly fifteen complete figures, uniformly downsample each to <=251x285 and bottom-align with >=28px source-cell margins. No pose pixels are drawn, synthesized, duplicated or reordered. Detached components below the shared analyzer area floor and exterior alpha are not carried into the clean sheet.",
+    "frames": [
+      {
+        "sourceIndex": 0,
+        "component": 4,
+        "rawBounds": [
+          23,
+          30,
+          310,
+          329
+        ],
+        "destination": [
+          28,
+          52,
+          251,
+          261
+        ],
+        "uniformScale": 0.880702,
+        "transparentMarginsLTRBpx": [
+          28,
+          52,
+          28,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 1,
+        "component": 6,
+        "rawBounds": [
+          377,
+          42,
+          573,
+          331
+        ],
+        "destination": [
+          364,
+          28,
+          193,
+          285
+        ],
+        "uniformScale": 0.989583,
+        "transparentMarginsLTRBpx": [
+          57,
+          28,
+          57,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 2,
+        "component": 2,
+        "rawBounds": [
+          690,
+          23,
+          866,
+          338
+        ],
+        "destination": [
+          688,
+          28,
+          159,
+          285
+        ],
+        "uniformScale": 0.913462,
+        "transparentMarginsLTRBpx": [
+          74,
+          28,
+          75,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 3,
+        "component": 1,
+        "rawBounds": [
+          978,
+          20,
+          1184,
+          335
+        ],
+        "destination": [
+          983,
+          28,
+          185,
+          285
+        ],
+        "uniformScale": 0.907643,
+        "transparentMarginsLTRBpx": [
+          61,
+          28,
+          61,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 4,
+        "component": 3,
+        "rawBounds": [
+          1322,
+          24,
+          1500,
+          297
+        ],
+        "destination": [
+          1294,
+          43,
+          177,
+          270
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          65,
+          43,
+          65,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 5,
+        "component": 18,
+        "rawBounds": [
+          74,
+          375,
+          252,
+          652
+        ],
+        "destination": [
+          66,
+          380,
+          175,
+          275
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          66,
+          39,
+          66,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 6,
+        "component": 19,
+        "rawBounds": [
+          388,
+          390,
+          602,
+          635
+        ],
+        "destination": [
+          354,
+          412,
+          212,
+          243
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          47,
+          71,
+          48,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 7,
+        "component": 16,
+        "rawBounds": [
+          676,
+          368,
+          910,
+          648
+        ],
+        "destination": [
+          652,
+          378,
+          232,
+          277
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          38,
+          37,
+          38,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 8,
+        "component": 17,
+        "rawBounds": [
+          987,
+          370,
+          1235,
+          631
+        ],
+        "destination": [
+          952,
+          396,
+          246,
+          259
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          30,
+          55,
+          31,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 9,
+        "component": 15,
+        "rawBounds": [
+          1285,
+          351,
+          1523,
+          649
+        ],
+        "destination": [
+          1269,
+          370,
+          226,
+          285
+        ],
+        "uniformScale": 0.962838,
+        "transparentMarginsLTRBpx": [
+          40,
+          29,
+          41,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 10,
+        "component": 23,
+        "rawBounds": [
+          47,
+          655,
+          287,
+          1005
+        ],
+        "destination": [
+          56,
+          711,
+          195,
+          285
+        ],
+        "uniformScale": 0.821326,
+        "transparentMarginsLTRBpx": [
+          56,
+          28,
+          56,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 11,
+        "component": 24,
+        "rawBounds": [
+          379,
+          680,
+          611,
+          1008
+        ],
+        "destination": [
+          359,
+          711,
+          202,
+          285
+        ],
+        "uniformScale": 0.876923,
+        "transparentMarginsLTRBpx": [
+          52,
+          28,
+          53,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 12,
+        "component": 26,
+        "rawBounds": [
+          684,
+          721,
+          924,
+          1006
+        ],
+        "destination": [
+          648,
+          713,
+          239,
+          283
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          34,
+          30,
+          35,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 13,
+        "component": 27,
+        "rawBounds": [
+          1007,
+          734,
+          1220,
+          1005
+        ],
+        "destination": [
+          970,
+          728,
+          210,
+          268
+        ],
+        "uniformScale": 1.0,
+        "transparentMarginsLTRBpx": [
+          48,
+          45,
+          49,
+          28
+        ]
+      },
+      {
+        "sourceIndex": 14,
+        "component": 25,
+        "rawBounds": [
+          1311,
+          691,
+          1520,
+          1009
+        ],
+        "destination": [
+          1289,
+          711,
+          186,
+          285
+        ],
+        "uniformScale": 0.901899,
+        "transparentMarginsLTRBpx": [
+          60,
+          28,
+          61,
+          28
+        ]
+      }
+    ]
+  },
+  "cleanup": {
+    "method": "Alpha-component isolation at >64 and uniform downsample/pad using package-motion42.py helpers; no redraw, pose reorder or synthesis.",
+    "script": "tools/generate-art/clean-piper-quickstep-dunk-clutch-attempt6.py",
+    "minimumCellMarginPx": 28
+  },
+  "sourceReview": {
+    "status": "accepted-source-alternative-superseded-by-attempt5",
+    "reviewedAt": "2026-10-25T13:11:20Z",
+    "reviewedBy": "independent source reviewer",
+    "reviewNotes": "All15 poses are separated, Piper identity/anatomy are consistent, the ball is absent, and dark/light proofs show true alpha-zero exterior/gutters with >=28px cell clearance. Frame9 has a visible C-shaped carry grip; frame10 is the sole release. This clean source was generated as an alternative after earlier hand-geometry rejections; attempt5 is the parent-selected candidate.",
+    "proofFiles": [
+      "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt6-source/clean-light.png",
+      "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt6-source/clean-dark.png"
+    ],
+    "minimumCellMarginPx": 28
+  },
+  "eligibleForPacking": false,
+  "ballTrack": "Separate track pending native calibration."
+}
