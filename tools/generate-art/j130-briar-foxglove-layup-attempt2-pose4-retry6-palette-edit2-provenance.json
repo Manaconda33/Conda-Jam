@@ -1,0 +1,187 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "attempt": 2,
+  "frame": 4,
+  "candidate": "retry6-palette-edit2",
+  "generationId": "exec-1c74b2f8-6e67-429b-be8c-21d89b041af0",
+  "c2paId": "urn:c2pa:3244e7de-65c5-433e-851c-42a220b6db42",
+  "generationTool": "image_gen.imagegen",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit-prompt.md",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit2-raw.png",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry6-palette-edit-comparison.png",
+  "baseSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry6-raw.png",
+  "baseSha256": "bd0b78c5dd118d9f564973b8f0feee5e50a1d0c7763a245aa042d2957a0ae408",
+  "sha256": "2449aa5c5431362fb17751a2b902e7c51af33e4911d14202ad2c599768943387",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "baseAlpha": {
+    "zero": 1395407,
+    "nonzero": 177109,
+    "alpha1to63": 26322,
+    "gt0": {
+      "bboxExclusive": [
+        25,
+        19,
+        1234,
+        1230
+      ],
+      "marginsLTRB": [
+        25,
+        19,
+        20,
+        24
+      ]
+    },
+    "gt1": {
+      "bboxExclusive": [
+        435,
+        163,
+        971,
+        978
+      ],
+      "marginsLTRB": [
+        435,
+        163,
+        283,
+        276
+      ]
+    },
+    "gt8": {
+      "bboxExclusive": [
+        435,
+        168,
+        969,
+        977
+      ],
+      "marginsLTRB": [
+        435,
+        168,
+        285,
+        277
+      ]
+    },
+    "gte64": {
+      "bboxExclusive": [
+        437,
+        169,
+        968,
+        975
+      ],
+      "marginsLTRB": [
+        437,
+        169,
+        286,
+        279
+      ]
+    },
+    "gte128": {
+      "bboxExclusive": [
+        438,
+        169,
+        968,
+        975
+      ],
+      "marginsLTRB": [
+        438,
+        169,
+        286,
+        279
+      ]
+    }
+  },
+  "editedAlpha": {
+    "zero": 1393463,
+    "nonzero": 179053,
+    "alpha1to63": 21251,
+    "gt0": {
+      "bboxExclusive": [
+        0,
+        23,
+        1226,
+        1221
+      ],
+      "marginsLTRB": [
+        0,
+        23,
+        28,
+        33
+      ]
+    },
+    "gt1": {
+      "bboxExclusive": [
+        433,
+        162,
+        973,
+        982
+      ],
+      "marginsLTRB": [
+        433,
+        162,
+        281,
+        272
+      ]
+    },
+    "gt8": {
+      "bboxExclusive": [
+        435,
+        166,
+        973,
+        980
+      ],
+      "marginsLTRB": [
+        435,
+        166,
+        281,
+        274
+      ]
+    },
+    "gte64": {
+      "bboxExclusive": [
+        435,
+        166,
+        971,
+        979
+      ],
+      "marginsLTRB": [
+        435,
+        166,
+        283,
+        275
+      ]
+    },
+    "gte128": {
+      "bboxExclusive": [
+        436,
+        167,
+        970,
+        979
+      ],
+      "marginsLTRB": [
+        436,
+        167,
+        284,
+        275
+      ]
+    }
+  },
+  "comparison": {
+    "pixelsWithAnyAlphaChange": 86696,
+    "pixelsWithRgbMaxChangeOver5": 134751,
+    "pixelsWithRgbMaxChangeOver20": 71189,
+    "pixelsWithRgbMaxChangeOver50": 16866
+  },
+  "reviewStatus": "rejected immediately; not a color-only edit",
+  "reviewer": "source-generating agent; visual and pixel/bounds comparison",
+  "decision": "Reject; preserve only as a failed palette-edit candidate.",
+  "findings": [
+    "The edit did not preserve pixels outside the requested skin recolor: RGB changed by more than 5 in 134,751 pixels and alpha changed in 86,696 pixels.",
+    "Silhouette and placement changed. At alpha>0 bounds moved from [25,19,1234,1230] to [0,23,1226,1221], adding pixels at the left canvas edge; alpha>=64 bounds also changed from [437,169,968,975] to [435,166,971,979].",
+    "Visual side-by-side shows the same broad pose but regenerated loc strands, face details, uniform edges and limb rendering; skin hues also remain warm rather than a pixel-precise palette swap. The edit violates strict pixel preservation and cannot replace retry6.",
+    "No cleanup, normalization, assembly or registration performed. Original retry6 remains untouched."
+  ],
+  "processing": "Untouched original generated edit output; only side-by-side comparison preview created."
+}

@@ -1,0 +1,40 @@
+{
+  "issue": "J.130",
+  "reviewer": "primary independent comparison",
+  "frame": 4,
+  "retry": "6-palette-edit2",
+  "generationId": "exec-1c74b2f8-6e67-429b-be8c-21d89b041af0",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry6-raw.png",
+  "sourceSha256": "bd0b78c5dd118d9f564973b8f0feee5e50a1d0c7763a245aa042d2957a0ae408",
+  "editedCandidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit2-raw.png",
+  "editedSha256": "2449aa5c5431362fb17751a2b902e7c51af33e4911d14202ad2c599768943387",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit-prompt.md",
+  "provenance": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit2-provenance.json",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry6-palette-edit-comparison.png",
+  "decision": "reject as exact skin-only palette edit",
+  "checks": {
+    "dimensionsPreserved": true,
+    "exactPoseAndArtPreserved": false,
+    "nonSkinPixelsPreserved": false,
+    "alphaPreserved": false,
+    "poseBroadlySimilar": true
+  },
+  "metrics": {
+    "sourceAndEditDimensions": [1254, 1254],
+    "pixelsWithAnyAlphaChange": 86696,
+    "pixelsWithRgbMaximumChannelChangeOver5": 134751,
+    "pixelsWithRgbMaximumChannelChangeOver20": 71189,
+    "pixelsWithRgbMaximumChannelChangeOver50": 16866,
+    "sourceAlpha1BoundsLTRBExclusive": [25, 19, 1234, 1230],
+    "editedAlpha1BoundsLTRBExclusive": [0, 23, 1226, 1221],
+    "sourceAlpha64BoundsLTRBExclusive": [437, 169, 968, 975],
+    "editedAlpha64BoundsLTRBExclusive": [435, 166, 971, 979],
+    "sourceEditRgbChangesInSharedAlpha64Pixels": 150404,
+    "sourceEditSharedAlpha64Pixels": 150638
+  },
+  "findings": [
+    "The edit changes many non-skin colors and introduces alpha where the source had transparent pixels; its full-source alpha now reaches x=0.",
+    "Locs, face, clothing highlights and other details are regenerated rather than held pixel-for-pixel. The broad pose remains similar, but exact anatomy/detail preservation fails.",
+    "Retain separately from palette edit1; neither palette edit is an accepted production source."
+  ]
+}
