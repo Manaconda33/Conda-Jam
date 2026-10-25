@@ -1,0 +1,21 @@
+{
+  "issue":"J.130",
+  "athlete":"briar-foxglove",
+  "clip":"layup",
+  "attempt":2,
+  "frame":4,
+  "generationId":"exec-a577c153-9cb3-4fba-bc28-a6e2a1b967da",
+  "sha256":"b4992a2d6eab7b1ad2f6a5abac0dd6df922a34ce50dfd0cf1a3fe866d2b47c4c",
+  "dimensions":[1254,1254],
+  "preview":"tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry2-3-light-dark-review.png",
+  "reviewStatus":"rejected; preserve as an imagegen edit candidate",
+  "reviewer":"independent source reviewer",
+  "decision":"Retry; do not accept for cleanup.",
+  "findings":[
+    "Skin is now substantially deeper and browner and broadly fits Briar's warm deep-brown canon.",
+    "Blank chest, bare wrists, empty hands and no visible props. Two arms and legs, distinct guide arm, raised lead knee and sharply folded trailing knee remain readable; peak/release pose is valid.",
+    "The requested edit to preserve exact silhouette failed. Visible bounds grew from404x567 to699x966, placement changed, and fingers, face, loc strands and shoe outlines were regenerated.",
+    "Alpha residue remains. Visible margins L/T/R/B=[332,176,223,112]px; top, right and bottom fail the20% minimum. Cleanup could clear residue but cannot restore the promised exact source silhouette/articulation."
+  ],
+  "note":"This does not supersede retry2. It is a separate imagegen generation and remains unaccepted, unassembled and unpacked."
+}
