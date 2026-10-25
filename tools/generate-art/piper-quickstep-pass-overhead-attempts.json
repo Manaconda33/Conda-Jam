@@ -1,0 +1,37 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "pass-overhead",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "rejected: frames1/2 and frames3/4 are too similar",
+      "provenance": "tools/generate-art/piper-quickstep-pass-overhead-attempt1-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-pass-overhead-attempt1-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-pass-overhead-attempt1-generated-raw.png",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-pass-overhead-attempt1-clean-candidate.png",
+      "review": {
+        "status": "rejected",
+        "reviewer": "independent source-review subagent",
+        "notes": "Rejected for pose separation. Frames1 and2 hold Piper\u2019s hands in almost the same overhead position, with only a modest knee change. Frames3 and4 repeat nearly the same forward arm extension. Identity/anatomy are consistent, all six figures have two arms/hands and two legs/shoes, no ball appears, cleaned alpha is transparent, and all margins are at least91px. Preserve this candidate; do not pack it."
+      }
+    },
+    {
+      "attempt": 2,
+      "status": "accepted and integrated after independent source/native review",
+      "provenance": "tools/generate-art/piper-quickstep-pass-overhead-attempt2-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-pass-overhead-attempt2-edit-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-pass-overhead-attempt2-edit-generated-raw.png",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-pass-overhead-attempt2-edit-clean-candidate.png",
+      "referenceSource": "tools/generate-art/sources/piper-quickstep-pass-overhead-attempt1-clean-candidate.png",
+      "review": {
+        "status": "accepted",
+        "reviewer": "independent source-review subagent",
+        "notes": "The attempt2 localized changes resolve both attempt1 pose-pair findings. Frame1 holds both hands high above the crown with a more upright torso; frame2 tucks the hands behind the crown, flares elbows and deepens the knee bend. Frame3 extends both arms forward/up; frame4 stands more upright with one arm bent high and the other dropping diagonally. Piper identity and complete two-arm/two-leg anatomy are consistent, no ball appears, alpha proofs are clean, and all six figures have >=91px margins on every side."
+      },
+      "nativePreviewReports": [
+        "tools/generate-art/previews/piper-quickstep-pass-overhead/native-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-pass-overhead/native-120/report.json"
+      ]
+    }
+  ]
+}

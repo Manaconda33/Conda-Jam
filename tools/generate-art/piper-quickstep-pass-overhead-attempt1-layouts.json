@@ -1,0 +1,211 @@
+{
+  "source": "tools/generate-art/sources/piper-quickstep-pass-overhead-attempt1-generated-raw.png",
+  "output": "tools/generate-art/sources/piper-quickstep-pass-overhead-attempt1-clean-candidate.png",
+  "method": "per-cell largest alpha>=64 component; retain original antialias pixels within a 2px dilation; remove alpha<8 and low-alpha generated glow; uniform nearest-neighbor scale to <=330x330 and center in transparent 512x512 cell; no redraw, synthesis or pose rearrangement",
+  "frames": [
+    {
+      "frame": 0,
+      "sourceBounds": [
+        113,
+        15,
+        393,
+        485
+      ],
+      "sourceMargins": [
+        113,
+        118,
+        15,
+        26
+      ],
+      "isolatedSourceCrop": [
+        111,
+        13,
+        396,
+        488
+      ],
+      "scale": 0.694737,
+      "outputBounds": [
+        157,
+        91,
+        354,
+        420
+      ],
+      "outputMargins": [
+        157,
+        157,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 1,
+      "sourceBounds": [
+        101,
+        6,
+        416,
+        485
+      ],
+      "sourceMargins": [
+        101,
+        95,
+        6,
+        26
+      ],
+      "isolatedSourceCrop": [
+        99,
+        4,
+        419,
+        488
+      ],
+      "scale": 0.681818,
+      "outputBounds": [
+        147,
+        91,
+        364,
+        420
+      ],
+      "outputMargins": [
+        147,
+        147,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 2,
+      "sourceBounds": [
+        116,
+        27,
+        411,
+        485
+      ],
+      "sourceMargins": [
+        116,
+        100,
+        27,
+        26
+      ],
+      "isolatedSourceCrop": [
+        114,
+        25,
+        414,
+        488
+      ],
+      "scale": 0.712743,
+      "outputBounds": [
+        149,
+        91,
+        362,
+        420
+      ],
+      "outputMargins": [
+        149,
+        149,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 3,
+      "sourceBounds": [
+        76,
+        0,
+        471,
+        483
+      ],
+      "sourceMargins": [
+        76,
+        40,
+        0,
+        28
+      ],
+      "isolatedSourceCrop": [
+        74,
+        0,
+        474,
+        486
+      ],
+      "scale": 0.679012,
+      "outputBounds": [
+        120,
+        91,
+        391,
+        420
+      ],
+      "outputMargins": [
+        120,
+        120,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 4,
+      "sourceBounds": [
+        60,
+        26,
+        476,
+        478
+      ],
+      "sourceMargins": [
+        60,
+        35,
+        26,
+        33
+      ],
+      "isolatedSourceCrop": [
+        58,
+        24,
+        479,
+        481
+      ],
+      "scale": 0.722101,
+      "outputBounds": [
+        104,
+        91,
+        407,
+        420
+      ],
+      "outputMargins": [
+        104,
+        104,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 5,
+      "sourceBounds": [
+        111,
+        21,
+        430,
+        483
+      ],
+      "sourceMargins": [
+        111,
+        81,
+        21,
+        28
+      ],
+      "isolatedSourceCrop": [
+        109,
+        19,
+        433,
+        486
+      ],
+      "scale": 0.706638,
+      "outputBounds": [
+        141,
+        91,
+        369,
+        420
+      ],
+      "outputMargins": [
+        141,
+        142,
+        91,
+        91
+      ]
+    }
+  ]
+}

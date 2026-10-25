@@ -723,7 +723,14 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   // The ball stays in Piper's leading hand through the bent jump-shot release.
   // Centers were measured on the reviewed 128x96 source cells and checked in
   // the pre-pack overlay and native Canvas render at standard/120% zoom.
-  shoot:{height:[1.13,1.043,1.503,1.503,2.048,2.278,2.278,2.278,1.962,1.187],forward:[8.04,9.502,3.655,4.751,7.675,5.847,6.944,7.309,9.867,8.405]}
+  shoot:{height:[1.13,1.043,1.503,1.503,2.048,2.278,2.278,2.278,1.962,1.187],forward:[8.04,9.502,3.655,4.751,7.675,5.847,6.944,7.309,9.867,8.405]},
+  // Piper releases her two-hand chest pass on frame3/tick5; native 100%/120%
+  // reviews in both facings place the separate ball at her extended fingertips.
+  pass:{height:[1.1,1.2,1.5,1.5,1.45,1.1],forward:[8,7.5,12,18,17.5,9]},
+  // Overhead pass peaks above Piper's hands at frame3/tick7; ball remains separate.
+  'pass-overhead':{height:[1.1,2.4,2.45,2.35,2.2,1.75],forward:[7,6,4.5,16,18,20]},
+  // Piper sends the ball behind her waist on frame3/tick7; keep it athlete-specific.
+  'pass-behind':{height:[1.15,1.2,1.25,1.4,1.25,1.0],forward:[8,4,-5,-12,-17,-22]}
 },'reed-ashcroft':{
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.

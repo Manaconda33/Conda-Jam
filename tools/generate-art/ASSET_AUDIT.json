@@ -13,11 +13,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-24T21:16:19.787Z",
+  "generatedAt": "2026-10-25T02:37:31.457Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 792,
+  "inspectedClips": 799,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -47,24 +47,6 @@
       "code": "missing-clip",
       "athlete": "piper-quickstep",
       "direction": "right",
-      "clip": "pass"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "piper-quickstep",
-      "direction": "right",
-      "clip": "pass-overhead"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "piper-quickstep",
-      "direction": "right",
-      "clip": "pass-behind"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "piper-quickstep",
-      "direction": "right",
       "clip": "receive"
     },
     {
@@ -606,30 +588,6 @@
       "athlete": "sable-regent",
       "direction": "right",
       "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "marco-vellum",
-      "direction": "right",
-      "clip": "pass"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "marco-vellum",
-      "direction": "right",
-      "clip": "pass-overhead"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "marco-vellum",
-      "direction": "right",
-      "clip": "pass-behind"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "marco-vellum",
-      "direction": "right",
-      "clip": "receive"
     },
     {
       "code": "missing-clip",
@@ -26880,6 +26838,216 @@
       ]
     },
     {
+      "athlete": "piper-quickstep",
+      "direction": "right",
+      "clip": "pass",
+      "src": "./public/assets/animation/piper-quickstep-pass-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "27ee37ddd369e1eb05c7342fb4ff206bd8d62eb7be808beaebcf92b88a2b82a0",
+          "visiblePixels": 2685
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "878c43b534b8efaf86b40052a7a18f9f3e02662fd1631a2214033714f5fb0b56",
+          "visiblePixels": 2732
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "visiblePixels": 2890
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2f9ddc6c1a9d1cb331f43414a8e561a88e1423e811fab00d36b12e7c2cd45ccf",
+          "visiblePixels": 3026
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "51eabfd23fa9bcf67855798f227417ca19574003fd0d46c233855b62e7928043",
+          "visiblePixels": 2769
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "68732b017df72f06532d425d9ea6beb534eb6cddef3e4ad1751917a7a6af8b63",
+          "visiblePixels": 2853
+        }
+      ]
+    },
+    {
+      "athlete": "piper-quickstep",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "src": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "8fe5e4e7be1a5a9557c36f4653835783f4b51c612ddb815ee47417634bca2d30",
+          "visiblePixels": 2618
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "c9a71d9873ca41f2ee9d3f798c936bf695dcc7c91308ff3e9af1b46d4027488e",
+          "visiblePixels": 2372
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "visiblePixels": 2847
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "e2680537ddcc709bbf992a2d1411de252192248acd8fe3d672cd16dba2aad2b5",
+          "visiblePixels": 2560
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b7b4f580b1a9da5d4c0aa6129fa3aeccf23187e8c7b5a1a0d4631eb8f30554f8",
+          "visiblePixels": 2936
+        },
+        {
+          "index": 5,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "a1651396537824aaf08c760cca87662a4896531a2533b0b2e728af35c9ac9a91",
+          "visiblePixels": 2758
+        }
+      ]
+    },
+    {
+      "athlete": "piper-quickstep",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9049bd00ccbd46e5c134294f3b2042efb14a135a3cecfaf6f889247bbcce08e6",
+          "visiblePixels": 2484
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b8429fe4072009c9ffa5be2b099a7609c914a0faec985e9454a2bdf461151337",
+          "visiblePixels": 2586
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "visiblePixels": 2756
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2eaf86ce03e916a2a84adb30c7784da1251808c1c4f152bfc8cd5d201ca2a7e0",
+          "visiblePixels": 3004
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "653af19d58689316a5bcd1c98260254fa6fce7bbc9415c93dcd5f5fa56fbb69d",
+          "visiblePixels": 2949
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "336d27addb1677e0ccd0e2d2e67f410308cde25d33030a81f7abd1359b36fb9b",
+          "visiblePixels": 2576
+        }
+      ]
+    },
+    {
       "athlete": "briar-foxglove",
       "direction": "right",
       "clip": "idle",
@@ -47544,6 +47712,268 @@
           "h": 96,
           "hash": "4c70c6ec212a7b12f4a8b8859ae1a25950b2656009fcde876f429aae8f3552e2",
           "visiblePixels": 1711
+        }
+      ]
+    },
+    {
+      "athlete": "marco-vellum",
+      "direction": "right",
+      "clip": "pass",
+      "src": "./public/assets/animation/marco-vellum-pass-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "01dcbf0861d33605e7de668fa588955e186189b40b509a6d790cb397a7b998ca",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fa1f038057600f1e5fd27adbc63b47878250bb5acc9b177145fc00a432ef630b",
+          "visiblePixels": 2141
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c06de31c6bb0db02dcf64763df2f8e2f0a22f3dad89db420ec638d0c15815c33",
+          "visiblePixels": 2304
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2ff149416d163d6872c36ebdea0e11d7473294240c9cb2b5a91540efb2c96e10",
+          "visiblePixels": 2179
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ce703a05b65fa6624f1d2843c93fa5662e0456442941944e906e10a8452422ce",
+          "visiblePixels": 2505
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "66fa7842bf42afc3feb034d8a74b9763adda66484bbb34b1c016efba3f53e6e4",
+          "visiblePixels": 2495
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7d68c7f0ba5e9640fe184dc19136242485d52e145ca1e4db27063a43f0d2a410",
+          "visiblePixels": 2173
+        }
+      ]
+    },
+    {
+      "athlete": "marco-vellum",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "src": "./public/assets/animation/marco-vellum-pass-overhead-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "2276b0acbfdfcf0af88143f14bcacdd7a46ed54f89165c6b6ff2f7861f5b194c",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bd4bcaf72f066b1d400a059585684d52a5f8d6ce1193ea7b119557e8c8b6cd07",
+          "visiblePixels": 2277
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d1f8747065cb9d328d12628280b7671d0362b7ab3a7ad0bf77befa57be14daf2",
+          "visiblePixels": 2317
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4dfb45633bba4230761f4926d074036795158241de9609cb584a4fe6ec94cefe",
+          "visiblePixels": 1902
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9d8578a32e9cdd5e7420ec6ac29ab9043a4ec13455827e6c49de3a8ba355624a",
+          "visiblePixels": 2248
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "39ce4ca69eeb7c24c43d76eaebf84cbec4c5ccf717b7e2ee01cf7a682b13ac0b",
+          "visiblePixels": 2095
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "239152cb88e296be227d59f7eeb56e241eca160de799ccb522af4106d3c8aed3",
+          "visiblePixels": 2206
+        }
+      ]
+    },
+    {
+      "athlete": "marco-vellum",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/marco-vellum-pass-behind-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "052d20a49bda705303a42384372372f94fe178a445775eb0e988ea1e6ed872a8",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6867559ee529f1bc5c514cdbacc494923f8915a904df75a13741d8670f436be0",
+          "visiblePixels": 2166
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "30b2ff59345a6430acc30b751a1fb42c40acd74c78ab77344575a383ce6bc04e",
+          "visiblePixels": 2480
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c695cebbe7e5a5be4ce3e62d94cab9038b860e4c16201ca987f53b6b7a45eaba",
+          "visiblePixels": 2637
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "709164b99aaecfe1dc8d69ab7d683be80c1ac25bb57c46ac33e606c359b5004d",
+          "visiblePixels": 2758
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1d7456d5dcf8c60bb2f76758774b372786fec2e5d0fa11468db09afa1663a2a0",
+          "visiblePixels": 2763
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7f594855631b8be230fe879203a3c3ad7f3513a93fcd2fc52cbd3fcada3fff6e",
+          "visiblePixels": 2167
+        }
+      ]
+    },
+    {
+      "athlete": "marco-vellum",
+      "direction": "right",
+      "clip": "receive",
+      "src": "./public/assets/animation/marco-vellum-receive-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "94a98f2d60ea43a1e496bb59365a6477246889287df1fcca1eeda757fc757227",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a8ef5199ff75f6462b02819def32b90a6802f915dc362369e6d2f05edc5c3475",
+          "visiblePixels": 2809
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ac727eef341c90ed44e42d531c55e6f9532deb6d9f645edf8edaf06606eaa6cd",
+          "visiblePixels": 2748
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "505dbd8240625bb82b73d26261711785d7d5004c966c0bd532ff78986818617e",
+          "visiblePixels": 2508
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "af6bfef0c0ae9a0bccdae2ffa12b331884de210181492a1e6584431af03a7462",
+          "visiblePixels": 2248
         }
       ]
     },

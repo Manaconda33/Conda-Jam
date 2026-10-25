@@ -1,0 +1,66 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "pass",
+  "direction": "right",
+  "attempt": 2,
+  "generatedAt": "2026-10-25",
+  "eligibleForPacking": true,
+  "promptFile": "tools/generate-art/piper-quickstep-pass-attempt2-edit-prompt.md",
+  "prompt": "Edit this exact 1536x1024 transparent RGBA 3-column by 2-row Piper Quickstep sprite sheet. Make one localized change only: replace pose index 4 (bottom row, middle cell) with a clearly distinct post-release follow-through recovery pose. Preserve pose indices 0,1,2,3,5 exactly in content, position, identity, face, outfit, proportions, scale, direction, row/column and camera. Keep all six cells in place; do not add or remove any pose, redraw other cells, crop, shift, scale the sheet, or change its grid.\n\nPiper remains the same athletic adult human woman with warm brown skin, energetic face, bright orange high ponytail, russet-red uniform with cream speed stripes and trim, and matching red/cream trainers. Preserve her normal human anatomy: two arms/hands and two legs/shoes. All poses face image-right in the same three-quarter view.\n\nThe replacement for pose4 occurs immediately after the two-hand chest-pass release at pose3/frame3/tick5. It must not repeat pose3's forward lunge. Make this follow-through visibly different in torso and legs: Piper's torso rises upright after the release, her rear foot steps forward to close the stance, and her knees settle into a balanced shoulder-width landing. Her hands are still empty; both arms remain forward but relax and lower slightly from pose3, fingers open after releasing the separate basketball. Pose5 remains the later recovery with arms lower and Piper watching the teammate.\n\nThe ball is always separate from the athlete art. Do not draw any ball, sphere, circle, dark oval, object, or prop in any cell. Keep all figures complete and safely inside their original cells; no silhouettes touch or cross cell boundaries. Preserve alpha-zero transparency and remove any low-alpha background glow. Return the edited transparent sheet only.",
+  "generationId": "exec-0684ae16-decf-4259-8140-a70608c65ef6",
+  "referenceSource": "tools/generate-art/sources/piper-quickstep-pass-attempt1-clean-candidate.png",
+  "referenceSha256": "49155980a995265afc8e9f17980640e2c1b5cca198ef67e44801758dd5d5dc10",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-pass-attempt2-edit-generated-raw.png",
+  "rawSourceSha256": "99fc5a822d8bf3f5c100df596cf42aa875f8d8512f5123467da503ddfb7ef19f",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-pass-attempt2-edit-clean-candidate.png",
+  "sourceSha256": "19572413d7af27ce68075927e7749e6240796ddaef92bafca9f0cbe12cb36037",
+  "layoutFile": "tools/generate-art/piper-quickstep-pass-attempt2-edit-layouts.json",
+  "cleanup": {
+    "script": "tools/generate-art/clean-piper-quickstep-pass-attempt2-edit.py",
+    "record": "tools/generate-art/piper-quickstep-pass-attempt2-edit-layouts.json",
+    "previews": [
+      "tools/generate-art/previews/piper-quickstep-pass/attempt2-edit-clean-light.png",
+      "tools/generate-art/previews/piper-quickstep-pass/attempt2-edit-clean-dark.png"
+    ],
+    "method": "per-cell largest alpha>=64 component; retain original antialias pixels within a2px dilation; remove alpha<8 and low-alpha generated glow; uniform nearest-neighbor scale to <=330x330 and center in transparent512x512 cell; no pose rearrangement"
+  },
+  "review": {
+    "status": "accepted",
+    "notes": "Independent review accepts all six distinct ordered poses after the attempt2 localized edit. Frame4 now rises upright, closes the stance and lowers the arms, distinct from the frame3 release lunge and frame5 recovery. Piper\u2019s warm-brown adult human identity, bright orange high ponytail, russet/cream kit and complete anatomy are consistent. No basketball/props are present. Clean light/dark previews show transparent background; all six cleaned cells have >=91px margin on every side."
+  },
+  "status": "accepted source, packed atlas, and separate Piper ball track; native review passed at 100%/120% in both facings",
+  "separateBall": {
+    "owner": "piper-quickstep",
+    "art": "No basketball in source atlas. Separate Piper-specific pass track is accepted; frame 3/tick 5 is the release with the ball at the extended fingertips.",
+    "height": [
+      1.1,
+      1.2,
+      1.5,
+      1.5,
+      1.45,
+      1.1
+    ],
+    "forward": [
+      8,
+      7.5,
+      12,
+      18,
+      17.5,
+      9
+    ],
+    "nativeReview": "Native Canvas review inspected all 12 per-frame captures at 100% and 120% in both facings. Frames 0\u20132 retain Piper ball ownership; frame 3 releases at tick 5 with the separate ball aligned at the extended fingertips, then frames 4\u20135 continue the pass and recovery. All captures select this production atlas; no visible body collision or court clipping.",
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-pass/native-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-pass/native-120/report.json"
+    ]
+  },
+  "nativeReview": {
+    "status": "accepted",
+    "notes": "Native Canvas review inspected all 12 per-frame captures at 100% and 120% in both facings. Frames 0\u20132 retain Piper ball ownership; frame 3 releases at tick 5 with the separate ball aligned at the extended fingertips, then frames 4\u20135 continue the pass and recovery. All captures select this production atlas; no visible body collision or court clipping.",
+    "reviewer": "independent subagent",
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-pass/native-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-pass/native-120/report.json"
+    ]
+  }
+}

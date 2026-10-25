@@ -1,0 +1,32 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "pass",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "rejected",
+      "generationId": "exec-b1befb53-a2b8-4f3d-b279-aeb82d11d953",
+      "promptFile": "tools/generate-art/piper-quickstep-pass-attempt1-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-pass-attempt1-generated-raw.png",
+      "rawSourceSha256": "abf20b70092687853533bc421d533c3c00ed54bb3a5e70e5ec47b3e652679009",
+      "sourceImage": "tools/generate-art/sources/piper-quickstep-pass-attempt1-clean-candidate.png",
+      "sourceSha256": "49155980a995265afc8e9f17980640e2c1b5cca198ef67e44801758dd5d5dc10",
+      "reason": "Independent review found frame3 and frame4 too similar in their forward lunge/torso silhouette. Identity, anatomy, no-ball, separation, transparency and cleaned margins pass; preserved as rejected and replaced with a localized frame4 revision."
+    },
+    {
+      "attempt": 2,
+      "status": "accepted source; pending atlas and native ball review",
+      "generationId": "exec-0684ae16-decf-4259-8140-a70608c65ef6",
+      "promptFile": "tools/generate-art/piper-quickstep-pass-attempt2-edit-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-pass-attempt2-edit-generated-raw.png",
+      "rawSourceSha256": "99fc5a822d8bf3f5c100df596cf42aa875f8d8512f5123467da503ddfb7ef19f",
+      "sourceImage": "tools/generate-art/sources/piper-quickstep-pass-attempt2-edit-clean-candidate.png",
+      "sourceSha256": "19572413d7af27ce68075927e7749e6240796ddaef92bafca9f0cbe12cb36037",
+      "reason": "Localized post-release frame4 edit.",
+      "review": {
+        "status": "accepted",
+        "notes": "Independent review accepts all six distinct ordered poses after the attempt2 localized edit. Frame4 now rises upright, closes the stance and lowers the arms, distinct from the frame3 release lunge and frame5 recovery. Piper\u2019s warm-brown adult human identity, bright orange high ponytail, russet/cream kit and complete anatomy are consistent. No basketball/props are present. Clean light/dark previews show transparent background; all six cleaned cells have >=91px margin on every side."
+      }
+    }
+  ]
+}

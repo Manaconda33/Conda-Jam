@@ -1,0 +1,24 @@
+{
+  "status": "accepted",
+  "reviewer": "independent subagent",
+  "notes": "Independent native review inspected all 12 per-frame captures at 100% and 120% in both facings. Frame2 places the ball at Piper\u2019s rear-hip/lower-back load; frame3/tick7 releases beside the trailing fingertips; frames4\u20135 continue the rearward flight cleanly. All captures select production art; no visible clipping or collision.",
+  "zoomPercents": [
+    100,
+    120
+  ],
+  "facings": [
+    "left",
+    "right"
+  ],
+  "frameTicks": [
+    0,
+    2,
+    4,
+    7,
+    8,
+    10
+  ],
+  "releaseFrame": 3,
+  "releaseTick": 7,
+  "productionSelected": true
+}

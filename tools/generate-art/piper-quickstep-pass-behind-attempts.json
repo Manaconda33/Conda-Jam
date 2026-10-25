@@ -1,0 +1,23 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "pass-behind",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "accepted and integrated after independent source/native review",
+      "provenance": "tools/generate-art/piper-quickstep-pass-behind-attempt1-provenance.json",
+      "prompt": "tools/generate-art/piper-quickstep-pass-behind-attempt1-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-pass-behind-attempt1-generated-raw.png",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-pass-behind-attempt1-clean-candidate.png",
+      "review": {
+        "status": "accepted",
+        "reviewer": "independent source-review subagent",
+        "notes": "The six poses read as gather \u2192 rear-hip load \u2192 behind-the-back reach \u2192 release \u2192 follow-through \u2192 recovery. Frames0 and5 share balanced stances but differ in arm positions; frames2\u20134 clearly show the behind-the-back action. Piper identity and complete anatomy are consistent, no ball is present, transparent alpha is clean, and every figure has >=91px margin on each side."
+      },
+      "nativePreviewReports": [
+        "tools/generate-art/previews/piper-quickstep-pass-behind/native-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-pass-behind/native-120/report.json"
+      ]
+    }
+  ]
+}

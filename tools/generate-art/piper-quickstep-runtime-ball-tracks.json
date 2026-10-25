@@ -1,0 +1,121 @@
+{
+  "athlete": "piper-quickstep",
+  "status": "accepted",
+  "tracks": {
+    "shoot": {
+      "athlete": "piper-quickstep",
+      "clip": "shoot",
+      "status": "accepted after native review at100% and120%",
+      "height": [
+        1.13,
+        1.043,
+        1.503,
+        1.503,
+        2.048,
+        2.278,
+        2.278,
+        2.278,
+        1.962,
+        1.187
+      ],
+      "forward": [
+        8.04,
+        9.502,
+        3.655,
+        4.751,
+        7.675,
+        5.847,
+        6.944,
+        7.309,
+        9.867,
+        8.405
+      ],
+      "basis": "Existing reviewed Piper shot track retained from the J.108 atlas provenance."
+    },
+    "pass": {
+      "athlete": "piper-quickstep",
+      "clip": "pass",
+      "status": "accepted after native review at100% and120%, both facings",
+      "height": [
+        1.1,
+        1.2,
+        1.5,
+        1.5,
+        1.45,
+        1.1
+      ],
+      "forward": [
+        8,
+        7.5,
+        12,
+        18,
+        17.5,
+        9
+      ],
+      "basis": "Provisional Piper-specific track: waist gather, chest load, release hand at frame3/tick5, then follow-through and recovery. The atlas contains no basketball.",
+      "releaseFrame": 3,
+      "releaseTick": 5,
+      "nativeReview": "Native Canvas review inspected all 12 per-frame captures at 100% and 120% in both facings. Frames 0\u20132 retain Piper ball ownership; frame 3 releases at tick 5 with the separate ball aligned at the extended fingertips, then frames 4\u20135 continue the pass and recovery. All captures select this production atlas; no visible body collision or court clipping.",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-pass/native-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-pass/native-120/report.json"
+      ]
+    },
+    "pass-overhead": {
+      "athlete": "piper-quickstep",
+      "clip": "pass-overhead",
+      "status": "accepted after native review at100% and120%, both facings",
+      "height": [
+        1.1,
+        2.4,
+        2.45,
+        2.35,
+        2.2,
+        1.75
+      ],
+      "forward": [
+        7,
+        6,
+        4.5,
+        16,
+        18,
+        20
+      ],
+      "releaseFrame": 3,
+      "releaseTick": 7,
+      "nativeReview": "Independent native review inspected all 12 per-frame captures at 100% and 120% in both facings. Frames 1\u20132 place the carried ball at Piper\u2019s overhead hands; frame3 releases near the extended fingertips at tick7; frames4\u20135 continue the flight cleanly. All captures select production art; no visible clipping or body collision.",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-pass-overhead/native-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-pass-overhead/native-120/report.json"
+      ]
+    },
+    "pass-behind": {
+      "athlete": "piper-quickstep",
+      "clip": "pass-behind",
+      "status": "accepted after native review at100% and120%, both facings",
+      "height": [
+        1.15,
+        1.2,
+        1.25,
+        1.4,
+        1.25,
+        1.0
+      ],
+      "forward": [
+        8,
+        4,
+        -5,
+        -12,
+        -17,
+        -22
+      ],
+      "releaseFrame": 3,
+      "releaseTick": 7,
+      "nativeReview": "Independent native review inspected all 12 per-frame captures at 100% and 120% in both facings. Frame2 places the ball at Piper\u2019s rear-hip/lower-back load; frame3/tick7 releases beside the trailing fingertips; frames4\u20135 continue the rearward flight cleanly. All captures select production art; no visible clipping or collision.",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-pass-behind/native-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-pass-behind/native-120/report.json"
+      ]
+    }
+  }
+}

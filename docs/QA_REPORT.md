@@ -1,5 +1,13 @@
 # QA report
 
+## Piper Quickstep — `pass`, `pass-overhead`, and `pass-behind` integrated locally
+
+Piper now has9/29 reviewed clips /70 authored drawings. The three accepted six-pose atlases passed independent source review for pose separation, identity, anatomy, alpha transparency, no ball art, and >=91px cell margins. Pass attempt1 was rejected for similar frames3/4; overhead attempt1 was rejected for similar frames1/2 and3/4. Their localized attempt2 edits passed review. Behind-pass attempt1 passed review.
+
+The separate athlete-specific tracks passed native Canvas review at100%/120% in both facings: chest pass releases at frame3/tick5; overhead and behind-back passes release at frame3/tick7. All12 frame captures per zoom select production art, with hand contact and flight checked. Exact prompts, rejected attempts, raw/clean sources, hashes, layouts, cleanup, proofs and native reports are preserved.
+
+Validation: 36/36 JavaScript test files; 120 animation-sprite assertions; lint18 modules; roster validation35 franchises/105 athletes;100-match simulation /861,421 ticks /6 overtimes;55 atlas packer tests; build. E2E server startup exited before readiness at `127.0.0.1:4175`. Strict audit `2026-10-25T02:37:31.457Z`:799 clips /7,213 drawings /105 athletes;2,304 missing clips; one Luca Velori `run` target shortfall;4 inherited prompt findings. Next lane: Piper `receive`.
+
 ## Marco Vellum — `receive` accepted and integrated locally
 
 - Attempt6 adds four unique poses; Marco now has11/29 clips /79 authored drawings. Its cleaned source preserves all four poses without redraw/rearrangement and has >=219px horizontal /91px vertical margins. The 192×192 atlas has four unique crops. The previous rejected atlas is archived; attempt4 and ball-contaminated attempt5 remain rejected with their prompts and notes.
@@ -11,9 +19,6 @@
 - Added six unique right-facing poses, bringing Marco to8/29 clips /63 authored drawings. Attempt4 passed independent source review after per-cell alpha isolation and uniform downscaling; no pose was redrawn or rearranged. Earlier raw attempts remain rejected and preserved. The final atlas is288×192, uses six distinct cells, and has at least5px transparency on every edge.
 - Marco's separate ball path is reviewed at100% and120% in both facings: carried through frame2, fingertip contact and release at frame3/tick5, then increasing forward separation. All12 native action captures per zoom select production frames. Exact prompts, raw and cleaned sources, hashes, layouts, rejected candidates, proofs and reports are under `tools/generate-art/marco-vellum-pass*`.
 - Focused Marco pass regression passes. Full validation:33 JavaScript test files, lint18 modules, content35 franchises /105 athletes, league simulation100 matches /861,238 ticks /6 overtimes,55 atlas packer tests, build, and Chromium E2E. The strict audit at `2026-10-25T01:27:50.135Z` reports793 clips /7,179 drawings /105 athletes,2,310 missing clips, one target shortfall and4 inherited prompt findings. Pages deployment will be recorded below after workflow verification.
-
-# QA report
-
 ## Marco Vellum — `pass-behind` accepted and integrated locally
 
 - Added six unique right-facing poses; Marco now has10/29 clips /75 authored drawings. Attempt2 passed independent source review after per-cell alpha isolation and uniform downscaling. The accepted 288×192 atlas has six unique poses and >=5px edge clearance; cleaned source margins are >=112px horizontally /91px vertically, with no pose redraw or rearrangement.
@@ -134,8 +139,6 @@
 - Keeg J.105 generation review: eight full-sheet candidates rejected. All 15 isolated poses passed individual human anatomy/identity/transparency review and deterministic 128×96 cell previews; pose07 attempt01 and pose09 attempts01–02 are rejected and preserved. The full pose strip is reviewed; the separate Keeg-specific ball track remains to be aligned and verified before this can become a complete clip source. No atlas or clip registration was created.
 - Refreshed strict report-only audit at `2026-10-24T15:44:20.218Z`:667 clips /5,859 authored drawings /105 athletes;2,436 missing clips,3 target shortfalls,4 inherited prompt findings. Issue #3 remains incomplete.
 - Art commits `7975575`, `8febf97`, `d8248cf`, `35307b7`, `30f5679`, `12d44d6`, `63201c8`, `ca71b2f`, `8741440`, `066c89d`, `7544b2f`, `25faa7b`, and `4b1aee3` are pushed to `main`. These art changes do not trigger Pages. Buzzer celebration runtime commit `3cdc3d6` is deployed successfully in Pages run #158: https://github.com/Manaconda33/Conda-Jam/actions/runs/40101381016. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=3cdc3d6.
-
-# QA report
 
 ## J.105 Keeg `dunk-scythe` asset checkpoint
 

@@ -1,0 +1,30 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "pass",
+  "direction": "right",
+  "attempt": 1,
+  "generatedAt": "2026-10-25",
+  "eligibleForPacking": false,
+  "promptFile": "tools/generate-art/piper-quickstep-pass-attempt1-prompt.md",
+  "prompt": "Create a transparent RGBA sprite sheet, exactly 1536x1024 pixels, strict row-major grid of 3 columns by 2 rows, with six equal 512x512 cells. Put exactly one complete full-body Piper Quickstep drawing, centered in each cell, facing image-right in the same right-facing three-quarter camera. Keep each entire figure, including high ponytail, fingers, shoes, and outlines, inside a centered 330x330 safe area, leaving at least 90 fully transparent pixels between the silhouette and every cell edge. Keep a consistent body scale, baseline, camera, and pixel-art style in all six cells. The background and gutters must be alpha-zero transparency.\n\nPiper is the same athletic adult human woman in every pose: warm brown skin, energetic expressive face, bright orange high ponytail tied securely behind her head, russet-red basketball uniform with cream speed stripes and cream trim, matching red and cream trainers. Preserve her established human anatomy and proportions: exactly two arms and hands, two legs and shoes. Keep her hair, uniform, colors, face, and identity consistent with the existing Piper Quickstep game sprites. Crisp outlined late-1990s arcade pixel art with clear pixel clusters and stable proportions.\n\nCreate six distinct sequential right-facing two-hand chest-pass poses in this exact order:\n0. Balanced ready stance, looking toward a teammate, hands empty and low near the waist.\n1. Gather posture, elbows bent, empty hands approaching each other at the waist; do not cradle or encircle empty space.\n2. Step toward image-right and rotate the torso, raising empty hands to chest level before the pass.\n3. SINGLE RELEASE POSE at frame index 3 / animation tick 5: plant and extend both empty hands toward image-right in a forceful two-hand chest pass, wrists and fingers open. The separate game ball is released from the palms at this exact pose and tick.\n4. Full forward follow-through, arms extended and palms empty after release, with a clearly changed leg and torso position from pose 3.\n5. Balanced recovery after the pass, arms lowering, feet stable, watching the teammate.\n\nThe basketball is rendered separately by gameplay. Do not draw a ball, sphere, circle, dark oval, object, held prop, or ball-shaped empty-hand gap in any cell. Keep the open palms visible and naturally articulated; source art must remain ball-free. Every pose must be complete, distinct, anatomically natural, and safely separated inside its own cell. No background, floor, shadow, court, hoop, glow, haze, tint, gradient, border, divider, grid line, checkerboard, text, logo, badge, number, extra character, or cropped anatomy. Return only the transparent six-cell sprite sheet.",
+  "generationId": "exec-b1befb53-a2b8-4f3d-b279-aeb82d11d953",
+  "rawSource": "tools/generate-art/sources/piper-quickstep-pass-attempt1-generated-raw.png",
+  "rawSourceSha256": "abf20b70092687853533bc421d533c3c00ed54bb3a5e70e5ec47b3e652679009",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-pass-attempt1-clean-candidate.png",
+  "sourceSha256": "49155980a995265afc8e9f17980640e2c1b5cca198ef67e44801758dd5d5dc10",
+  "layoutFile": "tools/generate-art/piper-quickstep-pass-attempt1-layouts.json",
+  "cleanup": {
+    "script": "tools/generate-art/clean-piper-quickstep-pass-attempt1.py",
+    "record": "tools/generate-art/piper-quickstep-pass-attempt1-layouts.json",
+    "previews": [
+      "tools/generate-art/previews/piper-quickstep-pass/attempt1-clean-light.png",
+      "tools/generate-art/previews/piper-quickstep-pass/attempt1-clean-dark.png"
+    ],
+    "method": "per-cell largest alpha>=64 component; retain original antialias pixels within a2px dilation; remove alpha<8 and low-alpha generated glow; uniform nearest-neighbor scale to <=330x330 and center in transparent512x512 cell; no redraw or rearrangement"
+  },
+  "review": {
+    "status": "rejected",
+    "notes": "Independent review found frame3 and frame4 too similar in their forward lunge/torso silhouette. Identity, anatomy, no-ball, separation, transparency and cleaned margins pass; preserved as rejected and replaced with a localized frame4 revision."
+  },
+  "status": "rejected"
+}

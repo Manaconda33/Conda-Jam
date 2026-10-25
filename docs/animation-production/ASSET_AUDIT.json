@@ -13,11 +13,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-25T02:06:00.776Z",
+  "generatedAt": "2026-10-25T02:37:31.457Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 796,
+  "inspectedClips": 799,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -42,24 +42,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "fall"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "piper-quickstep",
-      "direction": "right",
-      "clip": "pass"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "piper-quickstep",
-      "direction": "right",
-      "clip": "pass-overhead"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "piper-quickstep",
-      "direction": "right",
-      "clip": "pass-behind"
     },
     {
       "code": "missing-clip",
@@ -26852,6 +26834,216 @@
           "h": 96,
           "hash": "6ea1884539be3d96fda21495ada5c44256930d883dd10ac2c561da145481d9d4",
           "visiblePixels": 2544
+        }
+      ]
+    },
+    {
+      "athlete": "piper-quickstep",
+      "direction": "right",
+      "clip": "pass",
+      "src": "./public/assets/animation/piper-quickstep-pass-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "27ee37ddd369e1eb05c7342fb4ff206bd8d62eb7be808beaebcf92b88a2b82a0",
+          "visiblePixels": 2685
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "878c43b534b8efaf86b40052a7a18f9f3e02662fd1631a2214033714f5fb0b56",
+          "visiblePixels": 2732
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "visiblePixels": 2890
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2f9ddc6c1a9d1cb331f43414a8e561a88e1423e811fab00d36b12e7c2cd45ccf",
+          "visiblePixels": 3026
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "51eabfd23fa9bcf67855798f227417ca19574003fd0d46c233855b62e7928043",
+          "visiblePixels": 2769
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "68732b017df72f06532d425d9ea6beb534eb6cddef3e4ad1751917a7a6af8b63",
+          "visiblePixels": 2853
+        }
+      ]
+    },
+    {
+      "athlete": "piper-quickstep",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "src": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "8fe5e4e7be1a5a9557c36f4653835783f4b51c612ddb815ee47417634bca2d30",
+          "visiblePixels": 2618
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "c9a71d9873ca41f2ee9d3f798c936bf695dcc7c91308ff3e9af1b46d4027488e",
+          "visiblePixels": 2372
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "visiblePixels": 2847
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "e2680537ddcc709bbf992a2d1411de252192248acd8fe3d672cd16dba2aad2b5",
+          "visiblePixels": 2560
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b7b4f580b1a9da5d4c0aa6129fa3aeccf23187e8c7b5a1a0d4631eb8f30554f8",
+          "visiblePixels": 2936
+        },
+        {
+          "index": 5,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "a1651396537824aaf08c760cca87662a4896531a2533b0b2e728af35c9ac9a91",
+          "visiblePixels": 2758
+        }
+      ]
+    },
+    {
+      "athlete": "piper-quickstep",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9049bd00ccbd46e5c134294f3b2042efb14a135a3cecfaf6f889247bbcce08e6",
+          "visiblePixels": 2484
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b8429fe4072009c9ffa5be2b099a7609c914a0faec985e9454a2bdf461151337",
+          "visiblePixels": 2586
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "visiblePixels": 2756
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2eaf86ce03e916a2a84adb30c7784da1251808c1c4f152bfc8cd5d201ca2a7e0",
+          "visiblePixels": 3004
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "653af19d58689316a5bcd1c98260254fa6fce7bbc9415c93dcd5f5fa56fbb69d",
+          "visiblePixels": 2949
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "336d27addb1677e0ccd0e2d2e67f410308cde25d33030a81f7abd1359b36fb9b",
+          "visiblePixels": 2576
         }
       ]
     },

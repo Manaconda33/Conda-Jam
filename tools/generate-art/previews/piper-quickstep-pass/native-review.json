@@ -1,0 +1,24 @@
+{
+  "status": "accepted",
+  "reviewer": "independent subagent",
+  "notes": "Native Canvas review inspected all 12 per-frame captures at 100% and 120% in both facings. Frames 0\u20132 retain Piper ball ownership; frame 3 releases at tick 5 with the separate ball aligned at the extended fingertips, then frames 4\u20135 continue the pass and recovery. All captures select this production atlas; no visible body collision or court clipping.",
+  "zoomPercents": [
+    100,
+    120
+  ],
+  "facings": [
+    "left",
+    "right"
+  ],
+  "frameTicks": [
+    0,
+    2,
+    4,
+    5,
+    6,
+    8
+  ],
+  "releaseFrame": 3,
+  "releaseTick": 5,
+  "productionSelected": true
+}
