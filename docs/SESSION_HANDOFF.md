@@ -1,3 +1,11 @@
+## J.114 — Piper Quickstep `celebrate` integrated locally
+
+Piper reaches19/29 reviewed clips /143 authored drawings with ten unique celebration poses. The final exact 4×3 transparent source uses the original-component map `[3,2,1,0,5,7,4,6,9,8]` and preserves two unused cells. Earlier cleaned order maps are kept as superseded candidates; no pose was fabricated. The sequence ends on the grounded salute at frame9/tick65. Source, atlas and native reviews confirm Piper identity/anatomy, alpha, >=60px source margins, no ball, and all10 production frames in both facings at100%/120%.
+
+Raw SHA-256 `9b3ea91a355752fa29ebbd623a8802b4ae970a52030c724b9cf5a4a6fe9ae18c`; accepted prompt-compliant 4×3 source SHA-256 `50a3b205f5553be1ca257bcaceddb218411e49f1a5b634257c526f4abd8e39b4`; atlas `public/assets/animation/piper-quickstep-celebrate-right.webp` SHA-256 `2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a`. Prompt, raw/clean sources, cleanup, all layouts/maps, rejected candidates, provenance and native previews are under Piper celebrate files.
+
+Validation passes36/36 JS test files, lint18 modules,35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes,55 atlas-packer tests and build; E2E exits before server readiness at `127.0.0.1:4175/`. Audit `2026-10-25T04:28:58.790Z` counts809 clips /7,286 drawings /105 athletes, 2,294 missing clips, one target shortfall and4 inherited findings. Next canonical action: Piper `dunk-power` (separate ball track still under calibration).
+
 ## J.113 — Piper Quickstep `fall` integrated locally
 
 Piper adds ten distinct fall/recovery drawings and reaches18/29 reviewed clips /133 authored drawings. The accepted 5×2 source preserves all original poses through component-only extraction and uniform centering; all edges have >=62px transparency. Independent source review accepts identity/anatomy, order and upright finish at frame9/tick33; native Canvas previews at100%/120% in both facings select each frame. The athlete sheet is ball-free and no carried track applies to a fall.

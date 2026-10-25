@@ -1,0 +1,271 @@
+[
+  {
+    "athlete": "piper-quickstep",
+    "direction": "right",
+    "clip": "celebrate",
+    "src": "./public/assets/animation/piper-quickstep-celebrate-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "piper-quickstep",
+      "clip": "celebrate",
+      "direction": "right",
+      "attempt": 1,
+      "generationId": "exec-841915ce-d58f-47db-a12c-73331187aa23",
+      "generatedAt": "2026-10-25T04:17:03.281034103Z",
+      "generatedAtEvidence": "raw PNG file modification timestamp",
+      "promptFile": "tools/generate-art/piper-quickstep-celebrate-attempt1-prompt.md",
+      "prompt": "J.114 / Piper Quickstep \u2014 CELEBRATE action sprite sheet, attempt 1.\n\nCreate one clean game-art source sheet, exactly 1536 \u00d7 1536 pixels, true transparent RGBA, arranged as a precise 4-column \u00d7 3-row grid of twelve equal 384 \u00d7 512 px cells. Draw exactly TEN separate complete poses of the SAME Piper Quickstep, in row-major order, cells 0 through 9. Leave cells 10 and 11 fully empty and transparent. Every pose is a complete full-body figure, including every ponytail strand, fingertip, and both shoes. Keep each figure at one consistent scale and shared foot baseline. Maintain at least 60 pixels of fully transparent clearance between every figure part and all four edges of its cell. No overlap, touching, cropping, crossing, or bleed at any cell boundary. Clear empty gutters between every cell.\n\nUse the supplied accepted Piper sheets only as references for her identity, anatomy, uniform, color palette, and rendering style. Do not copy their action poses. Piper is an adult human woman with warm-brown skin, athletic basketball-player proportions, expressive brown eyes, bright orange hair in a high ponytail tied behind her head, a russet-red sleeveless basketball jersey and shorts with cream/white piping and paired side stripes, and red-and-cream high-top basketball shoes with white socks. Preserve the same face, skin, hair, proportions, colors, and fully human anatomy in every pose: two arms, two hands with clear separated fingers, two legs and two shoes. Keep the uniform completely blank: no numbers, writing, marks, logos, jewelry, badges, or extra accessories.\n\nAll ten poses show one continuous, joyful, athletic post-score celebration, right-facing three-quarter profile, same camera angle and lighting. Make every pose visibly distinct, dynamically readable, and complete. Exact row-major sequence:\n0. Grounded anticipation: knees flexed, shoulders relaxed, a restrained pleased smile as she recognizes the score.\n1. Rise onto her toes; one hand begins a compact fist pump near shoulder level while the opposite arm bends naturally.\n2. Small celebratory hop begins, torso lifted, both arms rising toward shoulder height.\n3. Midair victory apex: full-body jump, both arms lifted in a wide celebratory V, hands/fingers distinct and clear of her hair.\n4. Descend from the hop with arms still high but changing angles; ponytail follows the motion.\n5. Land in a balanced athletic stance, elbows bent and both fists raised near her shoulders, smiling.\n6. Turn her chest slightly more toward camera and punch one fist upward while the other arm stays bent by her ribs.\n7. Extend one open hand outward in an inviting celebration gesture, other fist near her shoulder; keep both hands separated from her face and hair.\n8. Step into balance and lower both arms in a distinct sweeping recovery motion.\n9. FINISH at simulation tick 65: grounded confident victory stance, relaxed smile, one hand raised in a modest final salute, other hand on her hip, complete shoes visible.\n\nThe ten source-frame starts must correspond to the authoritative celebrate timing: ticks 0, 5, 10, 16, 24, 34, 44, 52, 59, and 65; frame 9 is the settled finish. Preserve strong separation between all poses and generous transparent margins. Prioritize readable full-body silhouettes over figure size.\n\nThe athlete sheet contains Piper only. Do NOT draw a ball, basketball, ball seams, hoop, rim, court, floor, ground shadow, glow, confetti, sparkles, smoke, scenery, background color, checkerboard, grid, dividers, border, text, numbers, logo, trophy, prop, UI, teammate, audience, or any other person. The basketball remains a separate runtime game object and must never be painted into the sprite. Preserve actual alpha transparency outside the character. Return only the sprite sheet.",
+      "promptVerbatim": true,
+      "referenceFiles": [
+        "tools/generate-art/sources/piper-quickstep-rebound-attempt1-clean-candidate.png",
+        "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt3-clean-candidate.png",
+        "tools/generate-art/sources/piper-quickstep-receive-attempt4-clean-candidate.png"
+      ],
+      "rawSource": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-generated-raw.png",
+      "rawSourceSha256": "9b3ea91a355752fa29ebbd623a8802b4ae970a52030c724b9cf5a4a6fe9ae18c",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "rawMode": "RGBA",
+      "rawReview": {
+        "status": "rejected_as_direct_packing_source",
+        "reviewer": "primary visual inspection",
+        "notes": "Contains all ten full Piper figures in visual reading order but misses the requested 1536x1536 size and consistent source-cell layout. Detached low-opacity red glow/specks surround the figures; first and last source figures sit near the outer border. Preserve raw unchanged; component-only cleanup and per-cell margin review required before packing."
+      },
+      "cleanupScript": "tools/generate-art/clean-piper-quickstep-celebrate-attempt1.py",
+      "cleanupNotes": "The ten original alpha>=64 figure components were extracted from the unchanged generated raw sheet, detached glow/specks removed, antialias alpha retained within 2px, and each original figure uniformly scaled .55 then placed into a 384x512 cell with at least 60px clear margin. Final output-to-initial-cleanup map [3,2,1,0,5,7,4,6,9,8]. This source now matches the prompt grid; no pose pixels were drawn, synthesized, duplicated, or removed.",
+      "sourceImage": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-4x3-candidate.png",
+      "sourceSha256": "50a3b205f5553be1ca257bcaceddb218411e49f1a5b634257c526f4abd8e39b4",
+      "layoutFile": "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts-4x3.json",
+      "sourceReview": {
+        "status": "accepted",
+        "reviewer": "independent final visual reviewer",
+        "reviewedSourceSha256": "50a3b205f5553be1ca257bcaceddb218411e49f1a5b634257c526f4abd8e39b4",
+        "notes": "Accepted exact 4x3/1536x1536 source; verified row-major pose order, full Piper anatomy/identity and blank russet/cream kit, clear separation, transparent alpha and cell margins >=60px, empty cells 10-11, no ball/effects. Frame 8 is arms-low stepping recovery; frame 9 is grounded hand-on-hip salute."
+      },
+      "eligibleForPacking": true,
+      "ballBehavior": "Celebration contains no basketball and has no carry track.",
+      "sourceRemapOutputToInitialFrame": [
+        3,
+        2,
+        1,
+        0,
+        5,
+        7,
+        4,
+        6,
+        9,
+        8
+      ],
+      "initialLayoutEvidence": "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts-initial-order.json",
+      "initialCleanSourceEvidence": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-initial-order.png",
+      "alternateOrderEvidence": [
+        {
+          "mapping": [
+            3,
+            2,
+            1,
+            5,
+            0,
+            7,
+            4,
+            6,
+            9,
+            8
+          ],
+          "source": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-parent-map.png",
+          "layout": "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts-parent-map.json",
+          "rejection": "semantic review placed the asymmetrical airborne reach before the symmetric V apex"
+        },
+        {
+          "mapping": [
+            3,
+            2,
+            1,
+            0,
+            5,
+            7,
+            4,
+            6,
+            8,
+            9
+          ],
+          "source": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-reviewer2-map.png",
+          "layout": "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts-reviewer2-map.json",
+          "rejection": "semantic review ended with arms-wide stepping instead of the grounded salute"
+        }
+      ],
+      "cleanedSource": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-4x3-candidate.png",
+      "cleanedSourceSha256": "50a3b205f5553be1ca257bcaceddb218411e49f1a5b634257c526f4abd8e39b4",
+      "cleanedSize": [
+        1536,
+        1536
+      ],
+      "layout": "4x3 row-major, 1536x1536; frames 0-9 occupied, cells 10-11 empty",
+      "priorClean5x2Candidate": {
+        "source": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-candidate.png",
+        "sha256": "b5db003fe2912d0a7784a97e0cab57ff228b753a4b8e5bb59d817175da9d4f89",
+        "layout": "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts.json",
+        "disposition": "superseded because it did not match the prompted 4x3 source grid; preserved unchanged"
+      },
+      "review": {
+        "status": "accepted_source_and_packed_atlas",
+        "reviewer": "independent final visual reviewer",
+        "sourceSha256": "50a3b205f5553be1ca257bcaceddb218411e49f1a5b634257c526f4abd8e39b4",
+        "notes": "Accepted exact 4x3/1536x1536 source; verified row-major order, full Piper identity/anatomy and blank russet/cream kit, clear pose separation, transparent alpha and cell margins >=60px, empty cells 10-11, no ball/effects. Frame 8 is arms-low stepping recovery; frame 9 is grounded hand-on-hip salute.",
+        "packedAtlasSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a"
+      },
+      "packedAtlas": {
+        "path": "public/assets/animation/piper-quickstep-celebrate-right.webp",
+        "sha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+        "review": "accepted",
+        "preview": "tools/generate-art/previews/piper-quickstep-celebrate/packed/packed-atlas-dark-light-proof.png",
+        "sourceCellMapping": "The packer reads accepted 4x3 source cells 0-9 in row-major order and maps atlas frames 0-9 one-to-one. Exact sourceFrameIndexInitialOrder values are [3,2,1,0,5,7,4,6,9,8]. The two empty prompt cells are omitted from the runtime 5x2 atlas.",
+        "reviewNotes": "Independent packed-atlas review accepted: ten visible ordered poses, no clipping, transparent alpha 0-255, 400x192 RGBA 5x2 grid of 80x96 cells; hands/fist remain inside atlas cells; source mapping retains cells 0-9 and exact remap [3,2,1,0,5,7,4,6,9,8]."
+      },
+      "nativeReview": {
+        "status": "accepted",
+        "reviewer": "independent native Canvas reviewer",
+        "zooms": [
+          100,
+          120
+        ],
+        "facings": [
+          -1,
+          1
+        ],
+        "frameStartsTicks": [
+          0,
+          5,
+          10,
+          16,
+          24,
+          34,
+          44,
+          52,
+          59,
+          65
+        ],
+        "productionSelections": "20/20 per zoom",
+        "notes": "All ten production frames select at both zooms and facings. Sequence reads from anticipation through the V apex, descent, step recovery and final grounded hand-on-hip salute. Identity/anatomy remain readable mirrored; celebration has no ball."
+      },
+      "finalSourceCellMap": [
+        3,
+        2,
+        1,
+        0,
+        5,
+        7,
+        4,
+        6,
+        9,
+        8
+      ],
+      "supersededLayouts": [
+        "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts-initial-order.json",
+        "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts-parent-map.json",
+        "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts-reviewer2-map.json"
+      ]
+    },
+    "review": {
+      "status": "accepted",
+      "zooms": [
+        100,
+        120
+      ],
+      "facings": [
+        -1,
+        1
+      ],
+      "frameStartsTicks": [
+        0,
+        5,
+        10,
+        16,
+        24,
+        34,
+        44,
+        52,
+        59,
+        65
+      ],
+      "sourceFrameMap": [
+        3,
+        2,
+        1,
+        0,
+        5,
+        7,
+        4,
+        6,
+        9,
+        8
+      ],
+      "notes": "Native review selects all ten frames in both facings and zooms; final salute at frame9/tick65 reads clearly, and the progression matches the exact prompt."
+    }
+  }
+]

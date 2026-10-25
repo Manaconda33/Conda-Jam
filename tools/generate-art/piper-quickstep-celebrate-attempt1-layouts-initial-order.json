@@ -1,0 +1,317 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "celebrate",
+  "attempt": 1,
+  "rawSource": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-generated-raw.png",
+  "rawSourceSha256": "9b3ea91a355752fa29ebbd623a8802b4ae970a52030c724b9cf5a4a6fe9ae18c",
+  "cleanedSource": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-candidate.png",
+  "cleanedSourceSha256": "ef3fdf81f70a38ef04013ace805b93a9a345bbf9d56baadfd3146cdd6231ab6f",
+  "cleanedSize": [
+    1536,
+    1024
+  ],
+  "layout": "5x2 row-major mapping; original top-to-bottom/left-to-right reading order preserved",
+  "cleanup": "Global alpha>=64 component extraction retains the ten complete generated figures; detached glow/specks are removed; original antialias alpha is retained only within 2px of each component; each figure is uniformly resized at common scale .55 and centered on the same cell baseline. No figure pixels are drawn, duplicated, or reordered.",
+  "frames": [
+    {
+      "frame": 0,
+      "sourceComponent": 1,
+      "sourceAreaAlpha64": 37350,
+      "sourceBBoxXYXY": [
+        976,
+        21,
+        1245,
+        423
+      ],
+      "rowMajorOutputCell": [
+        0,
+        0
+      ],
+      "uniformScale": 0.55,
+      "outputSize": [
+        150,
+        223
+      ],
+      "outputXY": [
+        78,
+        229
+      ],
+      "transparentMarginsLTRBpx": [
+        78,
+        79,
+        229,
+        60
+      ]
+    },
+    {
+      "frame": 1,
+      "sourceComponent": 2,
+      "sourceAreaAlpha64": 36118,
+      "sourceBBoxXYXY": [
+        691,
+        75,
+        894,
+        430
+      ],
+      "rowMajorOutputCell": [
+        0,
+        1
+      ],
+      "uniformScale": 0.55,
+      "outputSize": [
+        114,
+        197
+      ],
+      "outputXY": [
+        403,
+        255
+      ],
+      "transparentMarginsLTRBpx": [
+        96,
+        97,
+        255,
+        60
+      ]
+    },
+    {
+      "frame": 2,
+      "sourceComponent": 3,
+      "sourceAreaAlpha64": 36677,
+      "sourceBBoxXYXY": [
+        362,
+        96,
+        568,
+        448
+      ],
+      "rowMajorOutputCell": [
+        0,
+        2
+      ],
+      "uniformScale": 0.55,
+      "outputSize": [
+        116,
+        196
+      ],
+      "outputXY": [
+        710,
+        256
+      ],
+      "transparentMarginsLTRBpx": [
+        96,
+        96,
+        256,
+        60
+      ]
+    },
+    {
+      "frame": 3,
+      "sourceComponent": 4,
+      "sourceAreaAlpha64": 36322,
+      "sourceBBoxXYXY": [
+        44,
+        115,
+        263,
+        448
+      ],
+      "rowMajorOutputCell": [
+        0,
+        3
+      ],
+      "uniformScale": 0.55,
+      "outputSize": [
+        123,
+        185
+      ],
+      "outputXY": [
+        1014,
+        267
+      ],
+      "transparentMarginsLTRBpx": [
+        92,
+        92,
+        267,
+        60
+      ]
+    },
+    {
+      "frame": 4,
+      "sourceComponent": 5,
+      "sourceAreaAlpha64": 37464,
+      "sourceBBoxXYXY": [
+        659,
+        461,
+        899,
+        870
+      ],
+      "rowMajorOutputCell": [
+        0,
+        4
+      ],
+      "uniformScale": 0.55,
+      "outputSize": [
+        134,
+        227
+      ],
+      "outputXY": [
+        1315,
+        225
+      ],
+      "transparentMarginsLTRBpx": [
+        86,
+        87,
+        225,
+        60
+      ]
+    },
+    {
+      "frame": 5,
+      "sourceComponent": 6,
+      "sourceAreaAlpha64": 34416,
+      "sourceBBoxXYXY": [
+        35,
+        472,
+        286,
+        863
+      ],
+      "rowMajorOutputCell": [
+        1,
+        0
+      ],
+      "uniformScale": 0.55,
+      "outputSize": [
+        140,
+        217
+      ],
+      "outputXY": [
+        83,
+        747
+      ],
+      "transparentMarginsLTRBpx": [
+        83,
+        84,
+        235,
+        60
+      ]
+    },
+    {
+      "frame": 6,
+      "sourceComponent": 7,
+      "sourceAreaAlpha64": 37645,
+      "sourceBBoxXYXY": [
+        943,
+        532,
+        1248,
+        871
+      ],
+      "rowMajorOutputCell": [
+        1,
+        1
+      ],
+      "uniformScale": 0.55,
+      "outputSize": [
+        170,
+        189
+      ],
+      "outputXY": [
+        375,
+        775
+      ],
+      "transparentMarginsLTRBpx": [
+        68,
+        69,
+        263,
+        60
+      ]
+    },
+    {
+      "frame": 7,
+      "sourceComponent": 8,
+      "sourceAreaAlpha64": 35502,
+      "sourceBBoxXYXY": [
+        369,
+        538,
+        584,
+        869
+      ],
+      "rowMajorOutputCell": [
+        1,
+        2
+      ],
+      "uniformScale": 0.55,
+      "outputSize": [
+        120,
+        184
+      ],
+      "outputXY": [
+        708,
+        780
+      ],
+      "transparentMarginsLTRBpx": [
+        94,
+        94,
+        268,
+        60
+      ]
+    },
+    {
+      "frame": 8,
+      "sourceComponent": 10,
+      "sourceAreaAlpha64": 34355,
+      "sourceBBoxXYXY": [
+        365,
+        878,
+        598,
+        1234
+      ],
+      "rowMajorOutputCell": [
+        1,
+        3
+      ],
+      "uniformScale": 0.55,
+      "outputSize": [
+        130,
+        198
+      ],
+      "outputXY": [
+        1010,
+        766
+      ],
+      "transparentMarginsLTRBpx": [
+        88,
+        89,
+        254,
+        60
+      ]
+    },
+    {
+      "frame": 9,
+      "sourceComponent": 11,
+      "sourceAreaAlpha64": 30871,
+      "sourceBBoxXYXY": [
+        45,
+        909,
+        307,
+        1232
+      ],
+      "rowMajorOutputCell": [
+        1,
+        4
+      ],
+      "uniformScale": 0.55,
+      "outputSize": [
+        146,
+        180
+      ],
+      "outputXY": [
+        1309,
+        784
+      ],
+      "transparentMarginsLTRBpx": [
+        80,
+        81,
+        272,
+        60
+      ]
+    }
+  ]
+}

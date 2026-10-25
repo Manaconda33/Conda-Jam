@@ -1,0 +1,63 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "celebrate",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generation_id": "exec-841915ce-d58f-47db-a12c-73331187aa23",
+      "generated_at_utc": "2026-10-25T04:17:03.281034103Z",
+      "source": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-generated-raw.png",
+      "source_sha256": "9b3ea91a355752fa29ebbd623a8802b4ae970a52030c724b9cf5a4a6fe9ae18c",
+      "prompt": "tools/generate-art/piper-quickstep-celebrate-attempt1-prompt.md",
+      "state": "accepted-source-atlas-and-native-review",
+      "reason": "Contains all ten full Piper figures in visual reading order but misses the requested 1536x1536 size and consistent source-cell layout. Detached low-opacity red glow/specks surround the figures; first and last source figures sit near the outer border. Preserve raw unchanged; component-only cleanup and per-cell margin review required before packing. The raw-order sheet and first remapped candidate are superseded; the final prompt-compliant 4x3 source uses original component map [3,2,1,0,5,7,4,6,9,8], then a documented 5x2 atlas normalization. Independent source, semantic order, packed and native reviews passed.",
+      "cleaned_source": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-4x3-candidate.png",
+      "cleaned_source_sha256": "50a3b205f5553be1ca257bcaceddb218411e49f1a5b634257c526f4abd8e39b4",
+      "cleanup_script": "tools/generate-art/clean-piper-quickstep-celebrate-attempt1.py",
+      "layout": "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts-4x3.json",
+      "review": "Independent source and packed-atlas reviews accepted. 4x3 source matches prompt, margins are >=60px, cells 10-11 empty; packed 5x2 atlas has 10 complete frames with no clipping and transparent alpha.",
+      "sourceRemapOutputToInitialFrame": [
+        3,
+        2,
+        1,
+        0,
+        5,
+        7,
+        4,
+        6,
+        9,
+        8
+      ],
+      "initialCleanedSource": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-initial-order.png",
+      "initialLayout": "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts-initial-order.json",
+      "parentMapCandidate": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-parent-map.png",
+      "reviewer2Candidate": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-reviewer2-map.png",
+      "supersededClean5x2Candidate": {
+        "source": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-candidate.png",
+        "sha256": "b5db003fe2912d0a7784a97e0cab57ff228b753a4b8e5bb59d817175da9d4f89",
+        "layout": "tools/generate-art/piper-quickstep-celebrate-attempt1-layouts.json",
+        "reason": "The independent final reviewer accepted pose order but flagged mismatch with exact requested 4x3/1536x1536 source grid."
+      },
+      "packed_atlas": "public/assets/animation/piper-quickstep-celebrate-right.webp",
+      "packed_atlas_sha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+      "packed_review_proof": "tools/generate-art/previews/piper-quickstep-celebrate/packed/packed-atlas-dark-light-proof.png",
+      "acceptedSource": "tools/generate-art/sources/piper-quickstep-celebrate-attempt1-clean-4x3-candidate.png",
+      "acceptedSourceSha256": "50a3b205f5553be1ca257bcaceddb218411e49f1a5b634257c526f4abd8e39b4",
+      "acceptedAtlas": "public/assets/animation/piper-quickstep-celebrate-right.webp",
+      "acceptedAtlasSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+      "finalSourceFrameMap": [
+        3,
+        2,
+        1,
+        0,
+        5,
+        7,
+        4,
+        6,
+        9,
+        8
+      ],
+      "nativeReview": "PASS: 20/20 production frame/facing captures per zoom at100%/120%; timeline ends on grounded hand-on-hip salute at tick65."
+    }
+  ]
+}

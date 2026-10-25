@@ -23,7 +23,11 @@ def sha256(path: Path) -> str:
 
 def pose_rectangles(image: Image.Image) -> tuple[list[dict], np.ndarray, np.ndarray]:
     if image.mode != "RGBA" or image.width < 1500 or image.height < 700:
-        raise ValueError("Expected a transparent RGBA 5x2 source sheet")
+        raise ValueError("Expected a transparent RGBA 5x2 or prompt-compliant Piper celebrate 4x3 source sheet")
+    if image.size == (1536, 1536):
+        source_columns, source_rows = 4, 3
+    else:
+        source_columns, source_rows = 5, 2
     pixels = np.asarray(image)
     alpha = pixels[:, :, 3]
     if int(alpha.min()) != 0 or int(alpha.max()) < 240:
@@ -31,7 +35,9 @@ def pose_rectangles(image: Image.Image) -> tuple[list[dict], np.ndarray, np.ndar
 
     components, _ = label(alpha >= 64, structure=np.ones((3, 3), dtype=np.uint8))
     rectangles = []
-    minimum_area = image.width * image.height * 0.004
+    # The requested 4x3 Piper source uses smaller, consistently scaled figures
+    # than the legacy 5x2 source sheets, so keep the area cutoff proportional.
+    minimum_area = image.width * image.height * (0.003 if source_columns == 4 else 0.004)
     for component, slices in enumerate(find_objects(components), start=1):
         if slices is None:
             continue
@@ -56,18 +62,18 @@ def pose_rectangles(image: Image.Image) -> tuple[list[dict], np.ndarray, np.ndar
     if len(rectangles) != 10:
         raise ValueError(f"Expected ten separate complete bodies; found {len(rectangles)}")
 
-    cell_width, cell_height = image.width / 5, image.height / 2
+    cell_width, cell_height = image.width / source_columns, image.height / source_rows
     cells = {}
     for rect in rectangles:
-        column = min(4, int(rect["cx"] // cell_width))
-        row = min(1, int(rect["cy"] // cell_height))
+        column = min(source_columns - 1, int(rect["cx"] // cell_width))
+        row = min(source_rows - 1, int(rect["cy"] // cell_height))
         cell = (row, column)
         if cell in cells:
             raise ValueError(f"More than one pose occupies source cell {cell}")
         cells[cell] = rect
-    expected = [(row, col) for row in range(2) for col in range(5)]
+    expected = [(row, col) for index in range(10) for row, col in [divmod(index, source_columns)]]
     if set(cells) != set(expected):
-        raise ValueError("Ten poses must fill every cell of a 5x2 row-major sheet")
+        raise ValueError("Ten poses must fill cells 0-9 in row-major order; all remaining cells must be empty")
     ordered = [cells[cell] for cell in expected]
 
     for index, rect in enumerate(ordered):
@@ -99,6 +105,8 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
 
     with Image.open(source_path) as opened:
         source = opened.copy()
+    if source.size == (1536, 1536) and not (athlete == "piper-quickstep" and clip == "celebrate"):
+        raise ValueError("The 4x3 source layout is reserved for Piper's prompt-compliant celebrate source")
     rectangles, pixels, owners = pose_rectangles(source)
     crops = []
     for rect in rectangles:
@@ -144,7 +152,9 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
         ],
         "uniformScale": scale,
         "componentIsolation": True,
-        "packaging": f"package-action10.py; {cell_width}x96 cells; baseline94; lossless WebP; 10 original {clip} poses",
+        "sourceGrid": "4x3 prompt-compliant source; ten occupied cells, cells 10-11 empty" if source.size == (1536, 1536) else "5x2 source",
+        "sourceCellToAtlasFrame": [rect["sourceIndex"] for rect in rectangles],
+        "packaging": f"package-action10.py; {cell_width}x96 atlas cells; baseline94; lossless WebP; 10 original {clip} poses",
     }
     layout = {
         "athlete": athlete,
