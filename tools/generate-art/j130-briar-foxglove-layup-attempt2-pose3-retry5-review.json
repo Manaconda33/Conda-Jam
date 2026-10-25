@@ -1,0 +1,13 @@
+{
+  "task": "J.130",
+  "frame": 3,
+  "retry": 5,
+  "generation_id": "exec-a2d5d24f-e267-44d2-97bb-0e99113064d7",
+  "decision": "reject",
+  "observations": "High lead knee, sharply tucked trailing leg and clearly palm-up prerelease hand with bent elbow are readable; off-hand opens forward-sideways. Fingertips rise to crown height rather than brow-to-headband band, narrowing distinction from release. Cream-dominant shoes improve canon compliance. Skin still reads orange/bronze rather than deep warm brown; leaf-like white shorts accent prominent rather than subtle. Empty hands, bare wrists, complete right-facing human figure. Reject for skin and hand-height/identity mismatch. All-nonzero alpha bounds fail 20% transparent margins due to low-alpha residue.",
+  "raw_source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry5-raw.png",
+  "sha256": "c5cde3e69a7e4f4a8d3e5db99bfdcc05b9646b3129112574e19c988980d4a4ce",
+  "required_transparent_margin_fraction": 0.2,
+  "raw_alpha_margin_pass": false,
+  "processing": "None. Source remains untouched and unaccepted."
+}

@@ -1,0 +1,13 @@
+{
+  "task": "J.130",
+  "frame": 3,
+  "retry": 4,
+  "generation_id": "exec-ae7b24c9-4322-44c7-a9e5-53c8f58f6aaa",
+  "decision": "reject",
+  "observations": "Palm-up shallow-tray shooting hand with bent elbow is visibly higher than frame2; high lead knee and folded trailing leg preserve ascent. Single complete right-facing human figure, empty hands and bare wrists. Fingertips reach slightly above crown rather than staying brow-to-headband level. Off-hand remains clustered near upper chest rather than opening fully sideways. Skin reads orange/light rather than reference deep warm-brown; shoes predominantly russet rather than cream; conspicuous cream shorts marking. Reject for identity/color and pose mismatches. All-nonzero alpha bounds also fail requested 20% transparent margin; retain untouched.",
+  "raw_source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry4-raw.png",
+  "sha256": "720ef642a834401417a4cc4acf5d744f7824eeac0dce047bf0307e95775ae59f",
+  "required_transparent_margin_fraction": 0.2,
+  "raw_alpha_margin_pass": false,
+  "processing": "None. Source remains untouched and unaccepted."
+}

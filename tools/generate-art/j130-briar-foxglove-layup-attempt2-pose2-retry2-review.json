@@ -1,0 +1,13 @@
+{
+  "task": "J.130",
+  "frame": 2,
+  "retry": 2,
+  "generation_id": "exec-30ce7e37-acfb-411f-8a31-b90228bafa53",
+  "decision": "reject",
+  "observations": "Cheek-level cupped shooting hand, separated low off-hand, high lead knee and sharply folded trailing leg provide appropriate frame2 ascent pose. Single complete right-facing human figure, empty hands and bare wrists. Skin reads substantially orange/light relative to deep warm-brown reference; shoes predominantly russet rather than cream; shorts carry conspicuous cream emblem-like accent. Locs longer/more voluminous and uniform brighter red than reference. These identity/color mismatches require rejection. All-nonzero alpha bounds also fail requested 20% transparent margin; retain untouched.",
+  "raw_source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry2-raw.png",
+  "sha256": "d37b346999c2aceb0a44da3d2ba6f925439cf5dee29354732047e8c4e143e529",
+  "required_transparent_margin_fraction": 0.2,
+  "raw_alpha_margin_pass": false,
+  "processing": "None. Source remains untouched and unaccepted."
+}

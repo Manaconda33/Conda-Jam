@@ -1,0 +1,13 @@
+{
+  "task": "J.130",
+  "frame": 2,
+  "retry": 3,
+  "generation_id": "exec-e7e6c4eb-bd8b-492b-9474-ea72e9de1d89",
+  "decision": "reject",
+  "observations": "Compact high-knee ascent and folded trailing heel preserved. Shooting hand is beside face but fingers rise to brow level, exceeding the requested strictly cheek-level frame2. Off-hand starts opening sideways. Skin remains orange/bronze rather than distinct deep warm brown despite explicit correction. Trainers remain russet-dominant rather than predominantly cream. Prominent white leaf-like shorts emblem exceeds tiny subtle accent. Locs appear longer/more voluminous than accepted compact sprite. Empty hands and bare wrists. Reject. All-nonzero alpha bounds fail 20% transparent margins due to low-alpha residue.",
+  "raw_source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry3-raw.png",
+  "sha256": "83bc2d417df0ad6d28b3bce79ad5e658e0e6f3a1f778b1b09cf5dba1144812dd",
+  "required_transparent_margin_fraction": 0.2,
+  "raw_alpha_margin_pass": false,
+  "processing": "None. Source remains untouched and unaccepted."
+}
