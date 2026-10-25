@@ -1,0 +1,476 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "attempt": 1,
+  "generationId": "exec-06e10426-25c6-4665-bbd0-f104ce0020a8",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-prompt-attempt1.md",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt1-raw.png",
+  "originalGeneratedFile": "/workspace/generated_images/exec-06e10426-25c6-4665-bbd0-f104ce0020a8.png",
+  "sha256": "460e81a5e09abc0386e6b88d027ad45fb0767a8e568ed8bb0daac0946b8eda38",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "mode": "RGBA",
+  "alphaHistogram": {
+    "alpha0": 1199208,
+    "alpha1to63": 78242,
+    "alpha64to254": 295451,
+    "alpha255": 637
+  },
+  "boundsConvention": "Cell bounds and bboxes are [left,top,right,bottom], exclusive right/bottom. Cell-local bbox and margins use L,T,R,B. Odd sheet dimensions partitioned at rounded fractional grid edges.",
+  "cells": [
+    {
+      "cell": 0,
+      "cellBounds": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "bboxAlphaGte1Local": [
+        25,
+        23,
+        436,
+        444
+      ],
+      "marginsLTRBAlphaGte1": [
+        25,
+        23,
+        8,
+        0
+      ],
+      "bboxAlphaGte64Local": [
+        64,
+        99,
+        335,
+        434
+      ],
+      "marginsLTRBAlphaGte64": [
+        64,
+        99,
+        109,
+        10
+      ],
+      "bboxAlphaGte160Local": [
+        65,
+        100,
+        334,
+        433
+      ],
+      "marginsLTRBAlphaGte160": [
+        65,
+        100,
+        110,
+        11
+      ],
+      "nonzeroAlphaPixels": 43989
+    },
+    {
+      "cell": 1,
+      "cellBounds": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "bboxAlphaGte1Local": [
+        6,
+        19,
+        443,
+        444
+      ],
+      "marginsLTRBAlphaGte1": [
+        6,
+        19,
+        0,
+        0
+      ],
+      "bboxAlphaGte64Local": [
+        113,
+        50,
+        303,
+        435
+      ],
+      "marginsLTRBAlphaGte64": [
+        113,
+        50,
+        140,
+        9
+      ],
+      "bboxAlphaGte160Local": [
+        114,
+        51,
+        303,
+        435
+      ],
+      "marginsLTRBAlphaGte160": [
+        114,
+        51,
+        140,
+        9
+      ],
+      "nonzeroAlphaPixels": 47769
+    },
+    {
+      "cell": 2,
+      "cellBounds": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "bboxAlphaGte1Local": [
+        0,
+        22,
+        443,
+        444
+      ],
+      "marginsLTRBAlphaGte1": [
+        0,
+        22,
+        0,
+        0
+      ],
+      "bboxAlphaGte64Local": [
+        130,
+        48,
+        350,
+        431
+      ],
+      "marginsLTRBAlphaGte64": [
+        130,
+        48,
+        93,
+        13
+      ],
+      "bboxAlphaGte160Local": [
+        130,
+        48,
+        350,
+        431
+      ],
+      "marginsLTRBAlphaGte160": [
+        130,
+        48,
+        93,
+        13
+      ],
+      "nonzeroAlphaPixels": 48309
+    },
+    {
+      "cell": 3,
+      "cellBounds": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "bboxAlphaGte1Local": [
+        0,
+        2,
+        440,
+        444
+      ],
+      "marginsLTRBAlphaGte1": [
+        0,
+        2,
+        4,
+        0
+      ],
+      "bboxAlphaGte64Local": [
+        129,
+        15,
+        385,
+        440
+      ],
+      "marginsLTRBAlphaGte64": [
+        129,
+        15,
+        59,
+        4
+      ],
+      "bboxAlphaGte160Local": [
+        130,
+        16,
+        384,
+        439
+      ],
+      "marginsLTRBAlphaGte160": [
+        130,
+        16,
+        60,
+        5
+      ],
+      "nonzeroAlphaPixels": 48869
+    },
+    {
+      "cell": 4,
+      "cellBounds": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "bboxAlphaGte1Local": [
+        0,
+        0,
+        444,
+        413
+      ],
+      "marginsLTRBAlphaGte1": [
+        0,
+        0,
+        0,
+        30
+      ],
+      "bboxAlphaGte64Local": [
+        126,
+        11,
+        378,
+        411
+      ],
+      "marginsLTRBAlphaGte64": [
+        126,
+        11,
+        66,
+        32
+      ],
+      "bboxAlphaGte160Local": [
+        127,
+        12,
+        377,
+        410
+      ],
+      "marginsLTRBAlphaGte160": [
+        127,
+        12,
+        67,
+        33
+      ],
+      "nonzeroAlphaPixels": 46301
+    },
+    {
+      "cell": 5,
+      "cellBounds": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "bboxAlphaGte1Local": [
+        0,
+        0,
+        443,
+        428
+      ],
+      "marginsLTRBAlphaGte1": [
+        0,
+        0,
+        0,
+        15
+      ],
+      "bboxAlphaGte64Local": [
+        114,
+        29,
+        352,
+        425
+      ],
+      "marginsLTRBAlphaGte64": [
+        114,
+        29,
+        91,
+        18
+      ],
+      "bboxAlphaGte160Local": [
+        114,
+        29,
+        351,
+        425
+      ],
+      "marginsLTRBAlphaGte160": [
+        114,
+        29,
+        92,
+        18
+      ],
+      "nonzeroAlphaPixels": 47956
+    },
+    {
+      "cell": 6,
+      "cellBounds": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "bboxAlphaGte1Local": [
+        0,
+        0,
+        443,
+        429
+      ],
+      "marginsLTRBAlphaGte1": [
+        0,
+        0,
+        0,
+        14
+      ],
+      "bboxAlphaGte64Local": [
+        127,
+        59,
+        338,
+        427
+      ],
+      "marginsLTRBAlphaGte64": [
+        127,
+        59,
+        105,
+        16
+      ],
+      "bboxAlphaGte160Local": [
+        128,
+        59,
+        338,
+        426
+      ],
+      "marginsLTRBAlphaGte160": [
+        128,
+        59,
+        105,
+        17
+      ],
+      "nonzeroAlphaPixels": 45322
+    },
+    {
+      "cell": 7,
+      "cellBounds": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "bboxAlphaGte1Local": [
+        0,
+        0,
+        438,
+        427
+      ],
+      "marginsLTRBAlphaGte1": [
+        0,
+        0,
+        6,
+        16
+      ],
+      "bboxAlphaGte64Local": [
+        119,
+        66,
+        343,
+        418
+      ],
+      "marginsLTRBAlphaGte64": [
+        119,
+        66,
+        101,
+        25
+      ],
+      "bboxAlphaGte160Local": [
+        119,
+        66,
+        343,
+        417
+      ],
+      "marginsLTRBAlphaGte160": [
+        119,
+        66,
+        101,
+        26
+      ],
+      "nonzeroAlphaPixels": 45815
+    }
+  ],
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt1-light-dark-review.png",
+  "decision": "REJECTED",
+  "normalized": false,
+  "packed": false,
+  "registered": false,
+  "references": [
+    {
+      "path": "public/assets/animation/briar-foxglove-shoot-right.webp",
+      "sha256": "9303c007d4d8697559670cfa851cc4c9667156daa43c83cef2a29cd0020a34f1"
+    },
+    {
+      "path": "public/assets/animation/briar-foxglove-receive-right.webp",
+      "sha256": "f24bc088ec36f954617fb4e759860e8469a9f6cecaf1640e032a19ee7c110b28"
+    },
+    {
+      "path": "public/assets/animation/briar-foxglove-idle-right.webp",
+      "sha256": "362bce8a820fc1fee21ee43549aa5e2c9e27a7233b1960ff4c40c6c8a5ae9feb"
+    }
+  ],
+  "visualReview": {
+    "reviewed": [
+      "untouched raw at full sheet scale",
+      "light/dark composite with diagnostic cell boundaries"
+    ],
+    "eightDistinctPoses": true,
+    "adultHumanAnatomy": "Broadly passes: each cell has a single complete human adult athlete with two arms, two legs and two shoes; no fox traits or obvious duplicated limbs. Fine fingers are stylized.",
+    "identity": "Broadly passes: brown skin, red headband, dense dark locs, compact athletic female build, russet/cream kit and matching shoes consistently resemble accepted references.",
+    "actualTransparency": "RGBA contains actual alpha=0 pixels (1199208), but gutters also contain residual low-alpha non-character pixels. Fully transparent background requirement fails.",
+    "safeCellMargins": "Fails: nonzero alpha touches cell boundaries in every cell. At alpha>=64 the main figure in cell3 has only4px bottom clearance and15px top clearance; cell4 has11px top clearance. These are narrow gaps for roughly400px tall drawings, not wide safe gutters. Main figures themselves remain separate at alpha>=64.",
+    "emptyHands": "Fails: cell0 visibly cradles an orange spherical ball at the outside hip. Other cells appear empty-handed.",
+    "sequence": "Eight separate silhouettes progress gather, rising knee, chest/face hand lift, high extension, wrist release, descent, landing approach and recovery. Cell3 already has the shooting arm fully extended; cell4 reads as a wrist follow-through. Cell1 reads airborne rather than the precise start of takeoff; these event beats need tighter reference review if a future candidate clears source gates."
+  },
+  "poseReview": [
+    {
+      "cell": 0,
+      "distinct": true,
+      "completeAdultHuman": true,
+      "finding": "Approach/gather pose is distinct and complete, but contains a baked orange basketball between the hands at the hip. Reject."
+    },
+    {
+      "cell": 1,
+      "distinct": true,
+      "completeAdultHuman": true,
+      "finding": "Distinct rising-knee pose, clasped empty hands at chest; already airborne so takeoff timing is imprecise."
+    },
+    {
+      "cell": 2,
+      "distinct": true,
+      "completeAdultHuman": true,
+      "finding": "Distinct face-level shooting hand and separated guide hand, high knee; anatomy broadly sound."
+    },
+    {
+      "cell": 3,
+      "distinct": true,
+      "completeAdultHuman": true,
+      "finding": "Distinct high-reaching extension with folded trailing leg; only4px alpha>=64 clearance at lower cell edge."
+    },
+    {
+      "cell": 4,
+      "distinct": true,
+      "completeAdultHuman": true,
+      "finding": "Distinct release/follow-through wrist and tucked legs; hand approaches top border with11px alpha>=64 clearance."
+    },
+    {
+      "cell": 5,
+      "distinct": true,
+      "completeAdultHuman": true,
+      "finding": "Distinct descending stance with shooting wrist high and guide arm low; feet begin to unfold."
+    },
+    {
+      "cell": 6,
+      "distinct": true,
+      "completeAdultHuman": true,
+      "finding": "Distinct balance/landing approach with both hands low and one foot lowered."
+    },
+    {
+      "cell": 7,
+      "distinct": true,
+      "completeAdultHuman": true,
+      "finding": "Distinct recovery with bent knees, feet apart and empty hands returning near abdomen."
+    }
+  ],
+  "reason": "REJECTED: cell0 has a baked basketball despite the explicit separate-ball requirement. Residual low-alpha pixels reach cell borders, and source gutters are too narrow for safe cells (cell3 bottom4px at alpha>=64; cell4 top11px). Eight poses are distinct and broadly preserve Briar adult-human identity/anatomy, but source gates fail. No cleanup, normalization, packing, registration or acceptance performed."
+}
