@@ -1,0 +1,18 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry15",
+  "decision": "REJECT",
+  "generationId": "exec-c9cc9df7-2c63-4de0-ae52-e2ba4c1a698a",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry15-raw.png",
+  "rawSha256": "2e223aea8c9d4b2775249bc19fed18c3073b2f42b293a4e2409352078de80776",
+  "decodedRgbaPixelSha256": "fd13b68b67fde6d6110e48d1e95f3393f9026860b59de2f4d8313ab47b8c0e90",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry15-light-dark-review.jpg",
+  "checks": {
+    "pose": "Broad peak release reads clearly, with high-forward open shooting palm and lower guide hand; two arms and two legs are visible, no ball.",
+    "identity": "Adult human Briar with locs and red headband; complete anatomy.",
+    "palette": "Skin remains visibly too bright/orange compared with accepted deep-brown Briar art; cream trainers are present.",
+    "transparency": "RGBA alpha exists, but threshold-1 residue reaches close to all canvas edges; zero-alpha field is contaminated by low-alpha pixels.",
+    "cellMargins": "At alpha>=64 margins L/T/R/B=[422,224,297,276]px; top margin17.86%, bottom22.01%, figure height60.13%, violating the <=40% height and >=30% all-edge prompt limits.",
+    "uniqueness": "No pixel-identical J.130 source found."
+  },
+  "reason": "Fails scale, margins, skin palette, and low-alpha residue criteria; preserve raw unchanged."
+}
