@@ -1,0 +1,18 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry16",
+  "decision": "REJECT",
+  "generationId": "exec-8dcfc52e-dfb2-4d5c-a41e-0b0d3bc8a5c6",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry16-raw.png",
+  "rawSha256": "6da0f690345f3408ac5f8766908f98fa9c537c36690b8e61bca9b868efc39ad1",
+  "decodedRgbaPixelSha256": "978a385a1353eaeb17dc9be1e376b85ef172ccf1b3e8181ea03736c52ead025e",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry16-light-dark-review.png",
+  "checks": {
+    "pose": "Readable high-forward peak/release gesture, lead knee raised and rear leg folded; both hands empty; no ball.",
+    "identity": "Locs and red headband identify Briar; two arms, two hands, two legs and two shoes appear complete; human, no fox traits.",
+    "palette": "Skin visibly too orange/bronze relative to Briar canon; trainers are cream-dominant but russet details remain.",
+    "transparency": "RGBA with transparent pixels; inspect low-alpha margins in threshold metrics.",
+    "cellMargins": "Threshold-64 margins L/T/R/B=[452, 267, 372, 326]px, figure height=52.7%; fails requested <=40% height and >=30% all-edge margins.",
+    "uniqueness": "No decoded-RGBA pixel-identical J.130 raw source found."
+  },
+  "reason": "Fails required scale/margins and Briar skin palette. Preserve raw unchanged; no cleanup or packing."
+}
