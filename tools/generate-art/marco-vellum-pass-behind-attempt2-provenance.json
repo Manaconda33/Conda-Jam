@@ -1,0 +1,131 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "pass-behind",
+  "direction": "right",
+  "generatedAt": "2026-10-25",
+  "generationId": "exec-267670ea-1350-426f-8f87-babd17e915d5",
+  "promptFile": "tools/generate-art/marco-vellum-pass-behind-attempt2-prompt.md",
+  "prompt": "Create a six-pose transparent RGBA sprite sheet exactly 1536x1024 pixels, arranged as a strict row-major 3 columns x 2 rows of 512x512 cells. One centered full-body athlete in each cell. Keep every complete silhouette, hair, fingertips, hands, and shoes inside a centered safe area no larger than 330x330px in its own cell; maintain at least 90 fully transparent pixels to every cell edge. Do not let anything touch or cross a cell boundary. Keep the same scale in all poses. Return true zero-alpha empty background and gutters. No tint or haze, gradient, floor, ground shadow, court, hoop, background, grid, divider, checkerboard, text, logos, numbers, badges, props, extra people, sphere or basketball.\n\nThe athlete is Marco Vellum in all six cells: compact athletic adult human man, medium-light olive skin, strong angular clean-shaven face, short thick slightly wavy black hair, black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands, black high-top shoes. Plain uniform front, no marks. Crisp outlined 1990s arcade pixel art. Same right-facing three-quarter camera, same face, hair, build, skin, and kit. Natural complete human anatomy, exactly two arms and hands, two legs and shoes.\n\nShow a readable behind-the-back pass in this precise event order, all hands empty because the ball is supplied by the game on a separate Marco-specific path:\n0. Balanced upright ready stance facing image-right, hands relaxed near waist.\n1. Bend knees and gather around an invisible ball near the near hip; hands mime empty air, no object.\n2. Rotate torso to prepare the behind-the-back pass, elbow bent and empty hand carrying the mime behind the lower back.\n3. RELEASE ANCHOR at frame index3 / animation tick7: plant feet and send the passing arm behind the back toward image-left, fingers open at the endpoint. The pass leaves from this pose.\n4. Behind-the-back follow-through after release, passing arm still extended toward image-left but beginning to relax; not another release.\n5. Return upright to the same balanced ready stance, both empty hands lowered beside the hips.\n\nEach pose is complete, clearly distinct, and anatomically natural. The release happens exactly at index3/tick7; keep hair, fingers and shoes well inside the 330x330 safe area. Never draw a basketball, even in the gather. Return only the six-pose sheet.\n",
+  "sourceImage": "tools/generate-art/sources/marco-vellum-pass-behind-attempt2-clean-candidate.png",
+  "sourceSha256": "12deef5000944bb528c65a44eb44363448183aec8f10d59796b1197aaa44bb9b",
+  "rawSource": "tools/generate-art/sources/marco-vellum-pass-behind-attempt2-generated-raw.png",
+  "rawSourceSha256": "6d85e13e5d2154fb198827d8c41e6e37e3270c6bfa8293897215b412427a4f33",
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "reviewers": [
+      "Codex",
+      "independent visual reviewer"
+    ],
+    "notes": "Attempt2 cleaned source accepted. Six complete ordered poses show ready, empty gather mime, torso rotation, frame3/tick7 behind-the-back release, relaxing follow-through, and balanced recovery. Marco identity, plain black/crimson/white kit and human anatomy are consistent; no ball is painted. Alpha isolation preserves each source pose without redraw/rearrangement. Cleaned source margins are >=112px horizontal and >=91px vertical; dark/light proofs show clean transparency. Native Canvas ball review also passes at100% and120% in both facings; release is frame3/tick7, then the ball separates backward through frames4-5."
+  },
+  "identityReferencesReviewed": [
+    "tools/generate-art/references/marco-vellum-portrait-reference.png",
+    "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+  ],
+  "cleanup": {
+    "script": "tools/generate-art/clean-marco-vellum-pass-behind-attempt2.py",
+    "method": "Per-cell largest alpha>=64 component; retain original antialias pixels within a 2px dilation; remove alpha<8; uniform nearest-neighbor scale to <=330x330 and center in transparent 512px cell; no redraw, synthesis, or pose rearrangement.",
+    "rawSource": "tools/generate-art/sources/marco-vellum-pass-behind-attempt2-generated-raw.png",
+    "cleanedSource": "tools/generate-art/sources/marco-vellum-pass-behind-attempt2-clean-candidate.png",
+    "layouts": "tools/generate-art/marco-vellum-pass-behind-attempt2-layouts.json"
+  },
+  "previews": [
+    "tools/generate-art/previews/marco-vellum-pass-behind/attempt2-clean-light.png",
+    "tools/generate-art/previews/marco-vellum-pass-behind/attempt2-clean-dark.png"
+  ],
+  "ballTrack": {
+    "owner": "marco-vellum",
+    "art": "no ball in atlas; independent Marco-specific runtime path",
+    "status": "accepted after native contact review at 100% and 120%",
+    "height": [
+      1.05,
+      0.95,
+      0.9,
+      1.25,
+      1.25,
+      1.2
+    ],
+    "forward": [
+      5,
+      2,
+      -5,
+      -14,
+      -18,
+      -22
+    ],
+    "nativeReview": {
+      "zooms": [
+        100,
+        120
+      ],
+      "facings": [
+        "right",
+        "left"
+      ],
+      "releaseFrame": 3,
+      "releaseTick": 7,
+      "frames": {
+        "0-2": "behind-back gather and setup, owner Marco",
+        "3": "image-left behind-back release at tick7",
+        "4-5": "backward flight, owner null"
+      },
+      "clipSummariesPerZoom": 2,
+      "actionFrameCapturesPerZoom": 12,
+      "review": "Independent native Canvas reviewer checked all12 action-frame captures at100% and120%. Production frame selection passed in both facings. Ball remains owned through frame2, aligns with the behind-back release at frame3/tick7, then separates backward through frames4-5 in both facings; no body collision or legibility adjustment was needed.",
+      "reports": [
+        "tools/generate-art/previews/marco-vellum-pass-behind/native-100/report.json",
+        "tools/generate-art/previews/marco-vellum-pass-behind/native-120/report.json"
+      ]
+    }
+  },
+  "attemptHistory": [
+    {
+      "generationId": "exec-d330e8f5-d266-41bf-9a6b-830167b8a12c",
+      "source": "tools/generate-art/sources/marco-vellum-pass-behind-attempt1-rejected-raw.png",
+      "status": "rejected",
+      "reason": "Bright red hair did not match Marco\u2019s short black hair; retained with exact prompt."
+    },
+    {
+      "generationId": "exec-5d15f2c2-ee85-4da6-9894-03ba626bd556",
+      "source": "tools/generate-art/sources/marco-vellum-pass-behind-generated-raw.png",
+      "status": "rejected-after-audit",
+      "reason": "Previously labeled accepted, but independent source measurement found multiple poses below the prompt\u2019s35px margins and frame3 at zero right clearance; no native Marco ball track existed. Full historical package preserved under tools/generate-art/layout-archives/marco-vellum-pass-behind-20261025/prior-margin-rejected/."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-267670ea-1350-426f-8f87-babd17e915d5",
+      "rawSource": "tools/generate-art/sources/marco-vellum-pass-behind-attempt2-generated-raw.png",
+      "rawSourceSha256": "6d85e13e5d2154fb198827d8c41e6e37e3270c6bfa8293897215b412427a4f33",
+      "status": "accepted-after-cleanup"
+    }
+  ],
+  "archive": "tools/generate-art/layout-archives/marco-vellum-pass-behind-20261025/",
+  "ballTrackPlan": {
+    "releaseFrame": 3,
+    "releaseTick": 7,
+    "frames": {
+      "0-2": "behind-back gather, owner Marco",
+      "3": "behind-back release toward image-left",
+      "4-5": "backward flight with owner null"
+    }
+  },
+  "runtimeBallTrack": {
+    "height": [
+      1.05,
+      0.95,
+      0.9,
+      1.25,
+      1.25,
+      1.2
+    ],
+    "forward": [
+      5,
+      2,
+      -5,
+      -14,
+      -18,
+      -22
+    ]
+  }
+}

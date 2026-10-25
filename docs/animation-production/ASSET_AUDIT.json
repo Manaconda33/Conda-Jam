@@ -13,11 +13,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-25T01:45:40.863Z",
+  "generatedAt": "2026-10-25T01:54:32.933Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 794,
+  "inspectedClips": 795,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -606,12 +606,6 @@
       "athlete": "sable-regent",
       "direction": "right",
       "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "marco-vellum",
-      "direction": "right",
-      "clip": "pass-behind"
     },
     {
       "code": "missing-clip",
@@ -47672,6 +47666,76 @@
           "h": 96,
           "hash": "239152cb88e296be227d59f7eeb56e241eca160de799ccb522af4106d3c8aed3",
           "visiblePixels": 2206
+        }
+      ]
+    },
+    {
+      "athlete": "marco-vellum",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/marco-vellum-pass-behind-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "052d20a49bda705303a42384372372f94fe178a445775eb0e988ea1e6ed872a8",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6867559ee529f1bc5c514cdbacc494923f8915a904df75a13741d8670f436be0",
+          "visiblePixels": 2166
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "30b2ff59345a6430acc30b751a1fb42c40acd74c78ab77344575a383ce6bc04e",
+          "visiblePixels": 2480
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c695cebbe7e5a5be4ce3e62d94cab9038b860e4c16201ca987f53b6b7a45eaba",
+          "visiblePixels": 2637
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "709164b99aaecfe1dc8d69ab7d683be80c1ac25bb57c46ac33e606c359b5004d",
+          "visiblePixels": 2758
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1d7456d5dcf8c60bb2f76758774b372786fec2e5d0fa11468db09afa1663a2a0",
+          "visiblePixels": 2763
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7f594855631b8be230fe879203a3c3ad7f3513a93fcd2fc52cbd3fcada3fff6e",
+          "visiblePixels": 2167
         }
       ]
     },

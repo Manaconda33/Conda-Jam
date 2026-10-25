@@ -203,6 +203,52 @@
           "tools/generate-art/previews/marco-vellum-pass-overhead/native-120/report.json"
         ]
       }
+    },
+    "pass-behind": {
+      "athlete": "marco-vellum",
+      "clip": "pass-behind",
+      "status": "accepted after native contact review at 100% and 120%",
+      "height": [
+        1.05,
+        0.95,
+        0.9,
+        1.25,
+        1.25,
+        1.2
+      ],
+      "forward": [
+        5,
+        2,
+        -5,
+        -14,
+        -18,
+        -22
+      ],
+      "basis": "Marco-specific separate-ball track calibrated against accepted attempt2 pass-behind art in native Canvas captures. The ball remains carried through frame2, aligns with the behind-the-back release at frame3/tick7, then separates backward at frames4-5. No basketball is painted in the atlas.",
+      "nativeReview": {
+        "zooms": [
+          100,
+          120
+        ],
+        "facings": [
+          "right",
+          "left"
+        ],
+        "releaseFrame": 3,
+        "releaseTick": 7,
+        "frames": {
+          "0-2": "behind-back gather and setup, owner Marco",
+          "3": "image-left behind-back release at tick7",
+          "4-5": "backward flight, owner null"
+        },
+        "clipSummariesPerZoom": 2,
+        "actionFrameCapturesPerZoom": 12,
+        "review": "Independent native Canvas reviewer checked all12 action-frame captures at100% and120%. Production frame selection passed in both facings. Ball remains owned through frame2, aligns with the behind-back release at frame3/tick7, then separates backward through frames4-5 in both facings; no body collision or legibility adjustment was needed.",
+        "reports": [
+          "tools/generate-art/previews/marco-vellum-pass-behind/native-100/report.json",
+          "tools/generate-art/previews/marco-vellum-pass-behind/native-120/report.json"
+        ]
+      }
     }
   },
   "basis": "Marco-specific frame-indexed tracks; shoot contact was checked in actual native Canvas captures at 100% and 120% in both facings. Source art and the separate ball path remain independently recorded."

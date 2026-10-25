@@ -1112,6 +1112,8 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   // The overhead pass holds at the raised hands through frame 3/tick 7,
   // then travels away from the high follow-through on Marco's separate track.
   'pass-overhead':{height:[1.05,1.45,1.9,2.05,2.15,2.2],forward:[5,6,8,11,16,22]},
+  // Marco releases the behind-the-back pass at frame3/tick7 toward image-left.
+  'pass-behind':{height:[1.05,.95,.9,1.25,1.25,1.2],forward:[5,2,-5,-14,-18,-22]},
   pickup:{height:[0,0,0,.25,.9],forward:[8,8,9,.5,-9]}
 },'flint-rooker':{
   // Flint's short-haired lead-hand poses need the separate ball ahead of his

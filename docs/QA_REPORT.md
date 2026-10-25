@@ -6,12 +6,19 @@
 
 # QA report
 
+## Marco Vellum — `pass-behind` accepted and integrated locally
+
+- Added six unique right-facing poses; Marco now has10/29 clips /75 authored drawings. Attempt2 passed independent source review after per-cell alpha isolation and uniform downscaling. The accepted 288×192 atlas has six unique poses and >=5px edge clearance; cleaned source margins are >=112px horizontally /91px vertically, with no pose redraw or rearrangement.
+- Marco’s separate ball path passed native Canvas review at100%/120% in both facings. Possession holds through frame2, the backward pass releases from the open behind-the-back hand at frame3/tick7, then travels toward image-left unowned in frames4–5. All12 action captures per zoom select production art. Native reports are under `tools/generate-art/previews/marco-vellum-pass-behind/native-{100,120}/`.
+- The old source labeled accepted was rejected after independent measurement found frame3 at zero right margin and several poses below its35px minimum; its atlas and provenance are archived. A Marco-specific ball path was also absent. The replacement prompt, source, rejected red-hair generation, cleanup, proofs and hashes are retained under `tools/generate-art/marco-vellum-pass-behind*`.
+- Focused pass-behind regression passes. Validation: `npm test`35/35 files, lint18 modules, content35/105, simulation100 matches /861,238 ticks /6 overtimes, build, Chromium E2E. Strict audit refreshed `2026-10-25T01:54:32.933Z`:795 clips /7,191 authored drawings /105 athletes,2,308 missing clips, one target shortfall and4 inherited prompt findings.
+
 ## Marco Vellum — `pass-overhead` accepted and integrated locally
 
-- Added six unique right-facing poses; Marco now has9/29 clips /69 authored drawings. Attempt4 passed independent source review after per-cell alpha isolation and uniform downscaling. Its 288×192 atlas has six distinct cells and >=5px transparency on every edge. The cleaned source preserves original poses without redraw or rearrangement, with >=119px horizontal and >=91px vertical margins.
+- Added six unique right-facing poses; Marco now has10/29 clips /75 authored drawings. Attempt4 passed independent source review after per-cell alpha isolation and uniform downscaling. Its 288×192 atlas has six distinct cells and >=5px transparency on every edge. The cleaned source preserves original poses without redraw or rearrangement, with >=119px horizontal and >=91px vertical margins.
 - Marco’s separate ball track passes native Canvas review at100% and120% in both facings. It stays owned through frame2/tick5, meets the extended hands on frame3/tick7, and travels forward unowned through frames4–5. All12 action captures per zoom select the production atlas. Reports and captures are under `tools/generate-art/previews/marco-vellum-pass-overhead/native-{100,120}/`.
 - Rejected timing-mismatch attempt3 and ball-contaminated attempt5 remain preserved; attempt6 is retained as an unused alternate. The prior accepted label on `pass-behind` was contradicted by an independent source audit: frame3 touches a cell edge, several frames miss the prompt’s35px margins, and the runtime ball track is missing. It remains source-only pending rework.
-- Focused pass-overhead regression passes. Validation: `npm test`34/34 files, lint18 modules, content validation35 franchises/105 athletes, league simulation100 matches /861,238 ticks /6 overtimes, build and Chromium E2E. Strict audit at `2026-10-25T01:45:40.863Z`:794 clips /7,185 authored drawings /105 athletes,2,309 missing clips, one shortfall and4 inherited prompt findings.
+- Focused pass-overhead regression passes. Validation: `npm test`34/34 files, lint18 modules, content validation35 franchises/105 athletes, league simulation100 matches /861,238 ticks /6 overtimes, build and Chromium E2E. Strict audit at `2026-10-25T01:54:32.933Z`:795 clips /7,191 authored drawings /105 athletes,2,308 missing clips, one shortfall and4 inherited prompt findings.
 
 ## Marco Vellum — `shoot` accepted and integrated
 

@@ -15,7 +15,7 @@ Moxie's24 new source-only atlases were integrated after complete pose, anatomy, 
 
 J.108 Piper Quickstep `shoot` and J.109 Briar Foxglove `shoot` each register ten new unique poses. Both preserve the correct adult-human identity and separate basketball tracks, hold possession through tick12, and release on frame05/tick13. Source crops, exact prompts, rejected generations, cleanup, provenance, packed-cell previews, and standard/120% native renders are stored under their J.108/J.109 prefixes.
 
-Marco Vellum now has nine registered clips /69 drawings after integrating the six-pose `pass-overhead`. Attempt4 passed independent source review after per-cell alpha isolation and uniform downscaling; the accepted 288×192 atlas contains six unique poses with >=5px cell margins, while the cleaned source keeps >=119px horizontal and >=91px vertical margins. Native Canvas review confirms a separate Marco ball track releases at frame3/tick7 and separates through frames4–5 at100%/120% in both facings. Prompts, rejected timing/ball candidates, hashes, cleanup, layouts, archives, proofs and captures are preserved under `tools/generate-art/marco-vellum-pass-overhead*`. The existing `pass-behind` candidate is next but fails its documented source-margin gate and has no runtime ball track; rework it before registration. Krios is at8/29 with `shoot`, `pass` and `pass-overhead` source packages (not registered in the runtime manifest); Sable Regent is at15/29 with `steal`. Keeg J.104 `dunk-clutch` is registered with15 authored poses; its source-only peer packs remain outside the strict registered count.
+Marco Vellum now has ten registered clips /75 drawings after integrating `pass-overhead` and `pass-behind`. Both accepted six-pose sheets passed independent source review after alpha isolation and uniform downscaling, without redrawing or rearrangement. Their separate Marco ball tracks release at frame3/tick7 and pass native review at100%/120% in both facings: overhead flight moves forward; behind-back flight moves backward. The former behind-pass atlas labeled accepted was rejected after margin/track audit and archived. Prompts, raw and clean sources, rejected candidates, hashes, cleanup, layouts, archives, proofs and captures remain under `tools/generate-art/marco-vellum-pass-*`. Marco’s next clip is `receive`; its existing attempt4 fails the40px margin requirement, has hair touching the top edge and an unrequested chest emblem, and lacks a Marco ball track, so it must be regenerated. Krios is at8/29 with `shoot`, `pass` and `pass-overhead` source packages (not registered in the runtime manifest); Sable Regent is at15/29 with `steal`. Keeg J.104 `dunk-clutch` is registered with15 authored poses; its source-only peer packs remain outside the strict registered count.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -65,7 +65,7 @@ Marco Vellum now has nine registered clips /69 drawings after integrating the si
 | sera-bellini | 5 | 42 | 162,542 |
 | moxie-capwell | 29 | 293 | 2,330,618 |
 | sable-regent | 5 | 42 | 160,442 |
-| marco-vellum | 9 | 69 | 321,782 |
+| marco-vellum | 10 | 75 | 361,908 |
 | ash-harth | 5 | 42 | 193,978 |
 | flint-rooker | 5 | 42 | 181,944 |
 | marin-dusk | 5 | 42 | 163,592 |
