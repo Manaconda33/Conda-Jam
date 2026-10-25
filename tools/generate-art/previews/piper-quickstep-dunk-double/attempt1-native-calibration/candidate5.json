@@ -1,0 +1,10 @@
+{
+  "candidate": 5,
+  "sourceAttempt": 1,
+  "track": {
+    "height": [0.95, 1.1, 1.25, 1.7, 1.65, 2.0, 1.55, 1.6, 2.35, 1.0, 2.1, 1.2, 1.25, 0.75, 0.55],
+    "forward": [6, 8, 8, 5, 3, 2, 3.5, 5, 6.2, 5.5, 12, 10, 7, 5, 5]
+  },
+  "status": "provisional",
+  "reason": "Candidate4 remained right/high at 120% on the last carried tick. Candidate5 lowers and pulls frame9 ball toward the extended hand."
+}

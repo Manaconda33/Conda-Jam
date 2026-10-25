@@ -1,0 +1,111 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-double",
+  "status": "accepted-preview-only",
+  "candidate": 6,
+  "sourceAttempt": 1,
+  "track": {
+    "height": [
+      0.95,
+      1.1,
+      1.25,
+      1.7,
+      1.65,
+      2.0,
+      1.55,
+      1.6,
+      2.35,
+      1.8,
+      2.1,
+      1.2,
+      1.25,
+      0.75,
+      0.55
+    ],
+    "forward": [
+      6,
+      8,
+      8,
+      5,
+      3,
+      2,
+      3.5,
+      5,
+      6.2,
+      6.0,
+      12,
+      10,
+      7,
+      5,
+      5
+    ]
+  },
+  "releaseFrame": 10,
+  "releaseTick": 21,
+  "ownerThroughTick": 20,
+  "scoreTick": 23,
+  "expectedScore": 2,
+  "candidateAtlas": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-atlas-candidate/candidate-atlas.webp",
+  "candidateAtlasSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+  "previewOnly": true,
+  "runtimeRegistered": false,
+  "reviews": [
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-independent-review.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-parent-review.json"
+  ],
+  "candidateHistory": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate-history.json",
+  "previewReports": [
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-100/report.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-120/report.json"
+  ],
+  "simulationReport": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-simulation.json",
+  "nativeChecks": [
+    {
+      "zoomPercent": 100,
+      "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+      "actionSamples": 32,
+      "uniqueFramesPerFacing": {
+        "right": 15,
+        "left": 15
+      },
+      "lastCarryTick20PerFacing": {
+        "right": 1,
+        "left": 1
+      },
+      "allSelectedCandidateAtlas": true,
+      "releaseFrame10": [
+        {
+          "frame": 10,
+          "tick": 21,
+          "hasBall": false,
+          "ballMode": "dunk",
+          "ballOwnerId": null
+        }
+      ]
+    },
+    {
+      "zoomPercent": 120,
+      "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+      "actionSamples": 32,
+      "uniqueFramesPerFacing": {
+        "right": 15,
+        "left": 15
+      },
+      "lastCarryTick20PerFacing": {
+        "right": 1,
+        "left": 1
+      },
+      "allSelectedCandidateAtlas": true,
+      "releaseFrame10": [
+        {
+          "frame": 10,
+          "tick": 21,
+          "hasBall": false,
+          "ballMode": "dunk",
+          "ballOwnerId": null
+        }
+      ]
+    }
+  ],
+  "knownLimitation": "Small residual ball-to-fingertip separation at 120%, accepted as the best compromise across 100%/120% and both facings."
+}

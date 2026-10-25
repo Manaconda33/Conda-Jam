@@ -1,0 +1,15 @@
+{
+  "candidate": 1,
+  "sourceAttempt": 1,
+  "status": "rejected",
+  "reason": "Native renderer shows ball floating too high and forward at both first overhead frame5 and second-pump last-carry frame9/tick20; frame6 chest-reset contact is occluded/unclear. Candidate is not eligible for registration.",
+  "reviewPoints": {
+    "frame5_tick10": "ball center visibly above and forward of raised hand",
+    "frame6_tick12": "chest reset hand contact unclear under the ball",
+    "frame9_tick19_and_tick20": "ball center too high and forward of extended fingertips",
+    "frame10_tick21": "ownerless release pose timing remains correct"
+  },
+  "nativeReports": [
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate1-100/report.json"
+  ]
+}

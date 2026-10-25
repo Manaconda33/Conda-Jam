@@ -1,0 +1,42 @@
+{
+  "candidate": 3,
+  "sourceAttempt": 1,
+  "track": {
+    "height": [
+      0.95,
+      1.1,
+      1.25,
+      1.7,
+      1.65,
+      2.0,
+      1.55,
+      1.6,
+      2.35,
+      2.1,
+      2.1,
+      1.2,
+      1.25,
+      0.75,
+      0.55
+    ],
+    "forward": [
+      6,
+      8,
+      8,
+      5,
+      3,
+      2,
+      3.5,
+      5,
+      6.2,
+      6.5,
+      12,
+      10,
+      7,
+      5,
+      5
+    ]
+  },
+  "status": "candidate-accepted-for-parent-review",
+  "reason": "Reviewer found frame5/frame6 contact good. Candidate3 was accepted by independent review, with a small frame9/tick20 separation in some captures at 100/120 noted."
+}

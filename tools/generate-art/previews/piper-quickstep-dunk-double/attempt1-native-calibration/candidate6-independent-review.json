@@ -1,0 +1,14 @@
+{
+  "candidate": 6,
+  "sourceAttempt": 1,
+  "status": "accepted-preview-only",
+  "reviewer": "independent native calibration reviewer",
+  "reviewNotes": "Best overall compromise. At 100%, right tick20 reads fingertip contact; left has a small edge gap. At 120%, right ball is just above/at fingertips with a small residual gap; left appears on/near the hand. This is closer than candidate4 at 120% and avoids candidate3\u2019s larger high gap. Frame9 uses the same contact vector as tick20. Frame10 remains the sole open-palm release.",
+  "limitations": [
+    "A small residual separation remains at 120%, especially in the right facing; record this as a known native preview limitation."
+  ],
+  "previewReports": [
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-100/report.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-120/report.json"
+  ]
+}

@@ -1,10 +1,12 @@
 # Animation asset status
 
-Issue #3 remains in progress. The strict report-only audit at `2026-10-25T12:55:09.143Z` inspects **814 registered clips / 7,361 unique authored drawings** across **105 athletes**. It reports **2,289 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
+Issue #3 remains in progress. The strict report-only audit at `2026-10-25T13:10:00.909Z` inspects **815 registered clips / 7,376 unique authored drawings** across **105 athletes**. It reports **2,288 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
 
-Piper's J.115–J.119 dunks are accepted and registered. J.119 track H `[.95,1.1,1.25,1.7,1.9,2.05,2.2,2.45,2.4,2.35,1.5,2,1.4,.7,.55]` / F `[6,8,4,-2,-10,-7,-8,-5,12,2,8,6,8,5,6]` passed both-facings native review at100%/120%, with a small frame9/120% contact gap documented. The live sim confirms tick21 ownerless release and one two-point score.
+Piper's J.115–J.120 dunks are accepted and registered. J.120 `dunk-double` source SHA-256 `2405d866e27b4e153ad19f91e4e02502ddf1723435085a40db8a88cbd87074da` and atlas SHA-256 `4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554` passed review for distinct two-pump pose order, identity/anatomy, transparency, no ball and >=28px margins. The exact prompt has a documented frame10 row/column erratum; canonical release is row3/column1. Native candidates1–5 remain rejected and preserved.
 
-J.120 Piper `dunk-double` attempt1 source passed independent review for the first pump, chest reset, higher second pump, sole frame10 release, anatomy, alpha, no ball and >=28px margins. Raw backdrop is rejected for direct packing. The exact prompt includes an incorrect parenthetical cell-location for frame10; provenance records the erratum and confirms the source follows canon's row3/column1. Native track and atlas are pending.
+J.120 accepted track H `[.95,1.1,1.25,1.7,1.65,2.0,1.55,1.6,2.35,1.8,2.1,1.2,1.25,.75,.55]` / F `[6,8,8,5,3,2,3.5,5,6.2,6.0,12,10,7,5,5]` keeps Piper in possession through tick20 and releases ownerless at21. Both facings pass100%/120% native review; a real simulation scores one two-point dunk. The small residual fingertip gap at120% is recorded and accepted as the cross-facing compromise.
+
+J.121 Piper `dunk-clutch` attempt5 source SHA-256 `5147a3d29c566144c116e0e4545871e5f96c5f2acf595be740a39d4e52b4fbd8` passed independent and parent review. The fifteen poses preserve Piper's identity/anatomy, transparent alpha and >=28px margins; frame9 carries with a C-shaped empty-air grip and frame10 is the sole open-palm release. Native ball-track review and atlas packing remain pending. Earlier J.121 attempts1–4 and their frame9 rejection findings remain preserved.
 
 
 

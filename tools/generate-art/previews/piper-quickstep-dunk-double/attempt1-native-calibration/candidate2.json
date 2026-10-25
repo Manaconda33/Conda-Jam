@@ -1,0 +1,42 @@
+{
+  "candidate": 2,
+  "sourceAttempt": 1,
+  "track": {
+    "height": [
+      0.95,
+      1.1,
+      1.25,
+      1.7,
+      1.65,
+      0.9,
+      0.2,
+      0.65,
+      0.85,
+      0.25,
+      0.25,
+      1.2,
+      1.25,
+      0.75,
+      0.55
+    ],
+    "forward": [
+      6,
+      8,
+      8,
+      5,
+      3,
+      3.5,
+      7,
+      6,
+      8,
+      8.5,
+      12,
+      10,
+      7,
+      5,
+      5
+    ]
+  },
+  "status": "rejected",
+  "reason": "Rendered ball too low at frame5, frame6 chest reset, and frame8/9 second pump. No plausible contact with the raised hand points."
+}

@@ -1,0 +1,235 @@
+{
+  "clip": "dunk-double",
+  "athlete": "piper-quickstep",
+  "candidates": [
+    {
+      "candidate": 1,
+      "status": "rejected",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.7,
+          2.25,
+          2.7,
+          1.65,
+          2.05,
+          2.8,
+          3.0,
+          3.0,
+          2.0,
+          1.25,
+          0.75,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          8,
+          5,
+          3,
+          5,
+          8,
+          7,
+          9,
+          12,
+          14,
+          10,
+          7,
+          5,
+          5
+        ]
+      },
+      "reason": "Native renderer shows ball floating too high and forward at both first overhead frame5 and second-pump last-carry frame9/tick20; frame6 chest-reset contact is occluded/unclear. Candidate is not eligible for registration.",
+      "review": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate1-review.json"
+    },
+    {
+      "candidate": 2,
+      "status": "rejected",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.7,
+          1.65,
+          0.9,
+          0.2,
+          0.65,
+          0.85,
+          0.25,
+          0.25,
+          1.2,
+          1.25,
+          0.75,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          8,
+          5,
+          3,
+          3.5,
+          7,
+          6,
+          8,
+          8.5,
+          12,
+          10,
+          7,
+          5,
+          5
+        ]
+      },
+      "reason": "Candidate2 preview puts the ball below the raised hand at frame5, below the chest reset at frame6, and below the second extension at frame8/9.",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate2-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate2-120/report.json"
+      ],
+      "review": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate2-review.json"
+    },
+    {
+      "candidate": 3,
+      "status": "rejected-after-parent-review",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.7,
+          1.65,
+          2.0,
+          1.55,
+          1.6,
+          2.35,
+          2.1,
+          2.1,
+          1.2,
+          1.25,
+          0.75,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          8,
+          5,
+          3,
+          2,
+          3.5,
+          5,
+          6.2,
+          6.5,
+          12,
+          10,
+          7,
+          5,
+          5
+        ]
+      },
+      "reason": "Parent visual review found the 120% right-facing pre-release ball visibly detached high/right; candidate was improved by the intermediate candidate6 track.",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate3-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate3-120/report.json"
+      ],
+      "review": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate3-independent-review.json",
+      "parentReview": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate3-parent-review.json"
+    },
+    {
+      "candidate": 4,
+      "status": "rejected",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.7,
+          1.65,
+          2.0,
+          1.55,
+          1.6,
+          2.35,
+          1.5,
+          2.1,
+          1.2,
+          1.25,
+          0.75,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          8,
+          5,
+          3,
+          2,
+          3.5,
+          5,
+          6.2,
+          6.5,
+          12,
+          10,
+          7,
+          5,
+          5
+        ]
+      },
+      "reason": "Candidate4 improves 100% frame9/tick20, but independent review finds it below the hand at 120% in right-facing and somewhat low in left-facing.",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate4-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate4-120/report.json"
+      ],
+      "review": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate4-review.json"
+    },
+    {
+      "candidate": 6,
+      "status": "accepted-preview-only",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.7,
+          1.65,
+          2.0,
+          1.55,
+          1.6,
+          2.35,
+          1.8,
+          2.1,
+          1.2,
+          1.25,
+          0.75,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          8,
+          5,
+          3,
+          2,
+          3.5,
+          5,
+          6.2,
+          6.0,
+          12,
+          10,
+          7,
+          5,
+          5
+        ]
+      },
+      "reason": "Accepted by independent reviewer and parent with residual 120% separation documented.",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-120/report.json"
+      ],
+      "simulation": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-simulation.json",
+      "independentReview": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-independent-review.json",
+      "parentReview": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-parent-review.json"
+    }
+  ]
+}

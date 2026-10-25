@@ -1,0 +1,10 @@
+{
+  "candidate": 5,
+  "sourceAttempt": 1,
+  "status": "rejected",
+  "reason": "Candidate5 moves frame9/tick20 too low and left; it detaches below the hand at 100% and 120%.",
+  "previewReports": [
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate5-100/report.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate5-120/report.json"
+  ]
+}

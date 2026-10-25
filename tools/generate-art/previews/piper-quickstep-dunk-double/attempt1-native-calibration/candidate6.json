@@ -1,0 +1,42 @@
+{
+  "candidate": 6,
+  "sourceAttempt": 1,
+  "track": {
+    "height": [
+      0.95,
+      1.1,
+      1.25,
+      1.7,
+      1.65,
+      2.0,
+      1.55,
+      1.6,
+      2.35,
+      1.8,
+      2.1,
+      1.2,
+      1.25,
+      0.75,
+      0.55
+    ],
+    "forward": [
+      6,
+      8,
+      8,
+      5,
+      3,
+      2,
+      3.5,
+      5,
+      6.2,
+      6.0,
+      12,
+      10,
+      7,
+      5,
+      5
+    ]
+  },
+  "status": "accepted-preview-only",
+  "reason": "Accepted by independent reviewer and parent as the best contact compromise across 100%/120% and both facings. Small residual separation at 120% is documented; this candidate is preview-only pending runtime integration."
+}

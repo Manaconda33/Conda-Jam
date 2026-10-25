@@ -1,0 +1,10 @@
+{
+  "candidate": 4,
+  "sourceAttempt": 1,
+  "status": "rejected",
+  "reason": "Candidate4 improves 100% frame9/tick20, but independent review finds it below the hand at 120% in right-facing and somewhat low in left-facing.",
+  "previewReports": [
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate4-100/report.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate4-120/report.json"
+  ]
+}

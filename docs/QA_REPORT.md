@@ -1,4 +1,11 @@
-# Latest validation — J.119 Piper Quickstep `dunk-tomahawk`
+# Latest validation — J.120 Piper Quickstep `dunk-double`
+
+- Piper adds15 authored drawings and reaches25/29 registered clips /233 authored drawings. Attempt1 clean source SHA-256 `2405d866e27b4e153ad19f91e4e02502ddf1723435085a40db8a88cbd87074da` and atlas SHA-256 `4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554` pass pose-order, identity/anatomy, alpha, no-ball and >=28px margin review. The prompt's frame10 cell-location typo is preserved with a canon erratum; frame10 release is row3/column1. Raw backdrop and native candidates1–5 are retained as rejected.
+- Accepted track H `[.95,1.1,1.25,1.7,1.65,2.0,1.55,1.6,2.35,1.8,2.1,1.2,1.25,.75,.55]` / F `[6,8,8,5,3,2,3.5,5,6.2,6.0,12,10,7,5,5]` passes native review in both facings at100%/120%. The small 120% fingertip gap is documented; Piper owns through20, releases once at21, and simulation scores two points.
+- `npm test`: PASS,42/42 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 OTs; production build: PASS. E2E blocked because sandbox denies localhost bind (`listen EPERM` at `127.0.0.1:4175`).
+- Strict report-only audit `2026-10-25T13:10:00.909Z`:815 clips /7,376 drawings /105 athletes, 2,288 missing clips, one target shortfall and4 inherited prompt findings. J.121 Piper `dunk-clutch` source attempt5 is accepted after independent/parent review; native track is pending. Pages deployment remains at `513e0a59` / run #169 until push succeeds.
+
+# Validation — J.119 Piper Quickstep `dunk-tomahawk`
 
 - Piper adds15 poses and reaches24/29 clips /218 authored drawings. Attempt2 source/atlas review accepts the ordered tomahawk poses, clear behind-head cock, frame10 open-hand release, identity/anatomy, transparent margins and ball-free art. Attempt1 is preserved/rejected for pose clustering and a missing final cock.
 - Accepted separate track H `[.95,1.1,1.25,1.7,1.9,2.05,2.2,2.45,2.4,2.35,1.5,2,1.4,.7,.55]` / F `[6,8,4,-2,-10,-7,-8,-5,12,2,8,6,8,5,6]` passes independent native review at100%/120% in both facings. Piper owns through tick20, releases at21, and scores one two-point dunk. The tiny frame9/120% gap is noted.

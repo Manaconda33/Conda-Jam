@@ -8,7 +8,7 @@
   "generatedAt": "2026-10-25T12:53:30Z",
   "generatedAtNote": "Approximate UTC from the generation operation; image_gen returned its generation ID and saved path, but no timestamp.",
   "promptFile": "tools/generate-art/piper-quickstep-dunk-double-attempt1-prompt.md",
-  "prompt": "J.120 / Piper Quickstep \u2014 DUNK-DOUBLE action sheet, attempt 1\n\nAction canon: follow the explicit fifteen-pose two-pump sequence from `tools/generate-art/j103-keeg-dunk-double-prompt.md`, adapted to Piper's identity and style. This is a TWO-PUMP DUNK, not a single pump, windmill, reverse or 360 dunk.\n\nCreate one original production sprite sheet for Piper Quickstep performing a powerful two-pump basketball dunk for JAMVERSE '96. Canvas exactly 1536\u00d71024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Each cell is approximately 307\u00d7341 pixels. Keep every part of every pose\u2014including the full high ponytail, every fingertip and both shoes\u2014at least 28 pixels inside every cell edge. Preserve wide transparent gutters and outer margins, consistent scale, camera and anatomy. No pose may touch, cross, overlap or merge with a neighboring cell. No grid, borders, scenery, court, hoop, floor, shadow, effects, text, labels, teammate, opponent, ball, sphere, orb, prop or equipment.\n\nPiper is the same athletic adult human woman in every pose: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural adult athletic proportions, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, body proportions, uniform and shoes consistently. Exactly one head, two arms, two hands, two legs and two feet, natural joints and five fingers on each visible hand. No costume changes, jewelry, numbers, text, logo, extra limbs, missing limbs or altered anatomy. Match the detailed JAMVERSE Piper artwork and established sprite-sheet style; do not switch to pixelated rendering.\n\nBoth hands stay empty: the basketball is separate game art and must never appear in the drawings. Before the sole release, Piper's hands mime the invisible ball. Pose10 (zero-based; fifth column, second row) is the one release at simulation tick21 on the SECOND pump: arm fully extended toward the rim, palm open and empty. Poses0\u20139 retain the ball; poses11\u201314 are empty-handed follow-through, descent, landing and recovery. The two pump peaks must be visually and mechanically distinct: first overhead pump at pose5, then clearly lower reset to chest at pose6, then second, higher pump across poses7\u201310. Do not make a single continuous reach.\n\nKeep Piper facing and approaching image-right. Distinct connected keyframes, strict row-major:\n0. Right-facing approach with hands low.\n1. Gather the invisible ball near the waist.\n2. Two-foot plant and crouch.\n3. Takeoff, ball-miming hand rises to the chest.\n4. First pump: hand lifts toward the shoulder.\n5. First overhead pump: hand reaches above the crown, ponytail and face unobstructed.\n6. Clearly lowers and resets the invisible ball at the chest after the first pump.\n7. Second drive begins, torso tightens and knees tuck.\n8. Second pump raises the hand higher than the first overhead peak.\n9. Full second-pump extension toward the rim, still holding the invisible ball.\n10. Sole release at tick21: fully extended straight shooting arm, open empty palm.\n11. Empty-handed follow-through through the imagined rim plane.\n12. Descent with legs tucked.\n13. Controlled two-foot landing, knees flexed.\n14. Stable recovery, both hands empty.\n\nMake all fifteen poses visibly distinct, anatomically complete and mechanically connected. Keep both hands empty and never draw the ball. Check each pose for cell separation, full anatomy, Piper identity, clean transparency and at least28px margins. Use no backdrop, matte, glow, haze, alpha fringe, speckles, repeated/merged bodies or extra art. Favor pose clarity over figure size. Return only the sprite sheet.\n",
+  "prompt": "J.120 / Piper Quickstep — DUNK-DOUBLE action sheet, attempt 1\n\nAction canon: follow the explicit fifteen-pose two-pump sequence from `tools/generate-art/j103-keeg-dunk-double-prompt.md`, adapted to Piper's identity and style. This is a TWO-PUMP DUNK, not a single pump, windmill, reverse or 360 dunk.\n\nCreate one original production sprite sheet for Piper Quickstep performing a powerful two-pump basketball dunk for JAMVERSE '96. Canvas exactly 1536×1024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Each cell is approximately 307×341 pixels. Keep every part of every pose—including the full high ponytail, every fingertip and both shoes—at least 28 pixels inside every cell edge. Preserve wide transparent gutters and outer margins, consistent scale, camera and anatomy. No pose may touch, cross, overlap or merge with a neighboring cell. No grid, borders, scenery, court, hoop, floor, shadow, effects, text, labels, teammate, opponent, ball, sphere, orb, prop or equipment.\n\nPiper is the same athletic adult human woman in every pose: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural adult athletic proportions, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, body proportions, uniform and shoes consistently. Exactly one head, two arms, two hands, two legs and two feet, natural joints and five fingers on each visible hand. No costume changes, jewelry, numbers, text, logo, extra limbs, missing limbs or altered anatomy. Match the detailed JAMVERSE Piper artwork and established sprite-sheet style; do not switch to pixelated rendering.\n\nBoth hands stay empty: the basketball is separate game art and must never appear in the drawings. Before the sole release, Piper's hands mime the invisible ball. Pose10 (zero-based; fifth column, second row) is the one release at simulation tick21 on the SECOND pump: arm fully extended toward the rim, palm open and empty. Poses0–9 retain the ball; poses11–14 are empty-handed follow-through, descent, landing and recovery. The two pump peaks must be visually and mechanically distinct: first overhead pump at pose5, then clearly lower reset to chest at pose6, then second, higher pump across poses7–10. Do not make a single continuous reach.\n\nKeep Piper facing and approaching image-right. Distinct connected keyframes, strict row-major:\n0. Right-facing approach with hands low.\n1. Gather the invisible ball near the waist.\n2. Two-foot plant and crouch.\n3. Takeoff, ball-miming hand rises to the chest.\n4. First pump: hand lifts toward the shoulder.\n5. First overhead pump: hand reaches above the crown, ponytail and face unobstructed.\n6. Clearly lowers and resets the invisible ball at the chest after the first pump.\n7. Second drive begins, torso tightens and knees tuck.\n8. Second pump raises the hand higher than the first overhead peak.\n9. Full second-pump extension toward the rim, still holding the invisible ball.\n10. Sole release at tick21: fully extended straight shooting arm, open empty palm.\n11. Empty-handed follow-through through the imagined rim plane.\n12. Descent with legs tucked.\n13. Controlled two-foot landing, knees flexed.\n14. Stable recovery, both hands empty.\n\nMake all fifteen poses visibly distinct, anatomically complete and mechanically connected. Keep both hands empty and never draw the ball. Check each pose for cell separation, full anatomy, Piper identity, clean transparency and at least28px margins. Use no backdrop, matte, glow, haze, alpha fringe, speckles, repeated/merged bodies or extra art. Favor pose clarity over figure size. Return only the sprite sheet.\n",
   "promptVerbatim": true,
   "referenceFiles": [
     "tools/generate-art/j103-keeg-dunk-double-prompt.md"
@@ -35,7 +35,7 @@
   "sourceMode": "RGBA",
   "layoutFile": "tools/generate-art/piper-quickstep-dunk-double-attempt1-layouts.json",
   "sourceReview": {
-    "status": "accepted-source-pending-native-ball-track",
+    "status": "accepted",
     "reviewer": "independent source and cleanup reviewer",
     "reviewedAt": "2026-10-25T12:54:13Z",
     "reviewNotes": "Source review accepts 15 distinct row-major poses for the J103 two-pump sequence. Frame5 is the first overhead peak; frame6 clearly resets hands to chest; frames7-9 drive a second, higher pump; frame10 is the sole open-palm release. Piper identity, full anatomy, face, ponytail, russet/cream kit and shoes remain consistent. No ball appears. Component isolation retains original pixels without redraw/reorder. Light/dark proofs show transparent gutters; all source-cell margins are >=28px.",
@@ -46,13 +46,133 @@
     "minimumCellMarginPx": 28,
     "independentReview": "Accepted. Independent reviewer confirmed all 15 distinct two-pump keyframes, frame6 chest reset, frame10 sole open-palm release, Piper identity/anatomy, no ball, transparent RGBA proofs and >=28px margins."
   },
-  "eligibleForPacking": false,
-  "ballBehavior": "No basketball is drawn. Native Piper-specific ball track and contact/release review are required before packing or runtime registration.",
-  "packedAtlasPath": null,
+  "eligibleForPacking": true,
+  "ballBehavior": "The separate athlete-specific track follows Piper through tick20 and releases ownerless at tick21; source art contains no ball.",
+  "packedAtlasPath": "public/assets/animation/piper-quickstep-dunk-double-right.webp",
   "nativeReview": {
-    "status": "pending-native-ball-track"
+    "status": "accepted",
+    "reviewers": [
+      "independent native calibration reviewer",
+      "parent visual review"
+    ],
+    "reviewNotes": "Candidate6 uses the exact vectors in tools/generate-art/piper-quickstep-dunk-double-track-calibration.json. Both reviewers accepted it as the best contact compromise across facings and 100%/120%; small residual separation at 120% is explicitly accepted. Candidate atlas and all previews remain under tools/generate-art/previews; no production atlas, runtime manifest registration, or core track edit was made. Production atlas registered after source and native review; the 120% contact caveat remains.",
+    "candidate": 6,
+    "trackCalibrationFile": "tools/generate-art/piper-quickstep-dunk-double-track-calibration.json",
+    "candidateHistory": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate-history.json",
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-120/report.json"
+    ],
+    "simulationReport": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-simulation.json",
+    "knownLimitation": "Small residual ball-to-fingertip separation at 120%, accepted as the best compromise across 100%/120% and both facings.",
+    "nativeChecks": [
+      {
+        "zoomPercent": 100,
+        "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+        "actionSamples": 32,
+        "uniqueFramesPerFacing": {
+          "right": 15,
+          "left": 15
+        },
+        "lastCarryTick20PerFacing": {
+          "right": 1,
+          "left": 1
+        },
+        "allSelectedCandidateAtlas": true,
+        "releaseFrame10": [
+          {
+            "frame": 10,
+            "tick": 21,
+            "hasBall": false,
+            "ballMode": "dunk",
+            "ballOwnerId": null
+          }
+        ]
+      },
+      {
+        "zoomPercent": 120,
+        "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+        "actionSamples": 32,
+        "uniqueFramesPerFacing": {
+          "right": 15,
+          "left": 15
+        },
+        "lastCarryTick20PerFacing": {
+          "right": 1,
+          "left": 1
+        },
+        "allSelectedCandidateAtlas": true,
+        "releaseFrame10": [
+          {
+            "frame": 10,
+            "tick": 21,
+            "hasBall": false,
+            "ballMode": "dunk",
+            "ballOwnerId": null
+          }
+        ]
+      }
+    ]
   },
-  "ballTrackStatus": "pending-native-calibration",
+  "ballTrackStatus": "accepted",
   "minimumCellMarginPx": 28,
-  "promptInterpretationCorrection": "Prompt clarification: preserve the generated prompt verbatim. Its parenthetical incorrectly labels pose10 as fifth column, second row; the numbered sequence and canonical J103 prompt designate zero-based frame10 at third row, first column, which is the image\u2019s open-palm release. This is a documentation typo, not a change to the source or generated prompt."
+  "promptInterpretationCorrection": "Prompt clarification: preserve the generated prompt verbatim. Its parenthetical incorrectly labels pose10 as fifth column, second row; the numbered sequence and canonical J103 prompt designate zero-based frame10 at third row, first column, which is the image’s open-palm release. This is a documentation typo, not a change to the source or generated prompt.",
+  "ballTrack": {
+    "height": [
+      0.95,
+      1.1,
+      1.25,
+      1.7,
+      1.65,
+      2,
+      1.55,
+      1.6,
+      2.35,
+      1.8,
+      2.1,
+      1.2,
+      1.25,
+      0.75,
+      0.55
+    ],
+    "forward": [
+      6,
+      8,
+      8,
+      5,
+      3,
+      2,
+      3.5,
+      5,
+      6.2,
+      6,
+      12,
+      10,
+      7,
+      5,
+      5
+    ],
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "ownerThroughTick": 20,
+    "scoreTick": 23,
+    "scorePoints": 2,
+    "calibrationFile": "tools/generate-art/piper-quickstep-dunk-double-track-calibration.json",
+    "knownLimitation": "Small residual ball-to-fingertip separation at 120%, accepted as the best compromise across 100%/120% and both facings."
+  },
+  "atlasSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+  "atlasLayout": "4x4; 15 unique frames in row-major order; each 128x96; frame15 empty.",
+  "atlasReview": {
+    "status": "accepted",
+    "reviewers": [
+      "independent native calibration reviewer",
+      "parent visual review"
+    ],
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-120/report.json"
+    ],
+    "simulationReport": "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-simulation.json",
+    "knownLimitation": "Small residual ball-to-fingertip separation at 120%, accepted as the best compromise across 100%/120% and both facings."
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "candidate": 3,
+  "sourceAttempt": 1,
+  "status": "provisionally-accepted-by-independent-review",
+  "reviewer": "independent native calibration reviewer",
+  "reviewNotes": "Frame5 first overhead ball is seated at/touching the raised hand in both facings at 100/120%. Frame6 ball is centered at chest/upper abdomen; overlapping hands obscure part of it, but it reads as chest reset and not detached. Frame8/9 and tick20 are close to extended fingertips in both facings/scales; tiny gap around a few screen pixels in some captures. Frame10 open palm and ball traveling ahead as released object read correctly. Candidate is acceptable for calibration with frame9/tick20 separation recorded.",
+  "previewReports": [
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate3-100/report.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate3-120/report.json"
+  ]
+}

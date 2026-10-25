@@ -1,0 +1,10 @@
+{
+  "candidate": 2,
+  "sourceAttempt": 1,
+  "status": "rejected",
+  "reason": "Candidate2 preview puts the ball below the raised hand at frame5, below the chest reset at frame6, and below the second extension at frame8/9.",
+  "previewReports": [
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate2-100/report.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate2-120/report.json"
+  ]
+}

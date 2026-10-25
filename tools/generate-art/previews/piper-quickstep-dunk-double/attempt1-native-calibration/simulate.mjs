@@ -1,0 +1,21 @@
+import { writeFile } from 'node:fs/promises';
+import { createInput,createMatch,stepMatch } from '../../../../../src/core/simulation.js';
+import { sampleBallHeight,sampleBallForward } from '../../../../../src/core/animation.js';
+const athleteId='piper-quickstep';
+const teams=(await import('../../../../../src/content/teams.js')).teams;
+const home=teams.find(t=>t.roster.some(p=>p.id===athleteId));const away=teams.find(t=>t!==home);
+const match=createMatch({quarterSeconds:60,seed:119,home,away,homePartnerId:athleteId});
+const p=match.players.find(x=>x.id===athleteId);if(!p)throw new Error('Piper absent');
+for(const x of match.players)x.hasBall=false;p.hasBall=true;p.x=186;p.y=50;p.vx=.2;p.dunk=99;p.facing=1;p.animation={clip:'idle-ball',tick:0};p.anim='idle-ball';
+Object.assign(match.ball,{mode:'carried',ownerId:athleteId,lastTouch:athleteId,x:p.x+sampleBallForward('idle-ball',0,athleteId),y:p.y,z:sampleBallHeight('idle-ball',0,athleteId),vx:0,vy:0,vz:0,scored:false});match.possession=p.team;
+const neutral=()=>match.players.map(x=>createInput(x.id));
+stepMatch(match,neutral().map(i=>i.playerId===athleteId?createInput(athleteId,{x:1,turbo:true,shootPressed:true,dunkVariant:'double'}):i));
+if(p.animation.clip!=='dunk-double')throw new Error(`Unexpected clip ${p.animation.clip}`);
+const obs=[];while(p.animation.tick<20){stepMatch(match,neutral());obs.push({tick:p.animation.tick,clip:p.animation.clip,owner:match.ball.ownerId,mode:match.ball.mode,track:{height:sampleBallHeight('dunk-double',p.animation.tick,athleteId),forward:sampleBallForward('dunk-double',p.animation.tick,athleteId)}});}
+if(match.ball.ownerId!==athleteId||match.ball.mode!=='carried')throw new Error('no ownership through20');
+stepMatch(match,neutral());const release={tick:p.animation.tick,owner:match.ball.ownerId,mode:match.ball.mode,score:[...match.score],attemptId:match.ball.attemptId};
+if(release.tick!==21||release.owner!==null||release.mode!=='dunk')throw new Error(`bad release ${JSON.stringify(release)}`);
+for(let i=0;i<8&&!match.scoredAttempts?.includes(release.attemptId);i++)stepMatch(match,neutral());
+if(match.score[0]!==2||match.scoredAttempts?.filter(id=>id===release.attemptId).length!==1)throw new Error('did not score once for two');
+const report={runner:'createMatch/stepMatch with process-local dunk-double track',athlete:athleteId,clip:'dunk-double',releaseTick:release.tick,ownerThrough20:true,release,score:match.score[0],attempts:match.scoredAttempts.length,track:obs.at(-1)?.track,candidate:process.env.JAMVERSE_CANDIDATE_FILE};
+const out=process.env.JAMVERSE_SIMULATION_REPORT;if(out)await writeFile(out,JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));

@@ -1,0 +1,16 @@
+{
+  "candidate": 6,
+  "sourceAttempt": 1,
+  "status": "accepted-preview-only",
+  "reviewer": "parent visual review",
+  "reviewNotes": "Parent inspected 120% left/right contact crops and accepted candidate6: ball is within near-contact distance of the raised hand. Independent comparison confirms right fingertip contact at 100%, mirrored edge-near contact, and both near-contact at 120%. This is the best compromise across facings and scales. Keep the residual 120% gap explicit.",
+  "limitations": [
+    "Small residual 120% contact gap, documented and accepted for preview calibration."
+  ],
+  "previewFiles": [
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-100/right-dunk-double-pre-release-tick20.png",
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-100/left-dunk-double-pre-release-tick20.png",
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-120/right-dunk-double-pre-release-tick20.png",
+    "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-native-calibration/candidate6-120/left-dunk-double-pre-release-tick20.png"
+  ]
+}

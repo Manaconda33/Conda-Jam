@@ -1,0 +1,42 @@
+{
+  "candidate": 1,
+  "sourceAttempt": 1,
+  "track": {
+    "height": [
+      0.95,
+      1.1,
+      1.25,
+      1.7,
+      2.25,
+      2.7,
+      1.65,
+      2.05,
+      2.8,
+      3.0,
+      3.0,
+      2.0,
+      1.25,
+      0.75,
+      0.55
+    ],
+    "forward": [
+      6,
+      8,
+      8,
+      5,
+      3,
+      5,
+      8,
+      7,
+      9,
+      12,
+      14,
+      10,
+      7,
+      5,
+      5
+    ]
+  },
+  "status": "rejected",
+  "reason": "Native renderer shows ball floating too high and forward at both first overhead frame5 and second-pump last-carry frame9/tick20; frame6 chest-reset contact is occluded/unclear. Candidate is not eligible for registration."
+}
