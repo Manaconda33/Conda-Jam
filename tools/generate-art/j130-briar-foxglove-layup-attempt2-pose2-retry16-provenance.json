@@ -1,0 +1,159 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry16",
+  "generationId": "exec-9df8cd1a-2d51-419e-85a1-9e728a644cc3",
+  "generator": "image_gen.imagegen",
+  "generatedPath": "/workspace/generated_images/exec-9df8cd1a-2d51-419e-85a1-9e728a644cc3.png",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry16-raw.png",
+  "rawSha256": "700fab2733c335bd2b89da2a1176b66350de4ccc5933386922ddc4890f4a6355",
+  "decodedRgbaPixelSha256": "57f596afd5e5ce166b2a22746b4a2830670c31b0def19800d7eb0db4b4a2ab94",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentBackgroundRequested": true,
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry16-prompt.md",
+  "promptSha256": "9122c809f2f09ad847c8ea99bb465bfa72c2e5214611de5d290de7a28819c0a6",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry16-light-dark-review.png",
+  "alphaThresholdMetrics": {
+    "1": {
+      "bboxXYXYExclusive": [
+        39,
+        21,
+        1222,
+        1228
+      ],
+      "marginsLTRB": [
+        39,
+        21,
+        32,
+        26
+      ],
+      "marginFractionsLTRB": [
+        0.0311,
+        0.016746,
+        0.025518,
+        0.020734
+      ],
+      "figureHeightFraction": 0.96252,
+      "connectedComponents": 300
+    },
+    "8": {
+      "bboxXYXYExclusive": [
+        493,
+        361,
+        865,
+        916
+      ],
+      "marginsLTRB": [
+        493,
+        361,
+        389,
+        338
+      ],
+      "marginFractionsLTRB": [
+        0.393142,
+        0.287879,
+        0.310207,
+        0.269537
+      ],
+      "figureHeightFraction": 0.442584,
+      "connectedComponents": 35
+    },
+    "32": {
+      "bboxXYXYExclusive": [
+        493,
+        362,
+        864,
+        916
+      ],
+      "marginsLTRB": [
+        493,
+        362,
+        390,
+        338
+      ],
+      "marginFractionsLTRB": [
+        0.393142,
+        0.288676,
+        0.311005,
+        0.269537
+      ],
+      "figureHeightFraction": 0.441786,
+      "connectedComponents": 2
+    },
+    "64": {
+      "bboxXYXYExclusive": [
+        493,
+        362,
+        864,
+        915
+      ],
+      "marginsLTRB": [
+        493,
+        362,
+        390,
+        339
+      ],
+      "marginFractionsLTRB": [
+        0.393142,
+        0.288676,
+        0.311005,
+        0.270335
+      ],
+      "figureHeightFraction": 0.440989,
+      "connectedComponents": 1
+    },
+    "128": {
+      "bboxXYXYExclusive": [
+        494,
+        363,
+        863,
+        915
+      ],
+      "marginsLTRB": [
+        494,
+        363,
+        391,
+        339
+      ],
+      "marginFractionsLTRB": [
+        0.393939,
+        0.289474,
+        0.311802,
+        0.270335
+      ],
+      "figureHeightFraction": 0.440191,
+      "connectedComponents": 1
+    },
+    "250": {
+      "bboxXYXYExclusive": [
+        498,
+        365,
+        861,
+        914
+      ],
+      "marginsLTRB": [
+        498,
+        365,
+        393,
+        340
+      ],
+      "marginFractionsLTRB": [
+        0.397129,
+        0.291069,
+        0.313397,
+        0.271132
+      ],
+      "figureHeightFraction": 0.437799,
+      "connectedComponents": 263
+    }
+  },
+  "duplicatePixelSources": [],
+  "decision": "REJECT; preserve unchanged, no cleanup or packing",
+  "review": "Pose is broadly readable as an ascending carry with full two-arm/two-leg anatomy, locs/red headband, russet kit, cream shoes and no ball. The shooting hand remains at/against the lower face rather than visibly separated below the lower lip. Alpha>=64 height is 44.1%, just above the 44% cap; bottom clearance is ~27%, below28%; alpha>=1 residue leaves only21px top,32px right and26px bottom. Skin still reads orange against Briar\u2019s accepted dark-brown palette."
+}

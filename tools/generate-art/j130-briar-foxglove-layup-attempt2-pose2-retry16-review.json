@@ -1,0 +1,23 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry16",
+  "decision": "REJECT",
+  "generationId": "exec-9df8cd1a-2d51-419e-85a1-9e728a644cc3",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry16-raw.png",
+  "sourceSha256": "700fab2733c335bd2b89da2a1176b66350de4ccc5933386922ddc4890f4a6355",
+  "decodedRgbaPixelSha256": "57f596afd5e5ce166b2a22746b4a2830670c31b0def19800d7eb0db4b4a2ab94",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry16-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry16-light-dark-review.png",
+  "checks": {
+    "pose": "FAIL: shooting hand touches/overlaps lower face rather than staying visibly clear below lip.",
+    "identityAnatomy": "PASS: recognizable adult human Briar with locs/red headband, complete two arms/two legs; no ball.",
+    "costume": "PASS: russet/cream kit, cream-dominant shoes, bare wrists and blank chest.",
+    "palette": "FAIL: skin remains orange relative to accepted Briar reference.",
+    "transparency": "PARTIAL: true RGBA, alpha extrema 0\u2013255, but threshold-1 residue remains near canvas edges.",
+    "marginsScale": "FAIL: alpha64 figure height44.1% vs44% maximum; bottom margin27.0% vs28% required; alpha1 margins39/21/32/26px."
+  },
+  "duplicatePixels": {
+    "unique": true,
+    "matches": []
+  },
+  "disposition": "Keep exact generated source and preview as rejected; do not cleanup, normalize, pack, or accept."
+}
