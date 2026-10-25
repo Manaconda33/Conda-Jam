@@ -1,0 +1,142 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "attempt": 2,
+  "retry": 1,
+  "operation": "non-destructive component isolation and uniform scale/placement",
+  "script": "tools/generate-art/clean-j130-briar-layup-poses5-7.py",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-poses5-7-retry1-clean-candidate-light-dark.png",
+  "frames": [
+    {
+      "frame": 5,
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose5-retry1-raw.png",
+      "sourceSha256": "6dc9a26ac09409047186d9bcfbf1d1f21c03d93f7c1dfaf4b4269ca2a38763aa",
+      "candidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose5-retry1-clean-candidate.png",
+      "candidateSha256": "39af0962fcf3f6bc63d16cb5bda73a48f66c0858fff1b77cfd4e1a35275c9ecb",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "componentRule": "8-connected components over alpha > 0; preserve every original RGBA pixel in the largest component and clear alpha outside it",
+      "sourceMainComponentPixels": 117194,
+      "sourceOtherNonzeroComponents": 250,
+      "discardedNonzeroComponentPixels": 539,
+      "sourceAlphaGte64Components": 1,
+      "sourceAlphaGte64LargestComponentPixels": 101253,
+      "sourceMainBoundsLTRBExclusive": [
+        474,
+        242,
+        871,
+        997
+      ],
+      "uniformScale": 0.9960264900662251,
+      "resizedFigureCrop": [
+        395,
+        752
+      ],
+      "candidateBoundsLTRBExclusive": [
+        429,
+        251,
+        824,
+        1003
+      ],
+      "candidateMarginsLTRB": [
+        429,
+        251,
+        430,
+        251
+      ],
+      "requiredMinimumMarginPixels": 251,
+      "visualAcceptance": false,
+      "status": "cleanup candidate only; full sequence/native review required"
+    },
+    {
+      "frame": 6,
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose6-retry1-raw.png",
+      "sourceSha256": "94f411c08a851c3ca1a9fb433f5402f9dbceaddae7076b19cc2faf2bf3275a0e",
+      "candidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose6-retry1-clean-candidate.png",
+      "candidateSha256": "f9077f0e22ccbfa25816ee4ba9b0309d8c1b2f2c7f6cedafd375ad36aae47426",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "componentRule": "8-connected components over alpha > 0; preserve every original RGBA pixel in the largest component and clear alpha outside it",
+      "sourceMainComponentPixels": 131096,
+      "sourceOtherNonzeroComponents": 210,
+      "discardedNonzeroComponentPixels": 426,
+      "sourceAlphaGte64Components": 1,
+      "sourceAlphaGte64LargestComponentPixels": 113344,
+      "sourceMainBoundsLTRBExclusive": [
+        403,
+        263,
+        872,
+        1003
+      ],
+      "uniformScale": 1.0,
+      "resizedFigureCrop": [
+        469,
+        740
+      ],
+      "candidateBoundsLTRBExclusive": [
+        392,
+        257,
+        861,
+        997
+      ],
+      "candidateMarginsLTRB": [
+        392,
+        257,
+        393,
+        257
+      ],
+      "requiredMinimumMarginPixels": 251,
+      "visualAcceptance": false,
+      "status": "cleanup candidate only; full sequence/native review required"
+    },
+    {
+      "frame": 7,
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose7-retry1-raw.png",
+      "sourceSha256": "1e2dd8ecb3bd4a5cee25043a43a8bf1c3102635b2ed8943122b5bfea75b0f71f",
+      "candidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose7-retry1-clean-candidate.png",
+      "candidateSha256": "3b65358d3759b36c0146245e2ac9022bfb7a12e1b908336afbf6ce1f6b104578",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "componentRule": "8-connected components over alpha > 0; preserve every original RGBA pixel in the largest component and clear alpha outside it",
+      "sourceMainComponentPixels": 132602,
+      "sourceOtherNonzeroComponents": 73,
+      "discardedNonzeroComponentPixels": 113,
+      "sourceAlphaGte64Components": 1,
+      "sourceAlphaGte64LargestComponentPixels": 118355,
+      "sourceMainBoundsLTRBExclusive": [
+        413,
+        342,
+        836,
+        968
+      ],
+      "uniformScale": 1.0,
+      "resizedFigureCrop": [
+        423,
+        626
+      ],
+      "candidateBoundsLTRBExclusive": [
+        415,
+        314,
+        838,
+        940
+      ],
+      "candidateMarginsLTRB": [
+        415,
+        314,
+        416,
+        314
+      ],
+      "requiredMinimumMarginPixels": 251,
+      "visualAcceptance": false,
+      "status": "cleanup candidate only; full sequence/native review required"
+    }
+  ],
+  "limitations": "These are cleanup candidates, not accepted production poses or a packed sheet. Review anatomy, identity, margins and pose separation in full-sequence context before any registration."
+}
