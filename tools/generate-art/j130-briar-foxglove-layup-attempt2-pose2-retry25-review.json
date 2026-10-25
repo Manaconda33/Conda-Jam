@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry25",
+  "decision": "REJECT",
+  "generationId": "exec-496ccdac-f8bd-4f1a-a4de-2bcdebf53720",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry25-raw.png",
+  "sourceSha256": "2cca37bc110b0f54b1fa65ec4d3ddf7616bdee3f08db62552ad4d898ebb9018e",
+  "decodedRgbaPixelSha256": "087b3afadfff777b07ed7634c18b42ea721902d75fd6c6e3d812ed7e562b4788",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry25-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry25-light-dark-review.png",
+  "checks": {
+    "pose": "FAIL: rising knee and folded-leg ascent read, but shooting fingertips touch/overlap the mouth area. They are not clearly below the lower lip with a visible gap from the face.",
+    "identityAnatomy": "PARTIAL: recognizable adult human with dark shoulder locs, red headband and russet/cream kit; two arms/hands and two legs/shoes, no fox traits or ball.",
+    "palette": "FAIL: skin reads warm orange/copper rather than Briar\u2019s accepted deep warm-brown palette anchors.",
+    "transparency": "PASS at channel level: true RGBA with alpha 0..255 and no baked background; low-alpha fragments remain disconnected.",
+    "cellMarginsAndScale": "FAIL: alpha>=64 margins are [504, 358, 401, 403]px (40.2%,28.5%,32.0%,32.1%); top is below32%. Figure is 39.31% high vs34% target. Alpha>=1 margins are [41, 152, 62, 90]px with 41 components.",
+    "uniqueness": "PASS: decoded RGBA pixels were compared with 84 J.130 raw sources present at review time; no pixel-identical match found.",
+    "ballAlignment": "PASS for this ball-free source: no basketball is baked in; Briar\u2019s athlete-specific ball remains a separate later track."
+  },
+  "reason": "Reject unchanged for face/hand overlap, off-canon warm palette, insufficient strict margins, excessive figure scale, and low-alpha residue. No recoloring, cleanup, normalization, packing, registration, or acceptance."
+}
