@@ -1,0 +1,24 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry21",
+  "decision": "REJECT",
+  "generationId": "exec-4638546c-d3d0-40f3-a26d-9eda5eb06aa6",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry21-raw.png",
+  "sourceSha256": "475c0090ccdd025d8e42fd0e1a6c1a1149ad4bc6394e192852f25ad087ef8865",
+  "decodedRgbaPixelSha256": "809e8d37af8bac03e58efcb0b6ccba4e149dddf8cb5e04ed8be8ffb3012f1ca3",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry21-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry21-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PARTIAL PASS: recognizable adult human Briar with shoulder locs, red headband, russet/cream kit, two arms/hands, two legs/shoes and no fox traits. No ball, number or logo. The trailing leg is extended rather than compactly folded.",
+    "pose": "FAIL: the shooting arm reaches above the headband/crown in an overhead release-like gesture. The canonical frame3 hand must pass the forehead but remain below the headband/crown; this candidate does not meet that pose.",
+    "palette": "FAIL: exposed skin reads orange/copper with bright warm highlights, not Briar's specified deep-brown palette.",
+    "transparency": "PARTIAL: true RGBA alpha ranges 0..255 and the preview confirms transparent background. Low-alpha residue reaches near the top and right canvas edges.",
+    "marginsScale": "FAIL: alpha>=64 bounds are [366,279,833,975], giving L/T/R/B margins [366,279,421,279]px and figure height 55.50%. The prompt requests about32% height and at least34% clear margins. At alpha>=1 bounds are [138,21,1208,1134], leaving only21px top and46px right clearance.",
+    "ball": "PASS: no basketball is included; ball remains on Briar's separate athlete-specific track."
+  },
+  "duplicateCheck": {
+    "method": "SHA-256 of decoded RGBA pixel bytes compared against every same-size J.130 raw PNG",
+    "rawSourceCount": 77,
+    "duplicateMatches": []
+  },
+  "reason": "Reject unchanged for incorrect above-crown hand pose, orange palette, oversized figure, and low-alpha residue inside the required clear margins. No cleanup, repainting, rescaling, packing, registration, or acceptance."
+}
