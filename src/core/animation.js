@@ -727,7 +727,10 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   'pass-overhead':{height:[1.0,1.2,1.9,1.9,2.35,1.75],forward:[3.5,4,1,1,12,17]},
   // J.127 accepted behind-pass track keeps the separate ball low and behind Briar;
   // native Canvas confirms contact at tick6 and ownerless release at tick7.
-  'pass-behind':{height:[1.05,.95,.9,1.25,1.25,1.2],forward:[5,2,-5,-14,-18,-22]}
+  'pass-behind':{height:[1.05,.95,.9,1.25,1.25,1.2],forward:[5,2,-5,-14,-18,-22]},
+  // J.128 accepted receive track meets Briar's chest-height catch gap at tick4;
+  // both facings remain aligned through the tick5 cushion pose.
+  receive:{height:[1.35,1.55,1.2,1.2],forward:[9,14,8,8]}
 },'piper-quickstep':{
   // The ball stays in Piper's leading hand through the bent jump-shot release.
   // Centers were measured on the reviewed 128x96 source cells and checked in

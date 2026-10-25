@@ -1,0 +1,231 @@
+{
+  "issue": "J.128",
+  "athlete": "briar-foxglove",
+  "clip": "receive",
+  "direction": "right",
+  "canonicalSection": "Emberwood Kits Briar identity; receive frame2/tick4 catch anchor",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-25",
+  "generationId": "exec-d2811147-b61e-47df-a83a-951d43c4dc9b",
+  "imageGenerationId": "exec-d2811147-b61e-47df-a83a-951d43c4dc9b",
+  "prompt": "Create a transparent PNG sprite sheet exactly 2 columns by 2 rows, 1024x1024 total, four separate 512x512 cells, row-major. Briar Foxglove is an adult HUMAN woman with warm deep-brown skin, shoulder-length dark locs swept back by a vivid red headband, compact athletic build, russet and cream sleeveless Emberwood basketball uniform, cream socks and russet/cream shoes. Match the supplied Briar shoot atlas for identity, face, hair, body proportions, uniform and polished 16-bit basketball pixel-art style only; do not copy its poses. No fox ears, tail, muzzle, or animal traits. Create a new image-right receive action with these four distinct complete poses in row-major order: cell00 ready, eyes tracking an incoming pass, balanced knees, hands open near waist; cell01 step forward and reach both empty hands ahead and slightly upward, palms open and facing each other; cell10 catch anchor at tick4, hands near chest height with palms facing, fingers individually visible, leaving a plainly transparent empty basketball-sized gap between the palms; cell11 cushion and settle the catch, arms draw slightly inward and down toward the sternum, hands still visibly empty and separated so the runtime ball can be drawn there. The four poses must be clearly different and make the reach, catch and cushion action easy to read. Keep Briar's hands anatomically human with five fingers per visible hand. Both hands are empty in every pose. Never draw a basketball, sphere, circle, seam, orb, prop, text, or object. The basketball is rendered separately by the game at the athlete-specific hand position. Every figure must show the complete head, hair, body, arms, hands, legs and shoes. Keep each character deliberately small in its cell, centered horizontally and vertically, no more than 320 pixels high or wide, with at least 80 fully transparent pixels from every figure to all four cell edges. Broad transparent gutters separate cells. No pose may touch or cross any cell boundary. Use a genuinely transparent alpha background with alpha exactly zero outside figures; no backdrop, floor, shadow, court, gradients, glow, border, cell grid, labels or motion trails. Return only the requested four-pose sprite sheet.",
+  "promptFile": "tools/generate-art/j128-briar-foxglove-receive-prompt-attempt1.md",
+  "promptVerbatim": true,
+  "promptText": "Create a transparent PNG sprite sheet exactly 2 columns by 2 rows, 1024x1024 total, four separate 512x512 cells, row-major. Briar Foxglove is an adult HUMAN woman with warm deep-brown skin, shoulder-length dark locs swept back by a vivid red headband, compact athletic build, russet and cream sleeveless Emberwood basketball uniform, cream socks and russet/cream shoes. Match the supplied Briar shoot atlas for identity, face, hair, body proportions, uniform and polished 16-bit basketball pixel-art style only; do not copy its poses. No fox ears, tail, muzzle, or animal traits. Create a new image-right receive action with these four distinct complete poses in row-major order: cell00 ready, eyes tracking an incoming pass, balanced knees, hands open near waist; cell01 step forward and reach both empty hands ahead and slightly upward, palms open and facing each other; cell10 catch anchor at tick4, hands near chest height with palms facing, fingers individually visible, leaving a plainly transparent empty basketball-sized gap between the palms; cell11 cushion and settle the catch, arms draw slightly inward and down toward the sternum, hands still visibly empty and separated so the runtime ball can be drawn there. The four poses must be clearly different and make the reach, catch and cushion action easy to read. Keep Briar's hands anatomically human with five fingers per visible hand. Both hands are empty in every pose. Never draw a basketball, sphere, circle, seam, orb, prop, text, or object. The basketball is rendered separately by the game at the athlete-specific hand position. Every figure must show the complete head, hair, body, arms, hands, legs and shoes. Keep each character deliberately small in its cell, centered horizontally and vertically, no more than 320 pixels high or wide, with at least 80 fully transparent pixels from every figure to all four cell edges. Broad transparent gutters separate cells. No pose may touch or cross any cell boundary. Use a genuinely transparent alpha background with alpha exactly zero outside figures; no backdrop, floor, shadow, court, gradients, glow, border, cell grid, labels or motion trails. Return only the requested four-pose sprite sheet.",
+  "reference": "public/assets/animation/briar-foxglove-shoot-right.webp",
+  "sourceImage": "tools/generate-art/sources/j128-briar-foxglove-receive-generated-raw.png",
+  "rawSourceImage": "tools/generate-art/sources/j128-briar-foxglove-receive-generated-raw.png",
+  "sourceSha256": "332409b4013e618eee4a62e0a425ee86fac7b8e794bc18c787d36d5ba681da98",
+  "rawSourceSha256": "332409b4013e618eee4a62e0a425ee86fac7b8e794bc18c787d36d5ba681da98",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "promptRequestedDimensions": [
+    1024,
+    1024
+  ],
+  "sourceCellSize": [
+    627,
+    627
+  ],
+  "generationDeviation": "ImageGen returned a 1254x1254 sheet rather than the requested 1024x1024. The four figures remain in clear 2x2 quadrants; the reviewed packer uniformly isolates the original components into 2x2 production cells.",
+  "sourceCellReview": [
+    {
+      "pose": 0,
+      "sourceCell": [
+        0,
+        0
+      ],
+      "bboxAlphaGt64": [
+        190,
+        150,
+        431,
+        549
+      ],
+      "marginsLTRB": [
+        190,
+        150,
+        196,
+        78
+      ]
+    },
+    {
+      "pose": 1,
+      "sourceCell": [
+        1,
+        0
+      ],
+      "bboxAlphaGt64": [
+        764,
+        148,
+        1127,
+        550
+      ],
+      "marginsLTRB": [
+        137,
+        148,
+        127,
+        77
+      ]
+    },
+    {
+      "pose": 2,
+      "sourceCell": [
+        0,
+        1
+      ],
+      "bboxAlphaGt64": [
+        189,
+        727,
+        449,
+        1135
+      ],
+      "marginsLTRB": [
+        189,
+        100,
+        178,
+        119
+      ]
+    },
+    {
+      "pose": 3,
+      "sourceCell": [
+        1,
+        1
+      ],
+      "bboxAlphaGt64": [
+        815,
+        732,
+        1051,
+        1137
+      ],
+      "marginsLTRB": [
+        188,
+        105,
+        203,
+        117
+      ]
+    }
+  ],
+  "transparentOuterCorners": true,
+  "cleanupNotes": "No cleanup or pose redraw. Four original connected figures are isolated and uniformly fit by package-action4.py; source margins and original generated sheet are preserved.",
+  "review": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-25T19:06:00Z",
+    "reviewers": [
+      "independent J.128 source reviewer",
+      "Codex parent"
+    ],
+    "notes": "Four distinct complete Briar receive poses in row-major order. Adult human anatomy, locs, red headband and russet/cream Emberwood kit match the accepted Briar reference. Both catch poses leave a visible empty gap for the separate runtime ball. No ball is baked into the source. Corners are alpha zero; margins are at least77px; no pose touches or crosses a source-cell boundary. Independent native review accepts ball contact in the catch gap at tick4 and through cushion tick5 in both facings/zooms."
+  },
+  "candidateImages": [
+    {
+      "generationId": "exec-d2811147-b61e-47df-a83a-951d43c4dc9b",
+      "source": "tools/generate-art/sources/j128-briar-foxglove-receive-generated-raw.png",
+      "prompt": "tools/generate-art/j128-briar-foxglove-receive-prompt-attempt1.md",
+      "status": "selected-and-accepted"
+    }
+  ],
+  "rejectedCandidates": [],
+  "expectedPoseOrder": [
+    "ready and track pass",
+    "step and reach",
+    "frame2/tick4 empty-hand catch",
+    "cushion and settle"
+  ],
+  "catchFrame": 2,
+  "catchTick": 4,
+  "ballTrackCandidate": {
+    "height": [
+      1.35,
+      1.55,
+      1.2,
+      1.2
+    ],
+    "forward": [
+      9,
+      14,
+      8,
+      8
+    ],
+    "status": "accepted-native-review; kept forward values and lowered catch height from 2.0 to 1.2",
+    "grabFrame": 2,
+    "grabTick": 4
+  },
+  "reviewState": "accepted source and native separate-ball review; integrated in runtime",
+  "c2pa": "No C2PA claim metadata was returned.",
+  "candidateOnly": false,
+  "ballTrack": {
+    "height": [
+      1.35,
+      1.55,
+      1.2,
+      1.2
+    ],
+    "forward": [
+      9,
+      14,
+      8,
+      8
+    ],
+    "status": "accepted-native-review",
+    "file": "src/core/animation.js",
+    "grabFrame": 2,
+    "grabTick": 4
+  },
+  "nativeReview": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-25T19:06:00Z",
+    "reviewers": [
+      "independent J.128 ball-track reviewer",
+      "Codex parent"
+    ],
+    "previewReports": [
+      "tools/generate-art/previews/j128-briar-foxglove-receive/native-100/report.json",
+      "tools/generate-art/previews/j128-briar-foxglove-receive/native-120/report.json"
+    ],
+    "contactPreviews": [
+      "tools/generate-art/previews/j128-briar-foxglove-receive/native-100/left-receive-frame2.png",
+      "tools/generate-art/previews/j128-briar-foxglove-receive/native-100/right-receive-frame2.png",
+      "tools/generate-art/previews/j128-briar-foxglove-receive/native-100/left-receive-frame3.png",
+      "tools/generate-art/previews/j128-briar-foxglove-receive/native-100/right-receive-frame3.png",
+      "tools/generate-art/previews/j128-briar-foxglove-receive/native-120/left-receive-frame2.png",
+      "tools/generate-art/previews/j128-briar-foxglove-receive/native-120/right-receive-frame2.png",
+      "tools/generate-art/previews/j128-briar-foxglove-receive/native-120/left-receive-frame3.png",
+      "tools/generate-art/previews/j128-briar-foxglove-receive/native-120/right-receive-frame3.png"
+    ],
+    "notes": "At frame2/tick4 the separate ball sits in Briar’s chest-height catch gap and remains aligned through frame3/tick5 in both facings at100% and120%. Both captures select production art; ball ownership remains Briar."
+  },
+  "atlas": {
+    "path": "public/assets/animation/briar-foxglove-receive-right.webp",
+    "sha256": "f24bc088ec36f954617fb4e759860e8469a9f6cecaf1640e032a19ee7c110b28",
+    "size": [
+      192,
+      192
+    ],
+    "grid": [
+      2,
+      2
+    ],
+    "cellSize": [
+      96,
+      96
+    ]
+  },
+  "runtimeBallTrack": {
+    "height": [
+      1.35,
+      1.55,
+      1.2,
+      1.2
+    ],
+    "forward": [
+      9,
+      14,
+      8,
+      8
+    ]
+  },
+  "status": "accepted-and-runtime-integrated"
+}

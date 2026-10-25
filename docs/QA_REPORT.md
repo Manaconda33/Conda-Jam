@@ -1,10 +1,11 @@
-# Latest validation — J.127 Briar Foxglove `pass-behind`
+# Latest validation — J.128 Briar Foxglove `receive`
 
-- Briar now has9/29 clips /70 authored drawings. Source reviewer accepted six distinct complete ball-free poses, transparent corners and 31–129px raw margins. Independent native ball review confirms tick6 hand contact and frame3/tick7 ownerless release in both facings at100%/120%.
-- Source/atlas SHA-256: `0e8d7ba3be93f017c441a10fbd1986330be2e799c9276647fa69c78448a5d5df` / `57947e10f4d30fca90a0cc46c9bdd45a93024a1704a19aa3f541da8ece7e6d5a`. Prompt, generation ID, provenance, source, layout, exact captures and candidate archive are preserved.
-- `npm test`: PASS,49/49 files; lint PASS,18 modules; content PASS,35 franchises/105 athletes; simulation PASS,100 matches /861,421 ticks /6 overtimes; build PASS. Focused J.127 test passes.
-- Report-only strict audit: **822 clips /7447 authored drawings /105 athletes**, 2281 missing clips, one target shortfall and4 inherited prompt findings; generated `2026-10-25T19:03:27.141Z`.
-- Next asset is J.128 Briar Foxglove `receive`. E2E not rerun; current local server restriction remains documented. Push/Pages validation remains pending after the prior proxy connection failure; latest deployed checkpoint is `513e0a59` / run #169.
+- Briar now has10/29 clips /74 authored drawings. Independent source review accepts four distinct complete ball-free poses, transparent alpha, a clear catch gap and at least77px source margins. Atlas proof was reviewed on light/dark grounds.
+- Source/atlas SHA-256: `332409b4013e618eee4a62e0a425ee86fac7b8e794bc18c787d36d5ba681da98` / `f24bc088ec36f954617fb4e759860e8469a9f6cecaf1640e032a19ee7c110b28`. ImageGen output1254×1254 instead of1024×1024; original source, exact prompt, generation ID, full deviation note, packed layout and light/dark previews are retained.
+- Independent native ball review: H `[1.35,1.55,1.2,1.2]` / F `[9,14,8,8]` aligns the chest catch at tick4 and cushion at tick5 in both facings at100%/120%. Actual simulation passes the incoming ball at tick4 and preserves possession through frame3.
+- Validation: `npm test` PASS,50/50 files; lint PASS,18 modules; content PASS,35 franchises/105 athletes; simulation PASS,100 matches /861,421 ticks /6 overtimes; production build PASS.
+- Strict audit: **823 clips /7458 authored drawings /105 athletes**, 2280 missing clips, one target shortfall and4 inherited prompt findings; generated `2026-10-25T19:09:05.323Z`. Next roster target: J.129 Briar Foxglove `pickup`, first missing clip in the refreshed audit.
+- E2E not rerun. Push and Pages validation remain pending due the unreachable configured proxy; latest deployed checkpoint `513e0a59` / run #169.
 
 # Validation — J.119 Piper Quickstep `dunk-tomahawk`
 
