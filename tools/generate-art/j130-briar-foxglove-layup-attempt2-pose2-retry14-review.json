@@ -1,0 +1,21 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "frame": 2,
+  "retry": 14,
+  "decision": "REJECT",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry14-raw.png",
+  "sourceSha256": "5e164c3a0c495ad62d65dd432906f79e11d6902b5b8441f9a2de09e87ffa689f",
+  "generationId": "exec-7c0ca986-50df-4e74-81a3-297916cb230a",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry14-light-dark-review.png",
+  "checks": {
+    "identity_anatomy": "Adult human Briar with locs and red headband; two complete arms and two legs; no ball.",
+    "pose": "Folded trail leg and outward guide hand read. Shooting hand overlaps nose/mouth rather than staying at/below the lower cheek target.",
+    "palette": "Skin remains brighter/oranger than accepted Briar art; rust outfit and cream socks/trainers are present.",
+    "transparency": "RGBA with alpha; low-alpha edge specks remain (alpha>=1 bounds nearly span canvas).",
+    "margins": "alpha>=64 margins L/T/R/B=[413,228,301,318] px (height708/1254=56.5%, above48% maximum); alpha>=1 margins=[39,55,27,24].",
+    "components": "alpha>=8 has many disconnected components; see provenance metrics."
+  },
+  "final": "Reject unchanged; source is unique but fails hand position, palette, clean alpha, 28% margins and figure-height limits."
+}
