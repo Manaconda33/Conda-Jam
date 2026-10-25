@@ -1,0 +1,103 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "attempt": 2,
+  "pose": 5,
+  "status": "unmodified-generated-source; not accepted or packed",
+  "generationId": "exec-2a546904-1e17-482c-8d3e-c5fd1d1e1ee8",
+  "generatedFile": "/workspace/generated_images/exec-2a546904-1e17-482c-8d3e-c5fd1d1e1ee8.png",
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose5-prompt.md",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose5-raw.png",
+  "sourceSha256": "0a86f86b2c170c70b282d776d5c6eeb1ab631c5af2648f331823974600187a55",
+  "originalCopyMatches": true,
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha": {
+    "minimum": 0,
+    "maximum": 255,
+    "zero": 1357277,
+    "oneTo63": 26005,
+    "64To254": 188621,
+    "opaque255": 613
+  },
+  "bounds": {
+    "alphaGte1": {
+      "bboxExclusive": [
+        0,
+        0,
+        1226,
+        1228
+      ],
+      "marginsLTRB": [
+        0,
+        0,
+        28,
+        26
+      ]
+    },
+    "alphaGte64": {
+      "bboxExclusive": [
+        428,
+        119,
+        979,
+        1147
+      ],
+      "marginsLTRB": [
+        428,
+        119,
+        275,
+        107
+      ]
+    },
+    "alphaGte128": {
+      "bboxExclusive": [
+        428,
+        119,
+        979,
+        1147
+      ],
+      "marginsLTRB": [
+        428,
+        119,
+        275,
+        107
+      ]
+    },
+    "alphaGte255": {
+      "bboxExclusive": [
+        429,
+        124,
+        966,
+        1146
+      ],
+      "marginsLTRB": [
+        429,
+        124,
+        288,
+        108
+      ]
+    }
+  },
+  "boundsConvention": "left, top, right-exclusive, bottom-exclusive; margins order left, top, right, bottom",
+  "references": [
+    {
+      "path": "public/assets/animation/briar-foxglove-shoot-right.webp",
+      "sha256": "9303c007d4d8697559670cfa851cc4c9667156daa43c83cef2a29cd0020a34f1"
+    },
+    {
+      "path": "public/assets/animation/briar-foxglove-receive-right.webp",
+      "sha256": "f24bc088ec36f954617fb4e759860e8469a9f6cecaf1640e032a19ee7c110b28"
+    },
+    {
+      "path": "public/assets/animation/briar-foxglove-idle-right.webp",
+      "sha256": "362bce8a820fc1fee21ee43549aa5e2c9e27a7233b1960ff4c40c6c8a5ae9feb"
+    }
+  ],
+  "visualObservation": "Single right-facing human Briar; high loose follow-through hand with bent wrist, guide hand lowered, lead leg extends downward and rear knee bends back. Distinct descent silhouette; empty hands, no visible ball or props. Red wristband appears and uniform leaf markings vary from pose4. Clear visible margin, less than requested 15% top/bottom padding.",
+  "processing": "Byte-for-byte copy only. No normalization, cleanup, assembly or packing performed.",
+  "transparencyObservation": "RGBA contains true zero alpha, but faint alpha1\u201363 residue extends well beyond the visible figure. Consult alphaGte1 bounds: pose5 touches top/left, pose6 touches top/left/bottom, pose7 touches left/bottom; pose4 has 18px minimum whole-alpha margin. These are source measurements, not acceptance."
+}
