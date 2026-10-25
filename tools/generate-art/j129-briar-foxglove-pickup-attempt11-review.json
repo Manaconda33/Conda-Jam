@@ -17,7 +17,7 @@
     "alpha_1_to_63_pixels": 46990,
     "alpha_64_to_254_pixels": 227108,
     "alpha_255_pixels": 0,
-    "finding": "Rejected. A connected brown-black radial haze occupies the background and contaminates cell5; no fully opaque pixels exist."
+    "finding": "Rejected. Low-alpha residue remains around the character components and contaminates cell5; the source does not meet the prompt\u2019s hard-cutout/no-soft-alpha requirement. The paired light/dark preview has no strong visible backdrop at review scale, but 46,990 pixels remain at alpha1\u201363 and cell5 contains226 nonzero-alpha pixels."
   },
   "cell_layout": {
     "format": "3 columns by 2 rows, 512x512 cells; row-major cells0-4 intended for figures and cell5 blank",
@@ -64,7 +64,7 @@
     "identity_anatomy": "Briar's human identity, red headband, locs, skin tone, and Emberwood uniform are broadly consistent; hands and leg anatomy remain readable.",
     "ball_track": "No visible ball; separate ball-track requirement is respected.",
     "cell_margins": "Fail; cell0's shoes nearly touch the bottom cell edge, and other poses exceed 120px-safe-box constraints.",
-    "background": "Fail; conspicuous brown/black haze on both light and dark composites.",
+    "background": "Fail; residual alpha1\u201363 pixels violate the hard transparent-cutout prompt, with226 pixels in blank cell5. No broad backdrop dominates the paired light/dark proof.",
     "decision": "REJECTED; do not clean, accept, pack, or register."
   },
   "independent_review": {
@@ -110,6 +110,6 @@
       ]
     },
     "blankCell5NonzeroAlpha": 226,
-    "findings": "Five separate ball-free poses preserve Briar identity. Brown haze remains, and cells0\u20132 approach the horizontal divider within4px. The grab pose may have forearm overlap. No packing or registration."
+    "findings": "Five separate ball-free poses preserve Briar identity. Reviewer noted a brown tint in the raw source view; paired light/dark proof does not show a strong backdrop at review scale. Cells0\u20132 approach the horizontal divider within4px. The grab pose may have forearm overlap. No packing or registration."
   }
 }
