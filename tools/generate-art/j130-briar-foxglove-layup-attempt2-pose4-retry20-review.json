@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry20",
+  "decision": "REJECT",
+  "generationId": "exec-811aacad-ac1e-4b39-884d-bb0186d4e934",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry20-raw.png",
+  "sourceSha256": "487ae3e78d0f6e9df1bb8574bf90309466f870224cc8320f150dc8fb1f1b836f",
+  "decodedRgbaPixelSha256": "04fdaf2f769adffbd52c9b8a46f2d3535b3e8aeccb8d954b18d5dc1d49eccef1",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry20-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry20-light-dark-review.png",
+  "checks": {
+    "identity": "PARTIAL: human athlete with dark shoulder locs, vivid red headband, russet/cream sleeveless kit, cream socks/trainers. Skin is visibly lighter and more orange/copper than Briar canon. No fox traits or markings.",
+    "pose": "PARTIAL: airborne layup with high-forward shooting arm and separate open guide hand; raised lead knee. Trailing leg reaches backward rather than reading as a compactly folded leg. Pose broadly reads as a release but is not accepted.",
+    "anatomy": "PASS for complete two arms/hands and two legs/shoes; no cropping, extra limbs or ball observed.",
+    "transparency": "PASS: genuine RGBA alpha extrema 0..255 and clear transparent background in light/dark preview. Alpha\u22651 has176 connected components, alpha\u22658 has108; these low-alpha fragments are not accepted as clean margins.",
+    "cellMarginsAndScale": "FAIL: at alpha\u226564 bounds [406,259,904,955] in a 1254-square canvas produce margins L/T/R/B [406,259,350,299]px (32.38%,20.65%,27.91%,23.84%). The requested minimum is32% on every side. Figure height is696px /55.50%, versus requested32\u201334%. At alpha\u22651 the bbox leaves margins [89,79,118,54]px and176 components.",
+    "poseSeparation": "Single-pose source; whole-sequence separation cannot be reviewed until all eight required poses pass and are presented together.",
+    "ballAlignment": "PASS for ball-free art: no basketball is baked in. No ball-to-hand alignment claim is made; Briar\u2019s separate athlete-specific ball track remains pending."
+  },
+  "reason": "Reject unchanged for off-canon skin palette, body scale, top/right/bottom alpha\u226564 margins, low-alpha residue, and a trailing leg that is too extended for the canonical folded peak pose. No cleanup, recoloring, rescaling, packing, registration, or acceptance."
+}

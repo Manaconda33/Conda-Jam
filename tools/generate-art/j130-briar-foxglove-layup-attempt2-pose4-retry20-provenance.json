@@ -1,0 +1,126 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "frame": 4,
+  "tick": 10,
+  "retry": 20,
+  "operation": "single-pose source generation",
+  "generator": "image_gen.imagegen",
+  "generationId": "exec-811aacad-ac1e-4b39-884d-bb0186d4e934",
+  "outputHint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-811aacad-ac1e-4b39-884d-bb0186d4e934.png by default. If you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.",
+  "originalGeneratedPath": "/workspace/generated_images/exec-811aacad-ac1e-4b39-884d-bb0186d4e934.png",
+  "sourcePath": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry20-raw.png",
+  "sourceSha256": "487ae3e78d0f6e9df1bb8574bf90309466f870224cc8320f150dc8fb1f1b836f",
+  "decodedRgbaPixelSha256": "04fdaf2f769adffbd52c9b8a46f2d3535b3e8aeccb8d954b18d5dc1d49eccef1",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "c2paClaimIdentifier": null,
+  "c2paNote": "No C2PA claim was present in the generated PNG metadata; generation ID and output path are retained.",
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry20-prompt.md",
+  "previewPath": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry20-light-dark-review.png",
+  "references": [],
+  "cleanup": null,
+  "normalization": null,
+  "packing": null,
+  "registration": null,
+  "alphaMetrics": {
+    "threshold1": {
+      "boundsXYXYExclusive": [
+        89,
+        79,
+        1136,
+        1200
+      ],
+      "marginsLTRB": [
+        89,
+        79,
+        118,
+        54
+      ],
+      "figureHeightFraction": 0.893939,
+      "figureWidthFraction": 0.834928,
+      "connectedComponents": 176
+    },
+    "threshold8": {
+      "boundsXYXYExclusive": [
+        405,
+        258,
+        904,
+        958
+      ],
+      "marginsLTRB": [
+        405,
+        258,
+        350,
+        296
+      ],
+      "figureHeightFraction": 0.558214,
+      "figureWidthFraction": 0.397927,
+      "connectedComponents": 108
+    },
+    "threshold32": {
+      "boundsXYXYExclusive": [
+        406,
+        258,
+        904,
+        956
+      ],
+      "marginsLTRB": [
+        406,
+        258,
+        350,
+        298
+      ],
+      "figureHeightFraction": 0.556619,
+      "figureWidthFraction": 0.397129,
+      "connectedComponents": 1
+    },
+    "threshold64": {
+      "boundsXYXYExclusive": [
+        406,
+        259,
+        904,
+        955
+      ],
+      "marginsLTRB": [
+        406,
+        259,
+        350,
+        299
+      ],
+      "figureHeightFraction": 0.555024,
+      "figureWidthFraction": 0.397129,
+      "connectedComponents": 1
+    },
+    "threshold128": {
+      "boundsXYXYExclusive": [
+        406,
+        259,
+        903,
+        955
+      ],
+      "marginsLTRB": [
+        406,
+        259,
+        351,
+        299
+      ],
+      "figureHeightFraction": 0.555024,
+      "figureWidthFraction": 0.396332,
+      "connectedComponents": 1
+    }
+  },
+  "duplicateCheck": {
+    "method": "SHA-256 of decoded RGBA pixel bytes compared with same-size J.130 raw source PNGs",
+    "matchingFiles": []
+  },
+  "disposition": "REJECT; preserve the original raw source and evidence untouched."
+}
