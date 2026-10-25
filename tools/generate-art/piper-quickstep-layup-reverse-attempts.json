@@ -1,0 +1,30 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "layup-reverse",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generation_id": "exec-09b35995-474e-4d02-8ae7-a7840e13c0e0",
+      "source": "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt1-generated-raw.png",
+      "prompt": "tools/generate-art/piper-quickstep-layup-reverse-attempt1-prompt.md",
+      "state": "rejected",
+      "reason": "Source is undersized, several alpha>=128 cell margins are below 64px, red/orange alpha specks/fringe appear in gutters and around figures, and frames 2 and 3 are too similar. Identity/anatomy and the separate-ball requirement pass."
+    },
+    {
+      "attempt": 2,
+      "generation_id": "exec-e0fe89c3-4a59-4d32-885e-cc25adf8ebe5",
+      "source": "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt2-generated-raw.png",
+      "prompt": "tools/generate-art/piper-quickstep-layup-reverse-attempt2-edit-prompt.md",
+      "state": "rejected",
+      "reason": "The requested canvas size was not honored; frame 4 top and frame 5 right silhouette margins remain below 64px, red/orange fringe remains visible, and frames 2 and 3 still read as near-duplicates."
+    },
+    {
+      "attempt": 3,
+      "generation_id": "exec-9253b233-dd49-424b-8285-3ca6b2e253f1",
+      "source": "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt3-generated-raw.png",
+      "prompt": "tools/generate-art/piper-quickstep-layup-reverse-attempt3-prompt.md",
+      "state": "raw_rejected_cleaned_candidate_accepted",
+      "reason": "Raw source was rejected for size, margins and fringe. Cleanup isolated each full pose, removed disconnected noise, and uniformly scaled/centered each silhouette into 512x512 transparent cells. Independent review accepted the cleaned source with >=64px transparent margins, all eight distinct poses, preserved identity/anatomy and no baked ball. Native track review is still pending."
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "layup-reverse",
+  "attempt": 3,
+  "raw_source": "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt3-generated-raw.png",
+  "raw_source_sha256": "0cd261ae7f0b61423118896865f51241011c726ed360e82c3e8bf61308a6b74e",
+  "cleaned_source": "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt3-clean-candidate.png",
+  "cleaned_source_sha256": "b7689f79180820b7fe8609415d23c1562d1dbe21426b919ad0eb744d5c0a8b20",
+  "cleaned_size": [
+    2048,
+    1024
+  ],
+  "layout": "row-major 4x2, 512x512 cells",
+  "cleanup": "Per-cell alpha>=32 largest-component isolation; one-pixel antialias dilation; remove detached components and alpha<12 fringe; crop silhouette; premultiplied-alpha Lanczos resize uniformly to fit 384x384; center on transparent 512px cell.",
+  "frames": [
+    {
+      "component_count_alpha32": 1,
+      "source_bbox_ltrb": [
+        76,
+        106,
+        407,
+        424
+      ],
+      "source_bbox_size": [
+        332,
+        319
+      ],
+      "scale": 1.156627,
+      "cleaned_size": [
+        384,
+        369
+      ],
+      "retained_alpha_pixels_before_resize": 37974,
+      "frame": 0,
+      "source_cell_xyxy": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "output_xy": [
+        64,
+        71
+      ],
+      "margins_ltrb_alpha32_px": [
+        64,
+        64,
+        71,
+        72
+      ],
+      "min_margin_alpha32_px": 64,
+      "connected_components_removed": 0,
+      "alpha_below_12_removed": true
+    },
+    {
+      "component_count_alpha32": 1,
+      "source_bbox_ltrb": [
+        112,
+        57,
+        370,
+        431
+      ],
+      "source_bbox_size": [
+        259,
+        375
+      ],
+      "scale": 1.024,
+      "cleaned_size": [
+        265,
+        384
+      ],
+      "retained_alpha_pixels_before_resize": 40770,
+      "frame": 1,
+      "source_cell_xyxy": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "output_xy": [
+        635,
+        64
+      ],
+      "margins_ltrb_alpha32_px": [
+        123,
+        124,
+        64,
+        64
+      ],
+      "min_margin_alpha32_px": 64,
+      "connected_components_removed": 0,
+      "alpha_below_12_removed": true
+    },
+    {
+      "component_count_alpha32": 1,
+      "source_bbox_ltrb": [
+        166,
+        57,
+        370,
+        426
+      ],
+      "source_bbox_size": [
+        205,
+        370
+      ],
+      "scale": 1.037838,
+      "cleaned_size": [
+        213,
+        384
+      ],
+      "retained_alpha_pixels_before_resize": 35458,
+      "frame": 2,
+      "source_cell_xyxy": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "output_xy": [
+        1173,
+        64
+      ],
+      "margins_ltrb_alpha32_px": [
+        149,
+        150,
+        64,
+        64
+      ],
+      "min_margin_alpha32_px": 64,
+      "connected_components_removed": 0,
+      "alpha_below_12_removed": true
+    },
+    {
+      "component_count_alpha32": 1,
+      "source_bbox_ltrb": [
+        122,
+        60,
+        358,
+        434
+      ],
+      "source_bbox_size": [
+        237,
+        375
+      ],
+      "scale": 1.024,
+      "cleaned_size": [
+        243,
+        384
+      ],
+      "retained_alpha_pixels_before_resize": 35680,
+      "frame": 3,
+      "source_cell_xyxy": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "output_xy": [
+        1670,
+        64
+      ],
+      "margins_ltrb_alpha32_px": [
+        134,
+        135,
+        64,
+        64
+      ],
+      "min_margin_alpha32_px": 64,
+      "connected_components_removed": 0,
+      "alpha_below_12_removed": true
+    },
+    {
+      "component_count_alpha32": 1,
+      "source_bbox_ltrb": [
+        123,
+        50,
+        398,
+        414
+      ],
+      "source_bbox_size": [
+        276,
+        365
+      ],
+      "scale": 1.052055,
+      "cleaned_size": [
+        290,
+        384
+      ],
+      "retained_alpha_pixels_before_resize": 38489,
+      "frame": 4,
+      "source_cell_xyxy": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "output_xy": [
+        111,
+        576
+      ],
+      "margins_ltrb_alpha32_px": [
+        111,
+        111,
+        65,
+        64
+      ],
+      "min_margin_alpha32_px": 64,
+      "connected_components_removed": 0,
+      "alpha_below_12_removed": true
+    },
+    {
+      "component_count_alpha32": 1,
+      "source_bbox_ltrb": [
+        118,
+        33,
+        428,
+        417
+      ],
+      "source_bbox_size": [
+        311,
+        385
+      ],
+      "scale": 0.997403,
+      "cleaned_size": [
+        310,
+        384
+      ],
+      "retained_alpha_pixels_before_resize": 37899,
+      "frame": 5,
+      "source_cell_xyxy": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "output_xy": [
+        613,
+        576
+      ],
+      "margins_ltrb_alpha32_px": [
+        101,
+        101,
+        64,
+        64
+      ],
+      "min_margin_alpha32_px": 64,
+      "connected_components_removed": 0,
+      "alpha_below_12_removed": true
+    },
+    {
+      "component_count_alpha32": 1,
+      "source_bbox_ltrb": [
+        110,
+        60,
+        368,
+        417
+      ],
+      "source_bbox_size": [
+        259,
+        358
+      ],
+      "scale": 1.072626,
+      "cleaned_size": [
+        278,
+        384
+      ],
+      "retained_alpha_pixels_before_resize": 36897,
+      "frame": 6,
+      "source_cell_xyxy": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "output_xy": [
+        1141,
+        576
+      ],
+      "margins_ltrb_alpha32_px": [
+        117,
+        117,
+        64,
+        64
+      ],
+      "min_margin_alpha32_px": 64,
+      "connected_components_removed": 0,
+      "alpha_below_12_removed": true
+    },
+    {
+      "component_count_alpha32": 1,
+      "source_bbox_ltrb": [
+        144,
+        70,
+        358,
+        413
+      ],
+      "source_bbox_size": [
+        215,
+        344
+      ],
+      "scale": 1.116279,
+      "cleaned_size": [
+        240,
+        384
+      ],
+      "retained_alpha_pixels_before_resize": 40339,
+      "frame": 7,
+      "source_cell_xyxy": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "output_xy": [
+        1672,
+        576
+      ],
+      "margins_ltrb_alpha32_px": [
+        136,
+        136,
+        64,
+        64
+      ],
+      "min_margin_alpha32_px": 64,
+      "connected_components_removed": 0,
+      "alpha_below_12_removed": true
+    }
+  ]
+}

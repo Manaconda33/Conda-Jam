@@ -1,0 +1,30 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "layup-reverse",
+  "attempt": 3,
+  "generation_id": "exec-9253b233-dd49-424b-8285-3ca6b2e253f1",
+  "generated_at_utc": "2026-10-25",
+  "prompt_file": "tools/generate-art/piper-quickstep-layup-reverse-attempt3-prompt.md",
+  "reference_files": ["tools/generate-art/sources/piper-quickstep-layup-attempt2-clean-candidate.png"],
+  "source_file": "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt3-generated-raw.png",
+  "source_sha256": "0cd261ae7f0b61423118896865f51241011c726ed360e82c3e8bf61308a6b74e",
+  "source_size": [1774, 887],
+  "mode": "RGBA",
+  "review_state": "raw_rejected_cleaned_candidate_accepted",
+  "review_note": "Independent review confirms complete anatomy, Piper identity, no ball, and improved eight-pose separation. Raw source was rejected because size is 1774x887; silhouette margins are below 64px; scattered red/orange fringe remains. Cleaned candidate attempt3 now isolates each complete silhouette, removes detached pixels and low-alpha fringe, uniformly scales and centers each body in a 512x512 cell. Independent review accepts the cleaned 2048x1024 sheet with at least 64 fully transparent pixels on every cell edge.",
+  "pixel_review": {
+    "alpha_extrema": [0, 255],
+    "transparent_pixels": 1191198,
+    "partial_alpha_pixels": 381833,
+    "alpha_ge_8_main_component_bounds_by_frame_ltrb": [
+      [75, 407, 105, 424],
+      [112, 370, 56, 431],
+      [165, 371, 56, 427],
+      [122, 358, 59, 435],
+      [122, 398, 50, 414],
+      [118, 428, 33, 418],
+      [110, 369, 59, 417],
+      [143, 358, 70, 413]
+    ]
+  }
+}

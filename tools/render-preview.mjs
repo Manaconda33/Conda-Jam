@@ -180,23 +180,24 @@ for(const clip of Object.keys(animationClips).filter(key=>(key.startsWith('dunk-
  await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
  actionFramePreviews.push({path,athlete:p.id,clip,frame:9,tick,facing,production:Boolean(selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages})),source:animationAssetManifest.characters?.[p.id]?.directions?.right?.[clip]?.src??null,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:'last carried tick before release'});
 }
-// Capture a real simulation shot trajectory, including release physics, for layup review.
+// Capture real simulation shot trajectories, including release physics, for
+// both layup families and their athlete-specific carry tracks.
 const liveShotCaptures=[];
-if(shouldPreview('layup'))for(const facing of [1,-1]){
+for(const clip of ['layup','layup-reverse'].filter(shouldPreview))for(const facing of [1,-1]){
  game.start(home.id,game.teams.find(t=>t.id!==home.id).id,180,3);
  const match=game.state,shooter=match.players.find(candidate=>candidate.id===previewAthlete);
  if(!shooter)throw new Error('Live layup shooter missing after match reset');
  const team=facing>0?0:1;shooter.team=team;for(const other of match.players)if(other!==shooter)other.team=1-team;
  match.possession=team;match.practice=true;match.pause=false;match.phase='playing';match.clock=180;match.shotClock=24;match.scorePause=0;
- shooter.x=facing>0?170:30;shooter.y=50;shooter.facing=facing;shooter.z=0;shooter.vz=0;shooter.hasBall=true;shooter.animation={clip:'layup',tick:0,action:{kind:'shot',charge:0},jump:true};shooter.anim='shoot';
+ shooter.x=facing>0?170:30;shooter.y=50;shooter.facing=facing;shooter.z=0;shooter.vz=0;shooter.hasBall=true;shooter.animation={clip,tick:0,action:{kind:'shot',charge:0},jump:true};shooter.anim='shoot';
  for(const other of match.players)if(other!==shooter){other.x=facing>0?115:85;other.y=65;other.z=0;other.vx=0;other.vy=0;other.hasBall=false;other.animation={clip:'idle',tick:0};}
- match.ball.mode='carried';match.ball.ownerId=shooter.id;match.ball.targetId=null;match.ball.lastTouch=shooter.id;match.ball.x=shooter.x+facing*sampleBallForward('layup',0,shooter.id);match.ball.y=shooter.y;match.ball.z=sampleBallHeight('layup',0,shooter.id);
+ match.ball.mode='carried';match.ball.ownerId=shooter.id;match.ball.targetId=null;match.ball.lastTouch=shooter.id;match.ball.x=shooter.x+facing*sampleBallForward(clip,0,shooter.id);match.ball.y=shooter.y;match.ball.z=sampleBallHeight(clip,0,shooter.id);
  const inputs=match.players.map(player=>createInput(player.id));
- for(let simulationTick=1;simulationTick<=85;simulationTick++){
+ for(let simulationTick=1;simulationTick<=130;simulationTick++){
   stepMatch(match,inputs);game.tick(0);
-  if([9,10,11,14,18,40,60,80,85].includes(simulationTick)){
-   const position=facing>0?'right':'left',path=out+'/'+position+'-layup-live-tick'+simulationTick+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
-   liveShotCaptures.push({path,athlete:shooter.id,clip:'layup',simulationTick,animationTick:shooter.animation.tick,facing,production:Boolean(selectProductionSprite(shooter,{manifest:animationAssetManifest,images:previewImages})),source:animationAssetManifest.characters?.[shooter.id]?.directions?.right?.layup?.src??null,playerZ:shooter.z,hasBall:shooter.hasBall,ballMode:match.ball.mode,ballOwnerId:match.ball.ownerId,ball:{x:match.ball.x,y:match.ball.y,z:match.ball.z,vx:match.ball.vx,vy:match.ball.vy,vz:match.ball.vz}});
+  if([9,10,11,14,18,40,60,80,85,100,110,120,130].includes(simulationTick)){
+   const position=facing>0?'right':'left',path=out+'/'+position+'-'+clip+'-live-tick'+simulationTick+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
+   liveShotCaptures.push({path,athlete:shooter.id,clip,simulationTick,animationTick:shooter.animation.tick,facing,production:Boolean(selectProductionSprite(shooter,{manifest:animationAssetManifest,images:previewImages})),source:animationAssetManifest.characters?.[shooter.id]?.directions?.right?.[clip]?.src??null,playerZ:shooter.z,hasBall:shooter.hasBall,ballMode:match.ball.mode,ballOwnerId:match.ball.ownerId,ball:{x:match.ball.x,y:match.ball.y,z:match.ball.z,vx:match.ball.vx,vy:match.ball.vy,vz:match.ball.vz}});
   }
  }
 }

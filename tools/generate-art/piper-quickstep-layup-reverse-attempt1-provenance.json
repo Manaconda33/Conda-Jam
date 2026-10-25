@@ -1,0 +1,33 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "layup-reverse",
+  "attempt": 1,
+  "generation_id": "exec-09b35995-474e-4d02-8ae7-a7840e13c0e0",
+  "generated_at_utc": "2026-10-25",
+  "prompt_file": "tools/generate-art/piper-quickstep-layup-reverse-attempt1-prompt.md",
+  "reference_files": [
+    "tools/generate-art/sources/piper-quickstep-layup-attempt2-clean-candidate.png"
+  ],
+  "source_file": "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt1-generated-raw.png",
+  "source_sha256": "9284a9a7c6e9f0e663607e5391b72a3057aec0083e23ce10481e12c451b067ea",
+  "source_size": [1774, 887],
+  "mode": "RGBA",
+  "review_state": "rejected",
+  "review_note": "Eight complete Piper poses are present; f5/tick12 release is distinct from f4/tick10 peak. Rejected before packing: output is 1774x887 rather than requested 2048x1024; at alpha >=128 silhouette margins are below 64px on f0 (right/bottom), f4 (right/bottom), and f5 (right); red/orange alpha specks and fringe appear in gutters and around silhouettes; f2 and f3 are too similar. No ball is baked in and true RGBA alpha is present. Preserve the raw source and generate a corrective edit.",
+  "pixel_review": {
+    "alpha_extrema": [0, 255],
+    "transparent_pixels": 1214276,
+    "partial_alpha_pixels": 357777,
+    "opaque_pixels": 1485,
+    "main_silhouette_margins_at_alpha_32_px_by_frame_ltrb": [
+      [61, 52, 83, 46],
+      [88, 91, 60, 30],
+      [112, 106, 53, 40],
+      [121, 85, 53, 36],
+      [108, 41, 37, 40],
+      [68, 56, 17, 45],
+      [105, 37, 49, 39],
+      [117, 113, 44, 37]
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "layup-reverse",
+  "attempt": 2,
+  "generation_id": "exec-e0fe89c3-4a59-4d32-885e-cc25adf8ebe5",
+  "generated_at_utc": "2026-10-25",
+  "prompt_file": "tools/generate-art/piper-quickstep-layup-reverse-attempt2-edit-prompt.md",
+  "reference_files": [
+    "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt1-generated-raw.png",
+    "tools/generate-art/sources/piper-quickstep-layup-attempt2-clean-candidate.png"
+  ],
+  "source_file": "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt2-generated-raw.png",
+  "source_sha256": "88361d080fc0c7182a5935972286831d6786d5e31c0e13e3d26bb5df40e48da8",
+  "source_size": [1774, 887],
+  "mode": "RGBA",
+  "review_state": "pending_independent_review",
+  "review_note": "Revision retained the correct identity and eight-frame action, but first pixel check still finds frame 4 top margin 18px, frame 5 right margin 33px, and frames 2/3 remain very similar. The requested 2048x1024 dimension was not honored; output remains 1774x887. Red/orange fringe is still visible. Do not pack pending independent review; likely reject and regenerate with reduced scale and stronger pose contrast.",
+  "pixel_review": {
+    "alpha_extrema": [0, 255],
+    "transparent_pixels": 1171961,
+    "partial_alpha_pixels": 400804,
+    "opaque_pixels": 773,
+    "main_silhouette_margins_at_alpha_32_px_by_frame_ltrb": [
+      [63, 47, 80, 37],
+      [85, 87, 51, 15],
+      [113, 96, 43, 31],
+      [128, 69, 42, 26],
+      [79, 73, 17, 37],
+      [79, 33, 32, 36],
+      [103, 53, 44, 34],
+      [126, 89, 44, 34]
+    ]
+  }
+}

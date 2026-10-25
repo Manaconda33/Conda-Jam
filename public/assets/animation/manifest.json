@@ -65526,13 +65526,226 @@
             },
             "reviewed": true,
             "reviewNotes": "Eight distinct ordered poses pass identity/anatomy, transparent alpha, no-ball art, margins, and release/follow-through separation. Separate track aligns at frame2/tick5, frame3/tick8, last-carry tick9, and frame4/tick10. Independent native review covers both facings and 100%/120%; live shot physics moves to the correct rim."
+          },
+          "layup-reverse": {
+            "src": "./public/assets/animation/piper-quickstep-layup-reverse-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "34583505b50293e87d0d9f129492567a09928ad0bf85d9bc00dd9593a7be00f6"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "cf14bd356720790bb64a82e3aa372067a87ec651e5f16907b0cf83429f62b95d"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6dcd9109088eaf394af1d6a40910f30e7cd2e4dafeb4cb39b2e56468f1dc3fe8"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6a4aeef0ac3d9d4f4b4c6f83ee05ccd70d55624ec26a5acf9f13be6468a3b1e3"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fbcdc04625769c8422ad2697aa4aaefa9f7a5f4bddaf2f4dfb830e9af09ccdbf"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "89d4f87c73275853c944b7e0d7a5d2ba77aa25f18b228b08e4f3a03c1e854c48"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "63f80006626433a0e4fe1de93e331830a167023868e2d69d7fc8e71011a5ae7b"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "37a30c68fa5fc0db21fa5f8525196f3020bd07cc25955a39afd63f6ee40e9500"
+              }
+            ],
+            "sha256": "9329d01930c1c3985f2bc609b118e449790bddc20fbefb1cfcb5c92174e97d6e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "piper-quickstep",
+              "clip": "layup-reverse",
+              "direction": "right",
+              "attempt": 3,
+              "generationId": "exec-9253b233-dd49-424b-8285-3ca6b2e253f1",
+              "generatedAt": "2026-10-25T03:29:23Z",
+              "promptFile": "tools/generate-art/piper-quickstep-layup-reverse-attempt3-prompt.md",
+              "prompt": "Create a fresh original production sprite sheet for Piper Quickstep performing an acrobatic right-facing reverse basketball layup. Use the supplied approved Piper layup art only to preserve her identity, clothing, and rendering style. Piper is the same athletic adult human woman: warm-brown skin, bright orange high ponytail tied behind her head, russet-red uniform with cream speed stripes and trim, matching red/cream trainers. Preserve her face, skin tone, orange ponytail, uniform palette, athletic proportions, and complete anatomy. Draw exactly two arms and hands, two legs and shoes in every frame.\n\nSprite sheet: genuine transparent RGBA, four equal columns by two equal rows, eight complete separate poses in row-major order. The generator may return a 1774x887 canvas; if so, treat each of its four equal columns and two equal rows as a cell and keep every silhouette at most 65% of the cell width and height, centered, so that there is at least 64px of fully transparent margin on all four sides at the requested 2048x1024 production scale. No hair strand, fingertip, or shoe may intrude on that safety margin. Use the same figure scale and image-right three-quarter view in all eight cells.\n\nThis is a reverse layup, not a regular right-handed layup: approach image-right, pass beneath the rim, rotate away from the basket, then finish high from the far side of the hoop. Make the frame-to-frame body poses dramatically and unmistakably different. Exact order:\n0. Low approach stride toward image-right, eyes up, empty hands beginning to gather an invisible ball at the waist.\n1. Takeoff, simulation tick 2: lift vertically from the last running step, lead knee high, chest still partly image-right, invisible ball gathered at chest.\n2. Cross under the hoop: sharply rotate the torso so the back is three-quarter toward the viewer, shoulders and hips turning away from the rim; both empty hands carry the invisible ball high near the far side of the head; knees tuck asymmetrically.\n3. Reverse gather at tick 7: turn into a clear side-facing profile again, torso taller and more upright than frame 2, elbows bent with hands behind the head on the far side, lead knee drawn tightly toward chest while the trailing leg folds below. This silhouette must not duplicate frame 2.\n4. Peak at tick 10, still before release: highest compact cocked pose, back/shoulders turned away from the rim, far-side shooting elbow bent sharply and empty shooting hand behind and above the head; opposite arm opens for balance, lead knee high.\n5. Sole release at tick 12: fully extend the far-side shooting arm behind/across the head with clearly separated open fingertips and a visible wrist flick; opposite arm counterbalances, body remains airborne. Make the extended arm unmistakably different from the bent elbow in frame 4. Keep hands visually separate from hair and from each other.\n6. Follow-through/descent at tick 13: empty shooting arm now relaxed and swept down/out after release, shoulders unwinding, knees opening toward landing. This must read differently from frame 5.\n7. Finish at tick 17: balanced landing and recovery, upright image-right, both empty hands lowered naturally.\n\nNo ball is painted into any pose; the basketball is a separate athlete-specific runtime object. Draw no ball, sphere, seams, hoop, rim, floor, court, ground shadow, scenery, glow, background color, checkerboard, grid, cell dividers, border, text, label, UI, teammate, or extra person. Keep clean transparent gutters with no stray colored pixels or fringe. Return only the sprite sheet.",
+              "referenceFiles": [
+                "tools/generate-art/sources/piper-quickstep-layup-attempt2-clean-candidate.png"
+              ],
+              "rawSource": "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt3-generated-raw.png",
+              "rawSourceSha256": "0cd261ae7f0b61423118896865f51241011c726ed360e82c3e8bf61308a6b74e",
+              "cleanupScript": "tools/generate-art/clean-piper-quickstep-layup-reverse-attempt3.py",
+              "cleanupNotes": "Per-cell alpha>=32 largest-component isolation; preserve one-pixel antialias dilation; remove detached components and alpha<12 fringe; crop each full silhouette; premultiplied-alpha Lanczos resize uniformly to fit 384x384; center in transparent 512x512 cells. The source generation attempts 1 and 2 were rejected; attempt 3 raw source was also rejected pending cleanup. No pose pixels were fabricated or redrawn.",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/piper-quickstep-layup-reverse-attempt3-clean-candidate.png",
+              "sourceSha256": "b7689f79180820b7fe8609415d23c1562d1dbe21426b919ad0eb744d5c0a8b20",
+              "sourceSize": [
+                2048,
+                1024
+              ],
+              "sourceMode": "RGBA",
+              "review": {
+                "status": "accepted",
+                "sourceReviewer": "independent source-review subagent",
+                "sourceNotes": "Cleaned 2048x1024 RGBA sheet; row-major 4x2; all eight poses complete and distinct; Piper identity/anatomy intact; no baked ball; >=64 fully transparent px on every cell edge; no detached noise.",
+                "nativeTrackReviewer": "independent native-render subagent",
+                "nativeTrackNotes": "All eight frames select production atlas at 100%/120% in both facings. Ball remains carried through tick11, aligns just above/behind the bent hand at f4/ticks10-11, aligns on extended fingertips at f5/tick12, then releases. Live simulation reaches intended rim and awards two points in both facings.",
+                "reviewedAt": "2026-10-25T03:32:00Z"
+              },
+              "eligibleForPacking": true,
+              "packagingNotes": "Separate Piper-specific basketball track is retained as runtime art; native review is required after atlas packing to tune hand alignment and verify release at frame5/tick12.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 62,
+                  "y": 69,
+                  "w": 388,
+                  "h": 372,
+                  "component": 4,
+                  "area": 49427
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 633,
+                  "y": 62,
+                  "w": 269,
+                  "h": 387,
+                  "component": 1,
+                  "area": 41477
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1171,
+                  "y": 62,
+                  "w": 217,
+                  "h": 388,
+                  "component": 2,
+                  "area": 37301
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1669,
+                  "y": 62,
+                  "w": 246,
+                  "h": 388,
+                  "component": 3,
+                  "area": 36448
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 109,
+                  "y": 575,
+                  "w": 294,
+                  "h": 387,
+                  "component": 9,
+                  "area": 41292
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 612,
+                  "y": 574,
+                  "w": 313,
+                  "h": 388,
+                  "component": 7,
+                  "area": 36444
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 1140,
+                  "y": 574,
+                  "w": 281,
+                  "h": 388,
+                  "component": 8,
+                  "area": 41195
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1670,
+                  "y": 575,
+                  "w": 244,
+                  "h": 387,
+                  "component": 10,
+                  "area": 48662
+                }
+              ],
+              "uniformScale": 0.23711340206185566,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 96x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses",
+              "promptVerbatim": true,
+              "cleanupRecord": "tools/generate-art/piper-quickstep-layup-reverse-attempt3-layouts.json",
+              "cleanupPreviewFiles": [
+                "tools/generate-art/previews/piper-quickstep-layup-reverse/attempt3-clean/source-dark.png",
+                "tools/generate-art/previews/piper-quickstep-layup-reverse/attempt3-clean/source-light.png"
+              ],
+              "separateBallTrack": {
+                "owner": "piper-quickstep",
+                "height": [
+                  1.15,
+                  1.7,
+                  2.2,
+                  2.2,
+                  2.5,
+                  2.45,
+                  1.4,
+                  0.8
+                ],
+                "forward": [
+                  3.7,
+                  6.6,
+                  -1.8,
+                  2.2,
+                  -7.5,
+                  -6.5,
+                  2,
+                  6
+                ],
+                "releaseFrame": 5,
+                "releaseTick": 12,
+                "review": "native-final2 at 100% and 120% zoom in both facings; last carry tick11; released trajectory scores two points at the intended rim"
+              },
+              "nativeReviewReports": [
+                "tools/generate-art/previews/piper-quickstep-layup-reverse/native-final2-100/report.json",
+                "tools/generate-art/previews/piper-quickstep-layup-reverse/native-final2-120/report.json"
+              ]
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Piper\u2019s canonical body is safe to mirror; layup art and separate ball contact were reviewed with production captures in both facings at100% and120% zoom."
+        "notes": "Piper is canonically mirror-safe. Reverse-layup production atlas and separate-ball hand contact were reviewed in both facings at 100% and 120%; live shot reached the intended rim and scored two points in both directions."
       }
     },
     "briar-foxglove": {
