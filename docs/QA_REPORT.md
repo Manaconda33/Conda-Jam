@@ -1,5 +1,7 @@
 # Latest validation — J.123 Piper Quickstep `alley-oop-power`
 
+Current asset-production checkpoint: J.124 Piper `alley-oop-reverse` source-only work. Commits `54ed4e16` (poses00–04) and `f1fcb0f0` (poses05–09) preserve candidate sources, exact prompts, provenance, rejected attempts, cleanup, margins and light/dark proofs. The first lane has an independent provisional source review; the second still awaits full-sequence review. Poses10–14 remain in progress. No J.124 runtime or atlas changes exist, so the J.123 validation below remains the latest implementation validation.
+
 - `npm test`: PASS,45/45 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtime periods; production build: PASS.
 - Focused J.123 test: PASS. Real teammate-pass simulation covers right and left facings, no possession before tick10, catch tick10, carried ball through20, ownerless release21, one two-point score at23 and landing30.
 - Native Canvas review: PASS. All15 poses select production art in both facings at100% and120%; catch, last carried hand contact and rim release were visually checked at both zoom levels. Source/atlas identity, anatomy, pose separation, transparency, margins and ball-free art pass; ball remains a separate runtime object.
