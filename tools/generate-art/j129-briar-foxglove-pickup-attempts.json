@@ -1056,8 +1056,8 @@
         "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose3-review.json",
         "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-review.json"
       ],
-      "status": "rejected-source-as-is",
-      "reason": "Individual source cutouts returned 1254x1254 instead of 512x512 and retain alpha1-63 outside the figures. Pose0 and pose4 are pixel-identical with a shared generation ID despite different prompts; only four unique poses. No candidate sheet assembled or packed.",
+      "status": "rejected-source-as-is; five distinct selected poses, but no normalized sheet",
+      "reason": "Original pose0/pose4 hash and generation ID collision is preserved as rejected history; distinct retries now provide a unique ready pose and recovery pose. Selected cutouts still return 1254x1254 and retain alpha1-63 outside silhouettes; no sheet was assembled.",
       "pose0Retry": {
         "generationId": "exec-2d00ce2c-f477-4851-a2be-7f403e0fb180",
         "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose0-retry-prompt.md",
@@ -1066,7 +1066,45 @@
         "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-pose0-retry-light-dark-review.png",
         "status": "rejected-source-as-is",
         "reason": "Unique ready stance resolves the old pose0/pose4 collision for pose0, but alpha1\u201363 remains outside the figure and normalized margins miss the136px target."
-      }
+      },
+      "selectedPoseSources": [
+        {
+          "pose": 0,
+          "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose0-retry-raw.png",
+          "sha256": "d39c0b2ceab754c3d1ec9c52d20cdbd15185c6c4cafca04dc3d3bcbce79729e3",
+          "generationId": "exec-2d00ce2c-f477-4851-a2be-7f403e0fb180",
+          "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose0-retry-prompt.md"
+        },
+        {
+          "pose": 1,
+          "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose1-raw.png",
+          "sha256": "9081af83e1d121abc4164a97e721829b5ab4cb4922d1351264ba4bdaa625a4d7",
+          "generationId": "exec-84442fe6-99a8-48a1-9cc3-dd82d11f8c43",
+          "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose1-prompt.md"
+        },
+        {
+          "pose": 2,
+          "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose2-raw.png",
+          "sha256": "4e7ff9d24c0349c46820b84775f53b1e260119e264b01c98e3a9dd0c02a7df7d",
+          "generationId": "exec-eda823be-4fc0-41b9-a64a-84f87803c501",
+          "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose2-prompt.md"
+        },
+        {
+          "pose": 3,
+          "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose3-raw.png",
+          "sha256": "9daa05eda79f969f6e6d251f4d66a2a5f65d9a731493dfa003b2dfbbce70d763",
+          "generationId": "exec-1ea7125b-6705-46ff-99fc-624cd20f5cb0",
+          "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose3-prompt.md"
+        },
+        {
+          "pose": 4,
+          "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose4-retry-raw.png",
+          "sha256": "9037874111f2cb0cb5343828b7b3e6e593012bc9e77915a604c430228a3799db",
+          "generationId": "exec-e1c54d85-f133-4714-933b-6e6f02dd265f",
+          "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-retry-prompt.md"
+        }
+      ],
+      "pose4Retry": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose4-retry-raw.png"
     }
   ]
 }

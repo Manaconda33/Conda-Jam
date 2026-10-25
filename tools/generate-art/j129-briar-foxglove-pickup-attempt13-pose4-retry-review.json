@@ -1,0 +1,77 @@
+{
+  "issue": "J.129",
+  "athlete": "Briar Foxglove",
+  "clip": "pickup",
+  "attempt": 13,
+  "pose": 4,
+  "variant": "retry",
+  "generationId": "exec-e1c54d85-f133-4714-933b-6e6f02dd265f",
+  "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-retry-prompt.md",
+  "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose4-retry-raw.png",
+  "sourceSha256": "9037874111f2cb0cb5343828b7b3e6e593012bc9e77915a604c430228a3799db",
+  "size": [
+    1254,
+    1254
+  ],
+  "requestedSize": [
+    512,
+    512
+  ],
+  "alphaHistogram": {
+    "alpha0": 1392239,
+    "alpha1to63": 23265,
+    "alpha64to254": 156504,
+    "alpha255": 508
+  },
+  "alphaGe1Bounds": {
+    "bboxLTRB": [
+      33,
+      57,
+      1240,
+      1254
+    ],
+    "marginsLTRB": [
+      33,
+      14,
+      57,
+      0
+    ]
+  },
+  "alphaGe64Bounds": {
+    "bboxLTRB": [
+      393,
+      264,
+      910,
+      987
+    ],
+    "marginsLTRB": [
+      393,
+      344,
+      264,
+      267
+    ]
+  },
+  "alphaGe160Bounds": {
+    "bboxLTRB": [
+      394,
+      264,
+      910,
+      987
+    ],
+    "marginsLTRB": [
+      394,
+      344,
+      264,
+      267
+    ]
+  },
+  "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-pose4-retry-light-dark-review.png",
+  "visualReview": {
+    "pose": "A distinct partial recovery: torso halfway upright, knees still flexed, right hand below waist returning upward, left hand balances forward; distinct from deep crouch and upright ready pose.",
+    "identityAnatomy": "Briar identity and uniform are consistent; adult human anatomy and separate hands/arms/legs are readable.",
+    "ball": "No ball present; separate track remains respected.",
+    "transparency": "REJECT: alpha1\u201363 contamination extends nearly the full canvas; alpha>=1 bbox is [33,57,1240,1254], reaching the bottom edge. Light/dark composite looks clean at review scale but strict outside-silhouette alpha is not zero.",
+    "margins": "At raw size alpha>=64 figure bbox margins are [393,344,264,267]; figure is well separated from the canvas. ImageGen returned1254x1254 rather than requested512x512.",
+    "decision": "REJECT source as-is due alpha contamination and returned size deviation; retain as a distinct retry; do not clean, assemble, pack, or register."
+  }
+}
