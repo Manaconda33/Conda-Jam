@@ -1,0 +1,18 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry11",
+  "decision": "REJECT",
+  "generationId": "exec-9b0b903d-9318-4c64-8318-b537050b4f5b",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry11-raw.png",
+  "sourceSha256": "43f7c95b36f21d1cbea38c2274c1ac35a8c96c1c7d2ef61eff1a84de74766c67",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry11-light-dark-review.jpg",
+  "checks": {
+    "pose": "Broad peak/release layup with raised right hand, lower guide hand and folded trailing leg; full two-arm/two-leg anatomy, no ball.",
+    "identity": "Adult human, dark shoulder locs and vivid red headband; no fox traits.",
+    "palette": "Skin reads brighter and more orange than accepted Briar reference. Trainers remain russet-dominant rather than predominantly cream.",
+    "transparency": "Checkerboard pattern is baked into an RGB image; there is no alpha channel.",
+    "cellMargins": "Zero transparent margin on all edges; all pixels are opaque.",
+    "scale": "Figure appears taller than the 44% canvas-height limit."
+  },
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry11-prompt.md",
+  "reason": "ImageGen returned RGB with checkerboard baked across the image; alpha is absent and clear margins are zero. The figure also exceeds the prompted scale and drifts orange in skin with russet-heavy shoes."
+}

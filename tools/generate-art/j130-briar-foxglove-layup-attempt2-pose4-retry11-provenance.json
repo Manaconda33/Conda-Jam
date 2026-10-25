@@ -1,0 +1,57 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "frame": 4,
+  "tick": 10,
+  "retry": 11,
+  "generationId": "exec-9b0b903d-9318-4c64-8318-b537050b4f5b",
+  "generator": "image_gen.imagegen",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry11-raw.png",
+  "rawSha256": "43f7c95b36f21d1cbea38c2274c1ac35a8c96c1c7d2ef61eff1a84de74766c67",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB (no alpha)",
+  "transparentBackgroundRequested": true,
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry11-prompt.md",
+  "promptSha256": "4d6b4f34033f80a12437482f99259202d2279640556bc31748e02d702503c729",
+  "referenceImages": [
+    "/workspace/Conda-Jam/public/assets/animation/briar-foxglove-idle-right.webp",
+    "/workspace/Conda-Jam/public/assets/animation/briar-foxglove-shoot-right.webp",
+    "/workspace/Conda-Jam/public/assets/animation/briar-foxglove-receive-right.webp"
+  ],
+  "alphaMetrics": {
+    "inputMode": "RGB",
+    "alphaIfConvertedToRgba": "255 everywhere",
+    "boundsLTRB": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "marginsLTRB": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "clearMarginPercent": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry11-light-dark-review.jpg",
+  "decision": "REJECT; preserve unchanged; no cleanup, normalization, packing or acceptance",
+  "review": {
+    "pose": "Broad peak/release layup with raised right hand, lower guide hand and folded trailing leg; full two-arm/two-leg anatomy, no ball.",
+    "identity": "Adult human, dark shoulder locs and vivid red headband; no fox traits.",
+    "palette": "Skin reads brighter and more orange than accepted Briar reference. Trainers remain russet-dominant rather than predominantly cream.",
+    "transparency": "Checkerboard pattern is baked into an RGB image; there is no alpha channel.",
+    "cellMargins": "Zero transparent margin on all edges; all pixels are opaque.",
+    "scale": "Figure appears taller than the 44% canvas-height limit."
+  }
+}
