@@ -1,3 +1,10 @@
+# Latest validation — J.110 Piper block
+
+- `npm test`: PASS,36/36 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 unique athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; production build: PASS; atlas packer suite: PASS.
+- Native Canvas preview at100%/120% in both facings confirms all4 Piper block frames select at ticks0/2/5/8. Source/packed review confirms clean transparency, >=66px cell margins, pose separation, identity/anatomy, and no ball.
+- `npm run test:e2e`: BLOCKED before app readiness; server exits before responding at `http://127.0.0.1:4175/`.
+- Refreshed report-only audit: **805 clips /7,247 authored drawings /105 athletes**,2,298 missing clips, one target shortfall,4 inherited prompt findings.
+
 # QA report
 
 ## J.109 — Piper Quickstep `rebound`

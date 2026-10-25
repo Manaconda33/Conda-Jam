@@ -1,0 +1,125 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "block",
+  "attempt": 1,
+  "raw_source": "tools/generate-art/sources/piper-quickstep-block-attempt1-generated-raw.png",
+  "raw_source_sha256": "05ffd6cee89ba4d6a489a491fbfc40df0c9ef667788bf8d63df9cc1cab199b45",
+  "cleaned_source": "tools/generate-art/sources/piper-quickstep-block-attempt1-clean-candidate.png",
+  "cleaned_source_sha256": "988c0cbe059c88479e49b1045ed4961e8d0698ecc19c92879f827af12a5c92a1",
+  "cleaned_size": [
+    1536,
+    1024
+  ],
+  "layout": "row-major 2x2, four complete authored poses",
+  "cleanup": "Global alpha>=64 connected-component isolation retains complete figures even when they cross the raw row boundary; remove detached glow/specks and alpha<12 outside one-pixel antialias dilation; crop, uniformly scale each pose to fit380x380, then center in transparent768x512 cells. No pose pixels drawn, synthesized, duplicated, or reordered.",
+  "frames": [
+    {
+      "frame": 0,
+      "source_component": 2,
+      "source_area_alpha64": 52853,
+      "source_bbox_xyxy": [
+        280,
+        61,
+        544,
+        478
+      ],
+      "uniform_scale": 0.909091,
+      "output_size": [
+        241,
+        380
+      ],
+      "output_xy": [
+        263,
+        66
+      ],
+      "transparent_margins_ltrb_px": [
+        263,
+        264,
+        66,
+        66
+      ],
+      "removed_components": 1
+    },
+    {
+      "frame": 1,
+      "source_component": 1,
+      "source_area_alpha64": 49262,
+      "source_bbox_xyxy": [
+        930,
+        26,
+        1223,
+        480
+      ],
+      "uniform_scale": 0.835165,
+      "output_size": [
+        246,
+        380
+      ],
+      "output_xy": [
+        1029,
+        66
+      ],
+      "transparent_margins_ltrb_px": [
+        261,
+        261,
+        66,
+        66
+      ],
+      "removed_components": 1
+    },
+    {
+      "frame": 2,
+      "source_component": 3,
+      "source_area_alpha64": 46275,
+      "source_bbox_xyxy": [
+        305,
+        488,
+        560,
+        999
+      ],
+      "uniform_scale": 0.742188,
+      "output_size": [
+        190,
+        380
+      ],
+      "output_xy": [
+        289,
+        578
+      ],
+      "transparent_margins_ltrb_px": [
+        289,
+        289,
+        66,
+        66
+      ],
+      "removed_components": 1
+    },
+    {
+      "frame": 3,
+      "source_component": 4,
+      "source_area_alpha64": 52393,
+      "source_bbox_xyxy": [
+        925,
+        610,
+        1213,
+        1003
+      ],
+      "uniform_scale": 0.964467,
+      "output_size": [
+        279,
+        380
+      ],
+      "output_xy": [
+        1012,
+        578
+      ],
+      "transparent_margins_ltrb_px": [
+        244,
+        245,
+        66,
+        66
+      ],
+      "removed_components": 1
+    }
+  ]
+}

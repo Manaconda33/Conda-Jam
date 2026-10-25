@@ -1,0 +1,56 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "block",
+  "attempt": 1,
+  "generation_id": "exec-6e2c06ca-e717-42d6-b5f4-ef880b726df8",
+  "generated_at_utc": "2026-10-25T03:54:57Z",
+  "prompt_file": "tools/generate-art/piper-quickstep-block-attempt1-prompt.md",
+  "reference_files": [
+    "tools/generate-art/sources/piper-quickstep-rebound-attempt1-clean-candidate.png",
+    "tools/generate-art/sources/piper-quickstep-pickup-attempt3-clean-candidate.png"
+  ],
+  "source_file": "tools/generate-art/sources/piper-quickstep-block-attempt1-generated-raw.png",
+  "source_sha256": "05ffd6cee89ba4d6a489a491fbfc40df0c9ef667788bf8d63df9cc1cab199b45",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "review_state": "accepted_after_cleanup",
+  "review_note": "Raw sheet is 1536x1024 in a 2x2 grid with four complete Piper poses and no visible ball. It contains a soft glow/background and no fully opaque pixels. Frame2 crosses the source row boundary near the top by roughly24px; use global component extraction to retain complete bodies, remove glow and then recheck cell margins before packing. Independent visual review is pending. Independent cleanup review accepted the cleaned sheet with four distinct poses, transparent gutters, no glow or ball, full Piper identity/anatomy, clear apex hands, and >=66px margins. Native preview independently passed at 100% and 120% in both facings; all four production frames select at ticks0/2/5/8.",
+  "pixel_review": {
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "transparent_pixels": 1334568,
+    "partial_alpha_pixels": 238296,
+    "opaque_pixels": 0,
+    "largest_component_bounds_alpha64_global_xyxy": [
+      [
+        280,
+        61,
+        544,
+        478
+      ],
+      [
+        930,
+        26,
+        1223,
+        480
+      ],
+      [
+        305,
+        488,
+        560,
+        999
+      ],
+      [
+        925,
+        610,
+        1213,
+        1003
+      ]
+    ]
+  }
+}

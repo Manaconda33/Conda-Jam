@@ -1,0 +1,11 @@
+Create one original production sprite sheet for Piper Quickstep performing a basketball jump block. Use the supplied accepted Piper sheets only to preserve her visual identity and rendering style. Piper is an athletic adult human woman with warm-brown skin, a bright orange high ponytail tied behind her head, a russet-red basketball uniform with cream speed stripes and trim, and matching red/cream trainers. Preserve her face, hair, skin, athletic proportions, full anatomy and uniform. Keep the kit blank of text, numbers and logos.
+
+Canvas and layout: genuine transparent RGBA, exactly 1536x1024 pixels, two equal columns by two equal rows, each cell 768x512. Draw exactly one complete Piper pose in every cell, row-major frames 0 through 3. Center the full figure in each cell; keep the same scale and image-right three-quarter side view. Leave at least 64 pixels of fully transparent margin from every body part—including ponytail, all fingertips and both shoes—to each cell edge. No body part may touch or cross a cell boundary. Poses must be clearly different and not overlap.
+
+Four-pose sequence, exact order and timing:
+0. Ready defensive stance: alert and tracking an unseen shot, knees flexed, torso balanced, both empty hands ready near chest height.
+1. Jump initiation at simulation tick 2: drive upward from both feet, knees lift, shoulders rise, and both empty arms sweep upward; keep fingers clear of the ponytail.
+2. APEX BLOCK at simulation tick 5: highest airborne pose with both open empty hands extended overhead, fingers clearly separated above and clear of Piper's hair; elbows and shoulders fully extended to contest a shot. This is the single block apex pose.
+3. Descent and FINISH at tick 8: drop from the jump and land balanced in a defensive stance, arms lowering naturally to chest height, eyes tracking the play.
+
+There is no ball in Piper's hands during a block. The basketball remains a separate runtime game object and must not be drawn into any athlete pose. Keep both hands visibly empty in every frame. Do not draw a ball, sphere, seams, opponent, hoop, rim, floor, court, ground shadow, glow, scenery, background color, checkerboard, grid, dividers, border, text, logo, number, prop, UI, teammate, or extra person. Preserve true alpha-zero transparent background and gutters. Return only the sheet.

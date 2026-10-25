@@ -1,0 +1,53 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "block",
+  "direction": "right",
+  "attempt": 1,
+  "generationId": "exec-6e2c06ca-e717-42d6-b5f4-ef880b726df8",
+  "generatedAt": "2026-10-25T03:54:57Z",
+  "promptFile": "tools/generate-art/piper-quickstep-block-attempt1-prompt.md",
+  "prompt": "Create one original production sprite sheet for Piper Quickstep performing a basketball jump block. Use the supplied accepted Piper sheets only to preserve her visual identity and rendering style. Piper is an athletic adult human woman with warm-brown skin, a bright orange high ponytail tied behind her head, a russet-red basketball uniform with cream speed stripes and trim, and matching red/cream trainers. Preserve her face, hair, skin, athletic proportions, full anatomy and uniform. Keep the kit blank of text, numbers and logos.\n\nCanvas and layout: genuine transparent RGBA, exactly 1536x1024 pixels, two equal columns by two equal rows, each cell 768x512. Draw exactly one complete Piper pose in every cell, row-major frames 0 through 3. Center the full figure in each cell; keep the same scale and image-right three-quarter side view. Leave at least 64 pixels of fully transparent margin from every body part—including ponytail, all fingertips and both shoes—to each cell edge. No body part may touch or cross a cell boundary. Poses must be clearly different and not overlap.\n\nFour-pose sequence, exact order and timing:\n0. Ready defensive stance: alert and tracking an unseen shot, knees flexed, torso balanced, both empty hands ready near chest height.\n1. Jump initiation at simulation tick 2: drive upward from both feet, knees lift, shoulders rise, and both empty arms sweep upward; keep fingers clear of the ponytail.\n2. APEX BLOCK at simulation tick 5: highest airborne pose with both open empty hands extended overhead, fingers clearly separated above and clear of Piper's hair; elbows and shoulders fully extended to contest a shot. This is the single block apex pose.\n3. Descent and FINISH at tick 8: drop from the jump and land balanced in a defensive stance, arms lowering naturally to chest height, eyes tracking the play.\n\nThere is no ball in Piper's hands during a block. The basketball remains a separate runtime game object and must not be drawn into any athlete pose. Keep both hands visibly empty in every frame. Do not draw a ball, sphere, seams, opponent, hoop, rim, floor, court, ground shadow, glow, scenery, background color, checkerboard, grid, dividers, border, text, logo, number, prop, UI, teammate, or extra person. Preserve true alpha-zero transparent background and gutters. Return only the sheet.",
+  "promptVerbatim": true,
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-rebound-attempt1-clean-candidate.png",
+    "tools/generate-art/sources/piper-quickstep-pickup-attempt3-clean-candidate.png"
+  ],
+  "rawSource": "tools/generate-art/sources/piper-quickstep-block-attempt1-generated-raw.png",
+  "rawSourceSha256": "05ffd6cee89ba4d6a489a491fbfc40df0c9ef667788bf8d63df9cc1cab199b45",
+  "cleanupScript": "tools/generate-art/clean-piper-quickstep-block-attempt1.py",
+  "cleanupNotes": "Global alpha>=64 connected-component isolation retains all four complete source bodies, including frame2 crossing the raw row boundary; detached background glow/specks and alpha<12 outside one-pixel antialias dilation are removed; premultiplied-alpha Lanczos resize uniformly fits each pose within380x380 and centers it in transparent768x512 cells. No pose pixels were drawn, synthesized, duplicated, or reordered.",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-block-attempt1-clean-candidate.png",
+  "sourceSha256": "988c0cbe059c88479e49b1045ed4961e8d0698ecc19c92879f827af12a5c92a1",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceMode": "RGBA",
+  "layoutFile": "tools/generate-art/piper-quickstep-block-attempt1-layouts.json",
+  "review": {
+    "status": "accepted",
+    "sourceReviewer": "independent cleanup-review subagent",
+    "sourceNotes": "Four complete distinct poses in 2x2 RGBA; transparent alpha-zero gutters; no glow or ball; Piper identity/anatomy intact; apex fingers clear of ponytail; >=66px transparent margin on all cell edges; global extraction retains complete frame2."
+  },
+  "eligibleForPacking": true,
+  "ballBehavior": "Defensive block has no carried ball track. The loose/shooting basketball remains a separate runtime game object and is never painted into athlete art.",
+  "nativeReview": {
+    "status": "accepted",
+    "reviewer": "independent native-preview subagent",
+    "zooms": [
+      100,
+      120
+    ],
+    "facings": [
+      -1,
+      1
+    ],
+    "frameStartsTicks": [
+      0,
+      2,
+      5,
+      8
+    ],
+    "notes": "All four production frames select from the registered atlas; apex and recovery are distinct. Piper identity/anatomy remains readable. Hands are empty and the loose game ball is separate."
+  }
+}

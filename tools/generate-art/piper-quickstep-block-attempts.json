@@ -1,0 +1,14 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "block",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generation_id": "exec-6e2c06ca-e717-42d6-b5f4-ef880b726df8",
+      "source": "tools/generate-art/sources/piper-quickstep-block-attempt1-generated-raw.png",
+      "prompt": "tools/generate-art/piper-quickstep-block-attempt1-prompt.md",
+      "state": "raw_rejected_cleaned_candidate_accepted",
+      "reason": "Raw sheet rejected for glow, insufficient margins and a row-boundary crossing. Global component cleanup preserves complete poses and removes the glow; independent review accepts the cleaned source at >=66px margins, with clear apex fingers and no ball."
+    }
+  ]
+}
