@@ -1,0 +1,120 @@
+{
+  "issue": "J.130",
+  "reviewer": "primary visual review",
+  "frame": 4,
+  "attempt": 2,
+  "retry": 9,
+  "generationId": "exec-7899740a-1858-4f5e-b0ee-06b6a4d27946",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry9-raw.png",
+  "sourceSha256": "9f1dc255c5aaf80148514d22a4b32ee139f9ce7e979a1732510dea40fc798550",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry9-prompt.md",
+  "promptSha256": "c012d164a95dec03261098d948d03c6166780001a65a3e8115dc6db817f53854",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry8-light-dark-review.png",
+  "decision": "reject; preserve untouched; do not clean or assemble",
+  "observations": {
+    "identityAndAnatomy": "Adult human woman with shoulder-length dark locs and vivid red headband; recognizable two-arm/two-leg anatomy. No extra limb observed.",
+    "pose": "Airborne frame4 peak gesture broadly reads toward the right. Shooting arm is extended high/right with an open hand; guide arm bends in front of chest. Knees are separated but the rear shoe is not tightly tucked. Not sufficient to accept as part of the full sequence.",
+    "palette": "Skin is much lighter and orange/brighter than accepted Briar art (rough skin-colored pixel sample median RGB [184,92,40], versus accepted median [145,70,39]); highlights exceed the allowed #C17246. Reject for identity drift.",
+    "costume": "Visible white chest leaf emblem violates blank-chest instruction; wrist bands are visible; both trainers are predominantly russet/red instead of cream.",
+    "alpha": {
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "thresholdBoundsAndMargins": {
+        "1": {
+          "pixels": 96188,
+          "boundsLTRBExclusive": [
+            39,
+            87,
+            1224,
+            1210
+          ],
+          "marginsLTRB": [
+            39,
+            87,
+            30,
+            44
+          ]
+        },
+        "8": {
+          "pixels": 84381,
+          "boundsLTRBExclusive": [
+            452,
+            367,
+            883,
+            864
+          ],
+          "marginsLTRB": [
+            452,
+            367,
+            371,
+            390
+          ]
+        },
+        "64": {
+          "pixels": 81713,
+          "boundsLTRBExclusive": [
+            454,
+            368,
+            882,
+            864
+          ],
+          "marginsLTRB": [
+            454,
+            368,
+            372,
+            390
+          ]
+        },
+        "128": {
+          "pixels": 80493,
+          "boundsLTRBExclusive": [
+            454,
+            368,
+            882,
+            863
+          ],
+          "marginsLTRB": [
+            454,
+            368,
+            372,
+            391
+          ]
+        },
+        "200": {
+          "pixels": 79101,
+          "boundsLTRBExclusive": [
+            454,
+            368,
+            882,
+            863
+          ],
+          "marginsLTRB": [
+            454,
+            368,
+            372,
+            391
+          ]
+        },
+        "255": {
+          "pixels": 325,
+          "boundsLTRBExclusive": [
+            455,
+            375,
+            878,
+            850
+          ],
+          "marginsLTRB": [
+            455,
+            375,
+            376,
+            404
+          ]
+        }
+      },
+      "nonzeroAlphaOutsideMainFigure": "Many low-alpha pixels extend well outside the high-alpha figure region; alpha>=1 bounds nearly span the canvas (39px left, 87px top, 30px right, 44px bottom), violating clean >=25% transparent cell margin. The larger alpha>=8 silhouette is centered, but the raw source is not clean enough."
+    }
+  },
+  "overall": "Reject: significant skin palette drift, forbidden chest emblem and wristbands, wrong shoe palette, and broad low-alpha residue. Preserve raw source; no cleanup or packing."
+}

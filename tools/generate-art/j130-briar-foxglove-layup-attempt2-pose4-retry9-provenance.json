@@ -1,0 +1,117 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "attempt": 2,
+  "frame": 4,
+  "retry": 9,
+  "generationId": "exec-7899740a-1858-4f5e-b0ee-06b6a4d27946",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry9-raw.png",
+  "sourceSha256": "9f1dc255c5aaf80148514d22a4b32ee139f9ce7e979a1732510dea40fc798550",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry9-prompt.md",
+  "promptSha256": "c012d164a95dec03261098d948d03c6166780001a65a3e8115dc6db817f53854",
+  "references": [
+    "public/assets/animation/briar-foxglove-idle-right.webp",
+    "public/assets/animation/briar-foxglove-shoot-right.webp",
+    "public/assets/animation/briar-foxglove-receive-right.webp"
+  ],
+  "transparentBackgroundRequested": true,
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry8-light-dark-review.png",
+  "alphaMetrics": {
+    "1": {
+      "pixels": 96188,
+      "boundsLTRBExclusive": [
+        39,
+        87,
+        1224,
+        1210
+      ],
+      "marginsLTRB": [
+        39,
+        87,
+        30,
+        44
+      ]
+    },
+    "8": {
+      "pixels": 84381,
+      "boundsLTRBExclusive": [
+        452,
+        367,
+        883,
+        864
+      ],
+      "marginsLTRB": [
+        452,
+        367,
+        371,
+        390
+      ]
+    },
+    "64": {
+      "pixels": 81713,
+      "boundsLTRBExclusive": [
+        454,
+        368,
+        882,
+        864
+      ],
+      "marginsLTRB": [
+        454,
+        368,
+        372,
+        390
+      ]
+    },
+    "128": {
+      "pixels": 80493,
+      "boundsLTRBExclusive": [
+        454,
+        368,
+        882,
+        863
+      ],
+      "marginsLTRB": [
+        454,
+        368,
+        372,
+        391
+      ]
+    },
+    "200": {
+      "pixels": 79101,
+      "boundsLTRBExclusive": [
+        454,
+        368,
+        882,
+        863
+      ],
+      "marginsLTRB": [
+        454,
+        368,
+        372,
+        391
+      ]
+    },
+    "255": {
+      "pixels": 325,
+      "boundsLTRBExclusive": [
+        455,
+        375,
+        878,
+        850
+      ],
+      "marginsLTRB": [
+        455,
+        375,
+        376,
+        404
+      ]
+    }
+  },
+  "assessment": "Rejected. Pose is broadly readable but identity palette, chest, wrist, shoes, and full alpha cleanup requirements fail."
+}

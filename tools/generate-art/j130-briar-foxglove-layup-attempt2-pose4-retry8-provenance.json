@@ -1,0 +1,117 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "attempt": 2,
+  "frame": 4,
+  "retry": 8,
+  "generationId": "exec-cb9af4ad-7f02-4b4f-b87e-71de8df5cd63",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry8-raw.png",
+  "sourceSha256": "0b131d05dc070055b960c85e0bfa5c12698a08e7e11bd1cd2f4a218b74248451",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry8-prompt.md",
+  "promptSha256": "2a82f787388ae3e8314f308b6435fb0d58add4c2f5d3986001f08c576664559c",
+  "references": [
+    "public/assets/animation/briar-foxglove-idle-right.webp",
+    "public/assets/animation/briar-foxglove-shoot-right.webp",
+    "public/assets/animation/briar-foxglove-receive-right.webp"
+  ],
+  "transparentBackgroundRequested": true,
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry8-light-dark-review.png",
+  "alphaMetrics": {
+    "1": {
+      "pixels": 259637,
+      "boundsLTRBExclusive": [
+        23,
+        59,
+        1234,
+        1254
+      ],
+      "marginsLTRB": [
+        23,
+        59,
+        20,
+        0
+      ]
+    },
+    "8": {
+      "pixels": 234747,
+      "boundsLTRBExclusive": [
+        276,
+        148,
+        1007,
+        1075
+      ],
+      "marginsLTRB": [
+        276,
+        148,
+        247,
+        179
+      ]
+    },
+    "64": {
+      "pixels": 229348,
+      "boundsLTRBExclusive": [
+        278,
+        149,
+        1007,
+        1074
+      ],
+      "marginsLTRB": [
+        278,
+        149,
+        247,
+        180
+      ]
+    },
+    "128": {
+      "pixels": 227051,
+      "boundsLTRBExclusive": [
+        279,
+        149,
+        1007,
+        1073
+      ],
+      "marginsLTRB": [
+        279,
+        149,
+        247,
+        181
+      ]
+    },
+    "200": {
+      "pixels": 224398,
+      "boundsLTRBExclusive": [
+        279,
+        150,
+        1006,
+        1073
+      ],
+      "marginsLTRB": [
+        279,
+        150,
+        248,
+        181
+      ]
+    },
+    "255": {
+      "pixels": 622,
+      "boundsLTRBExclusive": [
+        299,
+        150,
+        998,
+        1073
+      ],
+      "marginsLTRB": [
+        299,
+        150,
+        256,
+        181
+      ]
+    }
+  },
+  "assessment": "Rejected after visual review; source retained unchanged."
+}
