@@ -1,0 +1,37 @@
+{
+  "issue": "J.130",
+  "reviewer": "primary independent visual review",
+  "reviewedAt": "2026-10-25",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry6-pose3-retry8-raw-light-dark.png",
+  "poses": [
+    {
+      "frame": 2,
+      "retry": 6,
+      "generationId": "exec-56f19aad-be58-4688-aacd-4651eb65835d",
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry6-raw.png",
+      "sourceSha256": "795be148492eda5b3527c7028c22f888e42dadb50874cca54beafc9f01863fd6",
+      "decision": "reject",
+      "findings": [
+        "Complete adult human with two arms/legs, visible red headband and locs, bare wrists, empty hands, no ball, and folded trailing leg.",
+        "The shooting hand remains at eye/forehead height instead of below the eyebrow at cheek level.",
+        "The torso is predominantly cream rather than Briar's russet home top; skin still reads warm/orange in highlights.",
+        "At alpha>=8, top clearance is192/1254 =15.3% and bottom is292/1254 =23.3%, both below 25%. There are145 nonzero-alpha components and edge residue remains."
+      ]
+    },
+    {
+      "frame": 3,
+      "retry": 8,
+      "generationId": "exec-7f0ad417-6a99-458a-8544-9ac487b1f361",
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry8-raw.png",
+      "sourceSha256": "0aa2e31f59fb95a0f2e7c1fa1bcb64a360133bca61a48f9eb894d20f2f51b0a4",
+      "decision": "reject",
+      "findings": [
+        "Two arms and two legs; blank chest, empty hands and a folded trailing leg are visible.",
+        "The palm-up shooting hand rises well above the crown instead of staying at or below the headband top.",
+        "Skin remains orange/bronze in its brighter values.",
+        "At alpha>=8, top clearance is142/1254 =11.3% and bottom is292/1254 =23.3%, below 25%. Nonzero alpha reaches the top and left borders; there are931 connected alpha components."
+      ]
+    }
+  ],
+  "overallDecision": "Reject both; no cleanup, assembly, packing or registration."
+}
