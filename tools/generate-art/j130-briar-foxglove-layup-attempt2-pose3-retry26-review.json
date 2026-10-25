@@ -1,0 +1,40 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry26",
+  "decision": "REJECT",
+  "generationId": "exec-4fc8d913-ed77-4d3e-916f-8c60bf57365d",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry26-raw.png",
+  "sourceSha256": "93a159ca7b0b9344d0d2a008c6489a8c33cee4a718e22279c0ad81eb5c159c9e",
+  "decodedRgbaPixelSha256": "415d8076f1ad870b865254d262171fa217645a54670e5cdac3f95a39bd836f57",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry26-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose3-retry26-light-dark-review.png",
+  "dimensions": [1254, 1254],
+  "thresholdMetrics": {
+    "alpha1": {
+      "boundsXYXYExclusive": [0, 37, 1230, 1222],
+      "marginsLTRB": [0, 37, 24, 32],
+      "components": 74
+    },
+    "alpha8": {
+      "boundsXYXYExclusive": [438, 327, 807, 837],
+      "marginsLTRB": [438, 327, 447, 417],
+      "heightFraction": 0.40670,
+      "components": 50
+    },
+    "alpha64": {
+      "boundsXYXYExclusive": [440, 327, 807, 837],
+      "marginsLTRB": [440, 327, 447, 417],
+      "marginFractionsLTRB": [0.35088, 0.26077, 0.35646, 0.33254],
+      "heightFraction": 0.40670,
+      "components": 1
+    }
+  },
+  "checks": {
+    "pose": "FAIL: right-facing airborne layup and raised lead knee read, but the shooting palm/fingers are well above the headband/crown in an overhead release-like reach. Frame3 requires the hand below the crown at forehead level.",
+    "identityAnatomy": "PARTIAL: recognizable adult human athlete with shoulder-length dark locs, vivid red headband, russet/cream kit, two arms/hands, two legs/shoes; no fox traits. Main alpha64 silhouette is connected and fully inside the canvas. Skin reads too orange/copper and lighter than Briar's canonical deep warm brown.",
+    "transparency": "FAIL for clean margins: true RGBA channel and clear background, but alpha>=1 residue forms74 disconnected components and reaches the left edge; no checkerboard is baked in.",
+    "cellMarginsAndScale": "FAIL: at alpha>=64, top margin is327px/26.08% (<34%), bottom margin is417px/33.25% (<34%), and figure height is40.67% vs the requested30–32%. At alpha>=1, margins are0/37/24/32px.",
+    "ballAlignment": "PASS for ball-free source: no basketball is baked in; the Briar-specific ball track remains separate and unreviewed until accepted hand poses exist.",
+    "poseSeparation": "Single-pose source only; full-sequence separation cannot yet be assessed."
+  },
+  "reason": "Reject unchanged for above-crown hand placement, orange skin palette, excess figure scale, deficient top/bottom cell margins and widespread low-alpha edge residue. Do not clean, recolor, normalize, pack or register."
+}
