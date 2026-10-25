@@ -171,6 +171,59 @@
   ],
   "integrityReview": {
     "decision": "NOT ACCEPTABLE AS-IS",
-    "finding": "Pose0 and pose4 raw files are pixel-identical (SHA 6688e5d13c3ec55e139854781453b15a3e54b8d4bc369dd98a82e0378b9ba3df) and share generation ID exec-032deb58-ac70-4bab-9c8c-59d07851959f despite different prompts. Four unique poses only; regenerate pose0 and pose4 with distinct provenance before any assembly. All outputs are 1254x1254 rather than requested512, and alpha1-63 residues remain outside the figures."
+    "finding": "The original pose0 and pose4 files are pixel-identical (SHA 6688e5d13c3ec55e139854781453b15a3e54b8d4bc369dd98a82e0378b9ba3df) and share generation ID exec-032deb58-ac70-4bab-9c8c-59d07851959f despite different prompts. This historical collision is preserved. Original pose0 is superseded and must not be used with pose4. The new pose0 retry uses a unique generation ID and checksum, so the collision is resolved for pose0; the retry still fails alpha/margin requirements. Do not assemble these sources."
+  },
+  "provenanceCollision": {
+    "decision": "historical duplicate detected and preserved",
+    "generationId": "exec-032deb58-ac70-4bab-9c8c-59d07851959f",
+    "sha256": "6688e5d13c3ec55e139854781453b15a3e54b8d4bc369dd98a82e0378b9ba3df",
+    "pose0OriginalSource": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose0-raw.png",
+    "pose0OriginalPrompt": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose0-prompt.md",
+    "pose4Source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose4-raw.png",
+    "pose4Prompt": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-prompt.md",
+    "finding": "Original pose0 and pose4 PNGs are byte-identical and share the same generation ID despite different prompts. Original pose0 is superseded and must not be used with pose4. Both original records and files remain for provenance. A new unique pose0 retry is separately recorded below."
+  },
+  "pose0Retry": {
+    "generationId": "exec-2d00ce2c-f477-4851-a2be-7f403e0fb180",
+    "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose0-retry-prompt.md",
+    "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose0-retry-raw.png",
+    "sourceSha256": "d39c0b2ceab754c3d1ec9c52d20cdbd15185c6c4cafca04dc3d3bcbce79729e3",
+    "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-pose0-retry-light-dark-review.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "alphaHistogram": {
+      "alpha0": 1348126,
+      "alpha1to63": 24056,
+      "alpha64plus": 200334
+    },
+    "bboxAlphaGte64": [
+      407,
+      159,
+      883,
+      1064
+    ],
+    "marginsLTRBAt1254": [
+      407,
+      371,
+      159,
+      190
+    ],
+    "marginsNormalizedTo512": [
+      166.2,
+      151.5,
+      64.9,
+      77.6
+    ],
+    "requestedMinMarginAt512": 136,
+    "review": {
+      "pose": "Upright ready stance with small knee flex, relaxed open hands near waist, visually distinct from the low-reaching recovery pose4.",
+      "identityAnatomy": "Briar remains a human woman with locs, red headband, warm deep-brown skin and russet/cream kit; hands and legs are coherent.",
+      "transparency": "Background is visually clear in the light/dark proof, but 24,056 pixels retain alpha1\u201363 outside the solid figure; raw pixel scan reaches all canvas edges.",
+      "margin": "Fails: strongest pose bounds normalize to only65px top and78px bottom margins in a 512px canvas; requested136px. ImageGen returned1254x1254 instead of512x512.",
+      "ball": "No ball or other prop.",
+      "decision": "REJECTED; unique pose/provenance, but do not assemble or register due alpha residue and safe-box margin failure."
+    }
   }
 }

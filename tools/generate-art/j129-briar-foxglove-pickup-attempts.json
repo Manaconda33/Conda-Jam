@@ -1057,7 +1057,16 @@
         "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-review.json"
       ],
       "status": "rejected-source-as-is",
-      "reason": "Individual source cutouts returned 1254x1254 instead of 512x512 and retain alpha1-63 outside the figures. Pose0 and pose4 are pixel-identical with a shared generation ID despite different prompts; only four unique poses. No candidate sheet assembled or packed."
+      "reason": "Individual source cutouts returned 1254x1254 instead of 512x512 and retain alpha1-63 outside the figures. Pose0 and pose4 are pixel-identical with a shared generation ID despite different prompts; only four unique poses. No candidate sheet assembled or packed.",
+      "pose0Retry": {
+        "generationId": "exec-2d00ce2c-f477-4851-a2be-7f403e0fb180",
+        "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose0-retry-prompt.md",
+        "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose0-retry-raw.png",
+        "sha256": "d39c0b2ceab754c3d1ec9c52d20cdbd15185c6c4cafca04dc3d3bcbce79729e3",
+        "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-pose0-retry-light-dark-review.png",
+        "status": "rejected-source-as-is",
+        "reason": "Unique ready stance resolves the old pose0/pose4 collision for pose0, but alpha1\u201363 remains outside the figure and normalized margins miss the136px target."
+      }
     }
   ]
 }
