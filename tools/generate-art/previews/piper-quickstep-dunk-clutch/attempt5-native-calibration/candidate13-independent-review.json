@@ -1,0 +1,44 @@
+{
+  "candidate": 13,
+  "reviewer": "independent reviewer",
+  "verdict": "accepted-preview-only",
+  "scope": {
+    "zooms": [
+      100,
+      120
+    ],
+    "facings": [
+      "right",
+      "left"
+    ],
+    "checks": [
+      "frame8 shoulder-side carry contact",
+      "frame9 C-grip carry contact",
+      "tick20 last carried tick",
+      "frame10 sole release/tick21",
+      "all 15 selectors",
+      "simulation"
+    ]
+  },
+  "findings": [
+    "Frame8 places the ball at the tucked shoulder-side hand in both facings and zooms; partial overlap with hair and forearm reads as a carry behind the head, while Piper\u2019s face stays clear.",
+    "Frame9/tick20 contact passes in both facings and zooms; record the small residual separation at 120%.",
+    "Frame10/tick21 sole release is correctly ownerless and travels to the rim in both facings and zooms.",
+    "All 15 production frame selectors pass, and createMatch/stepMatch scores once for two."
+  ],
+  "reviewedImages": [
+    "candidate13-100/right-dunk-clutch-frame8.png",
+    "candidate13-100/left-dunk-clutch-frame8.png",
+    "candidate13-100/right-dunk-clutch-pre-release-tick20.png",
+    "candidate13-100/left-dunk-clutch-pre-release-tick20.png",
+    "candidate13-100/right-dunk-clutch-frame10.png",
+    "candidate13-100/left-dunk-clutch-frame10.png",
+    "candidate13-120/right-dunk-clutch-frame8.png",
+    "candidate13-120/left-dunk-clutch-frame8.png",
+    "candidate13-120/right-dunk-clutch-pre-release-tick20.png",
+    "candidate13-120/left-dunk-clutch-pre-release-tick20.png",
+    "candidate13-120/right-dunk-clutch-frame10.png",
+    "candidate13-120/left-dunk-clutch-frame10.png"
+  ],
+  "simulation": "candidate13-simulation.json"
+}

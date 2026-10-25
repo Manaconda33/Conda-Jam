@@ -1,0 +1,24 @@
+{
+  "runner": "createMatch/stepMatch with process-local dunk-clutch track",
+  "athlete": "piper-quickstep",
+  "clip": "dunk-clutch",
+  "releaseTick": 21,
+  "ownerThrough20": true,
+  "release": {
+    "tick": 21,
+    "owner": null,
+    "mode": "dunk",
+    "score": [
+      0,
+      0
+    ],
+    "attemptId": "dunk-1"
+  },
+  "score": 2,
+  "attempts": 1,
+  "track": {
+    "height": 2.0934999999999997,
+    "forward": 8.222727272727273
+  },
+  "candidate": "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-native-calibration/candidate2.json"
+}

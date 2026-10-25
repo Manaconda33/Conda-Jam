@@ -763,7 +763,10 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   'dunk-tomahawk':{height:[.95,1.1,1.25,1.7,1.9,2.05,2.2,2.45,2.4,2.35,1.5,2,1.4,.7,.55],forward:[6,8,4,-2,-10,-7,-8,-5,12,2,8,6,8,5,6]},
   // Piper resets the double-dunk ball to her chest between pumps; the second
   // reach carries through tick20 and releases on the sole frame10 open palm.
-  'dunk-double':{height:[.95,1.1,1.25,1.7,1.65,2.0,1.55,1.6,2.35,1.8,2.1,1.2,1.25,.75,.55],forward:[6,8,8,5,3,2,3.5,5,6.2,6.0,12,10,7,5,5]}
+  'dunk-double':{height:[.95,1.1,1.25,1.7,1.65,2.0,1.55,1.6,2.35,1.8,2.1,1.2,1.25,.75,.55],forward:[6,8,8,5,3,2,3.5,5,6.2,6.0,12,10,7,5,5]},
+  // The clutch carry sits at Piper's tucked shoulder hand before the high
+  // finish; it stays attached through tick20 and releases at frame10/tick21.
+  'dunk-clutch':{height:[.871142857142857,.9285714285714283,1.3305714285714285,1.273142857142857,1.1295714285714287,1.1295714285714287,.7849999999999999,.8424285714285712,1.45,3,1.1869999999999998,.6414285714285712,.469142857142857,.41171428571428564,.6988571428571427],forward:[2.9236363636363634,-7.674545454545454,5.116363636363636,5.116363636363636,3.6545454545454548,2.558181818181818,-1.0963636363636362,-1.0963636363636362,-4.5,10.598181818181818,5.847272727272727,1.8272727272727274,.7309090909090908,0,-1.4618181818181817]}
 },'reed-ashcroft':{
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.

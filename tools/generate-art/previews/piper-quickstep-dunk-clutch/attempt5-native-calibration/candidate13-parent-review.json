@@ -1,0 +1,23 @@
+{
+  "candidate": 13,
+  "reviewer": "parent",
+  "verdict": "accepted-preview-only",
+  "scope": {
+    "zoom": 120,
+    "facings": [
+      "right",
+      "left"
+    ],
+    "contactChecks": [
+      "frame8 tucked shoulder-side hand",
+      "frame9 tick20 C-grip",
+      "frame10 sole release"
+    ]
+  },
+  "findings": [
+    "Frame8 ball sits behind the face and visually adjacent to the bent hand at the back of the head in both facings.",
+    "Tick20 remains near-contact with the frame9 C-grip in both facings.",
+    "Frame10 sole release goes up to the rim in both facings."
+  ],
+  "acceptanceCondition": "Independent review confirms contact, selectors, release, and simulation."
+}

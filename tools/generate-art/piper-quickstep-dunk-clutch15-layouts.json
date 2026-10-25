@@ -1,0 +1,214 @@
+{
+  "athlete": "piper-quickstep",
+  "direction": "right",
+  "clip": "dunk-clutch",
+  "src": "./public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "athlete": "piper-quickstep",
+    "clip": "dunk-clutch",
+    "direction": "right",
+    "attempt": 5,
+    "status": "accepted-source-pending-native-ball-track-calibration",
+    "generationId": "exec-e362fcf6-8ba5-48d8-946f-1ca3c5e0fb6f",
+    "generatedAt": "2026-10-25T13:08:50Z",
+    "generatedAtNote": "UTC derived from saved generated_images file modification time.",
+    "promptFile": "tools/generate-art/piper-quickstep-dunk-clutch-attempt5-prompt.md",
+    "prompt": "EDIT this isolated transparent Piper pose9 crop for the J.121 `dunk-clutch` action. Keep the same complete right-facing airborne figure and exact pose, camera, proportions, face, orange ponytail, warm-brown skin, russet-red/cream kit, red-and-cream shoes, body, limbs and arm direction. Preserve every part except the raised finishing hand.\n\nPose9 is the pre-release carry: replace the clenched fist with a readable ball-carry C grip. Turn the palm inward toward the body; keep the thumb visibly separated; curve all four fingers toward the thumb, leaving a clear empty transparent space inside the C about the diameter of a basketball. The fingertips must not meet the thumb and must not spread out as an open release. The hand should visibly cradle an invisible ball, with the transparent gap showing that the separate runtime ball will be placed there. Do not draw any ball, sphere, circle, prop, filled area, or object.\n\nKeep the exact crop size and transparent alpha, preserve clean outlined style and all other pixels if possible, and do not add a background, glow, rim, text, court, or effects. Return only the edited transparent pose crop.\n",
+    "rawGeneratedFrame9Patch": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-frame09-generated-raw.png",
+    "rawGeneratedFrame9PatchSha256": "8321ee012dd3c0545cb6a33a5d025e6196d3a9f95451affc51cc5f318821c007",
+    "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "sourceSha256": "5147a3d29c566144c116e0e4545871e5f96c5f2acf595be740a39d4e52b4fbd8",
+    "sourceLayout": "tools/generate-art/piper-quickstep-dunk-clutch-attempt5-layouts.json",
+    "assemblyScript": "tools/generate-art/assemble-piper-quickstep-dunk-clutch-attempt5.py",
+    "lineage": "Frames0–8 and10–14 retained from attempt4 clean candidate (whose imagegen source remains separately preserved); frame9 replaced with one ImageGen-generated isolated corrected pose; source remains a candidate and is not yet registered or packed.",
+    "sourceReview": {
+      "status": "accepted",
+      "reviewedAt": "2026-10-25T13:12:00Z",
+      "reviewedBy": [
+        "independent reviewer A",
+        "Codex parent"
+      ],
+      "reviewNotes": "Parent and one independent source reviewer accept the frame9 C-shaped grip as a carry pose with a visible empty opening; frame10 remains the sole open-palm release. All15 poses are separated, Piper identity/anatomy and kit are stable, no ball is drawn, true alpha-zero exterior/gutters and >=28px cell margins pass. One independent reviewer initially judged the opening too small; parent resolved by full-sheet visual review and found it reads as a carry grip.",
+      "reviewConflict": "Independent reviewer B rejected attempt5 because they judged the thumb/finger opening too small and read a fist. Parent reviewed the full sheet and crop and accepts the visible C shape. Preserve dissent in the record.",
+      "proofFiles": [
+        "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-source/clean-light.png",
+        "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-source/clean-dark.png",
+        "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-source/frame9-crop.png"
+      ],
+      "minimumCellMarginPx": 28
+    },
+    "ballTrack": {
+      "height": [
+        0.871142857142857,
+        0.9285714285714283,
+        1.3305714285714285,
+        1.273142857142857,
+        1.1295714285714287,
+        1.1295714285714287,
+        0.7849999999999999,
+        0.8424285714285712,
+        1.45,
+        3,
+        1.1869999999999998,
+        0.6414285714285712,
+        0.469142857142857,
+        0.41171428571428564,
+        0.6988571428571427
+      ],
+      "forward": [
+        2.9236363636363634,
+        -7.674545454545454,
+        5.116363636363636,
+        5.116363636363636,
+        3.6545454545454548,
+        2.558181818181818,
+        -1.0963636363636362,
+        -1.0963636363636362,
+        -4.5,
+        10.598181818181818,
+        5.847272727272727,
+        1.8272727272727274,
+        0.7309090909090908,
+        0,
+        -1.4618181818181817
+      ],
+      "releaseFrame": 10,
+      "releaseTick": 21,
+      "ownerThroughTick": 20,
+      "scoreTick": 23,
+      "scorePoints": 2,
+      "calibrationFile": "tools/generate-art/piper-quickstep-dunk-clutch-track-calibration.json",
+      "knownLimitation": "Small frame9/tick20 fingertip separation at 120% is accepted and documented."
+    },
+    "attemptsFile": "tools/generate-art/piper-quickstep-dunk-clutch-attempts.json",
+    "eligibleForPacking": true,
+    "packedAtlasPath": "public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+    "nativeReview": {
+      "status": "accepted",
+      "reviewers": [
+        "independent native calibration reviewer",
+        "parent visual review"
+      ],
+      "candidate": 13,
+      "trackCalibrationFile": "tools/generate-art/piper-quickstep-dunk-clutch-track-calibration.json",
+      "candidateHistory": "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-native-calibration/candidate-history.json",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-native-calibration/candidate13-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-native-calibration/candidate13-120/report.json"
+      ],
+      "simulationReport": "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-native-calibration/candidate13-simulation.json",
+      "reviewNotes": "Candidate13 passed both-facings 100%/120% review for frame8 shoulder-side carry, frame9/tick20 near-contact, and sole frame10 release. A small frame9/120% separation remains documented. Native selector and simulation checks passed."
+    },
+    "ballBehavior": "The separate athlete-specific track follows Piper through tick20 and releases ownerless at tick21; source art contains no ball.",
+    "ballTrackStatus": "accepted",
+    "atlasSha256": "ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a",
+    "atlasLayout": "4x4; 15 unique frames in row-major order; each 128x96; frame15 empty.",
+    "atlasReview": {
+      "status": "accepted",
+      "reviewers": [
+        "independent native calibration reviewer",
+        "parent visual review"
+      ],
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-native-calibration/candidate13-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-native-calibration/candidate13-120/report.json"
+      ],
+      "simulationReport": "tools/generate-art/previews/piper-quickstep-dunk-clutch/attempt5-native-calibration/candidate13-simulation.json",
+      "knownLimitation": "Small frame9/tick20 fingertip separation at 120% is accepted and documented."
+    }
+  }
+}

@@ -1,20 +1,12 @@
 # Animation asset status
 
-Issue #3 remains in progress. The strict report-only audit at `2026-10-25T13:10:00.909Z` inspects **815 registered clips / 7,376 unique authored drawings** across **105 athletes**. It reports **2,288 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
+Issue #3 remains in progress. Strict report-only audit `2026-10-25T13:28:14.380Z` inspects **816 registered clips / 7,391 unique authored drawings** across **105 athletes**. It reports **2,287 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
 
-Piper's J.115–J.120 dunks are accepted and registered. J.120 `dunk-double` source SHA-256 `2405d866e27b4e153ad19f91e4e02502ddf1723435085a40db8a88cbd87074da` and atlas SHA-256 `4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554` passed review for distinct two-pump pose order, identity/anatomy, transparency, no ball and >=28px margins. The exact prompt has a documented frame10 row/column erratum; canonical release is row3/column1. Native candidates1–5 remain rejected and preserved.
+Piper J.115–J.121 is integrated. J.121 `dunk-clutch` selected attempt5 source SHA-256 `5147a3d29c566144c116e0e4545871e5f96c5f2acf595be740a39d4e52b4fbd8` and production atlas SHA-256 `ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a` pass pose/anatomy, alpha, no-ball, and >=28px margin review. Source attempt5 has a documented independent-review disagreement about the frame9 C-shaped carry opening; parent accepts the visible grip, and attempt6 remains accepted but superseded. Attempts1–4 are preserved as rejects.
 
-J.120 accepted track H `[.95,1.1,1.25,1.7,1.65,2.0,1.55,1.6,2.35,1.8,2.1,1.2,1.25,.75,.55]` / F `[6,8,8,5,3,2,3.5,5,6.2,6.0,12,10,7,5,5]` keeps Piper in possession through tick20 and releases ownerless at21. Both facings pass100%/120% native review; a real simulation scores one two-point dunk. The small residual fingertip gap at120% is recorded and accepted as the cross-facing compromise.
+Accepted J.121 track candidate13 keeps Piper in possession through tick20 and releases ownerless at21. Both facings pass100%/120% native selector/contact review. Frame8 contacts the shoulder-side tucked hand without covering the face; frame9/tick20 has a small 120% gap; frame10 releases to rim. Real simulation scores one two-point dunk. Exact vectors, candidates1–12, previews, reviews and simulation are preserved under `tools/generate-art/piper-quickstep-dunk-clutch*`.
 
-J.121 Piper `dunk-clutch` attempt5 source SHA-256 `5147a3d29c566144c116e0e4545871e5f96c5f2acf595be740a39d4e52b4fbd8` passed independent and parent review. The fifteen poses preserve Piper's identity/anatomy, transparent alpha and >=28px margins; frame9 carries with a C-shaped empty-air grip and frame10 is the sole open-palm release. Native ball-track review and atlas packing remain pending. Earlier J.121 attempts1–4 and their frame9 rejection findings remain preserved.
-
-
-
-
-
-
-
-
+Next: J.122 Piper `dunk-scythe`. Full-sheet attempts1–3 are rejected for sweep/order, early release, cell-boundary/margin, and alpha-fringe errors. Per-pose source lanes are underway using the accepted Keeg atlas only for motion reference and Piper references for identity; first poses0–4 are separated with >=48px bounds but detached 1–3px specks need conservative cleanup and review before acceptance.
 
 
 Piper `celebrate` is accepted as J.114. The final source honors the exact transparent 4×3/1536² prompt layout with ten distinct ordered poses and two empty cells. It uses only original drawings; mapping from initial source components is `[3,2,1,0,5,7,4,6,9,8]`, with a documented normalization into the 5×2 400×192 atlas. Identity/anatomy, margins >=60px, alpha, no ball and final grounded hand-on-hip salute are independently reviewed. Native review selects every frame at100%/120% in both facings. Earlier raw order, first remap and reversed-map candidates are preserved as superseded layouts with their review notes.

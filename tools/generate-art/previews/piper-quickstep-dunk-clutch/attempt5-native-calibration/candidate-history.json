@@ -1,0 +1,600 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-clutch",
+  "sourceAttempt": 5,
+  "candidates": [
+    {
+      "candidate": 1,
+      "status": "rejected-for-contact",
+      "reason": "Fallback anchor left the ball visibly below the raised frame9 C-shaped carry hand in both facings."
+    },
+    {
+      "candidate": 2,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          2.5,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          9.136363636363637,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Raise carried ball into the frame8/9 high-hand clutch region; first authored track iteration after native inspection.",
+      "reviewNotes": "Frame9 tick20 contacts both facings at 100%/120%, but frame8 ball floats far above and forward of shoulder-side carry hand."
+    },
+    {
+      "candidate": 3,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          2,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          3,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Keep frame8 ball at the shoulder-side clutch instead of floating above the player; retain the frame9 C-grip carry contact.",
+      "reviewNotes": "Parent and independent review found frame8 ball remained above and ahead of the shoulder-side carry hand at 120%; frame9 contact was accepted."
+    },
+    {
+      "candidate": 4,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.5,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          -3,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Move frame8 ball behind and slightly lower to meet the tucked hand beside the opposite shoulder; frame9 contact remains unchanged.",
+      "reviewNotes": "Independent reviewer judged frame8 too low/behind and occluded; parent saw near-contact but acceptance requires independent confirmation."
+    },
+    {
+      "candidate": 4,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.55,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          -1,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Lower and move frame8 backward into the side shoulder grip; preserve the tuned frame9 C-hand contact.",
+      "reviewNotes": "Independent reviewer found frame8 ball overlapped Piper face/forehead instead of the shoulder-side carry hand in both facings/zooms; frame9 and release pass."
+    },
+    {
+      "candidate": 5,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          2,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          1.5,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Intermediate frame8 point between high-front candidate3 and hidden low-behind candidate4, seeking direct contact at shoulder-side grip.",
+      "reviewNotes": "Parent visual review found frame8 ball still covered the face in both facings at 120%; rejected before independent review."
+    },
+    {
+      "candidate": 5,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.8,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          1,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Intermediate frame8 shoulder-side contact between the too-high candidate3 and too-low/back candidate4; keep frame9 and release unchanged.",
+      "reviewNotes": "Parent crop review found frame8 ball remains on the forehead/temple; the hand is behind the head. Move farther backward to the bent hand."
+    },
+    {
+      "candidate": 6,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.65,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          0.2,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Move frame8 off Piper\u2019s forehead and toward the shoulder-side carry hand; intermediate height/forward from too-low candidate4 and face-overlap candidate5.",
+      "reviewNotes": "Parent crop review found frame8 ball behind face but still above the bent shoulder-side hand; lower while keeping rearward placement."
+    },
+    {
+      "candidate": 7,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.9,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          -3,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Move frame8 back beside the shoulder-side hand behind the ponytail, away from the face; slightly increase height from candidate6.",
+      "reviewNotes": "Parent 120% review found frame8 ball fully occluded behind hair/body after lowering; try a visible intermediate anchor."
+    },
+    {
+      "candidate": 8,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.75,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          -6,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Place frame8 ball farther behind the face and lower beside Piper\u2019s bent hand behind the ponytail; keep release-carry contact unchanged.",
+      "reviewNotes": "Parent visual review found frame8 ball occluded behind the arm/body at both zooms; candidate7 was still on face. Test midpoint."
+    },
+    {
+      "candidate": 9,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.2,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          -6,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Lower the frame8 ball beside Piper\u2019s back-of-head bent hand while keeping the backward shoulder-side placement; frame9 release approach unchanged.",
+      "reviewNotes": "Parent visual review found frame8 still at forehead; source hand is farther behind head and lower. Candidate12 tests measured hand position."
+    },
+    {
+      "candidate": 10,
+      "status": "rejected-for-contact",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.45,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          -3.5,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Intermediate frame8 height/forward to keep the ball beside the shoulder-side bent hand without covering face or becoming occluded by the body.",
+      "reviewNotes": "Independent reviewer noted F\u22126 hides frame8 ball behind hair/body. Probe midpoint at F\u22124.5/H1.45 after candidate11 face overlap."
+    },
+    {
+      "candidate": 11,
+      "status": "pending",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.65,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          -3,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Intermediate frame8 position between candidate7 forehead overlap and candidate10 occlusion; target the rear shoulder-side hand."
+    },
+    {
+      "candidate": 12,
+      "status": "pending",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.55,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          -6,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Place frame8 ball near the source hand behind Piper\u2019s head: lower than forehead and farther back than face-overlap candidates; keep frame9 unchanged."
+    },
+    {
+      "candidate": 13,
+      "status": "accepted-preview-only",
+      "track": {
+        "height": [
+          0.871142857142857,
+          0.9285714285714283,
+          1.3305714285714285,
+          1.273142857142857,
+          1.1295714285714287,
+          1.1295714285714287,
+          0.7849999999999999,
+          0.8424285714285712,
+          1.45,
+          3,
+          1.1869999999999998,
+          0.6414285714285712,
+          0.469142857142857,
+          0.41171428571428564,
+          0.6988571428571427
+        ],
+        "forward": [
+          2.9236363636363634,
+          -7.674545454545454,
+          5.116363636363636,
+          5.116363636363636,
+          3.6545454545454548,
+          2.558181818181818,
+          -1.0963636363636362,
+          -1.0963636363636362,
+          -4.5,
+          10.598181818181818,
+          5.847272727272727,
+          1.8272727272727274,
+          0.7309090909090908,
+          0,
+          -1.4618181818181817
+        ]
+      },
+      "reason": "Candidate13 accepted after parent and independent review; preserve slight residual frame9 separation at 120%.",
+      "reviewNotes": "Parent: frame8 is behind the face and adjacent to the bent hand at the back of the head; tick20 near-contact; sole release reaches rim. Independent: frame8 contact and clear face in both facings/zooms; frame9/tick20 passes with small residual separation at120%; frame10/tick21 release, all selectors, and createMatch/stepMatch scoring pass."
+    }
+  ],
+  "acceptedCandidate": 13,
+  "status": "accepted-preview-only"
+}
