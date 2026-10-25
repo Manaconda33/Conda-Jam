@@ -1,0 +1,114 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "attempt": 2,
+  "pose": 6,
+  "retry": 1,
+  "status": "unmodified-generated-source; not accepted or packed",
+  "generationId": "exec-5ccb43ea-0e83-464b-99f1-fe7691ed5a0d",
+  "generatedFile": "/workspace/generated_images/exec-5ccb43ea-0e83-464b-99f1-fe7691ed5a0d.png",
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose6-retry1-prompt.md",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose6-retry1-raw.png",
+  "sourceSha256": "94f411c08a851c3ca1a9fb433f5402f9dbceaddae7076b19cc2faf2bf3275a0e",
+  "originalCopyMatches": true,
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha": {
+    "minimum": 0,
+    "maximum": 255,
+    "zero": 1440994,
+    "oneTo63": 18178,
+    "64To254": 112882,
+    "opaque255": 462
+  },
+  "bounds": {
+    "alphaGte1": {
+      "bboxExclusive": [
+        57,
+        41,
+        1184,
+        1222
+      ],
+      "marginsLTRB": [
+        57,
+        41,
+        70,
+        32
+      ]
+    },
+    "alphaGte64": {
+      "bboxExclusive": [
+        407,
+        267,
+        869,
+        1000
+      ],
+      "marginsLTRB": [
+        407,
+        267,
+        385,
+        254
+      ]
+    },
+    "alphaGte128": {
+      "bboxExclusive": [
+        407,
+        267,
+        869,
+        1000
+      ],
+      "marginsLTRB": [
+        407,
+        267,
+        385,
+        254
+      ]
+    },
+    "alphaGte255": {
+      "bboxExclusive": [
+        417,
+        268,
+        868,
+        999
+      ],
+      "marginsLTRB": [
+        417,
+        268,
+        386,
+        255
+      ]
+    }
+  },
+  "boundsConvention": "left, top, right-exclusive, bottom-exclusive; margins order left, top, right, bottom",
+  "references": [
+    {
+      "path": "public/assets/animation/briar-foxglove-shoot-right.webp",
+      "sha256": "9303c007d4d8697559670cfa851cc4c9667156daa43c83cef2a29cd0020a34f1"
+    },
+    {
+      "path": "public/assets/animation/briar-foxglove-receive-right.webp",
+      "sha256": "f24bc088ec36f954617fb4e759860e8469a9f6cecaf1640e032a19ee7c110b28"
+    },
+    {
+      "path": "public/assets/animation/briar-foxglove-idle-right.webp",
+      "sha256": "362bce8a820fc1fee21ee43549aa5e2c9e27a7233b1960ff4c40c6c8a5ae9feb"
+    }
+  ],
+  "processing": "Byte-for-byte copy only. No normalization, cleanup, assembly, acceptance or packing performed.",
+  "visualObservation": "Single complete right-facing adult human Briar; red headband, dark locs and russet/cream uniform, both wrists visibly bare. Two arms lower and separate for balance, lead leg extends down/forward with toe pointed downward, trailing knee remains bent but unfolding. No ball or props. Natural overall limb articulation, although hands are stylized and fingers clustered. Leaf accents are larger than accepted atlas. Appropriate landing-approach silhouette.",
+  "transparencyObservation": "True RGBA zero-alpha background exists, but low-alpha residue extends outside visible figure and violates required clean transparent padding. Most figure pixels are partially transparent. Visible alpha>=64 silhouette has over 15% canvas padding on every side; whole alpha>=1 silhouette does not.",
+  "review": {
+    "result": "rejected-as-delivered-source",
+    "identity": "Recognizable Briar identity; bare wrists achieved; leaf accent placement/scale varies from accepted atlases.",
+    "anatomy": "Complete two-arm/two-leg silhouette; hand detail stylized and clustered, no obvious extra limbs.",
+    "pose": "Matches requested pose intent on visual review.",
+    "transparency": "FAIL: faint alpha residue beyond silhouette; broad partial alpha on figure.",
+    "margins": "PASS for visible alpha>=64 silhouette; FAIL for all nonzero-alpha bounds (<15% minimum padding).",
+    "accepted": false,
+    "reason": "Raw image fails the strict zero-alpha clean-background and >=15% all-alpha canvas padding requirements. Preserved untouched for review."
+  }
+}

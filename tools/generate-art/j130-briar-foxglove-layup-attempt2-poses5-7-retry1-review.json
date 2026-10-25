@@ -1,0 +1,24 @@
+{
+  "issue":"J.130",
+  "athlete":"briar-foxglove",
+  "clip":"layup",
+  "attempt":2,
+  "reviewedAt":"2026-10-25T20:22:00Z",
+  "reviewer":"independent source reviewer",
+  "preview":"tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-poses5-7-retry1-light-dark-review.png",
+  "reviewStatus":"passes pose/identity review for cleanup; no source accepted or packed",
+  "sharedFindings":[
+    "Verified each raw SHA-256 against provenance and byte equality against generated source.",
+    "All three preserve recognizable Briar identity and warm brown skin, dark locs, red headband, russet/cream uniform, cream socks and matching shoes.",
+    "All three have bare wrists, no numbers/logos, no visible ball fragments, and no duplicate figures.",
+    "Leaf accents are larger than accepted references, especially shorts, but remain consistent costume decoration.",
+    "All contain scattered low-alpha residue. Main visible figures have generous margins; component isolation and uniform resampling can produce safe final cells while preserving contours.",
+    "All three contain many pixels near alpha253; partial-alpha count is not evidence of severe figure translucency."
+  ],
+  "poses":[
+    {"frame":5,"generationId":"exec-9c967e52-6e0a-4a51-a866-10a2a20d13b6","sha256":"6dc9a26ac09409047186d9bcfbf1d1f21c03d93f7c1dfaf4b4269ca2a38763aa","dimensions":[1254,1254],"decision":"pass for cleanup; final sheet review required","pose":"Clear post-release descent, empty raised follow-through hand, lowered lead knee and bent trailing leg.","alphaGte1MarginsLTRB":[41,45,68,46],"alphaGte64MarginsLTRB":[479,250,386,265],"clearance":"Visible top margin is19.94%, just below the saved prompt's20%; other visible edges have ample clearance. Low-alpha residue lies outside the figure."},
+    {"frame":6,"generationId":"exec-5ccb43ea-0e83-464b-99f1-fe7691ed5a0d","sha256":"94f411c08a851c3ca1a9fb433f5402f9dbceaddae7076b19cc2faf2bf3275a0e","dimensions":[1254,1254],"decision":"pass for cleanup; final sheet review required","pose":"Distinct landing approach with lowered/separated empty hands, long downward lead leg and trailing foot higher.","alphaGte1MarginsLTRB":[57,41,70,32],"alphaGte64MarginsLTRB":[407,267,385,254],"clearance":"Visible margins exceed20% on every edge; low-alpha residue lies outside the figure."},
+    {"frame":7,"generationId":"exec-216443c4-28f3-4b01-b188-b116bb8a8730","sha256":"1e2dd8ecb3bd4a5cee25043a43a8bf1c3102635b2ed8943122b5bfea75b0f71f","dimensions":[1254,1254],"decision":"pass for cleanup; final sheet review required","pose":"Stable recovery: both feet planted, knees bent, hips lowered and empty hands near abdomen; both heels read grounded.","alphaGte1MarginsLTRB":[81,144,167,104],"alphaGte64MarginsLTRB":[417,346,421,289],"clearance":"Visible margins exceed20% on every edge; low-alpha residue lies outside the figure."}
+  ],
+  "next":"Isolate each original figure component, clear remote background alpha while preserving contour antialiasing, uniformly resize/place into the 4x2 source candidate, then review full sheet and native frames before acceptance."
+}
