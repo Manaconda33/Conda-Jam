@@ -1,0 +1,28 @@
+{
+  "issue": "J.130",
+  "reviewer": "primary independent visual review",
+  "frame": 4,
+  "attempt": 2,
+  "retry": 7,
+  "generationId": "exec-e3f843b2-3a98-49c0-84dc-5751c574d60b",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry7-raw.png",
+  "sourceSha256": "3f3f3cdfd23678247c00638266efac358e2cbb856e010d8c59fdd6791363fa1e",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry7-prompt.md",
+  "promptSha256": "732071cda8ccd41a867ea8f6d18a32dfb7a225ce773f862f46010494ad071901",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry7-light-dark-review.png",
+  "decision": "reject; do not clean or assemble",
+  "observations": {
+    "identityAndAnatomy": "Recognizable adult human Briar with locs, red headband, russet uniform, two arms/two legs, bare wrists and blank chest.",
+    "pose": "High lead knee, folded trailing leg, extended high-forward shooting arm with an open upward-facing hand and separate lower guide hand; broad frame4 layup release reads.",
+    "palette": "Skin remains too orange/bronze. Shoes mix russet and cream rather than predominantly cream.",
+    "alpha": {
+      "sourceDimensions": [1254, 1254],
+      "alpha1to63Pixels": 13207,
+      "alpha8BoundsLTRBExclusive": [475, 273, 885, 920],
+      "alpha8MarginsLTRB": [475, 273, 369, 334],
+      "topMarginFraction": 0.2177,
+      "meets25PercentMargin": false
+    }
+  },
+  "overall": "The broad pose is useful but palette, shoe color, transparency and top clearance fail the prompt; preserve as rejected."
+}
