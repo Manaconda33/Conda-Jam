@@ -1,0 +1,124 @@
+{
+  "status": "accepted-native-contact-track",
+  "handCentersCellPx": [
+    [
+      55,
+      52
+    ],
+    [
+      56,
+      50
+    ],
+    [
+      46,
+      50
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      38,
+      52
+    ],
+    [
+      41,
+      55
+    ],
+    [
+      48,
+      10
+    ],
+    [
+      70,
+      41
+    ],
+    [
+      88,
+      8
+    ],
+    [
+      86,
+      8
+    ],
+    [
+      86,
+      8
+    ],
+    null,
+    null,
+    null,
+    null
+  ],
+  "ballTrack": {
+    "height": [
+      1.014714,
+      1.072143,
+      1.072143,
+      1.072143,
+      1.014714,
+      0.928571,
+      2.220714,
+      1.330571,
+      2.278143,
+      2.278143,
+      2.278143,
+      1.933571,
+      0.928571,
+      0.871143,
+      0.928571
+    ],
+    "forward": [
+      -3.289091,
+      -2.923636,
+      -6.578182,
+      -8.770909,
+      -9.501818,
+      -8.405455,
+      -5.847273,
+      2.192727,
+      8.770909,
+      8.04,
+      8.04,
+      12.425455,
+      -5.116364,
+      -5.116364,
+      -3.289091
+    ],
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "ownerThroughTick": 20,
+    "scoreTick": 23,
+    "scorePoints": 2,
+    "calibrationFile": "tools/generate-art/previews/piper-quickstep-dunk-scythe/track-candidate3/track-calibration.json",
+    "knownLimitation": "Source pixels soften at 80px runtime height; pose identities and action beats remain readable. Contact was reviewed in overlays and actual native Canvas captures at 100%/120% in both facings."
+  },
+  "rejection": "Pose00 ball visibly separated from trailing hand in 120% contact overlay; source hand is near (55,52), not (27,52). Additional material gaps were later confirmed at poses01,03,08.",
+  "previewPath": "tools/generate-art/previews/piper-quickstep-dunk-scythe/track-candidate1/rejected/candidate1-initial-offset/",
+  "issue": "J.122",
+  "clip": "dunk-scythe",
+  "athlete": "piper-quickstep",
+  "candidateAtlas": "tools/generate-art/j122-piper-dunk-scythe-atlas-candidate/atlas-lane-scale.png",
+  "productionAtlasPng": "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+  "productionWebp": "public/assets/animation/piper-quickstep-dunk-scythe-right.webp",
+  "pngSha256": "1b4fbf9e09b6ba3e3cb7c543efe68cb127ecb846adcc6dc4de1ceaec5257c419",
+  "webpSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+  "coordinateMapping": {
+    "forward": "(x - 64) * 0.804 / 2.2",
+    "height": "(70.22 - y * 0.804) / 28",
+    "source": "Reviewed Piper right/trailing hand centers in the lane-scale 128x96 cells; poses00-10 anchors remain tied at the final carried frame; poses11-14 are inert after release."
+  },
+  "reviewers": [
+    "independent full-sequence reviewer",
+    "Codex parent"
+  ],
+  "previewReports": [
+    "tools/generate-art/previews/piper-quickstep-dunk-scythe/track-candidate3/native-100/contact-overlay-right-100.png",
+    "tools/generate-art/previews/piper-quickstep-dunk-scythe/track-candidate3/native-100/contact-overlay-left-100.png",
+    "tools/generate-art/previews/piper-quickstep-dunk-scythe/track-candidate3/native-120/contact-overlay-right-120.png",
+    "tools/generate-art/previews/piper-quickstep-dunk-scythe/track-candidate3/native-120/contact-overlay-left-120.png",
+    "tools/generate-art/previews/piper-quickstep-dunk-scythe/track-candidate3/native-100/report.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-scythe/track-candidate3/native-120/report.json"
+  ],
+  "reviewNotes": "Independent full-sequence reviewer and Codex parent accepted all four 100%/120% right/left contact overlays. No material gaps or overshoots on carried poses00-09; poses02/05 overlap closely but remain attached. Actual src/main.js Canvas reports select all15 production frames in both facings. Ball stays carried through tick20, releases ownerless at21, scores once at23 and Piper lands at30. Candidate1 initial offsets and candidate2 pose00-only correction remain preserved as rejected."
+}

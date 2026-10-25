@@ -1,0 +1,96 @@
+{
+  "status": "rejected-after-independent-native-review",
+  "handCentersCellPx": [
+    [
+      27,
+      52
+    ],
+    [
+      37,
+      51
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      24,
+      51
+    ],
+    [
+      32,
+      53
+    ],
+    [
+      31,
+      56
+    ],
+    [
+      54,
+      14
+    ],
+    [
+      70,
+      41
+    ],
+    [
+      72,
+      7
+    ],
+    [
+      76,
+      6
+    ],
+    [
+      76,
+      6
+    ],
+    null,
+    null,
+    null,
+    null
+  ],
+  "ballTrack": {
+    "height": [
+      1.014714,
+      1.043429,
+      1.215714,
+      1.043429,
+      0.986,
+      0.899857,
+      2.105857,
+      1.330571,
+      2.306857,
+      2.335571,
+      2.335571,
+      1.933571,
+      0.928571,
+      0.871143,
+      0.928571
+    ],
+    "forward": [
+      -13.521818,
+      -9.867273,
+      -10.598182,
+      -14.618182,
+      -11.694545,
+      -12.06,
+      -3.654545,
+      2.192727,
+      2.923636,
+      4.385455,
+      4.385455,
+      12.425455,
+      -5.116364,
+      -5.116364,
+      -3.289091
+    ],
+    "ownerThroughTick": 20,
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "scoreTick": 23,
+    "scorePoints": 2
+  },
+  "rejection": "Pose00 ball visibly separated from trailing hand in 120% contact overlay; source hand is near (55,52), not (27,52). Additional material gaps were later confirmed at poses01,03,08.",
+  "previewPath": "tools/generate-art/previews/piper-quickstep-dunk-scythe/track-candidate1/native-120/ (superseded static overlays; source and original initial-anchor rejection preserved)."
+}

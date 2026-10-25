@@ -1,0 +1,78 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "pose": 9,
+  "attempt": 6,
+  "source": "imagegen",
+  "generationId": "exec-677024dd-6c34-43af-bea3-9d235cf1ce55",
+  "generatedAtNote": "Timestamp and generation ID are from the imagegen output hint; source file was copied unchanged from /workspace/generated_images.",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt6-prompt.md",
+  "promptVerbatim": true,
+  "referenceFiles": [],
+  "c2paIdentifier": "urn:c2pa:b751b74a-00ea-44ae-b651-04de067f74ce",
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09-attempt6.png",
+  "rawSourceSha256": "7b5a15825e4661b9ba405c34cee545a4b51efeabbc2983623bc87a9cfa8a2d24",
+  "rawSourceSize": [
+    1024,
+    1536
+  ],
+  "rawSourceMode": "RGBA",
+  "layoutFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt6-layout.json",
+  "proofFiles": [
+    "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose09-attempt6-components-clean-light.png",
+    "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose09-attempt6-components-clean-dark.png"
+  ],
+  "cleanup": {
+    "athlete": "piper-quickstep",
+    "clip": "dunk-scythe",
+    "pose": 9,
+    "attempt": 6,
+    "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09-attempt6.png",
+    "rawSourceSha256": "7b5a15825e4661b9ba405c34cee545a4b51efeabbc2983623bc87a9cfa8a2d24",
+    "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/sources/pose09-attempt6-components-clean.png",
+    "cleanedSourceSha256": "1fb3e2529d8e7da2c4bf4f4e6892fd4827c1ac12641b7d3271318f1390c296f1",
+    "size": [
+      1024,
+      1536
+    ],
+    "componentConnectivity": "8-connected",
+    "componentThresholdAlphaGreaterThan": 64,
+    "componentsBeforeCleanup": 1,
+    "retainedComponentLabel": 1,
+    "retainedCorePixelCountAlphaGt64": 343645,
+    "antialiasHalo": "Preserved all original source alpha within a two-pixel 8-connected dilation of the retained figure core.",
+    "clearedNonzeroAlphaPixels": 12201,
+    "cleanup": "Kept only the largest 8-connected alpha>64 figure core and its two-pixel source-alpha halo; all RGB/color was preserved and exterior alpha set to zero. No figure pixels were synthesized, recolored, moved, scaled, or redrawn. Raw source remains unchanged.",
+    "proofFiles": [
+      "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose09-attempt6-components-clean-light.png",
+      "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose09-attempt6-components-clean-dark.png"
+    ],
+    "alphaThreshold": 128,
+    "alphaBoundingBox": [
+      127,
+      60,
+      980,
+      1384
+    ],
+    "marginsLTRBpx": [
+      127,
+      60,
+      44,
+      152
+    ],
+    "minimumMarginPx": 44,
+    "alphaZeroFraction": 0.768858,
+    "reviewStatus": "pending independent review; not eligible for assembly yet"
+  },
+  "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/sources/pose09-attempt6-components-clean.png",
+  "cleanedSourceSha256": "1fb3e2529d8e7da2c4bf4f4e6892fd4827c1ac12641b7d3271318f1390c296f1",
+  "sourceReview": {
+    "status": "PASS after 90% uniform layout",
+    "reviewFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose09-attempt6-independent-review-scaled90.json",
+    "layoutMarginMinimumPx": 91,
+    "promptMarginRequirementPx": 80
+  },
+  "eligibleForAssembly": false,
+  "ball": "No ball is drawn; basketball remains on a separate Piper-specific runtime track.",
+  "sourceCandidateStatus": "accepted isolated source candidate; atlas assembly not reviewed"
+}

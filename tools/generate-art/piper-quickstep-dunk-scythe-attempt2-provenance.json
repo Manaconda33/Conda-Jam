@@ -1,0 +1,41 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "direction": "right",
+  "attempt": 2,
+  "source": "imagegen",
+  "generationId": "exec-08e4dd1b-421f-443d-9dba-f8562246fafa",
+  "generatedAt": "2026-10-25T13:17:00Z",
+  "generatedAtNote": "Imagegen operation UTC approximate from saved image timing.",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt2-prompt.md",
+  "promptSha256": "11cad326531067a0c0698c0dd0da39314f8feaae3cc35d0fb4663b48c77cbf89",
+  "promptVerbatim": true,
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-double-attempt1-clean-candidate.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png"
+  ],
+  "rawSourceImage": "tools/generate-art/sources/piper-quickstep-dunk-scythe-attempt2-generated-raw.png",
+  "rawSourceSha256": "9a3c118075d02a1749f6afc1ade8af0e00b20ccfb5ef5419e9051c57136b205d",
+  "rawSourceSize": [
+    1536,
+    1024
+  ],
+  "rawSourceMode": "RGBA",
+  "rawReview": {
+    "status": "rejected",
+    "reviewedBy": [
+      "source lane parent visual review",
+      "independent source reviewer"
+    ],
+    "notes": "Reject for direct packing/source acceptance: the scythe low rear arc is still absent in poses3–5; poses8–10 remain continuous high reaches, with pose9 open/release-like. Brown/red fringe and detached transparent-gutter speckles persist despite transparent_background. Full raw sheet retained. Independent review confirms poses3–5 still lack the low rear sweep, pose9 is release-like, gutters contain detached speckles, and all15 frames fall below the required 40px margin; alpha>128 minimum is7px at frames8 and11."
+  },
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt2-layouts.json",
+  "sourceReview": {
+    "status": "rejected",
+    "reviewNotes": "The low rear scythe sweep and sole release do not read as specified. Preserve raw and reject; do not pack.",
+    "independentReview": "Rejected. Piper identity/anatomy and ball-free art are acceptable, but poses3–5 lack the low rear sweep, pose9 releases early, detached speckles remain, and every frame misses 40px minimum margins."
+  },
+  "eligibleForPacking": false,
+  "cleanup": null,
+  "ballBehavior": "No ball is painted. Separate Piper-specific track pending an accepted source."
+}

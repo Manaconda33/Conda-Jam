@@ -1,0 +1,121 @@
+{
+  "clip": "dunk-scythe",
+  "athlete": "Piper Quickstep",
+  "poses": [
+    {
+      "pose": 5,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose05-attempt3-scaled.png",
+      "sha256": "97459e1fc23ed355fa2a56170dceeed4caa638a52c0c8e999708bb03916d41cd",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alphaBBoxLTRB": [
+        128,
+        83,
+        1417,
+        936
+      ],
+      "marginLTRB": [
+        128,
+        83,
+        119,
+        88
+      ],
+      "minMargin": 83,
+      "status": "accepted-source-candidate-after-independent-review"
+    },
+    {
+      "pose": 6,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose06-pose06-attempt2-scaled.png",
+      "sha256": "a18481f517e8b51f9e04d82c8447ec14c4eeb98ab9de8b52db6acd8e3cf68805",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alphaBBoxLTRB": [
+        476,
+        118,
+        1161,
+        915
+      ],
+      "marginLTRB": [
+        476,
+        118,
+        375,
+        109
+      ],
+      "minMargin": 109,
+      "status": "accepted-source-candidate-after-independent-review"
+    },
+    {
+      "pose": 7,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose07-attempt5-scaled.png",
+      "sha256": "d45a48a661efbab5dd38f7950e9a5600623d79785874f3fefa35ea8fac7254f0",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alphaBBoxLTRB": [
+        541,
+        225,
+        1106,
+        824
+      ],
+      "marginLTRB": [
+        541,
+        225,
+        430,
+        200
+      ],
+      "minMargin": 200,
+      "status": "accepted-source-candidate-after-independent-review"
+    },
+    {
+      "pose": 8,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose08-pose08-attempt2-scaled.png",
+      "sha256": "954fa89f12f1389bc868a6a901e34012bc293a4daf4cfa84cea2a6cb3eb581d0",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alphaBBoxLTRB": [
+        511,
+        112,
+        1081,
+        898
+      ],
+      "marginLTRB": [
+        511,
+        112,
+        455,
+        126
+      ],
+      "minMargin": 112,
+      "status": "accepted-source-candidate-after-independent-review"
+    },
+    {
+      "pose": 9,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/sources/pose09-attempt6-components-clean-scaled90.png",
+      "sha256": "519e01ac6705561353387e093cd20ea0530a304446ec4da36b444e13770c0416",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alphaBBoxLTRB": [
+        162,
+        128,
+        936,
+        1325
+      ],
+      "marginLTRB": [
+        162,
+        128,
+        88,
+        211
+      ],
+      "minMargin": 88,
+      "status": "accepted isolated source candidate; atlas assembly/layout not reviewed"
+    }
+  ]
+}

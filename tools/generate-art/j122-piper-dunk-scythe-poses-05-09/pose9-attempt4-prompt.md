@@ -1,0 +1,9 @@
+# J.122 Piper Quickstep dunk-scythe — isolated pose 9, attempt 4
+
+Create exactly ONE original full-body right-facing Piper Quickstep sprite on a transparent RGBA canvas for JAMVERSE '96, isolated pose 9 of her one-handed dunk-scythe. Reference image 1 is the accepted Piper dunk-clutch atlas only for Piper identity, face, proportions, hair, uniform, shoes and style. Reference image 2 is the accepted Keeg dunk-scythe atlas only for pose-9 body/arm posture. Redraw it as Piper; do not copy Keeg's hat, beard, clothing, colors, body type, accessories or pixels.
+
+Piper is an athletic adult human woman with warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange long high ponytail tied behind her head, natural athletic proportions, blank russet-red sleeveless jersey and shorts with cream piping and paired cream side stripes, white socks and red-and-cream high-top shoes. Exactly one head, two arms/hands, two legs/feet, natural joints. Preserve her identity and kit; no logos, numbers, text, jewelry or extra/missing anatomy.
+
+POSE 9: high pre-release at the apex. She faces image-right, airborne, right arm high and forward, wrist cocked, fingers clearly curled in a secure carry grip around invisible air. The hand is CLOSED, never an open palm; pose10 alone releases. Keep hand clear of face and ponytail. Left arm balances naturally; legs gather in an athletic jump. The separate basketball is absent from the art. “Scythe” means arm path only; no blade/weapon/prop. This is not windmill, double pump, reverse, 360, tomahawk or clutch.
+
+Show full uncropped figure including ponytail, all fingers and both shoes. Center with >=72px transparent margin on every side. No backdrop, grid, floor, court, hoop, shadow, glow, haze, matte, fringe, speckles, text, ball, sphere, prop or second pose. Match Piper's smooth outlined arcade-sprite rendering. Return only this isolated pose.

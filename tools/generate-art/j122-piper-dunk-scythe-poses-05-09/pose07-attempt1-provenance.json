@@ -1,0 +1,34 @@
+{
+  "athlete": "Piper Quickstep",
+  "athleteId": "J.122",
+  "clip": "dunk-scythe",
+  "poseIndex": 7,
+  "attempt": "attempt1",
+  "generationId": "exec-d8c9bcdf-06a2-476b-9927-ecb98819d7a4",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose7-attempt1-prompt.md",
+  "promptSha256": "7c4a04d2115caf8e752e05999a0f09795c6b5d481d4c1731063156fc8087390a",
+  "promptVerbatim": true,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose07.png",
+  "rawSourceSha256": "3ed48834e4ab5875540c0292f4321b4aa32fa4d82f7ff2195724ef42f78c6ac4",
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "J.105 Keeg pose-movement ref when named in verbatim prompt"
+  ],
+  "status": "rejected",
+  "reviewDisposition": "Single Piper pose but action hand is low rear/hip sweep, not mid-arc chest cross.",
+  "ballPolicy": "Athlete-only image; ball is separately animated. No ball appears in accepted candidates.",
+  "rawCanvas": {
+    "width": 1254,
+    "height": 1254,
+    "alphaBBox": [
+      0,
+      25,
+      1248,
+      1186
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "canonicalOrder": "J.122",
+  "status": "source-in-progress",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-fdbb2bc2-bcb6-435d-ab93-24dfc751e2ab",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt1-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-scythe-attempt1-generated-raw.png",
+      "rawSourceSha256": "34c2448c4f242dcf4a53698949b2b2bc3729de0fe8f6eb51a2557545365d1a97",
+      "layoutFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt1-layouts.json",
+      "provenanceFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt1-provenance.json",
+      "status": "rejected",
+      "reviewers": ["parent", "independent"],
+      "reason": "No distinct low rear arc in poses3–5; pose9 releases early; detached red/brown alpha speckles; multiple cell-edge touches/crossings."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-08e4dd1b-421f-443d-9dba-f8562246fafa",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt2-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-scythe-attempt2-generated-raw.png",
+      "rawSourceSha256": "9a3c118075d02a1749f6afc1ade8af0e00b20ccfb5ef5419e9051c57136b205d",
+      "layoutFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt2-layouts.json",
+      "provenanceFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt2-provenance.json",
+      "status": "rejected",
+      "reviewers": ["parent", "independent"],
+      "reason": "Low rear sweep still absent; pose9 release-like; detached gutter speckles; every pose misses 40px margin target, with 7px minimum."
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-65f1ede4-9a94-4182-8901-8422ffd16318",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt3-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-scythe-attempt3-generated-raw.png",
+      "rawSourceSha256": "a7fbeab6c300fd156474af041d786400204d509d5e90637a17afb29696209195",
+      "layoutFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt3-layouts.json",
+      "provenanceFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt3-provenance.json",
+      "status": "rejected",
+      "reviewers": ["parent"],
+      "reason": "Keeg motion reference did not resolve poses3–5 low rear sweep or pose9 pre-release hold; detached gutter speckles and cell-edge touches/crossings remain."
+    }
+  ],
+  "nextMethod": "Generate isolated pose batches 00–04, 05–09, and 10–14; accept each only after source-cell alpha, margin, anatomy, identity, pose and sequence review; assemble only after all15 pass."
+}

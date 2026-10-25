@@ -1,0 +1,46 @@
+{
+  "athlete": "Piper Quickstep",
+  "athleteId": "J.122",
+  "clip": "dunk-scythe",
+  "poseIndex": 7,
+  "attempt": "attempt4",
+  "generationId": "exec-c7698752-819a-467b-805e-83e88d989272",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose7-attempt4-prompt.md",
+  "promptSha256": "a5db712619c905e2efe4980e00caaf13e715443aea6ca0285b28b15cbd546dc2",
+  "promptVerbatim": true,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose07-attempt4.png",
+  "rawSourceSha256": "5a7f8911b2fc3dbeeecd848611ed894b0acc1cc283333e261d1ac241eb446a0f",
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "J.105 Keeg pose-movement ref when named in verbatim prompt"
+  ],
+  "status": "rejected",
+  "reviewDisposition": "Single Piper with diagonal torso cross and no ball, but carry hand is splayed/open rather than curled; raw alpha contains detached edge pixels. Clean proof remains for audit.",
+  "ballPolicy": "Athlete-only image; ball is separately animated. No ball appears in accepted candidates.",
+  "rawCanvas": {
+    "width": 1536,
+    "height": 1024,
+    "alphaBBox": [
+      131,
+      101,
+      1462,
+      1024
+    ],
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  "cleanedCandidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose07-pose07-attempt4-scaled.png",
+  "cleanupCanvas": {
+    "width": 1536,
+    "height": 1024,
+    "alphaBBox": [
+      597,
+      296,
+      992,
+      720
+    ],
+    "method": "Connected components of alpha>=8: preserve largest component and one-pixel dilation; uniformly scale to fit 896x896 then center in 1536x1024 transparent canvas."
+  }
+}

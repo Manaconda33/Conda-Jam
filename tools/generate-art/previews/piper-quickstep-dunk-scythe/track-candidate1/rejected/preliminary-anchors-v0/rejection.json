@@ -1,0 +1,5 @@
+{
+  "status": "rejected preliminary track preview; preserve for calibration history",
+  "reason": "First visual pass placed the ball slightly above/behind Piper's carry hand in poses 02 and 04, and the preview lacked explicit athlete/facing labels. These images are superseded by the hand-center-adjusted, labeled right/left 100%/120% overlays.",
+  "supersededBy": "tools/generate-art/previews/piper-quickstep-dunk-scythe/track-candidate1/track-calibration.json"
+}

@@ -1,0 +1,779 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.122",
+  "clip": "dunk-scythe",
+  "status": "accepted-production-layout",
+  "reviewers": [
+    "independent full-sequence reviewer",
+    "Codex parent"
+  ],
+  "reviewDisposition": "Native-size anatomy and complete-sequence review accepted the visual lane scales at standard runtime size. Pose07 remains naturally compact; fixed alpha-bbox height normalization enlarged its head and torso and was rejected.",
+  "mode": "lane-scale",
+  "scaleMethodDetails": "Reviewed production layout. Lane-scale applies one shared scale within poses00-04, one within poses05-08, a fit-capped scale to pose09, and one within poses10-14. Native runtime-size and sequence review accepted these visual factors. Pose07 remains naturally compact; bbox-height normalization was rejected because it enlarged its head and torso.",
+  "acceptedVisualLaneScales": {
+    "poses00-04": 0.095,
+    "poses05-08": 0.105,
+    "pose09": 0.074,
+    "poses10-14": 0.085
+  },
+  "atlas": "tools/generate-art/j122-piper-dunk-scythe-atlas-candidate/atlas-lane-scale.png",
+  "atlasSha256": "1b4fbf9e09b6ba3e3cb7c543efe68cb127ecb846adcc6dc4de1ceaec5257c419",
+  "webp": "tools/generate-art/j122-piper-dunk-scythe-atlas-candidate/atlas-lane-scale.webp",
+  "webpSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+  "atlasPx": [
+    512,
+    384
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "cellPx": [
+    128,
+    96
+  ],
+  "sequenceOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "uniqueFramePixelHashes": [
+    "bb85d8380ff57dc8188e626cdd34f63cb012b74253f829188a66130028acd634",
+    "ba635513186dc72079bb56e741c593baaeb5ea71f3cef9c7becf9f3c7af7f618",
+    "1a7f980c4ce82fb719798e845d41f5e5e6e714da92ceb8a9f025ceb01adf9e55",
+    "ac071367f1fa121c854122cdab26953e734f028127c72429089c1fd8378b8aff",
+    "c41360ad082d9659c3f2b43e5220d13fde6a20349f653969b387ed94d7d9810c",
+    "b4f35f85f0e3d24597fe421122b2c0d8d92d9c57ab1172a0561e416a30212231",
+    "c38ac224c1d0c438966de693ed46d708298ddc810e89788a181d46c52da601a7",
+    "21ddbe7ad6d3aa3837c9f8ff02cf6532d18f78679de1b5949e0be7306a7201c7",
+    "9c30949578acaf1b8348bcac795236f09cd8eb682d720671c5db28b413c26eec",
+    "64120aaef0bee07add464b2296a7e37a15de524224dfb9c6dcb30d73e5183827",
+    "7312e0b5afc76ed7190364296b4659152f3a5f6f61867ff736bd57f5be0e9100",
+    "f86de4291b8b678471897715022f4b165bf292d9ea6e5cd36319ef080cfb3c89",
+    "da8f0e012a6f279cc7469c14e0dffb96ccd81fa7111a84cac5f43c1d248c639f",
+    "68bacb21a4f410c9a6529d221d6a536aef53a488daf6cdc6a1bad359329cdcdf",
+    "ee8128050087fc0f59f667cff9d75c5ce285ef4d3badc46566a0ac152fed89d8"
+  ],
+  "alphaCropThreshold": 16,
+  "resize": "Uniform Lanczos downscale after alpha crop, using premultiplied-alpha RGB to prevent transparent exterior RGB bleed; no pose is drawn, duplicated, mirrored, interpolated, or synthetically reconstructed.",
+  "baseline": "Every cell uses feet baseline y=87; transparent top/bottom and side padding remain in each cell.",
+  "sourceRecords": [
+    {
+      "pose": 0,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/layout-candidates-80px/pose-00-layout90-v1.png",
+      "sourceSha256": "4935a93c7e491a6315418d748c981c00ac33ebd78ecf00bc4d19dcc89e0776db",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        195,
+        171,
+        1058,
+        1080
+      ],
+      "alphaCropPx": [
+        863,
+        909
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-00-attempt1.png",
+      "rawSourceSha256": "6f5130192c3ef1719b92cb773125ec4b1503403d82f7c70da1bd8b0ceac17918",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/pose-00-prompt.md",
+      "promptSha256": "289cd8ef9c73d9f652c2c0995b350c2602b561cd8e56b4ec5c28efa285be42b5",
+      "uniformScale": 0.08806489,
+      "outputFigurePx": [
+        76,
+        80
+      ],
+      "destinationCellXYWH": [
+        0,
+        0,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        26,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        26,
+        7,
+        26,
+        9
+      ],
+      "cellPixelSha256": "bb85d8380ff57dc8188e626cdd34f63cb012b74253f829188a66130028acd634"
+    },
+    {
+      "pose": 1,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/layout-candidates-80px/pose-01-layout90-v1.png",
+      "sourceSha256": "3eb756ffb9f38384fd9c128bb048bbf14e6955262c860dc57a7e16ae862df534",
+      "sourceCanvasPx": [
+        1312,
+        1199
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        274,
+        137,
+        1038,
+        1063
+      ],
+      "alphaCropPx": [
+        764,
+        926
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-01-attempt1.png",
+      "rawSourceSha256": "7416211f2c89c4f9c4ce8c9da46c7ca1c914f91cd5402d1733de8dc00b3752c0",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/pose-01-prompt.md",
+      "promptSha256": "2ab43e7f47e8a362a5995709e171a404b50f26ce875ad4f647757c97694ac5e6",
+      "uniformScale": 0.08638743,
+      "outputFigurePx": [
+        66,
+        80
+      ],
+      "destinationCellXYWH": [
+        128,
+        0,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        31,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        31,
+        7,
+        31,
+        9
+      ],
+      "cellPixelSha256": "ba635513186dc72079bb56e741c593baaeb5ea71f3cef9c7becf9f3c7af7f618"
+    },
+    {
+      "pose": 2,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/layout-candidates-80px/pose-02-layout90-v1.png",
+      "sourceSha256": "5295474ffa8142b52af8d2dfd1886f47527223a8d7863de75a31e6d2cfa9914f",
+      "sourceCanvasPx": [
+        1443,
+        1090
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        361,
+        117,
+        1079,
+        972
+      ],
+      "alphaCropPx": [
+        718,
+        855
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-02-attempt1.png",
+      "rawSourceSha256": "bcd8cfab7f5c0a5181334a97682cd304a0c31014808f46195412b09cc233235b",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/pose-02-prompt.md",
+      "promptSha256": "ed921a583777774a4b6abbafc5abe1c68805f5baba2ce30782d915e5eeed2c1a",
+      "uniformScale": 0.09331476,
+      "outputFigurePx": [
+        67,
+        80
+      ],
+      "destinationCellXYWH": [
+        256,
+        0,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        30,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        30,
+        7,
+        31,
+        9
+      ],
+      "cellPixelSha256": "1a7f980c4ce82fb719798e845d41f5e5e6e714da92ceb8a9f025ceb01adf9e55"
+    },
+    {
+      "pose": 3,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/layout-candidates-80px/pose-03-layout90-v1.png",
+      "sourceSha256": "f5bbe898bee655ab5c2255c2895fb59704f2e0f6462340c1e45f6886ec00e6fd",
+      "sourceCanvasPx": [
+        1313,
+        1198
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        214,
+        135,
+        1098,
+        1062
+      ],
+      "alphaCropPx": [
+        884,
+        927
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-03-attempt1.png",
+      "rawSourceSha256": "f0f26c145a8b1682653954eedc2997ae2128cddb28616d36cff6feeda5b2a072",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/pose-03-prompt.md",
+      "promptSha256": "fdf933c968a00bcdca380c1b6a625225a2e9b7e2286ecfb71c38ff59a2d9dd3a",
+      "uniformScale": 0.08597285,
+      "outputFigurePx": [
+        76,
+        80
+      ],
+      "destinationCellXYWH": [
+        384,
+        0,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        26,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        26,
+        7,
+        26,
+        9
+      ],
+      "cellPixelSha256": "ac071367f1fa121c854122cdab26953e734f028127c72429089c1fd8378b8aff"
+    },
+    {
+      "pose": 4,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/layout-candidates-80px/pose-04-layout90-v1.png",
+      "sourceSha256": "177145a2ff05ff8f5e0be780590d8544ea5545e84b48624c4960f7f35845651b",
+      "sourceCanvasPx": [
+        1362,
+        1155
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        267,
+        129,
+        1094,
+        1025
+      ],
+      "alphaCropPx": [
+        827,
+        896
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-04-attempt1.png",
+      "rawSourceSha256": "5b537ce8df1c399385396f5dce96d33be261e6d006425af2db8d92846a0c1374",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/pose-04-prompt.md",
+      "promptSha256": "12eed50bb93ffe32c7374aa8df7ee3459a6e2bf4fdc56c2e12afbaf5d9de8b0a",
+      "uniformScale": 0.08948005,
+      "outputFigurePx": [
+        74,
+        80
+      ],
+      "destinationCellXYWH": [
+        0,
+        96,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        27,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        27,
+        7,
+        27,
+        9
+      ],
+      "cellPixelSha256": "c41360ad082d9659c3f2b43e5220d13fde6a20349f653969b387ed94d7d9810c"
+    },
+    {
+      "pose": 5,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose05-attempt3-scaled.png",
+      "sourceSha256": "97459e1fc23ed355fa2a56170dceeed4caa638a52c0c8e999708bb03916d41cd",
+      "sourceCanvasPx": [
+        1536,
+        1024
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        345,
+        86,
+        1344,
+        922
+      ],
+      "alphaCropPx": [
+        999,
+        836
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose05-attempt3.png",
+      "rawSourceSha256": "8f14a0ab21afa13ad12ee75c41fe18b32a2ab48dd9233c9494e77bce15733703",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose5-attempt3-prompt.md",
+      "promptSha256": "7320c56dd043f5192d2b211da77f185cca9db4f3f412caf210d8c6b2d1b12825",
+      "uniformScale": 0.0960961,
+      "outputFigurePx": [
+        96,
+        80
+      ],
+      "destinationCellXYWH": [
+        128,
+        96,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        16,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        16,
+        7,
+        16,
+        9
+      ],
+      "cellPixelSha256": "b4f35f85f0e3d24597fe421122b2c0d8d92d9c57ab1172a0561e416a30212231"
+    },
+    {
+      "pose": 6,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose06-pose06-attempt2-scaled.png",
+      "sourceSha256": "a18481f517e8b51f9e04d82c8447ec14c4eeb98ab9de8b52db6acd8e3cf68805",
+      "sourceCanvasPx": [
+        1536,
+        1024
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        478,
+        120,
+        1159,
+        913
+      ],
+      "alphaCropPx": [
+        681,
+        793
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose06-attempt2.png",
+      "rawSourceSha256": "a224a085da4596243d139daea210015e3c77a626bb8c6644825150d35ed75903",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose6-attempt2-prompt.md",
+      "promptSha256": "adc190bc178d333f4c826f1eed84833695a63732ec4af848b663cbd1e48be8c3",
+      "uniformScale": 0.10132159,
+      "outputFigurePx": [
+        69,
+        80
+      ],
+      "destinationCellXYWH": [
+        256,
+        96,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        29,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        29,
+        7,
+        30,
+        9
+      ],
+      "cellPixelSha256": "c38ac224c1d0c438966de693ed46d708298ddc810e89788a181d46c52da601a7"
+    },
+    {
+      "pose": 7,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose07-attempt5-scaled.png",
+      "sourceSha256": "d45a48a661efbab5dd38f7950e9a5600623d79785874f3fefa35ea8fac7254f0",
+      "sourceCanvasPx": [
+        1536,
+        1024
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        542,
+        227,
+        1104,
+        821
+      ],
+      "alphaCropPx": [
+        562,
+        594
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose07-attempt5.png",
+      "rawSourceSha256": "c11785175a5e8c0e82f86e22361a0d2389408c0a68edb9935578cbc7d5bac07a",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose7-attempt5-prompt.md",
+      "promptSha256": "b9dca7ae99d2c9d0bda874272408c638396d9011f29e481f01adb0d2616a72f2",
+      "uniformScale": 0.10498221,
+      "outputFigurePx": [
+        59,
+        62
+      ],
+      "destinationCellXYWH": [
+        384,
+        96,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        34,
+        25
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        34,
+        25,
+        35,
+        9
+      ],
+      "cellPixelSha256": "21ddbe7ad6d3aa3837c9f8ff02cf6532d18f78679de1b5949e0be7306a7201c7"
+    },
+    {
+      "pose": 8,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose08-pose08-attempt2-scaled.png",
+      "sourceSha256": "954fa89f12f1389bc868a6a901e34012bc293a4daf4cfa84cea2a6cb3eb581d0",
+      "sourceCanvasPx": [
+        1536,
+        1024
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        513,
+        114,
+        1079,
+        896
+      ],
+      "alphaCropPx": [
+        566,
+        782
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose08-attempt2.png",
+      "rawSourceSha256": "21578decd738264b716171139b02f0a510c52121b55701af7fc693e67d0a41bb",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose8-attempt2-prompt.md",
+      "promptSha256": "c4b04cdb395f65d91928f2337a68859626f914bb88639cc22df2f4f696573dea",
+      "uniformScale": 0.1024735,
+      "outputFigurePx": [
+        58,
+        80
+      ],
+      "destinationCellXYWH": [
+        0,
+        192,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        35,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        35,
+        7,
+        35,
+        9
+      ],
+      "cellPixelSha256": "9c30949578acaf1b8348bcac795236f09cd8eb682d720671c5db28b413c26eec"
+    },
+    {
+      "pose": 9,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/sources/pose09-attempt6-components-clean-scaled90.png",
+      "sourceSha256": "519e01ac6705561353387e093cd20ea0530a304446ec4da36b444e13770c0416",
+      "sourceCanvasPx": [
+        1024,
+        1536
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        164,
+        130,
+        934,
+        1323
+      ],
+      "alphaCropPx": [
+        770,
+        1193
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09-attempt6.png",
+      "rawSourceSha256": "7b5a15825e4661b9ba405c34cee545a4b51efeabbc2983623bc87a9cfa8a2d24",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt6-prompt.md",
+      "promptSha256": "0d0180421a70cf38238f2e15a5331831e6c21101567ab60c3f4b063111fbf884",
+      "uniformScale": 0.06753247,
+      "outputFigurePx": [
+        52,
+        80
+      ],
+      "destinationCellXYWH": [
+        128,
+        192,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        38,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        38,
+        7,
+        38,
+        9
+      ],
+      "cellPixelSha256": "64120aaef0bee07add464b2296a7e37a15de524224dfb9c6dcb30d73e5183827"
+    },
+    {
+      "pose": 10,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-10-attempt1-components-clean.png",
+      "sourceSha256": "4f387ab179f6bb169cc12fbb6bcc5b6e6f802dc3e1aa45c89465f312ad168918",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        209,
+        118,
+        1127,
+        1158
+      ],
+      "alphaCropPx": [
+        918,
+        1040
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-10-attempt1.png",
+      "rawSourceSha256": "0bfa5175d12385bbc0bed1842e69b339ac07b88f19376a4ff3c408d53bf6c632",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/pose-10-prompt.md",
+      "promptSha256": "eeeddb171dc73f889b090e150ed4608bc269a1befc89d8f8b7bb5733bbe45365",
+      "uniformScale": 0.07734205,
+      "outputFigurePx": [
+        71,
+        80
+      ],
+      "destinationCellXYWH": [
+        256,
+        192,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        28,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        28,
+        7,
+        29,
+        9
+      ],
+      "cellPixelSha256": "7312e0b5afc76ed7190364296b4659152f3a5f6f61867ff736bd57f5be0e9100"
+    },
+    {
+      "pose": 11,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-11-attempt1-components-clean.png",
+      "sourceSha256": "1e3b13474d65f28a1509e9713d0335d59c64b5867c778507185b692721d8282a",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        164,
+        170,
+        1175,
+        1096
+      ],
+      "alphaCropPx": [
+        1011,
+        926
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-11-attempt1.png",
+      "rawSourceSha256": "18cf0d51dd01816ab84c07ce4bb9c27e034a18ba7356fe46ddee04f5c052f469",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/pose-11-prompt.md",
+      "promptSha256": "bbb07b4af70eee61c8677e22e320dd5a49328b8cd43c39e769ae4a8196a63da2",
+      "uniformScale": 0.08506429,
+      "outputFigurePx": [
+        86,
+        79
+      ],
+      "destinationCellXYWH": [
+        384,
+        192,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        21,
+        8
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        21,
+        8,
+        21,
+        9
+      ],
+      "cellPixelSha256": "f86de4291b8b678471897715022f4b165bf292d9ea6e5cd36319ef080cfb3c89"
+    },
+    {
+      "pose": 12,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-12-attempt1-components-clean.png",
+      "sourceSha256": "72f4a87681441cb631bdab1cd4d5e886dabde1383fedc64ce40aded163e22520",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        169,
+        163,
+        1164,
+        1124
+      ],
+      "alphaCropPx": [
+        995,
+        961
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-12-attempt1.png",
+      "rawSourceSha256": "4824c96ca4f766951b94323388b4d5dd2338fe0e77bd5afee58afeba4822e4fa",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/pose-12-prompt.md",
+      "promptSha256": "515c19cd695411be20aa2577d33ed658b9dc855f14823e1675acf6f458f86f5c",
+      "uniformScale": 0.08341709,
+      "outputFigurePx": [
+        83,
+        80
+      ],
+      "destinationCellXYWH": [
+        0,
+        288,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        22,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        22,
+        7,
+        23,
+        9
+      ],
+      "cellPixelSha256": "da8f0e012a6f279cc7469c14e0dffb96ccd81fa7111a84cac5f43c1d248c639f"
+    },
+    {
+      "pose": 13,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-13-attempt2-components-clean.png",
+      "sourceSha256": "68c950d5a41ed6ed39f7a9b7d0d245330f05856662a20164da11388652259bc5",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        237,
+        246,
+        1100,
+        1083
+      ],
+      "alphaCropPx": [
+        863,
+        837
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-13-attempt2.png",
+      "rawSourceSha256": "116a65d349abd9bff5f19f20c3041c3818b6ef0b62c5a1975fb10dd1c4b0ccd4",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/pose-13-prompt-attempt2.md",
+      "promptSha256": "8b121c004d7f787bcb20b2f8cdb2517b2bcf6f8a1179093ed5f82d1caec4751b",
+      "uniformScale": 0.08458864,
+      "outputFigurePx": [
+        73,
+        71
+      ],
+      "destinationCellXYWH": [
+        128,
+        288,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        27,
+        16
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        27,
+        16,
+        28,
+        9
+      ],
+      "cellPixelSha256": "68bacb21a4f410c9a6529d221d6a536aef53a488daf6cdc6a1bad359329cdcdf"
+    },
+    {
+      "pose": 14,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-14-attempt1-components-clean.png",
+      "sourceSha256": "e2728c0d2e491083c841612b886427c05286d2327cb5a947115acc5259e4d8b3",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        322,
+        144,
+        947,
+        1132
+      ],
+      "alphaCropPx": [
+        625,
+        988
+      ],
+      "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-14-attempt1.png",
+      "rawSourceSha256": "5507ed23ee992e61df9bdc2165a77086a2f05c307d7f0a7f26b6afcdfe0ce0de",
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/pose-14-prompt.md",
+      "promptSha256": "537edaed379b73814fb4d26be1b872db20684738f3e738a20e617e067dab00ea",
+      "uniformScale": 0.0816,
+      "outputFigurePx": [
+        51,
+        80
+      ],
+      "destinationCellXYWH": [
+        256,
+        288,
+        128,
+        96
+      ],
+      "figurePlacementInCellXY": [
+        38,
+        7
+      ],
+      "baselineYInCell": 87,
+      "cellMarginsLTRBpx": [
+        38,
+        7,
+        39,
+        9
+      ],
+      "cellPixelSha256": "ee8128050087fc0f59f667cff9d75c5ce285ef4d3badc46566a0ac152fed89d8"
+    }
+  ]
+}

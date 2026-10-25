@@ -1,0 +1,36 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "direction": "right",
+  "attempt": 3,
+  "source": "imagegen",
+  "generationId": "exec-65f1ede4-9a94-4182-8901-8422ffd16318",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt3-prompt.md",
+  "promptSha256": "881eb305715593478ff7f191b2b13b3b30e801e8502e48d7b7d9c7fc86b27d5b",
+  "promptVerbatim": true,
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-double-attempt1-clean-candidate.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "tools/generate-art/sources/j105-keeg-dunk-scythe-atlas.png"
+  ],
+  "rawSourceImage": "tools/generate-art/sources/piper-quickstep-dunk-scythe-attempt3-generated-raw.png",
+  "rawSourceSha256": "a7fbeab6c300fd156474af041d786400204d509d5e90637a17afb29696209195",
+  "rawSourceSize": [
+    1536,
+    1024
+  ],
+  "rawSourceMode": "RGBA",
+  "rawReview": {
+    "status": "rejected",
+    "reviewedBy": "source lane parent visual review",
+    "notes": "Reject attempt3: despite Keeg motion reference, poses3\u20135 do not depict a distinct low rear sweep; poses8\u201310 are raised reaches, and frame9 hand is open/release-like before frame10. Red/brown detached alpha speckles persist in exterior and gutters. Per-cell threshold>128 margins are documented in layout; no cleanup/packing."
+  },
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-scythe-attempt3-layouts.json",
+  "sourceReview": {
+    "status": "rejected",
+    "reviewNotes": "The motion reference did not resolve the required low-to-high scythe action; pose9 does not hold before the sole release. Preserve as rejected raw."
+  },
+  "eligibleForPacking": false,
+  "cleanup": null,
+  "ballBehavior": "No drawn ball; separate track pending source acceptance."
+}

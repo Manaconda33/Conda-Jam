@@ -1,0 +1,390 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "attempt": 1,
+  "source": "tools/generate-art/sources/piper-quickstep-dunk-scythe-attempt1-generated-raw.png",
+  "rawSha256": "34c2448c4f242dcf4a53698949b2b2bc3729de0fe8f6eb51a2557545365d1a97",
+  "size": [
+    1536,
+    1024
+  ],
+  "grid": "5x3 row-major",
+  "measurement": "alpha bounding box at threshold >128; measurements are diagnostic only",
+  "frames": [
+    {
+      "frame": 0,
+      "column": 0,
+      "row": 0,
+      "cell": [
+        0,
+        0,
+        307,
+        341
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        26,
+        48,
+        284,
+        332
+      ],
+      "marginsLTRBpx": [
+        26,
+        48,
+        23,
+        9
+      ],
+      "minimumMarginPx": 9
+    },
+    {
+      "frame": 1,
+      "column": 1,
+      "row": 0,
+      "cell": [
+        307,
+        0,
+        307,
+        341
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        60,
+        53,
+        245,
+        323
+      ],
+      "marginsLTRBpx": [
+        60,
+        53,
+        62,
+        18
+      ],
+      "minimumMarginPx": 18
+    },
+    {
+      "frame": 2,
+      "column": 2,
+      "row": 0,
+      "cell": [
+        614,
+        0,
+        308,
+        341
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        53,
+        67,
+        307,
+        331
+      ],
+      "marginsLTRBpx": [
+        53,
+        67,
+        1,
+        10
+      ],
+      "minimumMarginPx": 1
+    },
+    {
+      "frame": 3,
+      "column": 3,
+      "row": 0,
+      "cell": [
+        922,
+        0,
+        307,
+        341
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        72,
+        47,
+        307,
+        331
+      ],
+      "marginsLTRBpx": [
+        72,
+        47,
+        0,
+        10
+      ],
+      "minimumMarginPx": 0
+    },
+    {
+      "frame": 4,
+      "column": 4,
+      "row": 0,
+      "cell": [
+        1229,
+        0,
+        307,
+        341
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        0,
+        48,
+        297,
+        331
+      ],
+      "marginsLTRBpx": [
+        0,
+        48,
+        10,
+        10
+      ],
+      "minimumMarginPx": 0
+    },
+    {
+      "frame": 5,
+      "column": 0,
+      "row": 1,
+      "cell": [
+        0,
+        341,
+        307,
+        342
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        47,
+        61,
+        307,
+        330
+      ],
+      "marginsLTRBpx": [
+        47,
+        61,
+        0,
+        12
+      ],
+      "minimumMarginPx": 0
+    },
+    {
+      "frame": 6,
+      "column": 1,
+      "row": 1,
+      "cell": [
+        307,
+        341,
+        307,
+        342
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        0,
+        59,
+        307,
+        330
+      ],
+      "marginsLTRBpx": [
+        0,
+        59,
+        0,
+        12
+      ],
+      "minimumMarginPx": 0
+    },
+    {
+      "frame": 7,
+      "column": 2,
+      "row": 1,
+      "cell": [
+        614,
+        341,
+        308,
+        342
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        0,
+        42,
+        260,
+        333
+      ],
+      "marginsLTRBpx": [
+        0,
+        42,
+        48,
+        9
+      ],
+      "minimumMarginPx": 0
+    },
+    {
+      "frame": 8,
+      "column": 3,
+      "row": 1,
+      "cell": [
+        922,
+        341,
+        307,
+        342
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        78,
+        22,
+        286,
+        331
+      ],
+      "marginsLTRBpx": [
+        78,
+        22,
+        21,
+        11
+      ],
+      "minimumMarginPx": 11
+    },
+    {
+      "frame": 9,
+      "column": 4,
+      "row": 1,
+      "cell": [
+        1229,
+        341,
+        307,
+        342
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        50,
+        11,
+        280,
+        334
+      ],
+      "marginsLTRBpx": [
+        50,
+        11,
+        27,
+        8
+      ],
+      "minimumMarginPx": 8
+    },
+    {
+      "frame": 10,
+      "column": 0,
+      "row": 2,
+      "cell": [
+        0,
+        683,
+        307,
+        341
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        42,
+        5,
+        284,
+        311
+      ],
+      "marginsLTRBpx": [
+        42,
+        5,
+        23,
+        30
+      ],
+      "minimumMarginPx": 5
+    },
+    {
+      "frame": 11,
+      "column": 1,
+      "row": 2,
+      "cell": [
+        307,
+        683,
+        307,
+        341
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        48,
+        33,
+        307,
+        297
+      ],
+      "marginsLTRBpx": [
+        48,
+        33,
+        0,
+        44
+      ],
+      "minimumMarginPx": 0
+    },
+    {
+      "frame": 12,
+      "column": 2,
+      "row": 2,
+      "cell": [
+        614,
+        683,
+        308,
+        341
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        0,
+        36,
+        308,
+        311
+      ],
+      "marginsLTRBpx": [
+        0,
+        36,
+        0,
+        30
+      ],
+      "minimumMarginPx": 0
+    },
+    {
+      "frame": 13,
+      "column": 3,
+      "row": 2,
+      "cell": [
+        922,
+        683,
+        307,
+        341
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        79,
+        42,
+        290,
+        308
+      ],
+      "marginsLTRBpx": [
+        79,
+        42,
+        17,
+        33
+      ],
+      "minimumMarginPx": 17
+    },
+    {
+      "frame": 14,
+      "column": 4,
+      "row": 2,
+      "cell": [
+        1229,
+        683,
+        307,
+        341
+      ],
+      "alphaThreshold": 128,
+      "visibleBoundsWithinCell": [
+        82,
+        35,
+        269,
+        310
+      ],
+      "marginsLTRBpx": [
+        82,
+        35,
+        38,
+        31
+      ],
+      "minimumMarginPx": 31
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "generationMethod": "five separate imagegen single-pose generations using J105 Keeg motion references and Piper identity references",
+  "frames": "poses00-04",
+  "poses": [
+    "pose-00-provenance.json",
+    "pose-01-provenance.json",
+    "pose-02-provenance.json",
+    "pose-03-provenance.json",
+    "pose-04-provenance.json"
+  ],
+  "status": "poses00-04 accepted as isolated sources; selected 0.90 layout candidates pending final atlas review",
+  "notes": "Each source is a single isolated figure. No atlas is assembled or packed in this lane.",
+  "carryHand": "For the right-facing Piper art, image-left/rear/trailing hand is the continuous invisible-ball carry hand for poses00\u201304; image-right/front arm balances. This is an image-relative mapping, not an anatomical left/right claim.",
+  "cleanup": "Original source PNGs, prompts, IDs, and hashes remain untouched. Separate cleaned candidates remove only disconnected exterior alpha specks and exterior red alpha fringe; RGB channels unchanged. Per-pose proof sheets and detailed metrics are in cleaned/ and proofs/cleaned/.",
+  "reviewNotes": "Independent review accepts all five for pose order, identity/anatomy, no-ball, cleanup, and >=40px source canvas margins. Prompts specify >=80px; poses02\u201304 fall short of that higher target. Historical pose04 prompt incorrectly says lowest point; canonical pose04 is low rear sweep and pose05 deepest, corrected in pose-04-canonical-correction.md. Uniform 0.90 candidates centered in original canvases now meet the original >=80px alpha>16 prompt margins for all five poses; these are selected layout candidates, not atlas acceptance."
+}

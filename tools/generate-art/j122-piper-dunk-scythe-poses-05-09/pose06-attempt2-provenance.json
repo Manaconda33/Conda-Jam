@@ -1,0 +1,50 @@
+{
+  "athlete": "Piper Quickstep",
+  "athleteId": "J.122",
+  "clip": "dunk-scythe",
+  "poseIndex": 6,
+  "attempt": "attempt2",
+  "generationId": "exec-46c29255-5bde-444d-9f56-2501bf61ab1d",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose6-attempt2-prompt.md",
+  "promptSha256": "adc190bc178d333f4c826f1eed84833695a63732ec4af848b663cbd1e48be8c3",
+  "promptVerbatim": true,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose06-attempt2.png",
+  "rawSourceSha256": "a224a085da4596243d139daea210015e3c77a626bb8c6644825150d35ed75903",
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "J.105 Keeg pose-movement ref when named in verbatim prompt"
+  ],
+  "status": "accepted-source-candidate-after-independent-review",
+  "reviewDisposition": "Single Piper, reverse upward sweep behind shoulder with bent arm and carry C-grip; no ball. Raw alpha includes detached speckles and insufficient margin; cleanup removed 158 disconnected components at alpha>=8 with one-pixel edge dilation, then uniformly scaled to a 1536x1024 transparent canvas.",
+  "ballPolicy": "Athlete-only image; ball is separately animated. No ball appears in accepted candidates.",
+  "rawCanvas": {
+    "width": 1214,
+    "height": 1295,
+    "alphaBBox": [
+      0,
+      37,
+      1182,
+      1273
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "cleanedCandidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose06-pose06-attempt2-scaled.png",
+  "cleanupCanvas": {
+    "width": 1536,
+    "height": 1024,
+    "alphaBBox": [
+      476,
+      118,
+      1161,
+      915
+    ],
+    "method": "Connected components of alpha>=8: preserve largest component and one-pixel dilation; uniformly scale to fit 896x896 then center in 1536x1024 transparent canvas."
+  },
+  "eligibleForPacking": false,
+  "independentReview": "PASS; see pose05-08-independent-review.json",
+  "selectedCandidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose06-pose06-attempt2-scaled.png",
+  "minimumMarginAlphaGt128Px": 112
+}

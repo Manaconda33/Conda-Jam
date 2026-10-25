@@ -1,0 +1,51 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "pose": 9,
+  "attempts": [
+    {
+      "attempt": 1,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09.png",
+      "status": "rejected",
+      "reason": "Multi-pose Keeg sheet/wrong athlete; not an isolated Piper source."
+    },
+    {
+      "attempt": 2,
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt2-prompt.md",
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09.png",
+      "status": "rejected",
+      "reason": "The existing pose09 preview is Keeg art with witch hat and beard, not Piper."
+    },
+    {
+      "attempt": 3,
+      "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt3-prompt.md",
+      "status": "not-retained",
+      "reason": "Imagegen returned a PNG data URL, but transfer failed with Argument list too long before the source file could be preserved. No generation ID or source hash was retained; see pose9-attempt3-transfer-note.md."
+    },
+    {
+      "attempt": 4,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09-attempt4.png",
+      "provenanceFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt4-provenance.json",
+      "status": "rejected",
+      "reason": "Backdrop/halo."
+    },
+    {
+      "attempt": 5,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09-attempt5.png",
+      "provenanceFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt5-provenance.json",
+      "status": "rejected",
+      "reason": "Background-removal edit did not remove the backdrop and redrew appearance."
+    },
+    {
+      "attempt": 6,
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09-attempt6.png",
+      "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/sources/pose09-attempt6-components-clean-scaled90.png",
+      "provenanceFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt6-provenance.json",
+      "status": "accepted-source-candidate-after-90%-uniform-layout",
+      "reason": "Independent review passed action/identity/anatomy/no-ball/alpha; uniform 90% layout yields >=80px on all edges (minimum alpha>128 margin 91px). Atlas assembly remains unreviewed.",
+      "layoutFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt6-scaled90-layout.json",
+      "independentReviewFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose09-attempt6-independent-review-scaled90.json"
+    }
+  ],
+  "assemblyEligible": false
+}

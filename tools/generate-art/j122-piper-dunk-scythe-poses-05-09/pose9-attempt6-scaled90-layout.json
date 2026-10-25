@@ -1,0 +1,25 @@
+{
+  "source": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/sources/pose09-attempt6-components-clean-scaled90.png",
+  "sha256": "519e01ac6705561353387e093cd20ea0530a304446ec4da36b444e13770c0416",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "alphaBboxLTRB": [
+    162,
+    128,
+    936,
+    1325
+  ],
+  "marginLTRB": [
+    162,
+    128,
+    88,
+    211
+  ],
+  "minMargin": 88,
+  "layoutStatus": "PASS: prompt 80px margin achieved after uniform layout; independent review passed. Accepted isolated source candidate; atlas assembly/layout not yet reviewed.",
+  "method": "Uniform 90% rescale of component-clean attempt6 canvas, centered on original transparent canvas; no pixels synthesized or painted.",
+  "independentReviewFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose09-attempt6-independent-review-scaled90.json",
+  "eligibleForAssembly": false
+}

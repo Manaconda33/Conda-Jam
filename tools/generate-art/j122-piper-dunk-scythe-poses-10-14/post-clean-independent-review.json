@@ -1,0 +1,60 @@
+{
+  "reviewedAt": "2026-10-25T13:33:36Z",
+  "reviewer": "independent agent j122_poses_10_14_review",
+  "scope": "Cleaned individual source poses only; not assembled or packed.",
+  "results": {
+    "pose10": "PASS: sole open-palm release, empty hand, no ball, Piper identity/anatomy intact.",
+    "pose11": "PASS: empty follow-through, both hands empty, no ball.",
+    "pose12": "PASS: controlled descent, both hands empty, no ball.",
+    "pose13-attempt2": "PASS: two-foot landing compression, both hands empty, no ball.",
+    "pose14": "PASS: stable recovery, both hands empty, no ball."
+  },
+  "commonChecks": {
+    "lightDarkProofs": "PASS: no obvious detached speckles or fringe after cleanup.",
+    "cleanupIntegrity": "PASS: removed exterior artifacts only; no contour, hair, limb, hand, shoe, or garment details visibly erased.",
+    "alpha": "PASS: transparent RGBA source with retained figure.",
+    "marginsLTRBpxByPose": {
+      "10": [
+        210,
+        119,
+        128,
+        97
+      ],
+      "11": [
+        165,
+        171,
+        80,
+        159
+      ],
+      "12": [
+        170,
+        163,
+        90,
+        131
+      ],
+      "13-attempt2": [
+        237,
+        247,
+        155,
+        172
+      ],
+      "14": [
+        323,
+        145,
+        308,
+        123
+      ]
+    },
+    "minimumMarginsPxByPose": {
+      "10": 97,
+      "11": 80,
+      "12": 90,
+      "13-attempt2": 155,
+      "14": 123
+    },
+    "minimumMarginRequirementPx": 40
+  },
+  "rejected": {
+    "pose13-attempt1": "REJECT: wrong athlete/layout; Keeg full-sheet output, not isolated Piper pose. Raw image and proofs preserved."
+  }
+}

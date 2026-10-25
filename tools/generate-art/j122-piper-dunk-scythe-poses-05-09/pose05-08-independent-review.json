@@ -1,0 +1,108 @@
+{
+  "reviewer": "independent source reviewer (poses 10\u201314 lane)",
+  "reviewedAt": "2026-10-25T13:49:38Z",
+  "scope": "Visual review of latest J122 isolated pose candidates 05\u201308; no source files edited.",
+  "overall": "PASS for pose/action/identity/no-ball and >=40px layout margin. Pose07 attempt5 is latest reviewed pose07.",
+  "poses": {
+    "05-attempt3": {
+      "candidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose05-attempt3-scaled.png",
+      "sha256": "97459e1fc23ed355fa2a56170dceeed4caa638a52c0c8e999708bb03916d41cd",
+      "bboxAlphaGt128": [
+        346,
+        87,
+        1343,
+        921
+      ],
+      "marginsLTRBpx": [
+        346,
+        87,
+        193,
+        103
+      ],
+      "minimumMarginPx": 87,
+      "transparencyFractionAlphaZero": 0.805967,
+      "lightProof": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose05-attempt3-scaled-light.jpg",
+      "darkProof": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose05-attempt3-scaled-dark.jpg",
+      "beat": "PASS: deepest low rear sweep; dunk hand sits behind/below hip with curled carry shape and airborne tucked legs.",
+      "identityAnatomy": "PASS: Piper identity, adult athletic proportions, face/hair, blank russet-red/cream kit, limbs/hands/feet and shoes visually intact.",
+      "noBall": "PASS: no painted basketball, prop, or weapon.",
+      "alphaArtifacts": "PASS: checked light/dark preview; no obvious opaque backdrop, detached speckles, fringe, or clipped edge.",
+      "layout": "PASS: candidate preview/source minimum margin exceeds 40px; scaled files retained transparent alpha."
+    },
+    "06-attempt2": {
+      "candidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose06-pose06-attempt2-scaled.png",
+      "sha256": "a18481f517e8b51f9e04d82c8447ec14c4eeb98ab9de8b52db6acd8e3cf68805",
+      "bboxAlphaGt128": [
+        478,
+        120,
+        1159,
+        912
+      ],
+      "marginsLTRBpx": [
+        478,
+        120,
+        377,
+        112
+      ],
+      "minimumMarginPx": 112,
+      "transparencyFractionAlphaZero": 0.889072,
+      "lightProof": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose06-pose06-attempt2-scaled-light.jpg",
+      "darkProof": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose06-pose06-attempt2-scaled-dark.jpg",
+      "beat": "PASS: upward transition with bent right arm/hand behind shoulder; visible distinction from low pose05 and chest-cross pose07.",
+      "identityAnatomy": "PASS: Piper identity, adult athletic proportions, face/hair, blank russet-red/cream kit, limbs/hands/feet and shoes visually intact.",
+      "noBall": "PASS: no painted basketball, prop, or weapon.",
+      "alphaArtifacts": "PASS: checked light/dark preview; no obvious opaque backdrop, detached speckles, fringe, or clipped edge.",
+      "layout": "PASS: candidate preview/source minimum margin exceeds 40px; scaled files retained transparent alpha."
+    },
+    "07-attempt5": {
+      "candidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose07-attempt5.png",
+      "sha256": "c11785175a5e8c0e82f86e22361a0d2389408c0a68edb9935578cbc7d5bac07a",
+      "bboxAlphaGt128": [
+        334,
+        176,
+        1156,
+        1051
+      ],
+      "marginsLTRBpx": [
+        334,
+        176,
+        167,
+        138
+      ],
+      "minimumMarginPx": 138,
+      "transparencyFractionAlphaZero": 0.826428,
+      "lightProof": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose07-attempt5-light.jpg",
+      "darkProof": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose07-attempt5-dark.jpg",
+      "beat": "PASS: mid-air transition with right forearm crossing upper chest toward collarbone and curled hand, distinct from behind-shoulder and above-shoulder poses.",
+      "identityAnatomy": "PASS: Piper identity, adult athletic proportions, face/hair, blank russet-red/cream kit, limbs/hands/feet and shoes visually intact.",
+      "noBall": "PASS: no painted basketball, prop, or weapon.",
+      "alphaArtifacts": "PASS: checked light/dark preview; no obvious opaque backdrop, detached speckles, fringe, or clipped edge.",
+      "layout": "PASS: candidate preview/source minimum margin exceeds 40px; scaled files retained transparent alpha."
+    },
+    "08-attempt2": {
+      "candidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose08-pose08-attempt2-scaled.png",
+      "sha256": "954fa89f12f1389bc868a6a901e34012bc293a4daf4cfa84cea2a6cb3eb581d0",
+      "bboxAlphaGt128": [
+        514,
+        115,
+        1078,
+        896
+      ],
+      "marginsLTRBpx": [
+        514,
+        115,
+        458,
+        128
+      ],
+      "minimumMarginPx": 115,
+      "transparencyFractionAlphaZero": 0.903003,
+      "lightProof": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose08-pose08-attempt2-scaled-light.jpg",
+      "darkProof": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose08-pose08-attempt2-scaled-dark.jpg",
+      "beat": "PASS: right arm accelerates above shoulder toward rim with a curled carry hand; not an open release.",
+      "identityAnatomy": "PASS: Piper identity, adult athletic proportions, face/hair, blank russet-red/cream kit, limbs/hands/feet and shoes visually intact.",
+      "noBall": "PASS: no painted basketball, prop, or weapon.",
+      "alphaArtifacts": "PASS: checked light/dark preview; no obvious opaque backdrop, detached speckles, fringe, or clipped edge.",
+      "layout": "PASS: candidate preview/source minimum margin exceeds 40px; scaled files retained transparent alpha."
+    }
+  }
+}

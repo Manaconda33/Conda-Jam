@@ -1,0 +1,50 @@
+{
+  "athlete": "Piper Quickstep",
+  "athleteId": "J.122",
+  "clip": "dunk-scythe",
+  "poseIndex": 5,
+  "attempt": "attempt3",
+  "generationId": "exec-89b90c4a-4e52-4308-96c4-5a6f5e5d8ae5",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose5-attempt3-prompt.md",
+  "promptSha256": "7320c56dd043f5192d2b211da77f185cca9db4f3f412caf210d8c6b2d1b12825",
+  "promptVerbatim": true,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose05-attempt3.png",
+  "rawSourceSha256": "8f14a0ab21afa13ad12ee75c41fe18b32a2ab48dd9233c9494e77bce15733703",
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "J.105 Keeg pose-movement ref when named in verbatim prompt"
+  ],
+  "status": "accepted-source-candidate-after-independent-review",
+  "reviewDisposition": "Single Piper, deepest low rear carry hand behind/below hip; no ball; clean visual alpha proof. Uniform scale preserves silhouette and provides >=64px margin.",
+  "ballPolicy": "Athlete-only image; ball is separately animated. No ball appears in accepted candidates.",
+  "rawCanvas": {
+    "width": 1536,
+    "height": 1024,
+    "alphaBBox": [
+      37,
+      22,
+      1510,
+      996
+    ],
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  "cleanedCandidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose05-attempt3-scaled.png",
+  "cleanupCanvas": {
+    "width": 1536,
+    "height": 1024,
+    "alphaBBox": [
+      128,
+      83,
+      1417,
+      936
+    ],
+    "method": "Uniformly downscale full RGBA source to 1344x896 max and center on 1536x1024 transparent canvas."
+  },
+  "eligibleForPacking": false,
+  "independentReview": "PASS; see pose05-08-independent-review.json",
+  "selectedCandidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose05-attempt3-scaled.png",
+  "minimumMarginAlphaGt128Px": 87
+}

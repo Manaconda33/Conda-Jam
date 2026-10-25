@@ -1,0 +1,132 @@
+{
+  "pose": 2,
+  "generationId": "exec-6cc75863-bec7-41e2-be06-9a8659103c39",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/pose-02-prompt.md",
+  "promptSha256": "ed921a583777774a4b6abbafc5abe1c68805f5baba2ce30782d915e5eeed2c1a",
+  "promptVerbatim": true,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-02-attempt1.png",
+  "rawSha256": "bcd8cfab7f5c0a5181334a97682cd304a0c31014808f46195412b09cc233235b",
+  "rawDimensions": [
+    1443,
+    1090
+  ],
+  "rawMode": "RGBA",
+  "layout": {
+    "description": "single centered full-body pose",
+    "alphaThreshold16Bounds": [
+      385,
+      93,
+      1182,
+      1042
+    ],
+    "marginLTRBAt16px": [
+      385,
+      93,
+      261,
+      48
+    ],
+    "alphaThreshold128Bounds": [
+      386,
+      93,
+      1181,
+      1042
+    ],
+    "marginLTRBAt128px": [
+      386,
+      93,
+      262,
+      48
+    ],
+    "componentsAbove16px": 1,
+    "largestAlphaComponentsPx": [
+      343503
+    ],
+    "fullyTransparentPixelFraction": 0.768929
+  },
+  "proofs": {
+    "light": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/proofs/pose-02-light.png",
+    "dark": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/proofs/pose-02-dark.png"
+  },
+  "sourceReview": {
+    "status": "accepted-isolated-source",
+    "reviewer": "source lane visual review (post-cleanup)",
+    "reviewNotes": "Cleaned alpha specks/fringe, verified pose order, distinct pose from adjacent frames, Piper identity, two arms/legs/hands/feet, no ball, and transparent margins >=40px (measured [385, 93, 261, 48]). No isolated pose has a cell boundary; atlas cell layout remains unreviewed/unbuilt. Carry hand is image-left/trailing rear hand, consistent across poses 00\u201304.",
+    "independentReview": "Independent post-cleanup review accepted."
+  },
+  "cleanup": {
+    "method": "run existing clean-disconnected-speckles.py expectedFigures=1 edgeMargin=2, then clean-alpha-fringe.py; alpha-only removal, all original RGB preserved; raw source remains immutable",
+    "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/cleaned/pose-02-cleaned-v1.png",
+    "cleanedSha256": "1c537a5f30e53eebddfa09ee5d3923edf926598c1c6ecabd8eb56e76ff19c369",
+    "layout": {
+      "dimensions": [
+        1443,
+        1090
+      ],
+      "alpha16Bounds": [
+        385,
+        93,
+        1182,
+        1042
+      ],
+      "marginsLTRBAt16px": [
+        385,
+        93,
+        261,
+        48
+      ],
+      "componentsAbove16px": 1,
+      "alphaNonzero": 349191,
+      "minimumMarginPx": 48
+    },
+    "status": "cleaned-source-review-pending",
+    "detachedAlphaPixelsCleared": 13880,
+    "attachedExteriorRedFringePixelsCleared": 373,
+    "rgbChannelsModified": false,
+    "packingStatus": "not packed; parent lane review required"
+  },
+  "carryHandResolution": {
+    "visibleCarryHand": "image-left / trailing hand, i.e. Piper\u2019s rear hand in the right-facing profile; this same limb carries the invisible ball through pose00 approach, pose01 gather, pose02 plant, pose03 low rear start of sweep, and pose04 lowest rear sweep. The image-right/front hand counterbalances and is empty. Avoid anatomical left/right labels because profile foreshortening makes those labels ambiguous."
+  },
+  "canonicalSequenceReference": {
+    "reference": "J.105 accepted individual scythe pose prompts 00\u201304 and src/core/animation.js dunk-scythe 15-frame sequence",
+    "expectedPose": "two-foot plant and coil"
+  },
+  "selectedLayoutCandidate": {
+    "candidate": "layout-candidates-80px/pose-02-layout90-v1.png",
+    "candidateSha256": "5295474ffa8142b52af8d2dfd1886f47527223a8d7863de75a31e6d2cfa9914f",
+    "uniformScale": 0.9,
+    "originalCanvasPx": [
+      1443,
+      1090
+    ],
+    "alpha16BoundsLTRB": [
+      361,
+      117,
+      1079,
+      972
+    ],
+    "marginsLTRBAt16px": [
+      361,
+      117,
+      364,
+      118
+    ],
+    "alpha128BoundsLTRB": [
+      362,
+      118,
+      1078,
+      972
+    ],
+    "marginsLTRBAt128px": [
+      362,
+      118,
+      365,
+      118
+    ],
+    "proofs": {
+      "light": "proofs/layout-candidates-80px/pose-02-light.png",
+      "dark": "proofs/layout-candidates-80px/pose-02-dark.png"
+    },
+    "status": "selected layout candidate pending final atlas review; not atlas-accepted or packed"
+  }
+}

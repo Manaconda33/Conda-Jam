@@ -1,0 +1,34 @@
+{
+  "athlete": "Piper Quickstep",
+  "athleteId": "J.122",
+  "clip": "dunk-scythe",
+  "poseIndex": 7,
+  "attempt": "attempt2",
+  "generationId": "exec-154ccb14-253d-41f3-b68e-dea0a95572d4",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose7-attempt2-prompt.md",
+  "promptSha256": "35d6c3b80e9c26f0dcbfd27aed38ce7fa1faf03d30b5db5344bbe26d621287f6",
+  "promptVerbatim": true,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose07-attempt2.png",
+  "rawSourceSha256": "4ebff0f9932c696d579f7dee8ea90484dfc906f78fcf471b00f7ecbc76697a65",
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "J.105 Keeg pose-movement ref when named in verbatim prompt"
+  ],
+  "status": "rejected",
+  "reviewDisposition": "Single Piper; right hand stays gathered at collar/shoulder rather than crossing chest diagonally. Detached alpha speckles and raw margins below 40px.",
+  "ballPolicy": "Athlete-only image; ball is separately animated. No ball appears in accepted candidates.",
+  "rawCanvas": {
+    "width": 1374,
+    "height": 1145,
+    "alphaBBox": [
+      35,
+      19,
+      1334,
+      1127
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  }
+}

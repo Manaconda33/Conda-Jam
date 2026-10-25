@@ -1,0 +1,21 @@
+{
+  "reviewer": "independent source reviewer (poses10-14 lane)",
+  "scope": "Pose09 attempt6 component-clean source uniformly scaled to 90% and centered on original 1024x1536 transparent canvas; checked action, identity, anatomy, no-ball, alpha, and prompt margins.",
+  "status": "PASS as isolated source candidate; atlas assembly is unreviewed.",
+  "candidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/sources/pose09-attempt6-components-clean-scaled90.png",
+  "lightProof": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose09-attempt6-scaled90-light.png",
+  "darkProof": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose09-attempt6-scaled90-dark.png",
+  "marginsAlphaGt128LTRBpx": [
+    165,
+    131,
+    91,
+    214
+  ],
+  "minimumMarginAlphaGt128px": 91,
+  "promptMinimumMarginPx": 80,
+  "beat": "PASS: high apex pre-release carry; fingers closed around invisible ball; distinct from pose08 and pose10 release.",
+  "identityAnatomy": "PASS: Piper identity, face/hair, uniform, adult proportions and complete limbs/shoes remain intact after uniform scale.",
+  "noBall": "PASS: no drawn basketball, props or weapon.",
+  "alphaArtifacts": "PASS: no opaque backdrop, detached specks, fringe, or clipped edges; resize introduced no lost edges.",
+  "layout": "PASS: uniform layout gives >=80px prompt margin on all edges."
+}

@@ -1,0 +1,31 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "pose": 9,
+  "attempt": 6,
+  "reviewer": "independent source reviewer (poses 10\u201314 lane)",
+  "reviewedAt": "2026-10-25T13:35:00Z",
+  "generationId": "exec-677024dd-6c34-43af-bea3-9d235cf1ce55",
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09-attempt6.png",
+  "rawSourceSha256": "7b5a15825e4661b9ba405c34cee545a4b51efeabbc2983623bc87a9cfa8a2d24",
+  "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/sources/pose09-attempt6-components-clean.png",
+  "cleanedSourceSha256": "1fb3e2529d8e7da2c4bf4f4e6892fd4827c1ac12641b7d3271318f1390c296f1",
+  "proofs": [
+    "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose09-attempt6-components-clean-light.png",
+    "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/previews/pose09-attempt6-components-clean-dark.png"
+  ],
+  "checks": {
+    "beat": "PASS: airborne high-apex pre-release carry, with raised finishing arm and counterbalancing left arm.",
+    "grip": "PASS: raised hand forms a closed curled carry grip around empty air; it does not read as an open release. Pose10 remains the sole release.",
+    "noBall": "PASS: no ball or prop appears; the hands are empty except for the deliberate invisible-air carry shape.",
+    "identityAnatomy": "PASS: Piper\u2019s warm-brown skin, orange high ponytail, russet-red/cream blank kit, face, athletic human proportions, two arms/hands, two legs/feet are intact.",
+    "style": "PASS: illustrated outlined shading is consistent with established Piper source style.",
+    "alphaCleanup": "PASS: cleaned light/dark proofs show no obvious detached exterior specks or halo; no hair, contour, hand, limb, shoe or garment detail appears lost.",
+    "transparency": "PASS: cleaned RGBA retains transparent exterior.",
+    "margins40px": "PASS: cleaned alpha>128 bbox margins L/T/R/B = [127,60,44,152], minimum 44px.",
+    "promptMargin80px": "FAIL: prompt asks for at least 80px clearance; right margin is 44px. Although it clears the requested 40px minimum and source is whole, flag this for uniform downscale/re-layout before any assembly."
+  },
+  "verdict": "POSE_AND_IDENTITY_PASS; LAYOUT_CONDITION_REQUIRED",
+  "reason": "Pose and figure are usable and meet the explicit >=40px check, but the raw isolated canvas does not meet its verbatim prompt\u2019s >=80px clearance on the right. Do not treat as fully prompt-compliant or eligible for assembly without a recorded uniform scale/re-layout.",
+  "assembly": "Not performed; independent review only."
+}

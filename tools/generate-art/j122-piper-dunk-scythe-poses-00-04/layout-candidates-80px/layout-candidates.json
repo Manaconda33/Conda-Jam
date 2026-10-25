@@ -1,0 +1,285 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "poses": [
+    {
+      "pose": 0,
+      "input": "cleaned/pose-00-cleaned-v1.png",
+      "inputSha256": "8c9ed4b5af0785589b60a4d4327c2bce214350eafe9a87126508104e1b2b8d24",
+      "candidate": "layout-candidates-80px/pose-00-layout90-v1.png",
+      "candidateSha256": "4935a93c7e491a6315418d748c981c00ac33ebd78ecf00bc4d19dcc89e0776db",
+      "originalCanvasPx": [
+        1254,
+        1254
+      ],
+      "uniformScale": 0.9,
+      "scaledNonzeroCropPx": [
+        866,
+        911
+      ],
+      "sourceNonzeroCropBoxLTRB": [
+        179,
+        161,
+        1141,
+        1173
+      ],
+      "candidatePlacementXY": [
+        194,
+        171
+      ],
+      "alpha16BoundsLTRB": [
+        195,
+        171,
+        1058,
+        1080
+      ],
+      "marginsLTRBAt16px": [
+        195,
+        171,
+        196,
+        174
+      ],
+      "alpha128BoundsLTRB": [
+        196,
+        174,
+        1058,
+        1080
+      ],
+      "marginsLTRBAt128px": [
+        196,
+        174,
+        196,
+        174
+      ],
+      "proofs": {
+        "light": "proofs/layout-candidates-80px/pose-00-light.png",
+        "dark": "proofs/layout-candidates-80px/pose-00-dark.png"
+      },
+      "status": "layout candidate only; not accepted or packed"
+    },
+    {
+      "pose": 1,
+      "input": "cleaned/pose-01-cleaned-v1.png",
+      "inputSha256": "3848c0bc0f0cde5ac037d633ce7b527be2dd753c2fb4c75726b232dce43e7653",
+      "candidate": "layout-candidates-80px/pose-01-layout90-v1.png",
+      "candidateSha256": "3eb756ffb9f38384fd9c128bb048bbf14e6955262c860dc57a7e16ae862df534",
+      "originalCanvasPx": [
+        1312,
+        1199
+      ],
+      "uniformScale": 0.9,
+      "scaledNonzeroCropPx": [
+        768,
+        929
+      ],
+      "sourceNonzeroCropBoxLTRB": [
+        239,
+        104,
+        1092,
+        1136
+      ],
+      "candidatePlacementXY": [
+        272,
+        135
+      ],
+      "alpha16BoundsLTRB": [
+        274,
+        137,
+        1038,
+        1063
+      ],
+      "marginsLTRBAt16px": [
+        274,
+        137,
+        274,
+        136
+      ],
+      "alpha128BoundsLTRB": [
+        275,
+        137,
+        1037,
+        1062
+      ],
+      "marginsLTRBAt128px": [
+        275,
+        137,
+        275,
+        137
+      ],
+      "proofs": {
+        "light": "proofs/layout-candidates-80px/pose-01-light.png",
+        "dark": "proofs/layout-candidates-80px/pose-01-dark.png"
+      },
+      "status": "layout candidate only; not accepted or packed"
+    },
+    {
+      "pose": 2,
+      "input": "cleaned/pose-02-cleaned-v1.png",
+      "inputSha256": "1c537a5f30e53eebddfa09ee5d3923edf926598c1c6ecabd8eb56e76ff19c369",
+      "candidate": "layout-candidates-80px/pose-02-layout90-v1.png",
+      "candidateSha256": "5295474ffa8142b52af8d2dfd1886f47527223a8d7863de75a31e6d2cfa9914f",
+      "originalCanvasPx": [
+        1443,
+        1090
+      ],
+      "uniformScale": 0.9,
+      "scaledNonzeroCropPx": [
+        720,
+        858
+      ],
+      "sourceNonzeroCropBoxLTRB": [
+        385,
+        91,
+        1184,
+        1044
+      ],
+      "candidatePlacementXY": [
+        361,
+        116
+      ],
+      "alpha16BoundsLTRB": [
+        361,
+        117,
+        1079,
+        972
+      ],
+      "marginsLTRBAt16px": [
+        361,
+        117,
+        364,
+        118
+      ],
+      "alpha128BoundsLTRB": [
+        362,
+        118,
+        1078,
+        972
+      ],
+      "marginsLTRBAt128px": [
+        362,
+        118,
+        365,
+        118
+      ],
+      "proofs": {
+        "light": "proofs/layout-candidates-80px/pose-02-light.png",
+        "dark": "proofs/layout-candidates-80px/pose-02-dark.png"
+      },
+      "status": "layout candidate only; not accepted or packed"
+    },
+    {
+      "pose": 3,
+      "input": "cleaned/pose-03-cleaned-v1.png",
+      "inputSha256": "c7136f9b68e45b8bc69f00f19eeec94bf4a0d57a797b9f72060b0fecff1cbe16",
+      "candidate": "layout-candidates-80px/pose-03-layout90-v1.png",
+      "candidateSha256": "f5bbe898bee655ab5c2255c2895fb59704f2e0f6462340c1e45f6886ec00e6fd",
+      "originalCanvasPx": [
+        1313,
+        1198
+      ],
+      "uniformScale": 0.9,
+      "scaledNonzeroCropPx": [
+        887,
+        930
+      ],
+      "sourceNonzeroCropBoxLTRB": [
+        216,
+        111,
+        1201,
+        1144
+      ],
+      "candidatePlacementXY": [
+        213,
+        134
+      ],
+      "alpha16BoundsLTRB": [
+        214,
+        135,
+        1098,
+        1062
+      ],
+      "marginsLTRBAt16px": [
+        214,
+        135,
+        215,
+        136
+      ],
+      "alpha128BoundsLTRB": [
+        215,
+        136,
+        1097,
+        1061
+      ],
+      "marginsLTRBAt128px": [
+        215,
+        136,
+        216,
+        137
+      ],
+      "proofs": {
+        "light": "proofs/layout-candidates-80px/pose-03-light.png",
+        "dark": "proofs/layout-candidates-80px/pose-03-dark.png"
+      },
+      "status": "layout candidate only; not accepted or packed"
+    },
+    {
+      "pose": 4,
+      "input": "cleaned/pose-04-cleaned-v1.png",
+      "inputSha256": "bc35bd9a2f90096d33e2d2c5a823f28a2831399a5ebae03afa1d34218baab032",
+      "candidate": "layout-candidates-80px/pose-04-layout90-v1.png",
+      "candidateSha256": "177145a2ff05ff8f5e0be780590d8544ea5545e84b48624c4960f7f35845651b",
+      "originalCanvasPx": [
+        1362,
+        1155
+      ],
+      "uniformScale": 0.9,
+      "scaledNonzeroCropPx": [
+        829,
+        899
+      ],
+      "sourceNonzeroCropBoxLTRB": [
+        269,
+        71,
+        1190,
+        1069
+      ],
+      "candidatePlacementXY": [
+        266,
+        128
+      ],
+      "alpha16BoundsLTRB": [
+        267,
+        129,
+        1094,
+        1025
+      ],
+      "marginsLTRBAt16px": [
+        267,
+        129,
+        268,
+        130
+      ],
+      "alpha128BoundsLTRB": [
+        268,
+        130,
+        1093,
+        1024
+      ],
+      "marginsLTRBAt128px": [
+        268,
+        130,
+        269,
+        131
+      ],
+      "proofs": {
+        "light": "proofs/layout-candidates-80px/pose-04-light.png",
+        "dark": "proofs/layout-candidates-80px/pose-04-dark.png"
+      },
+      "status": "layout candidate only; not accepted or packed"
+    }
+  ],
+  "purpose": "uniformly downscaled, centered layout candidates on original canvas, targeting >=80px alpha16 margins",
+  "transform": "uniform 0.90 scale on both axes using premultiplied-alpha Lanczos affine resampling; alpha-nonzero source crop centered on original canvas",
+  "sourcePixels": "accepted cleaned sources preserved unchanged under ../cleaned/",
+  "status": "selected layout candidates pending final atlas review; not atlas-accepted or packed"
+}

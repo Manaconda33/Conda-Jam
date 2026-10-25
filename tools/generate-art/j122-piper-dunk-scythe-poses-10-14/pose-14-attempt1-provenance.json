@@ -1,0 +1,110 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "pose": 14,
+  "attempt": 1,
+  "source": "imagegen",
+  "generationId": "exec-5bf4928b-e7e1-4fbe-afef-eab1867414f3",
+  "generatedAtNote": "Exact UTC timestamp unavailable; generator saved the file at the corresponding call time.",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/pose-14-prompt.md",
+  "promptSha256": "537edaed379b73814fb4d26be1b872db20684738f3e738a20e617e067dab00ea",
+  "promptVerbatim": true,
+  "referenceFiles": [
+    "reference path: J105 Keeg pose14",
+    "Piper J120 and J121 identity sheets"
+  ],
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-14-attempt1.png",
+  "rawSourceSha256": "5507ed23ee992e61df9bdc2165a77086a2f05c307d7f0a7f26b6afcdfe0ce0de",
+  "rawSourceSize": [
+    1254,
+    1254
+  ],
+  "rawSourceMode": "RGBA",
+  "layoutFile": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/pose-14-attempt1-layout.json",
+  "proofFiles": [
+    "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/proofs/pose-14-attempt1-light.png",
+    "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/proofs/pose-14-attempt1-dark.png"
+  ],
+  "layoutMeasurement": {
+    "pose": 14,
+    "attempt": 1,
+    "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-14-attempt1.png",
+    "rawSourceSha256": "5507ed23ee992e61df9bdc2165a77086a2f05c307d7f0a7f26b6afcdfe0ce0de",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaThreshold": 128,
+    "alphaBoundingBox": [
+      323,
+      145,
+      623,
+      986
+    ],
+    "marginsLTRBpx": [
+      323,
+      145,
+      308,
+      123
+    ],
+    "minimumMarginPx": 123,
+    "alphaZeroFraction": 0.801381,
+    "measurementNote": "Transparent single-pose source; bbox/margins measured at alpha>128, detached low-alpha speckles remain visible in compositing proofs."
+  },
+  "sourceReview": {
+    "status": "independently-reviewed-clean-source-candidate-accepted",
+    "reviewFile": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/post-clean-independent-review.json",
+    "reviewer": "independent agent j122_poses_10_14_review",
+    "reviewedAt": "2026-10-25T13:33:36Z",
+    "notes": "Cleaned light/dark proofs pass. Piper identity/anatomy/action, empty-hand/no-ball requirement, transparent alpha, and >=40px margin pass. Cleanup removed visible detached exterior speckles only; no figure details appear erased. This is an isolated source candidate only; sheet assembly/packing was not performed."
+  },
+  "eligibleForAssembly": false,
+  "cleanup": {
+    "pose": 14,
+    "attempt": 1,
+    "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-14-attempt1.png",
+    "rawSourceSha256": "5507ed23ee992e61df9bdc2165a77086a2f05c307d7f0a7f26b6afcdfe0ce0de",
+    "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-14-attempt1-components-clean.png",
+    "cleanedSourceSha256": "e2728c0d2e491083c841612b886427c05286d2327cb5a947115acc5259e4d8b3",
+    "size": [
+      1254,
+      1254
+    ],
+    "componentConnectivity": "8-connected",
+    "componentThresholdAlphaGreaterThan": 64,
+    "componentsBeforeCleanup": 1,
+    "retainedComponentLabel": 1,
+    "retainedCorePixelCountAlphaGt64": 292332,
+    "antialiasHalo": "Preserve all source alpha within 2 pixels (8-connectivity dilation) of the retained alpha>64 core.",
+    "nonzeroAlphaPixelsBefore": 312332,
+    "nonzeroAlphaPixelsAfter": 304835,
+    "clearedNonzeroAlphaPixels": 7497,
+    "cleanup": "Preserve source RGB and alpha within the 2-pixel 8-connected dilation of the largest 8-connected alpha>64 core; set alpha=0 everywhere else. This removes detached exterior speckles/fringe while preserving a narrow antialias halo; no figure pixels were synthesized or recolored. Original raw source retained unchanged.",
+    "proofFiles": [
+      "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/proofs/pose-14-attempt1-components-clean-light.png",
+      "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/proofs/pose-14-attempt1-components-clean-dark.png"
+    ],
+    "alphaThreshold": 128,
+    "alphaBoundingBox": [
+      323,
+      145,
+      946,
+      1131
+    ],
+    "marginsLTRBpx": [
+      323,
+      145,
+      308,
+      123
+    ],
+    "minimumMarginPx": 123,
+    "alphaZeroFraction": 0.806148
+  },
+  "ball": "No ball is drawn; ball must remain on separate athlete-specific track.",
+  "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-14-attempt1-components-clean.png",
+  "cleanedSourceSha256": "e2728c0d2e491083c841612b886427c05286d2327cb5a947115acc5259e4d8b3",
+  "cleanedProofFiles": [
+    "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/proofs/pose-14-attempt1-components-clean-light.png",
+    "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/proofs/pose-14-attempt1-components-clean-dark.png"
+  ]
+}

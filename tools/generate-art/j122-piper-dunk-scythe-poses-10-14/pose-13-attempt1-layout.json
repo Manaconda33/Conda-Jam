@@ -1,0 +1,26 @@
+{
+  "pose": 13,
+  "attempt": 1,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-13-attempt1.png",
+  "rawSourceSha256": "c653fcd43b24e0e7f91b132455c353ba1b8fcafde2e64a042013014b037a6481",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaThreshold": 128,
+  "alphaBoundingBox": [
+    29,
+    14,
+    1501,
+    992
+  ],
+  "marginsLTRBpx": [
+    29,
+    14,
+    6,
+    18
+  ],
+  "minimumMarginPx": 6,
+  "alphaZeroFraction": 0.702716,
+  "measurementNote": "Transparent single-pose source; bbox/margins measured at alpha>128, detached low-alpha speckles remain visible in compositing proofs."
+}

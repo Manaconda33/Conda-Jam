@@ -1,0 +1,22 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "pose": 9,
+  "attempt": 4,
+  "source": "imagegen",
+  "generationId": "exec-ab0a6d66-b05d-4afd-ba59-cb30edc8ab36",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt4-prompt.md",
+  "promptVerbatim": true,
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt6-clean.png",
+    "public/assets/animation/keeg-dunk-scythe-right.webp"
+  ],
+  "c2paIdentifier": "urn:c2pa:9bc77ee4-65ae-456f-a88a-7a5a0d6698c1",
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09-attempt4.png",
+  "rawSourceSha256": "8203365964578624cfdb696d8bd7eea10edef94a6b0d320a528855952e17ba15",
+  "rawSourceSize": [1536, 1024],
+  "rawSourceMode": "RGBA",
+  "status": "rejected",
+  "reason": "Pose and Piper identity are plausible, but the generated brown/black backdrop and glow are connected across most of the canvas; transparency fails. Imagegen cleanup retry 5 retained a similar backdrop.",
+  "cleanup": "No cleanup was attempted. Original generated source is preserved."
+}

@@ -1,0 +1,35 @@
+{
+  "athlete": "Piper Quickstep",
+  "athleteId": "J.122",
+  "clip": "dunk-scythe",
+  "poseIndex": 7,
+  "attempt": "attempt3",
+  "generationId": "exec-61683cdc-3f66-41a1-b518-409320c0ffec",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose7-attempt3-prompt.md",
+  "promptSha256": "a5db712619c905e2efe4980e00caaf13e715443aea6ca0285b28b15cbd546dc2",
+  "promptVerbatim": true,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose07-attempt3.png",
+  "rawSourceSha256": "901647c0e3392db6d8b03f558f1843e0f0452ee0db5d1334785cf1e6aa9d0f28",
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "J.105 Keeg pose-movement ref when named in verbatim prompt"
+  ],
+  "status": "rejected",
+  "reviewDisposition": "Diagonal chest carry is readable, but a shoe is clipped at the raw canvas bottom; cannot restore missing pixels by scaling.",
+  "ballPolicy": "Athlete-only image; ball is separately animated. No ball appears in accepted candidates.",
+  "rawCanvas": {
+    "width": 1168,
+    "height": 1347,
+    "alphaBBox": [
+      0,
+      29,
+      1154,
+      1347
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "independentStatus": "not-requested; rejected for clipped shoe"
+}

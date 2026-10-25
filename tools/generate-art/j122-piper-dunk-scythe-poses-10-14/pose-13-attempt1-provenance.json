@@ -1,0 +1,61 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "pose": 13,
+  "attempt": 1,
+  "source": "imagegen",
+  "generationId": "exec-29bc59b3-f728-4bf7-9101-b488c4b45a10",
+  "generatedAtNote": "Exact UTC timestamp unavailable; generator saved the file at the corresponding call time.",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/pose-13-prompt.md",
+  "promptSha256": "59b98429dfec0a6ba8d551e168065f9a683c9c2a92205c467e359a1481540f9c",
+  "promptVerbatim": true,
+  "referenceFiles": [
+    "reference path: J105 Keeg pose13",
+    "Piper J120 and J121 identity sheets"
+  ],
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-13-attempt1.png",
+  "rawSourceSha256": "c653fcd43b24e0e7f91b132455c353ba1b8fcafde2e64a042013014b037a6481",
+  "rawSourceSize": [
+    1536,
+    1024
+  ],
+  "rawSourceMode": "RGBA",
+  "layoutFile": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/pose-13-attempt1-layout.json",
+  "proofFiles": [
+    "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/proofs/pose-13-attempt1-light.png",
+    "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/proofs/pose-13-attempt1-dark.png"
+  ],
+  "layoutMeasurement": {
+    "pose": 13,
+    "attempt": 1,
+    "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-13-attempt1.png",
+    "rawSourceSha256": "c653fcd43b24e0e7f91b132455c353ba1b8fcafde2e64a042013014b037a6481",
+    "size": [
+      1536,
+      1024
+    ],
+    "alphaThreshold": 128,
+    "alphaBoundingBox": [
+      29,
+      14,
+      1501,
+      992
+    ],
+    "marginsLTRBpx": [
+      29,
+      14,
+      6,
+      18
+    ],
+    "minimumMarginPx": 6,
+    "alphaZeroFraction": 0.702716,
+    "measurementNote": "Transparent single-pose source; bbox/margins measured at alpha>128, detached low-alpha speckles remain visible in compositing proofs."
+  },
+  "sourceReview": {
+    "status": "rejected-wrong-athlete-and-layout",
+    "notes": "Image is Keeg full-sheet output, not an isolated Piper pose. Preserve raw candidate and proofs for provenance; never use in J122."
+  },
+  "eligibleForAssembly": false,
+  "cleanup": null,
+  "ball": "No ball is drawn; separate Piper track review is pending."
+}

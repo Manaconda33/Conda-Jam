@@ -1,0 +1,21 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "pose": 9,
+  "attempt": 5,
+  "source": "imagegen-edit",
+  "generationId": "exec-ba254bed-8ad5-42d0-a31a-f9245c5a986d",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt5-prompt.md",
+  "promptVerbatim": true,
+  "referenceFiles": [
+    "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09-attempt4.png"
+  ],
+  "c2paIdentifier": "urn:c2pa:ad0ba0cc-8f08-448a-b2b6-d3e7df220acf",
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09-attempt5.png",
+  "rawSourceSha256": "069baaf3a4e07f7282ad1c58b83f49987cf68d13697528e0014a5044c6a8c381",
+  "rawSourceSize": [1536, 1024],
+  "rawSourceMode": "RGBA",
+  "status": "rejected",
+  "reason": "Transparent-background edit left a broad brown/black backdrop and glow. It also redrew hair and facial details, so it cannot be used as exact cleanup of attempt 4.",
+  "cleanup": "Rejected without further cleanup. Original attempt 4 and this edited candidate remain preserved."
+}

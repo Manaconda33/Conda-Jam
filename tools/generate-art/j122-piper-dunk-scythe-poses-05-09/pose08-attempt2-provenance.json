@@ -1,0 +1,50 @@
+{
+  "athlete": "Piper Quickstep",
+  "athleteId": "J.122",
+  "clip": "dunk-scythe",
+  "poseIndex": 8,
+  "attempt": "attempt2",
+  "generationId": "exec-3de7db96-bdad-429a-a778-914996289a50",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose8-attempt2-prompt.md",
+  "promptSha256": "c4b04cdb395f65d91928f2337a68859626f914bb88639cc22df2f4f696573dea",
+  "promptVerbatim": true,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose08-attempt2.png",
+  "rawSourceSha256": "21578decd738264b716171139b02f0a510c52121b55701af7fc693e67d0a41bb",
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "J.105 Keeg pose-movement ref when named in verbatim prompt"
+  ],
+  "status": "accepted-source-candidate-after-independent-review",
+  "reviewDisposition": "Single Piper, rising high above right shoulder while fingers hold curled carry shape; no ball. Raw detached speckles/low margins removed by component cleanup and uniform scaling to >=64px margins.",
+  "ballPolicy": "Athlete-only image; ball is separately animated. No ball appears in accepted candidates.",
+  "rawCanvas": {
+    "width": 1295,
+    "height": 1215,
+    "alphaBBox": [
+      60,
+      7,
+      1281,
+      1166
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "cleanedCandidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose08-pose08-attempt2-scaled.png",
+  "cleanupCanvas": {
+    "width": 1536,
+    "height": 1024,
+    "alphaBBox": [
+      511,
+      112,
+      1081,
+      898
+    ],
+    "method": "Connected components of alpha>=8: preserve largest component and one-pixel dilation; uniformly scale to fit 896x896 then center in 1536x1024 transparent canvas."
+  },
+  "eligibleForPacking": false,
+  "independentReview": "PASS; see pose05-08-independent-review.json",
+  "selectedCandidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose08-pose08-attempt2-scaled.png",
+  "minimumMarginAlphaGt128Px": 115
+}

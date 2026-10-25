@@ -1,0 +1,52 @@
+{
+  "athlete": "Piper Quickstep",
+  "athleteId": "J.122",
+  "clip": "dunk-scythe",
+  "poseIndex": 7,
+  "attempt": "attempt5",
+  "generationId": "exec-103632fe-d304-4a0a-8721-64e2573c571d",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose7-attempt5-prompt.md",
+  "promptSha256": "b9dca7ae99d2c9d0bda874272408c638396d9011f29e481f01adb0d2616a72f2",
+  "promptVerbatim": true,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose07-attempt5.png",
+  "rawSourceSha256": "c11785175a5e8c0e82f86e22361a0d2389408c0a68edb9935578cbc7d5bac07a",
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "J.105 Keeg pose-movement ref when named in verbatim prompt"
+  ],
+  "status": "accepted-source-candidate-after-independent-review",
+  "reviewDisposition": "Single Piper, hand curled in carry grip over chest; diagonal transition sits between pose06 and pose08; no ball. Main silhouette fits canvas; alpha cleanup removed detached components and uniform scaling created >=64px margins.",
+  "ballPolicy": "Athlete-only image; ball is separately animated. No ball appears in accepted candidates.",
+  "rawCanvas": {
+    "width": 1323,
+    "height": 1189,
+    "alphaBBox": [
+      33,
+      19,
+      1305,
+      1189
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "cleanedCandidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/cleaned/pose07-attempt5-scaled.png",
+  "cleanupCanvas": {
+    "width": 1536,
+    "height": 1024,
+    "alphaBBox": [
+      541,
+      225,
+      1106,
+      824
+    ],
+    "method": "Preserve largest alpha>=8 component and one-pixel dilation; uniformly scale to fit 896x896 and center on 1536x1024 transparent canvas."
+  },
+  "eligibleForPacking": false,
+  "independentReview": "PASS; see pose05-08-independent-review.json",
+  "selectedCandidate": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose07-attempt5.png",
+  "minimumMarginAlphaGt128Px": 138,
+  "candidateNote": "Independent review approved source action/identity; scaled proof is an additional margin-safe review candidate.",
+  "independentReviewFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose05-08-independent-review.json"
+}

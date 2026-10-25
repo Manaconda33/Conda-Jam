@@ -1,0 +1,205 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-scythe",
+  "group": "poses00-04",
+  "attempt": 1,
+  "poses": [
+    {
+      "pose": 0,
+      "generationId": "exec-c6727d52-9e41-432e-bbb9-773a4b1ec15d",
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-00-attempt1.png",
+      "sha256": "6f5130192c3ef1719b92cb773125ec4b1503403d82f7c70da1bd8b0ceac17918",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaBounds16": [
+        180,
+        161,
+        1139,
+        1171
+      ],
+      "margins16": [
+        180,
+        161,
+        115,
+        83
+      ],
+      "components16": 5,
+      "largestComponents": [
+        335569,
+        2,
+        2,
+        1,
+        1
+      ],
+      "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/cleaned/pose-00-cleaned-v1.png",
+      "cleanedSha256": "8c9ed4b5af0785589b60a4d4327c2bce214350eafe9a87126508104e1b2b8d24",
+      "cleanedMarginsLTRBAt16px": [
+        180,
+        161,
+        115,
+        83
+      ],
+      "alphaCleanupPixels": {
+        "detached": 15598,
+        "redFringe": 511
+      }
+    },
+    {
+      "pose": 1,
+      "generationId": "exec-4851ccdb-2ff1-4eb7-9af5-d581bdb1f1e2",
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-01-attempt1.png",
+      "sha256": "7416211f2c89c4f9c4ce8c9da46c7ca1c914f91cd5402d1733de8dc00b3752c0",
+      "size": [
+        1312,
+        1199
+      ],
+      "alphaBounds16": [
+        241,
+        106,
+        1090,
+        1135
+      ],
+      "margins16": [
+        241,
+        106,
+        222,
+        64
+      ],
+      "components16": 2,
+      "largestComponents": [
+        359525,
+        3
+      ],
+      "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/cleaned/pose-01-cleaned-v1.png",
+      "cleanedSha256": "3848c0bc0f0cde5ac037d633ce7b527be2dd753c2fb4c75726b232dce43e7653",
+      "cleanedMarginsLTRBAt16px": [
+        241,
+        106,
+        222,
+        64
+      ],
+      "alphaCleanupPixels": {
+        "detached": 13494,
+        "redFringe": 878
+      }
+    },
+    {
+      "pose": 2,
+      "generationId": "exec-6cc75863-bec7-41e2-be06-9a8659103c39",
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-02-attempt1.png",
+      "sha256": "bcd8cfab7f5c0a5181334a97682cd304a0c31014808f46195412b09cc233235b",
+      "size": [
+        1443,
+        1090
+      ],
+      "alphaBounds16": [
+        385,
+        93,
+        1182,
+        1042
+      ],
+      "margins16": [
+        385,
+        93,
+        261,
+        48
+      ],
+      "components16": 1,
+      "largestComponents": [
+        343503
+      ],
+      "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/cleaned/pose-02-cleaned-v1.png",
+      "cleanedSha256": "1c537a5f30e53eebddfa09ee5d3923edf926598c1c6ecabd8eb56e76ff19c369",
+      "cleanedMarginsLTRBAt16px": [
+        385,
+        93,
+        261,
+        48
+      ],
+      "alphaCleanupPixels": {
+        "detached": 13880,
+        "redFringe": 373
+      }
+    },
+    {
+      "pose": 3,
+      "generationId": "exec-7045c6af-49fa-4dbd-be67-da922cb1f7f9",
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-03-attempt1.png",
+      "sha256": "f0f26c145a8b1682653954eedc2997ae2128cddb28616d36cff6feeda5b2a072",
+      "size": [
+        1313,
+        1198
+      ],
+      "alphaBounds16": [
+        218,
+        113,
+        1199,
+        1142
+      ],
+      "margins16": [
+        218,
+        113,
+        114,
+        56
+      ],
+      "components16": 2,
+      "largestComponents": [
+        375387,
+        1
+      ],
+      "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/cleaned/pose-03-cleaned-v1.png",
+      "cleanedSha256": "c7136f9b68e45b8bc69f00f19eeec94bf4a0d57a797b9f72060b0fecff1cbe16",
+      "cleanedMarginsLTRBAt16px": [
+        218,
+        113,
+        114,
+        56
+      ],
+      "alphaCleanupPixels": {
+        "detached": 24148,
+        "redFringe": 479
+      }
+    },
+    {
+      "pose": 4,
+      "generationId": "exec-2825a6a0-9b0b-444a-a5de-9e3d9c1bf0f8",
+      "source": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/sources/pose-04-attempt1.png",
+      "sha256": "5b537ce8df1c399385396f5dce96d33be261e6d006425af2db8d92846a0c1374",
+      "size": [
+        1362,
+        1155
+      ],
+      "alphaBounds16": [
+        270,
+        72,
+        1189,
+        1067
+      ],
+      "margins16": [
+        270,
+        72,
+        173,
+        88
+      ],
+      "components16": 1,
+      "largestComponents": [
+        342618
+      ],
+      "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-00-04/cleaned/pose-04-cleaned-v1.png",
+      "cleanedSha256": "bc35bd9a2f90096d33e2d2c5a823f28a2831399a5ebae03afa1d34218baab032",
+      "cleanedMarginsLTRBAt16px": [
+        270,
+        72,
+        173,
+        88
+      ],
+      "alphaCleanupPixels": {
+        "detached": 17868,
+        "redFringe": 485
+      }
+    }
+  ],
+  "status": "poses00-04 cleaned and independently accepted as isolated sources; pose04 canonical wording correction recorded; no atlas/packing"
+}

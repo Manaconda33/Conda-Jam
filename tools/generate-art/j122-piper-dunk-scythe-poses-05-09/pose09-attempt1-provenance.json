@@ -1,0 +1,34 @@
+{
+  "athlete": "Piper Quickstep",
+  "athleteId": "J.122",
+  "clip": "dunk-scythe",
+  "poseIndex": 9,
+  "attempt": "attempt1",
+  "generationId": "exec-d89444ee-8c7a-4213-93ab-5b1486439979",
+  "promptFile": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/pose9-attempt1-prompt.md",
+  "promptSha256": "598d4e8e01f6498afd4e9f65ebf5281ffcec4e11bdd0d5cef283b4713afd3cee",
+  "promptVerbatim": true,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-05-09/raw/pose09.png",
+  "rawSourceSha256": "d43d28b520a49d9cd56ccbbc0d7809df9e16a1d88c7dbefcb9b4e8e3bc5206da",
+  "references": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "J.105 Keeg pose-movement ref when named in verbatim prompt"
+  ],
+  "status": "rejected",
+  "reviewDisposition": "Keeg multi-pose sheet and visible ball(s); wrong identity, non-isolated layout and violates separate ball track. Parent will make fresh Piper pose09 generation.",
+  "ballPolicy": "Athlete-only image; ball is separately animated. No ball appears in accepted candidates.",
+  "rawCanvas": {
+    "width": 1536,
+    "height": 1024,
+    "alphaBBox": [
+      0,
+      13,
+      1518,
+      1010
+    ],
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  }
+}

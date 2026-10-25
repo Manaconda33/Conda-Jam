@@ -1,0 +1,86 @@
+{
+  "pose": 11,
+  "attempt": 1,
+  "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-11-attempt1.png",
+  "rawSourceSha256": "18cf0d51dd01816ab84c07ce4bb9c27e034a18ba7356fe46ddee04f5c052f469",
+  "size": [
+    1254,
+    1254
+  ],
+  "alphaThreshold": 128,
+  "alphaBoundingBox": [
+    165,
+    171,
+    1009,
+    924
+  ],
+  "marginsLTRBpx": [
+    165,
+    171,
+    80,
+    159
+  ],
+  "minimumMarginPx": 80,
+  "alphaZeroFraction": 0.779373,
+  "measurementNote": "Cleaned-source bbox/margins measured at alpha>128; clean proofs show only the retained main connected figure component.",
+  "cleanupRecord": {
+    "pose": 11,
+    "attempt": 1,
+    "rawSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-11-attempt1.png",
+    "rawSourceSha256": "18cf0d51dd01816ab84c07ce4bb9c27e034a18ba7356fe46ddee04f5c052f469",
+    "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-11-attempt1-components-clean.png",
+    "cleanedSourceSha256": "1e3b13474d65f28a1509e9713d0335d59c64b5867c778507185b692721d8282a",
+    "size": [
+      1254,
+      1254
+    ],
+    "componentConnectivity": "8-connected",
+    "componentThresholdAlphaGreaterThan": 64,
+    "componentsBeforeCleanup": 1,
+    "retainedComponentLabel": 1,
+    "retainedCorePixelCountAlphaGt64": 324178,
+    "antialiasHalo": "Preserve all source alpha within 2 pixels (8-connectivity dilation) of the retained alpha>64 core.",
+    "nonzeroAlphaPixelsBefore": 346940,
+    "nonzeroAlphaPixelsAfter": 338141,
+    "clearedNonzeroAlphaPixels": 8799,
+    "cleanup": "Preserve source RGB and alpha within the 2-pixel 8-connected dilation of the largest 8-connected alpha>64 core; set alpha=0 everywhere else. This removes detached exterior speckles/fringe while preserving a narrow antialias halo; no figure pixels were synthesized or recolored. Original raw source retained unchanged.",
+    "proofFiles": [
+      "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/proofs/pose-11-attempt1-components-clean-light.png",
+      "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/proofs/pose-11-attempt1-components-clean-dark.png"
+    ],
+    "alphaThreshold": 128,
+    "alphaBoundingBox": [
+      165,
+      171,
+      1174,
+      1095
+    ],
+    "marginsLTRBpx": [
+      165,
+      171,
+      80,
+      159
+    ],
+    "minimumMarginPx": 80,
+    "alphaZeroFraction": 0.784968
+  },
+  "cleanedSource": "tools/generate-art/j122-piper-dunk-scythe-poses-10-14/sources/pose-11-attempt1-components-clean.png",
+  "cleanedSourceSha256": "1e3b13474d65f28a1509e9713d0335d59c64b5867c778507185b692721d8282a",
+  "cleanedMeasurement": {
+    "alphaThreshold": 128,
+    "alphaBoundingBox": [
+      165,
+      171,
+      1174,
+      1095
+    ],
+    "marginsLTRBpx": [
+      165,
+      171,
+      80,
+      159
+    ],
+    "minimumMarginPx": 80,
+    "alphaZeroFraction": 0.784968
+  }
+}
