@@ -4,7 +4,7 @@ Piper reaches19/29 reviewed clips /143 authored drawings with ten unique celebra
 
 Raw SHA-256 `9b3ea91a355752fa29ebbd623a8802b4ae970a52030c724b9cf5a4a6fe9ae18c`; accepted prompt-compliant 4×3 source SHA-256 `50a3b205f5553be1ca257bcaceddb218411e49f1a5b634257c526f4abd8e39b4`; atlas `public/assets/animation/piper-quickstep-celebrate-right.webp` SHA-256 `2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a`. Prompt, raw/clean sources, cleanup, all layouts/maps, rejected candidates, provenance and native previews are under Piper celebrate files.
 
-Validation passes36/36 JS test files, lint18 modules,35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes,55 atlas-packer tests and build; E2E exits before server readiness at `127.0.0.1:4175/`. Audit `2026-10-25T04:28:58.790Z` counts809 clips /7,286 drawings /105 athletes, 2,294 missing clips, one target shortfall and4 inherited findings. Next canonical action: Piper `dunk-power` (separate ball track still under calibration).
+Validation passes36/36 JS test files, lint18 modules,35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes,55 atlas-packer tests and build; E2E exits before server readiness at `127.0.0.1:4175/`. J.114 commit `24441dbe` is local; push again failed at the configured port8080 proxy, so no Pages workflow ran. Audit `2026-10-25T04:28:58.790Z` counts809 clips /7,286 drawings /105 athletes, 2,294 missing clips, one target shortfall and4 inherited findings. Next canonical action: Piper `dunk-power` (separate ball track still under calibration).
 
 ## J.113 — Piper Quickstep `fall` integrated locally
 
