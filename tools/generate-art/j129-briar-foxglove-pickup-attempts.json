@@ -1111,7 +1111,7 @@
         "provenance": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-normalized-candidate.json",
         "review": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-normalized-candidate-review.json",
         "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-normalized-light-dark-review.png",
-        "status": "pending-independent-review; not accepted or packed"
+        "status": "independently-reviewed-and-packed-for-atlas-review; production registration pending ball-track/native preview"
       }
     }
   ]

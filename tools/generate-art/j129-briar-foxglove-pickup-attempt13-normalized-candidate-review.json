@@ -123,7 +123,10 @@
     "decision": "Pending independent review; candidate is not accepted or packed."
   },
   "independentReview": {
-    "status": "pending"
+    "status": "approved for further atlas packing review; not production registration",
+    "notes": "Independent reviewer recomputed candidate SHA, alpha counts and all cells; exact match. Five distinct sources/generation IDs match provenance. 3x2 row-major; cell5 zero alpha; all frames at least136px margins; no intercell spill or ball; no visible haze/halo. In-memory reproduction of component isolation and placement matched candidate pixel-for-pixel. Pose order and Briar identity/anatomy approved."
   },
-  "packingAllowed": false
+  "packingAllowed": true,
+  "productionRegistrationAllowed": false,
+  "decision": "Accepted source for atlas packing review; production registration pending separate athlete-specific ball-track alignment and native captures."
 }

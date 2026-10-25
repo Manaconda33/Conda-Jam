@@ -2,7 +2,7 @@
   "issue": "J.129",
   "athlete": "briar-foxglove",
   "clip": "pickup",
-  "status": "review-candidate-only; not accepted or packed",
+  "status": "accepted-for-atlas-packing-review",
   "layout": "3 columns x 2 rows, 512x512 cells; five unique original generated pose cutouts in row-major cells0-4; cell5 empty",
   "generationIds": [
     "exec-2d00ce2c-f477-4851-a2be-7f403e0fb180",
@@ -279,8 +279,9 @@
   ],
   "ball": "Absent from every sprite; separate athlete-specific runtime track remains required.",
   "review": {
-    "status": "pending independent review",
-    "packingAllowed": false
+    "status": "accepted",
+    "reviewedAt": "2026-10-25T19:45:44Z",
+    "notes": "Parent visual review and independent source review confirm transparent exterior, 136px minimum cell margins, empty cell5, five unique row-major poses, Briar identity/anatomy and no ball. Accepted as input for atlas packing review. Production registration and athlete-specific ball-track alignment remain pending."
   },
   "reviewFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-normalized-candidate-review.json",
   "candidatePreview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-normalized-light-dark-review.png",
@@ -288,5 +289,12 @@
     "alpha0": 1464479,
     "alpha1to63": 8128,
     "alpha64plus": 100257
-  }
+  },
+  "direction": "right",
+  "sourceSha256": "8a43b2067d18b5cf158b74ace3804ce0c3d4d9371c29c1db86f1879aef96e95c",
+  "generatedAt": "2026-10-25T19:42:13Z",
+  "prompt": "Five pose-specific exact prompts are linked in each frame record and preserved under tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose*-prompt.md.",
+  "sourcePrompt": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-poses-review.json",
+  "eligibleForPacking": true,
+  "ballPolicy": "The pose source contains no basketball. Briar pickup requires a separate runtime ball track; ball-to-hand alignment is not yet reviewed."
 }
