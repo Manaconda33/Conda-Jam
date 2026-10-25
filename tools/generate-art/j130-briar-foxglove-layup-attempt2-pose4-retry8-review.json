@@ -4,13 +4,13 @@
   "frame": 4,
   "attempt": 2,
   "retry": 8,
-  "generationId": "exec-cb9af4ad-7f02-4b4f-b87e-71de8df5cd63",
+  "generationId": "unrecoverable",
   "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry8-raw.png",
   "sourceSha256": "0b131d05dc070055b960c85e0bfa5c12698a08e7e11bd1cd2f4a218b74248451",
   "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry8-prompt.md",
   "promptSha256": "2a82f787388ae3e8314f308b6435fb0d58add4c2f5d3986001f08c576664559c",
   "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry8-light-dark-review.png",
-  "decision": "reject; do not clean or assemble",
+  "decision": "reject; source attribution invalid; actual frame4 source unrecoverable; do not clean or assemble",
   "observations": {
     "identityAndAnatomy": "Briar is an adult human with locs, red headband and complete two-arm/two-leg anatomy.",
     "pose": "The figure is substantially larger than the requested 42% canvas-height composition. It is airborne to the right with the shooting palm up, but the opposite arm is extended far left instead of remaining low at mid-chest. Reject pose and framing.",
@@ -116,5 +116,8 @@
       "notes": "Strict raw alpha8 margin fails the requested 29%: the high-alpha bounds are [276,148,1007,1075] on 1254x1254, only 11.8% top and 14.3% bottom clearance. Nonzero alpha reaches the bottom border; large low-alpha fringe is visible in measured bounds."
     }
   },
-  "overall": "Reject: skin palette is too orange/bright, off-hand pose and overall framing miss the prompt, and raw alpha margins/residue fail. Preserve without cleanup or assembly."
+  "overall": "Reject. The image reviewed here is a misattributed duplicate of pose3 retry12, so it cannot substantiate frame4. The actual frame4 generation response ID and source path were not captured and are unrecoverable from the tool call context. Do not use as a frame4 candidate.",
+  "generationIdStatus": "The first ImageGen wrapper discarded response metadata, so the actual frame4 output ID cannot be recovered reliably. The previously recorded exec-cb9af4ad-7f02-4b4f-b87e-71de8df5cd63 belongs to J.130 frame3 retry12 and is invalid here.",
+  "provenanceLimitation": "The currently stored retry8 raw PNG was copied from the output mistakenly attributed to the frame4 call. Its pixels match J.130 frame3 retry12; it is not a valid frame4 source. The actual frame4 response image/path was not captured in the repository. Keep this record rejected and do not assemble.",
+  "sourceAttribution": "misattributed duplicate of tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry12-raw.png"
 }

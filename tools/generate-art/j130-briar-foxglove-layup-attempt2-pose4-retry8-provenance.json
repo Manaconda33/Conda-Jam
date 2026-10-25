@@ -5,7 +5,7 @@
   "attempt": 2,
   "frame": 4,
   "retry": 8,
-  "generationId": "exec-cb9af4ad-7f02-4b4f-b87e-71de8df5cd63",
+  "generationId": "unrecoverable",
   "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry8-raw.png",
   "sourceSha256": "0b131d05dc070055b960c85e0bfa5c12698a08e7e11bd1cd2f4a218b74248451",
   "dimensions": [
@@ -113,5 +113,8 @@
       ]
     }
   },
-  "assessment": "Rejected after visual review; source retained unchanged."
+  "assessment": "Rejected after visual review; source retained unchanged.",
+  "generationIdStatus": "The first ImageGen wrapper discarded response metadata, so the actual frame4 output ID cannot be recovered reliably. The previously recorded exec-cb9af4ad-7f02-4b4f-b87e-71de8df5cd63 belongs to J.130 frame3 retry12 and is invalid here.",
+  "provenanceLimitation": "The currently stored retry8 raw PNG was copied from the output mistakenly attributed to the frame4 call. Its pixels match J.130 frame3 retry12; it is not a valid frame4 source. The actual frame4 response image/path was not captured in the repository. Keep this record rejected and do not assemble.",
+  "sourceAttribution": "misattributed duplicate of tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry12-raw.png"
 }
