@@ -1,0 +1,9 @@
+{
+  "decision": "reject",
+  "frame": 3,
+  "retry": 10,
+  "generation_id": "exec-e201405b-7777-4833-bab2-48764990aa6d",
+  "observations": "Reject: palm-up hand has fingertips above red headband/crown rather than at/below headband top. Skin orange/light rather than deep reference brown, shoes predominantly russet rather than cream. High knee and folded trailing heel maintained; exactly two legs/two shoes, blank chest and bare wrists. Raw nonzero-alpha bounds fail 25% margins.",
+  "raw_alpha_margin_pass": false,
+  "sha256": "6c871d3ce357ad5a73589a9d8caf3a97c02336cf70e7214e7aa7c4eb7934a1c7"
+}

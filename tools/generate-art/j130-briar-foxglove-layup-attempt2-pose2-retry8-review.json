@@ -1,0 +1,9 @@
+{
+  "decision": "reject",
+  "frame": 2,
+  "retry": 8,
+  "generation_id": "exec-1a7b19ba-d3c3-44e6-9085-e6d290b149a3",
+  "observations": "Reject: skin remains orange/light, shoes russet-dominant, hand fingertips at nose/mouth height rather than entirely below mouth; figure too large. Bright red edge residue visible. Raised-knee lower-leg anatomy is awkward and largely dangling, although only two shoes are visible. Blank chest, bare wrists and empty hands. Raw nonzero-alpha bounds fail 25% margins.",
+  "raw_alpha_margin_pass": false,
+  "sha256": "a096832567dd657451b3d13e812c9405736c2d6b82b101d18b909537dfda71b8"
+}
