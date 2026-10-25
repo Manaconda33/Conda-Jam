@@ -4,6 +4,8 @@ Issue #3 remains in progress. The strict report-only audit at `2026-10-25T04:28:
 
 Piper `dunk-power` J.115 has an accepted, packed 15-pose source/atlas checkpoint but is not registered. Source and atlas reviews pass identity/anatomy, pose order, transparent margins and ball-free art. Native runtime review rejected the first separate-ball track because peak contact obscured Piper's face and gather/pre-release contact was unclear. Do not count J.115 until a Piper-specific track passes native review in both facings at100%/120%; candidate and diagnostic previews are under `tools/generate-art/piper-quickstep-dunk-power*`.
 
+Piper `dunk-windmill` J.116 has an accepted source/atlas checkpoint prepared in its own files, pending J.115's roster-order integration. Component-only cleanup removed raw orange/brown haze and restored at least28px transparent margins without redrawing or reordering the fifteen poses. Independent source/packed reviews accept identity, anatomy, windmill progression, transparency, cell separation and no-baked-ball art. Native track review is deferred until J.115 is integrated.
+
 
 
 

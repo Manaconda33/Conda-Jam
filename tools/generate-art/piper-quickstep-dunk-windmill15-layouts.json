@@ -1,0 +1,276 @@
+[
+  {
+    "athlete": "piper-quickstep",
+    "direction": "right",
+    "clip": "dunk-windmill",
+    "src": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "piper-quickstep",
+      "clip": "dunk-windmill",
+      "direction": "right",
+      "attempt": 1,
+      "source": "imagegen",
+      "generationId": null,
+      "generationIdNote": "The image_gen.imagegen response exposed only image_url and output_hint, with no generation identifier. The returned image was preserved unchanged as the raw source.",
+      "generatedAt": "2026-10-25T04:39:53.130Z",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-windmill-attempt1-prompt.md",
+      "promptVerbatim": true,
+      "referenceFiles": [],
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-windmill-attempt1-generated-raw.png",
+      "rawSourceSha256": "0b192eaa28b8ae3b826303d1e600f091475707c40a207e6a7419ecb845ddb804",
+      "rawSourceSize": [
+        1536,
+        1024
+      ],
+      "rawSourceMode": "RGBA",
+      "rawReview": {
+        "status": "rejected-for-direct-packing",
+        "notes": "The generated sheet includes a translucent orange/brown haze and several original poses intrude into or approach their source-cell margins; pose components remain separately isolatable and no basketball appears. Preserve the raw image and use component-only cleanup for review."
+      },
+      "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-windmill-attempt1.py",
+      "cleanupNotes": "Alpha-connected component isolation at threshold >64 using package-motion42.py. Detached haze components are omitted and nearest antialiased pixels assigned to their original figure. Each original pose is uniformly fit to <=251x285 and baseline-aligned in its original 5x3 cell with >=28px transparent margins. No body pixels are redrawn, synthesized, duplicated or reordered.",
+      "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-windmill-attempt1-clean-candidate.png",
+      "sourceSha256": "49fbab9ea356f942638c6b5efcd533cc54c9526c10e37c92641c60863a97d6cc",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceMode": "RGBA",
+      "layoutFile": "tools/generate-art/piper-quickstep-dunk-windmill-attempt1-layouts.json",
+      "review": {
+        "status": "accepted",
+        "reviewer": "independent source-review subagent",
+        "reviewedAt": "2026-10-25",
+        "reviewNotes": "Source review passes: exact 1536x1024 RGBA sheet with 15 distinct ordered poses; Piper identity, orange ponytail, uniform, proportions and shoes consistent; true transparent gutters, no ball/background/floor/grid/extra art, and complete anatomy. Windmill reads from frame4 backswing through behind-hip low sweep, knee circle, rise, peak, reach and open-hand release at frame12. Tightest cell margin is 28px, several top/bottom edges; smallest horizontal margin is 33px at frame3. Frame11 arm is bent over the head, making the reach transition less explicit than frame10 but still readable."
+      },
+      "eligibleForPacking": true,
+      "ballBehavior": "No basketball is painted in the athlete sheet. The ball must follow Piper-specific runtime track values and release at tick21.",
+      "packedAtlasPath": null,
+      "packedAtlasSha256": null,
+      "nativeReview": {
+        "status": "not-started",
+        "notes": "J.115 dunk-power integration precedes J.116. No runtime track or native hand contact has been reviewed."
+      },
+      "ballTrackStatus": "pending-after-source-approval",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 53,
+          "y": 27,
+          "w": 201,
+          "h": 287,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 389,
+          "y": 27,
+          "w": 142,
+          "h": 287,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 648,
+          "y": 34,
+          "w": 239,
+          "h": 280,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 954,
+          "y": 27,
+          "w": 244,
+          "h": 287,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1266,
+          "y": 27,
+          "w": 234,
+          "h": 288,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 67,
+          "y": 369,
+          "w": 172,
+          "h": 287,
+          "component": 8
+        },
+        {
+          "sourceIndex": 6,
+          "x": 342,
+          "y": 378,
+          "w": 237,
+          "h": 278,
+          "component": 11
+        },
+        {
+          "sourceIndex": 7,
+          "x": 654,
+          "y": 379,
+          "w": 227,
+          "h": 277,
+          "component": 12
+        },
+        {
+          "sourceIndex": 8,
+          "x": 959,
+          "y": 369,
+          "w": 234,
+          "h": 287,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1267,
+          "y": 369,
+          "w": 232,
+          "h": 287,
+          "component": 10
+        },
+        {
+          "sourceIndex": 10,
+          "x": 52,
+          "y": 709,
+          "w": 204,
+          "h": 288,
+          "component": 14
+        },
+        {
+          "sourceIndex": 11,
+          "x": 341,
+          "y": 709,
+          "w": 239,
+          "h": 289,
+          "component": 15
+        },
+        {
+          "sourceIndex": 12,
+          "x": 660,
+          "y": 714,
+          "w": 215,
+          "h": 283,
+          "component": 18
+        },
+        {
+          "sourceIndex": 13,
+          "x": 966,
+          "y": 711,
+          "w": 218,
+          "h": 286,
+          "component": 17
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1279,
+          "y": 710,
+          "w": 207,
+          "h": 288,
+          "component": 16
+        }
+      ],
+      "uniformScale": 0.31833910034602075,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

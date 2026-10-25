@@ -1,0 +1,23 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-windmill",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": null,
+      "generationIdNote": "The image_gen.imagegen response exposed no generation ID; see provenance metadata note.",
+      "generatedAt": "2026-10-25T04:39:53.130Z",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-windmill-attempt1-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-windmill-attempt1-generated-raw.png",
+      "rawSourceSha256": "0b192eaa28b8ae3b826303d1e600f091475707c40a207e6a7419ecb845ddb804",
+      "status": "source-and-packed-atlas-accepted; native-review-deferred-until-roster-order-integration",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-dunk-windmill-attempt1-clean-candidate.png",
+      "cleanSourceSha256": "49fbab9ea356f942638c6b5efcd533cc54c9526c10e37c92641c60863a97d6cc",
+      "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-windmill-attempt1.py",
+      "reason": "Raw haze and narrow/crossing cell margins were removed by component-only isolation and uniform fitting. Independent source and packed-atlas reviews accepted the clean 15-pose sheet; frame11 reach is a softer transition but remains readable.",
+      "packedAtlas": "public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+      "packedAtlasSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+      "packedReview": "accepted: fifteen unique ordered frames, transparent gutters, empty cell16, no ball/background/artifact, identity/anatomy readable at atlas scale"
+    }
+  ]
+}

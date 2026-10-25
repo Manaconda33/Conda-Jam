@@ -1,0 +1,57 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-windmill",
+  "direction": "right",
+  "attempt": 1,
+  "source": "imagegen",
+  "generationId": null,
+  "generationIdNote": "The image_gen.imagegen response exposed only image_url and output_hint, with no generation identifier. The returned image was preserved unchanged as the raw source.",
+  "generatedAt": "2026-10-25T04:39:53.130Z",
+  "promptFile": "tools/generate-art/piper-quickstep-dunk-windmill-attempt1-prompt.md",
+  "promptVerbatim": true,
+  "referenceFiles": [],
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-windmill-attempt1-generated-raw.png",
+  "rawSourceSha256": "0b192eaa28b8ae3b826303d1e600f091475707c40a207e6a7419ecb845ddb804",
+  "rawSourceSize": [
+    1536,
+    1024
+  ],
+  "rawSourceMode": "RGBA",
+  "rawReview": {
+    "status": "rejected-for-direct-packing",
+    "notes": "The generated sheet includes a translucent orange/brown haze and several original poses intrude into or approach their source-cell margins; pose components remain separately isolatable and no basketball appears. Preserve the raw image and use component-only cleanup for review."
+  },
+  "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-windmill-attempt1.py",
+  "cleanupNotes": "Alpha-connected component isolation at threshold >64 using package-motion42.py. Detached haze components are omitted and nearest antialiased pixels assigned to their original figure. Each original pose is uniformly fit to <=251x285 and baseline-aligned in its original 5x3 cell with >=28px transparent margins. No body pixels are redrawn, synthesized, duplicated or reordered.",
+  "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-windmill-attempt1-clean-candidate.png",
+  "sourceSha256": "49fbab9ea356f942638c6b5efcd533cc54c9526c10e37c92641c60863a97d6cc",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceMode": "RGBA",
+  "layoutFile": "tools/generate-art/piper-quickstep-dunk-windmill-attempt1-layouts.json",
+  "review": {
+    "status": "accepted",
+    "reviewer": "independent source-review subagent",
+    "reviewedAt": "2026-10-25",
+    "reviewNotes": "Source review passes: exact 1536x1024 RGBA sheet with 15 distinct ordered poses; Piper identity, orange ponytail, uniform, proportions and shoes consistent; true transparent gutters, no ball/background/floor/grid/extra art, and complete anatomy. Windmill reads from frame4 backswing through behind-hip low sweep, knee circle, rise, peak, reach and open-hand release at frame12. Tightest cell margin is 28px, several top/bottom edges; smallest horizontal margin is 33px at frame3. Frame11 arm is bent over the head, making the reach transition less explicit than frame10 but still readable."
+  },
+  "eligibleForPacking": true,
+  "ballBehavior": "No basketball is painted in the athlete sheet. The ball must follow Piper-specific runtime track values and release at tick21.",
+  "packedAtlasPath": "public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+  "packedAtlasSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+  "nativeReview": {
+    "status": "deferred-until-roster-order-integration",
+    "notes": "Atlas is not registered. J.115 `dunk-power` is ahead in roster order; after it is integrated, review production frame selection and Piper-specific separate-ball contact in both facings at100%/120%."
+  },
+  "ballTrackStatus": "pending-native-calibration-after-J115",
+  "packedAtlasBytes": 70254,
+  "packedLayoutFile": "tools/generate-art/piper-quickstep-dunk-windmill15-layouts.json",
+  "packedLayoutReview": {
+    "status": "accepted",
+    "reviewer": "independent packed-atlas review subagent",
+    "reviewedAt": "2026-10-25",
+    "notes": "Accepted: 4x4 128x96-cell proof shows all15 original pose crops once in cleaned-source row-major order, with the final bottom-right cell empty. Light/dark views show readable Piper identity/anatomy, hair, uniform and shoes, windmill progression, transparent gutters and no clipping, ball, background or haze. Fine face detail naturally reduces at atlas scale; athlete identity and poses remain legible."
+  }
+}

@@ -4,6 +4,8 @@ J.115 `dunk-power` source and atlas are accepted as a source checkpoint only: ra
 
 J.115 source checkpoint commit `158c400e` is local. Standard push failed because the configured proxy on port8080 could not connect; no Pages workflow started. Latest deployed checkpoint is `513e0a59` / run #169. The user-owned J.106 helper remains unmodified.
 
+J.116 `dunk-windmill` now has an accepted source and packed-atlas checkpoint in local unregistered files. Raw haze/margin rejection, cleanup, exact prompt, layout maps, hashes, reviews and previews are preserved. Keep runtime/native review deferred until J.115 passes and registers.
+
 Piper reaches19/29 reviewed clips /143 authored drawings with ten unique celebration poses. The final exact 4×3 transparent source uses the original-component map `[3,2,1,0,5,7,4,6,9,8]` and preserves two unused cells. Earlier cleaned order maps are kept as superseded candidates; no pose was fabricated. The sequence ends on the grounded salute at frame9/tick65. Source, atlas and native reviews confirm Piper identity/anatomy, alpha, >=60px source margins, no ball, and all10 production frames in both facings at100%/120%.
 
 Raw SHA-256 `9b3ea91a355752fa29ebbd623a8802b4ae970a52030c724b9cf5a4a6fe9ae18c`; accepted prompt-compliant 4×3 source SHA-256 `50a3b205f5553be1ca257bcaceddb218411e49f1a5b634257c526f4abd8e39b4`; atlas `public/assets/animation/piper-quickstep-celebrate-right.webp` SHA-256 `2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a`. Prompt, raw/clean sources, cleanup, all layouts/maps, rejected candidates, provenance and native previews are under Piper celebrate files.
