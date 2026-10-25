@@ -4,7 +4,7 @@
 - Accepted separate track H `[.95,1.1,1.25,1.7,1.9,2.05,2.2,2.45,2.4,2.35,1.5,2,1.4,.7,.55]` / F `[6,8,4,-2,-10,-7,-8,-5,12,2,8,6,8,5,6]` passes independent native review at100%/120% in both facings. Piper owns through tick20, releases at21, and scores one two-point dunk. The tiny frame9/120% gap is noted.
 - `npm test`: PASS,41/41 files; lint18 modules; content35/105; simulation100 matches /861,421 ticks /6 OTs; atlas packer55 tests; build PASS. E2E blocked by sandbox `listen EPERM` at `127.0.0.1:4175`.
 - Strict audit `2026-10-25T12:55:09.143Z`:814 clips /7,361 drawings /105 athletes, 2,289 missing clips, one target shortfall and4 inherited prompt findings.
-- Next roster action: J.120 Piper `dunk-double`; attempt1 source passed review, but native ball track is pending. Its exact prompt retains a documented incorrect frame10 cell-location parenthetical; the source follows the canonical row3/column1 release. J.119 is committed locally as `6a63d8d2`; standard push failed at the configured port8080 proxy, so no Pages workflow ran. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
+- Next roster action: J.120 Piper `dunk-double`; attempt1 source passed review, but native ball track is pending. Its exact prompt retains a documented incorrect frame10 cell-location parenthetical; the source follows the canonical row3/column1 release. Source checkpoint `8b47da49` is local; standard push failed at the configured port8080 proxy. J.119 is committed locally as `6a63d8d2`; standard push failed at the configured port8080 proxy, so no Pages workflow ran. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
 
 # Latest validation — J.113 Piper fall
 
