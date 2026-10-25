@@ -49,8 +49,13 @@
     "notes": "All15 crops are unique and ordered; cell16 is alpha-zero empty. Dark/light proofs show complete Piper anatomy and kit, clean transparency, no ball/background artifacts, release frame10, follow-through frame11, and recovery frame14. No clipping; 2px baseline guard is consistent with the packer."
   },
   "nativeReview": {
-    "status": "pending-integration",
-    "notes": "Source and packed atlas passed review, but no Piper-specific ball track is accepted yet. A provisional track placed the separate ball over Piper's face at peak, with unclear gather/pre-release contacts. Diagnostic previews remain provisional until they prove Piper and the correct atlas are rendered."
+    "status": "accepted",
+    "reviewedAt": "2026-10-25",
+    "reviewers": ["independent native-review agent", "independent second review agent"],
+    "notes": "Final track candidate6 passes native review at100%/120% in both facings. The ball meets Piper's bent fist at frame5/tick10, overhead fist at frame7/tick14, and extended fingers at frame9/tick19 and tick20. Production captures select Piper's atlas frames0–14 and preserve ownership through tick20. Tick21 releases once; a real simulation awards exactly two points at tick23. Live gameplay enters celebrate by step30, so the authored frame14 upright landing is shown in the synthetic native capture only.",
+    "calibrationHistory": "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-history.json",
+    "trackCalibrationFile": "tools/generate-art/piper-quickstep-dunk-power-track-calibration.json",
+    "previewReports": ["tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-100/report.json", "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-120/report.json"]
   },
-  "ballTrackStatus": "pending-native-calibration; no track values accepted"
+  "ballTrackStatus": "accepted-after-native-review"
 }

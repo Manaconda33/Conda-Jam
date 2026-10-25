@@ -1,17 +1,11 @@
-# Latest validation — J.114 Piper celebrate
+# Latest validation — J.115 Piper Quickstep `dunk-power`
 
-J.115 source checkpoint only: Piper `dunk-power` has an accepted 15-pose source and packed atlas, but is not registered. Its separate ball track is still unaccepted after native review found unclear gather, peak and pre-release contact. The follow-up candidate preview was invalid because it rendered legacy sprites; no J.115 test or audit counts change until corrected previews pass.
-
-Commit `158c400e` preserves the source checkpoint and review evidence. Standard `git push origin HEAD:main` failed with `Could not connect to server` at configured proxy port8080; no Pages workflow was triggered. Latest deployed checkpoint remains `513e0a59` / run #169.
-
-J.116 Piper `dunk-windmill` source+atlas are ready in an unregistered source checkpoint after independent source and packed reviews. No audit/test totals change; runtime track review is queued behind J.115.
-
-Push retry after `91eb91f2` failed because the configured proxy on port8080 could not connect; no Pages workflow ran. Latest deployed remains `513e0a59` / run #169.
-
-- `npm test`: PASS,36/36 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer suite: PASS,55 tests; production build: PASS.
-- Native Canvas review: PASS,20/20 action captures per zoom at100%/120%, both facings, all10 frames and the frame9/tick65 hand-on-hip finish. Source, packed and semantic sequence review accept identity/anatomy, exact 4×3 source layout, component map, margins, transparency and no-ball art.
-- `npm run test:e2e`: BLOCKED before app readiness; server exits before responding at `http://127.0.0.1:4175/`.
-- Strict audit: **809 clips /7,286 authored drawings /105 athletes**, 2,294 missing clips, one target shortfall, 4 inherited prompt findings; generated `2026-10-25T04:28:58.790Z`.
+- Piper adds15 poses and reaches20/29 registered clips /158 authored drawings. Source and atlas reviews confirm ordered separation, full adult-human anatomy/identity, transparent margins, clean alpha and no baked ball. Raw haze rejection, cleanup, exact prompt/provenance, hashes, layouts, rejected candidates and previews are preserved.
+- Accepted separate ball track H `[.95,1.1,1.25,1.4,1.8,2.25,1.65,2.4,2,2.2,2.2,1.5,1.1,.8,.6]` / F `[4,6,8,9,10,-8,1,-6,4,12,12,7,5,4,3]` passes two independent native reviews in both facings at100%/120%. Piper owns through tick20; release occurs once at21; the real simulation scores two at23.
+- `npm test`: PASS,37/37 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer suite: PASS,55 tests; production build: PASS.
+- `npm run test:e2e`: BLOCKED before app readiness; local server exits before responding at `http://127.0.0.1:4175/`.
+- Strict report-only audit `2026-10-25T04:51:27.335Z`:810 clips /7,301 authored drawings /105 athletes,2,293 missing clips, one target shortfall and4 inherited prompt findings.
+- Next roster action: Piper J.116 `dunk-windmill` (source/atlas accepted and checkpointed; native track review pending). Latest deployed Pages checkpoint remains `513e0a59` / run #169.
 
 # Latest validation — J.113 Piper fall
 

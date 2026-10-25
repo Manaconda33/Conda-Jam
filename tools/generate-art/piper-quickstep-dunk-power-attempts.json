@@ -9,15 +9,15 @@
       "promptFile": "tools/generate-art/piper-quickstep-dunk-power-attempt1-prompt.md",
       "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-power-attempt1-generated-raw.png",
       "rawSourceSha256": "69bd8a865f2d428f4152dce4cf78326131d6f27ff54637b3f4dbf00adbb38ecd",
-      "status": "source-and-packed-atlas-accepted; ball-track-calibration-pending",
+      "status": "accepted-and-integrated-locally",
       "cleanSource": "tools/generate-art/sources/piper-quickstep-dunk-power-attempt1-clean-candidate.png",
       "cleanSourceSha256": "f9f7b6d96ebcf6a2b409e1ff0d83f1e7f04f9e572ebcaf0feac15010e0f5efba",
       "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-power-attempt1.py",
-      "reason": "Visual source review found a broad translucent orange/red glow background. Fifteen pose components remain separable and no ball appears in the sheet; use component-only cleanup before consideration. Independent source review accepted full anatomy, transparent margins and distinct ordered poses; release/follow-through/landing timing matches the clip.",
+      "reason": "The raw source had broad translucent orange/red glow and was rejected for direct packing. Component-only cleanup preserved the fifteen original poses. Independent source and atlas reviews passed; candidate6's separate ball track passed independent native contact review in both facings at100%/120% and a live simulation scored once at tick23.",
       "packedAtlas": "public/assets/animation/piper-quickstep-dunk-power-right.webp",
       "packedAtlasSha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
       "packedLayout": "tools/generate-art/piper-quickstep-dunk-power15-layouts.json",
-      "packedReview": "accepted: 15 unique frames, transparent empty cell16, no ball or artifacts, release/follow-through/recovery clear; native game track pending."
+      "packedReview": "accepted: 15 unique frames, transparent empty cell16, no ball or artifacts, release/follow-through/recovery clear. Native ball track is separately accepted and documented in piper-quickstep-dunk-power-track-calibration.json."
     }
   ]
 }

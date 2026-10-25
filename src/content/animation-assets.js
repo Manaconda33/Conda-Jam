@@ -67072,13 +67072,357 @@ export const animationAssetManifest = {
             },
             "reviewed": true,
             "reviewNotes": "Ten source/packed poses independently reviewed for identity/anatomy, pose order, alpha, margins and no ball. The exact prompt-compliant 4×3 source is mapped to a 5×2 atlas using original component map [3,2,1,0,5,7,4,6,9,8]; source frame8 is arms-low recovery and frame9 is the grounded salute. Native review selects all frames in both facings at100%/120%."
+          },
+          "dunk-power": {
+            "src": "./public/assets/animation/piper-quickstep-dunk-power-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "819bd04537a59042ef6e48ffe858e47f59b0e564242ca705d823c5636899429e"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "40308bb0b887cf704fb7da6940ab60e3faa07c85c28694615562460369194638"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "fbd9a6bdb398b487482d233867fcc804882e56f7e8e91282c624a12e92a15195"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "34dba9768e933e097fc1478fc2aa895f9025ad0dea6ec5b65e9269f76e373028"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "23f3378193f99b1123dfe9a58594484fa9de374f0bcfd5ce2410b7518b6cb03c"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d1e278716455840f84f7389c0f37c0ca36c6822a5d1af56e1650cdd6eeaef202"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "87f2c2ffb53a3bcba71063862548f46535701ed57727078e7ee32eed68810772"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7db6074fe3ee0c156430dc7d2816895bff798e10f60a7be493d8c8918315be04"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "b9075d6598f73eb2d2c7d19639fb6be685820a82d134f37f3c225c6cdf0c5e8e"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "dcb9f2b951627ec9124c38794e8367a5779f1cf5b24f941ee7b060c04a41b8fd"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "692f32a9f3409a62d2987c467b76d5a2596f20e6b496d5658516822f4b258e97"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "501496305ca98e27109afa4ad10a605726e8a24f0230a590ceaa98b103936a42"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "e92bf866c407f152d275f39960fa1f06a212739e15c8ea4bfdac61be3e8390b2"
+              },
+              {
+                "x": 96,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "b94e45c78f2b4a03ba5daec44a08d5aa34c777a04ad6214591d74d24a82b3900"
+              },
+              {
+                "x": 192,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "c2bad714b0aba8a0f33fa07358582586010fdf14bd85546149ceeac8965fbfc4"
+              }
+            ],
+            "sha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "piper-quickstep",
+              "clip": "dunk-power",
+              "direction": "right",
+              "attempt": 1,
+              "source": "imagegen",
+              "generationId": "exec-c0d2f99c-dc9a-4b6a-a5f2-1a6bda852b7f",
+              "generatedAt": "2026-10-25T04:21:12.205Z",
+              "promptFile": "tools/generate-art/piper-quickstep-dunk-power-attempt1-prompt.md",
+              "prompt": "J.115 / Piper Quickstep — DUNK-POWER action sheet, attempt 1\n\nCreate one original production sprite sheet for Piper Quickstep performing a powerful one-handed basketball dunk for JAMVERSE '96. Canvas: exactly 1536×1024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Each cell is about 307×341 pixels. Keep every part of each pose—including the entire high ponytail, every fingertip, and both shoes—at least 24 pixels inside every cell edge. Keep a consistent scale and image-right three-quarter profile, with clear empty transparent gutters. No silhouette may overlap, touch or cross a cell boundary. The final cell is occupied by frame 14; no extra art.\n\nPiper is the SAME athletic adult human woman in every pose: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural human adult athletic proportions, russet-red sleeveless basketball jersey and shorts with clean cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, body proportions, uniform and shoe design consistently. Exactly one human head, two arms, two hands, two legs, two feet; natural joints and five distinct fingers on each visible hand. No costume changes, jewelry, numbers, text or logo.\n\nDraw one connected mechanically clear right-facing one-handed POWER DUNK. The game draws Piper’s basketball separately. Never draw a ball, sphere, orb, seams, hoop, rim, prop, or any held object. Before release, pose the right hand as if it securely mimes an invisible ball; the actual ball is on a separate Piper-specific runtime track. Frame 10 is the single release at simulation tick 21: the right palm opens and snaps down through the imagined rim plane, leaving both hands empty from frames 10–14. No other frame releases.\n\nExactly fifteen unique poses in this order, keeping feet and hair fully inside their own cells:\n0. Grounded image-right approach, balanced athletic stride, focused on the imaginary basket.\n1. Gather the invisible ball securely with both hands near the waist while the knees start to bend.\n2. Takeoff begins at tick 4: compact plant and explosive leg drive, torso rising, right hand carries the invisible ball close to the chest.\n3. Airborne ascent, lead knee lifts, right hand raises the unseen ball, left arm balances.\n4. Rise continues, hips and shoulders extend; right elbow brings the unseen ball beside the shoulder.\n5. Catch/carry point at tick 10: securely gather the invisible ball into the right hand at shoulder height, with the left arm counterbalancing.\n6. Powerful ascent, right elbow cocks and hand moves above the shoulder; ponytail trails naturally.\n7. Jump peak marker at tick 14: highest airborne silhouette, right hand and invisible ball held overhead with the open left hand counterbalancing.\n8. Turn the shoulders toward the imaginary rim and move the right hand slightly forward above head height.\n9. Fully extend into the dunk path; right hand and invisible ball lead forward and high, body stretched, knees tucked naturally.\n10. ONLY RELEASE, tick 21: one forceful one-handed downward slam motion; right arm is extended high-forward then snapping down, palm and separated fingers open, invisible ball has left the hand. This is the only release frame.\n11. Scoring follow-through at tick 23: empty right hand continues downward and forward, left arm checks balance, eyes follow the imaginary score.\n12. Empty-handed descent, torso lowers, legs begin to extend toward landing.\n13. Controlled landing anticipation, knees flex and arms lower naturally.\n14. Land marker at tick 30: stable grounded two-foot recovery, balanced upright stance, both hands empty.\n\nMake all fifteen poses visibly distinct, anatomically complete and mechanically connected; preserve full visibility of Piper’s orange ponytail, fingers and shoes. Favor margin and pose clarity over figure size. Keep only sharp, clean character artwork on zero-alpha transparent background. No glow, haze, shadow, floor, court, environment, hoop, rim, grid, divider, border, letters, label, opponent, teammate, duplicate person or background. Return only the sprite sheet.",
+              "promptVerbatim": true,
+              "referenceFiles": [],
+              "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-power-attempt1-generated-raw.png",
+              "rawSourceSha256": "69bd8a865f2d428f4152dce4cf78326131d6f27ff54637b3f4dbf00adbb38ecd",
+              "rawSourceSize": [
+                1536,
+                1024
+              ],
+              "rawSourceMode": "RGBA",
+              "rawReview": {
+                "status": "rejected-as-production-source",
+                "notes": "Visual source review found a broad translucent orange/red glow background. Fifteen pose components remain separable and no ball appears in the sheet; use component-only cleanup before consideration."
+              },
+              "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-power-attempt1.py",
+              "cleanupNotes": "Alpha-connected component isolation at threshold >64 using package-motion42.py, retaining each complete figure and nearest antialiasing. Crop transparent halos; uniformly scale down to <=255x290 and bottom-align in the original 5x3 cells with a 24px baseline gutter. No pose pixels are drawn, synthesized, duplicated or reordered.",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/piper-quickstep-dunk-power-attempt1-clean-candidate.png",
+              "sourceSha256": "f9f7b6d96ebcf6a2b409e1ff0d83f1e7f04f9e572ebcaf0feac15010e0f5efba",
+              "sourceSize": [
+                1536,
+                1024
+              ],
+              "sourceMode": "RGBA",
+              "layoutFile": "tools/generate-art/piper-quickstep-dunk-power-attempt1-layouts.json",
+              "review": {
+                "status": "accepted",
+                "reviewer": "independent source-review subagent",
+                "reviewedAt": "2026-10-25",
+                "reviewNotes": "Cleaned 1536x1024 RGBA 5x3 source contains 15 complete ordered poses with >=24px fully transparent margins. Piper adult-human anatomy, warm-brown skin, orange ponytail, blank russet/cream kit and shoes are consistent. No ball or extra person. The airborne poses are sequentially distinct; frame10/tick21 is the single open-hand release, frame11/tick23 is follow-through, frame14/tick30 is grounded recovery."
+              },
+              "eligibleForPacking": true,
+              "ballBehavior": "No basketball is painted into the athlete sheet. Piper’s dunk ball stays on a separate athlete-specific runtime track through the frame10/tick21 release.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 24,
+                  "y": 35,
+                  "w": 259,
+                  "h": 284,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 378,
+                  "y": 43,
+                  "w": 164,
+                  "h": 275,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 659,
+                  "y": 26,
+                  "w": 218,
+                  "h": 293,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 946,
+                  "y": 69,
+                  "w": 258,
+                  "h": 250,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1253,
+                  "y": 29,
+                  "w": 257,
+                  "h": 290,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 29,
+                  "y": 368,
+                  "w": 247,
+                  "h": 292,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 350,
+                  "y": 368,
+                  "w": 220,
+                  "h": 293,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 664,
+                  "y": 367,
+                  "w": 208,
+                  "h": 294,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 954,
+                  "y": 368,
+                  "w": 243,
+                  "h": 293,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1265,
+                  "y": 368,
+                  "w": 235,
+                  "h": 292,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 35,
+                  "y": 709,
+                  "w": 237,
+                  "h": 292,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 351,
+                  "y": 709,
+                  "w": 219,
+                  "h": 292,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 661,
+                  "y": 709,
+                  "w": 214,
+                  "h": 293,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 968,
+                  "y": 708,
+                  "w": 215,
+                  "h": 294,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1293,
+                  "y": 709,
+                  "w": 177,
+                  "h": 293,
+                  "component": 18
+                }
+              ],
+              "uniformScale": 0.3129251700680272,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativeReview": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-25",
+                "reviewers": [
+                  "independent native-review agent",
+                  "independent second review agent"
+                ],
+                "notes": "Ball contact accepted at gather frame5/tick10, overhead peak frame7/tick14, extended hand frame9/tick19 and pre-release tick20 in both facings at100%/120%. Correct Piper atlas/frame selection is confirmed. Release at tick21 is ownerless dunk; live simulation scores two at tick23.",
+                "trackFile": "tools/generate-art/piper-quickstep-dunk-power-track-calibration.json",
+                "previewReports": [
+                  "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-100/report.json",
+                  "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-120/report.json"
+                ]
+              },
+              "ballTrack": {
+                "athlete": "piper-quickstep",
+                "clip": "dunk-power",
+                "status": "accepted after native review at100% and120%, both facings",
+                "height": [
+                  0.95,
+                  1.1,
+                  1.25,
+                  1.4,
+                  1.8,
+                  2.25,
+                  1.65,
+                  2.4,
+                  2,
+                  2.2,
+                  2.2,
+                  1.5,
+                  1.1,
+                  0.8,
+                  0.6
+                ],
+                "forward": [
+                  4,
+                  6,
+                  8,
+                  9,
+                  10,
+                  -8,
+                  1,
+                  -6,
+                  4,
+                  12,
+                  12,
+                  7,
+                  5,
+                  4,
+                  3
+                ],
+                "releaseFrame": 10,
+                "releaseTick": 21,
+                "scoreTick": 23,
+                "nativeReview": "Independent source/packed review and two native reviewers accept contact at frame5/tick10, frame7/tick14, frame9/tick19 and tick20 in both facings at 100%/120%. All15 production frames select the Piper atlas; ball remains Piper-owned through tick20, releases once at tick21, and a real createMatch simulation awards two points once at tick23.",
+                "previewReports": [
+                  "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-100/report.json",
+                  "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-120/report.json"
+                ],
+                "calibrationFile": "tools/generate-art/piper-quickstep-dunk-power-track-calibration.json"
+              }
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Piper fall and celebrate both pass native mirror review; her orange ponytail, face and body poses remain readable in both facings. Celebrate contains no ball."
+        "notes": "Piper’s established human silhouettes remain readable when mirrored. J.115 dunk-power native review confirms the separate ball path meets her hands in both facings."
       }
     },
     "briar-foxglove": {

@@ -1,0 +1,73 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-power",
+  "releaseTick": 21,
+  "scoringTick": 23,
+  "acceptedCandidate": 6,
+  "fullCandidateHistory": "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-history.json",
+  "acceptedTrack": {
+    "height": [0.95, 1.1, 1.25, 1.4, 1.8, 2.25, 1.65, 2.4, 2, 2.2, 2.2, 1.5, 1.1, 0.8, 0.6],
+    "forward": [4, 6, 8, 9, 10, -8, 1, -6, 4, 12, 12, 7, 5, 4, 3]
+  },
+  "nativeReview": {
+    "status": "accepted",
+    "reviewers": ["independent native-review agent", "independent second review agent"],
+    "zoomPercent": [100, 120],
+    "facings": ["right", "left mirrored"],
+    "reviewPoints": {
+      "frame5_tick10": "Separate ball meets the bent behind-head fist; hand contact remains clear despite some hair overlap.",
+      "frame7_tick14": "Separate ball meets the overhead fist/fingertips.",
+      "frame9_tick19": "Separate ball meets the extended fingertips.",
+      "tick20": "Last carried tick before release; ball edge meets or stays within a few pixels of fingertips in both facings.",
+      "tick21": "One release to an ownerless dunk ball.",
+      "tick23": "One two-point dunk score; ball becomes dead and player advances to celebration.",
+      "tick30": "Synthetic native preview confirms authored frame14 is an upright recovery; live gameplay has already switched to celebration by then."
+    },
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-120/report.json"
+    ],
+    "calibrationReviews": [
+      "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-100/calibration-review.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-120/calibration-review.json"
+    ],
+    "gameplayReview": "A real createMatch simulation kept Piper owner through tick20, released to ownerless dunk mode at tick21, awarded exactly two points at tick23, and left the ball dead and ownerless at step30. The targeted existing dunk-path test passed."
+  },
+  "rejectedCandidates": [
+    {
+      "candidate": 1,
+      "height": [0.95, 1.1, 1.25, 1.4, 1.8, 1.5, 1.65, 1.9, 2, 2, 2, 1.5, 1.1, 0.8, 0.6],
+      "forward": [4, 6, 8, 9, 10, -1, 1, 0, 4, 9, 9, 7, 5, 4, 3],
+      "status": "rejected",
+      "reason": "Initial provisional native review found the peak ball over Piper's face and unclear gather/pre-release contacts."
+    },
+    {
+      "candidate": 2,
+      "height": [0.95, 1.1, 1.25, 1.4, 1.8, 2.5, 1.65, 2.1, 2, 2.4, 2, 1.5, 1.1, 0.8, 0.6],
+      "forward": [4, 6, 8, 9, 10, 6, 1, 6, 4, 5, 9, 7, 5, 4, 3],
+      "status": "invalid-preview-rejected",
+      "reason": "Renderer report used a process-local manifest that main.js did not consume; rendered legacy sprites instead of Piper's provisional atlas. No contact conclusions are valid."
+    },
+    {
+      "candidate": 3,
+      "height": [0.95, 1.1, 1.25, 1.4, 1.8, 1.9, 1.65, 2.1, 2, 2.4, 2, 1.5, 1.1, 0.8, 0.6],
+      "forward": [4, 6, 8, 9, 10, -7, 1, -8, 4, 11, 9, 7, 5, 4, 3],
+      "status": "rejected",
+      "reason": "Native capture confirmed the peak but frame5 was offset from the fist; the frame9/tick20 carry remained ahead of the extended fingertips."
+    },
+    {
+      "candidate": 4,
+      "height": [0.95, 1.1, 1.25, 1.4, 1.8, 1.9, 1.65, 2.1, 2, 3, 2, 1.5, 1.1, 0.8, 0.6],
+      "forward": [4, 6, 8, 9, 10, 0, 1, -8, 4, 14, 9, 7, 5, 4, 3],
+      "status": "rejected",
+      "reason": "Frame5 F=0 moved the ball across Piper's face instead of to the bent fist; frame9 remained offset and high."
+    },
+    {
+      "candidate": 5,
+      "height": [0.95, 1.1, 1.25, 1.4, 1.8, 2.7, 1.65, 2.4, 2, 2.2, 2, 1.5, 1.1, 0.8, 0.6],
+      "forward": [4, 6, 8, 9, 10, -8, 1, -6, 4, 12, 9, 7, 5, 4, 3],
+      "status": "rejected",
+      "reason": "The large frame5 height step raised the ball above the bent fist/crown; horizontal placement improved but vertical placement overshot."
+    }
+  ]
+}

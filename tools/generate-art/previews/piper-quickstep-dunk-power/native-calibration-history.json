@@ -1,0 +1,387 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-power",
+  "units": "height world units; forward world units toward facing direction",
+  "captureSource": "native Canvas, process-local atlas override; source public/assets/animation/piper-quickstep-dunk-power-right.webp",
+  "candidates": [
+    {
+      "id": "candidate1",
+      "capture": "native-provisional baseline",
+      "status": "rejected as provisional",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.4,
+          1.8,
+          1.5,
+          1.65,
+          1.9,
+          2,
+          2,
+          2,
+          1.5,
+          1.1,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          -1,
+          1,
+          0,
+          4,
+          9,
+          9,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "reason": "Frame5/tick10 ball at upper chest instead of hand; frame7/tick14 at face instead of overhead fist; frame9/tick20 below/right of extended hand."
+    },
+    {
+      "id": "candidate2",
+      "capture": "candidate2-100 / candidate2-120",
+      "status": "diagnostic only; superseded",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.4,
+          1.8,
+          2.5,
+          1.65,
+          2.1,
+          2,
+          2.4,
+          2,
+          1.5,
+          1.1,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          6,
+          1,
+          6,
+          4,
+          5,
+          9,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "reason": "Initial estimate. The first generic-renderer captures were invalid legacy-sprite renders; corrected renderer later revealed frame5/7/9 still needed substantial horizontal corrections."
+    },
+    {
+      "id": "candidate3",
+      "capture": "candidate3-100 / candidate3-120",
+      "status": "rejected / revised",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.4,
+          1.8,
+          1.9,
+          1.65,
+          2.1,
+          2,
+          3,
+          2,
+          1.5,
+          1.1,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          -7,
+          1,
+          -8,
+          4,
+          11,
+          9,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "reason": "Frame5 remained at temple/below bent fist; frame9 was above/ahead at tick19 and tick20 needed additional tuning."
+    },
+    {
+      "id": "candidate4",
+      "capture": "native-calibration-final-100 / -120",
+      "status": "rejected / revised",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.4,
+          1.8,
+          1.9,
+          1.65,
+          2.1,
+          2,
+          3,
+          2,
+          1.5,
+          1.1,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          -7,
+          1,
+          -8,
+          4,
+          14,
+          9,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "reason": "Frame9 F increased but ball remained ahead/above at pre-release. Parent requested exact c3 values with only F9=14; superseded."
+    },
+    {
+      "id": "candidate4b",
+      "capture": "native-calibration-final2-100 / -120",
+      "status": "rejected",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.4,
+          1.8,
+          1.9,
+          1.65,
+          2.1,
+          2,
+          0.6,
+          2,
+          1.5,
+          1.1,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          -7,
+          1,
+          -8,
+          4,
+          7,
+          9,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "reason": "H9=.6 overcorrected: ball landed roughly 60\u201380px below the extended hand due nonlinear ballElevation."
+    },
+    {
+      "id": "candidate4c",
+      "capture": "native-calibration-final3-100 / -120",
+      "status": "rejected / revised",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.4,
+          1.8,
+          1.9,
+          1.65,
+          2.1,
+          2,
+          2.7,
+          2,
+          1.5,
+          1.1,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          -7,
+          1,
+          -8,
+          4,
+          7,
+          9,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "reason": "Frame9 improved, but independent visual review found frame5/7 offsets and tick20 remained slightly ahead/above."
+    },
+    {
+      "id": "candidate4d",
+      "capture": "native-calibration-final4-100 / -120",
+      "status": "rejected",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.4,
+          1.8,
+          2.25,
+          1.65,
+          2.4,
+          2,
+          2.2,
+          2,
+          1.5,
+          1.1,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          -2,
+          1,
+          -6,
+          4,
+          12,
+          9,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "reason": "Frame7 passed; independent reviewers found frame5 about 15\u201320px off the bent fist and frame9/tick20 a 4\u20138px ball-edge gap in one facing."
+    },
+    {
+      "id": "candidate5",
+      "capture": "native-calibration-final5-100 / -120",
+      "status": "rejected: height overcorrection",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.4,
+          1.8,
+          2.7,
+          1.65,
+          2.4,
+          2,
+          2.2,
+          2,
+          1.5,
+          1.1,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          -8,
+          1,
+          -6,
+          4,
+          12,
+          9,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "reason": "Larger frame5 height step lifted the ball above the fist/crown; horizontal placement improved but height visibly overshot."
+    },
+    {
+      "id": "candidate6",
+      "capture": "native-calibration-final6-100 / -120",
+      "status": "accepted",
+      "track": {
+        "height": [
+          0.95,
+          1.1,
+          1.25,
+          1.4,
+          1.8,
+          2.25,
+          1.65,
+          2.4,
+          2,
+          2.2,
+          2.2,
+          1.5,
+          1.1,
+          0.8,
+          0.6
+        ],
+        "forward": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          -8,
+          1,
+          -6,
+          4,
+          12,
+          12,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "reason": "Both reviewers accepted hand contact at frames5,7,9 and tick20 in both facings/zooms; frames0\u201314 select Piper\u2019s atlas."
+    }
+  ],
+  "notes": "Candidate numbering preserves major candidate1\u20136, with b/c/d retaining intermediate final2/final3/final4 tracks. Candidate5 is the overcorrection explicitly requested. The native reports preserve the corresponding rendered frames and states."
+}
