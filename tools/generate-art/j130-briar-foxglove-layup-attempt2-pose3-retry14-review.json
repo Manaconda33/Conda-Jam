@@ -1,0 +1,18 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry14",
+  "decision": "REJECT",
+  "source_sha256": "e766a449c06e6d18661efc808c24d640d304f4e5de92d74540414608fd48afc6",
+  "checks": {
+    "pose_sequence": "FAIL: shooting hand is overhead above crown/headband, rather than at eyebrow level below headband.",
+    "identity_anatomy": "PASS: adult human Briar likeness, locs/headband, two arms/two legs.",
+    "uniform": "PARTIAL: russet jersey and shorts with cream trim, but skin is visibly red/orange relative to the accepted deep-brown reference.",
+    "transparency": "FAIL: nonzero-alpha edge residue; 121 components at alpha>=8.",
+    "cell_margins": "FAIL: threshold-8 margins [339, 273, 364, 361]px; top clearance 21.77%, below 25%.",
+    "full_pose": "PASS: complete figure visible."
+  },
+  "reference_path": "tools/generate-art/sources/j128-briar-foxglove-receive-generated-raw.png",
+  "prompt_file": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry14-prompt.md",
+  "raw_source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry14-raw.png",
+  "preview_path": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry14-light-dark-review.png",
+  "notes": "Second explicit-reference generation. Retain untouched; do not clean or pack."
+}

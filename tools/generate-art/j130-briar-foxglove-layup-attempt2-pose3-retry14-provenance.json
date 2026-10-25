@@ -1,0 +1,170 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry14",
+  "generationId": "exec-fefdca99-3a96-4610-85e9-76cd1bd1949b",
+  "generator": "OpenAI image_gen with explicit accepted Briar source reference",
+  "referenceImages": [
+    "tools/generate-art/sources/j128-briar-foxglove-receive-generated-raw.png"
+  ],
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry14-prompt.md",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry14-raw.png",
+  "rawSha256": "e766a449c06e6d18661efc808c24d640d304f4e5de92d74540414608fd48afc6",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaThresholdMetrics": {
+    "1": {
+      "bounds_xyxy_exclusive": [
+        19,
+        39,
+        1192,
+        1188
+      ],
+      "margins_ltrb": [
+        19,
+        39,
+        62,
+        66
+      ],
+      "margin_fraction_ltrb": [
+        0.0152,
+        0.0311,
+        0.0494,
+        0.0526
+      ],
+      "occupancy_wh": [
+        1173,
+        1149
+      ],
+      "components": 204
+    },
+    "8": {
+      "bounds_xyxy_exclusive": [
+        339,
+        273,
+        890,
+        893
+      ],
+      "margins_ltrb": [
+        339,
+        273,
+        364,
+        361
+      ],
+      "margin_fraction_ltrb": [
+        0.2703,
+        0.2177,
+        0.2903,
+        0.2879
+      ],
+      "occupancy_wh": [
+        551,
+        620
+      ],
+      "components": 121
+    },
+    "32": {
+      "bounds_xyxy_exclusive": [
+        339,
+        273,
+        889,
+        893
+      ],
+      "margins_ltrb": [
+        339,
+        273,
+        365,
+        361
+      ],
+      "margin_fraction_ltrb": [
+        0.2703,
+        0.2177,
+        0.2911,
+        0.2879
+      ],
+      "occupancy_wh": [
+        550,
+        620
+      ],
+      "components": 1
+    },
+    "64": {
+      "bounds_xyxy_exclusive": [
+        339,
+        273,
+        889,
+        892
+      ],
+      "margins_ltrb": [
+        339,
+        273,
+        365,
+        362
+      ],
+      "margin_fraction_ltrb": [
+        0.2703,
+        0.2177,
+        0.2911,
+        0.2887
+      ],
+      "occupancy_wh": [
+        550,
+        619
+      ],
+      "components": 1
+    },
+    "128": {
+      "bounds_xyxy_exclusive": [
+        340,
+        273,
+        889,
+        892
+      ],
+      "margins_ltrb": [
+        340,
+        273,
+        365,
+        362
+      ],
+      "margin_fraction_ltrb": [
+        0.2711,
+        0.2177,
+        0.2911,
+        0.2887
+      ],
+      "occupancy_wh": [
+        549,
+        619
+      ],
+      "components": 1
+    },
+    "250": {
+      "bounds_xyxy_exclusive": [
+        343,
+        274,
+        888,
+        888
+      ],
+      "margins_ltrb": [
+        343,
+        274,
+        366,
+        366
+      ],
+      "margin_fraction_ltrb": [
+        0.2735,
+        0.2185,
+        0.2919,
+        0.2919
+      ],
+      "occupancy_wh": [
+        545,
+        614
+      ],
+      "components": 403
+    }
+  },
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry14-light-dark-review.png",
+  "decision": "REJECT \u2014 hand is overhead above crown/headband; palette red/orange drift; threshold-8 top margin <25%; alpha residue."
+}
