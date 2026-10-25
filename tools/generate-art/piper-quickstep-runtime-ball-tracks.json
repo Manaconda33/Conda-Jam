@@ -236,6 +236,55 @@
         "tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-candidate9-100/report.json",
         "tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-candidate9-120/report.json"
       ]
+    },
+    "dunk-reverse": {
+      "athlete": "piper-quickstep",
+      "clip": "dunk-reverse",
+      "status": "accepted after independent native review at100% and120%, both facings",
+      "height": [
+        0.35,
+        0.4,
+        0.65,
+        0.5,
+        1.65,
+        1.8,
+        2.5,
+        2.2,
+        1.8,
+        1.9,
+        1.9,
+        1.1,
+        0.8,
+        0.7,
+        0.6
+      ],
+      "forward": [
+        10,
+        0,
+        4,
+        5,
+        6,
+        7,
+        0,
+        -7,
+        -6,
+        -2,
+        -2,
+        16,
+        8,
+        5,
+        4
+      ],
+      "releaseFrame": 10,
+      "releaseTick": 21,
+      "scoreTick": 23,
+      "nativeReview": "Independent native review accepts frames5–7 contact, frames8–9 and pre-release tick20 crown-side hand contact in both facings at100%/120%. All15 production frames select Piper’s atlas. Piper owns through tick20, releases ownerless at tick21, and a real simulation scores exactly one two-point dunk.",
+      "trackFile": "tools/generate-art/piper-quickstep-dunk-reverse-track-calibration.json",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-120/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-simulation.json"
+      ]
     }
   }
 }

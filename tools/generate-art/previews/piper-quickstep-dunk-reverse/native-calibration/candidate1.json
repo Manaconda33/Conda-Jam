@@ -1,0 +1,41 @@
+{
+  "candidate": 1,
+  "track": {
+    "height": [
+      0.35,
+      0.4,
+      0.65,
+      0.5,
+      1.65,
+      1.8,
+      2.5,
+      2.2,
+      2.1,
+      2.2,
+      1.5,
+      1.1,
+      0.8,
+      0.7,
+      0.6
+    ],
+    "forward": [
+      10,
+      0,
+      4,
+      5,
+      6,
+      7,
+      0,
+      -7,
+      14,
+      12,
+      18,
+      16,
+      8,
+      5,
+      4
+    ]
+  },
+  "status": "rejected: tick20 track interpolates away from the raised hand before release at tick21",
+  "reason": "At tick20 the frame9\u2192frame10 interpolation drops the ball to height 1.85 and moves it forward to 15, away from the behind-crown hand. Hold frame10 equal to frame9 until the release boundary."
+}

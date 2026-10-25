@@ -1,10 +1,11 @@
 # Animation asset status
 
-Issue #3 remains in progress. The strict report-only audit at `2026-10-25T05:09:45.072Z` inspects **811 registered clips / 7,316 unique authored drawings** across **105 athletes**. It reports **2,292 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
+Issue #3 remains in progress. The strict report-only audit at `2026-10-25T12:09:12.753Z` inspects **812 registered clips / 7,331 unique authored drawings** across **105 athletes**. It reports **2,291 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
 
-Piper `dunk-power` J.115 and `dunk-windmill` J.116 are accepted and registered. J.116's separate Piper track H `[.55,.55,1.25,.72,.65,1.1,.8,.3,1.4,2.2,2.2,1.05,.55,.4,.3]` / F `[19,8,18,18,-13,-5,-8,12,13,-8,-8,20,22,20,18]` passed independent native review in both facings at100%/120%. It holds hand contact through tick20, releases once at21, and scores two points in a real simulation. Raw/rejected sheets, exact prompt, cleanup, layouts, all nine track candidates and native previews are preserved.
+Piper `dunk-power` J.115, `dunk-windmill` J.116, and `dunk-reverse` J.117 are accepted and registered. J.117's separate Piper track H `[.35,.4,.65,.5,1.65,1.8,2.5,2.2,1.8,1.9,1.9,1.1,.8,.7,.6]` / F `[10,0,4,5,6,7,0,-7,-6,-2,-2,16,8,5,4]` passed independent native review in both facings at100%/120%. It holds contact through tick20, releases once at21, and scores one two-point dunk. Candidate history and all previews are preserved.
 
-Piper `dunk-reverse` J.117 is next. Attempt4 passed source review for 15 distinct ordered poses, identity/anatomy, reverse carry and at least28px margins. Its atlas candidate and proof remain under `tools/generate-art/previews/piper-quickstep-dunk-reverse/attempt4-atlas-candidate/`, outside production; native ball-track contact/release review is pending.
+Piper `dunk-360` J.118 is next. Attempt1's raw image is rejected for its brown/orange backdrop and cell crossings; component-only cleanup retained 15 distinct ordered poses with >=28px transparent cell clearance and no ball. Independent source review accepts identity/anatomy and the explicit J101 360-degree sequence. Native ball-track review remains pending; no atlas is registered.
+
 
 
 

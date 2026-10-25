@@ -1,0 +1,86 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-reverse",
+  "sourceAtlas": "tools/generate-art/previews/piper-quickstep-dunk-reverse/attempt4-atlas-candidate/candidate-atlas.webp",
+  "candidates": [
+    {
+      "candidate": 1,
+      "status": "rejected",
+      "reason": "Frame9-to-10 interpolation changes height/forward before tick21; ball drifts away from the raised crown-side hand at tick20.",
+      "file": "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate1.json",
+      "reports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate1-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate1-120/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate1-simulation.json"
+      ]
+    },
+    {
+      "candidate": 2,
+      "status": "rejected",
+      "reason": "Independent review found visible gap at frames8–9/tick20 between ball and raised palm behind crown; mirrored side overlaps hairline instead of palm.",
+      "file": "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate2.json",
+      "reports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate2-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate2-120/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate2-simulation.json"
+      ]
+    },
+    {
+      "candidate": 3,
+      "status": "accepted",
+      "track": {
+        "height": [
+          0.35,
+          0.4,
+          0.65,
+          0.5,
+          1.65,
+          1.8,
+          2.5,
+          2.2,
+          1.8,
+          1.9,
+          1.9,
+          1.1,
+          0.8,
+          0.7,
+          0.6
+        ],
+        "forward": [
+          10,
+          0,
+          4,
+          5,
+          6,
+          7,
+          0,
+          -7,
+          -6,
+          -2,
+          -2,
+          16,
+          8,
+          5,
+          4
+        ]
+      },
+      "nativeReview": {
+        "status": "accepted",
+        "reviewer": "independent native-review subagent and calibration agent",
+        "reviewedAt": "2026-10-25",
+        "notes": "Frames5–7 retain prior hand contact; frames8–9 and tick20 hold meet Piper’s crown-side hand in both facings at100%/120%. All15 frames select the candidate atlas. Simulation confirms possession through tick20, ownerless release at21, and exactly one two-point score.",
+        "reports": [
+          "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-100/report.json",
+          "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-120/report.json",
+          "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-simulation.json"
+        ]
+      },
+      "file": "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3.json",
+      "reports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-120/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-simulation.json"
+      ]
+    }
+  ]
+}

@@ -1,11 +1,11 @@
-# Latest validation — J.116 Piper Quickstep `dunk-windmill`
+# Latest validation — J.117 Piper Quickstep `dunk-reverse`
 
-- Piper adds15 poses and reaches21/29 registered clips /173 authored drawings. Source and atlas reviews confirm ordered poses, full anatomy/identity, transparent margins, clean alpha and no baked ball. Raw haze rejection, cleanup, exact prompt/provenance, hashes, layouts, rejected candidates and previews are preserved.
-- Accepted separate track H `[.55,.55,1.25,.72,.65,1.1,.8,.3,1.4,2.2,2.2,1.05,.55,.4,.3]` / F `[19,8,18,18,-13,-5,-8,12,13,-8,-8,20,22,20,18]` passes independent native review at100%/120% in both facings. Piper owns through tick20; release occurs once at21; real simulation scores two points at once.
-- `npm test`: PASS,38/38 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer: PASS,55 tests; production build: PASS.
-- `npm run test:e2e`: BLOCKED before app readiness; the server exits before responding at `127.0.0.1:4175/`.
-- Strict report-only audit `2026-10-25T05:09:45.072Z`:811 clips /7,316 drawings /105 athletes,2,292 missing clips, one target shortfall and4 inherited prompt findings.
-- Next roster action: Piper J.117 `dunk-reverse` (attempt4 source accepted; candidate atlas is retained outside `public/assets` until native track review. Source checkpoint `9b801321` is local; standard push failed at the unavailable port8080 proxy). J.116 is committed locally as `adac3113`; standard push failed because the configured proxy on port8080 is unreachable, so no Pages workflow ran. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
+- Piper adds15 poses and reaches22/29 registered clips /188 authored drawings. Source and atlas review accept the full adult-human identity/anatomy, ordered reverse-dunk poses, transparent margins, alpha and no baked ball. Raw backdrop rejection, cleanup, exact prompt/provenance, hashes, layouts, rejected candidates and previews are preserved.
+- Accepted separate track H `[.35,.4,.65,.5,1.65,1.8,2.5,2.2,1.8,1.9,1.9,1.1,.8,.7,.6]` / F `[10,0,4,5,6,7,0,-7,-6,-2,-2,16,8,5,4]` passes independent native review at100%/120% in both facings. Piper owns through tick20; release occurs once at21; live simulation scores one two-point dunk.
+- `npm test`: PASS,39/39 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer: PASS,55 tests; production build: PASS.
+- `npm run test:e2e`: BLOCKED because the sandbox denies localhost binding (`listen EPERM` at `127.0.0.1:4175`).
+- Strict report-only audit `2026-10-25T12:09:12.753Z`:812 clips /7,331 drawings /105 athletes,2,291 missing clips, one target shortfall and4 inherited prompt findings.
+- Next roster action: Piper J.118 `dunk-360`; attempt1 source is accepted after cleanup, while its separate ball track is pending. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
 
 # Latest validation — J.113 Piper fall
 

@@ -35,29 +35,88 @@
     "status": "accepted",
     "reviewer": "independent source-review subagent",
     "reviewedAt": "2026-10-25",
-    "reviewNotes": "Accept cleaned attempt4 for packing. Frames5\u20138 show readable hand-and-torso progression, with pose7 right hand visible image-left behind the crown; frame10 clearly releases backward/down with open hand. No extra limbs; Piper identity/anatomy consistent; true alpha and >=28px margins. Raw remains rejected for translucent brown background."
+    "reviewNotes": "Accept cleaned attempt4 for packing. Frames5–8 show readable hand-and-torso progression, with pose7 right hand visible image-left behind the crown; frame10 clearly releases backward/down with open hand. No extra limbs; Piper identity/anatomy consistent; true alpha and >=28px margins. Raw remains rejected for translucent brown background."
   },
-  "eligibleForPacking": false,
+  "eligibleForPacking": true,
   "ballBehavior": "No basketball drawn; Piper-specific runtime track required; release frame10/tick21.",
-  "packedAtlasPath": null,
+  "packedAtlasPath": "public/assets/animation/piper-quickstep-dunk-reverse-right.webp",
   "nativeReview": {
-    "status": "pending-separate-ball-track-calibration"
+    "status": "accepted",
+    "reviewer": "independent native-review subagent and parent visual review",
+    "reviewedAt": "2026-10-25",
+    "notes": "Independent native review accepts frames5–7 contact, frames8–9 and pre-release tick20 crown-side hand contact in both facings at100%/120%. All15 production frames select Piper’s atlas. Piper owns through tick20, releases ownerless at tick21, and a real simulation scores exactly one two-point dunk.",
+    "trackFile": "tools/generate-art/piper-quickstep-dunk-reverse-track-calibration.json",
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-120/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-simulation.json"
+    ]
   },
-  "ballTrackStatus": "pending-native-calibration",
-  "packedAtlasSha256": null,
+  "ballTrackStatus": "accepted",
+  "packedAtlasSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
   "packedAtlasBytes": 70888,
   "packedAtlasSize": [
     512,
     384
   ],
-  "packedLayoutFile": null,
+  "packedLayoutFile": "tools/generate-art/piper-quickstep-dunk-reverse15-layouts.json",
   "packedLayoutReview": {
-    "status": "candidate-layout-reviewed",
-    "reviewer": "independent packed-atlas review subagent",
+    "status": "accepted",
+    "reviewer": "independent packed-atlas review and parent calibration review",
     "reviewedAt": "2026-10-25",
-    "notes": "Candidate composition visually reviewed: 512x384 RGBA, 15 distinct ordered cells, transparent final cell, clean gutters/no ball/clipping; identity/anatomy legible. This is retained as a candidate proof only; do not register or treat as production atlas until separate-ball native contact/release review passes."
+    "notes": "Reviewed 4x4 atlas retains fifteen distinct original source poses once in row-major order with a transparent final cell, no ball, no clipping, clean gutters, and readable Piper identity/anatomy."
   },
   "candidateAtlasPath": "tools/generate-art/previews/piper-quickstep-dunk-reverse/attempt4-atlas-candidate/candidate-atlas.webp",
   "candidateAtlasSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
-  "candidateLayoutFile": "tools/generate-art/piper-quickstep-dunk-reverse15-candidate-layouts.json"
+  "candidateLayoutFile": "tools/generate-art/piper-quickstep-dunk-reverse15-candidate-layouts.json",
+  "prompt": "J.117 / Piper Quickstep — DUNK-REVERSE action sheet, attempt 4\n\nCreate one original production sprite sheet for Piper Quickstep performing a reverse basketball dunk for JAMVERSE '96. Canvas exactly 1536×1024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Each cell is about 307×341 pixels. Keep every part of each pose, including her full bright-orange high ponytail, every fingertip, and both shoes, at least 28 pixels inside every cell edge. Keep clear transparent gutters, consistent figure scale, and right-facing three-quarter profile in the approach with profile, three-quarter-back and back views as she turns. No silhouette may overlap, touch or cross a cell boundary. The final cell contains frame 14; no extra art.\n\nPiper is the SAME athletic adult human woman in every pose: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural adult athletic proportions, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, body proportions, uniform and shoe design consistently. Exactly one head, two arms, two hands, two legs, two feet; natural joints and five distinct fingers on each visible hand. No costume changes, jewelry, numbers, text or logo.\n\nDraw one mechanically clear reverse dunk with the basketball on a separate Piper-specific runtime track. NEVER draw a ball, sphere, orb, seams, hoop, rim, net, prop, or held object. Before release, Piper's hands mime the invisible ball; release it exactly once at frame 10 / simulation tick 21 behind her head, with the hand opening and continuing through the imaginary rim plane. Both hands stay empty in frames 11–14. Keep the action distinct from a straight power dunk and windmill: sprint past the imaginary basket, rise to its far side, turn her back toward the imaginary rim, carry the invisible ball behind her crown, then slam backward through the imaginary hoop.\n\nAnatomy lock: every pose must show exactly two separate arms and two hands, attached once at the left and right shoulders. Never duplicate a limb or hand, never create an extra arm behind the torso, and keep both upper-arm/shoulder connections readable. If one arm is occluded by the torso, show only its natural single continuation. Exactly fifteen unique poses in this order:\n0. Grounded right-facing approach run, focused on the imaginary basket.\n1. Two-hand invisible-ball gather near the waist; knees bend.\n2. Takeoff preparation, compact plant and leg drive, hands secure the invisible ball.\n3. Takeoff begins at tick 4; right hand secures the invisible ball beside the hip while the left arm reaches forward for balance. Show exactly one right arm trailing from the right shoulder and exactly one separate left arm from the left shoulder; no doubled trailing hands.\n4. Begin the turn: hips and shoulders rotate away from viewer, right elbow bends and the visible right hand carrying the invisible ball rises beside the right ear; left hand stays forward and separate.\n5. Side-view carry START: torso is three-quarter-back, not fully back. Right hand is a closed, clearly visible fist beside the RIGHT ear on image-right, elbow bent and outside the hair; it is not above the crown yet. Left arm reaches forward. This is the lowest hand position in frames5–8.\n6. Full-back view, distinctly different from pose5: back faces viewer, right forearm vertical and right fist directly ABOVE the crown at image-center, fingers visibly curled around invisible ball. Elbow points up. Left arm extends sideways. Legs tuck asymmetrically.\n7. Crossing carry: turn to three-quarter-back. Right arm crosses over the top of the head from image-right to image-left; the RIGHT HAND is fully visible BEYOND THE IMAGE-LEFT EDGE OF THE CROWN, with separated curled fingers holding the invisible ball. Make the hand-to-elbow-to-shoulder connection clear and keep it outside the hair silhouette. Left arm bends low at the side. The visible hand must be on image-left, not above the crown.\n8. Forward swing from the crossed position: torso rotates toward the rim; right hand moves from image-left of crown to clearly outside image-right of the head, elbow opening. Left hand counterbalances low. This pose must differ clearly from poses5–7.\n9. Peak preparation: strong behind-head reverse dunk extension; right hand and invisible ball reach back toward the rim.\n10. ONLY RELEASE, tick 21: back-facing torso; right shoulder and elbow drive the RIGHT HAND backward toward image-right, fully outside the head/hair silhouette and clearly separated from the crown. The right arm extends behind the head and downward through the imagined rim plane; palm faces away and fingers spread after releasing. The pose silhouette must unmistakably travel behind Piper, not forward toward the viewer. Invisible ball has left the hand. This is the only release frame.\n11. Scoring follow-through at tick 23: empty right hand continues across and below the imaginary rim; eyes follow the imaginary score.\n12. Rotate back toward the viewer while descending, both hands empty.\n13. Controlled landing with knees flexed and arms lowering naturally.\n14. Stable grounded two-foot recovery stance, balanced upright, both hands empty.\n\nMake all fifteen poses visibly distinct, anatomically complete, and mechanically connected. Before returning, verify each of the fifteen frames individually: one head, exactly two arms attached at opposite shoulders, exactly two legs, no doubled hands, no fused body parts, no duplicate limbs. Clearly show the back-facing turn and ball carried behind Piper's crown before release. Poses5–8 are four visibly separate stages: fist at image-right ear; fist vertically above crown in full-back view; hand crossed to image-left outside crown in three-quarter-back view; hand moving to image-right outside head as torso turns. Do not repeat the overhead fist silhouette. Pose10 has the open right hand travelling backward to image-right and down, distinct from pose9. Do not reuse a held pose. Preserve the full ponytail, separated hands/fingers, and shoes inside the margins. Favor margin and pose clarity over figure size. Crisp clean character artwork only on a zero-alpha transparent background. No glow, haze, shadow, floor, court, environment, hoop, rim, net, grid, divider, border, letters, label, opponent, teammate, duplicate person, basketball, extra art or backdrop. Return only the sprite sheet.\n",
+  "ballTrack": {
+    "athlete": "piper-quickstep",
+    "clip": "dunk-reverse",
+    "status": "accepted after native review at100% and120%, both facings",
+    "height": [
+      0.35,
+      0.4,
+      0.65,
+      0.5,
+      1.65,
+      1.8,
+      2.5,
+      2.2,
+      1.8,
+      1.9,
+      1.9,
+      1.1,
+      0.8,
+      0.7,
+      0.6
+    ],
+    "forward": [
+      10,
+      0,
+      4,
+      5,
+      6,
+      7,
+      0,
+      -7,
+      -6,
+      -2,
+      -2,
+      16,
+      8,
+      5,
+      4
+    ],
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "scoreTick": 23,
+    "nativeReview": "Independent native review accepts frames5–7 contact, frames8–9 and pre-release tick20 crown-side hand contact in both facings at100%/120%. All15 production frames select Piper’s atlas. Piper owns through tick20, releases ownerless at tick21, and a real simulation scores exactly one two-point dunk.",
+    "trackFile": "tools/generate-art/piper-quickstep-dunk-reverse-track-calibration.json",
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-120/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-simulation.json"
+    ]
+  }
 }

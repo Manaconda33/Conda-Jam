@@ -1,0 +1,53 @@
+{
+  "candidate": 3,
+  "track": {
+    "height": [
+      0.35,
+      0.4,
+      0.65,
+      0.5,
+      1.65,
+      1.8,
+      2.5,
+      2.2,
+      1.8,
+      1.9,
+      1.9,
+      1.1,
+      0.8,
+      0.7,
+      0.6
+    ],
+    "forward": [
+      10,
+      0,
+      4,
+      5,
+      6,
+      7,
+      0,
+      -7,
+      -6,
+      -2,
+      -2,
+      16,
+      8,
+      5,
+      4
+    ]
+  },
+  "status": "accepted",
+  "change": "Lower frames8–10 slightly and bring the ball toward the palm behind the crown; frame10 remains equal to frame9 through tick20.",
+  "reason": "Independent 120% review found a visible gap between the carried ball and raised palm at frames8–9/tick20, particularly behind the crown in the right-facing render; mirrored view overlaps hairline instead of palm.",
+  "nativeReview": {
+    "status": "accepted",
+    "reviewer": "independent native-review subagent and calibration agent",
+    "reviewedAt": "2026-10-25",
+    "notes": "Frames5–7 retain prior hand contact; frames8–9 and tick20 hold meet Piper’s crown-side hand in both facings at100%/120%. All15 frames select the candidate atlas. Simulation confirms possession through tick20, ownerless release at21, and exactly one two-point score.",
+    "reports": [
+      "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-120/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-reverse/native-calibration/candidate3-simulation.json"
+    ]
+  }
+}
