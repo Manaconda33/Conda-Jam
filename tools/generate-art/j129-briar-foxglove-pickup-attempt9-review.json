@@ -1,0 +1,77 @@
+{
+  "attempt": 9,
+  "generationId": "exec-029f4151-de2a-4ad1-af02-4f2315d62229",
+  "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt9-raw.png",
+  "sha256": "f353228f9bb30fe233a033aff365d1e7822adf4782de609704fdf59014e22475",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "alphaHistogram": {
+    "alpha0": 1283093,
+    "alpha1to63": 56366,
+    "alpha64plus": 233405
+  },
+  "poseComponents": [
+    {
+      "pose": 0,
+      "cell": 0,
+      "marginsLTRB": [
+        129,
+        83,
+        130,
+        38
+      ]
+    },
+    {
+      "pose": 1,
+      "cell": 1,
+      "marginsLTRB": [
+        96,
+        119,
+        62,
+        38
+      ]
+    },
+    {
+      "pose": 2,
+      "cell": 2,
+      "marginsLTRB": [
+        86,
+        185,
+        64,
+        38
+      ]
+    },
+    {
+      "pose": 3,
+      "cell": 3,
+      "marginsLTRB": [
+        120,
+        179,
+        56,
+        66
+      ]
+    },
+    {
+      "pose": 4,
+      "cell": 4,
+      "marginsLTRB": [
+        131,
+        43,
+        131,
+        64
+      ]
+    }
+  ],
+  "cornerAlpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "largeAlpha64ComponentCount": 5,
+  "unusedCellNonzeroAlpha": true,
+  "status": "rejected-background-haze-and-tight-margin",
+  "reason": "Brown/black haze remains visible between and around athlete figures in the source; minimum alpha>=64 pose margin is38px versus the prompt\u2019s120px target. Five ordered poses and Briar identity are readable, but non-character alpha is not transparent and the figure scale/margin target was missed. No packing or cleanup."
+}

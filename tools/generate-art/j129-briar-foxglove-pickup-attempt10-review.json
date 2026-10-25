@@ -1,0 +1,117 @@
+{
+  "attempt": 10,
+  "generationId": "exec-65023656-0403-4be0-b225-f42e03c4ac6c",
+  "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt10-edit-raw.png",
+  "sha256": "3acaac87010cc16c76d6068bd27f2bb79093f37de1c212c4ba1df8dc20a9aaa6",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "alphaHistogram": {
+    "alpha0": 1279355,
+    "alpha1to63": 59664,
+    "alpha64plus": 233845
+  },
+  "cells": [
+    {
+      "cell": 0,
+      "bboxAlphaGte64": [
+        129,
+        83,
+        382,
+        475
+      ],
+      "marginsLTRB": [
+        129,
+        130,
+        83,
+        37
+      ],
+      "alphaGte64Pixels": 47487,
+      "nonzeroAlphaPixels": 58624
+    },
+    {
+      "cell": 1,
+      "bboxAlphaGte64": [
+        608,
+        119,
+        962,
+        475
+      ],
+      "marginsLTRB": [
+        96,
+        62,
+        119,
+        37
+      ],
+      "alphaGte64Pixels": 48219,
+      "nonzeroAlphaPixels": 61489
+    },
+    {
+      "cell": 2,
+      "bboxAlphaGte64": [
+        1110,
+        185,
+        1472,
+        474
+      ],
+      "marginsLTRB": [
+        86,
+        64,
+        185,
+        38
+      ],
+      "alphaGte64Pixels": 44682,
+      "nonzeroAlphaPixels": 56495
+    },
+    {
+      "cell": 3,
+      "bboxAlphaGte64": [
+        119,
+        691,
+        456,
+        959
+      ],
+      "marginsLTRB": [
+        119,
+        56,
+        179,
+        65
+      ],
+      "alphaGte64Pixels": 44910,
+      "nonzeroAlphaPixels": 56960
+    },
+    {
+      "cell": 4,
+      "bboxAlphaGte64": [
+        642,
+        555,
+        894,
+        960
+      ],
+      "marginsLTRB": [
+        130,
+        130,
+        43,
+        64
+      ],
+      "alphaGte64Pixels": 48547,
+      "nonzeroAlphaPixels": 59909
+    },
+    {
+      "cell": 5,
+      "bboxAlphaGte64": [],
+      "marginsLTRB": [],
+      "alphaGte64Pixels": 0,
+      "nonzeroAlphaPixels": 32
+    }
+  ],
+  "cornerAlpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "status": "rejected-background-haze-and-tight-margin",
+  "reason": "The edit did not remove the brown radial haze. Five pose figures remain legible and separate, but non-character alpha fills the inter-pose and cell backgrounds; the minimum alpha>=64 cell margin remains below the 120px prompt target. The unused sixth cell still contains nonzero alpha. No cleanup, packing, or registration."
+}

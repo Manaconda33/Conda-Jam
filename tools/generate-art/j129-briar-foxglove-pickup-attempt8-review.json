@@ -1,0 +1,176 @@
+{
+  "attempt": 8,
+  "generationId": "exec-aea607d4-42db-4248-b522-133558e2ce6c",
+  "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt8-raw.png",
+  "sha256": "c2c49318310a7117000e6cbef6f47910256fa7cd42dd831fae39ae9c7f0cac91",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "alphaHistogram": {
+    "alpha0": 1284401,
+    "alpha1to63": 42859,
+    "alpha64to254": 245604,
+    "alpha255": 0
+  },
+  "cornerAlpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "largeAlpha64Components": [
+    {
+      "component": 1,
+      "area": 49768,
+      "bboxAlphaGt64": [
+        103,
+        57,
+        363,
+        472
+      ],
+      "cell": [
+        0,
+        0
+      ],
+      "marginsLTRB": [
+        103,
+        57,
+        149,
+        40
+      ]
+    },
+    {
+      "component": 2,
+      "area": 50820,
+      "bboxAlphaGt64": [
+        623,
+        89,
+        955,
+        470
+      ],
+      "cell": [
+        1,
+        0
+      ],
+      "marginsLTRB": [
+        111,
+        89,
+        69,
+        42
+      ]
+    },
+    {
+      "component": 3,
+      "area": 49413,
+      "bboxAlphaGt64": [
+        1134,
+        144,
+        1472,
+        470
+      ],
+      "cell": [
+        2,
+        0
+      ],
+      "marginsLTRB": [
+        110,
+        144,
+        64,
+        42
+      ]
+    },
+    {
+      "component": 4,
+      "area": 49717,
+      "bboxAlphaGt64": [
+        626,
+        551,
+        889,
+        955
+      ],
+      "cell": [
+        1,
+        1
+      ],
+      "marginsLTRB": [
+        114,
+        39,
+        135,
+        69
+      ]
+    },
+    {
+      "component": 5,
+      "area": 45886,
+      "bboxAlphaGt64": [
+        107,
+        661,
+        436,
+        955
+      ],
+      "cell": [
+        0,
+        1
+      ],
+      "marginsLTRB": [
+        107,
+        149,
+        76,
+        69
+      ]
+    }
+  ],
+  "poseCount": 5,
+  "cellAssignmentCount": {
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 0
+  },
+  "perCellAlphaCounts": [
+    {
+      "cell": 0,
+      "alphaNonzero": 59046,
+      "alphaGe64": 49768,
+      "alphaGe1": 59046
+    },
+    {
+      "cell": 1,
+      "alphaNonzero": 59490,
+      "alphaGe64": 50820,
+      "alphaGe1": 59490
+    },
+    {
+      "cell": 2,
+      "alphaNonzero": 57062,
+      "alphaGe64": 49413,
+      "alphaGe1": 57062
+    },
+    {
+      "cell": 3,
+      "alphaNonzero": 53881,
+      "alphaGe64": 45886,
+      "alphaGe1": 53881
+    },
+    {
+      "cell": 4,
+      "alphaNonzero": 58922,
+      "alphaGe64": 49717,
+      "alphaGe1": 58922
+    },
+    {
+      "cell": 5,
+      "alphaNonzero": 62,
+      "alphaGe64": 0,
+      "alphaGe1": 62
+    }
+  ],
+  "sourcePreview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt8-light-dark-review.png",
+  "review": {
+    "status": "rejected",
+    "notes": "Five complete, distinct Briar poses in the intended row-major cells, with no ball. On light/dark composites there is no large opaque background, but non-character alpha specks remain, including62 nonzero-alpha pixels in empty cell5 and isolated specks reaching some cell borders. Main alpha>=64 body-component margins are39\u2013144px, below the prompt minimum100px. Parent visual review also noted brown haze in the generation preview. Reject; do not pack or register."
+  }
+}
