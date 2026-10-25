@@ -1,0 +1,78 @@
+{
+  "task": "J.130",
+  "character": "briar-foxglove",
+  "animation": "layup",
+  "attempt": 2,
+  "frame": 3,
+  "status": "unreviewed_raw_source",
+  "generator": "image_gen.imagegen",
+  "generation_id": "exec-5584a8ef-da9a-4cc4-9bca-31b5e5103ff1",
+  "original_generated_path": "/workspace/generated_images/exec-5584a8ef-da9a-4cc4-9bca-31b5e5103ff1.png",
+  "raw_path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-raw.png",
+  "prompt_path": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-prompt.md",
+  "reference_paths": [
+    "public/assets/animation/briar-foxglove-shoot-right.webp",
+    "public/assets/animation/briar-foxglove-receive-right.webp",
+    "public/assets/animation/briar-foxglove-idle-right.webp"
+  ],
+  "sha256": "74de6a045c8ec12e2cb487c58744735915762062f369258fce1550f1c3dc851f",
+  "dimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "mode": "RGBA",
+  "alpha": {
+    "extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 1324640,
+    "nonzero_bounds_xyxy_exclusive": [
+      0,
+      23,
+      1208,
+      1214
+    ],
+    "padding_ltrb": [
+      0,
+      23,
+      46,
+      40
+    ],
+    "nonzero_pixels": 247876,
+    "threshold_bounds": {
+      "1": [
+        0,
+        23,
+        1208,
+        1214
+      ],
+      "8": [
+        394,
+        95,
+        1003,
+        1165
+      ],
+      "32": [
+        395,
+        95,
+        1003,
+        1163
+      ],
+      "128": [
+        396,
+        96,
+        1002,
+        1162
+      ],
+      "250": [
+        399,
+        97,
+        999,
+        1161
+      ]
+    }
+  },
+  "visual_observations": "One complete human Briar facing right, high knee and long raised shooting arm, other hand open away. No ball or prop. POSE DEVIATION: shooting wrist is folded forward/down in a follow-through silhouette rather than upward layup palm, and arm is more extended than requested prerelease pose. Top padding is visibly smaller than requested 15%; needs reviewer decision before use. Alpha measurement finds low-opacity source content near the canvas perimeter despite the visibly padded main figure; raw all-nonzero bounds do not meet the requested transparent margin. This is recorded unchanged for review.",
+  "processing": "Byte-for-byte copy of untouched imagegen output; no cleaning, normalization, assembly, acceptance or packing."
+}

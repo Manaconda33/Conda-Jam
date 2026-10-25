@@ -1,0 +1,78 @@
+{
+  "task": "J.130",
+  "character": "briar-foxglove",
+  "animation": "layup",
+  "attempt": 2,
+  "frame": 1,
+  "status": "unreviewed_raw_source",
+  "generator": "image_gen.imagegen",
+  "generation_id": "exec-286c9e5a-8d7b-485c-80af-abbe27e8688a",
+  "original_generated_path": "/workspace/generated_images/exec-286c9e5a-8d7b-485c-80af-abbe27e8688a.png",
+  "raw_path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose1-raw.png",
+  "prompt_path": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose1-prompt.md",
+  "reference_paths": [
+    "public/assets/animation/briar-foxglove-shoot-right.webp",
+    "public/assets/animation/briar-foxglove-receive-right.webp",
+    "public/assets/animation/briar-foxglove-idle-right.webp"
+  ],
+  "sha256": "a525f4340b080141fcd309ee74cc04c965c5072198ed42fdb2b25bdb16d5bb55",
+  "dimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "mode": "RGBA",
+  "alpha": {
+    "extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 1356179,
+    "nonzero_bounds_xyxy_exclusive": [
+      19,
+      69,
+      1230,
+      1214
+    ],
+    "padding_ltrb": [
+      19,
+      69,
+      24,
+      40
+    ],
+    "nonzero_pixels": 216337,
+    "threshold_bounds": {
+      "1": [
+        19,
+        69,
+        1230,
+        1214
+      ],
+      "8": [
+        445,
+        123,
+        879,
+        1076
+      ],
+      "32": [
+        446,
+        123,
+        879,
+        1076
+      ],
+      "128": [
+        447,
+        124,
+        878,
+        1075
+      ],
+      "250": [
+        450,
+        124,
+        875,
+        1075
+      ]
+    }
+  },
+  "visual_observations": "One complete human Briar facing right, opposite knee raised and pushing leg extended downward. Empty curved hands gathered at upper chest below chin. Reads as takeoff, though pushing shoe is floating without ground reference. No ball or prop. Alpha measurement finds low-opacity source content near the canvas perimeter despite the visibly padded main figure; raw all-nonzero bounds do not meet the requested transparent margin. This is recorded unchanged for review.",
+  "processing": "Byte-for-byte copy of untouched imagegen output; no cleaning, normalization, assembly, acceptance or packing."
+}
