@@ -1,0 +1,10 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry24",
+  "decision": "NOT REVIEWABLE",
+  "generationId": null,
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry24-prompt.md",
+  "provenance": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry24-provenance.json",
+  "rawSource": null,
+  "preview": null,
+  "reason": "The ImageGen caller did not capture the output_hint/generation ID, source path, or hash. Other agents generated images concurrently, so no file can safely be linked to this call. No pose, transparency, margin, anatomy, or ball-alignment claims are made. Do not use, clean, pack, or register this un-attributed output."
+}
