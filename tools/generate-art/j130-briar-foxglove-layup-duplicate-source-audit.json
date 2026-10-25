@@ -1,0 +1,43 @@
+{
+  "asset": "J.130 Briar Foxglove layup",
+  "method": "SHA-256 of decoded RGBA pixel bytes; file encoding metadata is ignored",
+  "rawSourceCount": 50,
+  "duplicateGroupCount": 2,
+  "duplicateGroups": [
+    {
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "decodedRgbaSha256": "8a63e96bbb3daf6ef60fff952b685749178e5c956500a223e7a596fc4a58f7f1",
+      "files": [
+        {
+          "path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry11-raw.png",
+          "fileSha256": "3cee09de82d91a9515f449cb0998910d105c590c20af4b4c78f8b7635a720355"
+        },
+        {
+          "path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry13-raw.png",
+          "fileSha256": "3cee09de82d91a9515f449cb0998910d105c590c20af4b4c78f8b7635a720355"
+        }
+      ]
+    },
+    {
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "decodedRgbaSha256": "567aa256e8f23d132d0abdde8dda8ece31c4934d0e5eeda0aa3bd437167ff3c2",
+      "files": [
+        {
+          "path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry12-raw.png",
+          "fileSha256": "216170a0be68c709774b7e3388f26a18cc3c55faf7a62d92f1ec95555485939f"
+        },
+        {
+          "path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry8-raw.png",
+          "fileSha256": "0b131d05dc070055b960c85e0bfa5c12698a08e7e11bd1cd2f4a218b74248451"
+        }
+      ]
+    }
+  ],
+  "decision": "Every duplicate source remains a rejected provenance record and cannot count as a distinct authored pose."
+}

@@ -9,7 +9,7 @@
   "sourceSha256": "9f1dc255c5aaf80148514d22a4b32ee139f9ce7e979a1732510dea40fc798550",
   "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry9-prompt.md",
   "promptSha256": "c012d164a95dec03261098d948d03c6166780001a65a3e8115dc6db817f53854",
-  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry8-light-dark-review.png",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry9-light-dark-review.png",
   "decision": "reject; preserve untouched; do not clean or assemble",
   "observations": {
     "identityAndAnatomy": "Adult human woman with shoulder-length dark locs and vivid red headband; recognizable two-arm/two-leg anatomy. No extra limb observed.",
