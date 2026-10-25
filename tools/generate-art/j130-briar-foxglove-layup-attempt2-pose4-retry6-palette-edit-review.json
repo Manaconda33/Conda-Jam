@@ -1,0 +1,31 @@
+{
+  "issue": "J.130",
+  "reviewer": "primary independent comparison",
+  "frame": 4,
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry6-raw.png",
+  "editedCandidate": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit-raw.png",
+  "decision": "reject as the requested color-only edit",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry6-palette-edit-light-dark-review.png",
+  "checks": {
+    "dimensionsPreserved": true,
+    "poseBroadlySimilar": true,
+    "exactPoseSilhouettePreserved": false,
+    "handAndFingerPixelsPreserved": false,
+    "faceAndHairPixelsPreserved": false,
+    "nonSkinPixelsPreserved": false,
+    "transparentPixelRgbAndAlphaPreserved": false
+  },
+  "metrics": {
+    "sharedAlpha64Pixels": 150542,
+    "sharedAlpha64RgbChangedPixels": 150308,
+    "alpha64MaskIntersectionOverUnion": 0.961887,
+    "alpha64MaskXorPixels": 5965,
+    "sourceNonzeroAlphaBoundsLTRBExclusive": [25, 19, 1234, 1230],
+    "editNonzeroAlphaBoundsLTRBExclusive": [17, 39, 1208, 1182]
+  },
+  "findings": [
+    "Side-by-side review shows a new drawing: loc shape, facial features, finger positions, uniform details and shoe contours changed.",
+    "The edit does not preserve non-skin pixels, so it fails the explicit exact-silhouette and skin-only prompt.",
+    "The edited art is not accepted for assembly. Preserve the original and edit as separate rejected trials."
+  ]
+}

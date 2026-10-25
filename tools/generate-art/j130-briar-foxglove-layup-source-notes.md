@@ -41,4 +41,6 @@ Frame4 retry1 fixes the folded leg but has a chest marking and color drift; retr
 
 Palette analysis of accepted Briar idle source regions estimates median skin at RGB `(145,70,39)`, shadow `(85,35,17)`, and highlight `(193,114,70)`. Rejected retries trend brighter with too little blue relative to red. These anchors were added to the retry5/retry7 prompts, but the output still drifts orange. Treat them as prompt guidance only; every candidate still needs side-by-side visual identity review.
 
+Frame4 retry6 received a tightly constrained palette-only edit (`exec-5627875a-ec7b-4549-b3b1-88d3f49b1d8f`) using those RGB anchors and the accepted shoot/receive/idle atlases. It darkens the broad skin areas but fails the edit constraint: 150,308 of 150,542 shared alpha≥64 pixels changed RGB and the alpha silhouette has 5,965 differing pixels. Locs, face, fingers, uniform details and shoe contours were regenerated. Preserve it as a rejected edit in `j130-briar-foxglove-layup-attempt2-pose4-retry6-palette-edit-*`; do not substitute it for the raw source or accept it for packing.
+
 Preserve every exact prompt, generation ID, raw source, SHA-256, dimensions, bounds, preview and rejection/acceptance decision. Do not invent, duplicate, redraw, mirror or reorder poses. Keep the ball on Briar's separate runtime track.
