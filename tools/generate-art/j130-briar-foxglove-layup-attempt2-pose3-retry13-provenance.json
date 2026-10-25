@@ -1,11 +1,11 @@
 {
-  "asset": "J.130 Briar Foxglove layup frame3 retry13",
+  "asset": "J.130 Briar Foxglove layup frame3 retry13 \u2014 duplicate-source rejection",
   "generationId": "exec-8ef9b326-b480-46bc-aef2-b5019268ae9d",
-  "generator": "OpenAI image_gen with explicit accepted Briar source reference",
+  "generator": "image_gen.imagegen",
   "referenceImages": [
     "tools/generate-art/sources/j128-briar-foxglove-receive-generated-raw.png"
   ],
-  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry13-prompt.md",
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry11-prompt.md",
   "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry13-raw.png",
   "rawSha256": "3cee09de82d91a9515f449cb0998910d105c590c20af4b4c78f8b7635a720355",
   "dimensions": [
@@ -166,5 +166,21 @@
     }
   },
   "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry13-light-dark-review.png",
-  "decision": "REJECT \u2014 fingers rise above the crown/headband; orange-red palette drift; threshold-8 top margin falls below 25%; many alpha components/residue."
+  "decision": "REJECT \u2014 duplicate source; not a valid separate frame3 candidate.",
+  "frame": 3,
+  "retry": 13,
+  "referencedImagePaths": [
+    "public/assets/animation/briar-foxglove-idle-right.webp",
+    "public/assets/animation/briar-foxglove-shoot-right.webp",
+    "public/assets/animation/briar-foxglove-receive-right.webp"
+  ],
+  "duplicateOf": {
+    "frame": 2,
+    "retry": 11,
+    "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry11-raw.png",
+    "rawSha256": "3cee09de82d91a9515f449cb0998910d105c590c20af4b4c78f8b7635a720355",
+    "generationId": "exec-8ef9b326-b480-46bc-aef2-b5019268ae9d"
+  },
+  "attemptedFrame3PromptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry13-prompt.md",
+  "status": "REJECTED: byte-identical duplicate of pose2 retry11; not a distinct frame3 generation or eligible pose source. The retry13 frame3 prompt has no verified corresponding output."
 }

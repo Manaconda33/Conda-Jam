@@ -1,18 +1,23 @@
 {
   "asset": "J.130 Briar Foxglove layup frame3 retry13",
-  "decision": "REJECT",
+  "decision": "REJECT \u2014 DUPLICATE SOURCE",
+  "duplicateAudit": "Byte-for-byte identical to J.130 pose2 retry11; raw SHA-256 and generation ID match exactly.",
   "source_sha256": "3cee09de82d91a9515f449cb0998910d105c590c20af4b4c78f8b7635a720355",
-  "checks": {
-    "pose_sequence": "FAIL: shooting hand is upright in front of the face, with fingertips above crown/headband rather than an eyebrow-level prerelease palm below the headband.",
-    "identity_anatomy": "PASS: one adult human Briar likeness with locs/headband and two arms/two legs; no extra anatomy.",
-    "uniform": "PARTIAL: russet/cream kit and bare hands, but skin is visibly orange-red versus accepted deep-brown palette.",
-    "transparency": "FAIL: nonzero-alpha residue touches canvas boundaries; many small components remain.",
-    "cell_margins": "FAIL: threshold-8 margins [459, 256, 368, 315]px, top margin 20.41%; below required 25% at top.",
-    "full_pose": "PASS: entire figure visible at alpha>=64."
+  "generationId": "exec-8ef9b326-b480-46bc-aef2-b5019268ae9d",
+  "duplicateOf": {
+    "frame": 2,
+    "retry": 11,
+    "raw_source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry11-raw.png",
+    "review_file": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry11-review.json"
   },
-  "reference_path": "tools/generate-art/sources/j128-briar-foxglove-receive-generated-raw.png",
-  "prompt_file": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry13-prompt.md",
-  "raw_source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry13-raw.png",
+  "frame3PromptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry13-prompt.md",
+  "sourcePromptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry11-prompt.md",
+  "source_path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry13-raw.png",
   "preview_path": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry13-light-dark-review.png",
-  "notes": "First explicit-reference generation. Retain untouched; do not clean or pack."
+  "checks": {
+    "independent_generation": "FAIL: exact duplicate of pose2 retry11 source and generation ID; no independently generated frame3 source is evidenced.",
+    "frame3_pose_eligibility": "FAIL: do not count, clean, normalize, or pack as a distinct frame3 pose.",
+    "anatomy_palette_transparency_margins": "Inherited from the source frame2 rejection; these checks do not establish frame3 suitability."
+  },
+  "notes": "The duplicate PNG and its attempted frame3 prompt are retained for provenance. No source correction or alternate generation has been inferred."
 }
