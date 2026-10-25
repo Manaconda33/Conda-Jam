@@ -1,0 +1,16 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry12",
+  "decision": "REJECT",
+  "source_sha256": "216170a0be68c709774b7e3388f26a18cc3c55faf7a62d92f1ec95555485939f",
+  "checks": {
+    "pose_sequence": "PASS: airborne transition with compact folded trailing leg; raised palm-up shooting hand stays below headband/crown and the guide hand remains distinct",
+    "identity_anatomy": "PASS: adult human Briar likeness, locs and red headband; two arms and two legs, no extra limb or fox traits",
+    "uniform": "PARTIAL: blank russet jersey, cream shorts/socks/trainers and bare wrists; skin remains visibly too bright/orange versus accepted deep-brown reference",
+    "transparency": "FAIL: alpha>=1 residue reaches left and bottom canvas edges; alpha>=8 silhouette has only component analysis recorded in provenance",
+    "cell_margins": "FAIL: alpha>=64 margins are 278px left,149px top,247px right,180px bottom (22.2%,11.9%,19.7%,14.4%); fails 25% each side and 50% max silhouette size",
+    "full_pose": "PASS: complete head, hands, legs and shoes visible; no crop at alpha>=64"
+  },
+  "preview_path": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry12-light-dark-review.jpg",
+  "source_path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry12-raw.png",
+  "notes": "Keep as rejected candidate. Do not clean or normalize; fresh source required."
+}

@@ -1,0 +1,148 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 candidate retry12",
+  "generation_id": "exec-cb9af4ad-7f02-4b4f-b87e-71de8df5cd63",
+  "tool": "image_gen.imagegen",
+  "created_utc": "2026-10-25",
+  "requested_size": [
+    1024,
+    1024
+  ],
+  "actual_size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "transparent_background_requested": true,
+  "raw_path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry12-raw.png",
+  "raw_sha256": "216170a0be68c709774b7e3388f26a18cc3c55faf7a62d92f1ec95555485939f",
+  "prompt_path": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry12-prompt.md",
+  "threshold_bounds": {
+    "1": {
+      "bbox": [
+        23,
+        59,
+        1234,
+        1254
+      ],
+      "margins_px": [
+        23,
+        59,
+        20,
+        0
+      ],
+      "margin_fraction": [
+        0.018341307814992026,
+        0.04704944178628389,
+        0.01594896331738437,
+        0.0
+      ]
+    },
+    "8": {
+      "bbox": [
+        276,
+        148,
+        1007,
+        1075
+      ],
+      "margins_px": [
+        276,
+        148,
+        247,
+        179
+      ],
+      "margin_fraction": [
+        0.22009569377990432,
+        0.11802232854864433,
+        0.19696969696969696,
+        0.14274322169059012
+      ]
+    },
+    "32": {
+      "bbox": [
+        278,
+        149,
+        1007,
+        1074
+      ],
+      "margins_px": [
+        278,
+        149,
+        247,
+        180
+      ],
+      "margin_fraction": [
+        0.22169059011164274,
+        0.11881977671451356,
+        0.19696969696969696,
+        0.14354066985645933
+      ]
+    },
+    "64": {
+      "bbox": [
+        278,
+        149,
+        1007,
+        1074
+      ],
+      "margins_px": [
+        278,
+        149,
+        247,
+        180
+      ],
+      "margin_fraction": [
+        0.22169059011164274,
+        0.11881977671451356,
+        0.19696969696969696,
+        0.14354066985645933
+      ]
+    },
+    "128": {
+      "bbox": [
+        279,
+        149,
+        1007,
+        1073
+      ],
+      "margins_px": [
+        279,
+        149,
+        247,
+        181
+      ],
+      "margin_fraction": [
+        0.22248803827751196,
+        0.11881977671451356,
+        0.19696969696969696,
+        0.14433811802232854
+      ]
+    },
+    "250": {
+      "bbox": [
+        282,
+        150,
+        998,
+        1073
+      ],
+      "margins_px": [
+        282,
+        150,
+        256,
+        181
+      ],
+      "margin_fraction": [
+        0.22488038277511962,
+        0.11961722488038277,
+        0.20414673046251994,
+        0.14433811802232854
+      ]
+    }
+  },
+  "alpha_ge_8_components": {
+    "count": 142,
+    "largest_pixels": 234487,
+    "pixels_outside_largest": 260
+  },
+  "source_file_unchanged": true,
+  "decision": "rejected; no cleanup or packing"
+}
