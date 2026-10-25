@@ -1,0 +1,24 @@
+{
+  "runner": "createMatch/stepMatch with process-local dunk-360 track",
+  "athlete": "piper-quickstep",
+  "clip": "dunk-360",
+  "releaseTick": 21,
+  "ownerThrough20": true,
+  "release": {
+    "tick": 21,
+    "owner": null,
+    "mode": "dunk",
+    "score": [
+      0,
+      0
+    ],
+    "attemptId": "dunk-1"
+  },
+  "score": 2,
+  "attempts": 1,
+  "track": {
+    "height": 2.5,
+    "forward": -0.5
+  },
+  "candidate": "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2.json"
+}

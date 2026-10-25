@@ -1,10 +1,11 @@
 # Animation asset status
 
-Issue #3 remains in progress. The strict report-only audit at `2026-10-25T12:09:12.753Z` inspects **812 registered clips / 7,331 unique authored drawings** across **105 athletes**. It reports **2,291 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
+Issue #3 remains in progress. The strict report-only audit at `2026-10-25T12:46:10.618Z` inspects **813 registered clips / 7,346 unique authored drawings** across **105 athletes**. It reports **2,290 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
 
-Piper `dunk-power` J.115, `dunk-windmill` J.116, and `dunk-reverse` J.117 are accepted and registered. J.117's separate Piper track H `[.35,.4,.65,.5,1.65,1.8,2.5,2.2,1.8,1.9,1.9,1.1,.8,.7,.6]` / F `[10,0,4,5,6,7,0,-7,-6,-2,-2,16,8,5,4]` passed independent native review in both facings at100%/120%. It holds contact through tick20, releases once at21, and scores one two-point dunk. Candidate history and all previews are preserved.
+Piper `dunk-power` J.115, `dunk-windmill` J.116, `dunk-reverse` J.117, and `dunk-360` J.118 are accepted and registered. J.118's separate track H `[.95,1.1,.55,1.3,1.45,1.25,1.2,2.0,1.0,1.8,3.2,2.4,1.5,.7,.55]` / F `[6,6,4,5,0,-4,12,-8,10,-4,3,8,8,5,5]` passed native review both facings at100%/120%; it holds contact through tick20, releases ownerless at21, and scores once for two. All diagnostic-only tracks for the rejected attempt1 source remain preserved.
 
-Piper `dunk-360` J.118 is next. Attempts1–2 are preserved and rejected for source-canon mismatch: the required J101 middle-row, third-column shoulder-secured hand was absent or shifted into a neighboring cell. Attempt3 source SHA-256 `10bc9afa202fcdd4d2bdef255609feb1799d6c0dc06e5faa128bebbb7aa1eaf9` passes independent review for the exact 15-pose J101 sequence, Piper identity/anatomy, no ball, true transparency and >=28px margins. Attempt1 raw/clean and attempt2 raw/clean hashes, all prompts/reviews/proofs remain preserved. Attempt1 native candidates1–5 are diagnostic-only/rejected; attempt3 native track review is pending and no atlas is registered. J.119 Piper `dunk-tomahawk` attempt2 is source-reviewed and committed locally as `431ec7a9`; its native track is pending.
+Piper J.119 `dunk-tomahawk` attempt2 is source-reviewed and committed locally as `431ec7a9`; its native ball track and production atlas are pending.
+
 
 
 

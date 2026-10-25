@@ -1,0 +1,30 @@
+{
+  "reviewer": "independent native preview review",
+  "candidate": "candidate2.json",
+  "sourceAttempt": 3,
+  "status": "visual contact accepted for continued candidate evaluation",
+  "renderSelection": {
+    "zooms": [100, 120],
+    "facings": ["right / unflipped", "left / flipped"],
+    "distinctSelectedFramesPerZoom": 15,
+    "actionCapturesPerZoom": 32,
+    "atlas": "attempt3-atlas-candidate/candidate-atlas.webp",
+    "productionAtlasSelected": true,
+    "frame7Selected": 7
+  },
+  "contactReview": {
+    "frame6": "Ball is at the forward extended-hand side; close contact visually at both facings and zooms.",
+    "frame7_shoulder_pose": "Ball overlaps/touches the bent shoulder-side hand area in the new middle-row, column-3 pose; no conspicuous detached gap at either facing or zoom.",
+    "frame8": "Ball is near the lower extended hand through the turn; close contact at both facings and zooms.",
+    "frame9_and_tick20": "Ball remains beside the raised/cocked hand, with near-contact through the last carried tick in both facings and zooms.",
+    "frame10_release": "Release state is ownerless; no contact requirement after tick21."
+  },
+  "simulation": {
+    "report": "candidate2-simulation.json",
+    "ownerThroughTick20": true,
+    "tick21": "ownerless, mode dunk",
+    "actualScore": 2,
+    "scoredAttempts": 1
+  },
+  "notes": "Visual assessment is based on native production-rendered captures. Frame7 hand is partly obscured by the ball at this scale, but the ball sits on the visible shoulder-hand contact area rather than on the face side as in attempt3 candidate1. No frame shows a large separation."
+}

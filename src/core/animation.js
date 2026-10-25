@@ -754,7 +754,10 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   'dunk-windmill':{height:[.55,.55,1.25,.72,.65,1.1,.8,.3,1.4,2.2,2.2,1.05,.55,.4,.3],forward:[19,8,18,18,-13,-5,-8,12,13,-8,-8,20,22,20,18]},
   // The reverse carry meets Piper's crown-side hand and stays there through
   // tick20 before the single ownerless release at tick21.
-  'dunk-reverse':{height:[.35,.4,.65,.5,1.65,1.8,2.5,2.2,1.8,1.9,1.9,1.1,.8,.7,.6],forward:[10,0,4,5,6,7,0,-7,-6,-2,-2,16,8,5,4]}
+  'dunk-reverse':{height:[.35,.4,.65,.5,1.65,1.8,2.5,2.2,1.8,1.9,1.9,1.1,.8,.7,.6],forward:[10,0,4,5,6,7,0,-7,-6,-2,-2,16,8,5,4]},
+  // Follow Piper's new shoulder-secured 360 spin hand, cocked palm, and sole
+  // release; keep the separate ball held through tick20.
+  'dunk-360':{height:[.95,1.1,.55,1.3,1.45,1.25,1.2,2.0,1.0,1.8,3.2,2.4,1.5,.7,.55],forward:[6,6,4,5,0,-4,12,-8,10,-4,3,8,8,5,5]}
 },'reed-ashcroft':{
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.

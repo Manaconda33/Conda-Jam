@@ -1,0 +1,49 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-360",
+  "status": "accepted",
+  "height": [
+    0.95,
+    1.1,
+    0.55,
+    1.3,
+    1.45,
+    1.25,
+    1.2,
+    2,
+    1,
+    1.8,
+    3.2,
+    2.4,
+    1.5,
+    0.7,
+    0.55
+  ],
+  "forward": [
+    6,
+    6,
+    4,
+    5,
+    0,
+    -4,
+    12,
+    -8,
+    10,
+    -4,
+    3,
+    8,
+    8,
+    5,
+    5
+  ],
+  "releaseFrame": 10,
+  "releaseTick": 21,
+  "scoreTick": 23,
+  "nativeReview": "Independent native review accepts shoulder contact at frame7, hand alignment through the 360 return and the raised-palm hold at tick20 in both facings at100%/120%. All15 distinct frames select Piper’s candidate atlas. Piper owns through tick20, releases ownerless at21, and a real simulation scores exactly one two-point dunk.",
+  "candidateHistory": "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate-history.json",
+  "previewReports": [
+    "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-100/report.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-120/report.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-simulation.json"
+  ]
+}

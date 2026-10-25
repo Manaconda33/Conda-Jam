@@ -1,12 +1,11 @@
-# Latest validation — J.117 Piper Quickstep `dunk-reverse`
+# Latest validation — J.118 Piper Quickstep `dunk-360`
 
-J.117 is integrated at22/29 clips /188 drawings. Its latest full validation passes39/39 JS test files, lint18 modules, content validation35/105, 100-match simulation /861,421 ticks /6 overtimes,55 atlas packer tests and build. E2E is blocked by sandbox `listen EPERM` at `127.0.0.1:4175`.
-
-## Current asset work — J.118 Piper `dunk-360`
-
-Attempts1–2 are rejected for source-canon mismatch: the required J101 middle-row, third-column high airborne pose with a shoulder-secured hand was missing or shifted to a neighboring cell. Attempt1 also produced five diagnostic-only tracks, all rejected for contact gaps; preserve their vectors/previews. Attempt3 now passes independent source review: all15 distinct ordered poses, correct shoulder hand, identity/anatomy, ball-free transparency, >=28px margins. Raw/clean hashes are `c2a7216985ca1d625a6f7ab9f53d0cb4bdeadbf01c1ac6b3393b373815fa7c7c` / `10bc9afa202fcdd4d2bdef255609feb1799d6c0dc06e5faa128bebbb7aa1eaf9`. Native track review remains pending, no atlas is registered.
-
-Strict audit remains `2026-10-25T12:09:12.753Z`:812 clips /7,331 drawings /105 athletes,2,291 missing clips, one target shortfall and4 inherited prompt findings. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
+- Piper adds15 poses and reaches23/29 clips /203 authored drawings. Attempt3 source and atlas reviews accept the exact 360 sequence, shoulder-secured pose, full identity/anatomy, clear alpha, >=28px cell margins and ball-free artwork. Attempts1–2 remain rejected and preserved; their absent/misplaced shoulder hand made native calibration invalid. Attempt1's five native vectors remain diagnostic-only.
+- Accepted track H `[.95,1.1,.55,1.3,1.45,1.25,1.2,2.0,1.0,1.8,3.2,2.4,1.5,.7,.55]` / F `[6,6,4,5,0,-4,12,-8,10,-4,3,8,8,5,5]` passes independent native review at100%/120% in both facings. Contact holds through tick20, release once at21, and live simulation scores one two-point dunk.
+- `npm test`: PASS,40/40 files; lint18 modules; content validation35/105; simulation100 matches /861,421 ticks /6 overtimes; atlas packer55 tests; production build PASS.
+- E2E is blocked by sandbox `listen EPERM` at `127.0.0.1:4175`.
+- Strict audit `2026-10-25T12:46:10.618Z`:813 clips /7,346 drawings /105 athletes, 2,290 missing clips, one target shortfall and4 inherited prompt findings.
+- Next roster action: J.119 Piper `dunk-tomahawk` (attempt2 source accepted; native track pending). Latest deployed Pages checkpoint remains `513e0a59` / run #169.
 
 # Latest validation — J.113 Piper fall
 

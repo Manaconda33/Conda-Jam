@@ -8,7 +8,7 @@
   "generatedAt": "2026-10-25T12:36:48Z",
   "generatedAtNote": "Timestamp recorded immediately after ImageGen return; the tool did not expose an exact generation wallclock.",
   "promptFile": "tools/generate-art/piper-quickstep-dunk-360-attempt3-prompt.md",
-  "prompt": "J.118 / Piper Quickstep \u2014 DUNK-360 action sheet, attempt 3\n\nAction canon: follow the explicit fifteen-pose `dunk-360` sequence in `tools/generate-art/j101-keeg-dunk-360-prompt.md`. This Piper-specific prompt preserves that full turn, handoff, single release and landing sequence while using Piper's canonical appearance and the established Piper sprite-sheet style.\n\nCreate one original production sprite sheet for Piper Quickstep performing a powerful full-body 360 basketball dunk for JAMVERSE '96. Canvas exactly 1536\u00d71024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Each cell is approximately 307\u00d7341 pixels. Keep every part of every pose\u2014including the entire bright-orange high ponytail, every fingertip, and both shoes\u2014at least 28 pixels inside every cell edge. Keep clear transparent gutters, consistent figure scale, camera and anatomy. Piper approaches facing image-right; complete the turn while airborne. No pose may overlap, touch or cross a cell boundary. No cell boundaries, scenery, court, hoop, floor, shadows, effects, text, labels, teammate, opponent or props.\n\nPiper is the same athletic adult human woman in every pose: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural adult athletic proportions, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, body proportions, uniform and shoes consistently. Exactly one head, two arms, two hands, two legs and two feet, with natural joints and five fingers on each visible hand. No costume changes, jewelry, numbers, text, logo, extra limbs or altered anatomy. Match the established detailed JAMVERSE Piper artwork, clean shape language, palette, linework, lighting and full-body figure scale; do not switch to pixelated rendering.\n\nBoth hands stay empty; the basketball is separate game art. NEVER draw any ball, sphere, orb, seams, rim, hoop, net, prop, shadow, floor, glow, haze, matte, backdrop, alpha fringe or extra art. Before the one release, Piper's hands mime the invisible ball. Release exactly once at frame 10 / simulation tick 21 with the hand fully extended toward the rim, palm open and already empty. Frames 11\u201314 are empty-handed.\n\nThis is a jumping full-body 360 dunk. Piper gathers the invisible ball, plants, takes off, completes one clear full-body 360-degree turn while airborne, cocks the ball-miming hand beside the shoulder, then reaches up and dunks with one hand. The other arm counterbalances; knees tuck and legs kick naturally through rotation. Keep her whole ponytail visible and unobstructed. CRITICAL cell-location correction for attempt3: use the 5-column by 3-row layout in strict row-major order. The REQUIRED shoulder-secured airborne pose is the MIDDLE ROW, THIRD COLUMN (row 2, column 3; zero-based index 7; the eighth drawing). That exact cell must show Piper upright in a high airborne spin with tucked knees and a stable torso; her near-side elbow is bent about 90 degrees and her clearly visible hand is held immediately beside the shoulder, fingers visible. Do not put this pose in middle-row column2, and do not make middle-row column3 a crouch. The neighboring middle-row column2 is the back/three-quarter turn with arms counterbalancing; middle-row column4 is the separate reoriented reach toward the finish. Keep the face and ponytail unobstructed. Do not shift, merge, duplicate or reorder these three cells.\n\nAll poses are distinct connected keyframes with readable weight and motion, in this exact order:\n0. Right-facing approach, controlled stride.\n1. Gather the invisible ball at the waist.\n2. Low two-foot plant and crouch.\n3. Takeoff, torso begins turning toward the viewer.\n4. Airborne, torso rotates through a front-facing view.\n5. Mid-spin, back and shoulders turn toward the viewer.\n6. Torso continues toward the opposite profile.\n7. High airborne spin, ball-miming hand secured near the shoulder, torso stable.\n8. Full rotation returns toward the right-facing finish, knees tucked.\n9. Cock for one-handed dunk, empty hand near the head but never obscuring the face or ponytail.\n10. Sole release at tick 21: arm fully extended toward the rim, palm open, already empty.\n11. Empty-handed follow-through through the imagined rim plane.\n12. Descent with torso turning back toward the court.\n13. Controlled two-foot landing, knees flexed.\n14. Balanced recovery, arms lower.\n\nMake all fifteen poses visibly distinct, anatomically complete and mechanically connected. Check every pose individually for separation, full anatomy, face/identity consistency, alpha and the minimum cell margins. Keep both hands empty in the artwork. Preserve the complete ponytail, separated hands/fingers and both shoes inside every margin. Favor pose clarity over figure size. Return only the sprite sheet.\n",
+  "prompt": "J.118 / Piper Quickstep — DUNK-360 action sheet, attempt 3\n\nAction canon: follow the explicit fifteen-pose `dunk-360` sequence in `tools/generate-art/j101-keeg-dunk-360-prompt.md`. This Piper-specific prompt preserves that full turn, handoff, single release and landing sequence while using Piper's canonical appearance and the established Piper sprite-sheet style.\n\nCreate one original production sprite sheet for Piper Quickstep performing a powerful full-body 360 basketball dunk for JAMVERSE '96. Canvas exactly 1536×1024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Each cell is approximately 307×341 pixels. Keep every part of every pose—including the entire bright-orange high ponytail, every fingertip, and both shoes—at least 28 pixels inside every cell edge. Keep clear transparent gutters, consistent figure scale, camera and anatomy. Piper approaches facing image-right; complete the turn while airborne. No pose may overlap, touch or cross a cell boundary. No cell boundaries, scenery, court, hoop, floor, shadows, effects, text, labels, teammate, opponent or props.\n\nPiper is the same athletic adult human woman in every pose: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural adult athletic proportions, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, body proportions, uniform and shoes consistently. Exactly one head, two arms, two hands, two legs and two feet, with natural joints and five fingers on each visible hand. No costume changes, jewelry, numbers, text, logo, extra limbs or altered anatomy. Match the established detailed JAMVERSE Piper artwork, clean shape language, palette, linework, lighting and full-body figure scale; do not switch to pixelated rendering.\n\nBoth hands stay empty; the basketball is separate game art. NEVER draw any ball, sphere, orb, seams, rim, hoop, net, prop, shadow, floor, glow, haze, matte, backdrop, alpha fringe or extra art. Before the one release, Piper's hands mime the invisible ball. Release exactly once at frame 10 / simulation tick 21 with the hand fully extended toward the rim, palm open and already empty. Frames 11–14 are empty-handed.\n\nThis is a jumping full-body 360 dunk. Piper gathers the invisible ball, plants, takes off, completes one clear full-body 360-degree turn while airborne, cocks the ball-miming hand beside the shoulder, then reaches up and dunks with one hand. The other arm counterbalances; knees tuck and legs kick naturally through rotation. Keep her whole ponytail visible and unobstructed. CRITICAL cell-location correction for attempt3: use the 5-column by 3-row layout in strict row-major order. The REQUIRED shoulder-secured airborne pose is the MIDDLE ROW, THIRD COLUMN (row 2, column 3; zero-based index 7; the eighth drawing). That exact cell must show Piper upright in a high airborne spin with tucked knees and a stable torso; her near-side elbow is bent about 90 degrees and her clearly visible hand is held immediately beside the shoulder, fingers visible. Do not put this pose in middle-row column2, and do not make middle-row column3 a crouch. The neighboring middle-row column2 is the back/three-quarter turn with arms counterbalancing; middle-row column4 is the separate reoriented reach toward the finish. Keep the face and ponytail unobstructed. Do not shift, merge, duplicate or reorder these three cells.\n\nAll poses are distinct connected keyframes with readable weight and motion, in this exact order:\n0. Right-facing approach, controlled stride.\n1. Gather the invisible ball at the waist.\n2. Low two-foot plant and crouch.\n3. Takeoff, torso begins turning toward the viewer.\n4. Airborne, torso rotates through a front-facing view.\n5. Mid-spin, back and shoulders turn toward the viewer.\n6. Torso continues toward the opposite profile.\n7. High airborne spin, ball-miming hand secured near the shoulder, torso stable.\n8. Full rotation returns toward the right-facing finish, knees tucked.\n9. Cock for one-handed dunk, empty hand near the head but never obscuring the face or ponytail.\n10. Sole release at tick 21: arm fully extended toward the rim, palm open, already empty.\n11. Empty-handed follow-through through the imagined rim plane.\n12. Descent with torso turning back toward the court.\n13. Controlled two-foot landing, knees flexed.\n14. Balanced recovery, arms lower.\n\nMake all fifteen poses visibly distinct, anatomically complete and mechanically connected. Check every pose individually for separation, full anatomy, face/identity consistency, alpha and the minimum cell margins. Keep both hands empty in the artwork. Preserve the complete ponytail, separated hands/fingers and both shoes inside every margin. Favor pose clarity over figure size. Return only the sprite sheet.\n",
   "promptVerbatim": true,
   "referenceFiles": [
     "tools/generate-art/j101-keeg-dunk-360-prompt.md"
@@ -35,7 +35,7 @@
   "sourceMode": "RGBA",
   "layoutFile": "tools/generate-art/piper-quickstep-dunk-360-attempt3-layouts.json",
   "sourceReview": {
-    "status": "accepted-source-pending-native-ball-track",
+    "status": "accepted",
     "reviewer": "independent source-review subagent",
     "reviewedAt": "2026-10-25",
     "requiredCell": "middle row, third column (row2/column3; zero-based index7)",
@@ -46,13 +46,22 @@
     ],
     "minimumCellMarginPx": 28
   },
-  "eligibleForPacking": false,
+  "eligibleForPacking": true,
   "ballBehavior": "No basketball appears in the athlete sheet. Separate Piper-specific native track required; release at frame10/tick21.",
-  "packedAtlasPath": null,
+  "packedAtlasPath": "public/assets/animation/piper-quickstep-dunk-360-right.webp",
   "nativeReview": {
-    "status": "pending-separate-ball-track-calibration"
+    "status": "accepted",
+    "reviewer": "independent native-review subagent and parent visual review",
+    "reviewedAt": "2026-10-25",
+    "notes": "Independent native review accepts shoulder contact at frame7, hand alignment through the 360 return and the raised-palm hold at tick20 in both facings at100%/120%. All15 distinct frames select Piper’s candidate atlas. Piper owns through tick20, releases ownerless at21, and a real simulation scores exactly one two-point dunk.",
+    "trackFile": "tools/generate-art/piper-quickstep-dunk-360-track-calibration.json",
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-120/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-simulation.json"
+    ]
   },
-  "ballTrackStatus": "pending-native-calibration",
+  "ballTrackStatus": "accepted",
   "sourceRects": [
     {
       "sourceIndex": 0,
@@ -115,7 +124,7 @@
         208,
         255
       ],
-      "uniformScale": 1.0,
+      "uniformScale": 1,
       "transparentMarginsLTRBpx": [
         50,
         58,
@@ -207,7 +216,7 @@
         251,
         283
       ],
-      "uniformScale": 1.0,
+      "uniformScale": 1,
       "transparentMarginsLTRBpx": [
         28,
         31,
@@ -400,5 +409,67 @@
       ]
     }
   ],
-  "componentIsolation": true
+  "componentIsolation": true,
+  "packedAtlasSha256": "cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6",
+  "packedAtlasSize": [
+    512,
+    384
+  ],
+  "packedAtlasBytes": 73064,
+  "packedLayoutFile": "tools/generate-art/piper-quickstep-dunk-36015-layouts.json",
+  "ballTrack": {
+    "athlete": "piper-quickstep",
+    "clip": "dunk-360",
+    "status": "accepted after native review at100% and120%, both facings",
+    "height": [
+      0.95,
+      1.1,
+      0.55,
+      1.3,
+      1.45,
+      1.25,
+      1.2,
+      2,
+      1,
+      1.8,
+      3.2,
+      2.4,
+      1.5,
+      0.7,
+      0.55
+    ],
+    "forward": [
+      6,
+      6,
+      4,
+      5,
+      0,
+      -4,
+      12,
+      -8,
+      10,
+      -4,
+      3,
+      8,
+      8,
+      5,
+      5
+    ],
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "scoreTick": 23,
+    "nativeReview": "Independent native review accepts shoulder contact at frame7, hand alignment through the 360 return and the raised-palm hold at tick20 in both facings at100%/120%. All15 distinct frames select Piper’s candidate atlas. Piper owns through tick20, releases ownerless at21, and a real simulation scores exactly one two-point dunk.",
+    "trackFile": "tools/generate-art/piper-quickstep-dunk-360-track-calibration.json",
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-120/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-simulation.json"
+    ]
+  },
+  "packedLayoutReview": {
+    "status": "accepted",
+    "reviewer": "independent packed-atlas review and native review",
+    "reviewedAt": "2026-10-25",
+    "notes": "4x4 atlas preserves fifteen original ordered pose crops with the final cell empty, transparent gutters, no ball or clipping, and readable Piper identity/anatomy."
+  }
 }
