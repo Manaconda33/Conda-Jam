@@ -1,0 +1,37 @@
+{
+  "issue": "J.130",
+  "reviewer": "primary independent visual review",
+  "reviewedAt": "2026-10-25",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry7-pose3-retry9-raw-light-dark.png",
+  "poses": [
+    {
+      "frame": 2,
+      "retry": 7,
+      "generationId": "exec-54389acd-4c5c-4118-b697-838cbbbaa150",
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry7-raw.png",
+      "sourceSha256": "54efff0ea839e5612cba3cd72571ee5fdc08d4f8c601a54f9cdde026a2265e57",
+      "decision": "reject",
+      "findings": [
+        "Adult human appearance, recognizable locs/red headband, russet torso, two arms/legs, folded rear leg, bare wrists and empty hands are present.",
+        "The shooting hand sits near the eye/forehead rather than distinctly below the eyebrow at lower-cheek height.",
+        "Alpha>=8 visible figure height is664px (53.7% of 1236px), above the 48% prompt cap; top clearance is235px/19.0%, below25%. Full-source alpha includes205 components and narrow right/bottom padding.",
+        "Skin remains brighter and more orange than accepted Briar art; reject before any cleanup."
+      ]
+    },
+    {
+      "frame": 3,
+      "retry": 9,
+      "generationId": "exec-fdb59d57-5de1-4160-bafb-dec2d82d2012",
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry9-raw.png",
+      "sourceSha256": "10f5f2b944a727128f46c568344a5e5c1d893773848c3e9e95465d4d8330af48",
+      "decision": "reject",
+      "findings": [
+        "Anatomy is coherent with two arms and two legs, empty hands, a folded trailing leg and no chest numeral.",
+        "The palm-up shooting hand is raised above the crown rather than at or below the headband top; this reads as overhead release, not prerelease.",
+        "Alpha>=8 figure height is635px (51.5% of 1234px), above the48% prompt cap; top clearance is282px/22.9%, below25%. Nonzero alpha reaches the top/left boundary and leaves no bottom margin; there are230 components.",
+        "Skin still has a warm orange cast compared with Briar's accepted palette."
+      ]
+    }
+  ],
+  "overallDecision": "Reject both; no cleanup, assembly, packing or registration."
+}

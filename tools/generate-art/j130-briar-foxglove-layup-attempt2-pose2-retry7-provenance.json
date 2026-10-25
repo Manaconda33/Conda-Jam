@@ -1,0 +1,29 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "frame": 2,
+  "tick": 5,
+  "attempt": 2,
+  "retry": 7,
+  "generator": "image_gen.imagegen",
+  "generationId": "exec-54389acd-4c5c-4118-b697-838cbbbaa150",
+  "originalGeneratedPath": "/workspace/generated_images/exec-54389acd-4c5c-4118-b697-838cbbbaa150.png",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry7-raw.png",
+  "sourceSha256": "54efff0ea839e5612cba3cd72571ee5fdc08d4f8c601a54f9cdde026a2265e57",
+  "dimensions": [1272, 1236],
+  "mode": "RGBA",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry7-prompt.md",
+  "promptSha256": "31f00050a51463ff200cd2dc3777682d948a201fcbf1ee39751eed450fe00275",
+  "alpha": {
+    "threshold1BoundsLTRBExclusive": [63, 45, 1242, 1220],
+    "threshold1MarginsLTRB": [63, 45, 30, 16],
+    "threshold8BoundsLTRBExclusive": [432, 235, 842, 899],
+    "threshold8MarginsLTRB": [432, 235, 430, 337],
+    "threshold64BoundsLTRBExclusive": [433, 235, 842, 899],
+    "threshold64MarginsLTRB": [433, 235, 430, 337],
+    "nonzeroAlphaConnectedComponents": 205,
+    "passes25PercentMargins": false
+  },
+  "decision": "reject; do not clean or assemble"
+}
