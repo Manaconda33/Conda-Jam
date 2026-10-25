@@ -4,7 +4,7 @@ Piper reaches24/29 clips /218 authored drawings. Attempt2 cleaned source SHA-256
 
 Accepted track H `[.95,1.1,1.25,1.7,1.9,2.05,2.2,2.45,2.4,2.35,1.5,2,1.4,.7,.55]` / F `[6,8,4,-2,-10,-7,-8,-5,12,2,8,6,8,5,6]` passed native review in both facings at100%/120%. A small frame9 gap at120% is documented. Piper owns through tick20, releases ownerless at21 and scores once for two.
 
-Validation: `npm test`41/41 files; lint18 modules; content35 franchises/105 athletes; simulation100 matches /861,421 ticks /6 OTs; atlas packer55 tests; build PASS. E2E blocked by sandbox `listen EPERM` at `127.0.0.1:4175`. Audit `2026-10-25T12:55:09.143Z`:814 clips /7,361 drawings /105 athletes, 2,289 missing clips, one target shortfall and4 inherited prompt findings. Next: J.120 `dunk-double`; attempt1 source is accepted with a documented prompt-location erratum, native track pending.
+Validation: `npm test`41/41 files; lint18 modules; content35 franchises/105 athletes; simulation100 matches /861,421 ticks /6 OTs; atlas packer55 tests; build PASS. E2E blocked by sandbox `listen EPERM` at `127.0.0.1:4175`. Audit `2026-10-25T12:55:09.143Z`:814 clips /7,361 drawings /105 athletes, 2,289 missing clips, one target shortfall and4 inherited prompt findings. Next: J.120 `dunk-double`; attempt1 source is accepted with a documented prompt-location erratum, native track pending. J.119 is committed locally as `6a63d8d2`; standard push failed at the configured port8080 proxy, so no Pages workflow ran. Latest deployed checkpoint remains `513e0a59` / run #169.
 
 
 ## Current checkpoint — 2026-10-25 (J.117 Piper Quickstep `dunk-reverse` integrated locally)
