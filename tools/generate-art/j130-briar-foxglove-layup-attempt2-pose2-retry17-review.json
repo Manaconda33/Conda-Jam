@@ -1,0 +1,18 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry17",
+  "decision": "REJECT",
+  "generationId": "exec-cfcf2583-3843-4c9c-b8a7-c162a4fedf86",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry17-raw.png",
+  "sourceSha256": "32aa3040003c8a8c7b8fd481415577995e22ca7eaebcb1a4c5e7bf4f48a58b11",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry17-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry17-light-dark-review.jpg",
+  "checks": {
+    "identity": "Adult human Briar; locs, red headband, russet/cream kit, complete two arms/two legs, no ball.",
+    "pose": "Airborne folded-leg carry; shooting hand now sits against lower cheek/neck beside jaw. This is a broad redraw/composition change rather than a minimal local edit, so it does not satisfy the request to preserve retry16 exact pose/silhouette.",
+    "palette": "Skin remains orange/bronze relative to accepted deep-brown references.",
+    "transparency": "FAIL: RGB output with checkerboard baked across full image; no alpha channel.",
+    "margins": "FAIL: every converted RGBA pixel is opaque, so transparent margins are 0px on every edge.",
+    "anatomy": "PASS: full two-arm/two-leg human anatomy; no ball."
+  },
+  "reason": "Checkerboard is baked into RGB; also changed composition instead of a minimal hand/palette edit and skin remains too orange."
+}

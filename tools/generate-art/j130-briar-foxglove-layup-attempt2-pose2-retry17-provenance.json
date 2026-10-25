@@ -1,0 +1,49 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "frame": 2,
+  "tick": 5,
+  "retry": 17,
+  "generationId": "exec-cfcf2583-3843-4c9c-b8a7-c162a4fedf86",
+  "generator": "image_gen.imagegen",
+  "originalGeneratedPath": "/workspace/generated_images/exec-cfcf2583-3843-4c9c-b8a7-c162a4fedf86.png",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry17-raw.png",
+  "rawSha256": "32aa3040003c8a8c7b8fd481415577995e22ca7eaebcb1a4c5e7bf4f48a58b11",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "transparentBackgroundRequested": true,
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry17-prompt.md",
+  "promptSha256": "759d9342878a1a25e412cb0907ba3ac96c8a145a254174c9efab634f3ef760a7",
+  "referencedImagePaths": [
+    "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry16-raw.png",
+    "public/assets/animation/briar-foxglove-idle-right.webp",
+    "public/assets/animation/briar-foxglove-shoot-right.webp",
+    "public/assets/animation/briar-foxglove-receive-right.webp"
+  ],
+  "alphaMetrics": {
+    "inputMode": "RGB",
+    "convertedAlphaExtrema": [
+      255,
+      255
+    ],
+    "nonzeroAlphaBoundsXYXYExclusive": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "marginsLTRB": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "Entire RGB canvas is opaque; checkerboard is baked in."
+  },
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry17-light-dark-review.jpg",
+  "decision": "REJECT; preserve untouched raw; no cleanup, normalization, packing or acceptance"
+}
