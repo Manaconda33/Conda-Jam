@@ -1,0 +1,9 @@
+{
+  "frame": 2,
+  "retry": 5,
+  "generation_id": "exec-37ef487e-a741-48a6-88ae-71a1163d4b43",
+  "decision": "reject",
+  "observations": "Two legs and two shoes; high lead knee and sharply folded trailing heel. Hand beside face but fingertips reach eyebrow/eye level instead of remaining below eyebrow at cheek. Guide hand held across lower torso instead of opening sideways. Skin still visibly orange/light compared with accepted deep brown palette despite numeric anchors. Shoes predominantly russet, cream trim only. Empty hands and bare wrists. Reject. All-nonzero alpha bounds fail requested25% transparent margins; raw low-alpha residue retained.",
+  "sha256": "75878fdb7c71a73e05055ce2cbdaed44f2d7002fd4237ed0f74d54a4b4e566cf",
+  "raw_alpha_margin_pass": false
+}

@@ -1,0 +1,9 @@
+{
+  "frame": 3,
+  "retry": 7,
+  "generation_id": "exec-7ac81d0d-da48-4d91-b86e-0ef1014a5896",
+  "decision": "reject",
+  "observations": "Two legs and two shoes, folded trailing heel preserved, high lead knee and palm-up shooting hand with bent elbow. Jersey now has conspicuous cream digit 1, directly prohibited. Shoes predominantly russet rather than cream. Skin still light orange/bronze despite numeric anchors. Fingertips near crown rather than below crown; off-hand clustered near chest. Reject for explicit number and palette/canon mismatches. All-nonzero alpha bounds fail requested25% transparent margins; raw low-alpha residue retained.",
+  "sha256": "8d0573f20dcdd2a37cfa1e820f8d152bf9e91e0dd77b47fd4a7aaae5626df36d",
+  "raw_alpha_margin_pass": false
+}

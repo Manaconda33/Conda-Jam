@@ -1,0 +1,65 @@
+{
+  "issue": "J.130",
+  "reviewer": "primary independent visual review",
+  "reviewedAt": "2026-10-25",
+  "scope": "Pose2 retry5 and pose3 retry7 raw sources compared with accepted Briar references and exact prompts; no pixels modified.",
+  "references": [
+    "public/assets/animation/briar-foxglove-shoot-right.webp",
+    "public/assets/animation/briar-foxglove-receive-right.webp",
+    "public/assets/animation/briar-foxglove-idle-right.webp"
+  ],
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry5-pose3-retry7-raw-light-dark-reference.png",
+  "poses": [
+    {
+      "frame": 2,
+      "retry": 5,
+      "generationId": "exec-37ef487e-a741-48a6-88ae-71a1163d4b43",
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry5-raw.png",
+      "sourceSha256": "75878fdb7c71a73e05055ce2cbdaed44f2d7002fd4237ed0f74d54a4b4e566cf",
+      "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry5-prompt.md",
+      "promptSha256": "cf1f35f3c916b3ef1166ed20c31555e6e4dea9db1a246653f82402d29e0da18f",
+      "provenance": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry5-provenance.json",
+      "provenanceSha256": "7475b18a9a6e14f03cb690c7f1cefdfc4be319ae56abab9e6298d7ac2a02b3bc",
+      "dimensions": [1254, 1254],
+      "mode": "RGBA",
+      "nonzeroBoundsLTRBExclusive": [73, 95, 1202, 1170],
+      "nonzeroMarginsLTRB": [73, 95, 52, 84],
+      "alpha8BoundsLTRBExclusive": [448, 255, 838, 936],
+      "alpha8MarginsLTRB": [448, 255, 416, 318],
+      "decision": "reject; do not clean or assemble",
+      "findings": [
+        "Human anatomy is coherent with two arms and two legs; hands are empty, wrists bare, chest blank, and no ball or animal traits are visible.",
+        "The shooting hand is raised at brow/forehead level rather than beside the cheek below the eyebrow; it is too high for frame2.",
+        "Skin remains brighter and more orange/bronze than accepted Briar art; cream socks remain but the trainers are russet-dominant.",
+        "At alpha>=8 the top margin is 20.3%, below the prompt's 25% clearance. Full-source low-alpha bounds leave only 52px at right and do not pass 25% on any edge.",
+        "Raw alpha residue is present; no cleanup performed."
+      ]
+    },
+    {
+      "frame": 3,
+      "retry": 7,
+      "generationId": "exec-7ac81d0d-da48-4d91-b86e-0ef1014a5896",
+      "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry7-raw.png",
+      "sourceSha256": "8d0573f20dcdd2a37cfa1e820f8d152bf9e91e0dd77b47fd4a7aaae5626df36d",
+      "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry7-prompt.md",
+      "promptSha256": "93a643738fd9b40fd69617411e30d6308c74ba0fc417da57491f9375bc1bbd8e",
+      "provenance": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry7-provenance.json",
+      "provenanceSha256": "ecc96c456474172ae910d2f86979b8500891b6bbc5aaea8ce4b6ad69b49a6f03",
+      "dimensions": [1254, 1254],
+      "mode": "RGBA",
+      "nonzeroBoundsLTRBExclusive": [0, 0, 1224, 1239],
+      "nonzeroMarginsLTRB": [0, 0, 30, 15],
+      "alpha8BoundsLTRBExclusive": [444, 267, 956, 913],
+      "alpha8MarginsLTRB": [444, 267, 298, 341],
+      "decision": "reject; do not clean or assemble",
+      "findings": [
+        "Two arms and two legs are visible, with a folded trailing leg and a palm-up hand; pose progression is broadly usable.",
+        "A white numeral 1 is visible on the chest, explicitly forbidden by the prompt.",
+        "The shooting hand rises to the crown/headband area rather than remaining in the specified lower prerelease band.",
+        "Skin remains brighter and more orange/bronze than accepted Briar art.",
+        "Full-source nonzero alpha reaches the top and left borders; margins fail. No cleanup performed."
+      ]
+    }
+  ],
+  "overallDecision": "Reject both. No source is eligible for cleanup or assembly."
+}
