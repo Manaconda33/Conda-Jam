@@ -2,6 +2,8 @@
 
 Issue #3 remains in progress. The strict report-only audit at `2026-10-25T04:28:58.790Z` inspects **809 registered clips / 7,286 unique authored drawings** across **105 athletes**. It reports **2,294 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
 
+Piper `dunk-power` J.115 has an accepted, packed 15-pose source/atlas checkpoint but is not registered. Source and atlas reviews pass identity/anatomy, pose order, transparent margins and ball-free art. Native runtime review rejected the first separate-ball track because peak contact obscured Piper's face and gather/pre-release contact was unclear. Do not count J.115 until a Piper-specific track passes native review in both facings at100%/120%; candidate and diagnostic previews are under `tools/generate-art/piper-quickstep-dunk-power*`.
+
 
 
 
