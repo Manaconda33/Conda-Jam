@@ -1,0 +1,74 @@
+{
+  "athlete": "marco-vellum",
+  "clip": "pass-overhead",
+  "direction": "right",
+  "generatedAt": "2026-10-25",
+  "generationId": "exec-6f2413d3-7688-45e2-bb5a-3c2894dd1dfa",
+  "promptFile": "tools/generate-art/marco-vellum-pass-overhead-attempt3-prompt.md",
+  "prompt": "Create an original transparent RGBA sprite sheet exactly 1536x1024 pixels: strict 3 columns by 2 rows, six 512x512 cells, row-major. One complete Marco Vellum in every cell. Center each full-body athlete in the cell and keep the full silhouette, including raised fingertips, hair, shoes and every outline pixel, within a maximum 330x330px rectangle. Leave at least 90 fully transparent pixels on left, right, top and bottom of every 512px cell. Both raised hands and the extended release hands must stay inside that safe rectangle. Nothing crosses a cell boundary. Keep the same scale in all six cells.\n\nMarco is the same compact athletic adult human man in every frame: medium-light olive skin, strong angular clean-shaven face, short thick slightly wavy black hair, no mustache and no beard. Black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands, black high-top shoes. Natural human anatomy, exactly two arms/hands, two legs/shoes. Plain black jersey front with the described piping only, no logo, badge, lettering, number, emblem, graphic or watermark. Crisp outlined 1990s arcade pixel art, consistent right-facing three-quarter camera, same face, hair, build and kit across all frames.\n\nSix clearly different overhead-pass poses in this exact event order:\n0. Upright balanced ready stance, hands empty near waist.\n1. Step forward and bring both empty hands together at chest height around an invisible ball.\n2. Lift the empty hands above the forehead, elbows still bent, preparing the overhead pass.\n3. RELEASE ANCHOR at frame index3/tick5: plant and fully extend both arms forward and overhead toward image-right, open empty palms and fingers at the endpoint. This is the pass release pose.\n4. High empty-hand follow-through after release, wrists flexed and arms still high but beginning to come down; this is not another release.\n5. Recover upright into a balanced stance, arms lowering beside hips.\nNo basketball anywhere; the game ball follows Marco on his separate runtime track. Each pose is complete, distinct and anatomically natural. True alpha-zero empty background and gutters; no haze, gradient, shadow, floor, court, hoop, checkerboard, dividers, panel, text, other people or props. Return only the six-cell sheet.\n",
+  "sourceImage": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt3-clean-candidate.png",
+  "sourceSha256": "e9b2e6a11e5aa9e31285212f2b7e27bc16133738e5e5ddb446e89b1d72e0933f",
+  "rawSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt3-generated-raw.png",
+  "rawSourceSha256": "661d34e7665f2cf198eab47c3df938c8999bdea9c2c6660065ac395d11669c35",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "reviewers": [
+      "Codex",
+      "independent visual reviewer"
+    ],
+    "notes": "The poses and cleanup were visually acceptable, but the exact prompt incorrectly placed the frame3 release at tick5. The shared pass-overhead animation anchor is frame3/tick7; this candidate is not packed. Attempt3 source, prompt, layouts and native calibration are retained for provenance."
+  },
+  "identityReferencesReviewed": [
+    "tools/generate-art/references/marco-vellum-portrait-reference.png",
+    "public/assets/animation/marco-vellum-idle-right.webp"
+  ],
+  "cleanup": {
+    "script": "tools/generate-art/clean-marco-vellum-pass-overhead-attempt3.py",
+    "method": "Per-cell largest alpha>=64 component; retain original antialias pixels within a 2px dilation; remove alpha<8; uniform nearest-neighbor scale to <=330x330 and center in transparent 512px cell; no redraw, synthesis, or pose rearrangement.",
+    "rawSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt3-generated-raw.png",
+    "cleanedSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt3-clean-candidate.png",
+    "layouts": "tools/generate-art/marco-vellum-pass-overhead-attempt3-layouts.json"
+  },
+  "previews": [
+    "tools/generate-art/previews/marco-vellum-pass-overhead/attempt3-clean-light.png",
+    "tools/generate-art/previews/marco-vellum-pass-overhead/attempt3-clean-dark.png"
+  ],
+  "ballTrack": {
+    "owner": "marco-vellum",
+    "art": "no ball in atlas; independent Marco-specific runtime path",
+    "status": "native review pending"
+  },
+  "attemptHistory": [
+    {
+      "attempt": 1,
+      "source": "tools/generate-art/sources/marco-vellum-pass-overhead-generated-raw.png",
+      "status": "rejected",
+      "reason": "Original six-pose source failed source-cell margins; cleanup retained the clipped/tight bounds. Historical provenance and files are archived under tools/generate-art/layout-archives/marco-vellum-pass-overhead-20261025/."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-c3ff05a2-5117-4e26-9de7-ca5538a52373",
+      "source": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt2-generated-raw.png",
+      "sourceSha256": "1a6549d81865ba457ac50d2c37cf3efd0dc7ab911dd7cef52efa477c87ccd249",
+      "status": "rejected",
+      "reason": "Pose-index release did not align to runtime release frame index3/tick5; source also had tight top/right clearances. Exact prompt text was not present in the prior saved artifacts; it is not reconstructed. Raw image, generation ID, hash, review and rejection reason are retained."
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-6f2413d3-7688-45e2-bb5a-3c2894dd1dfa",
+      "rawSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt3-generated-raw.png",
+      "rawSourceSha256": "661d34e7665f2cf198eab47c3df938c8999bdea9c2c6660065ac395d11669c35",
+      "status": "accepted-after-cleanup"
+    }
+  ],
+  "archive": "tools/generate-art/layout-archives/marco-vellum-pass-overhead-20261025/",
+  "ballTrackPlan": {
+    "frames": {
+      "0-1": "waist/chest gather, owner Marco",
+      "2": "hands load overhead, ball held above forehead",
+      "3": "extended open-hand release at tick5",
+      "4-5": "forward flight away with owner null"
+    }
+  }
+}

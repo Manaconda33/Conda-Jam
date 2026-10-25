@@ -139904,9 +139904,9 @@ export const animationAssetManifest = {
                   "left"
                 ],
                 "frames": {
-                  "0-1": "waist gather, ball owner Marco",
                   "2": "chest load",
                   "3": "fingertip contact and release at tick5",
+                  "0-1": "waist gather, ball owner Marco",
                   "4-5": "separating forward flight"
                 },
                 "clipSummariesPerZoom": 2,
@@ -139919,13 +139919,234 @@ export const animationAssetManifest = {
               }
             },
             "reviewed": true
+          },
+          "pass-overhead": {
+            "src": "./public/assets/animation/marco-vellum-pass-overhead-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bd4bcaf72f066b1d400a059585684d52a5f8d6ce1193ea7b119557e8c8b6cd07"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d1f8747065cb9d328d12628280b7671d0362b7ab3a7ad0bf77befa57be14daf2"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4dfb45633bba4230761f4926d074036795158241de9609cb584a4fe6ec94cefe"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9d8578a32e9cdd5e7420ec6ac29ab9043a4ec13455827e6c49de3a8ba355624a"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "39ce4ca69eeb7c24c43d76eaebf84cbec4c5ccf717b7e2ee01cf7a682b13ac0b"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "239152cb88e296be227d59f7eeb56e241eca160de799ccb522af4106d3c8aed3"
+              }
+            ],
+            "sha256": "2276b0acbfdfcf0af88143f14bcacdd7a46ed54f89165c6b6ff2f7861f5b194c",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "marco-vellum",
+              "clip": "pass-overhead",
+              "direction": "right",
+              "generatedAt": "2026-10-25",
+              "generationId": "exec-d7c7fc84-0552-4a28-9ae2-6a2b9a32b908",
+              "promptFile": "tools/generate-art/marco-vellum-pass-overhead-attempt4-prompt.md",
+              "prompt": "Make a single six-pose transparent RGBA animation sprite sheet, exact canvas 1536x1024, divided into 3 columns and 2 rows of 512x512 cells, read row-major. Each centered full-body figure should be about 60% of cell height (roughly 305px tall) and leave at least 85px clear space at every cell edge. Each figure must be fully inside its own cell with broad blank gaps. True zero-alpha outside the athlete. No background tint or haze, no floor/shadow/glow, no panel, lines, checkerboard, props or basketball. No text, logos, numbers, badges or chest emblem.\n\nAthlete identity must be identical in every cell: Marco Vellum, compact athletic adult human man, medium-light olive skin, angular clean-shaven face, short thick slightly wavy black hair, black Blackthorn Court Kings jersey and shorts with crimson piping and white trim, black wristbands, black high-top shoes. Plain blank uniform fabric. Crisp outlined 1990s arcade pixel art with a consistent right-facing three-quarter camera, not 3D, not painterly. Full natural anatomy, two arms, two hands, two legs and two shoes in every cell.\n\nShow six clearly different successive overhead-pass poses:\n0. Upright balanced ready stance, feet under shoulders, knees slightly bent, empty hands relaxed apart at waist.\n1. Definite forward step and weight shift, knees bent, both empty hands low at waist shaping a gather around an invisible ball.\n2. Upright overhead-pass load, hands lifted above the forehead, elbows bent outward.\n3. RELEASE ANCHOR at frame index 3/tick 7: torso and lead foot planted, both arms fully extended forward and overhead toward image-right, palms and fingers open, empty hands at the endpoint. This is the pass release pose.\n4. High empty-hand follow-through after release, wrists flexed and arms still high but beginning to come down; this is not another release.\n5. Completed follow-through has ended: Marco stands upright and balanced again, feet under shoulders, arms lowered loosely beside his hips, empty hands, facing the same direction as pose 0.\nEach pose must be distinct and anatomically natural. No limbs cross cell edges. Return only the six figures and transparent sheet.\n",
+              "sourceImage": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt4-clean-candidate.png",
+              "sourceSha256": "7a77216a9551c6b556bc5f294b077a212cabe7ba14a2655167162691e3390821",
+              "rawSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt4-generated-raw.png",
+              "rawSourceSha256": "0958ad06ac80f3c1bd6dcccfe037845c365498424f77e63f95218b08aae5c7ce",
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "reviewers": [
+                  "Codex",
+                  "independent visual reviewer"
+                ],
+                "notes": "Attempt4 cleaned source accepted. Six complete, distinct, ordered poses; Marco identity and blank kit consistent; full anatomy, empty hands, no ball. Frame3 is release at tick7, frame4 high follow-through, frame5 balanced recovery. Alpha isolation preserves original poses without redraw or rearrangement. Cleaned margins are >=119px horizontal and >=91px vertical. Light/dark proofs show clean transparency. Native Canvas ball review also passes at 100% and 120% in both facings; release is frame3/tick7 and ball separates in frames4-5."
+              },
+              "identityReferencesReviewed": [
+                "tools/generate-art/references/marco-vellum-portrait-reference.png",
+                "public/assets/animation/marco-vellum-idle-right.webp"
+              ],
+              "cleanup": {
+                "script": "tools/generate-art/clean-marco-vellum-pass-overhead-attempt4.py",
+                "method": "Per-cell largest alpha>=64 component; retain original antialias pixels within a 2px dilation; remove alpha<8; uniform nearest-neighbor scale to <=330x330 and center in transparent 512px cell; no redraw, synthesis, or pose rearrangement.",
+                "rawSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt4-generated-raw.png",
+                "cleanedSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt4-clean-candidate.png",
+                "layouts": "tools/generate-art/marco-vellum-pass-overhead-attempt4-layouts.json"
+              },
+              "previews": [
+                "tools/generate-art/previews/marco-vellum-pass-overhead/attempt4-clean-light.png",
+                "tools/generate-art/previews/marco-vellum-pass-overhead/attempt4-clean-dark.png"
+              ],
+              "ballTrack": {
+                "owner": "marco-vellum",
+                "art": "no ball in atlas; independent Marco-specific runtime path",
+                "status": "accepted after native contact review at 100% and 120%",
+                "height": [
+                  1.05,
+                  1.45,
+                  1.9,
+                  2.05,
+                  2.15,
+                  2.2
+                ],
+                "forward": [
+                  5,
+                  6,
+                  8,
+                  11,
+                  16,
+                  22
+                ],
+                "nativeReview": {
+                  "zooms": [
+                    100,
+                    120
+                  ],
+                  "facings": [
+                    "right",
+                    "left"
+                  ],
+                  "releaseFrame": 3,
+                  "releaseTick": 7,
+                  "frames": {
+                    "0-1": "waist/chest gather, owner Marco",
+                    "2": "overhead load, ball within reach at joined hands",
+                    "3": "extended open-hand release at tick7",
+                    "4-5": "forward flight, owner null"
+                  },
+                  "clipSummariesPerZoom": 2,
+                  "actionFrameCapturesPerZoom": 12,
+                  "review": "Independent native Canvas reviewer checked all12 action-frame captures at100% and120%. Production frame selection passed in both facings. Ball remains with Marco through frame2/tick5, aligns at extended hands on frame3/tick7, then becomes ownerless and separates forward at frames4-5. Frame2 at120% is slightly ahead of joined hands but remains within arm reach; no blocker.",
+                  "reports": [
+                    "tools/generate-art/previews/marco-vellum-pass-overhead/native-100/report.json",
+                    "tools/generate-art/previews/marco-vellum-pass-overhead/native-120/report.json"
+                  ]
+                }
+              },
+              "attemptHistory": [
+                {
+                  "attempt": 1,
+                  "source": "tools/generate-art/sources/marco-vellum-pass-overhead-generated-raw.png",
+                  "status": "rejected",
+                  "reason": "Historical package failed cell margins; original files and provenance are archived under tools/generate-art/layout-archives/marco-vellum-pass-overhead-20261025/."
+                },
+                {
+                  "attempt": 2,
+                  "generationId": "exec-c3ff05a2-5117-4e26-9de7-ca5538a52373",
+                  "source": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt2-generated-raw.png",
+                  "sourceSha256": "1a6549d81865ba457ac50d2c37cf3efd0dc7ab911dd7cef52efa477c87ccd249",
+                  "status": "rejected",
+                  "reason": "Release pose was index4 instead of shared runtime anchor index3; raw source also had tight top/right clearances. Original exact prompt text was not present in saved handoff artifacts and was not reconstructed."
+                },
+                {
+                  "attempt": 3,
+                  "generationId": "exec-6f2413d3-7688-45e2-bb5a-3c2894dd1dfa",
+                  "rawSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt3-generated-raw.png",
+                  "rawSourceSha256": "661d34e7665f2cf198eab47c3df938c8999bdea9c2c6660065ac395d11669c35",
+                  "status": "rejected",
+                  "reason": "The exact prompt specified frame3/tick5, but the shared pass-overhead release anchor is frame3/tick7. Good source poses and clean/native calibration are preserved in the attempt3 files and archive; not packed as accepted art."
+                },
+                {
+                  "attempt": 4,
+                  "generationId": "exec-d7c7fc84-0552-4a28-9ae2-6a2b9a32b908",
+                  "rawSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt4-generated-raw.png",
+                  "rawSourceSha256": "0958ad06ac80f3c1bd6dcccfe037845c365498424f77e63f95218b08aae5c7ce",
+                  "status": "accepted-after-cleanup"
+                },
+                {
+                  "attempt": 5,
+                  "generationId": "exec-a5ba55a3-e247-4b66-8a7d-27eff11ab155",
+                  "rawSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt5-generated-raw.png",
+                  "rawSourceSha256": "a26a4bc0b41f7476adfdb3e7c803f72cace996ddd043dabc591e08dffe28cf11",
+                  "promptFile": "tools/generate-art/marco-vellum-pass-overhead-attempt5-prompt.md",
+                  "status": "rejected",
+                  "reason": "Visible basketball/object appears in the chest-gather pose despite the no-ball instruction. Kept raw source and exact prompt."
+                },
+                {
+                  "attempt": 6,
+                  "generationId": "exec-d8bba783-152e-4688-8550-16b5b8f4e425",
+                  "rawSource": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt6-generated-raw.png",
+                  "rawSourceSha256": "9872ec141fff8bbea3f14a1a63fdc7216b7c93dc75b80f4b3d358be37b46eb6b",
+                  "promptFile": "tools/generate-art/marco-vellum-pass-overhead-attempt6-prompt.md",
+                  "status": "alternate-generated-not-selected",
+                  "reason": "Retained as an unused alternate after attempt4 passed review; no art discarded or substituted."
+                }
+              ],
+              "archive": "tools/generate-art/layout-archives/marco-vellum-pass-overhead-20261025/",
+              "ballTrackPlan": {
+                "releaseFrame": 3,
+                "releaseTick": 7,
+                "frames": {
+                  "0-1": "waist/chest gather; ball owner Marco",
+                  "2": "overhead load, ball at hands",
+                  "3": "extended open-hand release",
+                  "4-5": "forward flight with owner null"
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.05,
+                  1.45,
+                  1.9,
+                  2.05,
+                  2.15,
+                  2.2
+                ],
+                "forward": [
+                  5,
+                  6,
+                  8,
+                  11,
+                  16,
+                  22
+                ]
+              }
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Game-only supporting identity: short black hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+        "notes": "Game-only supporting identity: short black hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately.",
+        "reviewedAt": "2026-10-21",
+        "scope": "canonical body direction policy; individual production clips require separate visual approval",
+        "evidence": [
+          "public/assets/supporting-player-portrait-atlas.png",
+          "public/assets/supporting-player-gameplay-sprites.png"
+        ],
+        "canonicalSection": "J.05",
+        "sourceCell": 9
       },
       "reviewedAt": "2026-10-21",
       "scope": "canonical body direction policy; individual production clips require separate visual approval",

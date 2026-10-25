@@ -6,6 +6,13 @@
 
 # QA report
 
+## Marco Vellum — `pass-overhead` accepted and integrated locally
+
+- Added six unique right-facing poses; Marco now has9/29 clips /69 authored drawings. Attempt4 passed independent source review after per-cell alpha isolation and uniform downscaling. Its 288×192 atlas has six distinct cells and >=5px transparency on every edge. The cleaned source preserves original poses without redraw or rearrangement, with >=119px horizontal and >=91px vertical margins.
+- Marco’s separate ball track passes native Canvas review at100% and120% in both facings. It stays owned through frame2/tick5, meets the extended hands on frame3/tick7, and travels forward unowned through frames4–5. All12 action captures per zoom select the production atlas. Reports and captures are under `tools/generate-art/previews/marco-vellum-pass-overhead/native-{100,120}/`.
+- Rejected timing-mismatch attempt3 and ball-contaminated attempt5 remain preserved; attempt6 is retained as an unused alternate. The prior accepted label on `pass-behind` was contradicted by an independent source audit: frame3 touches a cell edge, several frames miss the prompt’s35px margins, and the runtime ball track is missing. It remains source-only pending rework.
+- Focused pass-overhead regression passes. Validation: `npm test`34/34 files, lint18 modules, content validation35 franchises/105 athletes, league simulation100 matches /861,238 ticks /6 overtimes, build and Chromium E2E. Strict audit at `2026-10-25T01:45:40.863Z`:794 clips /7,185 authored drawings /105 athletes,2,309 missing clips, one shortfall and4 inherited prompt findings.
+
 ## Marco Vellum — `shoot` accepted and integrated
 
 - Added ten authored poses; Marco now has7/29 clips /57 drawings. Attempt7 raw had a contaminated background and unsafe margins, so it remains rejected. A documented alpha-component cleanup preserved the ten source silhouettes without drawing or rearranging poses. Independent review passed identity, kit, anatomy, pose order, alpha-zero background, blank chest, no-ball, and the exact prompt's <=225×300 pose bounds with >=41px side /106px vertical margins.

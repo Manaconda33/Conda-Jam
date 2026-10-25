@@ -156,6 +156,53 @@
           "tools/generate-art/previews/marco-vellum-pass/native-120/report.json"
         ]
       }
+    },
+    "pass-overhead": {
+      "athlete": "marco-vellum",
+      "clip": "pass-overhead",
+      "status": "accepted after native contact review at 100% and 120%",
+      "height": [
+        1.05,
+        1.45,
+        1.9,
+        2.05,
+        2.15,
+        2.2
+      ],
+      "forward": [
+        5,
+        6,
+        8,
+        11,
+        16,
+        22
+      ],
+      "basis": "Marco-specific separate-ball track calibrated against accepted attempt4 pass-overhead art in native Canvas captures. The ball remains carried through frame2/tick5, aligns with the extended hands at release frame3/tick7, then separates forward at frames4-5. No basketball is painted in the atlas.",
+      "nativeReview": {
+        "zooms": [
+          100,
+          120
+        ],
+        "facings": [
+          "right",
+          "left"
+        ],
+        "releaseFrame": 3,
+        "releaseTick": 7,
+        "frames": {
+          "0-1": "waist/chest gather, owner Marco",
+          "2": "overhead load, ball within reach at joined hands",
+          "3": "extended open-hand release at tick7",
+          "4-5": "forward flight, owner null"
+        },
+        "clipSummariesPerZoom": 2,
+        "actionFrameCapturesPerZoom": 12,
+        "review": "Independent native Canvas reviewer checked all12 action-frame captures at100% and120%. Production frame selection passed in both facings. Ball remains with Marco through frame2/tick5, aligns at extended hands on frame3/tick7, then becomes ownerless and separates forward at frames4-5. Frame2 at120% is slightly ahead of joined hands but remains within arm reach; no blocker.",
+        "reports": [
+          "tools/generate-art/previews/marco-vellum-pass-overhead/native-100/report.json",
+          "tools/generate-art/previews/marco-vellum-pass-overhead/native-120/report.json"
+        ]
+      }
     }
   },
   "basis": "Marco-specific frame-indexed tracks; shoot contact was checked in actual native Canvas captures at 100% and 120% in both facings. Source art and the separate ball path remain independently recorded."

@@ -1,0 +1,25 @@
+{
+  "athlete": "marco-vellum",
+  "pass-overhead": {
+    "athlete": "marco-vellum",
+    "clip": "pass-overhead",
+    "status": "provisional; native contact review pending",
+    "height": [
+      1.05,
+      1.45,
+      1.9,
+      2.05,
+      2.15,
+      2.2
+    ],
+    "forward": [
+      5,
+      6,
+      8,
+      11,
+      16,
+      22
+    ],
+    "basis": "Provisional separate-ball track for the accepted six-pose overhead-pass atlas. Release anchor is frame3/tick5; native Canvas review will calibrate hand contact and forward separation at 100% and 120% in both facings. No ball is painted in the art."
+  }
+}

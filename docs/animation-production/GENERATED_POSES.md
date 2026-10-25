@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-24. Issue3 remains **incomplete**. Actual registered total: **7,179 unique authored drawings across 793 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes. Moxie Capwell, Paprika Rill, Reed Ashcroft, Juniper Vale, Keeg, Accu, Nova Stitch and Echo Catwalk are complete at29/29 clips /293 drawings each. Piper Quickstep and Briar Foxglove each have six registered clips /52 drawings after J.108/J.109 `shoot` integration.
+2026-10-25. Issue3 remains **incomplete**. Actual registered total: **7,179 unique authored drawings across 793 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes. Moxie Capwell, Paprika Rill, Reed Ashcroft, Juniper Vale, Keeg, Accu, Nova Stitch and Echo Catwalk are complete at29/29 clips /293 drawings each. Piper Quickstep and Briar Foxglove each have six registered clips /52 drawings after J.108/J.109 `shoot` integration.
 
 
 Marco Vellum's right-facing `shoot` source uses generation `exec-abc16f2a-a41b-4b49-95df-866fdfa7edb9` and documented alpha isolation from its contaminated raw sheet. Attempt7 cleanup v2 passes independent review at1536×1024, ten unique poses, maximum171×298px, minimum68px side and107px vertical clearance, true alpha-zero empty space, complete anatomy and no painted ball. The320×192 lossless atlas has10 distinct frames and at least5px atlas margins. His separate shoot ball track is reviewed at100%/120% in both facings, aligns through tick12 and releases at frame5/tick13. Attempts5–8 remain preserved as rejected raw/edited candidates; cleanup v1 remains preserved as rejected for missing the accepted prompt's stricter size/margin limits.
@@ -15,7 +15,7 @@ Moxie's24 new source-only atlases were integrated after complete pose, anatomy, 
 
 J.108 Piper Quickstep `shoot` and J.109 Briar Foxglove `shoot` each register ten new unique poses. Both preserve the correct adult-human identity and separate basketball tracks, hold possession through tick12, and release on frame05/tick13. Source crops, exact prompts, rejected generations, cleanup, provenance, packed-cell previews, and standard/120% native renders are stored under their J.108/J.109 prefixes.
 
-Marco Vellum now has eight registered clips /63 drawings after integrating the six-pose `pass`; its accepted `pass-behind` source remains outside the runtime manifest and `pass-overhead` is next in roster order. The new pass uses attempt4 and its cleaned source, exact prompts, rejected candidates, source and atlas layouts, hashes, alpha-isolation cleanup, dark/light proofs and standard/120% native ball-contact captures are preserved under `tools/generate-art/marco-vellum-pass*`. Krios is at8/29 with `shoot`, `pass` and `pass-overhead` source packages (not registered in the runtime manifest); Sable Regent is at15/29 with `steal`. Keeg J.104 `dunk-clutch` is registered with15 authored poses; its source-only peer packs remain outside the strict registered count.
+Marco Vellum now has nine registered clips /69 drawings after integrating the six-pose `pass-overhead`. Attempt4 passed independent source review after per-cell alpha isolation and uniform downscaling; the accepted 288×192 atlas contains six unique poses with >=5px cell margins, while the cleaned source keeps >=119px horizontal and >=91px vertical margins. Native Canvas review confirms a separate Marco ball track releases at frame3/tick7 and separates through frames4–5 at100%/120% in both facings. Prompts, rejected timing/ball candidates, hashes, cleanup, layouts, archives, proofs and captures are preserved under `tools/generate-art/marco-vellum-pass-overhead*`. The existing `pass-behind` candidate is next but fails its documented source-margin gate and has no runtime ball track; rework it before registration. Krios is at8/29 with `shoot`, `pass` and `pass-overhead` source packages (not registered in the runtime manifest); Sable Regent is at15/29 with `steal`. Keeg J.104 `dunk-clutch` is registered with15 authored poses; its source-only peer packs remain outside the strict registered count.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -65,7 +65,7 @@ Marco Vellum now has eight registered clips /63 drawings after integrating the s
 | sera-bellini | 5 | 42 | 162,542 |
 | moxie-capwell | 29 | 293 | 2,330,618 |
 | sable-regent | 5 | 42 | 160,442 |
-| marco-vellum | 8 | 63 | 286,624 |
+| marco-vellum | 9 | 69 | 321,782 |
 | ash-harth | 5 | 42 | 193,978 |
 | flint-rooker | 5 | 42 | 181,944 |
 | marin-dusk | 5 | 42 | 163,592 |

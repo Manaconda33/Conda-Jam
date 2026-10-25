@@ -1,0 +1,211 @@
+{
+  "source": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt4-generated-raw.png",
+  "output": "tools/generate-art/sources/marco-vellum-pass-overhead-attempt4-clean-candidate.png",
+  "method": "per-cell largest alpha>=64 component, retain original antialias pixels within 2px dilation, uniform nearest-neighbor scale to <=330x330, center in transparent 512px cell; no redraw, synthesis, or pose rearrangement",
+  "frames": [
+    {
+      "frame": 0,
+      "sourceBounds": [
+        154,
+        59,
+        359,
+        466
+      ],
+      "sourceMargins": [
+        154,
+        152,
+        59,
+        45
+      ],
+      "isolatedSourceCrop": [
+        152,
+        57,
+        362,
+        469
+      ],
+      "scale": 0.800971,
+      "outputBounds": [
+        172,
+        91,
+        339,
+        420
+      ],
+      "outputMargins": [
+        172,
+        172,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 1,
+      "sourceBounds": [
+        129,
+        86,
+        384,
+        466
+      ],
+      "sourceMargins": [
+        129,
+        127,
+        86,
+        45
+      ],
+      "isolatedSourceCrop": [
+        127,
+        84,
+        387,
+        469
+      ],
+      "scale": 0.857143,
+      "outputBounds": [
+        144,
+        91,
+        366,
+        420
+      ],
+      "outputMargins": [
+        144,
+        145,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 2,
+      "sourceBounds": [
+        171,
+        24,
+        376,
+        471
+      ],
+      "sourceMargins": [
+        171,
+        135,
+        24,
+        40
+      ],
+      "isolatedSourceCrop": [
+        169,
+        22,
+        379,
+        474
+      ],
+      "scale": 0.730088,
+      "outputBounds": [
+        179,
+        91,
+        331,
+        420
+      ],
+      "outputMargins": [
+        179,
+        180,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 3,
+      "sourceBounds": [
+        130,
+        32,
+        484,
+        459
+      ],
+      "sourceMargins": [
+        130,
+        27,
+        32,
+        52
+      ],
+      "isolatedSourceCrop": [
+        128,
+        30,
+        487,
+        462
+      ],
+      "scale": 0.763889,
+      "outputBounds": [
+        119,
+        91,
+        392,
+        420
+      ],
+      "outputMargins": [
+        119,
+        119,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 4,
+      "sourceBounds": [
+        161,
+        21,
+        436,
+        459
+      ],
+      "sourceMargins": [
+        161,
+        75,
+        21,
+        52
+      ],
+      "isolatedSourceCrop": [
+        159,
+        19,
+        439,
+        462
+      ],
+      "scale": 0.744921,
+      "outputBounds": [
+        151,
+        91,
+        359,
+        420
+      ],
+      "outputMargins": [
+        151,
+        152,
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 5,
+      "sourceBounds": [
+        152,
+        42,
+        350,
+        459
+      ],
+      "sourceMargins": [
+        152,
+        161,
+        42,
+        52
+      ],
+      "isolatedSourceCrop": [
+        150,
+        40,
+        353,
+        462
+      ],
+      "scale": 0.781991,
+      "outputBounds": [
+        176,
+        91,
+        334,
+        420
+      ],
+      "outputMargins": [
+        176,
+        177,
+        91,
+        91
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "athlete": "marco-vellum",
+    "direction": "right",
+    "clip": "pass-overhead",
+    "src": "./public/assets/animation/marco-vellum-pass-overhead-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "marco-vellum",
+      "clip": "pass-overhead",
+      "direction": "right",
+      "generatedAt": "2026-10-24",
+      "eligibleForPacking": true,
+      "promptFile": "tools/generate-art/marco-vellum-pass-overhead-prompt.md",
+      "prompt": "Use Marco Vellum's portrait and gameplay reference only. Preserve the exact same compact athletic adult human MAN: medium-light olive skin, angular clean-shaven face, short slightly waved black hair, no facial hair. Black Blackthorn jersey/shorts with crimson piping and white trim, black wristbands and black high-top shoes. Do not borrow any other athlete's long hair or mustache.\n\nCreate exactly six complete full-body sequential poses, row-major 3 columns x 2 rows on transparent RGBA 1536x1024. Each pose centered in a 512x512 cell, about 65% cell height with at least 35 px clear margins on every side. Nothing may cross cell lines. Crisp outlined 1990s arcade sprite art. No background, court, hoop, floor, shadows, text, teammate, opponent, basketball or props.\n\nRight-facing overhead two-hand pass: 0 ready stance, hands empty; 1 gathers invisible ball at chest; 2 lifts it above forehead with both elbows bent; 3 raises both empty hands over his head; 4 extends both arms forward overhead and releases an imaginary pass, fingers open; 5 follows through then returns balanced. There is no actual ball anywhere; Marco's distinct ball path is drawn separately in gameplay.\n\nKeep exactly two natural arms/hands and legs/shoes, same clean-shaven short-haired Marco and uniform throughout. Full bodies, no clipping or overlap, transparent alpha-zero background and gutters, no haze/checkerboard. Return only the sheet.",
+      "references": [
+        "tools/generate-art/references/marco-vellum-portrait-reference.png",
+        "public/assets/animation/marco-vellum-idle-right.webp"
+      ],
+      "review": {
+        "status": "accepted",
+        "notes": "Six complete row-major poses preserve Marco as a compact adult human man with medium-light olive skin, angular clean-shaven face, short slightly waved black hair, black/crimson/white Blackthorn kit, wristbands and high-tops. Motion reads from ready stance through chest gather, overhead lift, high release and balanced follow-through. The hands are empty throughout; no basketball or scenery is present."
+      },
+      "ballTrack": {
+        "owner": "marco-vellum",
+        "art": "no ball in atlas; independent Marco-specific runtime ball path"
+      },
+      "cleanup": {
+        "script": "tools/generate-art/clean-marco-vellum-pass-overhead6.py",
+        "method": "For each 3x2 cell, retained the largest alpha>=32 athlete component and a 2px antialias fringe; removed the generated background while preserving original pose pixels. Six-pose component packer validates distinct complete bodies.",
+        "rawSource": "tools/generate-art/sources/marco-vellum-pass-overhead-generated-raw.png",
+        "rawSourceSha256": "37409a906f4d3794aee64366f1143af376038a666b8653cec6df379d62c9bbde",
+        "cleanedSource": "tools/generate-art/sources/marco-vellum-pass-overhead6.png",
+        "sourceSha256": "a9b68aad7413cdf5bd265ebb594fa7029c86e5e1325f443bea83b160551a77e3"
+      },
+      "sourceSha256": "a9b68aad7413cdf5bd265ebb594fa7029c86e5e1325f443bea83b160551a77e3",
+      "rejectedAttempts": [],
+      "generationMetadata": "The raw source file had no embedded generation ID metadata; source hashes and the exact prompt are preserved.",
+      "artifactHashes": {
+        "rawSourceSha256": "37409a906f4d3794aee64366f1143af376038a666b8653cec6df379d62c9bbde",
+        "cleanedSourceSha256": "a9b68aad7413cdf5bd265ebb594fa7029c86e5e1325f443bea83b160551a77e3",
+        "atlasSha256": "a99a42ff0420aab3fe6df8f2ae8974e6c8ee5bee03737a2175b2a58e698f02f6",
+        "reviewPreviewSha256": "090eae72abf4e24aeb52aaf97dcbf8de3e656280439d88d98cff8eabf06245df"
+      },
+      "reviewPreview": "tools/generate-art/sources/marco-vellum-pass-overhead-review.png"
+    }
+  }
+]
