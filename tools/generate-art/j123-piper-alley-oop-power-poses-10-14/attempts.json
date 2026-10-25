@@ -7,8 +7,11 @@
   "poses": [
     {
       "pose": 10,
-      "selectedAttempt": 1,
-      "provenance": "provenance/pose-10-attempt1.json"
+      "selectedAttempt": "2b",
+      "provenance": "provenance/pose-10-attempt2-revision-b.json",
+      "layoutCandidate": "layout-candidates/pose10-attempt2b-fit80.png",
+      "replacedAttempt": 1,
+      "selectionReason": "Clearly stronger arm-line and hand-aperture distinction from pose09 at 128x96; identity/anatomy/no-ball/transparency/margin checks pass."
     },
     {
       "pose": 11,

@@ -1,0 +1,39 @@
+{
+  "issue": "J.123",
+  "athlete": "piper-quickstep",
+  "clip": "alley-oop-power",
+  "reviewedAt": "2026-10-25T14:53:17Z",
+  "reviewer": "Codex subagent, visual native-cell comparison",
+  "status": "release-b native 09/10 distinction passes; atlas remains review-only",
+  "pose09": {
+    "source": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/layout-candidates/pose-09-fit128.png",
+    "beat": "closed-hand pre-release; diagonal arm"
+  },
+  "pose10": {
+    "source": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/layout-candidates/pose10-attempt2b-fit80.png",
+    "beat": "sole open-palm release; near-vertical arm and splayed palm"
+  },
+  "comparisons": [
+    {
+      "mode": "bbox-height",
+      "file": "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-bbox-height-release-b-pose09-10-native-128x96.png",
+      "sha256": "48b3e899016e7c22287bde09e489a4b8918ee7c4dcb28570c9c87147384f3e6a"
+    },
+    {
+      "mode": "bbox-height",
+      "file": "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-bbox-height-release-b-pose09-10-zoom3x.png",
+      "sha256": "1face625708e994c696ce3cd73e6624920bb6e610235c2d7d857f5ab82d67569"
+    },
+    {
+      "mode": "lane-scale",
+      "file": "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-lane-scale-release-b-pose09-10-native-128x96.png",
+      "sha256": "48b3e899016e7c22287bde09e489a4b8918ee7c4dcb28570c9c87147384f3e6a"
+    },
+    {
+      "mode": "lane-scale",
+      "file": "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-lane-scale-release-b-pose09-10-zoom3x.png",
+      "sha256": "1face625708e994c696ce3cd73e6624920bb6e610235c2d7d857f5ab82d67569"
+    }
+  ],
+  "notes": "Reviewed both updated 128x96 atlas cell side-by-side proofs. The release-b open palm and steep arm line make frame10 clearly distinguishable from frame09 at native atlas size. Full atlas scale, anatomy and runtime review remain pending; this is not production acceptance."
+}

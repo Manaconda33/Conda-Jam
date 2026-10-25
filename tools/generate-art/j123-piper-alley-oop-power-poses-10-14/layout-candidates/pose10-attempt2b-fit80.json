@@ -1,0 +1,25 @@
+{
+  "source": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/cleaned/pose-10-attempt2-revision-b-components-clean.png",
+  "bbox": [
+    291,
+    33,
+    1024,
+    1223
+  ],
+  "scale": 0.91932773,
+  "figureSizePx": [
+    674,
+    1094
+  ],
+  "placementXY": [
+    290,
+    80
+  ],
+  "alphaMarginsLTRB": [
+    290,
+    80,
+    290,
+    80
+  ],
+  "candidate": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/layout-candidates/pose10-attempt2b-fit80.png"
+}

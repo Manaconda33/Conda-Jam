@@ -1,0 +1,100 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 10,
+  "attempt": "2a",
+  "generationId": "exec-eddea488-96e6-46ba-ba3a-879111c8d5b4",
+  "generatedAt": "2026-10-25T14:47:30.074750Z",
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/prompts/pose-10-attempt2.md",
+  "promptSha256": "19472b26641c7f3a3b870ea626a7cb4230f77cb4f74db91ee70df307d04d7662",
+  "references": [
+    "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/sources/pose-10-attempt1-raw.png",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/sources/pose-09-attempt1.png"
+  ],
+  "referenceSha256": {
+    "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/sources/pose-10-attempt1-raw.png": "a72efa54ce0937be7b689388ccc2b0e300f17fde106b5d5d868cbd10aa4820a4",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/sources/pose-09-attempt1.png": "a463d4aa43097b0148608fd26f6e70cdcf08a8f750a4980ed0bb8ca7b054bc47"
+  },
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/sources/pose-10-attempt2-raw.png",
+  "rawSourceSha256": "656a5ce6362318fa663c4ed5bd1ab1428b75a665bb7358f578c11f139cf26451",
+  "sourcePx": [
+    1254,
+    1254
+  ],
+  "sourceMode": "RGBA",
+  "rawAlphaMarginsLTRB": {
+    "alpha>0": [
+      23,
+      21,
+      14,
+      14
+    ],
+    "alpha>1": [
+      258,
+      83,
+      120,
+      88
+    ],
+    "alpha>16": [
+      260,
+      85,
+      122,
+      90
+    ],
+    "alpha>128": [
+      261,
+      86,
+      123,
+      91
+    ]
+  },
+  "cleanup": {
+    "method": "Keep largest 8-connected alpha>0 component and preserve RGB and retained alpha values.",
+    "components": 1749,
+    "detachedForegroundPixelsRemoved": 5769,
+    "cleanedSource": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/cleaned/pose-10-attempt2-components-clean.png",
+    "cleanedSourceSha256": "65cca8fb2d198a66aa997ee88ad45ba231aaf26f50d80a9719c6f8feff3972e7",
+    "cleanedAlphaMarginsLTRB": {
+      "alpha>0": [
+        255,
+        82,
+        118,
+        82
+      ],
+      "alpha>1": [
+        258,
+        83,
+        120,
+        88
+      ],
+      "alpha>16": [
+        260,
+        85,
+        122,
+        90
+      ],
+      "alpha>128": [
+        261,
+        86,
+        123,
+        91
+      ]
+    }
+  },
+  "review": {
+    "identity": "PASS",
+    "anatomy": "PASS",
+    "noBall": "PASS",
+    "transparency": "PASS after alpha-only cleanup",
+    "margin": "PASS after cleanup",
+    "poseSeparation": "FAIL: open hand is improved, but arm line remains too close to pose09 at 128x96; rejected as replacement."
+  },
+  "proofs": [
+    "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/previews/pose-10-attempt2/raw-light.png",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/previews/pose-10-attempt2/raw-dark.png",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/previews/pose-10-attempt2/compare-pose10-attempt2-light-128x96.png",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/previews/pose-10-attempt2/compare-pose10-attempt2-dark-128x96.png"
+  ],
+  "disposition": "Preserved rejected candidate; not selected."
+}

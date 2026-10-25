@@ -1,0 +1,664 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "status": "review-only candidate; not production accepted",
+  "mode": "lane-scale",
+  "scalePolicy": "Lane factors: poses00-04 .075, poses05-09 .081, poses10-14 .077; pose00 exception .0938 to account for its smaller 1536x1024 horizontal-canvas rendering. Caps at80px high/112px wide. Factors are visual estimates and require parent native-size review.",
+  "atlas": "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-lane-scale-release-b.png",
+  "atlasSha256": "de59198ff7fcd4e6ef146afe8e98b6f85aa0762f78606dc44aedf2c93013862f",
+  "webp": "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-lane-scale-release-b.webp",
+  "webpSha256": "3692527f1be3a9536f76c731b1b0cf95be886b9151bb271f396f74919b4a30d3",
+  "atlasPx": [
+    512,
+    384
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "cellPx": [
+    128,
+    96
+  ],
+  "sequenceOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "uniqueFramePixelHashes": [
+    "3438a82acd2efd918ae59fcfe2b02003c687d3155e8a6fbccfcc75b15e709689",
+    "60e6915c612ff0ed656b03a7ff9558b3ae3f8100430be313f357dcc3a6712b8a",
+    "ce86e02ed9797d0ce7cd38132aeaa7a07cd1b419b2dde3bb9bf6e73aaebd71dc",
+    "cd1cbd56ebbf0a20bd36f3bdf4fcec5d52760b5aa5eb0f50e6711b48deb906b2",
+    "746255b5577a96719aefc98baf5f2cd05f11b70203971dcda556e1131f5ba88d",
+    "82d2a4cd3a115180abc483791be7e338fe0a7bbc3b7b045b7991887b041fd66b",
+    "8ce96cc91b44f3b313b1ed0ce4c4c8752c39dfce9be9a0926b93a174d9d4ec57",
+    "59d2c2c3a860a5c514da27e18eee0a0e35f0e975d6a3084ace88c6b43da4265f",
+    "2f276912a916324368d7f52fea28ad45cf8b48c400f109385a07ca8a1db4d863",
+    "fbb89b38f21ccaec715041a8c79d95d98684275b8cdaf522b6322276f9088dbc",
+    "190f555417155848c9db86b81c9a46b3bcb3fd32822b4b5261888e47979bc7fb",
+    "0b3fd8e08bc65116af9ec48f6aa9f384359ae2d139b3950426dfc246de27cade",
+    "272c47d9e42174cfe1cce08c9df3635297439a32f1bf7dc0cf273d287295e8bf",
+    "28931f45e23f0d0a95737ac0f5863d40d2058bac55fd16fe3b5bce4557080470",
+    "0fb4cbab6100e661d2daa6473b9dda49beb01bb9c3644e9ce4b7e30e8528c62b"
+  ],
+  "baselineY": 87,
+  "transparentUnusedCell": 15,
+  "ball": "separate Piper-specific runtime track; no ball pixels in atlas",
+  "resize": "Uniform premultiplied-alpha Lanczos; no figure redraw, pose duplication, interpolation or mirroring.",
+  "sourceRecords": [
+    {
+      "pose": 0,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-alpha-clean-candidate.png",
+      "sourceSha256": "9eb8c8b7e1160404c5e50cb4f6c6184913017420880390059db7cdf40c7c414c",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-provenance.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-00-attempt1-prompt.md",
+      "promptSha256": "b5efab5cfe5b11c507ab9074d024c06892563289720b4b165ac7a25adb0a5782",
+      "sourceCanvasPx": [
+        1536,
+        1024
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        383,
+        83,
+        1133,
+        936
+      ],
+      "cropPx": [
+        750,
+        853
+      ],
+      "scale": 0.093786635,
+      "outputFigurePx": [
+        70,
+        80
+      ],
+      "cellXY": [
+        29,
+        7
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        29,
+        7,
+        29,
+        9
+      ],
+      "cellPixelSha256": "3438a82acd2efd918ae59fcfe2b02003c687d3155e8a6fbccfcc75b15e709689"
+    },
+    {
+      "pose": 1,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-01-attempt1-raw.png",
+      "sourceSha256": "f450b6c747a13dfa950550eaed9d017490a6ea6e5d6bf8c7e01b2ccd9605c827",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-01-attempt1-provenance.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-01-attempt1-prompt.md",
+      "promptSha256": "1944a836870dfef8d220f732132f0dd2ce77d02976f460a1b80f7c6fbf0a29ac",
+      "sourceCanvasPx": [
+        1227,
+        1282
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        216,
+        113,
+        1122,
+        1201
+      ],
+      "cropPx": [
+        906,
+        1088
+      ],
+      "scale": 0.073529412,
+      "outputFigurePx": [
+        67,
+        80
+      ],
+      "cellXY": [
+        30,
+        7
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        30,
+        7,
+        31,
+        9
+      ],
+      "cellPixelSha256": "60e6915c612ff0ed656b03a7ff9558b3ae3f8100430be313f357dcc3a6712b8a"
+    },
+    {
+      "pose": 2,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-02-attempt1-raw.png",
+      "sourceSha256": "bdbe1b7dc3d19190c6d65212f68069d42bb3aa32979d9492f1a1891efa4c42e3",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-02-attempt1-provenance.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-02-attempt1-prompt.md",
+      "promptSha256": "29a22fd6f8a2afa20a87b80addc9294eb42d387bdf33d367694f2fd1dff0fa22",
+      "sourceCanvasPx": [
+        1316,
+        1195
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        288,
+        152,
+        1159,
+        1096
+      ],
+      "cropPx": [
+        871,
+        944
+      ],
+      "scale": 0.075,
+      "outputFigurePx": [
+        65,
+        71
+      ],
+      "cellXY": [
+        31,
+        16
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        31,
+        16,
+        32,
+        9
+      ],
+      "cellPixelSha256": "ce86e02ed9797d0ce7cd38132aeaa7a07cd1b419b2dde3bb9bf6e73aaebd71dc"
+    },
+    {
+      "pose": 3,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-fit92-candidate.png",
+      "sourceSha256": "268993906d3de9723e7a0b353f4432fe06a04a19419af4f8a81494fd66386bbd",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-provenance.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-03-attempt1-prompt.md",
+      "promptSha256": "b8e835cf8e110be56ae0adcf9805ae8c6285c396c6e310b2e3542c1c52db00fb",
+      "sourceCanvasPx": [
+        1234,
+        1274
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        262,
+        112,
+        1101,
+        1176
+      ],
+      "cropPx": [
+        839,
+        1064
+      ],
+      "scale": 0.075,
+      "outputFigurePx": [
+        63,
+        80
+      ],
+      "cellXY": [
+        32,
+        7
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        32,
+        7,
+        33,
+        9
+      ],
+      "cellPixelSha256": "cd1cbd56ebbf0a20bd36f3bdf4fcec5d52760b5aa5eb0f50e6711b48deb906b2"
+    },
+    {
+      "pose": 4,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-04-attempt1-fit92-candidate.png",
+      "sourceSha256": "86a09b27b06056c0d58a61254be2b22440f2f76c8062ee49be43fba9b82865bb",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-04-attempt1-provenance.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-00-04/pose-04-attempt1-prompt.md",
+      "promptSha256": "45299c2f548535baeb10b97459c6a512f1e25c906e38fbff19d03191bf15f7f8",
+      "sourceCanvasPx": [
+        1193,
+        1319
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        227,
+        138,
+        1086,
+        1204
+      ],
+      "cropPx": [
+        859,
+        1066
+      ],
+      "scale": 0.075,
+      "outputFigurePx": [
+        64,
+        80
+      ],
+      "cellXY": [
+        32,
+        7
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        32,
+        7,
+        32,
+        9
+      ],
+      "cellPixelSha256": "746255b5577a96719aefc98baf5f2cd05f11b70203971dcda556e1131f5ba88d"
+    },
+    {
+      "pose": 5,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleaned/pose-05-attempt1-main-alpha.png",
+      "sourceSha256": "9546536c2e1159afe3b3d4e9e6e74d3656242298200bcde9a12c742919acf623",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/provenance/pose-05-attempt1.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/prompts/pose-05.md",
+      "promptSha256": "247154fbc24034514897545809459a47f1d2c1d0d2ce56d23b15e734f228747e",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        317,
+        141,
+        954,
+        1100
+      ],
+      "cropPx": [
+        637,
+        959
+      ],
+      "scale": 0.081,
+      "outputFigurePx": [
+        52,
+        78
+      ],
+      "cellXY": [
+        38,
+        9
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        38,
+        9,
+        38,
+        9
+      ],
+      "cellPixelSha256": "82d2a4cd3a115180abc483791be7e338fe0a7bbc3b7b045b7991887b041fd66b"
+    },
+    {
+      "pose": 6,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/layout-candidates/pose-06-fit128.png",
+      "sourceSha256": "658470c8a2911c6cf1c298b4b3178fc64321b3f5b8cc310ec2739113c512f01d",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/provenance/pose-06-attempt1.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/prompts/pose-06.md",
+      "promptSha256": "40bf446e920e7ac8b3374f61914f77c60fb319c1820638208740fdc8f4359550",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        357,
+        128,
+        898,
+        1125
+      ],
+      "cropPx": [
+        541,
+        997
+      ],
+      "scale": 0.080240722,
+      "outputFigurePx": [
+        43,
+        80
+      ],
+      "cellXY": [
+        42,
+        7
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        42,
+        7,
+        43,
+        9
+      ],
+      "cellPixelSha256": "8ce96cc91b44f3b313b1ed0ce4c4c8752c39dfce9be9a0926b93a174d9d4ec57"
+    },
+    {
+      "pose": 7,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleaned/pose-07-attempt1-main-alpha.png",
+      "sourceSha256": "d8b7908d3209685e15a4dc769088c7b6d584cbb07e6c699eb20efba95b6a7e20",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/provenance/pose-07-attempt1.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/prompts/pose-07.md",
+      "promptSha256": "fcc67b438285d655d2d8100970f9b6d504c15de4d6c14ae01dd43b8a5b54724c",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        295,
+        157,
+        883,
+        1056
+      ],
+      "cropPx": [
+        588,
+        899
+      ],
+      "scale": 0.081,
+      "outputFigurePx": [
+        48,
+        73
+      ],
+      "cellXY": [
+        40,
+        14
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        40,
+        14,
+        40,
+        9
+      ],
+      "cellPixelSha256": "59d2c2c3a860a5c514da27e18eee0a0e35f0e975d6a3084ace88c6b43da4265f"
+    },
+    {
+      "pose": 8,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/cleaned/pose-08-attempt1-main-alpha.png",
+      "sourceSha256": "3ee1dcda326683411a8eeaff8b363cb1b50dbc2a1c5733316f33db4bfadce0ab",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/provenance/pose-08-attempt1.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/prompts/pose-08.md",
+      "promptSha256": "8b8179c7b1d9789b6ad3b20df5db9098a6d8274f037bcc245271f7e03bec2754",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        237,
+        170,
+        1065,
+        1113
+      ],
+      "cropPx": [
+        828,
+        943
+      ],
+      "scale": 0.081,
+      "outputFigurePx": [
+        67,
+        76
+      ],
+      "cellXY": [
+        30,
+        11
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        30,
+        11,
+        31,
+        9
+      ],
+      "cellPixelSha256": "2f276912a916324368d7f52fea28ad45cf8b48c400f109385a07ca8a1db4d863"
+    },
+    {
+      "pose": 9,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/layout-candidates/pose-09-fit128.png",
+      "sourceSha256": "dce36d643315417d565fab11ce8e5bc1748187cfe1d9aec45882f5054605f189",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/provenance/pose-09-attempt1.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/prompts/pose-09.md",
+      "promptSha256": "501c385d30f39fd83a4bdabe261768ea9a02df05eb8ee484c11502ecc3de08d7",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        245,
+        128,
+        1009,
+        1126
+      ],
+      "cropPx": [
+        764,
+        998
+      ],
+      "scale": 0.080160321,
+      "outputFigurePx": [
+        61,
+        80
+      ],
+      "cellXY": [
+        33,
+        7
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        33,
+        7,
+        34,
+        9
+      ],
+      "cellPixelSha256": "fbb89b38f21ccaec715041a8c79d95d98684275b8cdaf522b6322276f9088dbc"
+    },
+    {
+      "pose": 10,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/layout-candidates/pose10-attempt2b-fit80.png",
+      "sourceSha256": "d05a0371e87afae79a20ac26996508e690979291506152d89d3565fbc615f6f2",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/provenance/pose-10-attempt2-revision-b.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/prompts/pose-10-attempt2-revision-b.md",
+      "promptSha256": "8d4c907130bf7f96d28056bf91732fddbfb6c0df815e2cb5ac5a32d615f955e9",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        292,
+        82,
+        962,
+        1170
+      ],
+      "cropPx": [
+        670,
+        1088
+      ],
+      "scale": 0.073529412,
+      "outputFigurePx": [
+        49,
+        80
+      ],
+      "cellXY": [
+        39,
+        7
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        39,
+        7,
+        40,
+        9
+      ],
+      "cellPixelSha256": "190f555417155848c9db86b81c9a46b3bcb3fd32822b4b5261888e47979bc7fb"
+    },
+    {
+      "pose": 11,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/cleaned/pose-11-attempt1-components-clean.png",
+      "sourceSha256": "10e1cb826ebdcd8c64a301b8e6d7012c6f414d6f040b84cb49967c53b9f3cae3",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/provenance/pose-11-attempt1.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/prompts/pose-11.md",
+      "promptSha256": "3cff22c38acffdeb22f04363d9efa60cc5559940ea82c74f9de501db6e3a9cb0",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        188,
+        197,
+        1169,
+        1109
+      ],
+      "cropPx": [
+        981,
+        912
+      ],
+      "scale": 0.077,
+      "outputFigurePx": [
+        76,
+        70
+      ],
+      "cellXY": [
+        26,
+        17
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        26,
+        17,
+        26,
+        9
+      ],
+      "cellPixelSha256": "0b3fd8e08bc65116af9ec48f6aa9f384359ae2d139b3950426dfc246de27cade"
+    },
+    {
+      "pose": 12,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/cleaned/pose-12-attempt2-components-clean.png",
+      "sourceSha256": "357f2c049ca3c993fce61d91fa4c92c1b415195cbb8a35ca709758d16a04ae1f",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/provenance/pose-12-attempt2.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/prompts/pose-12-attempt2.md",
+      "promptSha256": "d18837e60d9ceb254df24c6c8cfb2df09cf48193ed0b58980f90207082573b5b",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        294,
+        144,
+        1056,
+        1135
+      ],
+      "cropPx": [
+        762,
+        991
+      ],
+      "scale": 0.077,
+      "outputFigurePx": [
+        59,
+        76
+      ],
+      "cellXY": [
+        34,
+        11
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        34,
+        11,
+        35,
+        9
+      ],
+      "cellPixelSha256": "272c47d9e42174cfe1cce08c9df3635297439a32f1bf7dc0cf273d287295e8bf"
+    },
+    {
+      "pose": 13,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/cleaned/pose-13-attempt1-components-clean.png",
+      "sourceSha256": "62e248c77a46e9e7133919bac1fa2c65c05ed6d10d36515fca86e1820459f26d",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/provenance/pose-13-attempt1.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/prompts/pose-13-attempt1.md",
+      "promptSha256": "e195fd4c729bbbadc37c7606da097165b0c7128a1924917e21f74a7109ade738",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        289,
+        243,
+        1016,
+        1014
+      ],
+      "cropPx": [
+        727,
+        771
+      ],
+      "scale": 0.077,
+      "outputFigurePx": [
+        56,
+        59
+      ],
+      "cellXY": [
+        36,
+        28
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        36,
+        28,
+        36,
+        9
+      ],
+      "cellPixelSha256": "28931f45e23f0d0a95737ac0f5863d40d2058bac55fd16fe3b5bce4557080470"
+    },
+    {
+      "pose": 14,
+      "source": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/cleaned/pose-14-attempt1-components-clean.png",
+      "sourceSha256": "dc352efc0bb17e880b314a20498cb17e2e6f64fbf733252b02930b1561da9338",
+      "provenanceFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/provenance/pose-14-attempt1.json",
+      "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/prompts/pose-14-attempt1.md",
+      "promptSha256": "4fd2913e48218416f37e068c6a8264cddd6c5d843bd366d73c4e4b23014ced4d",
+      "sourceCanvasPx": [
+        1254,
+        1254
+      ],
+      "alphaCropThreshold": 16,
+      "alphaCropLTRB": [
+        332,
+        87,
+        901,
+        1165
+      ],
+      "cropPx": [
+        569,
+        1078
+      ],
+      "scale": 0.074211503,
+      "outputFigurePx": [
+        42,
+        80
+      ],
+      "cellXY": [
+        43,
+        7
+      ],
+      "baselineY": 87,
+      "cellMarginsLTRBpx": [
+        43,
+        7,
+        43,
+        9
+      ],
+      "cellPixelSha256": "0fb4cbab6100e661d2daa6473b9dda49beb01bb9c3644e9ce4b7e30e8528c62b"
+    }
+  ]
+}

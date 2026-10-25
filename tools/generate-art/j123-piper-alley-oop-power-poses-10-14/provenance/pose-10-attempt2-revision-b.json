@@ -1,0 +1,132 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.123",
+  "clip": "alley-oop-power",
+  "pose": 10,
+  "attempt": "2b",
+  "beat": "Sole open-palm release at tick21; empty hand; visibly open five-finger palm; arm line much more vertical than pose09.",
+  "generationId": "exec-6a07a2f9-bea3-41d4-8c1b-3c105192521c",
+  "generatedAt": "2026-10-25T14:50:04.302741Z",
+  "promptFile": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/prompts/pose-10-attempt2-revision-b.md",
+  "promptSha256": "8d4c907130bf7f96d28056bf91732fddbfb6c0df815e2cb5ac5a32d615f955e9",
+  "toolPromptPrefix": "The first two images are accepted Piper Quickstep identity references only. The final image is adjacent pose 09 for sequence comparison; make the arm line far more vertical and hand unmistakably open. Exact candidate prompt:",
+  "referenceFiles": [
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png",
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/sources/pose-09-attempt1.png"
+  ],
+  "referenceSha256": {
+    "tools/generate-art/sources/piper-quickstep-dunk-clutch-attempt5-clean.png": "5147a3d29c566144c116e0e4545871e5f96c5f2acf595be740a39d4e52b4fbd8",
+    "tools/generate-art/sources/piper-quickstep-dunk-scythe15.png": "1b4fbf9e09b6ba3e3cb7c543efe68cb127ecb846adcc6dc4de1ceaec5257c419",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-05-09/sources/pose-09-attempt1.png": "a463d4aa43097b0148608fd26f6e70cdcf08a8f750a4980ed0bb8ca7b054bc47"
+  },
+  "rawSource": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/sources/pose-10-attempt2-revision-b-raw.png",
+  "rawSourceSha256": "19afdd702383cfffe210578accfea9709f2cbde823ccca34701587e651fbb79e",
+  "rawSourcePx": [
+    1254,
+    1254
+  ],
+  "rawMode": "RGBA",
+  "rawAlphaMarginsLTRB": {
+    "alpha>0": [
+      25,
+      33,
+      20,
+      0
+    ],
+    "alpha>1": [
+      291,
+      33,
+      230,
+      33
+    ],
+    "alpha>16": [
+      294,
+      35,
+      233,
+      35
+    ],
+    "alpha>128": [
+      294,
+      36,
+      233,
+      36
+    ]
+  },
+  "cleanup": {
+    "method": "Keep largest 8-connected alpha>0 component; preserve all RGB and retained alpha values. Detached alpha-only pixels removed; no artwork redrawn.",
+    "componentCount": 271,
+    "detachedForegroundPixelsRemoved": 460,
+    "rgbUnchanged": true,
+    "cleanedSource": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/cleaned/pose-10-attempt2-revision-b-components-clean.png",
+    "cleanedSourceSha256": "467066d7362d031461f37a5f40230bec17eec3f7bdbac9dfa1f8e8dde5ef009a",
+    "cleanedAlphaMarginsLTRB": {
+      "alpha>0": [
+        291,
+        33,
+        230,
+        31
+      ],
+      "alpha>1": [
+        291,
+        33,
+        230,
+        33
+      ],
+      "alpha>16": [
+        294,
+        35,
+        233,
+        35
+      ],
+      "alpha>128": [
+        294,
+        36,
+        233,
+        36
+      ]
+    }
+  },
+  "marginLayoutCandidate": {
+    "source": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/cleaned/pose-10-attempt2-revision-b-components-clean.png",
+    "bbox": [
+      291,
+      33,
+      1024,
+      1223
+    ],
+    "scale": 0.91932773,
+    "figureSizePx": [
+      674,
+      1094
+    ],
+    "placementXY": [
+      290,
+      80
+    ],
+    "alphaMarginsLTRB": [
+      290,
+      80,
+      290,
+      80
+    ],
+    "candidate": "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/layout-candidates/pose10-attempt2b-fit80.png",
+    "candidateSha256": "d05a0371e87afae79a20ac26996508e690979291506152d89d3565fbc615f6f2",
+    "method": "Uniform scale and center placement only, no pixel redraw; 80px transparent margin on all edges."
+  },
+  "sourceReview": {
+    "identity": "PASS: warm-brown skin, dark eyes, attached bright orange high ponytail, russet/cream uniform, white socks and red/cream shoes match accepted Piper references.",
+    "anatomy": "PASS: complete adult human anatomy; coherent shoulder/elbow/wrist, two hands, two legs and shoes; five splayed fingers on release hand; no visible deformity.",
+    "noBall": "PASS: no ball or other prop.",
+    "transparency": "PASS: RGBA transparent background; 460 detached alpha pixels removed by alpha-only cleanup.",
+    "margins": "PASS after uniform fit80 layout: alpha>0 80px each side; thresholds>16 and >128 exceed 80px.",
+    "poseSeparation": "PASS: compared to pose09 at source and 128x96 cells, pose09 has a closed fist and diagonally extended arm; pose10 attempt2b has a fully splayed open hand and steep, near-vertical arm line. Clearly legible at 128x96."
+  },
+  "comparisonProofs": [
+    "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/previews/pose-10-attempt2/source-compare-dark.png",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/previews/pose-10-attempt2/source-compare-light.png",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/previews/pose-10-attempt2/runtime-compare-dark-128x96.png",
+    "tools/generate-art/j123-piper-alley-oop-power-poses-10-14/previews/pose-10-attempt2/runtime-compare-light-128x96.png"
+  ],
+  "disposition": "Preferred pose10 source candidate over attempt1 for distinction from pose09; source review pass, layout candidate only, no atlas assembly or packing."
+}
