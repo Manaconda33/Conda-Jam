@@ -4,24 +4,81 @@
   "clip": "alley-oop-reverse",
   "status": "visual estimate only; not integrated or accepted",
   "reviewDate": "2026-10-25",
-  "height": [1.05, 1.2, 1.6, 1.85, 2.1, 2.32, 1.92, 2.38, 2.2, 2.35, 2.35, 1.8, 1.2, 0.75, 0.6],
-  "forward": [5, 7, 8, 7, 4, 4, 1, -3, -5, -7, -7, -5, -2, 1, 3],
+  "height": [
+    1.05,
+    1.2,
+    1.6,
+    1.85,
+    2.1,
+    2.32,
+    1.92,
+    2.38,
+    2.2,
+    2.35,
+    2.35,
+    1.8,
+    1.2,
+    0.75,
+    0.6
+  ],
+  "forward": [
+    5,
+    7,
+    8,
+    7,
+    4,
+    4,
+    1,
+    -3,
+    -5,
+    -7,
+    -7,
+    -5,
+    -2,
+    1,
+    3
+  ],
   "provenance": "Independent visual estimate from the J.124 review-only 128x96 cells; proposed by the ball-track reviewer after pose09 attempt2 moved its closed fist behind the crown, near pose10's open release palm.",
   "contactBeats": {
-    "catch": { "tick": 10, "frame": 5, "note": "Two-hand overhead catch; H2.32/F4 is a visual estimate pending native Canvas overlay." },
-    "gather": { "frame": 6, "note": "Ball settles near face/chest." },
-    "reversePeak": { "tick": 14, "frame": 7, "note": "High hands near the crown during the turn." },
-    "preRelease": { "tick": 20, "frame": 9, "note": "Pose09 attempt2 closed fist shares approximately H2.35/F-7 with the open release hand." },
-    "release": { "tick": 21, "frame": 10, "note": "Open palm behind the crown; release toward the reverse-side rim." },
-    "finish": { "tick": 23, "frame": 11 },
-    "land": { "tick": 30, "frame": 14 }
+    "catch": {
+      "tick": 10,
+      "frame": 5,
+      "note": "Two-hand overhead catch; H2.32/F4 is a visual estimate pending native Canvas overlay."
+    },
+    "gather": {
+      "frame": 6,
+      "note": "Ball settles near face/chest."
+    },
+    "reversePeak": {
+      "tick": 14,
+      "frame": 7,
+      "note": "High hands near the crown during the turn."
+    },
+    "preRelease": {
+      "tick": 20,
+      "frame": 9,
+      "note": "Pose09 attempt2 closed fist shares approximately H2.35/F-7 with the open release hand."
+    },
+    "release": {
+      "tick": 21,
+      "frame": 10,
+      "note": "Open palm behind the crown; release toward the reverse-side rim."
+    },
+    "finish": {
+      "tick": 23,
+      "frame": 11
+    },
+    "land": {
+      "tick": 30,
+      "frame": 14
+    }
   },
   "validation": {
     "sourceCellReview": "provisional",
-    "realTeammateLobSimulation": "pending",
-    "nativeCanvas100BothFacings": "pending",
-    "nativeCanvas120BothFacings": "pending",
+    "realTeammateLobSimulation": "not run; native contact rejected",
+    "nativeCanvas100BothFacings": "rejected; carried ball floats above contact hands at poses05,07-10 and overlaps face at pose06",
+    "nativeCanvas120BothFacings": "rejected; same visible offsets at 120%",
     "scoreAtRelease": "pending",
-    "limitations": "Do not integrate this vector until actual Canvas hand contact and a two-facing teammate-lob simulation confirm catch at tick10, carry through tick20, release at tick21, one two-point score at tick23, and landing at tick30."
+    "limitations": "Candidate1 is preserved as a rejected visual estimate. Native Canvas shows ball/hand gaps and face overlap; do not integrate."
   }
 }

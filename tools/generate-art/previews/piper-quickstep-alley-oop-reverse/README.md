@@ -1,0 +1,9 @@
+# J.124 Piper reverse alley-oop — track calibration and review
+
+The accepted track is track-candidate6.json: H [1.05,1.2,1.6,1.85,2.1,1.8,1.45,2.0,1.75,1.95,2.1,1.8,1.2,.75,.6], F [5,7,8,7,4,4,1,-3,-5,-7,-7,-5,-2,1,3]. All values are sampled over the15 authored poses; the athlete atlas contains no ball.
+
+Tracks candidate1–5 are preserved with native100%/120% captures. They were rejected for floated hand contacts (candidate1), a low pose06 gather (candidate2), face/mouth overlap at pose06 (candidates3–5). Pose06 source attempt2a and attempt2b were generated from the exact prompt/reference in the pose source lane; candidate3b/attempt2b was selected for the clearer upper-chest clasp. Candidate6/atlas3a remains a reviewed alternative; candidate6b uses selected candidate3b.
+
+Candidate7 is the final packed-production review. native-100 and native-120 were rendered with actual src/main.js Canvas, without the unreviewed override. Each report captures both facings, all15 poses, carry/release frames and tick20 pre-release. All captures select production art; the source is the production WebP. Corrected hand-contact crops use the zoom-specific Piper screen center. Candidate6b's first native-100 montage used the wrong left-facing crop center and is superseded by hand-contact-crops-corrected.png; the raw full-frame captures are preserved.
+
+Independent source, track and production reviewers pass Piper identity/anatomy, pose separation, cell margins/transparency, no baked ball, hand contacts at poses05–09, tick20 carry, tick21 ownerless flight and the mirrored sequence in both zooms. The focused test verifies real teammate lob timing in both facings: no possession before tick10, catch10, carry20, release21, one two-point score23, land30. Canvas previews are diagnostic and are not browser E2E.

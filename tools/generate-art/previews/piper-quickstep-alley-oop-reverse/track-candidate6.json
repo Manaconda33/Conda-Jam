@@ -1,0 +1,84 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "status": "accepted native track for selected pose06 attempt2b / atlas candidate3b",
+  "reviewDate": "2026-10-25",
+  "height": [
+    1.05,
+    1.2,
+    1.6,
+    1.85,
+    2.1,
+    1.8,
+    1.45,
+    2.0,
+    1.75,
+    1.95,
+    2.1,
+    1.8,
+    1.2,
+    0.75,
+    0.6
+  ],
+  "forward": [
+    5,
+    7,
+    8,
+    7,
+    4,
+    4,
+    1,
+    -3,
+    -5,
+    -7,
+    -7,
+    -5,
+    -2,
+    1,
+    3
+  ],
+  "provenance": "Independent native Canvas review of candidate3b at100% and120% in both facings accepted the separate ball contacts at every carried pose. Pose06 uses attempt2b upper-chest clasp; H1.45/F1. Track simulation confirms tick10 catch, carry through20, tick21 release, score23 and landing30.",
+  "contactBeats": {
+    "catch": {
+      "tick": 10,
+      "frame": 5,
+      "note": "Pose05 overhead catch; H1.8 is a downward correction from candidate1 after Canvas showed the ball above the fingertips."
+    },
+    "gather": {
+      "frame": 6,
+      "note": "Pose06 gather reduced to H1.45 to clear Piper\u2019s face while staying near both hands; verify native overlay."
+    },
+    "reversePeak": {
+      "tick": 14,
+      "frame": 7,
+      "note": "Pose07 raised hand behind crown; H2.0 is lowered from candidate1; verify native overlay."
+    },
+    "preRelease": {
+      "tick": 20,
+      "frame": 9,
+      "note": "Pose09 closed fist; H1.95 and F-7 are a lower vertical correction to align the ball with the reverse-side fist."
+    },
+    "release": {
+      "tick": 21,
+      "frame": 10,
+      "note": "Pose10 open palm; H2.1 and F-7 lower the ball toward the palm before tick21 release."
+    },
+    "finish": {
+      "tick": 23,
+      "frame": 11
+    },
+    "land": {
+      "tick": 30,
+      "frame": 14
+    }
+  },
+  "validation": {
+    "sourceCellReview": "accepted candidate3b; 15 poses unique, margins >=7px, transparent edges, full Piper anatomy",
+    "realTeammateLobSimulation": "pass in both facings; catch10/carry20/release21/land30; one score by23",
+    "nativeCanvas100BothFacings": "pass; candidate6b report and corrected contact crops",
+    "nativeCanvas120BothFacings": "pass; candidate6b report and contact crops",
+    "scoreAtRelease": "ownerless reverse release at21; one two-point score at23",
+    "limitations": "Native review used actual src/main.js Canvas through tools/render-preview.mjs; it is diagnostic evidence, not browser E2E."
+  }
+}

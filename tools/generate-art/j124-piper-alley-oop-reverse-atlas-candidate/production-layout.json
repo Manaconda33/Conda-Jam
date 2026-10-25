@@ -1,0 +1,215 @@
+{
+  "athlete": "piper-quickstep",
+  "direction": "right",
+  "clip": "alley-oop-reverse",
+  "src": "./public/assets/animation/piper-quickstep-alley-oop-reverse-right.webp",
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "athlete": "piper-quickstep",
+    "issue": "J.124",
+    "clip": "alley-oop-reverse",
+    "direction": "right",
+    "status": "reviewed source and accepted native ball-track review",
+    "candidateOnly": false,
+    "sourceImage": "tools/generate-art/sources/piper-quickstep-alley-oop-reverse15.png",
+    "sourceSha256": "db45a86e77b55014a9b201238d4c842c8217b631d214933cea5103fe0f3ab2a0",
+    "sourceCandidate": "tools/generate-art/j124-piper-alley-oop-reverse-atlas-candidate/candidate3b",
+    "sourceLayout": "tools/generate-art/j124-piper-alley-oop-reverse-atlas-candidate/candidate3b/layout-and-hashes.json",
+    "sourceReview": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/source-review.md",
+    "promptFiles": [
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-05-attempt1.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-06-attempt1.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-06-attempt2.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-07-attempt1.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-08-attempt1.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-08-attempt2.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-09-attempt1.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-09-attempt2.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-10-attempt1.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-10-attempt2.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-10-attempt3.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-11-attempt1-actual-request.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-11-attempt1.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-12-attempt1-actual-request.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-12-attempt1.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-13-attempt1-actual-request.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-13-attempt1.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-13-attempt2-actual-request.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-14-attempt1-actual-request.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-14-attempt1.md",
+      "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-06-attempt2.md"
+    ],
+    "pose06SelectedSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/sources/pose-06-attempt2/pose-06-attempt2b-raw.png",
+    "pose06Provenance": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/provenance/pose-06-attempt2b.json",
+    "packaging": {
+      "method": 6,
+      "pillowVersion": "12.3.0",
+      "quality": 88,
+      "alphaQuality": 100,
+      "exact": true,
+      "resized": false,
+      "alphaAtlas": "512x384 RGBA; 4x4 128x96 cells; 15 authored cells, cell16 transparent"
+    },
+    "nativeReview": {
+      "status": "accepted",
+      "reviewedAt": "2026-10-25T18:19:18Z",
+      "reviewers": [
+        "independent full-sequence source reviewer",
+        "independent native ball-track reviewer",
+        "Codex parent"
+      ],
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-alley-oop-reverse/track-candidate7/native-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-alley-oop-reverse/track-candidate7/native-120/report.json"
+      ],
+      "contactPreviews": [
+        "tools/generate-art/previews/piper-quickstep-alley-oop-reverse/track-candidate7/native-100/right-alley-oop-reverse-pre-release-tick20.png",
+        "tools/generate-art/previews/piper-quickstep-alley-oop-reverse/track-candidate7/native-100/left-alley-oop-reverse-pre-release-tick20.png",
+        "tools/generate-art/previews/piper-quickstep-alley-oop-reverse/track-candidate7/native-120/right-alley-oop-reverse-pre-release-tick20.png",
+        "tools/generate-art/previews/piper-quickstep-alley-oop-reverse/track-candidate7/native-120/left-alley-oop-reverse-pre-release-tick20.png",
+        "tools/generate-art/previews/piper-quickstep-alley-oop-reverse/track-candidate7/native-100/hand-contact-crops-corrected.png",
+        "tools/generate-art/previews/piper-quickstep-alley-oop-reverse/track-candidate7/native-120/hand-contact-crops-corrected.png"
+      ],
+      "reviewNotes": "Final production WebP rendered through actual src/main.js Canvas, reviewed at 100% and 120% in both facings. Corrected hand-contact crops show the ball at poses05,06,07,08,09; tick20 is the final carried frame and frame10 at tick21 is ownerless reverse-side flight. Piper identity/anatomy remain consistent and pose06 face is clear. Native Canvas is diagnostic evidence, not browser E2E."
+    },
+    "ballTrack": {
+      "status": "accepted-native-review",
+      "file": "tools/generate-art/previews/piper-quickstep-alley-oop-reverse/track-candidate6.json",
+      "height": [
+        1.05,
+        1.2,
+        1.6,
+        1.85,
+        2.1,
+        1.8,
+        1.45,
+        2,
+        1.75,
+        1.95,
+        2.1,
+        1.8,
+        1.2,
+        0.75,
+        0.6
+      ],
+      "forward": [
+        5,
+        7,
+        8,
+        7,
+        4,
+        4,
+        1,
+        -3,
+        -5,
+        -7,
+        -7,
+        -5,
+        -2,
+        1,
+        3
+      ],
+      "ballFreeArt": true,
+      "simulation": "candidate test passes catch10, carry20, release21, one two-point score23, land30 in both facings"
+    },
+    "webpSha256": "9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f",
+    "ballTrackStatus": "accepted-native-review",
+    "atlasLayout": "512x384; 4x4 row-major; 15 unique 128x96 source cells; cell16 transparent; pose06 source attempt2b",
+    "productionSourceSha256": "db45a86e77b55014a9b201238d4c842c8217b631d214933cea5103fe0f3ab2a0",
+    "prompt": "The exact prompts for all15 isolated source drawings are preserved in provenance.promptFiles; pose06 uses the selected attempt2b prompt file.",
+    "generatedAt": "2026-10-25"
+  }
+}

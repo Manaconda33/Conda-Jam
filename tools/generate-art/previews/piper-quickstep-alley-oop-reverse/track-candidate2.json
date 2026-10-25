@@ -1,0 +1,84 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "status": "rejected after native review; pose06 ball sits low at upper chest rather than gathered hands",
+  "reviewDate": "2026-10-25",
+  "height": [
+    1.05,
+    1.2,
+    1.6,
+    1.85,
+    2.1,
+    1.8,
+    1.45,
+    2.0,
+    1.75,
+    1.95,
+    2.1,
+    1.8,
+    1.2,
+    0.75,
+    0.6
+  ],
+  "forward": [
+    5,
+    7,
+    8,
+    7,
+    4,
+    4,
+    1,
+    -3,
+    -5,
+    -7,
+    -7,
+    -5,
+    -2,
+    1,
+    3
+  ],
+  "provenance": "Candidate2 lowers ball heights after native 100%/120% overlays showed it above the hands; source art is unchanged.",
+  "contactBeats": {
+    "catch": {
+      "tick": 10,
+      "frame": 5,
+      "note": "Pose05 overhead catch; H1.8 is a downward correction from candidate1 after Canvas showed the ball above the fingertips."
+    },
+    "gather": {
+      "frame": 6,
+      "note": "Pose06 gather reduced to H1.45 to clear Piper\u2019s face while staying near both hands; verify native overlay."
+    },
+    "reversePeak": {
+      "tick": 14,
+      "frame": 7,
+      "note": "Pose07 raised hand behind crown; H2.0 is lowered from candidate1; verify native overlay."
+    },
+    "preRelease": {
+      "tick": 20,
+      "frame": 9,
+      "note": "Pose09 closed fist; H1.95 and F-7 are a lower vertical correction to align the ball with the reverse-side fist."
+    },
+    "release": {
+      "tick": 21,
+      "frame": 10,
+      "note": "Pose10 open palm; H2.1 and F-7 lower the ball toward the palm before tick21 release."
+    },
+    "finish": {
+      "tick": 23,
+      "frame": 11
+    },
+    "land": {
+      "tick": 30,
+      "frame": 14
+    }
+  },
+  "validation": {
+    "sourceCellReview": "provisional",
+    "realTeammateLobSimulation": "pass timing confirmed by candidate test; track contact adjustment pending",
+    "nativeCanvas100BothFacings": "reviewed; poses05,07-10 contact, pose06 low",
+    "nativeCanvas120BothFacings": "reviewed; poses05,07-10 contact, pose06 low",
+    "scoreAtRelease": "pending",
+    "limitations": "Preserved as a reviewed candidate. Candidate2 needs pose06 raised from H1.45 to approximately H1.75 and F shifted from1 to0; other carried samples are visually aligned."
+  }
+}

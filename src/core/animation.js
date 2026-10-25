@@ -775,7 +775,10 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   // are free-flight approach, while the separate ball follows measured hand
   // centers through the pose09 carry and leaves at tick21. Native contact
   // review remains pending; the production atlas manifest is still unreviewed.
-  'alley-oop-power':{height:[2.4,2.2,2,1.9,1.95,1.991,1.732571,1.847429,1.962286,2.278143,2.306857,1.8,1.2,.8,.65],forward:[16,13,10,7,5,2.192727,2.558182,3.289091,2.192727,5.847273,6.212727,6.212727,3,1,1]}
+  'alley-oop-power':{height:[2.4,2.2,2,1.9,1.95,1.991,1.732571,1.847429,1.962286,2.278143,2.306857,1.8,1.2,.8,.65],forward:[16,13,10,7,5,2.192727,2.558182,3.289091,2.192727,5.847273,6.212727,6.212727,3,1,1]},
+  // J.124 accepted Piper reverse-alley-oop track. Pose06 attempt2b moves the
+  // gather to the upper-chest clasp; H/F values passed both facings at100%/120%.
+  'alley-oop-reverse':{height:[1.05,1.2,1.6,1.85,2.1,1.8,1.45,2.0,1.75,1.95,2.1,1.8,1.2,.75,.6],forward:[5,7,8,7,4,4,1,-3,-5,-7,-7,-5,-2,1,3]}
 },'reed-ashcroft':{
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.

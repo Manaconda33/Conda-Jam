@@ -19,3 +19,8 @@ The five original attempt1 outputs missed the requested 80px top alpha>16 margin
 Visual review finds Piper identity/anatomy, transparent backgrounds, no painted ball, and a readable sequence from overhead catch through shoulder gather and reverse turn to behind-head gather, closed-fist carry, open-palm release. Pose07's crown-level hands remain distinct from pose05 through torso/leg silhouette. Pose08 attempt2 separates the gripping hand from hair/tie. Pose09 attempt2 keeps the same reverse-side hand point as pose10 while retaining a visibly closed fist. Style is provisionally close to J.123; independent full-atlas review remains required.
 
 The current native contact sheets select pose08 and pose09 attempt2. Prior sheets are retained as rejected previews; the first complete review atlas is candidate1 and remains a blocked preview because it contains pose09 attempt1 and has no accepted ball track. This lane remains unaccepted and not production-packed.
+
+
+## Pose 06 source revision
+
+Pose06 attempt1 remains preserved but could not carry a separate ball with a readable face: tracks candidate1–5 are retained with 100%/120% both-facing Canvas previews and reviewer notes under tools/generate-art/previews/piper-quickstep-alley-oop-reverse/. ImageGen generated two source variants from the same saved prompt and reference. Variant attempt2b has the clearer upper-chest clasp and less face/neck crowding; independent source review recommends it. Variant attempt2a is preserved as an unselected alternative. Candidate3b uses attempt2b; it remains review-only until final production registration and validation.

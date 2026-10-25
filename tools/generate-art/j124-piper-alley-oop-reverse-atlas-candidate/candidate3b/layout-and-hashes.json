@@ -1,0 +1,247 @@
+{
+  "status": "review-only; no production pack or registration",
+  "sourceClip": "Piper Quickstep J.124 alley-oop-reverse",
+  "cellPx": [
+    128,
+    96
+  ],
+  "atlasPx": [
+    512,
+    384
+  ],
+  "columns": 4,
+  "rows": 4,
+  "unusedCell": "row4/column4; fully transparent",
+  "cells": [
+    {
+      "pose": 0,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-00-04/layout-candidates/pose-00-attempt3-cell128x96.png",
+      "cellSha256": "30fb5359e7a9597c7e1487740a9aa0a19ee92ed7ada2ddddf66aa6f75c169b1f",
+      "atlasXY": [
+        0,
+        0
+      ],
+      "cellAlpha16MarginsLTRB": [
+        28,
+        7,
+        28,
+        9
+      ]
+    },
+    {
+      "pose": 1,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-00-04/layout-candidates/pose-01-attempt2-cell128x96.png",
+      "cellSha256": "8be6c9ca179bdbfb06380f2aaba441b9453fb2998d09e45c75253d2adc81159b",
+      "atlasXY": [
+        128,
+        0
+      ],
+      "cellAlpha16MarginsLTRB": [
+        22,
+        7,
+        22,
+        9
+      ]
+    },
+    {
+      "pose": 2,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-00-04/layout-candidates/pose-02-attempt2-cell128x96.png",
+      "cellSha256": "f4e30ff0d2e6bb0f744ede7aa5d07702518684509e9927247c52c13e88982771",
+      "atlasXY": [
+        256,
+        0
+      ],
+      "cellAlpha16MarginsLTRB": [
+        31,
+        7,
+        31,
+        9
+      ]
+    },
+    {
+      "pose": 3,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-00-04/layout-candidates/pose-03-attempt3-cell128x96.png",
+      "cellSha256": "e9bbb3511a80e2ab7472e4ac757099eab67fb944fc72410a2591f22712e5fe1c",
+      "atlasXY": [
+        384,
+        0
+      ],
+      "cellAlpha16MarginsLTRB": [
+        20,
+        7,
+        20,
+        9
+      ]
+    },
+    {
+      "pose": 4,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-00-04/layout-candidates/pose-04-attempt3-cell128x96.png",
+      "cellSha256": "7eea752e71dcea94faa71c7ae89e6ede04ac45470eb9b8da0a4f63fab2227732",
+      "atlasXY": [
+        0,
+        96
+      ],
+      "cellAlpha16MarginsLTRB": [
+        39,
+        7,
+        40,
+        9
+      ]
+    },
+    {
+      "pose": 5,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-05-native-128x96.png",
+      "cellSha256": "e933cfd9ffa40583dc3cafff645400cef2b7d1df3c469ce23199869184b97370",
+      "atlasXY": [
+        128,
+        96
+      ],
+      "cellAlpha16MarginsLTRB": [
+        40,
+        7,
+        41,
+        9
+      ]
+    },
+    {
+      "pose": 6,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-06-attempt2/pose-06-attempt2b-native-128x96.png",
+      "cellSha256": "b2dbc47b2ab2403e3c44177759ca9efc9a8620e2ab86cb14359be91720276599",
+      "atlasXY": [
+        256,
+        96
+      ],
+      "cellAlpha16MarginsLTRB": [
+        40,
+        7,
+        40,
+        10
+      ]
+    },
+    {
+      "pose": 7,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-07-native-128x96.png",
+      "cellSha256": "4da5189494e5a3122526cdb5224172c1d0e5bd0702be4cc3cbb8d29a0d43a05a",
+      "atlasXY": [
+        384,
+        96
+      ],
+      "cellAlpha16MarginsLTRB": [
+        35,
+        7,
+        35,
+        9
+      ]
+    },
+    {
+      "pose": 8,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-08-attempt2-native-128x96.png",
+      "cellSha256": "1288fe7d8203e3b891af249adff9464d20d11b8d7095a29e237196509517f49e",
+      "atlasXY": [
+        0,
+        192
+      ],
+      "cellAlpha16MarginsLTRB": [
+        26,
+        7,
+        27,
+        9
+      ]
+    },
+    {
+      "pose": 9,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-09-attempt2-native-128x96.png",
+      "cellSha256": "c72ee51d6b0f8d56cc2a6fd6bc663c21fd17c5a4a90e2a45b5a19aab4e69d70e",
+      "atlasXY": [
+        128,
+        192
+      ],
+      "cellAlpha16MarginsLTRB": [
+        37,
+        7,
+        37,
+        9
+      ]
+    },
+    {
+      "pose": 10,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-10-128x96.png",
+      "cellSha256": "fc74c17aa017603a1b053df8b8885e3d1939970de8fe7145f54ce8bfa4ef6bc4",
+      "atlasXY": [
+        256,
+        192
+      ],
+      "cellAlpha16MarginsLTRB": [
+        34,
+        7,
+        35,
+        9
+      ]
+    },
+    {
+      "pose": 11,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-11-128x96.png",
+      "cellSha256": "eda2c6483a58be650db2de1e23532bdc78a494d21535b03dcd02ba354401adf9",
+      "atlasXY": [
+        384,
+        192
+      ],
+      "cellAlpha16MarginsLTRB": [
+        34,
+        7,
+        35,
+        9
+      ]
+    },
+    {
+      "pose": 12,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-12-128x96.png",
+      "cellSha256": "b0a016e464998ff0e461823347a36c9eb159c053e78e149f87f141a7e10b1efa",
+      "atlasXY": [
+        0,
+        288
+      ],
+      "cellAlpha16MarginsLTRB": [
+        26,
+        7,
+        27,
+        9
+      ]
+    },
+    {
+      "pose": 13,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-13-128x96.png",
+      "cellSha256": "98d972d2da0d559c8ad893b2e075520d395cbd5ff99b1937aa53cb71b32286cc",
+      "atlasXY": [
+        128,
+        288
+      ],
+      "cellAlpha16MarginsLTRB": [
+        38,
+        7,
+        39,
+        9
+      ]
+    },
+    {
+      "pose": 14,
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-14-128x96.png",
+      "cellSha256": "cab84ad54b935ef79e603b29d918c0053a93024ad632dc9033943d14835251d9",
+      "atlasXY": [
+        256,
+        288
+      ],
+      "cellAlpha16MarginsLTRB": [
+        35,
+        7,
+        35,
+        9
+      ]
+    }
+  ],
+  "atlas-review-only.png": "db45a86e77b55014a9b201238d4c842c8217b631d214933cea5103fe0f3ab2a0",
+  "atlas-review-only-light.png": "e848336183f8c6472dec560a1a90fc2f60afc616dc3c36deb83f22d20020fc00",
+  "atlas-review-only-dark.png": "4599036dcfdcbd1751f6c4ae513d4e1d258ef546083f9e04f15813e31b44c86a",
+  "sequence-review-light-3x.png": "27dbea752b41b38a9ff9295531ba5c6febc062a8a6ce7e0993939373e2bdbe34",
+  "sequence-review-dark-3x.png": "7ffc13f1a8324794e6a89920e495fa4a048ec4c6173b57f531805a4b3c24e97a"
+}

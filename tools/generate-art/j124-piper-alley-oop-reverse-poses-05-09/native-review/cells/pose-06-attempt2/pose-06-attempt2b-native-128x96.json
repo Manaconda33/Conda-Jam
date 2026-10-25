@@ -1,0 +1,31 @@
+{
+  "raw": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/sources/pose-06-attempt2/pose-06-attempt2b-raw.png",
+  "rawSha256": "39b2a08eda009a0e30f8b384a1440640416e6312426e35aba08734c2975075f3",
+  "alphaBoundsSource": [
+    471,
+    20,
+    1075,
+    1004
+  ],
+  "cleaned": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/cleaned/pose-06-attempt2/pose-06-attempt2b-alpha.png",
+  "cleanedSha256": "d57c7070c22aa083d66d97fbed9d1ff9bf5430aa87d7c798c553b2c92eb69de2",
+  "fitScale": 0.08028455284552846,
+  "fitPx": [
+    48,
+    79
+  ],
+  "nativeCell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-06-attempt2/pose-06-attempt2b-native-128x96.png",
+  "nativeCellSha256": "b2dbc47b2ab2403e3c44177759ca9efc9a8620e2ab86cb14359be91720276599",
+  "cellAlpha16MarginsLTRB": [
+    40,
+    7,
+    39,
+    9
+  ],
+  "outerEdgeAlphaPixels": 0,
+  "sourceTransparent": true,
+  "imageGenId": "exec-8835a9ea-c4a3-455c-878b-08a923b8fbf0",
+  "generatedAt": "2026-10-25T18:11:00Z",
+  "prompt": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-06-attempt2.md",
+  "reference": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-06-native-128x96.png"
+}

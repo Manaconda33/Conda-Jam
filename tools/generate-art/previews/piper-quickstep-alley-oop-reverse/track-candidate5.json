@@ -1,0 +1,84 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "status": "candidate5 visual estimate; native review pending",
+  "reviewDate": "2026-10-25",
+  "height": [
+    1.05,
+    1.2,
+    1.6,
+    1.85,
+    2.1,
+    1.8,
+    1.6,
+    2.0,
+    1.75,
+    1.95,
+    2.1,
+    1.8,
+    1.2,
+    0.75,
+    0.6
+  ],
+  "forward": [
+    5,
+    7,
+    8,
+    7,
+    4,
+    4,
+    -4,
+    -3,
+    -5,
+    -7,
+    -7,
+    -5,
+    -2,
+    1,
+    3
+  ],
+  "provenance": "Candidate5 shifts only pose06 rearward to F\u22124 from candidate4 after two independent Canvas reviews found the centered ball obscured Piper\u2019s mouth. Height remains H1.6 to preserve upper-chest contact.",
+  "contactBeats": {
+    "catch": {
+      "tick": 10,
+      "frame": 5,
+      "note": "Pose05 overhead catch; H1.8 is a downward correction from candidate1 after Canvas showed the ball above the fingertips."
+    },
+    "gather": {
+      "frame": 6,
+      "note": "Pose06 H1.6/F\u22124 moves behind the mouth toward the rear clasped hand; verify that the ball is visibly in the hand and does not move behind the ponytail at 100%/120% both facings."
+    },
+    "reversePeak": {
+      "tick": 14,
+      "frame": 7,
+      "note": "Pose07 raised hand behind crown; H2.0 is lowered from candidate1; verify native overlay."
+    },
+    "preRelease": {
+      "tick": 20,
+      "frame": 9,
+      "note": "Pose09 closed fist; H1.95 and F-7 are a lower vertical correction to align the ball with the reverse-side fist."
+    },
+    "release": {
+      "tick": 21,
+      "frame": 10,
+      "note": "Pose10 open palm; H2.1 and F-7 lower the ball toward the palm before tick21 release."
+    },
+    "finish": {
+      "tick": 23,
+      "frame": 11
+    },
+    "land": {
+      "tick": 30,
+      "frame": 14
+    }
+  },
+  "validation": {
+    "sourceCellReview": "provisional",
+    "realTeammateLobSimulation": "pass timing confirmed by candidate test; candidate5 contact pending",
+    "nativeCanvas100BothFacings": "pending",
+    "nativeCanvas120BothFacings": "pending",
+    "scoreAtRelease": "pending",
+    "limitations": "Candidate5 changes only pose06 forward position. Do not integrate until two-facing native review confirms hand contact, face readability, and no overlap with hair."
+  }
+}

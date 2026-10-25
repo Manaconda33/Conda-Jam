@@ -1,0 +1,23 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 6,
+  "attempt": 2,
+  "variant": "a",
+  "method": "Threshold alpha at >16 to find content bounds; crop source alpha; uniformly resize existing pixels with Pillow LANCZOS to fit at most 80x79; center horizontally in a 128x96 transparent cell and align feet to baseline row86. No drawing, retouching, color change, or anatomy edits.",
+  "raw": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/sources/pose-06-attempt2/pose-06-attempt2a-raw.png",
+  "rawSha256": "292dac6a7ba4d501992cd8d82f8674d4eec52a7f8952bf3323fc51d21291a2e9",
+  "cleaned": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/cleaned/pose-06-attempt2/pose-06-attempt2a-alpha.png",
+  "cleanedSha256": "ddb93dc8209d4b8fb8f32f9bab21e2b7f91f663d583a647cf3fe54c70b835dfc",
+  "nativeCell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-06-attempt2/pose-06-attempt2a-native-128x96.png",
+  "nativeCellSha256": "13cf2cf2ea85edf5084d50e5aa692e88c93a64eee663ecad87dcacca6fb81e99",
+  "alpha16MarginsLTRB": [
+    41,
+    7,
+    41,
+    9
+  ],
+  "outerEdgeAlphaPixels": 0,
+  "status": "candidate layout; awaiting source selection"
+}
