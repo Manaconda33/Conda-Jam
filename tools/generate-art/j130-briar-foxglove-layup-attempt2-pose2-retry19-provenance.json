@@ -1,0 +1,113 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry19",
+  "generationId": "exec-e54c448c-793a-42b5-97a9-536ca04d650d",
+  "generator": "image_gen.imagegen",
+  "originalGeneratedPath": "/workspace/generated_images/exec-e54c448c-793a-42b5-97a9-536ca04d650d.png",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry19-raw.png",
+  "rawSha256": "72bac5492e8e97c02da9e9f065bdd9b65b5996f2418bd90bad43aa473acce4d1",
+  "decodedRgbaPixelSha256": "1325096cf4bbc8f87a572e73788cb6a9fccd2e58e32482b517cc922adc63ae03",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentBackgroundRequested": true,
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry19-prompt.md",
+  "promptSha256": "b99cccc7dbc5c46e9c1d76801cb06cfe94e29d9f1db2d0a2dce0e1b85b98f468",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry19-light-dark-review.png",
+  "alphaThresholdMetrics": {
+    "1": {
+      "bboxXYXYExclusive": [
+        33,
+        67,
+        1218,
+        1230
+      ],
+      "marginsLTRB": [
+        33,
+        67,
+        36,
+        24
+      ],
+      "marginFractionsLTRB": [
+        0.026316,
+        0.053429,
+        0.028708,
+        0.019139
+      ],
+      "figureHeightFraction": 0.927432,
+      "connectedComponents": 161
+    },
+    "8": {
+      "bboxXYXYExclusive": [
+        462,
+        290,
+        854,
+        903
+      ],
+      "marginsLTRB": [
+        462,
+        290,
+        400,
+        351
+      ],
+      "marginFractionsLTRB": [
+        0.368421,
+        0.23126,
+        0.318979,
+        0.279904
+      ],
+      "figureHeightFraction": 0.488836,
+      "connectedComponents": 52
+    },
+    "32": {
+      "bboxXYXYExclusive": [
+        464,
+        292,
+        854,
+        903
+      ],
+      "marginsLTRB": [
+        464,
+        292,
+        400,
+        351
+      ],
+      "marginFractionsLTRB": [
+        0.370016,
+        0.232855,
+        0.318979,
+        0.279904
+      ],
+      "figureHeightFraction": 0.487241,
+      "connectedComponents": 1
+    },
+    "64": {
+      "bboxXYXYExclusive": [
+        464,
+        292,
+        854,
+        903
+      ],
+      "marginsLTRB": [
+        464,
+        292,
+        400,
+        351
+      ],
+      "marginFractionsLTRB": [
+        0.370016,
+        0.232855,
+        0.318979,
+        0.279904
+      ],
+      "figureHeightFraction": 0.487241,
+      "connectedComponents": 1
+    }
+  },
+  "decision": "REJECT; preserve untouched raw; no cleanup, normalization, packing or acceptance"
+}

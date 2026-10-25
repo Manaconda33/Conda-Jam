@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry19",
+  "decision": "REJECT",
+  "generationId": "exec-e54c448c-793a-42b5-97a9-536ca04d650d",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry19-raw.png",
+  "sourceSha256": "72bac5492e8e97c02da9e9f065bdd9b65b5996f2418bd90bad43aa473acce4d1",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry19-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry19-light-dark-review.png",
+  "checks": {
+    "identity": "Briar-like adult human woman with dark locs, red headband, russet/cream kit, two arms/two legs, cream-dominant shoes, no ball or chest marks. Skin appears medium/deep brown with warm highlights; compare against accepted reference before any future approval.",
+    "pose": "Right-facing airborne folded-leg carry and open guide hand read clearly. Shooting hand is close to the ear/hair and is not visibly separated below the lower lip as explicitly required; fail hand-height/separation criterion.",
+    "palette": "Uniform and shoes broadly match russet/cream. Warm skin highlights lean orange under review; no numerical accepted-reference comparison was performed.",
+    "transparency": "PASS: RGBA with alpha extrema 0..255; no checkerboard or backdrop visible. Low-alpha residue exists around the figure.",
+    "margins": "FAIL: at alpha>=64, margins L/R/T/B are 464/400/292/351px (37.0%/31.9%/23.3%/28.0%); top is below required 28%. Alpha>=1 residue reaches margins 33/36/67/24px.",
+    "scale": "FAIL: alpha>=64 figure height is 611px / 48.72% of the 1254px cell, above the 44% maximum.",
+    "anatomy": "PASS visually for two arms/hands, two legs/shoes, connected silhouette, and no cropping.",
+    "ball": "PASS: no basketball; ball remains separate-track work."
+  },
+  "reason": "Hand does not meet the below-lip clear-separation pose, alpha>=64 top margin is only 23.3%, alpha>=1 residue approaches canvas edges, and figure is 48.7% tall against 44% max. Reject untouched; no cleanup, normalization, packing, registration or acceptance."
+}
