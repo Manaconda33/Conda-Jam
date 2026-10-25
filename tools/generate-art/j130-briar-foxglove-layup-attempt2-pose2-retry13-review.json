@@ -1,0 +1,18 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry13",
+  "decision": "REJECT",
+  "generationId": "exec-b732e029-3c84-4343-9367-69b43c76d08d",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry13-raw.png",
+  "sourceSha256": "b9006daab1e0cc00d467570044f66ea8292c6a2624f53741b0b39ec84f31c789",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry13-light-dark-review.jpg",
+  "checks": {
+    "pose": "Lower-cheek target missed: fingertips remain at nose/mouth level and overlap the face. Folded trailing leg and raised lead knee read broadly as a layup gather.",
+    "identityAnatomy": "Adult human Briar likeness with locs and red headband; two arms, two hands, two legs and two shoes; no ball or fox traits.",
+    "palette": "Skin remains orange/bronze versus accepted median #914627. Cream shoes are closer to canon.",
+    "transparency": "RGBA with transparent corners, but alpha>=1 residue reaches x=20px from right edge and 25px from bottom edge; no clean full 28% clearance.",
+    "margins": "At alpha>=64, margins L454/T250/R363/B305px; top margin is 19.9%, figure height 699/1254=55.7%, above 48% cap.",
+    "duplication": "No identical decoded RGBA pixel source among existing J.130 raw sources."
+  },
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry13-prompt.md",
+  "reason": "Fails lower-cheek gesture, canonical palette, clear edge/margin constraints and figure-height cap."
+}
