@@ -1,0 +1,37 @@
+{
+  "issue":"J.130",
+  "athlete":"briar-foxglove",
+  "clip":"layup",
+  "attempt":2,
+  "reviewedAt":"2026-10-25T20:11:00Z",
+  "reviewer":"parent visual review with independent source observations",
+  "preview":"tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose3-4-retry1-light-dark-review.png",
+  "reviewStatus":"both sources rejected; preserved",
+  "poses":[
+    {
+      "frame":3,
+      "generationId":"exec-4b000bea-e82a-410e-97d4-b30ab02b2656",
+      "source":"tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry1-raw.png",
+      "sha256":"e6abdfe9b4f93dc0425827caa9170886b0c81e738bb7ac4564173dc4b5910471",
+      "dimensions":[1233,1276],
+      "decision":"rejected; retry",
+      "pose":"The palm is upward and the rear leg folded, but the shooting hand rises overhead and the arm is almost fully extended; this reads too close to release rather than the requested hand just above forehead with bent elbow.",
+      "identity":"Recognizable Briar, but skin reads lighter/oranger than the accepted deep-brown reference.",
+      "alphaMargins":{"alphaGte1":[0,47,44,28],"alphaGte64":[368,102,201,262]},
+      "reasons":["Only7.99% visible top margin; low-alpha residue touches left edge.","Shooting hand too high; action overlaps release frame.","Skin tone diverges from accepted Briar art."]
+    },
+    {
+      "frame":4,
+      "generationId":"exec-17e4e917-cc37-425d-a02a-79d93be573b8",
+      "source":"tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry1-raw.png",
+      "sha256":"5009994967f146942c1604d4fc3f3e12ac31aad4462a564d13100a57730d9e9c",
+      "dimensions":[1247,1261],
+      "decision":"rejected; retry",
+      "pose":"The folded trailing leg now meets the required peak/release pose. Hands are empty and the guide arm is separated.",
+      "identity":"Skin is lighter/oranger than accepted refs. The shirt has an apparent white numeral or vertical marking absent from the accepted blank uniform; no jersey numbers/logos are allowed.",
+      "alphaMargins":{"alphaGte1":[45,32,14,42],"alphaGte64":[419,183,295,241]},
+      "reasons":["Alpha>=64 top margin is14.51%, below minimum15%; alpha>=1 residue approaches the right edge within14px.","Skin palette diverges from accepted Briar identity.","A white chest numeral/marking is inconsistent with the accepted uniform."]
+    }
+  ],
+  "notes":"Both remain untouched raw generated outputs. No cleanup, normalization, assembly, or packing has been performed."
+}
