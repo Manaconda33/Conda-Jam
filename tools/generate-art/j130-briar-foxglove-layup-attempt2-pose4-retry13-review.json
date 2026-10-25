@@ -1,0 +1,139 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry13",
+  "decision": "REJECT",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry13-raw.png",
+  "sourceSha256": "2be0470dad4514e59cbc005fe774622cd4ac87259231a56d64e2ecbcc4a3906e",
+  "generationId": "exec-6e02e4c9-5d5c-4c65-96e3-97ff0933159f",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry13-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry13-light-dark-review.jpg",
+  "checks": {
+    "pose": "Broad airborne peak release with high-forward open palm, separate lower guide hand, raised lead knee and folded trailing heel; full two arms/two legs and no ball.",
+    "identity": "Adult human, shoulder locs, red headband and russet/cream kit present.",
+    "palette": "Skin visibly too bright/orange versus accepted Briar reference; shoes are predominantly cream.",
+    "transparency": "RGBA alpha exists but low-alpha residue extends near all canvas edges.",
+    "margins": "At alpha>=64: L437/T243/R340/B292px; top19.38%, bottom23.29%. Figure height719/1254=57.34%, exceeding44% cap."
+  },
+  "thresholdMetrics": {
+    "1": {
+      "boundsXYXYExclusive": [
+        57,
+        31,
+        1218,
+        1212
+      ],
+      "marginsLTRB": [
+        57,
+        31,
+        36,
+        42
+      ],
+      "occupancyWH": [
+        1161,
+        1181
+      ],
+      "maxHeightFraction": 0.9418,
+      "connectedComponents": 192
+    },
+    "8": {
+      "boundsXYXYExclusive": [
+        437,
+        242,
+        914,
+        963
+      ],
+      "marginsLTRB": [
+        437,
+        242,
+        340,
+        291
+      ],
+      "occupancyWH": [
+        477,
+        721
+      ],
+      "maxHeightFraction": 0.575,
+      "connectedComponents": 122
+    },
+    "32": {
+      "boundsXYXYExclusive": [
+        437,
+        242,
+        914,
+        962
+      ],
+      "marginsLTRB": [
+        437,
+        242,
+        340,
+        292
+      ],
+      "occupancyWH": [
+        477,
+        720
+      ],
+      "maxHeightFraction": 0.5742,
+      "connectedComponents": 1
+    },
+    "64": {
+      "boundsXYXYExclusive": [
+        437,
+        243,
+        914,
+        962
+      ],
+      "marginsLTRB": [
+        437,
+        243,
+        340,
+        292
+      ],
+      "occupancyWH": [
+        477,
+        719
+      ],
+      "maxHeightFraction": 0.5734,
+      "connectedComponents": 1
+    },
+    "128": {
+      "boundsXYXYExclusive": [
+        438,
+        243,
+        913,
+        961
+      ],
+      "marginsLTRB": [
+        438,
+        243,
+        341,
+        293
+      ],
+      "occupancyWH": [
+        475,
+        718
+      ],
+      "maxHeightFraction": 0.5726,
+      "connectedComponents": 1
+    },
+    "250": {
+      "boundsXYXYExclusive": [
+        445,
+        249,
+        908,
+        960
+      ],
+      "marginsLTRB": [
+        445,
+        249,
+        346,
+        294
+      ],
+      "occupancyWH": [
+        463,
+        711
+      ],
+      "maxHeightFraction": 0.567,
+      "connectedComponents": 415
+    }
+  },
+  "notes": "Generation ID points to the original output and its hash matches. The output is unique among J.130 source pixels. Do not clean or pack; scale/palette/margin limits fail."
+}
