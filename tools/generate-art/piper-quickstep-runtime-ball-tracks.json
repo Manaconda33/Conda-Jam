@@ -188,6 +188,54 @@
         "tools/generate-art/previews/piper-quickstep-dunk-power/native-calibration-final6-120/report.json"
       ],
       "calibrationFile": "tools/generate-art/piper-quickstep-dunk-power-track-calibration.json"
+    },
+    "dunk-windmill": {
+      "athlete": "piper-quickstep",
+      "clip": "dunk-windmill",
+      "status": "accepted after independent native review at100% and120%, both facings",
+      "height": [
+        0.55,
+        0.55,
+        1.25,
+        0.72,
+        0.65,
+        1.1,
+        0.8,
+        0.3,
+        1.4,
+        2.2,
+        2.2,
+        1.05,
+        0.55,
+        0.4,
+        0.3
+      ],
+      "forward": [
+        19,
+        8,
+        18,
+        18,
+        -13,
+        -5,
+        -8,
+        12,
+        13,
+        -8,
+        -8,
+        20,
+        22,
+        20,
+        18
+      ],
+      "releaseFrame": 10,
+      "releaseTick": 21,
+      "scoreTick": 23,
+      "nativeReview": "Independent native review accepts low-hip contact at frame5, the sweep and forward-hand contacts at frames6–8, and raised-fist contact through tick20 in both facings at 100%/120%. All15 production frames select Piper’s atlas. Piper owns through tick20, releases ownerless at tick21, and a real simulation scores exactly two points once.",
+      "trackFile": "tools/generate-art/piper-quickstep-dunk-windmill-track-calibration.json",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-candidate9-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-candidate9-120/report.json"
+      ]
     }
   }
 }

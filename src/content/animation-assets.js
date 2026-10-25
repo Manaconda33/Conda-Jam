@@ -67416,13 +67416,356 @@ export const animationAssetManifest = {
               }
             },
             "reviewed": true
+          },
+          "dunk-windmill": {
+            "src": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "2b792fb9a182d987c63d089c5962affa19df75e1665b0e7b24861aa2ed74a741"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "1c259c4d9b9c0e1642497eb2ff7bd157f4860851795cb72994956473fb7e3646"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "9d07e20134bc98bf8d353817c48e50df1cf5460efb3e98cf7f7408cb3cf8d94f"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "328af55f8f11164a49e1d30ca68240eb4b2a161ad6d9b32aa0482ca43a584f8d"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6a892864dae6b959dc9c1cf9ded756b66558e850a2c9a0b485e3260cf64543bf"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "bce0b227b88642b76dfd0cc862a99e412a96e08d9b63ffed5e66ae64f317de87"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "b5eae7e634f219da2f50b48e179080c0a780815ada7f2fcdda01220c9f61f6e4"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "11a67128a7687357eeef3980c67cd081e5b20697d54d4c5dd3591ad7e0d0dcff"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "092eb94159791a60d4130282bba95cb747be0e16da1f6708790c6d26bf85b7bb"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "20d8c16cf3c31db9092b4290b4c3c504d194bdc01a336c091a9b236b2bc609d0"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "93c30e35511500845331000e8ef846927e8e7f9e86bfe128c03cfdc9eb46beb4"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "f7287ae4edae11dbb456efb4898b2d73392edd384f0b7c6bcc9e39003176cb2f"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "8a73d4e3de000ba73a7b36480f150f50094b3ac7190a24d389292a1fd19f4dee"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "675b8cbbcb0e00dd7079ac9bc7b6b8ced058ae3a8937021428cff91d64cc2dee"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "fc2ab32d3e5c803ce69b339302cc7ee1163ad268bf01672c0d669ce263e43a89"
+              }
+            ],
+            "sha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "piper-quickstep",
+              "clip": "dunk-windmill",
+              "direction": "right",
+              "attempt": 1,
+              "source": "imagegen",
+              "generationId": null,
+              "generationIdNote": "The image_gen.imagegen response exposed only image_url and output_hint, with no generation identifier. The returned image was preserved unchanged as the raw source.",
+              "generatedAt": "2026-10-25T04:39:53.130Z",
+              "promptFile": "tools/generate-art/piper-quickstep-dunk-windmill-attempt1-prompt.md",
+              "promptVerbatim": true,
+              "referenceFiles": [],
+              "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-windmill-attempt1-generated-raw.png",
+              "rawSourceSha256": "0b192eaa28b8ae3b826303d1e600f091475707c40a207e6a7419ecb845ddb804",
+              "rawSourceSize": [
+                1536,
+                1024
+              ],
+              "rawSourceMode": "RGBA",
+              "rawReview": {
+                "status": "rejected-for-direct-packing",
+                "notes": "The generated sheet includes a translucent orange/brown haze and several original poses intrude into or approach their source-cell margins; pose components remain separately isolatable and no basketball appears. Preserve the raw image and use component-only cleanup for review."
+              },
+              "cleanupScript": "tools/generate-art/clean-piper-quickstep-dunk-windmill-attempt1.py",
+              "cleanupNotes": "Alpha-connected component isolation at threshold >64 using package-motion42.py. Detached haze components are omitted and nearest antialiased pixels assigned to their original figure. Each original pose is uniformly fit to <=251x285 and baseline-aligned in its original 5x3 cell with >=28px transparent margins. No body pixels are redrawn, synthesized, duplicated or reordered.",
+              "sourceImage": "tools/generate-art/sources/piper-quickstep-dunk-windmill-attempt1-clean-candidate.png",
+              "sourceSha256": "49fbab9ea356f942638c6b5efcd533cc54c9526c10e37c92641c60863a97d6cc",
+              "sourceSize": [
+                1536,
+                1024
+              ],
+              "sourceMode": "RGBA",
+              "layoutFile": "tools/generate-art/piper-quickstep-dunk-windmill-attempt1-layouts.json",
+              "review": {
+                "status": "accepted",
+                "reviewer": "independent source-review subagent",
+                "reviewedAt": "2026-10-25",
+                "reviewNotes": "Source review passes: exact 1536x1024 RGBA sheet with 15 distinct ordered poses; Piper identity, orange ponytail, uniform, proportions and shoes consistent; true transparent gutters, no ball/background/floor/grid/extra art, and complete anatomy. Windmill reads from frame4 backswing through behind-hip low sweep, knee circle, rise, peak, reach and open-hand release at frame12. Tightest cell margin is 28px, several top/bottom edges; smallest horizontal margin is 33px at frame3. Frame11 arm is bent over the head, making the reach transition less explicit than frame10 but still readable."
+              },
+              "eligibleForPacking": true,
+              "ballBehavior": "No basketball is painted in the athlete sheet. The ball must follow Piper-specific runtime track values and release at tick21.",
+              "packedAtlasPath": null,
+              "packedAtlasSha256": null,
+              "nativeReview": {
+                "status": "accepted",
+                "notes": "Independent native review accepts low-hip contact at frame5, the sweep and forward-hand contacts at frames6–8, and raised-fist contact through tick20 in both facings at 100%/120%. All15 production frames select Piper’s atlas. Piper owns through tick20, releases ownerless at tick21, and a real simulation scores exactly two points once.",
+                "trackFile": "tools/generate-art/piper-quickstep-dunk-windmill-track-calibration.json",
+                "previewReports": [
+                  "tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-candidate9-100/report.json",
+                  "tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-candidate9-120/report.json"
+                ]
+              },
+              "ballTrackStatus": "pending-after-source-approval",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 53,
+                  "y": 27,
+                  "w": 201,
+                  "h": 287,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 389,
+                  "y": 27,
+                  "w": 142,
+                  "h": 287,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 648,
+                  "y": 34,
+                  "w": 239,
+                  "h": 280,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 954,
+                  "y": 27,
+                  "w": 244,
+                  "h": 287,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1266,
+                  "y": 27,
+                  "w": 234,
+                  "h": 288,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 67,
+                  "y": 369,
+                  "w": 172,
+                  "h": 287,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 342,
+                  "y": 378,
+                  "w": 237,
+                  "h": 278,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 654,
+                  "y": 379,
+                  "w": 227,
+                  "h": 277,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 959,
+                  "y": 369,
+                  "w": 234,
+                  "h": 287,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1267,
+                  "y": 369,
+                  "w": 232,
+                  "h": 287,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 52,
+                  "y": 709,
+                  "w": 204,
+                  "h": 288,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 341,
+                  "y": 709,
+                  "w": 239,
+                  "h": 289,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 660,
+                  "y": 714,
+                  "w": 215,
+                  "h": 283,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 966,
+                  "y": 711,
+                  "w": 218,
+                  "h": 286,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1279,
+                  "y": 710,
+                  "w": 207,
+                  "h": 288,
+                  "component": 16
+                }
+              ],
+              "uniformScale": 0.31833910034602075,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "ballTrack": {
+                "athlete": "piper-quickstep",
+                "clip": "dunk-windmill",
+                "status": "accepted after native review at100% and120%, both facings",
+                "height": [
+                  0.55,
+                  0.55,
+                  1.25,
+                  0.72,
+                  0.65,
+                  1.1,
+                  0.8,
+                  0.3,
+                  1.4,
+                  2.2,
+                  2.2,
+                  1.05,
+                  0.55,
+                  0.4,
+                  0.3
+                ],
+                "forward": [
+                  19,
+                  8,
+                  18,
+                  18,
+                  -13,
+                  -5,
+                  -8,
+                  12,
+                  13,
+                  -8,
+                  -8,
+                  20,
+                  22,
+                  20,
+                  18
+                ],
+                "releaseFrame": 10,
+                "releaseTick": 21,
+                "scoreTick": 23,
+                "nativeReview": "Independent native review accepts low-hip contact at frame5, the sweep and forward-hand contacts at frames6–8, and raised-fist contact through tick20 in both facings at 100%/120%. All15 production frames select Piper’s atlas. Piper owns through tick20, releases ownerless at tick21, and a real simulation scores exactly two points once.",
+                "trackFile": "tools/generate-art/piper-quickstep-dunk-windmill-track-calibration.json",
+                "previewReports": [
+                  "tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-candidate9-100/report.json",
+                  "tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-candidate9-120/report.json"
+                ]
+              },
+              "prompt": "J.116 / Piper Quickstep — DUNK-WINDMILL action sheet, attempt 1\n\nCreate one original production sprite sheet for Piper Quickstep performing a one-arm basketball windmill dunk for JAMVERSE '96. Canvas exactly 1536×1024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Each cell is about 307×341 pixels. Keep every part of each pose, including her entire bright-orange high ponytail, all fingers, and both shoes, at least 28 pixels inside every cell edge. Maintain clear transparent gutters, consistent character scale and right-facing three-quarter profile. No silhouette may overlap, touch or cross any cell boundary. The final cell is occupied by frame 14; no extra art.\n\nPiper is the SAME athletic adult human woman in every pose: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural human adult athletic proportions, russet-red sleeveless basketball jersey and shorts with clean cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, body proportions, uniform and shoe design consistently. Exactly one human head, two arms, two hands, two legs, two feet; natural joints and five distinct fingers on each visible hand. No costume changes, jewelry, numbers, text or logo.\n\nDraw one connected mechanically clear right-facing one-handed WINDMILL dunk. The game draws Piper's basketball separately. Never draw a ball, sphere, orb, seams, hoop, rim, prop, or held object. Her right hand mimes gripping an invisible ball during the circular windmill path; it opens after release. Keep the action distinct from a straight power dunk: the right arm draws a wide continuous circle behind the shoulder, down behind the hip and beside the knee, sweeps low across the front of her knees, then arcs up past shoulder and ear to overhead, finally reaching forward/down through one dunk release. Torso turns naturally with the arm, left arm balances. Keep the right arm attached with natural human joints, no limb stretch or duplication. Exactly fifteen unique poses in this order:\n0. Grounded right-facing approach, arms relaxed low, knees softly bent.\n1. Waist-level two-hand invisible-ball gather, knees bend.\n2. Deeper compression, right hand takes the invisible ball; left arm balances.\n3. Takeoff begins at tick 4, spring from both feet; right hand carries the ball beside the hip.\n4. Airborne backswing begins behind the shoulder at shoulder height.\n5. Torso turns slightly away; right hand and invisible ball circle down behind the hip.\n6. Lowest circle point: right hand reaches behind and below the hip, elbow bent; knees tuck naturally.\n7. Continue the circle low across the front of the knees, with a clear silhouette and no hand/body fusion.\n8. Windmill rises forward and upward across the torso; shoulders rotate back toward the rim.\n9. Right hand and invisible ball rise beside the shoulder and ear; elbow bent, wrist cocked.\n10. Peak at tick 14, right arm extends high overhead gripping the invisible ball; left arm counters, legs bend.\n11. High forward reach toward the imaginary rim, right hand carrying the ball to its release point.\n12. ONLY RELEASE at tick 21: one clean downward slam snap, right palm open with separated fingers; ball has left. This is the only release pose; both hands stay empty from frames 12–14.\n13. Score follow-through at tick 23: empty right arm continues down/forward, torso descends, eyes follow the score.\n14. Land marker at tick 30: balanced two-foot recovery, knees soft, both hands empty.\n\nMake all fifteen poses visibly distinct, anatomically complete and mechanically connected; preserve full visibility of Piper’s orange ponytail, fingers and shoes. Favor margins and pose clarity over figure size. Keep only sharp, clean character artwork on a zero-alpha transparent background. Absolutely no glow, haze, shadow, floor, court, environment, hoop, rim, grid, divider, border, letters, label, opponent, teammate, duplicate person, ball, extra art or backdrop. Return only the sprite sheet.\n"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Piper’s established human silhouettes remain readable when mirrored. J.115 dunk-power native review confirms the separate ball path meets her hands in both facings."
+        "notes": "Piper’s established human silhouette and separate ball track remain readable in both facings. J.115 dunk-power and J.116 dunk-windmill native reviews confirm hand contact at100%/120%."
       }
     },
     "briar-foxglove": {

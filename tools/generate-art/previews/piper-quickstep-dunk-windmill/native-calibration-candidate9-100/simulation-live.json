@@ -1,0 +1,53 @@
+{
+  "runner": "createMatch/stepMatch using the candidate track injected by native-calibration-preload.mjs",
+  "athlete": "piper-quickstep",
+  "clip": "dunk-windmill",
+  "releaseTick": 21,
+  "possessionThroughTick20": true,
+  "release": {
+    "tick": 21,
+    "owner": null,
+    "mode": "dunk",
+    "score": [
+      0,
+      0
+    ],
+    "attemptId": "dunk-1"
+  },
+  "scoring": {
+    "points": 2,
+    "attemptCount": 1,
+    "stepsAfterRelease": 2,
+    "observations": [
+      {
+        "step": 1,
+        "animationTick": 22,
+        "owner": null,
+        "mode": "dunk",
+        "score": [
+          0,
+          0
+        ],
+        "scoredAttempts": []
+      },
+      {
+        "step": 2,
+        "animationTick": 0,
+        "owner": null,
+        "mode": "dead",
+        "score": [
+          2,
+          0
+        ],
+        "scoredAttempts": [
+          "dunk-1"
+        ]
+      }
+    ]
+  },
+  "tick20Track": {
+    "height": 2.2,
+    "forward": -8
+  },
+  "candidateFile": "/workspace/Conda-Jam/tools/generate-art/previews/piper-quickstep-dunk-windmill/candidate9.json"
+}

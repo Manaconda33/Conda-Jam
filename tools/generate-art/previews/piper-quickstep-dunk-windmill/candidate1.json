@@ -1,0 +1,41 @@
+{
+  "candidate": 1,
+  "status": "rejected",
+  "track": {
+    "height": [
+      0.55,
+      0.55,
+      1.25,
+      0.72,
+      0.65,
+      0.72,
+      0.8,
+      1.0,
+      2.2,
+      2.2,
+      1.4,
+      1.05,
+      0.55,
+      0.4,
+      0.3
+    ],
+    "forward": [
+      19,
+      8,
+      18,
+      18,
+      -13,
+      -13,
+      -13,
+      18,
+      -10,
+      16,
+      24,
+      20,
+      22,
+      20,
+      18
+    ]
+  },
+  "review": "Rejected: frame8 ball was behind/above the ponytail rather than at the forward hand; frame9 ball followed the forward arm instead of the raised windmill fist."
+}

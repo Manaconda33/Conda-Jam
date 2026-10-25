@@ -1,0 +1,46 @@
+{
+  "candidate": 2,
+  "status": "rejected",
+  "derivedFrom": "candidate1",
+  "changes": {
+    "frame8": "Move ball to Piper's forward reaching hand and lower it to the hand plane.",
+    "frame9": "Move ball behind the head to the windmill hand over the crown and raise it slightly."
+  },
+  "track": {
+    "height": [
+      0.55,
+      0.55,
+      1.25,
+      0.72,
+      0.65,
+      0.72,
+      0.8,
+      1.0,
+      0.9,
+      2.7,
+      1.4,
+      1.05,
+      0.55,
+      0.4,
+      0.3
+    ],
+    "forward": [
+      19,
+      8,
+      18,
+      18,
+      -13,
+      -13,
+      -13,
+      18,
+      18,
+      -8,
+      24,
+      20,
+      22,
+      20,
+      18
+    ]
+  },
+  "review": "Rejected: frame6 ball remained well behind/above the low hip hand; frame7 was too far forward and high; frame8 was low/right. Frame9 contact improved."
+}

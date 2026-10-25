@@ -1,10 +1,11 @@
 # Animation asset status
 
-Issue #3 remains in progress. The strict report-only audit at `2026-10-25T04:51:27.335Z` inspects **810 registered clips / 7,301 unique authored drawings** across **105 athletes**. It reports **2,293 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
+Issue #3 remains in progress. The strict report-only audit at `2026-10-25T05:09:45.072Z` inspects **811 registered clips / 7,316 unique authored drawings** across **105 athletes**. It reports **2,292 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
 
-Piper `dunk-power` J.115 is accepted and registered. The cleaned 5×3 source and 384×384 atlas pass identity/anatomy, pose order, transparent margins, alpha and ball-free art review. Final separate track H `[.95,1.1,1.25,1.4,1.8,2.25,1.65,2.4,2,2.2,2.2,1.5,1.1,.8,.6]` / F `[4,6,8,9,10,-8,1,-6,4,12,12,7,5,4,3]` passed two independent native reviews in both facings at100%/120%. Piper owns through tick20, releases once at21, and scores two at23. All rejected raw/track candidates and previews remain preserved in the J.115 files.
+Piper `dunk-power` J.115 and `dunk-windmill` J.116 are accepted and registered. J.116's separate Piper track H `[.55,.55,1.25,.72,.65,1.1,.8,.3,1.4,2.2,2.2,1.05,.55,.4,.3]` / F `[19,8,18,18,-13,-5,-8,12,13,-8,-8,20,22,20,18]` passed independent native review in both facings at100%/120%. It holds hand contact through tick20, releases once at21, and scores two points in a real simulation. Raw/rejected sheets, exact prompt, cleanup, layouts, all nine track candidates and native previews are preserved.
 
-Piper `dunk-windmill` J.116 has an accepted source/atlas checkpoint prepared in its own files and is next in roster order. Component-only cleanup removed raw orange/brown haze and restored at least28px transparent margins without redrawing or reordering the fifteen poses. Independent source/packed reviews accept identity, anatomy, windmill progression, transparency, cell separation and no-baked-ball art. Native track review remains pending integration.
+Piper `dunk-reverse` J.117 is next. Attempt4 passed source review for 15 distinct ordered poses, identity/anatomy, reverse carry and at least28px margins. Its atlas candidate and proof remain under `tools/generate-art/previews/piper-quickstep-dunk-reverse/attempt4-atlas-candidate/`, outside production; native ball-track contact/release review is pending.
+
 
 
 

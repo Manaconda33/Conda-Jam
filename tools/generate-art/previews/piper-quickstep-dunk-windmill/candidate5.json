@@ -1,0 +1,46 @@
+{
+  "candidate": 5,
+  "status": "rejected",
+  "derivedFrom": "candidate4",
+  "changes": {
+    "frame7": "Lower the ball to meet the low forward hand.",
+    "frame8": "Restore the higher hand-plane offset and keep the ball at the forward fingertips."
+  },
+  "track": {
+    "height": [
+      0.55,
+      0.55,
+      1.25,
+      0.72,
+      0.65,
+      1.1,
+      0.0,
+      0.3,
+      1.4,
+      2.7,
+      1.4,
+      1.05,
+      0.55,
+      0.4,
+      0.3
+    ],
+    "forward": [
+      19,
+      8,
+      18,
+      18,
+      -13,
+      -5,
+      -8,
+      12,
+      13,
+      -8,
+      24,
+      20,
+      22,
+      20,
+      18
+    ]
+  },
+  "review": "Rejected: frames7\u20139 improved to the low hand, forward reach and windmill fist, but frame6 still placed the ball below/behind the shoe."
+}

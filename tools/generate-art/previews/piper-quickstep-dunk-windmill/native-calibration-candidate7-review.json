@@ -1,0 +1,41 @@
+{
+  "status": "accepted-pending-parent-verification",
+  "candidate": 7,
+  "track": {
+    "height": [0.55,0.55,1.25,0.72,0.65,1.1,0.8,0.3,1.4,2.7,2.7,1.05,0.55,0.4,0.3],
+    "forward": [19,8,18,18,-13,-5,-8,12,13,-8,-8,20,22,20,18]
+  },
+  "renderer": "tools/render-preview.mjs with actual src/main.js and native Canvas adapter; process-local track and provisional manifest preload",
+  "zooms": [100,120],
+  "facings": ["right", "left mirrored"],
+  "atlas": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+  "frameSelection": "All 15 original frames selected in both facings at both zooms.",
+  "visualReview": {
+    "status": "accept",
+    "notes": "The separate ball meets Piper's hip-side hand at frame5 and low hip hand at frame6, follows the low windmill sweep at frame7, reaches the forward hand at frame8, then remains at the raised windmill hand through frame9/tick19 and tick20. Frame9-to-frame10 carry values are held equal so interpolation does not pull the ball away before release. Left-facing mirror views preserve these contacts.",
+    "residual": "Tick20 contact is close, with the ball edge touching the fist in the 100% and 120% captures; no visible gap larger than the ball edge."
+  },
+  "ownershipAndScoring": {
+    "simulation": "real createMatch/stepMatch simulation with Piper selected at the close-range dunk window",
+    "tick10": "Piper owns the carried ball.",
+    "tick14": "Piper owns the carried ball.",
+    "tick19": "Piper owns the carried ball.",
+    "tick20": "Piper owns the carried ball with the ball still aligned at the windmill hand.",
+    "tick21": "Release once to ownerless dunk mode; no score yet.",
+    "score": "The single dunk attempt scores two points once; Piper has 2 points and 1 dunk; ball becomes dead and ownerless.",
+    "attemptId": "dunk-1"
+  },
+  "previewReports": [
+    "tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-candidate7-100/report.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-candidate7-120/report.json"
+  ],
+  "candidateHistory": [
+    "tools/generate-art/previews/piper-quickstep-dunk-windmill/candidate1.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-windmill/candidate2.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-windmill/candidate3.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-windmill/candidate4.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-windmill/candidate5.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-windmill/candidate6.json",
+    "tools/generate-art/previews/piper-quickstep-dunk-windmill/candidate7.json"
+  ]
+}

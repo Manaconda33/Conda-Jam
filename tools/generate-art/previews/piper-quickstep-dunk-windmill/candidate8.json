@@ -1,0 +1,12 @@
+{
+  "candidate": 8,
+  "status": "provisional",
+  "derivedFrom": "candidate7",
+  "changes": {
+    "frames9-10": "Lower the raised-fist carry by 1.0 track unit to close the visible 120% gap. Keep frames9 and10 equal so tick20 remains on the windmill hand until tick21 release."
+  },
+  "track": {
+    "height": [0.55,0.55,1.25,0.72,0.65,1.1,0.8,0.3,1.4,1.7,1.7,1.05,0.55,0.4,0.3],
+    "forward": [19,8,18,18,-13,-5,-8,12,13,-8,-8,20,22,20,18]
+  }
+}

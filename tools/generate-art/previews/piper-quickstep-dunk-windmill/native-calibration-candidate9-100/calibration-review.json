@@ -1,0 +1,26 @@
+{
+  "status": "accepted",
+  "reviewer": "j116_candidate9_review (independent visual review)",
+  "zoomPercent": 100,
+  "facings": ["right", "left mirrored"],
+  "productionAtlas": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+  "productionSelections": "15/15 frames in both facings",
+  "handContact": {
+    "frame5": "Ball at the hip hand.",
+    "frame6": "Ball at the low trailing hand.",
+    "frame7": "Ball meets the low windmill sweep hand.",
+    "frame8": "Ball meets the forward fingertips.",
+    "frame9_tick19": "Ball overlaps the raised windmill fist.",
+    "frame9_tick20": "Ball remains on the fist through the last carried tick."
+  },
+  "ownershipAndScoring": {
+    "ownerThroughTick20": "piper-quickstep",
+    "releaseTick": 21,
+    "releaseOwner": null,
+    "releaseMode": "dunk",
+    "points": 2,
+    "scoredAttempts": 1,
+    "scoreStepsAfterRelease": 2
+  },
+  "evidence": ["report.json", "right-dunk-windmill-pre-release-tick20.png", "left-dunk-windmill-pre-release-tick20.png", "simulation-live.json"]
+}

@@ -1,0 +1,53 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-windmill",
+  "reviewState": "candidate9 accepted",
+  "productionRenderer": "tools/render-preview.mjs with tools/generate-art/previews/piper-quickstep-dunk-windmill/native-calibration-preload.mjs",
+  "captureSettings": {
+    "zoomsPercent": [100, 120],
+    "facings": ["right", "left mirrored"],
+    "capturedFramesPerFacingPerZoom": 15,
+    "extraCaptures": ["last carried tick20", "live simulation after release"],
+    "manifest": "Process-local provisional entry pointing to public/assets/animation/piper-quickstep-dunk-windmill-right.webp"
+  },
+  "candidates": [
+    {"candidate": 1, "trackFile": "candidate1.json", "status": "rejected", "reason": "The hand coordinates were initial visual estimates. Frames8–9 put the ball on the wrong arm and well above the reaching contacts.", "previews": ["native-calibration-candidate1-100/report.json", "native-calibration-candidate1-120/report.json"]},
+    {"candidate": 2, "trackFile": "candidate2.json", "status": "rejected", "reason": "Frame9/tick19 reached the windmill fist. Frames6–8 remained offset from the low hip sweep and forward reach.", "previews": ["native-calibration-candidate2-100/report.json", "native-calibration-candidate2-120/report.json"]},
+    {"candidate": 3, "trackFile": "candidate3.json", "status": "rejected", "reason": "Frames5–6 improved the behind-hip path. Frame7 stayed too far left and frame8 too far left of the forward hand.", "previews": ["native-calibration-candidate3-100/report.json", "native-calibration-candidate3-120/report.json"]},
+    {"candidate": 4, "trackFile": "candidate4.json", "status": "rejected", "reason": "Independent review confirmed all frame selections and release state, but frame6 remained below/behind the shoe, frame8 below and offset from the forward reach, and frame7 slightly high. Frame9 contact looked close.", "previews": ["native-calibration-candidate4-100/report.json", "native-calibration-candidate4-120/report.json"], "independentReview": "j116_candidate4_review agent"},
+    {"candidate": 5, "trackFile": "candidate5.json", "status": "rejected", "reason": "Frames7–9 looked close; frame6 remained below the low hip hand.", "previews": ["native-calibration-candidate5-100/report.json", "native-calibration-candidate5-120/report.json"]},
+    {"candidate": 6, "trackFile": "candidate6.json", "status": "superseded", "reason": "Raised frame6 into the low hip hand, but interpolation toward frame10 moved the last carried tick20 ball away from the raised fist. Tick19 was close.", "previews": ["native-calibration-candidate6-100/report.json", "native-calibration-candidate6-120/report.json"]},
+    {"candidate": 7, "trackFile": "candidate7.json", "status": "rejected after independent review", "reason": "All frame selection, frame6-8 contact, tick20 ownership, release and score checks pass. At tick19/tick20 the ball remains about 15–19 px above the raised fist at 120%, leaving a visible gap. The reviewer requested lowering frames9 and10 together by roughly 0.7–1.0 track units.", "previews": ["native-calibration-candidate7-100/report.json", "native-calibration-candidate7-120/report.json"], "simulation": "native-calibration-candidate7-100/simulation-live.json", "independentReview": "j116_candidate7_review agent"},
+    {"candidate": 8, "trackFile": "candidate8.json", "status": "rejected after independent review", "reason": "All frame selection, frames5–8 contacts, possession, release and score checks pass. At 120% both facings, the ball remains about 19–20 px below the raised fist at shoulder/upper-arm height.", "previews": ["native-calibration-candidate8-100/report.json", "native-calibration-candidate8-120/report.json"], "simulation": "native-calibration-candidate8-100/simulation-live.json", "independentReview": "j116_candidate8_review agent"},
+    {"candidate": 9, "trackFile": "candidate9.json", "status": "accepted", "reason": "Independent review confirms contact at frame5 hip, frame6 low trailing hand, frame7 sweep, frame8 fingertips and frame9/ticks19–20 raised fist, both facings and zooms. All frame selection, release and scoring checks pass.", "previews": ["native-calibration-candidate9-100/report.json", "native-calibration-candidate9-120/report.json"], "simulation": "native-calibration-candidate9-100/simulation-live.json", "independentReview": "j116_candidate9_review agent"}
+  ],
+  "candidate7LiveSimulation": {
+    "result": "pass",
+    "releaseTick": 21,
+    "ownershipThroughTick20": true,
+    "releaseOwner": null,
+    "releaseMode": "dunk",
+    "scoreBeforeRelease": [0, 0],
+    "scoredExactlyOnce": true,
+    "pointsAwarded": 2,
+    "stepsFromReleaseToScore": 2
+  },
+  "candidate7ProductionSelection": {
+    "expectedFrameSelections": 15,
+    "selectionAcrossBothFacingsAndBothZooms": "pass: every frame selected from the Piper production atlas across right and mirrored-left facings at 100% and 120%; all four reports contain the full 15-frame range"
+  },
+  "candidate8ProductionSelection": {
+    "expectedFrameSelections": 15,
+    "selectionAcrossBothFacingsAndBothZooms": "pass: every frame selected from Piper's production atlas across right and mirrored-left facings at 100% and 120%; all four reports contain the full 15-frame range"
+  },
+  "candidate9ProductionSelection": {
+    "expectedFrameSelections": 15,
+    "selectionAcrossBothFacingsAndBothZooms": "pass: every frame selected from Piper's production atlas across right and mirrored-left facings at 100% and 120%; all four reports contain the full 15-frame range"
+  },
+  "acceptedTrackFile": "candidate9.json",
+  "acceptedTrack": {
+    "height": [0.55,0.55,1.25,0.72,0.65,1.1,0.8,0.3,1.4,2.2,2.2,1.05,0.55,0.4,0.3],
+    "forward": [19,8,18,18,-13,-5,-8,12,13,-8,-8,20,22,20,18]
+  },
+  "finalIndependentReview": "Accepted by j116_candidate9_review: both facings and zooms; all15 atlas poses selected; frame5 hip, frame6 trailing hand, frame7 sweep, frame8 fingertips, frame9/ticks19–20 fist contact; release21 ownerless; live simulation scores exactly once for two points after two steps."
+}

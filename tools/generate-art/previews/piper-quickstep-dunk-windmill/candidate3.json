@@ -1,0 +1,48 @@
+{
+  "candidate": 3,
+  "status": "rejected",
+  "derivedFrom": "candidate2",
+  "changes": {
+    "frame5": "Bring the ball up and slightly forward to meet the trailing hip hand.",
+    "frame6": "Move the ball down and forward to the low hand beside the hip.",
+    "frame7": "Move the ball down and back to the low reaching hand.",
+    "frame8": "Move the ball closer to the forward hand and raise it to hand level."
+  },
+  "track": {
+    "height": [
+      0.55,
+      0.55,
+      1.25,
+      0.72,
+      0.65,
+      1.1,
+      0.2,
+      0.3,
+      1.4,
+      2.7,
+      1.4,
+      1.05,
+      0.55,
+      0.4,
+      0.3
+    ],
+    "forward": [
+      19,
+      8,
+      18,
+      18,
+      -13,
+      -5,
+      -1,
+      1,
+      8,
+      -8,
+      24,
+      20,
+      22,
+      20,
+      18
+    ]
+  },
+  "review": "Rejected: frame6 ball was below the shoe/hip hand, frame7 was behind the reaching hand, and frame8 remained short/low. Frame9 contact was close."
+}

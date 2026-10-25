@@ -748,7 +748,10 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   steal:{height:[1.05,1.0,.75,1.5,1.3,1.1,1.0,.95],forward:[4,7,10,12.5,10,8,6,5]},
   // The separate ball meets Piper's bent fist at tick10 and overhead fist at
   // tick14, stays at her extended fingertips through tick20, and releases at21.
-  'dunk-power':{height:[.95,1.1,1.25,1.4,1.8,2.25,1.65,2.4,2,2.2,2.2,1.5,1.1,.8,.6],forward:[4,6,8,9,10,-8,1,-6,4,12,12,7,5,4,3]}
+  'dunk-power':{height:[.95,1.1,1.25,1.4,1.8,2.25,1.65,2.4,2,2.2,2.2,1.5,1.1,.8,.6],forward:[4,6,8,9,10,-8,1,-6,4,12,12,7,5,4,3]},
+  // Piper winds the ball behind her hip, sweeps it low and forward, then
+  // holds it against the raised fist through tick20 before a tick21 release.
+  'dunk-windmill':{height:[.55,.55,1.25,.72,.65,1.1,.8,.3,1.4,2.2,2.2,1.05,.55,.4,.3],forward:[19,8,18,18,-13,-5,-8,12,13,-8,-8,20,22,20,18]}
 },'reed-ashcroft':{
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.

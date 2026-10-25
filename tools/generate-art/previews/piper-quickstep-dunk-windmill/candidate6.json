@@ -1,0 +1,45 @@
+{
+  "candidate": 6,
+  "status": "rejected",
+  "derivedFrom": "candidate5",
+  "changes": {
+    "frame6": "Raise the ball from below the shoe to the low hip hand; frame5 places it at the rear hip and frames7\u20139 align with the low sweep, forward reach and windmill fist."
+  },
+  "track": {
+    "height": [
+      0.55,
+      0.55,
+      1.25,
+      0.72,
+      0.65,
+      1.1,
+      0.8,
+      0.3,
+      1.4,
+      2.7,
+      1.4,
+      1.05,
+      0.55,
+      0.4,
+      0.3
+    ],
+    "forward": [
+      19,
+      8,
+      18,
+      18,
+      -13,
+      -5,
+      -8,
+      12,
+      13,
+      -8,
+      24,
+      20,
+      22,
+      20,
+      18
+    ]
+  },
+  "review": "Rejected: frame6 hip contact and frames7\u20139 improved, but track interpolation pulled the ball from frame9 toward frame10 during tick20 before release."
+}
