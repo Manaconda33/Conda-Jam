@@ -1,0 +1,26 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry23",
+  "decision": "REJECT",
+  "generationId": "exec-5437b43b-4f79-4a27-805d-cd2254282f4f",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry23-raw.png",
+  "sourceSha256": "913deaf192a321355378370e03510183443d615235f9346279d703369c18c920",
+  "decodedRgbaPixelSha256": "67a22cf651e49efa0d3490a996355da8248f5214598a47f6020db6d7d81d64c6",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry23-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose3-retry23-light-dark-review.png",
+  "thresholdMetrics": {
+    "alpha1MarginsLTRB": [49, 37, 110, 64],
+    "alpha1Components": 66,
+    "alpha64MarginsLTRB": [449, 368, 454, 357],
+    "alpha64FigureHeightFraction": 0.42185
+  },
+  "checks": {
+    "pose": "FAIL: the shooting palm and fingers are overhead above the forehead and crown rather than passing the forehead below the headband; this reads as a release-like reach, not the canonical frame3 intermediate extension.",
+    "identityAnatomy": "PARTIAL: recognizable adult human Briar with shoulder-length dark locs, red headband, russet/cream uniform, two arms/hands and two legs/shoes. No fox traits, number, logo or ball; anatomy is complete.",
+    "palette": "FAIL: exposed skin reads orange/copper with overly bright highlights instead of Briar's deep warm-brown reference palette.",
+    "transparency": "PARTIAL: true RGBA alpha 0..255 and transparent backdrop, but 66 alpha>=1 components create widespread low-alpha residue.",
+    "cellMarginsAndScale": "FAIL: alpha>=64 body height is 42.185% vs a requested 30–32%; top/bottom clearances are 29.35%/28.47%, below the requested34%. Alpha>=1 bounds leave only49/37/110/64px L/T/R/B.",
+    "ball": "PASS: no basketball appears; the ball remains on the separate Briar-specific track.",
+    "poseSeparation": "Single frame source only. It is not eligible for sheet assembly because pose, palette, scale, and margins fail."
+  },
+  "reason": "Reject untouched for the above-crown hand, orange skin, excessive figure height, deficient margins, and low-alpha residue. Do not recolor, clean, normalize, pack, register, or accept."
+}
