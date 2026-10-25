@@ -334,6 +334,56 @@
         "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-120/report.json",
         "tools/generate-art/previews/piper-quickstep-dunk-360/attempt3-native-calibration/candidate2-simulation.json"
       ]
+    },
+    "dunk-tomahawk": {
+      "athlete": "piper-quickstep",
+      "clip": "dunk-tomahawk",
+      "status": "accepted after independent native review at100% and120%, both facings",
+      "height": [
+        0.95,
+        1.1,
+        1.25,
+        1.7,
+        1.9,
+        2.05,
+        2.2,
+        2.45,
+        2.4,
+        2.35,
+        1.5,
+        2,
+        1.4,
+        0.7,
+        0.55
+      ],
+      "forward": [
+        6,
+        8,
+        4,
+        -2,
+        -10,
+        -7,
+        -8,
+        -5,
+        12,
+        2,
+        8,
+        6,
+        8,
+        5,
+        6
+      ],
+      "releaseFrame": 10,
+      "releaseTick": 21,
+      "scoreTick": 23,
+      "nativeReview": "Independent native review and parent visual inspection accept the tomahawk carry through both cocked-hand poses and tick20, in both facings at100%/120%. All15 frames select Piper’s candidate atlas; ball is held through tick20, released ownerless at21, and a real simulation scores one two-point dunk. A tiny contact separation remains at frame9/120%, recorded in the review.",
+      "trackFile": "tools/generate-art/piper-quickstep-dunk-tomahawk-track-calibration.json",
+      "previewReports": [
+        "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-100/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-120/report.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-simulation.json",
+        "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-independent-review.json"
+      ]
     }
   }
 }

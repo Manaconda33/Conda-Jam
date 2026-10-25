@@ -1,10 +1,11 @@
 # Animation asset status
 
-Issue #3 remains in progress. The strict report-only audit at `2026-10-25T12:46:10.618Z` inspects **813 registered clips / 7,346 unique authored drawings** across **105 athletes**. It reports **2,290 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
+Issue #3 remains in progress. The strict report-only audit at `2026-10-25T12:55:09.143Z` inspects **814 registered clips / 7,361 unique authored drawings** across **105 athletes**. It reports **2,289 missing clips**, one below-target clip (Luca Velori `run`), and 4 inherited `prompt-not-verbatim` findings. The full target is **30,765 drawings** across 3,045 clips, with a 29,190-drawing minimum.
 
-Piper `dunk-power` J.115, `dunk-windmill` J.116, `dunk-reverse` J.117, and `dunk-360` J.118 are accepted and registered. J.118's separate track H `[.95,1.1,.55,1.3,1.45,1.25,1.2,2.0,1.0,1.8,3.2,2.4,1.5,.7,.55]` / F `[6,6,4,5,0,-4,12,-8,10,-4,3,8,8,5,5]` passed native review both facings at100%/120%; it holds contact through tick20, releases ownerless at21, and scores once for two. All diagnostic-only tracks for the rejected attempt1 source remain preserved.
+Piper's J.115–J.119 dunks are accepted and registered. J.119 track H `[.95,1.1,1.25,1.7,1.9,2.05,2.2,2.45,2.4,2.35,1.5,2,1.4,.7,.55]` / F `[6,8,4,-2,-10,-7,-8,-5,12,2,8,6,8,5,6]` passed both-facings native review at100%/120%, with a small frame9/120% contact gap documented. The live sim confirms tick21 ownerless release and one two-point score.
 
-Piper J.119 `dunk-tomahawk` attempt2 is source-reviewed and committed locally as `431ec7a9`; its native ball track and production atlas are pending. J.118 integration is committed locally as `e70e4cfd`; its push failed at the unavailable port8080 proxy, so no Pages workflow ran.
+J.120 Piper `dunk-double` attempt1 source passed independent review for the first pump, chest reset, higher second pump, sole frame10 release, anatomy, alpha, no ball and >=28px margins. Raw backdrop is rejected for direct packing. The exact prompt includes an incorrect parenthetical cell-location for frame10; provenance records the erratum and confirms the source follows canon's row3/column1. Native track and atlas are pending.
+
 
 
 

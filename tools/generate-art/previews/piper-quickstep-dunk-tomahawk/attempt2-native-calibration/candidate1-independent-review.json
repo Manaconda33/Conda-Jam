@@ -1,0 +1,49 @@
+{
+  "candidate": 1,
+  "decision": "accepted-for-native-calibration-only",
+  "scope": "Process-local preview calibration. Do not register atlas or track in production from this review alone.",
+  "checks": {
+    "orderedDistinctFrames": 15,
+    "facingAndZoom": "Both facings rendered at 100% and 120%.",
+    "cockedHandHold": "Frames 7-8 (ticks 14-17) keep the ball at the raised/cocked hand; tick20 remains carried and the hold reads clearly without face occlusion.",
+    "frame9Contact": "Release approach remains readable; tiny visual separation can appear at left-facing 120%.",
+    "release": "Frame10/tick21 is ownerless in dunk mode.",
+    "simulation": "One dunk attempt and exactly two points.",
+    "anatomyAndClipping": "No pose identity/order issue or clipping found in native renders."
+  },
+  "reviewer": "Independent native candidate review agent",
+  "artifacts": {
+    "track": "candidate1.json",
+    "simulation": "candidate1-simulation.json",
+    "100Percent": "candidate1-100/report.json",
+    "120Percent": "candidate1-120/report.json"
+  },
+  "parentVisualReview": {
+    "decision": "accept-candidate1-for-J.119-native-track-calibration",
+    "finding": "At 120% the frame9 hand-ball contact is close and remains within the ball edge in both facings.",
+    "caveat": "Retain the small 120% frame9 contact-gap caveat in the calibration notes.",
+    "productionIntegration": false,
+    "commit": false
+  },
+  "rejectedEvidence": {
+    "attempt1": {
+      "provenance": "tools/generate-art/piper-quickstep-dunk-tomahawk-attempt1-provenance.json",
+      "exactPrompt": "tools/generate-art/piper-quickstep-dunk-tomahawk-attempt1-prompt.md",
+      "cleanup": "tools/generate-art/clean-piper-quickstep-dunk-tomahawk-attempt1.py",
+      "preservedPreview": [
+        "../attempt1-clean/source-dark.png",
+        "../attempt1-clean/source-light.png"
+      ]
+    },
+    "acceptedAttempt2Source": {
+      "provenance": "tools/generate-art/piper-quickstep-dunk-tomahawk-attempt2-provenance.json",
+      "exactPrompt": "tools/generate-art/piper-quickstep-dunk-tomahawk-attempt1-prompt.md",
+      "layout": "tools/generate-art/piper-quickstep-dunk-tomahawk-attempt2-layouts.json",
+      "cleanup": "tools/generate-art/clean-piper-quickstep-dunk-tomahawk-attempt2.py",
+      "preservedPreview": [
+        "../attempt2-clean/source-dark.png",
+        "../attempt2-clean/source-light.png"
+      ]
+    }
+  }
+}

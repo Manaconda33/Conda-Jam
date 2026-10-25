@@ -27,9 +27,15 @@ Attempt3 ImageGen id `exec-ab167c5f-02c0-48c8-9412-8da7874fa132`; raw SHA-256 `c
 
 The 512×384 production atlas SHA-256 is `cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6`. Accepted separate track H `[.95,1.1,.55,1.3,1.45,1.25,1.2,2.0,1.0,1.8,3.2,2.4,1.5,.7,.55]` / F `[6,6,4,5,0,-4,12,-8,10,-4,3,8,8,5,5]` passed independent native review at100%/120% in both facings. Contact is maintained through tick20, the ball releases ownerless at21, and a real simulation scores once for two points. Exact prompt/provenance, cleanup/layouts, all three source candidates, attempt1 diagnostics and native evidence are preserved under `tools/generate-art/piper-quickstep-dunk-360*`.
 
-## J.119 source checkpoint — Piper Quickstep `dunk-tomahawk`
+## J.119 — Piper Quickstep `dunk-tomahawk`
 
-Attempt1 raw and cleanup are preserved/rejected for clustered overhead reaches in frames7–9 and a missing final cock before release. Attempt2 passed independent source review: fifteen distinct ordered poses; a bent acceleration, diagonal near-extension, and clear behind-head cock before open-palm frame10 release; consistent Piper identity/anatomy; ball-free art; true transparent gutters and >=28px margins. Clean source SHA-256 `6e8231aa825a71480d9f7f70a5c6d348478a3031312c26c3b0c6d0c7da2c7d7fb8`. Production packing and native track review remain pending; no atlas is registered.
+Attempt1 raw SHA-256 `5b80089f0ef5d5a9bc11aed039938c53583c3f4e8ec90403217f89f28fdd4c8d` is preserved and rejected for clustered overhead poses and missing final cock. Attempt2 accepted clean source SHA-256 `6e8231aa825a71480d9f7f70a5c6d348478a3031312c26c3b6c0d7da2c7d7fb8`; its 512×384 atlas SHA-256 is `0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406`. The 15 distinct ordered poses include a clear behind-head cock and sole open-palm frame10 release; anatomy, alpha, ball-free art and >=28px margins passed review.
+
+Accepted track H `[.95,1.1,1.25,1.7,1.9,2.05,2.2,2.45,2.4,2.35,1.5,2,1.4,.7,.55]` / F `[6,8,4,-2,-10,-7,-8,-5,12,2,8,6,8,5,6]` passed independent native review at100%/120% both facings. Piper owns through tick20, releases ownerless at21 and scores two once; a tiny frame9/120% separation is recorded.
+
+## J.120 source checkpoint — Piper Quickstep `dunk-double`
+
+ImageGen attempt1 (`exec-ef7dae42-1977-40e0-950e-eb9cb630c4f1`) raw SHA-256 `302ed9be0ebcddcb38f4998bf19cc8374a727f001e5027c4f0218c073c11ec77` is rejected for its brown/orange backdrop. Component cleanup preserved the original 15 distinct ordered poses with transparent margins >=28px; accepted clean source SHA-256 `2405d866e27b4e153ad19f91e4e02502ddf1723435085a40db8a88cbd87074da`. Independent source review confirms first overhead pump, chest reset, higher second pump, sole frame10 open-palm release, Piper anatomy and no ball. The exact prompt's frame10 cell-location parenthetical is incorrect; provenance records canon's row3/column1 release as the interpretation without altering the prompt. Native track and atlas packing remain pending.
 
 # J.114 — Piper Quickstep `celebrate`
 

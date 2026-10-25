@@ -1,11 +1,10 @@
-# Latest validation — J.118 Piper Quickstep `dunk-360`
+# Latest validation — J.119 Piper Quickstep `dunk-tomahawk`
 
-- Piper adds15 poses and reaches23/29 clips /203 authored drawings. Attempt3 source and atlas reviews accept the exact 360 sequence, shoulder-secured pose, full identity/anatomy, clear alpha, >=28px cell margins and ball-free artwork. Attempts1–2 remain rejected and preserved; their absent/misplaced shoulder hand made native calibration invalid. Attempt1's five native vectors remain diagnostic-only.
-- Accepted track H `[.95,1.1,.55,1.3,1.45,1.25,1.2,2.0,1.0,1.8,3.2,2.4,1.5,.7,.55]` / F `[6,6,4,5,0,-4,12,-8,10,-4,3,8,8,5,5]` passes independent native review at100%/120% in both facings. Contact holds through tick20, release once at21, and live simulation scores one two-point dunk.
-- `npm test`: PASS,40/40 files; lint18 modules; content validation35/105; simulation100 matches /861,421 ticks /6 overtimes; atlas packer55 tests; production build PASS.
-- E2E is blocked by sandbox `listen EPERM` at `127.0.0.1:4175`.
-- Strict audit `2026-10-25T12:46:10.618Z`:813 clips /7,346 drawings /105 athletes, 2,290 missing clips, one target shortfall and4 inherited prompt findings.
-- Next roster action: J.119 Piper `dunk-tomahawk` (attempt2 source accepted; native track pending). J.118 is committed locally as `e70e4cfd`; standard push failed at the configured port8080 proxy, so no Pages workflow ran. Latest deployed checkpoint remains `513e0a59` / run #169. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
+- Piper adds15 poses and reaches24/29 clips /218 authored drawings. Attempt2 source/atlas review accepts the ordered tomahawk poses, clear behind-head cock, frame10 open-hand release, identity/anatomy, transparent margins and ball-free art. Attempt1 is preserved/rejected for pose clustering and a missing final cock.
+- Accepted separate track H `[.95,1.1,1.25,1.7,1.9,2.05,2.2,2.45,2.4,2.35,1.5,2,1.4,.7,.55]` / F `[6,8,4,-2,-10,-7,-8,-5,12,2,8,6,8,5,6]` passes independent native review at100%/120% in both facings. Piper owns through tick20, releases at21, and scores one two-point dunk. The tiny frame9/120% gap is noted.
+- `npm test`: PASS,41/41 files; lint18 modules; content35/105; simulation100 matches /861,421 ticks /6 OTs; atlas packer55 tests; build PASS. E2E blocked by sandbox `listen EPERM` at `127.0.0.1:4175`.
+- Strict audit `2026-10-25T12:55:09.143Z`:814 clips /7,361 drawings /105 athletes, 2,289 missing clips, one target shortfall and4 inherited prompt findings.
+- Next roster action: J.120 Piper `dunk-double`; attempt1 source passed review, but native ball track is pending. Its exact prompt retains a documented incorrect frame10 cell-location parenthetical; the source follows the canonical row3/column1 release. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
 
 # Latest validation — J.113 Piper fall
 

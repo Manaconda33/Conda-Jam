@@ -8,7 +8,7 @@
   "generatedAt": "2026-10-25T12:14:00Z",
   "promptFile": "tools/generate-art/piper-quickstep-dunk-tomahawk-attempt2-prompt.md",
   "promptVerbatim": true,
-  "prompt": "J.119 / Piper Quickstep \u2014 DUNK-TOMAHAWK action sheet, attempt 2\n\nAction canon: follow the exact fifteen-pose `dunk-tomahawk` sequence in `tools/generate-art/j102-keeg-dunk-tomahawk-prompt.md`, adapted to Piper's identity. This is a TOMAHAWK dunk, not a windmill, reverse or 360 dunk.\n\nCreate one original production sprite sheet for Piper Quickstep performing a one-handed tomahawk basketball dunk for JAMVERSE '96. Canvas exactly 1536\u00d71024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Keep at least 28 pixels between every pose and its cell edges, including fingertips, ponytail and both shoes. Keep a consistent camera and figure scale. No pose may overlap, touch or cross a cell boundary. No cell borders, court, hoop, floor, shadows, effects, text, labels, teammate, opponent or props.\n\nPiper is the same athletic adult human woman in all fifteen poses: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural adult athletic proportions, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, proportions, uniform and shoes consistently. Exactly one head, two arms, two hands, two legs and two feet, natural joints and five fingers on each visible hand. No costume changes, jewelry, numbers, text, logo, extra limbs or altered anatomy. Match the established detailed JAMVERSE Piper artwork, clean shape language, palette, linework, lighting and full-body scale; do not switch to pixelated rendering.\n\nBoth hands stay empty; the basketball is separately rendered game art. NEVER draw any ball, sphere, orb, seams, rim, hoop, net, prop, shadow, floor, glow, haze, matte, backdrop, alpha fringe or extra art. Before the one release, Piper's hands mime the invisible ball. Release exactly once at zero-based frame 10 / simulation tick 21 with the hand fully extended toward the rim, palm open and already empty. Frames 11\u201314 are empty-handed.\n\nPiper approaches moving image-right. She gathers the invisible ball, plants, rises, cocks the ball-miming hand behind her head like a tomahawk while keeping her ponytail clear, then snaps that arm forward over her crown and dunks one-handed. The other arm counterbalances; knees tuck and legs kick naturally. The cocked hand stays clearly separated from Piper's head and ponytail. All poses are distinct connected keyframes in exactly this order:\n0. Controlled right-facing approach.\n1. Gather the invisible ball at waist.\n2. Low two-foot plant, knees flexed.\n3. Jump and lift the ball-miming hand toward the rear shoulder.\n4. Airborne, elbow bent, hand cocks behind the crown without touching the ponytail.\n5. Maximum tomahawk coil, hand far behind head, fingers separated from hair.\n6. Powerful high ascent with the elbow still bent and ball-miming hand beside the rear shoulder.\n7. Arm accelerates forward; elbow is visibly bent, forearm angled ahead of the face but clear of it.\n8. Near extension with the forearm angled diagonally toward the rim and wrist ahead of the crown; distinct from frame7.\n9. A clear second tomahawk coil: arm bends sharply, hand moves behind the head and shoulder, elbow points outward, torso twists toward the rim; fingers and hand stay visibly separate from the ponytail. This pose must read as cocked, not extended.\n10. Sole RELEASE at tick 21: arm fully extended upward/forward, open empty palm; visibly distinct from frame9.\n11. Empty-handed arm follows through toward the rim.\n12. Descent with legs naturally tucked.\n13. Controlled two-foot landing, knees flexed.\n14. Balanced recovery with hands empty.\n\nMake all fifteen poses visibly distinct, anatomically complete and mechanically connected. Check each pose for separation, full anatomy, identity consistency, true alpha and >=28px cell margins. Keep the complete ponytail, open hands and both shoes fully inside every margin. Favor pose clarity over figure size. Frames7, 8 and9 must have clearly different arm and hand silhouettes: bent forward acceleration, diagonal near-extension, then a strongly bent behind-the-head final cock. Do not repeat the same overhead reach in adjacent cells. The sheet must contain no basketball. Return only the sprite sheet.\n",
+  "prompt": "J.119 / Piper Quickstep — DUNK-TOMAHAWK action sheet, attempt 2\n\nAction canon: follow the exact fifteen-pose `dunk-tomahawk` sequence in `tools/generate-art/j102-keeg-dunk-tomahawk-prompt.md`, adapted to Piper's identity. This is a TOMAHAWK dunk, not a windmill, reverse or 360 dunk.\n\nCreate one original production sprite sheet for Piper Quickstep performing a one-handed tomahawk basketball dunk for JAMVERSE '96. Canvas exactly 1536×1024 pixels, true transparent RGBA, five equal columns by three equal rows, strict row-major order, exactly fifteen distinct complete full-body drawings. Keep at least 28 pixels between every pose and its cell edges, including fingertips, ponytail and both shoes. Keep a consistent camera and figure scale. No pose may overlap, touch or cross a cell boundary. No cell borders, court, hoop, floor, shadows, effects, text, labels, teammate, opponent or props.\n\nPiper is the same athletic adult human woman in all fifteen poses: warm-brown skin, expressive dark-brown eyes and face, vivid bright-orange hair in a long high ponytail tied behind her head, natural adult athletic proportions, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, plain blank kit with no marks, red-and-cream high-top basketball shoes and white socks. Preserve her face, skin, hair shape/color, proportions, uniform and shoes consistently. Exactly one head, two arms, two hands, two legs and two feet, natural joints and five fingers on each visible hand. No costume changes, jewelry, numbers, text, logo, extra limbs or altered anatomy. Match the established detailed JAMVERSE Piper artwork, clean shape language, palette, linework, lighting and full-body scale; do not switch to pixelated rendering.\n\nBoth hands stay empty; the basketball is separately rendered game art. NEVER draw any ball, sphere, orb, seams, rim, hoop, net, prop, shadow, floor, glow, haze, matte, backdrop, alpha fringe or extra art. Before the one release, Piper's hands mime the invisible ball. Release exactly once at zero-based frame 10 / simulation tick 21 with the hand fully extended toward the rim, palm open and already empty. Frames 11–14 are empty-handed.\n\nPiper approaches moving image-right. She gathers the invisible ball, plants, rises, cocks the ball-miming hand behind her head like a tomahawk while keeping her ponytail clear, then snaps that arm forward over her crown and dunks one-handed. The other arm counterbalances; knees tuck and legs kick naturally. The cocked hand stays clearly separated from Piper's head and ponytail. All poses are distinct connected keyframes in exactly this order:\n0. Controlled right-facing approach.\n1. Gather the invisible ball at waist.\n2. Low two-foot plant, knees flexed.\n3. Jump and lift the ball-miming hand toward the rear shoulder.\n4. Airborne, elbow bent, hand cocks behind the crown without touching the ponytail.\n5. Maximum tomahawk coil, hand far behind head, fingers separated from hair.\n6. Powerful high ascent with the elbow still bent and ball-miming hand beside the rear shoulder.\n7. Arm accelerates forward; elbow is visibly bent, forearm angled ahead of the face but clear of it.\n8. Near extension with the forearm angled diagonally toward the rim and wrist ahead of the crown; distinct from frame7.\n9. A clear second tomahawk coil: arm bends sharply, hand moves behind the head and shoulder, elbow points outward, torso twists toward the rim; fingers and hand stay visibly separate from the ponytail. This pose must read as cocked, not extended.\n10. Sole RELEASE at tick 21: arm fully extended upward/forward, open empty palm; visibly distinct from frame9.\n11. Empty-handed arm follows through toward the rim.\n12. Descent with legs naturally tucked.\n13. Controlled two-foot landing, knees flexed.\n14. Balanced recovery with hands empty.\n\nMake all fifteen poses visibly distinct, anatomically complete and mechanically connected. Check each pose for separation, full anatomy, identity consistency, true alpha and >=28px cell margins. Keep the complete ponytail, open hands and both shoes fully inside every margin. Favor pose clarity over figure size. Frames7, 8 and9 must have clearly different arm and hand silhouettes: bent forward acceleration, diagonal near-extension, then a strongly bent behind-the-head final cock. Do not repeat the same overhead reach in adjacent cells. The sheet must contain no basketball. Return only the sprite sheet.\n",
   "referenceFiles": [],
   "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-tomahawk-attempt2-generated-raw.png",
   "rawSourceSha256": "0d84b59da64361a83b622cfa72fca0ac66b04d2ce34ac43dd9ac012f2383147e",
@@ -32,18 +32,87 @@
   "sourceMode": "RGBA",
   "layoutFile": "tools/generate-art/piper-quickstep-dunk-tomahawk-attempt2-layouts.json",
   "sourceReview": {
-    "status": "accepted-source-only-pending-native-ball-track",
+    "status": "accepted",
     "reviewer": "independent source-review subagent",
     "reviewedAt": "2026-10-25",
-    "reviewNotes": "Accept attempt2: fifteen distinct ordered poses, corrected bent-forward acceleration / diagonal near-extension / behind-head final cock across frames7\u20139, and open-palm frame10 release. Piper identity and anatomy are consistent; no ball is present. Light/dark proofs show true transparent gutters and every pose at least28px inside its cell."
+    "reviewNotes": "Accept attempt2: fifteen distinct ordered poses, corrected bent-forward acceleration / diagonal near-extension / behind-head final cock across frames7–9, and open-palm frame10 release. Piper identity and anatomy are consistent; no ball is present. Light/dark proofs show true transparent gutters and every pose at least28px inside its cell."
   },
-  "eligibleForPacking": false,
+  "eligibleForPacking": true,
   "ballBehavior": "No ball is drawn. Native ball-track review pending.",
   "nativeReview": {
-    "status": "pending-separate-ball-track-review"
+    "status": "accepted",
+    "notes": "Independent native review and parent visual inspection accept both cocked-hand poses and tick20 hold at100%/120% in both facings. All15 production frames select Piper’s atlas. Piper owns through tick20, releases ownerless at21, and a real simulation scores one two-point dunk. A tiny contact separation at frame9/120% is noted in the review.",
+    "trackFile": "tools/generate-art/piper-quickstep-dunk-tomahawk-track-calibration.json",
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-120/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-simulation.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-independent-review.json"
+    ]
   },
-  "ballTrackStatus": "pending-native-ball-track-review",
-  "packedAtlasPath": null,
-  "packedAtlasSha256": null,
-  "packedLayoutFile": null
+  "ballTrackStatus": "accepted",
+  "packedAtlasPath": "public/assets/animation/piper-quickstep-dunk-tomahawk-right.webp",
+  "packedAtlasSha256": "0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406",
+  "packedLayoutFile": "tools/generate-art/piper-quickstep-dunk-tomahawk15-layouts.json",
+  "packedAtlasSize": [
+    512,
+    384
+  ],
+  "packedAtlasBytes": 66586,
+  "ballTrack": {
+    "athlete": "piper-quickstep",
+    "clip": "dunk-tomahawk",
+    "status": "accepted after native review at100% and120%, both facings",
+    "height": [
+      0.95,
+      1.1,
+      1.25,
+      1.7,
+      1.9,
+      2.05,
+      2.2,
+      2.45,
+      2.4,
+      2.35,
+      1.5,
+      2,
+      1.4,
+      0.7,
+      0.55
+    ],
+    "forward": [
+      6,
+      8,
+      4,
+      -2,
+      -10,
+      -7,
+      -8,
+      -5,
+      12,
+      2,
+      8,
+      6,
+      8,
+      5,
+      6
+    ],
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "scoreTick": 23,
+    "nativeReview": "Independent native review and parent visual inspection accept both cocked-hand poses and tick20 hold at100%/120% in both facings. All15 production frames select Piper’s atlas. Piper owns through tick20, releases ownerless at21, and a real simulation scores one two-point dunk. A tiny contact separation at frame9/120% is noted in the review.",
+    "trackFile": "tools/generate-art/piper-quickstep-dunk-tomahawk-track-calibration.json",
+    "previewReports": [
+      "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-100/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-120/report.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-simulation.json",
+      "tools/generate-art/previews/piper-quickstep-dunk-tomahawk/attempt2-native-calibration/candidate1-independent-review.json"
+    ]
+  },
+  "packedLayoutReview": {
+    "status": "accepted",
+    "reviewer": "independent atlas/native review and parent visual review",
+    "reviewedAt": "2026-10-25",
+    "notes": "15 distinct ordered crops, empty final cell, transparent gutters, no ball/background/clipping, readable identity/anatomy. Tightest atlas-cell gap 2px from baseline94 with no pose touching/crossing."
+  }
 }
