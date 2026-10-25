@@ -770,7 +770,12 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   // Piper's scythe ball follows her image-left trailing hand through the low
   // rear sweep, chest-cross carry, and high curl. Pose10 is the sole release;
   // later points are inert once the simulation makes the ball ownerless.
-  'dunk-scythe':{height:[1.014714,1.072143,1.072143,1.072143,1.014714,0.928571,2.220714,1.330571,2.278143,2.278143,2.278143,1.933571,0.928571,0.871143,0.928571],forward:[-3.289091,-2.923636,-6.578182,-8.770909,-9.501818,-8.405455,-5.847273,2.192727,8.770909,8.04,8.04,12.425455,-5.116364,-5.116364,-3.289091]}
+  'dunk-scythe':{height:[1.014714,1.072143,1.072143,1.072143,1.014714,0.928571,2.220714,1.330571,2.278143,2.278143,2.278143,1.933571,0.928571,0.871143,0.928571],forward:[-3.289091,-2.923636,-6.578182,-8.770909,-9.501818,-8.405455,-5.847273,2.192727,8.770909,8.04,8.04,12.425455,-5.116364,-5.116364,-3.289091]},
+  // Candidate J.123: Piper receives the lob at pose05/tick10; poses00–04
+  // are free-flight approach, while the separate ball follows measured hand
+  // centers through the pose09 carry and leaves at tick21. Native contact
+  // review remains pending; the production atlas manifest is still unreviewed.
+  'alley-oop-power':{height:[2.4,2.2,2,1.9,1.95,1.991,1.732571,1.847429,1.962286,2.278143,2.306857,1.8,1.2,.8,.65],forward:[16,13,10,7,5,2.192727,2.558182,3.289091,2.192727,5.847273,6.212727,6.212727,3,1,1]}
 },'reed-ashcroft':{
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.

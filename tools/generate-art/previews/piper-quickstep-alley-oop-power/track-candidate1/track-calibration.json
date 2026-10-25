@@ -1,0 +1,149 @@
+{
+  "status": "accepted-native-contact-review",
+  "issue": "J.123",
+  "athlete": "piper-quickstep",
+  "clip": "alley-oop-power",
+  "candidateAtlas": "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-lane-scale-release-b.png",
+  "productionSourceImage": "tools/generate-art/sources/piper-quickstep-alley-oop-power15.png",
+  "productionWebp": "public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+  "coordinateMapping": {
+    "forward": "(x - 64) * 0.804 / 2.2",
+    "height": "(70.22 - y * 0.804) / 28",
+    "source": "Piper dunk-scythe accepted track coordinate mapping; hand centers measured directly in atlas-lane-scale-release-b cells and reviewed against actual Canvas captures."
+  },
+  "handCentersCellPx": [
+    {
+      "pose": 5,
+      "x": 70,
+      "y": 18,
+      "anchor": "midpoint between overhead catch hands"
+    },
+    {
+      "pose": 6,
+      "x": 71,
+      "y": 27,
+      "anchor": "leading/right hand estimate"
+    },
+    {
+      "pose": 7,
+      "x": 73,
+      "y": 23,
+      "anchor": "leading/right hand estimate"
+    },
+    {
+      "pose": 8,
+      "x": 70,
+      "y": 19,
+      "anchor": "leading/right hand estimate"
+    },
+    {
+      "pose": 9,
+      "x": 80,
+      "y": 8,
+      "anchor": "leading/right hand estimate"
+    },
+    {
+      "pose": 10,
+      "x": 81,
+      "y": 7,
+      "anchor": "leading/right hand estimate"
+    }
+  ],
+  "ballTrack": {
+    "height": [
+      2.4,
+      2.2,
+      2,
+      1.9,
+      1.95,
+      1.991,
+      1.732571,
+      1.847429,
+      1.962286,
+      2.278143,
+      2.306857,
+      1.8,
+      1.2,
+      0.8,
+      0.65
+    ],
+    "forward": [
+      16,
+      13,
+      10,
+      7,
+      5,
+      2.192727,
+      2.558182,
+      3.289091,
+      2.192727,
+      5.847273,
+      6.212727,
+      6.212727,
+      3,
+      1,
+      1
+    ],
+    "releaseFrame": 10,
+    "releaseTick": 21,
+    "ownerThroughTick": 20,
+    "scoreTick": 23,
+    "scorePoints": 2,
+    "calibrationFile": "tools/generate-art/previews/piper-quickstep-alley-oop-power/track-candidate1/track-calibration.json",
+    "knownLimitation": "Poses00–04 are incoming-lob flight, not Piper possession. Pose05–10 contact centers are measured visual estimates; all carried frames were checked against native Canvas captures and passed in both facings. Poses11–14 values are inert after release.",
+    "ballFreeArt": true
+  },
+  "ballFreeArt": true,
+  "possession": {
+    "poses0to4": "incoming lob remains pass flight; Piper has no ownership before catch tick10",
+    "catchTick": 10,
+    "ownerThroughTick": 20,
+    "releaseTick": 21,
+    "scoreTick": 23,
+    "landingTick": 30
+  },
+  "nativePreviews": {
+    "standard": "native-100/",
+    "zoom120": "native-120/",
+    "requiredFacings": [
+      "right",
+      "left"
+    ],
+    "candidateSelector": "accepted production manifest; reviewed:true",
+    "reports": [
+      "native-100/report.json",
+      "native-120/report.json"
+    ],
+    "keyContactCaptures": [
+      "native-100/left-alley-oop-power-frame5.png",
+      "native-100/right-alley-oop-power-frame5.png",
+      "native-100/left-alley-oop-power-pre-release-tick20.png",
+      "native-100/right-alley-oop-power-pre-release-tick20.png",
+      "native-120/left-alley-oop-power-pre-release-tick20.png",
+      "native-120/right-alley-oop-power-pre-release-tick20.png",
+      "native-100/left-alley-oop-power-frame10.png",
+      "native-100/right-alley-oop-power-frame10.png",
+      "native-120/left-alley-oop-power-frame10.png",
+      "native-120/right-alley-oop-power-frame10.png"
+    ],
+    "captureSummary": "Each native report includes all 15 authored frames in both facings (30 frame captures), plus both-facings tick20 contact overlays; pose05 shows catch transfer and pose10 shows the release ball at the rim."
+  },
+  "knownUncertainty": [
+    "Pose05 midpoint between both raised hands and pose06–10 leading-hand centers are visual estimates; actual Canvas captures confirm contact in both facings at 100% and 120%.",
+    "Incoming poses00–04 are lob-flight previews only, not ball-possession anchors.",
+    "Track poses11–14 are inert after tick21 release."
+  ],
+  "acceptedReview": {
+    "reviewedAt": "2026-10-25T15:01:29Z",
+    "reviewers": [
+      "independent runtime visual reviewer",
+      "Codex parent"
+    ],
+    "visualFindings": "Catch tick10 meets both raised hands. The separate ball remains at Piper's hand through last carried tick20 in right and left facings at100% and120%, with no material gap or overshoot. At tick21 the ball separates cleanly toward the rim while pose10's open hand is readable.",
+    "simulationFindings": "Real teammate pass tested in both facings: Piper has no possession before tick10, catches at tick10, carries through20, releases ownerless at21, scores once for two points at23, and lands at30.",
+    "previewReports": [
+      "native-100/report.json",
+      "native-120/report.json"
+    ]
+  }
+}
