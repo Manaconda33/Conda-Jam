@@ -1,0 +1,51 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "frame": 4,
+  "tick": 10,
+  "retry": 10,
+  "generationId": "exec-213d6f7c-ea62-4bd9-8e45-b1238b645043",
+  "generator": "image_gen.imagegen",
+  "originalGeneratedPath": "/workspace/generated_images/exec-213d6f7c-ea62-4bd9-8e45-b1238b645043.png",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry10-raw.png",
+  "rawSha256": "7266097cb181b2498af1ccc08093722d9864dd9940a608cc20d91ac173bd339e",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB (no alpha channel)",
+  "transparentBackgroundRequested": true,
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry10-prompt.md",
+  "promptSha256": "ab8250277b85dc26794d4142dd2b52a6c28e1d17d66a9aecad6eceeb38995e10",
+  "referencedImagePaths": [
+    "/workspace/Conda-Jam/public/assets/animation/briar-foxglove-idle-right.webp",
+    "/workspace/Conda-Jam/public/assets/animation/briar-foxglove-shoot-right.webp",
+    "/workspace/Conda-Jam/public/assets/animation/briar-foxglove-receive-right.webp"
+  ],
+  "alphaAsRGBA": {
+    "mode": "RGB input converted for metric only; all pixels alpha=255",
+    "thresholdBoundsXYXYExclusive": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "marginsLTRB": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "connectedComponents": 1
+  },
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry10-light-dark-review.jpg",
+  "decision": "REJECT; preserve raw unchanged; do not clean, normalize, pack or accept",
+  "visualReview": {
+    "pose": "Broad airborne layup release with open high-forward hand, lower balance arm and folded rear leg; full two-arm/two-leg anatomy, no ball. Figure appears substantially taller than the requested 44% canvas cap.",
+    "identity": "Adult human, dark locs and red headband remain recognizable.",
+    "palette": "Skin is brighter and more orange than the accepted #914627 median; shoes remain russet-dominant instead of predominantly cream.",
+    "transparency": "Rejected checkerboard is baked into an RGB image; the file has no alpha channel and every pixel is opaque.",
+    "cellMargins": "Zero transparent margin on every edge because the entire RGB canvas is opaque."
+  }
+}

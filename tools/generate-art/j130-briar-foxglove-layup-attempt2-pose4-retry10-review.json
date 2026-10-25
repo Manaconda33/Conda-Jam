@@ -1,0 +1,17 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry10",
+  "decision": "REJECT",
+  "generationId": "exec-213d6f7c-ea62-4bd9-8e45-b1238b645043",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry10-raw.png",
+  "sourceSha256": "7266097cb181b2498af1ccc08093722d9864dd9940a608cc20d91ac173bd339e",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry10-light-dark-review.jpg",
+  "checks": {
+    "pose": "Broad airborne layup release with open high-forward hand, lower balance arm and folded rear leg; full two-arm/two-leg anatomy, no ball. Figure appears substantially taller than the requested 44% canvas cap.",
+    "identity": "Adult human, dark locs and red headband remain recognizable.",
+    "palette": "Skin is brighter and more orange than the accepted #914627 median; shoes remain russet-dominant instead of predominantly cream.",
+    "transparency": "Rejected checkerboard is baked into an RGB image; the file has no alpha channel and every pixel is opaque.",
+    "cellMargins": "Zero transparent margin on every edge because the entire RGB canvas is opaque."
+  },
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry10-prompt.md",
+  "reason": "ImageGen returned RGB with a visible checkerboard baked into the full canvas; margins are 0px. Pose scale, bright/orange skin and russet shoes also miss the prompt. Preserve exact rejected candidate; do not clean or assemble."
+}
