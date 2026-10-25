@@ -1,0 +1,71 @@
+{
+  "issue": "J.130",
+  "frame": 4,
+  "attempt": 2,
+  "retry": 5,
+  "reviewer": "independent pose4 source reviewer",
+  "reviewedAt": "2026-10-25T20:23:44.782647+00:00",
+  "reviewedCommit": "0872c3e6",
+  "decision": "retry/reject; not pass-for-cleanup",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry5-raw.png",
+  "sourceSha256": "fcaabdc44521f113cd03df8b14ba1384a9a3ca43521ac4501ecb12c4e5fcf154",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry5-prompt.md",
+  "promptSha256": "2e884687518fa94b604fd236de07baced15acb9aa3467eff3bed6d5892b54223",
+  "checks": {
+    "sourceHashMatches": true,
+    "allThreeReferenceHashesMatch": true,
+    "originalCopyMatches": true,
+    "mode": "RGBA",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  "alphaCountsConfirmed": {
+    "zero": 1367056,
+    "nonzero": 205460,
+    "alpha1to63": 34492,
+    "alpha64plus": 170968,
+    "opaque": 276
+  },
+  "boundsConfirmed": {
+    "alphaGte1": {
+      "bboxExclusive": [
+        0,
+        21,
+        1218,
+        1254
+      ],
+      "marginsLTRB": [
+        0,
+        21,
+        36,
+        0
+      ]
+    },
+    "alphaGte64": {
+      "bboxExclusive": [
+        399,
+        141,
+        990,
+        1010
+      ],
+      "marginsLTRB": [
+        399,
+        141,
+        264,
+        244
+      ]
+    }
+  },
+  "findings": [
+    "Confirm rejection. Face, shoulder, arms and thighs retain a bright orange/tan cast rather than an unambiguous deep cocoa/neutral umber match, especially against accepted idle art. The russet/cream kit, red headband, dark locs and human identity are recognizable.",
+    "Confirm blank chest, two bare wrists, empty hands, no ball or animal traits. Two arms, two hands, two legs and two shoes are visible with coherent joint connections and no evident extra limb.",
+    "Correct the generator pose assessment: the high-forward arm and lower separate guide hand read as airborne release, but the shooting wrist is flexed downward and fingers project forward/down. This does not satisfy the exact requested upward-and-outward finger roll with visibly empty palm; the palm face is not clearly exposed.",
+    "Lead knee is high and trailing leg bends backward. The rear heel remains well below the seat rather than tightly tucked close behind it, so the claimed exact trailing-leg match is overstated.",
+    "Confirm trainers are predominantly russet with cream panels/trim, contrary to the explicit predominantly-cream instruction.",
+    "Confirm alpha and margins: 34492 pixels have alpha 1 through 63; nonzero alpha reaches left and bottom canvas edges. Main alpha>=64 margins L/T/R/B=[399,141,264,244]px; 25 percent requires at least 314px per edge. Top/right/bottom fail.",
+    "Alpha isolation and padding alone are geometrically possible without limb redraw, but cannot repair the requested hand articulation, heel placement, palette and footwear. A fresh generation is appropriate; cleanup does not resolve this rejection."
+  ],
+  "processing": "Review record only. Source, provenance/status, previews and J.106 helper left unchanged."
+}
