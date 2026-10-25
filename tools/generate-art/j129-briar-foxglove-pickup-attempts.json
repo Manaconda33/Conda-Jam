@@ -1018,6 +1018,21 @@
       "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt11-light-dark-review.png",
       "status": "rejected",
       "reason": "Five separated and ball-free Briar poses preserve identity, but low-alpha background haze remains, cell5 has 226 nonzero-alpha pixels, and alpha>=64 bounds approach cell dividers within 4px versus the 120px target. Independent visual review noted possible forearm overlap in the grab pose; no packing or registration."
+    },
+    {
+      "attempt": 12,
+      "generationId": "exec-28d93ec7-2371-4f3a-a064-12fc59872d73",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-prompt-attempt12.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt12-raw.png",
+      "sha256": "ef9325d7ecc51df0a3122e41713f99a1777c780770c4e9a394443a268a10a192",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt12-review.json",
+      "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt12-light-dark-review.png",
+      "status": "rejected",
+      "reason": "Five distinct ball-free Briar poses, but low-alpha backdrop remains, minimum cell margin is15px versus120px, and blank cell5 contains2151 nonzero-alpha pixels. The requested 272x272 safe-box scale was not followed. No cleanup, packing, or registration."
     }
   ]
 }

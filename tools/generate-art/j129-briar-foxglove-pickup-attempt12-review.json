@@ -1,0 +1,184 @@
+{
+  "issue": "J.129",
+  "athlete": "Briar Foxglove",
+  "clip": "pickup",
+  "attempt": 12,
+  "generationId": "exec-28d93ec7-2371-4f3a-a064-12fc59872d73",
+  "prompt": "tools/generate-art/j129-briar-foxglove-pickup-prompt-attempt12.md",
+  "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt12-raw.png",
+  "sha256": "ef9325d7ecc51df0a3122e41713f99a1777c780770c4e9a394443a268a10a192",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "alphaHistogram": {
+    "alpha0": 1266507,
+    "alpha1to63": 61990,
+    "alpha64plus": 244367,
+    "alpha255": 0
+  },
+  "cells": [
+    {
+      "cell": 0,
+      "bboxAlphaGte64": [
+        122,
+        77,
+        375,
+        497
+      ],
+      "marginsLTRBAlphaGte64": [
+        122,
+        137,
+        77,
+        15
+      ],
+      "bboxAlphaGte160": [
+        122,
+        78,
+        375,
+        497
+      ],
+      "marginsLTRBAlphaGte160": [
+        122,
+        137,
+        78,
+        15
+      ],
+      "alphaGte64Pixels": 48703,
+      "nonzeroAlphaPixels": 60347
+    },
+    {
+      "cell": 1,
+      "bboxAlphaGte64": [
+        616,
+        135,
+        953,
+        497
+      ],
+      "marginsLTRBAlphaGte64": [
+        104,
+        71,
+        135,
+        15
+      ],
+      "bboxAlphaGte160": [
+        616,
+        135,
+        953,
+        497
+      ],
+      "marginsLTRBAlphaGte160": [
+        104,
+        71,
+        135,
+        15
+      ],
+      "alphaGte64Pixels": 51001,
+      "nonzeroAlphaPixels": 64519
+    },
+    {
+      "cell": 2,
+      "bboxAlphaGte64": [
+        1134,
+        197,
+        1473,
+        497
+      ],
+      "marginsLTRBAlphaGte64": [
+        110,
+        63,
+        197,
+        15
+      ],
+      "bboxAlphaGte160": [
+        1135,
+        197,
+        1472,
+        497
+      ],
+      "marginsLTRBAlphaGte160": [
+        111,
+        64,
+        197,
+        15
+      ],
+      "alphaGte64Pixels": 47618,
+      "nonzeroAlphaPixels": 59131
+    },
+    {
+      "cell": 3,
+      "bboxAlphaGte64": [
+        132,
+        700,
+        456,
+        975
+      ],
+      "marginsLTRBAlphaGte64": [
+        132,
+        56,
+        188,
+        49
+      ],
+      "bboxAlphaGte160": [
+        133,
+        700,
+        455,
+        975
+      ],
+      "marginsLTRBAlphaGte160": [
+        133,
+        57,
+        188,
+        49
+      ],
+      "alphaGte64Pixels": 44671,
+      "nonzeroAlphaPixels": 54610
+    },
+    {
+      "cell": 4,
+      "bboxAlphaGte64": [
+        624,
+        580,
+        898,
+        975
+      ],
+      "marginsLTRBAlphaGte64": [
+        112,
+        126,
+        68,
+        49
+      ],
+      "bboxAlphaGte160": [
+        625,
+        580,
+        898,
+        975
+      ],
+      "marginsLTRBAlphaGte160": [
+        113,
+        126,
+        68,
+        49
+      ],
+      "alphaGte64Pixels": 52374,
+      "nonzeroAlphaPixels": 65599
+    },
+    {
+      "cell": 5,
+      "bboxAlphaGte64": null,
+      "marginsLTRBAlphaGte64": null,
+      "bboxAlphaGte160": null,
+      "marginsLTRBAlphaGte160": null,
+      "alphaGte64Pixels": 0,
+      "nonzeroAlphaPixels": 2151
+    }
+  ],
+  "decision": "REJECTED",
+  "reason": "Five distinct ball-free poses preserve Briar identity and anatomy, but the backdrop haze remains visible on raw/light-dark review. The model ignored the requested centered 272x272 safe boxes: multiple figures occupy nearly the full 512px cell height, with minimum margin below120px. The unused cell5 contains 2151 nonzero-alpha pixels. No cleanup, packing, or registration.",
+  "independent_review": {
+    "decision": "REJECTED",
+    "sha256": "ef9325d7ecc51df0a3122e41713f99a1777c780770c4e9a394443a268a10a192",
+    "verification": "Independent recomputation matched the recorded SHA, per-cell alpha counts, and bounding boxes. Five distinct alpha>=64 poses occupy cells0\u20134, preserve Briar identity, contain no ball, and remain pose-separated. The sequence and anatomy are broadly sound.",
+    "failures": "Minimum margin15px versus120px target; top-row pose bottoms reach y497 of512px. Figures exceed the requested272x272 safe boxes. Alpha1\u201363 count61990; blank cell5 contains2151 nonzero-alpha pixels (none alpha>=64). Paired preview looks cleaner than the raw source, but residual non-character alpha fails the prompt."
+  }
+}

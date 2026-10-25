@@ -1,6 +1,6 @@
 # Latest work — J.129 Briar Foxglove `pickup` source rejects
 
-- The next missing roster-order clip remains J.129 Briar `pickup`. Eleven exact prompts, IDs, raw PNGs, measurement records, and light/dark reviews are preserved. All eleven are rejected for residual background alpha and/or margins below target. Attempt11 leaves226 nonzero-alpha pixels in cell5 and has a 4px minimum margin against its120px prompt target. No source was accepted, cleaned, packed, or registered.
+- The next missing roster-order clip remains J.129 Briar `pickup`. Twelve exact prompts, IDs, raw PNGs, measurement records, and light/dark reviews are preserved. All twelve are rejected for residual background alpha and/or margins below target. Attempt12 leaves2,151 nonzero-alpha pixels in cell5 and has a15px minimum margin against its120px prompt target. No source was accepted, cleaned, packed, or registered.
 - Production remains J.128: Briar10/29 clips /74 authored drawings; strict audit823 clips /7,458 drawings /105 athletes,2,280 missing clips, one target shortfall and4 inherited prompt findings (timestamp `2026-10-25T19:09:05.323Z`).
 - Last full validation at J.128: `npm test`50/50; lint18 modules; content35 franchises/105 athletes;100-match simulation /861,421 ticks /6 OTs; build PASS. J.129 was source-only and did not change runtime or manifest.
 - Push remains blocked by the unreachable configured proxy; latest deployment `513e0a59` / Pages run #169.
