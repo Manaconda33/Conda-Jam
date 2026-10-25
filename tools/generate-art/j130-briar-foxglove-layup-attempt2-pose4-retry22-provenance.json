@@ -1,0 +1,17 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry22",
+  "operation": "single-pose source generation",
+  "generationTool": "image_gen.imagegen",
+  "generationId": null,
+  "outputHint": null,
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry22-prompt.md",
+  "resultNote": "The tool call returned image_url and output_hint keys, but the output_hint value was not captured. No generated path, source hash, or C2PA identifier can be safely associated with this prompt among concurrent image-generation outputs.",
+  "rawSource": null,
+  "rawSha256": null,
+  "decodedRgbaPixelSha256": null,
+  "preview": null,
+  "cleanup": null,
+  "packing": null,
+  "registration": null,
+  "disposition": "NOT REVIEWABLE; preserve the prompt and provenance gap. No output image was attributed, reviewed, or accepted."
+}
