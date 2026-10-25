@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry20",
+  "decision": "REJECT",
+  "generationId": "exec-a706c7ba-d475-4d97-b9b6-2bbac675f974",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry20-raw.png",
+  "sourceSha256": "e194128db7c80970b8885db62b294f702ba16c870bb71de82329fe655e9640c5",
+  "decodedRgbaPixelSha256": "8809ebb2dc3df4496a8deb0d9b96d07c4d758d1cbc934c8009b1a026973a46c4",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry20-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry20-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PASS: reads as adult human Briar with dark shoulder locs and red headband; two arms/hands, two legs/shoes and connected full-body silhouette. Blank russet/cream kit; no number, logo, fox traits, crop, or ball.",
+    "pose": "FAIL: ascent and raised knee read, but shooting hand is held vertically over/against the nose and mouth. Fingertips are not below the lower lip and there is no clear face gap. Guide hand opens sideways.",
+    "palette": "PARTIAL/FAIL: russet and cream costume/shoes read; skin looks warm medium brown with orange highlights, lighter/warmer than the specified deep-brown Briar reference.",
+    "transparency": "PARTIAL: genuine RGBA alpha 0..255; no baked checkerboard. Low-alpha residue creates 68 disconnected alpha>=1 components and reaches near canvas edges.",
+    "marginsScale": "FAIL: at alpha>=64 margins L/T/R/B are 497/351/411/378px (39.6%/28.0%/32.8%/30.1%), failing the prompt's 30% top clearance. At alpha>=1 margins are146/55/62/49px; 68 components. Figure height is525px /41.87%, above the prompt's ~38% target but below the historical 44% hard cap.",
+    "pixelUniqueness": "PASS: decoded RGBA pixel hash is unique among current J.130 raw source PNGs.",
+    "ballAlignment": "PASS for this ball-free source: no basketball is baked in; ball alignment remains a separate athlete-specific track review."
+  },
+  "reason": "Reject untouched because the shooting hand covers the facial area instead of staying below the lip with clear separation; alpha>=1 contamination leaves inadequate cell margins. Palette reads warmer/lighter than canon. Preserve source and prompt; do not clean, recolor, normalize, pack, register, or accept."
+}
