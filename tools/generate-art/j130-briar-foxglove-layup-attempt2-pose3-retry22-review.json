@@ -1,0 +1,24 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry22",
+  "decision": "REJECT",
+  "generationId": "exec-af4693ef-fc84-4433-a7f9-a1a9ae5e426d",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry22-raw.png",
+  "sourceSha256": "b0673442b8cfc50f5b0e006a1929e3f9938437f2aa4aa2d9fe397084a1233168",
+  "decodedRgbaPixelSha256": "ac1bf1b256d4accf2a00f701e229e9a0b34fc8d9375ad2c6356ef96ca9c96f2e",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry22-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose3-retry22-light-dark-review.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "checks": {
+    "identityAnatomy": "PARTIAL PASS: recognizable adult human Briar with shoulder-length locs, red headband, russet/cream kit, two arms/hands, two legs/shoes; no fox traits, logo, number or ball. Proportions appear complete.",
+    "pose": "FAIL: raised shooting hand is above the headband/crown in an overhead release-like pose. Frame3 requires a bent-elbow extension with the palm near forehead level and fully below the headband/crown. Guide arm opens sideways; legs are extended rather than compactly folded.",
+    "palette": "FAIL: skin highlights read orange/copper rather than Briar\u2019s warm deep-brown canon and the recorded palette anchors (median RGB 145,70,39; shadow 85,35,17; highlight 193,114,70).",
+    "transparency": "PARTIAL/FAIL: genuine RGBA alpha 0..255; no checkerboard or solid background is baked in. However alpha>=1 forms89 disconnected components and reaches within33px left,39px top,72px right and36px bottom.",
+    "cellMarginsAndScale": "FAIL: alpha>=64 margins L/T/R/B are443/387/492/360px, so top and bottom miss the requested34% clear margin; figure height is507/1254=40.43% versus the30\u201332% target. Alpha>=1 full-canvas bounds leave only33/39/72/36px.",
+    "ball": "PASS: no basketball appears; ball remains on Briar\u2019s separate athlete-specific track.",
+    "sourceUniqueness": "PASS: decoded RGBA pixels are unique among the80 J.130 layup raw sources present at review time."
+  },
+  "reason": "Reject untouched for overhead hand placement, orange skin palette, figure scale, insufficient margins and extensive low-alpha residue. Do not recolor, clean, normalize, pack, register or accept."
+}
