@@ -1,0 +1,119 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry11",
+  "decision": "REJECT",
+  "generationId": "exec-8ef9b326-b480-46bc-aef2-b5019268ae9d",
+  "sourcePath": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry11-raw.png",
+  "sourceSha256": "3cee09de82d91a9515f449cb0998910d105c590c20af4b4c78f8b7635a720355",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "alphaMetrics": {
+    "1": {
+      "bbox_xyxy_exclusive": [
+        0,
+        45,
+        1170,
+        1214
+      ],
+      "margins_ltrb": [
+        0,
+        45,
+        84,
+        40
+      ],
+      "max_occupancy_fraction": 0.933014,
+      "connected_components": 297
+    },
+    "8": {
+      "bbox_xyxy_exclusive": [
+        459,
+        256,
+        886,
+        939
+      ],
+      "margins_ltrb": [
+        459,
+        256,
+        368,
+        315
+      ],
+      "max_occupancy_fraction": 0.544657,
+      "connected_components": 133
+    },
+    "32": {
+      "bbox_xyxy_exclusive": [
+        461,
+        258,
+        885,
+        938
+      ],
+      "margins_ltrb": [
+        461,
+        258,
+        369,
+        316
+      ],
+      "max_occupancy_fraction": 0.542265,
+      "connected_components": 2
+    },
+    "64": {
+      "bbox_xyxy_exclusive": [
+        461,
+        258,
+        885,
+        938
+      ],
+      "margins_ltrb": [
+        461,
+        258,
+        369,
+        316
+      ],
+      "max_occupancy_fraction": 0.542265,
+      "connected_components": 1
+    },
+    "128": {
+      "bbox_xyxy_exclusive": [
+        461,
+        258,
+        885,
+        938
+      ],
+      "margins_ltrb": [
+        461,
+        258,
+        369,
+        316
+      ],
+      "max_occupancy_fraction": 0.542265,
+      "connected_components": 1
+    },
+    "250": {
+      "bbox_xyxy_exclusive": [
+        462,
+        259,
+        884,
+        937
+      ],
+      "margins_ltrb": [
+        462,
+        259,
+        370,
+        317
+      ],
+      "max_occupancy_fraction": 0.54067,
+      "connected_components": 350
+    }
+  },
+  "checks": {
+    "pose": "PARTIAL: strong folded-leg ascending pose. The shooting fingers sit at nose/mouth level and visually overlap the face instead of resting beside the lower cheek; target hand placement is not cleanly met.",
+    "identityAnatomy": "PASS: reads as adult human Briar with dark locs and red headband; two visible arms and two legs, no fox traits.",
+    "kit": "PASS: russet sleeveless jersey and shorts with cream details, cream socks, predominantly cream/red trainers, blank chest and bare wrists.",
+    "palette": "PARTIAL: deep brown overall but sampled highlights look brighter/oranger than the accepted reference; not confidently canon-matched.",
+    "transparency": "FAIL: alpha>=1 residue spans the left edge (x=0) and multiple disconnected low-alpha components remain; alpha>=8 has 133 components, alpha>=32 has 2, alpha>=64 has 1.",
+    "cellMargins": "FAIL: alpha>=64 bounds are [461,258,885,938], margins L/T/R/B [461,258,369,316] on 1254-square canvas; top clearance 20.6%, below requested25%; visible silhouette height 680px (54.2%) exceeds the 48% cap.",
+    "fullPose": "PASS: all head, hands, limbs, and shoes visible without crop."
+  },
+  "visualReview": "Reviewed raw PNG and light/dark preview. Do not clean, normalize, or pack; retry from a new generation."
+}
