@@ -1,0 +1,90 @@
+{
+  "pose": 9,
+  "attempt": 2,
+  "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/cleaned/pose-09-attempt2-main-alpha.png",
+  "sourceSha256": "1210db06cc9e2f3112cd12424aeee527243e65dcb57b37105ea5bd9847bac3c2",
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/sources/pose-09-attempt2-raw.png",
+  "rawSourceSha256": "43b0e4d8656ba15825a71fbe10070a19f40c8cf9a7e3471cb08b235ddb8f7d7f",
+  "sourceCanvasPx": [
+    1254,
+    1254
+  ],
+  "sourceAlphaGt16BboxLTRB": [
+    291,
+    95,
+    1030,
+    1187
+  ],
+  "sourceAlphaGt16MarginsLTRBpx": [
+    291,
+    95,
+    224,
+    67
+  ],
+  "sourceAlphaGt0BboxLTRB": [
+    291,
+    94,
+    1030,
+    1188
+  ],
+  "sourceAlphaGt0MarginsLTRBpx": [
+    291,
+    94,
+    224,
+    66
+  ],
+  "cropAlphaGt0BboxLTRB": [
+    291,
+    94,
+    1030,
+    1188
+  ],
+  "cropCanvasPx": [
+    739,
+    1094
+  ],
+  "cropAlphaGt16BboxLTRB": [
+    0,
+    1,
+    739,
+    1093
+  ],
+  "uniformScale": 0.0732600733,
+  "scaleCapContentPx": [
+    112,
+    80
+  ],
+  "scaledCropPx": [
+    54,
+    80
+  ],
+  "alignment": "center x by alpha>16 bbox; alpha>16 bbox bottom at y=87; same native-cell policy as pose10",
+  "cell": "128x96 RGBA",
+  "cellSha256": "c72ee51d6b0f8d56cc2a6fd6bc663c21fd17c5a4a90e2a45b5a19aab4e69d70e",
+  "cellAlphaGt16BboxLTRB": [
+    37,
+    7,
+    91,
+    87
+  ],
+  "cellAlphaGt16MarginsLTRBpx": [
+    37,
+    7,
+    37,
+    9
+  ],
+  "cellAlphaGt0MarginsLTRBpx": [
+    37,
+    7,
+    37,
+    9
+  ],
+  "edgeNontransparentPixels": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "lightProofSha256": "05f99aa628518098f77838e94459144a5a4a408520b852d0fc3e159f889974e6",
+  "darkProofSha256": "998224c5325bbd65ffcc5674ca8880e938bb128bc4271c87a16015bdd30a6788"
+}

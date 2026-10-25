@@ -1,5 +1,5 @@
 {
-  "status": "review-only; no production pack or registration",
+  "status": "blocked historical preview; contains rejected pose09 attempt1; no accepted ball track, production pack, or registration",
   "sourceClip": "Piper Quickstep J.124 alley-oop-reverse",
   "cellPx": [
     128,
@@ -243,5 +243,6 @@
   "atlas-review-only-light.png": "c25d85cb4d460f3ccc49d46ba60334519a55ddcddcbfba358cd2a738b6b719fe",
   "atlas-review-only-dark.png": "ffdb8e927f6d4f59afdbfee95cdfb0f0640ffcf2fe56ce131e865e97f9f0431b",
   "sequence-review-light-3x.png": "b745a64b914a9bb3332bdd2ee017f2d23e5ce3dda913d2c29d9ca5e06f9e1d52",
-  "sequence-review-dark-3x.png": "633266970aac2e969e3a8b8a3494477627e2bdc5ef5fa2c7a4f340ff49b8880c"
+  "sequence-review-dark-3x.png": "633266970aac2e969e3a8b8a3494477627e2bdc5ef5fa2c7a4f340ff49b8880c",
+  "blockedReason": "Pose09 attempt1 fist point is on forward screen-right while pose10 open release palm is behind the crown on reverse screen-left; approximate tracked hand-point jump was13 court units. Preserve atlas-review-only.png unchanged as candidate1; pose09 attempt2 remains provisional pending Canvas overlay."
 }

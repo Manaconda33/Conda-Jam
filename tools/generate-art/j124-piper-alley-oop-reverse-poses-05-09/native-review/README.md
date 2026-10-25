@@ -1,34 +1,34 @@
 # J.124 poses 05–09 native 128×96 review cells
 
-Review-only cells are rendered from cleaned-alpha source crops. Each crop is uniformly resampled in premultiplied-alpha space, capped at 80 px high and 112 px wide by its alpha>16 bounds, centered horizontally, and aligned with the alpha>16 bottom edge at y=87. Each output remains 128×96 RGBA. Source candidates and prompts are preserved; no runtime or production atlas was modified.
+Review-only cells are rendered from cleaned-alpha source crops. Each crop is uniformly resampled in premultiplied-alpha space, capped at 80px high and112px wide by alpha>16 bounds, centered horizontally, and aligned with the alpha>16 bottom edge at y=87. Pose09 attempt2 uses the same policy as pose10 for direct hand-point comparison. Every selected cell remains 128×96 RGBA; no source candidate, prompt, runtime or production atlas was overwritten.
 
-Per-pose JSON in `layouts/` records source and output SHA-256 hashes, crop and content bounds, scale, and alpha>16 margins. `contact-sheets/poses-05-09-native-{light,dark}.png` show the current sequence using pose08 attempt2. The previous contact sheets with attempt1 remain in `rejected-previews/`. A 4× nearest-neighbor light/dark zoom of the replacement grip is included.
+Per-pose JSON in `layouts/` records source and output SHA-256 hashes, crop and content bounds, scale and alpha>16 margins. Current sequence sheets use pose08 and pose09 attempt2. Earlier contact sheets are retained under `rejected-previews/`.
 
 ## Visual audit
 
-All selected cells render fully within the 128×96 canvas. Every edge row/column is fully transparent. Alpha>16 margins are:
+All selected cells render fully inside the 128×96 canvas. Every edge row and column has zero nontransparent pixels. Alpha>16 margins are:
 
 | Pose | Left | Top | Right | Bottom | Native-cell finding |
 |---|---:|---:|---:|---:|---|
 | 05 | 40 | 7 | 41 | 9 | Two-hand overhead catch reads clearly. |
 | 06 | 42 | 7 | 42 | 9 | Compact chest/shoulder gather reads distinctly. |
 | 07 | 35 | 7 | 35 | 9 | Crown-level hands and turned torso/leg silhouette distinguish it from pose05. |
-| 08 attempt1 | 34 | 7 | 35 | 9 | Rejected: gripping hand merges with ponytail tie; see `../rejections/pose-08-attempt1-review.md`. |
-| 08 attempt2 | 26 | 7 | 27 | 9 | Provisional pass: closed grip is visible above/behind the crown and separated from hair and face. Bent forearm route and counterbalancing hand read. |
-| 09 | 36 | 7 | 35 | 9 | Diagonal extension and closed fist read; compare against pose10's open palm in the full atlas. |
+| 08 attempt1 | 34 | 7 | 35 | 9 | Rejected: gripping hand merges with ponytail tie. |
+| 08 attempt2 | 26 | 7 | 27 | 9 | Provisional pass: grip visible above/behind crown, distinct from hair and face; free arm counterbalances. |
+| 09 attempt1 | 36 | 7 | 35 | 9 | Rejected: screen-right fist misses pose10's reverse-side release point. |
+| 09 attempt2 | 37 | 7 | 37 | 9 | Provisional pass: closed fist on screen-left/back side near crown, aligned with pose10's open palm. |
 
-Attempt2 native-cell file SHA-256: `1288fe7d8203e3b891af249adff9464d20d11b8d7095a29e237196509517f49e`.
+Attempt2 cell hashes: pose08 `1288fe7d8203e3b891af249adff9464d20d11b8d7095a29e237196509517f49e`; pose09 `c72ee51d6b0f8d56cc2a6fd6bc663c21fd17c5a4a90e2a45b5a19aab4e69d70e`.
 
-Current contact sheets:
+Current selected native contact sheets:
 
-- `contact-sheets/poses-05-09-native-light.png` — SHA-256 `63ac5df4e8a09f7bd353be5df542c304b998f2d42e31a9976aa51b3863138504`
-- `contact-sheets/poses-05-09-native-dark.png` — SHA-256 `ae383f2513221909fdbdf92bfaf0b987f10c7eaff84a151e9c704d5a8a5b62af`
+- `contact-sheets/poses-05-09-native-light.png` — SHA-256 `e221a8af34f5d1a9cbf3471416f201c4d1bcc0efbf1447c570b8c812db2987d3`
+- `contact-sheets/poses-05-09-native-dark.png` — SHA-256 `9c226d8f5bd4067fef28240e4cd99b3db72735539292b24d66a8d518a614a08e`
 
-The old sheets, which still show attempt1, are retained with checksums under `rejected-previews/`.
+Native pose09-to-pose10 hand-point comparisons:
 
-Pose08 attempt2 4× nearest-neighbor proofs:
+- `contact-sheets/pose-09-10-hand-points-light.png` — SHA-256 `642e6c9546d2167ee03b6f006ed52bc3f0b6825c5954483a6c6891862690ee3d`
+- `contact-sheets/pose-09-10-hand-points-dark.png` — SHA-256 `e1afd633659d67b9998291b2cb21816f0bb498bc0724a1f641715cc343605307`
+- 4× nearest versions are saved alongside, with hashes in `layouts/pose-09-10-hand-alignment.json`.
 
-- `contact-sheets/pose-08-attempt2-native-4x-light.png` — SHA-256 `98a488f6d49012428d1ee63dcad90aa41b92f0f8dcc90a9a6b0899a3128f3eee`
-- `contact-sheets/pose-08-attempt2-native-4x-dark.png` — SHA-256 `337e68b40e67b86e9313a620e37fb7aae452bac84368b1347e145ad20e7d5a0d`
-
-The attempt2 grip passes native-cell review provisionally. Independent full-lane review and complete-sequence review remain pending. These remain review cells, not production atlas frames.
+Visual hand-center estimate: pose09 closed fist (41,14), pose10 open palm (42,15), delta about1.4 cell pixels. The visible sequence changes from closed fist to open palm at the same reverse-side point. This supports, but does not establish, track continuity. A first-pass H/F track hypothesis is documented in the lane README; parent Canvas overlay review must verify it before acceptance.

@@ -1,0 +1,79 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 9,
+  "attempt": 2,
+  "beat": "Reverse-side closed-fist pre-release, with the fist centered near pose10 release palm behind/beside the crown.",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-82170df7-233f-4845-8464-9e02744102f4",
+  "generationDate": "2026-10-25",
+  "generationTimeUtc": "2026-10-25T17:57Z (within tool call interval)",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-09-attempt2.md",
+  "promptSha256": "168fe425e53555114da17d5865991b3babd33f42379a95a25d39a4309fc81a54",
+  "references": [
+    {
+      "file": "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-lane-scale-release-b.png",
+      "purpose": "pixel-art style only; do not copy poses",
+      "sha256": "de59198ff7fcd4e6ef146afe8e98b6f85aa0762f78606dc44aedf2c93013862f"
+    },
+    {
+      "file": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-10-attempt3-fit80.png",
+      "purpose": "pose10 hand position and right-facing body orientation only; preserve the closed fist",
+      "sha256": "3de85b21de121738ec59ba2094b8ea39de80f56082bf5d42a988ac9a7e90c3a7"
+    }
+  ],
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/sources/pose-09-attempt2-raw.png",
+  "rawSourceSha256": "43b0e4d8656ba15825a71fbe10070a19f40c8cf9a7e3471cb08b235ddb8f7d7f",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16MarginsLTRBpx": [
+    291,
+    95,
+    224,
+    67
+  ],
+  "rawDirectPlacement": "Misses 80px bottom alpha>16 margin; retained unchanged and uniformly fit for review.",
+  "cleanup": {
+    "file": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/provenance/pose-09-attempt2-cleanup.json",
+    "method": "Largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+    "cleanedSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/cleaned/pose-09-attempt2-main-alpha.png",
+    "cleanedSha256": "1210db06cc9e2f3112cd12424aeee527243e65dcb57b37105ea5bd9847bac3c2"
+  },
+  "fitCandidate": {
+    "file": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/layout-candidates/pose-09-attempt2-fit80.png",
+    "sha256": "674680b9ad838e1f39e2244880593470cdc33196dfe64ac307d69b6351fc659e",
+    "alpha16MarginsLTRBpx": [
+      257,
+      81,
+      258,
+      81
+    ],
+    "layout": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/layout-candidates/pose-09-attempt2-fit80.json"
+  },
+  "nativeCell": {
+    "file": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-09-attempt2-native-128x96.png",
+    "sha256": "c72ee51d6b0f8d56cc2a6fd6bc663c21fd17c5a4a90e2a45b5a19aab4e69d70e",
+    "layout": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/layouts/pose-09-attempt2-native-128x96.json",
+    "alpha16MarginsLTRBpx": [
+      37,
+      7,
+      37,
+      9
+    ],
+    "edgeNontransparentPixels": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "proofLight": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/contact-sheets/pose-09-attempt2-native-light.png",
+    "proofLightSha256": "05f99aa628518098f77838e94459144a5a4a408520b852d0fc3e159f889974e6",
+    "proofDark": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/contact-sheets/pose-09-attempt2-native-dark.png",
+    "proofDarkSha256": "998224c5325bbd65ffcc5674ca8880e938bb128bc4271c87a16015bdd30a6788"
+  },
+  "attempt1Disposition": "Rejected: forward screen-right fist differs from pose10 screen-left reverse-side open palm; tracked hand-point delta was about 13 court units. See rejections/pose-09-attempt1-review.md.",
+  "disposition": "provisionally selected source candidate; parent full-sequence and ball-track review pending."
+}

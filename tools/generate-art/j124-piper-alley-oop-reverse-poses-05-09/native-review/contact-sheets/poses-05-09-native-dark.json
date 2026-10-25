@@ -8,12 +8,13 @@
     9
   ],
   "pose08": "attempt2",
+  "pose09": "attempt2",
   "theme": "dark",
   "canvasPx": [
     640,
     96
   ],
-  "method": "Contact sheet of individually fitted 128x96 RGBA native review cells, with pose08 attempt2 replacing rejected attempt1; opaque background for transparency review.",
+  "method": "Contact sheet of native 128x96 RGBA review cells; pose08/09 attempt2 selected provisionally; labels, opaque transparency-review background.",
   "inputs": [
     {
       "pose": 5,
@@ -37,9 +38,9 @@
     },
     {
       "pose": 9,
-      "file": "native-review/cells/pose-09-native-128x96.png",
-      "sha256": "9175aea3e7f130aec88f08185b76ba8d3309b06c1358d1a28621999c317f1c6b"
+      "file": "native-review/cells/pose-09-attempt2-native-128x96.png",
+      "sha256": "c72ee51d6b0f8d56cc2a6fd6bc663c21fd17c5a4a90e2a45b5a19aab4e69d70e"
     }
   ],
-  "outputSha256": "ae383f2513221909fdbdf92bfaf0b987f10c7eaff84a151e9c704d5a8a5b62af"
+  "outputSha256": "9c226d8f5bd4067fef28240e4cd99b3db72735539292b24d66a8d518a614a08e"
 }

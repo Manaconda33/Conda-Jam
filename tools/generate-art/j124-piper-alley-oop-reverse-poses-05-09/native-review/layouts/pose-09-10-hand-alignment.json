@@ -1,0 +1,37 @@
+{
+  "pose09Attempt2Cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-09-attempt2-native-128x96.png",
+  "pose09CellSha256": "c72ee51d6b0f8d56cc2a6fd6bc663c21fd17c5a4a90e2a45b5a19aab4e69d70e",
+  "pose10Cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-10-128x96.png",
+  "pose10CellSha256": "fc74c17aa017603a1b053df8b8885e3d1939970de8fe7145f54ce8bfa4ef6bc4",
+  "fitPolicy": "Both cells use 80px alpha>16 figure height, centered x, baseline y=87.",
+  "visualEstimate": {
+    "pose09ClosedFistCenterCellPx": [
+      41,
+      14
+    ],
+    "pose10OpenPalmCenterCellPx": [
+      42,
+      15
+    ],
+    "deltaCellPx": 1.41,
+    "finding": "At native scale, hand centers visually align within about 1.5 cell pixels; fist is closed and screen-left/reverse-side, open palm is same position in pose10."
+  },
+  "proofs": {
+    "light_native": {
+      "file": "native-review/contact-sheets/pose-09-10-hand-points-light.png",
+      "sha256": "642e6c9546d2167ee03b6f006ed52bc3f0b6825c5954483a6c6891862690ee3d"
+    },
+    "light_4x": {
+      "file": "native-review/contact-sheets/pose-09-10-hand-points-light-4x.png",
+      "sha256": "625415e9fbb7e388957ced888b843387dc259041722065557cdee0066e550b71"
+    },
+    "dark_native": {
+      "file": "native-review/contact-sheets/pose-09-10-hand-points-dark.png",
+      "sha256": "e1afd633659d67b9998291b2cb21816f0bb498bc0724a1f641715cc343605307"
+    },
+    "dark_4x": {
+      "file": "native-review/contact-sheets/pose-09-10-hand-points-dark-4x.png",
+      "sha256": "cf1f08c288fc1ba3cb5c1ea7adc56b9c9e841ec5016319e98b58df0c3ff06ee7"
+    }
+  }
+}
