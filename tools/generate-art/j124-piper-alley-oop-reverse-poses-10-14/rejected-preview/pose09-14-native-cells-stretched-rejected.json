@@ -1,0 +1,104 @@
+{
+  "status": "rejected-incorrect-preview",
+  "reason": "The earlier montage resized each alpha crop to the full 128x96 cell height. Every candidate touches y=0 and/or y=95; do not use to review or pack. Recreated deterministically from unchanged fit80 sources after original preview was accidentally overwritten before its preservation request.",
+  "method": "Crop fit80 candidate alpha16 bounds and thumbnail to 128x96 without the required 80px-high cap or baseline y87.",
+  "cells": [
+    {
+      "pose": 9,
+      "alpha16BBoxLTRB": [
+        29,
+        0,
+        98,
+        96
+      ],
+      "alpha16MarginsLTRBpx": [
+        29,
+        0,
+        30,
+        0
+      ],
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/layout-candidates/pose-09-fit80.png"
+    },
+    {
+      "pose": 10,
+      "alpha16BBoxLTRB": [
+        28,
+        0,
+        99,
+        96
+      ],
+      "alpha16MarginsLTRBpx": [
+        28,
+        0,
+        29,
+        0
+      ],
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-10-attempt3-fit80.png"
+    },
+    {
+      "pose": 11,
+      "alpha16BBoxLTRB": [
+        28,
+        0,
+        99,
+        96
+      ],
+      "alpha16MarginsLTRBpx": [
+        28,
+        0,
+        29,
+        0
+      ],
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-11-attempt1-fit80.png"
+    },
+    {
+      "pose": 12,
+      "alpha16BBoxLTRB": [
+        19,
+        0,
+        109,
+        96
+      ],
+      "alpha16MarginsLTRBpx": [
+        19,
+        0,
+        19,
+        0
+      ],
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-12-attempt1-fit80.png"
+    },
+    {
+      "pose": 13,
+      "alpha16BBoxLTRB": [
+        33,
+        0,
+        94,
+        96
+      ],
+      "alpha16MarginsLTRBpx": [
+        33,
+        0,
+        34,
+        0
+      ],
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-13-attempt2-fit80.png"
+    },
+    {
+      "pose": 14,
+      "alpha16BBoxLTRB": [
+        29,
+        0,
+        99,
+        96
+      ],
+      "alpha16MarginsLTRBpx": [
+        29,
+        0,
+        29,
+        0
+      ],
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-14-attempt1-fit80.png"
+    }
+  ],
+  "transparentStripSha256": "7797bc54c3f433aa76089dfd61f8fcbb56195c8fa75e48249d8377d78e0d49c2"
+}

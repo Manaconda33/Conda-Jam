@@ -1,0 +1,24 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 13,
+  "attempt": 1,
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-5e3681b5-173c-46df-be4a-c32162565904",
+  "generationDate": "2026-10-25",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-13-attempt1-actual-request.md",
+  "promptSha256": "a96d52809545a5a8857e8a8d4872f906f90fca98cdd6459be13aa91c7775305c",
+  "identityAndStyleReferencesAttached": [
+    "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-10-attempt3-fit80.png",
+    "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-bbox-height-release-b.webp"
+  ],
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/sources/pose-13-attempt1-raw.png",
+  "rawSourceSha256": "a378e395de93cdc4bb03b7d33ab7665e59877b2c9fa8af7ea91e37bfd0c69719",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "disposition": "rejected; generated both arms overhead and reads as another upward airborne pose, not foot-first landing preparation.",
+  "rejectionReason": "The generated image raises both arms overhead and reads as another airborne reach, rather than a lowered-arm foot-first landing preparation."
+}

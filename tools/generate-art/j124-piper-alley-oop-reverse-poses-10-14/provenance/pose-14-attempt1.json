@@ -1,0 +1,42 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 14,
+  "attempt": 1,
+  "beat": "Grounded balanced recovery",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-5362080b-8194-48f6-ae9f-899f598693f9",
+  "generationDate": "2026-10-25",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-14-attempt1-actual-request.md",
+  "promptSha256": "79864fee6aa31485db908cc3b9bf67b42a7b75333da8d3e046038502018e6549",
+  "identityAndStyleReferencesAttached": [
+    "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-10-attempt3-fit80.png",
+    "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-bbox-height-release-b.webp"
+  ],
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/sources/pose-14-attempt1-raw.png",
+  "rawSourceSha256": "75d42c8aa66f3b46a7165289167153abbb7cdc70aa73de64d5242f373276d2f6",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16ComponentCount": 19,
+  "rawAlpha16MarginsLTRBpx": [
+    317,
+    168,
+    238,
+    127
+  ],
+  "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+  "cleanedSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-14-attempt1-main-alpha.png",
+  "cleanedSha256": "0c1a8f65dae4e71e28dab333a708a84735afdab12f3691cb20b6b93a1bbea841",
+  "cleanedAlpha16MarginsLTRBpx": [
+    317,
+    168,
+    238,
+    127
+  ],
+  "disposition": "candidate pending source and full-sequence review",
+  "visualReview": "Balanced grounded stance with both feet down; differs from airborne descent.",
+  "ball": "No basketball or props present in character source."
+}

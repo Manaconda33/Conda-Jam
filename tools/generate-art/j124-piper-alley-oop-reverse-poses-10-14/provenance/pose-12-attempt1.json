@@ -1,0 +1,42 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 12,
+  "attempt": 1,
+  "beat": "Airborne descent rotation with arms balancing lower and wide",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-ff25649e-4511-45a0-ab49-a7d31fbff0dd",
+  "generationDate": "2026-10-25",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-12-attempt1-actual-request.md",
+  "promptSha256": "7c92631f0d9bd9a8e38f00f5b0af894890028e3cd53548a39b9a02cb5bc65125",
+  "identityAndStyleReferencesAttached": [
+    "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-10-attempt3-fit80.png",
+    "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-bbox-height-release-b.webp"
+  ],
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/sources/pose-12-attempt1-raw.png",
+  "rawSourceSha256": "da635707732d7655ed53a0af53b9a1cc350a1866f5b7a8e536419804e4326237",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16ComponentCount": 33,
+  "rawAlpha16MarginsLTRBpx": [
+    188,
+    106,
+    83,
+    104
+  ],
+  "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+  "cleanedSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-12-attempt1-main-alpha.png",
+  "cleanedSha256": "ab27f6cd01f6bbc70ff10be659fb3d6f2e5fbe30ba791a425c5b9b7af2dfd293",
+  "cleanedAlpha16MarginsLTRBpx": [
+    188,
+    106,
+    83,
+    104
+  ],
+  "disposition": "candidate pending source and full-sequence review",
+  "visualReview": "Complete adult anatomy; lower open arm silhouette reads as descent, review overlap against pose11.",
+  "ball": "No basketball or props present in character source."
+}

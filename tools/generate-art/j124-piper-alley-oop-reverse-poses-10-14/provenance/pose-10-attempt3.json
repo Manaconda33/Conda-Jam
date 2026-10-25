@@ -1,0 +1,47 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 10,
+  "attempt": 3,
+  "beat": "Reverse under-rim open-palm release / immediate follow through",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-58970b75-225c-49bd-9d98-4bede4b00ae8",
+  "generationDate": "2026-10-25",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-10-attempt3.md",
+  "promptSha256": "8c2203817798475d1c16c155da7a5fee1db40353e8d4470c94a7c6daff87d672",
+  "identityAndStyleReferencesAttached": [
+    "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/layout-candidates/pose-09-fit80.png",
+    "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-bbox-height-release-b.webp"
+  ],
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/sources/pose-10-attempt3-raw.png",
+  "rawSourceSha256": "110627725799913d7cd56261d659f0d3e280462ad1e38ffaa2618424a60fcb4c",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16MarginsLTRBpx": [
+    292,
+    148,
+    232,
+    113
+  ],
+  "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+  "cleanedSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-10-attempt3-main-alpha.png",
+  "cleanedSha256": "617984f65d4a38aa135a2a8e2c6049f11c4c8d4f25e1269bf8d7ac510196798e",
+  "cleanedAlpha16MarginsLTRBpx": [
+    292,
+    148,
+    232,
+    113
+  ],
+  "disposition": "provisional-source-candidate-pending-full-00-14-and-ball-track-review",
+  "reviewNotes": "Cleaned alpha and light/dark composites show no residual red fringe. The parent compared pose10 attempt3 against pose09 and J.123 at native size, found the open lateral palm distinct from pose09\u2019s closed fist, and judged the pixel-cluster style suitable for provisional full-sequence review. Corrected pose09\u201314 cell review remains pending.",
+  "reviewHistory": [
+    {
+      "date": "2026-10-25",
+      "note": "Silhouette differentiates the hand laterally from pose09 fist; source retains obvious smooth tonal shading and red fringe against dark proof; style match remains questionable.",
+      "status": "pre-cleanup concern; superseded by review of cleaned alpha and light/dark proof"
+    }
+  ]
+}

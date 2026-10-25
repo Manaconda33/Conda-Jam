@@ -1,0 +1,48 @@
+{
+  "pose": 9,
+  "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/cleaned/pose-09-attempt1-main-alpha.png",
+  "sourceSha256": "3bf2df0a774b803de2d2003076d13e99f5c86d93ff90e3cf2ecce424489ac238",
+  "sourceAlpha16BBoxLTRB": [
+    277,
+    77,
+    1039,
+    1140
+  ],
+  "sourceCropPx": [
+    762,
+    1063
+  ],
+  "maxFigurePx": [
+    112,
+    80
+  ],
+  "scale": 0.0752587018,
+  "resizedFigurePx": [
+    57,
+    80
+  ],
+  "placementXY": [
+    35,
+    7
+  ],
+  "baselineY": 87,
+  "cellPx": [
+    128,
+    96
+  ],
+  "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-9-128x96.png",
+  "cellSha256": "dffe0577a7af43d89014adeb39fb0961bc560da6789a2408a89c9b3d4d637d06",
+  "cellAlpha16BBoxLTRB": [
+    35,
+    7,
+    92,
+    87
+  ],
+  "cellAlpha16MarginsLTRBpx": [
+    35,
+    7,
+    36,
+    9
+  ],
+  "method": "Crop source alpha16 bounds; uniformly premultiplied-alpha Lanczos fit into max112x80; center horizontally and set figure bottom to y=87; no redraw."
+}

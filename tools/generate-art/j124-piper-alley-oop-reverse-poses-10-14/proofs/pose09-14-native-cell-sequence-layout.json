@@ -1,0 +1,330 @@
+{
+  "poses": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "ordering": "left-to-right",
+  "cellPx": [
+    128,
+    96
+  ],
+  "sheetPx": [
+    768,
+    96
+  ],
+  "cells": [
+    {
+      "pose": 9,
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/cleaned/pose-09-attempt1-main-alpha.png",
+      "sourceSha256": "3bf2df0a774b803de2d2003076d13e99f5c86d93ff90e3cf2ecce424489ac238",
+      "sourceAlpha16BBoxLTRB": [
+        277,
+        77,
+        1039,
+        1140
+      ],
+      "sourceCropPx": [
+        762,
+        1063
+      ],
+      "maxFigurePx": [
+        112,
+        80
+      ],
+      "scale": 0.0752587018,
+      "resizedFigurePx": [
+        57,
+        80
+      ],
+      "placementXY": [
+        35,
+        7
+      ],
+      "baselineY": 87,
+      "cellPx": [
+        128,
+        96
+      ],
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-9-128x96.png",
+      "cellSha256": "dffe0577a7af43d89014adeb39fb0961bc560da6789a2408a89c9b3d4d637d06",
+      "cellAlpha16BBoxLTRB": [
+        35,
+        7,
+        92,
+        87
+      ],
+      "cellAlpha16MarginsLTRBpx": [
+        35,
+        7,
+        36,
+        9
+      ],
+      "method": "Crop source alpha16 bounds; uniformly premultiplied-alpha Lanczos fit into max112x80; center horizontally and set figure bottom to y=87; no redraw."
+    },
+    {
+      "pose": 10,
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-10-attempt3-main-alpha.png",
+      "sourceSha256": "617984f65d4a38aa135a2a8e2c6049f11c4c8d4f25e1269bf8d7ac510196798e",
+      "sourceAlpha16BBoxLTRB": [
+        292,
+        148,
+        1022,
+        1141
+      ],
+      "sourceCropPx": [
+        730,
+        993
+      ],
+      "maxFigurePx": [
+        112,
+        80
+      ],
+      "scale": 0.0805639476,
+      "resizedFigurePx": [
+        59,
+        80
+      ],
+      "placementXY": [
+        34,
+        7
+      ],
+      "baselineY": 87,
+      "cellPx": [
+        128,
+        96
+      ],
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-10-128x96.png",
+      "cellSha256": "fc74c17aa017603a1b053df8b8885e3d1939970de8fe7145f54ce8bfa4ef6bc4",
+      "cellAlpha16BBoxLTRB": [
+        34,
+        7,
+        93,
+        87
+      ],
+      "cellAlpha16MarginsLTRBpx": [
+        34,
+        7,
+        35,
+        9
+      ],
+      "method": "Crop source alpha16 bounds; uniformly premultiplied-alpha Lanczos fit into max112x80; center horizontally and set figure bottom to y=87; no redraw."
+    },
+    {
+      "pose": 11,
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-11-attempt1-main-alpha.png",
+      "sourceSha256": "7fd423dbcc4ec627239809f7cc3e8244cbb4905e47693dc5d7f5439f68d54a32",
+      "sourceAlpha16BBoxLTRB": [
+        291,
+        116,
+        1052,
+        1144
+      ],
+      "sourceCropPx": [
+        761,
+        1028
+      ],
+      "maxFigurePx": [
+        112,
+        80
+      ],
+      "scale": 0.0778210117,
+      "resizedFigurePx": [
+        59,
+        80
+      ],
+      "placementXY": [
+        34,
+        7
+      ],
+      "baselineY": 87,
+      "cellPx": [
+        128,
+        96
+      ],
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-11-128x96.png",
+      "cellSha256": "eda2c6483a58be650db2de1e23532bdc78a494d21535b03dcd02ba354401adf9",
+      "cellAlpha16BBoxLTRB": [
+        34,
+        7,
+        93,
+        87
+      ],
+      "cellAlpha16MarginsLTRBpx": [
+        34,
+        7,
+        35,
+        9
+      ],
+      "method": "Crop source alpha16 bounds; uniformly premultiplied-alpha Lanczos fit into max112x80; center horizontally and set figure bottom to y=87; no redraw."
+    },
+    {
+      "pose": 12,
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-12-attempt1-main-alpha.png",
+      "sourceSha256": "ab27f6cd01f6bbc70ff10be659fb3d6f2e5fbe30ba791a425c5b9b7af2dfd293",
+      "sourceAlpha16BBoxLTRB": [
+        188,
+        106,
+        1171,
+        1150
+      ],
+      "sourceCropPx": [
+        983,
+        1044
+      ],
+      "maxFigurePx": [
+        112,
+        80
+      ],
+      "scale": 0.0766283525,
+      "resizedFigurePx": [
+        75,
+        80
+      ],
+      "placementXY": [
+        26,
+        7
+      ],
+      "baselineY": 87,
+      "cellPx": [
+        128,
+        96
+      ],
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-12-128x96.png",
+      "cellSha256": "b0a016e464998ff0e461823347a36c9eb159c053e78e149f87f141a7e10b1efa",
+      "cellAlpha16BBoxLTRB": [
+        26,
+        7,
+        101,
+        87
+      ],
+      "cellAlpha16MarginsLTRBpx": [
+        26,
+        7,
+        27,
+        9
+      ],
+      "method": "Crop source alpha16 bounds; uniformly premultiplied-alpha Lanczos fit into max112x80; center horizontally and set figure bottom to y=87; no redraw."
+    },
+    {
+      "pose": 13,
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-13-attempt2-main-alpha.png",
+      "sourceSha256": "e9fcc2c32782bdf8be69ff1f7ecac141ac69436a964c8c56536e139dbb2fa852",
+      "sourceAlpha16BBoxLTRB": [
+        319,
+        113,
+        984,
+        1163
+      ],
+      "sourceCropPx": [
+        665,
+        1050
+      ],
+      "maxFigurePx": [
+        112,
+        80
+      ],
+      "scale": 0.0761904762,
+      "resizedFigurePx": [
+        51,
+        80
+      ],
+      "placementXY": [
+        38,
+        7
+      ],
+      "baselineY": 87,
+      "cellPx": [
+        128,
+        96
+      ],
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-13-128x96.png",
+      "cellSha256": "98d972d2da0d559c8ad893b2e075520d395cbd5ff99b1937aa53cb71b32286cc",
+      "cellAlpha16BBoxLTRB": [
+        38,
+        7,
+        89,
+        87
+      ],
+      "cellAlpha16MarginsLTRBpx": [
+        38,
+        7,
+        39,
+        9
+      ],
+      "method": "Crop source alpha16 bounds; uniformly premultiplied-alpha Lanczos fit into max112x80; center horizontally and set figure bottom to y=87; no redraw."
+    },
+    {
+      "pose": 14,
+      "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-14-attempt1-main-alpha.png",
+      "sourceSha256": "0c1a8f65dae4e71e28dab333a708a84735afdab12f3691cb20b6b93a1bbea841",
+      "sourceAlpha16BBoxLTRB": [
+        317,
+        168,
+        1016,
+        1127
+      ],
+      "sourceCropPx": [
+        699,
+        959
+      ],
+      "maxFigurePx": [
+        112,
+        80
+      ],
+      "scale": 0.0834202294,
+      "resizedFigurePx": [
+        58,
+        80
+      ],
+      "placementXY": [
+        35,
+        7
+      ],
+      "baselineY": 87,
+      "cellPx": [
+        128,
+        96
+      ],
+      "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/native-cells/pose-14-128x96.png",
+      "cellSha256": "cab84ad54b935ef79e603b29d918c0053a93024ad632dc9033943d14835251d9",
+      "cellAlpha16BBoxLTRB": [
+        35,
+        7,
+        93,
+        87
+      ],
+      "cellAlpha16MarginsLTRBpx": [
+        35,
+        7,
+        35,
+        9
+      ],
+      "method": "Crop source alpha16 bounds; uniformly premultiplied-alpha Lanczos fit into max112x80; center horizontally and set figure bottom to y=87; no redraw."
+    }
+  ],
+  "transparentStrip": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/proofs/pose09-14-native-cell-sequence-cropfit-corrected-transparent.png",
+  "transparentStripSha256": "0e733ce1e42f25e4da9212a10a179a7264d29b52a45e67ddda850eb64f71d81e",
+  "correctedContactSheets": [
+    "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/proofs/pose09-14-native-cell-sequence-cropfit-corrected-light.png",
+    "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/proofs/pose09-14-native-cell-sequence-cropfit-corrected-dark.png"
+  ],
+  "correctedContactSheetSha256": {
+    "light": "811f18a6bd55cc3b4f1318411c86ea158a4633aa6d53cdc44c4f818879e3658c",
+    "dark": "fb163186e918ab7bec44851a383265424fd450c019a3e09bee0913221c723d4e",
+    "light3x": "20cc6c2b7609e22d3033f0bcc3525fb229298f44e6f583eeab35b5ea30c1c6c9",
+    "dark3x": "561ff947185d38f1692614e45f72b480a13c55777ec8b4bfd6ebf901ec50c6a7"
+  },
+  "independentReview": {
+    "status": "pass",
+    "reviewer": "independent J.124 release lane reviewer",
+    "reviewedFiles": [
+      "proofs/pose09-14-native-cell-sequence-cropfit-corrected-light.png",
+      "proofs/pose09-14-native-cell-sequence-cropfit-corrected-dark.png"
+    ],
+    "findings": "Corrected 09\u201314 cells have no y=0/95 clipping; per-cell margin/layout evidence and pose sequence pass."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 13,
+  "attempt": "2-output-rejected",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-4e515ac4-8930-4c42-8e6e-2a251718540f",
+  "generationDate": "2026-10-25",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-13-attempt2-actual-request.md",
+  "promptSha256": "a96d52809545a5a8857e8a8d4872f906f90fca98cdd6459be13aa91c7775305c",
+  "identityAndStyleReferencesAttached": [
+    "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-10-attempt3-fit80.png",
+    "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-bbox-height-release-b.webp"
+  ],
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/sources/pose-13-attempt2-raised-arms-rejected-raw.png",
+  "rawSourceSha256": "5e8c059dcb5af5fd30dfd2775e32f4524c2e802e932ded93fd0b2d17c1353504",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "disposition": "rejected, preserved. The generated variant still raises both arms and does not show the requested foot-first landing preparation."
+}

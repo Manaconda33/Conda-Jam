@@ -1,0 +1,31 @@
+{
+  "pose": 10,
+  "attempt": 1,
+  "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-10-attempt1-main-alpha.png",
+  "sourceSha256": "f5c3c85c5e82dadbe7bb5f223ecb3ac7d247e4751a276351961c923d99a9cfc8",
+  "fitMethod": "Uniform premultiplied-alpha Lanczos downscale and center placement; no redraw or pose alteration.",
+  "sourceAlpha16CropLTRB": [
+    248,
+    176,
+    1012,
+    1095
+  ],
+  "scale": 1.1882481,
+  "figurePx": [
+    908,
+    1092
+  ],
+  "placementXY": [
+    173,
+    81
+  ],
+  "requiredMarginPx": 80,
+  "candidate": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-10-attempt1-fit80.png",
+  "candidateSha256": "1d56efae35fba57f7119685e771d27e54422f69f40bbc4ea7be2c03a97e236f4",
+  "candidateAlpha16MarginsLTRBpx": [
+    173,
+    81,
+    174,
+    81
+  ]
+}

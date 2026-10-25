@@ -1,0 +1,42 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 11,
+  "attempt": 1,
+  "beat": "Reverse release follow-through; controlled descent begins",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-1843a825-a93d-4a7e-8352-d7879b050f3b",
+  "generationDate": "2026-10-25",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-11-attempt1-actual-request.md",
+  "promptSha256": "ca04c38cc04c67dd91e8f55b0624193747769650b9e8923a1ddbff22bff0c45f",
+  "identityAndStyleReferencesAttached": [
+    "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/layout-candidates/pose-10-attempt3-fit80.png",
+    "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-bbox-height-release-b.webp"
+  ],
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/sources/pose-11-attempt1-raw.png",
+  "rawSourceSha256": "47b1fd49b375ad5389d49bceed5676a47c5af805975281f820a58b1136c28fc1",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16ComponentCount": 15,
+  "rawAlpha16MarginsLTRBpx": [
+    291,
+    116,
+    202,
+    110
+  ],
+  "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+  "cleanedSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-11-attempt1-main-alpha.png",
+  "cleanedSha256": "7fd423dbcc4ec627239809f7cc3e8244cbb4905e47693dc5d7f5439f68d54a32",
+  "cleanedAlpha16MarginsLTRBpx": [
+    291,
+    116,
+    202,
+    110
+  ],
+  "disposition": "candidate pending source and full-sequence review",
+  "visualReview": "Complete adult anatomy and consistent Piper identity; descent/readability require native sequence review.",
+  "ball": "No basketball or props present in character source."
+}

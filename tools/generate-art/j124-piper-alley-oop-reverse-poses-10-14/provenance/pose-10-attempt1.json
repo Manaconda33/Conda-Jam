@@ -1,0 +1,41 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 10,
+  "attempt": 1,
+  "beat": "Reverse under-rim open-palm release / immediate follow through",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-1cc5c783-a77b-4ac3-91f0-6a7c5103962c",
+  "generationDate": "2026-10-25",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-10-attempt1.md",
+  "promptSha256": "20f628cbeaad3ac30868e798c6281f1dbd41b041e860df439353561b1204bd3b",
+  "identityAndStyleReferencesAttached": [
+    "public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+    "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-lane-scale.webp"
+  ],
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/sources/pose-10-attempt1-raw.png",
+  "rawSourceSha256": "cfe5f70b4852c457159e171fd477c7f0251b00f731f93beb6bff4ef262ca51a7",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16MarginsLTRBpx": [
+    248,
+    176,
+    242,
+    159
+  ],
+  "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+  "cleanedSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-10-attempt1-main-alpha.png",
+  "cleanedSha256": "f5c3c85c5e82dadbe7bb5f223ecb3ac7d247e4751a276351961c923d99a9cfc8",
+  "cleanedAlpha16MarginsLTRBpx": [
+    248,
+    176,
+    242,
+    159
+  ],
+  "disposition": "rejected-superseded",
+  "reviewNotes": "Attempt1 pre-sequence candidate; rear arm is long and nearly straight/up-diagonal. Superseded by a more bent lateral-arm pose.",
+  "rejectionReason": "Superseded: the rear arm is too straight and up-diagonal; the reverse release is not sufficiently distinct from a conventional raised-hand release."
+}

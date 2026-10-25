@@ -1,0 +1,41 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 10,
+  "attempt": 2,
+  "beat": "Reverse under-rim open-palm release / immediate follow through",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-446cdd43-c32e-42e4-87dc-e8db9174bab3",
+  "generationDate": "2026-10-25",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/prompts/pose-10-attempt2.md",
+  "promptSha256": "a99441ff4eddfd1a8a6f35516dd13bc62ecdaa7e3eab5085ab695e65b7faf30c",
+  "identityAndStyleReferencesAttached": [
+    "public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+    "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/layout-candidates/pose-09-fit80.png"
+  ],
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/sources/pose-10-attempt2-raw.png",
+  "rawSourceSha256": "3d53f194f4e7068b1a178f8e73a828f60f2bab5aa82840ba93265f5557608c74",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16MarginsLTRBpx": [
+    292,
+    169,
+    210,
+    129
+  ],
+  "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+  "cleanedSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-10-14/cleaned/pose-10-attempt2-main-alpha.png",
+  "cleanedSha256": "0aba7c560fa459aef9301969e16202b807250983e50a9d3993e038b88fa29e5f",
+  "cleanedAlpha16MarginsLTRBpx": [
+    292,
+    169,
+    210,
+    129
+  ],
+  "disposition": "rejected-superseded",
+  "reviewNotes": "Silhouette differentiates the hand laterally from pose09 fist; source retains obvious smooth tonal shading and red fringe against dark proof; style match remains questionable.",
+  "rejectionReason": "Superseded: the bent open-hand shape is present, but the reverse under-rim silhouette is less clear and the image was superseded while resolving consistency with the J.123 sprite style."
+}
