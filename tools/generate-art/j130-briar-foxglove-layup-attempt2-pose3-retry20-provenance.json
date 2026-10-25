@@ -1,0 +1,136 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "frame": 3,
+  "tick": 8,
+  "retry": 20,
+  "generator": "image_gen.imagegen",
+  "generationId": "exec-c51bd7ac-7c7c-417e-b18d-ffab6bc583a1",
+  "originalGeneratedPath": "/workspace/generated_images/exec-c51bd7ac-7c7c-417e-b18d-ffab6bc583a1.png",
+  "generatedAtUtc": "2026-10-25T23:33:33Z",
+  "c2paClaimIdentifier": "urn:c2pa:7e592ac8-2b91-41da-9baf-c072fa3005a4",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry20-raw.png",
+  "rawSha256": "667bbf598fa3fa25bb4407f49f53cc92ccb6ce65ca70e51e495a4f3cdf78925e",
+  "decodedRgbaPixelSha256": "ca62fde3eb648d386d441d21ab98bb51982591b5bb0b60aae185e7a5791a73a6",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry20-prompt.md",
+  "promptSha256": "0c74269ae3c752291b88a6193a547aa7ae6abad78dd945e1c67be49ea1cbf99c",
+  "transparentBackgroundRequested": true,
+  "thresholdMetrics": {
+    "1": {
+      "boundsXYXYExclusive": [
+        65,
+        39,
+        1208,
+        1208
+      ],
+      "marginsLTRB": [
+        65,
+        39,
+        46,
+        46
+      ],
+      "heightFraction": 0.932217,
+      "components": 125,
+      "largestComponentPixels": 92256
+    },
+    "8": {
+      "boundsXYXYExclusive": [
+        480,
+        326,
+        943,
+        898
+      ],
+      "marginsLTRB": [
+        480,
+        326,
+        311,
+        356
+      ],
+      "heightFraction": 0.45614,
+      "components": 66,
+      "largestComponentPixels": 79972
+    },
+    "32": {
+      "boundsXYXYExclusive": [
+        480,
+        327,
+        943,
+        898
+      ],
+      "marginsLTRB": [
+        480,
+        327,
+        311,
+        356
+      ],
+      "heightFraction": 0.455343,
+      "components": 1,
+      "largestComponentPixels": 78411
+    },
+    "64": {
+      "boundsXYXYExclusive": [
+        481,
+        327,
+        942,
+        898
+      ],
+      "marginsLTRB": [
+        481,
+        327,
+        312,
+        356
+      ],
+      "heightFraction": 0.455343,
+      "components": 1,
+      "largestComponentPixels": 77612
+    },
+    "128": {
+      "boundsXYXYExclusive": [
+        481,
+        327,
+        942,
+        897
+      ],
+      "marginsLTRB": [
+        481,
+        327,
+        312,
+        357
+      ],
+      "heightFraction": 0.454545,
+      "components": 1,
+      "largestComponentPixels": 76408
+    },
+    "250": {
+      "boundsXYXYExclusive": [
+        482,
+        329,
+        941,
+        896
+      ],
+      "marginsLTRB": [
+        482,
+        329,
+        313,
+        358
+      ],
+      "heightFraction": 0.452153,
+      "components": 363,
+      "largestComponentPixels": 67056
+    }
+  },
+  "decodedPixelDuplicates": [],
+  "uniqueDecodedPixels": true,
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry20-light-dark-review.png",
+  "reviewDecision": "REJECT; preserve untouched raw; no cleanup/normalization/packing/acceptance"
+}

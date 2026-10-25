@@ -1,0 +1,21 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry20",
+  "decision": "REJECT",
+  "generationId": "exec-c51bd7ac-7c7c-417e-b18d-ffab6bc583a1",
+  "c2paClaimIdentifier": "urn:c2pa:7e592ac8-2b91-41da-9baf-c072fa3005a4",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry20-raw.png",
+  "sourceSha256": "667bbf598fa3fa25bb4407f49f53cc92ccb6ce65ca70e51e495a4f3cdf78925e",
+  "decodedRgbaPixelSha256": "ca62fde3eb648d386d441d21ab98bb51982591b5bb0b60aae185e7a5791a73a6",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry20-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry20-light-dark-review.png",
+  "checks": {
+    "pose": "FAIL: shooting arm is raised over the head; palm and fingers overlap the locs/crown instead of sitting below the headband at brow/temple height. The guide arm opens distinctly; lead knee rises and the other leg is extended behind rather than compactly folded.",
+    "identityAnatomy": "PARTIAL: human Briar cues (dark locs, vivid red headband, russet/cream kit), two arms/hands and two legs/shoes appear; no ball or fox traits. Small duplicate-looking edge fringe around the figure warrants separate visual scrutiny.",
+    "palette": "FAIL: skin highlights/shadows read copper/orange rather than the specified warm deep-brown canon.",
+    "transparency": "PASS channel-wise: RGBA with alpha 0 and255; light/dark composite shows transparency; alpha-1 residue is widespread.",
+    "cellMarginsAndScale": "FAIL: alpha>=64 body bounds are [481, 327, 942, 898] with margins L/T/R/B [481, 327, 312, 356]px; top/right margins below32% and figure height45.5% exceeds requested34%. Alpha>=1 margins are [65, 39, 46, 46]px and the residue spans93.2% of canvas height.",
+    "ballAlignment": "No ball is baked in; the athlete-specific track remains a separate later task after approved hand poses.",
+    "poseSeparation": "Single-pose source only. It does not satisfy the canonical prerelease hand placement and cannot advance to sheet assembly."
+  },
+  "reason": "The raised hand crosses the crown and overlaps hair; palette drifts orange; transparent margins/figure scale miss requested composition. Reject untouched; do not recolor, resize, clean, pack, or register."
+}
