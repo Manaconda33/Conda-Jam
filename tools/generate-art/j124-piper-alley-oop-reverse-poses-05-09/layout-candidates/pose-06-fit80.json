@@ -1,0 +1,42 @@
+{
+  "pose": 6,
+  "source": "cleaned/pose-06-attempt1-main-alpha.png",
+  "sourceSha256": "85d202da5554a2656f8ac6d5d9b38d7d40a206e07cebdf67b3138e68a8f4a318",
+  "rawSource": "sources/pose-06-attempt1-raw.png",
+  "rawSha256": "1878249347feb792a18b9a21bf4b68e23598b7d6be4661292b49880a7118a37e",
+  "canvasPx": [
+    1254,
+    1254
+  ],
+  "alpha16CropLTRB": [
+    404,
+    57,
+    988,
+    1117
+  ],
+  "sourceAlpha16MarginsLTRBpx": [
+    404,
+    57,
+    266,
+    137
+  ],
+  "requiredMarginPx": 80,
+  "scale": 1.03018868,
+  "figurePx": [
+    602,
+    1092
+  ],
+  "placementXY": [
+    326,
+    81
+  ],
+  "candidate": "layout-candidates/pose-06-fit80.png",
+  "candidateSha256": "fd52ea39661bdf4b19b536ec6114afcc2b2dedef6fc9a9d563034fa22d45022e",
+  "candidateAlpha16MarginsLTRBpx": [
+    326,
+    81,
+    326,
+    81
+  ],
+  "method": "Uniform premultiplied-alpha Lanczos downscale and center placement; no redraw or pose alteration."
+}

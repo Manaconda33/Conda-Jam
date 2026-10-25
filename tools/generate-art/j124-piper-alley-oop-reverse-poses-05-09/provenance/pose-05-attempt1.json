@@ -1,0 +1,76 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 5,
+  "attempt": 1,
+  "beat": "Overhead incoming-lob catch; both arms extended overhead, eyes up, knees trailing in an airborne tuck.",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-a3972646-1c67-4d2f-8acc-a23b10c0b060",
+  "generationDate": "2026-10-25",
+  "generationTimeNote": "Exact per-image timestamp was not returned; generated during the 2026-10-25 UTC session.",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-05-attempt1.md",
+  "promptSha256": "8edd16fa387b3f1276f9f6ddf022130b9eb645aa5d6d2935f5f05dab1b7d4912",
+  "identityReferencesAttached": false,
+  "identityReferencePolicy": "Text-only canonical Piper identity in prompt; no source image passed to ImageGen because this was a new original pose, not an edit.",
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/sources/pose-05-attempt1-raw.png",
+  "rawSourceSha256": "ec8d24df3ae486827c69ee81060df6dbaf1c67fad5fa08387215bb80f66f19cf",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16MarginsLTRBpx": [
+    334,
+    67,
+    279,
+    98
+  ],
+  "rawDirectPackDisposition": "Rejected for direct placement: raw alpha>16 margin is under80px on at least the top edge. Raw is retained unchanged; selected fit80 is uniform scale/layout only.",
+  "cleanup": {
+    "pose": 5,
+    "source": "sources/pose-05-attempt1-raw.png",
+    "sourceSha256": "ec8d24df3ae486827c69ee81060df6dbaf1c67fad5fa08387215bb80f66f19cf",
+    "rawCanvasPx": [
+      1254,
+      1254
+    ],
+    "alphaComponentCount": 22,
+    "largestAlpha16ComponentPixels": 224869,
+    "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+    "cleanedSource": "cleaned/pose-05-attempt1-main-alpha.png",
+    "cleanedSha256": "e57e0a840b69f8a0bbd22a6c61d350f61f3a235a0550dc62832732c9472ef28b",
+    "alpha16MarginsLTRBpx": [
+      334,
+      67,
+      279,
+      98
+    ],
+    "alpha128MarginsLTRBpx": [
+      335,
+      67,
+      280,
+      99
+    ]
+  },
+  "selectedSource": "layout-candidates/pose-05-fit80.png",
+  "selectedSourceSha256": "ea48e7309e1d9753b666896a2ecf2814535eec410791b6c368f0452a48a24c32",
+  "selectedAlpha16MarginsLTRBpx": [
+    305,
+    81,
+    306,
+    81
+  ],
+  "layoutFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/layout-candidates/pose-05-fit80.json",
+  "lightProof": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/proofs/pose-05-fit80-light.png",
+  "darkProof": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/proofs/pose-05-fit80-dark.png",
+  "disposition": "source-candidate-pending-parent-full-sequence-review",
+  "sourceReview": {
+    "identity": "Candidate visually retains Piper warm-brown skin, dark eyes, attached vivid-orange high ponytail, blank russet/cream kit, white socks and red/cream shoes.",
+    "anatomy": "Complete adult human figure; full head, two arms/hands, legs and shoes appear present. Parent full-sequence review remains pending.",
+    "pose": "Overhead incoming-lob catch; both arms extended overhead, eyes up, knees trailing in an airborne tuck.",
+    "transparency": "PASS after conservative alpha>16 largest-component cleanup; raw and cleaned images are preserved.",
+    "margins": "PASS only after uniform fit80 layout; selected alpha>16 L/T/R/B margins=[305, 81, 306, 81].",
+    "ball": "PASS: source art contains no basketball or other prop; ball remains separate runtime content.",
+    "style": "Compared to J.123 Piper power-alley-oop sources, color palette and crisp 1990s arcade pixel/ink shading are consistent. Pose05 appears slightly smoother in line detail; parent style comparison still required before full-sequence acceptance."
+  }
+}

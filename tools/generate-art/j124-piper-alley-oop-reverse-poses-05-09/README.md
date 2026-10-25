@@ -1,0 +1,7 @@
+# J.124 Piper Quickstep `alley-oop-reverse`, poses05–09 source lane
+
+Five individual ImageGen source candidates form the middle of the reverse alley-oop sequence. Beats: pose05 overhead catch at tick10; pose06 secure the ball over shoulder/chest; pose07 peak at tick14 with the torso turned toward the reverse side; pose08 high-elbow gather behind the head; pose09 closed-hand pre-release. All art is ball-free; the basketball stays on the separate Piper-specific runtime track.
+
+Exact prompts, ImageGen IDs, raw hashes, alpha-component cleanup, uniform fit layouts, selected-source hashes and light/dark proofs are recorded in `prompts/`, `sources/`, `cleaned/`, `layout-candidates/`, `proofs/` and `provenance/`. Every raw pose missed the requested80px alpha>16 top margin when directly packed. Raw outputs remain preserved; a uniform premultiplied-alpha Lanczos fit into the same transparent canvas provides >=80px margins without drawing, pose alteration, duplication, or mirroring. Pose06 and pose07 raw outputs had detached edge alpha components; cleanup retained the largest alpha>16 component plus a one-pixel antialias halo.
+
+The current review is provisional. Parent review must confirm pose differentiation and exact continuity with lanes00–04 and10–14, including pose09 closed fist versus the open pose10 release. Pose05's style was compared against J.123 and its slightly smoother line detail is explicitly noted for parent review. This lane has not assembled or packed an atlas, modified runtime, manifest, tracker, or shared docs, or been committed.
