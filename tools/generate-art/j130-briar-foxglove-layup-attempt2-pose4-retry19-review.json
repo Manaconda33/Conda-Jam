@@ -1,0 +1,21 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry19",
+  "decision": "REJECT",
+  "generationId": "exec-562f39fc-23c8-4e1c-ab4d-817b9dd952c9",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry19-raw.png",
+  "sourceSha256": "810f0631f57e0c54fc078374deb079c32d2686a1b25970c6ec076b6e63965317",
+  "decodedRgbaPixelSha256": "cae4e42dd27e01558f23ec2b58174c4e1928cd3c1c44fdea69e4e62ad4dc54b2",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry19-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry19-light-dark-review.png",
+  "checks": {
+    "pose": "PASS: airborne right-facing high-forward one-hand release reads; guide hand is open and distinct from face; trailing leg folded; lead knee raised.",
+    "identityAnatomy": "PASS: adult human athlete, dark shoulder-length locs, vivid red headband, russet/cream kit, two complete arms/hands and two complete legs/shoes; no fox traits or ball.",
+    "palette": "FAIL: skin reads warm orange/copper under light and dark review rather than Briar\u2019s canonical deep warm-brown.",
+    "transparency": "FAIL: true RGBA with alpha extrema 0..255, but widespread alpha-1 residue is disconnected and reaches close to canvas edges.",
+    "cellMargins": "FAIL: alpha>=64 margins L/T/R/B are [448,213,351,294] px; top 17.0%, bottom 23.4%; below requested >=32% on each edge. At alpha>=1 minimum edge margin is36 px.",
+    "scale": "FAIL: alpha>=64 figure height is 747/1254 =59.6%, well above requested 32\u201334%.",
+    "ball": "PASS: no basketball appears; keep ball on separate Briar-specific track.",
+    "poseSeparation": "Single source only; sequence separation and full eight-pose normalization remain unreviewed."
+  },
+  "reason": "Reject unchanged for severe scale and margin misses, alpha-1 residue near edges, and orange skin palette. Do not recolor, clean, normalize, pack, register, or accept."
+}

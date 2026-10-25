@@ -1,0 +1,167 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry19",
+  "generator": "image_gen.imagegen",
+  "generationId": "exec-562f39fc-23c8-4e1c-ab4d-817b9dd952c9",
+  "originalGeneratedPath": "/workspace/generated_images/exec-562f39fc-23c8-4e1c-ab4d-817b9dd952c9.png",
+  "c2paClaimIdentifier": "not exposed by imagegen response",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry19-raw.png",
+  "rawSha256": "810f0631f57e0c54fc078374deb079c32d2686a1b25970c6ec076b6e63965317",
+  "decodedRgbaPixelSha256": "cae4e42dd27e01558f23ec2b58174c4e1928cd3c1c44fdea69e4e62ad4dc54b2",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentBackgroundRequested": true,
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry19-prompt.md",
+  "promptSha256": "d82bfff9f3b77aacb1c94ee063158c8fe461054ba13285e3015433036d26daa4",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry19-light-dark-review.png",
+  "referenceImages": [],
+  "thresholdMetrics": {
+    "1": {
+      "boundsXYXYExclusive": [
+        65,
+        37,
+        1218,
+        1182
+      ],
+      "marginsLTRB": [
+        65,
+        37,
+        36,
+        72
+      ],
+      "marginFractionsLTRB": [
+        0.051834,
+        0.029506,
+        0.028708,
+        0.057416
+      ],
+      "figureWidthFraction": 0.919458,
+      "figureHeightFraction": 0.913078,
+      "components8Connected": 180
+    },
+    "8": {
+      "boundsXYXYExclusive": [
+        448,
+        212,
+        903,
+        962
+      ],
+      "marginsLTRB": [
+        448,
+        212,
+        351,
+        292
+      ],
+      "marginFractionsLTRB": [
+        0.357257,
+        0.169059,
+        0.279904,
+        0.232855
+      ],
+      "figureWidthFraction": 0.362839,
+      "figureHeightFraction": 0.598086,
+      "components8Connected": 61
+    },
+    "32": {
+      "boundsXYXYExclusive": [
+        448,
+        213,
+        903,
+        960
+      ],
+      "marginsLTRB": [
+        448,
+        213,
+        351,
+        294
+      ],
+      "marginFractionsLTRB": [
+        0.357257,
+        0.169856,
+        0.279904,
+        0.23445
+      ],
+      "figureWidthFraction": 0.362839,
+      "figureHeightFraction": 0.595694,
+      "components8Connected": 1
+    },
+    "64": {
+      "boundsXYXYExclusive": [
+        448,
+        213,
+        903,
+        960
+      ],
+      "marginsLTRB": [
+        448,
+        213,
+        351,
+        294
+      ],
+      "marginFractionsLTRB": [
+        0.357257,
+        0.169856,
+        0.279904,
+        0.23445
+      ],
+      "figureWidthFraction": 0.362839,
+      "figureHeightFraction": 0.595694,
+      "components8Connected": 1
+    },
+    "128": {
+      "boundsXYXYExclusive": [
+        448,
+        213,
+        902,
+        959
+      ],
+      "marginsLTRB": [
+        448,
+        213,
+        352,
+        295
+      ],
+      "marginFractionsLTRB": [
+        0.357257,
+        0.169856,
+        0.280702,
+        0.235247
+      ],
+      "figureWidthFraction": 0.362041,
+      "figureHeightFraction": 0.594896,
+      "components8Connected": 1
+    },
+    "250": {
+      "boundsXYXYExclusive": [
+        449,
+        219,
+        897,
+        955
+      ],
+      "marginsLTRB": [
+        449,
+        219,
+        357,
+        299
+      ],
+      "marginFractionsLTRB": [
+        0.358054,
+        0.174641,
+        0.284689,
+        0.238437
+      ],
+      "figureWidthFraction": 0.357257,
+      "figureHeightFraction": 0.586922,
+      "components8Connected": 252
+    }
+  },
+  "pixelDuplicateMatches": [],
+  "pixelUniqueAmongScannedJ130RawSources": true,
+  "scannedRawSourceCountIncludingThisAttempt": 77
+}
