@@ -1033,6 +1033,31 @@
       "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt12-light-dark-review.png",
       "status": "rejected",
       "reason": "Five distinct ball-free Briar poses, but low-alpha backdrop remains, minimum cell margin is15px versus120px, and blank cell5 contains2151 nonzero-alpha pixels. The requested 272x272 safe-box scale was not followed. No cleanup, packing, or registration."
+    },
+    {
+      "attempt": 13,
+      "strategy": "five individual pose cutouts; not assembled",
+      "promptFiles": [
+        "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose0-prompt.md",
+        "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose1-prompt.md",
+        "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose2-prompt.md",
+        "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose3-prompt.md",
+        "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-prompt.md"
+      ],
+      "sources": [
+        "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose0-raw.png",
+        "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose1-raw.png",
+        "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose2-raw.png",
+        "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose3-raw.png",
+        "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose4-raw.png"
+      ],
+      "reviewFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-poses-review.json",
+      "poseReviews": [
+        "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose3-review.json",
+        "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-review.json"
+      ],
+      "status": "rejected-source-as-is",
+      "reason": "Individual source cutouts returned 1254x1254 instead of 512x512 and retain alpha1-63 outside the figures. Pose0 and pose4 are pixel-identical with a shared generation ID despite different prompts; only four unique poses. No candidate sheet assembled or packed."
     }
   ]
 }

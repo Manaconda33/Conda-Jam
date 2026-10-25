@@ -1,0 +1,9 @@
+# J.129 Briar Foxglove `pickup` — attempt 13, pose 4 cutout
+
+Generation ID: `exec-032deb58-ac70-4bab-9c8c-59d07851959f`
+Identity reference: `public/assets/animation/briar-foxglove-receive-right.webp` (identity/style only)
+Requested output: one 512x512 RGBA canvas; ImageGen returned1254x1254, preserved without resizing.
+
+Exact prompt:
+
+> Create ONE sprite image, one figure only, on a transparent RGBA canvas exactly 512 by 512 pixels. This is frame 4, the final recovery pose of Briar Foxglove's five-frame basketball pickup animation. Show a clear upward recovery from the deepest crouch: her knees and hips have extended to an upright athletic stance, torso vertical, feet planted in the same shoulder-width position, both empty hands returning relaxed to waist height, eyes glance down toward the unseen ball at her front foot. This must read as a later, more upright phase than a deep crouch or squat; do not show a pass, catch, or held ball. The basketball is deliberately absent because it is a separate runtime track. Keep the entire athlete centered inside a 272 by 272 pixel rectangle centered on the canvas, leaving at least 120 pixels of empty transparent margin on all four canvas edges. Use the attached Briar reference only for identity, face, build, hair, uniform and pixel-art rendering: adult human woman, warm deep-brown skin, shoulder-length dark locs with vivid red headband, compact athletic build, russet-and-cream sleeveless Emberwood basketball kit, cream socks, russet/cream shoes. Match her appearance consistently, preserve natural human anatomy and clear separate limbs. Crisp hand-pixel-art cutout only. Every pixel outside the character silhouette must have alpha zero. No background, scene, court, grid, labels, props, ball, floor, shadow, glow, haze, gradient, rim light, or soft alpha. No framing or cast shadow. Return one complete uncropped figure.

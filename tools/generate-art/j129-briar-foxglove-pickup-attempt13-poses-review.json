@@ -1,0 +1,176 @@
+{
+  "issue": "J.129",
+  "athlete": "briar-foxglove",
+  "clip": "pickup",
+  "attempt": 13,
+  "layout": "five individually generated single-pose cutouts; not assembled",
+  "status": "rejected/no accepted source; pose0 and pose4 source collision",
+  "records": [
+    {
+      "pose": 0,
+      "generationId": "exec-032deb58-ac70-4bab-9c8c-59d07851959f",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose0-prompt.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose0-raw.png",
+      "sourceSha256": "6688e5d13c3ec55e139854781453b15a3e54b8d4bc369dd98a82e0378b9ba3df",
+      "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-pose0-light-dark-review.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alphaZero": 1382538,
+      "alpha1to63": 23408,
+      "alpha64plus": 166570,
+      "bboxAlphaGte64": [
+        416,
+        209,
+        840,
+        1028
+      ],
+      "marginsLTRB": [
+        416,
+        414,
+        209,
+        226
+      ],
+      "normalizedTo512MarginsLTRB": [
+        169.9,
+        169.0,
+        85.3,
+        92.3
+      ],
+      "requestedMinMarginAt512": 136,
+      "status": "rejected-source-does-not-meet-requested-safe-box",
+      "review": "Pose 0: upright ready stance, human Briar identity broadly consistent, no ball or other props, empty background is transparent; generated figure is substantially taller than requested and misses the 136px normalized margin."
+    },
+    {
+      "pose": 1,
+      "generationId": "exec-84442fe6-99a8-48a1-9cc3-dd82d11f8c43",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose1-prompt.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose1-raw.png",
+      "sourceSha256": "9081af83e1d121abc4164a97e721829b5ab4cb4922d1351264ba4bdaa625a4d7",
+      "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-pose1-light-dark-review.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alphaZero": 1363041,
+      "alpha1to63": 20432,
+      "alpha64plus": 189043,
+      "bboxAlphaGte64": [
+        384,
+        254,
+        868,
+        1050
+      ],
+      "marginsLTRB": [
+        384,
+        386,
+        254,
+        204
+      ],
+      "normalizedTo512MarginsLTRB": [
+        156.8,
+        157.6,
+        103.7,
+        83.3
+      ],
+      "requestedMinMarginAt512": 136,
+      "status": "rejected-source-does-not-meet-requested-safe-box",
+      "review": "Pose 1: partially lowered stance, hands remain empty; reaching action is weak, figure exceeds requested safe box and misses the normalized margin."
+    },
+    {
+      "pose": 2,
+      "generationId": "exec-eda823be-4fc0-41b9-a64a-84f87803c501",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose2-prompt.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose2-raw.png",
+      "sourceSha256": "4e7ff9d24c0349c46820b84775f53b1e260119e264b01c98e3a9dd0c02a7df7d",
+      "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-pose2-light-dark-review.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alphaZero": 1370682,
+      "alpha1to63": 21506,
+      "alpha64plus": 180328,
+      "bboxAlphaGte64": [
+        391,
+        312,
+        973,
+        975
+      ],
+      "marginsLTRB": [
+        391,
+        281,
+        312,
+        279
+      ],
+      "normalizedTo512MarginsLTRB": [
+        159.6,
+        114.7,
+        127.4,
+        113.9
+      ],
+      "requestedMinMarginAt512": 136,
+      "status": "rejected-source-does-not-meet-requested-safe-box",
+      "review": "Pose 2: clear low squat with right hand low, human Briar identity broadly consistent, no ball; figure exceeds requested safe box and misses the normalized margin."
+    },
+    {
+      "pose": 3,
+      "generationId": "exec-1ea7125b-6705-46ff-99fc-624cd20f5cb0",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose3-prompt.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose3-raw.png",
+      "sourceSha256": "9daa05eda79f969f6e6d251f4d66a2a5f65d9a731493dfa003b2dfbbce70d763",
+      "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-pose3-light-dark-review.png",
+      "reviewFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose3-review.json",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alphaHistogram": {
+        "alpha0": 1360892,
+        "alpha1to63": 22122,
+        "alpha64to254": 188888,
+        "alpha255": 614
+      },
+      "bboxAlphaGte64": [
+        351,
+        347,
+        963,
+        978
+      ],
+      "status": "rejected-source-as-is",
+      "reason": "Deep contact crouch is readable, but 1254x1254 output, low alpha reaches canvas edges and figure is not transparent outside silhouette."
+    },
+    {
+      "pose": 4,
+      "generationId": "exec-032deb58-ac70-4bab-9c8c-59d07851959f",
+      "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-prompt.md",
+      "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose4-raw.png",
+      "sourceSha256": "6688e5d13c3ec55e139854781453b15a3e54b8d4bc369dd98a82e0378b9ba3df",
+      "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-pose4-light-dark-review.png",
+      "reviewFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-review.json",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alphaHistogram": {
+        "alpha0": 1382538,
+        "alpha1to63": 23408,
+        "alpha64to254": 166128,
+        "alpha255": 442
+      },
+      "bboxAlphaGte64": [
+        416,
+        209,
+        840,
+        1028
+      ],
+      "status": "rejected-source-as-is",
+      "reason": "Recovery pose is readable, but 1254x1254 output and low alpha outside figure violate requested source specs; its PNG and generation ID collide exactly with pose0 despite different prompts."
+    }
+  ],
+  "integrityReview": {
+    "decision": "NOT ACCEPTABLE AS-IS",
+    "finding": "Pose0 and pose4 raw files are pixel-identical (SHA 6688e5d13c3ec55e139854781453b15a3e54b8d4bc369dd98a82e0378b9ba3df) and share generation ID exec-032deb58-ac70-4bab-9c8c-59d07851959f despite different prompts. Four unique poses only; regenerate pose0 and pose4 with distinct provenance before any assembly. All outputs are 1254x1254 rather than requested512, and alpha1-63 residues remain outside the figures."
+  }
+}

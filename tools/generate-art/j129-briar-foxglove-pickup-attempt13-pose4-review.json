@@ -1,0 +1,75 @@
+{
+  "issue": "J.129",
+  "athlete": "Briar Foxglove",
+  "clip": "pickup",
+  "attempt": 13,
+  "pose": 4,
+  "generationId": "exec-032deb58-ac70-4bab-9c8c-59d07851959f",
+  "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-prompt.md",
+  "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose4-raw.png",
+  "sourceSha256": "6688e5d13c3ec55e139854781453b15a3e54b8d4bc369dd98a82e0378b9ba3df",
+  "size": [
+    1254,
+    1254
+  ],
+  "requestedSize": [
+    512,
+    512
+  ],
+  "alphaHistogram": {
+    "alpha0": 1382538,
+    "alpha1to63": 23408,
+    "alpha64to254": 166128,
+    "alpha255": 442
+  },
+  "alphaGe1Bounds": {
+    "bboxLTRB": [
+      39,
+      59,
+      1240,
+      1214
+    ],
+    "marginsLTRB": [
+      39,
+      14,
+      59,
+      40
+    ]
+  },
+  "alphaGe64Bounds": {
+    "bboxLTRB": [
+      416,
+      209,
+      840,
+      1028
+    ],
+    "marginsLTRB": [
+      416,
+      414,
+      209,
+      226
+    ]
+  },
+  "alphaGe160Bounds": {
+    "bboxLTRB": [
+      417,
+      209,
+      839,
+      1028
+    ],
+    "marginsLTRB": [
+      417,
+      415,
+      209,
+      226
+    ]
+  },
+  "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-pose4-light-dark-review.png",
+  "visualReview": {
+    "pose": "Pose3: deep crouch, distinct from earlier ready/reach poses; right fingertips near ground level, no ball. Pose4: upright recovery from squat with hands at waist; no ball.",
+    "identity": "Briar identity, warm deep-brown skin, locs/red headband, russet/cream Emberwood kit preserved; human anatomy readable.",
+    "transparency": "REJECT: alpha1\u201363 values spread outside the figure over most of the canvas. Light/dark compositing appears clean at review scale, but source is not alpha-zero outside silhouette.",
+    "margins": "Raw composition has substantial figure margins, but returned 1254x1254 violates requested 512x512; future 512 fit must preserve >=120px and common baseline.",
+    "decision": "REJECT source as-is; preserve untouched raw and do not clean, pack, or register."
+  }
+}
