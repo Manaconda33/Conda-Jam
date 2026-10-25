@@ -23,6 +23,11 @@ Accepted separate track H `[.35,.4,.65,.5,1.65,1.8,2.5,2.2,1.8,1.9,1.9,1.1,.8,.7
 
 ImageGen attempt1 (`exec-e9792f4f-8109-49d5-b8e9-bdea8089b03b`) produced a 1536×1024 RGBA sheet with an opaque brown/orange backdrop and poses crossing or approaching source-cell margins, so raw SHA-256 `ddec9fc7b43d185ac5813fcc28ff7319357ea6ad6e6f5e626cfa86c1765e8bad` is rejected for direct packing. Component-only cleanup preserved fifteen distinct row-major poses, no redraw/reorder, transparent cells and >=28px clearance; accepted source SHA-256 `91e0c1c3b0f2b432c4c6864ab0a1b729896e6dd64136d58452c4eafe23e1a1b9`. Independent source review accepts the explicit shared J101 360 sequence and Piper identity/anatomy. The sheet is ball-free; native track review and atlas packing remain pending.
 
+
+## J.119 source checkpoint — Piper Quickstep `dunk-tomahawk`
+
+Attempt1 raw and cleanup are preserved/rejected for clustered overhead reaches in frames7–9 and a missing final cock before release. Attempt2 passed independent source review: fifteen distinct ordered poses; a bent acceleration, diagonal near-extension, and clear behind-head cock before open-palm frame10 release; consistent Piper identity/anatomy; ball-free art; true transparent gutters and >=28px margins. Clean source SHA-256 `6e8231aa825a71480d9f7f70a5c6d348478a3031312c26c3b0c6d0c7da2c7d7fb8`. Production packing and native track review remain pending; no atlas is registered.
+
 # J.114 — Piper Quickstep `celebrate`
 
 Piper adds ten celebration poses and reaches19/29 clips /143 authored drawings. The accepted source honors the prompt’s exact transparent 4×3/1536² grid, preserves ten original distinct drawings and leaves the final two source cells empty. The final semantic component map is `[3,2,1,0,5,7,4,6,9,8]`: grounded anticipation, compact fist rise, two-fist hop, symmetric V apex, angled descent, landing fists, overhead punch, open-hand reach, arms-low step recovery, and grounded hand-on-hip salute. No art was redrawn, duplicated or fabricated. Independent source and packed reviews confirm Piper identity/anatomy, alpha and >=60px margins; native preview selects all ten frames at100%/120% in both facings, ending on the salute at tick65. The celebration sheet has no ball.

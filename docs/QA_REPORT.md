@@ -5,6 +5,7 @@
 - `npm test`: PASS,39/39 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer: PASS,55 tests; production build: PASS.
 - `npm run test:e2e`: BLOCKED because the sandbox denies localhost binding (`listen EPERM` at `127.0.0.1:4175`).
 - Strict report-only audit `2026-10-25T12:09:12.753Z`:812 clips /7,331 drawings /105 athletes,2,291 missing clips, one target shortfall and4 inherited prompt findings.
+- Pipeline: J.119 Piper `dunk-tomahawk` attempt2 passed source review, but J.118 remains next for integration.
 - Next roster action: Piper J.118 `dunk-360`; attempt1 source is accepted after cleanup, while its separate ball track is pending. Source checkpoint `ae6a1a72` is local; standard push failed at the configured port8080 proxy. J.117 is committed locally as `3d183ef2`; standard push failed at the configured port8080 proxy, so no Pages workflow ran. Latest deployed Pages checkpoint remains `513e0a59` / run #169.
 
 # Latest validation — J.113 Piper fall

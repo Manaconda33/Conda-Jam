@@ -1,0 +1,25 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-tomahawk",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-58162ac7-38d7-4041-b8a5-85c02e0ec4e6",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-tomahawk-attempt1-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-tomahawk-attempt1-generated-raw.png",
+      "rawReview": "rejected-for-direct-packing: opaque brown/orange backdrop",
+      "sourceReview": "rejected-pose-separation: frames7\u20139 are near-identical overhead reaches; frame9 is not the final cock."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-47061b93-e76c-4489-8c10-b724aa18e951",
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-tomahawk-attempt2-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-tomahawk-attempt2-generated-raw.png",
+      "rawSourceSha256": "0d84b59da64361a83b622cfa72fca0ac66b04d2ce34ac43dd9ac012f2383147e",
+      "cleanSource": "tools/generate-art/sources/piper-quickstep-dunk-tomahawk-attempt2-clean-candidate.png",
+      "cleanSourceSha256": "6e8231aa825a71480d9f7f70a5c6d348478a3031312c26c3b6c0d7da2c7d7fb8",
+      "rawReview": "rejected-for-direct-packing: opaque brown/orange backdrop",
+      "sourceReview": "accepted-source-only-pending-native-ball-track"
+    }
+  ]
+}

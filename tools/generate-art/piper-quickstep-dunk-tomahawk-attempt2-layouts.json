@@ -1,0 +1,362 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-tomahawk",
+  "attempt": 2,
+  "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-tomahawk-attempt2-generated-raw.png",
+  "rawSourceSha256": "0d84b59da64361a83b622cfa72fca0ac66b04d2ce34ac43dd9ac012f2383147e",
+  "cleanedSource": "tools/generate-art/sources/piper-quickstep-dunk-tomahawk-attempt2-clean-candidate.png",
+  "cleanedSourceSha256": "6e8231aa825a71480d9f7f70a5c6d348478a3031312c26c3b6c0d7da2c7d7fb8",
+  "size": [
+    1536,
+    1024
+  ],
+  "layout": "5x3 row-major, fifteen original poses",
+  "cleanup": "Threshold alpha-connected components at >64 with shared package-motion42.py; retain exactly fifteen full figures, uniformly scale to <=251x285 and bottom-align with >=28px source-cell margins. No pose pixels are drawn, synthesized, duplicated or reordered. Detached backdrop is discarded.",
+  "frames": [
+    {
+      "sourceIndex": 0,
+      "component": 3,
+      "rawBounds": [
+        40,
+        39,
+        299,
+        319
+      ],
+      "destination": [
+        28,
+        41,
+        251,
+        272
+      ],
+      "uniformScale": 0.980469,
+      "transparentMarginsLTRBpx": [
+        28,
+        41,
+        28,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 1,
+      "component": 4,
+      "rawBounds": [
+        397,
+        47,
+        558,
+        322
+      ],
+      "destination": [
+        382,
+        41,
+        157,
+        272
+      ],
+      "uniformScale": 1.0,
+      "transparentMarginsLTRBpx": [
+        75,
+        41,
+        75,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 2,
+      "component": 5,
+      "rawBounds": [
+        684,
+        76,
+        876,
+        327
+      ],
+      "destination": [
+        673,
+        65,
+        189,
+        248
+      ],
+      "uniformScale": 1.0,
+      "transparentMarginsLTRBpx": [
+        59,
+        65,
+        60,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 3,
+      "component": 2,
+      "rawBounds": [
+        950,
+        36,
+        1196,
+        324
+      ],
+      "destination": [
+        954,
+        28,
+        242,
+        285
+      ],
+      "uniformScale": 1.0,
+      "transparentMarginsLTRBpx": [
+        32,
+        28,
+        33,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 4,
+      "component": 1,
+      "rawBounds": [
+        1277,
+        19,
+        1504,
+        324
+      ],
+      "destination": [
+        1276,
+        28,
+        212,
+        285
+      ],
+      "uniformScale": 0.943709,
+      "transparentMarginsLTRBpx": [
+        47,
+        28,
+        48,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 5,
+      "component": 8,
+      "rawBounds": [
+        76,
+        355,
+        351,
+        656
+      ],
+      "destination": [
+        28,
+        380,
+        251,
+        275
+      ],
+      "uniformScale": 0.922794,
+      "transparentMarginsLTRBpx": [
+        28,
+        39,
+        28,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 6,
+      "component": 10,
+      "rawBounds": [
+        397,
+        374,
+        632,
+        653
+      ],
+      "destination": [
+        345,
+        378,
+        231,
+        277
+      ],
+      "uniformScale": 1.0,
+      "transparentMarginsLTRBpx": [
+        38,
+        37,
+        38,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 7,
+      "component": 11,
+      "rawBounds": [
+        642,
+        385,
+        859,
+        665
+      ],
+      "destination": [
+        661,
+        378,
+        214,
+        277
+      ],
+      "uniformScale": 1.0,
+      "transparentMarginsLTRBpx": [
+        47,
+        37,
+        47,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 8,
+      "component": 7,
+      "rawBounds": [
+        920,
+        345,
+        1196,
+        660
+      ],
+      "destination": [
+        951,
+        370,
+        249,
+        285
+      ],
+      "uniformScale": 0.913462,
+      "transparentMarginsLTRBpx": [
+        29,
+        29,
+        29,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 9,
+      "component": 9,
+      "rawBounds": [
+        1267,
+        365,
+        1512,
+        657
+      ],
+      "destination": [
+        1263,
+        370,
+        239,
+        285
+      ],
+      "uniformScale": 0.986159,
+      "transparentMarginsLTRBpx": [
+        34,
+        29,
+        34,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 10,
+      "component": 12,
+      "rawBounds": [
+        88,
+        662,
+        275,
+        994
+      ],
+      "destination": [
+        74,
+        711,
+        159,
+        285
+      ],
+      "uniformScale": 0.866261,
+      "transparentMarginsLTRBpx": [
+        74,
+        28,
+        74,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 11,
+      "component": 13,
+      "rawBounds": [
+        352,
+        710,
+        621,
+        1000
+      ],
+      "destination": [
+        335,
+        723,
+        251,
+        273
+      ],
+      "uniformScale": 0.94717,
+      "transparentMarginsLTRBpx": [
+        28,
+        40,
+        28,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 12,
+      "component": 14,
+      "rawBounds": [
+        689,
+        715,
+        872,
+        960
+      ],
+      "destination": [
+        677,
+        753,
+        181,
+        243
+      ],
+      "uniformScale": 1.0,
+      "transparentMarginsLTRBpx": [
+        63,
+        70,
+        64,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 13,
+      "component": 18,
+      "rawBounds": [
+        997,
+        752,
+        1195,
+        1003
+      ],
+      "destination": [
+        978,
+        748,
+        194,
+        248
+      ],
+      "uniformScale": 1.0,
+      "transparentMarginsLTRBpx": [
+        56,
+        65,
+        57,
+        28
+      ]
+    },
+    {
+      "sourceIndex": 14,
+      "component": 15,
+      "rawBounds": [
+        1298,
+        725,
+        1472,
+        1003
+      ],
+      "destination": [
+        1297,
+        722,
+        171,
+        274
+      ],
+      "uniformScale": 1.0,
+      "transparentMarginsLTRBpx": [
+        68,
+        39,
+        68,
+        28
+      ]
+    }
+  ]
+}

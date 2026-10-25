@@ -4,7 +4,7 @@ Issue #3 remains in progress. The strict report-only audit at `2026-10-25T12:09:
 
 Piper `dunk-power` J.115, `dunk-windmill` J.116, and `dunk-reverse` J.117 are accepted and registered. J.117's separate Piper track H `[.35,.4,.65,.5,1.65,1.8,2.5,2.2,1.8,1.9,1.9,1.1,.8,.7,.6]` / F `[10,0,4,5,6,7,0,-7,-6,-2,-2,16,8,5,4]` passed independent native review in both facings at100%/120%. It holds contact through tick20, releases once at21, and scores one two-point dunk. Candidate history and all previews are preserved.
 
-Piper `dunk-360` J.118 is next. Attempt1's raw image is rejected for its brown/orange backdrop and cell crossings; component-only cleanup retained 15 distinct ordered poses with >=28px transparent cell clearance and no ball. Independent source review accepts identity/anatomy and the explicit J101 360-degree sequence. Native ball-track review remains pending; source checkpoint `ae6a1a72` is committed locally and no atlas is registered.
+Piper `dunk-360` J.118 is next. Attempt1's raw image is rejected for its brown/orange backdrop and cell crossings; component-only cleanup retained 15 distinct ordered poses with >=28px transparent cell clearance and no ball. Independent source review accepts identity/anatomy and the explicit J101 360-degree sequence. Native ball-track review remains pending; source checkpoint `ae6a1a72` is committed locally and no atlas is registered. J.119 Piper `dunk-tomahawk` attempt2 is source-reviewed and retained as a candidate checkpoint; its native track is pending.
 
 
 
