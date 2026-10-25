@@ -1,0 +1,39 @@
+{
+  "pose": 8,
+  "attempt": 2,
+  "source": "sources/pose-08-attempt2-raw.png",
+  "sourceSha256": "65cce3c85aa7b7af4691943ec82ea4cbf50b730c2ce2b44a1b84d66d31495d51",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "alphaComponentCount": 14,
+  "largestAlpha16ComponentPixels": 214275,
+  "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+  "cleanedSource": "cleaned/pose-08-attempt2-main-alpha.png",
+  "cleanedSha256": "d08131c6221dc9d53af85f20acd142ceb8194984f2d108796f02949c1b478d29",
+  "rawAlpha16MarginsLTRBpx": [
+    295,
+    177,
+    163,
+    229
+  ],
+  "rawAlpha128MarginsLTRBpx": [
+    295,
+    178,
+    164,
+    230
+  ],
+  "cleanAlpha16MarginsLTRBpx": [
+    295,
+    177,
+    163,
+    229
+  ],
+  "cleanAlpha128MarginsLTRBpx": [
+    295,
+    178,
+    164,
+    230
+  ]
+}

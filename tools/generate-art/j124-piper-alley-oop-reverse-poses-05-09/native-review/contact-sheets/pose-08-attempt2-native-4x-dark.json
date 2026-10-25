@@ -1,0 +1,12 @@
+{
+  "sourceCell": "native-review/cells/pose-08-attempt2-native-128x96.png",
+  "sourceCellSha256": "1288fe7d8203e3b891af249adff9464d20d11b8d7095a29e237196509517f49e",
+  "scale": 4,
+  "resampling": "nearest-neighbor",
+  "background": "dark",
+  "canvasPx": [
+    512,
+    384
+  ],
+  "outputSha256": "337e68b40e67b86e9313a620e37fb7aae452bac84368b1347e145ad20e7d5a0d"
+}

@@ -1,19 +1,18 @@
 # J.124 Piper `alley-oop-reverse` — source candidate review, poses05–09
 
-Status: source candidates only; independently reviewed, but full-clip parent acceptance and native track review are pending.
+Status: source candidates only; the pose08 attempt2 is provisionally selected after native-cell review. Independent final lane review, full-clip parent acceptance and native ball-track review remain pending.
 
-| Pose | Beat | Raw alpha>16 margins L/T/R/B | Fit80 candidate margins | Candidate source |
+| Pose | Beat | Raw alpha>16 margins L/T/R/B | Fit/native candidate margins | Provisional candidate |
 |---|---|---|---|---|
-| 05 | overhead catch, tick10 | 334/67/279/98 | see layout JSON | `layout-candidates/pose-05-fit80.png` |
-| 06 | shoulder/chest secure | 404/57/266/137 | see layout JSON | `layout-candidates/pose-06-fit80.png` |
-| 07 | rotated airborne peak, tick14 | 323/78/212/188 | see layout JSON | `layout-candidates/pose-07-fit80.png` |
-| 08 | behind-head reverse gather | 326/71/158/135 | see layout JSON | `layout-candidates/pose-08-fit80.png` |
-| 09 | closed-fist pre-release | 277/77/215/114 | see layout JSON | `layout-candidates/pose-09-fit80.png` |
+| 05 | overhead catch, tick10 | 334/67/279/98 | fit80 see layout JSON; native 40/7/41/9 | `layout-candidates/pose-05-fit80.png` |
+| 06 | shoulder/chest secure | 404/57/266/137 | fit80 see layout JSON; native 42/7/42/9 | `layout-candidates/pose-06-fit80.png` |
+| 07 | rotated airborne peak, tick14 | 323/78/212/188 | fit80 see layout JSON; native 35/7/35/9 | `layout-candidates/pose-07-fit80.png` |
+| 08 attempt1 | behind-head reverse gather | 326/71/158/135 | native 34/7/35/9 | **Rejected:** gripping hand merges with ponytail tie, obscuring the route; see `rejections/pose-08-attempt1-review.md`. |
+| 08 attempt2 | behind-head reverse gather | 295/177/163/229 | fit80 see layout JSON; native 26/7/27/9 | `layout-candidates/pose-08-attempt2-fit80.png` — provisional selection |
+| 09 | closed-fist pre-release | 277/77/215/114 | fit80 see layout JSON; native 36/7/35/9 | `layout-candidates/pose-09-fit80.png` |
 
-All five original prompt outputs were rejected for direct atlas placement because at least one raw alpha>16 margin is below80px. They are retained unchanged. The selected candidates use only conservative alpha cleanup and uniform size/position fitting; all selected PNGs satisfy >=80px alpha>16 margins on each edge. Prompt, raw source, cleanup, layout and selected-source SHA-256 values are in each pose's `provenance/pose-NN-attempt1.json`.
+The five original attempt1 outputs missed the requested 80px top alpha>16 margin for direct placement; they remain preserved and are compared only through uniform fit80 layouts. Attempt2 for pose08 uses the accepted J.123 Piper `alley-oop-power` atlas as an explicit pixel-art style reference; its raw alpha>16 margins exceed 80px on all edges. It is cleaned alpha-only and proportionally fit without redraw. Exact prompts, references, ImageGen IDs, raw/cleaned/fit/native hashes, margins and proofs are recorded under `prompts/`, `sources/`, `cleaned/`, `layout-candidates/`, `native-review/` and `provenance/`.
 
-Visual source-lane review finds Piper identity/anatomy, transparent backgrounds and ball-free action art. Beats progress from overhead catch through shoulder gather and reverse turn to behind-head gather and closed-fist pre-release. Pose07 uses both hands joined near the crown, so its distinct turn/leg silhouette must be checked against pose05's overhead catch at native atlas size. Pose09's fist is clearly closed in source, but separation from pose10's release remains pending. The pose05 rendering is slightly smoother in line detail than J.123; palette, contour and pixel shading remain consistent enough for candidate comparison, not final acceptance.
+Visual source-lane review finds Piper identity/anatomy, transparent backgrounds and ball-free action art. Beats progress from overhead catch through shoulder gather and reverse turn to behind-head gather and closed-fist pre-release. Pose07 has crown-level hands close together, but its turned torso and different leg silhouette distinguish it from pose05 at native size. Pose08 attempt2's closed grip is visibly above/behind the crown, separated from the ponytail tie and face; its bent forearm route and free counterbalancing hand read at native size. Pose09's fist is visibly closed in the enlarged candidate; compare it against pose10's open palm in the full atlas. No missing or duplicated anatomy is apparent. Style is provisionally close to J.123; final full-atlas review must confirm consistency.
 
-Independent native-cell review confirms the ordered poses remain readable at128×96. Pose07's three-quarter torso twist and leg silhouette distinguish it from pose05 despite their overhead hand positions. Pose08's behind-head forearm route becomes hard to parse at native size and must be checked in the assembled sequence. Pose09 reads as a diagonal one-arm pre-release, but its fist needs comparison with pose10's open palm. Identity and anatomy look consistent, no duplicated or missing anatomy is apparent, and the separate ball is absent. Style is close enough for provisional comparison; final full-atlas review must confirm the smooth pixel clusters stay consistent with J.123.
-
-This lane remains unaccepted and has not been packed. The five original source sheets failed the requested top margin and remain retained as rejected direct-pack candidates; only their uniform fit80 layouts are comparison candidates. All margins, provenance hashes, transparency proofs and cleanup records are retained above.
+The updated native contact sheets use pose08 attempt2. The previous sheets with rejected attempt1 are retained in `native-review/rejected-previews/`. A 4× nearest-neighbor zoom proof records the pose08 grip at native resolution. This lane remains unaccepted and has not been packed.

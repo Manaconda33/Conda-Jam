@@ -1,0 +1,46 @@
+{
+  "issue": "J.124",
+  "athlete": "piper-quickstep",
+  "clip": "alley-oop-reverse",
+  "pose": 8,
+  "attempt": 2,
+  "source": "cleaned/pose-08-attempt2-main-alpha.png",
+  "sourceSha256": "d08131c6221dc9d53af85f20acd142ceb8194984f2d108796f02949c1b478d29",
+  "rawSource": "sources/pose-08-attempt2-raw.png",
+  "rawSha256": "65cce3c85aa7b7af4691943ec82ea4cbf50b730c2ce2b44a1b84d66d31495d51",
+  "canvasPx": [
+    1254,
+    1254
+  ],
+  "alpha16CropLTRB": [
+    295,
+    177,
+    1091,
+    1025
+  ],
+  "sourceAlpha16MarginsLTRBpx": [
+    295,
+    177,
+    163,
+    229
+  ],
+  "requiredMarginPx": 80,
+  "scale": 1.2877358491,
+  "figurePx": [
+    1025,
+    1092
+  ],
+  "placementXY": [
+    114,
+    81
+  ],
+  "candidate": "layout-candidates/pose-08-attempt2-fit80.png",
+  "candidateSha256": "e4f6fc4314105edbc1c7571c45ceea8751f205c430c4651c007aa6d1b7d52951",
+  "candidateAlpha16MarginsLTRBpx": [
+    114,
+    82,
+    115,
+    81
+  ],
+  "method": "Crop cleaned source to alpha>16 bounds; uniform premultiplied-alpha Lanczos downscale; center in transparent source canvas; no redraw or pose alteration."
+}

@@ -1,0 +1,45 @@
+{
+  "clip": "J.124 alley-oop-reverse",
+  "poses": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "pose08": "attempt2",
+  "theme": "dark",
+  "canvasPx": [
+    640,
+    96
+  ],
+  "method": "Contact sheet of individually fitted 128x96 RGBA native review cells, with pose08 attempt2 replacing rejected attempt1; opaque background for transparency review.",
+  "inputs": [
+    {
+      "pose": 5,
+      "file": "native-review/cells/pose-05-native-128x96.png",
+      "sha256": "e933cfd9ffa40583dc3cafff645400cef2b7d1df3c469ce23199869184b97370"
+    },
+    {
+      "pose": 6,
+      "file": "native-review/cells/pose-06-native-128x96.png",
+      "sha256": "f167dd39a6ca69d675fc7fae8fd583646643be2e22b0898092ae409adeb68bd1"
+    },
+    {
+      "pose": 7,
+      "file": "native-review/cells/pose-07-native-128x96.png",
+      "sha256": "4da5189494e5a3122526cdb5224172c1d0e5bd0702be4cc3cbb8d29a0d43a05a"
+    },
+    {
+      "pose": 8,
+      "file": "native-review/cells/pose-08-attempt2-native-128x96.png",
+      "sha256": "1288fe7d8203e3b891af249adff9464d20d11b8d7095a29e237196509517f49e"
+    },
+    {
+      "pose": 9,
+      "file": "native-review/cells/pose-09-native-128x96.png",
+      "sha256": "9175aea3e7f130aec88f08185b76ba8d3309b06c1358d1a28621999c317f1c6b"
+    }
+  ],
+  "outputSha256": "ae383f2513221909fdbdf92bfaf0b987f10c7eaff84a151e9c704d5a8a5b62af"
+}

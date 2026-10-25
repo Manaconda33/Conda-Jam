@@ -1,0 +1,47 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 8,
+  "attempt": 2,
+  "beat": "Reverse gather with raised elbow and visible closed grip behind the crown; free arm counterbalances.",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-68614049-59e9-4585-a60f-3eeb467837cd",
+  "generationDate": "2026-10-25",
+  "generationTimeUtc": "2026-10-25T17:45Z (recorded within the tool call interval)",
+  "promptFile": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/prompts/pose-08-attempt2.md",
+  "promptSha256": "cf388ff0a727851cb281c4e407e1041dad3be7fe34f2385afe475461332be09b",
+  "identityReferencesAttached": true,
+  "identityReferencePolicy": "One accepted J.123 Piper alley-oop-power atlas was attached only as an art-style reference; prompt explicitly forbids copying poses or frames.",
+  "styleReference": "tools/generate-art/j123-piper-alley-oop-power-atlas-candidate/atlas-lane-scale-release-b.png",
+  "styleReferenceSha256": "de59198ff7fcd4e6ef146afe8e98b6f85aa0762f78606dc44aedf2c93013862f",
+  "rawSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/sources/pose-08-attempt2-raw.png",
+  "rawSourceSha256": "65cce3c85aa7b7af4691943ec82ea4cbf50b730c2ce2b44a1b84d66d31495d51",
+  "rawCanvasPx": [1254, 1254],
+  "rawAlpha16MarginsLTRBpx": [295, 177, 163, 229],
+  "cleanup": {
+    "file": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/provenance/pose-08-attempt2-cleanup.json",
+    "method": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+    "cleanedSource": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/cleaned/pose-08-attempt2-main-alpha.png",
+    "cleanedSourceSha256": "d08131c6221dc9d53af85f20acd142ceb8194984f2d108796f02949c1b478d29"
+  },
+  "candidateFit": {
+    "file": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/layout-candidates/pose-08-attempt2-fit80.png",
+    "sha256": "e4f6fc4314105edbc1c7571c45ceea8751f205c430c4651c007aa6d1b7d52951",
+    "alpha16MarginsLTRBpx": [114, 82, 115, 81]
+  },
+  "nativeReview": {
+    "cell": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/cells/pose-08-attempt2-native-128x96.png",
+    "cellSha256": "1288fe7d8203e3b891af249adff9464d20d11b8d7095a29e237196509517f49e",
+    "layout": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/layouts/pose-08-attempt2-native-128x96.json",
+    "alpha16MarginsLTRBpx": [26, 7, 27, 9],
+    "edgeNontransparentPixels": {"top": 0, "bottom": 0, "left": 0, "right": 0},
+    "lightProof": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/contact-sheets/pose-08-attempt2-native-light.png",
+    "lightProofSha256": "e7cdbeb6ec39f03e2e4b16ee2c2266d853f2e3031156b33f7614208fa8accaac",
+    "darkProof": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/native-review/contact-sheets/pose-08-attempt2-native-dark.png",
+    "darkProofSha256": "e56cbd523fc144187ba5173f5e45a16b28edec6b9c167e613ae928c19a587165",
+    "visualReview": "PASS provisional: at native size the right closed hand is visible above and behind the crown, distinct from the ponytail tie and face; the bent forearm route and open counterbalancing hand read. No crop/clipping; full body remains inside cell. The grip is just above the hair rather than obscured by it. Parent full-sequence review remains pending."
+  },
+  "attempt1Disposition": "Rejected and preserved: the closed gripping hand merges with Piper's ponytail tie at native 128x96 size, obscuring the behind-head ball route. See rejections/pose-08-attempt1-review.md.",
+  "disposition": "source-candidate-pending-parent-full-sequence-review"
+}

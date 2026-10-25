@@ -1,0 +1,79 @@
+{
+  "pose": 6,
+  "source": "tools/generate-art/j124-piper-alley-oop-reverse-poses-05-09/cleaned/pose-06-attempt1-main-alpha.png",
+  "sourceSha256": "85d202da5554a2656f8ac6d5d9b38d7d40a206e07cebdf67b3138e68a8f4a318",
+  "sourceCanvasPx": [
+    1254,
+    1254
+  ],
+  "sourceAlphaGt16BboxLTRB": [
+    404,
+    57,
+    988,
+    1117
+  ],
+  "sourceAlphaGt16MarginsLTRBpx": [
+    404,
+    57,
+    266,
+    137
+  ],
+  "sourceAlphaGt0BboxLTRB": [
+    403,
+    56,
+    989,
+    1117
+  ],
+  "sourceAlphaGt0MarginsLTRBpx": [
+    403,
+    56,
+    265,
+    137
+  ],
+  "cropAlphaGt0BboxLTRB": [
+    403,
+    56,
+    989,
+    1117
+  ],
+  "cropCanvasPx": [
+    586,
+    1061
+  ],
+  "cropAlphaGt16BboxLTRB": [
+    1,
+    1,
+    585,
+    1061
+  ],
+  "uniformScale": 0.0754716981,
+  "scaleCapContentPx": [
+    112,
+    80
+  ],
+  "scaledCropPx": [
+    44,
+    80
+  ],
+  "alignment": "center x by alpha>16 bbox; alpha>16 bbox bottom at y=87",
+  "cell": "128x96 RGBA",
+  "cellSha256": "f167dd39a6ca69d675fc7fae8fd583646643be2e22b0898092ae409adeb68bd1",
+  "cellAlphaGt16BboxLTRB": [
+    42,
+    7,
+    86,
+    87
+  ],
+  "cellAlphaGt16MarginsLTRBpx": [
+    42,
+    7,
+    42,
+    9
+  ],
+  "transparentCellAlphaBounds": {
+    "topRowAlphaPixels": 0,
+    "bottomRowAlphaPixels": 0,
+    "leftColumnAlphaPixels": 0,
+    "rightColumnAlphaPixels": 0
+  }
+}
