@@ -1104,7 +1104,15 @@
           "promptFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-retry-prompt.md"
         }
       ],
-      "pose4Retry": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose4-retry-raw.png"
+      "pose4Retry": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-pose4-retry-raw.png",
+      "normalizedCandidate": {
+        "source": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-normalized-sheet-candidate.png",
+        "sha256": "8a43b2067d18b5cf158b74ace3804ce0c3d4d9371c29c1db86f1879aef96e95c",
+        "provenance": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-normalized-candidate.json",
+        "review": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-normalized-candidate-review.json",
+        "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-normalized-light-dark-review.png",
+        "status": "pending-independent-review; not accepted or packed"
+      }
     }
   ]
 }

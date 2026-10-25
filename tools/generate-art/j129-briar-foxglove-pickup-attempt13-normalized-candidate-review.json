@@ -1,0 +1,129 @@
+{
+  "issue": "J.129",
+  "athlete": "briar-foxglove",
+  "clip": "pickup",
+  "candidateSource": "tools/generate-art/sources/j129-briar-foxglove-pickup-attempt13-normalized-sheet-candidate.png",
+  "sha256": "8a43b2067d18b5cf158b74ace3804ce0c3d4d9371c29c1db86f1879aef96e95c",
+  "provenance": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-normalized-candidate.json",
+  "preview": "tools/generate-art/previews/j129-briar-foxglove-pickup/attempt13-normalized-light-dark-review.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "layout": "3 columns x 2 rows, 512x512 cells; five distinct selected cutout sources in cells0-4 row-major; cell5 empty",
+  "sourceGenerationIds": [
+    "exec-2d00ce2c-f477-4851-a2be-7f403e0fb180",
+    "exec-84442fe6-99a8-48a1-9cc3-dd82d11f8c43",
+    "exec-eda823be-4fc0-41b9-a64a-84f87803c501",
+    "exec-1ea7125b-6705-46ff-99fc-624cd20f5cb0",
+    "exec-e1c54d85-f133-4714-933b-6e6f02dd265f"
+  ],
+  "sourceIntegrity": "Selected pose sources have unique generation IDs and hashes; old pose0/pose4 duplicate artifacts are excluded.",
+  "componentIsolation": "Retain each raw image\u2019s single connected alpha>=64 figure component. Remove all other raw pixels, crop to component bbox, uniformly LANCZOS-downscale to max240x240, center horizontally and align every shoe baseline at y=376. No pose content is drawn, duplicated, mirrored, reordered, or synthesized.",
+  "alphaHistogram": {
+    "alpha0": 1464479,
+    "alpha1to63": 8128,
+    "alpha64plus": 100257
+  },
+  "cells": [
+    {
+      "cell": 0,
+      "nonzeroAlpha": 15565,
+      "bboxLocal": [
+        193,
+        136,
+        319,
+        376
+      ]
+    },
+    {
+      "cell": 1,
+      "nonzeroAlpha": 18745,
+      "bboxLocal": [
+        183,
+        136,
+        329,
+        376
+      ]
+    },
+    {
+      "cell": 2,
+      "nonzeroAlpha": 25640,
+      "bboxLocal": [
+        150,
+        136,
+        361,
+        376
+      ]
+    },
+    {
+      "cell": 3,
+      "nonzeroAlpha": 29480,
+      "bboxLocal": [
+        139,
+        136,
+        372,
+        376
+      ]
+    },
+    {
+      "cell": 4,
+      "nonzeroAlpha": 18955,
+      "bboxLocal": [
+        170,
+        136,
+        342,
+        376
+      ]
+    },
+    {
+      "cell": 5,
+      "nonzeroAlpha": 0,
+      "bboxLocal": null
+    }
+  ],
+  "cellMarginsLTRB": {
+    "0": [
+      193,
+      193,
+      136,
+      136
+    ],
+    "1": [
+      183,
+      183,
+      136,
+      136
+    ],
+    "2": [
+      150,
+      151,
+      136,
+      136
+    ],
+    "3": [
+      139,
+      140,
+      136,
+      136
+    ],
+    "4": [
+      170,
+      170,
+      136,
+      136
+    ]
+  },
+  "minimumCellMargin": 136,
+  "unusedCell5NonzeroAlpha": 0,
+  "visualReviewByParent": {
+    "poses": "Five distinct poses read ready, bend/reach, deeper reach, deepest grab, partial recovery. Figure outlines remain separated, and there is no ball. Briar\u2019s adult human appearance, locs/red headband, compact build and russet/cream uniform are consistent.",
+    "transparency": "Source low-alpha exterior background residue was removed by main-component isolation. The only alpha1-63 pixels are resampling edge pixels within figure crops; candidate preview shows no broad backdrop on light/dark backgrounds.",
+    "margins": "Every pose has 136px or greater margins on all cell edges; lower right cell5 has zero nonzero-alpha pixels.",
+    "decision": "Pending independent review; candidate is not accepted or packed."
+  },
+  "independentReview": {
+    "status": "pending"
+  },
+  "packingAllowed": false
+}
