@@ -1,0 +1,81 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 0,
+  "attempt": 3,
+  "beat": "Low forward run-in stride toward screen-right; right knee leads; left leg extends behind; arms pump; eyes track incoming pass.",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-1102b460-3c17-448f-a18b-b3891863824d",
+  "fileMtimeUtc": "2026-10-25T17:29:48.652Z",
+  "promptFile": "pose-00-attempt3-prompt.md",
+  "promptSha256": "9586c448f6eedff20ddf17a7b31c76dc607b25fa4bf470de00b19e8b639f5570",
+  "referencesAttached": [
+    "tools/generate-art/sources/piper-quickstep-alley-oop-power15.png"
+  ],
+  "referenceRole": "Accepted J.123 atlas used as strict style reference and Piper identity guide only; generated new pose, not an edit or collage.",
+  "rawSource": "sources/pose-00-attempt3-generated-raw.png",
+  "rawSha256": "bdd50c2db2ad696b079aac240ccd7c548f21495918c6fd29de7a49e57a05b49d",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawMode": "RGBA",
+  "alpha16Components": 25,
+  "largestAlpha16ComponentPixels": 247665,
+  "rawAlpha16MarginsLTRBpx": [
+    279,
+    217,
+    235,
+    213
+  ],
+  "alphaCleanup": "Kept largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only. No redraw. Isolated detached transparent/alpha specks removed.",
+  "cleanedSource": "cleaned/pose-00-attempt3-main-alpha.png",
+  "cleanedSha256": "2f2441e67ea9080b884d59dd3506115fe9cab187875b1f6ba5615306d5fac7e1",
+  "cleanedAlpha16MarginsLTRBpx": [
+    279,
+    217,
+    235,
+    213
+  ],
+  "fit80Candidate": "layout-candidates/pose-00-attempt3-fit80.png",
+  "fit80Sha256": "f4986bcde6840aeb2ad53b6571c2e2d774a4e75db99a48f1db9f0ecb87b75300",
+  "fit80MarginsLTRBpx": [
+    136,
+    81,
+    137,
+    82
+  ],
+  "nativeCellCandidate": "layout-candidates/pose-00-attempt3-cell128x96.png",
+  "nativeCellSha256": "30fb5359e7a9597c7e1487740a9aa0a19ee92ed7ada2ddddf66aa6f75c169b1f",
+  "nativeCellSizePx": [
+    128,
+    96
+  ],
+  "nativeCellFigurePx": [
+    72,
+    80
+  ],
+  "nativeCellPlacementXY": [
+    28,
+    7
+  ],
+  "nativeCellMarginsLTRBpx": [
+    28,
+    7,
+    28,
+    9
+  ],
+  "review": {
+    "status": "provisionally-accepted-source-candidate",
+    "identity": "Piper details appear consistent; full anatomy visible.",
+    "style": "Native comparison shows stepped pixel clusters and hard contours much closer to accepted J.123 than smooth first-pass poses.",
+    "cleanup": "A visible red fringe remains around hair/shoes in raw art; retained without color editing pending review.",
+    "pose": "Run-in reads at native cell size.",
+    "transparency": "RGBA; edge remains transparent; alpha16 margins well above requested80px.",
+    "ballFree": "No ball or props visible.",
+    "source": "not integrated, packed, or selected for production.",
+    "independentReview": "Parent and independent reviewer verified provenance hash chains, transparency, margins and native cell placement; this accepts only this source candidate, not the full clip or atlas."
+  },
+  "disposition": "provisionally accepted source candidate; clip and atlas acceptance pending full-sequence, track, and runtime review."
+}

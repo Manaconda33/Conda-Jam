@@ -1,0 +1,34 @@
+{
+  "pose": 1,
+  "source": "cleaned/pose-01-attempt2-main-alpha.png",
+  "sourceSha256": "6d82e0d42fcf3cead7e680a9b569d52f3670cf0d8f366a142726cb7e660ccc40",
+  "canvasPx": [
+    128,
+    96
+  ],
+  "cropAlpha16LTRB": [
+    261,
+    298,
+    1013,
+    1014
+  ],
+  "scale": 0.11173184,
+  "figurePx": [
+    84,
+    80
+  ],
+  "placementXY": [
+    22,
+    7
+  ],
+  "baselineY": 87,
+  "output": "layout-candidates/pose-01-attempt2-cell128x96.png",
+  "outputSha256": "8be6c9ca179bdbfb06380f2aaba441b9453fb2998d09e45c75253d2adc81159b",
+  "alpha16MarginsLTRBpx": [
+    22,
+    7,
+    22,
+    9
+  ],
+  "policy": "Review-only native cell: uniform scale, cap80px high/112px wide, center x and baseline y=87, no redraw/mirroring."
+}

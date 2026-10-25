@@ -1,0 +1,81 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 4,
+  "attempt": 3,
+  "beat": "Late pre-catch reach: airborne almost vertically with elongated torso, palms open and separated, one leg trails long down/back, the other moderately bent; no catch.",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-5e3681b5-173c-46df-be4a-c32162565904",
+  "fileMtimeUtc": "2026-10-25T17:36:37.049Z",
+  "promptFile": "pose-04-attempt3-prompt.md",
+  "promptSha256": "316b4191a1468bbd8a10badff377f8c74f441aea01d74201aa4bb19f46f39a3b",
+  "referencesAttached": [
+    "tools/generate-art/sources/piper-quickstep-alley-oop-power15.png"
+  ],
+  "referenceRole": "Accepted J.123 atlas used as strict style reference and Piper identity guide only; new pose, not image edit/collage.",
+  "rawSource": "sources/pose-04-attempt3-generated-raw.png",
+  "rawSha256": "a378e395de93cdc4bb03b7d33ab7665e59877b2c9fa8af7ea91e37bfd0c69719",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "alpha16Components": 22,
+  "largestAlpha16ComponentPixels": 160830,
+  "rawAlpha16MarginsLTRBpx": [
+    405,
+    136,
+    257,
+    156
+  ],
+  "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+  "cleanedSource": "cleaned/pose-04-attempt3-main-alpha.png",
+  "cleanedSha256": "f7d8ab2325ce4994a81be246129eb8360806411c02383ed0330294231543849f",
+  "cleanedAlpha16MarginsLTRBpx": [
+    405,
+    136,
+    257,
+    156
+  ],
+  "fit80Candidate": "layout-candidates/pose-04-attempt3-fit80.png",
+  "fit80Sha256": "d58fc3759410d431c0705e3006a441d339cc63aba18b7ec0bdad8c6e4976dd04",
+  "fit80Alpha16MarginsLTRBpx": [
+    291,
+    82,
+    291,
+    81
+  ],
+  "nativeCellCandidate": "layout-candidates/pose-04-attempt3-cell128x96.png",
+  "nativeCellSha256": "7eea752e71dcea94faa71c7ae89e6ede04ac45470eb9b8da0a4f63fab2227732",
+  "nativeCellMarginsLTRBpx": [
+    39,
+    7,
+    40,
+    9
+  ],
+  "nativeCellLayout": {
+    "size": [
+      128,
+      96
+    ],
+    "figurePx": [
+      49,
+      80
+    ],
+    "placementXY": [
+      39,
+      7
+    ],
+    "baselineY": 87
+  },
+  "review": {
+    "status": "provisionally-accepted-source-candidate",
+    "style": "J.123 pixel style reference used.",
+    "pose": "Designed to separate from pose03 by elongated torso and long trailing leg; compare in 128x96 sequence.",
+    "identity": "Piper identity and anatomy to be independently reviewed.",
+    "transparency": "RGBA with raw and cell margins recorded.",
+    "ballFree": "No ball or props.",
+    "independentReview": "Parent and independent reviewer verified provenance hash chains, transparency, margins and native cell placement; this accepts only this source candidate, not the full clip or atlas."
+  },
+  "disposition": "provisionally accepted source candidate; clip and atlas acceptance pending full-sequence, track, and runtime review."
+}

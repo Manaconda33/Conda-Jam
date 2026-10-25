@@ -1,0 +1,100 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 4,
+  "attempt": 2,
+  "beat": "Late pre-catch reach; airborne stride, torso up, elbows almost extended overhead, palms open/separated; immediately before pose05 catch.",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-0400b50b-43e6-40aa-8c88-f53b2c438e0d",
+  "fileMtimeUtc": "2026-10-25T17:32:38.712Z",
+  "promptFile": "pose-04-attempt2-prompt.md",
+  "promptSha256": "71d32d8c6376cd2a35bccc7038aeead053516f17af86a3a0292c7d988268da4b",
+  "referencesAttached": [
+    "tools/generate-art/sources/piper-quickstep-alley-oop-power15.png"
+  ],
+  "referenceRole": "Accepted J.123 atlas used as strict style reference and Piper identity guide only; generated a new pose, not an edit or collage.",
+  "rawSource": "sources/pose-04-attempt2-generated-raw.png",
+  "rawSha256": "0356c987477f00f3b3f274ee970a6e2fb284146b0d2a062bca2feea84c6dd809",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16Components": 11,
+  "largestAlpha16ComponentPixels": 210852,
+  "rawAlpha16MarginsLTRBpx": [
+    357,
+    128,
+    243,
+    143
+  ],
+  "cleanupMethod": "Kept largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw; detached alpha specks removed.",
+  "cleanedSource": "cleaned/pose-04-attempt2-main-alpha.png",
+  "cleanedSha256": "2128df3cb511c0efad23feea213062cbc3419e572326b7e91da99ebad3ad5239",
+  "cleanedAlpha16MarginsLTRBpx": [
+    357,
+    128,
+    243,
+    143
+  ],
+  "fit80Candidate": "layout-candidates/pose-04-attempt2-fit80.png",
+  "fit80Sha256": "37f7e30d13bbb74f8911b73ef1391aabf6b0b936e9e295cc8ba77187e8f26523",
+  "fit80MarginsLTRBpx": [
+    263,
+    81,
+    264,
+    81
+  ],
+  "nativeCellCandidate": "layout-candidates/pose-04-attempt2-cell128x96.png",
+  "nativeCellSha256": "5b0fc79312bb74d0d205a5809c8c83ac3cfd1a8fdd7bae9e7b2055537cab1ede",
+  "nativeCellMarginsLTRBpx": [
+    37,
+    7,
+    38,
+    9
+  ],
+  "layout": {
+    "pose": 4,
+    "source": "cleaned/pose-04-attempt2-main-alpha.png",
+    "sourceSha256": "2128df3cb511c0efad23feea213062cbc3419e572326b7e91da99ebad3ad5239",
+    "canvasPx": [
+      128,
+      96
+    ],
+    "cropAlpha16LTRB": [
+      357,
+      128,
+      1011,
+      1111
+    ],
+    "scale": 0.08138352,
+    "figurePx": [
+      53,
+      80
+    ],
+    "placementXY": [
+      37,
+      7
+    ],
+    "baselineY": 87,
+    "output": "layout-candidates/pose-04-attempt2-cell128x96.png",
+    "outputSha256": "5b0fc79312bb74d0d205a5809c8c83ac3cfd1a8fdd7bae9e7b2055537cab1ede",
+    "alpha16MarginsLTRBpx": [
+      37,
+      7,
+      38,
+      9
+    ],
+    "policy": "Review-only native cell: uniform scale, cap80px high/112px wide, center x and baseline y=87, no redraw/mirroring."
+  },
+  "review": {
+    "status": "rejected-near-duplicate-pose",
+    "identity": "Piper identity and full anatomy appear consistent; verify at native scale and against neighboring frames.",
+    "style": "Native pixel-cell review against J.123 reference pending.",
+    "pose": "Rejected at native128x96 because it is too similar to pose03: both have a narrow upright overhead reach with closely matched leg tuck and arm path.",
+    "transparency": "RGBA; raw alpha16 margins and selected cell margins recorded.",
+    "ballFree": "No ball or prop in source.",
+    "source": "not integrated, packed, or selected for production."
+  },
+  "disposition": "rejected-near-duplicate; raw source retained."
+}

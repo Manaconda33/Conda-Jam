@@ -1,0 +1,51 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 3,
+  "attempt": 1,
+  "rawSource": "sources/pose-03-attempt1-generated-raw.png",
+  "rawSha256": "8e7a6f58d90fb7d8075209e1954425fa145748fda57739c8783a95910e613c9f",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "alpha16Components": 1,
+  "largestComponentPixels": 309726,
+  "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+  "cleanedSource": "cleaned/pose-03-attempt1-main-alpha.png",
+  "cleanedSha256": "4048e313c3c7d159575077c422361c9e2098f7106c245f261e225bb1dc975e66",
+  "cleanedAlpha16MarginsLTRBpx": [
+    210,
+    113,
+    101,
+    113
+  ],
+  "cropAlpha16LTRB": [
+    210,
+    113,
+    1153,
+    1141
+  ],
+  "requiredMarginPx": 80,
+  "scale": 1.06225681,
+  "figurePx": [
+    1002,
+    1092
+  ],
+  "placementXY": [
+    126,
+    81
+  ],
+  "candidate": "layout-candidates/pose-03-attempt1-fit80.png",
+  "candidateSha256": "eee3c2e5bd8557078f784f079bd5ef68c8ce382dded398d8d50b7176404e0338",
+  "candidateAlpha16MarginsLTRBpx": [
+    126,
+    81,
+    126,
+    81
+  ],
+  "method": "Uniform premultiplied-alpha Lanczos downscale and center placement; no redraw or pose alteration.",
+  "lightProof": "proofs/pose-03-attempt1-fit80-light.png",
+  "darkProof": "proofs/pose-03-attempt1-fit80-dark.png"
+}

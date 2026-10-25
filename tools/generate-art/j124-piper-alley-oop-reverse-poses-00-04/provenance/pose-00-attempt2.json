@@ -1,0 +1,107 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 0,
+  "attempt": 2,
+  "beat": "low forward run-in stride toward screen-right; right knee leads, arms pump, eyes track incoming pass",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-72011d6f-04a5-4bdd-b719-07078c595b40",
+  "generationDate": "2026-10-25",
+  "generationTimeNote": "Exact per-image timestamp was not returned; generated during the 2026-10-25 UTC session.",
+  "promptFile": "pose-00-attempt1-prompt.md",
+  "promptSha256": "e5a4ac34ecdbd8480a0677a8f27db647a9dbde3c08ee56d6fb9907694683f18d",
+  "identityReferencesAttached": false,
+  "identityReferencePolicy": "Text-only canonical Piper identity in prompt; original pose generation, no source image passed to ImageGen.",
+  "rawSource": "sources/pose-00-attempt2-generated-raw.png",
+  "rawSourceSha256": "33a2cc890c8eb085dbb6b444d1379fbc948c55eed8550ca28b632a5ee9e830e7",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16MarginsLTRBpx": [
+    198,
+    144,
+    216,
+    139
+  ],
+  "cleanup": {
+    "components": 2,
+    "largestComponentPixels": 315966,
+    "method": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+    "source": "sources/pose-00-attempt2-generated-raw.png",
+    "sourceSha256": "33a2cc890c8eb085dbb6b444d1379fbc948c55eed8550ca28b632a5ee9e830e7",
+    "cleanedSource": "cleaned/pose-00-attempt2-main-alpha.png",
+    "cleanedSha256": "ebb04020e3459343f64b145272c931fc409fb1b19c294fd67e1148100dd47777",
+    "cleanedAlpha16MarginsLTRBpx": [
+      198,
+      144,
+      216,
+      139
+    ]
+  },
+  "layout": {
+    "athlete": "piper-quickstep",
+    "issue": "J.124",
+    "clip": "alley-oop-reverse",
+    "pose": 0,
+    "attempt": 2,
+    "rawSource": "sources/pose-00-attempt2-generated-raw.png",
+    "rawSha256": "33a2cc890c8eb085dbb6b444d1379fbc948c55eed8550ca28b632a5ee9e830e7",
+    "rawCanvasPx": [
+      1254,
+      1254
+    ],
+    "alpha16Components": 2,
+    "largestComponentPixels": 315966,
+    "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+    "cleanedSource": "cleaned/pose-00-attempt2-main-alpha.png",
+    "cleanedSha256": "ebb04020e3459343f64b145272c931fc409fb1b19c294fd67e1148100dd47777",
+    "cleanedAlpha16MarginsLTRBpx": [
+      198,
+      144,
+      216,
+      139
+    ],
+    "cropAlpha16LTRB": [
+      198,
+      144,
+      1038,
+      1115
+    ],
+    "requiredMarginPx": 80,
+    "scale": 1.1246138,
+    "figurePx": [
+      945,
+      1092
+    ],
+    "placementXY": [
+      154,
+      81
+    ],
+    "candidate": "layout-candidates/pose-00-attempt2-fit80.png",
+    "candidateSha256": "024b48b202ee94d8817743d42e399bc52965c823ba084372b61a28f1bbbf31c2",
+    "candidateAlpha16MarginsLTRBpx": [
+      154,
+      81,
+      155,
+      81
+    ],
+    "method": "Uniform premultiplied-alpha Lanczos downscale and center placement; no redraw or pose alteration.",
+    "lightProof": "proofs/pose-00-attempt2-fit80-light.png",
+    "darkProof": "proofs/pose-00-attempt2-fit80-dark.png"
+  },
+  "selectedCandidate": "layout-candidates/pose-00-attempt2-fit80.png",
+  "selectedCandidateSha256": "024b48b202ee94d8817743d42e399bc52965c823ba084372b61a28f1bbbf31c2",
+  "review": {
+    "status": "rejected-style-mismatch",
+    "identity": "Piper identity appears consistent: warm brown skin, dark eyes, attached bright orange high ponytail, russet/cream uniform, white socks, red/cream shoes.",
+    "anatomy": "Complete adult human anatomy; verify neighboring poses at native atlas scale.",
+    "pose": "Beat is distinct in source; parent review pending.",
+    "transparency": "RGBA source with transparent backdrop.",
+    "ballFree": "No ball or prop in the source.",
+    "margins": "Raw alpha>16 margins shown above; selected candidate uses uniform layout with at least80px on all sides.",
+    "style": "Smooth glossy rendering does not match accepted J.123 pixel-art style. The more compact run-in pose is retained as an alternate but remains close to pose01."
+  },
+  "disposition": "rejected-style-mismatch; alternate preserved; no production selection."
+}

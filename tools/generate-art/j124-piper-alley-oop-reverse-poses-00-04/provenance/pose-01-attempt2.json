@@ -1,0 +1,101 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 1,
+  "attempt": 2,
+  "beat": "Accelerating long stride; left knee drives up, opposite leg reaches back; arms oppose; eyes follow high pass.",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-d4b64da1-607d-4c7a-99cc-998a1fedcfb1",
+  "fileMtimeUtc": "2026-10-25T17:33:28.002Z",
+  "promptFile": "pose-01-attempt2-prompt.md",
+  "promptSha256": "789a7054f1b53ce7485156bd827d4f695263cfe98fb2df1ab37779f79e3ffd96",
+  "referencesAttached": [
+    "tools/generate-art/sources/piper-quickstep-alley-oop-power15.png"
+  ],
+  "referenceRole": "Accepted J.123 atlas used as strict style reference and Piper identity guide only; generated a new pose, not an edit or collage.",
+  "rawSource": "sources/pose-01-attempt2-generated-raw.png",
+  "rawSha256": "17f36aa6626368d4edc7e6ba9c5d5bcc759530ee0167ca05a17344e4b3bab95a",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16Components": 11,
+  "largestAlpha16ComponentPixels": 201672,
+  "rawAlpha16MarginsLTRBpx": [
+    261,
+    298,
+    241,
+    240
+  ],
+  "cleanupMethod": "Kept largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw; detached alpha specks removed.",
+  "cleanedSource": "cleaned/pose-01-attempt2-main-alpha.png",
+  "cleanedSha256": "6d82e0d42fcf3cead7e680a9b569d52f3670cf0d8f366a142726cb7e660ccc40",
+  "cleanedAlpha16MarginsLTRBpx": [
+    261,
+    298,
+    241,
+    240
+  ],
+  "fit80Candidate": "layout-candidates/pose-01-attempt2-fit80.png",
+  "fit80Sha256": "1e3710ad5044ba99e043ec665f64e10ce6cecbe3ab79bde5e5e2539fb287543c",
+  "fit80MarginsLTRBpx": [
+    81,
+    107,
+    81,
+    107
+  ],
+  "nativeCellCandidate": "layout-candidates/pose-01-attempt2-cell128x96.png",
+  "nativeCellSha256": "8be6c9ca179bdbfb06380f2aaba441b9453fb2998d09e45c75253d2adc81159b",
+  "nativeCellMarginsLTRBpx": [
+    22,
+    7,
+    22,
+    9
+  ],
+  "layout": {
+    "pose": 1,
+    "source": "cleaned/pose-01-attempt2-main-alpha.png",
+    "sourceSha256": "6d82e0d42fcf3cead7e680a9b569d52f3670cf0d8f366a142726cb7e660ccc40",
+    "canvasPx": [
+      128,
+      96
+    ],
+    "cropAlpha16LTRB": [
+      261,
+      298,
+      1013,
+      1014
+    ],
+    "scale": 0.11173184,
+    "figurePx": [
+      84,
+      80
+    ],
+    "placementXY": [
+      22,
+      7
+    ],
+    "baselineY": 87,
+    "output": "layout-candidates/pose-01-attempt2-cell128x96.png",
+    "outputSha256": "8be6c9ca179bdbfb06380f2aaba441b9453fb2998d09e45c75253d2adc81159b",
+    "alpha16MarginsLTRBpx": [
+      22,
+      7,
+      22,
+      9
+    ],
+    "policy": "Review-only native cell: uniform scale, cap80px high/112px wide, center x and baseline y=87, no redraw/mirroring."
+  },
+  "review": {
+    "status": "provisionally-accepted-source-candidate",
+    "identity": "Piper identity and full anatomy appear consistent; verify at native scale and against neighboring frames.",
+    "style": "Native pixel-cell review against J.123 reference pending.",
+    "pose": "Prompt beat appears distinct; full sequence parent review pending.",
+    "transparency": "RGBA; raw alpha16 margins and selected cell margins recorded.",
+    "ballFree": "No ball or prop in source.",
+    "source": "not integrated, packed, or selected for production.",
+    "independentReview": "Parent and independent reviewer verified provenance hash chains, transparency, margins and native cell placement; this accepts only this source candidate, not the full clip or atlas."
+  },
+  "disposition": "provisionally accepted source candidate; clip and atlas acceptance pending full-sequence, track, and runtime review."
+}

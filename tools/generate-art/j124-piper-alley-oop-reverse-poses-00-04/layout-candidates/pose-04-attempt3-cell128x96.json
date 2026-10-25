@@ -1,0 +1,40 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 4,
+  "attempt": 3,
+  "status": "review-only source candidate; not accepted",
+  "rawSource": "sources/pose-04-attempt3-generated-raw.png",
+  "rawSourceSha256": "a378e395de93cdc4bb03b7d33ab7665e59877b2c9fa8af7ea91e37bfd0c69719",
+  "source": "cleaned/pose-04-attempt3-main-alpha.png",
+  "sourceSha256": "f7d8ab2325ce4994a81be246129eb8360806411c02383ed0330294231543849f",
+  "output": "layout-candidates/pose-04-attempt3-cell128x96.png",
+  "outputSha256": "7eea752e71dcea94faa71c7ae89e6ede04ac45470eb9b8da0a4f63fab2227732",
+  "canvasPx": [
+    128,
+    96
+  ],
+  "alpha16MarginsLTRBpx": [
+    39,
+    7,
+    40,
+    9
+  ],
+  "layout": {
+    "size": [
+      128,
+      96
+    ],
+    "figurePx": [
+      49,
+      80
+    ],
+    "placementXY": [
+      39,
+      7
+    ],
+    "baselineY": 87
+  },
+  "method": "Uniform premultiplied-alpha downscale, centered horizontally and baseline y=87; no redraw or mirroring."
+}

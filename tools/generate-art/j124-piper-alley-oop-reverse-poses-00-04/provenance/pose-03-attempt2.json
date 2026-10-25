@@ -1,0 +1,100 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 3,
+  "attempt": 2,
+  "beat": "Airborne after takeoff; both legs bent and separated, both arms reach overhead, fingers open; not yet caught.",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-4ff6fc2c-65d1-40bc-954c-a54a7905030c",
+  "fileMtimeUtc": "2026-10-25T17:31:56.446Z",
+  "promptFile": "pose-03-attempt2-prompt.md",
+  "promptSha256": "5719d758d77dfe7019fec984dba1a7104c83295570857ddb73bf2c435e536b30",
+  "referencesAttached": [
+    "tools/generate-art/sources/piper-quickstep-alley-oop-power15.png"
+  ],
+  "referenceRole": "Accepted J.123 atlas used as strict style reference and Piper identity guide only; generated a new pose, not an edit or collage.",
+  "rawSource": "sources/pose-03-attempt2-generated-raw.png",
+  "rawSha256": "2b9d3cea128394395a5a088161d5e96415e9cb0a8908baf806f4dfa6a8c172e4",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16Components": 17,
+  "largestAlpha16ComponentPixels": 221622,
+  "rawAlpha16MarginsLTRBpx": [
+    341,
+    164,
+    235,
+    118
+  ],
+  "cleanupMethod": "Kept largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw; detached alpha specks removed.",
+  "cleanedSource": "cleaned/pose-03-attempt2-main-alpha.png",
+  "cleanedSha256": "57d49291e1410aa8901d1faa97903f26e1d5b462069c1d4341c69608c501746a",
+  "cleanedAlpha16MarginsLTRBpx": [
+    341,
+    164,
+    235,
+    118
+  ],
+  "fit80Candidate": "layout-candidates/pose-03-attempt2-fit80.png",
+  "fit80Sha256": "037616267465b3208b6336f5b5c1784970ebb4675203f129bb5ffb1756f25012",
+  "fit80MarginsLTRBpx": [
+    246,
+    81,
+    246,
+    81
+  ],
+  "nativeCellCandidate": "layout-candidates/pose-03-attempt2-cell128x96.png",
+  "nativeCellSha256": "e445e367c5a6a9ccb44b188428e8d022377786d0ab7e88fad5c60efdbff97482",
+  "nativeCellMarginsLTRBpx": [
+    36,
+    7,
+    36,
+    9
+  ],
+  "layout": {
+    "pose": 3,
+    "source": "cleaned/pose-03-attempt2-main-alpha.png",
+    "sourceSha256": "57d49291e1410aa8901d1faa97903f26e1d5b462069c1d4341c69608c501746a",
+    "canvasPx": [
+      128,
+      96
+    ],
+    "cropAlpha16LTRB": [
+      341,
+      164,
+      1019,
+      1136
+    ],
+    "scale": 0.08230453,
+    "figurePx": [
+      56,
+      80
+    ],
+    "placementXY": [
+      36,
+      7
+    ],
+    "baselineY": 87,
+    "output": "layout-candidates/pose-03-attempt2-cell128x96.png",
+    "outputSha256": "e445e367c5a6a9ccb44b188428e8d022377786d0ab7e88fad5c60efdbff97482",
+    "alpha16MarginsLTRBpx": [
+      36,
+      7,
+      36,
+      9
+    ],
+    "policy": "Review-only native cell: uniform scale, cap80px high/112px wide, center x and baseline y=87, no redraw/mirroring."
+  },
+  "review": {
+    "status": "rejected-near-duplicate-pose",
+    "identity": "Piper identity and full anatomy appear consistent; verify at native scale and against neighboring frames.",
+    "style": "Native pixel-cell review against J.123 reference pending.",
+    "pose": "Rejected in 128x96 sequence review: its narrow upright overhead reach was too close to pose04 attempt2.",
+    "transparency": "RGBA; raw alpha16 margins and selected cell margins recorded.",
+    "ballFree": "No ball or prop in source.",
+    "source": "not integrated, packed, or selected for production."
+  },
+  "disposition": "rejected-near-duplicate; raw source retained."
+}

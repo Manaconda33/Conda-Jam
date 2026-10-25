@@ -1,0 +1,107 @@
+{
+  "athlete": "piper-quickstep",
+  "issue": "J.124",
+  "clip": "alley-oop-reverse",
+  "pose": 4,
+  "attempt": 1,
+  "beat": "airborne early reach; both legs bent and separated, arms extended overhead",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-f1bf2bef-b583-4c20-8531-bf1621afbe82",
+  "generationDate": "2026-10-25",
+  "generationTimeNote": "Exact per-image timestamp was not returned; generated during the 2026-10-25 UTC session.",
+  "promptFile": "pose-04-attempt1-prompt.md",
+  "promptSha256": "6a7e69026bb69ef4f48f303b986831b73a3fb8000f49f4a094215ec341797c51",
+  "identityReferencesAttached": false,
+  "identityReferencePolicy": "Text-only canonical Piper identity in prompt; original pose generation, no source image passed to ImageGen.",
+  "rawSource": "sources/pose-04-attempt1-generated-raw.png",
+  "rawSourceSha256": "2d35deadfa0bd1d3a9eeb44f92648662e0dab26e31dc95a42f7d276e0f5325f1",
+  "rawCanvasPx": [
+    1254,
+    1254
+  ],
+  "rawAlpha16MarginsLTRBpx": [
+    306,
+    141,
+    275,
+    140
+  ],
+  "cleanup": {
+    "components": 2,
+    "largestComponentPixels": 208171,
+    "method": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+    "source": "sources/pose-04-attempt1-generated-raw.png",
+    "sourceSha256": "2d35deadfa0bd1d3a9eeb44f92648662e0dab26e31dc95a42f7d276e0f5325f1",
+    "cleanedSource": "cleaned/pose-04-attempt1-main-alpha.png",
+    "cleanedSha256": "6603425fc38c49d3fe6476edb5e65999fe12b130899890932f74f8bcfd74193e",
+    "cleanedAlpha16MarginsLTRBpx": [
+      306,
+      141,
+      275,
+      140
+    ]
+  },
+  "layout": {
+    "athlete": "piper-quickstep",
+    "issue": "J.124",
+    "clip": "alley-oop-reverse",
+    "pose": 4,
+    "attempt": 1,
+    "rawSource": "sources/pose-04-attempt1-generated-raw.png",
+    "rawSha256": "2d35deadfa0bd1d3a9eeb44f92648662e0dab26e31dc95a42f7d276e0f5325f1",
+    "rawCanvasPx": [
+      1254,
+      1254
+    ],
+    "alpha16Components": 2,
+    "largestComponentPixels": 208171,
+    "cleanupMethod": "Keep largest 8-connected alpha>16 component plus one-pixel dilation halo; alpha only; no redraw.",
+    "cleanedSource": "cleaned/pose-04-attempt1-main-alpha.png",
+    "cleanedSha256": "6603425fc38c49d3fe6476edb5e65999fe12b130899890932f74f8bcfd74193e",
+    "cleanedAlpha16MarginsLTRBpx": [
+      306,
+      141,
+      275,
+      140
+    ],
+    "cropAlpha16LTRB": [
+      306,
+      141,
+      979,
+      1114
+    ],
+    "requiredMarginPx": 80,
+    "scale": 1.12230216,
+    "figurePx": [
+      755,
+      1092
+    ],
+    "placementXY": [
+      249,
+      81
+    ],
+    "candidate": "layout-candidates/pose-04-attempt1-fit80.png",
+    "candidateSha256": "fc7d26659f373171ef62d42b8e225944a9efd53e588e724a8eada1e9a5385cc8",
+    "candidateAlpha16MarginsLTRBpx": [
+      249,
+      81,
+      250,
+      81
+    ],
+    "method": "Uniform premultiplied-alpha Lanczos downscale and center placement; no redraw or pose alteration.",
+    "lightProof": "proofs/pose-04-attempt1-fit80-light.png",
+    "darkProof": "proofs/pose-04-attempt1-fit80-dark.png"
+  },
+  "selectedCandidate": "layout-candidates/pose-04-attempt1-fit80.png",
+  "selectedCandidateSha256": "fc7d26659f373171ef62d42b8e225944a9efd53e588e724a8eada1e9a5385cc8",
+  "review": {
+    "status": "rejected-style-mismatch",
+    "identity": "Piper identity appears consistent: warm brown skin, dark eyes, attached bright orange high ponytail, russet/cream uniform, white socks, red/cream shoes.",
+    "anatomy": "Complete adult human anatomy; verify neighboring poses at native atlas scale.",
+    "pose": "Beat is distinct in source; parent review pending.",
+    "transparency": "RGBA source with transparent backdrop.",
+    "ballFree": "No ball or prop in the source.",
+    "margins": "Raw alpha>16 margins shown above; selected candidate uses uniform layout with at least80px on all sides.",
+    "style": "Smooth glossy cel/vector rendering does not match the harder pixel clusters and crisp stepped contours in accepted Piper J.123 production art."
+  },
+  "disposition": "rejected-style-mismatch; exact prompt and raw source retained."
+}
