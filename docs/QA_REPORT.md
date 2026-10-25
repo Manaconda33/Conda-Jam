@@ -2,6 +2,8 @@
 
 J.115 source checkpoint only: Piper `dunk-power` has an accepted 15-pose source and packed atlas, but is not registered. Its separate ball track is still unaccepted after native review found unclear gather, peak and pre-release contact. The follow-up candidate preview was invalid because it rendered legacy sprites; no J.115 test or audit counts change until corrected previews pass.
 
+Commit `158c400e` preserves the source checkpoint and review evidence. Standard `git push origin HEAD:main` failed with `Could not connect to server` at configured proxy port8080; no Pages workflow was triggered. Latest deployed checkpoint remains `513e0a59` / run #169.
+
 - `npm test`: PASS,36/36 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer suite: PASS,55 tests; production build: PASS.
 - Native Canvas review: PASS,20/20 action captures per zoom at100%/120%, both facings, all10 frames and the frame9/tick65 hand-on-hip finish. Source, packed and semantic sequence review accept identity/anatomy, exact 4×3 source layout, component map, margins, transparency and no-ball art.
 - `npm run test:e2e`: BLOCKED before app readiness; server exits before responding at `http://127.0.0.1:4175/`.
