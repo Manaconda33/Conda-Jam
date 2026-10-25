@@ -1,0 +1,18 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry18",
+  "decision": "REJECT",
+  "generationId": "exec-dde7a619-eb2c-4ec8-bd54-bb027f490a82",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry18-raw.png",
+  "sourceSha256": "9ea7e8d73cf5386e60251e0aa994aa3b2e832c71b8edc33a7c703794cd1277ee",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry18-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry18-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PASS: adult human with shoulder-length locs, red headband, complete two arms/two hands/two legs/two shoes; no fox traits or ball.",
+    "pose": "PARTIAL: airborne folded-leg layup carry reads; shooting hand touches/overlaps lower jaw/cheek instead of having a clear visible gap below the lower lip.",
+    "costume": "PARTIAL: russet/cream basketball uniform and cream socks/shoes; no ball, number, or text.",
+    "palette": "FAIL: skin reads copper/bronze/orange rather than the specified deep-brown canon palette.",
+    "transparency": "FAIL: opaque RGB with checkerboard pattern baked across canvas; no alpha channel.",
+    "marginsScale": "FAIL: transparent margins are 0px because the full RGB canvas is opaque; visible figure is substantially larger than the requested ~39% canvas height (visually about 58%)."
+  },
+  "disposition": "Preserve raw and exact prompt; do not remove the baked checkerboard, recolor, clean, normalize, pack, or accept."
+}

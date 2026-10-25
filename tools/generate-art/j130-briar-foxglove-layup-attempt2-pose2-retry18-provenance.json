@@ -1,0 +1,44 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "frame": 2,
+  "tick": 5,
+  "retry": 18,
+  "generationId": "exec-dde7a619-eb2c-4ec8-bd54-bb027f490a82",
+  "generator": "image_gen.imagegen",
+  "originalGeneratedPath": "/workspace/generated_images/exec-dde7a619-eb2c-4ec8-bd54-bb027f490a82.png",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry18-raw.png",
+  "rawSha256": "9ea7e8d73cf5386e60251e0aa994aa3b2e832c71b8edc33a7c703794cd1277ee",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "transparentBackgroundRequested": true,
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry18-prompt.md",
+  "promptSha256": "e0592bc5f5c262b05a46bedde79547c41c533608a281e6e183fe6ee358df3d05",
+  "referencedImagePaths": [],
+  "alphaMetrics": {
+    "inputMode": "RGB",
+    "convertedAlphaExtrema": [
+      255,
+      255
+    ],
+    "nonzeroAlphaBoundsXYXYExclusive": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "marginsLTRB": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "RGB output has no alpha channel; converted alpha is fully opaque. Checkerboard is baked into the full canvas."
+  },
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry18-light-dark-review.png",
+  "decision": "REJECT; preserve untouched raw; no cleanup, normalization, packing or acceptance"
+}
