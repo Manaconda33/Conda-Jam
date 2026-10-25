@@ -1,0 +1,151 @@
+{
+  "issue": "J.127",
+  "athlete": "briar-foxglove",
+  "clip": "pass-behind",
+  "direction": "right",
+  "generationId": "exec-f854b607-cf46-4dc8-9c1c-1236a8293a4f",
+  "generatedAt": "2026-10-25",
+  "rawSource": "tools/generate-art/sources/j127-briar-foxglove-pass-behind-generated-raw.png",
+  "rawSourceSha256": "0e8d7ba3be93f017c441a10fbd1986330be2e799c9276647fa69c78448a5d5df",
+  "promptFile": "tools/generate-art/j127-briar-foxglove-pass-behind-prompt-attempt1.md",
+  "reference": "public/assets/animation/briar-foxglove-shoot-right.webp",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "cellSize": [
+    512,
+    512
+  ],
+  "sourceCellReview": [
+    {
+      "pose": 0,
+      "bboxAlphaGt16": [
+        119,
+        52,
+        383,
+        477
+      ],
+      "marginsLTRB": [
+        119,
+        52,
+        129,
+        35
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 1,
+      "bboxAlphaGt16": [
+        119,
+        51,
+        387,
+        481
+      ],
+      "marginsLTRB": [
+        119,
+        51,
+        125,
+        31
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 2,
+      "bboxAlphaGt16": [
+        118,
+        49,
+        449,
+        481
+      ],
+      "marginsLTRB": [
+        118,
+        49,
+        63,
+        31
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 3,
+      "bboxAlphaGt16": [
+        69,
+        48,
+        445,
+        474
+      ],
+      "marginsLTRB": [
+        69,
+        48,
+        67,
+        38
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 4,
+      "bboxAlphaGt16": [
+        90,
+        47,
+        406,
+        476
+      ],
+      "marginsLTRB": [
+        90,
+        47,
+        106,
+        36
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 5,
+      "bboxAlphaGt16": [
+        133,
+        49,
+        405,
+        476
+      ],
+      "marginsLTRB": [
+        133,
+        49,
+        107,
+        36
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "transparentOuterCorners": true,
+  "status": "source review pending",
+  "notes": "Six complete pose candidates; minimum source margin 31px; no pose touches/crosses a cell. No atlas packed pending independent review."
+}

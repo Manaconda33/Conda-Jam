@@ -1,0 +1,221 @@
+[
+  {
+    "athlete": "briar-foxglove",
+    "direction": "right",
+    "clip": "pass-behind",
+    "src": "./public/assets/animation/briar-foxglove-pass-behind-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "issue": "J.127",
+      "athlete": "briar-foxglove",
+      "clip": "pass-behind",
+      "direction": "right",
+      "canonicalSection": "Emberwood Kits athlete identity; pass-behind frame3/tick7 release anchor",
+      "generatedAt": "2026-10-25",
+      "generationId": "exec-f854b607-cf46-4dc8-9c1c-1236a8293a4f",
+      "imageGenerationId": "exec-f854b607-cf46-4dc8-9c1c-1236a8293a4f",
+      "eligibleForPacking": true,
+      "sourceImage": "tools/generate-art/sources/j127-briar-foxglove-pass-behind-generated-raw.png",
+      "sourceSha256": "0e8d7ba3be93f017c441a10fbd1986330be2e799c9276647fa69c78448a5d5df",
+      "rawSourceImage": "tools/generate-art/sources/j127-briar-foxglove-pass-behind-generated-raw.png",
+      "rawSourceSha256": "0e8d7ba3be93f017c441a10fbd1986330be2e799c9276647fa69c78448a5d5df",
+      "prompt": "tools/generate-art/j127-briar-foxglove-pass-behind-prompt-attempt1.md",
+      "promptFile": "tools/generate-art/j127-briar-foxglove-pass-behind-prompt-attempt1.md",
+      "reference": "public/assets/animation/briar-foxglove-shoot-right.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sourceCellSize": [
+        512,
+        512
+      ],
+      "sourceMarginsLTRB": [
+        [
+          119,
+          52,
+          129,
+          35
+        ],
+        [
+          119,
+          51,
+          125,
+          31
+        ],
+        [
+          118,
+          49,
+          63,
+          31
+        ],
+        [
+          69,
+          48,
+          67,
+          38
+        ],
+        [
+          90,
+          47,
+          106,
+          36
+        ],
+        [
+          133,
+          49,
+          107,
+          36
+        ]
+      ],
+      "cleanupNotes": "No cleanup or pose redraw. The six original connected figures are isolated and uniformly fit by package-action6.py. Raw source and margins remain preserved. The prompt requested50px minimum; ImageGen yielded31px at pose01, which is non-touching, within the spec margin rule, and accepted by independent review.",
+      "review": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-25T18:58:55Z",
+        "reviewers": [
+          "independent J.127 source reviewer",
+          "Codex parent"
+        ],
+        "notes": "Six distinct complete Briar human poses; alpha-zero outer corners; no ball in art; source margins31–129px. Poses02–04 show behind-body load, image-left release with open fingers, and follow-through; no pose touches/crosses a cell."
+      },
+      "candidateImages": [
+        {
+          "generationId": "exec-f854b607-cf46-4dc8-9c1c-1236a8293a4f",
+          "source": "tools/generate-art/sources/j127-briar-foxglove-pass-behind-generated-raw.png",
+          "prompt": "tools/generate-art/j127-briar-foxglove-pass-behind-prompt-attempt1.md",
+          "status": "selected-and-accepted"
+        }
+      ],
+      "releaseFrame": 3,
+      "releaseTick": 7,
+      "ballTrackCandidate": {
+        "height": [
+          1.05,
+          0.95,
+          0.9,
+          1.25,
+          1.25,
+          1.2
+        ],
+        "forward": [
+          5,
+          2,
+          -5,
+          -14,
+          -18,
+          -22
+        ],
+        "status": "accepted-native-review; retained for candidate history"
+      },
+      "atlas": {
+        "path": "public/assets/animation/briar-foxglove-pass-behind-right.webp",
+        "sha256": "57947e10f4d30fca90a0cc46c9bdd45a93024a1704a19aa3f541da8ece7e6d5a",
+        "size": [
+          288,
+          192
+        ],
+        "grid": [
+          3,
+          2
+        ],
+        "cellSize": [
+          96,
+          96
+        ]
+      },
+      "nativeReview": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-25T18:58:55Z",
+        "reviewers": [
+          "independent J.127 source reviewer",
+          "independent J.127 ball-track reviewer",
+          "Codex parent"
+        ],
+        "previewReports": [
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-100/report.json",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-120/report.json"
+        ],
+        "contactPreviews": [
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/source-light-dark-review.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/atlas-light-dark-review.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-100/contact-crops.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-120/contact-crops.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/last-contact-review.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-100/left-pass-behind-pre-release-tick6.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-100/right-pass-behind-pre-release-tick6.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-120/left-pass-behind-pre-release-tick6.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-120/right-pass-behind-pre-release-tick6.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-100/left-pass-behind-frame3.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-100/right-pass-behind-frame3.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-120/left-pass-behind-frame3.png",
+          "tools/generate-art/previews/j127-briar-foxglove-pass-behind/native-120/right-pass-behind-frame3.png"
+        ],
+        "reviewNotes": "Actual src/main.js Canvas at100% and120%, both facings. All six production frames render. At last carried tick6 the separate ball stays close behind the hip-side hand; frame3/tick7 clears the open fingertips as ownerless pass flight. Native Canvas is diagnostic evidence, not browser E2E."
+      },
+      "ballTrack": {
+        "height": [
+          1.05,
+          0.95,
+          0.9,
+          1.25,
+          1.25,
+          1.2
+        ],
+        "forward": [
+          5,
+          2,
+          -5,
+          -14,
+          -18,
+          -22
+        ],
+        "status": "accepted-native-review",
+        "file": "src/core/animation.js",
+        "releaseFrame": 3,
+        "releaseTick": 7
+      },
+      "reviewState": "accepted source and native ball-track review",
+      "candidateOnly": false
+    },
+    "reviewed": true
+  }
+]

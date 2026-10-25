@@ -1,3 +1,10 @@
+## Current checkpoint — 2026-10-25 (J.127 Briar Foxglove `pass-behind` integrated locally)
+
+- Briar is now **9/29 clips /70 authored drawings**. J.127 adds six distinct, complete, ball-free human poses in a 3×2 atlas. Her warm deep-brown skin, shoulder-length locs, red headband, compact build and russet/cream Emberwood kit remain consistent. The 1536×1024 generated source has transparent corners and 31–129px per-cell margins; no pose touches or crosses a cell. Source reviewer accepted poses02–04 as a behind-the-back pass toward image-left.
+- Source SHA-256 `0e8d7ba3be93f017c441a10fbd1986330be2e799c9276647fa69c78448a5d5df`; atlas SHA-256 `57947e10f4d30fca90a0cc46c9bdd45a93024a1704a19aa3f541da8ece7e6d5a`. The separate Briar track H `[1.05,0.95,0.9,1.25,1.25,1.2]` / F `[5,2,-5,-14,-18,-22]` passes independent native contact/release review at100%/120% in both facings: carried through tick6; ownerless release at frame3/tick7. Exact prompt, generation ID, source/layout/provenance, atlas, candidates and captures are retained.
+- Report-only strict audit: **822 clips /7447 authored drawings /105 athletes**, 2281 missing clips, one target shortfall and4 inherited prompt findings. Audit timestamp `2026-10-25T19:03:27.141Z`.
+- Next roster-order clip: J.128 Briar Foxglove `receive` (four poses; frame2 catch at tick4). Current branch `codex/jamverse-buzzer-art-retries`; push/Pages verification pending from the last unreachable proxy attempt. Latest deployed checkpoint remains `513e0a59` / run #169. User-owned J.106 review helper remains untouched.
+
 ## Current checkpoint — 2026-10-25 (J.126 Briar Foxglove pass-overhead integrated locally)
 
 - Briar is now **8/29 clips /64 authored drawings**. J.126 adds six distinct, ball-free overhead-pass poses in a transparent 3×2 atlas. Her adult-human anatomy, deep-brown skin, locs/red headband, compact build and russet/cream Emberwood kit remain consistent. The selected source has alpha-zero outer corners; minimum raw-cell margin is41px. Attempts1 and2 with tighter margins remain rejected and preserved with prompts, bounds and previews.

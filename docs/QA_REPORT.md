@@ -1,10 +1,10 @@
-# Latest validation — J.126 Briar Foxglove `pass-overhead`
+# Latest validation — J.127 Briar Foxglove `pass-behind`
 
-- Briar reaches8/29 clips /64 authored drawings. Selected six-frame source SHA-256 `17b398fdb4ba09fe83a81f35d9589fc31c2f9bb6cee79320b1c0267c8210533e`; production WebP SHA-256 `40cad6678d756d6a6ba39e076bc9d99712725a5bef9a9459d2687af1224e50ed`. The source has six distinct, complete human poses, transparent corners, no embedded basketball, and no pose touches/crosses a cell. Minimum source margin is41px; earlier tight-margin candidates remain rejected.
-- Accepted separate ball path H `[1.0,1.2,1.9,1.9,2.35,1.75]` / F `[3.5,4,1,1,12,17]`. Actual Canvas captures at100%/120% in both facings place it between Briar’s raised hands through tick6; tick7 releases ownerless pass flight.
-- `npm test`: PASS,48/48 files; lint PASS,18 modules; content PASS,35 franchises/105 athletes; simulation PASS,100 matches /861,421 ticks /6 overtimes; production build PASS. Focused J.126 atlas/ownership test PASS.
-- Strict audit: **821 clips /7,448 authored drawings /105 athletes**,2,282 missing clips, one target shortfall and4 inherited prompt findings; generated2026-10-25T18:52:09.393Z. J.126 adds no new audit errors.
-- E2E was not rerun; previous sandbox localhost socket denial remains documented. Push and Pages validation are pending due the unreachable configured proxy; latest deployed checkpoint remains `513e0a59` / run #169.
+- Briar now has9/29 clips /70 authored drawings. Source reviewer accepted six distinct complete ball-free poses, transparent corners and 31–129px raw margins. Independent native ball review confirms tick6 hand contact and frame3/tick7 ownerless release in both facings at100%/120%.
+- Source/atlas SHA-256: `0e8d7ba3be93f017c441a10fbd1986330be2e799c9276647fa69c78448a5d5df` / `57947e10f4d30fca90a0cc46c9bdd45a93024a1704a19aa3f541da8ece7e6d5a`. Prompt, generation ID, provenance, source, layout, exact captures and candidate archive are preserved.
+- `npm test`: PASS,49/49 files; lint PASS,18 modules; content PASS,35 franchises/105 athletes; simulation PASS,100 matches /861,421 ticks /6 overtimes; build PASS. Focused J.127 test passes.
+- Report-only strict audit: **822 clips /7447 authored drawings /105 athletes**, 2281 missing clips, one target shortfall and4 inherited prompt findings; generated `2026-10-25T19:03:27.141Z`.
+- Next asset is J.128 Briar Foxglove `receive`. E2E not rerun; current local server restriction remains documented. Push/Pages validation remains pending after the prior proxy connection failure; latest deployed checkpoint is `513e0a59` / run #169.
 
 # Validation — J.119 Piper Quickstep `dunk-tomahawk`
 
