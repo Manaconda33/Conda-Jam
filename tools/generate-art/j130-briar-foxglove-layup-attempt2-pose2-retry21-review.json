@@ -1,0 +1,21 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry21",
+  "decision": "REJECT",
+  "generationId": "exec-65507927-9083-4373-bcf4-e7a331a09823",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry21-raw.png",
+  "sourceSha256": "31725e8c976af74e9795abab8e92c7b1705c938ba8dc7d6403d485b0a9454ad6",
+  "decodedRgbaPixelSha256": "6cee93cc51d5efea96dd100e791bb32eaaae1b0d6d3163284d3a7f631a210d2d",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry21-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry21-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PARTIAL: adult human with dark shoulder locs, red headband, russet/cream kit, complete two arms/hands and two legs/shoes; no fox traits or ball. A thin red fringe/low-alpha noise appears around parts of the silhouette.",
+    "pose": "FAIL: airborne raised-knee ascent reads, but the shooting fingertips are up beside the lower face and do not sit clearly below the lower lip with a visible gap from chin/mouth. The pose approaches cheek level but misses the explicit hand placement.",
+    "palette": "FAIL: skin appears lighter and warmer/orange than Briar\u2019s canonical deep warm-brown complexion; no numeric reference comparison was made.",
+    "transparency": "PARTIAL: true RGBA transparency, alpha extrema 0..255; no baked checkerboard. Low-alpha artifacts produce 122 disconnected alpha>=1 components.",
+    "cellMargins": "FAIL: alpha>=64 margins L/T/R/B are 473/329/434/359px, but alpha>=1 artifacts leave only41px left,15px top,22px right,56px bottom.",
+    "scale": "FAIL: alpha>=64 figure height is566/1254=45.14%, above the prompt\u2019s ~38% target and previous44% cap.",
+    "uniqueness": "PASS: decoded RGBA SHA-256 was checked against existing J.130 raw PNGs; no pixel-identical duplicate was found.",
+    "ball": "PASS: no ball is baked into this athlete source; ball remains a separate athlete-specific track."
+  },
+  "reason": "Reject unchanged for face/hand separation, off-canon warmer skin, figure scale, and low-alpha edge residue. Exact prompt/raw/provenance/review/preview are retained. No cleanup, recoloring, normalization, packing, registration, or acceptance."
+}
