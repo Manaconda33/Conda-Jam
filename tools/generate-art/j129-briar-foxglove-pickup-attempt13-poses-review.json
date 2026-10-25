@@ -214,7 +214,8 @@
       64.9,
       77.6
     ],
-    "status": "rejected-source-as-is"
+    "status": "rejected-source-as-is",
+    "transparencyReview": "Background looks clear in light/dark proof, but24,056 pixels retain alpha1\u201363 outside the solid figure; alpha>0 bbox is [0,8,1232,1254], touching the left and bottom edges but not all four."
   },
   "pose4Retry": {
     "generationId": "exec-e1c54d85-f133-4714-933b-6e6f02dd265f",
@@ -235,5 +236,19 @@
     ],
     "status": "rejected-source-as-is",
     "reviewFile": "tools/generate-art/j129-briar-foxglove-pickup-attempt13-pose4-retry-review.json"
+  },
+  "independentSelectedSetReview": {
+    "decision": "raw art acceptable as candidate source material only; not accepted for packing",
+    "selectedFrames": [
+      "pose0-retry",
+      "pose1",
+      "pose2",
+      "pose3",
+      "pose4-retry"
+    ],
+    "sourceIntegrity": "Five distinct generation IDs and source checksums; original pose0/pose4 collision excluded from selected set.",
+    "sequence": "Readable ready \u2192 partial bend/reach \u2192 medium-low squat/reach \u2192 deepest contact crouch \u2192 partial recovery.",
+    "identity": "Briar\u2019s adult human identity, dark locs/red headband, russet/cream kit remain consistent; anatomy broadly plausible; no ball in any source.",
+    "sourceCriteria": "All five are1254x1254, retain20,432\u201324,056 alpha1\u201363 pixels outside silhouettes, and fail the136px whole-canvas-normalized margin target. Pose3 alpha>0 bbox touches top/left. Pose4 retry alpha>0 bbox touches bottom. Exact transparency and cell margins must be established in a normalized candidate before acceptance/packing."
   }
 }
