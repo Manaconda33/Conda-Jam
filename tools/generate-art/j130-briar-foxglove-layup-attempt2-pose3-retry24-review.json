@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry24",
+  "decision": "REJECT",
+  "generationId": "exec-0538e75b-2c42-4467-8678-d379db4406d4",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry24-raw.png",
+  "sourceSha256": "83a7429ed5285a01752057c22f3d173abb615c042c2cdaf51215d910ce43f4b6",
+  "decodedRgbaPixelSha256": "3bc2a70645fa5cbdf2562a3772d87889b51f8a91f88e00606f7927deb4b00847",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry24-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose3-retry24-light-dark-review.png",
+  "checks": {
+    "pose": "FAIL: right-facing airborne layup reads, but the shooting hand and fingers are raised above the crown/headband rather than staying below the headband at forehead height. The guide hand opens sideways; legs are airborne and complete.",
+    "identityAnatomy": "PARTIAL: dark locs, vivid red headband, russet/cream kit, cream trainers; adult human with two arms/hands and two legs/shoes, no ball or fox traits. No cropping or extra limbs.",
+    "palette": "FAIL: skin reads warm orange/copper, brighter and less brown than Briar's accepted reference palette despite numeric anchors in the prompt.",
+    "transparency": "PARTIAL: true RGBA alpha 0..255 and transparent background. At alpha>=1, low-alpha residue reaches the left and bottom canvas edges; 193 disconnected components. Alpha>=64 body is one component.",
+    "marginsScale": "FAIL: alpha>=64 body height is 46.49% of canvas vs requested30–32%; top/bottom clearances are24.88%/28.63%, below34%. Alpha>=1 margins are0/39/30/0px. Low-alpha residue and large silhouette fail safe cell composition.",
+    "ball": "PASS: no basketball is present; retain the separate athlete-specific Briar track for later hand alignment.",
+    "preview": "Reviewed the original RGBA source composited on light and dark backdrops; checkerboard is not baked in."
+  },
+  "reason": "Reject unchanged for above-crown hand placement, orange skin, oversized figure, deficient alpha64 margins, and alpha1 edge residue. Do not clean, recolor, normalize, pack, register, or accept."
+}
