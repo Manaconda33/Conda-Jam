@@ -1,0 +1,122 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry16",
+  "frame": 3,
+  "tick": 8,
+  "generationId": "exec-096d6c9f-f516-44b7-9aea-21efbc55b507",
+  "generator": "image_gen.imagegen",
+  "generatedOriginalPath": "/workspace/generated_images/exec-096d6c9f-f516-44b7-9aea-21efbc55b507.png",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry16-raw.png",
+  "rawSha256": "6a9a9e8736c5a6e13b79bf66bcfc3ac93a6b4708bbd23886de4ed813d9ddaab2",
+  "pixelRgbaSha256": "b0175cc9e9332b3664cff61669f76960459ea37d5e9d3038652f7e48c9e8ef21",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentBackgroundRequested": true,
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry16-prompt.md",
+  "promptSha256": "0978a3ee238cfb5439a62a3dc46aea2da1f9a8b2472186f0470fc16ac7e34afd",
+  "thresholdMetrics": {
+    "1": {
+      "bbox_xyxy_exclusive": [
+        25,
+        19,
+        1234,
+        1223
+      ],
+      "margins_ltrb": [
+        25,
+        19,
+        20,
+        31
+      ],
+      "occupancy_fraction_wh": [
+        0.964115,
+        0.960128
+      ],
+      "connected_components": 637
+    },
+    "8": {
+      "bbox_xyxy_exclusive": [
+        403,
+        235,
+        978,
+        994
+      ],
+      "margins_ltrb": [
+        403,
+        235,
+        276,
+        260
+      ],
+      "occupancy_fraction_wh": [
+        0.458533,
+        0.605263
+      ],
+      "connected_components": 111
+    },
+    "32": {
+      "bbox_xyxy_exclusive": [
+        403,
+        235,
+        978,
+        992
+      ],
+      "margins_ltrb": [
+        403,
+        235,
+        276,
+        262
+      ],
+      "occupancy_fraction_wh": [
+        0.458533,
+        0.603668
+      ],
+      "connected_components": 1
+    },
+    "64": {
+      "bbox_xyxy_exclusive": [
+        404,
+        236,
+        978,
+        992
+      ],
+      "margins_ltrb": [
+        404,
+        236,
+        276,
+        262
+      ],
+      "occupancy_fraction_wh": [
+        0.457735,
+        0.602871
+      ],
+      "connected_components": 1
+    },
+    "128": {
+      "bbox_xyxy_exclusive": [
+        404,
+        236,
+        977,
+        992
+      ],
+      "margins_ltrb": [
+        404,
+        236,
+        277,
+        262
+      ],
+      "occupancy_fraction_wh": [
+        0.456938,
+        0.602871
+      ],
+      "connected_components": 1
+    }
+  },
+  "lightDarkPreview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry16-light-dark-review.png",
+  "pixelDuplicateCandidates": []
+}

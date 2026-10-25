@@ -1,0 +1,18 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry16",
+  "decision": "REJECT; keep raw unchanged, no cleanup/packing",
+  "generationId": "exec-096d6c9f-f516-44b7-9aea-21efbc55b507",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry16-raw.png",
+  "rawSha256": "6a9a9e8736c5a6e13b79bf66bcfc3ac93a6b4708bbd23886de4ed813d9ddaab2",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry16-light-dark-review.png",
+  "checks": {
+    "pose": "Shooting forearm/hand rises above the crown, violating the prerelease brow/headband target. Guide arm is open and both legs are visible.",
+    "identity_anatomy": "Adult human Briar with locs and red headband; exactly two arms and two legs; no ball.",
+    "palette": "Skin reads orange/bronze relative to accepted deep-brown Briar; costume broadly russet/cream.",
+    "transparency": "RGBA with alpha range 0\u2013255 and zero-alpha exterior.",
+    "margins": "alpha>=64 margins L/T/R/B = [404,236,276,262]px. Top margin18.8%; bottom20.9%.",
+    "scale": "alpha>=64 height756px/1254 =60.3%, above48% cap.",
+    "components": "alpha>=8 has many detached pixels; metrics are in provenance.",
+    "uniqueness": "Pixel duplicate audit found no duplicate."
+  }
+}
