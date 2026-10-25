@@ -1,0 +1,121 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry12",
+  "decision": "REJECT",
+  "generationId": "exec-8c6b767b-b59b-4a8a-826c-6c34b19b03f7",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry12-raw.png",
+  "sourceSha256": "15094bbd2f606654c9df3d0c499c97429ed8d419cf3fca76402b72cc80ffcff5",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry12-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry12-light-dark-review.png",
+  "checks": {
+    "pose": "FAIL: folded-leg ascent reads, but shooting fingertips cover nose/mouth instead of remaining beside the lower cheek.",
+    "identityAnatomy": "PASS/PARTIAL: human Briar with locs/headband, two arms and two legs; small magenta collar artifact.",
+    "paletteCostume": "FAIL: skin remains orange-bright; trainers russet-dominant rather than mostly cream.",
+    "transparency": "FAIL: nonzero alpha residue spans near canvas edges.",
+    "cellMargins": "FAIL: alpha>=8 top margin241/1254=19.2%, bottom313px=25%; height700/1254=55.8% exceeds48% cap.",
+    "ball": "PASS: no ball or prop."
+  },
+  "thresholds": {
+    "1": {
+      "boundsXYXYExclusive": [
+        31,
+        37,
+        1232,
+        1175
+      ],
+      "marginsLTRB": [
+        31,
+        37,
+        22,
+        79
+      ],
+      "components": 116,
+      "pixelCount": 163145
+    },
+    "8": {
+      "boundsXYXYExclusive": [
+        472,
+        241,
+        884,
+        941
+      ],
+      "marginsLTRB": [
+        472,
+        241,
+        370,
+        313
+      ],
+      "components": 109,
+      "pixelCount": 150947
+    },
+    "32": {
+      "boundsXYXYExclusive": [
+        473,
+        242,
+        884,
+        941
+      ],
+      "marginsLTRB": [
+        473,
+        242,
+        370,
+        313
+      ],
+      "components": 1,
+      "pixelCount": 148668
+    },
+    "64": {
+      "boundsXYXYExclusive": [
+        473,
+        242,
+        884,
+        941
+      ],
+      "marginsLTRB": [
+        473,
+        242,
+        370,
+        313
+      ],
+      "components": 1,
+      "pixelCount": 147838
+    },
+    "128": {
+      "boundsXYXYExclusive": [
+        473,
+        242,
+        883,
+        940
+      ],
+      "marginsLTRB": [
+        473,
+        242,
+        371,
+        314
+      ],
+      "components": 1,
+      "pixelCount": 146047
+    },
+    "250": {
+      "boundsXYXYExclusive": [
+        474,
+        243,
+        883,
+        940
+      ],
+      "marginsLTRB": [
+        474,
+        243,
+        371,
+        314
+      ],
+      "components": 257,
+      "pixelCount": 134200
+    }
+  },
+  "notes": "Shooting fingertips overlap the nose/mouth area rather than resting beside the lower cheek; figure height at alpha>=8 is700/1254=55.8%, over48%; alpha>=8 top margin is241px=19.2%, under25%, and alpha>=1 residue nearly spans the canvas. Skin remains bright/orange, shoes are russet-dominant rather than predominantly cream, and a small magenta artifact is visible near the collar. Full two-arm/two-leg anatomy and folded-leg ascent are broadly legible; no ball is present."
+}
