@@ -1,0 +1,120 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "attempt": 2,
+  "frame": 4,
+  "retry": 4,
+  "generationId": "urn:c2pa:8527a513-152e-4c46-9655-270d41fd1733",
+  "generationTool": "image_gen.imagegen",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry4-prompt.md",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry4-raw.png",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry4-light-dark-review.png",
+  "references": [
+    {
+      "path": "public/assets/animation/briar-foxglove-shoot-right.webp",
+      "sha256": "9303c007d4d8697559670cfa851cc4c9667156daa43c83cef2a29cd0020a34f1"
+    },
+    {
+      "path": "public/assets/animation/briar-foxglove-receive-right.webp",
+      "sha256": "f24bc088ec36f954617fb4e759860e8469a9f6cecaf1640e032a19ee7c110b28"
+    },
+    {
+      "path": "public/assets/animation/briar-foxglove-idle-right.webp",
+      "sha256": "362bce8a820fc1fee21ee43549aa5e2c9e27a7233b1960ff4c40c6c8a5ae9feb"
+    }
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sha256": "1b128674d0f8ddb1e68c258df6f35288c4ed3a11c265652c254d38960785a9aa",
+  "alphaCounts": {
+    "zero": 1349940,
+    "nonzero": 222576,
+    "alpha1to63": 30719,
+    "alpha64plus": 191857,
+    "opaque": 361
+  },
+  "alphaGt0": {
+    "bboxExclusive": [
+      33,
+      51,
+      1178,
+      1226
+    ],
+    "marginsLTRB": [
+      33,
+      51,
+      76,
+      28
+    ]
+  },
+  "alphaGt1": {
+    "bboxExclusive": [
+      382,
+      97,
+      1048,
+      1087
+    ],
+    "marginsLTRB": [
+      382,
+      97,
+      206,
+      167
+    ]
+  },
+  "alphaGt8": {
+    "bboxExclusive": [
+      382,
+      101,
+      1046,
+      1085
+    ],
+    "marginsLTRB": [
+      382,
+      101,
+      208,
+      169
+    ]
+  },
+  "alphaGte64": {
+    "bboxExclusive": [
+      383,
+      101,
+      1046,
+      1084
+    ],
+    "marginsLTRB": [
+      383,
+      101,
+      208,
+      170
+    ]
+  },
+  "alphaGte128": {
+    "bboxExclusive": [
+      383,
+      101,
+      1046,
+      1084
+    ],
+    "marginsLTRB": [
+      383,
+      101,
+      208,
+      170
+    ]
+  },
+  "reviewStatus": "rejected; preserve as a fresh generated source candidate",
+  "reviewer": "source-generating agent; visual and alpha-bound review",
+  "decision": "Retry; do not accept for cleanup or assembly.",
+  "findings": [
+    "Pose phase reads as an airborne layup release: elevated high-forward open shooting hand, separate guide hand, raised lead knee and backward folded trailing leg; anatomy and all four limbs/two hands/two shoes are visible.",
+    "Identity deviations: skin is visibly light orange/tan rather than Briar\u2019s warm deep-brown canonical palette; a vivid red wristband/accessory is present on the guide wrist despite the bare-wrist requirement. Uniform has a large cream leaf motif, but no number, lettering, logo or ball is visible.",
+    "Whole-alpha residue: alpha>0 bbox [33,51,1178,1226], so scattered pixels extend outside the character silhouette. 30,719 pixels have alpha 1\u201363. This is not a clean transparent source.",
+    "Visible silhouette fails the requested clear margins: at alpha>=64 margins L/T/R/B are [383,101,208,170] px (canvas 1254 square), with top/right/bottom under the requested 20% and top/bottom under the original 15%. The figure does not fit the requested central 60%.",
+    "Keep as rejected raw output. Do not clean/scale/assemble: the margin and identity/accessory failures require another generated pose, not artifact cleanup."
+  ],
+  "processing": "Raw output preserved byte-for-byte. Preview composites the untouched RGBA source on light/dark backgrounds; no source cleanup, resizing, drawing, normalization, assembly or packing."
+}
