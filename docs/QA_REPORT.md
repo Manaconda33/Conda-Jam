@@ -1,3 +1,10 @@
+# Latest validation — J.113 Piper fall
+
+- `npm test`: PASS,36/36 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer suite: PASS,55 tests; production build: PASS.
+- Native Canvas review: PASS,20/20 action captures per zoom at100%/120%, both facings and all10 frames; frame9/tick33 is upright. Source review accepts identity/anatomy, pose order, transparency/margins and ball-free art.
+- `npm run test:e2e`: BLOCKED before app readiness; server exits before responding at `http://127.0.0.1:4175/`.
+- Strict report-only audit: **808 clips /7,276 authored drawings /105 athletes**, 2,295 missing clips, one target shortfall, 4 inherited prompt findings; generated `2026-10-25T04:21:33.095Z`.
+
 # Latest validation — J.112 Piper push
 
 - `npm test`: PASS,36/36 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; atlas packer suite: PASS; production build: PASS.

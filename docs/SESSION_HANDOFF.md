@@ -1,3 +1,11 @@
+## J.113 — Piper Quickstep `fall` integrated locally
+
+Piper adds ten distinct fall/recovery drawings and reaches18/29 reviewed clips /133 authored drawings. The accepted 5×2 source preserves all original poses through component-only extraction and uniform centering; all edges have >=62px transparency. Independent source review accepts identity/anatomy, order and upright finish at frame9/tick33; native Canvas previews at100%/120% in both facings select each frame. The athlete sheet is ball-free and no carried track applies to a fall.
+
+Raw SHA-256 `9b59a9d47fb2ac9d180d737935cacb8182c1c711ab64ee9a623b1cbebe001e3e`; accepted source SHA-256 `977d41eb5193b3658546a139a3a853927875b67a0f2c29da8003978477b778d7`; atlas `public/assets/animation/piper-quickstep-fall-right.webp` SHA-256 `366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c`. Exact prompt, cleanup, source layout, attempt history, provenance and native previews are under `tools/generate-art/piper-quickstep-fall*`.
+
+Audit `2026-10-25T04:21:33.095Z` counts808 clips /7,276 drawings /105 athletes, 2,295 missing clips, one target shortfall and4 inherited prompt findings. Validation passes36/36 JS test files, lint18 modules, content validation35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes,55 atlas-packer tests and build; E2E exits before server readiness at `127.0.0.1:4175/`. Next canonical action: Piper `celebrate`; keep pose order under review and do not pack before matching the prompt.
+
 ## J.112 — Piper Quickstep `push` integrated locally
 
 Piper adds11 distinct defensive push poses and reaches17/29 registered clips /123 authored drawings. Eleven figures fill cells0–10 of a 4×3 sheet, cell11 stays empty, and every source figure has >=60px transparent margins. Attempt1 raw was rejected for its 1254×1254 size, glow/specks and cell crossings; the preserved component cleanup contains no redraw, reorder or duplicate. Independent reviews accept Piper’s identity/anatomy, the ball-free sheet, open-palm frame5/tick8 contact, and all11 native production frames in both facings at100%/120%. Push has no Piper carry track; gameplay separately releases the target ball when the shove succeeds.

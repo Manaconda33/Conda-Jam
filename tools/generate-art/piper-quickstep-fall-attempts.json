@@ -1,0 +1,32 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "fall",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-5b04736d-4374-4fe8-bae3-3b7407d280f6",
+      "generatedAt": "2026-10-25T04:16:32.366Z",
+      "promptFile": "tools/generate-art/piper-quickstep-fall-attempt1-prompt.md",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-fall-attempt1-generated-raw.png",
+      "rawSourceSha256": "9b59a9d47fb2ac9d180d737935cacb8182c1c711ab64ee9a623b1cbebe001e3e",
+      "rawState": "rejected-direct-source",
+      "rawReason": "Ten complete poses are separated but several cross their nominal source-cell boundaries; twelve small detached alpha>=64 components remain. No pose is clipped or merged.",
+      "cleanedSource": "tools/generate-art/sources/piper-quickstep-fall-attempt1-clean-candidate.png",
+      "cleanedSourceSha256": "977d41eb5193b3658546a139a3a853927875b67a0f2c29da8003978477b778d7",
+      "cleanupScript": "tools/generate-art/clean-piper-quickstep-fall-attempt1.py",
+      "layout": "tools/generate-art/piper-quickstep-fall-attempt1-layouts.json",
+      "state": "accepted-after-cleanup-and-native-review",
+      "notes": "Global alpha>=64 component extraction retains ten original complete bodies; fixed common scale .52 centers every figure in its 5x2 nominal cell with >=62px margins. No pose drawn, synthesized, duplicated or reordered. Independent review accepts the cleaned source: ten distinct full poses, true transparent alpha, >=62px margins, full identity/anatomy, no ball/artifacts.",
+      "sourceReview": "accepted",
+      "packedAtlas": "public/assets/animation/piper-quickstep-fall-right.webp",
+      "packedAtlasSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+      "packedSize": [
+        480,
+        192
+      ],
+      "packedReview": "accepted on light/dark grounds; no ball/artifacts; all ten packed crops distinct; native engine preview pending parent integration.",
+      "nativeReview": "PASS: 20/20 frame/facing selections per zoom at 100%/120%; frame9 upright finish at tick33; no carried ball.",
+      "ballBehavior": "fall has no carried ball track"
+    }
+  ]
+}

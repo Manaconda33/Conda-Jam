@@ -13,7 +13,7 @@ from scipy.ndimage import distance_transform_edt, find_objects, label
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "public/assets/animation"
-ATHLETES = {"reed-ashcroft", "juniper-vale", "paprika", "keeg"}
+ATHLETES = {"reed-ashcroft", "juniper-vale", "paprika", "keeg", "piper-quickstep"}
 CLIPS = {"fall", "celebrate", "shoot"}
 
 

@@ -66601,13 +66601,177 @@ export const animationAssetManifest = {
             },
             "reviewed": true,
             "reviewNotes": "Eleven source/packed poses independently reviewed for Piper identity/anatomy, separation, clear alpha and >=60px source margins; no ball in athlete art. Native Canvas review at 100%/120% in both facings selects every frame. Frame5/tick8 is a distinct open-palm shove contact. Push is defensive: gameplay moves the target and separately releases the ball if possession is jarred loose; Piper has no carry track for this action."
+          },
+          "fall": {
+            "src": "./public/assets/animation/piper-quickstep-fall-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "80e0f72456bd9bdecb2170f66ed0e06199709b1f63a13f05c7c83eab75d4e98c"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0e54212ed5ffba9523fd71119b1645fdf315337866cbb5d5c2a5070735dbbc24"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "284c10c7fb94e1dcdc73029abf3c2d5f936c0815ccf6f32e43f6521c3653465d"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4941d02c214ba0557115a79ba2ca4fdf16a08604e35d4a7599aed3bab785a9e0"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "12eb3c128980919ae9b91ccc9f34413dce5a248a919ac214b5e032a571618f72"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fa1c993ce3a2de713140c037afb93d9df14fcf440a6d7602e9c8b583000ac3dc"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "29ca9787e76a55e7572c84df55114cb1bc7fdd25ca23cb60fe8f490ea862ec17"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a8f3b0852049985ab638134cda7b43f941c90657b2a9b036dcad21cbddee7ff5"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e9da9d7419ef77c2c166396e6275f16b1cbfe743db106bdbb825c18e9e92b093"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "eeb45f650d61dfe4db0da12d4d7ab6a621d0ae56636ef05a5ed6290910cb07ae"
+              }
+            ],
+            "sha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "piper-quickstep",
+              "clip": "fall",
+              "direction": "right",
+              "attempt": 1,
+              "generationId": "exec-5b04736d-4374-4fe8-bae3-3b7407d280f6",
+              "generatedAt": "2026-10-25T04:16:32.366Z",
+              "promptFile": "tools/generate-art/piper-quickstep-fall-attempt1-prompt.md",
+              "prompt": "J.113 / Piper Quickstep — FALL action sheet, attempt 1\n\nCreate one original production sprite sheet for Piper Quickstep performing a controlled, nonviolent basketball fall and recovery. Use the supplied accepted Piper sheets only as identity, anatomy, uniform and rendering references; do not copy their poses. Piper is an adult athletic human woman with warm-brown skin, expressive brown eyes, a bright orange high ponytail tied behind her head, a russet-red sleeveless basketball jersey and shorts with cream/white piping and paired cream side stripes, white socks, and red/cream high-top trainers. Preserve her face, hair, skin tone, natural athletic proportions, complete human anatomy and exact uniform palette. Keep the uniform completely blank: no text, numbers, logos, jewelry or added marks. She has exactly two arms with two natural hands, five fingers per hand, two legs and two shoes. Keep all hands visibly empty.\n\nCanvas and grid: genuine transparent RGBA, exactly 1536×1024 pixels. Arrange exactly ten separate complete right-facing three-quarter poses in a precise 5-column × 2-row row-major grid, one Piper in each cell. Five columns divide the width into equal nominal cells; two rows are 512 pixels each. Keep every full figure, including all ponytail strands, fingertips and both shoes, at least 60 pixels inside every source-cell boundary. Keep one consistent figure scale and clear gutters; silhouettes must not touch, overlap, merge, cross a cell edge, or touch the canvas boundary. Keep alpha zero everywhere outside the figures. Do not draw cell dividers.\n\nExact ten-pose nonviolent controlled fall sequence, in row-major order. The finish anchor is frame 9 at simulation tick 33; frame durations are [2,2,2,3,3,4,5,6,6,7], so frame starts are ticks [0,2,4,6,9,12,16,21,27,33].\n0. Finish a disrupted balance step, torso starting to tip while both empty hands open for balance.\n1. Stumble forward with one foot catching late, shoulders uneven and arms spread.\n2. Lower the center of gravity, bend the knees and reach one open hand down to brace.\n3. One knee reaches the floor first while the opposite palm supports her; keep the second hand visible and empty.\n4. Controlled sideways descent onto one hip, with legs bent safely and ponytail flowing behind.\n5. Settle on her side with one palm supporting her weight; do not hide either arm or shoe.\n6. Seated recovery on one hip, one hand planted and the other open near her torso.\n7. Turn onto one knee and plant a hand to push upward.\n8. Rise into a low crouch with both feet under her and hands returning to a defensive guard.\n9. Finish fully upright in a balanced ready stance at simulation tick 33, looking alert and uninjured.\n\nShow only Piper in all ten cells. The basketball remains a separate game object and must not appear in the athlete art. No ball, sphere, seams, opponent, teammate, hoop, rim, court, floor, ground shadow, glow, speed lines, impact star, dust, scenery, background color, checkerboard, grid, dividers, border, text, logo, number, prop or UI. Preserve true alpha-zero background and gutters. Return only the complete sprite sheet.\n",
+              "promptVerbatim": true,
+              "referenceFiles": [
+                "tools/generate-art/sources/piper-quickstep-steal-attempt1-clean-candidate.png",
+                "tools/generate-art/sources/piper-quickstep-block-attempt1-clean-candidate.png",
+                "tools/generate-art/sources/piper-quickstep-push-attempt1-clean-candidate.png"
+              ],
+              "rawSource": "tools/generate-art/sources/piper-quickstep-fall-attempt1-generated-raw.png",
+              "rawSourceSha256": "9b59a9d47fb2ac9d180d737935cacb8182c1c711ab64ee9a623b1cbebe001e3e",
+              "rawSize": [
+                1536,
+                1024
+              ],
+              "rawMode": "RGBA",
+              "rawReview": {
+                "status": "rejected-before-packing",
+                "notes": "Raw source contains ten complete ordered alpha components but several figures cross nominal source-cell edges and twelve small detached alpha>=64 artifacts are present. Preserve raw unchanged; globally isolate the ten full bodies and document component cleanup before packing."
+              },
+              "cleanupScript": "tools/generate-art/clean-piper-quickstep-fall-attempt1.py",
+              "cleanupNotes": "At alpha>=64, isolate ten separate original body components globally (some cross nominal raw cell edges), retain original pixels within two-pixel antialias dilation, uniformly scale every body by0.55 and center it in its intended 5x2 cell. No redraw, synthesis, duplication or reorder. Detached glow/specks are excluded.",
+              "sourceImage": "tools/generate-art/sources/piper-quickstep-fall-attempt1-clean-candidate.png",
+              "sourceSha256": "977d41eb5193b3658546a139a3a853927875b67a0f2c29da8003978477b778d7",
+              "sourceSize": [
+                1536,
+                1024
+              ],
+              "sourceMode": "RGBA",
+              "layoutFile": "tools/generate-art/piper-quickstep-fall-attempt1-layouts.json",
+              "review": {
+                "status": "accepted",
+                "sourceReviewer": "independent cleanup-review subagent",
+                "sourceNotes": "All ten ordered poses are distinct and fully contained; frame9 finishes upright at tick33. Piper identity/anatomy and blank red/cream kit are consistent; hands are empty and no ball/artifacts remain. True transparent field with >=62px gutters. Raw ten full bodies plus detached alpha>=64 specks and cell-crossings are correctly isolated by global component extraction/common scale without redraw/reorder."
+              },
+              "eligibleForPacking": true,
+              "ballBehavior": "Fall is ball-free and has no carried-ball track; loose/runtime ball behavior remains separate.",
+              "packedAtlas": "public/assets/animation/piper-quickstep-fall-right.webp",
+              "packedAtlasSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+              "packedAtlasSize": [
+                480,
+                192
+              ],
+              "packedLayout": "tools/generate-art/piper-quickstep-fall10-layouts.json",
+              "packedReview": {
+                "status": "accepted",
+                "reviewer": "parent-lane visual review",
+                "notes": "Composited lossless atlas on light/dark grounds; ten distinct crops, clean true transparency, complete identity/anatomy, no ball/artifacts. Layout matches ten ordered poses and packed cell margins."
+              },
+              "nativePreviewReview": "pending parent integration",
+              "nativeReview": {
+                "status": "accepted",
+                "reviewer": "independent native-preview reviewer",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "facings": [
+                  -1,
+                  1
+                ],
+                "frameStartsTicks": [
+                  0,
+                  2,
+                  4,
+                  6,
+                  9,
+                  12,
+                  16,
+                  21,
+                  27,
+                  33
+                ],
+                "productionSelections": "20/20 per zoom",
+                "notes": "All ten production frames select at both zooms and facings; native sequence reads from fall impact through ground contact, seated/kneeling recovery, crouch and upright finish at frame9/tick33. No ball or carried track applies."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Ten distinct complete fall/recovery poses independently reviewed on source and native previews. Piper identity/anatomy, alpha, >=62px source margins and no-ball art pass; all frames select in both facings at100%/120%, and frame9 finishes upright at tick33. Fall has no carried-ball track."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Piper block, steal and push body art passed native mirror review in both facings. Ponytail and pose silhouettes remain readable; defensive clips contain no baked or carried ball."
+        "notes": "Piper fall mirror review confirms her identity, ponytail, fall direction and upright finish remain readable in both facings. Separate runtime ball remains independent."
       }
     },
     "briar-foxglove": {

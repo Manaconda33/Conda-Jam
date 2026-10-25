@@ -1,0 +1,367 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "fall",
+  "attempt": 1,
+  "rawSource": "tools/generate-art/sources/piper-quickstep-fall-attempt1-generated-raw.png",
+  "rawSourceSha256": "9b59a9d47fb2ac9d180d737935cacb8182c1c711ab64ee9a623b1cbebe001e3e",
+  "cleanedSource": "tools/generate-art/sources/piper-quickstep-fall-attempt1-clean-candidate.png",
+  "cleanedSourceSha256": "977d41eb5193b3658546a139a3a853927875b67a0f2c29da8003978477b778d7",
+  "size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "layout": "5x2 row-major ten original poses",
+  "cleanup": "At alpha>=64, isolate ten separate original body components globally (some cross nominal raw cell edges), retain original pixels within two-pixel antialias dilation, uniformly scale every body by0.55 and center it in its intended 5x2 cell. No redraw, synthesis, duplication or reorder. Detached glow/specks are excluded.",
+  "alphaThreshold": 64,
+  "antialiasDilationPx": 2,
+  "commonScale": 0.52,
+  "frames": [
+    {
+      "frame": 0,
+      "sourceComponent": 1,
+      "sourceAreaAlpha64": 38690,
+      "sourceBBoxXYXY": [
+        36,
+        134,
+        363,
+        472
+      ],
+      "sourceCenter": [
+        199.5,
+        303.0
+      ],
+      "sourceCell": [
+        0,
+        0
+      ],
+      "uniformScale": 0.52,
+      "outputSize": [
+        172,
+        178
+      ],
+      "outputXY": [
+        68,
+        167
+      ],
+      "transparentMarginsLTRBpx": [
+        68,
+        68,
+        167,
+        167
+      ]
+    },
+    {
+      "frame": 1,
+      "sourceComponent": 2,
+      "sourceAreaAlpha64": 37269,
+      "sourceBBoxXYXY": [
+        358,
+        147,
+        649,
+        465
+      ],
+      "sourceCenter": [
+        503.5,
+        306.0
+      ],
+      "sourceCell": [
+        0,
+        1
+      ],
+      "uniformScale": 0.52,
+      "outputSize": [
+        153,
+        167
+      ],
+      "outputXY": [
+        384,
+        172
+      ],
+      "transparentMarginsLTRBpx": [
+        77,
+        78,
+        172,
+        173
+      ]
+    },
+    {
+      "frame": 2,
+      "sourceComponent": 7,
+      "sourceAreaAlpha64": 35170,
+      "sourceBBoxXYXY": [
+        660,
+        208,
+        922,
+        472
+      ],
+      "sourceCenter": [
+        791.0,
+        340.0
+      ],
+      "sourceCell": [
+        0,
+        2
+      ],
+      "uniformScale": 0.52,
+      "outputSize": [
+        138,
+        139
+      ],
+      "outputXY": [
+        699,
+        186
+      ],
+      "transparentMarginsLTRBpx": [
+        86,
+        85,
+        186,
+        187
+      ]
+    },
+    {
+      "frame": 3,
+      "sourceComponent": 11,
+      "sourceAreaAlpha64": 32064,
+      "sourceBBoxXYXY": [
+        936,
+        223,
+        1204,
+        470
+      ],
+      "sourceCenter": [
+        1070.0,
+        346.5
+      ],
+      "sourceCell": [
+        0,
+        3
+      ],
+      "uniformScale": 0.52,
+      "outputSize": [
+        141,
+        131
+      ],
+      "outputXY": [
+        1005,
+        190
+      ],
+      "transparentMarginsLTRBpx": [
+        83,
+        83,
+        190,
+        191
+      ]
+    },
+    {
+      "frame": 4,
+      "sourceComponent": 12,
+      "sourceAreaAlpha64": 32641,
+      "sourceBBoxXYXY": [
+        1221,
+        254,
+        1528,
+        458
+      ],
+      "sourceCenter": [
+        1374.5,
+        356.0
+      ],
+      "sourceCell": [
+        0,
+        4
+      ],
+      "uniformScale": 0.52,
+      "outputSize": [
+        162,
+        108
+      ],
+      "outputXY": [
+        1301,
+        202
+      ],
+      "transparentMarginsLTRBpx": [
+        72,
+        73,
+        202,
+        202
+      ]
+    },
+    {
+      "frame": 5,
+      "sourceComponent": 21,
+      "sourceAreaAlpha64": 37206,
+      "sourceBBoxXYXY": [
+        19,
+        697,
+        366,
+        896
+      ],
+      "sourceCenter": [
+        192.5,
+        796.5
+      ],
+      "sourceCell": [
+        1,
+        0
+      ],
+      "uniformScale": 0.52,
+      "outputSize": [
+        183,
+        106
+      ],
+      "outputXY": [
+        62,
+        715
+      ],
+      "transparentMarginsLTRBpx": [
+        62,
+        63,
+        203,
+        203
+      ]
+    },
+    {
+      "frame": 6,
+      "sourceComponent": 20,
+      "sourceAreaAlpha64": 36589,
+      "sourceBBoxXYXY": [
+        367,
+        674,
+        632,
+        898
+      ],
+      "sourceCenter": [
+        499.5,
+        786.0
+      ],
+      "sourceCell": [
+        1,
+        1
+      ],
+      "uniformScale": 0.52,
+      "outputSize": [
+        140,
+        119
+      ],
+      "outputXY": [
+        391,
+        708
+      ],
+      "transparentMarginsLTRBpx": [
+        84,
+        84,
+        196,
+        197
+      ]
+    },
+    {
+      "frame": 7,
+      "sourceComponent": 19,
+      "sourceAreaAlpha64": 40790,
+      "sourceBBoxXYXY": [
+        663,
+        630,
+        929,
+        899
+      ],
+      "sourceCenter": [
+        796.0,
+        764.5
+      ],
+      "sourceCell": [
+        1,
+        2
+      ],
+      "uniformScale": 0.52,
+      "outputSize": [
+        140,
+        142
+      ],
+      "outputXY": [
+        698,
+        697
+      ],
+      "transparentMarginsLTRBpx": [
+        84,
+        84,
+        185,
+        185
+      ]
+    },
+    {
+      "frame": 8,
+      "sourceComponent": 16,
+      "sourceAreaAlpha64": 41533,
+      "sourceBBoxXYXY": [
+        967,
+        601,
+        1208,
+        921
+      ],
+      "sourceCenter": [
+        1087.5,
+        761.0
+      ],
+      "sourceCell": [
+        1,
+        3
+      ],
+      "uniformScale": 0.52,
+      "outputSize": [
+        127,
+        168
+      ],
+      "outputXY": [
+        1012,
+        684
+      ],
+      "transparentMarginsLTRBpx": [
+        90,
+        90,
+        172,
+        172
+      ]
+    },
+    {
+      "frame": 9,
+      "sourceComponent": 15,
+      "sourceAreaAlpha64": 46595,
+      "sourceBBoxXYXY": [
+        1247,
+        543,
+        1514,
+        921
+      ],
+      "sourceCenter": [
+        1380.5,
+        732.0
+      ],
+      "sourceCell": [
+        1,
+        4
+      ],
+      "uniformScale": 0.52,
+      "outputSize": [
+        141,
+        199
+      ],
+      "outputXY": [
+        1312,
+        668
+      ],
+      "transparentMarginsLTRBpx": [
+        83,
+        84,
+        156,
+        157
+      ]
+    }
+  ],
+  "sourceReview": {
+    "status": "accepted",
+    "minimumMarginPx": 62,
+    "reviewer": "independent cleanup-review subagent",
+    "notes": "Ten ordered complete poses with true alpha; frame9 upright finish tick33; no ball/artifacts; no anatomy/identity issues."
+  }
+}
