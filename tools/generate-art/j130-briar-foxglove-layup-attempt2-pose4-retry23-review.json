@@ -1,0 +1,19 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry23",
+  "decision": "REJECT",
+  "generationId": "exec-a44fce5c-3a54-442f-8f99-32e85c7f5901",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry23-raw.png",
+  "sourceSha256": "5196b0abfb405097757cf49825d2e2952956e4f88628da90e10516549d2cbe4f",
+  "decodedRgbaPixelSha256": "b09e568b9e6198b70b08b89cf53576ad4b9fbd47cf8b5c41a363e41375e86926",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry23-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry23-light-dark-review.png",
+  "checks": {
+    "pose": "PASS at broad single-frame level: high-forward shooting hand, open guide hand away from the face, raised knee and folded trailing leg read as a peak/release layup. Sequence separation cannot be reviewed from one pose.",
+    "identityAnatomy": "PARTIAL: recognizable adult human with dark shoulder locs, vivid red headband and russet/cream kit; two complete arms/hands and two legs/shoes, no fox traits. No crop or extra limbs.",
+    "palette": "FAIL: exposed skin reads copper/orange and lighter than Briar's canonical deep-brown palette, despite the RGB anchors in the exact prompt.",
+    "transparency": "PASS channel-level: true RGBA alpha 0..255, and light/dark composite confirms a transparent background with no checkerboard. FAIL as clean margins: alpha>=1 has151 connected components and residue close to the canvas edges.",
+    "cellMarginsAndScale": "FAIL: at alpha>=64 margins L/T/R/B are404/186/348/273px, with top14.83%, right27.75%, bottom21.77%; these miss the requested32% all-edge clear margin. Figure height is63.40% of the canvas versus32–34% requested. At alpha>=1 margins are49/70/36/24px, with151 components.",
+    "ballAlignment": "PASS for ball-free source: no ball is baked in; Briar's athlete-specific ball track remains separate and pending."
+  },
+  "reason": "Reject unchanged for off-canon orange skin, excessive figure scale, insufficient alpha>=64 cell margins, and low-alpha edge residue. No cleanup, recoloring, normalization, packing, registration or acceptance."
+}

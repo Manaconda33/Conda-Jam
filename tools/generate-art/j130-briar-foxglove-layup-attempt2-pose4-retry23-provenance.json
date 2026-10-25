@@ -1,0 +1,79 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "frame": 4,
+  "tick": 10,
+  "retry": 23,
+  "operation": "single-pose source generation",
+  "generator": "image_gen.imagegen",
+  "generationId": "exec-a44fce5c-3a54-442f-8f99-32e85c7f5901",
+  "outputHint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-a44fce5c-3a54-442f-8f99-32e85c7f5901.png by default. If you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it. The generated image was already displayed by the generation tool.",
+  "originalGeneratedPath": "/workspace/generated_images/exec-a44fce5c-3a54-442f-8f99-32e85c7f5901.png",
+  "sourcePath": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry23-raw.png",
+  "sourceSha256": "5196b0abfb405097757cf49825d2e2952956e4f88628da90e10516549d2cbe4f",
+  "decodedRgbaPixelSha256": "b09e568b9e6198b70b08b89cf53576ad4b9fbd47cf8b5c41a363e41375e86926",
+  "dimensions": [1254, 1254],
+  "mode": "RGBA",
+  "alphaExtrema": [0, 255],
+  "c2paClaimIdentifier": null,
+  "c2paNote": "No C2PA/EXIF metadata chunks were present in the generated PNG; generation ID and output path are retained.",
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry23-prompt.md",
+  "previewPath": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry23-light-dark-review.png",
+  "references": [],
+  "cleanup": null,
+  "normalization": null,
+  "packing": null,
+  "registration": null,
+  "alphaMetrics": {
+    "threshold1": {
+      "boundsXYXYExclusive": [49, 70, 1218, 1230],
+      "marginsLTRB": [49, 70, 36, 24],
+      "figureHeightFraction": 0.92504,
+      "figureWidthFraction": 0.932217,
+      "connectedComponents8": 151
+    },
+    "threshold8": {
+      "boundsXYXYExclusive": [404, 186, 907, 983],
+      "marginsLTRB": [404, 186, 347, 271],
+      "figureHeightFraction": 0.635566,
+      "figureWidthFraction": 0.401116,
+      "connectedComponents8": 85
+    },
+    "threshold32": {
+      "boundsXYXYExclusive": [404, 186, 907, 981],
+      "marginsLTRB": [404, 186, 347, 273],
+      "figureHeightFraction": 0.633971,
+      "figureWidthFraction": 0.401116,
+      "connectedComponents8": 2
+    },
+    "threshold64": {
+      "boundsXYXYExclusive": [404, 186, 906, 981],
+      "marginsLTRB": [404, 186, 348, 273],
+      "figureHeightFraction": 0.633971,
+      "figureWidthFraction": 0.400319,
+      "connectedComponents8": 1
+    },
+    "threshold128": {
+      "boundsXYXYExclusive": [405, 187, 906, 981],
+      "marginsLTRB": [405, 187, 348, 273],
+      "figureHeightFraction": 0.633174,
+      "figureWidthFraction": 0.399522,
+      "connectedComponents8": 1
+    },
+    "threshold250": {
+      "boundsXYXYExclusive": [405, 192, 902, 980],
+      "marginsLTRB": [405, 192, 352, 274],
+      "figureHeightFraction": 0.628389,
+      "figureWidthFraction": 0.396332,
+      "connectedComponents8": 247
+    }
+  },
+  "decodedPixelDuplicateAudit": {
+    "sourceCount": 87,
+    "duplicateGroupCount": 2,
+    "uniqueAmongProjectSources": true,
+    "auditPath": "tools/generate-art/j130-briar-foxglove-layup-duplicate-source-audit.json"
+  },
+  "ball": "No ball appears in the athlete source; the separate Briar-specific track remains pending."
+}
