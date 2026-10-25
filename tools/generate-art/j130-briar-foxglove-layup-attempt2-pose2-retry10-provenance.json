@@ -1,0 +1,98 @@
+{
+  "task": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "frame": 2,
+  "tick": 5,
+  "retry": 10,
+  "status": "reviewed-rejected; untouched raw",
+  "decision": "reject",
+  "generation_id": "exec-0444096a-c5cb-4498-9dd6-e675e9dbde5c",
+  "generator": "image_gen.imagegen",
+  "original_generated_path": "/workspace/generated_images/exec-0444096a-c5cb-4498-9dd6-e675e9dbde5c.png",
+  "raw_path": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry10-raw.png",
+  "prompt_path": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry10-prompt.md",
+  "reference_paths": [
+    "public/assets/animation/briar-foxglove-idle-right.webp",
+    "public/assets/animation/briar-foxglove-shoot-right.webp",
+    "public/assets/animation/briar-foxglove-receive-right.webp"
+  ],
+  "measurements": {
+    "sha256": "ffb996d024175a6f7f22b646398eee6d3db2a3fca78800172c8829a0169ad237",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "nonzero_pixels": 152755,
+    "threshold_bounds": {
+      "1": [
+        97,
+        126,
+        1240,
+        1206
+      ],
+      "8": [
+        419,
+        246,
+        909,
+        877
+      ],
+      "32": [
+        420,
+        248,
+        907,
+        877
+      ],
+      "128": [
+        420,
+        248,
+        907,
+        876
+      ],
+      "250": [
+        421,
+        249,
+        906,
+        876
+      ]
+    },
+    "threshold_padding_fraction": {
+      "1": [
+        0.0773524720893142,
+        0.10047846889952153,
+        0.011164274322169059,
+        0.03827751196172249
+      ],
+      "8": [
+        0.33413078149920256,
+        0.19617224880382775,
+        0.2751196172248804,
+        0.30063795853269537
+      ],
+      "32": [
+        0.3349282296650718,
+        0.19776714513556617,
+        0.2767145135566188,
+        0.30063795853269537
+      ],
+      "128": [
+        0.3349282296650718,
+        0.19776714513556617,
+        0.2767145135566188,
+        0.3014354066985646
+      ],
+      "250": [
+        0.335725677830941,
+        0.19856459330143542,
+        0.27751196172248804,
+        0.3014354066985646
+      ]
+    }
+  },
+  "processing": "Byte-for-byte copy from generated image. No cleanup, resampling, normalization, acceptance, assembly, or registration."
+}

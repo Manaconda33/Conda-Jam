@@ -1,0 +1,21 @@
+{
+  "task": "J.130 Briar Foxglove layup",
+  "frame": 2,
+  "tick": 5,
+  "retry": 10,
+  "decision": "reject; preserve untouched raw source only",
+  "visual_review": {
+    "pose": "Two complete legs are present; high lead knee and folded trailing leg read as an early airborne ascent. The guide hand separates outward around chest height.",
+    "shooting_hand": "The near-face hand is close to the mouth/lower cheek; the fingertips are not cleanly separated below the mouth line. Do not accept as the specified lower-cheek pose.",
+    "identity_and_anatomy": "Adult human with dark locs and red headband; no animal traits. Visible limbs are coherent, with no extra limbs apparent.",
+    "palette_and_costume": "Skin reads orange/bronze and too light versus accepted Briar references. Trainers are russet/red-dominant rather than cream-dominant. Jersey/chest is blank and wrists bare.",
+    "ball": "No ball or prop is present.",
+    "transparency_and_margins": "Raw alpha>=1 bounds are [97,126,1240,1206] on 1254x1254, so faint residue approaches the right edge (14px). Figure alpha>=8 bounds are [419,246,909,877]; top margin is 19.62%, below the required 25%. The raw source fails the 25%-clear requirement on every edge.",
+    "cell_margins": "Single-figure source only; 25% alpha-zero canvas clearance fails and must not be normalized or cleaned into acceptance.",
+    "overall": "Reject. Preserve source byte-for-byte; no cleanup, placement normalization, packing, or production registration."
+  },
+  "source_sha256": "ffb996d024175a6f7f22b646398eee6d3db2a3fca78800172c8829a0169ad237",
+  "provenance": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry10-provenance.json",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry10-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry10-light-dark-review.png"
+}
