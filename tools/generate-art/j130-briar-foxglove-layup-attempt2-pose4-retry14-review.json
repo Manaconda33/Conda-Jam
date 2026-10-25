@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry14",
+  "decision": "REJECT",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry14-raw.png",
+  "sourceSha256": "5813f5de66bc563080b0dcecba62b78eb1a2f14aa3666b2d52594535fa8ac4fe",
+  "generationId": "exec-79020533-6845-4ac3-a223-c487104561bd",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry14-light-dark-review.jpg",
+  "checks": {
+    "pose": "Broad one-hand peak release, distinct guide hand, full limbs and no ball; figure remains too large.",
+    "identityAnatomy": "Adult human with locs/red headband; two complete arms and legs.",
+    "palette": "Skin reads orange/bronze compared with accepted dark-brown Briar source.",
+    "costume": "Russet/cream kit, cream socks/trainers, bare wrists, blank chest.",
+    "transparency": "RGBA true alpha exists; no checkerboard.",
+    "margins": "FAIL: threshold1 49px left,87px top,123px right,39px bottom; requirement >=28% on every side.",
+    "scale": "FAIL: threshold64 figure height712px/1254=56.8%, cap44%."
+  },
+  "provenance": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry14-provenance.json",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry14-prompt.md",
+  "decisionReason": "Fails scale and alpha-clearance requirements and retains orange skin palette; preserve unchanged."
+}

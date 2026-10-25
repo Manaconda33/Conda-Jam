@@ -1,0 +1,147 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "attempt": 2,
+  "frame": 4,
+  "tick": 10,
+  "retry": 14,
+  "generationId": "exec-79020533-6845-4ac3-a223-c487104561bd",
+  "generator": "image_gen.imagegen",
+  "originalGeneratedPath": "/workspace/generated_images/exec-79020533-6845-4ac3-a223-c487104561bd.png",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry14-raw.png",
+  "rawSha256": "5813f5de66bc563080b0dcecba62b78eb1a2f14aa3666b2d52594535fa8ac4fe",
+  "decodedRgbaSha256": "3d82c98754006f609d7159a7232ae71cb0c3de113e555f6d8d1fb528a5b7e796",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentBackgroundRequested": true,
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry14-prompt.md",
+  "promptSha256": "2b7f9b8bc33ef2f7f71b1f4df21d3b105fd3e10f8b50d8f9cee609fc0de74924",
+  "referencedImagePaths": [],
+  "thresholdMetrics": {
+    "1": {
+      "bounds_xyxy_exclusive": [
+        49,
+        87,
+        1131,
+        1215
+      ],
+      "margins_ltrb": [
+        49,
+        87,
+        123,
+        39
+      ],
+      "components_8conn": 114,
+      "occupancy_fraction_wh": [
+        0.8628,
+        0.8995
+      ]
+    },
+    "8": {
+      "bounds_xyxy_exclusive": [
+        417,
+        239,
+        932,
+        954
+      ],
+      "margins_ltrb": [
+        417,
+        239,
+        322,
+        300
+      ],
+      "components_8conn": 108,
+      "occupancy_fraction_wh": [
+        0.4107,
+        0.5702
+      ]
+    },
+    "32": {
+      "bounds_xyxy_exclusive": [
+        417,
+        239,
+        932,
+        952
+      ],
+      "margins_ltrb": [
+        417,
+        239,
+        322,
+        302
+      ],
+      "components_8conn": 1,
+      "occupancy_fraction_wh": [
+        0.4107,
+        0.5686
+      ]
+    },
+    "64": {
+      "bounds_xyxy_exclusive": [
+        417,
+        239,
+        932,
+        951
+      ],
+      "margins_ltrb": [
+        417,
+        239,
+        322,
+        303
+      ],
+      "components_8conn": 1,
+      "occupancy_fraction_wh": [
+        0.4107,
+        0.5678
+      ]
+    },
+    "128": {
+      "bounds_xyxy_exclusive": [
+        417,
+        239,
+        931,
+        951
+      ],
+      "margins_ltrb": [
+        417,
+        239,
+        323,
+        303
+      ],
+      "components_8conn": 1,
+      "occupancy_fraction_wh": [
+        0.4099,
+        0.5678
+      ]
+    },
+    "250": {
+      "bounds_xyxy_exclusive": [
+        418,
+        240,
+        931,
+        950
+      ],
+      "margins_ltrb": [
+        418,
+        240,
+        323,
+        304
+      ],
+      "components_8conn": 285,
+      "occupancy_fraction_wh": [
+        0.4091,
+        0.5662
+      ]
+    }
+  },
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry14-light-dark-review.jpg",
+  "decision": "REJECT; retain untouched source, do not cleanup or pack",
+  "notes": "Broad peak-release pose with complete adult-human anatomy, locs/red headband, russet/cream kit and no ball. However silhouette is 56.8% canvas height, above the44% cap; threshold1 margins are only49/87/123/39px, far short of28% on every edge; skin remains visibly too orange versus accepted Briar art. No cleanup or normalization."
+}
