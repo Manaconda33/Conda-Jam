@@ -1,0 +1,33 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "dunk-double",
+  "attempts": [
+    {
+      "attempt": 1,
+      "promptFile": "tools/generate-art/piper-quickstep-dunk-double-attempt1-prompt.md",
+      "generationId": "exec-ef7dae42-1977-40e0-950e-eb9cb630c4f1",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-dunk-double-attempt1-generated-raw.png",
+      "rawSourceSha256": "302ed9be0ebcddcb38f4998bf19cc8374a727f001e5027c4f0218c073c11ec77",
+      "rawReview": {
+        "status": "rejected-for-direct-packing",
+        "notes": "Opaque brown/orange backdrop and glow violate the transparent-sheet requirement. Preserve unchanged and component-isolate the 15 original poses; no direct packing."
+      },
+      "cleanedSource": "tools/generate-art/sources/piper-quickstep-dunk-double-attempt1-clean-candidate.png",
+      "cleanedSourceSha256": "2405d866e27b4e153ad19f91e4e02502ddf1723435085a40db8a88cbd87074da",
+      "sourceReview": {
+        "status": "accepted-source-pending-native-ball-track",
+        "reviewer": "independent source and cleanup reviewer",
+        "reviewedAt": "2026-10-25T12:54:13Z",
+        "reviewNotes": "Source review accepts 15 distinct row-major poses for the J103 two-pump sequence. Frame5 is the first overhead peak; frame6 clearly resets hands to chest; frames7-9 drive a second, higher pump; frame10 is the sole open-palm release. Piper identity, full anatomy, face, ponytail, russet/cream kit and shoes remain consistent. No ball appears. Component isolation retains original pixels without redraw/reorder. Light/dark proofs show transparent gutters; all source-cell margins are >=28px.",
+        "proofFiles": [
+          "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-clean/source-light.png",
+          "tools/generate-art/previews/piper-quickstep-dunk-double/attempt1-clean/source-dark.png"
+        ],
+        "minimumCellMarginPx": 28
+      },
+      "eligibleForPacking": false,
+      "provenanceFile": "tools/generate-art/piper-quickstep-dunk-double-attempt1-provenance.json",
+      "promptInterpretationCorrection": "Prompt clarification: preserve the generated prompt verbatim. Its parenthetical incorrectly labels pose10 as fifth column, second row; the numbered sequence and canonical J103 prompt designate zero-based frame10 at third row, first column, which is the image\u2019s open-palm release. This is a documentation typo, not a change to the source or generated prompt."
+    }
+  ]
+}
