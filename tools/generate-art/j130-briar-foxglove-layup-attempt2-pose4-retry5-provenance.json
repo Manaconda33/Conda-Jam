@@ -1,0 +1,121 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "attempt": 2,
+  "frame": 4,
+  "retry": 5,
+  "generationId": "exec-5d2deb16-ba9d-47a6-a07b-46c1a1a06ddd",
+  "c2paId": "urn:c2pa:76b97505-0f8f-49fc-b502-479467b54034",
+  "generationTool": "image_gen.imagegen",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry5-prompt.md",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry5-raw.png",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry5-light-dark-review.png",
+  "references": [
+    {
+      "path": "public/assets/animation/briar-foxglove-shoot-right.webp",
+      "sha256": "9303c007d4d8697559670cfa851cc4c9667156daa43c83cef2a29cd0020a34f1"
+    },
+    {
+      "path": "public/assets/animation/briar-foxglove-receive-right.webp",
+      "sha256": "f24bc088ec36f954617fb4e759860e8469a9f6cecaf1640e032a19ee7c110b28"
+    },
+    {
+      "path": "public/assets/animation/briar-foxglove-idle-right.webp",
+      "sha256": "362bce8a820fc1fee21ee43549aa5e2c9e27a7233b1960ff4c40c6c8a5ae9feb"
+    }
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sha256": "fcaabdc44521f113cd03df8b14ba1384a9a3ca43521ac4501ecb12c4e5fcf154",
+  "alphaCounts": {
+    "zero": 1367056,
+    "nonzero": 205460,
+    "alpha1to63": 34492,
+    "alpha64plus": 170968,
+    "opaque": 276
+  },
+  "alphaGt0": {
+    "bboxExclusive": [
+      0,
+      21,
+      1218,
+      1254
+    ],
+    "marginsLTRB": [
+      0,
+      21,
+      36,
+      0
+    ]
+  },
+  "alphaGt1": {
+    "bboxExclusive": [
+      396,
+      139,
+      994,
+      1013
+    ],
+    "marginsLTRB": [
+      396,
+      139,
+      260,
+      241
+    ]
+  },
+  "alphaGt8": {
+    "bboxExclusive": [
+      398,
+      141,
+      992,
+      1011
+    ],
+    "marginsLTRB": [
+      398,
+      141,
+      262,
+      243
+    ]
+  },
+  "alphaGte64": {
+    "bboxExclusive": [
+      399,
+      141,
+      990,
+      1010
+    ],
+    "marginsLTRB": [
+      399,
+      141,
+      264,
+      244
+    ]
+  },
+  "alphaGte128": {
+    "bboxExclusive": [
+      399,
+      142,
+      990,
+      1010
+    ],
+    "marginsLTRB": [
+      399,
+      142,
+      264,
+      244
+    ]
+  },
+  "reviewStatus": "rejected; preserve as a fresh generated raw source",
+  "reviewer": "source-generating agent; visual and alpha-bound review",
+  "decision": "Retry; do not clean, assemble, or pack.",
+  "findings": [
+    "Pose phase reads as a valid high-forward frame4 release: shooting arm fully extended with open empty hand, guide hand lower and separate, front knee high, trailing knee sharply folded with heel tucked near the seat. Human anatomy is complete, chest blank, both wrists bare, and no ball/props or animal features are visible.",
+    "Skin is warm brown but retains a lighter/orange cast than the required deep cocoa/neutral umber Briar palette. Shoes remain predominantly russet with cream trim, contrary to the explicit predominantly-cream trainer requirement.",
+    "The no-residue requirement fails: 34,492 pixels have alpha 1\u201363. Whole-alpha bounds [0,21,1218,1254] touch the left and bottom edges.",
+    "At alpha>=64, main-figure margins are [399,141,264,244] px on the 1254px canvas. Top, right and bottom all fail the requested 25% margin. Top also falls below the original prompt margin.",
+    "Do not attempt alpha cleanup or scaling to pass. The required source proportions, blank transparent field and shoes need a new original generation."
+  ],
+  "processing": "Untouched generator PNG copied byte-for-byte; split light/dark preview composites original RGBA pixels only. No image edits, cleanup, rescaling, assembly or packing."
+}
