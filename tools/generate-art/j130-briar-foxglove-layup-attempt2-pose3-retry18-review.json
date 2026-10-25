@@ -1,0 +1,117 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry18",
+  "decision": "REJECT",
+  "generationId": "exec-e86220c1-641a-4091-95ec-90c417132332",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry18-raw.png",
+  "sourceSha256": "3367ae2f4479905d05e9f8dac40d65f45654fdea921b027d2c372ee20514a534",
+  "decodedRgbaPixelSha256": "4e4cade602af16e2d8500cb73f14ebb15df2602d9a99d0cf6298e7415b3befda",
+  "uniqueDecodedPixels": true,
+  "duplicates": [],
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry18-light-dark-review.png",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry18-prompt.md",
+  "checks": {
+    "pose": "The raised shooting hand is above the headband/crown, not at brow level. Lead knee is raised; the trailing leg is extended diagonally down rather than tightly tucked.",
+    "identityAnatomy": "Recognizable adult human Briar, dark locs, red headband, complete two arms/two legs, no ball.",
+    "palette": "Skin reads orange/bronze and brighter than accepted deep-brown reference.",
+    "transparency": "True RGBA with alpha 0 outside visible content, but threshold-1 residue reaches near the canvas edges.",
+    "marginsAndScale": "Alpha>=64 top margin is30.1% but bottom margin21.5%; figure height is48.3%, above the48% maximum; prompt requested30% every side and40% height."
+  },
+  "thresholdMetrics": {
+    "1": {
+      "boundsXYXYExclusive": [
+        41,
+        70,
+        1170,
+        1174
+      ],
+      "marginsLTRB": [
+        41,
+        70,
+        84,
+        80
+      ],
+      "heightFraction": 0.880383,
+      "components": 133
+    },
+    "8": {
+      "boundsXYXYExclusive": [
+        382,
+        378,
+        830,
+        986
+      ],
+      "marginsLTRB": [
+        382,
+        378,
+        424,
+        268
+      ],
+      "heightFraction": 0.484848,
+      "components": 78
+    },
+    "32": {
+      "boundsXYXYExclusive": [
+        383,
+        378,
+        830,
+        984
+      ],
+      "marginsLTRB": [
+        383,
+        378,
+        424,
+        270
+      ],
+      "heightFraction": 0.483254,
+      "components": 1
+    },
+    "64": {
+      "boundsXYXYExclusive": [
+        383,
+        378,
+        830,
+        984
+      ],
+      "marginsLTRB": [
+        383,
+        378,
+        424,
+        270
+      ],
+      "heightFraction": 0.483254,
+      "components": 1
+    },
+    "128": {
+      "boundsXYXYExclusive": [
+        384,
+        379,
+        829,
+        983
+      ],
+      "marginsLTRB": [
+        384,
+        379,
+        425,
+        271
+      ],
+      "heightFraction": 0.481659,
+      "components": 1
+    },
+    "250": {
+      "boundsXYXYExclusive": [
+        391,
+        383,
+        827,
+        981
+      ],
+      "marginsLTRB": [
+        391,
+        383,
+        427,
+        273
+      ],
+      "heightFraction": 0.476874,
+      "components": 251
+    }
+  }
+}
