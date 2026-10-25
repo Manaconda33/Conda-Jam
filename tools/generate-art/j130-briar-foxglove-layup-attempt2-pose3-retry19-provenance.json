@@ -1,0 +1,47 @@
+{
+  "issue": "J.130",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "frame": 3,
+  "tick": 8,
+  "retry": 19,
+  "generator": "image_gen.imagegen",
+  "generationId": null,
+  "generationIdNote": "The imagegen tool response in this run exposed only the returned image URL and no exec generation ID. Do not infer one. PNG C2PA claim identifier preserved below.",
+  "c2paClaimIdentifier": "urn:c2pa:40763bb2-95fe-4b42-adb5-105d6aa4e28e",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry19-raw.png",
+  "rawSha256": "19da5aebb56ec8a265262bd56441f052d4714d95055f92053d4f6be476bc7983",
+  "decodedRgbaPixelSha256": "9a9f26d9fe41f0c87e441b919a04be9b627ef055a13498bf0bbaf4b38e52ad39",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "alphaExtrema": null,
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry19-prompt.md",
+  "promptSha256": "015ea89bb56d6403111cac72958aea3169a644929a756d583a752ce87cd8fe85",
+  "transparentBackgroundRequested": true,
+  "thresholdMetrics": {
+    "1": {
+      "boundsXYXYExclusive": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "marginsLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "heightFraction": 1.0,
+      "components": 1,
+      "note": "RGB; every pixel is opaque, including baked checkerboard."
+    }
+  },
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry19-light-dark-review.png",
+  "reviewDecision": "REJECT; preserve untouched raw; no cleanup/normalization/packing/acceptance",
+  "uniqueDecodedPixels": true,
+  "duplicateAuditNote": "Repo-wide decoded-pixel audit reports 69 raw sources and only the two previously documented duplicate groups; this source is in neither group."
+}

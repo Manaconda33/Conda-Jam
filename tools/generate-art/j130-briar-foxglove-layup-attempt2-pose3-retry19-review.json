@@ -1,0 +1,23 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry19",
+  "decision": "REJECT",
+  "generationId": null,
+  "generationIdNote": "Imagegen tool response exposed no generation exec ID; the C2PA claim identifier is recorded in provenance.",
+  "c2paClaimIdentifier": "urn:c2pa:40763bb2-95fe-4b42-adb5-105d6aa4e28e",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry19-raw.png",
+  "sourceSha256": "19da5aebb56ec8a265262bd56441f052d4714d95055f92053d4f6be476bc7983",
+  "decodedRgbaPixelSha256": "9a9f26d9fe41f0c87e441b919a04be9b627ef055a13498bf0bbaf4b38e52ad39",
+  "uniqueDecodedPixels": true,
+  "duplicateAuditNote": "Repo-wide decoded-pixel audit reports 69 raw sources and only the two previously documented duplicate groups; this source is in neither group.",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry19-light-dark-review.png",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry19-prompt.md",
+  "checks": {
+    "pose": "FAIL: shooting arm is fully raised overhead with hand above crown, not bent beside temple at eyebrow height.",
+    "identityAnatomy": "PARTIAL: reads as a human athlete with red headband, locs, two arms and two legs; complete anatomy/no ball.",
+    "palette": "FAIL: skin is orange/copper, not Briar\u2019s deep-brown canon.",
+    "transparency": "FAIL: RGB output with an opaque checkerboard baked into every pixel; no alpha channel.",
+    "marginsAndScale": "FAIL: opaque canvas has zero transparent margins on every edge; generated figure also visually exceeds the requested ~40% height.",
+    "ball": "PASS: no ball is shown; retain a separate athlete-specific ball track."
+  },
+  "notes": "Preview reviewed at full canvas. The checkerboard is part of the generated RGB pixels, not a transparency display artifact. No cleanup or pose edit performed."
+}
