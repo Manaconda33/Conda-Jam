@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry25",
+  "decision": "REJECT",
+  "generationId": "exec-244448f1-08d5-45aa-9b0b-db3f7f898245",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry25-raw.png",
+  "sourceSha256": "5e18fc049b7e52bff415f259c1e1f622dde19d112bf6034032fa9e619b629d8c",
+  "decodedRgbaPixelSha256": "caf1a96d7da388ee4fcecc4b364df556d1cc16e5f86d1639e175649df8f55821",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry25-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose3-retry25-light-dark-review.png",
+  "checks": {
+    "pose": "FAIL: the shooting palm/fingers are high above the crown/headband in an overhead release-like gesture. Frame3 requires the shooting hand to pass the forehead while staying clearly below the headband/crown. The guide hand opens sideways; the legs are airborne.",
+    "identityAnatomy": "PARTIAL: recognizable adult human Briar with dark shoulder locs, red headband and russet/cream kit; two arms/hands and two legs/shoes, no fox traits or ball.",
+    "palette": "FAIL: skin reads warm orange/copper rather than Briar’s specified deep warm-brown canon despite numeric RGB anchors.",
+    "transparency": "PARTIAL: genuine RGBA alpha 0..255 and transparent background. Low-alpha alpha>=1 residue has33 components and reaches close to canvas edges.",
+    "cellMarginsAndScale": "FAIL: at alpha>=64 figure height is43.30% with margins L/T/R/B 432/352/452/359px (L34.45%, T28.07%, R36.04%, B28.63%); requested about30–32% height and at least34% clear margins. At alpha>=1 edges are only57/330/151/209px clear.",
+    "ball": "PASS: no basketball is included; keep the athlete-specific Briar ball on its separate track.",
+    "visualReview": "Reviewed the original RGBA source on light and dark backdrops; no checkerboard is baked in."
+  },
+  "reason": "Reject unchanged for above-crown hand placement, orange palette, excessive figure height, deficient alpha64 margins and low-alpha edge residue. Do not recolor, clean, normalize, pack, register, or accept."
+}
