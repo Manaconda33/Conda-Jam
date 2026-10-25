@@ -1,0 +1,21 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry17",
+  "decision": "REJECT; preserve untouched raw; do not clean, normalize, pack, or accept",
+  "generationId": "exec-e3f46760-c4f0-4e38-9c8c-80a03d694fda",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry17-raw.png",
+  "sourceSha256": "8f86aafd507ed810cfba28633212834ded28465ca5a27810768f52bfd90d98c2",
+  "decodedRgbaPixelSha256": "d57116f309e9ae7582bfa1123f8050f8f4599102e6af60df6eec84cf4692b2de",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry17-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose3-retry17-light-dark-review.png",
+  "sourceHashVerifiedAgainstGeneratedPath": true,
+  "uniqueDecodedPixels": true,
+  "checks": {
+    "pose": "FAIL: prerelease shooting hand is raised over the locs/crown, despite explicit eyebrow-height ceiling. Opposite guide arm extends sideways; lead knee rises and trailing heel is folded.",
+    "identityAnatomy": "PASS: recognizable adult human Briar with dark locs and red headband; two arms/hands and two legs/shoes, no ball or fox traits.",
+    "palette": "FAIL: skin reads too orange/bronze against accepted deep-brown palette; russet/cream kit is broadly present.",
+    "transparency": "PARTIAL/FAIL: RGBA with transparent field, but threshold-1 has268 components and only24px right/bottom clearance, so raw edge-residue criterion fails.",
+    "marginsScale": "FAIL: alpha>=64 bounds L420/T326/R255/B314px (33.5%,26.0%,20.3%,25.0%); fails28% all-edge margins. Figure height614/1254=48.96%, exceeding48% cap.",
+    "ball": "PASS: no ball drawn; keep athlete-specific ball on separate track."
+  },
+  "notes": "Generated source is unique and its output ID/file hash matches. No cleanup or pose editing performed."
+}
