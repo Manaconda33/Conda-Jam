@@ -1,0 +1,62 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "rebound",
+  "attempt": 1,
+  "generation_id": "exec-f0403827-63d2-4c1f-90b7-2c880eb7942b",
+  "generated_at_utc": "2026-10-25T03:45:38Z",
+  "prompt_file": "tools/generate-art/piper-quickstep-rebound-attempt1-prompt.md",
+  "reference_files": [
+    "tools/generate-art/sources/piper-quickstep-pickup-attempt3-clean-candidate.png",
+    "tools/generate-art/sources/piper-quickstep-receive-attempt4-clean-candidate.png"
+  ],
+  "source_file": "tools/generate-art/sources/piper-quickstep-rebound-attempt1-generated-raw.png",
+  "source_sha256": "298787a8c4f18bdcdf1146c3c4664641a7d32444febffd0b6eecaa7caf604a2f",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "review_state": "raw_rejected_cleaned_candidate_accepted",
+  "review_note": "Five complete Piper poses appear in correct order in a 3x2 sheet with the sixth cell empty. Identity/anatomy are consistent; no ball is visible; frame3 catch is distinct from frame4 chest settle. Raw sheet has a soft colored background glow and partial alpha only, with frame3 extending across its cell boundary at top. Raw margins are insufficient. Independent review recommends isolating each complete main figure globally, removing the glow, then scaling and centering with re-review. The cleaned candidate has been independently accepted and packed; native Canvas review confirms the separate track contact at frame3/tick5 and carried upper-chest settle at frame4/tick7 in both facings and zooms.",
+  "pixel_review": {
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "transparent_pixels": 1295162,
+    "partial_alpha_pixels": 277702,
+    "opaque_pixels": 0,
+    "largest_component_bounds_alpha64_global_xyxy": [
+      [
+        145,
+        85,
+        391,
+        474
+      ],
+      [
+        633,
+        19,
+        932,
+        496
+      ],
+      [
+        1104,
+        13,
+        1416,
+        500
+      ],
+      [
+        138,
+        503,
+        397,
+        988
+      ],
+      [
+        628,
+        613,
+        879,
+        997
+      ]
+    ]
+  }
+}

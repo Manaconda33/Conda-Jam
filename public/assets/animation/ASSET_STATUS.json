@@ -13,11 +13,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-25T03:35:56.414Z",
+  "generatedAt": "2026-10-25T03:50:53.426Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 803,
+  "inspectedClips": 804,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -60,12 +60,6 @@
       "athlete": "piper-quickstep",
       "direction": "right",
       "clip": "push"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "piper-quickstep",
-      "direction": "right",
-      "clip": "rebound"
     },
     {
       "code": "missing-clip",
@@ -27309,6 +27303,67 @@
           "h": 96,
           "hash": "37a30c68fa5fc0db21fa5f8525196f3020bd07cc25955a39afd63f6ee40e9500",
           "visiblePixels": 3336
+        }
+      ]
+    },
+    {
+      "athlete": "piper-quickstep",
+      "direction": "right",
+      "clip": "rebound",
+      "src": "./public/assets/animation/piper-quickstep-rebound-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "035e3e7da0d59781799d76b8533018f3ab8f5f9d1f3e14fa8519944ba7b6b293",
+          "visiblePixels": 3086
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "43f94ebb404eb42c3bbd2283e9213cb887a5718a5620b9a06c9e55bb3f467051",
+          "visiblePixels": 2406
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "221fea393883b9ce4df3c5ae2e82a26edafa060fc3a00aec711f6346c5d13321",
+          "visiblePixels": 2122
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b435ef1a5dc46eee792c9e09666399fd4f7e4aa64b9d7de6eae19bc0481b5146",
+          "visiblePixels": 2244
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "ab437ebfd0e3fdf776948b1c6edaf25acc62379223d46c87981720a9d5f236b6",
+          "visiblePixels": 3106
         }
       ]
     },

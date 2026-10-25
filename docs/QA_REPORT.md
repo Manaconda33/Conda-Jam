@@ -1,5 +1,16 @@
 # QA report
 
+## J.109 — Piper Quickstep `rebound`
+
+Piper adds five distinct right-facing rebound poses, reaching **14/29 reviewed clips /100 authored drawings**. The 11-tick sequence moves from a ready stance to takeoff, an airborne reach, a two-hand overhead catch at frame3/tick5, then a balanced landing with the ball settled near her upper chest at frame4/tick7. Piper remains an athletic adult human woman with warm-brown skin, bright orange high ponytail, russet-red/cream uniform and red/cream trainers. The art has full anatomy, no ball, and a blank kit; the basketball remains a separate Piper-specific runtime object. Canonical mirroring is approved.
+
+Accepted ImageGen attempt1 `exec-f0403827-63d2-4c1f-90b7-2c880eb7942b` raw source SHA-256 `298787a8c4f18bdcdf1146c3c4664641a7d32444febffd0b6eecaa7caf604a2f` includes a soft glow and frame3 crosses its source-row edge. Raw was rejected before cleanup. Global alpha-component extraction retains the complete figure, removes background glow/specks, and uniformly scales/centers the five poses; independent review accepted the cleaned1536x1024 RGBA 3x2 sheet with >=66px fully transparent margins on every cell edge and an empty sixth cell. Clean source SHA-256 `e165e73428da4018ec727692b1d78973093e2ba86bfd63fccb48b4d8ffe2e4ad`. Exact prompt, raw/clean sources, hashes, provenance, layout, cleanup and proofs are under `tools/generate-art/piper-quickstep-rebound*`.
+
+The reviewed 240x192 atlas `public/assets/animation/piper-quickstep-rebound-right.webp` is38,634 bytes / SHA-256 `b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0`. Piper’s separate track is height `[1.05,1.5,2.1,1.9,2.0]`, forward `[5,7,8,4,5]`. Independent native review at100%/120% in both facings confirms all five production frames; the ball contacts both overhead hands at frame3/tick5 and remains visible at the chest clasp in frame4/tick7. Previews and reports are under `tools/generate-art/previews/piper-quickstep-rebound/native-track3-{100,120}/`.
+
+Validation: `npm test`36/36 files; lint18 modules; content validation35 franchises /105 athletes; 100-match simulation /861,421 ticks /6 overtimes; atlas packer55 tests; build PASS. E2E fails before readiness because the local server exits at `127.0.0.1:4175`. Audit `2026-10-25T03:50:53.426Z`: **804 clips /7,243 drawings /105 athletes**,2,299 missing clips, one target shortfall and4 inherited prompt findings. Next clip by canonical missing-action order: Piper `block`. Commit will be recorded after validation.
+
+
 ## J.108 — Piper Quickstep `layup-reverse`
 
 Piper adds eight distinct right-facing reverse-layup poses, reaching **13/29 reviewed clips /95 authored drawings**. The sequence approaches image-right, crosses beneath the rim, rotates away, gathers behind the head, holds a bent pre-release peak at frame4/tick10, releases from the far-side hand at frame5/tick12, unwinds, and lands at frame7/tick17. Piper remains an athletic adult human woman with warm-brown skin, bright orange high ponytail, russet-red/cream kit and matching trainers. Every pose has complete anatomy and empty hands; the basketball remains separate runtime art. Canonical mirror review is approved.

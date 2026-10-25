@@ -1,0 +1,172 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "rebound",
+  "attempt": 1,
+  "raw_source": "tools/generate-art/sources/piper-quickstep-rebound-attempt1-generated-raw.png",
+  "raw_source_sha256": "298787a8c4f18bdcdf1146c3c4664641a7d32444febffd0b6eecaa7caf604a2f",
+  "cleaned_source": "tools/generate-art/sources/piper-quickstep-rebound-attempt1-clean-candidate.png",
+  "cleaned_source_sha256": "e165e73428da4018ec727692b1d78973093e2ba86bfd63fccb48b4d8ffe2e4ad",
+  "cleaned_size": [
+    1536,
+    1024
+  ],
+  "layout": "row-major 3x2; cells 0\u20134 contain the five complete authored poses; cell5 remains empty",
+  "cleanup": "Global alpha>=64 connected-component isolation keeps each full body even when it crosses the raw row boundary; retain one-pixel antialias dilation; discard detached glow and alpha<12; crop, uniformly scale to fit380x380, and center in transparent 512px cells with at least64px fully transparent margin. No pose is drawn, synthesized, rearranged, or duplicated.",
+  "frames": [
+    {
+      "frame": 0,
+      "source_component": 3,
+      "source_component_area_alpha64": 44348,
+      "source_bbox_xyxy": [
+        145,
+        85,
+        391,
+        474
+      ],
+      "source_bbox_size": [
+        247,
+        390
+      ],
+      "uniform_scale": 0.974359,
+      "output_size": [
+        241,
+        380
+      ],
+      "output_xy": [
+        135,
+        66
+      ],
+      "transparent_margins_ltrb_px": [
+        135,
+        136,
+        66,
+        66
+      ],
+      "removed_components": 3
+    },
+    {
+      "frame": 1,
+      "source_component": 2,
+      "source_component_area_alpha64": 48316,
+      "source_bbox_xyxy": [
+        633,
+        19,
+        932,
+        496
+      ],
+      "source_bbox_size": [
+        300,
+        478
+      ],
+      "uniform_scale": 0.794979,
+      "output_size": [
+        238,
+        380
+      ],
+      "output_xy": [
+        649,
+        66
+      ],
+      "transparent_margins_ltrb_px": [
+        137,
+        137,
+        66,
+        66
+      ],
+      "removed_components": 3
+    },
+    {
+      "frame": 2,
+      "source_component": 1,
+      "source_component_area_alpha64": 45923,
+      "source_bbox_xyxy": [
+        1104,
+        13,
+        1416,
+        500
+      ],
+      "source_bbox_size": [
+        313,
+        488
+      ],
+      "uniform_scale": 0.778689,
+      "output_size": [
+        244,
+        380
+      ],
+      "output_xy": [
+        1158,
+        66
+      ],
+      "transparent_margins_ltrb_px": [
+        134,
+        134,
+        66,
+        66
+      ],
+      "removed_components": 3
+    },
+    {
+      "frame": 3,
+      "source_component": 7,
+      "source_component_area_alpha64": 46139,
+      "source_bbox_xyxy": [
+        138,
+        503,
+        397,
+        988
+      ],
+      "source_bbox_size": [
+        260,
+        486
+      ],
+      "uniform_scale": 0.781893,
+      "output_size": [
+        203,
+        380
+      ],
+      "output_xy": [
+        154,
+        578
+      ],
+      "transparent_margins_ltrb_px": [
+        154,
+        155,
+        66,
+        66
+      ],
+      "removed_components": 3
+    },
+    {
+      "frame": 4,
+      "source_component": 8,
+      "source_component_area_alpha64": 43889,
+      "source_bbox_xyxy": [
+        628,
+        613,
+        879,
+        997
+      ],
+      "source_bbox_size": [
+        252,
+        385
+      ],
+      "uniform_scale": 0.987013,
+      "output_size": [
+        249,
+        380
+      ],
+      "output_xy": [
+        643,
+        578
+      ],
+      "transparent_margins_ltrb_px": [
+        131,
+        132,
+        66,
+        66
+      ],
+      "removed_components": 3
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "athlete": "Piper Quickstep",
+  "clip": "rebound",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generation_id": "exec-f0403827-63d2-4c1f-90b7-2c880eb7942b",
+      "source": "tools/generate-art/sources/piper-quickstep-rebound-attempt1-generated-raw.png",
+      "prompt": "tools/generate-art/piper-quickstep-rebound-attempt1-prompt.md",
+      "state": "raw_rejected_cleaned_candidate_accepted",
+      "reason": "Raw sheet rejected for background glow, inadequate margins, and frame3 crossing its raw cell edge. Global component cleanup retains the complete figure and gives all cleaned cells >=66px margins. Independent source and native reviews accept the cleaned source and separate ball track."
+    }
+  ]
+}

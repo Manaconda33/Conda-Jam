@@ -739,7 +739,10 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   layup:{height:[1.1,1.25,2.1,1.8,2.19,2.19,1.35,.8],forward:[6,7,9,9,8.9,8.9,9,7]},
   // The reverse source crosses behind Piper's head; estimated atlas hand
   // centers keep the ball on her far-side hand until frame5/tick12 releases.
-  'layup-reverse':{height:[1.15,1.7,2.2,2.2,2.5,2.45,1.4,.8],forward:[3.7,6.6,-1.8,2.2,-7.5,-6.5,2,6]}
+  'layup-reverse':{height:[1.15,1.7,2.2,2.2,2.5,2.45,1.4,.8],forward:[3.7,6.6,-1.8,2.2,-7.5,-6.5,2,6]},
+  // Piper's rebound catch is overhead at frame3/tick5, then settles to her
+  // chest at frame4; the athlete art stays empty-handed in every pose.
+  rebound:{height:[1.05,1.5,2.1,1.9,2.0],forward:[5,7,8,4,5]}
 },'reed-ashcroft':{
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.
