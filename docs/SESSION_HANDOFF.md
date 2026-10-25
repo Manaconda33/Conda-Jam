@@ -4,7 +4,7 @@ Piper adds11 distinct defensive push poses and reaches17/29 registered clips /12
 
 Raw SHA-256 `89a4f78007863fe5c3e96cd7d1eb5fd9d1ad0d3f092f9e8a3fba26edebc48723`; accepted clean source SHA-256 `a5fb08b8716f7b86632161666048dfdd9185a6be643ca449dbe8b9be001b22ce`; atlas `public/assets/animation/piper-quickstep-push-right.webp` SHA-256 `90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1`. Exact prompt, attempt history, cleanup, provenance, layouts and previews are under Piper push files.
 
-J.112 full validation passes:36/36 JS test files, lint18 modules,35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes, atlas packer suite and build; E2E exits before server readiness at `127.0.0.1:4175/`. Strict audit `2026-10-25T04:13:47.625Z` counts807 clips /7,266 drawings /105 athletes, 2,296 missing clips, one target shortfall, 4 inherited prompt findings. Next action is Piper `fall`.
+J.112 full validation passes:36/36 JS test files, lint18 modules,35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes, atlas packer suite and build; E2E exits before server readiness at `127.0.0.1:4175/`. Strict audit `2026-10-25T04:13:47.625Z` counts807 clips /7,266 drawings /105 athletes, 2,296 missing clips, one target shortfall, 4 inherited prompt findings. J.112 commit `f88117ff` is local; the standard push failed through the unavailable configured port8080 proxy, so no Pages workflow ran. Latest deploy remains `513e0a59` / run #169. Next action is Piper `fall`.
 
 ## J.111 — Piper Quickstep `steal` integrated locally
 
