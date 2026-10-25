@@ -1,10 +1,10 @@
-# Latest validation — J.125 Briar Foxglove `pass`
+# Latest validation — J.126 Briar Foxglove `pass-overhead`
 
-- Briar reaches7/29 clips /58 authored drawings. Selected six-frame chest-pass source SHA-256 `5bf2a2fd35680aec2d34a50332fa097f6a6cff10c129f286c40528e214e10d0e`; production WebP SHA-256 `b6f4ef27059a07116ba60794a145fe6bd6437504bd450fb1519fe4f6c59a2665`. All six poses are distinct, complete human figures, with transparent corners, no embedded ball, and source margins inside the 3×2 grid. Earlier candidates and the no-op edit remain preserved.
-- Accepted separate ball path H `[1.0,1.15,1.4,1.55,1.5,1.05]` / F `[7.5,8,12,19,18,9]`. Actual Canvas captures at100%/120% in both facings show the ball at the extended hands on tick4 and released as ownerless pass flight at tick5.
-- `npm test`: PASS,47/47 files; lint PASS,18 modules; content PASS,35 franchises/105 athletes; simulation PASS,100 matches /861,421 ticks /6 overtimes; production build PASS. Focused J.125 atlas/ball ownership test PASS.
-- Strict audit: **820 clips /7,442 authored drawings /105 athletes**,2,283 missing clips, one target shortfall and4 inherited prompt findings; generated2026-10-25T18:40:52.951Z. J.125 adds no new audit errors.
-- E2E was not rerun; previous sandbox localhost socket denial remains documented. Push and Pages validation are pending; latest deployed checkpoint remains `513e0a59` / run #169.
+- Briar reaches8/29 clips /64 authored drawings. Selected six-frame source SHA-256 `17b398fdb4ba09fe83a81f35d9589fc31c2f9bb6cee79320b1c0267c8210533e`; production WebP SHA-256 `40cad6678d756d6a6ba39e076bc9d99712725a5bef9a9459d2687af1224e50ed`. The source has six distinct, complete human poses, transparent corners, no embedded basketball, and no pose touches/crosses a cell. Minimum source margin is41px; earlier tight-margin candidates remain rejected.
+- Accepted separate ball path H `[1.0,1.2,1.9,1.9,2.35,1.75]` / F `[3.5,4,1,1,12,17]`. Actual Canvas captures at100%/120% in both facings place it between Briar’s raised hands through tick6; tick7 releases ownerless pass flight.
+- `npm test`: PASS,48/48 files; lint PASS,18 modules; content PASS,35 franchises/105 athletes; simulation PASS,100 matches /861,421 ticks /6 overtimes; production build PASS. Focused J.126 atlas/ownership test PASS.
+- Strict audit: **821 clips /7,448 authored drawings /105 athletes**,2,282 missing clips, one target shortfall and4 inherited prompt findings; generated2026-10-25T18:52:09.393Z. J.126 adds no new audit errors.
+- E2E was not rerun; previous sandbox localhost socket denial remains documented. Push and Pages validation are pending due the unreachable configured proxy; latest deployed checkpoint remains `513e0a59` / run #169.
 
 # Validation — J.119 Piper Quickstep `dunk-tomahawk`
 

@@ -70,7 +70,7 @@ if(process.env.JAMVERSE_PREVIEW_UNREVIEWED==='1'){
   if(character?.mirrorSafe===true&&character?.mirrorReview?.notes)character.mirrorReview.status='reviewed';
 }
 const previewImages=new Map(images.map(image=>[image.file,image]));
-const previews=[],previewFrames=[],clips=Object.keys(animationClips);
+const previews=[],previewFrames=[],clips=Object.keys(animationClips),passContactCaptures=[];
 const onlyPreviewClips=new Set((process.env.JAMVERSE_PREVIEW_CLIPS??'').split(',').map(x=>x.trim()).filter(Boolean));
 const shouldPreview=clip=>onlyPreviewClips.size===0||onlyPreviewClips.has(clip);
 for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip of clips){
@@ -126,6 +126,19 @@ for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','picku
  const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});
  actionFramePreviews.push({path,athlete:p.id,clip,frame,tick,facing:p.facing,production:Boolean(selected),selectedFrame:selected?.frame,source:selected?.atlas?.file??null,flipped:selected?.flip??false,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId});
  tick+=animationClips[clip].frames[frame].duration;
+}
+// Capture the last carried frame immediately before each pass release. The
+// ordinary action sheet only captures frame-start ticks and can miss this hand
+// contact when the final carry tick falls inside a multi-tick pose.
+for(const clip of ['pass','pass-overhead','pass-behind'].filter(shouldPreview))for(const facing of [1,-1]){
+ const tick=anchorTick(clip,'release')-1;
+ for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
+ p.x=100;p.y=50;p.z=0;p.facing=facing;p.animation={clip,tick};p.hasBall=true;
+ Object.assign(state.ball,{x:p.x+facing*sampleBallForward(clip,tick,p.id),y:p.y,z:sampleBallHeight(clip,tick,p.id),mode:'carried',ownerId:p.id,targetId:null});
+ game.tick(0);
+ const position=facing>0?'left':'right',path=out+'/'+position+'-'+clip+'-pre-release-tick'+tick+'.png';
+ await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
+ passContactCaptures.push({path,athlete:p.id,clip,tick,facing,production:Boolean(selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages})),source:animationAssetManifest.characters?.[p.id]?.directions?.right?.[clip]?.src??null,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:'last carried tick before pass release'});
 }
 // Capture every Paprika dunk frame with the live renderer in both facings.
 // Keep her on the roster that owns her sprite data; change only facing.
@@ -201,5 +214,5 @@ for(const clip of ['layup','layup-reverse'].filter(shouldPreview))for(const faci
   }
  }
 }
-await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',cameraZoom:previewZoom,loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames,actionFramePreviews,liveShotCaptures},null,2));
-console.log(JSON.stringify({loadedImages:images.length,previews:previews.length,actionFramePreviews:actionFramePreviews.length,out}));
+await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',cameraZoom:previewZoom,loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames,actionFramePreviews,passContactCaptures,liveShotCaptures},null,2));
+console.log(JSON.stringify({loadedImages:images.length,previews:previews.length,actionFramePreviews:actionFramePreviews.length,passContactCaptures:passContactCaptures.length,out}));

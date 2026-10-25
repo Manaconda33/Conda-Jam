@@ -1,0 +1,28 @@
+{
+  "issue": "J.126",
+  "athlete": "briar-foxglove",
+  "clip": "pass-overhead",
+  "candidates": [
+    {
+      "generationId": "exec-2d922410-2370-4a3f-b535-5ca6ba458ead",
+      "source": "tools/generate-art/sources/j126-briar-foxglove-pass-overhead-generated-raw.png",
+      "prompt": "tools/generate-art/j126-briar-foxglove-pass-overhead-prompt-attempt1.md",
+      "status": "rejected-tight-margin",
+      "minimumMarginPx": 9
+    },
+    {
+      "generationId": "exec-9107b694-aef4-4f11-956d-c983ab4a3ec4",
+      "source": "tools/generate-art/sources/j126-briar-foxglove-pass-overhead-attempt2-raw.png",
+      "prompt": "tools/generate-art/j126-briar-foxglove-pass-overhead-prompt-attempt2.md",
+      "status": "rejected-tight-margin",
+      "minimumMarginPx": 19
+    },
+    {
+      "generationId": "exec-78434f32-5004-449a-b641-7c9e1318ab95",
+      "source": "tools/generate-art/sources/j126-briar-foxglove-pass-overhead-attempt3-raw.png",
+      "prompt": "tools/generate-art/j126-briar-foxglove-pass-overhead-prompt-attempt3.md",
+      "status": "selected-and-accepted",
+      "minimumMarginPx": 41
+    }
+  ]
+}

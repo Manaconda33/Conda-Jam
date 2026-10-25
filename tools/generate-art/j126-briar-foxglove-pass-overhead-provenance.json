@@ -1,0 +1,170 @@
+{
+  "issue": "J.126",
+  "athlete": "briar-foxglove",
+  "clip": "pass-overhead",
+  "direction": "right",
+  "canonicalSection": "Emberwood Kits athlete identity plus pass-overhead timing in src/core/animation.js",
+  "generatedAt": "2026-10-25",
+  "generationId": "exec-78434f32-5004-449a-b641-7c9e1318ab95",
+  "imageGenerationId": "exec-78434f32-5004-449a-b641-7c9e1318ab95",
+  "eligibleForPacking": true,
+  "sourceImage": "tools/generate-art/sources/j126-briar-foxglove-pass-overhead-attempt3-raw.png",
+  "sourceSha256": "17b398fdb4ba09fe83a81f35d9589fc31c2f9bb6cee79320b1c0267c8210533e",
+  "rawSourceImage": "tools/generate-art/sources/j126-briar-foxglove-pass-overhead-attempt3-raw.png",
+  "rawSourceSha256": "17b398fdb4ba09fe83a81f35d9589fc31c2f9bb6cee79320b1c0267c8210533e",
+  "prompt": "tools/generate-art/j126-briar-foxglove-pass-overhead-prompt-attempt3.md",
+  "promptFile": "tools/generate-art/j126-briar-foxglove-pass-overhead-prompt-attempt3.md",
+  "reference": "public/assets/animation/briar-foxglove-shoot-right.webp",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sourceCellSize": [
+    512,
+    512
+  ],
+  "sourceMarginsLTRB": [
+    [
+      160,
+      172,
+      171,
+      41
+    ],
+    [
+      164,
+      172,
+      184,
+      41
+    ],
+    [
+      175,
+      116,
+      172,
+      41
+    ],
+    [
+      162,
+      71,
+      178,
+      87
+    ],
+    [
+      149,
+      78,
+      142,
+      81
+    ],
+    [
+      175,
+      122,
+      164,
+      86
+    ]
+  ],
+  "cleanupNotes": "No pixel cleanup or pose redraw. The packer isolates the six source figures, removes disconnected alpha artifacts, and uniformly fits each figure; raw source is preserved. Attempt3 prompt requested 110px margins; ImageGen produced a 41px minimum, which remains a clear, non-touching margin and passed independent source review for uniform fit.",
+  "review": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-25T18:51:02Z",
+    "reviewers": [
+      "independent J.126 source reviewer",
+      "Codex parent"
+    ],
+    "notes": "All six figures have complete human anatomy and consistent Briar identity, transparent outer corners, six distinct overhead-pass poses, and no painted ball. Tightest raw-source margin is41px below pose00. No cell boundary is touched or crossed. Pose02 overhead load, pose03 vertical rise/release and pose04 image-right overhead release remain distinct."
+  },
+  "candidateImages": [
+    {
+      "generationId": "exec-2d922410-2370-4a3f-b535-5ca6ba458ead",
+      "source": "tools/generate-art/sources/j126-briar-foxglove-pass-overhead-generated-raw.png",
+      "prompt": "tools/generate-art/j126-briar-foxglove-pass-overhead-prompt-attempt1.md",
+      "status": "rejected-tight-margin",
+      "minimumMarginPx": 9
+    },
+    {
+      "generationId": "exec-9107b694-aef4-4f11-956d-c983ab4a3ec4",
+      "source": "tools/generate-art/sources/j126-briar-foxglove-pass-overhead-attempt2-raw.png",
+      "prompt": "tools/generate-art/j126-briar-foxglove-pass-overhead-prompt-attempt2.md",
+      "status": "rejected-tight-margin",
+      "minimumMarginPx": 19
+    },
+    {
+      "generationId": "exec-78434f32-5004-449a-b641-7c9e1318ab95",
+      "source": "tools/generate-art/sources/j126-briar-foxglove-pass-overhead-attempt3-raw.png",
+      "prompt": "tools/generate-art/j126-briar-foxglove-pass-overhead-prompt-attempt3.md",
+      "status": "selected-and-accepted",
+      "minimumMarginPx": 41
+    }
+  ],
+  "releaseFrame": 3,
+  "releaseTick": 7,
+  "ballTrackCandidate": {
+    "height": [
+      1.0,
+      1.2,
+      1.9,
+      1.9,
+      2.35,
+      1.75
+    ],
+    "forward": [
+      3.5,
+      4,
+      1,
+      1,
+      12,
+      17
+    ],
+    "status": "candidate; awaiting independent final native contact review",
+    "releaseFrame": 3,
+    "releaseTick": 7
+  },
+  "nativeReview": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-25T18:51:02Z",
+    "reviewers": [
+      "independent J.126 source reviewer",
+      "independent J.126 ball-track reviewer",
+      "Codex parent"
+    ],
+    "previewReports": [
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-100/report.json",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-120/report.json"
+    ],
+    "contactPreviews": [
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/attempt3-light-dark-review.png",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-100/contact-crops.png",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-120/contact-crops.png",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-100/left-pass-overhead-pre-release-tick6.png",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-100/right-pass-overhead-pre-release-tick6.png",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-120/left-pass-overhead-pre-release-tick6.png",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-120/right-pass-overhead-pre-release-tick6.png",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-100/left-pass-overhead-frame3.png",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-100/right-pass-overhead-frame3.png",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-120/left-pass-overhead-frame3.png",
+      "tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-120/right-pass-overhead-frame3.png"
+    ],
+    "reviewNotes": "Actual src/main.js Canvas at 100% and120%, both facings. All six frames select the production atlas. At the last carried tick6 the separate ball is centered between Briar\u2019s raised hands with fingertip overlap; tick7 frame3 releases to pass flight with owner cleared. Native Canvas is diagnostic evidence, not browser E2E."
+  },
+  "ballTrack": {
+    "height": [
+      1.0,
+      1.2,
+      1.9,
+      1.9,
+      2.35,
+      1.75
+    ],
+    "forward": [
+      3.5,
+      4,
+      1,
+      1,
+      12,
+      17
+    ],
+    "status": "accepted-native-review",
+    "file": "src/core/animation.js",
+    "releaseFrame": 3,
+    "releaseTick": 7
+  },
+  "reviewState": "accepted source and native ball-track review"
+}

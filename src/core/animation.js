@@ -721,7 +721,10 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   shoot:{height:[1.043,1.417,.929,1.618,1.962,2.249,2.278,2.249,1.187,1.072],forward:[7.309,4.02,7.675,5.847,6.213,6.944,7.675,7.675,6.578,8.771]},
   // J.125 chest-pass track candidate reaches Briar's extended fingers at the
   // tick5 release; keep ball pixels separate from the reviewed pose atlas.
-  pass:{height:[1.0,1.15,1.4,1.55,1.5,1.05],forward:[7.5,8,12,19,18,9]}
+  pass:{height:[1.0,1.15,1.4,1.55,1.5,1.05],forward:[7.5,8,12,19,18,9]},
+  // J.126 overhead pass reaches Briar's loaded hands at tick6, then releases
+  // on frame3/tick7; accepted native contact captures cover both facings.
+  'pass-overhead':{height:[1.0,1.2,1.9,1.9,2.35,1.75],forward:[3.5,4,1,1,12,17]}
 },'piper-quickstep':{
   // The ball stays in Piper's leading hand through the bent jump-shot release.
   // Centers were measured on the reviewed 128x96 source cells and checked in

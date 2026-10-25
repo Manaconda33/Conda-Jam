@@ -1,0 +1,149 @@
+{
+  "issue": "J.126",
+  "athlete": "briar-foxglove",
+  "clip": "pass-overhead",
+  "direction": "right",
+  "reference": "public/assets/animation/briar-foxglove-shoot-right.webp",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "cellSize": [
+    512,
+    512
+  ],
+  "status": "pending-independent-review",
+  "generationId": "exec-78434f32-5004-449a-b641-7c9e1318ab95",
+  "rawSource": "tools/generate-art/sources/j126-briar-foxglove-pass-overhead-attempt3-raw.png",
+  "rawSourceSha256": "17b398fdb4ba09fe83a81f35d9589fc31c2f9bb6cee79320b1c0267c8210533e",
+  "promptFile": "tools/generate-art/j126-briar-foxglove-pass-overhead-prompt-attempt3.md",
+  "sourceCellReview": [
+    {
+      "pose": 0,
+      "bboxAlphaGt16": [
+        160,
+        172,
+        341,
+        471
+      ],
+      "marginsLTRB": [
+        160,
+        172,
+        171,
+        41
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 1,
+      "bboxAlphaGt16": [
+        164,
+        172,
+        328,
+        471
+      ],
+      "marginsLTRB": [
+        164,
+        172,
+        184,
+        41
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 2,
+      "bboxAlphaGt16": [
+        175,
+        116,
+        340,
+        471
+      ],
+      "marginsLTRB": [
+        175,
+        116,
+        172,
+        41
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 3,
+      "bboxAlphaGt16": [
+        162,
+        71,
+        334,
+        425
+      ],
+      "marginsLTRB": [
+        162,
+        71,
+        178,
+        87
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 4,
+      "bboxAlphaGt16": [
+        149,
+        78,
+        370,
+        431
+      ],
+      "marginsLTRB": [
+        149,
+        78,
+        142,
+        81
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 5,
+      "bboxAlphaGt16": [
+        175,
+        122,
+        348,
+        426
+      ],
+      "marginsLTRB": [
+        175,
+        122,
+        164,
+        86
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "notes": "Minimum source margin is41px; no pose touches/crosses a cell boundary; reduced fit remains subject to independent review."
+}

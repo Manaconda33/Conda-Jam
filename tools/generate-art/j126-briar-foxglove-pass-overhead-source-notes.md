@@ -1,0 +1,9 @@
+# J.126 — Briar Foxglove `pass-overhead` source review
+
+The selected attempt3 source is `tools/generate-art/sources/j126-briar-foxglove-pass-overhead-attempt3-raw.png`, ImageGen `exec-78434f32-5004-449a-b641-7c9e1318ab95`; SHA-256 `17b398fdb4ba09fe83a81f35d9589fc31c2f9bb6cee79320b1c0267c8210533e`. Exact prompts and provenance for all three generations are preserved in the adjacent J.126 files. Attempts1 and2 remain rejected for source-cell margins of9px and19px; their raw sheets, light/dark previews, prompts and per-cell bounds are retained.
+
+Attempt3 has six distinct poses: 00 ready, 01 chest gather, 02 elbows-bent overhead load, 03 step/rise, 04 fully extended overhead release, and 05 lowered follow-through/recovery. Briar remains an adult human woman with warm deep-brown skin, shoulder-length dark locs, red headband, compact athletic build and russet/cream Emberwood kit. No fox traits or basketball are present. Transparent outer corners are zero. Exact alpha>16 bounds and LTRB margins are in `j126-briar-foxglove-pass-overhead-provenance.json`; the minimum margin is41px, with no source cell touched or crossed.
+
+The attempt3 generation prompt requested110px margins and a280px figure limit; the output is larger (minimum margin41px). Independent review confirms the remaining margin is safe for the packer's uniform fit; this deviation is recorded and was not hidden. No source cleanup or pose redraw was done. The packer isolates and fits the selected components while retaining the original raw source.
+
+The accepted Briar-specific separate-ball track is H `[1.0,1.2,1.9,1.9,2.35,1.75]`, F `[3.5,4,1,1,12,17]`. It follows the overhead load through tick6 and releases on frame3/tick7. Independent native Canvas review confirms contact in both facings at100%/120%, then ownerless pass flight. Full reports and captures are under `tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-100/` and `native-120/`.

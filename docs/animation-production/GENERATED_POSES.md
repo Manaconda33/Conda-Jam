@@ -1,10 +1,11 @@
-# J.125 — Briar Foxglove `pass`
+# J.126 — Briar Foxglove `pass-overhead`
 
-Briar is now7/29 clips /58 authored drawings. Six distinct, complete ball-free pass poses are packed into a336×192 transparent atlas with112×96 cells. Source SHA-256 `5bf2a2fd35680aec2d34a50332fa097f6a6cff10c129f286c40528e214e10d0e`; production WebP SHA-256 `b6f4ef27059a07116ba60794a145fe6bd6437504bd450fb1519fe4f6c59a2665`. Briar keeps her human anatomy, warm deep-brown skin, shoulder-length dark locs, red headband, compact build, and russet/cream Emberwood kit. Source corners are transparent; no pose crosses its source cell. All source variants, exact prompts, raw hashes, no-op edit rejection, layout, cleanup notes, and light/dark previews are preserved in the J.125 directories.
+Briar is now8/29 clips /64 authored drawings. Six distinct, full-body, ball-free poses are packed in a192×192 transparent atlas with64×96 cells. Source SHA-256 `17b398fdb4ba09fe83a81f35d9589fc31c2f9bb6cee79320b1c0267c8210533e`; production WebP SHA-256 `40cad6678d756d6a6ba39e076bc9d99712725a5bef9a9459d2687af1224e50ed`. Her human anatomy, warm deep-brown skin, shoulder-length dark locs/red headband, compact build, and russet/cream Emberwood kit remain intact. The selected raw source has alpha-zero outer corners and a41px minimum margin; two earlier tighter sheets are preserved and rejected. Exact prompts, raw candidates, provenance, cell bounds, layout and light/dark previews are in the J.126 source directories.
 
-The separate Briar-specific ball path H `[1.0,1.15,1.4,1.55,1.5,1.05]` / F `[7.5,8,12,19,18,9]` holds at the extended hands through tick4, then releases on frame3/tick5. Actual `src/main.js` Canvas captures at100%/120% in both facings select all six cells and show the ownerless pass flight. Focused teammate-pass test confirms exclusive ownership and release timing.
+The separate Briar ball track H `[1.0,1.2,1.9,1.9,2.35,1.75]` / F `[3.5,4,1,1,12,17]` meets the raised hands through tick6 and releases at frame3/tick7. Actual Canvas captures at100%/120% in both facings and a focused real-roster test pass.
 
-Validation: npm test47/47; lint18 modules; content35 franchises/105 athletes;100-match simulation /861,421 ticks /6 overtimes; production build pass. Audit2026-10-25T18:40:52.951Z:820 clips /7,442 drawings /105 athletes,2,283 missing clips, one target shortfall and4 inherited prompt findings. Next roster-order action: Briar Foxglove `pass-overhead`.
+Validation: npm test48/48; lint18 modules; content35 franchises/105 athletes;100-match simulation /861,421 ticks /6 overtimes; production build pass. Audit2026-10-25T18:52:09.393Z:821 clips /7,448 drawings /105 athletes,2,282 missing clips, one target shortfall and4 inherited prompt findings. Next roster-order action: Briar Foxglove `pass-behind`.
+
 
 # J.123 — Piper Quickstep `alley-oop-power`
 

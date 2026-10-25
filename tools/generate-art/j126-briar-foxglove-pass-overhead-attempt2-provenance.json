@@ -1,0 +1,149 @@
+{
+  "issue": "J.126",
+  "athlete": "briar-foxglove",
+  "clip": "pass-overhead",
+  "direction": "right",
+  "reference": "public/assets/animation/briar-foxglove-shoot-right.webp",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "cellSize": [
+    512,
+    512
+  ],
+  "status": "rejected-tight-margin",
+  "generationId": "exec-9107b694-aef4-4f11-956d-c983ab4a3ec4",
+  "rawSource": "tools/generate-art/sources/j126-briar-foxglove-pass-overhead-attempt2-raw.png",
+  "rawSourceSha256": "ab0a71eedc304e9cce633a7852aa708d1f699e093b9bbe1197bd6fc0d0bf8451",
+  "promptFile": "tools/generate-art/j126-briar-foxglove-pass-overhead-prompt-attempt2.md",
+  "sourceCellReview": [
+    {
+      "pose": 0,
+      "bboxAlphaGt16": [
+        150,
+        109,
+        366,
+        487
+      ],
+      "marginsLTRB": [
+        150,
+        109,
+        146,
+        25
+      ],
+      "cornerAlpha": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 1,
+      "bboxAlphaGt16": [
+        142,
+        109,
+        363,
+        487
+      ],
+      "marginsLTRB": [
+        142,
+        109,
+        149,
+        25
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 2,
+      "bboxAlphaGt16": [
+        161,
+        63,
+        372,
+        488
+      ],
+      "marginsLTRB": [
+        161,
+        63,
+        140,
+        24
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 3,
+      "bboxAlphaGt16": [
+        141,
+        19,
+        370,
+        458
+      ],
+      "marginsLTRB": [
+        141,
+        19,
+        142,
+        54
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 4,
+      "bboxAlphaGt16": [
+        117,
+        32,
+        426,
+        458
+      ],
+      "marginsLTRB": [
+        117,
+        32,
+        86,
+        54
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pose": 5,
+      "bboxAlphaGt16": [
+        107,
+        109,
+        441,
+        459
+      ],
+      "marginsLTRB": [
+        107,
+        109,
+        71,
+        53
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "notes": "Pose03 top margin is 19px, pose04 top margin32px, and the top-left sheet corner has alpha1; below the requested 70px safety margin."
+}
