@@ -1,0 +1,33 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry23",
+  "operation": "single-pose source generation",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-94cc5888-1ed3-4d1d-8fb9-325edbcbd6b6",
+  "generatedOutputPath": "/workspace/generated_images/exec-94cc5888-1ed3-4d1d-8fb9-325edbcbd6b6.png",
+  "c2paClaimIdentifier": "not exposed by imagegen response or PNG metadata",
+  "sourcePath": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry23-raw.png",
+  "sourceSha256": "233ac742f7d0e5bf55ba551e2f20278e23ba93a189cbd269db9aae20c3cbf72b",
+  "decodedRgbaPixelSha256": "b98f5fce259d46a731f0b159a90f9ae4f971ef5dae4ab12a465b4aa2474ac0d7",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentBackgroundRequested": true,
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry23-prompt.md",
+  "promptSha256": "50c4463670f30b50765e1989672beacc313581c8959e7a1b5833962c3d89d80c",
+  "previewPath": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry23-light-dark-review.png",
+  "cleanup": null,
+  "packing": null,
+  "registration": null,
+  "duplicateScan": {
+    "method": "SHA-256 over decoded RGBA pixel bytes, dimensions included",
+    "rawSourcePngCountScanned": 83,
+    "duplicateMatches": []
+  },
+  "disposition": "REJECT; preserve untouched source and evidence."
+}

@@ -1,0 +1,21 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry23",
+  "decision": "REJECT",
+  "generationId": "exec-94cc5888-1ed3-4d1d-8fb9-325edbcbd6b6",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry23-raw.png",
+  "sourceSha256": "233ac742f7d0e5bf55ba551e2f20278e23ba93a189cbd269db9aae20c3cbf72b",
+  "decodedRgbaPixelSha256": "b98f5fce259d46a731f0b159a90f9ae4f971ef5dae4ab12a465b4aa2474ac0d7",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry23-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry23-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PARTIAL: adult human athlete with shoulder-length dark locs, red headband, russet/cream uniform and cream-dominant shoes; two arms/hands and two legs/shoes, no fox traits, number, logo or ball. Low-alpha red fringe appears around some silhouette edges.",
+    "pose": "FAIL: raised-knee ascent reads, but shooting fingertips remain beside/touching the lower face around nose/mouth level, not clearly below the lower lip with a visible gap from the face.",
+    "palette": "FAIL: exposed skin reads orange/copper and brighter than Briar canon despite numeric palette anchors in prompt (median RGB 145,70,39; shadow 85,35,17; highlight 193,114,70).",
+    "transparency": "PARTIAL: genuine RGBA alpha range 0..255; no baked checkerboard. Alpha>=1 has101 8-connected components from low-alpha residue.",
+    "cellMargins": "FAIL: alpha>=1 margins L/T/R/B are33/197/46/40px; left/right/bottom are far below the 30% requested clear margin. Alpha>=64 margins are502/342/363/356px; top/bottom are27.27%/28.39%, also below30%.",
+    "scale": "FAIL: alpha>=64 figure height is556/1254=44.34%, above the ~38% prompt and slightly above the historical44% hard cap.",
+    "pixelUniqueness": "PASS: decoded RGBA pixels compared with all 83 same-project raw sources scanned; no duplicate match.",
+    "ball": "PASS: no basketball is included; keep Briar\u2019s ball on a separate athlete-specific track."
+  },
+  "reason": "Reject unchanged for hand/face separation, orange palette, excess scale and deficient clear margins/low-alpha residue. Do not clean, recolor, normalize, pack, register or accept."
+}
