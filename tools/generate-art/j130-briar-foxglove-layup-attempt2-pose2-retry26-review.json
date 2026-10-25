@@ -1,0 +1,8 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry26",
+  "decision": "NOT REVIEWABLE",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry26-prompt.md",
+  "provenance": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry26-provenance.json",
+  "reason": "The image-generation call completed, but the output_hint value was not recorded. No exact generation ID, path, source hash, or C2PA identifier can be linked to this prompt; concurrent output files cannot be safely attributed. No raw image was archived, no visual or metrics review was possible, and this attempt is not a candidate.",
+  "reviewStatus": "UNREVIEWABLE; do not infer or invent source provenance."
+}
