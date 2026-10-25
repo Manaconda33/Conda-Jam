@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry22",
+  "decision": "REJECT",
+  "generationId": "exec-5fc2d701-404d-4e52-862d-a38183ba3044",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry22-raw.png",
+  "sourceSha256": "28af894ab79c23bf5eb01f2bd7f92f02bf147b2fa84de085d61cea52fb064b52",
+  "decodedRgbaPixelSha256": "e00561f3f0c5eca2120f9dc4ebed9697a01bf2a61c0725b239e8a609e4caa257",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry22-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry22-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PARTIAL: adult human with dark locs/red headband, russet/cream kit, cream trainers, two arms and two legs; no fox traits or ball. A thin red low-alpha fringe is visible around portions of the silhouette.",
+    "pose": "FAIL: airborne folded-leg ascent reads, but shooting fingertips overlap or touch the nose/mouth area rather than remaining clearly below the lower lip with a visible face gap.",
+    "palette": "FAIL: skin remains too warm/orange compared with accepted Briar deep-brown palette anchors RGB (145,70,39) median, (85,35,17) shadow, (193,114,70) restrained highlight.",
+    "transparency": "PARTIAL: RGBA with transparent background; alpha extrema 0..255. Low-alpha residue is widespread and disconnected.",
+    "marginsScale": "FAIL: at alpha>=64 margins L/T/R/B are [478,321,461,362]px; top margin 25.6% is below 30%. Figure height 45.53% exceeds ~38% target. At alpha>=1 bounds reach x=0 and margins are [0,21,68,40]px; 217 components.",
+    "pixelUniqueness": "PASS: decoded RGBA pixels compared against same-size J.130 raw sources; no duplicate match among 79 sources at review time.",
+    "ballAlignment": "PASS for ball-free source: no basketball is included; keep the athlete-specific ball on a separate later track."
+  },
+  "reason": "Reject unchanged for hand/face overlap, off-canon orange palette, excessive scale, inadequate clear margins, and low-alpha fringe. Do not clean, recolor, normalize, pack or register."
+}
