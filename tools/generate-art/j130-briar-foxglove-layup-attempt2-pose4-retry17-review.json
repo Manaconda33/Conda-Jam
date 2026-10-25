@@ -1,0 +1,19 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry17",
+  "decision": "REJECT",
+  "generationId": "exec-51edc93c-f870-4fb3-ab89-e1ff5255fc45",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry17-raw.png",
+  "rawSha256": "4b5bf142c34893746f2243ecd97944dc5fff05c20f710d52779ba02be2c3c715",
+  "decodedRgbaPixelSha256": "aa4f0c315d3c49a08159cc1bcd791bcfd9550cd1afb7451bc1ad9709d8200777",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry17-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry17-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PASS: adult human Briar with dark locs, vivid red headband, russet/cream kit, complete two arms/hands and two legs/shoes; no ball or fox traits.",
+    "pose": "PASS: airborne folded-leg peak layup release is readable; shooting arm extends high-forward with open hand, guide hand remains at chest and clear of face, complete anatomy.",
+    "palette": "FAIL: exposed skin remains visibly orange/bronze rather than Briar\u2019s specified deep warm-brown canon palette.",
+    "transparency": "PARTIAL: RGBA alpha exists and main figure is isolated; faint low-alpha residue is disconnected and approaches canvas edges.",
+    "cellMargins": "FAIL: alpha>=64 body bounds have margins L/T/R/B=[489, 245, 381, 271] px and height 57.4257%; alpha>=1 residue leaves only 24px minimum clearance. Figure requested at39% height and >=30% transparent all-edge margins.",
+    "uniqueness": "PASS: decoded RGBA hash was compared with all existing J.130 raw PNG sources; no pixel-identical match."
+  },
+  "reason": "Reject unchanged for oversized figure, insufficient transparent cell margins, disconnected low-alpha residue near the canvas edges, and orange/bronze skin palette drift. The hand is above the crown as the generation prompt had restricted it, but this is not an anatomy failure and the release pose remains readable. No cleanup, recoloring, or packing."
+}
