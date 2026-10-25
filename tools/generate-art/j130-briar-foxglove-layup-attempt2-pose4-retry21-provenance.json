@@ -1,0 +1,42 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "frame": 4,
+  "tick": 10,
+  "retry": 21,
+  "operation": "single-pose source generation",
+  "generator": "image_gen.imagegen",
+  "generationId": "exec-ebfb68c8-f539-4cd9-86ef-53bc4e660ed5",
+  "outputHint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-ebfb68c8-f539-4cd9-86ef-53bc4e660ed5.png by default. If you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.",
+  "originalGeneratedPath": "/workspace/generated_images/exec-ebfb68c8-f539-4cd9-86ef-53bc4e660ed5.png",
+  "sourcePath": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry21-raw.png",
+  "sourceSha256": "22f072f0e6db58320f9f409b969e3a90850bad110cfc00cca7aa7c78c6b357bc",
+  "decodedRgbaPixelSha256": "10aa5c9b83eab4009d02a1429947bc2ab5d77cdcdb2c589e0f912213526a7634",
+  "dimensions": [1223, 1286],
+  "mode": "RGBA",
+  "alphaExtrema": [0, 255],
+  "c2paClaimIdentifier": null,
+  "c2paNote": "No C2PA or other metadata was present in the PNG; generation ID/output path are recorded.",
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry21-prompt.md",
+  "previewPath": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry21-light-dark-review.png",
+  "references": [],
+  "cleanup": null,
+  "normalization": null,
+  "packing": null,
+  "registration": null,
+  "alphaMetrics": {
+    "threshold1": {"boundsXYXYExclusive": [106, 60, 1209, 1262], "marginsLTRB": [106, 60, 14, 24], "figureHeightFraction": 0.934681, "figureWidthFraction": 0.901881, "connectedComponents": 140},
+    "threshold8": {"boundsXYXYExclusive": [440, 251, 842, 981], "marginsLTRB": [440, 251, 381, 305], "figureHeightFraction": 0.567652, "figureWidthFraction": 0.3287, "connectedComponents": 58},
+    "threshold32": {"boundsXYXYExclusive": [441, 251, 842, 981], "marginsLTRB": [441, 251, 381, 305], "figureHeightFraction": 0.567652, "figureWidthFraction": 0.327882, "connectedComponents": 1},
+    "threshold64": {"boundsXYXYExclusive": [441, 252, 842, 981], "marginsLTRB": [441, 252, 381, 305], "figureHeightFraction": 0.566874, "figureWidthFraction": 0.327882, "connectedComponents": 1},
+    "threshold128": {"boundsXYXYExclusive": [441, 252, 842, 981], "marginsLTRB": [441, 252, 381, 305], "figureHeightFraction": 0.566874, "figureWidthFraction": 0.327882, "connectedComponents": 1}
+  },
+  "duplicateCheck": {
+    "method": "SHA-256 of decoded RGBA pixel bytes compared against same-dimension J.130 raw PNGs",
+    "sameDimensionSourceCount": 1,
+    "matchingFiles": ["tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry21-raw.png"],
+    "note": "Output dimensions 1223x1286 differ from the 1254x1254 canvases used by earlier individual-pose outputs; no same-size peer existed at audit time."
+  },
+  "disposition": "REJECT; preserve raw source and evidence untouched."
+}

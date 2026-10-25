@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry21",
+  "decision": "REJECT",
+  "generationId": "exec-ebfb68c8-f539-4cd9-86ef-53bc4e660ed5",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry21-raw.png",
+  "sourceSha256": "22f072f0e6db58320f9f409b969e3a90850bad110cfc00cca7aa7c78c6b357bc",
+  "decodedRgbaPixelSha256": "10aa5c9b83eab4009d02a1429947bc2ab5d77cdcdb2c589e0f912213526a7634",
+  "dimensions": [1223, 1286],
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry21-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry21-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PARTIAL PASS: recognizable adult human athlete with shoulder-length dark locs, vivid red headband, russet/cream kit, two arms/hands and two legs/shoes; no fox traits, extra limbs or crop. Skin is visibly too warm-orange compared with Briar's deep-brown canon.",
+    "pose": "PASS at broad pose level: airborne high-forward one-hand release, raised lead knee, folded trailing leg, guide hand away from face; no ball. This single source cannot establish sequence separation.",
+    "palette": "FAIL: skin highlights/shadows read copper/orange rather than deep brown, despite prompt RGB anchors (median 145,70,39; shadow 85,35,17; highlight 193,114,70).",
+    "transparency": "FAIL: true RGBA with transparent background, but alpha>=1 has140 disconnected components and residue near all edges; at alpha>=8 there are58 components.",
+    "cellMarginsAndScale": "FAIL: canvas is1223x1286 rather than the square source layout. Alpha>=64 figure height is56.69%, not <=34%; top/bottom margins are252/305px (19.6%/23.7%), below32%. Alpha>=1 margins are106/60/14/24px and figure spans93.5% canvas height.",
+    "ball": "PASS: no ball is shown; retain Briar's separate athlete-specific ball track."
+  },
+  "reason": "Reject untouched for orange skin, excessive scale, insufficient all-edge margins, low-alpha fragments and non-square canvas. No cleanup, recoloring, normalization, packing, registration or acceptance."
+}
