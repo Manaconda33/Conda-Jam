@@ -1,0 +1,44 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "steal",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationExecution": "exec-1d84850c-627b-43d6-99f8-4d2aeedd4e97",
+      "generatedAt": "2026-10-25T03:59:04.029994909Z",
+      "rawSource": "tools/generate-art/sources/piper-quickstep-steal-attempt1-generated-raw.png",
+      "rawSourceSha256": "3cc2c218bdbbc280e3a78cab58351f398d2ece05223c929b53f52898c5c4c390",
+      "promptFile": "tools/generate-art/piper-quickstep-steal-attempt1-prompt.md",
+      "status": "accepted-source-and-atlas",
+      "cleanedSource": "tools/generate-art/sources/piper-quickstep-steal-attempt1-clean-candidate.png",
+      "cleanedSourceSha256": "bb429ab94bf662c8cf3d9f259b91a7974f78a03745e43a87426aeead83d93900",
+      "layout": "tools/generate-art/piper-quickstep-steal-attempt1-layouts.json",
+      "provenance": "tools/generate-art/piper-quickstep-steal-attempt1-clean-provenance.json",
+      "sourceReview": "accepted",
+      "nativeReview": "accepted: 16/16 production frame selections per zoom; contact frame3/tick5 verified at 100%/120% in both facings using the Piper-specific track.",
+      "notes": "Raw sheet retained as generated and rejected as a direct packing source because glow remained and one pose crossed its nominal column. Cleaned source accepted after transparent component isolation and independent review. Initial default and candidate contact estimates are preserved as calibration previews; accepted track candidate2 corrects the exact frame3 hand contact. Direct steal releases loose at tick5; pass interception can carry from that hand position.",
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.0,
+          0.75,
+          1.5,
+          1.3,
+          1.1,
+          1.0,
+          0.95
+        ],
+        "forward": [
+          4,
+          7,
+          10,
+          12.5,
+          10,
+          8,
+          6,
+          5
+        ]
+      }
+    }
+  ]
+}

@@ -1,3 +1,11 @@
+## J.111 — Piper Quickstep `steal` integrated locally
+
+Piper adds eight unique, ball-free steal poses and reaches16/29 reviewed clips /112 authored drawings. Source/packed reviews accept the transparent 4×2 sheet with >=60px margins, distinct ordered poses, full Piper identity/anatomy, and a clear frame3/tick5 reach. The accepted separate Piper track is height `[1.05,1.0,.75,1.5,1.3,1.1,1.0,.95]`, forward `[4,7,10,12.5,10,8,6,5]`; the ball edge meets the open fingertips at100%/120% in both facings. Direct steals transition to loose-ball physics after tick5; pass interception can carry from the hand point. Raw attempt1 and fallback/first-contact calibrations remain preserved with reasons.
+
+Atlas `public/assets/animation/piper-quickstep-steal-right.webp` is320×192 / SHA-256 `0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983`. Raw source SHA-256 `3cc2c218bdbbc280e3a78cab58351f398d2ece05223c929b53f52898c5c4c390`; accepted cleaned SHA-256 `bb429ab94bf662c8cf3d9f259b91a7974f78a03745e43a87426aeead83d93900`. Exact prompt, cleanup, provenance, layout and fixed/final native previews are under `tools/generate-art/piper-quickstep-steal*`.
+
+Validation passes36/36 JS test files, lint19 modules, roster validation35 franchises/105 athletes,100-match simulation /861,421 ticks /6 overtimes, atlas packer suite and build; E2E fails before local server readiness at `127.0.0.1:4175`. Strict audit `2026-10-25T04:07:52.259Z` counts806 clips /7,255 drawings /105 athletes, 2,297 missing clips, one target shortfall and4 inherited prompt findings. J.111 is local; standard push failed through the unavailable configured port8080 proxy; latest deployment remains `513e0a59` / Pages run #169. Next: Piper `push`.
+
 ## J.110 — Piper Quickstep `block`
 
 Piper adds four reviewed defensive poses and reaches15/29 clips /104 authored drawings. Attempt1 raw was rejected for glow, alpha gaps and frame2 crossing its source row; component cleanup retained complete figures, removed the detached background, and centered every pose with >=66px transparent cell margins. The accepted 2×2 source preserves Piper’s warm-brown skin, bright orange ponytail, russet/cream kit, trainers and full human anatomy. All hands stay empty; no carry track applies because the loose basketball remains a separate runtime object.

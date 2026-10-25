@@ -65960,13 +65960,163 @@
             },
             "reviewed": true,
             "reviewNotes": "Source and packed atlas independently reviewed: four distinct full-body poses, clean true transparency and >=66px cell margins, no ball/glow, Piper identity/anatomy intact, open apex fingers clear of ponytail. Native preview reviewed at 100% and 120% in both facings; all frames select at ticks 0/2/5/8. Block is non-possession: the separate loose runtime ball remains independent."
+          },
+          "steal": {
+            "src": "./public/assets/animation/piper-quickstep-steal-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "ae9173e0fe9dde4af63665617ed8ccd0c550d980dd2ffba170f42e5000fe7486"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "315eacd739a8b573891df3aa8062584245954271399e88ca082f18aa4f0a806d"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "59fc1628b99888d3d64693e5b33fa08343df615fee360530a4be93e9300af436"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "4d80846a6ea13eb2d32828d3e2c286d14d40f75cf44def117cae220db9916a29"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "9e06fe99c6d722ebb2a6ea8514c98ece9da991a2c32db2e4aec1875db1459fa9"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "17eacb1a269179b8aae1dd60d38c131120f914007bae6fb0bbc07ea14928ebbf"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "c379334a01377667b8b9180e5ec781d8cae7f5e3b5ed150602b51e2b6445f9b9"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "13417b3747681f7cacd8606dcc2a5ede41ea1785fc57d263b2fd5e7122191273"
+              }
+            ],
+            "sha256": "0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "piper-quickstep",
+              "clip": "steal",
+              "direction": "right",
+              "attempt": 1,
+              "generatedAt": "2026-10-25T03:59:04.029994909Z",
+              "generationExecution": "exec-1d84850c-627b-43d6-99f8-4d2aeedd4e97",
+              "promptFile": "tools/generate-art/piper-quickstep-steal-attempt1-prompt.md",
+              "prompt": "J.111 / Piper Quickstep — STEAL action sheet, attempt 1\nGenerate one clean game-art source sheet, exactly 1536 × 1024 pixels, transparent background, arranged as a precise 4-column × 2-row grid of eight equal 384 × 512 px cells. Every cell contains exactly ONE complete pose of the SAME Piper Quickstep. Read order left-to-right across row 1, then row 2. Keep each full figure, including every ponytail strand, fingertip, and shoe, wholly inside that cell, with at least 60 px transparent clearance from every cell edge. Figure silhouettes should be about 240 px wide and 360 px tall, consistently scaled and aligned. Preserve clear empty gutters between cells. No overlap, cropping, touch, crossing, or bleed at any cell boundary. True transparent alpha only outside the characters.\n\nUse the supplied Piper images strictly as identity, anatomy, uniform, and rendering references; do not copy their poses. Piper is a fully human adult athletic woman with warm brown skin, strong but natural basketball-player proportions, expressive brown eyes, bright orange hair in a high swinging ponytail tied behind her head, russet-red sleeveless basketball jersey and shorts with cream/white piping and paired side stripes, red-and-cream high-top basketball shoes, white socks. Keep her same face, skin tone, hair color/style, uniform palette and polished hand-painted comic-game shading in all eight poses. Uniform remains completely blank: no words, numbers, logos, crests, jewelry, tattoos, or extra accessories. Correct human anatomy: exactly one head, two arms, two hands, five distinct natural fingers on each visible hand, two legs and two shoes; anatomically plausible shoulders, elbows, wrists, knees, and ankles. No ball in the artwork: the basketball is a separate moving game object.\n\nRight-facing three-quarter profile throughout, readable dynamic basketball defense. Show eight DISTINCT consecutive steal action poses, complete full-body silhouettes:\n1) low balanced ready defensive stance, knees bent, both empty hands open at chest/waist, eyes focused forward;\n2) controlled weight shift toward the opponent, lead foot stepping forward, hips and shoulders beginning to turn, hands still open;\n3) lower forward shuffle, torso leans forward, one hand begins a low swipe while the other guards space;\n4) signature steal contact at tick 5: a decisive but balanced forward lunge, lead/right-facing arm fully extended toward image-right at about shoulder to head height with clearly spread open fingers, reaching hand well separated from the head, ponytail, face, and other hand; opposite arm visibly bent and counterbalancing behind/near torso; both legs distinct and a clear planted support leg. Make this silhouette strikingly different from every other cell. Keep the hand empty; do not draw any ball.\n5) after the swipe, reaching arm begins to sweep inward across her front, shoulders recover and opposite hand remains visible;\n6) gather elbows toward ribs while stepping through, still empty-handed; do not mime holding or catching an object;\n7) take a short recovery step back and turn eyes toward the loose game ball offscreen, both hands open and empty;\n8) settle into a poised low ready defensive stance distinct in limb spacing from pose 1.\n\nKeep action readable as an athletic steal, not a block, shot, pass, catch, or celebration. No second character, no basketball, no props, no text, no panel outlines, no grid lines, no floor, no court, no shadow, no glow, no backdrop, no gradients, no lighting effects, no decorative marks. Strong pose separation, clear negative space around every limb, crisp clean alpha edges.",
+              "promptVerbatim": true,
+              "referenceFiles": [
+                "tools/generate-art/sources/piper-quickstep-rebound-attempt1-clean-candidate.png",
+                "tools/generate-art/sources/piper-quickstep-layup-reverse-attempt3-clean-candidate.png",
+                "tools/generate-art/sources/piper-quickstep-receive-attempt4-clean-candidate.png"
+              ],
+              "rawSource": "tools/generate-art/sources/piper-quickstep-steal-attempt1-generated-raw.png",
+              "rawSourceSha256": "3cc2c218bdbbc280e3a78cab58351f398d2ece05223c929b53f52898c5c4c390",
+              "cleanupScript": "tools/generate-art/clean-piper-quickstep-steal-attempt1.py",
+              "cleanupNotes": "Raw generated alpha threshold64 yields exactly eight distinct body components in two rows; raw has a warm glow (mostly alpha<64) and pose3 overlaps the nominal adjacent column by47px. Cleanup preserves source pose pixels, assigns generated fringes to nearest component, crops complete figures, uniformly fits each to264x360, and centers in row-major 384x512 cells. Raw glow and source margins were rejected; no redraw, duplication, or mirroring.",
+              "sourceImage": "tools/generate-art/sources/piper-quickstep-steal-attempt1-clean-candidate.png",
+              "sourceSha256": "bb429ab94bf662c8cf3d9f259b91a7974f78a03745e43a87426aeead83d93900",
+              "sourceSize": [
+                1536,
+                1024
+              ],
+              "sourceMode": "RGBA",
+              "layoutFile": "tools/generate-art/piper-quickstep-steal-attempt1-layouts.json",
+              "review": {
+                "status": "accepted",
+                "sourceReviewer": "independent visual review subagent",
+                "sourceNotes": "Accepted cleaned sheet: eight ordered distinct complete Piper poses, right-facing consistent identity and anatomy, blank russet-red/cream kit, no ball, clean alpha with no glow on light/dark proofs, and >=60px fully transparent margin on all cell edges. Tick5 contact reach has open spread fingers clear of head/ponytail; frame8 settled stance distinct from initial ready pose."
+              },
+              "eligibleForPacking": true,
+              "ballBehavior": "No ball is painted into the athlete sheet. Piper-specific contact path is height [1.05,1.0,.75,1.5,1.3,1.1,1.0,.95], forward [4,7,10,12.5,10,8,6,5]. Direct steals release into loose-ball physics at tick5; pass interception can carry from the tick5 hand contact.",
+              "nativeReview": {
+                "status": "accepted",
+                "reviewer": "independent native-preview reviewer",
+                "zooms": [
+                  100,
+                  120
+                ],
+                "facings": [
+                  -1,
+                  1
+                ],
+                "frameStartsTicks": [
+                  0,
+                  2,
+                  4,
+                  5,
+                  6,
+                  8,
+                  10,
+                  13
+                ],
+                "productionFrameSelections": "16/16 per zoom across both facings",
+                "ballTrack": {
+                  "height": [
+                    1.05,
+                    1,
+                    0.75,
+                    1.5,
+                    1.3,
+                    1.1,
+                    1,
+                    0.95
+                  ],
+                  "forward": [
+                    4,
+                    7,
+                    10,
+                    12.5,
+                    10,
+                    8,
+                    6,
+                    5
+                  ]
+                },
+                "trackContactFrame": 3,
+                "trackContactTick": 5,
+                "notes": "With the fixed native renderer setting both `anim` and `animation`, frame3 contact passes: the separate ball edge meets the open reaching fingertips in both facings and zooms without obscuring the hand. After a successful direct steal, gameplay releases ownership and uses loose-ball physics; a pass interception can carry the ball from the same hand position. Earlier fallback and candidate tracks are preserved as calibration previews but are not accepted."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Eight source and packed poses independently reviewed for Piper identity/anatomy, separation, alpha and margins >=60px; no ball in art. Fixed native Canvas review at 100%/120% in both facings selects every frame. Piper-specific separate ball track contacts open fingertips at frame3/tick5. Direct steal releases loose at contact; pass interception can carry from the same contact point."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Block body art is mirror-safe for Piper; native 100%/120% previews in both facings retain pose readability and complete anatomy. No carried ball track applies."
+        "notes": "Piper steal passes native source-frame and ball-contact review in both facings at 100% and 120%; her human identity and orange ponytail remain readable under mirroring."
       }
     },
     "briar-foxglove": {

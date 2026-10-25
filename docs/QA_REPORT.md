@@ -1,3 +1,10 @@
+# Latest validation — J.111 Piper steal
+
+- `npm test`: PASS,36/36 files; `npm run lint`: PASS,19 modules; `npm run validate:content`: PASS,35 franchises /105 athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; production build: PASS; atlas packer suite: PASS.
+- Native Canvas review at100%/120% in both facings selects all8 production frames. Piper's separate ball edge meets the frame3/tick5 open fingertips without obscuring the hand.
+- `npm run test:e2e`: BLOCKED before app readiness; the server exits before responding at `http://127.0.0.1:4175/`.
+- Strict report-only audit: **806 clips /7,255 authored drawings /105 athletes**, 2,297 missing clips, one target shortfall, 4 inherited prompt findings; generated `2026-10-25T04:07:52.259Z`.
+
 # Latest validation — J.110 Piper block
 
 - `npm test`: PASS,36/36 files; `npm run lint`: PASS,18 modules; `npm run validate:content`: PASS,35 franchises /105 unique athletes; `npm run simulate:league`: PASS,100 matches /861,421 ticks /6 overtimes; production build: PASS; atlas packer suite: PASS.

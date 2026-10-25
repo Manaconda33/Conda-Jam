@@ -1,0 +1,212 @@
+{
+  "athlete": "piper-quickstep",
+  "clip": "steal",
+  "attempt": 1,
+  "rawSource": "tools/generate-art/sources/piper-quickstep-steal-attempt1-generated-raw.png",
+  "rawSourceSha256": "3cc2c218bdbbc280e3a78cab58351f398d2ece05223c929b53f52898c5c4c390",
+  "cleanedSource": "tools/generate-art/sources/piper-quickstep-steal-attempt1-clean-candidate.png",
+  "cleanedSourceSha256": "bb429ab94bf662c8cf3d9f259b91a7974f78a03745e43a87426aeead83d93900",
+  "sheet": [
+    1536,
+    1024
+  ],
+  "cell": [
+    384,
+    512
+  ],
+  "method": "Threshold alpha at64 to identify complete authored figures; require eight separate connected components in two source rows; assign nearby generated pixels to the nearest figure to remove glow and neighboring-cell bleed; crop and uniformly scale each original pose to at most264x360; center in its row-major 384x512 cell. No pose is drawn, invented, mirrored, or duplicated.",
+  "frames": [
+    {
+      "frame": 0,
+      "sourceComponent": 2,
+      "alpha64AreaPx": 48300,
+      "rawBoundsXYXY": [
+        41,
+        114,
+        315,
+        496
+      ],
+      "uniformScale": 0.939948,
+      "cleanBoundsInSheet": [
+        62,
+        76,
+        259,
+        360
+      ],
+      "fullyTransparentMarginsLTRBpx": [
+        62,
+        76,
+        63,
+        76
+      ]
+    },
+    {
+      "frame": 1,
+      "sourceComponent": 1,
+      "alpha64AreaPx": 48962,
+      "rawBoundsXYXY": [
+        393,
+        106,
+        717,
+        492
+      ],
+      "uniformScale": 0.809816,
+      "cleanBoundsInSheet": [
+        444,
+        99,
+        264,
+        314
+      ],
+      "fullyTransparentMarginsLTRBpx": [
+        60,
+        99,
+        60,
+        99
+      ]
+    },
+    {
+      "frame": 2,
+      "sourceComponent": 4,
+      "alpha64AreaPx": 42633,
+      "rawBoundsXYXY": [
+        788,
+        161,
+        1100,
+        486
+      ],
+      "uniformScale": 0.84345,
+      "cleanBoundsInSheet": [
+        828,
+        119,
+        264,
+        274
+      ],
+      "fullyTransparentMarginsLTRBpx": [
+        60,
+        119,
+        60,
+        119
+      ]
+    },
+    {
+      "frame": 3,
+      "sourceComponent": 3,
+      "alpha64AreaPx": 50537,
+      "rawBoundsXYXY": [
+        1105,
+        133,
+        1521,
+        495
+      ],
+      "uniformScale": 0.634615,
+      "cleanBoundsInSheet": [
+        1212,
+        141,
+        264,
+        230
+      ],
+      "fullyTransparentMarginsLTRBpx": [
+        60,
+        141,
+        60,
+        141
+      ]
+    },
+    {
+      "frame": 4,
+      "sourceComponent": 6,
+      "alpha64AreaPx": 47552,
+      "rawBoundsXYXY": [
+        65,
+        581,
+        346,
+        965
+      ],
+      "uniformScale": 0.932642,
+      "cleanBoundsInSheet": [
+        61,
+        588,
+        262,
+        360
+      ],
+      "fullyTransparentMarginsLTRBpx": [
+        61,
+        76,
+        61,
+        76
+      ]
+    },
+    {
+      "frame": 5,
+      "sourceComponent": 5,
+      "alpha64AreaPx": 47300,
+      "rawBoundsXYXY": [
+        447,
+        574,
+        670,
+        971
+      ],
+      "uniformScale": 0.904523,
+      "cleanBoundsInSheet": [
+        474,
+        588,
+        204,
+        360
+      ],
+      "fullyTransparentMarginsLTRBpx": [
+        90,
+        76,
+        90,
+        76
+      ]
+    },
+    {
+      "frame": 6,
+      "sourceComponent": 7,
+      "alpha64AreaPx": 46129,
+      "rawBoundsXYXY": [
+        808,
+        591,
+        1100,
+        967
+      ],
+      "uniformScale": 0.897959,
+      "cleanBoundsInSheet": [
+        828,
+        598,
+        264,
+        339
+      ],
+      "fullyTransparentMarginsLTRBpx": [
+        60,
+        86,
+        60,
+        87
+      ]
+    },
+    {
+      "frame": 7,
+      "sourceComponent": 8,
+      "alpha64AreaPx": 48260,
+      "rawBoundsXYXY": [
+        1203,
+        592,
+        1484,
+        972
+      ],
+      "uniformScale": 0.932862,
+      "cleanBoundsInSheet": [
+        1212,
+        591,
+        264,
+        354
+      ],
+      "fullyTransparentMarginsLTRBpx": [
+        60,
+        79,
+        60,
+        79
+      ]
+    }
+  ]
+}

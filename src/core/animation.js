@@ -742,7 +742,10 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   'layup-reverse':{height:[1.15,1.7,2.2,2.2,2.5,2.45,1.4,.8],forward:[3.7,6.6,-1.8,2.2,-7.5,-6.5,2,6]},
   // Piper's rebound catch is overhead at frame3/tick5, then settles to her
   // chest at frame4; the athlete art stays empty-handed in every pose.
-  rebound:{height:[1.05,1.5,2.1,1.9,2.0],forward:[5,7,8,4,5]}
+  rebound:{height:[1.05,1.5,2.1,1.9,2.0],forward:[5,7,8,4,5]},
+  // Contact estimate for Piper's open-hand steal at frame3/tick5. Once a
+  // successful steal jars the ball loose, normal loose-ball physics takes over.
+  steal:{height:[1.05,1.0,.75,1.5,1.3,1.1,1.0,.95],forward:[4,7,10,12.5,10,8,6,5]}
 },'reed-ashcroft':{
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.
