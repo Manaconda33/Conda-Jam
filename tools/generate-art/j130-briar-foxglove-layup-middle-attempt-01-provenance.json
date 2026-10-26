@@ -1,0 +1,36 @@
+{
+  "generationId": "exec-e5cf2b90-e81f-454a-8a30-55a4a693238f",
+  "generatedDate": "2026-10-26",
+  "timezone": "UTC",
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-pose-02-04-attempt-01-prompt.md",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-middle-attempt-01-raw.png",
+  "originalToolOutput": "/workspace/generated_images/exec-e5cf2b90-e81f-454a-8a30-55a4a693238f.png",
+  "sha256": "83fa7cdd52769328047d8732e2ce3c51268ebbc5570cbe13ac64d0e68e72fb9a",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG RGBA",
+  "cellLayout": {
+    "columns": 3,
+    "rows": 1,
+    "cellWidth": 724,
+    "cellHeight": 724,
+    "poseIndices": [
+      2,
+      3,
+      4
+    ]
+  },
+  "review": {
+    "status": "candidate-pending-review",
+    "initialVisualReview": "three distinct complete right-facing poses; Briar identity appears consistent; no painted ball; cell corners alpha zero",
+    "pending": [
+      "fit and crop margins",
+      "joint eight-pose baseline/timing review",
+      "cleanup and light/dark proof",
+      "native game preview"
+    ],
+    "notRegistered": true
+  }
+}

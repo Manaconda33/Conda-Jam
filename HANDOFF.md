@@ -1,3 +1,9 @@
+
+
+## J.130 candidate generation — 2026-10-26 20:00 UTC
+
+Fresh ImageGen succeeded for Briar Foxglove layup poses2–4, generation exec-e5cf2b90-e81f-454a-8a30-55a4a693238f. Raw 2172×724 RGBA source SHA-256 83fa7cdd52769328047d8732e2ce3c51268ebbc5570cbe13ac64d0e68e72fb9a. Exact prompt, generation ID, raw source, and review status are preserved in the J.130 layup files. Initial review finds three distinct full-body poses, consistent Briar identity, no painted ball, and transparent cell corners. Pose2 and pose3 have only16px and12px source-cell bottom clearance; fit/crop margins, cleanup, joint eight-pose timing/baseline, light/dark, and native review remain pending. Nothing is accepted or registered; there is no accepted sheet, atlas, or ball track. The old 01:24 UTC HTTP429 estimate is superseded. The strict production audit remains the J.129 registered inventory:824 clips /7,463 drawings,2,279 missing clips.
+
 ## Continuation checkpoint — 2026-10-26 (Issue #4 shadow follow revision 16)
 
 - GitHub `main` and local `main` match at `766ad638114bdbdc17272710414b26712ed8edcf`. Gameplay/stage commit `5d5d831f` makes the revised court, hoop, camera and shadow-follow renderer the default; Pages run #172 (`40387741513`) passed and deployed it. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=5d5d831f. The later `766ad638` commit only records handoff/QA state. `?stagePreview=0` is a legacy comparison; no flag is required for the current renderer.

@@ -102,3 +102,8 @@ Frame4 retry6 received two tightly constrained palette-only edits using those RG
 - Reproducible decoded-pixel audit `tools/generate-art/audit-j130-duplicate-sources.py` scans all93 raw source PNGs. Report `j130-briar-foxglove-layup-duplicate-source-audit.json` finds two duplicate groups: pose2 retry11 = pose3 retry13, and pose3 retry12 = pose4 retry8. Each is an explicitly rejected provenance record, not two authored poses.
 
 Preserve every exact prompt, generation ID, raw source, SHA-256, dimensions, bounds, preview and rejection/acceptance decision. Do not invent, duplicate, redraw, mirror or reorder poses. Keep the ball on Briar's separate runtime track.
+
+
+## Candidate attempt 01 — poses 02–04 — 2026-10-26
+
+Fresh ImageGen succeeded around20:00 UTC. Generation ID exec-e5cf2b90-e81f-454a-8a30-55a4a693238f. Raw source tools/generate-art/sources/j130-briar-foxglove-layup-middle-attempt-01-raw.png is2172×724 RGBA, SHA-256 83fa7cdd52769328047d8732e2ce3c51268ebbc5570cbe13ac64d0e68e72fb9a. Initial visual inspection shows three distinct full-body poses, consistent Briar identity, no ball, and transparent cell corners. Alpha>16 source bounds: pose2 (159,187)-(565,708), pose3 (193,75)-(571,712), pose4 (179,12)-(585,688). Poses2/3 source-cell bottom clearances are16px/12px. Exact prompt and provenance are separately archived. Candidate remains pending crop fit/margins, cleanup, whole-sequence timing/baseline and native preview; not accepted or registered.
