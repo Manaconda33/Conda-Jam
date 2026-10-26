@@ -1,0 +1,21 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry27",
+  "operation": "single-pose source generation",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-ad2e4d16-2561-4ded-99e3-b7a18b9f6e62",
+  "outputHint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-ad2e4d16-2561-4ded-99e3-b7a18b9f6e62.png by default. If you need to use an image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.",
+  "originalGeneratedPath": "/workspace/generated_images/exec-ad2e4d16-2561-4ded-99e3-b7a18b9f6e62.png",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry27-raw.png",
+  "sourceSha256": "8790842639d91fc7d2c8a541e15d8a497efcb8a01023ee2d84562acbe1090661",
+  "decodedRgbaPixelSha256": "d5e545e5a03c0fd0f3217fc31b66077051adb2719431311f7d8533e928c7c909",
+  "dimensions": [1254, 1254],
+  "mode": "RGBA",
+  "alphaExtrema": [0, 255],
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry27-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose3-retry27-light-dark-review.png",
+  "references": [],
+  "cleanup": null,
+  "packing": null,
+  "registration": null,
+  "disposition": "REJECT; preserve untouched source and evidence."
+}

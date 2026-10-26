@@ -1,0 +1,25 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry27",
+  "decision": "REJECT",
+  "generationId": "exec-ad2e4d16-2561-4ded-99e3-b7a18b9f6e62",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose3-retry27-raw.png",
+  "sourceSha256": "8790842639d91fc7d2c8a541e15d8a497efcb8a01023ee2d84562acbe1090661",
+  "decodedRgbaPixelSha256": "d5e545e5a03c0fd0f3217fc31b66077051adb2719431311f7d8533e928c7c909",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry27-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose3-retry27-light-dark-review.png",
+  "dimensions": [1254, 1254],
+  "thresholdMetrics": {
+    "alpha1": {"boundsXYXYExclusive": [43, 37, 1144, 1198], "marginsLTRB": [43, 37, 110, 56], "components": 85},
+    "alpha8": {"boundsXYXYExclusive": [464, 329, 854, 937], "marginsLTRB": [464, 329, 400, 317], "heightFraction": 0.48485, "components": 73},
+    "alpha64": {"boundsXYXYExclusive": [466, 330, 853, 936], "marginsLTRB": [466, 330, 401, 318], "marginFractionsLTRB": [0.37161, 0.26316, 0.31978, 0.25359], "heightFraction": 0.48325, "components": 1}
+  },
+  "checks": {
+    "pose": "FAIL: full-body airborne layup anatomy and raised lead knee are readable, but the shooting palm and fingers rise substantially above the red headband, making this overhead/release-like instead of the required frame3 intermediate extension below the crown.",
+    "identityAnatomy": "PARTIAL: adult human with dark shoulder-length locs, vivid red headband, russet/cream blank uniform, two arms/hands, two legs/shoes; no fox traits and no ball. Skin is strongly orange/copper and lighter than Briar's deep warm-brown reference palette.",
+    "transparency": "FAIL for clean-source criteria: RGBA alpha is present (0–255) and there is no baked checkerboard. At alpha>=1 there are85 components and only43/37/110/56px outer clearances, with visible red/orange low-alpha fringe; alpha>=64 main silhouette is one component.",
+    "cellMarginsAndScale": "FAIL: alpha>=64 bounds yield top/bottom clearances330/318px (26.32%/25.36%, below34%) and figure height606px/48.325% (target30–32%).",
+    "ballAlignment": "PASS for ball-free source. Separate athlete-specific ball track remains independent and unreviewed until accepted hand poses exist.",
+    "poseSeparation": "Single-pose source only; full-sequence separation cannot yet be assessed."
+  },
+  "reason": "Reject unchanged for above-headband shooting hand, orange/copper palette drift, oversized figure, insufficient top/bottom margins and low-alpha residue. Do not clean, recolor, normalize, pack or register."
+}
