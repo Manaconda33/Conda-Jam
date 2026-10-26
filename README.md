@@ -23,7 +23,7 @@ npm run preview
 
 For a standalone, offline copy, run `npm run build` and open `dist/JAMVERSE_96.html` directly in a modern browser. It contains the styles and game code in the same file and makes no external asset requests.
 
-**[Play the self-contained JAMVERSE ’96 build](dist/JAMVERSE_96.html)**
+The generated `dist/` directory is a build artifact; GitHub Pages creates and publishes it from the tracked source on every `main` deployment.
 
 ## Controls
 
