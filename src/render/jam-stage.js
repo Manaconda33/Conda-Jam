@@ -18,6 +18,9 @@ export const JAM_STAGE=Object.freeze({
   attackCameraFullFocusRadius:30,
   attackRimScreenOffsetWorld:26,
   hoopAssemblyScale:1.1,
+  // Stage-only visual offsets from each endline; the painted court stays unchanged.
+  hoopRimBaselineOffsetWorld:8,
+  hoopBoardBaselineOffsetWorld:4.5,
   hoopRimRadius:19,
   hoopRimDepthRadius:4.5,
   hoopRimStroke:4,
@@ -26,8 +29,8 @@ export const JAM_STAGE=Object.freeze({
   hoopBoardHeight:68,
   hoopSupportWidth:9,
   hoopBaseHalfWidth:22,
-  stanchionBaseY:92,
-  stanchionBaseOffsetWorld:10,
+  // The support foot sits outside the baseline, still inside the viewport.
+  stanchionBaseOffsetWorld:8,
   farHorizontalScale:.94,
   nearHorizontalScale:1,
   rendererSpriteScale:2.05,
@@ -106,21 +109,25 @@ export function projectJamStagePoint({x,y,z=0,cameraX=100,zoom=100,width=JAM_STA
 
 /**
  * Project the rim, backboard, and foreground stanchion from court anchors.
- * The rim/backboard stay at the basket depth while the stanchion foot sits
- * nearer the camera, giving the assembly real court depth instead of one
- * screen-space enlargement around the rim.
+ * The rim/backboard stay just inside the baseline while the stanchion foot
+ * sits beyond that baseline, outside the playing surface.
  */
 export function stageHoopGeometry(end,{cameraX=100,zoom=100,width=JAM_STAGE.viewportWidth,height=JAM_STAGE.viewportHeight}={}){
-  const [worldX,worldY]=end.hoop;
-  const side=worldX>JAM_STAGE.courtLength/2?1:-1;
+  const [,worldY]=end.hoop;
+  const side=-end.direction;
+  const worldX=end.baseline+end.direction*JAM_STAGE.hoopRimBaselineOffsetWorld;
+  const boardWorldX=end.baseline+end.direction*JAM_STAGE.hoopBoardBaselineOffsetWorld;
   const zoomFactor=clamp(Number.isFinite(zoom)?zoom/100:1,.5,2);
   const depthScale=stageDepthScale(worldY);
   const scale=JAM_STAGE.hoopAssemblyScale*depthScale*zoomFactor;
   const [rimFloorX,rimFloorY]=projectJamStagePoint({x:worldX,y:worldY,cameraX,zoom,width,height});
-  const [boardFloorX]=projectJamStagePoint({x:end.board[0],y:end.board[1],cameraX,zoom,width,height});
+  const [boardFloorX]=projectJamStagePoint({x:boardWorldX,y:worldY,cameraX,zoom,width,height});
+  const [baselineScreenX]=projectJamStagePoint({x:end.baseline,y:worldY,cameraX,zoom,width,height});
+  const baseWorldX=end.baseline-end.direction*JAM_STAGE.stanchionBaseOffsetWorld;
+  const baseWorldY=worldY;
   const [baseX,baseY]=projectJamStagePoint({
-    x:worldX+side*JAM_STAGE.stanchionBaseOffsetWorld,
-    y:JAM_STAGE.stanchionBaseY,
+    x:baseWorldX,
+    y:baseWorldY,
     cameraX,zoom,width,height,
   });
   const rimY=rimFloorY-end.rimHeight*1.18;
@@ -131,17 +138,20 @@ export function stageHoopGeometry(end,{cameraX=100,zoom=100,width=JAM_STAGE.view
     rimWidthPixels:(JAM_STAGE.hoopRimRadius*2+JAM_STAGE.hoopRimStroke)*scale,
     rimDepthPixels:JAM_STAGE.hoopRimDepthRadius*2*scale,
     boardX:boardFloorX,
+    baselineScreenX,
     supportAttachX:boardFloorX+side*JAM_STAGE.hoopBoardWidth*scale*.42,
     boardTop:rimY-boardHeight,
     boardWidth:JAM_STAGE.hoopBoardWidth*scale,
     boardHeight,
     baseX,
     baseY,
+    baseWorldX,
+    baseWorldY,
     baseHalfWidth:JAM_STAGE.hoopBaseHalfWidth*scale,
     supportWidth:JAM_STAGE.hoopSupportWidth*scale,
     netLength:JAM_STAGE.hoopNetLength*scale,
     scale,
     rimDepth:worldY,
-    supportDepth:JAM_STAGE.stanchionBaseY,
+    supportDepth:baseWorldY,
   };
 }

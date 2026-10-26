@@ -1,0 +1,331 @@
+{
+  "capturedAt": "2026-10-26T11:53:45.094Z",
+  "browserVersion": "154.0.8037.57",
+  "viewport": {
+    "landscape": "1200x900 canvas native480x360",
+    "portrait": "390x844"
+  },
+  "stagePreview": true,
+  "gameplayArt": "generated-full-roster-atlases",
+  "stagedFrames": true,
+  "gameplayFootage": false,
+  "simulationChanged": false,
+  "portraitStatus": "baseline only; current 4:3 letterboxing retained pending slice approval",
+  "errors": [],
+  "captures": {
+    "a-near-dribble": {
+      "scene": {
+        "player": "reed-ashcroft",
+        "x": 100,
+        "y": 82,
+        "clip": "dribble",
+        "tick": 15,
+        "carried": true,
+        "ballDx": 1.5,
+        "ballDz": 0,
+        "defenders": [
+          [
+            "manaconda",
+            78,
+            86
+          ],
+          [
+            "dragon-queen",
+            80,
+            22
+          ],
+          [
+            "auric-scale",
+            132,
+            18
+          ]
+        ]
+      },
+      "previewFlag": "true",
+      "state": {
+        "players": [
+          {
+            "id": "manaconda",
+            "x": 78,
+            "y": 86,
+            "z": 0,
+            "facing": 1,
+            "clip": "idle-ball",
+            "tick": 0
+          },
+          {
+            "id": "reed-ashcroft",
+            "x": 100,
+            "y": 82,
+            "z": 0,
+            "facing": 1,
+            "clip": "dribble",
+            "tick": 15
+          },
+          {
+            "id": "dragon-queen",
+            "x": 80,
+            "y": 22,
+            "z": 0,
+            "facing": -1,
+            "clip": "idle-ball",
+            "tick": 0
+          },
+          {
+            "id": "auric-scale",
+            "x": 132,
+            "y": 18,
+            "z": 0,
+            "facing": -1,
+            "clip": "idle-ball",
+            "tick": 0
+          }
+        ],
+        "ball": {
+          "mode": "carried",
+          "x": 101.5,
+          "y": 82,
+          "z": 0,
+          "ownerId": "reed-ashcroft"
+        }
+      }
+    },
+    "b-right-dunk-peak": {
+      "scene": {
+        "player": "reed-ashcroft",
+        "x": 178,
+        "y": 72,
+        "z": 2.4,
+        "facing": 1,
+        "clip": "dunk-power",
+        "tick": 14,
+        "carried": true,
+        "ballDx": 8.04,
+        "ballDz": 2.163,
+        "defenders": [
+          [
+            "manaconda",
+            150,
+            25
+          ],
+          [
+            "dragon-queen",
+            158,
+            24
+          ],
+          [
+            "auric-scale",
+            162,
+            36
+          ]
+        ]
+      },
+      "previewFlag": "true",
+      "state": {
+        "players": [
+          {
+            "id": "manaconda",
+            "x": 150,
+            "y": 25,
+            "z": 0,
+            "facing": 1,
+            "clip": "idle-ball",
+            "tick": 0
+          },
+          {
+            "id": "reed-ashcroft",
+            "x": 178,
+            "y": 72,
+            "z": 2.4,
+            "facing": 1,
+            "clip": "dunk-power",
+            "tick": 14
+          },
+          {
+            "id": "dragon-queen",
+            "x": 158,
+            "y": 24,
+            "z": 0,
+            "facing": -1,
+            "clip": "idle-ball",
+            "tick": 0
+          },
+          {
+            "id": "auric-scale",
+            "x": 162,
+            "y": 36,
+            "z": 0,
+            "facing": -1,
+            "clip": "idle-ball",
+            "tick": 0
+          }
+        ],
+        "ball": {
+          "mode": "carried",
+          "x": 186.04,
+          "y": 72,
+          "z": 4.563,
+          "ownerId": "reed-ashcroft"
+        }
+      }
+    },
+    "c-left-shot-release": {
+      "scene": {
+        "player": "reed-ashcroft",
+        "x": 33,
+        "y": 63,
+        "z": 2.2,
+        "facing": -1,
+        "clip": "shoot",
+        "tick": 13,
+        "carried": false,
+        "ballY": 63,
+        "ballZ": 8.133333333333336,
+        "ballVx": -0.15,
+        "defenders": [
+          [
+            "manaconda",
+            53,
+            26
+          ],
+          [
+            "auric-scale",
+            55,
+            74
+          ],
+          [
+            "dragon-queen",
+            75,
+            45
+          ]
+        ],
+        "ballX": 21.5
+      },
+      "previewFlag": "true",
+      "state": {
+        "players": [
+          {
+            "id": "manaconda",
+            "x": 53,
+            "y": 26,
+            "z": 0,
+            "facing": 1,
+            "clip": "idle-ball",
+            "tick": 0
+          },
+          {
+            "id": "reed-ashcroft",
+            "x": 33,
+            "y": 63,
+            "z": 2.2,
+            "facing": -1,
+            "clip": "shoot",
+            "tick": 13
+          },
+          {
+            "id": "dragon-queen",
+            "x": 75,
+            "y": 45,
+            "z": 0,
+            "facing": -1,
+            "clip": "idle-ball",
+            "tick": 0
+          },
+          {
+            "id": "auric-scale",
+            "x": 55,
+            "y": 74,
+            "z": 0,
+            "facing": -1,
+            "clip": "idle-ball",
+            "tick": 0
+          }
+        ],
+        "ball": {
+          "mode": "shot",
+          "x": 21.5,
+          "y": 63,
+          "z": 8.133333333333336,
+          "ownerId": null
+        }
+      }
+    },
+    "d-portrait-play": {
+      "scene": {
+        "player": "reed-ashcroft",
+        "x": 100,
+        "y": 82,
+        "clip": "dribble",
+        "tick": 15,
+        "carried": true,
+        "ballDx": 1.5,
+        "ballDz": 0,
+        "defenders": [
+          [
+            "manaconda",
+            78,
+            86
+          ],
+          [
+            "dragon-queen",
+            80,
+            22
+          ],
+          [
+            "auric-scale",
+            132,
+            18
+          ]
+        ]
+      },
+      "previewFlag": "true",
+      "state": {
+        "players": [
+          {
+            "id": "manaconda",
+            "x": 78,
+            "y": 86,
+            "z": 0,
+            "facing": 1,
+            "clip": "idle-ball",
+            "tick": 0
+          },
+          {
+            "id": "reed-ashcroft",
+            "x": 100,
+            "y": 82,
+            "z": 0,
+            "facing": 1,
+            "clip": "dribble",
+            "tick": 15
+          },
+          {
+            "id": "dragon-queen",
+            "x": 80,
+            "y": 22,
+            "z": 0,
+            "facing": -1,
+            "clip": "idle-ball",
+            "tick": 0
+          },
+          {
+            "id": "auric-scale",
+            "x": 132,
+            "y": 18,
+            "z": 0,
+            "facing": -1,
+            "clip": "idle-ball",
+            "tick": 0
+          }
+        ],
+        "ball": {
+          "mode": "carried",
+          "x": 101.5,
+          "y": 82,
+          "z": 0,
+          "ownerId": "reed-ashcroft"
+        }
+      }
+    }
+  }
+}
