@@ -336,8 +336,8 @@ function drawProjectedEllipse(cx,cy,rx,ry,start=0,end=Math.PI*2){
 }
 function drawCourt(){
   const t=match?teamById(homeSelect.value):teams[0],colors=palette(t),corners=[[0,0],[200,0],[200,100],[0,100]].map(([x,y])=>project(x,y));
-  if(stagePreview){const apron=ctx.createLinearGradient(0,126,0,360);apron.addColorStop(0,'#1f1934');apron.addColorStop(.48,'#392549');apron.addColorStop(1,'#21182e');ctx.fillStyle=apron;ctx.fillRect(0,126,480,234)}
-  const wood=ctx.createLinearGradient(0,120,0,355);wood.addColorStop(0,'#b96845');wood.addColorStop(.42,'#e1a45a');wood.addColorStop(1,'#a9543d');poly(corners,wood);
+  if(stagePreview){const apron=ctx.createLinearGradient(0,JAM_STAGE.floorTop,0,JAM_STAGE.floorTop+JAM_STAGE.floorHeight);apron.addColorStop(0,'#1f1934');apron.addColorStop(.48,'#392549');apron.addColorStop(1,'#21182e');ctx.fillStyle=apron;ctx.fillRect(0,JAM_STAGE.floorTop,480,JAM_STAGE.floorHeight)}
+  const wood=ctx.createLinearGradient(0,stagePreview?JAM_STAGE.floorTop:120,0,355);wood.addColorStop(0,'#b96845');wood.addColorStop(.42,'#e1a45a');wood.addColorStop(1,'#a9543d');poly(corners,wood);
   if(stagePreview){
     for(const [inner,outer] of [[0,-20],[200,220]]){
       const apron=[[inner,0],[inner,100],[outer,100],[outer,0]].map(([x,y])=>project(x,y));
@@ -354,7 +354,7 @@ function drawCourt(){
   const markings=courtMarkings(court),zoom=cameraZoom/100;
   if(stagePreview)for(let i=0;i<markings.ends.length;i++){const key=markings.ends[i].key.map(([x,y])=>project(x,y));poly(key,i===0?'#43224f':'#792a32')}
   worldLine([[0,0],[200,0],[200,100],[0,100],[0,0]],2.2,'#ffe5ad');
-  if(stagePreview){const far=project(100,0),near=project(100,100),centerX=stageMidcourtScreenX({cameraX:camX,zoom:cameraZoom,viewDirection:stageViewDirection});ctx.strokeStyle='#f7e3b7';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(centerX,far[1]);ctx.lineTo(centerX,near[1]);ctx.stroke()}
+  if(stagePreview){const far=project(100,0),near=project(100,100),centerX=Math.round(stageMidcourtScreenX({cameraX:camX,zoom:cameraZoom,viewDirection:stageViewDirection}))+.5;ctx.strokeStyle='#fff3d0';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(centerX,far[1]);ctx.lineTo(centerX,near[1]);ctx.stroke()}
   else worldLine([[100,0],[100,100]],1.5);
   ctx.strokeStyle=line;ctx.lineWidth=1.5;if(stagePreview)drawProjectedEllipse(...markings.center.position,markings.center.radiusX,markings.center.radiusY);else{let c=project(...markings.center.position);ctx.beginPath();ctx.ellipse(c[0],c[1],markings.center.radiusX*2.2*zoom,markings.center.radiusY*2.2*zoom,0,0,Math.PI*2);ctx.stroke()}
   for(const end of markings.ends){

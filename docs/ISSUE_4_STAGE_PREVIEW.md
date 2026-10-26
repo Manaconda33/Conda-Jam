@@ -2,35 +2,35 @@
 
 Date: 2026-10-26
 
-**Status: Revision 13 landscape staging candidate ready for owner review; Issue #4 remains PARTIAL.** The Chicago Condas vs Crownfire Sovereigns stage stays opt-in behind `?stagePreview=1`. Production Pages and gameplay are unchanged.
+**Status: Revision 15 landscape staging candidate ready for owner review; Issue #4 remains PARTIAL.** The Chicago Condas vs Crownfire Sovereigns stage stays opt-in behind `?stagePreview=1`. Production Pages and gameplay are unchanged.
 
 ## Review link and evidence
 
-- [Private stage review gallery](https://jamverse-stage-review-20261026.manaconda2433.chatgpt.site/) is version 7, deployed from source commit `f66f2e38c49321cb7d06d685c77845173d2271d1`. It compares Revision 5, R10, R11, and R13; preserves the eight-frame R13 capture set and its manifest. The gallery remains owner-only.
-- Current Chromium captures and measured `capture-manifest.json` are in `artifacts/screenshots/issue4-stage/`. Eight staged frames include near dribble, right dunk peak, left shot release, portrait baseline, and four dunk camera states. R10 and R11 source captures remain separately archived in the review gallery.
+- [Private stage review gallery](https://jamverse-stage-review-20261026.manaconda2433.chatgpt.site/) is version 8, deployed from source commit `09470d8d61344de2c875a2c40f427efb2b08f5cc`. It compares Revision 5, R10, R13, and R15 and retains the eight-frame R13 capture set. The gallery remains owner-only.
+- Current Chromium captures and measured `capture-manifest.json` are in `artifacts/screenshots/issue4-stage/`. Eight staged frames include centered court coverage, right dunk peak, left shot release, portrait baseline, and four dunk camera states. The R13 source captures remain separately archived in the review gallery.
 - `tools/capture-issue4-stage.mjs` reproduces the frames from authored pose/ball tracks and deterministic scene states. It does not advance gameplay simulation; the camera alone eases between states. Captures are staged frames, not gameplay footage.
 
-## Revision 13 court, hoop, and jump presentation
+## Revision 15 court, hoop, and jump presentation
 
-The stage shows 70.0% of the court length from the near side, 72.2% at mid-depth, and 74.5% at the far side. Its 65% north–south floor band leaves standing athletes at 27.2% far, 29.8% mid, and 32.4% near viewport height. The midcourt stripe projects to one screen x-coordinate across the court, meeting both endline boundaries vertically; sideline, endline, and hoop-board depth cues remain.
+The view restores the prior 50% court-length framing so playable key and three-point markings return to their R10 screen scale. The far/mid/near court slices are 53.2% / 51.5% / 50.0%. The court floor now spans y=100–360, or 72.2% of the viewport height, while standing athletes remain 27.2% far, 29.8% mid, and 32.4% near. In the centered coverage view, the two-pixel midcourt stripe is snapped to one screen x-coordinate and is pixel-vertical between both projected endline midpoints.
 
-The rim is 42.11px wide, about 0.39 of a mid-depth standing player's height. Its outer edge extends 1.91px over the projected out-of-bounds line in both attack views. The backboard is 13.30% of viewport width and parallel to the projected endline at 0°. The complete hoop assembly measures 30.71% W × 61.79% H. Each support base is fully visible 14.8 world units beyond its baseline.
+The rim is 42.44px wide, about 0.39 of a mid-depth standing player's height. Its outer edge extends 2.79px across the projected out-of-bounds line in both attack views. The backboard is 13.16% of viewport width and parallel to the projected endline at 0°. The complete hoop assembly measures 32.64% W × 63.95% H. Each support base is fully visible 12 world units beyond its baseline.
 
-Shot and dunk sprites rise with their existing vertical `z` lift: the dunk peak is lifted by 120px in screen space without enlarging standing athletes. Their shadows remain at the action's takeoff x/y on the floor plane. The dunker is court-ward of the rim; the sprite and separate athlete-specific ball track receive the same preview-only screen offset. The renderer sorts the dunker between the backboard and foreground rim/net. The camera sequence advances x=101.5→128.7→154.5→160.3→160.8 through recovery while Reed moves x=150→168→178→174.
+Shot and dunk sprites rise with their existing vertical `z` lift: the dunk peak is lifted by 120px in screen space without enlarging standing athletes. Their shadows remain at the action's takeoff x/y on the floor plane. The dunker's body stays court-ward of the rim and reaches beside it; the separate athlete-specific ball track stays aligned with the hand. The camera sequence advances x=101.5→128.7→155.9→170.4→171.7 through recovery while Reed moves x=150→168→178→174.
 
-| Check | Revision 13 | Target | Status |
+| Check | Revision 15 | Target | Status |
 | --- | ---: | ---: | --- |
-| Floor band | y=126–360; 65.0% H | expanded north–south view | Pass |
-| Visible court length | 70.0% near / 72.2% mid / 74.5% far | more attacking half toward midcourt | Pass |
-| Midcourt stripe | vertical and meets both projected boundaries | vertical | Pass |
+| Floor band | y=100–360; 72.2% H | expanded north–south view | Pass |
+| Visible court length | 50.0% near / 51.5% mid / 53.2% far | playable half-court scale | Pass |
+| Midcourt stripe | pixel-vertical in coverage view | vertical between projected boundaries | Pass |
 | Standing human height | 27.2% far / 29.8% mid / 32.4% near | 24–36% | Pass |
-| Rim / standing-player width | 42.11px / 107.4px; 0.39 ratio | 0.36–0.47 close view | Pass |
-| Full hoop assembly | 30.71% W × 61.79% H | 30–50% W × 55–66% H | Pass |
-| Board width and alignment | 13.30% W; 0° from projected baseline | 12–16% W; parallel with perspective | Pass |
-| Rim edge to baseline | 1.91px over in both views | just over out-of-bounds line | Pass |
-| Support base | 14.8 world units beyond line; fully visible | base off court | Pass |
+| Rim / standing-player width | 42.44px / 107.4px; 0.39 ratio | 0.36–0.47 close view | Pass |
+| Full hoop assembly | 32.64% W × 63.95% H | 30–50% W × 55–66% H | Pass |
+| Board width and alignment | 13.16% W; 0° from projected baseline | 12–16% W; parallel with perspective | Pass |
+| Rim edge to baseline | 2.79px over in both views | just over out-of-bounds line | Pass |
+| Support base | 12 world units beyond line; fully visible | base off court | Pass |
 | Dunk lift and shadow | 120px lift; shadow fixed at takeoff | vertical lift from stationary takeoff mark | Pass |
-| Dunk camera follow | x=101.5→160.8 through recovery | frame attacker and basket | Pass |
+| Dunk camera follow | x=101.5→171.7 through recovery | frame attacker and basket | Pass |
 
 ## Reference and limits
 
@@ -40,7 +40,7 @@ Portrait retains the existing 4:3 letterboxed layout. The canvas occupies about 
 
 ## Verification
 
-- `npm test`: 52 test files pass. `npm run lint`: 19 JavaScript modules pass. `npm run validate:content`: 35 franchises / 105 unique athletes pass. Focused stage projection tests pass 11/11. An isolated production bundle build passes.
-- The preserved Chromium 154 R13 capture set reports zero page errors. An optional R14 offset trial could not start Chromium in the current restricted environment; the unreviewed change was discarded, and the captured R13 geometry remains the candidate.
-- Independent visual review confirms the vertical center stripe, larger attacking-half view, visible vertical lift from the stationary takeoff shadow, and a dunk pose that reads as reaching toward the rim rather than standing on it.
+- `npm test`: 52 test files pass. `npm run lint`: 19 JavaScript modules pass. `npm run validate:content`: 35 franchises / 105 unique athletes pass. Focused stage projection tests pass 11/11. The isolated bundle build passes.
+- Chromium 154 captured all eight R15 staged frames with zero page errors. The manifest records court scale/depth, standing heights, rim/base bounds, and the camera sequence.
+- Independent visual and code reviews confirm the playable-area scale, expanded north–south depth, vertical center stripe, fixed takeoff shadow, dunk-to-rim relation, separate ball alignment, and preview-only guards.
 - No animation art, sprite frames, animation registrations, scoring logic, or production gameplay path changed. The strict animation audit was not refreshed because no animation assets changed. Production Pages remains at the prior documented `513e0a59` / run #169 checkpoint; no production Pages deployment was made.

@@ -1,20 +1,20 @@
 {
-  "capturedAt": "2026-10-26T16:43:52.154Z",
+  "capturedAt": "2026-10-26T17:14:11.286Z",
   "browserVersion": "154.0.8037.57",
   "viewport": {
     "landscape": "1200x900 canvas native480x360",
     "portrait": "390x844"
   },
   "stagePreview": true,
-  "stageRevision": 13,
+  "stageRevision": 15,
   "courtProjection": {
-    "floorTop": 126,
-    "floorHeight": 234,
-    "floorHeightPercent": 65,
+    "floorTop": 100,
+    "floorHeight": 260,
+    "floorHeightPercent": 72.22222222222223,
     "visibleCourtLengthPercent": {
-      "far": 74.468085106383,
-      "mid": 72.16494845360825,
-      "near": 70
+      "far": 53.19148936170214,
+      "mid": 51.54639175257732,
+      "near": 50
     },
     "midcourtStripe": "vertical from the center-based court projection; adjacent endlines retain perspective",
     "northSouthShearPixels": 240,
@@ -26,65 +26,65 @@
     }
   },
   "hoopGeometry": {
-    "rimWorldRadius": 5.1,
+    "rimWorldRadius": 4,
     "baselineOffsetsWorld": {
-      "rim": 5.85,
+      "rim": 4,
       "board": 2,
-      "baseBeyond": 14.8
+      "baseBeyond": 12
     },
     "supportDepthY": 60,
     "measurements": {
       "left": {
-        "rimCenterPercent": 28.217348024316113,
-        "rimEdgeBaselineGapPixels": -1.9114679054494417,
-        "rimDiameterPixels": 42.1076370321491,
-        "boardWidthPercent": 13.300000000000008,
+        "rimCenterPercent": 28.709787234042576,
+        "rimEdgeBaselineGapPixels": -2.794512613803505,
+        "rimDiameterPixels": 42.43968311826458,
+        "boardWidthPercent": 13.160000000000002,
         "boardBaselineAngleErrorDegrees": 2.5444437451708134e-14,
         "boardScreenBounds": {
-          "left": 90.7192705167173,
-          "right": 154.55927051671733,
-          "top": 66.37099999999995,
-          "bottom": 164.18099999999998
+          "left": 96.91097872340436,
+          "right": 160.07897872340436,
+          "top": 50.706,
+          "bottom": 152.286
         },
-        "assemblyWidthPercent": 30.710887615681475,
-        "assemblyHeightPercent": 61.79113111111113,
+        "assemblyWidthPercent": 32.638400000000004,
+        "assemblyHeightPercent": 63.945577777777764,
         "baseWorld": {
-          "x": -7.4,
+          "x": -6,
           "y": 60,
-          "outerX": -14.8
+          "outerX": -12
         },
         "baseScreenBounds": {
-          "left": 8.771750516717375,
-          "right": 121.19927051671736,
-          "top": 231.311232,
-          "bottom": 288.819072
+          "left": 3.4146587234043437,
+          "right": 124.55897872340431,
+          "top": 217.01247999999998,
+          "bottom": 280.91008
         },
         "baseVisible": true
       },
       "right": {
-        "rimCenterPercent": 71.78265197568389,
-        "rimEdgeBaselineGapPixels": -1.9114679054494559,
-        "rimDiameterPixels": 42.10763703214906,
-        "boardWidthPercent": 13.300000000000008,
+        "rimCenterPercent": 71.29021276595743,
+        "rimEdgeBaselineGapPixels": -2.7945126138035334,
+        "rimDiameterPixels": 42.43968311826467,
+        "boardWidthPercent": 13.160000000000002,
         "boardBaselineAngleErrorDegrees": 6.3611093629270335e-15,
         "boardScreenBounds": {
-          "left": 325.44072948328267,
-          "right": 389.2807294832827,
-          "top": 66.37099999999995,
-          "bottom": 164.18099999999998
+          "left": 319.9210212765957,
+          "right": 383.0890212765957,
+          "top": 50.706,
+          "bottom": 152.286
         },
-        "assemblyWidthPercent": 30.710887615681475,
-        "assemblyHeightPercent": 61.79113111111113,
+        "assemblyWidthPercent": 32.638400000000004,
+        "assemblyHeightPercent": 63.945577777777764,
         "baseWorld": {
-          "x": 207.4,
+          "x": 206,
           "y": 60,
-          "outerX": 214.8
+          "outerX": 212
         },
         "baseScreenBounds": {
-          "left": 358.8007294832826,
-          "right": 471.2282494832827,
-          "top": 231.311232,
-          "bottom": 288.819072
+          "left": 355.44102127659573,
+          "right": 476.5853412765957,
+          "top": 217.01247999999998,
+          "bottom": 280.91008
         },
         "baseVisible": true
       }
@@ -111,7 +111,7 @@
     {
       "name": "f-dunk-launch",
       "cameraXBefore": 128.7,
-      "cameraXAfter": 154.532,
+      "cameraXAfter": 155.9,
       "playerX": 168,
       "playerZ": 2,
       "clip": "dunk-power",
@@ -119,8 +119,8 @@
     },
     {
       "name": "g-dunk-apex",
-      "cameraXBefore": 154.532,
-      "cameraXAfter": 160.309,
+      "cameraXBefore": 155.9,
+      "cameraXAfter": 170.403,
       "playerX": 178,
       "playerZ": 5,
       "clip": "dunk-power",
@@ -128,8 +128,8 @@
     },
     {
       "name": "h-dunk-recovery",
-      "cameraXBefore": 160.309,
-      "cameraXAfter": 160.787,
+      "cameraXBefore": 170.403,
+      "cameraXAfter": 171.712,
       "playerX": 174,
       "playerZ": 1,
       "clip": "dunk-power",
@@ -162,12 +162,12 @@
           [
             "dragon-queen",
             80,
-            22
+            26
           ],
           [
             "auric-scale",
             132,
-            18
+            30
           ]
         ]
       },
@@ -195,7 +195,7 @@
           {
             "id": "dragon-queen",
             "x": 80,
-            "y": 22,
+            "y": 26,
             "z": 0,
             "facing": -1,
             "clip": "idle-ball",
@@ -204,7 +204,7 @@
           {
             "id": "auric-scale",
             "x": 132,
-            "y": 18,
+            "y": 30,
             "z": 0,
             "facing": -1,
             "clip": "idle-ball",
@@ -401,12 +401,12 @@
           [
             "dragon-queen",
             80,
-            22
+            26
           ],
           [
             "auric-scale",
             132,
-            18
+            30
           ]
         ]
       },
@@ -434,7 +434,7 @@
           {
             "id": "dragon-queen",
             "x": 80,
-            "y": 22,
+            "y": 26,
             "z": 0,
             "facing": -1,
             "clip": "idle-ball",
@@ -443,7 +443,7 @@
           {
             "id": "auric-scale",
             "x": 132,
-            "y": 18,
+            "y": 30,
             "z": 0,
             "facing": -1,
             "clip": "idle-ball",
@@ -500,7 +500,7 @@
       },
       "camera": {
         "cameraXBefore": 128.7,
-        "cameraXAfter": 154.532,
+        "cameraXAfter": 155.9,
         "playerX": 168,
         "playerZ": 2,
         "clip": "dunk-power",
@@ -523,8 +523,8 @@
         "ballDz": 2.163
       },
       "camera": {
-        "cameraXBefore": 154.532,
-        "cameraXAfter": 160.309,
+        "cameraXBefore": 155.9,
+        "cameraXAfter": 170.403,
         "playerX": 178,
         "playerZ": 5,
         "clip": "dunk-power",
@@ -547,8 +547,8 @@
         "ballDz": 2.2785
       },
       "camera": {
-        "cameraXBefore": 160.309,
-        "cameraXAfter": 160.787,
+        "cameraXBefore": 170.403,
+        "cameraXAfter": 171.712,
         "playerX": 174,
         "playerZ": 1,
         "clip": "dunk-power",

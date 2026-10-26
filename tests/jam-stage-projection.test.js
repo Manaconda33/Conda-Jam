@@ -24,8 +24,8 @@ test('Jam stage expands north-south court space without changing athlete scale',
   const near=projectJamStagePoint({x:120,y:100,cameraX:120});
   assert.equal(far[1],JAM_STAGE.floorTop);
   assert.equal(near[1],JAM_STAGE.viewportHeight);
-  assert.ok(JAM_STAGE.floorHeightPercent>=64&&JAM_STAGE.floorHeightPercent<=66);
-  assert.equal(near[1]-far[1],234);
+  assert.ok(JAM_STAGE.floorHeightPercent>=71&&JAM_STAGE.floorHeightPercent<=73);
+  assert.equal(near[1]-far[1],260);
   assert.equal(stageDepthScale(0),.84);
   assert.equal(stageDepthScale(100),1);
   assert.ok(Math.abs(stageStandingHeightPercent(0)-27.2363)<.01);
@@ -48,8 +48,8 @@ test('stage jump projection raises the whole athlete by the reference height wit
 test('preview reveals most of the attacking half while far sideline narrows',()=>{
   const midSlice=stageCourtSlicePercent(50);
   const nearSlice=stageCourtSlicePercent(100);
-  assert.equal(nearSlice,70,'near side shows 70% of the court length');
-  assert.ok(midSlice>=71&&midSlice<=74,`mid-court slice ${midSlice}%`);
+  assert.ok(Math.abs(nearSlice-50)<1e-8,`near-side slice is ${nearSlice}%`);
+  assert.ok(midSlice>=51&&midSlice<=53,`mid-court slice ${midSlice}%`);
   const farLeft=projectJamStagePoint({x:0,y:0,cameraX:100})[0];
   const nearLeft=projectJamStagePoint({x:0,y:100,cameraX:100})[0];
   const farRight=projectJamStagePoint({x:200,y:0,cameraX:100})[0];
@@ -147,7 +147,7 @@ test('attack camera frames either rim symmetrically and eases into the approach'
   assert.ok(leftScreenX>=120&&leftScreenX<=150,`left rim at ${leftScreenX}px`);
   const approaching=stageCameraFocusX(150,200,1);
   assert.ok(approaching>150&&approaching<174,'focus transitions smoothly before reaching the rim');
-  assert.equal(stageCameraFocusX(170,200,1),172,'focus settles on the attack framing inside the final 30 world units');
+  assert.equal(stageCameraFocusX(170,200,1),183,'focus settles on the attack framing inside the final 30 world units');
   assert.ok(JAM_STAGE.hoopAssemblyScale>=1&&JAM_STAGE.hoopAssemblyScale<=1.2,'the assembly retains its court-scale geometry');
 });
 
