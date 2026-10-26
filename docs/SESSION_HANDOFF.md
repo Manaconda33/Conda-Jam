@@ -1,6 +1,8 @@
 
 
 ## J.130 candidate generation — 2026-10-26 20:00 UTC
+Candidate source and review proof are now recorded in commits 7386de219a73dc53813f71e600cd97640f6aeceb and c54d07162db30271e882530ac39fb43d290fc16a. These commits update generated-source documentation only; the Actions API returned zero workflow runs for the preview-proof commit, and no Pages deployment was needed.
+
 Light/dark review proof is now saved at tools/generate-art/previews/j130-briar-foxglove-layup/attempt-01/light-dark-review.png (SHA-256 92238bff4b082617f4257e66d70a644e10e2ab76975fc655353d53bd80482622). Visual proof review shows transparent background compositing cleanly on both grounds; the image remains a candidate and has not been cleaned or packed.
 
 
