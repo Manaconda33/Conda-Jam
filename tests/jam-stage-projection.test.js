@@ -58,44 +58,58 @@ test('human stage scale compensates for authored alpha padding without distortin
 });
 
 test('attack camera frames either rim symmetrically and eases into the approach',()=>{
-  const rightRim=stageCameraFocusX(200,200,1);
-  const leftRim=stageCameraFocusX(0,0,-1);
-  assert.equal(rightRim,174);
-  assert.equal(leftRim,26);
+  const leftHoop=200*5.25/94,rightHoop=200*(1-5.25/94);
+  const rightRim=stageCameraFocusX(rightHoop,rightHoop,1);
+  const leftRim=stageCameraFocusX(leftHoop,leftHoop,-1);
+  assert.equal(rightRim,rightHoop-18);
+  assert.equal(leftRim,leftHoop+18);
   const pixelsPerWorld=480/(200*(JAM_STAGE.standardSlicePercent/100));
-  const rightScreenX=240+(200-rightRim)*pixelsPerWorld*JAM_STAGE.nearHorizontalScale;
-  const leftScreenX=240+(0-leftRim)*pixelsPerWorld*JAM_STAGE.nearHorizontalScale;
-  assert.ok(rightScreenX>=360&&rightScreenX<=370,`right rim at ${rightScreenX}px`);
-  assert.ok(leftScreenX>=110&&leftScreenX<=120,`left rim at ${leftScreenX}px`);
+  const rightRimWorldX=JAM_STAGE.courtLength-JAM_STAGE.hoopRimBaselineOffsetWorld;
+  const leftRimWorldX=JAM_STAGE.hoopRimBaselineOffsetWorld;
+  const rightScreenX=240+(rightRimWorldX-rightRim)*pixelsPerWorld*JAM_STAGE.nearHorizontalScale;
+  const leftScreenX=240+(leftRimWorldX-leftRim)*pixelsPerWorld*JAM_STAGE.nearHorizontalScale;
+  assert.ok(rightScreenX>=330&&rightScreenX<=350,`right rim at ${rightScreenX}px`);
+  assert.ok(leftScreenX>=130&&leftScreenX<=150,`left rim at ${leftScreenX}px`);
   const approaching=stageCameraFocusX(150,200,1);
   assert.ok(approaching>150&&approaching<174,'focus transitions smoothly before reaching the rim');
-  assert.equal(stageCameraFocusX(170,200,1),174,'focus settles on the attack framing inside the final 30 world units');
+  assert.equal(stageCameraFocusX(170,200,1),182,'focus settles on the attack framing inside the final 30 world units');
   assert.ok(JAM_STAGE.hoopAssemblyScale>=1&&JAM_STAGE.hoopAssemblyScale<=1.2,'the assembly retains its court-scale geometry');
 });
 
 test('stage hoops use court anchors, reference-sized rims, and distinct support depth',()=>{
   const [leftEnd,rightEnd]=courtMarkings().ends;
-  const left=stageHoopGeometry(leftEnd,{cameraX:37.2});
-  const right=stageHoopGeometry(rightEnd,{cameraX:162.8});
+  const left=stageHoopGeometry(leftEnd,{cameraX:stageCameraFocusX(leftEnd.hoop[0],leftEnd.hoop[0],-1)});
+  const right=stageHoopGeometry(rightEnd,{cameraX:stageCameraFocusX(rightEnd.hoop[0],rightEnd.hoop[0],1)});
   const playerHeight=JAM_STAGE.viewportHeight*stageStandingHeightPercent(50)/100;
   const rimPlayerRatio=right.rimWidthPixels/playerHeight;
   assert.ok(rimPlayerRatio>=.36&&rimPlayerRatio<=.47,`rim is ${rimPlayerRatio.toFixed(2)} of a standing player`);
-  assert.ok(left.rimX<240&&right.rimX>240,'mirrored attack views place each rim on its attack side');
+  const leftRimPercent=100*left.rimX/JAM_STAGE.viewportWidth,rightRimPercent=100*right.rimX/JAM_STAGE.viewportWidth;
+  assert.ok(leftRimPercent>=20&&leftRimPercent<=30,`left attack rim is at ${leftRimPercent.toFixed(1)}% W`);
+  assert.ok(rightRimPercent>=70&&rightRimPercent<=80,`right attack rim is at ${rightRimPercent.toFixed(1)}% W`);
   assert.ok(left.boardX<left.rimX&&right.boardX>right.rimX,'backboards project from their own court anchors');
   assert.ok(left.baseWorldX<0&&right.baseWorldX>JAM_STAGE.courtLength,'stanchion bases sit beyond their baselines');
-  assert.equal(left.baseWorldY,left.rimDepth,'left support base aligns with the hoop across court depth');
-  assert.equal(right.baseWorldY,right.rimDepth,'right support base aligns with the hoop across court depth');
+  assert.equal(left.baseWorldY,JAM_STAGE.stanchionBaseDepthY,'left support base sits toward the near apron');
+  assert.equal(right.baseWorldY,JAM_STAGE.stanchionBaseDepthY,'right support base sits toward the near apron');
   assert.ok(left.baseX<left.baselineScreenX&&right.baseX>right.baselineScreenX,'support bases render beyond the out-of-bounds lines');
   const leftRimMargin=left.rimX-left.rimWidthPixels/2-left.baselineScreenX;
   const rightRimMargin=right.baselineScreenX-(right.rimX+right.rimWidthPixels/2);
   assert.ok(leftRimMargin>=12&&leftRimMargin<=20&&rightRimMargin>=12&&rightRimMargin<=20,'rim edges sit just inside the baseline');
   assert.ok(left.boardX-left.boardWidth/2<left.baselineScreenX&&left.boardX+left.boardWidth/2>left.baselineScreenX,'left backboard overlaps the baseline');
   assert.ok(right.boardX-right.boardWidth/2<right.baselineScreenX&&right.boardX+right.boardWidth/2>right.baselineScreenX,'right backboard overlaps the baseline');
-  assert.equal(left.supportDepth,left.rimDepth,'left support sorts behind the board at shared court depth');
-  assert.equal(right.supportDepth,right.rimDepth,'right support sorts behind the board at shared court depth');
+  assert.ok(left.supportDepth>left.rimDepth&&right.supportDepth>right.rimDepth,'foreground supports sort in front of the backboard');
   assert.ok(left.baseX-left.baseHalfWidth>=0&&right.baseX+right.baseHalfWidth<=JAM_STAGE.viewportWidth,'both full off-court bases stay visible in the attack frame');
   assert.ok(left.supportAttachX<left.rimX-left.rimWidthPixels/2&&right.supportAttachX>right.rimX+right.rimWidthPixels/2,'support attaches outside the rim on both sides');
-  assert.ok(left.boardHeight/left.rimWidthPixels>=1.5&&right.boardHeight/right.rimWidthPixels<=1.7,'backboard keeps a taller arcade silhouette');
+  assert.ok(left.boardWidth/left.boardHeight>=1.5&&left.boardWidth/left.boardHeight<=1.7,'backboard keeps a landscape arcade silhouette');
   assert.ok(left.rimX-left.rimWidthPixels/2>=0&&right.rimX+right.rimWidthPixels/2<=JAM_STAGE.viewportWidth,'both rims remain inside the attack frame');
   assert.ok(left.boardWidth<80&&right.boardWidth<80,'the board avoids the former full-screen enlargement');
+  for(const hoop of [left,right]){
+    const minX=Math.min(hoop.rimX-hoop.rimWidthPixels/2,hoop.boardX-hoop.boardWidth/2,hoop.baseX-hoop.baseHalfWidth,hoop.supportAttachX);
+    const maxX=Math.max(hoop.rimX+hoop.rimWidthPixels/2,hoop.boardX+hoop.boardWidth/2,hoop.baseX+hoop.baseHalfWidth,hoop.supportAttachX);
+    const assemblyWidthPercent=100*(maxX-minX)/JAM_STAGE.viewportWidth;
+    const assemblyHeightPercent=100*(hoop.baseY+2*hoop.scale-hoop.boardTop)/JAM_STAGE.viewportHeight;
+    const boardWidthPercent=100*hoop.boardWidth/JAM_STAGE.viewportWidth;
+    assert.ok(assemblyWidthPercent>=30&&assemblyWidthPercent<=50,`assembly is ${assemblyWidthPercent.toFixed(1)}% W`);
+    assert.ok(assemblyHeightPercent>=55&&assemblyHeightPercent<=66,`assembly is ${assemblyHeightPercent.toFixed(1)}% H`);
+    assert.ok(boardWidthPercent>=12&&boardWidthPercent<=16,`board is ${boardWidthPercent.toFixed(1)}% W`);
+  }
 });

@@ -16,7 +16,7 @@ export const JAM_STAGE=Object.freeze({
   standardSlicePercent:50,
   attackCameraApproachRadius:70,
   attackCameraFullFocusRadius:30,
-  attackRimScreenOffsetWorld:26,
+  attackRimScreenOffsetWorld:18,
   hoopAssemblyScale:1.1,
   // Stage-only visual offsets from each endline; the painted court stays unchanged.
   hoopRimBaselineOffsetWorld:8,
@@ -25,12 +25,14 @@ export const JAM_STAGE=Object.freeze({
   hoopRimDepthRadius:4.5,
   hoopRimStroke:4,
   hoopNetLength:28,
-  hoopBoardWidth:42,
-  hoopBoardHeight:68,
+  hoopBoardWidth:62,
+  hoopBoardHeight:40,
+  hoopRimElevationScale:1.38,
   hoopSupportWidth:9,
   hoopBaseHalfWidth:22,
-  // The support foot sits outside the baseline, still inside the viewport.
-  stanchionBaseOffsetWorld:8,
+  // Place the foot beyond the baseline near the front apron, inside the frame.
+  stanchionBaseOffsetWorld:13.5,
+  stanchionBaseDepthY:78,
   farHorizontalScale:.94,
   nearHorizontalScale:1,
   rendererSpriteScale:2.05,
@@ -80,7 +82,7 @@ export function stageCourtSlicePercent(y=50,width=JAM_STAGE.viewportWidth,zoom=1
   return 100*width/(pixelsPerWorld*horizontalScale*zoomFactor*JAM_STAGE.courtLength);
 }
 
-/** Ease the attack focus so the near rim settles around 75% (right) / 25% (left). */
+/** Ease the attack focus so the near rim settles around 70% (right) / 30% (left). */
 export function stageCameraFocusX(ballX,basketX,direction){
   const distance=Math.abs(basketX-ballX);
   const approach=clamp((JAM_STAGE.attackCameraApproachRadius-distance)/(JAM_STAGE.attackCameraApproachRadius-JAM_STAGE.attackCameraFullFocusRadius),0,1);
@@ -124,13 +126,13 @@ export function stageHoopGeometry(end,{cameraX=100,zoom=100,width=JAM_STAGE.view
   const [boardFloorX]=projectJamStagePoint({x:boardWorldX,y:worldY,cameraX,zoom,width,height});
   const [baselineScreenX]=projectJamStagePoint({x:end.baseline,y:worldY,cameraX,zoom,width,height});
   const baseWorldX=end.baseline-end.direction*JAM_STAGE.stanchionBaseOffsetWorld;
-  const baseWorldY=worldY;
+  const baseWorldY=JAM_STAGE.stanchionBaseDepthY;
   const [baseX,baseY]=projectJamStagePoint({
     x:baseWorldX,
     y:baseWorldY,
     cameraX,zoom,width,height,
   });
-  const rimY=rimFloorY-end.rimHeight*1.18;
+  const rimY=rimFloorY-end.rimHeight*JAM_STAGE.hoopRimElevationScale*zoomFactor;
   const boardHeight=JAM_STAGE.hoopBoardHeight*scale;
   return {
     rimX:rimFloorX,

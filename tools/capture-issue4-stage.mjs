@@ -1,6 +1,9 @@
 import fs from 'node:fs/promises';
 import playwright from 'file:///opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.js';
 import { sampleBallForward, sampleBallHeight, flightHeightFromHand } from '../src/core/animation.js';
+import { court } from '../src/core/simulation.js';
+import { courtMarkings } from '../src/render/court-geometry.js';
+import { JAM_STAGE, stageCameraFocusX, stageHoopGeometry } from '../src/render/jam-stage.js';
 const {chromium}=playwright;
 const out='/workspace/Conda-Jam/artifacts/screenshots/issue4-stage';await fs.mkdir(out,{recursive:true});
 const browser=await chromium.launch({headless:true,executablePath:'/usr/bin/chromium',args:['--no-sandbox','--disable-dev-shm-usage']});
@@ -30,7 +33,24 @@ async function stage(name,scene,portrait=false){
 }
 await stage('a-near-dribble',{player:'reed-ashcroft',x:100,y:82,clip:'dribble',tick:15,carried:true,ballDx:sampleBallForward('dribble',15,'reed-ashcroft'),ballDz:sampleBallHeight('dribble',15,'reed-ashcroft'),defenders:[['manaconda',78,86],['dragon-queen',80,22],['auric-scale',132,18]]});
 await stage('b-right-dunk-peak',{player:'reed-ashcroft',x:178,y:72,z:2.4,facing:1,clip:'dunk-power',tick:14,carried:true,ballDx:sampleBallForward('dunk-power',14,'reed-ashcroft'),ballDz:sampleBallHeight('dunk-power',14,'reed-ashcroft'),defenders:[['manaconda',150,25],['dragon-queen',158,24],['auric-scale',162,36]]});
-await stage('c-left-shot-release',{player:'reed-ashcroft',x:33,y:63,z:2.2,facing:-1,clip:'shoot',tick:13,carried:false,ballY:63,ballZ:flightHeightFromHand(sampleBallHeight('shoot',13,'reed-ashcroft'),2.2),ballVx:-.15,defenders:[['manaconda',53,26],['auric-scale',55,74],['dragon-queen',75,45]]});
+await stage('c-left-shot-release',{player:'reed-ashcroft',x:33,y:63,z:2.2,facing:-1,clip:'shoot',tick:13,carried:false,ballY:63,ballZ:flightHeightFromHand(sampleBallHeight('shoot',13,'reed-ashcroft'),2.2),ballVx:-.15,defenders:[['manaconda',53,26],['auric-scale',55,74],['dragon-queen',63,45]]});
 await stage('d-portrait-play',{player:'reed-ashcroft',x:100,y:82,clip:'dribble',tick:15,carried:true,ballDx:sampleBallForward('dribble',15,'reed-ashcroft'),ballDz:sampleBallHeight('dribble',15,'reed-ashcroft'),defenders:[['manaconda',78,86],['dragon-queen',80,22],['auric-scale',132,18]]},true);
-const browserVersion=await browser.version();await fs.writeFile(`${out}/capture-manifest.json`,JSON.stringify({capturedAt:new Date().toISOString(),browserVersion,viewport:{landscape:'1200x900 canvas native480x360',portrait:'390x844'},stagePreview:true,gameplayArt:'generated-full-roster-atlases',stagedFrames:true,gameplayFootage:false,simulationChanged:false,portraitStatus:'baseline only; current 4:3 letterboxing retained pending slice approval',errors,captures},null,2)+'\n');console.log(JSON.stringify({out,errors,browserVersion,stagedFrames:Object.keys(captures)}));
+function measureHoop(end,direction){
+ const cameraX=stageCameraFocusX(end.hoop[0],end.hoop[0],direction);
+ const g=stageHoopGeometry(end,{cameraX});
+ const minX=Math.min(g.rimX-g.rimWidthPixels/2,g.boardX-g.boardWidth/2,g.baseX-g.baseHalfWidth,g.supportAttachX);
+ const maxX=Math.max(g.rimX+g.rimWidthPixels/2,g.boardX+g.boardWidth/2,g.baseX+g.baseHalfWidth,g.supportAttachX);
+ return {
+  rimCenterPercent:100*g.rimX/JAM_STAGE.viewportWidth,
+  rimEdgeBaselineGapPixels:direction>0?g.baselineScreenX-(g.rimX+g.rimWidthPixels/2):g.rimX-g.rimWidthPixels/2-g.baselineScreenX,
+  boardWidthPercent:100*g.boardWidth/JAM_STAGE.viewportWidth,
+  assemblyWidthPercent:100*(maxX-minX)/JAM_STAGE.viewportWidth,
+  assemblyHeightPercent:100*(g.baseY+2*g.scale-g.boardTop)/JAM_STAGE.viewportHeight,
+  baseWorld:{x:g.baseWorldX,y:g.baseWorldY},
+  baseVisible:g.baseX-g.baseHalfWidth>=0&&g.baseX+g.baseHalfWidth<=JAM_STAGE.viewportWidth,
+ };
+}
+const [leftEnd,rightEnd]=courtMarkings(court).ends;
+const hoopMeasurements={left:measureHoop(leftEnd,-1),right:measureHoop(rightEnd,1)};
+const browserVersion=await browser.version();await fs.writeFile(`${out}/capture-manifest.json`,JSON.stringify({capturedAt:new Date().toISOString(),browserVersion,viewport:{landscape:'1200x900 canvas native480x360',portrait:'390x844'},stagePreview:true,stageRevision:6,hoopGeometry:{rimDiameterPixels:(JAM_STAGE.hoopRimRadius*2+JAM_STAGE.hoopRimStroke)*JAM_STAGE.hoopAssemblyScale*.92,baselineOffsetsWorld:{rim:JAM_STAGE.hoopRimBaselineOffsetWorld,board:JAM_STAGE.hoopBoardBaselineOffsetWorld,baseBeyond:JAM_STAGE.stanchionBaseOffsetWorld},supportDepthY:JAM_STAGE.stanchionBaseDepthY,measurements:hoopMeasurements},gameplayArt:'generated-full-roster-atlases',stagedFrames:true,gameplayFootage:false,simulationChanged:false,portraitStatus:'baseline only; current 4:3 letterboxing retained pending slice approval',errors,captures},null,2)+'\n');console.log(JSON.stringify({out,errors,browserVersion,stagedFrames:Object.keys(captures),hoopMeasurements}));
 await browser.close();
