@@ -14,7 +14,7 @@ From this folder, run:
 npm run dev
 ```
 
-Open **http://localhost:4173** in Chrome, Edge, or Firefox. The project has no npm dependencies and the game loads without network assets. To use a production copy instead:
+Open **http://localhost:4173** in Chrome, Edge, or Firefox. The game has no runtime dependencies and loads without network assets. To use a production copy instead:
 
 ```sh
 npm run build

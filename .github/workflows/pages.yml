@@ -37,6 +37,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Install Node development dependencies
+        run: npm ci
       - name: Install image tooling required by atlas tests
         run: |
           sudo apt-get update
