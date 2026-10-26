@@ -6,7 +6,7 @@ Date: 2026-10-26
 
 ## Review link and evidence
 
-- [Private stage review gallery](https://jamverse-stage-review-20261026.manaconda2433.chatgpt.site/) is version 8, deployed from source commit `09470d8d61344de2c875a2c40f427efb2b08f5cc`. It compares Revision 5, R10, R13, and R15 and retains the eight-frame R13 capture set. The gallery remains owner-only.
+- [Private stage review gallery](https://jamverse-stage-review-20261026.manaconda2433.chatgpt.site/) is version 9, deployed from source commit `1d297e8b11f7a0f5b791885d26d45a31f60a4eb7`. It compares Revision 5, R10, R13, and R15 and retains the eight-frame R13 capture set. The gallery remains owner-only.
 - Current Chromium captures and measured `capture-manifest.json` are in `artifacts/screenshots/issue4-stage/`. Eight staged frames include centered court coverage, right dunk peak, left shot release, portrait baseline, and four dunk camera states. The R13 source captures remain separately archived in the review gallery.
 - `tools/capture-issue4-stage.mjs` reproduces the frames from authored pose/ball tracks and deterministic scene states. It does not advance gameplay simulation; the camera alone eases between states. Captures are staged frames, not gameplay footage.
 
