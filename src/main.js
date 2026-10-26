@@ -304,9 +304,8 @@ function stageShadowPosition(p,x,y){
   if(!stagePreview)return [x,y];
   const animation=p.animation,action=animation?.action,eligible=action&&['shot','dunk'].includes(action.kind);
   let origin=stageShadowOriginMemo.get(p);
-  if(eligible&&origin?.animation!==animation){origin={animation,x:Number.isFinite(action.startX)?action.startX:p.x,y:Number.isFinite(action.startY)?action.startY:p.y};stageShadowOriginMemo.set(p,origin)}
-  if(origin?.animation===animation&&p.z>0)return project(origin.x,origin.y,0);
-  if(eligible&&origin?.animation===animation)return project(origin.x,origin.y,0);
+  if(eligible&&origin?.animation!==animation){origin={animation,y:Number.isFinite(action.startY)?action.startY:p.y};stageShadowOriginMemo.set(p,origin)}
+  if(origin?.animation===animation)return [x,project(p.x,origin.y,0)[1]];
   if(origin?.animation!==animation)stageShadowOriginMemo.delete(p);
   return project(p.x,p.y,0);
 }

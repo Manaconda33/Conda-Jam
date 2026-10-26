@@ -2,7 +2,7 @@
 
 Date: 2026-10-26
 
-**Status: Revision 15 landscape staging candidate ready for owner review; Issue #4 remains PARTIAL.** The Chicago Condas vs Crownfire Sovereigns stage stays opt-in behind `?stagePreview=1`. Production Pages and gameplay are unchanged.
+**Status: Revision 16 shadow adjustment implemented locally; Issue #4 remains PARTIAL.** The Chicago Condas vs Crownfire Sovereigns stage stays opt-in behind `?stagePreview=1`. Production Pages and gameplay are unchanged. R15 remains the latest published visual preview. Chromium could not launch for R16 capture (`setsockopt: Operation not permitted`, `SIGTRAP`), so this adjustment has not yet been visually verified or published.
 
 ## Review link and evidence
 
@@ -16,7 +16,7 @@ The view restores the prior 50% court-length framing so playable key and three-p
 
 The rim is 42.44px wide, about 0.39 of a mid-depth standing player's height. Its outer edge extends 2.79px across the projected out-of-bounds line in both attack views. The backboard is 13.16% of viewport width and parallel to the projected endline at 0°. The complete hoop assembly measures 32.64% W × 63.95% H. Each support base is fully visible 12 world units beyond its baseline.
 
-Shot and dunk sprites rise with their existing vertical `z` lift: the dunk peak is lifted by 120px in screen space without enlarging standing athletes. Their shadows remain at the action's takeoff x/y on the floor plane. The dunker's body stays court-ward of the rim and reaches beside it; the separate athlete-specific ball track stays aligned with the hand. The camera sequence advances x=101.5→128.7→155.9→170.4→171.7 through recovery while Reed moves x=150→168→178→174.
+Shot and dunk sprites rise with their existing vertical `z` lift: the dunk peak is lifted by 120px in screen space without enlarging standing athletes. Revision16 makes each action shadow follow the athlete's rendered horizontal position while keeping its court depth at the action's takeoff point. Jump height does not lift the shadow, and dunk contact offset is included to keep it under the rendered athlete. R16 visual capture is pending due to the Chromium startup failure. The R15 dunker's body stays court-ward of the rim and reaches beside it; the separate athlete-specific ball track stays aligned with the hand. The camera sequence advances x=101.5→128.7→155.9→170.4→171.7 through recovery while Reed moves x=150→168→178→174.
 
 | Check | Revision 15 | Target | Status |
 | --- | ---: | ---: | --- |
@@ -29,7 +29,7 @@ Shot and dunk sprites rise with their existing vertical `z` lift: the dunk peak 
 | Board width and alignment | 13.16% W; 0° from projected baseline | 12–16% W; parallel with perspective | Pass |
 | Rim edge to baseline | 2.79px over in both views | just over out-of-bounds line | Pass |
 | Support base | 12 world units beyond line; fully visible | base off court | Pass |
-| Dunk lift and shadow | 120px lift; shadow fixed at takeoff | vertical lift from stationary takeoff mark | Pass |
+| Dunk lift and shadow | R15: 120px lift; shadow fixed at takeoff. R16 code: horizontal follow at fixed takeoff depth | vertical lift; shadow stays at takeoff depth and follows horizontal movement | R16 visual capture pending |
 | Dunk camera follow | x=101.5→171.7 through recovery | frame attacker and basket | Pass |
 
 ## Reference and limits
