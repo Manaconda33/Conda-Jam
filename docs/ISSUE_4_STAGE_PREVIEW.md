@@ -2,7 +2,7 @@
 
 Date: 2026-10-26
 
-**Status: Revision 16 is being switched to the default renderer; deployment is pending. Issue #4 remains PARTIAL.** The previous Pages deployment contained the court, hoop, camera and shadow revisions but kept them behind `?stagePreview=1`, so the ordinary link showed the legacy renderer. The local correction makes the revised renderer default and reserves `?stagePreview=0` for legacy comparison. Fresh R16 visual capture remains unavailable because Chromium could not launch in the prior restricted environment (`setsockopt: Operation not permitted`, `SIGTRAP`); this correction does not claim Issue #4 acceptance.
+**Status: Revision 16 default-renderer correction deployed in commit `5d5d831f`; Issue #4 remains PARTIAL.** The previous Pages deployment contained the court, hoop, camera and shadow revisions but kept them behind `?stagePreview=1`, so the ordinary link showed the legacy renderer. Commit `5d5d831f` makes the revised renderer default and reserves `?stagePreview=0` for legacy comparison. Pages run #172 (`40387741513`) passed verification, build, upload, and deployment. Fresh R16 visual capture remains unavailable because Chromium could not launch in the prior restricted environment (`setsockopt: Operation not permitted`, `SIGTRAP`); this correction does not claim Issue #4 acceptance.
 
 ## Review link and evidence
 
@@ -43,4 +43,4 @@ Portrait retains the existing 4:3 letterboxed layout. The canvas occupies about 
 - `npm test`: 52 test files pass. `npm run lint`: 19 JavaScript modules pass. `npm run validate:content`: 35 franchises / 105 unique athletes pass. Focused stage projection tests pass 11/11. The isolated bundle build passes.
 - Chromium 154 captured all eight R15 staged frames with zero page errors. The manifest records court scale/depth, standing heights, rim/base bounds, and the camera sequence.
 - Independent visual and code reviews confirm the playable-area scale, expanded north–south depth, vertical center stripe, fixed takeoff shadow, dunk-to-rim relation, separate ball alignment, and preview-only guards.
-- No animation art, sprite frames, animation registrations, or scoring logic changed. The strict animation audit was not refreshed because no animation assets changed. Current production Pages is the successful run #171 at `d1c8cac3`, but it still defaults to the legacy renderer; the default-renderer correction is being validated for deployment.
+- No animation art, sprite frames, animation registrations, or scoring logic changed. The strict animation audit was not refreshed because no animation assets changed. Current production Pages is deployed from `5d5d831f` by successful run #172.
