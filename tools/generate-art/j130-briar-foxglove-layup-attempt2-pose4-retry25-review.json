@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry25",
+  "decision": "REJECT",
+  "generationId": "exec-ec44f256-3035-4963-8009-3a9aa1994a37",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry25-raw.png",
+  "sourceSha256": "0b3a5fbd44b8455636e06a0b893771b4daa11a0666d94b85600f0b02aacbce25",
+  "decodedRgbaPixelSha256": "850d41c9111acc1bd37e97d902a9c323a37e295255d2bb6eb1faac61fce2f8a2",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry25-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry25-light-dark-review.png",
+  "checks": {
+    "pose": "PASS at broad single-frame level: airborne high-forward shooting arm, guide hand away from face, raised lead knee and folded trailing leg read as a peak/release layup. Sequence separation cannot be reviewed from a single pose.",
+    "identityAnatomy": "PARTIAL: recognizable adult human with shoulder-length dark locs, vivid red headband, russet/cream uniform, cream socks and trainers; two arms/hands and two legs/shoes with no crop or apparent extra limbs. Skin is visibly lighter and more copper/orange than canon.",
+    "palette": "FAIL: exposed skin reads copper/orange rather than Briar's canonical deep warm-brown palette.",
+    "transparency": "PARTIAL/FAIL: RGBA alpha range is 0..255 and light/dark composite confirms transparent background, not a baked checkerboard. Alpha>=1 has211 connected components and reaches near all edges (margins 55/21/30/131px).",
+    "cellMarginsAndScale": "FAIL: alpha>=64 margins L/T/R/B are455/231/353/314px; top18.42%, right28.15%, bottom25.04%, left36.28%, all not meeting requested32% on every edge. Figure height is56.54% versus32–34%; width35.57% versus32–34%.",
+    "ballAlignment": "PASS for ball-free source: no ball is present. Briar's separate athlete-specific runtime ball track remains pending.",
+    "cleanupPacking": "None. Raw source remains unchanged; no cleanup, normalization, packing, registration or acceptance."
+  },
+  "reason": "Reject unchanged for off-canon copper/orange skin, figure height56.54% against32–34%, deficient transparent margins, and low-alpha residue near canvas edges. Do not recolor, clean, normalize, pack or register."
+}
