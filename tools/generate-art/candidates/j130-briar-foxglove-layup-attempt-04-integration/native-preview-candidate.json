@@ -1,0 +1,70 @@
+{
+  "athlete": "briar-foxglove",
+  "src": "tools/generate-art/candidates/j130-briar-foxglove-layup-attempt-04-integration/briar-foxglove-layup-8x-integration-candidate.png",
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 72,
+      "y": 0,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 144,
+      "y": 0,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 216,
+      "y": 0,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 0,
+      "y": 95,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 72,
+      "y": 95,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 144,
+      "y": 95,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 216,
+      "y": 95,
+      "w": 72,
+      "h": 95
+    }
+  ],
+  "renderThroughFrame": 7,
+  "height": [
+    1.136218,
+    1.635045,
+    1.829033,
+    1.550734,
+    1.71701
+  ],
+  "forward": [
+    6.306216,
+    5.651797,
+    3.157357,
+    1.43926,
+    4.600867
+  ],
+  "status": "review-only integration candidate; frame2 source attempt04; native provisional contact review only for frames3/4; frames5-7 ball handling unresolved"
+}

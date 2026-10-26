@@ -41,6 +41,31 @@ const previewZoom=Math.max(85,Math.min(120,Number(process.env.JAMVERSE_PREVIEW_Z
 const zoomInput=document.getElementById('camera-zoom');zoomInput.value=previewZoom;
 for(const listener of zoomInput.listeners.input??[])listener({target:zoomInput});
 const previewAthlete=process.env.JAMVERSE_PREVIEW_ATHLETE??'manaconda';
+const {animationAssetManifest}=await import(pathToFileURL(root+'/src/content/animation-assets.js'));
+// Optional process-local candidate atlas and ball-track override for unregistered reviews.
+let candidateReview=null,candidateImage=null;
+if(process.env.JAMVERSE_PREVIEW_CANDIDATE){
+ candidateReview=JSON.parse(await readFile(path.resolve(root,process.env.JAMVERSE_PREVIEW_CANDIDATE),'utf8'));
+ const candidateSource=candidateReview.src.startsWith('./')?candidateReview.src:'./'+candidateReview.src;
+ const character=animationAssetManifest.characters[candidateReview.athlete]??=( {directions:{}} );
+ const frames=candidateReview.frames.map(frame=>({...frame}));
+ character.directions.right={...(character.directions.right??{}),layup:{src:candidateSource,frames,reviewed:true}};
+ // Candidate atlases are authored right-facing; use the separately reviewed mirror path for left-facing previews.
+ character.mirrorSafe=true;character.mirrorReview={status:'reviewed',notes:'Process-local preview mirror for a ball-free, asymmetric-uniform candidate; verify visually before acceptance.'};
+ candidateImage=new BrowserImage();candidateImage.src=candidateSource;
+ if(!candidateImage.complete)await new Promise((resolve,reject)=>{candidateImage.addEventListener('load',resolve);candidateImage.onerror=reject});
+ if(typeof candidateImage.decode==='function')await candidateImage.decode();
+}
+// Asset reviewers can inspect a provisional manifest entry without marking it
+// approved in the checked-in manifest. This override is process-local only.
+if(process.env.JAMVERSE_PREVIEW_UNREVIEWED==='1'){
+  const character=animationAssetManifest.characters?.[previewAthlete];
+  for(const direction of Object.values(character?.directions??{}))for(const clip of Object.values(direction))clip.reviewed=true;
+  // Mirror approvals apply only to this diagnostic process. Registration can
+  // reset the checked-in status to pending until the visual review is done.
+  if(character?.mirrorSafe===true&&character?.mirrorReview?.notes)character.mirrorReview.status='reviewed';
+}
+// Candidate overrides must exist before game.start() snapshots production sprite assets.
 const home=game.teams.find(t=>t.roster.some(p=>p.id===previewAthlete));
 if(!home)throw new Error('Unknown preview athlete: '+previewAthlete);
 game.start(home.id,game.teams.find(t=>t.id!==home.id).id,180,3);
@@ -59,33 +84,11 @@ game.tick(180);await writeFile(out+'/simulation-180.png',document.getElementById
 const state=game.state;state.lastEvent='';state.pause=false;state.phase='playing';
 const p=state.players.find(p=>p.id===previewAthlete);
 if(!p)throw new Error('Preview athlete is not in the active lineup: '+previewAthlete);
-const {animationAssetManifest}=await import(pathToFileURL(root+'/src/content/animation-assets.js'));
-// Optional process-local candidate atlas and ball-track override for unregistered reviews.
-let candidateReview=null,candidateImage=null;
-if(process.env.JAMVERSE_PREVIEW_CANDIDATE){
- candidateReview=JSON.parse(await readFile(path.resolve(root,process.env.JAMVERSE_PREVIEW_CANDIDATE),'utf8'));
- const candidateSource=candidateReview.src.startsWith('./')?candidateReview.src:'./'+candidateReview.src;
- const character=animationAssetManifest.characters[candidateReview.athlete]??=( {directions:{}} );
- const frames=candidateReview.frames.map(frame=>({...frame}));
- for(const facing of ['right','left'])character.directions[facing]={...(character.directions[facing]??{}),layup:{src:candidateSource,frames,reviewed:true}};
- candidateImage=new BrowserImage();candidateImage.src=candidateSource;
- if(!candidateImage.complete)await new Promise((resolve,reject)=>{candidateImage.addEventListener('load',resolve);candidateImage.onerror=reject});
- if(typeof candidateImage.decode==='function')await candidateImage.decode();
-}
-// Asset reviewers can inspect a provisional manifest entry without marking it
-// approved in the checked-in manifest. This override is process-local only.
-if(process.env.JAMVERSE_PREVIEW_UNREVIEWED==='1'){
-  const character=animationAssetManifest.characters?.[previewAthlete];
-  for(const direction of Object.values(character?.directions??{}))for(const clip of Object.values(direction))clip.reviewed=true;
-  // Mirror approvals apply only to this diagnostic process. Registration can
-  // reset the checked-in status to pending until the visual review is done.
-  if(character?.mirrorSafe===true&&character?.mirrorReview?.notes)character.mirrorReview.status='reviewed';
-}
 const previewImages=new Map(images.map(image=>[image.file,image]));
 if(candidateImage)previewImages.set(candidateImage.file,candidateImage);
 const previewBallHeight=(clip,tick,athlete)=>candidateReview&&athlete===candidateReview.athlete&&clip==='layup'?candidateTrackAt(candidateReview.height,tick,clip):sampleBallHeight(clip,tick,athlete);
 const previewBallForward=(clip,tick,athlete)=>candidateReview&&athlete===candidateReview.athlete&&clip==='layup'?candidateTrackAt(candidateReview.forward,tick,clip):sampleBallForward(clip,tick,athlete);
-function candidateTrackAt(values,tick,clip){let cursor=0;for(let frame=0;frame<animationClips[clip].frames.length;frame++){const duration=animationClips[clip].frames[frame].duration;if(tick<cursor+duration){const next=Math.min(frame+1,values.length-1),u=Math.max(0,(tick-cursor)/duration);return values[frame]+(values[next]-values[frame])*u;}cursor+=duration;}return values.at(-1);}
+function candidateTrackAt(values,tick,clip){let cursor=0;for(let frame=0;frame<animationClips[clip].frames.length;frame++){const duration=animationClips[clip].frames[frame].duration;if(tick<cursor+duration){const base=Math.min(frame,values.length-1),next=Math.min(base+1,values.length-1),u=Math.max(0,(tick-cursor)/duration);return values[base]+(values[next]-values[base])*u;}cursor+=duration;}return values.at(-1);}
 const previews=[],previewFrames=[],clips=Object.keys(animationClips),passContactCaptures=[];
 const onlyPreviewClips=new Set((process.env.JAMVERSE_PREVIEW_CLIPS??'').split(',').map(x=>x.trim()).filter(Boolean));
 const shouldPreview=clip=>onlyPreviewClips.size===0||onlyPreviewClips.has(clip);
@@ -205,7 +208,7 @@ for(const clip of ['shoot','layup','layup-reverse'].filter(shouldPreview))for(co
  p.x=100;p.y=candidateReview&&clip==='layup'?75:50;p.facing=facing;p.animation={clip,tick};
  const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish');
  p.z=tick<=takeoff||tick>=finish?0:tick<=peak?2*Math.sin((tick-takeoff)/(peak-takeoff)*Math.PI/2):2*Math.sin((finish-tick)/(finish-peak)*Math.PI/2);
- p.hasBall=true;Object.assign(state.ball,{x:p.x+facing*sampleBallForward(clip,tick,p.id),y:p.y,z:p.z+sampleBallHeight(clip,tick,p.id),mode:'carried',ownerId:p.id});game.tick(0);
+ p.hasBall=true;Object.assign(state.ball,{x:p.x+facing*previewBallForward(clip,tick,p.id),y:p.y,z:p.z+previewBallHeight(clip,tick,p.id),mode:'carried',ownerId:p.id});game.tick(0);
  const position=facing>0?'right':'left',path=out+'/'+position+'-'+clip+'-pre-release-tick'+tick+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
  let frame=0,startTick=0;for(;frame<animationClips[clip].frames.length-1;frame++){if(tick<startTick+animationClips[clip].frames[frame].duration)break;startTick+=animationClips[clip].frames[frame].duration;}
  const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});actionFramePreviews.push({path,athlete:p.id,clip,frame,tick,facing,production:Boolean(selected),source:animationAssetManifest.characters?.[p.id]?.directions?.right?.[clip]?.src??null,hasBall:true,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:'last carried tick before release'});

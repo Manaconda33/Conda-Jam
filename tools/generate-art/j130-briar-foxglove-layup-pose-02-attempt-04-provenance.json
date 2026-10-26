@@ -1,0 +1,27 @@
+{
+  "generationId": "exec-dd3442d2-7e0d-46c4-b500-a20bbd041c4f",
+  "generatedDate": "2026-10-26",
+  "timezone": "UTC",
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-pose-02-attempt-04-prompt.md",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-02-attempt-04-raw.png",
+  "appearanceReference": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-02-attempt-1.png",
+  "dimensions": [1254, 1254],
+  "format": "PNG RGBA",
+  "sha256": "7c6384a2689248e15b7f1b171999d42946075e2e2296b23018a5a944b7729339",
+  "review": {
+    "status": "provisional-candidate; not accepted or registered",
+    "independentReview": "Identity, anatomy and limb separation pass initial review; compact airborne gather semantics are plausible. Needs alpha fringe and normalized margin review.",
+    "alpha16BoundsXYXY": [321, 65, 993, 1163],
+    "alpha16ComponentCount": 24,
+    "largestComponentBoundsXYXY": [321, 65, 993, 1163],
+    "normalizedCandidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/pose-02-normalized-candidate.png",
+    "normalizedPreview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/normalized-light-dark-review.png",
+    "normalizedCrop": [321, 65, 993, 1163],
+    "normalizedSize": [51, 83],
+    "normalizedPlacement": [10, 6],
+    "cellMarginsLTRB": [10, 6, 11, 6],
+    "cleanupPolicy": "Crop to largest alpha>=16 component bounds and retain all source RGBA pixels inside those bounds. Uniform nearest-neighbor resample to 51x83; no redraw or recolor. Light/dark review required for visible orange fringe.",
+    "nativeRendererFinding": "Current-main Jam Stage native render still shows detached sprite fragments at frame2 with this replacement source. Report selects expected frame2 and source rect [144,0,72,95]. The render artifact is under tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/native-120/. Not accepted pending renderer diagnosis.",
+    "notRegistered": true
+  }
+}
