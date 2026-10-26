@@ -733,7 +733,10 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   receive:{height:[1.35,1.55,1.2,1.2],forward:[9,14,8,8]},
   // J.129 separate pickup ball descends to Briar's floor-level fingertips on
   // frame3/tick7, then rises with her recovering right hand; source stays empty.
-  pickup:{height:[.9,.6,.3,0,.65],forward:[7,11,16,20,10]}
+  pickup:{height:[.9,.6,.3,0,.65],forward:[7,11,16,20,10]},
+  // J.130 Briar carries the separate layup ball through tick9 and releases on tick10;
+  // later poses belong to the ownerless projectile/follow-through.
+  layup:{height:[1.54,1.635045,1.53,1.550734,1.71701],forward:[2.5,2.65,3.6,1.43926,4.2]}
 },'piper-quickstep':{
   // The ball stays in Piper's leading hand through the bent jump-shot release.
   // Centers were measured on the reviewed 128x96 source cells and checked in

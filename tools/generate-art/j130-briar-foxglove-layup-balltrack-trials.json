@@ -1,0 +1,254 @@
+{
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "cell": [
+    72,
+    95
+  ],
+  "baselineY": 89,
+  "productionRegistered": false,
+  "trials": [
+    {
+      "id": "packed-source-map-estimate",
+      "height": [
+        1.136218,
+        1.635045,
+        1.829033,
+        2.050734,
+        2.21701
+      ],
+      "forward": [
+        6.306216,
+        5.651797,
+        3.157357,
+        3.93926,
+        7.100867
+      ],
+      "status": "rejected after current-court review",
+      "reason": "Tick9 ball detached from hand and tick10 release anchor too far away; native harness also drew fallback sprite because candidate injection happened after game.start().",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/packed-native-100/ and packed-native-120/"
+    },
+    {
+      "id": "track1-contact-release",
+      "height": [
+        1.136218,
+        1.635045,
+        1.829033,
+        1.550734,
+        1.71701
+      ],
+      "forward": [
+        6.306216,
+        5.651797,
+        3.157357,
+        1.43926,
+        4.600867
+      ],
+      "status": "rejected for carry frames0-2; frames3-4 provisional pass",
+      "reason": "Independent review at100% and120% finds tick9 contact and tick10 release at both facings. Frames0 and1 remain too far forward; frame2 is at/near contact.",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-100/ and track1-contactfix-120/"
+    },
+    {
+      "id": "track2",
+      "height": [
+        0.45,
+        1.635045,
+        1.15,
+        1.550734,
+        1.71701
+      ],
+      "forward": [
+        2.5,
+        2.65,
+        2.2,
+        1.43926,
+        4.600867
+      ],
+      "status": "rejected",
+      "reason": "Frame0 lands about28px below the hands; frame2 about21px below. Frame1 aligns. Tick9/10 remain good.",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track2-100/ and track2-120/"
+    },
+    {
+      "id": "track3",
+      "height": [
+        0.82,
+        1.635045,
+        1.42,
+        1.550734,
+        1.71701
+      ],
+      "forward": [
+        2.5,
+        2.65,
+        2.2,
+        1.43926,
+        4.600867
+      ],
+      "status": "rejected pending small correction",
+      "reason": "Frame1 contacts. Frame0 remains14\u201316px low; frame2 contacts on the right but is slightly short on the left. Tick9/10 remain good.",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track3-100/ and track3-120/"
+    },
+    {
+      "id": "track4",
+      "height": [
+        0.93,
+        1.635045,
+        1.47,
+        1.550734,
+        1.71701
+      ],
+      "forward": [
+        2.5,
+        2.65,
+        1.5,
+        1.43926,
+        4.600867
+      ],
+      "status": "awaiting independent review",
+      "reason": "Small adjustments to frame0 height and frame2 forward/height based on track3 contact deltas.",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track4-100/ and track4-120/"
+    },
+    {
+      "id": "track5",
+      "height": [
+        1.03,
+        1.635045,
+        1.43,
+        1.550734,
+        1.71701
+      ],
+      "forward": [
+        2.5,
+        2.65,
+        1.1,
+        1.43926,
+        4.2
+      ],
+      "status": "rejected for frame0/2 margins",
+      "reason": "Frame0 misses contact at100%; frame2 slightly short on facing-1. Frames1,3,4 and tick9/10 pass.",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track5-100/ and track5-120/"
+    },
+    {
+      "id": "track6",
+      "height": [
+        1.22,
+        1.635045,
+        1.33,
+        1.550734,
+        1.71701
+      ],
+      "forward": [
+        2.5,
+        2.65,
+        0.5,
+        1.43926,
+        4.2
+      ],
+      "status": "rejected",
+      "reason": "Frame0 misses at100%; frame2 misses both facings.",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track6-100/ and track6-120/"
+    },
+    {
+      "id": "track7",
+      "height": [
+        1.34,
+        1.635045,
+        1.43,
+        1.550734,
+        1.71701
+      ],
+      "forward": [
+        2.5,
+        2.65,
+        1.8,
+        1.43926,
+        4.2
+      ],
+      "status": "rejected",
+      "reason": "Frame0 remains low; frame2 is behind/below both facing hands.",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track7-100/ and track7-120/"
+    },
+    {
+      "id": "track8",
+      "height": [
+        1.54,
+        1.635045,
+        1.58,
+        1.550734,
+        1.71701
+      ],
+      "forward": [
+        2.5,
+        2.65,
+        5.0,
+        1.43926,
+        4.2
+      ],
+      "status": "rejected with near contact",
+      "reason": "Frame0 contacts; frame2 contacts/tangents facing+1 but remains short on facing-1.",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track8-100/ and track8-120/"
+    },
+    {
+      "id": "track9",
+      "height": [
+        1.54,
+        1.635045,
+        1.63,
+        1.550734,
+        1.71701
+      ],
+      "forward": [
+        2.5,
+        2.65,
+        5.3,
+        1.43926,
+        4.2
+      ],
+      "status": "rejected for frame2 overreach",
+      "reason": "Frame0 and frames1,3,4/tick9/10 pass; frame2 ball is too far forward on both sides by7\u20139px beyond its radius.",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track9-100/ and track9-120/"
+    },
+    {
+      "id": "track10",
+      "height": [
+        1.54,
+        1.635045,
+        1.53,
+        1.550734,
+        1.71701
+      ],
+      "forward": [
+        2.5,
+        2.65,
+        3.6,
+        1.43926,
+        4.2
+      ],
+      "status": "provisionally accepted after independent 100%/120% both-facing contact review",
+      "reason": "Frames0\u20134/tick9 carry contacts reach their authored hands; tick10 separates forward/up with a clear release. Frame2\u21923 stays coherent.",
+      "evidence": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track10-100/ and track10-120/"
+    }
+  ],
+  "notes": [
+    "Only frames00\u201304 are athlete-carried samples through tick9; frame04 releases at tick10.",
+    "Frames05\u201307 are ownerless projectile/follow-through time; do not invent athlete-owned track entries.",
+    "Live simulation validation with the track1 release sample passed at deterministic seed12345, both facings. Track4 will need the same live check if accepted."
+  ],
+  "acceptedTrial": "track10",
+  "track10": {
+    "height": [
+      1.54,
+      1.635045,
+      1.53,
+      1.550734,
+      1.71701
+    ],
+    "forward": [
+      2.5,
+      2.65,
+      3.6,
+      1.43926,
+      4.2
+    ]
+  }
+}

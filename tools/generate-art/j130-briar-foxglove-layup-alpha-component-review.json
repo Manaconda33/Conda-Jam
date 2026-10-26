@@ -1634,5 +1634,31 @@
       }
     },
     "diagnosticDisposition": "Largest alpha>=16 component alone is shown in the review-only crop; all other pixels/components remain intact in the preserved raw. The fragments are not cleared or accepted as cleaned production art."
+  },
+  "attempt04-normalized-disposition": {
+    "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-02-attempt-04-raw.png",
+    "generationId": "exec-dd3442d2-7e0d-46c4-b500-a20bbd041c4f",
+    "sourceSha256": "7c6384a2689248e15b7f1b171999d42946075e2e2296b23018a5a944b7729339",
+    "normalized": "tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/pose-02-normalized-candidate.png",
+    "boundsAlpha16XYXY": [
+      10,
+      6,
+      61,
+      89
+    ],
+    "cellMarginsLTRB": [
+      10,
+      6,
+      11,
+      6
+    ],
+    "thresholdComponentDisposition": {
+      "alpha16Connectivity8": "one component (complete silhouette)",
+      "alpha64Connectivity8": "one component",
+      "alpha64Connectivity4": "main silhouette plus three diagonal edge-touch groups of 2, 2 and 1 pixels",
+      "visualProof": "No visible detached fragments on light/dark proof or corrected native Jam Stage captures at 100% and 120%.",
+      "decision": "Retain all pixels. The 4-connected islands are diagonal edge pixels, not detached cleanup targets; no masking or redrawing."
+    },
+    "review": "Pass for identity/anatomy, pose separation, alpha visibility, margins, baseline, and corrected native rendering."
   }
 }

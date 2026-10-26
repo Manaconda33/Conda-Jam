@@ -11,3 +11,7 @@ No runtime or registration changed. Strict registered audit remains824 clips /7,
 ---
 
 See the source-level candidate evidence: `tools/generate-art/j130-briar-foxglove-layup-joint-review.md`, `tools/generate-art/j130-briar-foxglove-layup-balltrack-draft-review.md`, and `tools/generate-art/j130-briar-foxglove-layup-alpha-component-review.json`.
+
+## Superseding checkpoint — 2026-10-26 22:40 UTC
+
+Older status text above is preserved as history and is superseded by `j130-briar-foxglove-layup-final-review.md`. The current selected sequence uses pose02 attempt04, pose03 retry30, pose04 retry33, provisional outer sources, and the 4×2 integration candidate. The corrected Jam Stage preview harness now loads the candidate before `game.start()` caches assets; all eight candidate poses pass native 100%/120% review in both facings. Earlier fragmented frame02 reports are invalid and retained only as historical diagnostics. The selected five-sample Briar-specific track10 passes native contact/release review and deterministic live physics in both facings; no athlete-owned samples are authored after tick10. The final art and track are not yet registered in production.

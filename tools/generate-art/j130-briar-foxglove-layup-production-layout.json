@@ -1,0 +1,18 @@
+{
+  "athlete": "briar-foxglove",
+  "direction": "right",
+  "clip": "layup",
+  "src": "./public/assets/animation/briar-foxglove-layup-right.png",
+  "columns": 4,
+  "rows": 2,
+  "frames": [
+    {"x":0,"y":0,"w":72,"h":95}, {"x":72,"y":0,"w":72,"h":95}, {"x":144,"y":0,"w":72,"h":95}, {"x":216,"y":0,"w":72,"h":95},
+    {"x":0,"y":95,"w":72,"h":95}, {"x":72,"y":95,"w":72,"h":95}, {"x":144,"y":95,"w":72,"h":95}, {"x":216,"y":95,"w":72,"h":95}
+  ],
+  "provenance": {
+    "prompt": "See tools/generate-art/j130-briar-foxglove-layup-final-review.md and each selected source pose's exact prompt/provenance record; no merged generation prompt was used.",
+    "generatedAt": "2026-10-26",
+    "sourceCandidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-attempt-04-integration/briar-foxglove-layup-8x-integration-candidate.png",
+    "review": "Independent identity/anatomy, pose separation, alpha, margins, baseline, timing, native Jam Stage and separate-ball-track review; see j130-briar-foxglove-layup-final-review.md"
+  }
+}

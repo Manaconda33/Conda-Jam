@@ -14,3 +14,8 @@ The full five-point trial track in the integration candidate is H `[1.136218, 1.
 Independent native review at120%, both facings: at tick9 the ball contacts the forward hand area; at tick10 it separates slightly forward and upward with a plausible release gap. This is provisional contact/release evidence only. Independent review at100% also passes in both facings: tick9 contacts the presenting hands and tick10 separates slightly forward/up. No zoom-dependent contact defect was found. No ball is baked into Briar's art, and the draft is not runtime-calibrated or registered.
 
 Evidence: `tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/` and `/track1-contactfix-100/`; candidate atlas and exact values: `tools/generate-art/candidates/j130-briar-foxglove-layup-attempt-04-integration/`.
+
+
+## Final track10 supersession
+
+The candidate values and earlier trial values above were not the selected final track. Trial10 uses height `[1.54,1.635045,1.53,1.550734,1.71701]`, forward `[2.5,2.65,3.6,1.43926,4.2]`. Independent100%/120% review in both facings passes carried contact through tick9 and forward/up ownerless release at tick10. Trials1–9 remain preserved with reasons. Live track10 physics is documented separately; no athlete-owned values are authored for frames5–7.

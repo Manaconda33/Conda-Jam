@@ -15,3 +15,8 @@ The draft timing carries the ball through tick 9 and releases on frame 04 at tic
 ## Native preview correction — 2026-10-26
 
 The earlier current-main native preview assessment in this file is invalid for candidate art: the harness added the candidate after production sprites were snapshotted, and the tick9 capture bypassed the candidate track override. Those screenshots rendered fallback art and runtime track coordinates. The harness now applies candidate atlas/track overrides before drawing. Current attempt04 frames03–04 contact/release is provisionally reviewed at120% in both facings; the old five frame values above remain source-cell estimates and must not be treated as the reviewed native track. Exact updated preview values and evidence are recorded in `tools/generate-art/j130-briar-foxglove-layup-frame-03-04-balltrack-review.md`. A100% contact review and frames00–02 calibration remain pending; frames05–07 are after release.
+
+
+## Final track10 disposition — 2026-10-26
+
+The initial source-cell estimate and its earlier pending statements above are preserved as draft history. Native candidate trials 1–9 were rejected with reasons in `j130-briar-foxglove-layup-balltrack-trials.json`; selected track10 is height `[1.54,1.635045,1.53,1.550734,1.71701]`, forward `[2.5,2.65,3.6,1.43926,4.2]`. Corrected final native captures and track10 trial captures pass at100%/120%, both facings: carried hand contact through tick9 and a forward/up ownerless release at tick10. Track10 is the final athlete-owned path through frame4 only; frames5–7 use normal ownerless projectile physics. The track10 temporary-copy simulation was rerun with seed12345 and passed both facings; see the refreshed live physics check/results.

@@ -233,8 +233,17 @@ for(const clip of Object.keys(animationClips).filter(key=>(key.startsWith('dunk-
 const liveShotCaptures=[];
 for(const clip of (candidateReview?[]:['layup','layup-reverse']).filter(shouldPreview))for(const facing of [1,-1]){
  game.start(home.id,game.teams.find(t=>t.id!==home.id).id,180,3);
- const match=game.state,shooter=match.players.find(candidate=>candidate.id===previewAthlete);
- if(!shooter)throw new Error('Live layup shooter missing after match reset');
+ const match=game.state;
+ // Reset starts a fresh default lineup; bring the reviewed athlete back into
+ // the active five before capturing the live release path.
+ if(!match.players.some(candidate=>candidate.id===previewAthlete)){
+  const {substitutePlayer}=await import(pathToFileURL(root+'/src/core/simulation.js'));
+  const previousPhase=match.phase;match.phase='break';
+  if(!substitutePlayer(match,0))throw new Error('Cannot restore preview athlete after live match reset: '+previewAthlete);
+  match.phase=previousPhase;
+ }
+ const shooter=match.players.find(candidate=>candidate.id===previewAthlete);
+ if(!shooter)throw new Error('Live layup shooter missing after lineup restoration');
  const team=facing>0?0:1;shooter.team=team;for(const other of match.players)if(other!==shooter)other.team=1-team;
  match.possession=team;match.practice=true;match.pause=false;match.phase='playing';match.clock=180;match.shotClock=24;match.scorePause=0;
  shooter.x=facing>0?170:30;shooter.y=50;shooter.facing=facing;shooter.z=0;shooter.vz=0;shooter.hasBall=true;shooter.animation={clip,tick:0,action:{kind:'shot',charge:0},jump:true};shooter.anim='shoot';

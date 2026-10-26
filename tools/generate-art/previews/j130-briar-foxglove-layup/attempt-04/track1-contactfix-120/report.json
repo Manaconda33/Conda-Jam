@@ -1,0 +1,370 @@
+{
+  "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+  "cameraZoom": 120,
+  "loadedImages": 178,
+  "matchPlayers": [
+    "briar-foxglove"
+  ],
+  "previews": [
+    "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/left-layup.png",
+    "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/right-layup.png"
+  ],
+  "previewFrames": [
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/left-layup.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "tick": 10,
+      "facing": 1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/right-layup.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "tick": 10,
+      "facing": -1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    }
+  ],
+  "actionFramePreviews": [
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/left-layup-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 0,
+      "tick": 0,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "sourceRect": [
+        0,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/left-layup-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 1,
+      "tick": 2,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "sourceRect": [
+        72,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/left-layup-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 2,
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "sourceRect": [
+        144,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/left-layup-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 3,
+      "tick": 8,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "sourceRect": [
+        216,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/left-layup-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 4,
+      "tick": 10,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "sourceRect": [
+        0,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/right-layup-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 0,
+      "tick": 0,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "sourceRect": [
+        0,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/right-layup-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 1,
+      "tick": 2,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "sourceRect": [
+        72,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/right-layup-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 2,
+      "tick": 5,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "sourceRect": [
+        144,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/right-layup-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 3,
+      "tick": 8,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "sourceRect": [
+        216,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/right-layup-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 4,
+      "tick": 10,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "sourceRect": [
+        0,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/right-layup-pre-release-tick9.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "tick": 9,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "last carried tick before release"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/right-layup-release-tick10.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "tick": 10,
+      "facing": 1,
+      "production": true,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null,
+      "reviewPoint": "release anchor"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/left-layup-pre-release-tick9.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "tick": 9,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "last carried tick before release"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/left-layup-release-tick10.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "tick": 10,
+      "facing": -1,
+      "production": true,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null,
+      "reviewPoint": "release anchor"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/right-layup-pre-release-tick9.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 3,
+      "tick": 9,
+      "facing": 1,
+      "production": true,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "last carried tick before release"
+    },
+    {
+      "path": "/workspace/Conda-Jam/tools/generate-art/previews/j130-briar-foxglove-layup/attempt-04/track1-contactfix-120/left-layup-pre-release-tick9.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup",
+      "frame": 3,
+      "tick": 9,
+      "facing": -1,
+      "production": true,
+      "source": "./tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-04/diagnostic-atlas.png",
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "last carried tick before release"
+    }
+  ],
+  "passContactCaptures": [],
+  "liveShotCaptures": []
+}
