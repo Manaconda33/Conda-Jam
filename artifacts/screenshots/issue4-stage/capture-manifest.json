@@ -1,47 +1,133 @@
 {
-  "capturedAt": "2026-10-26T12:14:59.260Z",
+  "capturedAt": "2026-10-26T15:57:51.439Z",
   "browserVersion": "154.0.8037.57",
   "viewport": {
     "landscape": "1200x900 canvas native480x360",
     "portrait": "390x844"
   },
   "stagePreview": true,
-  "stageRevision": 6,
+  "stageRevision": 10,
+  "courtProjection": {
+    "floorTop": 126,
+    "floorHeight": 234,
+    "floorHeightPercent": 65,
+    "northSouthShearPixels": 240,
+    "viewDirection": "locked to the current attack direction for the complete camera pan",
+    "standingHeightsPercent": {
+      "far": 27.236299999999996,
+      "mid": 29.83023333333333,
+      "near": 32.424166666666665
+    }
+  },
   "hoopGeometry": {
-    "rimDiameterPixels": 42.504000000000005,
+    "rimWorldRadius": 4.2,
     "baselineOffsetsWorld": {
-      "rim": 8,
-      "board": 4.5,
-      "baseBeyond": 13.5
+      "rim": 4.4,
+      "board": 2,
+      "baseBeyond": 12
     },
-    "supportDepthY": 78,
+    "supportDepthY": 60,
     "measurements": {
       "left": {
-        "rimCenterPercent": 29.464893617021275,
-        "rimEdgeBaselineGapPixels": 15.995999999999967,
-        "boardWidthPercent": 13.071666666666665,
-        "assemblyWidthPercent": 30.63769290780142,
-        "assemblyHeightPercent": 56.43468444444445,
+        "rimCenterPercent": 28.88289361702128,
+        "rimEdgeBaselineGapPixels": -1.5564326585284363,
+        "rimDiameterPixels": 44.04974202983085,
+        "boardWidthPercent": 12.634702127659576,
+        "boardBaselineAngleErrorDegrees": 0,
+        "boardScreenBounds": {
+          "left": 97.14020425531916,
+          "right": 157.78677446808513,
+          "top": 66.37099999999997,
+          "bottom": 164.18099999999995
+        },
+        "assemblyWidthPercent": 31.996619594198634,
+        "assemblyHeightPercent": 61.79113111111112,
         "baseWorld": {
-          "x": -13.5,
-          "y": 78
+          "x": -6,
+          "y": 60,
+          "outerX": -12
+        },
+        "baseScreenBounds": {
+          "left": 7.061024680851105,
+          "right": 123.10222978723407,
+          "top": 231.311232,
+          "bottom": 288.819072
         },
         "baseVisible": true
       },
       "right": {
-        "rimCenterPercent": 70.53510638297873,
-        "rimEdgeBaselineGapPixels": 15.995999999999924,
-        "boardWidthPercent": 13.071666666666665,
-        "assemblyWidthPercent": 30.637692907801423,
-        "assemblyHeightPercent": 56.43468444444445,
+        "rimCenterPercent": 71.11710638297872,
+        "rimEdgeBaselineGapPixels": -1.556432658528422,
+        "rimDiameterPixels": 44.04974202983095,
+        "boardWidthPercent": 12.63470212765957,
+        "boardBaselineAngleErrorDegrees": 0,
+        "boardScreenBounds": {
+          "left": 322.2132255319149,
+          "right": 382.8597957446808,
+          "top": 66.37099999999997,
+          "bottom": 164.18099999999995
+        },
+        "assemblyWidthPercent": 31.99661959419867,
+        "assemblyHeightPercent": 61.79113111111112,
         "baseWorld": {
-          "x": 213.5,
-          "y": 78
+          "x": 206,
+          "y": 60,
+          "outerX": 212
+        },
+        "baseScreenBounds": {
+          "left": 356.8977702127659,
+          "right": 472.93897531914894,
+          "top": 231.311232,
+          "bottom": 288.819072
         },
         "baseVisible": true
       }
     }
   },
+  "actionProjection": {
+    "actorElevationPixelsPerWorld": 20,
+    "dunkCaptureLiftPixels": 100,
+    "attackZoomAtApex": 1.08,
+    "attackPanAtApex": 22
+  },
+  "cameraSequence": [
+    {
+      "name": "e-dunk-approach",
+      "cameraXBefore": 101.5,
+      "cameraXAfter": 128.7,
+      "playerX": 150,
+      "playerZ": 0,
+      "clip": "dunk-power",
+      "tick": 3
+    },
+    {
+      "name": "f-dunk-launch",
+      "cameraXBefore": 128.7,
+      "cameraXAfter": 155.9,
+      "playerX": 168,
+      "playerZ": 2,
+      "clip": "dunk-power",
+      "tick": 8
+    },
+    {
+      "name": "g-dunk-apex",
+      "cameraXBefore": 155.9,
+      "cameraXAfter": 172.114,
+      "playerX": 178,
+      "playerZ": 5,
+      "clip": "dunk-power",
+      "tick": 14
+    },
+    {
+      "name": "h-dunk-recovery",
+      "cameraXBefore": 172.114,
+      "cameraXAfter": 173.688,
+      "playerX": 174,
+      "playerZ": 1,
+      "clip": "dunk-power",
+      "tick": 20
+    }
+  ],
   "gameplayArt": "generated-full-roster-atlases",
   "stagedFrames": true,
   "gameplayFootage": false,
@@ -131,7 +217,7 @@
         "player": "reed-ashcroft",
         "x": 178,
         "y": 72,
-        "z": 2.4,
+        "z": 5,
         "facing": 1,
         "clip": "dunk-power",
         "tick": 14,
@@ -172,7 +258,7 @@
             "id": "reed-ashcroft",
             "x": 178,
             "y": 72,
-            "z": 2.4,
+            "z": 5,
             "facing": 1,
             "clip": "dunk-power",
             "tick": 14
@@ -200,7 +286,7 @@
           "mode": "carried",
           "x": 186.04,
           "y": 72,
-          "z": 4.563,
+          "z": 7.163,
           "ownerId": "reed-ashcroft"
         }
       }
@@ -361,6 +447,94 @@
           "z": 0,
           "ownerId": "reed-ashcroft"
         }
+      }
+    },
+    "e-dunk-approach": {
+      "scene": {
+        "player": "reed-ashcroft",
+        "x": 150,
+        "y": 72,
+        "z": 0,
+        "facing": 1,
+        "clip": "dunk-power",
+        "tick": 3,
+        "carried": true,
+        "ballDx": 8.040000000000001,
+        "ballDz": 0.9575
+      },
+      "camera": {
+        "cameraXBefore": 101.5,
+        "cameraXAfter": 128.7,
+        "playerX": 150,
+        "playerZ": 0,
+        "clip": "dunk-power",
+        "tick": 3
+      }
+    },
+    "f-dunk-launch": {
+      "scene": {
+        "player": "reed-ashcroft",
+        "x": 168,
+        "y": 72,
+        "z": 2,
+        "facing": 1,
+        "clip": "dunk-power",
+        "tick": 8,
+        "carried": true,
+        "ballDx": 9.867,
+        "ballDz": 1.6320000000000001
+      },
+      "camera": {
+        "cameraXBefore": 128.7,
+        "cameraXAfter": 155.9,
+        "playerX": 168,
+        "playerZ": 2,
+        "clip": "dunk-power",
+        "tick": 8
+      }
+    },
+    "g-dunk-apex": {
+      "scene": {
+        "player": "reed-ashcroft",
+        "x": 178,
+        "y": 72,
+        "z": 5,
+        "facing": 1,
+        "clip": "dunk-power",
+        "tick": 14,
+        "carried": true,
+        "ballDx": 8.04,
+        "ballDz": 2.163
+      },
+      "camera": {
+        "cameraXBefore": 155.9,
+        "cameraXAfter": 172.114,
+        "playerX": 178,
+        "playerZ": 5,
+        "clip": "dunk-power",
+        "tick": 14
+      }
+    },
+    "h-dunk-recovery": {
+      "scene": {
+        "player": "reed-ashcroft",
+        "x": 174,
+        "y": 72,
+        "z": 1,
+        "facing": 1,
+        "clip": "dunk-power",
+        "tick": 20,
+        "carried": true,
+        "ballDx": 13.339,
+        "ballDz": 2.2785
+      },
+      "camera": {
+        "cameraXBefore": 172.114,
+        "cameraXAfter": 173.688,
+        "playerX": 174,
+        "playerZ": 1,
+        "clip": "dunk-power",
+        "tick": 20
       }
     }
   }

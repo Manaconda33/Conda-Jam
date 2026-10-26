@@ -1,11 +1,10 @@
-## Continuation checkpoint — 2026-10-26 (Issue #4 hoop projection revision)
+## Continuation checkpoint — 2026-10-26 (Issue #4 landscape hoop revision 10)
 
-- Revised the opt-in stage hoop against the authoritative Issue #4 assembly targets. Revision 6 keeps the rim at 42.5px / 0.40 of a standing player, places its edge 16px inside the endline, and lets the 13.1%-wide backboard overlap the line. The base is 13.5 world units beyond the baseline at near-apron depth Y=78, fully off court and visible. Full assembly measures 30.6% W × 56.4% H; attack rim centers are 29.5% / 70.5%.
-- Both mirrored captures show the base outside court, board/rim at the endline, and dunk ball/fingertips meeting. The 4-capture manifest records measured geometry. The left release keeps the ball at Reed’s authored wrist and all four athletes inside frame.
-- Current and prior screenshots, manifests, and captures are preserved under `artifacts/screenshots/issue4-stage/`; revisions 1–5 remain in `baseline-v1/` through `baseline-v5/`. Capture driver: `tools/capture-issue4-stage.mjs`. Review gallery: https://jamverse-stage-review-20261026.manaconda2433.chatgpt.site/ (private Sites version `appgver_762ae380645c8191a8d79b1fb7fa7a98`, source `bc7fed05fb211dc21ecd418bab7b551b1bbcdb9c`).
-- `npm test` passed 495 tests; Chromium E2E, lint, content validation (35/105), league simulation (100 games), build, and 13 focused stage/camera/shot-track tests passed. The new four-frame Chromium capture has zero page errors.
-- The stage renderer remains opt-in with `?stagePreview=1`. No sprite frames or scoring logic changed; Reed’s shared athlete-specific shot ball track matches his authored release hand and affects his gameplay release positioning. Landscape now meets the Issue #4 numeric slice targets. Portrait remains a 32.3% letterboxed baseline below its 55% target; portrait work remains gated on owner approval of this slice. Production Pages remains `513e0a59` / run #169; no production deployment was made.
-- Animation roster/audit remains unchanged. User-owned untracked J.106 helper remains untouched.
+- Revision 10 is ready for owner review in the separate review gallery, version 6 (`appgver_3baedc45398c819187215b2740ee6576`, source `a73ca581cb3f6cbb421fde98dd30fc87cb9a9945`). The renderer remains opt-in at `?stagePreview=1`; production Pages was not changed.
+- The 65% north–south floor band preserves standing athlete scale. The board projects 12.63% of viewport width and is aligned with the endline; the 44.05px rim edge crosses that line by about 1.56px. The full assembly measures 32.0% W × 61.8% H. Both 12-world-unit off-court bases remain fully visible.
+- Four dunk frames record camera follow from x=101.5 through 128.7 / 155.9 / 172.1 to 173.7 on recovery while the attacker moves x=150→168→178→174. The separate authored ball track and elevated pose remain aligned. Eight deterministic Chromium captures have no page errors.
+- Focused stage projection tests pass 10/10; broader validation and latest gallery version are tracked in `docs/QA_REPORT.md` and `docs/ISSUE_4_STAGE_PREVIEW.md`. Portrait remains letterboxed at 32.3% screen height versus its 55% target. Issue #4 remains PARTIAL and is not accepted.
+- No animation art or registrations changed. Preserve the user-owned untracked J.106 helper. Production Pages remains at the prior documented `513e0a59` / run #169 checkpoint; no production deployment was made.
 
 ## Continuation checkpoint — 2026-10-26 (J.130 Briar `layup` source attempts)
 
