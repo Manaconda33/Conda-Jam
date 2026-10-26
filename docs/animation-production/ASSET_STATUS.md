@@ -2,6 +2,8 @@
 
 ImageGen availability check at 2026-10-26 01:24 UTC: HTTP429 persists, with 42,683 seconds (~11h51m) until the tool-reported reset; no image was produced by the confirmation attempt.
 
+Prepared read-only source diagnostics at `tools/generate-art/review-j130-briar-layup-source.py`; sampled against rejected retry27, with matching recorded hash and figure-height metric. The helper does not accept or modify art.
+
 Issue #3 remains in progress. Report-only audit `2026-10-25T19:53:37.775Z` inspects **824 registered clips /7,463 authored drawings** across **105 athletes**. It reports **2,279 missing clips**, one below-target clip (Luca Velori run), and4 inherited prompt-not-verbatim findings. Full target:30,765 drawings across3,045 clips; minimum29,190.
 
 Piper Quickstep remains **29/29 clips /293 authored drawings** through J.124. Briar Foxglove is now **11/29 clips /79 authored drawings** through integrated J.129 `pickup`. The accepted five-pose sheet is derived from five unique generation sources; original source collision and all rejects are preserved with exact prompts, raw PNGs, hashes, measurements and reviews. Source SHA-256 `8a43b2067d18b5cf158b74ace3804ce0c3d4d9371c29c1db86f1879aef96e95c`; atlas SHA-256 `18c153b02626d6329e3f0a379bce4561e3992278a47ff1ef0e43272f1e705e77`. The source is ball-free and has at least136px safe margins. Briar’s separate track H `[0.9,0.6,0.3,0,0.65]` / F `[7,11,16,20,10]` has independent native review at100%/120%, both facings; frame3/tick7 is the floor-level grab.
