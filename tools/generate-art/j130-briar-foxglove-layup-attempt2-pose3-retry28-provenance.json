@@ -1,0 +1,23 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry28",
+  "operation": "single-pose source generation request; blocked before generation",
+  "generationTool": "image_gen.imagegen",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry28-prompt.md",
+  "requestSubmitted": true,
+  "generationId": null,
+  "outputHint": null,
+  "originalGeneratedPath": null,
+  "source": null,
+  "sourceSha256": null,
+  "preview": null,
+  "failure": {
+    "httpStatus": 429,
+    "type": "usage_limit_reached",
+    "message": "The usage limit has been reached",
+    "planType": "plus",
+    "resetsAtEpoch": 1793020551,
+    "resetsInSecondsAtFailure": 47533,
+    "limitWindowMinutes": 1440
+  },
+  "disposition": "BLOCKED; no image was generated or attributed. Do not infer an image ID, source, hash, preview, or review measurements."
+}
