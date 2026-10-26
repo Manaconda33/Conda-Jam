@@ -1,0 +1,108 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry28",
+  "operation": "single-pose source generation",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-d426fc9c-edac-4a12-9b59-efb73039447d",
+  "outputHint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-d426fc9c-edac-4a12-9b59-efb73039447d.png by default. If you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.",
+  "originalGeneratedPath": "/workspace/generated_images/exec-d426fc9c-edac-4a12-9b59-efb73039447d.png",
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry28-prompt.md",
+  "sourcePath": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry28-raw.png",
+  "sourceSha256": "c0de735230b2368356b2aa4bae3921b900e6736ff98e737d5635bd55c5404b1c",
+  "decodedRgbaPixelSha256": "fa1da9ef24fc4e37ea13e232474492d481122dbc7f671473583bddbc8aa99132",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "thresholdMetrics": {
+    "1": {
+      "bboxLTRBExclusive": [
+        111,
+        182,
+        1216,
+        1198
+      ],
+      "marginsLTRB": [
+        111,
+        182,
+        38,
+        56
+      ],
+      "figureHeightFraction": 0.8102073365,
+      "figureWidthFraction": 0.8811802233,
+      "pixelCount": 143569
+    },
+    "8": {
+      "bboxLTRBExclusive": [
+        467,
+        265,
+        907,
+        1024
+      ],
+      "marginsLTRB": [
+        467,
+        265,
+        347,
+        230
+      ],
+      "figureHeightFraction": 0.6052631579,
+      "figureWidthFraction": 0.350877193,
+      "pixelCount": 129777
+    },
+    "64": {
+      "bboxLTRBExclusive": [
+        467,
+        267,
+        906,
+        1022
+      ],
+      "marginsLTRB": [
+        467,
+        267,
+        348,
+        232
+      ],
+      "figureHeightFraction": 0.6020733652,
+      "figureWidthFraction": 0.3500797448,
+      "pixelCount": 126056
+    },
+    "128": {
+      "bboxLTRBExclusive": [
+        468,
+        267,
+        906,
+        1022
+      ],
+      "marginsLTRB": [
+        468,
+        267,
+        348,
+        232
+      ],
+      "figureHeightFraction": 0.6020733652,
+      "figureWidthFraction": 0.3492822967,
+      "pixelCount": 124502
+    }
+  },
+  "skinCandidatePixelCount": 79078,
+  "skinCandidateRgbMedian": [
+    155,
+    66,
+    28
+  ],
+  "skinTargetRgbMedian": [
+    145,
+    70,
+    39
+  ],
+  "previewPath": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry28-light-dark-review.png",
+  "references": [],
+  "cleanup": null,
+  "packing": null,
+  "registration": null,
+  "disposition": "REJECT; preserve untouched source and evidence."
+}

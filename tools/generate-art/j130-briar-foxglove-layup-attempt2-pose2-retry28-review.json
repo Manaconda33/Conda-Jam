@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry28",
+  "decision": "REJECT",
+  "generationId": "exec-d426fc9c-edac-4a12-9b59-efb73039447d",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry28-raw.png",
+  "sourceSha256": "c0de735230b2368356b2aa4bae3921b900e6736ff98e737d5635bd55c5404b1c",
+  "decodedRgbaPixelSha256": "fa1da9ef24fc4e37ea13e232474492d481122dbc7f671473583bddbc8aa99132",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry28-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry28-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PARTIAL: recognizable adult human Briar with dark shoulder locs, red headband, russet/cream kit and cream trainers; one visible pair of arms/hands and legs/shoes, no fox traits, crop, or ball. Skin rendering reads brighter/oranger than the accepted deep-brown reference; detailed pose anatomy is not accepted due to failed placement criteria.",
+    "pose": "FAIL: airborne rising pose with lifted knee and folded rear leg is legible, but the upright shooting hand is directly beside/in front of the nose and mouth region. Fingertips are not clearly below the chin/lower lip with the required transparent facial gap.",
+    "palette": "FAIL: broad skin-color pixel sample median RGB [155, 66, 28] (candidate mask 79078 pixels), visibly orange/copper relative to accepted target median (145,70,39), shadow (85,35,17), highlight (193,114,70).",
+    "transparency": "FAIL: file is RGBA with alpha range 0..255, but alpha>=1 bounds are [111, 182, 1216, 1198]; faint fringe pixels approach left/right/bottom edges, reducing dependable transparent clearance.",
+    "cellMarginsAndScale": "FAIL: alpha>=64 bounds [467, 267, 906, 1022] give margins [467, 267, 348, 232] px (L/T/R/B) and figure height 60.21%; required 32\u201334% height and >=34% margin on each edge.",
+    "uniqueness": "NOT CHECKED against all same-task sources; preserved raw hash for later deduplication.",
+    "ball": "PASS: no basketball visible or baked into the sprite; Briar\u2019s ball remains on a separate athlete-specific track."
+  },
+  "reason": "Reject unchanged for the raised hand occupying nose/mouth height without a clear gap below chin, orange skin relative to Briar palette, figure far above target scale, edge-near alpha fringe, and insufficient canvas clearances. No cleanup, recoloring, rescaling, packing, registration, or acceptance."
+}
