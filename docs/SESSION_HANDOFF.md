@@ -4,7 +4,7 @@ Issue #4’s opt-in Chicago Condas vs Crownfire stage now has revision 2 hoop ge
 
 Review captures and the original baseline are preserved under `artifacts/screenshots/issue4-stage/`. The private screenshot gallery is https://jamverse-stage-review-20261026.manaconda2433.chatgpt.site/; this is a separate Sites project and did not change production Pages. Capture manifest records four Chromium 154 frames and no page errors.
 
-Validation: 494 tests, Chromium E2E, lint (19 modules), roster validation (35 franchises / 105 athletes), 100-match simulation, build, and 12 focused stage/camera tests passed. Renderer changes remain gated by `?stagePreview=1`; gameplay/simulation and animation registrations are unchanged. Portrait stays at the 32.3% letterboxed baseline below its 55% target. Issue #4 is not accepted. Production Pages remains `513e0a59` / run #169.
+Validation: 495 tests, Chromium E2E, lint (19 modules), roster validation (35 franchises / 105 athletes), 100-match simulation, build, and 13 focused stage/camera/shot-track tests passed. The hoop renderer remains gated by `?stagePreview=1`; scoring logic and sprite registrations are unchanged. Reed’s shared shoot ball track now aligns his gameplay release position with the authored hand. Portrait stays at the 32.3% letterboxed baseline below its 55% target. Issue #4 is not accepted. Production Pages remains `513e0a59` / run #169.
 
 ## Continuation checkpoint — 2026-10-26 (J.130 Briar `layup` source attempts)
 

@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-26T03:53:13.223Z",
+  "capturedAt": "2026-10-26T03:57:13.686Z",
   "browserVersion": "154.0.8037.57",
   "viewport": {
     "landscape": "1200x900 canvas native480x360",
@@ -179,7 +179,6 @@
         "clip": "shoot",
         "tick": 13,
         "carried": false,
-        "ballDx": 11.5,
         "ballY": 63,
         "ballZ": 8.133333333333336,
         "ballVx": -0.15,
@@ -199,7 +198,8 @@
             75,
             45
           ]
-        ]
+        ],
+        "ballX": 21.5
       },
       "previewFlag": "true",
       "state": {

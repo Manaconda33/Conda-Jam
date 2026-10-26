@@ -795,6 +795,9 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   // gather to the upper-chest clasp; H/F values passed both facings at100%/120%.
   'alley-oop-reverse':{height:[1.05,1.2,1.6,1.85,2.1,1.8,1.45,2.0,1.75,1.95,2.1,1.8,1.2,.75,.6],forward:[5,7,8,7,4,4,1,-3,-5,-7,-7,-5,-2,1,3]}
 },'reed-ashcroft':{
+  // The separate ball follows Reed's broad right-hand set and release. At
+  // frame 5 / tick 13, the 11.5-unit forward offset meets the authored wrist.
+  shoot:{forward:[5,7,8,10,12,11.5,13,10,8,6]},
   // Reed's new 112x96 chest-pass sheet extends both arms well beyond his
   // torso; frame 3 is the authored release hand, not the shared torso offset.
   pass:{height:[.9,1.2,1.45,1.5,1.45,.95],forward:[8,7.5,12.5,18,17.5,9]},
