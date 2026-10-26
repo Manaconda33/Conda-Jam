@@ -60,6 +60,17 @@ const state=game.state;state.lastEvent='';state.pause=false;state.phase='playing
 const p=state.players.find(p=>p.id===previewAthlete);
 if(!p)throw new Error('Preview athlete is not in the active lineup: '+previewAthlete);
 const {animationAssetManifest}=await import(pathToFileURL(root+'/src/content/animation-assets.js'));
+// Optional process-local candidate atlas and ball-track override for unregistered reviews.
+let candidateReview=null,candidateImage=null;
+if(process.env.JAMVERSE_PREVIEW_CANDIDATE){
+ candidateReview=JSON.parse(await readFile(path.resolve(root,process.env.JAMVERSE_PREVIEW_CANDIDATE),'utf8'));
+ const candidateSource=candidateReview.src.startsWith('./')?candidateReview.src:'./'+candidateReview.src;
+ const character=animationAssetManifest.characters[candidateReview.athlete]??=( {directions:{}} );
+ const frames=candidateReview.frames.map(frame=>({...frame}));
+ for(const facing of ['right','left'])character.directions[facing]={...(character.directions[facing]??{}),layup:{src:candidateSource,frames,reviewed:true}};
+ candidateImage=new BrowserImage();candidateImage.src=candidateSource;
+ if(!candidateImage.complete)await new Promise((resolve,reject)=>{candidateImage.addEventListener('load',resolve);candidateImage.onerror=reject});
+}
 // Asset reviewers can inspect a provisional manifest entry without marking it
 // approved in the checked-in manifest. This override is process-local only.
 if(process.env.JAMVERSE_PREVIEW_UNREVIEWED==='1'){
@@ -70,6 +81,10 @@ if(process.env.JAMVERSE_PREVIEW_UNREVIEWED==='1'){
   if(character?.mirrorSafe===true&&character?.mirrorReview?.notes)character.mirrorReview.status='reviewed';
 }
 const previewImages=new Map(images.map(image=>[image.file,image]));
+if(candidateImage)previewImages.set(candidateImage.file,candidateImage);
+const previewBallHeight=(clip,tick,athlete)=>candidateReview&&athlete===candidateReview.athlete&&clip==='layup'?candidateTrackAt(candidateReview.height,tick,clip):sampleBallHeight(clip,tick,athlete);
+const previewBallForward=(clip,tick,athlete)=>candidateReview&&athlete===candidateReview.athlete&&clip==='layup'?candidateTrackAt(candidateReview.forward,tick,clip):sampleBallForward(clip,tick,athlete);
+function candidateTrackAt(values,tick,clip){let cursor=0;for(let frame=0;frame<animationClips[clip].frames.length;frame++){const duration=animationClips[clip].frames[frame].duration;if(tick<cursor+duration){const next=Math.min(frame+1,values.length-1),u=Math.max(0,(tick-cursor)/duration);return values[frame]+(values[next]-values[frame])*u;}cursor+=duration;}return values.at(-1);}
 const previews=[],previewFrames=[],clips=Object.keys(animationClips),passContactCaptures=[];
 const onlyPreviewClips=new Set((process.env.JAMVERSE_PREVIEW_CLIPS??'').split(',').map(x=>x.trim()).filter(Boolean));
 const shouldPreview=clip=>onlyPreviewClips.size===0||onlyPreviewClips.has(clip);
@@ -102,6 +117,7 @@ for(const clip of ['idle-ball','dribble','dribble-run'].filter(shouldPreview))fo
  tick+=animationClips[clip].frames[frame].duration;
 }
 for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','pickup','block','push','rebound','steal','layup','layup-reverse','fall','celebrate'].filter(shouldPreview))for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
+ if(candidateReview&&clip==='layup'&&frame>(candidateReview.renderThroughFrame??7)){tick+=animationClips[clip].frames[frame].duration;continue;}
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};
  if(clip==='dunk-power'){
@@ -119,8 +135,8 @@ for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','picku
  const caught=!clip.startsWith('alley-oop-')||tick>=catchTick;
  const releasedAerial=aerial&&tick>=anchorTick(clip,'release');
  p.hasBall=(clip==='pickup'?tick>=anchorTick('pickup','grab'):clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&caught&&!releasedPass&&!releasedShot&&!releasedAerial;
- const ballHeight=p.hasBall||releasedPass||releasedAerial?sampleBallHeight(clip,tick,p.id)+p.z:releasedShot?flightHeightFromHand(sampleBallHeight(clip,tick,p.id),p.z):0;
- Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:ballHeight,mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':releasedAerial?'dunk':clip.startsWith('alley-oop-')?'pass':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
+ const ballHeight=p.hasBall||releasedPass||releasedAerial?previewBallHeight(clip,tick,p.id)+p.z:releasedShot?flightHeightFromHand(previewBallHeight(clip,tick,p.id),p.z):0;
+ Object.assign(state.ball,{x:p.x+p.facing*previewBallForward(clip,tick,p.id),y:p.y,z:ballHeight,mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':releasedAerial?'dunk':clip.startsWith('alley-oop-')?'pass':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
  game.tick(0);
  const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
  const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});
@@ -139,6 +155,16 @@ for(const clip of ['pass','pass-overhead','pass-behind'].filter(shouldPreview))f
  const position=facing>0?'left':'right',path=out+'/'+position+'-'+clip+'-pre-release-tick'+tick+'.png';
  await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
  passContactCaptures.push({path,athlete:p.id,clip,tick,facing,production:Boolean(selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages})),source:animationAssetManifest.characters?.[p.id]?.directions?.right?.[clip]?.src??null,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:'last carried tick before pass release'});
+}
+if(candidateReview&&shouldPreview('layup'))for(const facing of [1,-1])for(const tick of [9,10]){
+ for(const player of state.players){player.x=142+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
+ p.x=142;p.y=50;p.z=tick<=anchorTick('layup','takeoff')||tick>=anchorTick('layup','finish')?0:2*Math.sin((tick-anchorTick('layup','takeoff'))/(anchorTick('layup','peak')-anchorTick('layup','takeoff'))*Math.PI/2);p.facing=facing;p.animation={clip:'layup',tick};p.hasBall=tick<anchorTick('layup','release');
+ const released=tick>=anchorTick('layup','release'),height=p.hasBall?p.z+previewBallHeight('layup',tick,p.id):flightHeightFromHand(previewBallHeight('layup',tick,p.id),p.z);
+ Object.assign(state.ball,{x:p.x+facing*previewBallForward('layup',tick,p.id),y:p.y,z:height,mode:p.hasBall?'carried':'shot',ownerId:p.hasBall?p.id:null});
+ game.tick(0);
+ const position=facing>0?'right':'left',label=tick===9?'pre-release-tick9':'release-tick10',path=out+'/'+position+'-layup-'+label+'.png';
+ await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
+ actionFramePreviews.push({path,athlete:p.id,clip:'layup',tick,facing,production:Boolean(selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages})),hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:tick===9?'last carried tick before release':'release anchor'});
 }
 // Capture every Paprika dunk frame with the live renderer in both facings.
 // Keep her on the roster that owns her sprite data; change only facing.
@@ -196,7 +222,7 @@ for(const clip of Object.keys(animationClips).filter(key=>(key.startsWith('dunk-
 // Capture real simulation shot trajectories, including release physics, for
 // both layup families and their athlete-specific carry tracks.
 const liveShotCaptures=[];
-for(const clip of ['layup','layup-reverse'].filter(shouldPreview))for(const facing of [1,-1]){
+for(const clip of (candidateReview?[]:['layup','layup-reverse']).filter(shouldPreview))for(const facing of [1,-1]){
  game.start(home.id,game.teams.find(t=>t.id!==home.id).id,180,3);
  const match=game.state,shooter=match.players.find(candidate=>candidate.id===previewAthlete);
  if(!shooter)throw new Error('Live layup shooter missing after match reset');
