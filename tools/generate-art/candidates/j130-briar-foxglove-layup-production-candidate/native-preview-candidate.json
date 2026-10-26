@@ -1,0 +1,76 @@
+{
+  "athlete": "briar-foxglove",
+  "src": "tools/generate-art/candidates/j130-briar-foxglove-layup-production-candidate/briar-foxglove-layup-8x-packed-candidate.png",
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 72,
+      "y": 0,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 144,
+      "y": 0,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 216,
+      "y": 0,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 0,
+      "y": 95,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 72,
+      "y": 95,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 144,
+      "y": 95,
+      "w": 72,
+      "h": 95
+    },
+    {
+      "x": 216,
+      "y": 95,
+      "w": 72,
+      "h": 95
+    }
+  ],
+  "renderThroughFrame": 4,
+  "height": [
+    1.136218,
+    1.635045,
+    1.829033,
+    2.050734,
+    2.21701
+  ],
+  "forward": [
+    6.306216,
+    5.651797,
+    3.157357,
+    3.93926,
+    7.100867
+  ],
+  "status": "review-only candidate packed from existing source inputs; not accepted production art",
+  "scaleFormula": "(baselineY - sourceY) * 0.804 / 28; (sourceX - cellCenterX) * 0.804 / 2.2",
+  "cellWH": [
+    72,
+    95
+  ],
+  "baselineY": 89
+}
