@@ -1,0 +1,21 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame4 retry24",
+  "decision": "REJECT",
+  "generationId": "exec-c46acc0f-276b-4780-b170-02a1a2ddf8d6",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry24-raw.png",
+  "sourceSha256": "f7e8463c5759a48151f8370e8fef56da59364aff3e51c63ec1242b358951d252",
+  "decodedRgbaPixelSha256": "0f98c1452f03642b01f95ff7f1203055616d3d40f71813a3e7c83bb45ccbd7d5",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry24-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry24-light-dark-review.png",
+  "checks": {
+    "pose": "PASS at broad single-pose level: high-forward shooting arm, open guide hand away from face, raised lead knee and folded trailing leg read as a peak/release layup. Sequence separation cannot be reviewed from a single pose.",
+    "identityAnatomy": "PARTIAL: recognizable adult human with shoulder-length dark locs, vivid red headband, russet/cream kit and cream-dominant trainers; two arms/hands and two legs/shoes, no fox traits, ball or crop.",
+    "palette": "FAIL: exposed skin reads medium copper/orange and lighter than Briar's canonical deep warm-brown palette.",
+    "transparency": "PARTIAL/FAIL: genuine RGBA alpha 0..255 and transparent backdrop confirmed on light/dark preview. Threshold-1 residue has201 components and approaches every canvas edge.",
+    "marginsAndScale": "FAIL: alpha>=64 margins L/T/R/B=[419,144,264,239]px; top is11.48%, right21.05%, bottom19.06%, all below32%. Figure height is69.46% versus32–34% requested. Alpha>=1 margins are33/21/26/32px.",
+    "ball": "PASS: no basketball is baked in; keep Briar's ball on its separate athlete-specific track.",
+    "uniqueness": "PASS: decoded pixels are unique across90 raw sources in the duplicate audit; that audit contains two earlier duplicate groups.",
+    "cleanupPacking": "None. Raw remains unchanged; no normalization, packing, registration or acceptance."
+  },
+  "reason": "Reject unchanged for copper/orange skin, 69.46% figure height, insufficient transparent margins and near-edge alpha-1 residue. Do not recolor, clean, normalize, pack or register."
+}

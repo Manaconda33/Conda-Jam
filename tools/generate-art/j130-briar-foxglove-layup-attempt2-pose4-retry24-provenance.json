@@ -1,0 +1,146 @@
+{
+  "issue": "J.130",
+  "athlete": "Briar Foxglove",
+  "clip": "layup",
+  "frame": 4,
+  "tick": 10,
+  "retry": 24,
+  "operation": "single-pose source generation",
+  "generator": "image_gen.imagegen",
+  "generationId": "exec-c46acc0f-276b-4780-b170-02a1a2ddf8d6",
+  "outputHint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-c46acc0f-276b-4780-b170-02a1a2ddf8d6.png by default. If you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it. The generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "originalGeneratedPath": "/workspace/generated_images/exec-c46acc0f-276b-4780-b170-02a1a2ddf8d6.png",
+  "sourcePath": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose4-retry24-raw.png",
+  "sourceSha256": "f7e8463c5759a48151f8370e8fef56da59364aff3e51c63ec1242b358951d252",
+  "decodedRgbaPixelSha256": "0f98c1452f03642b01f95ff7f1203055616d3d40f71813a3e7c83bb45ccbd7d5",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "c2paClaimIdentifier": null,
+  "c2paNote": "No C2PA/EXIF metadata chunks were present in the generated PNG; generation ID and original output path are recorded.",
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose4-retry24-prompt.md",
+  "previewPath": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose4-retry24-light-dark-review.png",
+  "references": [],
+  "alphaMetrics": {
+    "threshold1": {
+      "boundsXYXYExclusive": [
+        33,
+        21,
+        1228,
+        1222
+      ],
+      "marginsLTRB": [
+        33,
+        21,
+        26,
+        32
+      ],
+      "figureHeightFraction": 0.957735,
+      "figureWidthFraction": 0.952951,
+      "connectedComponents8": 201
+    },
+    "threshold8": {
+      "boundsXYXYExclusive": [
+        418,
+        143,
+        990,
+        1015
+      ],
+      "marginsLTRB": [
+        418,
+        143,
+        264,
+        239
+      ],
+      "figureHeightFraction": 0.695375,
+      "figureWidthFraction": 0.45614,
+      "connectedComponents8": 97
+    },
+    "threshold32": {
+      "boundsXYXYExclusive": [
+        418,
+        144,
+        990,
+        1015
+      ],
+      "marginsLTRB": [
+        418,
+        144,
+        264,
+        239
+      ],
+      "figureHeightFraction": 0.694577,
+      "figureWidthFraction": 0.45614,
+      "connectedComponents8": 1
+    },
+    "threshold64": {
+      "boundsXYXYExclusive": [
+        419,
+        144,
+        990,
+        1015
+      ],
+      "marginsLTRB": [
+        419,
+        144,
+        264,
+        239
+      ],
+      "figureHeightFraction": 0.694577,
+      "figureWidthFraction": 0.455343,
+      "connectedComponents8": 1
+    },
+    "threshold128": {
+      "boundsXYXYExclusive": [
+        419,
+        144,
+        989,
+        1015
+      ],
+      "marginsLTRB": [
+        419,
+        144,
+        265,
+        239
+      ],
+      "figureHeightFraction": 0.694577,
+      "figureWidthFraction": 0.454545,
+      "connectedComponents8": 1
+    },
+    "threshold250": {
+      "boundsXYXYExclusive": [
+        421,
+        152,
+        983,
+        1013
+      ],
+      "marginsLTRB": [
+        421,
+        152,
+        271,
+        241
+      ],
+      "figureHeightFraction": 0.686603,
+      "figureWidthFraction": 0.448166,
+      "connectedComponents8": 258
+    }
+  },
+  "decodedPixelDuplicateAudit": {
+    "sourceCount": 90,
+    "duplicateGroupCount": 2,
+    "uniqueAmongProjectSources": true,
+    "auditPath": "tools/generate-art/j130-briar-foxglove-layup-duplicate-source-audit.json"
+  },
+  "ball": "No ball appears; retain Briar’s ball on a separate athlete-specific track.",
+  "cleanup": null,
+  "normalization": null,
+  "packing": null,
+  "registration": null,
+  "disposition": "REJECT; preserve untouched raw source and evidence."
+}
