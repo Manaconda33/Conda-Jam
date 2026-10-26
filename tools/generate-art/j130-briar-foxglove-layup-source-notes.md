@@ -1,3 +1,11 @@
+## Latest J.130 Briar Foxglove layup checkpoint — 2026-10-26 20:45 UTC
+
+Fresh ImageGen availability was confirmed by successful generations at 20:39–20:44 UTC; the earlier 01:24 UTC rate-limit estimate is stale. The combined poses 02–04 triptych attempt 01 is **rejected**: pose 02 was too low at chest level and poses 03–04 repeated an overhead reach. Individual evidence and exact prompts are retained in the J.130 source/review records.
+
+Current roster-order evidence: frame 02 attempt 03 and frame 03 retry 30 remain **provisional**; both independently read as distinct portions of the gather-to-rise motion. Frame 04 retry 29 is rejected for overhead reach, edge residue, and palette; retry 31 passed gesture review provisionally; retry 32 is rejected for an unrequested white chest mark; retry 33 removes that mark and passed independent identity, anatomy, sequence, and contact-posture review provisionally. Retry 33 has a review-only 49×86 fit in 128×96 with 5px top/bottom margins. None of frames 02–04 is accepted or registered: joint normalization and fringe disposition are pending. Frames 00–01 and 05–07 remain provisional as recorded.
+
+No J.130 source sheet, atlas, or athlete-specific layup ball track is accepted. The ball stays separate from the athlete; once the complete eight-pose set is approved, calibrate Briar's own `athleteBallTracks['briar-foxglove'].layup` against hand contact through tick 9 and the release at tick 10, then review standard and 120% native renders in both facings. No runtime/registration change occurred, so the strict registered audit remains 824 clips / 7,463 drawings / 105 athletes, with 2,279 clips missing, one target shortfall, and four inherited prompt findings. The strict audit was not refreshed against this candidate-only work.
+
 # J.130 — Briar Foxglove `layup` source work
 
 Latest ImageGen availability confirmation: frame3 retry29 reused the retained retry28 prompt at 2026-10-26 01:24 UTC and returned HTTP429 usage_limit_reached before generation. The tool reported reset epoch1793020552 and42,683 seconds remaining. Prompt, request flags, failure response and `BLOCKED_NOT_GENERATED` review are preserved in retry29 files; no image ID, raw source, hash, preview or visual measurements exist.
