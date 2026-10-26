@@ -1,0 +1,19 @@
+{
+  "generationId": "exec-8b1e0d13-1df8-46a1-a4b6-ca1a99dfa4e7",
+  "generatedDate": "2026-10-26",
+  "timezone": "UTC",
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-pose-02-attempt-02-prompt.md",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-02-attempt-02-raw.png",
+  "originalToolOutput": "/workspace/generated_images/exec-8b1e0d13-1df8-46a1-a4b6-ca1a99dfa4e7.png",
+  "appearanceReference": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-02-attempt-1.png",
+  "sha256": "3dccf07370d59980a6dd50916632ded7bd481029f2bee2fd07a8a5f4037b709e",
+  "dimensions": [1254, 1254],
+  "format": "PNG RGBA",
+  "review": {
+    "status": "rejected",
+    "reasons": ["figure height 50.2% of canvas vs ~30% target", "low-alpha residue and 13 alpha>=16 components", "opaque-skin median RGB (182,69,28) is too orange/red compared with accepted Briar reference (164,69,30)"],
+    "positive": "Pose2 gather geometry and bare wrists pass visual review.",
+    "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-02/light-dark-review.png",
+    "notRegistered": true
+  }
+}

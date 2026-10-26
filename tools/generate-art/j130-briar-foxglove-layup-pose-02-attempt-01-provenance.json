@@ -1,0 +1,12 @@
+{
+  "generationId": "exec-d4bc2883-a117-4884-a0d8-15d361899112",
+  "generatedDate": "2026-10-26",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-02-attempt-01-raw.png",
+  "sha256": "188c51703e8d2b7644949a02d19caaec20e2c32e47b836246e315785b52a9cb1",
+  "promptFileReferencedByReviewButMissing": "tools/generate-art/j130-briar-foxglove-layup-pose-02-attempt-01-prompt.md",
+  "promptRecoveryStatus": "not present in current GitHub main tree or working copy; exact prompt unavailable; not reconstructed",
+  "reviewFile": "tools/generate-art/j130-briar-foxglove-layup-pose-02-attempt-01-review.md",
+  "status": "rejected",
+  "rejectionReasons": ["unrequested red wristband", "figure height 55.3% vs 27–30% target", "alpha>=1 residue margins fail", "skin appears orange/bronze compared with accepted Briar reference"],
+  "notRegistered": true
+}

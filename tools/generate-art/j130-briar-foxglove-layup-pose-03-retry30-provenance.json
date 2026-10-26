@@ -1,0 +1,34 @@
+{
+  "generationId": "exec-c4baa567-b154-493a-958e-84eff2583af4",
+  "generatedDate": "2026-10-26",
+  "timezone": "UTC",
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-pose-03-retry-prompts.md",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-03-retry30-raw.png",
+  "sha256": "591405edc1978c672a4bad41579196d8977c86271aa039c78a62bebdb4c99a97",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG RGBA",
+  "review": {
+    "status": "provisional-after-independent-review",
+    "boundsAlpha16": [
+      498,
+      325,
+      859,
+      987
+    ],
+    "alpha16ComponentCount": 4,
+    "alpha1Components": 1056,
+    "alpha1TouchesLeftEdge": true,
+    "normalizedCandidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-pose-03-retry30/pose-03-normalized-candidate.png",
+    "layoutFile": "tools/generate-art/j130-briar-foxglove-layup-pose-03-retry30-layout.json",
+    "pending": [
+      "raw alpha>=1 left-edge residue disposition",
+      "final joint source approval",
+      "native ball-contact review"
+    ],
+    "notRegistered": true,
+    "jointReview": "Eight-pose diagnostic reviewed as distinct and anatomically complete; frame3 rises beside face between compressed gather and frame4 release."
+  }
+}

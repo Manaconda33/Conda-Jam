@@ -1,0 +1,48 @@
+{
+  "generationId": "exec-c8e8a17e-02ef-4250-8554-a4eaba0946c1",
+  "generatedDate": "2026-10-26",
+  "timezone": "UTC",
+  "editPromptFile": "tools/generate-art/j130-briar-foxglove-layup-pose-02-attempt-03-edit-prompt.md",
+  "rawSource": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-02-attempt-03-raw.png",
+  "parentGeneration": "exec-8b1e0d13-1df8-46a1-a4b6-ca1a99dfa4e7",
+  "appearanceReference": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-02-attempt-1.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG RGBA",
+  "sha256": "2e215ef50d3c9daf61888dd5bacfc1aa055d4ac71d4bb1627f76cd86cdda392c",
+  "review": {
+    "status": "provisional-after-independent-sequence-review",
+    "pixelEditRequest": "Palette-only correction of attempt02; ImageGen output visually retains pose, anatomy, uniform and bare wrists.",
+    "sourceBoundsAlpha16": [
+      442,
+      307,
+      878,
+      939
+    ],
+    "alpha16ComponentCount": 6,
+    "mainComponentPixelsAlpha16": 114316,
+    "normalizedCandidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-03/pose-02-normalized-candidate.png",
+    "layoutFile": "tools/generate-art/j130-briar-foxglove-layup-pose-02-attempt-03-layout.json",
+    "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-03/normalized-light-dark-review.png",
+    "previewSha256": "b50de89789d917243757b71c6b41ebc1bd72793bb8191b091523f595807a3cce",
+    "skinMedianRgb": [
+      165,
+      60,
+      25
+    ],
+    "referenceSkinMedianRgb": [
+      164,
+      69,
+      30
+    ],
+    "notRegistered": true,
+    "pending": [
+      "final joint scale/margin and source identity approval",
+      "raw alpha-fragment disposition",
+      "native ball-contact review after final source acceptance"
+    ],
+    "independentReview": "Pose2 lower, compact gather; shooting elbow tucked, wrist outside face silhouette, hand near chin; distinct from pose3 rising one-hand motion and pose4 release. Identity/anatomy good. Independent reviewer noted source alpha16 fragments and exactly minimum 5px vertical margins after review crop."
+  }
+}

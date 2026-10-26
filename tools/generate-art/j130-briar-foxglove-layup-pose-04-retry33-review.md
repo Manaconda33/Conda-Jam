@@ -1,0 +1,5 @@
+# J.130 Briar Foxglove layup — pose 04 retry 33 review
+
+Generation `exec-5bb3cf51-709c-4555-9587-b8a4b1044c59`; raw SHA-256 `6bfaf194e2fc5acd935a569978face7cddfc88f8cc3028d3764c404e50ebc77b`.
+
+**Provisional candidate after independent review; not accepted or registered.** This edit follows rejected retry32, using retry31 for pose/identity and accepted J109 shoot pose02 as a direct uniform reference to remove retry32's unauthorized chest square. Raw alpha16 component count is 12; the review-only largest-component diagnostic crop is 49×86, placed at `(39,5)` with margins L/T/R/B `39/5/40/5` and baseline y=91. The original raw is retained. Independent review confirms the chest mark is gone, Briar identity/costume and anatomy are consistent, the pose reads as a forward/up layup release distinct from poses 02–03, and a separate ball can plausibly meet the open palm. Normalized light/dark proof shows no visible fringe. Preserve raw. Still pending joint eight-pose normalization, raw low-alpha component disposition, and separate ball-to-palm calibration with native standard/120% renders in both facings.

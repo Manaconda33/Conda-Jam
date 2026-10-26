@@ -1,0 +1,362 @@
+{
+  "status": "review-only; none of the eight poses accepted or registered",
+  "method": "For each source, select the largest 8-connected alpha>=16 component, set alpha zero outside that component (raw remains untouched), crop, uniformly resample in premultiplied RGBA with Lanczos to 86px height, center in 128x96, align baseline y91. Review-only, not a production atlas.",
+  "layouts": [
+    {
+      "frame": 0,
+      "input": "tools/generate-art/candidates/j130-briar-foxglove-layup-poses01-cleanup-retry1/j130-briar-foxglove-layup-pose0-cleanup-candidate.png",
+      "inputSha256": "e33c80885df99cd2ab08e44077622d4b738bcf6d5d2daa95d44f430118e9a509",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "alpha16ComponentCount": 19,
+      "selectedComponentPixels": 190100,
+      "cropXYXY": [
+        326,
+        222,
+        928,
+        1031
+      ],
+      "cropSize": [
+        602,
+        809
+      ],
+      "scaleTo86px": 0.10630407911001236,
+      "fittedWH": [
+        64,
+        86
+      ],
+      "cellWH": [
+        128,
+        96
+      ],
+      "positionXY": [
+        32,
+        5
+      ],
+      "marginsLTRB": [
+        32,
+        5,
+        32,
+        5
+      ],
+      "baselineY": 91,
+      "normalizedPath": "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-00-review-only-normalized.png",
+      "normalizedSha256": "4479d2324eb9b24d5624fb5de2db57340a91f394fbc13abd4a36ce0b842b1ca5",
+      "method": "Largest 8-connected alpha>=16 component; outside alpha zeroed for diagnostic; premultiplied-RGBA Lanczos to 86px; baseline y91. Raw unchanged."
+    },
+    {
+      "frame": 1,
+      "input": "tools/generate-art/candidates/j130-briar-foxglove-layup-poses01-cleanup-retry1/j130-briar-foxglove-layup-pose1-cleanup-candidate.png",
+      "inputSha256": "39f31e75aec7dcb4448550af2ac4821c42fd1226520cef40ecf916ca10333abd",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "alpha16ComponentCount": 8,
+      "selectedComponentPixels": 157138,
+      "cropXYXY": [
+        367,
+        221,
+        888,
+        1031
+      ],
+      "cropSize": [
+        521,
+        810
+      ],
+      "scaleTo86px": 0.10617283950617284,
+      "fittedWH": [
+        55,
+        86
+      ],
+      "cellWH": [
+        128,
+        96
+      ],
+      "positionXY": [
+        36,
+        5
+      ],
+      "marginsLTRB": [
+        36,
+        5,
+        37,
+        5
+      ],
+      "baselineY": 91,
+      "normalizedPath": "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-01-review-only-normalized.png",
+      "normalizedSha256": "7779dac68d7c587ce6880d22d4868fafdf294f04ab1d23c1d043fdb5de2207ff",
+      "method": "Largest 8-connected alpha>=16 component; outside alpha zeroed for diagnostic; premultiplied-RGBA Lanczos to 86px; baseline y91. Raw unchanged."
+    },
+    {
+      "frame": 2,
+      "input": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-02-attempt-03-raw.png",
+      "inputSha256": "2e215ef50d3c9daf61888dd5bacfc1aa055d4ac71d4bb1627f76cd86cdda392c",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "alpha16ComponentCount": 6,
+      "selectedComponentPixels": 114316,
+      "cropXYXY": [
+        442,
+        307,
+        878,
+        939
+      ],
+      "cropSize": [
+        436,
+        632
+      ],
+      "scaleTo86px": 0.1360759493670886,
+      "fittedWH": [
+        59,
+        86
+      ],
+      "cellWH": [
+        128,
+        96
+      ],
+      "positionXY": [
+        34,
+        5
+      ],
+      "marginsLTRB": [
+        34,
+        5,
+        35,
+        5
+      ],
+      "baselineY": 91,
+      "normalizedPath": "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-02-review-only-normalized.png",
+      "normalizedSha256": "ec3c56d4a7ef9fa04b42e309a3869104bf4a5b77c5dc706a864d53b5af43a849",
+      "method": "Largest 8-connected alpha>=16 component; outside alpha zeroed for diagnostic; premultiplied-RGBA Lanczos to 86px; baseline y91. Raw unchanged."
+    },
+    {
+      "frame": 3,
+      "input": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-03-retry30-raw.png",
+      "inputSha256": "591405edc1978c672a4bad41579196d8977c86271aa039c78a62bebdb4c99a97",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "alpha16ComponentCount": 4,
+      "selectedComponentPixels": 121076,
+      "cropXYXY": [
+        498,
+        325,
+        859,
+        987
+      ],
+      "cropSize": [
+        361,
+        662
+      ],
+      "scaleTo86px": 0.1299093655589124,
+      "fittedWH": [
+        47,
+        86
+      ],
+      "cellWH": [
+        128,
+        96
+      ],
+      "positionXY": [
+        40,
+        5
+      ],
+      "marginsLTRB": [
+        40,
+        5,
+        41,
+        5
+      ],
+      "baselineY": 91,
+      "normalizedPath": "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-03-review-only-normalized.png",
+      "normalizedSha256": "71f300f7f6df99b5670d8ec755a2e368b3f8130ce74ce4373d7173731560cc4b",
+      "method": "Largest 8-connected alpha>=16 component; outside alpha zeroed for diagnostic; premultiplied-RGBA Lanczos to 86px; baseline y91. Raw unchanged."
+    },
+    {
+      "frame": 4,
+      "input": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-04-retry33-raw.png",
+      "inputSha256": "6bfaf194e2fc5acd935a569978face7cddfc88f8cc3028d3764c404e50ebc77b",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "alpha16ComponentCount": 12,
+      "selectedComponentPixels": 162700,
+      "cropXYXY": [
+        471,
+        270,
+        940,
+        1101
+      ],
+      "cropSize": [
+        469,
+        831
+      ],
+      "scaleTo86px": 0.10348977135980746,
+      "fittedWH": [
+        49,
+        86
+      ],
+      "cellWH": [
+        128,
+        96
+      ],
+      "positionXY": [
+        39,
+        5
+      ],
+      "marginsLTRB": [
+        39,
+        5,
+        40,
+        5
+      ],
+      "baselineY": 91,
+      "normalizedPath": "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-04-review-only-normalized.png",
+      "normalizedSha256": "d26b48b2889428890d3794850020dbdd660fec7c6799a508be17937d937591dc",
+      "method": "Largest 8-connected alpha>=16 component; outside alpha zeroed for diagnostic; premultiplied-RGBA Lanczos to 86px; baseline y91. Raw unchanged."
+    },
+    {
+      "frame": 5,
+      "input": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose5-retry1-clean-candidate.png",
+      "inputSha256": "b77e97ae8c5f7e488f76bf7c83994c03cf1bebe1c09ddaf180b67f52db37964a",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "alpha16ComponentCount": 18,
+      "selectedComponentPixels": 102230,
+      "cropXYXY": [
+        433,
+        259,
+        822,
+        996
+      ],
+      "cropSize": [
+        389,
+        737
+      ],
+      "scaleTo86px": 0.11668928086838534,
+      "fittedWH": [
+        45,
+        86
+      ],
+      "cellWH": [
+        128,
+        96
+      ],
+      "positionXY": [
+        41,
+        5
+      ],
+      "marginsLTRB": [
+        41,
+        5,
+        42,
+        5
+      ],
+      "baselineY": 91,
+      "normalizedPath": "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-05-review-only-normalized.png",
+      "normalizedSha256": "ab5491f326533d63c1fad8faa6afe87bc301f786addb49e89c469df832812720",
+      "method": "Largest 8-connected alpha>=16 component; outside alpha zeroed for diagnostic; premultiplied-RGBA Lanczos to 86px; baseline y91. Raw unchanged."
+    },
+    {
+      "frame": 6,
+      "input": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose6-retry1-clean-candidate.png",
+      "inputSha256": "1035a9fd8432c479b6018536b691e7572513bc1d410699728f300b50c46acb07",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "alpha16ComponentCount": 11,
+      "selectedComponentPixels": 115251,
+      "cropXYXY": [
+        395,
+        261,
+        859,
+        994
+      ],
+      "cropSize": [
+        464,
+        733
+      ],
+      "scaleTo86px": 0.11732605729877217,
+      "fittedWH": [
+        54,
+        86
+      ],
+      "cellWH": [
+        128,
+        96
+      ],
+      "positionXY": [
+        37,
+        5
+      ],
+      "marginsLTRB": [
+        37,
+        5,
+        37,
+        5
+      ],
+      "baselineY": 91,
+      "normalizedPath": "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-06-review-only-normalized.png",
+      "normalizedSha256": "db4c2e465d0a5132b1835c3c66ba229653a78c664a95487337c59dcefdf6b447",
+      "method": "Largest 8-connected alpha>=16 component; outside alpha zeroed for diagnostic; premultiplied-RGBA Lanczos to 86px; baseline y91. Raw unchanged."
+    },
+    {
+      "frame": 7,
+      "input": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose7-retry1-clean-candidate.png",
+      "inputSha256": "2794a97ef551cb07f7fa62f640a06ea986cd998bdae91793687b2ff881c355ec",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "alpha16ComponentCount": 16,
+      "selectedComponentPixels": 119905,
+      "cropXYXY": [
+        419,
+        317,
+        836,
+        937
+      ],
+      "cropSize": [
+        417,
+        620
+      ],
+      "scaleTo86px": 0.13870967741935483,
+      "fittedWH": [
+        58,
+        86
+      ],
+      "cellWH": [
+        128,
+        96
+      ],
+      "positionXY": [
+        35,
+        5
+      ],
+      "marginsLTRB": [
+        35,
+        5,
+        35,
+        5
+      ],
+      "baselineY": 91,
+      "normalizedPath": "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-07-review-only-normalized.png",
+      "normalizedSha256": "63af13903153d5b977f299d4ed91e2ba9a3ee7e76af83500afedadbce7f18fbf",
+      "method": "Largest 8-connected alpha>=16 component; outside alpha zeroed for diagnostic; premultiplied-RGBA Lanczos to 86px; baseline y91. Raw unchanged."
+    }
+  ],
+  "sheet": "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/eight-pose-joint-review-only.png",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/eight-pose-joint-review-only.png",
+  "sheetSha256": "f2695485c9a4b64f7accd2503977f6fdc55d55491c3bc2b20f0203b79274a6c2",
+  "previewSha256": "91b42e94e878924dcf653eaf9a05ba5fc450012976e0746a79694c1c1a7c5b76"
+}

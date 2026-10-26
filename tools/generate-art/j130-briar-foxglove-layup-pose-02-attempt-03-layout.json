@@ -1,0 +1,42 @@
+{
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-02-attempt-03-raw.png",
+  "sourceSha256": "2e215ef50d3c9daf61888dd5bacfc1aa055d4ac71d4bb1627f76cd86cdda392c",
+  "method": "Review-only: select largest 8-connected alpha>=16 source component, set alpha to zero outside that selected component while retaining its original RGBA, crop, uniformly resample in premultiplied RGBA with Lanczos to 86px height, center in 128x96 and align baseline y=91. This is not a production cell; raw source unchanged.",
+  "threshold": 16,
+  "componentCount": 6,
+  "selectedPixels": 114316,
+  "cropBoundsXYXY": [
+    442,
+    307,
+    878,
+    939
+  ],
+  "cropSize": [
+    436,
+    632
+  ],
+  "scale": 0.1360759493670886,
+  "fittedSize": [
+    59,
+    86
+  ],
+  "cellSize": [
+    128,
+    96
+  ],
+  "positionXY": [
+    34,
+    5
+  ],
+  "cellMarginsLTRB": [
+    34,
+    5,
+    35,
+    5
+  ],
+  "baselineY": 91,
+  "candidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-pose-02-attempt-03/pose-02-normalized-candidate.png",
+  "candidateSha256": "ec3c56d4a7ef9fa04b42e309a3869104bf4a5b77c5dc706a864d53b5af43a849",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose-02-attempt-03/normalized-light-dark-review.png",
+  "previewSha256": "6954ca7d3bd2b9e7df85323d7522aa7d5f611e53408c0a1ccdfa50c9755b5b0a"
+}

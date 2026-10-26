@@ -1,0 +1,53 @@
+{
+  "generationId": "exec-013148de-0e40-427e-a361-55735537a764",
+  "generatedDate": "2026-10-26",
+  "timezone": "UTC",
+  "editPromptFile": "tools/generate-art/j130-briar-foxglove-layup-pose-04-retry-prompts.md",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-04-retry29-raw.png",
+  "originalToolOutput": "/workspace/generated_images/exec-013148de-0e40-427e-a361-55735537a764.png",
+  "sha256": "16b94b312a19689140989d0dc92657d1734ec659078d4c392a69bf759056300a",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG RGBA",
+  "parentGeneration": "exec-9c790e10-8824-4cef-821b-5793e3e99bf9",
+  "identityReference": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-02-attempt-1.png",
+  "review": {
+    "status": "rejected-overhead-release-and-edge-residue",
+    "sourceBoundsAlpha16": [
+      428,
+      245,
+      930,
+      1045
+    ],
+    "alpha16ComponentCount": 10,
+    "mainComponentPixels": 171825,
+    "skinMedianRgb": [
+      154,
+      57,
+      28
+    ],
+    "referenceSkinMedianRgb": [
+      164,
+      69,
+      30
+    ],
+    "normalizedCandidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-pose-04-retry29/pose-04-normalized-candidate.png",
+    "layoutFile": "tools/generate-art/j130-briar-foxglove-layup-pose-04-retry29-layout.json",
+    "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose-04-retry29/normalized-light-dark-review.png",
+    "notRegistered": true,
+    "pending": [
+      "independent release-gesture review",
+      "joint sequence normalization against frames0\u20133 and5\u20137",
+      "palette/anatomy confirmation",
+      "separate ball track hand-contact review"
+    ],
+    "rejectionReasons": [
+      "shooting palm above crown in near-vertical overhead reach, not compact high-forward layup release",
+      "upper hand crowds the 5px top cell margin",
+      "raw low-alpha residue reaches source edges",
+      "skin median [154,57,28] is redder than J109 reference [164,69,30]"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "generationId": "exec-123a4611-96ba-4dfd-8724-ec0abe7b4430",
+  "generatedDate": "2026-10-26",
+  "timezone": "UTC",
+  "editPromptFile": "tools/generate-art/j130-briar-foxglove-layup-pose-04-retry-prompts.md",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-04-retry32-raw.png",
+  "originalToolOutput": "/workspace/generated_images/exec-123a4611-96ba-4dfd-8724-ec0abe7b4430.png",
+  "sha256": "172553a0c518213ece5ec8f7896153048dd970caf37c4fa42f01d009fd659d7e",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG RGBA",
+  "parentGeneration": "exec-74081656-5f8e-45ee-9e00-bf4e80faa262",
+  "identityReference": "Identity lineage: Briar gameplay/J109 shoot; retry32 was an edit of retry31 raw, not a direct J109 image attachment.",
+  "review": {
+    "status": "rejected-unrequested-chest-emblem",
+    "alpha16ComponentCount": 12,
+    "mainComponentPixels": 210686,
+    "mainComponentBoundsXYXY": [
+      465,
+      232,
+      1061,
+      1159
+    ],
+    "normalizedCandidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-pose-04-retry32/pose-04-normalized-candidate.png",
+    "layoutFile": "tools/generate-art/j130-briar-foxglove-layup-pose-04-retry32-layout.json",
+    "rawPreview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose-04-retry32/light-dark-review.png",
+    "normalizedPreview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose-04-retry32/normalized-light-dark-review.png",
+    "notRegistered": true,
+    "pending": [
+      "independent anatomy and identity review",
+      "joint sequence comparison",
+      "alpha fringe cleanup disposition",
+      "separate ball-to-hand release and native two-facing review"
+    ],
+    "rejectionReasons": [
+      "conspicuous solid white chest square/crest absent from accepted J109 reference and adjacent frames",
+      "would create an unrequested, visible costume change"
+    ],
+    "independentReview": "The compact forward/up release pose and anatomy were otherwise strong; reject the generation as-is. Retry33 removes the mark."
+  }
+}

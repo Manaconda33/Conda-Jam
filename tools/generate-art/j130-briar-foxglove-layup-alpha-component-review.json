@@ -1,0 +1,1638 @@
+{
+  "2": {
+    "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-02-attempt-03-raw.png",
+    "sha256": "2e215ef50d3c9daf61888dd5bacfc1aa055d4ac71d4bb1627f76cd86cdda392c",
+    "size": [
+      1254,
+      1254
+    ],
+    "thresholds": {
+      "1": {
+        "componentCount": 74,
+        "totalPixels": 124026,
+        "largestComponents": [
+          {
+            "pixels": 123871,
+            "boundsXYXY": [
+              435,
+              305,
+              886,
+              941
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 26,
+            "boundsXYXY": [
+              698,
+              1045,
+              703,
+              1059
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 11,
+            "boundsXYXY": [
+              515,
+              1080,
+              519,
+              1085
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 6,
+            "boundsXYXY": [
+              692,
+              1047,
+              693,
+              1053
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 6,
+            "boundsXYXY": [
+              696,
+              1048,
+              697,
+              1054
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 5,
+            "boundsXYXY": [
+              732,
+              349,
+              734,
+              352
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              1016,
+              310,
+              1018,
+              314
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              694,
+              1048,
+              695,
+              1052
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              509,
+              1146,
+              511,
+              1148
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              524,
+              426,
+              526,
+              428
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 2,
+            "boundsXYXY": [
+              748,
+              70,
+              750,
+              71
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 2,
+            "boundsXYXY": [
+              186,
+              111,
+              187,
+              113
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 123920,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 2,
+          "5-16": 4,
+          "2-4": 26,
+          "1": 42
+        }
+      },
+      "8": {
+        "componentCount": 56,
+        "totalPixels": 115278,
+        "largestComponents": [
+          {
+            "pixels": 115172,
+            "boundsXYXY": [
+              442,
+              307,
+              879,
+              939
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 14,
+            "boundsXYXY": [
+              750,
+              675,
+              751,
+              689
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 13,
+            "boundsXYXY": [
+              440,
+              827,
+              441,
+              840
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 6,
+            "boundsXYXY": [
+              808,
+              486,
+              814,
+              487
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 6,
+            "boundsXYXY": [
+              745,
+              696,
+              746,
+              702
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              790,
+              428,
+              791,
+              431
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              741,
+              705,
+              742,
+              708
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              518,
+              782,
+              519,
+              785
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              443,
+              848,
+              444,
+              851
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 2,
+            "boundsXYXY": [
+              744,
+              414,
+              745,
+              416
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 2,
+            "boundsXYXY": [
+              729,
+              437,
+              730,
+              439
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 2,
+            "boundsXYXY": [
+              832,
+              550,
+              834,
+              551
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 115211,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 1,
+          "5-16": 4,
+          "2-4": 12,
+          "1": 39
+        }
+      },
+      "16": {
+        "componentCount": 6,
+        "totalPixels": 114322,
+        "largestComponents": [
+          {
+            "pixels": 114316,
+            "boundsXYXY": [
+              442,
+              307,
+              878,
+              939
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 2,
+            "boundsXYXY": [
+              733,
+              716,
+              734,
+              718
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              752,
+              509,
+              753,
+              510
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              730,
+              720,
+              731,
+              721
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              567,
+              826,
+              568,
+              827
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              454,
+              928,
+              455,
+              929
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 114321,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 1,
+          "2-4": 1,
+          "1": 4
+        }
+      },
+      "64": {
+        "componentCount": 2,
+        "totalPixels": 112707,
+        "largestComponents": [
+          {
+            "pixels": 112706,
+            "boundsXYXY": [
+              442,
+              308,
+              877,
+              939
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              793,
+              526,
+              794,
+              527
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 112707,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 1,
+          "1": 1
+        }
+      },
+      "128": {
+        "componentCount": 1,
+        "totalPixels": 111589,
+        "largestComponents": [
+          {
+            "pixels": 111589,
+            "boundsXYXY": [
+              442,
+              308,
+              876,
+              938
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 111589,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 1
+        }
+      },
+      "250": {
+        "componentCount": 178,
+        "totalPixels": 102589,
+        "largestComponents": [
+          {
+            "pixels": 102019,
+            "boundsXYXY": [
+              447,
+              311,
+              872,
+              935
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 31,
+            "boundsXYXY": [
+              460,
+              806,
+              491,
+              807
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 22,
+            "boundsXYXY": [
+              631,
+              309,
+              653,
+              310
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 20,
+            "boundsXYXY": [
+              674,
+              877,
+              675,
+              897
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 20,
+            "boundsXYXY": [
+              639,
+              904,
+              659,
+              905
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 20,
+            "boundsXYXY": [
+              497,
+              905,
+              498,
+              925
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 18,
+            "boundsXYXY": [
+              746,
+              669,
+              747,
+              687
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 17,
+            "boundsXYXY": [
+              663,
+              309,
+              680,
+              310
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 17,
+            "boundsXYXY": [
+              726,
+              350,
+              727,
+              367
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 14,
+            "boundsXYXY": [
+              734,
+              383,
+              735,
+              397
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 14,
+            "boundsXYXY": [
+              526,
+              408,
+              527,
+              422
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 14,
+            "boundsXYXY": [
+              580,
+              502,
+              581,
+              516
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 102112,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 9,
+          "5-16": 23,
+          "2-4": 49,
+          "1": 97
+        }
+      }
+    },
+    "diagnosticDisposition": "Largest alpha>=16 component alone is shown in the review-only crop; all other pixels/components remain intact in the preserved raw. The fragments are not cleared or accepted as cleaned production art."
+  },
+  "3": {
+    "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-03-retry30-raw.png",
+    "sha256": "591405edc1978c672a4bad41579196d8977c86271aa039c78a62bebdb4c99a97",
+    "size": [
+      1254,
+      1254
+    ],
+    "thresholds": {
+      "1": {
+        "componentCount": 1056,
+        "totalPixels": 141943,
+        "largestComponents": [
+          {
+            "pixels": 138870,
+            "boundsXYXY": [
+              493,
+              321,
+              869,
+              992
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 238,
+            "boundsXYXY": [
+              968,
+              473,
+              991,
+              508
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 163,
+            "boundsXYXY": [
+              401,
+              369,
+              418,
+              394
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 103,
+            "boundsXYXY": [
+              869,
+              945,
+              882,
+              959
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 75,
+            "boundsXYXY": [
+              417,
+              427,
+              424,
+              444
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 57,
+            "boundsXYXY": [
+              401,
+              467,
+              408,
+              482
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 55,
+            "boundsXYXY": [
+              113,
+              888,
+              125,
+              900
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 40,
+            "boundsXYXY": [
+              921,
+              858,
+              931,
+              868
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 39,
+            "boundsXYXY": [
+              417,
+              385,
+              426,
+              395
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 35,
+            "boundsXYXY": [
+              909,
+              465,
+              914,
+              474
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 35,
+            "boundsXYXY": [
+              917,
+              869,
+              925,
+              882
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 34,
+            "boundsXYXY": [
+              441,
+              374,
+              446,
+              389
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 139449,
+        "edgeComponentCount": 1,
+        "pixelHistogram": {
+          "17+": 24,
+          "5-16": 56,
+          "2-4": 357,
+          "1": 619
+        }
+      },
+      "8": {
+        "componentCount": 44,
+        "totalPixels": 123000,
+        "largestComponents": [
+          {
+            "pixels": 122873,
+            "boundsXYXY": [
+              498,
+              325,
+              860,
+              987
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 26,
+            "boundsXYXY": [
+              496,
+              851,
+              497,
+              877
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 16,
+            "boundsXYXY": [
+              648,
+              988,
+              664,
+              989
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 11,
+            "boundsXYXY": [
+              794,
+              389,
+              795,
+              400
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 7,
+            "boundsXYXY": [
+              780,
+              428,
+              781,
+              435
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 5,
+            "boundsXYXY": [
+              758,
+              742,
+              760,
+              746
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              496,
+              407,
+              497,
+              411
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              780,
+              795,
+              781,
+              799
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              826,
+              520,
+              829,
+              521
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              794,
+              524,
+              795,
+              527
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              751,
+              637,
+              752,
+              640
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              708,
+              671,
+              711,
+              672
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 122933,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 2,
+          "5-16": 4,
+          "2-4": 15,
+          "1": 23
+        }
+      },
+      "16": {
+        "componentCount": 4,
+        "totalPixels": 121085,
+        "largestComponents": [
+          {
+            "pixels": 121076,
+            "boundsXYXY": [
+              498,
+              325,
+              859,
+              987
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 7,
+            "boundsXYXY": [
+              800,
+              536,
+              801,
+              543
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              520,
+              449,
+              521,
+              450
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              512,
+              467,
+              513,
+              468
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 121085,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 1,
+          "5-16": 1,
+          "1": 2
+        }
+      },
+      "64": {
+        "componentCount": 1,
+        "totalPixels": 118859,
+        "largestComponents": [
+          {
+            "pixels": 118859,
+            "boundsXYXY": [
+              498,
+              326,
+              859,
+              987
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 118859,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 1
+        }
+      },
+      "128": {
+        "componentCount": 1,
+        "totalPixels": 117203,
+        "largestComponents": [
+          {
+            "pixels": 117203,
+            "boundsXYXY": [
+              499,
+              326,
+              858,
+              986
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 117203,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 1
+        }
+      },
+      "250": {
+        "componentCount": 154,
+        "totalPixels": 102972,
+        "largestComponents": [
+          {
+            "pixels": 102503,
+            "boundsXYXY": [
+              503,
+              329,
+              850,
+              983
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 26,
+            "boundsXYXY": [
+              531,
+              495,
+              537,
+              505
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 17,
+            "boundsXYXY": [
+              534,
+              664,
+              535,
+              681
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 15,
+            "boundsXYXY": [
+              785,
+              401,
+              787,
+              415
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 15,
+            "boundsXYXY": [
+              568,
+              547,
+              569,
+              562
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 15,
+            "boundsXYXY": [
+              773,
+              556,
+              774,
+              571
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 15,
+            "boundsXYXY": [
+              673,
+              958,
+              674,
+              973
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 13,
+            "boundsXYXY": [
+              706,
+              373,
+              707,
+              386
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 13,
+            "boundsXYXY": [
+              526,
+              479,
+              539,
+              481
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 13,
+            "boundsXYXY": [
+              568,
+              739,
+              569,
+              752
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 11,
+            "boundsXYXY": [
+              613,
+              327,
+              624,
+              328
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 11,
+            "boundsXYXY": [
+              511,
+              473,
+              512,
+              484
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 102576,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 3,
+          "5-16": 26,
+          "2-4": 45,
+          "1": 80
+        }
+      }
+    },
+    "diagnosticDisposition": "Largest alpha>=16 component alone is shown in the review-only crop; all other pixels/components remain intact in the preserved raw. The fragments are not cleared or accepted as cleaned production art."
+  },
+  "4": {
+    "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-04-retry33-raw.png",
+    "sha256": "6bfaf194e2fc5acd935a569978face7cddfc88f8cc3028d3764c404e50ebc77b",
+    "size": [
+      1254,
+      1254
+    ],
+    "thresholds": {
+      "1": {
+        "componentCount": 115,
+        "totalPixels": 179068,
+        "largestComponents": [
+          {
+            "pixels": 178816,
+            "boundsXYXY": [
+              464,
+              267,
+              945,
+              1109
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 39,
+            "boundsXYXY": [
+              859,
+              173,
+              866,
+              185
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 24,
+            "boundsXYXY": [
+              570,
+              151,
+              577,
+              160
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 22,
+            "boundsXYXY": [
+              531,
+              211,
+              537,
+              217
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 8,
+            "boundsXYXY": [
+              330,
+              301,
+              332,
+              305
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 6,
+            "boundsXYXY": [
+              536,
+              213,
+              539,
+              217
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              537,
+              97,
+              539,
+              99
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              531,
+              101,
+              533,
+              103
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              119,
+              603,
+              121,
+              605
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              923,
+              716,
+              925,
+              718
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              982,
+              856,
+              983,
+              860
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              578,
+              152,
+              579,
+              155
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 178909,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 4,
+          "5-16": 2,
+          "2-4": 31,
+          "1": 78
+        }
+      },
+      "8": {
+        "componentCount": 74,
+        "totalPixels": 164337,
+        "largestComponents": [
+          {
+            "pixels": 164125,
+            "boundsXYXY": [
+              469,
+              270,
+              940,
+              1101
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 28,
+            "boundsXYXY": [
+              469,
+              877,
+              470,
+              905
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 19,
+            "boundsXYXY": [
+              487,
+              824,
+              488,
+              843
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 19,
+            "boundsXYXY": [
+              563,
+              1073,
+              564,
+              1092
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 17,
+            "boundsXYXY": [
+              656,
+              274,
+              673,
+              275
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 13,
+            "boundsXYXY": [
+              630,
+              268,
+              643,
+              269
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 11,
+            "boundsXYXY": [
+              618,
+              268,
+              629,
+              269
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 10,
+            "boundsXYXY": [
+              604,
+              273,
+              614,
+              274
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              864,
+              306,
+              868,
+              307
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              473,
+              907,
+              474,
+              911
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 4,
+            "boundsXYXY": [
+              493,
+              1070,
+              494,
+              1074
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              937,
+              329,
+              939,
+              331
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 164208,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 5,
+          "5-16": 3,
+          "2-4": 19,
+          "1": 47
+        }
+      },
+      "16": {
+        "componentCount": 12,
+        "totalPixels": 162726,
+        "largestComponents": [
+          {
+            "pixels": 162700,
+            "boundsXYXY": [
+              471,
+              270,
+              940,
+              1101
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 13,
+            "boundsXYXY": [
+              780,
+              485,
+              793,
+              486
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 3,
+            "boundsXYXY": [
+              498,
+              399,
+              500,
+              401
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 2,
+            "boundsXYXY": [
+              876,
+              327,
+              878,
+              328
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              895,
+              312,
+              896,
+              313
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              937,
+              329,
+              938,
+              330
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              706,
+              400,
+              707,
+              401
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              806,
+              485,
+              807,
+              486
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              827,
+              485,
+              828,
+              486
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              735,
+              508,
+              736,
+              509
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              604,
+              790,
+              605,
+              791
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 1,
+            "boundsXYXY": [
+              555,
+              1062,
+              556,
+              1063
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 162719,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 1,
+          "5-16": 1,
+          "2-4": 2,
+          "1": 8
+        }
+      },
+      "64": {
+        "componentCount": 1,
+        "totalPixels": 160726,
+        "largestComponents": [
+          {
+            "pixels": 160726,
+            "boundsXYXY": [
+              471,
+              270,
+              940,
+              1101
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 160726,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 1
+        }
+      },
+      "128": {
+        "componentCount": 1,
+        "totalPixels": 159081,
+        "largestComponents": [
+          {
+            "pixels": 159081,
+            "boundsXYXY": [
+              471,
+              270,
+              940,
+              1100
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 159081,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 1
+        }
+      },
+      "250": {
+        "componentCount": 203,
+        "totalPixels": 147396,
+        "largestComponents": [
+          {
+            "pixels": 146898,
+            "boundsXYXY": [
+              474,
+              271,
+              932,
+              1098
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 29,
+            "boundsXYXY": [
+              491,
+              823,
+              492,
+              852
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 25,
+            "boundsXYXY": [
+              526,
+              1099,
+              551,
+              1100
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 17,
+            "boundsXYXY": [
+              524,
+              325,
+              541,
+              326
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 13,
+            "boundsXYXY": [
+              515,
+              796,
+              528,
+              797
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 13,
+            "boundsXYXY": [
+              661,
+              904,
+              674,
+              905
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 10,
+            "boundsXYXY": [
+              719,
+              345,
+              721,
+              354
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 10,
+            "boundsXYXY": [
+              719,
+              364,
+              720,
+              374
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 10,
+            "boundsXYXY": [
+              712,
+              811,
+              713,
+              821
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 9,
+            "boundsXYXY": [
+              924,
+              312,
+              933,
+              313
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 8,
+            "boundsXYXY": [
+              509,
+              436,
+              510,
+              444
+            ],
+            "touchesCanvasEdge": false
+          },
+          {
+            "pixels": 7,
+            "boundsXYXY": [
+              859,
+              309,
+              866,
+              310
+            ],
+            "touchesCanvasEdge": false
+          }
+        ],
+        "largestComponentPixelTotal": 146982,
+        "edgeComponentCount": 0,
+        "pixelHistogram": {
+          "17+": 4,
+          "5-16": 20,
+          "2-4": 58,
+          "1": 121
+        }
+      }
+    },
+    "diagnosticDisposition": "Largest alpha>=16 component alone is shown in the review-only crop; all other pixels/components remain intact in the preserved raw. The fragments are not cleared or accepted as cleaned production art."
+  }
+}

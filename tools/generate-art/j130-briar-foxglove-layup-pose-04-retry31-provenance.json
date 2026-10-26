@@ -1,0 +1,15 @@
+{
+  "generationId": "exec-74081656-5f8e-45ee-9e00-bf4e80faa262",
+  "generatedDate": "2026-10-26",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-04-retry31-raw.png",
+  "sha256": "c56047884fdc7ad57302bcacb893744c2d91a153d4eaabb3c1980cea6beb1730",
+  "promptArchiveStatus": "exact generation prompt was not found in the current repository or working copy; not reconstructed",
+  "editPromptLog": "tools/generate-art/j130-briar-foxglove-layup-pose-04-retry-prompts.md",
+  "reviewStatus": "provisional compact release gesture; independent sequence reviewer passed identity/anatomy/gesture and 5px margins; superseded as best pose4 source by retry33",
+  "independentReview": "Compact forward/up release; complete Briar identity and anatomy; no ball; 5px top/bottom review-cell margin. Review-only normalization selected the largest alpha>=16 component. Separate ball contact review pending.",
+  "notRegistered": true,
+  "layoutFile": "tools/generate-art/j130-briar-foxglove-layup-pose-04-retry31-layout.json",
+  "normalizedCandidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-pose-04-retry31/pose-04-normalized-candidate.png",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose-04-retry31/normalized-light-dark-review.png",
+  "rawPreview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose-04-retry31/light-dark-review.png"
+}

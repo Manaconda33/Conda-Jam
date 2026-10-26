@@ -1,0 +1,41 @@
+{
+  "generationId": "exec-5bb3cf51-709c-4555-9587-b8a4b1044c59",
+  "generatedDate": "2026-10-26",
+  "timezone": "UTC",
+  "promptFile": "tools/generate-art/j130-briar-foxglove-layup-pose-04-retry-prompts.md",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-04-retry33-raw.png",
+  "originalToolOutput": "/workspace/generated_images/exec-5bb3cf51-709c-4555-9587-b8a4b1044c59.png",
+  "sha256": "6bfaf194e2fc5acd935a569978face7cddfc88f8cc3028d3764c404e50ebc77b",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG RGBA",
+  "parentGeneration": "exec-74081656-5f8e-45ee-9e00-bf4e80faa262",
+  "identityReference": "tools/generate-art/sources/j109-briar-foxglove-shoot-pose-02-attempt-1.png",
+  "additionalEditSource": "tools/generate-art/sources/j130-briar-foxglove-layup-pose-04-retry31-raw.png",
+  "review": {
+    "status": "provisional-after-independent-sequence-review",
+    "componentCountAlpha16": 12,
+    "mainComponentPixels": 162700,
+    "mainComponentBoundsXYXY": [
+      471,
+      270,
+      940,
+      1101
+    ],
+    "normalizedCandidate": "tools/generate-art/candidates/j130-briar-foxglove-layup-pose-04-retry33/pose-04-normalized-candidate.png",
+    "layoutFile": "tools/generate-art/j130-briar-foxglove-layup-pose-04-retry33-layout.json",
+    "rawPreview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose-04-retry33/light-dark-review.png",
+    "normalizedPreview": "tools/generate-art/previews/j130-briar-foxglove-layup/pose-04-retry33/normalized-light-dark-review.png",
+    "notRegistered": true,
+    "pending": [
+      "final joint source approval and 5px vertical margin acceptance",
+      "raw low-alpha component disposition",
+      "native ball-contact/release review at 100% and 120% in both facings"
+    ],
+    "independentReview": "Chest mark removed; uniform, identity, anatomy, compact forward/up release, and pose separation pass. Separate ball contact at open palm is plausible. Main crop yields 49x86 with 5px top/bottom margins and baseline y91; light/dark normalized preview has no visible fringe. Do not register or pack yet.",
+    "jointSequenceReview": "Independent review passes identity/anatomy and compact forward/up release; 5px top/bottom margins are exactly minimum.",
+    "ballContactReview": "Separate ball at (84,11) is plausible on/near release fingertips in static cell preview; native Canvas is pending."
+  }
+}

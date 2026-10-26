@@ -1,0 +1,98 @@
+{
+  "status": "draft visual calibration only; not production/runtime data",
+  "athlete": "briar-foxglove",
+  "clip": "layup",
+  "poseSourceFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "frameDurationTicks": [
+    2,
+    3,
+    3,
+    2,
+    1,
+    3,
+    4,
+    4
+  ],
+  "anchorTicks": {
+    "takeoff": 2,
+    "release": 10,
+    "peak": 10,
+    "finish": 18
+  },
+  "contactCentersCellXY": {
+    "0": [
+      82,
+      50
+    ],
+    "1": [
+      80,
+      32
+    ],
+    "2": [
+      73,
+      25
+    ],
+    "3": [
+      75,
+      17
+    ],
+    "4": [
+      84,
+      11
+    ]
+  },
+  "height": [
+    1.072,
+    1.589,
+    1.79,
+    2.02,
+    2.192,
+    null,
+    null,
+    null
+  ],
+  "forward": [
+    6.578,
+    5.847,
+    3.289,
+    4.02,
+    7.309,
+    null,
+    null,
+    null
+  ],
+  "coordinateMethod": "Source art cells are 128x96. Draft centers are chosen by visual hand/palm placement in frames0-4, with release center on the open palm at frame4. Convert source center to track units using the existing renderer calibration in src/core/animation.js: height=(70.22-y*0.804)/28; forward=(x-64)*0.804/2.2. Values for frames5-7 are placeholders only because Briar releases at tick10 and is ownerless after release. Validate using actual renderer and both facings before runtime integration.",
+  "release": "Frame4 begins at tick10; carry through tick9. Separate ball starts flight at tick10 from the frame4 contact point.",
+  "sources": [
+    "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-00-review-only-normalized.png",
+    "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-01-review-only-normalized.png",
+    "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-02-review-only-normalized.png",
+    "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-03-review-only-normalized.png",
+    "tools/generate-art/candidates/j130-briar-foxglove-layup-joint-review/pose-04-review-only-normalized.png"
+  ],
+  "pending": [
+    "native Canvas hand/ball contact at 100 and 120 percent in both facings",
+    "tick9 carry to tick10 release and ownerless flight continuity",
+    "production array completeness after full-pose acceptance",
+    "final eight-pose acceptance"
+  ],
+  "unresolvedFrames": [
+    5,
+    6,
+    7
+  ],
+  "independentReviewFindings": [
+    "Frame0 overlay point (82,50) was independently reviewed and improved: ball meets the near-side hand at the waist/shorts boundary, does not cover the jersey center, hover or clip; wrist/hand junction remains readable. Formula recomputes to height 1.072142857 and forward 6.578181818, matching stored rounded values.",
+    "Frames1-4 contact looks mostly plausible; frame4 at (84,11) is on/near the open release fingertips.",
+    "Linear sub-tick interpolation is continuous across frames; native Canvas contact/render review remains required."
+  ]
+}

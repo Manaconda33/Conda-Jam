@@ -6,35 +6,16 @@
   "source": "tools/generate-art/sources/j130-briar-foxglove-layup-middle-attempt-01-raw.png",
   "originalToolOutput": "/workspace/generated_images/exec-e5cf2b90-e81f-454a-8a30-55a4a693238f.png",
   "sha256": "83fa7cdd52769328047d8732e2ce3c51268ebbc5570cbe13ac64d0e68e72fb9a",
-  "dimensions": [
-    2172,
-    724
-  ],
+  "dimensions": [2172, 724],
   "format": "PNG RGBA",
-  "cellLayout": {
-    "columns": 3,
-    "rows": 1,
-    "cellWidth": 724,
-    "cellHeight": 724,
-    "poseIndices": [
-      2,
-      3,
-      4
-    ]
-  },
+  "cellLayout": { "columns": 3, "rows": 1, "cellWidth": 724, "cellHeight": 724, "poseIndices": [2, 3, 4] },
   "review": {
-    "status": "candidate-pending-review",
-    "initialVisualReview": "three distinct complete right-facing poses; Briar identity appears consistent; no painted ball; cell corners alpha zero",
-    "pending": [
-      "fit and crop margins",
-      "joint eight-pose baseline/timing review",
-      "native game preview"
-    ],
-    "notRegistered": true,
-    "completed": [
-      "light/dark preview composited and visually reviewed"
-    ],
+    "status": "rejected",
+    "initialVisualReview": "three distinct complete right-facing poses; Briar's human identity and clothing appear consistent; no painted ball; all cell corners alpha 0",
+    "rejection": "Independent review found poses 3 and 4 repeat the documented overhead-hand failure; pose 2 has hands at chest level instead of the requested below-chin/outside-face gather. Do not advance any crop into normalization or packing.",
     "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-01/light-dark-review.png",
-    "previewSha256": "92238bff4b082617f4257e66d70a644e10e2ab76975fc655353d53bd80482622"
+    "previewSha256": "92238bff4b082617f4257e66d70a644e10e2ab76975fc655353d53bd80482622",
+    "completed": ["light/dark preview composited and visually reviewed"],
+    "notRegistered": true
   }
 }
