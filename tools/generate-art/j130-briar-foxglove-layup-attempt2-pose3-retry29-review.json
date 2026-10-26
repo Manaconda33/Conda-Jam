@@ -1,0 +1,19 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame3 retry29",
+  "decision": "BLOCKED_NOT_GENERATED",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose3-retry29-prompt.md",
+  "generationId": null,
+  "source": null,
+  "sourceSha256": null,
+  "preview": null,
+  "checks": {
+    "pose": "NOT REVIEWABLE; generation was blocked before an image was returned.",
+    "identityAnatomy": "NOT REVIEWABLE; no image was returned.",
+    "transparency": "NOT REVIEWABLE; no image was returned.",
+    "cellMarginsAndScale": "NOT REVIEWABLE; no image was returned.",
+    "ballAlignment": "NOT REVIEWABLE; no image was returned.",
+    "poseSeparation": "NOT REVIEWABLE; no image was returned."
+  },
+  "failure": "Image generation returned HTTP 429 Too Many Requests (usage_limit_reached; 1440-minute limit window; reset epoch 1793020552; tool-reported 42683 seconds remaining at failure). No output_hint, image ID, source path, image hash, or preview exists.",
+  "reason": "Blocked confirmation attempt requested by user. Do not fabricate or attribute an image."
+}

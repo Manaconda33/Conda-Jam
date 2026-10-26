@@ -1,5 +1,7 @@
 # J.130 — Briar Foxglove `layup` source work
 
+Latest ImageGen availability confirmation: frame3 retry29 reused the retained retry28 prompt at 2026-10-26 01:24 UTC and returned HTTP429 usage_limit_reached before generation. The tool reported reset epoch1793020552 and42,683 seconds remaining. Prompt, request flags, failure response and `BLOCKED_NOT_GENERATED` review are preserved in retry29 files; no image ID, raw source, hash, preview or visual measurements exist.
+
 ## Target and canon
 
 The canonical clip is nonlooping, eight frames, durations `[2,3,3,2,1,3,4,4]` for 22 ticks. Takeoff begins frame1/tick2; peak and one-hand release are frame4/tick10; the grounded finish is frame7/tick18. The pose catalog is `tools/generate-art/pose-catalog.json`.
