@@ -1,0 +1,27 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry27",
+  "operation": "single-pose source generation",
+  "generationTool": "image_gen.imagegen",
+  "generationId": "exec-43ada251-09d1-4dbc-9d37-122cac8f4ebf",
+  "outputHint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-43ada251-09d1-4dbc-9d37-122cac8f4ebf.png by default. If you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.",
+  "originalGeneratedPath": "/workspace/generated_images/exec-43ada251-09d1-4dbc-9d37-122cac8f4ebf.png",
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry27-prompt.md",
+  "sourcePath": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry27-raw.png",
+  "sourceSha256": "be559788c675e663e4440d29a62d08c16accd1ce71eb96043c45208328516b6f",
+  "decodedRgbaPixelSha256": "8cf98f9e73cf5c0385e2417c70518f180fd7954044bbc8699ffb03e9847abec9",
+  "dimensions": [1254, 1254],
+  "mode": "RGBA",
+  "alphaExtrema": [0, 255],
+  "thresholdMetrics": {
+    "alpha1": {"components8Connected": 90, "bboxLTRBExclusive": [33, 21, 1234, 1150], "marginsLTRB": [33, 21, 20, 104]},
+    "alpha8": {"components8Connected": 26, "largestComponentPixels": 72041, "bboxLTRBExclusive": [498, 369, 766, 843], "marginsLTRB": [498, 369, 488, 411], "figureHeightFraction": 0.3779904306},
+    "alpha64": {"components8Connected": 1, "largestComponentPixels": 70198, "bboxLTRBExclusive": [498, 369, 764, 842], "marginsLTRB": [498, 369, 490, 412], "figureHeightFraction": 0.3771929825},
+    "alpha128": {"components8Connected": 1, "bboxLTRBExclusive": [499, 370, 763, 842], "marginsLTRB": [499, 370, 491, 412], "figureHeightFraction": 0.3763955343}
+  },
+  "previewPath": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry27-light-dark-review.png",
+  "references": [],
+  "cleanup": null,
+  "packing": null,
+  "registration": null,
+  "disposition": "REJECT; preserve untouched source and evidence."
+}

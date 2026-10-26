@@ -1,0 +1,20 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry27",
+  "decision": "REJECT",
+  "generationId": "exec-43ada251-09d1-4dbc-9d37-122cac8f4ebf",
+  "source": "tools/generate-art/sources/j130-briar-foxglove-layup-attempt2-pose2-retry27-raw.png",
+  "sourceSha256": "be559788c675e663e4440d29a62d08c16accd1ce71eb96043c45208328516b6f",
+  "decodedRgbaPixelSha256": "8cf98f9e73cf5c0385e2417c70518f180fd7954044bbc8699ffb03e9847abec9",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry27-prompt.md",
+  "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt2-pose2-retry27-light-dark-review.png",
+  "checks": {
+    "identityAnatomy": "PARTIAL: recognizable adult human Briar with shoulder-length dark locs, vivid red headband, russet/cream kit and cream trainers; two arms/hands and two legs/shoes, no fox traits or crop. Skin reads warmer/lighter than the canon reference.",
+    "pose": "FAIL: airborne ascent with raised knee and folded trailing leg reads, and the fingers are visibly separated from the nose. However, the shooting fingers sit at nose/upper-mouth height rather than clearly below the lower lip and chin. The hand is too close to the facial features for the specified cheek-level carry.",
+    "palette": "FAIL: skin reads warm orange/copper and lighter than the accepted Briar anchors. Approximate median samples from face/arm regions are RGB (158,79,34) and (156,76,32), versus median anchor (145,70,39), shadow (85,35,17), restrained highlight (193,114,70).",
+    "transparency": "PARTIAL: true RGBA alpha 0..255 and no baked checkerboard. Low-alpha residue forms90 alpha>=1 components and approaches the top/right edges (21px/20px).",
+    "cellMarginsAndScale": "FAIL: alpha>=64 bbox [498,369,764,842] yields margins L/T/R/B [498,369,490,412]px (39.7%,29.4%,39.1%,32.9%), failing the requested34% top and bottom clearances. Figure height is37.72% versus32% prompt target. Alpha>=1 bounds leave only33/21/20/104px.",
+    "uniqueness": "PASS: decoded RGBA SHA-256 was compared with all90 same-task raw PNGs; only this source matched its hash.",
+    "ball": "PASS: no basketball is baked in; Briar's ball remains a separate athlete-specific runtime track."
+  },
+  "reason": "Reject unchanged for hand height too close to nose/mouth, warmer/lighter skin palette, height above prompt target, insufficient vertical clearance, and low-alpha edge residue. No cleanup, recoloring, rescaling, packing, registration, or acceptance."
+}
