@@ -14,7 +14,7 @@ The master prompt preferred Vite + TypeScript + Phaser 3. This first implementat
 - `main.js` maps keyboard/gamepad data to input frames, runs a bounded rAF accumulator, and renders projections independently of game state.
 - `teams.js` contains all captain plus two game-only supporting athletes and a content validator.
 
-The world uses x along court length, y across court depth, and z for height. The rendered x camera follows the ball and players are painter-sorted by ground y. This is a functional projection, not yet an authentic wide camera track or a complete arena collision model.
+The world uses x along court length, y across court depth, and z for height. The default rendered x camera follows the ball and players are painter-sorted by ground y. An Issue #4 staging prototype is available only with `?stagePreview=1`; its 480×360 projection maps y=0–100 into a 208px ground band, narrows the far sideline to 94% of near width, and shows half the court length at midcourt. It scales the existing 78px sprite render to 1.4× at the near sideline, eases that scale to .84 at the far sideline, and renders a 19px ball. See [ISSUE_4_STAGE_PREVIEW.md](ISSUE_4_STAGE_PREVIEW.md) for targets, validation limits, and the still-open screenshot approval gate. The default renderer and simulation remain unchanged by the preview.
 
 ## Running and building
 

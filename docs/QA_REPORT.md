@@ -1,4 +1,11 @@
-# Latest work — J.130 Briar Foxglove `layup` source review in progress
+# Latest checkpoint — Issue #4 stage preview draft (2026-10-26)
+
+- Focused stage projection tests: PASS,4/4. `npm run lint`: PASS,19 JavaScript modules. `npm run build`: PASS, including the self-contained Pages bundle.
+- Geometry targets at the logical 480×360 viewport: floor band57.8% H; court slice50% at midcourt; far/near depth scale ratio.84; standing sprite estimates25.5% H far and30.3% H near; ball diameter4.0% W.
+- Browser capture is blocked: local server binding fails with `listen EPERM`, and local Chromium startup exits `SIGTRAP` after denied `setsockopt`. No Issue #4 preview screenshot or measurement is claimed; the four-frame owner approval gate remains open. No simulation or default-render changes; no deployment.
+- Animation audit was not rerun because this checkpoint changed no animation assets. The latest known strict report-only audit remains J.129:824 clips /7,463 drawings;2,279 missing clips; one target shortfall; four inherited prompt findings. J.130 Briar `layup` is still the roster-order asset target.
+
+# Animation work — J.130 Briar Foxglove `layup` source review in progress
 
 At 2026-10-26 01:24 UTC, a direct ImageGen retry using the preserved frame3 prompt confirmed HTTP429 remains active (42,683 seconds, about11h51m until reported reset). Retry29 has a prompt, provenance and blocked review only; no image was generated.
 

@@ -34,6 +34,7 @@ const modules={
   './core/animation.js':await wrapModule('core/animation.js'),
   './content/animation-assets.js':await wrapModule('content/animation-assets.js',manifestSource),
   './render/animation-sprites.js':await wrapModule('render/animation-sprites.js'),
+  './render/jam-stage.js':await wrapModule('render/jam-stage.js'),
   './render/camera-tracking.js':await wrapModule('render/camera-tracking.js'),
   './render/debug-diagnostics.js':await wrapModule('render/debug-diagnostics.js'),
   './render/court-geometry.js':await wrapModule('render/court-geometry.js'),

@@ -1,3 +1,10 @@
+## Continuation checkpoint — 2026-10-26 (Issue #4 stage projection draft)
+
+- Added an opt-in `?stagePreview=1` renderer path for the Chicago Condas vs Crownfire Sovereigns vertical slice. Geometry: 480×360 viewport; 57.8% floor band; 50% court slice at midcourt, tapering .94 far /1.0 near; existing sprite render 1.4× near with .84–1.0 depth scale; 19px ball. Stage basket support now follows a projected near-apron world position. The default renderer and simulation state are unchanged.
+- Added `src/render/jam-stage.js`, four focused projection/scale tests, standalone bundle registration, and `docs/ISSUE_4_STAGE_PREVIEW.md`. Build, lint and focused tests pass.
+- Browser review is blocked in this managed environment: local web server returns `listen EPERM`; Chromium exits at startup on a denied `setsockopt` with `SIGTRAP`. No preview screenshots were captured, and the existing court screenshot remains baseline only. Issue #4's four-frame measurement and owner approval gate remain open; no portrait camera change, full court redraw, rollout, or deployment was done.
+- Animation roster state is unchanged: J.130 Briar `layup` remains unregistered. Latest ImageGen confirmation was HTTP429 at 2026-10-26 01:24 UTC. The user-owned untracked J.106 helper remains untouched. Previous validated remote deployment remains `513e0a59` / Pages run #169; current staging work is local.
+
 ## Continuation checkpoint — 2026-10-26 (J.130 Briar `layup` source attempts)
 
 Latest confirmation attempt at 2026-10-26 01:24 UTC reused the recorded frame3 prompt and again returned HTTP429 before generation; retry29 (`...pose3-retry29`) records the exact prompt and failure. The tool reported 42,683 seconds (~11h51m) remaining until reset.
