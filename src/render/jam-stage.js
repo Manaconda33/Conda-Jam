@@ -14,17 +14,18 @@ export const JAM_STAGE=Object.freeze({
   floorHeight:234,
   floorHeightPercent:100*234/360,
   courtDepthShearPixels:240,
-  standardSlicePercent:50,
+  // Show more of the attacking team's half so the midcourt stripe enters frame.
+  standardSlicePercent:70,
   attackCameraApproachRadius:70,
   attackCameraFullFocusRadius:30,
-  attackRimScreenOffsetWorld:15,
+  attackRimScreenOffsetWorld:28,
   hoopAssemblyScale:1.1,
   // Stage-only visual offsets from each endline; the painted court stays unchanged.
-  hoopRimBaselineOffsetWorld:4.4,
+  hoopRimBaselineOffsetWorld:5.85,
   hoopBoardBaselineOffsetWorld:2,
   hoopRimRadius:19,
   hoopRimDepthRadius:4.5,
-  hoopRimWorldRadius:4.2,
+  hoopRimWorldRadius:5.1,
   hoopRimStroke:4,
   hoopNetLength:28,
   hoopBoardWidth:62,
@@ -34,7 +35,7 @@ export const JAM_STAGE=Object.freeze({
   hoopSupportWidth:9,
   hoopBaseHalfWidth:22,
   // Keep the whole support foot outside the endline, toward the front apron.
-  stanchionBaseOffsetWorld:12,
+  stanchionBaseOffsetWorld:14.8,
   stanchionBaseHalfSpanY:12,
   stanchionBaseDepthY:60,
   farHorizontalScale:.94,
@@ -49,7 +50,8 @@ export const JAM_STAGE=Object.freeze({
   ballDiameterPixels:19,
   targetBallDiameterPercent:3.5,
   heightProjectionLinear:.88,
-  actorElevationPixelsPerWorld:20,
+  actorElevationPixelsPerWorld:24,
+  dunkCourtwardOffsetPixels:30,
 });
 
 const normalizedDepth=y=>clamp((Number(y)||0)/JAM_STAGE.nearSidelineY,0,1);
@@ -114,7 +116,12 @@ export function stageViewShearDirection(cameraX,attackDirection){
 
 /** Downward camera pan keeps the full dunk apex clear of the scoreboard. */
 export function stageAttackPanY(jumpZ){
-  return 22*clamp((Number(jumpZ)||0)/5,0,1);
+  return 42*clamp((Number(jumpZ)||0)/5,0,1);
+}
+
+/** Nudge the airborne dunk presentation court-ward so only the hand reaches across the rim. */
+export function stageDunkContactOffsetPixels(jumpZ,facing){
+  return -Math.sign(Number(facing)||1)*JAM_STAGE.dunkCourtwardOffsetPixels*clamp((Number(jumpZ)||0)/5,0,1);
 }
 
 /**
@@ -132,10 +139,20 @@ export function projectJamStagePoint({x,y,z=0,cameraX=100,zoom=100,width=JAM_STA
   const floorHeight=height*(JAM_STAGE.floorHeight/JAM_STAGE.viewportHeight);
   const groundY=height-(height-(floorTop+floorHeight*normalizedFloor))*zoomFactor;
   const shearDirection=stageViewShearDirection(cameraX,viewDirection);
-  const depthShear=(depth-.5)*JAM_STAGE.courtDepthShearPixels*shearDirection*width/JAM_STAGE.viewportWidth;
-  const px=width/2+(x-cameraX)*pixelsPerWorld*horizontalScale*zoomFactor+depthShear;
+  const centerX=JAM_STAGE.courtLength/2;
+  const courtDistance=Number(x)-centerX;
+  const cameraOffset=(centerX-cameraX)*pixelsPerWorld*JAM_STAGE.nearHorizontalScale*zoomFactor;
+  const courtOffset=courtDistance*pixelsPerWorld*horizontalScale*zoomFactor;
+  const shearStrength=clamp(Math.abs(courtDistance)/centerX,0,1);
+  const depthShear=(depth-.5)*JAM_STAGE.courtDepthShearPixels*shearDirection*shearStrength*width/JAM_STAGE.viewportWidth;
+  const px=width/2+cameraOffset+courtOffset+depthShear;
   const py=groundY-(Number(z)||0)*JAM_STAGE.actorElevationPixelsPerWorld*zoomFactor;
   return [px,py];
+}
+
+/** Keep the preview's half-court stripe vertical while the other court lines retain perspective. */
+export function stageMidcourtScreenX({cameraX=100,zoom=100,width=JAM_STAGE.viewportWidth,height=JAM_STAGE.viewportHeight,viewDirection}={}){
+  return projectJamStagePoint({x:JAM_STAGE.courtLength/2,y:JAM_STAGE.nearSidelineY,z:0,cameraX,zoom,width,height,viewDirection})[0];
 }
 
 /**

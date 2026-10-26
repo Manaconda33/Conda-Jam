@@ -1,16 +1,22 @@
 {
-  "capturedAt": "2026-10-26T15:57:51.439Z",
+  "capturedAt": "2026-10-26T16:43:52.154Z",
   "browserVersion": "154.0.8037.57",
   "viewport": {
     "landscape": "1200x900 canvas native480x360",
     "portrait": "390x844"
   },
   "stagePreview": true,
-  "stageRevision": 10,
+  "stageRevision": 13,
   "courtProjection": {
     "floorTop": 126,
     "floorHeight": 234,
     "floorHeightPercent": 65,
+    "visibleCourtLengthPercent": {
+      "far": 74.468085106383,
+      "mid": 72.16494845360825,
+      "near": 70
+    },
+    "midcourtStripe": "vertical from the center-based court projection; adjacent endlines retain perspective",
     "northSouthShearPixels": 240,
     "viewDirection": "locked to the current attack direction for the complete camera pan",
     "standingHeightsPercent": {
@@ -20,63 +26,63 @@
     }
   },
   "hoopGeometry": {
-    "rimWorldRadius": 4.2,
+    "rimWorldRadius": 5.1,
     "baselineOffsetsWorld": {
-      "rim": 4.4,
+      "rim": 5.85,
       "board": 2,
-      "baseBeyond": 12
+      "baseBeyond": 14.8
     },
     "supportDepthY": 60,
     "measurements": {
       "left": {
-        "rimCenterPercent": 28.88289361702128,
-        "rimEdgeBaselineGapPixels": -1.5564326585284363,
-        "rimDiameterPixels": 44.04974202983085,
-        "boardWidthPercent": 12.634702127659576,
-        "boardBaselineAngleErrorDegrees": 0,
+        "rimCenterPercent": 28.217348024316113,
+        "rimEdgeBaselineGapPixels": -1.9114679054494417,
+        "rimDiameterPixels": 42.1076370321491,
+        "boardWidthPercent": 13.300000000000008,
+        "boardBaselineAngleErrorDegrees": 2.5444437451708134e-14,
         "boardScreenBounds": {
-          "left": 97.14020425531916,
-          "right": 157.78677446808513,
-          "top": 66.37099999999997,
-          "bottom": 164.18099999999995
+          "left": 90.7192705167173,
+          "right": 154.55927051671733,
+          "top": 66.37099999999995,
+          "bottom": 164.18099999999998
         },
-        "assemblyWidthPercent": 31.996619594198634,
-        "assemblyHeightPercent": 61.79113111111112,
+        "assemblyWidthPercent": 30.710887615681475,
+        "assemblyHeightPercent": 61.79113111111113,
         "baseWorld": {
-          "x": -6,
+          "x": -7.4,
           "y": 60,
-          "outerX": -12
+          "outerX": -14.8
         },
         "baseScreenBounds": {
-          "left": 7.061024680851105,
-          "right": 123.10222978723407,
+          "left": 8.771750516717375,
+          "right": 121.19927051671736,
           "top": 231.311232,
           "bottom": 288.819072
         },
         "baseVisible": true
       },
       "right": {
-        "rimCenterPercent": 71.11710638297872,
-        "rimEdgeBaselineGapPixels": -1.556432658528422,
-        "rimDiameterPixels": 44.04974202983095,
-        "boardWidthPercent": 12.63470212765957,
-        "boardBaselineAngleErrorDegrees": 0,
+        "rimCenterPercent": 71.78265197568389,
+        "rimEdgeBaselineGapPixels": -1.9114679054494559,
+        "rimDiameterPixels": 42.10763703214906,
+        "boardWidthPercent": 13.300000000000008,
+        "boardBaselineAngleErrorDegrees": 6.3611093629270335e-15,
         "boardScreenBounds": {
-          "left": 322.2132255319149,
-          "right": 382.8597957446808,
-          "top": 66.37099999999997,
-          "bottom": 164.18099999999995
+          "left": 325.44072948328267,
+          "right": 389.2807294832827,
+          "top": 66.37099999999995,
+          "bottom": 164.18099999999998
         },
-        "assemblyWidthPercent": 31.99661959419867,
-        "assemblyHeightPercent": 61.79113111111112,
+        "assemblyWidthPercent": 30.710887615681475,
+        "assemblyHeightPercent": 61.79113111111113,
         "baseWorld": {
-          "x": 206,
+          "x": 207.4,
           "y": 60,
-          "outerX": 212
+          "outerX": 214.8
         },
         "baseScreenBounds": {
-          "left": 356.8977702127659,
-          "right": 472.93897531914894,
+          "left": 358.8007294832826,
+          "right": 471.2282494832827,
           "top": 231.311232,
           "bottom": 288.819072
         },
@@ -85,10 +91,12 @@
     }
   },
   "actionProjection": {
-    "actorElevationPixelsPerWorld": 20,
-    "dunkCaptureLiftPixels": 100,
+    "actorElevationPixelsPerWorld": 24,
+    "dunkCaptureLiftPixels": 120,
     "attackZoomAtApex": 1.08,
-    "attackPanAtApex": 22
+    "attackPanAtApex": 42,
+    "dunkCourtwardOffsetAtApexPixels": -30,
+    "shadow": "fixed at action takeoff x/y on the court plane"
   },
   "cameraSequence": [
     {
@@ -103,7 +111,7 @@
     {
       "name": "f-dunk-launch",
       "cameraXBefore": 128.7,
-      "cameraXAfter": 155.9,
+      "cameraXAfter": 154.532,
       "playerX": 168,
       "playerZ": 2,
       "clip": "dunk-power",
@@ -111,8 +119,8 @@
     },
     {
       "name": "g-dunk-apex",
-      "cameraXBefore": 155.9,
-      "cameraXAfter": 172.114,
+      "cameraXBefore": 154.532,
+      "cameraXAfter": 160.309,
       "playerX": 178,
       "playerZ": 5,
       "clip": "dunk-power",
@@ -120,8 +128,8 @@
     },
     {
       "name": "h-dunk-recovery",
-      "cameraXBefore": 172.114,
-      "cameraXAfter": 173.688,
+      "cameraXBefore": 160.309,
+      "cameraXAfter": 160.787,
       "playerX": 174,
       "playerZ": 1,
       "clip": "dunk-power",
@@ -217,6 +225,8 @@
         "player": "reed-ashcroft",
         "x": 178,
         "y": 72,
+        "takeoffX": 150,
+        "takeoffY": 72,
         "z": 5,
         "facing": 1,
         "clip": "dunk-power",
@@ -454,6 +464,8 @@
         "player": "reed-ashcroft",
         "x": 150,
         "y": 72,
+        "takeoffX": 150,
+        "takeoffY": 72,
         "z": 0,
         "facing": 1,
         "clip": "dunk-power",
@@ -476,6 +488,8 @@
         "player": "reed-ashcroft",
         "x": 168,
         "y": 72,
+        "takeoffX": 150,
+        "takeoffY": 72,
         "z": 2,
         "facing": 1,
         "clip": "dunk-power",
@@ -486,7 +500,7 @@
       },
       "camera": {
         "cameraXBefore": 128.7,
-        "cameraXAfter": 155.9,
+        "cameraXAfter": 154.532,
         "playerX": 168,
         "playerZ": 2,
         "clip": "dunk-power",
@@ -498,6 +512,8 @@
         "player": "reed-ashcroft",
         "x": 178,
         "y": 72,
+        "takeoffX": 150,
+        "takeoffY": 72,
         "z": 5,
         "facing": 1,
         "clip": "dunk-power",
@@ -507,8 +523,8 @@
         "ballDz": 2.163
       },
       "camera": {
-        "cameraXBefore": 155.9,
-        "cameraXAfter": 172.114,
+        "cameraXBefore": 154.532,
+        "cameraXAfter": 160.309,
         "playerX": 178,
         "playerZ": 5,
         "clip": "dunk-power",
@@ -520,6 +536,8 @@
         "player": "reed-ashcroft",
         "x": 174,
         "y": 72,
+        "takeoffX": 150,
+        "takeoffY": 72,
         "z": 1,
         "facing": 1,
         "clip": "dunk-power",
@@ -529,8 +547,8 @@
         "ballDz": 2.2785
       },
       "camera": {
-        "cameraXBefore": 172.114,
-        "cameraXAfter": 173.688,
+        "cameraXBefore": 160.309,
+        "cameraXAfter": 160.787,
         "playerX": 174,
         "playerZ": 1,
         "clip": "dunk-power",

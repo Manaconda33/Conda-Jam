@@ -1,9 +1,9 @@
-## Continuation checkpoint — 2026-10-26 (Issue #4 landscape hoop revision 10)
+## Continuation checkpoint — 2026-10-26 (Issue #4 landscape hoop revision 13)
 
-- Revision 10 is ready for owner review in the separate review gallery, version 6 (`appgver_3baedc45398c819187215b2740ee6576`, source `a73ca581cb3f6cbb421fde98dd30fc87cb9a9945`). The renderer remains opt-in at `?stagePreview=1`; production Pages was not changed.
-- The 65% north–south floor band preserves standing athlete scale. The board projects 12.63% of viewport width and is aligned with the endline; the 44.05px rim edge crosses that line by about 1.56px. The full assembly measures 32.0% W × 61.8% H. Both 12-world-unit off-court bases remain fully visible.
-- Four dunk frames record camera follow from x=101.5 through 128.7 / 155.9 / 172.1 to 173.7 on recovery while the attacker moves x=150→168→178→174. The separate authored ball track and elevated pose remain aligned. Eight deterministic Chromium captures have no page errors.
-- Focused stage projection tests pass 10/10; broader validation and latest gallery version are tracked in `docs/QA_REPORT.md` and `docs/ISSUE_4_STAGE_PREVIEW.md`. Portrait remains letterboxed at 32.3% screen height versus its 55% target. Issue #4 remains PARTIAL and is not accepted.
+- Revision 13 is ready for owner review in the private stage gallery, version 7, source `f66f2e38c49321cb7d06d685c77845173d2271d1`: https://jamverse-stage-review-20261026.manaconda2433.chatgpt.site/. The renderer remains opt-in at `?stagePreview=1`; production Pages and gameplay were not changed.
+- The 65% north–south floor band preserves standing athlete scale. The midcourt stripe meets both projected boundaries vertically; visible court length is 70.0% near / 72.2% mid / 74.5% far. The 42.11px rim extends 1.91px over the baseline; the 13.30%-wide board follows its endline. The complete assembly measures 30.71% W × 61.79% H, with both 14.8-world-unit off-court bases visible.
+- Shot/dunk elevation is distinct from standing scale; dunk peak lift is 120px and the shadow stays at takeoff. Independent visual review accepts the dunker's relation to rim, board, and separate ball track. Eight deterministic Chromium 154 captures report zero page errors.
+- Full validation: `npm test` 52/52 files; lint 19 modules; content validation 35 franchises / 105 athletes; focused stage projection 11/11; isolated bundle build passed. Gallery preserves R5/R10/R11 comparisons. Portrait remains letterboxed at 32.3% screen height versus its 55% target; Issue #4 remains PARTIAL and is not accepted.
 - No animation art or registrations changed. Preserve the user-owned untracked J.106 helper. Production Pages remains at the prior documented `513e0a59` / run #169 checkpoint; no production deployment was made.
 
 ## Continuation checkpoint — 2026-10-26 (J.130 Briar `layup` source attempts)

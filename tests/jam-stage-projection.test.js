@@ -11,9 +11,11 @@ import {
   stageBallHeightPixels,
   stageAttackPanY,
   stageAttackZoom,
+  stageDunkContactOffsetPixels,
   stageCameraFocusX,
   stageViewShearDirection,
   stageHoopGeometry,
+  stageMidcourtScreenX,
 } from '../src/render/jam-stage.js';
 import { courtMarkings } from '../src/render/court-geometry.js';
 
@@ -34,18 +36,20 @@ test('Jam stage expands north-south court space without changing athlete scale',
 test('stage jump projection raises the whole athlete by the reference height without scaling the sprite',()=>{
   const ground=projectJamStagePoint({x:100,y:50,z:0,cameraX:100});
   const peak=projectJamStagePoint({x:100,y:50,z:5,cameraX:100});
-  assert.equal(ground[1]-peak[1],100);
+  assert.equal(ground[1]-peak[1],120);
   assert.equal(stageStandingHeightPercent(50),29.83023333333333);
   const rawAttachedBallHeight=2.4*7+60.564;
-  assert.equal(stageBallHeightPixels(rawAttachedBallHeight,2.4,1.82),2.4*20+60.564*1.82);
+  assert.equal(stageBallHeightPixels(rawAttachedBallHeight,2.4,1.82),2.4*24+60.564*1.82);
   assert.equal(stageAttackZoom(0),1);
   assert.equal(stageAttackZoom(2.5),1.04);
   assert.equal(stageAttackZoom(5),1.08);
 });
 
-test('standard stage slice is about half the court and far sideline narrows',()=>{
+test('preview reveals most of the attacking half while far sideline narrows',()=>{
   const midSlice=stageCourtSlicePercent(50);
-  assert.ok(midSlice>=48&&midSlice<=52,`mid-court slice ${midSlice}%`);
+  const nearSlice=stageCourtSlicePercent(100);
+  assert.equal(nearSlice,70,'near side shows 70% of the court length');
+  assert.ok(midSlice>=71&&midSlice<=74,`mid-court slice ${midSlice}%`);
   const farLeft=projectJamStagePoint({x:0,y:0,cameraX:100})[0];
   const nearLeft=projectJamStagePoint({x:0,y:100,cameraX:100})[0];
   const farRight=projectJamStagePoint({x:200,y:0,cameraX:100})[0];
@@ -53,14 +57,31 @@ test('standard stage slice is about half the court and far sideline narrows',()=
   assert.ok(farRight-farLeft<nearRight-nearLeft,'far sideline is shorter than the near sideline');
 });
 
+test('the preview half-court stripe stays vertical while other court lines keep perspective',()=>{
+  const cameraX=stageCameraFocusX(200,200,1),viewDirection=1;
+  const far=projectJamStagePoint({x:100,y:0,cameraX,viewDirection});
+  const near=projectJamStagePoint({x:100,y:100,cameraX,viewDirection});
+  const centerX=stageMidcourtScreenX({cameraX,viewDirection});
+  assert.equal(centerX,near[0],'the vertical stripe remains attached to the visible near-side half-court crossing');
+  assert.ok(Math.abs(far[0]-near[0])<1e-9,'the projected court plane keeps the center stripe vertical at both endline crossings');
+  assert.ok(Math.abs(centerX-far[0])<1e-9);
+  assert.ok(Math.abs(stageDunkContactOffsetPixels(0,1))<1e-9);
+  assert.equal(stageDunkContactOffsetPixels(5,1),-30,'the rising dunk body shifts toward midcourt at peak');
+  assert.equal(stageDunkContactOffsetPixels(5,-1),30,'mirrored dunks shift toward midcourt');
+});
+
 test('north-south perspective shifts court lines and produces a foreshortened endline axis',()=>{
-  const far=projectJamStagePoint({x:120,y:0,cameraX:120});
-  const near=projectJamStagePoint({x:120,y:100,cameraX:120});
-  assert.equal(near[0]-far[0],JAM_STAGE.courtDepthShearPixels);
+  const far=projectJamStagePoint({x:200,y:0,cameraX:120});
+  const near=projectJamStagePoint({x:200,y:100,cameraX:120});
+  const expectedEdgeShift=JAM_STAGE.courtDepthShearPixels+(JAM_STAGE.courtLength/2)*(JAM_STAGE.nearHorizontalScale-JAM_STAGE.farHorizontalScale)*(JAM_STAGE.viewportWidth/(JAM_STAGE.courtLength*(JAM_STAGE.standardSlicePercent/100)));
+  assert.ok(Math.abs((near[0]-far[0])-expectedEdgeShift)<1e-9,'endline perspective combines shear and far/near court scale');
   assert.ok(JAM_STAGE.courtDepthShearPixels>=220&&JAM_STAGE.courtDepthShearPixels<=250);
-  const leftFar=projectJamStagePoint({x:80,y:0,cameraX:80})[0];
-  const leftNear=projectJamStagePoint({x:80,y:100,cameraX:80})[0];
-  assert.equal(leftNear-leftFar,-JAM_STAGE.courtDepthShearPixels);
+  const centerFar=projectJamStagePoint({x:100,y:0,cameraX:120})[0];
+  const centerNear=projectJamStagePoint({x:100,y:100,cameraX:120})[0];
+  assert.ok(Math.abs(centerNear-centerFar)<1e-9,'the centered vertical stripe has no north-south shear');
+  const leftFar=projectJamStagePoint({x:0,y:0,cameraX:80})[0];
+  const leftNear=projectJamStagePoint({x:0,y:100,cameraX:80})[0];
+  assert.ok(Math.abs((leftNear-leftFar)+expectedEdgeShift)<1e-9);
   const [leftEnd,rightEnd]=courtMarkings().ends;
   for(const [end,direction] of [[leftEnd,-1],[rightEnd,1]]){
     const cameraX=stageCameraFocusX(end.hoop[0],end.hoop[0],direction);
@@ -82,7 +103,8 @@ test('court perspective changes continuously as the attack camera crosses midcou
   assert.ok(Math.abs(stageViewShearDirection(101)-stageViewShearDirection(99))<.11,'camera crossing the midpoint cannot flip court geometry in one frame');
   assert.equal(stageViewShearDirection(101,1),stageViewShearDirection(173,1),'attack camera translation keeps one stable viewing azimuth');
   assert.equal(stageAttackPanY(0),0);
-  assert.equal(stageAttackPanY(5),22,'apex pan clears the HUD while preserving relative actor and hoop height');
+  assert.equal(stageAttackPanY(2.5),21);
+  assert.equal(stageAttackPanY(5),42,'apex pan keeps the higher jump clear of the HUD');
 });
 
 test('depth scale matches Issue 4 near/far ratio and height responds to zoom',()=>{
@@ -125,7 +147,7 @@ test('attack camera frames either rim symmetrically and eases into the approach'
   assert.ok(leftScreenX>=120&&leftScreenX<=150,`left rim at ${leftScreenX}px`);
   const approaching=stageCameraFocusX(150,200,1);
   assert.ok(approaching>150&&approaching<174,'focus transitions smoothly before reaching the rim');
-  assert.equal(stageCameraFocusX(170,200,1),185,'focus settles on the attack framing inside the final 30 world units');
+  assert.equal(stageCameraFocusX(170,200,1),172,'focus settles on the attack framing inside the final 30 world units');
   assert.ok(JAM_STAGE.hoopAssemblyScale>=1&&JAM_STAGE.hoopAssemblyScale<=1.2,'the assembly retains its court-scale geometry');
 });
 

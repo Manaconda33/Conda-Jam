@@ -2,49 +2,45 @@
 
 Date: 2026-10-26
 
-**Status: landscape vertical slice ready for owner review; Issue #4 remains PARTIAL.** The Chicago Condas vs Crownfire Sovereigns stage stays opt-in behind `?stagePreview=1`. Revision 10 improves the basket face and out-of-bounds placement, expands the north–south court projection without scaling standing athletes, and captures a dunk camera sequence. Portrait remains at its letterboxed baseline and does not meet its target.
+**Status: Revision 13 landscape staging candidate ready for owner review; Issue #4 remains PARTIAL.** The Chicago Condas vs Crownfire Sovereigns stage stays opt-in behind `?stagePreview=1`. Production Pages and gameplay are unchanged.
 
 ## Review link and evidence
 
-- [Private stage review gallery](https://jamverse-stage-review-20261026.manaconda2433.chatgpt.site/) shows revision 5 beside revision 10, the left shot release, court scale, portrait baseline, and the approach-to-recovery dunk sequence. The separate Sites project is version 6 (`appgver_3baedc45398c819187215b2740ee6576`), source `a73ca581cb3f6cbb421fde98dd30fc87cb9a9945`; its deployment succeeded. Production GitHub Pages was not changed.
-- Current Chromium captures and measured `capture-manifest.json` are in `artifacts/screenshots/issue4-stage/`. Eight frames include near dribble, right dunk peak, left shot release, portrait baseline, and four dunk camera states. Prior revisions 1–5 remain in `baseline-v1/` through `baseline-v5/`.
-- `tools/capture-issue4-stage.mjs` reproduces the eight frames from authored pose/ball tracks and deterministic scene states. It does not advance gameplay simulation; the camera alone eases between states. Captures are staged frames, not gameplay footage.
+- [Private stage review gallery](https://jamverse-stage-review-20261026.manaconda2433.chatgpt.site/) is version 7, deployed from source commit `f66f2e38c49321cb7d06d685c77845173d2271d1`. It compares Revision 5, R10, R11, and R13; preserves the eight-frame R13 capture set and its manifest. The gallery remains owner-only.
+- Current Chromium captures and measured `capture-manifest.json` are in `artifacts/screenshots/issue4-stage/`. Eight staged frames include near dribble, right dunk peak, left shot release, portrait baseline, and four dunk camera states. R10 and R11 source captures remain separately archived in the review gallery.
+- `tools/capture-issue4-stage.mjs` reproduces the frames from authored pose/ball tracks and deterministic scene states. It does not advance gameplay simulation; the camera alone eases between states. Captures are staged frames, not gameplay footage.
 
-## Revision 10 hoop and camera
+## Revision 13 court, hoop, and jump presentation
 
-The rim's outside edge crosses the projected baseline by about 1.56px in both views. The 44.05px rim remains about 0.41 of a mid-depth standing player's height. The backboard's actual horizontal screen bounds are 12.63% of viewport width and align to the projected baseline within measurement precision (0°). Its north–south axis is projected with a stable attack-direction camera basis, so the court does not rotate as the camera follows an attacker.
+The stage shows 70.0% of the court length from the near side, 72.2% at mid-depth, and 74.5% at the far side. Its 65% north–south floor band leaves standing athletes at 27.2% far, 29.8% mid, and 32.4% near viewport height. The midcourt stripe projects to one screen x-coordinate across the court, meeting both endline boundaries vertically; sideline, endline, and hoop-board depth cues remain.
 
-The entire hoop assembly measures 32.0% W × 61.8% H, within Issue #4's 30–50% W × 55–66% H target. The stanchion foot is 12 world units outside the endline at depth Y=60; both projected base bounds remain visible. The floor occupies 65% of viewport height (y=126–360). Far, mid, and near standing humans remain 27.2%, 29.8%, and 32.4% of viewport height; only the dunk pose receives stage lift, a modest 8% apex push-in, and a 22px downward camera pan.
+The rim is 42.11px wide, about 0.39 of a mid-depth standing player's height. Its outer edge extends 1.91px over the projected out-of-bounds line in both attack views. The backboard is 13.30% of viewport width and parallel to the projected endline at 0°. The complete hoop assembly measures 30.71% W × 61.79% H. Each support base is fully visible 14.8 world units beyond its baseline.
 
-The four-frame camera record moves from x=101.5 at the approach capture to x=128.7, x=155.9, and x=172.1 at launch/apex, then settles at x=173.7 on recovery while the attacker moves x=150→168→178→174. The ball remains at the separate athlete-specific track and clears the HUD in the apex capture.
+Shot and dunk sprites rise with their existing vertical `z` lift: the dunk peak is lifted by 120px in screen space without enlarging standing athletes. Their shadows remain at the action's takeoff x/y on the floor plane. The dunker is court-ward of the rim; the sprite and separate athlete-specific ball track receive the same preview-only screen offset. The renderer sorts the dunker between the backboard and foreground rim/net. The camera sequence advances x=101.5→128.7→154.5→160.3→160.8 through recovery while Reed moves x=150→168→178→174.
 
-The preview renderer remains opt-in. Scoring logic, production sprite frames, and animation registrations are unchanged. Reed's shared `shoot` ball track continues to align gameplay release with his authored hand. No animation assets were added or registered by this pass.
-
-## Landscape measurements
-
-| Check | Revision 10 | Target | Status |
+| Check | Revision 13 | Target | Status |
 | --- | ---: | ---: | --- |
 | Floor band | y=126–360; 65.0% H | expanded north–south view | Pass |
-| Midcourt slice | 50% of court length | 48–52% | Pass |
+| Visible court length | 70.0% near / 72.2% mid / 74.5% far | more attacking half toward midcourt | Pass |
+| Midcourt stripe | vertical and meets both projected boundaries | vertical | Pass |
 | Standing human height | 27.2% far / 29.8% mid / 32.4% near | 24–36% | Pass |
-| Rim / standing-player width | 44.05px / 107.4px; 0.41 ratio | 0.36–0.47 close view | Pass |
-| Full hoop assembly | 32.0% W × 61.8% H | 30–50% W × 55–66% H | Pass |
-| Backboard horizontal bounds | 12.63% W | 12–16% W | Pass |
-| Board / baseline alignment | 0° | parallel with perspective | Pass |
-| Rim edge to baseline | 1.56px beyond in both views | just over out-of-bounds line | Pass |
-| Support base | 12 world units out; fully visible both ends | off court | Pass |
-| Rim centers | left 28.9% / right 71.1% W | left 20–30% / right 70–80% | Pass |
-| Dunk camera follow | x=101.5→173.7 through recovery | frame attacker and basket | Pass |
+| Rim / standing-player width | 42.11px / 107.4px; 0.39 ratio | 0.36–0.47 close view | Pass |
+| Full hoop assembly | 30.71% W × 61.79% H | 30–50% W × 55–66% H | Pass |
+| Board width and alignment | 13.30% W; 0° from projected baseline | 12–16% W; parallel with perspective | Pass |
+| Rim edge to baseline | 1.91px over in both views | just over out-of-bounds line | Pass |
+| Support base | 14.8 world units beyond line; fully visible | base off court | Pass |
+| Dunk lift and shadow | 120px lift; shadow fixed at takeoff | vertical lift from stationary takeoff mark | Pass |
+| Dunk camera follow | x=101.5→160.8 through recovery | frame attacker and basket | Pass |
+
+## Reference and limits
 
 The arcade renderer references court coordinates, object-specific scale, and camera perspective as design principles. The public [NBA Jam assembly archive](https://github.com/historicalsource/nba-jam) separates hoop/backboard coordinates in `WORLD.EQU` and declares perspective modes and scale data in `DISP.EQU`; its provenance and licensing are unclear, and no code was copied. Mark Turmell's [developer interview](https://lawson.media/shows/gameplay/episodes/nba-jam-mark-turmell-tim-kitzrow-reyan-ali) describes scanline scrolling and parallax as historical context, not as a direct Canvas recipe.
 
-## Portrait gate and limits
-
-Portrait retains the existing 4:3 letterboxed layout. The canvas occupies about 32.3% of the 390×844 screen versus the 55% / 464px target. Issue #4 still gates portrait camera/layout work on owner approval of this landscape slice. This candidate does not claim portrait acceptance or full Issue #4 acceptance.
+Portrait retains the existing 4:3 letterboxed layout. The canvas occupies about 32.3% of the 390×844 screen versus the 55% / 464px target. This candidate does not claim portrait acceptance or full Issue #4 acceptance.
 
 ## Verification
 
-- `npm test`: 52 test files pass. `npm run test:e2e`: full Chromium journey passes, including offline standalone startup and a complete match/season progression. `npm run lint`: 19 modules pass.
-- `npm run validate:content`: 35 franchises / 105 athletes pass. `npm run simulate:league`: 100 matches, 857,283 ticks, and 5 overtimes pass. `npm run build` passes.
-- Focused stage projection tests: 10/10 pass, including athlete scale preservation, actual horizontal board bounds, baseline overlap, assembly bounds, stable view azimuth through camera translation, and rim placement. Chromium 154 captured eight deterministic frames with zero page errors; camera X and actual horizontal board bounds are recorded in the manifest.
-- Strict animation audit was not refreshed because this pass changes no assets. Production Pages remains at the prior documented `513e0a59` / run #169 checkpoint; no production Pages deployment was made.
+- `npm test`: 52 test files pass. `npm run lint`: 19 JavaScript modules pass. `npm run validate:content`: 35 franchises / 105 unique athletes pass. Focused stage projection tests pass 11/11. An isolated production bundle build passes.
+- The preserved Chromium 154 R13 capture set reports zero page errors. An optional R14 offset trial could not start Chromium in the current restricted environment; the unreviewed change was discarded, and the captured R13 geometry remains the candidate.
+- Independent visual review confirms the vertical center stripe, larger attacking-half view, visible vertical lift from the stationary takeoff shadow, and a dunk pose that reads as reaching toward the rim rather than standing on it.
+- No animation art, sprite frames, animation registrations, scoring logic, or production gameplay path changed. The strict animation audit was not refreshed because no animation assets changed. Production Pages remains at the prior documented `513e0a59` / run #169 checkpoint; no production Pages deployment was made.
