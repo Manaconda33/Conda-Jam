@@ -63,7 +63,9 @@ function updateRunArtStatus(){if([captainRunAtlas,supportingRunAtlas,captainRunA
 const safeStore={get(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}},set(key,value){try{localStorage.setItem(key,JSON.stringify(value))}catch{}}};
 let match=null,raf=0,last=0,accumulator=0,controlled=[],keyboardPlayers=[],camX=100,stageViewDirection=1,mode='menu',practice=false,musicVolume=.55,effectsVolume=.55,screenShake=true,reducedFlash=false,audioCaptions=true,teamMarkers=false,textSize=100,cameraZoom=100,touchMode='buttons', campaign=false,tournamentMode=false, audio=null, ui={};
 const diagnostics=createDebugDiagnostics({enabled:new URLSearchParams(location.search).get('debug')==='1'});
-const stagePreview=new URLSearchParams(location.search).get('stagePreview')==='1';
+// Issue #4 stage work is now the default gameplay renderer. Keep the previous
+// projection available only as an explicit rollback/debug switch.
+const stagePreview=new URLSearchParams(location.search).get('stagePreview')!=='0';
 canvas.dataset.debugMode=String(diagnostics.enabled);
 canvas.dataset.stagePreview=String(stagePreview);
 const teamById=id=>teams.find(t=>t.id===id)||teams[0];

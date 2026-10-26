@@ -1,4 +1,6 @@
-# Latest checkpoint — Issue #4 stage R16 synced to GitHub (2026-10-26)
+# Latest checkpoint — Issue #4 stage default-renderer correction (2026-10-26)
+
+- The successful `d1c8cac3` Pages deploy contained the R16 court/hoop/camera code but activated it only with `?stagePreview=1`; the regular game link therefore showed the old renderer. `src/main.js` now enables R16 by default and keeps `?stagePreview=0` as a legacy comparison switch. Local validation passes: 52/52 test files, lint19 modules, standalone build. Deployment of this correction is pending.
 
 - R15 of opt-in `?stagePreview=1` restores 50% horizontal court framing, returning the key/three-point size to R10 scale. Court floor depth grows to 72.2% H (from65% in R13) without changing player scale; the centered midcourt stripe is pixel-vertical and meets both projected endline midpoints. Rim is42.44px, 2.79px over the out-of-bounds line; board is13.16% W and parallel to the endline; assembly is32.64% W ×63.95% H; off-court bases remain visible.
 - R16 updates shadow placement to follow athlete x at fixed takeoff court depth, including the dunk contact offset. Visual capture is pending: Chromium launch failed with sandbox `setsockopt: Operation not permitted` / `SIGTRAP` before rendering. The R15 separate ball track, layer ordering, and dunk relation to the basket passed independent visual review; its camera follows x=101.5→128.7→155.9→170.4→171.7, and its manifest contains eight staged views and geometry measurements.
