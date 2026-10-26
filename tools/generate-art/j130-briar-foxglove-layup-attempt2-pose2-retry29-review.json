@@ -1,0 +1,19 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry29",
+  "decision": "NOT REVIEWABLE",
+  "prompt": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry29-prompt.md",
+  "generationStatus": "FAILED_BEFORE_IMAGE_CREATION",
+  "generationId": null,
+  "source": null,
+  "sourceSha256": null,
+  "preview": null,
+  "checks": {
+    "pose": "NOT REVIEWABLE: generation failed before an image was returned.",
+    "palette": "NOT REVIEWABLE: no generated image exists.",
+    "transparency": "NOT REVIEWABLE: no generated image exists.",
+    "cellMarginsAndScale": "NOT REVIEWABLE: no generated image exists.",
+    "identityAnatomy": "NOT REVIEWABLE: no generated image exists.",
+    "ball": "NOT REVIEWABLE: no generated image exists."
+  },
+  "reason": "The image-generation tool returned HTTP 429 usage_limit_reached before creating an image. No output ID, output hint, raw source, image hash, metrics, or preview exists. Do not accept, clean, pack, or register this attempt."
+}

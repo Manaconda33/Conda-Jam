@@ -1,0 +1,22 @@
+{
+  "asset": "J.130 Briar Foxglove layup frame2 retry29",
+  "operation": "single-pose source generation attempt",
+  "generationTool": "image_gen.imagegen",
+  "attemptedAtUtc": "2026-10-26T00:03:39Z",
+  "promptPath": "tools/generate-art/j130-briar-foxglove-layup-attempt2-pose2-retry29-prompt.md",
+  "generationStatus": "FAILED_BEFORE_IMAGE_CREATION",
+  "generationId": null,
+  "outputHint": null,
+  "failure": {
+    "httpStatus": 429,
+    "errorType": "usage_limit_reached",
+    "message": "The image generation usage limit was reached. No image was created, so the service returned no generation ID, output hint, or image path.",
+    "retryAfterSeconds": 47537
+  },
+  "sourcePath": null,
+  "sourceSha256": null,
+  "decodedRgbaPixelSha256": null,
+  "metrics": null,
+  "previewPath": null,
+  "disposition": "NOT REVIEWABLE; no generated image exists. Do not infer or fabricate source evidence."
+}
