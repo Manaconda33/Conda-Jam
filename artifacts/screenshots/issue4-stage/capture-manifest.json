@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-26T02:58:27.344Z",
+  "capturedAt": "2026-10-26T03:53:13.223Z",
   "browserVersion": "154.0.8037.57",
   "viewport": {
     "landscape": "1200x900 canvas native480x360",
@@ -172,31 +172,31 @@
     "c-left-shot-release": {
       "scene": {
         "player": "reed-ashcroft",
-        "x": 42,
+        "x": 33,
         "y": 63,
         "z": 2.2,
         "facing": -1,
         "clip": "shoot",
         "tick": 13,
         "carried": false,
-        "ballX": 40.5,
+        "ballDx": 11.5,
         "ballY": 63,
         "ballZ": 8.133333333333336,
         "ballVx": -0.15,
         "defenders": [
           [
             "manaconda",
-            60,
+            53,
             26
           ],
           [
             "auric-scale",
-            58,
+            55,
             74
           ],
           [
             "dragon-queen",
-            80,
+            75,
             45
           ]
         ]
@@ -206,7 +206,7 @@
         "players": [
           {
             "id": "manaconda",
-            "x": 60,
+            "x": 53,
             "y": 26,
             "z": 0,
             "facing": 1,
@@ -215,7 +215,7 @@
           },
           {
             "id": "reed-ashcroft",
-            "x": 42,
+            "x": 33,
             "y": 63,
             "z": 2.2,
             "facing": -1,
@@ -224,7 +224,7 @@
           },
           {
             "id": "dragon-queen",
-            "x": 80,
+            "x": 75,
             "y": 45,
             "z": 0,
             "facing": -1,
@@ -233,7 +233,7 @@
           },
           {
             "id": "auric-scale",
-            "x": 58,
+            "x": 55,
             "y": 74,
             "z": 0,
             "facing": -1,
@@ -243,7 +243,7 @@
         ],
         "ball": {
           "mode": "shot",
-          "x": 40.5,
+          "x": 21.5,
           "y": 63,
           "z": 8.133333333333336,
           "ownerId": null

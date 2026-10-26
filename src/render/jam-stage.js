@@ -17,9 +17,17 @@ export const JAM_STAGE=Object.freeze({
   attackCameraApproachRadius:70,
   attackCameraFullFocusRadius:30,
   attackRimScreenOffsetWorld:26,
-  hoopAssemblyScale:1.9,
-  stanchionBaseY:55,
-  stanchionBaseOffsetWorld:0,
+  hoopAssemblyScale:1.1,
+  hoopRimRadius:19,
+  hoopRimDepthRadius:4.5,
+  hoopRimStroke:4,
+  hoopNetLength:28,
+  hoopBoardWidth:42,
+  hoopBoardHeight:68,
+  hoopSupportWidth:9,
+  hoopBaseHalfWidth:22,
+  stanchionBaseY:92,
+  stanchionBaseOffsetWorld:10,
   farHorizontalScale:.94,
   nearHorizontalScale:1,
   rendererSpriteScale:2.05,
@@ -94,4 +102,46 @@ export function projectJamStagePoint({x,y,z=0,cameraX=100,zoom=100,width=JAM_STA
   const px=width/2+(x-cameraX)*pixelsPerWorld*horizontalScale*zoomFactor;
   const py=groundY-(Number(z)||0)*7*zoomFactor;
   return [px,py];
+}
+
+/**
+ * Project the rim, backboard, and foreground stanchion from court anchors.
+ * The rim/backboard stay at the basket depth while the stanchion foot sits
+ * nearer the camera, giving the assembly real court depth instead of one
+ * screen-space enlargement around the rim.
+ */
+export function stageHoopGeometry(end,{cameraX=100,zoom=100,width=JAM_STAGE.viewportWidth,height=JAM_STAGE.viewportHeight}={}){
+  const [worldX,worldY]=end.hoop;
+  const side=worldX>JAM_STAGE.courtLength/2?1:-1;
+  const zoomFactor=clamp(Number.isFinite(zoom)?zoom/100:1,.5,2);
+  const depthScale=stageDepthScale(worldY);
+  const scale=JAM_STAGE.hoopAssemblyScale*depthScale*zoomFactor;
+  const [rimFloorX,rimFloorY]=projectJamStagePoint({x:worldX,y:worldY,cameraX,zoom,width,height});
+  const [boardFloorX]=projectJamStagePoint({x:end.board[0],y:end.board[1],cameraX,zoom,width,height});
+  const [baseX,baseY]=projectJamStagePoint({
+    x:worldX+side*JAM_STAGE.stanchionBaseOffsetWorld,
+    y:JAM_STAGE.stanchionBaseY,
+    cameraX,zoom,width,height,
+  });
+  const rimY=rimFloorY-end.rimHeight*1.18;
+  const boardHeight=JAM_STAGE.hoopBoardHeight*scale;
+  return {
+    rimX:rimFloorX,
+    rimY,
+    rimWidthPixels:(JAM_STAGE.hoopRimRadius*2+JAM_STAGE.hoopRimStroke)*scale,
+    rimDepthPixels:JAM_STAGE.hoopRimDepthRadius*2*scale,
+    boardX:boardFloorX,
+    supportAttachX:boardFloorX+side*JAM_STAGE.hoopBoardWidth*scale*.42,
+    boardTop:rimY-boardHeight,
+    boardWidth:JAM_STAGE.hoopBoardWidth*scale,
+    boardHeight,
+    baseX,
+    baseY,
+    baseHalfWidth:JAM_STAGE.hoopBaseHalfWidth*scale,
+    supportWidth:JAM_STAGE.hoopSupportWidth*scale,
+    netLength:JAM_STAGE.hoopNetLength*scale,
+    scale,
+    rimDepth:worldY,
+    supportDepth:JAM_STAGE.stanchionBaseY,
+  };
 }

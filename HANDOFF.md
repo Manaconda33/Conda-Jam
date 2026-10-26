@@ -1,10 +1,11 @@
-## Continuation checkpoint — 2026-10-26 (Issue #4 stage review candidate)
+## Continuation checkpoint — 2026-10-26 (Issue #4 hoop projection revision)
 
-- Expanded the opt-in Chicago Condas vs Crownfire stage into a renderer-only review candidate. The regular 480×360 canvas now projects a 50% midcourt slice into a 57.8% floor band, scales registered athlete sprites by court depth, and stages larger, mirrored baskets with feet visible. Preview mode alone adjusts camera focus, alpha-padding normalization, and rendered ball height/depth; simulation coordinates and gameplay rules remain unchanged.
-- Canonical landscape evidence passes measured near/far standing heights, dunk pose height, ball diameter, court slice, floor band, rim centers and complete hoop assembly bounds. The dunk ball is separately drawn at Reed's authored raised-hand track. Independent read-only visual and geometry reviews passed the landscape candidate.
-- Four staged Chromium 154 screenshots, capture metadata, and reproducible driver are at `artifacts/screenshots/issue4-stage/` and `tools/capture-issue4-stage.mjs`. These are staged frames from reviewed production sprites, not gameplay footage. Portrait remains the existing 4:3 letterboxed baseline at about32.3% screen height, below its55% target; no portrait work was made before the Issue #4 approval gate.
-- Build, lint, all 51 test files and the Chromium offline/match/season E2E journey pass; stage projection tests (6) and camera tracking tests (5) pass. No deployment or overwrite. Preview details and measurements are in `docs/ISSUE_4_STAGE_PREVIEW.md`; Issue #4 remains unaccepted pending portrait approval/work.
-- Animation roster state is unchanged: J.130 Briar `layup` remains unregistered. The user-owned untracked J.106 helper remains untouched. Previous validated remote deployment remains `513e0a59` / Pages run #169; current staging work is local.
+- Revised the opt-in stage hoop after review of the supplied NBA Jam references and public assembly archive. The 1.9× full-assembly enlargement and 30–50% viewport-width criterion are removed. Rim/backboard use separate court anchors; the stanchion foot projects to the near sideline and sorts independently.
+- Current rim geometry is about 42.5 logical pixels wide, about 0.40 of a mid-depth standing player. Both mirrored captures clear the post from the rim and player silhouette. Dunk ball/fingertips meet the rim; the revised left shot-release setup places Reed near the basket.
+- Current and prior screenshots, manifests, and captures are preserved under `artifacts/screenshots/issue4-stage/`; prior captures are in `baseline-v1/`. Capture driver: `tools/capture-issue4-stage.mjs`. Review gallery: https://jamverse-stage-review-20261026.manaconda2433.chatgpt.site/ (separate private Sites project; screenshot gallery only).
+- `npm test` passed 494 tests; Chromium E2E, lint, content validation (35/105), league simulation (100 games), build, and 12 focused geometry/camera tests passed. The new four-frame Chromium capture has zero page errors.
+- Renderer remains opt-in with `?stagePreview=1`; gameplay, animation assets, and simulation are unchanged. Portrait remains a 32.3% letterboxed baseline below its 55% target. Issue #4 remains a review candidate, not accepted. Production Pages remains `513e0a59` / run #169; no production deployment was made.
+- Animation roster/audit remains unchanged. User-owned untracked J.106 helper remains untouched.
 
 ## Continuation checkpoint — 2026-10-26 (J.130 Briar `layup` source attempts)
 

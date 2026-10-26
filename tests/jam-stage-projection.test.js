@@ -9,7 +9,9 @@ import {
   stageAthleteScale,
   stageStandingHeightPercent,
   stageCameraFocusX,
+  stageHoopGeometry,
 } from '../src/render/jam-stage.js';
+import { courtMarkings } from '../src/render/court-geometry.js';
 
 test('Jam stage projects the court into a low floor band',()=>{
   const far=projectJamStagePoint({x:100,y:0,cameraX:100});
@@ -68,5 +70,22 @@ test('attack camera frames either rim symmetrically and eases into the approach'
   const approaching=stageCameraFocusX(150,200,1);
   assert.ok(approaching>150&&approaching<174,'focus transitions smoothly before reaching the rim');
   assert.equal(stageCameraFocusX(170,200,1),174,'focus settles on the attack framing inside the final 30 world units');
-  assert.ok(JAM_STAGE.hoopAssemblyScale>=1.9,'the stage hoop meets the 30% assembly-width floor after uniform scale-up');
+  assert.ok(JAM_STAGE.hoopAssemblyScale>=1&&JAM_STAGE.hoopAssemblyScale<=1.2,'the assembly retains its court-scale geometry');
+});
+
+test('stage hoops use court anchors, reference-sized rims, and distinct support depth',()=>{
+  const [leftEnd,rightEnd]=courtMarkings().ends;
+  const left=stageHoopGeometry(leftEnd,{cameraX:37.2});
+  const right=stageHoopGeometry(rightEnd,{cameraX:162.8});
+  const playerHeight=JAM_STAGE.viewportHeight*stageStandingHeightPercent(50)/100;
+  const rimPlayerRatio=right.rimWidthPixels/playerHeight;
+  assert.ok(rimPlayerRatio>=.36&&rimPlayerRatio<=.47,`rim is ${rimPlayerRatio.toFixed(2)} of a standing player`);
+  assert.ok(left.rimX<240&&right.rimX>240,'mirrored attack views place each rim on its attack side');
+  assert.ok(left.boardX<left.rimX&&right.boardX>right.rimX,'backboards project from their own court anchors');
+  assert.ok(left.baseY>left.rimY&&right.baseY>right.rimY,'the stanchion foot projects toward the near sideline');
+  assert.ok(left.supportDepth>left.rimDepth&&right.supportDepth>right.rimDepth,'foreground support sorts separately from the rim');
+  assert.ok(left.supportAttachX<left.rimX-left.rimWidthPixels/2&&right.supportAttachX>right.rimX+right.rimWidthPixels/2,'support attaches outside the rim on both sides');
+  assert.ok(left.boardHeight/left.rimWidthPixels>=1.5&&right.boardHeight/right.rimWidthPixels<=1.7,'backboard keeps a taller arcade silhouette');
+  assert.ok(left.rimX-left.rimWidthPixels/2>=0&&right.rimX+right.rimWidthPixels/2<=JAM_STAGE.viewportWidth,'both rims remain inside the attack frame');
+  assert.ok(left.boardWidth<80&&right.boardWidth<80,'the board avoids the former full-screen enlargement');
 });
