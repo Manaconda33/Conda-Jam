@@ -28,9 +28,13 @@
     "pending": [
       "fit and crop margins",
       "joint eight-pose baseline/timing review",
-      "cleanup and light/dark proof",
       "native game preview"
     ],
-    "notRegistered": true
+    "notRegistered": true,
+    "completed": [
+      "light/dark preview composited and visually reviewed"
+    ],
+    "preview": "tools/generate-art/previews/j130-briar-foxglove-layup/attempt-01/light-dark-review.png",
+    "previewSha256": "92238bff4b082617f4257e66d70a644e10e2ab76975fc655353d53bd80482622"
   }
 }
