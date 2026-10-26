@@ -1,3 +1,11 @@
+## Current continuation checkpoint — 2026-10-26 (Issue #4 stage preview ready for review)
+
+Issue #4 now has a local, opt-in renderer review candidate for Chicago Condas vs Crownfire Sovereigns. The default view and simulation remain unchanged; use `?stagePreview=1` only. Four staged Chromium 154 screenshots and their scene/ball metadata are recorded in `artifacts/screenshots/issue4-stage/`, with the reusable capture driver at `tools/capture-issue4-stage.mjs`. They use real registered sprites and authored ball tracks, and are explicitly labeled staged rather than gameplay footage.
+
+Independent landscape measurement passes: floor57.8% H, midcourt slice50%, standing figures30.6% near /27.8% far, dunker39.4%, ball4.0% W, full hoop assemblies30.4–30.6% W, rim centers75.8–76.0% right /24.8% left, and dunk ball visibly contacts Reed's raised hand. Portrait remains the existing4:3 baseline at32.3% screen height, below the55% target; no portrait changes were made ahead of the approval gate. Preview is ready for review but does not claim full Issue #4 acceptance or deployment. Details and commands: `docs/ISSUE_4_STAGE_PREVIEW.md`.
+
+Build, lint, all51 test files, the Chromium offline/match/season E2E journey, projection tests6/6 and camera tests5/5 passed. The strict animation audit is unchanged because no animation files or registrations changed. J.130 Briar `layup` remains unregistered. The user-owned untracked J.106 helper remains untouched. Remote Pages remains `513e0a59` / run #169; no production deployment was made.
+
 ## Continuation checkpoint — 2026-10-26 (J.130 Briar `layup` source attempts)
 
 Latest confirmation attempt at 2026-10-26 01:24 UTC reused the recorded frame3 prompt and again returned HTTP429 before generation; retry29 (`...pose3-retry29`) records the exact prompt and failure. The tool reported 42,683 seconds (~11h51m) remaining until reset.

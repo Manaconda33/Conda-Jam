@@ -14,9 +14,17 @@ export const JAM_STAGE=Object.freeze({
   floorHeight:208,
   floorHeightPercent:100*208/360,
   standardSlicePercent:50,
+  attackCameraApproachRadius:70,
+  attackCameraFullFocusRadius:30,
+  attackRimScreenOffsetWorld:26,
+  hoopAssemblyScale:1.9,
+  stanchionBaseY:55,
+  stanchionBaseOffsetWorld:0,
   farHorizontalScale:.94,
   nearHorizontalScale:1,
-  rendererSpriteScale:1.4,
+  rendererSpriteScale:2.05,
+  rendererTallNonhumanScale:1.4,
+  humanSourceSilhouetteRatio:.73,
   farSpriteScale:.84,
   nearSpriteScale:1,
   targetStandingNearHeightPercent:30,
@@ -35,9 +43,16 @@ export function stageDepthScale(y){
 }
 
 /** Configured near/far sprite scale against the 480×360 logical viewport. */
-export function stageStandingHeightPercent(y,sourceHeight=78,zoom=100){
+export function stageStandingHeightPercent(y,sourceHeight=78,zoom=100,silhouetteRatio=JAM_STAGE.humanSourceSilhouetteRatio){
   const zoomFactor=clamp(Number.isFinite(zoom)?zoom/100:1,.5,2);
-  return 100*sourceHeight*JAM_STAGE.rendererSpriteScale*stageDepthScale(y)*zoomFactor/JAM_STAGE.viewportHeight;
+  return 100*sourceHeight*JAM_STAGE.rendererSpriteScale*stageDepthScale(y)*zoomFactor*silhouetteRatio/JAM_STAGE.viewportHeight;
+}
+
+/** Keep oversized/nonhuman silhouettes readable without stretching their anatomy. */
+export function stageAthleteScale(player,y,silhouetteRatio=JAM_STAGE.humanSourceSilhouetteRatio){
+  const towering=player?.height==='towering';
+  const base=towering?JAM_STAGE.rendererTallNonhumanScale:JAM_STAGE.rendererSpriteScale*JAM_STAGE.humanSourceSilhouetteRatio/Math.max(.1,silhouetteRatio);
+  return base*stageDepthScale(y);
 }
 
 /** Configured in-flight ball diameter as a percentage of viewport width. */
@@ -52,6 +67,14 @@ export function stageCourtSlicePercent(y=50,width=JAM_STAGE.viewportWidth,zoom=1
   const zoomFactor=clamp(Number.isFinite(zoom)?zoom/100:1,.5,2);
   const pixelsPerWorld=width/(JAM_STAGE.courtLength*(JAM_STAGE.standardSlicePercent/100));
   return 100*width/(pixelsPerWorld*horizontalScale*zoomFactor*JAM_STAGE.courtLength);
+}
+
+/** Ease the attack focus so the near rim settles around 75% (right) / 25% (left). */
+export function stageCameraFocusX(ballX,basketX,direction){
+  const distance=Math.abs(basketX-ballX);
+  const approach=clamp((JAM_STAGE.attackCameraApproachRadius-distance)/(JAM_STAGE.attackCameraApproachRadius-JAM_STAGE.attackCameraFullFocusRadius),0,1);
+  const attackFocus=basketX-Math.sign(direction||1)*JAM_STAGE.attackRimScreenOffsetWorld;
+  return ballX+(attackFocus-ballX)*approach;
 }
 
 /**

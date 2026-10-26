@@ -1,5 +1,7 @@
 import { animationClips, sampleAnimation } from '../core/animation.js';
 
+const clipHeightRatioCache=new WeakMap();
+
 /** Canonical body size, independent of atlas rectangle or camera magnification. */
 export function athleteVisualScale(athlete,zoom=100){
   const body=athlete.rig==='quadruped-fox'?.52:athlete.height==='towering'?1.16:athlete.height==='compact'?.88:1;
@@ -29,6 +31,33 @@ export function selectProductionSprite(player, {manifest,images}) {
   const frame=clip.frames[index];
   if(!frame||frame.x<0||frame.y<0||frame.w<=0||frame.h<=0||frame.x+frame.w>atlas.naturalWidth||frame.y+frame.h>atlas.naturalHeight)return null;
   return {atlas,sx:frame.x,sy:frame.y,sourceWidth:frame.w,sourceHeight:frame.h,flip,clip:key,frame:index,production:true};
+}
+
+/** Use alpha occupancy across an authored clip to normalize transparent source padding. */
+export function productionBaseSilhouetteHeightRatio(player,sprite,assets,fallback=.73){
+  if(!sprite?.production||typeof document==='undefined')return fallback;
+  const character=assets?.manifest?.characters?.[player.id],key=player.animation?.clip;
+  if(!character||!key)return fallback;
+  const facing=player.facing<0?'left':'right';
+  const mirrored=facing==='left'&&character.mirrorSafe;
+  const clip=character.directions?.[facing]?.['idle-ball']??(mirrored?character.directions?.right?.['idle-ball']:null)??character.directions?.[facing]?.[key]??(mirrored?character.directions?.right?.[key]:null);
+  if(!clip?.frames?.length)return fallback;
+  const cached=clipHeightRatioCache.get(clip);if(cached)return cached;
+  const canvas=document.createElement('canvas'),context=canvas.getContext('2d',{willReadFrequently:true});
+  if(!context)return fallback;
+  const referenceAtlas=assets.images.get(clip.src)??sprite.atlas;
+  if(!referenceAtlas?.complete||!referenceAtlas.naturalWidth)return fallback;
+  let maxHeight=0,cellHeight=0;
+  for(const frame of clip.frames){
+    if(!frame.w||!frame.h)continue;
+    canvas.width=frame.w;canvas.height=frame.h;cellHeight=Math.max(cellHeight,frame.h);context.clearRect(0,0,frame.w,frame.h);
+    context.drawImage(referenceAtlas,frame.x,frame.y,frame.w,frame.h,0,0,frame.w,frame.h);
+    const pixels=context.getImageData(0,0,frame.w,frame.h).data;let top=frame.h,bottom=-1;
+    for(let y=0;y<frame.h;y++)for(let x=3;x<frame.w*4;x+=4){const i=y*frame.w*4+x;if(pixels[i]>=32){top=Math.min(top,y);bottom=Math.max(bottom,y);break}}
+    if(bottom>=top)maxHeight=Math.max(maxHeight,bottom-top+1);
+  }
+  const ratio=cellHeight?maxHeight/cellHeight:fallback;
+  clipHeightRatioCache.set(clip,ratio||fallback);return ratio||fallback;
 }
 
 /** Compatibility art remains visibly staged; it never counts toward issue 3 acceptance. */

@@ -1,23 +1,44 @@
-# Issue #4 staging preview checkpoint
+# Issue #4 stage preview checkpoint
 
 Date: 2026-10-26
 
-The first renderer-only Jam-stage projection is opt-in with `?stagePreview=1`. The default projection and simulation remain unchanged. This is a Chicago Condas vs Crownfire Sovereigns vertical-slice draft; it is not accepted, deployed, or a completed Issue #4 implementation.
+**Status: local review candidate; not deployed or accepted.** The Chicago Condas vs Crownfire Sovereigns stage is available behind `?stagePreview=1`. Without that query flag, the default view and gameplay remain unchanged. No simulation values or gameplay rules were modified. This candidate is ready for visual review; portrait acceptance remains gated and is not claimed.
 
-## Projection targets in this draft
+## Preview and evidence
 
-- Logical viewport: 480×360.
-- Ground band: y=152–360, or 57.8% of viewport height.
-- Standard horizontal slice: 50% of court length at midcourt; depth perspective changes the apparent width from 94% at the far sideline to 100% at the near sideline.
-- Generated standing sprite: configured at 1.4× renderer scale, with .84–1.0 far-to-near scale. For the current 78px render height this is 25.5% H far / 30.3% H near before athlete-specific scaling.
-- Ball: 19px diameter, or 4.0% W.
-- Floor boundary and existing court markings use the preview projection; the existing court colors and arena art remain in place. A large basket support is projected from a near-apron world point and depth-sorted against players by ground position.
-- Camera follows a copied ball position in preview mode to add attack-end lead. Simulation-owned coordinates are not changed by that camera adjustment.
+- Run `npm run preview`, then open `http://localhost:4173/JAMVERSE_96.html?stagePreview=1` for the local opt-in bundle. This is a local preview; it does not overwrite or deploy the production page.
+- Four staged Chromium captures using registered production sprites are in `artifacts/screenshots/issue4-stage/`: near-side dribble, right dunk peak, left shot release, and portrait play. The exact scene positions, clips, ticks, ball states, preview flag, and browser version are recorded in `capture-manifest.json`.
+- `tools/capture-issue4-stage.mjs` reproduces the frames with zero simulation ticks while the renderer settles. These are staged frames, not gameplay footage. Reed's authored separate-ball tracks supply the dunk and shot ball positions; the ball is drawn separately from the athlete sprites.
 
-## Verification and approval gate
+## Landscape measurements
 
-`node tests/jam-stage-projection.test.js`, lint, and static build pass in this checkpoint. The build required registering the new projection module in `tools/build.mjs` so the standalone Pages bundle remains self-contained.
+| Check | Capture result | Target | Status |
+| --- | ---: | ---: | --- |
+| Floor band | y=152–360; 57.8% H | 55–60% H | Pass |
+| Standard court slice | 50% at midcourt | 48–52% | Pass |
+| Near standing figure | Manaconda: 110px; 30.6% H | 30–36% H | Pass |
+| Far standing human | Auric Scale: 100px; 27.8% H | 24–30% H | Pass |
+| Dunk pose | 142px; 39.4% H | 35–42% H | Pass |
+| Ball diameter | 19px; 4.0% W | 3.5–4.5% W | Pass |
+| Hoop assembly | 146–147px; 30.4–30.6% W | 30–50% W | Pass |
+| Rim center | right 75.8–76.0%; left 24.8% W | right 70–80%; left 20–30% W | Pass |
+| Dunk ball contact | Orange ball overlaps the raised fingers at the rim | Clearly separate and hand-aligned | Pass |
 
-Review screenshots could not be captured in this managed environment: local server binding fails with `listen EPERM`, and headless Chromium terminates at startup with `SIGTRAP` after a denied `setsockopt`. Existing `artifacts/screenshots/court-chicago-crownfire.png` is the old baseline; it is not evidence for the preview. Therefore the four Issue #4 frames (near-side dribble, right-basket dunk peak, left-basket shot release, portrait play) remain unmeasured and the owner screenshot approval gate remains open.
+Dragon Queen is a nonhuman and is not used for the far-human height measurement. The camera focus uses each attack basket, with its transition complete within 30 world units. Hoops and support feet are mirrored, visible, and depth-sorted in the landscape captures.
 
-Still outstanding before the first-slice approval request: capture the four canonical frames in an unrestricted browser; measure standing, airborne, hoop, floor, court-slice, ball, and portrait dimensions; inspect player/stanchion occlusion and camera motion across each attack end; adjust the preview if measurements or visual inspection fail. No court redraw, portrait camera change, gameplay change, deployment, or issue closure is part of this checkpoint.
+## Portrait gate and limitations
+
+The portrait screenshot preserves the current 4:3 letterboxed layout. Its game canvas is about y=232–505, or 32.3% of the 390×844 screen, below the 55% / 464px target; its standing figure is also below 95px. Issue #4's approval gate comes before portrait camera/layout work, so this remains a clearly marked baseline and the candidate does not claim portrait acceptance.
+
+The preview is not a complete Issue #4 implementation. No full court redraw, production rollout, deployment, or approval claim is included. The gameplay renderer's default path and simulation remain isolated from the stage preview.
+
+## Verification
+
+- `npm run build`: PASS, including the self-contained `dist/JAMVERSE_96.html` bundle.
+- `npm run lint`: PASS, 19 JavaScript modules.
+- `npm test`: PASS, 51 test files.
+- `npm run test:e2e`: PASS, Chromium standalone offline startup and complete match/season journey, including controls, substitutions, dunk/FIRE, nonhuman matchups and accessibility checks.
+- `node tests/jam-stage-projection.test.js`: PASS, 6 tests.
+- `node tests/camera-tracking.test.js`: PASS, 5 tests.
+- Final Chromium 154 capture: four frames, zero page errors. Captures and manifest timestamp: `2026-10-26T02:58:27.344Z`.
+- The strict animation audit was not refreshed because no animation asset or registration changed; the current J.129/J.130 audit status remains as recorded in the asset audit and handoff notes.

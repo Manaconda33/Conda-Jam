@@ -31,3 +31,10 @@ test('camera follow is time based and turnover targets do not snap across court'
  for(let frame=0;frame<3;frame++)thirtyHz=updateCameraX(thirtyHz,{x:130,vx:0},1/30);
  assert.ok(Math.abs(sixtyHz-thirtyHz)<1e-9,'equal elapsed time should produce equal follow distance');
 });
+
+test('stage camera focus overrides velocity lead without changing the input ball',()=>{
+ const focused=updateCameraX(100,{x:100,cameraFocusX:50,vx:8},1/60);
+ assert.ok(focused<100,'the renderer-only focus point is followed');
+ assert.equal(updateCameraX(50,{x:100,cameraFocusX:50,vx:8},1/60),50,'the focus target holds still even when the ball has velocity');
+ assert.ok(updateCameraX(50,{x:100,cameraFocusX:54,vx:8},.1)>50,'an explicit focus is followed inside the normal dead zone');
+});

@@ -1,9 +1,9 @@
-# Latest checkpoint — Issue #4 stage preview draft (2026-10-26)
+# Latest checkpoint — Issue #4 stage review candidate (2026-10-26)
 
-- Focused stage projection tests: PASS,4/4. `npm run lint`: PASS,19 JavaScript modules. `npm run build`: PASS, including the self-contained Pages bundle.
-- Geometry targets at the logical 480×360 viewport: floor band57.8% H; court slice50% at midcourt; far/near depth scale ratio.84; standing sprite estimates25.5% H far and30.3% H near; ball diameter4.0% W.
-- Browser capture is blocked: local server binding fails with `listen EPERM`, and local Chromium startup exits `SIGTRAP` after denied `setsockopt`. No Issue #4 preview screenshot or measurement is claimed; the four-frame owner approval gate remains open. No simulation or default-render changes; no deployment.
-- Animation audit was not rerun because this checkpoint changed no animation assets. The latest known strict report-only audit remains J.129:824 clips /7,463 drawings;2,279 missing clips; one target shortfall; four inherited prompt findings. J.130 Briar `layup` is still the roster-order asset target.
+- `npm run build`: PASS, including the self-contained Pages bundle. `npm run lint`: PASS,19 modules. `npm test`: PASS,51 test files. `npm run test:e2e`: PASS, full Chromium offline/match/season journey. Stage projection: PASS,6/6. Camera tracking: PASS,5/5.
+- Independently measured Chromium 154 captures pass the landscape criteria: floor y152–360 (57.8% H); court slice50%; near standing30.6%; far human standing27.8%; dunker39.4%; ball4.0% W; complete hoop assemblies30.4–30.6% W; right/left rims75.8–76.0% /24.8%; separate dunk ball contacts Reed's raised fingers. Four staged frames have no page errors. Evidence and reproducible capture driver are under `artifacts/screenshots/issue4-stage/` and `tools/capture-issue4-stage.mjs`.
+- Portrait remains an explicit baseline/fail: existing 4:3 canvas is about32.3% of the 390×844 viewport versus ≥55% required. The issue's approval gate precedes portrait work, so it was left untouched. This is a review candidate, not full Issue #4 acceptance. No deployment or production overwrite; renderer changes are enabled only by `?stagePreview=1` and simulation/gameplay are unchanged.
+- The animation audit was not rerun because no animation asset or registration changed. The latest strict report-only state remains J.129/J.130 at824 clips /7,463 drawings /105 athletes;2,279 missing clips, one target shortfall and four inherited prompt findings. J.130 Briar `layup` remains unregistered.
 
 # Animation work — J.130 Briar Foxglove `layup` source review in progress
 

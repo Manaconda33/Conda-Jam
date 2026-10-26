@@ -6,7 +6,9 @@ import {
   projectJamStagePoint,
   stageCourtSlicePercent,
   stageDepthScale,
+  stageAthleteScale,
   stageStandingHeightPercent,
+  stageCameraFocusX,
 } from '../src/render/jam-stage.js';
 
 test('Jam stage projects the court into a low floor band',()=>{
@@ -44,4 +46,27 @@ test('configured sprite and ball sizes reach the landscape staging targets',()=>
   assert.equal(JAM_STAGE.targetStandingNearHeightPercent,30);
   assert.equal(JAM_STAGE.targetStandingFarHeightPercent,24);
   assert.equal(JAM_STAGE.targetBallDiameterPercent,3.5);
+});
+
+test('human stage scale compensates for authored alpha padding without distorting sprites',()=>{
+  const sparse=stageAthleteScale({height:'tall'},100,.73)*.73;
+  const dense=stageAthleteScale({height:'tall'},100,.958)*.958;
+  assert.ok(Math.abs(sparse-dense)<1e-12,'both source crops produce the same visible standing height');
+  assert.ok(stageAthleteScale({height:'towering'},100,.812)<stageAthleteScale({height:'tall'},100,.812),'towering nonhuman keeps its narrower stage scale');
+});
+
+test('attack camera frames either rim symmetrically and eases into the approach',()=>{
+  const rightRim=stageCameraFocusX(200,200,1);
+  const leftRim=stageCameraFocusX(0,0,-1);
+  assert.equal(rightRim,174);
+  assert.equal(leftRim,26);
+  const pixelsPerWorld=480/(200*(JAM_STAGE.standardSlicePercent/100));
+  const rightScreenX=240+(200-rightRim)*pixelsPerWorld*JAM_STAGE.nearHorizontalScale;
+  const leftScreenX=240+(0-leftRim)*pixelsPerWorld*JAM_STAGE.nearHorizontalScale;
+  assert.ok(rightScreenX>=360&&rightScreenX<=370,`right rim at ${rightScreenX}px`);
+  assert.ok(leftScreenX>=110&&leftScreenX<=120,`left rim at ${leftScreenX}px`);
+  const approaching=stageCameraFocusX(150,200,1);
+  assert.ok(approaching>150&&approaching<174,'focus transitions smoothly before reaching the rim');
+  assert.equal(stageCameraFocusX(170,200,1),174,'focus settles on the attack framing inside the final 30 world units');
+  assert.ok(JAM_STAGE.hoopAssemblyScale>=1.9,'the stage hoop meets the 30% assembly-width floor after uniform scale-up');
 });
