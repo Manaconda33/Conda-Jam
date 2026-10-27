@@ -1,0 +1,11 @@
+# J.132 Briar Foxglove `block` — attempt 07 acceptance review
+
+## Accepted for production
+
+Attempt07 is the accepted candidate. The four row-major poses show grounded defense, upward spring, overhead block apex and a distinct staggered descent. Independent source review confirms Briar's consistent adult human anatomy, deep-brown skin, locs, red headband and russet/cream kit, with hands empty. At alpha≥16, all four 637×617 source cells have wide margins: left/top/right/bottom are (195,217,123,80), (194,105,154,52), (244,52,131,68), and (164,166,148,73) pixels. The source is 1274×1234 RGBA, SHA-256 `71060a91a9c5df91fb43cb494fda5e1809749e2fb73b6791a7df71930fe7a721`.
+
+The normalized candidate `tools/generate-art/candidates/j132-briar-foxglove-block-attempt-07/briar-foxglove-block-4x-candidate.png` is a 144×190 atlas of four 72×95 cells. A single 0.15 nearest-neighbor scale retains the blocky pixel clusters; disconnected alpha1–15 pixels outside a 4px halo are cleared without repainting athlete pixels. All cells share baseline y=89 and have at least6px bottom clearance. The light/dark preview shows no detached fringe at packed size; remaining red/orange contour pixels read as a thin sprite outline.
+
+Independent packed-art review accepts pose distinction, identity, full anatomy, transparency, margins and baseline. Independent native Jam Stage review at court y=75 confirms candidate frames0–3 select in both facings at100% and120%. The captures use Briar explicitly, retain readable identity at stage scale, and keep ballMode `dead`, owner null, and hands empty. Reports are `tools/generate-art/previews/j132-briar-foxglove-block/attempt-07/native-{100,120}/report.json`. Runtime block timing remains the canonical four-frame sequence at ticks0,2,5,8 with takeoff tick1, apex tick5, finish tick12; selected frames map in order.
+
+Attempt07 raw and prompt, the normalizer and measurements, normalized candidate, light/dark proof, production atlas, and native captures are preserved. Attempts01–06 remain retained with their exact prompts, raw sources, hashes and rejection findings; earlier sheets either repeated the opening crouch, touched cell edges, or retained a conspicuous fringe/painterly treatment. Block is a defensive clip, so its hands stay empty and it has no ball track.

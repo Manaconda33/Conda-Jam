@@ -73960,13 +73960,67 @@
               "candidateOnly": false
             },
             "reviewed": true
+          },
+          "block": {
+            "src": "./public/assets/animation/briar-foxglove-block-right.png",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 95
+              },
+              {
+                "x": 72,
+                "y": 0,
+                "w": 72,
+                "h": 95
+              },
+              {
+                "x": 0,
+                "y": 95,
+                "w": 72,
+                "h": 95
+              },
+              {
+                "x": 72,
+                "y": 95,
+                "w": 72,
+                "h": 95
+              }
+            ],
+            "sha256": "07226b9373338536a289750d6ebf85da88ff91f579d75d35e4e5c17d9d0e47e5",
+            "source": "imagegen",
+            "provenance": {
+              "issue": "J.132",
+              "prompt": "tools/generate-art/j132-briar-foxglove-block-attempt-07-edit-prompt.md",
+              "generatedAt": "2026-10-27T00:44:15.390Z",
+              "imageGenId": "exec-96e9b9db-08f9-4ce4-90ea-7832da1a2094",
+              "rawSource": "tools/generate-art/sources/j132-briar-foxglove-block-attempt-07-raw.png",
+              "rawSourceSha256": "71060a91a9c5df91fb43cb494fda5e1809749e2fb73b6791a7df71930fe7a721",
+              "sourceCandidate": "tools/generate-art/candidates/j132-briar-foxglove-block-attempt-07/briar-foxglove-block-4x-candidate.png",
+              "normalizationScript": "tools/generate-art/normalize-j132-briar-foxglove-block-attempt-07.py",
+              "normalizationReport": "tools/generate-art/candidates/j132-briar-foxglove-block-attempt-07/normalization-report.json",
+              "lightDarkPreview": "tools/generate-art/previews/j132-briar-foxglove-block-attempt-07-light-dark-preview.png",
+              "reviewRecord": "tools/generate-art/j132-briar-foxglove-block-attempt-07-review.md",
+              "nativeReview": "tools/generate-art/previews/j132-briar-foxglove-block/attempt-07/native-{100,120}/report.json",
+              "ballTrack": "none; defensive block keeps the ball loose and hands empty",
+              "review": {
+                "status": "accepted",
+                "notes": "Independent source, packed light/dark, baseline, timing, identity/anatomy and native Jam Stage frame-selection review accepts attempt07 at courtY75 in both facings at100%/120%."
+              },
+              "candidateOnly": false
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Attempt06 atlas and athlete-specific tick track passed native Jam Stage review in both facings at 100% and 120%."
+        "notes": "Native Jam Stage selects all four block frames in both facings at100%/120%; Briar identity and empty hands remain readable."
       }
     },
     "keeg": {

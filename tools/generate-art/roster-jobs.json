@@ -38,5 +38,61 @@
     "path": "/workspace/generated_images/exec-39375b63-8e7b-4c7c-889e-14abe138f670.png",
     "prompt": "not captured by generation wrapper; see tools/generate-art/j131-briar-foxglove-layup-reverse-attempt-07-provenance.md",
     "generatedAt": "2026-10-27T00:03:55.325Z"
+  },
+  {
+    "group": "J.132 Briar Foxglove",
+    "clip": "block",
+    "frame": "attempt-01",
+    "path": "/workspace/generated_images/exec-6b972111-e033-4daa-827f-8e6bd7a5ba64.png",
+    "prompt": "tools/generate-art/j132-briar-foxglove-block-attempt-01-prompt.md",
+    "generatedAt": "2026-10-27T00:31:14.656Z"
+  },
+  {
+    "group": "J.132 Briar Foxglove",
+    "clip": "block",
+    "frame": "attempt-02",
+    "path": "/workspace/generated_images/exec-35970844-5b21-4ad7-9445-758e9a638cc7.png",
+    "prompt": "tools/generate-art/j132-briar-foxglove-block-attempt-02-prompt.md",
+    "generatedAt": "2026-10-27T00:31:59.969Z"
+  },
+  {
+    "group": "J.132 Briar Foxglove",
+    "clip": "block",
+    "frame": "attempt-03",
+    "path": "/workspace/generated_images/exec-059eeb49-83e8-4020-9b81-a37e5ef5a940.png",
+    "prompt": "tools/generate-art/j132-briar-foxglove-block-attempt-03-edit-prompt.md",
+    "generatedAt": "2026-10-27T00:33:33.190Z"
+  },
+  {
+    "group": "J.132 Briar Foxglove",
+    "clip": "block",
+    "frame": "attempt-04",
+    "path": "/workspace/generated_images/exec-3f03515a-a49d-47a7-bf6b-53d01de6fe51.png",
+    "prompt": "tools/generate-art/j132-briar-foxglove-block-attempt-04-prompt.md",
+    "generatedAt": "2026-10-27T00:34:52.808Z"
+  },
+  {
+    "group": "J.132 Briar Foxglove",
+    "clip": "block",
+    "frame": "attempt-05",
+    "path": "/workspace/generated_images/exec-51a2008b-53c4-4376-82cd-caeaa29da29a.png",
+    "prompt": "tools/generate-art/j132-briar-foxglove-block-attempt-05-edit-prompt.md",
+    "generatedAt": "2026-10-27T00:41:10.811Z"
+  },
+  {
+    "group": "J.132 Briar Foxglove",
+    "clip": "block",
+    "frame": "attempt-06",
+    "path": "/workspace/generated_images/exec-0546b2a8-1fbe-4f24-8a40-5ebc87e5a2b9.png",
+    "prompt": "tools/generate-art/j132-briar-foxglove-block-attempt-06-prompt.md",
+    "generatedAt": "2026-10-27T00:42:34.800Z"
+  },
+  {
+    "group": "J.132 Briar Foxglove",
+    "clip": "block",
+    "frame": "attempt-07",
+    "path": "/workspace/generated_images/exec-96e9b9db-08f9-4ce4-90ea-7832da1a2094.png",
+    "prompt": "tools/generate-art/j132-briar-foxglove-block-attempt-07-edit-prompt.md",
+    "generatedAt": "2026-10-27T00:44:15.390Z"
   }
 ]
