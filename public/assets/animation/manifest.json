@@ -64833,15 +64833,275 @@
             },
             "reviewed": true,
             "reviewNotes": "Source identity/anatomy and 6 poses reviewed; independent Jam Stage track review accepted at both facings and 100%/120%."
+          },
+          "pass-overhead": {
+            "src": "./public/assets/animation/krios-pass-overhead-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "47a529d8d65c4c08db9d7dda8777fc2818eb0185514dd1f8c85baa862a76f816"
+              },
+              {
+                "x": 104,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "2db536672c4cc69d36a2c2a095c5338413710d306939a5f5197bb9395ad993c9"
+              },
+              {
+                "x": 208,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "eabdc375495a9216c0e70da86625a839581ee13e017a38d347fcebf1a1b9fa50"
+              },
+              {
+                "x": 312,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "f209172563b5006296dc577719daace1ac508a32b286696c447fc7dac97ff198"
+              },
+              {
+                "x": 416,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "75a2478e4f914544ffb296981767885387e561530f6f0331f48f7a38e91a8075"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 104,
+                "h": 96,
+                "hash": "8cb44c7d58319ce50dda787a163e653f5804e1a90f364ebf9a785d89bee8e7ee"
+              }
+            ],
+            "sha256": "bee3fbdb043d448533ad70c52daeac90e83b7013ed84d84a2b5957a78c46c019",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "krios",
+              "clip": "pass-overhead",
+              "direction": "right",
+              "canonicalSection": "J.06",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-b419627e-9307-4368-8ef7-21e1fa1c0548",
+              "imageGenerationId": "exec-b419627e-9307-4368-8ef7-21e1fa1c0548",
+              "rawSourceImage": "tools/generate-art/sources/krios-pass-overhead6-generated-raw.png",
+              "rawSourceSha256": "bd5fdf53129e3b4574a50076da6582a55145e509885d3cfc1cf76cd78afce345",
+              "sourceSha256": "aff74fcebcb4b1e60ab92f505e953231ee6124929def67507d545f093820477d",
+              "prompt": "Create exactly six unique full-body action drawings as one clean transparent sprite sheet, three columns by two rows, read left to right and top to bottom. Use the attached Krios art as the exact character identity and style reference. Krios is the same enormous muscular red-skinned male giant, with huge curled black ram horns, wild dark beard, broad hulking shoulders and arms, black charcoal basketball uniform with ember red and gold trim, black rugged basketball boots. Keep his exact visible identity consistent in every pose. Natural two arms, two hands, two legs, two boots. Right-facing three-quarter profile, readable silhouette.\n\nThis is Krios performing a two-handed overhead basketball pass. Runtime releases on sprite pose index 3 (the fourth drawing, bottom-left). The basketball is a separate game object and must not appear in any drawing; no prop. His empty hands mime the ball until pass release. Six distinct connected poses with generous transparent spacing: pose 0 strong wide stance, hands low and ready; pose 1 knees bend and both hands gather the invisible ball at chest; pose 2 elbows and hands raise the invisible ball above his forehead; pose 3 IS THE EXACT RELEASE POSE: both arms thrust up and forward in the overhead pass release, hands open and empty; pose 4 is a post-release follow-through with arms extended forward-up; pose 5 is later recovery, arms lowering toward stance. Pose 3 must clearly be the release, with poses 4 and 5 occurring after release. Do not show any held/gathering pose at pose 3.\n\nOnly six complete Krios figures. True transparent background, crisp outlined arcade pixel-art sprite style matching references. No ball, no court, no floor, no shadow, no hoop, no other person, no text, no numbers, no logos, no borders, no panel dividers, no checkerboard, no glow, no background color. Keep all horns, hands, boots and whole bodies within their grid cells, no cropping. Keep roomy clear gutters between figures. One pose per cell, no duplicates.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-3358cd0c-bbf2-4f2d-babe-641183e0edaa",
+                  "source": "tools/generate-art/sources/krios-pass-overhead6-attempt1-rejected.png",
+                  "rawSourceSha256": "e9f5fe53a73eb77ae06fae5d373366f441eeef3453b4460aad2299c05d96297e",
+                  "prompt": "tools/generate-art/krios-pass-overhead6-attempt1-rejected-prompt.md",
+                  "reason": "The actual overhead pass release was drawn at pose 4, one frame later than runtime pass-overhead release frame index 3."
+                }
+              ],
+              "references": [
+                "public/assets/animation/krios-run-right.webp",
+                "public/assets/animation/krios-pass-right.webp"
+              ],
+              "historicalSourceAvailability": "Original 42-pose input and cleaned sheet referenced by krios-locomotion42-final-provenance.json are unavailable in current workspace; compiled Krios atlases and captain crop were used as identity references.",
+              "mirrorEligible": true,
+              "ballPolicy": "Krios-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 6.",
+              "ballTrack": {
+                "height": [
+                  0.8,
+                  1.1,
+                  2.3,
+                  2.3,
+                  2.85,
+                  1.4
+                ],
+                "forward": [
+                  9,
+                  2,
+                  5,
+                  7,
+                  13,
+                  9
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/krios-pass-overhead6-cleanup.py",
+                "method": "Preserve alpha>=32 and a two-pixel antialias fringe; clear low-alpha generated background glow. Packer isolates six connected pose components and reassigns stray alpha to the nearest pose.",
+                "keptPixels": 486888,
+                "clearedPixels": 1085976
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "Six distinct complete Krios overhead-pass poses; pose index 3 is the release, matching runtime release frame index 3. The red-skinned hulking giant, huge curled black ram horns, dark beard and black/ember Scoria Rams kit stay consistent. No ball appears in the sprites; the separate Krios ball path is recorded."
+              },
+              "sourceImage": "tools/generate-art/sources/krios-pass-overhead6.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "sourceRect": {
+                    "component": 2,
+                    "area": 79642,
+                    "x": 65,
+                    "y": 72,
+                    "w": 393,
+                    "h": 406,
+                    "row": 0,
+                    "column": 0
+                  },
+                  "cropBox": [
+                    63,
+                    70,
+                    460,
+                    480
+                  ]
+                },
+                {
+                  "sourceIndex": 1,
+                  "sourceRect": {
+                    "component": 3,
+                    "area": 70817,
+                    "x": 605,
+                    "y": 81,
+                    "w": 363,
+                    "h": 394,
+                    "row": 0,
+                    "column": 1
+                  },
+                  "cropBox": [
+                    603,
+                    79,
+                    970,
+                    477
+                  ]
+                },
+                {
+                  "sourceIndex": 2,
+                  "sourceRect": {
+                    "component": 1,
+                    "area": 78994,
+                    "x": 1104,
+                    "y": 11,
+                    "w": 368,
+                    "h": 460,
+                    "row": 0,
+                    "column": 2
+                  },
+                  "cropBox": [
+                    1102,
+                    9,
+                    1474,
+                    473
+                  ]
+                },
+                {
+                  "sourceIndex": 3,
+                  "sourceRect": {
+                    "component": 4,
+                    "area": 80752,
+                    "x": 49,
+                    "y": 502,
+                    "w": 437,
+                    "h": 488,
+                    "row": 1,
+                    "column": 0
+                  },
+                  "cropBox": [
+                    47,
+                    500,
+                    488,
+                    992
+                  ]
+                },
+                {
+                  "sourceIndex": 4,
+                  "sourceRect": {
+                    "component": 5,
+                    "area": 79602,
+                    "x": 553,
+                    "y": 559,
+                    "w": 470,
+                    "h": 429,
+                    "row": 1,
+                    "column": 1
+                  },
+                  "cropBox": [
+                    551,
+                    557,
+                    1025,
+                    990
+                  ]
+                },
+                {
+                  "sourceIndex": 5,
+                  "sourceRect": {
+                    "component": 6,
+                    "area": 73213,
+                    "x": 1092,
+                    "y": 587,
+                    "w": 389,
+                    "h": 403,
+                    "row": 1,
+                    "column": 2
+                  },
+                  "cropBox": [
+                    1090,
+                    585,
+                    1483,
+                    992
+                  ]
+                }
+              ],
+              "uniformScale": 0.18404907975460122,
+              "componentIsolation": true,
+              "packaging": "package-krios-actions.py; 104x96 cells; baseline94; lossless WebP; 6 original poses",
+              "runtimeBallTrack": {
+                "height": [
+                  0.8,
+                  1.1,
+                  2.3,
+                  2.3,
+                  2.85,
+                  1.4
+                ],
+                "forward": [
+                  9,
+                  2,
+                  5,
+                  7,
+                  13,
+                  9
+                ],
+                "reviewed": true
+              },
+              "ballTrackReview": {
+                "status": "accepted",
+                "attempt": 7,
+                "nativeReport": "tools/generate-art/previews/j128-krios-overhead-pass-track-candidate/attempt-07/native/report.json",
+                "trialNotes": "tools/generate-art/previews/j128-krios-overhead-pass-track-candidate/TRIALS.md",
+                "reviewNotes": "Independent review accepts chest hold, overhead gather, frame3/tick7 hand release in both facings and 100%/120% zoom on courtY90. Actual game release/flight/receiver test is separate."
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Six original overhead-pass poses reviewed for Krios identity and anatomy; independent Jam Stage captures accepted frame0–2 hand approach and frame3/tick7 overhead release in both facings and zooms."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Krios’s bilateral ram horns, beard, uniform and amulet have no fixed-side feature. The reviewed shoot and chest-pass atlases were inspected at both facings and mirror safely.",
+        "notes": "Krios’s bilateral horns, beard, amulet and uniform have no fixed-side marks. Shoot, chest-pass and overhead-pass art and separate ball behavior are reviewed for both facing directions.",
         "reviewedAt": "2026-10-27",
-        "scope": "captain shoot and chest pass mirror review"
+        "scope": "J.06 shoot and pass actions"
       }
     },
     "colossus": {

@@ -429,3 +429,12 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 ## Active supporting-player reuse branch — 2026-10-27
 
 Current implementation branch: `codex/supporting-player-palette-reuse`. Seven complete supporting libraries remain original; the other 63 map to Echo Catwalk. V7 uniform recoloring passed independent visual review across 35 palettes × 29 clip types with enlarged light/dark samples, and the derived variants are enabled. Strict audit still reports 2,271 missing roster clips. Browser gameplay checks for both facings, transitions, anchors and recipient ball tracks remain before declaring the reuse conversion complete. Captains and untracked J.131/J.138 material remain protected. Details: `docs/animation-production/SUPPORTING_PLAYER_REUSE.md`.
+
+
+## J.128 Krios overhead pass checkpoint — 2026-10-27
+
+Registered Krios `pass-overhead` using the reviewed six-pose source and its athlete-specific separate-ball track: height `[0.8,1.1,2.3,2.3,2.85,1.4]`, forward `[9,2,5,7,13,9]`; release occurs at tick7. The exact prompt, provenance/layout, rejected trials, native Jam Stage captures (both facings, 100%/120%), and independent contact review are retained in `tools/generate-art/` and `tools/generate-art/previews/j128-krios-overhead-pass-track-candidate/`. Added selector/mirror and two-facing gameplay/receiver tests. No ball is baked into the athlete art.
+
+Validation after registration: `npm test` 64/64 files passed; `npm run lint` checked 21 JavaScript modules; `npm run validate:content` validated 35 franchises, 105 athletes and 35 captains; `npm run build` passed. Refreshed strict report-only audit: 2,350 inspected assignments, 523 unique atlases, 4,980 unique drawings, 753 missing captain assignments, zero target shortfalls, four inherited prompt findings. This audit is incomplete by design while captain production continues.
+
+Next active source/art candidate: Leo `shoot` (not registered despite a legacy atlas); validate its source status before integration. Leo `alley-oop-reverse` attempt02 has a visually accepted 15-pose source and attempt24 track candidate, but remains unregistered pending live gameplay/score/landing simulation. Kraken `steal` cleanup01 source is independently accepted; corrected native captures are pending a second reviewer after the first capture harness was rejected for duplicate canvas/render layering.

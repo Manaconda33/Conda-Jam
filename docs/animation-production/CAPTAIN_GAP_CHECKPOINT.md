@@ -96,3 +96,12 @@ Validation passed on this checkpoint: `npm test` (64 test files pass), `npm run 
 Leo `layup`, `pickup`, `receive`, `rebound`, `steal`, `pass`, `pass-overhead`, and `pass-behind` are accepted with separate athlete-specific tracks. Continue Leo’s bespoke captain library by current missing-action order; 8 additional source-only Leo atlases remain in the source workspace; their tracks, registration evidence and canon/mirror checks must be individually reviewed. Two Leo actions still need original art. Then proceed through other captains by current strict-audit priority. Do not count source-only clips until lineage, atlas, mirror policy and any required athlete-specific ball track pass review.
 
 The source workspace `/workspace/Conda-Jam` contains unrelated in-progress J.130/J.131/J.137 art and extensive untracked evidence; it was left untouched. The user-owned J.106 helper remains preserved.
+
+
+## J.128 Krios overhead pass checkpoint — 2026-10-27
+
+Registered Krios `pass-overhead` using the reviewed six-pose source and its athlete-specific separate-ball track: height `[0.8,1.1,2.3,2.3,2.85,1.4]`, forward `[9,2,5,7,13,9]`; release occurs at tick7. The exact prompt, provenance/layout, rejected trials, native Jam Stage captures (both facings, 100%/120%), and independent contact review are retained in `tools/generate-art/` and `tools/generate-art/previews/j128-krios-overhead-pass-track-candidate/`. Added selector/mirror and two-facing gameplay/receiver tests. No ball is baked into the athlete art.
+
+Validation after registration: `npm test` 64/64 files passed; `npm run lint` checked 21 JavaScript modules; `npm run validate:content` validated 35 franchises, 105 athletes and 35 captains; `npm run build` passed. Refreshed strict report-only audit: 2,350 inspected assignments, 523 unique atlases, 4,980 unique drawings, 753 missing captain assignments, zero target shortfalls, four inherited prompt findings. This audit is incomplete by design while captain production continues.
+
+Next active source/art candidate: Leo `shoot` (not registered despite a legacy atlas); validate its source status before integration. Leo `alley-oop-reverse` attempt02 has a visually accepted 15-pose source and attempt24 track candidate, but remains unregistered pending live gameplay/score/landing simulation. Kraken `steal` cleanup01 source is independently accepted; corrected native captures are pending a second reviewer after the first capture harness was rejected for duplicate canvas/render layering.

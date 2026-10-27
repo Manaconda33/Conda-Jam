@@ -189,3 +189,12 @@ J.109 Leo `pickup` is accepted with five original ball-free poses and a separate
 
 
 J.110 Leo `layup` is accepted with eight original ball-free poses and separate track H `[0.95,0.8,2.0,2.6,2.35,1.8,0.95,0.6]`, F `[5,3,5,4.5,14,11,7,5]`. Attempt04 native review closes the tick8/9 fingertip gap in both facings. The actual simulation verifies a single frame4/tick10 release and ownerless ball through finish; prior native attempts and their evidence remain preserved.
+
+
+## J.128 Krios overhead pass checkpoint — 2026-10-27
+
+Registered Krios `pass-overhead` using the reviewed six-pose source and its athlete-specific separate-ball track: height `[0.8,1.1,2.3,2.3,2.85,1.4]`, forward `[9,2,5,7,13,9]`; release occurs at tick7. The exact prompt, provenance/layout, rejected trials, native Jam Stage captures (both facings, 100%/120%), and independent contact review are retained in `tools/generate-art/` and `tools/generate-art/previews/j128-krios-overhead-pass-track-candidate/`. Added selector/mirror and two-facing gameplay/receiver tests. No ball is baked into the athlete art.
+
+Validation after registration: `npm test` 64/64 files passed; `npm run lint` checked 21 JavaScript modules; `npm run validate:content` validated 35 franchises, 105 athletes and 35 captains; `npm run build` passed. Refreshed strict report-only audit: 2,350 inspected assignments, 523 unique atlases, 4,980 unique drawings, 753 missing captain assignments, zero target shortfalls, four inherited prompt findings. This audit is incomplete by design while captain production continues.
+
+Next active source/art candidate: Leo `shoot` (not registered despite a legacy atlas); validate its source status before integration. Leo `alley-oop-reverse` attempt02 has a visually accepted 15-pose source and attempt24 track candidate, but remains unregistered pending live gameplay/score/landing simulation. Kraken `steal` cleanup01 source is independently accepted; corrected native captures are pending a second reviewer after the first capture harness was rejected for duplicate canvas/render layering.

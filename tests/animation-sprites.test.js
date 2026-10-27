@@ -67,12 +67,13 @@ test('Krios J.128 shoot and chest pass select reviewed original poses with separ
  for(const [key,atlas,count,columns,rows,height,forward] of [
   ['shoot','./public/assets/animation/krios-shoot-right.webp',10,5,2,[1,1.2,1.4,1.1,2,1.7,4,2,1,0],[5,5,5,4,3.1,.7,2,4,6,7]],
   ['pass','./public/assets/animation/krios-pass-right.webp',6,5,2,[1.05,1.15,1.4,1.5,1.35,1.05],[8,9,11,13,12,8]],
+  ['pass-overhead','./public/assets/animation/krios-pass-overhead-right.webp',6,5,2,[.8,1.1,2.3,2.3,2.85,1.4],[9,2,5,7,13,9]],
  ]){
   const clip=clips[key];assert.ok(clip,`${key} registered`);assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
   assert.equal(clip.frames.length,count);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count);
   assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.ballTrackReview.status,'accepted');
   assert.deepEqual(clip.provenance.runtimeBallTrack,{height,forward,reviewed:true});
-  const images=new Map([[atlas,{complete:true,naturalWidth:count===10?400:560,naturalHeight:192,file:atlas}]]);let tick=0;
+  const images=new Map([[atlas,{complete:true,naturalWidth:key==='shoot'?400:key==='pass-overhead'?520:560,naturalHeight:192,file:atlas}]]);let tick=0;
   for(let frame=0;frame<count;frame++){
    assert.equal(sampleAnimation(key,tick).frame,frame,`${key} authored pose ${frame}`);
    assert.equal(sampleBallHeight(key,tick,id),height[frame],`${key} hand height ${frame}`);
@@ -86,6 +87,7 @@ test('Krios J.128 shoot and chest pass select reviewed original poses with separ
  }
  assert.equal(anchorTick('shoot','release'),13);assert.equal(sampleAnimation('shoot',12).frame,4);assert.equal(sampleAnimation('shoot',13).frame,5);
  assert.equal(anchorTick('pass','release'),5);assert.equal(sampleAnimation('pass',4).frame,2);assert.equal(sampleAnimation('pass',5).frame,3);
+ assert.equal(anchorTick('pass-overhead','release'),7);assert.equal(sampleAnimation('pass-overhead',6).frame,2);assert.equal(sampleAnimation('pass-overhead',7).frame,3);
 });
 test('Kraken J.07 block selects four canon-reviewed original poses at every anchor and facing',()=>{
  const id='kraken',character=animationAssetManifest.characters[id],clip=character.directions.right.block,atlas='./public/assets/animation/kraken-block-right.webp';

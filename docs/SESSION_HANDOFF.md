@@ -69,3 +69,12 @@ Active checkout: `/workspace/jam-j130-full`, branch `codex/j131-briar-foxglove`,
 ## Active supporting-player reuse branch — 2026-10-27
 
 Branch `codex/supporting-player-palette-reuse` adds support assignments, lazy palette transformation, audit lineage and tests. Echo is the shared source for 63 incomplete human-like supporters; seven complete libraries remain original. V7 passed independent visual review across 35 team palettes × 29 clip types on light/dark backgrounds and enlarged rows. The 63 variants are enabled as derived coverage; gameplay validation of both facings, clip transitions, anchors and recipient ball tracks remains outstanding. Captain assets and current Briar J.131/J.138 work remain protected and untouched.
+
+
+## J.128 Krios overhead pass checkpoint — 2026-10-27
+
+Registered Krios `pass-overhead` using the reviewed six-pose source and its athlete-specific separate-ball track: height `[0.8,1.1,2.3,2.3,2.85,1.4]`, forward `[9,2,5,7,13,9]`; release occurs at tick7. The exact prompt, provenance/layout, rejected trials, native Jam Stage captures (both facings, 100%/120%), and independent contact review are retained in `tools/generate-art/` and `tools/generate-art/previews/j128-krios-overhead-pass-track-candidate/`. Added selector/mirror and two-facing gameplay/receiver tests. No ball is baked into the athlete art.
+
+Validation after registration: `npm test` 64/64 files passed; `npm run lint` checked 21 JavaScript modules; `npm run validate:content` validated 35 franchises, 105 athletes and 35 captains; `npm run build` passed. Refreshed strict report-only audit: 2,350 inspected assignments, 523 unique atlases, 4,980 unique drawings, 753 missing captain assignments, zero target shortfalls, four inherited prompt findings. This audit is incomplete by design while captain production continues.
+
+Next active source/art candidate: Leo `shoot` (not registered despite a legacy atlas); validate its source status before integration. Leo `alley-oop-reverse` attempt02 has a visually accepted 15-pose source and attempt24 track candidate, but remains unregistered pending live gameplay/score/landing simulation. Kraken `steal` cleanup01 source is independently accepted; corrected native captures are pending a second reviewer after the first capture harness was rejected for duplicate canvas/render layering.

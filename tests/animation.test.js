@@ -27,6 +27,27 @@ test('Krios shoot and chest pass keep the separate ball athlete-owned until thei
   assert.equal(m.ball.ownerId,null);
  }
 });
+test('Krios overhead pass keeps the ball through tick7 release and delivers it to a receiver in either facing',()=>{
+ const clip='pass-overhead',id='krios',height=[.8,1.1,2.3,2.3,2.85,1.4],forward=[9,2,5,7,13,9],release=anchorTick(clip,'release');
+ assert.equal(release,7);
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:128,home:{roster:[{id},{id:'partner'}]}}),p=m.players[0],receiver=m.players[1];
+  p.x=100;p.y=50;p.facing=facing;receiver.x=120;receiver.y=40;receiver.facing=-1;
+  const inputs=values=>m.players.map(player=>createInput(player.id,player===p?values:{}));
+  stepMatch(m,inputs({passPressed:true,turbo:true,y:-1}));assert.equal(p.animation.clip,clip);assert.equal(p.animation.tick,0);
+  for(const [frame,tick]of [[0,0],[1,2],[2,5],[3,7]]){
+   while(p.animation.tick<tick){stepMatch(m,inputs({}));}
+   assert.equal(p.animation.clip,clip);assert.equal(p.animation.tick,tick);
+   if(tick<release){
+    assert.equal(p.hasBall,true);assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);
+    assert.ok(Math.abs(m.ball.x-p.x-facing*forward[frame])<.06);assert.ok(Math.abs(m.ball.z-p.z-height[frame])<.02);
+   }
+  }
+  stepMatch(m,inputs({}));assert.equal(p.hasBall,false);assert.equal(m.ball.mode,'pass');assert.equal(m.ball.ownerId,null);assert.equal(m.ball.targetId,receiver.id);
+  for(let tick=0;tick<30&&!receiver.hasBall;tick++)stepMatch(m,inputs({}));
+  assert.equal(receiver.hasBall,true,`receiver catches Krios's overhead pass, facing ${facing}`);assert.equal(m.ball.ownerId,receiver.id);assert.equal(receiver.animation.clip,'receive');
+ }
+});
 test('Kraken block is a ball-free defender action with the canonical jump and apex frames in either facing',()=>{
  for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:89,away:{roster:[{id:'kraken'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='kraken');
