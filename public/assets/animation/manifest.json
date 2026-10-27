@@ -58871,7 +58871,7 @@
                   1.9,
                   1.9,
                   2.05,
-                  2.0,
+                  2,
                   1.05
                 ],
                 "forward": [
@@ -59089,13 +59089,204 @@
               "scope": "source identity/anatomy, atlas six-frame separation, left mirror, both-facing Jam Stage captures at 100% and 120%, separate Leo track and actual possession/release behavior",
               "notes": "Accepted track calibration attempt07, reviewed in production Jam Stage at canonical clip ticks 0,2,6,7,8,10 in both facings. The ball remains at the chest gather then tracks the raised hands through tick6, meets the open palms at release tick7, and continues ownerless. Both facings use the approved black/crimson atlas without fallback, clipping, neighboring-atlas bleed, or visible discontinuity. Source prompt says tick5; gameplay timing defines overhead release at tick7 and was kept unchanged."
             }
+          },
+          "pass-behind": {
+            "src": "./public/assets/animation/leo-pass-behind-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5bfa84c53b1edc1312987ee3b65ca2a74ffc053a08d4342732bc0bc5f7d4434d"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8d630b31624aa1805ee9422923a831fb30c0556978c28967b6c910a4a7022a94"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "44ad8968d4a6161176e4aec43f01a85381719757153c11295554e27c8de977e8"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d55d33e054655bbf88c829f63592e5d8a4581f865020fa7b603c5e42de38eee3"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f3a2724559b684ba97ae69f349bc51dceb7a03ef6976153b3e03c90a3edf963d"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c51e6d6628fe5ab3a4c88ab8d1c526eb64e790c7a1f5be98603ef4717339fe31"
+              }
+            ],
+            "sha256": "19f24321700fb5acdaf00ca37a3cc7fccce4ada8808d0382101c2a1fdfc6a230",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "leo",
+              "clip": "pass-behind",
+              "direction": "right",
+              "canonicalSection": "K.05",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-2ff99ab9-fa21-4f68-882c-76c419637383",
+              "imageGenerationId": "exec-2ff99ab9-fa21-4f68-882c-76c419637383",
+              "rawSourceImage": "tools/generate-art/sources/j107-leo-pass-behind-generated-raw.png",
+              "sourceImage": "tools/generate-art/sources/j107-leo-pass-behind-generated-raw.png",
+              "rawSourceSha256": "18914b89eb98624ee30dbf57d94a85bfdfb69a7a5a24ab853f7189e586474370",
+              "sourceSha256": "18914b89eb98624ee30dbf57d94a85bfdfb69a7a5a24ab853f7189e586474370",
+              "promptFile": "tools/generate-art/j107-leo-pass-behind6-prompt.md",
+              "prompt": "Create an original 1536\u00d71024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as the identity and pixel-art style reference. Draw exactly six distinct complete full-body Leo poses in a strict three-column by two-row grid, row-major, broad transparent gutters and outer margins. Each pose is fully inside its own cell at a consistent scale and camera, with long hair, hands and shoes visible. Use readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve natural adult human anatomy, pale skin, long wavy black hair, refined mustache, composed handsome face and patient master-strategist poise. He wears the controlled black basketball uniform with restrained crimson accents, matching shorts and shoes, and refined trim. Exactly two human arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change, or props.\n\nThis is a right-facing behind-the-back pass to a teammate off-screen on image-left. The basketball is separate runtime art. Both hands remain empty; do not draw any ball, sphere, orb, seams, court, hoop, rim, floor, shadow, background, glow, border, grid, text, teammate or opponent. All exterior and gutters must be real alpha-zero transparency, without checkerboard, matte, speckles or haze.\n\nSix sequential, connected, distinct poses:\n0 poised ready stance facing image-right, elbows bent and hands empty at the chest;\n1 gathers the invisible ball at the waist and shifts weight toward the lead foot;\n2 pivots the shoulders slightly away from the target, carrying the ball-miming hand behind the lower back;\n3 RELEASE at simulation tick5: one empty hand snaps behind Leo\u2019s hip toward image-left, fingers open; the other arm balances in front; keep the motion readable without hiding Leo\u2019s face or hair;\n4 follows through behind the body with an open hand and controlled step;\n5 returns to a composed balanced right-facing stance, both hands empty.\n\nThe deceptive pass should read clearly without twisting anatomy or changing the overall right-facing action. Maintain Leo\u2019s pale human face, long wavy black hair, refined mustache, black/crimson uniform, adult proportions and complete shoes. Return only the transparent sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Leo\u2019s basketball remains a separate runtime object. He disguises a backward pass, turns his shoulders and releases behind his hip toward image-left on frame3/tick5; no ball is painted into the poses.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.05,
+                  0.85,
+                  0.9,
+                  1.1,
+                  1
+                ],
+                "forward": [
+                  4,
+                  2,
+                  -8,
+                  -13,
+                  -10,
+                  3
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/package-leo-action6.py",
+                "method": "shared six-pose component isolation and nearest antialiased-pixel reassignment; 3x2 row-major atlas pack with common baseline"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "Six distinct right-facing poses show a deceptive chest gather, shoulder turn, low behind-the-back release at frame3/tick5, follow-through and composed recovery. Leo remains a pale adult human with long wavy black hair, refined mustache, black/crimson kit and natural anatomy."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 108,
+                  "y": 29,
+                  "w": 293,
+                  "h": 447,
+                  "component": 1,
+                  "area": 63370
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 607,
+                  "y": 36,
+                  "w": 317,
+                  "h": 440,
+                  "component": 3,
+                  "area": 61404
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1143,
+                  "y": 30,
+                  "w": 342,
+                  "h": 446,
+                  "component": 2,
+                  "area": 63519
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 68,
+                  "y": 542,
+                  "w": 411,
+                  "h": 438,
+                  "component": 6,
+                  "area": 67189
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 602,
+                  "y": 538,
+                  "w": 378,
+                  "h": 442,
+                  "component": 5,
+                  "area": 66721
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1127,
+                  "y": 529,
+                  "w": 303,
+                  "h": 449,
+                  "component": 4,
+                  "area": 62902
+                }
+              ],
+              "uniformScale": 0.20489977728285078,
+              "componentIsolation": true,
+              "packaging": "package-action6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-behind poses",
+              "atlasPath": "public/assets/animation/leo-pass-behind-right.webp",
+              "atlasSha256": "19f24321700fb5acdaf00ca37a3cc7fccce4ada8808d0382101c2a1fdfc6a230",
+              "atlasBytes": 52832,
+              "runtimeBallTrack": {
+                "height": [
+                  1.6,
+                  1.05,
+                  1.2,
+                  1.6,
+                  1.1,
+                  1
+                ],
+                "forward": [
+                  4,
+                  2,
+                  -6,
+                  -10,
+                  -10,
+                  3
+                ],
+                "status": "accepted",
+                "reviewedBy": "Codex with independent Jam Stage review",
+                "releaseFrame": 3,
+                "releaseTick": 7,
+                "captureEvidence": "tools/generate-art/previews/leo-pass-behind-track-candidate/attempt-04/native/report.json",
+                "notes": "Calibrated for Leo in the production Jam Stage at 100% and 120%, both facings. The ball follows the gathering hand through tick6, sits at the concealed rear-hip release hand at canonical tick7, then travels ownerless. Source prompt says tick5; runtime tick7 anchor is preserved."
+              }
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex with independent visual review and simulation tests",
+              "scope": "source identity/anatomy, six-frame atlas, mirror, candidate track at 100%/120% in both facings, actual possession/release simulation",
+              "notes": "Accepted attempt04. Native Jam Stage review confirms tick4 concealed rear-hip contact, tick7 release palm alignment, clean right and mirrored left atlas use, full anatomy, no clipping or browser errors. Simulation verifies carry through tick6, one release at tick7 and ownerless flight in both facings. Source prompt says tick5; canonical runtime tick7 timing is preserved."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "K.05 approved for Leo: long black hair and face details mirror without fixed-side marks; empty-hand block, push, fall, celebrate, chest pass and overhead pass have no directional prop. Both pass tracks were inspected in right and mirrored left facings; basketballs remain separate from athlete art."
+        "notes": "K.05 approved for Leo: long black hair and face details mirror without fixed-side marks; empty-hand block, push, fall, celebrate, chest pass, overhead pass and behind-the-back pass have no directional prop. All pass tracks were inspected in right and mirrored left facings; basketballs remain separate from athlete art."
       }
     },
     "kraken": {

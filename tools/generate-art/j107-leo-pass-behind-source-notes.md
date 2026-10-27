@@ -8,4 +8,4 @@ Six distinct right-facing poses show a composed gather, deceptive shoulder turn,
 - Shared component-isolation wrapper: `tools/generate-art/package-leo-action6.py`; it packs the six original poses without drawing or duplicating frames.
 - Verbatim prompt: `tools/generate-art/j107-leo-pass-behind6-prompt.md`. No rejected generation was used.
 
-Initial separate ball track: height `[1,1.05,0.85,0.9,1.1,1]`; forward `[4,2,-8,-13,-10,3]`. The ball leaves the far-side hand on frame3/tick5. Runtime hand-contact review and manifest registration remain pending central integration.
+Accepted Leo-specific track: height `[1.6,1.05,1.2,1.6,1.1,1]`; forward `[4,2,-6,-10,-10,3]`. Canonical runtime release is frame3/tick7. The prompt says tick5; this is documented without changing gameplay timing. Attempt04 passes native Jam Stage review at100%/120% in both facings and deterministic release/ownership tests. Trial history is in `leo-pass-behind-track-review.md`.
