@@ -4,17 +4,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 2,
-  "generatedAt": "2026-10-27T17:33:06.425Z",
+  "generatedAt": "2026-10-27T17:45:06.213Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 2336,
-  "missingClipCount": 767,
+  "inspectedClips": 2337,
+  "missingClipCount": 766,
   "uniqueSourceLibraries": 42,
-  "uniqueSourceAtlases": 509,
-  "uniqueSourceDrawings": 4814,
+  "uniqueSourceAtlases": 510,
+  "uniqueSourceDrawings": 4819,
   "classifications": {
-    "original-authored": 509,
+    "original-authored": 510,
     "derived-palette": 1827
   },
   "assignmentClassifications": {
@@ -121,8 +121,8 @@
       "sourceLibrary": "echo-catwalk"
     },
     "leo": {
-      "clips": 16,
-      "missingClips": 13,
+      "clips": 17,
+      "missingClips": 12,
       "classification": "incomplete",
       "assignmentStatus": "original-authored",
       "lineage": null,
@@ -906,13 +906,6 @@
       "athlete": "leo",
       "direction": "right",
       "clip": "layup-reverse",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
-      "clip": "rebound",
       "classification": "original-authored"
     },
     {
@@ -45036,6 +45029,68 @@
           "h": 96,
           "hash": "841e55732130dc95dbe493010f0fe63873baa8bc65dea266ed83a06d845feb39",
           "visiblePixels": 3384
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-rebound-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "1cc7e180f9abf47360702e40e2efaef7d96ec19507b66167e5bfe7e7a66abd23",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "0b4b7aaf4bff1901b312da72fecf9817c58baccfec29dfd05f28110fd515b67d",
+          "visiblePixels": 2108
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "8ae5f73317b2c52e45d151ee174958a15d9f421efa3e0e9940962551c91cbfb8",
+          "visiblePixels": 2347
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "c555a09bbd2874ade9b976800ee5f5852a686b76c02d517b08490dd0650ab080",
+          "visiblePixels": 2453
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "a4844d10aa463dbef1169f5141cf7f21162d74bf896beb653fa236d9a3993898",
+          "visiblePixels": 2212
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "184133387226c2e4c2d911d889fce6c42768204f3bc9016a439f91c5be94626c",
+          "visiblePixels": 2099
         }
       ]
     },

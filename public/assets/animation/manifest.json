@@ -59989,7 +59989,7 @@
               "ballTrack": {
                 "height": [
                   1.05,
-                  1.0,
+                  1,
                   0.8,
                   1.15,
                   1.25,
@@ -60105,13 +60105,165 @@
               "scope": "original source sheet and lossless packed atlas at native frame resolution",
               "notes": "Eight distinct complete poses preserve Leo identity and anatomy. Frame3 is a clear image-right open-hand contact reach. Source and atlas contain no ball. Native contact calibration uses the separate athlete-specific ball track."
             }
+          },
+          "rebound": {
+            "src": "./public/assets/animation/leo-rebound-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "0b4b7aaf4bff1901b312da72fecf9817c58baccfec29dfd05f28110fd515b67d"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "8ae5f73317b2c52e45d151ee174958a15d9f421efa3e0e9940962551c91cbfb8"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "c555a09bbd2874ade9b976800ee5f5852a686b76c02d517b08490dd0650ab080"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "a4844d10aa463dbef1169f5141cf7f21162d74bf896beb653fa236d9a3993898"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "184133387226c2e4c2d911d889fce6c42768204f3bc9016a439f91c5be94626c"
+              }
+            ],
+            "sha256": "1cc7e180f9abf47360702e40e2efaef7d96ec19507b66167e5bfe7e7a66abd23",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "leo",
+              "clip": "rebound",
+              "direction": "right",
+              "canonicalSection": "K.05",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-bd4af4d4-34e8-4379-ad24-594842a49409",
+              "imageGenerationId": "exec-bd4af4d4-34e8-4379-ad24-594842a49409",
+              "rawSourceImage": "tools/generate-art/sources/j115-leo-rebound-generated-raw.png",
+              "sourceImage": "tools/generate-art/sources/j115-leo-rebound-generated-raw.png",
+              "rawSourceSha256": "0e71922ff96d2cb430f20bafe6150d3e73a41582515f8faba2bfe15135666076",
+              "sourceSha256": "0e71922ff96d2cb430f20bafe6150d3e73a41582515f8faba2bfe15135666076",
+              "promptFile": "tools/generate-art/j115-leo-rebound5-prompt.md",
+              "prompt": "Create an original 1536\u00d71024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly five distinct complete full-body Leo poses in a strict three-column by two-row grid, row-major; leave the sixth cell fully transparent. Broad transparent gutters; full hair, hands and shoes inside each pose cell. Same scale and camera. Crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human captain of the Blackthorn Court Kings. Preserve pale skin, long wavy black hair, refined mustache, composed face, natural adult anatomy and patient poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThis is a right-facing rebound. The basketball is separate game art. Leo\u2019s hands remain empty in every drawing; no ball is present even at the catch point. Do not draw any sphere, orb, seams, court, hoop, floor, ground shadow, background, glow, border, grid, text, teammate or opponent. Exterior and gutters are true alpha-zero transparency, no checkerboard, matte, speckles or haze.\n\nFive distinct connected poses:\n0 sets his feet under the falling ball, eyes up, knees flexed and hands ready;\n1 jumps vertically, both arms reach high and slightly toward image-right;\n2 reaches at the apex, fingers spread to tip/grab the separate ball, face focused;\n3 GRAB at simulation tick5: hands close around empty air at the catch point, elbows start drawing down;\n4 lands under control in a composed ready stance, hands empty after securing the separate ball.\n\nKeep Leo pale, human, long-haired, mustached and recognizable in the black/crimson Court Kings uniform. Preserve complete anatomy and natural joints. Return only the transparent sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The game basketball is separately rendered. Leo\u2019s empty hands meet the separate ball at frame3/tick5; the loose ball remains unowned through tick4, and the rebound catch grants sole ownership at tick5. The Leo-specific track then follows the pull-down to the upper torso at frame4/tick7. No ball is painted into any pose.",
+              "ballTrack": {
+                "height": [
+                  1.1,
+                  1.55,
+                  2.25,
+                  1.85,
+                  1.25
+                ],
+                "forward": [
+                  5,
+                  7,
+                  10,
+                  4.5,
+                  4.5
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/package-leo-action5.py",
+                "method": "shared five-pose component isolation and nearest antialiased-pixel reassignment; 3x2 row-major atlas pack; final cell transparent"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "Five distinct poses preserve Leo identity/anatomy with complete natural human proportions and no ball. Independent source review confirms clean packing and an empty sixth cell. Independent Jam Stage review accepts track attempt02 at tick5/tick7 in both facings at100%/120%. Deterministic Leo simulation confirms ownership transfers only at tick5."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 151,
+                  "y": 138,
+                  "w": 278,
+                  "h": 364,
+                  "component": 4,
+                  "area": 47481
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 623,
+                  "y": 43,
+                  "w": 276,
+                  "h": 449,
+                  "component": 2,
+                  "area": 51046
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1132,
+                  "y": 12,
+                  "w": 322,
+                  "h": 493,
+                  "component": 1,
+                  "area": 55611
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 145,
+                  "y": 562,
+                  "w": 238,
+                  "h": 417,
+                  "component": 8,
+                  "area": 50494
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 642,
+                  "y": 615,
+                  "w": 264,
+                  "h": 376,
+                  "component": 9,
+                  "area": 48909
+                }
+              ],
+              "uniformScale": 0.18661257606490872,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 80x96 cells; baseline94; lossless WebP; 5 original rebound poses",
+              "atlasPath": "public/assets/animation/leo-rebound-right.webp",
+              "atlasSha256": "1cc7e180f9abf47360702e40e2efaef7d96ec19507b66167e5bfe7e7a66abd23",
+              "atlasBytes": 30350,
+              "trackTrials": "tools/generate-art/j115-leo-rebound-track-trials.json",
+              "lightPreview": "tools/generate-art/previews/leo-rebound-atlas-light.png",
+              "darkPreview": "tools/generate-art/previews/leo-rebound-atlas-dark.png"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex and independent source/track reviewers",
+              "scope": "source, packed atlas, mirror, separate ball contact and recovery at100%/120% in both facings",
+              "notes": "Five complete poses pass identity/anatomy/transparency review. Attempt02 contact at frame3/tick5 and pull-down to frame4/tick7 pass independent native review. Leo alone gains ownership at tick5 in deterministic simulation."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Leo\u2019s J.113 steal art preserves long wavy hair, face, mustache, black/crimson kit and natural anatomy when horizontally mirrored. It has empty hands and no fixed-side markings or props; the separate basketball uses a facing-aware Leo-specific track."
+        "notes": "J.115 rebound has no fixed-side costume mark, prop or handed detail; the five poses retain the same face/hair/kit when mirrored. Native Stage captures review both facings at both zooms."
       }
     },
     "kraken": {
