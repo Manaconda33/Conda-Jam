@@ -99,7 +99,7 @@
       "rejection": "Targeted image edit retains the same broad brown/black gradient backdrop and smooth shading. Frames5–8 remain repetitive holds despite specific silhouette edits; no alpha cleanup or packing attempted."
     }
   ],
-  "decision": "Full-sheet attempts01–05 rejected and preserved; individual-pose path active. Poses00,01 attempt02,02–04,06–07,09–10,12–14 have provisional/accepted reviews; pose01 attempt01, pose05 attempt01, pose08 attempt01, pose11 attempt01, pose05 attempt02, and pose08 attempt02 rejected. Pose11 attempt02 raw retained and largest-connected-silhouette cleanup derivative awaits independent review. No J127 sheet/atlas or track is registered.",
+  "decision": "Full-sheet attempts01–05 rejected and preserved; individual-pose path active. Poses00,01 attempt02,02–04,06–07,09–10,11 attempt02 cleaned derivative,12–14 have provisional/accepted reviews. Pose01 attempt01, pose05 attempts01–02, pose08 attempts01–02, pose11 attempt01 rejected. Fresh ball-free pose05 and pose08 candidates still required. No J127 sheet/atlas or track is registered.",
   "independentReview": {
     "reviewer": "candidate_review",
     "decision": "reject attempts01–02",
@@ -483,8 +483,8 @@
       "sourceReferences": [
         "public/assets/animation/leo-dunk-tomahawk-right.webp"
       ],
-      "status": "cleanup derivative pending independent review",
-      "review": "Raw reviewer found detached black-alpha speckles; separate derivative retains largest 8-connected silhouette only, removing detached alpha components. Raw preserved."
+      "status": "accepted after independent cleanup review; ready for sequence normalization",
+      "review": "Independent review accepts cleanup: largest 8-connected silhouette preserves full anatomy/hair/arms/legs, removes 840 detached speckles, remains ball-free and distinct from pose10 release and pose12 landing transition."
     }
   ]
 }
