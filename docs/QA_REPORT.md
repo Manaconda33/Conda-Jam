@@ -1,3 +1,10 @@
+# QA — 2026-10-27 J.132 Briar block accepted
+
+- J.132 attempt07 is registered; independent source/packed/native review accepts all four distinct defensive poses. Both facings select all frames at100%/120% on Jam Stage court Y=75. Ball stays dead/unowned; block has no ball track. The source normalizer preserves raw art and removes only detached low-alpha pixels beyond the subject halo.
+- Renderer candidate diagnostics now emit extra contact captures only when separate track arrays exist. Captures from the pre-fix candidate run with null event ticks are retained but excluded.
+- Validation: `npm test` 54/54; lint19 JavaScript modules; content35 franchises/105 unique athletes; build PASS. Strict report-only audit `2026-10-27T00:47:29.923Z`:105 athletes,827 clips,7,483 drawings,2,276 missing clips, one target shortfall, four inherited prompt findings. Browser E2E remains blocked because the local server exits before readiness at `127.0.0.1:4175`.
+
+
 # Latest checkpoint — Issue #4 stage default-renderer deployed (2026-10-26)
 
 - The successful `d1c8cac3` Pages deploy contained the R16 court/hoop/camera code but activated it only with `?stagePreview=1`; the regular game link therefore showed the old renderer. Commit `5d5d831f` enables R16 by default and keeps `?stagePreview=0` as a legacy comparison switch. Local validation passes: 52/52 test files, lint19 modules, standalone build. Pages run #172 (`40387741513`) passed verify, build, upload, and deployment. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=5d5d831f.

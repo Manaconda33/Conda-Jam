@@ -1,0 +1,245 @@
+{
+  "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+  "cameraZoom": 100,
+  "previewCourtY": 75,
+  "loadedImages": 208,
+  "matchPlayers": [
+    "briar-foxglove"
+  ],
+  "previews": [
+    "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/left-block.png",
+    "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/right-block.png"
+  ],
+  "previewFrames": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/left-block.png",
+      "athlete": "briar-foxglove",
+      "clip": "block",
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/right-block.png",
+      "athlete": "briar-foxglove",
+      "clip": "block",
+      "tick": 5,
+      "facing": -1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    }
+  ],
+  "actionFramePreviews": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/left-block-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "block",
+      "frame": 0,
+      "tick": 0,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j132-briar-foxglove-block-attempt-04/briar-foxglove-block-4x-candidate.png",
+      "sourceRect": [
+        0,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        144,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/left-block-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "block",
+      "frame": 1,
+      "tick": 2,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j132-briar-foxglove-block-attempt-04/briar-foxglove-block-4x-candidate.png",
+      "sourceRect": [
+        72,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        144,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/left-block-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "block",
+      "frame": 2,
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j132-briar-foxglove-block-attempt-04/briar-foxglove-block-4x-candidate.png",
+      "sourceRect": [
+        0,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        144,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/left-block-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "block",
+      "frame": 3,
+      "tick": 8,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j132-briar-foxglove-block-attempt-04/briar-foxglove-block-4x-candidate.png",
+      "sourceRect": [
+        72,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        144,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/right-block-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "block",
+      "frame": 0,
+      "tick": 0,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j132-briar-foxglove-block-attempt-04/briar-foxglove-block-4x-candidate.png",
+      "sourceRect": [
+        0,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        144,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/right-block-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "block",
+      "frame": 1,
+      "tick": 2,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j132-briar-foxglove-block-attempt-04/briar-foxglove-block-4x-candidate.png",
+      "sourceRect": [
+        72,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        144,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/right-block-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "block",
+      "frame": 2,
+      "tick": 5,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j132-briar-foxglove-block-attempt-04/briar-foxglove-block-4x-candidate.png",
+      "sourceRect": [
+        0,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        144,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j132-briar-foxglove-block/attempt-04/native-100/right-block-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "block",
+      "frame": 3,
+      "tick": 8,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j132-briar-foxglove-block-attempt-04/briar-foxglove-block-4x-candidate.png",
+      "sourceRect": [
+        72,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        144,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    }
+  ],
+  "passContactCaptures": [],
+  "liveShotCaptures": []
+}
