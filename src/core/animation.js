@@ -1505,6 +1505,7 @@ athleteBallTracks.leo={pass:{height:[1.65,1.9,1.9,2.05,2.0,1.05],forward:[3.75,4
   athleteBallTracks.leo['pass-overhead']={height:[1.1,2.3,2.3,2.7,3.2,1.25],forward:[4.5,4.8,4.7,6.5,7,7]}; // provisional J.106 candidate attempt07
 athleteBallTracks.leo['dunk-power']={height:[.95,1.1,1.25,1.45,1.5,2.3,2.1,2.3,1.7,.5,-.9,1.4,1.3,.9,.65],forward:[6,8,6,2,0,-3,-5,5.5,0,5,5,10,7,5,6]}; // J.118 attempt05 native hand calibration; release remains a separate ownerless game ball
 athleteBallTracks.leo['dunk-windmill']={height:[1.2,1.1,1.2,.7,.5,0,1.1,.9,1.8,2.3,1.3,1.4,1.1,.75,.65],forward:[6,8,-9,-10,-5,2,7.5,7.5,-2.5,0,5.5,10,8,5,5]}; // J.119 attempt11: native hand-contact track
+athleteBallTracks.leo['dunk-reverse']={height:[1.1,1.05,.9,.2,1.25,.9,2.0,2.0,2.2,1.4,1.2,.8,.85,.8,.7],forward:[8,8,1,6,4,-3,2.5,2,-2,-8,-9,-5,5,4,6]}; // J.120 attempt06: native behind-crown and rearward-release track
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
   const trackProperty=property==='ballHeight'?'height':'forward';

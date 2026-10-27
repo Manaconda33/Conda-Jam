@@ -60744,13 +60744,379 @@
               "scope": "source, packed atlas, both facings at 100%/120%, separate ball contact and gameplay release/scoring",
               "notes": "Fifteen source poses pass identity, anatomy, alpha, margin, baseline and no-baked-ball review. Independent Jam Stage review accepts attempt11: frame8/tick17 contacts Leo\u2019s raised hand in both facings and zooms; tick21 release leaves the releasing hand in the correct forward direction. Deterministic gameplay verification confirms Leo owns the ball through tick20, releases once at tick21, and scores at finish tick23."
             }
+          },
+          "dunk-reverse": {
+            "src": "./public/assets/animation/leo-dunk-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "be31ad82169de01f6eb45989221442b69ceb4462712abb233baa68ae754cb878"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "bc97281502722801970dc06d49c4ff06693d35745618b8122fd65d0106c095ab"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "5ba00c3b36f77d014d0b482a77ad09f58095b282d68e53b9c0ea46caeb2006eb"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "fdf9f9154585bc13a9616a9e5bf0bb39dcee42511e70aa7b86b065afd5c8d777"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "e0171838c862eae44c214c66c2487ad2cd1025ebfd3f7154a38c0b1b685c4930"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "2741ebbebc62293b8c5bd1ff10a815ce173da1600d40c01749d5108d11b8fe8c"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "0b3927fa764d342b3224b0be218ebc71117e87994f158d9e5ea450cd9057cf34"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "4067f302b27c328a4878067fef250a233ac93d93c2357dda535517de4f418d9d"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "334496d089bce82ec89ff636b20c071ad6694e37b473c7f5016acdea8e9312b4"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "a9886b0ec46cb8b756c86d1a946a2a3fe468dfe4c041637e5e0995675f8befeb"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "fe4e8afd2ee6a8d490ba9a63895dceb4351453214600bd753fb48b1b4c259be1"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "0cfb5d5e8c0d60f17908551182f9c4749281d10b1a69684f77d8dccab8eae2b5"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "97825bffa8f88e93d7c6030794422550c04635a09d042f817156e9311ec97c1e"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "f578764d1cf98d4062c11a982e4707af621ff104cee48cc0340ecf7d16fa01e3"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "c6141b36560ac7be85e3de8c05ddf45f05e29aabe3ac870cf9634bf55f72d542"
+              }
+            ],
+            "sha256": "850c3b5b2433dd6f551eb56c4b96887af247d9cd803ae2f58d86df558160c3a2",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "tools/generate-art/j120-leo-dunk-reverse15-prompt.md",
+              "editPrompt": "tools/generate-art/j120-leo-dunk-reverse15-edit-prompt.md",
+              "generatedAt": "2026-10-27",
+              "generationId": "c2pa:72f55ae0-737d-4d3a-b5b7-dc0c3971ce5b",
+              "rawSourceImage": "tools/generate-art/sources/j120-leo-dunk-reverse-attempt02-generated-raw.png",
+              "sourceImage": "tools/generate-art/sources/j120-leo-dunk-reverse-attempt02-cleaned.png",
+              "sourceSha256": "7ebd3c3a6efebb2678f84ffc5decf1e519a5806af38153df161f159004250de4",
+              "atlasPath": "public/assets/animation/leo-dunk-reverse-right.webp",
+              "atlasSha256": "850c3b5b2433dd6f551eb56c4b96887af247d9cd803ae2f58d86df558160c3a2",
+              "sourceRects": [
+                {
+                  "x": 48,
+                  "y": 38,
+                  "w": 210,
+                  "h": 303
+                },
+                {
+                  "x": 332,
+                  "y": 72,
+                  "w": 287,
+                  "h": 264
+                },
+                {
+                  "x": 671,
+                  "y": 93,
+                  "w": 256,
+                  "h": 243
+                },
+                {
+                  "x": 992,
+                  "y": 114,
+                  "w": 220,
+                  "h": 226
+                },
+                {
+                  "x": 1282,
+                  "y": 37,
+                  "w": 224,
+                  "h": 295
+                },
+                {
+                  "x": 63,
+                  "y": 367,
+                  "w": 210,
+                  "h": 292
+                },
+                {
+                  "x": 371,
+                  "y": 376,
+                  "w": 207,
+                  "h": 298
+                },
+                {
+                  "x": 672,
+                  "y": 372,
+                  "w": 209,
+                  "h": 283
+                },
+                {
+                  "x": 995,
+                  "y": 375,
+                  "w": 240,
+                  "h": 300
+                },
+                {
+                  "x": 1278,
+                  "y": 372,
+                  "w": 221,
+                  "h": 293
+                },
+                {
+                  "x": 47,
+                  "y": 681,
+                  "w": 263,
+                  "h": 307
+                },
+                {
+                  "x": 373,
+                  "y": 687,
+                  "w": 235,
+                  "h": 282
+                },
+                {
+                  "x": 681,
+                  "y": 688,
+                  "w": 221,
+                  "h": 298
+                },
+                {
+                  "x": 982,
+                  "y": 742,
+                  "w": 221,
+                  "h": 247
+                },
+                {
+                  "x": 1300,
+                  "y": 689,
+                  "w": 197,
+                  "h": 299
+                }
+              ],
+              "destinationRects": [
+                {
+                  "x": 33,
+                  "y": 5,
+                  "w": 62,
+                  "h": 89
+                },
+                {
+                  "x": 150,
+                  "y": 17,
+                  "w": 84,
+                  "h": 77
+                },
+                {
+                  "x": 282,
+                  "y": 23,
+                  "w": 75,
+                  "h": 71
+                },
+                {
+                  "x": 416,
+                  "y": 28,
+                  "w": 64,
+                  "h": 66
+                },
+                {
+                  "x": 31,
+                  "y": 104,
+                  "w": 66,
+                  "h": 86
+                },
+                {
+                  "x": 161,
+                  "y": 104,
+                  "w": 62,
+                  "h": 86
+                },
+                {
+                  "x": 289,
+                  "y": 103,
+                  "w": 61,
+                  "h": 87
+                },
+                {
+                  "x": 417,
+                  "y": 107,
+                  "w": 61,
+                  "h": 83
+                },
+                {
+                  "x": 29,
+                  "y": 198,
+                  "w": 70,
+                  "h": 88
+                },
+                {
+                  "x": 159,
+                  "y": 200,
+                  "w": 65,
+                  "h": 86
+                },
+                {
+                  "x": 281,
+                  "y": 196,
+                  "w": 77,
+                  "h": 90
+                },
+                {
+                  "x": 413,
+                  "y": 203,
+                  "w": 69,
+                  "h": 83
+                },
+                {
+                  "x": 31,
+                  "y": 295,
+                  "w": 65,
+                  "h": 87
+                },
+                {
+                  "x": 159,
+                  "y": 310,
+                  "w": 65,
+                  "h": 72
+                },
+                {
+                  "x": 291,
+                  "y": 294,
+                  "w": 58,
+                  "h": 88
+                }
+              ],
+              "baselineY": 94,
+              "uniformScale": 0.2931596091205212,
+              "cleanupScript": "tools/generate-art/clean-j120-leo-dunk-reverse.py",
+              "packingScript": "tools/generate-art/pack-j120-leo-dunk-reverse.py",
+              "rejectedGenerations": [
+                "c2pa:ab343ffc-fbb0-4151-afee-642ffc74839e"
+              ],
+              "rawSourceSha256": "ed2a1f0ad8c48cf6dcdcc1979881619f91930aa2048033b2ad079a63540ee138",
+              "sourceReview": "tools/generate-art/j120-leo-dunk-reverse15-provenance.json",
+              "lightPreview": "tools/generate-art/previews/j120-leo-dunk-reverse-atlas-light.png",
+              "darkPreview": "tools/generate-art/previews/j120-leo-dunk-reverse-atlas-dark.png",
+              "sourceStatus": "source and separate ball track accepted",
+              "ballTrack": {
+                "height": [
+                  1.1,
+                  1.05,
+                  0.9,
+                  0.2,
+                  1.25,
+                  0.9,
+                  2.0,
+                  2.0,
+                  2.2,
+                  1.4,
+                  1.2,
+                  0.8,
+                  0.85,
+                  0.8,
+                  0.7
+                ],
+                "forward": [
+                  8,
+                  8,
+                  1,
+                  6,
+                  4,
+                  -3,
+                  2.5,
+                  2,
+                  -2,
+                  -8,
+                  -9,
+                  -5,
+                  5,
+                  4,
+                  6
+                ],
+                "trials": "tools/generate-art/j120-leo-dunk-reverse-track-trials.json"
+              },
+              "reviewedAt": "2026-10-27"
+            },
+            "reviewed": true,
+            "mirrorSafe": true,
+            "review": {
+              "by": "Codex with independent source-art and ball-track reviewers",
+              "scope": "source components, packed 128x96 atlas, both facings at 100%/120%, separate hand contacts and gameplay release/scoring",
+              "notes": "Fifteen source poses preserve Leo identity/anatomy and black/crimson kit, contain no ball, and pack with baseline y94, minimum 4px top and22px side margins and transparent cell16. Independent Jam Stage attempt06 review accepts frame4/tick9 at the extended hand, frame7/tick14 at the behind-crown hand, frame8/tick17 and frame9/tick19 carry contact, and tick21 backward release in both facings; frame6/tick12 remains close to the crown hand. Deterministic simulation verifies sole ownership through tick20, one release at tick21 and score at finish tick23 in both facings. Peak 120% HUD overlap is shared with prior dunk art and is camera/UI occlusion, not source cropping."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "The reviewed right-facing Leo windmill art has no fixed-side mark or prop; opposite facing is visually coherent. Separate track contact remains under review."
+        "notes": "J120 is safe to mirror for opposite facing; no fixed-side marks or props. Both directions use the same athlete-specific mirrored hand path."
       }
     },
     "kraken": {
