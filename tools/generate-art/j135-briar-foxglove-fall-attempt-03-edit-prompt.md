@@ -1,0 +1,7 @@
+Edit the attached ten-pose Briar Foxglove fall sprite sheet for production review. Preserve exactly the same ten poses, their row-major order, facing, action timing, and the same Briar character. Use the second attached accepted Briar gameplay atlas as the authoritative identity and palette reference.
+
+Correct only the sheet's cell safety and palette: separate each of the ten figures farther from cell boundaries so no head, loc, hand, finger, shoe, or silhouette crosses into another cell; leave a clear transparent gutter between adjacent figures and at least 36 pixels of transparent margin from each figure to every 400x400 cell edge. Do not crop any anatomy. Preserve the exact 5-column by 2-row layout. Keep full anatomy and the headband visible in every pose.
+
+Match Briar's accepted russet-and-cream Emberwood uniform palette. Fabric must be the same muted russet/orange-brown as the reference, about #b64d27, with warm cream trim near #f2d6aa. Avoid vivid scarlet fabric and avoid white trim. Keep the headband vivid red, locs dark brown, and deep-brown skin matching the reference. Do not change her adult human anatomy, face, compact athletic build, shoes, pose silhouettes, or expression.
+
+Return only a clean transparent RGBA sprite sheet with exactly ten figures. Keep both hands empty. No ball, opponent, court, hoop, floor, shadow, effects, text, numbers, logos, extra props, borders, grid marks, extra figures, or extra limbs.

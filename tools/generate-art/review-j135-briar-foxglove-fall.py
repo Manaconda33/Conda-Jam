@@ -11,7 +11,7 @@ SOURCE_DIR = ROOT / "tools/generate-art/sources"
 OUTPUT_DIR = ROOT / "tools/generate-art/previews/j135-briar-foxglove-fall"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-for attempt in ("00", "01", "02"):
+for attempt in ("00", "01", "02", "03"):
     source = SOURCE_DIR / f"j135-briar-foxglove-fall-attempt-{attempt}-raw.png"
     if not source.exists():
         continue

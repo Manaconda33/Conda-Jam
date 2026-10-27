@@ -1,6 +1,6 @@
 ## J.135 Briar Foxglove `fall` generation in review — 2026-10-27
 
-ImageGen returned three preserved sheets. Attempt00 is rejected for contradictory prompt identity; attempt01 is unaccepted for pose-cell spill, edge clearance and red/white palette; attempt02 is unaccepted pending packed-size separation and russet/cream palette review. Briar's canonical locs, red headband, deep-brown skin and compact build are present in attempt02, and no ball is drawn. There is no accepted J.135 source/atlas/track yet. Exact prompts, IDs, PNGs, hashes and light/dark previews are indexed in `tools/generate-art/j135-briar-foxglove-fall-provenance.json` and `tools/generate-art/j135-briar-foxglove-fall-review.md`.
+ImageGen returned four preserved sheets. Attempt00 is rejected for contradictory prompt identity; attempt01 is unaccepted for pose-cell spill, edge clearance and red/white palette; attempt02 is unaccepted; attempt03 is the current unaccepted candidate pending packed-size separation and russet/cream palette review. Briar's canonical locs, red headband, deep-brown skin and compact build are present in attempt03, and no ball is drawn. There is no accepted J.135 source/atlas/track yet. Exact prompts, IDs, PNGs, hashes and light/dark previews are indexed in `tools/generate-art/j135-briar-foxglove-fall-provenance.json` and `tools/generate-art/j135-briar-foxglove-fall-review.md`.
 
 ## Current J.134 Briar Foxglove `push` checkpoint — 2026-10-27 01:49 UTC
 

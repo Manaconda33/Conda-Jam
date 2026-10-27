@@ -34,7 +34,184 @@
       "review_status": "pending",
       "notes": "Unaccepted. Independent review confirms ten ordered and distinguishable poses, consistent Briar identity/anatomy, and no ball; frame 3 has roughly 13px alpha>=16 clearance. Source is 1983x793 rather than requested 2000x800. Kit still reads red with bright-white trim; compare against accepted Briar palette and review separation at packed size before acceptance.",
       "light_dark_preview": "tools/generate-art/previews/j135-briar-foxglove-fall/j135-briar-foxglove-fall-attempt-02-light-dark.png",
-      "preview_sha256": "16dcca3ed9d4e3f0aaf98110c4a3af8627c206b951a1a1a3bfd7388fe8318692"
+      "preview_sha256": "16dcca3ed9d4e3f0aaf98110c4a3af8627c206b951a1a1a3bfd7388fe8318692",
+      "raw_dimensions": [
+        1983,
+        793
+      ],
+      "grid": {
+        "columns": 5,
+        "rows": 2,
+        "order": "row-major",
+        "measurement": "rounding equal 1/5 width and 1/2 height cell boundaries"
+      },
+      "alpha16_cell_margins_px": [
+        {
+          "frame": 0,
+          "left": 77,
+          "top": 78,
+          "right": 46,
+          "bottom": 29
+        },
+        {
+          "frame": 1,
+          "left": 46,
+          "top": 78,
+          "right": 29,
+          "bottom": 29
+        },
+        {
+          "frame": 2,
+          "left": 65,
+          "top": 140,
+          "right": 21,
+          "bottom": 29
+        },
+        {
+          "frame": 3,
+          "left": 46,
+          "top": 181,
+          "right": 13,
+          "bottom": 35
+        },
+        {
+          "frame": 4,
+          "left": 52,
+          "top": 198,
+          "right": 67,
+          "bottom": 33
+        },
+        {
+          "frame": 5,
+          "left": 62,
+          "top": 151,
+          "right": 15,
+          "bottom": 50
+        },
+        {
+          "frame": 6,
+          "left": 72,
+          "top": 128,
+          "right": 52,
+          "bottom": 49
+        },
+        {
+          "frame": 7,
+          "left": 72,
+          "top": 81,
+          "right": 75,
+          "bottom": 51
+        },
+        {
+          "frame": 8,
+          "left": 67,
+          "top": 36,
+          "right": 59,
+          "bottom": 51
+        },
+        {
+          "frame": 9,
+          "left": 74,
+          "top": 81,
+          "right": 47,
+          "bottom": 49
+        }
+      ]
+    },
+    {
+      "attempt": "03",
+      "generation_id": "exec-a1140609-9874-4d6d-bc22-86f311bcb31a",
+      "prompt_file": "tools/generate-art/j135-briar-foxglove-fall-attempt-03-edit-prompt.md",
+      "raw_image": "tools/generate-art/sources/j135-briar-foxglove-fall-attempt-03-raw.png",
+      "sha256": "4f9981915402e02507c70e7363ac15609f6dde4482305bcc4b55c7d2cb4569dd",
+      "edited_from": "tools/generate-art/sources/j135-briar-foxglove-fall-attempt-02-raw.png",
+      "identity_reference": "public/assets/animation/briar-foxglove-push-right.png",
+      "light_dark_preview": "tools/generate-art/previews/j135-briar-foxglove-fall/j135-briar-foxglove-fall-attempt-03-light-dark.png",
+      "preview_sha256": "74d7c1dd27b30655039f5c09fc59a8a4515f4be4045382a2a31f9f28aecafc53",
+      "review_status": "pending",
+      "notes": "Unaccepted pending packed-size check. Independent review confirms ten readable ordered poses, Briar identity/anatomy and no ball. Alpha>=16 measurements within equal 5x2 source cells have 13px minimum clearance (frame 3 right edge); canvas is 1983x793, not requested 2000x800. Kit color is closer to accepted push sprites but remains red/russet with near-white/cream trim; verify against reference and at packed size.",
+      "raw_dimensions": [
+        1983,
+        793
+      ],
+      "grid": {
+        "columns": 5,
+        "rows": 2,
+        "order": "row-major",
+        "measurement": "rounding equal 1/5 width and 1/2 height cell boundaries"
+      },
+      "alpha16_cell_margins_px": [
+        {
+          "frame": 0,
+          "left": 75,
+          "top": 75,
+          "right": 45,
+          "bottom": 28
+        },
+        {
+          "frame": 1,
+          "left": 44,
+          "top": 75,
+          "right": 23,
+          "bottom": 28
+        },
+        {
+          "frame": 2,
+          "left": 66,
+          "top": 140,
+          "right": 19,
+          "bottom": 29
+        },
+        {
+          "frame": 3,
+          "left": 43,
+          "top": 175,
+          "right": 15,
+          "bottom": 34
+        },
+        {
+          "frame": 4,
+          "left": 53,
+          "top": 195,
+          "right": 61,
+          "bottom": 31
+        },
+        {
+          "frame": 5,
+          "left": 64,
+          "top": 151,
+          "right": 13,
+          "bottom": 47
+        },
+        {
+          "frame": 6,
+          "left": 74,
+          "top": 116,
+          "right": 46,
+          "bottom": 46
+        },
+        {
+          "frame": 7,
+          "left": 72,
+          "top": 71,
+          "right": 69,
+          "bottom": 49
+        },
+        {
+          "frame": 8,
+          "left": 67,
+          "top": 31,
+          "right": 54,
+          "bottom": 49
+        },
+        {
+          "frame": 9,
+          "left": 76,
+          "top": 69,
+          "right": 43,
+          "bottom": 49
+        }
+      ]
     }
   ]
 }
