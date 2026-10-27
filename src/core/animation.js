@@ -1504,6 +1504,7 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
 athleteBallTracks.leo={pass:{height:[1.65,1.9,1.9,2.05,2.0,1.05],forward:[3.75,4.75,8.5,9.75,9,7]},'pass-behind':{height:[1.6,1.05,1.2,1.6,1.1,1],forward:[4,2,-6,-10,-10,3]},receive:{height:[1.15,2.0,1.9,1.45],forward:[8,13,8,3]},pickup:{height:[.95,.65,.1,0,1.1],forward:[6,9,12,11.5,8]},layup:{height:[.95,.8,2.0,2.6,2.35,1.8,.95,.6],forward:[5,3,5,4.5,14,11,7,5]},steal:{height:[1.05,1.0,.8,1.15,1.25,1.1,1.1,1.1],forward:[6,9,12,12.5,6,7,7,6]},rebound:{height:[1.1,1.55,2.25,1.85,1.25],forward:[5,7,10,4.5,4.5]}}; // J.115 rebound attempt02: high catch and chest recovery track
   athleteBallTracks.leo['pass-overhead']={height:[1.1,2.3,2.3,2.7,3.2,1.25],forward:[4.5,4.8,4.7,6.5,7,7]}; // provisional J.106 candidate attempt07
 athleteBallTracks.leo['dunk-power']={height:[.95,1.1,1.25,1.45,1.5,2.3,2.1,2.3,1.7,.5,-.9,1.4,1.3,.9,.65],forward:[6,8,6,2,0,-3,-5,5.5,0,5,5,10,7,5,6]}; // J.118 attempt05 native hand calibration; release remains a separate ownerless game ball
+athleteBallTracks.leo['dunk-windmill']={height:[1.2,1.1,1.2,.7,.5,0,1.1,.9,1.8,2.3,1.3,1.4,1.1,.75,.65],forward:[6,8,-9,-10,-5,2,7.5,7.5,-2.5,0,5.5,10,8,5,5]}; // J.119 attempt11: native hand-contact track
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
   const trackProperty=property==='ballHeight'?'height':'forward';

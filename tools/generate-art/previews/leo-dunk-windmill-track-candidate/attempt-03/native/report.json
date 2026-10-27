@@ -1,0 +1,1007 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4199/",
+  "athlete": "leo",
+  "clip": "dunk-windmill",
+  "candidateTrack": {
+    "height": [
+      0.5,
+      0.3,
+      0.5,
+      1.0,
+      0,
+      -0.3,
+      1.5,
+      0.6,
+      1.2,
+      1.7,
+      2.5,
+      1.4,
+      1.1,
+      0.75,
+      0.65
+    ],
+    "forward": [
+      6,
+      3,
+      -9,
+      -12,
+      -9,
+      0,
+      3,
+      1,
+      7,
+      -4,
+      5.5,
+      10,
+      8,
+      5,
+      5
+    ]
+  },
+  "captureMethod": "Manually stages the canonical dunk z-height at each authored frame start; carried ball follows candidate track through tick20, separate ownerless dunk ball at tick21 release. Deterministic gameplay verification is separate.",
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 106,
+        "y": 75,
+        "z": 0.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 103,
+        "y": 75,
+        "z": 0.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick02-right-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 91,
+        "y": 75,
+        "z": 0.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick04-right-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "z": 2.2699524987,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 88,
+        "y": 75,
+        "z": 3.2699524987
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick07-right-zoom100.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": 1,
+      "z": 3.5355339059,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 91,
+        "y": 75,
+        "z": 3.5355339059
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick09-right-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 100,
+        "y": 75,
+        "z": 3.7450849719
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick10-right-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": 1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 103,
+        "y": 75,
+        "z": 6.2552825815
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick12-right-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": 1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 101,
+        "y": 75,
+        "z": 5.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick14-right-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": 1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 107,
+        "y": 75,
+        "z": 5.5301270189
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick17-right-zoom100.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": 1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 4.9139380484
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick19-right-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": 1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 4.2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick20-right-zoom100.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": 1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 105.5,
+        "y": 75,
+        "z": 4.2101007165999995
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick21-right-zoom100.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": 1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 108.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick22-right-zoom100.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 110.5,
+        "y": 75,
+        "z": 1.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick23-right-zoom100.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 114.5,
+        "y": 75,
+        "z": 0.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick26-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94,
+        "y": 75,
+        "z": 0.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 97,
+        "y": 75,
+        "z": 0.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick02-left-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 109,
+        "y": 75,
+        "z": 0.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick04-left-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "z": 2.2699524987,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 112,
+        "y": 75,
+        "z": 3.2699524987
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick07-left-zoom100.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": -1,
+      "z": 3.5355339059,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 109,
+        "y": 75,
+        "z": 3.5355339059
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick09-left-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 100,
+        "y": 75,
+        "z": 3.7450849719
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick10-left-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": -1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 97,
+        "y": 75,
+        "z": 6.2552825815
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick12-left-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": -1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 99,
+        "y": 75,
+        "z": 5.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick14-left-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": -1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 93,
+        "y": 75,
+        "z": 5.5301270189
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick17-left-zoom100.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": -1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 4.9139380484
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick19-left-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": -1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 4.2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick20-left-zoom100.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": -1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 94.5,
+        "y": 75,
+        "z": 4.2101007165999995
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick21-left-zoom100.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": -1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 91.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick22-left-zoom100.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 89.5,
+        "y": 75,
+        "z": 1.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick23-left-zoom100.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 85.5,
+        "y": 75,
+        "z": 0.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick26-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 106,
+        "y": 75,
+        "z": 0.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 103,
+        "y": 75,
+        "z": 0.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick02-right-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 91,
+        "y": 75,
+        "z": 0.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick04-right-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "z": 2.2699524987,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 88,
+        "y": 75,
+        "z": 3.2699524987
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick07-right-zoom120.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": 1,
+      "z": 3.5355339059,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 91,
+        "y": 75,
+        "z": 3.5355339059
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick09-right-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 100,
+        "y": 75,
+        "z": 3.7450849719
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick10-right-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": 1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 103,
+        "y": 75,
+        "z": 6.2552825815
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick12-right-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": 1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 101,
+        "y": 75,
+        "z": 5.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick14-right-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": 1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 107,
+        "y": 75,
+        "z": 5.5301270189
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick17-right-zoom120.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": 1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 4.9139380484
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick19-right-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": 1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 4.2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick20-right-zoom120.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": 1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 105.5,
+        "y": 75,
+        "z": 4.2101007165999995
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick21-right-zoom120.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": 1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 108.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick22-right-zoom120.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 110.5,
+        "y": 75,
+        "z": 1.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick23-right-zoom120.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 114.5,
+        "y": 75,
+        "z": 0.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick26-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94,
+        "y": 75,
+        "z": 0.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 97,
+        "y": 75,
+        "z": 0.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick02-left-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 109,
+        "y": 75,
+        "z": 0.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick04-left-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "z": 2.2699524987,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 112,
+        "y": 75,
+        "z": 3.2699524987
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick07-left-zoom120.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": -1,
+      "z": 3.5355339059,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 109,
+        "y": 75,
+        "z": 3.5355339059
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick09-left-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 100,
+        "y": 75,
+        "z": 3.7450849719
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick10-left-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": -1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 97,
+        "y": 75,
+        "z": 6.2552825815
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick12-left-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": -1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 99,
+        "y": 75,
+        "z": 5.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick14-left-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": -1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 93,
+        "y": 75,
+        "z": 5.5301270189
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick17-left-zoom120.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": -1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 4.9139380484
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick19-left-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": -1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 4.2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick20-left-zoom120.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": -1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 94.5,
+        "y": 75,
+        "z": 4.2101007165999995
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick21-left-zoom120.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": -1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 91.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick22-left-zoom120.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 89.5,
+        "y": 75,
+        "z": 1.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick23-left-zoom120.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 85.5,
+        "y": 75,
+        "z": 0.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-windmill-track-candidate/attempt-03/native/tick26-left-zoom120.png"
+    }
+  ],
+  "captureCount": 60,
+  "uncaughtBrowserErrors": []
+}
