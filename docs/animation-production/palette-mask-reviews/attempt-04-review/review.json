@@ -1,0 +1,69 @@
+{
+  "attempt": 4,
+  "donor": "echo-catwalk",
+  "status": "awaiting independent review",
+  "reviewedAt": "2026-10-27T03:30:00Z",
+  "sourcePalette": [
+    "#159d9b",
+    "#773ec2"
+  ],
+  "targetPalette": [
+    "#b91e36",
+    "#25202a"
+  ],
+  "transform": "frame-relative-garment-mask-v4",
+  "mask": {
+    "primaryY": [
+      0.36,
+      0.8
+    ],
+    "primaryX": [
+      0.18,
+      0.82
+    ],
+    "secondaryY": [
+      0.56,
+      0.88
+    ],
+    "secondaryX": [
+      0.22,
+      0.78
+    ],
+    "rgbDistanceLimit": 120,
+    "secondaryClass": "violet-trim-and-cool-dark-shorts"
+  },
+  "sourceAtlases": [
+    {
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+      "sha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2"
+    },
+    {
+      "clip": "pass",
+      "src": "./public/assets/animation/echo-catwalk-pass-right.webp",
+      "sha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0"
+    },
+    {
+      "clip": "rebound",
+      "src": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+      "sha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371"
+    },
+    {
+      "clip": "fall",
+      "src": "./public/assets/animation/echo-catwalk-fall-right.webp",
+      "sha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355"
+    },
+    {
+      "clip": "celebrate",
+      "src": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+      "sha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982"
+    },
+    {
+      "clip": "dunk-power",
+      "src": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+      "sha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7"
+    }
+  ],
+  "contactSheetSha256": "8ac27f4a7e4c8b217f19f1de406b616cb718626cfc2fcf92d96152633878ad80",
+  "notes": "The sixth representative atlases were rendered after moving the primary mask below the headband, widening source shade matching and including violet kit trim. This remains a review candidate; runtime assignments stay gated."
+}

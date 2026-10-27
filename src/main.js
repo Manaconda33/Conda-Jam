@@ -7,6 +7,7 @@ import { createLeagueTable, recordLeagueResult, rankLeague } from './core/league
 import { createCareerRecords, rankCareerLeaders, recordCareerMatch } from './core/career.js';
 import { createTournament, recordTournamentResult, validTournament } from './core/tournament.js';
 import { animationAssetManifest } from './content/animation-assets.js';
+import { supportingAnimationLibraries } from './content/supporting-animation-libraries.js';
 import { selectProductionSprite, productionBaseSilhouetteHeightRatio, legacySpritePose, athleteVisualScale, ballDrawDepth } from './render/animation-sprites.js';
 import { courtMarkings, ballHeightPixels } from './render/court-geometry.js';
 import { updateCameraX } from './render/camera-tracking.js';
@@ -49,7 +50,7 @@ for(const groups of Object.values(actionAtlases))for(const frames of Object.valu
 const productionSpriteImages=new Map();
 function loadProductionSprites(athletes){
   const wanted=new Set();
-  for(const athlete of athletes)for(const direction of Object.values(animationAssetManifest.characters[athlete.id]?.directions??{}))for(const clip of Object.values(direction))wanted.add(clip.src);
+  for(const athlete of athletes){const library=!athlete.captain?supportingAnimationLibraries[athlete.id]:null,sourceId=library?.mode==='shared'&&library.review==='accepted'?library.donorId:athlete.id;for(const direction of Object.values(animationAssetManifest.characters[sourceId]?.directions??{}))for(const clip of Object.values(direction))wanted.add(clip.src)}
   for(const src of productionSpriteImages.keys())if(!wanted.has(src))productionSpriteImages.delete(src);
   for(const src of wanted)if(!productionSpriteImages.has(src)){const atlas=new Image();productionSpriteImages.set(src,atlas);atlas.src=src;}
 }
@@ -458,7 +459,7 @@ function drawOnCourtSignature(player){
   if(f.includes('mushroom details')){circle(8,-5,2,'#bd5b48');ctx.fillStyle='#e5d2ad';ctx.fillRect(7,-4,3,3);ctx.fillStyle='#f4e0c4';ctx.fillRect(6,-6,1,1);ctx.fillRect(9,-6,1,1)}
   if(f.includes('nocturnal motifs')){ctx.fillStyle='#d6ceee';ctx.font='5px monospace';ctx.fillText('✦',8,-7);ctx.fillText('☾',-11,-5)}
 }
-function drawAthlete(p){const [projectedX,y]=project(p.x,p.y,p.z),x=projectedX+(stagePreview&&p.animation?.clip?.startsWith('dunk-')?stageDunkContactOffsetPixels(p.z,p.facing):0),team=teamById(p.team===0?homeSelect.value:awaySelect.value),colors=team.colors,hex=colors[p.team===0?0:1], player=team.roster.find(a=>a.id===p.id);if(!player)return;const sprite=selectProductionSprite(p,productionSpriteAssets)??rosterSpriteInfo(p),silhouetteRatio=stagePreview?productionBaseSilhouetteHeightRatio(p,sprite,productionSpriteAssets):JAM_STAGE.humanSourceSilhouetteRatio,stageScale=stagePreview?stageAthleteScale(player,p.y,silhouetteRatio):1,scale=athleteVisualScale(player,cameraZoom)*stageScale,bob=p.anim==='run'?Math.sin((match.quarterSeconds-match.clock)*19+p.x)*2:p.anim==='celebrate'?Math.sin((42-(p.poseFrames||0))*.8)*1.8:Math.sin((match.quarterSeconds-match.clock)*7+p.y)*.8;
+function drawAthlete(p){const [projectedX,y]=project(p.x,p.y,p.z),x=projectedX+(stagePreview&&p.animation?.clip?.startsWith('dunk-')?stageDunkContactOffsetPixels(p.z,p.facing):0),team=teamById(p.team===0?homeSelect.value:awaySelect.value),colors=team.colors,hex=colors[p.team===0?0:1], player=team.roster.find(a=>a.id===p.id);if(!player)return;const sprite=selectProductionSprite({...p,captain:player.captain,palette:player.palette,height:player.height,rig:player.rig},productionSpriteAssets)??rosterSpriteInfo(p),silhouetteRatio=stagePreview?productionBaseSilhouetteHeightRatio(p,sprite,productionSpriteAssets):JAM_STAGE.humanSourceSilhouetteRatio,stageScale=stagePreview?stageAthleteScale(player,p.y,silhouetteRatio):1,scale=athleteVisualScale(player,cameraZoom)*stageScale,bob=p.anim==='run'?Math.sin((match.quarterSeconds-match.clock)*19+p.x)*2:p.anim==='celebrate'?Math.sin((42-(p.poseFrames||0))*.8)*1.8:Math.sin((match.quarterSeconds-match.clock)*7+p.y)*.8;
   if(drawRosterGameSprite(p,player,x,y,scale,bob,sprite,stageScale))return;
   const [shadowX,shadowY]=stageShadowPosition(p,x,y);ctx.fillStyle='#160e1b8a';ctx.beginPath();ctx.ellipse(shadowX,shadowY+7,12*scale,3.4,0,0,Math.PI*2);ctx.fill();
   ctx.save();ctx.translate(Math.round(x),Math.round(y-bob));ctx.scale(p.facing,1);ctx.scale(scale,scale);

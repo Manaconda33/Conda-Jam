@@ -1,0 +1,146 @@
+{
+  "attempt": 2,
+  "status": "rejected",
+  "reviewedAt": "2026-10-27T03:04:00Z",
+  "method": "frame-relative-garment-mask-v2",
+  "mask": {
+    "primaryY": [
+      0.41,
+      0.69
+    ],
+    "primaryX": [
+      0.25,
+      0.75
+    ],
+    "secondaryY": [
+      0.66,
+      0.86
+    ],
+    "secondaryX": [
+      0.38,
+      0.62
+    ],
+    "rgbDistanceLimit": 52
+  },
+  "targetPalette": [
+    "#b91e36",
+    "#25202a"
+  ],
+  "sourceAtlases": [
+    {
+      "donorId": "reed-ashcroft",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+      "sha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d"
+    },
+    {
+      "donorId": "reed-ashcroft",
+      "clip": "pass",
+      "src": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+      "sha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472"
+    },
+    {
+      "donorId": "reed-ashcroft",
+      "clip": "rebound",
+      "src": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+      "sha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad"
+    },
+    {
+      "donorId": "reed-ashcroft",
+      "clip": "fall",
+      "src": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+      "sha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69"
+    },
+    {
+      "donorId": "reed-ashcroft",
+      "clip": "celebrate",
+      "src": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+      "sha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a"
+    },
+    {
+      "donorId": "reed-ashcroft",
+      "clip": "dunk-power",
+      "src": "./public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+      "sha256": "80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce"
+    },
+    {
+      "donorId": "juniper-vale",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/juniper-vale-idle-ball-right.webp",
+      "sha256": "d635a3fd6ae72d2e616242f02c959e29b6ec373242d6d457d50b55b0c4fdc076"
+    },
+    {
+      "donorId": "juniper-vale",
+      "clip": "pass",
+      "src": "./public/assets/animation/juniper-vale-pass-right.webp",
+      "sha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4"
+    },
+    {
+      "donorId": "juniper-vale",
+      "clip": "rebound",
+      "src": "./public/assets/animation/juniper-vale-rebound-right.webp",
+      "sha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef"
+    },
+    {
+      "donorId": "juniper-vale",
+      "clip": "fall",
+      "src": "./public/assets/animation/juniper-vale-fall-right.webp",
+      "sha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939"
+    },
+    {
+      "donorId": "juniper-vale",
+      "clip": "celebrate",
+      "src": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+      "sha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4"
+    },
+    {
+      "donorId": "juniper-vale",
+      "clip": "dunk-power",
+      "src": "./public/assets/animation/juniper-vale-dunk-power-right.webp",
+      "sha256": "78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff"
+    },
+    {
+      "donorId": "echo-catwalk",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+      "sha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2"
+    },
+    {
+      "donorId": "echo-catwalk",
+      "clip": "pass",
+      "src": "./public/assets/animation/echo-catwalk-pass-right.webp",
+      "sha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0"
+    },
+    {
+      "donorId": "echo-catwalk",
+      "clip": "rebound",
+      "src": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+      "sha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371"
+    },
+    {
+      "donorId": "echo-catwalk",
+      "clip": "fall",
+      "src": "./public/assets/animation/echo-catwalk-fall-right.webp",
+      "sha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355"
+    },
+    {
+      "donorId": "echo-catwalk",
+      "clip": "celebrate",
+      "src": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+      "sha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982"
+    },
+    {
+      "donorId": "echo-catwalk",
+      "clip": "dunk-power",
+      "src": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+      "sha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7"
+    }
+  ],
+  "contactSheetSha256": "fe16a7c56c5b0ea71938608f49f530cf6904d6c121aaf49112e8318895481eec",
+  "reasons": [
+    "visible source-hue marks remain in hair/accessory regions",
+    "skin and fabric shading are altered in some poses",
+    "coverage is incomplete and inconsistent across frames",
+    "not accepted for runtime; source atlases and captain artwork remain unchanged"
+  ]
+}

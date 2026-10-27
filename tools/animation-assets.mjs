@@ -50,15 +50,34 @@ export async function inspectAtlas(filename, frames) {
 }
 
 /** Roster and clips are supplied explicitly so fixtures do not require production art. */
-export async function auditManifest({ manifest, root, athletes, clips }) {
+export async function auditManifest({ manifest, root, athletes, clips, libraries = {} }) {
   const errors = [], results = [], targetShortfalls = [], decoded = new Map();
   const issue = (code, detail) => errors.push({ code, ...detail });
   if (manifest?.version !== 1 || !manifest?.characters || typeof manifest.characters !== 'object') {
     issue('manifest-schema', { message: 'Expected version:1 and characters object' });
   }
+  const athleteById = new Map(athletes.filter(value => typeof value === 'object').map(value => [value.id, value]));
+  for (const [id, library] of Object.entries(libraries)) {
+    const athlete = athleteById.get(id), donor = athleteById.get(library?.donorId);
+    if (!athlete) { issue('library-athlete-unknown', { athlete: id }); continue; }
+    if (athlete.captain && library?.mode !== 'original') issue('captain-library-protected', { athlete: id, mode: library?.mode });
+    if (!athlete.captain && !['original', 'shared'].includes(library?.mode)) issue('invalid-library-mode', { athlete: id, mode: library?.mode });
+    if (library?.mode === 'shared') {
+      if (library.review !== 'accepted') issue('palette-review-required', { athlete: id, donor: library.donorId, status: library.review ?? 'unset' });
+      if (!donor || donor.captain) issue('invalid-shared-donor', { athlete: id, donor: library.donorId });
+      const humanRigs = new Set(['human', 'athletic-variant']);
+      if (donor && athlete && !(donor.rig === athlete.rig || humanRigs.has(donor.rig) && humanRigs.has(athlete.rig))) issue('incompatible-shared-donor', { athlete: id, donor: donor.id, donorRig: donor.rig, rig: athlete.rig, donorHeight: donor.height, height: athlete.height });
+      if (!Array.isArray(library.sourcePalette) || library.sourcePalette.length !== 2 || !Array.isArray(library.targetPalette) || library.targetPalette.length !== 2) issue('shared-palette-required', { athlete: id });
+    }
+  }
+  for (const athlete of athletes) {
+    if (typeof athlete === 'object' && !athlete.captain && !libraries[athlete.id]) issue('support-library-missing', { athlete: athlete.id });
+  }
   for (const athlete of athletes) {
     const id = typeof athlete === 'string' ? athlete : athlete.id;
-    const character = manifest?.characters?.[id];
+    const library = libraries[id];
+    const effectiveId = library?.mode === 'shared' && library.review === 'accepted' && !(typeof athlete === 'object' && athlete.captain) ? library.donorId : id;
+    const character = manifest?.characters?.[effectiveId];
     if (!character) { issue('missing-character', { athlete: id }); continue; }
     if (typeof character.mirrorSafe !== 'boolean') issue('mirror-safe-unset', { athlete: id });
     if (character.mirrorReview?.status !== 'reviewed' || (typeof character.mirrorReview?.notes !== 'string' || !character.mirrorReview.notes.trim())) {
@@ -68,8 +87,9 @@ export async function auditManifest({ manifest, root, athletes, clips }) {
       for (const [clipKey, definition] of Object.entries(clips)) {
         const required = minimumFrameCount(definition), target = targetFrameCount(definition);
         const clip = character.directions?.[direction]?.[clipKey];
-        const context = { athlete: id, direction, clip: clipKey };
+        const context = { athlete: id, direction, clip: clipKey, ...(effectiveId !== id ? { donor: effectiveId, lineage: 'shared-source', classification: 'derived-palette' } : { classification: 'original-authored' }) };
         if (!clip) { issue('missing-clip', context); continue; }
+        if (clip.reviewed !== true) context.classification = 'unreviewed';
         if (clip.reviewed !== true) issue('clip-review-required', context);
         if (clip.source !== 'imagegen' || (typeof clip.provenance?.prompt !== 'string' || !clip.provenance.prompt.trim()) || !clip.provenance?.generatedAt || !Number.isFinite(Date.parse(clip.provenance.generatedAt))) {
           issue('provenance-required', context);
@@ -104,5 +124,19 @@ export async function auditManifest({ manifest, root, athletes, clips }) {
   }
   const requiredFrames = Object.values(clips).reduce((sum, definition) => sum + minimumFrameCount(definition), 0);
   const targetFrames = Object.values(clips).reduce((sum, definition) => sum + targetFrameCount(definition), 0);
-  return { targetFramesTotal: athletes.length * targetFrames, targetShortfalls, requiredClipsMinimum: athletes.length * Object.keys(clips).length, requiredFramesMinimum: athletes.length * requiredFrames, version: 1, generatedAt: new Date().toISOString(), ok: errors.length === 0, athletes: athletes.length, clipDefinitions: Object.keys(clips).length, inspectedClips: results.length, errors, results };
+  const sourceLibraryIds = [...new Set(results.map(row => row.donor ?? row.athlete))];
+  const uniqueSourceAtlases = new Set(results.map(row => row.src)).size;
+  const uniqueSourceDrawings = new Set(results.flatMap(row => row.frames.map(frame => frame.hash).filter(Boolean))).size;
+  const coverageByPlayer = Object.fromEntries(athletes.map(athlete => {
+    const id = typeof athlete === 'string' ? athlete : athlete.id;
+    const playerResults = results.filter(row => row.athlete === id);
+    const shared = libraries[id]?.mode === 'shared', accepted = shared && libraries[id].review === 'accepted';
+    return [id, { clips: playerResults.length, missingClips: Object.keys(clips).length - playerResults.length, classification: playerResults.length === Object.keys(clips).length ? accepted ? 'derived-palette' : 'original-authored' : 'incomplete', assignmentStatus: shared ? libraries[id].review ?? 'unreviewed' : 'original-authored', lineage: shared ? 'shared-source' : null, sourceLibrary: accepted ? libraries[id].donorId : id }];
+  }));
+  const classifications = results.reduce((counts, row) => { const key = row.classification; counts[key] = (counts[key] ?? 0) + 1; return counts; }, {});
+  const assignmentClassifications = Object.values(libraries).reduce((counts, library) => { const key = library.mode === 'shared' ? library.review === 'accepted' ? 'derived-palette' : library.review === 'rejected' ? 'rejected' : 'unreviewed' : library.mode === 'original' ? 'original-authored' : 'missing'; counts[key] = (counts[key] ?? 0) + 1; return counts; }, {});
+  assignmentClassifications.missing ??= athletes.filter(athlete => typeof athlete === 'object' && !athlete.captain && !libraries[athlete.id]).length;
+  assignmentClassifications.rejected ??= 0;
+  const missingClipCount = errors.filter(error => error.code === 'missing-clip').length;
+  return { targetFramesTotal: athletes.length * targetFrames, targetShortfalls, requiredClipsMinimum: athletes.length * Object.keys(clips).length, requiredFramesMinimum: athletes.length * requiredFrames, version: 2, generatedAt: new Date().toISOString(), ok: errors.length === 0, athletes: athletes.length, clipDefinitions: Object.keys(clips).length, inspectedClips: results.length, missingClipCount, uniqueSourceLibraries: sourceLibraryIds.length, uniqueSourceAtlases, uniqueSourceDrawings, classifications, assignmentClassifications, coverageByPlayer, errors, results };
 }
