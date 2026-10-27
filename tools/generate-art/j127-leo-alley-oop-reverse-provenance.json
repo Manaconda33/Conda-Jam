@@ -99,7 +99,7 @@
       "rejection": "Targeted image edit retains the same broad brown/black gradient backdrop and smooth shading. Frames5–8 remain repetitive holds despite specific silhouette edits; no alpha cleanup or packing attempted."
     }
   ],
-  "decision": "Full-sheet attempts01–05 rejected and preserved; individual-pose path active. Poses00,01 attempt02,02–04,06–07,09–10,11 attempt02 cleaned derivative,12–14 have provisional/accepted reviews. Pose01 attempt01, pose05 attempts01–02, pose08 attempts01–02, pose11 attempt01 rejected. Fresh ball-free pose05 and pose08 candidates still required. No J127 sheet/atlas or track is registered.",
+  "decision": "Individual-pose path active. Cleaned pose05 attempt03, pose08 attempt05, and pose11 attempt02 are accepted as individual candidates. First normalized 15-pose atlas attempt is held: frames04–08 are too similar at cell size and poses02–04 need clearer separation. Frame-specific revisions pending. No J127 production atlas or athlete ball track is accepted or registered.",
   "independentReview": {
     "reviewer": "candidate_review",
     "decision": "reject attempts01–02",
@@ -483,8 +483,111 @@
       "sourceReferences": [
         "public/assets/animation/leo-dunk-tomahawk-right.webp"
       ],
-      "status": "accepted after independent cleanup review; ready for sequence normalization",
-      "review": "Independent review accepts cleanup: largest 8-connected silhouette preserves full anatomy/hair/arms/legs, removes 840 detached speckles, remains ball-free and distinct from pose10 release and pose12 landing transition."
+      "status": "accepted candidate after independent cleanup review",
+      "review": "No ball; full anatomy and Leo identity preserved after removing 840 detached alpha pixels; distinct immediate post-release finish."
+    },
+    {
+      "poseIndex": 5,
+      "attempt": 3,
+      "generationId": "exec-08a1201d-ebec-4f9d-ab2d-95529f6f0dbe",
+      "generationPath": "/workspace/generated_images/exec-08a1201d-ebec-4f9d-ab2d-95529f6f0dbe.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose05-attempt03-generated-raw.png",
+      "rawSha256": "02534984ae0228f62363ec9fafc13dae91cfb94f0729f0c4ca5379ee786f3c2c",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose05-tick10-attempt03-prompt.md",
+      "promptSha256": "9d30c7f879e894debbefdd991b2372a80d4eb7804f10762871cd8eb26fa8b5a4",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted candidate after independent cleanup review",
+      "review": "Two hands clasp behind crown around invisible-ball contact point; separate hands readable, correct identity and anatomy; 373 detached pixels removed with raw retained.",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose05-attempt03-cleaned-light.png",
+        "tools/generate-art/previews/j127-pose05-attempt03-cleaned-dark.png"
+      ],
+      "cleanupReport": "tools/generate-art/j127-pose05-attempt03-cleanup.json"
+    },
+    {
+      "poseIndex": 8,
+      "attempt": 3,
+      "generationId": "exec-75cafa79-6d06-4a9f-8277-7650b2c297b4",
+      "generationPath": "/workspace/generated_images/exec-75cafa79-6d06-4a9f-8277-7650b2c297b4.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-attempt03-generated-raw.png",
+      "rawSha256": "90ec80ea69fde286ffa8e3f5a3e73fe48681be7e65cbccb8a30b09b31153c9f8",
+      "dimensions": [
+        1230,
+        1278
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose08-tick17-attempt03-prompt.md",
+      "promptSha256": "110c8b17aac1117c1317820dfd923ee7236f9b7ff14807e6baa2801f6f1b67da",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected after independent review",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose08-attempt03-light.png",
+        "tools/generate-art/previews/j127-pose08-attempt03-dark.png"
+      ],
+      "review": "Reviewer rejects: pose remains a close two-hand overhead carry, too similar to pose05 and no clear wrist/arm transition."
+    },
+    {
+      "poseIndex": 8,
+      "attempt": 4,
+      "generationId": "exec-6984a620-2279-407e-af7d-3f98fd046625",
+      "generationPath": "/workspace/generated_images/exec-6984a620-2279-407e-af7d-3f98fd046625.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-attempt04-generated-raw.png",
+      "rawSha256": "715050d4f22b9504604f766216a5ecf9d1ea286eb166eef9889ce70fd61502b1",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose08-tick17-attempt04-prompt.md",
+      "promptSha256": "2b4193c6c1b3729ee58458bcc59e212cb58a1be3556c99db57a1950599db4aac",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected after action review",
+      "review": "Although the pose gesture and cleaned silhouette were visually accepted, the authoritative sequence requires both hands carry behind crown through tick17. This one-arm trail contradicts that state.",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose08-attempt04-light.png",
+        "tools/generate-art/previews/j127-pose08-attempt04-dark.png"
+      ]
+    },
+    {
+      "poseIndex": 8,
+      "attempt": 5,
+      "generationId": "exec-08991714-77db-4fba-9d86-158c9665b1c8",
+      "generationPath": "/workspace/generated_images/exec-08991714-77db-4fba-9d86-158c9665b1c8.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-attempt05-generated-raw.png",
+      "rawSha256": "733f6aae5d56e7aec883760b39be7ca39e280efea37dce2f78fdd1de23125f16",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose08-tick17-attempt05-prompt.md",
+      "promptSha256": "f910ec29ea6e08ff3b4c59fb95ad1aa5c01e2cf82b853ab3ee58989641d10b95",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted candidate after independent cleanup review",
+      "review": "Both arms/hands clasp behind crown, no ball; reclined body and trailing legs distinguish beginning descent from compact peak pose07 and extended pre-release pose09; 363 detached pixels removed.",
+      "cleanupReport": "tools/generate-art/j127-pose08-attempt05-cleanup.json",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose08-attempt05-cleaned-light.png",
+        "tools/generate-art/previews/j127-pose08-attempt05-cleaned-dark.png"
+      ]
     }
-  ]
+  ],
+  "atlasCandidateReview": {
+    "candidate": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt01-candidate-atlas.png",
+    "layout": "tools/generate-art/j127-leo-alley-oop-reverse-attempt01-candidate-layout.json",
+    "review": "Independent reviewer: packing/alpha/margins/identity pass provisionally; hold acceptance because poses04–08 collapse into similar overhead-arm silhouettes at 128x96; poses02–04 also close. Revise pose contrast before accepting."
+  }
 }
