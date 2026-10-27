@@ -60257,13 +60257,332 @@
               "scope": "source, packed atlas, mirror, separate ball contact and recovery at100%/120% in both facings",
               "notes": "Five complete poses pass identity/anatomy/transparency review. Attempt02 contact at frame3/tick5 and pull-down to frame4/tick7 pass independent native review. Leo alone gains ownership at tick5 in deterministic simulation."
             }
+          },
+          "dunk-power": {
+            "src": "./public/assets/animation/leo-dunk-power-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "df3568e33f4961fcaf6125986338e61f88598178feda578272a1831e67a50c96"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f8cff35abb52b5b1a62bc1714e06d69fbd1a26a59f7bf25d46012699c3b0dd59"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "46d406463281bade35a095e868d75b5cdbd854b867109ac2de959deb96005bba"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "5ec11e9eb0f811d5de70b57e6a1129586fb15dc9a96ec13a75e7ab6652fb7d20"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "641b8a8963e69952064f74f5b442aceab6ae127f2936395a738c7ea7450bfa81"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "f6743307671d1c575084c0fc66ef7fd9b3275eb99c96ccabbb5ddb1c1e166cde"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5017a22bad37a19b452415fb9a35b3509023837668b67d6c0e6ffc305b8c61ff"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "fdb52e3c45a7933171ed244e7f9075a89ea2e1b7da6cb5c29e3c7854cff1cdfb"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "bd5794dd3d37c8c7834fd177ff8f861aee60fca5758cb4f95e3700b25f029bcb"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "0698446f6678f80dba663c761d4b857112b551ab49c3e1278358d765cfb1769b"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "6290b9764dc8dde323aab9085e74e419fa494483e0b1e19b564d6f62db29a467"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "f851a9d6aaadb5a5787482dae0743d61200fee12f96fac9276454a34cbea5041"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "274b6517d26568fae437b9375808f0a3f51cdcfa90c4515ba9db61683bf18960"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "f8079c290a17be09b21f44c0025ce0385200c2cb8e25d9d8dfc9483adc0babd0"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "d0fe6064389ed8d101e19fd069d19cb9945187d9e1fa17facbb370cd88324b67"
+              }
+            ],
+            "sha256": "04c4aab5f7ad518bc0c6fd575498dcd638c1cbe1e8a1ce47e24bbf2463982626",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "leo",
+              "clip": "dunk-power",
+              "direction": "right",
+              "canonicalSection": "K.05",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-9e936652-930b-4365-acbc-2b351c6a34d0",
+              "imageGenerationId": "exec-9e936652-930b-4365-acbc-2b351c6a34d0",
+              "rawSourceImage": "tools/generate-art/sources/j118-leo-dunk-power-generated-raw.png",
+              "sourceImage": "tools/generate-art/sources/j118-leo-dunk-power-generated-raw.png",
+              "rawSourceSha256": "51ab2b8895af4a934e826ff0aba6b46b2d93d1d6cbff9b9d7c3acb8c50371331",
+              "sourceSha256": "51ab2b8895af4a934e826ff0aba6b46b2d93d1d6cbff9b9d7c3acb8c50371331",
+              "promptFile": "tools/generate-art/j118-leo-dunk-power15-prompt.md",
+              "prompt": "Create an original 1536\u00d71024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as identity and arcade pixel-art style reference. Draw exactly fifteen distinct complete full-body Leo poses in a strict five-column by three-row grid, row-major, with generous gutters and outer margins. Consistent scale and camera. Every long hair strand, hand, shoe and full body stays entirely inside its own cell. Crisp, readable 1990s arcade sprite clusters with strong dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his adult human anatomy, pale skin, long wavy black hair, refined mustache, composed handsome face and controlled Victorian-gothic poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts, red-black basketball shoes and subtle trim. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster features, extra limbs, costume change or props.\n\nThis is a powerful but elegant right-facing one-hand dunk. Show only Leo. The live basketball is separately rendered game art; there must be no basketball, ball, sphere, orb, seams, ring or prop visible in any pose. Both hands are empty in every drawing. No court, hoop, rim, floor, ground shadow, background, glow, border, grid, text, teammate or opponent. Exterior and gutters must be true alpha-zero transparency, not checkerboard, matte, haze or speckles.\n\nFifteen distinct, sequential, mechanically connected full-body poses:\n0 controlled approach toward image-right, eyes on the rim;\n1 lengthens the stride and lowers the center of gravity;\n2 gathers the invisible ball near the right hip and plants;\n3 coils at the knees, empty right hand begins rising;\n4 takeoff, one knee drives up and the right arm carries the separate-ball path beside the chest;\n5 rises powerfully with right elbow bent overhead;\n6 extends through the shoulders toward the rim, left arm balances;\n7 reaches the apex with full body stretched, empty right hand high;\n8 bends the right elbow into the dunk motion;\n9 drives the right hand forcefully toward the rim;\n10 RELEASE at simulation tick21: right arm fully extended down through the imaginary rim, palm open and empty, left arm counterbalances;\n11 empty-handed follow-through, body continues forward;\n12 begins descent, knees gather naturally;\n13 lands softly with knees flexed, no injury cue;\n14 recovers to a composed ready stance.\n\nKeep Leo right-facing and preserve his face, mustache, long wavy hair, pale skin, human proportions, black/crimson kit and shoes in all fifteen poses. Make the action athletic and powerful while retaining refined control. Do not draw the basketball. Return only the transparent sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Leo\u2019s basketball follows his right-hand approach, takeoff, rise and power finish as a separate runtime object. Release once from the open right palm at frame10/tick21. No ball is painted into the sprite sheet.",
+              "ballTrack": {
+                "height": [
+                  0.95,
+                  1.1,
+                  1.25,
+                  1.45,
+                  1.5,
+                  2.3,
+                  2.1,
+                  2.3,
+                  1.7,
+                  0.5,
+                  -0.9,
+                  1.4,
+                  1.3,
+                  0.9,
+                  0.65
+                ],
+                "forward": [
+                  6,
+                  8,
+                  6,
+                  2,
+                  0,
+                  -3,
+                  -5,
+                  5.5,
+                  0,
+                  5,
+                  5,
+                  10,
+                  7,
+                  5,
+                  6
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/package-dunk15.py",
+                "method": "inspect fifteen 5x3 poses and isolate alpha-connected bodies with nearest antialiased pixels; pack 128x96 baseline94 WebP cells"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "Fifteen complete right-facing poses show an approach, gather, takeoff, powerful one-hand rise, open-hand release at frame10/tick21, follow-through and landing. Leo remains pale, adult and human with long wavy black hair, refined mustache and black/crimson kit. Both hands are empty and no ball is painted."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 61,
+                  "y": 38,
+                  "w": 232,
+                  "h": 280,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 362,
+                  "y": 59,
+                  "w": 257,
+                  "h": 257,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 696,
+                  "y": 94,
+                  "w": 210,
+                  "h": 227,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 994,
+                  "y": 92,
+                  "w": 163,
+                  "h": 228,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1272,
+                  "y": 32,
+                  "w": 219,
+                  "h": 290,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 68,
+                  "y": 341,
+                  "w": 276,
+                  "h": 340,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 366,
+                  "y": 326,
+                  "w": 293,
+                  "h": 369,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 658,
+                  "y": 324,
+                  "w": 218,
+                  "h": 378,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 968,
+                  "y": 372,
+                  "w": 271,
+                  "h": 318,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1268,
+                  "y": 418,
+                  "w": 222,
+                  "h": 270,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 71,
+                  "y": 733,
+                  "w": 223,
+                  "h": 270,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 373,
+                  "y": 725,
+                  "w": 252,
+                  "h": 272,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 683,
+                  "y": 710,
+                  "w": 203,
+                  "h": 278,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 995,
+                  "y": 766,
+                  "w": 208,
+                  "h": 228,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1289,
+                  "y": 707,
+                  "w": 187,
+                  "h": 286,
+                  "component": 22
+                }
+              ],
+              "uniformScale": 0.24338624338624337,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "atlasPath": "public/assets/animation/leo-dunk-power-right.webp",
+              "atlasSha256": "04c4aab5f7ad518bc0c6fd575498dcd638c1cbe1e8a1ce47e24bbf2463982626",
+              "atlasBytes": 42084,
+              "trackTrials": "tools/generate-art/j118-leo-dunk-power-track-trials.json",
+              "nativeCaptures": "tools/generate-art/previews/leo-dunk-power-track-candidate/attempt-05/native/report.json",
+              "lightPreview": "tools/generate-art/previews/leo-dunk-power-atlas-light.png",
+              "darkPreview": "tools/generate-art/previews/leo-dunk-power-atlas-dark.png"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex with independent source and ball-track reviewers",
+              "scope": "source, packed atlas, both facings at 100%/120%, separate ball contact and gameplay release/scoring",
+              "notes": "Fifteen source poses pass identity, anatomy, separation, alpha, margin, baseline, and no-baked-ball review. Independent Jam Stage review accepts track attempt05: frames5-8 follow the raised hand, frame9 follows the low extended hand, and tick21 release is adjacent to the lowered wrist in both facings at100%/120%. Deterministic Leo simulation confirms sole ball ownership through tick20, one ownerless release at tick21, no score before finish tick23, then two points."
+            },
+            "mirrorSafe": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.115 rebound has no fixed-side costume mark, prop or handed detail; the five poses retain the same face/hair/kit when mirrored. Native Stage captures review both facings at both zooms."
+        "notes": "J.118 Leo power dunk has no fixed-side uniform mark, asymmetric prop, or non-mirroring ornament; the same face/hair/kit are legible under the opposite facing. Jam Stage captures cover both directions."
       }
     },
     "kraken": {

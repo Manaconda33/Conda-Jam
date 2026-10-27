@@ -1350,6 +1350,35 @@ test('Reed power dunk keeps the separate ball at his raised hand and releases at
   stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
  }
 });
+test('Leo power dunk carries the calibrated separate ball through tick20 and releases once at tick21 in both facings',()=>{
+ const clip='dunk-power',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+ const heights=[.95,1.1,1.25,1.45,1.5,2.3,2.1,2.3,1.7,.5,-.9,1.4,1.3,.9,.65];
+ const forwards=[6,8,6,2,0,-3,-5,5.5,0,5,5,10,7,5,6];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:1,home:{roster:[{id:'leo'},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'power'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(let frame=0;frame<10;frame++){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);assert.equal(p.hasBall,true);
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,p.id)-heights[frame])<.001);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,p.id)-forwards[frame])<.001);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);
+   assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish');
+  assert.equal(release,21);assert.equal(finish,23);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));
+  assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
+ }
+});
 test('Reed catches the reverse lob, carries behind his crown and finishes backward',()=>{
  const m=setup(),passer=m.players[0],receiver=m.players[1];receiver.id='reed-ashcroft';receiver.name='Reed Ashcroft';passer.x=170;receiver.x=184;receiver.y=46;
  stepMatch(m,[...neutral(m).filter(i=>i.playerId!==passer.id),createInput(passer.id,{passPressed:true,turbo:true,alleyOop:'reverse'})]);

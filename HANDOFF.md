@@ -1,3 +1,11 @@
+## Current J.118 Leo `dunk-power` checkpoint — 2026-10-27
+
+J.118 is accepted and registered from generation `exec-9e936652-930b-4365-acbc-2b351c6a34d0`. Its 15 original poses retain Leo's pale human identity, long wavy black hair, mustache, full anatomy and black/crimson kit; the packed 4×4 atlas has 15 populated cells, a transparent cell16 and baseline y=94. Original source, exact prompt, raw PNG/hash, layout and light/dark previews remain preserved.
+
+The Leo-specific accepted track (height `[.95,1.1,1.25,1.45,1.5,2.3,2.1,2.3,1.7,.5,-.9,1.4,1.3,.9,.65]`, forward `[6,8,6,2,0,-3,-5,5.5,0,5,5,10,7,5,6]`) is attempt05. Five complete track attempts and their 60-capture Jam Stage reports are preserved under `tools/generate-art/previews/leo-dunk-power-track-candidate/`; attempt01–03 were rejected for visible hand gaps, attempt04 passed to final fine-tuning, and attempt05 passes independent review at both facings and 100%/120%. Deterministic simulation verifies carry through tick20, one ownerless release on tick21, and scoring at finish tick23. See `tools/generate-art/j118-leo-dunk-power-track-trials.json`.
+
+Validation: `npm test` 527/527; lint 21 modules; content validation 35 franchises / 105 athletes / 35 captains; static build PASS; focused Leo dunk simulation PASS. Strict report-only audit generated 2026-10-27: 2,338 inspected clip assignments, 511 source atlases, 4,834 unique source drawings, 765 missing captain assignments across 29 incomplete captains, zero target shortfalls and four inherited prompt findings. Leo has 15 registered clips. Next roster-order target: J.119 Leo `dunk-windmill`; its reviewed source is ready for native track and runtime review.
+
 ## Captain work checkpoint — 2026-10-27
 
 The isolated branch `codex/captain-animation-completion` starts at published `main` baseline `b8ead761`. It now integrates twelve original Leo captain clips: `block`, `push`, `fall`, `celebrate`, `pass`, `pass-overhead`, `pass-behind`, `receive`, `pickup`, `layup`, `steal`, and `rebound`. Leo remains on the bespoke captain path. J.111 `layup-reverse` is held source-only because its face/mustache detail disappears at packed size; four failed corrections and their evidence are preserved. J.113 `steal` now has eight accepted poses and a Leo-specific track, with hand contact reviewed in Jam Stage across both facings and zooms.
