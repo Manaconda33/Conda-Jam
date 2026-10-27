@@ -38,6 +38,7 @@ await import(pathToFileURL(root+'/src/main.js'));
 for(const im of images)if(!im.complete)await Promise.race([new Promise((resolve,reject)=>{im.addEventListener('load',resolve);im.onerror=reject}),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Image did not load: '+im.file+' '+im.width+'x'+im.height)),5000))]);
 const game=window.jamverse;
 const previewZoom=Math.max(85,Math.min(120,Number(process.env.JAMVERSE_PREVIEW_ZOOM)||100));
+const previewY=Math.max(5,Math.min(95,Number(process.env.JAMVERSE_PREVIEW_Y)||75));
 const zoomInput=document.getElementById('camera-zoom');zoomInput.value=previewZoom;
 for(const listener of zoomInput.listeners.input??[])listener({target:zoomInput});
 const previewAthlete=process.env.JAMVERSE_PREVIEW_ATHLETE??'manaconda';
@@ -46,10 +47,12 @@ const {animationAssetManifest}=await import(pathToFileURL(root+'/src/content/ani
 let candidateReview=null,candidateImage=null;
 if(process.env.JAMVERSE_PREVIEW_CANDIDATE){
  candidateReview=JSON.parse(await readFile(path.resolve(root,process.env.JAMVERSE_PREVIEW_CANDIDATE),'utf8'));
+ candidateReview.clip??='layup';
+ if((process.env.JAMVERSE_PREVIEW_ATHLETE??'manaconda')!==candidateReview.athlete)throw new Error(`Candidate athlete ${candidateReview.athlete} does not match JAMVERSE_PREVIEW_ATHLETE ${process.env.JAMVERSE_PREVIEW_ATHLETE??'manaconda'}`);
  const candidateSource=candidateReview.src.startsWith('./')?candidateReview.src:'./'+candidateReview.src;
  const character=animationAssetManifest.characters[candidateReview.athlete]??=( {directions:{}} );
  const frames=candidateReview.frames.map(frame=>({...frame}));
- character.directions.right={...(character.directions.right??{}),layup:{src:candidateSource,frames,reviewed:true}};
+ character.directions.right={...(character.directions.right??{}),[candidateReview.clip]:{src:candidateSource,frames,reviewed:true}};
  // Candidate atlases are authored right-facing; use the separately reviewed mirror path for left-facing previews.
  character.mirrorSafe=true;character.mirrorReview={status:'reviewed',notes:'Process-local preview mirror for a ball-free, asymmetric-uniform candidate; verify visually before acceptance.'};
  candidateImage=new BrowserImage();candidateImage.src=candidateSource;
@@ -86,9 +89,11 @@ const p=state.players.find(p=>p.id===previewAthlete);
 if(!p)throw new Error('Preview athlete is not in the active lineup: '+previewAthlete);
 const previewImages=new Map(images.map(image=>[image.file,image]));
 if(candidateImage)previewImages.set(candidateImage.file,candidateImage);
-const previewBallHeight=(clip,tick,athlete)=>candidateReview&&athlete===candidateReview.athlete&&clip==='layup'?candidateTrackAt(candidateReview.height,tick,clip):sampleBallHeight(clip,tick,athlete);
-const previewBallForward=(clip,tick,athlete)=>candidateReview&&athlete===candidateReview.athlete&&clip==='layup'?candidateTrackAt(candidateReview.forward,tick,clip):sampleBallForward(clip,tick,athlete);
+const previewBallHeight=(clip,tick,athlete)=>candidateReview&&athlete===candidateReview.athlete&&clip===candidateReview.clip?(candidateReview.tickHeight?candidateTrackAtTick(candidateReview.tickHeight,tick):candidateTrackAt(candidateReview.height,tick,clip)):sampleBallHeight(clip,tick,athlete);
+const previewBallForward=(clip,tick,athlete)=>candidateReview&&athlete===candidateReview.athlete&&clip===candidateReview.clip?(candidateReview.tickForward?candidateTrackAtTick(candidateReview.tickForward,tick):candidateTrackAt(candidateReview.forward,tick,clip)):sampleBallForward(clip,tick,athlete);
 function candidateTrackAt(values,tick,clip){let cursor=0;for(let frame=0;frame<animationClips[clip].frames.length;frame++){const duration=animationClips[clip].frames[frame].duration;if(tick<cursor+duration){const base=Math.min(frame,values.length-1),next=Math.min(base+1,values.length-1),u=Math.max(0,(tick-cursor)/duration);return values[base]+(values[next]-values[base])*u;}cursor+=duration;}return values.at(-1);}
+function candidateTrackAtTick(values,tick){const t=Math.max(0,Math.min(Number.isFinite(tick)?tick:0,values.length-1)),base=Math.floor(t),next=Math.min(base+1,values.length-1);return values[base]+(values[next]-values[base])*(t-base);}
+function jumpHeightAt(clip,tick,maxHeight=2){const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish');return tick<=takeoff||tick>=finish?0:tick<=peak?maxHeight*Math.sin((tick-takeoff)/(peak-takeoff)*Math.PI/2):maxHeight*Math.sin((finish-tick)/(finish-peak)*Math.PI/2);}
 const previews=[],previewFrames=[],clips=Object.keys(animationClips),passContactCaptures=[];
 const onlyPreviewClips=new Set((process.env.JAMVERSE_PREVIEW_CLIPS??'').split(',').map(x=>x.trim()).filter(Boolean));
 const shouldPreview=clip=>onlyPreviewClips.size===0||onlyPreviewClips.has(clip);
@@ -97,13 +102,13 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
  for(const player of state.players){player.x=x+(player.team?40:-40);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  const aerial=clip.startsWith('dunk-')||clip.startsWith('alley-oop-');
  const tick=aerial?anchorTick(clip,'peak'):anchorTick(clip,'release')??anchorTick(clip,'apex')??anchorTick(clip,'grab')??anchorTick(clip,'contact')??anchorTick(clip,'bounce')??anchorTick(clip,'finish')??12;
- p.x=x;p.y=50;p.animation={clip,tick};p.z=aerial?5:clip==='shoot'||clip.startsWith('layup')||clip==='block'||clip==='rebound'?2:0;
+ p.x=x;p.y=previewY;p.animation={clip,tick};p.z=aerial?5:clip==='shoot'||clip.startsWith('layup')?jumpHeightAt(clip,tick):clip==='block'||clip==='rebound'?2:0;
  // Release anchors keep the ball visible at the authored hand/muzzle while
  // marking passes and shots as free projectiles without an owner.
  const releasedPass=['pass','pass-overhead','pass-behind'].includes(clip)&&tick>=anchorTick(clip,'release');
  const releasedShot=['shoot','layup','layup-reverse'].includes(clip)&&tick>=anchorTick(clip,'release');
  p.hasBall=(['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','receive','pickup','steal','layup','layup-reverse'].includes(clip)&&!releasedPass&&!releasedShot)||aerial||(clip==='rebound'&&tick>=anchorTick('rebound','grab'));p.facing=position==='right'?-1:1;
- Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick,p.id),y:p.y,z:p.z+((p.hasBall||releasedPass||releasedShot)?sampleBallHeight(clip,p.animation.tick,p.id):0),mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':'loose',ownerId:p.hasBall?p.id:null});
+ Object.assign(state.ball,{x:p.x+p.facing*previewBallForward(clip,p.animation.tick,p.id),y:p.y,z:p.z+((p.hasBall||releasedPass||releasedShot)?previewBallHeight(clip,p.animation.tick,p.id):0),mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':'loose',ownerId:p.hasBall?p.id:null});
  for(let i=0;i<(clip==='idle'?90:1);i++)game.tick(0);
  const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(selected),sourceDirection:selected?.atlas?.file?.match(/-(left|right)\.webp$/)?.[1]??null,flipped:selected?.flip??false,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId});
 }
@@ -112,8 +117,8 @@ const actionFramePreviews=[];
 // attached, including newly authored extension poses 08–10.
 for(const clip of ['idle-ball','dribble','dribble-run'].filter(shouldPreview))for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
- if(candidateReview&&clip==='layup')for(const player of state.players)if(player!==p){player.x=-1000;player.y=50;player.z=0;}
- p.x=100;p.y=50;p.z=0;p.facing=position==='right'?1:-1;p.animation={clip,tick};p.hasBall=true;
+ if(candidateReview&&clip===candidateReview.clip)for(const player of state.players)if(player!==p){player.x=-1000;player.y=50;player.z=0;}
+ p.x=100;p.y=previewY;p.z=0;p.facing=position==='right'?1:-1;p.animation={clip,tick};p.hasBall=true;
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:sampleBallHeight(clip,tick,p.id),mode:'carried',ownerId:p.id});
  document.getElementById('game').native.getContext('2d').clearRect(0,0,480,360);game.tick(0);
  const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
@@ -122,18 +127,17 @@ for(const clip of ['idle-ball','dribble','dribble-run'].filter(shouldPreview))fo
  tick+=animationClips[clip].frames[frame].duration;
 }
 for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','pickup','block','push','rebound','steal','layup','layup-reverse','fall','celebrate'].filter(shouldPreview))for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
- if(candidateReview&&clip==='layup'&&frame>(candidateReview.renderThroughFrame??7)){tick+=animationClips[clip].frames[frame].duration;continue;}
+ if(candidateReview&&clip===candidateReview.clip&&frame>(candidateReview.renderThroughFrame??7)){tick+=animationClips[clip].frames[frame].duration;continue;}
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
- if(candidateReview&&clip==='layup'){state.players=[p];p.id=candidateReview.athlete;}
- p.x=100;p.y=candidateReview&&clip==='layup'?75:50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};
+ if(candidateReview&&clip===candidateReview.clip){state.players=[p];p.id=candidateReview.athlete;}
+ p.x=100;p.y=candidateReview&&clip===candidateReview.clip?previewY:previewY;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};
  if(clip==='dunk-power'){
   const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish');
   p.z=tick<=takeoff?0:tick<=peak?5*Math.sin((tick-takeoff)/(peak-takeoff)*Math.PI/2):5*Math.sin((finish-tick)/(finish-peak)*Math.PI/2);
  }
  // Match simulation.js's 2-unit jump curve for shot/layup native ball-contact previews.
  if(['shoot','layup','layup-reverse'].includes(clip)){
-  const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish');
-  p.z=tick<=takeoff||tick>=finish?0:tick<=peak?2*Math.sin((tick-takeoff)/(peak-takeoff)*Math.PI/2):2*Math.sin((finish-tick)/(finish-peak)*Math.PI/2);
+  p.z=jumpHeightAt(clip,tick);
  }
  const releasedPass=['pass','pass-overhead','pass-behind'].includes(clip)&&tick>=anchorTick(clip,'release');
  const releasedShot=['shoot','layup','layup-reverse'].includes(clip)&&tick>=anchorTick(clip,'release');
@@ -155,23 +159,23 @@ for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','picku
 for(const clip of ['pass','pass-overhead','pass-behind'].filter(shouldPreview))for(const facing of [1,-1]){
  const tick=anchorTick(clip,'release')-1;
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
- p.x=100;p.y=candidateReview&&clip==='layup'?75:50;p.z=0;p.facing=facing;p.animation={clip,tick};p.hasBall=true;
+ p.x=100;p.y=previewY;p.z=0;p.facing=facing;p.animation={clip,tick};p.hasBall=true;
  Object.assign(state.ball,{x:p.x+facing*sampleBallForward(clip,tick,p.id),y:p.y,z:sampleBallHeight(clip,tick,p.id),mode:'carried',ownerId:p.id,targetId:null});
  game.tick(0);
  const position=facing>0?'left':'right',path=out+'/'+position+'-'+clip+'-pre-release-tick'+tick+'.png';
  await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
  passContactCaptures.push({path,athlete:p.id,clip,tick,facing,production:Boolean(selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages})),source:animationAssetManifest.characters?.[p.id]?.directions?.right?.[clip]?.src??null,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:'last carried tick before pass release'});
 }
-if(candidateReview&&shouldPreview('layup'))for(const facing of [1,-1])for(const tick of [9,10]){
+if(candidateReview&&shouldPreview(candidateReview.clip))for(const facing of [1,-1])for(const tick of candidateReview.captureTicks??[anchorTick(candidateReview.clip,'release')-1,anchorTick(candidateReview.clip,'release')]){
  for(const player of state.players){player.x=142+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  state.players=[p];
- p.x=100;p.y=75;p.z=tick<=anchorTick('layup','takeoff')||tick>=anchorTick('layup','finish')?0:2*Math.sin((tick-anchorTick('layup','takeoff'))/(anchorTick('layup','peak')-anchorTick('layup','takeoff'))*Math.PI/2);p.facing=facing;p.animation={clip:'layup',tick};p.hasBall=tick<anchorTick('layup','release');
- const released=tick>=anchorTick('layup','release'),height=p.hasBall?p.z+previewBallHeight('layup',tick,p.id):flightHeightFromHand(previewBallHeight('layup',tick,p.id),p.z);
- Object.assign(state.ball,{x:p.x+facing*previewBallForward('layup',tick,p.id),y:p.y,z:height,mode:p.hasBall?'carried':'shot',ownerId:p.hasBall?p.id:null});
+ p.x=100;p.y=75;p.z=tick<=anchorTick(candidateReview.clip,'takeoff')||tick>=anchorTick(candidateReview.clip,'finish')?0:2*Math.sin((tick-anchorTick(candidateReview.clip,'takeoff'))/(anchorTick(candidateReview.clip,'peak')-anchorTick(candidateReview.clip,'takeoff'))*Math.PI/2);p.facing=facing;p.animation={clip:candidateReview.clip,tick};p.hasBall=tick<anchorTick(candidateReview.clip,'release');
+ const released=tick>=anchorTick(candidateReview.clip,'release'),height=p.hasBall?p.z+previewBallHeight(candidateReview.clip,tick,p.id):flightHeightFromHand(previewBallHeight(candidateReview.clip,tick,p.id),p.z);
+ Object.assign(state.ball,{x:p.x+facing*previewBallForward(candidateReview.clip,tick,p.id),y:p.y,z:height,mode:p.hasBall?'carried':'shot',ownerId:p.hasBall?p.id:null});
  game.tick(0);
- const position=facing>0?'right':'left',label=tick===9?'pre-release-tick9':'release-tick10',path=out+'/'+position+'-layup-'+label+'.png';
+ const releaseTick=anchorTick(candidateReview.clip,'release'),position=facing>0?'right':'left',label=tick===releaseTick-1?'pre-release-tick'+tick:tick===releaseTick?'release-tick'+tick:'hand-contact-tick'+tick,path=out+'/'+position+'-'+candidateReview.clip+'-'+label+'.png';
  await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
- actionFramePreviews.push({path,athlete:p.id,clip:'layup',tick,facing,production:Boolean(selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages})),hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:tick===9?'last carried tick before release':'release anchor'});
+ actionFramePreviews.push({path,athlete:p.id,clip:candidateReview.clip,tick,facing,production:Boolean(selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages})),hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:tick===releaseTick-1?'last carried tick before release':tick===releaseTick?'release anchor':'carried hand contact'});
 }
 // Capture every Paprika dunk frame with the live renderer in both facings.
 // Keep her on the roster that owns her sprite data; change only facing.
@@ -203,9 +207,9 @@ for(const clip of ['dunk-power','dunk-windmill','dunk-reverse','dunk-360','dunk-
 for(const clip of ['shoot','layup','layup-reverse'].filter(shouldPreview))for(const facing of [1,-1]){
  const tick=anchorTick(clip,'release')-1;
  for(const player of state.players){player.animation={clip:'idle',tick:0};player.hasBall=false;player.z=0;}
- if(candidateReview&&clip==='layup')state.players=[p];
- if(candidateReview&&clip==='layup')for(const player of state.players)if(player!==p){player.x=-1000;player.y=50;player.z=0;}
- p.x=100;p.y=candidateReview&&clip==='layup'?75:50;p.facing=facing;p.animation={clip,tick};
+ if(candidateReview&&clip===candidateReview.clip)state.players=[p];
+ if(candidateReview&&clip===candidateReview.clip)for(const player of state.players)if(player!==p){player.x=-1000;player.y=50;player.z=0;}
+ p.x=100;p.y=previewY;p.facing=facing;p.animation={clip,tick};
  const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish');
  p.z=tick<=takeoff||tick>=finish?0:tick<=peak?2*Math.sin((tick-takeoff)/(peak-takeoff)*Math.PI/2):2*Math.sin((finish-tick)/(finish-peak)*Math.PI/2);
  p.hasBall=true;Object.assign(state.ball,{x:p.x+facing*previewBallForward(clip,tick,p.id),y:p.y,z:p.z+previewBallHeight(clip,tick,p.id),mode:'carried',ownerId:p.id});game.tick(0);
@@ -231,7 +235,7 @@ for(const clip of Object.keys(animationClips).filter(key=>(key.startsWith('dunk-
 // Capture real simulation shot trajectories, including release physics, for
 // both layup families and their athlete-specific carry tracks.
 const liveShotCaptures=[];
-for(const clip of (candidateReview?[]:['layup','layup-reverse']).filter(shouldPreview))for(const facing of [1,-1]){
+for(const clip of (candidateReview?[]:['layup','layup-reverse'].filter(shouldPreview)))for(const facing of [1,-1]){
  game.start(home.id,game.teams.find(t=>t.id!==home.id).id,180,3);
  const match=game.state;
  // Reset starts a fresh default lineup; bring the reviewed athlete back into
@@ -252,11 +256,11 @@ for(const clip of (candidateReview?[]:['layup','layup-reverse']).filter(shouldPr
  const inputs=match.players.map(player=>createInput(player.id));
  for(let simulationTick=1;simulationTick<=130;simulationTick++){
   stepMatch(match,inputs);game.tick(0);
-  if([9,10,11,14,18,40,60,80,85,100,110,120,130].includes(simulationTick)){
+  if([9,10,11,12,14,18,40,60,80,85,100,110,120,130].includes(simulationTick)){
    const position=facing>0?'right':'left',path=out+'/'+position+'-'+clip+'-live-tick'+simulationTick+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
    liveShotCaptures.push({path,athlete:shooter.id,clip,simulationTick,animationTick:shooter.animation.tick,facing,production:Boolean(selectProductionSprite(shooter,{manifest:animationAssetManifest,images:previewImages})),source:animationAssetManifest.characters?.[shooter.id]?.directions?.right?.[clip]?.src??null,playerZ:shooter.z,hasBall:shooter.hasBall,ballMode:match.ball.mode,ballOwnerId:match.ball.ownerId,ball:{x:match.ball.x,y:match.ball.y,z:match.ball.z,vx:match.ball.vx,vy:match.ball.vy,vz:match.ball.vz}});
   }
  }
 }
-await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',cameraZoom:previewZoom,loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames,actionFramePreviews,passContactCaptures,liveShotCaptures},null,2));
+await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',cameraZoom:previewZoom,previewCourtY:previewY,loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames,actionFramePreviews,passContactCaptures,liveShotCaptures},null,2));
 console.log(JSON.stringify({loadedImages:images.length,previews:previews.length,actionFramePreviews:actionFramePreviews.length,passContactCaptures:passContactCaptures.length,out}));

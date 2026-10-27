@@ -1,0 +1,270 @@
+{
+  "source": "tools/generate-art/sources/j131-briar-foxglove-layup-reverse-attempt-06-raw.png",
+  "sourceSha256": "1fdf920acbb11e465244745d6dade28f30874da1784499942d236f0759122698",
+  "destination": "tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-06/briar-foxglove-layup-reverse-8x-candidate.png",
+  "layout": {
+    "columns": 4,
+    "rows": 2,
+    "cellWidth": 72,
+    "cellHeight": 95
+  },
+  "cleanup": "Only disconnected alpha 1\u201315 pixels outside a 4px halo around each largest alpha>=16 component were cleared; no subject pixels were repainted. Each subject crop uses uniform nearest-neighbor scale 0.185 and baseline y=89.",
+  "poses": [
+    {
+      "pose": 1,
+      "sourceAlpha16BBox": [
+        32,
+        94,
+        324,
+        480
+      ],
+      "sourceCrop": [
+        28,
+        90,
+        328,
+        484
+      ],
+      "uniformScale": 0.185,
+      "normalizedSize": [
+        56,
+        73
+      ],
+      "atlasPlacement": [
+        8,
+        16
+      ],
+      "normalizedAlphaBBoxLocal": [
+        8,
+        16,
+        64,
+        89
+      ],
+      "removedDetachedLowAlphaFringePixels": 139,
+      "baselineY": 89
+    },
+    {
+      "pose": 2,
+      "sourceAlpha16BBox": [
+        76,
+        94,
+        348,
+        484
+      ],
+      "sourceCrop": [
+        72,
+        90,
+        352,
+        488
+      ],
+      "uniformScale": 0.185,
+      "normalizedSize": [
+        52,
+        74
+      ],
+      "atlasPlacement": [
+        82,
+        15
+      ],
+      "normalizedAlphaBBoxLocal": [
+        10,
+        15,
+        62,
+        89
+      ],
+      "removedDetachedLowAlphaFringePixels": 304,
+      "baselineY": 89
+    },
+    {
+      "pose": 3,
+      "sourceAlpha16BBox": [
+        102,
+        85,
+        289,
+        465
+      ],
+      "sourceCrop": [
+        98,
+        81,
+        293,
+        469
+      ],
+      "uniformScale": 0.185,
+      "normalizedSize": [
+        36,
+        72
+      ],
+      "atlasPlacement": [
+        162,
+        17
+      ],
+      "normalizedAlphaBBoxLocal": [
+        18,
+        17,
+        54,
+        89
+      ],
+      "removedDetachedLowAlphaFringePixels": 620,
+      "baselineY": 89
+    },
+    {
+      "pose": 4,
+      "sourceAlpha16BBox": [
+        119,
+        94,
+        351,
+        479
+      ],
+      "sourceCrop": [
+        115,
+        90,
+        355,
+        483
+      ],
+      "uniformScale": 0.185,
+      "normalizedSize": [
+        44,
+        73
+      ],
+      "atlasPlacement": [
+        230,
+        16
+      ],
+      "normalizedAlphaBBoxLocal": [
+        14,
+        16,
+        58,
+        89
+      ],
+      "removedDetachedLowAlphaFringePixels": 311,
+      "baselineY": 89
+    },
+    {
+      "pose": 5,
+      "sourceAlpha16BBox": [
+        63,
+        51,
+        348,
+        447
+      ],
+      "sourceCrop": [
+        59,
+        47,
+        352,
+        451
+      ],
+      "uniformScale": 0.185,
+      "normalizedSize": [
+        54,
+        75
+      ],
+      "atlasPlacement": [
+        9,
+        109
+      ],
+      "normalizedAlphaBBoxLocal": [
+        9,
+        14,
+        63,
+        89
+      ],
+      "removedDetachedLowAlphaFringePixels": 192,
+      "baselineY": 89
+    },
+    {
+      "pose": 6,
+      "sourceAlpha16BBox": [
+        92,
+        32,
+        349,
+        469
+      ],
+      "sourceCrop": [
+        88,
+        28,
+        353,
+        473
+      ],
+      "uniformScale": 0.185,
+      "normalizedSize": [
+        49,
+        82
+      ],
+      "atlasPlacement": [
+        83,
+        102
+      ],
+      "normalizedAlphaBBoxLocal": [
+        11,
+        7,
+        60,
+        89
+      ],
+      "removedDetachedLowAlphaFringePixels": 577,
+      "baselineY": 89
+    },
+    {
+      "pose": 7,
+      "sourceAlpha16BBox": [
+        74,
+        82,
+        332,
+        462
+      ],
+      "sourceCrop": [
+        70,
+        78,
+        336,
+        466
+      ],
+      "uniformScale": 0.185,
+      "normalizedSize": [
+        49,
+        72
+      ],
+      "atlasPlacement": [
+        155,
+        112
+      ],
+      "normalizedAlphaBBoxLocal": [
+        11,
+        17,
+        60,
+        89
+      ],
+      "removedDetachedLowAlphaFringePixels": 372,
+      "baselineY": 89
+    },
+    {
+      "pose": 8,
+      "sourceAlpha16BBox": [
+        72,
+        95,
+        329,
+        457
+      ],
+      "sourceCrop": [
+        68,
+        91,
+        333,
+        461
+      ],
+      "uniformScale": 0.185,
+      "normalizedSize": [
+        49,
+        68
+      ],
+      "atlasPlacement": [
+        227,
+        116
+      ],
+      "normalizedAlphaBBoxLocal": [
+        11,
+        21,
+        60,
+        89
+      ],
+      "removedDetachedLowAlphaFringePixels": 740,
+      "baselineY": 89
+    }
+  ]
+}

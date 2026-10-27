@@ -736,7 +736,14 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   pickup:{height:[.9,.6,.3,0,.65],forward:[7,11,16,20,10]},
   // J.130 Briar carries the separate layup ball through tick9 and releases on tick10;
   // later poses belong to the ownerless projectile/follow-through.
-  layup:{height:[1.54,1.635045,1.53,1.550734,1.71701],forward:[2.5,2.65,3.6,1.43926,4.2]}
+  layup:{height:[1.54,1.635045,1.53,1.550734,1.71701],forward:[2.5,2.65,3.6,1.43926,4.2]},
+  // J.131's peak pose remains held through tick11 and releases on tick12.
+  // Native Jam Stage calibration for attempt06: the ball remains separate,
+  // meets the rise/peak hand through tick11, and releases at tick12.
+  'layup-reverse':{
+    heightTicks:[1.0,1.05,1.35,1.4,1.45,1.35,1.3,1.45,1.25,1.25,1.0,1.0,2.15],
+    forwardTicks:[3.8,4.0,6.2,5.4,5.0,4.5,4.8,4.0,3.6,3.7,5.4,3.9,4.0]
+  }
 },'piper-quickstep':{
   // The ball stays in Piper's leading hand through the bent jump-shot release.
   // Centers were measured on the reviewed 128x96 source cells and checked in
@@ -1489,6 +1496,12 @@ function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
   const track=athleteBallTracks[athleteId]?.[key]?.[property==='ballHeight'?'height':'forward'];
   const elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);
+  const exactTicks=athleteBallTracks[athleteId]?.[key]?.[property==='ballHeight'?'heightTicks':'forwardTicks'];
+  if(Array.isArray(exactTicks)&&exactTicks.length){
+    const sampleTick=c.loop?elapsed%duration:Math.min(elapsed,exactTicks.length-1);
+    const index=Math.floor(sampleTick),nextIndex=Math.min(index+1,exactTicks.length-1),fraction=sampleTick-index;
+    return exactTicks[index]+(exactTicks[nextIndex]-exactTicks[index])*fraction;
+  }
   let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);
   for(let index=0;index<sequence.length;index++){
     const frame=c.frames[sequence[index]];

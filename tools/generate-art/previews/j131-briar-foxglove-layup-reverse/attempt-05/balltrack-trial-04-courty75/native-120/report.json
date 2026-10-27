@@ -1,0 +1,785 @@
+{
+  "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+  "cameraZoom": 120,
+  "previewCourtY": 75,
+  "loadedImages": 207,
+  "matchPlayers": [
+    "briar-foxglove"
+  ],
+  "previews": [
+    "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse.png",
+    "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse.png"
+  ],
+  "previewFrames": [
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 12,
+      "facing": 1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 12,
+      "facing": -1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    }
+  ],
+  "actionFramePreviews": [
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 0,
+      "tick": 0,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        0,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 1,
+      "tick": 2,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        72,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 2,
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        144,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 3,
+      "tick": 7,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        216,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 4,
+      "tick": 10,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        0,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-frame5.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 5,
+      "tick": 12,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 5,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        72,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-frame6.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 6,
+      "tick": 13,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 6,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        144,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-frame7.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 7,
+      "tick": 17,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 7,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        216,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 0,
+      "tick": 0,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        0,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 1,
+      "tick": 2,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        72,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 2,
+      "tick": 5,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        144,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 3,
+      "tick": 7,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        216,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 4,
+      "tick": 10,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        0,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-frame5.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 5,
+      "tick": 12,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 5,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        72,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-frame6.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 6,
+      "tick": 13,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 6,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        144,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-frame7.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 7,
+      "tick": 17,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 7,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "sourceRect": [
+        216,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick0.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 0,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick1.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 1,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick2.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 2,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick3.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 3,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick4.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 4,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick5.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick6.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 6,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick7.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 7,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick8.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 8,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick9.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 9,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-hand-contact-tick10.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 10,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-pre-release-tick11.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 11,
+      "facing": 1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "last carried tick before release"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-release-tick12.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 12,
+      "facing": 1,
+      "production": true,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null,
+      "reviewPoint": "release anchor"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick0.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 0,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick1.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 1,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick2.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 2,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick3.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 3,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick4.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 4,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick5.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 5,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick6.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 6,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick7.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 7,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick8.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 8,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick9.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 9,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-hand-contact-tick10.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 10,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "carried hand contact"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-pre-release-tick11.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 11,
+      "facing": -1,
+      "production": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "last carried tick before release"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-release-tick12.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "tick": 12,
+      "facing": -1,
+      "production": true,
+      "hasBall": false,
+      "ballMode": "shot",
+      "ballOwnerId": null,
+      "reviewPoint": "release anchor"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/right-layup-reverse-pre-release-tick11.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 4,
+      "tick": 11,
+      "facing": 1,
+      "production": true,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "last carried tick before release"
+    },
+    {
+      "path": "/tmp/jam-j130-main/tools/generate-art/previews/j131-briar-foxglove-layup-reverse/attempt-05/balltrack-trial-04-courty75/native-120/left-layup-reverse-pre-release-tick11.png",
+      "athlete": "briar-foxglove",
+      "clip": "layup-reverse",
+      "frame": 4,
+      "tick": 11,
+      "facing": -1,
+      "production": true,
+      "source": "./tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-05/briar-foxglove-layup-reverse-8x-candidate.png",
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove",
+      "reviewPoint": "last carried tick before release"
+    }
+  ],
+  "passContactCaptures": [],
+  "liveShotCaptures": []
+}

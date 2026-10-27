@@ -4,7 +4,7 @@
     "clip": "run",
     "frame": 0,
     "path": "/workspace/generated_images/exec-e6b8f1d5-d0d5-4880-846f-1419caa8d0fa.png",
-    "prompt": "tools/generate-art/roster-production-prompts.md — captains run frame 0",
+    "prompt": "tools/generate-art/roster-production-prompts.md \u2014 captains run frame 0",
     "generatedAt": "2026-10-21T02:31:07.688Z"
   },
   {
@@ -12,7 +12,7 @@
     "clip": "run",
     "frame": 1,
     "path": "/workspace/generated_images/exec-f7e1dd91-0489-4cf5-9eeb-1efa4496bbf3.png",
-    "prompt": "tools/generate-art/roster-production-prompts.md — captains run frame 1",
+    "prompt": "tools/generate-art/roster-production-prompts.md \u2014 captains run frame 1",
     "generatedAt": "2026-10-21T02:31:07.689Z"
   },
   {
@@ -20,7 +20,23 @@
     "clip": "run",
     "frame": 2,
     "path": "/workspace/generated_images/exec-358f311f-68d7-4b51-b52b-a45ed5f480a3.png",
-    "prompt": "tools/generate-art/roster-production-prompts.md — captains run frame 2",
+    "prompt": "tools/generate-art/roster-production-prompts.md \u2014 captains run frame 2",
     "generatedAt": "2026-10-21T02:31:07.689Z"
+  },
+  {
+    "group": "J.131 Briar Foxglove",
+    "clip": "layup-reverse",
+    "frame": "candidate-06",
+    "path": "/workspace/generated_images/exec-4e456731-9fd0-43e1-a66d-8acfe4726ac4.png",
+    "prompt": "tools/generate-art/j131-briar-foxglove-layup-reverse-attempt-06-edit-prompt.md",
+    "generatedAt": "2026-10-27T00:05:04.231Z"
+  },
+  {
+    "group": "J.131 Briar Foxglove",
+    "clip": "layup-reverse",
+    "frame": "candidate-07-raw-only",
+    "path": "/workspace/generated_images/exec-39375b63-8e7b-4c7c-889e-14abe138f670.png",
+    "prompt": "not captured by generation wrapper; see tools/generate-art/j131-briar-foxglove-layup-reverse-attempt-07-provenance.md",
+    "generatedAt": "2026-10-27T00:03:55.325Z"
   }
 ]

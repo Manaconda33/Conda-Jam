@@ -73837,13 +73837,136 @@
               "review": "Independent identity/anatomy, pose separation, alpha, margins, baseline, timing, native Jam Stage and separate-ball-track review; see j130-briar-foxglove-layup-final-review.md"
             },
             "reviewed": true
+          },
+          "layup-reverse": {
+            "src": "./public/assets/animation/briar-foxglove-layup-reverse-right.png",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 95,
+                "hash": "397d729dc200a407e5a187e82e695dfe0567426701dd5aac66ebf47542bbce28"
+              },
+              {
+                "x": 72,
+                "y": 0,
+                "w": 72,
+                "h": 95,
+                "hash": "407b063f0471bbf4cd0b9cc6a7ca00f59f4f16ce59cbd8acde5a055090f102c0"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 72,
+                "h": 95,
+                "hash": "0a4f0d587b2a301a125e36cb5264d02e8e0ec6642142c81495c3610230cd9ac8"
+              },
+              {
+                "x": 216,
+                "y": 0,
+                "w": 72,
+                "h": 95,
+                "hash": "bc5934fd0ad30eff77b5af5139d0f574a829abc9bcd2f1e28702723bf70eb036"
+              },
+              {
+                "x": 0,
+                "y": 95,
+                "w": 72,
+                "h": 95,
+                "hash": "a906f375c527ea2103846bb6bc0e59466523ad401b042c0d50997586afa95166"
+              },
+              {
+                "x": 72,
+                "y": 95,
+                "w": 72,
+                "h": 95,
+                "hash": "091c8252ffb1b7ff7dfe4a818cc146a11a58cd3c6fde32572e99ab3dc31c3487"
+              },
+              {
+                "x": 144,
+                "y": 95,
+                "w": 72,
+                "h": 95,
+                "hash": "dfc3f922dbe47218803eebb2a0c326e8e5c859fac1ec7fd7fb7b9c9f5b330548"
+              },
+              {
+                "x": 216,
+                "y": 95,
+                "w": 72,
+                "h": 95,
+                "hash": "5bb94c9ae5203c3452d576df4d76c5a4d4471052efee4c95d71e5249b1f37a98"
+              }
+            ],
+            "sha256": "ac0f939d75064ac94090ef3186505e9a91b0500504f198065e67c18b75f52f6c",
+            "source": "imagegen",
+            "provenance": {
+              "issue": "J.131",
+              "prompt": "tools/generate-art/j131-briar-foxglove-layup-reverse-attempt-04-prompt.md; tools/generate-art/j131-briar-foxglove-layup-reverse-attempt-05-edit-prompt.md; tools/generate-art/j131-briar-foxglove-layup-reverse-attempt-06-edit-prompt.md",
+              "generatedAt": "2026-10-27",
+              "imageGenId": "exec-4e456731-9fd0-43e1-a66d-8acfe4726ac4",
+              "rawSource": "tools/generate-art/sources/j131-briar-foxglove-layup-reverse-attempt-06-raw.png",
+              "rawSourceSha256": "1fdf920acbb11e465244745d6dade28f30874da1784499942d236f0759122698",
+              "sourceCandidate": "tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-06/briar-foxglove-layup-reverse-8x-candidate.png",
+              "sourceSha256": "ac0f939d75064ac94090ef3186505e9a91b0500504f198065e67c18b75f52f6c",
+              "normalizationReport": "tools/generate-art/candidates/j131-briar-foxglove-layup-reverse-attempt-06/normalization-report.json",
+              "attemptHistory": [
+                "Attempt01 exec-463947e6-39a3-43cd-96b2-eb6ba84581d2 rejected: kit drift, smooth shading, unclear release/follow-through, edge collisions.",
+                "Attempt02 exec-864ed115-d1e5-499a-9f8a-34d715914d49 rejected: proportions and action progression fail full pose review; see recorded review.",
+                "Attempt03 exec-6358a4bf-47c2-455a-a279-c6f625b72975 rejected: cross-cell hand, edge specks, wrong cell ratio, near-duplicate rise poses.",
+                "Attempt04 exec-13d17ca0-fce4-495d-b0e6-cfbd67a8339c rejected as-is for invented chest mark and soft shading; pose layout retained for follow-up edit.",
+                "Attempt05 exec-45bdbcdc-b041-40b0-a36b-3d72919679be passed anatomy/margins and was used for initial native calibration; superseded by attempt06 for clearer receiving hand.",
+                "Attempt06 exec-4e456731-9fd0-43e1-a66d-8acfe4726ac4 accepted after pose3 hand moved outward and normalized/native reviews passed.",
+                "Attempt07 exec-39375b63-8e7b-4c7c-889e-14abe138f670 retained as raw generation; exact prompt capture unavailable, so not eligible for production review."
+              ],
+              "nativeReview": {
+                "status": "accepted",
+                "renderer": "Jam Stage native Canvas renderer via tools/render-preview.mjs",
+                "zoomPercent": [
+                  100,
+                  120
+                ],
+                "facings": [
+                  "right",
+                  "left"
+                ],
+                "frameSelection": "all eight attempt06 candidate cells selected in both facings",
+                "identityAndAnatomy": "accepted; Briar face, locs, red headband, russet/cream uniform, full limbs, empty hands",
+                "poseTiming": "accepted; takeoff tick2, peak tick10, carried through tick11, release tick12, finish tick17",
+                "alphaMarginsBaseline": "accepted after disconnected low-alpha fringe cleanup; eight 72x95 cells, shared baseline y89, transparent edges",
+                "reviewRecord": "tools/generate-art/j131-briar-foxglove-layup-reverse-attempt-06-review.md"
+              },
+              "ballTrack": {
+                "status": "accepted-native-review",
+                "trialRecord": "tools/generate-art/j131-briar-foxglove-layup-reverse-balltrack-trials.json",
+                "acceptedTrial": 16,
+                "trackFields": [
+                  "heightTicks",
+                  "forwardTicks"
+                ],
+                "releaseTick": 12,
+                "review": "Native tick captures at 100%/120% in both facings. Briar carries through tick11, face remains clear and ball meets the receiving/peak hand through tick11; tick12 is an ownerless shot aligned with the raised release hand."
+              },
+              "review": {
+                "status": "accepted",
+                "notes": "Independent anatomy, identity, alpha/margins/baseline and Jam Stage reviews accept attempt06. Pose3 hand is forward of face; all eight cells select in both facings at 100%/120%."
+              },
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Native Jam Stage captures show the separate ball at Briar\u2019s hands in both facings at 100%/120%; face remains clear through the reverse gather and the release hand contact is readable."
+              },
+              "candidateOnly": false
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Existing Briar identity review plus J.130 layup native Jam Stage captures at100%/120% in both facings. Brown shoulder-length locs and red headband have no fixed side; reviewed left-facing rendering preserves identity."
+        "notes": "Attempt06 atlas and athlete-specific tick track passed native Jam Stage review in both facings at 100% and 120%."
       }
     },
     "keeg": {
