@@ -1,0 +1,3 @@
+# J.134 Briar Foxglove `push` — attempt 03 review
+
+Rejected as one packed production sheet. Briar's identity and human anatomy read consistently and no ball is visible. However, extended silhouettes cross cell boundaries: row2 col1 reaches its right boundary, row2 col2 touches its right edge, and row2 col3 starts at its left edge. The contact and follow-through poses remain too similar, frames10–11 are near-duplicates, and red/orange fringe persists. Cell12 is visually empty at alpha≥16 but retains low-alpha residue. Raw source, exact prompt, generation ID and light/dark proof are retained; do not pack.

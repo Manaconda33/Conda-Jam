@@ -1,0 +1,180 @@
+{
+  "issue": "J.134",
+  "athlete": "Briar Foxglove",
+  "clip": "push",
+  "references": [
+    "tools/generate-art/candidates/j132-briar-foxglove-block-attempt-07/briar-foxglove-block-4x-candidate.png",
+    "public/assets/animation/briar-foxglove-steal-right.png"
+  ],
+  "sheet_attempts": [
+    {
+      "attempt": 1,
+      "generation_id": "exec-66489cd0-b891-4c25-a747-e534f7cc3ad3",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-attempt-01-raw.png",
+      "sha256": "d00f8e62842488f8911e062e55680bd0e72ac2f8a25b532e28e9ababdab6d85d",
+      "status": "rejected: alpha reaches canvas edges; red/orange fringe"
+    },
+    {
+      "attempt": 2,
+      "generation_id": "exec-21c9a0fc-964e-4d21-81ef-931e4efb167c",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-attempt-02-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-attempt-02-raw.png",
+      "sha256": "e92916dfde2b4485c093f2a31eb7a6d19921a969fc5eeb0e5d2b6e0cf4a063b3",
+      "status": "rejected: cell spills, similar contact/follow-through poses, fringe"
+    },
+    {
+      "attempt": 3,
+      "generation_id": "exec-c2cd4198-a7a7-4d22-b490-5ae5e6fd0eac",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-attempt-03-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-attempt-03-raw.png",
+      "sha256": "e07851a962f795958bf0adb00b5fe3628e4522c3bdff6dd4adf9a26b95574df8",
+      "status": "rejected: cell spills; poses 4-6 too similar; poses 10-11 near-duplicates"
+    },
+    {
+      "attempt": 4,
+      "generation_id": "exec-247a8f15-c7b7-481e-866b-76f841b89b51",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-attempt-04-edit-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-attempt-04-raw.png",
+      "input_source": "tools/generate-art/sources/j134-briar-foxglove-push-attempt-03-raw.png",
+      "sha256": "aac591351f584ddacb3d255a4133a6fec9f70eac3e1c436fd2f6ae9688b36161",
+      "status": "rejected: edit did not fix cell spill or pose similarity"
+    }
+  ],
+  "pose_sources": [
+    {
+      "frame": 0,
+      "attempt": 1,
+      "generation_id": "exec-972f7a22-c27e-4212-b597-ba8421943f9e",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-00-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-00-attempt-01-raw.png",
+      "sha256": "9ba40dfe8a4957de5bb2162bf8fdb40c6d2fd87ac9bc3d0cc7389f59d2a9120e",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 1,
+      "attempt": 1,
+      "generation_id": "exec-cee59776-2549-40a9-b1bc-a60ed5547200",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-01-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-01-attempt-01-raw.png",
+      "sha256": "c570f7cb738661ee7d67dce4833bcf168e52971905f2f55f29c78fbe3e039352",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 2,
+      "attempt": 1,
+      "generation_id": "exec-07af20ae-7b7e-481c-a2cb-87a6f5a1648e",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-02-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-02-attempt-01-raw.png",
+      "sha256": "daf5a1341aa7a8eed547e805133a5ae2143d470b42ef47c01c6c5062852660d1",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 3,
+      "attempt": 1,
+      "generation_id": "exec-c7c0eb48-cc23-486d-8326-5f4d6c7c5b96",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-03-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-03-attempt-01-raw.png",
+      "sha256": "938f13e620135ed1cefdf9e6c6349f9dcbc62f67608345c6c44cd6052ac0fa5f",
+      "status": "rejected: near duplicate of frame4; use distinct drive pose"
+    },
+    {
+      "frame": 3,
+      "attempt": 2,
+      "generation_id": "exec-109e342d-07f1-4aff-9fb3-d3737d92d859",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-03-attempt-02-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-03-attempt-02-raw.png",
+      "sha256": "d71d210edbeb19d9b5d3861c5ffbc3bb33c10f71743bf429011314e080ab7a20",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 4,
+      "attempt": 1,
+      "generation_id": "exec-b298e343-1cdc-4db5-ab64-e1c0a6b46660",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-04-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-04-attempt-01-raw.png",
+      "sha256": "06b1032d20d066002f14d474ebaf272429c900a1d4d44ad3eea2839e9577b9d4",
+      "status": "superseded: too similar to frame3"
+    },
+    {
+      "frame": 4,
+      "attempt": 2,
+      "generation_id": "exec-a683c87a-9f3f-460f-811b-3895e34f6b09",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-04-attempt-02-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-04-attempt-02-raw.png",
+      "sha256": "bf4e2371ea48625b28917eef51bde7c7362c0af49b193f4caa9ecab89126c162",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 5,
+      "attempt": 1,
+      "generation_id": "exec-431280c8-70c5-4f72-8c9a-6baacade36aa",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-05-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-05-attempt-01-raw.png",
+      "sha256": "243b7ce7abb6ebff5c987abb15bfb7736f56d01bcdbd15ccec84ba48284eef43",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 6,
+      "attempt": 1,
+      "generation_id": "exec-7f318502-b7e3-403d-8c94-21846a3399bd",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-06-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-06-attempt-01-raw.png",
+      "sha256": "1fdae39107f3934ed1a0710349334bd403fb3faf106261f84cf026a2d2d32827",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 6,
+      "attempt": 2,
+      "generation_id": "exec-e617a57b-56fd-429c-b784-2051e67dfeea",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-06-attempt-02-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-06-attempt-02-raw.png",
+      "sha256": "7fb2978f85e39b2221d711c009fe603a5c7725511441aa36e2c55d2840ef11f5",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 7,
+      "attempt": 1,
+      "generation_id": "exec-da59ef3b-29b4-4da1-b147-044ddd58184c",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-07-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-07-attempt-01-raw.png",
+      "sha256": "4655133c985627daeb7285c444b2ac81cb13f92d3128483b767fc140e5db9ef9",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 8,
+      "attempt": 1,
+      "generation_id": "exec-bf8dd1be-95b8-471b-8604-81c9589c0a6b",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-08-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-08-attempt-01-raw.png",
+      "sha256": "546907b5d5f552a97f5cd1e74fb1a1e287cad6fb81fd85b388d8e1410e796206",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 9,
+      "attempt": 1,
+      "generation_id": "exec-63546677-4884-4ef2-9047-dd1ff8e54fee",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-09-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-09-attempt-01-raw.png",
+      "sha256": "beb5b73f0e5f3da9d1f9fbec6ebd787d6c8fcaeea0631a83d7fce180d023da5f",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    },
+    {
+      "frame": 10,
+      "attempt": 1,
+      "generation_id": "exec-c4b5e7ff-8012-4d22-a5dc-1c8616d2ba5a",
+      "prompt": "tools/generate-art/j134-briar-foxglove-push-pose-10-attempt-01-prompt.md",
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-10-attempt-01-raw.png",
+      "sha256": "3b9a975c09d4f7e2a36f389b19ab42a921a12ec5ca3b251c2787aa7f9a1b5df7",
+      "status": "accepted in the integrated, reviewed eleven-frame atlas"
+    }
+  ],
+  "normalization_script": "tools/generate-art/normalize-j134-briar-foxglove-push-singles.py",
+  "candidate_atlas": "tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+  "normalization_report": "tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/normalization-report.json",
+  "review": {
+    "status": "accepted",
+    "visualReview": "independent identity/anatomy/pose-separation/transparency/packed-size review",
+    "nativeReview": "all frames in both facings at court y=75 and zoom100/120; frame5 tick8 contact anchor"
+  }
+}

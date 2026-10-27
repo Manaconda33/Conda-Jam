@@ -1,0 +1,304 @@
+{
+  "source_method": "individually generated, reviewed, ball-free pose sources; threshold alpha>=16 and nearest-neighbor uniform scaling",
+  "atlas": [
+    448,
+    288
+  ],
+  "cell": [
+    112,
+    96
+  ],
+  "frames": 11,
+  "empty_cells": [
+    11
+  ],
+  "baseline_y": 89,
+  "poses": [
+    {
+      "frame": 0,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-00-attempt-01-raw.png",
+      "source_alpha16_bbox": [
+        426,
+        363,
+        888,
+        905
+      ],
+      "source_crop": [
+        424,
+        361,
+        890,
+        907
+      ],
+      "uniform_scale": 0.1391941391941392,
+      "normalized_size": [
+        65,
+        76
+      ],
+      "placement": [
+        23,
+        13
+      ],
+      "cell_baseline_y": 89
+    },
+    {
+      "frame": 1,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-01-attempt-01-raw.png",
+      "source_alpha16_bbox": [
+        385,
+        404,
+        961,
+        960
+      ],
+      "source_crop": [
+        383,
+        402,
+        963,
+        962
+      ],
+      "uniform_scale": 0.1357142857142857,
+      "normalized_size": [
+        79,
+        76
+      ],
+      "placement": [
+        128,
+        13
+      ],
+      "cell_baseline_y": 89
+    },
+    {
+      "frame": 2,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-02-attempt-01-raw.png",
+      "source_alpha16_bbox": [
+        358,
+        335,
+        980,
+        1010
+      ],
+      "source_crop": [
+        356,
+        333,
+        982,
+        1012
+      ],
+      "uniform_scale": 0.11192930780559647,
+      "normalized_size": [
+        70,
+        76
+      ],
+      "placement": [
+        245,
+        13
+      ],
+      "cell_baseline_y": 89
+    },
+    {
+      "frame": 3,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-03-attempt-02-raw.png",
+      "source_alpha16_bbox": [
+        310,
+        288,
+        994,
+        1020
+      ],
+      "source_crop": [
+        308,
+        286,
+        996,
+        1022
+      ],
+      "uniform_scale": 0.10326086956521739,
+      "normalized_size": [
+        71,
+        76
+      ],
+      "placement": [
+        356,
+        13
+      ],
+      "cell_baseline_y": 89
+    },
+    {
+      "frame": 4,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-04-attempt-02-raw.png",
+      "source_alpha16_bbox": [
+        244,
+        327,
+        1090,
+        1082
+      ],
+      "source_crop": [
+        242,
+        325,
+        1092,
+        1084
+      ],
+      "uniform_scale": 0.10013175230566534,
+      "normalized_size": [
+        85,
+        76
+      ],
+      "placement": [
+        13,
+        109
+      ],
+      "cell_baseline_y": 89
+    },
+    {
+      "frame": 5,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-05-attempt-01-raw.png",
+      "source_alpha16_bbox": [
+        377,
+        418,
+        961,
+        902
+      ],
+      "source_crop": [
+        375,
+        416,
+        963,
+        904
+      ],
+      "uniform_scale": 0.1557377049180328,
+      "normalized_size": [
+        92,
+        76
+      ],
+      "placement": [
+        122,
+        109
+      ],
+      "cell_baseline_y": 89
+    },
+    {
+      "frame": 6,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-06-attempt-02-raw.png",
+      "source_alpha16_bbox": [
+        268,
+        383,
+        1143,
+        1090
+      ],
+      "source_crop": [
+        266,
+        381,
+        1145,
+        1092
+      ],
+      "uniform_scale": 0.10689170182841069,
+      "normalized_size": [
+        94,
+        76
+      ],
+      "placement": [
+        233,
+        109
+      ],
+      "cell_baseline_y": 89
+    },
+    {
+      "frame": 7,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-07-attempt-01-raw.png",
+      "source_alpha16_bbox": [
+        409,
+        389,
+        869,
+        988
+      ],
+      "source_crop": [
+        407,
+        387,
+        871,
+        990
+      ],
+      "uniform_scale": 0.12603648424543948,
+      "normalized_size": [
+        58,
+        76
+      ],
+      "placement": [
+        363,
+        109
+      ],
+      "cell_baseline_y": 89
+    },
+    {
+      "frame": 8,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-08-attempt-01-raw.png",
+      "source_alpha16_bbox": [
+        418,
+        379,
+        883,
+        966
+      ],
+      "source_crop": [
+        416,
+        377,
+        885,
+        968
+      ],
+      "uniform_scale": 0.12859560067681894,
+      "normalized_size": [
+        60,
+        76
+      ],
+      "placement": [
+        26,
+        205
+      ],
+      "cell_baseline_y": 89
+    },
+    {
+      "frame": 9,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-09-attempt-01-raw.png",
+      "source_alpha16_bbox": [
+        412,
+        394,
+        856,
+        949
+      ],
+      "source_crop": [
+        410,
+        392,
+        858,
+        951
+      ],
+      "uniform_scale": 0.13595706618962433,
+      "normalized_size": [
+        61,
+        76
+      ],
+      "placement": [
+        137,
+        205
+      ],
+      "cell_baseline_y": 89
+    },
+    {
+      "frame": 10,
+      "source": "tools/generate-art/sources/j134-briar-foxglove-push-pose-10-attempt-01-raw.png",
+      "source_alpha16_bbox": [
+        442,
+        355,
+        833,
+        950
+      ],
+      "source_crop": [
+        440,
+        353,
+        835,
+        952
+      ],
+      "uniform_scale": 0.12687813021702837,
+      "normalized_size": [
+        50,
+        76
+      ],
+      "placement": [
+        255,
+        205
+      ],
+      "cell_baseline_y": 89
+    }
+  ]
+}

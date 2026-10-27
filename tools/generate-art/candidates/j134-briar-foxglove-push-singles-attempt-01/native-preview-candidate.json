@@ -1,0 +1,22 @@
+{
+  "athlete": "briar-foxglove",
+  "clip": "push",
+  "src": "tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+  "frames": [
+    {"x": 0, "y": 0, "w": 112, "h": 96},
+    {"x": 112, "y": 0, "w": 112, "h": 96},
+    {"x": 224, "y": 0, "w": 112, "h": 96},
+    {"x": 336, "y": 0, "w": 112, "h": 96},
+    {"x": 0, "y": 96, "w": 112, "h": 96},
+    {"x": 112, "y": 96, "w": 112, "h": 96},
+    {"x": 224, "y": 96, "w": 112, "h": 96},
+    {"x": 336, "y": 96, "w": 112, "h": 96},
+    {"x": 0, "y": 192, "w": 112, "h": 96},
+    {"x": 112, "y": 192, "w": 112, "h": 96},
+    {"x": 224, "y": 192, "w": 112, "h": 96}
+  ],
+  "renderThroughFrame": 10,
+  "status": "review-only candidate, not accepted or registered",
+  "courtY": 75,
+  "baselineY": 89
+}

@@ -1,0 +1,10 @@
+{
+  "asset": "J.134 Briar Foxglove push attempt 01",
+  "generation_id": "exec-66489cd0-b891-4c25-a747-e534f7cc3ad3",
+  "generated_at": "2026-10-27",
+  "source": "tools/generate-art/sources/j134-briar-foxglove-push-attempt-01-raw.png",
+  "source_sha256": "d00f8e62842488f8911e062e55680bd0e72ac2f8a25b532e28e9ababdab6d85d",
+  "dimensions": [1448, 1086],
+  "mode": "RGBA",
+  "status": "rejected"
+}

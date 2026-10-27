@@ -1,0 +1,3 @@
+# J.134 Briar Foxglove push — attempt 01 review
+
+Rejected as a production source. The 1448×1086 RGBA output has alpha content reaching the outer canvas (x=0, y=1086), so the eleven figures do not have safe full-cell margins and cannot be normalized without clipping or inventing missing pixels. The composition reads as 4×3 with the final cell empty and the main action sequence/contact pose broadly present. Briar’s locs, red headband, deep-brown skin, and russet-and-cream uniform are recognizable, but the edge treatment has a conspicuous red/orange fringe and inconsistent pixel clusters. Preserve raw image, exact prompt and generation provenance. Do not pack this candidate.

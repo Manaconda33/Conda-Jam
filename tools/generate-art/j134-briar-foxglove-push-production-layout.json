@@ -1,0 +1,44 @@
+{
+  "athlete": "briar-foxglove",
+  "direction": "right",
+  "clip": "push",
+  "src": "./public/assets/animation/briar-foxglove-push-right.png",
+  "columns": 4,
+  "rows": 3,
+  "frames": [
+    {"x": 0, "y": 0, "w": 112, "h": 96},
+    {"x": 112, "y": 0, "w": 112, "h": 96},
+    {"x": 224, "y": 0, "w": 112, "h": 96},
+    {"x": 336, "y": 0, "w": 112, "h": 96},
+    {"x": 0, "y": 96, "w": 112, "h": 96},
+    {"x": 112, "y": 96, "w": 112, "h": 96},
+    {"x": 224, "y": 96, "w": 112, "h": 96},
+    {"x": 336, "y": 96, "w": 112, "h": 96},
+    {"x": 0, "y": 192, "w": 112, "h": 96},
+    {"x": 112, "y": 192, "w": 112, "h": 96},
+    {"x": 224, "y": 192, "w": 112, "h": 96}
+  ],
+  "provenance": {
+    "issue": "J.134",
+    "prompt": "tools/generate-art/j134-briar-foxglove-push-provenance.json",
+    "promptVerbatim": true,
+    "promptFiles": "tools/generate-art/j134-briar-foxglove-push-pose-*-attempt-*-prompt.md",
+    "generatedAt": "2026-10-27T01:39:36.140Z",
+    "imageGenId": "Multiple single-pose sources; frame-specific IDs are recorded in the provenance index.",
+    "rawSource": "tools/generate-art/sources/j134-briar-foxglove-push-pose-05-attempt-01-raw.png",
+    "rawSourceSha256": "243b7ce7abb6ebff5c987abb15bfb7736f56d01bcdbd15ccec84ba48284eef43",
+    "sourceCandidate": "tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+    "normalizationScript": "tools/generate-art/normalize-j134-briar-foxglove-push-singles.py",
+    "normalizationReport": "tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/normalization-report.json",
+    "lightDarkPreview": "tools/generate-art/previews/j134-briar-foxglove-push/briar-foxglove-push-4x-candidate-light-dark.png",
+    "reviewRecord": "tools/generate-art/j134-briar-foxglove-push-review.md",
+    "nativeReview": "tools/generate-art/previews/j134-briar-foxglove-push/native-{100,120}/report.json",
+    "ballTrack": "none for Briar; push art is ball-free and any target's carried ball remains on that holder athlete's track until gameplay contact releases it into loose-ball physics",
+    "review": {
+      "status": "accepted",
+      "scope": "independent visual, native Jam Stage, and packed-size review",
+      "notes": "Eleven distinct poses; frame5/tick8 contact anchor; full human anatomy and Briar identity; shared baseline, empty cell12, alpha>=16 margins>=7px; no baked ball. Native captures select all frames in both facings at courtY75 and zoom100/120.",
+      "at": "2026-10-27"
+    }
+  }
+}

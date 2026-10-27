@@ -1,0 +1,595 @@
+{
+  "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+  "cameraZoom": 100,
+  "previewCourtY": 75,
+  "loadedImages": 210,
+  "matchPlayers": [
+    "briar-foxglove"
+  ],
+  "previews": [
+    "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push.png",
+    "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push.png"
+  ],
+  "previewFrames": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "tick": 8,
+      "facing": 1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "tick": 8,
+      "facing": -1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    }
+  ],
+  "actionFramePreviews": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 0,
+      "tick": 0,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        0,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 1,
+      "tick": 2,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        112,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 2,
+      "tick": 4,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        224,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 3,
+      "tick": 6,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        336,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 4,
+      "tick": 7,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        0,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame5.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 5,
+      "tick": 8,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 5,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        112,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame6.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 6,
+      "tick": 10,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 6,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        224,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame7.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 7,
+      "tick": 12,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 7,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        336,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame8.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 8,
+      "tick": 15,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 8,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        0,
+        192,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame9.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 9,
+      "tick": 18,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 9,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        112,
+        192,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/left-push-frame10.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 10,
+      "tick": 21,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 10,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        224,
+        192,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 0,
+      "tick": 0,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        0,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 1,
+      "tick": 2,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        112,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 2,
+      "tick": 4,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        224,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 3,
+      "tick": 6,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        336,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 4,
+      "tick": 7,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        0,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame5.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 5,
+      "tick": 8,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 5,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        112,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame6.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 6,
+      "tick": 10,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 6,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        224,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame7.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 7,
+      "tick": 12,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 7,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        336,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame8.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 8,
+      "tick": 15,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 8,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        0,
+        192,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame9.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 9,
+      "tick": 18,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 9,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        112,
+        192,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j134-briar-foxglove-push/native-100/right-push-frame10.png",
+      "athlete": "briar-foxglove",
+      "clip": "push",
+      "frame": 10,
+      "tick": 21,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 10,
+      "source": "./tools/generate-art/candidates/j134-briar-foxglove-push-singles-attempt-01/briar-foxglove-push-4x-candidate.png",
+      "sourceRect": [
+        224,
+        192,
+        112,
+        96
+      ],
+      "atlasSize": [
+        448,
+        288
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    }
+  ],
+  "passContactCaptures": [],
+  "liveShotCaptures": []
+}

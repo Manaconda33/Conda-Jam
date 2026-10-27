@@ -1,8 +1,9 @@
-# QA — 2026-10-27 J.133 Briar steal accepted locally
+# QA — 2026-10-27 J.134 Briar push accepted locally
 
-- J.132 block and J.133 steal are accepted/registered in the local tree. J.133 selects frames0–7 in both facings at100%/120%, Jam Stage court y=75. The ball remains separate, loose and unowned; Briar-specific track trial02 meets the frame3/tick5 grab hand and remains visible through swipe.
-- `npm test`:55/55 PASS; lint19 modules PASS; content validation35 franchises/105 unique athletes PASS; standalone build PASS. Strict audit `2026-10-27T01:11:41.195Z`:105 athletes,828 clips,7,491 drawings,2,275 missing clips, one target shortfall, four inherited prompt findings. Browser E2E still cannot start its local server at `127.0.0.1:4175`.
-- GitHub API upload for J.132 exceeded the transport's safe payload size, truncating the generated 20MB manifest and asset module; verify job in Pages run #175 failed. Main was restored to the last verified J.131 tree via rollback commit `dc401b7d`. Run #176 is pending. Neither J.132 nor J.133 is deployed.
+- J.134 uses eleven individually generated Briar sprites in a 448×288 transparent 4×3 atlas. Independent source/art reviews accept identity, full anatomy, pose separation, alpha clearance, baseline and empty cell12. Contact frame5 occurs at tick8. Native Jam Stage captures at y=75, both facings and 100%/120% select every frame; ball is separate from the push art.
+- `npm test`:56/56 PASS; lint19 modules PASS; content validation35 franchises/105 unique athletes PASS; standalone build PASS. Strict audit `2026-10-27T01:48:28.137Z`:105 athletes,829 clips,7,502 drawings,2,274 missing clips, one target shortfall, four inherited prompt findings.
+- Four full-sheet candidates were rejected for edge spill, pose similarity, and fringe. Raw images, exact prompts, IDs, hashes, and light/dark proofs are retained. Accepted single-pose provenance and normalized output are indexed in `tools/generate-art/j134-briar-foxglove-push-provenance.json`.
+- Direct push retry still fails at configured proxy port8080. GitHub main remains at valid J.131 rollback tree `dc401b7d`; Pages run #176 verify/build passed. J.132–J.134 are not deployed. Browser E2E has not been run for this checkpoint; native Jam Stage capture was used instead.
 
 
 # Latest checkpoint — Issue #4 stage default-renderer deployed (2026-10-26)
