@@ -61072,8 +61072,8 @@
                   0.2,
                   1.25,
                   0.9,
-                  2.0,
-                  2.0,
+                  2,
+                  2,
                   2.2,
                   1.4,
                   1.2,
@@ -61110,13 +61110,412 @@
               "scope": "source components, packed 128x96 atlas, both facings at 100%/120%, separate hand contacts and gameplay release/scoring",
               "notes": "Fifteen source poses preserve Leo identity/anatomy and black/crimson kit, contain no ball, and pack with baseline y94, minimum 4px top and22px side margins and transparent cell16. Independent Jam Stage attempt06 review accepts frame4/tick9 at the extended hand, frame7/tick14 at the behind-crown hand, frame8/tick17 and frame9/tick19 carry contact, and tick21 backward release in both facings; frame6/tick12 remains close to the crown hand. Deterministic simulation verifies sole ownership through tick20, one release at tick21 and score at finish tick23 in both facings. Peak 120% HUD overlap is shared with prior dunk art and is camera/UI occlusion, not source cropping."
             }
+          },
+          "dunk-360": {
+            "src": "./public/assets/animation/leo-dunk-360-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "78f56b988e4544882b843c4d0081ae9c58d894b329c0ed6a4d2b9a8376f289dd"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "33aee8e6290276ce369b56323003f5318aec5d5aca0ee5afbdf118a7b6702b5b"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "72b80c3365ffbcb69b3ff538264efdad84637758eaab252641efd4d38f6d1ddc"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "c14e5c89bed6392cdb9078ae5319da78fd90cf3dfa1ca406861134baf8f21a69"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c627ae5d8aa1a7dea4ac92171fcbeac5378de82d0715391663265cb0f89743d8"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "0c5b886585637831244360ef79918a715ed4f2eaaec480ba76ce1b6219181c4f"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c1c95674d50b075ad798de328c498a651022fedb274a7699ff71f93622fc2301"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "abdd788e0056328ea7c422786fc196e511a85aba21c52b98368c3bc30deb3a0e"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "83b0cceefcf32804aee5ee8b0c2b8361a13e040cc8ee923a2e4afc0561c2a5bf"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "98d97b1c713abcede04ab483df160e697c3431207e01839e921beadf8be1d371"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "a3a012bb1d25514e1af63f2aaf84d8ae88077073e335149333a085f8c81e1358"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "40e0c80d920913252cd821e6e36b1e7484c2c893b256dc4e01271eb1cd20128f"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "cee31c9fede6c5b2cbfe9d03abb8ec14e59d8e49c174e928964cba8efaea50af"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "5eaae1a5fecb14dc88aebe8469795c17785c65843983c95f9b498c2add774419"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "7211c0d64de74cf453f6a91740aaea9039dc88a9e6591d2d0b284fc76e41d358"
+              }
+            ],
+            "sha256": "2a35505aa5133c1ce907987455662807dea8a7517b95f528a223e795123a8020",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "tools/generate-art/j121-leo-dunk-36015-prompt.md",
+              "editPrompt": "tools/generate-art/j121-leo-dunk-360-pose-correction-prompt.md",
+              "releaseCorrectionPrompt": "tools/generate-art/j121-leo-dunk-360-release-correction2-prompt.md",
+              "generatedAt": "2026-10-27",
+              "generationId": "c2pa:44bd39ea-9031-45f9-bfba-09421e14ba11",
+              "rawSourceImage": "tools/generate-art/sources/j121-leo-dunk-360-attempt05-generated-raw.png",
+              "sourceImage": "tools/generate-art/sources/j121-leo-dunk-360-attempt05-generated-raw.png",
+              "sourceSha256": "8b45d13c0d2214eb55580765595e9a7ff9bd18fa6314ac84e148d626a7f6ff47",
+              "atlasPath": "public/assets/animation/leo-dunk-360-right.webp",
+              "atlasSha256": "2a35505aa5133c1ce907987455662807dea8a7517b95f528a223e795123a8020",
+              "sourceRects": [
+                {
+                  "x": 24,
+                  "y": 31,
+                  "w": 268,
+                  "h": 291
+                },
+                {
+                  "x": 344,
+                  "y": 66,
+                  "w": 216,
+                  "h": 255
+                },
+                {
+                  "x": 656,
+                  "y": 21,
+                  "w": 214,
+                  "h": 313
+                },
+                {
+                  "x": 972,
+                  "y": 18,
+                  "w": 218,
+                  "h": 316
+                },
+                {
+                  "x": 1263,
+                  "y": 21,
+                  "w": 239,
+                  "h": 302
+                },
+                {
+                  "x": 94,
+                  "y": 397,
+                  "w": 162,
+                  "h": 298
+                },
+                {
+                  "x": 343,
+                  "y": 395,
+                  "w": 243,
+                  "h": 294
+                },
+                {
+                  "x": 651,
+                  "y": 328,
+                  "w": 237,
+                  "h": 359
+                },
+                {
+                  "x": 976,
+                  "y": 336,
+                  "w": 204,
+                  "h": 366
+                },
+                {
+                  "x": 1271,
+                  "y": 336,
+                  "w": 204,
+                  "h": 362
+                },
+                {
+                  "x": 18,
+                  "y": 706,
+                  "w": 245,
+                  "h": 302
+                },
+                {
+                  "x": 340,
+                  "y": 717,
+                  "w": 265,
+                  "h": 284
+                },
+                {
+                  "x": 694,
+                  "y": 768,
+                  "w": 147,
+                  "h": 236
+                },
+                {
+                  "x": 978,
+                  "y": 748,
+                  "w": 212,
+                  "h": 258
+                },
+                {
+                  "x": 1291,
+                  "y": 714,
+                  "w": 194,
+                  "h": 292
+                }
+              ],
+              "destinationRects": [
+                {
+                  "x": 34,
+                  "y": 29,
+                  "w": 60,
+                  "h": 65
+                },
+                {
+                  "x": 168,
+                  "y": 37,
+                  "w": 48,
+                  "h": 57
+                },
+                {
+                  "x": 296,
+                  "y": 24,
+                  "w": 48,
+                  "h": 70
+                },
+                {
+                  "x": 423,
+                  "y": 23,
+                  "w": 49,
+                  "h": 71
+                },
+                {
+                  "x": 37,
+                  "y": 122,
+                  "w": 54,
+                  "h": 68
+                },
+                {
+                  "x": 174,
+                  "y": 123,
+                  "w": 36,
+                  "h": 67
+                },
+                {
+                  "x": 293,
+                  "y": 124,
+                  "w": 54,
+                  "h": 66
+                },
+                {
+                  "x": 421,
+                  "y": 110,
+                  "w": 53,
+                  "h": 80
+                },
+                {
+                  "x": 41,
+                  "y": 204,
+                  "w": 46,
+                  "h": 82
+                },
+                {
+                  "x": 169,
+                  "y": 205,
+                  "w": 46,
+                  "h": 81
+                },
+                {
+                  "x": 292,
+                  "y": 218,
+                  "w": 55,
+                  "h": 68
+                },
+                {
+                  "x": 418,
+                  "y": 222,
+                  "w": 59,
+                  "h": 64
+                },
+                {
+                  "x": 47,
+                  "y": 329,
+                  "w": 33,
+                  "h": 53
+                },
+                {
+                  "x": 168,
+                  "y": 324,
+                  "w": 47,
+                  "h": 58
+                },
+                {
+                  "x": 298,
+                  "y": 317,
+                  "w": 43,
+                  "h": 65
+                }
+              ],
+              "baselineY": 94,
+              "uniformScale": 0.22388059701492538,
+              "packingScript": "tools/generate-art/pack-j121-leo-dunk-360.py",
+              "preservedAlternateGenerations": [
+                "tools/generate-art/sources/j121-leo-dunk-360-attempt01-generated-raw.png",
+                "tools/generate-art/sources/j121-leo-dunk-360-attempt02-generated-raw.png",
+                "tools/generate-art/sources/j121-leo-dunk-360-attempt03-generated-raw.png"
+              ],
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  1.15,
+                  1.35,
+                  1.6,
+                  1.8,
+                  1.15,
+                  2.0,
+                  1.45,
+                  2.6,
+                  1.95,
+                  0.3,
+                  2.2,
+                  1.5,
+                  0.75,
+                  0.65
+                ],
+                "forward": [
+                  5,
+                  5,
+                  3,
+                  1,
+                  -4,
+                  0,
+                  -4,
+                  4.5,
+                  5,
+                  4,
+                  5,
+                  10,
+                  7,
+                  5,
+                  6
+                ],
+                "trials": "tools/generate-art/j121-leo-dunk-360-track-trials.json"
+              },
+              "candidateLedger": "tools/generate-art/j121-leo-dunk-360-track-trials.json",
+              "generationAttempts": [
+                {
+                  "attempt": 1,
+                  "generationId": "c2pa:cbc3fcbb-9b2a-4582-b5ad-3ef4d0150d16",
+                  "rawSourceImage": "tools/generate-art/sources/j121-leo-dunk-360-attempt01-generated-raw.png",
+                  "sha256": "e8e813d61051c554025ad6e7411083ceef4ab5b2d422c22b10a5a41ed9389b96",
+                  "decision": "Initial source, rejected for peak/gather/release pose mismatch"
+                },
+                {
+                  "attempt": 2,
+                  "generationId": "c2pa:0f82ea57-32a7-4f0d-99c6-e5ee6c0d7f48",
+                  "rawSourceImage": "tools/generate-art/sources/j121-leo-dunk-360-attempt02-generated-raw.png",
+                  "sha256": "7085ef0bc94c74dc985fe675711a252bb71cc45711cfb039d1761762bc689082",
+                  "decision": "Background edit, no material improvement; retained as rejected source"
+                },
+                {
+                  "attempt": 3,
+                  "generationId": "c2pa:733dbcdf-a389-4b24-a321-5a9872954d17",
+                  "rawSourceImage": "tools/generate-art/sources/j121-leo-dunk-360-attempt03-generated-raw.png",
+                  "sha256": "18d972060f945af3fa8e0d7b8a2709d99f26a84eea25227e98203afeeccdc04b",
+                  "decision": "Anchor pose correction, accepted for identity/anatomy but superseded by release correction"
+                },
+                {
+                  "attempt": 4,
+                  "generationId": "c2pa:50a9fa3f-009f-4b92-ba63-bb6bba9075c9",
+                  "rawSourceImage": "tools/generate-art/sources/j121-leo-dunk-360-attempt04-generated-raw.png",
+                  "sha256": "6d4deda84b400d4686291583b50e2fad11910f5d31d7054ae8dfd36f950d1ca8",
+                  "decision": "Release correction, rejected for edge halos and merged connected components (14/15 packable poses)"
+                },
+                {
+                  "attempt": 5,
+                  "generationId": "c2pa:44bd39ea-9031-45f9-bfba-09421e14ba11",
+                  "rawSourceImage": "tools/generate-art/sources/j121-leo-dunk-360-attempt05-generated-raw.png",
+                  "sha256": "8b45d13c0d2214eb55580765595e9a7ff9bd18fa6314ac84e148d626a7f6ff47",
+                  "decision": "Final release correction, selected; 15/15 poses, clean alpha and accepted source review"
+                }
+              ]
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex with independent source-art and ball-track reviewers",
+              "scope": "source components, packed 128x96 atlas, both facings at 100%/120%, separate hand contacts, and deterministic gameplay release/scoring",
+              "notes": "Fifteen source poses preserve Leo identity/anatomy and black/crimson kit, contain no ball, and pack with baseline y94 and transparent cell16. Independent review accepts gather frame5/tick10, peak frame7/tick14, carry frames9\u201310/ticks19\u201320, and release frame10/tick21 in both facings. Deterministic match simulation validates track continuity, single release at tick21 and a two-point score at finish tick23. Native Jam Stage 100%/120% captures contain no missing sprites or browser errors. Atlas light/dark composite proofs, all five raw generations, and twelve full 60-frame two-facing track trials are preserved in the ledger and candidate directories."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J120 is safe to mirror for opposite facing; no fixed-side marks or props. Both directions use the same athlete-specific mirrored hand path."
+        "notes": "No asymmetric kit markings, props or anatomy; horizontal flip is safe for either facing."
       }
     },
     "kraken": {
