@@ -1,3 +1,5 @@
+import { supportingAnimationLibraries } from '../content/supporting-animation-libraries.js';
+
 // Durations use simulation ticks (60 Hz); anchors name the first tick of a frame.
 const clip = (count, duration, loop = false, anchors = {}, sequence) => ({ frames: Array.from({length:count},(_,i)=>({duration:Array.isArray(duration)?duration[i]:duration})), loop, anchors, ...(sequence?{sequence}:{}) });
 export const dunkVariants = ['power','windmill','reverse','360','tomahawk','double','clutch','scythe'];
@@ -1500,25 +1502,34 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
 }};
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
-  const track=athleteBallTracks[athleteId]?.[key]?.[property==='ballHeight'?'height':'forward'];
+  const trackProperty=property==='ballHeight'?'height':'forward';
+  const sourceId=athleteBallTrackSource(athleteId,key,trackProperty),assignment=supportingAnimationLibraries[athleteId];
+  const track=sourceId?athleteBallTracks[sourceId]?.[key]?.[trackProperty]:null;
+  const trackScale=sourceId&&sourceId!==athleteId?assignment?.ballTrackScale??1:1;
   const elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);
-  const exactTicks=athleteBallTracks[athleteId]?.[key]?.[property==='ballHeight'?'heightTicks':'forwardTicks'];
+  const exactTicks=sourceId?athleteBallTracks[sourceId]?.[key]?.[`${trackProperty}Ticks`]:null;
   if(Array.isArray(exactTicks)&&exactTicks.length){
     const sampleTick=c.loop?elapsed%duration:Math.min(elapsed,exactTicks.length-1);
     const index=Math.floor(sampleTick),nextIndex=Math.min(index+1,exactTicks.length-1),fraction=sampleTick-index;
-    return exactTicks[index]+(exactTicks[nextIndex]-exactTicks[index])*fraction;
+    return (exactTicks[index]+(exactTicks[nextIndex]-exactTicks[index])*fraction)*trackScale;
   }
   let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);
   for(let index=0;index<sequence.length;index++){
     const frame=c.frames[sequence[index]];
     if(tick<frame.duration){
       const nextIndex=sequence[index+1]??(c.loop?sequence[0]:sequence[index]);
-      const value=track?.[sequence[index]]??frame[property]??fallback,next=track?.[nextIndex]??c.frames[nextIndex][property]??value;
+      const value=(track?.[sequence[index]]??frame[property]??fallback)*trackScale,next=(track?.[nextIndex]??c.frames[nextIndex][property]??value/trackScale)*trackScale;
       return value+(next-value)*tick/frame.duration;
     }
     tick-=frame.duration;
   }
   return fallback;
+}
+export function athleteBallTrackSource(athleteId,key,property){
+  const hasTrack=track=>Array.isArray(track?.[property])||Array.isArray(track?.[`${property}Ticks`]);
+  const assignment=supportingAnimationLibraries[athleteId],donorId=assignment?.ballTrackSource;
+  if(hasTrack(athleteBallTracks[athleteId]?.[key]))return athleteId;
+  return donorId&&hasTrack(athleteBallTracks[donorId]?.[key])?donorId:null;
 }
 export function sampleBallHeight(key, elapsedTicks=0,athleteId){return sampleFrameScalar(key,elapsedTicks,'ballHeight',1.1,athleteId);}
 export function sampleBallForward(key, elapsedTicks=0,athleteId){return sampleFrameScalar(key,elapsedTicks,'ballForward',1.5,athleteId);}

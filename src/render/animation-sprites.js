@@ -37,15 +37,15 @@ export function selectProductionSprite(player, {manifest,images,libraries=suppor
   const sampledFrame=sampleAnimation(key,player.animation.tick).frame;
   const targetFrames=animationClips[key].frames.length;
   const index=clip.frames.length===targetFrames?sampledFrame:Math.round(sampledFrame*(clip.frames.length-1)/Math.max(1,targetFrames-1));
-  const frame=clip.frames[index];
-  if(!frame||frame.x<0||frame.y<0||frame.w<=0||frame.h<=0||frame.x+frame.w>atlas.naturalWidth||frame.y+frame.h>atlas.naturalHeight)return null;
+  const frame=clip.frames[index],atlasWidth=atlas.width||atlas.naturalWidth,atlasHeight=atlas.height||atlas.naturalHeight;
+  if(!frame||frame.x<0||frame.y<0||frame.w<=0||frame.h<=0||frame.x+frame.w>atlasWidth||frame.y+frame.h>atlasHeight)return null;
   return {atlas,src:clip.src,sx:frame.x,sy:frame.y,sourceWidth:frame.w,sourceHeight:frame.h,flip,clip:key,frame:index,production:true,libraryId:library?.donorId??player.id,classification:library?.mode==='shared'?'derived-palette':'original-authored'};
 }
 
 /** Use alpha occupancy across an authored clip to normalize transparent source padding. */
 export function productionBaseSilhouetteHeightRatio(player,sprite,assets,fallback=.73){
   if(!sprite?.production||typeof document==='undefined')return fallback;
-  const character=assets?.manifest?.characters?.[player.id],key=player.animation?.clip;
+  const character=assets?.manifest?.characters?.[sprite.libraryId??player.id],key=player.animation?.clip;
   if(!character||!key)return fallback;
   const facing=player.facing<0?'left':'right';
   const mirrored=facing==='left'&&character.mirrorSafe;

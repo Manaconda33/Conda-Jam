@@ -65,7 +65,8 @@ export async function auditManifest({ manifest, root, athletes, clips, libraries
     if (library?.mode === 'shared') {
       if (library.review !== 'accepted') issue('palette-review-required', { athlete: id, donor: library.donorId, status: library.review ?? 'unset' });
       if (!donor || donor.captain) issue('invalid-shared-donor', { athlete: id, donor: library.donorId });
-      if (donor && athlete && (donor.rig !== athlete.rig || donor.height !== athlete.height)) issue('incompatible-shared-donor', { athlete: id, donor: donor.id, donorRig: donor.rig, rig: athlete.rig, donorHeight: donor.height, height: athlete.height });
+      const humanRigs = new Set(['human', 'athletic-variant']);
+      if (donor && athlete && !(donor.rig === athlete.rig || humanRigs.has(donor.rig) && humanRigs.has(athlete.rig))) issue('incompatible-shared-donor', { athlete: id, donor: donor.id, donorRig: donor.rig, rig: athlete.rig, donorHeight: donor.height, height: athlete.height });
       if (!Array.isArray(library.sourcePalette) || library.sourcePalette.length !== 2 || !Array.isArray(library.targetPalette) || library.targetPalette.length !== 2) issue('shared-palette-required', { athlete: id });
     }
   }

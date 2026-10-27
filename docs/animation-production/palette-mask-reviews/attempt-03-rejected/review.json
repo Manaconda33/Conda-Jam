@@ -1,0 +1,73 @@
+{
+  "attempt": 3,
+  "donor": "echo-catwalk",
+  "status": "rejected",
+  "reviewedAt": "2026-10-27T03:25:00Z",
+  "targetPalette": [
+    "#b91e36",
+    "#25202a"
+  ],
+  "sourcePalette": [
+    "#159d9b",
+    "#773ec2"
+  ],
+  "transform": "frame-relative-garment-mask-v3",
+  "mask": {
+    "primaryY": [
+      0.28,
+      0.78
+    ],
+    "primaryX": [
+      0.16,
+      0.84
+    ],
+    "secondaryY": [
+      0.58,
+      0.88
+    ],
+    "secondaryX": [
+      0.3,
+      0.7
+    ],
+    "rgbDistanceLimit": 90,
+    "secondaryClass": "cool-dark-shorts"
+  },
+  "sourceAtlases": [
+    {
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+      "sha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2"
+    },
+    {
+      "clip": "pass",
+      "src": "./public/assets/animation/echo-catwalk-pass-right.webp",
+      "sha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0"
+    },
+    {
+      "clip": "rebound",
+      "src": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+      "sha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371"
+    },
+    {
+      "clip": "fall",
+      "src": "./public/assets/animation/echo-catwalk-fall-right.webp",
+      "sha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355"
+    },
+    {
+      "clip": "celebrate",
+      "src": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+      "sha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982"
+    },
+    {
+      "clip": "dunk-power",
+      "src": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+      "sha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7"
+    }
+  ],
+  "contactSheetSha256": "92367120c5405b3be7b0267b3ebc0a10010c36fc7b10ed5eba9c58a0669fd9ad",
+  "reasons": [
+    "shirt and shorts recoloring remains patchy across poses",
+    "uniform regions retain source hues and show red accent artifacts",
+    "not accepted for gameplay; mappings remain review-pending"
+  ]
+}
