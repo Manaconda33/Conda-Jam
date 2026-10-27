@@ -1,0 +1,1018 @@
+{
+  "athlete": "leo",
+  "clip": "dunk-double",
+  "renderer": "Chromium production Jam Stage",
+  "acceptedTrack": 12,
+  "trials": [
+    {
+      "attempt": 1,
+      "track": {
+        "height": [
+          1.1,
+          1.8,
+          2.5,
+          3.5,
+          3.7,
+          3.2,
+          2.9,
+          2.6,
+          3.9,
+          4.6,
+          4.9,
+          5.1,
+          4.2,
+          2.4,
+          0.8
+        ],
+        "forward": [
+          4,
+          2,
+          1,
+          0,
+          -1,
+          -2,
+          -3,
+          -3,
+          0,
+          1,
+          2,
+          3,
+          2,
+          0,
+          -1
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          5,
+          1.1
+        ],
+        "22": [
+          8.5,
+          2.0
+        ],
+        "23": [
+          10.5,
+          1.3
+        ],
+        "26": [
+          14.5,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-01/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: ball height far above hands through gather and overhead poses."
+    },
+    {
+      "attempt": 2,
+      "track": {
+        "height": [
+          1,
+          1.2,
+          1.2,
+          1.4,
+          1.6,
+          1.6,
+          1.4,
+          1.3,
+          2.2,
+          2.4,
+          1.2,
+          0.8,
+          0.6,
+          0.5,
+          0.4
+        ],
+        "forward": [
+          5,
+          4,
+          2,
+          1,
+          0,
+          -1,
+          -1,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          1.1
+        ],
+        "22": [
+          5,
+          2.0
+        ],
+        "23": [
+          7,
+          1.3
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-02/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: ball above hands at peak and overhead pre-release; release position too low."
+    },
+    {
+      "attempt": 3,
+      "track": {
+        "height": [
+          1.2,
+          0.8,
+          0.5,
+          0.4,
+          0.4,
+          0.4,
+          0.3,
+          0,
+          0,
+          0,
+          0,
+          0.2,
+          0.4,
+          0.7,
+          0.4
+        ],
+        "forward": [
+          4,
+          3,
+          2,
+          1,
+          0,
+          -1,
+          -1,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          1.1
+        ],
+        "22": [
+          5,
+          2.0
+        ],
+        "23": [
+          7,
+          1.3
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-03/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: heights near zero caused ball to fall below the airborne player."
+    },
+    {
+      "attempt": 4,
+      "track": {
+        "height": [
+          1.2,
+          1.2,
+          1.0,
+          1.0,
+          1.3,
+          1.3,
+          1.1,
+          0.7,
+          1.3,
+          1.5,
+          0.5,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          4,
+          3,
+          2,
+          1,
+          0,
+          -1,
+          -1,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          1.1
+        ],
+        "22": [
+          5,
+          2.0
+        ],
+        "23": [
+          7,
+          1.3
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-04/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: peak gather contact below hands and early sequence inconsistent."
+    },
+    {
+      "attempt": 5,
+      "track": {
+        "height": [
+          1.2,
+          1.3,
+          1.3,
+          1.3,
+          1.4,
+          1.4,
+          1.1,
+          1.0,
+          1.6,
+          1.8,
+          0.7,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          5,
+          4,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          1.1
+        ],
+        "22": [
+          5,
+          2.0
+        ],
+        "23": [
+          7,
+          1.3
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-05/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: held contact improved; release at the old low z caused a visible drop."
+    },
+    {
+      "attempt": 6,
+      "track": {
+        "height": [
+          1.2,
+          1.3,
+          1.3,
+          1.3,
+          1.4,
+          1.4,
+          1.1,
+          1.0,
+          1.6,
+          1.8,
+          0.7,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          5,
+          4,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          4.5
+        ],
+        "22": [
+          5,
+          4.1
+        ],
+        "23": [
+          7,
+          3.3
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-06/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: release z4.5 launched ball above hand/head."
+    },
+    {
+      "attempt": 7,
+      "track": {
+        "height": [
+          1.2,
+          1.3,
+          1.3,
+          1.3,
+          1.4,
+          1.4,
+          1.1,
+          1.0,
+          1.6,
+          1.8,
+          0.7,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          5,
+          4,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          3.8
+        ],
+        "22": [
+          5,
+          3.5
+        ],
+        "23": [
+          7,
+          2.7
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-07/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: release z3.8 still above fingertips."
+    },
+    {
+      "attempt": 8,
+      "track": {
+        "height": [
+          1.2,
+          1.3,
+          1.3,
+          1.3,
+          1.4,
+          1.4,
+          1.1,
+          1.0,
+          1.6,
+          1.8,
+          0.7,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          5,
+          4,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          3.2
+        ],
+        "22": [
+          5,
+          2.8
+        ],
+        "23": [
+          7,
+          2.0
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-08/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: release z3.2 still above fingertips."
+    },
+    {
+      "attempt": 9,
+      "track": {
+        "height": [
+          1.2,
+          1.3,
+          1.3,
+          1.3,
+          1.4,
+          1.4,
+          1.1,
+          1.0,
+          1.6,
+          1.8,
+          0.7,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          5,
+          4,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          2.4
+        ],
+        "22": [
+          5,
+          1.8
+        ],
+        "23": [
+          7,
+          1.0
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-09/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Promising: 100% peak, overhead, and release hand contact; initial 120% review showed the held ball slightly high."
+    },
+    {
+      "attempt": 10,
+      "track": {
+        "height": [
+          1.2,
+          1.3,
+          1.3,
+          1.3,
+          1.5,
+          1.5,
+          1.2,
+          1.1,
+          1.7,
+          1.9,
+          0.7,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          5,
+          4,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          2.4
+        ],
+        "22": [
+          5,
+          1.8
+        ],
+        "23": [
+          7,
+          1.0
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-10/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: +0.1 height did not improve 120% contact."
+    },
+    {
+      "attempt": 11,
+      "track": {
+        "height": [
+          1.2,
+          1.3,
+          1.3,
+          1.3,
+          1.3,
+          1.3,
+          1.0,
+          0.8,
+          1.4,
+          1.3,
+          0.7,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          5,
+          4,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          2.4
+        ],
+        "22": [
+          5,
+          1.8
+        ],
+        "23": [
+          7,
+          1.0
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-11/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: reducing heights by 0.5 lowered the ball below hands at both 100% and 120%."
+    },
+    {
+      "attempt": 12,
+      "track": {
+        "height": [
+          1.2,
+          1.3,
+          1.3,
+          1.3,
+          1.4,
+          1.4,
+          1.1,
+          0.95,
+          1.6,
+          1.7,
+          0.7,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          5,
+          4,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          2.4
+        ],
+        "22": [
+          5,
+          1.8
+        ],
+        "23": [
+          7,
+          1.0
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-12/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "selected best cross-zoom compromise; small contact offset documented",
+      "review": "Independent visual reviewers find tick20 ball within ~10px of fingertips at both zooms; no fallback, mirror or HUD defect. Attempts13\u201315 produced larger gaps or fell below hand. Gameplay test validates exact ownership/release/scoring anchors; minor sub-pixel-scale contact gap remains documented."
+    },
+    {
+      "attempt": 13,
+      "track": {
+        "height": [
+          1.2,
+          1.3,
+          1.3,
+          1.3,
+          1.4,
+          1.4,
+          1.1,
+          0.95,
+          1.6,
+          0.55,
+          0.7,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          5,
+          4,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          2.4
+        ],
+        "22": [
+          5,
+          1.8
+        ],
+        "23": [
+          7,
+          1.0
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-13/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: reducing one-based frame10 (index9) height to0.55 places ball at Leo hips/lower body at tick19\u201320 across both zooms."
+    },
+    {
+      "attempt": 14,
+      "track": {
+        "height": [
+          1.2,
+          1.3,
+          1.3,
+          1.3,
+          1.4,
+          1.4,
+          1.1,
+          0.95,
+          1.6,
+          1.55,
+          0.7,
+          0.5,
+          0.7,
+          0.8,
+          0.5
+        ],
+        "forward": [
+          5,
+          4,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          2,
+          2.4
+        ],
+        "22": [
+          5,
+          1.8
+        ],
+        "23": [
+          7,
+          1.0
+        ],
+        "26": [
+          9,
+          0.6
+        ]
+      },
+      "report": "tools/generate-art/previews/leo-dunk-double-track-candidate/attempt-14/native/report.json",
+      "captureCount": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "selectorAtlas": "./public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "playerCount": 1,
+      "uncaughtBrowserErrors": [],
+      "decision": "rejected",
+      "review": "Rejected: height1.55 moves tick20 ball below fingertips at both zoom levels; attempt12 remains closer overall."
+    }
+  ],
+  "validation": "Every saved trial has 60 captures (15 ticks \u00d7 2 facings \u00d7 2 zooms), verifies Leo alone on stage, confirms the production selector uses the exact candidate atlas and mirror flag, and has zero uncaught browser errors. Attempt12 is the best visual compromise so far but remains unaccepted pending independent review and deterministic gameplay ownership/release/scoring.",
+  "acceptance": "Selected as the best cross-zoom hand-contact compromise after 15 preserved trials. Native reviews pass both facings/zooms; remaining offset is small relative to ball diameter."
+}

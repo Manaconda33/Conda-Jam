@@ -1,0 +1,183 @@
+{
+  "athlete": "leo",
+  "clip": "dunk-scythe",
+  "runtimeRegistration": "none",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-7c6c37cc-64b0-40ba-8e5a-e822882d7d64",
+      "generationPath": "/workspace/generated_images/exec-7c6c37cc-64b0-40ba-8e5a-e822882d7d64.png",
+      "rawSourceImage": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt01-generated-raw.png",
+      "sha256": "9653d60ebb9286a073f1533b7ce780c811269b50fdcb86213daa6c4fa203158a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j125-leo-dunk-scythe-prompt.md",
+      "promptSha256": "e56abc2b8cbd07f647723f1d69e36b6cf2a0d99e77d9f4044e6e2ed290c6843e",
+      "sourceReferences": [
+        "tools/generate-art/sources/j123-leo-dunk-double-attempt06-generated-raw.png"
+      ],
+      "status": "unreviewed candidate",
+      "review": "Attempt01 generated using accepted Leo sprite as the style/identity reference; independent source review pending.",
+      "proofs": [
+        "tools/generate-art/previews/j125-attempt01-light.png",
+        "tools/generate-art/previews/j125-attempt01-dark.png"
+      ]
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-67ab8d50-5042-4495-9309-88d87c00cfa7",
+      "generationPath": "/workspace/generated_images/exec-67ab8d50-5042-4495-9309-88d87c00cfa7.png",
+      "rawSourceImage": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt02-generated-raw.png",
+      "sha256": "9c4709947042d4e687c15687951fe31db2784f012311f863e0d9b796d9fa04cb",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j125-leo-dunk-scythe-attempt02-prompt.md",
+      "promptSha256": "c341ea111ce7a221307f9bb2320626dafaadf318de10fe9b12c95590a669a7e6",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected; raw and fitted derivative preserved",
+      "review": "Independent review: raw style/action improved, but several figures touch cell boundaries. The normalized derivative passes style, identity, anatomy, margins and transparency; scythe sequence does not read clearly and release motion goes upward/forward instead of down-across.",
+      "proofs": [
+        "tools/generate-art/previews/j125-attempt02-light.png",
+        "tools/generate-art/previews/j125-attempt02-dark.png"
+      ],
+      "cleanedSource": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt02-cleaned-components.png",
+      "cleanupReport": "tools/generate-art/j125-leo-dunk-scythe-attempt02-cleanup-report.json",
+      "layout": "tools/generate-art/j125-leo-dunk-scythe-attempt02-layout.json",
+      "packedAtlas": "public/assets/animation/leo-dunk-scythe-attempt02-right.webp",
+      "packedAtlasSha256": "5a1369299500d1ffca7d99ac8cc6a9bff3828d67e6559cece5a9dc2c169e976d",
+      "independentPackedReview": {
+        "reviewer": "candidate_review",
+        "technicalGates": "pass",
+        "actionSemantics": "reject",
+        "notes": "Hard-edged pixel style and layout pass; poses6\u20138 repeat a raised arm and pose10 releases upward/forward, not a scythe-like downward cut."
+      }
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-b5223584-7e1a-44f3-890e-5b6dce90da6b",
+      "generationPath": "/workspace/generated_images/exec-b5223584-7e1a-44f3-890e-5b6dce90da6b.png",
+      "rawSourceImage": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt03-generated-raw.png",
+      "sha256": "e51373276d5dde4ea7e08507ecb351975877b29599a25dee5d054f25fe8bb96e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j125-leo-dunk-scythe-attempt03-action-edit-prompt.md",
+      "promptSha256": "e351a6e1e6fc79b290ff93210274a9ebb2ab7b660750b03604b4937ba4ffa170",
+      "sourceReferences": [
+        "tools/generate-art/sources/j125-leo-dunk-scythe-attempt02-generated-raw.png",
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected; raw preserved",
+      "review": "Independent reviewer: identity, chunky pixel style and pose separation pass, but no clear scythe arc/release; poses8\u201310 read as forward punch and lower arm. Alpha/margins need alpha-aware audit before fitting.",
+      "proofs": [
+        "tools/generate-art/previews/j125-attempt03-light.png",
+        "tools/generate-art/previews/j125-attempt03-dark.png"
+      ],
+      "decision": "Rejected for action semantics; no scythe-like motion or clear release."
+    },
+    {
+      "attempt": 4,
+      "generationId": "exec-c05219f9-d27a-423d-b0b7-d8afb043c555",
+      "generationPath": "/workspace/generated_images/exec-c05219f9-d27a-423d-b0b7-d8afb043c555.png",
+      "rawSourceImage": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt04-generated-raw.png",
+      "sha256": "fa1efe5696b687e24f0f93844155e3c91df1d29e59f0680f13d6d9773a963541",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j125-leo-dunk-scythe-attempt04-action-edit-prompt.md",
+      "promptSha256": "36df1259642c0970cf0d088b8929087a665ffe822fa4e73ad1f59060118bfd82",
+      "sourceReferences": [
+        "tools/generate-art/sources/j125-leo-dunk-scythe-attempt03-generated-raw.png",
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected; raw and proofs preserved",
+      "review": "Independent reviewer: poses6\u201310 improve to a recognizable diagonal scythe motion and downward open-hand release, but frame11 raises forward instead of continuing follow-through; alpha residue touches sheet edge.",
+      "proofs": [
+        "tools/generate-art/previews/j125-attempt04-light.png",
+        "tools/generate-art/previews/j125-attempt04-dark.png"
+      ],
+      "decision": "Pose11 finish failed; replaced with separately generated, reviewed pose11 source in composite attempt06."
+    },
+    {
+      "attempt": 5,
+      "generationId": "exec-f419d71e-b64d-41c2-bfd1-6b89e348caf6",
+      "generationPath": "/workspace/generated_images/exec-f419d71e-b64d-41c2-bfd1-6b89e348caf6.png",
+      "rawSourceImage": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt05-generated-raw.png",
+      "sha256": "e71e4499975fd5d0623bacfd3dd063fa7b8af7cc7190da69f424edc29403b2fc",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j125-leo-dunk-scythe-attempt05-finish-edit-prompt.md",
+      "promptSha256": "600c9812a14872a13ec596c8e7c9f580fa5c18d72331f8ac29783106247399b3",
+      "sourceReferences": [
+        "tools/generate-art/sources/j125-leo-dunk-scythe-attempt04-generated-raw.png",
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected; raw and proofs preserved",
+      "review": "Independent reviewer: frame11 still raises to a horizontal forward reach, reversing the release motion; other poses retain style/identity.",
+      "proofs": [
+        "tools/generate-art/previews/j125-attempt05-light.png",
+        "tools/generate-art/previews/j125-attempt05-dark.png"
+      ],
+      "decision": "Finish-only edit still failed to produce below-face cross-body continuation."
+    }
+  ],
+  "poseCorrectionAttempts": [
+    {
+      "poseIndex": 11,
+      "attempt": 6,
+      "generationId": "exec-0c987f72-7e0a-4c1d-a78e-e61eb72a64c8",
+      "generationPath": "/workspace/generated_images/exec-0c987f72-7e0a-4c1d-a78e-e61eb72a64c8.png",
+      "rawSourceImage": "tools/generate-art/sources/j125-leo-dunk-scythe-pose11-attempt06-generated-raw.png",
+      "sha256": "586c962a6f78c6aa6abdcc114b526f1290a5eb98cc314972844977a2ed36ba52",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "promptFile": "tools/generate-art/j125-leo-dunk-scythe-pose11-attempt06-prompt.md",
+      "promptSha256": "0fe6b60cf285637badabd5fe2442bacb9eac28fd468cb87a10f8e6e490ede88a",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "selected replacement pose, independently approved when integrated into attempt06 atlas",
+      "proofs": [
+        "tools/generate-art/previews/j125-pose11-attempt06-light.png",
+        "tools/generate-art/previews/j125-pose11-attempt06-dark.png"
+      ],
+      "independentReview": {
+        "reviewer": "candidate_review",
+        "decision": "approved provisionally for replacement",
+        "notes": "Both hands open below face; screen-right arm drops across/in front of torso; the other arm balances backward/down; airborne legs and Leo identity/style remain sound."
+      }
+    }
+  ],
+  "selectedComposite": {
+    "sourceImage": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt06-composite-cleaned.png",
+    "rawSheet": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt04-generated-raw.png",
+    "replacementPoseSource": "tools/generate-art/sources/j125-leo-dunk-scythe-pose11-attempt06-generated-raw.png",
+    "poseIndex": 11,
+    "atlas": "public/assets/animation/leo-dunk-scythe-attempt06-right.webp",
+    "layout": "tools/generate-art/j125-leo-dunk-scythe-attempt06-layout.json",
+    "cleanupReport": "tools/generate-art/j125-leo-dunk-scythe-attempt06-cleanup-report.json",
+    "reviewStatus": "packed art/layout independent review passed; track calibration pending"
+  }
+}

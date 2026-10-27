@@ -1,0 +1,677 @@
+{
+  "athlete": "leo",
+  "direction": "right",
+  "clip": "alley-oop-power",
+  "src": "./public/assets/animation/leo-alley-oop-power-attempt02-right.webp",
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "sourceGrid": {
+    "columns": 5,
+    "rows": 3,
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "sourceImage": "tools/generate-art/sources/j126-leo-alley-oop-power-attempt02-cleaned-components.png",
+  "rawSourceImage": "tools/generate-art/sources/j126-leo-alley-oop-power-attempt02-generated-raw.png",
+  "rawSha256": "c8020c3e11ee47e3b44bd30479f4fbff34d4d8dd190077cbe53fc009849525cb",
+  "sourceSha256": "cdffd600486188363b31d2d4384515d8b9a6477ba7ae746ea0e6e0b99724de0c",
+  "atlasSha256": "382ef069479db07803dc5d5d3515daabaa3e290c9e792732585bbc769187aac1",
+  "atlasDimensions": [
+    512,
+    384
+  ],
+  "cellSize": [
+    128,
+    96
+  ],
+  "baselineY": 94,
+  "packing": "Retain the 15 largest >=50-pixel connected opaque figure components, assign by component center to the source 5x3 cell, discard alpha<16 and all non-figure residue, and fit each intact component at a shared nearest-neighbor scale of 0.21 (clamped only if needed) centered to x=64 and baseline y=94 in 128x96 cells.",
+  "transforms": [
+    {
+      "poseIndex": 0,
+      "sourceBounds": [
+        47,
+        58,
+        288,
+        318
+      ],
+      "sourceVisiblePixels": 24973,
+      "destinationRect": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 38,
+        "y": 39,
+        "w": 51,
+        "h": 55
+      },
+      "baselineY": 94,
+      "scale": 0.211618,
+      "filter": "nearest",
+      "margins": {
+        "left": 38,
+        "top": 39,
+        "right": 39,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 1,
+      "sourceBounds": [
+        408,
+        90,
+        605,
+        320
+      ],
+      "sourceVisiblePixels": 22238,
+      "destinationRect": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 43,
+        "y": 46,
+        "w": 41,
+        "h": 48
+      },
+      "baselineY": 94,
+      "scale": 0.208122,
+      "filter": "nearest",
+      "margins": {
+        "left": 43,
+        "top": 46,
+        "right": 44,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 2,
+      "sourceBounds": [
+        682,
+        35,
+        890,
+        320
+      ],
+      "sourceVisiblePixels": 24154,
+      "destinationRect": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 42,
+        "y": 34,
+        "w": 44,
+        "h": 60
+      },
+      "baselineY": 94,
+      "scale": 0.211538,
+      "filter": "nearest",
+      "margins": {
+        "left": 42,
+        "top": 34,
+        "right": 42,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 3,
+      "sourceBounds": [
+        1010,
+        22,
+        1175,
+        314
+      ],
+      "sourceVisiblePixels": 21385,
+      "destinationRect": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 46,
+        "y": 33,
+        "w": 35,
+        "h": 61
+      },
+      "baselineY": 94,
+      "scale": 0.212121,
+      "filter": "nearest",
+      "margins": {
+        "left": 46,
+        "top": 33,
+        "right": 47,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 4,
+      "sourceBounds": [
+        1333,
+        12,
+        1488,
+        302
+      ],
+      "sourceVisiblePixels": 22627,
+      "destinationRect": {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 47,
+        "y": 33,
+        "w": 33,
+        "h": 61
+      },
+      "baselineY": 94,
+      "scale": 0.212903,
+      "filter": "nearest",
+      "margins": {
+        "left": 47,
+        "top": 33,
+        "right": 48,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 5,
+      "sourceBounds": [
+        68,
+        377,
+        212,
+        648
+      ],
+      "sourceVisiblePixels": 20582,
+      "destinationRect": {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 49,
+        "y": 37,
+        "w": 30,
+        "h": 57
+      },
+      "baselineY": 94,
+      "scale": 0.208333,
+      "filter": "nearest",
+      "margins": {
+        "left": 49,
+        "top": 37,
+        "right": 49,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 6,
+      "sourceBounds": [
+        391,
+        368,
+        537,
+        651
+      ],
+      "sourceVisiblePixels": 20592,
+      "destinationRect": {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 48,
+        "y": 35,
+        "w": 31,
+        "h": 59
+      },
+      "baselineY": 94,
+      "scale": 0.212329,
+      "filter": "nearest",
+      "margins": {
+        "left": 48,
+        "top": 35,
+        "right": 49,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 7,
+      "sourceBounds": [
+        698,
+        338,
+        828,
+        662
+      ],
+      "sourceVisiblePixels": 21039,
+      "destinationRect": {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 50,
+        "y": 26,
+        "w": 27,
+        "h": 68
+      },
+      "baselineY": 94,
+      "scale": 0.207692,
+      "filter": "nearest",
+      "margins": {
+        "left": 50,
+        "top": 26,
+        "right": 51,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 8,
+      "sourceBounds": [
+        1007,
+        382,
+        1150,
+        654
+      ],
+      "sourceVisiblePixels": 19123,
+      "destinationRect": {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 49,
+        "y": 37,
+        "w": 30,
+        "h": 57
+      },
+      "baselineY": 94,
+      "scale": 0.20979,
+      "filter": "nearest",
+      "margins": {
+        "left": 49,
+        "top": 37,
+        "right": 49,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 9,
+      "sourceBounds": [
+        1345,
+        419,
+        1491,
+        666
+      ],
+      "sourceVisiblePixels": 20248,
+      "destinationRect": {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 48,
+        "y": 42,
+        "w": 31,
+        "h": 52
+      },
+      "baselineY": 94,
+      "scale": 0.212329,
+      "filter": "nearest",
+      "margins": {
+        "left": 48,
+        "top": 42,
+        "right": 49,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 10,
+      "sourceBounds": [
+        68,
+        715,
+        257,
+        986
+      ],
+      "sourceVisiblePixels": 23813,
+      "destinationRect": {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 44,
+        "y": 37,
+        "w": 40,
+        "h": 57
+      },
+      "baselineY": 94,
+      "scale": 0.21164,
+      "filter": "nearest",
+      "margins": {
+        "left": 44,
+        "top": 37,
+        "right": 44,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 11,
+      "sourceBounds": [
+        385,
+        722,
+        549,
+        1004
+      ],
+      "sourceVisiblePixels": 23425,
+      "destinationRect": {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 47,
+        "y": 35,
+        "w": 34,
+        "h": 59
+      },
+      "baselineY": 94,
+      "scale": 0.207317,
+      "filter": "nearest",
+      "margins": {
+        "left": 47,
+        "top": 35,
+        "right": 47,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 12,
+      "sourceBounds": [
+        645,
+        720,
+        900,
+        1004
+      ],
+      "sourceVisiblePixels": 27244,
+      "destinationRect": {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 37,
+        "y": 34,
+        "w": 54,
+        "h": 60
+      },
+      "baselineY": 94,
+      "scale": 0.211765,
+      "filter": "nearest",
+      "margins": {
+        "left": 37,
+        "top": 34,
+        "right": 37,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 13,
+      "sourceBounds": [
+        970,
+        746,
+        1203,
+        1004
+      ],
+      "sourceVisiblePixels": 26586,
+      "destinationRect": {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 39,
+        "y": 40,
+        "w": 49,
+        "h": 54
+      },
+      "baselineY": 94,
+      "scale": 0.2103,
+      "filter": "nearest",
+      "margins": {
+        "left": 39,
+        "top": 40,
+        "right": 40,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 14,
+      "sourceBounds": [
+        1327,
+        781,
+        1480,
+        1004
+      ],
+      "sourceVisiblePixels": 21721,
+      "destinationRect": {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 48,
+        "y": 47,
+        "w": 32,
+        "h": 47
+      },
+      "baselineY": 94,
+      "scale": 0.20915,
+      "filter": "nearest",
+      "margins": {
+        "left": 48,
+        "top": 47,
+        "right": 48,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    }
+  ],
+  "prompt": "tools/generate-art/j126-leo-alley-oop-power-attempt02-pixel-reference-prompt.md",
+  "generationId": "exec-0784b702-b69c-4642-80ba-59757e601b01",
+  "reviewStatus": "registered candidate; independent art and native track review passed; deterministic test pending",
+  "provenance": {
+    "generationId": "exec-0784b702-b69c-4642-80ba-59757e601b01",
+    "generatedAt": "2026-10-27",
+    "prompt": "tools/generate-art/j126-leo-alley-oop-power-attempt02-pixel-reference-prompt.md",
+    "rawSourceImage": "tools/generate-art/sources/j126-leo-alley-oop-power-attempt02-generated-raw.png",
+    "sourceImage": "tools/generate-art/sources/j126-leo-alley-oop-power-attempt02-cleaned-components.png",
+    "rawSha256": "c8020c3e11ee47e3b44bd30479f4fbff34d4d8dd190077cbe53fc009849525cb",
+    "sourceSha256": "cdffd600486188363b31d2d4384515d8b9a6477ba7ae746ea0e6e0b99724de0c",
+    "atlasSha256": "382ef069479db07803dc5d5d3515daabaa3e290c9e792732585bbc769187aac1",
+    "cleanupReport": "tools/generate-art/j126-leo-alley-oop-power-attempt02-cleanup-report.json",
+    "packingScript": "tools/generate-art/pack-j126-leo-alley-oop-power-attempt02.py",
+    "sourceGeneration": "imagegen",
+    "derivedProcessing": "alpha>=16 figure-component extraction, nearest-neighbor fit, no new generated art",
+    "ballTrack": {
+      "height": [
+        1.1,
+        1.0,
+        1.1,
+        0.9,
+        0.8,
+        0.7,
+        0.65,
+        0.7,
+        1.2,
+        1.4,
+        2.2,
+        1.5,
+        1.1,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        5,
+        4,
+        3,
+        1,
+        0,
+        -2,
+        -3,
+        -2,
+        1,
+        5,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "trials": "tools/generate-art/j124-leo-alley-oop-power-track-trials.json"
+    }
+  },
+  "trackReleasePositions": {
+    "21": [
+      5,
+      2.1
+    ],
+    "22": [
+      7,
+      1.7
+    ],
+    "23": [
+      9,
+      1.1
+    ],
+    "26": [
+      11,
+      0.6
+    ]
+  }
+}

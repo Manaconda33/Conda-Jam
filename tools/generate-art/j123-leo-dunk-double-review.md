@@ -1,0 +1,13 @@
+# J123 Leo dunk-double source review
+
+Attempts01–03 are rejected and preserved as raw PNGs with exact prompts, generation output IDs and hashes. Independent review finds recognizable Leo identity, full human anatomy and a broad first-pump → chest-reset → second-pump order. All three remain unregistered.
+
+Blocking defects in attempts01–02: soft painterly shading rather than crisp pixel-art clusters; translucent brown/dark haze around figures; hair/hands crowd the cell/sheet edges; rounded tan marks between hands appear to be a baked ball or prop. Attempt02 improves chest-reset cadence but not these defects.
+
+Attempt03 was an improvement: 15 separable row-major poses, recognizable Leo, two-pump order, and no definite baked ball. It remains rejected: painterly/high-resolution shading, red/green fringes outside outlines, alpha-positive pixels touch the canvas edges, and 32px per-cell margins fail at top/bottom and overhead limbs. At packed scale pose10 release is weakly distinct from pose11 finish. Do not clean or pack these sheets.
+
+Independent source review: `candidate_review`, 2026-10-27. Detailed hashes and decisions: `j123-leo-dunk-double-provenance.json`.
+
+Attempt04 used ImageGen editing to request pixel restyling and alpha/margin repair. Independent review rejects it: painterly render remains, red/green fringe persists, >=16-alpha bounds extend to edges, required per-cell margins fail, and joined hands form a round contact. Attempt05 then used the accepted Leo `dunk-360` atlas as a visual style reference; its raw and light/dark proofs are preserved and independent review is pending.
+
+Attempt05 used the accepted Leo `dunk-360` atlas as an explicit style reference; independent review still rejects it for smooth shading, alpha fringe, failed cell margins and a sphere-like mark in pose3. Attempt06 is a new compact pixel-art render; raw, exact prompt, cleaned intermediate, cleanup report and refreshed light/dark proofs are preserved. The independent packed-art review approved all 15 poses and layout. The four-pixel detached mark seen after downscale was removed only from the packed derivative by the reproducible packer (raw and cleaned source remain unchanged). The athlete-specific track is attempt12 after 15 preserved capture trials; independent native review accepts it as the best cross-zoom compromise in both facings at100%/120%. A small 5–10px tick20 fingertip offset remains, under half the ball diameter; attempts13–15 worsened contact. Deterministic two-facing gameplay test passes carry through tick20, release21, finish23 and landing30. Source and track are registered.

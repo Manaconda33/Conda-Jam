@@ -1,3 +1,13 @@
+## Current production checkpoint — 2026-10-27
+
+J.123 Leo `dunk-double` and J.124 `dunk-clutch` are registered as original captain artwork with separately calibrated Leo ball tracks. J.123 uses ImageGen attempt06; its two-pump poses, identity, anatomy, alpha, margins and row-major order passed packed-art review. Fifteen track trials were preserved; trial12 is registered and gameplay-tested in both facings, carrying through tick20, releasing at tick21, scoring at tick23 and landing at tick30. The remaining tick20 hand offset is small (roughly 5–10 screen pixels at 120%) and documented. J.124 attempt04 and track trial03 pass independent art and native gameplay review across 60 captures at both facings and 100%/120%. Exact prompts, IDs, raw images, rejections, layouts, cleanup reports, previews, captures and trial histories are retained in the J.123/J.124 production files.
+
+J.125 Leo `dunk-scythe` composite attempt06 passes art review, including its pose11 replacement; track trial03 was rejected after independent review because the ball visibly sits about one ball radius below the fingertips at ticks19–20. Calibration continues with upward adjustment; nothing is registered. J.126 Leo `alley-oop-power` attempt02 passes independent packed-art review as a candidate, with similar overhead poses and only 2px below the baseline noted for review; its separate track is being calibrated. No ball is baked into either atlas.
+
+Strict report-only audit generated 2026-10-27T21:46:15.144Z: 2,344 inspected clip assignments, 517 unique atlases, 4,924 unique source drawings, 759 missing captain assignments, zero target-frame shortfalls, and four inherited prompt-not-verbatim findings. Leo has 24/29 registered clips. Captain production remains incomplete.
+
+Validation after J.123/J.124 registration: lint, content validation (35 franchises / 105 athletes / 35 canonical captains), static build, and strict audit pass; full `npm test` passes (64 test files). Next finish J.125 track, then J.126 track, and continue roster-order gaps. Preserve original assets and provenance.
+
 ## Current J.122 Leo `dunk-tomahawk` checkpoint — 2026-10-27
 
 J.122 has 15 reviewed original poses in the transparent 4×4 atlas at `public/assets/animation/leo-dunk-tomahawk-right.webp` (15 populated cells, transparent cell16, baseline y94). Selected source is attempt03, ImageGen `c2pa:28240929-9491-4ec1-960b-a46045db029a`, with its raw/cleaned PNGs, exact initial and edit prompts, source/layout hashes, cleanup reports, rejected attempts01–02, and light/dark packed proofs retained. Independent packed-art review accepts pose separation, Leo identity/anatomy, hand release and finish, transparency, margins and alignment.
