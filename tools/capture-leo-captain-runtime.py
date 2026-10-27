@@ -31,13 +31,27 @@ try:
 
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True, executable_path='/usr/bin/chromium', args=['--no-sandbox', '--disable-dev-shm-usage'])
-        page = browser.new_page(viewport={'width': 1200, 'height': 900}, device_scale_factor=1)
+        page = browser.new_page(viewport={'width': 900, 'height': 700}, device_scale_factor=1)
         errors = []
         page.on('pageerror', lambda exc: errors.append(str(exc)))
+        # Stop the live 60 Hz loop so manually selected frame ticks are not
+        # replaced by idle simulation state before Playwright takes a screenshot.
+        page.add_init_script('window.requestAnimationFrame = () => 0')
         page.goto(URL, wait_until='networkidle')
         page.wait_for_function('window.jamverse && window.jamverse.rosterCheck.athletes===105')
         page.evaluate("window.jamverse.start('blackthorn-court-kings','chicago-condas',180,3)")
         page.wait_for_function("window.jamverse.state && window.jamverse.state.players.some(p=>p.id==='leo')")
+        # Let the production camera settle around the centered player/ball before
+        # capturing. A zero-duration paint alone leaves the game-start camera at
+        # the opening end of the court and can put Leo outside the screenshot.
+        page.evaluate("""() => {
+          const g=window.jamverse,s=g.state,p=s.players.find(x=>x.id==='leo');
+          s.players=[p];p.x=100;p.y=75;p.z=0;p.facing=1;p.hasBall=false;p.animation={clip:'idle',tick:0};
+          Object.assign(s.ball,{x:100,y:75,z:0,mode:'dead',ownerId:null,aerialTargetId:null,vx:0,vy:0,vz:0});
+          s.pause=true;
+          for(let i=0;i<120;i++)g.tick(1/60);
+          s.pause=false;
+        }""")
         page.evaluate("""async () => {
           const {animationClips} = await import('/src/core/animation.js');
           window.__captainClipTimings = Object.fromEntries(['block','push','fall','celebrate'].map(key=>[key,animationClips[key].frames.map(x=>x.duration)]));
@@ -52,8 +66,7 @@ try:
                     for facing, direction in [(1, 'right'), (-1, 'left')]:
                         capture = page.evaluate('''({clip,tick,facing}) => {
                           const g=window.jamverse, state=g.state, p=state.players.find(x=>x.id==='leo');
-                          for(const player of state.players){player.x=player.team?142:58;player.y=75;player.z=0;player.hasBall=false;player.animation={clip:'idle',tick:0};}
-                          state.ball.mode='dead';state.ball.ownerId=null;state.ball.vx=0;state.ball.vy=0;state.ball.vz=0;
+                          state.ball.x=100;state.ball.y=75;state.ball.mode='dead';state.ball.ownerId=null;state.ball.vx=0;state.ball.vy=0;state.ball.vz=0;
                           p.x=100;p.y=75;p.facing=facing;p.animation={clip,tick};p.anim=clip;p.hasBall=false;
                           g.tick(0);
                           return {clip,tick,facing:p.facing,ballMode:state.ball.mode,owner:state.ball.ownerId,canvasArt:document.querySelector('#game').dataset.gameplayArt};
