@@ -59280,6 +59280,178 @@
               "scope": "source identity/anatomy, six-frame atlas, mirror, candidate track at 100%/120% in both facings, actual possession/release simulation",
               "notes": "Accepted attempt04. Native Jam Stage review confirms tick4 concealed rear-hip contact, tick7 release palm alignment, clean right and mirrored left atlas use, full anatomy, no clipping or browser errors. Simulation verifies carry through tick6, one release at tick7 and ownerless flight in both facings. Source prompt says tick5; canonical runtime tick7 timing is preserved."
             }
+          },
+          "receive": {
+            "src": "./public/assets/animation/leo-receive-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ea1f01888339e1f177ddb0ba90644104146a204381198b95ba410609a5e609b0"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a4faf8086f43c3e8f7df4e2bf16e5873573d922b8c96be9e6bfe373c18e2fda0"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "60d420f53ec95e1230d403d57a656f29d03c1a4f0db6574b24224f70f73ae7fe"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fd35aa2b18d7200df457fadc33e8b3b61d6ff20c38926bba457476c3783a3f29"
+              }
+            ],
+            "sha256": "7b7bd363210e7ba10937e94886db6790189a09f3f19bd1e4aecf0840d6074ec1",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "leo",
+              "clip": "receive",
+              "direction": "right",
+              "canonicalSection": "K.05",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-69fdeb9a-c4fe-4d0b-a424-412012469435",
+              "imageGenerationId": "exec-69fdeb9a-c4fe-4d0b-a424-412012469435",
+              "rawSourceImage": "tools/generate-art/sources/j108-leo-receive-generated-raw.png",
+              "sourceImage": "tools/generate-art/sources/j108-leo-receive-generated-raw.png",
+              "rawSourceSha256": "fd219581c78dbaa3f3242f8eb9b52046d3af24a68ed3b9d544848c7e74d2e1be",
+              "sourceSha256": "fd219581c78dbaa3f3242f8eb9b52046d3af24a68ed3b9d544848c7e74d2e1be",
+              "promptFile": "tools/generate-art/j108-leo-receive4-prompt.md",
+              "prompt": "Create an original 1024\u00d71024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly four distinct complete full-body Leo poses in a strict two-column by two-row grid, row-major. Broad transparent gutters, each complete figure centered inside its own cell, full hair/hands/shoes visible, same camera and scale. Readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human man and captain of the Blackthorn Court Kings. Preserve his pale skin, long wavy black hair, refined mustache, composed handsome face, natural adult anatomy and controlled pose. He wears his black basketball uniform with restrained crimson details, matching black/crimson shorts and red-black shoes. Keep exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThe art shows only Leo. Do not include any object or prop whatsoever: zero basketballs, zero balls, zero spheres, zero circles, zero seams, zero equipment. The game basketball is a separate runtime sprite and is excluded from every drawing. No court, hoop, rim, floor, shadow, background, glow, border, grid, text, teammate or opponent. Background and gutters are genuine alpha-zero transparency with no checkerboard, matte, speckles or haze. In every pose, Leo's hands are visibly EMPTY. For the catch pose, his open palms meet in front of his chest without enclosing or touching any object; no ball silhouette between or near his hands.\n\nDraw exactly four sequential poses:\n0 Leo turns his shoulders toward image-right, relaxed knees, hands open at chest height and ready;\n1 leans slightly toward the incoming pass, both empty palms reach toward image-right with fingers spread;\n2 CATCH at simulation tick4: empty palms meet gently, hands stay open and separated from one another, wrists flex to absorb the catch, with no object between them;\n3 elbows bend inward as he settles into a composed upright stance, both hands still visibly empty.\n\nKeep long wavy hair away from the mustache and face, adult human proportions, complete feet and consistent identity. Return only the transparent sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-26854928-a326-43e6-9ed8-2de1addf5229",
+                  "sourceImage": "tools/generate-art/sources/j108-leo-receive-rejected-01.png",
+                  "sourceSha256": "a906b7fe7f9435aca6cf2fd22e3b80e23adcee7054479601a88fbdead2ee8249",
+                  "promptFile": "tools/generate-art/j108-leo-receive-attempt1-rejected-prompt.md",
+                  "reason": "Painted orange basketball in the catch pose; violates separate-ball requirement."
+                },
+                {
+                  "generationId": "exec-ea6692b1-5dc8-4c34-903b-db3680786345",
+                  "sourceImage": "tools/generate-art/sources/j108-leo-receive-rejected-02.png",
+                  "sourceSha256": "7d703d6d4e39713616bf4819ad185a2f7fc1a5141655e7d4a6a63a426c212ae6",
+                  "promptFile": "tools/generate-art/j108-leo-receive-attempt2-rejected-prompt.md",
+                  "reason": "Requested edit retained the basketball in the catch pose; violates separate-ball requirement."
+                }
+              ],
+              "mirrorEligible": true,
+              "ballPolicy": "The basketball is separate runtime art. Leo extends empty hands toward the incoming pass, receives it with hands meeting at tick4, then gathers the separate ball to his chest. No ball is drawn into the poses.",
+              "ballTrack": {
+                "status": "accepted-native-review",
+                "height": [
+                  1.15,
+                  2.0,
+                  1.9,
+                  1.45
+                ],
+                "forward": [
+                  8,
+                  13,
+                  8,
+                  3
+                ],
+                "reviewNotes": "Attempt01 overshot catch and recovery. Attempt02 brings the separate ball to Leo\u2019s empty hands on frame2/tick4 and keeps it gathered through recovery in both facings."
+              },
+              "cleanup": {
+                "script": "tools/generate-art/package-leo-action4.py",
+                "method": "shared four-pose component isolation and nearest antialiased-pixel reassignment; 2x2 row-major atlas pack with common baseline"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex and independent visual review",
+                "reviewNotes": "Four distinct, full-body, ball-free Leo poses preserve his pale adult human identity, long black hair, mustache, black/crimson uniform and complete anatomy. Native review accepted contact and recovery in both facings after attempt01 was rejected for overshooting."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 166,
+                  "y": 54,
+                  "w": 327,
+                  "h": 517,
+                  "component": 1,
+                  "area": 85894
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 681,
+                  "y": 61,
+                  "w": 513,
+                  "h": 510,
+                  "component": 2,
+                  "area": 93063
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 167,
+                  "y": 668,
+                  "w": 317,
+                  "h": 524,
+                  "component": 4,
+                  "area": 88291
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 733,
+                  "y": 664,
+                  "w": 313,
+                  "h": 528,
+                  "component": 3,
+                  "area": 85441
+                }
+              ],
+              "uniformScale": 0.17424242424242425,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original receive poses",
+              "atlasPath": "public/assets/animation/leo-receive-right.webp",
+              "atlasSha256": "7b7bd363210e7ba10937e94886db6790189a09f3f19bd1e4aecf0840d6074ec1",
+              "atlasBytes": 33518,
+              "issue": "J.108",
+              "nativeReview": {
+                "status": "accepted",
+                "renderer": "Chromium production Jam Stage canvas",
+                "facingVariants": [
+                  "right",
+                  "left"
+                ],
+                "zooms": [
+                  100,
+                  120
+                ],
+                "captureTicks": [
+                  0,
+                  2,
+                  3,
+                  4,
+                  5,
+                  7
+                ],
+                "captureCount": 24,
+                "candidateAttempt": "attempt-02",
+                "reviewNotes": "Frame1 reach is met at tick3; separate ball aligns with open hands at tick4 and remains at the chest through recovery. Preview confirms current generated roster atlases and zero browser errors."
+              }
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "source, pose, separate-ball contact, and mirrored native review",
+              "notes": "J.108 receive source and attempt02 ball track accepted; actual simulation catches at canonical tick4 in both facings."
+            }
           }
         }
       },

@@ -4,17 +4,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 2,
-  "generatedAt": "2026-10-27T16:26:20.971Z",
+  "generatedAt": "2026-10-27T16:37:29.501Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 2332,
-  "missingClipCount": 771,
+  "inspectedClips": 2333,
+  "missingClipCount": 770,
   "uniqueSourceLibraries": 42,
-  "uniqueSourceAtlases": 505,
-  "uniqueSourceDrawings": 4789,
+  "uniqueSourceAtlases": 506,
+  "uniqueSourceDrawings": 4793,
   "classifications": {
-    "original-authored": 505,
+    "original-authored": 506,
     "derived-palette": 1827
   },
   "assignmentClassifications": {
@@ -121,8 +121,8 @@
       "sourceLibrary": "echo-catwalk"
     },
     "leo": {
-      "clips": 12,
-      "missingClips": 17,
+      "clips": 13,
+      "missingClips": 16,
       "classification": "incomplete",
       "assignmentStatus": "original-authored",
       "lineage": null,
@@ -899,13 +899,6 @@
       "athlete": "leo",
       "direction": "right",
       "clip": "shoot",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
-      "clip": "receive",
       "classification": "original-authored"
     },
     {
@@ -44602,6 +44595,59 @@
           "h": 96,
           "hash": "c51e6d6628fe5ab3a4c88ab8d1c526eb64e790c7a1f5be98603ef4717339fe31",
           "visiblePixels": 3258
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-receive-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "7b7bd363210e7ba10937e94886db6790189a09f3f19bd1e4aecf0840d6074ec1",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ea1f01888339e1f177ddb0ba90644104146a204381198b95ba410609a5e609b0",
+          "visiblePixels": 3180
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a4faf8086f43c3e8f7df4e2bf16e5873573d922b8c96be9e6bfe373c18e2fda0",
+          "visiblePixels": 3502
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "60d420f53ec95e1230d403d57a656f29d03c1a4f0db6574b24224f70f73ae7fe",
+          "visiblePixels": 3243
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "fd35aa2b18d7200df457fadc33e8b3b61d6ff20c38926bba457476c3783a3f29",
+          "visiblePixels": 3159
         }
       ]
     },
