@@ -206,4 +206,13 @@ J127 is now integrated and validated. The accepted 15-pose composite atlas is `p
 
 Correction to the preceding J128 note: at that time J127 still awaited gameplay checks; those now pass, and the registration is committed with this checkpoint. The 2026-10-27 latest strict audit also reflects the accepted J120 Leo `dunk-reverse` source that had been integrated in the working tree before this audit refresh.
 
-Kraken J.07 `steal` cleanup01 source art is accepted. The attempt02 track vector and original captures had a duplicate-render harness defect; corrected captures now use one stage start and load the candidate before stage initialization. The second independent review is pending. Invalid capture sets remain preserved and explained in `tools/generate-art/previews/kraken-steal-track-candidate/REVIEW.md`.
+Kraken J.07 `steal` cleanup01 source art and separate track are accepted. The attempt02 track vector and original captures had a duplicate-render harness defect; corrected captures now use one stage start and load the candidate before stage initialization. Independent native review accepted the corrected captures; the J.07 track is integrated and simulation validates the tick5 poke, ownership release, holder stun and loose-ball start in both facings. All invalid capture sets remain preserved and explained in `tools/generate-art/previews/kraken-steal-track-candidate/REVIEW.md`.
+
+
+## J.07 Kraken steal checkpoint — 2026-10-27
+
+Kraken’s cleanup01 `steal` atlas and eight-pose track are integrated. The accepted H track is `[1,.9,.55,.55,.7,.9,1,1]`, F `[5,7,6,6,7,8,7,5]`; tick5/frame3 places the separate ball on the low hook hand. The source and corrected native capture set passed independent review in both facings and 100%/120%; the invalid duplicate-canvas/harness captures remain preserved with explanations. Simulation now drops the ball from the defender’s tracked hand on the grab before loose-ball physics. Tests validate contact, holder stun, ownerless ball state and all eight selected/mirrored frames in both facings.
+
+Post-J.07 strict report-only audit: 2,350 assignments, 525 unique source atlases, 5,003 unique drawings, 751 missing captain assignments, zero target shortfalls and four inherited prompt findings. Validation: full `npm test` 64/64 files, lint 21 modules, content validation 35 franchises/105 athletes/35 captains, and build all passed.
+
+Active work: J104 Leo `shoot` has an accepted source but its attempt04 release track is only a visual candidate (H11.5 at release is unusually high); the simulation scores in both facings, but gameplay-relative hand height needs rendered review before registration. J111 Leo `layup-reverse` attempt06 cleanup01 now has independently accepted face readability and targeted alpha-speck cleanup; native athlete-specific track calibration is underway.

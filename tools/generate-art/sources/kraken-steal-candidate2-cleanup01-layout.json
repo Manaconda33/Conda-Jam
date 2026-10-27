@@ -1,0 +1,138 @@
+{
+  "status": "accepted after independent source, native-track and runtime gameplay review",
+  "source": "tools/generate-art/sources/kraken-steal-candidate2-atlas.png",
+  "atlas": "tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+  "cellSize": [
+    80,
+    96
+  ],
+  "width": 320,
+  "height": 192,
+  "cleanupScript": "tools/generate-art/clean-kraken-steal-candidate2-fringes.py",
+  "method": "Targeted removal of listed isolated saturated color pixels only; no body or uniform pixels repainted.",
+  "removedPixels": [
+    {
+      "x": 261,
+      "y": 89,
+      "rgbaBefore": [
+        0,
+        255,
+        255,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    },
+    {
+      "x": 19,
+      "y": 187,
+      "rgbaBefore": [
+        0,
+        255,
+        255,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    },
+    {
+      "x": 22,
+      "y": 187,
+      "rgbaBefore": [
+        0,
+        255,
+        255,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    },
+    {
+      "x": 217,
+      "y": 51,
+      "rgbaBefore": [
+        0,
+        255,
+        0,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    },
+    {
+      "x": 23,
+      "y": 187,
+      "rgbaBefore": [
+        0,
+        255,
+        0,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    },
+    {
+      "x": 21,
+      "y": 51,
+      "rgbaBefore": [
+        255,
+        255,
+        0,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    },
+    {
+      "x": 60,
+      "y": 89,
+      "rgbaBefore": [
+        255,
+        255,
+        0,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    },
+    {
+      "x": 261,
+      "y": 132,
+      "rgbaBefore": [
+        255,
+        255,
+        0,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    },
+    {
+      "x": 258,
+      "y": 140,
+      "rgbaBefore": [
+        255,
+        255,
+        0,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    },
+    {
+      "x": 216,
+      "y": 143,
+      "rgbaBefore": [
+        255,
+        255,
+        0,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    },
+    {
+      "x": 216,
+      "y": 144,
+      "rgbaBefore": [
+        255,
+        255,
+        0,
+        255
+      ],
+      "reason": "isolated saturated palette fringe from independent zoom4 review"
+    }
+  ],
+  "sha256": "3230c1c8701335883c1d4ceddd05eb0a172e2ea8281e6349eecbdf61c52eaed0",
+  "trackReview": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-02-single-start-atlas-first/native/report.json"
+}

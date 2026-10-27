@@ -2045,6 +2045,22 @@ test('Paprika selects all eight reviewed quadruped steal poses with a paw-height
   tick+=animationClips.steal.frames[frame].duration;
  }
 });
+test('Kraken selects all eight J.07 steal poses with reviewed mirroring and a low-hook track',()=>{
+ const id='kraken',atlas='./public/assets/animation/kraken-steal-right.webp',clip=animationAssetManifest.characters[id]?.directions?.right?.steal;
+ assert.equal(animationAssetManifest.characters[id].mirrorSafe,true);assert.equal(animationAssetManifest.characters[id].mirrorReview.status,'reviewed');
+ assert.ok(clip);assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);assert.equal(clip.frames.length,8);
+ assert.deepEqual(clip.provenance.ballTrack,{height:[1,.9,.55,.55,.7,.9,1,1],forward:[5,7,6,6,7,8,7,5],trials:'tools/generate-art/previews/kraken-steal-track-candidate/attempt-02-single-start-atlas-first/native/report.json'});
+ assert.equal(anchorTick('steal','grab'),5);assert.equal(sampleAnimation('steal',5).frame,3);
+ const images=new Map([[atlas,{complete:true,naturalWidth:320,naturalHeight:192,file:atlas}]]);let tick=0;
+ for(let frame=0;frame<8;frame++){
+  assert.equal(sampleAnimation('steal',tick).frame,frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'steal',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.steal.frames[frame].duration;
+ }
+});
 test('Paprika selects all eleven reviewed quadruped push poses with contact at tick8',()=>{
  const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-push-right.webp',clip=character?.directions?.right?.push;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');

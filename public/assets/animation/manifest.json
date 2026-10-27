@@ -63789,17 +63789,129 @@
             },
             "reviewed": true,
             "reviewNotes": "Four complete original poses passed independent source review and 16 current-court native Jam Stage captures; no ball is baked in. Live block-input simulation is covered separately."
+          },
+          "steal": {
+            "src": "./public/assets/animation/kraken-steal-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "0fe8f7a6a68db82128c245e8511181d988c5d843eff645cc39cf8929b2fcc578"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "7a242f773efcbb4bbc2cc6c3bb2b27820140f4575b6d208b7392609d847460bd"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "3d75c402995854c3ada7c9fa3ed7ba53ab2e02ecef80040b1a4e976cee108c0d"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "61adb2058ad0011d0dcad6a1e861aeef3bba39ee8facedd79ad85d4d9daffeec"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "b7c2a7aa2bae70ae59674edf9e5ebe5156d9806773c6a697db318fb22058c8ad"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "2dc9bd01308aa0978dece949ea3c328c2d3804d81455d02fe7a9ac129b4ac624"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "59f779143da66298e5f1c1b7a4f5795918701756c00f7db3948006d816dedf23"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "edac6486174145995614d1c8fb694eed5f979387025694d2fb2284f1b76798b9"
+              }
+            ],
+            "sha256": "a1ca80a859199fc7509587dede7531bf4aff1dd5d73c052163cfb3649de59bd7",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "tools/generate-art/sources/kraken-steal-candidate2-prompt.md",
+              "generatedAt": "2026-10-27",
+              "generationId": "exec-d2c0499f-b9d1-46cc-9b48-41de0d4454d3",
+              "rawSourceImage": "tools/generate-art/sources/kraken-steal-candidate2-raw.png",
+              "rawSourceSha256": "6d7d1059ba5da4d1585d83faf56e5e51f9aabad5d1763d2635cab7f9ce4e9aef",
+              "sourceImage": "tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+              "sourceSha256": "3230c1c8701335883c1d4ceddd05eb0a172e2ea8281e6349eecbdf61c52eaed0",
+              "atlasPath": "public/assets/animation/kraken-steal-right.webp",
+              "atlasSha256": "a1ca80a859199fc7509587dede7531bf4aff1dd5d73c052163cfb3649de59bd7",
+              "cleanupScript": "tools/generate-art/clean-kraken-steal-candidate2-fringes.py",
+              "sourceReview": "tools/generate-art/sources/kraken-steal-candidate2-provenance.json",
+              "nativeTrackReview": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-02-single-start-atlas-first/native/report.json",
+              "ballTrack": {
+                "height": [
+                  1,
+                  0.9,
+                  0.55,
+                  0.55,
+                  0.7,
+                  0.9,
+                  1,
+                  1
+                ],
+                "forward": [
+                  5,
+                  7,
+                  6,
+                  6,
+                  7,
+                  8,
+                  7,
+                  5
+                ],
+                "trials": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-02-single-start-atlas-first/native/report.json"
+              },
+              "sourceStatus": "source and separate athlete-specific track reviewed; live simulation contact test integrated",
+              "rejectedCandidates": [
+                "tools/generate-art/sources/kraken-steal-candidate1/raw.png",
+                "tools/generate-art/sources/kraken-steal-candidate2-atlas.png"
+              ],
+              "reviewedAt": "2026-10-27",
+              "reviewNotes": "Independent source review accepted cleanup01 with no off-palette fringe or detached artifacts. Independent native review accepted 32 captures across both facings/100%/120%, correct selector/mirroring and tick5 low-hook contact. Gameplay simulation uses Kraken hand track at the steal grab, then releases the ball to loose physics; two-facing test validates contact, stun, loose ownerless mode, and separate ball."
+            },
+            "reviewed": true,
+            "mirrorSafe": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Kraken’s elf ears, cropped hair, amulet and uniform do not contain a fixed-side mark or handed prop. The block poses were inspected right-facing and with horizontal mirroring in native Jam Stage captures; both versions retain complete anatomy and readable defensive poses.",
+        "notes": "Kraken block and steal poses were independently inspected right-facing and horizontally mirrored in native Jam Stage captures. Both clips preserve complete anatomy and readable action; the steal ball remains a separate sprite.",
         "reviewedAt": "2026-10-27",
-        "scope": "J.07 block clip body mirroring",
+        "scope": "J.07 block and steal clips",
         "evidence": [
-          "tools/generate-art/previews/kraken-block-native-candidate/report.json"
+          "tools/generate-art/previews/kraken-block-native-candidate/report.json",
+          "tools/generate-art/previews/kraken-steal-track-candidate/attempt-02-single-start-atlas-first/native/report.json"
         ]
       }
     },

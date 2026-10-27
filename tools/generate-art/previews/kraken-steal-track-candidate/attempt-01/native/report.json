@@ -1,0 +1,1449 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4228/",
+  "athlete": "kraken",
+  "clip": "steal",
+  "attempt": 1,
+  "candidateAtlas": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+  "candidateTrack": {
+    "height": [
+      1.0,
+      0.9,
+      0.75,
+      0.55,
+      0.75,
+      0.95,
+      1.05,
+      1.0
+    ],
+    "forward": [
+      5,
+      8,
+      10,
+      12,
+      11,
+      8,
+      6,
+      5
+    ]
+  },
+  "court": "vesper-harbor-undertow vs blackthorn-court-kings",
+  "courtY": 90,
+  "grid": "8 canonical steal pose starts \u00d7 both facings \u00d7 100%/120% zoom = 32 captures",
+  "captureMethod": "Temporary in-page atlas override for unregistered cleanup01 candidate. Ball is a separate loose render staged at Kraken-specific hand offsets; no ball is included in the sprite atlas.",
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 105,
+        "y": 90,
+        "z": 1
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame00-tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 108,
+        "y": 90,
+        "z": 0.9
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame01-tick02-right-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 110,
+        "y": 90,
+        "z": 0.75
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame02-tick04-right-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "frame": 3,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 112,
+        "y": 90,
+        "z": 0.55
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame03-tick05-right-zoom100.png"
+    },
+    {
+      "tick": 6,
+      "frame": 4,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 111,
+        "y": 90,
+        "z": 0.75
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame04-tick06-right-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 5,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 108,
+        "y": 90,
+        "z": 0.95
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame05-tick08-right-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 6,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 106,
+        "y": 90,
+        "z": 1.05
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 6,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame06-tick10-right-zoom100.png"
+    },
+    {
+      "tick": 13,
+      "frame": 7,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 105,
+        "y": 90,
+        "z": 1
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 7,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame07-tick13-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 95,
+        "y": 90,
+        "z": 1
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame00-tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 92,
+        "y": 90,
+        "z": 0.9
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame01-tick02-left-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 90,
+        "y": 90,
+        "z": 0.75
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame02-tick04-left-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "frame": 3,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 88,
+        "y": 90,
+        "z": 0.55
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame03-tick05-left-zoom100.png"
+    },
+    {
+      "tick": 6,
+      "frame": 4,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 89,
+        "y": 90,
+        "z": 0.75
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame04-tick06-left-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 5,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 92,
+        "y": 90,
+        "z": 0.95
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame05-tick08-left-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 6,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 94,
+        "y": 90,
+        "z": 1.05
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 6,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame06-tick10-left-zoom100.png"
+    },
+    {
+      "tick": 13,
+      "frame": 7,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 95,
+        "y": 90,
+        "z": 1
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 7,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame07-tick13-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 105,
+        "y": 90,
+        "z": 1
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame00-tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 108,
+        "y": 90,
+        "z": 0.9
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame01-tick02-right-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 110,
+        "y": 90,
+        "z": 0.75
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame02-tick04-right-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "frame": 3,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 112,
+        "y": 90,
+        "z": 0.55
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame03-tick05-right-zoom120.png"
+    },
+    {
+      "tick": 6,
+      "frame": 4,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 111,
+        "y": 90,
+        "z": 0.75
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame04-tick06-right-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 5,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 108,
+        "y": 90,
+        "z": 0.95
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame05-tick08-right-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 6,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 106,
+        "y": 90,
+        "z": 1.05
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 6,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame06-tick10-right-zoom120.png"
+    },
+    {
+      "tick": 13,
+      "frame": 7,
+      "facing": 1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 105,
+        "y": 90,
+        "z": 1
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 7,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame07-tick13-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 95,
+        "y": 90,
+        "z": 1
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame00-tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 92,
+        "y": 90,
+        "z": 0.9
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame01-tick02-left-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 90,
+        "y": 90,
+        "z": 0.75
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame02-tick04-left-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "frame": 3,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 88,
+        "y": 90,
+        "z": 0.55
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame03-tick05-left-zoom120.png"
+    },
+    {
+      "tick": 6,
+      "frame": 4,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 89,
+        "y": 90,
+        "z": 0.75
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame04-tick06-left-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 5,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 92,
+        "y": 90,
+        "z": 0.95
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame05-tick08-left-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 6,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 94,
+        "y": 90,
+        "z": 1.05
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 6,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame06-tick10-left-zoom120.png"
+    },
+    {
+      "tick": 13,
+      "frame": 7,
+      "facing": -1,
+      "ballMode": "loose",
+      "ball": {
+        "x": 95,
+        "y": 90,
+        "z": 1
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+        "frame": 7,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-01/native/frame07-tick13-left-zoom120.png"
+    }
+  ],
+  "stageReset": {
+    "playerIds": [
+      "kraken"
+    ],
+    "canvasCount": 73,
+    "canvasRects": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 29,
+        "y": 34,
+        "width": 842,
+        "height": 631.5,
+        "top": 34,
+        "right": 871,
+        "bottom": 665.5,
+        "left": 29
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    ],
+    "court": null
+  },
+  "captureCount": 32,
+  "uncaughtBrowserErrors": []
+}

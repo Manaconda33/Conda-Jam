@@ -1183,6 +1183,21 @@ test('Reed and Juniper steals use the authored contact frame and distinct hand l
   assert.equal(sampleBallHeight('steal',anchorTick('steal','grab'),id),height,id+' vertical contact track');
  }
 });
+test('Kraken J.07 steal pokes the separate ball from the reviewed low hook hand in both facings',()=>{
+ const id='kraken',height=[1,.9,.55,.55,.7,.9,1,1],forward=[5,7,6,6,7,8,7,5];
+ const registration=animationAssetManifest.characters[id].directions.right.steal;
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height,forward,trials:'tools/generate-art/previews/kraken-steal-track-candidate/attempt-02-single-start-atlas-first/native/report.json'});
+ for(const facing of [1,-1]){
+  const {m,holder,defender}=stealSetup();defender.id=id;defender.name='Kraken';defender.facing=facing;defender.x=holder.x-facing*forward[3];defender.y=holder.y;
+  startSteal(m,defender);assert.equal(defender.animation.clip,'steal');
+  while(defender.animation.tick<anchorTick('steal','grab')-1)stepMatch(m,neutral(m));
+  assert.equal(holder.hasBall,true);assert.equal(m.ball.ownerId,holder.id);
+  stepMatch(m,neutral(m));assert.equal(defender.steals,1);assert.ok(holder.stun>0);assert.equal(m.ball.mode,'loose');assert.equal(m.ball.ownerId,null);assert.equal(defender.hasBall,false);
+  assert.ok(Math.abs(m.ball.x-m.ball.vx-defender.x-facing*forward[3])<1e-9,'ball leaves Kraken low hook contact facing '+facing);
+  assert.ok(Math.abs(m.ball.z-m.ball.vz-defender.z-height[3])<.03);assert.equal(m.ball.lastTouch,id);
+ }
+});
 for(const disruption of ['range','ownership','stun','target-stun'])test(`steal rechecks ${disruption} at grab`,()=>{
   const {m,holder,defender}=stealSetup();startSteal(m,defender);
   if(disruption==='range')holder.x=150;

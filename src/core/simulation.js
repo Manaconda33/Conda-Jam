@@ -246,7 +246,7 @@ function advanceAnimations(match){
       if(a.tick===anchorTick('steal','grab')){
         delete a.action;const holder=playerById(match,action.targetId);
         if(holder&&holder.team!==p.team&&holder.stun===0&&holder.hasBall&&match.ball.mode==='carried'&&match.ball.ownerId===holder.id&&hypot(holder.x-p.x,holder.y-p.y)<8&&rand(match)<.1+p.steal/400){
-          holder.stun=30;p.steals++;match.ball.mode='loose';releaseOwner(match);Object.assign(match.ball,{x:holder.x,y:holder.y,z:1.3,vx:-holder.facing*.42,vy:(rand(match)-.5)*.35,vz:.12,lastTouch:p.id});event(match,`${p.name} pokes it loose!`);
+          const contact=heldBallPoint(p);holder.stun=30;p.steals++;match.ball.mode='loose';releaseOwner(match);Object.assign(match.ball,{...contact,vx:-holder.facing*.42,vy:(rand(match)-.5)*.35,vz:.12,lastTouch:p.id});event(match,`${p.name} pokes it loose!`);
         }
       }
     }else if(action?.kind==='push'){
