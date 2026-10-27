@@ -1,8 +1,8 @@
 ## Captain lane update — 2026-10-27
 
-On published baseline `b8ead761`, four separately authored and reviewed Leo (captain) clips are now registered: `block`, `push`, `fall`, and `celebrate`. Source atlases with detached alpha flecks remain preserved; runtime uses separately cleaned lossless atlases. Exact prompts, generations, raw sources, provenance, layouts, cleanup report and light/dark previews are retained under the Leo captain integration files. Leo has9/29 registered clips.
+On published baseline `b8ead761`, five separately authored and reviewed Leo (captain) clips are registered: `block`, `push`, `fall`, `celebrate`, and `pass`. Leo remains on the bespoke captain path. The four cleaned action atlases retain their unmodified sources; pass artwork, exact prompt, generation, raw source, layout, provenance and six preserved track trials are indexed in the Leo pass files. Leo has10/29 registered clips.
 
-The refreshed strict audit at `docs/animation-production/ASSET_AUDIT_LATEST.md` reports2,329 effective assignments, 774 missing assignments across31 incomplete captains, 4,771 unique source drawings and no target-count shortfall. All70 supporting players retain complete reviewed coverage under the authorized reuse model. The four remaining audit findings other than captain gaps are inherited prompt-provenance findings. Overall animation acceptance remains incomplete.
+The refreshed strict audit at `docs/animation-production/ASSET_AUDIT_LATEST.md` reports2,330 effective assignments, 773 missing assignments across31 incomplete captains, 4,777 unique source drawings and no target-count shortfall. All70 supporting players retain complete reviewed coverage under the authorized reuse model. The four remaining audit findings other than captain gaps are inherited prompt-provenance findings. Overall animation acceptance remains incomplete.
 
 See [CAPTAIN_GAP_CHECKPOINT.md](CAPTAIN_GAP_CHECKPOINT.md) for source lineage, visual review, exact validation results and the next captain work.
 

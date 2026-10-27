@@ -1500,6 +1500,8 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   dribble:{height:[1.2,1,.75,.5,.2,0,.2,.5,.9,1.15],forward:[11,13,14,15,16,16,15,14,13,11]},
   'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[14,15,16,17,18,18,17,16,15,14,14]}
 }};
+// J.105 Leo pass ball-track attempt03; provisional until contact review.
+athleteBallTracks.leo={pass:{height:[1.65,1.9,1.9,2.05,2.0,1.05],forward:[3.75,4.75,8.5,9.75,9,7]}};
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
   const trackProperty=property==='ballHeight'?'height':'forward';
