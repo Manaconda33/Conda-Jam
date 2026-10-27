@@ -62244,13 +62244,228 @@
               "scope": "15-pose packed atlas and 15-trial native Jam Stage calibration; both facings/100%/120%; deterministic gameplay",
               "notes": "Attempt06 packed source art passes independent review. Attempt12 is the best cross-zoom ball contact compromise after 15 trials; no fallback/mirror/HUD defects. At tick20 ball-to-fingertip offset is about 10px at both zooms, small relative to ball diameter; attempts13–15 did not improve it. Gameplay simulation validates possession through tick20, release21, finish23 and landing30."
             }
+          },
+          "dunk-scythe": {
+            "src": "./public/assets/animation/leo-dunk-scythe-attempt06-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "9aad764848dd72d7cf2ef485c19c3b20f7536a436623edc4459b5141cd1d1b22"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "5a467ede96ec73d9b3f7092634ba14ef43e697fb30d3c5c9fe18e9ced3bc522e"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "fa2abf05e81b1ff4ca71bf6cb9da8a9a4c9662d407094bfe3b5c84e12493797e"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "afc141de6390b629c0c0520111fbd8b1a16e53396f42035925144f133ab3d251"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "e8812dfe34fd7f4bb3eb00586230c361f176841e3cf094f4e052a717d7527012"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "238d79bc450550f25d005a183fe822b7efb411b03ad09db22f158b665e75792f"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6f9d4d2b84f54fc724f4f3202518ddf026044ab825d76a734ce2a8ef31426899"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "0c6abdda5823ac2ae7e10956499966a789cf91376c336bc7bbe968f353319484"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "777484e757ff531c9a36c7757f2213aa6168096cc2685ef3b00e7ccc9552ba6f"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "cf44f62a575e47ed03d5c5d440e7ec4562ae01e5190064a2ccc2e46c17332178"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "cd41cc01f8c2bf10718b99b6fac730ca02f731dbaa30c19b02240226c3f9c989"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "f2d6ee2ba2aa85a28f25f9877a21eb3e2b9da8a998c29a668402516b87edb555"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "51cbd6d453d525c6033859e5a093d051c0b6ed450de1974b7486039ff0d6c2c7"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "0b6361f9959aad4bcc235365fe8a45720c04a09374adc103dec649ffa7869bee"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "c286a7a8fa06936b43ebf3c7afd78898f5555d9dc4259240e7846947c2e26aa0"
+              }
+            ],
+            "sha256": "c4472bcf30b37463978311d03da74b2ace68651af540562ebff9c9c8e49650b0",
+            "source": "imagegen",
+            "provenance": {
+              "sourceGeneration": "imagegen",
+              "generationIds": [
+                "exec-24cfe1f0-f774-4e9d-af53-648408820184",
+                "exec-0c987f72-7e0a-4c1d-a78e-e61eb72a64c8"
+              ],
+              "generatedAt": "2026-10-27T21:35:00Z",
+              "primaryPrompt": "tools/generate-art/j125-leo-dunk-scythe-attempt04-action-edit-prompt.md",
+              "pose11Prompt": "tools/generate-art/j125-leo-dunk-scythe-pose11-attempt06-prompt.md",
+              "sourceImages": [
+                {
+                  "path": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt04-generated-raw.png",
+                  "sha256": "fa1efe5696b687e24f0f93844155e3c91df1d29e59f0680f13d6d9773a963541",
+                  "poseIndices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    13,
+                    14
+                  ]
+                },
+                {
+                  "path": "tools/generate-art/sources/j125-leo-dunk-scythe-pose11-attempt06-generated-raw.png",
+                  "sha256": "586c962a6f78c6aa6abdcc114b526f1290a5eb98cc314972844977a2ed36ba52",
+                  "poseIndex": 11
+                }
+              ],
+              "compositeSourceImage": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt06-composite-cleaned.png",
+              "compositeSha256": "da5f6efc087461f25678e6972c70f1774baa30175e3f3b4141078f75f44a6fa8",
+              "atlasSha256": "c4472bcf30b37463978311d03da74b2ace68651af540562ebff9c9c8e49650b0",
+              "cleanupReport": "tools/generate-art/j125-leo-dunk-scythe-attempt06-cleanup-report.json",
+              "packingScript": "tools/generate-art/pack-j125-leo-dunk-scythe-attempt06-composite.py",
+              "derivedProcessing": "Composite from two preserved ImageGen sources; only pose11 replaced with separately generated source pose; alpha>=16 cleanup and nearest-neighbor atlas packing.",
+              "ballTrack": {
+                "height": [
+                  1.1,
+                  0.9,
+                  1,
+                  1.1,
+                  1.3,
+                  1.05,
+                  1.1,
+                  0.85,
+                  0.6,
+                  0.3,
+                  -0.3,
+                  0.4,
+                  0.2,
+                  0.65,
+                  0.55
+                ],
+                "forward": [
+                  6,
+                  2,
+                  -5,
+                  -8,
+                  0,
+                  2.2,
+                  4,
+                  8.3,
+                  5,
+                  5.5,
+                  3.2,
+                  1,
+                  -2,
+                  -1,
+                  0
+                ],
+                "trials": "tools/generate-art/previews/leo-dunk-scythe-track-candidate/track-trials.json"
+              },
+              "trackReview": {
+                "attempt": 6,
+                "captures": 60,
+                "facings": [
+                  "right",
+                  "left"
+                ],
+                "zooms": [
+                  100,
+                  120
+                ],
+                "notes": "Independent review approves carry contact at ticks19-20 (<quarter ball radius clearance), gather/peak, tick21 release and safe left mirroring; zero browser errors."
+              },
+              "prompt": "tools/generate-art/j125-leo-dunk-scythe-attempt04-action-edit-prompt.md"
+            },
+            "reviewed": true,
+            "mirrorSafe": true,
+            "review": {
+              "by": "Codex with independent art, track and gameplay reviewers",
+              "scope": "15-pose composite atlas, native two-facing 100/120% track captures, deterministic timing and release simulation",
+              "notes": "Composite attempt06 passes action, identity, anatomy, margins, alpha and pose-order review. Track attempt06 passes gather, peak, ticks19–20 hand contact and tick21 release across both facings/zooms; gameplay test confirms possession, release, score and landing."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Leo source art is horizontally mirror-safe; separate basketball track follows facing sign."
+        "notes": "Leo scythe atlas safely flips for left-facing play; independent track captures verify both facings."
       }
     },
     "kraken": {

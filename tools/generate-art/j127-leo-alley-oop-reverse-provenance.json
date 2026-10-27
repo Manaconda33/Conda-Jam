@@ -1,0 +1,69 @@
+{
+  "athlete": "leo",
+  "clip": "alley-oop-reverse",
+  "runtimeRegistration": "none",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-b82563a3-5ebd-4bd9-a0b8-ba984f47d021",
+      "generationPath": "/workspace/generated_images/exec-b82563a3-5ebd-4bd9-a0b8-ba984f47d021.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt01-generated-raw.png",
+      "rawSha256": "30ac9fcf0a5a72cbc7a2b2394c39bd735a690eb07b14fa8f54f3810659c5a402",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse-prompt.md",
+      "promptSha256": "3251257412296e2b5de1e6f4a051913a7fa67298aac6cb4a745f676631a5cf67",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected; raw preserved",
+      "rejection": "Dark opaque/partially opaque brown-black gradient/vignette remains behind poses despite transparent-background request; rendering is smooth and painterly rather than crisp constrained arcade pixel art. Frames also contain pose repetition; do not isolate/publish as production atlas."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-1badb1dc-9447-41fc-af8c-b667d62354cf",
+      "generationPath": "/workspace/generated_images/exec-1badb1dc-9447-41fc-af8c-b667d62354cf.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-generated-raw.png",
+      "rawSha256": "5ea4a556b858f574b92f8b1593691e104c198b46fe3e69a6d3fab9687a6586c2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse-attempt02-prompt.md",
+      "promptSha256": "b1f61ec853dd0afad92d33b109741265885fd6a861c845cba6ea1988ff485e40",
+      "sourceReferences": [
+        "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt01-generated-raw.png",
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected; raw preserved",
+      "rejection": "Dark opaque/partially opaque brown-black gradient/vignette remains behind poses despite transparent-background request; rendering is smooth and painterly rather than crisp constrained arcade pixel art. Frames also contain pose repetition; do not isolate/publish as production atlas."
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-76aec7b7-0bad-4859-b012-a4b67797483a",
+      "generationPath": "/workspace/generated_images/exec-76aec7b7-0bad-4859-b012-a4b67797483a.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt03-generated-raw.png",
+      "rawSha256": "8f9ef840a5dc9a4c56bb2c9f5c31762137941538ec02b1b29088458f3a833f52",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse-attempt03-prompt.md",
+      "promptSha256": "15e98b9b8864ff7d6c05aaf61025a5775a36a2003fde9d331d021537dbba1956",
+      "sourceReferences": [],
+      "status": "rejected; raw preserved",
+      "rejection": "No-reference generation retained broad partial-alpha brown/black background haze, airbrushed/painterly shading, near-identical poses5–8 and frames12–13, and rounded orange marks at the carried hands that can read as a ball. Action direction is not clear enough. Do not normalize or pack."
+    }
+  ],
+  "decision": "Attempts01–03 rejected before cleanup/packing; no approved sheet/atlas/track.",
+  "independentReview": {
+    "reviewer": "candidate_review",
+    "decision": "reject attempts01–02",
+    "notes": "Both files have broad partial-alpha backdrop haze (~28.1% and ~34.4%), painterly shading, repeated poses5–8, weak reverse direction, and orange ball-like marks at carried hands."
+  }
+}

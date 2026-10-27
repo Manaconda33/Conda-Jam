@@ -11,6 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 ATTEMPT=int(environ.get('ATTEMPT','1'))
 OUT=ROOT/f'tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-{ATTEMPT:02d}/native'
 OUT.mkdir(parents=True,exist_ok=True)
+COURT_Y=float(environ.get('COURT_Y','75'))
 PORT='4221';URL=f'http://127.0.0.1:{PORT}/'
 track=json.loads(environ.get('TRACK_JSON','{"height":[1.0,1.2,1.5,1.7,1.8,1.9,2.0,1.7,1.4,1.2,1.0,0.9,0.8,0.65,0.55],"forward":[6,8,10,8,6,4,2,1,2,6,10,12,9,7,6]}'))
 ticks=[0,2,4,7,9,10,12,14,17,19,20,21,22,23,26]
@@ -44,7 +45,7 @@ try:
         # this makes the production loader put its atlas in the renderer image map.
         page.evaluate("window.jamverse.start('blackthorn-court-kings','chicago-condas',180,4)")
         page.wait_for_timeout(800)
-        page.evaluate("""()=>{const g=window.jamverse,s=g.state,p=s.players.find(x=>x.id==='leo');s.players=[p];p.x=100;p.y=75;p.z=0;p.facing=1;p.hasBall=true;p.animation={clip:'alley-oop-power',tick:0};p.anim='alley-oop-power';Object.assign(s.ball,{x:100,y:75,z:1,mode:'carried',ownerId:'leo',targetId:null,aerialTargetId:null,vx:0,vy:0,vz:0});s.pause=true;for(let i=0;i<120;i++)g.tick(1/60);s.pause=false}""")
+        page.evaluate("(courtY)=>{const g=window.jamverse,s=g.state,p=s.players.find(x=>x.id==='leo');s.players=[p];p.x=100;p.y=courtY;p.z=0;p.facing=1;p.hasBall=true;p.animation={clip:'alley-oop-power',tick:0};p.anim='alley-oop-power';Object.assign(s.ball,{x:100,y:courtY,z:1,mode:'carried',ownerId:'leo',targetId:null,aerialTargetId:null,vx:0,vy:0,vz:0});s.pause=true;for(let i=0;i<120;i++)g.tick(1/60);s.pause=false}",COURT_Y)
         setup=page.evaluate("""()=>({playerCount:window.jamverse.state.players.length,playerIds:window.jamverse.state.players.map(p=>p.id),canvasCount:document.querySelectorAll('canvas').length,canvasRects:[...document.querySelectorAll('canvas')].map(c=>c.getBoundingClientRect().toJSON())})""")
         report['stageReset']=setup
         for zoom in [100,120]:
@@ -56,12 +57,12 @@ try:
                         if tick<elapsed+duration:break
                         elapsed+=duration
                     if tick==21:frame=10
-                    info=page.evaluate("""async({tick,frame,facing,z,track,release,atlas})=>{const g=window.jamverse,s=g.state,p=s.players.find(x=>x.id==='leo');p.x=100;p.y=75;p.z=z;p.facing=facing;p.animation={clip:'alley-oop-power',tick};p.anim='alley-oop-power';p.hasBall=tick<21;const h=track.height[frame],f=track.forward[frame];if(tick<21){s.ball.x=p.x+facing*f;s.ball.y=p.y;s.ball.z=p.z+h;s.ball.mode='carried';s.ball.ownerId='leo'}else{const [dx,bz]=release[String(tick)]??[f,p.z+h];s.ball.x=p.x+facing*dx;s.ball.y=p.y;s.ball.z=bz;s.ball.mode='dunk';s.ball.ownerId=null}s.ball.targetId=null;s.ball.aerialTargetId=null;s.ball.vx=0;s.ball.vy=0;s.ball.vz=0;g.tick(0);const {selectProductionSprite}=await import('/src/render/animation-sprites.js');const {animationAssetManifest}=await import('/src/content/animation-assets.js');const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:new Map([[atlas,window.__leoDoubleAtlas]])});return{tick,frame,facing,z:p.z,ballMode:s.ball.mode,owner:s.ball.ownerId,ball:{x:s.ball.x,y:s.ball.y,z:s.ball.z},canvasArt:document.querySelector('#game').dataset.gameplayArt,selection:selected&&{src:selected.src,frame:selected.frame,flip:selected.flip,classification:selected.classification,production:selected.production}}}""",{'tick':tick,'frame':frame,'facing':facing,'z':z_by_tick[tick],'track':track,'release':release,'atlas':atlas})
+                    info=page.evaluate("""async({tick,frame,facing,z,track,release,atlas,courtY})=>{const g=window.jamverse,s=g.state,p=s.players.find(x=>x.id==='leo');p.x=100;p.y=courtY;p.z=z;p.facing=facing;p.animation={clip:'alley-oop-power',tick};p.anim='alley-oop-power';p.hasBall=tick<21;const h=track.height[frame],f=track.forward[frame];if(tick<21){s.ball.x=p.x+facing*f;s.ball.y=p.y;s.ball.z=p.z+h;s.ball.mode='carried';s.ball.ownerId='leo'}else{const [dx,bz]=release[String(tick)]??[f,p.z+h];s.ball.x=p.x+facing*dx;s.ball.y=p.y;s.ball.z=bz;s.ball.mode='dunk';s.ball.ownerId=null}s.ball.targetId=null;s.ball.aerialTargetId=null;s.ball.vx=0;s.ball.vy=0;s.ball.vz=0;g.tick(0);const {selectProductionSprite}=await import('/src/render/animation-sprites.js');const {animationAssetManifest}=await import('/src/content/animation-assets.js');const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:new Map([[atlas,window.__leoDoubleAtlas]])});return{tick,frame,facing,z:p.z,ballMode:s.ball.mode,owner:s.ball.ownerId,ball:{x:s.ball.x,y:s.ball.y,z:s.ball.z},canvasArt:document.querySelector('#game').dataset.gameplayArt,selection:selected&&{src:selected.src,frame:selected.frame,flip:selected.flip,classification:selected.classification,production:selected.production}}}""",{'tick':tick,'frame':frame,'facing':facing,'z':z_by_tick[tick],'track':track,'release':release,'atlas':atlas,'courtY':COURT_Y})
                     name=f'tick{tick:02d}-{direction}-zoom{zoom}.png';page.locator('#game').screenshot(path=str(OUT/name));report['captures'].append({**info,'zoom':zoom,'path':str((OUT/name).relative_to(ROOT))})
         browser.close()
         if errors:raise RuntimeError(f'Browser errors: {errors}')
         if len(report['captures'])!=60 or any(c['canvasArt']!='generated-full-roster-atlases' for c in report['captures']):raise RuntimeError('Expected 60 production dunk captures')
-        if any(c['selection'] is None or c['selection']['src']!=atlas or c['selection']['flip']!=(c['facing']<0) for c in report['captures']):raise RuntimeError(f"Production selector did not return Leo atlas: {report['captures'][0].get('selection')}")
+        if any(c['selection'] is None or c['selection']['src']!=atlas or c['selection']['flip']!=(c['facing']<0) for c in report['captures']):raise RuntimeError('Production selector mismatch: '+str(next((c for c in report['captures'] if c['selection'] is None or c['selection']['src']!=atlas or c['selection']['flip']!=(c['facing']<0)),None)))
         report['captureCount']=len(report['captures']);report['uncaughtBrowserErrors']=errors;(OUT/'report.json').write_text(json.dumps(report,indent=2)+'\n')
         print(json.dumps({'captures':len(report['captures']),'ticks':ticks,'errors':errors,'out':str(OUT)}))
 finally:

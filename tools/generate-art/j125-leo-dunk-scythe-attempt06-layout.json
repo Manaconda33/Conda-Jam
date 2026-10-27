@@ -618,7 +618,7 @@
       "exec-24cfe1f0-f774-4e9d-af53-648408820184",
       "exec-0c987f72-7e0a-4c1d-a78e-e61eb72a64c8"
     ],
-    "generatedAt": "2026-10-27",
+    "generatedAt": "2026-10-27T21:35:00Z",
     "primaryPrompt": "tools/generate-art/j125-leo-dunk-scythe-attempt04-action-edit-prompt.md",
     "pose11Prompt": "tools/generate-art/j125-leo-dunk-scythe-pose11-attempt06-prompt.md",
     "sourceImages": [
@@ -653,6 +653,57 @@
     "atlasSha256": "c4472bcf30b37463978311d03da74b2ace68651af540562ebff9c9c8e49650b0",
     "cleanupReport": "tools/generate-art/j125-leo-dunk-scythe-attempt06-cleanup-report.json",
     "packingScript": "tools/generate-art/pack-j125-leo-dunk-scythe-attempt06-composite.py",
-    "derivedProcessing": "Composite from two preserved ImageGen sources; only pose11 replaced with separately generated source pose; alpha>=16 cleanup and nearest-neighbor atlas packing."
+    "derivedProcessing": "Composite from two preserved ImageGen sources; only pose11 replaced with separately generated source pose; alpha>=16 cleanup and nearest-neighbor atlas packing.",
+    "ballTrack": {
+      "height": [
+        1.1,
+        0.9,
+        1.0,
+        1.1,
+        1.3,
+        1.05,
+        1.1,
+        0.85,
+        0.6,
+        0.3,
+        -0.3,
+        0.4,
+        0.2,
+        0.65,
+        0.55
+      ],
+      "forward": [
+        6,
+        2,
+        -5,
+        -8,
+        0,
+        2.2,
+        4,
+        8.3,
+        5,
+        5.5,
+        3.2,
+        1,
+        -2,
+        -1,
+        0
+      ],
+      "trials": "tools/generate-art/previews/leo-dunk-scythe-track-candidate/track-trials.json"
+    },
+    "trackReview": {
+      "attempt": 6,
+      "captures": 60,
+      "facings": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "notes": "Independent review approves carry contact at ticks19-20 (<quarter ball radius clearance), gather/peak, tick21 release and safe left mirroring; zero browser errors."
+    },
+    "prompt": "tools/generate-art/j125-leo-dunk-scythe-attempt04-action-edit-prompt.md"
   }
 }

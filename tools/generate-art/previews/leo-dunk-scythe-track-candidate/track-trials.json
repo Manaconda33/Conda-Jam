@@ -541,7 +541,7 @@
           0.6
         ]
       },
-      "result": "Best current candidate: ticks19\u201320 move upward from attempt03 and sit within roughly one ball radius of the descending fingertips in both facings. Tick21 release remains on the lowered hand path. No visible discontinuity in sampled stills.",
+      "result": "Accepted after independent visual and deterministic gameplay review: both-facing ticks19\u201320 contact within a few pixels of descending fingertips; gather, peak and separate tick21 release pass. 60 captures; zero errors.",
       "evidenceDirectory": "tools/generate-art/previews/leo-dunk-scythe-track-candidate/attempt-06/native",
       "captureCount": 60,
       "ticks": [

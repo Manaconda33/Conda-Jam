@@ -1,7 +1,7 @@
 {
   "athlete": "leo",
   "clip": "dunk-scythe",
-  "runtimeRegistration": "none",
+  "runtimeRegistration": "registered and gameplay-validated",
   "attempts": [
     {
       "attempt": 1,
@@ -178,6 +178,13 @@
     "atlas": "public/assets/animation/leo-dunk-scythe-attempt06-right.webp",
     "layout": "tools/generate-art/j125-leo-dunk-scythe-attempt06-layout.json",
     "cleanupReport": "tools/generate-art/j125-leo-dunk-scythe-attempt06-cleanup-report.json",
-    "reviewStatus": "packed art/layout independent review passed; track calibration pending"
+    "reviewStatus": "packed art/layout independent review passed; track calibration pending",
+    "status": "accepted and registered",
+    "trackTrial": 6,
+    "independentReview": {
+      "art": "accepted",
+      "track": "accepted",
+      "notes": "Attempt06 passed 60 native captures across both facings and 100/120%; late carry remains within a few pixels of the descending hand. Gameplay asserts track values, ownership through tick20, release tick21, score tick23, and landing tick30."
+    }
   }
 }
