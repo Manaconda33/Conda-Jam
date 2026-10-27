@@ -87,6 +87,21 @@ test('Krios J.128 shoot and chest pass select reviewed original poses with separ
  assert.equal(anchorTick('shoot','release'),13);assert.equal(sampleAnimation('shoot',12).frame,4);assert.equal(sampleAnimation('shoot',13).frame,5);
  assert.equal(anchorTick('pass','release'),5);assert.equal(sampleAnimation('pass',4).frame,2);assert.equal(sampleAnimation('pass',5).frame,3);
 });
+test('Kraken J.07 block selects four canon-reviewed original poses at every anchor and facing',()=>{
+ const id='kraken',character=animationAssetManifest.characters[id],clip=character.directions.right.block,atlas='./public/assets/animation/kraken-block-right.webp';
+ assert.equal(character.mirrorSafe,true);assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.columns,2);assert.equal(clip.rows,2);assert.equal(clip.frames.length,4);assert.equal(new Set(clip.frames.map(f=>f.hash)).size,4);
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.generationId,'exec-9014a559-d83c-42c5-a808-9d607c06a219');
+ assert.equal(clip.provenance.sourceCandidateReview.status,'accepted');assert.equal(clip.provenance.nativeCandidateReview.captures,16);
+ assert.deepEqual(clip.provenance.actionAnchors,{takeoff:1,apex:2,finish:3});
+ assert.equal(anchorTick('block','takeoff'),2);assert.equal(anchorTick('block','apex'),5);assert.equal(anchorTick('block','finish'),8);
+ const images=new Map([[atlas,{complete:true,naturalWidth:160,naturalHeight:192,file:atlas}]]);
+ for(const [tick,frame]of [[0,0],[2,1],[5,2],[8,3]])for(const [facing,flip]of [[1,false],[-1,true]]){
+  assert.equal(sampleAnimation('block',tick).frame,frame);
+  const sprite=selectProductionSprite({id,facing,animation:{clip:'block',tick}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+ }
+});
 test('held balls remain visible in front of their carrier at every jump height',()=>{
  for(const z of [0,5,18]){const owner={id:'carrier',y:50,z};const depth=ballDrawDepth({mode:'carried',ownerId:owner.id,y:50},[owner]);assert.ok(depth>owner.y-owner.z*.05);assert.ok(depth<51);}
  assert.equal(ballDrawDepth({mode:'shot',y:50},[]),49.5);

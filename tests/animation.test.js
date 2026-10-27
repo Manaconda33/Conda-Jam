@@ -27,6 +27,22 @@ test('Krios shoot and chest pass keep the separate ball athlete-owned until thei
   assert.equal(m.ball.ownerId,null);
  }
 });
+test('Kraken block is a ball-free defender action with the canonical jump and apex frames in either facing',()=>{
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:89,away:{roster:[{id:'kraken'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='kraken');
+  p.facing=facing;
+  stepMatch(m,m.players.map(player=>createInput(player.id,player===p?{blockPressed:true,x:facing}:{})));
+  assert.equal(p.animation.clip,'block');assert.equal(p.animation.tick,0);assert.ok(p.vz>0,'block action initiates the defensive jump');
+  assert.equal(p.hasBall,false);assert.equal(m.ball.mode,'carried');assert.notEqual(m.ball.ownerId,p.id);
+  const frames=[];
+  for(let tick=0;tick<=8;tick++){
+   frames.push(sampleAnimation('block',p.animation.tick).frame);
+   stepMatch(m,m.players.map(player=>createInput(player.id)));
+  }
+  assert.deepEqual(frames,[0,0,1,1,1,2,2,2,3],`canonical block pose sequence, facing ${facing}`);
+  assert.equal(m.ball.mode,'carried');assert.notEqual(m.ball.ownerId,p.id,'defensive animation does not steal ball ownership by itself');
+ }
+});
 test('Dorian has all reviewed clips and runtime ball paths match recorded provenance',()=>{
  const clips=animationAssetManifest.characters['dorian-mycel'].directions.right;
  assert.equal(Object.keys(clips).length,29);

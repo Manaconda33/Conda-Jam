@@ -63541,13 +63541,102 @@
             },
             "reviewed": true,
             "reviewNotes": "Canon reviewed: natural-skinned short-haired adult male elf, pointed ears, refined face, burgundy/dark kit and copper amulet. No tentacles or blue skin. All42 source poses and every packed locomotion crop inspected. Distinct authored poses; low dribble anchors at frame16/37."
+          },
+          "block": {
+            "src": "./public/assets/animation/kraken-block-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "9a03171d96f76e6817150c6d4532bf5014a207fe9c2e7d30c42ff2defd81f57f"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "7f96acd33a7ceb2eaa8795d87367d0527263e0d227ce3947e7153d7751e957b7"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "cc7033f133987ed487cd429b3671e5e7a99cd66d60a432c9802f576c378c458a"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "552c07d9a55779f45467ba73a3be9f023351f0213db0e1f6d5254a744d5a6c33"
+              }
+            ],
+            "sha256": "15aa4e7fc243c0ab5666786cdf644691767cbe39e273c99248f17bd0b028cf43",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "kraken",
+              "clip": "block",
+              "direction": "right",
+              "canonicalSection": "J.07",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-27",
+              "generationId": "exec-9014a559-d83c-42c5-a808-9d607c06a219",
+              "imageGenerationId": "exec-9014a559-d83c-42c5-a808-9d607c06a219",
+              "rawSourceImage": "tools/generate-art/sources/kraken-block-candidate2/edited-candidate3.png",
+              "rawSourceSha256": "6b152b5b98b2aeb6fc8c5bdf4c6363c16f51b4b9905bd7a0e31fdd98dee9e25b",
+              "sourceSha256": "6b152b5b98b2aeb6fc8c5bdf4c6363c16f51b4b9905bd7a0e31fdd98dee9e25b",
+              "prompt": "Revise the supplied rejected four-pose Kraken block sprite sheet into production-ready game sprites, using the supplied Kraken locomotion atlas as the exact character design and exact crisp pixel-art rendering reference. Preserve the action sequence and same character: four original right-facing full-body frames in a strict 2-column by 2-row row-major grid. Make each figure smaller and centered well inside its equal-size cell, with a wide transparent gutter between rows and columns, at least 12% transparent padding from every cell edge, and no hand, ear, hair or shoe closer than 12% to an edge. Keep all anatomy complete, no clipping. Align grounded poses to the same baseline. Use the reference's compact 80x96 game-sprite pixel density, sharp stepped outline, clean pixel clusters and restrained shading. Keep the adult male elf-like identity, natural skin tone, short cropped dark hair, pointed ears, refined face, burgundy/dark gothic Vesper Harbor kit with copper accents and copper Cthulhu amulet. No tentacles, sea-creature features or blue skin. Four distinct poses: defensive crouch, takeoff with near hand rising, apex block with open hand vertically extended and knees folded, balanced landing recoil. Hands remain empty; no basketball is drawn. Preserve true transparent background; do not include floor, shadows, court, hoop, glow, backdrop, grid lines, text, logo, border, extra objects, merged silhouettes, duplicate poses, or extra limbs. Keep the four pose figures consistent and match the production atlas pixel art rather than the smoother shading of the rejected sheet.",
+              "promptFile": "tools/generate-art/sources/kraken-block-candidate3-prompt.md",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "normalizationAtlas": "tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+              "normalizationSha256": "c98d3f71f5eab76a880e233f9ff075d94cee07348d610fb30b9eefd2d6add37a",
+              "normalizationLayout": "tools/generate-art/sources/kraken-block-candidate3-cleanup02-layout.json",
+              "cleanupScript": "tools/generate-art/remove-kraken-block-fringe-specks.py",
+              "cleanupNotes": "Four source poses isolated by largest 8-connected components, normalized to 80x96 cells with nearest-neighbor sampling and binary alpha. Four individually reviewed isolated red/cyan pixels removed from the derived sheet; original generation and earlier derivatives remain preserved.",
+              "sourceCandidateReview": {
+                "status": "accepted",
+                "reviewer": "candidate_review",
+                "notes": "Four poses distinct and complete; canonical elf identity/anatomy; clean margins, aligned baseline, no baked-in ball; crisp target scale and no detached edge residues after cleanup02."
+              },
+              "nativeCandidateReview": {
+                "status": "accepted",
+                "reviewer": "kraken_block_native_review",
+                "report": "tools/generate-art/previews/kraken-block-native-candidate/report.json",
+                "captures": 16,
+                "notes": "All four frame starts at ticks0/2/5/8, both facings, 100%/120%, current Jam Stage courtY90, correct temporary source/frame/flip; no browser errors, HUD collision, alpha clipping, or ball in athlete artwork."
+              },
+              "actionAnchors": {
+                "takeoff": 1,
+                "apex": 2,
+                "finish": 3
+              },
+              "ballPolicy": "defensive block clip has no carried-ball track; the separate basketball remains on its owner or in flight.",
+              "references": [
+                "public/assets/animation/kraken-run-right.webp",
+                "tools/generate-art/sources/kraken-block-candidate2/raw.png"
+              ],
+              "reviewedAt": "2026-10-27"
+            },
+            "reviewed": true,
+            "reviewNotes": "Four complete original poses passed independent source review and 16 current-court native Jam Stage captures; no ball is baked in. Live block-input simulation is covered separately."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "The canonical silhouette and permanent details have no fixed direction; the approved right-facing locomotion sheet may be mirrored. Canon reviewed: natural-skinned short-haired adult male elf, pointed ears, refined face, burgundy/dark kit and copper amulet. No tentacles or blue skin. All42 source poses and every packed locomotion crop inspected. Distinct authored poses; low dribble anchors at frame16/37."
+        "notes": "Kraken’s elf ears, cropped hair, amulet and uniform do not contain a fixed-side mark or handed prop. The block poses were inspected right-facing and with horizontal mirroring in native Jam Stage captures; both versions retain complete anatomy and readable defensive poses.",
+        "reviewedAt": "2026-10-27",
+        "scope": "J.07 block clip body mirroring",
+        "evidence": [
+          "tools/generate-art/previews/kraken-block-native-candidate/report.json"
+        ]
       }
     },
     "krios": {
