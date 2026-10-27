@@ -1,3 +1,11 @@
+## Captain lane update — 2026-10-27
+
+On published baseline `b8ead761`, four separately authored and reviewed Leo (captain) clips are now registered: `block`, `push`, `fall`, and `celebrate`. Source atlases with detached alpha flecks remain preserved; runtime uses separately cleaned lossless atlases. Exact prompts, generations, raw sources, provenance, layouts, cleanup report and light/dark previews are retained under the Leo captain integration files. Leo has9/29 registered clips.
+
+The refreshed strict audit at `docs/animation-production/ASSET_AUDIT_LATEST.md` reports2,329 effective assignments, 774 missing assignments across31 incomplete captains, 4,771 unique source drawings and no target-count shortfall. All70 supporting players retain complete reviewed coverage under the authorized reuse model. The four remaining audit findings other than captain gaps are inherited prompt-provenance findings. Overall animation acceptance remains incomplete.
+
+See [CAPTAIN_GAP_CHECKPOINT.md](CAPTAIN_GAP_CHECKPOINT.md) for source lineage, visual review, exact validation results and the next captain work.
+
 ## Current J.137 Briar Foxglove `celebrate` checkpoint — 2026-10-27
 
 J.137 attempt02 is accepted and registered as `public/assets/animation/briar-foxglove-celebrate-right.png`. Ten original, distinct celebration poses occupy a transparent 5×2 atlas of80×96 cells with baseline y=94. Briar's canonical human identity, anatomy, locs, red headband, face and russet/cream palette pass review. Attempt01 and its superseding edit, exact prompts/IDs, raw source hashes, nine removed low-alpha specks, cleanup, layout and light/dark proofs are retained under the J.137 files. Alpha≥16 packed margins are at least10px at top/sides and2px at the shared baseline.

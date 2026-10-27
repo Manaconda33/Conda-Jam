@@ -1,3 +1,9 @@
+## Current captain-lane checkpoint — 2026-10-27 04:12 UTC
+
+Work is isolated in `/workspace/captain-animation`, branch `codex/captain-animation-completion`, based on published `main` `b8ead761`. Four original Leo captain clips (`block`, `push`, `fall`, `celebrate`) have been reviewed and registered. Preserve original candidate atlases, prompts, source PNGs and provenance; runtime uses separate cleaned lossless derivatives. Details and exact file paths are in `docs/animation-production/CAPTAIN_GAP_CHECKPOINT.md`.
+
+Validation passed: 513 automated tests, 21-module lint, content validation (35 teams/105 athletes/35 captains), production build and report-only strict asset audit. The audit remains incomplete with774 captain clip assignments missing across31 captains and four inherited prompt findings; Leo is9/29. Next: review and calibrate the remaining Leo source-only ball-bearing clips with Leo-specific tracks before registering them, then generate Leo's eight absent actions and continue across the remaining captain gaps. Chromium E2E passed; native visual gameplay review remains open because the supplemental capture missed Leo. The large in-progress original art worktree `/workspace/Conda-Jam` and the user-owned J.106 helper were left untouched.
+
 # Session handoff — 2026-10-27 02:43 UTC
 
 ## Current J.137 Briar Foxglove `celebrate` checkpoint — 2026-10-27 02:43 UTC

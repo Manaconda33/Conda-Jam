@@ -1,3 +1,9 @@
+## Captain work checkpoint — 2026-10-27
+
+Published `main` baseline for this isolated lane: `b8ead761`. The branch `codex/captain-animation-completion` integrates four original Leo captain clips (`block`, `push`, `fall`, `celebrate`) with individual source art, preserved source lineage, transparent cleaned lossless atlases, and light/dark proofs. See `docs/animation-production/CAPTAIN_GAP_CHECKPOINT.md`.
+
+Strict audit: 2,329 effective clip assignments, 774 captain clips missing across31 incomplete captains, and four inherited prompt-not-verbatim findings. Leo is9/29. 513 tests, lint, content validation, build and Chromium E2E pass. Atlas source/packed art passed independent opaque light/dark review; the supplementary native screenshot harness missed Leo and remains diagnostic. Next work: reconcile Leo's remaining twelve source-only ball-bearing clips with Leo-specific tracks and gameplay anchors, then produce the eight still-missing Leo actions before advancing to the other captains. Do not alter the original art/provenance in `/workspace/Conda-Jam`, which remains an active user worktree.
+
 ## Current J.137 Briar Foxglove `celebrate` checkpoint — 2026-10-27 02:42 UTC
 
 J.137 attempt02 is accepted and registered: ten distinct Briar celebration poses in a400×192 5×2 atlas of80×96 cells, baseline y=94, no ball. Attempt01 and its superseding edit, both exact prompts/IDs/raw PNGs, cleanup, source layouts and light/dark proofs are preserved. Source, packed and native reviewers pass Briar identity/anatomy, all ten poses, transparency, margins and runtime readability. Jam Stage production captures at courtY75 select frames0–9 at ticks0,5,10,16,24,34,44,52,59,65 in both facings at100%/120%; ball remains dead and unowned. No Briar carry track applies.

@@ -4,17 +4,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 2,
-  "generatedAt": "2026-10-27T03:42:40.102Z",
+  "generatedAt": "2026-10-27T10:39:38.961Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 2325,
-  "missingClipCount": 778,
+  "inspectedClips": 2329,
+  "missingClipCount": 774,
   "uniqueSourceLibraries": 42,
-  "uniqueSourceAtlases": 498,
-  "uniqueSourceDrawings": 4736,
+  "uniqueSourceAtlases": 502,
+  "uniqueSourceDrawings": 4771,
   "classifications": {
-    "original-authored": 498,
+    "original-authored": 502,
     "derived-palette": 1827
   },
   "assignmentClassifications": {
@@ -121,8 +121,8 @@
       "sourceLibrary": "echo-catwalk"
     },
     "leo": {
-      "clips": 5,
-      "missingClips": 24,
+      "clips": 9,
+      "missingClips": 20,
       "classification": "incomplete",
       "assignmentStatus": "original-authored",
       "lineage": null,
@@ -954,13 +954,6 @@
       "code": "missing-clip",
       "athlete": "leo",
       "direction": "right",
-      "clip": "block",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
       "clip": "steal",
       "classification": "original-authored"
     },
@@ -968,28 +961,7 @@
       "code": "missing-clip",
       "athlete": "leo",
       "direction": "right",
-      "clip": "push",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
       "clip": "rebound",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
-      "clip": "fall",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
-      "clip": "celebrate",
       "classification": "original-authored"
     },
     {
@@ -44438,6 +44410,389 @@
           "h": 96,
           "hash": "3c63bdc873873c186203520b504e7a816abced6be684e245a41af54558bfa47c",
           "visiblePixels": 2491
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-block-captain-reviewed-right.webp",
+      "width": 160,
+      "height": 192,
+      "sha256": "5da31c4643e0a806e641e09d431caf3e07d8d28b28b82ed480f43c83a7675054",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f1508a07a66525272441e467161175847442435f10430f81e83141bb0eacc76b",
+          "visiblePixels": 1847
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "1028d548bb49afe3c97a20edf149b4ad4d733e2061ddb824ac935fb41b7bc973",
+          "visiblePixels": 2006
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b66550e209e1289a1095179fb82c524df5b3cb32e12763e11cb5fc8b47bf4d62",
+          "visiblePixels": 2170
+        },
+        {
+          "index": 3,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "675a424b8d2b979bc3145e2bd25453a7a313125da12805b97c52090fd8bf3e4e",
+          "visiblePixels": 1932
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-push-captain-reviewed-right.webp",
+      "width": 448,
+      "height": 288,
+      "sha256": "e087b87834e29b72742fa1158c6a77feafde51c81f1d38016b1e8ee9a86a47f1",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "7adfee216a3ba43609e5c3f6a53b9742396156b3468e9c93fd487876df6d0e06",
+          "visiblePixels": 3483
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "e75cd50d195c4c7fb74dbb725bb04e56ca57888ef32cefe010de07f18be86e45",
+          "visiblePixels": 3588
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "af6b5033a823051766908deb25b7621d0b07cd4ab11056de27f360243c05e24e",
+          "visiblePixels": 3879
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "d503ebbd1250f07f8dc3074be46ae07a674fda1cf3c39360d7590fd66a22a684",
+          "visiblePixels": 3680
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "d3483eeccd7f611e273a4672a5fd4d7c202cabd6749ffbbd3bd4ce125d5eb0dc",
+          "visiblePixels": 3566
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "3915309ec2a92536c14c94fffdf104e298d11718a9393f3b94d1f54910d91c33",
+          "visiblePixels": 3442
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "7e40b29776ba5633717d9de529a0b8e70ab3484e900cc2753bb375090821f97d",
+          "visiblePixels": 3616
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "803d2433624e5304bde65a926f8cb74a2e36fe2c2c5eb9f6d54d15e2ebc2aa17",
+          "visiblePixels": 3272
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "3868570905f87c739e6e932e137e847d6d208f3c582e2c8bbe03da34b7b5cbaf",
+          "visiblePixels": 3448
+        },
+        {
+          "index": 9,
+          "x": 112,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "70f8d166d71ad4c262a6598710e6750a2a91060de561eb7e1b2abb8d61031df7",
+          "visiblePixels": 3262
+        },
+        {
+          "index": 10,
+          "x": 224,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "841e55732130dc95dbe493010f0fe63873baa8bc65dea266ed83a06d845feb39",
+          "visiblePixels": 3384
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-fall-captain-reviewed-right.webp",
+      "width": 480,
+      "height": 192,
+      "sha256": "377e735e2748c0100723ffef7377255dc72a439493e0b14bcb6615faecf33a6c",
+      "required": 10,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a19c38a53dc918a9c3f699ff17e4198628a80c215f104be427c2e282b32c1d47",
+          "visiblePixels": 2849
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bb528e73641dc6b353d3b961d76f629bd40216dff567b4073f92d221d7bfe9da",
+          "visiblePixels": 2745
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "070356246b6f0b13147a58832c5da33e704528180e87593b4af32f9054a32f7f",
+          "visiblePixels": 2526
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7430a56d1c1d1810485ace0ab22133f38287cc10fb0aabe39bab722040ef29eb",
+          "visiblePixels": 2375
+        },
+        {
+          "index": 4,
+          "x": 384,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "89234a6b3da5a2f22c1bad9adbae6046eb18ad8707231c61e1e2a62da7854cac",
+          "visiblePixels": 2234
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "840c99454c17b4983cae62e6d43f8ccd0b446c511b3e830beece3c44d59dc841",
+          "visiblePixels": 2537
+        },
+        {
+          "index": 6,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "237258ee41675dee46a5617322a532602f03ef6e80032e9973d901a7e8fb52cb",
+          "visiblePixels": 2586
+        },
+        {
+          "index": 7,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d55b74fe64af6e8b533827478ec66cefbf0f1f7aec41fef98e33adc7b8fb8ad9",
+          "visiblePixels": 2505
+        },
+        {
+          "index": 8,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4f4ed5fe106dbd2c6429d1b1684edbac2197b393e7a4568ec2456ef31f83931c",
+          "visiblePixels": 3127
+        },
+        {
+          "index": 9,
+          "x": 384,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ae4f402ae9c2bb82dd821bfd8150983a83d001bf191d59604640976ad6f1afa5",
+          "visiblePixels": 3012
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-celebrate-captain-reviewed-right.webp",
+      "width": 400,
+      "height": 192,
+      "sha256": "0d001ca25f4da978678ee359c7fc1a1b66a463928c971f9b55972128c0795b32",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "4f250c93a19c98298f03c2bc195a6cf094e53f2f8d2639438e22c6b701a33068",
+          "visiblePixels": 2165
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "4d7ac87956c569655173781d367f195e5b7af1735d733b7edecc77c28605c52b",
+          "visiblePixels": 2181
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "36b90159a74a5fd263c34cee96170af2312c2194185e1c9c15fa295830b87ca6",
+          "visiblePixels": 2096
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "201693a3a3dc44c152082952f63382386c91ec4f897adba1030a260b382a64a6",
+          "visiblePixels": 2095
+        },
+        {
+          "index": 4,
+          "x": 320,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "0b44792178a0ea15a59e4f547cb96f435c6d64db33211b7bb8f8450ecb7f05b7",
+          "visiblePixels": 2063
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "81b89b3082999a97b529bdde6ae744b9eeacf5437b39d0e36e045be436b73f66",
+          "visiblePixels": 2201
+        },
+        {
+          "index": 6,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "bf329c07b20131479654b4a7544d6513f5b6fbeb76ea5cd705180f8c7c2b3eb9",
+          "visiblePixels": 2267
+        },
+        {
+          "index": 7,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "0ba9acb8becb317b02e590fa903ae3b862bec265364ea711885d378a89cefd98",
+          "visiblePixels": 2177
+        },
+        {
+          "index": 8,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "28e1d418be7f8596708ab1ec70326cd8ba075a3366b65a334f31dd8005b80cd0",
+          "visiblePixels": 2108
+        },
+        {
+          "index": 9,
+          "x": 320,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "0c3af5ba100ca7a9428aab4140d2c45472564c3f6439580414a516c922738bd3",
+          "visiblePixels": 2163
         }
       ]
     },

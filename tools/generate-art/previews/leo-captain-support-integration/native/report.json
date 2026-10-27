@@ -1,0 +1,1457 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4191/",
+  "athlete": "leo",
+  "clipCaptures": [
+    {
+      "clip": "block",
+      "tick": 0,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 100
+    },
+    {
+      "clip": "block",
+      "tick": 0,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 100
+    },
+    {
+      "clip": "block",
+      "tick": 2,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 100
+    },
+    {
+      "clip": "block",
+      "tick": 2,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 100
+    },
+    {
+      "clip": "block",
+      "tick": 5,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 100
+    },
+    {
+      "clip": "block",
+      "tick": 5,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 100
+    },
+    {
+      "clip": "block",
+      "tick": 8,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 100
+    },
+    {
+      "clip": "block",
+      "tick": 8,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 0,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 0,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 2,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 2,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 4,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 4,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 6,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 6,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 7,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 7,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 8,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 8,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 10,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 10,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 12,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 12,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 15,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 15,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 18,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 18,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 21,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 10,
+      "zoom": 100
+    },
+    {
+      "clip": "push",
+      "tick": 21,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 10,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 0,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 0,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 2,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 2,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 4,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 4,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 6,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 6,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 9,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 9,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 12,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 12,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 16,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 16,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 21,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 21,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 27,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 27,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 33,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 100
+    },
+    {
+      "clip": "fall",
+      "tick": 33,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 0,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 0,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 5,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 5,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 10,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 10,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 16,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 16,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 24,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 24,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 34,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 34,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 44,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 44,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 52,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 52,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 59,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 59,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 65,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 100
+    },
+    {
+      "clip": "celebrate",
+      "tick": 65,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 100
+    },
+    {
+      "clip": "block",
+      "tick": 0,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 120
+    },
+    {
+      "clip": "block",
+      "tick": 0,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 120
+    },
+    {
+      "clip": "block",
+      "tick": 2,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 120
+    },
+    {
+      "clip": "block",
+      "tick": 2,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 120
+    },
+    {
+      "clip": "block",
+      "tick": 5,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 120
+    },
+    {
+      "clip": "block",
+      "tick": 5,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 120
+    },
+    {
+      "clip": "block",
+      "tick": 8,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 120
+    },
+    {
+      "clip": "block",
+      "tick": 8,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 0,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 0,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 2,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 2,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 4,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 4,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 6,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 6,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 7,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 7,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 8,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 8,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 10,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 10,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 12,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 12,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 15,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 15,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 18,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 18,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 21,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 10,
+      "zoom": 120
+    },
+    {
+      "clip": "push",
+      "tick": 21,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 10,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 0,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 0,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 2,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 2,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 4,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 4,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 6,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 6,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 9,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 9,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 12,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 12,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 16,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 16,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 21,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 21,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 27,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 27,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 33,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 120
+    },
+    {
+      "clip": "fall",
+      "tick": 33,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 0,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 0,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 5,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 5,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 10,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 10,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 16,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 16,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 24,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 24,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 34,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 34,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 44,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 44,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 6,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 52,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 52,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 59,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 59,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 8,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 65,
+      "facing": 1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 120
+    },
+    {
+      "clip": "celebrate",
+      "tick": 65,
+      "facing": -1,
+      "ballMode": "dead",
+      "owner": null,
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 9,
+      "zoom": 120
+    }
+  ],
+  "clipTimings": {
+    "block": [
+      2,
+      3,
+      3,
+      4
+    ],
+    "push": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fall": [
+      2,
+      2,
+      2,
+      3,
+      3,
+      4,
+      5,
+      6,
+      6,
+      7
+    ],
+    "celebrate": [
+      5,
+      5,
+      6,
+      8,
+      10,
+      10,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "captureCount": 140,
+  "uncaughtBrowserErrors": [],
+  "reviewStatus": "diagnostic-only",
+  "reviewFinding": "The athlete was not visible in the stage screenshots; these images are not visual acceptance evidence.",
+  "cleanup": "PNG captures were omitted after the framing failure; rerun the corrected review through the project preview harness."
+}
