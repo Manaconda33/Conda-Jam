@@ -94,5 +94,21 @@
     "path": "/workspace/generated_images/exec-96e9b9db-08f9-4ce4-90ea-7832da1a2094.png",
     "prompt": "tools/generate-art/j132-briar-foxglove-block-attempt-07-edit-prompt.md",
     "generatedAt": "2026-10-27T00:44:15.390Z"
+  },
+  {
+    "group": "J.133 Briar Foxglove",
+    "clip": "steal",
+    "frame": "attempt-01",
+    "path": "/workspace/generated_images/exec-747a691a-e74c-4571-b4d0-597ee09e9670.png",
+    "prompt": "tools/generate-art/j133-briar-foxglove-steal-attempt-01-prompt.md",
+    "generatedAt": "2026-10-27T00:57:34.201Z"
+  },
+  {
+    "group": "J.133 Briar Foxglove",
+    "clip": "steal",
+    "frame": "attempt-02",
+    "path": "/workspace/generated_images/exec-fc376c8d-62e8-4d04-9ab1-d1a748df69cb.png",
+    "prompt": "tools/generate-art/j133-briar-foxglove-steal-attempt-02-edit-prompt.md",
+    "generatedAt": "2026-10-27T00:59:01.903Z"
   }
 ]

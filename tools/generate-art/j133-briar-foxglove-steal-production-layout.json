@@ -1,0 +1,20 @@
+{
+  "athlete":"briar-foxglove","direction":"right","clip":"steal",
+  "src":"./public/assets/animation/briar-foxglove-steal-right.png","columns":4,"rows":2,
+  "frames":[
+    {"x":0,"y":0,"w":72,"h":95},{"x":72,"y":0,"w":72,"h":95},{"x":144,"y":0,"w":72,"h":95},{"x":216,"y":0,"w":72,"h":95},
+    {"x":0,"y":95,"w":72,"h":95},{"x":72,"y":95,"w":72,"h":95},{"x":144,"y":95,"w":72,"h":95},{"x":216,"y":95,"w":72,"h":95}
+  ],
+  "provenance":{
+    "issue":"J.133","prompt":"tools/generate-art/j133-briar-foxglove-steal-attempt-02-edit-prompt.md",
+    "generatedAt":"2026-10-27T00:59:01.903Z","imageGenId":"exec-fc376c8d-62e8-4d04-9ab1-d1a748df69cb",
+    "rawSource":"tools/generate-art/sources/j133-briar-foxglove-steal-attempt-02-raw.png","rawSourceSha256":"1d5673cbb06bc289eeac65548d704165e28863b0b51dc271bb5155720d33170d",
+    "sourceCandidate":"tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+    "normalizationScript":"tools/generate-art/normalize-j133-briar-foxglove-steal-attempt-02.py",
+    "normalizationReport":"tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/normalization-report.json",
+    "lightDarkPreview":"tools/generate-art/previews/j133-briar-foxglove-steal-attempt-02-light-dark-preview.png",
+    "reviewRecord":"tools/generate-art/j133-briar-foxglove-steal-attempt-02-review.md",
+    "nativeReview":"tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-{100,120}/report.json",
+    "ballTrackTrialRecord":"tools/generate-art/j133-briar-foxglove-steal-balltrack-trials.json"
+  }
+}

@@ -1,8 +1,8 @@
-# QA — 2026-10-27 J.132 Briar block accepted
+# QA — 2026-10-27 J.133 Briar steal accepted locally
 
-- J.132 attempt07 is registered; independent source/packed/native review accepts all four distinct defensive poses. Both facings select all frames at100%/120% on Jam Stage court Y=75. Ball stays dead/unowned; block has no ball track. The source normalizer preserves raw art and removes only detached low-alpha pixels beyond the subject halo.
-- Renderer candidate diagnostics now emit extra contact captures only when separate track arrays exist. Captures from the pre-fix candidate run with null event ticks are retained but excluded.
-- Validation: `npm test` 54/54; lint19 JavaScript modules; content35 franchises/105 unique athletes; build PASS. Strict report-only audit `2026-10-27T00:47:29.923Z`:105 athletes,827 clips,7,483 drawings,2,276 missing clips, one target shortfall, four inherited prompt findings. Browser E2E remains blocked because the local server exits before readiness at `127.0.0.1:4175`.
+- J.132 block and J.133 steal are accepted/registered in the local tree. J.133 selects frames0–7 in both facings at100%/120%, Jam Stage court y=75. The ball remains separate, loose and unowned; Briar-specific track trial02 meets the frame3/tick5 grab hand and remains visible through swipe.
+- `npm test`:55/55 PASS; lint19 modules PASS; content validation35 franchises/105 unique athletes PASS; standalone build PASS. Strict audit `2026-10-27T01:11:41.195Z`:105 athletes,828 clips,7,491 drawings,2,275 missing clips, one target shortfall, four inherited prompt findings. Browser E2E still cannot start its local server at `127.0.0.1:4175`.
+- GitHub API upload for J.132 exceeded the transport's safe payload size, truncating the generated 20MB manifest and asset module; verify job in Pages run #175 failed. Main was restored to the last verified J.131 tree via rollback commit `dc401b7d`. Run #176 is pending. Neither J.132 nor J.133 is deployed.
 
 
 # Latest checkpoint — Issue #4 stage default-renderer deployed (2026-10-26)

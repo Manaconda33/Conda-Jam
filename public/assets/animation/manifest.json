@@ -73970,25 +73970,29 @@
                 "x": 0,
                 "y": 0,
                 "w": 72,
-                "h": 95
+                "h": 95,
+                "hash": "48ee60439aac72f2c31f34ae0e2db13709a16d784c10352ebf76a69431e0a509"
               },
               {
                 "x": 72,
                 "y": 0,
                 "w": 72,
-                "h": 95
+                "h": 95,
+                "hash": "3a28cea114cdfbe079c15a96950be8265ff3d233aaf6e3441eb485bd1bf97377"
               },
               {
                 "x": 0,
                 "y": 95,
                 "w": 72,
-                "h": 95
+                "h": 95,
+                "hash": "a6f0c31566cbf8f6123a6961acb55c69056e546f6b3193e5bc238b5c226360ff"
               },
               {
                 "x": 72,
                 "y": 95,
                 "w": 72,
-                "h": 95
+                "h": 95,
+                "hash": "f11c24538d725e16fa03b641aabbaa7104fb8d347947a27e5d049bba03ad17b1"
               }
             ],
             "sha256": "07226b9373338536a289750d6ebf85da88ff91f579d75d35e4e5c17d9d0e47e5",
@@ -74014,13 +74018,126 @@
               "candidateOnly": false
             },
             "reviewed": true
+          },
+          "steal": {
+            "src": "./public/assets/animation/briar-foxglove-steal-right.png",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 95,
+                "hash": "ac7c2ea2434f8d8223876ae440ff7fea93d3963d2270d4001df15d07cea8f136"
+              },
+              {
+                "x": 72,
+                "y": 0,
+                "w": 72,
+                "h": 95,
+                "hash": "58757e5b2ad50983ebe267987c2f25aca099e309d540fe842df34d4f114db530"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 72,
+                "h": 95,
+                "hash": "e9e0a5ee21095d1be339665f22a4771afa17ba79e827fa1ed33c785eba225c19"
+              },
+              {
+                "x": 216,
+                "y": 0,
+                "w": 72,
+                "h": 95,
+                "hash": "b611425eabf2b9ff8a7f32ccc3a1e02ed795c3a5541fb6e7b0e3f8dfa9e660da"
+              },
+              {
+                "x": 0,
+                "y": 95,
+                "w": 72,
+                "h": 95,
+                "hash": "89a75c915ff10a9d5cf245cafe5ffadffae8b6aadfd12f6e0129afa104977d73"
+              },
+              {
+                "x": 72,
+                "y": 95,
+                "w": 72,
+                "h": 95,
+                "hash": "b01d79af9ecf808b8e2aca96a022b755fc24317bf909e738b3e8b5ff7d62baf5"
+              },
+              {
+                "x": 144,
+                "y": 95,
+                "w": 72,
+                "h": 95,
+                "hash": "5de67e2c6b7a926354a5fa98e17dcf4c75c435bfe0e6857f7b71b29e62b9e423"
+              },
+              {
+                "x": 216,
+                "y": 95,
+                "w": 72,
+                "h": 95,
+                "hash": "130972ded058b8742b29da1a69e8a9c1298910bef9cb57a7a895a2c41ee80ac3"
+              }
+            ],
+            "sha256": "4fd146a70ceb563810f7f35202315cfbd48a888be051b573ded02fa0ae41b664",
+            "source": "imagegen",
+            "provenance": {
+              "issue": "J.133",
+              "prompt": "tools/generate-art/j133-briar-foxglove-steal-attempt-02-edit-prompt.md",
+              "generatedAt": "2026-10-27T00:59:01.903Z",
+              "imageGenId": "exec-fc376c8d-62e8-4d04-9ab1-d1a748df69cb",
+              "rawSource": "tools/generate-art/sources/j133-briar-foxglove-steal-attempt-02-raw.png",
+              "rawSourceSha256": "1d5673cbb06bc289eeac65548d704165e28863b0b51dc271bb5155720d33170d",
+              "sourceCandidate": "tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+              "normalizationScript": "tools/generate-art/normalize-j133-briar-foxglove-steal-attempt-02.py",
+              "normalizationReport": "tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/normalization-report.json",
+              "lightDarkPreview": "tools/generate-art/previews/j133-briar-foxglove-steal-attempt-02-light-dark-preview.png",
+              "reviewRecord": "tools/generate-art/j133-briar-foxglove-steal-attempt-02-review.md",
+              "nativeReview": "tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-{100,120}/report.json",
+              "candidateOnly": false,
+              "ballTrack": {
+                "status": "accepted-native-review",
+                "trialRecord": "tools/generate-art/j133-briar-foxglove-steal-balltrack-trials.json",
+                "acceptedTrial": 2,
+                "height": [
+                  0.9,
+                  0.8,
+                  0.5,
+                  0.4,
+                  0.65,
+                  0.9,
+                  1.0,
+                  1.05
+                ],
+                "forward": [
+                  8,
+                  9,
+                  10,
+                  6,
+                  7,
+                  7,
+                  9,
+                  10
+                ],
+                "grabFrame": 3,
+                "grabTick": 5,
+                "review": "Separate ball touches the low grab hand within a few pixels in both facings at100%/120%; remains visible during swipe. Ball is loose/unowned throughout the steal."
+              },
+              "review": {
+                "status": "accepted",
+                "notes": "Independent source, packed light/dark, margins/baseline, pose-sequence, identity/anatomy and native Jam Stage review accepts attempt02. Frames0-7 select in both facings at100%/120%, courtY75; grab track trial02 meets frame3 hand at tick5."
+              }
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Native Jam Stage selects all four block frames in both facings at100%/120%; Briar identity and empty hands remain readable."
+        "notes": "Native Jam Stage review selects all eight Briar steal frames in both facings at100%/120%; separate ball remains loose/unowned."
       }
     },
     "keeg": {

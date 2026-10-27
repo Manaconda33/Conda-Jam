@@ -144,9 +144,10 @@ for(const clip of ['pass','pass-overhead','pass-behind','shoot','receive','picku
  const aerial=clip.startsWith('dunk-')||clip.startsWith('alley-oop-'),catchTick=anchorTick(clip,'grab');
  const caught=!clip.startsWith('alley-oop-')||tick>=catchTick;
  const releasedAerial=aerial&&tick>=anchorTick(clip,'release');
- p.hasBall=(clip==='pickup'?tick>=anchorTick('pickup','grab'):clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&caught&&!releasedPass&&!releasedShot&&!releasedAerial;
- const ballHeight=p.hasBall||releasedPass||releasedAerial?previewBallHeight(clip,tick,p.id)+p.z:releasedShot?flightHeightFromHand(previewBallHeight(clip,tick,p.id),p.z):0;
- Object.assign(state.ball,{x:p.x+p.facing*previewBallForward(clip,tick,p.id),y:p.y,z:ballHeight,mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':releasedAerial?'dunk':clip.startsWith('alley-oop-')?'pass':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
+ p.hasBall=(clip==='pickup'?tick>=anchorTick('pickup','grab'):clip==='rebound'?frame>=3:!['block','steal','push','fall','celebrate'].includes(clip))&&caught&&!releasedPass&&!releasedShot&&!releasedAerial;
+ const trackedLoose=clip==='steal';
+ const ballHeight=p.hasBall||releasedPass||releasedAerial||trackedLoose?previewBallHeight(clip,tick,p.id)+p.z:releasedShot?flightHeightFromHand(previewBallHeight(clip,tick,p.id),p.z):0;
+ Object.assign(state.ball,{x:p.x+p.facing*previewBallForward(clip,tick,p.id),y:p.y,z:ballHeight,mode:trackedLoose?'loose':p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':releasedAerial?'dunk':clip.startsWith('alley-oop-')?'pass':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
  document.getElementById('game').native.getContext('2d').clearRect(0,0,480,360);game.tick(0);
  const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
  const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});
@@ -166,7 +167,7 @@ for(const clip of ['pass','pass-overhead','pass-behind'].filter(shouldPreview))f
  await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
  passContactCaptures.push({path,athlete:p.id,clip,tick,facing,production:Boolean(selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages})),source:animationAssetManifest.characters?.[p.id]?.directions?.right?.[clip]?.src??null,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId,reviewPoint:'last carried tick before pass release'});
 }
-if(candidateReview&&shouldPreview(candidateReview.clip)&&(candidateReview.tickHeight||candidateReview.height)&&(candidateReview.tickForward||candidateReview.forward))for(const facing of [1,-1])for(const tick of candidateReview.captureTicks??[anchorTick(candidateReview.clip,'release')-1,anchorTick(candidateReview.clip,'release')]){
+if(candidateReview&&shouldPreview(candidateReview.clip)&&anchorTick(candidateReview.clip,'release')!==null&&(candidateReview.tickHeight||candidateReview.height)&&(candidateReview.tickForward||candidateReview.forward))for(const facing of [1,-1])for(const tick of candidateReview.captureTicks??[anchorTick(candidateReview.clip,'release')-1,anchorTick(candidateReview.clip,'release')]){
  for(const player of state.players){player.x=142+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  state.players=[p];
  p.x=100;p.y=75;p.z=tick<=anchorTick(candidateReview.clip,'takeoff')||tick>=anchorTick(candidateReview.clip,'finish')?0:2*Math.sin((tick-anchorTick(candidateReview.clip,'takeoff'))/(anchorTick(candidateReview.clip,'peak')-anchorTick(candidateReview.clip,'takeoff'))*Math.PI/2);p.facing=facing;p.animation={clip:candidateReview.clip,tick};p.hasBall=tick<anchorTick(candidateReview.clip,'release');

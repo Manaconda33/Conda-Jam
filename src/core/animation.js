@@ -743,7 +743,10 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   'layup-reverse':{
     heightTicks:[1.0,1.05,1.35,1.4,1.45,1.35,1.3,1.45,1.25,1.25,1.0,1.0,2.15],
     forwardTicks:[3.8,4.0,6.2,5.4,5.0,4.5,4.8,4.0,3.6,3.7,5.4,3.9,4.0]
-  }
+  },
+  // J.133's steal ball stays separate and loose; at grab tick5 it meets the
+  // low reaching hand, then remains visible outside the torso during swipe.
+  steal:{height:[.9,.8,.5,.4,.65,.9,1.0,1.05],forward:[8,9,10,6,7,7,9,10]}
 },'piper-quickstep':{
   // The ball stays in Piper's leading hand through the bent jump-shot release.
   // Centers were measured on the reviewed 128x96 source cells and checked in

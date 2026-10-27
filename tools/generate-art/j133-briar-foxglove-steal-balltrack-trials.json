@@ -1,0 +1,11 @@
+{
+  "athlete":"briar-foxglove","clip":"steal","status":"trial02 accepted for separate runtime track",
+  "anchor":{"name":"grab","frame":3,"tick":5},
+  "trials":[
+    {"trial":1,"height":[0.85,0.8,0.65,0.72,0.85,1.1,1.1,1.05],"forward":[7,8,10,11,7,2,4,8],"status":"rejected","reason":"At frame3/tick5 the ball was roughly16px/26px ahead and8px/20px above the low reaching hand at100%/120%; frame5 forward2 overlapped the athlete and hid the ball."},
+    {"trial":2,"height":[0.9,0.8,0.5,0.4,0.65,0.9,1.0,1.05],"forward":[8,9,10,6,7,7,9,10],"status":"accepted-native-review","reason":"At frame3/tick5, forward6 and height0.4 meet the low reaching hand within a few pixels in all facings/zooms. Frame5 forward7 keeps the loose ball visible outside Briar's torso through the cross-body swipe. Captures remain loose and unowned."}
+  ],
+  "captureReports":["tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/report.json","tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-120/report.json"],
+  "courtY":75,"zooms":[100,120],"facings":["left","right"],
+  "ownership":"ball is loose and ownerless throughout the steal animation; defender never carries it"
+}

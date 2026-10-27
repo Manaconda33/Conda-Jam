@@ -1,0 +1,445 @@
+{
+  "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+  "cameraZoom": 100,
+  "previewCourtY": 75,
+  "loadedImages": 209,
+  "matchPlayers": [
+    "briar-foxglove"
+  ],
+  "previews": [
+    "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/left-steal.png",
+    "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/right-steal.png"
+  ],
+  "previewFrames": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/left-steal.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/right-steal.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "tick": 5,
+      "facing": -1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    }
+  ],
+  "actionFramePreviews": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/left-steal-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 0,
+      "tick": 0,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        0,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/left-steal-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 1,
+      "tick": 2,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        72,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/left-steal-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 2,
+      "tick": 4,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        144,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/left-steal-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 3,
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        216,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/left-steal-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 4,
+      "tick": 6,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        0,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/left-steal-frame5.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 5,
+      "tick": 8,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 5,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        72,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/left-steal-frame6.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 6,
+      "tick": 10,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 6,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        144,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/left-steal-frame7.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 7,
+      "tick": 13,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 7,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        216,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/right-steal-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 0,
+      "tick": 0,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        0,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/right-steal-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 1,
+      "tick": 2,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        72,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/right-steal-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 2,
+      "tick": 4,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        144,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/right-steal-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 3,
+      "tick": 5,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        216,
+        0,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/right-steal-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 4,
+      "tick": 6,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        0,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/right-steal-frame5.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 5,
+      "tick": 8,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 5,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        72,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/right-steal-frame6.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 6,
+      "tick": 10,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 6,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        144,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j133-briar-foxglove-steal/attempt-02/native-100/right-steal-frame7.png",
+      "athlete": "briar-foxglove",
+      "clip": "steal",
+      "frame": 7,
+      "tick": 13,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 7,
+      "source": "./tools/generate-art/candidates/j133-briar-foxglove-steal-attempt-02/briar-foxglove-steal-8x-candidate.png",
+      "sourceRect": [
+        216,
+        95,
+        72,
+        95
+      ],
+      "atlasSize": [
+        288,
+        190
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    }
+  ],
+  "passContactCaptures": [],
+  "liveShotCaptures": []
+}

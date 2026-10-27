@@ -1,4 +1,3 @@
-# Session handoff — 2026-10-27 00:48 UTC
+# Session handoff — 2026-10-27 01:15 UTC
 
-Active checkout: `/workspace/jam-j130-full`, branch `codex/j131-briar-foxglove`. J.131 commit `6545af608f0e4539c9dd8c2b6f611f07e073d696` is the parent checkpoint. J.132 Briar Foxglove `block` is now accepted/registered at attempt07, with no ball track. Validation and the fresh strict inventory are recorded at the top of `HANDOFF.md` and `docs/animation-production/ASSET_STATUS.md`. Resume at J.133 Briar `steal`. The user-owned untracked helper remains untouched in original `/workspace/Conda-Jam`.
-
+Active checkout: `/workspace/jam-j130-full`, local head `4bcf56d6` before the J.133 checkpoint commit. J.132 Briar `block` and J.133 Briar `steal` are validated/registered locally. See top of `HANDOFF.md` and `docs/animation-production/ASSET_STATUS.md` for evidence, validation, and GitHub recovery status. `main` is at `dc401b7d`, restoring the J.131 tree after Git Data API upload truncation caused Pages run #175 to fail; rollback Pages run #176 is pending. Direct Git push still fails at the configured proxy. Continue at J.134 Briar `push`, preserve per-athlete separate-ball tracks and all rejected provenance, and only report deployed assets after successful workflow verification. The original `/workspace/Conda-Jam` checkout and its user-owned J.106 helper remain untouched.
