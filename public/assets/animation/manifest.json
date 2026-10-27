@@ -59356,7 +59356,7 @@
                 "status": "accepted-native-review",
                 "height": [
                   1.15,
-                  2.0,
+                  2,
                   1.9,
                   1.45
                 ],
@@ -59452,13 +59452,206 @@
               "scope": "source, pose, separate-ball contact, and mirrored native review",
               "notes": "J.108 receive source and attempt02 ball track accepted; actual simulation catches at canonical tick4 in both facings."
             }
+          },
+          "pickup": {
+            "src": "./public/assets/animation/leo-pickup-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "68a33ac27c2adfd2a885628625098d2382f4ce0c10b87fc47f82b3ae054d7641"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "d8a1a373eb99df97bd93850e91f697c526829960ba9c37abc0f23fe1569c7bfd"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "983b9f00c1d6a086270b8fd5573daaa9f2f6b7e1e68880af36064cad2d6a86fd"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "6f4f4867666b454820b81e5ec9be42f2be26f2e06462758f0f454605189b7092"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "04175107f188faab7591db615294b00a1f22abc270aa913021374172aa5e2d43"
+              }
+            ],
+            "sha256": "a04b3e26e83cb75cc099d665f218be3fbb6b4292a46ed7b1c51b1a34ae007ecd",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "leo",
+              "clip": "pickup",
+              "direction": "right",
+              "canonicalSection": "K.05",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-3367d441-68b5-4b6a-8591-5dfbbe77ace3",
+              "imageGenerationId": "exec-3367d441-68b5-4b6a-8591-5dfbbe77ace3",
+              "rawSourceImage": "tools/generate-art/sources/j109-leo-pickup-generated-raw.png",
+              "sourceImage": "tools/generate-art/sources/j109-leo-pickup-generated-raw.png",
+              "rawSourceSha256": "fc0a74c93f615f2ebcb9ccb21de7d38c7da15e08ef181092f9b4a91625273387",
+              "sourceSha256": "fc0a74c93f615f2ebcb9ccb21de7d38c7da15e08ef181092f9b4a91625273387",
+              "promptFile": "tools/generate-art/j109-leo-pickup5-prompt.md",
+              "prompt": "Create an original 1536\u00d71024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly five distinct complete full-body Leo poses in a strict three-column by two-row grid, row-major; leave the sixth cell fully transparent. Broad gutters and outer margins; each complete figure stays in its own cell with hair, hands and shoes clear. Consistent camera, scale and ground baseline. Readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his pale skin, long wavy black hair, refined mustache, composed face, natural adult human anatomy and measured poise. He wears a tailored black basketball uniform with restrained crimson accents, matching black/crimson shorts and shoes, and refined trim. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThis is a right-facing loose-ball pickup. There is no ball in the art: the game basketball is separately rendered. Both hands remain visibly empty; at floor contact, fingers touch only the empty floor plane with nothing between them. No basketball, sphere, seams, court, hoop, floor texture, shadow, background, glow, border, grid, text, teammate or opponent. Use true alpha-zero transparent exterior and gutters with no checkerboard, matte, haze or speckles.\n\nFive distinct sequential poses:\n0 Leo spots a loose ball to image-right, pivots and lowers his center of gravity;\n1 takes a low forward step, right arm reaches toward the floor, left arm balances behind;\n2 deepens the lunge, knees flex, empty right hand lowers to just above the ground;\n3 GRAB at simulation tick7: right fingertips touch the empty ground plane at image-right, left arm counterbalances, torso stable;\n4 rises into a composed ready stance, both hands empty and relaxed after securing the separate ball.\n\nLeo remains right-facing. Keep complete adult human anatomy, pale skin, long waves, refined mustache, black/crimson kit and shoes consistent. Return only the transparent sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The basketball remains separate game art. Leo\u2019s empty right fingertips touch the floor at frame3/tick7 to retrieve it; the ball is never drawn into the poses.",
+              "ballTrack": {
+                "status": "accepted-native-review",
+                "height": [
+                  0.95,
+                  0.65,
+                  0.1,
+                  0,
+                  1.1
+                ],
+                "forward": [
+                  6,
+                  9,
+                  12,
+                  11.5,
+                  8
+                ],
+                "reviewNotes": "Attempts01\u201303 retained: attempt01 contact too far outward, attempt02 contact too far inward, attempt03 recovery/contact refined. Attempt04 aligns the separate ball with Leo\u2019s floor-touching fingertips at tick7 and carries it to the recovery hand in both facings."
+              },
+              "cleanup": {
+                "script": "tools/generate-art/package-leo-action5.py",
+                "method": "shared five-pose component isolation and nearest antialiased-pixel reassignment; 3x2 row-major atlas pack; final cell left transparent"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex and independent source/track review",
+                "reviewNotes": "Five ball-free full-body poses retain Leo\u2019s identity and anatomy. Native contact and recovery reviewed at both facings after retaining rejected track trials."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 77,
+                  "y": 62,
+                  "w": 342,
+                  "h": 420,
+                  "component": 1,
+                  "area": 65769
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 541,
+                  "y": 93,
+                  "w": 470,
+                  "h": 392,
+                  "component": 2,
+                  "area": 69881
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1042,
+                  "y": 182,
+                  "w": 468,
+                  "h": 303,
+                  "component": 3,
+                  "area": 64352
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 62,
+                  "y": 676,
+                  "w": 445,
+                  "h": 287,
+                  "component": 5,
+                  "area": 60616
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 622,
+                  "y": 533,
+                  "w": 336,
+                  "h": 430,
+                  "component": 4,
+                  "area": 66693
+                }
+              ],
+              "uniformScale": 0.21395348837209302,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 112x96 cells; baseline94; lossless WebP; 5 original pickup poses",
+              "atlasPath": "public/assets/animation/leo-pickup-right.webp",
+              "atlasSha256": "a04b3e26e83cb75cc099d665f218be3fbb6b4292a46ed7b1c51b1a34ae007ecd",
+              "atlasBytes": 47426,
+              "issue": "J.109",
+              "runtimeBallTrack": {
+                "height": [
+                  0.95,
+                  0.65,
+                  0.1,
+                  0,
+                  1.1
+                ],
+                "forward": [
+                  6,
+                  9,
+                  12,
+                  11.5,
+                  8
+                ],
+                "status": "accepted-native-review"
+              },
+              "nativeReview": {
+                "status": "accepted",
+                "renderer": "Chromium production Jam Stage canvas",
+                "facingVariants": [
+                  "right",
+                  "left"
+                ],
+                "zooms": [
+                  100,
+                  120
+                ],
+                "captureTicks": [
+                  0,
+                  2,
+                  4,
+                  6,
+                  7,
+                  8,
+                  11
+                ],
+                "captureCount": 28,
+                "candidateAttempt": "attempt-04",
+                "reviewNotes": "Separate ball reaches the floor-contact hand on tick7; the 100%/120% screenshots show mirrored contact and recovery alignment. Capture harness manually stages carried state; the separate simulation test verifies actual pickup ownership at tick7."
+              }
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "source, poses, separate-ball contact and mirrored native review",
+              "notes": "J.109 source and attempt04 Leo-specific track accepted; actual simulation picks up the loose ball at canonical tick7."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "K.05 approved for Leo: long black hair and face details mirror without fixed-side marks; empty-hand block, push, fall, celebrate, chest pass, overhead pass and behind-the-back pass have no directional prop. All pass tracks were inspected in right and mirrored left facings; basketballs remain separate from athlete art."
+        "notes": "Canonical Leo mirroring remains approved by K.05; individual action frame safety is reviewed per clip."
       }
     },
     "kraken": {
