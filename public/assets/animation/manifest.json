@@ -64432,13 +64432,327 @@
             },
             "reviewed": true,
             "reviewNotes": "Canon reviewed: enormous red-skinned male with large black curled ram horns and dark charcoal beard, black/ember kit. All42 source poses and every packed locomotion crop inspected. Identity color repair retained all poses; component isolation preserves separate bodies. Low dribble anchors at frame16/37."
+          },
+          "shoot": {
+            "src": "./public/assets/animation/krios-shoot-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "28f18dc601e1fdd1c129411929bc5a3d11ebec1d6195ca0d62e4513883c1c3d3"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "691e7f1eee871e71cbedbd1f5cf052a6e19b1cffda6d17d8c8d56196185085f7"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "86bd50184706d0fcdaa533f8207daadf2ed6a66cc20b81a6170994bc0868cb23"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "463e7e51c51b54660e7705dec66b01688e9c370307b58afbda072493a4bedec1"
+              },
+              {
+                "x": 320,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "84bfc4e20e2c566cd6baac1afa4d236eb7bfb43c4ca380bdee7c42442b7f4b63"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "52b596bc602b14b00be52a796648a9636d52fdb424b2d6761818c286a12aa440"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "d5f0a82f2fc1e3e0e49ec1b4ea605dbd1428b5d0d30200390a650e4e881fe436"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "30253a6b3ed5748de143ef83a6b20fcaf6e525c06a0257835330a6dfbd2bf7c5"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "e7a16752a90306c0f196f22bd95f917281eecf025390bf0a15e37b60a3ead90b"
+              },
+              {
+                "x": 320,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "ec509a16196bcf656e5be681e49ed8ff6ae004760e87513e4e293bbb42ac972d"
+              }
+            ],
+            "sha256": "d189428aa72896a35fa138b195702002c486b341a73822592576f1acb1bbfa6f",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "krios",
+              "clip": "shoot",
+              "direction": "right",
+              "canonicalSection": "J.06",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-68107d68-d2a7-441d-bcc2-e783ef9f4d65",
+              "imageGenerationId": "exec-68107d68-d2a7-441d-bcc2-e783ef9f4d65",
+              "rawSourceImage": "tools/generate-art/sources/krios-shoot10-generated-raw.png",
+              "rawSourceSha256": "b89eb2dd5ee73540b1fae8d72a6868c19b038cfc671ef7140f275fc941a44d97",
+              "sourceSha256": "b89eb2dd5ee73540b1fae8d72a6868c19b038cfc671ef7140f275fc941a44d97",
+              "prompt": "Create exactly ten unique complete full-body action poses of Krios in a true-transparent RGBA JAMVERSE '96 sprite sheet, five columns by two rows, row-major. Use attached existing Krios locomotion art as the exact character and style reference. Krios is a towering male horned giant with enormously broad muscular build, bright volcanic-red skin, a pair of huge near-black curled ram horns, a wild dark charcoal beard, fierce intelligent face, black/charcoal Scoria Rams basketball kit with ember-red and gold trim, heavy rugged dark basketball boots. Preserve same Krios identity, dark beard, black horns, red body, kit and towering proportions in every frame. Natural bipedal giant anatomy: two arms, two hands, two legs, two boots.\n\nBasketball jump shot sequence, right-facing. The basketball is a separate Krios-specific game object and must NOT be painted into the sprites. His hands mime it only. No other player, ball, hoop, court, floor, shadows, backdrop, lighting effects, text, logo, number, border, panel or grid lines. Only ten isolated full-body Krios poses on transparent pixels. Crisp bold-outlined 1990s arcade pixel art; leave generous transparent margins around horns, hands and boots, no cropping.\n\n0 establishes wide balanced stance, hands ready; 1 bends knees and brings empty hands to waist; 2 gathers invisible ball at chest; 3 crouches deeper, elbows set; 4 rises, lifting both empty hands toward forehead; 5 jumps slightly and releases imaginary ball from strong right hand overhead; 6 right arm follows through, other hand guides; 7 reaches full follow-through; 8 descends to a wide balanced landing; 9 recovers to stance. Ten clearly different connected poses; ball entirely absent; preserve Krios’s huge horns and beard in all frames.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Krios-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 10.",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.4,
+                  1.1,
+                  2,
+                  1.7,
+                  4,
+                  2,
+                  1,
+                  0
+                ],
+                "forward": [
+                  5,
+                  5,
+                  5,
+                  4,
+                  3.1,
+                  0.7,
+                  2,
+                  4,
+                  6,
+                  7
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/package-krios-actions.py",
+                "method": "alpha-connected component isolation and nearest-pixel reassignment"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "10 distinct complete Krios shoot poses. bright volcanic-red skin, towering muscular giant anatomy, huge black ram horns, dark beard and black/ember Scoria Rams kit remain consistent. The separate Krios ball follows the documented shoot track."
+              },
+              "references": [
+                "public/assets/animation/krios-idle-right.webp",
+                "public/assets/animation/krios-dribble-right.webp",
+                "public/assets/captain-gameplay-sprites.png"
+              ],
+              "historicalSourceAvailability": "Original 42-pose input and cleaned sheet referenced by krios-locomotion42-final-provenance.json are unavailable in current workspace; compiled Krios atlases and captain crop were used as identity references.",
+              "ballTrackReview": {
+                "status": "accepted",
+                "attempt": 7,
+                "nativeReport": "tools/generate-art/previews/j128-krios-shoot-track-candidate/attempt-07/native/report.json",
+                "trialNotes": "tools/generate-art/previews/j128-krios-shoot-track-candidate/TRIALS.md",
+                "reviewNotes": "Independent native Jam Stage review accepted frame2–5 hand contact, tick13 release, both facing directions, 100%/120% zoom, and frames6–9 free flight."
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.4,
+                  1.1,
+                  2,
+                  1.7,
+                  4,
+                  2,
+                  1,
+                  0
+                ],
+                "forward": [
+                  5,
+                  5,
+                  5,
+                  4,
+                  3.1,
+                  0.7,
+                  2,
+                  4,
+                  6,
+                  7
+                ],
+                "reviewed": true
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Source identity/anatomy and 10 poses reviewed; independent Jam Stage track review accepted at both facings and 100%/120%."
+          },
+          "pass": {
+            "src": "./public/assets/animation/krios-pass-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "d8965dc7c37ad26ab08137967ab8106235a7f77dfa1c66734a120148285c0682"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "69be48c0870f29bba8de218d9b4c3be8828e1e81a62a4793e5e0a611fd29a0c3"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "f1114bf9df26cbc77e379b27e6f78838bf483f05dfa351c33ce4bf47202704ec"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "58bbaa1cd42487ebddf24bae21489ad051a243102ec40b9849b9a46cd66a0a91"
+              },
+              {
+                "x": 448,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "1c3796c4bf46e8d4da6a35ae805ceaccff2bc8c67c3fdb0231f50dbb50411d0a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "f3424e593e279dccef03e1bc6ce3b7976218fde60fe6ee2479d0a45db022bcdf"
+              }
+            ],
+            "sha256": "afb0eab7b6f5f8209564e8f521f412f3b376edf3d73ee90193bb760eee7449cf",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "krios",
+              "clip": "pass",
+              "direction": "right",
+              "canonicalSection": "J.06",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-2b11ec80-12af-47c1-ae05-a2a705cf9b25",
+              "imageGenerationId": "exec-2b11ec80-12af-47c1-ae05-a2a705cf9b25",
+              "rawSourceImage": "tools/generate-art/sources/krios-pass6-generated-raw.png",
+              "rawSourceSha256": "42fe93e6e464ba4a18baede6ed38e285c9699b058b5c50e6ce16cf806290995b",
+              "sourceSha256": "42fe93e6e464ba4a18baede6ed38e285c9699b058b5c50e6ce16cf806290995b",
+              "prompt": "Study the attached completed Krios basketball shot poses. Draw the SAME character, the red-skinned male giant with enormous curled black ram horns, heavy dark charcoal beard, hulking red arms, black Scoria Rams uniform with orange/gold trim and black boots. Do not substitute a long-haired man, a human without horns, or a different team. Keep these defining traits on all six figures.\n\nSix full-body Krios chest-pass frames in a strict 3-column × 2-row grid. True transparent background only, no glow, no gradient, no background, floor, court, hoop, prop, words or other player. Do not draw a ball; game draws a separate ball. Each complete pose isolated with visible spacing. Clean outlined JAMVERSE '96 arcade sprite art.\n\n0 wide stance hands down; 1 hands rise and gather invisible pass at chest; 2 elbows point forward as he aims; 3 both empty hands thrust forward for pass release; 4 arms extended in follow-through; 5 hands return and he recovers to stance. Six different continuous poses; retain Krios's curved horns, dark beard, huge muscular bright-red body, and ember-trimmed dark uniform in every frame.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-bd4af4d4-34e8-4379-ad24-594842a49409",
+                  "source": "tools/generate-art/sources/krios-pass-attempt1-rejected.png",
+                  "reason": "Changed Krios to a light-skinned long-haired human without horns or beard; only five poses appeared."
+                }
+              ],
+              "references": [
+                "public/assets/animation/krios-idle-right.webp",
+                "public/assets/animation/krios-dribble-right.webp",
+                "public/assets/captain-gameplay-sprites.png"
+              ],
+              "historicalSourceAvailability": "Original 42-pose input and cleaned sheet referenced by krios-locomotion42-final-provenance.json are unavailable in current workspace; compiled Krios atlases and captain crop were used as identity references.",
+              "mirrorEligible": true,
+              "ballPolicy": "Krios-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 6.",
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  1.15,
+                  1.4,
+                  1.5,
+                  1.35,
+                  1.05
+                ],
+                "forward": [
+                  8,
+                  9,
+                  11,
+                  13,
+                  12,
+                  8
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/package-krios-actions.py",
+                "method": "alpha-connected component isolation and nearest-pixel reassignment"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "6 distinct complete Krios pass poses. bright volcanic-red skin, towering muscular giant anatomy, huge black ram horns, dark beard and black/ember Scoria Rams kit remain consistent. The separate Krios ball follows the documented pass track."
+              },
+              "ballTrackReview": {
+                "status": "accepted",
+                "attempt": 1,
+                "nativeReport": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/report.json",
+                "trialNotes": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/TRIALS.md",
+                "reviewNotes": "Independent Jam Stage review accepted six frame starts, carried contact through tick4, release on frame3/tick5, both facings, and 100%/120% zoom; follow-through samples read coherently."
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.05,
+                  1.15,
+                  1.4,
+                  1.5,
+                  1.35,
+                  1.05
+                ],
+                "forward": [
+                  8,
+                  9,
+                  11,
+                  13,
+                  12,
+                  8
+                ],
+                "reviewed": true
+              }
+            },
+            "reviewed": true,
+            "reviewNotes": "Source identity/anatomy and 6 poses reviewed; independent Jam Stage track review accepted at both facings and 100%/120%."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "The canonical silhouette and permanent details have no fixed direction; the approved right-facing locomotion sheet may be mirrored. Canon reviewed: enormous red-skinned male with large black curled ram horns and dark charcoal beard, black/ember kit. All42 source poses and every packed locomotion crop inspected. Identity color repair retained all poses; component isolation preserves separate bodies. Low dribble anchors at frame16/37."
+        "notes": "Krios’s bilateral ram horns, beard, uniform and amulet have no fixed-side feature. The reviewed shoot and chest-pass atlases were inspected at both facings and mirror safely.",
+        "reviewedAt": "2026-10-27",
+        "scope": "captain shoot and chest pass mirror review"
       }
     },
     "colossus": {

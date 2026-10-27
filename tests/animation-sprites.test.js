@@ -61,6 +61,32 @@ test('Briar J.109 selects ten reviewed shoot poses with her own release hand and
   tick+=animationClips.shoot.frames[frame].duration;
  }
 });
+test('Krios J.128 shoot and chest pass select reviewed original poses with separate athlete-specific tracks',()=>{
+ const id='krios',character=animationAssetManifest.characters[id],clips=character.directions.right;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ for(const [key,atlas,count,columns,rows,height,forward] of [
+  ['shoot','./public/assets/animation/krios-shoot-right.webp',10,5,2,[1,1.2,1.4,1.1,2,1.7,4,2,1,0],[5,5,5,4,3.1,.7,2,4,6,7]],
+  ['pass','./public/assets/animation/krios-pass-right.webp',6,5,2,[1.05,1.15,1.4,1.5,1.35,1.05],[8,9,11,13,12,8]],
+ ]){
+  const clip=clips[key];assert.ok(clip,`${key} registered`);assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+  assert.equal(clip.frames.length,count);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count);
+  assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.ballTrackReview.status,'accepted');
+  assert.deepEqual(clip.provenance.runtimeBallTrack,{height,forward,reviewed:true});
+  const images=new Map([[atlas,{complete:true,naturalWidth:count===10?400:560,naturalHeight:192,file:atlas}]]);let tick=0;
+  for(let frame=0;frame<count;frame++){
+   assert.equal(sampleAnimation(key,tick).frame,frame,`${key} authored pose ${frame}`);
+   assert.equal(sampleBallHeight(key,tick,id),height[frame],`${key} hand height ${frame}`);
+   assert.equal(sampleBallForward(key,tick,id),forward[frame],`${key} hand offset ${frame}`);
+   for(const [facing,flip]of [[1,false],[-1,true]]){
+    const sprite=selectProductionSprite({id,facing,animation:{clip:key,tick}},{manifest:animationAssetManifest,images});
+    assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+   }
+   tick+=animationClips[key].frames[frame].duration;
+  }
+ }
+ assert.equal(anchorTick('shoot','release'),13);assert.equal(sampleAnimation('shoot',12).frame,4);assert.equal(sampleAnimation('shoot',13).frame,5);
+ assert.equal(anchorTick('pass','release'),5);assert.equal(sampleAnimation('pass',4).frame,2);assert.equal(sampleAnimation('pass',5).frame,3);
+});
 test('held balls remain visible in front of their carrier at every jump height',()=>{
  for(const z of [0,5,18]){const owner={id:'carrier',y:50,z};const depth=ballDrawDepth({mode:'carried',ownerId:owner.id,y:50},[owner]);assert.ok(depth>owner.y-owner.z*.05);assert.ok(depth<51);}
  assert.equal(ballDrawDepth({mode:'shot',y:50},[]),49.5);

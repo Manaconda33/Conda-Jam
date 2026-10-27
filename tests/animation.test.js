@@ -6,6 +6,27 @@ import { createMatch,createInput,stepMatch } from '../src/core/simulation.js';
 import { animationAssetManifest } from '../src/content/animation-assets.js';
 const neutral=m=>m.players.map(p=>createInput(p.id));
 function setup(){const m=createMatch({quarterSeconds:60,seed:1});for(const p of m.players){p.x=p.team?20:(p===m.players[0]?150:120);p.y=p.team?0:50;}return m;}
+test('Krios shoot and chest pass keep the separate ball athlete-owned until their canonical release anchors',()=>{
+ for(const facing of [1,-1])for(const [clip,firstInput,release,mode] of [
+  ['shoot',{shootPressed:true},13,'shot'],['pass',{passPressed:true},5,'pass']
+ ]){
+  const m=createMatch({quarterSeconds:60,seed:128,home:{roster:[{id:'krios'},{id:'partner'}]}}),p=m.players[0];
+  p.facing=facing;
+  const inputs=action=>m.players.map(player=>createInput(player.id,player===p&&action?firstInput:{}));
+  stepMatch(m,inputs(true));assert.equal(p.animation.clip,clip);assert.equal(p.animation.tick,0);
+  for(let tick=0;tick<release;tick++){
+   assert.equal(p.hasBall,true,`${clip} facing ${facing} holds through tick ${tick}`);
+   assert.equal(m.ball.ownerId,p.id);
+   assert.ok(Math.abs((m.ball.x-p.x)-facing*sampleBallForward(clip,p.animation.tick,p.id))<.001);
+   assert.ok(Math.abs((m.ball.z-p.z)-sampleBallHeight(clip,p.animation.tick,p.id))<.001);
+   stepMatch(m,inputs(false));
+  }
+  assert.equal(p.animation.tick,release);assert.equal(p.animation.clip,clip);
+  stepMatch(m,inputs(false));
+  assert.equal(p.hasBall,false);assert.equal(m.ball.mode,mode,`${clip} releases once at tick ${release}`);
+  assert.equal(m.ball.ownerId,null);
+ }
+});
 test('Dorian has all reviewed clips and runtime ball paths match recorded provenance',()=>{
  const clips=animationAssetManifest.characters['dorian-mycel'].directions.right;
  assert.equal(Object.keys(clips).length,29);
