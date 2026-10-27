@@ -4,6 +4,8 @@ On published baseline `b8ead761`, ten separately authored and reviewed Leo (capt
 
 The refreshed strict audit at `docs/animation-production/ASSET_AUDIT_LATEST.md` reports2,335 effective assignments, 768 missing assignments across31 incomplete captains, 4,806 unique source drawings and no target-count shortfall. All70 supporting players retain complete reviewed coverage under the authorized reuse model. The four remaining audit findings other than captain gaps are inherited prompt-provenance findings. Overall animation acceptance remains incomplete.
 
+J.111 Leo `layup-reverse` remains unregistered: the raw release profile becomes unreadable in the packed 80×96 frame. Four correction outputs were rejected and preserved with exact prompts, IDs, hashes, and review notes; see `tools/generate-art/j111-leo-layup-reverse-attempts.json` and the captain gap checkpoint. The audit totals are unchanged because no J.111 asset was accepted.
+
 See [CAPTAIN_GAP_CHECKPOINT.md](CAPTAIN_GAP_CHECKPOINT.md) for source lineage, visual review, exact validation results and the next captain work.
 
 ## Current J.137 Briar Foxglove `celebrate` checkpoint — 2026-10-27

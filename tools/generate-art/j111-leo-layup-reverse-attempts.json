@@ -1,0 +1,43 @@
+{
+  "athlete": "leo",
+  "clip": "layup-reverse",
+  "status": "source-only-unaccepted",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-fa0962a1-f8c3-43d9-8fcc-44302ad2caa8",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-face-fix-edit-prompt.md",
+      "reference": "original source sheet",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-face-fix-rejected-01.png",
+      "sha256": "7c6d295b3ab045af600b7ff42633cd0210415ecdbf8470ade8f07c49580753b4",
+      "review": "Rejected: smooth painterly backdrop is opaque/nontransparent and style diverges; profile improved but output is not packable."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-972f7585-a593-4042-8e40-cc3b925075b9",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-face-fix-edit-prompt2.md",
+      "reference": "original source sheet plus rejected attempt 1 as face-profile reference",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-face-fix-rejected-02.png",
+      "sha256": "078dc241067e077102df7c6abaa846cd8deb0398d1927b6c6569f742ac8134fd",
+      "review": "Rejected: retains smooth painterly brown background and wrong rendering style; not packable."
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-6c41e511-57a1-4910-bd95-cfda354cb796",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-prompt-attempt2.md",
+      "reference": "Leo gameplay identity, original sheet, rejected attempt 1 for face reference",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-rejected-03.png",
+      "sha256": "8e0a7a583750b0ab71d663d77477c86fc808b5cff4202e882f1ad90ccc7064da",
+      "review": "Rejected: opaque painterly brown background and basketball-like props appear in several poses despite explicit prohibition."
+    },
+    {
+      "attempt": 4,
+      "generationId": "exec-008ef105-c8fd-4280-955c-20adbcc37376",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-face-fix-edit-prompt3.md",
+      "reference": "original source sheet",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-rejected-04.png",
+      "sha256": "268d14779b91662218839608c65914eba19e08c49ff6a8d3dbe78c21248a7869",
+      "review": "Rejected: again renders a brown opaque background instead of transparent gutters; style mismatch prevents packaging."
+    }
+  ]
+}
