@@ -1,0 +1,220 @@
+{
+  "athlete": "leo",
+  "clip": "alley-oop-reverse",
+  "direction": "right",
+  "candidateAtlas": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+  "candidateAtlasSha256": "bb3ebe221fcee1f3688c23d2b6c2e25857e75ca79c38b9060752a1a39e03354f",
+  "classification": "visually reviewed candidate; native/gameplay review pending",
+  "columns": 4,
+  "rows": 4,
+  "cell": {
+    "w": 128,
+    "h": 96
+  },
+  "poseCount": 15,
+  "unusedCell": {
+    "x": 384,
+    "y": 288,
+    "w": 128,
+    "h": 96,
+    "requirement": "fully transparent"
+  },
+  "poseSelection": [
+    {
+      "poseIndex": 0,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose00-selected-cleaned.png",
+      "sourceSha256": "4d2b48ee1d4843106bf3d059a87accb0e9ad651fd5f0d8d97dd48c948a58307c",
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "see J127 source cleanup reports"
+    },
+    {
+      "poseIndex": 1,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose01-selected-cleaned.png",
+      "sourceSha256": "dec07b2477e5cb0b904700023654fa4374c337ee1015abe24c429b2597935d3b",
+      "cell": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "see J127 source cleanup reports"
+    },
+    {
+      "poseIndex": 2,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose02-revision-attempt01-cleaned.png",
+      "sourceSha256": "1aa7ceb95a7686aa1b2e6c4b9017d47ab502b44d4ca87707d1d226d2c70b4ab0",
+      "cell": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "largest 8-connected nonzero-alpha component only; raw preserved"
+    },
+    {
+      "poseIndex": 3,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose03-revision-attempt01-cleaned.png",
+      "sourceSha256": "f78473dc57a7b964aaebc1fbc7e9e12593ab1911cac0d3f6318c1e3b3f0edd36",
+      "cell": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "largest 8-connected nonzero-alpha component only; raw preserved"
+    },
+    {
+      "poseIndex": 4,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose04-revision-attempt01-cleaned.png",
+      "sourceSha256": "d7a345d43f7094b1f71a221d2238ad33f29894012d439c878270f9edaf147ed2",
+      "cell": {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "largest 8-connected nonzero-alpha component only; raw preserved"
+    },
+    {
+      "poseIndex": 5,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose05-revision-attempt01-cleaned.png",
+      "sourceSha256": "dd1e210f051f6eef5851489fc60cf2b23fc761e9599c633297874bbc66d7c178",
+      "cell": {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "largest 8-connected nonzero-alpha component only; raw preserved"
+    },
+    {
+      "poseIndex": 6,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose06-revision-attempt01-cleaned.png",
+      "sourceSha256": "2e1a2d02dd3c246563d13abb5eff10bfc23f26f4d157914800f085403f87191f",
+      "cell": {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "largest 8-connected nonzero-alpha component only; raw preserved"
+    },
+    {
+      "poseIndex": 7,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose07-revision-attempt02-cleaned.png",
+      "sourceSha256": "6709b8f8f6e42f542f9a05545c94c0b1f4f826e31bc23ae301ff37d102a7fd45",
+      "cell": {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "largest 8-connected nonzero-alpha component only; raw preserved"
+    },
+    {
+      "poseIndex": 8,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-revision-attempt01-cleaned.png",
+      "sourceSha256": "e41a92b813e4a61d968147d1d73b02f6b3bef491f4fa7e022e582a482959d0f3",
+      "cell": {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "largest 8-connected nonzero-alpha component only; raw preserved"
+    },
+    {
+      "poseIndex": 9,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose09-selected-cleaned.png",
+      "sourceSha256": "3052cb6a5dda6bae6ae698548360a262b357e6980e4a594d81260616cb66eb00",
+      "cell": {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "largest 8-connected nonzero-alpha component only; raw preserved"
+    },
+    {
+      "poseIndex": 10,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose10-selected-cleaned.png",
+      "sourceSha256": "02a304d84c146f452b430ab3c0fd9a08b0b73a38526e28a8a287a145420dbd34",
+      "cell": {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "largest 8-connected nonzero-alpha component only; raw preserved"
+    },
+    {
+      "poseIndex": 11,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose11-attempt02-cleaned.png",
+      "sourceSha256": "a22a3d2b6ab9067035472acc44d09372a5b36882c1637f375a719ab099e6f6d3",
+      "cell": {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "see J127 source cleanup reports"
+    },
+    {
+      "poseIndex": 12,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose12-selected-cleaned.png",
+      "sourceSha256": "91d7e51e6e8d0deae1e16ba0c1d347bf21271d67b2f53bab2fa7fce84f2b4823",
+      "cell": {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "see J127 source cleanup reports"
+    },
+    {
+      "poseIndex": 13,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose13-selected-cleaned.png",
+      "sourceSha256": "b955646814dee2cdfd99f8b408b87a87aaa39dc8cf80e82efe9d32f233238895",
+      "cell": {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "see J127 source cleanup reports"
+    },
+    {
+      "poseIndex": 14,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose14-selected-cleaned.png",
+      "sourceSha256": "186f19ff0f8e0b01d36400852db1c885e0011d27d224c68b5b3efb76636cdf2b",
+      "cell": {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "cleanup": "see J127 source cleanup reports"
+    }
+  ],
+  "fitProcedure": "alpha trim; nearest-neighbor fit to 116x84 preserving aspect ratio; center horizontally; align baseline at y94 and leave two transparent bottom pixels. Every pose generated independently at matching relative sprite scale.",
+  "qualityGates": [
+    "15 unique action beats",
+    "captain identity and anatomy",
+    "true transparency and no artifacts",
+    "consistent scale, baseline and safe cell margins",
+    "no ball pixels in athlete art",
+    "all 29 clip timing and facing tests",
+    "separate native-reviewed athlete ball track"
+  ],
+  "review": {
+    "by": "candidate_review",
+    "status": "visual art accepted provisionally",
+    "scope": "15-cell row-major atlas composition, identity/anatomy, pose separation, cell16 alpha, margins/baseline, light/dark proofs",
+    "notes": "No blocking defects. Frames04–08 closest cluster but distinguishable. Require native track/capture and gameplay review before production registration."
+  }
+}
