@@ -1453,5 +1453,8 @@
   "uncaughtBrowserErrors": [],
   "reviewStatus": "diagnostic-only",
   "reviewFinding": "The athlete was not visible in the stage screenshots; these images are not visual acceptance evidence.",
-  "cleanup": "PNG captures were omitted after the framing failure; rerun the corrected review through the project preview harness."
+  "cleanup": "PNG captures were omitted after the framing failure; rerun the corrected review through the project preview harness.",
+  "diagnosticOnly": true,
+  "visualAcceptance": false,
+  "omittedImageFiles": "All native PNG captures were omitted because they show other actors; inspect the corrected atlas proofs instead."
 }
