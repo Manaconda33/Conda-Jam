@@ -1502,6 +1502,7 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
 }};
 // J.105 Leo pass ball-track attempt03; provisional until contact review.
 athleteBallTracks.leo={pass:{height:[1.65,1.9,1.9,2.05,2.0,1.05],forward:[3.75,4.75,8.5,9.75,9,7]}};
+  athleteBallTracks.leo['pass-overhead']={height:[1.1,2.3,2.3,2.7,3.2,1.25],forward:[4.5,4.8,4.7,6.5,7,7]}; // provisional J.106 candidate attempt07
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
   const trackProperty=property==='ballHeight'?'height':'forward';
