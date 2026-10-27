@@ -1,0 +1,297 @@
+{
+  "status": "accepted normalized source atlas; source, packed and native review pass",
+  "source": "tools/generate-art/candidates/j137-briar-foxglove-celebrate-attempt-02/briar-foxglove-celebrate-attempt-02-clean.png",
+  "sourceSha256": "65622d763de576c4220abdd21d7e21db3684604d68a8d5e141872e1d82f026ea",
+  "canvas": [
+    400,
+    192
+  ],
+  "columns": 5,
+  "rows": 2,
+  "frames": 10,
+  "emptyCells": 0,
+  "uniformScale": 0.20240963855421687,
+  "cell": [
+    80,
+    96
+  ],
+  "baselineY": 94,
+  "resampling": "LANCZOS, complete component crops, no redraw or reorder",
+  "atlas": "tools/generate-art/candidates/j137-briar-foxglove-celebrate-attempt-02/briar-foxglove-celebrate-attempt-02-review.png",
+  "atlasSha256": "f40cec2f0c18f4bf901b8e09e2582d8c009ef5435feb500f9ec4cb251f709920",
+  "lightDarkPreview": "tools/generate-art/candidates/j137-briar-foxglove-celebrate-attempt-02/briar-foxglove-celebrate-attempt-02-review-light-dark.png",
+  "lightDarkPreviewSha256": "e837796bb2587ee82669d3cf03301a314e99fc302b648403fdf893f64ee87609",
+  "frameRecords": [
+    {
+      "index": 0,
+      "sourceRect": [
+        64,
+        108,
+        221,
+        375
+      ],
+      "sourceComponent": 5,
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      "figureSize": [
+        45,
+        76
+      ],
+      "packedAlpha16Margins": [
+        17,
+        18,
+        18,
+        2
+      ],
+      "uniqueRGBAHash": "af287b291cc12ca2f81618867c114b9e731d785148dfafba87ab7bc96f1a2acd"
+    },
+    {
+      "index": 1,
+      "sourceRect": [
+        395,
+        105,
+        174,
+        378
+      ],
+      "sourceComponent": 3,
+      "cell": {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      "figureSize": [
+        35,
+        77
+      ],
+      "packedAlpha16Margins": [
+        22,
+        17,
+        23,
+        2
+      ],
+      "uniqueRGBAHash": "62d87d1b65584d28b46cab35fb91525bfe533466f3ad1c8750f18fd2aafdc746"
+    },
+    {
+      "index": 2,
+      "sourceRect": [
+        705,
+        105,
+        182,
+        378
+      ],
+      "sourceComponent": 4,
+      "cell": {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      "figureSize": [
+        37,
+        77
+      ],
+      "packedAlpha16Margins": [
+        21,
+        17,
+        22,
+        2
+      ],
+      "uniqueRGBAHash": "aaa8196fb8a1feaac4a58fe00eea9d4c8f8cff5582f5e9b360aa7237e2a3d375"
+    },
+    {
+      "index": 3,
+      "sourceRect": [
+        1017,
+        85,
+        171,
+        388
+      ],
+      "sourceComponent": 2,
+      "cell": {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      "figureSize": [
+        35,
+        79
+      ],
+      "packedAlpha16Margins": [
+        22,
+        15,
+        23,
+        2
+      ],
+      "uniqueRGBAHash": "5898601ae83b17c635723c84eaff042ebb3d261c4912056db6ca0b872805f881"
+    },
+    {
+      "index": 4,
+      "sourceRect": [
+        1314,
+        12,
+        187,
+        387
+      ],
+      "sourceComponent": 1,
+      "cell": {
+        "x": 320,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      "figureSize": [
+        38,
+        78
+      ],
+      "packedAlpha16Margins": [
+        21,
+        16,
+        21,
+        2
+      ],
+      "uniqueRGBAHash": "09d80b76b363035be8013818d969a41b699c208ae8421a4a69cb0e18b18fed7c"
+    },
+    {
+      "index": 5,
+      "sourceRect": [
+        76,
+        594,
+        196,
+        372
+      ],
+      "sourceComponent": 10,
+      "cell": {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      "figureSize": [
+        40,
+        75
+      ],
+      "packedAlpha16Margins": [
+        20,
+        19,
+        20,
+        2
+      ],
+      "uniqueRGBAHash": "f09983bdc8b6058398cf90048174a22ea99b09b1aad48ccad19b5f69e5d6893f"
+    },
+    {
+      "index": 6,
+      "sourceRect": [
+        339,
+        586,
+        292,
+        380
+      ],
+      "sourceComponent": 9,
+      "cell": {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      "figureSize": [
+        59,
+        77
+      ],
+      "packedAlpha16Margins": [
+        10,
+        17,
+        11,
+        2
+      ],
+      "uniqueRGBAHash": "4865cbbfccfce64d5b28e7eb9af8bce660f875e415f1c53dc18a9f253373d5b8"
+    },
+    {
+      "index": 7,
+      "sourceRect": [
+        674,
+        552,
+        263,
+        415
+      ],
+      "sourceComponent": 6,
+      "cell": {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      "figureSize": [
+        53,
+        84
+      ],
+      "packedAlpha16Margins": [
+        13,
+        10,
+        14,
+        2
+      ],
+      "uniqueRGBAHash": "06863868a0f78467a364cebca3f83bbe5b38fccdeecbcbb3a12838234f9acffe"
+    },
+    {
+      "index": 8,
+      "sourceRect": [
+        992,
+        585,
+        274,
+        386
+      ],
+      "sourceComponent": 8,
+      "cell": {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      "figureSize": [
+        55,
+        78
+      ],
+      "packedAlpha16Margins": [
+        12,
+        16,
+        13,
+        2
+      ],
+      "uniqueRGBAHash": "b621524a3da30551fe2fe359e526d1f00fd3d1433f5317b5c42b7c7a4375d511"
+    },
+    {
+      "index": 9,
+      "sourceRect": [
+        1313,
+        579,
+        192,
+        393
+      ],
+      "sourceComponent": 7,
+      "cell": {
+        "x": 320,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      "figureSize": [
+        39,
+        80
+      ],
+      "packedAlpha16Margins": [
+        20,
+        14,
+        21,
+        2
+      ],
+      "uniqueRGBAHash": "cfaa0b4daf53ab899172cba0efddc6532e6c1bfa960ad273e5c3e76b97eeeb72"
+    }
+  ],
+  "productionAsset": "public/assets/animation/briar-foxglove-celebrate-right.png"
+}

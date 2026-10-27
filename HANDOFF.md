@@ -1,16 +1,22 @@
-## Current J.135 Briar Foxglove `fall` checkpoint — 2026-10-27 02:08 UTC
+## Current J.137 Briar Foxglove `celebrate` checkpoint — 2026-10-27 02:42 UTC
+
+J.137 attempt02 is accepted and registered: ten distinct Briar celebration poses in a400×192 5×2 atlas of80×96 cells, baseline y=94, no ball. Attempt01 and its superseding edit, both exact prompts/IDs/raw PNGs, cleanup, source layouts and light/dark proofs are preserved. Source, packed and native reviewers pass Briar identity/anatomy, all ten poses, transparency, margins and runtime readability. Jam Stage production captures at courtY75 select frames0–9 at ticks0,5,10,16,24,34,44,52,59,65 in both facings at100%/120%; ball remains dead and unowned. No Briar carry track applies.
+
+Validation: `npm test`57/57, lint19 modules, content35 franchises/105 athletes, build PASS. Strict audit `2026-10-27T02:42:23.462Z`:832 clips,7,527 drawings,2,271 missing clips, one target shortfall and four inherited prompt findings. J.137 awaits checkpoint commit/push; Pages run #178 succeeded for J.136 commit `d534dfdf`. Next roster target: J.138 Briar Foxglove `dunk-power`.
+
+## Previous J.135 Briar Foxglove `fall` checkpoint — 2026-10-27 02:08 UTC
 
 J.135 is accepted and registered locally from attempt03. Its ten-pose 5×2 560×192 atlas has 112×96 cells, shared baseline y=94, and no ball art or Briar carry track. Independent source, packed-size, and native reviews pass identity/anatomy, pose order, transparency, margins and palette against Briar's accepted push sprites. Native Jam Stage captures at courtY75 select all frames in both facings at100%/120%; ball is dead and unowned. Full prompts, generation IDs, three rejected/superseded sheets, raw images/hashes, proofs, normalization and captures are preserved in J.135 files.
 
-Validation: `npm test`57/57, lint19 modules, content35 franchises/105 athletes, build PASS. Strict report-only audit refreshed `2026-10-27T02:27:53.326Z`:830 clips /7,512 drawings /105 athletes,2,273 missing clips, one target shortfall and four inherited prompt findings. GitHub main contains commit `0b0700b7`; Pages run #177 (`40436925120`) completed verify and build/deploy successfully for that exact commit. Deployment is reported successful by the workflow; direct public-site fetch remains blocked by executor egress. J.132–J.135 are pushed. Current work is J.136 Briar Foxglove `rebound`.
+Validation: `npm test`57/57, lint19 modules, content35 franchises/105 athletes, build PASS. Strict report-only audit refreshed `2026-10-27T02:27:53.326Z`:830 clips /7,512 drawings /105 athletes,2,273 missing clips, one target shortfall and four inherited prompt findings. GitHub main contains commit `0b0700b7`; Pages run #177 (`40436925120`) completed verify and build/deploy successfully for that exact commit. Deployment is reported successful by the workflow; direct public-site fetch remains blocked by executor egress. J.132–J.135 are pushed.
 
-## Current J.136 Briar Foxglove `rebound` checkpoint — 2026-10-27
+## Previous J.136 Briar Foxglove `rebound` checkpoint — 2026-10-27
 
 Attempt01 is accepted and registered as `public/assets/animation/briar-foxglove-rebound-right.png`: five distinct poses in three columns by two rows of80×96 cells, blank cell6, baseline y=94. Source, identity/anatomy, packed-margin and native reviews pass. Tightest alpha≥16 clearance is2px at frame2 top and shared baseline, accepted against the existing 80×96 Piper rebound atlas and confirmed uncropped at courtY75 in native captures.
 
 Briar-specific ball trials1–6 are retained separately. Trial06 (`height [1.05,1.5,2.1,1.9,1.28]`, `forward [5,7,8,3,0]`) passes native catch/secure review at Jam Stage courtY75, both facings and100%/120%: ball is loose/unowned through frame2, then Briar carries it at frame3/tick5 grab and frame4/tick7 chest secure. Independent production capture review passes all frame selection and mirrored contact checks. Earlier rejected trials and all captures/reports are documented in `tools/generate-art/j136-briar-foxglove-rebound-attempt-01-review.md`.
 
-Validation after registration: `npm test`57/57; lint19 modules; content validation35 franchises/105 athletes; build PASS. Strict report-only audit refreshed `2026-10-27T02:31:17.680Z`:831 clips,7,517 drawings,2,272 missing clips, one target shortfall, four inherited prompt findings. Commit pending. Continue roster order at J.137 Briar Foxglove `celebrate`.
+Validation after registration: `npm test`57/57; lint19 modules; content validation35 franchises/105 athletes; build PASS. Strict report-only audit refreshed `2026-10-27T02:31:17.680Z`:831 clips,7,517 drawings,2,272 missing clips, one target shortfall, four inherited prompt findings. This J.136 checkpoint is pushed at `d534dfdf`; Pages run #178 succeeded. Continue roster order at J.137 Briar Foxglove `celebrate`.
 
 ## Current J.134 Briar Foxglove `push` checkpoint — 2026-10-27 01:49 UTC
 

@@ -1,6 +1,14 @@
 ## J.135 — Briar Foxglove `fall`
 
-## Current J.136 Briar Foxglove `rebound` — 2026-10-27
+## Current J.137 Briar Foxglove `celebrate` — 2026-10-27
+
+Attempt02 is accepted and registered as `public/assets/animation/briar-foxglove-celebrate-right.png`. Ten distinct ball-free poses progress from post-score recognition through a two-fist hop/V, landing, open-arm exclamation, single fist pump, teammate gesture and grounded salute. The finish anchor is frame9 at tick65 of the 70-tick clip. Briar's adult human anatomy, deep-brown skin, shoulder-length locs, red headband, face, compact build and russet/cream uniform remain consistent with accepted J.135/J.136 art.
+
+Attempt01 and the focused attempt02 edit retain exact prompts, generation IDs, raw source PNGs/hashes and light/dark proofs. Attempt02 cleanup removes nine detached low-alpha glow specks by isolating the ten original bodies; no pose was invented or redrawn. Uniformly normalized source atlas is400×192, five columns by two rows of80×96 cells, baseline y=94. Alpha≥16 margins: minimum10px at top/sides and2px at baseline. Source, packed-size, candidate-native and production-native review pass.
+
+Production Jam Stage captures at courtY75, both facings and100%/120%, select frames0–9 at ticks0,5,10,16,24,34,44,52,59,65. Ball is dead and unowned throughout; Briar has no celebration carry track. Strict audit `2026-10-27T02:42:23.462Z` reports832 clips /7,527 drawings /105 athletes,2,271 clips missing, one target shortfall and four inherited prompt findings. Continue roster order at Briar `dunk-power`.
+
+## Previous J.136 Briar Foxglove `rebound` — 2026-10-27
 
 Attempt01 is accepted and registered as `public/assets/animation/briar-foxglove-rebound-right.png`. Its five alpha-isolated poses show ready, takeoff, airborne reach, overhead two-hand catch, and balanced chest secure; cell6 stays transparent. Briar's identity and complete human anatomy match the accepted J.135 fall and earlier push art. Raw generation, exact prompt, ID/hash, rejected glow pixels and cleanup, layout, normalized candidate and proofs are preserved under `tools/generate-art/j136-briar-foxglove-rebound*`.
 

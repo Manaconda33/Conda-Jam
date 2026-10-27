@@ -1,0 +1,548 @@
+{
+  "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+  "cameraZoom": 100,
+  "previewCourtY": 75,
+  "loadedImages": 212,
+  "matchPlayers": [
+    "paprika",
+    "briar-foxglove",
+    "manaconda",
+    "reed-ashcroft"
+  ],
+  "previews": [
+    "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate.png",
+    "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate.png"
+  ],
+  "previewFrames": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "tick": 65,
+      "facing": 1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "tick": 65,
+      "facing": -1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    }
+  ],
+  "actionFramePreviews": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 0,
+      "tick": 0,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        0,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 1,
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        80,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 2,
+      "tick": 10,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        160,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 3,
+      "tick": 16,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        240,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 4,
+      "tick": 24,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        320,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate-frame5.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 5,
+      "tick": 34,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 5,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        0,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate-frame6.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 6,
+      "tick": 44,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 6,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        80,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate-frame7.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 7,
+      "tick": 52,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 7,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        160,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate-frame8.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 8,
+      "tick": 59,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 8,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        240,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/left-celebrate-frame9.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 9,
+      "tick": 65,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 9,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        320,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 0,
+      "tick": 0,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        0,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 1,
+      "tick": 5,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        80,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 2,
+      "tick": 10,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        160,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 3,
+      "tick": 16,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        240,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 4,
+      "tick": 24,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        320,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate-frame5.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 5,
+      "tick": 34,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 5,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        0,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate-frame6.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 6,
+      "tick": 44,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 6,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        80,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate-frame7.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 7,
+      "tick": 52,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 7,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        160,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate-frame8.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 8,
+      "tick": 59,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 8,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        240,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j137-briar-foxglove-celebrate/final-100/right-celebrate-frame9.png",
+      "athlete": "briar-foxglove",
+      "clip": "celebrate",
+      "frame": 9,
+      "tick": 65,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 9,
+      "source": "./public/assets/animation/briar-foxglove-celebrate-right.png",
+      "sourceRect": [
+        320,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        400,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    }
+  ],
+  "passContactCaptures": [],
+  "liveShotCaptures": []
+}

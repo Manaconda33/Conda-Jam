@@ -1,0 +1,198 @@
+{
+  "source": "tools/generate-art/sources/j137-briar-foxglove-celebrate-attempt-02-raw.png",
+  "sourceSha256": "71f11c61a19fb6716acaa1b5648075c4c96c8a472d27bbd8401048c961815be8",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "method": "Label alpha>=64 with 8-connectivity; retain ten body components of area>=500 and original alpha within 1px dilation; discard all remaining components; no redraw or pose changes.",
+  "componentsAlpha64": 10,
+  "retainedBodies": [
+    {
+      "id": 5,
+      "area": 38505,
+      "bbox": [
+        64,
+        108,
+        285,
+        483
+      ],
+      "marginsCanvas": [
+        64,
+        108,
+        1251,
+        541
+      ],
+      "sourceRow": 0,
+      "frameIndex": 0
+    },
+    {
+      "id": 3,
+      "area": 35600,
+      "bbox": [
+        395,
+        105,
+        569,
+        483
+      ],
+      "marginsCanvas": [
+        395,
+        105,
+        967,
+        541
+      ],
+      "sourceRow": 0,
+      "frameIndex": 1
+    },
+    {
+      "id": 4,
+      "area": 36255,
+      "bbox": [
+        705,
+        105,
+        887,
+        483
+      ],
+      "marginsCanvas": [
+        705,
+        105,
+        649,
+        541
+      ],
+      "sourceRow": 0,
+      "frameIndex": 2
+    },
+    {
+      "id": 2,
+      "area": 36425,
+      "bbox": [
+        1017,
+        85,
+        1188,
+        473
+      ],
+      "marginsCanvas": [
+        1017,
+        85,
+        348,
+        551
+      ],
+      "sourceRow": 0,
+      "frameIndex": 3
+    },
+    {
+      "id": 1,
+      "area": 34643,
+      "bbox": [
+        1314,
+        12,
+        1501,
+        399
+      ],
+      "marginsCanvas": [
+        1314,
+        12,
+        35,
+        625
+      ],
+      "sourceRow": 0,
+      "frameIndex": 4
+    },
+    {
+      "id": 10,
+      "area": 40971,
+      "bbox": [
+        76,
+        594,
+        272,
+        966
+      ],
+      "marginsCanvas": [
+        76,
+        594,
+        1264,
+        58
+      ],
+      "sourceRow": 1,
+      "frameIndex": 5
+    },
+    {
+      "id": 9,
+      "area": 40174,
+      "bbox": [
+        339,
+        586,
+        631,
+        966
+      ],
+      "marginsCanvas": [
+        339,
+        586,
+        905,
+        58
+      ],
+      "sourceRow": 1,
+      "frameIndex": 6
+    },
+    {
+      "id": 6,
+      "area": 40883,
+      "bbox": [
+        674,
+        552,
+        937,
+        967
+      ],
+      "marginsCanvas": [
+        674,
+        552,
+        599,
+        57
+      ],
+      "sourceRow": 1,
+      "frameIndex": 7
+    },
+    {
+      "id": 8,
+      "area": 40175,
+      "bbox": [
+        992,
+        585,
+        1266,
+        971
+      ],
+      "marginsCanvas": [
+        992,
+        585,
+        270,
+        53
+      ],
+      "sourceRow": 1,
+      "frameIndex": 8
+    },
+    {
+      "id": 7,
+      "area": 40425,
+      "bbox": [
+        1313,
+        579,
+        1505,
+        972
+      ],
+      "marginsCanvas": [
+        1313,
+        579,
+        31,
+        52
+      ],
+      "sourceRow": 1,
+      "frameIndex": 9
+    }
+  ],
+  "alpha16ComponentsBeforeCleanup": 19,
+  "removedNonBodyComponents": 9,
+  "noRedrawOrReorder": true,
+  "candidate": "tools/generate-art/candidates/j137-briar-foxglove-celebrate-attempt-02/briar-foxglove-celebrate-attempt-02-clean.png",
+  "candidateSha256": "65622d763de576c4220abdd21d7e21db3684604d68a8d5e141872e1d82f026ea",
+  "status": "accepted cleanup; ten bodies isolated with antialiasing retained; source review passes"
+}

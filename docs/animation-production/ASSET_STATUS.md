@@ -1,4 +1,12 @@
-## Current J.136 Briar Foxglove `rebound` checkpoint — 2026-10-27
+## Current J.137 Briar Foxglove `celebrate` checkpoint — 2026-10-27
+
+J.137 attempt02 is accepted and registered as `public/assets/animation/briar-foxglove-celebrate-right.png`. Ten original, distinct celebration poses occupy a transparent 5×2 atlas of80×96 cells with baseline y=94. Briar's canonical human identity, anatomy, locs, red headband, face and russet/cream palette pass review. Attempt01 and its superseding edit, exact prompts/IDs, raw source hashes, nine removed low-alpha specks, cleanup, layout and light/dark proofs are retained under the J.137 files. Alpha≥16 packed margins are at least10px at top/sides and2px at the shared baseline.
+
+Jam Stage production captures at courtY75 select all ten frames at expected ticks0,5,10,16,24,34,44,52,59,65 in both facings at100%/120%. Ball state remains dead and unowned; no Briar celebrate carry track applies. Independent source, packed, candidate-native and production-native reviews pass all pose, transparency, separation and anatomy checks.
+
+Validation: `npm test`57/57; lint19 modules; content validation35 franchises/105 athletes; build PASS. Strict audit `2026-10-27T02:42:23.462Z`:105 athletes,832 inspected clips,7,527 drawings,2,271 missing clips, one target shortfall and four inherited prompt findings. J.137 changes await commit/push. Pages run #178 succeeded for J.136 commit `d534dfdf`. Next roster target: J.138 Briar Foxglove `dunk-power`.
+
+## Previous J.136 Briar Foxglove `rebound` checkpoint — 2026-10-27
 
 J.136 attempt01 is accepted and registered as a five-pose 3×2 atlas in80×96 cells with blank cell6 and shared baseline y=94. The exact prompt, ImageGen ID, raw RGBA source/hash, glow cleanup, normalization, light/dark proofs, rejected ball-track trials and native captures are preserved in `tools/generate-art/j136-briar-foxglove-rebound*`. Briar's adult human anatomy, deep-brown skin, shoulder-length locs, red headband, compact build and russet/cream kit pass identity review; pose order separates ready, takeoff, airborne reach, two-hand catch and chest secure. No ball is baked in.
 

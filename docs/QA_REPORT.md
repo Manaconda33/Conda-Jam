@@ -1,4 +1,11 @@
-# QA — 2026-10-27 J.136 Briar Foxglove rebound registered locally
+# QA — 2026-10-27 J.137 Briar Foxglove celebrate registered locally
+
+- Attempt02 passed source, packed-size and native reviews after transparent alpha cleanup. Ten original pose drawings use a400×192 5×2 atlas with80×96 cells, shared baseline y=94 and full alpha-zero background. Attempt01 was superseded and retained; exact prompts, generation IDs, raw images/hashes, cleanup and light/dark previews are documented.
+- Jam Stage production captures use courtY75 at both facings and100%/120%. Frames0–9 select at ticks0,5,10,16,24,34,44,52,59,65, with finish anchor frame9/tick65. Briar has no ball; every capture shows dead/unowned state.
+- `npm test`:57/57 PASS; lint19 modules PASS; content validation35 franchises/105 athletes PASS; standalone build PASS. Strict report-only audit `2026-10-27T02:42:23.462Z`:105 athletes,832 clips,7,527 drawings,2,271 missing clips, one target shortfall and four inherited prompt findings.
+- J.136 commit `d534dfdf` is pushed to `main`; Pages run #178 (`40439102077`) succeeded for that exact commit. J.137 production files trigger the next Pages run after push.
+
+# Previous QA — 2026-10-27 J.136 Briar Foxglove rebound
 
 - Attempt01 source and packed reviews pass after transparent glow removal and uniform normalization. Five complete, distinct Briar poses use a3×2 240×192 atlas with80×96 cells, blank cell6 and baseline y=94. Raw prompt/source lineage, generation ID/hash, cleanup and rejected ball-track trials are preserved.
 - Jam Stage production captures use courtY75 at both facings and100%/120%. All five registered frames select correctly; separate Briar ball is loose/unowned through frame2/tick4, carried by Briar from frame3/tick5, and visually secured at her sternum on frame4/tick7. 2px packed alpha16 top/baseline margins pass independent comparison with Piper's 80×96 rebound atlas and remain uncropped in native captures.

@@ -1,0 +1,29 @@
+{
+  "asset": "J.137 Briar Foxglove celebrate",
+  "attempts": [
+    {
+      "attempt": "01",
+      "generationId": "exec-5405182b-3ad5-4879-9e0b-41460b82f8b4",
+      "generatedAt": "2026-10-27",
+      "promptFile": "tools/generate-art/j137-briar-foxglove-celebrate-attempt-01-prompt.md",
+      "rawSource": "tools/generate-art/sources/j137-briar-foxglove-celebrate-attempt-01-raw.png",
+      "sha256": "7d2ff48bf31178bd9a072d2a0020cc24590aa8d0d07932f1e2d62bc8bcbbf25e",
+      "lightDarkPreview": "tools/generate-art/previews/j137-briar-foxglove-celebrate/attempt-01-light-dark.png",
+      "status": "superseded by attempt02; raw, prompt and preview retained"
+    },
+    {
+      "attempt": "02",
+      "generationId": "exec-6e05b884-6c71-4a0f-b7d1-b516945cad5f",
+      "generatedAt": "2026-10-27",
+      "promptFile": "tools/generate-art/j137-briar-foxglove-celebrate-attempt-02-edit-prompt.md",
+      "parentAttempt": "01",
+      "rawSource": "tools/generate-art/sources/j137-briar-foxglove-celebrate-attempt-02-raw.png",
+      "sha256": "71f11c61a19fb6716acaa1b5648075c4c96c8a472d27bbd8401048c961815be8",
+      "lightDarkPreview": "tools/generate-art/previews/j137-briar-foxglove-celebrate/attempt-02-light-dark.png",
+      "cleanupReport": "tools/generate-art/candidates/j137-briar-foxglove-celebrate-attempt-02/cleanup-report.json",
+      "normalizationReport": "tools/generate-art/candidates/j137-briar-foxglove-celebrate-attempt-02/normalization-report.json",
+      "candidateAtlas": "tools/generate-art/candidates/j137-briar-foxglove-celebrate-attempt-02/briar-foxglove-celebrate-attempt-02-review.png",
+      "reviewStatus": "accepted and registered; source, packed and native review pass"
+    }
+  ]
+}
