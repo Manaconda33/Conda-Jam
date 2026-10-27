@@ -1,0 +1,5 @@
+{
+  "status": "rejected capture setup, not a track-quality result",
+  "candidateTrack": {"height":[1,1.1,1.4,1.7,2,2.25,2.35,2.5,2.35,2.5,2.25,1.8,1.2,0.75,0.6],"forward":[6,8,9,8,4,-6,-8,-9,-9,-10,-11,-8,-3,1,3]},
+  "reason": "Temporary in-page manifest set reviewed=false, causing the production selector to return no sprite. Captures preserved as setup failure; rerun with reviewed=true only inside temporary capture page."
+}

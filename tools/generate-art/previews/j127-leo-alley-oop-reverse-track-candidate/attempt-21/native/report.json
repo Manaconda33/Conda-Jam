@@ -1,0 +1,2368 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4239/",
+  "athlete": "leo",
+  "clip": "alley-oop-reverse",
+  "candidateTrack": {
+    "height": [
+      4.5,
+      4.4,
+      4.1,
+      3.5,
+      3.1,
+      2.1,
+      2.2,
+      1.8187,
+      2.1,
+      2.3,
+      1.55,
+      1.7,
+      1.2,
+      0.75,
+      0.6
+    ],
+    "forward": [
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -4.5,
+      -2,
+      3.6545,
+      -4,
+      -2,
+      -0.5,
+      -5,
+      -2,
+      1,
+      3
+    ]
+  },
+  "releasePositions": {
+    "21": [
+      -5,
+      1.2
+    ],
+    "22": [
+      -7,
+      1.8
+    ],
+    "23": [
+      -9,
+      1.1
+    ],
+    "26": [
+      -8,
+      0.4
+    ]
+  },
+  "captureMethod": "Stages canonical dunk z-height at authored frame starts; the incoming lob is an ownerless pass through tick9, attached to Leo from catch tick10 through tick20, then released as a separate ownerless dunk at tick21.",
+  "cameraSetup": "Temporary in-page dunk-alias selects the production Jam Stage dunk camera pan. Atlas pixels and courtY remain unchanged. The input zoom is divided by stageAttackZoom(player.z), preserving effective canvas zoom at the requested 100%/120% while the stage camera pans down by its production 42px peak amount.",
+  "playerX": 185.0,
+  "courtY": 90.0,
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 177,
+        "y": 90,
+        "z": 4.5
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 178,
+        "y": 90,
+        "z": 4.4
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick02-right-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 179,
+        "y": 90,
+        "z": 4.1
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick04-right-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "z": 2.2699524987,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 180,
+        "y": 90,
+        "z": 5.7699524987
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 19.06760098908,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick07-right-zoom100.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": 1,
+      "z": 3.5355339059,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 181,
+        "y": 90,
+        "z": 6.6355339059
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 29.69848480956,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick09-right-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 180.5,
+        "y": 90,
+        "z": 6.145084971899999
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 33.97871376396,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick10-right-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": 1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 183,
+        "y": 90,
+        "z": 6.955282581500001
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 39.9443736846,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 6,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick12-right-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": 1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 188.6545,
+        "y": 90,
+        "z": 6.8187
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 42,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 7,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick14-right-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": 1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 181,
+        "y": 90,
+        "z": 6.4301270189
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 36.37306695876,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 8,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick17-right-zoom100.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": 1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 183,
+        "y": 90,
+        "z": 5.5139380484
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 26.99707960656,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 9,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick19-right-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": 1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 183,
+        "y": 90,
+        "z": 4.8
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 21,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 9,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick20-right-zoom100.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": 1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 180,
+        "y": 90,
+        "z": 1.2
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 14.364846019439998,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 10,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick21-right-zoom100.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": 1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 178,
+        "y": 90,
+        "z": 1.8
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 7.98,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 10,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick22-right-zoom100.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 176,
+        "y": 90,
+        "z": 1.1
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 11,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick23-right-zoom100.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 177,
+        "y": 90,
+        "z": 0.4
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 12,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick26-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 193,
+        "y": 90,
+        "z": 4.5
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 192,
+        "y": 90,
+        "z": 4.4
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick02-left-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 191,
+        "y": 90,
+        "z": 4.1
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick04-left-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "z": 2.2699524987,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 190,
+        "y": 90,
+        "z": 5.7699524987
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 19.06760098908,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick07-left-zoom100.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": -1,
+      "z": 3.5355339059,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 189,
+        "y": 90,
+        "z": 6.6355339059
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 29.69848480956,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick09-left-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 189.5,
+        "y": 90,
+        "z": 6.145084971899999
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 33.97871376396,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick10-left-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": -1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 187,
+        "y": 90,
+        "z": 6.955282581500001
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 39.9443736846,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 6,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick12-left-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": -1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 181.3455,
+        "y": 90,
+        "z": 6.8187
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 42,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 7,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick14-left-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": -1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 189,
+        "y": 90,
+        "z": 6.4301270189
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 36.37306695876,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 8,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick17-left-zoom100.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": -1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 187,
+        "y": 90,
+        "z": 5.5139380484
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 26.99707960656,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 9,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick19-left-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": -1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 187,
+        "y": 90,
+        "z": 4.8
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 21,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 9,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick20-left-zoom100.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": -1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 190,
+        "y": 90,
+        "z": 1.2
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 14.364846019439998,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 10,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick21-left-zoom100.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": -1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 192,
+        "y": 90,
+        "z": 1.8
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 7.98,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 10,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick22-left-zoom100.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 194,
+        "y": 90,
+        "z": 1.1
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 11,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick23-left-zoom100.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 193,
+        "y": 90,
+        "z": 0.4
+      },
+      "requestedZoom": 100,
+      "effectiveZoom": 100,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 12,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick26-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 177,
+        "y": 90,
+        "z": 4.5
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 178,
+        "y": 90,
+        "z": 4.4
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick02-right-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 179,
+        "y": 90,
+        "z": 4.1
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick04-right-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "z": 2.2699524987,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 180,
+        "y": 90,
+        "z": 5.7699524987
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 19.06760098908,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick07-right-zoom120.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": 1,
+      "z": 3.5355339059,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 181,
+        "y": 90,
+        "z": 6.6355339059
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 29.69848480956,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick09-right-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 180.5,
+        "y": 90,
+        "z": 6.145084971899999
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 33.97871376396,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick10-right-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": 1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 183,
+        "y": 90,
+        "z": 6.955282581500001
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 39.9443736846,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 6,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick12-right-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": 1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 188.6545,
+        "y": 90,
+        "z": 6.8187
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 42,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 7,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick14-right-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": 1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 181,
+        "y": 90,
+        "z": 6.4301270189
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 36.37306695876,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 8,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick17-right-zoom120.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": 1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 183,
+        "y": 90,
+        "z": 5.5139380484
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 26.99707960656,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 9,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick19-right-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": 1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 183,
+        "y": 90,
+        "z": 4.8
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 21,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 9,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick20-right-zoom120.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": 1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 180,
+        "y": 90,
+        "z": 1.2
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 14.364846019439998,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 10,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick21-right-zoom120.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": 1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 178,
+        "y": 90,
+        "z": 1.8
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 7.98,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 10,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick22-right-zoom120.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 176,
+        "y": 90,
+        "z": 1.1
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 11,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick23-right-zoom120.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 177,
+        "y": 90,
+        "z": 0.4
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 12,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick26-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 193,
+        "y": 90,
+        "z": 4.5
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 192,
+        "y": 90,
+        "z": 4.4
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick02-left-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 191,
+        "y": 90,
+        "z": 4.1
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick04-left-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "z": 2.2699524987,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 190,
+        "y": 90,
+        "z": 5.7699524987
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 19.06760098908,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick07-left-zoom120.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": -1,
+      "z": 3.5355339059,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 189,
+        "y": 90,
+        "z": 6.6355339059
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 29.69848480956,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick09-left-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 189.5,
+        "y": 90,
+        "z": 6.145084971899999
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 33.97871376396,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick10-left-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": -1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 187,
+        "y": 90,
+        "z": 6.955282581500001
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 39.9443736846,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 6,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick12-left-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": -1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 181.3455,
+        "y": 90,
+        "z": 6.8187
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 42,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 7,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick14-left-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": -1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 189,
+        "y": 90,
+        "z": 6.4301270189
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 36.37306695876,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 8,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick17-left-zoom120.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": -1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 187,
+        "y": 90,
+        "z": 5.5139380484
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 26.99707960656,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 9,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick19-left-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": -1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 187,
+        "y": 90,
+        "z": 4.8
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 21,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 9,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick20-left-zoom120.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": -1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 190,
+        "y": 90,
+        "z": 1.2
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 14.364846019439998,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 10,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick21-left-zoom120.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": -1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 192,
+        "y": 90,
+        "z": 1.8
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 7.98,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 10,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick22-left-zoom120.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 194,
+        "y": 90,
+        "z": 1.1
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 11,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick23-left-zoom120.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 193,
+        "y": 90,
+        "z": 0.4
+      },
+      "requestedZoom": 120,
+      "effectiveZoom": 120,
+      "stagePanY": 0,
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+        "frame": 12,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-21/native/tick26-left-zoom120.png"
+    }
+  ],
+  "stageReset": {
+    "playerCount": 1,
+    "playerIds": [
+      "leo"
+    ],
+    "canvasCount": 73,
+    "canvasRects": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 29,
+        "y": 34,
+        "width": 842,
+        "height": 631.5,
+        "top": 34,
+        "right": 871,
+        "bottom": 665.5,
+        "left": 29
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    ],
+    "camera": "production stage dunk camera with temporary same-atlas dunk alias"
+  },
+  "captureCount": 60,
+  "uncaughtBrowserErrors": []
+}

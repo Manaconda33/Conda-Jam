@@ -1957,3 +1957,33 @@ test('Leo alley-oop power follows the reviewed catch track and releases once at 
   while(p.animation.tick<finish)stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
  }
 });
+
+test('Leo reverse alley-oop uses the J.127 hand track, catches and scores in either facing',()=>{
+ const clip='alley-oop-reverse',id='leo';
+ const height=[4.5,4.4,4.1,3.5,2.4,2.1,2.2,1.8187,2.1,2.3,1.55,1.7,1.2,.75,.6];
+ const forward=[-8,-7,-6,-5,-4,-4.5,-2,3.6545,-4,-2,-.5,-5,-2,1,3];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height,forward,trials:'tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-24/native/report.json'});
+ const frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ for(const facing of [1,-1]){
+  const m=setup(),passer=m.players[0],p=m.players[1];p.id=id;p.name='Leo';passer.x=170;p.x=184;p.y=46;p.facing=facing;
+  stepMatch(m,[...neutral(m).filter(i=>i.playerId!==passer.id),createInput(passer.id,{passPressed:true,turbo:true,alleyOop:'reverse'})]);
+  while(passer.animation.tick<anchorTick(passer.animation.clip,'release'))stepMatch(m,neutral(m));
+  assert.equal(p.animation.clip,clip);assert.equal(m.ball.mode,'pass');
+  for(let frame=0;frame<10;frame++){
+   const tick=frameTick(frame);while(p.animation.tick<tick)stepMatch(m,neutral(m));
+   assert.equal(sampleBallHeight(clip,p.animation.tick,id),height[frame]);assert.equal(sampleBallForward(clip,p.animation.tick,id),forward[frame]);
+   if(frame<5)assert.equal(m.ball.mode,'pass');
+   else {assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,id);assert.equal(p.hasBall,true);assert.ok(Math.abs(m.ball.x-p.x-facing*forward[frame])<.06);assert.ok(Math.abs(m.ball.z-p.z-height[frame])<.02);}
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');
+  assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,id);
+  stepMatch(m,neutral(m));assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.clip===clip&&p.animation.tick<finish)stepMatch(m,neutral(m));
+  assert.equal(m.score[0],2);assert.equal(p.dunks,1);assert.equal(passer.assists,1);
+  while(p.animation.clip===clip&&p.animation.tick<land)stepMatch(m,neutral(m));
+  assert.ok(p.z<=0.001,'Leo reaches the floor before the post-score celebration');assert.equal(m.ball.mode,'dead');
+ }
+});

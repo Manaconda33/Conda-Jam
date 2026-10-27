@@ -1,7 +1,7 @@
 {
   "athlete": "leo",
   "clip": "alley-oop-reverse",
-  "runtimeRegistration": "none",
+  "runtimeRegistration": "public/assets/animation/leo-alley-oop-reverse-right.webp",
   "attempts": [
     {
       "attempt": 1,
@@ -57,7 +57,7 @@
       "promptSha256": "15e98b9b8864ff7d6c05aaf61025a5775a36a2003fde9d331d021537dbba1956",
       "sourceReferences": [],
       "status": "rejected; raw preserved",
-      "rejection": "No-reference generation retained broad partial-alpha brown/black background haze, airbrushed/painterly shading, near-identical poses5–8 and frames12–13, and rounded orange marks at the carried hands that can read as a ball. Action direction is not clear enough. Do not normalize or pack."
+      "rejection": "No-reference generation retained broad partial-alpha brown/black background haze, airbrushed/painterly shading, near-identical poses5\u20138 and frames12\u201313, and rounded orange marks at the carried hands that can read as a ball. Action direction is not clear enough. Do not normalize or pack."
     },
     {
       "attempt": 4,
@@ -76,7 +76,7 @@
         "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
       ],
       "status": "rejected by initial visual inspection; independent review pending",
-      "rejection": "Despite reference-free identity/style prompt restructure and explicit alpha-zero demand, the sheet retains an extensive brown-black partial-alpha vignette; pixel rendering remains painterly. Frames5–8 repeat the same overhead hold and reverse direction is weak. Not packed."
+      "rejection": "Despite reference-free identity/style prompt restructure and explicit alpha-zero demand, the sheet retains an extensive brown-black partial-alpha vignette; pixel rendering remains painterly. Frames5\u20138 repeat the same overhead hold and reverse direction is weak. Not packed."
     },
     {
       "attempt": 5,
@@ -96,14 +96,14 @@
         "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
       ],
       "status": "rejected by initial visual inspection; independent review pending",
-      "rejection": "Targeted image edit retains the same broad brown/black gradient backdrop and smooth shading. Frames5–8 remain repetitive holds despite specific silhouette edits; no alpha cleanup or packing attempted."
+      "rejection": "Targeted image edit retains the same broad brown/black gradient backdrop and smooth shading. Frames5\u20138 remain repetitive holds despite specific silhouette edits; no alpha cleanup or packing attempted."
     }
   ],
-  "decision": "J127 candidate atlas attempt02 passes independent visual art review but remains unregistered pending Jam Stage native captures, athlete-specific track calibration, gameplay tests, and final validation. The first packed candidate is preserved on hold due frame similarity.",
+  "decision": "J127 accepted and integrated after independent source/native review, selector/mirror coverage, two-facing catch/carry/release/score/landing gameplay validation, and full suite validation.",
   "independentReview": {
     "reviewer": "candidate_review",
-    "decision": "reject attempts01–02",
-    "notes": "Both files have broad partial-alpha backdrop haze (~28.1% and ~34.4%), painterly shading, repeated poses5–8, weak reverse direction, and orange ball-like marks at carried hands."
+    "decision": "reject attempts01\u201302",
+    "notes": "Both files have broad partial-alpha backdrop haze (~28.1% and ~34.4%), painterly shading, repeated poses5\u20138, weak reverse direction, and orange ball-like marks at carried hands."
   },
   "poseAttempts": [
     {
@@ -849,7 +849,48 @@
       "tools/generate-art/previews/j127-atlas-attempt02-candidate-dark.png"
     ],
     "status": "independent visual art review passed; native Jam Stage review and track calibration pending",
-    "reviewNotes": "All 15 row-major cells and transparent cell16 reviewed. Identity/anatomy, clean alpha, margins, scale/baseline pass. Frames04–08 are closest cluster but transitions remain legible at cell size. This is not runtime acceptance.",
+    "reviewNotes": "All 15 row-major cells and transparent cell16 reviewed. Identity/anatomy, clean alpha, margins, scale/baseline pass. Frames04\u201308 are closest cluster but transitions remain legible at cell size. This is not runtime acceptance.",
     "candidateSha256": "bb3ebe221fcee1f3688c23d2b6c2e25857e75ca79c38b9060752a1a39e03354f"
+  },
+  "acceptedRuntimeCandidate": "attempt02 composite atlas; source/pose generation IDs, prompts, raw images, rejected source attempts and cleanup details preserved in this file and referenced pose records",
+  "nativeTrackReview": {
+    "status": "accepted after two-facing independent visual review and live simulation tests",
+    "attempt": 24,
+    "captureReport": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-24/native/report.json",
+    "height": [
+      4.5,
+      4.4,
+      4.1,
+      3.5,
+      2.4,
+      2.1,
+      2.2,
+      1.8187,
+      2.1,
+      2.3,
+      1.55,
+      1.7,
+      1.2,
+      0.75,
+      0.6
+    ],
+    "forward": [
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -4.5,
+      -2,
+      3.6545,
+      -4,
+      -2,
+      -0.5,
+      -5,
+      -2,
+      1,
+      3
+    ],
+    "captureReleaseContact": "The static capture report contains a local release-position variant for the calibration overlay. Runtime uses the recorded frame track; scoring/release/landing are verified in tests/animation.test.js for both facings."
   }
 }

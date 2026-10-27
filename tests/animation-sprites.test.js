@@ -2654,6 +2654,24 @@ test('Keeg selects all fifteen reviewed J.107 reverse-lob poses and carries the 
  }
 });
 
+test('Leo selects all fifteen J.127 reverse alley-oop poses from the reviewed atlas in both facings',()=>{
+ const id='leo',clip='alley-oop-reverse',atlas='./public/assets/animation/leo-alley-oop-reverse-right.webp';
+ const registration=animationAssetManifest.characters[id].directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);assert.equal(registration.frames.length,15);
+ const expectedHeight=[4.5,4.4,4.1,3.5,2.4,2.1,2.2,1.8187,2.1,2.3,1.55,1.7,1.2,.75,.6];
+ const expectedForward=[-8,-7,-6,-5,-4,-4.5,-2,3.6545,-4,-2,-.5,-5,-2,1,3];
+ assert.deepEqual(registration.provenance.ballTrack,{height:expectedHeight,forward:expectedForward,trials:'tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-24/native/report.json'});
+ const images=new Map([[atlas,{complete:true,naturalWidth:512,naturalHeight:384,file:atlas}]]);let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation(clip,tick).frame,frame,'Leo selects reverse alley-oop pose '+frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip,tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips[clip].frames[frame].duration;
+ }
+});
+
 test('Keeg selects all fifteen reviewed J.106 alley-oop poses with a separate lob track through tick20',()=>{
  const id='keeg',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
  const atlas='./public/assets/animation/keeg-alley-oop-power-right.webp';
