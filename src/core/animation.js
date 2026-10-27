@@ -1501,7 +1501,7 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[14,15,16,17,18,18,17,16,15,14,14]}
 }};
 // J.105 Leo pass ball-track attempt03; provisional until contact review.
-athleteBallTracks.leo={pass:{height:[1.65,1.9,1.9,2.05,2.0,1.05],forward:[3.75,4.75,8.5,9.75,9,7]},'pass-behind':{height:[1.6,1.05,1.2,1.6,1.1,1],forward:[4,2,-6,-10,-10,3]},receive:{height:[1.15,2.0,1.9,1.45],forward:[8,13,8,3]},pickup:{height:[.95,.65,.1,0,1.1],forward:[6,9,12,11.5,8]},layup:{height:[.95,.8,2.0,2.6,2.35,1.8,.95,.6],forward:[5,3,5,4.5,14,11,7,5]}}; // J.110 layup attempt04: close airborne hand contact
+athleteBallTracks.leo={pass:{height:[1.65,1.9,1.9,2.05,2.0,1.05],forward:[3.75,4.75,8.5,9.75,9,7]},'pass-behind':{height:[1.6,1.05,1.2,1.6,1.1,1],forward:[4,2,-6,-10,-10,3]},receive:{height:[1.15,2.0,1.9,1.45],forward:[8,13,8,3]},pickup:{height:[.95,.65,.1,0,1.1],forward:[6,9,12,11.5,8]},layup:{height:[.95,.8,2.0,2.6,2.35,1.8,.95,.6],forward:[5,3,5,4.5,14,11,7,5]},steal:{height:[1.05,1.0,.8,1.15,1.25,1.1,1.1,1.1],forward:[6,9,12,12.5,6,7,7,6]}}; // J.113 steal attempt04: native hand-contact and recovery track
   athleteBallTracks.leo['pass-overhead']={height:[1.1,2.3,2.3,2.7,3.2,1.25],forward:[4.5,4.8,4.7,6.5,7,7]}; // provisional J.106 candidate attempt07
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);

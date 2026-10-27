@@ -4,17 +4,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 2,
-  "generatedAt": "2026-10-27T10:43:32.303Z",
+  "generatedAt": "2026-10-27T17:33:06.425Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 2329,
-  "missingClipCount": 774,
+  "inspectedClips": 2336,
+  "missingClipCount": 767,
   "uniqueSourceLibraries": 42,
-  "uniqueSourceAtlases": 502,
-  "uniqueSourceDrawings": 4771,
+  "uniqueSourceAtlases": 509,
+  "uniqueSourceDrawings": 4814,
   "classifications": {
-    "original-authored": 502,
+    "original-authored": 509,
     "derived-palette": 1827
   },
   "assignmentClassifications": {
@@ -121,8 +121,8 @@
       "sourceLibrary": "echo-catwalk"
     },
     "leo": {
-      "clips": 9,
-      "missingClips": 20,
+      "clips": 16,
+      "missingClips": 13,
       "classification": "incomplete",
       "assignmentStatus": "original-authored",
       "lineage": null,
@@ -905,56 +905,7 @@
       "code": "missing-clip",
       "athlete": "leo",
       "direction": "right",
-      "clip": "pass",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
-      "clip": "pass-overhead",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
-      "clip": "pass-behind",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
-      "clip": "receive",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
-      "clip": "pickup",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
-      "clip": "layup",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
       "clip": "layup-reverse",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "leo",
-      "direction": "right",
-      "clip": "steal",
       "classification": "original-authored"
     },
     {
@@ -44416,6 +44367,423 @@
     {
       "athlete": "leo",
       "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-pass-right.webp",
+      "width": 336,
+      "height": 192,
+      "sha256": "27e6ed011e08274d37819765638f33ede90f448c31a58ad42e925411a86c7e83",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "2f49623ce3d3b13e7de4e166fd7f35fd6dd4978688bed81bbe41a23ede434a13",
+          "visiblePixels": 3311
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "a4641b6e0f9145fa1c9a33f317bac42a7c471323ae993e9de530e3123c81ed8e",
+          "visiblePixels": 3220
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "8610d50591fcf184aa9cefa0605b16abb7fa60c227f92759e79d6b2121819ce5",
+          "visiblePixels": 3596
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "85878d70385a613a109b270593c3e736583748298c774137b024ff0e35c4d7d9",
+          "visiblePixels": 3708
+        },
+        {
+          "index": 4,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "38ff2c9541ad65d3ee33a1d008a94edee6996ec96f1467af8094f0dcfc40cc94",
+          "visiblePixels": 3567
+        },
+        {
+          "index": 5,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "2c006daeff2fbe166bd6cd26675cbb74dff4c7b1b926c57d47cb042e663cd750",
+          "visiblePixels": 3291
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-pass-overhead-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "f5f32a83dc1abf67020f7af01d6d4cf5e45b0c17f6d410ddeb3a4fa61c5b9ceb",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d8f9b77d3dba406d48fb0a09e976562bd9183e0db781382ff264c996afee5583",
+          "visiblePixels": 2523
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "07dac8c08bed5571a72568ee6235dac84e64aa3423eb165f8f29d320c7f37768",
+          "visiblePixels": 2667
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "cf2ae57bd5538b1b312f94f098e29ec6ac8b9868d052baceb327e349e5933b6b",
+          "visiblePixels": 2753
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b81c31812bc351fe12445fbabb6fd5e4ff34943f434455baf1446fa0aaab838e",
+          "visiblePixels": 3063
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5a398954b8fa24f6b7420c64e770b08cd0efc15e6d2fef17e9e0778b4d9ad892",
+          "visiblePixels": 2832
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "10a46df5bafb9b5740627979a0b80bcb368bb5e364bf5c7e1e82f3bb59ca080b",
+          "visiblePixels": 2550
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-pass-behind-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "19f24321700fb5acdaf00ca37a3cc7fccce4ada8808d0382101c2a1fdfc6a230",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5bfa84c53b1edc1312987ee3b65ca2a74ffc053a08d4342732bc0bc5f7d4434d",
+          "visiblePixels": 3254
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8d630b31624aa1805ee9422923a831fb30c0556978c28967b6c910a4a7022a94",
+          "visiblePixels": 3142
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "44ad8968d4a6161176e4aec43f01a85381719757153c11295554e27c8de977e8",
+          "visiblePixels": 3295
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d55d33e054655bbf88c829f63592e5d8a4581f865020fa7b603c5e42de38eee3",
+          "visiblePixels": 3566
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f3a2724559b684ba97ae69f349bc51dceb7a03ef6976153b3e03c90a3edf963d",
+          "visiblePixels": 3545
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c51e6d6628fe5ab3a4c88ab8d1c526eb64e790c7a1f5be98603ef4717339fe31",
+          "visiblePixels": 3258
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-receive-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "7b7bd363210e7ba10937e94886db6790189a09f3f19bd1e4aecf0840d6074ec1",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ea1f01888339e1f177ddb0ba90644104146a204381198b95ba410609a5e609b0",
+          "visiblePixels": 3180
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a4faf8086f43c3e8f7df4e2bf16e5873573d922b8c96be9e6bfe373c18e2fda0",
+          "visiblePixels": 3502
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "60d420f53ec95e1230d403d57a656f29d03c1a4f0db6574b24224f70f73ae7fe",
+          "visiblePixels": 3243
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "fd35aa2b18d7200df457fadc33e8b3b61d6ff20c38926bba457476c3783a3f29",
+          "visiblePixels": 3159
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-pickup-right.webp",
+      "width": 336,
+      "height": 192,
+      "sha256": "a04b3e26e83cb75cc099d665f218be3fbb6b4292a46ed7b1c51b1a34ae007ecd",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "68a33ac27c2adfd2a885628625098d2382f4ce0c10b87fc47f82b3ae054d7641",
+          "visiblePixels": 3722
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "d8a1a373eb99df97bd93850e91f697c526829960ba9c37abc0f23fe1569c7bfd",
+          "visiblePixels": 4052
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "983b9f00c1d6a086270b8fd5573daaa9f2f6b7e1e68880af36064cad2d6a86fd",
+          "visiblePixels": 3677
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "6f4f4867666b454820b81e5ec9be42f2be26f2e06462758f0f454605189b7092",
+          "visiblePixels": 3459
+        },
+        {
+          "index": 4,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "04175107f188faab7591db615294b00a1f22abc270aa913021374172aa5e2d43",
+          "visiblePixels": 3759
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-layup-right.webp",
+      "width": 320,
+      "height": 192,
+      "sha256": "86c92af3768128fa7cf676dfe8a5f8593b24740eb873c7f328717e81beceeee5",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "55cdd5e29c6cdacb333485da771824d875182e088d79de772d781f303f98e789",
+          "visiblePixels": 2224
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f25e8961a9bd460fc960bfe5b0b46a73fdc9ca9cc459dfbaafbd02f424c671bc",
+          "visiblePixels": 2106
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "1572e07cb37e1956676586ee5a757e2999ef88dfe5ab44cfefa1764f7b548693",
+          "visiblePixels": 2014
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "3c4607e9997bbfc3e781820b3125cbb1d26d978ac4267c3849db6bb8191b29f5",
+          "visiblePixels": 2439
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "039391c1553f701fc5ad66e2a7d00e6c8962f189036a25190c3d93f3c69dbd1f",
+          "visiblePixels": 2139
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "bf32f82d3657fd774637fa404dbb8b2e70039ac705f670e4b41cf4272727bd2b",
+          "visiblePixels": 2133
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "03c1f73956bbef94c0536335a15edd3a4e64da2796fca9b640f83d0ec7a8d0ff",
+          "visiblePixels": 2277
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "82e3e370e33f6eebff58a1a55d099131726de7f971233162ce35095a2bdec66b",
+          "visiblePixels": 2150
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
       "clip": "block",
       "classification": "original-authored",
       "src": "./public/assets/animation/leo-block-captain-reviewed-right.webp",
@@ -44463,6 +44831,95 @@
           "h": 96,
           "hash": "675a424b8d2b979bc3145e2bd25453a7a313125da12805b97c52090fd8bf3e4e",
           "visiblePixels": 1932
+        }
+      ]
+    },
+    {
+      "athlete": "leo",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/leo-steal-right.webp",
+      "width": 448,
+      "height": 192,
+      "sha256": "9ffc4e68c67085cf522adb6140cdcb970af0ca5b244c3df21d3f911783c4bf2f",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "c5d3e850ecd1451f89694c587194fc56e6d19c34ae95e825226a019b9131cd70",
+          "visiblePixels": 3012
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "0ab785ecae0dfc779c1dd729a3daaceec85e9b353138fba43591f67ad1938082",
+          "visiblePixels": 3075
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "34120436e7af2b4bd64fef1aeee37c24567b3c9d9be930af4fb98d1666c5baf9",
+          "visiblePixels": 3208
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "38736c38f5bb84f1638a9a236a4af8d1986940a65fc1f34cb50b7bc911630f16",
+          "visiblePixels": 3191
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "5383568a79a6feef1b54ea7802e741f4594b76bd3e4b38556cdd4ab871583392",
+          "visiblePixels": 3238
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "c33877766752716ee08b616e322fb87b8958cb94dde0f43a261fcd9ae98454aa",
+          "visiblePixels": 3246
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "c5c1d6f644264d37a94c79f985e346f1bcd7ae30da0793dedf6b03f0098edf85",
+          "visiblePixels": 3367
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "cbed47d488ef8fb45a6b40c2d50e28bf30ff100ed40a205a7e3755a3c741f2fa",
+          "visiblePixels": 3050
         }
       ]
     },
