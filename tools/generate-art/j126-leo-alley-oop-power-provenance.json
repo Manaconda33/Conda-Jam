@@ -1,7 +1,7 @@
 {
   "athlete": "leo",
   "clip": "alley-oop-power",
-  "runtimeRegistration": "none",
+  "runtimeRegistration": "registered and gameplay-validated",
   "attempts": [
     {
       "attempt": 1,
@@ -44,12 +44,19 @@
       "sourceReferences": [
         "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
       ],
-      "status": "unreviewed candidate",
-      "review": "New generation with exact accepted Leo atlas as style reference; independent source review pending.",
+      "status": "accepted; registered",
+      "review": "Independent packed-art review accepted; 15 poses preserve identity, complete anatomy, transparency, legibility, and action progression.",
       "proofs": [
         "tools/generate-art/previews/j126-attempt02-light.png",
         "tools/generate-art/previews/j126-attempt02-dark.png"
       ]
     }
-  ]
+  ],
+  "trackReview": {
+    "attempt": 11,
+    "captureCount": 60,
+    "independentReviewer": "candidate_review and j123_track_visual_review",
+    "status": "visual accepted and deterministic gameplay-validated",
+    "evidence": "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native"
+  }
 }

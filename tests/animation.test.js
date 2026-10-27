@@ -1885,3 +1885,17 @@ test('Leo scythe dunk uses its reviewed hand track and releases one separate bal
   while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
  }
 });
+
+test('Leo alley-oop power follows the reviewed catch track and releases once at tick21',()=>{
+ const clip='alley-oop-power',id='leo',heights=[1,1.2,1.5,1.7,1.8,1.55,1.2,1.45,1.55,1.15,1,.9,.8,.65,.55],forwards=[6,8,10,8,6,1.5,2,2.3,2,1.8,10,12,9,7,6];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards,trials:'tools/generate-art/previews/leo-alley-oop-power-track-candidate/track-trials.json'});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:85,home:{roster:[{id},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'alley-oop-power'}):i));assert.equal(p.animation.clip,clip);
+  for(const frame of [0,2,4,5,6,7,8,9]){const tick=animationClips[clip].frames.slice(0,frame).reduce((n,f)=>n+f.duration,0);while(p.animation.tick<tick)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);assert.equal(p.hasBall,true);assert.equal(sampleBallHeight(clip,p.animation.tick,id),heights[frame]);assert.equal(sampleBallForward(clip,p.animation.tick,id),forwards[frame]);assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);}
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');assert.equal(anchorTick(clip,'grab'),10);assert.equal(anchorTick(clip,'peak'),14);assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish)stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
+ }
+});

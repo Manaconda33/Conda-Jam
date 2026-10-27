@@ -62459,13 +62459,199 @@
               "scope": "15-pose composite atlas, native two-facing 100/120% track captures, deterministic timing and release simulation",
               "notes": "Composite attempt06 passes action, identity, anatomy, margins, alpha and pose-order review. Track attempt06 passes gather, peak, ticks19–20 hand contact and tick21 release across both facings/zooms; gameplay test confirms possession, release, score and landing."
             }
+          },
+          "alley-oop-power": {
+            "src": "./public/assets/animation/leo-alley-oop-power-attempt02-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "175c09e13dce417df936b25231cfed38b09b8dbfb3353110c386da518669a438"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "1130f3e28b4812f93f9de6534f0ca70e6c81f1a7e3a9f8141e50d74253f93981"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "3f240d5b8d763a241796657ee3142cebee55e97a8b03603707f1ed69665fbe9c"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f55c30b352cf0b2fe981035a6ec5fe7f6a2d489386ad65dc4af7bdd880617991"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "b9f60436ed1fd224d2c32d07a75be8bef84cd442fb6d03919b9fb9817483d5c4"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "23f5fbf3aeae7d44bee444b20fabc3a404b8d6b0cae39f729732a6325bcdd2f9"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "035204260d71e34e40dfd46b876fec7da55b1487507ec75e8388407040a5e51e"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "cf7898025011f293b3c339b3c79443b93b0b3ee75dbf631ed96c7dc75fbc25b6"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "aa4bfcb310e4c88d067992f2c26f7c9c95a972b819db5b9e5657f7a1c1a188aa"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "14b746bfaa50d88553e01276a491c4fc02305e5024f5442bb5eaa5ac90995045"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "8742ae311b8352ec247d0bed167b3a7a146d9ce91347129c2ad8da7eafe9032d"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "cb877cac6af19e722897f5377acdce297d3d32523ee0863b8808419e1205caf1"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "14deeae59d1eb5e47661604fbd76ef3be3efbd65a2e40cab3be84386229d51d9"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "595032ee56974c297c935cf7c17b51d457e5ab9505ed6d99c5b141868d7edd0d"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "0c46e31bbfcbb84b4a211f0828ef409feba78330e3e9b4209f623f8590f1786f"
+              }
+            ],
+            "sha256": "382ef069479db07803dc5d5d3515daabaa3e290c9e792732585bbc769187aac1",
+            "source": "imagegen",
+            "provenance": {
+              "generationId": "exec-0784b702-b69c-4642-80ba-59757e601b01",
+              "generatedAt": "2026-10-27",
+              "prompt": "tools/generate-art/j126-leo-alley-oop-power-attempt02-pixel-reference-prompt.md",
+              "rawSourceImage": "tools/generate-art/sources/j126-leo-alley-oop-power-attempt02-generated-raw.png",
+              "sourceImage": "tools/generate-art/sources/j126-leo-alley-oop-power-attempt02-cleaned-components.png",
+              "rawSha256": "c8020c3e11ee47e3b44bd30479f4fbff34d4d8dd190077cbe53fc009849525cb",
+              "sourceSha256": "cdffd600486188363b31d2d4384515d8b9a6477ba7ae746ea0e6e0b99724de0c",
+              "atlasSha256": "382ef069479db07803dc5d5d3515daabaa3e290c9e792732585bbc769187aac1",
+              "cleanupReport": "tools/generate-art/j126-leo-alley-oop-power-attempt02-cleanup-report.json",
+              "packingScript": "tools/generate-art/pack-j126-leo-alley-oop-power-attempt02.py",
+              "sourceGeneration": "imagegen",
+              "derivedProcessing": "alpha>=16 figure-component extraction, nearest-neighbor fit, no new generated art",
+              "ballTrack": {
+                "height": [
+                  1,
+                  1.2,
+                  1.5,
+                  1.7,
+                  1.8,
+                  1.55,
+                  1.2,
+                  1.45,
+                  1.55,
+                  1.15,
+                  1,
+                  0.9,
+                  0.8,
+                  0.65,
+                  0.55
+                ],
+                "forward": [
+                  6,
+                  8,
+                  10,
+                  8,
+                  6,
+                  1.5,
+                  2,
+                  2.3,
+                  2,
+                  1.8,
+                  10,
+                  12,
+                  9,
+                  7,
+                  6
+                ],
+                "trials": "tools/generate-art/previews/leo-alley-oop-power-track-candidate/track-trials.json"
+              },
+              "trackReview": {
+                "attempt": 11,
+                "captureCount": 60,
+                "facings": [
+                  "right",
+                  "left"
+                ],
+                "zooms": [
+                  100,
+                  120
+                ],
+                "courtY": 90,
+                "notes": "Independent review confirms catch/tick10 and peak/tick14 hand contact; carry ticks19–20 remains at hand; tick21 separates forward. Exact candidate atlas selected in all captures, safe mirroring, no HUD occlusion or browser errors."
+              }
+            },
+            "reviewed": true,
+            "mirrorSafe": true,
+            "review": {
+              "by": "Codex with independent art, track and gameplay reviewers",
+              "scope": "15-pose atlas and native 60-capture track review at both facings/100%/120%; deterministic gameplay assertions",
+              "notes": "Atlas passes identity/anatomy/action/alpha/layout. Track trial11 passes catch, peak, carry and forward release on Jam Stage courtY90 with exact atlas selection and safe mirror; gameplay test validates ownership, release, scoring, landing."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Leo scythe atlas safely flips for left-facing play; independent track captures verify both facings."
+        "notes": "Leo alley-oop-power atlas and track safely mirror; independent captures validate both facings."
       }
     },
     "kraken": {

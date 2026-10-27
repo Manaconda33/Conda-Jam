@@ -7,7 +7,7 @@
   "attempts": [
     {
       "attempt": 1,
-      "status": "REJECT: ball sits too high above both hands during catch/gather, is too far forward at late carry, and separates early at release.",
+      "status": "REJECT: ball too high above hands during catch/gather, too far forward at late carry, and separates early at release.",
       "courtY": 75,
       "candidateTrack": {
         "height": [
@@ -141,7 +141,7 @@
     },
     {
       "attempt": 2,
-      "status": "REJECT: reducing the carry height makes ball sit below hands at catch/tick10 and late ascent/tick12; release also too low.",
+      "status": "REJECT: ball too low at catch/tick10 and ascent/tick12 after height reduction; release too low.",
       "courtY": 75,
       "candidateTrack": {
         "height": [
@@ -275,7 +275,7 @@
     },
     {
       "attempt": 3,
-      "status": "PROVISIONAL: close catch/peak/tick19\u201320 alignment and release at courtY75, but top of avatar and ball enter HUD at 120% near peak.",
+      "status": "REJECT: close contact but at courtY75 the figure/ball clip the HUD at 120% peak.",
       "courtY": 75,
       "candidateTrack": {
         "height": [
@@ -409,14 +409,14 @@
     },
     {
       "attempt": 4,
-      "status": "REJECTED CAPTURE: courtY90 run failed selector post-check; no report was produced, so these frames lack complete selector proof.",
+      "status": "REJECTED CAPTURE: courtY90 run failed selector post-check after screenshots; no complete selector proof.",
       "courtY": 90,
       "captureCount": 60,
-      "rejectionReason": "Runner selector validation failed after capture."
+      "rejectionReason": "No report; selector validation failed after captures."
     },
     {
       "attempt": 5,
-      "status": "BEST PROVISIONAL: courtY90 removes peak clipping while preserving hand contact across catch, peak, carry, and release. Needs independent visual review and runtime gameplay assertions.",
+      "status": "REJECT: independent review found tick10 ball forward of joined hands by ~one radius at120%, tick14 overlapping upper hand/head, tick20 out front, release separated.",
       "courtY": 90,
       "candidateTrack": {
         "height": [
@@ -546,6 +546,810 @@
         "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-05/native/tick22-left-zoom120.png",
         "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-05/native/tick23-left-zoom120.png",
         "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-05/native/tick26-left-zoom120.png"
+      ]
+    },
+    {
+      "attempt": 6,
+      "status": "REJECT: reduces forward offsets; peak/tick14 still too high near HUD and hand alignment inconsistent; superseded by later adjustments.",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          1,
+          1.2,
+          1.5,
+          1.7,
+          1.8,
+          1.55,
+          1.2,
+          2.1,
+          1.35,
+          1.15,
+          1,
+          0.9,
+          0.8,
+          0.65,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          8,
+          6,
+          2.5,
+          2,
+          0.5,
+          1,
+          1.8,
+          10,
+          12,
+          9,
+          7,
+          6
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          4,
+          1.7
+        ],
+        "22": [
+          6,
+          1.3
+        ],
+        "23": [
+          8,
+          0.9
+        ],
+        "26": [
+          10,
+          0.6
+        ]
+      },
+      "captureCount": 60,
+      "uncaughtBrowserErrors": [],
+      "selectorSources": [
+        "./public/assets/animation/leo-alley-oop-power-attempt02-right.webp"
+      ],
+      "facings": [
+        -1,
+        1
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "capturePaths": [
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick00-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick02-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick04-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick07-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick09-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick10-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick12-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick14-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick17-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick19-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick20-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick21-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick22-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick23-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick26-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick00-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick02-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick04-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick07-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick09-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick10-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick12-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick14-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick17-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick19-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick20-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick21-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick22-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick23-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick26-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick00-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick02-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick04-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick07-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick09-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick10-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick12-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick14-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick17-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick19-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick20-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick21-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick22-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick23-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick26-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick00-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick02-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick04-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick07-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick09-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick10-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick12-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick14-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick17-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick19-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick20-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick21-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick22-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick23-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-06/native/tick26-left-zoom120.png"
+      ]
+    },
+    {
+      "attempt": 7,
+      "status": "REJECT: catch alignment improved; tick14 and tick17 remain behind/overlapping head-hands; carry and release improving.",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          1,
+          1.2,
+          1.5,
+          1.7,
+          1.8,
+          1.55,
+          1.2,
+          1.6,
+          1.55,
+          1.15,
+          1,
+          0.9,
+          0.8,
+          0.65,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          8,
+          6,
+          1.5,
+          2,
+          0,
+          0.5,
+          1.8,
+          10,
+          12,
+          9,
+          7,
+          6
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          4,
+          1.7
+        ],
+        "22": [
+          6,
+          1.3
+        ],
+        "23": [
+          8,
+          0.9
+        ],
+        "26": [
+          10,
+          0.6
+        ]
+      },
+      "captureCount": 60,
+      "uncaughtBrowserErrors": [],
+      "selectorSources": [
+        "./public/assets/animation/leo-alley-oop-power-attempt02-right.webp"
+      ],
+      "facings": [
+        -1,
+        1
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "capturePaths": [
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick00-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick02-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick04-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick07-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick09-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick10-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick12-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick14-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick17-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick19-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick20-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick21-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick22-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick23-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick26-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick00-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick02-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick04-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick07-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick09-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick10-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick12-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick14-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick17-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick19-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick20-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick21-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick22-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick23-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick26-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick00-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick02-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick04-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick07-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick09-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick10-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick12-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick14-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick17-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick19-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick20-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick21-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick22-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick23-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick26-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick00-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick02-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick04-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick07-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick09-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick10-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick12-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick14-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick17-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick19-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick20-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick21-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick22-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick23-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-07/native/tick26-left-zoom120.png"
+      ]
+    },
+    {
+      "attempt": 8,
+      "status": "REJECT: catch has residual head overlap; tick14/17 improved but still needs hand-center alignment; carry/release close.",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          1,
+          1.2,
+          1.5,
+          1.7,
+          1.8,
+          1.55,
+          1.2,
+          1.6,
+          1.55,
+          1.15,
+          1,
+          0.9,
+          0.8,
+          0.65,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          8,
+          6,
+          0.5,
+          2,
+          1.3,
+          2,
+          1.8,
+          10,
+          12,
+          9,
+          7,
+          6
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          4,
+          1.7
+        ],
+        "22": [
+          6,
+          1.3
+        ],
+        "23": [
+          8,
+          0.9
+        ],
+        "26": [
+          10,
+          0.6
+        ]
+      },
+      "captureCount": 60,
+      "uncaughtBrowserErrors": [],
+      "selectorSources": [
+        "./public/assets/animation/leo-alley-oop-power-attempt02-right.webp"
+      ],
+      "facings": [
+        -1,
+        1
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "capturePaths": [
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick00-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick02-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick04-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick07-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick09-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick10-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick12-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick14-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick17-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick19-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick20-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick21-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick22-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick23-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick26-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick00-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick02-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick04-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick07-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick09-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick10-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick12-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick14-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick17-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick19-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick20-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick21-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick22-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick23-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick26-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick00-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick02-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick04-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick07-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick09-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick10-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick12-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick14-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick17-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick19-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick20-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick21-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick22-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick23-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick26-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick00-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick02-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick04-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick07-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick09-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick10-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick12-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick14-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick17-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick19-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick20-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick21-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick22-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick23-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-08/native/tick26-left-zoom120.png"
+      ]
+    },
+    {
+      "attempt": 9,
+      "status": "REJECT: catch close; peak ball clips upper HUD at 120%, release remains too high relative to follow-through.",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          1,
+          1.2,
+          1.5,
+          1.7,
+          1.8,
+          1.55,
+          1.2,
+          2.25,
+          1.55,
+          1.15,
+          1,
+          0.9,
+          0.8,
+          0.65,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          8,
+          6,
+          1.5,
+          2,
+          2.3,
+          2,
+          1.8,
+          10,
+          12,
+          9,
+          7,
+          6
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          4,
+          1.7
+        ],
+        "22": [
+          6,
+          1.3
+        ],
+        "23": [
+          8,
+          0.9
+        ],
+        "26": [
+          10,
+          0.6
+        ]
+      },
+      "captureCount": 60,
+      "uncaughtBrowserErrors": [],
+      "selectorSources": [
+        "./public/assets/animation/leo-alley-oop-power-attempt02-right.webp"
+      ],
+      "facings": [
+        -1,
+        1
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "capturePaths": [
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick00-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick02-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick04-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick07-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick09-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick10-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick12-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick14-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick17-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick19-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick20-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick21-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick22-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick23-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick26-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick00-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick02-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick04-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick07-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick09-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick10-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick12-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick14-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick17-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick19-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick20-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick21-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick22-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick23-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick26-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick00-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick02-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick04-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick07-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick09-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick10-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick12-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick14-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick17-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick19-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick20-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick21-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick22-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick23-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick26-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick00-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick02-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick04-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick07-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick09-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick10-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick12-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick14-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick17-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick19-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick20-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick21-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick22-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick23-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-09/native/tick26-left-zoom120.png"
+      ]
+    },
+    {
+      "attempt": 10,
+      "status": "REJECT: peak now clear but release tick21 is too low; carry is close.",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          1,
+          1.2,
+          1.5,
+          1.7,
+          1.8,
+          1.55,
+          1.2,
+          1.75,
+          1.55,
+          1.15,
+          1,
+          0.9,
+          0.8,
+          0.65,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          8,
+          6,
+          1.5,
+          2,
+          2.3,
+          2,
+          1.8,
+          10,
+          12,
+          9,
+          7,
+          6
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          4,
+          1.1
+        ],
+        "22": [
+          6,
+          1.1
+        ],
+        "23": [
+          8,
+          0.9
+        ],
+        "26": [
+          10,
+          0.6
+        ]
+      },
+      "captureCount": 60,
+      "uncaughtBrowserErrors": [],
+      "selectorSources": [
+        "./public/assets/animation/leo-alley-oop-power-attempt02-right.webp"
+      ],
+      "facings": [
+        -1,
+        1
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "capturePaths": [
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick00-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick02-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick04-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick07-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick09-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick10-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick12-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick14-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick17-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick19-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick20-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick21-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick22-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick23-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick26-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick00-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick02-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick04-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick07-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick09-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick10-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick12-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick14-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick17-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick19-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick20-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick21-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick22-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick23-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick26-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick00-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick02-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick04-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick07-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick09-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick10-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick12-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick14-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick17-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick19-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick20-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick21-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick22-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick23-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick26-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick00-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick02-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick04-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick07-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick09-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick10-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick12-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick14-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick17-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick19-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick20-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick21-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick22-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick23-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-10/native/tick26-left-zoom120.png"
+      ]
+    },
+    {
+      "attempt": 11,
+      "status": "ACCEPTED after independent native visual review: close hand contact at catch/tick10, peak/tick14, carry/ticks19\u201320; separate forward release at tick21. 60/60 captures across both facings/100%/120%, exact atlas selector, courtY90, no errors or HUD occlusion. Deterministic gameplay validation pending.",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          1,
+          1.2,
+          1.5,
+          1.7,
+          1.8,
+          1.55,
+          1.2,
+          1.45,
+          1.55,
+          1.15,
+          1,
+          0.9,
+          0.8,
+          0.65,
+          0.55
+        ],
+        "forward": [
+          6,
+          8,
+          10,
+          8,
+          6,
+          1.5,
+          2,
+          2.3,
+          2,
+          1.8,
+          10,
+          12,
+          9,
+          7,
+          6
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          4,
+          1.4
+        ],
+        "22": [
+          6,
+          1.2
+        ],
+        "23": [
+          8,
+          0.9
+        ],
+        "26": [
+          10,
+          0.6
+        ]
+      },
+      "captureCount": 60,
+      "uncaughtBrowserErrors": [],
+      "selectorSources": [
+        "./public/assets/animation/leo-alley-oop-power-attempt02-right.webp"
+      ],
+      "facings": [
+        -1,
+        1
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "capturePaths": [
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick00-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick02-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick04-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick07-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick09-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick10-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick12-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick14-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick17-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick19-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick20-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick21-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick22-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick23-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick26-right-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick00-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick02-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick04-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick07-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick09-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick10-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick12-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick14-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick17-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick19-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick20-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick21-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick22-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick23-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick26-left-zoom100.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick00-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick02-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick04-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick07-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick09-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick10-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick12-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick14-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick17-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick19-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick20-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick21-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick22-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick23-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick26-right-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick00-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick02-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick04-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick07-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick09-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick10-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick12-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick14-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick17-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick19-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick20-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick21-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick22-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick23-left-zoom120.png",
+        "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native/tick26-left-zoom120.png"
       ]
     }
   ]
