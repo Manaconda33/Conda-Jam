@@ -1,0 +1,303 @@
+{
+  "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+  "cameraZoom": 100,
+  "previewCourtY": 75,
+  "loadedImages": 212,
+  "matchPlayers": [
+    "briar-foxglove"
+  ],
+  "reviewScope": "Only rebound frame/facing captures are retained; unrelated clips rendered by the shared diagnostic were removed.",
+  "actionFramePreviews": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/left-rebound-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "frame": 0,
+      "tick": 0,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+      "sourceRect": [
+        0,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        240,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/left-rebound-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "frame": 1,
+      "tick": 2,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+      "sourceRect": [
+        80,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        240,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/left-rebound-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "frame": 2,
+      "tick": 4,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+      "sourceRect": [
+        160,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        240,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/left-rebound-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "frame": 3,
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+      "sourceRect": [
+        0,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        240,
+        192
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/left-rebound-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "frame": 4,
+      "tick": 7,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+      "sourceRect": [
+        80,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        240,
+        192
+      ],
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/right-rebound-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "frame": 0,
+      "tick": 0,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+      "sourceRect": [
+        0,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        240,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/right-rebound-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "frame": 1,
+      "tick": 2,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+      "sourceRect": [
+        80,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        240,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/right-rebound-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "frame": 2,
+      "tick": 4,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+      "sourceRect": [
+        160,
+        0,
+        80,
+        96
+      ],
+      "atlasSize": [
+        240,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/right-rebound-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "frame": 3,
+      "tick": 5,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+      "sourceRect": [
+        0,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        240,
+        192
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/right-rebound-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "frame": 4,
+      "tick": 7,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+      "sourceRect": [
+        80,
+        96,
+        80,
+        96
+      ],
+      "atlasSize": [
+        240,
+        192
+      ],
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    }
+  ],
+  "previewFrames": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/left-rebound.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/mid-rebound.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "tick": 5,
+      "facing": 1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": false,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j136-briar-foxglove-rebound/attempt-01/native-trial04-100/right-rebound.png",
+      "athlete": "briar-foxglove",
+      "clip": "rebound",
+      "tick": 5,
+      "facing": -1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": true,
+      "hasBall": true,
+      "ballMode": "carried",
+      "ballOwnerId": "briar-foxglove"
+    }
+  ]
+}

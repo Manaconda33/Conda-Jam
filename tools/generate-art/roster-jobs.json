@@ -146,5 +146,15 @@
     "prompt": "tools/generate-art/j135-briar-foxglove-fall-attempt-03-edit-prompt.md",
     "generationId": "exec-a1140609-9874-4d6d-bc22-86f311bcb31a",
     "generatedAt": "2026-10-27"
+  },
+  {
+    "group": "J.136 Briar Foxglove",
+    "clip": "rebound",
+    "frame": "attempt-01",
+    "path": "tools/generate-art/sources/j136-briar-foxglove-rebound-attempt-01-raw.png",
+    "prompt": "tools/generate-art/j136-briar-foxglove-rebound-attempt-01-prompt.md",
+    "generationId": "exec-28d42204-d0ee-479a-95d3-e97c2fd33abb",
+    "generatedAt": "2026-10-27",
+    "reviewStatus": "accepted and registered; source, packed margins and Briar-specific track reviewed"
   }
 ]

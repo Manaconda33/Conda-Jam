@@ -1,10 +1,18 @@
-## Current J.135 Briar Foxglove `fall` checkpoint — 2026-10-27
+## Current J.136 Briar Foxglove `rebound` checkpoint — 2026-10-27
+
+J.136 attempt01 is accepted and registered as a five-pose 3×2 atlas in80×96 cells with blank cell6 and shared baseline y=94. The exact prompt, ImageGen ID, raw RGBA source/hash, glow cleanup, normalization, light/dark proofs, rejected ball-track trials and native captures are preserved in `tools/generate-art/j136-briar-foxglove-rebound*`. Briar's adult human anatomy, deep-brown skin, shoulder-length locs, red headband, compact build and russet/cream kit pass identity review; pose order separates ready, takeoff, airborne reach, two-hand catch and chest secure. No ball is baked in.
+
+Independent packed review accepts the tightest alpha≥16 margins (2px at frame2 top and baseline) against the existing Piper80×96 rebound pack; courtY75 native captures at100%/120% show complete uncropped anatomy. Briar's own rebound track is height `[1.05,1.5,2.1,1.9,1.28]`, forward `[5,7,8,3,0]`. It remains loose/unowned through frame2/tick4, becomes Briar-owned at the frame3/tick5 grab, and settles at the upper sternum on frame4/tick7. Both facings select all five frames; independent native review passes.
+
+Validation: `npm test`57/57; lint19 modules; content validation35 franchises/105 athletes; build PASS. Strict audit `2026-10-27T02:31:17.680Z`:105 athletes,831 inspected clips,7,517 drawings,2,272 missing clips, one target shortfall and four inherited prompt findings. J.136 files are ready for checkpoint commit/push. Next roster target: J.137 Briar Foxglove `celebrate`.
+
+## Previous J.135 Briar Foxglove `fall` checkpoint — 2026-10-27
 
 J.135 is accepted and registered locally from attempt03. The ten distinct, ball-free poses form a 560×192 5×2 atlas with112×96 cells and shared baseline y=94. Independent source, packed-size, and native reviews confirm Briar's canonical deep-brown skin, shoulder-length locs, red headband, compact adult anatomy, and russet/cream Emberwood kit. Packed alpha≥16 clearance is2px at the baseline and at least6px horizontally; frame9 is selected at tick33 of the 40-tick fall.
 
 Native Jam Stage captures at courtY75 select all ten poses in both facings at100%/120%; all frames remain readable and anatomically complete. Ball state is dead and unowned in every capture, and no Briar carry track applies during fall. Four generations are preserved: attempt00 rejected for contradictory prompt text, attempt01 rejected for source spill/palette, attempt02 retained as the edit parent, attempt03 accepted. Prompts, generation IDs, raw images/hashes, rejection reasons, light/dark proofs, normalization report, and native captures are indexed in the J.135 provenance/review files.
 
-Validation after registration: `npm test`57/57; lint19 modules; content validation35 franchises/105 athletes; build PASS. Strict report-only audit `2026-10-27T02:08:26.732Z`:105 athletes,830 inspected clips,7,512 authored drawings,2,273 missing clips, one target shortfall (Luca Velori `run`), four inherited prompt findings. GitHub publication remains blocked by the unreachable configured proxy on port8080; no Pages run has been triggered for local J.132–J.135. Next roster-order target: J.136 Briar Foxglove `rebound`.
+Validation after registration: `npm test`57/57; lint19 modules; content validation35 franchises/105 athletes; build PASS. Strict report-only audit `2026-10-27T02:08:26.732Z`:105 athletes,830 inspected clips,7,512 authored drawings,2,273 missing clips, one target shortfall (Luca Velori `run`), four inherited prompt findings. J.132–J.135 are pushed to `main` at `0b0700b7`; Pages run #177 (`40436925120`) is in progress, so deployment is not yet confirmed. Next roster-order target: J.136 Briar Foxglove `rebound`.
 
 ## Current J.134 Briar Foxglove `push` checkpoint — 2026-10-27 01:49 UTC
 

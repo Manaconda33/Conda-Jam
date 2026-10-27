@@ -1,0 +1,123 @@
+{
+  "status": "accepted normalized source atlas; no redrawing or rearrangement; packed and native reviews pass",
+  "source": "tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-clean-candidate.png",
+  "sourceSha256": "b3dbd4b0cbd0abb490cba4d1bb2073ef107209f26eef2fc29500dfc33438093d",
+  "sourceGrid": "3x2; row-major source cells0-4; cell5 empty",
+  "uniformScale": 0.1908713692946058,
+  "cell": {
+    "width": 80,
+    "height": 96,
+    "columns": 3,
+    "rows": 2,
+    "baselineY": 94
+  },
+  "resampling": "LANCZOS; uniformly scaled complete alpha-isolated bodies; no redraw/reorder",
+  "candidate": "tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+  "candidateSha256": "fa227b9ea3d24765d3fcc842d169e3066a0f7738c6f4546b234222f27726ccb3",
+  "lightDarkPreview": "tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review-light-dark.png",
+  "lightDarkPreviewSha256": "5fa78404d85ab3b480fde7e14851b199b807236fff5a23d60bef5f3db3f1b585",
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRect": {
+        "x": 110,
+        "y": 160,
+        "w": 282,
+        "h": 337
+      },
+      "packedAlpha16Margins": [
+        13,
+        30,
+        13,
+        2
+      ],
+      "uniqueRGBAHash": "c4907ba532f028e0cd0f66efc48e138902ac9125a264521db7659b5262d52f62"
+    },
+    {
+      "index": 1,
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRect": {
+        "x": 615,
+        "y": 106,
+        "w": 319,
+        "h": 396
+      },
+      "packedAlpha16Margins": [
+        9,
+        18,
+        10,
+        2
+      ],
+      "uniqueRGBAHash": "df6289a6ffb325a8e3abb9769e0fa4eed6d4f1ea2dfc332db9205d492b2155e9"
+    },
+    {
+      "index": 2,
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRect": {
+        "x": 1131,
+        "y": 20,
+        "w": 316,
+        "h": 482
+      },
+      "packedAlpha16Margins": [
+        10,
+        2,
+        10,
+        2
+      ],
+      "uniqueRGBAHash": "9f8354c8a52a12d8a76e1978cc5c51b014b936c6fe417080a021d974e61c5c54"
+    },
+    {
+      "index": 3,
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceRect": {
+        "x": 117,
+        "y": 519,
+        "w": 250,
+        "h": 463
+      },
+      "packedAlpha16Margins": [
+        16,
+        6,
+        16,
+        2
+      ],
+      "uniqueRGBAHash": "65d51e60241fa23a726d273eecdea6aaba90dc965f7b8dde13465d0b539bc335"
+    },
+    {
+      "index": 4,
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceRect": {
+        "x": 650,
+        "y": 644,
+        "w": 253,
+        "h": 341
+      },
+      "packedAlpha16Margins": [
+        16,
+        29,
+        16,
+        2
+      ],
+      "uniqueRGBAHash": "403b7fcbf46a54f2b073ba2d4a8252dfc97d6ccbbfd905ad278d8efe303e917c"
+    }
+  ],
+  "productionAsset": "public/assets/animation/briar-foxglove-rebound-right.png",
+  "acceptedBallTrackTrial": 6
+}

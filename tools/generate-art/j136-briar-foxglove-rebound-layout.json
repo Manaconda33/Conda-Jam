@@ -1,0 +1,28 @@
+{
+  "athlete": "briar-foxglove",
+  "direction": "right",
+  "clip": "rebound",
+  "src": "./public/assets/animation/briar-foxglove-rebound-right.png",
+  "columns": 3,
+  "rows": 2,
+  "frames": [
+    {"x": 0, "y": 0, "w": 80, "h": 96},
+    {"x": 80, "y": 0, "w": 80, "h": 96},
+    {"x": 160, "y": 0, "w": 80, "h": 96},
+    {"x": 0, "y": 96, "w": 80, "h": 96},
+    {"x": 80, "y": 96, "w": 80, "h": 96}
+  ],
+  "provenance": {
+    "prompt": "tools/generate-art/j136-briar-foxglove-rebound-attempt-01-prompt.md",
+    "generatedAt": "2026-10-27",
+    "source": "tools/generate-art/sources/j136-briar-foxglove-rebound-attempt-01-raw.png",
+    "sourceSha256": "152c1aeea028b0304b4b7921f92a7cb429969d5576a42470c113d99a114e822e",
+    "generationId": "exec-28d42204-d0ee-479a-95d3-e97c2fd33abb",
+    "cleanupReport": "tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/cleanup-report.json",
+    "normalizationReport": "tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/normalization-report.json",
+    "ballTrackTrials": "tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/ball-track-trials.json",
+    "acceptedBallTrackTrial": 6,
+    "baselineY": 94,
+    "notes": "Five alpha-isolated right-facing poses, normalized uniformly into 80x96 cells with transparent cell6. Briar-specific ball remains separate. Source, packed-size, identity/anatomy, and native Jam Stage reviews pass."
+  }
+}

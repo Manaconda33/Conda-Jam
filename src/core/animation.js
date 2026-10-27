@@ -734,6 +734,9 @@ const athleteBallTracks={'nova-stitch': {"idle-ball":{"height":[1.1,1.1,1.1,1.1]
   // J.129 separate pickup ball descends to Briar's floor-level fingertips on
   // frame3/tick7, then rises with her recovering right hand; source stays empty.
   pickup:{height:[.9,.6,.3,0,.65],forward:[7,11,16,20,10]},
+  // J.136 rebound track keeps the incoming ball separate and loose until the
+  // two-hand grab at tick5, then settles it at Briar's sternum on tick7.
+  rebound:{height:[1.05,1.5,2.1,1.9,1.28],forward:[5,7,8,3,0]},
   // J.130 Briar carries the separate layup ball through tick9 and releases on tick10;
   // later poses belong to the ownerless projectile/follow-through.
   layup:{height:[1.54,1.635045,1.53,1.550734,1.71701],forward:[2.5,2.65,3.6,1.43926,4.2]},

@@ -1,0 +1,54 @@
+{
+  "athlete": "briar-foxglove",
+  "clip": "rebound",
+  "src": "./tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-review.png",
+  "columns": 3,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "height": [
+    1.05,
+    1.5,
+    2.1,
+    1.9,
+    2.0
+  ],
+  "forward": [
+    5,
+    7,
+    8,
+    4,
+    5
+  ],
+  "renderThroughFrame": 4
+}

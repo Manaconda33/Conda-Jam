@@ -1,10 +1,17 @@
-# QA — 2026-10-27 J.135 Briar Foxglove fall registered locally
+# QA — 2026-10-27 J.136 Briar Foxglove rebound registered locally
+
+- Attempt01 source and packed reviews pass after transparent glow removal and uniform normalization. Five complete, distinct Briar poses use a3×2 240×192 atlas with80×96 cells, blank cell6 and baseline y=94. Raw prompt/source lineage, generation ID/hash, cleanup and rejected ball-track trials are preserved.
+- Jam Stage production captures use courtY75 at both facings and100%/120%. All five registered frames select correctly; separate Briar ball is loose/unowned through frame2/tick4, carried by Briar from frame3/tick5, and visually secured at her sternum on frame4/tick7. 2px packed alpha16 top/baseline margins pass independent comparison with Piper's 80×96 rebound atlas and remain uncropped in native captures.
+- `npm test`:57/57 PASS; lint19 modules PASS; content validation35 franchises/105 athletes PASS; standalone build PASS. Strict report-only audit `2026-10-27T02:31:17.680Z`:105 athletes,831 clips,7,517 drawings,2,272 missing clips, one target shortfall and four inherited prompt findings.
+- Previous validated commits through J.135 are on `main` at `0b0700b7`; Pages run #177 (`40436925120`) completed successfully for that exact commit. The J.136 checkpoint will trigger Pages after push because production art, manifest and animation data changed.
+
+# Previous QA — 2026-10-27 J.135 Briar Foxglove fall
 
 - Attempt03 passed independent source, packed-size, and native review and is registered locally. Ten complete poses use a 5×2, 560×192 transparent atlas; cell margins and shared baseline y=94 are recorded in the normalization report. Briar's established identity and russet/cream palette are consistent with the accepted push art. The clip is ball-free; all native records show a dead, unowned ball.
 - Jam Stage native preview uses courtY75 at both facings and 100%/120% zoom. All ten frames select the correct production pose, including frame9/tick33.
 - `npm test`:57/57 PASS; lint19 modules PASS; content validation35 franchises/105 athletes PASS; standalone build PASS. Strict audit `2026-10-27T02:08:26.732Z`:105 athletes,830 clips,7,512 drawings,2,273 missing clips, one target shortfall and four inherited prompt findings.
 - Four generation attempts retain exact prompts, IDs, raw sources, hashes and light/dark proofs; attempts00/01 rejected and attempt02 superseded. No J.135 ball track applies.
-- GitHub push retry fails at the configured proxy port8080. `main` remains on valid rollback `dc401b7d`; no Pages workflow was triggered. Browser E2E has not been run for this checkpoint.
+- The J.135 commits are pushed to `main` at `0b0700b7`; Pages run #177 (`40436925120`) completed successfully for that commit. Browser E2E was not run for that checkpoint.
 
 # Latest checkpoint — Issue #4 stage default-renderer deployed (2026-10-26)
 

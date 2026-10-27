@@ -1,0 +1,151 @@
+[
+  {
+    "trial": 1,
+    "reference": "Piper Quickstep accepted rebound track used only as a starting comparison; this is not Briar final calibration",
+    "owner": "briar-foxglove",
+    "height": [
+      1.05,
+      1.5,
+      2.1,
+      1.9,
+      2.0
+    ],
+    "forward": [
+      5,
+      7,
+      8,
+      4,
+      5
+    ],
+    "grabFrame": 3,
+    "grabTick": 5,
+    "finishFrame": 4,
+    "finishTick": 7,
+    "status": "rejected: frame4 ball too far above chest"
+  },
+  {
+    "trial": 2,
+    "basedOnTrial": 1,
+    "reason": "Move frame3/tick5 overhead grab and frame4/tick7 chest secure closer to hands, especially mirrored right-facing view.",
+    "owner": "briar-foxglove",
+    "height": [
+      1.05,
+      1.5,
+      2.1,
+      1.9,
+      2.0
+    ],
+    "forward": [
+      5,
+      7,
+      8,
+      0,
+      0
+    ],
+    "grabFrame": 3,
+    "grabTick": 5,
+    "finishFrame": 4,
+    "finishTick": 7,
+    "status": "rejected: frame4 ball still above chest"
+  },
+  {
+    "trial": 3,
+    "basedOnTrial": 2,
+    "reason": "Trial02 kept the frame4 carried ball above Briar rather than settled at her chest; lower only frame4 height while preserving the overhead catch and pre-catch arc.",
+    "owner": "briar-foxglove",
+    "height": [
+      1.05,
+      1.5,
+      2.1,
+      1.9,
+      0.8
+    ],
+    "forward": [
+      5,
+      7,
+      8,
+      0,
+      0
+    ],
+    "grabFrame": 3,
+    "grabTick": 5,
+    "finishFrame": 4,
+    "finishTick": 7,
+    "status": "rejected: frame4 ball below chest"
+  },
+  {
+    "trial": 4,
+    "basedOnTrial": 3,
+    "reason": "Trial03 drops frame4 ball below chest; interpolate height upward while adding small forward offset at overhead reach toward Briar palms.",
+    "owner": "briar-foxglove",
+    "height": [
+      1.05,
+      1.5,
+      2.1,
+      1.9,
+      1.4
+    ],
+    "forward": [
+      5,
+      7,
+      8,
+      3,
+      0
+    ],
+    "grabFrame": 3,
+    "grabTick": 5,
+    "finishFrame": 4,
+    "finishTick": 7,
+    "status": "rejected: frame4 ball near chin/face"
+  },
+  {
+    "trial": 5,
+    "basedOnTrial": 4,
+    "reason": "Trial04 puts frame4 ball near Briar face; trial03 puts it below chest. Midpoint height targets sternum while preserving trial04 hand-reach offset.",
+    "owner": "briar-foxglove",
+    "height": [
+      1.05,
+      1.5,
+      2.1,
+      1.9,
+      1.1
+    ],
+    "forward": [
+      5,
+      7,
+      8,
+      3,
+      0
+    ],
+    "grabFrame": 3,
+    "grabTick": 5,
+    "finishFrame": 4,
+    "finishTick": 7,
+    "status": "reviewers split: one pass, one borderline low; superseded by trial06"
+  },
+  {
+    "trial": 6,
+    "basedOnTrial": 5,
+    "reason": "Trial05 places the ball slightly below Briar\u2019s gathering forearms; lift frame4 narrowly into the sternum pocket while retaining the approved frame3 reach offset.",
+    "owner": "briar-foxglove",
+    "height": [
+      1.05,
+      1.5,
+      2.1,
+      1.9,
+      1.28
+    ],
+    "forward": [
+      5,
+      7,
+      8,
+      3,
+      0
+    ],
+    "grabFrame": 3,
+    "grabTick": 5,
+    "finishFrame": 4,
+    "finishTick": 7,
+    "status": "accepted; native visual review passes both facings at 100%/120% on courtY75"
+  }
+]

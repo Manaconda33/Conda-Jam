@@ -1,0 +1,80 @@
+{
+  "source": "tools/generate-art/sources/j136-briar-foxglove-rebound-attempt-01-raw.png",
+  "sourceSha256": "152c1aeea028b0304b4b7921f92a7cb429969d5576a42470c113d99a114e822e",
+  "sourceDimensions": [
+    1536,
+    1024
+  ],
+  "method": "Label alpha>=64 with 8-connectivity; retain five >=500px body components and their original alpha within a 1px dilation for antialiasing; set all other pixels transparent.",
+  "noRedrawOrReorder": true,
+  "componentsAtAlpha64": 5,
+  "retainedBodyComponents": [
+    {
+      "component": 3,
+      "area": 41367,
+      "bbox": [
+        112,
+        162,
+        390,
+        495
+      ]
+    },
+    {
+      "component": 2,
+      "area": 44593,
+      "bbox": [
+        617,
+        108,
+        932,
+        500
+      ]
+    },
+    {
+      "component": 1,
+      "area": 42443,
+      "bbox": [
+        1133,
+        22,
+        1445,
+        500
+      ]
+    },
+    {
+      "component": 4,
+      "area": 45517,
+      "bbox": [
+        119,
+        521,
+        365,
+        980
+      ]
+    },
+    {
+      "component": 5,
+      "area": 39173,
+      "bbox": [
+        652,
+        646,
+        901,
+        983
+      ]
+    }
+  ],
+  "sourceGrid": {
+    "columns": 3,
+    "rows": 2,
+    "emptyCell": 5,
+    "rowMajorFrames": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "candidate": "tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/briar-foxglove-rebound-attempt-01-clean-candidate.png",
+  "candidateSha256": "b3dbd4b0cbd0abb490cba4d1bb2073ef107209f26eef2fc29500dfc33438093d",
+  "lightDarkPreview": "tools/generate-art/previews/j136-briar-foxglove-rebound/j136-briar-foxglove-rebound-attempt-01-clean-light-dark.png",
+  "lightDarkPreviewSha256": "aa4c398828bb38fd76f54cc69858307134428347b557acd052c22cd68a0fa1a0",
+  "status": "accepted cleanup for production normalization; original source preserved; source and packed reviews pass"
+}

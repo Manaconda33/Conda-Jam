@@ -1,0 +1,18 @@
+{
+  "asset": "J.136 Briar Foxglove rebound",
+  "attempts": [
+    {
+      "attempt": "01",
+      "generationId": "exec-28d42204-d0ee-479a-95d3-e97c2fd33abb",
+      "promptFile": "tools/generate-art/j136-briar-foxglove-rebound-attempt-01-prompt.md",
+      "rawSource": "tools/generate-art/sources/j136-briar-foxglove-rebound-attempt-01-raw.png",
+      "sha256": "152c1aeea028b0304b4b7921f92a7cb429969d5576a42470c113d99a114e822e",
+      "status": "accepted for production; packed margins and native track review pass",
+      "lightDarkPreview": "tools/generate-art/previews/j136-briar-foxglove-rebound/j136-briar-foxglove-rebound-attempt-01-light-dark.png",
+      "previewSha256": "8d9ed0ac67aaf0b9203467b8f563e48fbd9234261b5f0264bed74968e7d9e56f",
+      "cleanupReport": "tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/cleanup-report.json",
+      "normalizationReport": "tools/generate-art/candidates/j136-briar-foxglove-rebound-attempt-01/normalization-report.json",
+      "nativeTrackTrial": 6
+    }
+  ]
+}

@@ -1,10 +1,20 @@
 ## J.135 — Briar Foxglove `fall`
 
+## Current J.136 Briar Foxglove `rebound` — 2026-10-27
+
+Attempt01 is accepted and registered as `public/assets/animation/briar-foxglove-rebound-right.png`. Its five alpha-isolated poses show ready, takeoff, airborne reach, overhead two-hand catch, and balanced chest secure; cell6 stays transparent. Briar's identity and complete human anatomy match the accepted J.135 fall and earlier push art. Raw generation, exact prompt, ID/hash, rejected glow pixels and cleanup, layout, normalized candidate and proofs are preserved under `tools/generate-art/j136-briar-foxglove-rebound*`.
+
+The atlas uses80×96 cells, shared baseline y=94, with tightest alpha≥16 clearances of2px at frame2 top and baseline. Independent packed review compares this to the already accepted Piper rebound atlas and confirms no crop at courtY75 in both facings/100%/120%. Trial06's separate Briar ball track is height `[1.05,1.5,2.1,1.9,1.28]`, forward `[5,7,8,3,0]`; earlier track failures and capture reports remain recorded. The loose ball is unowned through tick4, caught at frame3/tick5, then carried at the sternum at frame4/tick7. Production native review confirms exact source frame selection.
+
+Validation passes57/57 tests, lint19 modules, content validation35 franchises/105 athletes, and build. Strict audit `2026-10-27T02:31:17.680Z` reports831 clips /7,517 drawings /105 athletes,2,272 missing clips, one target shortfall and four inherited prompt findings. Continue roster-order at Briar `celebrate`.
+
+## Previous J.135 Briar Foxglove `fall`
+
 Briar's ten-frame fall/get-up clip is accepted and registered locally. Attempt03 preserves her established deep-brown skin, shoulder-length locs, vivid red headband, compact adult human anatomy, and russet/cream Emberwood kit. The continuous sequence runs from collision recoil through landing, roll, and recovery to a defensive stance; frame9 is the finish anchor at tick33 of the40-tick clip. No basketball is drawn and no Briar carry track applies.
 
 The accepted 560×192 atlas uses five columns by two rows of112×96 cells, nearest-neighbor normalization, alpha≥64 component isolation (exactly ten body components; none discarded), and shared baseline y=94. Independent source, packed-size, and Jam Stage reviews pass; the tightest packed alpha≥16 clearance is2px at baseline. Native Jam Stage reports at courtY75 select all ten frames in both facings at100%/120%, with dead/unowned ball state. Raw prompt/source lineage, three rejected/superseded generations, hashes, light/dark proofs, normalization report and native captures are under `tools/generate-art/j135-briar-foxglove-fall*`.
 
-Validation passes57/57 tests, lint19 modules, content validation35 franchises/105 athletes, and build. Strict audit `2026-10-27T02:08:26.732Z` reports830 clips /7,512 drawings /105 athletes,2,273 missing clips, one target shortfall and four inherited prompt findings. GitHub push is blocked by the unreachable configured proxy; latest remote `main` remains at J.131 rollback `dc401b7d`. Next roster-order target: Briar `rebound`.
+Validation passes57/57 tests, lint19 modules, content validation35 franchises/105 athletes, and build. Strict audit `2026-10-27T02:08:26.732Z` reports830 clips /7,512 drawings /105 athletes,2,273 missing clips, one target shortfall and four inherited prompt findings. J.132–J.135 are pushed to GitHub `main` at `0b0700b7`; Pages run #177 is still checking that commit. Next roster-order target: Briar `rebound`.
 
 ## Current J.130 Briar Foxglove `layup` checkpoint — 2026-10-26 22:45 UTC
 
