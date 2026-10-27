@@ -1,0 +1,545 @@
+{
+  "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+  "cameraZoom": 120,
+  "previewCourtY": 75,
+  "loadedImages": 211,
+  "matchPlayers": [
+    "briar-foxglove"
+  ],
+  "previews": [
+    "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall.png",
+    "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall.png"
+  ],
+  "previewFrames": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "tick": 33,
+      "facing": 1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "tick": 33,
+      "facing": -1,
+      "production": true,
+      "sourceDirection": null,
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "loose",
+      "ballOwnerId": null
+    }
+  ],
+  "actionFramePreviews": [
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 0,
+      "tick": 0,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        0,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 1,
+      "tick": 2,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        112,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 2,
+      "tick": 4,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        224,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 3,
+      "tick": 6,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        336,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 4,
+      "tick": 9,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        448,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall-frame5.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 5,
+      "tick": 12,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 5,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        0,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall-frame6.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 6,
+      "tick": 16,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 6,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        112,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall-frame7.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 7,
+      "tick": 21,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 7,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        224,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall-frame8.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 8,
+      "tick": 27,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 8,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        336,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/left-fall-frame9.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 9,
+      "tick": 33,
+      "facing": 1,
+      "production": true,
+      "selectedFrame": 9,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        448,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": false,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall-frame0.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 0,
+      "tick": 0,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 0,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        0,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall-frame1.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 1,
+      "tick": 2,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 1,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        112,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall-frame2.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 2,
+      "tick": 4,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 2,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        224,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall-frame3.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 3,
+      "tick": 6,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 3,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        336,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall-frame4.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 4,
+      "tick": 9,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 4,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        448,
+        0,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall-frame5.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 5,
+      "tick": 12,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 5,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        0,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall-frame6.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 6,
+      "tick": 16,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 6,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        112,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall-frame7.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 7,
+      "tick": 21,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 7,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        224,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall-frame8.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 8,
+      "tick": 27,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 8,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        336,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    },
+    {
+      "path": "/workspace/jam-j130-full/tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-120/right-fall-frame9.png",
+      "athlete": "briar-foxglove",
+      "clip": "fall",
+      "frame": 9,
+      "tick": 33,
+      "facing": -1,
+      "production": true,
+      "selectedFrame": 9,
+      "source": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+      "sourceRect": [
+        448,
+        96,
+        112,
+        96
+      ],
+      "atlasSize": [
+        560,
+        192
+      ],
+      "flipped": true,
+      "hasBall": false,
+      "ballMode": "dead",
+      "ballOwnerId": null
+    }
+  ],
+  "passContactCaptures": [],
+  "liveShotCaptures": []
+}

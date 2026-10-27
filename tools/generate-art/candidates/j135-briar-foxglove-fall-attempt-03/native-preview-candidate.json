@@ -1,0 +1,70 @@
+{
+  "athlete": "briar-foxglove",
+  "clip": "fall",
+  "src": "./tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+  "columns": 5,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 112,
+      "y": 0,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 224,
+      "y": 0,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 336,
+      "y": 0,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 448,
+      "y": 0,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 112,
+      "y": 96,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 224,
+      "y": 96,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 336,
+      "y": 96,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 448,
+      "y": 96,
+      "w": 112,
+      "h": 96
+    }
+  ],
+  "renderThroughFrame": 9
+}

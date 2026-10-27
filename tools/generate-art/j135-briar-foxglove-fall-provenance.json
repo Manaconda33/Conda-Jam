@@ -31,8 +31,8 @@
       "prompt_file": "tools/generate-art/j135-briar-foxglove-fall-attempt-02-prompt.md",
       "raw_image": "tools/generate-art/sources/j135-briar-foxglove-fall-attempt-02-raw.png",
       "sha256": "1ee9274a0a9805f25c9fa38ccdaa8b2bab4939ffd99418a23b772e9f56844fcf",
-      "review_status": "pending",
-      "notes": "Unaccepted. Independent review confirms ten ordered and distinguishable poses, consistent Briar identity/anatomy, and no ball; frame 3 has roughly 13px alpha>=16 clearance. Source is 1983x793 rather than requested 2000x800. Kit still reads red with bright-white trim; compare against accepted Briar palette and review separation at packed size before acceptance.",
+      "review_status": "superseded-unaccepted",
+      "notes": "Superseded by attempt03. Retained because it provided the poses edited in attempt03; packed-size and palette review were not sufficient for acceptance.",
       "light_dark_preview": "tools/generate-art/previews/j135-briar-foxglove-fall/j135-briar-foxglove-fall-attempt-02-light-dark.png",
       "preview_sha256": "16dcca3ed9d4e3f0aaf98110c4a3af8627c206b951a1a1a3bfd7388fe8318692",
       "raw_dimensions": [
@@ -128,8 +128,8 @@
       "identity_reference": "public/assets/animation/briar-foxglove-push-right.png",
       "light_dark_preview": "tools/generate-art/previews/j135-briar-foxglove-fall/j135-briar-foxglove-fall-attempt-03-light-dark.png",
       "preview_sha256": "74d7c1dd27b30655039f5c09fc59a8a4515f4be4045382a2a31f9f28aecafc53",
-      "review_status": "pending",
-      "notes": "Unaccepted pending packed-size check. Independent review confirms ten readable ordered poses, Briar identity/anatomy and no ball. Alpha>=16 measurements within equal 5x2 source cells have 13px minimum clearance (frame 3 right edge); canvas is 1983x793, not requested 2000x800. Kit color is closer to accepted push sprites but remains red/russet with near-white/cream trim; verify against reference and at packed size.",
+      "review_status": "accepted",
+      "notes": "Accepted after independent source, packed-size, and native Jam Stage reviews. Ten unique complete poses, canonical Briar identity, readable russet/cream kit close to accepted push reference, no ball. Packed min alpha>=16 clearance is2px at the shared baseline; frame3 has6px left/7px right. Native courtY75 previews select all frames in both facings at100%/120%; ball remains dead and unowned.",
       "raw_dimensions": [
         1983,
         793
@@ -213,5 +213,10 @@
         }
       ]
     }
-  ]
+  ],
+  "accepted_attempt": "03",
+  "production_asset": "public/assets/animation/briar-foxglove-fall-right.png",
+  "production_sha256": "8c9d118d7e75aaa4989189eb8bc415f80e016b22251f778b6c657904f1dc58fb",
+  "accepted_layout": "tools/generate-art/j135-briar-foxglove-fall-production-layout.json",
+  "native_preview_candidate": "tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/native-preview-candidate.json"
 }

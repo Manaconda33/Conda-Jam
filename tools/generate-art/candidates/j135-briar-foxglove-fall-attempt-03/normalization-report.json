@@ -1,0 +1,227 @@
+{
+  "status": "accepted for registration; production atlas is registered locally, deployment pending",
+  "athlete": "briar-foxglove",
+  "clip": "fall",
+  "source": "tools/generate-art/sources/j135-briar-foxglove-fall-attempt-03-raw.png",
+  "sourceSha256": "4f9981915402e02507c70e7363ac15609f6dde4482305bcc4b55c7d2cb4569dd",
+  "sourceGrid": "5x2 row-major; 10 occupied cells",
+  "sourceConnectedComponentsAtAlpha64": 10,
+  "bodyComponents": 10,
+  "smallDiscardedComponents": [],
+  "cleanup": "Component isolation at alpha>=64 retained the ten largest cell-mapped bodies; all other alpha components are listed as discarded noise. No pose was redrawn, reordered, or invented.",
+  "targetFit": {
+    "uniformScale": 0.2884012539184953,
+    "cellWidth": 112,
+    "cellHeight": 96,
+    "columns": 5,
+    "rows": 2,
+    "baselineY": 94,
+    "resampling": "LANCZOS"
+  },
+  "candidate": "tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+  "candidateSha256": "8c9d118d7e75aaa4989189eb8bc415f80e016b22251f778b6c657904f1dc58fb",
+  "lightDarkPreview": "tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review-light-dark.png",
+  "lightDarkPreviewSha256": "b9220c6b1825ded44ad03917e2f195a708b25b9bb59fdec1092aa56f18b3fb34",
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 112,
+      "h": 96,
+      "sourceRect": {
+        "x": 73,
+        "y": 74,
+        "w": 281,
+        "h": 295
+      },
+      "packedAlpha16Margins": [
+        15,
+        9,
+        16,
+        2
+      ],
+      "uniqueRGBAHash": "93554dd80994ef39a17e0e29acd69119595a7a56a9635cea5a23fb8b431bca9a"
+    },
+    {
+      "index": 1,
+      "x": 112,
+      "y": 0,
+      "w": 112,
+      "h": 96,
+      "sourceRect": {
+        "x": 439,
+        "y": 73,
+        "w": 332,
+        "h": 296
+      },
+      "packedAlpha16Margins": [
+        8,
+        9,
+        8,
+        2
+      ],
+      "uniqueRGBAHash": "b99870649097cdee82034112f911c8fcc872f1c8b162b073f684eaae601b743d"
+    },
+    {
+      "index": 2,
+      "x": 224,
+      "y": 0,
+      "w": 112,
+      "h": 96,
+      "sourceRect": {
+        "x": 858,
+        "y": 138,
+        "w": 315,
+        "h": 231
+      },
+      "packedAlpha16Margins": [
+        10,
+        27,
+        11,
+        2
+      ],
+      "uniqueRGBAHash": "c20931a36c44542d5fd861743c1fdfa0a9228a4377a754b5090c633d53c0a957"
+    },
+    {
+      "index": 3,
+      "x": 336,
+      "y": 0,
+      "w": 112,
+      "h": 96,
+      "sourceRect": {
+        "x": 1231,
+        "y": 174,
+        "w": 342,
+        "h": 189
+      },
+      "packedAlpha16Margins": [
+        6,
+        39,
+        7,
+        2
+      ],
+      "uniqueRGBAHash": "a7df41517c9a876d3e51e2df1c369b1d186e10e817cdba5e15bd891b9857584e"
+    },
+    {
+      "index": 4,
+      "x": 448,
+      "y": 0,
+      "w": 112,
+      "h": 96,
+      "sourceRect": {
+        "x": 1637,
+        "y": 193,
+        "w": 286,
+        "h": 173
+      },
+      "packedAlpha16Margins": [
+        15,
+        44,
+        15,
+        2
+      ],
+      "uniqueRGBAHash": "ffbe1cca17f9df9eede10ca77b49f68a439088b1d6bb50956b1b0334b40cf1f4"
+    },
+    {
+      "index": 5,
+      "x": 0,
+      "y": 96,
+      "w": 112,
+      "h": 96,
+      "sourceRect": {
+        "x": 62,
+        "y": 545,
+        "w": 323,
+        "h": 202
+      },
+      "packedAlpha16Margins": [
+        9,
+        36,
+        10,
+        2
+      ],
+      "uniqueRGBAHash": "691a13104cca53e166653a4ade12d5a0ba97a16e07a255c9f0c727c52200e8ed"
+    },
+    {
+      "index": 6,
+      "x": 112,
+      "y": 96,
+      "w": 112,
+      "h": 96,
+      "sourceRect": {
+        "x": 469,
+        "y": 510,
+        "w": 279,
+        "h": 238
+      },
+      "packedAlpha16Margins": [
+        16,
+        25,
+        16,
+        2
+      ],
+      "uniqueRGBAHash": "0ab410c7e7b61b0a44b6875a9cff64e7f78ce0fd0604ba86ba426511e9ea7a4d"
+    },
+    {
+      "index": 7,
+      "x": 224,
+      "y": 96,
+      "w": 112,
+      "h": 96,
+      "sourceRect": {
+        "x": 863,
+        "y": 465,
+        "w": 260,
+        "h": 280
+      },
+      "packedAlpha16Margins": [
+        18,
+        13,
+        19,
+        2
+      ],
+      "uniqueRGBAHash": "26710860e368d555a505cf6978629702807e05a26f92037fca1de7b2ff659a05"
+    },
+    {
+      "index": 8,
+      "x": 336,
+      "y": 96,
+      "w": 112,
+      "h": 96,
+      "sourceRect": {
+        "x": 1255,
+        "y": 426,
+        "w": 279,
+        "h": 319
+      },
+      "packedAlpha16Margins": [
+        16,
+        2,
+        16,
+        2
+      ],
+      "uniqueRGBAHash": "43ed6c45d84dc137f2b807831379f056978df692acff5e7fac19c3d8a0245086"
+    },
+    {
+      "index": 9,
+      "x": 448,
+      "y": 96,
+      "w": 112,
+      "h": 96,
+      "sourceRect": {
+        "x": 1660,
+        "y": 464,
+        "w": 282,
+        "h": 281
+      },
+      "packedAlpha16Margins": [
+        15,
+        13,
+        16,
+        2
+      ],
+      "uniqueRGBAHash": "98e1098f50726078953ff9027c04f0206b4c80587d2b07fbed2c8529b8ffd0ad"
+    }
+  ]
+}

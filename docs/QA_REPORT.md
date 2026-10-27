@@ -1,10 +1,10 @@
-# QA — 2026-10-27 J.134 Briar push accepted locally
+# QA — 2026-10-27 J.135 Briar Foxglove fall registered locally
 
-- J.134 uses eleven individually generated Briar sprites in a 448×288 transparent 4×3 atlas. Independent source/art reviews accept identity, full anatomy, pose separation, alpha clearance, baseline and empty cell12. Contact frame5 occurs at tick8. Native Jam Stage captures at y=75, both facings and 100%/120% select every frame; ball is separate from the push art.
-- `npm test`:56/56 PASS; lint19 modules PASS; content validation35 franchises/105 unique athletes PASS; standalone build PASS. Strict audit `2026-10-27T01:48:28.137Z`:105 athletes,829 clips,7,502 drawings,2,274 missing clips, one target shortfall, four inherited prompt findings.
-- Four full-sheet candidates were rejected for edge spill, pose similarity, and fringe. Raw images, exact prompts, IDs, hashes, and light/dark proofs are retained. Accepted single-pose provenance and normalized output are indexed in `tools/generate-art/j134-briar-foxglove-push-provenance.json`.
-- Direct push retry still fails at configured proxy port8080. GitHub main remains at valid J.131 rollback tree `dc401b7d`; Pages run #176 verify/build passed. J.132–J.134 are not deployed. Browser E2E has not been run for this checkpoint; native Jam Stage capture was used instead.
-
+- Attempt03 passed independent source, packed-size, and native review and is registered locally. Ten complete poses use a 5×2, 560×192 transparent atlas; cell margins and shared baseline y=94 are recorded in the normalization report. Briar's established identity and russet/cream palette are consistent with the accepted push art. The clip is ball-free; all native records show a dead, unowned ball.
+- Jam Stage native preview uses courtY75 at both facings and 100%/120% zoom. All ten frames select the correct production pose, including frame9/tick33.
+- `npm test`:57/57 PASS; lint19 modules PASS; content validation35 franchises/105 athletes PASS; standalone build PASS. Strict audit `2026-10-27T02:08:26.732Z`:105 athletes,830 clips,7,512 drawings,2,273 missing clips, one target shortfall and four inherited prompt findings.
+- Four generation attempts retain exact prompts, IDs, raw sources, hashes and light/dark proofs; attempts00/01 rejected and attempt02 superseded. No J.135 ball track applies.
+- GitHub push retry fails at the configured proxy port8080. `main` remains on valid rollback `dc401b7d`; no Pages workflow was triggered. Browser E2E has not been run for this checkpoint.
 
 # Latest checkpoint — Issue #4 stage default-renderer deployed (2026-10-26)
 

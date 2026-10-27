@@ -1,0 +1,92 @@
+{
+  "athlete": "briar-foxglove",
+  "direction": "right",
+  "clip": "fall",
+  "src": "./public/assets/animation/briar-foxglove-fall-right.png",
+  "columns": 5,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 112,
+      "y": 0,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 224,
+      "y": 0,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 336,
+      "y": 0,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 448,
+      "y": 0,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 112,
+      "y": 96,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 224,
+      "y": 96,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 336,
+      "y": 96,
+      "w": 112,
+      "h": 96
+    },
+    {
+      "x": 448,
+      "y": 96,
+      "w": 112,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "issue": "J.135",
+    "prompt": "tools/generate-art/j135-briar-foxglove-fall-attempt-03-edit-prompt.md",
+    "promptVerbatim": true,
+    "generatedAt": "2026-10-27",
+    "imageGenId": "exec-a1140609-9874-4d6d-bc22-86f311bcb31a",
+    "rawSource": "tools/generate-art/sources/j135-briar-foxglove-fall-attempt-03-raw.png",
+    "rawSourceSha256": "4f9981915402e02507c70e7363ac15609f6dde4482305bcc4b55c7d2cb4569dd",
+    "sourceCandidate": "tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review.png",
+    "sourceCandidateSha256": "8c9d118d7e75aaa4989189eb8bc415f80e016b22251f778b6c657904f1dc58fb",
+    "normalizationScript": "tools/generate-art/normalize-j135-briar-foxglove-fall-attempt-03.py",
+    "normalizationReport": "tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/normalization-report.json",
+    "lightDarkPreview": "tools/generate-art/candidates/j135-briar-foxglove-fall-attempt-03/briar-foxglove-fall-attempt-03-review-light-dark.png",
+    "nativeReview": "tools/generate-art/previews/j135-briar-foxglove-fall/attempt-03/native-{100,120}/report.json",
+    "ballTrack": "none during fall; Briar has no carry track for this clip and the live ball remains separate, dead and unowned",
+    "review": {
+      "status": "accepted",
+      "scope": "independent source, packed-size, and native Jam Stage reviews",
+      "notes": "Ten distinct complete poses in order; Briar identity/anatomy and russet/cream kit close to accepted push reference; no baked ball. Frame9 is selected at tick33. Native captures at courtY75 in both facings and 100%/120% select all ten poses; ball state is dead and ownerless.",
+      "at": "2026-10-27"
+    }
+  }
+}

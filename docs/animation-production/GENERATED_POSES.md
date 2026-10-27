@@ -1,3 +1,11 @@
+## J.135 — Briar Foxglove `fall`
+
+Briar's ten-frame fall/get-up clip is accepted and registered locally. Attempt03 preserves her established deep-brown skin, shoulder-length locs, vivid red headband, compact adult human anatomy, and russet/cream Emberwood kit. The continuous sequence runs from collision recoil through landing, roll, and recovery to a defensive stance; frame9 is the finish anchor at tick33 of the40-tick clip. No basketball is drawn and no Briar carry track applies.
+
+The accepted 560×192 atlas uses five columns by two rows of112×96 cells, nearest-neighbor normalization, alpha≥64 component isolation (exactly ten body components; none discarded), and shared baseline y=94. Independent source, packed-size, and Jam Stage reviews pass; the tightest packed alpha≥16 clearance is2px at baseline. Native Jam Stage reports at courtY75 select all ten frames in both facings at100%/120%, with dead/unowned ball state. Raw prompt/source lineage, three rejected/superseded generations, hashes, light/dark proofs, normalization report and native captures are under `tools/generate-art/j135-briar-foxglove-fall*`.
+
+Validation passes57/57 tests, lint19 modules, content validation35 franchises/105 athletes, and build. Strict audit `2026-10-27T02:08:26.732Z` reports830 clips /7,512 drawings /105 athletes,2,273 missing clips, one target shortfall and four inherited prompt findings. GitHub push is blocked by the unreachable configured proxy; latest remote `main` remains at J.131 rollback `dc401b7d`. Next roster-order target: Briar `rebound`.
+
 ## Current J.130 Briar Foxglove `layup` checkpoint — 2026-10-26 22:45 UTC
 
 Pose02 attempt04 preserves Briar identity, full anatomy and separated limbs. Its normalized cell is51×83 in72×95 with[10,6,11,6] margins; a reviewed light/dark proof and corrected native Jam Stage captures pass at100%/120%, both facings. The old fragmented-frame2 screenshots were harness errors: candidate sprites loaded after `game.start()` cached production assets. The harness now injects first and applies the candidate ball override at tick9.

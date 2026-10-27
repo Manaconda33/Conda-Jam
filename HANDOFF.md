@@ -1,6 +1,8 @@
-## J.135 Briar Foxglove `fall` generation in review — 2026-10-27
+## Current J.135 Briar Foxglove `fall` checkpoint — 2026-10-27 02:08 UTC
 
-ImageGen returned four preserved sheets. Attempt00 is rejected for contradictory prompt identity; attempt01 is unaccepted for pose-cell spill, edge clearance and red/white palette; attempt02 is unaccepted; attempt03 is the current unaccepted candidate pending packed-size separation and russet/cream palette review. Briar's canonical locs, red headband, deep-brown skin and compact build are present in attempt03, and no ball is drawn. There is no accepted J.135 source/atlas/track yet. Exact prompts, IDs, PNGs, hashes and light/dark previews are indexed in `tools/generate-art/j135-briar-foxglove-fall-provenance.json` and `tools/generate-art/j135-briar-foxglove-fall-review.md`.
+J.135 is accepted and registered locally from attempt03. Its ten-pose 5×2 560×192 atlas has 112×96 cells, shared baseline y=94, and no ball art or Briar carry track. Independent source, packed-size, and native reviews pass identity/anatomy, pose order, transparency, margins and palette against Briar's accepted push sprites. Native Jam Stage captures at courtY75 select all frames in both facings at100%/120%; ball is dead and unowned. Full prompts, generation IDs, three rejected/superseded sheets, raw images/hashes, proofs, normalization and captures are preserved in J.135 files.
+
+Validation: `npm test`57/57, lint19 modules, content35 franchises/105 athletes, build PASS. Strict report-only audit `2026-10-27T02:08:26.732Z`:830 clips /7,512 drawings /105 athletes,2,273 missing clips, one target shortfall and four inherited prompt findings. `git push origin HEAD:main` still fails at the configured proxy port8080; GitHub `main` remains at `dc401b7d` and Pages run #176 verified/built that J.131 tree. J.132–J.135 remain unpublished. Next roster target: J.136 Briar Foxglove `rebound`.
 
 ## Current J.134 Briar Foxglove `push` checkpoint — 2026-10-27 01:49 UTC
 
