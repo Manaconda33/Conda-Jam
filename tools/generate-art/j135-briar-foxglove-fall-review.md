@@ -1,0 +1,11 @@
+# J.135 Briar Foxglove `fall` — source generation review
+
+Status: **candidate work only; no atlas or clip accepted or registered.** This fall clip is ball-free and has no Briar carry track. The runtime ball stays separate and enters loose/dead-ball state during the fall.
+
+ImageGen is currently available (successful generation on 2026-10-27). Three full-sheet generations are preserved with exact prompts, generation IDs, raw RGBA images, SHA-256 hashes, and light/dark proofs in `tools/generate-art/j135-briar-foxglove-fall-provenance.json`.
+
+- Attempt 00 (`exec-1cdabf76-988a-434d-bcc2-b7719a7e749d`) is rejected because its prompt text contradicts the canonical identity (it says high ponytail/side fringe rather than shoulder-length locs/red headband, and misgenders frame 4). The rendered sheet visually followed the attached Briar sprites more closely than its text; retain it as rejected prompt/provenance evidence.
+- Attempt 01 (`exec-f49bcbcc-81d0-4e25-af10-490456437dc8`) is unaccepted. Independent review finds frame 2/3 boundary spill, frame 4 too close to the right edge, and a bright red/white kit inconsistent with Briar's russet/cream colors.
+- Attempt 02 (`exec-ed884ebf-c2ac-467d-a573-2e0716544469`) is the current review candidate, not approved for packing. Independent review finds all ten poses readable in order, Briar's locs/headband/skin/build consistent, complete anatomy, and no ball. Frame 3 has only about 13 px clearance at alpha >=16. The source is 1983x793 rather than the requested 2000x800. Its kit still leans red with bright-white trim, so compare the pixel palette with accepted Briar assets before any acceptance. Pose separation also needs packed-size review.
+
+The raw sheets use generated transparency; the light/dark proofs are available under `tools/generate-art/previews/j135-briar-foxglove-fall/`. The reusable proof generator is `tools/generate-art/review-j135-briar-foxglove-fall.py`. Do not normalize, pack, register, or invent replacement poses from the current evidence. Next: resolve palette and cell clearance with a reviewed generation or documented cleanup, then review the complete ten-pose sequence at packed size before Jam Stage previews at court y=75, both facings, and 100%/120% zoom.

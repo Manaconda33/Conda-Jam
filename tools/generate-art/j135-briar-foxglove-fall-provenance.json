@@ -1,0 +1,40 @@
+{
+  "asset": "J.135 Briar Foxglove fall",
+  "created_utc": "2026-10-27",
+  "ball_policy": "No ball in art or carry track; fall uses a dead/loose ball state.",
+  "attempts": [
+    {
+      "attempt": "00",
+      "generation_id": "exec-1cdabf76-988a-434d-bcc2-b7719a7e749d",
+      "prompt_file": "tools/generate-art/j135-briar-foxglove-fall-attempt-00-prompt.md",
+      "raw_image": "tools/generate-art/sources/j135-briar-foxglove-fall-attempt-00-raw.png",
+      "sha256": "9405f074b3898a4d19665330aae9112fe7380635c98ca478ed22f1cd39bf8e21",
+      "review_status": "rejected",
+      "notes": "Rejected: prompt contradicted canonical Briar identity by specifying a high ponytail and loose side fringe rather than shoulder-length locs and a red headband. Retained as provenance; output followed the visual reference more closely than the inaccurate text.",
+      "light_dark_preview": "tools/generate-art/previews/j135-briar-foxglove-fall/j135-briar-foxglove-fall-attempt-00-light-dark.png",
+      "preview_sha256": "bda8755fe5d5ac973f83c0986a58c7f6995e2009326c245101a844bef2db8820"
+    },
+    {
+      "attempt": "01",
+      "generation_id": "exec-f49bcbcc-81d0-4e25-af10-490456437dc8",
+      "prompt_file": "tools/generate-art/j135-briar-foxglove-fall-attempt-01-prompt.md",
+      "raw_image": "tools/generate-art/sources/j135-briar-foxglove-fall-attempt-01-raw.png",
+      "sha256": "bafd76109afc25fc8ee26ec2d2182007416d021d24dc6117d7d9922e54f066ed",
+      "review_status": "unaccepted",
+      "notes": "Unaccepted: independent source review found pose 2/3 boundary spill, very tight right-edge clearance in pose 4, and overly bright red/white kit colors against russet/cream canon.",
+      "light_dark_preview": "tools/generate-art/previews/j135-briar-foxglove-fall/j135-briar-foxglove-fall-attempt-01-light-dark.png",
+      "preview_sha256": "d41a3f819a757360bbf01b562cdf35ebdad78e0498f0a0a5ec7ea42b3398a8c9"
+    },
+    {
+      "attempt": "02",
+      "generation_id": "exec-ed884ebf-c2ac-467d-a573-2e0716544469",
+      "prompt_file": "tools/generate-art/j135-briar-foxglove-fall-attempt-02-prompt.md",
+      "raw_image": "tools/generate-art/sources/j135-briar-foxglove-fall-attempt-02-raw.png",
+      "sha256": "1ee9274a0a9805f25c9fa38ccdaa8b2bab4939ffd99418a23b772e9f56844fcf",
+      "review_status": "pending",
+      "notes": "Unaccepted. Independent review confirms ten ordered and distinguishable poses, consistent Briar identity/anatomy, and no ball; frame 3 has roughly 13px alpha>=16 clearance. Source is 1983x793 rather than requested 2000x800. Kit still reads red with bright-white trim; compare against accepted Briar palette and review separation at packed size before acceptance.",
+      "light_dark_preview": "tools/generate-art/previews/j135-briar-foxglove-fall/j135-briar-foxglove-fall-attempt-02-light-dark.png",
+      "preview_sha256": "16dcca3ed9d4e3f0aaf98110c4a3af8627c206b951a1a1a3bfd7388fe8318692"
+    }
+  ]
+}

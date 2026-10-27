@@ -1,3 +1,7 @@
+## J.135 Briar Foxglove `fall` — generation candidate in review — 2026-10-27
+
+ImageGen availability is confirmed by three preserved generation results. Attempt00 is rejected because its prompt contradicted Briar canon; attempt01 is unaccepted after identity/palette/margin review; attempt02 is the current unaccepted candidate. Review found its ten fall/get-up poses in order, Briar's locs/headband/deep-brown skin/compact build, complete anatomy and no ball. Attempt02 still has a roughly13px frame3 clearance at alpha>=16, a1983x793 source canvas, and a red/white leaning kit instead of clearly russet/cream; packed-size separation and palette review remain. No normalized source, atlas, registration or ball track is accepted. Exact prompts, IDs, raw images/SHA, rejected work and light/dark proofs are kept under `tools/generate-art/j135-briar-foxglove-fall*`. See the detailed source review before continuing.
+
 ## Current J.134 Briar Foxglove `push` checkpoint — 2026-10-27 01:49 UTC
 
 J.134 is accepted and registered locally. Eleven distinct ball-free individual sources form a 448×288 4×3 atlas with 112×96 cells, empty cell12, shared baseline y=89 and >=7px alpha≥16 margins. Independent visual and native reviews accept Briar identity/anatomy, pose separation, readable frame5/tick8 contact, transparency and packed scale. Native Jam Stage captures at y=75 select all frames in both facings at100%/120%.

@@ -1,3 +1,7 @@
+## J.135 Briar Foxglove `fall` generation in review — 2026-10-27
+
+ImageGen returned three preserved sheets. Attempt00 is rejected for contradictory prompt identity; attempt01 is unaccepted for pose-cell spill, edge clearance and red/white palette; attempt02 is unaccepted pending packed-size separation and russet/cream palette review. Briar's canonical locs, red headband, deep-brown skin and compact build are present in attempt02, and no ball is drawn. There is no accepted J.135 source/atlas/track yet. Exact prompts, IDs, PNGs, hashes and light/dark previews are indexed in `tools/generate-art/j135-briar-foxglove-fall-provenance.json` and `tools/generate-art/j135-briar-foxglove-fall-review.md`.
+
 ## Current J.134 Briar Foxglove `push` checkpoint — 2026-10-27 01:49 UTC
 
 J.134 is accepted and registered in this local tree. The 448×288 atlas combines eleven individual Briar sources in 112×96 cells; cell12 is empty, baseline y=89 is shared, and every pose has at least7px of alpha≥16 clearance. Pose identity, full human anatomy, action separation, transparency, and packed readability passed independent review. Frames4–6 read as halfway reach, open-palm contact, and follow-through; frames8–10 read as recovery, balanced stance, and settled ready. The contact anchor is frame5/tick8. Source prompts, ImageGen IDs, raw images/hashes, four rejected sheet attempts, normalization reports, light/dark previews, and native captures are indexed in `tools/generate-art/j134-briar-foxglove-push-provenance.json` and `tools/generate-art/j134-briar-foxglove-push-review.md`.
@@ -6,7 +10,7 @@ Native Jam Stage review is at court y=75, 100%/120%, and both facings. All22 fra
 
 Validation: `npm test`56/56; lint19 modules; content validation35 franchises/105 athletes; build PASS. Strict report-only audit `2026-10-27T01:48:28.137Z`:105 athletes,829 registered clips,7,502 authored drawings,2,274 missing clips, one target shortfall (Luca Velori `run`), four inherited prompt findings.
 
-**GitHub publication state:** direct `git push origin HEAD:main` was retried and still cannot connect to configured proxy port8080. GitHub `main` remains at rollback commit `dc401b7d` (valid J.131 tree); Pages run #176 passed verify/build for that tree. J.132/J.133 are local at `4bcf56d6` and `65146252`; J.134 is now integrated in the active local branch and awaits checkpoint commit/publication. No J.132–J.134 assets are deployed. The original `/workspace/Conda-Jam` checkout and user-owned J.106 helper remain untouched. Next roster target: J.135 Briar Foxglove `fall`.
+**GitHub publication state:** direct `git push origin HEAD:main` was retried and still cannot connect to configured proxy port8080. GitHub `main` remains at rollback commit `dc401b7d` (valid J.131 tree); Pages run #176 passed verify/build for that tree. J.132/J.133 are local at `4bcf56d6` and `65146252`; J.134 is committed locally at `427c0b228200d611009d0f92de3ad4e159945589`; it remains unpublished. No J.132–J.134 assets are deployed. The original `/workspace/Conda-Jam` checkout and user-owned J.106 helper remain untouched. Next roster target: J.135 Briar Foxglove `fall`.
 
 ## Current J.131 Briar Foxglove `layup-reverse` checkpoint — 2026-10-27 00:22 UTC
 
