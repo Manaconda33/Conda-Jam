@@ -1,18 +1,18 @@
 # Animation asset audit
 
-Generated: 2026-10-27T20:08:06.051Z
+Generated: 2026-10-27T20:41:54.212Z
 
 Status: **INCOMPLETE**
 
-105 athletes; 29 required clips per athlete; 2341 existing clips decoded across 42 unique source libraries, 514 source atlases and 4879 unique decoded source drawings.
+105 athletes; 29 required clips per athlete; 2342 existing clips decoded across 42 unique source libraries, 515 source atlases and 4894 unique decoded source drawings.
 
-Clip classifications: original-authored: 514; derived-palette: 1827. Library assignments: original-authored: 7; derived-palette: 63; missing: 0; rejected: 0. Missing clip assignments: 762. Shared-player assignments do not inflate unique source artwork or frame counts.
+Clip classifications: original-authored: 515; derived-palette: 1827. Library assignments: original-authored: 7; derived-palette: 63; missing: 0; rejected: 0. Missing clip assignments: 761. Shared-player assignments do not inflate unique source artwork or frame counts.
 
 Minimum authored frames: 29190; production target: 30765. Inspected clips below target: 0 (not a failure when the minimum is satisfied).
 
 | Finding | Count |
 | --- | ---: |
 | prompt-not-verbatim | 4 |
-| missing-clip | 762 |
+| missing-clip | 761 |
 
 Pixel hashes detect identical decoded crops. They do not certify anatomical correctness, continuity, pose quality, or fidelity to asymmetric character details; recorded human review remains required.
