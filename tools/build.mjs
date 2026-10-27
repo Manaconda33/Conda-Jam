@@ -31,8 +31,10 @@ for(const character of Object.values(productionManifest.characters))for(const di
 const manifestSource=`const embeddedAtlases=${JSON.stringify(embeddedAtlases)};\nexport const animationAssetManifest=${JSON.stringify(productionManifest)};\nfor(const character of Object.values(animationAssetManifest.characters))for(const direction of Object.values(character.directions??{}))for(const clip of Object.values(direction))clip.src=embeddedAtlases[clip.src];`;
 const modules={
   './content/teams.js':await wrapModule('content/teams.js'),
+  './content/supporting-animation-libraries.js':await wrapModule('content/supporting-animation-libraries.js'),
   './core/animation.js':await wrapModule('core/animation.js'),
   './content/animation-assets.js':await wrapModule('content/animation-assets.js',manifestSource),
+  './render/uniform-palette.js':await wrapModule('render/uniform-palette.js'),
   './render/animation-sprites.js':await wrapModule('render/animation-sprites.js'),
   './render/camera-tracking.js':await wrapModule('render/camera-tracking.js'),
   './render/jam-stage.js':await wrapModule('render/jam-stage.js'),

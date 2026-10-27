@@ -350,3 +350,11 @@ Your final report should concisely include:
 Start now. Inspect workspace, create the project scaffold if clean, record key assumptions, and build the smallest *real and playable* four-athlete possession/score loop before beautifying the menu. Ensure **every subsequent step preserves playability**. Continuously turn the architecture and content above into working browser game code; actively test it, patch bugs and document evidence. Then build out all 35 teams and all 105 playable athletes, pixel sprites and original audio, complete regulation rules and game modes, and iterate until the formal acceptance criteria pass or your environment's execution budget genuinely runs out.
 
 **Priority mantra: a playable arcade basketball game, correctly scoring and controlling, then a beautiful and complete 35-team universe. Never ship a beautiful static mockup in place of basketball.**
+
+## Authorized supporting-player animation reuse — 2026-10-27
+
+The 35 captains remain under the original bespoke production and review standard. Their art, identity and animation requirements are protected from reuse, recoloring or consolidation.
+
+For the 70 noncaptains, a complete reviewed animation library may serve multiple athletes only when every effective clip meets the existing clip timing, facing, anchor and minimum unique-frame requirements. The receiving athlete keeps its own simulation timing, action anchors, ball track and ownership transitions. Shared art must never be counted as newly authored drawings.
+
+Team-color variants are derived artwork. They must preserve alpha, shading, outlines, skin, hair, face and accessories; use reviewed garment-specific masks; and retain explicit donor, source-file, source-palette, target-palette and transform lineage. The asset audit must separately report original authored art, shared source coverage, derived palette coverage, unreviewed/rejected assignments and missing assets. An unreviewed variant is not effective coverage and must not be selected by gameplay.

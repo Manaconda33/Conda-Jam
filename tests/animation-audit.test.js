@@ -91,6 +91,17 @@ test('strict audit flags a reconstructed rather than verbatim source prompt', as
   const codes = (await f.audit()).errors.map(error => error.code);
   assert.ok(codes.includes('prompt-not-verbatim'));
 });
+test('audit rejects captain sharing and keeps unreviewed palettes outside effective coverage', async t => {
+  const f = await fixture(t);
+  const protectedReport = await auditManifest({ root: f.root, manifest: f.manifest, athletes: [{ id: 'fixture', captain: true }], clips: { run: 2 }, libraries: { fixture: { mode: 'shared', donorId: 'fixture' } } });
+  assert.ok(protectedReport.errors.some(error => error.code === 'captain-library-protected'));
+  const pending = { mode: 'shared', donorId: 'fixture', review: 'pending', sourcePalette: ['#111111','#222222'], targetPalette: ['#333333','#444444'] };
+  const pendingReport = await auditManifest({ root: f.root, manifest: f.manifest, athletes: [{ id: 'fixture', captain: false }], clips: { run: 2 }, libraries: { fixture: pending } });
+  assert.ok(pendingReport.errors.some(error => error.code === 'palette-review-required'));
+  assert.equal(pendingReport.results[0].classification, 'original-authored');
+  assert.equal(pendingReport.coverageByPlayer.fixture.classification, 'original-authored');
+  assert.equal(pendingReport.coverageByPlayer.fixture.assignmentStatus, 'pending');
+});
 test('minimum-approved clips pass with an explicit higher-target shortfall', async t => {
   const f = await fixture(t);
   const report = await auditManifest({ root: f.root, manifest: f.manifest, athletes: ['fixture'], clips: { run: { minimumUniqueFrames: 2, frames: [{ duration: 2 }, { duration: 2 }, { duration: 2 }] } } });

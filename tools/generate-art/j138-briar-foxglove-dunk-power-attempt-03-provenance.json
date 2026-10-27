@@ -1,0 +1,14 @@
+{
+  "issue": "J.138",
+  "athlete": "briar-foxglove",
+  "clip": "dunk-power",
+  "generationId": "exec-ffb5f31c-6502-4a35-b6bd-c5b921539fe8",
+  "generatedAt": "2026-10-27T03:08:00Z",
+  "prompt": "tools/generate-art/j138-briar-foxglove-dunk-power-attempt-03-prompt.md",
+  "editPrompt": "tools/generate-art/j138-briar-foxglove-dunk-power-attempt-03-edit-prompt.md",
+  "rawSource": "tools/generate-art/sources/j138-briar-foxglove-dunk-power-attempt-03-raw.png",
+  "rawSourceSha256": "6ff67021cde3de9d6f8445523d14088b9119783b714be73c02f60c2aa7fcec40",
+  "dimensions": "1536x1024 RGBA",
+  "status": "rejected; superseded by edit attempt 04",
+  "review": "Attempt 03 has fifteen discernible poses and RGBA, but a visible basketball is baked into row 1 column 2. Attempt 04 removed the ball; its own review still fails margins, pixel-art fidelity and specific dunk-pose semantics. Attempt 03 remains preserved as the edit parent; no atlas or gameplay registration accepted."
+}

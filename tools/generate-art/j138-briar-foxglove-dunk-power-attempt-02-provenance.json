@@ -1,0 +1,13 @@
+{
+  "issue": "J.138",
+  "athlete": "briar-foxglove",
+  "clip": "dunk-power",
+  "generationId": "exec-a77faade-3fe7-4005-b0cb-e5e61845a779",
+  "parentGenerationId": "exec-57d6c74a-1560-4a36-b2b5-7db22656b5c6",
+  "prompt": "tools/generate-art/j138-briar-foxglove-dunk-power-attempt-02-edit-prompt.md",
+  "rawSource": "tools/generate-art/sources/j138-briar-foxglove-dunk-power-attempt-02-raw.png",
+  "rawSourceSha256": "8feb745665f55a7e156cf6c68a34f405e4721a795075ea15b4b76ea097cd6d37",
+  "dimensions": "1536x1024 RGBA",
+  "status": "rejected",
+  "review": "Targeted edit failed: baked basketballs remain visibly present in frames1 and2. No atlas registered."
+}

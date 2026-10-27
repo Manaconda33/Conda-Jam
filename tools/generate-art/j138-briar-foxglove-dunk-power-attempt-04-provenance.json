@@ -1,0 +1,21 @@
+{
+  "issue": "J.138",
+  "athlete": "briar-foxglove",
+  "clip": "dunk-power",
+  "generationId": "exec-6d91699a-5666-4920-ac90-44f44a71dd12",
+  "generatedAt": "2026-10-27T03:09:09Z",
+  "parentGenerationId": "exec-ffb5f31c-6502-4a35-b6bd-c5b921539fe8",
+  "prompt": "tools/generate-art/j138-briar-foxglove-dunk-power-attempt-04-edit-prompt.md",
+  "editSource": "tools/generate-art/sources/j138-briar-foxglove-dunk-power-attempt-03-raw.png",
+  "rawSource": "tools/generate-art/sources/j138-briar-foxglove-dunk-power-attempt-04-raw.png",
+  "rawSourceSha256": "1efdc7f71a82c88a6e1f81fa66cdbc6add9c9b7d8ca636906661dd6a3d232213",
+  "dimensions": "1536x1024 RGBA",
+  "alpha": {
+    "min": 0,
+    "max": 254,
+    "transparentPixels": 1058312,
+    "nontransparentPixels": 514552
+  },
+  "status": "rejected as a production atlas; preserved as a source candidate",
+  "review": "Independent review confirms the former basketball is removed, row-major broad timing sequence is recognizable, and alpha-zero background exists. Reject for cell-margin violations (row1 column4 raised hand; row3 column1 crosses its row edge), repeated aerial poses, painterly rather than crisp pixel-art style, and unclear downward release semantics. Briar-specific dunk-power ball alignment is also unreviewed and generic track points appear mismatched. Do not crop, pack or register without a valid review and separately calibrated track."
+}
