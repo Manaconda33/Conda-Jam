@@ -101,13 +101,13 @@ function giveBall(match, player, announce = '', preserveAssist = false) {
   if (announce) event(match, announce);
 }
 function event(match, text) { match.lastEvent = text; match.events.push({ tick: Math.round((match.quarterSeconds - match.clock) * 60), text }); if (match.events.length > 60) match.events.shift(); }
-export function commitScore(match, attempt) {
+export function commitScore(match, attempt, {preserveAnimation = false} = {}) {
   if (!attempt?.id || match.scoredAttempts?.includes(attempt.id) || match.phase === 'final') return false;
   match.scoredAttempts ??= [];
   match.scoredAttempts.push(attempt.id);
   match.score[attempt.team] += attempt.points;
   const scorer = playerById(match, attempt.playerId);
-  if (scorer) { scorer.points += attempt.points; scorer.fgm++; if(attempt.points===3)scorer.threeMakes++; if(attempt.id.startsWith('dunk-'))scorer.dunks++; scorer.madeRun++;scorer.highestStreak=Math.max(scorer.highestStreak,scorer.madeRun);if(scorer.onFire)scorer.fireGoals++; startAnimation(scorer,'celebrate'); }
+  if (scorer) { scorer.points += attempt.points; scorer.fgm++; if(attempt.points===3)scorer.threeMakes++; if(attempt.id.startsWith('dunk-'))scorer.dunks++; scorer.madeRun++;scorer.highestStreak=Math.max(scorer.highestStreak,scorer.madeRun);if(scorer.onFire)scorer.fireGoals++; if(!preserveAnimation)startAnimation(scorer,'celebrate'); }
   const assister=playerById(match,match.assistCandidateId);
   if(assister&&assister.team===attempt.team&&assister.id!==scorer?.id)assister.assists++;
   match.assistCandidateId=null;
@@ -279,11 +279,11 @@ function advanceAnimations(match){
         action.released=true;action.attemptId=`dunk-${match.nextAttempt++}`;p.fga++;
         releaseOwner(match);Object.assign(match.ball,{mode:'dunk',attemptId:action.attemptId,lastTouch:p.id,value:2,x:hoop,y:50,z:3,vx:0,vy:0,vz:0,made:true,targetX:hoop,targetY:50,targetZ:2.3,scored:false,rim:false,backboard:false});
       }
-      if(a.tick===finish){delete a.action;commitScore(match,{id:action.attemptId,team:p.team,playerId:p.id,points:2});}
+      if(a.tick===finish){delete a.action;if(commitScore(match,{id:action.attemptId,team:p.team,playerId:p.id,points:2},{preserveAnimation:true}))a.celebrateAfterCompletion=true;}
     } else if(action&&a.tick===anchorTick(a.clip,'release')){
       delete a.action;if(action.kind==='shot')makeShot(match,p,action.charge);else passBall(match,p,action.turbo,action.alleyOop);
     }
-    if(sampleAnimation(a.clip,a.tick).done&&!p.animation.action){const clip=p.hasBall?'idle-ball':'idle';startAnimation(p,clip,'idle');}
+    if(sampleAnimation(a.clip,a.tick).done&&!p.animation.action){const clip=a.celebrateAfterCompletion?'celebrate':p.hasBall?'idle-ball':'idle';startAnimation(p,clip,'idle');}
   }
 }
 function syncLocomotion(match,inputs){

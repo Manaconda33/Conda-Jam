@@ -4,7 +4,7 @@
   "clip": "fall",
   "direction": "right",
   "attempt": 1,
-  "status": "raw generated; independent source review pending",
+  "status": "accepted and registered",
   "tool": "image_gen__imagegen",
   "toolArtifactId": "exec-1c23ddb7-b556-4864-9d0c-71b8cc466f15",
   "generationId": "exec-1c23ddb7-b556-4864-9d0c-71b8cc466f15",
@@ -44,9 +44,11 @@
     "evidence": "tools/generate-art/previews/krios-fall10-attempt01/INDEPENDENT_SOURCE_REVIEW.md"
   },
   "cleanup": {
-    "status": "pending",
-    "script": null,
-    "report": null
+    "status": "passed",
+    "script": "tools/generate-art/clean-krios-fall10-attempt01.py",
+    "report": "tools/generate-art/previews/krios-fall10-attempt01/cleanup-layout-report.json",
+    "cleanupReview": "tools/generate-art/previews/krios-fall10-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+    "candidateAtlasSha256": "571ce9902a6c6f069b062e575ddcca147a3aeb0b066c41b61b8a2e73ccbdbd11"
   },
   "ballTrack": {
     "status": "not-applicable-ball-free-fall",
@@ -54,7 +56,9 @@
     "review": null
   },
   "registeredRuntimeReview": {
-    "status": "pending",
-    "evidence": null
-  }
+    "status": "passed",
+    "evidence": "tools/generate-art/previews/krios-fall10-attempt01/live-knockdown-candidate/registered-runtime/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md",
+    "report": "tools/generate-art/previews/krios-fall10-attempt01/live-knockdown-candidate/registered-runtime/report.json"
+  },
+  "ballPolicy": "Fall art is ball-free. The live shove transition knocks an off-ball Krios down; production runtime confirms the ball remains dead and unowned. No ball track is active for this fall clip."
 }

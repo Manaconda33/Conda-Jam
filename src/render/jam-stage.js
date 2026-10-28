@@ -114,9 +114,9 @@ export function stageViewShearDirection(cameraX,attackDirection){
   return clamp((Number(cameraX)-100)/20,-1,1);
 }
 
-/** Downward camera pan keeps the full dunk apex clear of the scoreboard. */
+/** Downward camera pan keeps tall captain sprites below the scoreboard at dunk apex. */
 export function stageAttackPanY(jumpZ){
-  return 42*clamp((Number(jumpZ)||0)/5,0,1);
+  return 140*clamp((Number(jumpZ)||0)/5,0,1);
 }
 
 /** Nudge the airborne dunk presentation court-ward so only the hand reaches across the rim. */

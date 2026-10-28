@@ -1,0 +1,67 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "dunk-power",
+  "direction": "right",
+  "attempt": 1,
+  "status": "raw generated; independent source review pending",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-b4f2d93c-13cb-498b-b496-d84404acea8a",
+  "generationId": "exec-b4f2d93c-13cb-498b-b496-d84404acea8a",
+  "generatedAt": "2026-10-28T07:29:00Z",
+  "promptFile": "tools/generate-art/krios-dunk-power15-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "396b18c0740bb63b0762ff674137ad19c722a4d5bbc697fd38dc4ccbdedddda8",
+  "rawSourceImage": "tools/generate-art/sources/krios-dunk-power15-attempt01-generated-raw.png",
+  "rawSourceSha256": "8fce5864f9e45b4e0ec38daacb4667091cccd6a3750d88becca4d80378bd6e22",
+  "dimensions": [
+    1619,
+    971
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-block-right.webp",
+    "public/assets/animation/krios-steal-right.webp",
+    "public/assets/animation/krios-layup-right.webp"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "anchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "ballPolicy": "No basketball in athlete artwork; separate Krios-specific ball track must be calibrated and reviewed for takeoff, grab, peak, release, finish, and landing.",
+  "sourceReview": {
+    "status": "pending",
+    "evidence": "tools/generate-art/previews/krios-dunk-power15-attempt01/INDEPENDENT_SOURCE_REVIEW.md"
+  },
+  "cleanup": {
+    "status": "pending"
+  },
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null,
+    "review": null
+  },
+  "rejectedAttempts": []
+}

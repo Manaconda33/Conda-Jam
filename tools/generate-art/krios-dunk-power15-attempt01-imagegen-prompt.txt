@@ -1,0 +1,24 @@
+Create one flat sprite source sheet with EXACTLY FIFTEEN separate full-body drawings of the same athlete Krios, arranged as a 5-column by 3-row grid. Read left to right across row1, then row2, then row3. Keep every complete figure isolated within its own cell with clear empty gutters; no overlaps or cropped horn, hand, foot or shoe. Use uniform pure chroma green RGB(0,255,0) behind every pose, with no white grid/dividers, labels, gradients, floor, shadows, court, hoop, backboard, teammates, or decorations.
+
+ART STYLE: crisp 16-bit pixel art for a small retro arcade basketball game. Hard square pixel clusters, stepped clean outlines, deliberate limited palette, clustered highlights/shadows. No painterly rendering, smooth digital painting, airbrush, soft gradients, antialiasing, realistic 3D lighting or photographic texture. Keep one consistent pixel scale, outline weight, body size, lighting direction, proportions and feet baseline in all fifteen cells. Make each complete figure readable at 64×96 gameplay scale. Use three-quarter right-facing orientation throughout; do not turn or mirror the character between frames.
+
+Krios is the canonical Scoria Rams captain: a colossal but coherent adult male basketball player with vivid volcanic-red skin, huge curled black ram horns, thick charcoal beard, recognizable strong human face, massive muscular human anatomy, charcoal-black sleeveless jersey and shorts with ember-red piping and accents, dark shoes. Preserve the same face, horns, beard, build and uniform in every frame. Exactly two connected arms ending in hands and two connected legs ending in feet. Do not draw any basketball, ball circle, rim, hoop, prop, motion marks, impact marks or shadow. The separate gameplay ball is tracked by Krios's own data. Before the release pose, show empty hands shaped around an invisible ball; only pose10 releases; all later poses have empty hands.
+
+Draw these FIFTEEN DISTINCT power-dunk frames in exact order. Keep anatomy clear and pose silhouettes different. The imaginary rim is always to the character's right and remains off-canvas; never draw it.
+1. APPROACH: staggered feet, torso pitched forward, eyes toward an imagined rim to screen right. Both empty hands cradle low at abdomen, elbows tucked.
+2. LOAD: plant lead foot, sink hips, rear heel raised, chest loading for jump. Invisible-ball cradle draws beside ribs, both elbows bent.
+3. TAKEOFF: both feet visibly lifted after forceful leg extension; torso rising. Two hands lift together from sternum toward chin.
+4. ASCENT: lead knee lifts to waist, trailing leg folds backward; forearms parallel beside cheeks; hands stay around invisible ball.
+5. GATHER: knees draw beneath hips, chest rises, eyes track upward. Two hands carry the invisible ball above forehead, elbows just outside temples.
+6. GRAB ANCHOR: airborne and secure; both hands close around the invisible ball just above crown, elbows bent. Hands are connected naturally and remain empty in the artwork.
+7. LATE ASCENT: torso stretches upward, knees tucked, rise slowing; both elbows straighten and hands reach directly over head.
+8. PEAK: highest body point, feet tucked, torso held steady. Both arms fully vertical and parallel; wrists cocked around the invisible ball above head.
+9. DESCENT START: shoulders and chest begin traveling forward/right toward the unseen rim, legs trailing; straight arms begin moving forward.
+10. PRE-RELEASE: torso drives forward, knees extend behind, finishing arms move forward and down above forehead; hands still hold invisible ball.
+11. RELEASE: both arms drive straight down through the imaginary scoring plane, wrists snap and fingertips visibly open; this is the only frame where the invisible ball leaves Krios's hands. Do not draw the ball.
+12. FINISH: immediate follow-through after release, body trails the imagined rim to the right. Both arms extend forward and down as if completing the dunk; no ball in hands.
+13. DROP AWAY: hands separate from the unseen rim; torso returns upright. Both empty hands move outward together with elbows bent above shoulders.
+14. LANDING APPROACH: both legs unfold below; arms widen for balance. Forearms lower symmetrically beside chest, palms open.
+15. LAND: both feet meet ground, knees bend deeply, torso absorbs impact. Both arms swing down and outward beside bent knees.
+
+The fifteen images must read as a continuous explosive jump, high two-hand gather, powerful two-hand release, and controlled landing. Preserve identity and costume in every frame. Exactly fifteen complete Krios figures; no missing, repeated or extra pose. Keep the background flat green so the drawings can be cleaned and isolated.

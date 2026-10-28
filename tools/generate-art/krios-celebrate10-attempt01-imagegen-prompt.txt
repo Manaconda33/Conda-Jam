@@ -1,0 +1,19 @@
+Create one flat sprite source sheet with EXACTLY TEN separate full-body drawings of the same athlete Krios, arranged in two rows of five cells, read left to right across the top row, then left to right across the bottom row. Keep every complete figure inside its cell with generous clear gutters, never overlapping or cropped. Each cell uses a uniform pure chroma green background RGB(0,255,0). No grid, white dividers, text, labels, gradient, floor, shadow, court, hoop, ball, props, teammates, or decorations.
+
+ART STYLE: crisp 16-bit pixel art for a small retro arcade basketball game. Use hard-edged square pixel clusters, deliberate limited palette, stepped outlines and clustered highlights/shadows. No painterly rendering, smooth digital painting, airbrush, soft gradients, antialiasing, realistic 3D lighting or photographic texture. The sprite must stay clean at 64×96 game scale. Keep one pixel scale, outline weight, lighting direction, body proportions, size and shared feet baseline across all ten cells. Make each figure about 82 game pixels tall with clear head/horn and foot margins. Use front three-quarter right-facing views without changing the direction between frames.
+
+Krios is the canonical Scoria Rams captain: a colossal but coherent adult male basketball player with vivid volcanic-red skin, huge curled black ram horns, thick charcoal beard, strong recognizable human face, massive muscular human anatomy, charcoal-black sleeveless jersey and shorts with ember-red piping and accents, dark shoes. Preserve the same face, horns, beard, anatomy, silhouette and exact kit in all ten frames. Exactly two connected arms ending in hands and two connected legs ending in feet. No extra limbs or missing fingers. His hands are empty; no basketball, prop, trophy, sweat, impact marks, motion lines or drawn floor. Any game ball is separate from the athlete image.
+
+Draw these TEN DISTINCT celebration poses in exact order. Keep the action upbeat, natural and continuous; make each silhouette clearly different:
+1. RECOGNITION: feet planted, torso straightens, one fist starts lifting from hip, head turns proudly.
+2. BUILD EXCITEMENT: light knee bounce, fist rises to shoulder, other arm opens outward, chest lifts.
+3. RAISE CHEER: both elbows lift and closed fists reach beside head; shoulders broaden; expressive strong face.
+4. VICTORY PEAK: both arms fully reach overhead in a wide V, fists high, body extends tall.
+5. FLOURISH: near arm sweeps outward across chest while far hand stays raised; torso turns a quarter toward viewer.
+6. PERSONAL TRIUMPH: torso faces more front; one hand gestures proudly toward his chest and other fist stays by shoulder; knees bend in a small bounce.
+7. SECOND CHEER: both arms sweep upward again, elbows bent in a distinct asymmetric high pose; shoulders counter-rotate.
+8. RELEASE CHEER: one arm lowers out to the side while the other fist punches skyward; head lifts.
+9. SETTLE: both elbows drop toward ribs; feet readjust; chest lowers and expression relaxes.
+10. FINISH: relaxed proud ready stance; one fist rests near chest, other hand low; slight satisfied head tilt.
+
+Maintain full connected anatomy, character identity and charcoal/ember uniform throughout the whole sequence. No duplicate pose, no extra/missing figure, no ball or other objects. Exactly ten full-body Krios drawings in the specified two-by-five sheet.

@@ -1,8 +1,17 @@
-# QA — 2026-10-28 J.128 Krios rebound accepted; fall cleanup in progress
+# QA — 2026-10-28 08:06 UTC Krios power dunk accepted; windmill in trials
 
-- Rebound attempt03 was accepted after source, corrected cleanup, separate track, and independent normal-loader reviews. The 640×96 lossless WebP atlas has five distinct frames and is registered with accurate ImageGen lineage. The per-athlete track is H `[1.1,1.7,2.0,2.1,1.3]`, F `[4,3,1,0.5,1]`; capture set track06 verifies a real miss/rebound/catch, tick5 ownership, tick7 carry, both facings, 100%/120% zoom, and no browser errors or green spill.
-- Krios fall attempt01 source passed independent review. The first cleanup was rejected for green spill; corrected trial02 uses widened int16 comparisons and scans zero opaque pixels with the reviewer threshold. Independent cleanup review is pending. No fall atlas is registered.
-- Validation before the new fall cleanup: `npm test` 70/70 PASS; lint 21 JavaScript modules PASS. Krios rebound test passes (1/1). Strict report-only audit at 2026-10-28: 2,363 assignments, 536 unique atlases, 5,080 unique drawings, 740 missing captain assignments, zero target frame shortfalls, four inherited prompt findings. Final `npm test` 70/70 PASS; lint 21 JavaScript modules PASS; content validation 35 franchises / 105 athletes / 35 captains PASS; static build PASS.
+- Krios J.128 `dunk-power` attempt02: 15 unique original poses, 1920×96 PNG, separate Krios track; independent normal-loader visual/gameplay review passed 60 captures (15 frames × two facings × two zooms). Tick21 release contact is visible at the rim, tick23 score is correct, and the ball is absent during landing recovery.
+- Dunk completion retains the dunk animation after score commit, so finish/landing frames remain visible before celebration. Focused Krios/Piper simulation and Jam Stage projection tests passed at this checkpoint; full suite/build/content/lint validation is being run.
+- Krios `dunk-windmill` attempt01 source review passes for cleanup/trials, not registration; 15 poses are present and frames0–1/6–7 need target-size separation review. Ball track and normal-loader review are outstanding.
+- Strict report-only audit: 2,366 assignments, 539 unique source atlases, 5,115 unique drawings, 737 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings. Overall captain lane is incomplete.
+
+# Previous QA — 2026-10-28 Krios celebrate registered; dunk-power cleanup in progress
+
+- Krios rebound attempt03 is accepted and registered after source, corrected cleanup, separate track, and normal-loader review. Track H `[1.1,1.7,2.0,2.1,1.3]`, F `[4,3,1,0.5,1]` passed a live missed-shot/rebound/catch across both facings and zooms.
+- Krios fall attempt01 is accepted and registered. Forty normal-loader Jam Stage captures validate the live tick8 Leo shove, all ten fall frames, both facings and 100%/120% zoom. Ball remains dead/unowned; no browser errors, clipping, fallback, spill or occlusion.
+- Krios celebrate attempt01 is accepted and registered. Forty normal-loader Jam Stage captures validate the production `commitScore` transition, all ten canonical frames, both facings and 100%/120% zoom. The scoreboard and dead/unowned ball remain correct. The review covers score-to-celebrate, not pre-score shot-flight physics.
+- Krios dunk-power attempt01 raw source and exact prompt are preserved. Independent review passes for cleanup trials. The cleaned 15-pose candidate awaits separate cleanup review; no gameplay track or atlas is registered.
+- Validation on the earlier checkpoint: `npm test` 72/72 PASS; lint 21 JavaScript modules PASS; content validation 35 franchises / 105 athletes / 35 captains PASS; static build PASS. Focused rebound, fall and celebrate tests pass. Strict audit at that time: 2,365 assignments, 538 unique atlases, 5,100 unique drawings, 738 missing captain assignments, zero frame-target shortfalls, four inherited prompt findings. Superseded by the current QA section above.
 
 # Previous QA — 2026-10-27 J.136 Briar Foxglove rebound
 

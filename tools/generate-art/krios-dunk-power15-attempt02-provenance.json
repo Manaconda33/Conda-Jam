@@ -1,0 +1,106 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "dunk-power",
+  "direction": "right",
+  "attempt": 2,
+  "status": "accepted and registered",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-e8fdac96-3a90-4a0b-b5cd-17369c3244de",
+  "generationId": "exec-e8fdac96-3a90-4a0b-b5cd-17369c3244de",
+  "generatedAt": "2026-10-28T07:37:54Z",
+  "promptFile": "tools/generate-art/krios-dunk-power15-attempt02-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "6ae633075abf3a2a405ff9825c846c82818dd14000b51958917ad1d572765874",
+  "rawSourceImage": "tools/generate-art/sources/krios-dunk-power15-attempt02-generated-raw.png",
+  "rawSourceSha256": "02cf2217388ee25de37692fcbe6769f5a56fa213f538202660d8d24315534f02",
+  "dimensions": [
+    1619,
+    971
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-block-right.webp",
+    "public/assets/animation/krios-steal-right.webp",
+    "public/assets/animation/krios-layup-right.webp"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "anchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "ballPolicy": "No basketball in athlete artwork; separate Krios-specific ball track must be calibrated and reviewed for takeoff, grab, peak, release, finish, and landing.",
+  "sourceReview": {
+    "status": "pass for Jam Stage trials",
+    "evidence": "tools/generate-art/previews/krios-dunk-power15-attempt02/INDEPENDENT_SOURCE_REVIEW.md"
+  },
+  "cleanup": {
+    "status": "accepted for trials; 15 unique normalized 128x96 frames, baseline y94, transparent background",
+    "candidate": "tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+    "layout": "tools/generate-art/krios-dunk-power15-attempt02-layout.json",
+    "cleanupReport": "tools/generate-art/previews/krios-dunk-power15-attempt02/cleanup-layout-report.json"
+  },
+  "ballTrack": {
+    "status": "accepted for registered-runtime verification",
+    "track": {
+      "height": [
+        1.0,
+        1.0,
+        1.15,
+        1.45,
+        1.75,
+        1.7,
+        1.6,
+        1.65,
+        1.7,
+        1.8,
+        1.95,
+        0.85,
+        0.95,
+        0.8,
+        0.62
+      ],
+      "forward": [
+        5.5,
+        5.0,
+        7.5,
+        0,
+        3,
+        2,
+        1,
+        1,
+        8,
+        12,
+        12,
+        3,
+        8,
+        8,
+        -1
+      ]
+    },
+    "review": "tools/generate-art/previews/krios-dunk-power15-attempt02/live-gameplay-candidate/track-attempt04/INDEPENDENT_LIVE_GAMEPLAY_REVIEW_2026-10-28.md"
+  },
+  "rejectedAttempts": [],
+  "registeredAtlas": "public/assets/animation/krios-dunk-power-right.png"
+}

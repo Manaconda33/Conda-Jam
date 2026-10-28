@@ -103,8 +103,8 @@ test('court perspective changes continuously as the attack camera crosses midcou
   assert.ok(Math.abs(stageViewShearDirection(101)-stageViewShearDirection(99))<.11,'camera crossing the midpoint cannot flip court geometry in one frame');
   assert.equal(stageViewShearDirection(101,1),stageViewShearDirection(173,1),'attack camera translation keeps one stable viewing azimuth');
   assert.equal(stageAttackPanY(0),0);
-  assert.equal(stageAttackPanY(2.5),21);
-  assert.equal(stageAttackPanY(5),42,'apex pan keeps the higher jump clear of the HUD');
+  assert.equal(stageAttackPanY(2.5),70);
+  assert.equal(stageAttackPanY(5),140,'apex pan keeps tall captain sprites clear of the HUD');
 });
 
 test('depth scale matches Issue 4 near/far ratio and height responds to zoom',()=>{

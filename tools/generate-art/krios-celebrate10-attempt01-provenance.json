@@ -1,0 +1,65 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "celebrate",
+  "direction": "right",
+  "attempt": 1,
+  "status": "accepted and registered",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-52472244-7807-40f5-9537-97daaeb0ed39",
+  "generationId": "exec-52472244-7807-40f5-9537-97daaeb0ed39",
+  "generatedAt": "2026-10-28T07:17:00Z",
+  "promptFile": "tools/generate-art/krios-celebrate10-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "332c475bde7d67951dd3993b97d2cce871603aad6aedff2bfeaa4502be4f9dbe",
+  "rawSourceImage": "tools/generate-art/sources/krios-celebrate10-attempt01-generated-raw.png",
+  "rawSourceSha256": "ffec5e564f7fee052716271c2ac8337e2256b19571a2334c46b0d7698194ec11",
+  "dimensions": [
+    1402,
+    1122
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-block-right.webp",
+    "public/assets/animation/krios-steal-right.webp"
+  ],
+  "requiredFrameDurations": [
+    5,
+    5,
+    6,
+    8,
+    10,
+    10,
+    8,
+    7,
+    6,
+    5
+  ],
+  "finishAnchorFrame": 9,
+  "finishAnchorTick": 65,
+  "sourceReview": {
+    "status": "pending",
+    "evidence": "tools/generate-art/previews/krios-celebrate10-attempt01/INDEPENDENT_SOURCE_REVIEW.md"
+  },
+  "cleanup": {
+    "status": "passed",
+    "script": "tools/generate-art/clean-krios-celebrate10-attempt01.py",
+    "report": "tools/generate-art/previews/krios-celebrate10-attempt01/cleanup-layout-report.json",
+    "cleanupReview": "tools/generate-art/previews/krios-celebrate10-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+    "candidateAtlasSha256": "1cdbab11122f52b3074d652b3c6366552f9c80d09d988b8d00aae3b85c30e5f2"
+  },
+  "ballPolicy": "Celebration is ball-free art. Validate the real post-score state and separate dead/unowned game ball before registration.",
+  "rejectedAttempts": [],
+  "jamStageCandidateReview": {
+    "status": "passed for gameplay trials",
+    "evidence": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/INDEPENDENT_JAM_STAGE_CANDIDATE_REVIEW.md",
+    "report": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/report.json"
+  },
+  "registeredRuntimeReview": {
+    "status": "passed",
+    "evidence": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md",
+    "report": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/report.json",
+    "scopeNote": "Validates production scoring transition into celebrate, not shot-flight physics before commitScore."
+  }
+}

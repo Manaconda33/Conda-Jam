@@ -1,18 +1,30 @@
-## Current asset lanes — 2026-10-28 07:15 UTC
+## Resume point — 2026-10-28 08:06 UTC
 
-Leo remains complete at 29/29 registered clips. Captain production remains bespoke. J.128 Krios is **17/29**, with 12 clips missing.
+Continue J.128 Krios in roster order. Power dunk attempt02 is accepted at `public/assets/animation/krios-dunk-power-right.png`; its source/track and normal-loader reviews are under `tools/generate-art/previews/krios-dunk-power15-attempt02/`. It has 15 unique frames and a separately reviewed Krios-specific track. At release tick21, the normal loader displays the ball centered at the hoop in both facings/zooms; tick23 scores2; landing poses remain active until celebration. The release uses current Jam Stage rim geometry. Follow the registered normal-loader report and independent review, not earlier failed center-court captures.
+
+Next: `dunk-windmill`. Attempt01 raw ID `exec-e362d332-cdaf-4e6d-96a9-fb153343d137` and exact prompt are preserved. Independent raw-source review permits cleanup/trials only, citing similar frames0–1 and6–7. Finish cleanup/target-size review, calibrate a separate ball track, and review a real current-court dunk in the normal loader before registration. Preserve all failed trials.
+
+Audit now reads 2,366 assignments / 539 source atlases / 5,115 drawings, with 737 captain gaps, no frame shortfalls, and four inherited prompt findings. Do not claim the captain lane is complete. Preserve the user-owned J.106 helper.
+
+## Previous asset lane snapshot — 2026-10-28 07:35 UTC
+
+Leo remains complete at 29/29 registered clips. Captain production remains bespoke. J.128 Krios is **19/29**, with 10 clips missing.
 
 Krios `rebound` attempt03 is accepted and registered at `public/assets/animation/krios-rebound-right.webp` (five unique 128×96 frames). Its separate Krios track is height `[1.1,1.7,2.0,2.1,1.3]`, forward `[4,3,1,0.5,1]`. Independent review passed 20 normal-loader Jam Stage captures across all five frame starts, both facings and 100%/120% zoom, including a live missed shot, tick5 overhead catch and tick7 chest carry. Corrected int16 green despill preserves the tested skin pixel and produced no visible green-dominant opaque pixels. Raw attempts01–02 and cleanup trials01–02 remain preserved with rejection reasons.
 
-Krios `fall` attempt01 (`exec-1c23ddb7-b556-4864-9d0c-71b8cc466f15`) passes raw source review for cleanup: ten distinct ordered poses, consistent Krios identity/anatomy/kit, no ball, no cropped limbs. Cleanup trial01 is rejected for residual green spill; the corrected int16 despill trial is pending independent cleanup review. The fall clip is not registered.
+Krios `fall` attempt01 (`exec-1c23ddb7-b556-4864-9d0c-71b8cc466f15`) is accepted and registered at `public/assets/animation/krios-fall-right.webp` (ten distinct 128×96 poses). The corrected int16 cleanup passes transparency/spill review; cleanup01 remains preserved/rejected. Independent normal-loader Jam Stage review passed 40 captures with a real Leo shove at tick8, Krios fall start next tick, all ten frames, both facings and 100%/120% zoom. The ball remained dead/unowned; no clipping, fallback, occlusion or browser errors. Exact prompts, raw source, rejected cleanup, captures and review are preserved.
+
+Krios `celebrate` attempt01 (`exec-52472244-7807-40f5-9537-97daaeb0ed39`) is accepted and registered at `public/assets/animation/krios-celebrate-right.webp` (ten distinct 128×96 poses). Independent source, cleanup and normal-loader reviews passed. Forty Jam Stage captures cover the production `commitScore` transition, all canonical frame starts, both facings and 100%/120% zoom; scoreboard, dead/unowned ball, identity, pose readability and mirroring pass with no spill/fallback/crop/HUD issue/browser error. The review validates score-to-celebrate transition, not pre-score shot-flight physics.
 
 Krios `push` attempt01 remains preserved and rejected because its contact frame had only one readable extended hand. Attempt02 is accepted and registered at `public/assets/animation/krios-push-right.webp` (1408×96, 11 frames, SHA-256 `96372899ca45376b780a8884ca30f83d91cdb93df720505682738fabe59e4628`). Independent review passed 48 normal-loader captures across all frame starts, both facings and 100%/120% zoom, including real tick8/frame5 contact and Leo knockdown. The dead ball remained unowned. The earlier false registered-capture set is retained with its rejection note.
+
+Krios `dunk-power` attempt01 (`exec-b4f2d93c-13cb-498b-b496-d84404acea8a`) is preserved as a rejected/superseded trial; attempt02 is the registered accepted source documented in the current checkpoint above.
 
 Krios `steal` is accepted and registered as eight ball-free poses in `public/assets/animation/krios-steal-right.webp`; its separate Krios track contacts the reaching hand at frame3/tick5 and keeps the ball loose/unowned. Independent review passed 36 normal-loader captures at both facings and zooms.
 
 Kraken J.07 `shoot` has independently reviewed source and cleanup accepted for gameplay trials; its athlete-specific ball track and current-court runtime review remain pending.
 
-The refreshed strict report-only audit decodes **2,363 assignments**, **536 unique source atlases**, and **5,080 unique source drawings**. It reports **740 missing captain assignments**, zero frame-count shortfalls, and four inherited prompt findings. Preserve the user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` unchanged.
+The refreshed strict report-only audit decodes **2,365 assignments**, **538 unique source atlases**, and **5,100 unique source drawings**. It reports **738 missing captain assignments**, zero frame-count shortfalls, and four inherited prompt findings. Preserve the user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` unchanged.
 
 ## Previous production checkpoint — 2026-10-27
 
