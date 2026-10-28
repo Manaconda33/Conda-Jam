@@ -38,8 +38,20 @@ for index, figure in enumerate(figures):
     x0, y0, x1, y1 = figure['sourceRect']
     owned = labels[y0:y1, x0:x1] == figure['label']
     rgba = np.zeros((y1 - y0, x1 - x0, 4), dtype=np.uint8)
-    rgba[owned, :3] = pixels[y0:y1, x0:x1][owned]
+    local = pixels[y0:y1, x0:x1]
+    rgba[owned, :3] = local[owned]
     rgba[owned, 3] = 255
+    # The source contains a small number of chroma-contaminated edge pixels
+    # that fall below the green background threshold. Reduce only green-dominant
+    # foreground pixels; Krios's red skin/kit and charcoal outlines are unaffected.
+    wide = local.astype(np.int16)
+    spill = owned & (wide[:, :, 1] > wide[:, :, 0] + 12) & (wide[:, :, 1] > wide[:, :, 2] + 12) & (wide[:, :, 1] > 80)
+    corrections = []
+    for sy, sx in zip(*np.where(spill)):
+        before = local[sy, sx].tolist()
+        rgba[sy, sx, 1] = (int(local[sy, sx, 0]) + int(local[sy, sx, 2])) // 2
+        corrections.append({'sourcePixel': [int(x0 + sx), int(y0 + sy)], 'before': before, 'after': rgba[sy, sx, :3].tolist()})
+    figure['despillCorrections'] = corrections
     frame = Image.fromarray(rgba, 'RGBA')
     path = OUT / f'pose-{index:02d}-isolated.png'
     frame.save(path)
@@ -95,7 +107,7 @@ report = {
     'source': RAW.relative_to(ROOT).as_posix(),
     'sourceSha256': hashlib.sha256(RAW.read_bytes()).hexdigest(),
     'sourceDimensions': list(raw.size),
-    'algorithm': 'green dominance mask g>r+70 and g>b+70 and g>100; 8-connected components; five largest full-figure components; row-major order; no redraw or despill edits; uniform nearest-neighbour scaling',
+    'algorithm': 'green dominance mask g>r+70 and g>b+70 and g>100; 8-connected components; five largest full-figure components; row-major order; green-dominant opaque edge pixels corrected by setting G=(R+B)//2 when G>R+12 and G>B+12 and G>80; no redraw; uniform nearest-neighbour scaling',
     'backgroundPixelShare': float(background.mean()),
     'foregroundConnectedComponentCount': int(count),
     'poseCount': len(frames),
@@ -104,7 +116,8 @@ report = {
     'sourceFloorY': source_floor,
     'nativeCell': [cell_w, cell_h],
     'baseline': baseline,
-    'despilledNativePixels': 0,
+    'despilledNativePixels': sum(len(figure.get('despillCorrections', [])) for figure in figures),
+    'despillCorrections': [correction for figure in figures for correction in figure.get('despillCorrections', [])],
     'frames': figures,
     'packedFrames': packed,
     'rejectedComponents': [int(label) for label in range(1, count + 1) if label not in largest and sizes[label] > 0],

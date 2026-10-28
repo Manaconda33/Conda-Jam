@@ -1,0 +1,60 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "fall",
+  "direction": "right",
+  "attempt": 1,
+  "status": "raw generated; independent source review pending",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-1c23ddb7-b556-4864-9d0c-71b8cc466f15",
+  "generationId": "exec-1c23ddb7-b556-4864-9d0c-71b8cc466f15",
+  "generatedAt": "2026-10-28T07:05:00Z",
+  "promptFile": "tools/generate-art/krios-fall10-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "c9d0e149bf31cf4816d550ea4f3721a40eeed057b9537519a976db140be99da2",
+  "rawSourceImage": "tools/generate-art/sources/krios-fall10-attempt01-generated-raw.png",
+  "rawSourceSha256": "1b37dd30afeb77f179cb3bcf9b379083807a28d868f3f3cbba91f781a21a698e",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-block-right.webp",
+    "public/assets/animation/krios-steal-right.webp"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7
+  ],
+  "finishAnchorFrame": 9,
+  "finishAnchorTick": 40,
+  "rejectedAttempts": [],
+  "sourceReview": {
+    "status": "pending",
+    "evidence": "tools/generate-art/previews/krios-fall10-attempt01/INDEPENDENT_SOURCE_REVIEW.md"
+  },
+  "cleanup": {
+    "status": "pending",
+    "script": null,
+    "report": null
+  },
+  "ballTrack": {
+    "status": "not-applicable-ball-free-fall",
+    "track": null,
+    "review": null
+  },
+  "registeredRuntimeReview": {
+    "status": "pending",
+    "evidence": null
+  }
+}

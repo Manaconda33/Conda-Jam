@@ -4,7 +4,7 @@
   "clip": "rebound",
   "direction": "right",
   "attempt": 3,
-  "status": "raw generated; independent source review pending",
+  "status": "accepted and registered",
   "tool": "image_gen__imagegen",
   "toolArtifactId": "exec-b9bfc37a-1291-4296-9736-c07149576cd9",
   "generationId": "exec-b9bfc37a-1291-4296-9736-c07149576cd9",
@@ -47,12 +47,12 @@
   "cleanupScript": "tools/generate-art/clean-krios-rebound-attempt03.py",
   "cleanupReport": "tools/generate-art/previews/krios-rebound-attempt03/cleanup-layout-report.json",
   "cleanupReview": {
-    "status": "accepted-for-gameplay-trials",
-    "evidence": "tools/generate-art/previews/krios-rebound-attempt03/INDEPENDENT_CLEANUP_REVIEW.md",
-    "notes": "Five unique ordered poses, alpha transparency, 128\u00d796 margins, consistent Krios identity/kit, no redraw/despill, and a clear empty hand gap. The two jump poses sit approximately 5\u20138px above the y94 floor; gameplay track and both-facing validation remain required."
+    "status": "passed",
+    "evidence": "tools/generate-art/previews/krios-rebound-attempt03/CLEANUP_CORRECTION_REVIEW.md",
+    "notes": "Corrected int16 spill threshold preserves raw skin pixel (214,222); 1,776 edge corrections, five unique frames, alpha/margins reviewed."
   },
   "candidateAtlas": "tools/generate-art/previews/krios-rebound-attempt03/krios-rebound-attempt03-runtime-candidate.png",
-  "candidateAtlasSha256": "ec9a2c9bd99a6227d189d2c7a7e82643ede7aa1422f2838ff31c2a496c9b5074",
+  "candidateAtlasSha256": "85250ba5f2fff647f9ec599b7547daa305ee6c866182f960f8ac82160cba08b9",
   "runtimeLayout": "tools/generate-art/previews/krios-rebound-attempt03/cleanup-layout-report.json",
   "rejectedAttempts": [
     {
@@ -67,13 +67,28 @@
     }
   ],
   "ballTrack": {
-    "status": "not-calibrated",
-    "track": null,
-    "review": null
+    "status": "accepted",
+    "track": {
+      "height": [
+        1.1,
+        1.7,
+        2.0,
+        2.1,
+        1.3
+      ],
+      "forward": [
+        4,
+        3,
+        1,
+        0.5,
+        1
+      ]
+    },
+    "review": "tools/generate-art/previews/j128-krios-rebound-candidate/attempt-03/track-06/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md"
   },
   "registeredRuntimeReview": {
-    "status": "pending",
-    "evidence": null,
-    "report": null
+    "status": "passed",
+    "evidence": "tools/generate-art/previews/j128-krios-rebound-candidate/attempt-03/track-06/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md",
+    "report": "tools/generate-art/previews/j128-krios-rebound-candidate/attempt-03/track-06/registered-runtime/report.json"
   }
 }

@@ -1,0 +1,19 @@
+Create one flat sprite source sheet with EXACTLY TEN separate full-body drawings of the same athlete Krios, arranged in two rows of five cells. Read rows left to right, top row first, then bottom row left to right. Each drawing must be isolated in its own cell with clear empty gutters, no overlap, no cropped horn, hand, foot or shoe. Keep the cell backgrounds uniform pure chroma green RGB (0,255,0): no checkerboard, gradient, floor, shadow, labels, or extra marks. The full figure must fit within each cell.
+
+ART STYLE IS CRITICAL: a small retro arcade basketball game sprite sheet, rendered as crisp 16-bit pixel art with hard-edged square pixel clusters, limited deliberate palette, stepped outlines, clustered highlights and shadows. No painterly rendering, smooth digital painting, airbrush, soft gradients, antialiasing, realistic 3D lighting, or photographic texture. Make each pose clean and readable when reduced to a 64-by-96-pixel game sprite. Keep one consistent pixel scale, outline weight, body size, lighting direction and shared feet baseline across all ten cells. Do not shift the artwork vertically inside cells to imply falling; the game controls vertical movement.
+
+Krios is the canonical Scoria Rams captain: a colossal but coherent adult male basketball player with vivid volcanic-red skin, huge black curled ram horns, thick charcoal beard, strong recognizable human face, massive muscular human anatomy, and Scoria uniform: charcoal-black jersey and shorts with ember-red piping and accents, dark shoes. Preserve the same identity, face, horns, build and uniform in all ten poses. Exactly two connected arms ending in hands, two connected legs ending in feet. His hands are empty. Do not draw a basketball, ball-shaped marker, hoop, other player, court, floor, shadow, impact marks, speed lines, or props. A separate Krios-specific track controls any ball.
+
+Draw these TEN DISTINCT continuous fall and recovery frames in this exact order, with clear silhouette changes and natural anatomy:
+1. HIT REACTION: shoulders jerk back, elbows flare, one heel slips forward and knees loosen; upright but startled.
+2. STAGGER: torso tilts farther backward, one arm flings outward while the other crosses the chest; weight visibly off balance.
+3. FALL: hips drop behind feet, knees lift, arms reach backward to brace, head tucks; unmistakably descending.
+4. IMPACT: hip and near forearm contact the ground plane implied only by body pose; torso diagonal, legs extend forward at different angles. Keep the cell background empty with no drawn floor or shadow.
+5. SPRAWL: body reclines nearly flat, one knee bent and the other extended, hands open beside torso.
+6. ROLL RECOVERY: torso rolls onto near side, knees draw toward chest, supporting elbow under shoulder.
+7. BRACE: one palm plants beneath shoulder, opposite elbow lifts chest, one knee folds underneath hips.
+8. KNEEL: torso rises above one planted knee, other foot flat ahead, one hand pushes off.
+9. STAND UP: front leg extends, rear knee lifts, hands reach forward for balance, back remains hunched.
+10. FINISH: regain upright athletic stance with knees soft, one hand briefly near ribs, head steadies; clearly recovered and ready for play.
+
+The overall sequence must read as one continuous hit, fall, impact, and controlled recovery. Keep full anatomy visible in every cell, including the low poses, and preserve Krios's identity and exact charcoal/ember kit. No duplicate poses, no missing frame, no extra figure, no writing or decoration. Exactly ten figures in a two-by-five grid.

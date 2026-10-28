@@ -1,15 +1,8 @@
-# QA — 2026-10-28 Krios push accepted; rebound source trials advanced
+# QA — 2026-10-28 J.128 Krios rebound accepted; fall cleanup in progress
 
-- Krios J.128 `push` attempt02 is accepted in the manifest and public atlas. Independent normal-loader Jam Stage review passed 48 captures across 11 frame starts, both facings, and 100%/120% zoom. Four successful-contact captures confirm tick8/frame5 two-hand contact, Leo knockdown, no fallback/clipping, and the ball remains dead/unowned. Runtime test `tests/krios-push-animation.test.js` passes.
-- Krios `rebound` attempts01–02 are preserved with independent rejection reasons. Attempt03 raw and cleanup candidates pass independent source/layout review for gameplay trials only: five unique transparent 128×96 frames, Krios identity/kit retained, empty hands, clear grab gap, shared y94 floor with the jump poses visibly raised. The separate track and gameplay validation are pending; this clip is not registered.
-- `npm test`: 69/69 PASS; lint: 21 JavaScript modules PASS; content validation: 35 franchises / 105 athletes / 35 captains PASS; standalone static build PASS. Refreshed strict report-only audit: 2,362 assignments, 535 unique atlases, 5,075 unique drawings, 741 missing captain assignments, zero frame-target shortfalls, and four inherited prompt findings. Overall audit remains incomplete by design.
-
-# QA — 2026-10-27 J.137 Briar Foxglove celebrate registered locally
-
-- Attempt02 passed source, packed-size and native reviews after transparent alpha cleanup. Ten original pose drawings use a400×192 5×2 atlas with80×96 cells, shared baseline y=94 and full alpha-zero background. Attempt01 was superseded and retained; exact prompts, generation IDs, raw images/hashes, cleanup and light/dark previews are documented.
-- Jam Stage production captures use courtY75 at both facings and100%/120%. Frames0–9 select at ticks0,5,10,16,24,34,44,52,59,65, with finish anchor frame9/tick65. Briar has no ball; every capture shows dead/unowned state.
-- `npm test`:57/57 PASS; lint19 modules PASS; content validation35 franchises/105 athletes PASS; standalone build PASS. Strict report-only audit `2026-10-27T02:42:23.462Z`:105 athletes,832 clips,7,527 drawings,2,271 missing clips, one target shortfall and four inherited prompt findings.
-- J.136 commit `d534dfdf` is pushed to `main`; Pages run #178 (`40439102077`) succeeded. J.137 is pushed at `6d7e89eb`; Pages run #179 (`40440135956`) is in progress for that exact commit.
+- Rebound attempt03 was accepted after source, corrected cleanup, separate track, and independent normal-loader reviews. The 640×96 lossless WebP atlas has five distinct frames and is registered with accurate ImageGen lineage. The per-athlete track is H `[1.1,1.7,2.0,2.1,1.3]`, F `[4,3,1,0.5,1]`; capture set track06 verifies a real miss/rebound/catch, tick5 ownership, tick7 carry, both facings, 100%/120% zoom, and no browser errors or green spill.
+- Krios fall attempt01 source passed independent review. The first cleanup was rejected for green spill; corrected trial02 uses widened int16 comparisons and scans zero opaque pixels with the reviewer threshold. Independent cleanup review is pending. No fall atlas is registered.
+- Validation before the new fall cleanup: `npm test` 70/70 PASS; lint 21 JavaScript modules PASS. Krios rebound test passes (1/1). Strict report-only audit at 2026-10-28: 2,363 assignments, 536 unique atlases, 5,080 unique drawings, 740 missing captain assignments, zero target frame shortfalls, four inherited prompt findings. Final `npm test` 70/70 PASS; lint 21 JavaScript modules PASS; content validation 35 franchises / 105 athletes / 35 captains PASS; static build PASS.
 
 # Previous QA — 2026-10-27 J.136 Briar Foxglove rebound
 
