@@ -1,0 +1,38 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "push",
+  "attempt": 1,
+  "status": "source + cleanup pass for track trials only; packing/runtime blocked pending track review",
+  "prompt": "tools/generate-art/kraken-push11-attempt01-imagegen-prompt.txt",
+  "generationId": "exec-8bb9013e-461a-499f-aa39-967313e411f8",
+  "generatedAt": "2026-10-28T12:37:00Z",
+  "source": "tools/generate-art/sources/kraken-push11-attempt01-generated-raw.png",
+  "sha256": "147946fe138edef070d0c5b56a54adcd93ab8c7eb8719589691ee0d7cc159bfc",
+  "canonicalFrames": 11,
+  "durations": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3
+  ],
+  "anchors": {
+    "contact": 5
+  },
+  "notes": "The ball remains separate from athlete artwork and requires a calibrated Kraken-specific track. No registration without source, cleanup, timing, hand/arm anatomy and gameplay review.",
+  "sourceReview": {
+    "verdict": "PASS for cleanup trials only",
+    "report": "tools/generate-art/previews/kraken-push11-attempt01/INDEPENDENT_SOURCE_REVIEW.md"
+  },
+  "cleanupReview": {
+    "verdict": "PASS for athlete-specific ball-track trials only",
+    "report": "tools/generate-art/previews/kraken-push11-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+    "notes": "11 unique frames at 80x96; red/green fringe absent in light/dark views; margins L/R/B 4/4/2; painterly shading and low clearance block packing."
+  }
+}
