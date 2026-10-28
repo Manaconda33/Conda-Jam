@@ -1,5 +1,7 @@
 # Kraken J.07 `pass` attempt01 source review — 2026-10-28
 
+> **Superseded, invalid provenance:** This note names generation `exec-ebc33ece-dc6d-48a4-a5b8-074f4719a81c` and raw SHA `c520b18386f096116312f7052be977abc8fc12665222c6839b40f9d814c48e9c`, which do not match attempt01's authoritative provenance (`exec-fab9a322-b6aa-47cc-8092-07f52cc5a91f`, SHA `12ac9be2ea709c4edcb456c5955b354b377633979dd2e72fcc69c12000311316`). Preserve this mismatched review artifact for audit history; use `INDEPENDENT_RAW_SOURCE_REVIEW.md` and `INDEPENDENT_CLEANUP_REVIEW_2026-10-28.md` as the matching reviews for attempt01.
+
 **Verdict: REJECT for cleanup and separate ball-track trials.** Preserve the raw generation and prompt; do not normalize or register this sheet.
 
 ## Source identity and integrity

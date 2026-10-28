@@ -124,6 +124,12 @@ export function stageAttackPanY(jumpZ){
   return 140*clamp((Number(jumpZ)||0)/5,0,1);
 }
 
+/** Down-pan the active shot scene as zoom rises to keep the fixed rim below the HUD. */
+export function stageShotPanY(zoom){
+  const value=Number.isFinite(Number(zoom))?Number(zoom):100;
+  return .8*clamp(value-100,0,20);
+}
+
 /** Nudge the airborne dunk presentation court-ward so only the hand reaches across the rim. */
 export function stageDunkContactOffsetPixels(jumpZ,facing){
   return -Math.sign(Number(facing)||1)*JAM_STAGE.dunkCourtwardOffsetPixels*clamp((Number(jumpZ)||0)/5,0,1);

@@ -1,10 +1,14 @@
-## Current captain gap checkpoint — 2026-10-28 14:23 UTC
+## Current captain gap checkpoint — 2026-10-28 18:50 UTC
 
-Leo and Krios are complete at 29/29 bespoke clips. Kraken J.07 / J.129 has 7/29 registered clips; captain production remains original and individual. Strict audit: 2,375 inspected assignments, 548 source atlases, 5,250 unique drawings, 728 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings.
+Krios is complete at 29/29 bespoke clips. Kraken J.07 / J.129 has 9/29 registered clips; captain production remains original and individual. Strict report-only audit: 2,377 inspected assignments, 550 source atlases, 5,270 unique drawings, 726 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings.
 
-The latest Jamverse branch build embeds all current registered animation art: 105 athletes, 882 athlete/clip assignments, 882 atlas references and 8,041 frame rectangles. No missing/extra atlas files were found. This local preview excludes unregistered candidates and is not a Pages deployment. See `docs/animation-production/previews/CURRENT_PREVIEW_REVIEW.md`.
+The rebuilt branch preview contains 105 athletes, 884 registered assignments, 884 atlas paths, and 8,061 frame rectangles. Every atlas source is embedded byte-for-byte, with no missing sources or hash mismatches. This is a local preview, not a Pages deployment. See `docs/animation-production/previews/CURRENT_PREVIEW_REVIEW.md`.
 
-Kraken J.07 is still 7/29. `shoot` attempt21, `pass` attempt07, `pass-overhead` attempt02, `pass-behind`, `receive`, `pickup`, `layup`, `layup-reverse`, `rebound`, and `push` remain unregistered at the candidate states in [ASSET_STATUS.md](ASSET_STATUS.md). New independent results:
+Kraken's `shoot` is now registered at `public/assets/animation/kraken-shoot-right.webp`. Ten bespoke poses and the separate ball track pass the current-court live game at both facings and 100%/120% zoom. Attempt35's direction-relative +10 focus offset resolves the rim crop; all four runs score three points for Kraken's team, all 72 screenshot hashes match, and the independent gameplay review passes. Evidence: `tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt35/offset-+10.0/`. Next roster-order gap is Kraken `pass`; other Kraken gaps remain listed in [ASSET_STATUS.md](ASSET_STATUS.md).
+
+## Earlier captain gap checkpoint — 2026-10-28 14:23 UTC
+
+Leo and Krios are complete at 29/29 bespoke clips. Kraken J.07 / J.129 had 7/29 registered clips at that historical checkpoint; captain production remains original and individual. Strict audit at that time: 2,375 inspected assignments, 548 source atlases, 5,250 unique drawings, 728 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings.
 
 - `rebound` attempt03 source and cleanup pass for Kraken-specific track trials only. Candidate track attempt01 passes 20 forced-possession Jam Stage views; live missed-shot/catch evidence is still unresolved.
 - `layup-reverse` attempt03 source and cleanup pass for track trials. Track attempt03 passes forced-carry contact/mirror review. Attempt08's reported edge cropping came from a capture harness that froze `requestAnimationFrame`, leaving Jam Stage camera tracking stale; this invalidates that framing result. A corrected camera-aware capture harness for attempt09 is underway; keep the source/track unregistered until those live captures pass.

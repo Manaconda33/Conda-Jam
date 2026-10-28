@@ -1,58 +1,17 @@
 {
-  "athlete": "kraken",
-  "canonicalSection": "J.07",
+  "athlete": "J.07 Kraken",
   "clip": "pass",
-  "direction": "right",
   "attempt": 1,
-  "status": "rejected at source review; not accepted for cleanup or ball-track trials",
-  "tool": "image_gen__imagegen",
-  "toolArtifactId": "exec-ebc33ece-dc6d-48a4-a5b8-074f4719a81c",
-  "generationId": "exec-ebc33ece-dc6d-48a4-a5b8-074f4719a81c",
-  "generatedAt": "2026-10-28T10:09:36Z",
-  "promptFile": "tools/generate-art/kraken-pass6-attempt01-imagegen-prompt.txt",
-  "promptVerbatim": true,
-  "promptSha256": "4387a762cb82db247fca00f463b44429bc563f5f554421d5db2362f899e9a650",
-  "designBrief": "tools/generate-art/kraken-pass6-attempt01-design-brief.txt",
-  "rawSourceImage": "tools/generate-art/sources/kraken-pass6-attempt01-generated-raw.png",
-  "rawSourceSha256": "c520b18386f096116312f7052be977abc8fc12665222c6839b40f9d814c48e9c",
-  "dimensions": [
-    1402,
-    1122
-  ],
-  "format": "PNG RGBA",
-  "identityReferences": [
-    "public/assets/animation/kraken-idle-right.webp",
-    "tools/generate-art/kraken-locomotion-layouts.json"
-  ],
-  "requiredFrameDurations": [
-    2,
-    2,
-    1,
-    1,
-    2,
-    3
-  ],
-  "anchors": {
-    "release": 3
-  },
-  "ballPolicy": "No basketball in athlete artwork; calibrate an independent Kraken-specific track after source and cleanup review.",
-  "sourceReview": {
-    "status": "reject for cleanup and separate ball-track trials",
-    "evidence": "tools/generate-art/previews/kraken-pass6-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
-    "reason": "Frame2 is already an arms-extended open-palmed pass rather than the requested pre-release chest gather, one tick before the canonical frame3/tick5 release anchor. This creates an early-release/held-ball contact risk that cleanup cannot repair without inventing a pose."
-  },
-  "cleanup": {
-    "status": "pending",
-    "evidence": null
-  },
-  "ballTrack": {
-    "status": "not-calibrated",
-    "track": null
-  },
-  "rejectedAttempts": [
-    {
-      "attempt": "01",
-      "reason": "Frame2 lacks the required chest gather and reads too close to release before the canonical tick5 anchor. Rejected before cleanup/track trials; preserve raw source and exact prompt."
-    }
-  ]
+  "generationId": "exec-fab9a322-b6aa-47cc-8092-07f52cc5a91f",
+  "generatedAt": "2026-10-28",
+  "sourceImage": "tools/generate-art/sources/kraken-pass6-attempt01-generated-raw.png",
+  "prompt": "tools/generate-art/kraken-pass6-attempt01-imagegen-prompt.txt",
+  "sourceSha256": "12ac9be2ea709c4edcb456c5955b354b377633979dd2e72fcc69c12000311316",
+  "imageSize": [1402, 1122],
+  "sourceMode": "RGBA",
+  "referenceImage": "public/assets/animation/kraken-idle-right.webp",
+  "status": "cleanup01 rejected for gameplay trials and runtime registration",
+  "reason": "Raw-source review passed for cleanup/layout trials, but independent cleanup review found frame2 already reads as an extended release before canonical frame3/tick5. Frames2-4 remain release-like; preserve this candidate and rejection, do not calibrate or register.",
+  "cleanup": "tools/generate-art/previews/kraken-pass6-attempt01/cleanup01-layout.json",
+  "review": "tools/generate-art/previews/kraken-pass6-attempt01/SOURCE_REVIEW.md"
 }

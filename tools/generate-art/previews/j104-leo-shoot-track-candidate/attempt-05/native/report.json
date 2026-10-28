@@ -10,10 +10,10 @@
       1.1,
       2.1,
       2.1,
-      2.7,
-      11.5,
-      10.5,
-      7.0,
+      4.2,
+      8.8,
+      7.5,
+      4.5,
       2.1,
       1.05
     ],
@@ -33,23 +33,23 @@
   "releasePositions": {
     "13": [
       4,
-      14.5
+      13.4667
     ],
     "14": [
-      4.5,
-      14.8
+      4.6,
+      14.6301
     ],
     "16": [
-      7,
-      15.5
+      5.74,
+      16.879
     ],
     "19": [
-      15,
-      13
+      7.47,
+      20.0573
     ],
     "23": [
-      26,
-      4
+      9.79,
+      23.9311
     ]
   },
   "court": "scoria-rams vs blackthorn-court-kings",
@@ -107,13 +107,13 @@
       "tick": 6,
       "frame": 2,
       "facing": 1,
-      "z": 0.75,
+      "z": 0,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 106.5,
         "y": 90,
-        "z": 2.85
+        "z": 2.1
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -130,13 +130,13 @@
       "tick": 8,
       "frame": 3,
       "facing": 1,
-      "z": 1.5,
+      "z": 0.8677674782,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 104,
         "y": 90,
-        "z": 3.6
+        "z": 2.9677674782
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -153,13 +153,13 @@
       "tick": 10,
       "frame": 4,
       "facing": 1,
-      "z": 2.25,
+      "z": 1.5636629649,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 103,
         "y": 90,
-        "z": 4.95
+        "z": 5.7636629649
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -176,13 +176,13 @@
       "tick": 11,
       "frame": 4,
       "facing": 1,
-      "z": 2.5,
+      "z": 1.8019377358,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 103.33333333333333,
         "y": 90,
-        "z": 8.133333333333333
+        "z": 7.5352710691333336
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -199,13 +199,13 @@
       "tick": 12,
       "frame": 4,
       "facing": 1,
-      "z": 2.75,
+      "z": 1.9498558244,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 103.66666666666667,
         "y": 90,
-        "z": 11.316666666666666
+        "z": 9.216522491066668
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -222,13 +222,13 @@
       "tick": 13,
       "frame": 5,
       "facing": 1,
-      "z": 3,
+      "z": 2,
       "ballMode": "shot",
       "owner": null,
       "ball": {
         "x": 104,
         "y": 90,
-        "z": 14.5
+        "z": 13.4667
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -245,13 +245,13 @@
       "tick": 14,
       "frame": 6,
       "facing": 1,
-      "z": 2.9,
+      "z": 1.9753766812,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 104.5,
+        "x": 104.6,
         "y": 90,
-        "z": 14.8
+        "z": 14.6301
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -268,13 +268,13 @@
       "tick": 16,
       "frame": 7,
       "facing": 1,
-      "z": 2.5,
+      "z": 1.7820130484,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 107,
+        "x": 105.74,
         "y": 90,
-        "z": 15.5
+        "z": 16.879
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -291,13 +291,13 @@
       "tick": 19,
       "frame": 8,
       "facing": 1,
-      "z": 1.5,
+      "z": 1.1755705046,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 115,
+        "x": 107.47,
         "y": 90,
-        "z": 13
+        "z": 20.0573
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -318,9 +318,9 @@
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 126,
+        "x": 109.78999999999999,
         "y": 90,
-        "z": 4
+        "z": 23.9311
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -383,13 +383,13 @@
       "tick": 6,
       "frame": 2,
       "facing": -1,
-      "z": 0.75,
+      "z": 0,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 93.5,
         "y": 90,
-        "z": 2.85
+        "z": 2.1
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -406,13 +406,13 @@
       "tick": 8,
       "frame": 3,
       "facing": -1,
-      "z": 1.5,
+      "z": 0.8677674782,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 96,
         "y": 90,
-        "z": 3.6
+        "z": 2.9677674782
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -429,13 +429,13 @@
       "tick": 10,
       "frame": 4,
       "facing": -1,
-      "z": 2.25,
+      "z": 1.5636629649,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 97,
         "y": 90,
-        "z": 4.95
+        "z": 5.7636629649
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -452,13 +452,13 @@
       "tick": 11,
       "frame": 4,
       "facing": -1,
-      "z": 2.5,
+      "z": 1.8019377358,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 96.66666666666667,
         "y": 90,
-        "z": 8.133333333333333
+        "z": 7.5352710691333336
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -475,13 +475,13 @@
       "tick": 12,
       "frame": 4,
       "facing": -1,
-      "z": 2.75,
+      "z": 1.9498558244,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 96.33333333333333,
         "y": 90,
-        "z": 11.316666666666666
+        "z": 9.216522491066668
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -498,13 +498,13 @@
       "tick": 13,
       "frame": 5,
       "facing": -1,
-      "z": 3,
+      "z": 2,
       "ballMode": "shot",
       "owner": null,
       "ball": {
         "x": 96,
         "y": 90,
-        "z": 14.5
+        "z": 13.4667
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -521,13 +521,13 @@
       "tick": 14,
       "frame": 6,
       "facing": -1,
-      "z": 2.9,
+      "z": 1.9753766812,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 95.5,
+        "x": 95.4,
         "y": 90,
-        "z": 14.8
+        "z": 14.6301
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -544,13 +544,13 @@
       "tick": 16,
       "frame": 7,
       "facing": -1,
-      "z": 2.5,
+      "z": 1.7820130484,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 93,
+        "x": 94.26,
         "y": 90,
-        "z": 15.5
+        "z": 16.879
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -567,13 +567,13 @@
       "tick": 19,
       "frame": 8,
       "facing": -1,
-      "z": 1.5,
+      "z": 1.1755705046,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 85,
+        "x": 92.53,
         "y": 90,
-        "z": 13
+        "z": 20.0573
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -594,9 +594,9 @@
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 74,
+        "x": 90.21000000000001,
         "y": 90,
-        "z": 4
+        "z": 23.9311
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -659,13 +659,13 @@
       "tick": 6,
       "frame": 2,
       "facing": 1,
-      "z": 0.75,
+      "z": 0,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 106.5,
         "y": 90,
-        "z": 2.85
+        "z": 2.1
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -682,13 +682,13 @@
       "tick": 8,
       "frame": 3,
       "facing": 1,
-      "z": 1.5,
+      "z": 0.8677674782,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 104,
         "y": 90,
-        "z": 3.6
+        "z": 2.9677674782
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -705,13 +705,13 @@
       "tick": 10,
       "frame": 4,
       "facing": 1,
-      "z": 2.25,
+      "z": 1.5636629649,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 103,
         "y": 90,
-        "z": 4.95
+        "z": 5.7636629649
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -728,13 +728,13 @@
       "tick": 11,
       "frame": 4,
       "facing": 1,
-      "z": 2.5,
+      "z": 1.8019377358,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 103.33333333333333,
         "y": 90,
-        "z": 8.133333333333333
+        "z": 7.5352710691333336
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -751,13 +751,13 @@
       "tick": 12,
       "frame": 4,
       "facing": 1,
-      "z": 2.75,
+      "z": 1.9498558244,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 103.66666666666667,
         "y": 90,
-        "z": 11.316666666666666
+        "z": 9.216522491066668
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -774,13 +774,13 @@
       "tick": 13,
       "frame": 5,
       "facing": 1,
-      "z": 3,
+      "z": 2,
       "ballMode": "shot",
       "owner": null,
       "ball": {
         "x": 104,
         "y": 90,
-        "z": 14.5
+        "z": 13.4667
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -797,13 +797,13 @@
       "tick": 14,
       "frame": 6,
       "facing": 1,
-      "z": 2.9,
+      "z": 1.9753766812,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 104.5,
+        "x": 104.6,
         "y": 90,
-        "z": 14.8
+        "z": 14.6301
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -820,13 +820,13 @@
       "tick": 16,
       "frame": 7,
       "facing": 1,
-      "z": 2.5,
+      "z": 1.7820130484,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 107,
+        "x": 105.74,
         "y": 90,
-        "z": 15.5
+        "z": 16.879
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -843,13 +843,13 @@
       "tick": 19,
       "frame": 8,
       "facing": 1,
-      "z": 1.5,
+      "z": 1.1755705046,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 115,
+        "x": 107.47,
         "y": 90,
-        "z": 13
+        "z": 20.0573
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -870,9 +870,9 @@
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 126,
+        "x": 109.78999999999999,
         "y": 90,
-        "z": 4
+        "z": 23.9311
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -935,13 +935,13 @@
       "tick": 6,
       "frame": 2,
       "facing": -1,
-      "z": 0.75,
+      "z": 0,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 93.5,
         "y": 90,
-        "z": 2.85
+        "z": 2.1
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -958,13 +958,13 @@
       "tick": 8,
       "frame": 3,
       "facing": -1,
-      "z": 1.5,
+      "z": 0.8677674782,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 96,
         "y": 90,
-        "z": 3.6
+        "z": 2.9677674782
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -981,13 +981,13 @@
       "tick": 10,
       "frame": 4,
       "facing": -1,
-      "z": 2.25,
+      "z": 1.5636629649,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 97,
         "y": 90,
-        "z": 4.95
+        "z": 5.7636629649
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -1004,13 +1004,13 @@
       "tick": 11,
       "frame": 4,
       "facing": -1,
-      "z": 2.5,
+      "z": 1.8019377358,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 96.66666666666667,
         "y": 90,
-        "z": 8.133333333333333
+        "z": 7.5352710691333336
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -1027,13 +1027,13 @@
       "tick": 12,
       "frame": 4,
       "facing": -1,
-      "z": 2.75,
+      "z": 1.9498558244,
       "ballMode": "carried",
       "owner": "leo",
       "ball": {
         "x": 96.33333333333333,
         "y": 90,
-        "z": 11.316666666666666
+        "z": 9.216522491066668
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -1050,13 +1050,13 @@
       "tick": 13,
       "frame": 5,
       "facing": -1,
-      "z": 3,
+      "z": 2,
       "ballMode": "shot",
       "owner": null,
       "ball": {
         "x": 96,
         "y": 90,
-        "z": 14.5
+        "z": 13.4667
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -1073,13 +1073,13 @@
       "tick": 14,
       "frame": 6,
       "facing": -1,
-      "z": 2.9,
+      "z": 1.9753766812,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 95.5,
+        "x": 95.4,
         "y": 90,
-        "z": 14.8
+        "z": 14.6301
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -1096,13 +1096,13 @@
       "tick": 16,
       "frame": 7,
       "facing": -1,
-      "z": 2.5,
+      "z": 1.7820130484,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 93,
+        "x": 94.26,
         "y": 90,
-        "z": 15.5
+        "z": 16.879
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -1119,13 +1119,13 @@
       "tick": 19,
       "frame": 8,
       "facing": -1,
-      "z": 1.5,
+      "z": 1.1755705046,
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 85,
+        "x": 92.53,
         "y": 90,
-        "z": 13
+        "z": 20.0573
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {
@@ -1146,9 +1146,9 @@
       "ballMode": "shot",
       "owner": null,
       "ball": {
-        "x": 74,
+        "x": 90.21000000000001,
         "y": 90,
-        "z": 4
+        "z": 23.9311
       },
       "canvasArt": "generated-full-roster-atlases",
       "selection": {

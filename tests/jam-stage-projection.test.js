@@ -10,6 +10,7 @@ import {
   stageStandingHeightPercent,
   stageBallHeightPixels,
   stageAttackPanY,
+  stageShotPanY,
   stageAttackZoom,
   stageDunkContactOffsetPixels,
   stageCameraFocusX,
@@ -106,6 +107,10 @@ test('court perspective changes continuously as the attack camera crosses midcou
   assert.equal(stageAttackPanY(0),0);
   assert.equal(stageAttackPanY(2.5),70);
   assert.equal(stageAttackPanY(5),140,'apex pan keeps tall captain sprites clear of the HUD');
+  assert.equal(stageShotPanY(85),0,'wide views do not shift the court');
+  assert.equal(stageShotPanY(100),0,'standard zoom keeps its existing composition');
+  assert.equal(stageShotPanY(110),8,'shot pan scales smoothly with zoom');
+  assert.equal(stageShotPanY(120),16,'close shot framing clears the fixed HUD');
 });
 
 test('depth scale matches Issue 4 near/far ratio and height responds to zoom',()=>{

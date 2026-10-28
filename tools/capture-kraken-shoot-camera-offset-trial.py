@@ -1,8 +1,9 @@
-"""Review an unregistered Kraken J.07 shoot track inside live Jam Stage.
+"""Review a Kraken J.07 shoot track inside live Jam Stage.
 
-All changes are in-memory browser route overlays. The candidate track feeds the
-normal sampleBallHeight/sampleBallForward functions through a temporary module
-overlay; after tick 13 the actual production shot physics runs uninterrupted.
+By default this preserves the historical candidate-overlay mode. Set
+NORMAL_LOADER=1 to use the registered atlas and athleteBallTracks entry without
+those overlays. The optional camera offset remains a capture-only focus trial;
+after tick 13 the actual production shot physics runs uninterrupted.
 """
 from pathlib import Path
 from hashlib import sha256
@@ -16,6 +17,7 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[1]
 ATTEMPT = int(environ.get('ATTEMPT', '27'))
 CAMERA_OFFSET_WORLD = float(environ.get('CAMERA_OFFSET_WORLD', '0'))
+NORMAL_LOADER = environ.get('NORMAL_LOADER', '0') == '1'
 OUT = ROOT / f'tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt{ATTEMPT:02d}' / f'offset-{CAMERA_OFFSET_WORLD:+.1f}'
 OUT.mkdir(parents=True, exist_ok=True)
 PORT = environ.get('PORT', '4247')
@@ -23,7 +25,7 @@ URL = f'http://127.0.0.1:{PORT}/'
 COURT_Y = float(environ.get('COURT_Y','90'))
 PLAYER_X_RIGHT = float(environ.get('PLAYER_X_RIGHT','135'))
 PLAYER_X_LEFT = float(environ.get('PLAYER_X_LEFT','65'))
-ATLAS = './tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-runtime-candidate.png'
+ATLAS = './public/assets/animation/kraken-shoot-right.webp' if NORMAL_LOADER else './tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-runtime-candidate.png'
 TRACK = json.loads(environ.get('TRACK_JSON', json.dumps({
     'height': [1.1, 0.95, 1.25, 1.6, 2.0, 2.25, 2.15, 1.9, 1.15, 1.05],
     'forward': [4, 5, 4, 3, 1, 4, 5.5, 4.5, 5, 5],
@@ -36,7 +38,8 @@ REPORT = {
     'renderer': 'Chromium production Jam Stage canvas',
     'simulation': 'window.jamverse.tick -> src/core/simulation.js; no state writes after release',
     'athlete': 'kraken', 'clip': 'shoot', 'attempt': ATTEMPT,
-    'candidateAtlas': ATLAS, 'candidateAtlasInjected': True,
+    'candidateAtlas': ATLAS, 'candidateAtlasInjected': not NORMAL_LOADER,
+    'assetMode': 'registered-normal-loader' if NORMAL_LOADER else 'candidate-overlay',
     'candidateTrack': TRACK, 'cameraOffsetWorldDirectionRelative': CAMERA_OFFSET_WORLD, 'court': 'current Jam Stage court', 'courtY': COURT_Y,
     'canonicalFrameStartTicks': FRAME_TICKS,
     'releaseTick': RELEASE_TICK, 'zoomLevels': [100, 120], 'facings': [],
@@ -99,8 +102,9 @@ animationAssetManifest.characters.kraken.directions.right.shoot={{
                     response = route.fetch()
                     route.fulfill(response=response, body=response.text().replace('cameraFocusX:stageCameraFocusX(focusX,basketX,direction)', 'cameraFocusX:stageCameraFocusX(focusX,basketX,direction)+(window.__cameraOffsetWorld||0)*direction') + '\nwindow.__cameraOffsetWorld='+str(CAMERA_OFFSET_WORLD)+';window.__productionSpriteImagesForReview=productionSpriteImages;window.__cameraReview=()=>({camX,stagePreview,stageViewDirection,cameraZoom,canvas:[canvas.width,canvas.height]});window.__setCameraReview=x=>{camX=x};\n')
 
-                page.route('**/src/content/animation-assets.js', add_candidate_manifest)
-                page.route('**/src/core/animation.js', add_candidate_track)
+                if not NORMAL_LOADER:
+                    page.route('**/src/content/animation-assets.js', add_candidate_manifest)
+                    page.route('**/src/core/animation.js', add_candidate_track)
                 page.route('**/src/main.js', expose_image_map)
                 page.add_init_script('window.requestAnimationFrame=()=>0')
                 page.goto(URL, wait_until='networkidle', timeout=120000)

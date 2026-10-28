@@ -4,7 +4,7 @@
   "clip": "shoot",
   "direction": "right",
   "attempt": 1,
-  "status": "source and cleanup/layout accepted for gameplay track trials only",
+  "status": "accepted and registered",
   "tool": "GPT Image generation",
   "toolArtifactId": "exec-20014507-d570-42f5-9ad7-6c2f9e4c6b03",
   "generationId": "exec-20014507-d570-42f5-9ad7-6c2f9e4c6b03",
@@ -60,9 +60,9 @@
   "cleanupReview": {
     "status": "accepted-for-gameplay-trials",
     "evidence": "tools/generate-art/previews/kraken-shoot10-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
-    "notes": "Ten complete unique figures; frames4/5 distinct at native 80\u00d796; no ball, no opaque green spill, transparent alpha, \u226524px logical margins and common y=94 baseline."
+    "notes": "Ten complete unique figures; frames4/5 distinct at native 80×96; no ball, no opaque green spill, transparent alpha, ≥24px logical margins and common y=94 baseline."
   },
-  "runtimeStatus": "pending Kraken-specific shooting ball-track calibration and current-court gameplay review",
+  "runtimeStatus": "accepted for current Jam Stage; registered as kraken shoot, with separate athlete-specific ball track",
   "cleanupScript": "tools/generate-art/clean-kraken-shoot10-attempt01.py",
   "cleanupReport": "tools/generate-art/previews/kraken-shoot10-attempt01/cleanup-layout-report.json",
   "cleanupLayout": "tools/generate-art/previews/kraken-shoot10-attempt01/runtime-layout.json",
@@ -70,5 +70,39 @@
   "candidateAtlasSha256": "47f167275610c321c67bfdb195545687f7324b8826d71237087738608b43cc3a",
   "lightPreview": "tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-light-preview.png",
   "darkPreview": "tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-dark-preview.png",
-  "cleanupNotes": "tools/generate-art/previews/kraken-shoot10-attempt01/README.md"
+  "cleanupNotes": "tools/generate-art/previews/kraken-shoot10-attempt01/README.md",
+  "trackReview": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt35/offset-+10.0/INDEPENDENT_REVIEW.md",
+  "trackReport": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt35/offset-+10.0/report.json",
+  "runtimeAtlas": "public/assets/animation/kraken-shoot-right.webp",
+  "runtimeAtlasSha256": "8024d1e2dfcebbe2ade77678af71e3436d71af0f402361ea1a5c9a7166d30c64",
+  "gameplayTrack": {
+    "height": [
+      1.1,
+      0.95,
+      1.25,
+      1.6,
+      2,
+      2.25,
+      2.15,
+      1.9,
+      1.15,
+      1.05
+    ],
+    "forward": [
+      4,
+      5,
+      4,
+      3,
+      1,
+      4,
+      5.5,
+      4.5,
+      5,
+      5
+    ],
+    "releaseVz": 0.46,
+    "reviewed": true,
+    "evidence": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt35/offset-+10.0/INDEPENDENT_REVIEW.md"
+  },
+  "normalLoaderReview": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt36/offset-+10.0/INDEPENDENT_REVIEW.md"
 }

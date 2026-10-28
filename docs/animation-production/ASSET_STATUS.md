@@ -1,16 +1,20 @@
-## Current captain checkpoint — J.128 Krios complete; J.07 Kraken in progress (2026-10-28 15:56 UTC)
+## Current captain checkpoint — J.128 Krios complete; J.07 Kraken in progress (2026-10-28 18:45 UTC)
 
-Krios remains 29/29. Kraken J.07 / J.129 is now 8/29 registered. Refreshed strict report-only audit: 2,376 inspected assignments, 549 source atlases, 5,260 unique drawings, 727 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings.
+Krios remains 29/29. Kraken J.07 / J.129 is now 9/29 registered, with its bespoke `shoot` atlas accepted and integrated. Refreshed strict report-only audit: 2,377 inspected assignments, 550 source atlases, 5,270 unique drawings, 726 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings.
 
 The standalone Jamverse preview includes 105 athletes, 883 registered assignments, 883 atlas paths, and 8,051 frame rectangles; every exact embedded atlas byte matches the current source. The preview check is in `docs/animation-production/previews/CURRENT_PREVIEW_REVIEW.md`. This is not a Pages deployment.
 
 Optional clip `baselineY` renderer support remains tested, with no registered clip using it. Kraken reverse-layup attempt23 improves release contact but still has HUD/rim framing issues. Pass-overhead attempt05 passes candidate-driven contact and simulation in both facings and zooms; normal-loader selection and its two-pixel lower margin remain open.
 
-Kraken pickup attempt04 cleanup02 passes independent source review for separate ball-track trials: five distinct ball-free poses, a clear empty ankle-level grab on frame3/tick7, soles at baseline y=90, and six transparent rows below. Separate-ball calibration and normal-loader, facing, and zoom review remain.
+Kraken pickup attempt04 cleanup02 has five distinct ball-free poses, a clear empty ankle-level grab on frame3/tick7, soles at baseline y=90, and six transparent rows below. Track attempt03 `[0.65,0.45,0.2,0.2,0.5]` / `[3.5,4.5,5.5,4.5,4.5]` passes independent candidate-injected captures across both facings/zooms and reduces the tick7→8 rise. Standard-loader visual review remains in progress; user-input pickup validation has not run.
+
+Kraken chest pass attempt01 cleanup01 is rejected because frame2 reads as early release before frame3/tick5; its raw and rejected cleanup are preserved. Existing attempt02 source/cleanup has candidate-only pass-track work through attempt07, which requires a separately reviewed Marin receive/idle-ball track to avoid a detached catch. A newer attempt03 raw/cleanup layout passes only for further track trials; its 4× light preview shows localized pale flecks and a softer style than idle. It is not registered or gameplay-approved.
 
 Kraken `celebrate` is accepted from attempt04 cleanup02: ten unique, bespoke 88×96 frames at baseline y=94. Independent source, cleanup, candidate gameplay and normal-loader score-transition reviews pass all ten frames, both facings and 100%/120% zoom. Correct scoring and dead/unowned ball state are confirmed; no fallback, crop, HUD collision or browser error remains. The user-provided score screenshot visibly shows Krios receiving Kraken's score, but its source build is unknown. Independent identity review confirms the registered celebration and current local preview show Kraken's elf design; see `tools/generate-art/previews/kraken-celebrate10-attempt04/identity-audit/INDEPENDENT_IDENTITY_AUDIT.md`. Cleanup01's shorter version remains preserved as superseded; attempt05 is an unreviewed alternate, and attempts01–03 are preserved rejects.
 
-Kraken shoot viewport framing and live rebound catch gameplay remain open. The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` remains untouched.
+Kraken `shoot` is registered at `public/assets/animation/kraken-shoot-right.webp`. Track attempt35's direction-relative +10 camera focus offset passes both facings and 100%/120% zoom, with correct three-point team attribution and 72/72 matching capture hashes. Review: `tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt35/offset-+10.0/INDEPENDENT_REVIEW.md`. Next roster-order gap: Kraken `pass`. Live rebound catch gameplay remains open. The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` remains untouched.
+
+Supplemental Leo J.104 `shoot` attempt05/06 capture recurrences are retained under `tools/generate-art/previews/j104-leo-shoot-track-candidate/`. Independent review found them useful only as provisional hand-contact/track calibration evidence: the static tip-off stage has no hoop or score completion, so these captures do not validate shot flight, scoring, or a stage-camera change and do not replace Leo's accepted registered work.
 
 ## Previous asset lane snapshot — 2026-10-28 07:35 UTC
 
