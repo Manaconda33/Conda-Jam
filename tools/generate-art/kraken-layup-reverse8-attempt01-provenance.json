@@ -1,0 +1,33 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "layup-reverse",
+  "attempt": 1,
+  "status": "rejected source",
+  "prompt": "tools/generate-art/kraken-layup-reverse8-attempt01-imagegen-prompt.txt",
+  "generationId": "exec-e5290e9b-7abf-4a38-ba66-65d41990ba28",
+  "generatedAt": "2026-10-28T12:26:00Z",
+  "source": "tools/generate-art/sources/kraken-layup-reverse8-attempt01-generated-raw.png",
+  "sha256": "1475e147e1bc6f5c89d914e2731ee9cec276231db8f3a71c9573193b0c0a1cac",
+  "canonicalFrames": 8,
+  "durations": [
+    2,
+    3,
+    2,
+    3,
+    2,
+    1,
+    4,
+    4
+  ],
+  "anchors": {
+    "takeoff": 1,
+    "peak": 4,
+    "release": 5,
+    "finish": 7
+  },
+  "notes": "Basketball must remain a separate athlete-specific track. No runtime registration until raw source, cleanup, identity, anatomy, timing and ball-track reviews pass.",
+  "review": {
+    "verdict": "FAIL",
+    "reason": "Opaque brown vignette background and painterly rendering fail transparent pixel-art source requirements; do not cleanup, pack or register."
+  }
+}
