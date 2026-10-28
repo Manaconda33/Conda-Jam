@@ -1,0 +1,26 @@
+{
+  "athlete": "krios",
+  "clip": "pickup",
+  "track": {
+    "height": [0.65, 0.45, 0.2, 0, 1.35],
+    "forward": [3.5, 4.5, 5.5, 4.5, 0.5]
+  },
+  "courtY": 50,
+  "ballZ": 0.2,
+  "ballVz": 0,
+  "attempts": [
+    {
+      "label": "06a",
+      "initialForward": 7.0,
+      "lateralOffset": 0,
+      "result": "Rejected: gameplay run did not complete the Krios tick7 ownership assertion; capture script exited before writing report or screenshots."
+    },
+    {
+      "label": "06b",
+      "initialForward": 6.0,
+      "lateralOffset": 0,
+      "result": "Rejected: gameplay run did not complete the Krios tick7 ownership assertion; capture script exited before writing report or screenshots."
+    }
+  ],
+  "nextTrial": "Attempt07 preserved the accepted near-player forward position and moved the one-time ball setup +1.5 along court depth."
+}

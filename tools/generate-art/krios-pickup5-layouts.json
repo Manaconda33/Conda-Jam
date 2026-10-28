@@ -40,7 +40,7 @@
     ],
     "provenance": {
       "asset": "J.128 Krios pickup source candidate",
-      "status": "source and packed atlas accepted for track calibration; runtime registration pending",
+      "status": "source, packed atlas, athlete-specific track and actual gameplay integration accepted",
       "imageGenerationId": "c2pa:ada022b4-e0f0-42c7-840e-8b83a2e58c79",
       "generationId": "c2pa:ada022b4-e0f0-42c7-840e-8b83a2e58c79",
       "generatedAt": "2026-10-28T00:28:20.201102146Z",
@@ -68,7 +68,7 @@
       "cleanup": {
         "performed": true,
         "script": "tools/generate-art/clean-krios-pickup-attempt01.py",
-        "method": "Set alpha below 96 to zero and alpha 96–254 to 255; preserve all RGB values. No redraw, resize, or color edits.",
+        "method": "Set alpha below 96 to zero and alpha 96\u2013254 to 255; preserve all RGB values. No redraw, resize, or color edits.",
         "report": "tools/generate-art/krios-pickup-attempt01-cleanup01-report.json",
         "sourceImage": "tools/generate-art/sources/krios-pickup-attempt01-cleanup01.png",
         "sourceSha256": "3fe8a50cf49dd580780b4cfaa7c920958955f36af3a5f1f2ec753acb11eb6327",
@@ -189,7 +189,36 @@
       "uniformScale": 0.234375,
       "componentIsolation": true,
       "packaging": "package-krios-actions.py; 128x96 cells; baseline94; lossless WebP; 5 original poses",
-      "ballTrackStatus": "pending-independent-gameplay-review"
-    }
+      "ballTrackStatus": "accepted",
+      "reviewedAt": "2026-10-28",
+      "sourceReview": {
+        "status": "accepted",
+        "review": "tools/generate-art/previews/krios-pickup-attempt01/ATLAS_REVIEW.md"
+      },
+      "ballTrackReview": {
+        "status": "accepted",
+        "review": "tools/generate-art/previews/j128-krios-pickup-track-candidate/INDEPENDENT_REVIEW.md",
+        "candidate": "attempt-07"
+      },
+      "runtimeBallTrack": {
+        "height": [
+          0.65,
+          0.45,
+          0.2,
+          0,
+          1.35
+        ],
+        "forward": [
+          3.5,
+          4.5,
+          5.5,
+          4.5,
+          0.5
+        ],
+        "reviewed": true
+      },
+      "gameplayCapture": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-08/runtime/report.json"
+    },
+    "status": "source, atlas and runtime integration accepted"
   }
 ]

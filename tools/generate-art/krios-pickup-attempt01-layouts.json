@@ -2,7 +2,7 @@
   "issue": "J.128",
   "athlete": "Krios",
   "clip": "pickup",
-  "status": "cleanup01 packed candidate accepted for track calibration; runtime integration pending",
+  "status": "source, atlas and runtime integration accepted",
   "sourceImage": "tools/generate-art/sources/krios-pickup-attempt01-generated-raw.png",
   "canvas": {
     "width": 1536,

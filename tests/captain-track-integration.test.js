@@ -83,3 +83,42 @@ test('J.128 Krios receive uses its reviewed atlas and separate caught-ball track
   assert.ok(gameplay.gameplayRuns.every(row=>row.finalState.owner==='krios'&&row.finalState.hasBall&&row.finalState.events.some(event=>event.tick===row.receiveStartStep+4&&event.text==='Krios catches it')));
   assert.deepEqual(gameplay.uncaughtBrowserErrors,[]);
 });
+
+test('J.128 Krios pickup uses the reviewed registered atlas and gameplay track', async () => {
+  const clip=animationAssetManifest.characters.krios.directions.right.pickup;
+  const height=[0.65,0.45,0.2,0,1.35],forward=[3.5,4.5,5.5,4.5,0.5];
+  const atlasPath=fileURLToPath(new URL(`../${clip.src.slice(2)}`,import.meta.url));
+  assert.equal(clip.reviewed,true);
+  assert.equal(clip.provenance.sourceReview.status,'accepted');
+  assert.equal(clip.provenance.ballTrackReview.status,'accepted');
+  assert.deepEqual(clip.provenance.runtimeBallTrack,{height,forward,reviewed:true});
+  assert.equal(clip.frames.length,5);
+  assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,5);
+  assert.equal(clip.sha256,createHash('sha256').update(readFileSync(atlasPath)).digest('hex'));
+  const decoded=await decodeImage(atlasPath);
+  assert.deepEqual([decoded.width,decoded.height],[640,96]);
+  const inspected=await inspectAtlas(atlasPath,clip.frames);
+  assert.equal(inspected.frames.length,5);
+  assert.ok(inspected.frames.every(frame=>frame.visiblePixels>0&&!frame.error));
+  assert.deepEqual(animationClips.pickup.frames.map(frame=>frame.duration),[2,3,2,1,4]);
+  assert.equal(anchorTick('pickup','grab'),7);
+  for(let frame=0,tick=0;frame<5;frame++){
+    assert.equal(sampleAnimation('pickup',tick).frame,frame);
+    assert.equal(sampleBallHeight('pickup',tick,'krios'),height[frame]);
+    assert.equal(sampleBallForward('pickup',tick,'krios'),forward[frame]);
+    tick+=animationClips.pickup.frames[frame].duration;
+  }
+  const image={complete:true,naturalWidth:640,naturalHeight:96,file:clip.src};
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+    const selected=selectProductionSprite({id:'krios',facing,animation:{clip:'pickup',tick:7}},{manifest:animationAssetManifest,images:new Map([[clip.src,image]])});
+    assert.equal(selected?.atlas.file,clip.src);
+    assert.equal(selected?.frame,3);
+    assert.equal(selected?.flip,flip);
+  }
+  const gameplay=report('tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-08/native/report.json');
+  assert.equal(gameplay.runtimeIntegration,true);
+  assert.equal(gameplay.captureCount,32);
+  assert.equal(gameplay.gameplayRuns.length,4);
+  assert.ok(gameplay.gameplayRuns.every(row=>row.finalState.owner==='krios'&&row.finalState.hasBall&&row.finalState.events.some(event=>event.text==='Krios grabs the ball')));
+  assert.deepEqual(gameplay.uncaughtBrowserErrors,[]);
+});

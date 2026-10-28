@@ -4,17 +4,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 2,
-  "generatedAt": "2026-10-28T00:33:11.270Z",
+  "generatedAt": "2026-10-28T04:31:00.012Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 2355,
-  "missingClipCount": 748,
+  "inspectedClips": 2356,
+  "missingClipCount": 747,
   "uniqueSourceLibraries": 42,
-  "uniqueSourceAtlases": 528,
-  "uniqueSourceDrawings": 5023,
+  "uniqueSourceAtlases": 529,
+  "uniqueSourceDrawings": 5028,
   "classifications": {
-    "original-authored": 528,
+    "original-authored": 529,
     "derived-palette": 1827
   },
   "assignmentClassifications": {
@@ -145,8 +145,8 @@
       "sourceLibrary": "echo-catwalk"
     },
     "krios": {
-      "clips": 10,
-      "missingClips": 19,
+      "clips": 11,
+      "missingClips": 18,
       "classification": "incomplete",
       "assignmentStatus": "original-authored",
       "lineage": null,
@@ -899,13 +899,6 @@
       "athlete": "leo",
       "direction": "right",
       "clip": "layup-reverse",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "krios",
-      "direction": "right",
-      "clip": "pickup",
       "classification": "original-authored"
     },
     {
@@ -54018,6 +54011,68 @@
           "h": 96,
           "hash": "5114709dd5e162c006a273a00a9811c49135dd27ad532dad70bd4596b4bf9279",
           "visiblePixels": 3497
+        }
+      ]
+    },
+    {
+      "athlete": "krios",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/krios-pickup-right.webp",
+      "width": 640,
+      "height": 96,
+      "sha256": "f458cbbae5844bb74c7d6ff4fd790e7ae88e4778bd81aa740461f0fefacb8330",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "c80e130e79778cdd77dd280eb824a309724fb34ad5b80e0ef7415475eeb374dc",
+          "visiblePixels": 4869
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "8f355ad8850ed0626522851913e279b36bb203ad1a6b43e1b04049fbf7b2410e",
+          "visiblePixels": 4770
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "0cc56c78205aaa29d2907563e6b44680f1c797c26985e9e5aa56a75ffdbe4583",
+          "visiblePixels": 4456
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "6d2c6ef428aebebd63f95e33dc2fa7d2eb04a8625abb2f51e5838389054179ec",
+          "visiblePixels": 3835
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "f134a2c9dfc509ab1c6072000a2af1921c7bc4e126c6f8e8db5e04273e5061d2",
+          "visiblePixels": 4463
         }
       ]
     },
