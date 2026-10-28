@@ -1,3 +1,9 @@
+## Captain animation checkpoint — Krios dunk-360 accepted (2026-10-28)
+
+Krios J.128 dunk-360 attempt01 passed independent source, cleanup, separate-track candidate review, and 60 registered normal-loader Jam Stage captures across both facings and 100%/120% zoom. Native-size review confirms the compact rotation in frames2–4; track04 clears the HUD and keeps the ball with the raised hand through gather/peak/pre-release. Rim contact/release, two-point score, and landing pass at ticks21/23/30. Three rejected track trials are preserved. See tools/generate-art/krios-dunk-36015-attempt01-provenance.json and its preview folder.
+
+Krios is now 23/29. Next is dunk-tomahawk; source/cleanup pass for trials but track attempt01 fails hand contact at frame9/tick19. Strict report-only audit: 2,369 assignments, 542 source atlases, 5,160 unique source drawings, 734 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings. Captain lane remains incomplete.
+
 ## Captain animation checkpoint — Krios dunk-reverse accepted (2026-10-28)
 
 Krios J.128 dunk-reverse attempt01 passed source/cleanup review and independent normal-loader gameplay review after two rejected ball-track trials. Track03 keeps the separate ball aligned through frames5,7,9 and clears the HUD at both facings/zooms. The 60 current Jam Stage captures verify rim release at tick21, two-point score at tick23, and landing through tick30. Full provenance, rejects and captures are indexed in tools/generate-art/krios-dunk-reverse15-attempt01-provenance.json.

@@ -1,0 +1,70 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "dunk-tomahawk",
+  "direction": "right",
+  "attempt": 1,
+  "status": "source and cleanup accepted for separate ball-track trials only",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-cff0c167-34bf-41a4-806c-15bfcfdad9c3",
+  "generationId": "exec-cff0c167-34bf-41a4-806c-15bfcfdad9c3",
+  "generatedAt": "2026-10-28T08:40:00Z",
+  "promptFile": "tools/generate-art/krios-dunk-tomahawk15-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "d86054fb5fb6383d4d4f705282728f34e0485bb3f54eda0c891be327e35758ad",
+  "rawSourceImage": "tools/generate-art/sources/krios-dunk-tomahawk15-attempt01-generated-raw.png",
+  "rawSourceSha256": "2742089abf01ad1eb36ef496196368c138afa7b9bbe5f9008ad32153fea9aa96",
+  "dimensions": [
+    1619,
+    971
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-dunk-power-right.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "anchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "ballPolicy": "No basketball in athlete artwork; calibrate Krios's separate ball track at all action anchors.",
+  "sourceReview": {
+    "status": "pass for ball-track trials only; not runtime registration",
+    "evidence": "tools/generate-art/previews/krios-dunk-tomahawk15-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "note": "Airborne groups3\u20134 and5\u20137 are close; scrutinize transitions in native runtime."
+  },
+  "cleanup": {
+    "status": "accepted for trials",
+    "candidate": "tools/generate-art/previews/krios-dunk-tomahawk15-attempt01/krios-dunk-tomahawk15-attempt01-runtime-candidate.png",
+    "cleanupReport": "tools/generate-art/previews/krios-dunk-tomahawk15-attempt01/cleanup-layout-report.json",
+    "sha256": "0cea7aaccf5def1b1a6ae15de241222182feae8366a8aebf1b5e5c03c3d26774",
+    "lightPreview": "tools/generate-art/previews/krios-dunk-tomahawk15-attempt01/krios-dunk-tomahawk15-attempt01-light-preview.png",
+    "darkPreview": "tools/generate-art/previews/krios-dunk-tomahawk15-attempt01/krios-dunk-tomahawk15-attempt01-dark-preview.png"
+  },
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null
+  },
+  "rejectedAttempts": []
+}

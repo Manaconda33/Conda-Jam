@@ -1522,6 +1522,7 @@ athleteBallTracks.krios.rebound={height:[1.1,1.7,2.0,2.1,1.3],forward:[4,3,1,0.5
 athleteBallTracks.krios['dunk-power']={height:[1.0,1.0,1.15,1.45,1.75,1.7,1.6,1.65,1.7,1.8,1.95,.85,.95,.8,.62],forward:[5.5,5.0,7.5,0,3,2,1,1,8,12,12,3,8,8,-1]}; // J.128 attempt02 track04: independently reviewed two-facing release/contact and score trial
 athleteBallTracks.krios['dunk-windmill']={height:[.7,.65,.9,1.2,1.2,1.4,1.7,1.6,1.55,1.8,1.95,1.4,.9,.8,.7],forward:[-4,-7,-6,-5,-5,-3,-2,-1,4,8,13,10,6,6,4]}; // J.128 attempt02 track04: lower peak clears Jam Stage HUD at 120% while preserving hand contact
 athleteBallTracks.krios['dunk-reverse']={height:[1.0,.9,1.2,1.6,1.55,1.65,1.6,1.75,1.8,1.75,2.1,1.2,1.0,.8,.7],forward:[5,4,3,1,-1,-2,-3,-4,-3,-2,12,10,8,6,4]}; // J.128 attempt01 track03: independent two-facing candidate and normal-loader review pass
+athleteBallTracks.krios['dunk-360']={height:[1.0,.9,1.2,1.5,1.55,1.25,1.7,1.8,1.85,1.8,2.0,1.2,1.0,.8,.7],forward:[5,4,3,1,-1,3,0,0,4,9.5,12,10,8,6,4]}; // J.128 attempt01 track04: independent candidate and normal-loader review pass
 athleteBallTracks.kraken={steal:{height:[1,.9,.55,.55,.7,.9,1,1],forward:[5,7,6,6,7,8,7,5]}}; // J.07 cleanup01 candidate: independent both-facing low-hook contact review
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);

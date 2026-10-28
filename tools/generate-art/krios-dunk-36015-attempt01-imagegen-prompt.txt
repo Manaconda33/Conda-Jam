@@ -1,0 +1,24 @@
+Create a flat sprite source sheet with EXACTLY FIFTEEN separate full-body drawings of the same athlete Krios, arranged as a 5-column by 3-row grid, read left to right across each row. Keep each complete figure isolated within its equal cell with clear empty gutters; do not crop horns, hands, feet or shoes. Solid chroma green RGB(0,255,0); no grid lines, labels, text, gradients, floor, shadow, court, hoop, ball, teammates, motion marks or decoration.
+
+STYLE: crisp 16-bit pixel art, deliberate square pixel clusters, hard stepped outlines, compact limited palette, clustered highlights and shadows. Match Krios's accepted small-game sprite style. No painterly rendering, soft gradients, airbrush, antialiasing, 3D lighting or photographic texture. Keep one consistent pixel scale, body proportions, lighting, outline weight and ground baseline. Full figures readable at 64×96 pixels. Face three-quarter right except during the specified full rotation; keep Krios identifiable throughout.
+
+Krios is the canonical Scoria Rams captain: colossal adult male with vivid volcanic-red skin, huge curled black ram horns, thick charcoal beard, strong recognizable human face, massive muscular human anatomy, charcoal-black sleeveless basketball jersey and shorts with ember-red piping, dark shoes. Preserve this exact identity, face, horns, beard, build, uniform and pixel treatment across all poses. Jersey chest plain charcoal with subtle ember trim only: NO logo, emblem, number, text, badge or symbol. Exactly two attached arms/hands and two attached legs/feet. Never draw a basketball or ball-like circle; the real ball is a separate gameplay sprite.
+
+Draw these FIFTEEN distinct frames of a coherent 360-degree dunk in this exact order:
+0. Approach on staggered feet, torso forward and eyes toward the imaginary right-side rim; one hand cradles the absent ball at outer hip while the free arm opens to load rotation.
+1. Plant lead foot and sink hips, rear heel rising; ball hand crosses waist toward far hip and free elbow draws back to initiate spin.
+2. TAKEOFF: both feet clear floor after leg extension; torso rises and turns one-quarter away from viewer, ball hand protecting abdomen.
+3. Early ascent: lead knee rises to waist and trailing leg folds back; back faces viewer at roughly halfway through turn, finishing elbow tight to ribs.
+4. Mid-ascent: both knees gather under hips, chest rises and head tracks rim; far side profile faces left temporarily, ball hand crosses chest protectively.
+5. GRAB: stabilize in air and secure the invisible ball with both hands at chest while shoulders pass three-quarter turn.
+6. Late ascent: torso stretches and knees tuck; shoulders rotate back toward the right target and ball hand begins climbing beside face.
+7. PEAK: highest body point, feet tucked; full revolution completes so Krios faces right again, one arm fully raised with invisible ball, free arm spread.
+8. Start descent, shoulders and chest travel toward imaginary rim, legs trail; finishing arm cocks slightly behind head and free elbow folds across chest to brake spin.
+9. Pre-release, torso drives forward and knees unfold behind; finishing forearm whips forward from above ear and chest squares toward rim.
+10. RELEASE: fingertips open through the downward scoring plane after completed rotation; one wrist snaps down through imaginary rim, invisible ball leaves hands now. Make this visibly distinct from pre-release and follow-through.
+11. FINISH: complete dunk follow-through immediately after release, body trails imaginary rim; arm follows down in front as opposite arm extends sideways to stop residual turn.
+12. Drop away, hands separate from imaginary rim and torso starts returning upright; empty hand moves across opposite chest as shoulders recover a small quarter-turn.
+13. Landing approach, both legs unfold below body; arms widen at differing heights for balance as torso recenters toward right-facing baseline.
+14. LAND: both feet meet ground and knees bend deeply to absorb impact; both hands settle beside bent knees with no further spin on planted feet.
+
+The imaginary rim is to Krios's right and outside the sheet. Do not draw a rim or anything resembling one. Show one readable full-body revolution from and back to right-facing, controlled one-hand finish, coherent jump arc, clearly differentiated release and follow-through, and stable landing. Keep all fifteen silhouettes full, distinct and consistently rendered; exactly fifteen figures, no repeated, missing, extra, cropped, merged or ambiguous poses.
