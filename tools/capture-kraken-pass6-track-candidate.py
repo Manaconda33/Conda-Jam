@@ -1,7 +1,8 @@
-"""Capture Kraken's unregistered pass atlas/track in the current Jam Stage.
+"""Capture Kraken's pass atlas/track in the current Jam Stage.
 
-The candidate atlas and athlete-specific track are temporary browser-response
-overrides only. No production manifest, runtime file, or asset is written.
+By default this retains the original candidate-overlay capture mode. Set
+NORMAL_LOADER=1 after registering the clip to exercise the production atlas,
+Kraken track, and Marin receive/idle-ball tracks without temporary overrides.
 """
 from pathlib import Path
 from os import environ
@@ -15,15 +16,16 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
 ATTEMPT = int(environ.get('ATTEMPT', '1'))
+NORMAL_LOADER = environ.get('NORMAL_LOADER', '0') == '1'
 OUT = ROOT / f'tools/generate-art/previews/kraken-pass6-track-candidate/attempt-{ATTEMPT:02d}/native'
 OUT.mkdir(parents=True, exist_ok=True)
 PORT = environ.get('PORT', '4287')
 URL = f'http://127.0.0.1:{PORT}/'
 COURT_Y = float(environ.get('COURT_Y', '50'))
-ATLAS = './tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-runtime-candidate.png'
-TRACK = json.loads(environ.get('TRACK_JSON', '{"height":[1.05,1.15,1.4,1.5,1.35,1.05],"forward":[8,9,11,13,12,8]}'))
+ATLAS = './public/assets/animation/kraken-pass-right.webp' if NORMAL_LOADER else './tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-runtime-candidate.png'
+TRACK = json.loads(environ.get('TRACK_JSON', '{"height":[1.25,1.25,1.3,1.5,1.35,1.05],"forward":[2,4,5,6,12,8]}'))
 FRAME_TICKS = [0, 2, 4, 5, 6, 8]
-POST_RELEASE_TICKS = [11, 14, 18, 22, 26]
+POST_RELEASE_TICKS = json.loads(environ.get('POST_RELEASE_TICKS_JSON', '[11,14,18,22,26]'))
 SAMPLE_TICKS = FRAME_TICKS + POST_RELEASE_TICKS
 SEED = int(environ.get('SEED', '707'))
 RECEIVER_FACING = environ.get('RECEIVER_FACING', 'toward-pass')
@@ -41,16 +43,17 @@ report = {
     'athlete': 'kraken', 'clip': 'pass', 'attempt': ATTEMPT,
     'atlas': ATLAS, 'atlasSha256': sha256((ROOT / ATLAS[2:]).read_bytes()).hexdigest(),
     'atlasLayout': {'columns': 3, 'rows': 2, 'cellWidth': 80, 'cellHeight': 96, 'frames': 6},
-    'candidateTrack': TRACK, 'runtimeIntegration': False,
+    'candidateTrack': TRACK, 'runtimeIntegration': NORMAL_LOADER,
+    'assetMode': 'registered-normal-loader' if NORMAL_LOADER else 'candidate-overlay',
     'receiverFacingPolicy': RECEIVER_FACING,
     'candidateReceiverTrack': RECEIVER_TRACK,
-    'candidateReceiverTrackInjected': True,
+    'candidateReceiverTrackInjected': not NORMAL_LOADER,
     'candidateReceiverTrackTarget': 'marin-dusk receive + idle-ball in page-response override only',
     'productionManifestModified': False, 'productionRuntimeModified': False,
     'productionAthleteTrackModified': False, 'productionSourceArtModified': False,
-    'productionRegistryModified': False, 'runtimeIntegration': False,
-    'candidateAtlasInjected': True, 'candidateBallTrackInjected': True,
-    'overrideScope': 'Temporary in-page response overrides; production files and registries are not modified.',
+    'productionRegistryModified': False,
+    'candidateAtlasInjected': not NORMAL_LOADER, 'candidateBallTrackInjected': not NORMAL_LOADER,
+    'overrideScope': 'No atlas or track overrides; production manifest and runtime used.' if NORMAL_LOADER else 'Temporary in-page response overrides; production files and registries are not modified.',
     'court': {'home': HOME, 'away': AWAY, 'name': 'Vesper Harbor Undertow vs Scoria Rams', 'courtY': COURT_Y},
     'seed': SEED, 'releaseFrame': 3, 'releaseTick': 5,
     'frameStartTicks': FRAME_TICKS, 'postReleaseFlightTicks': POST_RELEASE_TICKS,
@@ -105,8 +108,9 @@ animationAssetManifest.characters.kraken.mirrorReview={{status:'reviewed'}};
                     route.fulfill(response=response, body=response.text() +
                                   '\nwindow.__productionSpriteImagesForReview=productionSpriteImages;\n')
 
-                page.route('**/src/content/animation-assets.js', override_manifest)
-                page.route('**/src/core/animation.js', override_track)
+                if not NORMAL_LOADER:
+                    page.route('**/src/content/animation-assets.js', override_manifest)
+                    page.route('**/src/core/animation.js', override_track)
                 page.route('**/src/main.js', expose_images)
                 page.add_init_script('window.requestAnimationFrame=()=>0')
                 page.goto(URL, wait_until='networkidle', timeout=120000)
@@ -156,6 +160,9 @@ animationAssetManifest.characters.kraken.mirrorReview={{status:'reviewed'}};
                         height:sampleBallHeight(mate.animation.clip,mate.animation.tick,mate.id),
                         forward:sampleBallForward(mate.animation.clip,mate.animation.tick,mate.id),
                         ballTrackSource: (await import('/src/core/animation.js')).athleteBallTrackSource(mate.id,mate.animation.clip,'height')}:null;
+                      const receiverSelected=selectProductionSprite(mate,{manifest:c.manifest,images:window.__productionSpriteImagesForReview});
+                      const receiverSelection={source:receiverSelected?.src??null,frame:receiverSelected?.frame??null,flip:receiverSelected?.flip??null,
+                        expectedFrame:mate.hasBall?sampleAnimation(mate.animation.clip,mate.animation.tick).frame:null};
                       const receiverAttachmentDelta=receiverTrackPoint?{
                         x:s.ball.x-(mate.x+mate.facing*receiverTrackPoint.forward),
                         z:s.ball.z-receiverTrackPoint.height}:null;
@@ -168,7 +175,7 @@ animationAssetManifest.characters.kraken.mirrorReview={{status:'reviewed'}};
                           vx:s.ball.vx,vy:s.ball.vy,vz:s.ball.vz,lastTouch:s.ball.lastTouch},
                         passer:{id:k.id,x:k.x,y:k.y,hasBall:k.hasBall,action:k.animation.action?{kind:k.animation.action.kind,released:k.animation.action.released}:null},
                         receiver:{id:mate.id,x:mate.x,y:mate.y,facing:mate.facing,hasBall:mate.hasBall,clip:mate.animation.clip,tick:mate.animation.tick},
-                        receiverTrackPoint,receiverAttachmentDelta,
+                        receiverTrackPoint,receiverSelection,receiverAttachmentDelta,
                         score:s.score,clock:s.clock,events:s.events.slice(-3),atlas};
                     }""", {'targetTick':tick,'frameTicks':FRAME_TICKS,'atlas':ATLAS,'facing':facing})
                     info['sampleKind']='authored-frame-start' if tick in FRAME_TICKS else 'post-release-flight'
@@ -221,6 +228,11 @@ animationAssetManifest.characters.kraken.mirrorReview={{status:'reviewed'}};
             delta=capture['receiverAttachmentDelta']
             if not delta or abs(delta['x']) > 1e-8 or abs(delta['z']) > 1e-8:
                 raise RuntimeError(f"Marin ball failed to follow recipient-specific hand track at tick {tick}: {json.dumps(capture)}")
+            selection=capture['receiverSelection']
+            expected_source=f"./public/assets/animation/echo-catwalk-{expected_clip}-right.webp"
+            if (selection['source'] != expected_source or selection['frame'] != selection['expectedFrame'] or
+                selection['flip'] != (capture['receiver']['facing'] < 0)):
+                raise RuntimeError(f"Marin normal-loader sprite selection mismatch at tick {tick}: {json.dumps(selection)}")
         catch_events=[event for c in run['captures'] for event in c['events']
                       if event.get('text') == 'Marin Dusk catches it']
         if not catch_events or catch_events[0].get('tick') != 21:

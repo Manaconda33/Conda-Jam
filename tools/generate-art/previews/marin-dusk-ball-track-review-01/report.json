@@ -1,0 +1,1392 @@
+{
+  "assetMode": "registered-normal-loader",
+  "athlete": "marin-dusk",
+  "tracks": {
+    "receive": {
+      "height": [
+        1.3,
+        1.35,
+        1.2,
+        1.45
+      ],
+      "forward": [
+        4,
+        4,
+        2,
+        1
+      ]
+    },
+    "idle-ball": {
+      "height": [
+        1.45,
+        1.45,
+        1.45,
+        1.45
+      ],
+      "forward": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "marinPassSource": "echo-catwalk",
+    "marinShootSource": "echo-catwalk"
+  },
+  "captureCount": 40,
+  "captures": [
+    {
+      "tick": 0,
+      "clip": "receive",
+      "frame": 0,
+      "track": {
+        "height": 1.3,
+        "forward": 4
+      },
+      "ball": {
+        "x": 108.43699999999994,
+        "z": 1.3
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "receive",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 100,
+      "path": "right-zoom100-receive-tick00-frame0.png",
+      "sha256": "2cd485de12291b4621e40b26b46a92f65873dfdf8529ab56c76d37cbbf2869f1"
+    },
+    {
+      "tick": 2,
+      "clip": "receive",
+      "frame": 1,
+      "track": {
+        "height": 1.35,
+        "forward": 4
+      },
+      "ball": {
+        "x": 115.56309090909075,
+        "z": 1.35
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 128,
+        "sy": 0,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "receive",
+        "frame": 1,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 100,
+      "path": "right-zoom100-receive-tick02-frame1.png",
+      "sha256": "6b5d2cd2bc8f5bcaef932cbc5a62b0e1e305fd48174cb2b2eea4bfb4206f6101"
+    },
+    {
+      "tick": 4,
+      "clip": "receive",
+      "frame": 2,
+      "track": {
+        "height": 1.2,
+        "forward": 2
+      },
+      "ball": {
+        "x": 118.59327272727249,
+        "z": 1.2
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 0,
+        "sy": 96,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "receive",
+        "frame": 2,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 100,
+      "path": "right-zoom100-receive-tick04-frame2.png",
+      "sha256": "d70cf050ebacbcac84c580f778f2d12ef0e7d45f48da8a63ce288ab266362c62"
+    },
+    {
+      "tick": 5,
+      "clip": "receive",
+      "frame": 3,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 123.46181818181786,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 128,
+        "sy": 96,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "receive",
+        "frame": 3,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 100,
+      "path": "right-zoom100-receive-tick05-frame3.png",
+      "sha256": "4eabcf0fb40e5663f561f149a172a17fca54daa001a4cdbdf6dee756e84c03b0"
+    },
+    {
+      "tick": 0,
+      "clip": "idle-ball",
+      "frame": 0,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 128.91118181818143,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "idle-ball",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 100,
+      "path": "right-zoom100-idle-ball-tick00-frame0.png",
+      "sha256": "dbe7a96513cbcc715438b0845cbc5ef2c4a3a958f9202d17a31bf717608ac53e"
+    },
+    {
+      "tick": 8,
+      "clip": "idle-ball",
+      "frame": 1,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 134.7797272727268,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 80,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "idle-ball",
+        "frame": 1,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 100,
+      "path": "right-zoom100-idle-ball-tick08-frame1.png",
+      "sha256": "fb87f12a290bf19d8707fae303dc05f64cd90ddc775b96474925beb0fa258a94"
+    },
+    {
+      "tick": 16,
+      "clip": "idle-ball",
+      "frame": 2,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 141.06745454545398,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 0,
+        "sy": 96,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "idle-ball",
+        "frame": 2,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 100,
+      "path": "right-zoom100-idle-ball-tick16-frame2.png",
+      "sha256": "e0e6de7e38f7ea6dda9df98567aadf6d1784ee6938f07f962b2d71b143c9ef36"
+    },
+    {
+      "tick": 24,
+      "clip": "idle-ball",
+      "frame": 3,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 146.51681818181754,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 80,
+        "sy": 96,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "idle-ball",
+        "frame": 3,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 100,
+      "path": "right-zoom100-idle-ball-tick24-frame3.png",
+      "sha256": "469e12b9d459b6554ec188275cab537a0173ed492c56b948d312e80df1135801"
+    },
+    {
+      "clip": "pass",
+      "tick": 1,
+      "action": "pass",
+      "ball": {
+        "mode": "carried",
+        "ownerId": "marin-dusk",
+        "lastTouch": "marin-dusk",
+        "x": 157.6220909090902,
+        "z": 1.1647727272727275
+      },
+      "track": {
+        "height": 1.1647727272727275,
+        "forward": 5.113636363636364
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-pass-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 112,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "pass",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 100,
+      "path": "right-zoom100-idle-ball-to-pass.png",
+      "sha256": "75085a71b64b7a18807a92a47d26662619bad04f9d2ceb313cf13ec19b15ddde",
+      "transition": "idle-ball\u2192pass"
+    },
+    {
+      "clip": "shoot",
+      "tick": 1,
+      "action": "shot",
+      "ball": {
+        "mode": "carried",
+        "ownerId": "marin-dusk",
+        "lastTouch": "marin-dusk",
+        "x": 165.51227292658083,
+        "z": 1.1742424242424243
+      },
+      "track": {
+        "height": 1.1742424242424243,
+        "forward": 6.43939393939394
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "shoot",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 100,
+      "path": "right-zoom100-idle-ball-to-shoot.png",
+      "sha256": "da2e5dd0680a72374ac60bcc6e19ff1c7d0f77f3f4109cc83940b55c99aa7c23",
+      "transition": "idle-ball\u2192shoot"
+    },
+    {
+      "tick": 0,
+      "clip": "receive",
+      "frame": 0,
+      "track": {
+        "height": 1.3,
+        "forward": 4
+      },
+      "ball": {
+        "x": 108.43699999999994,
+        "z": 1.3
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "receive",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 120,
+      "path": "right-zoom120-receive-tick00-frame0.png",
+      "sha256": "ea2e3afaa561ba4ef4cf641c7ec3c107407cf4c10cbb640ee571bd20510c99ae"
+    },
+    {
+      "tick": 2,
+      "clip": "receive",
+      "frame": 1,
+      "track": {
+        "height": 1.35,
+        "forward": 4
+      },
+      "ball": {
+        "x": 114.30554545454531,
+        "z": 1.35
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 128,
+        "sy": 0,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "receive",
+        "frame": 1,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 120,
+      "path": "right-zoom120-receive-tick02-frame1.png",
+      "sha256": "1576cfd99872f77987364395fc5eedf846937a81137a570e4d2e2bf956f450d0"
+    },
+    {
+      "tick": 4,
+      "clip": "receive",
+      "frame": 2,
+      "track": {
+        "height": 1.2,
+        "forward": 2
+      },
+      "ball": {
+        "x": 118.17409090909068,
+        "z": 1.2
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 0,
+        "sy": 96,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "receive",
+        "frame": 2,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 120,
+      "path": "right-zoom120-receive-tick04-frame2.png",
+      "sha256": "d1d8382b9b26ccdeb57f17ed70c6d12521d7e8c60088995f47c851d24d11364d"
+    },
+    {
+      "tick": 5,
+      "clip": "receive",
+      "frame": 3,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 122.62345454545424,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 128,
+        "sy": 96,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "receive",
+        "frame": 3,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 120,
+      "path": "right-zoom120-receive-tick05-frame3.png",
+      "sha256": "05a079ae31741e8edee7b37138ec8c05225c3c0c252f6e0605610a27f3bf92f1"
+    },
+    {
+      "tick": 0,
+      "clip": "idle-ball",
+      "frame": 0,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 128.49199999999962,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "idle-ball",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 120,
+      "path": "right-zoom120-idle-ball-tick00-frame0.png",
+      "sha256": "f4a723c53b2baa7289fe51ee85d76feed49fb299161923daab6b1ec4ca3fb93a"
+    },
+    {
+      "tick": 8,
+      "clip": "idle-ball",
+      "frame": 1,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 133.94136363636318,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 80,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "idle-ball",
+        "frame": 1,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 120,
+      "path": "right-zoom120-idle-ball-tick08-frame1.png",
+      "sha256": "bd7be558bc8afc012c0d57830f559abc5dc4cc36297e3f191c41e2fc78a579f0"
+    },
+    {
+      "tick": 16,
+      "clip": "idle-ball",
+      "frame": 2,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 138.97154545454492,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 0,
+        "sy": 96,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "idle-ball",
+        "frame": 2,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 120,
+      "path": "right-zoom120-idle-ball-tick16-frame2.png",
+      "sha256": "bd35794277b025eb78e63ad910654d800fd4f181cf5231d395b4a3ee15769b07"
+    },
+    {
+      "tick": 24,
+      "clip": "idle-ball",
+      "frame": 3,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 145.2592727272721,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 80,
+        "sy": 96,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "idle-ball",
+        "frame": 3,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 120,
+      "path": "right-zoom120-idle-ball-tick24-frame3.png",
+      "sha256": "98fae8e195c9d4ff9a31735252f37d49486bf24d2d7a184e4145fab13749c145"
+    },
+    {
+      "clip": "pass",
+      "tick": 1,
+      "action": "pass",
+      "ball": {
+        "mode": "carried",
+        "ownerId": "marin-dusk",
+        "lastTouch": "marin-dusk",
+        "x": 155.94536363636294,
+        "z": 1.1647727272727275
+      },
+      "track": {
+        "height": 1.1647727272727275,
+        "forward": 5.113636363636364
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-pass-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 112,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "pass",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 120,
+      "path": "right-zoom120-idle-ball-to-pass.png",
+      "sha256": "96f046c43f4849caa7de053a2331d06925b04fde8e558b4097d227292e16fd77",
+      "transition": "idle-ball\u2192pass"
+    },
+    {
+      "clip": "shoot",
+      "tick": 1,
+      "action": "shot",
+      "ball": {
+        "mode": "carried",
+        "ownerId": "marin-dusk",
+        "lastTouch": "marin-dusk",
+        "x": 163.83529807232998,
+        "z": 1.1742424242424243
+      },
+      "track": {
+        "height": 1.1742424242424243,
+        "forward": 6.43939393939394
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": false,
+        "clip": "shoot",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "right",
+      "zoom": 120,
+      "path": "right-zoom120-idle-ball-to-shoot.png",
+      "sha256": "8e83c2d830bba8da4e8f8d97667664bde4e3a2883e1460bf33c1f8d7eba6f3a5",
+      "transition": "idle-ball\u2192shoot"
+    },
+    {
+      "tick": 0,
+      "clip": "receive",
+      "frame": 0,
+      "track": {
+        "height": 1.3,
+        "forward": 4
+      },
+      "ball": {
+        "x": 91.98218181818187,
+        "z": 1.3250000000000002
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "receive",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 100,
+      "path": "left-zoom100-receive-tick00-frame0.png",
+      "sha256": "210af19db77a8cb5c661370f25e679c370c852b8f5b90cbd50b3539c23ee17a2"
+    },
+    {
+      "tick": 2,
+      "clip": "receive",
+      "frame": 1,
+      "track": {
+        "height": 1.35,
+        "forward": 4
+      },
+      "ball": {
+        "x": 84.01772727272744,
+        "z": 1.35
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 128,
+        "sy": 0,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "receive",
+        "frame": 1,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 100,
+      "path": "left-zoom100-receive-tick02-frame1.png",
+      "sha256": "28ad49c5a4f1796c2a591a7315641576d178355130fe3ec29188d8456aa56954"
+    },
+    {
+      "tick": 4,
+      "clip": "receive",
+      "frame": 2,
+      "track": {
+        "height": 1.2,
+        "forward": 2
+      },
+      "ball": {
+        "x": 78.89163636363664,
+        "z": 1.2
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 0,
+        "sy": 96,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "receive",
+        "frame": 2,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 100,
+      "path": "left-zoom100-receive-tick04-frame2.png",
+      "sha256": "05655f04f343a723eb0ab40585ddcde2e1bba870c6950d159798d0abffa02e7c"
+    },
+    {
+      "tick": 5,
+      "clip": "receive",
+      "frame": 3,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 74.02309090909127,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 128,
+        "sy": 96,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "receive",
+        "frame": 3,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 100,
+      "path": "left-zoom100-receive-tick05-frame3.png",
+      "sha256": "1976caad05cf9c49840f97b7f6567ea28be8d31650ee751be469d61593302ff5"
+    },
+    {
+      "tick": 0,
+      "clip": "idle-ball",
+      "frame": 0,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 67.73536363636408,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "idle-ball",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 100,
+      "path": "left-zoom100-idle-ball-tick00-frame0.png",
+      "sha256": "2af0f9b49a22a410fe732b3f0c758c85ec30e6248eb027555ffe59906d5e45d9"
+    },
+    {
+      "tick": 8,
+      "clip": "idle-ball",
+      "frame": 1,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 62.28600000000051,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 80,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "idle-ball",
+        "frame": 1,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 100,
+      "path": "left-zoom100-idle-ball-tick08-frame1.png",
+      "sha256": "c319552c923d3ec301829f0c5f5cb29bf4e0cf6a5e98ea2bd088cede68a08654"
+    },
+    {
+      "tick": 16,
+      "clip": "idle-ball",
+      "frame": 2,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 56.417454545455044,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 0,
+        "sy": 96,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "idle-ball",
+        "frame": 2,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 100,
+      "path": "left-zoom100-idle-ball-tick16-frame2.png",
+      "sha256": "bd25b793a12903e00ccb0c7e8824d19447f398b506df00df5674bc96bd9a91bf"
+    },
+    {
+      "tick": 24,
+      "clip": "idle-ball",
+      "frame": 3,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 50.968090909091394,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 80,
+        "sy": 96,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "idle-ball",
+        "frame": 3,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 100,
+      "path": "left-zoom100-idle-ball-tick24-frame3.png",
+      "sha256": "a1ad20cd1349671353ae783344ad7b1feeba304d74cdf696d1d658a0113b85fc"
+    },
+    {
+      "clip": "pass",
+      "tick": 2,
+      "action": "pass",
+      "ball": {
+        "mode": "carried",
+        "ownerId": "marin-dusk",
+        "lastTouch": "marin-dusk",
+        "x": 40.850181818182286,
+        "z": 1.1931818181818183
+      },
+      "track": {
+        "height": 1.1931818181818183,
+        "forward": 4.545454545454546
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-pass-right.webp",
+        "sx": 112,
+        "sy": 0,
+        "sourceWidth": 112,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "pass",
+        "frame": 1,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 100,
+      "path": "left-zoom100-idle-ball-to-pass.png",
+      "sha256": "f8705342f98cb3db64773be3473a56febd98cff42e0d0025a47ec3d068ef220c",
+      "transition": "idle-ball\u2192pass"
+    },
+    {
+      "clip": "shoot",
+      "tick": 1,
+      "action": "shot",
+      "ball": {
+        "mode": "carried",
+        "ownerId": "marin-dusk",
+        "lastTouch": "marin-dusk",
+        "x": 32.414949512231274,
+        "z": 1.1742424242424243
+      },
+      "track": {
+        "height": 1.1742424242424243,
+        "forward": 6.43939393939394
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "shoot",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 100,
+      "path": "left-zoom100-idle-ball-to-shoot.png",
+      "sha256": "e25bf1200de8fbd5d2eae3a77d5b0b561618b33b1cd7d801f99f813944f14229",
+      "transition": "idle-ball\u2192shoot"
+    },
+    {
+      "tick": 0,
+      "clip": "receive",
+      "frame": 0,
+      "track": {
+        "height": 1.3,
+        "forward": 4
+      },
+      "ball": {
+        "x": 91.98218181818187,
+        "z": 1.3
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "receive",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 120,
+      "path": "left-zoom120-receive-tick00-frame0.png",
+      "sha256": "80c7ceeb26e2f5d066c335f6b3f21685889c523b263a92242fd8a38690b1efad"
+    },
+    {
+      "tick": 2,
+      "clip": "receive",
+      "frame": 1,
+      "track": {
+        "height": 1.35,
+        "forward": 4
+      },
+      "ball": {
+        "x": 85.69445454545469,
+        "z": 1.35
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 128,
+        "sy": 0,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "receive",
+        "frame": 1,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 120,
+      "path": "left-zoom120-receive-tick02-frame1.png",
+      "sha256": "e33c187bacc0ada4c555c62759124aec3c771d519207dd69004d9e880e8c3e80"
+    },
+    {
+      "tick": 4,
+      "clip": "receive",
+      "frame": 2,
+      "track": {
+        "height": 1.2,
+        "forward": 2
+      },
+      "ball": {
+        "x": 82.24509090909113,
+        "z": 1.2
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 0,
+        "sy": 96,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "receive",
+        "frame": 2,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 120,
+      "path": "left-zoom120-receive-tick04-frame2.png",
+      "sha256": "29ca36c2143953d668a79bb22c334ca95b4b2be6782614580fb638614e33b6ce"
+    },
+    {
+      "tick": 5,
+      "clip": "receive",
+      "frame": 3,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 77.79572727272758,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-receive-right.webp",
+        "sx": 128,
+        "sy": 96,
+        "sourceWidth": 128,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "receive",
+        "frame": 3,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 120,
+      "path": "left-zoom120-receive-tick05-frame3.png",
+      "sha256": "a9c818982a51276f99c41113d076dd40b32a6016e847d73908bfec104b1ffaba"
+    },
+    {
+      "tick": 0,
+      "clip": "idle-ball",
+      "frame": 0,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 72.34636363636402,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "idle-ball",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 120,
+      "path": "left-zoom120-idle-ball-tick00-frame0.png",
+      "sha256": "fb6c626ca9dadda8dadc40b4442b5622cbd615983563356bfb9e58659cf23958"
+    },
+    {
+      "tick": 8,
+      "clip": "idle-ball",
+      "frame": 1,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 66.47781818181865,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 80,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "idle-ball",
+        "frame": 1,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 120,
+      "path": "left-zoom120-idle-ball-tick08-frame1.png",
+      "sha256": "9ffeb897014907d228d6728846f389a4cbc1860e15cfe50f7d893f55344d123e"
+    },
+    {
+      "tick": 16,
+      "clip": "idle-ball",
+      "frame": 2,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 60.19009090909142,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 0,
+        "sy": 96,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "idle-ball",
+        "frame": 2,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 120,
+      "path": "left-zoom120-idle-ball-tick16-frame2.png",
+      "sha256": "a8963a9ec30dafd8d0842376db92597f4a19520858557bee60de60e8cb8a2e15"
+    },
+    {
+      "tick": 24,
+      "clip": "idle-ball",
+      "frame": 3,
+      "track": {
+        "height": 1.45,
+        "forward": 1
+      },
+      "ball": {
+        "x": 53.48318181818231,
+        "z": 1.45
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+        "sx": 80,
+        "sy": 96,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "idle-ball",
+        "frame": 3,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 120,
+      "path": "left-zoom120-idle-ball-tick24-frame3.png",
+      "sha256": "74423231a46208503f912fae5c2f67cf46dcb38429c3711c4852ce3b773f1c08"
+    },
+    {
+      "clip": "pass",
+      "tick": 1,
+      "action": "pass",
+      "ball": {
+        "mode": "carried",
+        "ownerId": "marin-dusk",
+        "lastTouch": "marin-dusk",
+        "x": 42.37790909090956,
+        "z": 1.1647727272727275
+      },
+      "track": {
+        "height": 1.1647727272727275,
+        "forward": 5.113636363636364
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-pass-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 112,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "pass",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 120,
+      "path": "left-zoom120-idle-ball-to-pass.png",
+      "sha256": "c1683e11930dce14ce2a13de367a95e2eba49a5ff6768fbd9850ea0a87ac3f5e",
+      "transition": "idle-ball\u2192pass"
+    },
+    {
+      "clip": "shoot",
+      "tick": 0,
+      "action": "shot",
+      "ball": {
+        "mode": "carried",
+        "ownerId": "marin-dusk",
+        "lastTouch": "marin-dusk",
+        "x": 35.26736330545492,
+        "z": 1.1363636363636365
+      },
+      "track": {
+        "height": 1.1363636363636365,
+        "forward": 5.6818181818181825
+      },
+      "selection": {
+        "atlas": "ref: <Node>",
+        "src": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+        "sx": 0,
+        "sy": 0,
+        "sourceWidth": 80,
+        "sourceHeight": 96,
+        "baselineY": null,
+        "baselineMetadataInvalid": false,
+        "flip": true,
+        "clip": "shoot",
+        "frame": 0,
+        "production": true,
+        "libraryId": "echo-catwalk",
+        "classification": "derived-palette"
+      },
+      "facing": "left",
+      "zoom": 120,
+      "path": "left-zoom120-idle-ball-to-shoot.png",
+      "sha256": "0aebbd02b7756b7b4ed195ce89e822a176e80c5bcd7680b1506d9bc4351ad117",
+      "transition": "idle-ball\u2192shoot"
+    }
+  ],
+  "errors": []
+}

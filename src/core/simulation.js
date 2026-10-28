@@ -155,7 +155,7 @@ function passBall(match, player, turbo, alleyOop = false) {
   const clip=player.animation.clip,tick=player.animation.tick;
   const releaseX=player.x+player.facing*sampleBallForward(clip,tick,player.id),releaseZ=player.z+sampleBallHeight(clip,tick,player.id);
   const dx = target.x-releaseX, dy = target.y-player.y, d = hypot(dx,dy)||1;
-  releaseOwner(match); match.ball.alleyOop=alleyOop;match.assistCandidateId=player.id; match.ball.mode = 'pass'; match.ball.targetId = target.id; match.ball.lastTouch = player.id; match.ball.x = releaseX; match.ball.y = player.y; match.ball.z = releaseZ; match.ball.vx = dx/d*(turbo?1.7:1.15); match.ball.vy = dy/d*(turbo?1.4:.95); match.ball.vz = .02;
+  releaseOwner(match); match.ball.alleyOop=alleyOop;match.assistCandidateId=player.id; match.ball.mode = 'pass'; match.ball.targetId = target.id; match.ball.lastTouch = player.id; match.ball.x = releaseX; match.ball.y = player.y; match.ball.z = releaseZ; match.ball.vx = dx/d*(turbo?1.7:1.15); match.ball.vy = dy/d*(turbo?1.4:.95); match.ball.vz = sampleBallReleaseVz(clip,player.id) ?? .02;
   const hoop=target.team===0?COURT.hoops[1]:COURT.hoops[0];
   if(alleyOop&&target.stun===0&&hypot(hoop-target.x,50-target.y)<22){
     const reverse=alleyOop==='reverse'||alleyOop==='alley-oop-reverse'||(alleyOop!== 'power'&&alleyOop!=='alley-oop-power'&&target.facing!==(target.team===0?1:-1));

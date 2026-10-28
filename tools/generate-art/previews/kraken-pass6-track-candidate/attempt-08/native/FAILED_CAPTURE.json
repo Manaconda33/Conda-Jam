@@ -1,0 +1,10 @@
+{
+  "assetMode": "registered-normal-loader",
+  "candidateAtlasInjected": false,
+  "candidateBallTrackInjected": false,
+  "candidateReceiverTrackInjected": false,
+  "attempt": 8,
+  "failure": "Production selector mismatch at tick 0: registered Kraken pass clip had reviewed:false, so normal production selection returned null source/frame/flip.",
+  "evidenceStatus": "invalid capture setup; do not use as art or gameplay review",
+  "recovery": "Enabled the manifest reviewed flag after independent source/cleanup approval; rerun all four facing/zoom cases under attempt09."
+}

@@ -544,7 +544,10 @@ test('Dorian Mycel and Luca Velori keep possession at their forward hands on cor
 test('reviewed supporting athletes keep the separate game ball at their lead hand',()=>{
  for(const id of ['sera-bellini','moxie-capwell','sable-regent','marco-vellum','flint-rooker','ash-harth','marin-dusk','cove-knell','pixel-o-keeffe','fern-tempo','mira-wavelength','azul-voss','roxie-coil','vanta-slate','sylvie-shutter','noelle-pinstripe','cade-brixton','fenn-static','ember-rivet','bronze-calder','violet-lorne','cassian-quill','sol-meridian','mist-halo','wren-bravado','eden-north','raven-lux','thorn-sable','kai-suncrest','talia-kestrel','detective-halftone','trace-noire','jett-byte','cass-pixel','riff-voltage','fret-nova','thorn-script','nyx-steel','moss-quarry','digger-finch','willow-root','rowan-bark','moth-vale','owl-argent','auric-scale','cinder-royal','nox-striker','viper-veil','moss-granite','thump-alder','camden-union','poppy-stitch'])for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:51,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
-  assert.ok(sampleBallForward('idle-ball',p.animation.tick,id)>=8,id+' idle-ball hand reach');
+  if(id==='marin-dusk'){
+   assert.equal(sampleBallForward('idle-ball',p.animation.tick,id),1,'Marin’s reviewed receive/idle-ball track holds the ball close to her torso');
+   assert.equal(sampleBallHeight('idle-ball',p.animation.tick,id),1.45,'Marin’s separate ball remains chest high');
+  }else assert.ok(sampleBallForward('idle-ball',p.animation.tick,id)>=8,id+' idle-ball hand reach');
   p.x=100;p.y=50;p.facing=facing;p.hasBall=true;m.ball.ownerId=p.id;m.ball.mode='carried';
   for(const [turbo,key] of [[false,'dribble'],[true,'dribble-run']]){
    const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo}):i);
