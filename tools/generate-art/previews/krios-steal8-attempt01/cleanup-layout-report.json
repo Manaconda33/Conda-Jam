@@ -1,0 +1,306 @@
+{
+  "status": "cleanup/layout trial; no production acceptance",
+  "source": "tools/generate-art/sources/krios-steal8-attempt01-generated-raw.png",
+  "sourceSha256": "130ac23b0aee3d348e57c7a9c3eea2fc8ecdb202d9e881e6fa05707bb6081bd7",
+  "key": {
+    "predicate": "G>=130, G-R>=40, G-B>=40",
+    "connectivity": "8-connected canvas-edge matte plus disconnected green islands",
+    "keyedPixels": 1204138,
+    "interiorIslandCount": 9,
+    "smallIslandRGBRepairs": 8,
+    "largeIslandsCleared": 1,
+    "localEdgePixelsCleared": 3210,
+    "weakInteriorRGBRepairs": 1631,
+    "rawPreserved": true,
+    "noRedraw": true
+  },
+  "components": {
+    "expected": 8,
+    "found": 8,
+    "componentBoundsAndPixels": [
+      {
+        "boundsLTRB": [
+          24,
+          129,
+          325,
+          418
+        ],
+        "pixels": 42485
+      },
+      {
+        "boundsLTRB": [
+          383,
+          145,
+          804,
+          418
+        ],
+        "pixels": 49826
+      },
+      {
+        "boundsLTRB": [
+          804,
+          158,
+          1145,
+          418
+        ],
+        "pixels": 46721
+      },
+      {
+        "boundsLTRB": [
+          1184,
+          154,
+          1500,
+          418
+        ],
+        "pixels": 42819
+      },
+      {
+        "boundsLTRB": [
+          28,
+          609,
+          380,
+          914
+        ],
+        "pixels": 49214
+      },
+      {
+        "boundsLTRB": [
+          418,
+          620,
+          722,
+          914
+        ],
+        "pixels": 42901
+      },
+      {
+        "boundsLTRB": [
+          780,
+          597,
+          1160,
+          914
+        ],
+        "pixels": 52129
+      },
+      {
+        "boundsLTRB": [
+          1175,
+          620,
+          1500,
+          914
+        ],
+        "pixels": 45765
+      }
+    ],
+    "componentOrdering": "top-row then bottom-row, sorted left to right",
+    "nominalCellOverflowSeparatedByComponents": true
+  },
+  "layout": {
+    "sourceGrid": [
+      4,
+      2
+    ],
+    "cellSize": [
+      384,
+      512
+    ],
+    "marginRequirement": 24,
+    "uniformFitScale": 0.7980997624703088,
+    "logicalSheet": "tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-logical-layout.png",
+    "runtimeCandidate": "tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+    "runtimeLayout": "tools/generate-art/previews/krios-steal8-attempt01/runtime-layout.json",
+    "frames": [
+      {
+        "frame": 0,
+        "sourceBoundsLTRB": [
+          24,
+          129,
+          325,
+          418
+        ],
+        "sourceComponentPixels": 42485,
+        "uniformFitScale": 0.7980997624703088,
+        "scaledSize": [
+          240,
+          231
+        ],
+        "outputMarginsLTRB": [
+          73,
+          257,
+          72,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "ad7bc4f43d847596b4f9a0ecf771585c8323fbb38694fd2edc5928fbcea0fa4b"
+      },
+      {
+        "frame": 1,
+        "sourceBoundsLTRB": [
+          383,
+          145,
+          804,
+          418
+        ],
+        "sourceComponentPixels": 49826,
+        "uniformFitScale": 0.7980997624703088,
+        "scaledSize": [
+          336,
+          218
+        ],
+        "outputMarginsLTRB": [
+          24,
+          270,
+          24,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "373297f77844f2e923fa0096dd758f8132a79d4461aeb305be9207f9fd4eb5d3"
+      },
+      {
+        "frame": 2,
+        "sourceBoundsLTRB": [
+          804,
+          158,
+          1145,
+          418
+        ],
+        "sourceComponentPixels": 46721,
+        "uniformFitScale": 0.7980997624703088,
+        "scaledSize": [
+          272,
+          208
+        ],
+        "outputMarginsLTRB": [
+          56,
+          280,
+          56,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "8d9ed31461976f896fcfc7d272f584a4ac35856c7a0d926fd6bc52201746b180"
+      },
+      {
+        "frame": 3,
+        "sourceBoundsLTRB": [
+          1184,
+          154,
+          1500,
+          418
+        ],
+        "sourceComponentPixels": 42819,
+        "uniformFitScale": 0.7980997624703088,
+        "scaledSize": [
+          252,
+          211
+        ],
+        "outputMarginsLTRB": [
+          66,
+          277,
+          66,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "54a30540eb9ffe7efc09ad8542e16a8ed0e4d95dd5445ccfadb40be677eb0689"
+      },
+      {
+        "frame": 4,
+        "sourceBoundsLTRB": [
+          28,
+          609,
+          380,
+          914
+        ],
+        "sourceComponentPixels": 49214,
+        "uniformFitScale": 0.7980997624703088,
+        "scaledSize": [
+          281,
+          243
+        ],
+        "outputMarginsLTRB": [
+          51,
+          245,
+          52,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "fe7d2e2096f3dc05ae35e3e4e514c250a8375c880b8785529e0ad2b185eb02a5"
+      },
+      {
+        "frame": 5,
+        "sourceBoundsLTRB": [
+          418,
+          620,
+          722,
+          914
+        ],
+        "sourceComponentPixels": 42901,
+        "uniformFitScale": 0.7980997624703088,
+        "scaledSize": [
+          243,
+          235
+        ],
+        "outputMarginsLTRB": [
+          70,
+          253,
+          71,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "414aebb5fcc99e164566d277599213828979c1bc5405fc3743ce91a5ae71a3bd"
+      },
+      {
+        "frame": 6,
+        "sourceBoundsLTRB": [
+          780,
+          597,
+          1160,
+          914
+        ],
+        "sourceComponentPixels": 52129,
+        "uniformFitScale": 0.7980997624703088,
+        "scaledSize": [
+          303,
+          253
+        ],
+        "outputMarginsLTRB": [
+          41,
+          235,
+          41,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "4728a3372cf80674e0bd31218d0facb8c155d3b3177f6be6bc772b4355c5fbbc"
+      },
+      {
+        "frame": 7,
+        "sourceBoundsLTRB": [
+          1175,
+          620,
+          1500,
+          914
+        ],
+        "sourceComponentPixels": 45765,
+        "uniformFitScale": 0.7980997624703088,
+        "scaledSize": [
+          259,
+          235
+        ],
+        "outputMarginsLTRB": [
+          62,
+          253,
+          63,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "6eea7278e2b3587078f12c4f2c6ea53fd161faaaab837f24a741ba32b8ee3879"
+      }
+    ]
+  }
+}

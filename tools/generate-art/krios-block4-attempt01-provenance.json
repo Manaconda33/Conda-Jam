@@ -1,0 +1,35 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "block",
+  "direction": "right",
+  "attempt": 1,
+  "status": "raw source accepted for cleanup/layout trials only; production and gameplay review pending",
+  "tool": "GPT Image generation",
+  "toolArtifactId": "exec-af81d2ba-7941-493f-8ad7-faab5b83ea41",
+  "generationId": "exec-af81d2ba-7941-493f-8ad7-faab5b83ea41",
+  "generatedAt": "2026-10-28T05:17:52Z",
+  "generationIdNote": "Image-generation tool returned a workspace artifact id; exported PNG is RGB and has no C2PA metadata.",
+  "promptFile": "tools/generate-art/krios-block4-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "cd41d9c33a25da12cb30c229cf4eb1572e33714979f3113676f18376ad71ae03",
+  "rawSourceImage": "tools/generate-art/sources/krios-block4-attempt01-generated-raw.png",
+  "rawSourceSha256": "86ba7df9103d405a7436469cbb5bd9bbd6bfbba91c4616ede58ac42aeabb941b",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "RGB PNG, opaque approximate green chroma key",
+  "identityStyleReference": "public/assets/animation/krios-pass-overhead-right.webp",
+  "references": [
+    "public/assets/animation/krios-pass-overhead-right.webp"
+  ],
+  "cleanupScript": "tools/generate-art/clean-krios-block4-attempt01.py",
+  "cleanupReport": "tools/generate-art/previews/krios-block4-attempt01/cleanup-layout-report.json",
+  "cleanupLayout": "tools/generate-art/previews/krios-block4-attempt01/runtime-layout.json",
+  "cleanupNotes": "tools/generate-art/previews/krios-block4-attempt01/INDEPENDENT_CLEANUP_REVIEW.md pending",
+  "sourceReview": "tools/generate-art/previews/krios-block4-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+  "rejectedAttempts": [],
+  "rejectedGenerationIds": [],
+  "runtimeStatus": "not validated"
+}

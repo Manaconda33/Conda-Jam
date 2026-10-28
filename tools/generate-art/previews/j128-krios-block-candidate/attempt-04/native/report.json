@@ -1,0 +1,377 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "athlete": "krios",
+  "clip": "block",
+  "atlas": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+  "runtimeIntegration": false,
+  "candidateAtlasInjected": true,
+  "court": "current Jam Stage court geometry; Scoria Rams vs Blackthorn Court Kings",
+  "courtY": 90,
+  "sampleTicks": [
+    1,
+    2,
+    5,
+    8
+  ],
+  "captureMethod": "Candidate atlas is injected into the in-memory manifest before app initialization. After the match starts, the harness waits for candidate file decode and places the loaded image in the actual app productionSpriteImages map before triggering the real defensive block input. Production stepMatch and renderer advance the player and camera; the block has no ball track and no ball is injected or painted.",
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "home": "scoria-rams",
+      "away": "blackthorn-court-kings",
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "block",
+          "anim": "block",
+          "z": 0.655,
+          "vz": 0.29,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": false,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/right-frame0-tick1-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "block",
+          "anim": "block",
+          "z": 0.9450000000000001,
+          "vz": 0.26499999999999996,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": false,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/right-frame1-tick2-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "block",
+          "anim": "block",
+          "z": 1.665,
+          "vz": 0.18999999999999997,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": false,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/right-frame2-tick5-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "clip": "block",
+          "anim": "block",
+          "z": 2.16,
+          "vz": 0.11499999999999999,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": false,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/right-frame3-tick8-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "home": "blackthorn-court-kings",
+      "away": "scoria-rams",
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "block",
+          "anim": "block",
+          "z": 0.655,
+          "vz": 0.29,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": true,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/left-frame0-tick1-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "block",
+          "anim": "block",
+          "z": 0.9450000000000001,
+          "vz": 0.26499999999999996,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": true,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/left-frame1-tick2-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "block",
+          "anim": "block",
+          "z": 1.665,
+          "vz": 0.18999999999999997,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": true,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/left-frame2-tick5-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "clip": "block",
+          "anim": "block",
+          "z": 2.16,
+          "vz": 0.11499999999999999,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": true,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/left-frame3-tick8-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "home": "scoria-rams",
+      "away": "blackthorn-court-kings",
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "block",
+          "anim": "block",
+          "z": 0.655,
+          "vz": 0.29,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": false,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/right-frame0-tick1-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "block",
+          "anim": "block",
+          "z": 0.9450000000000001,
+          "vz": 0.26499999999999996,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": false,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/right-frame1-tick2-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "block",
+          "anim": "block",
+          "z": 1.665,
+          "vz": 0.18999999999999997,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": false,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/right-frame2-tick5-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "clip": "block",
+          "anim": "block",
+          "z": 2.16,
+          "vz": 0.11499999999999999,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": false,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/right-frame3-tick8-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "home": "blackthorn-court-kings",
+      "away": "scoria-rams",
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "block",
+          "anim": "block",
+          "z": 0.655,
+          "vz": 0.29,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": true,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/left-frame0-tick1-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "block",
+          "anim": "block",
+          "z": 0.9450000000000001,
+          "vz": 0.26499999999999996,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": true,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/left-frame1-tick2-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "block",
+          "anim": "block",
+          "z": 1.665,
+          "vz": 0.18999999999999997,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": true,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/left-frame2-tick5-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "clip": "block",
+          "anim": "block",
+          "z": 2.16,
+          "vz": 0.11499999999999999,
+          "hasBall": false,
+          "blocks": 0,
+          "ballMode": "dead",
+          "ballOwner": null,
+          "score": [
+            0,
+            0
+          ],
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+          "flip": true,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/left-frame3-tick8-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 16
+}

@@ -1,0 +1,61 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "steal",
+  "direction": "right",
+  "attempt": 1,
+  "status": "source and cleanup/layout accepted for gameplay track trials; not production accepted",
+  "tool": "GPT Image generation",
+  "toolArtifactId": "exec-39768cc2-9574-4838-b0a6-87a22af50a63",
+  "generationId": "exec-39768cc2-9574-4838-b0a6-87a22af50a63",
+  "generatedAt": "2026-10-28T05:44:21Z",
+  "generationIdNote": "Image-generation tool returned a workspace artifact id; exported PNG is RGB and has no C2PA metadata.",
+  "promptFile": "tools/generate-art/krios-steal8-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "b1b9e54d97251b5555cd670ce71cc25ddc3411b58e1c6273dee9d6ad31f32c09",
+  "rawSourceImage": "tools/generate-art/sources/krios-steal8-attempt01-generated-raw.png",
+  "rawSourceSha256": "130ac23b0aee3d348e57c7a9c3eea2fc8ecdb202d9e881e6fa05707bb6081bd7",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "RGB PNG, opaque green chroma key",
+  "identityStyleReference": "public/assets/animation/krios-pass-overhead-right.webp",
+  "references": [
+    "public/assets/animation/krios-pass-overhead-right.webp"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "grabAnchorTick": 5,
+  "ballPolicy": "Ball is a separate Krios-specific gameplay track; no basketball or ball prop may be painted into athlete art.",
+  "rejectedAttempts": [],
+  "rejectedGenerationIds": [],
+  "sourceReview": {
+    "status": "accepted-for-cleanup-trials",
+    "evidence": "tools/generate-art/previews/krios-steal8-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+    "notes": "All eight connected full-body Krios poses, identity, empty hands, and distinct action phases pass source review; cell overflow and variable matte require component isolation and cleanup."
+  },
+  "cleanupReview": {
+    "status": "accepted-for-gameplay-trials",
+    "evidence": "tools/generate-art/previews/krios-steal8-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+    "notes": "Eight complete isolated frames, unique hashes, alpha transparency, zero opaque green spill, \u226524px logical margins, native 128\u00d796 readability, uniform scale and y=94 baseline pass."
+  },
+  "runtimeStatus": "pending athlete-specific ball-track calibration and Jam Stage gameplay review",
+  "rawBytes": 1644587,
+  "cleanupScript": "tools/generate-art/clean-krios-steal8-attempt01.py",
+  "cleanupReport": "tools/generate-art/previews/krios-steal8-attempt01/cleanup-layout-report.json",
+  "cleanupLayout": "tools/generate-art/previews/krios-steal8-attempt01/runtime-layout.json",
+  "candidateAtlas": "tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+  "candidateAtlasSha256": "c63e8abc69e01f2d7ac979852701a8ad6182072b270e4889eb357e6b391decf9",
+  "lightPreview": "tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-light-preview.png",
+  "darkPreview": "tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-dark-preview.png",
+  "cleanupNotes": "tools/generate-art/previews/krios-steal8-attempt01/README.md"
+}
