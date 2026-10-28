@@ -1,0 +1,2598 @@
+{
+  "donorId": "piper-quickstep",
+  "profile": "piper-body-mask-v2",
+  "maskProfile": {
+    "id": "piper-body-mask-v2",
+    "status": "accepted",
+    "jersey": {
+      "region": {
+        "x": [
+          0.31,
+          0.75
+        ],
+        "y": [
+          0.34,
+          0.65
+        ]
+      },
+      "hue": [
+        350,
+        18
+      ],
+      "chromaMin": 50,
+      "luma": [
+        12,
+        165
+      ],
+      "sourceColor": "#b64d27"
+    },
+    "shorts": {
+      "region": {
+        "x": [
+          0.32,
+          0.74
+        ],
+        "y": [
+          0.64,
+          0.82
+        ]
+      },
+      "hue": [
+        350,
+        18
+      ],
+      "chromaMin": 48,
+      "luma": [
+        10,
+        155
+      ],
+      "sourceColor": "#b64d27"
+    },
+    "clips": {
+      "fall": {
+        "jersey": {
+          "region": {
+            "x": [
+              0.32,
+              0.59
+            ],
+            "y": [
+              0.61,
+              0.78
+            ]
+          },
+          "hue": [
+            350,
+            18
+          ],
+          "chromaMin": 50,
+          "luma": [
+            12,
+            165
+          ],
+          "sourceColor": "#b64d27"
+        },
+        "shorts": {
+          "region": {
+            "x": [
+              0.38,
+              0.8
+            ],
+            "y": [
+              0.73,
+              0.87
+            ]
+          },
+          "hue": [
+            350,
+            18
+          ],
+          "chromaMin": 48,
+          "luma": [
+            10,
+            155
+          ],
+          "sourceColor": "#b64d27"
+        }
+      }
+    },
+    "review": {
+      "status": "accepted",
+      "reviewedAt": "2026-10-28",
+      "reviewer": "independent visual review",
+      "scope": "9 mapped target palettes × 29 required clips per donor; enlarged pose-family checks; source alpha compared across every derived clip frame",
+      "evidence": "docs/animation-production/supporting-donor-palette-reviews/piper-quickstep/",
+      "alphaMismatchPixels": 0
+    }
+  },
+  "clipColumns": [
+    "idle",
+    "idle-ball",
+    "dribble",
+    "run",
+    "dribble-run",
+    "shoot",
+    "pass",
+    "pass-overhead",
+    "pass-behind",
+    "receive",
+    "pickup",
+    "layup",
+    "layup-reverse",
+    "block",
+    "steal",
+    "push",
+    "rebound",
+    "fall",
+    "celebrate",
+    "dunk-power",
+    "dunk-windmill",
+    "dunk-reverse",
+    "dunk-360",
+    "dunk-tomahawk",
+    "dunk-double",
+    "dunk-clutch",
+    "dunk-scythe",
+    "alley-oop-power",
+    "alley-oop-reverse"
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "teamId": "amp-city-thunderchords",
+      "teamName": "Amp City Thunderchords",
+      "playerId": "riff-voltage",
+      "palette": [
+        "#bd5a2f",
+        "#eee6d5"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/piper-quickstep-idle-right.webp",
+          "sourceSha256": "872608c12fb31076cc7ab31ae52d46afae48539593b2963c2ec41d0714f9c488",
+          "frameIndex": 2,
+          "frameHash": "0beb2b1bfa0b47c1fcad5dc071e216af4c18ede7530c0c54d063e2e16b20b13c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5494
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/piper-quickstep-idle-ball-right.webp",
+          "sourceSha256": "d117971732d101bde8ae586f36c29dc4a10fa4ff3a60a222a0a6101f51f54725",
+          "frameIndex": 1,
+          "frameHash": "b1e3c57e4e9dec70bc63262e231dcb6441a1f77ccc207610223a5be515bf1ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3356
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/piper-quickstep-dribble-right.webp",
+          "sourceSha256": "7ef9605bde0dc04bb66ad03bf133f85d45670e12f569d713f17199d99edf123d",
+          "frameIndex": 4,
+          "frameHash": "9972227b9eade06a2765a2f50ebd0ca8fd50102bbc736416446a66d0cae1dfaf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8868
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/piper-quickstep-run-right.webp",
+          "sourceSha256": "046c04a77f9322fc65de57de736a4967e3a25587e04f57309dd5de61f16bdfd5",
+          "frameIndex": 5,
+          "frameHash": "0f3814ad91e0e080da02bfc0bdc2752fb3ee0b4c7ab7df7a6136ecdc5edcd321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9735
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/piper-quickstep-dribble-run-right.webp",
+          "sourceSha256": "bd77271a0a582bae42cf1475a17709153f4697cb2e8cf1402c51f0a877f34772",
+          "frameIndex": 5,
+          "frameHash": "8214f078978bb1aa43add2ac340e390cf95d0b1a9b2a00e9798d71c08f502ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10103
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+          "sourceSha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+          "frameIndex": 4,
+          "frameHash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4751
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/piper-quickstep-pass-right.webp",
+          "sourceSha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+          "frameIndex": 2,
+          "frameHash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3134
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+          "sourceSha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+          "frameIndex": 2,
+          "frameHash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3124
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+          "sourceSha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+          "frameIndex": 2,
+          "frameHash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2533
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/piper-quickstep-receive-right.webp",
+          "sourceSha256": "6c1539543df1d7a4509b5aed2d5397faa214bae266fdb0b1c2477c4d5c2ed059",
+          "frameIndex": 1,
+          "frameHash": "74ecea6e9fc114b36833ad42752ef1a696dd42b6e4a2e6e9b78a4ed564f29686",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1732
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/piper-quickstep-pickup-right.webp",
+          "sourceSha256": "b5b067002ac7284211e3ccaff58448c53f7ac1863eec0642c0e58d97f827aeba",
+          "frameIndex": 2,
+          "frameHash": "31614479c1af4374bfd6fc7835ba1e171f294845f753daaef844fbab649dddee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3266
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/piper-quickstep-layup-right.webp",
+          "sourceSha256": "91da885526bd1a00e2fd3641ca37a2d3c07e1fb37f846bf85be566830cc1034b",
+          "frameIndex": 3,
+          "frameHash": "634b9ba35b3f249d47854da671de91acca40b4303b1fd1ddf1deb1d1e9f243d6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4987
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/piper-quickstep-layup-reverse-right.webp",
+          "sourceSha256": "9329d01930c1c3985f2bc609b118e449790bddc20fbefb1cfcb5c92174e97d6e",
+          "frameIndex": 3,
+          "frameHash": "6a4aeef0ac3d9d4f4b4c6f83ee05ccd70d55624ec26a5acf9f13be6468a3b1e3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5605
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/piper-quickstep-block-right.webp",
+          "sourceSha256": "93b574a24b7941f464b3376f3c3409bb4e9fe25febc45bc5a3b9d7ac258e08c2",
+          "frameIndex": 1,
+          "frameHash": "3f1970b7a86f917a51cc030d56512d4f3c5027280cab3f9d360eea1faf3db6d8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1560
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/piper-quickstep-steal-right.webp",
+          "sourceSha256": "0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983",
+          "frameIndex": 3,
+          "frameHash": "4d80846a6ea13eb2d32828d3e2c286d14d40f75cf44def117cae220db9916a29",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3807
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/piper-quickstep-push-right.webp",
+          "sourceSha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+          "frameIndex": 5,
+          "frameHash": "55de2aa1e55cfd1d85fcd42fe217252f254a8e2d24bedc546d78b0d3adc05843",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5419
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/piper-quickstep-rebound-right.webp",
+          "sourceSha256": "b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0",
+          "frameIndex": 2,
+          "frameHash": "221fea393883b9ce4df3c5ae2e82a26edafa060fc3a00aec711f6346c5d13321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2031
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/piper-quickstep-fall-right.webp",
+          "sourceSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+          "frameIndex": 4,
+          "frameHash": "12eb3c128980919ae9b91ccc9f34413dce5a248a919ac214b5e032a571618f72",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/piper-quickstep-celebrate-right.webp",
+          "sourceSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+          "frameIndex": 4,
+          "frameHash": "1c7dcef0a2713d16fc8bd26d4dd18b366de50bd9cd07355e61e98745eca04f95",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5055
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/piper-quickstep-dunk-power-right.webp",
+          "sourceSha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
+          "frameIndex": 7,
+          "frameHash": "7db6074fe3ee0c156430dc7d2816895bff798e10f60a7be493d8c8918315be04",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9888
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+          "sourceSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+          "frameIndex": 7,
+          "frameHash": "11a67128a7687357eeef3980c67cd081e5b20697d54d4c5dd3591ad7e0d0dcff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11157
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/piper-quickstep-dunk-reverse-right.webp",
+          "sourceSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+          "frameIndex": 7,
+          "frameHash": "8b156fd439a44043985c54ebcf29ea6c2d378dc45ae987d2c4447350a5636e8f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11791
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/piper-quickstep-dunk-360-right.webp",
+          "sourceSha256": "cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6",
+          "frameIndex": 7,
+          "frameHash": "0f7e46ee07a8526175a87b74dab63ddf0fbd127907c463ffef44cc390cd1a7dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12823
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/piper-quickstep-dunk-tomahawk-right.webp",
+          "sourceSha256": "0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406",
+          "frameIndex": 7,
+          "frameHash": "7c66161d61083b3d3e8ce3785bd55b41b15f5b89822211bb07edc643bd766c45",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10369
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/piper-quickstep-dunk-double-right.webp",
+          "sourceSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+          "frameIndex": 7,
+          "frameHash": "f60cf76e640b444c5eb5ce913c251c1ca13fb76d82dfa1b45ca98429ba1cf439",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12022
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+          "sourceSha256": "ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a",
+          "frameIndex": 7,
+          "frameHash": "17681f541b61a0b6a01947bc64c98cd308d9f850d6f2b59b752bd5211fa99887",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 16565
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/piper-quickstep-dunk-scythe-right.webp",
+          "sourceSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+          "frameIndex": 7,
+          "frameHash": "d9e071dad2bed6632516ff2336e205cd5fec9e2e4b81dc77ea3af3d9147dff19",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8381
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+          "sourceSha256": "3692527f1be3a9536f76c731b1b0cf95be886b9151bb271f396f74919b4a30d3",
+          "frameIndex": 7,
+          "frameHash": "dc88df9fb7553217d5bbda7898e4b53d123fc7079f7e9818031098e4662063b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8788
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-reverse-right.webp",
+          "sourceSha256": "9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f",
+          "frameIndex": 7,
+          "frameHash": "bb1c1cb06b001fe60e3b0fa067a7d20a005212d502f8f9d5fb97f58caae324b2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8884
+        }
+      ]
+    },
+    {
+      "row": 1,
+      "teamId": "astral-drift-orbits",
+      "teamName": "Astral Drift Orbits",
+      "playerId": "sol-meridian",
+      "palette": [
+        "#347ac0",
+        "#e1bd44"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/piper-quickstep-idle-right.webp",
+          "sourceSha256": "872608c12fb31076cc7ab31ae52d46afae48539593b2963c2ec41d0714f9c488",
+          "frameIndex": 2,
+          "frameHash": "0beb2b1bfa0b47c1fcad5dc071e216af4c18ede7530c0c54d063e2e16b20b13c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5494
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/piper-quickstep-idle-ball-right.webp",
+          "sourceSha256": "d117971732d101bde8ae586f36c29dc4a10fa4ff3a60a222a0a6101f51f54725",
+          "frameIndex": 1,
+          "frameHash": "b1e3c57e4e9dec70bc63262e231dcb6441a1f77ccc207610223a5be515bf1ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3356
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/piper-quickstep-dribble-right.webp",
+          "sourceSha256": "7ef9605bde0dc04bb66ad03bf133f85d45670e12f569d713f17199d99edf123d",
+          "frameIndex": 4,
+          "frameHash": "9972227b9eade06a2765a2f50ebd0ca8fd50102bbc736416446a66d0cae1dfaf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8868
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/piper-quickstep-run-right.webp",
+          "sourceSha256": "046c04a77f9322fc65de57de736a4967e3a25587e04f57309dd5de61f16bdfd5",
+          "frameIndex": 5,
+          "frameHash": "0f3814ad91e0e080da02bfc0bdc2752fb3ee0b4c7ab7df7a6136ecdc5edcd321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9735
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/piper-quickstep-dribble-run-right.webp",
+          "sourceSha256": "bd77271a0a582bae42cf1475a17709153f4697cb2e8cf1402c51f0a877f34772",
+          "frameIndex": 5,
+          "frameHash": "8214f078978bb1aa43add2ac340e390cf95d0b1a9b2a00e9798d71c08f502ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10103
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+          "sourceSha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+          "frameIndex": 4,
+          "frameHash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4751
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/piper-quickstep-pass-right.webp",
+          "sourceSha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+          "frameIndex": 2,
+          "frameHash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3134
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+          "sourceSha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+          "frameIndex": 2,
+          "frameHash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3124
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+          "sourceSha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+          "frameIndex": 2,
+          "frameHash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2533
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/piper-quickstep-receive-right.webp",
+          "sourceSha256": "6c1539543df1d7a4509b5aed2d5397faa214bae266fdb0b1c2477c4d5c2ed059",
+          "frameIndex": 1,
+          "frameHash": "74ecea6e9fc114b36833ad42752ef1a696dd42b6e4a2e6e9b78a4ed564f29686",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1732
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/piper-quickstep-pickup-right.webp",
+          "sourceSha256": "b5b067002ac7284211e3ccaff58448c53f7ac1863eec0642c0e58d97f827aeba",
+          "frameIndex": 2,
+          "frameHash": "31614479c1af4374bfd6fc7835ba1e171f294845f753daaef844fbab649dddee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3266
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/piper-quickstep-layup-right.webp",
+          "sourceSha256": "91da885526bd1a00e2fd3641ca37a2d3c07e1fb37f846bf85be566830cc1034b",
+          "frameIndex": 3,
+          "frameHash": "634b9ba35b3f249d47854da671de91acca40b4303b1fd1ddf1deb1d1e9f243d6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4987
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/piper-quickstep-layup-reverse-right.webp",
+          "sourceSha256": "9329d01930c1c3985f2bc609b118e449790bddc20fbefb1cfcb5c92174e97d6e",
+          "frameIndex": 3,
+          "frameHash": "6a4aeef0ac3d9d4f4b4c6f83ee05ccd70d55624ec26a5acf9f13be6468a3b1e3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5605
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/piper-quickstep-block-right.webp",
+          "sourceSha256": "93b574a24b7941f464b3376f3c3409bb4e9fe25febc45bc5a3b9d7ac258e08c2",
+          "frameIndex": 1,
+          "frameHash": "3f1970b7a86f917a51cc030d56512d4f3c5027280cab3f9d360eea1faf3db6d8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1560
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/piper-quickstep-steal-right.webp",
+          "sourceSha256": "0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983",
+          "frameIndex": 3,
+          "frameHash": "4d80846a6ea13eb2d32828d3e2c286d14d40f75cf44def117cae220db9916a29",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3807
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/piper-quickstep-push-right.webp",
+          "sourceSha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+          "frameIndex": 5,
+          "frameHash": "55de2aa1e55cfd1d85fcd42fe217252f254a8e2d24bedc546d78b0d3adc05843",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5419
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/piper-quickstep-rebound-right.webp",
+          "sourceSha256": "b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0",
+          "frameIndex": 2,
+          "frameHash": "221fea393883b9ce4df3c5ae2e82a26edafa060fc3a00aec711f6346c5d13321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2031
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/piper-quickstep-fall-right.webp",
+          "sourceSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+          "frameIndex": 4,
+          "frameHash": "12eb3c128980919ae9b91ccc9f34413dce5a248a919ac214b5e032a571618f72",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/piper-quickstep-celebrate-right.webp",
+          "sourceSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+          "frameIndex": 4,
+          "frameHash": "1c7dcef0a2713d16fc8bd26d4dd18b366de50bd9cd07355e61e98745eca04f95",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5055
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/piper-quickstep-dunk-power-right.webp",
+          "sourceSha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
+          "frameIndex": 7,
+          "frameHash": "7db6074fe3ee0c156430dc7d2816895bff798e10f60a7be493d8c8918315be04",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9888
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+          "sourceSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+          "frameIndex": 7,
+          "frameHash": "11a67128a7687357eeef3980c67cd081e5b20697d54d4c5dd3591ad7e0d0dcff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11157
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/piper-quickstep-dunk-reverse-right.webp",
+          "sourceSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+          "frameIndex": 7,
+          "frameHash": "8b156fd439a44043985c54ebcf29ea6c2d378dc45ae987d2c4447350a5636e8f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11791
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/piper-quickstep-dunk-360-right.webp",
+          "sourceSha256": "cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6",
+          "frameIndex": 7,
+          "frameHash": "0f7e46ee07a8526175a87b74dab63ddf0fbd127907c463ffef44cc390cd1a7dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12823
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/piper-quickstep-dunk-tomahawk-right.webp",
+          "sourceSha256": "0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406",
+          "frameIndex": 7,
+          "frameHash": "7c66161d61083b3d3e8ce3785bd55b41b15f5b89822211bb07edc643bd766c45",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10369
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/piper-quickstep-dunk-double-right.webp",
+          "sourceSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+          "frameIndex": 7,
+          "frameHash": "f60cf76e640b444c5eb5ce913c251c1ca13fb76d82dfa1b45ca98429ba1cf439",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12022
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+          "sourceSha256": "ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a",
+          "frameIndex": 7,
+          "frameHash": "17681f541b61a0b6a01947bc64c98cd308d9f850d6f2b59b752bd5211fa99887",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 16565
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/piper-quickstep-dunk-scythe-right.webp",
+          "sourceSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+          "frameIndex": 7,
+          "frameHash": "d9e071dad2bed6632516ff2336e205cd5fec9e2e4b81dc77ea3af3d9147dff19",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8381
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+          "sourceSha256": "3692527f1be3a9536f76c731b1b0cf95be886b9151bb271f396f74919b4a30d3",
+          "frameIndex": 7,
+          "frameHash": "dc88df9fb7553217d5bbda7898e4b53d123fc7079f7e9818031098e4662063b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8788
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-reverse-right.webp",
+          "sourceSha256": "9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f",
+          "frameIndex": 7,
+          "frameHash": "bb1c1cb06b001fe60e3b0fa067a7d20a005212d502f8f9d5fb97f58caae324b2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8884
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "teamId": "blueglass-knights",
+      "teamName": "Blueglass Knights",
+      "playerId": "wren-bravado",
+      "palette": [
+        "#31579a",
+        "#171a21"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/piper-quickstep-idle-right.webp",
+          "sourceSha256": "872608c12fb31076cc7ab31ae52d46afae48539593b2963c2ec41d0714f9c488",
+          "frameIndex": 2,
+          "frameHash": "0beb2b1bfa0b47c1fcad5dc071e216af4c18ede7530c0c54d063e2e16b20b13c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5494
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/piper-quickstep-idle-ball-right.webp",
+          "sourceSha256": "d117971732d101bde8ae586f36c29dc4a10fa4ff3a60a222a0a6101f51f54725",
+          "frameIndex": 1,
+          "frameHash": "b1e3c57e4e9dec70bc63262e231dcb6441a1f77ccc207610223a5be515bf1ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3356
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/piper-quickstep-dribble-right.webp",
+          "sourceSha256": "7ef9605bde0dc04bb66ad03bf133f85d45670e12f569d713f17199d99edf123d",
+          "frameIndex": 4,
+          "frameHash": "9972227b9eade06a2765a2f50ebd0ca8fd50102bbc736416446a66d0cae1dfaf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8868
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/piper-quickstep-run-right.webp",
+          "sourceSha256": "046c04a77f9322fc65de57de736a4967e3a25587e04f57309dd5de61f16bdfd5",
+          "frameIndex": 5,
+          "frameHash": "0f3814ad91e0e080da02bfc0bdc2752fb3ee0b4c7ab7df7a6136ecdc5edcd321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9735
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/piper-quickstep-dribble-run-right.webp",
+          "sourceSha256": "bd77271a0a582bae42cf1475a17709153f4697cb2e8cf1402c51f0a877f34772",
+          "frameIndex": 5,
+          "frameHash": "8214f078978bb1aa43add2ac340e390cf95d0b1a9b2a00e9798d71c08f502ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10103
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+          "sourceSha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+          "frameIndex": 4,
+          "frameHash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4751
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/piper-quickstep-pass-right.webp",
+          "sourceSha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+          "frameIndex": 2,
+          "frameHash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3134
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+          "sourceSha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+          "frameIndex": 2,
+          "frameHash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3124
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+          "sourceSha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+          "frameIndex": 2,
+          "frameHash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2533
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/piper-quickstep-receive-right.webp",
+          "sourceSha256": "6c1539543df1d7a4509b5aed2d5397faa214bae266fdb0b1c2477c4d5c2ed059",
+          "frameIndex": 1,
+          "frameHash": "74ecea6e9fc114b36833ad42752ef1a696dd42b6e4a2e6e9b78a4ed564f29686",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1732
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/piper-quickstep-pickup-right.webp",
+          "sourceSha256": "b5b067002ac7284211e3ccaff58448c53f7ac1863eec0642c0e58d97f827aeba",
+          "frameIndex": 2,
+          "frameHash": "31614479c1af4374bfd6fc7835ba1e171f294845f753daaef844fbab649dddee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3266
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/piper-quickstep-layup-right.webp",
+          "sourceSha256": "91da885526bd1a00e2fd3641ca37a2d3c07e1fb37f846bf85be566830cc1034b",
+          "frameIndex": 3,
+          "frameHash": "634b9ba35b3f249d47854da671de91acca40b4303b1fd1ddf1deb1d1e9f243d6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4987
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/piper-quickstep-layup-reverse-right.webp",
+          "sourceSha256": "9329d01930c1c3985f2bc609b118e449790bddc20fbefb1cfcb5c92174e97d6e",
+          "frameIndex": 3,
+          "frameHash": "6a4aeef0ac3d9d4f4b4c6f83ee05ccd70d55624ec26a5acf9f13be6468a3b1e3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5605
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/piper-quickstep-block-right.webp",
+          "sourceSha256": "93b574a24b7941f464b3376f3c3409bb4e9fe25febc45bc5a3b9d7ac258e08c2",
+          "frameIndex": 1,
+          "frameHash": "3f1970b7a86f917a51cc030d56512d4f3c5027280cab3f9d360eea1faf3db6d8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1560
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/piper-quickstep-steal-right.webp",
+          "sourceSha256": "0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983",
+          "frameIndex": 3,
+          "frameHash": "4d80846a6ea13eb2d32828d3e2c286d14d40f75cf44def117cae220db9916a29",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3807
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/piper-quickstep-push-right.webp",
+          "sourceSha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+          "frameIndex": 5,
+          "frameHash": "55de2aa1e55cfd1d85fcd42fe217252f254a8e2d24bedc546d78b0d3adc05843",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5419
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/piper-quickstep-rebound-right.webp",
+          "sourceSha256": "b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0",
+          "frameIndex": 2,
+          "frameHash": "221fea393883b9ce4df3c5ae2e82a26edafa060fc3a00aec711f6346c5d13321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2031
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/piper-quickstep-fall-right.webp",
+          "sourceSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+          "frameIndex": 4,
+          "frameHash": "12eb3c128980919ae9b91ccc9f34413dce5a248a919ac214b5e032a571618f72",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/piper-quickstep-celebrate-right.webp",
+          "sourceSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+          "frameIndex": 4,
+          "frameHash": "1c7dcef0a2713d16fc8bd26d4dd18b366de50bd9cd07355e61e98745eca04f95",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5055
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/piper-quickstep-dunk-power-right.webp",
+          "sourceSha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
+          "frameIndex": 7,
+          "frameHash": "7db6074fe3ee0c156430dc7d2816895bff798e10f60a7be493d8c8918315be04",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9888
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+          "sourceSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+          "frameIndex": 7,
+          "frameHash": "11a67128a7687357eeef3980c67cd081e5b20697d54d4c5dd3591ad7e0d0dcff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11157
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/piper-quickstep-dunk-reverse-right.webp",
+          "sourceSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+          "frameIndex": 7,
+          "frameHash": "8b156fd439a44043985c54ebcf29ea6c2d378dc45ae987d2c4447350a5636e8f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11791
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/piper-quickstep-dunk-360-right.webp",
+          "sourceSha256": "cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6",
+          "frameIndex": 7,
+          "frameHash": "0f7e46ee07a8526175a87b74dab63ddf0fbd127907c463ffef44cc390cd1a7dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12823
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/piper-quickstep-dunk-tomahawk-right.webp",
+          "sourceSha256": "0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406",
+          "frameIndex": 7,
+          "frameHash": "7c66161d61083b3d3e8ce3785bd55b41b15f5b89822211bb07edc643bd766c45",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10369
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/piper-quickstep-dunk-double-right.webp",
+          "sourceSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+          "frameIndex": 7,
+          "frameHash": "f60cf76e640b444c5eb5ce913c251c1ca13fb76d82dfa1b45ca98429ba1cf439",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12022
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+          "sourceSha256": "ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a",
+          "frameIndex": 7,
+          "frameHash": "17681f541b61a0b6a01947bc64c98cd308d9f850d6f2b59b752bd5211fa99887",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 16565
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/piper-quickstep-dunk-scythe-right.webp",
+          "sourceSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+          "frameIndex": 7,
+          "frameHash": "d9e071dad2bed6632516ff2336e205cd5fec9e2e4b81dc77ea3af3d9147dff19",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8381
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+          "sourceSha256": "3692527f1be3a9536f76c731b1b0cf95be886b9151bb271f396f74919b4a30d3",
+          "frameIndex": 7,
+          "frameHash": "dc88df9fb7553217d5bbda7898e4b53d123fc7079f7e9818031098e4662063b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8788
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-reverse-right.webp",
+          "sourceSha256": "9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f",
+          "frameIndex": 7,
+          "frameHash": "bb1c1cb06b001fe60e3b0fa067a7d20a005212d502f8f9d5fb97f58caae324b2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8884
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "teamId": "firenze-serenity",
+      "teamName": "Firenze Serenity",
+      "playerId": "luca-velori",
+      "palette": [
+        "#398d78",
+        "#9c394f"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/piper-quickstep-idle-right.webp",
+          "sourceSha256": "872608c12fb31076cc7ab31ae52d46afae48539593b2963c2ec41d0714f9c488",
+          "frameIndex": 2,
+          "frameHash": "0beb2b1bfa0b47c1fcad5dc071e216af4c18ede7530c0c54d063e2e16b20b13c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5494
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/piper-quickstep-idle-ball-right.webp",
+          "sourceSha256": "d117971732d101bde8ae586f36c29dc4a10fa4ff3a60a222a0a6101f51f54725",
+          "frameIndex": 1,
+          "frameHash": "b1e3c57e4e9dec70bc63262e231dcb6441a1f77ccc207610223a5be515bf1ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3356
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/piper-quickstep-dribble-right.webp",
+          "sourceSha256": "7ef9605bde0dc04bb66ad03bf133f85d45670e12f569d713f17199d99edf123d",
+          "frameIndex": 4,
+          "frameHash": "9972227b9eade06a2765a2f50ebd0ca8fd50102bbc736416446a66d0cae1dfaf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8868
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/piper-quickstep-run-right.webp",
+          "sourceSha256": "046c04a77f9322fc65de57de736a4967e3a25587e04f57309dd5de61f16bdfd5",
+          "frameIndex": 5,
+          "frameHash": "0f3814ad91e0e080da02bfc0bdc2752fb3ee0b4c7ab7df7a6136ecdc5edcd321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9735
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/piper-quickstep-dribble-run-right.webp",
+          "sourceSha256": "bd77271a0a582bae42cf1475a17709153f4697cb2e8cf1402c51f0a877f34772",
+          "frameIndex": 5,
+          "frameHash": "8214f078978bb1aa43add2ac340e390cf95d0b1a9b2a00e9798d71c08f502ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10103
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+          "sourceSha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+          "frameIndex": 4,
+          "frameHash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4751
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/piper-quickstep-pass-right.webp",
+          "sourceSha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+          "frameIndex": 2,
+          "frameHash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3134
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+          "sourceSha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+          "frameIndex": 2,
+          "frameHash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3124
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+          "sourceSha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+          "frameIndex": 2,
+          "frameHash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2533
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/piper-quickstep-receive-right.webp",
+          "sourceSha256": "6c1539543df1d7a4509b5aed2d5397faa214bae266fdb0b1c2477c4d5c2ed059",
+          "frameIndex": 1,
+          "frameHash": "74ecea6e9fc114b36833ad42752ef1a696dd42b6e4a2e6e9b78a4ed564f29686",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1732
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/piper-quickstep-pickup-right.webp",
+          "sourceSha256": "b5b067002ac7284211e3ccaff58448c53f7ac1863eec0642c0e58d97f827aeba",
+          "frameIndex": 2,
+          "frameHash": "31614479c1af4374bfd6fc7835ba1e171f294845f753daaef844fbab649dddee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3266
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/piper-quickstep-layup-right.webp",
+          "sourceSha256": "91da885526bd1a00e2fd3641ca37a2d3c07e1fb37f846bf85be566830cc1034b",
+          "frameIndex": 3,
+          "frameHash": "634b9ba35b3f249d47854da671de91acca40b4303b1fd1ddf1deb1d1e9f243d6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4987
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/piper-quickstep-layup-reverse-right.webp",
+          "sourceSha256": "9329d01930c1c3985f2bc609b118e449790bddc20fbefb1cfcb5c92174e97d6e",
+          "frameIndex": 3,
+          "frameHash": "6a4aeef0ac3d9d4f4b4c6f83ee05ccd70d55624ec26a5acf9f13be6468a3b1e3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5605
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/piper-quickstep-block-right.webp",
+          "sourceSha256": "93b574a24b7941f464b3376f3c3409bb4e9fe25febc45bc5a3b9d7ac258e08c2",
+          "frameIndex": 1,
+          "frameHash": "3f1970b7a86f917a51cc030d56512d4f3c5027280cab3f9d360eea1faf3db6d8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1560
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/piper-quickstep-steal-right.webp",
+          "sourceSha256": "0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983",
+          "frameIndex": 3,
+          "frameHash": "4d80846a6ea13eb2d32828d3e2c286d14d40f75cf44def117cae220db9916a29",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3807
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/piper-quickstep-push-right.webp",
+          "sourceSha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+          "frameIndex": 5,
+          "frameHash": "55de2aa1e55cfd1d85fcd42fe217252f254a8e2d24bedc546d78b0d3adc05843",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5419
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/piper-quickstep-rebound-right.webp",
+          "sourceSha256": "b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0",
+          "frameIndex": 2,
+          "frameHash": "221fea393883b9ce4df3c5ae2e82a26edafa060fc3a00aec711f6346c5d13321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2031
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/piper-quickstep-fall-right.webp",
+          "sourceSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+          "frameIndex": 4,
+          "frameHash": "12eb3c128980919ae9b91ccc9f34413dce5a248a919ac214b5e032a571618f72",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/piper-quickstep-celebrate-right.webp",
+          "sourceSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+          "frameIndex": 4,
+          "frameHash": "1c7dcef0a2713d16fc8bd26d4dd18b366de50bd9cd07355e61e98745eca04f95",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5055
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/piper-quickstep-dunk-power-right.webp",
+          "sourceSha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
+          "frameIndex": 7,
+          "frameHash": "7db6074fe3ee0c156430dc7d2816895bff798e10f60a7be493d8c8918315be04",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9888
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+          "sourceSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+          "frameIndex": 7,
+          "frameHash": "11a67128a7687357eeef3980c67cd081e5b20697d54d4c5dd3591ad7e0d0dcff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11157
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/piper-quickstep-dunk-reverse-right.webp",
+          "sourceSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+          "frameIndex": 7,
+          "frameHash": "8b156fd439a44043985c54ebcf29ea6c2d378dc45ae987d2c4447350a5636e8f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11791
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/piper-quickstep-dunk-360-right.webp",
+          "sourceSha256": "cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6",
+          "frameIndex": 7,
+          "frameHash": "0f7e46ee07a8526175a87b74dab63ddf0fbd127907c463ffef44cc390cd1a7dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12823
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/piper-quickstep-dunk-tomahawk-right.webp",
+          "sourceSha256": "0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406",
+          "frameIndex": 7,
+          "frameHash": "7c66161d61083b3d3e8ce3785bd55b41b15f5b89822211bb07edc643bd766c45",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10369
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/piper-quickstep-dunk-double-right.webp",
+          "sourceSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+          "frameIndex": 7,
+          "frameHash": "f60cf76e640b444c5eb5ce913c251c1ca13fb76d82dfa1b45ca98429ba1cf439",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12022
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+          "sourceSha256": "ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a",
+          "frameIndex": 7,
+          "frameHash": "17681f541b61a0b6a01947bc64c98cd308d9f850d6f2b59b752bd5211fa99887",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 16565
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/piper-quickstep-dunk-scythe-right.webp",
+          "sourceSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+          "frameIndex": 7,
+          "frameHash": "d9e071dad2bed6632516ff2336e205cd5fec9e2e4b81dc77ea3af3d9147dff19",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8381
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+          "sourceSha256": "3692527f1be3a9536f76c731b1b0cf95be886b9151bb271f396f74919b4a30d3",
+          "frameIndex": 7,
+          "frameHash": "dc88df9fb7553217d5bbda7898e4b53d123fc7079f7e9818031098e4662063b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8788
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-reverse-right.webp",
+          "sourceSha256": "9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f",
+          "frameIndex": 7,
+          "frameHash": "bb1c1cb06b001fe60e3b0fa067a7d20a005212d502f8f9d5fb97f58caae324b2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8884
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "teamId": "inkspire-razors",
+      "teamName": "Inkspire Razors",
+      "playerId": "thorn-script",
+      "palette": [
+        "#256346",
+        "#262c2b"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/piper-quickstep-idle-right.webp",
+          "sourceSha256": "872608c12fb31076cc7ab31ae52d46afae48539593b2963c2ec41d0714f9c488",
+          "frameIndex": 2,
+          "frameHash": "0beb2b1bfa0b47c1fcad5dc071e216af4c18ede7530c0c54d063e2e16b20b13c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5494
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/piper-quickstep-idle-ball-right.webp",
+          "sourceSha256": "d117971732d101bde8ae586f36c29dc4a10fa4ff3a60a222a0a6101f51f54725",
+          "frameIndex": 1,
+          "frameHash": "b1e3c57e4e9dec70bc63262e231dcb6441a1f77ccc207610223a5be515bf1ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3356
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/piper-quickstep-dribble-right.webp",
+          "sourceSha256": "7ef9605bde0dc04bb66ad03bf133f85d45670e12f569d713f17199d99edf123d",
+          "frameIndex": 4,
+          "frameHash": "9972227b9eade06a2765a2f50ebd0ca8fd50102bbc736416446a66d0cae1dfaf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8868
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/piper-quickstep-run-right.webp",
+          "sourceSha256": "046c04a77f9322fc65de57de736a4967e3a25587e04f57309dd5de61f16bdfd5",
+          "frameIndex": 5,
+          "frameHash": "0f3814ad91e0e080da02bfc0bdc2752fb3ee0b4c7ab7df7a6136ecdc5edcd321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9735
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/piper-quickstep-dribble-run-right.webp",
+          "sourceSha256": "bd77271a0a582bae42cf1475a17709153f4697cb2e8cf1402c51f0a877f34772",
+          "frameIndex": 5,
+          "frameHash": "8214f078978bb1aa43add2ac340e390cf95d0b1a9b2a00e9798d71c08f502ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10103
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+          "sourceSha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+          "frameIndex": 4,
+          "frameHash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4751
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/piper-quickstep-pass-right.webp",
+          "sourceSha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+          "frameIndex": 2,
+          "frameHash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3134
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+          "sourceSha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+          "frameIndex": 2,
+          "frameHash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3124
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+          "sourceSha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+          "frameIndex": 2,
+          "frameHash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2533
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/piper-quickstep-receive-right.webp",
+          "sourceSha256": "6c1539543df1d7a4509b5aed2d5397faa214bae266fdb0b1c2477c4d5c2ed059",
+          "frameIndex": 1,
+          "frameHash": "74ecea6e9fc114b36833ad42752ef1a696dd42b6e4a2e6e9b78a4ed564f29686",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1732
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/piper-quickstep-pickup-right.webp",
+          "sourceSha256": "b5b067002ac7284211e3ccaff58448c53f7ac1863eec0642c0e58d97f827aeba",
+          "frameIndex": 2,
+          "frameHash": "31614479c1af4374bfd6fc7835ba1e171f294845f753daaef844fbab649dddee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3266
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/piper-quickstep-layup-right.webp",
+          "sourceSha256": "91da885526bd1a00e2fd3641ca37a2d3c07e1fb37f846bf85be566830cc1034b",
+          "frameIndex": 3,
+          "frameHash": "634b9ba35b3f249d47854da671de91acca40b4303b1fd1ddf1deb1d1e9f243d6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4987
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/piper-quickstep-layup-reverse-right.webp",
+          "sourceSha256": "9329d01930c1c3985f2bc609b118e449790bddc20fbefb1cfcb5c92174e97d6e",
+          "frameIndex": 3,
+          "frameHash": "6a4aeef0ac3d9d4f4b4c6f83ee05ccd70d55624ec26a5acf9f13be6468a3b1e3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5605
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/piper-quickstep-block-right.webp",
+          "sourceSha256": "93b574a24b7941f464b3376f3c3409bb4e9fe25febc45bc5a3b9d7ac258e08c2",
+          "frameIndex": 1,
+          "frameHash": "3f1970b7a86f917a51cc030d56512d4f3c5027280cab3f9d360eea1faf3db6d8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1560
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/piper-quickstep-steal-right.webp",
+          "sourceSha256": "0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983",
+          "frameIndex": 3,
+          "frameHash": "4d80846a6ea13eb2d32828d3e2c286d14d40f75cf44def117cae220db9916a29",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3807
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/piper-quickstep-push-right.webp",
+          "sourceSha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+          "frameIndex": 5,
+          "frameHash": "55de2aa1e55cfd1d85fcd42fe217252f254a8e2d24bedc546d78b0d3adc05843",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5419
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/piper-quickstep-rebound-right.webp",
+          "sourceSha256": "b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0",
+          "frameIndex": 2,
+          "frameHash": "221fea393883b9ce4df3c5ae2e82a26edafa060fc3a00aec711f6346c5d13321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2031
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/piper-quickstep-fall-right.webp",
+          "sourceSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+          "frameIndex": 4,
+          "frameHash": "12eb3c128980919ae9b91ccc9f34413dce5a248a919ac214b5e032a571618f72",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/piper-quickstep-celebrate-right.webp",
+          "sourceSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+          "frameIndex": 4,
+          "frameHash": "1c7dcef0a2713d16fc8bd26d4dd18b366de50bd9cd07355e61e98745eca04f95",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5055
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/piper-quickstep-dunk-power-right.webp",
+          "sourceSha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
+          "frameIndex": 7,
+          "frameHash": "7db6074fe3ee0c156430dc7d2816895bff798e10f60a7be493d8c8918315be04",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9888
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+          "sourceSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+          "frameIndex": 7,
+          "frameHash": "11a67128a7687357eeef3980c67cd081e5b20697d54d4c5dd3591ad7e0d0dcff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11157
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/piper-quickstep-dunk-reverse-right.webp",
+          "sourceSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+          "frameIndex": 7,
+          "frameHash": "8b156fd439a44043985c54ebcf29ea6c2d378dc45ae987d2c4447350a5636e8f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11791
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/piper-quickstep-dunk-360-right.webp",
+          "sourceSha256": "cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6",
+          "frameIndex": 7,
+          "frameHash": "0f7e46ee07a8526175a87b74dab63ddf0fbd127907c463ffef44cc390cd1a7dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12823
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/piper-quickstep-dunk-tomahawk-right.webp",
+          "sourceSha256": "0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406",
+          "frameIndex": 7,
+          "frameHash": "7c66161d61083b3d3e8ce3785bd55b41b15f5b89822211bb07edc643bd766c45",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10369
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/piper-quickstep-dunk-double-right.webp",
+          "sourceSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+          "frameIndex": 7,
+          "frameHash": "f60cf76e640b444c5eb5ce913c251c1ca13fb76d82dfa1b45ca98429ba1cf439",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12022
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+          "sourceSha256": "ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a",
+          "frameIndex": 7,
+          "frameHash": "17681f541b61a0b6a01947bc64c98cd308d9f850d6f2b59b752bd5211fa99887",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 16565
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/piper-quickstep-dunk-scythe-right.webp",
+          "sourceSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+          "frameIndex": 7,
+          "frameHash": "d9e071dad2bed6632516ff2336e205cd5fec9e2e4b81dc77ea3af3d9147dff19",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8381
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+          "sourceSha256": "3692527f1be3a9536f76c731b1b0cf95be886b9151bb271f396f74919b4a30d3",
+          "frameIndex": 7,
+          "frameHash": "dc88df9fb7553217d5bbda7898e4b53d123fc7079f7e9818031098e4662063b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8788
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-reverse-right.webp",
+          "sourceSha256": "9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f",
+          "frameIndex": 7,
+          "frameHash": "bb1c1cb06b001fe60e3b0fa067a7d20a005212d502f8f9d5fb97f58caae324b2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8884
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "teamId": "lantern-hollow-wombats",
+      "teamName": "Lantern Hollow Wombats",
+      "playerId": "moss-quarry",
+      "palette": [
+        "#5b7041",
+        "#d6a64b"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/piper-quickstep-idle-right.webp",
+          "sourceSha256": "872608c12fb31076cc7ab31ae52d46afae48539593b2963c2ec41d0714f9c488",
+          "frameIndex": 2,
+          "frameHash": "0beb2b1bfa0b47c1fcad5dc071e216af4c18ede7530c0c54d063e2e16b20b13c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5494
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/piper-quickstep-idle-ball-right.webp",
+          "sourceSha256": "d117971732d101bde8ae586f36c29dc4a10fa4ff3a60a222a0a6101f51f54725",
+          "frameIndex": 1,
+          "frameHash": "b1e3c57e4e9dec70bc63262e231dcb6441a1f77ccc207610223a5be515bf1ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3356
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/piper-quickstep-dribble-right.webp",
+          "sourceSha256": "7ef9605bde0dc04bb66ad03bf133f85d45670e12f569d713f17199d99edf123d",
+          "frameIndex": 4,
+          "frameHash": "9972227b9eade06a2765a2f50ebd0ca8fd50102bbc736416446a66d0cae1dfaf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8868
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/piper-quickstep-run-right.webp",
+          "sourceSha256": "046c04a77f9322fc65de57de736a4967e3a25587e04f57309dd5de61f16bdfd5",
+          "frameIndex": 5,
+          "frameHash": "0f3814ad91e0e080da02bfc0bdc2752fb3ee0b4c7ab7df7a6136ecdc5edcd321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9735
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/piper-quickstep-dribble-run-right.webp",
+          "sourceSha256": "bd77271a0a582bae42cf1475a17709153f4697cb2e8cf1402c51f0a877f34772",
+          "frameIndex": 5,
+          "frameHash": "8214f078978bb1aa43add2ac340e390cf95d0b1a9b2a00e9798d71c08f502ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10103
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+          "sourceSha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+          "frameIndex": 4,
+          "frameHash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4751
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/piper-quickstep-pass-right.webp",
+          "sourceSha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+          "frameIndex": 2,
+          "frameHash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3134
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+          "sourceSha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+          "frameIndex": 2,
+          "frameHash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3124
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+          "sourceSha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+          "frameIndex": 2,
+          "frameHash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2533
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/piper-quickstep-receive-right.webp",
+          "sourceSha256": "6c1539543df1d7a4509b5aed2d5397faa214bae266fdb0b1c2477c4d5c2ed059",
+          "frameIndex": 1,
+          "frameHash": "74ecea6e9fc114b36833ad42752ef1a696dd42b6e4a2e6e9b78a4ed564f29686",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1732
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/piper-quickstep-pickup-right.webp",
+          "sourceSha256": "b5b067002ac7284211e3ccaff58448c53f7ac1863eec0642c0e58d97f827aeba",
+          "frameIndex": 2,
+          "frameHash": "31614479c1af4374bfd6fc7835ba1e171f294845f753daaef844fbab649dddee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3266
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/piper-quickstep-layup-right.webp",
+          "sourceSha256": "91da885526bd1a00e2fd3641ca37a2d3c07e1fb37f846bf85be566830cc1034b",
+          "frameIndex": 3,
+          "frameHash": "634b9ba35b3f249d47854da671de91acca40b4303b1fd1ddf1deb1d1e9f243d6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4987
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/piper-quickstep-layup-reverse-right.webp",
+          "sourceSha256": "9329d01930c1c3985f2bc609b118e449790bddc20fbefb1cfcb5c92174e97d6e",
+          "frameIndex": 3,
+          "frameHash": "6a4aeef0ac3d9d4f4b4c6f83ee05ccd70d55624ec26a5acf9f13be6468a3b1e3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5605
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/piper-quickstep-block-right.webp",
+          "sourceSha256": "93b574a24b7941f464b3376f3c3409bb4e9fe25febc45bc5a3b9d7ac258e08c2",
+          "frameIndex": 1,
+          "frameHash": "3f1970b7a86f917a51cc030d56512d4f3c5027280cab3f9d360eea1faf3db6d8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1560
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/piper-quickstep-steal-right.webp",
+          "sourceSha256": "0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983",
+          "frameIndex": 3,
+          "frameHash": "4d80846a6ea13eb2d32828d3e2c286d14d40f75cf44def117cae220db9916a29",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3807
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/piper-quickstep-push-right.webp",
+          "sourceSha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+          "frameIndex": 5,
+          "frameHash": "55de2aa1e55cfd1d85fcd42fe217252f254a8e2d24bedc546d78b0d3adc05843",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5419
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/piper-quickstep-rebound-right.webp",
+          "sourceSha256": "b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0",
+          "frameIndex": 2,
+          "frameHash": "221fea393883b9ce4df3c5ae2e82a26edafa060fc3a00aec711f6346c5d13321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2031
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/piper-quickstep-fall-right.webp",
+          "sourceSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+          "frameIndex": 4,
+          "frameHash": "12eb3c128980919ae9b91ccc9f34413dce5a248a919ac214b5e032a571618f72",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/piper-quickstep-celebrate-right.webp",
+          "sourceSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+          "frameIndex": 4,
+          "frameHash": "1c7dcef0a2713d16fc8bd26d4dd18b366de50bd9cd07355e61e98745eca04f95",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5055
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/piper-quickstep-dunk-power-right.webp",
+          "sourceSha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
+          "frameIndex": 7,
+          "frameHash": "7db6074fe3ee0c156430dc7d2816895bff798e10f60a7be493d8c8918315be04",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9888
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+          "sourceSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+          "frameIndex": 7,
+          "frameHash": "11a67128a7687357eeef3980c67cd081e5b20697d54d4c5dd3591ad7e0d0dcff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11157
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/piper-quickstep-dunk-reverse-right.webp",
+          "sourceSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+          "frameIndex": 7,
+          "frameHash": "8b156fd439a44043985c54ebcf29ea6c2d378dc45ae987d2c4447350a5636e8f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11791
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/piper-quickstep-dunk-360-right.webp",
+          "sourceSha256": "cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6",
+          "frameIndex": 7,
+          "frameHash": "0f7e46ee07a8526175a87b74dab63ddf0fbd127907c463ffef44cc390cd1a7dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12823
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/piper-quickstep-dunk-tomahawk-right.webp",
+          "sourceSha256": "0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406",
+          "frameIndex": 7,
+          "frameHash": "7c66161d61083b3d3e8ce3785bd55b41b15f5b89822211bb07edc643bd766c45",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10369
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/piper-quickstep-dunk-double-right.webp",
+          "sourceSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+          "frameIndex": 7,
+          "frameHash": "f60cf76e640b444c5eb5ce913c251c1ca13fb76d82dfa1b45ca98429ba1cf439",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12022
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+          "sourceSha256": "ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a",
+          "frameIndex": 7,
+          "frameHash": "17681f541b61a0b6a01947bc64c98cd308d9f850d6f2b59b752bd5211fa99887",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 16565
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/piper-quickstep-dunk-scythe-right.webp",
+          "sourceSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+          "frameIndex": 7,
+          "frameHash": "d9e071dad2bed6632516ff2336e205cd5fec9e2e4b81dc77ea3af3d9147dff19",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8381
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+          "sourceSha256": "3692527f1be3a9536f76c731b1b0cf95be886b9151bb271f396f74919b4a30d3",
+          "frameIndex": 7,
+          "frameHash": "dc88df9fb7553217d5bbda7898e4b53d123fc7079f7e9818031098e4662063b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8788
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-reverse-right.webp",
+          "sourceSha256": "9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f",
+          "frameIndex": 7,
+          "frameHash": "bb1c1cb06b001fe60e3b0fa067a7d20a005212d502f8f9d5fb97f58caae324b2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8884
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "teamId": "neon-circuit-pilots",
+      "teamName": "Neon Circuit Pilots",
+      "playerId": "cass-pixel",
+      "palette": [
+        "#26bad0",
+        "#d03d9f"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/piper-quickstep-idle-right.webp",
+          "sourceSha256": "872608c12fb31076cc7ab31ae52d46afae48539593b2963c2ec41d0714f9c488",
+          "frameIndex": 2,
+          "frameHash": "0beb2b1bfa0b47c1fcad5dc071e216af4c18ede7530c0c54d063e2e16b20b13c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5494
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/piper-quickstep-idle-ball-right.webp",
+          "sourceSha256": "d117971732d101bde8ae586f36c29dc4a10fa4ff3a60a222a0a6101f51f54725",
+          "frameIndex": 1,
+          "frameHash": "b1e3c57e4e9dec70bc63262e231dcb6441a1f77ccc207610223a5be515bf1ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3356
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/piper-quickstep-dribble-right.webp",
+          "sourceSha256": "7ef9605bde0dc04bb66ad03bf133f85d45670e12f569d713f17199d99edf123d",
+          "frameIndex": 4,
+          "frameHash": "9972227b9eade06a2765a2f50ebd0ca8fd50102bbc736416446a66d0cae1dfaf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8868
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/piper-quickstep-run-right.webp",
+          "sourceSha256": "046c04a77f9322fc65de57de736a4967e3a25587e04f57309dd5de61f16bdfd5",
+          "frameIndex": 5,
+          "frameHash": "0f3814ad91e0e080da02bfc0bdc2752fb3ee0b4c7ab7df7a6136ecdc5edcd321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9735
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/piper-quickstep-dribble-run-right.webp",
+          "sourceSha256": "bd77271a0a582bae42cf1475a17709153f4697cb2e8cf1402c51f0a877f34772",
+          "frameIndex": 5,
+          "frameHash": "8214f078978bb1aa43add2ac340e390cf95d0b1a9b2a00e9798d71c08f502ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10103
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+          "sourceSha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+          "frameIndex": 4,
+          "frameHash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4751
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/piper-quickstep-pass-right.webp",
+          "sourceSha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+          "frameIndex": 2,
+          "frameHash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3134
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+          "sourceSha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+          "frameIndex": 2,
+          "frameHash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3124
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+          "sourceSha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+          "frameIndex": 2,
+          "frameHash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2533
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/piper-quickstep-receive-right.webp",
+          "sourceSha256": "6c1539543df1d7a4509b5aed2d5397faa214bae266fdb0b1c2477c4d5c2ed059",
+          "frameIndex": 1,
+          "frameHash": "74ecea6e9fc114b36833ad42752ef1a696dd42b6e4a2e6e9b78a4ed564f29686",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1732
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/piper-quickstep-pickup-right.webp",
+          "sourceSha256": "b5b067002ac7284211e3ccaff58448c53f7ac1863eec0642c0e58d97f827aeba",
+          "frameIndex": 2,
+          "frameHash": "31614479c1af4374bfd6fc7835ba1e171f294845f753daaef844fbab649dddee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3266
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/piper-quickstep-layup-right.webp",
+          "sourceSha256": "91da885526bd1a00e2fd3641ca37a2d3c07e1fb37f846bf85be566830cc1034b",
+          "frameIndex": 3,
+          "frameHash": "634b9ba35b3f249d47854da671de91acca40b4303b1fd1ddf1deb1d1e9f243d6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4987
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/piper-quickstep-layup-reverse-right.webp",
+          "sourceSha256": "9329d01930c1c3985f2bc609b118e449790bddc20fbefb1cfcb5c92174e97d6e",
+          "frameIndex": 3,
+          "frameHash": "6a4aeef0ac3d9d4f4b4c6f83ee05ccd70d55624ec26a5acf9f13be6468a3b1e3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5605
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/piper-quickstep-block-right.webp",
+          "sourceSha256": "93b574a24b7941f464b3376f3c3409bb4e9fe25febc45bc5a3b9d7ac258e08c2",
+          "frameIndex": 1,
+          "frameHash": "3f1970b7a86f917a51cc030d56512d4f3c5027280cab3f9d360eea1faf3db6d8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1560
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/piper-quickstep-steal-right.webp",
+          "sourceSha256": "0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983",
+          "frameIndex": 3,
+          "frameHash": "4d80846a6ea13eb2d32828d3e2c286d14d40f75cf44def117cae220db9916a29",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3807
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/piper-quickstep-push-right.webp",
+          "sourceSha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+          "frameIndex": 5,
+          "frameHash": "55de2aa1e55cfd1d85fcd42fe217252f254a8e2d24bedc546d78b0d3adc05843",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5419
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/piper-quickstep-rebound-right.webp",
+          "sourceSha256": "b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0",
+          "frameIndex": 2,
+          "frameHash": "221fea393883b9ce4df3c5ae2e82a26edafa060fc3a00aec711f6346c5d13321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2031
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/piper-quickstep-fall-right.webp",
+          "sourceSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+          "frameIndex": 4,
+          "frameHash": "12eb3c128980919ae9b91ccc9f34413dce5a248a919ac214b5e032a571618f72",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/piper-quickstep-celebrate-right.webp",
+          "sourceSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+          "frameIndex": 4,
+          "frameHash": "1c7dcef0a2713d16fc8bd26d4dd18b366de50bd9cd07355e61e98745eca04f95",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5055
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/piper-quickstep-dunk-power-right.webp",
+          "sourceSha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
+          "frameIndex": 7,
+          "frameHash": "7db6074fe3ee0c156430dc7d2816895bff798e10f60a7be493d8c8918315be04",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9888
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+          "sourceSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+          "frameIndex": 7,
+          "frameHash": "11a67128a7687357eeef3980c67cd081e5b20697d54d4c5dd3591ad7e0d0dcff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11157
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/piper-quickstep-dunk-reverse-right.webp",
+          "sourceSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+          "frameIndex": 7,
+          "frameHash": "8b156fd439a44043985c54ebcf29ea6c2d378dc45ae987d2c4447350a5636e8f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11791
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/piper-quickstep-dunk-360-right.webp",
+          "sourceSha256": "cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6",
+          "frameIndex": 7,
+          "frameHash": "0f7e46ee07a8526175a87b74dab63ddf0fbd127907c463ffef44cc390cd1a7dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12823
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/piper-quickstep-dunk-tomahawk-right.webp",
+          "sourceSha256": "0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406",
+          "frameIndex": 7,
+          "frameHash": "7c66161d61083b3d3e8ce3785bd55b41b15f5b89822211bb07edc643bd766c45",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10369
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/piper-quickstep-dunk-double-right.webp",
+          "sourceSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+          "frameIndex": 7,
+          "frameHash": "f60cf76e640b444c5eb5ce913c251c1ca13fb76d82dfa1b45ca98429ba1cf439",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12022
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+          "sourceSha256": "ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a",
+          "frameIndex": 7,
+          "frameHash": "17681f541b61a0b6a01947bc64c98cd308d9f850d6f2b59b752bd5211fa99887",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 16565
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/piper-quickstep-dunk-scythe-right.webp",
+          "sourceSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+          "frameIndex": 7,
+          "frameHash": "d9e071dad2bed6632516ff2336e205cd5fec9e2e4b81dc77ea3af3d9147dff19",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8381
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+          "sourceSha256": "3692527f1be3a9536f76c731b1b0cf95be886b9151bb271f396f74919b4a30d3",
+          "frameIndex": 7,
+          "frameHash": "dc88df9fb7553217d5bbda7898e4b53d123fc7079f7e9818031098e4662063b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8788
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-reverse-right.webp",
+          "sourceSha256": "9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f",
+          "frameIndex": 7,
+          "frameHash": "bb1c1cb06b001fe60e3b0fa067a7d20a005212d502f8f9d5fb97f58caae324b2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8884
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "teamId": "solstice-coast-surf",
+      "teamName": "Solstice Coast Surf",
+      "playerId": "kai-suncrest",
+      "palette": [
+        "#398e82",
+        "#df8544"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/piper-quickstep-idle-right.webp",
+          "sourceSha256": "872608c12fb31076cc7ab31ae52d46afae48539593b2963c2ec41d0714f9c488",
+          "frameIndex": 2,
+          "frameHash": "0beb2b1bfa0b47c1fcad5dc071e216af4c18ede7530c0c54d063e2e16b20b13c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5494
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/piper-quickstep-idle-ball-right.webp",
+          "sourceSha256": "d117971732d101bde8ae586f36c29dc4a10fa4ff3a60a222a0a6101f51f54725",
+          "frameIndex": 1,
+          "frameHash": "b1e3c57e4e9dec70bc63262e231dcb6441a1f77ccc207610223a5be515bf1ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3356
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/piper-quickstep-dribble-right.webp",
+          "sourceSha256": "7ef9605bde0dc04bb66ad03bf133f85d45670e12f569d713f17199d99edf123d",
+          "frameIndex": 4,
+          "frameHash": "9972227b9eade06a2765a2f50ebd0ca8fd50102bbc736416446a66d0cae1dfaf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8868
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/piper-quickstep-run-right.webp",
+          "sourceSha256": "046c04a77f9322fc65de57de736a4967e3a25587e04f57309dd5de61f16bdfd5",
+          "frameIndex": 5,
+          "frameHash": "0f3814ad91e0e080da02bfc0bdc2752fb3ee0b4c7ab7df7a6136ecdc5edcd321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9735
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/piper-quickstep-dribble-run-right.webp",
+          "sourceSha256": "bd77271a0a582bae42cf1475a17709153f4697cb2e8cf1402c51f0a877f34772",
+          "frameIndex": 5,
+          "frameHash": "8214f078978bb1aa43add2ac340e390cf95d0b1a9b2a00e9798d71c08f502ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10103
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+          "sourceSha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+          "frameIndex": 4,
+          "frameHash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4751
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/piper-quickstep-pass-right.webp",
+          "sourceSha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+          "frameIndex": 2,
+          "frameHash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3134
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+          "sourceSha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+          "frameIndex": 2,
+          "frameHash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3124
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+          "sourceSha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+          "frameIndex": 2,
+          "frameHash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2533
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/piper-quickstep-receive-right.webp",
+          "sourceSha256": "6c1539543df1d7a4509b5aed2d5397faa214bae266fdb0b1c2477c4d5c2ed059",
+          "frameIndex": 1,
+          "frameHash": "74ecea6e9fc114b36833ad42752ef1a696dd42b6e4a2e6e9b78a4ed564f29686",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1732
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/piper-quickstep-pickup-right.webp",
+          "sourceSha256": "b5b067002ac7284211e3ccaff58448c53f7ac1863eec0642c0e58d97f827aeba",
+          "frameIndex": 2,
+          "frameHash": "31614479c1af4374bfd6fc7835ba1e171f294845f753daaef844fbab649dddee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3266
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/piper-quickstep-layup-right.webp",
+          "sourceSha256": "91da885526bd1a00e2fd3641ca37a2d3c07e1fb37f846bf85be566830cc1034b",
+          "frameIndex": 3,
+          "frameHash": "634b9ba35b3f249d47854da671de91acca40b4303b1fd1ddf1deb1d1e9f243d6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4987
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/piper-quickstep-layup-reverse-right.webp",
+          "sourceSha256": "9329d01930c1c3985f2bc609b118e449790bddc20fbefb1cfcb5c92174e97d6e",
+          "frameIndex": 3,
+          "frameHash": "6a4aeef0ac3d9d4f4b4c6f83ee05ccd70d55624ec26a5acf9f13be6468a3b1e3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5605
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/piper-quickstep-block-right.webp",
+          "sourceSha256": "93b574a24b7941f464b3376f3c3409bb4e9fe25febc45bc5a3b9d7ac258e08c2",
+          "frameIndex": 1,
+          "frameHash": "3f1970b7a86f917a51cc030d56512d4f3c5027280cab3f9d360eea1faf3db6d8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1560
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/piper-quickstep-steal-right.webp",
+          "sourceSha256": "0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983",
+          "frameIndex": 3,
+          "frameHash": "4d80846a6ea13eb2d32828d3e2c286d14d40f75cf44def117cae220db9916a29",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3807
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/piper-quickstep-push-right.webp",
+          "sourceSha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+          "frameIndex": 5,
+          "frameHash": "55de2aa1e55cfd1d85fcd42fe217252f254a8e2d24bedc546d78b0d3adc05843",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5419
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/piper-quickstep-rebound-right.webp",
+          "sourceSha256": "b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0",
+          "frameIndex": 2,
+          "frameHash": "221fea393883b9ce4df3c5ae2e82a26edafa060fc3a00aec711f6346c5d13321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2031
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/piper-quickstep-fall-right.webp",
+          "sourceSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+          "frameIndex": 4,
+          "frameHash": "12eb3c128980919ae9b91ccc9f34413dce5a248a919ac214b5e032a571618f72",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/piper-quickstep-celebrate-right.webp",
+          "sourceSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+          "frameIndex": 4,
+          "frameHash": "1c7dcef0a2713d16fc8bd26d4dd18b366de50bd9cd07355e61e98745eca04f95",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5055
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/piper-quickstep-dunk-power-right.webp",
+          "sourceSha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
+          "frameIndex": 7,
+          "frameHash": "7db6074fe3ee0c156430dc7d2816895bff798e10f60a7be493d8c8918315be04",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9888
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+          "sourceSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+          "frameIndex": 7,
+          "frameHash": "11a67128a7687357eeef3980c67cd081e5b20697d54d4c5dd3591ad7e0d0dcff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11157
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/piper-quickstep-dunk-reverse-right.webp",
+          "sourceSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+          "frameIndex": 7,
+          "frameHash": "8b156fd439a44043985c54ebcf29ea6c2d378dc45ae987d2c4447350a5636e8f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11791
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/piper-quickstep-dunk-360-right.webp",
+          "sourceSha256": "cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6",
+          "frameIndex": 7,
+          "frameHash": "0f7e46ee07a8526175a87b74dab63ddf0fbd127907c463ffef44cc390cd1a7dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12823
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/piper-quickstep-dunk-tomahawk-right.webp",
+          "sourceSha256": "0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406",
+          "frameIndex": 7,
+          "frameHash": "7c66161d61083b3d3e8ce3785bd55b41b15f5b89822211bb07edc643bd766c45",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10369
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/piper-quickstep-dunk-double-right.webp",
+          "sourceSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+          "frameIndex": 7,
+          "frameHash": "f60cf76e640b444c5eb5ce913c251c1ca13fb76d82dfa1b45ca98429ba1cf439",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12022
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+          "sourceSha256": "ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a",
+          "frameIndex": 7,
+          "frameHash": "17681f541b61a0b6a01947bc64c98cd308d9f850d6f2b59b752bd5211fa99887",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 16565
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/piper-quickstep-dunk-scythe-right.webp",
+          "sourceSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+          "frameIndex": 7,
+          "frameHash": "d9e071dad2bed6632516ff2336e205cd5fec9e2e4b81dc77ea3af3d9147dff19",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8381
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+          "sourceSha256": "3692527f1be3a9536f76c731b1b0cf95be886b9151bb271f396f74919b4a30d3",
+          "frameIndex": 7,
+          "frameHash": "dc88df9fb7553217d5bbda7898e4b53d123fc7079f7e9818031098e4662063b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8788
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-reverse-right.webp",
+          "sourceSha256": "9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f",
+          "frameIndex": 7,
+          "frameHash": "bb1c1cb06b001fe60e3b0fa067a7d20a005212d502f8f9d5fb97f58caae324b2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8884
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "teamId": "verdant-reach-archers",
+      "teamName": "Verdant Reach Archers",
+      "playerId": "sage-fletch",
+      "palette": [
+        "#538b45",
+        "#dfa94c"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/piper-quickstep-idle-right.webp",
+          "sourceSha256": "872608c12fb31076cc7ab31ae52d46afae48539593b2963c2ec41d0714f9c488",
+          "frameIndex": 2,
+          "frameHash": "0beb2b1bfa0b47c1fcad5dc071e216af4c18ede7530c0c54d063e2e16b20b13c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5494
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/piper-quickstep-idle-ball-right.webp",
+          "sourceSha256": "d117971732d101bde8ae586f36c29dc4a10fa4ff3a60a222a0a6101f51f54725",
+          "frameIndex": 1,
+          "frameHash": "b1e3c57e4e9dec70bc63262e231dcb6441a1f77ccc207610223a5be515bf1ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3356
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/piper-quickstep-dribble-right.webp",
+          "sourceSha256": "7ef9605bde0dc04bb66ad03bf133f85d45670e12f569d713f17199d99edf123d",
+          "frameIndex": 4,
+          "frameHash": "9972227b9eade06a2765a2f50ebd0ca8fd50102bbc736416446a66d0cae1dfaf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8868
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/piper-quickstep-run-right.webp",
+          "sourceSha256": "046c04a77f9322fc65de57de736a4967e3a25587e04f57309dd5de61f16bdfd5",
+          "frameIndex": 5,
+          "frameHash": "0f3814ad91e0e080da02bfc0bdc2752fb3ee0b4c7ab7df7a6136ecdc5edcd321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9735
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/piper-quickstep-dribble-run-right.webp",
+          "sourceSha256": "bd77271a0a582bae42cf1475a17709153f4697cb2e8cf1402c51f0a877f34772",
+          "frameIndex": 5,
+          "frameHash": "8214f078978bb1aa43add2ac340e390cf95d0b1a9b2a00e9798d71c08f502ccd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10103
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/piper-quickstep-shoot-right.webp",
+          "sourceSha256": "0032a0a5bbd699787d7a850331bf187caaf1e6ddc34a2094dad8af91b1092804",
+          "frameIndex": 4,
+          "frameHash": "54a3606d69e931ef23bcf9f8d5f46e829bb3cd00c68986eb6fefb36f7bdbf931",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4751
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/piper-quickstep-pass-right.webp",
+          "sourceSha256": "e4011cf923937e3ca8316d09b0ecc2d482b2b23ecf9b6c680178776fb21bb932",
+          "frameIndex": 2,
+          "frameHash": "23f3e247673e95d99e4abf98b41af818c6ea749d09073cc42188a371d9b91159",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3134
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/piper-quickstep-pass-overhead-right.webp",
+          "sourceSha256": "ae43fa2ae52b06a1cf1ca54560a8180dbd8e67a92d11f4a7e76836409422b186",
+          "frameIndex": 2,
+          "frameHash": "5e40f20c07315b78469043a30101f8409ec824806157ef728453cdc2475cc27f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3124
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/piper-quickstep-pass-behind-right.webp",
+          "sourceSha256": "c166b9eb3b9c41ba9c57b3c17565dc98be6b8c9d036c56b76f5008b50400f608",
+          "frameIndex": 2,
+          "frameHash": "69275eecfa076a279ca47140f25e02d889c614e07a2c4f9ddfacda3399131027",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2533
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/piper-quickstep-receive-right.webp",
+          "sourceSha256": "6c1539543df1d7a4509b5aed2d5397faa214bae266fdb0b1c2477c4d5c2ed059",
+          "frameIndex": 1,
+          "frameHash": "74ecea6e9fc114b36833ad42752ef1a696dd42b6e4a2e6e9b78a4ed564f29686",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1732
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/piper-quickstep-pickup-right.webp",
+          "sourceSha256": "b5b067002ac7284211e3ccaff58448c53f7ac1863eec0642c0e58d97f827aeba",
+          "frameIndex": 2,
+          "frameHash": "31614479c1af4374bfd6fc7835ba1e171f294845f753daaef844fbab649dddee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3266
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/piper-quickstep-layup-right.webp",
+          "sourceSha256": "91da885526bd1a00e2fd3641ca37a2d3c07e1fb37f846bf85be566830cc1034b",
+          "frameIndex": 3,
+          "frameHash": "634b9ba35b3f249d47854da671de91acca40b4303b1fd1ddf1deb1d1e9f243d6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4987
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/piper-quickstep-layup-reverse-right.webp",
+          "sourceSha256": "9329d01930c1c3985f2bc609b118e449790bddc20fbefb1cfcb5c92174e97d6e",
+          "frameIndex": 3,
+          "frameHash": "6a4aeef0ac3d9d4f4b4c6f83ee05ccd70d55624ec26a5acf9f13be6468a3b1e3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5605
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/piper-quickstep-block-right.webp",
+          "sourceSha256": "93b574a24b7941f464b3376f3c3409bb4e9fe25febc45bc5a3b9d7ac258e08c2",
+          "frameIndex": 1,
+          "frameHash": "3f1970b7a86f917a51cc030d56512d4f3c5027280cab3f9d360eea1faf3db6d8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1560
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/piper-quickstep-steal-right.webp",
+          "sourceSha256": "0255c9e20c09055cee394cc0d3a6da7942b83bfdc686529a5615ac81d9825983",
+          "frameIndex": 3,
+          "frameHash": "4d80846a6ea13eb2d32828d3e2c286d14d40f75cf44def117cae220db9916a29",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3807
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/piper-quickstep-push-right.webp",
+          "sourceSha256": "90278a653e577c47bf1ae43c3ed1cdd093f97efa563f997af0549c9f40fd80e1",
+          "frameIndex": 5,
+          "frameHash": "55de2aa1e55cfd1d85fcd42fe217252f254a8e2d24bedc546d78b0d3adc05843",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5419
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/piper-quickstep-rebound-right.webp",
+          "sourceSha256": "b8c195db896a51918328aaa2670d41374a127f5bb78a8a6ee5d74b6c726abed0",
+          "frameIndex": 2,
+          "frameHash": "221fea393883b9ce4df3c5ae2e82a26edafa060fc3a00aec711f6346c5d13321",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2031
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/piper-quickstep-fall-right.webp",
+          "sourceSha256": "366c73dc7379db0e45eb1a95162f9f7aa8c747745a668d5bca4d6da518a9052c",
+          "frameIndex": 4,
+          "frameHash": "12eb3c128980919ae9b91ccc9f34413dce5a248a919ac214b5e032a571618f72",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/piper-quickstep-celebrate-right.webp",
+          "sourceSha256": "2050596aa3457051178fd3cfd7bc9ed6e622fc6c1d8dad2f507b405416f6f38a",
+          "frameIndex": 4,
+          "frameHash": "1c7dcef0a2713d16fc8bd26d4dd18b366de50bd9cd07355e61e98745eca04f95",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5055
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/piper-quickstep-dunk-power-right.webp",
+          "sourceSha256": "a4360dc4da767a755dc1bbe149f401c3cdb5fc83ee373c75a8b40d6f31c2a6af",
+          "frameIndex": 7,
+          "frameHash": "7db6074fe3ee0c156430dc7d2816895bff798e10f60a7be493d8c8918315be04",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 9888
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/piper-quickstep-dunk-windmill-right.webp",
+          "sourceSha256": "109237c86faeec3c497d35e01c427f8090c90ca2a41be4268b024b8fa928994d",
+          "frameIndex": 7,
+          "frameHash": "11a67128a7687357eeef3980c67cd081e5b20697d54d4c5dd3591ad7e0d0dcff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11157
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/piper-quickstep-dunk-reverse-right.webp",
+          "sourceSha256": "41395ce4abc88be0eb30c9aaac750ceb9213cb1b387d8bb26e806db71c20c438",
+          "frameIndex": 7,
+          "frameHash": "8b156fd439a44043985c54ebcf29ea6c2d378dc45ae987d2c4447350a5636e8f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 11791
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/piper-quickstep-dunk-360-right.webp",
+          "sourceSha256": "cd8ce551a0e122e93205c18acddc3782fe3a6a1897433d314907ea9153ab17c6",
+          "frameIndex": 7,
+          "frameHash": "0f7e46ee07a8526175a87b74dab63ddf0fbd127907c463ffef44cc390cd1a7dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12823
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/piper-quickstep-dunk-tomahawk-right.webp",
+          "sourceSha256": "0bde1394c61afab886665f579150fa0e08ce72c647448f94ab042f6c5726c406",
+          "frameIndex": 7,
+          "frameHash": "7c66161d61083b3d3e8ce3785bd55b41b15f5b89822211bb07edc643bd766c45",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 10369
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/piper-quickstep-dunk-double-right.webp",
+          "sourceSha256": "4fdc1ed7ec689fd9c48d550e949daaa0f7d66c096922cfdc2edbef55b0a50554",
+          "frameIndex": 7,
+          "frameHash": "f60cf76e640b444c5eb5ce913c251c1ca13fb76d82dfa1b45ca98429ba1cf439",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 12022
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/piper-quickstep-dunk-clutch-right.webp",
+          "sourceSha256": "ddac972380d566fc4d5fb94aa5f94f1331f92e01c38aff46f61dae5b7716684a",
+          "frameIndex": 7,
+          "frameHash": "17681f541b61a0b6a01947bc64c98cd308d9f850d6f2b59b752bd5211fa99887",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 16565
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/piper-quickstep-dunk-scythe-right.webp",
+          "sourceSha256": "ee701d238fd41baf018c5139c444ef26d174722279856f68aef09bb735df6719",
+          "frameIndex": 7,
+          "frameHash": "d9e071dad2bed6632516ff2336e205cd5fec9e2e4b81dc77ea3af3d9147dff19",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8381
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-power-right.webp",
+          "sourceSha256": "3692527f1be3a9536f76c731b1b0cf95be886b9151bb271f396f74919b4a30d3",
+          "frameIndex": 7,
+          "frameHash": "dc88df9fb7553217d5bbda7898e4b53d123fc7079f7e9818031098e4662063b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8788
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/piper-quickstep-alley-oop-reverse-right.webp",
+          "sourceSha256": "9be61368324601454e1d93a5d21e85548c50d758121f5ee0062c224be8f9353f",
+          "frameIndex": 7,
+          "frameHash": "bb1c1cb06b001fe60e3b0fa067a7d20a005212d502f8f9d5fb97f58caae324b2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8884
+        }
+      ]
+    }
+  ]
+}

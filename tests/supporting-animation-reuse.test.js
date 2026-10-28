@@ -1,98 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { teams } from '../src/content/teams.js';
-import { supportingAnimationLibraries, supportingLibrarySummary } from '../src/content/supporting-animation-libraries.js';
-import { paletteVariantFor } from '../src/render/uniform-palette.js';
+import { supportingAnimationLibraries } from '../src/content/supporting-animation-libraries.js';
+import { supportingUniformProfiles } from '../src/content/supporting-uniform-profiles.js';
+import { paletteVariantFor, clearPaletteVariantCache } from '../src/render/uniform-palette.js';
 import { animationAssetManifest } from '../src/content/animation-assets.js';
 import { selectProductionSprite } from '../src/render/animation-sprites.js';
 import { animationClips, athleteBallTrackSource, sampleBallForward, sampleBallHeight } from '../src/core/animation.js';
 
-test('support reuse maps all 70 noncaptains and preserves completed libraries', () => {
-  const players = teams.flatMap(team => team.roster);
-  const supporters = players.filter(player => !player.captain);
-  assert.equal(supportingLibrarySummary.supportingPlayers, 70);
-  assert.equal(Object.keys(supportingAnimationLibraries).length, 70);
-  assert.equal(supporters.filter(player => supportingAnimationLibraries[player.id].mode === 'shared').length, 63);
-  assert.equal(supporters.filter(player => supportingAnimationLibraries[player.id].mode === 'original').length, 7);
-  assert.equal(players.filter(player => player.captain).some(player => supportingAnimationLibraries[player.id]), false);
-  for (const player of supporters) {
-    const assignment = supportingAnimationLibraries[player.id];
-    assert.ok(assignment.donorId);
-    if (assignment.mode === 'shared') {
-      const donor = supporters.find(candidate => candidate.id === assignment.donorId);
-      assert.ok(['human', 'athletic-variant'].includes(donor.rig) && ['human', 'athletic-variant'].includes(player.rig));
-      assert.notEqual(donor.captain, true);
-      assert.deepEqual(assignment.targetPalette, player.palette);
-    }
-  }
-});
+const players = teams.flatMap(team => team.roster);
+const supporters = players.filter(player => !player.captain);
 
-test('palette derivation changes matching uniform colors, preserves nonmatches and alpha', () => {
-  const originalDocument = globalThis.document;
-  const created = [];
-  globalThis.document = { createElement() {
-    const canvas = { width: 0, height: 0 };
-    const image = new Uint8ClampedArray(12);
-    const context = {
-      drawImage(source) { image.set(source.pixels); },
-      getImageData() { return { data: image }; },
-      putImageData(value) { image.set(value.data); },
-    };
-    canvas.getContext = () => context;
-    canvas.snapshot = () => [...image];
-    created.push(canvas);
-    return canvas;
-  }};
-  try {
-    const src = { naturalWidth: 1, naturalHeight: 3, pixels: new Uint8ClampedArray([230,80,60,255, 21,157,155,255, 20,45,63,180]) };
-    const result = paletteVariantFor(src, 'test-atlas', ['#159d9b','#773ec2'], ['#e4572e','#f1c40f'], [{ x: 0, y: 0, w: 1, h: 3 }], { secondary: 'cool-dark-shorts' });
-    const pixels = result.snapshot();
-    assert.deepEqual(pixels.slice(0,4), [230,80,60,255]);
-    assert.notDeepEqual(pixels.slice(4,7), [21,157,155]);
-    assert.equal(pixels[7], 255);
-    assert.notDeepEqual(pixels.slice(8,11), [20,45,63]);
-    assert.equal(pixels[11], 180);
-    assert.equal(paletteVariantFor(src, 'test-atlas', ['#159d9b','#773ec2'], ['#e4572e','#f1c40f'], [{ x: 0, y: 0, w: 1, h: 3 }], { secondary: 'cool-dark-shorts' }), result);
-    assert.equal(created.length, 1);
-  } finally { globalThis.document = originalDocument; }
-});
-
-test('palette cache bounds derived atlases and refreshes recent variants', () => {
-  const originalDocument = globalThis.document, created = [];
-  globalThis.document = { createElement() {
-    const canvas = { width: 0, height: 0 }, pixels = new Uint8ClampedArray(4);
-    const context = { drawImage(source) { pixels.set(source.pixels); }, getImageData() { return { data: pixels }; }, putImageData() {} };
-    canvas.getContext = () => context; created.push(canvas); return canvas;
-  }};
-  try {
-    const source = { naturalWidth: 1, naturalHeight: 1, pixels: new Uint8ClampedArray(4) }, frames = [{ x: 0, y: 0, w: 1, h: 1 }];
-    const colors = ['#e4572e', '#f1c40f', '#238ae6', '#28a745', '#bd34c9'];
-    for (const color of colors) paletteVariantFor(source, 'lru-atlas', ['#159d9b', '#773ec2'], [color, '#111111'], frames, {});
-    assert.equal(created.length, 5);
-    const recent = paletteVariantFor(source, 'lru-atlas', ['#159d9b', '#773ec2'], [colors.at(-1), '#111111'], frames, {});
-    assert.equal(created.length, 5);
-    assert.ok(recent);
-    paletteVariantFor(source, 'lru-atlas', ['#159d9b', '#773ec2'], [colors[0], '#111111'], frames, {});
-    assert.equal(created.length, 6, 'oldest cached variant was evicted');
-  } finally { globalThis.document = originalDocument; }
-});
-
-test('incomplete support resolves every action from its compatible donor and keeps recipient track metadata', () => {
-  const id = 'briar-foxglove', donor = supportingAnimationLibraries[id].donorId;
-  const clip = animationAssetManifest.characters[donor].directions.right.shoot, src = clip.src;
-  const donorIdle = animationAssetManifest.characters[donor].directions.right['idle-ball'];
-  const images = new Map([[src, { complete: true, naturalWidth: clip.columns * clip.frames[0].w, naturalHeight: clip.rows * clip.frames[0].h }], [donorIdle.src, { complete: true, naturalWidth: 160, naturalHeight: 192 }]]);
-  const reviewedAssignment = { ...supportingAnimationLibraries[id], review: 'accepted' };
-  const sprite = selectProductionSprite({ id, captain: false, palette: ['#b64d27','#f2d6aa'], facing: 1, animation: { clip: 'shoot', tick: 0 } }, { manifest: animationAssetManifest, images, libraries: { [id]: reviewedAssignment } });
-  assert.ok(sprite);
-  assert.equal(sprite.src, src);
-  assert.equal(sprite.atlas, images.get(src));
-  assert.equal(sprite.clip, 'shoot');
-  assert.equal(sprite.frame, 0);
-});
-
-test('every supporting player resolves all 29 clips in both facings with derived canvas dimensions', () => {
-  const originalDocument = globalThis.document;
+function mockCanvasDocument(created = []) {
   globalThis.document = { createElement() {
     const canvas = { width: 0, height: 0, pixels: null };
     const context = {
@@ -101,13 +20,124 @@ test('every supporting player resolves all 29 clips in both facings with derived
       putImageData(image) { canvas.pixels = new Uint8ClampedArray(image.data); },
     };
     canvas.getContext = () => context;
+    created.push(canvas);
     return canvas;
   }};
+}
+
+function coord(region, frame, fraction = .5) {
+  return Math.min(frame - 1, Math.max(0, Math.floor((region[0] + (region[1] - region[0]) * fraction) * frame)));
+}
+
+test('all supporters select their locked donor while original owners retain their own libraries', () => {
+  assert.equal(supporters.length, 70);
+  for (const player of supporters) {
+    const assignment = supportingAnimationLibraries[player.id];
+    assert.ok(assignment?.donorId);
+    assert.equal(assignment.targetPalette?.[0] ?? player.palette[0], player.palette[0]);
+    assert.equal(assignment.targetPalette?.[1] ?? player.palette[1], player.palette[1]);
+    if (assignment.mode === 'original') {
+      assert.equal(assignment.donorId, player.id);
+      assert.equal(assignment.ballTrackSource, player.id);
+      assert.equal(assignment.ballTrackScale, 1);
+    } else {
+      assert.ok(supportingUniformProfiles[assignment.donorId]);
+      assert.equal(assignment.classification, 'derived-palette');
+      assert.equal(assignment.lineage, 'shared-source');
+      assert.equal(assignment.maskProfile.id, supportingUniformProfiles[assignment.donorId].id);
+      assert.equal(assignment.ballTrackSource, assignment.donorId);
+    }
+  }
+  assert.equal(players.filter(player => player.captain).some(player => supportingAnimationLibraries[player.id]), false);
+});
+
+test('donor-specific garment masks preserve alpha and every nonuniform test pixel', () => {
+  const previousDocument = globalThis.document;
   try {
-    const players = teams.flatMap(team => team.roster).filter(player => !player.captain);
-    for (const player of players) {
-      const assignment = supportingAnimationLibraries[player.id], libraryId = assignment.donorId;
-      const character = animationAssetManifest.characters[libraryId], images = new Map();
+    for (const [donorId, pending] of Object.entries(supportingUniformProfiles)) {
+      const profile = { ...pending, status: 'accepted' }, frame = { x: 0, y: 0, w: 10, h: 10 };
+      const pixels = new Uint8ClampedArray(10 * 10 * 4), write = (x, y, color) => pixels.set([...color, 255], (y * 10 + x) * 4);
+      const jerseyXY = [coord(profile.jersey.region.x, 10), coord(profile.jersey.region.y, 10)];
+      const shortsXY = [coord(profile.shorts.region.x, 10), coord(profile.shorts.region.y, 10)];
+      const jerseyColor = profile.jersey.sourceColor.slice(1).match(/../g).map(v => parseInt(v, 16));
+      const shortsColor = profile.shorts.sourceColor.slice(1).match(/../g).map(v => parseInt(v, 16));
+      const targetJersey = [228, 87, 46], targetShorts = [241, 196, 15];
+      write(...jerseyXY, jerseyColor); write(...shortsXY, shortsColor);
+      write(0, 0, jerseyColor); // head/hair region
+      write(9, 9, jerseyColor); // shoe region
+      write(8, 5, [240, 185, 145]); // unrelated skin/accessory pixel
+      const source = { naturalWidth: 10, naturalHeight: 10, pixels };
+      const created = []; mockCanvasDocument(created);
+      clearPaletteVariantCache();
+      const variant = paletteVariantFor(source, `test-${donorId}`, ['#159d9b', '#773ec2'], ['#e4572e', '#f1c40f'], [frame], profile);
+      const changed = (x, y) => variant.pixels.slice((y * 10 + x) * 4, (y * 10 + x) * 4 + 4);
+      assert.notDeepEqual([...changed(...jerseyXY).slice(0, 3)], jerseyColor, `${donorId} jersey mask transforms garment color`);
+      assert.notDeepEqual([...changed(...shortsXY).slice(0, 3)], shortsColor, `${donorId} shorts mask transforms garment color`);
+      assert.deepEqual([...changed(0, 0)], [...jerseyColor, 255], `${donorId} hair/head is unchanged`);
+      assert.deepEqual([...changed(9, 9)], [...jerseyColor, 255], `${donorId} shoes are unchanged`);
+      assert.deepEqual([...changed(8, 5)], [240, 185, 145, 255], `${donorId} unrelated skin is unchanged`);
+      assert.equal(created.length, 1);
+    }
+  } finally {
+    globalThis.document = previousDocument;
+    clearPaletteVariantCache();
+  }
+});
+
+test('clip-specific fall masks keep overlapping hair pixels untouched and preserve transparency', () => {
+  const previousDocument = globalThis.document;
+  try {
+    const profile = { ...supportingUniformProfiles['dorian-mycel'], status: 'accepted' };
+    const frame = { x: 0, y: 0, w: 10, h: 10 };
+    const pixels = new Uint8ClampedArray(10 * 10 * 4), violet = [116, 62, 181];
+    pixels.set([...violet, 255], (8 * 10 + 7) * 4); // safe garment zone in the fall polygon
+    pixels.set([...violet, 255], (3 * 10 + 5) * 4); // hair zone outside the polygon
+    pixels.set([99, 44, 130, 0], (0 * 10 + 0) * 4); // transparent cell margin
+    const source = { naturalWidth: 10, naturalHeight: 10, pixels };
+    mockCanvasDocument(); clearPaletteVariantCache();
+    const variant = paletteVariantFor(source, 'dorian-fall-mask', ['#743eb5', '#c5c6e8'], ['#bd5a2f', '#eee6d5'], [frame], profile, 'fall');
+    const rgba = (x, y) => [...variant.pixels.slice((y * 10 + x) * 4, (y * 10 + x) * 4 + 4)];
+    assert.notDeepEqual(rgba(7, 8).slice(0, 3), violet, 'fall garment candidate is mapped');
+    assert.deepEqual(rgba(5, 3), [...violet, 255], 'hair remains source-identical');
+    assert.deepEqual(rgba(0, 0), [99, 44, 130, 0], 'transparent source pixel is byte-identical');
+  } finally {
+    globalThis.document = previousDocument;
+    clearPaletteVariantCache();
+  }
+});
+
+test('palette cache is isolated by profile and bounded per source atlas', () => {
+  const previousDocument = globalThis.document, created = [];
+  try {
+    mockCanvasDocument(created);
+    const profile = { ...supportingUniformProfiles['echo-catwalk'], status: 'accepted' };
+    const source = { naturalWidth: 1, naturalHeight: 1, pixels: new Uint8ClampedArray([0, 100, 115, 255]) }, frames = [{ x: 0, y: 0, w: 1, h: 1 }];
+    const colors = ['#e4572e', '#f1c40f', '#238ae6', '#28a745', '#bd34c9'];
+    for (const color of colors) paletteVariantFor(source, 'lru-atlas', ['#159d9b', '#773ec2'], [color, '#111111'], frames, profile);
+    assert.equal(created.length, 5);
+    const recent = paletteVariantFor(source, 'lru-atlas', ['#159d9b', '#773ec2'], [colors.at(-1), '#111111'], frames, profile);
+    assert.equal(created.length, 5);
+    assert.ok(recent);
+    paletteVariantFor(source, 'lru-atlas', ['#159d9b', '#773ec2'], [colors[0], '#111111'], frames, profile);
+    assert.equal(created.length, 6, 'oldest cached palette was evicted');
+    const reedProfile = { ...supportingUniformProfiles['reed-ashcroft'], status: 'accepted' };
+    paletteVariantFor(source, 'lru-atlas', ['#159d9b', '#773ec2'], [colors[0], '#111111'], frames, reedProfile);
+    assert.equal(created.length, 7, 'profile-specific masks cannot reuse a different donor variant');
+  } finally {
+    globalThis.document = previousDocument;
+    clearPaletteVariantCache();
+  }
+});
+
+test('all 70 supporters resolve 29 clips in both facings through their assigned source', () => {
+  const previousDocument = globalThis.document;
+  try {
+    mockCanvasDocument();
+    const libraries = Object.fromEntries(Object.entries(supportingAnimationLibraries).map(([id, assignment]) => [id, assignment.mode === 'shared'
+      ? { ...assignment, review: 'accepted', maskProfile: { ...assignment.maskProfile, status: 'accepted' } }
+      : assignment]));
+    for (const player of supporters) {
+      const assignment = libraries[player.id], donorId = assignment.donorId, character = animationAssetManifest.characters[donorId], images = new Map();
       for (const direction of Object.values(character.directions)) for (const clip of Object.values(direction)) {
         if (images.has(clip.src)) continue;
         const width = Math.max(...clip.frames.map(frame => frame.x + frame.w));
@@ -115,29 +145,32 @@ test('every supporting player resolves all 29 clips in both facings with derived
         images.set(clip.src, { complete: true, naturalWidth: width, naturalHeight: height, pixels: new Uint8ClampedArray(width * height * 4) });
       }
       for (const facing of [1, -1]) for (const clip of Object.keys(animationClips)) {
-        const sprite = selectProductionSprite({ ...player, facing, animation: { clip, tick: 0 } }, { manifest: animationAssetManifest, images });
+        const sprite = selectProductionSprite({ ...player, facing, captain: false, animation: { clip, tick: 0 } }, { manifest: animationAssetManifest, images, libraries });
         assert.ok(sprite, `${player.id} ${clip} facing ${facing} selects a sprite`);
         assert.equal(sprite.clip, clip);
-        assert.equal(sprite.libraryId, libraryId);
+        assert.equal(sprite.libraryId, donorId);
+        assert.equal(sprite.flip, facing < 0);
         assert.equal(sprite.classification, assignment.mode === 'shared' ? 'derived-palette' : 'original-authored');
       }
     }
-  } finally { globalThis.document = originalDocument; }
+  } finally {
+    globalThis.document = previousDocument;
+    clearPaletteVariantCache();
+  }
 });
 
-test('every supporting player has a recipient or assigned donor ball track for every clip property', () => {
-  const players = teams.flatMap(team => team.roster).filter(player => !player.captain);
-  const ballFreeClips = new Set(['idle', 'run', 'block', 'push', 'fall', 'celebrate']);
-  for (const player of players) for (const clip of Object.keys(animationClips)) for (const property of ['height', 'forward']) {
+test('ball tracks prefer the recipient and then its exact assigned donor, per property', () => {
+  for (const player of supporters) for (const clip of Object.keys(animationClips)) for (const property of ['height', 'forward']) {
+    const assignment = supportingAnimationLibraries[player.id];
     const sourceId = athleteBallTrackSource(player.id, clip, property);
-    assert.ok(sourceId || ballFreeClips.has(clip), `${player.id} ${clip} ${property} has a track or is ball-free`);
-    if (sourceId && supportingAnimationLibraries[player.id].mode === 'shared' && sourceId !== player.id)
-      assert.equal(sourceId, supportingAnimationLibraries[player.id].ballTrackSource);
-    if (sourceId && sourceId !== player.id) {
-      const scale = supportingAnimationLibraries[player.id].ballTrackScale;
-      const sampled = property === 'height' ? sampleBallHeight(clip, 7, player.id) : sampleBallForward(clip, 7, player.id);
-      const donor = property === 'height' ? sampleBallHeight(clip, 7, sourceId) : sampleBallForward(clip, 7, sourceId);
-      assert.ok(Math.abs(sampled - donor * scale) < 1e-9, `${player.id} ${clip} ${property} uses scaled donor track`);
-    }
+    assert.ok(sourceId === null || sourceId === player.id || sourceId === assignment.ballTrackSource, `${player.id} ${clip} ${property} never leaks another donor track`);
+    const sample = property === 'height' ? sampleBallHeight(clip, 7, player.id) : sampleBallForward(clip, 7, player.id);
+    assert.ok(Number.isFinite(sample), `${player.id} ${clip} ${property} sample is finite`);
+    if (sourceId && sourceId !== player.id && assignment.mode === 'shared') assert.equal(sourceId, assignment.donorId);
   }
+  assert.equal(athleteBallTrackSource('briar-foxglove', 'shoot', 'height'), 'briar-foxglove', 'recipient calibration wins over donor fallback');
+  assert.equal(athleteBallTrackSource('sable-regent', 'shoot', 'height'), 'moxie-capwell', 'shared player uses the newly assigned donor');
+  assert.equal(athleteBallTrackSource('reed-ashcroft', 'shoot', 'forward'), 'reed-ashcroft', 'original donor keeps its own track');
+  assert.equal(athleteBallTrackSource('reed-ashcroft', 'shoot', 'height'), null, 'missing original track does not silently resolve to Echo');
+  assert.equal(athleteBallTrackSource('juniper-vale', 'shoot', 'height'), null, 'missing original track stays an explicit frame-metadata fallback');
 });

@@ -1,0 +1,2551 @@
+{
+  "donorId": "reed-ashcroft",
+  "profile": "reed-body-mask-v1",
+  "maskProfile": {
+    "id": "reed-body-mask-v1",
+    "status": "accepted",
+    "jersey": {
+      "region": {
+        "x": [
+          0.28,
+          0.73
+        ],
+        "y": [
+          0.34,
+          0.64
+        ]
+      },
+      "hue": [
+        235,
+        305
+      ],
+      "chromaMin": 24,
+      "luma": [
+        16,
+        150
+      ],
+      "sourceColor": "#443b92"
+    },
+    "shorts": {
+      "region": {
+        "x": [
+          0.29,
+          0.72
+        ],
+        "y": [
+          0.64,
+          0.81
+        ]
+      },
+      "hue": [
+        235,
+        305
+      ],
+      "chromaMin": 24,
+      "luma": [
+        12,
+        145
+      ],
+      "sourceColor": "#443b92"
+    },
+    "review": {
+      "status": "accepted",
+      "reviewedAt": "2026-10-28",
+      "reviewer": "independent visual review",
+      "scope": "9 mapped target palettes × 29 required clips per donor; enlarged pose-family checks; source alpha compared across every derived clip frame",
+      "evidence": "docs/animation-production/supporting-donor-palette-reviews/reed-ashcroft/",
+      "alphaMismatchPixels": 0
+    },
+    "clips": {}
+  },
+  "clipColumns": [
+    "idle",
+    "idle-ball",
+    "dribble",
+    "run",
+    "dribble-run",
+    "shoot",
+    "pass",
+    "pass-overhead",
+    "pass-behind",
+    "receive",
+    "pickup",
+    "layup",
+    "layup-reverse",
+    "block",
+    "steal",
+    "push",
+    "rebound",
+    "fall",
+    "celebrate",
+    "dunk-power",
+    "dunk-windmill",
+    "dunk-reverse",
+    "dunk-360",
+    "dunk-tomahawk",
+    "dunk-double",
+    "dunk-clutch",
+    "dunk-scythe",
+    "alley-oop-power",
+    "alley-oop-reverse"
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "teamId": "blackthorn-court-kings",
+      "teamName": "Blackthorn Court Kings",
+      "playerId": "marco-vellum",
+      "palette": [
+        "#24242a",
+        "#a93343"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+          "sourceSha256": "df868fead9e2bd89f3e6a0a87591324f8ecebc9ed87468cf25b7171d2458f2cd",
+          "frameIndex": 2,
+          "frameHash": "94cb57028037c315d8c3560104c183d3945f9577ab1ca3ba0ab12c7331371854",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1734
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+          "sourceSha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d",
+          "frameIndex": 1,
+          "frameHash": "c2238fd8f360f22ae7773a6da5bb2a9ffaee0493c98da517b4780cdead874bbc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1053
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+          "sourceSha256": "f4fbd8c608e0cdf9986556b2f531565f9118f1e52f3e9f2ffc749ff783a43ed1",
+          "frameIndex": 4,
+          "frameHash": "c52d0a0db80412d80678ee514743dbc5acad6033d23d618010295003e77c0888",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2463
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/reed-ashcroft-run-right.webp",
+          "sourceSha256": "b6bd2a7d8dc23a8284ba03a0eebf22bdf16107b18f55faeaf5c07386e21db06c",
+          "frameIndex": 5,
+          "frameHash": "c8e4cf1f831835f9f99945c5c82b58635bb523ad13128dbf544d7d0078812689",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2327
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+          "sourceSha256": "0e3686408b3fd046d712d24d4b7c9ef4ab1d8664b70cf0132dda8cbc1f28b763",
+          "frameIndex": 5,
+          "frameHash": "bec18ba529e15befe495227251a3b83e6be0607b5e67586027e354e68db82a5d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2190
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/reed-ashcroft-shoot-right.webp",
+          "sourceSha256": "e6fe7125f0f5440d7e1f3129c04e8aa1b1801f7329c0d5ecf81be0ba74037a7f",
+          "frameIndex": 4,
+          "frameHash": "d483b3098902c4548380581d126c4c7baf3262b57d461336d79124b953ac5bfa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1839
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+          "sourceSha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472",
+          "frameIndex": 2,
+          "frameHash": "e5711e803e0a20385e8d0acdea136e2038888ef4b35ab4af254c8b89f670670f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2971
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/reed-ashcroft-pass-overhead-right.webp",
+          "sourceSha256": "e47b6d1986588c50d7ab23cefa98d87ba9a79d0ba236855e3dbdfd189a749644",
+          "frameIndex": 2,
+          "frameHash": "7829ad7e69c3d0346d49dfc7d3c357c369c359bb7f63ccbe2ef0623c7f45e1c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2823
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+          "sourceSha256": "1c55aa89dc1854860ee6418bef27c4642c2ce5a0e3c44bc61745a767a631b62a",
+          "frameIndex": 2,
+          "frameHash": "85ae2021dde0927e56671395c57ef1dae723b89e9eecfc18290800a93ec3f3b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2784
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/reed-ashcroft-receive-right.webp",
+          "sourceSha256": "4b35bd84425ba35d915616bd289d533e01ba2e40603fb01a2f0405d27728242c",
+          "frameIndex": 1,
+          "frameHash": "da7c3e127f015d54c71c662fda1d195785b4c69368a5b631b3483abeaa186a28",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1586
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/reed-ashcroft-pickup-right.webp",
+          "sourceSha256": "c7f4b98cd9e80e726339c476ec8eb5d3727325b2d91bd2ce703c916af417d1ef",
+          "frameIndex": 2,
+          "frameHash": "6e01b83bd7c48e0dcc9329a4d6678577550ff690597d907ca27e0ee50563b2c0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2233
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/reed-ashcroft-layup-right.webp",
+          "sourceSha256": "9624ba5e1ee8620281ef3d86194102c61fe705ad7e97ffc5c4e90f3f97cef0fc",
+          "frameIndex": 3,
+          "frameHash": "a1eedaa85adf717c63d865236594fdbfd8dc5c87aa03010bc212787d0d6df673",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2802
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-layup-reverse-right.webp",
+          "sourceSha256": "69e49117340e1abf285628373c1ca14f6fd56a0ccf695bcad046dd20ae6a034d",
+          "frameIndex": 3,
+          "frameHash": "7d1ef41ac583a190344d11d22b33552ced186713f4517f8066252ca13a810453",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2006
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/reed-ashcroft-block-right.webp",
+          "sourceSha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+          "frameIndex": 1,
+          "frameHash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 939
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+          "sourceSha256": "ea6b6187a94a84c9230f9027ef64433cfdca966e5b179a58b61d4e0aa4fb136e",
+          "frameIndex": 3,
+          "frameHash": "909b4d6657a3142e9861860ed6aedeaa3ca0ee3d3e1596c92e898a656da54190",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3688
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/reed-ashcroft-push-right.webp",
+          "sourceSha256": "57e9f5a1fe173574af58bde84e93dc3c147a802acc7b479fe117a6e78ebbb571",
+          "frameIndex": 5,
+          "frameHash": "36190a29bb5e8c0605e6f4818d056d64cd9bb5e3410e9b23059fb6d9f7988ca1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4778
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+          "sourceSha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+          "frameIndex": 2,
+          "frameHash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2093
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+          "sourceSha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69",
+          "frameIndex": 4,
+          "frameHash": "45f3baf82332e8a9c7eb95727aa36f4063fa4b95915501e89173893ba95c0caa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6071
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+          "sourceSha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a",
+          "frameIndex": 4,
+          "frameHash": "7f310869f5c486708a8ac688a05ecad70c80a2868267b796a5d1cfee8bb32af8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4359
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+          "sourceSha256": "80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce",
+          "frameIndex": 7,
+          "frameHash": "9ae23b7a4073dcfc376f9542904ebd2f2c191e4aeaeae75511040ed47c747ff3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7009
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+          "sourceSha256": "9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28",
+          "frameIndex": 7,
+          "frameHash": "8e8ae0bcba07d8bff13553b069a0adffb4f90f45ab9bae9b50950c257aee56af",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6508
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-reverse-right.webp",
+          "sourceSha256": "c50d46d7afb1aa81a7523aaf4124c066a19db26db3b8ff32293036b628bd3efa",
+          "frameIndex": 7,
+          "frameHash": "1b2de6b52a32ceb665a3323091d0e5ab9a5e3051f90c33a2b29fad69b1f19a52",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4882
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+          "sourceSha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+          "frameIndex": 7,
+          "frameHash": "309afaba44f2850a23a800a51ae2a42ca2a76f893bedcc4497eb4ee11a87beb5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4181
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+          "sourceSha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+          "frameIndex": 7,
+          "frameHash": "2ede324eb7b2ff9e57bf62e84d118700159a5e737bfdaf4a7533c359487d6eae",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-double-right.webp",
+          "sourceSha256": "b227944c1cf73210e015c8c30840ac21c8b96b3403c51f21d891b8dfb6ee13ca",
+          "frameIndex": 7,
+          "frameHash": "cddc4184c9ddb73b02b8dfcfa3af4b80699b397a6494fe35fe78c72c5b1decfb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3837
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp",
+          "sourceSha256": "21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb",
+          "frameIndex": 7,
+          "frameHash": "1a9f0e9995f135f3570d6493f5ed9f631299400238d1af6fb6c90406762994e0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3713
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+          "sourceSha256": "4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853",
+          "frameIndex": 7,
+          "frameHash": "5b9196d507963af8c53493fc1ccc79f471ed201088a96a8bb6caeac5598a78cd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5606
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-power-right.webp",
+          "sourceSha256": "0fb58f6690fa720532ade62062387990ebf3938f924332cac2cdd7e0166f8be5",
+          "frameIndex": 7,
+          "frameHash": "b58659453519ac0826ddfa3011740782b0f0970e67bb7c4d359a4c63f2904582",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4563
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp",
+          "sourceSha256": "16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236",
+          "frameIndex": 7,
+          "frameHash": "7c80cfe4f35a5d3efd66fdf208a112ce36581429bfd13c4774bbf71a92f10b32",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4916
+        }
+      ]
+    },
+    {
+      "row": 1,
+      "teamId": "cedarbrook-wardens",
+      "teamName": "Cedarbrook Wardens",
+      "playerId": "rowan-bark",
+      "palette": [
+        "#315e3e",
+        "#34a3a0"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+          "sourceSha256": "df868fead9e2bd89f3e6a0a87591324f8ecebc9ed87468cf25b7171d2458f2cd",
+          "frameIndex": 2,
+          "frameHash": "94cb57028037c315d8c3560104c183d3945f9577ab1ca3ba0ab12c7331371854",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1734
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+          "sourceSha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d",
+          "frameIndex": 1,
+          "frameHash": "c2238fd8f360f22ae7773a6da5bb2a9ffaee0493c98da517b4780cdead874bbc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1053
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+          "sourceSha256": "f4fbd8c608e0cdf9986556b2f531565f9118f1e52f3e9f2ffc749ff783a43ed1",
+          "frameIndex": 4,
+          "frameHash": "c52d0a0db80412d80678ee514743dbc5acad6033d23d618010295003e77c0888",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2463
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/reed-ashcroft-run-right.webp",
+          "sourceSha256": "b6bd2a7d8dc23a8284ba03a0eebf22bdf16107b18f55faeaf5c07386e21db06c",
+          "frameIndex": 5,
+          "frameHash": "c8e4cf1f831835f9f99945c5c82b58635bb523ad13128dbf544d7d0078812689",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2327
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+          "sourceSha256": "0e3686408b3fd046d712d24d4b7c9ef4ab1d8664b70cf0132dda8cbc1f28b763",
+          "frameIndex": 5,
+          "frameHash": "bec18ba529e15befe495227251a3b83e6be0607b5e67586027e354e68db82a5d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2190
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/reed-ashcroft-shoot-right.webp",
+          "sourceSha256": "e6fe7125f0f5440d7e1f3129c04e8aa1b1801f7329c0d5ecf81be0ba74037a7f",
+          "frameIndex": 4,
+          "frameHash": "d483b3098902c4548380581d126c4c7baf3262b57d461336d79124b953ac5bfa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1839
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+          "sourceSha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472",
+          "frameIndex": 2,
+          "frameHash": "e5711e803e0a20385e8d0acdea136e2038888ef4b35ab4af254c8b89f670670f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2971
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/reed-ashcroft-pass-overhead-right.webp",
+          "sourceSha256": "e47b6d1986588c50d7ab23cefa98d87ba9a79d0ba236855e3dbdfd189a749644",
+          "frameIndex": 2,
+          "frameHash": "7829ad7e69c3d0346d49dfc7d3c357c369c359bb7f63ccbe2ef0623c7f45e1c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2823
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+          "sourceSha256": "1c55aa89dc1854860ee6418bef27c4642c2ce5a0e3c44bc61745a767a631b62a",
+          "frameIndex": 2,
+          "frameHash": "85ae2021dde0927e56671395c57ef1dae723b89e9eecfc18290800a93ec3f3b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2784
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/reed-ashcroft-receive-right.webp",
+          "sourceSha256": "4b35bd84425ba35d915616bd289d533e01ba2e40603fb01a2f0405d27728242c",
+          "frameIndex": 1,
+          "frameHash": "da7c3e127f015d54c71c662fda1d195785b4c69368a5b631b3483abeaa186a28",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1586
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/reed-ashcroft-pickup-right.webp",
+          "sourceSha256": "c7f4b98cd9e80e726339c476ec8eb5d3727325b2d91bd2ce703c916af417d1ef",
+          "frameIndex": 2,
+          "frameHash": "6e01b83bd7c48e0dcc9329a4d6678577550ff690597d907ca27e0ee50563b2c0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2233
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/reed-ashcroft-layup-right.webp",
+          "sourceSha256": "9624ba5e1ee8620281ef3d86194102c61fe705ad7e97ffc5c4e90f3f97cef0fc",
+          "frameIndex": 3,
+          "frameHash": "a1eedaa85adf717c63d865236594fdbfd8dc5c87aa03010bc212787d0d6df673",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2802
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-layup-reverse-right.webp",
+          "sourceSha256": "69e49117340e1abf285628373c1ca14f6fd56a0ccf695bcad046dd20ae6a034d",
+          "frameIndex": 3,
+          "frameHash": "7d1ef41ac583a190344d11d22b33552ced186713f4517f8066252ca13a810453",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2006
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/reed-ashcroft-block-right.webp",
+          "sourceSha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+          "frameIndex": 1,
+          "frameHash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 939
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+          "sourceSha256": "ea6b6187a94a84c9230f9027ef64433cfdca966e5b179a58b61d4e0aa4fb136e",
+          "frameIndex": 3,
+          "frameHash": "909b4d6657a3142e9861860ed6aedeaa3ca0ee3d3e1596c92e898a656da54190",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3688
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/reed-ashcroft-push-right.webp",
+          "sourceSha256": "57e9f5a1fe173574af58bde84e93dc3c147a802acc7b479fe117a6e78ebbb571",
+          "frameIndex": 5,
+          "frameHash": "36190a29bb5e8c0605e6f4818d056d64cd9bb5e3410e9b23059fb6d9f7988ca1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4778
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+          "sourceSha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+          "frameIndex": 2,
+          "frameHash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2093
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+          "sourceSha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69",
+          "frameIndex": 4,
+          "frameHash": "45f3baf82332e8a9c7eb95727aa36f4063fa4b95915501e89173893ba95c0caa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6071
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+          "sourceSha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a",
+          "frameIndex": 4,
+          "frameHash": "7f310869f5c486708a8ac688a05ecad70c80a2868267b796a5d1cfee8bb32af8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4359
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+          "sourceSha256": "80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce",
+          "frameIndex": 7,
+          "frameHash": "9ae23b7a4073dcfc376f9542904ebd2f2c191e4aeaeae75511040ed47c747ff3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7009
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+          "sourceSha256": "9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28",
+          "frameIndex": 7,
+          "frameHash": "8e8ae0bcba07d8bff13553b069a0adffb4f90f45ab9bae9b50950c257aee56af",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6508
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-reverse-right.webp",
+          "sourceSha256": "c50d46d7afb1aa81a7523aaf4124c066a19db26db3b8ff32293036b628bd3efa",
+          "frameIndex": 7,
+          "frameHash": "1b2de6b52a32ceb665a3323091d0e5ab9a5e3051f90c33a2b29fad69b1f19a52",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4882
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+          "sourceSha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+          "frameIndex": 7,
+          "frameHash": "309afaba44f2850a23a800a51ae2a42ca2a76f893bedcc4497eb4ee11a87beb5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4181
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+          "sourceSha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+          "frameIndex": 7,
+          "frameHash": "2ede324eb7b2ff9e57bf62e84d118700159a5e737bfdaf4a7533c359487d6eae",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-double-right.webp",
+          "sourceSha256": "b227944c1cf73210e015c8c30840ac21c8b96b3403c51f21d891b8dfb6ee13ca",
+          "frameIndex": 7,
+          "frameHash": "cddc4184c9ddb73b02b8dfcfa3af4b80699b397a6494fe35fe78c72c5b1decfb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3837
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp",
+          "sourceSha256": "21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb",
+          "frameIndex": 7,
+          "frameHash": "1a9f0e9995f135f3570d6493f5ed9f631299400238d1af6fb6c90406762994e0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3713
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+          "sourceSha256": "4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853",
+          "frameIndex": 7,
+          "frameHash": "5b9196d507963af8c53493fc1ccc79f471ed201088a96a8bb6caeac5598a78cd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5606
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-power-right.webp",
+          "sourceSha256": "0fb58f6690fa720532ade62062387990ebf3938f924332cac2cdd7e0166f8be5",
+          "frameIndex": 7,
+          "frameHash": "b58659453519ac0826ddfa3011740782b0f0970e67bb7c4d359a4c63f2904582",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4563
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp",
+          "sourceSha256": "16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236",
+          "frameIndex": 7,
+          "frameHash": "7c80cfe4f35a5d3efd66fdf208a112ce36581429bfd13c4774bbf71a92f10b32",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4916
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "teamId": "emerald-den-wolves",
+      "teamName": "Emerald Den Wolves",
+      "playerId": "fern-howl",
+      "palette": [
+        "#18804e",
+        "#39a9a0"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+          "sourceSha256": "df868fead9e2bd89f3e6a0a87591324f8ecebc9ed87468cf25b7171d2458f2cd",
+          "frameIndex": 2,
+          "frameHash": "94cb57028037c315d8c3560104c183d3945f9577ab1ca3ba0ab12c7331371854",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1734
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+          "sourceSha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d",
+          "frameIndex": 1,
+          "frameHash": "c2238fd8f360f22ae7773a6da5bb2a9ffaee0493c98da517b4780cdead874bbc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1053
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+          "sourceSha256": "f4fbd8c608e0cdf9986556b2f531565f9118f1e52f3e9f2ffc749ff783a43ed1",
+          "frameIndex": 4,
+          "frameHash": "c52d0a0db80412d80678ee514743dbc5acad6033d23d618010295003e77c0888",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2463
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/reed-ashcroft-run-right.webp",
+          "sourceSha256": "b6bd2a7d8dc23a8284ba03a0eebf22bdf16107b18f55faeaf5c07386e21db06c",
+          "frameIndex": 5,
+          "frameHash": "c8e4cf1f831835f9f99945c5c82b58635bb523ad13128dbf544d7d0078812689",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2327
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+          "sourceSha256": "0e3686408b3fd046d712d24d4b7c9ef4ab1d8664b70cf0132dda8cbc1f28b763",
+          "frameIndex": 5,
+          "frameHash": "bec18ba529e15befe495227251a3b83e6be0607b5e67586027e354e68db82a5d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2190
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/reed-ashcroft-shoot-right.webp",
+          "sourceSha256": "e6fe7125f0f5440d7e1f3129c04e8aa1b1801f7329c0d5ecf81be0ba74037a7f",
+          "frameIndex": 4,
+          "frameHash": "d483b3098902c4548380581d126c4c7baf3262b57d461336d79124b953ac5bfa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1839
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+          "sourceSha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472",
+          "frameIndex": 2,
+          "frameHash": "e5711e803e0a20385e8d0acdea136e2038888ef4b35ab4af254c8b89f670670f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2971
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/reed-ashcroft-pass-overhead-right.webp",
+          "sourceSha256": "e47b6d1986588c50d7ab23cefa98d87ba9a79d0ba236855e3dbdfd189a749644",
+          "frameIndex": 2,
+          "frameHash": "7829ad7e69c3d0346d49dfc7d3c357c369c359bb7f63ccbe2ef0623c7f45e1c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2823
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+          "sourceSha256": "1c55aa89dc1854860ee6418bef27c4642c2ce5a0e3c44bc61745a767a631b62a",
+          "frameIndex": 2,
+          "frameHash": "85ae2021dde0927e56671395c57ef1dae723b89e9eecfc18290800a93ec3f3b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2784
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/reed-ashcroft-receive-right.webp",
+          "sourceSha256": "4b35bd84425ba35d915616bd289d533e01ba2e40603fb01a2f0405d27728242c",
+          "frameIndex": 1,
+          "frameHash": "da7c3e127f015d54c71c662fda1d195785b4c69368a5b631b3483abeaa186a28",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1586
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/reed-ashcroft-pickup-right.webp",
+          "sourceSha256": "c7f4b98cd9e80e726339c476ec8eb5d3727325b2d91bd2ce703c916af417d1ef",
+          "frameIndex": 2,
+          "frameHash": "6e01b83bd7c48e0dcc9329a4d6678577550ff690597d907ca27e0ee50563b2c0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2233
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/reed-ashcroft-layup-right.webp",
+          "sourceSha256": "9624ba5e1ee8620281ef3d86194102c61fe705ad7e97ffc5c4e90f3f97cef0fc",
+          "frameIndex": 3,
+          "frameHash": "a1eedaa85adf717c63d865236594fdbfd8dc5c87aa03010bc212787d0d6df673",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2802
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-layup-reverse-right.webp",
+          "sourceSha256": "69e49117340e1abf285628373c1ca14f6fd56a0ccf695bcad046dd20ae6a034d",
+          "frameIndex": 3,
+          "frameHash": "7d1ef41ac583a190344d11d22b33552ced186713f4517f8066252ca13a810453",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2006
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/reed-ashcroft-block-right.webp",
+          "sourceSha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+          "frameIndex": 1,
+          "frameHash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 939
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+          "sourceSha256": "ea6b6187a94a84c9230f9027ef64433cfdca966e5b179a58b61d4e0aa4fb136e",
+          "frameIndex": 3,
+          "frameHash": "909b4d6657a3142e9861860ed6aedeaa3ca0ee3d3e1596c92e898a656da54190",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3688
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/reed-ashcroft-push-right.webp",
+          "sourceSha256": "57e9f5a1fe173574af58bde84e93dc3c147a802acc7b479fe117a6e78ebbb571",
+          "frameIndex": 5,
+          "frameHash": "36190a29bb5e8c0605e6f4818d056d64cd9bb5e3410e9b23059fb6d9f7988ca1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4778
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+          "sourceSha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+          "frameIndex": 2,
+          "frameHash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2093
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+          "sourceSha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69",
+          "frameIndex": 4,
+          "frameHash": "45f3baf82332e8a9c7eb95727aa36f4063fa4b95915501e89173893ba95c0caa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6071
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+          "sourceSha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a",
+          "frameIndex": 4,
+          "frameHash": "7f310869f5c486708a8ac688a05ecad70c80a2868267b796a5d1cfee8bb32af8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4359
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+          "sourceSha256": "80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce",
+          "frameIndex": 7,
+          "frameHash": "9ae23b7a4073dcfc376f9542904ebd2f2c191e4aeaeae75511040ed47c747ff3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7009
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+          "sourceSha256": "9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28",
+          "frameIndex": 7,
+          "frameHash": "8e8ae0bcba07d8bff13553b069a0adffb4f90f45ab9bae9b50950c257aee56af",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6508
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-reverse-right.webp",
+          "sourceSha256": "c50d46d7afb1aa81a7523aaf4124c066a19db26db3b8ff32293036b628bd3efa",
+          "frameIndex": 7,
+          "frameHash": "1b2de6b52a32ceb665a3323091d0e5ab9a5e3051f90c33a2b29fad69b1f19a52",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4882
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+          "sourceSha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+          "frameIndex": 7,
+          "frameHash": "309afaba44f2850a23a800a51ae2a42ca2a76f893bedcc4497eb4ee11a87beb5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4181
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+          "sourceSha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+          "frameIndex": 7,
+          "frameHash": "2ede324eb7b2ff9e57bf62e84d118700159a5e737bfdaf4a7533c359487d6eae",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-double-right.webp",
+          "sourceSha256": "b227944c1cf73210e015c8c30840ac21c8b96b3403c51f21d891b8dfb6ee13ca",
+          "frameIndex": 7,
+          "frameHash": "cddc4184c9ddb73b02b8dfcfa3af4b80699b397a6494fe35fe78c72c5b1decfb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3837
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp",
+          "sourceSha256": "21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb",
+          "frameIndex": 7,
+          "frameHash": "1a9f0e9995f135f3570d6493f5ed9f631299400238d1af6fb6c90406762994e0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3713
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+          "sourceSha256": "4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853",
+          "frameIndex": 7,
+          "frameHash": "5b9196d507963af8c53493fc1ccc79f471ed201088a96a8bb6caeac5598a78cd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5606
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-power-right.webp",
+          "sourceSha256": "0fb58f6690fa720532ade62062387990ebf3938f924332cac2cdd7e0166f8be5",
+          "frameIndex": 7,
+          "frameHash": "b58659453519ac0826ddfa3011740782b0f0970e67bb7c4d359a4c63f2904582",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4563
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp",
+          "sourceSha256": "16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236",
+          "frameIndex": 7,
+          "frameHash": "7c80cfe4f35a5d3efd66fdf208a112ce36581429bfd13c4774bbf71a92f10b32",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4916
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "teamId": "greenwall-giants",
+      "teamName": "Greenwall Giants",
+      "playerId": "moss-granite",
+      "palette": [
+        "#427944",
+        "#858c69"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+          "sourceSha256": "df868fead9e2bd89f3e6a0a87591324f8ecebc9ed87468cf25b7171d2458f2cd",
+          "frameIndex": 2,
+          "frameHash": "94cb57028037c315d8c3560104c183d3945f9577ab1ca3ba0ab12c7331371854",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1734
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+          "sourceSha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d",
+          "frameIndex": 1,
+          "frameHash": "c2238fd8f360f22ae7773a6da5bb2a9ffaee0493c98da517b4780cdead874bbc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1053
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+          "sourceSha256": "f4fbd8c608e0cdf9986556b2f531565f9118f1e52f3e9f2ffc749ff783a43ed1",
+          "frameIndex": 4,
+          "frameHash": "c52d0a0db80412d80678ee514743dbc5acad6033d23d618010295003e77c0888",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2463
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/reed-ashcroft-run-right.webp",
+          "sourceSha256": "b6bd2a7d8dc23a8284ba03a0eebf22bdf16107b18f55faeaf5c07386e21db06c",
+          "frameIndex": 5,
+          "frameHash": "c8e4cf1f831835f9f99945c5c82b58635bb523ad13128dbf544d7d0078812689",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2327
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+          "sourceSha256": "0e3686408b3fd046d712d24d4b7c9ef4ab1d8664b70cf0132dda8cbc1f28b763",
+          "frameIndex": 5,
+          "frameHash": "bec18ba529e15befe495227251a3b83e6be0607b5e67586027e354e68db82a5d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2190
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/reed-ashcroft-shoot-right.webp",
+          "sourceSha256": "e6fe7125f0f5440d7e1f3129c04e8aa1b1801f7329c0d5ecf81be0ba74037a7f",
+          "frameIndex": 4,
+          "frameHash": "d483b3098902c4548380581d126c4c7baf3262b57d461336d79124b953ac5bfa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1839
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+          "sourceSha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472",
+          "frameIndex": 2,
+          "frameHash": "e5711e803e0a20385e8d0acdea136e2038888ef4b35ab4af254c8b89f670670f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2971
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/reed-ashcroft-pass-overhead-right.webp",
+          "sourceSha256": "e47b6d1986588c50d7ab23cefa98d87ba9a79d0ba236855e3dbdfd189a749644",
+          "frameIndex": 2,
+          "frameHash": "7829ad7e69c3d0346d49dfc7d3c357c369c359bb7f63ccbe2ef0623c7f45e1c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2823
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+          "sourceSha256": "1c55aa89dc1854860ee6418bef27c4642c2ce5a0e3c44bc61745a767a631b62a",
+          "frameIndex": 2,
+          "frameHash": "85ae2021dde0927e56671395c57ef1dae723b89e9eecfc18290800a93ec3f3b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2784
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/reed-ashcroft-receive-right.webp",
+          "sourceSha256": "4b35bd84425ba35d915616bd289d533e01ba2e40603fb01a2f0405d27728242c",
+          "frameIndex": 1,
+          "frameHash": "da7c3e127f015d54c71c662fda1d195785b4c69368a5b631b3483abeaa186a28",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1586
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/reed-ashcroft-pickup-right.webp",
+          "sourceSha256": "c7f4b98cd9e80e726339c476ec8eb5d3727325b2d91bd2ce703c916af417d1ef",
+          "frameIndex": 2,
+          "frameHash": "6e01b83bd7c48e0dcc9329a4d6678577550ff690597d907ca27e0ee50563b2c0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2233
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/reed-ashcroft-layup-right.webp",
+          "sourceSha256": "9624ba5e1ee8620281ef3d86194102c61fe705ad7e97ffc5c4e90f3f97cef0fc",
+          "frameIndex": 3,
+          "frameHash": "a1eedaa85adf717c63d865236594fdbfd8dc5c87aa03010bc212787d0d6df673",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2802
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-layup-reverse-right.webp",
+          "sourceSha256": "69e49117340e1abf285628373c1ca14f6fd56a0ccf695bcad046dd20ae6a034d",
+          "frameIndex": 3,
+          "frameHash": "7d1ef41ac583a190344d11d22b33552ced186713f4517f8066252ca13a810453",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2006
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/reed-ashcroft-block-right.webp",
+          "sourceSha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+          "frameIndex": 1,
+          "frameHash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 939
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+          "sourceSha256": "ea6b6187a94a84c9230f9027ef64433cfdca966e5b179a58b61d4e0aa4fb136e",
+          "frameIndex": 3,
+          "frameHash": "909b4d6657a3142e9861860ed6aedeaa3ca0ee3d3e1596c92e898a656da54190",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3688
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/reed-ashcroft-push-right.webp",
+          "sourceSha256": "57e9f5a1fe173574af58bde84e93dc3c147a802acc7b479fe117a6e78ebbb571",
+          "frameIndex": 5,
+          "frameHash": "36190a29bb5e8c0605e6f4818d056d64cd9bb5e3410e9b23059fb6d9f7988ca1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4778
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+          "sourceSha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+          "frameIndex": 2,
+          "frameHash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2093
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+          "sourceSha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69",
+          "frameIndex": 4,
+          "frameHash": "45f3baf82332e8a9c7eb95727aa36f4063fa4b95915501e89173893ba95c0caa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6071
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+          "sourceSha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a",
+          "frameIndex": 4,
+          "frameHash": "7f310869f5c486708a8ac688a05ecad70c80a2868267b796a5d1cfee8bb32af8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4359
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+          "sourceSha256": "80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce",
+          "frameIndex": 7,
+          "frameHash": "9ae23b7a4073dcfc376f9542904ebd2f2c191e4aeaeae75511040ed47c747ff3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7009
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+          "sourceSha256": "9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28",
+          "frameIndex": 7,
+          "frameHash": "8e8ae0bcba07d8bff13553b069a0adffb4f90f45ab9bae9b50950c257aee56af",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6508
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-reverse-right.webp",
+          "sourceSha256": "c50d46d7afb1aa81a7523aaf4124c066a19db26db3b8ff32293036b628bd3efa",
+          "frameIndex": 7,
+          "frameHash": "1b2de6b52a32ceb665a3323091d0e5ab9a5e3051f90c33a2b29fad69b1f19a52",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4882
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+          "sourceSha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+          "frameIndex": 7,
+          "frameHash": "309afaba44f2850a23a800a51ae2a42ca2a76f893bedcc4497eb4ee11a87beb5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4181
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+          "sourceSha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+          "frameIndex": 7,
+          "frameHash": "2ede324eb7b2ff9e57bf62e84d118700159a5e737bfdaf4a7533c359487d6eae",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-double-right.webp",
+          "sourceSha256": "b227944c1cf73210e015c8c30840ac21c8b96b3403c51f21d891b8dfb6ee13ca",
+          "frameIndex": 7,
+          "frameHash": "cddc4184c9ddb73b02b8dfcfa3af4b80699b397a6494fe35fe78c72c5b1decfb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3837
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp",
+          "sourceSha256": "21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb",
+          "frameIndex": 7,
+          "frameHash": "1a9f0e9995f135f3570d6493f5ed9f631299400238d1af6fb6c90406762994e0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3713
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+          "sourceSha256": "4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853",
+          "frameIndex": 7,
+          "frameHash": "5b9196d507963af8c53493fc1ccc79f471ed201088a96a8bb6caeac5598a78cd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5606
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-power-right.webp",
+          "sourceSha256": "0fb58f6690fa720532ade62062387990ebf3938f924332cac2cdd7e0166f8be5",
+          "frameIndex": 7,
+          "frameHash": "b58659453519ac0826ddfa3011740782b0f0970e67bb7c4d359a4c63f2904582",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4563
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp",
+          "sourceSha256": "16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236",
+          "frameIndex": 7,
+          "frameHash": "7c80cfe4f35a5d3efd66fdf208a112ce36581429bfd13c4774bbf71a92f10b32",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4916
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "teamId": "nocturne-city-blankfaces",
+      "teamName": "Nocturne City Blankfaces",
+      "playerId": "detective-halftone",
+      "palette": [
+        "#242c37",
+        "#9098a1"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+          "sourceSha256": "df868fead9e2bd89f3e6a0a87591324f8ecebc9ed87468cf25b7171d2458f2cd",
+          "frameIndex": 2,
+          "frameHash": "94cb57028037c315d8c3560104c183d3945f9577ab1ca3ba0ab12c7331371854",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1734
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+          "sourceSha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d",
+          "frameIndex": 1,
+          "frameHash": "c2238fd8f360f22ae7773a6da5bb2a9ffaee0493c98da517b4780cdead874bbc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1053
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+          "sourceSha256": "f4fbd8c608e0cdf9986556b2f531565f9118f1e52f3e9f2ffc749ff783a43ed1",
+          "frameIndex": 4,
+          "frameHash": "c52d0a0db80412d80678ee514743dbc5acad6033d23d618010295003e77c0888",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2463
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/reed-ashcroft-run-right.webp",
+          "sourceSha256": "b6bd2a7d8dc23a8284ba03a0eebf22bdf16107b18f55faeaf5c07386e21db06c",
+          "frameIndex": 5,
+          "frameHash": "c8e4cf1f831835f9f99945c5c82b58635bb523ad13128dbf544d7d0078812689",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2327
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+          "sourceSha256": "0e3686408b3fd046d712d24d4b7c9ef4ab1d8664b70cf0132dda8cbc1f28b763",
+          "frameIndex": 5,
+          "frameHash": "bec18ba529e15befe495227251a3b83e6be0607b5e67586027e354e68db82a5d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2190
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/reed-ashcroft-shoot-right.webp",
+          "sourceSha256": "e6fe7125f0f5440d7e1f3129c04e8aa1b1801f7329c0d5ecf81be0ba74037a7f",
+          "frameIndex": 4,
+          "frameHash": "d483b3098902c4548380581d126c4c7baf3262b57d461336d79124b953ac5bfa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1839
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+          "sourceSha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472",
+          "frameIndex": 2,
+          "frameHash": "e5711e803e0a20385e8d0acdea136e2038888ef4b35ab4af254c8b89f670670f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2971
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/reed-ashcroft-pass-overhead-right.webp",
+          "sourceSha256": "e47b6d1986588c50d7ab23cefa98d87ba9a79d0ba236855e3dbdfd189a749644",
+          "frameIndex": 2,
+          "frameHash": "7829ad7e69c3d0346d49dfc7d3c357c369c359bb7f63ccbe2ef0623c7f45e1c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2823
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+          "sourceSha256": "1c55aa89dc1854860ee6418bef27c4642c2ce5a0e3c44bc61745a767a631b62a",
+          "frameIndex": 2,
+          "frameHash": "85ae2021dde0927e56671395c57ef1dae723b89e9eecfc18290800a93ec3f3b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2784
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/reed-ashcroft-receive-right.webp",
+          "sourceSha256": "4b35bd84425ba35d915616bd289d533e01ba2e40603fb01a2f0405d27728242c",
+          "frameIndex": 1,
+          "frameHash": "da7c3e127f015d54c71c662fda1d195785b4c69368a5b631b3483abeaa186a28",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1586
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/reed-ashcroft-pickup-right.webp",
+          "sourceSha256": "c7f4b98cd9e80e726339c476ec8eb5d3727325b2d91bd2ce703c916af417d1ef",
+          "frameIndex": 2,
+          "frameHash": "6e01b83bd7c48e0dcc9329a4d6678577550ff690597d907ca27e0ee50563b2c0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2233
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/reed-ashcroft-layup-right.webp",
+          "sourceSha256": "9624ba5e1ee8620281ef3d86194102c61fe705ad7e97ffc5c4e90f3f97cef0fc",
+          "frameIndex": 3,
+          "frameHash": "a1eedaa85adf717c63d865236594fdbfd8dc5c87aa03010bc212787d0d6df673",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2802
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-layup-reverse-right.webp",
+          "sourceSha256": "69e49117340e1abf285628373c1ca14f6fd56a0ccf695bcad046dd20ae6a034d",
+          "frameIndex": 3,
+          "frameHash": "7d1ef41ac583a190344d11d22b33552ced186713f4517f8066252ca13a810453",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2006
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/reed-ashcroft-block-right.webp",
+          "sourceSha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+          "frameIndex": 1,
+          "frameHash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 939
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+          "sourceSha256": "ea6b6187a94a84c9230f9027ef64433cfdca966e5b179a58b61d4e0aa4fb136e",
+          "frameIndex": 3,
+          "frameHash": "909b4d6657a3142e9861860ed6aedeaa3ca0ee3d3e1596c92e898a656da54190",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3688
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/reed-ashcroft-push-right.webp",
+          "sourceSha256": "57e9f5a1fe173574af58bde84e93dc3c147a802acc7b479fe117a6e78ebbb571",
+          "frameIndex": 5,
+          "frameHash": "36190a29bb5e8c0605e6f4818d056d64cd9bb5e3410e9b23059fb6d9f7988ca1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4778
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+          "sourceSha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+          "frameIndex": 2,
+          "frameHash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2093
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+          "sourceSha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69",
+          "frameIndex": 4,
+          "frameHash": "45f3baf82332e8a9c7eb95727aa36f4063fa4b95915501e89173893ba95c0caa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6071
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+          "sourceSha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a",
+          "frameIndex": 4,
+          "frameHash": "7f310869f5c486708a8ac688a05ecad70c80a2868267b796a5d1cfee8bb32af8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4359
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+          "sourceSha256": "80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce",
+          "frameIndex": 7,
+          "frameHash": "9ae23b7a4073dcfc376f9542904ebd2f2c191e4aeaeae75511040ed47c747ff3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7009
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+          "sourceSha256": "9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28",
+          "frameIndex": 7,
+          "frameHash": "8e8ae0bcba07d8bff13553b069a0adffb4f90f45ab9bae9b50950c257aee56af",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6508
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-reverse-right.webp",
+          "sourceSha256": "c50d46d7afb1aa81a7523aaf4124c066a19db26db3b8ff32293036b628bd3efa",
+          "frameIndex": 7,
+          "frameHash": "1b2de6b52a32ceb665a3323091d0e5ab9a5e3051f90c33a2b29fad69b1f19a52",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4882
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+          "sourceSha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+          "frameIndex": 7,
+          "frameHash": "309afaba44f2850a23a800a51ae2a42ca2a76f893bedcc4497eb4ee11a87beb5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4181
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+          "sourceSha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+          "frameIndex": 7,
+          "frameHash": "2ede324eb7b2ff9e57bf62e84d118700159a5e737bfdaf4a7533c359487d6eae",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-double-right.webp",
+          "sourceSha256": "b227944c1cf73210e015c8c30840ac21c8b96b3403c51f21d891b8dfb6ee13ca",
+          "frameIndex": 7,
+          "frameHash": "cddc4184c9ddb73b02b8dfcfa3af4b80699b397a6494fe35fe78c72c5b1decfb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3837
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp",
+          "sourceSha256": "21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb",
+          "frameIndex": 7,
+          "frameHash": "1a9f0e9995f135f3570d6493f5ed9f631299400238d1af6fb6c90406762994e0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3713
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+          "sourceSha256": "4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853",
+          "frameIndex": 7,
+          "frameHash": "5b9196d507963af8c53493fc1ccc79f471ed201088a96a8bb6caeac5598a78cd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5606
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-power-right.webp",
+          "sourceSha256": "0fb58f6690fa720532ade62062387990ebf3938f924332cac2cdd7e0166f8be5",
+          "frameIndex": 7,
+          "frameHash": "b58659453519ac0826ddfa3011740782b0f0970e67bb7c4d359a4c63f2904582",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4563
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp",
+          "sourceSha256": "16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236",
+          "frameIndex": 7,
+          "frameHash": "7c80cfe4f35a5d3efd66fdf208a112ce36581429bfd13c4774bbf71a92f10b32",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4916
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "teamId": "stripewood-longarms",
+      "teamName": "Stripewood Longarms",
+      "playerId": "scribble-turner",
+      "palette": [
+        "#252528",
+        "#e27136"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+          "sourceSha256": "df868fead9e2bd89f3e6a0a87591324f8ecebc9ed87468cf25b7171d2458f2cd",
+          "frameIndex": 2,
+          "frameHash": "94cb57028037c315d8c3560104c183d3945f9577ab1ca3ba0ab12c7331371854",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1734
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+          "sourceSha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d",
+          "frameIndex": 1,
+          "frameHash": "c2238fd8f360f22ae7773a6da5bb2a9ffaee0493c98da517b4780cdead874bbc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1053
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+          "sourceSha256": "f4fbd8c608e0cdf9986556b2f531565f9118f1e52f3e9f2ffc749ff783a43ed1",
+          "frameIndex": 4,
+          "frameHash": "c52d0a0db80412d80678ee514743dbc5acad6033d23d618010295003e77c0888",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2463
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/reed-ashcroft-run-right.webp",
+          "sourceSha256": "b6bd2a7d8dc23a8284ba03a0eebf22bdf16107b18f55faeaf5c07386e21db06c",
+          "frameIndex": 5,
+          "frameHash": "c8e4cf1f831835f9f99945c5c82b58635bb523ad13128dbf544d7d0078812689",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2327
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+          "sourceSha256": "0e3686408b3fd046d712d24d4b7c9ef4ab1d8664b70cf0132dda8cbc1f28b763",
+          "frameIndex": 5,
+          "frameHash": "bec18ba529e15befe495227251a3b83e6be0607b5e67586027e354e68db82a5d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2190
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/reed-ashcroft-shoot-right.webp",
+          "sourceSha256": "e6fe7125f0f5440d7e1f3129c04e8aa1b1801f7329c0d5ecf81be0ba74037a7f",
+          "frameIndex": 4,
+          "frameHash": "d483b3098902c4548380581d126c4c7baf3262b57d461336d79124b953ac5bfa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1839
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+          "sourceSha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472",
+          "frameIndex": 2,
+          "frameHash": "e5711e803e0a20385e8d0acdea136e2038888ef4b35ab4af254c8b89f670670f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2971
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/reed-ashcroft-pass-overhead-right.webp",
+          "sourceSha256": "e47b6d1986588c50d7ab23cefa98d87ba9a79d0ba236855e3dbdfd189a749644",
+          "frameIndex": 2,
+          "frameHash": "7829ad7e69c3d0346d49dfc7d3c357c369c359bb7f63ccbe2ef0623c7f45e1c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2823
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+          "sourceSha256": "1c55aa89dc1854860ee6418bef27c4642c2ce5a0e3c44bc61745a767a631b62a",
+          "frameIndex": 2,
+          "frameHash": "85ae2021dde0927e56671395c57ef1dae723b89e9eecfc18290800a93ec3f3b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2784
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/reed-ashcroft-receive-right.webp",
+          "sourceSha256": "4b35bd84425ba35d915616bd289d533e01ba2e40603fb01a2f0405d27728242c",
+          "frameIndex": 1,
+          "frameHash": "da7c3e127f015d54c71c662fda1d195785b4c69368a5b631b3483abeaa186a28",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1586
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/reed-ashcroft-pickup-right.webp",
+          "sourceSha256": "c7f4b98cd9e80e726339c476ec8eb5d3727325b2d91bd2ce703c916af417d1ef",
+          "frameIndex": 2,
+          "frameHash": "6e01b83bd7c48e0dcc9329a4d6678577550ff690597d907ca27e0ee50563b2c0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2233
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/reed-ashcroft-layup-right.webp",
+          "sourceSha256": "9624ba5e1ee8620281ef3d86194102c61fe705ad7e97ffc5c4e90f3f97cef0fc",
+          "frameIndex": 3,
+          "frameHash": "a1eedaa85adf717c63d865236594fdbfd8dc5c87aa03010bc212787d0d6df673",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2802
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-layup-reverse-right.webp",
+          "sourceSha256": "69e49117340e1abf285628373c1ca14f6fd56a0ccf695bcad046dd20ae6a034d",
+          "frameIndex": 3,
+          "frameHash": "7d1ef41ac583a190344d11d22b33552ced186713f4517f8066252ca13a810453",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2006
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/reed-ashcroft-block-right.webp",
+          "sourceSha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+          "frameIndex": 1,
+          "frameHash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 939
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+          "sourceSha256": "ea6b6187a94a84c9230f9027ef64433cfdca966e5b179a58b61d4e0aa4fb136e",
+          "frameIndex": 3,
+          "frameHash": "909b4d6657a3142e9861860ed6aedeaa3ca0ee3d3e1596c92e898a656da54190",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3688
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/reed-ashcroft-push-right.webp",
+          "sourceSha256": "57e9f5a1fe173574af58bde84e93dc3c147a802acc7b479fe117a6e78ebbb571",
+          "frameIndex": 5,
+          "frameHash": "36190a29bb5e8c0605e6f4818d056d64cd9bb5e3410e9b23059fb6d9f7988ca1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4778
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+          "sourceSha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+          "frameIndex": 2,
+          "frameHash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2093
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+          "sourceSha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69",
+          "frameIndex": 4,
+          "frameHash": "45f3baf82332e8a9c7eb95727aa36f4063fa4b95915501e89173893ba95c0caa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6071
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+          "sourceSha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a",
+          "frameIndex": 4,
+          "frameHash": "7f310869f5c486708a8ac688a05ecad70c80a2868267b796a5d1cfee8bb32af8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4359
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+          "sourceSha256": "80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce",
+          "frameIndex": 7,
+          "frameHash": "9ae23b7a4073dcfc376f9542904ebd2f2c191e4aeaeae75511040ed47c747ff3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7009
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+          "sourceSha256": "9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28",
+          "frameIndex": 7,
+          "frameHash": "8e8ae0bcba07d8bff13553b069a0adffb4f90f45ab9bae9b50950c257aee56af",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6508
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-reverse-right.webp",
+          "sourceSha256": "c50d46d7afb1aa81a7523aaf4124c066a19db26db3b8ff32293036b628bd3efa",
+          "frameIndex": 7,
+          "frameHash": "1b2de6b52a32ceb665a3323091d0e5ab9a5e3051f90c33a2b29fad69b1f19a52",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4882
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+          "sourceSha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+          "frameIndex": 7,
+          "frameHash": "309afaba44f2850a23a800a51ae2a42ca2a76f893bedcc4497eb4ee11a87beb5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4181
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+          "sourceSha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+          "frameIndex": 7,
+          "frameHash": "2ede324eb7b2ff9e57bf62e84d118700159a5e737bfdaf4a7533c359487d6eae",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-double-right.webp",
+          "sourceSha256": "b227944c1cf73210e015c8c30840ac21c8b96b3403c51f21d891b8dfb6ee13ca",
+          "frameIndex": 7,
+          "frameHash": "cddc4184c9ddb73b02b8dfcfa3af4b80699b397a6494fe35fe78c72c5b1decfb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3837
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp",
+          "sourceSha256": "21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb",
+          "frameIndex": 7,
+          "frameHash": "1a9f0e9995f135f3570d6493f5ed9f631299400238d1af6fb6c90406762994e0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3713
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+          "sourceSha256": "4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853",
+          "frameIndex": 7,
+          "frameHash": "5b9196d507963af8c53493fc1ccc79f471ed201088a96a8bb6caeac5598a78cd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5606
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-power-right.webp",
+          "sourceSha256": "0fb58f6690fa720532ade62062387990ebf3938f924332cac2cdd7e0166f8be5",
+          "frameIndex": 7,
+          "frameHash": "b58659453519ac0826ddfa3011740782b0f0970e67bb7c4d359a4c63f2904582",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4563
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp",
+          "sourceSha256": "16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236",
+          "frameIndex": 7,
+          "frameHash": "7c80cfe4f35a5d3efd66fdf208a112ce36581429bfd13c4774bbf71a92f10b32",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4916
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "teamId": "thornvale-breakers",
+      "teamName": "Thornvale Breakers",
+      "playerId": "fenn-static",
+      "palette": [
+        "#29282c",
+        "#713a79"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+          "sourceSha256": "df868fead9e2bd89f3e6a0a87591324f8ecebc9ed87468cf25b7171d2458f2cd",
+          "frameIndex": 2,
+          "frameHash": "94cb57028037c315d8c3560104c183d3945f9577ab1ca3ba0ab12c7331371854",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1734
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+          "sourceSha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d",
+          "frameIndex": 1,
+          "frameHash": "c2238fd8f360f22ae7773a6da5bb2a9ffaee0493c98da517b4780cdead874bbc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1053
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+          "sourceSha256": "f4fbd8c608e0cdf9986556b2f531565f9118f1e52f3e9f2ffc749ff783a43ed1",
+          "frameIndex": 4,
+          "frameHash": "c52d0a0db80412d80678ee514743dbc5acad6033d23d618010295003e77c0888",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2463
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/reed-ashcroft-run-right.webp",
+          "sourceSha256": "b6bd2a7d8dc23a8284ba03a0eebf22bdf16107b18f55faeaf5c07386e21db06c",
+          "frameIndex": 5,
+          "frameHash": "c8e4cf1f831835f9f99945c5c82b58635bb523ad13128dbf544d7d0078812689",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2327
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+          "sourceSha256": "0e3686408b3fd046d712d24d4b7c9ef4ab1d8664b70cf0132dda8cbc1f28b763",
+          "frameIndex": 5,
+          "frameHash": "bec18ba529e15befe495227251a3b83e6be0607b5e67586027e354e68db82a5d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2190
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/reed-ashcroft-shoot-right.webp",
+          "sourceSha256": "e6fe7125f0f5440d7e1f3129c04e8aa1b1801f7329c0d5ecf81be0ba74037a7f",
+          "frameIndex": 4,
+          "frameHash": "d483b3098902c4548380581d126c4c7baf3262b57d461336d79124b953ac5bfa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1839
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+          "sourceSha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472",
+          "frameIndex": 2,
+          "frameHash": "e5711e803e0a20385e8d0acdea136e2038888ef4b35ab4af254c8b89f670670f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2971
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/reed-ashcroft-pass-overhead-right.webp",
+          "sourceSha256": "e47b6d1986588c50d7ab23cefa98d87ba9a79d0ba236855e3dbdfd189a749644",
+          "frameIndex": 2,
+          "frameHash": "7829ad7e69c3d0346d49dfc7d3c357c369c359bb7f63ccbe2ef0623c7f45e1c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2823
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+          "sourceSha256": "1c55aa89dc1854860ee6418bef27c4642c2ce5a0e3c44bc61745a767a631b62a",
+          "frameIndex": 2,
+          "frameHash": "85ae2021dde0927e56671395c57ef1dae723b89e9eecfc18290800a93ec3f3b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2784
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/reed-ashcroft-receive-right.webp",
+          "sourceSha256": "4b35bd84425ba35d915616bd289d533e01ba2e40603fb01a2f0405d27728242c",
+          "frameIndex": 1,
+          "frameHash": "da7c3e127f015d54c71c662fda1d195785b4c69368a5b631b3483abeaa186a28",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1586
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/reed-ashcroft-pickup-right.webp",
+          "sourceSha256": "c7f4b98cd9e80e726339c476ec8eb5d3727325b2d91bd2ce703c916af417d1ef",
+          "frameIndex": 2,
+          "frameHash": "6e01b83bd7c48e0dcc9329a4d6678577550ff690597d907ca27e0ee50563b2c0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2233
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/reed-ashcroft-layup-right.webp",
+          "sourceSha256": "9624ba5e1ee8620281ef3d86194102c61fe705ad7e97ffc5c4e90f3f97cef0fc",
+          "frameIndex": 3,
+          "frameHash": "a1eedaa85adf717c63d865236594fdbfd8dc5c87aa03010bc212787d0d6df673",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2802
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-layup-reverse-right.webp",
+          "sourceSha256": "69e49117340e1abf285628373c1ca14f6fd56a0ccf695bcad046dd20ae6a034d",
+          "frameIndex": 3,
+          "frameHash": "7d1ef41ac583a190344d11d22b33552ced186713f4517f8066252ca13a810453",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2006
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/reed-ashcroft-block-right.webp",
+          "sourceSha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+          "frameIndex": 1,
+          "frameHash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 939
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+          "sourceSha256": "ea6b6187a94a84c9230f9027ef64433cfdca966e5b179a58b61d4e0aa4fb136e",
+          "frameIndex": 3,
+          "frameHash": "909b4d6657a3142e9861860ed6aedeaa3ca0ee3d3e1596c92e898a656da54190",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3688
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/reed-ashcroft-push-right.webp",
+          "sourceSha256": "57e9f5a1fe173574af58bde84e93dc3c147a802acc7b479fe117a6e78ebbb571",
+          "frameIndex": 5,
+          "frameHash": "36190a29bb5e8c0605e6f4818d056d64cd9bb5e3410e9b23059fb6d9f7988ca1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4778
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+          "sourceSha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+          "frameIndex": 2,
+          "frameHash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2093
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+          "sourceSha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69",
+          "frameIndex": 4,
+          "frameHash": "45f3baf82332e8a9c7eb95727aa36f4063fa4b95915501e89173893ba95c0caa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6071
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+          "sourceSha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a",
+          "frameIndex": 4,
+          "frameHash": "7f310869f5c486708a8ac688a05ecad70c80a2868267b796a5d1cfee8bb32af8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4359
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+          "sourceSha256": "80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce",
+          "frameIndex": 7,
+          "frameHash": "9ae23b7a4073dcfc376f9542904ebd2f2c191e4aeaeae75511040ed47c747ff3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7009
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+          "sourceSha256": "9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28",
+          "frameIndex": 7,
+          "frameHash": "8e8ae0bcba07d8bff13553b069a0adffb4f90f45ab9bae9b50950c257aee56af",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6508
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-reverse-right.webp",
+          "sourceSha256": "c50d46d7afb1aa81a7523aaf4124c066a19db26db3b8ff32293036b628bd3efa",
+          "frameIndex": 7,
+          "frameHash": "1b2de6b52a32ceb665a3323091d0e5ab9a5e3051f90c33a2b29fad69b1f19a52",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4882
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+          "sourceSha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+          "frameIndex": 7,
+          "frameHash": "309afaba44f2850a23a800a51ae2a42ca2a76f893bedcc4497eb4ee11a87beb5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4181
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+          "sourceSha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+          "frameIndex": 7,
+          "frameHash": "2ede324eb7b2ff9e57bf62e84d118700159a5e737bfdaf4a7533c359487d6eae",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-double-right.webp",
+          "sourceSha256": "b227944c1cf73210e015c8c30840ac21c8b96b3403c51f21d891b8dfb6ee13ca",
+          "frameIndex": 7,
+          "frameHash": "cddc4184c9ddb73b02b8dfcfa3af4b80699b397a6494fe35fe78c72c5b1decfb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3837
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp",
+          "sourceSha256": "21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb",
+          "frameIndex": 7,
+          "frameHash": "1a9f0e9995f135f3570d6493f5ed9f631299400238d1af6fb6c90406762994e0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3713
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+          "sourceSha256": "4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853",
+          "frameIndex": 7,
+          "frameHash": "5b9196d507963af8c53493fc1ccc79f471ed201088a96a8bb6caeac5598a78cd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5606
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-power-right.webp",
+          "sourceSha256": "0fb58f6690fa720532ade62062387990ebf3938f924332cac2cdd7e0166f8be5",
+          "frameIndex": 7,
+          "frameHash": "b58659453519ac0826ddfa3011740782b0f0970e67bb7c4d359a4c63f2904582",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4563
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp",
+          "sourceSha256": "16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236",
+          "frameIndex": 7,
+          "frameHash": "7c80cfe4f35a5d3efd66fdf208a112ce36581429bfd13c4774bbf71a92f10b32",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4916
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "teamId": "venom-delta-fangs",
+      "teamName": "Venom Delta Fangs",
+      "playerId": "nox-striker",
+      "palette": [
+        "#142f63",
+        "#1c9bdd"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+          "sourceSha256": "df868fead9e2bd89f3e6a0a87591324f8ecebc9ed87468cf25b7171d2458f2cd",
+          "frameIndex": 2,
+          "frameHash": "94cb57028037c315d8c3560104c183d3945f9577ab1ca3ba0ab12c7331371854",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1734
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+          "sourceSha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d",
+          "frameIndex": 1,
+          "frameHash": "c2238fd8f360f22ae7773a6da5bb2a9ffaee0493c98da517b4780cdead874bbc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1053
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+          "sourceSha256": "f4fbd8c608e0cdf9986556b2f531565f9118f1e52f3e9f2ffc749ff783a43ed1",
+          "frameIndex": 4,
+          "frameHash": "c52d0a0db80412d80678ee514743dbc5acad6033d23d618010295003e77c0888",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2463
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/reed-ashcroft-run-right.webp",
+          "sourceSha256": "b6bd2a7d8dc23a8284ba03a0eebf22bdf16107b18f55faeaf5c07386e21db06c",
+          "frameIndex": 5,
+          "frameHash": "c8e4cf1f831835f9f99945c5c82b58635bb523ad13128dbf544d7d0078812689",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2327
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+          "sourceSha256": "0e3686408b3fd046d712d24d4b7c9ef4ab1d8664b70cf0132dda8cbc1f28b763",
+          "frameIndex": 5,
+          "frameHash": "bec18ba529e15befe495227251a3b83e6be0607b5e67586027e354e68db82a5d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2190
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/reed-ashcroft-shoot-right.webp",
+          "sourceSha256": "e6fe7125f0f5440d7e1f3129c04e8aa1b1801f7329c0d5ecf81be0ba74037a7f",
+          "frameIndex": 4,
+          "frameHash": "d483b3098902c4548380581d126c4c7baf3262b57d461336d79124b953ac5bfa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1839
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+          "sourceSha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472",
+          "frameIndex": 2,
+          "frameHash": "e5711e803e0a20385e8d0acdea136e2038888ef4b35ab4af254c8b89f670670f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2971
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/reed-ashcroft-pass-overhead-right.webp",
+          "sourceSha256": "e47b6d1986588c50d7ab23cefa98d87ba9a79d0ba236855e3dbdfd189a749644",
+          "frameIndex": 2,
+          "frameHash": "7829ad7e69c3d0346d49dfc7d3c357c369c359bb7f63ccbe2ef0623c7f45e1c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2823
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+          "sourceSha256": "1c55aa89dc1854860ee6418bef27c4642c2ce5a0e3c44bc61745a767a631b62a",
+          "frameIndex": 2,
+          "frameHash": "85ae2021dde0927e56671395c57ef1dae723b89e9eecfc18290800a93ec3f3b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2784
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/reed-ashcroft-receive-right.webp",
+          "sourceSha256": "4b35bd84425ba35d915616bd289d533e01ba2e40603fb01a2f0405d27728242c",
+          "frameIndex": 1,
+          "frameHash": "da7c3e127f015d54c71c662fda1d195785b4c69368a5b631b3483abeaa186a28",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1586
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/reed-ashcroft-pickup-right.webp",
+          "sourceSha256": "c7f4b98cd9e80e726339c476ec8eb5d3727325b2d91bd2ce703c916af417d1ef",
+          "frameIndex": 2,
+          "frameHash": "6e01b83bd7c48e0dcc9329a4d6678577550ff690597d907ca27e0ee50563b2c0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2233
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/reed-ashcroft-layup-right.webp",
+          "sourceSha256": "9624ba5e1ee8620281ef3d86194102c61fe705ad7e97ffc5c4e90f3f97cef0fc",
+          "frameIndex": 3,
+          "frameHash": "a1eedaa85adf717c63d865236594fdbfd8dc5c87aa03010bc212787d0d6df673",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2802
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-layup-reverse-right.webp",
+          "sourceSha256": "69e49117340e1abf285628373c1ca14f6fd56a0ccf695bcad046dd20ae6a034d",
+          "frameIndex": 3,
+          "frameHash": "7d1ef41ac583a190344d11d22b33552ced186713f4517f8066252ca13a810453",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2006
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/reed-ashcroft-block-right.webp",
+          "sourceSha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+          "frameIndex": 1,
+          "frameHash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 939
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+          "sourceSha256": "ea6b6187a94a84c9230f9027ef64433cfdca966e5b179a58b61d4e0aa4fb136e",
+          "frameIndex": 3,
+          "frameHash": "909b4d6657a3142e9861860ed6aedeaa3ca0ee3d3e1596c92e898a656da54190",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3688
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/reed-ashcroft-push-right.webp",
+          "sourceSha256": "57e9f5a1fe173574af58bde84e93dc3c147a802acc7b479fe117a6e78ebbb571",
+          "frameIndex": 5,
+          "frameHash": "36190a29bb5e8c0605e6f4818d056d64cd9bb5e3410e9b23059fb6d9f7988ca1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4778
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+          "sourceSha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+          "frameIndex": 2,
+          "frameHash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2093
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+          "sourceSha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69",
+          "frameIndex": 4,
+          "frameHash": "45f3baf82332e8a9c7eb95727aa36f4063fa4b95915501e89173893ba95c0caa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6071
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+          "sourceSha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a",
+          "frameIndex": 4,
+          "frameHash": "7f310869f5c486708a8ac688a05ecad70c80a2868267b796a5d1cfee8bb32af8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4359
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+          "sourceSha256": "80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce",
+          "frameIndex": 7,
+          "frameHash": "9ae23b7a4073dcfc376f9542904ebd2f2c191e4aeaeae75511040ed47c747ff3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7009
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+          "sourceSha256": "9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28",
+          "frameIndex": 7,
+          "frameHash": "8e8ae0bcba07d8bff13553b069a0adffb4f90f45ab9bae9b50950c257aee56af",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6508
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-reverse-right.webp",
+          "sourceSha256": "c50d46d7afb1aa81a7523aaf4124c066a19db26db3b8ff32293036b628bd3efa",
+          "frameIndex": 7,
+          "frameHash": "1b2de6b52a32ceb665a3323091d0e5ab9a5e3051f90c33a2b29fad69b1f19a52",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4882
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+          "sourceSha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+          "frameIndex": 7,
+          "frameHash": "309afaba44f2850a23a800a51ae2a42ca2a76f893bedcc4497eb4ee11a87beb5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4181
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+          "sourceSha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+          "frameIndex": 7,
+          "frameHash": "2ede324eb7b2ff9e57bf62e84d118700159a5e737bfdaf4a7533c359487d6eae",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-double-right.webp",
+          "sourceSha256": "b227944c1cf73210e015c8c30840ac21c8b96b3403c51f21d891b8dfb6ee13ca",
+          "frameIndex": 7,
+          "frameHash": "cddc4184c9ddb73b02b8dfcfa3af4b80699b397a6494fe35fe78c72c5b1decfb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3837
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp",
+          "sourceSha256": "21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb",
+          "frameIndex": 7,
+          "frameHash": "1a9f0e9995f135f3570d6493f5ed9f631299400238d1af6fb6c90406762994e0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3713
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+          "sourceSha256": "4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853",
+          "frameIndex": 7,
+          "frameHash": "5b9196d507963af8c53493fc1ccc79f471ed201088a96a8bb6caeac5598a78cd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5606
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-power-right.webp",
+          "sourceSha256": "0fb58f6690fa720532ade62062387990ebf3938f924332cac2cdd7e0166f8be5",
+          "frameIndex": 7,
+          "frameHash": "b58659453519ac0826ddfa3011740782b0f0970e67bb7c4d359a4c63f2904582",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4563
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp",
+          "sourceSha256": "16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236",
+          "frameIndex": 7,
+          "frameHash": "7c80cfe4f35a5d3efd66fdf208a112ce36581429bfd13c4774bbf71a92f10b32",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4916
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "teamId": "vesper-harbor-undertow",
+      "teamName": "Vesper Harbor Undertow",
+      "playerId": "cove-knell",
+      "palette": [
+        "#773c49",
+        "#bd865f"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+          "sourceSha256": "df868fead9e2bd89f3e6a0a87591324f8ecebc9ed87468cf25b7171d2458f2cd",
+          "frameIndex": 2,
+          "frameHash": "94cb57028037c315d8c3560104c183d3945f9577ab1ca3ba0ab12c7331371854",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1734
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+          "sourceSha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d",
+          "frameIndex": 1,
+          "frameHash": "c2238fd8f360f22ae7773a6da5bb2a9ffaee0493c98da517b4780cdead874bbc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1053
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+          "sourceSha256": "f4fbd8c608e0cdf9986556b2f531565f9118f1e52f3e9f2ffc749ff783a43ed1",
+          "frameIndex": 4,
+          "frameHash": "c52d0a0db80412d80678ee514743dbc5acad6033d23d618010295003e77c0888",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2463
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/reed-ashcroft-run-right.webp",
+          "sourceSha256": "b6bd2a7d8dc23a8284ba03a0eebf22bdf16107b18f55faeaf5c07386e21db06c",
+          "frameIndex": 5,
+          "frameHash": "c8e4cf1f831835f9f99945c5c82b58635bb523ad13128dbf544d7d0078812689",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2327
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+          "sourceSha256": "0e3686408b3fd046d712d24d4b7c9ef4ab1d8664b70cf0132dda8cbc1f28b763",
+          "frameIndex": 5,
+          "frameHash": "bec18ba529e15befe495227251a3b83e6be0607b5e67586027e354e68db82a5d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2190
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/reed-ashcroft-shoot-right.webp",
+          "sourceSha256": "e6fe7125f0f5440d7e1f3129c04e8aa1b1801f7329c0d5ecf81be0ba74037a7f",
+          "frameIndex": 4,
+          "frameHash": "d483b3098902c4548380581d126c4c7baf3262b57d461336d79124b953ac5bfa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1839
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/reed-ashcroft-pass-right.webp",
+          "sourceSha256": "f534bd5efeb4c6aae1975db255708da2ac68c54fc081659d738c721b411c4472",
+          "frameIndex": 2,
+          "frameHash": "e5711e803e0a20385e8d0acdea136e2038888ef4b35ab4af254c8b89f670670f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2971
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/reed-ashcroft-pass-overhead-right.webp",
+          "sourceSha256": "e47b6d1986588c50d7ab23cefa98d87ba9a79d0ba236855e3dbdfd189a749644",
+          "frameIndex": 2,
+          "frameHash": "7829ad7e69c3d0346d49dfc7d3c357c369c359bb7f63ccbe2ef0623c7f45e1c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2823
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/reed-ashcroft-pass-behind-right.webp",
+          "sourceSha256": "1c55aa89dc1854860ee6418bef27c4642c2ce5a0e3c44bc61745a767a631b62a",
+          "frameIndex": 2,
+          "frameHash": "85ae2021dde0927e56671395c57ef1dae723b89e9eecfc18290800a93ec3f3b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2784
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/reed-ashcroft-receive-right.webp",
+          "sourceSha256": "4b35bd84425ba35d915616bd289d533e01ba2e40603fb01a2f0405d27728242c",
+          "frameIndex": 1,
+          "frameHash": "da7c3e127f015d54c71c662fda1d195785b4c69368a5b631b3483abeaa186a28",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1586
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/reed-ashcroft-pickup-right.webp",
+          "sourceSha256": "c7f4b98cd9e80e726339c476ec8eb5d3727325b2d91bd2ce703c916af417d1ef",
+          "frameIndex": 2,
+          "frameHash": "6e01b83bd7c48e0dcc9329a4d6678577550ff690597d907ca27e0ee50563b2c0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2233
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/reed-ashcroft-layup-right.webp",
+          "sourceSha256": "9624ba5e1ee8620281ef3d86194102c61fe705ad7e97ffc5c4e90f3f97cef0fc",
+          "frameIndex": 3,
+          "frameHash": "a1eedaa85adf717c63d865236594fdbfd8dc5c87aa03010bc212787d0d6df673",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2802
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-layup-reverse-right.webp",
+          "sourceSha256": "69e49117340e1abf285628373c1ca14f6fd56a0ccf695bcad046dd20ae6a034d",
+          "frameIndex": 3,
+          "frameHash": "7d1ef41ac583a190344d11d22b33552ced186713f4517f8066252ca13a810453",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2006
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/reed-ashcroft-block-right.webp",
+          "sourceSha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+          "frameIndex": 1,
+          "frameHash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 939
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/reed-ashcroft-steal-right.webp",
+          "sourceSha256": "ea6b6187a94a84c9230f9027ef64433cfdca966e5b179a58b61d4e0aa4fb136e",
+          "frameIndex": 3,
+          "frameHash": "909b4d6657a3142e9861860ed6aedeaa3ca0ee3d3e1596c92e898a656da54190",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3688
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/reed-ashcroft-push-right.webp",
+          "sourceSha256": "57e9f5a1fe173574af58bde84e93dc3c147a802acc7b479fe117a6e78ebbb571",
+          "frameIndex": 5,
+          "frameHash": "36190a29bb5e8c0605e6f4818d056d64cd9bb5e3410e9b23059fb6d9f7988ca1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4778
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+          "sourceSha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+          "frameIndex": 2,
+          "frameHash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2093
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+          "sourceSha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69",
+          "frameIndex": 4,
+          "frameHash": "45f3baf82332e8a9c7eb95727aa36f4063fa4b95915501e89173893ba95c0caa",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6071
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+          "sourceSha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a",
+          "frameIndex": 4,
+          "frameHash": "7f310869f5c486708a8ac688a05ecad70c80a2868267b796a5d1cfee8bb32af8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4359
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+          "sourceSha256": "80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce",
+          "frameIndex": 7,
+          "frameHash": "9ae23b7a4073dcfc376f9542904ebd2f2c191e4aeaeae75511040ed47c747ff3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7009
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+          "sourceSha256": "9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28",
+          "frameIndex": 7,
+          "frameHash": "8e8ae0bcba07d8bff13553b069a0adffb4f90f45ab9bae9b50950c257aee56af",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6508
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-reverse-right.webp",
+          "sourceSha256": "c50d46d7afb1aa81a7523aaf4124c066a19db26db3b8ff32293036b628bd3efa",
+          "frameIndex": 7,
+          "frameHash": "1b2de6b52a32ceb665a3323091d0e5ab9a5e3051f90c33a2b29fad69b1f19a52",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4882
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+          "sourceSha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+          "frameIndex": 7,
+          "frameHash": "309afaba44f2850a23a800a51ae2a42ca2a76f893bedcc4497eb4ee11a87beb5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4181
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp",
+          "sourceSha256": "18360947f0e95e4b6758e9a27501e36e396e2bfd51b01a47eb392adbfed1a2ba",
+          "frameIndex": 7,
+          "frameHash": "2ede324eb7b2ff9e57bf62e84d118700159a5e737bfdaf4a7533c359487d6eae",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-double-right.webp",
+          "sourceSha256": "b227944c1cf73210e015c8c30840ac21c8b96b3403c51f21d891b8dfb6ee13ca",
+          "frameIndex": 7,
+          "frameHash": "cddc4184c9ddb73b02b8dfcfa3af4b80699b397a6494fe35fe78c72c5b1decfb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3837
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp",
+          "sourceSha256": "21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb",
+          "frameIndex": 7,
+          "frameHash": "1a9f0e9995f135f3570d6493f5ed9f631299400238d1af6fb6c90406762994e0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3713
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+          "sourceSha256": "4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853",
+          "frameIndex": 7,
+          "frameHash": "5b9196d507963af8c53493fc1ccc79f471ed201088a96a8bb6caeac5598a78cd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5606
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-power-right.webp",
+          "sourceSha256": "0fb58f6690fa720532ade62062387990ebf3938f924332cac2cdd7e0166f8be5",
+          "frameIndex": 7,
+          "frameHash": "b58659453519ac0826ddfa3011740782b0f0970e67bb7c4d359a4c63f2904582",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4563
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp",
+          "sourceSha256": "16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236",
+          "frameIndex": 7,
+          "frameHash": "7c80cfe4f35a5d3efd66fdf208a112ce36581429bfd13c4774bbf71a92f10b32",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4916
+        }
+      ]
+    }
+  ]
+}

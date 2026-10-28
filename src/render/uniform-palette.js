@@ -1,5 +1,4 @@
 let variants = new WeakMap();
-const distanceLimit = 120;
 const maxVariantsPerAtlas = 4;
 
 function parseColor(color) {
@@ -20,17 +19,39 @@ function hueAndChroma([r, g, b]) {
   }
   return { hue: (hue + 360) % 360, chroma: delta };
 }
-const shortsSourceColor = Object.freeze({ 'neutral-light-shorts': '#d8d5ce', 'neutral-dark-shorts': '#30313a', 'cool-dark-shorts': '#243a4e' });
 
-/** Lazily derive a cached canvas; callers must pass a reviewed donor and palette. */
-export function paletteVariantFor(source, sourceId, sourcePalette, targetPalette, frames = [], maskPolicy = {}) {
-  if (typeof document === 'undefined' || !sourcePalette || !targetPalette) return source;
+function inRegion(x, y, frame, region) {
+  const relativeX = (x - frame.x) / frame.w, relativeY = (y - frame.y) / frame.h;
+  if (region.polygon?.length >= 3) {
+    let inside = false;
+    for (let i = 0, j = region.polygon.length - 1; i < region.polygon.length; j = i++) {
+      const [xi, yi] = region.polygon[i], [xj, yj] = region.polygon[j];
+      const intersects = ((yi > relativeY) !== (yj > relativeY)) &&
+        relativeX < (xj - xi) * (relativeY - yi) / ((yj - yi) || Number.EPSILON) + xi;
+      if (intersects) inside = !inside;
+    }
+    return inside;
+  }
+  return relativeX >= region.x[0] && relativeX <= region.x[1] && relativeY >= region.y[0] && relativeY <= region.y[1];
+}
+function matchesColor(color, mask) {
+  const luma = luminance(color);
+  if (luma < mask.luma[0] || luma > mask.luma[1]) return false;
+  const { hue, chroma } = hueAndChroma(color);
+  if (chroma < mask.chromaMin) return false;
+  const [minHue, maxHue] = mask.hue;
+  return minHue <= maxHue ? hue >= minHue && hue <= maxHue : hue >= minHue || hue <= maxHue;
+}
+
+/** Lazily derive a cached atlas with a reviewed, donor-specific garment mask. */
+export function paletteVariantFor(source, sourceId, sourcePalette, targetPalette, frames = [], maskProfile = null, clipId = null) {
+  if (typeof document === 'undefined' || !sourcePalette || !targetPalette || !maskProfile || maskProfile.status !== 'accepted') return source;
   const oldColors = sourcePalette.map(parseColor), newColors = targetPalette.map(parseColor);
   if (oldColors.length !== 2 || newColors.length !== 2 || [...oldColors, ...newColors].some(color => !color)) return source;
   if (oldColors.every((color, index) => color.every((channel, i) => channel === newColors[index][i]))) return source;
   let cache = variants.get(source);
   if (!cache) { cache = new Map(); variants.set(source, cache); }
-  const cacheKey = `${sourceId}|${JSON.stringify(maskPolicy)}|${newColors.map(color => color.map(v => v.toString(16).padStart(2, '0')).join('')).join('-')}`;
+  const cacheKey = `${sourceId}|${maskProfile.id}|${newColors.map(color => color.map(v => v.toString(16).padStart(2, '0')).join('')).join('-')}`;
   if (cache.has(cacheKey)) {
     const cached = cache.get(cacheKey);
     cache.delete(cacheKey);
@@ -45,30 +66,26 @@ export function paletteVariantFor(source, sourceId, sourcePalette, targetPalette
   context.drawImage(source, 0, 0);
   const image = context.getImageData(0, 0, canvas.width, canvas.height), pixels = image.data;
   const regions = frames.length ? frames : [{ x: 0, y: 0, w: canvas.width, h: canvas.height }];
+  const jerseyMask = maskProfile.clips?.[clipId]?.jersey ?? maskProfile.jersey;
+  const shortsMask = maskProfile.clips?.[clipId]?.shorts ?? maskProfile.shorts;
+  const jerseyBase = luminance(parseColor(jerseyMask.sourceColor));
+  const shortsBase = luminance(parseColor(shortsMask.sourceColor));
   for (const frame of regions) for (let y = frame.y; y < frame.y + frame.h; y++) for (let x = frame.x; x < frame.x + frame.w; x++) {
     const i = (y * canvas.width + x) * 4;
     if (pixels[i + 3] === 0) continue;
-    const color = [pixels[i], pixels[i + 1], pixels[i + 2]], relativeY = (y - frame.y) / frame.h, relativeX = (x - frame.x) / frame.w;
-    let best = -1, bestDistance = distanceLimit ** 2, baseLuma = 0;
-    const { hue, chroma } = hueAndChroma(color);
-    if ((frame.h < 8 || relativeY >= .28 && relativeY <= .82) && (frame.w < 8 || relativeX >= .08 && relativeX <= .92) && hue >= 165 && hue <= 215 && chroma >= 22 && luminance(color) >= 24 && luminance(color) <= 248) {
-      const base = oldColors[0], dr = color[0] - base[0], dg = color[1] - base[1], db = color[2] - base[2], distance = dr * dr + dg * dg + db * db;
-      if (distance < bestDistance) { best = 0; bestDistance = distance; baseLuma = luminance(base); }
+    const color = [pixels[i], pixels[i + 1], pixels[i + 2]];
+    let role = -1, baseLuma = 0;
+    if (inRegion(x, y, frame, shortsMask.region) && matchesColor(color, shortsMask)) {
+      role = 1;
+      baseLuma = shortsBase;
+    } else if (inRegion(x, y, frame, jerseyMask.region) && matchesColor(color, jerseyMask)) {
+      role = 0;
+      baseLuma = jerseyBase;
     }
-    if ((frame.h < 8 || relativeY >= .53 && relativeY <= .79) && (frame.w < 8 || relativeX >= .18 && relativeX <= .82)) {
-      const trim = oldColors[1], dr = color[0] - trim[0], dg = color[1] - trim[1], db = color[2] - trim[2], trimDistance = dr * dr + dg * dg + db * db;
-      if (trimDistance < bestDistance) { best = 1; bestDistance = trimDistance; baseLuma = luminance(trim); }
-      const luma = luminance(color), policy = maskPolicy.secondary;
-      const shortsMatch = policy === 'neutral-light-shorts' ? chroma <= 40 && luma >= 130
-        : policy === 'neutral-dark-shorts' ? chroma <= 34 && luma >= 30 && luma <= 100
-          : policy === 'cool-dark-shorts' || policy === 'violet-trim-and-cool-dark-shorts' || policy === 'violet-cyan-shorts' ? hue >= 195 && hue <= 310 && chroma >= 28 && luma >= 18 && luma <= 160
-            : false;
-      if (shortsMatch) { best = 1; bestDistance = 0; baseLuma = luminance(parseColor(shortsSourceColor['cool-dark-shorts'])); }
-    }
-    if (best < 0) continue;
-    const ratio = baseLuma > 0 ? luminance(color) / baseLuma : 1;
-    const target = newColors[best];
+    if (role < 0 || baseLuma <= 0) continue;
+    const ratio = luminance(color) / baseLuma;
     const shade = Math.max(.35, Math.min(1.65, ratio));
+    const target = newColors[role];
     pixels[i] = Math.round(Math.max(0, Math.min(255, target[0] * shade)));
     pixels[i + 1] = Math.round(Math.max(0, Math.min(255, target[1] * shade)));
     pixels[i + 2] = Math.round(Math.max(0, Math.min(255, target[2] * shade)));
