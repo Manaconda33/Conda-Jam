@@ -1,0 +1,23 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "rebound",
+  "attempt": 1,
+  "status": "source generated; independent review pending",
+  "prompt": "tools/generate-art/kraken-rebound5-attempt01-imagegen-prompt.txt",
+  "generationId": "exec-f5c0870b-b24a-4660-9e24-7ab13a1bb4e4",
+  "generatedAt": "2026-10-28T13:11:00Z",
+  "source": "tools/generate-art/sources/kraken-rebound5-attempt01-generated-raw.png",
+  "sha256": "97fb6b205acd7555025cdbded86712767d1f2a968bad99d7b908fe05f0ab73fb",
+  "canonicalFrames": 5,
+  "durations": [
+    2,
+    2,
+    1,
+    2,
+    4
+  ],
+  "anchors": {
+    "grab": 3
+  },
+  "notes": "Ball stays separate and Kraken-specific; no cleanup, track registration or runtime integration before independent review."
+}

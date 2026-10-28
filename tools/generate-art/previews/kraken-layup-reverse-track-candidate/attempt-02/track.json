@@ -1,0 +1,11 @@
+{
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "attempt": 2,
+  "status": "unregistered track trial after attempt01 failed high ball contact/HUD clearance",
+  "height": [0.9, 1.1, 1.4, 1.5, 1.5, 1.55, 1.1, 0.8],
+  "forward": [4, 5.5, 4, 3, -4, -1, 5, 4],
+  "frameStartTicks": [0, 2, 5, 7, 10, 12, 13, 17],
+  "releaseTick": 12,
+  "reference": "Attempt01 independent review found peak/release ball too high and HUD-adjacent. Attempt02 lowers H at raised-hand frames while preserving the source's reverse-side F path; actual two-facing release gameplay remains required."
+}

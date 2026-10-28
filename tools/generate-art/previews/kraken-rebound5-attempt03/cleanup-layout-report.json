@@ -1,0 +1,168 @@
+{
+  "status": "cleanup trial only; independent packed-art review required",
+  "source": "tools/generate-art/sources/kraken-rebound5-attempt03-generated-raw.png",
+  "sourceSha256": "e2f31cdb1f4849bc6280d602699d431c953599f1c0dfca856ecef930f91012cf",
+  "atlas": "tools/generate-art/previews/kraken-rebound5-attempt03/kraken-rebound5-attempt03-runtime-candidate.png",
+  "atlasSha256": "61345260e928992dd69784003d7f6bd9a7459454530435c28fce972cc88de309",
+  "sourceDimensions": [
+    1774,
+    887
+  ],
+  "layout": "five row-major pose slots in 4x2 atlas; cells 6-8 empty",
+  "cleanup": "Per horizontal source pose slot, retain alpha>=64 connected figure core; preserve original alpha within 2px of core, remove detached components under 12px, no RGB edits; nearest-neighbor normalize to 80x96 with shared baseline y94.",
+  "rawPreserved": true,
+  "frames": [
+    {
+      "index": 0,
+      "label": 4,
+      "sourceBounds": [
+        42,
+        165,
+        313,
+        563
+      ],
+      "corePixels": 45074,
+      "slot": [
+        0,
+        0
+      ],
+      "scaledSize": [
+        49,
+        72
+      ],
+      "scale": 0.18090452261306533,
+      "baselineY": 94,
+      "marginsLTRB": [
+        15,
+        22,
+        16,
+        2
+      ],
+      "poseHash": "91781d87495fe1c0582014f0eaf9024541f024e14cf9b865f17998a030e0a9eb"
+    },
+    {
+      "index": 1,
+      "label": 3,
+      "sourceBounds": [
+        435,
+        161,
+        686,
+        567
+      ],
+      "corePixels": 44209,
+      "slot": [
+        1,
+        0
+      ],
+      "scaledSize": [
+        45,
+        72
+      ],
+      "scale": 0.17733990147783252,
+      "baselineY": 94,
+      "marginsLTRB": [
+        17,
+        22,
+        18,
+        2
+      ],
+      "poseHash": "e99b24737b87481148cb8c4354fdf0c36ed91b0788a5a4eeba0f51863e684814"
+    },
+    {
+      "index": 2,
+      "label": 2,
+      "sourceBounds": [
+        783,
+        9,
+        1002,
+        554
+      ],
+      "corePixels": 47035,
+      "slot": [
+        2,
+        0
+      ],
+      "scaledSize": [
+        29,
+        72
+      ],
+      "scale": 0.13211009174311927,
+      "baselineY": 94,
+      "marginsLTRB": [
+        25,
+        22,
+        26,
+        2
+      ],
+      "poseHash": "e8e8cb9df56ecbc6dceaf157f5d0479e0b31071ed0b8c9d45bc3f214fc24f752"
+    },
+    {
+      "index": 3,
+      "label": 1,
+      "sourceBounds": [
+        1131,
+        7,
+        1330,
+        549
+      ],
+      "corePixels": 48479,
+      "slot": [
+        3,
+        0
+      ],
+      "scaledSize": [
+        26,
+        72
+      ],
+      "scale": 0.13284132841328414,
+      "baselineY": 94,
+      "marginsLTRB": [
+        27,
+        22,
+        27,
+        2
+      ],
+      "poseHash": "2165ca31a5f424189beab230e3817ffdfbdead35c85b06b6022aa4b81d7c90a5"
+    },
+    {
+      "index": 4,
+      "label": 5,
+      "sourceBounds": [
+        1469,
+        183,
+        1720,
+        567
+      ],
+      "corePixels": 39244,
+      "slot": [
+        0,
+        1
+      ],
+      "scaledSize": [
+        47,
+        72
+      ],
+      "scale": 0.1875,
+      "baselineY": 94,
+      "marginsLTRB": [
+        16,
+        22,
+        17,
+        2
+      ],
+      "poseHash": "86fc78770b94931a8707bbf6f8fb9bd35af47888188403c1be94aecce111bd2d"
+    }
+  ],
+  "uniqueFrames": 5,
+  "minimumMarginsLTRB": [
+    15,
+    22,
+    16,
+    2
+  ],
+  "emptyCells": [
+    5,
+    6,
+    7
+  ]
+}

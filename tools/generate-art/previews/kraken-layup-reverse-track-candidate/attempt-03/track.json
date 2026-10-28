@@ -1,0 +1,11 @@
+{
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "attempt": 3,
+  "status": "unregistered track trial after attempt02 visual inspection found ball off the far-side hand",
+  "height": [0.9, 1.1, 1.4, 1.9, 1.9, 1.9, 1.1, 0.8],
+  "forward": [4, 5.5, 4, -4, -4, -5, 5, 4],
+  "frameStartTicks": [0, 2, 5, 7, 10, 12, 13, 17],
+  "releaseTick": 12,
+  "reference": "Attempt02 reduced HUD overlap but remained on the wrong side of the raised/reverse hand in frames3-5. Attempt03 moves the carried ball to the far-side hand and raises contact modestly; test both facings and gameplay release."
+}

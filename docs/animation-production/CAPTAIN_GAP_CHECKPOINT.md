@@ -1,16 +1,18 @@
-## Current asset lanes — 2026-10-28 06:45 UTC
+## Current captain gap checkpoint — 2026-10-28 14:23 UTC
 
-Leo remains complete at 29/29 registered clips. Captain production remains bespoke. J.128 Krios is **16/29**, with 13 clips missing.
+Leo and Krios are complete at 29/29 bespoke clips. Kraken J.07 / J.129 has 7/29 registered clips; captain production remains original and individual. Strict audit: 2,375 inspected assignments, 548 source atlases, 5,250 unique drawings, 728 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings.
 
-Krios `steal` is accepted and registered as eight distinct ball-free poses in `public/assets/animation/krios-steal-right.webp`. Its separate Krios track contacts the reaching hand at frame3/tick5, followed by a real loose, unowned ball; 36 normal-loader Jam Stage captures passed at both facings and 100%/120% zoom.
+The latest Jamverse branch build embeds all current registered animation art: 105 athletes, 882 athlete/clip assignments, 882 atlas references and 8,041 frame rectangles. No missing/extra atlas files were found. This local preview excludes unregistered candidates and is not a Pages deployment. See `docs/animation-production/previews/CURRENT_PREVIEW_REVIEW.md`.
 
-Krios `push` attempt01 remains preserved and rejected because its contact frame had only one readable extended hand. Attempt02 is now accepted and registered at `public/assets/animation/krios-push-right.webp` (1408×96, 11 frames, SHA-256 `96372899ca45376b780a8884ca30f83d91cdb93df720505682738fabe59e4628`). The independent normal-loader review passed 48 captures across all frame starts, both facings and 100%/120% zoom, including real tick8/frame5 contacts and a Leo knockdown. The dead ball remained unowned; no ball is baked into the art or assigned for this non-carrier action. The earlier false registered-capture set is retained with its rejection note. Exact prompts, raw generations, cleanup provenance and previews remain under `tools/generate-art/`.
+Kraken J.07 is still 7/29. `shoot` attempt21, `pass` attempt07, `pass-overhead` attempt02, `pass-behind`, `receive`, `pickup`, `layup`, `layup-reverse`, `rebound`, and `push` remain unregistered at the candidate states in [ASSET_STATUS.md](ASSET_STATUS.md). New independent results:
 
-Krios `rebound` attempts01 and 02 are preserved and rejected with source-level reasons. Attempt03 (`exec-b9bfc37a-1291-4296-9736-c07149576cd9`) passes independent source and cleanup review for gameplay trials: five unique poses in a transparent 5×128×96 candidate, correct Krios identity/kit, empty hands, and a visible ball-sized gap at the frame3 grab anchor (tick5). Its five poses remain about 5–8 pixels above the y94 floor during the jump. The separate Krios rebound ball track and actual gameplay validation are still pending; it is not registered.
+- `rebound` attempt03 source and cleanup pass for Kraken-specific track trials only. Candidate track attempt01 passes 20 forced-possession Jam Stage views; live missed-shot/catch evidence is still unresolved.
+- `layup-reverse` attempt03 source and cleanup pass for track trials. Track attempt03 passes forced-carry contact/mirror review. Attempt08's reported edge cropping came from a capture harness that froze `requestAnimationFrame`, leaving Jam Stage camera tracking stale; this invalidates that framing result. A corrected camera-aware capture harness for attempt09 is underway; keep the source/track unregistered until those live captures pass.
+- `shoot` attempts22–24 were captured during a rejected 0.8 stage shot-scale experiment. Attempt23 has readable release/flight and scores both directions; attempt22 misses release contact and attempt24 is occluded. A registered-shooter comparison exposed the renderer regression and the patch was removed. Attempt25 on the restored renderer passes release, mirroring and three-point scoring, but late 120% flight leaves the viewport and the rim is cropped; scoring also shows the missing Kraken `celebrate` fallback art. Do not register.
+- `pass-overhead` attempt03 improves carry contact/release, but the capture harness manually offsets the ball at release, so it does not validate the candidate-driven track. Tick0 contact needs independent review; keep unregistered.
+- Neither candidate is packed or registered. Keep raw prompts, generation records, failures, rejected trials and visual evidence preserved under `tools/generate-art/`.
 
-Kraken J.07 `shoot` has independently reviewed source and cleanup accepted for gameplay trials; its own ball track and current-court runtime review remain pending.
-
-The refreshed strict report-only audit decodes **2,362 assignments**, **535 unique source atlases**, and **5,075 unique source drawings**. It reports **741 missing captain assignments**, zero frame-count shortfalls, and four inherited prompt findings. Preserve the user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` unchanged.
+The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` is unchanged. The only accepted runtime gameplay change remains the pushed one-tick push-contact fix already documented in HANDOFF and ASSET_STATUS.
 
 ## Previous production checkpoint — 2026-10-27
 
