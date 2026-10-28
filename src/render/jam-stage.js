@@ -1,5 +1,10 @@
 const clamp=(value,min,max)=>Math.max(min,Math.min(max,value));
 
+/** Whether a stage animation should receive the rim-focused attack camera. */
+export function isStageDunkAttack(clip){
+  return typeof clip==='string'&&(clip.startsWith('dunk-')||clip.startsWith('alley-oop-'));
+}
+
 /**
  * Issue #4's first-pass Jam camera geometry for the 480×360 logical viewport.
  * The values are renderer-only: simulation world coordinates stay 0–200×0–100.

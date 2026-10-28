@@ -13,6 +13,7 @@ import {
   stageAttackZoom,
   stageDunkContactOffsetPixels,
   stageCameraFocusX,
+  isStageDunkAttack,
   stageViewShearDirection,
   stageHoopGeometry,
   stageMidcourtScreenX,
@@ -149,6 +150,14 @@ test('attack camera frames either rim symmetrically and eases into the approach'
   assert.ok(approaching>150&&approaching<174,'focus transitions smoothly before reaching the rim');
   assert.equal(stageCameraFocusX(170,200,1),183,'focus settles on the attack framing inside the final 30 world units');
   assert.ok(JAM_STAGE.hoopAssemblyScale>=1&&JAM_STAGE.hoopAssemblyScale<=1.2,'the assembly retains its court-scale geometry');
+});
+
+test('stage attack camera includes alley-oop clips as well as dunk clips',()=>{
+  assert.equal(isStageDunkAttack('dunk-power'),true);
+  assert.equal(isStageDunkAttack('alley-oop-power'),true);
+  assert.equal(isStageDunkAttack('alley-oop-reverse'),true);
+  assert.equal(isStageDunkAttack('shoot'),false);
+  assert.equal(isStageDunkAttack(undefined),false);
 });
 
 test('stage hoops use court anchors, reference-sized rims, and distinct support depth',()=>{

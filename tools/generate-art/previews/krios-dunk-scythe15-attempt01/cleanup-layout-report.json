@@ -1,0 +1,400 @@
+{
+  "source": "tools/generate-art/sources/krios-dunk-scythe15-attempt01-generated-raw.png",
+  "sourceSha256": "ca2ada640955fdb2e2efb31c4bc0f6930f577f7e4fe14a10e0017000826c6c33",
+  "sourceDimensions": [
+    1619,
+    971
+  ],
+  "candidateAtlas": "tools/generate-art/previews/krios-dunk-scythe15-attempt01/krios-dunk-scythe15-attempt01-runtime-candidate.png",
+  "candidateAtlasSha256": "87f16ec492c286c9ddcb61c09acc1f515d6acdfec92719fc1e144d097606f0ac",
+  "algorithm": "green-dominance 8-connected components; 15 full figures grouped by source row and left-to-right; uniform nearest-neighbor scale to fit 118x86; transparent backgrounds; shared baseline y94; int16 green despill; no redraw",
+  "cell": [
+    128,
+    96
+  ],
+  "grid": [
+    15,
+    1
+  ],
+  "componentCount": 15,
+  "poseCount": 15,
+  "uniquePoseHashes": 15,
+  "uniformScale": 0.28289473684210525,
+  "poses": [
+    {
+      "index": 0,
+      "componentArea": 29620,
+      "sourceBounds": [
+        21,
+        42,
+        243,
+        301
+      ],
+      "outputSize": [
+        63,
+        73
+      ],
+      "outputBounds": [
+        32,
+        21,
+        95,
+        94
+      ],
+      "despilledPixels": 338,
+      "sourceCentroid": [
+        132.0,
+        171.5
+      ]
+    },
+    {
+      "index": 1,
+      "componentArea": 31162,
+      "sourceBounds": [
+        314,
+        46,
+        603,
+        301
+      ],
+      "outputSize": [
+        82,
+        72
+      ],
+      "outputBounds": [
+        23,
+        22,
+        105,
+        94
+      ],
+      "despilledPixels": 361,
+      "sourceCentroid": [
+        458.5,
+        173.5
+      ]
+    },
+    {
+      "index": 2,
+      "componentArea": 30798,
+      "sourceBounds": [
+        641,
+        14,
+        912,
+        285
+      ],
+      "outputSize": [
+        77,
+        77
+      ],
+      "outputBounds": [
+        25,
+        17,
+        102,
+        94
+      ],
+      "despilledPixels": 420,
+      "sourceCentroid": [
+        776.5,
+        149.5
+      ]
+    },
+    {
+      "index": 3,
+      "componentArea": 29439,
+      "sourceBounds": [
+        978,
+        22,
+        1249,
+        299
+      ],
+      "outputSize": [
+        77,
+        78
+      ],
+      "outputBounds": [
+        25,
+        16,
+        102,
+        94
+      ],
+      "despilledPixels": 349,
+      "sourceCentroid": [
+        1113.5,
+        160.5
+      ]
+    },
+    {
+      "index": 4,
+      "componentArea": 30595,
+      "sourceBounds": [
+        1334,
+        14,
+        1583,
+        311
+      ],
+      "outputSize": [
+        70,
+        84
+      ],
+      "outputBounds": [
+        29,
+        10,
+        99,
+        94
+      ],
+      "despilledPixels": 437,
+      "sourceCentroid": [
+        1458.5,
+        162.5
+      ]
+    },
+    {
+      "index": 5,
+      "componentArea": 32275,
+      "sourceBounds": [
+        18,
+        343,
+        296,
+        634
+      ],
+      "outputSize": [
+        79,
+        82
+      ],
+      "outputBounds": [
+        24,
+        12,
+        103,
+        94
+      ],
+      "despilledPixels": 326,
+      "sourceCentroid": [
+        157.0,
+        488.5
+      ]
+    },
+    {
+      "index": 6,
+      "componentArea": 29263,
+      "sourceBounds": [
+        385,
+        325,
+        635,
+        629
+      ],
+      "outputSize": [
+        71,
+        86
+      ],
+      "outputBounds": [
+        28,
+        8,
+        99,
+        94
+      ],
+      "despilledPixels": 360,
+      "sourceCentroid": [
+        510.0,
+        477.0
+      ]
+    },
+    {
+      "index": 7,
+      "componentArea": 30718,
+      "sourceBounds": [
+        666,
+        325,
+        967,
+        629
+      ],
+      "outputSize": [
+        85,
+        86
+      ],
+      "outputBounds": [
+        21,
+        8,
+        106,
+        94
+      ],
+      "despilledPixels": 431,
+      "sourceCentroid": [
+        816.5,
+        477.0
+      ]
+    },
+    {
+      "index": 8,
+      "componentArea": 29901,
+      "sourceBounds": [
+        980,
+        352,
+        1276,
+        636
+      ],
+      "outputSize": [
+        84,
+        80
+      ],
+      "outputBounds": [
+        22,
+        14,
+        106,
+        94
+      ],
+      "despilledPixels": 317,
+      "sourceCentroid": [
+        1128.0,
+        494.0
+      ]
+    },
+    {
+      "index": 9,
+      "componentArea": 30249,
+      "sourceBounds": [
+        1299,
+        357,
+        1603,
+        640
+      ],
+      "outputSize": [
+        86,
+        80
+      ],
+      "outputBounds": [
+        21,
+        14,
+        107,
+        94
+      ],
+      "despilledPixels": 408,
+      "sourceCentroid": [
+        1451.0,
+        498.5
+      ]
+    },
+    {
+      "index": 10,
+      "componentArea": 31668,
+      "sourceBounds": [
+        29,
+        656,
+        291,
+        954
+      ],
+      "outputSize": [
+        74,
+        84
+      ],
+      "outputBounds": [
+        27,
+        10,
+        101,
+        94
+      ],
+      "despilledPixels": 420,
+      "sourceCentroid": [
+        160.0,
+        805.0
+      ]
+    },
+    {
+      "index": 11,
+      "componentArea": 32928,
+      "sourceBounds": [
+        356,
+        666,
+        606,
+        951
+      ],
+      "outputSize": [
+        71,
+        81
+      ],
+      "outputBounds": [
+        28,
+        13,
+        99,
+        94
+      ],
+      "despilledPixels": 368,
+      "sourceCentroid": [
+        481.0,
+        808.5
+      ]
+    },
+    {
+      "index": 12,
+      "componentArea": 30190,
+      "sourceBounds": [
+        685,
+        662,
+        919,
+        954
+      ],
+      "outputSize": [
+        66,
+        83
+      ],
+      "outputBounds": [
+        31,
+        11,
+        97,
+        94
+      ],
+      "despilledPixels": 421,
+      "sourceCentroid": [
+        802.0,
+        808.0
+      ]
+    },
+    {
+      "index": 13,
+      "componentArea": 36072,
+      "sourceBounds": [
+        945,
+        666,
+        1310,
+        954
+      ],
+      "outputSize": [
+        103,
+        81
+      ],
+      "outputBounds": [
+        12,
+        13,
+        115,
+        94
+      ],
+      "despilledPixels": 383,
+      "sourceCentroid": [
+        1127.5,
+        810.0
+      ]
+    },
+    {
+      "index": 14,
+      "componentArea": 32051,
+      "sourceBounds": [
+        1350,
+        687,
+        1569,
+        954
+      ],
+      "outputSize": [
+        62,
+        76
+      ],
+      "outputBounds": [
+        33,
+        18,
+        95,
+        94
+      ],
+      "despilledPixels": 377,
+      "sourceCentroid": [
+        1459.5,
+        820.5
+      ]
+    }
+  ]
+}

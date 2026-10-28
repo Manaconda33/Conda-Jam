@@ -1,34 +1,8 @@
-## Captain animation checkpoint — Krios dunk-double accepted (2026-10-28)
+## Captain animation checkpoint — J.128 complete (2026-10-28)
 
-Krios J.128 `dunk-double` attempt02 is registered after independent source/cleanup, candidate-track, and normal-loader review. Track04 clears face overlap at tick17 while maintaining raised-hand contact; its 60 Jam Stage captures cover both facings and 100%/120% zoom, release at tick21, correct two-point score at tick23, and landing at tick30. Krios is 25/29. Strict audit: 2,371 assignments, 544 source atlases, 5,190 unique source drawings, 732 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings.
+Krios is complete at 29/29. Accepted clips this checkpoint: `dunk-clutch` attempt07 with track03, `dunk-scythe` attempt01 with corrected track09, `alley-oop-power` attempt01 with track05, and `alley-oop-reverse` attempt02 with track04. All four were reviewed in 60 normal-loader Jam Stage captures (15 frames × two facings × two zooms); capture records use registered atlases/tracks without injection. Independent reviewers confirm contact, tick21 release/rim contact, tick23 two-point score, tick30 landing, visibility and no browser errors. Rejected scythe track08 and reverse track05 remain preserved with their captures and reasons.
 
-Next is `dunk-clutch`; attempts01–05 remain rejected and attempt06 is under review. `dunk-scythe` needs a corrected track. `alley-oop-power` attempt01 source is accepted for cleanup/trials; cleanup and its Krios-specific track remain pending.
-
-
-## Captain animation checkpoint — Krios dunk-360 accepted (2026-10-28)
-
-Krios J.128 dunk-360 attempt01 passed independent source, cleanup, separate-track candidate review, and 60 registered normal-loader Jam Stage captures across both facings and 100%/120% zoom. Native-size review confirms the compact rotation in frames2–4; track04 clears the HUD and keeps the ball with the raised hand through gather/peak/pre-release. Rim contact/release, two-point score, and landing pass at ticks21/23/30. Three rejected track trials are preserved. See tools/generate-art/krios-dunk-36015-attempt01-provenance.json and its preview folder.
-
-Krios is now 23/29. Next is dunk-tomahawk; source/cleanup pass for trials but track attempt01 fails hand contact at frame9/tick19. Strict report-only audit: 2,369 assignments, 542 source atlases, 5,160 unique source drawings, 734 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings. Captain lane remains incomplete.
-
-## Captain animation checkpoint — Krios dunk-reverse accepted (2026-10-28)
-
-Krios J.128 dunk-reverse attempt01 passed source/cleanup review and independent normal-loader gameplay review after two rejected ball-track trials. Track03 keeps the separate ball aligned through frames5,7,9 and clears the HUD at both facings/zooms. The 60 current Jam Stage captures verify rim release at tick21, two-point score at tick23, and landing through tick30. Full provenance, rejects and captures are indexed in tools/generate-art/krios-dunk-reverse15-attempt01-provenance.json.
-
-The preceding dunk-windmill is also accepted; its track correction clears the peak HUD. Krios is now 22/29 and dunk-360 is next. Strict audit: 2,368 assignments, 541 source atlases, 5,145 unique source drawings, 735 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings. Overall captain lane remains incomplete.
-
-## Captain animation checkpoint — Krios `dunk-windmill` accepted (2026-10-28)
-
-The J.128 Krios windmill clip passed independent normal-loader review after a track correction lowered peak ball height at frames7–8 to clear the top HUD. Review covers 60 current Jam Stage captures across 15 frame starts, both facings, and 100%/120% zoom. Ball hand contact, rim release at tick21, two-point score at tick23, and landing through tick30 pass. Full provenance and reviews are recorded in `tools/generate-art/krios-dunk-windmill15-attempt02-provenance.json` and its preview directory.
-
-Validation and strict report-only audit for this checkpoint: 2,367 inspected assignments, 540 source atlases, 5,130 unique source drawings, 736 missing captain assignments, zero frame-count shortfalls, and four inherited prompt findings. All captains are not yet complete; Krios is 21/29 and `dunk-reverse` is next.
-
-# QA — 2026-10-28 08:06 UTC Krios power dunk accepted; windmill in trials
-
-- Krios J.128 `dunk-power` attempt02: 15 unique original poses, 1920×96 PNG, separate Krios track; independent normal-loader visual/gameplay review passed 60 captures (15 frames × two facings × two zooms). Tick21 release contact is visible at the rim, tick23 score is correct, and the ball is absent during landing recovery.
-- Dunk completion retains the dunk animation after score commit, so finish/landing frames remain visible before celebration. Focused Krios/Piper simulation and Jam Stage projection tests passed at this checkpoint; full suite/build/content/lint validation is being run.
-- Krios `dunk-windmill` attempt01 source review passes for cleanup/trials, not registration; 15 poses are present and frames0–1/6–7 need target-size separation review. Ball track and normal-loader review are outstanding.
-- Strict report-only audit: 2,366 assignments, 539 unique source atlases, 5,115 unique drawings, 737 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings. Overall captain lane is incomplete.
+The Jam Stage attack camera now recognizes `alley-oop-*` clips. Tests cover the predicate and real current-court normal-loader captures verify its camera/depth/contact behavior. Validation passes: `npm test` 73/73, lint 21 modules, content validation 35 franchises / 105 athletes / 35 captains, static build. Strict report-only audit: 2,375 assignments, 548 source atlases, 5,250 unique source drawings, 728 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings. Kraken is next; its `shoot` source/cleanup are ready, while track attempts remain blocked by 120% late-flight viewport clipping around the fixed hoop.
 
 # Previous QA — 2026-10-28 Krios celebrate registered; dunk-power cleanup in progress
 

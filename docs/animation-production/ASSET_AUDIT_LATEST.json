@@ -4,17 +4,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 2,
-  "generatedAt": "2026-10-28T09:27:39.752Z",
+  "generatedAt": "2026-10-28T10:02:58.084Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 2371,
-  "missingClipCount": 732,
+  "inspectedClips": 2375,
+  "missingClipCount": 728,
   "uniqueSourceLibraries": 42,
-  "uniqueSourceAtlases": 544,
-  "uniqueSourceDrawings": 5190,
+  "uniqueSourceAtlases": 548,
+  "uniqueSourceDrawings": 5250,
   "classifications": {
-    "original-authored": 544,
+    "original-authored": 548,
     "derived-palette": 1827
   },
   "assignmentClassifications": {
@@ -145,9 +145,9 @@
       "sourceLibrary": "echo-catwalk"
     },
     "krios": {
-      "clips": 25,
-      "missingClips": 4,
-      "classification": "incomplete",
+      "clips": 29,
+      "missingClips": 0,
+      "classification": "original-authored",
       "assignmentStatus": "original-authored",
       "lineage": null,
       "sourceLibrary": "krios"
@@ -892,34 +892,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "fall",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "krios",
-      "direction": "right",
-      "clip": "dunk-clutch",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "krios",
-      "direction": "right",
-      "clip": "dunk-scythe",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "krios",
-      "direction": "right",
-      "clip": "alley-oop-power",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "krios",
-      "direction": "right",
-      "clip": "alley-oop-reverse",
       "classification": "original-authored"
     },
     {
@@ -55681,6 +55653,614 @@
           "h": 96,
           "hash": "58ce9064bdae0b36bfaba1f2817b4445da5217a953bb77f608e862e50fc6c7de",
           "visiblePixels": 2174
+        }
+      ]
+    },
+    {
+      "athlete": "krios",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/krios-dunk-clutch-right.png",
+      "width": 1920,
+      "height": 96,
+      "sha256": "26e8cb3cc5511a9a9feab1017c89f6efc6ea757e7d430406f18b297e56437e8f",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "7fb1027c7c24b1450cae2a5409e9303206a6ab48bcb9804ad758f7fd69637567",
+          "visiblePixels": 1813
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "ac9d240ea63b668d8d65ac6ac88fc963251b53759d8327943390eee90fbd6bfa",
+          "visiblePixels": 1641
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "8021feebbbc0949c186e597836be40013f2122e8d9656ef51041775584d1a1bf",
+          "visiblePixels": 1613
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "1e3537059c466b39056fce61239ab44753d56b77d741a18fd46071e964b8b45e",
+          "visiblePixels": 1607
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "cdc601a3c0018d12cf81933dc7b7b93d776be5395f6f501d719bef951a56e030",
+          "visiblePixels": 1467
+        },
+        {
+          "index": 5,
+          "x": 640,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "1fa9a292bc27fd97c87c5e89d5016999936881ca1a937327b46d65eb0ea7b8cc",
+          "visiblePixels": 1782
+        },
+        {
+          "index": 6,
+          "x": 768,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "d71924d78ee1bf719629ddac742db6599945a247bbd22621f713ca5f19e3d9f2",
+          "visiblePixels": 1674
+        },
+        {
+          "index": 7,
+          "x": 896,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "790334c317dea5f23ba311e00ca1f4646d5c5164abf07c13e0bb26c62017ad87",
+          "visiblePixels": 2033
+        },
+        {
+          "index": 8,
+          "x": 1024,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "44bc3a38a650a2e0d36e0ca9ad6754b7f84e02b91a9792e9a836d83249e8f1d9",
+          "visiblePixels": 1693
+        },
+        {
+          "index": 9,
+          "x": 1152,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "cdf05754d2998389604ae67cfbb313b990f554d99c1e7e6f905f000edba3e904",
+          "visiblePixels": 1665
+        },
+        {
+          "index": 10,
+          "x": 1280,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "7031b8caff926ce6a9b1649d1413829ca03486b3f2d15272c181401cdd763353",
+          "visiblePixels": 1705
+        },
+        {
+          "index": 11,
+          "x": 1408,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "16701edbb9d4fc2671238c43199a9cba26a124340c29bd6fd6c01f1dd88d64d5",
+          "visiblePixels": 1613
+        },
+        {
+          "index": 12,
+          "x": 1536,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "d72dd23e9f374222f91466a40486e3e35aca59d6e966a8cb12be39e164e9379b",
+          "visiblePixels": 1705
+        },
+        {
+          "index": 13,
+          "x": 1664,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "f6bead73fb9e7af0a6aad75827e13bd6c2ebc65ec88d3ee6d3ae8c93d75b511e",
+          "visiblePixels": 1683
+        },
+        {
+          "index": 14,
+          "x": 1792,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "c976c44ed5fea6ca458526c87cceebe0a535846840f1a57d512e64966f2c7cca",
+          "visiblePixels": 1853
+        }
+      ]
+    },
+    {
+      "athlete": "krios",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/krios-dunk-scythe-right.png",
+      "width": 1920,
+      "height": 96,
+      "sha256": "87f16ec492c286c9ddcb61c09acc1f515d6acdfec92719fc1e144d097606f0ac",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "3ac9ea9bbd95ef23edb4f5d80f67212a90ac157e8891a55dae6041951534a624",
+          "visiblePixels": 2370
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "72fa76b18518a780ef35aa6a497a792381f952eab4b682ca3994ac19acd21af8",
+          "visiblePixels": 2484
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "523bd39f6ce903360db358defd9ae5ecb364bec233752e9c7c065c8bc2e35819",
+          "visiblePixels": 2493
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "bfb3b4641fbf7c3120860996e3d7235f80572b41b206a2973e027dbba549c361",
+          "visiblePixels": 2340
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "63af14bf82e114d4bb8dcffa39420cf7b6b9c1d8ddb7497ca6b1c349f2429846",
+          "visiblePixels": 2441
+        },
+        {
+          "index": 5,
+          "x": 640,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9ae15e0320c0ac51579b0a878caccc3ee5132fb15ceafee9a18f1de9b0af9dba",
+          "visiblePixels": 2579
+        },
+        {
+          "index": 6,
+          "x": 768,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "7f4615ca86f9e50de3e2a10dd416eea5faa0e41446e9d238c79a0b76cc6da5eb",
+          "visiblePixels": 2351
+        },
+        {
+          "index": 7,
+          "x": 896,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "df2e8f8d1575cf7394b179668b9f9f01bcaedb4347602b73ac4efc833cbece0a",
+          "visiblePixels": 2460
+        },
+        {
+          "index": 8,
+          "x": 1024,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "d025812446529dbea3d4fc0f2726fe4596885304d9e8d288e97ef1b1f4c2b33a",
+          "visiblePixels": 2389
+        },
+        {
+          "index": 9,
+          "x": 1152,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "a283d085c9fe1b029d4209952cbbf613b394f93d78bdf7f8e0a2f0cd8ad925e5",
+          "visiblePixels": 2422
+        },
+        {
+          "index": 10,
+          "x": 1280,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "35b83f609660706a7ae9cb6b76048dda6b1e0ff2c6a3613e32aac1fbd82f9f62",
+          "visiblePixels": 2522
+        },
+        {
+          "index": 11,
+          "x": 1408,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "aabfbc1ff68419f0507418e916f157e5ecaf245cff824db4d9883ee50cdaad0b",
+          "visiblePixels": 2658
+        },
+        {
+          "index": 12,
+          "x": 1536,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "ac922fe86c70589e42d9dd66250226c474d9dd842dd1f07f04ddd41cd691e674",
+          "visiblePixels": 2414
+        },
+        {
+          "index": 13,
+          "x": 1664,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "de439e9647bfe899bf61f5131be409d871365ea9d506738abc265da9599bf59e",
+          "visiblePixels": 2868
+        },
+        {
+          "index": 14,
+          "x": 1792,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "46fce8b0cd01d4787789ae275b32378469ecac3242580672dcbec768a904c244",
+          "visiblePixels": 2578
+        }
+      ]
+    },
+    {
+      "athlete": "krios",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/krios-alley-oop-power-right.png",
+      "width": 1920,
+      "height": 96,
+      "sha256": "6b1322b75eee484319558b086efefc2bcfbb5b481005b5cedd7f15b3901a7a10",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "885ce94c25a33857e98b47bb4c9cbc27b3fb15f0157ee0c49b7b7b13af0d647e",
+          "visiblePixels": 1302
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "155395c6e337bfdadc42ccdd10ad98f3daa091063c52a357944cb0ef390de152",
+          "visiblePixels": 1162
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "bbde1cd6a5426c37d988539792dbe959f89f5e15a81696804d271d68338aab03",
+          "visiblePixels": 1151
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "ec966b9e67a3b4779da47071d1500a1d364c0efef98a3a97c1d34d36e512355a",
+          "visiblePixels": 1178
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "f4b8fe2c7d38441b4e5ba215e3305008775a67e36694698277dcf6cd63ad445d",
+          "visiblePixels": 1234
+        },
+        {
+          "index": 5,
+          "x": 640,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "d29973917b056210062c9f5e026452065b1aa9464b3f8701f46674b24815a74e",
+          "visiblePixels": 1155
+        },
+        {
+          "index": 6,
+          "x": 768,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9f3e18b2686f64f094ade2ea47db2869cd389afbb9230f1928d1f25323bf23c9",
+          "visiblePixels": 1125
+        },
+        {
+          "index": 7,
+          "x": 896,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "254a08bee2ced74d8d1b3f598d8aaa883d6f23ba506bc79060a1eb4b39b9b2a9",
+          "visiblePixels": 1510
+        },
+        {
+          "index": 8,
+          "x": 1024,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9ea73c6022997f6735aaf085ef88b2e606bbb613d14e87c8665a393364d3dd01",
+          "visiblePixels": 1439
+        },
+        {
+          "index": 9,
+          "x": 1152,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "368e98da67469406b5759195dfddc675839d818034daf298121f94180e5f04dd",
+          "visiblePixels": 1268
+        },
+        {
+          "index": 10,
+          "x": 1280,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "3ad58af05aa30b516d9f65d709987e8e61239df0dc1b50abbf1e9ffe8ec01c4a",
+          "visiblePixels": 1531
+        },
+        {
+          "index": 11,
+          "x": 1408,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "33151e69cb34543ca6a85745d7e6047a8e563db1a46e03a9a7b34130968320e4",
+          "visiblePixels": 1544
+        },
+        {
+          "index": 12,
+          "x": 1536,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "b63d75425fe6903a41c8504291059dc1af2fc15faf37c8e9e4daca4cf0606486",
+          "visiblePixels": 1450
+        },
+        {
+          "index": 13,
+          "x": 1664,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "c087c8661caeb777bcfde8e90a4c92b005275665a0856697c31fca990dcbe2da",
+          "visiblePixels": 1582
+        },
+        {
+          "index": 14,
+          "x": 1792,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "077b2773dbf9383fb71d48a48c4bdec0664c9a804ca3a150a2bb62c68eb85d20",
+          "visiblePixels": 1593
+        }
+      ]
+    },
+    {
+      "athlete": "krios",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+      "width": 1920,
+      "height": 96,
+      "sha256": "10ca9bdcc859183fd7b88a32235274b37971ad1cd8499ed46aee3912781abd0c",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "ee9ccb9175f79f39d2a2fd871ece19d2eee1ba2e11a1bf9d1cff282a0a3c7f24",
+          "visiblePixels": 1341
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "a8857de8e439abf5dc76b4538920ffc319f55f9d91a65202b02d98b5ba99be13",
+          "visiblePixels": 1209
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9ba675c7a625c496bb433130561934c7cdff467cb711b7a005f08644e78c2398",
+          "visiblePixels": 1320
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "7941ebbee16ab3ef67e238e266b813f4bdcdb2061fdc779854c5cac9528f8b38",
+          "visiblePixels": 1186
+        },
+        {
+          "index": 4,
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "34991e3d9a8b26cade1cdfb9062f60e27193e41a95d170eac533b50a231823de",
+          "visiblePixels": 1343
+        },
+        {
+          "index": 5,
+          "x": 640,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "7bcf766955fea9bc6c57a2f766580ff4c2f9f69796191e5efbaa8d3c00e383f7",
+          "visiblePixels": 1328
+        },
+        {
+          "index": 6,
+          "x": 768,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "e0998572d548b867d4c2e38de570b01faaf2586c4fc7ead7546cbdb98f24059e",
+          "visiblePixels": 1084
+        },
+        {
+          "index": 7,
+          "x": 896,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "2e76f1ed316bc75abec8b6f6ce13382f09c4108bc5cf2a89bc3b362dea54b345",
+          "visiblePixels": 1550
+        },
+        {
+          "index": 8,
+          "x": 1024,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "fda754dbb7d83fbc2df28b29efb1d3b73896f6ee3cb2c2f01be35d2432311a4b",
+          "visiblePixels": 1530
+        },
+        {
+          "index": 9,
+          "x": 1152,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "65ba11e84cf2b794e8354ec1a3055732d99709fbcb99d4144e5ce7097b15849e",
+          "visiblePixels": 1286
+        },
+        {
+          "index": 10,
+          "x": 1280,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "838881080d7954eae9c2781e421e9da17dc18440b1b2a91b36c0203ed5f31dcf",
+          "visiblePixels": 1292
+        },
+        {
+          "index": 11,
+          "x": 1408,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "9b2508059bf0d550f1c9d3f3b24e59e7e7b057f3706d7edfaae2669ed0744820",
+          "visiblePixels": 1393
+        },
+        {
+          "index": 12,
+          "x": 1536,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "7c2e0b4836d24d03365d2cce48126f45b86bd2eeb94e1ddb59e7c7ae031ea689",
+          "visiblePixels": 1536
+        },
+        {
+          "index": 13,
+          "x": 1664,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "32b321457d4253e7f4d73142e8d934a6aa0de557a918efb08418e593197e273f",
+          "visiblePixels": 1479
+        },
+        {
+          "index": 14,
+          "x": 1792,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "bf342f3fdfc785a44cef357b62661fb98a6156cb515ddd7559164d82e44276d2",
+          "visiblePixels": 1580
         }
       ]
     },
