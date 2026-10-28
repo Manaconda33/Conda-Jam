@@ -2,10 +2,30 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {readFileSync} from 'node:fs';
-import {athleteVisualScale,ballDrawDepth} from '../src/render/animation-sprites.js';
+import {athleteVisualScale,ballDrawDepth,productionSpriteBaselineOffsetY,selectProductionSprite} from '../src/render/animation-sprites.js';
 import {animationAssetManifest} from '../src/content/animation-assets.js';
 import {animationMirrorPolicy} from '../src/content/animation-mirror-policy.js';
 import {animationClips,anchorTick,sampleAnimation,sampleBallHeight,sampleBallForward} from '../src/core/animation.js';
+test('optional production clip baseline metadata preserves the legacy ground point',()=>{
+ const legacy={production:true,sourceHeight:96},adjusted={...legacy,baselineY:90};
+ const renderedHeight=78;
+ assert.equal(productionSpriteBaselineOffsetY(legacy,renderedHeight),0,'missing metadata leaves existing assets unchanged');
+ assert.equal(productionSpriteBaselineOffsetY(adjusted,renderedHeight),4*renderedHeight/96,'90px source baseline compensates to legacy baseline94');
+ assert.equal(productionSpriteBaselineOffsetY({...legacy,baselineY:95},renderedHeight),-renderedHeight/96,'metadata may also compensate when the authored baseline is below legacy');
+ assert.equal(productionSpriteBaselineOffsetY({...legacy,baselineY:97},renderedHeight),0,'invalid source baseline is ignored');
+});
+test('production sprite selection carries valid baseline metadata without wrong-character fallback on invalid bounds',()=>{
+ const atlas={complete:true,naturalWidth:80,naturalHeight:96},images=new Map([['baseline-atlas',atlas]]);
+ const clip={src:'baseline-atlas',reviewed:true,baselineY:90,frames:[{x:0,y:0,w:80,h:96}]};
+ const manifest={characters:{baseline:{directions:{right:{shoot:clip}}}}};
+ const player={id:'baseline',captain:true,facing:1,animation:{clip:'shoot',tick:0}};
+ assert.equal(selectProductionSprite(player,{manifest,images})?.baselineY,90);
+ const invalid=selectProductionSprite(player,{manifest:{characters:{baseline:{directions:{right:{shoot:{...clip,baselineY:97}}}}}},images});
+ assert.ok(invalid,'invalid optional metadata must not trigger another athlete’s legacy fallback');
+ assert.equal(invalid.baselineY,undefined);
+ assert.equal(invalid.baselineMetadataInvalid,true);
+ assert.equal(productionSpriteBaselineOffsetY(invalid,78),0);
+});
 test('Manaconda retains all29 reviewed production clips and293 distinct authored crops',()=>{
  const clips=animationAssetManifest.characters.manaconda.directions.right;
  assert.deepEqual(Object.keys(clips).sort(),Object.keys(animationClips).sort());let total=0;
@@ -116,7 +136,7 @@ test('a tiny kit fox keeps quadruped scale and athletes follow camera magnificat
   assert.ok(Math.abs(athleteVisualScale(athlete,85)-athleteVisualScale(athlete)*.85)<1e-12);
  }
 });
-const {selectProductionSprite,legacySpritePose}=await import('../src/render/animation-sprites.js').catch(()=>({selectProductionSprite:()=>null,legacySpritePose:()=>null}));
+const {legacySpritePose}=await import('../src/render/animation-sprites.js').catch(()=>({legacySpritePose:()=>null}));
 const src='./public/assets/animation/test.webp',image={complete:true,naturalWidth:110,naturalHeight:20};
 function fixture(){return {manifest:{version:1,characters:{hero:{mirrorSafe:true,mirrorReview:{status:'reviewed',notes:'No directional markings'},directions:{right:{run:{src,reviewed:true,frames:Array.from({length:11},(_,i)=>({x:i*10,y:0,w:10,h:20}))}}}}}},images:new Map([[src,image]])};}
 test('samples live simulation action and tick rather than the immutable roster entry',()=>{

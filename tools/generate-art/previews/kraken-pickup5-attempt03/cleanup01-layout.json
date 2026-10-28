@@ -1,0 +1,248 @@
+{
+  "status": "cleanup/layout trial; independent visual quality and alignment review pending",
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pickup",
+  "source": "tools/generate-art/sources/kraken-pickup5-attempt03-generated-raw.png",
+  "sourceSha256": "83d8654cd2bfe24303705f7476369c11691cd5968d0d1891f33114e4cfacdd1d",
+  "atlasCandidate": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+  "atlasSha256": "101f9f4cbe34a975110bd4e5248fa01c3e2f85d8c3f321b3669394948d06ab5e",
+  "columns": 5,
+  "rows": 1,
+  "frameWidth": 80,
+  "frameHeight": 96,
+  "baselineY": 90,
+  "uniformScale": 0.16590909090909092,
+  "frameDurations": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "grabFrame": 3,
+  "grabTick": 7,
+  "ballPolicy": "No ball is in the source or derived atlas; keep a separate Kraken-specific runtime track.",
+  "segmentation": "Alpha>=32 connected components with 8-connectivity, select 5 principal figures by area>=20000, order by center X; expanded crop 3 source pixels; retain original-alpha fringe only within 1.5 source pixels of the main component.",
+  "resampling": "Nearest-neighbor with one shared scale.",
+  "baselineOffsetPolicy": "Pack source pixels with soles aligned to y=90 and six transparent rows below; optional runtime clip baselineY=90 preserves contact with the established ground baseline.",
+  "frames": [
+    {
+      "index": 0,
+      "name": "notice-reach",
+      "duration": 2,
+      "anchors": [],
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        37,
+        248,
+        458,
+        673
+      ],
+      "sourceFigureBoundsLTRB": [
+        40,
+        251,
+        455,
+        670
+      ],
+      "sourceMainComponentPixels": 79621,
+      "fitScale": 0.16590909090909092,
+      "visibleSize": [
+        70,
+        71
+      ],
+      "offsetInCell": [
+        5,
+        19
+      ],
+      "baselineY": 90,
+      "marginsLTRB": [
+        5,
+        19,
+        5,
+        6
+      ],
+      "bottomClearance": 6,
+      "cropSha256": "d09bf2caefe03e6099afc9e2db4bf50a908d6b208ae15a1e06d611c5988b5e98",
+      "cellSha256": "daf7ad05cc9741b0a66e6f74d4cd0ff2d4fbd9862d124670f13f08374dd7c85f",
+      "pixelHash": "2632700c7f83b8e2b341bd79c88f4bb0524e4cb856d08642f7f93e3a668bf647"
+    },
+    {
+      "index": 1,
+      "name": "lower-reach",
+      "duration": 3,
+      "anchors": [],
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        471,
+        321,
+        821,
+        674
+      ],
+      "sourceFigureBoundsLTRB": [
+        474,
+        324,
+        818,
+        671
+      ],
+      "sourceMainComponentPixels": 63854,
+      "fitScale": 0.16590909090909092,
+      "visibleSize": [
+        58,
+        59
+      ],
+      "offsetInCell": [
+        11,
+        31
+      ],
+      "baselineY": 90,
+      "marginsLTRB": [
+        11,
+        32,
+        11,
+        6
+      ],
+      "bottomClearance": 6,
+      "cropSha256": "61871d4853d745a75ef9ac3f28909e69d26f0c67c3aa1f67d8dce25abc77563e",
+      "cellSha256": "099e339726197475170ec511ab3ce80be34d203d0540c459ea7118d3fd3744ad",
+      "pixelHash": "4254b3d0988e6dba5ef35611c8b6589319ccd80faec4e6a13bd8ac8d53ce6022"
+    },
+    {
+      "index": 2,
+      "name": "low-reach",
+      "duration": 2,
+      "anchors": [],
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        861,
+        376,
+        1192,
+        677
+      ],
+      "sourceFigureBoundsLTRB": [
+        864,
+        379,
+        1189,
+        674
+      ],
+      "sourceMainComponentPixels": 56506,
+      "fitScale": 0.16590909090909092,
+      "visibleSize": [
+        55,
+        50
+      ],
+      "offsetInCell": [
+        12,
+        40
+      ],
+      "baselineY": 90,
+      "marginsLTRB": [
+        12,
+        40,
+        13,
+        6
+      ],
+      "bottomClearance": 6,
+      "cropSha256": "ad0a24419665042e589bc433effe1ea9246967d3ce12ecf97a21a8c026b45aef",
+      "cellSha256": "27683bfa30414fa2f380821779816b7559646b9d11a4ab5dd268b865d3155ad1",
+      "pixelHash": "d73fa7b1862dda9dd835e0510cc4077cd74669ecb08ac3530b5aab5e1120b373"
+    },
+    {
+      "index": 3,
+      "name": "grab-tick07",
+      "duration": 1,
+      "anchors": [
+        "grab"
+      ],
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        1249,
+        292,
+        1571,
+        675
+      ],
+      "sourceFigureBoundsLTRB": [
+        1252,
+        295,
+        1568,
+        672
+      ],
+      "sourceMainComponentPixels": 62070,
+      "fitScale": 0.16590909090909092,
+      "visibleSize": [
+        53,
+        64
+      ],
+      "offsetInCell": [
+        13,
+        26
+      ],
+      "baselineY": 90,
+      "marginsLTRB": [
+        13,
+        26,
+        14,
+        6
+      ],
+      "bottomClearance": 6,
+      "cropSha256": "cb1c579c1beba68eee266068b813a84a36c8505f45c0c7ca429596b31a6c5437",
+      "cellSha256": "213b329b879271665ec39f3b0eb13e670ddcd02fd96a9595345a9ae808d4e946",
+      "pixelHash": "5822242a9cf7332f175585ccb8e67bb34082e7c51108baee5ee704ee8b0b58c1"
+    },
+    {
+      "index": 4,
+      "name": "post-grab-recovery",
+      "duration": 4,
+      "anchors": [],
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        1636,
+        235,
+        1950,
+        675
+      ],
+      "sourceFigureBoundsLTRB": [
+        1639,
+        238,
+        1947,
+        672
+      ],
+      "sourceMainComponentPixels": 64308,
+      "fitScale": 0.16590909090909092,
+      "visibleSize": [
+        52,
+        73
+      ],
+      "offsetInCell": [
+        14,
+        17
+      ],
+      "baselineY": 90,
+      "marginsLTRB": [
+        14,
+        17,
+        14,
+        6
+      ],
+      "bottomClearance": 6,
+      "cropSha256": "51241134efc01bb8f24103bb2534408d8b69c03b9f4116e845759428e0edbf13",
+      "cellSha256": "eecd16ee0fb7eaeb854597bac3bb35d4ef30ce1569d79d52fc9288322ddf0d33",
+      "pixelHash": "048b45b765b57fb82c5d35462250638edd497d7821b3799ee1bf6686bd2b7a71"
+    }
+  ]
+}

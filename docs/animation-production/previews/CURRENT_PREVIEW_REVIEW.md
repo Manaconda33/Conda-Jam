@@ -1,7 +1,7 @@
 # Current Jamverse animation preview verification
 
-**Review timestamp:** 2026-10-28 14:42 UTC
-**Branch baseline:** `f24e8db262b0b9ab826b796edfaf89609ebd6294` (`codex/captain-animation-completion`)
+**Review timestamp:** 2026-10-28 14:45 UTC
+**Branch baseline:** `9a0a94b4e74d168d44b7026484854c2c4262ffdd` (`codex/captain-animation-completion`)
 **Build:** `npm run build`, standalone `dist/JAMVERSE_96.html`; exact current atlas bytes verified embedded
 
 The rebuilt branch preview contains all current animation registrations:

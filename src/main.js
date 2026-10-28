@@ -8,7 +8,7 @@ import { createCareerRecords, rankCareerLeaders, recordCareerMatch } from './cor
 import { createTournament, recordTournamentResult, validTournament } from './core/tournament.js';
 import { animationAssetManifest } from './content/animation-assets.js';
 import { supportingAnimationLibraries } from './content/supporting-animation-libraries.js';
-import { selectProductionSprite, productionBaseSilhouetteHeightRatio, legacySpritePose, athleteVisualScale, ballDrawDepth } from './render/animation-sprites.js';
+import { selectProductionSprite, productionBaseSilhouetteHeightRatio, productionSpriteBaselineOffsetY, legacySpritePose, athleteVisualScale, ballDrawDepth } from './render/animation-sprites.js';
 import { courtMarkings, ballHeightPixels } from './render/court-geometry.js';
 import { updateCameraX } from './render/camera-tracking.js';
 import { JAM_STAGE, projectJamStagePoint, stageAthleteScale, stageAttackPanY, stageAttackZoom, stageBallHeightPixels, stageCameraFocusX, stageDunkContactOffsetPixels, stageHoopGeometry, stageMidcourtScreenX, isStageDunkAttack } from './render/jam-stage.js';
@@ -523,7 +523,8 @@ function drawRosterGameSprite(p,player,x,y,scale,bob,sprite,stageScale){
   const [shadowX,shadowY]=stageShadowPosition(p,x,y);ctx.fillStyle='#160e1b99';ctx.beginPath();ctx.ellipse(shadowX,shadowY+7*cameraZoom/100,18*spriteScale,4.2*spriteScale,0,0,Math.PI*2);ctx.fill();
   ctx.save();ctx.translate(Math.round(x),Math.round(y-bob));ctx.scale(sprite.flip?-1:1,1);
   const spriteHeight=78*spriteScale,spriteWidth=64*spriteScale*(sourceWidth/sourceHeight/.82);ctx.imageSmoothingEnabled=false;ctx.globalAlpha=p.anim==='knockdown'?.86:1;
-  ctx.drawImage(atlas,sx,sy,sourceWidth,sourceHeight,-spriteWidth/2,-spriteHeight+7*cameraZoom/100,spriteWidth,spriteHeight);
+  const baselineOffsetY=productionSpriteBaselineOffsetY(sprite,spriteHeight);
+  ctx.drawImage(atlas,sx,sy,sourceWidth,sourceHeight,-spriteWidth/2,-spriteHeight+7*cameraZoom/100+baselineOffsetY,spriteWidth,spriteHeight);
   if(p.anim==='run'){ctx.strokeStyle='#c6f4f2a0';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(-spriteWidth*.34,-spriteHeight*.2);ctx.lineTo(-spriteWidth*.45,-spriteHeight*.2);ctx.moveTo(-spriteWidth*.3,-spriteHeight*.36);ctx.lineTo(-spriteWidth*.4,-spriteHeight*.36);ctx.stroke()}
   if(player.number){ctx.font='bold 6px monospace';ctx.textAlign='center';ctx.lineWidth=1.5;ctx.strokeStyle='#172033';ctx.strokeText(String(player.number),0,-spriteHeight*.48);ctx.fillStyle='#fff1aa';ctx.fillText(String(player.number),0,-spriteHeight*.48);ctx.textAlign='left'}
   ctx.restore();drawAthleteOverlays(p,player,x,y,true,stageScale);return true;
