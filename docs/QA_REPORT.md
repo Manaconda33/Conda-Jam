@@ -1,3 +1,9 @@
+## Captain animation checkpoint — Krios dunk-reverse accepted (2026-10-28)
+
+Krios J.128 dunk-reverse attempt01 passed source/cleanup review and independent normal-loader gameplay review after two rejected ball-track trials. Track03 keeps the separate ball aligned through frames5,7,9 and clears the HUD at both facings/zooms. The 60 current Jam Stage captures verify rim release at tick21, two-point score at tick23, and landing through tick30. Full provenance, rejects and captures are indexed in tools/generate-art/krios-dunk-reverse15-attempt01-provenance.json.
+
+The preceding dunk-windmill is also accepted; its track correction clears the peak HUD. Krios is now 22/29 and dunk-360 is next. Strict audit: 2,368 assignments, 541 source atlases, 5,145 unique source drawings, 735 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings. Overall captain lane remains incomplete.
+
 ## Captain animation checkpoint — Krios `dunk-windmill` accepted (2026-10-28)
 
 The J.128 Krios windmill clip passed independent normal-loader review after a track correction lowered peak ball height at frames7–8 to clear the top HUD. Review covers 60 current Jam Stage captures across 15 frame starts, both facings, and 100%/120% zoom. Ball hand contact, rim release at tick21, two-point score at tick23, and landing through tick30 pass. Full provenance and reviews are recorded in `tools/generate-art/krios-dunk-windmill15-attempt02-provenance.json` and its preview directory.
