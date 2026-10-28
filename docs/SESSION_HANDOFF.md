@@ -126,3 +126,8 @@ Kraken’s cleanup01 `steal` atlas and eight-pose track are integrated. The acce
 Post-J.07 strict report-only audit: 2,350 assignments, 525 unique source atlases, 5,003 unique drawings, 751 missing captain assignments, zero target shortfalls and four inherited prompt findings. Validation: full `npm test` 64/64 files, lint 21 modules, content validation 35 franchises/105 athletes/35 captains, and build all passed.
 
 Active work: J104 Leo `shoot` has an accepted source but its attempt04 release track is only a visual candidate (H11.5 at release is unusually high); the simulation scores in both facings, but gameplay-relative hand height needs rendered review before registration. J111 Leo `layup-reverse` attempt06 cleanup01 now has independently accepted face readability and targeted alpha-speck cleanup; native athlete-specific track calibration is underway.
+
+
+## Latest captain asset checkpoint (2026-10-28 09:08 UTC)
+
+Krios J.128 `dunk-tomahawk` attempt01 is accepted and registered after independent normal-loader review of 60 Jam Stage captures (both facings, 100%/120%). Track04 aligns hand contact, clears HUD, releases at tick21, scores at tick23 and lands at tick30. Krios is 24/29. Next gap is `dunk-double`; attempt02 art passes source review for trials, but track attempt01 was rejected for ball overlap/misalignment. `dunk-clutch` attempts01–03 are rejected; `dunk-scythe` track attempt01 is rejected for hand-contact loss in the lateral sweep. Continue source and track lanes; captain pipeline remains incomplete. The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` remains protected.

@@ -4,7 +4,7 @@
   "clip": "dunk-tomahawk",
   "direction": "right",
   "attempt": 1,
-  "status": "source and cleanup accepted for separate ball-track trials only",
+  "status": "accepted and registered after independent source, cleanup, track, and normal-loader review",
   "tool": "image_gen__imagegen",
   "toolArtifactId": "exec-cff0c167-34bf-41a4-806c-15bfcfdad9c3",
   "generationId": "exec-cff0c167-34bf-41a4-806c-15bfcfdad9c3",
@@ -63,8 +63,61 @@
     "darkPreview": "tools/generate-art/previews/krios-dunk-tomahawk15-attempt01/krios-dunk-tomahawk15-attempt01-dark-preview.png"
   },
   "ballTrack": {
-    "status": "not-calibrated",
-    "track": null
+    "status": "accepted",
+    "attempt": 4,
+    "height": [
+      1,
+      0.9,
+      1.2,
+      1.5,
+      1.3,
+      1.35,
+      1.5,
+      1.6,
+      1.7,
+      1.9,
+      2.0,
+      1.2,
+      1.0,
+      0.8,
+      0.7
+    ],
+    "forward": [
+      5,
+      4,
+      3,
+      1,
+      -1,
+      0,
+      -2,
+      -3,
+      -2,
+      -1,
+      12,
+      10,
+      8,
+      6,
+      4
+    ],
+    "runtimeReview": "tools/generate-art/previews/krios-dunk-tomahawk15-attempt01/live-gameplay-candidate/normal-loader-runtime/INDEPENDENT_NORMAL_LOADER_REVIEW_2026-10-28.md",
+    "captureDirectory": "tools/generate-art/previews/krios-dunk-tomahawk15-attempt01/live-gameplay-candidate/normal-loader-runtime",
+    "notes": "60 normal-loader Jam Stage captures; both facings and 100%/120% zoom; release/contact tick21, score tick23, landing tick30; track04 clears HUD and follows hand."
   },
-  "rejectedAttempts": []
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "status": "rejected",
+      "reason": "Frame9/tick19 ball below and behind raised hand; contact fails."
+    },
+    {
+      "attempt": 2,
+      "status": "rejected",
+      "reason": "Frame9/tick19 ball clips HUD and detaches from hand."
+    },
+    {
+      "attempt": 3,
+      "status": "rejected",
+      "reason": "Superseded before normal-loader review; track04 selected after independent candidate comparison."
+    }
+  ]
 }

@@ -1,3 +1,9 @@
+## Captain animation checkpoint — Krios dunk-tomahawk accepted (2026-10-28)
+
+Krios J.128 `dunk-tomahawk` attempt01 is accepted after independent source/cleanup review, track04 review and 60 normal-loader Jam Stage captures. Review covers all 15 frame starts, both facings, 100%/120% zoom, HUD clearance, raised-hand contact, rim release at tick21, two-point score at tick23 and landing at tick30. Provenance, rejected track attempts and capture evidence are indexed in `tools/generate-art/krios-dunk-tomahawk15-attempt01-provenance.json`. Krios is 24/29. Strict report-only audit: 2,370 inspected assignments, 543 source atlases, 5,175 unique source drawings, 733 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings.
+
+The next canonical gap `dunk-double` attempt02 source is reviewed for trials; track attempt01 was rejected for ball/face overlap and missed hand alignment at the second pump. `dunk-clutch` attempts01–03 remain rejected; attempt03 baked the ball into athlete artwork. `dunk-scythe` attempt01 track fails hand contact during the lateral sweep. See the updated asset status and preserved candidate review directories for active calibration.
+
 ## Captain animation checkpoint — Krios dunk-360 accepted (2026-10-28)
 
 Krios J.128 dunk-360 attempt01 passed independent source, cleanup, separate-track candidate review, and 60 registered normal-loader Jam Stage captures across both facings and 100%/120% zoom. Native-size review confirms the compact rotation in frames2–4; track04 clears the HUD and keeps the ball with the raised hand through gather/peak/pre-release. Rim contact/release, two-point score, and landing pass at ticks21/23/30. Three rejected track trials are preserved. See tools/generate-art/krios-dunk-36015-attempt01-provenance.json and its preview folder.
