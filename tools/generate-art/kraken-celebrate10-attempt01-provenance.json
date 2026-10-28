@@ -1,0 +1,18 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "celebrate",
+  "attempt": 1,
+  "generationId": "exec-bf666b35-e9c2-47b4-b33b-71372a45edea",
+  "generatedAt": "2026-10-28",
+  "sourceImage": "tools/generate-art/sources/kraken-celebrate10-attempt01-generated-raw.png",
+  "prompt": "tools/generate-art/kraken-celebrate10-attempt01-imagegen-prompt.txt",
+  "sourceSha256": "30c6eb64dcea635b87c2b25227f563b217ef216561641776d8e2dd60d632f407",
+  "imageSize": [
+    1536,
+    1024
+  ],
+  "sourceMode": "RGBA",
+  "status": "rejected-before-cleanup",
+  "reason": "The sheet contains ten broadly recognizable poses and Kraken identity cues, but the result is painterly/airbrushed rather than the required crisp hard-edged pixel art. The background also contains low-alpha brown haze across much of the canvas (only 985205 fully transparent pixels and zero fully opaque pixels), so it is not clean cutout art. No pose cells were extracted, cleaned, packed, or considered for registration.",
+  "review": "tools/generate-art/previews/kraken-celebrate10-attempt01/REJECTION_REVIEW.md"
+}

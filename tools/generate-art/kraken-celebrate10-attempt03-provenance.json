@@ -1,0 +1,15 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "celebrate",
+  "attempt": 3,
+  "generationId": "exec-23b288e5-5cab-4490-b62d-a29e46285bd2",
+  "generatedAt": "2026-10-28",
+  "sourceImage": "tools/generate-art/sources/kraken-celebrate10-attempt03-generated-raw.png",
+  "prompt": "tools/generate-art/kraken-celebrate10-attempt03-imagegen-prompt.txt",
+  "sourceSha256": "716b44e27c79b000fb8c64ee5ab0d16677179c7f93b7dcc1f77dd94e847756e9",
+  "imageSize": [1536, 1024],
+  "sourceMode": "RGBA",
+  "status": "rejected-before-cleanup",
+  "reason": "The result has ten broadly distinct pose silhouettes and recognizable Kraken identity, but the background contains diffuse brown haze across the sheet with 597158 partially transparent pixels and zero fully opaque pixels. The result does not provide isolated sprite cutouts or consistent crisp pixel-art clusters. No source cells were extracted or considered for registration.",
+  "review": "tools/generate-art/previews/kraken-celebrate10-attempt03/REJECTION_REVIEW.md"
+}

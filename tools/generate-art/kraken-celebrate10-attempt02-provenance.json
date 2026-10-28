@@ -1,0 +1,19 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "celebrate",
+  "attempt": 2,
+  "generationId": "exec-ef2113a6-5e39-4d8f-adab-e9ac68ae35a0",
+  "generatedAt": "2026-10-28",
+  "sourceImage": "tools/generate-art/sources/kraken-celebrate10-attempt02-generated-raw.png",
+  "prompt": "tools/generate-art/kraken-celebrate10-attempt02-imagegen-prompt.txt",
+  "sourceSha256": "8d50ed0098c80aa5ca7f84a5a032184207e70c21cff27bfc618e280b32a95a96",
+  "imageSize": [
+    1536,
+    1024
+  ],
+  "sourceMode": "RGBA",
+  "referenceImage": "tools/generate-art/sources/kraken-celebrate10-attempt01-generated-raw.png",
+  "status": "rejected-before-cleanup",
+  "reason": "The edit retains the first result's diffuse brown background and softened painterly rendering. The prompt's crisp pixel-art and clean-cutout requirements were not achieved. No pose cells were extracted or considered for registration.",
+  "review": "tools/generate-art/previews/kraken-celebrate10-attempt02/REJECTION_REVIEW.md"
+}
