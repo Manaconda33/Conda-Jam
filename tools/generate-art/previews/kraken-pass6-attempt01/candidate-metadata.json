@@ -1,0 +1,18 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "pass",
+  "generationId": "exec-fab9a322-b6aa-47cc-8092-07f52cc5a91f",
+  "source": "tools/generate-art/sources/kraken-pass6-attempt01-generated-raw.png",
+  "sourceSha256": "12ac9be2ea709c4edcb456c5955b354b377633979dd2e72fcc69c12000311316",
+  "prompt": "tools/generate-art/kraken-pass6-attempt01-imagegen-prompt.txt",
+  "atlasCandidate": "tools/generate-art/previews/kraken-pass6-attempt01/kraken-pass6-attempt01-cleanup01-atlas-candidate.png",
+  "atlasSha256": "560345621319fce2e60d49b27031443e4103a76455a3bb366f38f666777ffd5b",
+  "cellSize": [96, 96],
+  "frameCount": 6,
+  "uniqueFrameCount": 6,
+  "baselineY": 94,
+  "durations": [2, 2, 1, 1, 2, 3],
+  "releaseAnchor": {"frame": 3, "tick": 5},
+  "status": "cleanup01 rejected for gameplay trials and runtime registration",
+  "rejectionReason": "Frame2 already reads as an extended release before the canonical frame3/tick5 anchor, and frames2-4 remain release-like. Preserve for audit; do not calibrate or register."
+}

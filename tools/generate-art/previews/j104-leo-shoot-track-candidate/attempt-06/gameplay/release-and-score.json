@@ -1,0 +1,39 @@
+{
+  "method": "Actual createMatch/stepMatch shoot action; candidate release hand height and forward offset applied at its tick13 release, then production simulation stepped until shot completion",
+  "seed": 4,
+  "court": "blackthorn-court-kings vs scoria-rams",
+  "shooter": "leo",
+  "candidateTrack": {
+    "height": [0.95, 1.1, 2.1, 2.1, 2.7, 7.5, 6.5, 4.5, 2.1, 1.05],
+    "forward": [6, 7, 6.5, 4, 3, 4, 4, 4, 6.5, 5.5]
+  },
+  "releaseTick": 13,
+  "releaseHeightMapping": "flightHeightFromHand(7.5, player.z=2) = 12.1666667",
+  "results": [
+    {
+      "facing": 1,
+      "ballOwnerBeforeRelease": "leo",
+      "ballOwnerAfterRelease": null,
+      "playerHasBallAfterRelease": false,
+      "ballModeAfterRelease": "shot",
+      "lastTouch": "leo",
+      "scored": true,
+      "score": [3, 0],
+      "stepsToScore": 97
+    },
+    {
+      "facing": -1,
+      "ballOwnerBeforeRelease": "leo",
+      "ballOwnerAfterRelease": null,
+      "playerHasBallAfterRelease": false,
+      "ballModeAfterRelease": "shot",
+      "lastTouch": "leo",
+      "scored": true,
+      "score": [3, 0],
+      "stepsToScore": 99
+    }
+  ],
+  "visualCaptureReport": "../native/report.json",
+  "visualCaptureCount": 48,
+  "visualCaptureErrors": []
+}

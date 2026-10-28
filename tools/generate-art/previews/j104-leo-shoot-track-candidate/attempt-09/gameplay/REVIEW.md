@@ -1,0 +1,7 @@
+# J.104 attempt09 actual gameplay flight review
+
+This is the closest production capture set: the game ran the real shoot action continuously, the candidate track controlled the carried ball through tick12, and after release tick13 only `stepMatch`/`integrateBall` changed the ball. The candidate release point was installed once at the shot boundary. The full report is `rendered-courty90/report.json` (24 screenshots); a secondary near-sideline view is `rendered-courty100/report.json` and is retained as a camera framing probe.
+
+At the actual release, player z is2, H2.5 maps to ball z3, ball ownership is null, `leo.hasBall` is false, and last touch is Leo. Tick13 aligns the ball to the raised hand in both facings at 100%/120%; tick14 begins separation; tick16 shows clear upward travel. The actual scoring attempts complete as threes in both facings with no browser errors.
+
+Remaining rendering limitation: at the primary near-sideline y90 view, the tick19 ball is close to the top of the gameplay viewport at 120% and tick23 is clipped behind/above the top HUD. The ball remains visible at 100%. Moving the shooter to y100 makes the ball visible at 120% but clips Leo's feet at the bottom, so that view is not a quality fix. The ball/athlete hand alignment and gameplay scoring pass; full 120% shot-arc visibility remains dependent on court camera framing and cannot be corrected by the athlete track alone. Preserve this limitation for parent review; do not represent the whole flight as defect-free.

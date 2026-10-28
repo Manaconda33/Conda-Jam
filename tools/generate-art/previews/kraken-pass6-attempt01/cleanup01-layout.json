@@ -1,0 +1,228 @@
+{
+  "source": "tools/generate-art/sources/kraken-pass6-attempt01-generated-raw.png",
+  "atlasCandidate": "kraken-pass6-attempt01-cleanup01-atlas-candidate.png",
+  "cellSize": [
+    96,
+    96
+  ],
+  "columns": 6,
+  "rows": 1,
+  "baselineY": 94,
+  "durations": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    3
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "pose": "chest-setup",
+      "duration": 2,
+      "sourceComponent": 1,
+      "sourceBounds": [
+        72,
+        58,
+        371,
+        531
+      ],
+      "sourceCropBounds": [
+        71,
+        57,
+        372,
+        532
+      ],
+      "sourceDimensions": [
+        301,
+        475
+      ],
+      "scaledDimensions": [
+        56,
+        88
+      ],
+      "uniformScale": 0.18526315789473685,
+      "cellOffset": [
+        20,
+        6
+      ],
+      "baselineY": 94,
+      "uniqueColors": 2278,
+      "sha256": "0b3f6273a1ef45f8dde50d5c07494a539a6165d56059d098cf7e00003b523871"
+    },
+    {
+      "frame": 1,
+      "pose": "windup",
+      "duration": 2,
+      "sourceComponent": 2,
+      "sourceBounds": [
+        534,
+        67,
+        855,
+        531
+      ],
+      "sourceCropBounds": [
+        533,
+        66,
+        856,
+        532
+      ],
+      "sourceDimensions": [
+        323,
+        466
+      ],
+      "scaledDimensions": [
+        61,
+        88
+      ],
+      "uniformScale": 0.1888412017167382,
+      "cellOffset": [
+        17,
+        6
+      ],
+      "baselineY": 94,
+      "uniqueColors": 2426,
+      "sha256": "386656430a809096d1b12e9d7ea91a7decab5dc4f84997c44cf42276afd8b990"
+    },
+    {
+      "frame": 2,
+      "pose": "step-pre-release",
+      "duration": 1,
+      "sourceComponent": 3,
+      "sourceBounds": [
+        942,
+        73,
+        1363,
+        531
+      ],
+      "sourceCropBounds": [
+        941,
+        72,
+        1364,
+        532
+      ],
+      "sourceDimensions": [
+        423,
+        460
+      ],
+      "scaledDimensions": [
+        81,
+        88
+      ],
+      "uniformScale": 0.19130434782608696,
+      "cellOffset": [
+        7,
+        6
+      ],
+      "baselineY": 94,
+      "uniqueColors": 2518,
+      "sha256": "1a6fc5206df153bfe8867d93f84d60e8bebcf7b596c72729490fec4d584a9aed"
+    },
+    {
+      "frame": 3,
+      "pose": "release-tick05",
+      "duration": 1,
+      "sourceComponent": 45,
+      "sourceBounds": [
+        51,
+        603,
+        502,
+        1058
+      ],
+      "sourceCropBounds": [
+        50,
+        602,
+        503,
+        1059
+      ],
+      "sourceDimensions": [
+        453,
+        457
+      ],
+      "scaledDimensions": [
+        87,
+        88
+      ],
+      "uniformScale": 0.1925601750547046,
+      "cellOffset": [
+        4,
+        6
+      ],
+      "baselineY": 94,
+      "uniqueColors": 2509,
+      "sha256": "8e8f39c3368229561fd1c451df91971e73edc9fae109c1e5f2c590588c577558"
+    },
+    {
+      "frame": 4,
+      "pose": "follow-through",
+      "duration": 2,
+      "sourceComponent": 46,
+      "sourceBounds": [
+        511,
+        603,
+        975,
+        1055
+      ],
+      "sourceCropBounds": [
+        510,
+        602,
+        976,
+        1056
+      ],
+      "sourceDimensions": [
+        466,
+        454
+      ],
+      "scaledDimensions": [
+        90,
+        88
+      ],
+      "uniformScale": 0.19383259911894274,
+      "cellOffset": [
+        3,
+        6
+      ],
+      "baselineY": 94,
+      "uniqueColors": 2563,
+      "sha256": "ae2d2263826d575764058072d9b9d90bb06d6f3363f9b6c86a8855f9458957b3"
+    },
+    {
+      "frame": 5,
+      "pose": "recovery",
+      "duration": 3,
+      "sourceComponent": 44,
+      "sourceBounds": [
+        1020,
+        601,
+        1323,
+        1058
+      ],
+      "sourceCropBounds": [
+        1019,
+        600,
+        1324,
+        1059
+      ],
+      "sourceDimensions": [
+        305,
+        459
+      ],
+      "scaledDimensions": [
+        58,
+        88
+      ],
+      "uniformScale": 0.19172113289760348,
+      "cellOffset": [
+        19,
+        6
+      ],
+      "baselineY": 94,
+      "uniqueColors": 2409,
+      "sha256": "431bdbcf2281da7014c9556b15a3f89587ac0edcddda46ba2e7c165188265a55"
+    }
+  ],
+  "method": "six row-major large connected alpha components; retain original RGB and alpha on each figure plus its 1.5px source fringe; uniform nearest-neighbor resize to 88px high; centered in 96x96 cells at baseline y94",
+  "status": "cleanup/layout candidate; independent review and track trial pending",
+  "atlasSha256": "560345621319fce2e60d49b27031443e4103a76455a3bb366f38f666777ffd5b"
+}

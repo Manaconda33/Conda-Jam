@@ -1,0 +1,18 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "pass",
+  "attempt": 3,
+  "generationId": "exec-6af62d0f-5c3d-4f21-a213-93f524e77291",
+  "generatedAt": "2026-10-28",
+  "sourceImage": "tools/generate-art/sources/kraken-pass6-attempt03-generated-raw.png",
+  "prompt": "tools/generate-art/kraken-pass6-attempt03-imagegen-prompt.txt",
+  "sourceSha256": "44c042bf175ca1337c24c3f06fc569eefab0d971c3207b9ce4f1222fa32a2075",
+  "imageSize": [1402, 1122],
+  "sourceMode": "RGBA",
+  "referenceImage": "public/assets/animation/kraken-idle-right.webp",
+  "status": "raw and cleanup/layout passed for track trials only; gameplay and runtime acceptance pending",
+  "reason": "Six unique Kraken chest-pass poses; frame3 remains loaded and frame4 is the only release. The independently reviewed 96x96 layout preserves full anatomy and margins, but small pale edge flecks and a softer-than-idle style remain for runtime-scale review. No basketball is baked in.",
+  "cleanupTrial": "tools/generate-art/previews/kraken-pass6-attempt03/review-trial-96/review-trial-report.json",
+  "sourceReview": "tools/generate-art/previews/kraken-pass6-attempt03/INDEPENDENT_RAW_SOURCE_REVIEW.md",
+  "cleanupReview": "tools/generate-art/previews/kraken-pass6-attempt03/INDEPENDENT_CLEANUP_REVIEW.md"
+}
