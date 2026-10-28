@@ -1517,6 +1517,7 @@ athleteBallTracks.leo.shoot={height:[.95,1.1,2.1,2.1,2.2,2.5,2.3,2.7,2.1,1.05],f
 athleteBallTracks.krios={pickup:{height:[0.65,0.45,0.2,0,1.35],forward:[3.5,4.5,5.5,4.5,0.5]},shoot:{height:[1,1.2,1.4,1.1,2.0,1.7,4.0,2.0,1.0,0],forward:[5,5,5,4,3.1,.7,2,4,6,7]},pass:{height:[1.05,1.15,1.4,1.5,1.35,1.05],forward:[8,9,11,13,12,8]},receive:{height:[1.1,2.0,2.1,1.2],forward:[5,9,9,5]},'pass-overhead':{height:[.8,1.1,2.3,2.3,2.85,1.4],forward:[9,2,5,7,13,9]},'pass-behind':{height:[1.05,1.3,1.2,1.25,1.25,1.2],forward:[5,2,-3,-9,-12,-8]}}; // J.128 captain-specific hand tracks; receive and pass-behind independently reviewed
 athleteBallTracks.krios.layup={height:[0.9,1.15,1.55,2.05,2.25,2.0,1.1,0.7],forward:[4,4.5,4.5,5,6,6,6,4],releaseVz:0.45}; // J.128 layup attempt08: accepted registered-runtime track
 athleteBallTracks.krios['layup-reverse']={height:[0.9,1.25,1.7,2.15,2.3,2.35,1.4,0.8],forward:[4,5.5,4,3,-4,-1,5,4],releaseVz:0.45}; // J.128 reverse layup attempt03: accepted registered-runtime track
+athleteBallTracks.krios.steal={height:[1.0,0.9,0.75,0.5,0.6,0.9,1.05,1.0],forward:[6,8,10,8,10,8,8,7]}; // J.128 steal attempt04: separate ball meets empty frame3 hook at tick5 before real loose-ball physics
 athleteBallTracks.kraken={steal:{height:[1,.9,.55,.55,.7,.9,1,1],forward:[5,7,6,6,7,8,7,5]}}; // J.07 cleanup01 candidate: independent both-facing low-hook contact review
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);

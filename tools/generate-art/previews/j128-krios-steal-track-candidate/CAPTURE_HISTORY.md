@@ -1,0 +1,5 @@
+# J.128 Krios `steal` gameplay capture history
+
+All retained captures use the current Jam Stage geometry at court y=90. The first native candidate attempt used an incorrect contact setup at y=50 while its report claimed y=90; it is rejected. Attempt02 held the contact ball too high above the knee hook. Attempt03 moved it to the court and too far forward. Attempt04 is the accepted candidate injection review: current atlas/track arrays are evaluated through a real stepMatch steal at tick5 in both facings and zooms. Its separate ball drops loose and unowned against the empty hook; the independent candidate reviewer accepted it for registration trials.
+
+The registered-runtime capture at `attempt-01/registered-runtime/` uses the public manifest, the actual Krios core track, and the app's normal `loadProductionSprites` path. It does not insert or decode a candidate atlas and does not patch the athlete track. It records 32 full-pose captures and four successful tick5 contacts across both facings/zooms. Independent registered-runtime review is pending. Do not mark this clip accepted until that no-injection review passes.

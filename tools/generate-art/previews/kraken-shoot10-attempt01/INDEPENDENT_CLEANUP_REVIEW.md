@@ -1,0 +1,11 @@
+# Independent cleanup/layout review — Kraken J.07 `shoot`, attempt01
+
+**Disposition: pass for gameplay track and timing trials only. Not production acceptance.**
+
+I reviewed the raw source and source notes, all ten isolated pose crops, the 4×3 logical layout, native 5×2 runtime candidate, light/dark previews, cleanup report and runtime layout. All ten rows remain in the intended order: gather, dip, takeoff, ascent, late ascent, release, early descent, follow-through, landing recoil and finish. The keyer isolates ten separate raw components, preserving full figures through the source row/cell crossings without borrowing pixels from adjacent poses or redrawing. Reported logical and native frame hashes are each 10/10 unique.
+
+Kraken remains a natural-skinned adult male elf with short dark hair, visibly pointed ears, a refined face, athletic human anatomy, burgundy kit with copper trim and the small copper amulet. Both hands remain empty and no ball or other prop is present. All ten poses retain the same identity and costume with complete connected arms, hands, legs and boots. Frame4 and frame5 are distinct at 80×96: frame4 keeps the guide hand raised near the head with the shooting arm bent overhead, while frame5 extends the release arm and lowers/separates the guide hand. Their hand, forearm and torso silhouettes differ and their native hashes are distinct; this resolves the source reviewer’s specific frame4/5 concern for gameplay trials.
+
+The cleanup report records the green-key predicate, component/island handling, edge cleanup and RGB repair counts. Logical 384×512 cells all pass the required 24px margins. The runtime sheet is 400×192 with ten 80×96 cells, nearest-neighbor 0.222 scale and shared y=94 baseline. Each runtime frame is nonblank with transparent surrounding pixels. I independently counted zero opaque green-dominant native pixels (`G>=50`, `G-R>=4`, `G-B>=4`). Light and dark previews show no visible green fringe or background residue. The sheet is readable at native size and remains aligned to the common baseline.
+
+This cleanup proof clears the source for Kraken-specific ball-track and gameplay timing trials only. Keep it unregistered until actual runtime, both facings, release timing, ball ownership and scoring/contact checks receive separate review.

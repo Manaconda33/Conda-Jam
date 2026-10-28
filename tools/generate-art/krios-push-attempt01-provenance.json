@@ -1,0 +1,70 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "push",
+  "direction": "right",
+  "attempt": 1,
+  "status": "raw generated; independent source review pending",
+  "tool": "GPT Image generation",
+  "toolArtifactId": "exec-711ce2c5-93c3-4cb8-854d-dadfc8773b85",
+  "generationId": "exec-711ce2c5-93c3-4cb8-854d-dadfc8773b85",
+  "generatedAt": "2026-10-28T06:08:24Z",
+  "promptFile": "tools/generate-art/krios-push-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "303006b783414381fd64236fe25c3b51ee781653c5aed90751136d4e7b108bc5",
+  "rawSourceImage": "tools/generate-art/sources/krios-push-attempt01-generated-raw.png",
+  "rawSourceSha256": "8e4655158f653e6aeaaf94eb53c29e7d81549e8f49fb2c37289c41b308247310",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "format": "RGB PNG, chroma-key green background",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-block-right.webp",
+    "public/assets/animation/krios-steal-right.webp",
+    "public/assets/animation/krios-shoot-right.webp"
+  ],
+  "referenceSha256": {
+    "public/assets/animation/krios-block-right.webp": "feec8fcde6708c70fab9071d5719423a234dbcf119ee1f78efe16b84eeb7658f",
+    "public/assets/animation/krios-steal-right.webp": "197a1b59bbfef4a382d96dd882ff842dad7ca654f24689a239ad1a565a685d2a",
+    "public/assets/animation/krios-shoot-right.webp": "d189428aa72896a35fa138b195702002c486b341a73822592576f1acb1bbfa6f"
+  },
+  "requiredFrameDurations": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3
+  ],
+  "contactAnchorFrame": 5,
+  "contactAnchorTick": 8,
+  "ballPolicy": "Push art is empty-handed and has no ball track; verify the simulated target push/possession behavior separately.",
+  "sourceReview": {
+    "status": "pending",
+    "evidence": null,
+    "notes": null
+  },
+  "cleanupScript": null,
+  "cleanupReport": null,
+  "cleanupReview": {
+    "status": "pending",
+    "evidence": null,
+    "notes": null
+  },
+  "candidateAtlas": null,
+  "candidateAtlasSha256": null,
+  "runtimeLayout": null,
+  "rejectedAttempts": [],
+  "registeredRuntimeReview": {
+    "status": "pending",
+    "evidence": null,
+    "report": null
+  },
+  "generationIdNote": "Image-generation tool returned a workspace artifact id; exported PNG is RGB and will be retained unchanged."
+}

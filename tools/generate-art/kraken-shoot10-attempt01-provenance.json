@@ -1,0 +1,74 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "shoot",
+  "direction": "right",
+  "attempt": 1,
+  "status": "source and cleanup/layout accepted for gameplay track trials only",
+  "tool": "GPT Image generation",
+  "toolArtifactId": "exec-20014507-d570-42f5-9ad7-6c2f9e4c6b03",
+  "generationId": "exec-20014507-d570-42f5-9ad7-6c2f9e4c6b03",
+  "generatedAt": "2026-10-28T05:58:48Z",
+  "generationIdNote": "Image-generation tool returned a workspace artifact id. Exported PNG is RGB; no C2PA metadata or additional PNG metadata was present.",
+  "promptFile": "tools/generate-art/kraken-shoot10-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "d0dba73f77d133c50212ea667e1ef2aa3443f7ec40b226ededfaf4230511f873",
+  "rawSourceImage": "tools/generate-art/sources/kraken-shoot10-attempt01-generated-raw.png",
+  "rawSourceSha256": "b6e779cc44240a387e1298dd31808ea4f7bfcd51f00a644a444efc2dcf53e2c3",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "requestedDimensions": [
+    1536,
+    1536
+  ],
+  "format": "RGB PNG, opaque near-green chroma key",
+  "identityStyleReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "public/assets/animation/kraken-run-right.webp",
+    "public/assets/animation/kraken-block-right.webp"
+  ],
+  "referenceSha256": {
+    "public/assets/animation/kraken-idle-right.webp": "e25a27df957386029a2f08c1f84d8fc3401a8a3a8d28b5835033f731d8deac75",
+    "public/assets/animation/kraken-run-right.webp": "ff5d5193cdf1ecffbae7fe3a45d56b3cf133953c1ffe6ba3a2700a468749730f",
+    "public/assets/animation/kraken-block-right.webp": "15aa4e7fc243c0ab5666786cdf644691767cbe39e273c99248f17bd0b028cf43"
+  },
+  "requiredFrameDurations": [
+    2,
+    3,
+    3,
+    2,
+    3,
+    1,
+    2,
+    3,
+    4,
+    4
+  ],
+  "takeoffAnchorTick": 6,
+  "releaseAnchorTick": 13,
+  "peakAnchorTick": 13,
+  "finishAnchorTick": 23,
+  "rejectedAttempts": [],
+  "rejectedGenerationIds": [],
+  "sourceReview": {
+    "status": "accepted-for-cleanup-trials",
+    "evidence": "tools/generate-art/previews/kraken-shoot10-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+    "notes": "Identity, connected anatomy, ten ordered poses and no-ball art pass; dimensions differ from prompt, multiple cell margins are tight/crossed, and frames4/5 require native distinctness review."
+  },
+  "cleanupReview": {
+    "status": "accepted-for-gameplay-trials",
+    "evidence": "tools/generate-art/previews/kraken-shoot10-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+    "notes": "Ten complete unique figures; frames4/5 distinct at native 80\u00d796; no ball, no opaque green spill, transparent alpha, \u226524px logical margins and common y=94 baseline."
+  },
+  "runtimeStatus": "pending Kraken-specific shooting ball-track calibration and current-court gameplay review",
+  "cleanupScript": "tools/generate-art/clean-kraken-shoot10-attempt01.py",
+  "cleanupReport": "tools/generate-art/previews/kraken-shoot10-attempt01/cleanup-layout-report.json",
+  "cleanupLayout": "tools/generate-art/previews/kraken-shoot10-attempt01/runtime-layout.json",
+  "candidateAtlas": "tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-runtime-candidate.png",
+  "candidateAtlasSha256": "47f167275610c321c67bfdb195545687f7324b8826d71237087738608b43cc3a",
+  "lightPreview": "tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-light-preview.png",
+  "darkPreview": "tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-dark-preview.png",
+  "cleanupNotes": "tools/generate-art/previews/kraken-shoot10-attempt01/README.md"
+}
