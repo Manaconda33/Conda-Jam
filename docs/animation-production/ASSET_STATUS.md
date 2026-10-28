@@ -1,16 +1,16 @@
-## Current captain checkpoint — J.128 Krios complete; J.07 Kraken in progress (2026-10-28 15:33 UTC)
+## Current captain checkpoint — J.128 Krios complete; J.07 Kraken in progress (2026-10-28 15:44 UTC)
 
-Krios remains 29/29. Kraken J.07 / J.129 remains 7/29 registered. Strict report-only audit: 2,375 inspected assignments, 548 source atlases, 5,250 unique drawings, 728 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings.
+Krios remains 29/29. Kraken J.07 / J.129 is now 8/29 registered. Refreshed strict report-only audit: 2,376 inspected assignments, 549 source atlases, 5,260 unique drawings, 727 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings.
 
-The local Jamverse preview contains 105 athletes, 882 registered assignments, 882 unique atlas paths, and 8,041 frame rectangles; all embedded atlas bytes match the current files. Kraken candidate art is unregistered and excluded. The preview review is in `docs/animation-production/previews/CURRENT_PREVIEW_REVIEW.md`. This is not a Pages deployment.
+The standalone Jamverse preview includes 105 athletes, 883 registered assignments, 883 atlas paths, and 8,051 frame rectangles; every exact embedded atlas byte matches the current source. The preview check is in `docs/animation-production/previews/CURRENT_PREVIEW_REVIEW.md`. This is not a Pages deployment.
 
-Optional clip `baselineY` renderer support is tested and independently reviewed; no manifest clip currently uses it. Kraken reverse-layup attempt23 improves release contact but still has HUD/rim framing and normal-loader issues. Pass-overhead attempt05 passes candidate-driven contact and simulation in both facings and zooms; normal-loader selection and its two-pixel lower margin still need review.
+Optional clip `baselineY` renderer support remains tested, with no registered clip using it. Kraken reverse-layup attempt23 improves release contact but still has HUD/rim framing issues. Pass-overhead attempt05 passes candidate-driven contact and simulation in both facings and zooms; normal-loader selection and its two-pixel lower margin remain open.
 
-Kraken pickup attempt04 cleanup02 passes independent source/cleanup review for athlete-specific ball-track trials: five distinct, ball-free poses, a clear empty ankle-level grab on frame3/tick7, soles at baseline y=90, and six transparent rows below. Separate-ball calibration and normal-loader, facing, and zoom review remain.
+Kraken pickup attempt04 cleanup02 passes independent source review for separate ball-track trials: five distinct ball-free poses, a clear empty ankle-level grab on frame3/tick7, soles at baseline y=90, and six transparent rows below. Separate-ball calibration and normal-loader, facing, and zoom review remain.
 
-The Krios art seen in older Kraken score captures was the missing-`celebrate` fallback. Celebration attempt04 has ten distinct full-body Kraken poses in an 80×96-cell candidate atlas and passes independent source/cleanup review for trials. Forty candidate-injected Jam Stage captures pass all canonical frame starts, both facings, 100%/120% zoom, the production `commitScore` transition, two-point scoreboard, dead/unowned ball, and no-fallback/no-crop/no-HUD checks. Its brighter style and normal-loader integration remain before registration. Attempt05 is an unreviewed alternate. Neither is registered. Attempts01–03 remain documented rejections for diffuse haze and painterly softness.
+The red Krios figure in older Kraken score screenshots was the missing-`celebrate` fallback. Kraken `celebrate` is now accepted from attempt04 cleanup02: ten unique, bespoke 88×96 frames at baseline y=94. Independent source, cleanup, candidate gameplay and normal-loader score-transition reviews pass all ten frames, both facings and 100%/120% zoom. Correct scoring and dead/unowned ball state are confirmed; no fallback, crop, HUD collision or browser error remains. The brighter/bolder pixel treatment is coherent with Kraken at court scale. Cleanup01's shorter version remains preserved as superseded; attempt05 is an unreviewed alternate, and attempts01–03 are preserved rejects.
 
-Kraken shoot still fails the 120% viewport/rim framing review; live rebound catch gameplay remains open. The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` remains untouched.
+Kraken shoot viewport framing and live rebound catch gameplay remain open. The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` remains untouched.
 
 ## Previous asset lane snapshot — 2026-10-28 07:35 UTC
 

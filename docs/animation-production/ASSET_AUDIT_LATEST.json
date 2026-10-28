@@ -4,17 +4,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 2,
-  "generatedAt": "2026-10-28T15:33:35.932Z",
+  "generatedAt": "2026-10-28T15:43:58.552Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 2375,
-  "missingClipCount": 728,
+  "inspectedClips": 2376,
+  "missingClipCount": 727,
   "uniqueSourceLibraries": 42,
-  "uniqueSourceAtlases": 548,
-  "uniqueSourceDrawings": 5250,
+  "uniqueSourceAtlases": 549,
+  "uniqueSourceDrawings": 5260,
   "classifications": {
-    "original-authored": 548,
+    "original-authored": 549,
     "derived-palette": 1827
   },
   "assignmentClassifications": {
@@ -169,8 +169,8 @@
       "sourceLibrary": "echo-catwalk"
     },
     "kraken": {
-      "clips": 7,
-      "missingClips": 22,
+      "clips": 8,
+      "missingClips": 21,
       "classification": "incomplete",
       "assignmentStatus": "original-authored",
       "lineage": null,
@@ -969,13 +969,6 @@
       "athlete": "kraken",
       "direction": "right",
       "clip": "fall",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "kraken",
-      "direction": "right",
-      "clip": "celebrate",
       "classification": "original-authored"
     },
     {
@@ -63242,6 +63235,113 @@
           "h": 96,
           "hash": "edac6486174145995614d1c8fb694eed5f979387025694d2fb2284f1b76798b9",
           "visiblePixels": 2845
+        }
+      ]
+    },
+    {
+      "athlete": "kraken",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/kraken-celebrate-right.png",
+      "width": 880,
+      "height": 96,
+      "sha256": "d5b57154dfa2f34781501027526e051a039b2ff40add53bd3512167bd5e51730",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "06aba6356348c77042e732cb08e0ea25aeafe63a86083e4b82b72e603426879c",
+          "visiblePixels": 2515
+        },
+        {
+          "index": 1,
+          "x": 88,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "fdba96cf2caccc841ce0aa873f7d9b17a00cc6eabdad875809e280312e2978e9",
+          "visiblePixels": 2541
+        },
+        {
+          "index": 2,
+          "x": 176,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "fd90715d0f57c9f690272b7a68bb7602a164efeeab91ecfb565422be14a7f374",
+          "visiblePixels": 2669
+        },
+        {
+          "index": 3,
+          "x": 264,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "2faf54ba21e504e6cb96764c8e430b58513b908523b1ad5b415c6ad1fa500bc1",
+          "visiblePixels": 2568
+        },
+        {
+          "index": 4,
+          "x": 352,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "84fb9e48e5557c815cbcbb3e71ff4bf45faa22740d58c278d5396a6d27fd4032",
+          "visiblePixels": 2135
+        },
+        {
+          "index": 5,
+          "x": 440,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "2b429d49cd21e8bc0efa30364c832f768c72e82faa99bf2b6b57e8afff789af1",
+          "visiblePixels": 2029
+        },
+        {
+          "index": 6,
+          "x": 528,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "459356c36940b86418b391eef12bfffdcddd9ed51e17b4515050fc12ff09b56c",
+          "visiblePixels": 2723
+        },
+        {
+          "index": 7,
+          "x": 616,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "f19bd819ae76d3d95be17b2b1e95929471dd387456e28790c4e5d99210da8978",
+          "visiblePixels": 1968
+        },
+        {
+          "index": 8,
+          "x": 704,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "bea01e5fb349762f1f9477fe6052cfe8fd0b27cb5fe3c34ae15825bd2d94f992",
+          "visiblePixels": 2838
+        },
+        {
+          "index": 9,
+          "x": 792,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "9b2d4550978bbbf8a2048e076655355ad3edad345bf011b151d2260d88d48e84",
+          "visiblePixels": 2570
         }
       ]
     },

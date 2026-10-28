@@ -15,6 +15,7 @@ RAW_PATH = ROOT / "tools/generate-art/sources/kraken-celebrate10-attempt04-gener
 OUT = HERE / "poses"
 CW, CH, BASELINE = 80, 96, 90
 TARGET_HEIGHT = 76
+DURATIONS = [5, 5, 6, 8, 10, 10, 8, 7, 6, 5]
 RAW = np.asarray(Image.open(RAW_PATH).convert("RGBA"))
 ALPHA = RAW[:, :, 3]
 
@@ -90,7 +91,7 @@ layout_data = {
     "frames": layout,
     "reusedPixels": False,
     "method": "one-to-one extraction by large connected alpha component; retain original source RGB/alpha within a 1.5px source edge fringe; uniform nearest-neighbor scale to 76px height; align soles at baselineY=90",
-    "durations": [1] * 10,
+    "durations": DURATIONS,
 }
 (HERE / "cleanup01-layout.json").write_text(json.dumps(layout_data, indent=2) + "\n")
 
