@@ -1,0 +1,56 @@
+{
+  "athlete": "kraken",
+  "clip": "push",
+  "attempt": 2,
+  "height": [
+    0.8,
+    0.9,
+    1.0,
+    1.15,
+    1.3,
+    1.35,
+    1.3,
+    1.05,
+    0.8,
+    0.75,
+    0.75
+  ],
+  "forward": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8.5,
+    9,
+    6,
+    4,
+    3,
+    3
+  ],
+  "frameStartTicks": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    12,
+    15,
+    18,
+    21
+  ],
+  "contactFrame": 5,
+  "contactTick": 8,
+  "status": "candidate only; no runtime registration or packing",
+  "revisionFromAttempt01": "Lowered ball into hand height and reduced forward offset; attempt01 contact ball rendered detached from both extended hands.",
+  "independentReview": {
+    "verdict": "PASS for continued athlete-specific track validation only",
+    "report": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/INDEPENDENT_REVIEW.md"
+  },
+  "actualGameplay": {
+    "verdict": "PASS for candidate action timing/loose-ball flow; track attachment not exercised in defensive shove",
+    "report": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/INDEPENDENT_REVIEW.md"
+  }
+}

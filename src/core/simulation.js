@@ -257,7 +257,7 @@ function advanceAnimations(match){
         const chance=hasCarriedBall?clamp(.08+p.strength/400,.08,.32):clamp(.18+p.strength/250,.18,.58);
         if(target&&hypot(target.x-p.x,target.y-p.y)<6&&rand(match)<chance){
           const dx=target.x-p.x,dy=target.y-p.y,d=hypot(dx,dy),separated=dx*dx+dy*dy>1e-12,nx=separated?dx/d:(p.facing||1),ny=separated?dy/d:0;
-          if(hasCarriedBall){const ball=match.ball;releaseOwner(match);Object.assign(ball,{mode:'loose',ownerId:null,targetId:null,aerialTargetId:null,attemptId:null,scored:false,vx:nx*.36,vy:ny*.36,vz:.14,lastTouch:p.id});}
+          if(hasCarriedBall){const ball=match.ball;releaseOwner(match);match.pushContactActorId=p.id;Object.assign(ball,{mode:'loose',ownerId:null,targetId:null,aerialTargetId:null,attemptId:null,scored:false,vx:nx*.36,vy:ny*.36,vz:.14,lastTouch:p.id});}
           target.stun=45;startAnimation(target,'fall','knockdown');target.vx=nx*.58;target.vy=ny*.58;p.knockdowns++;event(match,hasCarriedBall?`${p.name} jars ${target.name}'s ball loose!`:`${p.name} knocks ${target.name} down!`);
         }
       }
@@ -401,7 +401,7 @@ function integrateBall(match) {
     if(target&&hypot(target.x-b.x,target.y-b.y)<6){scheduleCatch(match,target,'receive',true);}
   }
   if(b.z<=0){b.z=0;b.vz=Math.abs(b.vz)*.55;if(Math.abs(b.vz)<.08)b.vz=.14;b.vx*=.82;b.vy*=.82;}
-  const candidates=match.players.filter(p=>p.stun===0&&hypot(p.x-b.x,p.y-b.y)<4.5&&b.z<3&&!(b.mode==='pass'&&p.id===b.lastTouch&&hypot(p.x-b.x,p.y-b.y)<5)).sort((a,c)=>hypot(a.x-b.x,a.y-b.y)-hypot(c.x-b.x,c.y-b.y));
+  const candidates=match.players.filter(p=>p.id!==match.pushContactActorId&&p.stun===0&&hypot(p.x-b.x,p.y-b.y)<4.5&&b.z<3&&!(b.mode==='pass'&&p.id===b.lastTouch&&hypot(p.x-b.x,p.y-b.y)<5)).sort((a,c)=>hypot(a.x-b.x,a.y-b.y)-hypot(c.x-b.x,c.y-b.y));
   if(candidates.length){const p=candidates[0];const pickup=b.z<1&&Math.hypot(b.vx,b.vy)<.24;const clip=b.mode==='pass'?(playerById(match,b.lastTouch)?.team===p.team?'receive':'steal'):pickup?'pickup':'rebound';scheduleCatch(match,p,clip,b.mode==='pass');}
 
   if(b.x<COURT.minX-5||b.x>COURT.maxX+5||b.y< -5||b.y>105){const lastTouch=playerById(match,b.lastTouch),offense=lastTouch?.team??match.possession,inbound=1-offense;if(lastTouch)lastTouch.turnovers++;b.x=100;b.y=50;b.z=1;b.vx=0;b.vy=0;b.vz=0;b.mode='dead';match.possession=inbound;match.pendingInboundTeam=inbound;match.shotClock=24;releaseOwner(match);b.lastTouch=`team-${offense}`;match.scorePause=30;event(match,'Out of bounds — quick opposing inbound');}
@@ -433,6 +433,7 @@ export function stepMatch(match, inputFrames = []) {
   syncLocomotion(match,allInputs);
   resolveShotBlock(match);
   integrateBall(match);
+  match.pushContactActorId=null;
   if(!match.practice)match.clock=Math.max(0,match.clock-1/60);
   if(!match.practice)match.shotClock=Math.max(0,match.shotClock-1/60);
   match.possessionAge++;

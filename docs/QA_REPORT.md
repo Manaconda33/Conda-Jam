@@ -1,8 +1,10 @@
-## Captain asset lane QA update — 2026-10-28 12:41 UTC
+## Captain asset lane QA update — 2026-10-28 13:05 UTC
 
-Strict audit remains at 728 missing captain assignments; Kraken is 7/29 registered. No new runtime clip is active. Independent camera review found no tested shoot camera configuration clears the fixed HUD while retaining the near-sideline shadow for Kraken and Reed. Pass attempt07 still depends on temporary Marin receiver overrides; pass-overhead attempt02 is calibration-only. Layup attempt01 fails hand continuity; layup-reverse attempt02 has rejected matte v1/v2. Push attempt01 passes source and cleanup review for track trials only; its 11-frame atlas is not packable yet because painterly rendering and 4/4/2px minimum side/bottom margins remain. Exact sources, prompts, hashes, cleanup versions and all rejected results are preserved.
+The strict audit remains at 728 missing captain assignments; Kraken is 7/29 registered. The rebuilt Jamverse branch preview contains all current manifest entries (105 athletes, 882 assignments/atlases, 8,041 frame rectangles, no missing atlas files), including Krios 29/29, and excludes unregistered Kraken candidates. Pages is not deployed from this PR branch.
 
-Working-tree validation: `npm test` (73/73), lint (21 modules), content validation (35 franchises / 105 athletes / 35 captains), static build, and focused Jam Stage projection test pass. Shot camera changes remain unintegrated and production deployment is not triggered.
+The independent camera review keeps Kraken shoot unregistered. Pass attempt07 still depends on temporary Marin receiver tracks; pass-overhead attempt02 is calibration-only. Layup attempt01 fails hand continuity; layup-reverse matte v1/v2 fail cleanup review. Push attempt01 passes source/cleanup for track trials only; track attempt02 and actual tick8 shove gameplay checks passed candidate review. A one-tick catch delay preserves the push contact pose during a successful ball-carrier shove. The atlas is not packable yet because pixel-art finish and margin constraints remain. All source provenance, rejected work and current Jam Stage captures are preserved.
+
+Current working-tree validation: npm test (73/73), lint (21 modules), content validation (35 franchises / 105 athletes / 35 captains), static build, focused projection test and relevant Jam Stage captures pass. Shot-camera changes remain unintegrated; no new animation runtime clip is registered.
 
 ## Captain animation checkpoint — J.128 complete (2026-10-28)
 
