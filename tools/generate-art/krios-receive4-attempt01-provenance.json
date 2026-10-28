@@ -1,0 +1,16 @@
+{
+  "athlete": "J.128 Krios",
+  "clip": "receive",
+  "attempt": 1,
+  "generationId": "exec-226255dc-2b64-48fc-8131-26694dcd12b3",
+  "generatedAt": "2026-10-28T00:13:00Z",
+  "promptFile": "tools/generate-art/krios-receive4-attempt01-prompt.md",
+  "rawImage": "tools/generate-art/sources/krios-receive4-attempt01-generated-raw.png",
+  "rawSha256": "a60788274a094bf9d52e198bd6596c42dc2ced41e5a353ec25e16958d45df1bc",
+  "rawDimensions": [1380, 1140],
+  "referenceImages": [
+    "public/assets/animation/krios-pass-overhead-right.webp"
+  ],
+  "status": "rejected",
+  "rejection": "Independent reviewer confirmed pose1 has duplicated/ghosted hands and arm shapes around the raised reach, making the anatomy incoherent. Preserve poses0, 2 and 3 if a localized pose1 correction is attempted. No atlas was packed."
+}

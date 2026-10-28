@@ -1,4 +1,4 @@
-import { animationClips, sampleAnimation, animationDuration, anchorTick, dunkVariants, sampleBallHeight, sampleBallForward, flightHeightFromHand } from './animation.js';
+import { animationClips, sampleAnimation, animationDuration, anchorTick, dunkVariants, sampleBallHeight, sampleBallForward, sampleBallReleaseVz, flightHeightFromHand } from './animation.js';
 const COURT = { minX: 0, maxX: 200, minY: 0, maxY: 100,
   hoops: [200 * 5.25 / 94, 200 * (1 - 5.25 / 94)],
   arcX: 200 * 23.75 / 94, arcY: 100 * 23.75 / 50, cornerY: 100 * 3 / 50,
@@ -138,7 +138,7 @@ function makeShot(match, player, chargeFrames = 0) {
   match.ball.mode = 'shot'; match.ball.ownerId = null; match.ball.targetId = null; match.ball.lastTouch = player.id; match.ball.attemptId = attempt.id; match.ball.value = points; match.ball.scored = false; match.ball.rim = false; match.ball.backboard=false;
   // Preserve the rendered hand elevation when the attached ball becomes a projectile.
   const releaseHeight=flightHeightFromHand(sampleBallHeight(player.animation.clip,player.animation.tick,player.id),player.z);
-  match.ball.x = player.x + player.facing * sampleBallForward(player.animation.clip,player.animation.tick,player.id); match.ball.y = player.y; match.ball.z = releaseHeight; match.ball.vz = made ? 1.05 + Math.min(.3,distance*.002) : .88 + rand(match)*.35;
+  match.ball.x = player.x + player.facing * sampleBallForward(player.animation.clip,player.animation.tick,player.id); match.ball.y = player.y; match.ball.z = releaseHeight; match.ball.vz = made ? (sampleBallReleaseVz(player.animation.clip,player.id) ?? 1.05 + Math.min(.3,distance*.002)) : .88 + rand(match)*.35;
   const descentFrames=(match.ball.vz+Math.sqrt(match.ball.vz**2+4*.013*(releaseHeight-2.6)))/.026;
   const releaseDistance=Math.abs(hoop-match.ball.x);
   match.ball.vx = (Math.sign(hoop-match.ball.x)||direction) * (made ? Math.min(1.25, releaseDistance / descentFrames) : .55 + rand(match) * .3);

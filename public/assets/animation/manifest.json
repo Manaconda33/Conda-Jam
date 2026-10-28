@@ -62809,6 +62809,286 @@
             },
             "reviewed": true,
             "mirrorSafe": true
+          },
+          "shoot": {
+            "src": "./public/assets/animation/leo-shoot-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "cdb60a667879068b36c6b3bca4ec65ac44abf980f3c88d08862ca39782ec0c12"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "a9c1d78ed5b8e1f522a42159ae26871ac7e4047f18a20f807d1a4166641b2c66"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "9af5c87aa8b51bc5b1bfa08fd46d88f15e1a1c4d16440f0487b85f275c331792"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "41cc5503fb7b872d44f3bb9824387aafa5b8052cb764f7e6ba99282a23d8f6c1"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "0943c60810c4321989f7b5388c4f93465b6bffe5142d72ae5299b9fbc19e6a95"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "d3fdb864e1f3e4d610820ae95f6fb08f91573c00b63ebac9d603be0521226e04"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "748c4f57d70fbb01940b3e969c2291431406a55d636768cc9d5a8207db126931"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "4e75b42dee2ce277aa97648059cef986eb76effbadd66c8b3abb8291bd3f5b16"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "8f0ab2af9e9bc797f686a62c71baebef62074afc760f5d503dcc5fac208cba64"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "d17453cb6abcd15faee05c43edea58972351f8166d8ec551cd6d677575a3924d"
+              }
+            ],
+            "sha256": "34ecd0c8022338a92a612ca6a16d573219465fc2fa2c123aa562c588aaee6eef",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "leo",
+              "clip": "shoot",
+              "direction": "right",
+              "canonicalSection": "K.05",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-038f7613-8e7c-4f00-b85e-210fdd86ab66",
+              "imageGenerationId": "exec-038f7613-8e7c-4f00-b85e-210fdd86ab66",
+              "rawSourceImage": "tools/generate-art/sources/j104-leo-shoot-generated-raw.png",
+              "sourceImage": "tools/generate-art/sources/j104-leo-shoot10.png",
+              "promptFile": "tools/generate-art/j104-leo-shoot10-prompt.md",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Leo's basketball is separate runtime/game art. He gathers the ball into his patient shooting pocket and releases once from his right fingertips on frame5 at simulation tick13; the ball is never painted into the poses.",
+              "ballTrack": {
+                "height": [
+                  0.95,
+                  1.1,
+                  1.25,
+                  1.55,
+                  1.9,
+                  2.15,
+                  2.1,
+                  1.8,
+                  1.35,
+                  1.05
+                ],
+                "forward": [
+                  6,
+                  7.5,
+                  8.5,
+                  9.5,
+                  10.5,
+                  11.5,
+                  10.5,
+                  8.5,
+                  6.5,
+                  5.5
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/clean-leo-shoot10.py",
+                "layoutFile": "tools/generate-art/j104-leo-shoot-cleanup-layout.json",
+                "method": "retain ten major alpha-connected figures; remove nonbody haze/specks beyond two-pixel antialias dilation; baseline and uniformly scale all poses to one 5x2 sheet",
+                "minimumCellMarginPx": 18
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "Ten distinct full-body right-facing jump-shot poses show patient gather, set, release, follow-through and recovery. Leo remains a pale adult human with long wavy black hair, refined mustache, composed face and controlled black/crimson uniform. The hands are empty and the external ball releases at frame5/tick13. The cleanup removes surrounding transparency haze while keeping all ten bodies intact."
+              },
+              "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as the identity and pixel-art style reference. Draw exactly ten distinct complete full-body Leo poses in a strict five-column by two-row grid, row-major, with broad transparent gutters and outer margins. Each pose must fit entirely in its own cell at a consistent scale and camera, with full hair, hands and shoes visible. Crisp readable 1990s arcade pixel-art clusters and outlines, not glossy or painterly.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his adult human anatomy, pale face, long wavy black hair, refined mustache, composed handsome features, and patient master-strategist poise. He wears a tailored black basketball uniform with restrained crimson accents, black/crimson shorts, matching athletic shoes and subtle refined white trim. Keep him recognizably Leo and consistent with the reference in every pose. Exactly two human arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, altered face, or costume change.\n\nThis is a right-facing jump shot. The basketball is separately rendered by the game. Both hands remain empty; never draw a ball, sphere, orb, seams, prop, court, hoop, rim, floor, ground shadow, background, glow, border, grid, cell divider, text, label, teammate or opponent. Every exterior and gutter pixel must be actual alpha-zero transparency, with no checkerboard, matte, speckles or color haze.\n\nDraw ten sequential, distinct, mechanically connected full-body poses:\n0 balanced approach/readied stance, hands low and eyes on the target;\n1 gathers the invisible ball at waist level, elbows relaxed;\n2 feet set, knees bend and shoulders square into a patient shooting pocket;\n3 begins the jump, right shooting hand under the invisible ball and left guide hand beside it;\n4 raises the invisible ball to forehead height, shooting elbow aligned, guide hand steady;\n5 RELEASE at simulation tick13: right arm fully extended toward the basket, shooting wrist snapped and fingers open after the ball leaves; guide hand relaxed away;\n6 airborne follow-through with right wrist flexed and left arm lowering;\n7 begins descending, shooting arm remains raised and body controlled;\n8 lands softly with knees flexed, both hands empty;\n9 returns to composed balanced ready stance, hands empty and lowering.\n\nLeo stays right-facing and moves toward image-right. Keep the long wavy hair clear of the face and readable across poses. Maintain natural joints, subtle captain presence and consistent pale complexion, mustache, outfit and body scale. Return only the transparent sprite sheet.",
+              "sourceSha256": "8566b1425af4324c826b5cf3f4eb6dad174d1643f738eb0f486cf75ba08d1f29",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 51,
+                  "y": 139,
+                  "w": 206,
+                  "h": 355,
+                  "component": 3,
+                  "area": 41906
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 357,
+                  "y": 139,
+                  "w": 207,
+                  "h": 355,
+                  "component": 4,
+                  "area": 40781
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 667,
+                  "y": 170,
+                  "w": 201,
+                  "h": 324,
+                  "component": 5,
+                  "area": 38651
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 963,
+                  "y": 100,
+                  "w": 222,
+                  "h": 393,
+                  "component": 2,
+                  "area": 44731
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1276,
+                  "y": 76,
+                  "w": 212,
+                  "h": 417,
+                  "component": 1,
+                  "area": 43824
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 28,
+                  "y": 555,
+                  "w": 250,
+                  "h": 451,
+                  "component": 7,
+                  "area": 42987
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 334,
+                  "y": 572,
+                  "w": 252,
+                  "h": 434,
+                  "component": 9,
+                  "area": 40923
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 645,
+                  "y": 564,
+                  "w": 244,
+                  "h": 442,
+                  "component": 8,
+                  "area": 45504
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 966,
+                  "y": 656,
+                  "w": 216,
+                  "h": 350,
+                  "component": 11,
+                  "area": 42514
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1281,
+                  "y": 648,
+                  "w": 202,
+                  "h": 358,
+                  "component": 10,
+                  "area": 41890
+                }
+              ],
+              "uniformScale": 0.2039911308203991,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 64x96 cells; baseline94; lossless WebP; 10 original shoot poses",
+              "atlasPath": "public/assets/animation/leo-shoot-right.webp",
+              "atlasSha256": "34ecd0c8022338a92a612ca6a16d573219465fc2fa2c123aa562c588aaee6eef",
+              "atlasBytes": 57662,
+              "sourceReview": {
+                "status": "accepted",
+                "reviewedBy": "existing J.104 source-art review",
+                "notes": "Ten distinct full-body Leo jump-shot poses, clear anatomy and identity, transparent ball-free art; see tools/generate-art/j104-leo-shoot-source-notes.md."
+              },
+              "ballTrackReview": {
+                "status": "accepted",
+                "reviewedBy": "independent J.104 attempt10 review",
+                "evidence": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/INDEPENDENT_REVIEW.md",
+                "notes": "Both facings, 100%/120%, tick13 hand release, continuous gameplay flight, score completion, no viewport clipping."
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  0.95,
+                  1.1,
+                  2.1,
+                  2.1,
+                  2.2,
+                  2.5,
+                  2.3,
+                  2.7,
+                  2.1,
+                  1.05
+                ],
+                "forward": [
+                  6,
+                  7,
+                  6.5,
+                  4,
+                  3,
+                  4,
+                  4,
+                  4,
+                  6.5,
+                  5.5
+                ],
+                "releaseVz": 0.65,
+                "reviewed": true
+              },
+              "runtimeReleaseProfile": {
+                "madeShotVz": 0.65,
+                "reviewed": true,
+                "evidence": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/candidate-03/gameplay/rendered-courty95/report.json",
+                "note": "Per-athlete made-shot launch profile used by simulation; miss velocity remains the existing stochastic production value."
+              }
+            },
+            "reviewed": true
           }
         }
       },
@@ -65369,15 +65649,374 @@
             },
             "reviewed": true,
             "reviewNotes": "Six original overhead-pass poses reviewed for Krios identity and anatomy; independent Jam Stage captures accepted frame0–2 hand approach and frame3/tick7 overhead release in both facings and zooms."
+          },
+          "pass-behind": {
+            "src": "./public/assets/animation/krios-pass-behind-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "017009e87961292adda08974137e858ff0431c5e41b1518a285fe4fe2fae0bf9"
+              },
+              {
+                "x": 104,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "b54cc0a12440c62682c44223f73fefcaa740bbac8b349a775822bca668e537b8"
+              },
+              {
+                "x": 208,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "dc316a8b6e9206f613ba500caccf7daefbe2fb21a31714e7cdce0294c438efb7"
+              },
+              {
+                "x": 312,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "1cabde659edb41b1319268b417a3c0f3a9e46307575dbe72a8e7b7a4c018aef7"
+              },
+              {
+                "x": 416,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "7cfe8d7aa5106b4060e32d552395738d7cd79359a4ebd21be9b71b95a1b4c5e0"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 104,
+                "h": 96,
+                "hash": "386c6f9e76e792958b375d6129979677932f56132ebb4bf75a12ca87d0ebfa9f"
+              }
+            ],
+            "sha256": "a1173a8806ecb14d5bc6a5a4cefb5c0bba469b477c71479bbd41360fe2538047",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "krios",
+              "clip": "pass-behind",
+              "direction": "right",
+              "canonicalSection": "J.06",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-28",
+              "generationId": "exec-bacc1e68-e632-48c3-a10e-626382c9a505",
+              "imageGenerationId": "exec-bacc1e68-e632-48c3-a10e-626382c9a505",
+              "rawSourceImage": "tools/generate-art/sources/krios-pass-behind6-attempt03-generated-raw.png",
+              "rawSourceSha256": "0a9b9ecc7726af2f50eae3da5239c7be645e8656cda36f60031b6a59b79442f7",
+              "sourceSha256": "64ab5da047ddd51f8220f8341feab21cab5514281f3ee7ff9d096e716eccf2ef",
+              "sourceImage": "tools/generate-art/sources/krios-pass-behind6-attempt03-cleanup01.png",
+              "prompt": "Create exactly six unique full-body action drawings in a 3-column by 2-row sprite sheet, left-to-right row-major. Reference the attached Krios action atlas for exact identity and style. Krios: towering enormous muscular bright volcanic-red skinned male giant, huge curled near-black ram horns, wild dark charcoal beard, black/charcoal Scoria Rams basketball jersey and shorts with ember-red and gold trim, black rugged boots with gold/red accents. Keep those identity traits and proportions in every pose. Natural complete biped, two arms/hands, two legs/boots. Right-facing three-quarter profile. Pose 0 wide ready stance; pose 1 gathers invisible ball at chest; pose 2 rotates and moves empty hands down behind waist; pose 3, bottom-left, is the exact behind-the-back release: torso twisted away, open passing hand thrust backward behind hip; pose 4 follows through with the passing arm extended backward; pose 5 turns forward and recovers. All six poses must be clearly distinct, connected motion. Basketball is a separate game object: no basketball drawn anywhere. Make crisp hard-edged arcade pixel art built from visible square pixel clusters, matching the reference atlas. No soft painting, no gradients, no glow, no blur, no anti-aliased smooth airbrushing. True fully transparent RGBA background with alpha zero outside the six figures. Keep all full figures, horns, hands, boots inside their cells with roomy transparent gutters. No background, no court, no floor, no shadows, no hoop, no other figures, no text, no lettering, no numbers, no logos, no checkerboard, no dividers, no grid lines. Exact 1536x1024 output.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-b6f026dc-7243-4210-bc6a-f8d5cd00637e",
+                  "source": "tools/generate-art/sources/krios-pass-behind6-attempt01-generated-raw.png",
+                  "rawSourceSha256": "5acf3beb93c26f019468a5cf502d0b470efb8bd9dd893861e603d1e249ad5c63",
+                  "prompt": "tools/generate-art/krios-pass-behind6-attempt01-prompt.md",
+                  "reason": "Partial dark red/black glow backdrop and smooth painterly shading; independent review rejected."
+                },
+                {
+                  "generationId": "exec-f2582f28-7a75-402b-b259-5b9f748e772c",
+                  "source": "tools/generate-art/sources/krios-pass-behind6-attempt02-generated-raw.png",
+                  "rawSourceSha256": "258e6b248ac58de5a36806cc2850890f2d05b1a88053a64d115ae203bbc10092",
+                  "prompt": "tools/generate-art/krios-pass-behind6-attempt02-prompt.md",
+                  "reason": "Image edit retained the glow backdrop and painterly shading; rejected."
+                }
+              ],
+              "references": [
+                "public/assets/animation/krios-pass-overhead-right.webp"
+              ],
+              "mirrorEligible": true,
+              "ballPolicy": "Krios-specific separate basketball follows the behind-the-back pass, releases at runtime tick5 (frame index 3), and continues as an ownerless pass. Never paint a ball into the poses. Track length: 6.",
+              "cleanup": {
+                "script": "tools/generate-art/clean-krios-pass-behind6-attempt03.py",
+                "method": "Alpha under 96 set to zero and alpha 96–254 set to 255; all RGB source values preserved. This removes the connected haze while retaining all six connected athlete silhouettes.",
+                "report": "tools/generate-art/krios-pass-behind6-attempt03-cleanup01-report.json"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "independent Krios action art reviewer",
+                "reviewNotes": "Accepted for packing after cleanup01: six unique complete poses, pose index3 clearly reads as the behind-the-back release and pose4 follows through, Krios identity consistent, adequate cell margins, no ball drawn. Independent preview review found no anatomy or garment pixels lost by alpha cleanup and the figures remain legible at packed size. Atlas review still required. Independent atlas review accepts 6/6 frames, transparency, margins, baseline, and rear-turn release/arm separation."
+              },
+              "sourceReview": {
+                "status": "accepted",
+                "reviewedBy": "independent Krios action art reviewer",
+                "reviewNotes": "Raw attempt03 rejected as-is for backdrop haze. Cleanup01 accepted after dark/light/checker preview review."
+              },
+              "ballTrackStatus": "accepted-independent-native-and-gameplay-review",
+              "ballTrack": {
+                "height": [
+                  1.05,
+                  1.3,
+                  1.2,
+                  1.25,
+                  1.25,
+                  1.2
+                ],
+                "forward": [
+                  5,
+                  2,
+                  -3,
+                  -9,
+                  -12,
+                  -8
+                ],
+                "releaseFrame": 3,
+                "releaseTick": 7,
+                "status": "accepted after independent native Jam Stage and stepMatch review"
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.05,
+                  1.3,
+                  1.2,
+                  1.25,
+                  1.25,
+                  1.2
+                ],
+                "forward": [
+                  5,
+                  2,
+                  -3,
+                  -9,
+                  -12,
+                  -8
+                ],
+                "reviewed": true
+              },
+              "ballTrackReview": {
+                "status": "accepted",
+                "attempt": 5,
+                "nativeReport": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-05/native/report.json",
+                "review": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-05/REVIEW.md",
+                "facings": [
+                  "right",
+                  "left"
+                ],
+                "zooms": [
+                  100,
+                  120
+                ],
+                "releaseFrame": 3,
+                "releaseTick": 7,
+                "receiverCatch": "flint-rooker caught at step38 in both facings and zooms",
+                "captures": 64,
+                "browserErrors": 0
+              }
+            },
+            "reviewed": true
+          },
+          "receive": {
+            "src": "./public/assets/animation/krios-receive-right.webp",
+            "columns": 5,
+            "rows": 1,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "5f262ed8700ab8cceac029eb4c9b1639c3c5c965b1daf267efb23c096ef552a3"
+              },
+              {
+                "x": 104,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "51eeb5170314be754acff8813e6efedf6e6d694a7056d4423da11ca9bb82e80b"
+              },
+              {
+                "x": 208,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "aabb06ff59197ea0290af22a7d46d7447178bdcc68bef809038938338fde6d64"
+              },
+              {
+                "x": 312,
+                "y": 0,
+                "w": 104,
+                "h": 96,
+                "hash": "5114709dd5e162c006a273a00a9811c49135dd27ad532dad70bd4596b4bf9279"
+              }
+            ],
+            "sha256": "f0b28d48e4f984fdc6317714a9586619077ce529563199f6b34d22fd78b8fd03",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "krios",
+              "clip": "receive",
+              "direction": "right",
+              "canonicalSection": "J.06",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-28",
+              "generationId": "exec-226255dc-2b64-48fc-8131-26694dcd12b3",
+              "imageGenerationId": "exec-226255dc-2b64-48fc-8131-26694dcd12b3",
+              "correctedPoseGenerationId": "exec-daedc623-9405-4aa4-b3f2-617e852955ba",
+              "rawSourceImage": "tools/generate-art/sources/krios-receive4-attempt02-composite-raw.png",
+              "rawSourceSha256": "0bdc9ddb62b6e4cb7bafc1853db18620bf7a51bb57c23374bb1580ae29635ec1",
+              "sourceImage": "tools/generate-art/sources/krios-receive4-attempt02-cleanup01.png",
+              "sourceSha256": "9dccb788567cc1ed450dc5a0eb8846e5c4657ba2ee6e670850fa599a0963842d",
+              "baseGenerationRaw": "tools/generate-art/sources/krios-receive4-attempt01-generated-raw.png",
+              "baseGenerationSha256": "a60788274a094bf9d52e198bd6596c42dc2ced41e5a353ec25e16958d45df1bc",
+              "poseCorrectionRaw": "tools/generate-art/sources/krios-receive4-attempt02-generated-raw.png",
+              "poseCorrectionSha256": "428a920ee00efa1c378c7d8aba92e3919a6bde9b0d1d563525acd0a7766b3ef0",
+              "compositeScript": "tools/generate-art/compose-krios-receive4-attempt02.py",
+              "compositeReport": "tools/generate-art/krios-receive4-attempt02-composite-report.json",
+              "prompt": "Create exactly four unique full-body basketball receive action drawings as one true-transparent RGBA sprite sheet, two columns by two rows, read left to right and top to bottom. Use the attached Krios action atlas as the exact identity and pixel-art style reference. Krios is a towering enormous muscular male giant with bright volcanic-red skin, huge curled near-black ram horns, wild dark charcoal beard, broad hulking shoulders and arms, black/charcoal Scoria Rams uniform with ember-red and gold trim, and heavy rugged dark basketball boots. Preserve his face, both horns, beard, uniform colors, height and powerful proportions in all four drawings. Natural coherent anatomy: two arms, two hands, two legs, two boots. Right-facing three-quarter profile.\n\nKrios is receiving a separate airborne basketball pass. The ball is a separate game object and must not be drawn anywhere; no prop or ball-shaped marking. His empty hands mime the catch until the exact runtime grab pose at index 2 (bottom-left). Four distinct connected poses: pose 0 turns his head and shoulders toward the incoming pass with both hands ready near his chest; pose 1 bends his knees and extends both empty hands upward and forward to meet the ball; pose 2 IS THE EXACT CATCH pose, with both empty hands closing around the incoming ball at upper chest height, elbows absorbing the catch; pose 3 secures the imaginary ball against his chest and settles into a balanced stance. Make the catch unmistakable at pose 2 and clearly later than the reach at pose 1. Poses 0–1 happen before the catch, pose 3 after it.\n\nOnly four complete Krios figures. Crisp hard-edged outlined JAMVERSE '96 arcade pixel art with square pixel clusters, matching the reference. True transparent background with alpha zero outside the figures. Keep horns, hands and boots fully inside their cells with generous clear margins. No ball, court, floor, shadow, hoop, extra player, text, number, logo, border, panel divider, checkerboard, glow, gradient, matte or background. One pose per cell, no duplicate poses.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "correctivePrompt": "Edit only pose1, the top-right cell of the first attached image. Repair Krios's anatomy so pose1 has exactly two arms and exactly two hands total. Remove the overlapping duplicate/ghost hands and extra arm shapes. Keep one pair of arms reaching forward and upward to intercept the pass: one left arm and one right arm, each attached naturally to a shoulder and ending in exactly one empty hand. Preserve the rest of pose1 including its torso, head, horns, beard, uniform, legs, boots, position, scale and style. Preserve the other three poses completely unchanged and in their existing cells. The second attached image is the identity/style reference for Krios only. Do not add a ball. Preserve the transparent background and source dimensions. Do not change any pose other than pose1.",
+              "correctivePromptVerbatim": true,
+              "references": [
+                "public/assets/animation/krios-pass-overhead-right.webp"
+              ],
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "Krios-specific separate basketball follows the incoming pass to the catch pose at frame index 2/tick4. Never paint a ball into the poses. Track length: 4.",
+              "ballTrackStatus": "accepted",
+              "cleanup": {
+                "script": "tools/generate-art/clean-krios-receive4-attempt02.py",
+                "method": "Composite uses only corrected pose1 from attempt02 and restores poses0,2,3 exactly from attempt01; then alpha below96 is cleared and alpha96–254 made opaque, RGB preserved.",
+                "report": "tools/generate-art/krios-receive4-attempt02-cleanup01-report.json"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "independent Krios source reviewer",
+                "reviewNotes": "Source composite accepted for packing after cleanup01. Corrected top-right pose1 has two coherent arms and hands. Bottom-left pose index2 is the clear catch, followed by secure recovery. Krios identity/anatomy, no-ball art, transparency and margins accepted. Independent packed atlas review remains pending.",
+                "notes": "Source composite accepted for packing after cleanup01. Corrected top-right pose1 has two coherent arms and hands. Bottom-left pose index2 is the clear catch, followed by secure recovery. Krios identity/anatomy, no-ball art, transparency and margins accepted. Independent packed atlas review remains pending. Packed atlas review accepted in tools/generate-art/krios-receive4-review.md."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "sourceRect": {
+                    "component": 2,
+                    "area": 108404,
+                    "x": 120,
+                    "y": 69,
+                    "w": 476,
+                    "h": 494,
+                    "row": 0,
+                    "column": 0
+                  },
+                  "cropBox": [
+                    118,
+                    67,
+                    598,
+                    565
+                  ]
+                },
+                {
+                  "sourceIndex": 1,
+                  "sourceRect": {
+                    "component": 1,
+                    "area": 109249,
+                    "x": 731,
+                    "y": 49,
+                    "w": 533,
+                    "h": 515,
+                    "row": 0,
+                    "column": 1
+                  },
+                  "cropBox": [
+                    729,
+                    47,
+                    1266,
+                    566
+                  ]
+                },
+                {
+                  "sourceIndex": 2,
+                  "sourceRect": {
+                    "component": 3,
+                    "area": 103462,
+                    "x": 126,
+                    "y": 620,
+                    "w": 450,
+                    "h": 489,
+                    "row": 1,
+                    "column": 0
+                  },
+                  "cropBox": [
+                    124,
+                    618,
+                    578,
+                    1111
+                  ]
+                },
+                {
+                  "sourceIndex": 3,
+                  "sourceRect": {
+                    "component": 4,
+                    "area": 98585,
+                    "x": 736,
+                    "y": 627,
+                    "w": 448,
+                    "h": 480,
+                    "row": 1,
+                    "column": 1
+                  },
+                  "cropBox": [
+                    734,
+                    625,
+                    1186,
+                    1109
+                  ]
+                }
+              ],
+              "uniformScale": 0.17475728155339806,
+              "componentIsolation": true,
+              "packaging": "package-krios-actions.py; 104x96 cells; baseline94; lossless WebP; 4 original poses",
+              "ballTrackReview": {
+                "status": "accepted",
+                "reviewedBy": "independent J.128 receive track review",
+                "evidence": "tools/generate-art/previews/j128-krios-receive-track-candidate/REVIEW.md",
+                "notes": "Real teammate pass; catch at receive tick4 transfers ownership; both facings and 100%/120%; no ball baked into art."
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  2,
+                  2.1,
+                  1.2
+                ],
+                "forward": [
+                  5,
+                  9,
+                  9,
+                  5
+                ],
+                "reviewed": true
+              },
+              "sourceReview": {
+                "status": "accepted",
+                "reviewedBy": "independent source and packed atlas reviewers",
+                "evidence": "tools/generate-art/krios-receive4-review.md",
+                "notes": "Composite and packed atlas pass identity, anatomy, four distinct poses, clean alpha, safe cell margins, baseline, and ball-free art review."
+              }
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Krios’s bilateral horns, beard, amulet and uniform have no fixed-side marks. Shoot, chest-pass and overhead-pass art and separate ball behavior are reviewed for both facing directions.",
-        "reviewedAt": "2026-10-27",
-        "scope": "J.06 shoot and pass actions"
+        "notes": "Krios’s bilateral horns, beard and uniform safely mirror. J.128 receive and pass-behind were validated in both facings at 100%/120%; receive frame2/tick4 is the catch and pass-behind frame3/tick7 releases to Flint.",
+        "reviewedAt": "2026-10-28",
+        "scope": "J.06 receive and pass-behind",
+        "evidence": [
+          "tools/generate-art/previews/j128-krios-receive-track-candidate/REVIEW.md",
+          "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-05/REVIEW.md"
+        ]
       }
     },
     "colossus": {

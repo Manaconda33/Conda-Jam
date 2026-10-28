@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parents[1]
 ATTEMPT=int(environ.get('ATTEMPT','1'))
-OUT=ROOT/f'tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-{ATTEMPT:02d}/native'
+OUT=ROOT/environ.get('OUT_REL',f'tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-{ATTEMPT:02d}/native')
 OUT.mkdir(parents=True,exist_ok=True)
 COURT_Y=float(environ.get('COURT_Y','90'))
 PORT='4224';URL=f'http://127.0.0.1:{PORT}/'
@@ -17,7 +17,7 @@ TRACK=json.loads(environ.get('TRACK_JSON','{"height":[0.95,1.1,1.25,1.55,1.9,2.1
 FRAME_TICKS=[0,3,6,8,10,13,14,16,19,23]
 TICKS=[0,3,6,8,10,11,12,13,14,16,19,23]
 DURATIONS=[3,3,2,2,3,1,2,3,4,4]
-Z={0:0,3:0,6:.75,8:1.5,10:2.25,11:2.5,12:2.75,13:3.0,14:2.9,16:2.5,19:1.5,23:0}
+Z={0:0,3:0,6:0,8:.8677674782,10:1.5636629649,11:1.8019377358,12:1.9498558244,13:2.0,14:1.9753766812,16:1.7820130484,19:1.1755705046,23:0}
 RELEASE=json.loads(environ.get('RELEASE_JSON','{"13":[12,5.15],"14":[14,5.4],"16":[18,5.6],"19":[26,4.9],"23":[38,2.4]}'))
 ATLAS='./public/assets/animation/leo-shoot-right.webp'
 server=Popen(['node','tools/server.mjs'],cwd=ROOT,env={**environ,'PORT':PORT},stdout=DEVNULL,stderr=DEVNULL)
@@ -57,7 +57,7 @@ try:
      info=page.evaluate("""async({frame,tick,progress,facing,z,track,release,atlas,courtY})=>{
       const g=window.jamverse,s=g.state,p=s.players.find(x=>x.id==='leo');p.x=100;p.y=courtY;p.z=z;p.facing=facing;p.animation={clip:'shoot',tick};p.anim='shoot';p.hasBall=tick<13;
       if(tick<13){const h=track.height[frame]+(track.height[Math.min(frame+1,9)]-track.height[frame])*progress,f=track.forward[frame]+(track.forward[Math.min(frame+1,9)]-track.forward[frame])*progress;s.ball.x=p.x+facing*f;s.ball.y=p.y;s.ball.z=p.z+h;s.ball.mode='carried';s.ball.ownerId='leo'}
-      else{const [dx,bz]=release[String(tick)]??[track.forward[frame],p.z+track.height[frame]];s.ball.x=p.x+facing*dx;s.ball.y=p.y;s.ball.z=bz;s.ball.mode='shot';s.ball.ownerId=null}
+      else{const sample=release[String(tick)],point=Array.isArray(sample)?sample:(sample?.[facing>0?'right':'left']??[facing*track.forward[frame],p.z+track.height[frame]]),[dx,bz]=point;s.ball.x=p.x+(Array.isArray(sample)?facing*dx:dx);s.ball.y=p.y;s.ball.z=bz;s.ball.mode='shot';s.ball.ownerId=null}
       s.ball.targetId=null;s.ball.aerialTargetId=null;s.ball.vx=s.ball.vy=s.ball.vz=0;g.tick(0);
       const {selectProductionSprite}=await import('/src/render/animation-sprites.js');const {animationAssetManifest}=await import('/src/content/animation-assets.js');
       const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:new Map([[atlas,window.__leoShootAtlas]])});

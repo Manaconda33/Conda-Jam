@@ -89,133 +89,73 @@
       "review": {
         "status": "accepted",
         "reviewedBy": "independent Krios action art reviewer",
-        "reviewNotes": "Accepted for packing after cleanup01: six unique complete poses, pose index3 clearly reads as the behind-the-back release and pose4 follows through, Krios identity consistent, adequate cell margins, no ball drawn. Independent preview review found no anatomy or garment pixels lost by alpha cleanup and the figures remain legible at packed size. Atlas review still required."
+        "reviewNotes": "Accepted for packing after cleanup01: six unique complete poses, pose index3 clearly reads as the behind-the-back release and pose4 follows through, Krios identity consistent, adequate cell margins, no ball drawn. Independent preview review found no anatomy or garment pixels lost by alpha cleanup and the figures remain legible at packed size. Atlas review still required. Independent atlas review accepts 6/6 frames, transparency, margins, baseline, and rear-turn release/arm separation."
       },
       "sourceReview": {
         "status": "accepted",
         "reviewedBy": "independent Krios action art reviewer",
         "reviewNotes": "Raw attempt03 rejected as-is for backdrop haze. Cleanup01 accepted after dark/light/checker preview review."
       },
-      "sourceRects": [
-        {
-          "sourceIndex": 0,
-          "sourceRect": {
-            "component": 1,
-            "area": 84898,
-            "x": 57,
-            "y": 57,
-            "w": 411,
-            "h": 421,
-            "row": 0,
-            "column": 0
-          },
-          "cropBox": [
-            55,
-            55,
-            470,
-            480
-          ]
-        },
-        {
-          "sourceIndex": 1,
-          "sourceRect": {
-            "component": 2,
-            "area": 78275,
-            "x": 565,
-            "y": 58,
-            "w": 405,
-            "h": 421,
-            "row": 0,
-            "column": 1
-          },
-          "cropBox": [
-            563,
-            56,
-            972,
-            481
-          ]
-        },
-        {
-          "sourceIndex": 2,
-          "sourceRect": {
-            "component": 3,
-            "area": 75672,
-            "x": 1103,
-            "y": 67,
-            "w": 394,
-            "h": 415,
-            "row": 0,
-            "column": 2
-          },
-          "cropBox": [
-            1101,
-            65,
-            1499,
-            484
-          ]
-        },
-        {
-          "sourceIndex": 3,
-          "sourceRect": {
-            "component": 5,
-            "area": 82712,
-            "x": 81,
-            "y": 556,
-            "w": 402,
-            "h": 421,
-            "row": 1,
-            "column": 0
-          },
-          "cropBox": [
-            79,
-            554,
-            485,
-            979
-          ]
-        },
-        {
-          "sourceIndex": 4,
-          "sourceRect": {
-            "component": 6,
-            "area": 81343,
-            "x": 568,
-            "y": 556,
-            "w": 422,
-            "h": 421,
-            "row": 1,
-            "column": 1
-          },
-          "cropBox": [
-            566,
-            554,
-            992,
-            979
-          ]
-        },
-        {
-          "sourceIndex": 5,
-          "sourceRect": {
-            "component": 4,
-            "area": 82851,
-            "x": 1103,
-            "y": 550,
-            "w": 410,
-            "h": 427,
-            "row": 1,
-            "column": 2
-          },
-          "cropBox": [
-            1101,
-            548,
-            1515,
-            979
-          ]
-        }
-      ],
-      "uniformScale": 0.2107728337236534,
-      "componentIsolation": true,
-      "packaging": "package-krios-actions.py; 104x96 cells; baseline94; lossless WebP; 6 original poses",
-      "ballTrackStatus": "pending-independent-gameplay-review"
+      "ballTrackStatus": "accepted-independent-native-and-gameplay-review",
+      "ballTrack": {
+        "height": [
+          1.05,
+          1.3,
+          1.2,
+          1.25,
+          1.25,
+          1.2
+        ],
+        "forward": [
+          5,
+          2,
+          -3,
+          -9,
+          -12,
+          -8
+        ],
+        "releaseFrame": 3,
+        "releaseTick": 7,
+        "status": "accepted after independent native Jam Stage and stepMatch review"
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1.05,
+          1.3,
+          1.2,
+          1.25,
+          1.25,
+          1.2
+        ],
+        "forward": [
+          5,
+          2,
+          -3,
+          -9,
+          -12,
+          -8
+        ],
+        "reviewed": true
+      },
+      "ballTrackReview": {
+        "status": "accepted",
+        "attempt": 5,
+        "nativeReport": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-05/native/report.json",
+        "review": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-05/REVIEW.md",
+        "facings": [
+          "right",
+          "left"
+        ],
+        "zooms": [
+          100,
+          120
+        ],
+        "releaseFrame": 3,
+        "releaseTick": 7,
+        "receiverCatch": "flint-rooker caught at step38 in both facings and zooms",
+        "captures": 64,
+        "browserErrors": 0
+      }
     }
   }
 ]

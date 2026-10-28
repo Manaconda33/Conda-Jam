@@ -1,0 +1,195 @@
+[
+  {
+    "athlete": "krios",
+    "direction": "right",
+    "clip": "pickup",
+    "src": "./public/assets/animation/krios-pickup-right.webp",
+    "columns": 5,
+    "rows": 1,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "asset": "J.128 Krios pickup source candidate",
+      "status": "source and packed atlas accepted for track calibration; runtime registration pending",
+      "imageGenerationId": "c2pa:ada022b4-e0f0-42c7-840e-8b83a2e58c79",
+      "generationId": "c2pa:ada022b4-e0f0-42c7-840e-8b83a2e58c79",
+      "generatedAt": "2026-10-28T00:28:20.201102146Z",
+      "tool": "GPT Image generation",
+      "promptFile": "tools/generate-art/krios-pickup-attempt01-prompt.md",
+      "promptVerbatim": true,
+      "promptSha256": "33d11364bf099f84a1ed484b0dc15436097581f05d595f31c714c60803d56087",
+      "rawSourceImage": "tools/generate-art/sources/krios-pickup-attempt01-generated-raw.png",
+      "rawSourceSha256": "2de5645d90e08c61435c2d68f3ab11801299044655e988e33defbfaa829c0d77",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG RGBA",
+      "references": [
+        "public/assets/animation/krios-idle-right.webp",
+        "public/assets/animation/krios-pass-right.webp"
+      ],
+      "layoutFile": "tools/generate-art/krios-pickup-attempt01-layouts.json",
+      "previewFiles": [
+        "tools/generate-art/previews/krios-pickup-attempt01/light-preview.png",
+        "tools/generate-art/previews/krios-pickup-attempt01/dark-preview.png",
+        "tools/generate-art/previews/krios-pickup-attempt01/layout-grid-review.png"
+      ],
+      "cleanup": {
+        "performed": true,
+        "script": "tools/generate-art/clean-krios-pickup-attempt01.py",
+        "method": "Set alpha below 96 to zero and alpha 96–254 to 255; preserve all RGB values. No redraw, resize, or color edits.",
+        "report": "tools/generate-art/krios-pickup-attempt01-cleanup01-report.json",
+        "sourceImage": "tools/generate-art/sources/krios-pickup-attempt01-cleanup01.png",
+        "sourceSha256": "3fe8a50cf49dd580780b4cfaa7c920958955f36af3a5f1f2ec753acb11eb6327",
+        "status": "cleanup trial; independent post-cleanup review pending"
+      },
+      "generationRelayNotes": "Two earlier calls in this turn produced image data but failed during attempted raw-file transfer. Their image bytes and complete C2PA IDs were not retained. This provenance record covers the successfully preserved generation only.",
+      "review": {
+        "status": "accepted-for-track-calibration",
+        "reviewedBy": "independent source and atlas reviewers",
+        "sourceEvidence": "tools/generate-art/previews/krios-pickup-attempt01/INDEPENDENT_REVIEW.md",
+        "atlasEvidence": "tools/generate-art/previews/krios-pickup-attempt01/ATLAS_REVIEW.md",
+        "reviewNotes": "Five pose sequence and Krios identity/anatomy accepted. Packed cell margins and clean alpha pass. Apparent white streak is transparent negative space; no white garment pixels found. Ball-track/gameplay review pending."
+      },
+      "athlete": "krios",
+      "clip": "pickup",
+      "direction": "right",
+      "canonicalSection": "J.128",
+      "eligibleForPacking": true,
+      "sourceImage": "tools/generate-art/sources/krios-pickup-attempt01-cleanup01.png",
+      "sourceSha256": "3fe8a50cf49dd580780b4cfaa7c920958955f36af3a5f1f2ec753acb11eb6327",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "sourceRect": {
+            "component": 1,
+            "area": 74870,
+            "x": 60,
+            "y": 72,
+            "w": 409,
+            "h": 362,
+            "row": 0,
+            "column": 0
+          },
+          "cropBox": [
+            58,
+            70,
+            471,
+            436
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "sourceRect": {
+            "component": 2,
+            "area": 73453,
+            "x": 535,
+            "y": 116,
+            "w": 470,
+            "h": 318,
+            "row": 0,
+            "column": 1
+          },
+          "cropBox": [
+            533,
+            114,
+            1007,
+            436
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "sourceRect": {
+            "component": 3,
+            "area": 69641,
+            "x": 1077,
+            "y": 142,
+            "w": 444,
+            "h": 293,
+            "row": 0,
+            "column": 2
+          },
+          "cropBox": [
+            1075,
+            140,
+            1523,
+            437
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "sourceRect": {
+            "component": 5,
+            "area": 62155,
+            "x": 71,
+            "y": 641,
+            "w": 369,
+            "h": 299,
+            "row": 1,
+            "column": 0
+          },
+          "cropBox": [
+            69,
+            639,
+            442,
+            942
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "sourceRect": {
+            "component": 4,
+            "area": 72150,
+            "x": 597,
+            "y": 556,
+            "w": 347,
+            "h": 384,
+            "row": 1,
+            "column": 1
+          },
+          "cropBox": [
+            595,
+            554,
+            946,
+            942
+          ]
+        }
+      ],
+      "uniformScale": 0.234375,
+      "componentIsolation": true,
+      "packaging": "package-krios-actions.py; 128x96 cells; baseline94; lossless WebP; 5 original poses",
+      "ballTrackStatus": "pending-independent-gameplay-review"
+    }
+  }
+]

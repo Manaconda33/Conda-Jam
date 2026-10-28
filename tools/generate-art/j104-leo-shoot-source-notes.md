@@ -14,4 +14,4 @@ Ten distinct right-facing poses show Leo’s patient set, release, follow-throug
 
 ## Separate basketball track
 
-The ball is a separate runtime object. Initial Leo-specific track: height `[0.95,1.1,1.25,1.55,1.9,2.15,2.1,1.8,1.35,1.05]`; forward `[6,7.5,8.5,9.5,10.5,11.5,10.5,8.5,6.5,5.5]`. The shooting hand releases on frame5/tick13. Runtime contact tuning and manifest registration are intentionally pending central integration.
+The ball is a separate runtime object. Accepted Leo-specific track: height `[0.95,1.1,2.1,2.1,2.2,2.5,2.3,2.7,2.1,1.05]`; forward `[6,7,6.5,4,3,4,4,4,6.5,5.5]`; made-shot release `vz=0.65`. The shooting hand releases at frame5/tick13. Attempt16 verifies production track and `makeShot` behavior without candidate overrides in both facings, zooms, and through score completion. Independent reviews are under `tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/` and `attempt-16/`.

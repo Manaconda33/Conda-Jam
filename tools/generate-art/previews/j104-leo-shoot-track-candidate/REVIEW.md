@@ -37,3 +37,19 @@ Used attempt04's track and added interpolated ticks11/12. The H2.7→11.5 rise p
 Reduced frame5 height to7.5 and tick13 release height to10.5. The ball remains visibly below the right hand at release; this does not meet contact. Captures are retained under `attempt-06/native/`.
 
 Attempt04 is accepted only as the best independent native visual candidate. Do not mark it production-ready until simulation and free-flight gameplay checks resolve the high track value and verify shot release/scoring.
+
+## Gameplay-relative follow-up — attempt04 remains on hold
+
+The 2026-10-28 gameplay check found that static attempt04 release samples were staged at `player.z=3`, while the real Leo `shoot` action reaches the tick13 release at `player.z=2`. With its `H=11.5` frame5 value, the production hand-to-flight mapping yields projectile `z=16.1667`, not the staged `14.5`. A manual shot continuation scored with an unusually high ~100-step flight, but this does not validate the hand contact visually in gameplay. Do not register attempt04 until a revised track is captured at the actual simulated jump height and reviewed for contact and flight continuity. Full evidence and reproduction details: `gameplay/REVIEW.md`.
+
+## Final gameplay-relative recalibration — attempt07 accepted for integration
+
+Attempt05 is rejected for a high frame4 gather. Attempt06 preserved corrected contact but mirrored left-facing post-release flight incorrectly. Attempt07 retains the accepted H7.5 contact vector, captures the actual player jump height (`z=2` at tick13), and stages the left-facing projectile toward the target rim. Its Jam Stage capture report has 48 captures, valid frame selection/mirroring and no browser errors. Simulation release and score checks pass both facings; the separate ball remains ownerless after release. See the attempt05/06/07 review files and gameplay evidence for details.
+
+## Final actual gameplay-render check — attempt09 accepted for integration
+
+The required simulation/render follow-up found that attempt07 H7.5's static grid concealed an ~80px high actual release because its shot preview omitted last-touch elevation compensation. Attempt08 lowered the release but remained high at the gather. Attempt09 uses H2.5 at release and H2.2 at the gather. Its actual Jam Stage captures use a real continuous shoot action and post-release physics, with 24 native frames across both facings, target ticks and zooms plus final score state; both real shots score and the ball is aligned at release. Preserve the rejected attempt07/08 evidence and the superseded committed attempt05/06 archives. See attempt07/gameplay/REVIEW.md, attempt08/REVIEW.md, and attempt09/REVIEW.md.
+
+## Attempt10: lower actual flight profile and complete 120% coverage
+
+Attempt09's late arc was clipped by the HUD at120%. Attempt10 candidate03 retains H2.5 at tick13 and applies `vz=.65` once at the real release boundary; actual post-release physics then scores from both facings. At courtY95, both ball and Leo remain visible through tick23 and score completion at100%/120%. The exact vectors, captures, selector/mirror evidence, simulations, and the rejected attempt10 probes are in `attempt-10/REVIEW.md`. No runtime behavior was changed by this calibration run.

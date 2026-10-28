@@ -1513,7 +1513,8 @@ athleteBallTracks.leo['dunk-double']={height:[1.2,1.3,1.3,1.3,1.4,1.4,1.1,.95,1.
 athleteBallTracks.leo['dunk-scythe']={height:[1.1,.9,1.0,1.1,1.3,1.05,1.1,.85,.6,.3,-.3,.4,.2,.65,.55],forward:[6,2,-5,-8,0,2.2,4,8.3,5,5.5,3.2,1,-2,-1,0]}; // J.125 attempt06: independent both-facing contact and release review
 athleteBallTracks.leo['alley-oop-power']={height:[1,1.2,1.5,1.7,1.8,1.55,1.2,1.45,1.55,1.15,1,.9,.8,.65,.55],forward:[6,8,10,8,6,1.5,2,2.3,2,1.8,10,12,9,7,6]}; // J.126 attempt11: independently reviewed catch/carry/release contact
 athleteBallTracks.leo['alley-oop-reverse']={height:[4.5,4.4,4.1,3.5,2.4,2.1,2.2,1.8187,2.1,2.3,1.55,1.7,1.2,.75,.6],forward:[-8,-7,-6,-5,-4,-4.5,-2,3.6545,-4,-2,-.5,-5,-2,1,3]}; // J.127 attempt24: visually reviewed catch/carry/release candidate
-athleteBallTracks.krios={shoot:{height:[1,1.2,1.4,1.1,2.0,1.7,4.0,2.0,1.0,0],forward:[5,5,5,4,3.1,.7,2,4,6,7]},pass:{height:[1.05,1.15,1.4,1.5,1.35,1.05],forward:[8,9,11,13,12,8]},'pass-overhead':{height:[.8,1.1,2.3,2.3,2.85,1.4],forward:[9,2,5,7,13,9]}}; // J.128 shoot, chest and overhead passes: independent native contact/release review
+athleteBallTracks.leo.shoot={height:[.95,1.1,2.1,2.1,2.2,2.5,2.3,2.7,2.1,1.05],forward:[6,7,6.5,4,3,4,4,4,6.5,5.5],releaseVz:.65}; // J.104 attempt10: reviewed contact and continuous gameplay arc
+athleteBallTracks.krios={shoot:{height:[1,1.2,1.4,1.1,2.0,1.7,4.0,2.0,1.0,0],forward:[5,5,5,4,3.1,.7,2,4,6,7]},pass:{height:[1.05,1.15,1.4,1.5,1.35,1.05],forward:[8,9,11,13,12,8]},receive:{height:[1.1,2.0,2.1,1.2],forward:[5,9,9,5]},'pass-overhead':{height:[.8,1.1,2.3,2.3,2.85,1.4],forward:[9,2,5,7,13,9]},'pass-behind':{height:[1.05,1.3,1.2,1.25,1.25,1.2],forward:[5,2,-3,-9,-12,-8]}}; // J.128 captain-specific hand tracks; receive and pass-behind independently reviewed
 athleteBallTracks.kraken={steal:{height:[1,.9,.55,.55,.7,.9,1,1],forward:[5,7,6,6,7,8,7,5]}}; // J.07 cleanup01 candidate: independent both-facing low-hook contact review
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
@@ -1548,6 +1549,7 @@ export function athleteBallTrackSource(athleteId,key,property){
 }
 export function sampleBallHeight(key, elapsedTicks=0,athleteId){return sampleFrameScalar(key,elapsedTicks,'ballHeight',1.1,athleteId);}
 export function sampleBallForward(key, elapsedTicks=0,athleteId){return sampleFrameScalar(key,elapsedTicks,'ballForward',1.5,athleteId);}
+export function sampleBallReleaseVz(key,athleteId){const sourceId=athleteBallTrackSource(athleteId,key,'height'),value=sourceId?athleteBallTracks[sourceId]?.[key]?.releaseVz:undefined;return Number.isFinite(value)?value:null;}
 // Convert the attached hand's rendered height to the free-flight elevation.
 // Above the rim, flight is compressed; an attached ball follows the player's
 // uncompressed jump. Match both mappings exactly at the release boundary.

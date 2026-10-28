@@ -1,0 +1,2778 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4228/",
+  "athlete": "krios",
+  "clip": "pass-behind",
+  "candidateAtlas": "./public/assets/animation/krios-pass-behind-right.webp",
+  "candidateTrack": {
+    "height": [
+      1.05,
+      1.3,
+      1.2,
+      1.25,
+      1.25,
+      1.2
+    ],
+    "forward": [
+      5,
+      2,
+      -3,
+      -9,
+      -12,
+      -8
+    ]
+  },
+  "court": "scoria-rams vs blackthorn-court-kings",
+  "courtY": 90.0,
+  "releaseTick": 7,
+  "captureTicks": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    18,
+    24,
+    30,
+    36,
+    42,
+    48,
+    54,
+    60
+  ],
+  "simulation": "Real Jam Stage stepMatch loop with temporary candidate athleteBallTracks entry injected into the served animation module in-page only.",
+  "captureMethod": "A Krios-led Scoria Rams match is started. Fixture setup grants Krios possession near a teammate and repositions the players once before the pass. The pass-behind action, separate carried ball, release, projectile flight and receiver catch are advanced by stepMatch; no per-tick manual player/ball teleporting.",
+  "captures": [
+    {
+      "step": 1,
+      "animationTick": 0,
+      "animationClip": "pass-behind",
+      "frame": 0,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.14818181818181,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 87,
+        "y": 90.14818181818181,
+        "z": 1.05,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step01-tick00-zoom100.png"
+    },
+    {
+      "step": 2,
+      "animationTick": 1,
+      "animationClip": "pass-behind",
+      "frame": 0,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.28154545454545,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 85.5,
+        "y": 90.28154545454545,
+        "z": 1.175,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step02-tick01-zoom100.png"
+    },
+    {
+      "step": 4,
+      "animationTick": 3,
+      "animationClip": "pass-behind",
+      "frame": 1,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.50959727272726,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 81.5,
+        "y": 90.50959727272726,
+        "z": 1.25,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step04-tick03-zoom100.png"
+    },
+    {
+      "step": 5,
+      "animationTick": 4,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.60681936363635,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 79,
+        "y": 90.60681936363635,
+        "z": 1.2,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step05-tick04-zoom100.png"
+    },
+    {
+      "step": 6,
+      "animationTick": 5,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.69431924545452,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 77,
+        "y": 90.69431924545452,
+        "z": 1.2166666666666666,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step06-tick05-zoom100.png"
+    },
+    {
+      "step": 7,
+      "animationTick": 6,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.7730691390909,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 75,
+        "y": 90.7730691390909,
+        "z": 1.2333333333333334,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step07-tick06-zoom100.png"
+    },
+    {
+      "step": 8,
+      "animationTick": 7,
+      "animationClip": "pass-behind",
+      "frame": 3,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.84394404336362,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 74.14970284822382,
+        "y": 90.7514742592563,
+        "z": 1.27,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step08-tick07-zoom100.png"
+    },
+    {
+      "step": 9,
+      "animationTick": 8,
+      "animationClip": "pass-behind",
+      "frame": 4,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.90773145720908,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 75.29940569644765,
+        "y": 90.7298793794217,
+        "z": 1.264,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step09-tick08-zoom100.png"
+    },
+    {
+      "step": 10,
+      "animationTick": 9,
+      "animationClip": "pass-behind",
+      "frame": 4,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.96514012966999,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 76.44910854467147,
+        "y": 90.70828449958711,
+        "z": 1.232,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step10-tick09-zoom100.png"
+    },
+    {
+      "step": 11,
+      "animationTick": 10,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 91.01680793488481,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 77.5988113928953,
+        "y": 90.68668961975251,
+        "z": 1.174,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step11-tick10-zoom100.png"
+    },
+    {
+      "step": 12,
+      "animationTick": 11,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 91.06330895957815,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 78.74851424111912,
+        "y": 90.66509473991792,
+        "z": 1.0899999999999999,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step12-tick11-zoom100.png"
+    },
+    {
+      "step": 13,
+      "animationTick": 12,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 91.10515988180215,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 79.89821708934295,
+        "y": 90.64349986008332,
+        "z": 0.9799999999999999,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step13-tick12-zoom100.png"
+    },
+    {
+      "step": 18,
+      "animationTick": 4,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 82,
+        "y": 91.25940522224172,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 85.64673133046207,
+        "y": 90.53552546091035,
+        "z": 0.04000000000000006,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step18-tick04-zoom100.png"
+    },
+    {
+      "step": 24,
+      "animationTick": 10,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 82,
+        "y": 91.36361881616791,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 91.51021585640358,
+        "y": 90.42539157375391,
+        "z": 0.543,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step24-tick10-zoom100.png"
+    },
+    {
+      "step": 30,
+      "animationTick": 16,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 82,
+        "y": 91.41900219273765,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.16675386966479,
+        "y": 90.3191447649677,
+        "z": 0.3366000000000001,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step30-tick16-zoom100.png"
+    },
+    {
+      "step": 36,
+      "animationTick": 22,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 82,
+        "y": 91.44843518976525,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.3142034617325,
+        "y": 90.22246016897225,
+        "z": 0.25761,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step36-tick22-zoom100.png"
+    },
+    {
+      "step": 1,
+      "animationTick": 0,
+      "animationClip": "pass-behind",
+      "frame": 0,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.14818181818181,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 113,
+        "y": 90.14818181818181,
+        "z": 1.05,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step01-tick00-zoom100.png"
+    },
+    {
+      "step": 2,
+      "animationTick": 1,
+      "animationClip": "pass-behind",
+      "frame": 0,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.28154545454545,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 114.5,
+        "y": 90.28154545454545,
+        "z": 1.175,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step02-tick01-zoom100.png"
+    },
+    {
+      "step": 4,
+      "animationTick": 3,
+      "animationClip": "pass-behind",
+      "frame": 1,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.50959727272726,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 118.5,
+        "y": 90.50959727272726,
+        "z": 1.25,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step04-tick03-zoom100.png"
+    },
+    {
+      "step": 5,
+      "animationTick": 4,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.60681936363635,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 121,
+        "y": 90.60681936363635,
+        "z": 1.2,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step05-tick04-zoom100.png"
+    },
+    {
+      "step": 6,
+      "animationTick": 5,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.69431924545452,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 123,
+        "y": 90.69431924545452,
+        "z": 1.2166666666666666,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step06-tick05-zoom100.png"
+    },
+    {
+      "step": 7,
+      "animationTick": 6,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.7730691390909,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 125,
+        "y": 90.7730691390909,
+        "z": 1.2333333333333334,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step07-tick06-zoom100.png"
+    },
+    {
+      "step": 8,
+      "animationTick": 7,
+      "animationClip": "pass-behind",
+      "frame": 3,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.84394404336362,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 125.85029715177618,
+        "y": 90.7514742592563,
+        "z": 1.27,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step08-tick07-zoom100.png"
+    },
+    {
+      "step": 9,
+      "animationTick": 8,
+      "animationClip": "pass-behind",
+      "frame": 4,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.90773145720908,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 124.70059430355235,
+        "y": 90.7298793794217,
+        "z": 1.264,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step09-tick08-zoom100.png"
+    },
+    {
+      "step": 10,
+      "animationTick": 9,
+      "animationClip": "pass-behind",
+      "frame": 4,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.96514012966999,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 123.55089145532853,
+        "y": 90.70828449958711,
+        "z": 1.232,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step10-tick09-zoom100.png"
+    },
+    {
+      "step": 11,
+      "animationTick": 10,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 91.01680793488481,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 122.4011886071047,
+        "y": 90.68668961975251,
+        "z": 1.174,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step11-tick10-zoom100.png"
+    },
+    {
+      "step": 12,
+      "animationTick": 11,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 91.06330895957815,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 121.25148575888088,
+        "y": 90.66509473991792,
+        "z": 1.0899999999999999,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step12-tick11-zoom100.png"
+    },
+    {
+      "step": 13,
+      "animationTick": 12,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 91.10515988180215,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 120.10178291065705,
+        "y": 90.64349986008332,
+        "z": 0.9799999999999999,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step13-tick12-zoom100.png"
+    },
+    {
+      "step": 18,
+      "animationTick": 4,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 118,
+        "y": 91.25940522224172,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 114.35326866953793,
+        "y": 90.53552546091035,
+        "z": 0.04000000000000006,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step18-tick04-zoom100.png"
+    },
+    {
+      "step": 24,
+      "animationTick": 10,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 118,
+        "y": 91.36361881616791,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 108.48978414359642,
+        "y": 90.42539157375391,
+        "z": 0.543,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step24-tick10-zoom100.png"
+    },
+    {
+      "step": 30,
+      "animationTick": 16,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 118,
+        "y": 91.41900219273765,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.83324613033521,
+        "y": 90.3191447649677,
+        "z": 0.3366000000000001,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step30-tick16-zoom100.png"
+    },
+    {
+      "step": 36,
+      "animationTick": 22,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 118,
+        "y": 91.44843518976525,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.6857965382675,
+        "y": 90.22246016897225,
+        "z": 0.25761,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step36-tick22-zoom100.png"
+    },
+    {
+      "step": 1,
+      "animationTick": 0,
+      "animationClip": "pass-behind",
+      "frame": 0,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.14818181818181,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 87,
+        "y": 90.14818181818181,
+        "z": 1.05,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step01-tick00-zoom120.png"
+    },
+    {
+      "step": 2,
+      "animationTick": 1,
+      "animationClip": "pass-behind",
+      "frame": 0,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.28154545454545,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 85.5,
+        "y": 90.28154545454545,
+        "z": 1.175,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step02-tick01-zoom120.png"
+    },
+    {
+      "step": 4,
+      "animationTick": 3,
+      "animationClip": "pass-behind",
+      "frame": 1,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.50959727272726,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 81.5,
+        "y": 90.50959727272726,
+        "z": 1.25,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step04-tick03-zoom120.png"
+    },
+    {
+      "step": 5,
+      "animationTick": 4,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.60681936363635,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 79,
+        "y": 90.60681936363635,
+        "z": 1.2,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step05-tick04-zoom120.png"
+    },
+    {
+      "step": 6,
+      "animationTick": 5,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.69431924545452,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 77,
+        "y": 90.69431924545452,
+        "z": 1.2166666666666666,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step06-tick05-zoom120.png"
+    },
+    {
+      "step": 7,
+      "animationTick": 6,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.7730691390909,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 75,
+        "y": 90.7730691390909,
+        "z": 1.2333333333333334,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step07-tick06-zoom120.png"
+    },
+    {
+      "step": 8,
+      "animationTick": 7,
+      "animationClip": "pass-behind",
+      "frame": 3,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.84394404336362,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 74.14970284822382,
+        "y": 90.7514742592563,
+        "z": 1.27,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step08-tick07-zoom120.png"
+    },
+    {
+      "step": 9,
+      "animationTick": 8,
+      "animationClip": "pass-behind",
+      "frame": 4,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.90773145720908,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 75.29940569644765,
+        "y": 90.7298793794217,
+        "z": 1.264,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step09-tick08-zoom120.png"
+    },
+    {
+      "step": 10,
+      "animationTick": 9,
+      "animationClip": "pass-behind",
+      "frame": 4,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 90.96514012966999,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 76.44910854467147,
+        "y": 90.70828449958711,
+        "z": 1.232,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step10-tick09-zoom120.png"
+    },
+    {
+      "step": 11,
+      "animationTick": 10,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 91.01680793488481,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 77.5988113928953,
+        "y": 90.68668961975251,
+        "z": 1.174,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step11-tick10-zoom120.png"
+    },
+    {
+      "step": 12,
+      "animationTick": 11,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 91.06330895957815,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 78.74851424111912,
+        "y": 90.66509473991792,
+        "z": 1.0899999999999999,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step12-tick11-zoom120.png"
+    },
+    {
+      "step": 13,
+      "animationTick": 12,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": false,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 82,
+        "y": 91.10515988180215,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 79.89821708934295,
+        "y": 90.64349986008332,
+        "z": 0.9799999999999999,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step13-tick12-zoom120.png"
+    },
+    {
+      "step": 18,
+      "animationTick": 4,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 82,
+        "y": 91.25940522224172,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 85.64673133046207,
+        "y": 90.53552546091035,
+        "z": 0.04000000000000006,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step18-tick04-zoom120.png"
+    },
+    {
+      "step": 24,
+      "animationTick": 10,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 82,
+        "y": 91.36361881616791,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 91.51021585640358,
+        "y": 90.42539157375391,
+        "z": 0.543,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step24-tick10-zoom120.png"
+    },
+    {
+      "step": 30,
+      "animationTick": 16,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 82,
+        "y": 91.41900219273765,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.16675386966479,
+        "y": 90.3191447649677,
+        "z": 0.3366000000000001,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step30-tick16-zoom120.png"
+    },
+    {
+      "step": 36,
+      "animationTick": 22,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": 1,
+      "actualFacing": 1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 82,
+        "y": 91.44843518976525,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.3142034617325,
+        "y": 90.22246016897225,
+        "z": 0.25761,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-right-step36-tick22-zoom120.png"
+    },
+    {
+      "step": 1,
+      "animationTick": 0,
+      "animationClip": "pass-behind",
+      "frame": 0,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.14818181818181,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 113,
+        "y": 90.14818181818181,
+        "z": 1.05,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step01-tick00-zoom120.png"
+    },
+    {
+      "step": 2,
+      "animationTick": 1,
+      "animationClip": "pass-behind",
+      "frame": 0,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.28154545454545,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 114.5,
+        "y": 90.28154545454545,
+        "z": 1.175,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step02-tick01-zoom120.png"
+    },
+    {
+      "step": 4,
+      "animationTick": 3,
+      "animationClip": "pass-behind",
+      "frame": 1,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.50959727272726,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 118.5,
+        "y": 90.50959727272726,
+        "z": 1.25,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step04-tick03-zoom120.png"
+    },
+    {
+      "step": 5,
+      "animationTick": 4,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.60681936363635,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 121,
+        "y": 90.60681936363635,
+        "z": 1.2,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step05-tick04-zoom120.png"
+    },
+    {
+      "step": 6,
+      "animationTick": 5,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.69431924545452,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 123,
+        "y": 90.69431924545452,
+        "z": 1.2166666666666666,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step06-tick05-zoom120.png"
+    },
+    {
+      "step": 7,
+      "animationTick": 6,
+      "animationClip": "pass-behind",
+      "frame": 2,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.7730691390909,
+        "z": 0,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 125,
+        "y": 90.7730691390909,
+        "z": 1.2333333333333334,
+        "mode": "carried",
+        "ownerId": "krios",
+        "targetId": null,
+        "lastTouch": "krios"
+      },
+      "receiver": "krios",
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step07-tick06-zoom120.png"
+    },
+    {
+      "step": 8,
+      "animationTick": 7,
+      "animationClip": "pass-behind",
+      "frame": 3,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.84394404336362,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 125.85029715177618,
+        "y": 90.7514742592563,
+        "z": 1.27,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step08-tick07-zoom120.png"
+    },
+    {
+      "step": 9,
+      "animationTick": 8,
+      "animationClip": "pass-behind",
+      "frame": 4,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.90773145720908,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 124.70059430355235,
+        "y": 90.7298793794217,
+        "z": 1.264,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step09-tick08-zoom120.png"
+    },
+    {
+      "step": 10,
+      "animationTick": 9,
+      "animationClip": "pass-behind",
+      "frame": 4,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 90.96514012966999,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 123.55089145532853,
+        "y": 90.70828449958711,
+        "z": 1.232,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step10-tick09-zoom120.png"
+    },
+    {
+      "step": 11,
+      "animationTick": 10,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 91.01680793488481,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 122.4011886071047,
+        "y": 90.68668961975251,
+        "z": 1.174,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step11-tick10-zoom120.png"
+    },
+    {
+      "step": 12,
+      "animationTick": 11,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 91.06330895957815,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 121.25148575888088,
+        "y": 90.66509473991792,
+        "z": 1.0899999999999999,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step12-tick11-zoom120.png"
+    },
+    {
+      "step": 13,
+      "animationTick": 12,
+      "animationClip": "pass-behind",
+      "frame": 5,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": true,
+      "src": "./public/assets/animation/krios-pass-behind-right.webp",
+      "player": {
+        "x": 118,
+        "y": 91.10515988180215,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 120.10178291065705,
+        "y": 90.64349986008332,
+        "z": 0.9799999999999999,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step13-tick12-zoom120.png"
+    },
+    {
+      "step": 18,
+      "animationTick": 4,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 118,
+        "y": 91.25940522224172,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 114.35326866953793,
+        "y": 90.53552546091035,
+        "z": 0.04000000000000006,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step18-tick04-zoom120.png"
+    },
+    {
+      "step": 24,
+      "animationTick": 10,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 118,
+        "y": 91.36361881616791,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 108.48978414359642,
+        "y": 90.42539157375391,
+        "z": 0.543,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step24-tick10-zoom120.png"
+    },
+    {
+      "step": 30,
+      "animationTick": 16,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 118,
+        "y": 91.41900219273765,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.83324613033521,
+        "y": 90.3191447649677,
+        "z": 0.3366000000000001,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step30-tick16-zoom120.png"
+    },
+    {
+      "step": 36,
+      "animationTick": 22,
+      "animationClip": "idle",
+      "frame": null,
+      "facing": -1,
+      "actualFacing": -1,
+      "flip": null,
+      "src": null,
+      "player": {
+        "x": 118,
+        "y": 91.44843518976525,
+        "z": 0,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.6857965382675,
+        "y": 90.22246016897225,
+        "z": 0.25761,
+        "mode": "pass",
+        "ownerId": null,
+        "targetId": "flint-rooker",
+        "lastTouch": "krios"
+      },
+      "receiver": null,
+      "score": [
+        0,
+        0
+      ],
+      "phase": "playing",
+      "pause": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pass-behind-track-candidate/attempt-04/native/actual-left-step36-tick22-zoom120.png"
+    }
+  ],
+  "setups": [
+    {
+      "zoom": 100,
+      "player": "krios",
+      "target": "flint-rooker",
+      "team": 0,
+      "facing": 1,
+      "playerPoint": [
+        82,
+        90
+      ],
+      "targetPoint": [
+        107,
+        90
+      ]
+    },
+    {
+      "zoom": 100,
+      "player": "krios",
+      "target": "flint-rooker",
+      "team": 0,
+      "facing": -1,
+      "playerPoint": [
+        118,
+        90
+      ],
+      "targetPoint": [
+        93,
+        90
+      ]
+    },
+    {
+      "zoom": 120,
+      "player": "krios",
+      "target": "flint-rooker",
+      "team": 0,
+      "facing": 1,
+      "playerPoint": [
+        82,
+        90
+      ],
+      "targetPoint": [
+        107,
+        90
+      ]
+    },
+    {
+      "zoom": 120,
+      "player": "krios",
+      "target": "flint-rooker",
+      "team": 0,
+      "facing": -1,
+      "playerPoint": [
+        118,
+        90
+      ],
+      "targetPoint": [
+        93,
+        90
+      ]
+    }
+  ],
+  "receiverEvents": [
+    {
+      "zoom": 100,
+      "facing": 1,
+      "step": 38,
+      "state": {
+        "tick": 25,
+        "mode": "carried",
+        "owner": "flint-rooker",
+        "target": null,
+        "caught": "flint-rooker",
+        "score": [
+          0,
+          0
+        ],
+        "phase": "playing",
+        "ball": {
+          "x": 102.45454545454545,
+          "y": 90,
+          "z": 1.590909090909091
+        },
+        "players": [
+          {
+            "id": "krios",
+            "x": 82,
+            "y": 91.45748198061159,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "flint-rooker",
+            "x": 107,
+            "y": 90,
+            "z": 0,
+            "hasBall": true
+          },
+          {
+            "id": "leo",
+            "x": 18,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "sable-regent",
+            "x": 18,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          }
+        ]
+      }
+    },
+    {
+      "zoom": 100,
+      "facing": -1,
+      "step": 38,
+      "state": {
+        "tick": 25,
+        "mode": "carried",
+        "owner": "flint-rooker",
+        "target": null,
+        "caught": "flint-rooker",
+        "score": [
+          0,
+          0
+        ],
+        "phase": "playing",
+        "ball": {
+          "x": 97.54545454545455,
+          "y": 90,
+          "z": 1.590909090909091
+        },
+        "players": [
+          {
+            "id": "krios",
+            "x": 118,
+            "y": 91.45748198061159,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "flint-rooker",
+            "x": 93,
+            "y": 90,
+            "z": 0,
+            "hasBall": true
+          },
+          {
+            "id": "leo",
+            "x": 182,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "sable-regent",
+            "x": 182,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          }
+        ]
+      }
+    },
+    {
+      "zoom": 120,
+      "facing": 1,
+      "step": 38,
+      "state": {
+        "tick": 25,
+        "mode": "carried",
+        "owner": "flint-rooker",
+        "target": null,
+        "caught": "flint-rooker",
+        "score": [
+          0,
+          0
+        ],
+        "phase": "playing",
+        "ball": {
+          "x": 102.45454545454545,
+          "y": 90,
+          "z": 1.590909090909091
+        },
+        "players": [
+          {
+            "id": "krios",
+            "x": 82,
+            "y": 91.45748198061159,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "flint-rooker",
+            "x": 107,
+            "y": 90,
+            "z": 0,
+            "hasBall": true
+          },
+          {
+            "id": "leo",
+            "x": 18,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "sable-regent",
+            "x": 18,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          }
+        ]
+      }
+    },
+    {
+      "zoom": 120,
+      "facing": -1,
+      "step": 38,
+      "state": {
+        "tick": 25,
+        "mode": "carried",
+        "owner": "flint-rooker",
+        "target": null,
+        "caught": "flint-rooker",
+        "score": [
+          0,
+          0
+        ],
+        "phase": "playing",
+        "ball": {
+          "x": 97.54545454545455,
+          "y": 90,
+          "z": 1.590909090909091
+        },
+        "players": [
+          {
+            "id": "krios",
+            "x": 118,
+            "y": 91.45748198061159,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "flint-rooker",
+            "x": 93,
+            "y": 90,
+            "z": 0,
+            "hasBall": true
+          },
+          {
+            "id": "leo",
+            "x": 182,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "sable-regent",
+            "x": 182,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          }
+        ]
+      }
+    }
+  ],
+  "gameplayResults": [
+    {
+      "zoom": 100,
+      "facing": 1,
+      "finalState": {
+        "tick": 25,
+        "mode": "carried",
+        "owner": "flint-rooker",
+        "target": null,
+        "caught": "flint-rooker",
+        "score": [
+          0,
+          0
+        ],
+        "phase": "playing",
+        "ball": {
+          "x": 102.45454545454545,
+          "y": 90,
+          "z": 1.590909090909091
+        },
+        "players": [
+          {
+            "id": "krios",
+            "x": 82,
+            "y": 91.45748198061159,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "flint-rooker",
+            "x": 107,
+            "y": 90,
+            "z": 0,
+            "hasBall": true
+          },
+          {
+            "id": "leo",
+            "x": 18,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "sable-regent",
+            "x": 18,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          }
+        ]
+      },
+      "captureCount": 16
+    },
+    {
+      "zoom": 100,
+      "facing": -1,
+      "finalState": {
+        "tick": 25,
+        "mode": "carried",
+        "owner": "flint-rooker",
+        "target": null,
+        "caught": "flint-rooker",
+        "score": [
+          0,
+          0
+        ],
+        "phase": "playing",
+        "ball": {
+          "x": 97.54545454545455,
+          "y": 90,
+          "z": 1.590909090909091
+        },
+        "players": [
+          {
+            "id": "krios",
+            "x": 118,
+            "y": 91.45748198061159,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "flint-rooker",
+            "x": 93,
+            "y": 90,
+            "z": 0,
+            "hasBall": true
+          },
+          {
+            "id": "leo",
+            "x": 182,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "sable-regent",
+            "x": 182,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          }
+        ]
+      },
+      "captureCount": 16
+    },
+    {
+      "zoom": 120,
+      "facing": 1,
+      "finalState": {
+        "tick": 25,
+        "mode": "carried",
+        "owner": "flint-rooker",
+        "target": null,
+        "caught": "flint-rooker",
+        "score": [
+          0,
+          0
+        ],
+        "phase": "playing",
+        "ball": {
+          "x": 102.45454545454545,
+          "y": 90,
+          "z": 1.590909090909091
+        },
+        "players": [
+          {
+            "id": "krios",
+            "x": 82,
+            "y": 91.45748198061159,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "flint-rooker",
+            "x": 107,
+            "y": 90,
+            "z": 0,
+            "hasBall": true
+          },
+          {
+            "id": "leo",
+            "x": 18,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "sable-regent",
+            "x": 18,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          }
+        ]
+      },
+      "captureCount": 16
+    },
+    {
+      "zoom": 120,
+      "facing": -1,
+      "finalState": {
+        "tick": 25,
+        "mode": "carried",
+        "owner": "flint-rooker",
+        "target": null,
+        "caught": "flint-rooker",
+        "score": [
+          0,
+          0
+        ],
+        "phase": "playing",
+        "ball": {
+          "x": 97.54545454545455,
+          "y": 90,
+          "z": 1.590909090909091
+        },
+        "players": [
+          {
+            "id": "krios",
+            "x": 118,
+            "y": 91.45748198061159,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "flint-rooker",
+            "x": 93,
+            "y": 90,
+            "z": 0,
+            "hasBall": true
+          },
+          {
+            "id": "leo",
+            "x": 182,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          },
+          {
+            "id": "sable-regent",
+            "x": 182,
+            "y": 10,
+            "z": 0,
+            "hasBall": false
+          }
+        ]
+      },
+      "captureCount": 16
+    }
+  ],
+  "captureCount": 64,
+  "uncaughtBrowserErrors": []
+}
