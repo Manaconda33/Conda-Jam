@@ -1,0 +1,17 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "celebrate",
+  "attempt": 4,
+  "generationId": "exec-9d03ef60-48f3-4ab8-a07e-441c5d89b4bf",
+  "generatedAt": "2026-10-28",
+  "sourceImage": "tools/generate-art/sources/kraken-celebrate10-attempt04-generated-raw.png",
+  "prompt": "tools/generate-art/kraken-celebrate10-attempt04-imagegen-prompt.txt",
+  "sourceSha256": "b2b9b958b4118ef0d03b68ceffadb528efc71f8f72e04000b1dd786994fdeafa",
+  "imageSize": [1774, 887],
+  "sourceMode": "RGBA",
+  "referenceImage": "tools/generate-art/previews/kraken-pickup5-attempt04/kraken-pickup5-attempt04-cleanup02-atlas-candidate.png",
+  "status": "candidate-source-pass-for-trials",
+  "reason": "Ten large distinct Kraken figures are visible, but the raw canvas also contains isolated alpha specks. Cleanup01 isolates the ten figures without modifying source RGB, removes unrelated specks, uniformly downsizes each figure with nearest-neighbor sampling, and packs them on a common baseline. Independent source, cleanup, and 40-view candidate gameplay reviews pass for gameplay trials only. The brighter style still needs final continuity review with normal-loader integration; no runtime registration has occurred.",
+  "cleanup": "tools/generate-art/previews/kraken-celebrate10-attempt04/cleanup01-layout.json",
+  "review": "tools/generate-art/previews/kraken-celebrate10-attempt04/INDEPENDENT_SOURCE_AND_CLEANUP_REVIEW.md"
+}
