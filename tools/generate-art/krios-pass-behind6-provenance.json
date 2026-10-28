@@ -1,0 +1,54 @@
+{
+  "athlete": "krios",
+  "clip": "pass-behind",
+  "direction": "right",
+  "canonicalSection": "J.06",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-28",
+  "generationId": "exec-bacc1e68-e632-48c3-a10e-626382c9a505",
+  "imageGenerationId": "exec-bacc1e68-e632-48c3-a10e-626382c9a505",
+  "rawSourceImage": "tools/generate-art/sources/krios-pass-behind6-attempt03-generated-raw.png",
+  "rawSourceSha256": "0a9b9ecc7726af2f50eae3da5239c7be645e8656cda36f60031b6a59b79442f7",
+  "sourceSha256": "64ab5da047ddd51f8220f8341feab21cab5514281f3ee7ff9d096e716eccf2ef",
+  "sourceImage": "tools/generate-art/sources/krios-pass-behind6-attempt03-cleanup01.png",
+  "prompt": "Create exactly six unique full-body action drawings in a 3-column by 2-row sprite sheet, left-to-right row-major. Reference the attached Krios action atlas for exact identity and style. Krios: towering enormous muscular bright volcanic-red skinned male giant, huge curled near-black ram horns, wild dark charcoal beard, black/charcoal Scoria Rams basketball jersey and shorts with ember-red and gold trim, black rugged boots with gold/red accents. Keep those identity traits and proportions in every pose. Natural complete biped, two arms/hands, two legs/boots. Right-facing three-quarter profile. Pose 0 wide ready stance; pose 1 gathers invisible ball at chest; pose 2 rotates and moves empty hands down behind waist; pose 3, bottom-left, is the exact behind-the-back release: torso twisted away, open passing hand thrust backward behind hip; pose 4 follows through with the passing arm extended backward; pose 5 turns forward and recovers. All six poses must be clearly distinct, connected motion. Basketball is a separate game object: no basketball drawn anywhere. Make crisp hard-edged arcade pixel art built from visible square pixel clusters, matching the reference atlas. No soft painting, no gradients, no glow, no blur, no anti-aliased smooth airbrushing. True fully transparent RGBA background with alpha zero outside the six figures. Keep all full figures, horns, hands, boots inside their cells with roomy transparent gutters. No background, no court, no floor, no shadows, no hoop, no other figures, no text, no lettering, no numbers, no logos, no checkerboard, no dividers, no grid lines. Exact 1536x1024 output.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-b6f026dc-7243-4210-bc6a-f8d5cd00637e",
+      "source": "tools/generate-art/sources/krios-pass-behind6-attempt01-generated-raw.png",
+      "rawSourceSha256": "5acf3beb93c26f019468a5cf502d0b470efb8bd9dd893861e603d1e249ad5c63",
+      "prompt": "tools/generate-art/krios-pass-behind6-attempt01-prompt.md",
+      "reason": "Partial dark red/black glow backdrop and smooth painterly shading; independent review rejected."
+    },
+    {
+      "generationId": "exec-f2582f28-7a75-402b-b259-5b9f748e772c",
+      "source": "tools/generate-art/sources/krios-pass-behind6-attempt02-generated-raw.png",
+      "rawSourceSha256": "258e6b248ac58de5a36806cc2850890f2d05b1a88053a64d115ae203bbc10092",
+      "prompt": "tools/generate-art/krios-pass-behind6-attempt02-prompt.md",
+      "reason": "Image edit retained the glow backdrop and painterly shading; rejected."
+    }
+  ],
+  "references": [
+    "public/assets/animation/krios-pass-overhead-right.webp"
+  ],
+  "mirrorEligible": true,
+  "ballPolicy": "Krios-specific separate basketball follows the behind-the-back pass, releases at runtime tick5 (frame index 3), and continues as an ownerless pass. Never paint a ball into the poses. Track length: 6.",
+  "cleanup": {
+    "script": "tools/generate-art/clean-krios-pass-behind6-attempt03.py",
+    "method": "Alpha under 96 set to zero and alpha 96\u2013254 set to 255; all RGB source values preserved. This removes the connected haze while retaining all six connected athlete silhouettes.",
+    "report": "tools/generate-art/krios-pass-behind6-attempt03-cleanup01-report.json"
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "independent Krios action art reviewer",
+    "reviewNotes": "Accepted for packing after cleanup01: six unique complete poses, pose index3 clearly reads as the behind-the-back release and pose4 follows through, Krios identity consistent, adequate cell margins, no ball drawn. Independent preview review found no anatomy or garment pixels lost by alpha cleanup and the figures remain legible at packed size. Atlas review still required."
+  },
+  "sourceReview": {
+    "status": "accepted",
+    "reviewedBy": "independent Krios action art reviewer",
+    "reviewNotes": "Raw attempt03 rejected as-is for backdrop haze. Cleanup01 accepted after dark/light/checker preview review."
+  },
+  "ballTrackStatus": "pending-independent-gameplay-review"
+}

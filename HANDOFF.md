@@ -1,4 +1,12 @@
-## Current production checkpoint — 2026-10-27
+## Current asset lanes — 2026-10-28 00:10 UTC
+
+Krios has 8/29 registered captain clips (21 missing). J.128 `pass-behind` attempt03 source art is accepted after cleanup01 and packed as `public/assets/animation/krios-pass-behind-right.webp`; the six-pose source has independent source and atlas approval. Its athlete-specific pass track and runtime registration are still pending. Attempts01 and02 remain preserved and rejected.
+
+Leo has 27/29 registered captain clips. J.104 `shoot` attempt07 has independent approval for its separate ball track: gather/release hand contact, facing selection and both actual simulation scores pass. A final continuously rendered gameplay-flight capture is underway before runtime integration. J.111 `layup-reverse` has accepted face cleanup01 artwork; track attempt01 is rejected for paused-overlay/synthetic staging, attempt02 was rejected for offscreen framing, and attempt03 uses real progression and is rejected for hand alignment. Attempt04 calibration is underway. J.127 `alley-oop-reverse` is integrated and remains accepted.
+
+The latest strict report-only audit is `2026-10-27T23:51:22.722Z`: 2,352 clip assignments, 525 unique source atlases, 5,003 unique source drawings, 751 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings. These audit figures describe registered runtime assignments; the unregistered Krios source atlas above does not change them. Captain production remains incomplete. Continue with the Leo J.104/J.111 tracks and Krios J.128 pass-behind track in parallel, then advance to Krios’s next roster-order gap.
+
+## Previous production checkpoint — 2026-10-27
 
 J.128 Krios now has individually authored `shoot` and chest `pass` runtime assets. Krios shoot uses the original 10-pose atlas and independently reviewed track attempt07: height `[1,1.2,1.4,1.1,2,1.7,4,2,1,0]`, forward `[5,5,5,4,3.1,0.7,2,4,6,7]`. Native Jam Stage review covers all 10 frame starts, both facings and 100%/120% zoom; it accepts approach/contact through frame4, release at tick13/frame5, and the mirrored frames6–9 flight. Krios chest pass uses the original six-pose atlas and track H `[1.05,1.15,1.4,1.5,1.35,1.05]`, F `[8,9,11,13,12,8]`; independent review accepts held-ball contact and tick5/frame3 release at both facings and zooms. Both atlases have 10/10 and 6/6 unique poses, preserved prompts/raw provenance, and light/dark previews. Runtime sprite selection and two-facing owner/release simulation tests were added. Krios remains on the bespoke captain path and is now 7/29.
 
