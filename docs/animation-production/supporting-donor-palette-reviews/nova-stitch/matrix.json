@@ -1,0 +1,2551 @@
+{
+  "donorId": "nova-stitch",
+  "profile": "nova-body-mask-v1",
+  "maskProfile": {
+    "id": "nova-body-mask-v1",
+    "status": "accepted",
+    "jersey": {
+      "region": {
+        "x": [
+          0.42,
+          0.78
+        ],
+        "y": [
+          0.36,
+          0.65
+        ]
+      },
+      "hue": [
+        155,
+        205
+      ],
+      "chromaMin": 28,
+      "luma": [
+        12,
+        155
+      ],
+      "sourceColor": "#159d9b"
+    },
+    "shorts": {
+      "region": {
+        "x": [
+          0.42,
+          0.77
+        ],
+        "y": [
+          0.64,
+          0.83
+        ]
+      },
+      "hue": [
+        155,
+        205
+      ],
+      "chromaMin": 24,
+      "luma": [
+        10,
+        150
+      ],
+      "sourceColor": "#159d9b"
+    },
+    "review": {
+      "status": "accepted",
+      "reviewedAt": "2026-10-28",
+      "reviewer": "independent visual review",
+      "scope": "9 mapped target palettes × 29 required clips per donor; enlarged pose-family checks; source alpha compared across every derived clip frame",
+      "evidence": "docs/animation-production/supporting-donor-palette-reviews/nova-stitch/",
+      "alphaMismatchPixels": 0
+    },
+    "clips": {}
+  },
+  "clipColumns": [
+    "idle",
+    "idle-ball",
+    "dribble",
+    "run",
+    "dribble-run",
+    "shoot",
+    "pass",
+    "pass-overhead",
+    "pass-behind",
+    "receive",
+    "pickup",
+    "layup",
+    "layup-reverse",
+    "block",
+    "steal",
+    "push",
+    "rebound",
+    "fall",
+    "celebrate",
+    "dunk-power",
+    "dunk-windmill",
+    "dunk-reverse",
+    "dunk-360",
+    "dunk-tomahawk",
+    "dunk-double",
+    "dunk-clutch",
+    "dunk-scythe",
+    "alley-oop-power",
+    "alley-oop-reverse"
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "teamId": "coppermoon-skyblades",
+      "teamName": "Coppermoon Skyblades",
+      "playerId": "draya-staffwind",
+      "palette": [
+        "#734e62",
+        "#b35c43"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/nova-stitch-idle-right.webp",
+          "sourceSha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
+          "frameIndex": 2,
+          "frameHash": "7ce3d5348365204b569ff1873c88a5c0df994c4812a02a96d6bd0cd8b0c22b63",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2295
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/nova-stitch-idle-ball-right.webp",
+          "sourceSha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
+          "frameIndex": 1,
+          "frameHash": "cc6a92cfd58a297a91a2e0ef62d591a5989d6117b3e55d2896e123199691865e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1299
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/nova-stitch-dribble-right.webp",
+          "sourceSha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
+          "frameIndex": 4,
+          "frameHash": "e69b5c90941d094bacd75c223c84f8344a1817d66481c59ada15325673e3ccd7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4339
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/nova-stitch-run-right.webp",
+          "sourceSha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
+          "frameIndex": 5,
+          "frameHash": "a7b8fef61c152445fa83bcf45e9ae97338dd0d4f531d89539c493688cf4e8ee1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4024
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/nova-stitch-dribble-run-right.webp",
+          "sourceSha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
+          "frameIndex": 5,
+          "frameHash": "be4e0334e80b37de65f53e7bc65b95d88c0234507f15d328a5804b66f089cddf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4915
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/nova-stitch-shoot-right.webp",
+          "sourceSha256": "f11aff261ebb12dbd1b58ad4886ea82dc4cf281fbc0c05295df983b52a463d2d",
+          "frameIndex": 4,
+          "frameHash": "f9793e4758295b81b1e1e80162751eee623768a52f40ff645f201647670a5199",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2513
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/nova-stitch-pass-right.webp",
+          "sourceSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+          "frameIndex": 2,
+          "frameHash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1669
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+          "sourceSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+          "frameIndex": 2,
+          "frameHash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1619
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+          "sourceSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+          "frameIndex": 2,
+          "frameHash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1949
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/nova-stitch-receive-right.webp",
+          "sourceSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+          "frameIndex": 1,
+          "frameHash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1072
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/nova-stitch-pickup-right.webp",
+          "sourceSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+          "frameIndex": 2,
+          "frameHash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1480
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/nova-stitch-layup-right.webp",
+          "sourceSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+          "frameIndex": 3,
+          "frameHash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2008
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+          "sourceSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+          "frameIndex": 3,
+          "frameHash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2227
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/nova-stitch-block-right.webp",
+          "sourceSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+          "frameIndex": 1,
+          "frameHash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1108
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/nova-stitch-steal-right.webp",
+          "sourceSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+          "frameIndex": 3,
+          "frameHash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2451
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/nova-stitch-push-right.webp",
+          "sourceSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+          "frameIndex": 5,
+          "frameHash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4017
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/nova-stitch-rebound-right.webp",
+          "sourceSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+          "frameIndex": 2,
+          "frameHash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1300
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/nova-stitch-fall-right.webp",
+          "sourceSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+          "frameIndex": 4,
+          "frameHash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+          "sourceSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+          "frameIndex": 4,
+          "frameHash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3361
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+          "sourceSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+          "frameIndex": 7,
+          "frameHash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4842
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+          "sourceSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+          "frameIndex": 7,
+          "frameHash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4536
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+          "sourceSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+          "frameIndex": 7,
+          "frameHash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4891
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+          "sourceSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+          "frameIndex": 7,
+          "frameHash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5577
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+          "sourceSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+          "frameIndex": 7,
+          "frameHash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3913
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+          "sourceSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+          "frameIndex": 7,
+          "frameHash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4570
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+          "sourceSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+          "frameIndex": 7,
+          "frameHash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4608
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+          "sourceSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+          "frameIndex": 7,
+          "frameHash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5416
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+          "sourceSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+          "frameIndex": 7,
+          "frameHash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5752
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+          "sourceSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+          "frameIndex": 7,
+          "frameHash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5524
+        }
+      ]
+    },
+    {
+      "row": 1,
+      "teamId": "darkspire-hellcats",
+      "teamName": "Darkspire Hellcats",
+      "playerId": "raven-lux",
+      "palette": [
+        "#b91e36",
+        "#25202a"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/nova-stitch-idle-right.webp",
+          "sourceSha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
+          "frameIndex": 2,
+          "frameHash": "7ce3d5348365204b569ff1873c88a5c0df994c4812a02a96d6bd0cd8b0c22b63",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2295
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/nova-stitch-idle-ball-right.webp",
+          "sourceSha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
+          "frameIndex": 1,
+          "frameHash": "cc6a92cfd58a297a91a2e0ef62d591a5989d6117b3e55d2896e123199691865e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1299
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/nova-stitch-dribble-right.webp",
+          "sourceSha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
+          "frameIndex": 4,
+          "frameHash": "e69b5c90941d094bacd75c223c84f8344a1817d66481c59ada15325673e3ccd7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4339
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/nova-stitch-run-right.webp",
+          "sourceSha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
+          "frameIndex": 5,
+          "frameHash": "a7b8fef61c152445fa83bcf45e9ae97338dd0d4f531d89539c493688cf4e8ee1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4024
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/nova-stitch-dribble-run-right.webp",
+          "sourceSha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
+          "frameIndex": 5,
+          "frameHash": "be4e0334e80b37de65f53e7bc65b95d88c0234507f15d328a5804b66f089cddf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4915
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/nova-stitch-shoot-right.webp",
+          "sourceSha256": "f11aff261ebb12dbd1b58ad4886ea82dc4cf281fbc0c05295df983b52a463d2d",
+          "frameIndex": 4,
+          "frameHash": "f9793e4758295b81b1e1e80162751eee623768a52f40ff645f201647670a5199",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2513
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/nova-stitch-pass-right.webp",
+          "sourceSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+          "frameIndex": 2,
+          "frameHash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1669
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+          "sourceSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+          "frameIndex": 2,
+          "frameHash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1619
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+          "sourceSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+          "frameIndex": 2,
+          "frameHash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1949
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/nova-stitch-receive-right.webp",
+          "sourceSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+          "frameIndex": 1,
+          "frameHash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1072
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/nova-stitch-pickup-right.webp",
+          "sourceSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+          "frameIndex": 2,
+          "frameHash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1480
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/nova-stitch-layup-right.webp",
+          "sourceSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+          "frameIndex": 3,
+          "frameHash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2008
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+          "sourceSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+          "frameIndex": 3,
+          "frameHash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2227
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/nova-stitch-block-right.webp",
+          "sourceSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+          "frameIndex": 1,
+          "frameHash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1108
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/nova-stitch-steal-right.webp",
+          "sourceSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+          "frameIndex": 3,
+          "frameHash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2451
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/nova-stitch-push-right.webp",
+          "sourceSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+          "frameIndex": 5,
+          "frameHash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4017
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/nova-stitch-rebound-right.webp",
+          "sourceSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+          "frameIndex": 2,
+          "frameHash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1300
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/nova-stitch-fall-right.webp",
+          "sourceSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+          "frameIndex": 4,
+          "frameHash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+          "sourceSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+          "frameIndex": 4,
+          "frameHash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3361
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+          "sourceSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+          "frameIndex": 7,
+          "frameHash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4842
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+          "sourceSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+          "frameIndex": 7,
+          "frameHash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4536
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+          "sourceSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+          "frameIndex": 7,
+          "frameHash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4891
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+          "sourceSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+          "frameIndex": 7,
+          "frameHash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5577
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+          "sourceSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+          "frameIndex": 7,
+          "frameHash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3913
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+          "sourceSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+          "frameIndex": 7,
+          "frameHash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4570
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+          "sourceSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+          "frameIndex": 7,
+          "frameHash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4608
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+          "sourceSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+          "frameIndex": 7,
+          "frameHash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5416
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+          "sourceSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+          "frameIndex": 7,
+          "frameHash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5752
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+          "sourceSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+          "frameIndex": 7,
+          "frameHash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5524
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "teamId": "duskmere-nightwings",
+      "teamName": "Duskmere Nightwings",
+      "playerId": "moth-vale",
+      "palette": [
+        "#423760",
+        "#b0a7c0"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/nova-stitch-idle-right.webp",
+          "sourceSha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
+          "frameIndex": 2,
+          "frameHash": "7ce3d5348365204b569ff1873c88a5c0df994c4812a02a96d6bd0cd8b0c22b63",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2295
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/nova-stitch-idle-ball-right.webp",
+          "sourceSha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
+          "frameIndex": 1,
+          "frameHash": "cc6a92cfd58a297a91a2e0ef62d591a5989d6117b3e55d2896e123199691865e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1299
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/nova-stitch-dribble-right.webp",
+          "sourceSha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
+          "frameIndex": 4,
+          "frameHash": "e69b5c90941d094bacd75c223c84f8344a1817d66481c59ada15325673e3ccd7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4339
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/nova-stitch-run-right.webp",
+          "sourceSha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
+          "frameIndex": 5,
+          "frameHash": "a7b8fef61c152445fa83bcf45e9ae97338dd0d4f531d89539c493688cf4e8ee1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4024
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/nova-stitch-dribble-run-right.webp",
+          "sourceSha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
+          "frameIndex": 5,
+          "frameHash": "be4e0334e80b37de65f53e7bc65b95d88c0234507f15d328a5804b66f089cddf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4915
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/nova-stitch-shoot-right.webp",
+          "sourceSha256": "f11aff261ebb12dbd1b58ad4886ea82dc4cf281fbc0c05295df983b52a463d2d",
+          "frameIndex": 4,
+          "frameHash": "f9793e4758295b81b1e1e80162751eee623768a52f40ff645f201647670a5199",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2513
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/nova-stitch-pass-right.webp",
+          "sourceSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+          "frameIndex": 2,
+          "frameHash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1669
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+          "sourceSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+          "frameIndex": 2,
+          "frameHash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1619
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+          "sourceSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+          "frameIndex": 2,
+          "frameHash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1949
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/nova-stitch-receive-right.webp",
+          "sourceSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+          "frameIndex": 1,
+          "frameHash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1072
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/nova-stitch-pickup-right.webp",
+          "sourceSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+          "frameIndex": 2,
+          "frameHash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1480
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/nova-stitch-layup-right.webp",
+          "sourceSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+          "frameIndex": 3,
+          "frameHash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2008
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+          "sourceSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+          "frameIndex": 3,
+          "frameHash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2227
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/nova-stitch-block-right.webp",
+          "sourceSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+          "frameIndex": 1,
+          "frameHash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1108
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/nova-stitch-steal-right.webp",
+          "sourceSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+          "frameIndex": 3,
+          "frameHash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2451
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/nova-stitch-push-right.webp",
+          "sourceSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+          "frameIndex": 5,
+          "frameHash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4017
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/nova-stitch-rebound-right.webp",
+          "sourceSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+          "frameIndex": 2,
+          "frameHash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1300
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/nova-stitch-fall-right.webp",
+          "sourceSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+          "frameIndex": 4,
+          "frameHash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+          "sourceSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+          "frameIndex": 4,
+          "frameHash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3361
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+          "sourceSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+          "frameIndex": 7,
+          "frameHash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4842
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+          "sourceSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+          "frameIndex": 7,
+          "frameHash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4536
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+          "sourceSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+          "frameIndex": 7,
+          "frameHash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4891
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+          "sourceSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+          "frameIndex": 7,
+          "frameHash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5577
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+          "sourceSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+          "frameIndex": 7,
+          "frameHash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3913
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+          "sourceSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+          "frameIndex": 7,
+          "frameHash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4570
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+          "sourceSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+          "frameIndex": 7,
+          "frameHash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4608
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+          "sourceSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+          "frameIndex": 7,
+          "frameHash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5416
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+          "sourceSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+          "frameIndex": 7,
+          "frameHash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5752
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+          "sourceSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+          "frameIndex": 7,
+          "frameHash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5524
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "teamId": "emerald-den-wolves",
+      "teamName": "Emerald Den Wolves",
+      "playerId": "koa-vale",
+      "palette": [
+        "#18804e",
+        "#39a9a0"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/nova-stitch-idle-right.webp",
+          "sourceSha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
+          "frameIndex": 2,
+          "frameHash": "7ce3d5348365204b569ff1873c88a5c0df994c4812a02a96d6bd0cd8b0c22b63",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2295
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/nova-stitch-idle-ball-right.webp",
+          "sourceSha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
+          "frameIndex": 1,
+          "frameHash": "cc6a92cfd58a297a91a2e0ef62d591a5989d6117b3e55d2896e123199691865e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1299
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/nova-stitch-dribble-right.webp",
+          "sourceSha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
+          "frameIndex": 4,
+          "frameHash": "e69b5c90941d094bacd75c223c84f8344a1817d66481c59ada15325673e3ccd7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4339
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/nova-stitch-run-right.webp",
+          "sourceSha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
+          "frameIndex": 5,
+          "frameHash": "a7b8fef61c152445fa83bcf45e9ae97338dd0d4f531d89539c493688cf4e8ee1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4024
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/nova-stitch-dribble-run-right.webp",
+          "sourceSha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
+          "frameIndex": 5,
+          "frameHash": "be4e0334e80b37de65f53e7bc65b95d88c0234507f15d328a5804b66f089cddf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4915
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/nova-stitch-shoot-right.webp",
+          "sourceSha256": "f11aff261ebb12dbd1b58ad4886ea82dc4cf281fbc0c05295df983b52a463d2d",
+          "frameIndex": 4,
+          "frameHash": "f9793e4758295b81b1e1e80162751eee623768a52f40ff645f201647670a5199",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2513
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/nova-stitch-pass-right.webp",
+          "sourceSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+          "frameIndex": 2,
+          "frameHash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1669
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+          "sourceSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+          "frameIndex": 2,
+          "frameHash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1619
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+          "sourceSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+          "frameIndex": 2,
+          "frameHash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1949
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/nova-stitch-receive-right.webp",
+          "sourceSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+          "frameIndex": 1,
+          "frameHash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1072
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/nova-stitch-pickup-right.webp",
+          "sourceSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+          "frameIndex": 2,
+          "frameHash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1480
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/nova-stitch-layup-right.webp",
+          "sourceSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+          "frameIndex": 3,
+          "frameHash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2008
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+          "sourceSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+          "frameIndex": 3,
+          "frameHash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2227
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/nova-stitch-block-right.webp",
+          "sourceSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+          "frameIndex": 1,
+          "frameHash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1108
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/nova-stitch-steal-right.webp",
+          "sourceSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+          "frameIndex": 3,
+          "frameHash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2451
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/nova-stitch-push-right.webp",
+          "sourceSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+          "frameIndex": 5,
+          "frameHash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4017
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/nova-stitch-rebound-right.webp",
+          "sourceSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+          "frameIndex": 2,
+          "frameHash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1300
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/nova-stitch-fall-right.webp",
+          "sourceSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+          "frameIndex": 4,
+          "frameHash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+          "sourceSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+          "frameIndex": 4,
+          "frameHash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3361
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+          "sourceSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+          "frameIndex": 7,
+          "frameHash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4842
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+          "sourceSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+          "frameIndex": 7,
+          "frameHash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4536
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+          "sourceSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+          "frameIndex": 7,
+          "frameHash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4891
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+          "sourceSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+          "frameIndex": 7,
+          "frameHash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5577
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+          "sourceSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+          "frameIndex": 7,
+          "frameHash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3913
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+          "sourceSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+          "frameIndex": 7,
+          "frameHash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4570
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+          "sourceSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+          "frameIndex": 7,
+          "frameHash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4608
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+          "sourceSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+          "frameIndex": 7,
+          "frameHash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5416
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+          "sourceSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+          "frameIndex": 7,
+          "frameHash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5752
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+          "sourceSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+          "frameIndex": 7,
+          "frameHash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5524
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "teamId": "gildforge-titans",
+      "teamName": "Gildforge Titans",
+      "playerId": "ember-rivet",
+      "palette": [
+        "#295485",
+        "#dfa949"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/nova-stitch-idle-right.webp",
+          "sourceSha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
+          "frameIndex": 2,
+          "frameHash": "7ce3d5348365204b569ff1873c88a5c0df994c4812a02a96d6bd0cd8b0c22b63",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2295
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/nova-stitch-idle-ball-right.webp",
+          "sourceSha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
+          "frameIndex": 1,
+          "frameHash": "cc6a92cfd58a297a91a2e0ef62d591a5989d6117b3e55d2896e123199691865e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1299
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/nova-stitch-dribble-right.webp",
+          "sourceSha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
+          "frameIndex": 4,
+          "frameHash": "e69b5c90941d094bacd75c223c84f8344a1817d66481c59ada15325673e3ccd7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4339
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/nova-stitch-run-right.webp",
+          "sourceSha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
+          "frameIndex": 5,
+          "frameHash": "a7b8fef61c152445fa83bcf45e9ae97338dd0d4f531d89539c493688cf4e8ee1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4024
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/nova-stitch-dribble-run-right.webp",
+          "sourceSha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
+          "frameIndex": 5,
+          "frameHash": "be4e0334e80b37de65f53e7bc65b95d88c0234507f15d328a5804b66f089cddf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4915
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/nova-stitch-shoot-right.webp",
+          "sourceSha256": "f11aff261ebb12dbd1b58ad4886ea82dc4cf281fbc0c05295df983b52a463d2d",
+          "frameIndex": 4,
+          "frameHash": "f9793e4758295b81b1e1e80162751eee623768a52f40ff645f201647670a5199",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2513
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/nova-stitch-pass-right.webp",
+          "sourceSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+          "frameIndex": 2,
+          "frameHash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1669
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+          "sourceSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+          "frameIndex": 2,
+          "frameHash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1619
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+          "sourceSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+          "frameIndex": 2,
+          "frameHash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1949
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/nova-stitch-receive-right.webp",
+          "sourceSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+          "frameIndex": 1,
+          "frameHash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1072
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/nova-stitch-pickup-right.webp",
+          "sourceSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+          "frameIndex": 2,
+          "frameHash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1480
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/nova-stitch-layup-right.webp",
+          "sourceSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+          "frameIndex": 3,
+          "frameHash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2008
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+          "sourceSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+          "frameIndex": 3,
+          "frameHash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2227
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/nova-stitch-block-right.webp",
+          "sourceSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+          "frameIndex": 1,
+          "frameHash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1108
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/nova-stitch-steal-right.webp",
+          "sourceSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+          "frameIndex": 3,
+          "frameHash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2451
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/nova-stitch-push-right.webp",
+          "sourceSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+          "frameIndex": 5,
+          "frameHash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4017
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/nova-stitch-rebound-right.webp",
+          "sourceSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+          "frameIndex": 2,
+          "frameHash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1300
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/nova-stitch-fall-right.webp",
+          "sourceSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+          "frameIndex": 4,
+          "frameHash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+          "sourceSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+          "frameIndex": 4,
+          "frameHash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3361
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+          "sourceSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+          "frameIndex": 7,
+          "frameHash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4842
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+          "sourceSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+          "frameIndex": 7,
+          "frameHash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4536
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+          "sourceSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+          "frameIndex": 7,
+          "frameHash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4891
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+          "sourceSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+          "frameIndex": 7,
+          "frameHash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5577
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+          "sourceSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+          "frameIndex": 7,
+          "frameHash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3913
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+          "sourceSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+          "frameIndex": 7,
+          "frameHash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4570
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+          "sourceSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+          "frameIndex": 7,
+          "frameHash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4608
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+          "sourceSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+          "frameIndex": 7,
+          "frameHash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5416
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+          "sourceSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+          "frameIndex": 7,
+          "frameHash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5752
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+          "sourceSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+          "frameIndex": 7,
+          "frameHash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5524
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "teamId": "lumen-bay-circuits",
+      "teamName": "Lumen Bay Circuits",
+      "playerId": "mira-wavelength",
+      "palette": [
+        "#20b9c8",
+        "#2d61df"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/nova-stitch-idle-right.webp",
+          "sourceSha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
+          "frameIndex": 2,
+          "frameHash": "7ce3d5348365204b569ff1873c88a5c0df994c4812a02a96d6bd0cd8b0c22b63",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2295
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/nova-stitch-idle-ball-right.webp",
+          "sourceSha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
+          "frameIndex": 1,
+          "frameHash": "cc6a92cfd58a297a91a2e0ef62d591a5989d6117b3e55d2896e123199691865e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1299
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/nova-stitch-dribble-right.webp",
+          "sourceSha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
+          "frameIndex": 4,
+          "frameHash": "e69b5c90941d094bacd75c223c84f8344a1817d66481c59ada15325673e3ccd7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4339
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/nova-stitch-run-right.webp",
+          "sourceSha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
+          "frameIndex": 5,
+          "frameHash": "a7b8fef61c152445fa83bcf45e9ae97338dd0d4f531d89539c493688cf4e8ee1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4024
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/nova-stitch-dribble-run-right.webp",
+          "sourceSha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
+          "frameIndex": 5,
+          "frameHash": "be4e0334e80b37de65f53e7bc65b95d88c0234507f15d328a5804b66f089cddf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4915
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/nova-stitch-shoot-right.webp",
+          "sourceSha256": "f11aff261ebb12dbd1b58ad4886ea82dc4cf281fbc0c05295df983b52a463d2d",
+          "frameIndex": 4,
+          "frameHash": "f9793e4758295b81b1e1e80162751eee623768a52f40ff645f201647670a5199",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2513
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/nova-stitch-pass-right.webp",
+          "sourceSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+          "frameIndex": 2,
+          "frameHash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1669
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+          "sourceSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+          "frameIndex": 2,
+          "frameHash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1619
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+          "sourceSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+          "frameIndex": 2,
+          "frameHash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1949
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/nova-stitch-receive-right.webp",
+          "sourceSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+          "frameIndex": 1,
+          "frameHash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1072
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/nova-stitch-pickup-right.webp",
+          "sourceSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+          "frameIndex": 2,
+          "frameHash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1480
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/nova-stitch-layup-right.webp",
+          "sourceSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+          "frameIndex": 3,
+          "frameHash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2008
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+          "sourceSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+          "frameIndex": 3,
+          "frameHash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2227
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/nova-stitch-block-right.webp",
+          "sourceSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+          "frameIndex": 1,
+          "frameHash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1108
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/nova-stitch-steal-right.webp",
+          "sourceSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+          "frameIndex": 3,
+          "frameHash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2451
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/nova-stitch-push-right.webp",
+          "sourceSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+          "frameIndex": 5,
+          "frameHash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4017
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/nova-stitch-rebound-right.webp",
+          "sourceSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+          "frameIndex": 2,
+          "frameHash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1300
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/nova-stitch-fall-right.webp",
+          "sourceSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+          "frameIndex": 4,
+          "frameHash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+          "sourceSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+          "frameIndex": 4,
+          "frameHash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3361
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+          "sourceSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+          "frameIndex": 7,
+          "frameHash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4842
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+          "sourceSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+          "frameIndex": 7,
+          "frameHash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4536
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+          "sourceSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+          "frameIndex": 7,
+          "frameHash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4891
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+          "sourceSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+          "frameIndex": 7,
+          "frameHash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5577
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+          "sourceSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+          "frameIndex": 7,
+          "frameHash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3913
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+          "sourceSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+          "frameIndex": 7,
+          "frameHash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4570
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+          "sourceSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+          "frameIndex": 7,
+          "frameHash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4608
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+          "sourceSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+          "frameIndex": 7,
+          "frameHash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5416
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+          "sourceSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+          "frameIndex": 7,
+          "frameHash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5752
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+          "sourceSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+          "frameIndex": 7,
+          "frameHash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5524
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "teamId": "nightshade-vale-blooms",
+      "teamName": "Nightshade Vale Blooms",
+      "playerId": "violet-lorne",
+      "palette": [
+        "#7855a1",
+        "#201e27"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/nova-stitch-idle-right.webp",
+          "sourceSha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
+          "frameIndex": 2,
+          "frameHash": "7ce3d5348365204b569ff1873c88a5c0df994c4812a02a96d6bd0cd8b0c22b63",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2295
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/nova-stitch-idle-ball-right.webp",
+          "sourceSha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
+          "frameIndex": 1,
+          "frameHash": "cc6a92cfd58a297a91a2e0ef62d591a5989d6117b3e55d2896e123199691865e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1299
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/nova-stitch-dribble-right.webp",
+          "sourceSha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
+          "frameIndex": 4,
+          "frameHash": "e69b5c90941d094bacd75c223c84f8344a1817d66481c59ada15325673e3ccd7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4339
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/nova-stitch-run-right.webp",
+          "sourceSha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
+          "frameIndex": 5,
+          "frameHash": "a7b8fef61c152445fa83bcf45e9ae97338dd0d4f531d89539c493688cf4e8ee1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4024
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/nova-stitch-dribble-run-right.webp",
+          "sourceSha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
+          "frameIndex": 5,
+          "frameHash": "be4e0334e80b37de65f53e7bc65b95d88c0234507f15d328a5804b66f089cddf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4915
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/nova-stitch-shoot-right.webp",
+          "sourceSha256": "f11aff261ebb12dbd1b58ad4886ea82dc4cf281fbc0c05295df983b52a463d2d",
+          "frameIndex": 4,
+          "frameHash": "f9793e4758295b81b1e1e80162751eee623768a52f40ff645f201647670a5199",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2513
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/nova-stitch-pass-right.webp",
+          "sourceSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+          "frameIndex": 2,
+          "frameHash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1669
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+          "sourceSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+          "frameIndex": 2,
+          "frameHash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1619
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+          "sourceSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+          "frameIndex": 2,
+          "frameHash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1949
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/nova-stitch-receive-right.webp",
+          "sourceSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+          "frameIndex": 1,
+          "frameHash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1072
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/nova-stitch-pickup-right.webp",
+          "sourceSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+          "frameIndex": 2,
+          "frameHash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1480
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/nova-stitch-layup-right.webp",
+          "sourceSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+          "frameIndex": 3,
+          "frameHash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2008
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+          "sourceSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+          "frameIndex": 3,
+          "frameHash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2227
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/nova-stitch-block-right.webp",
+          "sourceSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+          "frameIndex": 1,
+          "frameHash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1108
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/nova-stitch-steal-right.webp",
+          "sourceSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+          "frameIndex": 3,
+          "frameHash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2451
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/nova-stitch-push-right.webp",
+          "sourceSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+          "frameIndex": 5,
+          "frameHash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4017
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/nova-stitch-rebound-right.webp",
+          "sourceSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+          "frameIndex": 2,
+          "frameHash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1300
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/nova-stitch-fall-right.webp",
+          "sourceSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+          "frameIndex": 4,
+          "frameHash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+          "sourceSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+          "frameIndex": 4,
+          "frameHash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3361
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+          "sourceSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+          "frameIndex": 7,
+          "frameHash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4842
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+          "sourceSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+          "frameIndex": 7,
+          "frameHash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4536
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+          "sourceSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+          "frameIndex": 7,
+          "frameHash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4891
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+          "sourceSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+          "frameIndex": 7,
+          "frameHash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5577
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+          "sourceSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+          "frameIndex": 7,
+          "frameHash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3913
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+          "sourceSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+          "frameIndex": 7,
+          "frameHash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4570
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+          "sourceSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+          "frameIndex": 7,
+          "frameHash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4608
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+          "sourceSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+          "frameIndex": 7,
+          "frameHash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5416
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+          "sourceSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+          "frameIndex": 7,
+          "frameHash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5752
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+          "sourceSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+          "frameIndex": 7,
+          "frameHash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5524
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "teamId": "rainbow-alley-runners",
+      "teamName": "Rainbow Alley Runners",
+      "playerId": "pixel-o-keeffe",
+      "palette": [
+        "#15904f",
+        "#f2d64a"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/nova-stitch-idle-right.webp",
+          "sourceSha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
+          "frameIndex": 2,
+          "frameHash": "7ce3d5348365204b569ff1873c88a5c0df994c4812a02a96d6bd0cd8b0c22b63",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2295
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/nova-stitch-idle-ball-right.webp",
+          "sourceSha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
+          "frameIndex": 1,
+          "frameHash": "cc6a92cfd58a297a91a2e0ef62d591a5989d6117b3e55d2896e123199691865e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1299
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/nova-stitch-dribble-right.webp",
+          "sourceSha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
+          "frameIndex": 4,
+          "frameHash": "e69b5c90941d094bacd75c223c84f8344a1817d66481c59ada15325673e3ccd7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4339
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/nova-stitch-run-right.webp",
+          "sourceSha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
+          "frameIndex": 5,
+          "frameHash": "a7b8fef61c152445fa83bcf45e9ae97338dd0d4f531d89539c493688cf4e8ee1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4024
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/nova-stitch-dribble-run-right.webp",
+          "sourceSha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
+          "frameIndex": 5,
+          "frameHash": "be4e0334e80b37de65f53e7bc65b95d88c0234507f15d328a5804b66f089cddf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4915
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/nova-stitch-shoot-right.webp",
+          "sourceSha256": "f11aff261ebb12dbd1b58ad4886ea82dc4cf281fbc0c05295df983b52a463d2d",
+          "frameIndex": 4,
+          "frameHash": "f9793e4758295b81b1e1e80162751eee623768a52f40ff645f201647670a5199",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2513
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/nova-stitch-pass-right.webp",
+          "sourceSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+          "frameIndex": 2,
+          "frameHash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1669
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+          "sourceSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+          "frameIndex": 2,
+          "frameHash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1619
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+          "sourceSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+          "frameIndex": 2,
+          "frameHash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1949
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/nova-stitch-receive-right.webp",
+          "sourceSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+          "frameIndex": 1,
+          "frameHash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1072
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/nova-stitch-pickup-right.webp",
+          "sourceSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+          "frameIndex": 2,
+          "frameHash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1480
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/nova-stitch-layup-right.webp",
+          "sourceSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+          "frameIndex": 3,
+          "frameHash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2008
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+          "sourceSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+          "frameIndex": 3,
+          "frameHash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2227
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/nova-stitch-block-right.webp",
+          "sourceSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+          "frameIndex": 1,
+          "frameHash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1108
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/nova-stitch-steal-right.webp",
+          "sourceSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+          "frameIndex": 3,
+          "frameHash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2451
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/nova-stitch-push-right.webp",
+          "sourceSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+          "frameIndex": 5,
+          "frameHash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4017
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/nova-stitch-rebound-right.webp",
+          "sourceSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+          "frameIndex": 2,
+          "frameHash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1300
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/nova-stitch-fall-right.webp",
+          "sourceSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+          "frameIndex": 4,
+          "frameHash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+          "sourceSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+          "frameIndex": 4,
+          "frameHash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3361
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+          "sourceSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+          "frameIndex": 7,
+          "frameHash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4842
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+          "sourceSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+          "frameIndex": 7,
+          "frameHash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4536
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+          "sourceSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+          "frameIndex": 7,
+          "frameHash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4891
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+          "sourceSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+          "frameIndex": 7,
+          "frameHash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5577
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+          "sourceSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+          "frameIndex": 7,
+          "frameHash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3913
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+          "sourceSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+          "frameIndex": 7,
+          "frameHash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4570
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+          "sourceSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+          "frameIndex": 7,
+          "frameHash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4608
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+          "sourceSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+          "frameIndex": 7,
+          "frameHash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5416
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+          "sourceSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+          "frameIndex": 7,
+          "frameHash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5752
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+          "sourceSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+          "frameIndex": 7,
+          "frameHash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5524
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "teamId": "thornvale-breakers",
+      "teamName": "Thornvale Breakers",
+      "playerId": "cade-brixton",
+      "palette": [
+        "#29282c",
+        "#713a79"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/nova-stitch-idle-right.webp",
+          "sourceSha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
+          "frameIndex": 2,
+          "frameHash": "7ce3d5348365204b569ff1873c88a5c0df994c4812a02a96d6bd0cd8b0c22b63",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2295
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/nova-stitch-idle-ball-right.webp",
+          "sourceSha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
+          "frameIndex": 1,
+          "frameHash": "cc6a92cfd58a297a91a2e0ef62d591a5989d6117b3e55d2896e123199691865e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1299
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/nova-stitch-dribble-right.webp",
+          "sourceSha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
+          "frameIndex": 4,
+          "frameHash": "e69b5c90941d094bacd75c223c84f8344a1817d66481c59ada15325673e3ccd7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4339
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/nova-stitch-run-right.webp",
+          "sourceSha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
+          "frameIndex": 5,
+          "frameHash": "a7b8fef61c152445fa83bcf45e9ae97338dd0d4f531d89539c493688cf4e8ee1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4024
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/nova-stitch-dribble-run-right.webp",
+          "sourceSha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
+          "frameIndex": 5,
+          "frameHash": "be4e0334e80b37de65f53e7bc65b95d88c0234507f15d328a5804b66f089cddf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4915
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/nova-stitch-shoot-right.webp",
+          "sourceSha256": "f11aff261ebb12dbd1b58ad4886ea82dc4cf281fbc0c05295df983b52a463d2d",
+          "frameIndex": 4,
+          "frameHash": "f9793e4758295b81b1e1e80162751eee623768a52f40ff645f201647670a5199",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2513
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/nova-stitch-pass-right.webp",
+          "sourceSha256": "a29a02a9d2117e656c063041997d8a004555eba304b5394d74ca916d133539bf",
+          "frameIndex": 2,
+          "frameHash": "8dc815b4609574bba57f60a5d60ed491517103ceae23f2bd4a53ac6a360551b4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1669
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/nova-stitch-pass-overhead-right.webp",
+          "sourceSha256": "7619f060ce07863e8059227fb07e8561284f107c7b306feb9d7c570439999e09",
+          "frameIndex": 2,
+          "frameHash": "620cd6d3329b3ae3625637d59e0b87dc005ec5dea9611b41e4763fb90f247bee",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1619
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/nova-stitch-pass-behind-right.webp",
+          "sourceSha256": "23eda96f69cf2d0d92474018d8a0ed4f2d7cbfab760e4de1cec224989ca14586",
+          "frameIndex": 2,
+          "frameHash": "31b26aedffa706d262bf3a57085830d36d8e54390344e2d88b0b1cc2c0c38867",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1949
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/nova-stitch-receive-right.webp",
+          "sourceSha256": "08e84af8e1d8085f521926d743ec0b8e191959acd1f95368958c93d80e8defcd",
+          "frameIndex": 1,
+          "frameHash": "e6a7247aa510cddcedd49a8b54abc26b038736642381da4e19b439bc9a28d721",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1072
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/nova-stitch-pickup-right.webp",
+          "sourceSha256": "d9ac61b5bd6af56d4c25b9ecab9d131cdd8d5683b760c092e2d60be65fd0e96e",
+          "frameIndex": 2,
+          "frameHash": "387a42d79a59c913d6a753a48466e57f1184060aedadfc50f5d6fd5c791da1e5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1480
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/nova-stitch-layup-right.webp",
+          "sourceSha256": "c0ee9cb5fc387b860879af793dbae95c48cee9c4850330215a3387ad1887b279",
+          "frameIndex": 3,
+          "frameHash": "4e31b3d666176dfeab8dc92e7801aa8903d86f197d1f0664e673aa20ea235170",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2008
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/nova-stitch-layup-reverse-right.webp",
+          "sourceSha256": "0c8c0e79a9170678f764f0faed3d68ed6772bae7af852fd161f0d0e77a452b59",
+          "frameIndex": 3,
+          "frameHash": "fc046c316ec9f55a4c55839ce7a377c6bcb68e31bb87e0278bc85371c533d007",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2227
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/nova-stitch-block-right.webp",
+          "sourceSha256": "41bb1a00cef7495c6149d4fad11a70913296febb6b45e89433caa1264ad01c7a",
+          "frameIndex": 1,
+          "frameHash": "591729880ed4c0f175a76a2d6d5a8f478f1e8841a0c83375a2d8931d777d87f1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1108
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/nova-stitch-steal-right.webp",
+          "sourceSha256": "18b41791802728cf492b5df9cef89e652a1aa6e3e978424237883e7640e03edb",
+          "frameIndex": 3,
+          "frameHash": "65521d029dccced99a055404cb325f988e0044d6c5ca0d668f2ad9c93a719980",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2451
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/nova-stitch-push-right.webp",
+          "sourceSha256": "04a45120d8d983b11a0f69f472439973cf6bf8ec53e438b38b00853ca4172edb",
+          "frameIndex": 5,
+          "frameHash": "0495b6e438f6763ec00f4ecef769107e5ad025204aac1227741ba9632cfffe26",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4017
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/nova-stitch-rebound-right.webp",
+          "sourceSha256": "3fc0dfe77a1eec4f65ea56e21eb094d3499d72b9915ab2d6c8d94e325b132fea",
+          "frameIndex": 2,
+          "frameHash": "56d676cd5bad247fd670b350615c41ef8c92bd3ec9867c9b6b2f616a4810deec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1300
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/nova-stitch-fall-right.webp",
+          "sourceSha256": "e9d5370cc8368af2c3b6fcf57ba479833362a4eadada7711ac7f365a58f6eaaa",
+          "frameIndex": 4,
+          "frameHash": "1a1e13fe0e3351ee8f61399a02e8d0784449f23af1d642263b62e071040ae434",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/nova-stitch-celebrate-right.webp",
+          "sourceSha256": "f2f07c367b19e6ccfe94e3381e65d5c013602b39026d4926390ddb82cde8941f",
+          "frameIndex": 4,
+          "frameHash": "8f1187a642276dd12cdbedf055670b2469e6336fe5ed6e8246c2b3baf5b179fe",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3361
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/nova-stitch-dunk-power-right.webp",
+          "sourceSha256": "d4ae58a9a241b56c6ae9200ff1e5427a345374bb862d28b24a6759b08fc74b58",
+          "frameIndex": 7,
+          "frameHash": "37ce0e7d9d82714f2afed5e0120c996134533ab1f598afe2390346fd728d17a2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4842
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/nova-stitch-dunk-windmill-right.webp",
+          "sourceSha256": "952f0df6656fc283783ca4f724d6ae8797886f26fda490276d07c18661d4b386",
+          "frameIndex": 7,
+          "frameHash": "8683362bd78af06f91a97820d938974549750f340394b3b37826d7e2d3640c4d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4536
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/nova-stitch-dunk-reverse-right.webp",
+          "sourceSha256": "a5645ae118e3b5c6b02d2cd297f26fac47118dd3d3d3211f8e3badf5b76d0ab4",
+          "frameIndex": 7,
+          "frameHash": "1c1495db344b3aeb8404302eedd16fe54343b5dde06d208c3f0fe2933e1dfbea",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4891
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/nova-stitch-dunk-360-right.webp",
+          "sourceSha256": "8632e3c4be9648f54d9b5ee891262feeb6b01248934b7e2a6d63ed11fdae2385",
+          "frameIndex": 7,
+          "frameHash": "a496de8903768a7f619c9ade771d1cb44676525edbcaca529778c13713f13cca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5577
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/nova-stitch-dunk-tomahawk-right.webp",
+          "sourceSha256": "5dd773804fc94e2f15b780cb0fadf1382e9fdcad1de4ce71c028ad80b0c5b138",
+          "frameIndex": 7,
+          "frameHash": "14daba8f828f1324a613f286366e4ab7a70b30ea9b1c08d5662e37cf1b43850b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3913
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/nova-stitch-dunk-double-right.webp",
+          "sourceSha256": "d38eabb0a1197ec9e1643aa8537731bf860f3558cbff95a53aa15d850dfb1d1e",
+          "frameIndex": 7,
+          "frameHash": "5aa9a92b22b3d49b6cf7278eb6c6363e99386066f1f3058f2cecb76c5df54dc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4570
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/nova-stitch-dunk-clutch-right.webp",
+          "sourceSha256": "d750381d973b71c78aa279b77b7f2d69df2734e395d0e8b70d8d7580624b5a8b",
+          "frameIndex": 7,
+          "frameHash": "997e8b3375a51a13add720d21f7a8254a64e4889931935f5c4e68a57805535c6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4608
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/nova-stitch-dunk-scythe-right.webp",
+          "sourceSha256": "d06ec7260e9a64f7c043e7bc9f604c6e9b57b4b2658b74391744faf57713613e",
+          "frameIndex": 7,
+          "frameHash": "e63f015d1fac9aa5edeb2ef4c2f14cae54ddf47d85f85d375a37477f54899296",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5416
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-power-right.webp",
+          "sourceSha256": "9ad89d5aefc13497ef5f7b87b63d3958d0ed78f059cfdcb8375682c90ce3a5e6",
+          "frameIndex": 7,
+          "frameHash": "62092f8d2ccb452ccbb98bbcb2091bb0f978f166312cb98816ebad167bf1c19a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5752
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/nova-stitch-alley-oop-reverse-right.webp",
+          "sourceSha256": "615afffd7bcf9ee2cc652721d0df5acddeb2502ece64597941d6a3b694958099",
+          "frameIndex": 7,
+          "frameHash": "5786d683613da6ae43cdde7f605a6850124e35fa22c234ee4c4d9094a8b586c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5524
+        }
+      ]
+    }
+  ]
+}

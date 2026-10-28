@@ -1,0 +1,2552 @@
+{
+  "donorId": "echo-catwalk",
+  "profile": "echo-v7-reviewed",
+  "maskProfile": {
+    "id": "echo-v7-reviewed",
+    "status": "accepted",
+    "jersey": {
+      "region": {
+        "x": [
+          0.08,
+          0.92
+        ],
+        "y": [
+          0.28,
+          0.82
+        ]
+      },
+      "hue": [
+        165,
+        215
+      ],
+      "chromaMin": 22,
+      "luma": [
+        24,
+        248
+      ],
+      "sourceColor": "#159d9b"
+    },
+    "shorts": {
+      "region": {
+        "x": [
+          0.18,
+          0.82
+        ],
+        "y": [
+          0.53,
+          0.79
+        ]
+      },
+      "hue": [
+        195,
+        310
+      ],
+      "chromaMin": 28,
+      "luma": [
+        18,
+        160
+      ],
+      "sourceColor": "#243a4e"
+    },
+    "legacyV7": true,
+    "review": {
+      "status": "accepted",
+      "reviewedAt": "2026-10-28",
+      "reviewer": "independent visual review",
+      "scope": "9 mapped target palettes × 29 required clips per donor; enlarged pose-family checks; source alpha compared across every derived clip frame",
+      "evidence": "docs/animation-production/supporting-donor-palette-reviews/echo-catwalk/",
+      "alphaMismatchPixels": 0
+    },
+    "clips": {}
+  },
+  "clipColumns": [
+    "idle",
+    "idle-ball",
+    "dribble",
+    "run",
+    "dribble-run",
+    "shoot",
+    "pass",
+    "pass-overhead",
+    "pass-behind",
+    "receive",
+    "pickup",
+    "layup",
+    "layup-reverse",
+    "block",
+    "steal",
+    "push",
+    "rebound",
+    "fall",
+    "celebrate",
+    "dunk-power",
+    "dunk-windmill",
+    "dunk-reverse",
+    "dunk-360",
+    "dunk-tomahawk",
+    "dunk-double",
+    "dunk-clutch",
+    "dunk-scythe",
+    "alley-oop-power",
+    "alley-oop-reverse"
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "teamId": "crownfire-sovereigns",
+      "teamName": "Crownfire Sovereigns",
+      "playerId": "cinder-royal",
+      "palette": [
+        "#18385d",
+        "#d8ad49"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/echo-catwalk-idle-right.webp",
+          "sourceSha256": "19044ab7b1a98476c6a160d65ac316b450d2be76dbbe7176507ad8f52cc0421c",
+          "frameIndex": 2,
+          "frameHash": "7539582d3a8662af7226663675a9671d9120f13c931eb9671a00db3dd6966eb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3595
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+          "sourceSha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2",
+          "frameIndex": 1,
+          "frameHash": "3afc26faeda798dda70e82adfa2350291ec4ccfd22a0b2ea57d80d58952e9cdc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1967
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/echo-catwalk-dribble-right.webp",
+          "sourceSha256": "a77f5e0bc8e8dbc3b685bba7eb01b1acbcfbf8131b1fbe1c56130b544b820812",
+          "frameIndex": 4,
+          "frameHash": "cb9e499f3f5d8cc6521e2b34023146c9d6212d0ac46241b66c89fa97cf6914df",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4295
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/echo-catwalk-run-right.webp",
+          "sourceSha256": "00711ee1a103bbfecd4c30e6fc6b30ae3f92b727c9ebd74a365b9260e8c3eed7",
+          "frameIndex": 5,
+          "frameHash": "49790d1527a41052e0551deb50eda74148b923992cccc2e74093b2f9b632fecd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4913
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/echo-catwalk-dribble-run-right.webp",
+          "sourceSha256": "33e46c02bf40c0e67c3bf4097224502bb1737248264badea40796dbdb225b37d",
+          "frameIndex": 5,
+          "frameHash": "bc4a31c12f794cb79c1d5acd60e2c1b88a1f0408c0206b34cae23334a7c73cde",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4322
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+          "sourceSha256": "9cf20a751740650824ec46d45e8642bd12ee3b5d1bcebe3709ce22c10a98a641",
+          "frameIndex": 4,
+          "frameHash": "1f329abe0b3af3a3c276f0ca1a53fa54a5326e0ff57344eef38ca6baeed6bdcb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4198
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/echo-catwalk-pass-right.webp",
+          "sourceSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+          "frameIndex": 2,
+          "frameHash": "6060096cfe5cf63240f8ced6d18cbc24d73a9350579f5f46262c8092020956f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3007
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+          "sourceSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+          "frameIndex": 2,
+          "frameHash": "f343c9b46c4e86fb162b3677e5acc13b8294b2d636fa58c0a2830728a6c9999a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2202
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+          "sourceSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+          "frameIndex": 2,
+          "frameHash": "2faff278777f7bbab86bb0ddc6133acd0d72a7ae15d36c28b1e556e924039384",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3111
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/echo-catwalk-receive-right.webp",
+          "sourceSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+          "frameIndex": 1,
+          "frameHash": "6b1ada147bb199b379c9da0b44d07d5b612a84d9e7de15b344479023319dbab4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2289
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+          "sourceSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+          "frameIndex": 2,
+          "frameHash": "bc7b985e5762049c6c87a6ea5e954e339ab6bd65d101e9ea0961fd7ec2d7e8cc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2515
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/echo-catwalk-layup-right.webp",
+          "sourceSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+          "frameIndex": 3,
+          "frameHash": "c0e5f34c957c76c7bcb0a8ce09efcdaeb9e3f8775f70fbfb4dce1de7631194b3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2953
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+          "sourceSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+          "frameIndex": 3,
+          "frameHash": "5a74b7c3215043d645fb99c99bc0437df386bf25960434a20f82cd88ad698345",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3600
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/echo-catwalk-block-right.webp",
+          "sourceSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+          "frameIndex": 1,
+          "frameHash": "5f8eaf0ba2f43c427635a023d5f5380980552251ebedd9a645ef535d3747d6d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1760
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/echo-catwalk-steal-right.webp",
+          "sourceSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+          "frameIndex": 3,
+          "frameHash": "f2e9b41b2ab9e7a3bb924e358041029b6f913ce70ef260718aed84b407c9f32d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4472
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/echo-catwalk-push-right.webp",
+          "sourceSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+          "frameIndex": 5,
+          "frameHash": "a8981322b27d30193f1f551b5f579ad7e883b8a8b6d1d00e78a0c928a5731ec8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6362
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+          "sourceSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+          "frameIndex": 2,
+          "frameHash": "6939dbc528fa04f2c2d14c9e8e39975ef6f692e870866650ba4d392ab1f38e1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2092
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/echo-catwalk-fall-right.webp",
+          "sourceSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+          "frameIndex": 4,
+          "frameHash": "7a0b6f0decb5e20620bb50a9f26c7f8c1954fe219e2f99bb563088b58fd5853f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4485
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+          "sourceSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+          "frameIndex": 4,
+          "frameHash": "4f050625585ff35eab8b96700cb5e4bbfeae65035350155f2cf8a5a3a94ee6cf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4435
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+          "sourceSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+          "frameIndex": 7,
+          "frameHash": "341ab3d084eefb21465b810179791667bdd5e82a5974048973ba935e7e42a1dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6673
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+          "sourceSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+          "frameIndex": 7,
+          "frameHash": "44e0b3d5466b2ae6256c1f03a1e45f8a943aa5f21a04e1bd49950a5538b030b6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7050
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+          "sourceSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+          "frameIndex": 7,
+          "frameHash": "408badcd9748fbfdc5be770e980f906f6b9385ae9fdf477d67543c79b431e4dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7404
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+          "sourceSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+          "frameIndex": 7,
+          "frameHash": "d8a600cd355d2701ec3e4a45a96e7e0209aebbe042a872214c07459b4739ac11",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8020
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+          "sourceSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+          "frameIndex": 7,
+          "frameHash": "e05a672b300b4dd1dc8a88ae2474da8a873647545041ec67dd2d64f48d8119f6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6990
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+          "sourceSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+          "frameIndex": 7,
+          "frameHash": "4969b733fbeb2121aeadae72ba6e89bb6edc23f50b62b26bf7d3be6ad8827c3e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6902
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+          "sourceSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+          "frameIndex": 7,
+          "frameHash": "410e9893f96e77c024d2929349348bb9dc51f9863350ae875da0800850b3afc4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6087
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+          "sourceSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+          "frameIndex": 7,
+          "frameHash": "4ad1f70d94651203ab0ef3c00f8181be179bc40154650948f56d16ee83f37691",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6972
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+          "sourceSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+          "frameIndex": 7,
+          "frameHash": "63e8877326c7297eac2bfebedff15fe9cde7cf7663e82ae5224e1f3bf883fc3b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6737
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+          "sourceSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+          "frameIndex": 7,
+          "frameHash": "a7c8c4d442581ce8440cb0adf7dbbc268013a60903fa7b5c0820eddb0bb74442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6970
+        }
+      ]
+    },
+    {
+      "row": 1,
+      "teamId": "duskmere-nightwings",
+      "teamName": "Duskmere Nightwings",
+      "playerId": "owl-argent",
+      "palette": [
+        "#423760",
+        "#b0a7c0"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/echo-catwalk-idle-right.webp",
+          "sourceSha256": "19044ab7b1a98476c6a160d65ac316b450d2be76dbbe7176507ad8f52cc0421c",
+          "frameIndex": 2,
+          "frameHash": "7539582d3a8662af7226663675a9671d9120f13c931eb9671a00db3dd6966eb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3595
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+          "sourceSha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2",
+          "frameIndex": 1,
+          "frameHash": "3afc26faeda798dda70e82adfa2350291ec4ccfd22a0b2ea57d80d58952e9cdc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1967
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/echo-catwalk-dribble-right.webp",
+          "sourceSha256": "a77f5e0bc8e8dbc3b685bba7eb01b1acbcfbf8131b1fbe1c56130b544b820812",
+          "frameIndex": 4,
+          "frameHash": "cb9e499f3f5d8cc6521e2b34023146c9d6212d0ac46241b66c89fa97cf6914df",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4295
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/echo-catwalk-run-right.webp",
+          "sourceSha256": "00711ee1a103bbfecd4c30e6fc6b30ae3f92b727c9ebd74a365b9260e8c3eed7",
+          "frameIndex": 5,
+          "frameHash": "49790d1527a41052e0551deb50eda74148b923992cccc2e74093b2f9b632fecd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4913
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/echo-catwalk-dribble-run-right.webp",
+          "sourceSha256": "33e46c02bf40c0e67c3bf4097224502bb1737248264badea40796dbdb225b37d",
+          "frameIndex": 5,
+          "frameHash": "bc4a31c12f794cb79c1d5acd60e2c1b88a1f0408c0206b34cae23334a7c73cde",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4322
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+          "sourceSha256": "9cf20a751740650824ec46d45e8642bd12ee3b5d1bcebe3709ce22c10a98a641",
+          "frameIndex": 4,
+          "frameHash": "1f329abe0b3af3a3c276f0ca1a53fa54a5326e0ff57344eef38ca6baeed6bdcb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4198
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/echo-catwalk-pass-right.webp",
+          "sourceSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+          "frameIndex": 2,
+          "frameHash": "6060096cfe5cf63240f8ced6d18cbc24d73a9350579f5f46262c8092020956f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3007
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+          "sourceSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+          "frameIndex": 2,
+          "frameHash": "f343c9b46c4e86fb162b3677e5acc13b8294b2d636fa58c0a2830728a6c9999a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2202
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+          "sourceSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+          "frameIndex": 2,
+          "frameHash": "2faff278777f7bbab86bb0ddc6133acd0d72a7ae15d36c28b1e556e924039384",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3111
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/echo-catwalk-receive-right.webp",
+          "sourceSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+          "frameIndex": 1,
+          "frameHash": "6b1ada147bb199b379c9da0b44d07d5b612a84d9e7de15b344479023319dbab4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2289
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+          "sourceSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+          "frameIndex": 2,
+          "frameHash": "bc7b985e5762049c6c87a6ea5e954e339ab6bd65d101e9ea0961fd7ec2d7e8cc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2515
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/echo-catwalk-layup-right.webp",
+          "sourceSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+          "frameIndex": 3,
+          "frameHash": "c0e5f34c957c76c7bcb0a8ce09efcdaeb9e3f8775f70fbfb4dce1de7631194b3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2953
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+          "sourceSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+          "frameIndex": 3,
+          "frameHash": "5a74b7c3215043d645fb99c99bc0437df386bf25960434a20f82cd88ad698345",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3600
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/echo-catwalk-block-right.webp",
+          "sourceSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+          "frameIndex": 1,
+          "frameHash": "5f8eaf0ba2f43c427635a023d5f5380980552251ebedd9a645ef535d3747d6d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1760
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/echo-catwalk-steal-right.webp",
+          "sourceSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+          "frameIndex": 3,
+          "frameHash": "f2e9b41b2ab9e7a3bb924e358041029b6f913ce70ef260718aed84b407c9f32d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4472
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/echo-catwalk-push-right.webp",
+          "sourceSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+          "frameIndex": 5,
+          "frameHash": "a8981322b27d30193f1f551b5f579ad7e883b8a8b6d1d00e78a0c928a5731ec8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6362
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+          "sourceSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+          "frameIndex": 2,
+          "frameHash": "6939dbc528fa04f2c2d14c9e8e39975ef6f692e870866650ba4d392ab1f38e1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2092
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/echo-catwalk-fall-right.webp",
+          "sourceSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+          "frameIndex": 4,
+          "frameHash": "7a0b6f0decb5e20620bb50a9f26c7f8c1954fe219e2f99bb563088b58fd5853f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4485
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+          "sourceSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+          "frameIndex": 4,
+          "frameHash": "4f050625585ff35eab8b96700cb5e4bbfeae65035350155f2cf8a5a3a94ee6cf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4435
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+          "sourceSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+          "frameIndex": 7,
+          "frameHash": "341ab3d084eefb21465b810179791667bdd5e82a5974048973ba935e7e42a1dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6673
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+          "sourceSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+          "frameIndex": 7,
+          "frameHash": "44e0b3d5466b2ae6256c1f03a1e45f8a943aa5f21a04e1bd49950a5538b030b6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7050
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+          "sourceSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+          "frameIndex": 7,
+          "frameHash": "408badcd9748fbfdc5be770e980f906f6b9385ae9fdf477d67543c79b431e4dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7404
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+          "sourceSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+          "frameIndex": 7,
+          "frameHash": "d8a600cd355d2701ec3e4a45a96e7e0209aebbe042a872214c07459b4739ac11",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8020
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+          "sourceSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+          "frameIndex": 7,
+          "frameHash": "e05a672b300b4dd1dc8a88ae2474da8a873647545041ec67dd2d64f48d8119f6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6990
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+          "sourceSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+          "frameIndex": 7,
+          "frameHash": "4969b733fbeb2121aeadae72ba6e89bb6edc23f50b62b26bf7d3be6ad8827c3e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6902
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+          "sourceSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+          "frameIndex": 7,
+          "frameHash": "410e9893f96e77c024d2929349348bb9dc51f9863350ae875da0800850b3afc4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6087
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+          "sourceSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+          "frameIndex": 7,
+          "frameHash": "4ad1f70d94651203ab0ef3c00f8181be179bc40154650948f56d16ee83f37691",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6972
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+          "sourceSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+          "frameIndex": 7,
+          "frameHash": "63e8877326c7297eac2bfebedff15fe9cde7cf7663e82ae5224e1f3bf883fc3b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6737
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+          "sourceSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+          "frameIndex": 7,
+          "frameHash": "a7c8c4d442581ce8440cb0adf7dbbc268013a60903fa7b5c0820eddb0bb74442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6970
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "teamId": "emberwood-kits",
+      "teamName": "Emberwood Kits",
+      "playerId": "briar-foxglove",
+      "palette": [
+        "#b64d27",
+        "#f2d6aa"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/echo-catwalk-idle-right.webp",
+          "sourceSha256": "19044ab7b1a98476c6a160d65ac316b450d2be76dbbe7176507ad8f52cc0421c",
+          "frameIndex": 2,
+          "frameHash": "7539582d3a8662af7226663675a9671d9120f13c931eb9671a00db3dd6966eb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3595
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+          "sourceSha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2",
+          "frameIndex": 1,
+          "frameHash": "3afc26faeda798dda70e82adfa2350291ec4ccfd22a0b2ea57d80d58952e9cdc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1967
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/echo-catwalk-dribble-right.webp",
+          "sourceSha256": "a77f5e0bc8e8dbc3b685bba7eb01b1acbcfbf8131b1fbe1c56130b544b820812",
+          "frameIndex": 4,
+          "frameHash": "cb9e499f3f5d8cc6521e2b34023146c9d6212d0ac46241b66c89fa97cf6914df",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4295
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/echo-catwalk-run-right.webp",
+          "sourceSha256": "00711ee1a103bbfecd4c30e6fc6b30ae3f92b727c9ebd74a365b9260e8c3eed7",
+          "frameIndex": 5,
+          "frameHash": "49790d1527a41052e0551deb50eda74148b923992cccc2e74093b2f9b632fecd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4913
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/echo-catwalk-dribble-run-right.webp",
+          "sourceSha256": "33e46c02bf40c0e67c3bf4097224502bb1737248264badea40796dbdb225b37d",
+          "frameIndex": 5,
+          "frameHash": "bc4a31c12f794cb79c1d5acd60e2c1b88a1f0408c0206b34cae23334a7c73cde",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4322
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+          "sourceSha256": "9cf20a751740650824ec46d45e8642bd12ee3b5d1bcebe3709ce22c10a98a641",
+          "frameIndex": 4,
+          "frameHash": "1f329abe0b3af3a3c276f0ca1a53fa54a5326e0ff57344eef38ca6baeed6bdcb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4198
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/echo-catwalk-pass-right.webp",
+          "sourceSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+          "frameIndex": 2,
+          "frameHash": "6060096cfe5cf63240f8ced6d18cbc24d73a9350579f5f46262c8092020956f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3007
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+          "sourceSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+          "frameIndex": 2,
+          "frameHash": "f343c9b46c4e86fb162b3677e5acc13b8294b2d636fa58c0a2830728a6c9999a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2202
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+          "sourceSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+          "frameIndex": 2,
+          "frameHash": "2faff278777f7bbab86bb0ddc6133acd0d72a7ae15d36c28b1e556e924039384",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3111
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/echo-catwalk-receive-right.webp",
+          "sourceSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+          "frameIndex": 1,
+          "frameHash": "6b1ada147bb199b379c9da0b44d07d5b612a84d9e7de15b344479023319dbab4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2289
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+          "sourceSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+          "frameIndex": 2,
+          "frameHash": "bc7b985e5762049c6c87a6ea5e954e339ab6bd65d101e9ea0961fd7ec2d7e8cc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2515
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/echo-catwalk-layup-right.webp",
+          "sourceSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+          "frameIndex": 3,
+          "frameHash": "c0e5f34c957c76c7bcb0a8ce09efcdaeb9e3f8775f70fbfb4dce1de7631194b3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2953
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+          "sourceSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+          "frameIndex": 3,
+          "frameHash": "5a74b7c3215043d645fb99c99bc0437df386bf25960434a20f82cd88ad698345",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3600
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/echo-catwalk-block-right.webp",
+          "sourceSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+          "frameIndex": 1,
+          "frameHash": "5f8eaf0ba2f43c427635a023d5f5380980552251ebedd9a645ef535d3747d6d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1760
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/echo-catwalk-steal-right.webp",
+          "sourceSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+          "frameIndex": 3,
+          "frameHash": "f2e9b41b2ab9e7a3bb924e358041029b6f913ce70ef260718aed84b407c9f32d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4472
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/echo-catwalk-push-right.webp",
+          "sourceSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+          "frameIndex": 5,
+          "frameHash": "a8981322b27d30193f1f551b5f579ad7e883b8a8b6d1d00e78a0c928a5731ec8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6362
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+          "sourceSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+          "frameIndex": 2,
+          "frameHash": "6939dbc528fa04f2c2d14c9e8e39975ef6f692e870866650ba4d392ab1f38e1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2092
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/echo-catwalk-fall-right.webp",
+          "sourceSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+          "frameIndex": 4,
+          "frameHash": "7a0b6f0decb5e20620bb50a9f26c7f8c1954fe219e2f99bb563088b58fd5853f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4485
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+          "sourceSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+          "frameIndex": 4,
+          "frameHash": "4f050625585ff35eab8b96700cb5e4bbfeae65035350155f2cf8a5a3a94ee6cf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4435
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+          "sourceSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+          "frameIndex": 7,
+          "frameHash": "341ab3d084eefb21465b810179791667bdd5e82a5974048973ba935e7e42a1dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6673
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+          "sourceSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+          "frameIndex": 7,
+          "frameHash": "44e0b3d5466b2ae6256c1f03a1e45f8a943aa5f21a04e1bd49950a5538b030b6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7050
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+          "sourceSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+          "frameIndex": 7,
+          "frameHash": "408badcd9748fbfdc5be770e980f906f6b9385ae9fdf477d67543c79b431e4dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7404
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+          "sourceSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+          "frameIndex": 7,
+          "frameHash": "d8a600cd355d2701ec3e4a45a96e7e0209aebbe042a872214c07459b4739ac11",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8020
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+          "sourceSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+          "frameIndex": 7,
+          "frameHash": "e05a672b300b4dd1dc8a88ae2474da8a873647545041ec67dd2d64f48d8119f6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6990
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+          "sourceSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+          "frameIndex": 7,
+          "frameHash": "4969b733fbeb2121aeadae72ba6e89bb6edc23f50b62b26bf7d3be6ad8827c3e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6902
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+          "sourceSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+          "frameIndex": 7,
+          "frameHash": "410e9893f96e77c024d2929349348bb9dc51f9863350ae875da0800850b3afc4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6087
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+          "sourceSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+          "frameIndex": 7,
+          "frameHash": "4ad1f70d94651203ab0ef3c00f8181be179bc40154650948f56d16ee83f37691",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6972
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+          "sourceSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+          "frameIndex": 7,
+          "frameHash": "63e8877326c7297eac2bfebedff15fe9cde7cf7663e82ae5224e1f3bf883fc3b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6737
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+          "sourceSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+          "frameIndex": 7,
+          "frameHash": "a7c8c4d442581ce8440cb0adf7dbbc268013a60903fa7b5c0820eddb0bb74442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6970
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "teamId": "gildforge-titans",
+      "teamName": "Gildforge Titans",
+      "playerId": "bronze-calder",
+      "palette": [
+        "#295485",
+        "#dfa949"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/echo-catwalk-idle-right.webp",
+          "sourceSha256": "19044ab7b1a98476c6a160d65ac316b450d2be76dbbe7176507ad8f52cc0421c",
+          "frameIndex": 2,
+          "frameHash": "7539582d3a8662af7226663675a9671d9120f13c931eb9671a00db3dd6966eb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3595
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+          "sourceSha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2",
+          "frameIndex": 1,
+          "frameHash": "3afc26faeda798dda70e82adfa2350291ec4ccfd22a0b2ea57d80d58952e9cdc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1967
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/echo-catwalk-dribble-right.webp",
+          "sourceSha256": "a77f5e0bc8e8dbc3b685bba7eb01b1acbcfbf8131b1fbe1c56130b544b820812",
+          "frameIndex": 4,
+          "frameHash": "cb9e499f3f5d8cc6521e2b34023146c9d6212d0ac46241b66c89fa97cf6914df",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4295
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/echo-catwalk-run-right.webp",
+          "sourceSha256": "00711ee1a103bbfecd4c30e6fc6b30ae3f92b727c9ebd74a365b9260e8c3eed7",
+          "frameIndex": 5,
+          "frameHash": "49790d1527a41052e0551deb50eda74148b923992cccc2e74093b2f9b632fecd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4913
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/echo-catwalk-dribble-run-right.webp",
+          "sourceSha256": "33e46c02bf40c0e67c3bf4097224502bb1737248264badea40796dbdb225b37d",
+          "frameIndex": 5,
+          "frameHash": "bc4a31c12f794cb79c1d5acd60e2c1b88a1f0408c0206b34cae23334a7c73cde",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4322
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+          "sourceSha256": "9cf20a751740650824ec46d45e8642bd12ee3b5d1bcebe3709ce22c10a98a641",
+          "frameIndex": 4,
+          "frameHash": "1f329abe0b3af3a3c276f0ca1a53fa54a5326e0ff57344eef38ca6baeed6bdcb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4198
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/echo-catwalk-pass-right.webp",
+          "sourceSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+          "frameIndex": 2,
+          "frameHash": "6060096cfe5cf63240f8ced6d18cbc24d73a9350579f5f46262c8092020956f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3007
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+          "sourceSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+          "frameIndex": 2,
+          "frameHash": "f343c9b46c4e86fb162b3677e5acc13b8294b2d636fa58c0a2830728a6c9999a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2202
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+          "sourceSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+          "frameIndex": 2,
+          "frameHash": "2faff278777f7bbab86bb0ddc6133acd0d72a7ae15d36c28b1e556e924039384",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3111
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/echo-catwalk-receive-right.webp",
+          "sourceSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+          "frameIndex": 1,
+          "frameHash": "6b1ada147bb199b379c9da0b44d07d5b612a84d9e7de15b344479023319dbab4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2289
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+          "sourceSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+          "frameIndex": 2,
+          "frameHash": "bc7b985e5762049c6c87a6ea5e954e339ab6bd65d101e9ea0961fd7ec2d7e8cc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2515
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/echo-catwalk-layup-right.webp",
+          "sourceSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+          "frameIndex": 3,
+          "frameHash": "c0e5f34c957c76c7bcb0a8ce09efcdaeb9e3f8775f70fbfb4dce1de7631194b3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2953
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+          "sourceSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+          "frameIndex": 3,
+          "frameHash": "5a74b7c3215043d645fb99c99bc0437df386bf25960434a20f82cd88ad698345",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3600
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/echo-catwalk-block-right.webp",
+          "sourceSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+          "frameIndex": 1,
+          "frameHash": "5f8eaf0ba2f43c427635a023d5f5380980552251ebedd9a645ef535d3747d6d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1760
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/echo-catwalk-steal-right.webp",
+          "sourceSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+          "frameIndex": 3,
+          "frameHash": "f2e9b41b2ab9e7a3bb924e358041029b6f913ce70ef260718aed84b407c9f32d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4472
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/echo-catwalk-push-right.webp",
+          "sourceSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+          "frameIndex": 5,
+          "frameHash": "a8981322b27d30193f1f551b5f579ad7e883b8a8b6d1d00e78a0c928a5731ec8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6362
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+          "sourceSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+          "frameIndex": 2,
+          "frameHash": "6939dbc528fa04f2c2d14c9e8e39975ef6f692e870866650ba4d392ab1f38e1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2092
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/echo-catwalk-fall-right.webp",
+          "sourceSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+          "frameIndex": 4,
+          "frameHash": "7a0b6f0decb5e20620bb50a9f26c7f8c1954fe219e2f99bb563088b58fd5853f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4485
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+          "sourceSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+          "frameIndex": 4,
+          "frameHash": "4f050625585ff35eab8b96700cb5e4bbfeae65035350155f2cf8a5a3a94ee6cf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4435
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+          "sourceSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+          "frameIndex": 7,
+          "frameHash": "341ab3d084eefb21465b810179791667bdd5e82a5974048973ba935e7e42a1dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6673
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+          "sourceSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+          "frameIndex": 7,
+          "frameHash": "44e0b3d5466b2ae6256c1f03a1e45f8a943aa5f21a04e1bd49950a5538b030b6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7050
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+          "sourceSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+          "frameIndex": 7,
+          "frameHash": "408badcd9748fbfdc5be770e980f906f6b9385ae9fdf477d67543c79b431e4dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7404
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+          "sourceSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+          "frameIndex": 7,
+          "frameHash": "d8a600cd355d2701ec3e4a45a96e7e0209aebbe042a872214c07459b4739ac11",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8020
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+          "sourceSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+          "frameIndex": 7,
+          "frameHash": "e05a672b300b4dd1dc8a88ae2474da8a873647545041ec67dd2d64f48d8119f6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6990
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+          "sourceSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+          "frameIndex": 7,
+          "frameHash": "4969b733fbeb2121aeadae72ba6e89bb6edc23f50b62b26bf7d3be6ad8827c3e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6902
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+          "sourceSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+          "frameIndex": 7,
+          "frameHash": "410e9893f96e77c024d2929349348bb9dc51f9863350ae875da0800850b3afc4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6087
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+          "sourceSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+          "frameIndex": 7,
+          "frameHash": "4ad1f70d94651203ab0ef3c00f8181be179bc40154650948f56d16ee83f37691",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6972
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+          "sourceSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+          "frameIndex": 7,
+          "frameHash": "63e8877326c7297eac2bfebedff15fe9cde7cf7663e82ae5224e1f3bf883fc3b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6737
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+          "sourceSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+          "frameIndex": 7,
+          "frameHash": "a7c8c4d442581ce8440cb0adf7dbbc268013a60903fa7b5c0820eddb0bb74442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6969
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "teamId": "inkspire-razors",
+      "teamName": "Inkspire Razors",
+      "playerId": "nyx-steel",
+      "palette": [
+        "#256346",
+        "#262c2b"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/echo-catwalk-idle-right.webp",
+          "sourceSha256": "19044ab7b1a98476c6a160d65ac316b450d2be76dbbe7176507ad8f52cc0421c",
+          "frameIndex": 2,
+          "frameHash": "7539582d3a8662af7226663675a9671d9120f13c931eb9671a00db3dd6966eb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3595
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+          "sourceSha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2",
+          "frameIndex": 1,
+          "frameHash": "3afc26faeda798dda70e82adfa2350291ec4ccfd22a0b2ea57d80d58952e9cdc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1967
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/echo-catwalk-dribble-right.webp",
+          "sourceSha256": "a77f5e0bc8e8dbc3b685bba7eb01b1acbcfbf8131b1fbe1c56130b544b820812",
+          "frameIndex": 4,
+          "frameHash": "cb9e499f3f5d8cc6521e2b34023146c9d6212d0ac46241b66c89fa97cf6914df",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4295
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/echo-catwalk-run-right.webp",
+          "sourceSha256": "00711ee1a103bbfecd4c30e6fc6b30ae3f92b727c9ebd74a365b9260e8c3eed7",
+          "frameIndex": 5,
+          "frameHash": "49790d1527a41052e0551deb50eda74148b923992cccc2e74093b2f9b632fecd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4913
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/echo-catwalk-dribble-run-right.webp",
+          "sourceSha256": "33e46c02bf40c0e67c3bf4097224502bb1737248264badea40796dbdb225b37d",
+          "frameIndex": 5,
+          "frameHash": "bc4a31c12f794cb79c1d5acd60e2c1b88a1f0408c0206b34cae23334a7c73cde",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4322
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+          "sourceSha256": "9cf20a751740650824ec46d45e8642bd12ee3b5d1bcebe3709ce22c10a98a641",
+          "frameIndex": 4,
+          "frameHash": "1f329abe0b3af3a3c276f0ca1a53fa54a5326e0ff57344eef38ca6baeed6bdcb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4198
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/echo-catwalk-pass-right.webp",
+          "sourceSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+          "frameIndex": 2,
+          "frameHash": "6060096cfe5cf63240f8ced6d18cbc24d73a9350579f5f46262c8092020956f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3007
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+          "sourceSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+          "frameIndex": 2,
+          "frameHash": "f343c9b46c4e86fb162b3677e5acc13b8294b2d636fa58c0a2830728a6c9999a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2202
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+          "sourceSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+          "frameIndex": 2,
+          "frameHash": "2faff278777f7bbab86bb0ddc6133acd0d72a7ae15d36c28b1e556e924039384",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3111
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/echo-catwalk-receive-right.webp",
+          "sourceSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+          "frameIndex": 1,
+          "frameHash": "6b1ada147bb199b379c9da0b44d07d5b612a84d9e7de15b344479023319dbab4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2289
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+          "sourceSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+          "frameIndex": 2,
+          "frameHash": "bc7b985e5762049c6c87a6ea5e954e339ab6bd65d101e9ea0961fd7ec2d7e8cc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2515
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/echo-catwalk-layup-right.webp",
+          "sourceSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+          "frameIndex": 3,
+          "frameHash": "c0e5f34c957c76c7bcb0a8ce09efcdaeb9e3f8775f70fbfb4dce1de7631194b3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2953
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+          "sourceSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+          "frameIndex": 3,
+          "frameHash": "5a74b7c3215043d645fb99c99bc0437df386bf25960434a20f82cd88ad698345",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3600
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/echo-catwalk-block-right.webp",
+          "sourceSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+          "frameIndex": 1,
+          "frameHash": "5f8eaf0ba2f43c427635a023d5f5380980552251ebedd9a645ef535d3747d6d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1760
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/echo-catwalk-steal-right.webp",
+          "sourceSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+          "frameIndex": 3,
+          "frameHash": "f2e9b41b2ab9e7a3bb924e358041029b6f913ce70ef260718aed84b407c9f32d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4472
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/echo-catwalk-push-right.webp",
+          "sourceSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+          "frameIndex": 5,
+          "frameHash": "a8981322b27d30193f1f551b5f579ad7e883b8a8b6d1d00e78a0c928a5731ec8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6362
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+          "sourceSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+          "frameIndex": 2,
+          "frameHash": "6939dbc528fa04f2c2d14c9e8e39975ef6f692e870866650ba4d392ab1f38e1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2092
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/echo-catwalk-fall-right.webp",
+          "sourceSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+          "frameIndex": 4,
+          "frameHash": "7a0b6f0decb5e20620bb50a9f26c7f8c1954fe219e2f99bb563088b58fd5853f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4485
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+          "sourceSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+          "frameIndex": 4,
+          "frameHash": "4f050625585ff35eab8b96700cb5e4bbfeae65035350155f2cf8a5a3a94ee6cf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4435
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+          "sourceSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+          "frameIndex": 7,
+          "frameHash": "341ab3d084eefb21465b810179791667bdd5e82a5974048973ba935e7e42a1dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6673
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+          "sourceSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+          "frameIndex": 7,
+          "frameHash": "44e0b3d5466b2ae6256c1f03a1e45f8a943aa5f21a04e1bd49950a5538b030b6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7050
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+          "sourceSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+          "frameIndex": 7,
+          "frameHash": "408badcd9748fbfdc5be770e980f906f6b9385ae9fdf477d67543c79b431e4dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7404
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+          "sourceSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+          "frameIndex": 7,
+          "frameHash": "d8a600cd355d2701ec3e4a45a96e7e0209aebbe042a872214c07459b4739ac11",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8020
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+          "sourceSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+          "frameIndex": 7,
+          "frameHash": "e05a672b300b4dd1dc8a88ae2474da8a873647545041ec67dd2d64f48d8119f6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6990
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+          "sourceSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+          "frameIndex": 7,
+          "frameHash": "4969b733fbeb2121aeadae72ba6e89bb6edc23f50b62b26bf7d3be6ad8827c3e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6902
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+          "sourceSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+          "frameIndex": 7,
+          "frameHash": "410e9893f96e77c024d2929349348bb9dc51f9863350ae875da0800850b3afc4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6087
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+          "sourceSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+          "frameIndex": 7,
+          "frameHash": "4ad1f70d94651203ab0ef3c00f8181be179bc40154650948f56d16ee83f37691",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6972
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+          "sourceSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+          "frameIndex": 7,
+          "frameHash": "63e8877326c7297eac2bfebedff15fe9cde7cf7663e82ae5224e1f3bf883fc3b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6737
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+          "sourceSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+          "frameIndex": 7,
+          "frameHash": "a7c8c4d442581ce8440cb0adf7dbbc268013a60903fa7b5c0820eddb0bb74442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6970
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "teamId": "lantern-hollow-wombats",
+      "teamName": "Lantern Hollow Wombats",
+      "playerId": "digger-finch",
+      "palette": [
+        "#5b7041",
+        "#d6a64b"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/echo-catwalk-idle-right.webp",
+          "sourceSha256": "19044ab7b1a98476c6a160d65ac316b450d2be76dbbe7176507ad8f52cc0421c",
+          "frameIndex": 2,
+          "frameHash": "7539582d3a8662af7226663675a9671d9120f13c931eb9671a00db3dd6966eb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3595
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+          "sourceSha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2",
+          "frameIndex": 1,
+          "frameHash": "3afc26faeda798dda70e82adfa2350291ec4ccfd22a0b2ea57d80d58952e9cdc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1967
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/echo-catwalk-dribble-right.webp",
+          "sourceSha256": "a77f5e0bc8e8dbc3b685bba7eb01b1acbcfbf8131b1fbe1c56130b544b820812",
+          "frameIndex": 4,
+          "frameHash": "cb9e499f3f5d8cc6521e2b34023146c9d6212d0ac46241b66c89fa97cf6914df",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4295
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/echo-catwalk-run-right.webp",
+          "sourceSha256": "00711ee1a103bbfecd4c30e6fc6b30ae3f92b727c9ebd74a365b9260e8c3eed7",
+          "frameIndex": 5,
+          "frameHash": "49790d1527a41052e0551deb50eda74148b923992cccc2e74093b2f9b632fecd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4913
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/echo-catwalk-dribble-run-right.webp",
+          "sourceSha256": "33e46c02bf40c0e67c3bf4097224502bb1737248264badea40796dbdb225b37d",
+          "frameIndex": 5,
+          "frameHash": "bc4a31c12f794cb79c1d5acd60e2c1b88a1f0408c0206b34cae23334a7c73cde",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4322
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+          "sourceSha256": "9cf20a751740650824ec46d45e8642bd12ee3b5d1bcebe3709ce22c10a98a641",
+          "frameIndex": 4,
+          "frameHash": "1f329abe0b3af3a3c276f0ca1a53fa54a5326e0ff57344eef38ca6baeed6bdcb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4198
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/echo-catwalk-pass-right.webp",
+          "sourceSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+          "frameIndex": 2,
+          "frameHash": "6060096cfe5cf63240f8ced6d18cbc24d73a9350579f5f46262c8092020956f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3007
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+          "sourceSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+          "frameIndex": 2,
+          "frameHash": "f343c9b46c4e86fb162b3677e5acc13b8294b2d636fa58c0a2830728a6c9999a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2202
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+          "sourceSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+          "frameIndex": 2,
+          "frameHash": "2faff278777f7bbab86bb0ddc6133acd0d72a7ae15d36c28b1e556e924039384",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3111
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/echo-catwalk-receive-right.webp",
+          "sourceSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+          "frameIndex": 1,
+          "frameHash": "6b1ada147bb199b379c9da0b44d07d5b612a84d9e7de15b344479023319dbab4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2289
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+          "sourceSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+          "frameIndex": 2,
+          "frameHash": "bc7b985e5762049c6c87a6ea5e954e339ab6bd65d101e9ea0961fd7ec2d7e8cc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2515
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/echo-catwalk-layup-right.webp",
+          "sourceSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+          "frameIndex": 3,
+          "frameHash": "c0e5f34c957c76c7bcb0a8ce09efcdaeb9e3f8775f70fbfb4dce1de7631194b3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2953
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+          "sourceSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+          "frameIndex": 3,
+          "frameHash": "5a74b7c3215043d645fb99c99bc0437df386bf25960434a20f82cd88ad698345",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3600
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/echo-catwalk-block-right.webp",
+          "sourceSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+          "frameIndex": 1,
+          "frameHash": "5f8eaf0ba2f43c427635a023d5f5380980552251ebedd9a645ef535d3747d6d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1760
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/echo-catwalk-steal-right.webp",
+          "sourceSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+          "frameIndex": 3,
+          "frameHash": "f2e9b41b2ab9e7a3bb924e358041029b6f913ce70ef260718aed84b407c9f32d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4472
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/echo-catwalk-push-right.webp",
+          "sourceSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+          "frameIndex": 5,
+          "frameHash": "a8981322b27d30193f1f551b5f579ad7e883b8a8b6d1d00e78a0c928a5731ec8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6362
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+          "sourceSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+          "frameIndex": 2,
+          "frameHash": "6939dbc528fa04f2c2d14c9e8e39975ef6f692e870866650ba4d392ab1f38e1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2092
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/echo-catwalk-fall-right.webp",
+          "sourceSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+          "frameIndex": 4,
+          "frameHash": "7a0b6f0decb5e20620bb50a9f26c7f8c1954fe219e2f99bb563088b58fd5853f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4485
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+          "sourceSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+          "frameIndex": 4,
+          "frameHash": "4f050625585ff35eab8b96700cb5e4bbfeae65035350155f2cf8a5a3a94ee6cf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4435
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+          "sourceSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+          "frameIndex": 7,
+          "frameHash": "341ab3d084eefb21465b810179791667bdd5e82a5974048973ba935e7e42a1dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6673
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+          "sourceSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+          "frameIndex": 7,
+          "frameHash": "44e0b3d5466b2ae6256c1f03a1e45f8a943aa5f21a04e1bd49950a5538b030b6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7050
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+          "sourceSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+          "frameIndex": 7,
+          "frameHash": "408badcd9748fbfdc5be770e980f906f6b9385ae9fdf477d67543c79b431e4dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7404
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+          "sourceSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+          "frameIndex": 7,
+          "frameHash": "d8a600cd355d2701ec3e4a45a96e7e0209aebbe042a872214c07459b4739ac11",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8020
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+          "sourceSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+          "frameIndex": 7,
+          "frameHash": "e05a672b300b4dd1dc8a88ae2474da8a873647545041ec67dd2d64f48d8119f6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6990
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+          "sourceSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+          "frameIndex": 7,
+          "frameHash": "4969b733fbeb2121aeadae72ba6e89bb6edc23f50b62b26bf7d3be6ad8827c3e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6902
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+          "sourceSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+          "frameIndex": 7,
+          "frameHash": "410e9893f96e77c024d2929349348bb9dc51f9863350ae875da0800850b3afc4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6087
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+          "sourceSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+          "frameIndex": 7,
+          "frameHash": "4ad1f70d94651203ab0ef3c00f8181be179bc40154650948f56d16ee83f37691",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6972
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+          "sourceSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+          "frameIndex": 7,
+          "frameHash": "63e8877326c7297eac2bfebedff15fe9cde7cf7663e82ae5224e1f3bf883fc3b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6737
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+          "sourceSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+          "frameIndex": 7,
+          "frameHash": "a7c8c4d442581ce8440cb0adf7dbbc268013a60903fa7b5c0820eddb0bb74442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6970
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "teamId": "nocturne-city-blankfaces",
+      "teamName": "Nocturne City Blankfaces",
+      "playerId": "trace-noire",
+      "palette": [
+        "#242c37",
+        "#9098a1"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/echo-catwalk-idle-right.webp",
+          "sourceSha256": "19044ab7b1a98476c6a160d65ac316b450d2be76dbbe7176507ad8f52cc0421c",
+          "frameIndex": 2,
+          "frameHash": "7539582d3a8662af7226663675a9671d9120f13c931eb9671a00db3dd6966eb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3595
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+          "sourceSha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2",
+          "frameIndex": 1,
+          "frameHash": "3afc26faeda798dda70e82adfa2350291ec4ccfd22a0b2ea57d80d58952e9cdc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1967
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/echo-catwalk-dribble-right.webp",
+          "sourceSha256": "a77f5e0bc8e8dbc3b685bba7eb01b1acbcfbf8131b1fbe1c56130b544b820812",
+          "frameIndex": 4,
+          "frameHash": "cb9e499f3f5d8cc6521e2b34023146c9d6212d0ac46241b66c89fa97cf6914df",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4295
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/echo-catwalk-run-right.webp",
+          "sourceSha256": "00711ee1a103bbfecd4c30e6fc6b30ae3f92b727c9ebd74a365b9260e8c3eed7",
+          "frameIndex": 5,
+          "frameHash": "49790d1527a41052e0551deb50eda74148b923992cccc2e74093b2f9b632fecd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4913
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/echo-catwalk-dribble-run-right.webp",
+          "sourceSha256": "33e46c02bf40c0e67c3bf4097224502bb1737248264badea40796dbdb225b37d",
+          "frameIndex": 5,
+          "frameHash": "bc4a31c12f794cb79c1d5acd60e2c1b88a1f0408c0206b34cae23334a7c73cde",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4322
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+          "sourceSha256": "9cf20a751740650824ec46d45e8642bd12ee3b5d1bcebe3709ce22c10a98a641",
+          "frameIndex": 4,
+          "frameHash": "1f329abe0b3af3a3c276f0ca1a53fa54a5326e0ff57344eef38ca6baeed6bdcb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4198
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/echo-catwalk-pass-right.webp",
+          "sourceSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+          "frameIndex": 2,
+          "frameHash": "6060096cfe5cf63240f8ced6d18cbc24d73a9350579f5f46262c8092020956f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3007
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+          "sourceSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+          "frameIndex": 2,
+          "frameHash": "f343c9b46c4e86fb162b3677e5acc13b8294b2d636fa58c0a2830728a6c9999a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2202
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+          "sourceSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+          "frameIndex": 2,
+          "frameHash": "2faff278777f7bbab86bb0ddc6133acd0d72a7ae15d36c28b1e556e924039384",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3111
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/echo-catwalk-receive-right.webp",
+          "sourceSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+          "frameIndex": 1,
+          "frameHash": "6b1ada147bb199b379c9da0b44d07d5b612a84d9e7de15b344479023319dbab4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2289
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+          "sourceSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+          "frameIndex": 2,
+          "frameHash": "bc7b985e5762049c6c87a6ea5e954e339ab6bd65d101e9ea0961fd7ec2d7e8cc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2515
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/echo-catwalk-layup-right.webp",
+          "sourceSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+          "frameIndex": 3,
+          "frameHash": "c0e5f34c957c76c7bcb0a8ce09efcdaeb9e3f8775f70fbfb4dce1de7631194b3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2953
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+          "sourceSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+          "frameIndex": 3,
+          "frameHash": "5a74b7c3215043d645fb99c99bc0437df386bf25960434a20f82cd88ad698345",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3600
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/echo-catwalk-block-right.webp",
+          "sourceSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+          "frameIndex": 1,
+          "frameHash": "5f8eaf0ba2f43c427635a023d5f5380980552251ebedd9a645ef535d3747d6d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1760
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/echo-catwalk-steal-right.webp",
+          "sourceSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+          "frameIndex": 3,
+          "frameHash": "f2e9b41b2ab9e7a3bb924e358041029b6f913ce70ef260718aed84b407c9f32d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4472
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/echo-catwalk-push-right.webp",
+          "sourceSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+          "frameIndex": 5,
+          "frameHash": "a8981322b27d30193f1f551b5f579ad7e883b8a8b6d1d00e78a0c928a5731ec8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6362
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+          "sourceSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+          "frameIndex": 2,
+          "frameHash": "6939dbc528fa04f2c2d14c9e8e39975ef6f692e870866650ba4d392ab1f38e1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2092
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/echo-catwalk-fall-right.webp",
+          "sourceSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+          "frameIndex": 4,
+          "frameHash": "7a0b6f0decb5e20620bb50a9f26c7f8c1954fe219e2f99bb563088b58fd5853f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4485
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+          "sourceSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+          "frameIndex": 4,
+          "frameHash": "4f050625585ff35eab8b96700cb5e4bbfeae65035350155f2cf8a5a3a94ee6cf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4435
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+          "sourceSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+          "frameIndex": 7,
+          "frameHash": "341ab3d084eefb21465b810179791667bdd5e82a5974048973ba935e7e42a1dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6673
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+          "sourceSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+          "frameIndex": 7,
+          "frameHash": "44e0b3d5466b2ae6256c1f03a1e45f8a943aa5f21a04e1bd49950a5538b030b6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7050
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+          "sourceSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+          "frameIndex": 7,
+          "frameHash": "408badcd9748fbfdc5be770e980f906f6b9385ae9fdf477d67543c79b431e4dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7404
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+          "sourceSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+          "frameIndex": 7,
+          "frameHash": "d8a600cd355d2701ec3e4a45a96e7e0209aebbe042a872214c07459b4739ac11",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8020
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+          "sourceSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+          "frameIndex": 7,
+          "frameHash": "e05a672b300b4dd1dc8a88ae2474da8a873647545041ec67dd2d64f48d8119f6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6990
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+          "sourceSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+          "frameIndex": 7,
+          "frameHash": "4969b733fbeb2121aeadae72ba6e89bb6edc23f50b62b26bf7d3be6ad8827c3e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6902
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+          "sourceSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+          "frameIndex": 7,
+          "frameHash": "410e9893f96e77c024d2929349348bb9dc51f9863350ae875da0800850b3afc4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6087
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+          "sourceSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+          "frameIndex": 7,
+          "frameHash": "4ad1f70d94651203ab0ef3c00f8181be179bc40154650948f56d16ee83f37691",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6972
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+          "sourceSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+          "frameIndex": 7,
+          "frameHash": "63e8877326c7297eac2bfebedff15fe9cde7cf7663e82ae5224e1f3bf883fc3b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6737
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+          "sourceSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+          "frameIndex": 7,
+          "frameHash": "a7c8c4d442581ce8440cb0adf7dbbc268013a60903fa7b5c0820eddb0bb74442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6970
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "teamId": "solstice-coast-surf",
+      "teamName": "Solstice Coast Surf",
+      "playerId": "talia-kestrel",
+      "palette": [
+        "#398e82",
+        "#df8544"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/echo-catwalk-idle-right.webp",
+          "sourceSha256": "19044ab7b1a98476c6a160d65ac316b450d2be76dbbe7176507ad8f52cc0421c",
+          "frameIndex": 2,
+          "frameHash": "7539582d3a8662af7226663675a9671d9120f13c931eb9671a00db3dd6966eb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3595
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+          "sourceSha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2",
+          "frameIndex": 1,
+          "frameHash": "3afc26faeda798dda70e82adfa2350291ec4ccfd22a0b2ea57d80d58952e9cdc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1967
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/echo-catwalk-dribble-right.webp",
+          "sourceSha256": "a77f5e0bc8e8dbc3b685bba7eb01b1acbcfbf8131b1fbe1c56130b544b820812",
+          "frameIndex": 4,
+          "frameHash": "cb9e499f3f5d8cc6521e2b34023146c9d6212d0ac46241b66c89fa97cf6914df",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4295
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/echo-catwalk-run-right.webp",
+          "sourceSha256": "00711ee1a103bbfecd4c30e6fc6b30ae3f92b727c9ebd74a365b9260e8c3eed7",
+          "frameIndex": 5,
+          "frameHash": "49790d1527a41052e0551deb50eda74148b923992cccc2e74093b2f9b632fecd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4913
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/echo-catwalk-dribble-run-right.webp",
+          "sourceSha256": "33e46c02bf40c0e67c3bf4097224502bb1737248264badea40796dbdb225b37d",
+          "frameIndex": 5,
+          "frameHash": "bc4a31c12f794cb79c1d5acd60e2c1b88a1f0408c0206b34cae23334a7c73cde",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4322
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+          "sourceSha256": "9cf20a751740650824ec46d45e8642bd12ee3b5d1bcebe3709ce22c10a98a641",
+          "frameIndex": 4,
+          "frameHash": "1f329abe0b3af3a3c276f0ca1a53fa54a5326e0ff57344eef38ca6baeed6bdcb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4198
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/echo-catwalk-pass-right.webp",
+          "sourceSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+          "frameIndex": 2,
+          "frameHash": "6060096cfe5cf63240f8ced6d18cbc24d73a9350579f5f46262c8092020956f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3007
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+          "sourceSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+          "frameIndex": 2,
+          "frameHash": "f343c9b46c4e86fb162b3677e5acc13b8294b2d636fa58c0a2830728a6c9999a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2202
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+          "sourceSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+          "frameIndex": 2,
+          "frameHash": "2faff278777f7bbab86bb0ddc6133acd0d72a7ae15d36c28b1e556e924039384",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3111
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/echo-catwalk-receive-right.webp",
+          "sourceSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+          "frameIndex": 1,
+          "frameHash": "6b1ada147bb199b379c9da0b44d07d5b612a84d9e7de15b344479023319dbab4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2289
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+          "sourceSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+          "frameIndex": 2,
+          "frameHash": "bc7b985e5762049c6c87a6ea5e954e339ab6bd65d101e9ea0961fd7ec2d7e8cc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2515
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/echo-catwalk-layup-right.webp",
+          "sourceSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+          "frameIndex": 3,
+          "frameHash": "c0e5f34c957c76c7bcb0a8ce09efcdaeb9e3f8775f70fbfb4dce1de7631194b3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2953
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+          "sourceSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+          "frameIndex": 3,
+          "frameHash": "5a74b7c3215043d645fb99c99bc0437df386bf25960434a20f82cd88ad698345",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3600
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/echo-catwalk-block-right.webp",
+          "sourceSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+          "frameIndex": 1,
+          "frameHash": "5f8eaf0ba2f43c427635a023d5f5380980552251ebedd9a645ef535d3747d6d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1760
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/echo-catwalk-steal-right.webp",
+          "sourceSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+          "frameIndex": 3,
+          "frameHash": "f2e9b41b2ab9e7a3bb924e358041029b6f913ce70ef260718aed84b407c9f32d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4472
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/echo-catwalk-push-right.webp",
+          "sourceSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+          "frameIndex": 5,
+          "frameHash": "a8981322b27d30193f1f551b5f579ad7e883b8a8b6d1d00e78a0c928a5731ec8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6362
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+          "sourceSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+          "frameIndex": 2,
+          "frameHash": "6939dbc528fa04f2c2d14c9e8e39975ef6f692e870866650ba4d392ab1f38e1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2092
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/echo-catwalk-fall-right.webp",
+          "sourceSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+          "frameIndex": 4,
+          "frameHash": "7a0b6f0decb5e20620bb50a9f26c7f8c1954fe219e2f99bb563088b58fd5853f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4485
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+          "sourceSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+          "frameIndex": 4,
+          "frameHash": "4f050625585ff35eab8b96700cb5e4bbfeae65035350155f2cf8a5a3a94ee6cf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4435
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+          "sourceSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+          "frameIndex": 7,
+          "frameHash": "341ab3d084eefb21465b810179791667bdd5e82a5974048973ba935e7e42a1dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6673
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+          "sourceSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+          "frameIndex": 7,
+          "frameHash": "44e0b3d5466b2ae6256c1f03a1e45f8a943aa5f21a04e1bd49950a5538b030b6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7050
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+          "sourceSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+          "frameIndex": 7,
+          "frameHash": "408badcd9748fbfdc5be770e980f906f6b9385ae9fdf477d67543c79b431e4dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7404
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+          "sourceSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+          "frameIndex": 7,
+          "frameHash": "d8a600cd355d2701ec3e4a45a96e7e0209aebbe042a872214c07459b4739ac11",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8020
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+          "sourceSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+          "frameIndex": 7,
+          "frameHash": "e05a672b300b4dd1dc8a88ae2474da8a873647545041ec67dd2d64f48d8119f6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6990
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+          "sourceSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+          "frameIndex": 7,
+          "frameHash": "4969b733fbeb2121aeadae72ba6e89bb6edc23f50b62b26bf7d3be6ad8827c3e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6902
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+          "sourceSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+          "frameIndex": 7,
+          "frameHash": "410e9893f96e77c024d2929349348bb9dc51f9863350ae875da0800850b3afc4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6087
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+          "sourceSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+          "frameIndex": 7,
+          "frameHash": "4ad1f70d94651203ab0ef3c00f8181be179bc40154650948f56d16ee83f37691",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6972
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+          "sourceSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+          "frameIndex": 7,
+          "frameHash": "63e8877326c7297eac2bfebedff15fe9cde7cf7663e82ae5224e1f3bf883fc3b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6737
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+          "sourceSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+          "frameIndex": 7,
+          "frameHash": "a7c8c4d442581ce8440cb0adf7dbbc268013a60903fa7b5c0820eddb0bb74442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6970
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "teamId": "verdant-reach-archers",
+      "teamName": "Verdant Reach Archers",
+      "playerId": "hazel-bloom",
+      "palette": [
+        "#538b45",
+        "#dfa94c"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/echo-catwalk-idle-right.webp",
+          "sourceSha256": "19044ab7b1a98476c6a160d65ac316b450d2be76dbbe7176507ad8f52cc0421c",
+          "frameIndex": 2,
+          "frameHash": "7539582d3a8662af7226663675a9671d9120f13c931eb9671a00db3dd6966eb0",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3595
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+          "sourceSha256": "95fd853d288bfb2fae626fb6d3bf1cf640e1c62a4d32b56fc8765e11b3c4ede2",
+          "frameIndex": 1,
+          "frameHash": "3afc26faeda798dda70e82adfa2350291ec4ccfd22a0b2ea57d80d58952e9cdc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1967
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/echo-catwalk-dribble-right.webp",
+          "sourceSha256": "a77f5e0bc8e8dbc3b685bba7eb01b1acbcfbf8131b1fbe1c56130b544b820812",
+          "frameIndex": 4,
+          "frameHash": "cb9e499f3f5d8cc6521e2b34023146c9d6212d0ac46241b66c89fa97cf6914df",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4295
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/echo-catwalk-run-right.webp",
+          "sourceSha256": "00711ee1a103bbfecd4c30e6fc6b30ae3f92b727c9ebd74a365b9260e8c3eed7",
+          "frameIndex": 5,
+          "frameHash": "49790d1527a41052e0551deb50eda74148b923992cccc2e74093b2f9b632fecd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4913
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/echo-catwalk-dribble-run-right.webp",
+          "sourceSha256": "33e46c02bf40c0e67c3bf4097224502bb1737248264badea40796dbdb225b37d",
+          "frameIndex": 5,
+          "frameHash": "bc4a31c12f794cb79c1d5acd60e2c1b88a1f0408c0206b34cae23334a7c73cde",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4322
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+          "sourceSha256": "9cf20a751740650824ec46d45e8642bd12ee3b5d1bcebe3709ce22c10a98a641",
+          "frameIndex": 4,
+          "frameHash": "1f329abe0b3af3a3c276f0ca1a53fa54a5326e0ff57344eef38ca6baeed6bdcb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4198
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/echo-catwalk-pass-right.webp",
+          "sourceSha256": "339f673334f70e9906de44a609829be90242fc1356fb54e26863f4c0998414e0",
+          "frameIndex": 2,
+          "frameHash": "6060096cfe5cf63240f8ced6d18cbc24d73a9350579f5f46262c8092020956f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3007
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/echo-catwalk-pass-overhead-right.webp",
+          "sourceSha256": "2a7a46ac9c640851a40c1c974a2e1f92fe78a69f90382a9af0aff0c89926e3f3",
+          "frameIndex": 2,
+          "frameHash": "f343c9b46c4e86fb162b3677e5acc13b8294b2d636fa58c0a2830728a6c9999a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2202
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/echo-catwalk-pass-behind-right.webp",
+          "sourceSha256": "c67cf2887476e28ebe0c509f2888d993fb074615c2493757c73a3ba2338639ff",
+          "frameIndex": 2,
+          "frameHash": "2faff278777f7bbab86bb0ddc6133acd0d72a7ae15d36c28b1e556e924039384",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3111
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/echo-catwalk-receive-right.webp",
+          "sourceSha256": "28d4609995881f671780afa829d72589e7187cf13cc151a732463937d6f429ba",
+          "frameIndex": 1,
+          "frameHash": "6b1ada147bb199b379c9da0b44d07d5b612a84d9e7de15b344479023319dbab4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2289
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/echo-catwalk-pickup-right.webp",
+          "sourceSha256": "c1db1a9d18abd3370e93bcd8d0d236e63ca3423b8e98010fafcc8301585e3c3b",
+          "frameIndex": 2,
+          "frameHash": "bc7b985e5762049c6c87a6ea5e954e339ab6bd65d101e9ea0961fd7ec2d7e8cc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2515
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/echo-catwalk-layup-right.webp",
+          "sourceSha256": "60ad670006d2eed1cb1f1b2b6e8986c6ee7be4b839a8c2e0655890d90f4f1a99",
+          "frameIndex": 3,
+          "frameHash": "c0e5f34c957c76c7bcb0a8ce09efcdaeb9e3f8775f70fbfb4dce1de7631194b3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2953
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/echo-catwalk-layup-reverse-right.webp",
+          "sourceSha256": "decb5da15f031270be0522ed6c17545e5ebc8b05d81126bfd7e155c9220e61bc",
+          "frameIndex": 3,
+          "frameHash": "5a74b7c3215043d645fb99c99bc0437df386bf25960434a20f82cd88ad698345",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3600
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/echo-catwalk-block-right.webp",
+          "sourceSha256": "761c98953f702f32d85541cc351db9c9b6529e2c94d3d50ad91177fd1be3d84e",
+          "frameIndex": 1,
+          "frameHash": "5f8eaf0ba2f43c427635a023d5f5380980552251ebedd9a645ef535d3747d6d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1760
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/echo-catwalk-steal-right.webp",
+          "sourceSha256": "636a2213d640762943fe8b9d959ad395790965143b45aa626059e46e1d6d5067",
+          "frameIndex": 3,
+          "frameHash": "f2e9b41b2ab9e7a3bb924e358041029b6f913ce70ef260718aed84b407c9f32d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4472
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/echo-catwalk-push-right.webp",
+          "sourceSha256": "3fa8c010bc86840f94add48a61eec0a36089f8dc4aca9ca5371937523294ce74",
+          "frameIndex": 5,
+          "frameHash": "a8981322b27d30193f1f551b5f579ad7e883b8a8b6d1d00e78a0c928a5731ec8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6362
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/echo-catwalk-rebound-right.webp",
+          "sourceSha256": "8a3c75cf2bc3bdacbafd59e130e5e5f42a84e90542fb322f299992af77397371",
+          "frameIndex": 2,
+          "frameHash": "6939dbc528fa04f2c2d14c9e8e39975ef6f692e870866650ba4d392ab1f38e1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2092
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/echo-catwalk-fall-right.webp",
+          "sourceSha256": "cd147accfd384aaf9fbaa1ee07bf03cc85f632df686c4e450373fa6339dae355",
+          "frameIndex": 4,
+          "frameHash": "7a0b6f0decb5e20620bb50a9f26c7f8c1954fe219e2f99bb563088b58fd5853f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4485
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/echo-catwalk-celebrate-right.webp",
+          "sourceSha256": "55485d80184e293fc714cfdfea66f90557da217720a862d6de2c3efb575d0982",
+          "frameIndex": 4,
+          "frameHash": "4f050625585ff35eab8b96700cb5e4bbfeae65035350155f2cf8a5a3a94ee6cf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4435
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/echo-catwalk-dunk-power-right.webp",
+          "sourceSha256": "70a0e9c4dd8b2112754c04c4fbfd31e41c115a4db332dc058caed61009a20dc7",
+          "frameIndex": 7,
+          "frameHash": "341ab3d084eefb21465b810179791667bdd5e82a5974048973ba935e7e42a1dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6673
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/echo-catwalk-dunk-windmill-right.webp",
+          "sourceSha256": "80f1aea75806e3c79f1f0c160571ae6d921e542dac4b498224452d92a154b627",
+          "frameIndex": 7,
+          "frameHash": "44e0b3d5466b2ae6256c1f03a1e45f8a943aa5f21a04e1bd49950a5538b030b6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7050
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/echo-catwalk-dunk-reverse-right.webp",
+          "sourceSha256": "84e18e79780f8d5cae74c3b8c607a489232901051ac2ff04d2a3dbba1cba017f",
+          "frameIndex": 7,
+          "frameHash": "408badcd9748fbfdc5be770e980f906f6b9385ae9fdf477d67543c79b431e4dd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7404
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/echo-catwalk-dunk-360-right.webp",
+          "sourceSha256": "f0a44f5974267f88807e378c098395bfa8ec3152be717e62a6d0cacdae9c607d",
+          "frameIndex": 7,
+          "frameHash": "d8a600cd355d2701ec3e4a45a96e7e0209aebbe042a872214c07459b4739ac11",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8020
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/echo-catwalk-dunk-tomahawk-right.webp",
+          "sourceSha256": "d78487829f12f6553a2abbb84b6d8740e5d36944470c5c9c0e6f181724fa24f8",
+          "frameIndex": 7,
+          "frameHash": "e05a672b300b4dd1dc8a88ae2474da8a873647545041ec67dd2d64f48d8119f6",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6990
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/echo-catwalk-dunk-double-right.webp",
+          "sourceSha256": "5a427269b19f67e79551c6d472fd3afa61d54fe442d88b4b0b3fa0a068dcf5d1",
+          "frameIndex": 7,
+          "frameHash": "4969b733fbeb2121aeadae72ba6e89bb6edc23f50b62b26bf7d3be6ad8827c3e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6902
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/echo-catwalk-dunk-clutch-right.webp",
+          "sourceSha256": "72e2c2f7ba8e7951970e80525d6f4b706a5e6bdb2934f39cda44240997e1a86e",
+          "frameIndex": 7,
+          "frameHash": "410e9893f96e77c024d2929349348bb9dc51f9863350ae875da0800850b3afc4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6087
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/echo-catwalk-dunk-scythe-right.webp",
+          "sourceSha256": "3b7cffde1eec822d2e17232be2c04a1c6acca069aa89fbcab0f3b0570c05b924",
+          "frameIndex": 7,
+          "frameHash": "4ad1f70d94651203ab0ef3c00f8181be179bc40154650948f56d16ee83f37691",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6972
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-power-right.webp",
+          "sourceSha256": "f9d6aae9223e30826642c9b81d2e9fcad39e005491936f248509f044e78f607d",
+          "frameIndex": 7,
+          "frameHash": "63e8877326c7297eac2bfebedff15fe9cde7cf7663e82ae5224e1f3bf883fc3b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6737
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/echo-catwalk-alley-oop-reverse-right.webp",
+          "sourceSha256": "4a9bc1cff15a7340299e1e10010f6cdee9a5b656793cb0e9d0053d53b18dfd97",
+          "frameIndex": 7,
+          "frameHash": "a7c8c4d442581ce8440cb0adf7dbbc268013a60903fa7b5c0820eddb0bb74442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6970
+        }
+      ]
+    }
+  ]
+}

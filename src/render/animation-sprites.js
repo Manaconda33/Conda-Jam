@@ -33,7 +33,7 @@ export function selectProductionSprite(player, {manifest,images,libraries=suppor
   }
   if(!clip?.reviewed)return null;
   let atlas=images.get(clip.src);if(!atlas?.complete||!atlas.naturalWidth)return null;
-  if(library?.mode==='shared')atlas=paletteVariantFor(atlas,clip.src,library.sourcePalette,player.palette,clip.frames,library.maskPolicy);
+  if(library?.mode==='shared')atlas=paletteVariantFor(atlas,clip.src,library.sourcePalette,player.palette,clip.frames,library.maskProfile,key);
   const sampledFrame=sampleAnimation(key,player.animation.tick).frame;
   const targetFrames=animationClips[key].frames.length;
   const index=clip.frames.length===targetFrames?sampledFrame:Math.round(sampledFrame*(clip.frames.length-1)/Math.max(1,targetFrames-1));

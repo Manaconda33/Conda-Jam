@@ -1,6 +1,6 @@
 # Animation asset audit
 
-Generated: 2026-10-27T03:42:40.102Z
+Generated: 2026-10-28T18:12:09.313Z
 
 Status: **INCOMPLETE**
 
@@ -12,7 +12,7 @@ Minimum authored frames: 29190; production target: 30765. Inspected clips below 
 
 | Finding | Count |
 | --- | ---: |
-| prompt-not-verbatim | 4 |
+| prompt-not-verbatim | 40 |
 | missing-clip | 778 |
 
 Pixel hashes detect identical decoded crops. They do not certify anatomical correctness, continuity, pose quality, or fidelity to asymmetric character details; recorded human review remains required.
