@@ -1,0 +1,20 @@
+Create a brand-new sprite sheet for Krios, a basketball captain, with exactly 15 distinct poses in a 5-column by 3-row grid. Flat vivid green (#00ff00) background for later transparency cleanup; consistent pixel-art sprite style; one character in every cell, complete body, same scale, 5px clear margin, same baseline. Krios identity must remain: dark red-toned skin, black tied-back curls secured with a green tie, full black beard, powerful human athletic anatomy, black sleeveless jersey and shorts with narrow gold and red piping, black shoes. No words, numbers, logos, basket, court, ball, orb, circle, or other prop anywhere. The basketball will be separate runtime art and must never appear inside any frame. Hands may be cupped around empty air to imply holding a ball.
+
+Action beats, read left-to-right then top-to-bottom:
+1. running approach, arms pumping, hands empty;
+2. braking gather step, torso lowered, hands beginning to meet at waist, empty;
+3. crouched load with elbows tucked and empty palms facing each other at lower abdomen;
+4. strong takeoff, knees rising, hands still cupped at waist around empty space;
+5. airborne lift with knees bent, empty hands securely framing a low central position;
+6. protected clutch: compact airborne crouch, knees opened, both forearms cradling empty air low between the knees, head and face completely clear;
+7. apex pull across ribs: torso twists, both empty hands draw toward near-side chest/ribs with elbows bent; no overhead reach;
+8. rotate from clutch into diagonal drive, empty hands rise together from ribs;
+9. one-hand diagonal windup: shooting hand drawn back beside head, other hand released and lowered, both empty;
+10. unmistakable one-hand diagonal release/flick toward an unseen rim: shooting arm fully extended upward-diagonally with relaxed wrist, other arm apart for balance, both hands visibly empty;
+11. high follow-through, empty shooting hand remains extended, body begins descending;
+12. arms lower as hips and knees descend;
+13. controlled landing, knees flex, feet contact baseline;
+14. absorb landing, torso folds slightly, arms counterbalance;
+15. stable low recovery crouch, hands empty and apart.
+
+Every cell contains the same full Krios character, no extra limbs, no missing body parts, no cropping, no duplicate frames. Keep all 15 silhouettes legible and different at native sprite size. This is a character-only sheet: absolutely no basketballs or ball-like marks in any cell.

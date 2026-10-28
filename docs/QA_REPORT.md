@@ -1,8 +1,9 @@
-## Captain animation checkpoint — Krios dunk-tomahawk accepted (2026-10-28)
+## Captain animation checkpoint — Krios dunk-double accepted (2026-10-28)
 
-Krios J.128 `dunk-tomahawk` attempt01 is accepted after independent source/cleanup review, track04 review and 60 normal-loader Jam Stage captures. Review covers all 15 frame starts, both facings, 100%/120% zoom, HUD clearance, raised-hand contact, rim release at tick21, two-point score at tick23 and landing at tick30. Provenance, rejected track attempts and capture evidence are indexed in `tools/generate-art/krios-dunk-tomahawk15-attempt01-provenance.json`. Krios is 24/29. Strict report-only audit: 2,370 inspected assignments, 543 source atlases, 5,175 unique source drawings, 733 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings.
+Krios J.128 `dunk-double` attempt02 is registered after independent source/cleanup, candidate-track, and normal-loader review. Track04 clears face overlap at tick17 while maintaining raised-hand contact; its 60 Jam Stage captures cover both facings and 100%/120% zoom, release at tick21, correct two-point score at tick23, and landing at tick30. Krios is 25/29. Strict audit: 2,371 assignments, 544 source atlases, 5,190 unique source drawings, 732 missing captain assignments, zero target-frame shortfalls, four inherited prompt findings.
 
-The next canonical gap `dunk-double` attempt02 source is reviewed for trials; track attempt01 was rejected for ball/face overlap and missed hand alignment at the second pump. `dunk-clutch` attempts01–03 remain rejected; attempt03 baked the ball into athlete artwork. `dunk-scythe` attempt01 track fails hand contact during the lateral sweep. See the updated asset status and preserved candidate review directories for active calibration.
+Next is `dunk-clutch`; attempts01–05 remain rejected and attempt06 is under review. `dunk-scythe` needs a corrected track. `alley-oop-power` attempt01 source is accepted for cleanup/trials; cleanup and its Krios-specific track remain pending.
+
 
 ## Captain animation checkpoint — Krios dunk-360 accepted (2026-10-28)
 

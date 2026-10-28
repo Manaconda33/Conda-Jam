@@ -1,0 +1,24 @@
+Create a flat sprite source sheet containing EXACTLY FIFTEEN separate full-body drawings of Krios, arranged in a 5-column by 3-row grid read left to right, top to bottom. Keep each complete figure isolated in its equal cell with clear gutters; do not crop horns, hands, feet or shoes. Solid chroma green RGB(0,255,0); no grid lines, labels, words, gradients, floor, shadow, court, hoop, ball, teammates, motion marks or decoration.
+
+STYLE: crisp 16-bit pixel art, deliberate square pixel clusters, hard stepped outlines, compact limited palette, clustered highlights and shadows. Match Krios's accepted small-game sprite art. No painterly rendering, soft gradients, airbrush, antialiasing, 3D lighting or photographic texture. Keep pixel scale, proportions, lighting, outline weight and ground baseline consistent. Full figures readable at 64×96 pixels. Face three-quarter right and keep Krios recognizable in every pose.
+
+Krios is the canonical Scoria Rams captain: colossal adult male with vivid volcanic-red skin, huge curled black ram horns, thick charcoal beard, strong human face, massive muscular human anatomy, charcoal-black sleeveless basketball jersey and shorts with ember-red piping, dark shoes. Preserve exact identity, face, horns, beard, build and uniform across all poses. Plain charcoal jersey with subtle ember trim only: NO logo, emblem, number, text, badge or symbol. Exactly two attached arms/hands and two attached legs/feet. Never draw a basketball or ball-like circle: gameplay ball is separate.
+
+Draw exactly fifteen distinct frames of a coherent double-pump two-hand dunk, in order (anchors takeoff2, grab5, peak7, release10, finish11, land14):
+0. Staggered approach, torso pitched forward, eyes toward imaginary right rim; both hands cradle absent ball at abdomen, elbows close.
+1. Plant and sink deep, chest loads; both hands pull ball firmly to chest.
+2. TAKEOFF: both feet leave floor after extension; two-hand cradle rises to forehead.
+3. First pump: both arms extend high, wrists still gripping; absolutely no release.
+4. Both elbows fold down again, held cradle returns from overhead toward face.
+5. GRAB/RESECURE: both hands visibly secure invisible ball against upper chest after first pump.
+6. Second gather: cradle dips farther to sternum, elbows tuck beneath it.
+7. PEAK: highest point, ball stays held low at chest with both elbows deeply bent.
+8. Second pump begins, both hands drive rapidly upward past forehead.
+9. Both arms reach full extension above the imaginary rim for second pump.
+10. RELEASE: both wrists snap down simultaneously on second extension; fingers open and release invisible ball once through rim.
+11. FINISH: twin-arm follow-through remains long above and ahead of head.
+12. Both elbows flex outward as empty hands drop toward shoulders.
+13. Open hands spread from shoulders to either side; chest relaxes as legs unfold.
+14. LAND: both feet meet ground, knees flex; both arms swing down symmetrically beside hips during landing recoil.
+
+Imaginary rim is to Krios's right and outside the sheet; draw no rim or prop. Preserve the visibly held first pump, distinct lowered second gather, raised second pump and one unmistakable release. Keep all fifteen complete, full-body silhouettes distinct and anatomically coherent, no repeated/missing/extra/cropped/merged/ambiguous poses.

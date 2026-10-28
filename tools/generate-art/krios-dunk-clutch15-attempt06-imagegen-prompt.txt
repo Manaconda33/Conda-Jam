@@ -1,0 +1,22 @@
+Draw a clean 5-column × 3-row animation sprite sheet with exactly 15 full-body Krios poses, reading left-to-right top-to-bottom. Flat saturated chroma-green (#00ff00) backdrop and no scene. Maintain consistent framing, scale, body proportions, costume and common floor baseline. Krios has dark red-brown skin, long black curls tied back with a green band, full black beard, exceptionally strong but natural human athlete anatomy, sleeveless black jersey and shorts with narrow gold/red piping, dark basketball shoes.
+
+The sheet contains only this person. Do not draw props, objects, symbols, logos, spheres, circles, ovals, spots or detached highlights. In every frame show bare empty hands with complete visible fingers. During gathered poses keep a strip of green background visibly separating the hands; do not join the fingertips or form a closed ring. The animation is communicated by Krios's body and arm silhouettes alone.
+
+15 beats with exact zero-based frame index anchors:
+0 running approach, elbows bent, hands pumping;
+1 brake and lower center of gravity, arms begin drawing toward waist;
+2 TAKEOFF: first airborne shape, both feet off ground, knees start rising;
+3 airborne lift with protective bent elbows;
+4 compact knee tuck, arms held close but both hands separately visible;
+5 GRAB beat: hands on either side of empty chest space, fingers visible and apart;
+6 protected airborne crouch, knees wide, elbows guard low torso, empty hands separated between knees, face visible;
+7 PEAK: torso twists at the apex, elbows bent, empty hands separately drawn across the side of the ribs, no arm over head;
+8 diagonal upward drive begins, one arm rises, other balances;
+9 one-arm overhead windup, wrist cocked, opposite hand lowered;
+10 RELEASE: clear one-arm diagonal extension toward an imaginary target, open hand and relaxed wrist;
+11 FINISH: high follow-through after the release, body still airborne;
+12 descent starts as arms lower;
+13 both feet just above the floor, knees prepare to flex;
+14 LAND: clear first foot contact on the baseline with knees absorbing impact.
+
+No motion trails, speed circles, sparks, clothing circles, wristbands or other marks that could read as an object. Make all 15 poses distinctly different, anatomically coherent, fully inside the grid, complete from curls through both shoes, and consistent as the same character.

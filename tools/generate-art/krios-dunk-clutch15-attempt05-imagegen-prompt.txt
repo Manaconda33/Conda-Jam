@@ -1,0 +1,22 @@
+Create a new character-only sprite sheet for Krios's `dunk-clutch` animation. Exact grid: 5 columns × 3 rows, 15 full-body poses, read left-to-right then top-to-bottom. Solid chroma green background (#00ff00), same camera and scale, every character fully inside cell with clear margins and consistent foot baseline. Krios: deep red-brown skin, black tied-back curls with green band, full black beard, strong but human athletic proportions, black sleeveless jersey and shorts with narrow gold/red piping, dark shoes. Consistent identity and outfit throughout.
+
+Never draw any object in the hands or anywhere else: no ball, sphere, orb, circle, prop, rim, hoop, text, court or scenery. This is only the athlete; the ball is separate runtime art. Both hands must be visibly empty. When miming a gather, the hands remain clearly apart by at least a hand-width, with open negative space between them; do not put anything in that gap and do not draw a dark circular shape there.
+
+Use these zero-based frame indices, with visible pose changes between neighbors and exact action anchors:
+Frame 0: running approach, hands empty.
+Frame 1: braking gather, body lowers, hands begin to move toward waist but remain distinctly apart.
+Frame 2 TAKEOFF: first airborne pose, feet clearly off ground, bent knees, torso rises; this is the takeoff event.
+Frame 3: airborne lift, protected elbow position.
+Frame 4: knees tuck, both empty hands separated and positioned near low abdomen.
+Frame 5 GRAB: imagined catch point, fingers close in empty air in front of sternum, no object or closed hand-to-hand circle.
+Frame 6: compact protected clutch while airborne, knees open, empty hands separated between knees at low centerline, face unobstructed.
+Frame 7 PEAK: apex pull across ribs, twisted torso, bent elbows, empty hands separated near one side of ribs; not an overhead reach.
+Frame 8: diagonal drive begins, one empty hand travels upward while the other balances.
+Frame 9: one-hand diagonal windup, shooting hand beside head, other arm lowered.
+Frame 10 RELEASE: unmistakable diagonal one-hand flick; arm fully extended upward-diagonally, wrist relaxed, hands empty and separated.
+Frame 11 FINISH: high follow-through after release, body still airborne, both hands empty.
+Frame 12: descending, arms begin to lower.
+Frame 13: final descent, feet just above baseline, knees prepare to bend.
+Frame 14 LAND: first clear foot contact with baseline, knees absorbing impact, arms counterbalancing.
+
+Keep all 15 silhouettes distinct and anatomically plausible. Exactly one Krios per cell, two arms and two legs, complete hands, head, shoes, no cropping, no duplicated/missing frame. Do not include any circular highlight or object-like shading in the empty spaces between hands.
