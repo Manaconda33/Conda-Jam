@@ -1,3 +1,9 @@
+## Captain animation checkpoint — Krios `dunk-windmill` accepted (2026-10-28)
+
+The J.128 Krios windmill clip passed independent normal-loader review after a track correction lowered peak ball height at frames7–8 to clear the top HUD. Review covers 60 current Jam Stage captures across 15 frame starts, both facings, and 100%/120% zoom. Ball hand contact, rim release at tick21, two-point score at tick23, and landing through tick30 pass. Full provenance and reviews are recorded in `tools/generate-art/krios-dunk-windmill15-attempt02-provenance.json` and its preview directory.
+
+Validation and strict report-only audit for this checkpoint: 2,367 inspected assignments, 540 source atlases, 5,130 unique source drawings, 736 missing captain assignments, zero frame-count shortfalls, and four inherited prompt findings. All captains are not yet complete; Krios is 21/29 and `dunk-reverse` is next.
+
 # QA — 2026-10-28 08:06 UTC Krios power dunk accepted; windmill in trials
 
 - Krios J.128 `dunk-power` attempt02: 15 unique original poses, 1920×96 PNG, separate Krios track; independent normal-loader visual/gameplay review passed 60 captures (15 frames × two facings × two zooms). Tick21 release contact is visible at the rim, tick23 score is correct, and the ball is absent during landing recovery.
