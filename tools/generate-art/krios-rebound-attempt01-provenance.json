@@ -1,0 +1,74 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "rebound",
+  "direction": "right",
+  "attempt": 1,
+  "status": "rejected after independent source review; no cleanup or runtime trials",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-ae1d917b-58da-4dc2-b86d-fd54c91f8646",
+  "generationId": "exec-ae1d917b-58da-4dc2-b86d-fd54c91f8646",
+  "generatedAt": "2026-10-28T06:33:59Z",
+  "promptFile": "tools/generate-art/krios-rebound-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "7e39866312a8bfcb5278ccd3c042d7dad11903e3f763ac7b9458cad6891d4456",
+  "rawSourceImage": "tools/generate-art/sources/krios-rebound-attempt01-generated-raw.png",
+  "rawSourceSha256": "0c92b7f2b74baa2694cfb0c6baee6716e48b128169149bbfa24c550d006b5f99",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-block-right.webp",
+    "public/assets/animation/krios-steal-right.webp"
+  ],
+  "referenceSha256": {
+    "public/assets/animation/krios-idle-right.webp": "3972858f17324a3a45a629ce9ce9c0b7544e957c3675bc1ed74017017d8be939",
+    "public/assets/animation/krios-block-right.webp": "feec8fcde6708c70fab9071d5719423a234dbcf119ee1f78efe16b84eeb7658f",
+    "public/assets/animation/krios-steal-right.webp": "197a1b59bbfef4a382d96dd882ff842dad7ca654f24689a239ad1a565a685d2a"
+  },
+  "requiredFrameDurations": [
+    2,
+    2,
+    1,
+    2,
+    4
+  ],
+  "grabAnchorFrame": 3,
+  "grabAnchorTick": 5,
+  "ballPolicy": "The five-pose athlete atlas contains no basketball. Calibrate a separate Krios-specific rebound track and review actual contact before registration.",
+  "sourceReview": {
+    "status": "rejected",
+    "evidence": "tools/generate-art/previews/krios-rebound-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+    "notes": "Five poses are coherent and the athlete remains recognizable, but the frame-4 hand gap is inadequate for the separate ball and smooth painterly rendering conflicts with Krios pixel-art style. No anatomy may be invented in cleanup."
+  },
+  "cleanupScript": null,
+  "cleanupReport": null,
+  "cleanupReview": {
+    "status": "pending",
+    "evidence": null,
+    "notes": null
+  },
+  "candidateAtlas": null,
+  "candidateAtlasSha256": null,
+  "runtimeLayout": null,
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-ae1d917b-58da-4dc2-b86d-fd54c91f8646",
+      "reason": "Painterly/high-detail art does not match the existing pixel-art scale and the frame-4 hands leave no ball-sized gap; source reviewer rejects production and ball/gameplay trials."
+    }
+  ],
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null,
+    "review": null
+  },
+  "registeredRuntimeReview": {
+    "status": "pending",
+    "evidence": null,
+    "report": null
+  }
+}

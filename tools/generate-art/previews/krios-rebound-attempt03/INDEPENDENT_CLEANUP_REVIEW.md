@@ -1,0 +1,9 @@
+# Independent cleanup review — J.128 Krios rebound attempt 03
+
+**Result: PASS for separate ball-track gameplay trials only.** This does not accept the clip for production or registration.
+
+The cleanup output preserves five distinct ordered poses: track, load, jump, high two-hand grab, and secure descent. The extracted components are row-ordered, all five pose hashes differ, and the report records exactly five connected foreground components with no additional/rejected components. The green matte is removed to transparent alpha; the script applies no pixel despill edits or redraws. The raw image and each isolated source crop remain available, and both light and dark previews are present.
+
+At native 128×96 cells, the figures remain within their cells with ample horizontal margins. The source uses a single nearest-neighbour scale (0.12538), preserving the stepped pixel edges without introducing smoothing. The red skin, black ram horns, charcoal beard, and charcoal/ember kit are consistent with Krios. The fourth pose has a clear empty gap between two separate raised hands for the independently rendered ball; no ball is baked into the art. All visible limbs remain connected and no extra limbs were found.
+
+The shared source floor at y=717 is used for cell placement and gives grounded poses a y=94 baseline. The two jump/catch poses remain visibly elevated by roughly 5–8 native pixels rather than being flattened onto the floor. This is a modest but readable hop at this scale. Before any production acceptance, gameplay review must verify the actual Krios-specific ball contact at canonical frame 3/tick 5, both facings, 100% and 120% zoom, continuous timing and ball ownership transitions. Adjust the athlete-specific track if needed; do not change the art to fit an uncalibrated track.

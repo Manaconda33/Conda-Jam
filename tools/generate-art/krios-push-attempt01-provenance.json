@@ -4,7 +4,7 @@
   "clip": "push",
   "direction": "right",
   "attempt": 1,
-  "status": "raw generated; independent source review pending",
+  "status": "attempt01 cleanup candidate rejected: frame5/tick8 shows only one readable extended arm/hand; raw source retained",
   "tool": "GPT Image generation",
   "toolArtifactId": "exec-711ce2c5-93c3-4cb8-854d-dadfc8773b85",
   "generationId": "exec-711ce2c5-93c3-4cb8-854d-dadfc8773b85",
@@ -46,21 +46,32 @@
   "contactAnchorTick": 8,
   "ballPolicy": "Push art is empty-handed and has no ball track; verify the simulated target push/possession behavior separately.",
   "sourceReview": {
-    "status": "pending",
-    "evidence": null,
-    "notes": null
+    "status": "accepted-for-cleanup-trials",
+    "evidence": "tools/generate-art/previews/krios-push-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+    "notes": "All eleven Krios poses are coherent, distinct, ball-free and ordered; frame5/tick8 is clear two-hand contact. Tight frame5/frame6 boundary and near-zero frame5 margin require connected-component isolation, not blind grid crops; matte varies and native-size distinctions/edges need review."
   },
-  "cleanupScript": null,
-  "cleanupReport": null,
+  "cleanupScript": "tools/generate-art/clean-krios-push-attempt01.py",
+  "cleanupReport": "tools/generate-art/previews/krios-push-attempt01/cleanup-layout-report.json",
   "cleanupReview": {
-    "status": "pending",
-    "evidence": null,
-    "notes": null
+    "status": "rejected-for-gameplay-trials",
+    "evidence": "tools/generate-art/previews/krios-push-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+    "notes": "Row-major order, 11/11 unique native frames, anatomy/identity, scale, baseline, margins, alpha and green cleanup pass. Fatal action defect: frame5/tick8 has only one extended arm and one visible open hand. Cleanup cannot invent the missing readable second hand. Preserve all raw and cleaned artifacts; regenerate a source."
   },
-  "candidateAtlas": null,
-  "candidateAtlasSha256": null,
-  "runtimeLayout": null,
-  "rejectedAttempts": [],
+  "candidateAtlas": "tools/generate-art/previews/krios-push-attempt01/krios-push-attempt01-runtime-candidate.png",
+  "candidateAtlasSha256": "9f35ae9b7bf545aedd2cdc12e5cb7adc8c33ad11849842372c214b0300fb3bb7",
+  "runtimeLayout": "tools/generate-art/previews/krios-push-attempt01/cleanup-layout-report.json",
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-711ce2c5-93c3-4cb8-854d-dadfc8773b85",
+      "rawSourceImage": "tools/generate-art/sources/krios-push-attempt01-generated-raw.png",
+      "rawSourceSha256": "8e4655158f653e6aeaaf94eb53c29e7d81549e8f49fb2c37289c41b308247310",
+      "candidateAtlas": "tools/generate-art/previews/krios-push-attempt01/krios-push-attempt01-runtime-candidate.png",
+      "candidateAtlasSha256": "9f35ae9b7bf545aedd2cdc12e5cb7adc8c33ad11849842372c214b0300fb3bb7",
+      "review": "tools/generate-art/previews/krios-push-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+      "reason": "Frame5/tick8 contact exposes one extended arm/hand only; required two-hand push contact is not legible. Cleanup preserves anatomy and cannot repair the missing readable hand."
+    }
+  ],
   "registeredRuntimeReview": {
     "status": "pending",
     "evidence": null,

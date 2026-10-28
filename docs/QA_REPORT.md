@@ -1,3 +1,9 @@
+# QA — 2026-10-28 Krios push accepted; rebound source trials advanced
+
+- Krios J.128 `push` attempt02 is accepted in the manifest and public atlas. Independent normal-loader Jam Stage review passed 48 captures across 11 frame starts, both facings, and 100%/120% zoom. Four successful-contact captures confirm tick8/frame5 two-hand contact, Leo knockdown, no fallback/clipping, and the ball remains dead/unowned. Runtime test `tests/krios-push-animation.test.js` passes.
+- Krios `rebound` attempts01–02 are preserved with independent rejection reasons. Attempt03 raw and cleanup candidates pass independent source/layout review for gameplay trials only: five unique transparent 128×96 frames, Krios identity/kit retained, empty hands, clear grab gap, shared y94 floor with the jump poses visibly raised. The separate track and gameplay validation are pending; this clip is not registered.
+- `npm test`: 69/69 PASS; lint: 21 JavaScript modules PASS; content validation: 35 franchises / 105 athletes / 35 captains PASS; standalone static build PASS. Refreshed strict report-only audit: 2,362 assignments, 535 unique atlases, 5,075 unique drawings, 741 missing captain assignments, zero frame-target shortfalls, and four inherited prompt findings. Overall audit remains incomplete by design.
+
 # QA — 2026-10-27 J.137 Briar Foxglove celebrate registered locally
 
 - Attempt02 passed source, packed-size and native reviews after transparent alpha cleanup. Ten original pose drawings use a400×192 5×2 atlas with80×96 cells, shared baseline y=94 and full alpha-zero background. Attempt01 was superseded and retained; exact prompts, generation IDs, raw images/hashes, cleanup and light/dark previews are documented.
