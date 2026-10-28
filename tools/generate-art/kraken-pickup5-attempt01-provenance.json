@@ -1,0 +1,55 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pickup",
+  "direction": "right",
+  "attempt": 1,
+  "status": "rejected by independent source review; raw preserved, not cleaned or trialed",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-1ecf089e-9c32-433e-9eda-e4f14bb66b12",
+  "generatedAt": "2026-10-28T10:42:28.158553Z",
+  "promptFile": "tools/generate-art/kraken-pickup5-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "4bb24bc9ebb6221281705e271977b0cd9cf6566a2a40abba0d3ff09fe8f63dc1",
+  "rawSourceImage": "tools/generate-art/sources/kraken-pickup5-attempt01-generated-raw.png",
+  "rawSourceSha256": "5f22ac0799e1a859d45fc935672d7edfbe3527f525010fd6dffa6a766b958ed3",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-runtime-candidate.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "anchors": {
+    "grab": 3,
+    "grabTick": 7
+  },
+  "ballPolicy": "No ball in source artwork; calibrate separate Kraken-specific low pickup/recovery track after source and cleanup review.",
+  "sourceReview": {
+    "status": "reject for cleanup, trials and registration",
+    "evidence": "tools/generate-art/previews/kraken-pickup5-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "notes": "Pose3/grab tick7 and pose4 visibly contain an orange basketball; also conspicuous red fringe/glow and painterly rather than crisp pixel-cluster style. Preserve raw and retry."
+  },
+  "cleanup": {
+    "status": "pending",
+    "evidence": null
+  },
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null
+  },
+  "rejectedAttempts": []
+}

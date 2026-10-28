@@ -1,3 +1,9 @@
+## Captain asset lane QA update — 2026-10-28
+
+The latest strict animation audit reports728 missing captain assignments; supporting-player palette coverage remains intact. Kraken is7/29 registered. Candidate source and ball-track work is preserved under `tools/generate-art/`; no new clip is active in the production registry. Current Jam Stage test evidence covers Kraken `shoot` attempt21 and `pass` attempt07, with several track candidates still awaiting independent or full normal-loader review. The shot viewport solution remains open pending a camera pan/floor-projection check that keeps the ball clear of the HUD and the near-sideline shadow visible.
+
+`node --test tests/jam-stage-projection.test.js` passed for the current focused stage changes. The strict audit was refreshed (exit1 is expected while required captain clips remain missing). Full project validation and deployment are pending a production asset registration checkpoint.
+
 ## Captain animation checkpoint — J.128 complete (2026-10-28)
 
 Krios is complete at 29/29. Accepted clips this checkpoint: `dunk-clutch` attempt07 with track03, `dunk-scythe` attempt01 with corrected track09, `alley-oop-power` attempt01 with track05, and `alley-oop-reverse` attempt02 with track04. All four were reviewed in 60 normal-loader Jam Stage captures (15 frames × two facings × two zooms); capture records use registered atlases/tracks without injection. Independent reviewers confirm contact, tick21 release/rim contact, tick23 two-point score, tick30 landing, visibility and no browser errors. Rejected scythe track08 and reverse track05 remain preserved with their captures and reasons.

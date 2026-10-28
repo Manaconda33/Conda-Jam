@@ -1,4 +1,12 @@
-## Current captain checkpoint — J.128 Krios complete (2026-10-28)
+## Current continuation checkpoint — 2026-10-28 10:53 UTC
+
+J.128 Krios is complete at29/29. Work is now on the next roster-order captain, Kraken J.07 / J.129; no new clip is production-registered yet, so Kraken remains7/29. The strict audit was refreshed and still reports728 missing captain assignments, zero frame-count shortfalls, and four inherited prompt findings.
+
+Latest Kraken evidence: `shoot` attempt21 passes independent 72-view current Jam Stage capture checks (both facings,100%/120%, tick13 release,3-point scoring), but the renderer adjustment is not integrated because global shot-scale and camera-pan experiments still need a complete HUD/shadow tradeoff review. `pass` source/cleanup pass for trials; attempt07 track passes independent candidate review only when paired with a temporary Marin receiver-track override. Production must add Marin's `receive` and `idle-ball` vectors and validate those flows. `pass-overhead` attempt02 source and seam-corrected cleanup pass for trials; track attempt02 awaits independent review and is not yet a full candidate-runtime simulation. `pass-behind` source/cleanup pass for trials with track work pending. `receive` source/cleanup pass for trials, but requires a 5px margin/edge-fringe refinement before packing. `pickup` attempt01 is rejected for baked balls; attempt02 source/cleanup pass for trials. `layup` attempt01 source passes and cleanup is under independent review for right-hand continuity at release. Exact prompts, IDs, raw images, hashes, cleanup versions, captures, rejected attempts, and independent review reports remain in `tools/generate-art/`.
+
+Validation this checkpoint: `node --test tests/jam-stage-projection.test.js` passes. The strict audit command regenerated its report and exited1 by design because 728 required captain clips remain missing. No Pages deployment is triggered because production runtime assets have not been registered or pushed to `main`. The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` remains untouched.
+
+## J.128 Krios completion checkpoint (2026-10-28)
 
 Krios is now **29/29** bespoke captain clips. This checkpoint accepts `dunk-clutch` attempt07/track03, `dunk-scythe` attempt01/track09, `alley-oop-power` attempt01/track05, and `alley-oop-reverse` attempt02/track04. Each atlas has 15 distinct original poses, preserves Krios’s red skin, horns, beard, anatomy, charcoal/ember kit, and keeps the basketball on a separate Krios-specific track. Exact prompts, ImageGen IDs, raw PNGs/hashes, cleanup/layout records, light/dark previews, rejected art and track attempts, 60-view captures, and independent review notes are retained under `tools/generate-art/`.
 

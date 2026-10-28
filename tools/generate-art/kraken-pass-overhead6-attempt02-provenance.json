@@ -1,0 +1,83 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pass-overhead",
+  "direction": "right",
+  "attempt": 2,
+  "status": "source and cleanup accepted for separate ball-track trials only; no production registration",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-c4431957-32b5-428e-b129-7dfdf0f745b4",
+  "generatedAt": "2026-10-28T10:22:18Z",
+  "parentAttempt": "tools/generate-art/sources/kraken-pass-overhead6-attempt01-generated-raw.png",
+  "parentGenerationId": "exec-5bebb67d-48e9-4155-b07e-aa1854160364",
+  "promptFile": "tools/generate-art/kraken-pass-overhead6-attempt02-edit-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "f4abef3d272f3a28c0d342ecf8fcaf8f7d0406d1be3d2aab08cc3463266abdb6",
+  "rawSourceImage": "tools/generate-art/sources/kraken-pass-overhead6-attempt02-generated-raw.png",
+  "rawSourceSha256": "3c43eac04b5f68b11a3b1948d938392dfdae9831312881a44e27c8e50b14e71f",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "identityReferences": [
+    "tools/generate-art/sources/kraken-pass-overhead6-attempt01-generated-raw.png",
+    "tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-runtime-candidate.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    3,
+    2,
+    1,
+    2,
+    3
+  ],
+  "anchors": {
+    "release": 3,
+    "releaseTick": 7
+  },
+  "ballPolicy": "No basketball in athlete artwork; calibrate a separate Kraken-specific track after source and cleanup review.",
+  "sourceReview": {
+    "status": "pass for cleanup/layout trials only",
+    "evidence": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "notes": "Six pose sequence and identity are coherent, ball-free. Threshold32 isolates six figures; painterly raw can be evaluated after nearest-neighbor runtime scale. Brown haze still requires mask cleanup."
+  },
+  "cleanup": {
+    "status": "pass for separate ball-track trials only (v2)",
+    "attempts": [
+      {
+        "version": "v1",
+        "script": "tools/generate-art/clean-kraken-pass-overhead6-attempt02.py",
+        "atlas": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate.png",
+        "status": "rejected; clipped the raised hands for poses3 and4 at y=512"
+      },
+      {
+        "version": "v2",
+        "script": "tools/generate-art/clean-kraken-pass-overhead6-attempt02-v2.py",
+        "atlas": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "layout": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/layout-v2.json",
+        "report": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/cleanup-layout-report-v2.json",
+        "independentReview": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/INDEPENDENT_CLEANUP_REVIEW_V2_2026-10-28.md",
+        "status": "pass for separate ball-track trials only; globally segmented, complete poses3/4 across seam"
+      }
+    ],
+    "independentReview": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/INDEPENDENT_CLEANUP_REVIEW_V2_2026-10-28.md"
+  },
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null
+  },
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "source": "tools/generate-art/sources/kraken-pass-overhead6-attempt01-generated-raw.png",
+      "provenance": "tools/generate-art/kraken-pass-overhead6-attempt01-provenance.json",
+      "review": "tools/generate-art/previews/kraken-pass-overhead6-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+      "reason": "Baked basketball in pose0, semi-transparent brown/orange vignette contamination, painterly rendering, white spot near pose4."
+    }
+  ]
+}

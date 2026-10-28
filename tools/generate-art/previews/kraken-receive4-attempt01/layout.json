@@ -1,0 +1,161 @@
+{
+  "status": "cleanup/layout trial only; independent visual review pending",
+  "source": "tools/generate-art/sources/kraken-receive4-attempt01-generated-raw.png",
+  "sourceSha256": "d76b0b4ef3cee3427f0e8fdaf919982a95291e6967b3d6a9a351a2554a827d11",
+  "atlas": "tools/generate-art/previews/kraken-receive4-attempt01/kraken-receive4-attempt01-runtime-candidate.png",
+  "atlasSha256": "5f9236ce289087a1596a6d6cb597f5d7d57de6e75068068c1693e57fff7d3f4e",
+  "columns": 2,
+  "rows": 2,
+  "frameWidth": 80,
+  "frameHeight": 96,
+  "uniformScale": 0.12743362831858407,
+  "baselineY": 94,
+  "segmentation": "Global full-sheet alpha>=24; assign four strong components by centroid to row-major poses; retain original-alpha fringe within two source pixels.",
+  "resampling": "nearest-neighbor",
+  "frames": [
+    {
+      "index": 0,
+      "slot": [
+        0,
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        105,
+        15,
+        535,
+        583
+      ],
+      "sourceStrongComponentPixels": 85711,
+      "scale": 0.12743362831858407,
+      "scaledSize": [
+        55,
+        72
+      ],
+      "offsetInCell": [
+        12,
+        22
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        12,
+        22,
+        13,
+        2
+      ],
+      "alphaHash": "497dbd2654e7f32fc30ce46fecd2ba6580bda70174b6565cc6e0a27c03b95aa2",
+      "poseHash": "4b38fbc39ae8771a5ddf339a7bb3ce6539b550fc6e9f92c4b62b1f1b225123bc"
+    },
+    {
+      "index": 1,
+      "slot": [
+        1,
+        0
+      ],
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        699,
+        16,
+        1264,
+        582
+      ],
+      "sourceStrongComponentPixels": 87420,
+      "scale": 0.12743362831858407,
+      "scaledSize": [
+        72,
+        72
+      ],
+      "offsetInCell": [
+        4,
+        22
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        4,
+        22,
+        4,
+        2
+      ],
+      "alphaHash": "78ffd6fa7d535db9df0ad6f3253ab51a004aeea5da4eb1a17dfbc93a2bc3f287",
+      "poseHash": "a632478abb2d750636510306c02b42198343f814bf38232c63c7efe7fe03520b"
+    },
+    {
+      "index": 2,
+      "slot": [
+        0,
+        1
+      ],
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        119,
+        613,
+        550,
+        1181
+      ],
+      "sourceStrongComponentPixels": 83873,
+      "scale": 0.12743362831858407,
+      "scaledSize": [
+        55,
+        72
+      ],
+      "offsetInCell": [
+        12,
+        22
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        12,
+        22,
+        13,
+        2
+      ],
+      "alphaHash": "afa46fc45dbed6e5314f3cfc5bc54425b1e251549592bc2018fa6ab9baaa55eb",
+      "poseHash": "f2debc520e8fff9150fa532778418e145721286bfcdd26130788c169c8381184"
+    },
+    {
+      "index": 3,
+      "slot": [
+        1,
+        1
+      ],
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        777,
+        614,
+        1203,
+        1181
+      ],
+      "sourceStrongComponentPixels": 87677,
+      "scale": 0.12743362831858407,
+      "scaledSize": [
+        54,
+        72
+      ],
+      "offsetInCell": [
+        13,
+        22
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        13,
+        22,
+        13,
+        2
+      ],
+      "alphaHash": "b62887a2bedca6116f0037e4e04b06000bbf5973944c7626dcdd771fd2c9cc28",
+      "poseHash": "2787ff361794006af0d18648da602ae4467ef8b6a27de46ecd82a101bc61ce15"
+    }
+  ]
+}

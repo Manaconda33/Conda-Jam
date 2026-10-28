@@ -1,0 +1,56 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pass-overhead",
+  "direction": "right",
+  "attempt": 1,
+  "status": "rejected by independent source review; retained for provenance, not cleaned or trialed",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-5bebb67d-48e9-4155-b07e-aa1854160364",
+  "generatedAt": "2026-10-28T10:20:17Z",
+  "promptFile": "tools/generate-art/kraken-pass-overhead6-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "0ad6e3396bdf1fce9cca660bff1a6a9a2077c980e8c8ed67dedae9b6a9ad1126",
+  "rawSourceImage": "tools/generate-art/sources/kraken-pass-overhead6-attempt01-generated-raw.png",
+  "rawSourceSha256": "421f3d2bef5960c3f8db0a556e21fce2d8c47e3b56d3b773111bf48e88df3de9",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-runtime-candidate.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    3,
+    2,
+    1,
+    2,
+    3
+  ],
+  "anchors": {
+    "release": 3,
+    "releaseTick": 7
+  },
+  "ballPolicy": "No basketball in athlete artwork; calibrate a separate Kraken-specific track after source and cleanup review.",
+  "sourceReview": {
+    "status": "reject for cleanup and gameplay trials",
+    "evidence": "tools/generate-art/previews/kraken-pass-overhead6-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "notes": "Pose0 contains a baked basketball, broad semi-transparent brown/orange vignette contaminates transparency, finish is painterly rather than the established crisp arcade pixel art, and a bright white spot appears near pose4. Preserve raw unchanged; do not clean or register."
+  },
+  "cleanup": {
+    "status": "pending",
+    "evidence": null
+  },
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null
+  },
+  "rejectedAttempts": []
+}

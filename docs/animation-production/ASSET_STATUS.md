@@ -1,4 +1,4 @@
-## Current captain checkpoint — J.128 Krios complete (2026-10-28)
+## Current captain checkpoint — J.128 Krios complete; J.07 Kraken in progress (2026-10-28)
 
 Krios is now **29/29** bespoke captain clips. This checkpoint accepts `dunk-clutch` attempt07/track03, `dunk-scythe` attempt01/track09, `alley-oop-power` attempt01/track05, and `alley-oop-reverse` attempt02/track04. Each atlas has 15 distinct original poses, preserves Krios’s red skin, horns, beard, anatomy, charcoal/ember kit, and keeps the basketball on a separate Krios-specific track. Exact prompts, ImageGen IDs, raw PNGs/hashes, cleanup/layout records, light/dark previews, rejected art and track attempts, 60-view captures, and independent review notes are retained under `tools/generate-art/`.
 
@@ -6,9 +6,13 @@ Independent current Jam Stage normal-loader reviews cover every frame at both fa
 
 A production renderer defect found during alley-oop review is fixed: Jam Stage now treats `alley-oop-*` clips as dunk attacks for camera focus, player/ball depth and contact handling. Projection tests and actual alley-oop normal-loader captures cover the change.
 
-Strict report-only audit: **2,375 inspected assignments**, **548 source atlases**, **5,250 unique source drawings**, **728 missing captain assignments**, zero target-frame shortfalls, and four inherited prompt findings. Krios is complete; Kraken is next in roster order at J.129 with `shoot` as its first open clip. Its source and cleanup are ready for track trials; attempts through14 remain unaccepted because the ball leaves the 120% viewport near the fixed hoop. Moving the shooter to preserve visibility changes the three-point shot to two points. The viewport framing issue remains open. Overall captain production is incomplete.
+Strict report-only audit refreshed 2026-10-28: **2,375 inspected assignments**, **548 source atlases**, **5,250 unique source drawings**, **728 missing captain assignments**, zero target-frame shortfalls, and four inherited prompt findings. Kraken J.07 / J.129 remains at **7/29 registered clips**; no new captain clip is registered at this checkpoint.
 
-Validation: `npm test` 73/73, lint 21 modules, content validation 35 franchises / 105 athletes / 35 captains, static build PASS. The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` remains untouched.
+Kraken `shoot` has source and cleanup review plus independent attempt21 gameplay review: 72 captures cover every start/release/flight sample, both facings, 100%/120%, correct tick13 release and three-point scoring. The renderer scale and 120% fixed-HUD framing are still under comparison against an existing shooter; do not register until the camera result is resolved.
+
+`pass` source attempt02 and cleanup pass for track trials. Track attempt01 (reused Krios offsets) and attempt02 (good contact, detached recipient ball at tick22/26) are rejected for production; attempt03 is correcting the recipient catch track. `pass-overhead` attempt01 is rejected; attempt02 source and seam-corrected cleanup v2 pass for track trials. `pass-behind` attempt01 source/cleanup pass for track trials. `receive` attempt01 source/cleanup pass for track trials but needs edge-fringe and 4px-margin refinement before packing. `pickup` attempt01 is rejected for baked basketballs at grab/recovery; attempt02 has source/cleanup approval for track trials only, with no ball and cleared runtime fringe. `layup` attempt01 passes source review and has a cleanup trial pending independent review of right-hand continuity through release. Every raw, prompt, ID, hash, rejection and review is retained under `tools/generate-art/`; candidates remain unregistered. Overall captain production is incomplete.
+
+Validation: focused `node --test tests/jam-stage-projection.test.js` passes. Current Jam Stage candidate captures cover Kraken pass at both facings and 100%/120%; independent review still blocks production registration on the recipient catch. The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` remains untouched.
 
 ## Previous asset lane snapshot — 2026-10-28 07:35 UTC
 
