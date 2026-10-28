@@ -123,6 +123,76 @@ test('J.128 Krios pickup uses the reviewed registered atlas and gameplay track',
   assert.deepEqual(gameplay.uncaughtBrowserErrors,[]);
 });
 
+test('J.128 Krios layup and reverse layup use reviewed registered atlases and separate scoring tracks', async () => {
+  const definitions = [
+    {
+      key:'layup', height:[.9,1.15,1.55,2.05,2.25,2,1.1,.7], forward:[4,4.5,4.5,5,6,6,6,4],
+      durations:[2,3,3,2,1,3,4,4], release:10,
+      report:'tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-01/registered-runtime/report.json',
+    },
+    {
+      key:'layup-reverse', height:[.9,1.25,1.7,2.15,2.3,2.35,1.4,.8], forward:[4,5.5,4,3,-4,-1,5,4],
+      durations:[2,3,2,3,2,1,4,4], release:12,
+      report:'tools/generate-art/previews/j128-krios-layup-reverse-track-candidate/attempt-01/registered-runtime/report.json',
+    },
+  ];
+  for (const {key,height,forward,durations,release,report:reportPath} of definitions) {
+    const clip=animationAssetManifest.characters.krios.directions.right[key];
+    const atlasPath=fileURLToPath(new URL(`../${clip.src.slice(2)}`,import.meta.url));
+    assert.equal(clip.reviewed,true);
+    assert.equal(clip.provenance.sourceReview.status,'accepted');
+    assert.equal(clip.provenance.atlasReview.status,'accepted');
+    assert.equal(clip.provenance.ballTrackReview.status,'accepted');
+    assert.deepEqual(clip.provenance.runtimeBallTrack,{height,forward,releaseVz:.45,reviewed:true});
+    assert.equal(clip.frames.length,8);
+    assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,8);
+    assert.equal(clip.sha256,createHash('sha256').update(readFileSync(atlasPath)).digest('hex'));
+    const decoded=await decodeImage(atlasPath);
+    assert.deepEqual([decoded.width,decoded.height],[1024,96]);
+    const inspected=await inspectAtlas(atlasPath,clip.frames);
+    assert.equal(inspected.frames.length,8);
+    assert.ok(inspected.frames.every(frame=>frame.visiblePixels>0&&!frame.error));
+    assert.deepEqual(animationClips[key].frames.map(frame=>frame.duration),durations);
+    assert.equal(anchorTick(key,'release'),release);
+    assert.equal(sampleBallReleaseVz(key,'krios'),.45);
+    for(let frame=0,tick=0;frame<8;frame++){
+      assert.equal(sampleAnimation(key,tick).frame,frame);
+      assert.equal(sampleBallHeight(key,tick,'krios'),height[frame]);
+      assert.equal(sampleBallForward(key,tick,'krios'),forward[frame]);
+      tick+=durations[frame];
+    }
+    const image={complete:true,naturalWidth:1024,naturalHeight:96,file:clip.src};
+    for(const [facing,flip] of [[1,false],[-1,true]]){
+      const selected=selectProductionSprite({id:'krios',facing,animation:{clip:key,tick:release}},{manifest:animationAssetManifest,images:new Map([[clip.src,image]])});
+      assert.equal(selected?.atlas.file,clip.src);
+      assert.equal(selected?.flip,flip);
+      assert.equal(selected?.frame,key==='layup'?4:5);
+    }
+    const gameplay=report(reportPath);
+    assert.equal(gameplay.runtimeIntegration,true);
+    assert.equal(gameplay.captureCount,64);
+    assert.deepEqual(gameplay.uncaughtBrowserErrors,[]);
+    assert.equal(gameplay.runs.length,4);
+    for(const run of gameplay.runs){
+      const direction=run.facing<0?'left':'right';
+      const before=run.captures.find(capture=>capture.tick===release-1);
+      const released=run.captures.find(capture=>capture.tick===release);
+      const scored=run.captures.find(capture=>capture.tick===49);
+      assert.equal(run.zoom===100||run.zoom===120,true);
+      assert.equal(before.frame,key==='layup'?3:4);
+      assert.equal(before.ball.ownerId,'krios');
+      assert.equal(released.frame,key==='layup'?4:5);
+      assert.equal(released.ball.mode,'shot');
+      assert.equal(released.ball.ownerId,null);
+      assert.ok(released.events.some(event=>event.text==='Krios launches a 2-pointer'));
+      assert.ok(scored.events.some(event=>event.text==='Krios scores 2!'));
+      assert.deepEqual(scored.score,direction==='right'?[2,0]:[0,2]);
+      assert.ok(run.captures.filter(capture=>capture.tick<animationClips[key].frames.reduce((sum,frame)=>sum+frame.duration,0))
+        .every(capture=>capture.src===clip.src&&capture.flip===(run.facing<0)));
+    }
+  }
+});
+
 test('J.111 Leo reverse layup uses the registered eight-pose atlas and made-shot profile', async () => {
   const clip=animationAssetManifest.characters.leo.directions.right['layup-reverse'];
   const height=[0.4,1.61,1.98,2.6,2.65,2.65,1.45,0.84];

@@ -1,0 +1,338 @@
+{
+  "status": "cleanup and layout review trial; not accepted production art",
+  "source": "tools/generate-art/sources/krios-layup8-attempt06-chromakey-generated-raw.png",
+  "sourceSha256": "7ce2df943b35e655435b50f15703566799e7e3fa23c60e0255eade7567be84c6",
+  "keyMethod": {
+    "predicate": "G >= 130 and G-R >= 40 and G-B >= 40",
+    "connectivity": "8-connected green-key pixels reachable from canvas edges plus all disconnected interior green-key islands within pose bounds",
+    "keyedPixelCount": 1231529,
+    "interiorKeyIslandCount": 13,
+    "inpaintedSmallIslandCount": 12,
+    "removedLargeIslandCount": 1,
+    "edgeSpillPixelsRemoved": 3440,
+    "residualGreenInpaintPixels": 2073,
+    "residualGreenInpaintRule": "Within reviewed figure bounds, weak green-dominant pixels outside the transparent key are RGB-repaired from the nearest non-green source pixel; opacity is preserved.",
+    "edgeSpillRule": "Within two pixels of the connected matte: clear only green-dominant pixels where G >= 70, G-R >= 8, and G-B >= 8.",
+    "inpaintRule": "Interior green-key components of at most 60 pixels: preserve opacity and replace RGB from nearest non-green pixel; larger islands become transparent.",
+    "retainedOpaquePixelCount": 341335,
+    "preservation": "Original raw source retained. Cleanup changes only alpha plus nearest-neighbor RGB repair for small matte islands. No redraw."
+  },
+  "layout": {
+    "columns": 4,
+    "rows": 2,
+    "cellWidth": 384,
+    "cellHeight": 512,
+    "uniformScale": 0.9957081545064378,
+    "minimumTransparentMarginPx": 24,
+    "interpolation": "nearest-neighbor",
+    "output": "tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-keyed-layout-trial.png",
+    "nativeSizeRuntimeCandidate": "tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+    "runtimeLayout": "tools/generate-art/previews/krios-layup8-attempt06/runtime-layout.json",
+    "poses": [
+      {
+        "frame": 0,
+        "sourceBoundsLTRB": [
+          30,
+          148,
+          356,
+          456
+        ],
+        "sourceSize": [
+          326,
+          308
+        ],
+        "uniformScale": 0.9957081545064378,
+        "scaledSize": [
+          325,
+          307
+        ],
+        "atlasOffset": [
+          29,
+          102
+        ],
+        "outputBoundsInCellLTRB": [
+          30,
+          103,
+          354,
+          409
+        ],
+        "outputMarginsLTRB": [
+          30,
+          103,
+          30,
+          103
+        ],
+        "minimumMarginPx": 30,
+        "meets24pxMargins": true,
+        "opaqueFigurePixels": 39305,
+        "poseSha256": "fea543b572ee535e0cdcbcc1fd38dedb236972c4edb06f23fa28b538d0d2c291"
+      },
+      {
+        "frame": 1,
+        "sourceBoundsLTRB": [
+          464,
+          113,
+          690,
+          468
+        ],
+        "sourceSize": [
+          226,
+          355
+        ],
+        "uniformScale": 0.9957081545064378,
+        "scaledSize": [
+          225,
+          353
+        ],
+        "atlasOffset": [
+          463,
+          79
+        ],
+        "outputBoundsInCellLTRB": [
+          80,
+          79,
+          303,
+          432
+        ],
+        "outputMarginsLTRB": [
+          80,
+          79,
+          81,
+          80
+        ],
+        "minimumMarginPx": 79,
+        "meets24pxMargins": true,
+        "opaqueFigurePixels": 37612,
+        "poseSha256": "c619cc20a7160b9c0806469486e493f05a73001ad7e454500726013eb5ef9147"
+      },
+      {
+        "frame": 2,
+        "sourceBoundsLTRB": [
+          830,
+          70,
+          1103,
+          463
+        ],
+        "sourceSize": [
+          273,
+          393
+        ],
+        "uniformScale": 0.9957081545064378,
+        "scaledSize": [
+          272,
+          391
+        ],
+        "atlasOffset": [
+          824,
+          60
+        ],
+        "outputBoundsInCellLTRB": [
+          57,
+          61,
+          327,
+          451
+        ],
+        "outputMarginsLTRB": [
+          57,
+          61,
+          57,
+          61
+        ],
+        "minimumMarginPx": 57,
+        "meets24pxMargins": true,
+        "opaqueFigurePixels": 40599,
+        "poseSha256": "84d7cfefc86d1ac61d5e7ff080911fd0c68ac4b98c8c3cd8718e275da78a84a4"
+      },
+      {
+        "frame": 3,
+        "sourceBoundsLTRB": [
+          1196,
+          10,
+          1482,
+          476
+        ],
+        "sourceSize": [
+          286,
+          466
+        ],
+        "uniformScale": 0.9957081545064378,
+        "scaledSize": [
+          285,
+          464
+        ],
+        "atlasOffset": [
+          1201,
+          24
+        ],
+        "outputBoundsInCellLTRB": [
+          50,
+          25,
+          333,
+          488
+        ],
+        "outputMarginsLTRB": [
+          50,
+          25,
+          51,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "opaqueFigurePixels": 41803,
+        "poseSha256": "a2f193db0886671b88f2402dbb4d67b6592317437dea7d7be14a8529a6b488e5"
+      },
+      {
+        "frame": 4,
+        "sourceBoundsLTRB": [
+          30,
+          503,
+          346,
+          965
+        ],
+        "sourceSize": [
+          316,
+          462
+        ],
+        "uniformScale": 0.9957081545064378,
+        "scaledSize": [
+          315,
+          460
+        ],
+        "atlasOffset": [
+          34,
+          538
+        ],
+        "outputBoundsInCellLTRB": [
+          35,
+          27,
+          349,
+          486
+        ],
+        "outputMarginsLTRB": [
+          35,
+          27,
+          35,
+          26
+        ],
+        "minimumMarginPx": 26,
+        "meets24pxMargins": true,
+        "opaqueFigurePixels": 44089,
+        "poseSha256": "1d30c51a7dfedb4ff7f7997d0797efae8aa4c932dac60a83affb3806832ee7dc"
+      },
+      {
+        "frame": 5,
+        "sourceBoundsLTRB": [
+          506,
+          511,
+          714,
+          965
+        ],
+        "sourceSize": [
+          208,
+          454
+        ],
+        "uniformScale": 0.9957081545064378,
+        "scaledSize": [
+          207,
+          452
+        ],
+        "atlasOffset": [
+          472,
+          542
+        ],
+        "outputBoundsInCellLTRB": [
+          89,
+          31,
+          294,
+          482
+        ],
+        "outputMarginsLTRB": [
+          89,
+          31,
+          90,
+          30
+        ],
+        "minimumMarginPx": 30,
+        "meets24pxMargins": true,
+        "opaqueFigurePixels": 42335,
+        "poseSha256": "d359e8adb9cd6ad4d1db8c476e5b7511534a3b83885de3ec863081fe3d0bfbe9"
+      },
+      {
+        "frame": 6,
+        "sourceBoundsLTRB": [
+          800,
+          608,
+          1108,
+          977
+        ],
+        "sourceSize": [
+          308,
+          369
+        ],
+        "uniformScale": 0.9957081545064378,
+        "scaledSize": [
+          307,
+          367
+        ],
+        "atlasOffset": [
+          806,
+          584
+        ],
+        "outputBoundsInCellLTRB": [
+          39,
+          73,
+          344,
+          439
+        ],
+        "outputMarginsLTRB": [
+          39,
+          73,
+          40,
+          73
+        ],
+        "minimumMarginPx": 39,
+        "meets24pxMargins": true,
+        "opaqueFigurePixels": 46447,
+        "poseSha256": "d4ab52a754c7df92f51b61a42e8388a662bd6be9514e6fb76a1456ebe41753cc"
+      },
+      {
+        "frame": 7,
+        "sourceBoundsLTRB": [
+          1192,
+          648,
+          1479,
+          963
+        ],
+        "sourceSize": [
+          287,
+          315
+        ],
+        "uniformScale": 0.9957081545064378,
+        "scaledSize": [
+          286,
+          314
+        ],
+        "atlasOffset": [
+          1201,
+          611
+        ],
+        "outputBoundsInCellLTRB": [
+          49,
+          99,
+          335,
+          413
+        ],
+        "outputMarginsLTRB": [
+          49,
+          99,
+          49,
+          99
+        ],
+        "minimumMarginPx": 49,
+        "meets24pxMargins": true,
+        "opaqueFigurePixels": 45307,
+        "poseSha256": "a4d29f0576d07e430c088c47aba29ca90790038e509dbc4bd8d122bb051c3f43"
+      }
+    ]
+  }
+}

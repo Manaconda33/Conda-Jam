@@ -1,0 +1,58 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "layup-reverse",
+  "direction": "right",
+  "attempt": 1,
+  "status": "source accepted for cleanup/layout trials; awaiting post-cleanup review; not registered",
+  "sourceImage": "tools/generate-art/sources/krios-layup-reverse8-attempt01-generated-raw.png",
+  "sourceSha256": "dcf322d0087ff3882f9644afdf098ee7ef6f51af636dec299ae0539c9c53c8fe",
+  "canvas": {
+    "width": 1536,
+    "height": 1024,
+    "format": "opaque RGB chroma-key source"
+  },
+  "requestedGrid": {
+    "columns": 4,
+    "rows": 2,
+    "cellWidth": 384,
+    "cellHeight": 512,
+    "order": "row-major"
+  },
+  "keyColor": {
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "method": "documented predicates and spill cleanup in cleanup report"
+  },
+  "promptFile": "tools/generate-art/krios-layup-reverse8-attempt01-imagegen-request.txt",
+  "promptSha256": "733cd1f20815179568007516b474646db8d1179de142029d58a77e34a3b22022",
+  "provenanceFile": "tools/generate-art/krios-layup-reverse8-attempt01-provenance.json",
+  "canonicalTiming": {
+    "frameDurations": [
+      2,
+      3,
+      2,
+      3,
+      2,
+      1,
+      4,
+      4
+    ],
+    "takeoffFrame": 1,
+    "takeoffTick": 2,
+    "peakFrame": 4,
+    "peakTick": 10,
+    "releaseFrame": 5,
+    "releaseTick": 12,
+    "finishFrame": 7,
+    "finishTick": 17,
+    "clipEndTick": 21
+  },
+  "cleanupReport": "tools/generate-art/previews/krios-layup-reverse8-attempt01/cleanup-layout-report.json",
+  "cleanupNotes": "tools/generate-art/krios-layup-reverse8-attempt01-cleanup-notes.md",
+  "runtimeLayout": "tools/generate-art/previews/krios-layup-reverse8-attempt01/runtime-layout.json",
+  "ball": "absent from art; separate Krios-specific track required"
+}
