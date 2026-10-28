@@ -1,6 +1,8 @@
 # J.111 — Leo reverse-layup source notes
 
-Eight full-body poses show an image-right approach, gather, shoulder turn away, far-side reach, reverse-side release and recovery. The release pose's profile is visible in the raw sheet, but becomes too small to read as Leo's face and mustache in the packed 80×96 cell. Independent review confirmed this at runtime resolution. Do not register or accept this atlas until the release-face readability defect is corrected and the packed result is reviewed. The original candidate and all rejected correction outputs remain preserved.
+Eight full-body poses show an image-right approach, gather, shoulder turn away, far-side reach, reverse-side release and recovery. The accepted production source is the attempt06 cleanup01 atlas; its face and mustache remain readable at packed 80×96 scale, and only two off-palette transparent edge pixels were cleaned without repainting athlete pixels. This replaces the earlier source-only hold described in the dated history below. The source, rejected corrections, and all runtime attempts are preserved.
+
+Runtime integration completed on 2026-10-28. The accepted athlete track is height `[0.4,1.61,1.98,2.6,2.65,2.65,1.45,0.84]`, forward `[5.85,6.58,4.02,4.5,5.5,6.8,6.58,5.85]`, release velocity `0.45`; release occurs at tick12. Attempt21 uses the registered public atlas and production track in a fresh browser process per facing, covers both facings at 100%/120%, scores at tick49 in each direction, and is independently approved. Attempt20 remains preserved as a rejected camera-framing failure. Review: `tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-21/INDEPENDENT_RUNTIME_REVIEW.md`.
 
 - Original candidate generation: `exec-09ac073c-ba6b-415f-946e-9bce6ec80993`; date 2026-10-24; canon K.05. Source-only; not accepted for runtime.
 - Raw sheet: `tools/generate-art/sources/j111-leo-layup-reverse-generated-raw.png`; source/atlas hashes in `tools/generate-art/j111-leo-layup-reverse8-provenance.json`.
@@ -8,7 +10,7 @@ Eight full-body poses show an image-right approach, gather, shoulder turn away, 
 - Packer/cleanup: `tools/generate-art/package-leo-action8.py`; it isolates eight original components without inventing frames. The source pose contains a profile at full size, but the packing reduction obscures the defining face and mustache details.
 - Verbatim prompt: `tools/generate-art/j111-leo-layup-reverse8-prompt.md`. Four face-readability correction generations were rejected; see `tools/generate-art/j111-leo-layup-reverse-attempts.json` for generation IDs, exact prompts, raw paths, hashes and review reasons.
 
-Initial separate Leo ball track: height `[0.95,1.2,1.3,1.85,2.1,2.25,1.3,0.6]`; forward `[5,7,8,5,2,1.5,7,5]`. Far-side release is frame5/tick12. This track remains an unreviewed proposal; runtime hand-contact tuning and manifest registration await acceptance of readable artwork.
+The first separate Leo track proposal was superseded by the accepted attempt14/attempt21 profile above. Far-side release remains frame5/tick12.
 
 
 ## Frame5 correction iteration — 2026-10-27

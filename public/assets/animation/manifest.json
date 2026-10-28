@@ -63089,13 +63089,256 @@
               }
             },
             "reviewed": true
+          },
+          "layup-reverse": {
+            "src": "./public/assets/animation/leo-layup-reverse-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "388dd8cd4f0dbfc715a6e4ca22ad89d3f1fb10d799e35d4067861b762af066ba"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "36ea31861e964df6f17663da14958866cef42245524f0fc3b1cf5870b3f5c6cf"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "301d0dd2a465f98d879e91ec915cc9504d5824b767c0e9bf01e19e594d6f2a74"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "a6ce8628de00b7b3c4fba6bcb1eea4775eda795505cdc4e6c82fe4a04e494594"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "6786bf94344d746de7d0eee0f75cc22e35b3f36430946174d961eb8bc62affb0"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "a45bdf5c63ee1d42a99dae1fd1bad8782abda116b879dea5e0208176bc68b200"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "e8b1fb91278ea640a554faba49b0dec09f72b9d8c8c7bc302052673d65e2760b"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "4e438bded94a8de6161468db275af5bc096d218c51c8696ab4ab3aef447f378a"
+              }
+            ],
+            "sha256": "4d7c1e04a81cd568ca926ac3031c76c597225784b38ab8e0ba493c04c1c650d0",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "leo",
+              "clip": "layup-reverse",
+              "direction": "right",
+              "canonicalSection": "K.05",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-24",
+              "generationId": "exec-09ac073c-ba6b-415f-946e-9bce6ec80993",
+              "imageGenerationId": "exec-09ac073c-ba6b-415f-946e-9bce6ec80993",
+              "rawSourceImage": "tools/generate-art/sources/j111-leo-layup-reverse-generated-raw.png",
+              "sourceImage": "tools/generate-art/sources/j111-leo-layup-reverse-generated-raw.png",
+              "rawSourceSha256": "7e606d21513c734fc8c83da91cffb078f5824eee6c718d884bdf55624c4cbc45",
+              "sourceSha256": "7e606d21513c734fc8c83da91cffb078f5824eee6c718d884bdf55624c4cbc45",
+              "promptFile": "tools/generate-art/j111-leo-layup-reverse8-prompt.md",
+              "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly eight distinct complete full-body Leo poses in a strict four-column by two-row grid, row-major. Broad transparent gutters and margins; full hair, hands and shoes stay in each cell. Consistent camera and body scale. Readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve pale skin, long wavy black hair, refined mustache, composed handsome adult face, natural human anatomy and master-strategist control. He wears the tailored black basketball uniform with restrained crimson accents, matching shorts and shoes, and refined trim. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change or props.\n\nThis is a right-facing reverse-side layup: Leo moves toward image-right, then turns his shoulders away from the basket and extends the far-side hand over/across his shoulder for a reverse finish. The basketball is rendered separately by the game. All drawn hands remain empty. There must be no ball, sphere, orb, seams, court, hoop, rim, floor, shadow, background, glow, border, grid, text, teammate or opponent. Exterior and gutters are genuine alpha-zero transparency with no checkerboard, matte, speckles or haze.\n\nEight distinct connected poses:\n0 runs toward image-right with eyes on the basket;\n1 gathers at waist and begins turning his shoulders away;\n2 plants and compresses, twisting his torso while keeping his head and long hair clear;\n3 leaps toward the rim with back partly turned to camera, far-side hand carrying the invisible ball path behind his shoulder;\n4 rises and reaches over/across the shoulder with the far-side arm, palm still closed around no object;\n5 RELEASE at simulation tick12: full high reverse-side reach, far-side hand opens after release; face profile and mustache remain visible;\n6 empty-handed follow-through as Leo unwinds and begins descending;\n7 soft balanced landing, hands empty, right-facing ready stance.\n\nMake the reverse-side turn unmistakable and distinct from a normal layup, but preserve natural joints and direction of travel. Keep Leo pale and human with the same long wavy black hair, mustache, face, black/crimson kit and shoes. Return only the transparent sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "rejectedGenerations": [],
+              "mirrorEligible": true,
+              "ballPolicy": "The ball is separately rendered. Leo turns away from the basket and carries the ball-miming far-side hand over his shoulder; he releases from the open far-side palm on frame5/tick12. No ball appears in the poses.",
+              "ballTrack": {
+                "height": [
+                  0.95,
+                  1.2,
+                  1.3,
+                  1.85,
+                  2.1,
+                  2.25,
+                  1.3,
+                  0.6
+                ],
+                "forward": [
+                  5,
+                  7,
+                  8,
+                  5,
+                  2,
+                  1.5,
+                  7,
+                  5
+                ]
+              },
+              "cleanup": {
+                "script": "tools/generate-art/package-leo-action8.py",
+                "method": "shared eight-pose component isolation and nearest antialiased-pixel reassignment; 4x2 row-major atlas pack with common baseline"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedBy": "Codex visual inspection",
+                "reviewNotes": "Eight distinct right-facing poses show a forward layup gather, shoulder turn away from the rim, far-side arm extension and open-hand reverse release on frame5/tick12. Leo remains pale, adult and human with long wavy black hair, refined mustache and black/crimson kit; no ball is drawn."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 61,
+                  "y": 112,
+                  "w": 310,
+                  "h": 359,
+                  "component": 2,
+                  "area": 44546
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 503,
+                  "y": 121,
+                  "w": 209,
+                  "h": 352,
+                  "component": 3,
+                  "area": 40710
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 831,
+                  "y": 127,
+                  "w": 284,
+                  "h": 350,
+                  "component": 4,
+                  "area": 43046
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1215,
+                  "y": 42,
+                  "w": 276,
+                  "h": 433,
+                  "component": 1,
+                  "area": 45490
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 69,
+                  "y": 519,
+                  "w": 290,
+                  "h": 440,
+                  "component": 6,
+                  "area": 42425
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 451,
+                  "y": 510,
+                  "w": 342,
+                  "h": 465,
+                  "component": 5,
+                  "area": 47073
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 862,
+                  "y": 527,
+                  "w": 283,
+                  "h": 448,
+                  "component": 7,
+                  "area": 45413
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1241,
+                  "y": 615,
+                  "w": 236,
+                  "h": 349,
+                  "component": 8,
+                  "area": 40249
+                }
+              ],
+              "uniformScale": 0.1978494623655914,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup-reverse poses",
+              "atlasPath": "public/assets/animation/leo-layup-reverse-right.webp",
+              "atlasSha256": "4d7c1e04a81cd568ca926ac3031c76c597225784b38ab8e0ba493c04c1c650d0",
+              "atlasBytes": 47962,
+              "status": "source, atlas, athlete-specific track and registered-runtime gameplay accepted",
+              "sourceReview": {
+                "status": "accepted",
+                "review": "tools/generate-art/j111-leo-layup-reverse8-provenance.json"
+              },
+              "ballTrackReview": {
+                "status": "accepted",
+                "review": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-14/INDEPENDENT_REVIEW.md",
+                "candidate": "attempt-14"
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  0.4,
+                  1.61,
+                  1.98,
+                  2.6,
+                  2.65,
+                  2.65,
+                  1.45,
+                  0.84
+                ],
+                "forward": [
+                  5.85,
+                  6.58,
+                  4.02,
+                  4.5,
+                  5.5,
+                  6.8,
+                  6.58,
+                  5.85
+                ],
+                "releaseVz": 0.45,
+                "reviewed": true
+              },
+              "gameplayCapture": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-21/INDEPENDENT_RUNTIME_REVIEW.md",
+              "registeredRuntimeReview": {
+                "status": "accepted",
+                "review": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-21/INDEPENDENT_RUNTIME_REVIEW.md"
+              }
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Independent source, track and gameplay reviewers",
+              "scope": "Eight-pose Leo identity/anatomy; reverse-side release; separate ball; actual gameplay both facings and zooms",
+              "notes": "Eight unique Leo poses and the accepted separate ball track passed registered-runtime capture in both facings at 100%/120%; the ball releases at tick12 and both shots score at tick49 with correct native/mirrored sprite selection and no browser errors.",
+              "at": "2026-10-28"
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Leo alley-oop-power and reverse alley-oop clips safely mirror; independent native captures validate both facings."
+        "notes": "Leo’s accepted reverse-side profile and long wavy hair remain coherent when mirrored. Attempt14 confirms the right-facing art unflipped and left-facing art safely mirrored with correct hand/ball relationship."
       }
     },
     "kraken": {
