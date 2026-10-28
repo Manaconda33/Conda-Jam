@@ -19,4 +19,6 @@ Krios has all 29 registered clips; Kraken has 8 registered clips, including `cel
 
 The preview was rebuilt from commit `755a4a9b`. Every atlas source matches its embedded byte-for-byte representation, including `kraken-celebrate-right.png`.
 
+An identity follow-up compared the user-provided Krios-on-court screenshot with the authoritative roster specs, the Kraken/Krios source atlases, and the current branch's normal-loader celebration capture. The submitted screenshot depicts Krios while Kraken receives the score, but its source build is unknown. The registered celebration atlas and current branch capture depict Kraken's elf design. See `tools/generate-art/previews/kraken-celebrate10-attempt04/identity-audit/INDEPENDENT_IDENTITY_AUDIT.md`; this comparison does not establish the submitted screenshot's build provenance.
+
 This validates the local branch build. The Pages workflow deploys `main`; this preview check does not claim a deployed Pages commit or URL.

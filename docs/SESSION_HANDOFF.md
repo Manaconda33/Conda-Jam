@@ -1,14 +1,16 @@
-## Current continuation checkpoint — 2026-10-28 15:44 UTC
+## Current continuation checkpoint — 2026-10-28 15:56 UTC
 
 Krios J.128 remains complete at 29/29. Kraken J.07 / J.129 is now **8/29 registered clips**, after accepting its bespoke `celebrate` atlas. The refreshed strict report-only audit records 2,376 assignments, 549 source atlases, 5,260 unique drawings, 727 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings.
 
 The standalone Jamverse preview was rebuilt with all current registered animations: 105 athletes, 883 assignments, 883 unique atlas paths, and 8,051 frame rectangles. All current atlas sources are embedded byte-for-byte; no atlas is missing or extra. This is a local branch build, not a Pages deployment. See [current preview review](docs/animation-production/previews/CURRENT_PREVIEW_REVIEW.md).
 
+Identity audit: the user's score screenshot shows Krios receiving Kraken's score, but the source build is unknown. The current registered Kraken celebration art and local preview use Kraken's elf design. See `tools/generate-art/previews/kraken-celebrate10-attempt04/identity-audit/INDEPENDENT_IDENTITY_AUDIT.md`.
+
 Kraken's optional per-clip `baselineY` renderer support is tested; no registered clip uses the metadata yet. Reverse layup attempt23 still needs viewport/HUD framing work and was not registered. Pass-overhead attempt05 passes trial contact/simulation but awaits normal-loader validation and source-margin approval.
 
 Kraken pickup attempt04 cleanup02 passes independent source review for separate ball-track trials: five ball-free poses, clear ankle-height grab at frame3/tick7, baseline y=90 and six transparent rows below soles. Separate-ball calibration and normal-loader review remain.
 
-Older Kraken score captures showed the red Krios generic fallback because Kraken `celebrate` was missing. Kraken now has ten bespoke, unique celebration poses in 88×96 cells at baseline y=94. Independent source, cleanup, candidate gameplay and normal-loader score-transition reviews pass all frames at both facings and 100%/120% zoom; the two-point score and dead/unowned ball are correct, with no Krios fallback, crop, HUD collision or browser error. Cleanup01's short 76px figures and trial captures are preserved as superseded; attempts01–03 remain documented rejects, and attempt05 remains an unreviewed alternate.
+Earlier Kraken score captures showed the red Krios generic fallback because Kraken `celebrate` was missing. The user's latest screenshot also shows Krios receiving Kraken's score, but its build provenance is unknown. The current local branch uses Kraken's bespoke, ten-pose elf celebration in 88×96 cells at baseline y=94. Independent source, cleanup, candidate gameplay and normal-loader score-transition reviews pass all frames at both facings and 100%/120% zoom; the two-point score and dead/unowned ball are correct, with no Krios fallback, crop, HUD collision or browser error. Cleanup01's short 76px figures and trial captures are preserved as superseded; attempts01–03 remain documented rejects, and attempt05 remains an unreviewed alternate.
 
 Kraken shoot viewport framing and live rebound catch gameplay remain open. The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` remains unchanged.
 

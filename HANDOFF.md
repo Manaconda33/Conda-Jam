@@ -1,8 +1,10 @@
-## Current continuation checkpoint — 2026-10-28 15:44 UTC
+## Current continuation checkpoint — 2026-10-28 15:56 UTC
 
 Krios J.128 remains complete at 29/29. Kraken J.07 / J.129 is now **8/29 registered clips**, after accepting its bespoke `celebrate` atlas. The refreshed strict report-only audit records 2,376 assignments, 549 source atlases, 5,260 unique drawings, 727 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings.
 
 The standalone Jamverse preview was rebuilt with all current registered animations: 105 athletes, 883 assignments, 883 unique atlas paths, and 8,051 frame rectangles. All current atlas sources are embedded byte-for-byte; no atlas is missing or extra. This is a local branch build, not a Pages deployment. See [current preview review](docs/animation-production/previews/CURRENT_PREVIEW_REVIEW.md).
+
+An identity audit compared Kraken's and Krios's authoritative designs, their registered art, the user-provided score screenshot, and the branch's normal-loader celebration capture. The user screenshot visibly shows Krios receiving Kraken's score, but its source build is unknown. The current registered celebration and local preview show Kraken's elf design; see `tools/generate-art/previews/kraken-celebrate10-attempt04/identity-audit/INDEPENDENT_IDENTITY_AUDIT.md`.
 
 Kraken's optional per-clip `baselineY` renderer support is tested; no registered clip uses the metadata yet. Reverse layup attempt23 still needs viewport/HUD framing work and was not registered. Pass-overhead attempt05 passes trial contact/simulation but awaits normal-loader validation and source-margin approval.
 

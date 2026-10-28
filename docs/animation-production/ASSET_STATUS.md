@@ -1,4 +1,4 @@
-## Current captain checkpoint — J.128 Krios complete; J.07 Kraken in progress (2026-10-28 15:44 UTC)
+## Current captain checkpoint — J.128 Krios complete; J.07 Kraken in progress (2026-10-28 15:56 UTC)
 
 Krios remains 29/29. Kraken J.07 / J.129 is now 8/29 registered. Refreshed strict report-only audit: 2,376 inspected assignments, 549 source atlases, 5,260 unique drawings, 727 missing captain assignments, zero target-frame shortfalls, and four inherited prompt findings.
 
@@ -8,7 +8,7 @@ Optional clip `baselineY` renderer support remains tested, with no registered cl
 
 Kraken pickup attempt04 cleanup02 passes independent source review for separate ball-track trials: five distinct ball-free poses, a clear empty ankle-level grab on frame3/tick7, soles at baseline y=90, and six transparent rows below. Separate-ball calibration and normal-loader, facing, and zoom review remain.
 
-The red Krios figure in older Kraken score screenshots was the missing-`celebrate` fallback. Kraken `celebrate` is now accepted from attempt04 cleanup02: ten unique, bespoke 88×96 frames at baseline y=94. Independent source, cleanup, candidate gameplay and normal-loader score-transition reviews pass all ten frames, both facings and 100%/120% zoom. Correct scoring and dead/unowned ball state are confirmed; no fallback, crop, HUD collision or browser error remains. The brighter/bolder pixel treatment is coherent with Kraken at court scale. Cleanup01's shorter version remains preserved as superseded; attempt05 is an unreviewed alternate, and attempts01–03 are preserved rejects.
+Kraken `celebrate` is accepted from attempt04 cleanup02: ten unique, bespoke 88×96 frames at baseline y=94. Independent source, cleanup, candidate gameplay and normal-loader score-transition reviews pass all ten frames, both facings and 100%/120% zoom. Correct scoring and dead/unowned ball state are confirmed; no fallback, crop, HUD collision or browser error remains. The user-provided score screenshot visibly shows Krios receiving Kraken's score, but its source build is unknown. Independent identity review confirms the registered celebration and current local preview show Kraken's elf design; see `tools/generate-art/previews/kraken-celebrate10-attempt04/identity-audit/INDEPENDENT_IDENTITY_AUDIT.md`. Cleanup01's shorter version remains preserved as superseded; attempt05 is an unreviewed alternate, and attempts01–03 are preserved rejects.
 
 Kraken shoot viewport framing and live rebound catch gameplay remain open. The user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` remains untouched.
 
